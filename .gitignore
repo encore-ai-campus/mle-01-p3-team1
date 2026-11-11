@@ -1,0 +1,55 @@
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
+# Virtual environments
+.venv/
+venv/
+
+# Environment variables & secrets
+.env
+.env.*
+!.env.example
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Logs & temporary files
+*.log
+logs/
+tmp/
+temp/
+
+# Local databases
+*.db
+*.sqlite
+*.sqlite3
+
+# Generated embeddings & models
+models/
+checkpoints/
+*.pt
+*.pth
+*.safetensors
+*.faiss
+*.npy
+*.npz
+
+# Generated evaluation outputs
+outputs/
+reports/generated/
+
+# Build artifacts
+build/
+dist/
