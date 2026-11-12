@@ -15,8 +15,10 @@ import os
 import statistics
 import sys
 from collections import Counter
+from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import datetime
 from pathlib import Path
+from threading import local
 from typing import Any, Mapping, Sequence
 
 from dotenv import load_dotenv
@@ -51,6 +53,12 @@ def parse_args(argv: list[str] | None = None) -> argparse.Namespace:
     )
     parser.add_argument("--evalset", type=Path, default=DEFAULT_EVALSET)
     parser.add_argument("--top-k", type=int, default=5)
+    parser.add_argument(
+        "--batch-size",
+        type=int,
+        default=8,
+        help="Maximum concurrent GraphRAG questions (default: 8).",
+    )
     parser.add_argument("--judge-model", default=None)
     parser.add_argument("--output", type=Path, default=DEFAULT_OUTPUT)
     parser.add_argument(
@@ -61,6 +69,8 @@ def parse_args(argv: list[str] | None = None) -> argparse.Namespace:
     args = parser.parse_args(argv)
     if args.top_k < 1:
         parser.error("--top-k must be at least 1.")
+    if args.batch_size < 1:
+        parser.error("--batch-size must be at least 1.")
     return args
 
 
@@ -169,31 +179,87 @@ def build_graph_app(
 
 
 def collect_graph_results(
-    app: Any, rows: Sequence[Mapping[str, Any]]
+    app_or_factory: Any,
+    rows: Sequence[Mapping[str, Any]],
+    batch_size: int = 8,
 ) -> list[dict[str, Any]]:
-    results = []
-    for row in rows:
+    if batch_size < 1:
+        raise ValueError("batch_size must be at least 1.")
+    if not rows:
+        return []
+
+    shared_app = (
+        app_or_factory
+        if callable(getattr(app_or_factory, "invoke", None))
+        else None
+    )
+    if shared_app is None and not callable(app_or_factory):
+        raise TypeError(
+            "app_or_factory must be a LangGraph app or a zero-argument app factory."
+        )
+
+    thread_apps = local()
+
+    def run_one(row: Mapping[str, Any]) -> dict[str, Any]:
         try:
+            if shared_app is not None:
+                app = shared_app
+            else:
+                app = getattr(thread_apps, "app", None)
+                if app is None:
+                    app = app_or_factory()
+                    thread_apps.app = app
             state = app.invoke({"question": row["user_input"]})
         except Exception as exc:
             raise RuntimeError(
                 f"{row['question_id']} GraphRAG 검색/답변 생성 실패: "
                 f"{type(exc).__name__}: {exc}"
             ) from exc
-        results.append({
+        return {
             "question_id": row["question_id"],
             "route_trace": state.get("route_trace", []),
             "verified": bool(state.get("verified", False)),
             "failure_reason": state.get("failure_reason", ""),
             "answer": state.get("answer", ""),
             "evidence": state.get("evidence", []),
-        })
-    return results
+        }
+
+    # Legacy callers that pass one app instance remain sequential. The live
+    # evaluation path passes a factory so each worker gets its own graph app.
+    max_workers = 1 if shared_app is not None else batch_size
+    results_by_index: dict[int, dict[str, Any]] = {}
+    with ThreadPoolExecutor(max_workers=max_workers) as executor:
+        completed = 0
+        for start in range(0, len(rows), max_workers):
+            batch_indexes = range(start, min(start + max_workers, len(rows)))
+            future_indexes = {
+                executor.submit(run_one, rows[index]): index
+                for index in batch_indexes
+            }
+            for future in as_completed(future_indexes):
+                index = future_indexes[future]
+                try:
+                    result = future.result()
+                except Exception:
+                    for pending in future_indexes:
+                        if pending is not future:
+                            pending.cancel()
+                    raise
+                results_by_index[index] = result
+                completed += 1
+                print(
+                    f"[GraphRAG] {completed}/{len(rows)} complete "
+                    f"(question_id={result['question_id']})",
+                    flush=True,
+                )
+
+    return [results_by_index[index] for index in range(len(rows))]
 
 
 def build_ragas_metrics(model_name: str, client: Any = None) -> list[Any]:
     from openai import AsyncOpenAI
     from ragas.llms import llm_factory
+
     # Ragas 0.4.x's top-level evaluate() accepts legacy Metric subclasses;
     # collections metrics implement the newer BaseMetric interface instead.
     from ragas.metrics import (
@@ -219,7 +285,11 @@ def build_ragas_metrics(model_name: str, client: Any = None) -> list[Any]:
 def evaluate_with_ragas(dataset: Any, model_name: str):
     from ragas import evaluate
 
-    return evaluate(dataset=dataset, metrics=build_ragas_metrics(model_name))
+    return evaluate(
+        dataset=dataset,
+        metrics=build_ragas_metrics(model_name),
+        show_progress=True,
+    )
 
 
 def _normalise_score(value: Any) -> float | str:
@@ -387,16 +457,23 @@ def main(argv: list[str] | None = None) -> int:
 
         if args.check_only:
             from ragas.dataset_schema import EvaluationDataset, SingleTurnSample
-            from ragas.metrics.collections import (
-                ContextPrecisionWithReference,
+            from ragas.metrics import (
                 ContextRecall,
                 FactualCorrectness,
                 Faithfulness,
+                LLMContextPrecisionWithReference,
             )
 
         from src.agent.neo4j_tls import load_graph_database
 
         graph_database = load_graph_database()
+        answerable_count = sum(row["answerable"] == "yes" for row in gold_rows)
+        print(
+            f"Running GraphRAG with {graph_model} and Ragas with {judge_model} "
+            f"on {answerable_count} answerable rows. OpenAI API usage may incur charges.",
+            flush=True,
+        )
+        print("[1/2] Checking Neo4j connectivity...", flush=True)
         with graph_database.driver(
             os.environ["NEO4J_URI"],
             auth=(os.environ["NEO4J_USER"], os.environ["NEO4J_PASSWORD"]),
@@ -409,20 +486,39 @@ def main(argv: list[str] | None = None) -> int:
                 print(f"Judge model for full evaluation: {judge_model}")
                 return 0
 
-            app = build_graph_app(
-                driver,
-                os.environ["NEO4J_DATABASE"],
-                args.top_k,
-                model=graph_model,
+            print(
+                f"[1/2] GraphRAG collection started: {len(gold_rows)} questions; "
+                f"concurrency={args.batch_size}.",
+                flush=True,
             )
-            graph_results = collect_graph_results(app, gold_rows)
 
+            def app_factory():
+                return build_graph_app(
+                    driver,
+                    os.environ["NEO4J_DATABASE"],
+                    args.top_k,
+                    model=graph_model,
+                )
+
+            graph_results = collect_graph_results(
+                app_factory,
+                gold_rows,
+                batch_size=args.batch_size,
+            )
+
+        print(
+            f"[1/2] GraphRAG collection complete: "
+            f"{len(graph_results)}/{len(gold_rows)}.",
+            flush=True,
+        )
         dataset = build_evaluation_dataset(gold_rows, graph_results)
         print(
-            f"Running GraphRAG with {graph_model} and Ragas with {judge_model} "
-            f"on {len(dataset)} answerable rows. OpenAI API usage may incur charges."
+            f"[2/2] Ragas scoring started: {len(dataset)} answerable questions; "
+            f"{len(METRIC_NAMES)} metrics.",
+            flush=True,
         )
         evaluation = evaluate_with_ragas(dataset, judge_model)
+        print("[2/2] Ragas scoring complete.", flush=True)
         scored_frame = evaluation.to_pandas()
         question_rows = assemble_question_rows(gold_rows, graph_results, scored_frame)
         output_dir = write_outputs(

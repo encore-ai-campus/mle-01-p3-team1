@@ -2,7 +2,7 @@
 
 - 날짜: 2026-11-12
 - 대상 브랜치: `codex/project-structure-reorganization`
-- 상태: 검토 대기
+- 상태: 구현 완료
 
 ## 의도
 

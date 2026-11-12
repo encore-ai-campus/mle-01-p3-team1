@@ -19,9 +19,12 @@ uv run python -m src.evaluation.langgraph.ragas_testset --count 300
 ```powershell
 uv run python -m src.evaluation.langgraph.ragas_eval --check-only
 uv run python -m src.evaluation.langgraph.ragas_eval
+uv run python -m src.evaluation.langgraph.ragas_eval --evalset "evaluations/datasets/langgraph/LangGraph_Ragas_평가셋_30문항.csv" --batch-size 8
 ```
 
 첫 명령은 평가셋 형식, Ragas 설치, `.env`의 Neo4j 설정, Aura 접속을 점검하며 OpenAI API는 호출하지 않습니다. 두 번째 명령은 GraphRAG의 Cypher 생성·답변 작성과 Ragas 채점을 모두 실행합니다.
+
+`--batch-size`는 GraphRAG에서 동시에 처리할 질문 수이며 기본값은 `8`입니다. 실행 중 `[GraphRAG] 완료/전체`와 `question_id`가 질문마다 표시되고, Ragas 채점 단계에는 진행 막대가 표시됩니다. OpenAI rate limit이 발생하면 `--batch-size 4` 또는 `--batch-size 2`로 낮춰 실행하세요. `--batch-size 1`은 순차 처리입니다.
 
 ## 설정
 
