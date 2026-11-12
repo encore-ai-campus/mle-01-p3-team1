@@ -194,19 +194,24 @@ def collect_graph_results(
 def build_ragas_metrics(model_name: str, client: Any = None) -> list[Any]:
     from openai import AsyncOpenAI
     from ragas.llms import llm_factory
-    from ragas.metrics.collections import (
-        ContextPrecisionWithReference,
+    # Ragas 0.4.x's top-level evaluate() accepts legacy Metric subclasses;
+    # collections metrics implement the newer BaseMetric interface instead.
+    from ragas.metrics import (
         ContextRecall,
         FactualCorrectness,
         Faithfulness,
+        LLMContextPrecisionWithReference,
     )
 
     judge_client = client or AsyncOpenAI()
     evaluator_llm = llm_factory(model_name, client=judge_client, temperature=0)
+    context_precision = LLMContextPrecisionWithReference(llm=evaluator_llm)
+    # Keep the result column name used by reports and METRIC_NAMES.
+    context_precision.name = "context_precision_with_reference"
     return [
         Faithfulness(llm=evaluator_llm),
         ContextRecall(llm=evaluator_llm),
-        ContextPrecisionWithReference(llm=evaluator_llm),
+        context_precision,
         FactualCorrectness(llm=evaluator_llm),
     ]
 
