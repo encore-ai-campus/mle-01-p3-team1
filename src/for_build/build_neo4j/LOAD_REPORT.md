@@ -54,6 +54,23 @@ flowchart LR
 
 이 그래프는 2단계 GraphRAG의 **Cypher 확장 대상**입니다. 1차 벡터 앵커 검색에 사용할 임베딩과 벡터 인덱스는 아직 없으므로, 현재 구조만으로는 2단계 하이브리드 검색 전체가 동작하지 않습니다.
 
+## Multi-hop 경로 검증
+
+**검증 시각:** 2026-11-12 11:54:20 KST
+
+**방식:** `validate_multihop.py`로 Aura DB를 읽기 전용 조회. CSV의 박물관·출처·구간 ID 집합으로 범위를 제한하고, 적재 기본 수치와 아래 경로 수를 대조했습니다. 기계 판독 결과는 `multihop_result.json`에 기록했습니다.
+
+| 검사 경로·조건 | 기대 | DB 결과 |
+|---|---:|---:|
+| 2홉 `Museum → Sigungu → Sido` 경로; 박물관의 시도·시군구 속성과 일치 | 738 | 738 |
+| 위 2홉 경로에 도달한 고유 박물관 | 738 | 738 |
+| 2홉 `Museum → TextSpan → SourceDocument`; 동일 박물관의 `HAS_SOURCE` 출처인지 확인 | 3,270 | 3,270 |
+| 3홉 `Sido ← Sigungu ← Museum → SourceDocument` | 1,027 | 1,027 |
+| 4홉 `Sido ← Sigungu ← Museum → TextSpan → SourceDocument`; 동일 박물관의 출처인지 확인 | 3,270 | 3,270 |
+| `TextSpan.text`와 `Museum.text[start:end]`가 다른 구간 | 0 | 0 |
+
+**판정:** 적재된 박물관 서브그래프의 지역 및 텍스트 출처 경로는 현재 입력 데이터와 구조적으로 일치합니다. 이는 다중 홉 연결과 근거 위치를 검증한 결과이며, 출처 원문의 사실 정확성이나 LLM 답변 품질을 검증한 것은 아닙니다. 임베딩이 없어 1차 벡터 앵커 검색을 포함한 GraphRAG 전체 경로는 아직 검증할 수 없습니다.
+
 ## 데이터 품질과 후속 작업
 
 - 655개 박물관에 `requires_manual_review=True`가 설정되어 있습니다. `adult_fee=0`인 428개 행의 상태는 `BASE_FEE_ZERO_CHECK_EXCEPTIONS`입니다. 검증 없이 무료로 안내하지 않아야 합니다.

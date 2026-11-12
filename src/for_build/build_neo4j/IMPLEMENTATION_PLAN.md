@@ -22,6 +22,7 @@
 1. **Parsing:** Test missing or malformed IDs, JSON, hashes, spans, and duplicate IDs. Implement typed CSV parsing and preflight statistics in `parsing.py`.
 2. **Graph DB:** Test parameter payload contracts. Implement constraints, batched node and relationship `MERGE`, and read-back verification in `graph_db.py`.
 3. **Command and report:** Implement `load_neo4j.py` with `.env` loading and a `--dry-run` option; add usage instructions and dependency declarations. Run dry-run and live load, then write a report with observed counts and limitations.
+4. **Multi-hop validation:** Verify region and provenance paths across two to four hops with read-only parameterized Cypher, compare text spans to the museum text, and record Aura read-back results separately from vector-search claims.
 
 ## Review focus
 
