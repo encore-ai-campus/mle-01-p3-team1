@@ -1,0 +1,37 @@
+[theme]
+base = "light"
+primaryColor = "#4E0000"
+backgroundColor = "#F0EDE5"
+secondaryBackgroundColor = "#E6E0D2"
+textColor = "#00263E"
+# 글꼴: IBM Plex Sans KR (OFL) — 파일: src/service/static/fonts
+font = "'IBM Plex Sans KR', 'Apple SD Gothic Neo', sans-serif"
+headingFont = "'IBM Plex Sans KR', 'Apple SD Gothic Neo', sans-serif"
+headingFontWeights = [700, 700, 600, 600, 600, 600]
+
+[[theme.fontFaces]]
+family = "IBM Plex Sans KR"
+url = "app/static/fonts/IBMPlexSansKR-Regular.woff2"
+weight = 400
+
+[[theme.fontFaces]]
+family = "IBM Plex Sans KR"
+url = "app/static/fonts/IBMPlexSansKR-Medium.woff2"
+weight = 500
+
+[[theme.fontFaces]]
+family = "IBM Plex Sans KR"
+url = "app/static/fonts/IBMPlexSansKR-SemiBold.woff2"
+weight = 600
+
+[[theme.fontFaces]]
+family = "IBM Plex Sans KR"
+url = "app/static/fonts/IBMPlexSansKR-Bold.woff2"
+weight = 700
+
+[server]
+runOnSave = true
+enableStaticServing = true  # src/service/static/ → /app/static/ (웹폰트)
+
+[client]
+toolbarMode = "minimal"  # Deploy 버튼·개발자 메뉴 숨김

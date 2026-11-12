@@ -82,6 +82,8 @@ dependencies = [
     # day79: 노트북에서 /metrics 를 읽고 Langfuse trace 를 조회한다
     "langfuse>=5.2.0",
     "prometheus-client>=0.26.0",
+    "streamlit>=1.67.0",
+    "plotly>=7.1.0",
 ]
 
 [tool.uv]
