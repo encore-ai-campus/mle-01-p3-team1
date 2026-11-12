@@ -4,6 +4,8 @@
 
 `src/agent/graph.py`는 질문 라우팅, Vector/Graph/Hybrid 검색 호출, 답변 생성, 답변 검증, 실패 시 Hybrid 재검색과 근거 부족 응답을 연결합니다. 라이브 Neo4j 데모는 `Neo4jText2Cypher`를 연결해 자연어 질문에서 Cypher를 만들고, Neo4j 근거를 읽은 뒤 OpenAI로 답변을 생성합니다.
 
+실제 `VectorSearchRetriever`와 Neo4j 검색을 함께 연결하는 팀 예시는 [`LangGraph_Hybrid_연동가이드.md`](vector_db_평가셋/LangGraph_Hybrid_연동가이드.md)를 참고하세요.
+
 - 검색 함수: `(question: str, k: int) -> list[Evidence]`
 - 라우터: `(question: str) -> "vector" | "graph" | "hybrid"`
 - 답변 생성기: `(question: str, evidence: list[Evidence]) -> str`
