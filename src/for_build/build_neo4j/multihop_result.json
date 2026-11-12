@@ -1,0 +1,28 @@
+{
+  "status": "verified",
+  "checked_at": "2026-11-12T11:54:20+09:00",
+  "database": "878d9ed6",
+  "input_sha256": "c40d1f2d794bfd6415c763fe487d639a634c0cba9313984ec4b0b67a4ea6cb45",
+  "python_version": "3.12.13",
+  "scope": "museum_final_738.csv imported IDs",
+  "baseline_counts": {
+    "museums": 738,
+    "sources": 1027,
+    "spans": 3260,
+    "source_links": 1027,
+    "span_links": 3260,
+    "evidence": 3270,
+    "sidos": 20,
+    "sigungu": 199,
+    "location_links": 738,
+    "part_of_links": 199
+  },
+  "multihop_counts": {
+    "region_two_hop_paths": 738,
+    "region_two_hop_unique_museums": 738,
+    "provenance_two_hop_paths": 3270,
+    "region_source_three_hop_paths": 1027,
+    "region_provenance_four_hop_paths": 3270,
+    "span_text_mismatches": 0
+  }
+}

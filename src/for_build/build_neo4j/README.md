@@ -13,9 +13,12 @@ uv pip install --python .venv/Scripts/python.exe -r src/for_build/build_neo4j/re
 & .venv/Scripts/python.exe src/for_build/build_neo4j/load_neo4j.py --dry-run
 & .venv/Scripts/python.exe src/for_build/build_neo4j/load_neo4j.py
 & .venv/Scripts/python.exe src/for_build/build_neo4j/load_neo4j.py --verify-only
+& .venv/Scripts/python.exe src/for_build/build_neo4j/validate_multihop.py
 ```
 
 루트 `.env`에 `NEO4J_URI`, `NEO4J_USER`, `NEO4J_PASSWORD`, `NEO4J_DATABASE`가 필요합니다. `--dry-run`은 DB에 연결하지 않습니다. 본 적재 명령은 연결 확인 후 유일성 제약을 만들고 50개 박물관씩 트랜잭션으로 적재합니다. 실패 시 종료 코드 1을 반환하며 성공 보고서를 새로 쓰지 않습니다. 성공 시 이 폴더의 `load_result.json`에 DB 읽기 검증 결과를 기록합니다. `--verify-only`는 DB를 수정하지 않고 같은 ID 집합을 읽어 수를 확인합니다.
+
+`validate_multihop.py`는 2·3·4홉 경로와 본문 구간 일치성을 읽기 전용으로 확인하고 `multihop_result.json`을 기록합니다. DB 연결 없이 CSV만 확인하려면 `--dry-run`을 추가합니다.
 
 테스트: `& .venv/Scripts/python.exe -m unittest discover -s src/for_build/build_neo4j -p 'test_*.py' -v`
 
