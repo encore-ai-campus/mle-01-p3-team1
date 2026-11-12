@@ -1,6 +1,7 @@
 """벡터 검색 서비스 진입점: LLM 분석 -> ChromaDB 후보 검색 -> LLM 관련성 평가.
 
-다른 코드에서는 이 파일의 VectorSearchService만 가져오면 된다.
+다른 코드에서는 VectorSearchService.search()로 후보와 근거를 반환받는다.
+답변 작성/검색 재시도 판단은 상위 Supervisor에서 수행한다.
 """
 
 from __future__ import annotations
