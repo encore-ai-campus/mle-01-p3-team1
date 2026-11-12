@@ -5,7 +5,7 @@ import pandas as pd
 import streamlit as st
 
 PROJECT_ROOT = Path(__file__).resolve().parents[3]
-CSV_PATH = PROJECT_ROOT / "data" / "museum_final.csv"
+CSV_PATH = PROJECT_ROOT / "data" / "processed" / "museum_final_1027.csv"
 
 SIDO_ALIAS = {
     "전라북도": "전북특별자치도",

@@ -214,7 +214,7 @@ def render() -> None:
         c.markdown(S.kpi(l, f"{n:,}", "노드 수"), unsafe_allow_html=True)
 
     if total == 0:
-        st.info("그래프가 비어 있습니다. src/for_build/build_neo4j 에서 그래프를 먼저 적재하세요.")
+        st.info("그래프가 비어 있습니다. `src.data_pipeline.neo4j.load_neo4j`로 그래프를 먼저 적재하세요.")
         return
 
     ask, explore, schema_tab = st.tabs(["질문하기", "그래프 탐색", "스키마"])

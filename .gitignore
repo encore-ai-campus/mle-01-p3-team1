@@ -21,6 +21,8 @@ venv/
 .idea/
 .DS_Store
 Thumbs.db
+desktop.ini
+.playwright-mcp/
 
 # Jupyter
 .ipynb_checkpoints/
@@ -35,6 +37,7 @@ temp/
 *.db
 *.sqlite
 *.sqlite3
+data/vector_db/museum_chroma/
 
 # Generated embeddings & models
 models/

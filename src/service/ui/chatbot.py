@@ -1,6 +1,6 @@
 """챗봇 탭: ChromaDB 의미 검색 + OpenAI LLM (RAG).
 
-- 벡터DB: data/vector_db/museum_chroma / 컬렉션 museum_documents (vectoDB_builder.ipynb 로 생성)
+- 벡터DB: data/vector_db/museum_chroma / 컬렉션 museum_documents (notebooks/vector_db/vector_db_builder.ipynb 로 생성)
 - 벡터DB 가 없거나 OPENAI_API_KEY 가 없으면 CSV 키워드 검색으로 대체해 UI 는 계속 동작한다.
 """
 import os

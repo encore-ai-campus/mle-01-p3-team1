@@ -19,7 +19,7 @@ from pathlib import Path
 from typing import TYPE_CHECKING, Any, Literal
 
 if TYPE_CHECKING:
-    from .vertor_search_service import VectorSearchService, VectorSearchResponse
+    from .vector_search_service import VectorSearchService, VectorSearchResponse
 
 # 파일 직접 실행 및 python -m 실행을 모두 지원한다.
 if __name__ == "__main__" and not __package__:
@@ -152,9 +152,9 @@ class VectorSearchRAGAgent:
     def service(self) -> VectorSearchService:
         if self._search_service is None:
             if __package__:
-                from .vertor_search_service import VectorSearchService
+                from .vector_search_service import VectorSearchService
             else:
-                from src.service.vertor_search_service import VectorSearchService
+                from src.service.vector_search_service import VectorSearchService
             self._search_service = VectorSearchService()
         return self._search_service
 
