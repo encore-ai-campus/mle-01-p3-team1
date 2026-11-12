@@ -1,0 +1,29 @@
+{
+  "status": "verified",
+  "mode": "load",
+  "loaded_at": "2026-11-12T10:53:56+09:00",
+  "database": "878d9ed6",
+  "input_file": "C:\\Users\\Playdata\\Desktop\\김동석\\교과목-3\\프로젝트\\mle-01-p3-team1\\src\\for_build\\museum_final_738.csv",
+  "input_sha256": "c40d1f2d794bfd6415c763fe487d639a634c0cba9313984ec4b0b67a4ea6cb45",
+  "python_version": "3.12.13",
+  "batch_size": 50,
+  "batches_written": 15,
+  "expected": {
+    "museums": 738,
+    "sources": 1027,
+    "spans": 3260,
+    "evidence": 3270
+  },
+  "actual": {
+    "museums": 738,
+    "sources": 1027,
+    "spans": 3260,
+    "source_links": 1027,
+    "span_links": 3260,
+    "evidence": 3270,
+    "sidos": 20,
+    "sigungu": 199,
+    "location_links": 738,
+    "part_of_links": 199
+  }
+}

@@ -36,6 +36,8 @@ dependencies = [
     # day69~: 파인튜닝 데이터셋 만들기(생성용 LLM 호출, .env 의 API 키 읽기)
     "python-dotenv>=1.2",
     "langchain-openai>=1.3.5",
+    # 박물관 CSV를 Neo4j 그래프로 적재하고 파라미터화된 Cypher를 실행한다.
+    "neo4j>=6,<7",
     # day69~: 새 질문의 근거 조문 검색기(law_retriever.py). BM25 키워드 검색 + Chroma 의미 검색을 합치고 Cross-Encoder 로 재정렬한다
     #   BM25Retriever -> rank_bm25, 한국어 토큰화 -> kiwipiepy, HuggingFaceCrossEncoder(Qwen3-Reranker-0.6B) -> sentence-transformers
     "langchain-classic>=1.0.8",
