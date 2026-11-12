@@ -12,6 +12,8 @@
 
 `src/evaluation/langgraph/ragas_eval.py`의 `collect_graph_results`가 평가셋의 모든 행을 `app.invoke`로 순차 처리한다. 각 문항은 Neo4j용 Cypher 생성 및 근거 기반 답변 단계를 거치며, 그 후 답변 가능 문항만 Ragas 네 지표로 채점한다.
 
+30문항 평가도 같은 순차 GraphRAG 수집을 거친다. 현재 잠금된 Ragas 0.4.3의 `RunConfig` 기본 `max_workers`는 16이고, 평가 코드는 그 기본값을 사용한다. 따라서 이번 속도 개선의 주 대상은 순차 GraphRAG 수집이며, Ragas 채점 동시성은 바꾸지 않는다.
+
 이번 변경은 GraphRAG 문항 수집만 대상으로 한다. Ragas 점수 계산 방식, 평가셋, Neo4j 데이터, 출력 파일 형식은 바꾸지 않는다.
 
 ## 접근 방식
