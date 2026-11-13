@@ -48,5 +48,5 @@ uv run python -m src.agent.neo4j_demo --question "서울 전통문화" --top-k 5
 
 ```powershell
 uv run python -m unittest tests.test_guardrails -v   # 가짜 LLM, 무료
-uv run python -m src.guardrails.smoke                # 실제 LLM으로 입력 42문항 + 출력 14문항 점검(소액 과금)
+uv run python -m src.guardrails.eval_guardrails      # 평가 md의 질문을 실제 챗봇에 넣고 결과 md 생성(소액 과금)
 ```
