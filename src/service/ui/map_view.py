@@ -6,12 +6,12 @@ import plotly.express as px
 import streamlit as st
 
 from ui import style as S
-from ui.data import clean, fee_text, hours_text
+from ui.data import clean, fee_text, hours_text, sido_options
 
 
 def _filters(df: pd.DataFrame) -> pd.DataFrame:
     c1, c2, c3, c4 = st.columns([1.4, 1.4, 1, 1], vertical_alignment="bottom")
-    sidos = c1.multiselect("시·도", sorted(df["sido"].dropna().unique()), placeholder="전체 지역")
+    sidos = c1.multiselect("시·도", sido_options(df["sido"]), placeholder="전체 지역")
     owners = c2.multiselect("운영 주체", S.OWNERSHIP_ORDER, placeholder="전체")
     free_only = c3.toggle("무료 관람만")
     barrier_free = c4.toggle("휠체어 이용 가능")
@@ -64,7 +64,7 @@ def render(df: pd.DataFrame) -> None:
             hover_data={"sido": True, "sigungu": True, "latitude": False, "longitude": False, "ownership_type": False},
             custom_data=["museum_id"],
             center=dict(lat=filtered["latitude"].mean(), lon=filtered["longitude"].mean()),
-            zoom=6 if len(filtered) > 30 else 9, height=640, map_style="carto-positron",
+            zoom=6 if len(filtered) > 30 else 9, height=640, map_style=S.MAP_STYLE,
             labels={"ownership_type": "운영 주체", "sido": "시·도", "sigungu": "시·군·구"},
         )
         fig.update_traces(marker=dict(size=10, opacity=0.9))

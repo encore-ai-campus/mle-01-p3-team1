@@ -7,10 +7,26 @@ import streamlit as st
 PROJECT_ROOT = Path(__file__).resolve().parents[3]
 CSV_PATH = PROJECT_ROOT / "data" / "processed" / "museum_final_1027.csv"
 
+# 화면 표시용 시·도 이름 (원본 데이터와 검색 DB 의 값은 바꾸지 않는다)
 SIDO_ALIAS = {
-    "전라북도": "전북특별자치도",
+    "강원특별자치도": "강원도",
+    "전북특별자치도": "전라북도",
+    "제주특별자치도": "제주도",
     "세종특별시": "세종특별자치시",
+    "전남광주통합특별시": "전라남도",  # 광주 구는 없고 전남 시·군만 이 이름으로 들어와 있다
 }
+# 시·도 선택 목록 순서: 특별시·광역시 → 도
+SIDO_ORDER = (
+    "서울특별시", "부산광역시", "대구광역시", "인천광역시", "광주광역시", "대전광역시", "울산광역시",
+    "세종특별자치시",
+    "경기도", "강원도", "충청북도", "충청남도", "전라북도", "전라남도", "경상북도", "경상남도", "제주도",
+)
+
+
+def sido_options(values) -> list[str]:
+    """시·도 값을 SIDO_ORDER 순서로 정렬한다. 목록에 없는 이름은 맨 뒤에 가나다순."""
+    rank = {name: i for i, name in enumerate(SIDO_ORDER)}
+    return sorted(pd.Series(values).dropna().unique(), key=lambda s: (rank.get(s, len(rank)), s))
 FEE_OUTLIER = 100_000  # 이 이상은 입력 오류로 보고 결측 처리
 
 

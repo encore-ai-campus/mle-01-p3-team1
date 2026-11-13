@@ -46,3 +46,22 @@ VectorDB 평가 절차와 라벨 검수는 [`docs/evaluation/vector_db.md`](docs
 - `docs/`: 구조·운영·평가 문서
 - `tests/`: 단위·통합 테스트
 - `outputs/`: 로컬 실행 결과(Git 제외)
+
+## NeMo Guardrails (입력·출력 검사)
+
+`src/guardrails/`는 챗봇의 질문과 답변을 검사합니다. 막는 대상은 **탈옥·프롬프트 인젝션, 개인정보, 욕설·혐오**이고 입력과 출력 모두에 적용됩니다. 박물관과 무관한 질문은 막지 않습니다. 챗봇이 짧게 답한 뒤 지역을 묻고 DB에 있는 박물관으로 이어 줍니다(실시간 날씨 등은 지어내지 않음).
+
+| 단계 | 방식 | 비용 |
+|---|---|---|
+| 1. 정규식 | 휴대폰·주민등록번호·카드번호·이메일 (`config/config.yml`) | 무료. 걸리면 LLM으로 보내지 않음 |
+| 2. LLM 자기검사 | 한국어 판정 프롬프트 (`config/prompts.yml`) | 검사 1회당 LLM 호출 1번 |
+
+- 적용 위치: Streamlit 챗봇 탭(`src/service/ui/chatbot.py`). LangGraph는 `build_graph(..., **Guardrails().graph_hooks())`로 연결합니다.
+- 판정 모델: `config/config.yml`의 `models`에서 설정합니다. `.env`의 `GUARDRAILS_MODEL`이 있으면 그 값이 우선합니다.
+- `OPENAI_API_KEY`가 없으면 정규식 검사만 합니다. 검사 중 오류가 나면 통과시키지 않고 차단합니다.
+- 답변은 스트리밍됩니다. 개인정보는 정규식으로 조각마다 검사해 화면에 나가기 전에 막고, LLM 출력 검사는 답변이 끝난 뒤 한 번 해서 걸리면 답변을 안내 문구로 바꿉니다.
+
+```powershell
+uv run python -m unittest tests.test_guardrails -v   # 가짜 LLM, 무료
+uv run python -m src.guardrails.eval_guardrails      # 평가 md의 질문을 실제 챗봇에 넣고 결과 md 생성(소액 과금)
+```
