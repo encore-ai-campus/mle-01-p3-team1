@@ -1,0 +1,7 @@
+# Needed by the uploaded BM25Reranker and the default Korean tokenizer
+rank-bm25
+kiwipiepy
+
+# Needed for the pre-download step and Cross-Encoder rerank
+sentence-transformers
+huggingface-hub

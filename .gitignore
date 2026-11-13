@@ -56,3 +56,11 @@ reports/generated/
 # Build artifacts
 build/
 dist/
+
+
+# Hybrid RAG - Local Model & Vector DB
+# Pre-downloaded Cross-Encoder models
+.models/
+
+# Local Hugging Face cache (if configured)
+.cache/huggingface/
