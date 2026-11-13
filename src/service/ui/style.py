@@ -111,7 +111,7 @@ header[data-testid="stHeader"] {{ display: none; }}
 .stTabs [data-testid="stTab"]:hover p {{ color: var(--navy); }}
 .stTabs [data-testid="stTab"][aria-selected="true"] p {{ color: var(--red); font-weight:600; }}
 .stTabs .react-aria-SelectionIndicator {{ background: var(--red) !important; height: 2px !important; }}
-/* 탭 안의 탭(예: GraphRAG 하위 탭)은 왼쪽 정렬 */
+/* 탭 안의 탭은 왼쪽 정렬 */
 .stTabs .stTabs [role="tablist"] {{ justify-content:flex-start; gap: 26px; }}
 /* ── 브레드크럼 & 페이지 타이틀 ── */
 .crumb {{ font-size:12px; color:var(--muted); margin: 28px 0 14px; font-weight:400; }}

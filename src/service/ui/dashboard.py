@@ -8,7 +8,7 @@ import plotly.graph_objects as go
 import streamlit as st
 
 from ui import style as S
-from ui.data import clean, fee_text, hours_text
+from ui.data import clean, fee_text, hours_text, sido_options
 
 
 def _kpis(df: pd.DataFrame) -> None:
@@ -89,7 +89,7 @@ def _amenity_chart(df: pd.DataFrame) -> go.Figure:
 def _detail(df: pd.DataFrame) -> None:
     S.section("박물관 상세")
     f1, f2 = st.columns([1, 2])
-    sido = f1.selectbox("시·도", ["전체"] + sorted(df["sido"].dropna().unique()), key="dash_sido")
+    sido = f1.selectbox("시·도", ["전체"] + sido_options(df["sido"]), key="dash_sido")
     pool = df if sido == "전체" else df[df["sido"] == sido]
     pool = pool.sort_values(["image_url"], na_position="last")
     name = f2.selectbox("박물관", pool["name"].tolist(), key="dash_museum")

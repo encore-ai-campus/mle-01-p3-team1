@@ -1,17 +1,21 @@
-"""챗봇 탭: ChromaDB 의미 검색 + OpenAI LLM (RAG).
+"""챗봇 탭: ChromaDB 의미 검색 + Neo4j 지식그래프 + OpenAI LLM (RAG).
 
 - 벡터DB: data/vector_db/museum_chroma / 컬렉션 museum_documents (vectoDB_builder.ipynb 로 생성)
 - 벡터DB 가 없거나 OPENAI_API_KEY 가 없으면 CSV 키워드 검색으로 대체해 UI 는 계속 동작한다.
+- 지식그래프(ui/kg.py): 지역·조건·개수처럼 그래프가 필요한 질문일 때만 Cypher 로 조회하고,
+  답변 아래에 근거 그래프(드래그 가능)와 생성된 Cypher 토글을 붙인다. 아니면 아무것도 표시하지 않는다.
 - 가드레일(src/guardrails): 질문은 검색 전에, 답변은 화면에 보이기 전에 검사한다.
   차단 대상은 탈옥·인젝션, 개인정보, 욕설·혐오. 차단된 대화는 다음 LLM 호출 기록에서 뺀다.
 """
 import os
 import sys
+from concurrent.futures import ThreadPoolExecutor
 from html import escape
 
 import pandas as pd
 import streamlit as st
 
+from ui import kg
 from ui import style as S
 from ui.data import PROJECT_ROOT, fee_text
 
@@ -27,7 +31,8 @@ CHAT_MODEL = os.getenv("OPENAI_CHAT_MODEL", "gpt-6-luna")
 SYSTEM_PROMPT = """너는 한국 박물관 안내 도우미다. 한국어로 친절하고 간결하게 답한다.
 
 [박물관 관련 질문]
-- [검색 결과]에 있는 정보만 근거로 답한다. 근거에 없는 내용은 모른다고 말한다.
+- [검색 결과]와 [그래프 조회 결과]에 있는 정보만 근거로 답한다. 근거에 없는 내용은 모른다고 말한다.
+- [그래프 조회 결과]가 있으면 박물관 목록·개수·지역 관계는 그것을 우선 근거로 삼는다.
 - 관람료·운영시간·휴관일은 정확히 옮긴다.
 - 참고한 박물관 목록은 화면에 따로 표시되므로 답변 끝에 다시 나열하지 않는다.
 
@@ -139,8 +144,9 @@ def _sources_html(hits: list[dict]) -> str:
     )
 
 
-def _answer(query: str, hits: list[dict]):
-    if not hits:
+def _answer(query: str, hits: list[dict], graph: "kg.GraphResult | None" = None):
+    graph_rows = graph.rows if graph else []
+    if not hits and not graph_rows:
         yield "관련 박물관을 찾지 못했어요. 지역이나 주제를 바꿔서 다시 물어봐 주세요."
         return
     if not _has_key():
@@ -150,7 +156,11 @@ def _answer(query: str, hits: list[dict]):
         return
     # 가드레일에 막힌 대화(탈옥 시도·개인정보 등)는 다음 프롬프트에 다시 넣지 않는다.
     history = [(m["role"], m["content"]) for m in st.session_state.chat[-6:] if not m.get("blocked")]
-    messages = [("system", SYSTEM_PROMPT), *history, ("user", f"[검색 결과]\n{_context(hits)}\n\n[질문]\n{query}")]
+    graph_part = (
+        f"\n\n[그래프 조회 결과] (Neo4j, Cypher: {graph.cypher})\n{kg.rows_for_prompt(graph_rows)}" if graph_rows else ""
+    )
+    user = f"[검색 결과]\n{_context(hits) or '(없음)'}{graph_part}\n\n[질문]\n{query}"
+    messages = [("system", SYSTEM_PROMPT), *history, ("user", user)]
     try:
         for chunk in _llm().stream(messages):
             yield chunk.content
@@ -189,23 +199,49 @@ def render(df: pd.DataFrame) -> None:
         for m in st.session_state.chat:
             with st.chat_message(m["role"], avatar="🏛️" if m["role"] == "assistant" else None):
                 st.markdown(m["content"])
-                if m.get("sources"):
-                    st.markdown(m["sources"], unsafe_allow_html=True)
+                _render_extras(m)
         if not query:
             return
 
         with st.chat_message("user"):
             st.markdown(query)
         with st.chat_message("assistant", avatar="🏛️"):
-            answer, src, blocked = _guarded_reply(query, df)
+            reply = _guarded_reply(query, df)
     st.session_state.chat += [
-        {"role": "user", "content": query, "blocked": blocked},
-        {"role": "assistant", "content": answer, "sources": src, "blocked": blocked},
+        {"role": "user", "content": query, "blocked": reply["blocked"]},
+        {"role": "assistant", **reply},
     ]
 
 
-def _guarded_reply(query: str, df: pd.DataFrame) -> tuple[str, str, bool]:
-    """입력 검사 → 검색 → 답변 스트리밍(개인정보 실시간 차단) → 출력 LLM 검사. (답변, 출처 HTML, 차단 여부)
+def _render_extras(m: dict) -> None:
+    """답변 아래 부가 정보: 참고한 박물관 칩 → 근거 지식그래프 → 생성된 Cypher 토글."""
+    if m.get("sources"):
+        st.markdown(m["sources"], unsafe_allow_html=True)
+    graph = m.get("graph")
+    if not graph:  # 그래프를 쓰지 않은 답변이면 아무것도 표시하지 않는다
+        return
+    if graph["nodes"]:
+        st.markdown(
+            '<div style="margin:18px 0 4px;font-size:13px;color:#5E6B73">근거 지식그래프 · Neo4j</div>'
+            + kg.legend_html(graph["nodes"]),
+            unsafe_allow_html=True,
+        )
+        kg.render_graph(graph["nodes"], graph["edges"])
+    with st.expander("생성된 Cypher 보기"):
+        st.code(graph["cypher"], language="cypher")
+        st.caption(f"조회 결과 {graph['row_count']}행")
+
+
+def _recent_history(n: int = 4) -> str:
+    """그래프 라우터용 최근 대화 (\"거기 말고 다른 곳은?\" 같은 후속 질문 이해)."""
+    msgs = [m for m in st.session_state.chat if not m.get("blocked")][-n:]
+    return "\n".join(f"{m['role']}: {m['content'][:300]}" for m in msgs)
+
+
+def _guarded_reply(query: str, df: pd.DataFrame) -> dict:
+    """입력 검사 → 검색(벡터 + 필요 시 그래프) → 답변 스트리밍(개인정보 실시간 차단) → 출력 LLM 검사.
+
+    반환: 저장할 assistant 메시지 {"content", "sources", "graph", "blocked"}
 
     스트리밍 절충안:
     - 개인정보(정규식)는 토큰이 화면에 나가기 전에 검사하므로 한 번도 표시되지 않는다.
@@ -216,29 +252,53 @@ def _guarded_reply(query: str, df: pd.DataFrame) -> tuple[str, str, bool]:
         verdict = guard.check_input(query)
     if not verdict.allowed:
         st.markdown(verdict.message)
-        return verdict.message, "", True
+        return _blocked(verdict.message)
 
+    driver, _ = kg.get_driver() if _has_key() else (None, "")
     with st.spinner("관련 박물관을 찾는 중…"):
-        hits, _ = retrieve(query, df)
+        # 그래프 판단(LLM)과 벡터 검색을 동시에 실행. kg.search 는 Streamlit 을 건드리지 않아 스레드에서 안전.
+        with ThreadPoolExecutor(max_workers=1) as pool:
+            future = pool.submit(kg.search, driver, query, _recent_history()) if driver else None
+            hits, _ = retrieve(query, df)
+            graph = future.result() if future else None
+    used_graph = graph if graph and graph.rows else None  # 결과가 있을 때만 '그래프를 쓴 답변'
 
     slot = st.empty()  # 차단되면 이 자리의 답변을 안내 문구로 바꾼다
-    stream = guard.stream_output(_answer(query, hits))
+    stream = guard.stream_output(_answer(query, hits, used_graph))
     with slot.container():
         st.write_stream(stream)
     if stream.blocked is not None:
         slot.markdown(stream.blocked.message)
-        return stream.blocked.message, "", True
+        return _blocked(stream.blocked.message)
 
     answer = stream.text
     with st.spinner("답변을 확인하는 중…"):
         verdict = guard.check_output(query, answer)
     if not verdict.allowed:
         slot.markdown(verdict.message)
-        return verdict.message, "", True
+        return _blocked(verdict.message)
 
     # 답변에 실제로 등장한 곳만 출처로 표시한다(무관한 질문에 지역을 되묻는 답 등에는 표시하지 않음).
-    cited = [h for h in hits if h.get("name") and str(h["name"]) in answer]
-    src = _sources_html(cited) if cited else ""
-    if src:
-        st.markdown(src, unsafe_allow_html=True)
-    return answer, src, False
+    candidates = hits + (used_graph.museums if used_graph else [])
+    cited, seen = [], set()
+    for h in candidates:
+        name = str(h.get("name") or "")
+        if name and name in answer and name not in seen:
+            seen.add(name)
+            cited.append(h)
+    reply = {
+        "content": answer,
+        "sources": _sources_html(cited) if cited else "",
+        "graph": (
+            {"cypher": used_graph.cypher, "nodes": used_graph.nodes, "edges": used_graph.edges,
+             "row_count": len(used_graph.rows)}
+            if used_graph else None
+        ),
+        "blocked": False,
+    }
+    _render_extras(reply)
+    return reply
+
+
+def _blocked(message: str) -> dict:
+    return {"content": message, "sources": "", "graph": None, "blocked": True}
