@@ -10,6 +10,8 @@
 
 **Spec:** `docs/superpowers/specs/2026-11-13-museum-bm25-hybrid-design.md`
 
+**현재 분담:** 이 브랜치의 이번 구현 범위는 Task 2의 독립 BM25 재정렬 모듈이다. Neo4j 조회, Chroma 연결, LangGraph 하이브리드 경로와 CLI는 다른 팀원이 담당한다.
+
 ## 전체 서비스 로직
 
 아래는 구현 목표인 서비스 흐름이다. 기존 `vector`·`graph` 경로는 유지하고, `hybrid` 경로와 답변 검증 실패 후 재시도 경로에 순차 검색 어댑터를 연결한다. BM25 인덱스는 요청마다 만들지 않고 서비스 시작 시 Neo4j의 전체 `TextSpan`으로 준비한다.
@@ -87,7 +89,7 @@ flowchart TD
 
 **Files:** Create `src/agent/bm25_reranker.py`; create `tests/test_bm25_reranker.py`.
 
-**Interfaces:** `MuseumBM25(spans: Sequence[Span], tokenize: Callable[[str], list[str]] | None = None)`; `.rank(question: str, candidates: Sequence[ExpandedMuseum]) -> dict[str, BM25Match]`. `fuse_ranks(vector_museum_ids, bm25_matches, *, final_k, rrf_constant=60, vector_weight=1.0, bm25_weight=1.0) -> list[RankedMuseum]`. A match carries the best sourced span and its raw score.
+**Interfaces:** `BM25Reranker(spans: Sequence[SpanDocument], *, tokenize: Callable[[str], list[str]] | None = None)`; `.rerank(question: str, vector_museum_ids: Sequence[str], *, top_k=5, rrf_constant=60, vector_weight=1.0, bm25_weight=1.0) -> list[RankedMuseum]`. `SpanDocument` has `museum_id`, `span_id`, `text`; `RankedMuseum` carries both ranks, BM25 and RRF scores, and the best span ID and text. The caller supplies the entire graph span corpus once and keeps source provenance outside this ranking-only module.
 
 - [ ] Write tests for Korean token consistency, graph-wide corpus statistics, zero-token and zero-score fallback, maximum-per-museum aggregation, and RRF with stable ties.
 - [ ] Run `python -m unittest tests/test_bm25_reranker.py -v` and confirm failure for the missing module.
