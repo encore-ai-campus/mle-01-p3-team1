@@ -34,7 +34,6 @@ temp/
 # Local databases
 *.db
 *.sqlite
-*.sqlite3
 
 # Generated embeddings & models
 models/
