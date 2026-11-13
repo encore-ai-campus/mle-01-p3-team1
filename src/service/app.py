@@ -12,14 +12,14 @@ load_dotenv(PROJECT_ROOT / ".env")
 
 st.set_page_config(page_title="Museum Navi", page_icon="🏛️", layout="wide")
 
-from ui import chatbot, dashboard, graph_rag, map_view  # noqa: E402
+from ui import chatbot, dashboard, map_view, themes  # noqa: E402
 from ui import style as S  # noqa: E402
 
 S.inject_css()
 S.topbar("MUSEUM ", "NAVI")
 
 df = load_museums()
-tab_dash, tab_chat, tab_map, tab_graph = st.tabs(["Dashboard", "Chatbot", "Map", "GraphRAG"])
+tab_dash, tab_chat, tab_map, tab_theme = st.tabs(["Dashboard", "Chatbot", "Map", "Themes"])
 
 with tab_dash:
     dashboard.render(df)
@@ -27,5 +27,5 @@ with tab_chat:
     chatbot.render(df)
 with tab_map:
     map_view.render(df)
-with tab_graph:
-    graph_rag.render()
+with tab_theme:
+    themes.render(df)
