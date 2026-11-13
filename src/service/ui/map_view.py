@@ -64,7 +64,7 @@ def render(df: pd.DataFrame) -> None:
             hover_data={"sido": True, "sigungu": True, "latitude": False, "longitude": False, "ownership_type": False},
             custom_data=["museum_id"],
             center=dict(lat=filtered["latitude"].mean(), lon=filtered["longitude"].mean()),
-            zoom=6 if len(filtered) > 30 else 9, height=640, map_style="carto-positron",
+            zoom=6 if len(filtered) > 30 else 9, height=640, map_style=S.MAP_STYLE,
             labels={"ownership_type": "운영 주체", "sido": "시·도", "sigungu": "시·군·구"},
         )
         fig.update_traces(marker=dict(size=10, opacity=0.9))

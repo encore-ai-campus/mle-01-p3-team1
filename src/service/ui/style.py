@@ -16,6 +16,7 @@ COCOA = "#594536"
 COCONUT = "#F0EDE5"
 
 FONT_URL = "app/static/fonts"
+MAP_STYLE = "carto-voyager"  # 지도 바탕 (물·공원·도로에 옅은 색이 들어간 부드러운 컬러 지도)
 HEAD_FONT = '"IBM Plex Sans KR", "Apple SD Gothic Neo", sans-serif'   # 제목 (굵기로 위계 구분)
 BODY_FONT = '"IBM Plex Sans KR", "Apple SD Gothic Neo", sans-serif'   # 본문
 

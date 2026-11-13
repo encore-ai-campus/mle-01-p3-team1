@@ -154,7 +154,7 @@ def _detail(df: pd.DataFrame) -> None:
         if pd.notna(row["latitude"]):
             fig = px.scatter_map(
                 pd.DataFrame([row]), lat="latitude", lon="longitude", hover_name="name",
-                center=dict(lat=row["latitude"], lon=row["longitude"]), zoom=13, height=340, map_style="carto-positron",
+                center=dict(lat=row["latitude"], lon=row["longitude"]), zoom=13, height=340, map_style=S.MAP_STYLE,
             )
             fig.update_traces(marker=dict(size=16, color=S.ACCENT))
             fig.update_layout(margin=dict(l=0, r=0, t=0, b=0))
