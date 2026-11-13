@@ -10,6 +10,47 @@
 
 **Spec:** `docs/superpowers/specs/2026-11-13-museum-bm25-hybrid-design.md`
 
+## 전체 서비스 로직
+
+아래는 구현 목표인 서비스 흐름이다. 기존 `vector`·`graph` 경로는 유지하고, `hybrid` 경로와 답변 검증 실패 후 재시도 경로에 순차 검색 어댑터를 연결한다. BM25 인덱스는 요청마다 만들지 않고 서비스 시작 시 Neo4j의 전체 `TextSpan`으로 준비한다.
+
+```mermaid
+flowchart TD
+    U["질문 입력"] --> S["LangGraph supervisor<br/>입력 검증·경로 선택"]
+    S -->|vector| V["기존 벡터 검색"]
+    S -->|graph| G["기존 Neo4j 검색"]
+    S -->|hybrid 또는 재시도| Q["질문 분석<br/>원문·확장 검색어·필터"]
+
+    Q --> C["1차 Chroma 벡터 검색<br/>최종 개수보다 많은 museum_id 후보"]
+    C --> A{"벡터 앵커가 있는가?"}
+    A -->|아니오| N["근거 없음"]
+    A -->|예| X["2차 Neo4j Cypher 확장<br/>museum_id → TextSpan → SourceDocument<br/>지역·출처 함께 조회"]
+    X --> E{"출처가 연결된 구간이 있는가?"}
+    E -->|아니오| N
+    E -->|예| B["원문 질문으로 BM25 점수 계산<br/>후보 구간만 순위 대상"]
+
+    D[(Neo4j 전체 TextSpan)] --> I["서비스 시작 시 Kiwi 토큰화<br/>전역 BM25 코퍼스 구성"]
+    I -.-> B
+    B -->|정상| M["박물관별 최고 점수 구간 선택"]
+    M --> R["벡터 순위 + BM25 순위<br/>RRF로 최종 순위 결합"]
+    B -->|BM25 실패| F["벡터 순위 유지<br/>실패 경고 기록"]
+    R --> K["상위 k개 박물관<br/>구간·출처 근거 보존"]
+    F --> K
+
+    V --> L["근거 기반 답변 생성"]
+    G --> L
+    K --> L
+    N --> L
+    X -->|조회 오류| H["Neo4j 오류 기록<br/>근거 없는 답변 중단"]
+    H --> T
+    L --> Z{"답변 검증 성공?"}
+    Z -->|예| O["답변·근거 반환"]
+    Z -->|아니오·재시도 가능| S
+    Z -->|아니오·횟수 소진| T["근거 부족 응답"]
+```
+
+`Neo4j` 확장에 실패하면 출처가 없는 결과를 성공으로 반환하지 않는다. BM25 점수가 모두 0이면 벡터 순위를 유지한다. `RRF`에는 두 점수의 원값 대신 각 검색 결과의 순위를 사용한다. 최종 결과의 단위는 박물관이며, 답변 근거의 단위는 출처가 연결된 `TextSpan`이다.
+
 ## Global Constraints
 
 - Python `>=3.12,<3.13`; use the existing declared dependencies.
