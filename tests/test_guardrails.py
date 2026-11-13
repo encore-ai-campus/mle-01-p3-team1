@@ -1,6 +1,6 @@
 """가드레일 단위 테스트. 실제 LLM 대신 가짜 rails 를 주입해 흐름과 문구만 확인한다.
 
-실제 LLM 판정 품질은 `uv run python -m src.guardrails.smoke` 로 따로 점검한다.
+실제 챗봇으로 하는 평가는 `uv run python -m src.guardrails.eval_guardrails` 로 따로 한다.
 """
 
 import csv
@@ -159,6 +159,32 @@ class PiiSafeStreamTests(unittest.TestCase):
         list(stream)
         self.assertIsNotNone(stream.blocked)
         self.assertEqual(closed, [True])
+
+
+class EvaluationDocTests(unittest.TestCase):
+    """평가 md(가드레일_평가_v1.md)의 질문 표를 평가 스크립트가 제대로 읽는지."""
+
+    def setUp(self):
+        from src.guardrails.eval_guardrails import DOC, parse_cases
+
+        self.cases = parse_cases(DOC.read_text(encoding="utf-8").splitlines())
+
+    def test_numbers_are_consecutive(self):
+        self.assertEqual([c.no for c in self.cases], list(range(1, len(self.cases) + 1)))
+
+    def test_expected_text_is_classified(self):
+        # '차단된 대화' 같은 말이 들어간 정상 문항을 막혀야 할 문항으로 오해하지 않는다.
+        self.assertFalse(next(c for c in self.cases if "차단된 대화" in c.expected).expect_block)
+
+    def test_follow_up_and_guide_text_are_split(self):
+        by_no = {c.no: c for c in self.cases}
+        multi = [c for c in self.cases if len(c.turns) > 1]
+        self.assertTrue(multi, "'→ (이어서)' 질문이 두 번에 나뉘어야 함")
+        for c in self.cases:
+            for turn in c.turns:
+                self.assertFalse(turn.startswith("("), f"{c.no}번: 괄호 안내 문구가 질문에 섞임")
+        self.assertTrue(any(c.expect_block for c in by_no.values()))
+        self.assertTrue(any(not c.expect_block for c in by_no.values()))
 
 
 class GraphGuardTests(unittest.TestCase):
