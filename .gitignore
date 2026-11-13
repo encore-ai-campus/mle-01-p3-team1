@@ -36,8 +36,8 @@ temp/
 # Local databases
 *.db
 *.sqlite
-*.sqlite3
-data/vector_db/museum_chroma/
+data/vector_db/museum_chroma/*
+!data/vector_db/museum_chroma/*.sqlite3
 
 # Generated embeddings & models
 models/
