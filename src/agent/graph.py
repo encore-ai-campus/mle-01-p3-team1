@@ -13,6 +13,9 @@ SearchFn = Callable[[str, int], list[Evidence]]
 RouterFn = Callable[[str], Route]
 AnswerFn = Callable[[str, list[Evidence]], str]
 VerifyFn = Callable[[str, str, list[Evidence]], bool]
+# 가드레일 훅: 통과하면 None, 차단하면 사용자에게 보여 줄 안내 문구를 돌려준다.
+InputGuardFn = Callable[[str], str | None]
+OutputGuardFn = Callable[[str, str], str | None]
 
 
 def _is_integer(value: object) -> bool:
@@ -47,16 +50,61 @@ def build_graph(
     verify_answer: VerifyFn,
     top_k: int = 5,
     max_retries: int = 1,
+    check_input: InputGuardFn | None = None,
+    check_output: OutputGuardFn | None = None,
 ):
     """외부 검색·LLM 함수를 연결해 질의 처리 그래프를 만든다.
 
     검증에 실패하면 Hybrid 검색을 최대 ``max_retries``회 수행하고,
     그래도 답변을 검증하지 못하면 근거 부족 응답으로 종료한다.
+
+    ``check_input``/``check_output``(예: ``Guardrails().graph_hooks()``)을 주면
+    질문은 검색 전에, 검증을 통과한 답변은 반환 전에 검사한다. 차단되면 안내 문구를
+    ``answer`` 로 돌려주고 ``blocked_by`` 에 "input" 또는 "output" 을 남긴다.
     """
     if not _is_integer(top_k) or top_k < 1:
         raise ValueError("top_k는 1 이상의 정수여야 합니다.")
     if not _is_integer(max_retries) or max_retries < 0:
         raise ValueError("max_retries는 0 이상의 정수여야 합니다.")
+
+    def _refusal(message: object, hook: str) -> str | None:
+        if message is None:
+            return None
+        if not isinstance(message, str) or not message.strip():
+            raise TypeError(f"{hook}는 None 또는 비어 있지 않은 문자열을 반환해야 합니다.")
+        return message.strip()
+
+    def input_guard(state: AgentState) -> dict:
+        question = state.get("question")
+        # 형식 오류는 supervisor가 같은 메시지로 거절하도록 넘긴다.
+        if check_input is None or not isinstance(question, str) or not question.strip():
+            return {}
+        refusal = _refusal(check_input(question.strip()), "check_input")
+        if refusal is None:
+            return {}
+        return {
+            "question": question.strip(),
+            "answer": refusal,
+            "verified": False,
+            "blocked_by": "input",
+            "failure_reason": "입력 가드레일 차단",
+        }
+
+    def next_after_input_guard(state: AgentState) -> Literal["pass", "blocked"]:
+        return "blocked" if state.get("blocked_by") == "input" else "pass"
+
+    def output_guard(state: AgentState) -> dict:
+        if check_output is None:
+            return {}
+        refusal = _refusal(check_output(state["question"], state.get("answer", "")), "check_output")
+        if refusal is None:
+            return {}
+        return {
+            "answer": refusal,
+            "verified": False,
+            "blocked_by": "output",
+            "failure_reason": "출력 가드레일 차단",
+        }
 
     def supervisor(state: AgentState) -> dict:
         raw_question = state.get("question")
@@ -176,6 +224,8 @@ def build_graph(
         }
 
     workflow = StateGraph(AgentState)
+    workflow.add_node("input_guard", input_guard)
+    workflow.add_node("output_guard", output_guard)
     workflow.add_node("supervisor", supervisor)
     workflow.add_node("vector_search", vector_node)
     workflow.add_node("graph_search", graph_node)
@@ -185,7 +235,12 @@ def build_graph(
     workflow.add_node("retry", retry_node)
     workflow.add_node("abstain", abstain_node)
 
-    workflow.add_edge(START, "supervisor")
+    workflow.add_edge(START, "input_guard")
+    workflow.add_conditional_edges(
+        "input_guard",
+        next_after_input_guard,
+        {"pass": "supervisor", "blocked": END},
+    )
     workflow.add_conditional_edges(
         "supervisor",
         select_search,
@@ -197,8 +252,9 @@ def build_graph(
     workflow.add_conditional_edges(
         "verify",
         next_after_verify,
-        {"done": END, "retry": "retry", "abstain": "abstain"},
+        {"done": "output_guard", "retry": "retry", "abstain": "abstain"},
     )
     workflow.add_edge("retry", "supervisor")
+    workflow.add_edge("output_guard", END)
     workflow.add_edge("abstain", END)
     return workflow.compile()

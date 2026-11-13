@@ -33,3 +33,5 @@ class AgentState(TypedDict, total=False):
     retry_count: int
     route_trace: list[Route]
     failure_reason: str
+    # 가드레일이 막은 위치. 막히지 않았으면 키가 없다.
+    blocked_by: Literal["input", "output"]
