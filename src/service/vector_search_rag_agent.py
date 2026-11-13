@@ -1,10 +1,11 @@
 """상위 Supervisor에서 호출하는 박물관 Vector 검색 도구 래퍼.
 
 내부에서는 다음 고정 흐름을 딱 한 번 실행한다.
-  질문 분석/확장 -> ChromaDB 후보 조회 -> 관련성 재평가 -> 후보 n개 반환
+  기본 검색: 질문 분석/확장 -> ChromaDB 후보 조회 -> 관련성 재평가 -> 최대 top_k개 반환
+  Hybrid용: 질문 분석/확장 -> ChromaDB 후보 20개 조회 -> 재평가 없이 후보 보존
 
-- run():      검색만 실행. 기존 클래스/메서드 호출과 호환된다.
-- retrieve(): run()과 동일하게 검색만 실행한다.
+- run()/retrieve(): 기존 검색 동작과 호환된다 (기본 top_k=5, LLM 재평가).
+- retrieve_hybrid_candidates(): Hybrid RAG에서 쓸 벡터 후보를 최대 20개 반환한다.
 - 자연어 답변 생성, 재검색 판단 및 실행, Graph 검색 결합은 수행하지 않는다.
 
 파일명/클래스명에 agent가 남아 있는 이유는 기존 호출 코드와의 호환성 때문이다.
@@ -30,6 +31,8 @@ if __name__ == "__main__" and not __package__:
 
 # 상위 Router/Graph에 노출할 실제 도구 이름.
 RETRIEVAL_TOOL_NAME = "museum_vector_retrieve"
+HYBRID_CANDIDATE_TOOL_NAME = "museum_vector_candidates"
+HYBRID_CANDIDATE_K = 20
 AGENT_NAME = RETRIEVAL_TOOL_NAME  # 과거 상수명과의 호환용
 
 RETRIEVAL_DESCRIPTION = (
@@ -41,9 +44,20 @@ RETRIEVAL_DESCRIPTION = (
     "박물관 museum_id, 원본 설명문, 메타데이터, 검색 거리, 관련성 점수, "
     "미지원 조건 및 경고를 반환하며 자연어 최종 답변은 생성하지 않습니다. "
     "관계/운영기관 탐색은 Graph 검색을 사용하세요. 실시간 개관, 최신 요금, "
-    "예약 및 미지원 부정·복합 필터를 보장하지 않습니다. 재검색과 답변은 상위 Supervisor가 관리합니다."
+    "예약 및 미지원 부정·복합 필터를 보장하지 않습니다. 재검색과 답변은 상위 Supervisor가 관리합니다. "
+    "Hybrid용 20개 원시 후보가 필요하면 museum_vector_candidates를 사용하세요."
 )
 AGENT_DESCRIPTION = RETRIEVAL_DESCRIPTION
+
+HYBRID_CANDIDATE_DESCRIPTION = (
+    "Hybrid RAG의 중간 후보 풀을 만들기 위한 박물관 벡터 검색 도구입니다. "
+    "질문 분석/확장과 ChromaDB 메타데이터 필터는 그대로 적용하지만, "
+    "LLM 관련성 재평가·0점 제외·5건 축소는 실행하지 않습니다. "
+    f"ChromaDB의 기존 순위대로 최대 {HYBRID_CANDIDATE_K}건을 반환하며 "
+    "최종 후보 통합과 선별은 상위 Hybrid RAG가 수행합니다. "
+    "실제 일치 문서가 적으면 해당 수만 반환합니다. "
+    "관계 검색이나 자연어 답변은 수행하지 않습니다."
+)
 
 AGENT_CARD: dict[str, Any] = {
     "name": RETRIEVAL_TOOL_NAME,
@@ -51,7 +65,7 @@ AGENT_CARD: dict[str, Any] = {
     "use_when": [
         "시설의 주제·전시 내용·유물·체험 정보를 기반으로 검색할 때",
         "지원하는 지역·기본 요금 조건과 의미 검색을 결합할 때",
-        "상위 Graph/Hybrid RAG에 원본 문서와 museum_id가 필요할 때",
+        "벡터 검색 자체의 관련성 재평가를 거친 문서와 museum_id가 필요할 때",
     ],
     "avoid_when": [
         "운영기관·관리기관 등 관계를 직접 탐색해야 하는 경우",
@@ -60,6 +74,19 @@ AGENT_CARD: dict[str, Any] = {
     ],
     "inputs": {"query": "원본 질문", "top_k": "반환 후보 수 1~40 (기본 5)"},
     "outputs": ["results", "source_ids", "warnings", "unsupported_constraints", "search_summary"],
+    "retry_owner": "supervisor",
+    "generates_answer": False,
+}
+
+
+HYBRID_CANDIDATE_CARD: dict[str, Any] = {
+    "name": HYBRID_CANDIDATE_TOOL_NAME,
+    "description": HYBRID_CANDIDATE_DESCRIPTION,
+    "use_when": ["Hybrid RAG에서 Vector 검색 결과를 Graph/BM25 후보와 통합하기 전"],
+    "inputs": {"query": "사용자 원본 질문"},
+    "outputs": ["results", "source_ids", "warnings", "unsupported_constraints", "search_summary"],
+    "candidate_k": HYBRID_CANDIDATE_K,
+    "reranks": False,
     "retry_owner": "supervisor",
     "generates_answer": False,
 }
@@ -123,6 +150,27 @@ def _build_tool_definition() -> dict[str, Any]:
     }
 
 
+def get_hybrid_candidate_tool_definition() -> dict[str, Any]:
+    """Hybrid 후보 도구 입력 명세. 후보 수 20은 도구에서 고정한다."""
+    return {
+        "type": "function",
+        "name": HYBRID_CANDIDATE_TOOL_NAME,
+        "description": HYBRID_CANDIDATE_DESCRIPTION,
+        "parameters": {
+            "type": "object",
+            "properties": {
+                "query": {
+                    "type": "string",
+                    "description": "사용자 원본 질문. 지역·가격 등의 필터 조건도 포함.",
+                },
+            },
+            "required": ["query"],
+            "additionalProperties": False,
+        },
+        "strict": True,
+    }
+
+
 def get_tool_definition(mode: Literal["run", "retrieve"] = "retrieve") -> dict[str, Any]:
     """run/retrieve 모두 같은 검색 전용 Tool 명세를 반환한다."""
     if mode not in ("run", "retrieve"):
@@ -158,10 +206,9 @@ class VectorSearchRAGAgent:
             self._search_service = VectorSearchService()
         return self._search_service
 
-    def retrieve(self, query: str, top_k: int = 5) -> dict[str, Any]:
-        """검색 계획/후보/재평가를 한 번 실행하고 근거 데이터만 반환한다."""
-        original_query = _validate_input(query, top_k)
-        search = self.service.search(original_query, top_k=top_k, rerank=True)
+    @staticmethod
+    def _format_response(search: VectorSearchResponse, *, tool_name: str) -> dict[str, Any]:
+        """기존 결과 계약을 재사용해 상위 Supervisor 호환성을 유지한다."""
         warnings = list(search.warnings)
         unsupported = list(search.plan.unsupported_constraints)
         results: list[dict[str, Any]] = []
@@ -178,7 +225,7 @@ class VectorSearchRAGAgent:
             })
 
         return {
-            "tool": RETRIEVAL_TOOL_NAME,
+            "tool": tool_name,
             "status": _result_status(
                 has_results=bool(results), warnings=warnings, unsupported=unsupported,
             ),
@@ -189,6 +236,26 @@ class VectorSearchRAGAgent:
             "unsupported_constraints": unsupported,
             "search_summary": _search_summary(search),
         }
+
+    def retrieve(self, query: str, top_k: int = 5) -> dict[str, Any]:
+        """기존 Vector 검색: 후보 확대 후 LLM 재평가해 최종 top_k개 반환."""
+        original_query = _validate_input(query, top_k)
+        search = self.service.search(original_query, top_k=top_k, rerank=True)
+        return self._format_response(search, tool_name=RETRIEVAL_TOOL_NAME)
+
+    def retrieve_candidates(self, query: str, top_k: int = HYBRID_CANDIDATE_K) -> dict[str, Any]:
+        """하이브리드 검색 전용: ChromaDB 후보를 재평가/탈락 없이 반환한다.
+
+        Python 호출자는 필요하면 top_k를 바꿀 수 있다. 도구 등록 시에는
+        retrieve_hybrid_candidates()를 이용해 20개를 고정한다.
+        """
+        original_query = _validate_input(query, top_k)
+        search = self.service.search(original_query, top_k=top_k, rerank=False)
+        return self._format_response(search, tool_name=HYBRID_CANDIDATE_TOOL_NAME)
+
+    def retrieve_hybrid_candidates(self, query: str) -> dict[str, Any]:
+        """상위 Router에 노출할 최대 20개 후보 검색 진입점(요청당 고정 상한)."""
+        return self.retrieve_candidates(query=query, top_k=HYBRID_CANDIDATE_K)
 
     def run(self, query: str, top_k: int = 5) -> dict[str, Any]:
         """기존 호출을 위한 별칭. retrieve()와 동일하게 후보만 반환한다."""
@@ -206,8 +273,17 @@ class VectorSearchRAGAgent:
         )
 
     def as_langchain_retrieval_tool(self) -> Any:
-        """검색 Tool을 반환하는 편의 메서드."""
+        """기존 검색 Tool을 반환하는 편의 메서드."""
         return self.as_langchain_tool("retrieve")
+
+    def as_langchain_hybrid_candidate_tool(self) -> Any:
+        """Hybrid RAG용 후보 20개 검색 Tool을 별도로 등록한다."""
+        from langchain_core.tools import StructuredTool
+        return StructuredTool.from_function(
+            func=self.retrieve_hybrid_candidates,
+            name=HYBRID_CANDIDATE_TOOL_NAME,
+            description=HYBRID_CANDIDATE_DESCRIPTION,
+        )
 
 
 # 새 코드에서는 역할을 정확히 드러내는 이름으로도 import할 수 있게 한다.
@@ -218,7 +294,8 @@ def _main() -> None:
     """실제 API 검색 테스트. 항상 후보만 출력하며 최종 답변을 작성하지 않는다."""
     parser = argparse.ArgumentParser(description="박물관 Vector 검색 도구 (답변 생성 없음)")
     parser.add_argument("query", nargs="?", help="질문. 생략하면 콘솔 입력")
-    parser.add_argument("--top-k", type=int, default=5, help="최종 후보 수 (1~40)")
+    parser.add_argument("--top-k", type=int, default=None, help="반환 후보 수 (1~40). 기존 검색 기본 5, Hybrid 기본 20")
+    parser.add_argument("--hybrid-candidates", action="store_true", help="Hybrid용: LLM 재평가 없이 최대 20개 후보 반환")
     parser.add_argument("--info", action="store_true", help="도구 선택 기준만 출력 (API 미호출)")
     parser.add_argument(
         "--retrieve", action="store_true",
@@ -227,14 +304,21 @@ def _main() -> None:
     args = parser.parse_args()
 
     if args.info:
-        print(json.dumps(AGENT_CARD, ensure_ascii=False, indent=2))
+        card = HYBRID_CANDIDATE_CARD if args.hybrid_candidates else AGENT_CARD
+        print(json.dumps(card, ensure_ascii=False, indent=2))
         return
 
     try:
         query = args.query if args.query is not None else input("검색 질문: ")
     except EOFError:
         parser.error("검색 질문을 인자로 전달하거나 콘솔에 입력하세요.")
-    response = VectorSearchRAGAgent().run(query, top_k=args.top_k)
+    agent = VectorSearchRAGAgent()
+    if args.hybrid_candidates:
+        candidate_k = HYBRID_CANDIDATE_K if args.top_k is None else args.top_k
+        response = agent.retrieve_candidates(query, top_k=candidate_k)
+    else:
+        final_k = 5 if args.top_k is None else args.top_k
+        response = agent.run(query, top_k=final_k)
     print(json.dumps(response, ensure_ascii=False, indent=2, default=str))
 
 
