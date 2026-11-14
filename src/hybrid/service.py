@@ -1,12 +1,21 @@
 """Independent BM25 + Vector -> weighted RRF -> Cross-Encoder retrieval.
 
-No Neo4j queries, answer generation, agent planning, or autonomous retries.
-Both search pipelines operate independently; graph-oriented diagnostics are
-returned without changing the response's existing public keys.
+No answer generation, agent planning, or autonomous retries. Both search
+pipelines operate independently; graph-oriented diagnostics are returned
+without changing the response's existing public keys.
+
+Optional ontology candidate filter (stage 0): hard, recorded conditions in the
+question (amenities, an open weekday) become a museum_id set, and Vector and
+BM25 search only inside it. See ontology_filter.py.
+
+After fusion, a facility named verbatim in the question is always a candidate
+(name_match.py), and a Cross-Encoder order is only trusted when its best score
+reaches HybridConfig.rerank_min_confidence; otherwise the RRF order is kept.
 """
 
 from __future__ import annotations
 
+import inspect
 import math
 from collections.abc import Callable, Mapping, Sequence
 from concurrent.futures import ThreadPoolExecutor
@@ -65,6 +74,25 @@ def _plan_value(plan: Any | None, field: str, default: Any = None) -> Any:
     return getattr(plan, field, default)
 
 
+def _accepts_keyword(fn: Any, name: str) -> bool:
+    try:
+        parameters = inspect.signature(fn).parameters.values()
+    except (TypeError, ValueError):
+        return False
+    return any(p.name == name or p.kind is inspect.Parameter.VAR_KEYWORD for p in parameters)
+
+
+def _search_within(fn: Callable[..., Any], candidate_ids: list[str] | None, **kwargs: Any) -> Any:
+    """Pass candidate_ids when the retriever supports it; otherwise post-filter."""
+    if candidate_ids is None:
+        return fn(**kwargs)
+    if _accepts_keyword(fn, "candidate_ids"):
+        return fn(candidate_ids=list(candidate_ids), **kwargs)
+    hits, warnings = _normalize_retriever_response(fn(**kwargs), "retriever")
+    allowed = set(candidate_ids)
+    return {"results": [hit for hit in hits if str(hit.get("museum_id", "")) in allowed], "warnings": warnings}
+
+
 def _elapsed_ms(started_at: float) -> float:
     return round((perf_counter() - started_at) * 1000, 2)
 
@@ -100,6 +128,8 @@ class HybridSearchService:
         vector_retriever: Any | None = None,
         reranker: Any | None = None,
         config: HybridConfig | None = None,
+        candidate_filter: Any | None = None,
+        name_index: Any | None = None,
     ) -> None:
         if bm25_retriever is None or not callable(getattr(bm25_retriever, "search", None)):
             raise TypeError("bm25_retriever must expose .search(query, *, top_k, filters)")
@@ -110,6 +140,62 @@ class HybridSearchService:
         self.config = config if config is not None else HybridConfig.from_env()
         self._reranker = reranker
         self._rerank_lock = Lock()
+        if candidate_filter is not None and not callable(getattr(candidate_filter, "resolve", None)):
+            raise TypeError("candidate_filter must expose .resolve(question)")
+        self.candidate_filter = candidate_filter
+        if name_index is not None and not callable(getattr(name_index, "match", None)):
+            raise TypeError("name_index must expose .match(question)")
+        self.name_index = name_index
+
+    def _ensure_named(
+        self, query: str, fused: list[dict[str, Any]], candidate_ids: list[str] | None,
+    ) -> tuple[list[dict[str, Any]], dict[str, Any]]:
+        """Put facilities named verbatim in the question at the front of the candidates."""
+        matches = self.name_index.match(query)
+        summary: dict[str, Any] = {"names": [name for name, _ in matches], "promoted": [],
+                                   "injected": [], "unavailable": []}
+        if not matches:
+            return fused, {"status": "not_applicable", **summary}
+        allowed = None if candidate_ids is None else set(candidate_ids)
+        by_id = {str(hit["museum_id"]): hit for hit in fused}
+        get_document = getattr(self.bm25_retriever, "document", None)
+        front: list[dict[str, Any]] = []
+        for _, museum_ids in matches:
+            for museum_id in museum_ids:
+                if (allowed is not None and museum_id not in allowed) or any(
+                        hit["museum_id"] == museum_id for hit in front):
+                    continue
+                if museum_id in by_id:
+                    front.append(by_id[museum_id])
+                    summary["promoted"].append(museum_id)
+                    continue
+                hit = get_document(museum_id) if callable(get_document) else None
+                text = str((hit or {}).get("document") or "")
+                if not text.strip():
+                    summary["unavailable"].append(museum_id)
+                    continue
+                front.append({
+                    "museum_id": museum_id, "name": hit.get("name"), "document": text,
+                    "metadata": dict(hit.get("metadata") or {}),
+                    "vector_rank": None, "bm25_rank": None, "vector_distance": None,
+                    "vector_score": None, "bm25_score": None,
+                    "vector_document": "", "bm25_document": text,
+                    "best_span_id": hit.get("best_span_id"), "best_span_text": hit.get("best_span_text"),
+                    "fusion_score": 0.0, "retrieved_by": ["name_match"],
+                })
+                summary["injected"].append(museum_id)
+        if not front:
+            return fused, {"status": "no_candidate", **summary}
+        front_ids = {hit["museum_id"] for hit in front}
+        merged = front + [hit for hit in fused if hit["museum_id"] not in front_ids]
+        merged = merged[: self.config.fusion_top_k]
+        result = []
+        for rank, hit in enumerate(merged, 1):
+            item = dict(hit, fusion_rank=rank)
+            if hit["museum_id"] in front_ids:
+                item["name_match"] = True
+            result.append(item)
+        return result, {"status": "applied", **summary}
 
     @property
     def reranker(self) -> Any:
@@ -130,6 +216,7 @@ class HybridSearchService:
         rerank: bool = True,
         include_fusion_candidates: bool = False,
         include_retrieval_candidates: bool = False,
+        include_full_retrieval_candidates: bool = False,
     ) -> dict[str, Any]:
         """Search once, returning final candidates and stage-level observations.
 
@@ -146,8 +233,22 @@ class HybridSearchService:
             raise ValueError(f"top_k must be between 1 and fusion_top_k ({cfg.fusion_top_k})")
         if not isinstance(rerank, bool):
             raise TypeError("rerank must be a boolean")
+        if not isinstance(include_full_retrieval_candidates, bool):
+            raise TypeError("include_full_retrieval_candidates must be a boolean")
         warnings: list[str] = []
         stages: list[dict[str, Any]] = []
+
+        # 0: Ontology candidate filter. Hard recorded conditions -> museum_id set.
+        stage_start = perf_counter()
+        decision = self.candidate_filter.resolve(query) if self.candidate_filter is not None else None
+        candidate_ids = decision.candidate_ids if decision is not None and decision.status != "not_applicable" else None
+        if decision is not None:
+            stages.append({"stage": "ontology_filter", "duration_ms": _elapsed_ms(stage_start), **decision.summary()})
+            if decision.status == "empty":
+                warnings.append(
+                    f"구조 조건({decision.conditions.describe()})을 만족하는 기록이 있는 시설이 없습니다; "
+                    "조건을 빼고 검색하지 않았습니다."
+                )
 
         # 1: Shared query plan + metadata filters. The original query goes to BM25.
         stage_start = perf_counter()
@@ -163,9 +264,14 @@ class HybridSearchService:
             "status": _plan_value(prepared_plan, "status", "not_used"),
             "model": _plan_value(prepared_plan, "model"),
         }
+        analysis_status = (
+            "disabled" if plan_details["status"] == "disabled"
+            else "ok" if prepared_plan is not None
+            else "not_used"
+        )
         stages.append({
             "stage": "query_analysis",
-            "status": "ok" if prepared_plan is not None else "not_used",
+            "status": analysis_status,
             "duration_ms": _elapsed_ms(stage_start),
             "filters": filters,
             **plan_details,
@@ -173,10 +279,16 @@ class HybridSearchService:
 
         # 2: Independent BM25 and Vector retrieval, parallel by default.
         def get_vector() -> Any:
-            return self.vector_retriever.search(query, top_k=cfg.vector_top_k, prepared_plan=prepared_plan)
+            return _search_within(
+                self.vector_retriever.search, candidate_ids,
+                query=query, top_k=cfg.vector_top_k, prepared_plan=prepared_plan,
+            )
 
         def get_bm25() -> Any:
-            return self.bm25_retriever.search(query, top_k=cfg.bm25_top_k, filters=dict(filters))
+            return _search_within(
+                self.bm25_retriever.search, candidate_ids,
+                query=query, top_k=cfg.bm25_top_k, filters=dict(filters),
+            )
 
         def measured_task(task: Callable[[], Any]) -> tuple[Any, Exception | None, float]:
             task_start = perf_counter()
@@ -238,10 +350,19 @@ class HybridSearchService:
             "returned": len(fused),
         })
 
+        # 3b: A facility named verbatim in the question is always a candidate.
+        name_summary = None
+        if self.name_index is not None:
+            stage_start = perf_counter()
+            fused, name_summary = self._ensure_named(query, fused, candidate_ids)
+            stages.append({"stage": "name_match", "duration_ms": _elapsed_ms(stage_start), **name_summary})
+
         # 4: Cross-Encoder reranking, with explicitly reported fallback.
         ranked: list[dict[str, Any]] = [dict(hit, rerank_score=None) for hit in fused]
         rerank_applied = False
         rerank_failure = False
+        rerank_low_confidence = False
+        rerank_best_score = None
         rerank_diagnostics: dict[str, Any] = {}
         stage_start = perf_counter()
         if rerank and ranked:
@@ -265,6 +386,11 @@ class HybridSearchService:
                     hit["rerank_score"] = value
                 ranked.sort(key=lambda hit: (-hit["rerank_score"], hit["fusion_rank"], hit["museum_id"]))
                 rerank_applied = True
+                rerank_best_score = max(hit["rerank_score"] for hit in ranked)
+                if cfg.rerank_min_confidence > 0 and rerank_best_score < cfg.rerank_min_confidence:
+                    # No confident candidate: near-zero scores are noise, keep the RRF order.
+                    ranked.sort(key=lambda hit: hit["fusion_rank"])
+                    rerank_low_confidence = True
             except Exception as exc:
                 if cfg.rerank_failure_policy == "raise":
                     raise RuntimeError(f"Cross-Encoder reranking failed ({type(exc).__name__})") from exc
@@ -275,10 +401,13 @@ class HybridSearchService:
                 ranked.sort(key=lambda hit: hit["fusion_rank"])
         stages.append({
             "stage": "cross_encoder_rerank",
-            "status": "failed_fallback" if rerank_failure else ("ok" if rerank_applied else "skipped"),
+            "status": ("failed_fallback" if rerank_failure else "low_confidence_rrf_order" if rerank_low_confidence
+                       else "ok" if rerank_applied else "skipped"),
             "duration_ms": _elapsed_ms(stage_start),
             "requested": len(fused) if rerank else 0,
             "returned": len(ranked),
+            "best_score": rerank_best_score,
+            "min_confidence": cfg.rerank_min_confidence,
             **rerank_diagnostics,
         })
 
@@ -287,13 +416,25 @@ class HybridSearchService:
         for rank, hit in enumerate(ranked[:final_k], 1):
             final_hit = dict(hit)
             final_hit["rank"] = rank
-            final_hit["score"] = final_hit["rerank_score"] if rerank_applied else final_hit["fusion_score"]
-            final_hit["score_type"] = "cross_encoder" if rerank_applied else "rrf"
+            trusted = rerank_applied and not rerank_low_confidence
+            final_hit["score"] = final_hit["rerank_score"] if trusted else final_hit["fusion_score"]
+            final_hit["score_type"] = ("cross_encoder" if trusted else
+                                       "rrf_low_confidence_rerank" if rerank_low_confidence else "rrf")
             # Preserve the vector tool's familiar optional result keys without
             # pretending Cross-Encoder scores are its 0/1/2 LLM grades.
             final_hit.setdefault("distance", final_hit.get("vector_distance"))
             final_hit.setdefault("relevance", None)
             final_hit.setdefault("relevance_reason", None)
+            if decision is not None and decision.status == "applied":
+                # The answer/verifier LLM reads metadata; this is the basis for
+                # the structured conditions, separate from the passage text.
+                from .ontology_filter import describe_match
+
+                metadata = dict(final_hit.get("metadata") or {})
+                metadata["structured_match"] = describe_match(
+                    decision.conditions, decision.evidence.get(str(final_hit.get("museum_id")), {})
+                )
+                final_hit["metadata"] = metadata
             results.append(final_hit)
 
         if not fused:
@@ -332,6 +473,10 @@ class HybridSearchService:
             "query_mode": plan_details["mode"],
             "analysis_status": plan_details["status"],
             "unsupported_constraints": list(unsupported),
+            "ontology_filter": decision.summary() if decision is not None else None,
+            "name_match": name_summary,
+            "rerank_low_confidence": rerank_low_confidence,
+            "rerank_best_score": rerank_best_score,
             "stages": stages,
             "total_duration_ms": _elapsed_ms(started_at),
         }
@@ -351,5 +496,10 @@ class HybridSearchService:
             response["retrieval_candidates"] = {
                 "vector": _candidate_preview(vector_hits, "vector"),
                 "bm25": _candidate_preview(bm25_hits, "bm25"),
+            }
+        if include_full_retrieval_candidates:
+            response["retrieval_candidates_full"] = {
+                "vector": [dict(hit) for hit in vector_hits],
+                "bm25": [dict(hit) for hit in bm25_hits],
             }
         return response

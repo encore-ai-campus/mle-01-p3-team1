@@ -7,6 +7,7 @@ from typing import Any
 
 from neo4j import RoutingControl
 
+from .region_normalization import canonicalize_sido, expand_sido_terms
 from .state import Evidence
 
 
@@ -96,7 +97,7 @@ class Neo4jSpanSearch:
     def search(self, question: str, k: int = 5) -> list[Evidence]:
         if type(k) is not int or k < 1:
             raise ValueError("k는 1 이상의 정수여야 합니다.")
-        terms = extract_search_terms(question)
+        terms = expand_sido_terms(extract_search_terms(question))
         records, _, _ = self.driver.execute_query(
             READ_SPANS_QUERY,
             parameters_={"terms": terms, "k": k},
@@ -116,7 +117,7 @@ class Neo4jSpanSearch:
                 "source_doc_ids": source_doc_ids,
                 "source_urls": source_urls,
                 "source_url": source_urls[0] if source_urls else "",
-                "sido": record.get("sido", ""),
+                "sido": canonicalize_sido(record.get("sido", "")),
                 "sigungu": record.get("sigungu", ""),
                 "matched_terms": list(record.get("matched_terms") or []),
                 "retriever": "graph",

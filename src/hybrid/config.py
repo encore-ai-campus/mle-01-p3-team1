@@ -28,6 +28,9 @@ class HybridConfig:
     reranker_batch_size: int = 8
     reranker_max_chars: int = 2000
     rerank_failure_policy: str = "rrf_fallback"  # or "raise"
+    # When the best Cross-Encoder score is below this, the reranker has no confident
+    # candidate and its order is not trusted: keep the RRF order instead (0 disables).
+    rerank_min_confidence: float = 0.1
     retriever_failure_policy: str = "raise"  # or "partial"
     parallel_retrieval: bool = True
 
@@ -57,6 +60,9 @@ class HybridConfig:
                 raise ValueError(f"{name} must be None or a non-empty string")
         if self.rerank_failure_policy not in {"raise", "rrf_fallback"}:
             raise ValueError("rerank_failure_policy must be 'raise' or 'rrf_fallback'")
+        if (isinstance(self.rerank_min_confidence, bool) or not isinstance(self.rerank_min_confidence, (int, float))
+                or not math.isfinite(self.rerank_min_confidence) or not 0 <= self.rerank_min_confidence <= 1):
+            raise ValueError("rerank_min_confidence must be between 0 and 1")
         if self.retriever_failure_policy not in {"raise", "partial"}:
             raise ValueError("retriever_failure_policy must be 'raise' or 'partial'")
         if not isinstance(self.parallel_retrieval, bool):
@@ -80,6 +86,7 @@ class HybridConfig:
             "reranker_batch_size": ("HYBRID_RERANK_BATCH_SIZE", int),
             "reranker_max_chars": ("HYBRID_RERANK_MAX_CHARS", int),
             "rerank_failure_policy": ("HYBRID_RERANK_FAILURE_POLICY", str),
+            "rerank_min_confidence": ("HYBRID_RERANK_MIN_CONFIDENCE", float),
             "retriever_failure_policy": ("HYBRID_RETRIEVER_FAILURE_POLICY", str),
             "parallel_retrieval": ("HYBRID_PARALLEL_RETRIEVAL", str),
         }

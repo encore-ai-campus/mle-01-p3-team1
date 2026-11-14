@@ -18,7 +18,10 @@ import json
 import math
 from collections.abc import Callable, Mapping, Sequence
 from pathlib import Path
+from threading import Lock
 from typing import Any
+
+from src.region_aliases import SIDO_ALIAS_FAMILIES, SIDO_TO_CANONICAL
 
 from .bm25_reranker import BM25Reranker, SpanDocument
 
@@ -37,14 +40,12 @@ _SIDO_GROUPS = (
     {"강원", "강원도", "강원특별자치도"},
     {"충북", "충청북도"}, {"충남", "충청남도"},
     {"경북", "경상북도"}, {"경남", "경상남도"},
-    {"전북", "전라북도", "전북특별자치도"},
-    {"전남", "전라남도", "전남광주통합특별시"},
+    set(SIDO_ALIAS_FAMILIES["전북특별자치도"]),
+    set(SIDO_ALIAS_FAMILIES["전남광주특별자치도"]),
     {"제주", "제주도", "제주특별자치도"},
     {"세종", "세종특별자치시", "세종특별시"},
 )
 _SIDO_CANON = {name: sorted(group)[0] for group in _SIDO_GROUPS for name in group}
-
-
 def _normalized_sido(value: Any) -> str:
     stripped = str(value or "").strip()
     return _SIDO_CANON.get(stripped, stripped)
@@ -132,9 +133,13 @@ class BM25SpanRetriever:
         if not copied_spans:
             raise ValueError("BM25 corpus is empty: supply TextSpan export or populated Chroma collection")
         self._ranker = BM25Reranker(copied_spans, tokenize=tokenize)
+        self._ranker_lock = Lock()
         self._museum_ids = tuple(sorted({span.museum_id for span in copied_spans}))
         provided = metadata_by_museum or {}
         self._metadata = {str(mid): dict(meta) for mid, meta in provided.items()}
+        self._texts: dict[str, list[tuple[str, str]]] = {}
+        for span in copied_spans:
+            self._texts.setdefault(span.museum_id, []).append((span.span_id, span.text))
         self.span_count = len(copied_spans)
         self.museum_count = len(self._museum_ids)
 
@@ -144,7 +149,9 @@ class BM25SpanRetriever:
         *,
         top_k: int = 20,
         filters: Mapping[str, Any] | None = None,
+        candidate_ids: Sequence[str] | None = None,
     ) -> list[dict[str, Any]]:
+        """candidate_ids, when given, limits the search to those museums (ontology filter)."""
         if not isinstance(query, str) or not query.strip():
             raise ValueError("BM25 query must be nonempty")
         if type(top_k) is not int or top_k < 1:
@@ -162,6 +169,9 @@ class BM25SpanRetriever:
             if missing:
                 raise ValueError(f"BM25 corpus lacks required filter metadata: {missing}")
         eligible = [mid for mid in self._museum_ids if _match_metadata(self._metadata.get(mid, {}), cleaned_filters)]
+        if candidate_ids is not None:
+            allowed = {str(mid) for mid in candidate_ids}
+            eligible = [mid for mid in eligible if mid in allowed]
         if not eligible:
             return []
 
@@ -169,9 +179,10 @@ class BM25SpanRetriever:
         # With ALL eligible museum IDs passed here, vector_weight=0 suppresses
         # vector contributions entirely. Its BM25-only RRF is monotone in BM25
         # rank, so the resulting order is exactly independent BM25 order.
-        ranked = self._ranker.rerank(
-            query, eligible, top_k=top_k, vector_weight=0.0, bm25_weight=1.0,
-        )
+        with self._ranker_lock:
+            ranked = self._ranker.rerank(
+                query, eligible, top_k=top_k, vector_weight=0.0, bm25_weight=1.0,
+            )
         results: list[dict[str, Any]] = []
         for museum in ranked:
             # Original ranker includes zero-score IDs as fallback; do not pass
@@ -179,6 +190,10 @@ class BM25SpanRetriever:
             if museum.bm25_score <= 0 or museum.bm25_rank is None:
                 continue
             meta = dict(self._metadata.get(museum.museum_id, {}))
+            if meta.get("sido"):
+                meta["sido"] = SIDO_TO_CANONICAL.get(
+                    str(meta["sido"]).strip(), str(meta["sido"]).strip()
+                )
             results.append({
                 "museum_id": museum.museum_id,
                 "name": meta.get("name"),
@@ -191,6 +206,24 @@ class BM25SpanRetriever:
                 "best_span_text": museum.best_span_text,
             })
         return results
+
+    def document(self, museum_id: str) -> dict[str, Any] | None:
+        """The museum's corpus text as a candidate hit (used by exact name matching)."""
+        spans = self._texts.get(str(museum_id))
+        if not spans:
+            return None
+        meta = dict(self._metadata.get(str(museum_id), {}))
+        if meta.get("sido"):
+            meta["sido"] = SIDO_TO_CANONICAL.get(str(meta["sido"]).strip(), str(meta["sido"]).strip())
+        text = "\n".join(text for _, text in spans)
+        return {
+            "museum_id": str(museum_id),
+            "name": meta.get("name"),
+            "document": text,
+            "metadata": meta,
+            "best_span_id": spans[0][0] if len(spans) == 1 else None,
+            "best_span_text": text if len(spans) == 1 else None,
+        }
 
     @classmethod
     def from_file(

@@ -1,0 +1,47 @@
+﻿question_id,category,user_input,answerable,label_status,gold_museum_ids,retrieved_museum_ids,gold_museum_recall,retrieved_source_doc_ids,retrieved_source_locators,retrieved_span_ids,evidence_count,evidence_presence_correct,route_trace,verified_id_check,answer,faithfulness,context_recall,context_precision_with_reference,factual_correctness
+MH001,graph_multihop_region,박진전쟁기념관과 같은 시도·시군구 조합에 속한 다른 시설은 어디인가요? 공통 지역도 알려주세요.,yes,draft_needs_human_review,M0003,M0001;M0003,1.0,DOC-B0001-TOUR_API-2785601,data/raw/museum_tourapi_with_overview.csv#row=2,,2,1,graph,True,"같은 시도·시군구 조합에 속한 다른 시설은 **창녕박물관 [M0003]**입니다. 공통 지역은 **경상남도 창녕군**입니다. [박진전쟁기념관: DOC-B0001-TOUR_API-2785601]
+
+근거 박물관: [M0001]",1.0,0.6666666666666666,0.99999999995,
+MH002,graph_multihop_region,홍주성역사관과 같은 시도·시군구 조합에 속한 다른 시설을 현재 데이터에서 모두 찾아주세요. 공통 지역과 시설 수를 함께 알려주세요.,yes,draft_needs_human_review,M0009;M0010;M0011,M0012;M0009;M0010;M0011,1.0,DOC-B0012-BASE;DOC-B0012-TOUR_API-2551494,data/raw/museum_base_1070.csv#row=13;data/raw/museum_tourapi_with_overview.csv#row=10,,4,1,graph,True,"공통 지역은 **충청남도 홍성군**입니다.
+
+홍주성역사관 외에 같은 지역으로 등록된 시설은 **3곳**입니다.
+- 한국식기박물관 [M0009]
+- 결성농요농사박물관 [M0010]
+- 고암이응노생가기념관 [M0011]
+
+홍주성역사관까지 포함하면 현재 확인되는 시설은 **총 4곳**입니다. 홍주성역사관의 지역 등록 근거는 `DOC-B0012-BASE`, `DOC-B0012-TOUR_API-2551494`입니다.
+
+근거 박물관: [M0012]",1.0,1.0,0.999999999975,
+MH003,graph_multihop_region_filter,수원시립미술관과 같은 시도·시군구 조합에 있으면서 데이터의 운영주체 분류가 국립인 다른 시설은 어디인가요?,yes,draft_needs_human_review,M0490;M0491,M0400;M0490;M0491,1.0,DOC-B0400-BASE;DOC-B0400-TOUR_API-2033483,data/raw/museum_base_1070.csv#row=401;data/raw/museum_tourapi_with_overview.csv#row=185,,3,1,graph,True,"수원시립미술관과 같은 경기도 수원시에 있으며 운영주체 분류가 국립인 시설은 국립농업박물관[M0490]과 국립지도박물관[M0491]입니다.
+
+근거 박물관: [M0400]",1.0,1.0,0.9999999999666667,
+MH004,graph_multihop_region_text,"안산산업역사박물관과 같은 시도·시군구 조합에 있는 다른 시설 중, 어린이 미술관과 한옥체험장을 함께 갖췄다고 소개하는 곳은 어디인가요? 해당 설명을 인용해주세요.",yes,draft_needs_human_review,M0468,M0466,0.0,DOC-B0466-BASE;DOC-B0466-TOUR_API-3081404,data/raw/museum_base_1070.csv#row=467;data/raw/museum_tourapi_with_overview.csv#row=228,,1,1,graph,True,"제공된 자료에는 안산산업역사박물관 [M0466]만 확인되어, 같은 경기도 안산시에 있는 다른 시설이나 “어린이 미술관과 한옥체험장”을 함께 갖췄다는 설명은 확인할 수 없습니다. (DOC-B0466-BASE, DOC-B0466-TOUR_API-3081404)",1.0,0.0,0.9999999999,
+MH005,graph_multihop_region_text_source,수원시립미술관과 같은 시도·시군구 조합에 있는 다른 시설 중 고지도와 측량 유물을 전시한다고 소개하는 곳은 어디인가요? 근거 문장과 그 문장의 출처 문서 ID를 함께 알려주세요.,yes,draft_needs_human_review,M0491,M0400;M0491,1.0,DOC-B0400-BASE;DOC-B0400-TOUR_API-2033483;DOC-B0491-TOUR_API-130744,data/raw/museum_base_1070.csv#row=401;data/raw/museum_tourapi_with_overview.csv#row=185;data/raw/museum_tourapi_with_overview.csv#row=243,M0491:002,2,1,graph,True,"해당 시설은 **국립지도박물관**입니다 [M0491]. 수원시립미술관과 같은 경기도 수원시에 있습니다 [M0400][M0491].
+
+근거 문장: “중앙호르 역사관, 현대관, 야외전시장 등에서 고지도 및 측량 유물 등을 전시하여 측량과 지도제작에 관한 이해를 도모하고 국토사랑 공감대를 형성할 수 있다.”  
+출처 문서 ID: **DOC-B0491-TOUR_API-130744**. 원본 위치: `data/raw/museum_tourapi_with_overview.csv#row=243` [M0491]",1.0,1.0,0.99999999995,
+MH006,graph_multihop_region_text_source,홍주성역사관과 같은 시도·시군구 조합에 있는 다른 시설 중 농요와 농사 유물을 전시한다고 소개하는 곳은 어디인가요? 이를 뒷받침하는 문장과 출처 문서 ID도 알려주세요.,yes,draft_needs_human_review,M0010,M0012;M0010,1.0,DOC-B0012-BASE;DOC-B0012-TOUR_API-2551494;DOC-B0010-BASE,data/raw/museum_base_1070.csv#row=13;data/raw/museum_tourapi_with_overview.csv#row=10;data/raw/museum_base_1070.csv#row=11,M0010:007,2,1,graph,True,"홍주성역사관과 같은 **충청남도 홍성군**에 있는 곳은 **결성농요농사박물관**입니다 [M0010]. 소개 문장에는 “결성 농사박물관은 2004년 3월 3일 개관하였으며 농요와 농사 유물 및 선사유물이 전시되어 농경생활의 변천사를 한눈에 알아보고 체험할수 있다.”라고 되어 있습니다.
+
+출처 문서 ID: **DOC-B0010-BASE**. 원본 위치: `data/raw/museum_base_1070.csv#row=11`.
+
+근거 박물관: [M0012]",0.8571428571428571,1.0,0.99999999995,
+MH007,graph_multihop_region_hierarchy,수원화성박물관과 전곡선사박물관은 같은 시도에 속하지만 시군구는 다른가요? 각 시군구와 공통 시도를 관계 경로로 설명해주세요.,yes,draft_needs_human_review,M0402;M0448,M0402;M0448,1.0,DOC-B0402-BASE;DOC-B0402-TOUR_API-1921150,data/raw/museum_base_1070.csv#row=403;data/raw/museum_tourapi_with_overview.csv#row=187,,3,1,graph,True,"네, 두 박물관은 **같은 시도인 경기도**에 속하지만 시군구는 다릅니다.
+
+- 수원화성박물관 [M0402]: **수원시 → 경기도**. 근거: DOC-B0402-BASE, DOC-B0402-TOUR_API-1921150 (`data/raw/museum_base_1070.csv#row=403`, `data/raw/museum_tourapi_with_overview.csv#row=187`)
+- 전곡선사박물관 [M0448]: **연천군 → 경기도**.
+
+따라서 공통 시도는 **경기도**, 서로 다른 시군구는 **수원시**와 **연천군**입니다. 전곡선사박물관의 관계 경로를 뒷받침하는 출처 문서 ID는 제공된 근거에 없습니다.",,1.0,0.9999999999666667,
+MH008,graph_multihop_region_hierarchy_filter,"송암미술관과 같은 시도에 속하지만 시군구는 다르고, 데이터의 운영주체 분류가 국립인 시설을 찾아주세요. 출발 시설과 도착 시설의 시군구도 비교해주세요.",yes,draft_needs_human_review,M0410,M0007;M0410,1.0,DOC-B0007-BASE;DOC-B0007-TOUR_API-130076;DOC-B0107-BASE;DOC-B0410-BASE;DOC-B0410-TOUR_API-3097744,data/raw/museum_base_1070.csv#row=8;data/raw/museum_tourapi_with_overview.csv#row=7;data/raw/museum_base_1070.csv#row=108;data/raw/museum_base_1070.csv#row=411;data/raw/museum_tourapi_with_overview.csv#row=193,,2,1,graph,True,"조건에 맞는 시설은 **국립세계문자박물관 [M0410]**입니다. 운영주체 분류는 국립이고, 송암미술관 [M0007]과 같은 인천광역시에 속하지만 시군구는 다릅니다.
+
+- 출발 시설: 송암미술관 — 인천광역시 미추홀구 [DOC-B0007-BASE]
+- 도착 시설: 국립세계문자박물관 — 인천광역시 연수구, 운영주체 분류 국립 [DOC-B0410-BASE]
+- 시군구 비교: 미추홀구 → 연수구
+
+출처 위치: 송암미술관 `data/raw/museum_base_1070.csv#row=8`, 국립세계문자박물관 `data/raw/museum_base_1070.csv#row=411`",0.875,1.0,0.99999999995,
+MH009,graph_multihop_provenance,"홍주성역사관 본문에서 ""홍성과 충남 내포지역의 특색 있는 역사와 문화""를 소개하는 구간에 연결된 출처는 몇 개인가요? 각 문서 ID와 원본 위치를 알려주세요.",yes,draft_needs_human_review,M0012,M0012,1.0,DOC-B0012-BASE;DOC-B0012-TOUR_API-2551494,data/raw/museum_base_1070.csv#row=13;data/raw/museum_tourapi_with_overview.csv#row=10,M0012:002,1,1,graph,True,"홍주성역사관 [M0012]의 해당 구간에 연결된 출처는 **2개**입니다.
+
+- `DOC-B0012-BASE` — `data/raw/museum_base_1070.csv#row=13`
+- `DOC-B0012-TOUR_API-2551494` — `data/raw/museum_tourapi_with_overview.csv#row=10`",1.0,1.0,0.9999999999,
+MH010,graph_multihop_provenance,"천안시립미술관에서 ""예술의 뜰""을 안내하는 본문 구간은 어떤 출처에 연결되어 있나요? 그 출처에 연결된 이 미술관의 다른 본문 구간도 찾아 내용을 요약해주세요.",yes,draft_needs_human_review,M0710,M0710,1.0,DOC-B0710-TOUR_API-2763024,data/raw/museum_tourapi_with_overview.csv#row=347,M0710:000,1,1,graph,True,"“예술의 뜰”을 안내하는 구간은 **천안시립미술관 [M0710]**의 출처 문서 **DOC-B0710-TOUR_API-2763024**에 연결되어 있습니다. 원본 위치는 `data/raw/museum_tourapi_with_overview.csv#row=347`입니다.
+
+같은 출처에 연결된 다른 본문 구간에서는 천안시립미술관이 2012년 개관했으며, 지역미술의 역사적 가치를 연구하고 소장품을 수집·관리해 지역 문화자산을 보존하고 그 가치를 구현하고자 한다고 설명합니다.",0.7142857142857143,0.0,0.9999999999,

@@ -1,6 +1,6 @@
 """챗봇 탭: ChromaDB 의미 검색 + Neo4j 지식그래프 + OpenAI LLM (RAG).
 
-- 벡터DB: data/vector_db/museum_chroma / 컬렉션 museum_documents (vectoDB_builder.ipynb 로 생성)
+- 벡터DB: data/vector_db/museum_chroma / 컬렉션 museum_documents (notebooks/vector_db/vector_db_builder.ipynb 로 생성)
 - 벡터DB 가 없거나 OPENAI_API_KEY 가 없으면 CSV 키워드 검색으로 대체해 UI 는 계속 동작한다.
 - 지식그래프(ui/kg.py): 지역·조건·개수처럼 그래프가 필요한 질문일 때만 Cypher 로 조회하고,
   답변 아래에 근거 그래프(드래그 가능)와 생성된 Cypher 토글을 붙인다. 아니면 아무것도 표시하지 않는다.
@@ -17,7 +17,7 @@ import streamlit as st
 
 from ui import kg
 from ui import style as S
-from ui.data import PROJECT_ROOT, fee_text
+from ui.data import PROJECT_ROOT, SIDO_ALIAS, SIDO_EQUIVALENTS, fee_text
 
 if str(PROJECT_ROOT) not in sys.path:  # src.guardrails 를 불러오기 위해
     sys.path.insert(0, str(PROJECT_ROOT))
@@ -112,11 +112,18 @@ def retrieve(query: str, df: pd.DataFrame, k: int = 4) -> tuple[list[dict], str]
             {"museum_id": i, "text": d, "score": 1 - dist, **(m or {})}
             for i, d, m, dist in zip(res["ids"][0], res["documents"][0], res["metadatas"][0], res["distances"][0])
         ]
+        for hit in hits:
+            sido = str(hit.get("sido") or "")
+            if sido in SIDO_ALIAS:
+                hit["sido"] = SIDO_ALIAS[sido]
         return hits, "vector"
 
     # 대체: 토큰이 이름/지역/설명에 몇 번 나오는지로 점수
     tokens = [t for t in query.replace("?", " ").split() if len(t) >= 2]
-    hay = (df["name"].fillna("") + " " + df["sido"].fillna("") + " " + df["sigungu"].fillna("") + " " + df["description"].fillna(""))
+    region_text = df["sido"].fillna("").map(
+        lambda value: " ".join(SIDO_EQUIVALENTS.get(str(value), (str(value),)))
+    )
+    hay = (df["name"].fillna("") + " " + region_text + " " + df["sigungu"].fillna("") + " " + df["description"].fillna(""))
     score = sum(hay.str.count(t) for t in tokens) if tokens else pd.Series(0, index=df.index)
     top = df.assign(score=score).query("score > 0").nlargest(k, "score")
     hits = [{**r.to_dict(), "text": r["description"]} for _, r in top.iterrows()]
