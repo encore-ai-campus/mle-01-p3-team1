@@ -27,6 +27,9 @@ def sido_options(values) -> list[str]:
     """시·도 값을 SIDO_ORDER 순서로 정렬한다. 목록에 없는 이름은 맨 뒤에 가나다순."""
     rank = {name: i for i, name in enumerate(SIDO_ORDER)}
     return sorted(pd.Series(values).dropna().unique(), key=lambda s: (rank.get(s, len(rank)), s))
+
+
+NO_AMENITY = {"없음", "-", "NAME?", "#NAME?"}  # 편의시설이 아닌 값: 글자 '없음', 엑셀 수식 오류(#NAME?)
 FEE_OUTLIER = 100_000  # 이 이상은 입력 오류로 보고 결측 처리
 
 
@@ -41,7 +44,9 @@ def load_museums() -> pd.DataFrame:
         df.loc[df[col] >= FEE_OUTLIER, col] = pd.NA
     df["is_free"] = df["adult_fee"].fillna(-1).eq(0)
     df["amenity_list"] = (
-        df["amenities_raw"].fillna("").map(lambda s: [a.strip() for a in s.split("+") if a.strip()])
+        df["amenities_raw"].fillna("").map(
+            lambda s: [a.strip() for a in s.split("+") if a.strip() and a.strip() not in NO_AMENITY]
+        )
     )
     df["description"] = df["description"].fillna(df["text"])
     df["image_url"] = df["image_url"].where(df["image_url"].astype(str).str.startswith("http"))
