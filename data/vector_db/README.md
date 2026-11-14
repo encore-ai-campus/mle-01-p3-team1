@@ -1,3 +1,3 @@
 # 로컬 Chroma DB
 
-`museum_chroma/`는 `museum_documents` 컬렉션을 보관하는 로컬 DB입니다. SQLite 파일과 인덱스 파일이 함께 필요합니다. Git에 일부 파일만 추적될 수 있으므로 새 클론에서는 완전한 DB를 별도로 받거나 [구축 노트북](../../notebooks/README.md)을 사용하세요. 현재 사용하는 DB가 있을 때는 덮어쓰기 전에 백업하고 실행 중인 평가를 종료해야 합니다.
+`museum_chroma/`는 `museum_documents` 컬렉션을 보관하는 로컬 DB입니다. SQLite 파일과 인덱스 파일이 함께 필요합니다. Git은 **현재 사용하는 인덱스의 파일 5개**를 추적합니다: `chroma.sqlite3`와 인덱스 폴더 `866d1b43-…`의 `data_level0.bin`, `header.bin`, `length.bin`, `link_lists.bin`. `.gitignore`가 `museum_chroma/` 안을 무시하므로 새 인덱스 폴더가 생기면 `git add -f`로 추가해야 합니다. `a65351cf-…` 폴더는 `chroma.sqlite3`가 참조하지 않는 이전 인덱스라 추적하지 않습니다. Chroma는 DB를 열 때마다 내부 잠금 기록(`acquire_write`)과 인덱스 파일을 다시 써서 데이터가 같아도 변경으로 보일 수 있습니다. 문서 수(738)와 `PRAGMA integrity_check`로 데이터가 같은지 확인하세요. 구축은 [구축 노트북](../../notebooks/README.md)을 사용합니다. 현재 사용하는 DB가 있을 때는 덮어쓰기 전에 백업하고 실행 중인 평가를 종료해야 합니다.
