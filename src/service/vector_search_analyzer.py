@@ -9,6 +9,7 @@ import json
 import os
 from dataclasses import dataclass
 from pathlib import Path
+from threading import Lock
 from typing import Any, Literal
 
 from dotenv import load_dotenv
@@ -102,14 +103,29 @@ class _LLMRelevanceAnalysis(BaseModel):
 
 @dataclass(frozen=True)
 class SearchPlan:
-    """원본 질문과 LLM 분석 결과를 보존하는 검색 계획."""
+    """원본 질문과 검색 계획을 보존한다."""
 
     original_query: str
     expanded_query: str
     filters: MetadataFilters
     unsupported_constraints: tuple[str, ...]
-    status: Literal["analyzed", "fallback"]
+    status: Literal["analyzed", "fallback", "disabled"]
     model: str
+
+    @classmethod
+    def without_analysis(cls, query: str) -> "SearchPlan":
+        """Use the original question without an LLM call or metadata filters."""
+        original = query.strip() if isinstance(query, str) else ""
+        if not 1 <= len(original) <= 500:
+            raise ValueError("검색 질문은 1~500자여야 합니다.")
+        return cls(
+            original_query=original,
+            expanded_query=original,
+            filters=MetadataFilters(),
+            unsupported_constraints=(),
+            status="disabled",
+            model="disabled",
+        )
 
     @property
     def mode(self) -> Literal["vector", "metadata", "combined"]:
@@ -205,6 +221,14 @@ class QueryAnalyzer:
         self.model = model or os.getenv("MUSEUM_QUERY_EXPAND_MODEL", "gpt-6-luna")
         # 외부에서 클라이언트를 주입하면 테스트에서 실제 API 비용을 쓰지 않는다.
         self._client = llm_client
+        self._client_lock = Lock()
+
+    def _get_client(self) -> OpenAI:
+        if self._client is None:
+            with self._client_lock:
+                if self._client is None:
+                    self._client = OpenAI(timeout=60.0, max_retries=1)
+        return self._client
 
     def analyze(self, query: str, *, fallback_on_error: bool = False) -> SearchPlan:
         """원본 질문 -> 확장 검색어와 필터가 담긴 SearchPlan."""
@@ -215,10 +239,7 @@ class QueryAnalyzer:
             raise ValueError("검색 질문은 1~500자여야 합니다.")
 
         try:
-            if self._client is None:
-                self._client = OpenAI(timeout=60.0, max_retries=1)
-
-            response = self._client.responses.parse(
+            response = self._get_client().responses.parse(
                 model=self.model,
                 input=[
                     {"role": "system", "content": _ANALYSIS_PROMPT},
@@ -305,11 +326,8 @@ class QueryAnalyzer:
             "expanded_query": expanded_query,
             "candidates": candidates,
         }
-        if self._client is None:
-            self._client = OpenAI(timeout=60.0, max_retries=1)
-
         rerank_model = os.getenv("MUSEUM_RERANK_MODEL") or self.model
-        response = self._client.responses.parse(
+        response = self._get_client().responses.parse(
             model=rerank_model,
             input=[
                 {"role": "system", "content": _RERANK_PROMPT},

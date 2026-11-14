@@ -15,6 +15,7 @@ class RequestState(TypedDict, total=False):
 
 
 class SupervisorState(RequestState, total=False):
+    available_routes: list[str]
     route: Route
     route_reason: str
     retry_count: int
@@ -24,6 +25,7 @@ class SupervisorState(RequestState, total=False):
     vector_search_status: str
     vector_search_diagnostics: dict[str, Any]
     graph_evidence: list[dict[str, Any]]
+    graph_search_diagnostics: dict[str, Any]
     hybrid_search_diagnostics: dict[str, Any]
     evidence: list[dict[str, Any]]
     candidate_answer: str
@@ -33,6 +35,9 @@ class SupervisorState(RequestState, total=False):
     verification_reason: str
     missing_aspects: list[str]
     failure_reason: str
+    # Set when the ontology filter found no record satisfying the hard
+    # conditions; a retry cannot change that, so the run abstains with it.
+    no_record_reason: str
     next_action: str
     status: str
     sources: list[dict[str, Any]]

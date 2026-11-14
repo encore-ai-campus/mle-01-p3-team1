@@ -6,9 +6,12 @@
 from __future__ import annotations
 
 from pathlib import Path
+from threading import Lock
 from typing import Any
 
 from dotenv import load_dotenv
+
+from src.region_aliases import SIDO_ALIAS_FAMILIES, canonicalize_sido
 
 from .vector_search_analyzer import MetadataFilters, PROJECT_ROOT
 
@@ -37,17 +40,31 @@ _SIDO_ALIASES: dict[str, tuple[str, ...]] = {
     "경북": ("경상북도",),
     "경남": ("경상남도",),
     "전북": ("전북특별자치도", "전라북도"),
+    "전라북": ("전북특별자치도", "전라북도"),
     "전라북도": ("전북특별자치도", "전라북도"),
     "전북특별자치도": ("전북특별자치도", "전라북도"),
-    "전남": ("전라남도", "전남광주통합특별시"),
-    "전라남도": ("전라남도", "전남광주통합특별시"),
-    "전남광주통합특별시": ("전라남도", "전남광주통합특별시"),
+    "전남": ("전남광주특별자치도", "전남광주통합특별시", "전라남도"),
+    "전라남": ("전남광주특별자치도", "전남광주통합특별시", "전라남도"),
+    "전라남도": ("전남광주특별자치도", "전남광주통합특별시", "전라남도"),
+    "전남광주통합특별시": ("전남광주특별자치도", "전남광주통합특별시", "전라남도"),
+    "전남광주특별자치도": ("전남광주특별자치도", "전남광주통합특별시", "전라남도"),
     "제주": ("제주특별자치도",),
     "제주도": ("제주특별자치도",),
     "세종": ("세종특별자치시", "세종특별시"),
     "세종특별자치시": ("세종특별자치시", "세종특별시"),
     "세종특별시": ("세종특별자치시", "세종특별시"),
 }
+for _canonical, _aliases in SIDO_ALIAS_FAMILIES.items():
+    for _alias in _aliases:
+        _SIDO_ALIASES[_alias] = _aliases
+
+
+def _normalized_metadata(metadata: dict[str, Any] | None) -> dict[str, Any]:
+    """Return query metadata with current Sido display names; do not write to Chroma."""
+    normalized = dict(metadata or {})
+    if normalized.get("sido"):
+        normalized["sido"] = canonicalize_sido(normalized["sido"])
+    return normalized
 
 
 def build_chroma_where(filters: MetadataFilters) -> dict[str, Any] | None:
@@ -106,6 +123,7 @@ class ChromaSearchTool:
     ):
         load_dotenv(PROJECT_ROOT / ".env", override=False)
         self._embeddings = embeddings
+        self._embeddings_lock = Lock()
 
         # 외부에서 상대 경로를 넘겨도 프로젝트 루트 기준으로 해석한다.
         path = Path(db_path) if db_path is not None else DEFAULT_DB_PATH
@@ -126,9 +144,11 @@ class ChromaSearchTool:
     def _embed_query(self, text: str) -> list[float]:
         """저장할 때 사용한 모델과 동일한 모델로 질문 1개를 임베딩한다."""
         if self._embeddings is None:
-            from langchain_openai import OpenAIEmbeddings
+            with self._embeddings_lock:
+                if self._embeddings is None:
+                    from langchain_openai import OpenAIEmbeddings
 
-            self._embeddings = OpenAIEmbeddings(model="text-embedding-3-small")
+                    self._embeddings = OpenAIEmbeddings(model="text-embedding-3-small")
         return self._embeddings.embed_query(text)
 
     def search(
@@ -174,7 +194,7 @@ class ChromaSearchTool:
                 {
                     "museum_id": mid,
                     "document": doc,
-                    "metadata": metadata or {},
+                    "metadata": _normalized_metadata(metadata),
                     "distance": distance,
                 }
                 for mid, doc, metadata, distance in zip(
@@ -197,7 +217,7 @@ class ChromaSearchTool:
             {
                 "museum_id": mid,
                 "document": doc,
-                "metadata": metadata or {},
+                "metadata": _normalized_metadata(metadata),
                 "distance": None,  # 메타데이터 조회에는 벡터 유사도 순위가 없다.
             }
             for mid, doc, metadata in zip(

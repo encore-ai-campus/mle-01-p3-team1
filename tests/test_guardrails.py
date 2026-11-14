@@ -66,7 +66,7 @@ class RegexPatternTests(unittest.TestCase):
 
     def test_museum_data_has_no_false_positives(self):
         # 박물관 데이터(URL·해시·타임스탬프 포함)를 답변에 옮겨도 개인정보로 막히지 않아야 한다.
-        with open(ROOT / "data" / "museum_final.csv", encoding="utf-8-sig") as f:
+        with open(ROOT / "data" / "processed" / "museum_final_1027.csv", encoding="utf-8-sig") as f:
             for row in csv.DictReader(f):
                 text = " | ".join(v for v in row.values() if v)
                 verdict = self.guard.check_output("q", text)

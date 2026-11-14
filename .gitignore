@@ -50,8 +50,9 @@ checkpoints/
 *.npz
 
 # Generated evaluation outputs
-outputs/
 reports/generated/
+outputs/*
+!outputs/README.md
 
 # Build artifacts
 build/

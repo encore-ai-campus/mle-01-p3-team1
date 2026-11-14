@@ -17,7 +17,7 @@ import streamlit as st
 
 from ui import kg
 from ui import style as S
-from ui.data import PROJECT_ROOT, fee_text
+from ui.data import PROJECT_ROOT, SIDO_ALIAS, SIDO_EQUIVALENTS, fee_text
 
 if str(PROJECT_ROOT) not in sys.path:  # src.guardrails 를 불러오기 위해
     sys.path.insert(0, str(PROJECT_ROOT))
@@ -112,11 +112,18 @@ def retrieve(query: str, df: pd.DataFrame, k: int = 4) -> tuple[list[dict], str]
             {"museum_id": i, "text": d, "score": 1 - dist, **(m or {})}
             for i, d, m, dist in zip(res["ids"][0], res["documents"][0], res["metadatas"][0], res["distances"][0])
         ]
+        for hit in hits:
+            sido = str(hit.get("sido") or "")
+            if sido in SIDO_ALIAS:
+                hit["sido"] = SIDO_ALIAS[sido]
         return hits, "vector"
 
     # 대체: 토큰이 이름/지역/설명에 몇 번 나오는지로 점수
     tokens = [t for t in query.replace("?", " ").split() if len(t) >= 2]
-    hay = (df["name"].fillna("") + " " + df["sido"].fillna("") + " " + df["sigungu"].fillna("") + " " + df["description"].fillna(""))
+    region_text = df["sido"].fillna("").map(
+        lambda value: " ".join(SIDO_EQUIVALENTS.get(str(value), (str(value),)))
+    )
+    hay = (df["name"].fillna("") + " " + region_text + " " + df["sigungu"].fillna("") + " " + df["description"].fillna(""))
     score = sum(hay.str.count(t) for t in tokens) if tokens else pd.Series(0, index=df.index)
     top = df.assign(score=score).query("score > 0").nlargest(k, "score")
     hits = [{**r.to_dict(), "text": r["description"]} for _, r in top.iterrows()]

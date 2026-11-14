@@ -128,15 +128,22 @@ class Guardrails:
     def _run(self, messages: list[dict], rail_type: str, blocked_message: str) -> GuardResult:
         from nemoguardrails.rails.llm.options import RailStatus, RailType
 
-        try:
-            rails, loop = self._ensure_ready()
-            result = loop.run(
-                rails.check_async(messages, rail_types=[RailType(rail_type)]),
-                timeout=CHECK_TIMEOUT_SEC,
-            )
-        except Exception:
-            log.exception("가드레일 %s 검사 실패 → 차단", rail_type)
-            return GuardResult(allowed=False, message=MSG_ERROR, rail="error")
+        result = None
+        # One retry: the first checks after start-up can time out while NeMo
+        # initializes (2026-11-14 eval: the first 7 concurrent questions failed).
+        for attempt in (1, 2):
+            try:
+                rails, loop = self._ensure_ready()
+                result = loop.run(
+                    rails.check_async(messages, rail_types=[RailType(rail_type)]),
+                    timeout=CHECK_TIMEOUT_SEC,
+                )
+                break
+            except Exception:
+                if attempt == 2:
+                    log.exception("가드레일 %s 검사 실패 → 차단", rail_type)
+                    return GuardResult(allowed=False, message=MSG_ERROR, rail="error")
+                log.warning("가드레일 %s 검사 실패, 한 번 더 시도", rail_type)
 
         if result.status == RailStatus.BLOCKED:
             rail = result.rail or ""

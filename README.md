@@ -1,67 +1,103 @@
-# mle-01-p3-team1
+# 박물관 RAG 챗봇
 
-## LangGraph 오케스트레이션
+박물관 질문에 대해 Chroma 벡터 검색과 BM25 키워드 검색을 결합하고, Cross-Encoder로 재정렬한 뒤 근거와 함께 답변합니다. Supervisor는 질문 경로를 선택하고 답변·출처를 검증합니다. Neo4j Graph 검색은 별도로 연결할 수 있습니다. 아래 안내는 **터미널 챗봇** 기준입니다. Streamlit UI는 별도 실행 경로입니다.
 
-`src/agent/graph.py`는 질문 라우팅, Vector/Graph/Hybrid 검색 호출, 답변 생성, 답변 검증, 실패 시 Hybrid 재검색과 근거 부족 응답을 연결합니다. 라이브 Neo4j 데모는 `Neo4jText2Cypher`를 연결해 자연어 질문에서 Cypher를 만들고, Neo4j 근거를 읽은 뒤 OpenAI로 답변을 생성합니다.
+## 1. 준비물
 
-- 검색 함수: `(question: str, k: int) -> list[Evidence]`
-- 라우터: `(question: str) -> "vector" | "graph" | "hybrid"`
-- 답변 생성기: `(question: str, evidence: list[Evidence]) -> str`
-- 검증기: `(question: str, answer: str, evidence: list[Evidence]) -> bool`
+- Windows PowerShell, Python **3.12** 및 [uv 설치](https://docs.astral.sh/uv/getting-started/installation/). macOS/Linux 명령은 [Hybrid 안내](src/hybrid/README.md)를 참고하세요.
+- OpenAI API 키와 사용할 모델의 접근 권한. 질문, 근거와 가드레일 검사가 API로 전송되며 사용료가 발생합니다.
+- Chroma 컬렉션 `museum_documents`의 **완전한 데이터 폴더**. 이 저장소는 DB 내부 파일을 일부만 추적하므로 새 클론이 완전한 인덱스라는 보장은 없습니다. 팀에서 `data/vector_db/museum_chroma/` 전체를 받거나, [벡터 DB 구축 안내](notebooks/README.md)에 따라 새 환경에서 다시 만드세요.
+- Neo4j를 함께 쓰려면 연결 가능한 Aura DB와 계정 정보. Hybrid만 사용하는 경우에는 필요하지 않습니다.
 
-하이브리드 결과는 같은 근거를 한 건으로 합치고 검색 출처를 보존합니다. 첫 검증에 실패하면 기본 1회 재검색한 뒤, 검증되지 않으면 근거 부족 응답으로 끝냅니다. 실제 사실과 인용 검증은 주입하는 `verify_answer`가 담당하며, 데모 함수는 이를 대체하지 않습니다.
-
-```powershell
-uv run python -m src.agent.demo_graph
-uv run python -m unittest discover -s tests -v
-```
-
-테스트는 가짜 검색·LLM 함수를 사용해 오케스트레이션만 확인하며 실제 Neo4j·ChromaDB 연결은 시험하지 않습니다. Neo4j 적재 절차는 [`docs/operations/neo4j/README.md`](docs/operations/neo4j/README.md)를 참고하세요.
-
-### 실제 Neo4j 데이터로 읽기 시험
-
-루트 `.env`에 `NEO4J_URI`, `NEO4J_USER`, `NEO4J_PASSWORD`, `NEO4J_DATABASE`, `OPENAI_API_KEY`를 설정한 뒤 실행합니다. `OPENAI_CHAT_MODEL`은 선택이며 기본 모델은 `gpt-4o-mini`입니다.
+저장소를 내려받은 뒤 해당 폴더로 이동합니다. 이미 내려받았다면 이 단계는 건너뜁니다.
 
 ```powershell
-uv run python -m src.agent.neo4j_demo --question "서울 전통문화" --top-k 5
+git clone https://github.com/encore-ai-campus/mle-01-p3-team1.git
+cd mle-01-p3-team1
 ```
 
-이 명령은 OpenAI가 질문에 맞는 Cypher를 생성하고, `Museum → TextSpan → SourceDocument` 그래프에서 근거를 읽은 뒤 OpenAI가 한국어 답변을 작성하는 GraphRAG 경로입니다. 생성된 Cypher는 결과 JSON의 `generated_cypher`에 표시됩니다. Cypher는 읽기 전용 검사와 `RoutingControl.READ`를 거칩니다. 질문과 조회 근거가 답변 생성 모델에 전달되며, OpenAI API 사용료가 발생할 수 있습니다. `verified`는 답변에 근거 박물관 ID가 포함됐는지만 검사하며 사실 검증은 아닙니다.
+## 2. 설치와 설정
 
-### LangGraph Ragas 평가
-
-실제 Aura GraphRAG 경로를 Ragas로 평가하려면 [`docs/evaluation/langgraph_ragas.md`](docs/evaluation/langgraph_ragas.md)를 참고하세요. 저장소 루트에서 평가셋 재생성은 `uv run python -m src.evaluation.langgraph.ragas_testset --count 300`, 설정 점검은 `uv run python -m src.evaluation.langgraph.ragas_eval --check-only`, 전체 평가는 `uv run python -m src.evaluation.langgraph.ragas_eval`로 실행합니다. 전체 평가는 GraphRAG 생성과 Ragas 채점에 OpenAI API를 사용하므로 비용이 발생할 수 있습니다.
-
-VectorDB 평가 절차와 라벨 검수는 [`docs/evaluation/vector_db.md`](docs/evaluation/vector_db.md)를 참고하세요. 기본 평가셋 사전 점검은 `uv run python -m src.evaluation.vector_db.evaluate --check-only`로 실행합니다. 팀에 공유할 평가셋과 코드만 Git에 올리고, ChromaDB 인덱스는 `data/vector_db/museum_chroma/`에서 로컬로 관리합니다.
-
-## 주요 디렉터리
-
-- `src/agent/`: LangGraph 실행 흐름과 검색 어댑터
-- `src/data_pipeline/`: Neo4j 및 VectorDB 데이터 구축 도구
-- `src/evaluation/`: Ragas·VectorDB 평가 CLI
-- `src/service/`: Streamlit 앱과 검색 서비스
-- `data/raw/`, `data/processed/`: 원본·정제 데이터
-- `evaluations/datasets/`: 검수할 평가 CSV
-- `notebooks/`: 구축·실험 노트북
-- `docs/`: 구조·운영·평가 문서
-- `tests/`: 단위·통합 테스트
-- `outputs/`: 로컬 실행 결과(Git 제외)
-
-## NeMo Guardrails (입력·출력 검사)
-
-`src/guardrails/`는 챗봇의 질문과 답변을 검사합니다. 막는 대상은 **탈옥·프롬프트 인젝션, 개인정보, 욕설·혐오**이고 입력과 출력 모두에 적용됩니다. 박물관과 무관한 질문은 막지 않습니다. 챗봇이 짧게 답한 뒤 지역을 묻고 DB에 있는 박물관으로 이어 줍니다(실시간 날씨 등은 지어내지 않음).
-
-| 단계 | 방식 | 비용 |
-|---|---|---|
-| 1. 정규식 | 휴대폰·주민등록번호·카드번호·이메일 (`config/config.yml`) | 무료. 걸리면 LLM으로 보내지 않음 |
-| 2. LLM 자기검사 | 한국어 판정 프롬프트 (`config/prompts.yml`) | 검사 1회당 LLM 호출 1번 |
-
-- 적용 위치: Streamlit 챗봇 탭(`src/service/ui/chatbot.py`). LangGraph는 `build_graph(..., **Guardrails().graph_hooks())`로 연결합니다.
-- 판정 모델: `config/config.yml`의 `models`에서 설정합니다. `.env`의 `GUARDRAILS_MODEL`이 있으면 그 값이 우선합니다.
-- `OPENAI_API_KEY`가 없으면 정규식 검사만 합니다. 검사 중 오류가 나면 통과시키지 않고 차단합니다.
-- 답변은 스트리밍됩니다. 개인정보는 정규식으로 조각마다 검사해 화면에 나가기 전에 막고, LLM 출력 검사는 답변이 끝난 뒤 한 번 해서 걸리면 답변을 안내 문구로 바꿉니다.
+저장소 루트 PowerShell에서 실행합니다. 기존 `.env`가 있으면 덮어쓰지 않습니다.
 
 ```powershell
-uv run python -m unittest tests.test_guardrails -v   # 가짜 LLM, 무료
-uv run python -m src.guardrails.eval_guardrails      # 평가 md의 질문을 실제 챗봇에 넣고 결과 md 생성(소액 과금)
+uv sync
+if (-not (Test-Path .env)) { Copy-Item .env.example .env }
+notepad .env
 ```
+
+`.env`에 `OPENAI_API_KEY`를 입력합니다. Neo4j를 사용할 때는 `NEO4J_URI`, `NEO4J_USER`, `NEO4J_PASSWORD`, `NEO4J_DATABASE`도 입력합니다. `SUPERVISOR_MODEL`을 설정하거나 아래 실행 명령처럼 `--model`로 모델명을 지정하세요. `OPENAI_CHAT_MODEL`, `RAGAS_JUDGE_MODEL`, `GUARDRAILS_MODEL`은 필요에 따라 지정합니다.
+
+다른 터미널에서 평가가 실행 중이라면 그 평가가 끝난 뒤 같은 `.venv`의 설치·동기화를 진행하세요.
+
+```dotenv
+OPENAI_API_KEY=발급받은_키
+SUPERVISOR_MODEL=gpt-6-luna
+MUSEUM_QUERY_ANALYSIS_ENABLED=false
+```
+
+`gpt-6-luna`는 팀에서 사용한 예시입니다. 계정에서 접근 가능한 구조화 출력 모델을 사용하세요. `.env`는 공유하거나 Git에 올리지 않습니다.
+
+Cross-Encoder 모델을 한 번 준비합니다. 처음에는 모델 파일 다운로드와 저장 공간이 필요하며, 이미 준비된 모델은 재사용합니다.
+
+```powershell
+uv run --no-sync python -m src.hybrid.prepare_models
+```
+
+의존성 전체 설치와 모델 준비를 한 번에 하려면 `.\scripts\setup_hybrid.ps1`을 사용해도 됩니다. 루트 의존성에는 실습용 패키지도 포함돼 있어 초기 설치가 오래 걸릴 수 있습니다.
+
+## 3. 터미널 챗봇 실행
+
+Hybrid + Supervisor + 입력·출력 가드레일:
+
+```powershell
+.\.venv\Scripts\python.exe -m src.agent.supervisor.run --team-hybrid --interactive --timings --model gpt-6-luna
+```
+
+질문을 반복 입력하고 `q`로 종료합니다. 같은 프로세스에서 Cross-Encoder 모델을 재사용하므로 매 질문마다 새 프로세스를 시작할 필요가 없습니다. 최초 모델 메모리 로딩은 시간이 걸릴 수 있습니다.
+
+Neo4j도 연결해 질문 유형에 따라 Graph 경로를 사용하려면:
+
+```powershell
+.\.venv\Scripts\python.exe -m src.agent.supervisor.run --team-hybrid --with-neo4j --interactive --timings --model gpt-6-luna
+```
+
+`--with-neo4j`가 없으면 Supervisor의 별도 Graph retriever는 연결되지 않습니다. 단일 질문은 `--interactive` 대신 `--question "질문"`을 사용합니다. 결과의 `status`, `trajectory`, 시간 정보를 터미널에서 확인할 수 있습니다. 가드레일 차단 또는 검사 오류는 `status: blocked`로 표시됩니다.
+
+기본 설정에서는 검색 전 LLM 질문 분석이 꺼져 있습니다. 규칙 기반 지역 필터와 온톨로지 후보 필터는 별도로 적용될 수 있습니다. 원문으로 Vector와 BM25를 검색한 뒤 RRF와 Cross-Encoder를 사용합니다. 지역·요금 조건의 검색 품질을 비교하려면 `.env`에 `MUSEUM_QUERY_ANALYSIS_ENABLED=true`를 설정할 수 있습니다. 재정렬과 질문 분석의 설정은 서로 다릅니다. 상세 흐름은 [구조 설명](docs/architecture/folder-structure.md)과 [Supervisor 연결](docs/architecture/supervisor-integration.md)을 참고하세요.
+
+## 4. 평가와 결과
+
+평가는 OpenAI API를 사용합니다. 아래 예시는 각각 독립 평가이며 동시에 돌릴 필요는 없습니다.
+
+```powershell
+# 실제 Supervisor 흐름 전체(자동 라우팅 + 후보 필터 + Neo4j), v2 196문항 (Neo4j 설정 필요)
+.\.venv\Scripts\python.exe -m src.evaluation.hybrid.ragas_eval --modes supervisor_full --top-k 5
+
+# Hybrid + Cross-Encoder, v2 196문항 (이전 기준선과 평가셋이 다르므로 공통 문항을 따로 비교)
+.\.venv\Scripts\python.exe -m src.evaluation.hybrid.ragas_eval --modes hybrid_rerank --top-k 5
+
+# Neo4j GraphRAG, 10문항 (Neo4j 설정 필요)
+.\.venv\Scripts\python.exe -m src.evaluation.langgraph.ragas_eval --evalset "evaluations/datasets/neo4j/Neo4j_multihop_core10_draft.csv" --top-k 5 --batch-size 8
+
+# Chroma 검색 순위 평가, 30문항. 실행별 폴더를 만들어 기존 결과 보존
+$runStamp = Get-Date -Format "yyyyMMdd_HHmmss"
+.\.venv\Scripts\python.exe -m src.evaluation.vector_db.evaluate --output "outputs/evaluation/vector_db/run_$runStamp"
+```
+
+평가셋과 명령어는 [평가 안내](evaluations/README.md), 지표와 이어하기는 [평가 문서 색인](docs/evaluation/README.md)을 참고하세요. Hybrid 결과는 `outputs/evaluation/hybrid_ragas/`, Neo4j 결과는 `outputs/evaluation/neo4j_multihop_ragas/`, Vector 결과는 `outputs/evaluation/vector_db/`의 실행별 폴더에 저장됩니다. 작성 중인 결과 폴더는 이동하거나 지우지 마세요. 평가셋은 사람 검수 전 초안이므로 점수는 잠정치입니다. 2026-11-14 흐름 변경 이전 결과는 [평가 기준선](evaluations/reports/baseline_2026-11-13/README.md)에 보관했습니다.
+
+## 5. 폴더 안내
+
+| 폴더 | 내용 |
+|---|---|
+| [src](src/README.md) | Supervisor, Hybrid, 가드레일, 데이터 구축, 평가 및 별도 UI 코드 |
+| [data](data/README.md) | 원본·정제 CSV와 로컬 Chroma DB |
+| [evaluations](evaluations/README.md) | 평가셋. 실행 결과와 구분 |
+| [outputs](outputs/README.md) | 로컬 평가·실행 결과. Git에는 README만 포함 |
+| [notebooks](notebooks/README.md) | DB 구축 노트북 |
+| [scripts](scripts/README.md) | 설치·모델 준비 스크립트 |
+| [docs](docs/README.md) | 구조, 설계 근거·문제 해결 기록, 평가, DB 운영 문서 |
+| [tests](tests/README.md) | 단위·통합 테스트 |
+
+문제 해결: 모델이 없다는 오류는 모델 준비 명령을 다시 실행하고, Chroma 오류는 완전한 DB 폴더와 컬렉션을 확인하세요. Neo4j 연결 오류는 `.env`와 Aura 상태를 확인하세요. 가드레일 검사 실패 시 안전을 위해 답변이 차단됩니다. LangGraph의 중간 스트림에는 검사 전 초안이 포함될 수 있어 사용자 화면에는 `invoke()`의 최종 결과만 표시해야 합니다.

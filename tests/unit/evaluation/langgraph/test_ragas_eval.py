@@ -17,13 +17,23 @@ from src.agent.ragas_eval import (
 
 
 class RagasEvalTests(unittest.TestCase):
-    def test_project_ragas_set_has_300_provisional_questions(self):
-        rows = read_evaluation_set(DEFAULT_EVALSET)
+    def test_project_ragas_set_has_150_provisional_questions(self):
+        # The archived v1 set stays exactly as it was evaluated on 2026-11-13.
+        v1 = DEFAULT_EVALSET.parents[1] / "archive" / "v1_2026-11-13" / "langgraph" / "LangGraph_Ragas_150_draft.csv"
+        rows = read_evaluation_set(v1)
 
-        self.assertEqual(len(rows), 300)
-        self.assertEqual(sum(row["answerable"] == "yes" for row in rows), 294)
+        self.assertEqual(len(rows), 150)
+        self.assertEqual(sum(row["answerable"] == "yes" for row in rows), 144)
         self.assertEqual(sum(row["answerable"] == "no" for row in rows), 6)
         self.assertTrue(all(row["label_status"] == "draft_needs_human_review" for row in rows))
+
+    def test_default_ragas_set_is_v2_with_v1_carried_over(self):
+        rows = read_evaluation_set(DEFAULT_EVALSET)
+
+        self.assertEqual(DEFAULT_EVALSET.name, "Supervisor_Ragas_v2_draft.csv")
+        self.assertEqual(len(rows), 196)
+        self.assertEqual(sum(row["answerable"] == "no" for row in rows), 14)
+        self.assertTrue(all(row["label_status"].endswith("needs_human_review") for row in rows))
 
     def test_reads_answerable_and_unanswerable_reference_rows(self):
         fields = [
@@ -194,6 +204,7 @@ class RagasEvalTests(unittest.TestCase):
             "factual_correctness": 0.6,
         }])
         question_rows = assemble_question_rows(gold_rows, graph_results, scored_frame)
+        self.assertGreaterEqual(question_rows[0]["duration_seconds"], 0)
         self.assertEqual(question_rows[0]["retrieved_span_ids"], "M1:000")
         self.assertEqual(question_rows[0]["faithfulness"], 0.9)
         self.assertEqual(question_rows[1]["evidence_presence_correct"], 1)
@@ -211,6 +222,10 @@ class RagasEvalTests(unittest.TestCase):
             self.assertTrue((output_dir / "per_question.csv").is_file())
             self.assertTrue((output_dir / "summary.json").is_file())
             self.assertTrue((output_dir / "report.md").is_file())
+            import json
+            summary = json.loads((output_dir / "summary.json").read_text(encoding="utf-8"))
+            self.assertIn("avg_duration_seconds", summary)
+            self.assertIn("max_duration_seconds", summary)
 
 
 if __name__ == "__main__":

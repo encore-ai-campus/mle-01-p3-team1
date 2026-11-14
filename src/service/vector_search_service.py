@@ -1,4 +1,4 @@
-"""벡터 검색 서비스 진입점: LLM 분석 -> ChromaDB 후보 검색 -> LLM 관련성 평가.
+"""벡터 검색 서비스 진입점: 선택적 LLM 분석 -> ChromaDB 검색 -> 선택적 재평가.
 
 다른 코드에서는 VectorSearchService.search()로 후보와 근거를 반환받는다.
 답변 작성/검색 재시도 판단은 상위 Supervisor에서 수행한다.
@@ -6,8 +6,10 @@
 
 from __future__ import annotations
 
+import os
 from dataclasses import dataclass
 from pathlib import Path
+from threading import Lock
 from typing import Any, Literal
 
 from openai import OpenAI
@@ -71,8 +73,21 @@ class VectorSearchService:
         # DB는 실제 검색할 때만 연결한다. 계획 분석만 하는 테스트도 가능하다.
         self.analyzer = QueryAnalyzer(model=model, llm_client=llm_client)
         self._search_tool = search_tool
+        self._search_tool_lock = Lock()
         self._embeddings = embeddings
         self._db_path = db_path
+
+    @staticmethod
+    def is_query_analysis_enabled() -> bool:
+        """Query analysis is opt-in so retrieval can use the original question by default."""
+        return os.getenv("MUSEUM_QUERY_ANALYSIS_ENABLED", "false").strip().casefold() in {
+            "1", "true", "yes", "on",
+        }
+
+    @staticmethod
+    def plan_without_analysis(query: str) -> SearchPlan:
+        """Build a literal-query plan without LLM expansion or metadata filters."""
+        return SearchPlan.without_analysis(query)
 
     def analyze_query(
         self, query: str, *, fallback_on_error: bool = False
@@ -116,10 +131,12 @@ class VectorSearchService:
             raise ValueError(f"top_k는 1~{MAX_CANDIDATES} 사이의 정수여야 합니다.")
 
         if self._search_tool is None:
-            self._search_tool = ChromaSearchTool(
-                embeddings=self._embeddings,
-                db_path=self._db_path,
-            )
+            with self._search_tool_lock:
+                if self._search_tool is None:
+                    self._search_tool = ChromaSearchTool(
+                        embeddings=self._embeddings,
+                        db_path=self._db_path,
+                    )
 
         # 기존 메타데이터 조건은 ChromaDB에 먼저 적용한다.
         # LLM 재평가 시에만 최종 요청량보다 넉넉하게 검색한다.
@@ -210,12 +227,18 @@ class VectorSearchService:
         *,
         top_k: int = 5,
         rerank: bool = True,
+        analyze: bool | None = None,
         candidate_ids: list[str] | None = None,
         fallback_on_error: bool = False,
         fallback_on_rerank_error: bool = True,
     ) -> VectorSearchResponse:
-        """일반 호출: 질문 분석 -> 후보 검색 -> 관련성 평가 -> 최종 결과."""
-        plan = self.analyze_query(query, fallback_on_error=fallback_on_error)
+        """Search with optional query analysis, candidate reranking, and final results."""
+        if analyze is None:
+            analyze = self.is_query_analysis_enabled()
+        plan = (
+            self.analyze_query(query, fallback_on_error=fallback_on_error)
+            if analyze else self.plan_without_analysis(query)
+        )
         return self.execute_plan(
             plan,
             top_k=top_k,
@@ -268,10 +291,14 @@ def _main() -> None:
     search_tool = None if args.analyze_only else ChromaSearchTool()
     service = VectorSearchService(search_tool=search_tool)
 
-    # 1. 실제 LLM API로 검색어 확장 및 메타데이터 조건 분리
-    plan = service.analyze_query(query)
+    # --analyze-only는 명시적 LLM 분석을 요청한다. 일반 검색은 기본적으로 원문을 쓴다.
+    analyze = args.analyze_only or service.is_query_analysis_enabled()
+    plan = (
+        service.analyze_query(query)
+        if analyze else service.plan_without_analysis(query)
+    )
     print("\n" + "=" * 60)
-    print("[LLM 검색 계획]")
+    print("[LLM 검색 계획]" if analyze else "[원문 검색 계획]")
     print("원본 질문:", plan.original_query)
     print("확장 검색어:", plan.expanded_query or "(없음: 메타데이터 검색 전용)")
     print("검색 방식:", plan.mode)

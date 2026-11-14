@@ -1,0 +1,19 @@
+{
+  "question_count": 30,
+  "answerable_questions": 24,
+  "unanswerable_questions": 6,
+  "label_status": {
+    "draft_needs_human_review": 30
+  },
+  "metrics": {
+    "Hit@1": 0.7083333333333334,
+    "Hit@3": 0.7916666666666666,
+    "Hit@5": 0.7916666666666666,
+    "Recall@5": 0.7916666666666666,
+    "MRR@10": 0.7552083333333334
+  },
+  "collection": "museum_documents",
+  "embedding_model": "text-embedding-3-small",
+  "evalset": "C:\\Users\\Playdata\\Desktop\\mle-01-p3-team1\\evaluations\\datasets\\vector_db\\VectorDB_평가셋_30문항.csv",
+  "note": "Retrieval ranking only; labels not human_verified are provisional."
+}

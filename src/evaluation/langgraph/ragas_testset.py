@@ -23,8 +23,9 @@ from .ragas_eval import PROJECT_ROOT, read_evaluation_set, resolve_path
 
 
 DEFAULT_SOURCE = PROJECT_ROOT / "data" / "processed" / "museum_final_738.csv"
-DEFAULT_SEED_SET = PROJECT_ROOT / "evaluations" / "datasets" / "langgraph" / "LangGraph_Ragas_평가셋_30문항.csv"
-DEFAULT_OUTPUT = PROJECT_ROOT / "evaluations" / "datasets" / "langgraph" / "LangGraph_Ragas_평가셋_300문항.csv"
+DEFAULT_SEED_SET = (PROJECT_ROOT / "evaluations" / "datasets" / "archive" / "v1_2026-11-13" / "langgraph"
+                    / "LangGraph_Ragas_평가셋_30문항.csv")
+DEFAULT_OUTPUT = PROJECT_ROOT / "evaluations" / "datasets" / "generated" / "LangGraph_Ragas_평가셋_300문항.csv"
 OUTPUT_COLUMNS = (
     "question_id",
     "category",

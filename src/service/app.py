@@ -3,8 +3,17 @@
 실행 (프로젝트 루트에서):
     uv run streamlit run src/service/app.py
 """
+import sys
+from pathlib import Path
+
 from dotenv import load_dotenv
 import streamlit as st
+
+# Streamlit adds this script's directory to sys.path. Add the repository root
+# before importing shared `src.*` modules from the UI.
+REPO_ROOT = Path(__file__).resolve().parents[2]
+if str(REPO_ROOT) not in sys.path:
+    sys.path.insert(0, str(REPO_ROOT))
 
 from ui.data import PROJECT_ROOT, load_museums
 

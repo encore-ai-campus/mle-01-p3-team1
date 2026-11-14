@@ -5,9 +5,6 @@
 `uv sync`는 **Python 패키지**만 설치합니다. Hugging Face의 대형 모델 가중치/토크나이저는 `uv sync`의 자동 후처리 대상이 **아닙니다**. 이 패키지의 `scripts/setup_hybrid.ps1`은 `uv sync` 다음에 모델 준비까지 실행하는 **한 번의 설치 명령**입니다.
 
 ```powershell
-# 기존 pyproject.toml에 다음 라이브러리가 아직 없다면 한 번만 추가
-uv add rank-bm25 kiwipiepy sentence-transformers huggingface-hub
-
 # 이후 처음 설정하거나 다른 PC에 설치할 때
 .\scripts\setup_hybrid.ps1
 
@@ -21,7 +18,7 @@ uv run --no-sync python -m src.hybrid.prepare_models --verify
 uv run --no-sync python -m src.hybrid.hybrid_rag_agent "역사 박물관"
 ```
 
-Linux/macOS/CI에서는 `sh scripts/setup_hybrid.sh`를 사용합니다. 기존 `pyproject.toml`은 업로드되지 않아 이 ZIP에서 임의로 덮어쓰지 않았습니다. 해당 패키지를 `pyproject.toml`/`uv.lock`에 먼저 선언해야 `uv sync`로 복원됩니다.
+Linux/macOS/CI에서는 `sh scripts/setup_hybrid.sh`를 사용합니다. 필요한 패키지는 프로젝트 `pyproject.toml`과 `uv.lock`에 선언되어 있습니다.
 
 - 기본 모델: `BAAI/bge-reranker-v2-m3` (가중치 약 2.27GB + 토크나이저)
 - **기존 사용자 Hugging Face 캐시가 온전하면 재활용**하며, 없을 때만 프로젝트 `.models/hybrid/`에 다운로드합니다.
@@ -51,11 +48,14 @@ HYBRID_RERANK_MODEL=BAAI/bge-reranker-v2-m3
 ```text
                           사용자 질문
                                 │
-                    기존 LLM 질문 분석 (필터 분리)
+          온톨로지 후보 필터 (구조 조건이 있을 때만, LLM 호출 없음)
+          편의시설·개관 요일·지역 → museum_id 후보 집합
+                                │
+             질문 분석 선택 (기본 OFF: 원문 사용)
                        /                    \
          기존 VectorService                 BM25SpanRetriever
     Chroma Top 20; rerank=False           Top 20; 원문 질의
-         (질의 확장/필터)                (전체 코퍼스 독립 검색)
+      (분석 ON이면 확장/필터)            (전체 코퍼스 독립 검색)
                        \                    /
                            가중 RRF
                     중복 제거 · Top 20
@@ -65,11 +65,24 @@ HYBRID_RERANK_MODEL=BAAI/bge-reranker-v2-m3
                           최종 Top 10
 ```
 
-이 패키지는 **Graph/Neo4j 관련 로직을 사용하지 않습니다.** 기존 Vector 검색(`src/service/vertor_search_service.py`, `vertor_search_chroma.py`, `vertor_search_analyzer.py`) 및 상위 Agent 코드를 변경하지 않습니다. 기존 `VectorSearchService.execute_plan(..., top_k=20, rerank=False)` 경로로 LLM 20→5 축소를 건너뜁니다. 다만 **질문 분석용 LLM 호출은 유지**됩니다.
+**온톨로지 후보 필터(`ontology_filter.py`):**
+- **작동 조건:** 질문에 "수유실 있는", "월요일에도 여는"처럼 기록된 사실로 판정할 수 있는 조건이 있을 때만 작동합니다.
+- **동작:** 조건을 만족하는 museum_id 집합을 만들고, Vector와 BM25가 그 안에서만 검색합니다.
+- **근거 표시:** 결과의 `metadata.structured_match`에 어떤 기록으로 통과했는지 붙습니다.
+- **후보가 0개일 때:** 조건을 빼고 검색하지 않고 `no_results`로 끝냅니다.
+- **데이터 원천:** 속성은 Neo4j 온톨로지 v2와 같은 규칙(`src/data_pipeline/neo4j/ontology_v2/rules.py`)으로 CSV에서 계산합니다.
+- **끄기:** `HYBRID_ONTOLOGY_FILTER=off`로 끌 수 있습니다.
+
+**시설명 보장(`name_match.py`):** 질문에 CSV에 기록된 시설명이 그대로 적혀 있으면 그 시설을 재정렬 후보에 반드시 넣습니다. 최종 순서는 재정렬이 정합니다. `HYBRID_NAME_MATCH=off`로 끌 수 있습니다.
+
+**재정렬 확신도:** Cross-Encoder 최고 점수가 `HYBRID_RERANK_MIN_CONFIDENCE`(기본 0.1)보다 낮으면 재정렬 순서를 쓰지 않고 RRF 순서를 유지합니다. 0으로 두면 이 기능이 꺼집니다. 두 기능의 근거는 `docs/records/supervisor-retrieval-issues.md`에 있습니다.
+- 근거와 설계 판단은 `docs/decisions/ontology-filter-routing.md`에 있습니다.
+
+이 패키지는 Neo4j에 직접 연결하지 않습니다. 기존 Vector 검색(`src/service/vector_search_service.py`, `vector_search_chroma.py`, `vector_search_analyzer.py`)을 사용합니다. 기본값은 `MUSEUM_QUERY_ANALYSIS_ENABLED=false`로, 검색어 확장과 메타데이터 필터 추출을 위한 LLM 호출을 생략하고 원문 질문으로 검색합니다. 다시 켜려면 환경변수를 `true`로 설정하세요. 질문 분석을 꺼도 BM25·Vector 검색, RRF 통합, Cross-Encoder 재정렬은 그대로 동작합니다. 기존 `VectorSearchService.execute_plan(..., top_k=20, rerank=False)` 경로로 Vector 단계의 LLM 후보 재평가는 계속 건너뜁니다. Supervisor 연결 방법은 `docs/architecture/supervisor-integration.md`를 참고하세요.
 
 ## 전달받은 BM25 파일과 연결 방식
 
-- **`bm25_reranker.py`**: 팀원이 제공한 `BM25Reranker`, `SpanDocument`, `RankedMuseum`, 한국어 Kiwi 토큰화 및 `rank_bm25.BM25Okapi` 구현. **원본 그대로 복사했습니다.**
+- **`bm25_reranker.py`**: `BM25Reranker`, `SpanDocument`, `RankedMuseum`, 한국어 Kiwi 토큰화 및 `rank_bm25.BM25Okapi`의 기준 구현입니다. 기존 `src.agent.bm25_reranker`도 같은 클래스를 내보냅니다.
 - **`bm25_retriever.py`**: 신규 어댑터 `BM25SpanRetriever` 구현. 전체 코퍼스의 모든 `museum_id`를 대상(필터가 있으면 해당 ID만)으로 원본 `BM25Reranker.rerank(question, eligible_ids, vector_weight=0, bm25_weight=1)`을 호출합니다. 원본의 BM25 순위만 `score`와 `rank`로 반환합니다.
 - **`factory.py`**: `build_hybrid_service()`가 인덱스를 1회 구축하고 `HybridSearchService`에 연결합니다.
 - **`fusion.py`**: BM25 원점수와 Vector 거리값은 직접 더하지 않고, 조절 가능한 순위 기반 RRF로 통합합니다. 원본 BM25 `best_span_id`를 함께 보존하도록 보완했습니다.
@@ -83,10 +96,7 @@ HYBRID_RERANK_MODEL=BAAI/bge-reranker-v2-m3
 
 기존 프로젝트의 Python 3.12/Chroma/LLM 설치가 준비되어 있어야 합니다.
 
-```bash
-uv add rank-bm25 kiwipiepy sentence-transformers
-# 또는 현재 프로젝트 환경에 동일 패키지 설치
-```
+프로젝트 루트에서 `uv sync`를 실행합니다. 이미 선언된 패키지를 `uv add`로 다시 추가할 필요는 없습니다.
 
 대부분의 개발 환경에서 `rank-bm25`, `kiwipiepy`는 이미 프로젝트 의존성으로 선언되어 있을 수 있습니다. Cross-Encoder를 실제 실행할 때만 `sentence-transformers`가 필요합니다. 기본 모델 `BAAI/bge-reranker-v2-m3`는 설치 스크립트로 사전 준비하며 검색 실행 중에는 다운로드하지 않습니다. 별도 모델 다운로드 없이 RRF만 검증할 때는 `rerank=False`를 사용하세요.
 

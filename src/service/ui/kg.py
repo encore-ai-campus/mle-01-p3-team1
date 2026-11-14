@@ -23,6 +23,7 @@ import streamlit as st
 import streamlit.components.v1 as components
 
 from ui import style as S
+from ui.data import SIDO_ALIAS
 
 CHAT_MODEL = os.getenv("OPENAI_CHAT_MODEL", "gpt-6-luna")
 WRITE_PATTERN = re.compile(
@@ -204,6 +205,36 @@ def _caption(label: str, props: dict) -> str:
     return str(props.get("name") or props.get("museum_id") or label)
 
 
+def _normalize_sido(value):
+    """Normalize only the returned/display copy; never write to Neo4j."""
+    label = str(value or "").strip()
+    return SIDO_ALIAS.get(label, label)
+
+
+def _normalize_graph_value(value):
+    """Convert graph values to prompt-safe copies with canonical region labels."""
+    if isinstance(value, dict):
+        return {
+            key: _normalize_sido(item) if key in {"sido", "sido_name", "region", "region_name"}
+            else _normalize_graph_value(item)
+            for key, item in value.items()
+        }
+    if isinstance(value, (list, tuple)):
+        return [_normalize_graph_value(item) for item in value]
+    # Neo4j Node values can appear when a generated query returns whole nodes.
+    if hasattr(value, "labels") and hasattr(value, "items"):
+        labels = set(value.labels)
+        props = dict(value)
+        if "Sido" in labels and "name" in props:
+            props["name"] = _normalize_sido(props["name"])
+        if props.get("sido"):
+            props["sido"] = _normalize_sido(props["sido"])
+        return _normalize_graph_value(props)
+    if isinstance(value, str):
+        return _normalize_sido(value)
+    return value
+
+
 def _tooltip(label: str, props: dict) -> str:
     keys = {
         "Museum": ["name", "sido", "sigungu", "ownership_type", "adult_fee", "weekday_open", "weekday_close"],
@@ -229,6 +260,10 @@ def evidence(driver, rows: list[dict], cypher: str) -> tuple[list[dict], list[di
     def add_node(n):
         label = next(iter(n.labels), "Node")
         props = dict(n)
+        if label == "Sido" and "name" in props:
+            props["name"] = _normalize_sido(props["name"])
+        if props.get("sido"):
+            props["sido"] = _normalize_sido(props["sido"])
         nodes.setdefault(n.element_id, {"id": n.element_id, "group": label,
                                         "label": _caption(label, props), "title": _tooltip(label, props),
                                         "_props": props})
@@ -299,7 +334,11 @@ def rows_for_prompt(rows: list[dict], limit_chars: int = 6000) -> str:
             return [slim(x) for x in v]
         return v
 
-    text = json.dumps([slim(r) for r in rows[:25]], ensure_ascii=False, default=str)
+    text = json.dumps(
+        [slim(_normalize_graph_value(r)) for r in rows[:25]],
+        ensure_ascii=False,
+        default=str,
+    )
     return text[:limit_chars]
 
 

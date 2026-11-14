@@ -1,6 +1,6 @@
 """Additive supervisor package; does not modify src.agent.build_graph."""
 from .state import AnswerDraft, RouteDecision, SupervisorState, VerificationResult
-from .adapters import adapt_graph, adapt_hybrid, adapt_vector
+from .adapters import adapt_graph, adapt_hybrid, adapt_hybrid_retriever, adapt_vector
 
 
 def build_supervisor(**kwargs):
@@ -9,5 +9,5 @@ def build_supervisor(**kwargs):
     return build(**kwargs)
 
 
-__all__ = ["build_supervisor", "adapt_vector", "adapt_graph", "adapt_hybrid",
+__all__ = ["build_supervisor", "adapt_vector", "adapt_graph", "adapt_hybrid", "adapt_hybrid_retriever",
            "SupervisorState", "RouteDecision", "AnswerDraft", "VerificationResult"]

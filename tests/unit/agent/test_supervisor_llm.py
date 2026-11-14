@@ -45,3 +45,28 @@ def test_llm_validation_rejects_unknown_route():
     import pytest
     with pytest.raises(ValidationError):
         RoutingSchema(route="delete_database", reason="bad")
+def test_connected_supervisor_does_not_force_unsupported_model_temperature(monkeypatch):
+    import langchain_openai
+    import src.agent.supervisor.llm as llm_module
+    from src.agent.supervisor.connect import build_connected_supervisor
+
+    captured = {}
+
+    class FakeModel:
+        def __init__(self, **kwargs):
+            captured.update(kwargs)
+
+    class FakeNodes:
+        def __init__(self, llm):
+            pass
+        def route(self, state, config):
+            pass
+        def answer(self, state, config):
+            pass
+        def verify(self, state, config):
+            pass
+
+    monkeypatch.setattr(langchain_openai, "ChatOpenAI", FakeModel)
+    monkeypatch.setattr(llm_module, "LLMNodes", FakeNodes)
+    build_connected_supervisor(hybrid_node=lambda state: {"evidence": []}, model_name="test-model")
+    assert "temperature" not in captured
