@@ -204,16 +204,23 @@ details.more[open] .more-btn::after {{ content:"접기 ▴"; }}
   border-radius: 0 !important; padding: 12px 6px !important; min-height: 0; transition: background-color .2s ease;
 }}
 .st-key-dash_nearby .stButton > button > div {{ flex:1; min-width:0; justify-content:flex-start !important; text-align:left; }}
-.st-key-dash_nearby .stButton > button p {{ font-family:var(--font-head); font-weight:600; font-size:14px; color:var(--navy); text-align:left;
+.st-key-dash_nearby .stButton > button p {{ font-family:var(--font-head); font-weight:400; font-size:14px; color:var(--navy); text-align:left;
                                  white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }}
-.st-key-dash_nearby .stButton > button::after {{ font-size:13px; color:var(--muted); white-space:pre; flex-shrink:0; }}
+.st-key-dash_nearby .stButton > button::after {{ font-size:13px; font-weight:400; color:var(--muted); white-space:pre; flex-shrink:0; }}
 .st-key-dash_nearby .stButton > button:hover {{ background: rgba(168, 98, 91, .08) !important; }}
 .st-key-dash_nearby .stButton > button:hover p {{ color: var(--accent); }}
 .map-legend {{ display:flex; align-items:center; gap:6px; font-size:12px; color:var(--muted); margin-top:6px; }}
 .map-legend span {{ width:9px; height:9px; border-radius:50%; display:inline-block; margin-left:10px; }}
 .map-legend span:first-child {{ margin-left:0; }}
 .muted-note {{ font-size:14px; color:var(--muted); margin: 0 0 10px; line-height:1.6; }}
-.transit {{ margin: 12px 0 14px; padding-left: 18px; color:#33444F; font-size:15px; line-height:1.8; }}
+.transit {{ list-style:none; margin: 0 !important; padding-left: 0 !important; color:#33444F; font-size:15px; line-height:1.6; }}
+/* 기본 들여쓰기를 없애고 점을 직접 그려 칩·제목과 왼쪽 선을 맞춘다 (줄이 넘어가면 글자 시작선에 맞춰 이어짐) */
+.muted-note.transit-empty {{ margin: 0 0 8px; line-height:1.6; }}  /* 교통 정보가 없을 때도 버스 목록과 같은 간격 */
+/* 편의시설 칩 줄: 칩끼리 간격은 gap 으로, 왼쪽 끝은 아래 교통 안내 글자와 같은 선에서 시작. 아래 교통 안내와 14px 띄움 */
+.amenity-chips {{ display:flex; flex-wrap:wrap; gap:8px 6px; margin: 4px 0 14px; }}
+.amenity-chips .chip {{ margin: 0; }}
+.transit li {{ position:relative; padding-left: 14px; margin: 0 0 4px !important; }}
+.transit li::before {{ content:""; position:absolute; left:2px; top:.62em; width:5px; height:5px; border-radius:50%; background: var(--muted); }}
 .status {{ display:inline-flex; align-items:center; gap:8px; font-size:13px; padding:6px 12px; border-radius:999px; }}
 .status.ok {{ background:#E3EAD8; color:#2F4A16; }}
 .status.off {{ background:#F1DCDC; color:var(--red); }}
@@ -233,19 +240,19 @@ details.more[open] .more-btn::after {{ content:"접기 ▴"; }}
   border-radius: 8px !important; padding: 6px 18px !important;
 }}
 /* 대시보드 '카카오맵 길찾기': 글자와 간격을 두고, 왼쪽 선이 글자와 맞는 둥근 네모 */
-.st-key-dash_route {{ margin-top: 10px; }}
+.st-key-dash_route {{ margin-top: 12px; }}
 .st-key-dash_route a {{
   border-radius: 8px !important; padding: 6px 16px !important; background: var(--surface);
   border: 1px solid var(--line) !important; transition: background-color .2s ease, border-color .2s ease, color .2s ease;
 }}
 .st-key-dash_route a:hover {{ background: var(--accent) !important; border-color: var(--accent) !important; color: #FFFFFF !important; }}
 .st-key-dash_route a:hover p {{ color: #FFFFFF !important; }}
-/* 챗봇 추천 질문: 마우스를 올리면 강조색으로 채워지며 살짝 떠오름 */
+/* 챗봇 추천 질문: 마우스를 올리면 연한 세이지 그린으로 채워지며 살짝 떠오름 (대화 초기화 버튼과 같은 초록 계열) */
 .st-key-chat_suggestions button {{ transition: background-color .2s ease, color .2s ease, border-color .2s ease, transform .2s ease; }}
 .st-key-chat_suggestions button:hover {{
-  background: var(--accent) !important; border-color: var(--accent) !important; color: #FFFFFF !important; transform: translateY(-2px);
+  background: #DCE1D2 !important; border-color: {BAR_GREEN} !important; color: {NAVY} !important; transform: translateY(-2px);
 }}
-.st-key-chat_suggestions button:hover p {{ color: #FFFFFF !important; }}
+.st-key-chat_suggestions button:hover p {{ color: {NAVY} !important; }}
 .st-key-chat_reset button:hover {{ background: #BCC3A8 !important; }}
 
 /* ── 입력 위젯 ── */
@@ -261,6 +268,12 @@ details.more[open] .more-btn::after {{ content:"접기 ▴"; }}
 /* ── 채팅 ── */
 [data-testid="stChatMessage"] {{ background: var(--surface); border:1px solid var(--line); border-radius: 6px; padding: 20px 22px; margin-bottom: 12px; }}
 [data-testid="stChatMessage"] {{ gap: 16px !important; }}  /* 아이콘과 글자 사이 간격 */
+/* 새 대화 박스는 아래에서 살짝 떠오르며 은은하게 나타남 (이미 있던 박스는 다시 그려지지 않아 반복되지 않음) */
+@keyframes chat-in {{ from {{ opacity:0; transform: translateY(10px); }} to {{ opacity:1; transform: none; }} }}
+[data-testid="stChatMessage"] {{ animation: chat-in .5s cubic-bezier(.22, .61, .36, 1) backwards; }}
+/* 대화 초기화: chatbot.py 가 이 애니메이션을 잠깐 켠 뒤 대화를 비운다 */
+@keyframes chat-out {{ to {{ opacity:0; transform: translateY(-8px); }} }}
+@media (prefers-reduced-motion: reduce) {{ [data-testid="stChatMessage"] {{ animation: none !important; }} }}
 [data-testid="stChatInput"] {{ border-color: var(--line) !important; }}
 /* 답변 대기 중 로딩 표시: 점 세 개가 차례로 튀어 오름 */
 .typing {{ display:flex; align-items:center; gap:6px; height:28px; margin-top:-16px; line-height:1; color:var(--muted); font-size:14px; }}  /* 감싸는 칸의 기본 여백만큼 올려 아이콘 중심과 맞춤 (실측) */

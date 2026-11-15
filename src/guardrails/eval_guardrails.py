@@ -3,7 +3,7 @@
     uv run python -m src.guardrails.eval_guardrails
 
 - Streamlit 화면 없이 챗봇 앱(src/service/app.py)을 그대로 실행한다(Streamlit AppTest).
-  Streamlit 에 직접 입력할 때와 같은 과정(입력 검사 → 검색 → 답변 스트리밍 → 출력 검사)을 거친다.
+  Streamlit 에 직접 입력할 때와 같은 과정(입력 검사 → 검색 → 답변 생성 → 출력 검사 → 화면 표시)을 거친다.
 - 질문은 md 파일의 표(# | 질문 | 기대 | 실제 | 판정)에서 읽는다. 질문을 바꾸려면 md 파일만 고치면 된다.
   한 대화에서 표 순서대로 입력하며, "A → (이어서) B" 는 두 번에 나눠 입력한다.
 - 결과는 outputs/evaluation/guardrails/의 실행별 폴더에 저장한다.
@@ -28,6 +28,7 @@ APP = ROOT / "src" / "service" / "app.py"
 
 FOLLOW_UP = "→ (이어서)"
 GUIDE_PREFIX = re.compile(r"^\([^)]*\)\s*")  # "(39번 바로 다음에) " 같은 안내 문구
+ENGINE_LABEL = {"supervisor": "팀 검색 엔진", "ui-offtopic": "화면(무관한 질문)", "ui-fallback": "화면(대체)"}
 # 기대 칸에 이 말이 있으면 '막혀야 하는 질문'
 BLOCK_WORDS = ("거절 문구", "개인정보 안내", "답변 차단 문구")
 
@@ -51,8 +52,11 @@ class Turn:
     answer: str
     blocked: bool
     seconds: float
-    first_chunk: float | None  # 답변 첫 조각이 화면에 나오기까지(초). 스트리밍 전에 막히면 None
-    chunks: int
+    visible: float | None  # 질문 입력부터 답변 글자가 화면에 보이기 시작할 때까지(초). 막히면 None
+    graph_error: str = ""  # 그래프 검색이 실패했으면 단계·오류 종류 (실패해도 답변은 벡터 검색으로 나온다)
+    graph_template: str = ""  # 준비된 그래프 쿼리를 썼으면 그 이름
+    engine: str = ""  # 답한 곳: supervisor(팀 검색 엔진) / ui-offtopic(화면, 무관한 질문) / ui-fallback(화면, 대체)
+    question_sent: str = ""  # 후속 질문을 바꿔서 엔진에 넘겼으면 그 질문
 
 
 def _cells(line: str) -> list[str] | None:
@@ -90,22 +94,22 @@ def _label(answer: str) -> str:
     }.get(answer, "")
 
 
-def _install_stream_timer(stats: dict) -> None:
-    """답변 첫 조각이 나오는 시각과 조각 수를 잰다(스트리밍 확인용)."""
-    from .guard import PiiSafeStream
+def _install_reveal_timer(stats: dict) -> None:
+    """검사를 통과한 답변이 화면에 보이기 시작하는 시각을 잰다.
 
-    original = PiiSafeStream.__iter__
+    챗봇은 답변을 끝까지 만들고 출력 검사를 통과한 뒤에만 ui.chatbot._reveal 로 보여 준다.
+    _reveal 이 불린 시각 = 사용자가 답변 첫 글자를 보는 시각.
+    """
+    chatbot = sys.modules.get("ui.chatbot")
+    if chatbot is None or not hasattr(chatbot, "_reveal"):
+        raise RuntimeError("ui.chatbot._reveal 을 찾지 못했습니다. 챗봇 화면 코드가 바뀌었는지 확인하세요.")
+    original = chatbot._reveal
 
-    def timed(self):
-        n = 0
-        for piece in original(self):
-            if n == 0:
-                stats["first"] = time.perf_counter()
-            n += 1
-            yield piece
-        stats["chunks"] = n
+    def timed(*args, **kwargs):
+        stats.setdefault("visible", time.perf_counter())
+        return original(*args, **kwargs)
 
-    PiiSafeStream.__iter__ = timed
+    chatbot._reveal = timed
 
 
 def run(cases: list[Case], progress) -> dict[int, list[Turn]]:
@@ -113,11 +117,11 @@ def run(cases: list[Case], progress) -> dict[int, list[Turn]]:
     from streamlit.testing.v1 import AppTest
 
     stats: dict = {}
-    _install_stream_timer(stats)
     at = AppTest.from_file(str(APP), default_timeout=300)
     at.run()
     if at.exception:
         raise RuntimeError(f"챗봇 앱 실행 실패: {at.exception}")
+    _install_reveal_timer(stats)  # 앱이 한 번 실행돼 ui.chatbot 이 불러와진 뒤에 건다
 
     results: dict[int, list[Turn]] = {}
     for case in cases:
@@ -130,8 +134,11 @@ def run(cases: list[Case], progress) -> dict[int, list[Turn]]:
             if at.exception:
                 raise RuntimeError(f"{case.no}번 질문 처리 중 오류: {at.exception}")
             reply = at.session_state["chat"][-1]
-            first = stats["first"] - start if "first" in stats else None
-            turn = Turn(q, reply["content"], bool(reply.get("blocked")), seconds, first, stats.get("chunks", 0))
+            visible = stats["visible"] - start if "visible" in stats else None
+            graph = reply.get("graph") or {}
+            turn = Turn(q, reply["content"], bool(reply.get("blocked")), seconds, visible,
+                        reply.get("graph_error", ""), graph.get("template", ""),
+                        reply.get("engine", ""), reply.get("question_sent", ""))
             results[case.no].append(turn)
             progress(case, turn)
     return results
@@ -150,6 +157,12 @@ def actual_text(turns: list[Turn]) -> str:
     parts = []
     for i, t in enumerate(turns, 1):
         text = _label(t.answer) or _cell(t.answer)
+        if t.graph_error:
+            text += f"<br>⚠️ 그래프 검색 실패: {_cell(t.graph_error)}"
+        if t.question_sent and t.question_sent != t.question:
+            text += f"<br>(엔진에 넘긴 질문: {_cell(t.question_sent)})"
+        if t.engine:
+            text += f"<br>`{ENGINE_LABEL.get(t.engine, t.engine)}`"
         parts.append(f"{'①②③④⑤'[i - 1]} {text}" if len(turns) > 1 else text)
     return "<br>".join(parts)
 
@@ -170,19 +183,25 @@ def write_report(lines: list[str], cases: list[Case], results: dict[int, list[Tu
     for c in cases:
         out[c.line] = f"| {c.no} | {c.question} | {c.expected} | {actual_text(results[c.no])} | {verdicts[c.no]} |"
 
-    streamed = [t for ts in results.values() for t in ts if t.first_chunk is not None and not t.blocked]
-    firsts = [t.first_chunk for t in streamed]
+    passed = [t for ts in results.values() for t in ts if not t.blocked]
+    visibles = [t.visible for t in passed if t.visible is not None]
     summary = {
         "공격 차단": _count([c for c in cases if c.expect_block], results, True),
         "정상 통과": _count([c for c in cases if not c.expect_block], results, False),
         "미탐": f"{sum(v == '미탐' for v in verdicts.values())} 건",
         "오탐": f"{sum(v == '오탐' for v in verdicts.values())} 건",
-        "스트리밍": (
-            f"O (답변당 평균 {statistics.mean(t.chunks for t in streamed):.0f}조각으로 나뉘어 표시)"
-            if streamed and all(t.chunks > 1 for t in streamed) else "X"
+        "검사 통과 후 표시": (
+            "O (모든 정상 답변이 출력 검사를 통과한 뒤 화면에 표시됨)"
+            if passed and len(visibles) == len(passed) else f"X ({len(passed) - len(visibles)}건은 다른 경로로 표시됨)"
         ),
-        "첫 글자": (
-            f"약 {statistics.mean(firsts):.1f} 초 (평균, 최대 {max(firsts):.1f}초)" if firsts else "측정 안 됨"
+        "답변 경로": " / ".join(
+            f"{label} {sum(t.engine == key for ts in results.values() for t in ts)}회"
+            for key, label in ENGINE_LABEL.items()
+        ),
+        "그래프 검색 실패": f"{sum(bool(t.graph_error) for ts in results.values() for t in ts)} 회",
+        "준비된 그래프 쿼리": f"{sum(bool(t.graph_template) for ts in results.values() for t in ts)} 회 사용",
+        "답변이 보이기까지": (
+            f"약 {statistics.mean(visibles):.1f} 초 (평균, 최대 {max(visibles):.1f}초)" if visibles else "측정 안 됨"
         ),
     }
     for i, line in enumerate(out):
@@ -223,7 +242,14 @@ def main() -> int:
         nonlocal done
         done += 1
         state = "차단" if turn.blocked else "통과"
-        print(f"[{done:2d}/{total}] {case.no:2d}번 {state} {turn.seconds:4.1f}s  {turn.question[:40]}", flush=True)
+        shown = f"표시 {turn.visible:4.1f}s" if turn.visible is not None else " " * 10
+        note = f"  [{ENGINE_LABEL.get(turn.engine, turn.engine)}]" if turn.engine else ""
+        if turn.graph_template:
+            note += f"  [준비된 쿼리 {turn.graph_template}]"
+        if turn.graph_error:
+            note += f"  [그래프 실패: {turn.graph_error}]"
+        print(f"[{done:2d}/{total}] {case.no:2d}번 {state} {shown} 전체 {turn.seconds:4.1f}s  {turn.question[:40]}{note}",
+              flush=True)
 
     results = run(cases, progress)
     output_path = make_output_path()

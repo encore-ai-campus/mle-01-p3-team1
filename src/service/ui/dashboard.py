@@ -289,14 +289,15 @@ def _detail(df: pd.DataFrame) -> None:
     S.section("편의시설 · 교통")
     # 편의시설은 46%, 교통은 51% 박물관에만 있다 → 없을 때는 안내 문구 + 길찾기(좌표는 모두 있음)
     if row["amenity_list"]:
-        st.markdown("".join(f'<span class="chip">{escape(a)}</span>' for a in row["amenity_list"]), unsafe_allow_html=True)
+        chips = "".join(f'<span class="chip">{escape(a)}</span>' for a in row["amenity_list"])
+        st.markdown(f'<div class="amenity-chips">{chips}</div>', unsafe_allow_html=True)
     else:
         st.markdown('<div class="muted-note">등록된 편의시설 정보가 없어요.</div>', unsafe_allow_html=True)
     transit = _transit_lines(clean(row["transport_notes"], ""))
     if transit:
         st.markdown('<ul class="transit">' + "".join(f"<li>{escape(t)}</li>" for t in transit) + "</ul>", unsafe_allow_html=True)
     else:
-        st.markdown('<div class="muted-note">교통 안내 정보가 없어요. 길찾기로 확인해 보세요.</div>', unsafe_allow_html=True)
+        st.markdown('<div class="muted-note transit-empty">교통 안내 정보가 없어요. 길찾기로 확인해 보세요.</div>', unsafe_allow_html=True)
     if pd.notna(row["latitude"]):
         url = f"https://map.kakao.com/link/to/{quote(str(row['name']))},{row['latitude']},{row['longitude']}"
         st.container(key="dash_route").link_button("카카오맵 길찾기", url)  # 모양: style.py .st-key-dash_route
