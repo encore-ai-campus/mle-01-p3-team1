@@ -10,6 +10,7 @@ from html import escape
 import pandas as pd
 import streamlit as st
 
+from ui import nav
 from ui import style as S
 from ui.data import clean, fee_text, sido_options
 
@@ -40,13 +41,38 @@ SORTS = ["테마 적합도순", "사진 있는 곳 먼저", "이름순"]
 PAGE = 9  # 한 번에 보여 줄 카드 수 (3열 × 3행)
 
 CARD_CSS = """<style>
-.tcard { background: var(--surface); border:1px solid var(--line); border-radius:6px; padding:14px 14px 18px; margin-bottom:8px; }
+.tcard { background: var(--surface); border:1px solid var(--line); border-radius:6px; padding:14px 14px 18px; margin-bottom:8px;
+         transition: transform .22s ease, box-shadow .22s ease, border-color .22s ease; }
+/* 마우스를 올리면 살짝 떠오르며 커지고, 사진은 안쪽에서 천천히 확대 */
+.tcard:hover { transform: translateY(-6px) scale(1.015); box-shadow: 0 14px 30px rgba(0, 38, 62, .12); border-color: #CDBFA8; }
+.tcard .ph img { transition: transform .5s ease; }
+.tcard:hover .ph img { transform: scale(1.06); }
+@media (prefers-reduced-motion: reduce) {
+  .tcard, .tcard .ph img { transition: none; }
+  .tcard:hover, .tcard:hover .ph img { transform: none; }
+}
 .tcard h4 { font-family:var(--font-head); font-weight:700; font-size:17px; color:var(--navy); margin:10px 0 4px;
             white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
 .tcard .meta { font-size:12px; color:var(--muted); }
 .tcard .fee { font-size:14px; color:var(--navy); font-weight:500; margin:10px 0 6px; }
 .tcard .desc { font-size:13px; line-height:1.65; color:#33444F; min-height:calc(1.65em * 3);
                display:-webkit-box; -webkit-line-clamp:3; -webkit-box-orient:vertical; overflow:hidden; }
+.tcard { position:relative; }
+.tcard.has-link { cursor:pointer; }
+.tcard-hit { position:absolute; inset:0; z-index:3; border-radius:6px; }
+.tcard-img { position:relative; }
+.hp-badge { position:absolute; right:10px; bottom:10px; padding:4px 10px; border-radius:6px; font-size:12px; font-weight:600;
+             background: rgba(250, 248, 243, .92); color: var(--navy); opacity:0; transform: translateY(4px);
+             transition: opacity .2s ease, transform .2s ease; }
+.tcard.has-link:hover .hp-badge { opacity:1; transform:none; }
+/* 테마 탭 KPI 는 대시보드(테라코타)와 구분되게 하늘색(Powder Blue). 모든 탭이 한 페이지라 컨테이너 키로 범위를 좁힌다.
+   하늘색은 밝아서 흰 글자 대신 남색 글자를 쓴다. */
+.st-key-theme_kpis .kpi.accent { background:#94B2C4; border-color:#94B2C4; }
+.st-key-theme_kpis .kpi:hover { background:#B4C9D5; border-color:#B4C9D5; }
+.st-key-theme_kpis .kpi.accent:hover { background:#7FA0B4; border-color:#7FA0B4; }
+.st-key-theme_kpis .kpi.accent .v, .st-key-theme_kpis .kpi:hover .v { color: var(--navy); }
+.st-key-theme_kpis .kpi.accent .k, .st-key-theme_kpis .kpi.accent .s,
+.st-key-theme_kpis .kpi:hover .k, .st-key-theme_kpis .kpi:hover .s { color: #2E4A5C; opacity:1; }
 .theme-intro { font-size:15px; color:var(--muted); margin:-6px 0 22px; }
 </style>"""
 
@@ -65,12 +91,23 @@ def _scores(_df: pd.DataFrame) -> pd.DataFrame:
 
 
 def _card(row, theme: str, other_themes: list[str]) -> str:
-    chips = f'<span class="chip solid" style="background:{S.ACCENT};color:#fff">{escape(theme)}</span>'
+    chips = f'<span class="chip solid" style="background:{S.POWDER_BLUE};border-color:{S.POWDER_BLUE};color:{S.NAVY}">{escape(theme)}</span>'
     chips += "".join(f'<span class="chip">{escape(t)}</span>' for t in other_themes[:2])
     region = " ".join(x for x in (clean(row["sido"], ""), clean(row["sigungu"], "")) if x)
     desc = clean(row["description"], "소개 정보가 없습니다.")
+    hp = row.get("homepage_url")
+    has_hp = isinstance(hp, str) and hp.startswith("http")
+    badge = '<span class="hp-badge">홈페이지 ↗</span>' if has_hp else ""
+    # 홈페이지가 있으면 카드 전체를 덮는 투명 링크(새 탭)를 얹는다. <a> 로 카드를 감싸면
+    # 마크다운 처리기가 링크를 요소마다 쪼개 넣어 레이아웃이 깨지므로 덮개 방식을 쓴다. (없는 곳 59곳은 링크 없음)
+    hit = (
+        f'<a class="tcard-hit" href="{escape(hp)}" target="_blank" rel="noopener noreferrer" '
+        f'aria-label="{escape(row["name"])} 홈페이지 열기"></a>'
+        if has_hp else ""
+    )
     return (
-        f'<div class="tcard">{S.image_block(row["image_url"], 170)}'
+        f'<div class="tcard{" has-link" if has_hp else ""}">{hit}'
+        f'<div class="tcard-img">{S.image_block(row["image_url"], 170)}{badge}</div>'
         f'<div style="margin-top:4px">{chips}</div>'
         f'<h4 title="{escape(row["name"])}">{escape(row["name"])}</h4>'
         f'<div class="meta">{escape(region)} · {escape(clean(row["ownership_type"], ""))}</div>'
@@ -98,7 +135,7 @@ def render(df: pd.DataFrame) -> None:
     in_theme["score"] = in_theme["museum_id"].map(scores[theme])
 
     # 요약 KPI
-    k1, k2, k3 = st.columns(3, gap="medium")
+    k1, k2, k3 = st.container(key="theme_kpis").columns(3, gap="medium")
     top_sido = in_theme["sido"].value_counts()
     k1.markdown(S.kpi("테마 박물관", f"{len(in_theme):,}곳", f"전체 {len(df):,}곳 중", accent=True), unsafe_allow_html=True)
     free_pct = in_theme["is_free"].mean() * 100 if len(in_theme) else 0
@@ -147,9 +184,10 @@ def render(df: pd.DataFrame) -> None:
             others = [t for t in names if t != theme and scores.at[row["museum_id"], t] > 0]
             with col:
                 st.markdown(_card(row, theme, others), unsafe_allow_html=True)
-                if st.button("챗봇에게 물어보기", key=f"theme_ask_{row['museum_id']}", width="stretch"):
-                    st.session_state["chat_prefill"] = f"{row['name']} 관람 정보와 주변에 함께 가볼 곳 알려줘"
-                    st.toast("챗봇 탭에 답변을 준비했어요.")
+                st.button(
+                    "챗봇에게 물어보기", key=f"theme_ask_{row['museum_id']}", width="stretch",
+                    on_click=nav.ask_chatbot, args=(f"{row['name']} 관람 정보와 주변에 함께 가볼 곳 알려줘",),
+                )
         st.write("")
 
     if shown < len(picks):

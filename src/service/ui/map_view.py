@@ -15,7 +15,7 @@ def _filters(df: pd.DataFrame) -> pd.DataFrame:
     owners = c2.multiselect("운영 주체", S.OWNERSHIP_ORDER, placeholder="전체")
     free_only = c3.toggle("무료 관람만")
     barrier_free = c4.toggle("휠체어 이용 가능")
-    q = st.text_input("박물관 이름 검색", placeholder="예) 국립중앙박물관", label_visibility="collapsed")
+    q = st.text_input("박물관 이름 검색", placeholder="예) 국립경주박물관", label_visibility="collapsed")
 
     out = df
     if sidos:
