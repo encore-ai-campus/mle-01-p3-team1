@@ -6,7 +6,7 @@
   Streamlit 에 직접 입력할 때와 같은 과정(입력 검사 → 검색 → 답변 스트리밍 → 출력 검사)을 거친다.
 - 질문은 md 파일의 표(# | 질문 | 기대 | 실제 | 판정)에서 읽는다. 질문을 바꾸려면 md 파일만 고치면 된다.
   한 대화에서 표 순서대로 입력하며, "A → (이어서) B" 는 두 번에 나눠 입력한다.
-- 결과는 같은 양식의 가드레일_평가_v1_결과.md 로 저장한다(원본 md 는 바꾸지 않는다).
+- 결과는 outputs/evaluation/guardrails/의 실행별 폴더에 저장한다.
 - 차단 여부(OK·오탐·미탐)만 자동 판정한다. 답변이 자연스러운지는 결과 파일을 읽고 직접 판단한다.
 - OpenAI API 를 사용하므로(질문당 LLM 호출 여러 번) 소액의 사용료가 든다.
 """
@@ -22,8 +22,8 @@ from datetime import datetime
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[2]
-DOC = Path(__file__).with_name("가드레일_평가_v1.md")
-OUT = Path(__file__).with_name("가드레일_평가_v1_결과.md")
+DOC = ROOT / "evaluations" / "datasets" / "guardrails" / "가드레일_평가_v1.md"
+OUTPUT_BASE = ROOT / "outputs" / "evaluation" / "guardrails"
 APP = ROOT / "src" / "service" / "app.py"
 
 FOLLOW_UP = "→ (이어서)"
@@ -159,7 +159,12 @@ def _count(cases: list[Case], results: dict[int, list[Turn]], blocked: bool) -> 
     return f"{hit} / {len(cases)}"
 
 
-def write_report(lines: list[str], cases: list[Case], results: dict[int, list[Turn]]) -> dict:
+def make_output_path(output_base: Path = OUTPUT_BASE, now: datetime | None = None) -> Path:
+    stamp = (now or datetime.now()).strftime("%Y%m%d_%H%M%S_%f")
+    return output_base / f"run_{stamp}" / "report.md"
+
+
+def write_report(lines: list[str], cases: list[Case], results: dict[int, list[Turn]], *, output_path: Path) -> dict:
     out = list(lines)
     verdicts = {c.no: verdict(c, results[c.no]) for c in cases}
     for c in cases:
@@ -190,7 +195,9 @@ def write_report(lines: list[str], cases: list[Case], results: dict[int, list[Tu
     stamp = datetime.now().strftime("%Y-%m-%d %H:%M")
     out.insert(1, f"\n> 자동 평가 결과 ({stamp}, `uv run python -m src.guardrails.eval_guardrails`). "
                   "판정은 차단 여부만 자동으로 매겼다. 답변 품질은 직접 읽고 판단한다.")
-    OUT.write_text("\n".join(out) + "\n", encoding="utf-8")
+    output_path.parent.mkdir(parents=True, exist_ok=True)
+    with output_path.open("x", encoding="utf-8") as file:
+        file.write("\n".join(out) + "\n")
     return summary
 
 
@@ -219,12 +226,13 @@ def main() -> int:
         print(f"[{done:2d}/{total}] {case.no:2d}번 {state} {turn.seconds:4.1f}s  {turn.question[:40]}", flush=True)
 
     results = run(cases, progress)
-    summary = write_report(lines, cases, results)
+    output_path = make_output_path()
+    summary = write_report(lines, cases, results, output_path=output_path)
 
     print()
     for key, value in summary.items():
         print(f"{key}: {value}")
-    print(f"\n결과 파일: {OUT}")
+    print(f"\n결과 파일: {output_path}")
     return 0 if all(verdict(c, results[c.no]) == "OK" for c in cases) else 1
 
 

@@ -87,7 +87,16 @@ def fuse_rrf(
         # A later retrieval source may supply richer data.
         if not entry["name"]:
             entry["name"] = item.get("name") or item["metadata"].get("name")
+        existing_text = entry["vector_document"]
+        incoming_text = str(item.get("document") or item.get("text") or item.get("snippet") or "")
+        different_text = bool(existing_text and incoming_text != existing_text)
+        provenance_fields = {"source_doc_ids", "source_urls", "source_url", "source_locator", "span_id", "chunk_id"}
+        if entry["vector_rank"] is not None and not existing_text and incoming_text:
+            for key in provenance_fields:
+                entry["metadata"].pop(key, None)
         for key, value in item["metadata"].items():
+            if different_text and key in provenance_fields:
+                continue
             if key not in entry["metadata"] or entry["metadata"][key] in (None, ""):
                 entry["metadata"][key] = value
         return entry

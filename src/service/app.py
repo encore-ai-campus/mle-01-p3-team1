@@ -3,7 +3,16 @@
 실행 (프로젝트 루트에서):
     uv run streamlit run src/service/app.py
 """
+import sys
+from pathlib import Path
+
 import truststore
+
+# Streamlit adds this script's directory to sys.path. Add the repository root
+# before importing shared `src.*` modules from the UI.
+REPO_ROOT = Path(__file__).resolve().parents[2]
+if str(REPO_ROOT) not in sys.path:
+    sys.path.insert(0, str(REPO_ROOT))
 
 # Python 기본 인증서 목록(/etc/ssl/cert.pem)에 Neo4j Aura 인증서 발급 기관(SSL.com 2022)이 없어
 # 접속이 거부된다 → 운영체제 인증서 목록(macOS 키체인 / Windows 저장소)을 쓰게 한다.

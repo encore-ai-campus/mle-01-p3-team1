@@ -25,6 +25,8 @@ def main() -> None:
     parser.add_argument("--fusion-top-k", type=int)
     parser.add_argument("--final-top-k", type=int)
     parser.add_argument("--show-fusion", action="store_true")
+    parser.add_argument("--no-ontology-filter", action="store_true",
+                        help="구조 조건 후보 필터 없이 전체 코퍼스에서 검색")
     args = parser.parse_args()
     from dotenv import load_dotenv
     load_dotenv()
@@ -36,6 +38,7 @@ def main() -> None:
         corpus_source="file" if args.corpus else "chroma",
         corpus_path=args.corpus,
         config=cfg,
+        **({"candidate_filter": None} if args.no_ontology_filter else {}),
     )
     result = hybrid.search(args.query, rerank=not args.no_rerank, include_fusion_candidates=args.show_fusion)
     print(json.dumps(result, ensure_ascii=False, indent=2, default=str))

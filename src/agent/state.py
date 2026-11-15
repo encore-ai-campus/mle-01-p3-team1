@@ -13,10 +13,25 @@ class Evidence(TypedDict, total=False):
     source_doc_ids: list[str]
     source_url: str
     source_urls: list[str]
+    source_locator: str
+    source_locators: list[str]
+    source_type: str
+    source_count: int
     chunk_id: str
     span_id: str
+    matched_span_id: str
+    matched_span_text: str
+    related_span_id: str
+    related_span_text: str
+    graph_path: str
     sido: str
     sigungu: str
+    ownership_type: str
+    adult_fee: int
+    youth_fee: int
+    child_fee: int
+    adult_fee_status: str
+    fee_notes: str
     matched_terms: list[str]
     score: float
     retriever: str

@@ -22,6 +22,8 @@ def build_hybrid_service(
     tokenize: Callable[[str], list[str]] | None = None,
     vector_retriever: Any | None = None,
     reranker: Any | None = None,
+    candidate_filter: Any | None = "default",
+    name_index: Any | None = "default",
 ) -> HybridSearchService:
     """Load BM25 index once at startup, reuse the existing Chroma vector service.
 
@@ -54,9 +56,21 @@ def build_hybrid_service(
         bm25 = BM25SpanRetriever.from_file(corpus_path, tokenize=tokenize)
     else:
         raise ValueError(f"Unsupported corpus_source: {corpus_source!r}")
+    if candidate_filter == "default":
+        # Local CSV-backed ontology filter; HYBRID_ONTOLOGY_FILTER=off disables it.
+        from .ontology_filter import default_candidate_filter
+
+        candidate_filter = default_candidate_filter()
+    if name_index == "default":
+        # Facility names written in the question; HYBRID_NAME_MATCH=off disables it.
+        from .name_match import default_name_index
+
+        name_index = default_name_index()
     return HybridSearchService(
         bm25_retriever=bm25,
         vector_retriever=vector_retriever,
         reranker=reranker,
         config=config,
+        candidate_filter=candidate_filter,
+        name_index=name_index,
     )

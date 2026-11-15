@@ -1,0 +1,38 @@
+flowchart TB
+    subgraph OPTIONAL["Supervisor 선택 검색 경로 · 기본 미연결"]
+        direction LR
+        SUP["Supervisor / LangGraph"]
+        DIRECT["직접 VectorSearchService<br/>Hybrid 내부 Vector 경로와 별도"]
+        GRAPH["Neo4j Graph retriever"]
+        SUP -. "옵션 연결" .-> DIRECT
+        SUP -. "옵션 연결" .-> GRAPH
+        DIRECT -->|"Vector 근거"| ANSWER["Supervisor LLM<br/>답변 생성 · 근거 검증"]
+        GRAPH -->|"Graph 근거"| ANSWER
+    end
+
+    subgraph UI["Streamlit UI · Supervisor와 별도 실행 경로"]
+        direction LR
+        USER["사용자"] --> APP["Streamlit app<br/>src/service/app.py"]
+        APP --> CHAT["UI 챗봇<br/>Guardrails · 검색 · 답변"]
+        CHAT --> UIVEC["UI 직접 Chroma 검색<br/>Top 4"]
+        CHAT --> UITEXT["UI Neo4j 질의 계획<br/>Text-to-Cypher"]
+    end
+
+    CHROMA[("Chroma<br/>museum_documents")]
+    NEO4J[("Neo4j Aura")]
+    DIRECT --> CHROMA
+    UIVEC --> CHROMA
+    GRAPH --> NEO4J
+    UITEXT --> NEO4J
+    ANSWER --> RESPONSE["답변"]
+
+    classDef primary fill:#eef4ff,stroke:#25324a,stroke-width:2px,color:#172033;
+    classDef optional fill:#fff,stroke:#6b7280,stroke-dasharray:5 4,color:#343a40;
+    classDef retrieval fill:#f5f7fb,stroke:#394b66,stroke-width:1.5px,color:#172033;
+    classDef store fill:#e8f5ee,stroke:#31724c,stroke-width:1.5px,color:#173c26;
+    classDef llm fill:#efe8ff,stroke:#6741a5,stroke-width:1.5px,color:#24143f;
+    class SUP,APP,CHAT,RESPONSE primary;
+    class DIRECT,GRAPH optional;
+    class UIVEC,UITEXT retrieval;
+    class CHROMA,NEO4J store;
+    class ANSWER llm;

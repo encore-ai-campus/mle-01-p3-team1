@@ -1,0 +1,40 @@
+flowchart TB
+    Q["사용자 질문<br/>Supervisor CLI"] --> GI{"입력 가드레일"}
+    GI -->|허용| S["Supervisor<br/>검색 경로 선택"]
+    GI -->|차단| BLOCK["차단 안내"]
+
+    S -->|"단순 지역 + 주제"| FILTER["지역 필터 추출<br/>예: 경기도 + 자연"]
+    S -->|"일반 Hybrid"| RAW["원문 질문 검색"]
+    S -->|"Graph 선택"| GRAPH["Neo4j Graph 검색<br/>준비된 쿼리 또는 Text-to-Cypher"]
+
+    FILTER --> V["Chroma Vector 검색"]
+    FILTER --> B["BM25 키워드 검색"]
+    RAW --> V
+    RAW --> B
+    V --> RRF["가중 RRF · 후보 결합"]
+    B --> RRF
+    RRF --> CE["Cross-Encoder 재정렬<br/>bge-reranker-v2-m3"]
+    CE --> SRC["CSV 출처 · 지역 속성 확인"]
+    CSV[("museum_final_738.csv")] --> SRC
+    GRAPH <--> NEO[("Neo4j Aura")]
+    SRC --> ANSWER["답변 생성"]
+    GRAPH --> ANSWER
+    ANSWER --> VERIFY{"근거 · 답변 검증"}
+    VERIFY -->|통과| OK["답변과 출처"]
+    VERIFY -->|"근거 부족 · 재시도"| S
+    VERIFY -->|"재시도 소진"| HOLD["답변 보류 또는 일부 답변"]
+    OK --> GO{"출력 가드레일"}
+    HOLD --> GO
+    GO -->|허용| OUT["최종 결과"]
+    GO -->|차단| BLOCK
+
+    classDef main fill:#eef4ff,stroke:#25324a,stroke-width:2px,color:#172033;
+    classDef search fill:#f4f7fb,stroke:#526581,stroke-width:1.5px,color:#172033;
+    classDef changed fill:#e4f7e9,stroke:#31824c,stroke-width:2px,color:#173c26;
+    classDef rerank fill:#fff2d8,stroke:#a66a00,stroke-width:2px,color:#442b00;
+    classDef data fill:#e8f5ee,stroke:#31724c,stroke-width:1.5px,color:#173c26;
+    class Q,S,ANSWER,OK,OUT,BLOCK main;
+    class RAW,V,B,RRF,SRC,GRAPH,HOLD search;
+    class FILTER changed;
+    class CE rerank;
+    class CSV,NEO data;

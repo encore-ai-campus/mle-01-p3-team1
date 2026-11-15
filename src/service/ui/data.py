@@ -4,22 +4,25 @@ from pathlib import Path
 import pandas as pd
 import streamlit as st
 
-PROJECT_ROOT = Path(__file__).resolve().parents[3]
-CSV_PATH = PROJECT_ROOT / "data" / "museum_final.csv"
+from src.region_aliases import SIDO_ALIAS_FAMILIES, SIDO_TO_CANONICAL
 
-# 화면 표시용 시·도 이름 (원본 데이터와 검색 DB 의 값은 바꾸지 않는다)
-SIDO_ALIAS = {
+PROJECT_ROOT = Path(__file__).resolve().parents[3]
+CSV_PATH = PROJECT_ROOT / "data" / "processed" / "museum_final_1027.csv"
+
+# 검색/화면에서 함께 취급할 기존·축약 표기 (원본 CSV와 DB 값은 바꾸지 않는다)
+SIDO_EQUIVALENTS = SIDO_ALIAS_FAMILIES
+SIDO_ALIAS = {alias: canonical for alias, canonical in SIDO_TO_CANONICAL.items() if alias != canonical}
+SIDO_ALIAS.update({
     "강원특별자치도": "강원도",
-    "전북특별자치도": "전라북도",
     "제주특별자치도": "제주도",
     "세종특별시": "세종특별자치시",
-    "전남광주통합특별시": "전라남도",  # 광주 구는 없고 전남 시·군만 이 이름으로 들어와 있다
-}
+})
 # 시·도 선택 목록 순서: 특별시·광역시 → 도
 SIDO_ORDER = (
     "서울특별시", "부산광역시", "대구광역시", "인천광역시", "광주광역시", "대전광역시", "울산광역시",
     "세종특별자치시",
-    "경기도", "강원도", "충청북도", "충청남도", "전라북도", "전라남도", "경상북도", "경상남도", "제주도",
+    "경기도", "강원도", "충청북도", "충청남도", "전북특별자치도", "전남광주특별자치도",
+    "경상북도", "경상남도", "제주도",
 )
 
 

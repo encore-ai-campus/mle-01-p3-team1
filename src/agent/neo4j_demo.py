@@ -53,7 +53,7 @@ def _make_smoke_answer(question: str, evidence: list[Evidence]) -> str:
         f"[{item.get('museum_id', '')}] {item.get('name', '')} — "
         f"{item.get('sido', '')} {item.get('sigungu', '')}\n"
         f"근거: {item.get('text', '')[:240]}\n"
-        f"출처: {item.get('source_url') or ', '.join(item.get('source_doc_ids', []))}"
+        f"출처: {item.get('source_url') or ', '.join(item.get('source_locators', [])) or item.get('source_locator') or ', '.join(item.get('source_doc_ids', []))}"
         for item in evidence
     )
 
