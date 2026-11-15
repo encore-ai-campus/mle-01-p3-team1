@@ -77,7 +77,7 @@ def closed_days(raw: str) -> set[str]:
 
 def crude_org_key(raw: str) -> str:
     value = re.sub(r"^(?:\(주\)|㈜|주식회사|\(재\)|재단법인|\(사\)|사단법인)\s*", "", str(raw or "").strip())
-    value = squash(value)
+    value = re.sub(r"청$", "", squash(value))  # 창녕군청 -> 창녕군, 울산광역시청 -> 울산광역시
     changed = True
     while changed:
         changed = False
@@ -85,7 +85,7 @@ def crude_org_key(raw: str) -> str:
             if value.startswith(prefix) and len(value) > len(prefix):
                 value, changed = value[len(prefix):], True
                 break
-    return re.sub(r"청$", "", value)
+    return value
 
 
 class Verifier:
@@ -216,6 +216,60 @@ class Verifier:
             problems.append("CSV에 개수가 적혀 있어 '개수는 알 수 없다'는 정답이 틀릴 수 있음")
         return problems
 
+    def check_combined(self, row: dict[str, str]) -> list[str]:
+        anchor_name = re.match(r"(.+?)(?:과|와) 같은 기관이", row["user_input"])
+        ids = [item for item in row["gold_museum_ids"].split(";") if item]
+        word = re.search(r"본문·이름에 '(.+?)'가 있는 곳", row["notes"])
+        if not anchor_name or len(self.by_name.get(anchor_name.group(1), [])) != 1 or len(ids) != 1 or ids[0] not in self.by_id:
+            return ["기준 시설이나 정답 시설을 하나로 정하지 못해 자동 확인을 건너뜀"]
+        anchor, target = self.by_name[anchor_name.group(1)][0], self.by_id[ids[0]]
+        problems = []
+        key = crude_org_key(anchor.get("operator_name", ""))
+        if not key or crude_org_key(target.get("operator_name", "")) != key:
+            problems.append("정답 시설의 운영기관이 기준 시설과 같지 않음")
+        quote = row["evidence_quote"].split(" | ")[-1].strip()
+        if quote and squash(quote) not in squash(target.get("name", "") + ". " + target.get("text", "")):
+            problems.append("근거로 든 소개글 문장이 정답 시설의 CSV 소개글에 그대로 없음")
+        if word:
+            others = [r for r in self.rows if r["museum_id"] not in (anchor["museum_id"], target["museum_id"])
+                      and crude_org_key(r.get("operator_name", "")) == key
+                      and (word.group(1) in r["name"] or word.group(1) in r.get("text", ""))]
+            if others:
+                problems.append("같은 기관의 다른 시설도 '%s'가 나와 정답이 유일하지 않음: %s" % (word.group(1), ", ".join(r["name"] for r in others)))
+        return problems
+
+    def city_rows(self, city: str) -> list[dict[str, str]]:
+        return [r for r in self.rows if r["sigungu"] in (f"{city}시", f"{city}군")]
+
+    def check_everyday_region(self, row: dict[str, str], only_art: bool) -> list[str]:
+        city = re.match(r"(.+?)에 있는", row["user_input"])
+        if not city:
+            return ["질문에서 지역을 읽지 못해 자동 확인을 건너뜀"]
+        members = self.city_rows(city.group(1))
+        if only_art:
+            members = [r for r in members if "미술관" in r["name"]]
+        expected = {r["museum_id"] for r in members}
+        gold = {item for item in row["gold_museum_ids"].split(";") if item}
+        return [self.diff(expected, gold)] if expected != gold else []
+
+    def check_everyday_theme(self, row: dict[str, str]) -> list[str]:
+        word = re.search(r"'(.+?)'를 주제로", row["reference"])
+        if not word:
+            return ["정답 문장에서 주제를 읽지 못해 자동 확인을 건너뜀"]
+        expected = {r["museum_id"] for r in self.rows if word.group(1) in r["name"]}
+        gold = {item for item in row["gold_museum_ids"].split(";") if item}
+        return [self.diff(expected, gold)] if expected != gold else []
+
+    def check_everyday_unanswerable(self, row: dict[str, str]) -> list[str]:
+        question = row["user_input"]
+        if "국립중앙박물관" in question:
+            found = [r["name"] for r in self.rows if "국립중앙박물관" in r["name"]]
+            return [f"CSV에 국립중앙박물관이 있음: {found}"] if found else []
+        if "휠체어" in question:
+            found = [r["name"] for r in self.region_rows("서울특별시") if amenity_hit(r.get("amenities_raw", ""), "휠체어 대여·이용")]
+            return [f"서울에 휠체어 기록이 있는 시설이 있음: {found}"] if found else []
+        return ["사람이 확인해야 하는 질문이라 자동 확인을 건너뜀"]
+
     def verify(self, row: dict[str, str]) -> tuple[str, list[str]]:
         category = row["category"]
         problems = self.check_common(row)
@@ -234,6 +288,18 @@ class Verifier:
             problems += self.check_closure(row)
         elif category == "unanswerable_count_live":
             problems += self.check_count(row)
+        elif category == "combined_relation_description":
+            problems += self.check_combined(row)
+        elif category == "everyday_region_list":
+            problems += self.check_everyday_region(row, only_art=False)
+        elif category == "everyday_region_type":
+            problems += self.check_everyday_region(row, only_art=True)
+        elif category == "everyday_theme":
+            problems += self.check_everyday_theme(row)
+        elif category == "everyday_amenity":
+            problems += self.check_amenity(row)
+        elif category == "everyday_unanswerable":
+            problems += self.check_everyday_unanswerable(row)
         return ("v2/" + category, problems)
 
 

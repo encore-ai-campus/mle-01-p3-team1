@@ -66,3 +66,36 @@ def test_runner_reads_v2_and_knows_the_full_flow_mode():
     with mock.patch.dict(os.environ, {}, clear=True):
         missing = ragas_eval._required_env(["supervisor_full"], True, "")
     assert {"SUPERVISOR_MODEL", "NEO4J_URI"}.issubset(missing)
+
+
+def test_excluded_questions_are_gone_and_other_ids_did_not_move(items):
+    ids = {item["question_id"] for item in items}
+    assert not ids & set(builder.EXCLUDED_IDS)
+    assert {"V2-SF06", "V2-SW04", "V2-OO01", "V2-CF01"} <= ids  # numbering of earlier questions is unchanged
+
+
+def test_combined_questions_route_to_the_combined_path_with_a_unique_answer(items):
+    from src.agent.supervisor.nodes import DESCRIPTIVE_CUE, SupervisorController
+
+    combined = [i for i in items if i["category"] == "combined_relation_description"]
+    assert len(combined) == 15
+    for item in combined:
+        assert SupervisorController._graph_template(item["user_input"]) == "same_operator", item["question_id"]
+        assert DESCRIPTIVE_CUE.search(item["user_input"]), item["question_id"]
+        assert item["expected_route"] == "combined"
+        assert len([x for x in item["gold_museum_ids"].split(";") if x]) == 1
+
+
+def test_everyday_questions_have_gold_from_the_csv_columns(items):
+    everyday = [i for i in items if i["category"].startswith("everyday_")]
+    assert len(everyday) == 15
+    assert {i["answerable"] for i in everyday if i["category"] != "everyday_unanswerable"} == {"yes"}
+    assert all(i["gold_museum_ids"] == "" for i in everyday if i["category"] == "everyday_unanswerable")
+    assert all(i["source_set"] == "v2_2026-11-15" for i in everyday)
+
+
+def test_references_do_not_cite_museum_ids(items):
+    import re
+
+    assert not [i["question_id"] for i in items if i["source_set"].startswith("v2") and re.search(r"\(M\d{4}\)", i["reference"])]
+

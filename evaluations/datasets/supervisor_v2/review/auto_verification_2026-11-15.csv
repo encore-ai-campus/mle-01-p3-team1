@@ -1,5 +1,1 @@
 ﻿question_id,종류,질문,자동 확인에서 다르게 나온 점
-V2-SF05,v2/structured_filter,대전에서 카페 있는 박물관이나 미술관을 알려줘,정답에는 있는데 CSV 확인에서 조건에 안 맞음: M1064
-V2-SF08,v2/structured_filter,강원에서 식당 있는 박물관이나 미술관을 알려줘,정답에는 있는데 CSV 확인에서 조건에 안 맞음: M0228
-V2-SW05,v2/structured_weekday,월요일에도 여는 대전 박물관 중 카페 있는 곳,정답에는 있는데 CSV 확인에서 조건에 안 맞음: M1064
-V2-SW06,v2/structured_weekday,주말에 문 여는 울산 박물관 중 수유실 있는 곳,"CSV에는 조건에 맞는데 정답에 없음: M0404,M0405"

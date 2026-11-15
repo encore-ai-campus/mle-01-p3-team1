@@ -24,6 +24,7 @@ from __future__ import annotations
 import argparse
 import csv
 import json
+import re
 from collections import defaultdict
 from pathlib import Path
 from typing import Any, Iterable
@@ -315,6 +316,176 @@ def unanswerable_questions(rows: list[dict[str, str]]) -> list[dict[str, Any]]:
 
 
 # ---------------------------------------------------------------------------
+# 2026-11-15 additions: combined-route questions and everyday-wording questions
+# ---------------------------------------------------------------------------
+
+# Questions removed on 2026-11-15 because their labels depend on a judgement call
+# (does a tea house count as a cafe? is a kiosk a restaurant? do irregular closures count as open?).
+# IDs of the other questions are kept as they were.
+EXCLUDED_IDS = {
+    "V2-SF05": "찻집을 카페로 볼지 판단이 필요함",
+    "V2-SW05": "찻집을 카페로 볼지 판단이 필요함",
+    "V2-SF08": "매점·공동취사장을 식당으로 볼지 판단이 필요함",
+    "V2-SW06": "불규칙 휴관('관리운영상 정하는 휴관일')을 개관으로 볼지 판단이 필요함",
+}
+
+# (anchor facility, target facility, thing asked about, word that must identify the target's text)
+COMBINED_CASES = (
+    ("울산대곡박물관", "울산암각화박물관", "암각화", "암각화 유적"),
+    ("신안갯벌박물관", "세계화석광물박물관", "화석과 광물", "화석"),
+    ("문경도자기박물관", "문경자연생태박물관", "자연 생태", "생태"),
+    ("고성공룡박물관", "고성탈박물관", "탈", "탈"),
+    ("짜장면박물관", "인천개항장 근대건축전시관", "개항기 건축물", "근대건축"),
+    ("남원향토박물관", "혼불문학관", "문학 작품", "혼불"),
+    ("천안박물관", "유관순열사기념관", "유관순 열사 자료", "유관순"),
+    ("한성백제박물관", "서울생활사박물관", "서울의 생활사 자료", "생활사"),
+    ("박인환문학관", "한국시집박물관", "시집", "시집"),
+    ("부천활박물관", "고강선사유적체험관", "선사시대 유적", "선사유적"),
+    ("대구근대역사관", "대구방짜유기박물관", "방짜 유기", "방짜"),
+    ("홍주성역사관", "결성농요농사박물관", "농요", "농요"),
+    ("해남공룡박물관", "고산윤선도박물관", "윤선도 관련 자료", "윤선도"),
+    ("태백석탄박물관", "태백고생대자연사박물관", "고생대 화석", "고생대"),
+    ("안성맞춤박물관", "박두진문학관", "시인 박두진의 문학 자료", "박두진"),
+)
+EVERYDAY_CITIES = ("경주", "통영", "홍성", "나주", "포항")
+EVERYDAY_TYPE_CITIES = ("가평", "화순", "통영")
+EVERYDAY_THEMES = (("공룡", "공룡을 볼 수 있는 박물관은 어디야?"), ("곤충", "곤충을 볼 수 있는 박물관 알려줘"),
+                   ("옹기", "옹기를 전시하는 박물관이 있어?"))
+
+
+def _sentence_with(text: str, word: str) -> str:
+    for sentence in re.split(r"(?<=[.다])\s+", " ".join(str(text or "").split())):
+        if word in sentence:
+            return sentence.strip()
+    return ""
+
+
+def combined_questions(rows: list[dict[str, str]]) -> list[dict[str, Any]]:
+    """Relation + description: the graph names the same-operator facilities, the text names the target."""
+    by_name: dict[str, list[dict[str, str]]] = defaultdict(list)
+    for row in rows:
+        by_name[row["name"]].append(row)
+    groups: dict[str, list[dict[str, str]]] = defaultdict(list)
+    org_names: dict[str, str] = {}
+    key_of: dict[str, str] = {}
+    for row in rows:
+        resolution = resolve_org(row.get("operator_name") or "", row["sido"])
+        if resolution is None or is_self_named(row["operator_name"], row["name"]):
+            continue
+        groups[resolution.org.org_key].append(row)
+        org_names[resolution.org.org_key] = resolution.org.name
+        key_of[row["museum_id"]] = resolution.org.org_key
+    items = []
+    for anchor_name, target_name, phrase, word in COMBINED_CASES:
+        if len(by_name.get(anchor_name, [])) != 1 or len(by_name.get(target_name, [])) != 1:
+            raise ValueError(f"combined case needs unique facility names: {anchor_name}, {target_name}")
+        anchor, target = by_name[anchor_name][0], by_name[target_name][0]
+        key = key_of.get(anchor["museum_id"])
+        members = groups.get(key, [])
+        if key is None or target not in members:
+            raise ValueError(f"{target_name} is not in the same operator group as {anchor_name}")
+        others = [m for m in members if m["museum_id"] not in (anchor["museum_id"], target["museum_id"])]
+        sentence = _sentence_with(f"{target['name']}. {target.get('text', '')}", word)
+        if not sentence:
+            raise ValueError(f"'{word}' does not appear in {target_name}")
+        clashes = [m["name"] for m in others if word in m["name"] or word in (m.get("text") or "")]
+        if clashes:
+            raise ValueError(f"'{word}' also appears in {clashes}; the answer would not be unique")
+        question = f"{josa(anchor_name, '과', '와')} 같은 기관이 운영하는 시설 중 {josa(phrase, '을', '를')} 볼 수 있는 곳은?"
+        if _organization_relation(question) != "OPERATED_BY" or _question_named_museums(question) != [anchor_name]:
+            raise ValueError(f"the relation template does not read: {question}")
+        item = record(
+            "combined_relation_description", question, answerable=True,
+            reference=(f"{anchor_name}의 운영기관은 '{org_names[key]}'(원문: {anchor['operator_name']})으로 기록되어 있으며, "
+                       f"같은 기관이 운영하는 시설 중 {phrase} 관련 내용을 볼 수 있는 곳은 {target_name}입니다."),
+            rows=[anchor, target], context_fields=("operator_name",),
+            expected_route="combined", expected_behavior="answer",
+            notes=(f"관계(같은 운영기관 org_key '{key}')와 설명('{word}')이 함께 필요. gold = 같은 기관 시설 중 "
+                   f"본문·이름에 '{word}'가 있는 곳(유일)"))
+        item["gold_museum_ids"] = target["museum_id"]
+        item["gold_museum_names"] = target["name"]
+        item["reference_contexts"] = json.dumps(
+            [context(anchor, "operator_name"), context(target, "operator_name"), f"[CSV 소개글 인용] {sentence}"],
+            ensure_ascii=False)
+        item["evidence_quote"] = f"{anchor_name}: {anchor['operator_name']} | {target_name}: {target['operator_name']} | {sentence}"
+        items.append(item)
+    return items
+
+
+def everyday_questions(rows: list[dict[str, str]], index: LocalOntologyIndex) -> list[dict[str, Any]]:
+    """Questions worded the way a visitor would ask. Gold is read straight from the CSV columns."""
+    items: list[dict[str, Any]] = []
+    sigungu_names = defaultdict(set)
+    for row in rows:
+        sigungu_names[row["sigungu"]].add(row["sido"])
+
+    def city_rows(city: str) -> list[dict[str, str]]:
+        found = [r for r in rows if r["sigungu"] in (f"{city}시", f"{city}군")]
+        if not found or len({r["sido"] for r in found}) != 1:
+            raise ValueError(f"city '{city}' is not a single region in the CSV")
+        return sorted(found, key=lambda r: r["museum_id"])
+
+    for city in EVERYDAY_CITIES:
+        members = city_rows(city)
+        items.append(record(
+            "everyday_region_list", f"{city}에 있는 박물관이나 미술관을 알려줘", answerable=True,
+            reference=f"{city}({members[0]['sido']} {members[0]['sigungu']})에 있는 시설은 {names_list(members)}입니다.",
+            rows=members, context_fields=(), expected_route="any", expected_behavior="answer",
+            notes="시·군 이름만으로 지역을 묻는 일상 질문. gold = CSV의 sigungu가 같은 모든 시설"))
+    for city in EVERYDAY_TYPE_CITIES:
+        members = [r for r in city_rows(city) if "미술관" in r["name"]]
+        if not members:
+            raise ValueError(f"no art museum in {city}")
+        items.append(record(
+            "everyday_region_type", f"{city}에 있는 미술관은?", answerable=True,
+            reference=f"{city}에 있는 미술관은 {names_list(members)}입니다.",
+            rows=members, context_fields=(), expected_route="any", expected_behavior="answer",
+            notes="시·군 + 시설 종류. gold = 해당 시·군 시설 중 이름에 '미술관'이 있는 곳"))
+    for word, question in EVERYDAY_THEMES:
+        members = sorted((r for r in rows if word in r["name"]), key=lambda r: r["museum_id"])
+        if not 2 <= len(members) <= 6:
+            raise ValueError(f"theme '{word}' matches {len(members)} facilities")
+        item = record(
+            "everyday_theme", question, answerable=True,
+            reference=f"'{word}'를 주제로 한 시설로는 {names_list(members)}이(가) 있습니다.",
+            rows=members, context_fields=(), expected_route="any", expected_behavior="answer",
+            notes=f"주제 단어를 이름에 가진 시설이 gold(전국). 소개글에만 '{word}'가 나오는 시설은 gold에 없음")
+        item["evidence_quote"] = " | ".join(r["name"] for r in members)
+        items.append(item)
+    members = sorted((r for r in rows if r["sido"] == "서울특별시"
+                      and "수유실" in {n for t in split_amenity_tokens(r.get("amenities_raw")) for n in map_amenity_token(t)}),
+                     key=lambda r: r["museum_id"])
+    question = "서울에서 아이랑 갈 건데 수유실 있는 박물관 알려줘"
+    conditions = extract_conditions(question)
+    gold = sorted(index.candidates(conditions))
+    if not conditions.has_hard_conditions or gold != sorted(r["museum_id"] for r in members):
+        raise ValueError("the everyday amenity question does not match the filter")
+    items.append(record(
+        "everyday_amenity", question, answerable=True,
+        reference=(f"서울특별시에서 편의시설 기록에 '수유실'이(가) 있는 시설은 {names_list(members)}입니다. "
+                   "편의시설은 데이터에 기록된 내용이며 실시간 운영 상태가 아닙니다."),
+        rows=members, context_fields=("amenities_raw",), expected_route="any", expected_behavior="answer",
+        notes="수유실 조건 + 일상 말투('아이랑 갈 건데')"))
+    unanswerable = (
+        ("제주도에서 비 오는 날 갈 만한 실내 전시관 있어?",
+         "현재 자료에는 시설이 실내인지 실외인지와 날씨별 추천 정보가 없어 답할 수 없습니다. 시설에 직접 확인이 필요합니다.",
+         "실내·실외 구분이 데이터에 없음"),
+        ("국립중앙박물관 근처에 다른 박물관도 있어?",
+         "현재 자료에는 국립중앙박물관이 없어 그 근처 시설을 찾을 수 없습니다.",
+         "738곳 데이터에 국립중앙박물관이 없음"),
+        ("휠체어로 관람 가능한 서울 박물관이 있을까?",
+         "기록된 데이터에서 조건(서울특별시, 편의시설 휠체어 대여·이용)을 모두 만족하는 시설을 찾지 못했습니다. "
+         "편의시설 정보는 일부 시설에만 기록되어 있어, 기록이 없다고 실제로 없다는 뜻은 아닙니다.",
+         "서울 시설 중 휠체어 기록이 0건"),
+    )
+    for question, reference, note in unanswerable:
+        items.append(record(
+            "everyday_unanswerable", question, answerable=False, reference=reference, rows=[], context_fields=(),
+            expected_route="any", expected_behavior="abstain", notes=note))
+    return items
+
+
+# ---------------------------------------------------------------------------
 
 
 def build(csv_path: Path = CSV_PATH, v1_path: Path = V1_PATH) -> list[dict[str, Any]]:
@@ -331,13 +502,23 @@ def build(csv_path: Path = CSV_PATH, v1_path: Path = V1_PATH) -> list[dict[str, 
            *closure_questions(rows), *unanswerable_questions(rows)]
     prefixes = {"structured_filter": "SF", "structured_weekday": "SW", "structured_no_record": "SN",
                 "org_same_operator": "OO", "org_same_manager": "OM", "closure_fact": "CF",
-                "unanswerable_count_live": "UL"}
+                "unanswerable_count_live": "UL", "combined_relation_description": "CB",
+                "everyday_region_list": "ER", "everyday_region_type": "ET", "everyday_theme": "EH",
+                "everyday_amenity": "EA", "everyday_unanswerable": "EU"}
     counters: dict[str, int] = defaultdict(int)
     for item in new:
         prefix = prefixes[item["category"]]
         counters[prefix] += 1
         item["question_id"] = f"V2-{prefix}{counters[prefix]:02d}"
-    return carried + new
+    new = [item for item in new if item["question_id"] not in EXCLUDED_IDS]
+    # Added after the numbering above so the IDs of the earlier questions never move.
+    later = [*combined_questions(rows), *everyday_questions(rows, index)]
+    for item in later:
+        prefix = prefixes[item["category"]]
+        counters[prefix] += 1
+        item["question_id"] = f"V2-{prefix}{counters[prefix]:02d}"
+        item["source_set"] = "v2_2026-11-15"
+    return carried + new + later
 
 
 def write(items: list[dict[str, Any]], path: Path = OUT_PATH) -> None:

@@ -31,8 +31,8 @@ class RagasEvalTests(unittest.TestCase):
         rows = read_evaluation_set(DEFAULT_EVALSET)
 
         self.assertEqual(DEFAULT_EVALSET.name, "Supervisor_Ragas_v2_draft.csv")
-        self.assertEqual(len(rows), 196)
-        self.assertEqual(sum(row["answerable"] == "no" for row in rows), 14)
+        self.assertEqual(len(rows), 222)
+        self.assertEqual(sum(row["answerable"] == "no" for row in rows), 17)
         self.assertTrue(all(row["label_status"].endswith("needs_human_review") for row in rows))
 
     def test_reads_answerable_and_unanswerable_reference_rows(self):
