@@ -142,6 +142,7 @@ class RagasEvalTests(unittest.TestCase):
                 "context_recall",
                 "context_precision_with_reference",
                 "factual_correctness",
+                "answer_relevancy",
             ],
         )
 

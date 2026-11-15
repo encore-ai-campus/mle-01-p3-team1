@@ -43,11 +43,13 @@ REQUIRED_COLUMNS = {
     "evidence_quote",
     "label_status",
 }
+RELEVANCY_EMBEDDING_MODEL = "text-embedding-3-small"
 METRIC_NAMES = (
     "faithfulness",
     "context_recall",
     "context_precision_with_reference",
     "factual_correctness",
+    "answer_relevancy",
 )
 
 
@@ -315,11 +317,13 @@ def build_ragas_metrics(
 
     # Ragas 0.4.x's top-level evaluate() accepts legacy Metric subclasses;
     # collections metrics implement the newer BaseMetric interface instead.
+    from ragas.embeddings import LangchainEmbeddingsWrapper
     from ragas.metrics import (
         ContextRecall,
         FactualCorrectness,
         Faithfulness,
         LLMContextPrecisionWithReference,
+        ResponseRelevancy,
     )
 
     judge_client = client or AsyncOpenAI()
@@ -337,11 +341,20 @@ def build_ragas_metrics(
     context_precision = LLMContextPrecisionWithReference(llm=evaluator_llm)
     # Keep the result column name used by reports and METRIC_NAMES.
     context_precision.name = "context_precision_with_reference"
+    # Answer Relevancy embeds the questions the judge regenerates from the answer,
+    # so it needs an embedding model. A pure refusal scores 0 by design.
+    from langchain_openai import OpenAIEmbeddings
+
+    answer_relevancy = ResponseRelevancy(
+        llm=evaluator_llm,
+        embeddings=LangchainEmbeddingsWrapper(OpenAIEmbeddings(model=RELEVANCY_EMBEDDING_MODEL)),
+    )
     return [
         Faithfulness(llm=evaluator_llm),
         ContextRecall(llm=evaluator_llm),
         context_precision,
         FactualCorrectness(llm=evaluator_llm),
+        answer_relevancy,
     ]
 
 

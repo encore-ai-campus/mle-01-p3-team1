@@ -52,3 +52,11 @@ v1(150문항)에는 이 흐름을 시험하는 문항이 없었습니다. 그래
 ```
 
 `supervisor` 모드는 경로를 Hybrid로 고정한 비교용입니다. 바뀐 라우팅까지 평가하려면 `supervisor_full`을 쓰세요.
+
+## 변경 이력
+
+### 2026-11-15: 정답 문장에서 시설 번호 제거
+- v2 신규 문항 32개의 `reference`에 `허준박물관(M0544)`처럼 시설 번호가 들어 있었습니다. 시스템의 답변에는 번호가 나오지 않아서, 답이 맞아도 Ragas의 Context Recall이 0으로 나왔습니다.
+- 번호를 빼고 이름만 남겼습니다. 번호는 순위 지표에 쓰는 `gold_museum_ids`에 그대로 있습니다. `src/evaluation/build_evalset_v2.py`의 `names_list`를 고쳐 다시 생성했고, 바뀐 것은 이 32개 `reference`뿐입니다(다른 열과 v1 150문항은 그대로).
+- 같은 기관 운영·관리 15문항으로 확인한 결과(번호를 빼기 전 → 뺀 뒤): Context Recall 0.03 → 0.77. 근거 문맥에 시설명을 넣은 효과(Faithfulness 0.30 → 0.72)와는 별개의 원인입니다. 자세한 내용은 [검색 문제 기록](../../../docs/records/supervisor-retrieval-issues.md)의 9번을 보세요.
+- 이 변경으로 파일의 해시가 바뀝니다(이전 `819a75ea11a1eb5f…` → `7d1956ce81dba543…`). 이전 실행 결과(`run_2026-11-14_supervisor_full_v2_first`)는 변경 전 평가셋으로 채점한 값입니다.

@@ -111,7 +111,10 @@ def context(row: dict[str, str], *fields: str) -> str:
 
 
 def names_list(rows: Iterable[dict[str, str]]) -> str:
-    return ", ".join(f"{row['name']}({row['museum_id']})" for row in rows)
+    # Names only: a museum_id never appears in an answer, so a reference that cites one cannot be
+    # attributed to the evidence by the judge (2026-11-15: Context Recall 0.03 -> 0.77 without IDs).
+    # The IDs stay in gold_museum_ids for the ranking metrics.
+    return ", ".join(row["name"] for row in rows)
 
 
 def record(category: str, question: str, *, answerable: bool, reference: str, rows: list[dict[str, str]],

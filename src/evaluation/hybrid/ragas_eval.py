@@ -52,6 +52,7 @@ RAGAS_METRICS = (
     "context_recall",
     "context_precision_with_reference",
     "factual_correctness",
+    "answer_relevancy",
 )
 BASE_COLUMNS = {
     "question_id",
@@ -237,9 +238,19 @@ def ragas_context(item: Mapping[str, Any]) -> str:
     (metadata_provenance, structured_match), not in the passage text. Without
     them the judge sees no support for those claims (2026-11-14 eval: v2
     questions scored Context Recall 0.04).
+
+    A graph relation row carries the facility name only in its `name` field, not
+    in the text, although the answer model receives that field. The judge gets it
+    as a leading line when the text does not already name the facility. Passages
+    from the document search are left as they were so scores stay comparable with
+    the 2026-11-13 baseline
+    (2026-11-15 eval: same-operator answers were right but scored Context Recall 0.0).
     """
     text = str(item.get("text") or "")
     metadata = item.get("metadata") if isinstance(item.get("metadata"), Mapping) else {}
+    name = str(item.get("name") or metadata.get("name") or "").strip()
+    if name and item.get("retriever") == "graph" and name not in text:
+        text = f"[시설명] {name}\n{text}"
     provenance = item.get("metadata_provenance") or metadata.get("metadata_provenance") or {}
     fields = provenance.get("fields") if isinstance(provenance, Mapping) else {}
     extra = []
@@ -956,7 +967,7 @@ def render_report(
     label_counts = Counter(str(row["label_status"]) for row in rows)
     retrieval_headers = ["경로", "검색 n", "Hit@1", "Hit@3", "Hit@5", "Recall@5", "MRR@10", "거짓 검색률", "부당 보류율", "오류"]
     retrieval_table = ["| " + " | ".join(retrieval_headers) + " |", "|" + "|".join(["---"] * len(retrieval_headers)) + "|"]
-    ragas_headers = ["경로", "Ragas n", "Faithfulness", "Context Recall", "Context Precision", "Factual Correctness", "검증 통과율", "Rerank 적용률", "평균 시간(ms)", "최대 시간(ms)", "Ragas 채점(초)"]
+    ragas_headers = ["경로", "Ragas n", "Faithfulness", "Context Recall", "Context Precision", "Factual Correctness", "Answer Relevancy", "검증 통과율", "Rerank 적용률", "평균 시간(ms)", "최대 시간(ms)", "Ragas 채점(초)"]
     ragas_table = ["| " + " | ".join(ragas_headers) + " |", "|" + "|".join(["---"] * len(ragas_headers)) + "|"]
     for mode in modes:
         stats = summaries[mode]
@@ -980,6 +991,7 @@ def render_report(
             format_metric(stats["context_recall"]),
             format_metric(stats["context_precision_with_reference"]),
             format_metric(stats["factual_correctness"]),
+            format_metric(stats["answer_relevancy"]),
             format_metric(stats["supervisor_verified_rate"]),
             format_metric(stats["rerank_applied_rate"]),
             format_metric(stats["avg_duration_ms"]),
