@@ -170,8 +170,9 @@ class SupervisorController:
             return ""
         conditions = decision.get("conditions") or {}
         parts = []
-        if conditions.get("sido"):
-            parts.append(str(conditions["sido"]))
+        region = " ".join(str(conditions[key]) for key in ("sido", "sigungu") if conditions.get(key))
+        if region:
+            parts.append(region)
         if conditions.get("amenities"):
             parts.append("편의시설 " + "·".join(conditions["amenities"]))
         if conditions.get("open_weekdays"):
@@ -377,7 +378,10 @@ class SupervisorController:
                 "trace": self._trace(state, "finish")}
 
     def abstain(self, state: SupervisorState) -> dict:
-        message = "\ud655\uc778 \uac00\ub2a5\ud55c \uadfc\uac70\uac00 \ubd80\uc871\ud558\uc5ec \ub2f5\ubcc0\uc744 \ubcf4\ub958\ud588\uc74c."
+        message = "확인 가능한 근거가 부족하여 답변을 보류했습니다."
+        missing = [str(item).strip() for item in state.get("missing_aspects", []) if str(item).strip()]
+        if missing:
+            message += " 확인하지 못한 내용: " + ", ".join(missing[:3]) + "."
         if state.get("no_record_reason"):
             message = (state["no_record_reason"]
                        + " \ud3b8\uc758\uc2dc\uc124\u00b7\ud734\uad00 \uc815\ubcf4\ub294 \uc77c\ubd80 \uc2dc\uc124\uc5d0\ub9cc \uae30\ub85d\ub418\uc5b4 \uc788\uc5b4, \uae30\ub85d\uc774 \uc5c6\ub2e4\uace0 \uc2e4\uc81c\ub85c \uc5c6\ub2e4\ub294 \ub73b\uc740 \uc544\ub2d9\ub2c8\ub2e4."
