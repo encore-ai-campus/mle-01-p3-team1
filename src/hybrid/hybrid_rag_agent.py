@@ -184,6 +184,7 @@ class HybridRAGAgent:
         rerank: bool = True,
         include_fusion_candidates: bool = False,
         include_retrieval_candidates: bool = False,
+        restrict_to_museum_ids: list[str] | None = None,
     ) -> dict[str, Any]:
         """Run exactly one retrieval pipeline and return candidates, never an answer.
 
@@ -199,6 +200,7 @@ class HybridRAGAgent:
             rerank=rerank,
             include_fusion_candidates=include_fusion_candidates,
             include_retrieval_candidates=include_retrieval_candidates,
+            restrict_to_museum_ids=restrict_to_museum_ids,
         )
 
     def run(self, query: str, top_k: int = 10) -> dict[str, Any]:

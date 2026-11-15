@@ -95,7 +95,7 @@ def main() -> None:
         help="Print total request time and Hybrid retrieval stage timings",
     )
     parser.add_argument("--top-k", type=int, default=5)
-    parser.add_argument("--route", choices=["auto", "vector", "graph", "hybrid"], default="auto")
+    parser.add_argument("--route", choices=["auto", "vector", "graph", "hybrid", "combined"], default="auto")
     parser.add_argument("--empty-demo", action="store_true")
     parser.add_argument("--model", help="Team-selected structured-output model")
     parser.add_argument("--with-vector", action="store_true", help="Also connect documented VectorSearchRetriever")
@@ -112,8 +112,8 @@ def main() -> None:
         os.environ["HYBRID_ONTOLOGY_FILTER"] = "off"
     if args.demo and (args.with_vector or args.with_neo4j):
         parser.error("--with-vector and --with-neo4j require a connected, non-demo backend")
-    if args.route == "graph" and not args.with_neo4j:
-        parser.error("--route graph requires --with-neo4j")
+    if args.route in {"graph", "combined"} and not args.with_neo4j:
+        parser.error(f"--route {args.route} requires --with-neo4j")
     if not args.demo and args.route == "auto" and not args.with_neo4j:
         print("Warning: Neo4j is not connected; graph route requests will fall back to Hybrid.", flush=True)
 

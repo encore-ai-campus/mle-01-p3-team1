@@ -217,8 +217,12 @@ class HybridSearchService:
         include_fusion_candidates: bool = False,
         include_retrieval_candidates: bool = False,
         include_full_retrieval_candidates: bool = False,
+        restrict_to_museum_ids: Sequence[str] | None = None,
     ) -> dict[str, Any]:
         """Search once, returning final candidates and stage-level observations.
+
+        restrict_to_museum_ids limits Vector, BM25 and name matching to those museums
+        (the graph result of a combined search); it is intersected with the ontology filter.
 
         top_k overrides ONLY the final output limit, never BM25/Vector pools or
         fusion_top_k. This avoids rebuilding the BM25 index for graph tool calls.
@@ -249,6 +253,11 @@ class HybridSearchService:
                     f"구조 조건({decision.conditions.describe()})을 만족하는 기록이 있는 시설이 없습니다; "
                     "조건을 빼고 검색하지 않았습니다."
                 )
+
+        if restrict_to_museum_ids is not None:
+            restricted = {str(item) for item in restrict_to_museum_ids}
+            candidate_ids = sorted(restricted) if candidate_ids is None else sorted(set(candidate_ids) & restricted)
+            stages.append({"stage": "graph_restriction", "status": "applied", "candidate_count": len(candidate_ids)})
 
         # 1: Shared query plan + metadata filters. The original query goes to BM25.
         stage_start = perf_counter()

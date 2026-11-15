@@ -322,7 +322,7 @@ LangChain 구조화 출력 API: https://reference.langchain.com/python/langchain
 - 변경 효과는 평가셋과 실제 서비스 환경에서 따로 측정해야 합니다.
 
 
-## 현재 라우팅 우선순위 (2026-11-14 코드 대조)
+## 현재 라우팅 우선순위 (2026-11-15 코드 대조)
 
 기준은 src/agent/supervisor/nodes.py의 supervisor입니다.
 
@@ -330,11 +330,21 @@ LangChain 구조화 출력 API: https://reference.langchain.com/python/langchain
 2. 첫 시도에서 명시한 route_override가 있으면 그 경로를 사용합니다.
 3. 단순 지역+주제 질문은 Hybrid로 보냅니다.
 4. 인식 가능한 구조 조건은 온톨로지 후보 필터를 사용하는 Hybrid로 보냅니다.
-5. 연결된 Graph의 준비된 쿼리에 맞으면 Graph로 보냅니다.
-6. 나머지는 연결된 경로 목록을 전달해 LLM이 판단합니다.
+5. 연결된 Graph의 준비된 쿼리에 맞으면 Graph로 보냅니다. 같은 질문에 설명을 묻는 말(전시·유물·체험 등)이 함께 있으면 `combined`로 보냅니다.
+6. 나머지는 연결된 경로 목록(Graph가 연결되면 `combined` 포함)을 전달해 LLM이 판단합니다.
+
+### 이름 정리: 문서 검색과 하이브리드
+
+| 코드의 경로 이름 | 발표·문서에서 부르는 이름 | 내용 |
+|---|---|---|
+| `hybrid` | 문서 검색 (Vector + BM25) | 의미 검색과 키워드 검색을 RRF로 합치고 Cross-Encoder로 재정렬. Neo4j는 쓰지 않음 |
+| `graph` | 그래프 검색 | 준비된 쿼리 또는 Text-to-Cypher로 Neo4j 조회 |
+| `combined` | 하이브리드 (문서 검색 + 그래프) | 그래프가 후보 시설을 정하고, 문서 검색이 그 안에서 설명 근거를 찾음. 두 근거를 점수 없이 이어 붙임 |
+
+`combined`의 순서와 이유는 [합친 경로 설계](../decisions/combined-route.md)에 있고, 그림은 [합친 경로 설계도](images/combined-route-design.png)입니다.
 
 연결되지 않은 검색 경로는 Hybrid로 대체될 수 있습니다. Graph 재시도는 항상 Graph로 고정되지 않습니다. 자동 경로에서 이전 Graph 근거가 없거나 부족한 부분이 구조 조건이 아니면 Hybrid로 전환합니다.
 
-온톨로지 후보 필터의 기본 백엔드는 738 CSV와 공용 규칙으로 만든 로컬 조회표입니다. 매 질문마다 Neo4j에 접속하는 의미가 아닙니다. Streamlit은 별도 검색·응답 경로이며 이 Supervisor 흐름을 자동으로 공유하지 않습니다.
+온톨로지 후보 필터의 백엔드는 `HYBRID_ONTOLOGY_BACKEND`로 고릅니다. 기본값 `auto`는 Neo4j가 설정되어 있고 v2가 적재되어 있으면 그래프에서 조건을 확인하고, 연결이 안 되면 738 CSV와 공용 규칙으로 만든 로컬 조회표로 자동 전환합니다. `local`은 Neo4j를 쓰지 않습니다. 결과 요약의 `backend`에 실제로 쓴 쪽이 기록됩니다. Streamlit은 별도 검색·응답 경로이며 이 Supervisor 흐름을 자동으로 공유하지 않습니다.
 
 평가에서 supervisor_full은 연결형 Supervisor 전체 경로를, supervisor는 Hybrid 고정 비교를, langgraph.ragas_eval은 기존 GraphRAG 경로를 평가합니다. 세 결과를 동일한 시스템의 점수로 취급하지 않습니다.

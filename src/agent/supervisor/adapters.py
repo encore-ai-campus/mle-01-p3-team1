@@ -192,7 +192,12 @@ def adapt_hybrid_retriever(retriever: Any, *, provenance_index: Any = None) -> S
         raise TypeError("Hybrid retriever must expose retrieve(query, top_k)")
 
     def call(state: SupervisorState, config: Config = None) -> Mapping[str, Any]:
-        result = retriever.retrieve(query=state["question"], top_k=state["top_k"])
+        extra: dict[str, Any] = {}
+        # A combined search hands over the museums the graph found; retrievers that cannot
+        # restrict their search (for example the cached evaluation retriever) ignore it.
+        if state.get("candidate_museum_ids") and "restrict_to_museum_ids" in inspect.signature(retriever.retrieve).parameters:
+            extra["restrict_to_museum_ids"] = list(state["candidate_museum_ids"])
+        result = retriever.retrieve(query=state["question"], top_k=state["top_k"], **extra)
         if not isinstance(result, Mapping):
             raise ContractError("Hybrid retrieve() must return a mapping")
         required = {"results", "source_ids", "status", "warnings", "unsupported_constraints", "search_summary"}

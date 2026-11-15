@@ -204,6 +204,33 @@ class HybridIntegrationTests(unittest.TestCase):
         self.assertIsNone(vector.received)
         self.assertNotIn("structured_match", result["results"][0]["metadata"])
 
+    def test_graph_museums_limit_the_search_without_a_filter(self) -> None:
+        vector = RecordingVector([hit("A", "가"), hit("B", "나"), hit("C", "다")])
+        decision = FilterDecision("not_applicable", StructuredConditions())
+        service = HybridSearchService(bm25_retriever=bm25(), vector_retriever=vector, reranker=FixedReranker(),
+                                      config=self.config(), candidate_filter=FixedFilter(decision))
+        result = service.search("미술관", restrict_to_museum_ids=["B", "C"])
+        self.assertEqual(vector.received, ["B", "C"])
+        self.assertEqual(set(result["source_ids"]), {"B", "C"})
+        self.assertTrue(any(s.get("stage") == "graph_restriction" and s["candidate_count"] == 2
+                            for s in result["search_summary"]["stages"]))
+
+    def test_graph_museums_are_intersected_with_filter_candidates(self) -> None:
+        vector = RecordingVector([hit("A", "가"), hit("B", "나"), hit("C", "다")])
+        service = HybridSearchService(bm25_retriever=bm25(), vector_retriever=vector, reranker=FixedReranker(),
+                                      config=self.config(), candidate_filter=FixedFilter(self.applied(["A", "B"])))
+        result = service.search("수유실 미술관", restrict_to_museum_ids=["B", "C"])
+        self.assertEqual(vector.received, ["B"])
+        self.assertEqual(result["source_ids"], ["B"])
+
+    def test_no_restriction_keeps_previous_behavior(self) -> None:
+        vector = RecordingVector([hit("A", "가"), hit("B", "나")])
+        decision = FilterDecision("not_applicable", StructuredConditions())
+        service = HybridSearchService(bm25_retriever=bm25(), vector_retriever=vector, reranker=FixedReranker(),
+                                      config=self.config(), candidate_filter=FixedFilter(decision))
+        service.search("미술관")
+        self.assertIsNone(vector.received)
+
     def test_bm25_candidate_ids(self) -> None:
         retriever = bm25()
         self.assertEqual([r["museum_id"] for r in retriever.search("가 나", top_k=5)], ["A", "B"])

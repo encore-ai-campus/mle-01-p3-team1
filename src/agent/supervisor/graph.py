@@ -83,6 +83,7 @@ def build_supervisor(*, hybrid_search, route_question, answer_question, verify_a
     workflow.add_node("vector_search", timed(search_node))
     workflow.add_node("graph_search", timed(search_node))
     workflow.add_node("hybrid_search", timed(search_node))
+    workflow.add_node("combined_search", timed(search_node))
     workflow.add_node("answer_agent", timed(answer_node))
     workflow.add_node("verify", timed(verify_node))
     workflow.add_node("supervisor_review", ctl.review)
@@ -103,9 +104,9 @@ def build_supervisor(*, hybrid_search, route_question, answer_question, verify_a
         workflow.add_edge("initialize", "supervisor")
     workflow.add_conditional_edges("supervisor", lambda state: state["route"], {
         "vector": "vector_search", "graph": "graph_search",
-        "hybrid": "hybrid_search", "abstain": "abstain",
+        "hybrid": "hybrid_search", "combined": "combined_search", "abstain": "abstain",
     })
-    for node in ("vector_search", "graph_search", "hybrid_search"):
+    for node in ("vector_search", "graph_search", "hybrid_search", "combined_search"):
         workflow.add_edge(node, "answer_agent")
     workflow.add_edge("answer_agent", "verify")
     workflow.add_edge("verify", "supervisor_review")

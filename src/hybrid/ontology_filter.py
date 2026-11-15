@@ -26,7 +26,7 @@ import re
 from collections.abc import Iterable, Mapping
 from dataclasses import asdict, dataclass, field
 from pathlib import Path
-from threading import Lock
+from threading import Lock, local
 from typing import Any, Protocol
 
 from src.data_pipeline.neo4j.ontology_v2.rules import (
@@ -338,18 +338,88 @@ class OntologyCandidateFilter:
         return FilterDecision("applied" if ids else "empty", conditions, self.index.backend, ids, evidence)
 
 
+class FallbackIndex:
+    """Ask the primary backend first; use the fallback when the primary raises.
+
+    The CSV-backed table and the ontology v2 graph answer the same conditions the
+    same way (compare_backends), so a Neo4j outage only changes the backend label
+    in the decision summary. The label is kept per thread because the filter is
+    called from several search workers at once.
+    """
+
+    def __init__(self, primary: CandidateIndex, fallback: CandidateIndex):
+        self.primary = primary
+        self.fallback = fallback
+        self._state = local()
+
+    @property
+    def backend(self) -> str:
+        return getattr(self._state, "backend", self.primary.backend)
+
+    def candidates(self, conditions: StructuredConditions) -> dict[str, dict[str, Any]]:
+        try:
+            found = self.primary.candidates(conditions)
+        except Exception:
+            self._state.backend = f"{self.fallback.backend} (neo4j unavailable)"
+            return self.fallback.candidates(conditions)
+        self._state.backend = self.primary.backend
+        return found
+
+
+def _neo4j_index() -> CandidateIndex | None:
+    """The ontology v2 graph as a backend, or None when it is not configured or loaded."""
+    uri, password = os.getenv("NEO4J_URI"), os.getenv("NEO4J_PASSWORD")
+    if not uri or not password:
+        return None
+    driver = None
+    try:
+        from src.agent.neo4j_tls import load_graph_database
+
+        driver = load_graph_database().driver(
+            uri,
+            auth=(os.getenv("NEO4J_USER") or os.getenv("NEO4J_USERNAME") or "neo4j", password),
+            notifications_min_severity="OFF",
+            connection_timeout=5,
+            connection_acquisition_timeout=5,
+        )
+        index = Neo4jOntologyIndex(driver, os.getenv("NEO4J_DATABASE") or "neo4j")
+        if index.is_loaded():
+            return index
+    except Exception:
+        pass
+    if driver is not None:
+        driver.close()
+    return None
+
+
+def build_candidate_filter(
+    backend: str = "auto", *, local_index: CandidateIndex | None = None, graph_index: CandidateIndex | None = None
+) -> OntologyCandidateFilter:
+    """auto: ontology v2 graph first, local CSV table as the fallback. local: CSV table only."""
+    local_index = local_index or LocalOntologyIndex.from_csv()
+    if backend == "local":
+        return OntologyCandidateFilter(local_index)
+    graph_index = graph_index if graph_index is not None else _neo4j_index()
+    if graph_index is None:
+        return OntologyCandidateFilter(local_index)
+    return OntologyCandidateFilter(FallbackIndex(graph_index, local_index))
+
+
 _DEFAULT_FILTER: OntologyCandidateFilter | None = None
 _DEFAULT_LOCK = Lock()
 
 
 def default_candidate_filter() -> OntologyCandidateFilter | None:
-    """Local CSV-backed filter unless HYBRID_ONTOLOGY_FILTER=off."""
+    """Ontology filter, or None when HYBRID_ONTOLOGY_FILTER=off.
+
+    HYBRID_ONTOLOGY_BACKEND=auto (default) reads the ontology v2 graph when Neo4j is
+    configured and loaded and falls back to the local CSV table; local skips Neo4j."""
     if os.getenv("HYBRID_ONTOLOGY_FILTER", "on").strip().lower() in {"0", "off", "false", "no"}:
         return None
     global _DEFAULT_FILTER
     with _DEFAULT_LOCK:
         if _DEFAULT_FILTER is None:
-            _DEFAULT_FILTER = OntologyCandidateFilter(LocalOntologyIndex.from_csv())
+            _DEFAULT_FILTER = build_candidate_filter(os.getenv("HYBRID_ONTOLOGY_BACKEND", "auto").strip().lower())
     return _DEFAULT_FILTER
 
 

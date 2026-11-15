@@ -26,7 +26,7 @@ def test_router_receives_actual_available_backends():
     ctl, observed = make_controller()
     state = ctl.initialize({"question": "전시 추천"})
     ctl.supervisor(state)
-    assert set(observed[0]["available_routes"]) == {"hybrid", "graph"}
+    assert set(observed[0]["available_routes"]) == {"hybrid", "graph", "combined"}
 
 
 def test_retry_uses_graph_for_missing_structured_fact():
