@@ -13,7 +13,7 @@ from .state import AnswerDraft, Config, RouteDecision, SupervisorState, Verifica
 
 
 class RoutingSchema(BaseModel):
-    route: Literal["vector", "graph", "hybrid", "abstain"]
+    route: Literal["vector", "graph", "hybrid", "combined", "abstain"]
     reason: str
 
 
@@ -42,6 +42,12 @@ facilities, region-wide fee lists, or the source documents/spans behind a
 quoted passage. A region alone is not a reason to choose graph.
 Hybrid means BM25 plus Vector retrieval only: it does NOT query Neo4j. Use it
 for semantic or keyword retrieval, not as a promise to combine graph evidence.
+Return combined only when the answer needs BOTH graph structure (facilities
+sharing an organization or region, relations between named museums) AND a
+description found in museum text (exhibits, artifacts, history, experiences),
+for example "same operator as X that also shows Silla artifacts". It runs the
+document search and the graph query together and keeps both kinds of evidence.
+It is listed in available_routes only when graph is connected.
 Graph may return properties and TextSpan evidence, but its results must still be
 checked. If graph is not connected, use an available route without claiming that
 it supplies graph facts. Return abstain for out-of-domain or unsafe requests.

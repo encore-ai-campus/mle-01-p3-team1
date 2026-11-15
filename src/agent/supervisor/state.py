@@ -4,14 +4,14 @@ from __future__ import annotations
 from dataclasses import dataclass, field
 from typing import Any, Callable, Literal, Mapping, TypedDict
 
-Route = Literal["vector", "graph", "hybrid", "abstain"]
+Route = Literal["vector", "graph", "hybrid", "combined", "abstain"]
 Config = Mapping[str, Any] | None
 
 
 class RequestState(TypedDict, total=False):
     question: str
     top_k: int
-    route_override: Literal["auto", "vector", "graph", "hybrid"]
+    route_override: Literal["auto", "vector", "graph", "hybrid", "combined"]
 
 
 class SupervisorState(RequestState, total=False):
@@ -51,7 +51,7 @@ class RouteDecision:
     reason: str
 
     def __post_init__(self):
-        if self.route not in {"vector", "graph", "hybrid", "abstain"}:
+        if self.route not in {"vector", "graph", "hybrid", "combined", "abstain"}:
             raise ValueError("Unknown route")
         if not isinstance(self.reason, str):
             raise TypeError("Route reason must be a string")

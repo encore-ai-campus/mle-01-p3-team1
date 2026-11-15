@@ -15,6 +15,11 @@ STRUCTURED_FACT_PATTERN = re.compile(
     r"\b(?:location|address|region|fees?|price|hours|opening|closure|operator|ownership|relationship|count)\b",
     re.IGNORECASE,
 )
+# Wording that asks for something found in a museum description (exhibits, history,
+# experiences). A relation question that also contains it needs both searches.
+DESCRIPTIVE_CUE = re.compile(
+    r"전시|유물|소장|체험|프로그램|역사|문화재|시대|특별전|상설전|볼 수|관람할 수|구경할 수|배울 수"
+)
 
 
 class SupervisorController:
@@ -61,7 +66,7 @@ class SupervisorController:
             raise ValueError("question must be a nonempty string")
         if type(top_k) is not int or not 1 <= top_k <= 50:
             raise ValueError("top_k must be an integer from 1 to 50")
-        if override not in {"auto", "vector", "graph", "hybrid"}:
+        if override not in {"auto", "vector", "graph", "hybrid", "combined"}:
             raise ValueError("Unknown route_override")
         # A new request never inherits evidence or approval from a previous run.
         return {**empty_result(), "question": question, "top_k": top_k,
@@ -79,8 +84,11 @@ class SupervisorController:
                 missing += " " + str(state.get("feedback", ""))
                 graph_needed = bool(STRUCTURED_FACT_PATTERN.search(missing))
                 current_route = state.get("route")
-                if state.get("route_override") != "auto" and self.searchers.get(current_route):
+                if state.get("route_override") != "auto" and (self.searchers.get(current_route) or current_route == "combined"):
                     retry_route = current_route
+                elif current_route == "combined":
+                    # The combined attempt already used both searches; ask the document search again.
+                    retry_route = "hybrid"
                 elif current_route == "graph":
                     # Repeating a graph attempt that found nothing rarely helps (2026-11-14
                     # eval: 17 of 27 graph-routed v1 questions abstained). Retry graph only
@@ -101,15 +109,24 @@ class SupervisorController:
                     "hybrid", "구조 조건은 온톨로지 후보 필터로 거르고 Hybrid가 그 안에서 순위를 정함"
                 )
             elif self.searchers["graph"] is not None and (template := self._graph_template(state["question"])):
-                decision = RouteDecision("graph", f"준비된 그래프 쿼리({template})로 관계를 조회")
+                if DESCRIPTIVE_CUE.search(state["question"]):
+                    decision = RouteDecision(
+                        "combined", f"준비된 그래프 쿼리({template})로 관계를 조회하고 문서 검색으로 설명 근거를 함께 모음")
+                else:
+                    decision = RouteDecision("graph", f"준비된 그래프 쿼리({template})로 관계를 조회")
             else:
                 route_state = deepcopy(state)
                 route_state["available_routes"] = [name for name, searcher in self.searchers.items() if searcher is not None]
+                if self.searchers["graph"] is not None:
+                    route_state["available_routes"].append("combined")
                 decision = self.route_question(route_state, config)
             if not isinstance(decision, RouteDecision):
                 raise TypeError("Router must return RouteDecision")
             route, reason = decision.route, decision.reason
-            if route != "abstain" and self.searchers[route] is None:
+            if route == "combined" and self.searchers["graph"] is None:
+                reason = f"graph unavailable; use document search only. {reason}"
+                route = "hybrid"
+            if route not in ("abstain", "combined") and self.searchers[route] is None:
                 reason = f"{route} unavailable; delegate to connected hybrid backend. {reason}"
                 route = "hybrid"
             update = {"route": route, "route_reason": reason,
@@ -153,8 +170,9 @@ class SupervisorController:
             return ""
         conditions = decision.get("conditions") or {}
         parts = []
-        if conditions.get("sido"):
-            parts.append(str(conditions["sido"]))
+        region = " ".join(str(conditions[key]) for key in ("sido", "sigungu") if conditions.get(key))
+        if region:
+            parts.append(region)
         if conditions.get("amenities"):
             parts.append("편의시설 " + "·".join(conditions["amenities"]))
         if conditions.get("open_weekdays"):
@@ -166,6 +184,8 @@ class SupervisorController:
         reset = {**empty_result(), "candidate_answer": "", "cited_evidence_ids": [],
                  "verified": False, "verification_reason": "", "missing_aspects": [],
                  "answer": "", "sources": [], "failure_reason": "", "no_record_reason": ""}
+        if route == "combined":
+            return self._search_combined(state, reset, config)
         try:
             fn = self.searchers.get(route)
             if fn is None:
@@ -174,17 +194,7 @@ class SupervisorController:
             request = {**deepcopy(state), **reset}
             result = fn(request, config)
             normalized = normalize_result(route, result, state["top_k"])
-            evidence = []
-            for item in normalized["evidence"]:
-                cleaned = dict(item)
-                cleaned.pop("metadata_provenance", None)
-                if isinstance(cleaned.get("metadata"), Mapping):
-                    cleaned["metadata"] = dict(cleaned["metadata"])
-                    cleaned["metadata"].pop("metadata_provenance", None)
-                if self.metadata_provenance is not None and route != "graph":
-                    cleaned = dict(self.metadata_provenance(cleaned))
-                evidence.append(cleaned)
-            normalized["evidence"] = evidence
+            normalized["evidence"] = self._prepare_evidence(route, normalized["evidence"])
             diagnostics = (normalized["graph_search_diagnostics"] if route == "graph" else
                            normalized["hybrid_search_diagnostics"].get("search_summary", {}) if route == "hybrid" else {})
             no_record = self._no_record_reason(diagnostics) if route == "hybrid" else ""
@@ -198,6 +208,87 @@ class SupervisorController:
             return {**reset, "failure_reason": f"Search failed ({type(exc).__name__})",
                     "errors": self._error(state, f"{route}_search", exc),
                     "trace": self._trace(state, f"{route}_search", route=route, evidence_count=0)}
+
+    def _prepare_evidence(self, route: str, items: list[dict]) -> list[dict]:
+        """Drop backend-supplied provenance and attach the CSV provenance (not for graph rows)."""
+        prepared = []
+        for item in items:
+            cleaned = dict(item)
+            cleaned.pop("metadata_provenance", None)
+            if isinstance(cleaned.get("metadata"), Mapping):
+                cleaned["metadata"] = dict(cleaned["metadata"])
+                cleaned["metadata"].pop("metadata_provenance", None)
+            if self.metadata_provenance is not None and route != "graph":
+                cleaned = dict(self.metadata_provenance(cleaned))
+            prepared.append(cleaned)
+        return prepared
+
+    def _search_combined(self, state: SupervisorState, reset: dict, config: Config = None) -> dict:
+        """Graph first, then the document search inside the facilities the graph found.
+
+        The graph result decides which facilities qualify (same operator, same region ...);
+        the document search ranks their descriptions. Without graph facilities the document
+        search runs unrestricted. Scores are never mixed: document evidence keeps its
+        ranking, graph rows carry no relevance score, so the lists are appended (document
+        first) and renumbered. One branch failing leaves the other branch's evidence in place.
+        """
+        top_k = state["top_k"]
+        request = {**deepcopy(state), **reset}
+
+        def run(name: str, extra: Mapping[str, Any] | None = None):
+            try:
+                result = self.searchers[name](deepcopy({**request, **(extra or {})}), config)
+                return normalize_result(name, result, top_k), None
+            except Exception as exc:
+                return None, exc
+
+        graph, graph_error = run("graph")
+        graph_ids = list(dict.fromkeys(
+            str(row["museum_id"]) for row in (graph["evidence"] if graph else [])
+            if row.get("museum_id") and row.get("evidence_role") != "anchor"))
+        document, document_error = run("hybrid", {"candidate_museum_ids": graph_ids} if graph_ids else None)
+        document_rows = self._prepare_evidence("hybrid", document["evidence"]) if document else []
+        graph_rows = self._prepare_evidence("graph", graph["evidence"]) if graph else []
+        for row in document_rows:
+            row["retrieval_branch"] = "document"
+        seen = {(row.get("museum_id"), " ".join(str(row.get("text", "")).split()).casefold()) for row in document_rows}
+        graph_kept = []
+        for row in graph_rows:
+            key = (row.get("museum_id"), " ".join(str(row.get("text", "")).split()).casefold())
+            if key in seen:
+                continue
+            seen.add(key)
+            row["retrieval_branch"] = "graph"
+            graph_kept.append(row)
+        evidence = document_rows + graph_kept
+        for index, row in enumerate(evidence, 1):
+            row["evidence_id"] = f"E{index}"
+
+        errors = list(state.get("errors", []))
+        for name, exc in (("hybrid_search", document_error), ("graph_search", graph_error)):
+            if exc is not None:
+                errors.append({"step": name, "type": type(exc).__name__})
+        merged = dict(document) if document else empty_result()
+        merged["graph_evidence"] = graph_kept
+        merged["graph_search_diagnostics"] = graph["graph_search_diagnostics"] if graph else {}
+        merged["evidence"] = evidence
+        document_diagnostics = (document["hybrid_search_diagnostics"].get("search_summary", {})
+                                if document else {})
+        no_record = ""
+        failure = ""
+        if not evidence:
+            no_record = self._no_record_reason(document_diagnostics) if document else ""
+            if no_record:
+                failure = no_record
+            elif document_error is not None and graph_error is not None:
+                failure = f"Search failed ({type(document_error).__name__}, {type(graph_error).__name__})"
+        failed = [name for name, exc in (("document", document_error), ("graph", graph_error)) if exc is not None]
+        return {**reset, **merged, "failure_reason": failure, "no_record_reason": no_record, "errors": errors,
+                "trace": self._trace(state, "combined_search", route="combined",
+                                     evidence_count=len(evidence), document_evidence=len(document_rows),
+                                     graph_evidence=len(graph_kept), branch_errors=failed,
+                                     restricted_to=len(graph_ids),
+                                     search_timings=deepcopy(document_diagnostics))}
 
     def answer(self, state: SupervisorState, config: Config = None) -> dict:
         if not state["evidence"]:
@@ -266,6 +357,11 @@ class SupervisorController:
             # Same filter, same data: a retry would return the same empty set.
             return {"next_action": "abstain",
                     "trace": self._trace(state, "supervisor_review", action="abstain", no_record=True)}
+        if state.get("route") == "combined" and not state["verified"]:
+            # Both searches already ran on the same question: a document-only retry would
+            # replace the graph relation with unrelated passages (2026-11-15 run).
+            return {"next_action": "abstain",
+                    "trace": self._trace(state, "supervisor_review", action="abstain", combined=True)}
         action = "finish" if state["verified"] else (
             "retry" if state["retry_count"] < self.max_retries else "abstain")
         return {"next_action": action, "trace": self._trace(state, "supervisor_review", action=action)}
@@ -282,7 +378,10 @@ class SupervisorController:
                 "trace": self._trace(state, "finish")}
 
     def abstain(self, state: SupervisorState) -> dict:
-        message = "\ud655\uc778 \uac00\ub2a5\ud55c \uadfc\uac70\uac00 \ubd80\uc871\ud558\uc5ec \ub2f5\ubcc0\uc744 \ubcf4\ub958\ud588\uc74c."
+        message = "확인 가능한 근거가 부족하여 답변을 보류했습니다."
+        missing = [str(item).strip() for item in state.get("missing_aspects", []) if str(item).strip()]
+        if missing:
+            message += " 확인하지 못한 내용: " + ", ".join(missing[:3]) + "."
         if state.get("no_record_reason"):
             message = (state["no_record_reason"]
                        + " \ud3b8\uc758\uc2dc\uc124\u00b7\ud734\uad00 \uc815\ubcf4\ub294 \uc77c\ubd80 \uc2dc\uc124\uc5d0\ub9cc \uae30\ub85d\ub418\uc5b4 \uc788\uc5b4, \uae30\ub85d\uc774 \uc5c6\ub2e4\uace0 \uc2e4\uc81c\ub85c \uc5c6\ub2e4\ub294 \ub73b\uc740 \uc544\ub2d9\ub2c8\ub2e4."

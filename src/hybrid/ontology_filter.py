@@ -26,7 +26,7 @@ import re
 from collections.abc import Iterable, Mapping
 from dataclasses import asdict, dataclass, field
 from pathlib import Path
-from threading import Lock
+from threading import Lock, local
 from typing import Any, Protocol
 
 from src.data_pipeline.neo4j.ontology_v2.rules import (
@@ -62,7 +62,7 @@ AMENITY_QUERY_TERMS: tuple[tuple[str, tuple[str, ...]], ...] = (
     (r"전기차\s*충전", ("전기차 충전",)),
 )
 # An amenity word only counts as a condition when the question asks for it.
-_AMENITY_ASK = r"(?:이|가|도)?\s*(?:있|되|가능|갖춘|딸린|포함|제공|이용)"
+_AMENITY_ASK = r"(?:이|가|도|로|으로)?\s*(?:관람|입장|방문|사용)?\s*(?:있|되|가능|갖춘|딸린|포함|제공|이용|할\s*수\s*있)"
 
 _WEEKDAY_OPEN_RE = re.compile(
     r"(?P<day>[월화수목금토일])요일(?:에도|에|날에도|날)?\s*"
@@ -102,6 +102,7 @@ class StructuredConditions:
     amenities: tuple[str, ...] = ()
     open_weekdays: tuple[str, ...] = ()
     sido: str | None = None
+    sigungu: str | None = None
     matched_terms: tuple[str, ...] = field(default=(), compare=False)
 
     @property
@@ -110,8 +111,9 @@ class StructuredConditions:
 
     def describe(self) -> str:
         parts = []
-        if self.sido:
-            parts.append(f"지역 {self.sido}")
+        region = " ".join(part for part in (self.sido, self.sigungu) if part)
+        if region:
+            parts.append(f"지역 {region}")
         if self.amenities:
             parts.append("편의시설 " + "·".join(self.amenities))
         if self.open_weekdays:
@@ -143,10 +145,16 @@ def extract_conditions(question: str) -> StructuredConditions:
     if not amenities and not weekdays:
         return StructuredConditions()
     region = _SIDO_RE.search(text)
+    sido = _SIDO_TERMS[region.group(0)] if region else None
+    sigungu = None
+    place = _find_sigungu(text)
+    if place is not None and (sido is None or sido == place[0]):
+        sido, sigungu = place[0], place[1]
     return StructuredConditions(
         amenities=tuple(amenities),
         open_weekdays=tuple(weekdays),
-        sido=_SIDO_TERMS[region.group(0)] if region else None,
+        sido=sido,
+        sigungu=sigungu,
         matched_terms=tuple(terms),
     )
 
@@ -156,12 +164,59 @@ def extract_conditions(question: str) -> StructuredConditions:
 # ---------------------------------------------------------------------------
 
 
+# ---------------------------------------------------------------------------
+# City / county / district names (from the CSV), so "경주" scopes a condition to 경주시
+# ---------------------------------------------------------------------------
+
+_SIGUNGU_TABLE: dict[str, tuple[str, str]] | None = None
+_SIGUNGU_LOCK = Lock()
+
+
+def _sigungu_table() -> dict[str, tuple[str, str]]:
+    """Question wording -> (sido, sigungu) for names that point to exactly one place.
+
+    Both the full name (경주시) and the short name (경주) count. Names shared by several
+    regions (중구, 고성) and short names that start a region name (광주, 제주) are left
+    out, because guessing wrong would silently drop the right facilities.
+    """
+    global _SIGUNGU_TABLE
+    with _SIGUNGU_LOCK:
+        if _SIGUNGU_TABLE is None:
+            pairs: set[tuple[str, str]] = set()
+            with DEFAULT_CSV.open(encoding="utf-8-sig", newline="") as file:
+                for row in csv.DictReader(file):
+                    if row.get("sido") and row.get("sigungu"):
+                        pairs.add((canonicalize_sido(row["sido"]), row["sigungu"].strip()))
+            by_term: dict[str, set[tuple[str, str]]] = {}
+            for sido, sigungu in pairs:
+                terms = {sigungu}
+                base = re.sub(r"[시군구]$", "", sigungu)
+                if len(base) >= 2:
+                    terms.add(base)
+                for term in terms:
+                    if any(key.startswith(term) for key in _SIDO_TERMS):
+                        continue
+                    by_term.setdefault(term, set()).add((sido, sigungu))
+            _SIGUNGU_TABLE = {term: next(iter(found)) for term, found in by_term.items() if len(found) == 1}
+    return _SIGUNGU_TABLE
+
+
+def _find_sigungu(text: str) -> tuple[str, str] | None:
+    table = _sigungu_table()
+    if not table:
+        return None
+    pattern = "(?<![가-힣])(?:" + "|".join(map(re.escape, sorted(table, key=len, reverse=True))) + ")"
+    match = re.search(pattern, text)
+    return table[match.group(0)] if match else None
+
+
 @dataclass(frozen=True)
 class MuseumFacts:
     museum_id: str
     sido: str
     amenities: dict[str, tuple[str, ...]]  # amenity -> raw tokens it came from
     closure: dict[str, Any]
+    sigungu: str = ""
 
     def is_open_on(self, day: str) -> bool:
         if self.closure.get("open_all_year"):
@@ -216,6 +271,7 @@ class LocalOntologyIndex:
                 sido=row.get("sido") or "",
                 amenities={name: tuple(tokens) for name, tokens in amenities.items()},
                 closure=parse_closure(row.get("closure_rule_raw")),
+                sigungu=(row.get("sigungu") or "").strip(),
             ))
         return cls(facts)
 
@@ -223,6 +279,8 @@ class LocalOntologyIndex:
         found: dict[str, dict[str, Any]] = {}
         for fact in self._facts.values():
             if conditions.sido and not _sido_matches(fact.sido, conditions.sido):
+                continue
+            if conditions.sigungu and fact.sigungu != conditions.sigungu:
                 continue
             if any(name not in fact.amenities for name in conditions.amenities):
                 continue
@@ -235,6 +293,7 @@ class LocalOntologyIndex:
 NEO4J_CANDIDATE_QUERY = """
 MATCH (m:Museum)
 WHERE ($sidos IS NULL OR m.sido IN $sidos)
+  AND ($sigungu IS NULL OR EXISTS { (m)-[:LOCATED_IN]->(:Sigungu {name: $sigungu}) })
   AND all(name IN $amenities WHERE EXISTS { (m)-[:HAS_AMENITY]->(:Amenity {name: name}) })
   AND (size($open_days) = 0 OR m.open_all_year = true
        OR (m.closure_parse_status = 'parsed'
@@ -267,6 +326,7 @@ class Neo4jOntologyIndex:
         records, _, _ = self._driver.execute_query(
             NEO4J_CANDIDATE_QUERY,
             sidos=sidos,
+            sigungu=conditions.sigungu,
             amenities=list(conditions.amenities),
             open_days=list(conditions.open_weekdays),
             database_=self._database,
@@ -338,18 +398,88 @@ class OntologyCandidateFilter:
         return FilterDecision("applied" if ids else "empty", conditions, self.index.backend, ids, evidence)
 
 
+class FallbackIndex:
+    """Ask the primary backend first; use the fallback when the primary raises.
+
+    The CSV-backed table and the ontology v2 graph answer the same conditions the
+    same way (compare_backends), so a Neo4j outage only changes the backend label
+    in the decision summary. The label is kept per thread because the filter is
+    called from several search workers at once.
+    """
+
+    def __init__(self, primary: CandidateIndex, fallback: CandidateIndex):
+        self.primary = primary
+        self.fallback = fallback
+        self._state = local()
+
+    @property
+    def backend(self) -> str:
+        return getattr(self._state, "backend", self.primary.backend)
+
+    def candidates(self, conditions: StructuredConditions) -> dict[str, dict[str, Any]]:
+        try:
+            found = self.primary.candidates(conditions)
+        except Exception:
+            self._state.backend = f"{self.fallback.backend} (neo4j unavailable)"
+            return self.fallback.candidates(conditions)
+        self._state.backend = self.primary.backend
+        return found
+
+
+def _neo4j_index() -> CandidateIndex | None:
+    """The ontology v2 graph as a backend, or None when it is not configured or loaded."""
+    uri, password = os.getenv("NEO4J_URI"), os.getenv("NEO4J_PASSWORD")
+    if not uri or not password:
+        return None
+    driver = None
+    try:
+        from src.agent.neo4j_tls import load_graph_database
+
+        driver = load_graph_database().driver(
+            uri,
+            auth=(os.getenv("NEO4J_USER") or os.getenv("NEO4J_USERNAME") or "neo4j", password),
+            notifications_min_severity="OFF",
+            connection_timeout=5,
+            connection_acquisition_timeout=5,
+        )
+        index = Neo4jOntologyIndex(driver, os.getenv("NEO4J_DATABASE") or "neo4j")
+        if index.is_loaded():
+            return index
+    except Exception:
+        pass
+    if driver is not None:
+        driver.close()
+    return None
+
+
+def build_candidate_filter(
+    backend: str = "auto", *, local_index: CandidateIndex | None = None, graph_index: CandidateIndex | None = None
+) -> OntologyCandidateFilter:
+    """auto: ontology v2 graph first, local CSV table as the fallback. local: CSV table only."""
+    local_index = local_index or LocalOntologyIndex.from_csv()
+    if backend == "local":
+        return OntologyCandidateFilter(local_index)
+    graph_index = graph_index if graph_index is not None else _neo4j_index()
+    if graph_index is None:
+        return OntologyCandidateFilter(local_index)
+    return OntologyCandidateFilter(FallbackIndex(graph_index, local_index))
+
+
 _DEFAULT_FILTER: OntologyCandidateFilter | None = None
 _DEFAULT_LOCK = Lock()
 
 
 def default_candidate_filter() -> OntologyCandidateFilter | None:
-    """Local CSV-backed filter unless HYBRID_ONTOLOGY_FILTER=off."""
+    """Ontology filter, or None when HYBRID_ONTOLOGY_FILTER=off.
+
+    HYBRID_ONTOLOGY_BACKEND=auto (default) reads the ontology v2 graph when Neo4j is
+    configured and loaded and falls back to the local CSV table; local skips Neo4j."""
     if os.getenv("HYBRID_ONTOLOGY_FILTER", "on").strip().lower() in {"0", "off", "false", "no"}:
         return None
     global _DEFAULT_FILTER
     with _DEFAULT_LOCK:
         if _DEFAULT_FILTER is None:
-            _DEFAULT_FILTER = OntologyCandidateFilter(LocalOntologyIndex.from_csv())
+            _DEFAULT_FILTER = build_candidate_filter(os.getenv("HYBRID_ONTOLOGY_BACKEND", "auto").strip().lower())
     return _DEFAULT_FILTER
 
 
@@ -369,6 +499,9 @@ def parity_conditions() -> list[StructuredConditions]:
         cases.append(StructuredConditions(amenities=("주차장", "카페"), sido=sido))
         cases.append(StructuredConditions(amenities=("수유실",), open_weekdays=("월",), sido=sido))
         cases.append(StructuredConditions(open_weekdays=("토", "일"), sido=sido))
+    for sido, sigungu in (("경상북도", "경주시"), ("서울특별시", "종로구"), ("경기도", "수원시"), ("강원특별자치도", "영월군")):
+        cases.append(StructuredConditions(amenities=("주차장",), sido=sido, sigungu=sigungu))
+        cases.append(StructuredConditions(open_weekdays=("월",), sido=sido, sigungu=sigungu))
     return cases
 
 
