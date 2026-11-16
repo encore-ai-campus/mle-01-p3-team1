@@ -8,6 +8,8 @@ import json
 from collections.abc import Mapping
 from typing import Any
 
+from .state import SupervisorState
+
 EVIDENCE_CONTEXT_VERSION = "grounded-evidence-v2"
 
 
@@ -47,3 +49,19 @@ def evidence_context(item: Mapping[str, Any]) -> str:
         if metadata.get("structured_match"):
             payload["structured_match"] = metadata["structured_match"]
     return json.dumps(payload, ensure_ascii=False, sort_keys=True, default=str)
+
+
+def to_json(value: Any) -> str:
+    return json.dumps(value, ensure_ascii=False, default=str)
+
+
+def prompt_context(state: SupervisorState) -> dict[str, Any]:
+    # Do not leak raw candidate documents through diagnostics into the answer prompt.
+    def diagnostics(key):
+        source = state.get(key, {})
+        return {name: source[name] for name in ("warnings", "unsupported_constraints", "status") if name in source}
+    return {"question": state["question"], "evidence": [evidence_context(row) for row in state.get("evidence", [])],
+            "vector_search_status": state.get("vector_search_status", "not_run"),
+            "vector_search_diagnostics": diagnostics("vector_search_diagnostics"),
+            "hybrid_search_diagnostics": diagnostics("hybrid_search_diagnostics"),
+            "feedback": state.get("feedback", "")}

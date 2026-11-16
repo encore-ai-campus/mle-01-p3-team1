@@ -7,6 +7,7 @@ from copy import deepcopy
 from typing import Any
 
 from .adapters import empty_result, normalize_result
+from .verifier import AnswerVerifier
 from .state import (AnswerDraft, Answerer, Config, RouteDecision, Router, SearchNode,
                     SupervisorState, VerificationResult, Verifier)
 
@@ -42,6 +43,7 @@ class SupervisorController:
         self.route_question = route_question
         self.answer_question = answer_question
         self.verify_answer = verify_answer
+        self.verifier = AnswerVerifier(verify_answer)
         self.max_retries = max_retries
         if metadata_provenance is not None and not callable(metadata_provenance):
             raise TypeError("metadata_provenance must be callable")
@@ -307,50 +309,17 @@ class SupervisorController:
                     "errors": self._error(state, "answer", exc),
                     "trace": self._trace(state, "answer", error=type(exc).__name__)}
 
-    @staticmethod
-    def _citation_problem(state: SupervisorState) -> str:
-        if not state["evidence"]:
-            return state["failure_reason"] or "No evidence returned"
-        if not state["candidate_answer"].strip():
-            return state["failure_reason"] or "Empty answer"
-        selected = set(state["cited_evidence_ids"])
-        available = {e["evidence_id"]: e for e in state["evidence"]}
-        markers = set(re.findall(r"\[(E\d+)\]", state["candidate_answer"]))
-        if not selected or not selected.issubset(available) or selected != markers:
-            return "Missing, unknown, or inconsistent evidence citations"
-        for key in selected:
-            item = available[key]
-            if not (item.get("source_doc_ids") or item.get("source_locator") or item.get("source_urls")):
-                return "Cited evidence has no source provenance"
-        return ""
-
     def verify(self, state: SupervisorState, config: Config = None) -> dict:
-        problem = self._citation_problem(state)
-        if problem:
-            return {"verified": False, "verification_reason": problem,
-                    "failure_reason": problem, "missing_aspects": [],
-                    "trace": self._trace(state, "verify", passed=False, structural_failure=True)}
-        try:
-            verdict = self.verify_answer(deepcopy(state), config)
-            if not isinstance(verdict, VerificationResult):
-                raise TypeError("Verifier must return VerificationResult")
-            # Partial vector status alone is NOT a failure. The verifier must
-            # judge required conditions against ALL returned evidence/diagnostics.
-            passed = verdict.passed and not verdict.missing_aspects
-            reason = verdict.reason
-            if verdict.missing_aspects:
-                reason += "; unresolved: " + ", ".join(verdict.missing_aspects)
-            if not passed and not reason:
-                reason = "Verifier rejected the answer"
-            return {"verified": passed, "verification_reason": reason,
-                    "missing_aspects": verdict.missing_aspects,
-                    "failure_reason": "" if passed else reason,
-                    "trace": self._trace(state, "verify", passed=passed, structural_failure=False)}
-        except Exception as exc:
-            reason = f"Verification failed ({type(exc).__name__})"
-            return {"verified": False, "verification_reason": reason, "failure_reason": reason,
-                    "errors": self._error(state, "verify", exc),
-                    "trace": self._trace(state, "verify", passed=False, error=type(exc).__name__)}
+        outcome = self.verifier.verify(state, config)
+        if outcome.error is not None:
+            return {"verified": False, "verification_reason": outcome.reason, "failure_reason": outcome.reason,
+                    "errors": self._error(state, "verify", outcome.error),
+                    "trace": self._trace(state, "verify", passed=False, error=type(outcome.error).__name__)}
+        return {"verified": outcome.verified, "verification_reason": outcome.reason,
+                "missing_aspects": outcome.missing_aspects,
+                "failure_reason": "" if outcome.verified else outcome.reason,
+                "trace": self._trace(state, "verify", passed=outcome.verified,
+                                     structural_failure=outcome.structural_failure)}
 
     def review(self, state: SupervisorState) -> dict:
         if state.get("no_record_reason") and not state["verified"]:

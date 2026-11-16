@@ -344,3 +344,16 @@ combined는 비교 기준 장소를 제외한 Graph 후보 ID 안에서 문서�
 온톨로지 후보 필터의 백엔드는 `HYBRID_ONTOLOGY_BACKEND`로 고릅니다. 기본값 `auto`는 Neo4j가 설정되어 있고 v2가 적재되어 있으면 그래프에서 조건을 확인하고, 연결이 안 되면 738 CSV와 공용 규칙으로 만든 로컬 조회표로 자동 전환합니다. `local`은 Neo4j를 쓰지 않습니다. 결과 요약의 `backend`에 실제로 쓴 쪽이 기록됩니다. Streamlit은 별도 검색·응답 경로이며 이 Supervisor 흐름을 자동으로 공유하지 않습니다.
 
 평가에서 supervisor_full은 연결형 Supervisor 전체 경로를, supervisor는 Hybrid 고정 비교를, langgraph.ragas_eval은 기존 GraphRAG 경로를 평가합니다. 세 결과를 동일한 시스템의 점수로 취급하지 않습니다.
+
+## 검증 분리 (2026-11-16)
+
+답변이 근거에 맞는지 판단하는 일을 Supervisor에서 떼어 `src/agent/supervisor/verifier.py`로 옮겼습니다. Supervisor(`nodes.py`)는 검증 결과를 받아 마무리, 재시도, 보류만 결정합니다.
+
+| 부분 | 위치 | 하는 일 |
+|---|---|---|
+| `AnswerVerifier.citation_problem` | verifier.py | 규칙 검사(LLM 없음): 근거 존재, 답변 비어 있지 않음, 인용 번호 [E#]가 실제 근거와 일치, 인용 근거에 출처 위치 있음 |
+| `LLMVerifier` | verifier.py | 같은 `evidence_context()` JSON으로 각 주장과 질문의 필수 조건을 LLM이 판정 |
+| `AnswerVerifier.verify` | verifier.py | 위 둘을 이어 `VerificationOutcome`(통과 여부, 이유, 확인하지 못한 항목, 규칙 실패 여부, 판정 오류)을 반환 |
+| `SupervisorController.verify` / `review` | nodes.py | 결과를 상태에 기록하고 finish, retry, abstain을 결정 |
+
+동작은 바꾸지 않았습니다. `LLMNodes.verify`, `VERIFY_PROMPT`, `VerificationSchema`는 기존 위치에서도 그대로 가져올 수 있습니다. 공통 프롬프트 문맥 함수는 `evidence_context.py`(`prompt_context`, `to_json`)로 옮겼습니다.
