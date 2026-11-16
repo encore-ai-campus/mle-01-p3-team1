@@ -251,8 +251,17 @@ class SupervisorController:
         document, document_error = run("hybrid", {"candidate_museum_ids": graph_ids} if graph_ids else None)
         document_rows = self._prepare_evidence("hybrid", document["evidence"]) if document else []
         graph_rows = self._prepare_evidence("graph", graph["evidence"]) if graph else []
+        named_ids = set()
+        if document:
+            summary = document["hybrid_search_diagnostics"].get("search_summary", {}) or {}
+            for stage in summary.get("stages", []):
+                if isinstance(stage, Mapping) and stage.get("stage") == "graph_restriction":
+                    named_ids = {str(i) for i in stage.get("named_facilities_kept", [])}
         for row in document_rows:
             row["retrieval_branch"] = "document"
+            # The facility the question names is the subject, not another candidate.
+            if str(row.get("museum_id")) in named_ids and str(row.get("museum_id")) not in graph_ids:
+                row.setdefault("evidence_role", "anchor")
         seen = {(row.get("museum_id"), " ".join(str(row.get("text", "")).split()).casefold()) for row in document_rows}
         graph_kept = []
         for row in graph_rows:

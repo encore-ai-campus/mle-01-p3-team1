@@ -215,6 +215,20 @@ class HybridIntegrationTests(unittest.TestCase):
         self.assertTrue(any(s.get("stage") == "graph_restriction" and s["candidate_count"] == 2
                             for s in result["search_summary"]["stages"]))
 
+    def test_facility_named_in_the_question_stays_searchable_under_the_graph_restriction(self) -> None:
+        class Names:
+            def match(self, question):
+                return [("가", ["A"])] if "가" in question else []
+        vector = RecordingVector([hit("A", "가"), hit("B", "나"), hit("C", "다")])
+        decision = FilterDecision("not_applicable", StructuredConditions())
+        service = HybridSearchService(bm25_retriever=bm25(), vector_retriever=vector, reranker=FixedReranker(),
+                                      config=self.config(), candidate_filter=FixedFilter(decision),
+                                      name_index=Names())
+        result = service.search("가 관람 정보와 주변 시설", restrict_to_museum_ids=["B", "C"])
+        self.assertEqual(vector.received, ["A", "B", "C"])
+        stage = next(s for s in result["search_summary"]["stages"] if s.get("stage") == "graph_restriction")
+        self.assertEqual(stage["named_facilities_kept"], ["A"])
+
     def test_graph_museums_are_intersected_with_filter_candidates(self) -> None:
         vector = RecordingVector([hit("A", "가"), hit("B", "나"), hit("C", "다")])
         service = HybridSearchService(bm25_retriever=bm25(), vector_retriever=vector, reranker=FixedReranker(),
