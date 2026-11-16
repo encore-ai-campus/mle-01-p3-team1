@@ -45,12 +45,19 @@ NO_AMENITY = {"없음", "-", "NAME?", "#NAME?"}  # 편의시설이 아닌 값: �
 FEE_OUTLIER = 100_000  # 이 이상은 입력 오류로 보고 결측 처리
 
 
-@st.cache_data(show_spinner=False)
 def load_museums() -> pd.DataFrame:
+    # 시·도 표기는 캐시 밖에서 바꾼다: 캐시는 함수 본문이 바뀔 때만 새로 만들어져서
+    # SIDO_ALIAS 만 고치면 실행 중인 앱에 예전 이름이 남는다.
+    df = _read_museums()
+    df["sido"] = df["sido"].replace(SIDO_ALIAS)
+    return df
+
+
+@st.cache_data(show_spinner=False)
+def _read_museums() -> pd.DataFrame:
     df = pd.read_csv(CSV_PATH, encoding="utf-8-sig")
     # 같은 박물관이 출처별로 여러 행 → museum_id 기준 1행
     df = df.drop_duplicates(subset="museum_id", keep="first").reset_index(drop=True)
-    df["sido"] = df["sido"].replace(SIDO_ALIAS)
     for col in ("adult_fee", "youth_fee", "child_fee"):
         df[col] = pd.to_numeric(df[col], errors="coerce")
         df.loc[df[col] >= FEE_OUTLIER, col] = pd.NA
