@@ -24,6 +24,7 @@ HEAD_FONT = '"IBM Plex Sans KR", "Apple SD Gothic Neo", sans-serif'   # 제목 (
 BODY_FONT = '"IBM Plex Sans KR", "Apple SD Gothic Neo", sans-serif'   # 본문
 
 SURFACE = "#FAF8F3"      # 카드 배경
+INPUT_BG = "#E6E0D2"     # 채팅 입력창 = .streamlit/config.toml 의 secondaryBackgroundColor
 PLACEHOLDER = "#E4DED0"  # 이미지 자리(와이어프레임 회색 블록)
 LINE = "#D8D1C1"
 MUTED = "#5E6B73"
@@ -256,13 +257,24 @@ details.more[open] .more-btn::after {{ content:"접기 ▴"; }}
   background: #DCE1D2 !important; border-color: {BAR_GREEN} !important; color: {NAVY} !important; transform: translateY(-2px);
 }}
 .st-key-chat_suggestions button:hover p {{ color: {NAVY} !important; }}
+/* 누르는 순간(active)·누른 뒤(focus)도 Streamlit 기본 강조색(빨강) 대신 같은 초록 계열로 */
+.st-key-chat_suggestions button:active, .st-key-chat_suggestions button:focus {{
+  background: #C9CFB7 !important; border-color: {BAR_GREEN} !important; color: {NAVY} !important; box-shadow: none !important;
+}}
+.st-key-chat_suggestions button:active p, .st-key-chat_suggestions button:focus p {{ color: {NAVY} !important; }}
+.st-key-chat_suggestions button:focus:not(:active):not(:hover) {{ background: transparent !important; border-color: var(--line) !important; }}
 .st-key-chat_reset button:hover {{ background: #BCC3A8 !important; }}
+.st-key-chat_reset button:active, .st-key-chat_reset button:focus {{ background: #BCC3A8 !important; color: {NAVY} !important; box-shadow: none !important; }}
 
 /* ── 입력 위젯 ── */
 [data-baseweb="select"] > div, .stTextInput input, .stTextArea textarea {{
   background: var(--surface) !important;
 }}
-/* 채팅 입력: 바깥 박스 색은 유지하고, 글자 뒤 흰 배경만 투명 처리 */
+/* 채팅 입력: 바깥 박스는 연한 갈색으로 직접 지정하고, 글자 뒤 흰 배경만 투명 처리.
+   테마 설정(config.toml)이 적용되지 않는 환경(일부 Windows PC)에서도 같은 색으로 보이게 한다. */
+[data-testid="stChatInput"], [data-testid="stChatInput"] > div {{
+  background-color: {INPUT_BG} !important;
+}}
 [data-testid="stChatInput"] textarea {{
   background: transparent !important;
 }}
