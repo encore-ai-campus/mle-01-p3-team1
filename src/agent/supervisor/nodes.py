@@ -32,7 +32,7 @@ class SupervisorController:
     def __init__(self, *, hybrid_search: SearchNode, route_question: Router,
                  answer_question: Answerer, verify_answer: Verifier,
                  vector_search: SearchNode | None = None,
-                 graph_search: SearchNode | None = None, max_retries: int = 1,
+                 graph_search: SearchNode | None = None, max_retries: int = 1, max_revisions: int = 1,
                  metadata_provenance=None, region_theme_routing: bool = False):
         if type(max_retries) is not int or not 0 <= max_retries <= 2:
             raise ValueError("max_retries must be 0, 1 or 2")
@@ -45,6 +45,9 @@ class SupervisorController:
         self.verify_answer = verify_answer
         self.verifier = AnswerVerifier(verify_answer)
         self.max_retries = max_retries
+        if type(max_revisions) is not int or not 0 <= max_revisions <= 2:
+            raise ValueError("max_revisions must be 0, 1 or 2")
+        self.max_revisions = max_revisions
         if metadata_provenance is not None and not callable(metadata_provenance):
             raise TypeError("metadata_provenance must be callable")
         self.metadata_provenance = metadata_provenance
@@ -73,7 +76,8 @@ class SupervisorController:
         # A new request never inherits evidence or approval from a previous run.
         return {**empty_result(), "question": question, "top_k": top_k,
                 "route_override": override, "route": "hybrid", "route_reason": "",
-                "retry_count": 0, "feedback": "", "candidate_answer": "", "answer": "",
+                "retry_count": 0, "revision_count": 0, "previous_answer": "", "verification_kind": "",
+                "feedback": "", "candidate_answer": "", "answer": "",
                 "cited_evidence_ids": [], "verified": False, "verification_reason": "",
                 "missing_aspects": [], "failure_reason": "", "no_record_reason": "", "next_action": "",
                 "sources": [], "status": "running", "errors": [],
@@ -333,9 +337,12 @@ class SupervisorController:
         outcome = self.verifier.verify(state, config)
         if outcome.error is not None:
             return {"verified": False, "verification_reason": outcome.reason, "failure_reason": outcome.reason,
+                    "verification_kind": "error",
                     "errors": self._error(state, "verify", outcome.error),
                     "trace": self._trace(state, "verify", passed=False, error=type(outcome.error).__name__)}
+        kind = "pass" if outcome.verified else ("structural" if outcome.structural_failure else "content")
         return {"verified": outcome.verified, "verification_reason": outcome.reason,
+                "verification_kind": kind,
                 "missing_aspects": outcome.missing_aspects,
                 "failure_reason": "" if outcome.verified else outcome.reason,
                 "trace": self._trace(state, "verify", passed=outcome.verified,
@@ -346,6 +353,13 @@ class SupervisorController:
             # Same filter, same data: a retry would return the same empty set.
             return {"next_action": "abstain",
                     "trace": self._trace(state, "supervisor_review", action="abstain", no_record=True)}
+        if (not state["verified"] and state.get("verification_kind") == "content"
+                and state.get("revision_count", 0) < self.max_revisions):
+            # The evidence is fine but the wording was not (for example "매일 09:00~18:00"
+            # against a record that lists a closed weekday). Rewrite the answer from the
+            # same evidence once; searching again would drop the graph relation.
+            return {"next_action": "revise",
+                    "trace": self._trace(state, "supervisor_review", action="revise")}
         if state.get("route") == "combined" and not state["verified"]:
             # Both searches already ran on the same question: a document-only retry would
             # replace the graph relation with unrelated passages (2026-11-15 run).
@@ -355,8 +369,15 @@ class SupervisorController:
             "retry" if state["retry_count"] < self.max_retries else "abstain")
         return {"next_action": action, "trace": self._trace(state, "supervisor_review", action=action)}
 
+    def revise(self, state: SupervisorState) -> dict:
+        return {"revision_count": state.get("revision_count", 0) + 1,
+                "feedback": state["failure_reason"],
+                "previous_answer": state["candidate_answer"],
+                "trace": self._trace(state, "revise", next_attempt=state.get("revision_count", 0) + 1)}
+
     def retry(self, state: SupervisorState) -> dict:
         return {"retry_count": state["retry_count"] + 1,
+                "revision_count": 0, "previous_answer": "",
                 "feedback": state["failure_reason"],
                 "trace": self._trace(state, "retry", next_attempt=state["retry_count"] + 1)}
 
