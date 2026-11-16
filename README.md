@@ -256,6 +256,17 @@ uv run python -m src.agent.supervisor.run --team-hybrid --with-neo4j --interacti
 | Vector 검색 순위 | 30문항 | Hit@1 0.708 · Hit@5 0.792 · MRR@10 0.755 | [보고서](evaluations/reports/baseline_2026-11-13/vector_db/20261113_174527/report.md) |
 | 가드레일 | 40문항 (공격 19 · 정상 21) | 공격 차단 19/19 · 정상 통과 21/21 · 미탐·오탐 0건 | [보고서](evaluations/reports/guardrails/가드레일_평가_v1_결과_20261113_2134.md) |
 
+### 점수 개선에 적용한 방법과 확인된 변화
+
+| 낮았던 지점 | 적용한 방법 | 확인된 변화와 해석 |
+|---|---|---|
+| Neo4j가 비교 대상과 후보의 지역 관계·출처를 문맥에 충분히 담지 못함 | 검색 결과에 anchor·candidate 지역, `LOCATED_IN` 관계, 후보 `HAS_SOURCE` 문서를 포함 | MH001 Context Recall **0.667 → 1.000**. MH010은 일치한 seed TextSpan과 관련 span을 함께 전달해 **0 → 0.500**으로 부분 개선 |
+| Hybrid에서 재정렬이 정답 후보를 밀어내거나 질문에 직접 적힌 시설명을 놓침 | Cross-Encoder 확신이 낮으면 RRF 순위를 유지하고, 질문에 명시된 시설명을 후보에 보장 | 대상 문항 Q252·Q183에서 각각 Hit@5·Faithfulness **1.0** 확인. 문항별 결과이며 전체 평균 상승을 뜻하지는 않음 |
+| 일부 문항에서 모델 답변과 RAGAS 채점 입력의 시설명·근거 표기가 불일치 | 실제 Graph 근거의 시설명을 채점 문맥에 포함하고 reference의 근거에 없는 시설 번호를 제거 | 같은 기관 15문항 재채점에서 Faithfulness **0.30 → 0.72**, Context Recall **0.03 → 0.77**, Precision **0.27 → 0.57**. 평가 입력 수정 효과로 검색 성능 향상과는 구분 |
+| 답변·검증 단계와 RAGAS가 서로 다른 근거 표현을 사용 | 시설 ID·이름·본문·출처 연결을 공유하는 `grounded-evidence-v2` 형식 적용 | 222문항 실행 기록(12:51Z 이전 형식 → 18:28Z v2): Faithfulness **0.878 → 0.933**, Context Recall **0.887 → 0.906**, Precision **0.896 → 0.923**. 근거 형식과 실행 조건도 달라 단일 변경의 효과로 단정하지 않음 |
+
+평가셋 구성과 정답을 정한 방법은 [평가 안내](evaluations/README.md)에서 확인할 수 있습니다. 정답 라벨은 미검수 초안이므로 결과는 잠정치입니다.
+
 ### 평가·개선 문서
 
 | 문서 | 내용 |
