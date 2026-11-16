@@ -499,9 +499,10 @@ def _build_supervisor():
 
     화면용 설정 (팀 엔진 코드는 바꾸지 않고 옵션만 넘긴다):
     - 생각 강도 low (REASONING_EFFORT): 한 질문 평균 22초 → 8초.
-    - 재검색 없음(max_retries=0, 팀 기본값 1과 다름): 근거 검증에 떨어지면 바로 보류하고 사유를 보여 준다.
-      재검색이 붙으면 2~5단계를 다시 하고, 그래프로 가면 Cypher 생성까지 더해져 25~40초가 걸렸다.
-      재검색으로 살아난 경우는 드물었다(2026-11-16 측정). 요구사항은 '재검색 또는 보류'라 보류만으로 충족한다.
+    - 재검색 1회(max_retries=1, 터미널·평가와 같은 팀 기본값): 근거 검증에 떨어지면 한 번 더 찾고, 그래도 부족하면 보류한다.
+      재검색이 붙는 질문은 2~5단계를 다시 해 25~40초가 걸리지만(그래프로 가면 Cypher 생성까지 추가),
+      평가에서 재검색한 질문은 11~20%이고 그중 26~56%가 답변으로 살아났다(2026-11-14~15 Supervisor 평가).
+      Graph 검색이 실패했을 때 Hybrid로 넘어가는 것도 이 재검색 단계에서 일어난다.
     """
     from langchain_openai import ChatOpenAI
 
@@ -520,7 +521,7 @@ def _build_supervisor():
         llm=llm,
         graph_retriever=graph_tool,
         guardrails_factory=_NoGuard,
-        max_retries=0,
+        max_retries=1,
     )
     return app, graph_tool
 
