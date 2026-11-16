@@ -81,6 +81,9 @@ resolves the missing condition; 'no_results' from vector alone is also not a
 failure when the final evidence genuinely supports the whole question.
 The teammate's diagnostics can identify a constraint to check, but are not
 independent proof: confirm the supporting evidence or explicit path/attributes.
+A total stated in evidence text as region_free_facility_total, together with its
+count_scope, is the number of ALL matching facilities, not only the listed ones;
+it supports the same total in the answer.
 A requested number of recommendations ("10곳 추천", "5개 알려줘") is an upper
 limit, not a required part. If the answer lists only places the evidence
 supports and says how many it could confirm, it is complete: do not fail it and

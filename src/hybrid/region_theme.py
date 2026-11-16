@@ -45,8 +45,11 @@ _AMBIGUOUS = {"광주", "광주시"}
 # After a region name only a particle, a space or the end may follow. A Hangul letter
 # straight after it means the name belongs to something longer (경기도박물관, 서울대).
 _AFTER = r"(?=$|[\s,.?!]|에서|에는|에도|에|의|으로|로|권|쪽|지역|내|소재|인|이|가|은|는|을|를|과|와|랑|만|도\s)"
+# A fee condition cannot be expressed as a search filter here; it needs the graph's fee
+# properties. recognize_region() therefore leaves such questions alone unless asked.
+_FEE_WORDS = re.compile(r"무료|공짜|유료|입장료|관람료|요금")
 _EXCLUDING_WORDS = re.compile(
-    r"아닌|말고|제외|빼고|이외|외에|무료|유료|입장료|요금|가격|저렴|"
+    r"아닌|말고|제외|빼고|이외|외에|가격|저렴|언제|날짜|할인|"
     r"근처|주변|인근|가까운|가까이|떨어진|거리|"
     r"같은\s*(?:기관|시|군|구|지역|시도|도)|운영하는|운영\s*기관|비교|보다|차이|사이"
 )
@@ -57,12 +60,15 @@ def _pattern(terms: dict[str, str] | dict[str, tuple[str, str]], *, strict: bool
     return re.compile("(?<![가-힣])(?:" + "|".join(map(re.escape, names)) + ")" + (_AFTER if strict else ""))
 
 
-def recognize_region(question: str) -> Region | None:
-    """The one region the question asks about, or None when it is not clear-cut."""
+def recognize_region(question: str, *, allow_fee: bool = False) -> Region | None:
+    """The one region the question asks about, or None when it is not clear-cut.
+
+    Fee words (무료, 입장료 ...) make the question unclear unless allow_fee is set.
+    """
     if not isinstance(question, str) or not question.strip():
         return None
     text = " ".join(question.split())
-    if _EXCLUDING_WORDS.search(text):
+    if _EXCLUDING_WORDS.search(text) or (not allow_fee and _FEE_WORDS.search(text)):
         return None
     sido_terms = _sido_terms()
     districts = _sigungu_table()
@@ -89,3 +95,24 @@ def simple_region_theme(question: str) -> str | None:
     """The 시·도 of a clearly regional question (kept for callers that only need that)."""
     region = recognize_region(question)
     return region.sido if region else None
+
+
+def region_with_fee(question: str) -> Region | None:
+    """The region of a "region + fee condition" question (서울에서 무료로 갈 수 있는 곳)."""
+    if not isinstance(question, str) or not _FEE_WORDS.search(question):
+        return None
+    return recognize_region(question, allow_fee=True)
+
+
+def mentions_region(question: str) -> bool:
+    """True when any 시·도 or 시·군·구 name appears, even inside a longer word."""
+    text = str(question or "")
+    return any(_pattern(terms, strict=False).search(text) for terms in (_sido_terms(), _sigungu_table()))
+
+
+def is_fee_question(question: str) -> bool:
+    """A fee condition with one clear region, or with no region at all (무료인 곳 추천해줘)."""
+    if not isinstance(question, str) or not _FEE_WORDS.search(question) or _EXCLUDING_WORDS.search(question):
+        return False
+    return region_with_fee(question) is not None or not mentions_region(question)
+

@@ -108,3 +108,73 @@ def test_district_reaches_both_searches_before_fusion():
     service = HybridSearchService(bm25_retriever=BM25(), vector_retriever=ExistingVectorRetriever(Service()))
     service.search("경주에 있는 박물관이나 미술관을 알려줘", rerank=False)
     assert observed == {"vector": ("경상북도", "경주시"), "bm25": ("경상북도", "경주시")}
+
+
+@pytest.mark.parametrize("question", [
+    "서울에서 무료로 갈 수 있는 박물관 추천해줘",
+    "부산 입장료 무료인 미술관 알려줘",
+    "경주에 있는 유료 박물관",
+])
+def test_region_with_fee_is_recognized_for_the_graph_route(question):
+    from src.hybrid.region_theme import region_with_fee
+    assert region_with_fee(question) is not None
+    assert recognize_region(question) is None  # the search filter still ignores fee questions
+
+
+@pytest.mark.parametrize("question", [
+    "서울에 있는 박물관 추천",              # no fee condition
+    "무료 박물관 알려줘",                    # no region
+    "서울이 아닌 무료 박물관",               # negation
+    "서울 무료 박물관 근처 맛집",             # nearby
+    "서울에서 부산까지 무료인 곳",            # two regions
+])
+def test_region_with_fee_needs_exactly_one_clear_region_and_a_fee_word(question):
+    from src.hybrid.region_theme import region_with_fee
+    assert region_with_fee(question) is None
+
+
+def _controller(graph):
+    return SupervisorController(
+        hybrid_search=lambda s, c: {}, graph_search=graph,
+        route_question=lambda s, c: RouteDecision("hybrid", "llm"),
+        answer_question=lambda s, c: None, verify_answer=lambda s, c: None, region_theme_routing=True)
+
+
+def test_region_fee_question_goes_to_graph_every_time():
+    ctl = _controller(lambda s, c: {})
+    for _ in range(5):
+        state = ctl.initialize({"question": "서울에서 무료로 갈 수 있는 박물관 추천해줘"})
+        decision = ctl.supervisor(state)
+        assert decision["route"] == "graph"
+
+
+def test_region_fee_question_falls_back_when_graph_is_not_connected():
+    ctl = _controller(None)
+    state = ctl.initialize({"question": "서울에서 무료로 갈 수 있는 박물관 추천해줘"})
+    assert ctl.supervisor(state)["route"] == "hybrid"  # the LLM router decides
+
+
+def test_region_fee_question_asking_for_exhibits_is_left_to_the_router():
+    ctl = _controller(lambda s, c: {})
+    state = ctl.initialize({"question": "서울에서 무료로 볼 수 있는 전시가 있는 박물관"})
+    assert ctl.supervisor(state)["route"] == "hybrid"
+
+
+@pytest.mark.parametrize("question, expected", [
+    ("서울에서 무료로 갈 수 있는 박물관 추천해줘", True),
+    ("무료인 곳 추천해줘", True),                 # no region: the whole country
+    ("국립중앙박물관 무료야?", True),
+    ("경주에서 부산까지 무료인 곳", False),         # two regions
+    ("서울 무료 박물관 근처 맛집", False),          # nearby
+    ("서울 무료 관람일이 언제야", False),           # a date, not a fee list
+    ("서울에 있는 박물관 추천", False),             # no fee
+])
+def test_fee_question_detection(question, expected):
+    from src.hybrid.region_theme import is_fee_question
+    assert is_fee_question(question) is expected
+
+
+def test_fee_question_without_a_region_goes_to_graph():
+    ctl = _controller(lambda s, c: {})
+    state = ctl.initialize({"question": "무료인 곳 추천해줘"})
+    assert ctl.supervisor(state)["route"] == "graph"

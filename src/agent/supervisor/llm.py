@@ -36,6 +36,9 @@ facilities sharing a region, sigungu or organization with a named museum,
 comparisons between two named museums' regions, straight-line nearby
 facilities, region-wide fee lists, or the source documents/spans behind a
 quoted passage. A region alone is not a reason to choose graph.
+A region plus a fee condition (무료, 유료, 입장료, 관람료) is a region-wide fee
+list: choose graph, because fees are graph properties that document search cannot
+filter on.
 Hybrid means BM25 plus Vector retrieval only: it does NOT query Neo4j. Use it
 for semantic or keyword retrieval, not as a promise to combine graph evidence.
 Return combined only when the answer needs BOTH graph structure (facilities
@@ -105,6 +108,10 @@ For OPERATED_BY/MANAGED_BY evidence, rows that point to the same Organization
 spellings differ (e.g. 경상남도 창녕군 and 경상남도 창녕군청); cite the anchor's
 own link and each candidate's link. Name the column (운영기관 or 관리기관) and
 say MANAGED_BY links are UNVERIFIED.
+When evidence text contains region_free_facility_total (with its count_scope) larger
+than the number of places you list, say that only some are shown and give that
+total (for example "기록상 무료인 곳은 57곳이며 그중 5곳을 보여 드립니다"); never
+imply the listed places are all.
 When the question asks for a number of recommended places ("10곳", "5개 추천",
 "3군데"), list only the places whose cited evidence meets the question's other
 conditions, up to that number. Never add an unsupported place to reach the

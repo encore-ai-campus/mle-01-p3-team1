@@ -110,6 +110,12 @@ class SupervisorController:
                 decision = RouteDecision(
                     "hybrid", "구조 조건은 온톨로지 후보 필터로 거르고 Hybrid가 그 안에서 순위를 정함"
                 )
+            elif (self.searchers["graph"] is not None and self._region_fee(state["question"])
+                  and not DESCRIPTIVE_CUE.search(state["question"])):
+                # A region plus a fee condition is a region-wide fee list. Fees are graph
+                # properties; document search has no fee filter and returns a different,
+                # partial list (2026-11-16: the same question went to either route).
+                decision = RouteDecision("graph", "지역 안의 요금 조건은 그래프의 요금 속성으로 조회")
             elif self.searchers["graph"] is not None and (template := self._graph_template(state["question"])):
                 if DESCRIPTIVE_CUE.search(state["question"]):
                     decision = RouteDecision(
@@ -146,6 +152,11 @@ class SupervisorController:
     def _simple_region_theme(question: str) -> str | None:
         from src.hybrid.region_theme import simple_region_theme
         return simple_region_theme(question)
+
+    @staticmethod
+    def _region_fee(question: str) -> bool:
+        from src.hybrid.region_theme import is_fee_question
+        return is_fee_question(question)
 
     @staticmethod
     def _graph_template(question: str) -> str | None:
