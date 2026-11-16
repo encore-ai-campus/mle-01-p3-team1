@@ -77,7 +77,7 @@
   <img src="docs/architecture/images/architecture-overview.png" alt="mupick RAG 아키텍처" width="900">
 </p>
 
-- 검색 경로: 편의시설·개관 요일 조건, 지역+주제, 설명형 질문은 Hybrid 검색으로, 관계·출처 질문은 Neo4j Graph 검색으로 보냅니다.
+- 검색 경로: 편의시설·개관 요일 조건, 지역+주제, 설명형 질문은 Hybrid 검색으로, 관계·출처 질문은 Neo4j Graph 검색으로 보냅니다. "신안갯벌박물관과 같은 기관이 운영하는 시설 중 화석과 광물을 전시하는 곳은?"처럼 관계와 설명이 함께 필요한 질문은 Combined 검색으로 보내, Graph로 후보 시설을 찾은 뒤 그 안에서 문서를 검색합니다.
 - 상세 흐름: [Supervisor 연결](docs/architecture/supervisor-integration.md), [구조 이미지 안내](docs/architecture/images/README.md)
 - 설계 이유: [기술 결정 기록](docs/decisions/README.md)
 
