@@ -1,0 +1,38 @@
+flowchart TB
+    Q["사용자 질문"] --> GI["입력 가드레일"]
+    GI -->|허용| S["Supervisor 경로 선택"]
+    GI -->|차단| BLOCK["차단 안내 반환"]
+    S --> H["Hybrid: Vector + BM25<br/>RRF → Cross-Encoder"]
+    S --> V["Vector 검색<br/>연결된 경우"]
+    S --> G["Graph: Neo4j<br/>준비된 쿼리 / Text-to-Cypher"]
+    S --> CG["Combined: Graph 후보 조회"]
+    CG --> CH["후보 ID 안에서 문서 검색<br/>후보 없음·Graph 실패 시 제한 없는 검색 가능"]
+    CH --> CM["문서·관계 근거 통합<br/>관계 미입증 시 검증에서 보류"]
+    H & V & G & CM --> P["최종 근거 정규화 · 출처 연결<br/>CSV 행 매칭 / Graph 속성·앵커 보존"]
+    P --> E["공통 evidence_context()<br/>grounded-evidence-v2<br/>시설 ID · 이름 · 전체 본문 · 인용 ID<br/>출처 · 출처가 연결된 속성"]
+    E --> A["답변 생성"]
+    A --> CHECK["동일 근거로 답변·출처 검증"]
+    E -. 동일 근거 .-> CHECK
+    CHECK --> REVIEW{"Supervisor 검토"}
+    REVIEW -->|통과| GO["출력 가드레일"]
+    REVIEW -->|재시도 가능| S
+    REVIEW -->|combined 검증 실패 / 기록 없음 / 재시도 소진| AB["답변 보류"]
+    AB --> GO
+    GO --> FINAL["최종 응답"]
+
+    subgraph EVAL["별도 평가 실행 — 실시간 챗봇 응답 경로와 분리"]
+        R["질문 + 평가셋 reference"] --> J["RAGAS 채점"]
+        J --> OUT["새 실행 폴더에 점수·근거·버전 저장<br/>구형 체크포인트 이어하기 차단"]
+    end
+    E -. 동일 JSON 근거 .-> J
+    FINAL -. 평가 실행 시 최종 응답 .-> J
+
+    N["원시 후보·검색 점수는 사실 근거에서 제외<br/>출처 연결 ≠ 사람 검수·최신성 확인<br/>Streamlit은 별도 경로"]
+    E -.- N
+
+    classDef process fill:#edf3fb,stroke:#35516f,color:#172033;
+    classDef shared fill:#fff1d6,stroke:#b07820,color:#172033;
+    classDef evaluation fill:#e8f3ed,stroke:#3f7758,color:#172033;
+    class Q,GI,S,H,V,G,CG,CH,CM,P,A,CHECK,REVIEW,GO,FINAL,AB,BLOCK process;
+    class E,N shared;
+    class R,J,OUT evaluation;

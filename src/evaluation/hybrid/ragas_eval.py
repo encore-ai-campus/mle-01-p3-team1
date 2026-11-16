@@ -27,6 +27,7 @@ from typing import Any, Mapping, Sequence
 
 from dotenv import load_dotenv
 from src.evaluation.timing import timing_summary
+from src.agent.supervisor.evidence_context import EVIDENCE_CONTEXT_VERSION, evidence_context
 
 
 PROJECT_ROOT = Path(__file__).resolve().parents[3]
@@ -66,6 +67,7 @@ BASE_COLUMNS = {
 }
 QUESTION_FIELDS = (
     "run_id",
+    "evidence_context_version",
     "mode",
     "mode_label",
     "question_id",
@@ -232,34 +234,7 @@ def normalize_evidence(hits: Sequence[Mapping[str, Any]], mode: str) -> list[dic
 
 
 def ragas_context(item: Mapping[str, Any]) -> str:
-    """Evidence text plus the structured records the answer is allowed to use.
-
-    Amenity and closure answers are grounded in CSV fields carried as metadata
-    (metadata_provenance, structured_match), not in the passage text. Without
-    them the judge sees no support for those claims (2026-11-14 eval: v2
-    questions scored Context Recall 0.04).
-
-    A graph relation row carries the facility name only in its `name` field, not
-    in the text, although the answer model receives that field. The judge gets it
-    as a leading line when the text does not already name the facility. Passages
-    from the document search are left as they were so scores stay comparable with
-    the 2026-11-13 baseline
-    (2026-11-15 eval: same-operator answers were right but scored Context Recall 0.0).
-    """
-    text = str(item.get("text") or "")
-    metadata = item.get("metadata") if isinstance(item.get("metadata"), Mapping) else {}
-    name = str(item.get("name") or metadata.get("name") or "").strip()
-    if name and item.get("retriever") == "graph" and name not in text:
-        text = f"[시설명] {name}\n{text}"
-    provenance = item.get("metadata_provenance") or metadata.get("metadata_provenance") or {}
-    fields = provenance.get("fields") if isinstance(provenance, Mapping) else {}
-    extra = []
-    if metadata.get("structured_match"):
-        extra.append(f"[구조화 조건 근거] {metadata['structured_match']}")
-    for key, label in (("amenities_raw", "편의시설 기록"), ("closure_rule_raw", "휴관 규칙 기록")):
-        if isinstance(fields, Mapping) and fields.get(key):
-            extra.append(f"[CSV {label}] {fields[key]}")
-    return "\n".join([text, *extra]) if extra else text
+    return evidence_context(item)
 
 
 def ranking_scores(gold_ids: Sequence[str], evidence: Sequence[Mapping[str, Any]], answerable: bool) -> dict[str, float | str]:
@@ -286,15 +261,8 @@ def _error_type(exc: Exception) -> str:
     return type(exc).__name__
 
 
-def _evidence_for_prompt(evidence: Sequence[Mapping[str, Any]]) -> list[dict[str, str]]:
-    return [
-        {
-            "museum_id": str(item.get("museum_id") or ""),
-            "name": str(item.get("name") or ""),
-            "text": str(item.get("text") or "")[:1800],
-        }
-        for item in evidence
-    ]
+def _evidence_for_prompt(evidence: Sequence[Mapping[str, Any]]) -> list[str]:
+    return [evidence_context(item) for item in evidence]
 
 
 def answer_from_evidence(client: Any, model: str, question: str, evidence: Sequence[Mapping[str, Any]]) -> str:
@@ -336,10 +304,32 @@ def _query_key(question: str) -> str:
 class PrecomputedHybridRetriever:
     """Expose a previously collected Hybrid result through Supervisor's contract."""
 
-    def __init__(self, responses: Mapping[str, Mapping[str, Any]]) -> None:
+    def __init__(
+        self,
+        responses: Mapping[str, Mapping[str, Any]],
+        live_service: Any = None,
+        *,
+        rerank: bool = True,
+    ) -> None:
         self.responses = dict(responses)
+        # A combined search restricts documents to the museums the graph found. That
+        # result cannot come from the cache (cached results were searched without it),
+        # so it is searched live.
+        self.live_service = live_service
+        self.rerank = rerank
 
-    def retrieve(self, query: str, top_k: int = 10) -> dict[str, Any]:
+    def retrieve(
+        self,
+        query: str,
+        top_k: int = 10,
+        restrict_to_museum_ids: Sequence[str] | None = None,
+    ) -> dict[str, Any]:
+        if restrict_to_museum_ids is not None:
+            if self.live_service is None:
+                raise RuntimeError("Restricted (combined) search needs a live Hybrid service")
+            return self.live_service.search(
+                query, top_k=top_k, rerank=self.rerank, restrict_to_museum_ids=list(restrict_to_museum_ids)
+            )
         cached = self.responses.get(_query_key(query))
         if cached is None or cached.get("error_type"):
             error_type = cached.get("error_type") if cached else "MissingPrecomputedResult"
@@ -498,6 +488,7 @@ def build_supervisor_app(
     *,
     graph_retriever: Any = None,
     full_flow: bool = False,
+    live_service: Any = None,
 ):
     """Supervisor over replayed Hybrid results.
 
@@ -512,7 +503,7 @@ def build_supervisor_app(
         for bundle in precomputed.values()
         if bundle.get("response")
     }
-    retriever = PrecomputedHybridRetriever(cached_responses)
+    retriever = PrecomputedHybridRetriever(cached_responses, live_service=live_service)
     llm = ChatOpenAI(model=model_name, timeout=60, max_retries=1)
     _warm_up_guardrails()
     return build_connected_supervisor(
@@ -625,6 +616,8 @@ def run_one(
         str(row.get("answerable")) == "yes",
     )
     return {
+        "evidence_context_version": EVIDENCE_CONTEXT_VERSION,
+        "evaluation_contexts": [ragas_context(item) for item in evidence],
         "mode": mode,
         "question_id": str(row["question_id"]),
         "evidence": evidence,
@@ -896,6 +889,7 @@ def flatten_question_rows(
             evidence = result.get("evidence") or []
             output.append({
                 "run_id": run_id,
+                "evidence_context_version": EVIDENCE_CONTEXT_VERSION,
                 "mode": mode,
                 "mode_label": MODE_LABELS[mode],
                 "question_id": question_id,
@@ -1004,6 +998,7 @@ def render_report(
         "# Hybrid RAG 통합 평가 결과",
         "",
         f"- 실행 ID: `{run_id}`",
+        f"- Evidence context version: `{EVIDENCE_CONTEXT_VERSION}` (legacy runs are not directly comparable)",
         f"- 평가셋: `{evalset}`",
         f"- 문항: **{len(rows)}개** (답변 가능 {answerable}, 답변 불가 {unanswerable})",
         f"- 검색 top-k: {top_k}",
@@ -1058,6 +1053,7 @@ def _required_env(modes: Sequence[str], check_only: bool, supervisor_model: str)
 def _fingerprint(evalset_path: Path, rows: Sequence[Mapping[str, Any]], args: argparse.Namespace,
                  answer_model: str, supervisor_model: str, graph_model: str, judge_model: str) -> dict[str, Any]:
     return {
+        "evidence_context_version": EVIDENCE_CONTEXT_VERSION,
         "dataset_sha256": hashlib.sha256(evalset_path.read_bytes()).hexdigest(),
         "question_ids": [str(row["question_id"]) for row in rows],
         "modes": args.modes,
@@ -1079,7 +1075,7 @@ def _open_run(args: argparse.Namespace, fingerprint: Mapping[str, Any]) -> tuple
             raise ValueError(f"Resume checkpoint not found: {checkpoint_path}")
         data = json.loads(checkpoint_path.read_text(encoding="utf-8"))
         if data.get("fingerprint") != fingerprint:
-            raise ValueError("Resume settings or dataset differ from the original run. Keep evalset, modes, models, top-k and limit unchanged.")
+            raise ValueError("Resume settings or dataset differ from the original run. Keep evidence context version, evalset, modes, models, top-k and limit unchanged. Start a new run for a new context version.")
         return run_dir, str(data["run_id"]), data
 
     run_id = datetime.now(timezone.utc).strftime("%Y%m%d_%H%M%S_%fZ")
@@ -1176,6 +1172,7 @@ def main(argv: list[str] | None = None) -> int:
                         supervisor_model, precomputed,
                         graph_retriever=Neo4jText2Cypher(driver, os.environ["NEO4J_DATABASE"]),
                         full_flow=True,
+                        live_service=service,
                     )
             except Exception:
                 graph_driver_context.__exit__(*sys.exc_info())
@@ -1245,8 +1242,8 @@ def main(argv: list[str] | None = None) -> int:
         write_csv(run_dir / "per_question.csv", detail_rows, QUESTION_FIELDS)
         write_csv(
             run_dir / "summary.csv",
-            [{"mode": mode, "mode_label": MODE_LABELS[mode], **summaries[mode]} for mode in args.modes],
-            ["mode", "mode_label", *summaries[args.modes[0]].keys()],
+            [{"evidence_context_version": EVIDENCE_CONTEXT_VERSION, "mode": mode, "mode_label": MODE_LABELS[mode], **summaries[mode]} for mode in args.modes],
+            ["evidence_context_version", "mode", "mode_label", *summaries[args.modes[0]].keys()],
         )
         (run_dir / "summary.md").write_text(
             render_report(

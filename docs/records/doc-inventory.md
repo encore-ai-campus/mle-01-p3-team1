@@ -1,5 +1,7 @@
 # 문서 분류표 (2026-11-14)
 
+> 아래 수량과 분류는 2026-11-14 점검 당시의 기록입니다. 2026-11-15 후속 정리에서 `superpowers-folder-note.md`는 안내 내용을 `docs/plans/README.md`에 보존한 뒤 삭제했습니다. 당시 통합 후보 1건은 처리 완료이며, 최신 변경 내역은 [정리 기록](cleanup-audit.md)을 참고하세요.
+
 저장소의 모든 Markdown 73개를 목적·관련 코드·현재성에 따라 분류했습니다. 파일은 이동·삭제하지 않았고, 상단 안내 한 줄을 추가한 문서가 2개 있습니다(아래 표의 비고).
 
 ## 분류 기준
@@ -125,8 +127,8 @@
 
 이전 세션에서 짧은 하위 안내 문서 24개를 상위 README에 합쳤습니다(예: `tests/unit/**/README.md`, `tests/integration/**/README.md`, `scripts/readme_for_scripts.md`, 여러 `src/**/README.md`). 이 표에는 현재 남은 문서만 있습니다. 합치기 전 내용은 Git 기록에서 확인할 수 있습니다.
 
-## 이 표가 가리키는 후속 작업 (승인 필요)
+## 이 표가 가리키는 후속 작업
 
-1. `docs/records/superpowers-folder-note.md`를 `plans/README.md`·`decisions/README.md`에 합치고 `records/README.md`의 링크를 정리합니다.
+1. 완료(2026-11-15, 사용자 승인): `docs/records/superpowers-folder-note.md`의 안내를 `plans/README.md`에 보존하고 중복 문서를 삭제했습니다. `records/README.md` 링크도 제거했습니다.
 2. 판단 보류 계획 5개: 항목별로 코드·테스트·실행 결과를 확인해 `archive/plans/`로 옮길지 정합니다. 재평가 후 확인하는 편이 정확합니다.
 3. `src/hybrid/README.md`: 절별 현재성을 확인합니다.

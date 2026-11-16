@@ -72,8 +72,8 @@ def test_ragas_context_includes_structured_records_and_ranking_skips_anchor():
     from src.evaluation.hybrid.ragas_eval import ragas_context, ranking_scores
 
     item = {"text": "본문", "metadata": {"structured_match": "편의시설 '카페': CSV amenities_raw의 '카페테리아' 항목"},
-            "metadata_provenance": {"fields": {"amenities_raw": "주차장+카페테리아", "closure_rule_raw": "월"}}}
+            "metadata_provenance": {"source_kind": "derived_csv_row", "source_locator": "file.csv#row=1", "fields": {"amenities_raw": "주차장+카페테리아", "closure_rule_raw": "월"}}}
     context = ragas_context(item)
-    assert "카페테리아" in context and "[CSV 휴관 규칙 기록] 월" in context
+    assert "카페테리아" in context and "closure_rule_raw" in context
     evidence = [{"museum_id": "ANCHOR", "evidence_role": "anchor"}, {"museum_id": "GOLD"}]
     assert ranking_scores(["GOLD"], evidence, True)["hit_at_1"] == 1

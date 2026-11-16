@@ -10,12 +10,12 @@
 
 ## Vector DB 평가
 
-`evaluate.py`는 Chroma 검색 결과의 Hit@k·Recall·MRR을 계산합니다. LLM 답변이나 Hybrid Cross-Encoder 재정렬은 이 평가에 포함하지 않습니다. `generate_testset.py`는 초안 생성 도구입니다. 절차는 [Vector 평가 안내](../../docs/evaluation/vector-db.md)를 참고하세요.
+`vector_db/evaluate.py`는 Chroma 검색 결과의 Hit@k·Recall·MRR을 계산합니다. LLM 답변이나 Hybrid Cross-Encoder 재정렬은 이 평가에 포함하지 않습니다. `vector_db/generate_testset.py`는 초안 생성 도구입니다. 절차는 [Vector 평가 안내](../../docs/evaluation/vector-db.md)를 참고하세요.
 
 
 ## Hybrid Ragas 평가
 
-`ragas_eval.py`는 선택한 BM25·Vector·RRF·Cross-Encoder·Supervisor·Graph 경로를 비교합니다. 기본 데이터는 v2 196문항 초안(`evaluations/datasets/supervisor_v2/`)입니다. `supervisor_full` 모드는 실제 CLI와 같은 자동 라우팅·후보 필터·Neo4j 연결로 평가합니다. 검색 후보와 문항 결과는 실행 폴더에 체크포인트로 저장됩니다.
+`hybrid/ragas_eval.py`는 선택한 BM25·Vector·RRF·Cross-Encoder·Supervisor·Graph 경로를 비교합니다. 기본 데이터는 v2 196문항 초안(`evaluations/datasets/supervisor_v2/`)입니다. `supervisor_full` 모드는 실제 CLI와 같은 자동 라우팅·후보 필터·Neo4j 연결로 평가합니다. 검색 후보와 문항 결과는 실행 폴더에 체크포인트로 저장됩니다.
 
 ```powershell
 .\.venv\Scripts\python.exe -m src.evaluation.hybrid.ragas_eval --modes hybrid_rerank --top-k 5
@@ -26,4 +26,4 @@
 
 ## Neo4j GraphRAG Ragas 평가
 
-`ragas_eval.py`는 Neo4j 그래프 검색·답변 경로를 평가합니다. `ragas_testset.py`는 평가셋 생성 도구입니다. 평가셋과 출력 위치는 [Neo4j 평가 안내](../../docs/evaluation/langgraph-ragas.md) 및 [평가셋 색인](../../evaluations/README.md)에 있습니다.
+`langgraph/ragas_eval.py`는 Neo4j 그래프 검색·답변 경로를 평가합니다. `langgraph/ragas_testset.py`는 평가셋 생성 도구입니다. 평가셋과 출력 위치는 [Neo4j 평가 안내](../../docs/evaluation/langgraph-ragas.md) 및 [평가셋 색인](../../evaluations/README.md)에 있습니다.

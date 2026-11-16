@@ -2,6 +2,22 @@
 
 `src.evaluation.hybrid.ragas_eval`은 Chroma/Hybrid, Supervisor, Neo4j GraphRAG를 같은 평가셋으로 비교합니다.
 
+## 근거 형식 v2 (2026-11-16)
+
+Supervisor의 답변·검증과 이 평가기의 RAGAS는 `src/agent/supervisor/evidence_context.py`의 공통 JSON 문자열을 사용합니다. 문서 검색 비교 모드의 답변 생성에도 같은 함수를 적용합니다. 시설 ID·이름·전체 본문·인용 ID·출처를 보존하고, 출처가 연결된 CSV 속성(지역·주소·요금·운영시간 등)을 전달합니다. Graph의 속성·앵커·관계 근거도 보존합니다. 원시 검색 메타데이터와 점수는 사실 근거에서 제외합니다. 출처 연결은 사람 검수나 최신 사실 확인을 뜻하지 않습니다.
+
+- 형식 버전: `grounded-evidence-v2`. `checkpoint.json`의 fingerprint, 문항별 결과 JSON, `per_question.csv`, `summary.csv`, `summary.md`에 기록합니다. 문항별 결과 JSON에는 `evaluation_contexts`도 저장합니다.
+- 이전 형식의 실행은 `--resume`으로 이어갈 수 없습니다. 새 실행 폴더에서 평가해야 합니다. 이전 결과는 보존하며 형식 변경 전후 점수를 모델 성능 개선으로 단정하지 않습니다.
+- 이번 동일 근거 적용 범위는 터미널 Supervisor와 Hybrid 평가기의 문서 검색 답변 경로입니다. 독립 `graph` 모드의 기존 GraphRAG 답변 생성기와 별도 Streamlit은 변경하지 않았습니다.
+- 검증: 공통 근거 일치, 출처 없는 속성 제외, 본문 보존, 원시 후보 유출 방지, 구형 체크포인트 차단을 단위 테스트합니다. 실제 유료 RAGAS 재평가는 별도 실행해야 합니다.
+- [현재 근거 전달 흐름도](../architecture/images/evidence-context-flow.png)
+
+```powershell
+.\.venv\Scripts\python.exe -m src.evaluation.hybrid.ragas_eval --modes supervisor_full --top-k 5 --workers 4 --ragas-workers 8
+```
+
+문항 수를 고정하지 않으면 현재 평가셋 전체를 사용합니다. `--limit 10`을 추가하면 소규모로 먼저 확인할 수 있습니다.
+
 - **기본 평가셋:** [v2 196문항](../../evaluations/datasets/supervisor_v2/README.md) (`Supervisor_Ragas_v2_draft.csv`). 2026-11-13 이전의 v1 150문항은 그대로 포함되어 있고, 원본은 [보관 폴더](../../evaluations/datasets/archive/README.md)에 있습니다.
 - **후보 공유:** Chroma/BM25 후보는 질문마다 한 번만 준비하고, Vector·Hybrid RRF·Cross-Encoder·Supervisor 평가가 재사용합니다. 이 후보에는 온톨로지 후보 필터가 적용됩니다.
 - **질의 분석:** Vector 질의 분석은 기본적으로 꺼져 있고, `MUSEUM_QUERY_ANALYSIS_ENABLED=true`일 때만 실행합니다.

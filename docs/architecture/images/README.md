@@ -4,6 +4,8 @@
 
 | 이미지 | 상태 | 내용 |
 |---|---|---|
+| [evidence-context-flow-mermaid.png](evidence-context-flow-mermaid.png) | **2026-11-16 Mermaid 렌더링** | [Mermaid 원본](../evidence-context-flow.mmd)에서 직접 생성. [SVG](evidence-context-flow-mermaid.svg)는 확대해도 선명하게 볼 수 있음 |
+| [evidence-context-flow.png](evidence-context-flow.png) | **2026-11-16 현재 근거 전달 흐름** | Supervisor 검색 → 출처 연결 → 공통 JSON 근거 → 답변·검증 및 별도 RAGAS. [생성 스크립트](draw_evidence_context_flow.py) |
 | [supervisor-hybrid-flow-clarified.png](supervisor-hybrid-flow-clarified.png) | **2026-11-14 기준으로 갱신** | 입력 가드레일 → 경로 선택(4가지) → Hybrid 검색(0단계 온톨로지 후보 필터, Vector·BM25, RRF, 이름 보장, Cross-Encoder) 또는 Graph → 출처 연결 → 답변 → 검증(재시도·보류) → 출력 가드레일. 주황색이 이번에 추가된 부분 |
 | [combined-route-design.png](combined-route-design.png) | 2026-11-15 추가 | 관계 + 설명 질문을 위한 `combined` 경로(문서 검색 + 그래프): 그래프가 후보 시설을 정하고, 문서 검색이 그 안에서 설명을 찾아 근거를 이어 붙임. 그림은 [draw_combined_route.py](draw_combined_route.py)로 그리며, 이유는 [합친 경로 설계](../../decisions/combined-route.md) |
 | [supervisor-optional-ui-flow.png](supervisor-optional-ui-flow.png) | 유효 | Supervisor의 직접 Vector·Graph 연결은 선택 사항이고, Streamlit UI는 별도 경로임을 보여 줍니다. UI 경로는 이번 작업에서 수정하지 않았습니다. |

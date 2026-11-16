@@ -288,6 +288,8 @@ LangChain 구조화 출력 API: https://reference.langchain.com/python/langchain
 
 ## 14. 라우팅과 속성 근거 보완
 
+2026-11-16부터 답변·검증과 Supervisor RAGAS 채점은 공통 `evidence_context()`가 만든 근거를 받습니다. 시설 이름·본문·출처가 연결된 속성을 같은 JSON 형식으로 전달하며, 검색 원시 후보는 답변 근거에 포함하지 않습니다. [근거 전달 흐름도](images/evidence-context-flow.png)와 [평가 형식 v2](../evaluation/hybrid-ragas.md#근거-형식-v2-2026-11-16)를 참고하세요.
+
 **라우팅 (첫 시도, 위에서부터 처음 맞는 규칙)**
 
 | 순서 | 규칙 | 경로 | 비고 |
@@ -295,13 +297,14 @@ LangChain 구조화 출력 API: https://reference.langchain.com/python/langchain
 | 1 | `route_override`로 사용자가 경로를 지정 | 지정한 경로 | 재시도에서도 유지 |
 | 2 | 단순 `지역 + 주제` 문장 (`region_theme.py`) | Hybrid | 지역 필터를 검색 전에 적용 |
 | 3 | 편의시설·개관 요일 같은 기록된 조건 (`ontology_filter.py`) | Hybrid | 후보 필터가 후보를 먼저 거름. `--no-ontology-filter`로 끔 |
-| 4 | 준비된 Graph 쿼리와 맞는 질문 (같은 시군구·같은 기관·인용 출처 등) | Graph | Graph가 연결된 경우만. LLM 호출 없음 |
+| 4 | 준비된 Graph 쿼리와 맞는 질문 (같은 시군구·같은 기관·인용 출처 등) | 설명 단서가 있으면 combined, 없으면 Graph | Graph가 연결된 경우만. 경로 판단 LLM 호출 없음 |
 | 5 | 위에 해당하지 않음 | LLM 라우터 | 설명으로 답하는 질문은 지역이 있어도 Hybrid, 레코드 사이의 구조가 필요한 질문만 Graph |
 
-- 2·3·4번은 기본 `HybridRAGAgent` 연결에서만 적용됩니다. 사용자 정의 Hybrid를 주입하면 적용되지 않을 수 있습니다.
+- 2·3번은 `region_theme_routing`이 활성화된 연결에 적용됩니다. 사용자 정의 Hybrid를 주입하면 적용되지 않을 수 있습니다. 4번은 Graph 연결과 준비된 쿼리 일치 여부로 별도 판단합니다.
 - 연결되지 않은 경로가 선택되면 Hybrid로 전환합니다.
 
 **재시도 (첫 시도가 검증에 실패한 경우)**
+- combined의 검증 실패는 재시도 없이 보류합니다. 관계 근거가 일반 Hybrid 재검색으로 사라지는 것을 막습니다.
 - 경로를 지정했다면 같은 경로를 씁니다.
 - 직전이 Graph였다면 기본은 **Hybrid**입니다. Graph가 근거를 찾았고 부족한 것이 요금·운영시간 같은 구조 정보일 때만 Graph를 다시 씁니다.
 - 직전이 Hybrid였다면 구조 정보가 부족하고 Graph가 연결돼 있을 때만 Graph로 갑니다.
@@ -310,38 +313,31 @@ LangChain 구조화 출력 API: https://reference.langchain.com/python/langchain
 
 **한계**
 - LLM 라우터의 선택은 항상 정확하지 않습니다. 터미널의 `route`와 `reason`으로 확인하세요.
-- 이 규칙이 평가에서 바뀐 이유는 [Supervisor 검색 문제 기록](../records/supervisor-retrieval-issues.md#5-라우터가-설명형-질문을-graph로-보냄)에 있습니다. 다만 수정 후 재평가는 아직 하지 않았습니다.
-- 후보 필터의 기본 데이터는 로컬 조회표입니다. 매 질문마다 Neo4j에 접속하지 않습니다.
+- 이 규칙이 바뀐 이유는 [Supervisor 검색 문제 기록](../records/supervisor-retrieval-issues.md#5-라우터가-설명형-질문을-graph로-보냄)에 있습니다. combined는 제한된 실제 사례만 확인했으며 기존 Graph·Hybrid RAGAS 점수를 combined의 성능으로 해석하지 않습니다.
+- 후보 필터의 현재 기본값은 아래의 `auto` 백엔드입니다. 후보 필터의 Neo4j 사용과 Supervisor의 Graph 검색 경로 연결은 구분해야 합니다.
 
 **속성 근거 (`metadata_provenance`)**
 - Hybrid/Vector 결과의 문서 ID와 전체 텍스트가 CSV와 일치하고 출처 범위 검사를 통과하면, CSV의 속성값을 `metadata_provenance`로 따로 붙입니다.
 - 대상 필드는 지역·주소·요금·운영시간·휴관 규칙(`closure_rule_raw`)·편의시설(`amenities_raw`)입니다. 목록은 `provenance.py`의 `METADATA_FIELDS`에 있습니다.
 - 검색 결과에 같은 속성이 있으면 값도 일치해야 합니다. 시도 별칭은 원본 값과 정규화 사실을 함께 기록합니다.
 - 설명문의 `source_scope=text`와 속성 근거는 별개입니다. 검색기가 임의로 넣은 `metadata_provenance`는 지우고, 신뢰된 CSV에서 다시 만듭니다. Graph 고유 출처는 유지합니다.
-- 이 근거는 가공된 CSV 행을 가리킬 뿐, 원본 공식 문서가 속성을 검증했다는 뜻이 아닙니다. 사람 검수나 최신성도 보장하지 않으며, 요금 0원에는 기존 예외 확인 규칙이 적용됩니다.
+- 이 근거는 가공된 CSV 행을 가리킬 뿐, 원본 공식 문서가 속성을 검증했다는 뜻이 아닙니다. 사람 검수나 최신성도 보장하지 않습니다. 요금은 기록된 연령별 금액과 적용 범위를 함께 제시합니다.
 - 변경 효과는 평가셋과 실제 서비스 환경에서 따로 측정해야 합니다.
 
 
-## 현재 라우팅 우선순위 (2026-11-15 코드 대조)
-
-기준은 src/agent/supervisor/nodes.py의 supervisor입니다.
-
-1. 재시도는 이전 근거·누락 조건·명시적 경로에 따라 판단합니다.
-2. 첫 시도에서 명시한 route_override가 있으면 그 경로를 사용합니다.
-3. 단순 지역+주제 질문은 Hybrid로 보냅니다.
-4. 인식 가능한 구조 조건은 온톨로지 후보 필터를 사용하는 Hybrid로 보냅니다.
-5. 연결된 Graph의 준비된 쿼리에 맞으면 Graph로 보냅니다. 같은 질문에 설명을 묻는 말(전시·유물·체험 등)이 함께 있으면 `combined`로 보냅니다.
-6. 나머지는 연결된 경로 목록(Graph가 연결되면 `combined` 포함)을 전달해 LLM이 판단합니다.
+위 우선순위는 2026-11-15의 [nodes.py](../../src/agent/supervisor/nodes.py) 기준입니다. 마지막 LLM 판단에는 연결된 경로 목록을 전달하며, Graph가 연결되면 `combined`도 선택할 수 있습니다.
 
 ### 이름 정리: 문서 검색과 하이브리드
 
 | 코드의 경로 이름 | 발표·문서에서 부르는 이름 | 내용 |
 |---|---|---|
-| `hybrid` | 문서 검색 (Vector + BM25) | 의미 검색과 키워드 검색을 RRF로 합치고 Cross-Encoder로 재정렬. Neo4j는 쓰지 않음 |
+| `hybrid` | 문서 검색 (Vector + BM25) | 의미 검색과 키워드 검색을 RRF로 합치고 Cross-Encoder로 재정렬. 구조 조건 후보 필터는 Neo4j를 사용할 수 있음 |
 | `graph` | 그래프 검색 | 준비된 쿼리 또는 Text-to-Cypher로 Neo4j 조회 |
 | `combined` | 하이브리드 (문서 검색 + 그래프) | 그래프가 후보 시설을 정하고, 문서 검색이 그 안에서 설명 근거를 찾음. 두 근거를 점수 없이 이어 붙임 |
 
 `combined`의 순서와 이유는 [합친 경로 설계](../decisions/combined-route.md)에 있고, 그림은 [합친 경로 설계도](images/combined-route-design.png)입니다.
+
+combined는 비교 기준 장소를 제외한 Graph 후보 ID 안에서 문서를 검색합니다. Graph 실패·후보 없음 시 문서 검색은 후보 제한 없이 진행할 수 있지만, 관계 조건까지 입증하지 못하면 검증에서 보류됩니다. 두 경로는 근거를 통합하며 검색 점수를 합치지는 않습니다.
 
 연결되지 않은 검색 경로는 Hybrid로 대체될 수 있습니다. Graph 재시도는 항상 Graph로 고정되지 않습니다. 자동 경로에서 이전 Graph 근거가 없거나 부족한 부분이 구조 조건이 아니면 Hybrid로 전환합니다.
 

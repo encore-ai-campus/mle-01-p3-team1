@@ -8,7 +8,6 @@
 | [평가 기준선 2026-11-13](../../evaluations/reports/baseline_2026-11-13/README.md) | 흐름 변경 이전의 Hybrid·Neo4j·Vector 평가 결과 (v1 평가셋 기준) |
 | [doc-inventory.md](doc-inventory.md) | Markdown 문서 전체의 분류표(유지·보관·통합 후보·판단 보류)와 근거, 들어오는 링크 수 |
 | [neo4j-load-report.md](neo4j-load-report.md) | Neo4j 기본 그래프 적재 이력, DB 명세(제약조건·인덱스·속성), multi-hop 경로 검증 결과 |
-| [superpowers-folder-note.md](superpowers-folder-note.md) | 예전 `docs/superpowers/` 폴더의 안내문(내용 보존용) |
 
  
 ## 검색 문제와 검증 근거

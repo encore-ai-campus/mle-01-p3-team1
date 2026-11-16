@@ -98,7 +98,7 @@ verification; use its base_data_date and trust label, and do not infer missing
 fields, current conditions or special exhibition fees from zero base fees.
 If normalizations is present, preserve the original CSV value and treat the
 matched label only as the application's configured alias.
-metadata.structured_match explains how the ontology filter matched recorded
+structured_match explains how the ontology filter matched recorded
 amenities_raw / closure_rule_raw values. When those fields appear in
 metadata_provenance.fields, cite that evidence for the amenity or open weekday
 as a recorded value of the dataset (e.g. "기록상 주차장·카페(카페테리아) 있음"),
@@ -152,7 +152,7 @@ of a current official administrative name.
 Amenity and open-weekday conditions: when metadata_provenance.fields contains
 amenities_raw or closure_rule_raw, those raw values support the recorded
 presence of an amenity or the recorded closure weekdays for that CSV row.
-metadata.structured_match names the raw item the ontology filter used (for
+structured_match names the raw item the ontology filter used (for
 example amenities_raw item 카페테리아 for 카페, or the misspelling 주자장 for
 주차장); accept it when that raw item is present in the listed field, as an
 application mapping like an alias. It is a dataset record, not live status, and
@@ -177,10 +177,15 @@ def _json(value: Any) -> str:
 
 
 def _context(state: SupervisorState) -> dict[str, Any]:
-    return {"question": state["question"], "evidence": state.get("evidence", []),
+    from .evidence_context import evidence_context
+    # Do not leak raw candidate documents through diagnostics into the answer prompt.
+    def diagnostics(key):
+        source = state.get(key, {})
+        return {name: source[name] for name in ("warnings", "unsupported_constraints", "status") if name in source}
+    return {"question": state["question"], "evidence": [evidence_context(row) for row in state.get("evidence", [])],
             "vector_search_status": state.get("vector_search_status", "not_run"),
-            "vector_search_diagnostics": state.get("vector_search_diagnostics", {}),
-            "hybrid_search_diagnostics": state.get("hybrid_search_diagnostics", {}),
+            "vector_search_diagnostics": diagnostics("vector_search_diagnostics"),
+            "hybrid_search_diagnostics": diagnostics("hybrid_search_diagnostics"),
             "feedback": state.get("feedback", "")}
 
 
