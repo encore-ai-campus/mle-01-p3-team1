@@ -11,3 +11,8 @@ langchain-core==1.7.0
 neo4j==6.4.1
 nemoguardrails==0.24.1
 truststore==0.10.5
+# 팀 검색 엔진(Supervisor: Hybrid 검색) — 챗봇의 박물관 질문용
+# Cross-Encoder(sentence-transformers)는 넣지 않는다: 수 GB 라 배포 메모리를 넘길 수 있고, 없으면 엔진이 RRF 순서로 대신한다.
+langgraph==1.2.18
+rank-bm25==0.2.2
+kiwipiepy==0.24.1
