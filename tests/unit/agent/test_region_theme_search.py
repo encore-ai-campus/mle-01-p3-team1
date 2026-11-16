@@ -3,7 +3,7 @@ import pytest
 from src.agent.supervisor import RouteDecision
 from src.agent.supervisor.nodes import SupervisorController
 from src.hybrid.adapters import ExistingVectorRetriever
-from src.hybrid.region_theme import simple_region_theme
+from src.hybrid.region_theme import Region, recognize_region, simple_region_theme
 
 
 @pytest.mark.parametrize("question, expected", [
@@ -17,7 +17,7 @@ def test_recognizes_unambiguous_region_and_theme(question, expected):
 
 @pytest.mark.parametrize("question", [
     "경기도에 있는 자연 관련 무료 박물관", "경기도에 있는 자연 관련 장소와 부산에 있는 곳",
-    "경기도가 아닌 자연과 관련된 곳", "경기도 수원시에 있는 자연 관련 박물관",
+    "경기도가 아닌 자연과 관련된 곳",
     "경기도에 있는 자연 관련 박물관 근처에 있는 곳", "서울에 있는 역사와 관련된 유료 박물관",
 ])
 def test_complex_conditions_are_not_silently_dropped(question):
@@ -61,3 +61,50 @@ def test_region_filter_reaches_both_searches_before_fusion():
     service = HybridSearchService(bm25_retriever=BM25(), vector_retriever=ExistingVectorRetriever(Service()))
     service.search("경기도 권에 있고 자연과 관련된 곳이면 좋겠음", rerank=False)
     assert observed == {"vector_region": "경기도", "bm25_region": "경기도"}
+
+
+@pytest.mark.parametrize("question, expected", [
+    ("경기도에서 역사를 알 수 있는 곳 10개 추천", Region("경기도")),
+    ("경주에 있는 박물관이나 미술관을 알려줘", Region("경상북도", "경주시")),
+    ("가평에 있는 미술관은?", Region("경기도", "가평군")),
+    ("경기도 수원시에 있는 자연 관련 박물관", Region("경기도", "수원시")),
+    ("제주도에서 아이랑 갈 박물관", Region("제주특별자치도")),
+    ("서울특별시 박물관 추천", Region("서울특별시")),
+])
+def test_region_is_recognized_without_a_fixed_sentence_form(question, expected):
+    assert recognize_region(question) == expected
+
+
+@pytest.mark.parametrize("question", [
+    "경기도박물관 위치 알려줘",          # region word is part of a facility name
+    "서울대학교박물관 어디야",
+    "수원시립박물관 어때",
+    "경주에서 부산까지 가는 박물관",       # two regions
+    "경기도 경주 박물관",                 # sido and district do not belong together
+    "광주에 있는 박물관",                 # 광주광역시 or 경기도 광주시
+    "경주 근처에 있는 박물관",            # nearby is a different question
+    "허준박물관과 같은 시군구에 있는 시설",  # relation question
+    "경기도에 있는 무료 박물관",           # fee is not expressible by this filter
+    "옹기를 전시하는 박물관이 있어?",       # no region
+])
+def test_unclear_regions_are_not_guessed(question):
+    assert recognize_region(question) is None
+
+
+def test_district_reaches_both_searches_before_fusion():
+    from src.hybrid.service import HybridSearchService
+    from src.service.vector_search_service import VectorSearchService
+    observed = {}
+    class Service:
+        def plan_without_analysis(self, query): return VectorSearchService.plan_without_analysis(query)
+        def execute_plan(self, plan, *, top_k, rerank):
+            from types import SimpleNamespace
+            observed["vector"] = (plan.filters.sido, plan.filters.sigungu)
+            return SimpleNamespace(results=[], warnings=[], candidate_count=0, reranked=False)
+    class BM25:
+        def search(self, query, *, top_k, filters):
+            observed["bm25"] = (filters.get("sido"), filters.get("sigungu"))
+            return []
+    service = HybridSearchService(bm25_retriever=BM25(), vector_retriever=ExistingVectorRetriever(Service()))
+    service.search("경주에 있는 박물관이나 미술관을 알려줘", rerank=False)
+    assert observed == {"vector": ("경상북도", "경주시"), "bm25": ("경상북도", "경주시")}
