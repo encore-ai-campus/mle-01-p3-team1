@@ -71,7 +71,7 @@ def render(df: pd.DataFrame) -> None:
         fig.update_layout(margin=dict(l=0, r=0, t=40, b=0), legend_title_text="")
         event = st.plotly_chart(
             fig, width="stretch", on_select="rerun", selection_mode="points",
-            config={"displayModeBar": False, "scrollZoom": True}, key="museum_map",
+            config={"displayModeBar": False, "scrollZoom": True}, key="museum_map", theme=None,
         )
 
     with right:

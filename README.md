@@ -77,6 +77,24 @@
   <img src="docs/architecture/images/architecture-overview.png" alt="mupick RAG 아키텍처" width="900">
 </p>
 
+**질문 처리 흐름**
+
+```mermaid
+flowchart LR
+    Q[사용자 질문] --> GI{입력 가드레일}
+    GI --> S[Supervisor<br/>경로 선택]
+    S -->|조건·지역·설명형| H[Hybrid 검색<br/>후보 필터 → Vector + BM25<br/>→ RRF → Cross-Encoder]
+    S -->|관계·출처| G[(Neo4j<br/>GraphRAG)]
+    S -->|관계 + 설명| C[Combined 검색<br/>Graph로 후보 조회<br/>→ 후보 안 문서 검색]
+    H --> A[답변 생성]
+    G --> A
+    C --> A
+    A --> V{근거·답변 검증}
+    V -->|부족 · 재검색 1회| S
+    V -->|통과 또는 보류| GO{출력 가드레일}
+    GO --> OUT[답변 + 출처]
+```
+
 - 검색 경로: 편의시설·개관 요일 조건, 지역+주제, 설명형 질문은 Hybrid 검색으로, 관계·출처 질문은 Neo4j Graph 검색으로 보냅니다. "신안갯벌박물관과 같은 기관이 운영하는 시설 중 화석과 광물을 전시하는 곳은?"처럼 관계와 설명이 함께 필요한 질문은 Combined 검색으로 보내, Graph로 후보 시설을 찾은 뒤 그 안에서 문서를 검색합니다.
 - 상세 흐름: [Supervisor 연결](docs/architecture/supervisor-integration.md), [구조 이미지 안내](docs/architecture/images/README.md)
 - 설계 이유: [기술 결정 기록](docs/decisions/README.md)
@@ -95,6 +113,7 @@
 | 지식그래프 | Neo4j Aura · neo4j Python driver 6.4.1 |
 | 안전 | NeMo Guardrails 0.24.1 |
 | 평가 | RAGAS 0.4.3, 자체 검색 순위 지표(Hit@k, Recall@k, MRR) |
+| 관측 | Langfuse Cloud · langfuse 5.2.0 |
 | 데이터·UI | pandas 2.3.3 · Streamlit 1.67.0 · Plotly 7.1.0 |
 
 전체 의존성과 정확한 버전은 [pyproject.toml](pyproject.toml)과 [uv.lock](uv.lock)에 있습니다.
@@ -157,7 +176,7 @@ NEO4J_PASSWORD=...
 NEO4J_DATABASE=...
 ```
 
-- `gpt-6-luna`는 팀에서 개발한 예시 모델로, 계정에서 쓸 수 있는 구조화 출력 모델로 바꾸면 됩니다. (실행할 때 `--model`로 지정해도 가능)
+- `gpt-6-luna`는 팀에서 사용한 예시 모델로, 계정에서 쓸 수 있는 구조화 출력 모델로 바꾸면 됩니다. (실행할 때 `--model`로 지정해도 가능)
 - `OPENAI_CHAT_MODEL`, `RAGAS_JUDGE_MODEL`, `GUARDRAILS_MODEL`은 필요할 때만 지정합니다.
 - `.env`는 공유하거나 Git에 올리지 않습니다. 저장소에는 빈 양식인 [.env.example](.env.example)만 들어 있습니다.
 
@@ -270,6 +289,23 @@ uv run python -m src.evaluation.vector_db.evaluate --output outputs/evaluation/v
 ```
 
 결과는 `outputs/evaluation/` 아래 실행별 폴더(`hybrid_ragas/`, `neo4j_multihop_ragas/`, `vector_db/`)에 저장됩니다. 결과를 쓰고 있는 폴더는 옮기거나 지우지 않아야 합니다.
+
+### Langfuse 관측 및 모니터링
+
+Langfuse를 LangGraph Supervisor와 연동하여 RAG 시스템의 실행 과정과 검색 성능을 추적할 수 있도록 구성했습니다.
+
+**주요 기능**
+- **LangGraph 실행 추적:** 노드별 실행 흐름, 라우팅 경로, 검증 결과 및 재시도 기록
+- **LLM 관측:** 모델 호출, 프롬프트·응답, 토큰 사용량 등 추적
+- **검색 과정 분석:** Vector·BM25 검색 후보, 점수, 실행 시간 확인
+- **검색 순위 변화 추적:** RRF 병합, Cross-Encoder 재정렬 전후의 후보별 순위 및 점수 비교
+- **단계별 성능 측정:** 검색·병합·재정렬 과정을 개별 Span으로 구분하여 처리 시간 분석
+- **오류 및 폴백 추적:** 검색 오류, 재정렬 실패, 낮은 신뢰도로 인한 RRF 순서 유지 등을 구분
+- **평가 결과 연계:** 별도로 산출한 RAGAS 평가 결과를 Langfuse에 가져오는 기능 지원
+
+**기술 스택:** Langfuse Cloud, LangGraph, LangChain, Python
+
+**참고:** 코드 구현과 오프라인 테스트를 완료했으며, 실제 Langfuse Cloud에서의 전체 동작 검증은 추가로 필요합니다.
 
 ## 폴더 구조
 

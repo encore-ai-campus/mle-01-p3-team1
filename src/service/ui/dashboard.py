@@ -138,7 +138,7 @@ def _location_map(row, near: pd.DataFrame) -> None:
         map=dict(style=S.MAP_STYLE, center=dict(lat=(min(lats) + max(lats)) / 2, lon=(min(lons) + max(lons)) / 2), zoom=zoom),
         height=230, margin=dict(l=0, r=0, t=0, b=0), showlegend=False,
     )
-    st.plotly_chart(fig, width="stretch", config={"displayModeBar": False})
+    st.plotly_chart(fig, width="stretch", config={"displayModeBar": False}, theme=None)
     st.markdown(
         f'<div class="map-legend"><span style="background:{S.ACCENT}"></span>보고 있는 곳'
         f'<span style="background:{S.POWDER_BLUE}"></span>가까운 곳</div>',
@@ -310,11 +310,11 @@ def render(df: pd.DataFrame) -> None:
     st.write("")
     c1, c2 = st.columns([1, 1.25], gap="large")
     with c1:
-        st.plotly_chart(_sido_chart(df), width="stretch", config={"displayModeBar": False})
+        st.plotly_chart(_sido_chart(df), width="stretch", config={"displayModeBar": False}, theme=None)
     with c2:
-        st.plotly_chart(_ownership_chart(df), width="stretch", config={"displayModeBar": False})
-        st.plotly_chart(_fee_chart(df), width="stretch", config={"displayModeBar": False})
-    st.plotly_chart(_amenity_chart(df), width="stretch", config={"displayModeBar": False})
+        st.plotly_chart(_ownership_chart(df), width="stretch", config={"displayModeBar": False}, theme=None)
+        st.plotly_chart(_fee_chart(df), width="stretch", config={"displayModeBar": False}, theme=None)
+    st.plotly_chart(_amenity_chart(df), width="stretch", config={"displayModeBar": False}, theme=None)
     with st.expander("데이터 표로 보기"):
         st.dataframe(
             df[["name", "ownership_type", "sido", "sigungu", "adult_fee", "weekday_open", "weekday_close"]],
