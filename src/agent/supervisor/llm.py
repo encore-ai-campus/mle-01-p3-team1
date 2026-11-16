@@ -109,8 +109,9 @@ spellings differ (e.g. 경상남도 창녕군 and 경상남도 창녕군청); ci
 own link and each candidate's link. Name the column (운영기관 or 관리기관) and
 say MANAGED_BY links are UNVERIFIED.
 When evidence text contains region_free_facility_total (with its count_scope) larger
-than the number of places you list, say that only some are shown and give that
-total (for example "기록상 무료인 곳은 57곳이며 그중 5곳을 보여 드립니다"); never
+than the number of places you list, begin the answer with one sentence that names
+both numbers: that total and the number you list (for example "기록상 무료인 곳은
+57곳이며, 그중 5곳만 소개합니다"). Never write only "확인된 곳을 소개합니다", and never
 imply the listed places are all.
 When the question asks for a number of recommended places ("10곳", "5개 추천",
 "3군데"), list only the places whose cited evidence meets the question's other

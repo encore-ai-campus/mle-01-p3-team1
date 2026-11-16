@@ -96,3 +96,10 @@ def test_requested_recommendation_count_is_an_upper_limit_in_both_prompts():
     assert "upper\nlimit, not a required part" in VERIFY_PROMPT
     # recorded quantities stay strict
     assert "몇 개" in ANSWER_PROMPT and "몇 개" in VERIFY_PROMPT
+
+
+def test_answer_prompt_asks_for_the_total_and_the_listed_number_together():
+    from src.agent.supervisor.llm import ANSWER_PROMPT
+
+    assert "begin the answer with one sentence that names" in ANSWER_PROMPT
+    assert "그중 5곳만 소개합니다" in ANSWER_PROMPT
