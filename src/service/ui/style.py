@@ -20,8 +20,8 @@ COCONUT = "#F0EDE5"
 
 FONT_URL = "app/static/fonts"
 MAP_STYLE = "carto-voyager"  # 지도 바탕 (물·공원·도로에 옅은 색이 들어간 부드러운 컬러 지도)
-HEAD_FONT = '"IBM Plex Sans KR", "Apple SD Gothic Neo", sans-serif'   # 제목 (굵기로 위계 구분)
-BODY_FONT = '"IBM Plex Sans KR", "Apple SD Gothic Neo", sans-serif'   # 본문
+HEAD_FONT = '"IBM Plex Sans KR", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif'   # 제목 (굵기로 위계 구분)
+BODY_FONT = '"IBM Plex Sans KR", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif'   # 본문
 
 SURFACE = "#FAF8F3"      # 카드 배경
 INPUT_BG = "#E6E0D2"     # 채팅 입력창 = .streamlit/config.toml 의 secondaryBackgroundColor
@@ -81,7 +81,13 @@ _register_plotly_template()
 
 CSS = f"""
 <style>
-/* 나눔 글꼴 @font-face 는 .streamlit/config.toml 의 [[theme.fontFaces]] 에서 등록 */
+/* 글꼴 등록: config.toml 의 [[theme.fontFaces]] 와 같은 파일을 여기서도 등록한다.
+   브라우저에 저장된 Streamlit 테마 선택(예: 다른 앱에서 고른 Dark)이 config.toml 테마를 덮으면
+   테마 쪽 글꼴 등록이 빠져 Windows 기본 글꼴로 보이기 때문 */
+@font-face {{ font-family:"IBM Plex Sans KR"; src:url("{FONT_URL}/IBMPlexSansKR-Regular.woff2") format("woff2"); font-weight:400; font-style:normal; font-display:swap; }}
+@font-face {{ font-family:"IBM Plex Sans KR"; src:url("{FONT_URL}/IBMPlexSansKR-Medium.woff2") format("woff2"); font-weight:500; font-style:normal; font-display:swap; }}
+@font-face {{ font-family:"IBM Plex Sans KR"; src:url("{FONT_URL}/IBMPlexSansKR-SemiBold.woff2") format("woff2"); font-weight:600; font-style:normal; font-display:swap; }}
+@font-face {{ font-family:"IBM Plex Sans KR"; src:url("{FONT_URL}/IBMPlexSansKR-Bold.woff2") format("woff2"); font-weight:700; font-style:normal; font-display:swap; }}
 :root {{
   --red: {RED_INFERNO}; --yellow: {PASTEL_YELLOW}; --reseda: {RESEDA}; --chive: {CHIVE};
   --accent: {ACCENT}; --powder: {POWDER_BLUE}; --navy: {NAVY}; --cocoa: {COCOA}; --coconut: {COCONUT};
