@@ -2,7 +2,7 @@
 
 import json
 import pytest
-from neo4j.exceptions import CypherSyntaxError, ServiceUnavailable
+from neo4j.exceptions import CypherSyntaxError, CypherTypeError, ServiceUnavailable
 
 from src.agent.neo4j_text2cypher import (
     Neo4jText2Cypher, REQUIRED_RESULT_FIELDS, _prepare_common_query,
@@ -219,3 +219,30 @@ def test_another_requests_template_cannot_leak_into_this_search(monkeypatch):
     monkeypatch.setattr(agent, "generate_cypher", lambda *args, **kwargs: ("RETURN 1 LIMIT $top_k", {"target_name": "허준박물관"}))
     evidence = agent.search("허준박물관 수유실은 몇 개 있나요?", 5)
     assert evidence and evidence[0]["museum_id"] == "M1"
+
+
+def test_ill_typed_generated_query_is_regenerated_once(monkeypatch):
+    """CypherTypeError came back for a generated query and failed the whole question
+    (V2-UL02 in the 2026-11-16 evaluation); it is a query problem like a syntax error."""
+    row = {"museum_id": "M1", "name": "최북미술관", "text": "기록", "span_id": None, "source_doc_ids": ["D1"],
+           "source_urls": [], "sido": "서울", "sigungu": "종로구"}
+    calls = []
+
+    class Driver:
+        def execute_query(self, query, **kwargs):
+            calls.append(query)
+            if len(calls) == 1:
+                raise CypherTypeError("Type mismatch: expected Number but was String")
+            return [row], None, list(row)
+
+    agent = Neo4jText2Cypher(Driver(), "neo4j", client=object())
+    generated = []
+
+    def fake_generate(question, k, repair_error=None):
+        generated.append(repair_error)
+        return "RETURN 1 LIMIT $top_k", {}
+
+    monkeypatch.setattr(agent, "generate_cypher", fake_generate)
+    evidence = agent.search("최북미술관 수유실은 몇 개 있나요?", 5)
+    assert evidence and len(calls) == 2
+    assert generated[0] is None and "Type mismatch" in generated[1]

@@ -11,7 +11,7 @@ from collections.abc import Mapping
 from typing import Any
 
 from neo4j import RoutingControl
-from neo4j.exceptions import CypherSyntaxError
+from neo4j.exceptions import CypherSyntaxError, CypherTypeError
 
 from .region_normalization import (
     SIDO_ALIAS_FAMILIES,
@@ -423,6 +423,10 @@ def _free_region(question: str) -> list[str] | None:
         return None
     region = next(iter(matched))
     return ["전북", "전라북"] if region == "전북" else [region]
+
+# A generated query that Neo4j rejects as malformed or ill-typed (comparing a string with a
+# number) is regenerated once with the error. Infrastructure errors are not retried here.
+_REPAIRABLE_QUERY_ERRORS = (CypherSyntaxError, CypherTypeError)
 
 _PARAMETER_PATTERN = re.compile(r"\$([A-Za-z_][A-Za-z0-9_]*)")
 _FORBIDDEN_CLAUSE_PATTERN = re.compile(
@@ -1331,7 +1335,7 @@ class Neo4jText2Cypher:
             records, _, keys = read(
                 query, parameters_=parameters, database_=self.database, routing_=RoutingControl.READ,
             )
-        except CypherSyntaxError as exc:
+        except _REPAIRABLE_QUERY_ERRORS as exc:
             template = self.last_query_template = "text2cypher_repair"
             query, parameters = generate(question, k, repair_error=f"{exc}\nQuery:\n{query}")
             self.last_cypher, self.last_parameters = query, parameters
@@ -1352,7 +1356,7 @@ class Neo4jText2Cypher:
                     query, parameters_=parameters, database_=self.database,
                     routing_=RoutingControl.READ,
                 )
-            except CypherSyntaxError as exc:
+            except _REPAIRABLE_QUERY_ERRORS as exc:
                 template = self.last_query_template = f"{prepared_template}_fallback_text2cypher_repair"
                 query, parameters = generate(
                     question, k, repair_error=f"{exc}\nQuery:\n{query}"
