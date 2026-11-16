@@ -10,6 +10,7 @@
 </p>
 
 <p align="center">
+  🚀 <a href="https://mle-01-p3-team1git-bbejly367hmdj9ornyfbpq.streamlit.app/"><b>mupick</b></a> ·
   📊 <a href="https://docs.google.com/spreadsheets/d/1skL2_D_ndb_xmYK5BoVE9eKltxutdhhkg5_orGCgML0/edit?gid=1924971893#gid=1924971893">데이터 명세서</a> ·
   📈 <a href="docs/evaluation/README.md">평가 문서</a> ·
   🛠 <a href="docs/records/supervisor-retrieval-issues.md">문제 해결 기록</a> ·
@@ -100,7 +101,7 @@
 
 ## 데이터
 
-> 📊 컬럼별 정의, 출처, 처리 규칙은 **[데이터 명세서](https://docs.google.com/spreadsheets/d/1skL2_D_ndb_xmYK5BoVE9eKltxutdhhkg5_orGCgML0/edit?gid=1924971893#gid=1924971893)**에 정리했습니다.
+> 📊 컬럼별 정의, 출처, 처리 규칙은 [데이터 명세서](https://docs.google.com/spreadsheets/d/1skL2_D_ndb_xmYK5BoVE9eKltxutdhhkg5_orGCgML0/edit?gid=1924971893#gid=1924971893)에 정리했습니다.
 
 | 항목 | 내용 |
 |---|---|
@@ -184,6 +185,8 @@ uv run python scripts/build_vector_db.py --force
 
 ### Streamlit UI
 
+배포된 서비스는 **[mupick 바로가기](https://mle-01-p3-team1git-bbejly367hmdj9ornyfbpq.streamlit.app/)** 에서 바로 써 볼 수 있습니다 (Streamlit Community Cloud, `main` 브랜치가 바뀌면 자동 반영). 로컬에서 실행하려면:
+
 ```bash
 uv run streamlit run src/service/app.py
 ```
@@ -219,11 +222,11 @@ uv run python -m src.agent.supervisor.run --team-hybrid --with-neo4j --interacti
 
 평가셋의 정답 라벨은 아직 사람 검수 전 초안이라 **모든 점수는 잠정치**입니다. 평가셋 구성과 정답을 정한 방법은 [평가 안내](evaluations/README.md)에 있습니다.
 
-**최신: Supervisor 전체 흐름** (2026-11-14, v2 196문항, top-k 5, 라우팅 수정 이전) · [결과 보고서](evaluations/reports/run_2026-11-14_supervisor_full_v2_first/README.md)
+**최신: Supervisor 전체 흐름** (2026-11-15, v2 222문항 · 답변 가능 205 / 답변 불가 17, top-k 5) · [결과 보고서](outputs/evaluation/hybrid_ragas/run_20261115_182859_439081Z/summary.md)
 
 | Hit@1 | Hit@5 | MRR@10 | Faithfulness | Context Recall | Context Precision | 검증 통과율 |
 |---|---|---|---|---|---|---|
-| 0.784 | 0.878 | 0.832 | 0.685 | 0.681 | 0.688 | 0.790 |
+| 0.956 | 0.981 | 0.968 | 0.933 | 0.906 | 0.923 | 0.895 |
 
 **기준선** (2026-11-13, 흐름 변경 이전) · [기준선 보고서](evaluations/reports/baseline_2026-11-13/README.md)
 
