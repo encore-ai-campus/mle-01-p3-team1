@@ -4,6 +4,7 @@ from __future__ import annotations
 import os
 
 from . import adapt_graph, adapt_hybrid, adapt_hybrid_retriever, adapt_vector, build_supervisor
+from src.observability.graph_runtime import observe_connected_supervisor, observe_search_node
 
 
 def build_connected_supervisor(*, hybrid_node=None, hybrid_retriever=None, vector_retriever=None,
@@ -60,13 +61,18 @@ def build_connected_supervisor(*, hybrid_node=None, hybrid_retriever=None, vecto
         def guardrails_factory():
             from src.guardrails import get_guardrails
             return get_guardrails()
-    return build_supervisor(
-        hybrid_search=hybrid_search,
-        vector_search=adapt_vector(vector_retriever, provenance_index=provenance) if vector_retriever is not None else None,
-        graph_search=adapt_graph(graph_retriever) if graph_retriever is not None else None,
+    # One instrumentation boundary for both terminal and Streamlit clients.
+    # The underlying search functions, graph and all output contracts are unchanged.
+    vector_search = adapt_vector(vector_retriever, provenance_index=provenance) if vector_retriever is not None else None
+    graph_search = adapt_graph(graph_retriever) if graph_retriever is not None else None
+    graph = build_supervisor(
+        hybrid_search=observe_search_node(hybrid_search, kind="hybrid"),
+        vector_search=observe_search_node(vector_search, kind="vector"),
+        graph_search=observe_search_node(graph_search, kind="graph"),
         route_question=nodes.route, answer_question=nodes.answer,
         verify_answer=nodes.verify, max_retries=max_retries,
         metadata_provenance=provenance.attach,
         region_theme_routing=region_theme_routing,
         guardrails_factory=guardrails_factory,
     )
+    return observe_connected_supervisor(graph)
