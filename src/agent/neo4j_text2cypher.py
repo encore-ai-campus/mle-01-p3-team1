@@ -1312,13 +1312,18 @@ class Neo4jText2Cypher:
             finally:
                 measured["neo4j_query_ms"] += (perf_counter() - started) * 1000
 
+        # The template is a local: this object is shared by concurrent requests, and reading
+        # self.last_query_template after a database round trip returned another request's
+        # template (KeyError 'relation', CypherTypeError in the 8-worker evaluation).
+        template = ""
         started = perf_counter()
         prepared = _prepare_common_query(question, k)
         measured["prepared_query_ms"] = (perf_counter() - started) * 1000
         if prepared is not None:
-            self.last_query_template, query, parameters = prepared
+            template, query, parameters = prepared
+            self.last_query_template = template
         else:
-            self.last_query_template = "text2cypher"
+            template = self.last_query_template = "text2cypher"
             query, parameters = generate(question, k)
         self.last_cypher = query
         self.last_parameters = parameters
@@ -1327,19 +1332,19 @@ class Neo4jText2Cypher:
                 query, parameters_=parameters, database_=self.database, routing_=RoutingControl.READ,
             )
         except CypherSyntaxError as exc:
-            self.last_query_template = "text2cypher_repair"
+            template = self.last_query_template = "text2cypher_repair"
             query, parameters = generate(question, k, repair_error=f"{exc}\nQuery:\n{query}")
             self.last_cypher, self.last_parameters = query, parameters
             records, _, keys = read(
                 query, parameters_=parameters, database_=self.database, routing_=RoutingControl.READ,
             )
-        if not records and self.last_query_template not in {
+        if not records and template not in {
             "text2cypher", "text2cypher_repair", "nearby_region_pair",
             # An empty organization traversal is a definitive graph answer.
             "same_operator", "same_manager",
         }:
-            prepared_template = self.last_query_template
-            self.last_query_template = f"{prepared_template}_fallback_text2cypher"
+            prepared_template = template
+            template = self.last_query_template = f"{prepared_template}_fallback_text2cypher"
             query, parameters = generate(question, k)
             self.last_cypher, self.last_parameters = query, parameters
             try:
@@ -1348,7 +1353,7 @@ class Neo4jText2Cypher:
                     routing_=RoutingControl.READ,
                 )
             except CypherSyntaxError as exc:
-                self.last_query_template = f"{prepared_template}_fallback_text2cypher_repair"
+                template = self.last_query_template = f"{prepared_template}_fallback_text2cypher_repair"
                 query, parameters = generate(
                     question, k, repair_error=f"{exc}\nQuery:\n{query}"
                 )
@@ -1404,10 +1409,10 @@ class Neo4jText2Cypher:
                           *_V2_EVIDENCE_FIELDS):
                 if field in keys:
                     item[field] = record.get(field)
-            if self.last_query_template in {"nearby_region_pair", "same_sido_excluded_sigungu_free_art",
+            if template in {"nearby_region_pair", "same_sido_excluded_sigungu_free_art",
                                             "same_sido_excluded_sigungu_art", "same_operator", "same_manager"}:
                 item["source_scope"] = "graph_properties"
-                if self.last_query_template == "nearby_region_pair":
+                if template == "nearby_region_pair":
                     item["distance_type"] = "straight_line"
             if not item["text"].strip():
                 fallback_fields = (
@@ -1424,13 +1429,13 @@ class Neo4jText2Cypher:
                 item["text"] = "[Neo4j 구조화 속성] " + json.dumps(
                     fallback, ensure_ascii=False, sort_keys=True, default=str
                 )
-            if self.last_query_template == "regional_fee":
+            if template == "regional_fee":
                 item["evidence_kind"] = "regional_zero_base_fee"
             evidence.append(item)
         target_name = parameters.get("target_name")
         # Organization templates: the candidates' rows do not show the named
         # museum's own link, so fetch it as separate anchor evidence.
-        if (self.last_query_template in {"same_operator", "same_manager"}
+        if (template in {"same_operator", "same_manager"}
                 and isinstance(target_name, str) and target_name.strip()):
             anchor_item = self._organization_anchor(read, target_name.strip(), parameters["relation"])
             if anchor_item is not None:
@@ -1440,7 +1445,7 @@ class Neo4jText2Cypher:
         # region. Fetch the target's actual graph relationship as separate
         # evidence when a same-region query identifies it explicitly.
         if (isinstance(target_name, str) and target_name.strip()
-                and (self.last_query_template in {"same_sido_excluded_sigungu_free_art", "same_sido_excluded_sigungu_art"}
+                and (template in {"same_sido_excluded_sigungu_free_art", "same_sido_excluded_sigungu_art"}
                      or re.search(r"(?:같은|동일한?|똑같은)\s*(?:지역|시군구|시|군|구)", question))
                 and target_name.strip().casefold() in question.casefold()):
             anchor_query = """

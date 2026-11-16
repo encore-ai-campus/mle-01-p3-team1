@@ -198,3 +198,24 @@ def test_free_shortcut_reads_region_and_facility_type(question, regions, kind):
 def test_free_query_filters_facility_type_with_a_parameter():
     from src.agent.neo4j_text2cypher import _REGION_FREE_QUERY
     assert _REGION_FREE_QUERY.count("$facility_type IS NULL OR") == 2
+
+
+def test_another_requests_template_cannot_leak_into_this_search(monkeypatch):
+    """The graph tool is shared by concurrent requests (8 workers in the evaluation).
+
+    Reading the template from the shared object after the database call used another
+    request's value: a generated query with a target_name but no relation hit
+    KeyError('relation') once someone else had set "same_operator".
+    """
+    row = {"museum_id": "M1", "name": "허준박물관", "text": "기록", "span_id": None, "source_doc_ids": ["D1"],
+           "source_urls": [], "sido": "서울", "sigungu": "강서구"}
+
+    class Driver:
+        def execute_query(self, query, **kwargs):
+            agent.last_query_template = "same_operator"  # a concurrent request overwrote it
+            return [row], None, list(row)
+
+    agent = Neo4jText2Cypher(Driver(), "neo4j", client=object())
+    monkeypatch.setattr(agent, "generate_cypher", lambda *args, **kwargs: ("RETURN 1 LIMIT $top_k", {"target_name": "허준박물관"}))
+    evidence = agent.search("허준박물관 수유실은 몇 개 있나요?", 5)
+    assert evidence and evidence[0]["museum_id"] == "M1"
