@@ -157,7 +157,7 @@ NEO4J_PASSWORD=...
 NEO4J_DATABASE=...
 ```
 
-- `gpt-6-luna`는 팀에서 개발한 예시 모델로, 계정에서 쓸 수 있는 구조화 출력 모델로 바꾸면 됩니다. (실행할 때 `--model`로 지정해도 가능)
+- `gpt-6-luna`는 팀에서 사용한 예시 모델로, 계정에서 쓸 수 있는 구조화 출력 모델로 바꾸면 됩니다. (실행할 때 `--model`로 지정해도 가능)
 - `OPENAI_CHAT_MODEL`, `RAGAS_JUDGE_MODEL`, `GUARDRAILS_MODEL`은 필요할 때만 지정합니다.
 - `.env`는 공유하거나 Git에 올리지 않습니다. 저장소에는 빈 양식인 [.env.example](.env.example)만 들어 있습니다.
 
