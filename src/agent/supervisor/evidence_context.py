@@ -64,4 +64,6 @@ def prompt_context(state: SupervisorState) -> dict[str, Any]:
             "vector_search_status": state.get("vector_search_status", "not_run"),
             "vector_search_diagnostics": diagnostics("vector_search_diagnostics"),
             "hybrid_search_diagnostics": diagnostics("hybrid_search_diagnostics"),
-            "feedback": state.get("feedback", "")}
+            "feedback": state.get("feedback", ""),
+            # Present only while rewriting an answer that failed verification.
+            **({"previous_answer": state["previous_answer"]} if state.get("previous_answer") else {})}

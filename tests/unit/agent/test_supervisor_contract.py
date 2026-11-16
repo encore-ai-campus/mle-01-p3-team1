@@ -40,6 +40,11 @@ def run_nodes(ctl, request, config=None):
         state.update(ctl.answer(state, config))
         state.update(ctl.verify(state, config))
         state.update(ctl.review(state))
+        while state["next_action"] == "revise":  # same evidence, answer rewritten once
+            state.update(ctl.revise(state))
+            state.update(ctl.answer(state, config))
+            state.update(ctl.verify(state, config))
+            state.update(ctl.review(state))
         if state["next_action"] == "finish":
             state.update(ctl.finish(state))
             return state

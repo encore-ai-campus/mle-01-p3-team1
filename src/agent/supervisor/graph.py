@@ -11,6 +11,7 @@ from .state import RequestState, SupervisorState
 
 def build_supervisor(*, hybrid_search, route_question, answer_question, verify_answer,
                      vector_search=None, graph_search=None, max_retries: int = 1,
+                     max_revisions: int = 1,
                      guardrails_factory=None, metadata_provenance=None, region_theme_routing=False):
     """Build a single-question supervisor (no implicit conversation memory).
 
@@ -22,7 +23,7 @@ def build_supervisor(*, hybrid_search, route_question, answer_question, verify_a
     ctl = SupervisorController(
         hybrid_search=hybrid_search, vector_search=vector_search, graph_search=graph_search,
         route_question=route_question, answer_question=answer_question,
-        verify_answer=verify_answer, max_retries=max_retries,
+        verify_answer=verify_answer, max_retries=max_retries, max_revisions=max_revisions,
         metadata_provenance=metadata_provenance,
         region_theme_routing=region_theme_routing,
     )
@@ -88,6 +89,7 @@ def build_supervisor(*, hybrid_search, route_question, answer_question, verify_a
     workflow.add_node("verify", timed(verify_node))
     workflow.add_node("supervisor_review", ctl.review)
     workflow.add_node("retry", ctl.retry)
+    workflow.add_node("revise", ctl.revise)
     workflow.add_node("finish", ctl.finish)
     workflow.add_node("abstain", ctl.abstain)
     if guardrails_factory is not None:
@@ -111,9 +113,10 @@ def build_supervisor(*, hybrid_search, route_question, answer_question, verify_a
     workflow.add_edge("answer_agent", "verify")
     workflow.add_edge("verify", "supervisor_review")
     workflow.add_conditional_edges("supervisor_review", lambda state: state["next_action"], {
-        "finish": "finish", "retry": "retry", "abstain": "abstain",
+        "finish": "finish", "retry": "retry", "revise": "revise", "abstain": "abstain",
     })
     workflow.add_edge("retry", "supervisor")
+    workflow.add_edge("revise", "answer_agent")
     if guardrails_factory is not None:
         workflow.add_edge("finish", "guard_output")
         workflow.add_edge("abstain", "guard_output")

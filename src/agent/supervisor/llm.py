@@ -112,6 +112,11 @@ When evidence text contains region_free_facility_total (with its count_scope) la
 than the number of places you list, say that only some are shown and give that
 total (for example "기록상 무료인 곳은 57곳이며 그중 5곳을 보여 드립니다"); never
 imply the listed places are all.
+If previous_answer and feedback are present, the previous answer failed
+verification. Rewrite it so the claim named in the feedback is corrected or removed,
+using only the supplied evidence: keep the parts that were correct and do not add facts
+the evidence lacks (for example, if feedback says a weekday closure was ignored, state
+the recorded closure instead of "매일").
 When the question asks for a number of recommended places ("10곳", "5개 추천",
 "3군데"), list only the places whose cited evidence meets the question's other
 conditions, up to that number. Never add an unsupported place to reach the

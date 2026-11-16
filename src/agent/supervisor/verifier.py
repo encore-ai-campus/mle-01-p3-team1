@@ -102,9 +102,11 @@ class LLMVerifier:
         self.chain = model.with_structured_output(VerificationSchema, method="json_schema")
 
     def __call__(self, state: SupervisorState, config: Config = None) -> VerificationResult:
+        context = prompt_context(state)
+        context.pop("previous_answer", None)  # the verifier judges the new answer, not the old one
         value = self.chain.invoke([
             ("system", VERIFY_PROMPT),
-            ("human", to_json({**prompt_context(state), "answer": state["candidate_answer"],
+            ("human", to_json({**context, "answer": state["candidate_answer"],
                                "cited_evidence_ids": state["cited_evidence_ids"]})),
         ], config=config)
         value = value if isinstance(value, VerificationSchema) else VerificationSchema.model_validate(value)

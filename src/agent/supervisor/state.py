@@ -19,6 +19,10 @@ class SupervisorState(RequestState, total=False):
     route: Route
     route_reason: str
     retry_count: int
+    # Answer revisions reuse the same evidence: the search is not repeated.
+    revision_count: int
+    previous_answer: str
+    verification_kind: str  # "pass" | "content" | "structural" | "error"
     feedback: str
     vector_evidence: list[dict[str, Any]]
     vector_source_ids: list[str]  # Museum IDs, NOT SourceDocument IDs.
