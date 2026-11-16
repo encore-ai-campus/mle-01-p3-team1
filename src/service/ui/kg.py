@@ -7,8 +7,6 @@
     NEO4J_DATABASE=neo4j        (선택)
 
 흐름 (chatbot.py 에서 호출):
-    -. needs_graph() : 지역·조건·관계 단어가 없는 질문이면 그래프 검색(LLM 4~6초)을 아예 건너뛴다
-    0. prepared()    : 팀 공용 '준비된 쿼리'(src/agent/neo4j_text2cypher.py)에 맞는 질문이면 LLM 없이 바로 그 쿼리 사용
     1. plan()        : LLM 이 질문을 보고 그래프가 필요한지 판단 → 필요하면 읽기 전용 Cypher 생성
     2. run_read()    : Cypher 실행 (쓰기 키워드 차단 + 읽기 라우팅)
     3. evidence()    : 결과에 나온 박물관들의 실제 관계(박물관→시군구→시도, 필요 시 출처)를 다시 조회해 노드·엣지로 변환
@@ -17,7 +15,6 @@
 from __future__ import annotations
 
 import json
-import logging
 import os
 import re
 from dataclasses import dataclass, field
@@ -27,8 +24,6 @@ import streamlit.components.v1 as components
 
 from ui import style as S
 from ui.data import SIDO_ALIAS
-
-log = logging.getLogger(__name__)
 
 CHAT_MODEL = os.getenv("OPENAI_CHAT_MODEL", "gpt-6-luna")
 WRITE_PATTERN = re.compile(
@@ -123,7 +118,6 @@ class GraphResult:
     edges: list[dict] = field(default_factory=list)
     museums: list[dict] = field(default_factory=list)  # [{"name", "sido"}] 근거 그래프의 박물관
     error: str = ""
-    template: str = ""  # 준비된 쿼리를 썼으면 그 이름, LLM 이 만든 Cypher 면 ""
 
 
 # ── 연결 ──────────────────────────────────────────────
@@ -165,46 +159,6 @@ def _execute(driver, cypher: str, **params):
 
 def run_read(driver, cypher: str, **params) -> list[dict]:
     return [r.data() for r in _execute(driver, cypher, **params)]
-
-
-# ── 0. 그래프 검색을 할 만한 질문인지 (LLM 없이, 단어로만) ──
-# 그래프는 지역·요금·요일·편의시설·개수·관계를 정확히 거를 때 쓴다. 이런 단어가 하나도 없는 질문
-# ("너무 심심해", "신라 유물 볼 수 있는 곳")은 벡터 검색만으로 답하고, Cypher 생성 LLM(4~6초)을 부르지 않는다.
-# 애매하면 그래프를 쓰는 쪽으로 둔다(잘못 건너뛰는 것보다 예전처럼 느린 편이 낫다).
-SIDO_SHORT = ("서울", "부산", "대구", "인천", "광주", "대전", "울산", "세종", "경기", "강원",
-              "충북", "충남", "충청", "전북", "전남", "전라", "경북", "경남", "경상", "제주")
-GRAPH_HINTS = re.compile(
-    r"무료|공짜|유료|요금|관람료|입장료|가격|얼마|원\s*이하|할인"
-    r"|[월화수목금토일]요일|주말|평일|공휴일|휴관|휴무|쉬는|여는|문\s*열|개관|운영\s*시간|몇\s*시|야간|늦게까지"
-    r"|휠체어|주차|유모차|장애인|수유|엘리베이터|경사로|편의\s*시설|카페|식당|기념품"
-    r"|몇\s*(?:개|곳|군데)|개수|가장|제일|많은|순위|비교"
-    r"|근처|주변|가까운|인근|같은|운영하는|관리하는|기관|국립|공립|사립|시립|도립|군립"
-)
-FOLLOW_UP_HINTS = re.compile(r"거기|그곳|그\s*중|아까|방금|위에서|다른\s*곳|그\s*근처")
-
-
-def region_terms(sidos, sigungus) -> frozenset[str]:
-    """질문에서 찾을 지역 이름: 시·도 전체/줄임말 + 시·군·구 전체/'시·군·구'를 뗀 이름(경주시 → 경주, 종로구 → 종로).
-
-    두 글자짜리(중구·남구)는 떼면 한 글자가 되어 다른 말과 헷갈리므로 그대로 둔다.
-    """
-    terms = set(SIDO_SHORT)
-    terms.update(str(s) for s in sidos if s)
-    for g in sigungus:
-        g = str(g or "").strip()
-        if not g:
-            continue
-        terms.add(g)
-        if g[-1] in "시군구" and len(g) >= 3:
-            terms.add(g[:-1])
-    return frozenset(terms)
-
-
-def needs_graph(question: str, regions: frozenset[str], has_history: bool = False) -> bool:
-    """그래프 검색을 할 질문인가. 지역 이름·조건 단어가 있거나, 앞 대화를 가리키는 후속 질문이면 True."""
-    if GRAPH_HINTS.search(question) or any(r in question for r in regions):
-        return True
-    return has_history and bool(FOLLOW_UP_HINTS.search(question))
 
 
 # ── 1. 그래프가 필요한지 판단 + Cypher 생성 ─────────────
@@ -348,61 +302,27 @@ def evidence(driver, rows: list[dict], cypher: str) -> tuple[list[dict], list[di
     return list(nodes.values()), list(edges.values()), museums
 
 
-def prepared(question: str, limit: int = 25) -> tuple[str, str, dict] | None:
-    """팀 공용 준비된 쿼리(LLM 없이 질문 패턴으로 고름)에 맞으면 (이름, Cypher, 파라미터)."""
-    try:
-        from src.agent.neo4j_text2cypher import _prepare_common_query
-
-        return _prepare_common_query(question, limit)
-    except Exception:
-        log.warning("준비된 그래프 쿼리 선택 실패 → LLM Cypher 생성으로 진행", exc_info=True)
-        return None
-
-
-def _failed(stage: str, question: str, cypher: str, e: Exception, template: str = "") -> GraphResult:
-    """그래프 검색 실패를 로그로 남기고, 화면·평가에서 볼 수 있게 error 에 담는다."""
-    log.warning("그래프 검색 %s 실패 (%s: %s) | 질문=%r | cypher=%r",
-                stage, type(e).__name__, str(e)[:300], question[:100], cypher[:300])
-    return GraphResult(cypher=cypher, rows=[], error=f"{stage} 실패 ({type(e).__name__})", template=template)
-
-
 def search(driver, question: str, history: str = "") -> GraphResult | None:
     """그래프 검색 전체. 그래프가 필요 없는 질문이면 None.
 
     Streamlit 위젯을 쓰지 않으므로 스레드에서 벡터 검색과 동시에 돌릴 수 있다.
-    준비된 쿼리에 맞으면 그것부터 쓰고, 결과가 없거나 실패하면 LLM 이 만든 Cypher 로 다시 찾는다.
     """
-    result = None
-    ready = prepared(question)
-    if ready:
-        name, cypher, params = ready
+    try:
+        cypher = plan(question, history)
+    except Exception as e:
+        return GraphResult(cypher="", rows=[], error=f"Cypher 생성 실패 ({type(e).__name__})")
+    if not cypher:
+        return None
+    try:
+        rows = run_read(driver, cypher)
+    except Exception as e:
+        return GraphResult(cypher=cypher, rows=[], error=f"쿼리 실행 실패 ({type(e).__name__})")
+    result = GraphResult(cypher=cypher, rows=rows)
+    if rows:
         try:
-            rows = run_read(driver, cypher, **params)
-        except Exception as e:
-            _failed("준비된 쿼리 실행", question, cypher, e, name)
-            rows = []
-        if rows:
-            result = GraphResult(cypher=cypher, rows=rows, template=name)
-
-    if result is None:
-        cypher = ""
-        try:
-            cypher = plan(question, history)
-        except Exception as e:
-            return _failed("Cypher 생성", question, cypher, e)
-        if not cypher:
-            return None
-        try:
-            rows = run_read(driver, cypher)
-        except Exception as e:
-            return _failed("쿼리 실행", question, cypher, e)
-        result = GraphResult(cypher=cypher, rows=rows)
-    if result.rows:
-        try:
-            result.nodes, result.edges, result.museums = evidence(driver, result.rows, result.cypher)
+            result.nodes, result.edges, result.museums = evidence(driver, rows, cypher)
         except Exception:
-            # 근거 그래프만 실패 → 답변·Cypher 는 그대로 보여준다
-            log.warning("근거 그래프 조회 실패 (답변은 계속) | 질문=%r", question[:100], exc_info=True)
+            pass  # 근거 그래프만 실패 → 답변·Cypher 는 그대로 보여준다
     return result
 
 
