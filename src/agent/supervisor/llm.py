@@ -105,6 +105,13 @@ For OPERATED_BY/MANAGED_BY evidence, rows that point to the same Organization
 spellings differ (e.g. 경상남도 창녕군 and 경상남도 창녕군청); cite the anchor's
 own link and each candidate's link. Name the column (운영기관 or 관리기관) and
 say MANAGED_BY links are UNVERIFIED.
+When the question asks for a number of recommended places ("10곳", "5개 추천",
+"3군데"), list only the places whose cited evidence meets the question's other
+conditions, up to that number. Never add an unsupported place to reach the
+number. If fewer are supported, give those and say in one sentence how many
+could be confirmed against the number asked (for example "요청하신 10곳 중
+근거로 확인된 곳은 9곳입니다"). This applies only to recommendation lists, not to
+questions that ask for a recorded quantity ("수유실은 몇 개 있나요").
 If evidence is insufficient, say what is unknown instead of guessing, but only
 for parts the question actually asks; do not append notes that unrequested
 details (exact program names, schedules, counts) are missing. Current

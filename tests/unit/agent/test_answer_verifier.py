@@ -86,3 +86,13 @@ def test_llm_verifier_sends_the_shared_evidence_json_and_the_answer():
     human = model.messages[1][1]
     assert "grounded-evidence-v2" in human and "Museum" in human and "A museum [E1]" in human
     assert "bm25_score" not in human
+
+
+def test_requested_recommendation_count_is_an_upper_limit_in_both_prompts():
+    from src.agent.supervisor.llm import ANSWER_PROMPT
+    from src.agent.supervisor.verifier import VERIFY_PROMPT
+
+    assert "Never add an unsupported place to reach the" in ANSWER_PROMPT
+    assert "upper\nlimit, not a required part" in VERIFY_PROMPT
+    # recorded quantities stay strict
+    assert "몇 개" in ANSWER_PROMPT and "몇 개" in VERIFY_PROMPT
