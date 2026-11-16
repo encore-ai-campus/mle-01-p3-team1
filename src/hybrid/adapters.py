@@ -28,11 +28,14 @@ class ExistingVectorRetriever:
 
     def prepare(self, query: str) -> Any:
         service = self.service
-        from .region_theme import simple_region_theme
-        region = simple_region_theme(query)
+        from .region_theme import recognize_region
+        region = recognize_region(query)
         if region:
             from src.service.vector_search_analyzer import MetadataFilters
-            return replace(service.plan_without_analysis(query), filters=MetadataFilters(sido=region))
+            return replace(
+                service.plan_without_analysis(query),
+                filters=MetadataFilters(sido=region.sido, sigungu=region.sigungu),
+            )
         if service.is_query_analysis_enabled():
             return service.analyze_query(query)
         return service.plan_without_analysis(query)

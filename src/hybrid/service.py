@@ -256,8 +256,14 @@ class HybridSearchService:
 
         if restrict_to_museum_ids is not None:
             restricted = {str(item) for item in restrict_to_museum_ids}
+            # A facility named in the question stays searchable: "X 관람 정보와 주변 시설"
+            # needs X's own description, and the graph lists only the facilities around X.
+            named = {str(i) for _, ids in (self.name_index.match(query) if self.name_index is not None else [])
+                     for i in ids}
+            restricted |= named
             candidate_ids = sorted(restricted) if candidate_ids is None else sorted(set(candidate_ids) & restricted)
-            stages.append({"stage": "graph_restriction", "status": "applied", "candidate_count": len(candidate_ids)})
+            stages.append({"stage": "graph_restriction", "status": "applied", "candidate_count": len(candidate_ids),
+                           "named_facilities_kept": sorted(named)})
 
         # 1: Shared query plan + metadata filters. The original query goes to BM25.
         stage_start = perf_counter()

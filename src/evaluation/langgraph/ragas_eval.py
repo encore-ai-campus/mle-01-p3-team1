@@ -358,6 +358,22 @@ def build_ragas_metrics(
     ]
 
 
+def metric_value(score_row: Any, metric: str, default: Any = "") -> Any:
+    """Read one metric from a Ragas result row.
+
+    Ragas names some columns with their settings, for example
+    ``factual_correctness(mode=f1)``. Looking up the bare name found nothing, so
+    Factual Correctness was scored (and paid for) but reported as N/A.
+    """
+    value = score_row.get(metric)
+    if value is not None:
+        return value
+    for key in score_row.index if hasattr(score_row, "index") else score_row:
+        if str(key).startswith(f"{metric}("):
+            return score_row.get(key)
+    return default
+
+
 def evaluate_with_ragas(dataset: Any, model_name: str):
     from ragas import evaluate
 
@@ -408,7 +424,7 @@ def assemble_question_rows(
     scores_by_id = {}
     for gold, (_, score_row) in zip(answerable_rows, ragas_frame.iterrows()):
         scores_by_id[str(gold["question_id"])] = {
-            metric: _normalise_score(score_row.get(metric, "")) for metric in METRIC_NAMES
+            metric: _normalise_score(metric_value(score_row, metric)) for metric in METRIC_NAMES
         }
 
     output = []

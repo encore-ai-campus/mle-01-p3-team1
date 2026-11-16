@@ -749,7 +749,7 @@ def _ragas_results(
     from ragas import evaluate
     from ragas.dataset_schema import EvaluationDataset, SingleTurnSample
     from ragas.run_config import RunConfig
-    from src.evaluation.langgraph.ragas_eval import build_ragas_metrics
+    from src.evaluation.langgraph.ragas_eval import build_ragas_metrics, metric_value
 
     answerable = [row for row in rows if row["answerable"] == "yes"]
     valid = [
@@ -783,7 +783,7 @@ def _ragas_results(
     scores: dict[str, dict[str, float | str]] = {}
     for gold, (_, score_row) in zip(valid, frame.iterrows()):
         scores[str(gold["question_id"])] = {
-            metric: _normal_score(score_row.get(metric)) for metric in RAGAS_METRICS
+            metric: _normal_score(metric_value(score_row, metric, None)) for metric in RAGAS_METRICS
         }
 
     # The judge sometimes returns 0 or nothing for an answer that restates its

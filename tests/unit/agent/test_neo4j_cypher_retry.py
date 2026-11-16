@@ -164,8 +164,37 @@ def test_free_region_search_returns_recorded_zero_with_status_and_sources(monkey
 @pytest.mark.parametrize("question", [
     "강원도 강릉시 무료인 곳", "강원도 어린이 무료 박물관", "강원도 무료와 유료를 비교해줘",
     "강원도 여주박물관 무료인가요", "강원도 무료 주차 가능한 박물관", "강원도 무료 체험 프로그램",
-    "강원도 무료 미술관", "강원도 무료 국립 시설",
+    "강원도 무료 국립 시설", "서울 무료 관람일이 언제야", "강원도 무료 기념관",
 ])
 def test_free_region_shortcut_does_not_drop_specific_constraints(question):
     from src.agent.neo4j_text2cypher import _free_region
     assert _free_region(question) is None
+
+
+def test_generic_museum_word_still_uses_the_free_region_shortcut():
+    from src.agent.neo4j_text2cypher import _free_region
+    assert _free_region("서울에서 무료로 갈 수 있는 박물관 추천해줘") == ["서울"]
+
+
+def test_free_region_query_is_stable_and_reports_the_total():
+    from src.agent.neo4j_text2cypher import _REGION_FREE_QUERY
+    assert "ORDER BY museum.sigungu, museum.name" in _REGION_FREE_QUERY
+    assert "region_free_facility_total" in _REGION_FREE_QUERY and "count_scope" in _REGION_FREE_QUERY
+    assert _REGION_FREE_QUERY.rstrip().endswith("LIMIT $top_k")
+
+
+@pytest.mark.parametrize("question, regions, kind", [
+    ("무료인 곳 추천해줘", [""], ""),
+    ("서울에서 무료로 갈 수 있는 박물관 추천해줘", ["서울"], "박물관"),
+    ("강원도 무료 미술관", ["강원"], "미술관"),
+    ("부산 무료 박물관이나 미술관", ["부산"], ""),
+])
+def test_free_shortcut_reads_region_and_facility_type(question, regions, kind):
+    from src.agent.neo4j_text2cypher import _free_facility_type, _free_region
+    assert _free_region(question) == regions
+    assert _free_facility_type(question) == kind
+
+
+def test_free_query_filters_facility_type_with_a_parameter():
+    from src.agent.neo4j_text2cypher import _REGION_FREE_QUERY
+    assert _REGION_FREE_QUERY.count("$facility_type IS NULL OR") == 2

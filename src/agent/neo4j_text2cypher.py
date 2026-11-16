@@ -77,17 +77,25 @@ ORDER BY evidence_role DESC
 LIMIT $top_k
 """
 
+_FREE_COUNT_SCOPE = "해당 지역에서 성인 기본 관람료가 0원으로 기록된 시설의 전체 수(목록에 보인 시설 수가 아님)"
+
 _REGION_FREE_QUERY = """
+MATCH (all_free:Museum)
+WHERE any(region IN $regions WHERE all_free.sido CONTAINS region) AND all_free.adult_fee = 0
+  AND ($facility_type IS NULL OR all_free.facility_type = $facility_type)
+WITH count(all_free) AS matching_total
 MATCH (museum:Museum)
 WHERE any(region IN $regions WHERE museum.sido CONTAINS region) AND museum.adult_fee = 0
+  AND ($facility_type IS NULL OR museum.facility_type = $facility_type)
 OPTIONAL MATCH (museum)-[:HAS_SOURCE]->(source:SourceDocument)
-WITH museum, collect(DISTINCT source.doc_id) AS source_doc_ids,
+WITH museum, matching_total, collect(DISTINCT source.doc_id) AS source_doc_ids,
      collect(DISTINCT source.source_url) AS source_urls,
      collect(DISTINCT source.source_locator) AS source_locators
 RETURN museum.museum_id AS museum_id, museum.name AS name,
        toString({adult_fee: museum.adult_fee, youth_fee: museum.youth_fee,
                  child_fee: museum.child_fee, adult_fee_status: museum.adult_fee_status,
-                 fee_notes: museum.fee_notes}) AS text,
+                 fee_notes: museum.fee_notes, region_free_facility_total: matching_total,
+                 count_scope: $count_scope}) AS text,
        null AS span_id, source_doc_ids AS source_doc_ids, source_urls AS source_urls,
        source_locators AS source_locators,
        museum.sido AS sido, museum.sigungu AS sigungu,
@@ -383,10 +391,17 @@ _QUOTED_TEXT_PATTERNS = (
 )
 
 
+def _free_facility_type(question: str) -> str:
+    """"박물관" or "미술관" when exactly one is asked for, else "" (no facility-type filter)."""
+    kinds = {kind for kind in ("박물관", "미술관") if kind in question}
+    return next(iter(kinds)) if len(kinds) == 1 else ""
+
+
 def _free_region(question: str) -> list[str] | None:
     """Identify a simple region query for recorded zero adult base admission."""
     if (not re.search(r"무료|공짜", question)
-            or re.search(r"유료|비교|차이|어린이|아동|청소년|학생|어르신|노인|장애인|유공자|단체|전시|체험|프로그램|주차|강좌|교육|행사|운영시간|박물관|미술관|기념관|국립|공립|사립|주변|근처|가까운|거리", question)
+            or re.search(r"유료|비교|차이|어린이|아동|청소년|학생|어르신|노인|장애인|유공자|단체|전시|체험|프로그램|주차|강좌|교육|행사|운영시간|언제|날짜|요일|휴관|할인|기념관|국립|공립|사립|주변|근처|가까운|거리", question)
+            or re.search(r"[가-힣](?:박물관|미술관)", question)
             or re.search(r"[가-힣]{2,}(?:시|군|구)(?:에|에서|의|내|\s|$)", question)):
         return None
     family = matching_sido_family(question)
@@ -402,6 +417,8 @@ def _free_region(question: str) -> list[str] | None:
         "경상북": "경상북", "경상남": "경상남",
     }
     matched = {canonical for alias, canonical in aliases.items() if alias in question}
+    if not matched:
+        return [""]  # no region named: the whole country (every sido contains "")
     if len(matched) != 1:
         return None
     region = next(iter(matched))
@@ -991,7 +1008,10 @@ def _prepare_common_query(
     free_regions = _free_region(question)
     if free_regions:
         query, parameters = validate_read_only_cypher(
-            _REGION_FREE_QUERY, {"regions": free_regions}, top_k=top_k
+            _REGION_FREE_QUERY,
+            {"regions": free_regions, "count_scope": _FREE_COUNT_SCOPE,
+             "facility_type": _free_facility_type(question) or None},
+            top_k=top_k
         )
         return "regional_fee", query, parameters
 
