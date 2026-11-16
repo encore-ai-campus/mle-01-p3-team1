@@ -73,11 +73,13 @@ def _render_md(text: str, target=st) -> None:
     target.markdown(_BOLD.sub(r"<strong>\1</strong>", text.replace("<", "&lt;")), unsafe_allow_html=True)
 
 
-SUGGESTIONS = [
-    "서울에서 무료로 갈 수 있는 박물관 추천해줘",
-    "아이와 함께 가기 좋은 체험형 박물관은?",
-    "가야 유물을 볼 수 있는 곳 알려줘",
-]
+# 검색 경로별 대표 질문: Hybrid(소개글) · Graph(같은 군) · Combined(같은 기관 + 소개글)
+# 버튼 문구 → 실제로 보내는 질문 (버튼 폭에 안 들어가는 질문만 문구를 줄인다)
+SUGGESTIONS = {
+    "경주에서 신라 유물 볼 수 있는 박물관은?": "경주에서 신라 유물 볼 수 있는 박물관은?",
+    "홍천박물관과 같은 군에 있는 박물관은?": "홍천박물관과 같은 군에 있는 박물관은?",
+    "고성공룡박물관과 같은 기관의 탈 전시는?": "고성공룡박물관과 같은 기관이 운영하는 곳 중 탈 전시가 있는 곳은?",
+}
 
 
 @st.cache_resource(show_spinner=False)
@@ -237,10 +239,10 @@ def render(df: pd.DataFrame) -> None:
 
     st.write("")
     cols = st.container(key="chat_suggestions").columns(len(SUGGESTIONS))  # hover 스타일: style.py
-    for c, s in zip(cols, SUGGESTIONS):
-        if c.button(s, width="stretch", key=f"sugg_{s}"):
-            st.session_state["chat_prefill"] = s
-    typed = st.chat_input("예) 경주에서 신라 유물 볼 수 있는 박물관은?")
+    for c, (label, question) in zip(cols, SUGGESTIONS.items()):
+        if c.button(label, width="stretch", key=f"sugg_{label}"):
+            st.session_state["chat_prefill"] = question
+    typed = st.chat_input("예) 서울에서 아이와 가기 좋은 체험형 박물관은?")
     query = typed or st.session_state.pop("chat_prefill", None)
 
     with conversation:
