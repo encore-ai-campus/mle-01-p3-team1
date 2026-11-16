@@ -1,0 +1,750 @@
+{
+  "evidence_context_version": "grounded-evidence-v2",
+  "evaluation_contexts": [
+    "{\"evidence_context_version\": \"grounded-evidence-v2\", \"evidence_id\": \"E1\", \"metadata_provenance\": {\"base_data_date\": \"2026-08-19\", \"fields\": {\"address\": \"경상북도 칠곡군 기산면 강정길 47-10\", \"adult_fee\": \"0\", \"adult_fee_status\": \"BASE_FEE_ZERO_CHECK_EXCEPTIONS\", \"child_fee\": \"0\", \"closure_rule_raw\": \"연중무휴\", \"holiday_close\": \"18:00\", \"holiday_open\": \"09:00\", \"name\": \"안다미로귀때박물관\", \"ownership_type\": \"사립\", \"sido\": \"경상북도\", \"sigungu\": \"칠곡군\", \"weekday_close\": \"18:00\", \"weekday_open\": \"09:00\", \"youth_fee\": \"0\"}, \"source_kind\": \"derived_csv_row\", \"source_locator\": \"data/processed/museum_final_738.csv#record=118\", \"trust\": \"derived_dataset_not_human_verified\"}, \"museum_id\": \"M0178\", \"name\": \"안다미로귀때박물관\", \"source_doc_ids\": [\"DOC-B0178-TOUR_API-4098381\"], \"source_documents\": [{\"doc_id\": \"DOC-B0178-TOUR_API-4098381\", \"match_trust\": \"RECHECKED_BY_RULE_NOT_HUMAN_APPROVED\", \"source_locator\": \"data/raw/museum_tourapi_with_overview.csv#row=84\", \"source_record_id\": \"4098381\", \"source_type\": \"TOUR_API\"}], \"source_locator\": \"data/raw/museum_tourapi_with_overview.csv#row=84\", \"source_locators\": [\"data/raw/museum_tourapi_with_overview.csv#row=84\"], \"source_scope\": \"text\", \"source_spans\": [{\"doc_ids\": [\"DOC-B0178-TOUR_API-4098381\"], \"end\": 76, \"start\": 0}, {\"doc_ids\": [\"DOC-B0178-TOUR_API-4098381\"], \"end\": 163, \"start\": 77}, {\"doc_ids\": [\"DOC-B0178-TOUR_API-4098381\"], \"end\": 250, \"start\": 164}, {\"doc_ids\": [\"DOC-B0178-TOUR_API-4098381\"], \"end\": 352, \"start\": 251}, {\"doc_ids\": [\"DOC-B0178-TOUR_API-4098381\"], \"end\": 389, \"start\": 353}, {\"doc_ids\": [\"DOC-B0178-TOUR_API-4098381\"], \"end\": 477, \"start\": 390}], \"source_urls\": [], \"text\": \"‘귀때’란 그릇 한쪽에 주전자 부리처럼 바깥으로 내밀어 만든 구멍으로, 액체를 흘리지 않고 편리하게 따를 수 있도록 한 조상들의 지혜다. 여기에 뚜껑과 손잡이가 더해지며 오늘날의 주전자로 발전하였고, 안다미로귀때박물관은 이러한 귀때그릇과 주전자의 역사와 문화를 한눈에 살펴볼 수 있는 곳이다. 이곳은 삼국시대부터 현대까지 오랜 시간 정성껏 수집한 귀때 유물 및 주전자 212종 600여 점과 민속 생활유물 100여 점을 한자리에서 살펴볼 수 있다. 토기·사기·유기·무쇠·옹기 등 다양한 재질로 제작된 한국·중국·일본·인도·미국· 영국 등 세계 각국의 귀때그릇을 통해 시대와 국경을 넘어 이어져 온 생활 속 지혜를 만나볼 수 있다. 또한, 근현대 일상에서 쓰이던 민속품도 함께 보존·전시하고 있다. 호국의 고장 칠곡에 자리한 안다미로귀때박물관은 조상이 남겨 주신 소중한 문화유산을 수집·보존·관리하며, 지역민들과 함께하는 다양한 문화사업을 이어가고 있다.\"}",
+    "{\"evidence_context_version\": \"grounded-evidence-v2\", \"evidence_id\": \"E2\", \"metadata_provenance\": {\"base_data_date\": \"2025-12-11\", \"fields\": {\"address\": \"경상북도 고령군 대가야읍 대가야로 1203\", \"adult_fee\": \"0\", \"adult_fee_status\": \"BASE_FEE_ZERO_CHECK_EXCEPTIONS\", \"amenities_raw\": \"주차장+어린이체험실\", \"child_fee\": \"0\", \"closure_rule_raw\": \"매주 월요일(단, 월요일이 공휴일인 경우 공휴일 다음의 첫번째 평일)\", \"holiday_close\": \"18:00\", \"holiday_open\": \"09:00\", \"name\": \"대가야박물관\", \"ownership_type\": \"공립\", \"sido\": \"경상북도\", \"sigungu\": \"고령군\", \"weekday_close\": \"18:00\", \"weekday_open\": \"09:00\", \"youth_fee\": \"0\"}, \"source_kind\": \"derived_csv_row\", \"source_locator\": \"data/processed/museum_final_738.csv#record=476\", \"trust\": \"derived_dataset_not_human_verified\"}, \"museum_id\": \"M0688\", \"name\": \"대가야박물관\", \"source_doc_ids\": [\"DOC-B0688-TOUR_API-130099\"], \"source_documents\": [{\"doc_id\": \"DOC-B0688-TOUR_API-130099\", \"match_trust\": \"AUTO_MATCH_NOT_HUMAN_VERIFIED\", \"source_locator\": \"data/raw/museum_tourapi_with_overview.csv#row=340\", \"source_record_id\": \"130099\", \"source_type\": \"TOUR_API\"}], \"source_locator\": \"data/raw/museum_tourapi_with_overview.csv#row=340\", \"source_locators\": [\"data/raw/museum_tourapi_with_overview.csv#row=340\"], \"source_scope\": \"text\", \"source_spans\": [{\"doc_ids\": [\"DOC-B0688-TOUR_API-130099\"], \"end\": 48, \"start\": 0}, {\"doc_ids\": [\"DOC-B0688-TOUR_API-130099\"], \"end\": 156, \"start\": 49}, {\"doc_ids\": [\"DOC-B0688-TOUR_API-130099\"], \"end\": 309, \"start\": 157}, {\"doc_ids\": [\"DOC-B0688-TOUR_API-130099\"], \"end\": 512, \"start\": 310}], \"source_urls\": [], \"text\": \"대가야와 고령지역의 역사와 문화를 종합적으로 전시한 국내 유일의 대가야사전문박물관이다. 대가야박물관은 대가야 왕릉이 모여 있는 지산동고분군의 기슭에 자리 잡고 있으며 대가야왕릉전시관과 대가야역사관, 그리고 우륵 선생이 가야금을 창제한 정정골에 위치한 우륵박물관으로 이루어져 있다. 지산동 고분군에서 출토된 금동관을 비롯한 장신구, 긴 목항아리와 원통모형그릇받침 등 토기류, 봉황무늬 고리자루 칼과 갑옷 등 무기류, 재갈과 안장 등 무기류를 비롯하여 반룡사 동종과 석탑, 관내 종택에서 보유하고 있는 교지 등 보물에 이르기까지 많은 유물이 전시되고 있다. 주변 유적으로는 고령 지산동 고분군과 주산성, 고령향교, 고령 지산동 당간지주가 있고, 고아동 벽화고분을 복원하고 실감형 미디어아트를 운영하는 고아리벽화고분모형관, 대가야사람들의 생활모습을 엿볼 수 있는 대가야생활촌, 대가야를 테마별로 전시한 대가야테마관광지, 반룡사, 점필재 김종직의 종가가 있는 개실마을, 암각화공원으로 정비한 고령 장기리 암각화 등이 있다.\"}",
+    "{\"evidence_context_version\": \"grounded-evidence-v2\", \"evidence_id\": \"E3\", \"metadata_provenance\": {\"base_data_date\": \"2026-01-05\", \"fields\": {\"address\": \"세종특별시 전동면 배일길 90-43\", \"adult_fee\": \"0\", \"adult_fee_status\": \"BASE_FEE_ZERO_CHECK_EXCEPTIONS\", \"child_fee\": \"0\", \"closure_rule_raw\": \"화요일+설연휴+추석연휴\", \"holiday_close\": \"16:30\", \"holiday_open\": \"10:30\", \"name\": \"세종전통장류박물관\", \"ownership_type\": \"사립\", \"sido\": \"세종특별시\", \"sigungu\": \"전동면\", \"weekday_close\": \"16:30\", \"weekday_open\": \"10:30\", \"youth_fee\": \"0\"}, \"source_kind\": \"derived_csv_row\", \"source_locator\": \"data/processed/museum_final_738.csv#record=400\", \"trust\": \"derived_dataset_not_human_verified\"}, \"museum_id\": \"M0579\", \"name\": \"세종전통장류박물관\", \"source_doc_ids\": [\"DOC-B0579-TOUR_API-2790505\"], \"source_documents\": [{\"doc_id\": \"DOC-B0579-TOUR_API-2790505\", \"match_trust\": \"AUTO_MATCH_NOT_HUMAN_VERIFIED\", \"source_locator\": \"data/raw/museum_tourapi_with_overview.csv#row=285\", \"source_record_id\": \"2790505\", \"source_type\": \"TOUR_API\"}], \"source_locator\": \"data/raw/museum_tourapi_with_overview.csv#row=285\", \"source_locators\": [\"data/raw/museum_tourapi_with_overview.csv#row=285\"], \"source_scope\": \"text\", \"source_spans\": [{\"doc_ids\": [\"DOC-B0579-TOUR_API-2790505\"], \"end\": 64, \"start\": 0}, {\"doc_ids\": [\"DOC-B0579-TOUR_API-2790505\"], \"end\": 137, \"start\": 65}, {\"doc_ids\": [\"DOC-B0579-TOUR_API-2790505\"], \"end\": 197, \"start\": 138}, {\"doc_ids\": [\"DOC-B0579-TOUR_API-2790505\"], \"end\": 267, \"start\": 198}, {\"doc_ids\": [\"DOC-B0579-TOUR_API-2790505\"], \"end\": 331, \"start\": 268}], \"source_urls\": [], \"text\": \"지난 2013년 처음 문을 연 세종전통장류박물관은 우리나라 장류 문화를 한자리에서 살펴볼 수 있는 전문 박물관이다. 전시실은 장의 역사와 한국의 발효 음식, 장의 재료가 되는 다양한 콩 종자와 과학적인 저장 용기 등 풍성한 볼거리로 채워져 있다. 야외에는 각 지역의 기후와 문화에 따라 다른 모양을 지닌 장독을 함께 전시해 관람객들의 호기심을 자극한다. 메주 모양의 천연 곡물 비누 만들기나 우리 민족이 즐겨 먹었던 전통 장류의 하나인 집장 만들기 등 체험 프로그램도 운영한다. 본격적으로 장을 담는 시기인 11월 이후에 방문하면 전통 방식으로 된장과 고추장을 만드는 모습도 관람할 수 있다.\"}",
+    "{\"evidence_context_version\": \"grounded-evidence-v2\", \"evidence_id\": \"E4\", \"metadata_provenance\": {\"base_data_date\": \"2025-11-26\", \"fields\": {\"address\": \"충청북도 청주시 흥덕구 직지대로 713(운천동)\", \"adult_fee\": \"0\", \"adult_fee_status\": \"BASE_FEE_ZERO_CHECK_EXCEPTIONS\", \"amenities_raw\": \"주차장+수유실\", \"child_fee\": \"0\", \"closure_rule_raw\": \"1월 1일+설 당일+추석 당일 14시까지+월요일\", \"holiday_close\": \"18:00\", \"holiday_open\": \"09:00\", \"name\": \"청주고인쇄박물관\", \"ownership_type\": \"공립\", \"sido\": \"충청북도\", \"sigungu\": \"청주시\", \"weekday_close\": \"18:00\", \"weekday_open\": \"09:00\", \"youth_fee\": \"0\"}, \"source_kind\": \"derived_csv_row\", \"source_locator\": \"data/processed/museum_final_738.csv#record=631\", \"trust\": \"derived_dataset_not_human_verified\"}, \"museum_id\": \"M0915\", \"name\": \"청주고인쇄박물관\", \"source_doc_ids\": [\"DOC-B0915-TOUR_API-2804708\", \"DOC-B0915-BASE\"], \"source_documents\": [{\"doc_id\": \"DOC-B0915-TOUR_API-2804708\", \"match_trust\": \"RECHECKED_BY_RULE_NOT_HUMAN_APPROVED\", \"source_locator\": \"data/raw/museum_tourapi_with_overview.csv#row=429\", \"source_record_id\": \"2804708\", \"source_type\": \"TOUR_API\"}, {\"doc_id\": \"DOC-B0915-BASE\", \"match_trust\": \"BASE_SOURCE\", \"source_locator\": \"data/raw/museum_base_1070.csv#row=916\", \"source_record_id\": \"B0915\", \"source_type\": \"BASE\"}], \"source_locator\": \"data/raw/museum_tourapi_with_overview.csv#row=429\", \"source_locators\": [\"data/raw/museum_tourapi_with_overview.csv#row=429\"], \"source_scope\": \"text\", \"source_spans\": [{\"doc_ids\": [\"DOC-B0915-TOUR_API-2804708\"], \"end\": 119, \"start\": 0}, {\"doc_ids\": [\"DOC-B0915-TOUR_API-2804708\"], \"end\": 193, \"start\": 120}, {\"doc_ids\": [\"DOC-B0915-TOUR_API-2804708\"], \"end\": 316, \"start\": 194}, {\"doc_ids\": [\"DOC-B0915-BASE\"], \"end\": 401, \"start\": 317}], \"source_urls\": [], \"text\": \"청주고인쇄박물관은 현존하는 세계에서 가장 오래된 금속활자본이자 유네스코 세계기록유산인 『직지』를 중심으로 고려의 금속활자 인쇄술과 청주 흥덕사 관련 자료를 전시하고 있으며, 금속활자의 의미와 가치를 소개하고 있다. 또한 고려의 목판인쇄술로부터 19세기말까지 우리나라 전통 인쇄문화 전반을 소개하며 근대와 현대의 인쇄문화를 이해하는데 도움이 된다. 직지 디지털 실감영상관에서 증강현실 인터랙션(손으로 기록하다), 모션인식 인터랙션(몸으로 기록하다), 활자 미디어 아트(마음으로 기록하다) 등 다채로운 콘텐츠를 체험할 수 있는 공간이 있어 아이들과 함께 즐길 수 있다. 청주 고인쇄 박물관은 세계에서 가장 오래 된 금속 활자본직지를 인쇄한 청주 흥덕사의 옛 터에 있으며 1992년 3월 17일에 개관한 고인쇄 전문 박물관\"}",
+    "{\"evidence_context_version\": \"grounded-evidence-v2\", \"evidence_id\": \"E5\", \"metadata_provenance\": {\"base_data_date\": \"2024-11-29\", \"fields\": {\"address\": \"경기도 용인시 처인구 모현읍 능곡로56번길 8\", \"adult_fee\": \"8000\", \"adult_fee_status\": \"BASE_FEE_PAID\", \"child_fee\": \"0\", \"closure_rule_raw\": \"매주 월요일~화요일,신정,설연휴,추석(당일)\", \"holiday_close\": \"17:00\", \"holiday_open\": \"10:00\", \"name\": \"한국등잔박물관\", \"ownership_type\": \"사립\", \"sido\": \"경기도\", \"sigungu\": \"용인시\", \"weekday_close\": \"17:00\", \"weekday_open\": \"10:00\", \"youth_fee\": \"5000\"}, \"source_kind\": \"derived_csv_row\", \"source_locator\": \"data/processed/museum_final_738.csv#record=573\", \"trust\": \"derived_dataset_not_human_verified\"}, \"museum_id\": \"M0846\", \"name\": \"한국등잔박물관\", \"source_doc_ids\": [\"DOC-B0846-TOUR_API-130147\"], \"source_documents\": [{\"doc_id\": \"DOC-B0846-TOUR_API-130147\", \"match_trust\": \"AUTO_MATCH_NOT_HUMAN_VERIFIED\", \"source_locator\": \"data/raw/museum_tourapi_with_overview.csv#row=400\", \"source_record_id\": \"130147\", \"source_type\": \"TOUR_API\"}], \"source_locator\": \"data/raw/museum_tourapi_with_overview.csv#row=400\", \"source_locators\": [\"data/raw/museum_tourapi_with_overview.csv#row=400\"], \"source_scope\": \"text\", \"source_spans\": [{\"doc_ids\": [\"DOC-B0846-TOUR_API-130147\"], \"end\": 69, \"start\": 0}, {\"doc_ids\": [\"DOC-B0846-TOUR_API-130147\"], \"end\": 141, \"start\": 70}, {\"doc_ids\": [\"DOC-B0846-TOUR_API-130147\"], \"end\": 243, \"start\": 142}, {\"doc_ids\": [\"DOC-B0846-TOUR_API-130147\"], \"end\": 315, \"start\": 244}, {\"doc_ids\": [\"DOC-B0846-TOUR_API-130147\"], \"end\": 460, \"start\": 316}, {\"doc_ids\": [\"DOC-B0846-TOUR_API-130147\"], \"end\": 529, \"start\": 461}, {\"doc_ids\": [\"DOC-B0846-TOUR_API-130147\"], \"end\": 592, \"start\": 530}, {\"doc_ids\": [\"DOC-B0846-TOUR_API-130147\"], \"end\": 635, \"start\": 593}, {\"doc_ids\": [\"DOC-B0846-TOUR_API-130147\"], \"end\": 672, \"start\": 636}], \"source_urls\": [], \"text\": \"포은 정몽주 묘소 맞은편에 있는 한국등잔박물관은 박물관장 김동휘가 50여 년간 수집한 등잔들이 전시되어 있는 사립박물관이다. 국내 유일의 등기구 박물관으로 선조들의 옛 생활상을 살펴볼 수 있어 개인뿐 아니라 학생들의 체험학습 공간으로 많이 찾는 곳이다. 수원화성 성곽을 모티브로 지은 원통형의 등대 모양 건물은 지하 1층, 지상 3층 규모로 1, 2층은 전시 공간으로 3층은 세미나 및 각종 공연을 위한 다목적 공간으로 구성되어 있다. 또 별관 전시장에는 농기구 전시실이 있고 야외전시장인 연못과 자연석이 어우러진 아름다운 정원으로 가볍게 둘러보며 힐링하기 좋다. 상설전시실 1층에는 우리의 불그릇 등잔을 주제로 부엌, 찬방, 사랑방, 안방 등 공간별로 사용되었던 등잔의 종류와 용도를 옛 생활용품과 함께 전시되어 있으며, 2층은 일상을 지킨 빛과 예를 밝힌 빛을 주제로 시대별 등잔 양식과 특징을 한눈에 알아볼 수 있다. 또 1층 특별기획전시실에서는 지역작가 조명전을 개최해 경기도 내에서 왕성한 작품 활동을 펼치는 지역작가들을 소개하고 있다. 박물관에서는 다양한 어린이, 청소년, 성인을 대상으로 한 상설교육 프로그램과 특별교육 프로그램을 운영하고 있다. 초나 LED등, 도자 등잔 등을 만들어 볼 수 있어 특별한 추억을 선물한다. 포은 정몽주 묘소가 맞은편에 있으므로 연계해 함께 방문하기 좋다.\"}"
+  ],
+  "mode": "supervisor_full",
+  "question_id": "Q116",
+  "evidence": [
+    {
+      "museum_id": "M0178",
+      "name": "안다미로귀때박물관",
+      "document": "‘귀때’란 그릇 한쪽에 주전자 부리처럼 바깥으로 내밀어 만든 구멍으로, 액체를 흘리지 않고 편리하게 따를 수 있도록 한 조상들의 지혜다. 여기에 뚜껑과 손잡이가 더해지며 오늘날의 주전자로 발전하였고, 안다미로귀때박물관은 이러한 귀때그릇과 주전자의 역사와 문화를 한눈에 살펴볼 수 있는 곳이다. 이곳은 삼국시대부터 현대까지 오랜 시간 정성껏 수집한 귀때 유물 및 주전자 212종 600여 점과 민속 생활유물 100여 점을 한자리에서 살펴볼 수 있다. 토기·사기·유기·무쇠·옹기 등 다양한 재질로 제작된 한국·중국·일본·인도·미국· 영국 등 세계 각국의 귀때그릇을 통해 시대와 국경을 넘어 이어져 온 생활 속 지혜를 만나볼 수 있다. 또한, 근현대 일상에서 쓰이던 민속품도 함께 보존·전시하고 있다. 호국의 고장 칠곡에 자리한 안다미로귀때박물관은 조상이 남겨 주신 소중한 문화유산을 수집·보존·관리하며, 지역민들과 함께하는 다양한 문화사업을 이어가고 있다.",
+      "metadata": {
+        "source_types": "TOUR_API",
+        "fee_notes": "체험료 별도",
+        "child_fee": 0.0,
+        "image_copyright": "Type3",
+        "weekday_open": "09:00",
+        "holiday_open": "09:00",
+        "adult_fee": 0.0,
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "weekday_close": "18:00",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/85/4098385_image2_1.jpg",
+        "sigungu": "칠곡군",
+        "homepage_url": "http://blog.naver.com/ysroadsun",
+        "address": "경상북도 칠곡군 기산면 강정길 47-10",
+        "holiday_close": "18:00",
+        "closure_rule_raw": "연중무휴",
+        "latitude": 35.98393601,
+        "name": "안다미로귀때박물관",
+        "youth_fee": 0.0,
+        "ownership_type": "사립",
+        "requires_manual_review": true,
+        "longitude": 128.3842314,
+        "sido": "경상북도"
+      },
+      "vector_rank": 1,
+      "bm25_rank": 1,
+      "vector_distance": 0.40976959466934204,
+      "vector_score": null,
+      "bm25_score": 33.40943547962252,
+      "vector_document": "‘귀때’란 그릇 한쪽에 주전자 부리처럼 바깥으로 내밀어 만든 구멍으로, 액체를 흘리지 않고 편리하게 따를 수 있도록 한 조상들의 지혜다. 여기에 뚜껑과 손잡이가 더해지며 오늘날의 주전자로 발전하였고, 안다미로귀때박물관은 이러한 귀때그릇과 주전자의 역사와 문화를 한눈에 살펴볼 수 있는 곳이다. 이곳은 삼국시대부터 현대까지 오랜 시간 정성껏 수집한 귀때 유물 및 주전자 212종 600여 점과 민속 생활유물 100여 점을 한자리에서 살펴볼 수 있다. 토기·사기·유기·무쇠·옹기 등 다양한 재질로 제작된 한국·중국·일본·인도·미국· 영국 등 세계 각국의 귀때그릇을 통해 시대와 국경을 넘어 이어져 온 생활 속 지혜를 만나볼 수 있다. 또한, 근현대 일상에서 쓰이던 민속품도 함께 보존·전시하고 있다. 호국의 고장 칠곡에 자리한 안다미로귀때박물관은 조상이 남겨 주신 소중한 문화유산을 수집·보존·관리하며, 지역민들과 함께하는 다양한 문화사업을 이어가고 있다.",
+      "bm25_document": "‘귀때’란 그릇 한쪽에 주전자 부리처럼 바깥으로 내밀어 만든 구멍으로, 액체를 흘리지 않고 편리하게 따를 수 있도록 한 조상들의 지혜다. 여기에 뚜껑과 손잡이가 더해지며 오늘날의 주전자로 발전하였고, 안다미로귀때박물관은 이러한 귀때그릇과 주전자의 역사와 문화를 한눈에 살펴볼 수 있는 곳이다. 이곳은 삼국시대부터 현대까지 오랜 시간 정성껏 수집한 귀때 유물 및 주전자 212종 600여 점과 민속 생활유물 100여 점을 한자리에서 살펴볼 수 있다. 토기·사기·유기·무쇠·옹기 등 다양한 재질로 제작된 한국·중국·일본·인도·미국· 영국 등 세계 각국의 귀때그릇을 통해 시대와 국경을 넘어 이어져 온 생활 속 지혜를 만나볼 수 있다. 또한, 근현대 일상에서 쓰이던 민속품도 함께 보존·전시하고 있다. 호국의 고장 칠곡에 자리한 안다미로귀때박물관은 조상이 남겨 주신 소중한 문화유산을 수집·보존·관리하며, 지역민들과 함께하는 다양한 문화사업을 이어가고 있다.",
+      "best_span_id": "chroma:M0178",
+      "best_span_text": "‘귀때’란 그릇 한쪽에 주전자 부리처럼 바깥으로 내밀어 만든 구멍으로, 액체를 흘리지 않고 편리하게 따를 수 있도록 한 조상들의 지혜다. 여기에 뚜껑과 손잡이가 더해지며 오늘날의 주전자로 발전하였고, 안다미로귀때박물관은 이러한 귀때그릇과 주전자의 역사와 문화를 한눈에 살펴볼 수 있는 곳이다. 이곳은 삼국시대부터 현대까지 오랜 시간 정성껏 수집한 귀때 유물 및 주전자 212종 600여 점과 민속 생활유물 100여 점을 한자리에서 살펴볼 수 있다. 토기·사기·유기·무쇠·옹기 등 다양한 재질로 제작된 한국·중국·일본·인도·미국· 영국 등 세계 각국의 귀때그릇을 통해 시대와 국경을 넘어 이어져 온 생활 속 지혜를 만나볼 수 있다. 또한, 근현대 일상에서 쓰이던 민속품도 함께 보존·전시하고 있다. 호국의 고장 칠곡에 자리한 안다미로귀때박물관은 조상이 남겨 주신 소중한 문화유산을 수집·보존·관리하며, 지역민들과 함께하는 다양한 문화사업을 이어가고 있다.",
+      "fusion_score": 0.03278688524590164,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 1,
+      "name_match": true,
+      "rerank_score": 0.9992868304252625,
+      "rank": 1,
+      "score": 0.9992868304252625,
+      "score_type": "cross_encoder",
+      "distance": 0.40976959466934204,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0178",
+      "source_doc_ids": [
+        "DOC-B0178-TOUR_API-4098381"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0178-TOUR_API-4098381",
+          "source_type": "TOUR_API",
+          "source_record_id": "4098381",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=84",
+          "match_trust": "RECHECKED_BY_RULE_NOT_HUMAN_APPROVED"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 76,
+          "doc_ids": [
+            "DOC-B0178-TOUR_API-4098381"
+          ]
+        },
+        {
+          "start": 77,
+          "end": 163,
+          "doc_ids": [
+            "DOC-B0178-TOUR_API-4098381"
+          ]
+        },
+        {
+          "start": 164,
+          "end": 250,
+          "doc_ids": [
+            "DOC-B0178-TOUR_API-4098381"
+          ]
+        },
+        {
+          "start": 251,
+          "end": 352,
+          "doc_ids": [
+            "DOC-B0178-TOUR_API-4098381"
+          ]
+        },
+        {
+          "start": 353,
+          "end": 389,
+          "doc_ids": [
+            "DOC-B0178-TOUR_API-4098381"
+          ]
+        },
+        {
+          "start": 390,
+          "end": 477,
+          "doc_ids": [
+            "DOC-B0178-TOUR_API-4098381"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=84",
+      "text": "‘귀때’란 그릇 한쪽에 주전자 부리처럼 바깥으로 내밀어 만든 구멍으로, 액체를 흘리지 않고 편리하게 따를 수 있도록 한 조상들의 지혜다. 여기에 뚜껑과 손잡이가 더해지며 오늘날의 주전자로 발전하였고, 안다미로귀때박물관은 이러한 귀때그릇과 주전자의 역사와 문화를 한눈에 살펴볼 수 있는 곳이다. 이곳은 삼국시대부터 현대까지 오랜 시간 정성껏 수집한 귀때 유물 및 주전자 212종 600여 점과 민속 생활유물 100여 점을 한자리에서 살펴볼 수 있다. 토기·사기·유기·무쇠·옹기 등 다양한 재질로 제작된 한국·중국·일본·인도·미국· 영국 등 세계 각국의 귀때그릇을 통해 시대와 국경을 넘어 이어져 온 생활 속 지혜를 만나볼 수 있다. 또한, 근현대 일상에서 쓰이던 민속품도 함께 보존·전시하고 있다. 호국의 고장 칠곡에 자리한 안다미로귀때박물관은 조상이 남겨 주신 소중한 문화유산을 수집·보존·관리하며, 지역민들과 함께하는 다양한 문화사업을 이어가고 있다.",
+      "sido": "경상북도",
+      "sigungu": "칠곡군",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=84"
+      ],
+      "evidence_id": "E1",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=118",
+        "fields": {
+          "name": "안다미로귀때박물관",
+          "sido": "경상북도",
+          "sigungu": "칠곡군",
+          "address": "경상북도 칠곡군 기산면 강정길 47-10",
+          "ownership_type": "사립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "09:00",
+          "weekday_close": "18:00",
+          "holiday_open": "09:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "연중무휴"
+        },
+        "base_data_date": "2026-08-19",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0688",
+      "name": "대가야박물관",
+      "document": "대가야와 고령지역의 역사와 문화를 종합적으로 전시한 국내 유일의 대가야사전문박물관이다. 대가야박물관은 대가야 왕릉이 모여 있는 지산동고분군의 기슭에 자리 잡고 있으며 대가야왕릉전시관과 대가야역사관, 그리고 우륵 선생이 가야금을 창제한 정정골에 위치한 우륵박물관으로 이루어져 있다. 지산동 고분군에서 출토된 금동관을 비롯한 장신구, 긴 목항아리와 원통모형그릇받침 등 토기류, 봉황무늬 고리자루 칼과 갑옷 등 무기류, 재갈과 안장 등 무기류를 비롯하여 반룡사 동종과 석탑, 관내 종택에서 보유하고 있는 교지 등 보물에 이르기까지 많은 유물이 전시되고 있다. 주변 유적으로는 고령 지산동 고분군과 주산성, 고령향교, 고령 지산동 당간지주가 있고, 고아동 벽화고분을 복원하고 실감형 미디어아트를 운영하는 고아리벽화고분모형관, 대가야사람들의 생활모습을 엿볼 수 있는 대가야생활촌, 대가야를 테마별로 전시한 대가야테마관광지, 반룡사, 점필재 김종직의 종가가 있는 개실마을, 암각화공원으로 정비한 고령 장기리 암각화 등이 있다.",
+      "metadata": {
+        "requires_manual_review": true,
+        "adult_fee": 0.0,
+        "sido": "경상북도",
+        "youth_fee": 0.0,
+        "image_copyright": "Type1",
+        "ownership_type": "공립",
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "sigungu": "고령군",
+        "closure_rule_raw": "매주 월요일(단, 월요일이 공휴일인 경우 공휴일 다음의 첫번째 평일)",
+        "weekday_open": "09:00",
+        "weekday_close": "18:00",
+        "holiday_close": "18:00",
+        "name": "대가야박물관",
+        "child_fee": 0.0,
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource_photo/24/3516724_image2_1.jpg",
+        "fee_notes": "0",
+        "homepage_url": "https://www.goryeong.go.kr/daegaya/sub01/sub01.do",
+        "source_types": "TOUR_API",
+        "latitude": 35.72243051,
+        "holiday_open": "09:00",
+        "longitude": 128.2568087,
+        "amenities_raw": "주차장+어린이체험실",
+        "address": "경상북도 고령군 대가야읍 대가야로 1203"
+      },
+      "vector_rank": null,
+      "bm25_rank": 3,
+      "vector_distance": null,
+      "vector_score": null,
+      "bm25_score": 7.123281221553203,
+      "vector_document": "",
+      "bm25_document": "대가야와 고령지역의 역사와 문화를 종합적으로 전시한 국내 유일의 대가야사전문박물관이다. 대가야박물관은 대가야 왕릉이 모여 있는 지산동고분군의 기슭에 자리 잡고 있으며 대가야왕릉전시관과 대가야역사관, 그리고 우륵 선생이 가야금을 창제한 정정골에 위치한 우륵박물관으로 이루어져 있다. 지산동 고분군에서 출토된 금동관을 비롯한 장신구, 긴 목항아리와 원통모형그릇받침 등 토기류, 봉황무늬 고리자루 칼과 갑옷 등 무기류, 재갈과 안장 등 무기류를 비롯하여 반룡사 동종과 석탑, 관내 종택에서 보유하고 있는 교지 등 보물에 이르기까지 많은 유물이 전시되고 있다. 주변 유적으로는 고령 지산동 고분군과 주산성, 고령향교, 고령 지산동 당간지주가 있고, 고아동 벽화고분을 복원하고 실감형 미디어아트를 운영하는 고아리벽화고분모형관, 대가야사람들의 생활모습을 엿볼 수 있는 대가야생활촌, 대가야를 테마별로 전시한 대가야테마관광지, 반룡사, 점필재 김종직의 종가가 있는 개실마을, 암각화공원으로 정비한 고령 장기리 암각화 등이 있다.",
+      "best_span_id": "chroma:M0688",
+      "best_span_text": "대가야와 고령지역의 역사와 문화를 종합적으로 전시한 국내 유일의 대가야사전문박물관이다. 대가야박물관은 대가야 왕릉이 모여 있는 지산동고분군의 기슭에 자리 잡고 있으며 대가야왕릉전시관과 대가야역사관, 그리고 우륵 선생이 가야금을 창제한 정정골에 위치한 우륵박물관으로 이루어져 있다. 지산동 고분군에서 출토된 금동관을 비롯한 장신구, 긴 목항아리와 원통모형그릇받침 등 토기류, 봉황무늬 고리자루 칼과 갑옷 등 무기류, 재갈과 안장 등 무기류를 비롯하여 반룡사 동종과 석탑, 관내 종택에서 보유하고 있는 교지 등 보물에 이르기까지 많은 유물이 전시되고 있다. 주변 유적으로는 고령 지산동 고분군과 주산성, 고령향교, 고령 지산동 당간지주가 있고, 고아동 벽화고분을 복원하고 실감형 미디어아트를 운영하는 고아리벽화고분모형관, 대가야사람들의 생활모습을 엿볼 수 있는 대가야생활촌, 대가야를 테마별로 전시한 대가야테마관광지, 반룡사, 점필재 김종직의 종가가 있는 개실마을, 암각화공원으로 정비한 고령 장기리 암각화 등이 있다.",
+      "fusion_score": 0.015873015873015872,
+      "retrieved_by": [
+        "bm25"
+      ],
+      "fusion_rank": 6,
+      "rerank_score": 0.0008452924666926265,
+      "rank": 2,
+      "score": 0.0008452924666926265,
+      "score_type": "cross_encoder",
+      "distance": null,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "bm25"
+      ],
+      "retriever": "bm25",
+      "span_id": "chroma:M0688",
+      "source_doc_ids": [
+        "DOC-B0688-TOUR_API-130099"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0688-TOUR_API-130099",
+          "source_type": "TOUR_API",
+          "source_record_id": "130099",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=340",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 48,
+          "doc_ids": [
+            "DOC-B0688-TOUR_API-130099"
+          ]
+        },
+        {
+          "start": 49,
+          "end": 156,
+          "doc_ids": [
+            "DOC-B0688-TOUR_API-130099"
+          ]
+        },
+        {
+          "start": 157,
+          "end": 309,
+          "doc_ids": [
+            "DOC-B0688-TOUR_API-130099"
+          ]
+        },
+        {
+          "start": 310,
+          "end": 512,
+          "doc_ids": [
+            "DOC-B0688-TOUR_API-130099"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=340",
+      "text": "대가야와 고령지역의 역사와 문화를 종합적으로 전시한 국내 유일의 대가야사전문박물관이다. 대가야박물관은 대가야 왕릉이 모여 있는 지산동고분군의 기슭에 자리 잡고 있으며 대가야왕릉전시관과 대가야역사관, 그리고 우륵 선생이 가야금을 창제한 정정골에 위치한 우륵박물관으로 이루어져 있다. 지산동 고분군에서 출토된 금동관을 비롯한 장신구, 긴 목항아리와 원통모형그릇받침 등 토기류, 봉황무늬 고리자루 칼과 갑옷 등 무기류, 재갈과 안장 등 무기류를 비롯하여 반룡사 동종과 석탑, 관내 종택에서 보유하고 있는 교지 등 보물에 이르기까지 많은 유물이 전시되고 있다. 주변 유적으로는 고령 지산동 고분군과 주산성, 고령향교, 고령 지산동 당간지주가 있고, 고아동 벽화고분을 복원하고 실감형 미디어아트를 운영하는 고아리벽화고분모형관, 대가야사람들의 생활모습을 엿볼 수 있는 대가야생활촌, 대가야를 테마별로 전시한 대가야테마관광지, 반룡사, 점필재 김종직의 종가가 있는 개실마을, 암각화공원으로 정비한 고령 장기리 암각화 등이 있다.",
+      "sido": "경상북도",
+      "sigungu": "고령군",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=340"
+      ],
+      "evidence_id": "E2",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=476",
+        "fields": {
+          "name": "대가야박물관",
+          "sido": "경상북도",
+          "sigungu": "고령군",
+          "address": "경상북도 고령군 대가야읍 대가야로 1203",
+          "ownership_type": "공립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "09:00",
+          "weekday_close": "18:00",
+          "holiday_open": "09:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "매주 월요일(단, 월요일이 공휴일인 경우 공휴일 다음의 첫번째 평일)",
+          "amenities_raw": "주차장+어린이체험실"
+        },
+        "base_data_date": "2025-12-11",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0579",
+      "name": "세종전통장류박물관",
+      "document": "지난 2013년 처음 문을 연 세종전통장류박물관은 우리나라 장류 문화를 한자리에서 살펴볼 수 있는 전문 박물관이다. 전시실은 장의 역사와 한국의 발효 음식, 장의 재료가 되는 다양한 콩 종자와 과학적인 저장 용기 등 풍성한 볼거리로 채워져 있다. 야외에는 각 지역의 기후와 문화에 따라 다른 모양을 지닌 장독을 함께 전시해 관람객들의 호기심을 자극한다. 메주 모양의 천연 곡물 비누 만들기나 우리 민족이 즐겨 먹었던 전통 장류의 하나인 집장 만들기 등 체험 프로그램도 운영한다. 본격적으로 장을 담는 시기인 11월 이후에 방문하면 전통 방식으로 된장과 고추장을 만드는 모습도 관람할 수 있다.",
+      "metadata": {
+        "homepage_url": "http://www.dweeungbark.co.kr/",
+        "weekday_open": "10:30",
+        "sigungu": "전동면",
+        "holiday_open": "10:30",
+        "sido": "세종특별시",
+        "name": "세종전통장류박물관",
+        "child_fee": 0.0,
+        "address": "세종특별시 전동면 배일길 90-43",
+        "requires_manual_review": true,
+        "adult_fee": 0.0,
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "image_copyright": "Type1",
+        "holiday_close": "16:30",
+        "longitude": 127.259467,
+        "closure_rule_raw": "화요일+설연휴+추석연휴",
+        "youth_fee": 0.0,
+        "latitude": 36.675045,
+        "source_types": "TOUR_API",
+        "weekday_close": "16:30",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/05/3559105_image2_1.jpg",
+        "ownership_type": "사립"
+      },
+      "vector_rank": 7,
+      "bm25_rank": null,
+      "vector_distance": 0.6047056913375854,
+      "vector_score": null,
+      "bm25_score": null,
+      "vector_document": "지난 2013년 처음 문을 연 세종전통장류박물관은 우리나라 장류 문화를 한자리에서 살펴볼 수 있는 전문 박물관이다. 전시실은 장의 역사와 한국의 발효 음식, 장의 재료가 되는 다양한 콩 종자와 과학적인 저장 용기 등 풍성한 볼거리로 채워져 있다. 야외에는 각 지역의 기후와 문화에 따라 다른 모양을 지닌 장독을 함께 전시해 관람객들의 호기심을 자극한다. 메주 모양의 천연 곡물 비누 만들기나 우리 민족이 즐겨 먹었던 전통 장류의 하나인 집장 만들기 등 체험 프로그램도 운영한다. 본격적으로 장을 담는 시기인 11월 이후에 방문하면 전통 방식으로 된장과 고추장을 만드는 모습도 관람할 수 있다.",
+      "bm25_document": "",
+      "best_span_id": null,
+      "best_span_text": null,
+      "fusion_score": 0.014925373134328358,
+      "retrieved_by": [
+        "vector"
+      ],
+      "fusion_rank": 13,
+      "rerank_score": 0.0002441052347421646,
+      "rank": 3,
+      "score": 0.0002441052347421646,
+      "score_type": "cross_encoder",
+      "distance": 0.6047056913375854,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector"
+      ],
+      "retriever": "vector",
+      "source_doc_ids": [
+        "DOC-B0579-TOUR_API-2790505"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0579-TOUR_API-2790505",
+          "source_type": "TOUR_API",
+          "source_record_id": "2790505",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=285",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 64,
+          "doc_ids": [
+            "DOC-B0579-TOUR_API-2790505"
+          ]
+        },
+        {
+          "start": 65,
+          "end": 137,
+          "doc_ids": [
+            "DOC-B0579-TOUR_API-2790505"
+          ]
+        },
+        {
+          "start": 138,
+          "end": 197,
+          "doc_ids": [
+            "DOC-B0579-TOUR_API-2790505"
+          ]
+        },
+        {
+          "start": 198,
+          "end": 267,
+          "doc_ids": [
+            "DOC-B0579-TOUR_API-2790505"
+          ]
+        },
+        {
+          "start": 268,
+          "end": 331,
+          "doc_ids": [
+            "DOC-B0579-TOUR_API-2790505"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=285",
+      "text": "지난 2013년 처음 문을 연 세종전통장류박물관은 우리나라 장류 문화를 한자리에서 살펴볼 수 있는 전문 박물관이다. 전시실은 장의 역사와 한국의 발효 음식, 장의 재료가 되는 다양한 콩 종자와 과학적인 저장 용기 등 풍성한 볼거리로 채워져 있다. 야외에는 각 지역의 기후와 문화에 따라 다른 모양을 지닌 장독을 함께 전시해 관람객들의 호기심을 자극한다. 메주 모양의 천연 곡물 비누 만들기나 우리 민족이 즐겨 먹었던 전통 장류의 하나인 집장 만들기 등 체험 프로그램도 운영한다. 본격적으로 장을 담는 시기인 11월 이후에 방문하면 전통 방식으로 된장과 고추장을 만드는 모습도 관람할 수 있다.",
+      "sido": "세종특별시",
+      "sigungu": "전동면",
+      "span_id": "",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=285"
+      ],
+      "evidence_id": "E3",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=400",
+        "fields": {
+          "name": "세종전통장류박물관",
+          "sido": "세종특별시",
+          "sigungu": "전동면",
+          "address": "세종특별시 전동면 배일길 90-43",
+          "ownership_type": "사립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "10:30",
+          "weekday_close": "16:30",
+          "holiday_open": "10:30",
+          "holiday_close": "16:30",
+          "closure_rule_raw": "화요일+설연휴+추석연휴"
+        },
+        "base_data_date": "2026-01-05",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0915",
+      "name": "청주고인쇄박물관",
+      "document": "청주고인쇄박물관은 현존하는 세계에서 가장 오래된 금속활자본이자 유네스코 세계기록유산인 『직지』를 중심으로 고려의 금속활자 인쇄술과 청주 흥덕사 관련 자료를 전시하고 있으며, 금속활자의 의미와 가치를 소개하고 있다. 또한 고려의 목판인쇄술로부터 19세기말까지 우리나라 전통 인쇄문화 전반을 소개하며 근대와 현대의 인쇄문화를 이해하는데 도움이 된다. 직지 디지털 실감영상관에서 증강현실 인터랙션(손으로 기록하다), 모션인식 인터랙션(몸으로 기록하다), 활자 미디어 아트(마음으로 기록하다) 등 다채로운 콘텐츠를 체험할 수 있는 공간이 있어 아이들과 함께 즐길 수 있다. 청주 고인쇄 박물관은 세계에서 가장 오래 된 금속 활자본직지를 인쇄한 청주 흥덕사의 옛 터에 있으며 1992년 3월 17일에 개관한 고인쇄 전문 박물관",
+      "metadata": {
+        "ownership_type": "공립",
+        "latitude": 36.6439736,
+        "adult_fee": 0.0,
+        "requires_manual_review": true,
+        "holiday_open": "09:00",
+        "sigungu": "청주시",
+        "weekday_open": "09:00",
+        "image_copyright": "Type1",
+        "source_types": "BASE|TOUR_API",
+        "closure_rule_raw": "1월 1일+설 당일+추석 당일 14시까지+월요일",
+        "amenities_raw": "주차장+수유실",
+        "holiday_close": "18:00",
+        "transport_notes": "시내버스 831 831-1",
+        "weekday_close": "18:00",
+        "homepage_url": "https://www.cheongju.go.kr/jikjiworld/index.do",
+        "address": "충청북도 청주시 흥덕구 직지대로 713(운천동)",
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "youth_fee": 0.0,
+        "sido": "충청북도",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/28/4129428_image2_1.jpg",
+        "longitude": 127.4714597,
+        "child_fee": 0.0,
+        "name": "청주고인쇄박물관"
+      },
+      "vector_rank": null,
+      "bm25_rank": 10,
+      "vector_distance": null,
+      "vector_score": null,
+      "bm25_score": 5.464975019128515,
+      "vector_document": "",
+      "bm25_document": "청주고인쇄박물관은 현존하는 세계에서 가장 오래된 금속활자본이자 유네스코 세계기록유산인 『직지』를 중심으로 고려의 금속활자 인쇄술과 청주 흥덕사 관련 자료를 전시하고 있으며, 금속활자의 의미와 가치를 소개하고 있다. 또한 고려의 목판인쇄술로부터 19세기말까지 우리나라 전통 인쇄문화 전반을 소개하며 근대와 현대의 인쇄문화를 이해하는데 도움이 된다. 직지 디지털 실감영상관에서 증강현실 인터랙션(손으로 기록하다), 모션인식 인터랙션(몸으로 기록하다), 활자 미디어 아트(마음으로 기록하다) 등 다채로운 콘텐츠를 체험할 수 있는 공간이 있어 아이들과 함께 즐길 수 있다. 청주 고인쇄 박물관은 세계에서 가장 오래 된 금속 활자본직지를 인쇄한 청주 흥덕사의 옛 터에 있으며 1992년 3월 17일에 개관한 고인쇄 전문 박물관",
+      "best_span_id": "chroma:M0915",
+      "best_span_text": "청주고인쇄박물관은 현존하는 세계에서 가장 오래된 금속활자본이자 유네스코 세계기록유산인 『직지』를 중심으로 고려의 금속활자 인쇄술과 청주 흥덕사 관련 자료를 전시하고 있으며, 금속활자의 의미와 가치를 소개하고 있다. 또한 고려의 목판인쇄술로부터 19세기말까지 우리나라 전통 인쇄문화 전반을 소개하며 근대와 현대의 인쇄문화를 이해하는데 도움이 된다. 직지 디지털 실감영상관에서 증강현실 인터랙션(손으로 기록하다), 모션인식 인터랙션(몸으로 기록하다), 활자 미디어 아트(마음으로 기록하다) 등 다채로운 콘텐츠를 체험할 수 있는 공간이 있어 아이들과 함께 즐길 수 있다. 청주 고인쇄 박물관은 세계에서 가장 오래 된 금속 활자본직지를 인쇄한 청주 흥덕사의 옛 터에 있으며 1992년 3월 17일에 개관한 고인쇄 전문 박물관",
+      "fusion_score": 0.014285714285714285,
+      "retrieved_by": [
+        "bm25"
+      ],
+      "fusion_rank": 19,
+      "rerank_score": 0.00019594485638663173,
+      "rank": 4,
+      "score": 0.00019594485638663173,
+      "score_type": "cross_encoder",
+      "distance": null,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "bm25"
+      ],
+      "retriever": "bm25",
+      "span_id": "chroma:M0915",
+      "source_doc_ids": [
+        "DOC-B0915-TOUR_API-2804708",
+        "DOC-B0915-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0915-TOUR_API-2804708",
+          "source_type": "TOUR_API",
+          "source_record_id": "2804708",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=429",
+          "match_trust": "RECHECKED_BY_RULE_NOT_HUMAN_APPROVED"
+        },
+        {
+          "doc_id": "DOC-B0915-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0915",
+          "source_locator": "data/raw/museum_base_1070.csv#row=916",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 119,
+          "doc_ids": [
+            "DOC-B0915-TOUR_API-2804708"
+          ]
+        },
+        {
+          "start": 120,
+          "end": 193,
+          "doc_ids": [
+            "DOC-B0915-TOUR_API-2804708"
+          ]
+        },
+        {
+          "start": 194,
+          "end": 316,
+          "doc_ids": [
+            "DOC-B0915-TOUR_API-2804708"
+          ]
+        },
+        {
+          "start": 317,
+          "end": 401,
+          "doc_ids": [
+            "DOC-B0915-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=429",
+      "text": "청주고인쇄박물관은 현존하는 세계에서 가장 오래된 금속활자본이자 유네스코 세계기록유산인 『직지』를 중심으로 고려의 금속활자 인쇄술과 청주 흥덕사 관련 자료를 전시하고 있으며, 금속활자의 의미와 가치를 소개하고 있다. 또한 고려의 목판인쇄술로부터 19세기말까지 우리나라 전통 인쇄문화 전반을 소개하며 근대와 현대의 인쇄문화를 이해하는데 도움이 된다. 직지 디지털 실감영상관에서 증강현실 인터랙션(손으로 기록하다), 모션인식 인터랙션(몸으로 기록하다), 활자 미디어 아트(마음으로 기록하다) 등 다채로운 콘텐츠를 체험할 수 있는 공간이 있어 아이들과 함께 즐길 수 있다. 청주 고인쇄 박물관은 세계에서 가장 오래 된 금속 활자본직지를 인쇄한 청주 흥덕사의 옛 터에 있으며 1992년 3월 17일에 개관한 고인쇄 전문 박물관",
+      "sido": "충청북도",
+      "sigungu": "청주시",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=429"
+      ],
+      "evidence_id": "E4",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=631",
+        "fields": {
+          "name": "청주고인쇄박물관",
+          "sido": "충청북도",
+          "sigungu": "청주시",
+          "address": "충청북도 청주시 흥덕구 직지대로 713(운천동)",
+          "ownership_type": "공립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "09:00",
+          "weekday_close": "18:00",
+          "holiday_open": "09:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "1월 1일+설 당일+추석 당일 14시까지+월요일",
+          "amenities_raw": "주차장+수유실"
+        },
+        "base_data_date": "2025-11-26",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0846",
+      "name": "한국등잔박물관",
+      "document": "포은 정몽주 묘소 맞은편에 있는 한국등잔박물관은 박물관장 김동휘가 50여 년간 수집한 등잔들이 전시되어 있는 사립박물관이다. 국내 유일의 등기구 박물관으로 선조들의 옛 생활상을 살펴볼 수 있어 개인뿐 아니라 학생들의 체험학습 공간으로 많이 찾는 곳이다. 수원화성 성곽을 모티브로 지은 원통형의 등대 모양 건물은 지하 1층, 지상 3층 규모로 1, 2층은 전시 공간으로 3층은 세미나 및 각종 공연을 위한 다목적 공간으로 구성되어 있다. 또 별관 전시장에는 농기구 전시실이 있고 야외전시장인 연못과 자연석이 어우러진 아름다운 정원으로 가볍게 둘러보며 힐링하기 좋다. 상설전시실 1층에는 우리의 불그릇 등잔을 주제로 부엌, 찬방, 사랑방, 안방 등 공간별로 사용되었던 등잔의 종류와 용도를 옛 생활용품과 함께 전시되어 있으며, 2층은 일상을 지킨 빛과 예를 밝힌 빛을 주제로 시대별 등잔 양식과 특징을 한눈에 알아볼 수 있다. 또 1층 특별기획전시실에서는 지역작가 조명전을 개최해 경기도 내에서 왕성한 작품 활동을 펼치는 지역작가들을 소개하고 있다. 박물관에서는 다양한 어린이, 청소년, 성인을 대상으로 한 상설교육 프로그램과 특별교육 프로그램을 운영하고 있다. 초나 LED등, 도자 등잔 등을 만들어 볼 수 있어 특별한 추억을 선물한다. 포은 정몽주 묘소가 맞은편에 있으므로 연계해 함께 방문하기 좋다.",
+      "metadata": {
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/61/3584961_image2_1.jpg",
+        "requires_manual_review": true,
+        "weekday_close": "17:00",
+        "adult_fee": 8000.0,
+        "ownership_type": "사립",
+        "source_types": "TOUR_API",
+        "weekday_open": "10:00",
+        "closure_rule_raw": "매주 월요일~화요일,신정,설연휴,추석(당일)",
+        "latitude": 37.33658645,
+        "name": "한국등잔박물관",
+        "homepage_url": "https://www.deungjan.org",
+        "sido": "경기도",
+        "longitude": 127.1778809,
+        "adult_fee_status": "BASE_FEE_PAID",
+        "child_fee": 0.0,
+        "holiday_close": "17:00",
+        "address": "경기도 용인시 처인구 모현읍 능곡로56번길 8",
+        "sigungu": "용인시",
+        "holiday_open": "10:00",
+        "youth_fee": 5000.0,
+        "fee_notes": "3000",
+        "image_copyright": "Type1"
+      },
+      "vector_rank": null,
+      "bm25_rank": 2,
+      "vector_distance": null,
+      "vector_score": null,
+      "bm25_score": 7.598468160492635,
+      "vector_document": "",
+      "bm25_document": "포은 정몽주 묘소 맞은편에 있는 한국등잔박물관은 박물관장 김동휘가 50여 년간 수집한 등잔들이 전시되어 있는 사립박물관이다. 국내 유일의 등기구 박물관으로 선조들의 옛 생활상을 살펴볼 수 있어 개인뿐 아니라 학생들의 체험학습 공간으로 많이 찾는 곳이다. 수원화성 성곽을 모티브로 지은 원통형의 등대 모양 건물은 지하 1층, 지상 3층 규모로 1, 2층은 전시 공간으로 3층은 세미나 및 각종 공연을 위한 다목적 공간으로 구성되어 있다. 또 별관 전시장에는 농기구 전시실이 있고 야외전시장인 연못과 자연석이 어우러진 아름다운 정원으로 가볍게 둘러보며 힐링하기 좋다. 상설전시실 1층에는 우리의 불그릇 등잔을 주제로 부엌, 찬방, 사랑방, 안방 등 공간별로 사용되었던 등잔의 종류와 용도를 옛 생활용품과 함께 전시되어 있으며, 2층은 일상을 지킨 빛과 예를 밝힌 빛을 주제로 시대별 등잔 양식과 특징을 한눈에 알아볼 수 있다. 또 1층 특별기획전시실에서는 지역작가 조명전을 개최해 경기도 내에서 왕성한 작품 활동을 펼치는 지역작가들을 소개하고 있다. 박물관에서는 다양한 어린이, 청소년, 성인을 대상으로 한 상설교육 프로그램과 특별교육 프로그램을 운영하고 있다. 초나 LED등, 도자 등잔 등을 만들어 볼 수 있어 특별한 추억을 선물한다. 포은 정몽주 묘소가 맞은편에 있으므로 연계해 함께 방문하기 좋다.",
+      "best_span_id": "chroma:M0846",
+      "best_span_text": "포은 정몽주 묘소 맞은편에 있는 한국등잔박물관은 박물관장 김동휘가 50여 년간 수집한 등잔들이 전시되어 있는 사립박물관이다. 국내 유일의 등기구 박물관으로 선조들의 옛 생활상을 살펴볼 수 있어 개인뿐 아니라 학생들의 체험학습 공간으로 많이 찾는 곳이다. 수원화성 성곽을 모티브로 지은 원통형의 등대 모양 건물은 지하 1층, 지상 3층 규모로 1, 2층은 전시 공간으로 3층은 세미나 및 각종 공연을 위한 다목적 공간으로 구성되어 있다. 또 별관 전시장에는 농기구 전시실이 있고 야외전시장인 연못과 자연석이 어우러진 아름다운 정원으로 가볍게 둘러보며 힐링하기 좋다. 상설전시실 1층에는 우리의 불그릇 등잔을 주제로 부엌, 찬방, 사랑방, 안방 등 공간별로 사용되었던 등잔의 종류와 용도를 옛 생활용품과 함께 전시되어 있으며, 2층은 일상을 지킨 빛과 예를 밝힌 빛을 주제로 시대별 등잔 양식과 특징을 한눈에 알아볼 수 있다. 또 1층 특별기획전시실에서는 지역작가 조명전을 개최해 경기도 내에서 왕성한 작품 활동을 펼치는 지역작가들을 소개하고 있다. 박물관에서는 다양한 어린이, 청소년, 성인을 대상으로 한 상설교육 프로그램과 특별교육 프로그램을 운영하고 있다. 초나 LED등, 도자 등잔 등을 만들어 볼 수 있어 특별한 추억을 선물한다. 포은 정몽주 묘소가 맞은편에 있으므로 연계해 함께 방문하기 좋다.",
+      "fusion_score": 0.016129032258064516,
+      "retrieved_by": [
+        "bm25"
+      ],
+      "fusion_rank": 4,
+      "rerank_score": 0.00019400918972678483,
+      "rank": 5,
+      "score": 0.00019400918972678483,
+      "score_type": "cross_encoder",
+      "distance": null,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "bm25"
+      ],
+      "retriever": "bm25",
+      "span_id": "chroma:M0846",
+      "source_doc_ids": [
+        "DOC-B0846-TOUR_API-130147"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0846-TOUR_API-130147",
+          "source_type": "TOUR_API",
+          "source_record_id": "130147",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=400",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 69,
+          "doc_ids": [
+            "DOC-B0846-TOUR_API-130147"
+          ]
+        },
+        {
+          "start": 70,
+          "end": 141,
+          "doc_ids": [
+            "DOC-B0846-TOUR_API-130147"
+          ]
+        },
+        {
+          "start": 142,
+          "end": 243,
+          "doc_ids": [
+            "DOC-B0846-TOUR_API-130147"
+          ]
+        },
+        {
+          "start": 244,
+          "end": 315,
+          "doc_ids": [
+            "DOC-B0846-TOUR_API-130147"
+          ]
+        },
+        {
+          "start": 316,
+          "end": 460,
+          "doc_ids": [
+            "DOC-B0846-TOUR_API-130147"
+          ]
+        },
+        {
+          "start": 461,
+          "end": 529,
+          "doc_ids": [
+            "DOC-B0846-TOUR_API-130147"
+          ]
+        },
+        {
+          "start": 530,
+          "end": 592,
+          "doc_ids": [
+            "DOC-B0846-TOUR_API-130147"
+          ]
+        },
+        {
+          "start": 593,
+          "end": 635,
+          "doc_ids": [
+            "DOC-B0846-TOUR_API-130147"
+          ]
+        },
+        {
+          "start": 636,
+          "end": 672,
+          "doc_ids": [
+            "DOC-B0846-TOUR_API-130147"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=400",
+      "text": "포은 정몽주 묘소 맞은편에 있는 한국등잔박물관은 박물관장 김동휘가 50여 년간 수집한 등잔들이 전시되어 있는 사립박물관이다. 국내 유일의 등기구 박물관으로 선조들의 옛 생활상을 살펴볼 수 있어 개인뿐 아니라 학생들의 체험학습 공간으로 많이 찾는 곳이다. 수원화성 성곽을 모티브로 지은 원통형의 등대 모양 건물은 지하 1층, 지상 3층 규모로 1, 2층은 전시 공간으로 3층은 세미나 및 각종 공연을 위한 다목적 공간으로 구성되어 있다. 또 별관 전시장에는 농기구 전시실이 있고 야외전시장인 연못과 자연석이 어우러진 아름다운 정원으로 가볍게 둘러보며 힐링하기 좋다. 상설전시실 1층에는 우리의 불그릇 등잔을 주제로 부엌, 찬방, 사랑방, 안방 등 공간별로 사용되었던 등잔의 종류와 용도를 옛 생활용품과 함께 전시되어 있으며, 2층은 일상을 지킨 빛과 예를 밝힌 빛을 주제로 시대별 등잔 양식과 특징을 한눈에 알아볼 수 있다. 또 1층 특별기획전시실에서는 지역작가 조명전을 개최해 경기도 내에서 왕성한 작품 활동을 펼치는 지역작가들을 소개하고 있다. 박물관에서는 다양한 어린이, 청소년, 성인을 대상으로 한 상설교육 프로그램과 특별교육 프로그램을 운영하고 있다. 초나 LED등, 도자 등잔 등을 만들어 볼 수 있어 특별한 추억을 선물한다. 포은 정몽주 묘소가 맞은편에 있으므로 연계해 함께 방문하기 좋다.",
+      "sido": "경기도",
+      "sigungu": "용인시",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=400"
+      ],
+      "evidence_id": "E5",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=573",
+        "fields": {
+          "name": "한국등잔박물관",
+          "sido": "경기도",
+          "sigungu": "용인시",
+          "address": "경기도 용인시 처인구 모현읍 능곡로56번길 8",
+          "ownership_type": "사립",
+          "adult_fee": "8000",
+          "youth_fee": "5000",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_PAID",
+          "weekday_open": "10:00",
+          "weekday_close": "17:00",
+          "holiday_open": "10:00",
+          "holiday_close": "17:00",
+          "closure_rule_raw": "매주 월요일~화요일,신정,설연휴,추석(당일)"
+        },
+        "base_data_date": "2024-11-29",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    }
+  ],
+  "answer": "안다미로귀때박물관에서 소개하는 귀때그릇은 토기·사기·유기·무쇠·옹기 등 다양한 재질로 만들어졌습니다. [E1]",
+  "retrieval_status": "ok",
+  "answer_status": "answered",
+  "route": "hybrid",
+  "retry_count": 0,
+  "supervisor_verified": true,
+  "rerank_applied": true,
+  "retriever_errors": [],
+  "warnings": [],
+  "duration_ms": 74966.6,
+  "error_type": "",
+  "hit_at_1": 1,
+  "hit_at_3": 1,
+  "hit_at_5": 1,
+  "recall_at_5": 1.0,
+  "mrr_at_10": 1.0
+}

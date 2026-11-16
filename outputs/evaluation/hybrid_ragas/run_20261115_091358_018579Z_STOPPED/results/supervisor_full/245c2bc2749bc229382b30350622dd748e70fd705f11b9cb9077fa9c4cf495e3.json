@@ -1,0 +1,702 @@
+{
+  "mode": "supervisor_full",
+  "question_id": "Q223",
+  "evidence": [
+    {
+      "museum_id": "M0376",
+      "name": "파주나비나라박물관",
+      "document": "파주나비나라박물관은 자연환경 보존의 중요성과 생명의 소중함을 일깨줘 주는 동시에 곤충을 통한 교육 중심의 박물관이 되고자 2008년 4월 파주출판문화도시에 개관하였다. 천연기념물 1점과 환경부 보호종 8점을 포함한 다양한 곤충 표본 1,000여 점과 관련 공예, 그림, 도서를 전시하고 있다. 지역민들과 문화적 감수성을 하고자 매년 다양한 관점의 전시를 개최하고자 대상별 교육을 진행한다.",
+      "metadata": {
+        "youth_fee": 7000.0,
+        "holiday_open": "10:00",
+        "homepage_url": "http://www.nabynara.com",
+        "child_fee": 7000.0,
+        "weekday_close": "18:00",
+        "closure_rule_raw": "월요일",
+        "requires_manual_review": true,
+        "address": "경기도 파주시 광인사길 161",
+        "sido": "경기도",
+        "latitude": 37.7148520478,
+        "source_types": "TOUR_API",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/52/3540652_image2_1.jpg",
+        "ownership_type": "사립",
+        "adult_fee": 7000.0,
+        "weekday_open": "10:00",
+        "holiday_close": "18:00",
+        "longitude": 126.6869123589,
+        "image_copyright": "Type1",
+        "fee_notes": "단체(20명 이상) 인당 6300원",
+        "adult_fee_status": "BASE_FEE_PAID",
+        "sigungu": "파주시",
+        "name": "파주나비나라박물관"
+      },
+      "vector_rank": 1,
+      "bm25_rank": 1,
+      "vector_distance": 0.3000444173812866,
+      "vector_score": null,
+      "bm25_score": 13.131703215632275,
+      "vector_document": "파주나비나라박물관은 자연환경 보존의 중요성과 생명의 소중함을 일깨줘 주는 동시에 곤충을 통한 교육 중심의 박물관이 되고자 2008년 4월 파주출판문화도시에 개관하였다. 천연기념물 1점과 환경부 보호종 8점을 포함한 다양한 곤충 표본 1,000여 점과 관련 공예, 그림, 도서를 전시하고 있다. 지역민들과 문화적 감수성을 하고자 매년 다양한 관점의 전시를 개최하고자 대상별 교육을 진행한다.",
+      "bm25_document": "파주나비나라박물관은 자연환경 보존의 중요성과 생명의 소중함을 일깨줘 주는 동시에 곤충을 통한 교육 중심의 박물관이 되고자 2008년 4월 파주출판문화도시에 개관하였다. 천연기념물 1점과 환경부 보호종 8점을 포함한 다양한 곤충 표본 1,000여 점과 관련 공예, 그림, 도서를 전시하고 있다. 지역민들과 문화적 감수성을 하고자 매년 다양한 관점의 전시를 개최하고자 대상별 교육을 진행한다.",
+      "best_span_id": "chroma:M0376",
+      "best_span_text": "파주나비나라박물관은 자연환경 보존의 중요성과 생명의 소중함을 일깨줘 주는 동시에 곤충을 통한 교육 중심의 박물관이 되고자 2008년 4월 파주출판문화도시에 개관하였다. 천연기념물 1점과 환경부 보호종 8점을 포함한 다양한 곤충 표본 1,000여 점과 관련 공예, 그림, 도서를 전시하고 있다. 지역민들과 문화적 감수성을 하고자 매년 다양한 관점의 전시를 개최하고자 대상별 교육을 진행한다.",
+      "fusion_score": 0.03278688524590164,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 1,
+      "name_match": true,
+      "rerank_score": 0.997342050075531,
+      "rank": 1,
+      "score": 0.997342050075531,
+      "score_type": "cross_encoder",
+      "distance": 0.3000444173812866,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0376",
+      "source_doc_ids": [
+        "DOC-B0376-TOUR_API-613661"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0376-TOUR_API-613661",
+          "source_type": "TOUR_API",
+          "source_record_id": "613661",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=178",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 93,
+          "doc_ids": [
+            "DOC-B0376-TOUR_API-613661"
+          ]
+        },
+        {
+          "start": 94,
+          "end": 163,
+          "doc_ids": [
+            "DOC-B0376-TOUR_API-613661"
+          ]
+        },
+        {
+          "start": 164,
+          "end": 217,
+          "doc_ids": [
+            "DOC-B0376-TOUR_API-613661"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=178",
+      "text": "파주나비나라박물관은 자연환경 보존의 중요성과 생명의 소중함을 일깨줘 주는 동시에 곤충을 통한 교육 중심의 박물관이 되고자 2008년 4월 파주출판문화도시에 개관하였다. 천연기념물 1점과 환경부 보호종 8점을 포함한 다양한 곤충 표본 1,000여 점과 관련 공예, 그림, 도서를 전시하고 있다. 지역민들과 문화적 감수성을 하고자 매년 다양한 관점의 전시를 개최하고자 대상별 교육을 진행한다.",
+      "sido": "경기도",
+      "sigungu": "파주시",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=178"
+      ],
+      "evidence_id": "E1",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=273",
+        "fields": {
+          "name": "파주나비나라박물관",
+          "sido": "경기도",
+          "sigungu": "파주시",
+          "address": "경기도 파주시 광인사길 161",
+          "ownership_type": "사립",
+          "adult_fee": "7000",
+          "youth_fee": "7000",
+          "child_fee": "7000",
+          "adult_fee_status": "BASE_FEE_PAID",
+          "weekday_open": "10:00",
+          "weekday_close": "18:00",
+          "holiday_open": "10:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "월요일"
+        },
+        "base_data_date": "2026-06-22",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0547",
+      "name": "풀짚공예박물관",
+      "document": "풀짚공예박물관은 풀과 짚을 이용해서 만든 민속 생활 도구와 공예품을 수집하고 연구·전시와 교육을 하는 박물관이다. 고대 농경 사회부터 생활 도구를 만들어 사용하던 초고(草藁) 공예 기능은 구전(입)으로만 전해져 왔으며, 이러한 상황을 안타깝게 여긴 설립자 전성임 관장은 풀과 짚을 이용한 공예 분야를 체계적으로 정리하기 위해 전국의 장인들을 찾아다니며 그 기술을 습득하고 재료의 특성과 지리적 연관성을 연구하였다. 전통문화유산이 급속히 사라져 가는 오늘날, 풀·짚공예가 더 이상 잊혀가는 옛 것이 아니고, 교육적이고 환경적이며, 예술적인 가치가 있는 우리의 문화유산임을 인식시키기 위해 본 박물관에서는 풀·짚공예의 전통적 가치를 계승하는 교육의 장으로서 과거에서 현재와 미래로 이어지는 창조적인 공예 예술 분야가 되도록 연구와 교육 활동을 이어가고 있다. 조상들의 생활민속품과 현대작품을 통해 풀짚공예의 과거와 현재를 비교 감상할 수 있으며, 전문화된 공예교육 프로그램을 체험할 수 있다.",
+      "metadata": {
+        "sido": "경기도",
+        "address": "경기도 광주시 오포읍 문형산길 76(신현리, 초고빌라)",
+        "adult_fee_status": "BASE_FEE_PAID",
+        "name": "풀짚공예박물관",
+        "child_fee": 1500.0,
+        "requires_manual_review": true,
+        "youth_fee": 1500.0,
+        "adult_fee": 3000.0,
+        "source_types": "BASE|TOUR_API",
+        "homepage_url": "https://www.pulzip.com",
+        "holiday_open": "10:00",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/38/3527338_image2_1.jpg",
+        "holiday_close": "17:00",
+        "sigungu": "광주시",
+        "image_copyright": "Type1",
+        "ownership_type": "사립",
+        "weekday_open": "10:00",
+        "weekday_close": "17:00",
+        "latitude": 37.36419832,
+        "closure_rule_raw": "월요일+신정+설당일+추석당일",
+        "longitude": 127.1651088
+      },
+      "vector_rank": null,
+      "bm25_rank": 7,
+      "vector_distance": null,
+      "vector_score": null,
+      "bm25_score": 8.357806536502336,
+      "vector_document": "",
+      "bm25_document": "풀짚공예박물관은 풀과 짚을 이용해서 만든 민속 생활 도구와 공예품을 수집하고 연구·전시와 교육을 하는 박물관이다. 고대 농경 사회부터 생활 도구를 만들어 사용하던 초고(草藁) 공예 기능은 구전(입)으로만 전해져 왔으며, 이러한 상황을 안타깝게 여긴 설립자 전성임 관장은 풀과 짚을 이용한 공예 분야를 체계적으로 정리하기 위해 전국의 장인들을 찾아다니며 그 기술을 습득하고 재료의 특성과 지리적 연관성을 연구하였다. 전통문화유산이 급속히 사라져 가는 오늘날, 풀·짚공예가 더 이상 잊혀가는 옛 것이 아니고, 교육적이고 환경적이며, 예술적인 가치가 있는 우리의 문화유산임을 인식시키기 위해 본 박물관에서는 풀·짚공예의 전통적 가치를 계승하는 교육의 장으로서 과거에서 현재와 미래로 이어지는 창조적인 공예 예술 분야가 되도록 연구와 교육 활동을 이어가고 있다. 조상들의 생활민속품과 현대작품을 통해 풀짚공예의 과거와 현재를 비교 감상할 수 있으며, 전문화된 공예교육 프로그램을 체험할 수 있다.",
+      "best_span_id": "chroma:M0547",
+      "best_span_text": "풀짚공예박물관은 풀과 짚을 이용해서 만든 민속 생활 도구와 공예품을 수집하고 연구·전시와 교육을 하는 박물관이다. 고대 농경 사회부터 생활 도구를 만들어 사용하던 초고(草藁) 공예 기능은 구전(입)으로만 전해져 왔으며, 이러한 상황을 안타깝게 여긴 설립자 전성임 관장은 풀과 짚을 이용한 공예 분야를 체계적으로 정리하기 위해 전국의 장인들을 찾아다니며 그 기술을 습득하고 재료의 특성과 지리적 연관성을 연구하였다. 전통문화유산이 급속히 사라져 가는 오늘날, 풀·짚공예가 더 이상 잊혀가는 옛 것이 아니고, 교육적이고 환경적이며, 예술적인 가치가 있는 우리의 문화유산임을 인식시키기 위해 본 박물관에서는 풀·짚공예의 전통적 가치를 계승하는 교육의 장으로서 과거에서 현재와 미래로 이어지는 창조적인 공예 예술 분야가 되도록 연구와 교육 활동을 이어가고 있다. 조상들의 생활민속품과 현대작품을 통해 풀짚공예의 과거와 현재를 비교 감상할 수 있으며, 전문화된 공예교육 프로그램을 체험할 수 있다.",
+      "fusion_score": 0.014925373134328358,
+      "retrieved_by": [
+        "bm25"
+      ],
+      "fusion_rank": 15,
+      "rerank_score": 0.007184374611824751,
+      "rank": 2,
+      "score": 0.007184374611824751,
+      "score_type": "cross_encoder",
+      "distance": null,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "bm25"
+      ],
+      "retriever": "bm25",
+      "span_id": "chroma:M0547",
+      "source_doc_ids": [
+        "DOC-B0547-TOUR_API-2551477",
+        "DOC-B0547-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0547-TOUR_API-2551477",
+          "source_type": "TOUR_API",
+          "source_record_id": "2551477",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=269",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        },
+        {
+          "doc_id": "DOC-B0547-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0547",
+          "source_locator": "data/raw/museum_base_1070.csv#row=548",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 63,
+          "doc_ids": [
+            "DOC-B0547-TOUR_API-2551477"
+          ]
+        },
+        {
+          "start": 64,
+          "end": 231,
+          "doc_ids": [
+            "DOC-B0547-TOUR_API-2551477"
+          ]
+        },
+        {
+          "start": 232,
+          "end": 422,
+          "doc_ids": [
+            "DOC-B0547-TOUR_API-2551477"
+          ]
+        },
+        {
+          "start": 423,
+          "end": 497,
+          "doc_ids": [
+            "DOC-B0547-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=269",
+      "text": "풀짚공예박물관은 풀과 짚을 이용해서 만든 민속 생활 도구와 공예품을 수집하고 연구·전시와 교육을 하는 박물관이다. 고대 농경 사회부터 생활 도구를 만들어 사용하던 초고(草藁) 공예 기능은 구전(입)으로만 전해져 왔으며, 이러한 상황을 안타깝게 여긴 설립자 전성임 관장은 풀과 짚을 이용한 공예 분야를 체계적으로 정리하기 위해 전국의 장인들을 찾아다니며 그 기술을 습득하고 재료의 특성과 지리적 연관성을 연구하였다. 전통문화유산이 급속히 사라져 가는 오늘날, 풀·짚공예가 더 이상 잊혀가는 옛 것이 아니고, 교육적이고 환경적이며, 예술적인 가치가 있는 우리의 문화유산임을 인식시키기 위해 본 박물관에서는 풀·짚공예의 전통적 가치를 계승하는 교육의 장으로서 과거에서 현재와 미래로 이어지는 창조적인 공예 예술 분야가 되도록 연구와 교육 활동을 이어가고 있다. 조상들의 생활민속품과 현대작품을 통해 풀짚공예의 과거와 현재를 비교 감상할 수 있으며, 전문화된 공예교육 프로그램을 체험할 수 있다.",
+      "sido": "경기도",
+      "sigungu": "광주시",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=269"
+      ],
+      "evidence_id": "E2",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=384",
+        "fields": {
+          "name": "풀짚공예박물관",
+          "sido": "경기도",
+          "sigungu": "광주시",
+          "address": "경기도 광주시 오포읍 문형산길 76(신현리, 초고빌라)",
+          "ownership_type": "사립",
+          "adult_fee": "3000",
+          "youth_fee": "1500",
+          "child_fee": "1500",
+          "adult_fee_status": "BASE_FEE_PAID",
+          "weekday_open": "10:00",
+          "weekday_close": "17:00",
+          "holiday_open": "10:00",
+          "holiday_close": "17:00",
+          "closure_rule_raw": "월요일+신정+설당일+추석당일"
+        },
+        "base_data_date": "2026-02-04",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0262",
+      "name": "합천한의학박물관",
+      "document": "의학박사 고 임판규 옹에 의해 2013년 8월 개관하였다. 양의학의 단점인 하나의 장기를 고치면 다른 하나의 장기는 돌보지 못한다는 한계점을 인식하고 이러한 점을 보완할 수 있는 한의학과 약초학에 관심을 가졌다. 이리하여 병이 생기기 전 예방할 수 있는 한의학을 널리 알리기 위하여 합천한의학박물관을 개관하였다. 민족의학의 정통성과 소중함을 지닌 전통한방유물 및 교육적 가치가 높은 삼국시대부터 근현대 생활상을 보여주는 도자기 및 민속유물 등 총4000여점의 유물을 보유중이며 이 중 300여점의 한의학유물을 상설전시 중이다.",
+      "metadata": {
+        "homepage_url": "https://hckmmuseum.co.kr/",
+        "longitude": 128.1012211,
+        "weekday_close": "18:00",
+        "closure_rule_raw": "월(단, 월요일이 공휴일인 경우 당일은 개관하고 그 다음 첫번째 평일에 휴관)+1월1일+설 당일+추석 당일",
+        "child_fee": 2500.0,
+        "holiday_close": "18:00",
+        "sigungu": "합천군",
+        "fee_notes": "어른(55세이상)+청소년(20~55세)+어린이(11~19세)",
+        "source_types": "BASE",
+        "sido": "경상남도",
+        "transport_notes": "버스: 합천-거창(평학.대병)(합천터미널)에서 고품삼거리정류장 하차",
+        "requires_manual_review": true,
+        "weekday_open": "09:00",
+        "adult_fee": 1500.0,
+        "amenities_raw": "주차시설+힐링운동장+캠핑시설",
+        "name": "합천한의학박물관",
+        "holiday_open": "09:00",
+        "address": "경상남도 합천군 용주면 고품길 42",
+        "latitude": 35.53772383,
+        "youth_fee": 3000.0,
+        "ownership_type": "사립",
+        "adult_fee_status": "BASE_FEE_PAID"
+      },
+      "vector_rank": null,
+      "bm25_rank": 6,
+      "vector_distance": null,
+      "vector_score": null,
+      "bm25_score": 8.364079347427172,
+      "vector_document": "",
+      "bm25_document": "의학박사 고 임판규 옹에 의해 2013년 8월 개관하였다. 양의학의 단점인 하나의 장기를 고치면 다른 하나의 장기는 돌보지 못한다는 한계점을 인식하고 이러한 점을 보완할 수 있는 한의학과 약초학에 관심을 가졌다. 이리하여 병이 생기기 전 예방할 수 있는 한의학을 널리 알리기 위하여 합천한의학박물관을 개관하였다. 민족의학의 정통성과 소중함을 지닌 전통한방유물 및 교육적 가치가 높은 삼국시대부터 근현대 생활상을 보여주는 도자기 및 민속유물 등 총4000여점의 유물을 보유중이며 이 중 300여점의 한의학유물을 상설전시 중이다.",
+      "best_span_id": "chroma:M0262",
+      "best_span_text": "의학박사 고 임판규 옹에 의해 2013년 8월 개관하였다. 양의학의 단점인 하나의 장기를 고치면 다른 하나의 장기는 돌보지 못한다는 한계점을 인식하고 이러한 점을 보완할 수 있는 한의학과 약초학에 관심을 가졌다. 이리하여 병이 생기기 전 예방할 수 있는 한의학을 널리 알리기 위하여 합천한의학박물관을 개관하였다. 민족의학의 정통성과 소중함을 지닌 전통한방유물 및 교육적 가치가 높은 삼국시대부터 근현대 생활상을 보여주는 도자기 및 민속유물 등 총4000여점의 유물을 보유중이며 이 중 300여점의 한의학유물을 상설전시 중이다.",
+      "fusion_score": 0.015151515151515152,
+      "retrieved_by": [
+        "bm25"
+      ],
+      "fusion_rank": 13,
+      "rerank_score": 0.005446280352771282,
+      "rank": 3,
+      "score": 0.005446280352771282,
+      "score_type": "cross_encoder",
+      "distance": null,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "bm25"
+      ],
+      "retriever": "bm25",
+      "span_id": "chroma:M0262",
+      "source_doc_ids": [
+        "DOC-B0262-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0262-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0262",
+          "source_locator": "data/raw/museum_base_1070.csv#row=263",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 32,
+          "doc_ids": [
+            "DOC-B0262-BASE"
+          ]
+        },
+        {
+          "start": 33,
+          "end": 118,
+          "doc_ids": [
+            "DOC-B0262-BASE"
+          ]
+        },
+        {
+          "start": 119,
+          "end": 174,
+          "doc_ids": [
+            "DOC-B0262-BASE"
+          ]
+        },
+        {
+          "start": 175,
+          "end": 294,
+          "doc_ids": [
+            "DOC-B0262-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_base_1070.csv#row=263",
+      "text": "의학박사 고 임판규 옹에 의해 2013년 8월 개관하였다. 양의학의 단점인 하나의 장기를 고치면 다른 하나의 장기는 돌보지 못한다는 한계점을 인식하고 이러한 점을 보완할 수 있는 한의학과 약초학에 관심을 가졌다. 이리하여 병이 생기기 전 예방할 수 있는 한의학을 널리 알리기 위하여 합천한의학박물관을 개관하였다. 민족의학의 정통성과 소중함을 지닌 전통한방유물 및 교육적 가치가 높은 삼국시대부터 근현대 생활상을 보여주는 도자기 및 민속유물 등 총4000여점의 유물을 보유중이며 이 중 300여점의 한의학유물을 상설전시 중이다.",
+      "sido": "경상남도",
+      "sigungu": "합천군",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_base_1070.csv#row=263"
+      ],
+      "evidence_id": "E3",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=184",
+        "fields": {
+          "name": "합천한의학박물관",
+          "sido": "경상남도",
+          "sigungu": "합천군",
+          "address": "경상남도 합천군 용주면 고품길 42",
+          "ownership_type": "사립",
+          "adult_fee": "1500",
+          "youth_fee": "3000",
+          "child_fee": "2500",
+          "adult_fee_status": "BASE_FEE_PAID",
+          "weekday_open": "09:00",
+          "weekday_close": "18:00",
+          "holiday_open": "09:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "월(단, 월요일이 공휴일인 경우 당일은 개관하고 그 다음 첫번째 평일에 휴관)+1월1일+설 당일+추석 당일",
+          "amenities_raw": "주차시설+힐링운동장+캠핑시설"
+        },
+        "base_data_date": "2026-07-10",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0073",
+      "name": "제주해양동물박물관",
+      "document": "제주해양동물박물관에서는 제주만의 특별한 교육 체험이 가능하다. 고래상어, 개복치, 키다리 게 등 해양 동물의 생생한 이야기에 대한 교육 그리고 체험이 가능하며, 어른과 어린이의 알찬 놀이터가 되어준다. 주요 소장품으로 약 800여 종의 해양동물 표본이 10,000여 점 전시되어 있다. 이곳의 해양동물 표본은 40여 년간의 오랜 경험과 특수 기술로 생동감 있게 제작되었다. 해양동물 실물 표본을 직접 관찰할 수 있어, 표본의 본질적 가치를 바탕으로 한 해양 동물 교육과 체험의 장이 되고 있다. 해양 동물자원의 중요성과 공존의 가치를 인식시키는 계기를 마련하고, 국내 생태계 보전의식 확산에 이바지하는, 지속 가능한 해양 동물 전문 박물관이다. 주변 관광지로는 세계적 자연유산인 성산일출봉과 섭지코지, 아쿠아플라넷, 용눈이오름 등이 있다.",
+      "metadata": {
+        "child_fee": 8000.0,
+        "fee_notes": "단체 관람 시 할인+도민할인",
+        "adult_fee": 10000.0,
+        "image_copyright": "Type1",
+        "name": "제주해양동물박물관",
+        "ownership_type": "사립",
+        "weekday_open": "09:00",
+        "longitude": 126.8551274,
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/47/3548447_image2_1.jpg",
+        "holiday_open": "09:00",
+        "sigungu": "서귀포시",
+        "weekday_close": "18:00",
+        "latitude": 33.42948623,
+        "holiday_close": "18:00",
+        "source_types": "TOUR_API",
+        "requires_manual_review": true,
+        "youth_fee": 9000.0,
+        "homepage_url": "http://www.jejumarineanimal.com",
+        "sido": "제주특별자치도",
+        "address": "제주특별자치도 서귀포시 성산읍 서성일로 689-21",
+        "adult_fee_status": "BASE_FEE_PAID",
+        "closure_rule_raw": "수"
+      },
+      "vector_rank": null,
+      "bm25_rank": 2,
+      "vector_distance": null,
+      "vector_score": null,
+      "bm25_score": 9.379527709626963,
+      "vector_document": "",
+      "bm25_document": "제주해양동물박물관에서는 제주만의 특별한 교육 체험이 가능하다. 고래상어, 개복치, 키다리 게 등 해양 동물의 생생한 이야기에 대한 교육 그리고 체험이 가능하며, 어른과 어린이의 알찬 놀이터가 되어준다. 주요 소장품으로 약 800여 종의 해양동물 표본이 10,000여 점 전시되어 있다. 이곳의 해양동물 표본은 40여 년간의 오랜 경험과 특수 기술로 생동감 있게 제작되었다. 해양동물 실물 표본을 직접 관찰할 수 있어, 표본의 본질적 가치를 바탕으로 한 해양 동물 교육과 체험의 장이 되고 있다. 해양 동물자원의 중요성과 공존의 가치를 인식시키는 계기를 마련하고, 국내 생태계 보전의식 확산에 이바지하는, 지속 가능한 해양 동물 전문 박물관이다. 주변 관광지로는 세계적 자연유산인 성산일출봉과 섭지코지, 아쿠아플라넷, 용눈이오름 등이 있다.",
+      "best_span_id": "chroma:M0073",
+      "best_span_text": "제주해양동물박물관에서는 제주만의 특별한 교육 체험이 가능하다. 고래상어, 개복치, 키다리 게 등 해양 동물의 생생한 이야기에 대한 교육 그리고 체험이 가능하며, 어른과 어린이의 알찬 놀이터가 되어준다. 주요 소장품으로 약 800여 종의 해양동물 표본이 10,000여 점 전시되어 있다. 이곳의 해양동물 표본은 40여 년간의 오랜 경험과 특수 기술로 생동감 있게 제작되었다. 해양동물 실물 표본을 직접 관찰할 수 있어, 표본의 본질적 가치를 바탕으로 한 해양 동물 교육과 체험의 장이 되고 있다. 해양 동물자원의 중요성과 공존의 가치를 인식시키는 계기를 마련하고, 국내 생태계 보전의식 확산에 이바지하는, 지속 가능한 해양 동물 전문 박물관이다. 주변 관광지로는 세계적 자연유산인 성산일출봉과 섭지코지, 아쿠아플라넷, 용눈이오름 등이 있다.",
+      "fusion_score": 0.016129032258064516,
+      "retrieved_by": [
+        "bm25"
+      ],
+      "fusion_rank": 5,
+      "rerank_score": 0.002423017518594861,
+      "rank": 4,
+      "score": 0.002423017518594861,
+      "score_type": "cross_encoder",
+      "distance": null,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "bm25"
+      ],
+      "retriever": "bm25",
+      "span_id": "chroma:M0073",
+      "source_doc_ids": [
+        "DOC-B0073-TOUR_API-2751843"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0073-TOUR_API-2751843",
+          "source_type": "TOUR_API",
+          "source_record_id": "2751843",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=37",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 34,
+          "doc_ids": [
+            "DOC-B0073-TOUR_API-2751843"
+          ]
+        },
+        {
+          "start": 35,
+          "end": 112,
+          "doc_ids": [
+            "DOC-B0073-TOUR_API-2751843"
+          ]
+        },
+        {
+          "start": 113,
+          "end": 159,
+          "doc_ids": [
+            "DOC-B0073-TOUR_API-2751843"
+          ]
+        },
+        {
+          "start": 160,
+          "end": 208,
+          "doc_ids": [
+            "DOC-B0073-TOUR_API-2751843"
+          ]
+        },
+        {
+          "start": 209,
+          "end": 276,
+          "doc_ids": [
+            "DOC-B0073-TOUR_API-2751843"
+          ]
+        },
+        {
+          "start": 277,
+          "end": 360,
+          "doc_ids": [
+            "DOC-B0073-TOUR_API-2751843"
+          ]
+        },
+        {
+          "start": 361,
+          "end": 413,
+          "doc_ids": [
+            "DOC-B0073-TOUR_API-2751843"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=37",
+      "text": "제주해양동물박물관에서는 제주만의 특별한 교육 체험이 가능하다. 고래상어, 개복치, 키다리 게 등 해양 동물의 생생한 이야기에 대한 교육 그리고 체험이 가능하며, 어른과 어린이의 알찬 놀이터가 되어준다. 주요 소장품으로 약 800여 종의 해양동물 표본이 10,000여 점 전시되어 있다. 이곳의 해양동물 표본은 40여 년간의 오랜 경험과 특수 기술로 생동감 있게 제작되었다. 해양동물 실물 표본을 직접 관찰할 수 있어, 표본의 본질적 가치를 바탕으로 한 해양 동물 교육과 체험의 장이 되고 있다. 해양 동물자원의 중요성과 공존의 가치를 인식시키는 계기를 마련하고, 국내 생태계 보전의식 확산에 이바지하는, 지속 가능한 해양 동물 전문 박물관이다. 주변 관광지로는 세계적 자연유산인 성산일출봉과 섭지코지, 아쿠아플라넷, 용눈이오름 등이 있다.",
+      "sido": "제주특별자치도",
+      "sigungu": "서귀포시",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=37"
+      ],
+      "evidence_id": "E4",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=47",
+        "fields": {
+          "name": "제주해양동물박물관",
+          "sido": "제주특별자치도",
+          "sigungu": "서귀포시",
+          "address": "제주특별자치도 서귀포시 성산읍 서성일로 689-21",
+          "ownership_type": "사립",
+          "adult_fee": "10000",
+          "youth_fee": "9000",
+          "child_fee": "8000",
+          "adult_fee_status": "BASE_FEE_PAID",
+          "weekday_open": "09:00",
+          "weekday_close": "18:00",
+          "holiday_open": "09:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "수"
+        },
+        "base_data_date": "2026-09-30",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0677",
+      "name": "국립저작권박물관",
+      "document": "국립저작권박물관은 모두가 이용자이자 저작자임을 공감하며 저작권의 올바른 이용 문화와 창작의 즐거움을 알아가는 체험형 박물관이다. 관람객 주도형 체험형 전시로 누구나 쉽고 재미있게 저작권을 이해하고 다양한 교육프로그램을 통해 저작자가 되어보는 경험을 제공하고 있다. 우리가 즐기는 모든 문화 콘텐츠의 지지 기반인 저작권 가치에 대하여 국민들의 체험적 경험을 통해 쉽게 이해할 수 있는 전시·교육·문화행사가 이루어지는 복합 문화공간이다. 문화 콘텐츠의 지지 기반인 저작권 가치에 대해 국민들의 체험적 경험 제공",
+      "metadata": {
+        "sigungu": "진주시",
+        "image_copyright": "Type3",
+        "homepage_url": "https://copyright.or.kr/allco/main.do",
+        "ownership_type": "국립",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/00/3377700_image2_1.jpg",
+        "weekday_open": "10:00",
+        "sido": "경상남도",
+        "child_fee": 0.0,
+        "weekday_close": "18:00",
+        "longitude": 128.1344898,
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "source_types": "BASE|TOUR_API",
+        "youth_fee": 0.0,
+        "closure_rule_raw": "토·일요일 및 공휴일 휴관",
+        "address": "경상남도 진주시 소호로 117",
+        "latitude": 35.17918439,
+        "requires_manual_review": true,
+        "fee_notes": "0",
+        "name": "국립저작권박물관",
+        "transport_notes": "시내버스(10번+150번+280번+290번+300번+301번)",
+        "adult_fee": 0.0
+      },
+      "vector_rank": null,
+      "bm25_rank": 4,
+      "vector_distance": null,
+      "vector_score": null,
+      "bm25_score": 8.995113414452955,
+      "vector_document": "",
+      "bm25_document": "국립저작권박물관은 모두가 이용자이자 저작자임을 공감하며 저작권의 올바른 이용 문화와 창작의 즐거움을 알아가는 체험형 박물관이다. 관람객 주도형 체험형 전시로 누구나 쉽고 재미있게 저작권을 이해하고 다양한 교육프로그램을 통해 저작자가 되어보는 경험을 제공하고 있다. 우리가 즐기는 모든 문화 콘텐츠의 지지 기반인 저작권 가치에 대하여 국민들의 체험적 경험을 통해 쉽게 이해할 수 있는 전시·교육·문화행사가 이루어지는 복합 문화공간이다. 문화 콘텐츠의 지지 기반인 저작권 가치에 대해 국민들의 체험적 경험 제공",
+      "best_span_id": "chroma:M0677",
+      "best_span_text": "국립저작권박물관은 모두가 이용자이자 저작자임을 공감하며 저작권의 올바른 이용 문화와 창작의 즐거움을 알아가는 체험형 박물관이다. 관람객 주도형 체험형 전시로 누구나 쉽고 재미있게 저작권을 이해하고 다양한 교육프로그램을 통해 저작자가 되어보는 경험을 제공하고 있다. 우리가 즐기는 모든 문화 콘텐츠의 지지 기반인 저작권 가치에 대하여 국민들의 체험적 경험을 통해 쉽게 이해할 수 있는 전시·교육·문화행사가 이루어지는 복합 문화공간이다. 문화 콘텐츠의 지지 기반인 저작권 가치에 대해 국민들의 체험적 경험 제공",
+      "fusion_score": 0.015625,
+      "retrieved_by": [
+        "bm25"
+      ],
+      "fusion_rank": 9,
+      "rerank_score": 0.0018042258452624083,
+      "rank": 5,
+      "score": 0.0018042258452624083,
+      "score_type": "cross_encoder",
+      "distance": null,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "bm25"
+      ],
+      "retriever": "bm25",
+      "span_id": "chroma:M0677",
+      "source_doc_ids": [
+        "DOC-B0677-TOUR_API-3375281",
+        "DOC-B0677-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0677-TOUR_API-3375281",
+          "source_type": "TOUR_API",
+          "source_record_id": "3375281",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=252",
+          "match_trust": "RECHECKED_BY_RULE_NOT_HUMAN_APPROVED"
+        },
+        {
+          "doc_id": "DOC-B0677-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0677",
+          "source_locator": "data/raw/museum_base_1070.csv#row=678",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 71,
+          "doc_ids": [
+            "DOC-B0677-TOUR_API-3375281"
+          ]
+        },
+        {
+          "start": 72,
+          "end": 147,
+          "doc_ids": [
+            "DOC-B0677-TOUR_API-3375281"
+          ]
+        },
+        {
+          "start": 148,
+          "end": 242,
+          "doc_ids": [
+            "DOC-B0677-TOUR_API-3375281"
+          ]
+        },
+        {
+          "start": 243,
+          "end": 283,
+          "doc_ids": [
+            "DOC-B0677-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=252",
+      "text": "국립저작권박물관은 모두가 이용자이자 저작자임을 공감하며 저작권의 올바른 이용 문화와 창작의 즐거움을 알아가는 체험형 박물관이다. 관람객 주도형 체험형 전시로 누구나 쉽고 재미있게 저작권을 이해하고 다양한 교육프로그램을 통해 저작자가 되어보는 경험을 제공하고 있다. 우리가 즐기는 모든 문화 콘텐츠의 지지 기반인 저작권 가치에 대하여 국민들의 체험적 경험을 통해 쉽게 이해할 수 있는 전시·교육·문화행사가 이루어지는 복합 문화공간이다. 문화 콘텐츠의 지지 기반인 저작권 가치에 대해 국민들의 체험적 경험 제공",
+      "sido": "경상남도",
+      "sigungu": "진주시",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=252"
+      ],
+      "evidence_id": "E5",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=467",
+        "fields": {
+          "name": "국립저작권박물관",
+          "sido": "경상남도",
+          "sigungu": "진주시",
+          "address": "경상남도 진주시 소호로 117",
+          "ownership_type": "국립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "10:00",
+          "weekday_close": "18:00",
+          "closure_rule_raw": "토·일요일 및 공휴일 휴관"
+        },
+        "base_data_date": "2025-11-04",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    }
+  ],
+  "answer": "파주나비나라박물관은 곤충을 매개로 자연환경 보존의 중요성과 생명의 소중함을 배우게 하는 교육 중심의 박물관입니다. [E1] 곤충 표본과 관련 공예·그림·도서를 전시하고, 다양한 관점의 전시와 대상별 교육을 통해 문화적 감수성을 기르는 것을 지향합니다. [E1]",
+  "retrieval_status": "ok",
+  "answer_status": "answered",
+  "route": "hybrid",
+  "retry_count": 0,
+  "supervisor_verified": true,
+  "rerank_applied": true,
+  "retriever_errors": [],
+  "warnings": [],
+  "duration_ms": 139618.63,
+  "error_type": "",
+  "hit_at_1": 1,
+  "hit_at_3": 1,
+  "hit_at_5": 1,
+  "recall_at_5": 1.0,
+  "mrr_at_10": 1.0
+}

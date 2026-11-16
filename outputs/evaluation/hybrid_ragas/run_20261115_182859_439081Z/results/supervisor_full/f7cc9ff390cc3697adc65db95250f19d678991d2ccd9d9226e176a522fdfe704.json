@@ -1,0 +1,816 @@
+{
+  "evidence_context_version": "grounded-evidence-v2",
+  "evaluation_contexts": [
+    "{\"evidence_context_version\": \"grounded-evidence-v2\", \"evidence_id\": \"E1\", \"metadata_provenance\": {\"base_data_date\": \"2024-11-02\", \"fields\": {\"address\": \"울산광역시 울주군 두동면반구대안길 254\", \"adult_fee\": \"0\", \"adult_fee_status\": \"BASE_FEE_ZERO_CHECK_EXCEPTIONS\", \"amenities_raw\": \"세미나실+회의실\", \"child_fee\": \"0\", \"closure_rule_raw\": \"매주 월\", \"holiday_close\": \"18:00\", \"holiday_open\": \"09:00\", \"name\": \"울산암각화박물관\", \"ownership_type\": \"공립\", \"sido\": \"울산광역시\", \"sigungu\": \"울주군\", \"weekday_close\": \"18:00\", \"weekday_open\": \"09:00\", \"youth_fee\": \"0\"}, \"source_kind\": \"derived_csv_row\", \"source_locator\": \"data/processed/museum_final_738.csv#record=519\", \"trust\": \"derived_dataset_not_human_verified\"}, \"museum_id\": \"M0750\", \"name\": \"울산암각화박물관\", \"retrieval_branch\": \"document\", \"source_doc_ids\": [\"DOC-B0750-TOUR_API-634337\", \"DOC-B0750-BASE\"], \"source_documents\": [{\"doc_id\": \"DOC-B0750-TOUR_API-634337\", \"match_trust\": \"AUTO_MATCH_NOT_HUMAN_VERIFIED\", \"source_locator\": \"data/raw/museum_tourapi_with_overview.csv#row=363\", \"source_record_id\": \"634337\", \"source_type\": \"TOUR_API\"}, {\"doc_id\": \"DOC-B0750-BASE\", \"match_trust\": \"BASE_SOURCE\", \"source_locator\": \"data/raw/museum_base_1070.csv#row=751\", \"source_record_id\": \"B0750\", \"source_type\": \"BASE\"}], \"source_locator\": \"data/raw/museum_tourapi_with_overview.csv#row=363\", \"source_locators\": [\"data/raw/museum_tourapi_with_overview.csv#row=363\"], \"source_scope\": \"text\", \"source_spans\": [{\"doc_ids\": [\"DOC-B0750-TOUR_API-634337\"], \"end\": 98, \"start\": 0}, {\"doc_ids\": [\"DOC-B0750-TOUR_API-634337\"], \"end\": 208, \"start\": 99}, {\"doc_ids\": [\"DOC-B0750-TOUR_API-634337\"], \"end\": 301, \"start\": 209}, {\"doc_ids\": [\"DOC-B0750-BASE\"], \"end\": 373, \"start\": 302}], \"source_urls\": [], \"text\": \"울산암각화박물관은 울주 대곡리 반구대 암각화와 울주 천전리 명문 및 암각화를 소개하고, 국내 암각화 연구의 중심 역할을 수행하기 위해 2008년 5월 30일 개관한 박물관이다. 박물관에는 반구대 암각화와 천전리 암각화의 실물 모형을 비롯해 암각화 유적을 입체적으로 소개하는 영상시설, 선사시대 사람들의 생활상을 살펴볼 수 있는 다양한 모형과 사진 자료 등이 전시되어 있다. 또한 교육과 학술 활동을 위한 세미나실과 회의실, 수장고 등의 시설을 갖추고 있으며, 암각화와 선사문화를 주제로 한 다양한 문화행사와 교육 프로그램도 운영하고 있다. 국보 제285호인 울주 대곡리의 반구대 암각화와 천전리의 암각화를 소개하고 국내 암각화연구의 중추적인 역할을 담당하기 위해 개관\"}",
+    "{\"evidence_context_version\": \"grounded-evidence-v2\", \"evidence_id\": \"E2\", \"metadata_provenance\": {\"base_data_date\": \"2024-11-02\", \"fields\": {\"address\": \"울산광역시 남구 두왕로 277\", \"adult_fee\": \"0\", \"adult_fee_status\": \"BASE_FEE_ZERO_CHECK_EXCEPTIONS\", \"amenities_raw\": \"주차장+수유실+도서관 등\", \"child_fee\": \"0\", \"closure_rule_raw\": \"매주 월+1월1일\", \"holiday_close\": \"18:00\", \"holiday_open\": \"09:00\", \"name\": \"울산박물관\", \"ownership_type\": \"공립\", \"sido\": \"울산광역시\", \"sigungu\": \"남구\", \"weekday_close\": \"18:00\", \"weekday_open\": \"09:00\", \"youth_fee\": \"0\"}, \"source_kind\": \"derived_csv_row\", \"source_locator\": \"data/processed/museum_final_738.csv#record=522\", \"trust\": \"derived_dataset_not_human_verified\"}, \"museum_id\": \"M0753\", \"name\": \"울산박물관\", \"retrieval_branch\": \"document\", \"source_doc_ids\": [\"DOC-B0753-TOUR_API-1556541\", \"DOC-B0753-BASE\"], \"source_documents\": [{\"doc_id\": \"DOC-B0753-TOUR_API-1556541\", \"match_trust\": \"AUTO_MATCH_NOT_HUMAN_VERIFIED\", \"source_locator\": \"data/raw/museum_tourapi_with_overview.csv#row=365\", \"source_record_id\": \"1556541\", \"source_type\": \"TOUR_API\"}, {\"doc_id\": \"DOC-B0753-BASE\", \"match_trust\": \"BASE_SOURCE\", \"source_locator\": \"data/raw/museum_base_1070.csv#row=754\", \"source_record_id\": \"B0753\", \"source_type\": \"BASE\"}], \"source_locator\": \"data/raw/museum_tourapi_with_overview.csv#row=365\", \"source_locators\": [\"data/raw/museum_tourapi_with_overview.csv#row=365\"], \"source_scope\": \"text\", \"source_spans\": [{\"doc_ids\": [\"DOC-B0753-TOUR_API-1556541\"], \"end\": 52, \"start\": 0}, {\"doc_ids\": [\"DOC-B0753-TOUR_API-1556541\"], \"end\": 147, \"start\": 53}, {\"doc_ids\": [\"DOC-B0753-TOUR_API-1556541\"], \"end\": 231, \"start\": 148}, {\"doc_ids\": [\"DOC-B0753-TOUR_API-1556541\"], \"end\": 286, \"start\": 232}, {\"doc_ids\": [\"DOC-B0753-TOUR_API-1556541\"], \"end\": 306, \"start\": 287}, {\"doc_ids\": [\"DOC-B0753-BASE\"], \"end\": 337, \"start\": 307}, {\"doc_ids\": [\"DOC-B0753-BASE\"], \"end\": 390, \"start\": 338}, {\"doc_ids\": [\"DOC-B0753-BASE\"], \"end\": 441, \"start\": 391}], \"source_urls\": [], \"text\": \"울산박물관은 울산의 선사시대부터 현대까지의 문화와 역사를 보여주기 위해 2011년 설립되었다. 지하 1층, 지상 2층으로 구성되어 있으며 지상 1층에는 기획전시실, 어린이 박물관, 원형극장 등이 자리 잡고 있으며 지상 2층에는 역사실 및 산업사실이 설치되어 있다. 탁 트인 넓은 공간과 자연의 아름다움을 연결한 야외전시장이 있으며 박물관 외벽에 울산의 대표적 국가유산인 반구대 암각화를 음각으로 조각하여 연출했다. 울산의 오래된 역사를 박물관 초입에 연출함으로써 문화도시 울산의 웅장함과 자긍심을 드러내 보인다. 박물관은 울산대공원 안에 위치한다. 울산의 역사와 문화를 보여주는 울산의 대표 박물관이다. 역사실, 산업사실로 구성된 상설전시실과 어린이박물관, 실감영상관, 기획전시실로 구성되어 있다. 매년 울산의 역사, 문화, 산업 등을 주제로 한 전시와 교육 및 문화행사를 운영하고 있다.\"}",
+    "{\"evidence_context_version\": \"grounded-evidence-v2\", \"evidence_id\": \"E3\", \"metadata_provenance\": {\"base_data_date\": \"2024-11-02\", \"fields\": {\"address\": \"울산광역시 중구 미술관길 72\", \"adult_fee\": \"1000\", \"adult_fee_status\": \"BASE_FEE_PAID\", \"amenities_raw\": \"도서자료실(아카이브) / 1층\", \"child_fee\": \"0\", \"closure_rule_raw\": \"1월1일+설날 및 추석 당일+매주 월(단, 월요일이 공휴일인 경우 그 다음날을 휴관일로 함)\", \"holiday_close\": \"18:00\", \"holiday_open\": \"09:00\", \"name\": \"울산시립미술관\", \"ownership_type\": \"공립\", \"sido\": \"울산광역시\", \"sigungu\": \"중구\", \"weekday_close\": \"18:00\", \"weekday_open\": \"09:00\", \"youth_fee\": \"0\"}, \"source_kind\": \"derived_csv_row\", \"source_locator\": \"data/processed/museum_final_738.csv#record=518\", \"trust\": \"derived_dataset_not_human_verified\"}, \"museum_id\": \"M0749\", \"name\": \"울산시립미술관\", \"retrieval_branch\": \"document\", \"source_doc_ids\": [\"DOC-B0749-TOUR_API-3043602\", \"DOC-B0749-BASE\"], \"source_documents\": [{\"doc_id\": \"DOC-B0749-TOUR_API-3043602\", \"match_trust\": \"AUTO_MATCH_NOT_HUMAN_VERIFIED\", \"source_locator\": \"data/raw/museum_tourapi_with_overview.csv#row=362\", \"source_record_id\": \"3043602\", \"source_type\": \"TOUR_API\"}, {\"doc_id\": \"DOC-B0749-BASE\", \"match_trust\": \"BASE_SOURCE\", \"source_locator\": \"data/raw/museum_base_1070.csv#row=750\", \"source_record_id\": \"B0749\", \"source_type\": \"BASE\"}], \"source_locator\": \"data/raw/museum_tourapi_with_overview.csv#row=362\", \"source_locators\": [\"data/raw/museum_tourapi_with_overview.csv#row=362\"], \"source_scope\": \"text\", \"source_spans\": [{\"doc_ids\": [\"DOC-B0749-TOUR_API-3043602\"], \"end\": 67, \"start\": 0}, {\"doc_ids\": [\"DOC-B0749-TOUR_API-3043602\"], \"end\": 146, \"start\": 68}, {\"doc_ids\": [\"DOC-B0749-TOUR_API-3043602\"], \"end\": 240, \"start\": 147}, {\"doc_ids\": [\"DOC-B0749-TOUR_API-3043602\"], \"end\": 304, \"start\": 241}, {\"doc_ids\": [\"DOC-B0749-TOUR_API-3043602\"], \"end\": 403, \"start\": 305}, {\"doc_ids\": [\"DOC-B0749-TOUR_API-3043602\"], \"end\": 476, \"start\": 404}, {\"doc_ids\": [\"DOC-B0749-BASE\"], \"end\": 548, \"start\": 477}], \"source_urls\": [], \"text\": \"울산시립미술관은 울산시민의 문화 향유 기회를 확대하고 지역문화 진흥을 위해 건립된 공공미술관으로, 2022년 개관하였다. 울산이 광역시로 승격한 지 25년 만에 처음 문을 연 공공미술관으로, 실험적이고 창의적인 예술을 공유하고 체험할 수 있는 복합 문화공간이다. 연면적 1만 2,770㎡, 지하 3층·지상 2층 규모로 조성되었으며, 자연과 기술, 산업이 조화를 이루는 울산의 지역적 특성을 반영한 전시와 프로그램을 선보이고 있다. 미술관에는 3개의 전시실을 비롯해 국내 공공미술관 최초의 실감 미디어아트 전용관인 **XR랩**이 마련되어 있다. XR랩에서는 가상현실(VR), 증강현실(AR), 혼합현실(MR) 등 최신 디지털 기술을 활용한 미디어아트를 직접 체험할 수 있어 울산시립미술관의 대표적인 관람 공간으로 꼽힌다. 이 밖에도 다양한 기획전과 교육 프로그램, 문화행사를 운영하며 현대미술을 보다 쉽고 흥미롭게 접할 수 있는 기회를 제공하고 있다. 울산시립미술관은 21세기 기술기반의 미래형 융복합 미술관으로 실험적이고 창의적인 예술을 모두가 공유하는 참여와 체험의 공간이다.\"}",
+    "{\"evidence_context_version\": \"grounded-evidence-v2\", \"evidence_id\": \"E4\", \"metadata_provenance\": {\"base_data_date\": \"2024-11-02\", \"fields\": {\"address\": \"울산광역시 중구 종가14길 22-28\", \"adult_fee\": \"0\", \"adult_fee_status\": \"BASE_FEE_ZERO_CHECK_EXCEPTIONS\", \"amenities_raw\": \"장애인 화장실+음수대 등\", \"child_fee\": \"0\", \"closure_rule_raw\": \"매주 월+1월 1일\", \"holiday_close\": \"18:00\", \"holiday_open\": \"09:00\", \"name\": \"울산약사제방유적전시관\", \"ownership_type\": \"공립\", \"sido\": \"울산광역시\", \"sigungu\": \"중구\", \"weekday_close\": \"18:00\", \"weekday_open\": \"09:00\", \"youth_fee\": \"0\"}, \"source_kind\": \"derived_csv_row\", \"source_locator\": \"data/processed/museum_final_738.csv#record=520\", \"trust\": \"derived_dataset_not_human_verified\"}, \"museum_id\": \"M0751\", \"name\": \"울산약사제방유적전시관\", \"retrieval_branch\": \"document\", \"source_doc_ids\": [\"DOC-B0751-BASE\"], \"source_documents\": [{\"doc_id\": \"DOC-B0751-BASE\", \"match_trust\": \"BASE_SOURCE\", \"source_locator\": \"data/raw/museum_base_1070.csv#row=752\", \"source_record_id\": \"B0751\", \"source_type\": \"BASE\"}], \"source_locator\": \"data/raw/museum_base_1070.csv#row=752\", \"source_locators\": [\"data/raw/museum_base_1070.csv#row=752\"], \"source_scope\": \"text\", \"source_spans\": [{\"doc_ids\": [\"DOC-B0751-BASE\"], \"end\": 79, \"start\": 0}, {\"doc_ids\": [\"DOC-B0751-BASE\"], \"end\": 253, \"start\": 80}], \"source_urls\": [], \"text\": \"약사동제방유적전시관은 울산 약사동 제방(사적)을 소개하고 고대 제방 연구와 역사적인 가치를 알리기 위하여 2017년 5월 24일에 개관하였다. 전시관 1층은 전시 공간으로 운영하고 있으며, 제방의 토층 전사를 전시하는 제방전시실, 제방 인근 약사동의 역사를 알 수 있는 유물과 농기구 등을 전시하는 테마전시실로 구성되어 있다.2층은 어린이 체험전시실로 제방꼽기체험, 영상, VR(가상현실)체험, 동작감지체험, 퍼즐, 블럭, 도서공간 등이 마련되어 있다.\"}",
+    "{\"evidence_context_version\": \"grounded-evidence-v2\", \"evidence_id\": \"E5\", \"evidence_role\": \"anchor\", \"museum_id\": \"M0752\", \"name\": \"울산대곡박물관\", \"operator_raw_name\": \"울산광역시청\", \"org_type\": \"지방자치단체\", \"organization\": \"울산광역시\", \"relation\": \"OPERATED_BY\", \"retrieval_branch\": \"graph\", \"sido\": \"울산광역시\", \"sigungu\": \"울주군\", \"source_doc_ids\": [\"DOC-B0752-BASE\", \"DOC-B0752-TOUR_API-1284446\"], \"source_locator\": \"data/raw/museum_base_1070.csv#row=753\", \"source_locators\": [\"data/raw/museum_base_1070.csv#row=753\", \"data/raw/museum_tourapi_with_overview.csv#row=364\"], \"source_scope\": \"graph_properties\", \"source_urls\": [], \"text\": \"울산대곡박물관의 Neo4j operator_name(운영기관) 기록: 울산광역시 (CSV 원문: 울산광역시청)\\n[Neo4j 구조화 근거] {\\\"museum_id\\\": \\\"M0752\\\", \\\"name\\\": \\\"울산대곡박물관\\\", \\\"relation\\\": \\\"OPERATED_BY\\\", \\\"organization\\\": \\\"울산광역시\\\", \\\"org_key\\\": \\\"울산광역시\\\", \\\"org_type\\\": \\\"지방자치단체\\\", \\\"raw_name\\\": \\\"울산광역시청\\\", \\\"verification_status\\\": \\\"SOURCE_RECORDED\\\"}\", \"verification_status\": \"SOURCE_RECORDED\"}",
+    "{\"anchor_operator_raw_name\": \"울산광역시청\", \"evidence_context_version\": \"grounded-evidence-v2\", \"evidence_id\": \"E6\", \"facility_type\": \"박물관\", \"graph_path\": \"anchor -[:OPERATED_BY]-> Organization <-[:OPERATED_BY]- candidate\", \"museum_id\": \"M0753\", \"name\": \"울산박물관\", \"operator_raw_name\": \"울산광역시청\", \"org_type\": \"지방자치단체\", \"organization\": \"울산광역시\", \"relation\": \"OPERATED_BY\", \"retrieval_branch\": \"graph\", \"sido\": \"울산광역시\", \"sigungu\": \"남구\", \"source_doc_ids\": [\"DOC-B0753-BASE\", \"DOC-B0753-TOUR_API-1556541\"], \"source_locator\": \"data/raw/museum_base_1070.csv#row=754\", \"source_locators\": [\"data/raw/museum_base_1070.csv#row=754\", \"data/raw/museum_tourapi_with_overview.csv#row=365\"], \"source_scope\": \"graph_properties\", \"source_urls\": [], \"text\": \"{anchor_raw_name: 울산광역시청, candidate_raw_name: 울산광역시청, org_key: 울산광역시, organization: 울산광역시, relation: OPERATED_BY, verification_status: SOURCE_RECORDED}\", \"verification_status\": \"SOURCE_RECORDED\"}",
+    "{\"anchor_operator_raw_name\": \"울산광역시청\", \"evidence_context_version\": \"grounded-evidence-v2\", \"evidence_id\": \"E7\", \"facility_type\": \"미술관\", \"graph_path\": \"anchor -[:OPERATED_BY]-> Organization <-[:OPERATED_BY]- candidate\", \"museum_id\": \"M0749\", \"name\": \"울산시립미술관\", \"operator_raw_name\": \"울산광역시청\", \"org_type\": \"지방자치단체\", \"organization\": \"울산광역시\", \"relation\": \"OPERATED_BY\", \"retrieval_branch\": \"graph\", \"sido\": \"울산광역시\", \"sigungu\": \"중구\", \"source_doc_ids\": [\"DOC-B0749-BASE\", \"DOC-B0749-TOUR_API-3043602\"], \"source_locator\": \"data/raw/museum_base_1070.csv#row=750\", \"source_locators\": [\"data/raw/museum_base_1070.csv#row=750\", \"data/raw/museum_tourapi_with_overview.csv#row=362\"], \"source_scope\": \"graph_properties\", \"source_urls\": [], \"text\": \"{anchor_raw_name: 울산광역시청, candidate_raw_name: 울산광역시청, org_key: 울산광역시, organization: 울산광역시, relation: OPERATED_BY, verification_status: SOURCE_RECORDED}\", \"verification_status\": \"SOURCE_RECORDED\"}",
+    "{\"anchor_operator_raw_name\": \"울산광역시청\", \"evidence_context_version\": \"grounded-evidence-v2\", \"evidence_id\": \"E8\", \"facility_type\": \"박물관\", \"graph_path\": \"anchor -[:OPERATED_BY]-> Organization <-[:OPERATED_BY]- candidate\", \"museum_id\": \"M0750\", \"name\": \"울산암각화박물관\", \"operator_raw_name\": \"울산광역시청\", \"org_type\": \"지방자치단체\", \"organization\": \"울산광역시\", \"relation\": \"OPERATED_BY\", \"retrieval_branch\": \"graph\", \"sido\": \"울산광역시\", \"sigungu\": \"울주군\", \"source_doc_ids\": [\"DOC-B0750-BASE\", \"DOC-B0750-TOUR_API-634337\"], \"source_locator\": \"data/raw/museum_base_1070.csv#row=751\", \"source_locators\": [\"data/raw/museum_base_1070.csv#row=751\", \"data/raw/museum_tourapi_with_overview.csv#row=363\"], \"source_scope\": \"graph_properties\", \"source_urls\": [], \"text\": \"{anchor_raw_name: 울산광역시청, candidate_raw_name: 울산광역시청, org_key: 울산광역시, organization: 울산광역시, relation: OPERATED_BY, verification_status: SOURCE_RECORDED}\", \"verification_status\": \"SOURCE_RECORDED\"}",
+    "{\"anchor_operator_raw_name\": \"울산광역시청\", \"evidence_context_version\": \"grounded-evidence-v2\", \"evidence_id\": \"E9\", \"facility_type\": \"전시관\", \"graph_path\": \"anchor -[:OPERATED_BY]-> Organization <-[:OPERATED_BY]- candidate\", \"museum_id\": \"M0751\", \"name\": \"울산약사제방유적전시관\", \"operator_raw_name\": \"울산광역시청\", \"org_type\": \"지방자치단체\", \"organization\": \"울산광역시\", \"relation\": \"OPERATED_BY\", \"retrieval_branch\": \"graph\", \"sido\": \"울산광역시\", \"sigungu\": \"중구\", \"source_doc_ids\": [\"DOC-B0751-BASE\"], \"source_locator\": \"data/raw/museum_base_1070.csv#row=752\", \"source_locators\": [\"data/raw/museum_base_1070.csv#row=752\"], \"source_scope\": \"graph_properties\", \"source_urls\": [], \"text\": \"{anchor_raw_name: 울산광역시청, candidate_raw_name: 울산광역시청, org_key: 울산광역시, organization: 울산광역시, relation: OPERATED_BY, verification_status: SOURCE_RECORDED}\", \"verification_status\": \"SOURCE_RECORDED\"}"
+  ],
+  "mode": "supervisor_full",
+  "question_id": "V2-CB01",
+  "evidence": [
+    {
+      "museum_id": "M0750",
+      "name": "울산암각화박물관",
+      "document": "울산암각화박물관은 울주 대곡리 반구대 암각화와 울주 천전리 명문 및 암각화를 소개하고, 국내 암각화 연구의 중심 역할을 수행하기 위해 2008년 5월 30일 개관한 박물관이다. 박물관에는 반구대 암각화와 천전리 암각화의 실물 모형을 비롯해 암각화 유적을 입체적으로 소개하는 영상시설, 선사시대 사람들의 생활상을 살펴볼 수 있는 다양한 모형과 사진 자료 등이 전시되어 있다. 또한 교육과 학술 활동을 위한 세미나실과 회의실, 수장고 등의 시설을 갖추고 있으며, 암각화와 선사문화를 주제로 한 다양한 문화행사와 교육 프로그램도 운영하고 있다. 국보 제285호인 울주 대곡리의 반구대 암각화와 천전리의 암각화를 소개하고 국내 암각화연구의 중추적인 역할을 담당하기 위해 개관",
+      "metadata": {
+        "homepage_url": "https://www.ulsan.go.kr/s/bangudae/main.ulsan",
+        "weekday_open": "09:00",
+        "image_copyright": "Type1",
+        "ownership_type": "공립",
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "adult_fee": 0.0,
+        "amenities_raw": "세미나실+회의실",
+        "weekday_close": "18:00",
+        "holiday_close": "18:00",
+        "requires_manual_review": true,
+        "youth_fee": 0.0,
+        "longitude": 129.1705539,
+        "child_fee": 0.0,
+        "address": "울산광역시 울주군 두동면반구대안길 254",
+        "closure_rule_raw": "매주 월",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/13/4087613_image2_1.jpg",
+        "sigungu": "울주군",
+        "holiday_open": "09:00",
+        "name": "울산암각화박물관",
+        "transport_notes": "대중교통 348번버스삼남신화 출발시간 : 10시20분, 12시55분, 17시55분 (암각화박물관까지 약 50분 소요)울산역 출발시간 : 10시25분, 13시, 18시대곡박물관 출발시간 : 11시25분, 14시, 19시암각화박물관 출발예정시간 : 11시35분, 14시10분, 19시10분, (종점까지 약 1시간 소요)자가용경부고속도로 서울산IC35번국도 경주방면 → 반구대암각화진입로 → 울산암각화박물관울산밀양 24번 국도경주방향 → 35번국도 경주방면 → 반구대암각화진입로 → 울산암각화박물관경주 35번국도언양방향 → 반구대암각화진입로 → 울산암각화박물관",
+        "fee_notes": "0",
+        "latitude": 35.60806072,
+        "sido": "울산광역시",
+        "source_types": "BASE|TOUR_API"
+      },
+      "vector_rank": 1,
+      "bm25_rank": 1,
+      "vector_distance": 0.4386534094810486,
+      "vector_score": null,
+      "bm25_score": 17.719499860506005,
+      "vector_document": "울산암각화박물관은 울주 대곡리 반구대 암각화와 울주 천전리 명문 및 암각화를 소개하고, 국내 암각화 연구의 중심 역할을 수행하기 위해 2008년 5월 30일 개관한 박물관이다. 박물관에는 반구대 암각화와 천전리 암각화의 실물 모형을 비롯해 암각화 유적을 입체적으로 소개하는 영상시설, 선사시대 사람들의 생활상을 살펴볼 수 있는 다양한 모형과 사진 자료 등이 전시되어 있다. 또한 교육과 학술 활동을 위한 세미나실과 회의실, 수장고 등의 시설을 갖추고 있으며, 암각화와 선사문화를 주제로 한 다양한 문화행사와 교육 프로그램도 운영하고 있다. 국보 제285호인 울주 대곡리의 반구대 암각화와 천전리의 암각화를 소개하고 국내 암각화연구의 중추적인 역할을 담당하기 위해 개관",
+      "bm25_document": "울산암각화박물관은 울주 대곡리 반구대 암각화와 울주 천전리 명문 및 암각화를 소개하고, 국내 암각화 연구의 중심 역할을 수행하기 위해 2008년 5월 30일 개관한 박물관이다. 박물관에는 반구대 암각화와 천전리 암각화의 실물 모형을 비롯해 암각화 유적을 입체적으로 소개하는 영상시설, 선사시대 사람들의 생활상을 살펴볼 수 있는 다양한 모형과 사진 자료 등이 전시되어 있다. 또한 교육과 학술 활동을 위한 세미나실과 회의실, 수장고 등의 시설을 갖추고 있으며, 암각화와 선사문화를 주제로 한 다양한 문화행사와 교육 프로그램도 운영하고 있다. 국보 제285호인 울주 대곡리의 반구대 암각화와 천전리의 암각화를 소개하고 국내 암각화연구의 중추적인 역할을 담당하기 위해 개관",
+      "best_span_id": "chroma:M0750",
+      "best_span_text": "울산암각화박물관은 울주 대곡리 반구대 암각화와 울주 천전리 명문 및 암각화를 소개하고, 국내 암각화 연구의 중심 역할을 수행하기 위해 2008년 5월 30일 개관한 박물관이다. 박물관에는 반구대 암각화와 천전리 암각화의 실물 모형을 비롯해 암각화 유적을 입체적으로 소개하는 영상시설, 선사시대 사람들의 생활상을 살펴볼 수 있는 다양한 모형과 사진 자료 등이 전시되어 있다. 또한 교육과 학술 활동을 위한 세미나실과 회의실, 수장고 등의 시설을 갖추고 있으며, 암각화와 선사문화를 주제로 한 다양한 문화행사와 교육 프로그램도 운영하고 있다. 국보 제285호인 울주 대곡리의 반구대 암각화와 천전리의 암각화를 소개하고 국내 암각화연구의 중추적인 역할을 담당하기 위해 개관",
+      "fusion_score": 0.03278688524590164,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 1,
+      "rerank_score": 0.8957927227020264,
+      "rank": 1,
+      "score": 0.8957927227020264,
+      "score_type": "cross_encoder",
+      "distance": 0.4386534094810486,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0750",
+      "source_doc_ids": [
+        "DOC-B0750-TOUR_API-634337",
+        "DOC-B0750-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0750-TOUR_API-634337",
+          "source_type": "TOUR_API",
+          "source_record_id": "634337",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=363",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        },
+        {
+          "doc_id": "DOC-B0750-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0750",
+          "source_locator": "data/raw/museum_base_1070.csv#row=751",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 98,
+          "doc_ids": [
+            "DOC-B0750-TOUR_API-634337"
+          ]
+        },
+        {
+          "start": 99,
+          "end": 208,
+          "doc_ids": [
+            "DOC-B0750-TOUR_API-634337"
+          ]
+        },
+        {
+          "start": 209,
+          "end": 301,
+          "doc_ids": [
+            "DOC-B0750-TOUR_API-634337"
+          ]
+        },
+        {
+          "start": 302,
+          "end": 373,
+          "doc_ids": [
+            "DOC-B0750-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=363",
+      "text": "울산암각화박물관은 울주 대곡리 반구대 암각화와 울주 천전리 명문 및 암각화를 소개하고, 국내 암각화 연구의 중심 역할을 수행하기 위해 2008년 5월 30일 개관한 박물관이다. 박물관에는 반구대 암각화와 천전리 암각화의 실물 모형을 비롯해 암각화 유적을 입체적으로 소개하는 영상시설, 선사시대 사람들의 생활상을 살펴볼 수 있는 다양한 모형과 사진 자료 등이 전시되어 있다. 또한 교육과 학술 활동을 위한 세미나실과 회의실, 수장고 등의 시설을 갖추고 있으며, 암각화와 선사문화를 주제로 한 다양한 문화행사와 교육 프로그램도 운영하고 있다. 국보 제285호인 울주 대곡리의 반구대 암각화와 천전리의 암각화를 소개하고 국내 암각화연구의 중추적인 역할을 담당하기 위해 개관",
+      "sido": "울산광역시",
+      "sigungu": "울주군",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=363"
+      ],
+      "evidence_id": "E1",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=519",
+        "fields": {
+          "name": "울산암각화박물관",
+          "sido": "울산광역시",
+          "sigungu": "울주군",
+          "address": "울산광역시 울주군 두동면반구대안길 254",
+          "ownership_type": "공립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "09:00",
+          "weekday_close": "18:00",
+          "holiday_open": "09:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "매주 월",
+          "amenities_raw": "세미나실+회의실"
+        },
+        "base_data_date": "2024-11-02",
+        "trust": "derived_dataset_not_human_verified"
+      },
+      "retrieval_branch": "document"
+    },
+    {
+      "museum_id": "M0753",
+      "name": "울산박물관",
+      "document": "울산박물관은 울산의 선사시대부터 현대까지의 문화와 역사를 보여주기 위해 2011년 설립되었다. 지하 1층, 지상 2층으로 구성되어 있으며 지상 1층에는 기획전시실, 어린이 박물관, 원형극장 등이 자리 잡고 있으며 지상 2층에는 역사실 및 산업사실이 설치되어 있다. 탁 트인 넓은 공간과 자연의 아름다움을 연결한 야외전시장이 있으며 박물관 외벽에 울산의 대표적 국가유산인 반구대 암각화를 음각으로 조각하여 연출했다. 울산의 오래된 역사를 박물관 초입에 연출함으로써 문화도시 울산의 웅장함과 자긍심을 드러내 보인다. 박물관은 울산대공원 안에 위치한다. 울산의 역사와 문화를 보여주는 울산의 대표 박물관이다. 역사실, 산업사실로 구성된 상설전시실과 어린이박물관, 실감영상관, 기획전시실로 구성되어 있다. 매년 울산의 역사, 문화, 산업 등을 주제로 한 전시와 교육 및 문화행사를 운영하고 있다.",
+      "metadata": {
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "weekday_close": "18:00",
+        "weekday_open": "09:00",
+        "latitude": 35.52713607,
+        "requires_manual_review": true,
+        "source_types": "BASE|TOUR_API",
+        "homepage_url": "http://www.ulsan.go.kr/s/museum",
+        "name": "울산박물관",
+        "fee_notes": "0",
+        "holiday_close": "18:00",
+        "image_copyright": "Type3",
+        "transport_notes": "- 일반버스 124, 205, 225, 527, 715번 : 울산박물관·울산대공원동문앞 하차- 일반버스 106, 216번 : 올림푸스아파트앞 하차, 울산박물관까지 도보 11분- 일반버스   714, 824번 : 공업탑 하차, 울산박물관까지 도보 13분",
+        "sido": "울산광역시",
+        "youth_fee": 0.0,
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/36/3072936_image2_1.jpg",
+        "amenities_raw": "주차장+수유실+도서관 등",
+        "address": "울산광역시 남구 두왕로 277",
+        "longitude": 129.3086925,
+        "holiday_open": "09:00",
+        "child_fee": 0.0,
+        "ownership_type": "공립",
+        "closure_rule_raw": "매주 월+1월1일",
+        "sigungu": "남구",
+        "adult_fee": 0.0
+      },
+      "vector_rank": 2,
+      "bm25_rank": 2,
+      "vector_distance": 0.49002647399902344,
+      "vector_score": null,
+      "bm25_score": 7.792443243029824,
+      "vector_document": "울산박물관은 울산의 선사시대부터 현대까지의 문화와 역사를 보여주기 위해 2011년 설립되었다. 지하 1층, 지상 2층으로 구성되어 있으며 지상 1층에는 기획전시실, 어린이 박물관, 원형극장 등이 자리 잡고 있으며 지상 2층에는 역사실 및 산업사실이 설치되어 있다. 탁 트인 넓은 공간과 자연의 아름다움을 연결한 야외전시장이 있으며 박물관 외벽에 울산의 대표적 국가유산인 반구대 암각화를 음각으로 조각하여 연출했다. 울산의 오래된 역사를 박물관 초입에 연출함으로써 문화도시 울산의 웅장함과 자긍심을 드러내 보인다. 박물관은 울산대공원 안에 위치한다. 울산의 역사와 문화를 보여주는 울산의 대표 박물관이다. 역사실, 산업사실로 구성된 상설전시실과 어린이박물관, 실감영상관, 기획전시실로 구성되어 있다. 매년 울산의 역사, 문화, 산업 등을 주제로 한 전시와 교육 및 문화행사를 운영하고 있다.",
+      "bm25_document": "울산박물관은 울산의 선사시대부터 현대까지의 문화와 역사를 보여주기 위해 2011년 설립되었다. 지하 1층, 지상 2층으로 구성되어 있으며 지상 1층에는 기획전시실, 어린이 박물관, 원형극장 등이 자리 잡고 있으며 지상 2층에는 역사실 및 산업사실이 설치되어 있다. 탁 트인 넓은 공간과 자연의 아름다움을 연결한 야외전시장이 있으며 박물관 외벽에 울산의 대표적 국가유산인 반구대 암각화를 음각으로 조각하여 연출했다. 울산의 오래된 역사를 박물관 초입에 연출함으로써 문화도시 울산의 웅장함과 자긍심을 드러내 보인다. 박물관은 울산대공원 안에 위치한다. 울산의 역사와 문화를 보여주는 울산의 대표 박물관이다. 역사실, 산업사실로 구성된 상설전시실과 어린이박물관, 실감영상관, 기획전시실로 구성되어 있다. 매년 울산의 역사, 문화, 산업 등을 주제로 한 전시와 교육 및 문화행사를 운영하고 있다.",
+      "best_span_id": "chroma:M0753",
+      "best_span_text": "울산박물관은 울산의 선사시대부터 현대까지의 문화와 역사를 보여주기 위해 2011년 설립되었다. 지하 1층, 지상 2층으로 구성되어 있으며 지상 1층에는 기획전시실, 어린이 박물관, 원형극장 등이 자리 잡고 있으며 지상 2층에는 역사실 및 산업사실이 설치되어 있다. 탁 트인 넓은 공간과 자연의 아름다움을 연결한 야외전시장이 있으며 박물관 외벽에 울산의 대표적 국가유산인 반구대 암각화를 음각으로 조각하여 연출했다. 울산의 오래된 역사를 박물관 초입에 연출함으로써 문화도시 울산의 웅장함과 자긍심을 드러내 보인다. 박물관은 울산대공원 안에 위치한다. 울산의 역사와 문화를 보여주는 울산의 대표 박물관이다. 역사실, 산업사실로 구성된 상설전시실과 어린이박물관, 실감영상관, 기획전시실로 구성되어 있다. 매년 울산의 역사, 문화, 산업 등을 주제로 한 전시와 교육 및 문화행사를 운영하고 있다.",
+      "fusion_score": 0.03225806451612903,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 2,
+      "rerank_score": 0.4386492073535919,
+      "rank": 2,
+      "score": 0.4386492073535919,
+      "score_type": "cross_encoder",
+      "distance": 0.49002647399902344,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0753",
+      "source_doc_ids": [
+        "DOC-B0753-TOUR_API-1556541",
+        "DOC-B0753-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0753-TOUR_API-1556541",
+          "source_type": "TOUR_API",
+          "source_record_id": "1556541",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=365",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        },
+        {
+          "doc_id": "DOC-B0753-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0753",
+          "source_locator": "data/raw/museum_base_1070.csv#row=754",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 52,
+          "doc_ids": [
+            "DOC-B0753-TOUR_API-1556541"
+          ]
+        },
+        {
+          "start": 53,
+          "end": 147,
+          "doc_ids": [
+            "DOC-B0753-TOUR_API-1556541"
+          ]
+        },
+        {
+          "start": 148,
+          "end": 231,
+          "doc_ids": [
+            "DOC-B0753-TOUR_API-1556541"
+          ]
+        },
+        {
+          "start": 232,
+          "end": 286,
+          "doc_ids": [
+            "DOC-B0753-TOUR_API-1556541"
+          ]
+        },
+        {
+          "start": 287,
+          "end": 306,
+          "doc_ids": [
+            "DOC-B0753-TOUR_API-1556541"
+          ]
+        },
+        {
+          "start": 307,
+          "end": 337,
+          "doc_ids": [
+            "DOC-B0753-BASE"
+          ]
+        },
+        {
+          "start": 338,
+          "end": 390,
+          "doc_ids": [
+            "DOC-B0753-BASE"
+          ]
+        },
+        {
+          "start": 391,
+          "end": 441,
+          "doc_ids": [
+            "DOC-B0753-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=365",
+      "text": "울산박물관은 울산의 선사시대부터 현대까지의 문화와 역사를 보여주기 위해 2011년 설립되었다. 지하 1층, 지상 2층으로 구성되어 있으며 지상 1층에는 기획전시실, 어린이 박물관, 원형극장 등이 자리 잡고 있으며 지상 2층에는 역사실 및 산업사실이 설치되어 있다. 탁 트인 넓은 공간과 자연의 아름다움을 연결한 야외전시장이 있으며 박물관 외벽에 울산의 대표적 국가유산인 반구대 암각화를 음각으로 조각하여 연출했다. 울산의 오래된 역사를 박물관 초입에 연출함으로써 문화도시 울산의 웅장함과 자긍심을 드러내 보인다. 박물관은 울산대공원 안에 위치한다. 울산의 역사와 문화를 보여주는 울산의 대표 박물관이다. 역사실, 산업사실로 구성된 상설전시실과 어린이박물관, 실감영상관, 기획전시실로 구성되어 있다. 매년 울산의 역사, 문화, 산업 등을 주제로 한 전시와 교육 및 문화행사를 운영하고 있다.",
+      "sido": "울산광역시",
+      "sigungu": "남구",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=365"
+      ],
+      "evidence_id": "E2",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=522",
+        "fields": {
+          "name": "울산박물관",
+          "sido": "울산광역시",
+          "sigungu": "남구",
+          "address": "울산광역시 남구 두왕로 277",
+          "ownership_type": "공립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "09:00",
+          "weekday_close": "18:00",
+          "holiday_open": "09:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "매주 월+1월1일",
+          "amenities_raw": "주차장+수유실+도서관 등"
+        },
+        "base_data_date": "2024-11-02",
+        "trust": "derived_dataset_not_human_verified"
+      },
+      "retrieval_branch": "document"
+    },
+    {
+      "museum_id": "M0749",
+      "name": "울산시립미술관",
+      "document": "울산시립미술관은 울산시민의 문화 향유 기회를 확대하고 지역문화 진흥을 위해 건립된 공공미술관으로, 2022년 개관하였다. 울산이 광역시로 승격한 지 25년 만에 처음 문을 연 공공미술관으로, 실험적이고 창의적인 예술을 공유하고 체험할 수 있는 복합 문화공간이다. 연면적 1만 2,770㎡, 지하 3층·지상 2층 규모로 조성되었으며, 자연과 기술, 산업이 조화를 이루는 울산의 지역적 특성을 반영한 전시와 프로그램을 선보이고 있다. 미술관에는 3개의 전시실을 비롯해 국내 공공미술관 최초의 실감 미디어아트 전용관인 **XR랩**이 마련되어 있다. XR랩에서는 가상현실(VR), 증강현실(AR), 혼합현실(MR) 등 최신 디지털 기술을 활용한 미디어아트를 직접 체험할 수 있어 울산시립미술관의 대표적인 관람 공간으로 꼽힌다. 이 밖에도 다양한 기획전과 교육 프로그램, 문화행사를 운영하며 현대미술을 보다 쉽고 흥미롭게 접할 수 있는 기회를 제공하고 있다. 울산시립미술관은 21세기 기술기반의 미래형 융복합 미술관으로 실험적이고 창의적인 예술을 모두가 공유하는 참여와 체험의 공간이다.",
+      "metadata": {
+        "weekday_open": "09:00",
+        "holiday_open": "09:00",
+        "closure_rule_raw": "1월1일+설날 및 추석 당일+매주 월(단, 월요일이 공휴일인 경우 그 다음날을 휴관일로 함)",
+        "fee_notes": "0",
+        "ownership_type": "공립",
+        "name": "울산시립미술관",
+        "holiday_close": "18:00",
+        "address": "울산광역시 중구 미술관길 72",
+        "weekday_close": "18:00",
+        "source_types": "BASE|TOUR_API",
+        "transport_notes": "ㆍ마을버스울산시립미술관(63117)/ 13,14,15ㆍ일반버스울산시립미술관(21008)/ 108,114,133,266,442울산시립미술관(21007)/ 108, 266",
+        "homepage_url": "https://www.ulsan.go.kr/uam",
+        "latitude": 35.55778844,
+        "adult_fee_status": "BASE_FEE_PAID",
+        "youth_fee": 0.0,
+        "sigungu": "중구",
+        "sido": "울산광역시",
+        "longitude": 129.3206661,
+        "amenities_raw": "도서자료실(아카이브) / 1층",
+        "child_fee": 0.0,
+        "adult_fee": 1000.0,
+        "requires_manual_review": true
+      },
+      "vector_rank": 4,
+      "bm25_rank": 4,
+      "vector_distance": 0.5527873039245605,
+      "vector_score": null,
+      "bm25_score": 5.36689951226108,
+      "vector_document": "울산시립미술관은 울산시민의 문화 향유 기회를 확대하고 지역문화 진흥을 위해 건립된 공공미술관으로, 2022년 개관하였다. 울산이 광역시로 승격한 지 25년 만에 처음 문을 연 공공미술관으로, 실험적이고 창의적인 예술을 공유하고 체험할 수 있는 복합 문화공간이다. 연면적 1만 2,770㎡, 지하 3층·지상 2층 규모로 조성되었으며, 자연과 기술, 산업이 조화를 이루는 울산의 지역적 특성을 반영한 전시와 프로그램을 선보이고 있다. 미술관에는 3개의 전시실을 비롯해 국내 공공미술관 최초의 실감 미디어아트 전용관인 **XR랩**이 마련되어 있다. XR랩에서는 가상현실(VR), 증강현실(AR), 혼합현실(MR) 등 최신 디지털 기술을 활용한 미디어아트를 직접 체험할 수 있어 울산시립미술관의 대표적인 관람 공간으로 꼽힌다. 이 밖에도 다양한 기획전과 교육 프로그램, 문화행사를 운영하며 현대미술을 보다 쉽고 흥미롭게 접할 수 있는 기회를 제공하고 있다. 울산시립미술관은 21세기 기술기반의 미래형 융복합 미술관으로 실험적이고 창의적인 예술을 모두가 공유하는 참여와 체험의 공간이다.",
+      "bm25_document": "울산시립미술관은 울산시민의 문화 향유 기회를 확대하고 지역문화 진흥을 위해 건립된 공공미술관으로, 2022년 개관하였다. 울산이 광역시로 승격한 지 25년 만에 처음 문을 연 공공미술관으로, 실험적이고 창의적인 예술을 공유하고 체험할 수 있는 복합 문화공간이다. 연면적 1만 2,770㎡, 지하 3층·지상 2층 규모로 조성되었으며, 자연과 기술, 산업이 조화를 이루는 울산의 지역적 특성을 반영한 전시와 프로그램을 선보이고 있다. 미술관에는 3개의 전시실을 비롯해 국내 공공미술관 최초의 실감 미디어아트 전용관인 **XR랩**이 마련되어 있다. XR랩에서는 가상현실(VR), 증강현실(AR), 혼합현실(MR) 등 최신 디지털 기술을 활용한 미디어아트를 직접 체험할 수 있어 울산시립미술관의 대표적인 관람 공간으로 꼽힌다. 이 밖에도 다양한 기획전과 교육 프로그램, 문화행사를 운영하며 현대미술을 보다 쉽고 흥미롭게 접할 수 있는 기회를 제공하고 있다. 울산시립미술관은 21세기 기술기반의 미래형 융복합 미술관으로 실험적이고 창의적인 예술을 모두가 공유하는 참여와 체험의 공간이다.",
+      "best_span_id": "chroma:M0749",
+      "best_span_text": "울산시립미술관은 울산시민의 문화 향유 기회를 확대하고 지역문화 진흥을 위해 건립된 공공미술관으로, 2022년 개관하였다. 울산이 광역시로 승격한 지 25년 만에 처음 문을 연 공공미술관으로, 실험적이고 창의적인 예술을 공유하고 체험할 수 있는 복합 문화공간이다. 연면적 1만 2,770㎡, 지하 3층·지상 2층 규모로 조성되었으며, 자연과 기술, 산업이 조화를 이루는 울산의 지역적 특성을 반영한 전시와 프로그램을 선보이고 있다. 미술관에는 3개의 전시실을 비롯해 국내 공공미술관 최초의 실감 미디어아트 전용관인 **XR랩**이 마련되어 있다. XR랩에서는 가상현실(VR), 증강현실(AR), 혼합현실(MR) 등 최신 디지털 기술을 활용한 미디어아트를 직접 체험할 수 있어 울산시립미술관의 대표적인 관람 공간으로 꼽힌다. 이 밖에도 다양한 기획전과 교육 프로그램, 문화행사를 운영하며 현대미술을 보다 쉽고 흥미롭게 접할 수 있는 기회를 제공하고 있다. 울산시립미술관은 21세기 기술기반의 미래형 융복합 미술관으로 실험적이고 창의적인 예술을 모두가 공유하는 참여와 체험의 공간이다.",
+      "fusion_score": 0.03125,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 4,
+      "rerank_score": 0.0010288909543305635,
+      "rank": 3,
+      "score": 0.0010288909543305635,
+      "score_type": "cross_encoder",
+      "distance": 0.5527873039245605,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0749",
+      "source_doc_ids": [
+        "DOC-B0749-TOUR_API-3043602",
+        "DOC-B0749-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0749-TOUR_API-3043602",
+          "source_type": "TOUR_API",
+          "source_record_id": "3043602",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=362",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        },
+        {
+          "doc_id": "DOC-B0749-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0749",
+          "source_locator": "data/raw/museum_base_1070.csv#row=750",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 67,
+          "doc_ids": [
+            "DOC-B0749-TOUR_API-3043602"
+          ]
+        },
+        {
+          "start": 68,
+          "end": 146,
+          "doc_ids": [
+            "DOC-B0749-TOUR_API-3043602"
+          ]
+        },
+        {
+          "start": 147,
+          "end": 240,
+          "doc_ids": [
+            "DOC-B0749-TOUR_API-3043602"
+          ]
+        },
+        {
+          "start": 241,
+          "end": 304,
+          "doc_ids": [
+            "DOC-B0749-TOUR_API-3043602"
+          ]
+        },
+        {
+          "start": 305,
+          "end": 403,
+          "doc_ids": [
+            "DOC-B0749-TOUR_API-3043602"
+          ]
+        },
+        {
+          "start": 404,
+          "end": 476,
+          "doc_ids": [
+            "DOC-B0749-TOUR_API-3043602"
+          ]
+        },
+        {
+          "start": 477,
+          "end": 548,
+          "doc_ids": [
+            "DOC-B0749-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=362",
+      "text": "울산시립미술관은 울산시민의 문화 향유 기회를 확대하고 지역문화 진흥을 위해 건립된 공공미술관으로, 2022년 개관하였다. 울산이 광역시로 승격한 지 25년 만에 처음 문을 연 공공미술관으로, 실험적이고 창의적인 예술을 공유하고 체험할 수 있는 복합 문화공간이다. 연면적 1만 2,770㎡, 지하 3층·지상 2층 규모로 조성되었으며, 자연과 기술, 산업이 조화를 이루는 울산의 지역적 특성을 반영한 전시와 프로그램을 선보이고 있다. 미술관에는 3개의 전시실을 비롯해 국내 공공미술관 최초의 실감 미디어아트 전용관인 **XR랩**이 마련되어 있다. XR랩에서는 가상현실(VR), 증강현실(AR), 혼합현실(MR) 등 최신 디지털 기술을 활용한 미디어아트를 직접 체험할 수 있어 울산시립미술관의 대표적인 관람 공간으로 꼽힌다. 이 밖에도 다양한 기획전과 교육 프로그램, 문화행사를 운영하며 현대미술을 보다 쉽고 흥미롭게 접할 수 있는 기회를 제공하고 있다. 울산시립미술관은 21세기 기술기반의 미래형 융복합 미술관으로 실험적이고 창의적인 예술을 모두가 공유하는 참여와 체험의 공간이다.",
+      "sido": "울산광역시",
+      "sigungu": "중구",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=362"
+      ],
+      "evidence_id": "E3",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=518",
+        "fields": {
+          "name": "울산시립미술관",
+          "sido": "울산광역시",
+          "sigungu": "중구",
+          "address": "울산광역시 중구 미술관길 72",
+          "ownership_type": "공립",
+          "adult_fee": "1000",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_PAID",
+          "weekday_open": "09:00",
+          "weekday_close": "18:00",
+          "holiday_open": "09:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "1월1일+설날 및 추석 당일+매주 월(단, 월요일이 공휴일인 경우 그 다음날을 휴관일로 함)",
+          "amenities_raw": "도서자료실(아카이브) / 1층"
+        },
+        "base_data_date": "2024-11-02",
+        "trust": "derived_dataset_not_human_verified"
+      },
+      "retrieval_branch": "document"
+    },
+    {
+      "museum_id": "M0751",
+      "name": "울산약사제방유적전시관",
+      "document": "약사동제방유적전시관은 울산 약사동 제방(사적)을 소개하고 고대 제방 연구와 역사적인 가치를 알리기 위하여 2017년 5월 24일에 개관하였다. 전시관 1층은 전시 공간으로 운영하고 있으며, 제방의 토층 전사를 전시하는 제방전시실, 제방 인근 약사동의 역사를 알 수 있는 유물과 농기구 등을 전시하는 테마전시실로 구성되어 있다.2층은 어린이 체험전시실로 제방꼽기체험, 영상, VR(가상현실)체험, 동작감지체험, 퍼즐, 블럭, 도서공간 등이 마련되어 있다.",
+      "metadata": {
+        "child_fee": 0.0,
+        "sigungu": "중구",
+        "adult_fee": 0.0,
+        "fee_notes": "0",
+        "holiday_close": "18:00",
+        "holiday_open": "09:00",
+        "latitude": 35.5762564,
+        "transport_notes": "- 일반버스 431, 847, 207, 847약사동제방전시관(11431) 하차 후 도보 10분- 일반버스 147, 216, 422, 147, 216혜인학교(30907) 하차 후 도보 5분",
+        "ownership_type": "공립",
+        "weekday_close": "18:00",
+        "youth_fee": 0.0,
+        "name": "울산약사제방유적전시관",
+        "weekday_open": "09:00",
+        "requires_manual_review": false,
+        "closure_rule_raw": "매주 월+1월 1일",
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "homepage_url": "http://www.ulsan.go.kr/s/museum/contents.ulsan?mId=001010001000000000",
+        "longitude": 129.3369722,
+        "amenities_raw": "장애인 화장실+음수대 등",
+        "address": "울산광역시 중구 종가14길 22-28",
+        "sido": "울산광역시",
+        "source_types": "BASE"
+      },
+      "vector_rank": 3,
+      "bm25_rank": 3,
+      "vector_distance": 0.5500988960266113,
+      "vector_score": null,
+      "bm25_score": 5.377885216001915,
+      "vector_document": "약사동제방유적전시관은 울산 약사동 제방(사적)을 소개하고 고대 제방 연구와 역사적인 가치를 알리기 위하여 2017년 5월 24일에 개관하였다. 전시관 1층은 전시 공간으로 운영하고 있으며, 제방의 토층 전사를 전시하는 제방전시실, 제방 인근 약사동의 역사를 알 수 있는 유물과 농기구 등을 전시하는 테마전시실로 구성되어 있다.2층은 어린이 체험전시실로 제방꼽기체험, 영상, VR(가상현실)체험, 동작감지체험, 퍼즐, 블럭, 도서공간 등이 마련되어 있다.",
+      "bm25_document": "약사동제방유적전시관은 울산 약사동 제방(사적)을 소개하고 고대 제방 연구와 역사적인 가치를 알리기 위하여 2017년 5월 24일에 개관하였다. 전시관 1층은 전시 공간으로 운영하고 있으며, 제방의 토층 전사를 전시하는 제방전시실, 제방 인근 약사동의 역사를 알 수 있는 유물과 농기구 등을 전시하는 테마전시실로 구성되어 있다.2층은 어린이 체험전시실로 제방꼽기체험, 영상, VR(가상현실)체험, 동작감지체험, 퍼즐, 블럭, 도서공간 등이 마련되어 있다.",
+      "best_span_id": "chroma:M0751",
+      "best_span_text": "약사동제방유적전시관은 울산 약사동 제방(사적)을 소개하고 고대 제방 연구와 역사적인 가치를 알리기 위하여 2017년 5월 24일에 개관하였다. 전시관 1층은 전시 공간으로 운영하고 있으며, 제방의 토층 전사를 전시하는 제방전시실, 제방 인근 약사동의 역사를 알 수 있는 유물과 농기구 등을 전시하는 테마전시실로 구성되어 있다.2층은 어린이 체험전시실로 제방꼽기체험, 영상, VR(가상현실)체험, 동작감지체험, 퍼즐, 블럭, 도서공간 등이 마련되어 있다.",
+      "fusion_score": 0.031746031746031744,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 3,
+      "rerank_score": 0.00017109075270127505,
+      "rank": 4,
+      "score": 0.00017109075270127505,
+      "score_type": "cross_encoder",
+      "distance": 0.5500988960266113,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0751",
+      "source_doc_ids": [
+        "DOC-B0751-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0751-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0751",
+          "source_locator": "data/raw/museum_base_1070.csv#row=752",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 79,
+          "doc_ids": [
+            "DOC-B0751-BASE"
+          ]
+        },
+        {
+          "start": 80,
+          "end": 253,
+          "doc_ids": [
+            "DOC-B0751-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_base_1070.csv#row=752",
+      "text": "약사동제방유적전시관은 울산 약사동 제방(사적)을 소개하고 고대 제방 연구와 역사적인 가치를 알리기 위하여 2017년 5월 24일에 개관하였다. 전시관 1층은 전시 공간으로 운영하고 있으며, 제방의 토층 전사를 전시하는 제방전시실, 제방 인근 약사동의 역사를 알 수 있는 유물과 농기구 등을 전시하는 테마전시실로 구성되어 있다.2층은 어린이 체험전시실로 제방꼽기체험, 영상, VR(가상현실)체험, 동작감지체험, 퍼즐, 블럭, 도서공간 등이 마련되어 있다.",
+      "sido": "울산광역시",
+      "sigungu": "중구",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_base_1070.csv#row=752"
+      ],
+      "evidence_id": "E4",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=520",
+        "fields": {
+          "name": "울산약사제방유적전시관",
+          "sido": "울산광역시",
+          "sigungu": "중구",
+          "address": "울산광역시 중구 종가14길 22-28",
+          "ownership_type": "공립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "09:00",
+          "weekday_close": "18:00",
+          "holiday_open": "09:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "매주 월+1월 1일",
+          "amenities_raw": "장애인 화장실+음수대 등"
+        },
+        "base_data_date": "2024-11-02",
+        "trust": "derived_dataset_not_human_verified"
+      },
+      "retrieval_branch": "document"
+    },
+    {
+      "museum_id": "M0752",
+      "name": "울산대곡박물관",
+      "text": "울산대곡박물관의 Neo4j operator_name(운영기관) 기록: 울산광역시 (CSV 원문: 울산광역시청)\n[Neo4j 구조화 근거] {\"museum_id\": \"M0752\", \"name\": \"울산대곡박물관\", \"relation\": \"OPERATED_BY\", \"organization\": \"울산광역시\", \"org_key\": \"울산광역시\", \"org_type\": \"지방자치단체\", \"raw_name\": \"울산광역시청\", \"verification_status\": \"SOURCE_RECORDED\"}",
+      "span_id": "",
+      "source_doc_ids": [
+        "DOC-B0752-BASE",
+        "DOC-B0752-TOUR_API-1284446"
+      ],
+      "source_urls": [],
+      "source_url": "",
+      "source_locators": [
+        "data/raw/museum_base_1070.csv#row=753",
+        "data/raw/museum_tourapi_with_overview.csv#row=364"
+      ],
+      "source_locator": "data/raw/museum_base_1070.csv#row=753",
+      "sido": "울산광역시",
+      "sigungu": "울주군",
+      "retriever": "graph",
+      "evidence_role": "anchor",
+      "source_scope": "graph_properties",
+      "relation": "OPERATED_BY",
+      "organization": "울산광역시",
+      "org_type": "지방자치단체",
+      "operator_raw_name": "울산광역시청",
+      "verification_status": "SOURCE_RECORDED",
+      "metadata": {},
+      "chunk_id": "",
+      "retrievers": [
+        "graph"
+      ],
+      "evidence_id": "E5",
+      "retrieval_branch": "graph",
+      "rank": 5
+    },
+    {
+      "museum_id": "M0753",
+      "name": "울산박물관",
+      "text": "{anchor_raw_name: 울산광역시청, candidate_raw_name: 울산광역시청, org_key: 울산광역시, organization: 울산광역시, relation: OPERATED_BY, verification_status: SOURCE_RECORDED}",
+      "span_id": "",
+      "source_doc_ids": [
+        "DOC-B0753-BASE",
+        "DOC-B0753-TOUR_API-1556541"
+      ],
+      "source_urls": [],
+      "source_url": "",
+      "source_locators": [
+        "data/raw/museum_base_1070.csv#row=754",
+        "data/raw/museum_tourapi_with_overview.csv#row=365"
+      ],
+      "source_locator": "data/raw/museum_base_1070.csv#row=754",
+      "sido": "울산광역시",
+      "sigungu": "남구",
+      "retriever": "graph",
+      "graph_path": "anchor -[:OPERATED_BY]-> Organization <-[:OPERATED_BY]- candidate",
+      "organization": "울산광역시",
+      "org_type": "지방자치단체",
+      "operator_raw_name": "울산광역시청",
+      "anchor_operator_raw_name": "울산광역시청",
+      "relation": "OPERATED_BY",
+      "verification_status": "SOURCE_RECORDED",
+      "facility_type": "박물관",
+      "source_scope": "graph_properties",
+      "metadata": {},
+      "chunk_id": "",
+      "retrievers": [
+        "graph"
+      ],
+      "evidence_id": "E6",
+      "retrieval_branch": "graph",
+      "rank": 6
+    },
+    {
+      "museum_id": "M0749",
+      "name": "울산시립미술관",
+      "text": "{anchor_raw_name: 울산광역시청, candidate_raw_name: 울산광역시청, org_key: 울산광역시, organization: 울산광역시, relation: OPERATED_BY, verification_status: SOURCE_RECORDED}",
+      "span_id": "",
+      "source_doc_ids": [
+        "DOC-B0749-BASE",
+        "DOC-B0749-TOUR_API-3043602"
+      ],
+      "source_urls": [],
+      "source_url": "",
+      "source_locators": [
+        "data/raw/museum_base_1070.csv#row=750",
+        "data/raw/museum_tourapi_with_overview.csv#row=362"
+      ],
+      "source_locator": "data/raw/museum_base_1070.csv#row=750",
+      "sido": "울산광역시",
+      "sigungu": "중구",
+      "retriever": "graph",
+      "graph_path": "anchor -[:OPERATED_BY]-> Organization <-[:OPERATED_BY]- candidate",
+      "organization": "울산광역시",
+      "org_type": "지방자치단체",
+      "operator_raw_name": "울산광역시청",
+      "anchor_operator_raw_name": "울산광역시청",
+      "relation": "OPERATED_BY",
+      "verification_status": "SOURCE_RECORDED",
+      "facility_type": "미술관",
+      "source_scope": "graph_properties",
+      "metadata": {},
+      "chunk_id": "",
+      "retrievers": [
+        "graph"
+      ],
+      "evidence_id": "E7",
+      "retrieval_branch": "graph",
+      "rank": 7
+    },
+    {
+      "museum_id": "M0750",
+      "name": "울산암각화박물관",
+      "text": "{anchor_raw_name: 울산광역시청, candidate_raw_name: 울산광역시청, org_key: 울산광역시, organization: 울산광역시, relation: OPERATED_BY, verification_status: SOURCE_RECORDED}",
+      "span_id": "",
+      "source_doc_ids": [
+        "DOC-B0750-BASE",
+        "DOC-B0750-TOUR_API-634337"
+      ],
+      "source_urls": [],
+      "source_url": "",
+      "source_locators": [
+        "data/raw/museum_base_1070.csv#row=751",
+        "data/raw/museum_tourapi_with_overview.csv#row=363"
+      ],
+      "source_locator": "data/raw/museum_base_1070.csv#row=751",
+      "sido": "울산광역시",
+      "sigungu": "울주군",
+      "retriever": "graph",
+      "graph_path": "anchor -[:OPERATED_BY]-> Organization <-[:OPERATED_BY]- candidate",
+      "organization": "울산광역시",
+      "org_type": "지방자치단체",
+      "operator_raw_name": "울산광역시청",
+      "anchor_operator_raw_name": "울산광역시청",
+      "relation": "OPERATED_BY",
+      "verification_status": "SOURCE_RECORDED",
+      "facility_type": "박물관",
+      "source_scope": "graph_properties",
+      "metadata": {},
+      "chunk_id": "",
+      "retrievers": [
+        "graph"
+      ],
+      "evidence_id": "E8",
+      "retrieval_branch": "graph",
+      "rank": 8
+    },
+    {
+      "museum_id": "M0751",
+      "name": "울산약사제방유적전시관",
+      "text": "{anchor_raw_name: 울산광역시청, candidate_raw_name: 울산광역시청, org_key: 울산광역시, organization: 울산광역시, relation: OPERATED_BY, verification_status: SOURCE_RECORDED}",
+      "span_id": "",
+      "source_doc_ids": [
+        "DOC-B0751-BASE"
+      ],
+      "source_urls": [],
+      "source_url": "",
+      "source_locators": [
+        "data/raw/museum_base_1070.csv#row=752"
+      ],
+      "source_locator": "data/raw/museum_base_1070.csv#row=752",
+      "sido": "울산광역시",
+      "sigungu": "중구",
+      "retriever": "graph",
+      "graph_path": "anchor -[:OPERATED_BY]-> Organization <-[:OPERATED_BY]- candidate",
+      "organization": "울산광역시",
+      "org_type": "지방자치단체",
+      "operator_raw_name": "울산광역시청",
+      "anchor_operator_raw_name": "울산광역시청",
+      "relation": "OPERATED_BY",
+      "verification_status": "SOURCE_RECORDED",
+      "facility_type": "전시관",
+      "source_scope": "graph_properties",
+      "metadata": {},
+      "chunk_id": "",
+      "retrievers": [
+        "graph"
+      ],
+      "evidence_id": "E9",
+      "retrieval_branch": "graph",
+      "rank": 9
+    }
+  ],
+  "answer": "울산대곡박물관과 같은 운영기관으로 기록된 곳 중에서는 **울산암각화박물관**을 추천합니다. 두 박물관의 운영기관(운영기관 관계)은 모두 울산광역시로 기록되어 있습니다.[E5][E8] 이곳에는 반구대·천전리 암각화의 실물 모형과 암각화 유적을 소개하는 전시가 있습니다.[E1]",
+  "retrieval_status": "ok",
+  "answer_status": "answered",
+  "route": "combined",
+  "retry_count": 0,
+  "supervisor_verified": true,
+  "rerank_applied": true,
+  "retriever_errors": [],
+  "warnings": [
+    "Only 4 candidates available; no artificial padding"
+  ],
+  "duration_ms": 79113.43,
+  "error_type": "",
+  "hit_at_1": 1,
+  "hit_at_3": 1,
+  "hit_at_5": 1,
+  "recall_at_5": 1.0,
+  "mrr_at_10": 1.0
+}

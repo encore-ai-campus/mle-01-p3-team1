@@ -1,0 +1,859 @@
+{
+  "mode": "supervisor_full",
+  "question_id": "Q143",
+  "evidence": [
+    {
+      "museum_id": "M0229",
+      "name": "시흥오이도박물관",
+      "document": "오이도는 서해안 최대 패총유적지이자 다양한 신석기시대 유물의 출토지로, 선사시대 해안생활문화유산으로서 보존가치를 인정받는 곳이다. 이러한 오이도 유적을 보호하고 활용하기 위해 2018년 오이도 선사유적공원이, 2019년 시흥오이도박물관이 조성되었다. 공원에서는 신석기인들의 생생한 삶의 모습을 만날 수 있고, 박물관에서는 보다 가깝게 시흥의 출토 유물들을 이해하고 선사시대 생활문화를 체험할 수 있는 기회를 제공한다. 시흥 오이도 조개무덤 + 시흥시 출토 매장유산 + 신석기 시대 해양 문화 전시 및 체험프로그램 운영",
+      "metadata": {
+        "requires_manual_review": true,
+        "sigungu": "시흥시",
+        "adult_fee": 1000.0,
+        "closure_rule_raw": "월+ 1월1일 + 설날 및 추석연휴",
+        "latitude": 37.33518527,
+        "transport_notes": "(버스) 30-2 + 99-3 + 25 + 21  오이도박물관 정류장 하차 도보 2분",
+        "youth_fee": 1000.0,
+        "fee_notes": "(할인)단체 및 시흥시민 500 + (무료)36개월 미만+65세 이상+국가유공자+참전유공자+등록 장애인+기초생활수급자+한부모 가족+국민 및 외국사절단",
+        "source_types": "BASE|TOUR_API",
+        "image_url": "http://tong.visitkorea.or.kr/cms/resource/08/2947308_image2_1.jpg",
+        "sido": "경기도",
+        "child_fee": 1000.0,
+        "ownership_type": "공립",
+        "weekday_close": "18:00",
+        "homepage_url": "https://oidomuseum.siheung.go.kr/",
+        "name": "시흥오이도박물관",
+        "holiday_open": "10:00",
+        "longitude": 126.6912532,
+        "address": "경기도 시흥시 오이도로 332",
+        "holiday_close": "18:00",
+        "weekday_open": "10:00",
+        "adult_fee_status": "BASE_FEE_PAID",
+        "image_copyright": "Type1"
+      },
+      "vector_rank": 4,
+      "bm25_rank": 1,
+      "vector_distance": 0.4911838173866272,
+      "vector_score": null,
+      "bm25_score": 25.707303410620277,
+      "vector_document": "오이도는 서해안 최대 패총유적지이자 다양한 신석기시대 유물의 출토지로, 선사시대 해안생활문화유산으로서 보존가치를 인정받는 곳이다. 이러한 오이도 유적을 보호하고 활용하기 위해 2018년 오이도 선사유적공원이, 2019년 시흥오이도박물관이 조성되었다. 공원에서는 신석기인들의 생생한 삶의 모습을 만날 수 있고, 박물관에서는 보다 가깝게 시흥의 출토 유물들을 이해하고 선사시대 생활문화를 체험할 수 있는 기회를 제공한다. 시흥 오이도 조개무덤 + 시흥시 출토 매장유산 + 신석기 시대 해양 문화 전시 및 체험프로그램 운영",
+      "bm25_document": "오이도는 서해안 최대 패총유적지이자 다양한 신석기시대 유물의 출토지로, 선사시대 해안생활문화유산으로서 보존가치를 인정받는 곳이다. 이러한 오이도 유적을 보호하고 활용하기 위해 2018년 오이도 선사유적공원이, 2019년 시흥오이도박물관이 조성되었다. 공원에서는 신석기인들의 생생한 삶의 모습을 만날 수 있고, 박물관에서는 보다 가깝게 시흥의 출토 유물들을 이해하고 선사시대 생활문화를 체험할 수 있는 기회를 제공한다. 시흥 오이도 조개무덤 + 시흥시 출토 매장유산 + 신석기 시대 해양 문화 전시 및 체험프로그램 운영",
+      "best_span_id": "chroma:M0229",
+      "best_span_text": "오이도는 서해안 최대 패총유적지이자 다양한 신석기시대 유물의 출토지로, 선사시대 해안생활문화유산으로서 보존가치를 인정받는 곳이다. 이러한 오이도 유적을 보호하고 활용하기 위해 2018년 오이도 선사유적공원이, 2019년 시흥오이도박물관이 조성되었다. 공원에서는 신석기인들의 생생한 삶의 모습을 만날 수 있고, 박물관에서는 보다 가깝게 시흥의 출토 유물들을 이해하고 선사시대 생활문화를 체험할 수 있는 기회를 제공한다. 시흥 오이도 조개무덤 + 시흥시 출토 매장유산 + 신석기 시대 해양 문화 전시 및 체험프로그램 운영",
+      "fusion_score": 0.032018442622950824,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 1,
+      "name_match": true,
+      "rerank_score": 0.9997017979621887,
+      "rank": 1,
+      "score": 0.9997017979621887,
+      "score_type": "cross_encoder",
+      "distance": 0.4911838173866272,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0229",
+      "source_doc_ids": [
+        "DOC-B0229-TOUR_API-2648242",
+        "DOC-B0229-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0229-TOUR_API-2648242",
+          "source_type": "TOUR_API",
+          "source_record_id": "2648242",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=115",
+          "match_trust": "RECHECKED_BY_RULE_NOT_HUMAN_APPROVED"
+        },
+        {
+          "doc_id": "DOC-B0229-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0229",
+          "source_locator": "data/raw/museum_base_1070.csv#row=230",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 72,
+          "doc_ids": [
+            "DOC-B0229-TOUR_API-2648242"
+          ]
+        },
+        {
+          "start": 73,
+          "end": 139,
+          "doc_ids": [
+            "DOC-B0229-TOUR_API-2648242"
+          ]
+        },
+        {
+          "start": 140,
+          "end": 233,
+          "doc_ids": [
+            "DOC-B0229-TOUR_API-2648242"
+          ]
+        },
+        {
+          "start": 234,
+          "end": 289,
+          "doc_ids": [
+            "DOC-B0229-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=115",
+      "text": "오이도는 서해안 최대 패총유적지이자 다양한 신석기시대 유물의 출토지로, 선사시대 해안생활문화유산으로서 보존가치를 인정받는 곳이다. 이러한 오이도 유적을 보호하고 활용하기 위해 2018년 오이도 선사유적공원이, 2019년 시흥오이도박물관이 조성되었다. 공원에서는 신석기인들의 생생한 삶의 모습을 만날 수 있고, 박물관에서는 보다 가깝게 시흥의 출토 유물들을 이해하고 선사시대 생활문화를 체험할 수 있는 기회를 제공한다. 시흥 오이도 조개무덤 + 시흥시 출토 매장유산 + 신석기 시대 해양 문화 전시 및 체험프로그램 운영",
+      "sido": "경기도",
+      "sigungu": "시흥시",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=115"
+      ],
+      "evidence_id": "E1",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=158",
+        "fields": {
+          "name": "시흥오이도박물관",
+          "sido": "경기도",
+          "sigungu": "시흥시",
+          "address": "경기도 시흥시 오이도로 332",
+          "ownership_type": "공립",
+          "adult_fee": "1000",
+          "youth_fee": "1000",
+          "child_fee": "1000",
+          "adult_fee_status": "BASE_FEE_PAID",
+          "weekday_open": "10:00",
+          "weekday_close": "18:00",
+          "holiday_open": "10:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "월+ 1월1일 + 설날 및 추석연휴"
+        },
+        "base_data_date": "2026-09-07",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0475",
+      "name": "국립경주박물관",
+      "document": "국립경주박물관은 신라의 문화유산을 한눈에 살펴볼 수 있는 한국의 대표적인 박물관이다. 이곳에서는 기원전 57년부터 기원후 935년까지 이어진 천년왕국 신라의 압축된 역사를 살펴볼 수 있다. 경주 여행 시 가장 먼저 방문해 사전 지식을 쌓은 뒤 유적지를 둘러보면 더욱 알찬 여행이 된다. 박물관은 신라역사관, 신라미술관, 월지관, 신라천년보고, 옥외전시 등 5개의 상설전시관과 특별전시관으로 구성된다. 신라역사관에서는 신라의 역사적 흐름을, 신라미술관에서는 찬란한 미술문화와 유물을 볼 수 있다. 월지관은 통일신라시대 왕실의 생활문화를 중심으로 구성되어 있다. 옥외전시장에는 범종, 석탑, 석불, 석등, 비석받침 등 석조 유물 1,300여 점이 전시되어 있다. 박물관 인근에는 2019년 개관한 영남권 수장고인 신라천년보고가 있다. 이곳은 영남지역에서 출토된 유물 약 60만 점을 보관하며, 3,000여 점은 전시수장고에서 관람할 수 있다. 신라역사관, 신라미술관, 월지관에서는 전시해설 프로그램도 운영되니 관람 전 시간표를 확인하는 것이 좋다. 신라의 역사와 문화유산을 중심으로 전시하는 국립박물관이다. 신라시대의 불교미술과 고고자료, 금속공예 등 경주에서 출토된 문화유산을 통해 신라 문화를 살펴볼 수 있다.",
+      "metadata": {
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/06/4097506_image2_1.JPG",
+        "homepage_url": "https://gyeongju.museum.go.kr/",
+        "longitude": 129.2286819147,
+        "name": "국립경주박물관",
+        "source_types": "TOUR_API|WEB_RESEARCH",
+        "weekday_close": "18:00",
+        "adult_fee": 0.0,
+        "closure_rule_raw": "1월 1일, 설날, 추석, 3월,11월 첫 번째 월요일",
+        "sido": "경상북도",
+        "child_fee": 0.0,
+        "holiday_open": "09:00",
+        "holiday_close": "18:00",
+        "ownership_type": "국립",
+        "youth_fee": 0.0,
+        "address": "경상북도 경주시 일정로 186",
+        "weekday_open": "09:00",
+        "image_copyright": "Type1",
+        "requires_manual_review": true,
+        "latitude": 35.8294300868,
+        "sigungu": "경주시",
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS"
+      },
+      "vector_rank": null,
+      "bm25_rank": 5,
+      "vector_distance": null,
+      "vector_score": null,
+      "bm25_score": 14.898712429157646,
+      "vector_document": "",
+      "bm25_document": "국립경주박물관은 신라의 문화유산을 한눈에 살펴볼 수 있는 한국의 대표적인 박물관이다. 이곳에서는 기원전 57년부터 기원후 935년까지 이어진 천년왕국 신라의 압축된 역사를 살펴볼 수 있다. 경주 여행 시 가장 먼저 방문해 사전 지식을 쌓은 뒤 유적지를 둘러보면 더욱 알찬 여행이 된다. 박물관은 신라역사관, 신라미술관, 월지관, 신라천년보고, 옥외전시 등 5개의 상설전시관과 특별전시관으로 구성된다. 신라역사관에서는 신라의 역사적 흐름을, 신라미술관에서는 찬란한 미술문화와 유물을 볼 수 있다. 월지관은 통일신라시대 왕실의 생활문화를 중심으로 구성되어 있다. 옥외전시장에는 범종, 석탑, 석불, 석등, 비석받침 등 석조 유물 1,300여 점이 전시되어 있다. 박물관 인근에는 2019년 개관한 영남권 수장고인 신라천년보고가 있다. 이곳은 영남지역에서 출토된 유물 약 60만 점을 보관하며, 3,000여 점은 전시수장고에서 관람할 수 있다. 신라역사관, 신라미술관, 월지관에서는 전시해설 프로그램도 운영되니 관람 전 시간표를 확인하는 것이 좋다. 신라의 역사와 문화유산을 중심으로 전시하는 국립박물관이다. 신라시대의 불교미술과 고고자료, 금속공예 등 경주에서 출토된 문화유산을 통해 신라 문화를 살펴볼 수 있다.",
+      "best_span_id": "chroma:M0475",
+      "best_span_text": "국립경주박물관은 신라의 문화유산을 한눈에 살펴볼 수 있는 한국의 대표적인 박물관이다. 이곳에서는 기원전 57년부터 기원후 935년까지 이어진 천년왕국 신라의 압축된 역사를 살펴볼 수 있다. 경주 여행 시 가장 먼저 방문해 사전 지식을 쌓은 뒤 유적지를 둘러보면 더욱 알찬 여행이 된다. 박물관은 신라역사관, 신라미술관, 월지관, 신라천년보고, 옥외전시 등 5개의 상설전시관과 특별전시관으로 구성된다. 신라역사관에서는 신라의 역사적 흐름을, 신라미술관에서는 찬란한 미술문화와 유물을 볼 수 있다. 월지관은 통일신라시대 왕실의 생활문화를 중심으로 구성되어 있다. 옥외전시장에는 범종, 석탑, 석불, 석등, 비석받침 등 석조 유물 1,300여 점이 전시되어 있다. 박물관 인근에는 2019년 개관한 영남권 수장고인 신라천년보고가 있다. 이곳은 영남지역에서 출토된 유물 약 60만 점을 보관하며, 3,000여 점은 전시수장고에서 관람할 수 있다. 신라역사관, 신라미술관, 월지관에서는 전시해설 프로그램도 운영되니 관람 전 시간표를 확인하는 것이 좋다. 신라의 역사와 문화유산을 중심으로 전시하는 국립박물관이다. 신라시대의 불교미술과 고고자료, 금속공예 등 경주에서 출토된 문화유산을 통해 신라 문화를 살펴볼 수 있다.",
+      "fusion_score": 0.015384615384615385,
+      "retrieved_by": [
+        "bm25"
+      ],
+      "fusion_rank": 12,
+      "rerank_score": 0.21822033822536469,
+      "rank": 2,
+      "score": 0.21822033822536469,
+      "score_type": "cross_encoder",
+      "distance": null,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "bm25"
+      ],
+      "retriever": "bm25",
+      "span_id": "chroma:M0475",
+      "source_doc_ids": [
+        "DOC-B0475-TOUR_API-129778",
+        "DOC-WEB-M0475-20261111"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0475-TOUR_API-129778",
+          "source_type": "TOUR_API",
+          "source_record_id": "129778",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=234",
+          "match_trust": "RECHECKED_BY_RULE_NOT_HUMAN_APPROVED"
+        },
+        {
+          "doc_id": "DOC-WEB-M0475-20261111",
+          "source_type": "WEB_RESEARCH",
+          "source_record_id": "RESEARCH-M0475",
+          "source_locator": "https://gyeongju.museum.go.kr/",
+          "source_url": "https://gyeongju.museum.go.kr/",
+          "match_trust": "WEB_SOURCE_REVIEWED_NOT_HUMAN_APPROVED"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 47,
+          "doc_ids": [
+            "DOC-B0475-TOUR_API-129778"
+          ]
+        },
+        {
+          "start": 48,
+          "end": 105,
+          "doc_ids": [
+            "DOC-B0475-TOUR_API-129778"
+          ]
+        },
+        {
+          "start": 106,
+          "end": 159,
+          "doc_ids": [
+            "DOC-B0475-TOUR_API-129778"
+          ]
+        },
+        {
+          "start": 160,
+          "end": 223,
+          "doc_ids": [
+            "DOC-B0475-TOUR_API-129778"
+          ]
+        },
+        {
+          "start": 224,
+          "end": 276,
+          "doc_ids": [
+            "DOC-B0475-TOUR_API-129778"
+          ]
+        },
+        {
+          "start": 277,
+          "end": 312,
+          "doc_ids": [
+            "DOC-B0475-TOUR_API-129778"
+          ]
+        },
+        {
+          "start": 313,
+          "end": 368,
+          "doc_ids": [
+            "DOC-B0475-TOUR_API-129778"
+          ]
+        },
+        {
+          "start": 369,
+          "end": 408,
+          "doc_ids": [
+            "DOC-B0475-TOUR_API-129778"
+          ]
+        },
+        {
+          "start": 409,
+          "end": 469,
+          "doc_ids": [
+            "DOC-B0475-TOUR_API-129778"
+          ]
+        },
+        {
+          "start": 470,
+          "end": 528,
+          "doc_ids": [
+            "DOC-B0475-TOUR_API-129778"
+          ]
+        },
+        {
+          "start": 529,
+          "end": 561,
+          "doc_ids": [
+            "DOC-WEB-M0475-20261111"
+          ]
+        },
+        {
+          "start": 562,
+          "end": 621,
+          "doc_ids": [
+            "DOC-WEB-M0475-20261111"
+          ]
+        }
+      ],
+      "source_urls": [
+        "https://gyeongju.museum.go.kr/"
+      ],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=234",
+      "text": "국립경주박물관은 신라의 문화유산을 한눈에 살펴볼 수 있는 한국의 대표적인 박물관이다. 이곳에서는 기원전 57년부터 기원후 935년까지 이어진 천년왕국 신라의 압축된 역사를 살펴볼 수 있다. 경주 여행 시 가장 먼저 방문해 사전 지식을 쌓은 뒤 유적지를 둘러보면 더욱 알찬 여행이 된다. 박물관은 신라역사관, 신라미술관, 월지관, 신라천년보고, 옥외전시 등 5개의 상설전시관과 특별전시관으로 구성된다. 신라역사관에서는 신라의 역사적 흐름을, 신라미술관에서는 찬란한 미술문화와 유물을 볼 수 있다. 월지관은 통일신라시대 왕실의 생활문화를 중심으로 구성되어 있다. 옥외전시장에는 범종, 석탑, 석불, 석등, 비석받침 등 석조 유물 1,300여 점이 전시되어 있다. 박물관 인근에는 2019년 개관한 영남권 수장고인 신라천년보고가 있다. 이곳은 영남지역에서 출토된 유물 약 60만 점을 보관하며, 3,000여 점은 전시수장고에서 관람할 수 있다. 신라역사관, 신라미술관, 월지관에서는 전시해설 프로그램도 운영되니 관람 전 시간표를 확인하는 것이 좋다. 신라의 역사와 문화유산을 중심으로 전시하는 국립박물관이다. 신라시대의 불교미술과 고고자료, 금속공예 등 경주에서 출토된 문화유산을 통해 신라 문화를 살펴볼 수 있다.",
+      "sido": "경상북도",
+      "sigungu": "경주시",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=234"
+      ],
+      "evidence_id": "E2",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=346",
+        "fields": {
+          "name": "국립경주박물관",
+          "sido": "경상북도",
+          "sigungu": "경주시",
+          "address": "경상북도 경주시 일정로 186",
+          "ownership_type": "국립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "09:00",
+          "weekday_close": "18:00",
+          "holiday_open": "09:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "1월 1일, 설날, 추석, 3월,11월 첫 번째 월요일"
+        },
+        "base_data_date": "2026-04-08",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M1008",
+      "name": "석장리박물관",
+      "document": "석장리박물관은 구석기 유물 박물관으로 공주 지역의 구석기 문화의 역사적 가치를 지속적으로 보존하고 이를 발전적으로 계승하기 위해 2006년 9월에 개관했다. 석장리박물관은 석장리 출토 유물의 전시와 구석기 문화에 대한 각종 교육과 학술 활동을 하고 있다. 또한 선사 문화 체험 등 학생들이 고대 문화에 대한 관심을 가질 수 있는 각종 프로그램을 개발하여 실시하고 있다. 선사시대를 총체적으로 이해할 수 있도록 전시관, 선사공원, 공주 석장리 구석기 유적, 체험 공간 등을 갖추고 있다. 전시관은 건축가 이응묵의 작품으로, 외부에는 석기 떼는 구석기인 동상과 석장리 출토 대표석기 5점의 모형, 사냥하는 구석기인 동상과 반구대 암각화 모형, 그리고 석장리를 상징하는 주먹도끼모형이 있다. 내부는 구석기에서 청동기에 이르는 선사문화를 자연, 인류, 생활, 문화, 발굴이라는 5가지 테마로 전시연출한 상설전시와 일정한 주제를 중심으로 특별 전시 될 기획전시, 영상실, 각종 정보검색과 쉴 수 있는 편의시설인 휴게실 등으로 이루어져 있다. 한국 구석기 유적이 최초로 발견된 곳에 세워진 박물관으로 구석기시대의 정취를 한껏 느낄 수 있고 구석기와 관련된 다양한 교육체험프로그램 진행으로 가족단위의 관람객들이 방문하기에 최적의 장소입니다.",
+      "metadata": {
+        "longitude": 127.1875895,
+        "sido": "충청남도",
+        "fee_notes": "경로, 장애인, 공주시민 무료",
+        "address": "충청남도 공주시 금벽로 990",
+        "closure_rule_raw": "설+ 추석 당일",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/69/3390269_image2_1.JPG",
+        "sigungu": "공주시",
+        "weekday_open": "09:00",
+        "amenities_raw": "물품보관소+수유실+매점+카페",
+        "adult_fee": 3000.0,
+        "holiday_open": "09:00",
+        "ownership_type": "공립",
+        "holiday_close": "18:00",
+        "image_copyright": "Type3",
+        "homepage_url": "http://www.gongju.go.kr/sjnmuseum/index.do",
+        "name": "석장리박물관",
+        "source_types": "BASE|TOUR_API",
+        "child_fee": 1000.0,
+        "requires_manual_review": true,
+        "youth_fee": 2000.0,
+        "transport_notes": "시내버스 570+ 571+ 572+ 573+ 580",
+        "weekday_close": "18:00",
+        "latitude": 36.44795221,
+        "adult_fee_status": "BASE_FEE_PAID"
+      },
+      "vector_rank": null,
+      "bm25_rank": 2,
+      "vector_distance": null,
+      "vector_score": null,
+      "bm25_score": 15.554888952565513,
+      "vector_document": "",
+      "bm25_document": "석장리박물관은 구석기 유물 박물관으로 공주 지역의 구석기 문화의 역사적 가치를 지속적으로 보존하고 이를 발전적으로 계승하기 위해 2006년 9월에 개관했다. 석장리박물관은 석장리 출토 유물의 전시와 구석기 문화에 대한 각종 교육과 학술 활동을 하고 있다. 또한 선사 문화 체험 등 학생들이 고대 문화에 대한 관심을 가질 수 있는 각종 프로그램을 개발하여 실시하고 있다. 선사시대를 총체적으로 이해할 수 있도록 전시관, 선사공원, 공주 석장리 구석기 유적, 체험 공간 등을 갖추고 있다. 전시관은 건축가 이응묵의 작품으로, 외부에는 석기 떼는 구석기인 동상과 석장리 출토 대표석기 5점의 모형, 사냥하는 구석기인 동상과 반구대 암각화 모형, 그리고 석장리를 상징하는 주먹도끼모형이 있다. 내부는 구석기에서 청동기에 이르는 선사문화를 자연, 인류, 생활, 문화, 발굴이라는 5가지 테마로 전시연출한 상설전시와 일정한 주제를 중심으로 특별 전시 될 기획전시, 영상실, 각종 정보검색과 쉴 수 있는 편의시설인 휴게실 등으로 이루어져 있다. 한국 구석기 유적이 최초로 발견된 곳에 세워진 박물관으로 구석기시대의 정취를 한껏 느낄 수 있고 구석기와 관련된 다양한 교육체험프로그램 진행으로 가족단위의 관람객들이 방문하기에 최적의 장소입니다.",
+      "best_span_id": "chroma:M1008",
+      "best_span_text": "석장리박물관은 구석기 유물 박물관으로 공주 지역의 구석기 문화의 역사적 가치를 지속적으로 보존하고 이를 발전적으로 계승하기 위해 2006년 9월에 개관했다. 석장리박물관은 석장리 출토 유물의 전시와 구석기 문화에 대한 각종 교육과 학술 활동을 하고 있다. 또한 선사 문화 체험 등 학생들이 고대 문화에 대한 관심을 가질 수 있는 각종 프로그램을 개발하여 실시하고 있다. 선사시대를 총체적으로 이해할 수 있도록 전시관, 선사공원, 공주 석장리 구석기 유적, 체험 공간 등을 갖추고 있다. 전시관은 건축가 이응묵의 작품으로, 외부에는 석기 떼는 구석기인 동상과 석장리 출토 대표석기 5점의 모형, 사냥하는 구석기인 동상과 반구대 암각화 모형, 그리고 석장리를 상징하는 주먹도끼모형이 있다. 내부는 구석기에서 청동기에 이르는 선사문화를 자연, 인류, 생활, 문화, 발굴이라는 5가지 테마로 전시연출한 상설전시와 일정한 주제를 중심으로 특별 전시 될 기획전시, 영상실, 각종 정보검색과 쉴 수 있는 편의시설인 휴게실 등으로 이루어져 있다. 한국 구석기 유적이 최초로 발견된 곳에 세워진 박물관으로 구석기시대의 정취를 한껏 느낄 수 있고 구석기와 관련된 다양한 교육체험프로그램 진행으로 가족단위의 관람객들이 방문하기에 최적의 장소입니다.",
+      "fusion_score": 0.016129032258064516,
+      "retrieved_by": [
+        "bm25"
+      ],
+      "fusion_rank": 7,
+      "rerank_score": 0.13197559118270874,
+      "rank": 3,
+      "score": 0.13197559118270874,
+      "score_type": "cross_encoder",
+      "distance": null,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "bm25"
+      ],
+      "retriever": "bm25",
+      "span_id": "chroma:M1008",
+      "source_doc_ids": [
+        "DOC-B1008-TOUR_API-1184872",
+        "DOC-B1008-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B1008-TOUR_API-1184872",
+          "source_type": "TOUR_API",
+          "source_record_id": "1184872",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=470",
+          "match_trust": "RECHECKED_BY_RULE_NOT_HUMAN_APPROVED"
+        },
+        {
+          "doc_id": "DOC-B1008-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B1008",
+          "source_locator": "data/raw/museum_base_1070.csv#row=1009",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 87,
+          "doc_ids": [
+            "DOC-B1008-TOUR_API-1184872"
+          ]
+        },
+        {
+          "start": 88,
+          "end": 142,
+          "doc_ids": [
+            "DOC-B1008-TOUR_API-1184872"
+          ]
+        },
+        {
+          "start": 143,
+          "end": 206,
+          "doc_ids": [
+            "DOC-B1008-TOUR_API-1184872"
+          ]
+        },
+        {
+          "start": 207,
+          "end": 271,
+          "doc_ids": [
+            "DOC-B1008-TOUR_API-1184872"
+          ]
+        },
+        {
+          "start": 272,
+          "end": 383,
+          "doc_ids": [
+            "DOC-B1008-TOUR_API-1184872"
+          ]
+        },
+        {
+          "start": 384,
+          "end": 521,
+          "doc_ids": [
+            "DOC-B1008-TOUR_API-1184872"
+          ]
+        },
+        {
+          "start": 522,
+          "end": 631,
+          "doc_ids": [
+            "DOC-B1008-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=470",
+      "text": "석장리박물관은 구석기 유물 박물관으로 공주 지역의 구석기 문화의 역사적 가치를 지속적으로 보존하고 이를 발전적으로 계승하기 위해 2006년 9월에 개관했다. 석장리박물관은 석장리 출토 유물의 전시와 구석기 문화에 대한 각종 교육과 학술 활동을 하고 있다. 또한 선사 문화 체험 등 학생들이 고대 문화에 대한 관심을 가질 수 있는 각종 프로그램을 개발하여 실시하고 있다. 선사시대를 총체적으로 이해할 수 있도록 전시관, 선사공원, 공주 석장리 구석기 유적, 체험 공간 등을 갖추고 있다. 전시관은 건축가 이응묵의 작품으로, 외부에는 석기 떼는 구석기인 동상과 석장리 출토 대표석기 5점의 모형, 사냥하는 구석기인 동상과 반구대 암각화 모형, 그리고 석장리를 상징하는 주먹도끼모형이 있다. 내부는 구석기에서 청동기에 이르는 선사문화를 자연, 인류, 생활, 문화, 발굴이라는 5가지 테마로 전시연출한 상설전시와 일정한 주제를 중심으로 특별 전시 될 기획전시, 영상실, 각종 정보검색과 쉴 수 있는 편의시설인 휴게실 등으로 이루어져 있다. 한국 구석기 유적이 최초로 발견된 곳에 세워진 박물관으로 구석기시대의 정취를 한껏 느낄 수 있고 구석기와 관련된 다양한 교육체험프로그램 진행으로 가족단위의 관람객들이 방문하기에 최적의 장소입니다.",
+      "sido": "충청남도",
+      "sigungu": "공주시",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=470"
+      ],
+      "evidence_id": "E3",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=691",
+        "fields": {
+          "name": "석장리박물관",
+          "sido": "충청남도",
+          "sigungu": "공주시",
+          "address": "충청남도 공주시 금벽로 990",
+          "ownership_type": "공립",
+          "adult_fee": "3000",
+          "youth_fee": "2000",
+          "child_fee": "1000",
+          "adult_fee_status": "BASE_FEE_PAID",
+          "weekday_open": "09:00",
+          "weekday_close": "18:00",
+          "holiday_open": "09:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "설+ 추석 당일",
+          "amenities_raw": "물품보관소+수유실+매점+카페"
+        },
+        "base_data_date": "2024-08-27",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0970",
+      "name": "태영민속박물관",
+      "document": "태영민속박물관은 지역 사회에 문화의 씨앗이 되고자 2000년에 개관했다. 삼국시대의 토기부터 조선시대 및 근대의 옹기가 전시되어 있다. 토기는 삼국시대 토기를 중심으로 통일신라시대 토기 및 고려시대 토기가 전시되어 있으며, 옹기는 조선시대의 것부터 근대에 사용되었던 것이다. 그리고 옛 생활을 체험해 볼 수 있는 전통 초가가 있으며, 야외전시장에서는 옹기의 기원과 발전, 옹기의 특성, 생활 속의 옹기들을 새롭게 설치된 설명 패널과 함께 종류별로 살펴볼 수 있다. 이 박물관은 시즌별 특별전은 물론 소장 유물을 상시 교체하여 가까이에서 우리 민속 문화를 느낄 수 있고 휴식공간으로도 활용된다. 또한 민속 문화를 유물을 통해 입체적으로 배우고 전통공예를 체험하면서 즐겁게 시간을 보낼 수 있는 여러 교육프로그램을 제공하여 학교 교육과 가정, 지역을 연결하는 평생학습의 실천자로서 역할을 담당하고 있다.",
+      "metadata": {
+        "source_types": "TOUR_API",
+        "adult_fee": 0.0,
+        "sigungu": "금산군",
+        "homepage_url": "http://www.tfmuseum.org/",
+        "youth_fee": 0.0,
+        "sido": "충청남도",
+        "address": "충청남도 금산군 남이면 하금평촌길 26",
+        "holiday_close": "18:00",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/85/3338685_image2_1.jpg",
+        "weekday_open": "10:00",
+        "closure_rule_raw": "월+1월1일",
+        "weekday_close": "18:00",
+        "longitude": 127.4368352,
+        "ownership_type": "사립",
+        "latitude": 36.05144078,
+        "image_copyright": "Type3",
+        "name": "태영민속박물관",
+        "holiday_open": "10:00",
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "child_fee": 0.0,
+        "requires_manual_review": true
+      },
+      "vector_rank": null,
+      "bm25_rank": 4,
+      "vector_distance": null,
+      "vector_score": null,
+      "bm25_score": 15.351886458486483,
+      "vector_document": "",
+      "bm25_document": "태영민속박물관은 지역 사회에 문화의 씨앗이 되고자 2000년에 개관했다. 삼국시대의 토기부터 조선시대 및 근대의 옹기가 전시되어 있다. 토기는 삼국시대 토기를 중심으로 통일신라시대 토기 및 고려시대 토기가 전시되어 있으며, 옹기는 조선시대의 것부터 근대에 사용되었던 것이다. 그리고 옛 생활을 체험해 볼 수 있는 전통 초가가 있으며, 야외전시장에서는 옹기의 기원과 발전, 옹기의 특성, 생활 속의 옹기들을 새롭게 설치된 설명 패널과 함께 종류별로 살펴볼 수 있다. 이 박물관은 시즌별 특별전은 물론 소장 유물을 상시 교체하여 가까이에서 우리 민속 문화를 느낄 수 있고 휴식공간으로도 활용된다. 또한 민속 문화를 유물을 통해 입체적으로 배우고 전통공예를 체험하면서 즐겁게 시간을 보낼 수 있는 여러 교육프로그램을 제공하여 학교 교육과 가정, 지역을 연결하는 평생학습의 실천자로서 역할을 담당하고 있다.",
+      "best_span_id": "chroma:M0970",
+      "best_span_text": "태영민속박물관은 지역 사회에 문화의 씨앗이 되고자 2000년에 개관했다. 삼국시대의 토기부터 조선시대 및 근대의 옹기가 전시되어 있다. 토기는 삼국시대 토기를 중심으로 통일신라시대 토기 및 고려시대 토기가 전시되어 있으며, 옹기는 조선시대의 것부터 근대에 사용되었던 것이다. 그리고 옛 생활을 체험해 볼 수 있는 전통 초가가 있으며, 야외전시장에서는 옹기의 기원과 발전, 옹기의 특성, 생활 속의 옹기들을 새롭게 설치된 설명 패널과 함께 종류별로 살펴볼 수 있다. 이 박물관은 시즌별 특별전은 물론 소장 유물을 상시 교체하여 가까이에서 우리 민속 문화를 느낄 수 있고 휴식공간으로도 활용된다. 또한 민속 문화를 유물을 통해 입체적으로 배우고 전통공예를 체험하면서 즐겁게 시간을 보낼 수 있는 여러 교육프로그램을 제공하여 학교 교육과 가정, 지역을 연결하는 평생학습의 실천자로서 역할을 담당하고 있다.",
+      "fusion_score": 0.015625,
+      "retrieved_by": [
+        "bm25"
+      ],
+      "fusion_rank": 10,
+      "rerank_score": 0.061872389167547226,
+      "rank": 4,
+      "score": 0.061872389167547226,
+      "score_type": "cross_encoder",
+      "distance": null,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "bm25"
+      ],
+      "retriever": "bm25",
+      "span_id": "chroma:M0970",
+      "source_doc_ids": [
+        "DOC-B0970-TOUR_API-615547"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0970-TOUR_API-615547",
+          "source_type": "TOUR_API",
+          "source_record_id": "615547",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=454",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 40,
+          "doc_ids": [
+            "DOC-B0970-TOUR_API-615547"
+          ]
+        },
+        {
+          "start": 41,
+          "end": 75,
+          "doc_ids": [
+            "DOC-B0970-TOUR_API-615547"
+          ]
+        },
+        {
+          "start": 76,
+          "end": 153,
+          "doc_ids": [
+            "DOC-B0970-TOUR_API-615547"
+          ]
+        },
+        {
+          "start": 154,
+          "end": 259,
+          "doc_ids": [
+            "DOC-B0970-TOUR_API-615547"
+          ]
+        },
+        {
+          "start": 260,
+          "end": 331,
+          "doc_ids": [
+            "DOC-B0970-TOUR_API-615547"
+          ]
+        },
+        {
+          "start": 332,
+          "end": 447,
+          "doc_ids": [
+            "DOC-B0970-TOUR_API-615547"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=454",
+      "text": "태영민속박물관은 지역 사회에 문화의 씨앗이 되고자 2000년에 개관했다. 삼국시대의 토기부터 조선시대 및 근대의 옹기가 전시되어 있다. 토기는 삼국시대 토기를 중심으로 통일신라시대 토기 및 고려시대 토기가 전시되어 있으며, 옹기는 조선시대의 것부터 근대에 사용되었던 것이다. 그리고 옛 생활을 체험해 볼 수 있는 전통 초가가 있으며, 야외전시장에서는 옹기의 기원과 발전, 옹기의 특성, 생활 속의 옹기들을 새롭게 설치된 설명 패널과 함께 종류별로 살펴볼 수 있다. 이 박물관은 시즌별 특별전은 물론 소장 유물을 상시 교체하여 가까이에서 우리 민속 문화를 느낄 수 있고 휴식공간으로도 활용된다. 또한 민속 문화를 유물을 통해 입체적으로 배우고 전통공예를 체험하면서 즐겁게 시간을 보낼 수 있는 여러 교육프로그램을 제공하여 학교 교육과 가정, 지역을 연결하는 평생학습의 실천자로서 역할을 담당하고 있다.",
+      "sido": "충청남도",
+      "sigungu": "금산군",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=454"
+      ],
+      "evidence_id": "E4",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=666",
+        "fields": {
+          "name": "태영민속박물관",
+          "sido": "충청남도",
+          "sigungu": "금산군",
+          "address": "충청남도 금산군 남이면 하금평촌길 26",
+          "ownership_type": "사립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "10:00",
+          "weekday_close": "18:00",
+          "holiday_open": "10:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "월+1월1일"
+        },
+        "base_data_date": "2025-11-19",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0498",
+      "name": "국립광주박물관",
+      "document": "국립광주박물관은 1976년 수중발굴이 시작된 신안 해저 유물을 비롯한 호남지역의 문화유산을 수집·보관하고, 지역의 역사와 문화를 소개하기 위해 1978년 12월 6일 개관하였다. 총면적 80,444㎡(24,334평)에 지상 2층, 지하 4층의 누각 형태를 본뜬 국립광주박물관은 국보·보물 등의 지정유산을 포함하여 160,000여 점의 유물을 소장하고 있다. 전시뿐만 아니라 다채로운 맞춤형 교육·체험프로그램과 문화행사를 연중 운영하고 있다. 박물관은 선사ㆍ고대문화실, 농경문화실, 도자실, 불교미술실, 서화실, 신안 해저 유물실, 중앙홀의 7개 상설전시실과 야외전시장이 있다. 선사·고대문화실에는 구석기시대부터 통일신라시대에 이르는 역사의 전개과정을 볼 수 있다. 신석기시대의 여수 송도와 안도 유적 출토품, 청동기시대의 고인돌, 화순 대곡리에서 출토된 국보 청동유물도 전시되어 있다. 전남지방은 한국도자기의 본산이라 할 만큼 고려시대 청자로부터 조선시대의 분청사기와 백자에 이르기까지 수많은 가마자리들이 분포되어 있어 여기에서 출토된 유물들을 도자실에서 볼 수 있다. 또한 신안 해저 유물실에는 1976년부터 1984년까지 9년 동안 신안해저침몰무역선으로부터 인양한 중국 송·원대 유물도 전시되어 있다. 불교미술실에는 통일신라시대부터 조선시대에 이르기까지 불교공예품과 불화 등이 전시되어 있다. 장흥 보림사삼층석탑, 전남광주 서오층석탑 등에서 출토된 사리장엄구와 보성 화방리 출토 금동여래입상, 화순 운주사출토 금동보살입상, 영암 용흥리출토 금동사천황상, 영암 용암사지출토 금동지장보살좌상, 전남광주 원효사 출토 부처얼굴, 담양 서봉사지출토 나한상 등이 전시되어 있다. 한편 입구로비에는 중흥산성쌍사자석등이 있다. 서화실에는 호남 회화의 흐름에 대해 쉽게 이해하고 감상하며 향토문화에 대한 자긍심을 일깨울 수 있도록 조선시대와 근대기에 활약한 호남출신 화가들의 대표적인 작품들을 전시하고 있다. 이밖에 정선, 심사정 등 조선시대를 대표하는 화가들의 작품도 함께 전시하여 관람객들이 호남회화의 흐름은 물론 조선시대 회화의 면모를 이해하고 감상하는 데 도움이 되도록 하였다.",
+      "metadata": {
+        "name": "국립광주박물관",
+        "weekday_close": "18:00",
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "weekday_open": "10:00",
+        "source_types": "TOUR_API",
+        "homepage_url": "http://gwangju.museum.go.kr",
+        "image_copyright": "Type1",
+        "child_fee": 0.0,
+        "sigungu": "북구",
+        "requires_manual_review": true,
+        "holiday_close": "18:00",
+        "youth_fee": 0.0,
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/01/4106501_image2_1.jpg",
+        "closure_rule_raw": "1월 1일, 명절 당일, 4월, 11월 첫번째 주 월요일",
+        "holiday_open": "10:00",
+        "longitude": 126.883951454,
+        "sido": "광주광역시",
+        "ownership_type": "국립",
+        "latitude": 35.1896565756,
+        "adult_fee": 0.0,
+        "address": "광주광역시 북구 하서로 110"
+      },
+      "vector_rank": 15,
+      "bm25_rank": 9,
+      "vector_distance": 0.5530457496643066,
+      "vector_score": null,
+      "bm25_score": 14.03529127282562,
+      "vector_document": "국립광주박물관은 1976년 수중발굴이 시작된 신안 해저 유물을 비롯한 호남지역의 문화유산을 수집·보관하고, 지역의 역사와 문화를 소개하기 위해 1978년 12월 6일 개관하였다. 총면적 80,444㎡(24,334평)에 지상 2층, 지하 4층의 누각 형태를 본뜬 국립광주박물관은 국보·보물 등의 지정유산을 포함하여 160,000여 점의 유물을 소장하고 있다. 전시뿐만 아니라 다채로운 맞춤형 교육·체험프로그램과 문화행사를 연중 운영하고 있다. 박물관은 선사ㆍ고대문화실, 농경문화실, 도자실, 불교미술실, 서화실, 신안 해저 유물실, 중앙홀의 7개 상설전시실과 야외전시장이 있다. 선사·고대문화실에는 구석기시대부터 통일신라시대에 이르는 역사의 전개과정을 볼 수 있다. 신석기시대의 여수 송도와 안도 유적 출토품, 청동기시대의 고인돌, 화순 대곡리에서 출토된 국보 청동유물도 전시되어 있다. 전남지방은 한국도자기의 본산이라 할 만큼 고려시대 청자로부터 조선시대의 분청사기와 백자에 이르기까지 수많은 가마자리들이 분포되어 있어 여기에서 출토된 유물들을 도자실에서 볼 수 있다. 또한 신안 해저 유물실에는 1976년부터 1984년까지 9년 동안 신안해저침몰무역선으로부터 인양한 중국 송·원대 유물도 전시되어 있다. 불교미술실에는 통일신라시대부터 조선시대에 이르기까지 불교공예품과 불화 등이 전시되어 있다. 장흥 보림사삼층석탑, 전남광주 서오층석탑 등에서 출토된 사리장엄구와 보성 화방리 출토 금동여래입상, 화순 운주사출토 금동보살입상, 영암 용흥리출토 금동사천황상, 영암 용암사지출토 금동지장보살좌상, 전남광주 원효사 출토 부처얼굴, 담양 서봉사지출토 나한상 등이 전시되어 있다. 한편 입구로비에는 중흥산성쌍사자석등이 있다. 서화실에는 호남 회화의 흐름에 대해 쉽게 이해하고 감상하며 향토문화에 대한 자긍심을 일깨울 수 있도록 조선시대와 근대기에 활약한 호남출신 화가들의 대표적인 작품들을 전시하고 있다. 이밖에 정선, 심사정 등 조선시대를 대표하는 화가들의 작품도 함께 전시하여 관람객들이 호남회화의 흐름은 물론 조선시대 회화의 면모를 이해하고 감상하는 데 도움이 되도록 하였다.",
+      "bm25_document": "국립광주박물관은 1976년 수중발굴이 시작된 신안 해저 유물을 비롯한 호남지역의 문화유산을 수집·보관하고, 지역의 역사와 문화를 소개하기 위해 1978년 12월 6일 개관하였다. 총면적 80,444㎡(24,334평)에 지상 2층, 지하 4층의 누각 형태를 본뜬 국립광주박물관은 국보·보물 등의 지정유산을 포함하여 160,000여 점의 유물을 소장하고 있다. 전시뿐만 아니라 다채로운 맞춤형 교육·체험프로그램과 문화행사를 연중 운영하고 있다. 박물관은 선사ㆍ고대문화실, 농경문화실, 도자실, 불교미술실, 서화실, 신안 해저 유물실, 중앙홀의 7개 상설전시실과 야외전시장이 있다. 선사·고대문화실에는 구석기시대부터 통일신라시대에 이르는 역사의 전개과정을 볼 수 있다. 신석기시대의 여수 송도와 안도 유적 출토품, 청동기시대의 고인돌, 화순 대곡리에서 출토된 국보 청동유물도 전시되어 있다. 전남지방은 한국도자기의 본산이라 할 만큼 고려시대 청자로부터 조선시대의 분청사기와 백자에 이르기까지 수많은 가마자리들이 분포되어 있어 여기에서 출토된 유물들을 도자실에서 볼 수 있다. 또한 신안 해저 유물실에는 1976년부터 1984년까지 9년 동안 신안해저침몰무역선으로부터 인양한 중국 송·원대 유물도 전시되어 있다. 불교미술실에는 통일신라시대부터 조선시대에 이르기까지 불교공예품과 불화 등이 전시되어 있다. 장흥 보림사삼층석탑, 전남광주 서오층석탑 등에서 출토된 사리장엄구와 보성 화방리 출토 금동여래입상, 화순 운주사출토 금동보살입상, 영암 용흥리출토 금동사천황상, 영암 용암사지출토 금동지장보살좌상, 전남광주 원효사 출토 부처얼굴, 담양 서봉사지출토 나한상 등이 전시되어 있다. 한편 입구로비에는 중흥산성쌍사자석등이 있다. 서화실에는 호남 회화의 흐름에 대해 쉽게 이해하고 감상하며 향토문화에 대한 자긍심을 일깨울 수 있도록 조선시대와 근대기에 활약한 호남출신 화가들의 대표적인 작품들을 전시하고 있다. 이밖에 정선, 심사정 등 조선시대를 대표하는 화가들의 작품도 함께 전시하여 관람객들이 호남회화의 흐름은 물론 조선시대 회화의 면모를 이해하고 감상하는 데 도움이 되도록 하였다.",
+      "best_span_id": "chroma:M0498",
+      "best_span_text": "국립광주박물관은 1976년 수중발굴이 시작된 신안 해저 유물을 비롯한 호남지역의 문화유산을 수집·보관하고, 지역의 역사와 문화를 소개하기 위해 1978년 12월 6일 개관하였다. 총면적 80,444㎡(24,334평)에 지상 2층, 지하 4층의 누각 형태를 본뜬 국립광주박물관은 국보·보물 등의 지정유산을 포함하여 160,000여 점의 유물을 소장하고 있다. 전시뿐만 아니라 다채로운 맞춤형 교육·체험프로그램과 문화행사를 연중 운영하고 있다. 박물관은 선사ㆍ고대문화실, 농경문화실, 도자실, 불교미술실, 서화실, 신안 해저 유물실, 중앙홀의 7개 상설전시실과 야외전시장이 있다. 선사·고대문화실에는 구석기시대부터 통일신라시대에 이르는 역사의 전개과정을 볼 수 있다. 신석기시대의 여수 송도와 안도 유적 출토품, 청동기시대의 고인돌, 화순 대곡리에서 출토된 국보 청동유물도 전시되어 있다. 전남지방은 한국도자기의 본산이라 할 만큼 고려시대 청자로부터 조선시대의 분청사기와 백자에 이르기까지 수많은 가마자리들이 분포되어 있어 여기에서 출토된 유물들을 도자실에서 볼 수 있다. 또한 신안 해저 유물실에는 1976년부터 1984년까지 9년 동안 신안해저침몰무역선으로부터 인양한 중국 송·원대 유물도 전시되어 있다. 불교미술실에는 통일신라시대부터 조선시대에 이르기까지 불교공예품과 불화 등이 전시되어 있다. 장흥 보림사삼층석탑, 전남광주 서오층석탑 등에서 출토된 사리장엄구와 보성 화방리 출토 금동여래입상, 화순 운주사출토 금동보살입상, 영암 용흥리출토 금동사천황상, 영암 용암사지출토 금동지장보살좌상, 전남광주 원효사 출토 부처얼굴, 담양 서봉사지출토 나한상 등이 전시되어 있다. 한편 입구로비에는 중흥산성쌍사자석등이 있다. 서화실에는 호남 회화의 흐름에 대해 쉽게 이해하고 감상하며 향토문화에 대한 자긍심을 일깨울 수 있도록 조선시대와 근대기에 활약한 호남출신 화가들의 대표적인 작품들을 전시하고 있다. 이밖에 정선, 심사정 등 조선시대를 대표하는 화가들의 작품도 함께 전시하여 관람객들이 호남회화의 흐름은 물론 조선시대 회화의 면모를 이해하고 감상하는 데 도움이 되도록 하였다.",
+      "fusion_score": 0.02782608695652174,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 3,
+      "rerank_score": 0.060846854001283646,
+      "rank": 5,
+      "score": 0.060846854001283646,
+      "score_type": "cross_encoder",
+      "distance": 0.5530457496643066,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0498",
+      "source_doc_ids": [
+        "DOC-B0498-TOUR_API-129782"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0498-TOUR_API-129782",
+          "source_type": "TOUR_API",
+          "source_record_id": "129782",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=246",
+          "match_trust": "RECHECKED_BY_RULE_NOT_HUMAN_APPROVED"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 99,
+          "doc_ids": [
+            "DOC-B0498-TOUR_API-129782"
+          ]
+        },
+        {
+          "start": 100,
+          "end": 199,
+          "doc_ids": [
+            "DOC-B0498-TOUR_API-129782"
+          ]
+        },
+        {
+          "start": 200,
+          "end": 246,
+          "doc_ids": [
+            "DOC-B0498-TOUR_API-129782"
+          ]
+        },
+        {
+          "start": 247,
+          "end": 322,
+          "doc_ids": [
+            "DOC-B0498-TOUR_API-129782"
+          ]
+        },
+        {
+          "start": 323,
+          "end": 371,
+          "doc_ids": [
+            "DOC-B0498-TOUR_API-129782"
+          ]
+        },
+        {
+          "start": 372,
+          "end": 439,
+          "doc_ids": [
+            "DOC-B0498-TOUR_API-129782"
+          ]
+        },
+        {
+          "start": 440,
+          "end": 542,
+          "doc_ids": [
+            "DOC-B0498-TOUR_API-129782"
+          ]
+        },
+        {
+          "start": 543,
+          "end": 618,
+          "doc_ids": [
+            "DOC-B0498-TOUR_API-129782"
+          ]
+        },
+        {
+          "start": 619,
+          "end": 669,
+          "doc_ids": [
+            "DOC-B0498-TOUR_API-129782"
+          ]
+        },
+        {
+          "start": 670,
+          "end": 823,
+          "doc_ids": [
+            "DOC-B0498-TOUR_API-129782"
+          ]
+        },
+        {
+          "start": 824,
+          "end": 848,
+          "doc_ids": [
+            "DOC-B0498-TOUR_API-129782"
+          ]
+        },
+        {
+          "start": 849,
+          "end": 949,
+          "doc_ids": [
+            "DOC-B0498-TOUR_API-129782"
+          ]
+        },
+        {
+          "start": 950,
+          "end": 1048,
+          "doc_ids": [
+            "DOC-B0498-TOUR_API-129782"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=246",
+      "text": "국립광주박물관은 1976년 수중발굴이 시작된 신안 해저 유물을 비롯한 호남지역의 문화유산을 수집·보관하고, 지역의 역사와 문화를 소개하기 위해 1978년 12월 6일 개관하였다. 총면적 80,444㎡(24,334평)에 지상 2층, 지하 4층의 누각 형태를 본뜬 국립광주박물관은 국보·보물 등의 지정유산을 포함하여 160,000여 점의 유물을 소장하고 있다. 전시뿐만 아니라 다채로운 맞춤형 교육·체험프로그램과 문화행사를 연중 운영하고 있다. 박물관은 선사ㆍ고대문화실, 농경문화실, 도자실, 불교미술실, 서화실, 신안 해저 유물실, 중앙홀의 7개 상설전시실과 야외전시장이 있다. 선사·고대문화실에는 구석기시대부터 통일신라시대에 이르는 역사의 전개과정을 볼 수 있다. 신석기시대의 여수 송도와 안도 유적 출토품, 청동기시대의 고인돌, 화순 대곡리에서 출토된 국보 청동유물도 전시되어 있다. 전남지방은 한국도자기의 본산이라 할 만큼 고려시대 청자로부터 조선시대의 분청사기와 백자에 이르기까지 수많은 가마자리들이 분포되어 있어 여기에서 출토된 유물들을 도자실에서 볼 수 있다. 또한 신안 해저 유물실에는 1976년부터 1984년까지 9년 동안 신안해저침몰무역선으로부터 인양한 중국 송·원대 유물도 전시되어 있다. 불교미술실에는 통일신라시대부터 조선시대에 이르기까지 불교공예품과 불화 등이 전시되어 있다. 장흥 보림사삼층석탑, 전남광주 서오층석탑 등에서 출토된 사리장엄구와 보성 화방리 출토 금동여래입상, 화순 운주사출토 금동보살입상, 영암 용흥리출토 금동사천황상, 영암 용암사지출토 금동지장보살좌상, 전남광주 원효사 출토 부처얼굴, 담양 서봉사지출토 나한상 등이 전시되어 있다. 한편 입구로비에는 중흥산성쌍사자석등이 있다. 서화실에는 호남 회화의 흐름에 대해 쉽게 이해하고 감상하며 향토문화에 대한 자긍심을 일깨울 수 있도록 조선시대와 근대기에 활약한 호남출신 화가들의 대표적인 작품들을 전시하고 있다. 이밖에 정선, 심사정 등 조선시대를 대표하는 화가들의 작품도 함께 전시하여 관람객들이 호남회화의 흐름은 물론 조선시대 회화의 면모를 이해하고 감상하는 데 도움이 되도록 하였다.",
+      "sido": "광주광역시",
+      "sigungu": "북구",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=246"
+      ],
+      "evidence_id": "E5",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=357",
+        "fields": {
+          "name": "국립광주박물관",
+          "sido": "광주광역시",
+          "sigungu": "북구",
+          "address": "광주광역시 북구 하서로 110",
+          "ownership_type": "국립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "10:00",
+          "weekday_close": "18:00",
+          "holiday_open": "10:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "1월 1일, 명절 당일, 4월, 11월 첫번째 주 월요일"
+        },
+        "base_data_date": "2026-04-08",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    }
+  ],
+  "answer": "시흥오이도박물관에서는 시흥에서 출토된 유물을 살펴보며 **선사시대 생활문화**, 특히 오이도 유적과 관련된 **신석기시대 해양 생활문화**를 이해하고 체험할 수 있습니다. [E1]",
+  "retrieval_status": "ok",
+  "answer_status": "answered",
+  "route": "hybrid",
+  "retry_count": 0,
+  "supervisor_verified": true,
+  "rerank_applied": true,
+  "retriever_errors": [],
+  "warnings": [],
+  "duration_ms": 138095.08,
+  "error_type": "",
+  "hit_at_1": 1,
+  "hit_at_3": 1,
+  "hit_at_5": 1,
+  "recall_at_5": 1.0,
+  "mrr_at_10": 1.0
+}

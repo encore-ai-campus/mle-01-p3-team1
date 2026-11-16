@@ -1,0 +1,722 @@
+{
+  "evidence_context_version": "grounded-evidence-v2",
+  "evaluation_contexts": [
+    "{\"evidence_context_version\": \"grounded-evidence-v2\", \"evidence_id\": \"E1\", \"metadata_provenance\": {\"base_data_date\": \"2026-09-03\", \"fields\": {\"address\": \"강원특별자치도 영월군 김삿갓면 내리계곡로 1088\", \"adult_fee\": \"5000\", \"adult_fee_status\": \"BASE_FEE_PAID\", \"child_fee\": \"3000\", \"closure_rule_raw\": \"월\", \"holiday_close\": \"18:00\", \"holiday_open\": \"09:00\", \"name\": \"호안다구박물관\", \"ownership_type\": \"사립\", \"sido\": \"강원특별자치도\", \"sigungu\": \"영월군\", \"weekday_close\": \"18:00\", \"weekday_open\": \"09:00\", \"youth_fee\": \"4000\"}, \"source_kind\": \"derived_csv_row\", \"source_locator\": \"data/processed/museum_final_738.csv#record=144\", \"trust\": \"derived_dataset_not_human_verified\"}, \"museum_id\": \"M0215\", \"name\": \"호안다구박물관\", \"source_doc_ids\": [\"DOC-B0215-TOUR_API-1959509\", \"DOC-B0215-BASE\"], \"source_documents\": [{\"doc_id\": \"DOC-B0215-TOUR_API-1959509\", \"match_trust\": \"AUTO_MATCH_NOT_HUMAN_VERIFIED\", \"source_locator\": \"data/raw/museum_tourapi_with_overview.csv#row=106\", \"source_record_id\": \"1959509\", \"source_type\": \"TOUR_API\"}, {\"doc_id\": \"DOC-B0215-BASE\", \"match_trust\": \"BASE_SOURCE\", \"source_locator\": \"data/raw/museum_base_1070.csv#row=216\", \"source_record_id\": \"B0215\", \"source_type\": \"BASE\"}], \"source_locator\": \"data/raw/museum_tourapi_with_overview.csv#row=106\", \"source_locators\": [\"data/raw/museum_tourapi_with_overview.csv#row=106\"], \"source_scope\": \"text\", \"source_spans\": [{\"doc_ids\": [\"DOC-B0215-TOUR_API-1959509\"], \"end\": 32, \"start\": 0}, {\"doc_ids\": [\"DOC-B0215-TOUR_API-1959509\"], \"end\": 170, \"start\": 33}, {\"doc_ids\": [\"DOC-B0215-TOUR_API-1959509\"], \"end\": 223, \"start\": 171}, {\"doc_ids\": [\"DOC-B0215-TOUR_API-1959509\"], \"end\": 292, \"start\": 224}, {\"doc_ids\": [\"DOC-B0215-TOUR_API-1959509\"], \"end\": 322, \"start\": 293}, {\"doc_ids\": [\"DOC-B0215-TOUR_API-1959509\"], \"end\": 436, \"start\": 323}, {\"doc_ids\": [\"DOC-B0215-BASE\"], \"end\": 511, \"start\": 437}], \"source_urls\": [], \"text\": \"호안다구박물관은 차와 관련된 다구[茶具] 전문 박물관이다. 우리나라와 중국 등 동양의 다양한 차 문화 및 역사를 볼 수 있는 찻잔, 차통, 차호, 주전자, 수구, 다반, 향로, 화로 등 다구 500여 점이 전시되어 있으며 다례, 차 고전, 다화, 아동 다례, 통과의례를 주제로 체험 교실을 운영하고 있다. 체험 교실에서는 전통 예절과 다례를 배우고, 직접 차를 내리고 마시면서 차를 체험할 수 있다. 영월 호안다구박물관은 자연경관이 수려한 지역에 있으며 특히 맑게 흐르는 내리천은 차의 근본이 물맛이라는 것을 알게 해준다. 박물관은 어린이부터 성인까지 누구나 이용할 수 있다. 특히 차[茶]를 공부하는 학생 그리고 도자기에 관심이 많은 이들에게는 고 미술품의 감상, 연구 및 차의 역사와 문화에 대한 토론을 나눌 수 있는 장소가 마련되어 있어 차에 대한 궁금증을 해소할 수 있다. 어린이부터 성인까지 차와 관련된 작품의 감상과 다도 및 제다실습을 자연과 함께 체험할 수 있는 곳으로 최적의 요건을 갖추고 있습니다.\"}",
+    "{\"evidence_context_version\": \"grounded-evidence-v2\", \"evidence_id\": \"E2\", \"metadata_provenance\": {\"base_data_date\": \"2026-03-23\", \"fields\": {\"address\": \"충청북도 제천시 봉양읍 국사봉로 741\", \"adult_fee\": \"16000\", \"adult_fee_status\": \"BASE_FEE_PAID\", \"amenities_raw\": \"장애인 편의시설 및 주차장\", \"child_fee\": \"8000\", \"closure_rule_raw\": \"월요일+화요일\", \"holiday_close\": \"17:00\", \"holiday_open\": \"10:00\", \"name\": \"한국차문화박물관\", \"ownership_type\": \"사립\", \"sido\": \"충청북도\", \"sigungu\": \"제천시\", \"weekday_close\": \"18:00\", \"weekday_open\": \"10:00\", \"youth_fee\": \"8000\"}, \"source_kind\": \"derived_csv_row\", \"source_locator\": \"data/processed/museum_final_738.csv#record=313\", \"trust\": \"derived_dataset_not_human_verified\"}, \"museum_id\": \"M0439\", \"name\": \"한국차문화박물관\", \"source_doc_ids\": [\"DOC-B0439-TOUR_API-3410452\", \"DOC-B0439-BASE\"], \"source_documents\": [{\"doc_id\": \"DOC-B0439-TOUR_API-3410452\", \"match_trust\": \"AUTO_MATCH_NOT_HUMAN_VERIFIED\", \"source_locator\": \"data/raw/museum_tourapi_with_overview.csv#row=210\", \"source_record_id\": \"3410452\", \"source_type\": \"TOUR_API\"}, {\"doc_id\": \"DOC-B0439-BASE\", \"match_trust\": \"BASE_SOURCE\", \"source_locator\": \"data/raw/museum_base_1070.csv#row=440\", \"source_record_id\": \"B0439\", \"source_type\": \"BASE\"}], \"source_locator\": \"data/raw/museum_tourapi_with_overview.csv#row=210\", \"source_locators\": [\"data/raw/museum_tourapi_with_overview.csv#row=210\"], \"source_scope\": \"text\", \"source_spans\": [{\"doc_ids\": [\"DOC-B0439-TOUR_API-3410452\"], \"end\": 35, \"start\": 0}, {\"doc_ids\": [\"DOC-B0439-TOUR_API-3410452\"], \"end\": 102, \"start\": 36}, {\"doc_ids\": [\"DOC-B0439-TOUR_API-3410452\"], \"end\": 181, \"start\": 103}, {\"doc_ids\": [\"DOC-B0439-BASE\"], \"end\": 276, \"start\": 182}], \"source_urls\": [], \"text\": \"한국차문화박물관은 폐교를 개조하여 만든 보이차 전문 박물관이다. 박물관 전시실에는 한, 중, 일 3,000여 점 차도구와 보이차에 관련된 역사, 다양한 형태의 보이차가 전시되어 있다. 또한 보이차와 보이차를 우리는 방법 등에 대한 설명을 들으며 보이차를 시음해 볼 수 있으며, 우주의 소리 싱잉볼 명상 체험도 즐길 수 있다. 한국차문화박물관은 보이차 전문 박물관으로 중국 및 한국, 일본의 차 도구에 대한 상설 전시를 진행하고 있으며, 일상생활에서 쉽게 접할 수 있는 차문화를 알리고자 합니다.\"}",
+    "{\"evidence_context_version\": \"grounded-evidence-v2\", \"evidence_id\": \"E3\", \"metadata_provenance\": {\"base_data_date\": \"2026-08-19\", \"fields\": {\"address\": \"경상북도 칠곡군 기산면 강정길 47-10\", \"adult_fee\": \"0\", \"adult_fee_status\": \"BASE_FEE_ZERO_CHECK_EXCEPTIONS\", \"child_fee\": \"0\", \"closure_rule_raw\": \"연중무휴\", \"holiday_close\": \"18:00\", \"holiday_open\": \"09:00\", \"name\": \"안다미로귀때박물관\", \"ownership_type\": \"사립\", \"sido\": \"경상북도\", \"sigungu\": \"칠곡군\", \"weekday_close\": \"18:00\", \"weekday_open\": \"09:00\", \"youth_fee\": \"0\"}, \"source_kind\": \"derived_csv_row\", \"source_locator\": \"data/processed/museum_final_738.csv#record=118\", \"trust\": \"derived_dataset_not_human_verified\"}, \"museum_id\": \"M0178\", \"name\": \"안다미로귀때박물관\", \"source_doc_ids\": [\"DOC-B0178-TOUR_API-4098381\"], \"source_documents\": [{\"doc_id\": \"DOC-B0178-TOUR_API-4098381\", \"match_trust\": \"RECHECKED_BY_RULE_NOT_HUMAN_APPROVED\", \"source_locator\": \"data/raw/museum_tourapi_with_overview.csv#row=84\", \"source_record_id\": \"4098381\", \"source_type\": \"TOUR_API\"}], \"source_locator\": \"data/raw/museum_tourapi_with_overview.csv#row=84\", \"source_locators\": [\"data/raw/museum_tourapi_with_overview.csv#row=84\"], \"source_scope\": \"text\", \"source_spans\": [{\"doc_ids\": [\"DOC-B0178-TOUR_API-4098381\"], \"end\": 76, \"start\": 0}, {\"doc_ids\": [\"DOC-B0178-TOUR_API-4098381\"], \"end\": 163, \"start\": 77}, {\"doc_ids\": [\"DOC-B0178-TOUR_API-4098381\"], \"end\": 250, \"start\": 164}, {\"doc_ids\": [\"DOC-B0178-TOUR_API-4098381\"], \"end\": 352, \"start\": 251}, {\"doc_ids\": [\"DOC-B0178-TOUR_API-4098381\"], \"end\": 389, \"start\": 353}, {\"doc_ids\": [\"DOC-B0178-TOUR_API-4098381\"], \"end\": 477, \"start\": 390}], \"source_urls\": [], \"text\": \"‘귀때’란 그릇 한쪽에 주전자 부리처럼 바깥으로 내밀어 만든 구멍으로, 액체를 흘리지 않고 편리하게 따를 수 있도록 한 조상들의 지혜다. 여기에 뚜껑과 손잡이가 더해지며 오늘날의 주전자로 발전하였고, 안다미로귀때박물관은 이러한 귀때그릇과 주전자의 역사와 문화를 한눈에 살펴볼 수 있는 곳이다. 이곳은 삼국시대부터 현대까지 오랜 시간 정성껏 수집한 귀때 유물 및 주전자 212종 600여 점과 민속 생활유물 100여 점을 한자리에서 살펴볼 수 있다. 토기·사기·유기·무쇠·옹기 등 다양한 재질로 제작된 한국·중국·일본·인도·미국· 영국 등 세계 각국의 귀때그릇을 통해 시대와 국경을 넘어 이어져 온 생활 속 지혜를 만나볼 수 있다. 또한, 근현대 일상에서 쓰이던 민속품도 함께 보존·전시하고 있다. 호국의 고장 칠곡에 자리한 안다미로귀때박물관은 조상이 남겨 주신 소중한 문화유산을 수집·보존·관리하며, 지역민들과 함께하는 다양한 문화사업을 이어가고 있다.\"}",
+    "{\"evidence_context_version\": \"grounded-evidence-v2\", \"evidence_id\": \"E4\", \"metadata_provenance\": {\"base_data_date\": \"2026-10-13\", \"fields\": {\"address\": \"경상남도 하동군 화개면 쌍계로 571-25\", \"adult_fee\": \"0\", \"adult_fee_status\": \"BASE_FEE_ZERO_CHECK_EXCEPTIONS\", \"amenities_raw\": \"야외화장실+휴식용 파고라\", \"child_fee\": \"0\", \"closure_rule_raw\": \"월+설 당일+추석 당일\", \"holiday_close\": \"18:00\", \"holiday_open\": \"09:00\", \"name\": \"하동야생차박물관\", \"ownership_type\": \"공립\", \"sido\": \"경상남도\", \"sigungu\": \"하동군\", \"weekday_close\": \"18:00\", \"weekday_open\": \"09:00\", \"youth_fee\": \"0\"}, \"source_kind\": \"derived_csv_row\", \"source_locator\": \"data/processed/museum_final_738.csv#record=76\", \"trust\": \"derived_dataset_not_human_verified\"}, \"museum_id\": \"M0116\", \"name\": \"하동야생차박물관\", \"source_doc_ids\": [\"DOC-B0116-TOUR_API-231958\", \"DOC-B0116-BASE\"], \"source_documents\": [{\"doc_id\": \"DOC-B0116-TOUR_API-231958\", \"match_trust\": \"AUTO_MATCH_NOT_HUMAN_VERIFIED\", \"source_locator\": \"data/raw/museum_tourapi_with_overview.csv#row=60\", \"source_record_id\": \"231958\", \"source_type\": \"TOUR_API\"}, {\"doc_id\": \"DOC-B0116-BASE\", \"match_trust\": \"BASE_SOURCE\", \"source_locator\": \"data/raw/museum_base_1070.csv#row=117\", \"source_record_id\": \"B0116\", \"source_type\": \"BASE\"}], \"source_locator\": \"data/raw/museum_tourapi_with_overview.csv#row=60\", \"source_locators\": [\"data/raw/museum_tourapi_with_overview.csv#row=60\"], \"source_scope\": \"text\", \"source_spans\": [{\"doc_ids\": [\"DOC-B0116-TOUR_API-231958\"], \"end\": 85, \"start\": 0}, {\"doc_ids\": [\"DOC-B0116-TOUR_API-231958\"], \"end\": 158, \"start\": 86}, {\"doc_ids\": [\"DOC-B0116-TOUR_API-231958\"], \"end\": 256, \"start\": 159}, {\"doc_ids\": [\"DOC-B0116-BASE\"], \"end\": 323, \"start\": 257}], \"source_urls\": [], \"text\": \"하동야생차박물관은 한국 차의 시배지이자 기원지로 알려진 하동군 ’화개’에 위치하고 있어 옛 차 문화의 역사성과 전통성을 보전, 계승하기 위해 설립되었다. 하동군은 예로부터 지리산과 섬진강을 사이에 두고, 느림의 미학과 전통을 중요시하는 지역성이 오랜 시간 차 문화로 꽃 피어져 왔다. 이에 하동야생차박물관은 단순 정보 전달에서 벗어난 참여형 체험 전시와 차를 통해 마음을 나누는 다정지교(茶情之交)의 교육으로, 자연 속 쉬어가는 문화 공간으로 자리하고 있다. 우리나라 차 시배지인 하동군 화개면에 자리잡고 있고 차문화에 대해서 소개하는 공간이며 다양한 체험활동을 할 수 있습니다\"}",
+    "{\"evidence_context_version\": \"grounded-evidence-v2\", \"evidence_id\": \"E5\", \"metadata_provenance\": {\"base_data_date\": \"2025-12-10\", \"fields\": {\"address\": \"대구광역시 동구 팔공산로 225-34\", \"adult_fee\": \"2000\", \"adult_fee_status\": \"BASE_FEE_PAID\", \"child_fee\": \"1500\", \"closure_rule_raw\": \"매주 월요일\", \"holiday_close\": \"17:00\", \"holiday_open\": \"10:00\", \"name\": \"전통산업박물관\", \"ownership_type\": \"사립\", \"sido\": \"대구광역시\", \"sigungu\": \"동구\", \"weekday_close\": \"17:00\", \"weekday_open\": \"10:00\", \"youth_fee\": \"2000\"}, \"source_kind\": \"derived_csv_row\", \"source_locator\": \"data/processed/museum_final_738.csv#record=487\", \"trust\": \"derived_dataset_not_human_verified\"}, \"museum_id\": \"M0701\", \"name\": \"전통산업박물관\", \"source_doc_ids\": [\"DOC-B0701-BASE\"], \"source_documents\": [{\"doc_id\": \"DOC-B0701-BASE\", \"match_trust\": \"BASE_SOURCE\", \"source_locator\": \"data/raw/museum_base_1070.csv#row=702\", \"source_record_id\": \"B0701\", \"source_type\": \"BASE\"}], \"source_locator\": \"data/raw/museum_base_1070.csv#row=702\", \"source_locators\": [\"data/raw/museum_base_1070.csv#row=702\"], \"source_scope\": \"text\", \"source_spans\": [{\"doc_ids\": [\"DOC-B0701-BASE\"], \"end\": 40, \"start\": 0}], \"source_urls\": [], \"text\": \"길쌈방, 천연염색, 매실, 전통생산도구 등을 전시,체험교육하는 사립박물관\"}"
+  ],
+  "mode": "supervisor_full",
+  "question_id": "Q135",
+  "evidence": [
+    {
+      "museum_id": "M0215",
+      "name": "호안다구박물관",
+      "document": "호안다구박물관은 차와 관련된 다구[茶具] 전문 박물관이다. 우리나라와 중국 등 동양의 다양한 차 문화 및 역사를 볼 수 있는 찻잔, 차통, 차호, 주전자, 수구, 다반, 향로, 화로 등 다구 500여 점이 전시되어 있으며 다례, 차 고전, 다화, 아동 다례, 통과의례를 주제로 체험 교실을 운영하고 있다. 체험 교실에서는 전통 예절과 다례를 배우고, 직접 차를 내리고 마시면서 차를 체험할 수 있다. 영월 호안다구박물관은 자연경관이 수려한 지역에 있으며 특히 맑게 흐르는 내리천은 차의 근본이 물맛이라는 것을 알게 해준다. 박물관은 어린이부터 성인까지 누구나 이용할 수 있다. 특히 차[茶]를 공부하는 학생 그리고 도자기에 관심이 많은 이들에게는 고 미술품의 감상, 연구 및 차의 역사와 문화에 대한 토론을 나눌 수 있는 장소가 마련되어 있어 차에 대한 궁금증을 해소할 수 있다. 어린이부터 성인까지 차와 관련된 작품의 감상과 다도 및 제다실습을 자연과 함께 체험할 수 있는 곳으로 최적의 요건을 갖추고 있습니다.",
+      "metadata": {
+        "adult_fee": 5000.0,
+        "name": "호안다구박물관",
+        "longitude": 128.677057,
+        "weekday_open": "09:00",
+        "homepage_url": "http://www.ywmuseum.com",
+        "address": "강원특별자치도 영월군 김삿갓면 내리계곡로 1088",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/60/4142660_image2_1.jpg",
+        "adult_fee_status": "BASE_FEE_PAID",
+        "ownership_type": "사립",
+        "image_copyright": "Type1",
+        "youth_fee": 4000.0,
+        "holiday_open": "09:00",
+        "sido": "강원특별자치도",
+        "requires_manual_review": true,
+        "weekday_close": "18:00",
+        "sigungu": "영월군",
+        "child_fee": 3000.0,
+        "fee_notes": "50프로 할인(영월군민+65세 이상)+ 단체요금: 20인 이상+무료(2급 이상 장애인 및 5세 이하)",
+        "closure_rule_raw": "월",
+        "holiday_close": "18:00",
+        "source_types": "BASE|TOUR_API",
+        "latitude": 37.10579141
+      },
+      "vector_rank": null,
+      "bm25_rank": 1,
+      "vector_distance": null,
+      "vector_score": null,
+      "bm25_score": 20.41884526158034,
+      "vector_document": "",
+      "bm25_document": "호안다구박물관은 차와 관련된 다구[茶具] 전문 박물관이다. 우리나라와 중국 등 동양의 다양한 차 문화 및 역사를 볼 수 있는 찻잔, 차통, 차호, 주전자, 수구, 다반, 향로, 화로 등 다구 500여 점이 전시되어 있으며 다례, 차 고전, 다화, 아동 다례, 통과의례를 주제로 체험 교실을 운영하고 있다. 체험 교실에서는 전통 예절과 다례를 배우고, 직접 차를 내리고 마시면서 차를 체험할 수 있다. 영월 호안다구박물관은 자연경관이 수려한 지역에 있으며 특히 맑게 흐르는 내리천은 차의 근본이 물맛이라는 것을 알게 해준다. 박물관은 어린이부터 성인까지 누구나 이용할 수 있다. 특히 차[茶]를 공부하는 학생 그리고 도자기에 관심이 많은 이들에게는 고 미술품의 감상, 연구 및 차의 역사와 문화에 대한 토론을 나눌 수 있는 장소가 마련되어 있어 차에 대한 궁금증을 해소할 수 있다. 어린이부터 성인까지 차와 관련된 작품의 감상과 다도 및 제다실습을 자연과 함께 체험할 수 있는 곳으로 최적의 요건을 갖추고 있습니다.",
+      "best_span_id": "chroma:M0215",
+      "best_span_text": "호안다구박물관은 차와 관련된 다구[茶具] 전문 박물관이다. 우리나라와 중국 등 동양의 다양한 차 문화 및 역사를 볼 수 있는 찻잔, 차통, 차호, 주전자, 수구, 다반, 향로, 화로 등 다구 500여 점이 전시되어 있으며 다례, 차 고전, 다화, 아동 다례, 통과의례를 주제로 체험 교실을 운영하고 있다. 체험 교실에서는 전통 예절과 다례를 배우고, 직접 차를 내리고 마시면서 차를 체험할 수 있다. 영월 호안다구박물관은 자연경관이 수려한 지역에 있으며 특히 맑게 흐르는 내리천은 차의 근본이 물맛이라는 것을 알게 해준다. 박물관은 어린이부터 성인까지 누구나 이용할 수 있다. 특히 차[茶]를 공부하는 학생 그리고 도자기에 관심이 많은 이들에게는 고 미술품의 감상, 연구 및 차의 역사와 문화에 대한 토론을 나눌 수 있는 장소가 마련되어 있어 차에 대한 궁금증을 해소할 수 있다. 어린이부터 성인까지 차와 관련된 작품의 감상과 다도 및 제다실습을 자연과 함께 체험할 수 있는 곳으로 최적의 요건을 갖추고 있습니다.",
+      "fusion_score": 0.01639344262295082,
+      "retrieved_by": [
+        "bm25"
+      ],
+      "fusion_rank": 1,
+      "name_match": true,
+      "rerank_score": 0.9995232820510864,
+      "rank": 1,
+      "score": 0.9995232820510864,
+      "score_type": "cross_encoder",
+      "distance": null,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "bm25"
+      ],
+      "retriever": "bm25",
+      "span_id": "chroma:M0215",
+      "source_doc_ids": [
+        "DOC-B0215-TOUR_API-1959509",
+        "DOC-B0215-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0215-TOUR_API-1959509",
+          "source_type": "TOUR_API",
+          "source_record_id": "1959509",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=106",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        },
+        {
+          "doc_id": "DOC-B0215-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0215",
+          "source_locator": "data/raw/museum_base_1070.csv#row=216",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 32,
+          "doc_ids": [
+            "DOC-B0215-TOUR_API-1959509"
+          ]
+        },
+        {
+          "start": 33,
+          "end": 170,
+          "doc_ids": [
+            "DOC-B0215-TOUR_API-1959509"
+          ]
+        },
+        {
+          "start": 171,
+          "end": 223,
+          "doc_ids": [
+            "DOC-B0215-TOUR_API-1959509"
+          ]
+        },
+        {
+          "start": 224,
+          "end": 292,
+          "doc_ids": [
+            "DOC-B0215-TOUR_API-1959509"
+          ]
+        },
+        {
+          "start": 293,
+          "end": 322,
+          "doc_ids": [
+            "DOC-B0215-TOUR_API-1959509"
+          ]
+        },
+        {
+          "start": 323,
+          "end": 436,
+          "doc_ids": [
+            "DOC-B0215-TOUR_API-1959509"
+          ]
+        },
+        {
+          "start": 437,
+          "end": 511,
+          "doc_ids": [
+            "DOC-B0215-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=106",
+      "text": "호안다구박물관은 차와 관련된 다구[茶具] 전문 박물관이다. 우리나라와 중국 등 동양의 다양한 차 문화 및 역사를 볼 수 있는 찻잔, 차통, 차호, 주전자, 수구, 다반, 향로, 화로 등 다구 500여 점이 전시되어 있으며 다례, 차 고전, 다화, 아동 다례, 통과의례를 주제로 체험 교실을 운영하고 있다. 체험 교실에서는 전통 예절과 다례를 배우고, 직접 차를 내리고 마시면서 차를 체험할 수 있다. 영월 호안다구박물관은 자연경관이 수려한 지역에 있으며 특히 맑게 흐르는 내리천은 차의 근본이 물맛이라는 것을 알게 해준다. 박물관은 어린이부터 성인까지 누구나 이용할 수 있다. 특히 차[茶]를 공부하는 학생 그리고 도자기에 관심이 많은 이들에게는 고 미술품의 감상, 연구 및 차의 역사와 문화에 대한 토론을 나눌 수 있는 장소가 마련되어 있어 차에 대한 궁금증을 해소할 수 있다. 어린이부터 성인까지 차와 관련된 작품의 감상과 다도 및 제다실습을 자연과 함께 체험할 수 있는 곳으로 최적의 요건을 갖추고 있습니다.",
+      "sido": "강원특별자치도",
+      "sigungu": "영월군",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=106"
+      ],
+      "evidence_id": "E1",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=144",
+        "fields": {
+          "name": "호안다구박물관",
+          "sido": "강원특별자치도",
+          "sigungu": "영월군",
+          "address": "강원특별자치도 영월군 김삿갓면 내리계곡로 1088",
+          "ownership_type": "사립",
+          "adult_fee": "5000",
+          "youth_fee": "4000",
+          "child_fee": "3000",
+          "adult_fee_status": "BASE_FEE_PAID",
+          "weekday_open": "09:00",
+          "weekday_close": "18:00",
+          "holiday_open": "09:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "월"
+        },
+        "base_data_date": "2026-09-03",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0439",
+      "name": "한국차문화박물관",
+      "document": "한국차문화박물관은 폐교를 개조하여 만든 보이차 전문 박물관이다. 박물관 전시실에는 한, 중, 일 3,000여 점 차도구와 보이차에 관련된 역사, 다양한 형태의 보이차가 전시되어 있다. 또한 보이차와 보이차를 우리는 방법 등에 대한 설명을 들으며 보이차를 시음해 볼 수 있으며, 우주의 소리 싱잉볼 명상 체험도 즐길 수 있다. 한국차문화박물관은 보이차 전문 박물관으로 중국 및 한국, 일본의 차 도구에 대한 상설 전시를 진행하고 있으며, 일상생활에서 쉽게 접할 수 있는 차문화를 알리고자 합니다.",
+      "metadata": {
+        "adult_fee": 16000.0,
+        "sido": "충청북도",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/29/3410229_image2_1.jpg",
+        "closure_rule_raw": "월요일+화요일",
+        "homepage_url": "https://tour.jecheon.go.kr/tour/base/tour/contents/view?clturCntntsNo=3704&menuLevel=3&menuNo=104",
+        "fee_notes": "영유아(만 24개월 미만) 무료",
+        "address": "충청북도 제천시 봉양읍 국사봉로 741",
+        "sigungu": "제천시",
+        "weekday_open": "10:00",
+        "ownership_type": "사립",
+        "weekday_close": "18:00",
+        "holiday_close": "17:00",
+        "longitude": 128.1145196,
+        "image_copyright": "Type3",
+        "child_fee": 8000.0,
+        "latitude": 37.09018793,
+        "adult_fee_status": "BASE_FEE_PAID",
+        "name": "한국차문화박물관",
+        "requires_manual_review": true,
+        "amenities_raw": "장애인 편의시설 및 주차장",
+        "holiday_open": "10:00",
+        "source_types": "BASE|TOUR_API",
+        "youth_fee": 8000.0
+      },
+      "vector_rank": 2,
+      "bm25_rank": 2,
+      "vector_distance": 0.5419514775276184,
+      "vector_score": null,
+      "bm25_score": 12.55130934052419,
+      "vector_document": "한국차문화박물관은 폐교를 개조하여 만든 보이차 전문 박물관이다. 박물관 전시실에는 한, 중, 일 3,000여 점 차도구와 보이차에 관련된 역사, 다양한 형태의 보이차가 전시되어 있다. 또한 보이차와 보이차를 우리는 방법 등에 대한 설명을 들으며 보이차를 시음해 볼 수 있으며, 우주의 소리 싱잉볼 명상 체험도 즐길 수 있다. 한국차문화박물관은 보이차 전문 박물관으로 중국 및 한국, 일본의 차 도구에 대한 상설 전시를 진행하고 있으며, 일상생활에서 쉽게 접할 수 있는 차문화를 알리고자 합니다.",
+      "bm25_document": "한국차문화박물관은 폐교를 개조하여 만든 보이차 전문 박물관이다. 박물관 전시실에는 한, 중, 일 3,000여 점 차도구와 보이차에 관련된 역사, 다양한 형태의 보이차가 전시되어 있다. 또한 보이차와 보이차를 우리는 방법 등에 대한 설명을 들으며 보이차를 시음해 볼 수 있으며, 우주의 소리 싱잉볼 명상 체험도 즐길 수 있다. 한국차문화박물관은 보이차 전문 박물관으로 중국 및 한국, 일본의 차 도구에 대한 상설 전시를 진행하고 있으며, 일상생활에서 쉽게 접할 수 있는 차문화를 알리고자 합니다.",
+      "best_span_id": "chroma:M0439",
+      "best_span_text": "한국차문화박물관은 폐교를 개조하여 만든 보이차 전문 박물관이다. 박물관 전시실에는 한, 중, 일 3,000여 점 차도구와 보이차에 관련된 역사, 다양한 형태의 보이차가 전시되어 있다. 또한 보이차와 보이차를 우리는 방법 등에 대한 설명을 들으며 보이차를 시음해 볼 수 있으며, 우주의 소리 싱잉볼 명상 체험도 즐길 수 있다. 한국차문화박물관은 보이차 전문 박물관으로 중국 및 한국, 일본의 차 도구에 대한 상설 전시를 진행하고 있으며, 일상생활에서 쉽게 접할 수 있는 차문화를 알리고자 합니다.",
+      "fusion_score": 0.03225806451612903,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 2,
+      "rerank_score": 0.06163695454597473,
+      "rank": 2,
+      "score": 0.06163695454597473,
+      "score_type": "cross_encoder",
+      "distance": 0.5419514775276184,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0439",
+      "source_doc_ids": [
+        "DOC-B0439-TOUR_API-3410452",
+        "DOC-B0439-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0439-TOUR_API-3410452",
+          "source_type": "TOUR_API",
+          "source_record_id": "3410452",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=210",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        },
+        {
+          "doc_id": "DOC-B0439-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0439",
+          "source_locator": "data/raw/museum_base_1070.csv#row=440",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 35,
+          "doc_ids": [
+            "DOC-B0439-TOUR_API-3410452"
+          ]
+        },
+        {
+          "start": 36,
+          "end": 102,
+          "doc_ids": [
+            "DOC-B0439-TOUR_API-3410452"
+          ]
+        },
+        {
+          "start": 103,
+          "end": 181,
+          "doc_ids": [
+            "DOC-B0439-TOUR_API-3410452"
+          ]
+        },
+        {
+          "start": 182,
+          "end": 276,
+          "doc_ids": [
+            "DOC-B0439-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=210",
+      "text": "한국차문화박물관은 폐교를 개조하여 만든 보이차 전문 박물관이다. 박물관 전시실에는 한, 중, 일 3,000여 점 차도구와 보이차에 관련된 역사, 다양한 형태의 보이차가 전시되어 있다. 또한 보이차와 보이차를 우리는 방법 등에 대한 설명을 들으며 보이차를 시음해 볼 수 있으며, 우주의 소리 싱잉볼 명상 체험도 즐길 수 있다. 한국차문화박물관은 보이차 전문 박물관으로 중국 및 한국, 일본의 차 도구에 대한 상설 전시를 진행하고 있으며, 일상생활에서 쉽게 접할 수 있는 차문화를 알리고자 합니다.",
+      "sido": "충청북도",
+      "sigungu": "제천시",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=210"
+      ],
+      "evidence_id": "E2",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=313",
+        "fields": {
+          "name": "한국차문화박물관",
+          "sido": "충청북도",
+          "sigungu": "제천시",
+          "address": "충청북도 제천시 봉양읍 국사봉로 741",
+          "ownership_type": "사립",
+          "adult_fee": "16000",
+          "youth_fee": "8000",
+          "child_fee": "8000",
+          "adult_fee_status": "BASE_FEE_PAID",
+          "weekday_open": "10:00",
+          "weekday_close": "18:00",
+          "holiday_open": "10:00",
+          "holiday_close": "17:00",
+          "closure_rule_raw": "월요일+화요일",
+          "amenities_raw": "장애인 편의시설 및 주차장"
+        },
+        "base_data_date": "2026-03-23",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0178",
+      "name": "안다미로귀때박물관",
+      "document": "‘귀때’란 그릇 한쪽에 주전자 부리처럼 바깥으로 내밀어 만든 구멍으로, 액체를 흘리지 않고 편리하게 따를 수 있도록 한 조상들의 지혜다. 여기에 뚜껑과 손잡이가 더해지며 오늘날의 주전자로 발전하였고, 안다미로귀때박물관은 이러한 귀때그릇과 주전자의 역사와 문화를 한눈에 살펴볼 수 있는 곳이다. 이곳은 삼국시대부터 현대까지 오랜 시간 정성껏 수집한 귀때 유물 및 주전자 212종 600여 점과 민속 생활유물 100여 점을 한자리에서 살펴볼 수 있다. 토기·사기·유기·무쇠·옹기 등 다양한 재질로 제작된 한국·중국·일본·인도·미국· 영국 등 세계 각국의 귀때그릇을 통해 시대와 국경을 넘어 이어져 온 생활 속 지혜를 만나볼 수 있다. 또한, 근현대 일상에서 쓰이던 민속품도 함께 보존·전시하고 있다. 호국의 고장 칠곡에 자리한 안다미로귀때박물관은 조상이 남겨 주신 소중한 문화유산을 수집·보존·관리하며, 지역민들과 함께하는 다양한 문화사업을 이어가고 있다.",
+      "metadata": {
+        "sido": "경상북도",
+        "source_types": "TOUR_API",
+        "fee_notes": "체험료 별도",
+        "youth_fee": 0.0,
+        "image_copyright": "Type3",
+        "weekday_close": "18:00",
+        "weekday_open": "09:00",
+        "homepage_url": "http://blog.naver.com/ysroadsun",
+        "holiday_close": "18:00",
+        "requires_manual_review": true,
+        "child_fee": 0.0,
+        "closure_rule_raw": "연중무휴",
+        "address": "경상북도 칠곡군 기산면 강정길 47-10",
+        "sigungu": "칠곡군",
+        "ownership_type": "사립",
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "adult_fee": 0.0,
+        "latitude": 35.98393601,
+        "name": "안다미로귀때박물관",
+        "longitude": 128.3842314,
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/85/4098385_image2_1.jpg",
+        "holiday_open": "09:00"
+      },
+      "vector_rank": null,
+      "bm25_rank": 3,
+      "vector_distance": null,
+      "vector_score": null,
+      "bm25_score": 10.618717766953731,
+      "vector_document": "",
+      "bm25_document": "‘귀때’란 그릇 한쪽에 주전자 부리처럼 바깥으로 내밀어 만든 구멍으로, 액체를 흘리지 않고 편리하게 따를 수 있도록 한 조상들의 지혜다. 여기에 뚜껑과 손잡이가 더해지며 오늘날의 주전자로 발전하였고, 안다미로귀때박물관은 이러한 귀때그릇과 주전자의 역사와 문화를 한눈에 살펴볼 수 있는 곳이다. 이곳은 삼국시대부터 현대까지 오랜 시간 정성껏 수집한 귀때 유물 및 주전자 212종 600여 점과 민속 생활유물 100여 점을 한자리에서 살펴볼 수 있다. 토기·사기·유기·무쇠·옹기 등 다양한 재질로 제작된 한국·중국·일본·인도·미국· 영국 등 세계 각국의 귀때그릇을 통해 시대와 국경을 넘어 이어져 온 생활 속 지혜를 만나볼 수 있다. 또한, 근현대 일상에서 쓰이던 민속품도 함께 보존·전시하고 있다. 호국의 고장 칠곡에 자리한 안다미로귀때박물관은 조상이 남겨 주신 소중한 문화유산을 수집·보존·관리하며, 지역민들과 함께하는 다양한 문화사업을 이어가고 있다.",
+      "best_span_id": "chroma:M0178",
+      "best_span_text": "‘귀때’란 그릇 한쪽에 주전자 부리처럼 바깥으로 내밀어 만든 구멍으로, 액체를 흘리지 않고 편리하게 따를 수 있도록 한 조상들의 지혜다. 여기에 뚜껑과 손잡이가 더해지며 오늘날의 주전자로 발전하였고, 안다미로귀때박물관은 이러한 귀때그릇과 주전자의 역사와 문화를 한눈에 살펴볼 수 있는 곳이다. 이곳은 삼국시대부터 현대까지 오랜 시간 정성껏 수집한 귀때 유물 및 주전자 212종 600여 점과 민속 생활유물 100여 점을 한자리에서 살펴볼 수 있다. 토기·사기·유기·무쇠·옹기 등 다양한 재질로 제작된 한국·중국·일본·인도·미국· 영국 등 세계 각국의 귀때그릇을 통해 시대와 국경을 넘어 이어져 온 생활 속 지혜를 만나볼 수 있다. 또한, 근현대 일상에서 쓰이던 민속품도 함께 보존·전시하고 있다. 호국의 고장 칠곡에 자리한 안다미로귀때박물관은 조상이 남겨 주신 소중한 문화유산을 수집·보존·관리하며, 지역민들과 함께하는 다양한 문화사업을 이어가고 있다.",
+      "fusion_score": 0.015873015873015872,
+      "retrieved_by": [
+        "bm25"
+      ],
+      "fusion_rank": 6,
+      "rerank_score": 0.023220445960760117,
+      "rank": 3,
+      "score": 0.023220445960760117,
+      "score_type": "cross_encoder",
+      "distance": null,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "bm25"
+      ],
+      "retriever": "bm25",
+      "span_id": "chroma:M0178",
+      "source_doc_ids": [
+        "DOC-B0178-TOUR_API-4098381"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0178-TOUR_API-4098381",
+          "source_type": "TOUR_API",
+          "source_record_id": "4098381",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=84",
+          "match_trust": "RECHECKED_BY_RULE_NOT_HUMAN_APPROVED"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 76,
+          "doc_ids": [
+            "DOC-B0178-TOUR_API-4098381"
+          ]
+        },
+        {
+          "start": 77,
+          "end": 163,
+          "doc_ids": [
+            "DOC-B0178-TOUR_API-4098381"
+          ]
+        },
+        {
+          "start": 164,
+          "end": 250,
+          "doc_ids": [
+            "DOC-B0178-TOUR_API-4098381"
+          ]
+        },
+        {
+          "start": 251,
+          "end": 352,
+          "doc_ids": [
+            "DOC-B0178-TOUR_API-4098381"
+          ]
+        },
+        {
+          "start": 353,
+          "end": 389,
+          "doc_ids": [
+            "DOC-B0178-TOUR_API-4098381"
+          ]
+        },
+        {
+          "start": 390,
+          "end": 477,
+          "doc_ids": [
+            "DOC-B0178-TOUR_API-4098381"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=84",
+      "text": "‘귀때’란 그릇 한쪽에 주전자 부리처럼 바깥으로 내밀어 만든 구멍으로, 액체를 흘리지 않고 편리하게 따를 수 있도록 한 조상들의 지혜다. 여기에 뚜껑과 손잡이가 더해지며 오늘날의 주전자로 발전하였고, 안다미로귀때박물관은 이러한 귀때그릇과 주전자의 역사와 문화를 한눈에 살펴볼 수 있는 곳이다. 이곳은 삼국시대부터 현대까지 오랜 시간 정성껏 수집한 귀때 유물 및 주전자 212종 600여 점과 민속 생활유물 100여 점을 한자리에서 살펴볼 수 있다. 토기·사기·유기·무쇠·옹기 등 다양한 재질로 제작된 한국·중국·일본·인도·미국· 영국 등 세계 각국의 귀때그릇을 통해 시대와 국경을 넘어 이어져 온 생활 속 지혜를 만나볼 수 있다. 또한, 근현대 일상에서 쓰이던 민속품도 함께 보존·전시하고 있다. 호국의 고장 칠곡에 자리한 안다미로귀때박물관은 조상이 남겨 주신 소중한 문화유산을 수집·보존·관리하며, 지역민들과 함께하는 다양한 문화사업을 이어가고 있다.",
+      "sido": "경상북도",
+      "sigungu": "칠곡군",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=84"
+      ],
+      "evidence_id": "E3",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=118",
+        "fields": {
+          "name": "안다미로귀때박물관",
+          "sido": "경상북도",
+          "sigungu": "칠곡군",
+          "address": "경상북도 칠곡군 기산면 강정길 47-10",
+          "ownership_type": "사립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "09:00",
+          "weekday_close": "18:00",
+          "holiday_open": "09:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "연중무휴"
+        },
+        "base_data_date": "2026-08-19",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0116",
+      "name": "하동야생차박물관",
+      "document": "하동야생차박물관은 한국 차의 시배지이자 기원지로 알려진 하동군 ’화개’에 위치하고 있어 옛 차 문화의 역사성과 전통성을 보전, 계승하기 위해 설립되었다. 하동군은 예로부터 지리산과 섬진강을 사이에 두고, 느림의 미학과 전통을 중요시하는 지역성이 오랜 시간 차 문화로 꽃 피어져 왔다. 이에 하동야생차박물관은 단순 정보 전달에서 벗어난 참여형 체험 전시와 차를 통해 마음을 나누는 다정지교(茶情之交)의 교육으로, 자연 속 쉬어가는 문화 공간으로 자리하고 있다. 우리나라 차 시배지인 하동군 화개면에 자리잡고 있고 차문화에 대해서 소개하는 공간이며 다양한 체험활동을 할 수 있습니다",
+      "metadata": {
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/59/4106459_image2_1.jpg",
+        "requires_manual_review": true,
+        "holiday_close": "18:00",
+        "holiday_open": "09:00",
+        "amenities_raw": "야외화장실+휴식용 파고라",
+        "weekday_close": "18:00",
+        "child_fee": 0.0,
+        "homepage_url": "http://www.hadongteamuseum.org/",
+        "latitude": 35.227751,
+        "transport_notes": "1. 하동터미널 (35번 버스)→화개장터정류장(구례-신흥) →쌍계사 정류장 →박물관+2. 하동터미널 (하동-범왕, 쌍계사, 의신)→쌍계사 정류장 →박물관+3. 하동역(하동-목도 버스)→ 하동터미널",
+        "adult_fee": 0.0,
+        "weekday_open": "09:00",
+        "longitude": 127.642635,
+        "closure_rule_raw": "월+설 당일+추석 당일",
+        "sido": "경상남도",
+        "source_types": "BASE|TOUR_API",
+        "address": "경상남도 하동군 화개면 쌍계로 571-25",
+        "youth_fee": 0.0,
+        "sigungu": "하동군",
+        "image_copyright": "Type1",
+        "ownership_type": "공립",
+        "name": "하동야생차박물관"
+      },
+      "vector_rank": null,
+      "bm25_rank": 4,
+      "vector_distance": null,
+      "vector_score": null,
+      "bm25_score": 8.682233255124284,
+      "vector_document": "",
+      "bm25_document": "하동야생차박물관은 한국 차의 시배지이자 기원지로 알려진 하동군 ’화개’에 위치하고 있어 옛 차 문화의 역사성과 전통성을 보전, 계승하기 위해 설립되었다. 하동군은 예로부터 지리산과 섬진강을 사이에 두고, 느림의 미학과 전통을 중요시하는 지역성이 오랜 시간 차 문화로 꽃 피어져 왔다. 이에 하동야생차박물관은 단순 정보 전달에서 벗어난 참여형 체험 전시와 차를 통해 마음을 나누는 다정지교(茶情之交)의 교육으로, 자연 속 쉬어가는 문화 공간으로 자리하고 있다. 우리나라 차 시배지인 하동군 화개면에 자리잡고 있고 차문화에 대해서 소개하는 공간이며 다양한 체험활동을 할 수 있습니다",
+      "best_span_id": "chroma:M0116",
+      "best_span_text": "하동야생차박물관은 한국 차의 시배지이자 기원지로 알려진 하동군 ’화개’에 위치하고 있어 옛 차 문화의 역사성과 전통성을 보전, 계승하기 위해 설립되었다. 하동군은 예로부터 지리산과 섬진강을 사이에 두고, 느림의 미학과 전통을 중요시하는 지역성이 오랜 시간 차 문화로 꽃 피어져 왔다. 이에 하동야생차박물관은 단순 정보 전달에서 벗어난 참여형 체험 전시와 차를 통해 마음을 나누는 다정지교(茶情之交)의 교육으로, 자연 속 쉬어가는 문화 공간으로 자리하고 있다. 우리나라 차 시배지인 하동군 화개면에 자리잡고 있고 차문화에 대해서 소개하는 공간이며 다양한 체험활동을 할 수 있습니다",
+      "fusion_score": 0.015625,
+      "retrieved_by": [
+        "bm25"
+      ],
+      "fusion_rank": 8,
+      "rerank_score": 0.0012185960076749325,
+      "rank": 4,
+      "score": 0.0012185960076749325,
+      "score_type": "cross_encoder",
+      "distance": null,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "bm25"
+      ],
+      "retriever": "bm25",
+      "span_id": "chroma:M0116",
+      "source_doc_ids": [
+        "DOC-B0116-TOUR_API-231958",
+        "DOC-B0116-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0116-TOUR_API-231958",
+          "source_type": "TOUR_API",
+          "source_record_id": "231958",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=60",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        },
+        {
+          "doc_id": "DOC-B0116-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0116",
+          "source_locator": "data/raw/museum_base_1070.csv#row=117",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 85,
+          "doc_ids": [
+            "DOC-B0116-TOUR_API-231958"
+          ]
+        },
+        {
+          "start": 86,
+          "end": 158,
+          "doc_ids": [
+            "DOC-B0116-TOUR_API-231958"
+          ]
+        },
+        {
+          "start": 159,
+          "end": 256,
+          "doc_ids": [
+            "DOC-B0116-TOUR_API-231958"
+          ]
+        },
+        {
+          "start": 257,
+          "end": 323,
+          "doc_ids": [
+            "DOC-B0116-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=60",
+      "text": "하동야생차박물관은 한국 차의 시배지이자 기원지로 알려진 하동군 ’화개’에 위치하고 있어 옛 차 문화의 역사성과 전통성을 보전, 계승하기 위해 설립되었다. 하동군은 예로부터 지리산과 섬진강을 사이에 두고, 느림의 미학과 전통을 중요시하는 지역성이 오랜 시간 차 문화로 꽃 피어져 왔다. 이에 하동야생차박물관은 단순 정보 전달에서 벗어난 참여형 체험 전시와 차를 통해 마음을 나누는 다정지교(茶情之交)의 교육으로, 자연 속 쉬어가는 문화 공간으로 자리하고 있다. 우리나라 차 시배지인 하동군 화개면에 자리잡고 있고 차문화에 대해서 소개하는 공간이며 다양한 체험활동을 할 수 있습니다",
+      "sido": "경상남도",
+      "sigungu": "하동군",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=60"
+      ],
+      "evidence_id": "E4",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=76",
+        "fields": {
+          "name": "하동야생차박물관",
+          "sido": "경상남도",
+          "sigungu": "하동군",
+          "address": "경상남도 하동군 화개면 쌍계로 571-25",
+          "ownership_type": "공립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "09:00",
+          "weekday_close": "18:00",
+          "holiday_open": "09:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "월+설 당일+추석 당일",
+          "amenities_raw": "야외화장실+휴식용 파고라"
+        },
+        "base_data_date": "2026-10-13",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0701",
+      "name": "전통산업박물관",
+      "document": "길쌈방, 천연염색, 매실, 전통생산도구 등을 전시,체험교육하는 사립박물관",
+      "metadata": {
+        "source_types": "BASE",
+        "holiday_open": "10:00",
+        "closure_rule_raw": "매주 월요일",
+        "holiday_close": "17:00",
+        "homepage_url": "https://www.skmuseum.co.kr",
+        "address": "대구광역시 동구 팔공산로 225-34",
+        "sido": "대구광역시",
+        "adult_fee": 2000.0,
+        "child_fee": 1500.0,
+        "adult_fee_status": "BASE_FEE_PAID",
+        "requires_manual_review": false,
+        "longitude": 128.6138939,
+        "name": "전통산업박물관",
+        "weekday_close": "17:00",
+        "ownership_type": "사립",
+        "latitude": 35.99780144,
+        "sigungu": "동구",
+        "weekday_open": "10:00",
+        "youth_fee": 2000.0
+      },
+      "vector_rank": null,
+      "bm25_rank": 6,
+      "vector_distance": null,
+      "vector_score": null,
+      "bm25_score": 7.795133327684461,
+      "vector_document": "",
+      "bm25_document": "길쌈방, 천연염색, 매실, 전통생산도구 등을 전시,체험교육하는 사립박물관",
+      "best_span_id": "chroma:M0701",
+      "best_span_text": "길쌈방, 천연염색, 매실, 전통생산도구 등을 전시,체험교육하는 사립박물관",
+      "fusion_score": 0.015151515151515152,
+      "retrieved_by": [
+        "bm25"
+      ],
+      "fusion_rank": 12,
+      "rerank_score": 0.0005835134070366621,
+      "rank": 5,
+      "score": 0.0005835134070366621,
+      "score_type": "cross_encoder",
+      "distance": null,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "bm25"
+      ],
+      "retriever": "bm25",
+      "span_id": "chroma:M0701",
+      "source_doc_ids": [
+        "DOC-B0701-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0701-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0701",
+          "source_locator": "data/raw/museum_base_1070.csv#row=702",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 40,
+          "doc_ids": [
+            "DOC-B0701-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_base_1070.csv#row=702",
+      "text": "길쌈방, 천연염색, 매실, 전통생산도구 등을 전시,체험교육하는 사립박물관",
+      "sido": "대구광역시",
+      "sigungu": "동구",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_base_1070.csv#row=702"
+      ],
+      "evidence_id": "E5",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=487",
+        "fields": {
+          "name": "전통산업박물관",
+          "sido": "대구광역시",
+          "sigungu": "동구",
+          "address": "대구광역시 동구 팔공산로 225-34",
+          "ownership_type": "사립",
+          "adult_fee": "2000",
+          "youth_fee": "2000",
+          "child_fee": "1500",
+          "adult_fee_status": "BASE_FEE_PAID",
+          "weekday_open": "10:00",
+          "weekday_close": "17:00",
+          "holiday_open": "10:00",
+          "holiday_close": "17:00",
+          "closure_rule_raw": "매주 월요일"
+        },
+        "base_data_date": "2025-12-10",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    }
+  ],
+  "answer": "호안다구박물관에는 주전자 외에도 찻잔, 차통, 차호, 수구, 다반, 향로, 화로 등 차 도구(다구) 500여 점이 전시되어 있습니다. [E1]",
+  "retrieval_status": "ok",
+  "answer_status": "answered",
+  "route": "hybrid",
+  "retry_count": 0,
+  "supervisor_verified": true,
+  "rerank_applied": true,
+  "retriever_errors": [],
+  "warnings": [],
+  "duration_ms": 65201.16,
+  "error_type": "",
+  "hit_at_1": 1,
+  "hit_at_3": 1,
+  "hit_at_5": 1,
+  "recall_at_5": 1.0,
+  "mrr_at_10": 1.0
+}

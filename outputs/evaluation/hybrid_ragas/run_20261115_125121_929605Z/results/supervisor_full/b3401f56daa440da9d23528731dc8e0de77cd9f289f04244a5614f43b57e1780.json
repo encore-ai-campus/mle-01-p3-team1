@@ -1,0 +1,646 @@
+{
+  "mode": "supervisor_full",
+  "question_id": "Q157",
+  "evidence": [
+    {
+      "museum_id": "M0259",
+      "name": "영인산산림박물관",
+      "document": "영인산산림박물관은 영인산자연휴양림 내 산림에 관한 자료 수집과 교육, 산림문화 창달을 통한 산림문화 현장학습장의 역할과 전시 및 연구를 목적으로 건립되었다. 본관은 예술, 놀이, 체험, 교육 등 다양한 분야에서 자연과 숲을 접하고 이해하도록 하였으며, 별관은 상상과 치유의 숲 개념을 도입하여 구성하였다. 영인산산림박물관은 산림문화를 보존, 전파하여 시민에게 산림의 소중함을 다시 인식할 기회를 제공하고, 일상에 지친 현대인들에게 숲을 통한 휴식과 치유를 제공하는 신개념 산림박물관이다. 영인산산림박물관은 산림에 관한 자료의 수집과 교육, 산림문화의 창달을 통한 산림문화의 현장 학습장으로서의 역할과 전시 및 연구를 목적으로 건립되었습니다.",
+      "metadata": {
+        "homepage_url": "http://museum.asanfmc.or.kr",
+        "longitude": 126.9409482,
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "weekday_open": "10:00",
+        "amenities_raw": "전시실+전망대+수유실",
+        "address": "충청남도 아산시 염치읍 아산온천로 16-30",
+        "holiday_close": "18:00",
+        "child_fee": 0.0,
+        "name": "영인산산림박물관",
+        "ownership_type": "국립",
+        "source_types": "BASE|TOUR_API",
+        "adult_fee": 0.0,
+        "youth_fee": 0.0,
+        "closure_rule_raw": "매주 월요일(단, 월요일이 공휴일일 때에는 공휴일 다음 날)+1월1일+설·추석당일",
+        "requires_manual_review": true,
+        "sido": "충청남도",
+        "fee_notes": "휴양림 입장료 통합",
+        "weekday_close": "18:00",
+        "latitude": 36.84322587,
+        "holiday_open": "10:00",
+        "transport_notes": "아산(온양)-영인면(아산방면)시내버스 수시운행(25분 소요) 버스번호: 531, 540, 541, 560, 600, 601, 610, 612, 613, 630 영인산 인근 하차 후 도보 1시간",
+        "sigungu": "아산시"
+      },
+      "vector_rank": 1,
+      "bm25_rank": 1,
+      "vector_distance": 0.35211074352264404,
+      "vector_score": null,
+      "bm25_score": 42.27461056400756,
+      "vector_document": "영인산산림박물관은 영인산자연휴양림 내 산림에 관한 자료 수집과 교육, 산림문화 창달을 통한 산림문화 현장학습장의 역할과 전시 및 연구를 목적으로 건립되었다. 본관은 예술, 놀이, 체험, 교육 등 다양한 분야에서 자연과 숲을 접하고 이해하도록 하였으며, 별관은 상상과 치유의 숲 개념을 도입하여 구성하였다. 영인산산림박물관은 산림문화를 보존, 전파하여 시민에게 산림의 소중함을 다시 인식할 기회를 제공하고, 일상에 지친 현대인들에게 숲을 통한 휴식과 치유를 제공하는 신개념 산림박물관이다. 영인산산림박물관은 산림에 관한 자료의 수집과 교육, 산림문화의 창달을 통한 산림문화의 현장 학습장으로서의 역할과 전시 및 연구를 목적으로 건립되었습니다.",
+      "bm25_document": "영인산산림박물관은 영인산자연휴양림 내 산림에 관한 자료 수집과 교육, 산림문화 창달을 통한 산림문화 현장학습장의 역할과 전시 및 연구를 목적으로 건립되었다. 본관은 예술, 놀이, 체험, 교육 등 다양한 분야에서 자연과 숲을 접하고 이해하도록 하였으며, 별관은 상상과 치유의 숲 개념을 도입하여 구성하였다. 영인산산림박물관은 산림문화를 보존, 전파하여 시민에게 산림의 소중함을 다시 인식할 기회를 제공하고, 일상에 지친 현대인들에게 숲을 통한 휴식과 치유를 제공하는 신개념 산림박물관이다. 영인산산림박물관은 산림에 관한 자료의 수집과 교육, 산림문화의 창달을 통한 산림문화의 현장 학습장으로서의 역할과 전시 및 연구를 목적으로 건립되었습니다.",
+      "best_span_id": "chroma:M0259",
+      "best_span_text": "영인산산림박물관은 영인산자연휴양림 내 산림에 관한 자료 수집과 교육, 산림문화 창달을 통한 산림문화 현장학습장의 역할과 전시 및 연구를 목적으로 건립되었다. 본관은 예술, 놀이, 체험, 교육 등 다양한 분야에서 자연과 숲을 접하고 이해하도록 하였으며, 별관은 상상과 치유의 숲 개념을 도입하여 구성하였다. 영인산산림박물관은 산림문화를 보존, 전파하여 시민에게 산림의 소중함을 다시 인식할 기회를 제공하고, 일상에 지친 현대인들에게 숲을 통한 휴식과 치유를 제공하는 신개념 산림박물관이다. 영인산산림박물관은 산림에 관한 자료의 수집과 교육, 산림문화의 창달을 통한 산림문화의 현장 학습장으로서의 역할과 전시 및 연구를 목적으로 건립되었습니다.",
+      "fusion_score": 0.03278688524590164,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 1,
+      "name_match": true,
+      "rerank_score": 0.9998416900634766,
+      "rank": 1,
+      "score": 0.9998416900634766,
+      "score_type": "cross_encoder",
+      "distance": 0.35211074352264404,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0259",
+      "source_doc_ids": [
+        "DOC-B0259-TOUR_API-2751969",
+        "DOC-B0259-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0259-TOUR_API-2751969",
+          "source_type": "TOUR_API",
+          "source_record_id": "2751969",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=129",
+          "match_trust": "RECHECKED_BY_RULE_NOT_HUMAN_APPROVED"
+        },
+        {
+          "doc_id": "DOC-B0259-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0259",
+          "source_locator": "data/raw/museum_base_1070.csv#row=260",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 87,
+          "doc_ids": [
+            "DOC-B0259-TOUR_API-2751969"
+          ]
+        },
+        {
+          "start": 88,
+          "end": 170,
+          "doc_ids": [
+            "DOC-B0259-TOUR_API-2751969"
+          ]
+        },
+        {
+          "start": 171,
+          "end": 272,
+          "doc_ids": [
+            "DOC-B0259-TOUR_API-2751969"
+          ]
+        },
+        {
+          "start": 273,
+          "end": 358,
+          "doc_ids": [
+            "DOC-B0259-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=129",
+      "text": "영인산산림박물관은 영인산자연휴양림 내 산림에 관한 자료 수집과 교육, 산림문화 창달을 통한 산림문화 현장학습장의 역할과 전시 및 연구를 목적으로 건립되었다. 본관은 예술, 놀이, 체험, 교육 등 다양한 분야에서 자연과 숲을 접하고 이해하도록 하였으며, 별관은 상상과 치유의 숲 개념을 도입하여 구성하였다. 영인산산림박물관은 산림문화를 보존, 전파하여 시민에게 산림의 소중함을 다시 인식할 기회를 제공하고, 일상에 지친 현대인들에게 숲을 통한 휴식과 치유를 제공하는 신개념 산림박물관이다. 영인산산림박물관은 산림에 관한 자료의 수집과 교육, 산림문화의 창달을 통한 산림문화의 현장 학습장으로서의 역할과 전시 및 연구를 목적으로 건립되었습니다.",
+      "sido": "충청남도",
+      "sigungu": "아산시",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=129"
+      ],
+      "evidence_id": "E1",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=181",
+        "fields": {
+          "name": "영인산산림박물관",
+          "sido": "충청남도",
+          "sigungu": "아산시",
+          "address": "충청남도 아산시 염치읍 아산온천로 16-30",
+          "ownership_type": "국립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "10:00",
+          "weekday_close": "18:00",
+          "holiday_open": "10:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "매주 월요일(단, 월요일이 공휴일일 때에는 공휴일 다음 날)+1월1일+설·추석당일",
+          "amenities_raw": "전시실+전망대+수유실"
+        },
+        "base_data_date": "2026-07-01",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0162",
+      "name": "경상북도산림과학박물관",
+      "document": "잊혀져 가는 산림역사자료의 수집과 보존을 통해 새로운 산림휴양문화의 보급을 위한 전문 테마 박물관입니다",
+      "metadata": {
+        "fee_notes": "무료",
+        "weekday_close": "18:00",
+        "address": "경상북도 안동시 도산면 퇴계로 2189",
+        "holiday_open": "09:00",
+        "youth_fee": 0.0,
+        "amenities_raw": "물품보관소+수유실+카페",
+        "adult_fee": 0.0,
+        "child_fee": 0.0,
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "source_types": "BASE",
+        "sido": "경상북도",
+        "ownership_type": "공립",
+        "holiday_close": "18:00",
+        "longitude": 128.8246789,
+        "transport_notes": "버스:567",
+        "weekday_open": "09:00",
+        "requires_manual_review": true,
+        "latitude": 36.713958,
+        "closure_rule_raw": "매주 월요일(월요일이 공휴일이면 개관), 1월 1일, 설날, 추석. 시설점검·개보수에 따른 임시휴관은 별도 공고",
+        "sigungu": "안동시",
+        "name": "경상북도산림과학박물관"
+      },
+      "vector_rank": 2,
+      "bm25_rank": 4,
+      "vector_distance": 0.47958123683929443,
+      "vector_score": null,
+      "bm25_score": 9.76262595415912,
+      "vector_document": "잊혀져 가는 산림역사자료의 수집과 보존을 통해 새로운 산림휴양문화의 보급을 위한 전문 테마 박물관입니다",
+      "bm25_document": "잊혀져 가는 산림역사자료의 수집과 보존을 통해 새로운 산림휴양문화의 보급을 위한 전문 테마 박물관입니다",
+      "best_span_id": "chroma:M0162",
+      "best_span_text": "잊혀져 가는 산림역사자료의 수집과 보존을 통해 새로운 산림휴양문화의 보급을 위한 전문 테마 박물관입니다",
+      "fusion_score": 0.031754032258064516,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 2,
+      "rerank_score": 0.01068711094558239,
+      "rank": 2,
+      "score": 0.01068711094558239,
+      "score_type": "cross_encoder",
+      "distance": 0.47958123683929443,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0162",
+      "source_doc_ids": [
+        "DOC-B0162-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0162-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0162",
+          "source_locator": "data/raw/museum_base_1070.csv#row=163",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 57,
+          "doc_ids": [
+            "DOC-B0162-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_base_1070.csv#row=163",
+      "text": "잊혀져 가는 산림역사자료의 수집과 보존을 통해 새로운 산림휴양문화의 보급을 위한 전문 테마 박물관입니다",
+      "sido": "경상북도",
+      "sigungu": "안동시",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_base_1070.csv#row=163"
+      ],
+      "evidence_id": "E2",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=105",
+        "fields": {
+          "name": "경상북도산림과학박물관",
+          "sido": "경상북도",
+          "sigungu": "안동시",
+          "address": "경상북도 안동시 도산면 퇴계로 2189",
+          "ownership_type": "공립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "09:00",
+          "weekday_close": "18:00",
+          "holiday_open": "09:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "매주 월요일(월요일이 공휴일이면 개관), 1월 1일, 설날, 추석. 시설점검·개보수에 따른 임시휴관은 별도 공고",
+          "amenities_raw": "물품보관소+수유실+카페"
+        },
+        "base_data_date": "2026-07-27",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0315",
+      "name": "여주산림박물관",
+      "document": "산림의 과거, 현재, 미래를 영상과 학습자료를 이용해 설명하고 다양한 산림문화작품을 전시한 체험관.",
+      "metadata": {
+        "transport_notes": "여주 IC→명성황후생가입구→강변유원지 방향→곤충박물관 삼거리에서 좌회전→황학산수목원",
+        "adult_fee": 0.0,
+        "closure_rule_raw": "월요일+추석연휴+설날연휴+1월1일",
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "weekday_close": "18:00",
+        "youth_fee": 0.0,
+        "ownership_type": "공립",
+        "source_types": "BASE",
+        "address": "경기도 여주시 황학산수목원길 73",
+        "amenities_raw": "북카페",
+        "sido": "경기도",
+        "latitude": 37.27875343,
+        "longitude": 127.6470365,
+        "sigungu": "여주시",
+        "child_fee": 0.0,
+        "requires_manual_review": true,
+        "homepage_url": "http://www.yeoju.go.kr/main/hhsan",
+        "name": "여주산림박물관",
+        "weekday_open": "09:00",
+        "holiday_close": "18:00",
+        "holiday_open": "09:00"
+      },
+      "vector_rank": null,
+      "bm25_rank": 3,
+      "vector_distance": null,
+      "vector_score": null,
+      "bm25_score": 9.95088330402419,
+      "vector_document": "",
+      "bm25_document": "산림의 과거, 현재, 미래를 영상과 학습자료를 이용해 설명하고 다양한 산림문화작품을 전시한 체험관.",
+      "best_span_id": "chroma:M0315",
+      "best_span_text": "산림의 과거, 현재, 미래를 영상과 학습자료를 이용해 설명하고 다양한 산림문화작품을 전시한 체험관.",
+      "fusion_score": 0.015873015873015872,
+      "retrieved_by": [
+        "bm25"
+      ],
+      "fusion_rank": 5,
+      "rerank_score": 0.0029143779538571835,
+      "rank": 3,
+      "score": 0.0029143779538571835,
+      "score_type": "cross_encoder",
+      "distance": null,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "bm25"
+      ],
+      "retriever": "bm25",
+      "span_id": "chroma:M0315",
+      "source_doc_ids": [
+        "DOC-B0315-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0315-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0315",
+          "source_locator": "data/raw/museum_base_1070.csv#row=316",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 55,
+          "doc_ids": [
+            "DOC-B0315-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_base_1070.csv#row=316",
+      "text": "산림의 과거, 현재, 미래를 영상과 학습자료를 이용해 설명하고 다양한 산림문화작품을 전시한 체험관.",
+      "sido": "경기도",
+      "sigungu": "여주시",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_base_1070.csv#row=316"
+      ],
+      "evidence_id": "E3",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=228",
+        "fields": {
+          "name": "여주산림박물관",
+          "sido": "경기도",
+          "sigungu": "여주시",
+          "address": "경기도 여주시 황학산수목원길 73",
+          "ownership_type": "공립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "09:00",
+          "weekday_close": "18:00",
+          "holiday_open": "09:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "월요일+추석연휴+설날연휴+1월1일",
+          "amenities_raw": "북카페"
+        },
+        "base_data_date": "2026-05-19",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0992",
+      "name": "강화자연사박물관",
+      "document": "강화자연사박물관은 산업화 도시화로 오염되어 가는 환경에 대한 소중함을 일깨우고 자연과 생명에 대한 올바른 인식을 세우는데 도움이 되고자 2015년에 개관하였다. 강화자연사박물관은 수집 및 연구, 전시를 통해 자연의 신비를 체험하고 학습할 수 있는 공간으로, 우리가 사는 지구가 속한 태양계의 탄생에서 지구를 구성하고 있는 다양한 광물, 생물들을 각각의 특별한 주제로 나누어 전시하고 있다. 이를 통해 박물관을 방문하는 관람객들이 자연보존과 생명의 중요성을 다시 한번 생각하게 하며, 자연과학에 대해 이해를 높일 수 있도록 한다. 세계문화유산인 강화고인돌유적지 부근에 위치해 있어 고인돌과 함께 관람하기 좋다. 강화자연삭박물관은 다양한 표본을 체계적으로 수집 · 보존 · 조사 · 연구하고 관람객이 즐길 수 있는 풍성한 전시 · 교육 · 문화행사 등을 개최하여 재미있고 생동감있는 관람거리를 제공하고자 합니다.",
+      "metadata": {
+        "adult_fee": 3000.0,
+        "weekday_close": "18:00",
+        "homepage_url": "http://www.ganghwa.go.kr/open_content/museum_natural/",
+        "ownership_type": "공립",
+        "requires_manual_review": true,
+        "name": "강화자연사박물관",
+        "source_types": "BASE|TOUR_API",
+        "sigungu": "강화군",
+        "address": "인천광역시 강화군 하점면 강화대로 994-33",
+        "sido": "인천광역시",
+        "fee_notes": "무료(강화군민+국가유공자 및 그 가족+장애인 및 동반 보호자 1명+기증기탁자 등)",
+        "adult_fee_status": "BASE_FEE_PAID",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/32/4056132_image2_1.jpg",
+        "weekday_open": "09:00",
+        "transport_notes": "시내버스+ 군내버스+ 자가용이용",
+        "closure_rule_raw": "월+1월1일+설당일+추석당일",
+        "longitude": 126.4347214,
+        "youth_fee": 2000.0,
+        "holiday_close": "18:00",
+        "holiday_open": "09:00",
+        "image_copyright": "Type1",
+        "latitude": 37.77459672,
+        "child_fee": 2000.0
+      },
+      "vector_rank": null,
+      "bm25_rank": 9,
+      "vector_distance": null,
+      "vector_score": null,
+      "bm25_score": 6.915444104055777,
+      "vector_document": "",
+      "bm25_document": "강화자연사박물관은 산업화 도시화로 오염되어 가는 환경에 대한 소중함을 일깨우고 자연과 생명에 대한 올바른 인식을 세우는데 도움이 되고자 2015년에 개관하였다. 강화자연사박물관은 수집 및 연구, 전시를 통해 자연의 신비를 체험하고 학습할 수 있는 공간으로, 우리가 사는 지구가 속한 태양계의 탄생에서 지구를 구성하고 있는 다양한 광물, 생물들을 각각의 특별한 주제로 나누어 전시하고 있다. 이를 통해 박물관을 방문하는 관람객들이 자연보존과 생명의 중요성을 다시 한번 생각하게 하며, 자연과학에 대해 이해를 높일 수 있도록 한다. 세계문화유산인 강화고인돌유적지 부근에 위치해 있어 고인돌과 함께 관람하기 좋다. 강화자연삭박물관은 다양한 표본을 체계적으로 수집 · 보존 · 조사 · 연구하고 관람객이 즐길 수 있는 풍성한 전시 · 교육 · 문화행사 등을 개최하여 재미있고 생동감있는 관람거리를 제공하고자 합니다.",
+      "best_span_id": "chroma:M0992",
+      "best_span_text": "강화자연사박물관은 산업화 도시화로 오염되어 가는 환경에 대한 소중함을 일깨우고 자연과 생명에 대한 올바른 인식을 세우는데 도움이 되고자 2015년에 개관하였다. 강화자연사박물관은 수집 및 연구, 전시를 통해 자연의 신비를 체험하고 학습할 수 있는 공간으로, 우리가 사는 지구가 속한 태양계의 탄생에서 지구를 구성하고 있는 다양한 광물, 생물들을 각각의 특별한 주제로 나누어 전시하고 있다. 이를 통해 박물관을 방문하는 관람객들이 자연보존과 생명의 중요성을 다시 한번 생각하게 하며, 자연과학에 대해 이해를 높일 수 있도록 한다. 세계문화유산인 강화고인돌유적지 부근에 위치해 있어 고인돌과 함께 관람하기 좋다. 강화자연삭박물관은 다양한 표본을 체계적으로 수집 · 보존 · 조사 · 연구하고 관람객이 즐길 수 있는 풍성한 전시 · 교육 · 문화행사 등을 개최하여 재미있고 생동감있는 관람거리를 제공하고자 합니다.",
+      "fusion_score": 0.014492753623188406,
+      "retrieved_by": [
+        "bm25"
+      ],
+      "fusion_rank": 16,
+      "rerank_score": 0.0019342693267390132,
+      "rank": 4,
+      "score": 0.0019342693267390132,
+      "score_type": "cross_encoder",
+      "distance": null,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "bm25"
+      ],
+      "retriever": "bm25",
+      "span_id": "chroma:M0992",
+      "source_doc_ids": [
+        "DOC-B0992-TOUR_API-2523291",
+        "DOC-B0992-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0992-TOUR_API-2523291",
+          "source_type": "TOUR_API",
+          "source_record_id": "2523291",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=461",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        },
+        {
+          "doc_id": "DOC-B0992-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0992",
+          "source_locator": "data/raw/museum_base_1070.csv#row=993",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 89,
+          "doc_ids": [
+            "DOC-B0992-TOUR_API-2523291"
+          ]
+        },
+        {
+          "start": 90,
+          "end": 217,
+          "doc_ids": [
+            "DOC-B0992-TOUR_API-2523291"
+          ]
+        },
+        {
+          "start": 218,
+          "end": 295,
+          "doc_ids": [
+            "DOC-B0992-TOUR_API-2523291"
+          ]
+        },
+        {
+          "start": 296,
+          "end": 340,
+          "doc_ids": [
+            "DOC-B0992-TOUR_API-2523291"
+          ]
+        },
+        {
+          "start": 341,
+          "end": 452,
+          "doc_ids": [
+            "DOC-B0992-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=461",
+      "text": "강화자연사박물관은 산업화 도시화로 오염되어 가는 환경에 대한 소중함을 일깨우고 자연과 생명에 대한 올바른 인식을 세우는데 도움이 되고자 2015년에 개관하였다. 강화자연사박물관은 수집 및 연구, 전시를 통해 자연의 신비를 체험하고 학습할 수 있는 공간으로, 우리가 사는 지구가 속한 태양계의 탄생에서 지구를 구성하고 있는 다양한 광물, 생물들을 각각의 특별한 주제로 나누어 전시하고 있다. 이를 통해 박물관을 방문하는 관람객들이 자연보존과 생명의 중요성을 다시 한번 생각하게 하며, 자연과학에 대해 이해를 높일 수 있도록 한다. 세계문화유산인 강화고인돌유적지 부근에 위치해 있어 고인돌과 함께 관람하기 좋다. 강화자연삭박물관은 다양한 표본을 체계적으로 수집 · 보존 · 조사 · 연구하고 관람객이 즐길 수 있는 풍성한 전시 · 교육 · 문화행사 등을 개최하여 재미있고 생동감있는 관람거리를 제공하고자 합니다.",
+      "sido": "인천광역시",
+      "sigungu": "강화군",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=461"
+      ],
+      "evidence_id": "E4",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=675",
+        "fields": {
+          "name": "강화자연사박물관",
+          "sido": "인천광역시",
+          "sigungu": "강화군",
+          "address": "인천광역시 강화군 하점면 강화대로 994-33",
+          "ownership_type": "공립",
+          "adult_fee": "3000",
+          "youth_fee": "2000",
+          "child_fee": "2000",
+          "adult_fee_status": "BASE_FEE_PAID",
+          "weekday_open": "09:00",
+          "weekday_close": "18:00",
+          "holiday_open": "09:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "월+1월1일+설당일+추석당일"
+        },
+        "base_data_date": "2025-11-20",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M1070",
+      "name": "대청댐물문화관",
+      "document": "- 대청댐 물문화관은 수(水)자원에 대한 관심과 흥미를 유발시키며, 수자원에 대한 소중함을 알리고 인식을 높이기 위해 대청댐에 만들어진 시설이다. - 대청댐의 역할과 기능을 알리고, 물의 소중함을 보여주는 제1전시관, 대청호와 금강에 사는 생물의 서식환경을 소개하는 제2전시관, 대청댐 건설로 인해 사라진 대청호 사람들의 삶과 문화를 기록·재현하는 제3전시관을 운영하고 있다.",
+      "metadata": {
+        "holiday_close": "17:00",
+        "weekday_close": "17:00",
+        "weekday_open": "10:00",
+        "amenities_raw": "없음",
+        "sigungu": "대덕구",
+        "name": "대청댐물문화관",
+        "ownership_type": "사립",
+        "transport_notes": "- 버스 : 72, 73",
+        "fee_notes": "무료",
+        "adult_fee": 0.0,
+        "source_types": "BASE",
+        "requires_manual_review": true,
+        "address": "대전광역시 대덕구 대청로 618-136",
+        "youth_fee": 0.0,
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "longitude": 127.481511,
+        "holiday_open": "10:00",
+        "latitude": 36.474483,
+        "sido": "대전광역시",
+        "child_fee": 0.0,
+        "closure_rule_raw": "매주월요일,1월1일,설날추석당일"
+      },
+      "vector_rank": null,
+      "bm25_rank": 5,
+      "vector_distance": null,
+      "vector_score": null,
+      "bm25_score": 9.736145205570313,
+      "vector_document": "",
+      "bm25_document": "- 대청댐 물문화관은 수(水)자원에 대한 관심과 흥미를 유발시키며, 수자원에 대한 소중함을 알리고 인식을 높이기 위해 대청댐에 만들어진 시설이다. - 대청댐의 역할과 기능을 알리고, 물의 소중함을 보여주는 제1전시관, 대청호와 금강에 사는 생물의 서식환경을 소개하는 제2전시관, 대청댐 건설로 인해 사라진 대청호 사람들의 삶과 문화를 기록·재현하는 제3전시관을 운영하고 있다.",
+      "best_span_id": "chroma:M1070",
+      "best_span_text": "- 대청댐 물문화관은 수(水)자원에 대한 관심과 흥미를 유발시키며, 수자원에 대한 소중함을 알리고 인식을 높이기 위해 대청댐에 만들어진 시설이다. - 대청댐의 역할과 기능을 알리고, 물의 소중함을 보여주는 제1전시관, 대청호와 금강에 사는 생물의 서식환경을 소개하는 제2전시관, 대청댐 건설로 인해 사라진 대청호 사람들의 삶과 문화를 기록·재현하는 제3전시관을 운영하고 있다.",
+      "fusion_score": 0.015384615384615385,
+      "retrieved_by": [
+        "bm25"
+      ],
+      "fusion_rank": 8,
+      "rerank_score": 0.0011666484642773867,
+      "rank": 5,
+      "score": 0.0011666484642773867,
+      "score_type": "cross_encoder",
+      "distance": null,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "bm25"
+      ],
+      "retriever": "bm25",
+      "span_id": "chroma:M1070",
+      "source_doc_ids": [
+        "DOC-B1070-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B1070-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B1070",
+          "source_locator": "data/raw/museum_base_1070.csv#row=1071",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 81,
+          "doc_ids": [
+            "DOC-B1070-BASE"
+          ]
+        },
+        {
+          "start": 82,
+          "end": 210,
+          "doc_ids": [
+            "DOC-B1070-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_base_1070.csv#row=1071",
+      "text": "- 대청댐 물문화관은 수(水)자원에 대한 관심과 흥미를 유발시키며, 수자원에 대한 소중함을 알리고 인식을 높이기 위해 대청댐에 만들어진 시설이다. - 대청댐의 역할과 기능을 알리고, 물의 소중함을 보여주는 제1전시관, 대청호와 금강에 사는 생물의 서식환경을 소개하는 제2전시관, 대청댐 건설로 인해 사라진 대청호 사람들의 삶과 문화를 기록·재현하는 제3전시관을 운영하고 있다.",
+      "sido": "대전광역시",
+      "sigungu": "대덕구",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_base_1070.csv#row=1071"
+      ],
+      "evidence_id": "E5",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=739",
+        "fields": {
+          "name": "대청댐물문화관",
+          "sido": "대전광역시",
+          "sigungu": "대덕구",
+          "address": "대전광역시 대덕구 대청로 618-136",
+          "ownership_type": "사립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "10:00",
+          "weekday_close": "17:00",
+          "holiday_open": "10:00",
+          "holiday_close": "17:00",
+          "closure_rule_raw": "매주월요일,1월1일,설날추석당일",
+          "amenities_raw": "없음"
+        },
+        "base_data_date": "2020-12-15",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    }
+  ],
+  "answer": "산림 관련 자료의 수집·교육과 전시·연구를 통해 산림문화를 보존하고 알리며, 본관에서는 예술·놀이·체험·교육을 통해 자연과 숲을 접하고 이해하도록 합니다. 별관은 ‘상상과 치유의 숲’ 개념으로 구성되어 있어, 이러한 경험을 통해 시민들이 산림의 소중함을 다시 인식할 기회를 제공합니다. [E1]",
+  "retrieval_status": "ok",
+  "answer_status": "answered",
+  "route": "hybrid",
+  "retry_count": 0,
+  "supervisor_verified": true,
+  "rerank_applied": true,
+  "retriever_errors": [],
+  "warnings": [],
+  "duration_ms": 141860.83,
+  "error_type": "",
+  "hit_at_1": 1,
+  "hit_at_3": 1,
+  "hit_at_5": 1,
+  "recall_at_5": 1.0,
+  "mrr_at_10": 1.0
+}

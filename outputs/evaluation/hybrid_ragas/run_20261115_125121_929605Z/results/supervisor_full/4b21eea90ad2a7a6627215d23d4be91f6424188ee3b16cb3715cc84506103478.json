@@ -1,0 +1,712 @@
+{
+  "mode": "supervisor_full",
+  "question_id": "Q167",
+  "evidence": [
+    {
+      "museum_id": "M0272",
+      "name": "구미성리학역사관",
+      "document": "구미성리학역사관은 경상북도 구미시에 위치한 제1종 공립 전문박물관으로, 조선시대 성리학의 중심지였던 구미 지역의 역사와 문화를 발굴하고 실증하기 위해 2020년에 설립되었다. 본 역사관은 구미 출신의 대표적인 성리학자인 야은 길재를 비롯해 조선 전기 주요 성리학자들의 사상과 학문적 성과를 조명하고 있다. 상설·기획전시 공간에서는 성리학의 이념과 흐름, 지역 내 사상적 전통을 체계적으로 소개하며, 연중 다양한 전시가 운영된다. 또한 인문학 강좌, 체험 프로그램, 청소년 교육 등 폭넓은 문화교육 사업을 병행함으로써 시민 인문 소양 향상에 기여하고 있다. 부대시설로는 한옥 문화카페, 전통놀이 공간, 대관시설 등이 마련되어 있어 관람객이 전통과 현대를 아우르는 문화경험을 할 수 있는 복합 인문문화공간으로 자리매김하고 있다. 구미의 성리학 및 역사와 전통을 체험하는 복합 문화의 장",
+      "metadata": {
+        "longitude": 128.3134312,
+        "youth_fee": 0.0,
+        "child_fee": 0.0,
+        "amenities_raw": "문화카페+문화사랑방",
+        "address": "경상북도 구미시 금오산로 336-13",
+        "image_copyright": "Type3",
+        "weekday_open": "09:00",
+        "homepage_url": "https://www.gumi.go.kr/museum/",
+        "transport_notes": "27번 탑승 후 구미성리학역사관 정류장 하차",
+        "adult_fee": 0.0,
+        "requires_manual_review": true,
+        "holiday_close": "18:00",
+        "name": "구미성리학역사관",
+        "closure_rule_raw": "매주 월+1월 1일+설 당일+추석 당일",
+        "sido": "경상북도",
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "fee_notes": "단체관람시(20명이상) 사전예약",
+        "ownership_type": "공립",
+        "latitude": 36.11454297,
+        "source_types": "BASE|TOUR_API",
+        "sigungu": "구미시",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/69/3489769_image2_1.jpg",
+        "weekday_close": "18:00",
+        "holiday_open": "09:00"
+      },
+      "vector_rank": 1,
+      "bm25_rank": 1,
+      "vector_distance": 0.40785688161849976,
+      "vector_score": null,
+      "bm25_score": 36.956001246834525,
+      "vector_document": "구미성리학역사관은 경상북도 구미시에 위치한 제1종 공립 전문박물관으로, 조선시대 성리학의 중심지였던 구미 지역의 역사와 문화를 발굴하고 실증하기 위해 2020년에 설립되었다. 본 역사관은 구미 출신의 대표적인 성리학자인 야은 길재를 비롯해 조선 전기 주요 성리학자들의 사상과 학문적 성과를 조명하고 있다. 상설·기획전시 공간에서는 성리학의 이념과 흐름, 지역 내 사상적 전통을 체계적으로 소개하며, 연중 다양한 전시가 운영된다. 또한 인문학 강좌, 체험 프로그램, 청소년 교육 등 폭넓은 문화교육 사업을 병행함으로써 시민 인문 소양 향상에 기여하고 있다. 부대시설로는 한옥 문화카페, 전통놀이 공간, 대관시설 등이 마련되어 있어 관람객이 전통과 현대를 아우르는 문화경험을 할 수 있는 복합 인문문화공간으로 자리매김하고 있다. 구미의 성리학 및 역사와 전통을 체험하는 복합 문화의 장",
+      "bm25_document": "구미성리학역사관은 경상북도 구미시에 위치한 제1종 공립 전문박물관으로, 조선시대 성리학의 중심지였던 구미 지역의 역사와 문화를 발굴하고 실증하기 위해 2020년에 설립되었다. 본 역사관은 구미 출신의 대표적인 성리학자인 야은 길재를 비롯해 조선 전기 주요 성리학자들의 사상과 학문적 성과를 조명하고 있다. 상설·기획전시 공간에서는 성리학의 이념과 흐름, 지역 내 사상적 전통을 체계적으로 소개하며, 연중 다양한 전시가 운영된다. 또한 인문학 강좌, 체험 프로그램, 청소년 교육 등 폭넓은 문화교육 사업을 병행함으로써 시민 인문 소양 향상에 기여하고 있다. 부대시설로는 한옥 문화카페, 전통놀이 공간, 대관시설 등이 마련되어 있어 관람객이 전통과 현대를 아우르는 문화경험을 할 수 있는 복합 인문문화공간으로 자리매김하고 있다. 구미의 성리학 및 역사와 전통을 체험하는 복합 문화의 장",
+      "best_span_id": "chroma:M0272",
+      "best_span_text": "구미성리학역사관은 경상북도 구미시에 위치한 제1종 공립 전문박물관으로, 조선시대 성리학의 중심지였던 구미 지역의 역사와 문화를 발굴하고 실증하기 위해 2020년에 설립되었다. 본 역사관은 구미 출신의 대표적인 성리학자인 야은 길재를 비롯해 조선 전기 주요 성리학자들의 사상과 학문적 성과를 조명하고 있다. 상설·기획전시 공간에서는 성리학의 이념과 흐름, 지역 내 사상적 전통을 체계적으로 소개하며, 연중 다양한 전시가 운영된다. 또한 인문학 강좌, 체험 프로그램, 청소년 교육 등 폭넓은 문화교육 사업을 병행함으로써 시민 인문 소양 향상에 기여하고 있다. 부대시설로는 한옥 문화카페, 전통놀이 공간, 대관시설 등이 마련되어 있어 관람객이 전통과 현대를 아우르는 문화경험을 할 수 있는 복합 인문문화공간으로 자리매김하고 있다. 구미의 성리학 및 역사와 전통을 체험하는 복합 문화의 장",
+      "fusion_score": 0.03278688524590164,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 1,
+      "name_match": true,
+      "rerank_score": 0.9999775886535645,
+      "rank": 1,
+      "score": 0.9999775886535645,
+      "score_type": "cross_encoder",
+      "distance": 0.40785688161849976,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0272",
+      "source_doc_ids": [
+        "DOC-B0272-TOUR_API-2718684",
+        "DOC-B0272-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0272-TOUR_API-2718684",
+          "source_type": "TOUR_API",
+          "source_record_id": "2718684",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=137",
+          "match_trust": "RECHECKED_BY_RULE_NOT_HUMAN_APPROVED"
+        },
+        {
+          "doc_id": "DOC-B0272-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0272",
+          "source_locator": "data/raw/museum_base_1070.csv#row=273",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 97,
+          "doc_ids": [
+            "DOC-B0272-TOUR_API-2718684"
+          ]
+        },
+        {
+          "start": 98,
+          "end": 170,
+          "doc_ids": [
+            "DOC-B0272-TOUR_API-2718684"
+          ]
+        },
+        {
+          "start": 171,
+          "end": 239,
+          "doc_ids": [
+            "DOC-B0272-TOUR_API-2718684"
+          ]
+        },
+        {
+          "start": 240,
+          "end": 310,
+          "doc_ids": [
+            "DOC-B0272-TOUR_API-2718684"
+          ]
+        },
+        {
+          "start": 311,
+          "end": 405,
+          "doc_ids": [
+            "DOC-B0272-TOUR_API-2718684"
+          ]
+        },
+        {
+          "start": 406,
+          "end": 437,
+          "doc_ids": [
+            "DOC-B0272-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=137",
+      "text": "구미성리학역사관은 경상북도 구미시에 위치한 제1종 공립 전문박물관으로, 조선시대 성리학의 중심지였던 구미 지역의 역사와 문화를 발굴하고 실증하기 위해 2020년에 설립되었다. 본 역사관은 구미 출신의 대표적인 성리학자인 야은 길재를 비롯해 조선 전기 주요 성리학자들의 사상과 학문적 성과를 조명하고 있다. 상설·기획전시 공간에서는 성리학의 이념과 흐름, 지역 내 사상적 전통을 체계적으로 소개하며, 연중 다양한 전시가 운영된다. 또한 인문학 강좌, 체험 프로그램, 청소년 교육 등 폭넓은 문화교육 사업을 병행함으로써 시민 인문 소양 향상에 기여하고 있다. 부대시설로는 한옥 문화카페, 전통놀이 공간, 대관시설 등이 마련되어 있어 관람객이 전통과 현대를 아우르는 문화경험을 할 수 있는 복합 인문문화공간으로 자리매김하고 있다. 구미의 성리학 및 역사와 전통을 체험하는 복합 문화의 장",
+      "sido": "경상북도",
+      "sigungu": "구미시",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=137"
+      ],
+      "evidence_id": "E1",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=194",
+        "fields": {
+          "name": "구미성리학역사관",
+          "sido": "경상북도",
+          "sigungu": "구미시",
+          "address": "경상북도 구미시 금오산로 336-13",
+          "ownership_type": "공립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "09:00",
+          "weekday_close": "18:00",
+          "holiday_open": "09:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "매주 월+1월 1일+설 당일+추석 당일",
+          "amenities_raw": "문화카페+문화사랑방"
+        },
+        "base_data_date": "2026-07-01",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0993",
+      "name": "우리삶문화옥당박물관",
+      "document": "영광은 역사적으로 백제 최초로 불교를 전파하였던 지역이며 한국의 토착종교인 원불교가 탄생한 곳이기도 하다. 불갑사와 지석묘군, 내산서원 등 문화유산뿐만 아니라 영광굴비로도 유명하다. 이러한 영광의 뿌리 깊은 문화와 역사를 재 조명하고 널리 알리고자 개관한 우리삶문화옥당박물관은 영광 지역민의 문화를 향유할 수 있는 공간으로 자리 잡고 있다. 우리삶 문화실에서는 한반도에서의 우리 조상들의 삶과 관련된 영광 출토 유물들을 관람할 수 있으며 세계 문화유산을 함께 소개한다. 옥당 인물실은 영광을 빛낸 인물들 중 성리학, 종교, 예술 분야에 뛰어난 인물을 선정하여 그들의 삶을 둘러보는 콘텐츠를 운영하고 있으며, 용무당은 역사와 유물과 역사적 인물을 통해 영광의 역사를 체험하고 배울 수 있는 공간이다. 현재 우리삶문화옥당박물관은 고고민속유물, 불상, 카메라 음향장비등 인간삶의 다양한 문화요소를 간직한 유물을 전시, 관리하고 있다. 특히 이미지 언어로서의 카메라 음향장비를 전시하고 있으며, 이와 연계한 다양한 체험프로그램도 운영하고 있다.",
+      "metadata": {
+        "child_fee": 0.0,
+        "sido": "전남광주특별자치도",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/86/3069286_image2_1.jpg",
+        "homepage_url": "https://www.yeonggwang.go.kr/tour",
+        "adult_fee": 0.0,
+        "sigungu": "영광군",
+        "holiday_close": "17:00",
+        "ownership_type": "사립",
+        "weekday_close": "17:00",
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "closure_rule_raw": "매주 월요일",
+        "youth_fee": 0.0,
+        "longitude": 126.4026604,
+        "requires_manual_review": true,
+        "address": "전라남도 영광군 백수읍 대신길3길 3",
+        "weekday_open": "10:00",
+        "holiday_open": "10:00",
+        "image_copyright": "Type3",
+        "name": "우리삶문화옥당박물관",
+        "latitude": 35.36068807,
+        "source_types": "TOUR_API"
+      },
+      "vector_rank": null,
+      "bm25_rank": 6,
+      "vector_distance": null,
+      "vector_score": null,
+      "bm25_score": 8.465109520053083,
+      "vector_document": "",
+      "bm25_document": "영광은 역사적으로 백제 최초로 불교를 전파하였던 지역이며 한국의 토착종교인 원불교가 탄생한 곳이기도 하다. 불갑사와 지석묘군, 내산서원 등 문화유산뿐만 아니라 영광굴비로도 유명하다. 이러한 영광의 뿌리 깊은 문화와 역사를 재 조명하고 널리 알리고자 개관한 우리삶문화옥당박물관은 영광 지역민의 문화를 향유할 수 있는 공간으로 자리 잡고 있다. 우리삶 문화실에서는 한반도에서의 우리 조상들의 삶과 관련된 영광 출토 유물들을 관람할 수 있으며 세계 문화유산을 함께 소개한다. 옥당 인물실은 영광을 빛낸 인물들 중 성리학, 종교, 예술 분야에 뛰어난 인물을 선정하여 그들의 삶을 둘러보는 콘텐츠를 운영하고 있으며, 용무당은 역사와 유물과 역사적 인물을 통해 영광의 역사를 체험하고 배울 수 있는 공간이다. 현재 우리삶문화옥당박물관은 고고민속유물, 불상, 카메라 음향장비등 인간삶의 다양한 문화요소를 간직한 유물을 전시, 관리하고 있다. 특히 이미지 언어로서의 카메라 음향장비를 전시하고 있으며, 이와 연계한 다양한 체험프로그램도 운영하고 있다.",
+      "best_span_id": "chroma:M0993",
+      "best_span_text": "영광은 역사적으로 백제 최초로 불교를 전파하였던 지역이며 한국의 토착종교인 원불교가 탄생한 곳이기도 하다. 불갑사와 지석묘군, 내산서원 등 문화유산뿐만 아니라 영광굴비로도 유명하다. 이러한 영광의 뿌리 깊은 문화와 역사를 재 조명하고 널리 알리고자 개관한 우리삶문화옥당박물관은 영광 지역민의 문화를 향유할 수 있는 공간으로 자리 잡고 있다. 우리삶 문화실에서는 한반도에서의 우리 조상들의 삶과 관련된 영광 출토 유물들을 관람할 수 있으며 세계 문화유산을 함께 소개한다. 옥당 인물실은 영광을 빛낸 인물들 중 성리학, 종교, 예술 분야에 뛰어난 인물을 선정하여 그들의 삶을 둘러보는 콘텐츠를 운영하고 있으며, 용무당은 역사와 유물과 역사적 인물을 통해 영광의 역사를 체험하고 배울 수 있는 공간이다. 현재 우리삶문화옥당박물관은 고고민속유물, 불상, 카메라 음향장비등 인간삶의 다양한 문화요소를 간직한 유물을 전시, 관리하고 있다. 특히 이미지 언어로서의 카메라 음향장비를 전시하고 있으며, 이와 연계한 다양한 체험프로그램도 운영하고 있다.",
+      "fusion_score": 0.015151515151515152,
+      "retrieved_by": [
+        "bm25"
+      ],
+      "fusion_rank": 11,
+      "rerank_score": 0.020586751401424408,
+      "rank": 2,
+      "score": 0.020586751401424408,
+      "score_type": "cross_encoder",
+      "distance": null,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "bm25"
+      ],
+      "retriever": "bm25",
+      "span_id": "chroma:M0993",
+      "source_doc_ids": [
+        "DOC-B0993-TOUR_API-3069336"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0993-TOUR_API-3069336",
+          "source_type": "TOUR_API",
+          "source_record_id": "3069336",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=462",
+          "match_trust": "RECHECKED_BY_RULE_NOT_HUMAN_APPROVED"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 59,
+          "doc_ids": [
+            "DOC-B0993-TOUR_API-3069336"
+          ]
+        },
+        {
+          "start": 60,
+          "end": 101,
+          "doc_ids": [
+            "DOC-B0993-TOUR_API-3069336"
+          ]
+        },
+        {
+          "start": 102,
+          "end": 190,
+          "doc_ids": [
+            "DOC-B0993-TOUR_API-3069336"
+          ]
+        },
+        {
+          "start": 191,
+          "end": 262,
+          "doc_ids": [
+            "DOC-B0993-TOUR_API-3069336"
+          ]
+        },
+        {
+          "start": 263,
+          "end": 390,
+          "doc_ids": [
+            "DOC-B0993-TOUR_API-3069336"
+          ]
+        },
+        {
+          "start": 391,
+          "end": 463,
+          "doc_ids": [
+            "DOC-B0993-TOUR_API-3069336"
+          ]
+        },
+        {
+          "start": 464,
+          "end": 524,
+          "doc_ids": [
+            "DOC-B0993-TOUR_API-3069336"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=462",
+      "text": "영광은 역사적으로 백제 최초로 불교를 전파하였던 지역이며 한국의 토착종교인 원불교가 탄생한 곳이기도 하다. 불갑사와 지석묘군, 내산서원 등 문화유산뿐만 아니라 영광굴비로도 유명하다. 이러한 영광의 뿌리 깊은 문화와 역사를 재 조명하고 널리 알리고자 개관한 우리삶문화옥당박물관은 영광 지역민의 문화를 향유할 수 있는 공간으로 자리 잡고 있다. 우리삶 문화실에서는 한반도에서의 우리 조상들의 삶과 관련된 영광 출토 유물들을 관람할 수 있으며 세계 문화유산을 함께 소개한다. 옥당 인물실은 영광을 빛낸 인물들 중 성리학, 종교, 예술 분야에 뛰어난 인물을 선정하여 그들의 삶을 둘러보는 콘텐츠를 운영하고 있으며, 용무당은 역사와 유물과 역사적 인물을 통해 영광의 역사를 체험하고 배울 수 있는 공간이다. 현재 우리삶문화옥당박물관은 고고민속유물, 불상, 카메라 음향장비등 인간삶의 다양한 문화요소를 간직한 유물을 전시, 관리하고 있다. 특히 이미지 언어로서의 카메라 음향장비를 전시하고 있으며, 이와 연계한 다양한 체험프로그램도 운영하고 있다.",
+      "sido": "전남광주특별자치도",
+      "sigungu": "영광군",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=462"
+      ],
+      "evidence_id": "E2",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=676",
+        "fields": {
+          "name": "우리삶문화옥당박물관",
+          "sido": "전라남도",
+          "sigungu": "영광군",
+          "address": "전라남도 영광군 백수읍 대신길3길 3",
+          "ownership_type": "사립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "10:00",
+          "weekday_close": "17:00",
+          "holiday_open": "10:00",
+          "holiday_close": "17:00",
+          "closure_rule_raw": "매주 월요일"
+        },
+        "base_data_date": "2025-11-28",
+        "trust": "derived_dataset_not_human_verified",
+        "normalizations": {
+          "sido": {
+            "source_value": "전라남도",
+            "matched_value": "전남광주특별자치도",
+            "rule": "configured_sido_alias"
+          }
+        }
+      }
+    },
+    {
+      "museum_id": "M0927",
+      "name": "영종역사관",
+      "document": "영종역사관은 긴 세월 동안 유구한 역사와 문화, 세상과 통하는 중간 거점으로 그 가치를 재조명 받고 있는 영종도를 알리기 위하여 건립되었다. 오랜 삶의 터전으로서의 영종도와 각종 개발로 인하여 급격하게 변화된 근현대 영종도의 생활문화를 담고 있는 영종도의 대표적인 문화공간이다.",
+      "metadata": {
+        "sido": "인천광역시",
+        "address": "인천광역시 중구 구읍로 63",
+        "sigungu": "중구",
+        "closure_rule_raw": "매주 월요일",
+        "weekday_open": "10:00",
+        "adult_fee": 1000.0,
+        "ownership_type": "공립",
+        "holiday_close": "18:00",
+        "longitude": 126.5777135,
+        "latitude": 37.48907002,
+        "requires_manual_review": true,
+        "fee_notes": "단체(20인 이상) 10~35퍼센트할인",
+        "source_types": "TOUR_API",
+        "youth_fee": 700.0,
+        "holiday_open": "10:00",
+        "homepage_url": "http://www.ijcf.or.kr/load.asp?subPage=522.08",
+        "adult_fee_status": "BASE_FEE_PAID",
+        "weekday_close": "18:00",
+        "child_fee": 500.0,
+        "name": "영종역사관"
+      },
+      "vector_rank": 2,
+      "bm25_rank": 4,
+      "vector_distance": 0.5183511972427368,
+      "vector_score": null,
+      "bm25_score": 8.655015043585092,
+      "vector_document": "영종역사관은 긴 세월 동안 유구한 역사와 문화, 세상과 통하는 중간 거점으로 그 가치를 재조명 받고 있는 영종도를 알리기 위하여 건립되었다. 오랜 삶의 터전으로서의 영종도와 각종 개발로 인하여 급격하게 변화된 근현대 영종도의 생활문화를 담고 있는 영종도의 대표적인 문화공간이다.",
+      "bm25_document": "영종역사관은 긴 세월 동안 유구한 역사와 문화, 세상과 통하는 중간 거점으로 그 가치를 재조명 받고 있는 영종도를 알리기 위하여 건립되었다. 오랜 삶의 터전으로서의 영종도와 각종 개발로 인하여 급격하게 변화된 근현대 영종도의 생활문화를 담고 있는 영종도의 대표적인 문화공간이다.",
+      "best_span_id": "chroma:M0927",
+      "best_span_text": "영종역사관은 긴 세월 동안 유구한 역사와 문화, 세상과 통하는 중간 거점으로 그 가치를 재조명 받고 있는 영종도를 알리기 위하여 건립되었다. 오랜 삶의 터전으로서의 영종도와 각종 개발로 인하여 급격하게 변화된 근현대 영종도의 생활문화를 담고 있는 영종도의 대표적인 문화공간이다.",
+      "fusion_score": 0.031754032258064516,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 2,
+      "rerank_score": 0.01262602023780346,
+      "rank": 3,
+      "score": 0.01262602023780346,
+      "score_type": "cross_encoder",
+      "distance": 0.5183511972427368,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0927",
+      "source_doc_ids": [
+        "DOC-B0927-TOUR_API-2638436"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0927-TOUR_API-2638436",
+          "source_type": "TOUR_API",
+          "source_record_id": "2638436",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=437",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 78,
+          "doc_ids": [
+            "DOC-B0927-TOUR_API-2638436"
+          ]
+        },
+        {
+          "start": 79,
+          "end": 155,
+          "doc_ids": [
+            "DOC-B0927-TOUR_API-2638436"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=437",
+      "text": "영종역사관은 긴 세월 동안 유구한 역사와 문화, 세상과 통하는 중간 거점으로 그 가치를 재조명 받고 있는 영종도를 알리기 위하여 건립되었다. 오랜 삶의 터전으로서의 영종도와 각종 개발로 인하여 급격하게 변화된 근현대 영종도의 생활문화를 담고 있는 영종도의 대표적인 문화공간이다.",
+      "sido": "인천광역시",
+      "sigungu": "중구",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=437"
+      ],
+      "evidence_id": "E3",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=642",
+        "fields": {
+          "name": "영종역사관",
+          "sido": "인천광역시",
+          "sigungu": "중구",
+          "address": "인천광역시 중구 구읍로 63",
+          "ownership_type": "공립",
+          "adult_fee": "1000",
+          "youth_fee": "700",
+          "child_fee": "500",
+          "adult_fee_status": "BASE_FEE_PAID",
+          "weekday_open": "10:00",
+          "weekday_close": "18:00",
+          "holiday_open": "10:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "매주 월요일"
+        },
+        "base_data_date": "2025-08-18",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0236",
+      "name": "부산보건대학교 석파박물관",
+      "document": "옛 선조들이 남긴 유적과 유물을 발굴·수집·조사·연구·보존·교육·전시함으로써 우리전통문화의 우수성과 독창성을 실증하는 역사 자료실",
+      "metadata": {
+        "name": "부산보건대학교 석파박물관",
+        "homepage_url": "https://museum.bhu.ac.kr/museum",
+        "latitude": 35.10672609,
+        "weekday_open": "10:00",
+        "sigungu": "사하구",
+        "holiday_open": "00:00",
+        "address": "부산광역시 사하구 사리로55번길 16(괴정동)",
+        "holiday_close": "00:00",
+        "source_types": "BASE",
+        "sido": "부산광역시",
+        "amenities_raw": "전시실+사무실+수장고",
+        "adult_fee": 0.0,
+        "ownership_type": "사립",
+        "weekday_close": "16:00",
+        "youth_fee": 0.0,
+        "child_fee": 0.0,
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "longitude": 128.9972352,
+        "closure_rule_raw": "토요일+일요일+공휴일",
+        "requires_manual_review": true
+      },
+      "vector_rank": null,
+      "bm25_rank": 2,
+      "vector_distance": null,
+      "vector_score": null,
+      "bm25_score": 12.533315511247583,
+      "vector_document": "",
+      "bm25_document": "옛 선조들이 남긴 유적과 유물을 발굴·수집·조사·연구·보존·교육·전시함으로써 우리전통문화의 우수성과 독창성을 실증하는 역사 자료실",
+      "best_span_id": "chroma:M0236",
+      "best_span_text": "옛 선조들이 남긴 유적과 유물을 발굴·수집·조사·연구·보존·교육·전시함으로써 우리전통문화의 우수성과 독창성을 실증하는 역사 자료실",
+      "fusion_score": 0.016129032258064516,
+      "retrieved_by": [
+        "bm25"
+      ],
+      "fusion_rank": 4,
+      "rerank_score": 0.0028598103672266006,
+      "rank": 4,
+      "score": 0.0028598103672266006,
+      "score_type": "cross_encoder",
+      "distance": null,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "bm25"
+      ],
+      "retriever": "bm25",
+      "span_id": "chroma:M0236",
+      "source_doc_ids": [
+        "DOC-B0236-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0236-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0236",
+          "source_locator": "data/raw/museum_base_1070.csv#row=237",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 72,
+          "doc_ids": [
+            "DOC-B0236-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_base_1070.csv#row=237",
+      "text": "옛 선조들이 남긴 유적과 유물을 발굴·수집·조사·연구·보존·교육·전시함으로써 우리전통문화의 우수성과 독창성을 실증하는 역사 자료실",
+      "sido": "부산광역시",
+      "sigungu": "사하구",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_base_1070.csv#row=237"
+      ],
+      "evidence_id": "E4",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=164",
+        "fields": {
+          "name": "부산보건대학교 석파박물관",
+          "sido": "부산광역시",
+          "sigungu": "사하구",
+          "address": "부산광역시 사하구 사리로55번길 16(괴정동)",
+          "ownership_type": "사립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "10:00",
+          "weekday_close": "16:00",
+          "holiday_open": "00:00",
+          "holiday_close": "00:00",
+          "closure_rule_raw": "토요일+일요일+공휴일",
+          "amenities_raw": "전시실+사무실+수장고"
+        },
+        "base_data_date": "2026-09-10",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0012",
+      "name": "홍주성역사관",
+      "document": "홍주성역사관은 홍성 홍주읍성 내 위치하고 있다. 지역의 전통을 부각시키면서 동시에 역사에 바탕을 둔 미래지향적인 시설로 구성되었으며, 역사관의 기본적 기능에 충실하여 전시 유물의 상징적 의미와 예술적 요소를 함축성 있게 표현하여 이를 바탕으로 군민 참여와 소통의 장이자 연구의 중심지로서 지역 정보 센터의 역할을 하고 있다. 홍성과 충남 내포지역의 특색 있는 역사와 문화, 관련 유적 및 유물을 소재로 전시를 하고 있다. 박물관 주변에 옛 홍주목 관련 흔적들이 남아 있어 전시와 연계한 볼거리가 마련되어 있다. 홍성 홍주읍성(사적 231호) 내 위치하고 있으며 전면적 7199.17㎡ 및 연면적 1669㎡ 로 구성되어 있다. 박물관이 홍주읍성 내에 위치하고 있고 주변에 옛 홍주목 관련 흔적들이 남아 있어 전시와 연계한 볼거리가 마련되어 있다.",
+      "metadata": {
+        "transport_notes": "서울→서해안고속도로(홍성IC)→21번국도(홍성방면)→홍주성역사관",
+        "holiday_open": "09:00",
+        "requires_manual_review": true,
+        "closure_rule_raw": "월+1월 1일+설 연휴+추석 연휴",
+        "holiday_close": "18:00",
+        "adult_fee": 0.0,
+        "youth_fee": 0.0,
+        "sigungu": "홍성군",
+        "address": "충청남도 홍성군 홍성읍 아문길 20",
+        "longitude": 126.660951,
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "weekday_open": "09:00",
+        "ownership_type": "공립",
+        "source_types": "BASE|TOUR_API",
+        "child_fee": 0.0,
+        "weekday_close": "18:00",
+        "name": "홍주성역사관",
+        "latitude": 36.60019715,
+        "homepage_url": "https://www.hongseong.go.kr/history/",
+        "sido": "충청남도"
+      },
+      "vector_rank": null,
+      "bm25_rank": 10,
+      "vector_distance": null,
+      "vector_score": null,
+      "bm25_score": 8.181180558386844,
+      "vector_document": "",
+      "bm25_document": "홍주성역사관은 홍성 홍주읍성 내 위치하고 있다. 지역의 전통을 부각시키면서 동시에 역사에 바탕을 둔 미래지향적인 시설로 구성되었으며, 역사관의 기본적 기능에 충실하여 전시 유물의 상징적 의미와 예술적 요소를 함축성 있게 표현하여 이를 바탕으로 군민 참여와 소통의 장이자 연구의 중심지로서 지역 정보 센터의 역할을 하고 있다. 홍성과 충남 내포지역의 특색 있는 역사와 문화, 관련 유적 및 유물을 소재로 전시를 하고 있다. 박물관 주변에 옛 홍주목 관련 흔적들이 남아 있어 전시와 연계한 볼거리가 마련되어 있다. 홍성 홍주읍성(사적 231호) 내 위치하고 있으며 전면적 7199.17㎡ 및 연면적 1669㎡ 로 구성되어 있다. 박물관이 홍주읍성 내에 위치하고 있고 주변에 옛 홍주목 관련 흔적들이 남아 있어 전시와 연계한 볼거리가 마련되어 있다.",
+      "best_span_id": "chroma:M0012",
+      "best_span_text": "홍주성역사관은 홍성 홍주읍성 내 위치하고 있다. 지역의 전통을 부각시키면서 동시에 역사에 바탕을 둔 미래지향적인 시설로 구성되었으며, 역사관의 기본적 기능에 충실하여 전시 유물의 상징적 의미와 예술적 요소를 함축성 있게 표현하여 이를 바탕으로 군민 참여와 소통의 장이자 연구의 중심지로서 지역 정보 센터의 역할을 하고 있다. 홍성과 충남 내포지역의 특색 있는 역사와 문화, 관련 유적 및 유물을 소재로 전시를 하고 있다. 박물관 주변에 옛 홍주목 관련 흔적들이 남아 있어 전시와 연계한 볼거리가 마련되어 있다. 홍성 홍주읍성(사적 231호) 내 위치하고 있으며 전면적 7199.17㎡ 및 연면적 1669㎡ 로 구성되어 있다. 박물관이 홍주읍성 내에 위치하고 있고 주변에 옛 홍주목 관련 흔적들이 남아 있어 전시와 연계한 볼거리가 마련되어 있다.",
+      "fusion_score": 0.014285714285714285,
+      "retrieved_by": [
+        "bm25"
+      ],
+      "fusion_rank": 18,
+      "rerank_score": 0.0018875665264204144,
+      "rank": 5,
+      "score": 0.0018875665264204144,
+      "score_type": "cross_encoder",
+      "distance": null,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "bm25"
+      ],
+      "retriever": "bm25",
+      "span_id": "chroma:M0012",
+      "source_doc_ids": [
+        "DOC-B0012-TOUR_API-2551494",
+        "DOC-B0012-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0012-TOUR_API-2551494",
+          "source_type": "TOUR_API",
+          "source_record_id": "2551494",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=10",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        },
+        {
+          "doc_id": "DOC-B0012-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0012",
+          "source_locator": "data/raw/museum_base_1070.csv#row=13",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 26,
+          "doc_ids": [
+            "DOC-B0012-TOUR_API-2551494"
+          ]
+        },
+        {
+          "start": 27,
+          "end": 181,
+          "doc_ids": [
+            "DOC-B0012-TOUR_API-2551494"
+          ]
+        },
+        {
+          "start": 182,
+          "end": 235,
+          "doc_ids": [
+            "DOC-B0012-BASE",
+            "DOC-B0012-TOUR_API-2551494"
+          ]
+        },
+        {
+          "start": 236,
+          "end": 285,
+          "doc_ids": [
+            "DOC-B0012-TOUR_API-2551494"
+          ]
+        },
+        {
+          "start": 286,
+          "end": 349,
+          "doc_ids": [
+            "DOC-B0012-BASE"
+          ]
+        },
+        {
+          "start": 350,
+          "end": 416,
+          "doc_ids": [
+            "DOC-B0012-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=10",
+      "text": "홍주성역사관은 홍성 홍주읍성 내 위치하고 있다. 지역의 전통을 부각시키면서 동시에 역사에 바탕을 둔 미래지향적인 시설로 구성되었으며, 역사관의 기본적 기능에 충실하여 전시 유물의 상징적 의미와 예술적 요소를 함축성 있게 표현하여 이를 바탕으로 군민 참여와 소통의 장이자 연구의 중심지로서 지역 정보 센터의 역할을 하고 있다. 홍성과 충남 내포지역의 특색 있는 역사와 문화, 관련 유적 및 유물을 소재로 전시를 하고 있다. 박물관 주변에 옛 홍주목 관련 흔적들이 남아 있어 전시와 연계한 볼거리가 마련되어 있다. 홍성 홍주읍성(사적 231호) 내 위치하고 있으며 전면적 7199.17㎡ 및 연면적 1669㎡ 로 구성되어 있다. 박물관이 홍주읍성 내에 위치하고 있고 주변에 옛 홍주목 관련 흔적들이 남아 있어 전시와 연계한 볼거리가 마련되어 있다.",
+      "sido": "충청남도",
+      "sigungu": "홍성군",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=10"
+      ],
+      "evidence_id": "E5",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=12",
+        "fields": {
+          "name": "홍주성역사관",
+          "sido": "충청남도",
+          "sigungu": "홍성군",
+          "address": "충청남도 홍성군 홍성읍 아문길 20",
+          "ownership_type": "공립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "09:00",
+          "weekday_close": "18:00",
+          "holiday_open": "09:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "월+1월 1일+설 연휴+추석 연휴"
+        },
+        "base_data_date": "2026-09-19",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    }
+  ],
+  "answer": "구미성리학역사관은 조선시대 성리학의 중심지였던 **구미 지역**의 역사와 문화를 발굴하고 실증하기 위해 설립되었습니다. [E1]",
+  "retrieval_status": "ok",
+  "answer_status": "answered",
+  "route": "hybrid",
+  "retry_count": 0,
+  "supervisor_verified": true,
+  "rerank_applied": true,
+  "retriever_errors": [],
+  "warnings": [],
+  "duration_ms": 133709.18,
+  "error_type": "",
+  "hit_at_1": 1,
+  "hit_at_3": 1,
+  "hit_at_5": 1,
+  "recall_at_5": 1.0,
+  "mrr_at_10": 1.0
+}

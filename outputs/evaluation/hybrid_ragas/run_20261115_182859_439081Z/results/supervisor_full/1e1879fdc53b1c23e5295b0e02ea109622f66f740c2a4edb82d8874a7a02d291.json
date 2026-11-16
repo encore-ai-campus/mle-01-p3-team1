@@ -1,0 +1,772 @@
+{
+  "evidence_context_version": "grounded-evidence-v2",
+  "evaluation_contexts": [
+    "{\"evidence_context_version\": \"grounded-evidence-v2\", \"evidence_id\": \"E1\", \"metadata_provenance\": {\"base_data_date\": \"2026-09-01\", \"fields\": {\"address\": \"경상남도 창원시 마산합포구 문신길105(추산동)\", \"adult_fee\": \"0\", \"adult_fee_status\": \"BASE_FEE_ZERO_CHECK_EXCEPTIONS\", \"child_fee\": \"0\", \"closure_rule_raw\": \"매주월+1월 1일+설날+추석당일\", \"holiday_close\": \"18:00\", \"holiday_open\": \"09:00\", \"name\": \"창원시립마산박물관\", \"ownership_type\": \"공립\", \"sido\": \"경상남도\", \"sigungu\": \"창원시\", \"weekday_close\": \"18:00\", \"weekday_open\": \"09:00\", \"youth_fee\": \"0\"}, \"source_kind\": \"derived_csv_row\", \"source_locator\": \"data/processed/museum_final_738.csv#record=17\", \"trust\": \"derived_dataset_not_human_verified\"}, \"museum_id\": \"M0017\", \"name\": \"창원시립마산박물관\", \"source_doc_ids\": [\"DOC-B0017-TOUR_API-130421\", \"DOC-B0017-BASE\"], \"source_documents\": [{\"doc_id\": \"DOC-B0017-TOUR_API-130421\", \"match_trust\": \"RECHECKED_BY_RULE_NOT_HUMAN_APPROVED\", \"source_locator\": \"data/raw/museum_tourapi_with_overview.csv#row=13\", \"source_record_id\": \"130421\", \"source_type\": \"TOUR_API\"}, {\"doc_id\": \"DOC-B0017-BASE\", \"match_trust\": \"BASE_SOURCE\", \"source_locator\": \"data/raw/museum_base_1070.csv#row=18\", \"source_record_id\": \"B0017\", \"source_type\": \"BASE\"}], \"source_locator\": \"data/raw/museum_tourapi_with_overview.csv#row=13\", \"source_locators\": [\"data/raw/museum_tourapi_with_overview.csv#row=13\"], \"source_scope\": \"text\", \"source_spans\": [{\"doc_ids\": [\"DOC-B0017-TOUR_API-130421\"], \"end\": 104, \"start\": 0}, {\"doc_ids\": [\"DOC-B0017-TOUR_API-130421\"], \"end\": 172, \"start\": 105}, {\"doc_ids\": [\"DOC-B0017-TOUR_API-130421\"], \"end\": 260, \"start\": 173}, {\"doc_ids\": [\"DOC-B0017-TOUR_API-130421\"], \"end\": 363, \"start\": 261}, {\"doc_ids\": [\"DOC-B0017-BASE\"], \"end\": 435, \"start\": 364}], \"source_urls\": [], \"text\": \"창원시립마산박물관은 급격한 현대화와 도시화의 물결속에서 사라져가는 우리지역의 문화유산을 수집∙보관∙전시∙교육하며, 지역민과 함께 지켜나가는 소중한 문화공간으로 2001년 9월 개관하였다. 전시실은 상설전시실과 기획전시실, 야외전시장으로 구성되어 있으며 이외에도 어린이도서실, 강의실 등의 시설을 갖추고 있다. 상설전시실은 각종 지역 출토 유물과 사진 자료, 설명문 등이 전시되어 있어 선사시대부터 근현대에 이르기까지 지역의 역사와 문화를 체계적으로 이해할 수 있다. 창원시립마산박물관은 역사문화 교육, 지역사 자료조사 활동, 문화행사 등 다양한 박물관 프로그램을 운영하여 지역문화 유산의 가치를 널리 알리고 지역문화 창조의 중추적 역할을 하고 있다. 마산시립박물관은 2001년 9월 12에 개관하였으며, 현대화와 도시화로 사라져가는 문화유산을 수집.보관.전시.교육하는 문화공간임\"}",
+    "{\"evidence_context_version\": \"grounded-evidence-v2\", \"evidence_id\": \"E2\", \"metadata_provenance\": {\"base_data_date\": \"2025-12-10\", \"fields\": {\"address\": \"충청남도 부여군 규암면 백제문로 553\", \"adult_fee\": \"6000\", \"adult_fee_status\": \"BASE_FEE_PAID\", \"child_fee\": \"5000\", \"closure_rule_raw\": \"설 연휴+추석 연휴\", \"holiday_close\": \"17:30\", \"holiday_open\": \"10:00\", \"name\": \"부여생활사박물관\", \"ownership_type\": \"사립\", \"sido\": \"충청남도\", \"sigungu\": \"부여군\", \"weekday_close\": \"17:30\", \"weekday_open\": \"10:00\", \"youth_fee\": \"5000\"}, \"source_kind\": \"derived_csv_row\", \"source_locator\": \"data/processed/museum_final_738.csv#record=478\", \"trust\": \"derived_dataset_not_human_verified\"}, \"museum_id\": \"M0690\", \"name\": \"부여생활사박물관\", \"source_doc_ids\": [\"DOC-B0690-BASE\"], \"source_documents\": [{\"doc_id\": \"DOC-B0690-BASE\", \"match_trust\": \"BASE_SOURCE\", \"source_locator\": \"data/raw/museum_base_1070.csv#row=691\", \"source_record_id\": \"B0690\", \"source_type\": \"BASE\"}], \"source_locator\": \"data/raw/museum_base_1070.csv#row=691\", \"source_locators\": [\"data/raw/museum_base_1070.csv#row=691\"], \"source_scope\": \"text\", \"source_spans\": [{\"doc_ids\": [\"DOC-B0690-BASE\"], \"end\": 34, \"start\": 0}], \"source_urls\": [], \"text\": \"선사시대부터 근현대까지 선조들의 삶과 관련된 다양한 유물 전시\"}",
+    "{\"evidence_context_version\": \"grounded-evidence-v2\", \"evidence_id\": \"E3\", \"metadata_provenance\": {\"base_data_date\": \"2026-06-10\", \"fields\": {\"address\": \"강원특별자치도 춘천시 한림대학길 1\", \"adult_fee\": \"0\", \"adult_fee_status\": \"BASE_FEE_ZERO_CHECK_EXCEPTIONS\", \"child_fee\": \"0\", \"closure_rule_raw\": \"금+토+일+공휴일+추석연휴+설연휴+시험 및 방학기간+휴관 시에도 단체예약 시 관람 가능\", \"holiday_close\": \"00:00\", \"holiday_open\": \"00:00\", \"name\": \"한림대학교박물관\", \"ownership_type\": \"대학\", \"sido\": \"강원특별자치도\", \"sigungu\": \"춘천시\", \"weekday_close\": \"16:00\", \"weekday_open\": \"10:00\", \"youth_fee\": \"0\"}, \"source_kind\": \"derived_csv_row\", \"source_locator\": \"data/processed/museum_final_738.csv#record=265\", \"trust\": \"derived_dataset_not_human_verified\"}, \"museum_id\": \"M0363\", \"name\": \"한림대학교박물관\", \"source_doc_ids\": [\"DOC-B0363-TOUR_API-129819\", \"DOC-B0363-BASE\"], \"source_documents\": [{\"doc_id\": \"DOC-B0363-TOUR_API-129819\", \"match_trust\": \"RECHECKED_BY_RULE_NOT_HUMAN_APPROVED\", \"source_locator\": \"data/raw/museum_tourapi_with_overview.csv#row=172\", \"source_record_id\": \"129819\", \"source_type\": \"TOUR_API\"}, {\"doc_id\": \"DOC-B0363-BASE\", \"match_trust\": \"BASE_SOURCE\", \"source_locator\": \"data/raw/museum_base_1070.csv#row=364\", \"source_record_id\": \"B0363\", \"source_type\": \"BASE\"}], \"source_locator\": \"data/raw/museum_tourapi_with_overview.csv#row=172\", \"source_locators\": [\"data/raw/museum_tourapi_with_overview.csv#row=172\"], \"source_scope\": \"text\", \"source_spans\": [{\"doc_ids\": [\"DOC-B0363-TOUR_API-129819\"], \"end\": 156, \"start\": 0}, {\"doc_ids\": [\"DOC-B0363-TOUR_API-129819\"], \"end\": 206, \"start\": 157}, {\"doc_ids\": [\"DOC-B0363-TOUR_API-129819\"], \"end\": 303, \"start\": 207}, {\"doc_ids\": [\"DOC-B0363-TOUR_API-129819\"], \"end\": 435, \"start\": 304}, {\"doc_ids\": [\"DOC-B0363-TOUR_API-129819\"], \"end\": 499, \"start\": 436}, {\"doc_ids\": [\"DOC-B0363-TOUR_API-129819\"], \"end\": 547, \"start\": 500}, {\"doc_ids\": [\"DOC-B0363-TOUR_API-129819\"], \"end\": 676, \"start\": 548}, {\"doc_ids\": [\"DOC-B0363-BASE\"], \"end\": 730, \"start\": 677}], \"source_urls\": [], \"text\": \"한림대학교 박물관은 선사와 역사시대의 유물과 민속품 등을 수집 정리하고, 보전과 전시를 통해 학내 구성원뿐 아니라 지역주민에게 역사 문화를 이해할 수 있는 장을 마련하고, 국가유산에 대한 조사와 연구를 통해 우리 역사연구에 기여하고자 1988년 한림대학교 부속기관으로 개관하였다. 제1전시실은 고고역사실, 제2전시실은 민속·공예실, 그리고 야외전시장 등을 갖추고 있다. 소장 유물로는 도기류, 토기류, 고서화 등 1,700여 점을 비롯하여, 강원도 및 주변 지역에 대한 발굴조사에서 출토된 3,000여 점의 국가귀속유물을 보관 관리하고 있다. 대표적인 전시유물로는 춘천 신매리와 천전리 유적, 양주 대모산성과 강화 외규장각지 유적 등지에서 출토된 선사시대부터 역사시대에 이르는 유물과 백제·신라·가야의 고대 토기류, 고려 시대 자기류, 조선시대의 명기와 장롱 등 민속품이 있다. 상설전시로는 구석기부터 조선시대에 이르는 유물들이 있으며 매년 1~2회의 기획 전시를 봄과 가을에 개최하고 있다. 기획 전시기간에는 ‘큐레이터와의 대화’라는 전시유물 설명회를 주 1회 개최하고 있다. 이 외에도 지역 청소년을 대상으로 하는 ‘상상을 담는 박물관’ 등의 교육 프로그램과 가족 대상 프로그램, 진로교육 프로그램을 운영 중이며 지역민을 대상으로 시민 박물관 대학 강좌와 문화콘텐츠 메이커스의 문화 행사도 운영하고 있다. 도토기류ㆍ고서화 등 1700여 점을 비롯하여 3000여 점의 국가귀속 유물을 보관 관리하고 있음\"}",
+    "{\"evidence_context_version\": \"grounded-evidence-v2\", \"evidence_id\": \"E4\", \"metadata_provenance\": {\"base_data_date\": \"2026-01-02\", \"fields\": {\"address\": \"경기도 안양시 만안구 예술공원로103번길 4\", \"adult_fee\": \"0\", \"adult_fee_status\": \"BASE_FEE_ZERO_CHECK_EXCEPTIONS\", \"amenities_raw\": \"문화상품점+황토마루카페+물품보관소+응급대기실+수유실+자전거보관대\", \"child_fee\": \"0\", \"closure_rule_raw\": \"매주 월요일\", \"holiday_close\": \"17:30\", \"holiday_open\": \"09:30\", \"name\": \"안양박물관\", \"ownership_type\": \"공립\", \"sido\": \"경기도\", \"sigungu\": \"안양시\", \"weekday_close\": \"17:30\", \"weekday_open\": \"09:30\", \"youth_fee\": \"0\"}, \"source_kind\": \"derived_csv_row\", \"source_locator\": \"data/processed/museum_final_738.csv#record=425\", \"trust\": \"derived_dataset_not_human_verified\"}, \"museum_id\": \"M0606\", \"name\": \"안양박물관\", \"source_doc_ids\": [\"DOC-B0606-TOUR_API-3008259\"], \"source_documents\": [{\"doc_id\": \"DOC-B0606-TOUR_API-3008259\", \"match_trust\": \"RECHECKED_BY_RULE_NOT_HUMAN_APPROVED\", \"source_locator\": \"data/raw/museum_tourapi_with_overview.csv#row=302\", \"source_record_id\": \"3008259\", \"source_type\": \"TOUR_API\"}], \"source_locator\": \"data/raw/museum_tourapi_with_overview.csv#row=302\", \"source_locators\": [\"data/raw/museum_tourapi_with_overview.csv#row=302\"], \"source_scope\": \"text\", \"source_spans\": [{\"doc_ids\": [\"DOC-B0606-TOUR_API-3008259\"], \"end\": 43, \"start\": 0}, {\"doc_ids\": [\"DOC-B0606-TOUR_API-3008259\"], \"end\": 118, \"start\": 44}, {\"doc_ids\": [\"DOC-B0606-TOUR_API-3008259\"], \"end\": 191, \"start\": 119}, {\"doc_ids\": [\"DOC-B0606-TOUR_API-3008259\"], \"end\": 291, \"start\": 192}, {\"doc_ids\": [\"DOC-B0606-TOUR_API-3008259\"], \"end\": 378, \"start\": 292}], \"source_urls\": [], \"text\": \"선사시대부터 근현대까지 이어지는 안양의 역사와 문화를 살펴보는 공립박물관이다. 2004년 평촌아트홀에서 안양역사관으로 개관했으며, 2017년 옛 유유산업 안양공장 부지로 이전해 안양박물관으로 새롭게 문을 열었다. 상설전시는 선사·삼국시대의 삶의 시작, 통일신라·고려시대의 안양의 기원, 조선시대의 문화 전승, 근현대 도시의 성장으로 구성된다. 관양동 선사유적과 중초사지 당간지주, 안양사 명문기와 등 지역의 유물과 자료를 비롯해 안양사지 발굴 과정, 석수동 마애종과 안양사 칠층전탑 등을 다룬 영상 콘텐츠도 볼 수 있다. 건물은 김중업이 설계한 옛 공장 건축물을 활용했으며, 부지 안의 중초사지 당간지주와 삼층석탑, 인접한 김중업건축박물관과 안양예술공원을 함께 둘러보기 좋다.\"}",
+    "{\"evidence_context_version\": \"grounded-evidence-v2\", \"evidence_id\": \"E5\", \"metadata_provenance\": {\"base_data_date\": \"2026-07-30\", \"fields\": {\"address\": \"강원특별자치도 양양군 손양면 학포길 33\", \"adult_fee\": \"0\", \"adult_fee_status\": \"BASE_FEE_ZERO_CHECK_EXCEPTIONS\", \"amenities_raw\": \"주차장+화장실+자전거보관대\", \"child_fee\": \"0\", \"closure_rule_raw\": \"연중무휴\", \"holiday_close\": \"18:00\", \"holiday_open\": \"09:00\", \"name\": \"오산리선사유적박물관\", \"ownership_type\": \"공립\", \"sido\": \"강원특별자치도\", \"sigungu\": \"양양군\", \"weekday_close\": \"18:00\", \"weekday_open\": \"09:00\", \"youth_fee\": \"0\"}, \"source_kind\": \"derived_csv_row\", \"source_locator\": \"data/processed/museum_final_738.csv#record=134\", \"trust\": \"derived_dataset_not_human_verified\"}, \"museum_id\": \"M0205\", \"name\": \"오산리선사유적박물관\", \"source_doc_ids\": [\"DOC-B0205-TOUR_API-130930\", \"DOC-B0205-BASE\"], \"source_documents\": [{\"doc_id\": \"DOC-B0205-TOUR_API-130930\", \"match_trust\": \"AUTO_MATCH_NOT_HUMAN_VERIFIED\", \"source_locator\": \"data/raw/museum_tourapi_with_overview.csv#row=100\", \"source_record_id\": \"130930\", \"source_type\": \"TOUR_API\"}, {\"doc_id\": \"DOC-B0205-BASE\", \"match_trust\": \"BASE_SOURCE\", \"source_locator\": \"data/raw/museum_base_1070.csv#row=206\", \"source_record_id\": \"B0205\", \"source_type\": \"BASE\"}], \"source_locator\": \"data/raw/museum_tourapi_with_overview.csv#row=100\", \"source_locators\": [\"data/raw/museum_tourapi_with_overview.csv#row=100\"], \"source_scope\": \"text\", \"source_spans\": [{\"doc_ids\": [\"DOC-B0205-TOUR_API-130930\"], \"end\": 43, \"start\": 0}, {\"doc_ids\": [\"DOC-B0205-TOUR_API-130930\"], \"end\": 132, \"start\": 44}, {\"doc_ids\": [\"DOC-B0205-TOUR_API-130930\"], \"end\": 212, \"start\": 133}, {\"doc_ids\": [\"DOC-B0205-TOUR_API-130930\"], \"end\": 249, \"start\": 213}, {\"doc_ids\": [\"DOC-B0205-TOUR_API-130930\"], \"end\": 306, \"start\": 250}, {\"doc_ids\": [\"DOC-B0205-TOUR_API-130930\"], \"end\": 382, \"start\": 307}, {\"doc_ids\": [\"DOC-B0205-TOUR_API-130930\"], \"end\": 410, \"start\": 383}, {\"doc_ids\": [\"DOC-B0205-TOUR_API-130930\"], \"end\": 440, \"start\": 411}, {\"doc_ids\": [\"DOC-B0205-TOUR_API-130930\"], \"end\": 485, \"start\": 441}, {\"doc_ids\": [\"DOC-B0205-BASE\"], \"end\": 557, \"start\": 486}], \"source_urls\": [], \"text\": \"오산리선사유적박물관은 양양 오산리 유적에서 출토된 유물을 보관·전시·연구한다. 양양 오산리 유적은 박물관 일대를 둘러싼 습지 ‘쌍호’를 매립하는 과정에서 발굴된 약 8,000년 전 신석기 유물로, 우리나라 신석기시대를 대표하는 유적이다. 덧무늬 토기, 돌화살촉, 그물추 등 출토된 유물 4만여 점으로 보아 오산리에 살던 신석기인들이 어로와 수렵, 채집 생활을 했음을 알 수 있다. 박물관은 전시실, 야외 전시실, 수장고, 학예연구실 등을 갖췄다. 제1전시실은 어로, 채집, 토기 제작 등 오산리 신석기인들의 생활상을 디오라마 형태로 전시하고 있다. 제2전시실은 강원 영동 지역의 선사 문화를 소개하는 공간으로, 신석기시대부터 철기 시대에 걸쳐 양양, 강릉, 고성의 유물을 모아놓았다. 야외 전시실에는 쌍호, 탐방로, 움집이 자리한다. 너른 습지인 쌍호는 ‘움직이는 갈대숲’으로 유명하다. 습지 위에 섬처럼 떠 있는 갈대 군락지가 바람이 불면 움직이는 모습이 신비롭다. 2007년 개관, 오산리 유적 및 지역 출토 선사 유물 전시, 사적 제394호 오산리 유적 내 위치, 야외시설, 쌍호 탐방로 등\"}"
+  ],
+  "mode": "supervisor_full",
+  "question_id": "Q013",
+  "evidence": [
+    {
+      "museum_id": "M0017",
+      "name": "창원시립마산박물관",
+      "document": "창원시립마산박물관은 급격한 현대화와 도시화의 물결속에서 사라져가는 우리지역의 문화유산을 수집∙보관∙전시∙교육하며, 지역민과 함께 지켜나가는 소중한 문화공간으로 2001년 9월 개관하였다. 전시실은 상설전시실과 기획전시실, 야외전시장으로 구성되어 있으며 이외에도 어린이도서실, 강의실 등의 시설을 갖추고 있다. 상설전시실은 각종 지역 출토 유물과 사진 자료, 설명문 등이 전시되어 있어 선사시대부터 근현대에 이르기까지 지역의 역사와 문화를 체계적으로 이해할 수 있다. 창원시립마산박물관은 역사문화 교육, 지역사 자료조사 활동, 문화행사 등 다양한 박물관 프로그램을 운영하여 지역문화 유산의 가치를 널리 알리고 지역문화 창조의 중추적 역할을 하고 있다. 마산시립박물관은 2001년 9월 12에 개관하였으며, 현대화와 도시화로 사라져가는 문화유산을 수집.보관.전시.교육하는 문화공간임",
+      "metadata": {
+        "ownership_type": "공립",
+        "holiday_open": "09:00",
+        "image_url": "http://tong.visitkorea.or.kr/cms/resource/10/3564710_image2_1.jpg",
+        "sido": "경상남도",
+        "sigungu": "창원시",
+        "holiday_close": "18:00",
+        "longitude": 128.5689101,
+        "closure_rule_raw": "매주월+1월 1일+설날+추석당일",
+        "source_types": "BASE|TOUR_API",
+        "weekday_close": "18:00",
+        "homepage_url": "https://www.changwon.go.kr/cwportal/depart/11062/11381/11383.web",
+        "address": "경상남도 창원시 마산합포구 문신길105(추산동)",
+        "latitude": 35.20567156,
+        "youth_fee": 0.0,
+        "name": "창원시립마산박물관",
+        "requires_manual_review": true,
+        "image_copyright": "Type1",
+        "child_fee": 0.0,
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "transport_notes": "창원시립마산박물관 271번",
+        "weekday_open": "09:00",
+        "adult_fee": 0.0
+      },
+      "vector_rank": null,
+      "bm25_rank": 1,
+      "vector_distance": null,
+      "vector_score": null,
+      "bm25_score": 22.20236953212443,
+      "vector_document": "",
+      "bm25_document": "창원시립마산박물관은 급격한 현대화와 도시화의 물결속에서 사라져가는 우리지역의 문화유산을 수집∙보관∙전시∙교육하며, 지역민과 함께 지켜나가는 소중한 문화공간으로 2001년 9월 개관하였다. 전시실은 상설전시실과 기획전시실, 야외전시장으로 구성되어 있으며 이외에도 어린이도서실, 강의실 등의 시설을 갖추고 있다. 상설전시실은 각종 지역 출토 유물과 사진 자료, 설명문 등이 전시되어 있어 선사시대부터 근현대에 이르기까지 지역의 역사와 문화를 체계적으로 이해할 수 있다. 창원시립마산박물관은 역사문화 교육, 지역사 자료조사 활동, 문화행사 등 다양한 박물관 프로그램을 운영하여 지역문화 유산의 가치를 널리 알리고 지역문화 창조의 중추적 역할을 하고 있다. 마산시립박물관은 2001년 9월 12에 개관하였으며, 현대화와 도시화로 사라져가는 문화유산을 수집.보관.전시.교육하는 문화공간임",
+      "best_span_id": "chroma:M0017",
+      "best_span_text": "창원시립마산박물관은 급격한 현대화와 도시화의 물결속에서 사라져가는 우리지역의 문화유산을 수집∙보관∙전시∙교육하며, 지역민과 함께 지켜나가는 소중한 문화공간으로 2001년 9월 개관하였다. 전시실은 상설전시실과 기획전시실, 야외전시장으로 구성되어 있으며 이외에도 어린이도서실, 강의실 등의 시설을 갖추고 있다. 상설전시실은 각종 지역 출토 유물과 사진 자료, 설명문 등이 전시되어 있어 선사시대부터 근현대에 이르기까지 지역의 역사와 문화를 체계적으로 이해할 수 있다. 창원시립마산박물관은 역사문화 교육, 지역사 자료조사 활동, 문화행사 등 다양한 박물관 프로그램을 운영하여 지역문화 유산의 가치를 널리 알리고 지역문화 창조의 중추적 역할을 하고 있다. 마산시립박물관은 2001년 9월 12에 개관하였으며, 현대화와 도시화로 사라져가는 문화유산을 수집.보관.전시.교육하는 문화공간임",
+      "fusion_score": 0.01639344262295082,
+      "retrieved_by": [
+        "bm25"
+      ],
+      "fusion_rank": 5,
+      "rerank_score": 0.9992913007736206,
+      "rank": 1,
+      "score": 0.9992913007736206,
+      "score_type": "cross_encoder",
+      "distance": null,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "bm25"
+      ],
+      "retriever": "bm25",
+      "span_id": "chroma:M0017",
+      "source_doc_ids": [
+        "DOC-B0017-TOUR_API-130421",
+        "DOC-B0017-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0017-TOUR_API-130421",
+          "source_type": "TOUR_API",
+          "source_record_id": "130421",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=13",
+          "match_trust": "RECHECKED_BY_RULE_NOT_HUMAN_APPROVED"
+        },
+        {
+          "doc_id": "DOC-B0017-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0017",
+          "source_locator": "data/raw/museum_base_1070.csv#row=18",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 104,
+          "doc_ids": [
+            "DOC-B0017-TOUR_API-130421"
+          ]
+        },
+        {
+          "start": 105,
+          "end": 172,
+          "doc_ids": [
+            "DOC-B0017-TOUR_API-130421"
+          ]
+        },
+        {
+          "start": 173,
+          "end": 260,
+          "doc_ids": [
+            "DOC-B0017-TOUR_API-130421"
+          ]
+        },
+        {
+          "start": 261,
+          "end": 363,
+          "doc_ids": [
+            "DOC-B0017-TOUR_API-130421"
+          ]
+        },
+        {
+          "start": 364,
+          "end": 435,
+          "doc_ids": [
+            "DOC-B0017-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=13",
+      "text": "창원시립마산박물관은 급격한 현대화와 도시화의 물결속에서 사라져가는 우리지역의 문화유산을 수집∙보관∙전시∙교육하며, 지역민과 함께 지켜나가는 소중한 문화공간으로 2001년 9월 개관하였다. 전시실은 상설전시실과 기획전시실, 야외전시장으로 구성되어 있으며 이외에도 어린이도서실, 강의실 등의 시설을 갖추고 있다. 상설전시실은 각종 지역 출토 유물과 사진 자료, 설명문 등이 전시되어 있어 선사시대부터 근현대에 이르기까지 지역의 역사와 문화를 체계적으로 이해할 수 있다. 창원시립마산박물관은 역사문화 교육, 지역사 자료조사 활동, 문화행사 등 다양한 박물관 프로그램을 운영하여 지역문화 유산의 가치를 널리 알리고 지역문화 창조의 중추적 역할을 하고 있다. 마산시립박물관은 2001년 9월 12에 개관하였으며, 현대화와 도시화로 사라져가는 문화유산을 수집.보관.전시.교육하는 문화공간임",
+      "sido": "경상남도",
+      "sigungu": "창원시",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=13"
+      ],
+      "evidence_id": "E1",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=17",
+        "fields": {
+          "name": "창원시립마산박물관",
+          "sido": "경상남도",
+          "sigungu": "창원시",
+          "address": "경상남도 창원시 마산합포구 문신길105(추산동)",
+          "ownership_type": "공립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "09:00",
+          "weekday_close": "18:00",
+          "holiday_open": "09:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "매주월+1월 1일+설날+추석당일"
+        },
+        "base_data_date": "2026-09-01",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0690",
+      "name": "부여생활사박물관",
+      "document": "선사시대부터 근현대까지 선조들의 삶과 관련된 다양한 유물 전시",
+      "metadata": {
+        "child_fee": 5000.0,
+        "adult_fee_status": "BASE_FEE_PAID",
+        "weekday_open": "10:00",
+        "ownership_type": "사립",
+        "youth_fee": 5000.0,
+        "weekday_close": "17:30",
+        "address": "충청남도 부여군 규암면 백제문로 553",
+        "name": "부여생활사박물관",
+        "holiday_close": "17:30",
+        "sido": "충청남도",
+        "source_types": "BASE",
+        "adult_fee": 6000.0,
+        "requires_manual_review": true,
+        "sigungu": "부여군",
+        "longitude": 126.9169635,
+        "holiday_open": "10:00",
+        "closure_rule_raw": "설 연휴+추석 연휴",
+        "latitude": 36.3065313
+      },
+      "vector_rank": 1,
+      "bm25_rank": null,
+      "vector_distance": 0.43582361936569214,
+      "vector_score": null,
+      "bm25_score": null,
+      "vector_document": "선사시대부터 근현대까지 선조들의 삶과 관련된 다양한 유물 전시",
+      "bm25_document": "",
+      "best_span_id": null,
+      "best_span_text": null,
+      "fusion_score": 0.01639344262295082,
+      "retrieved_by": [
+        "vector"
+      ],
+      "fusion_rank": 4,
+      "rerank_score": 0.7881215810775757,
+      "rank": 2,
+      "score": 0.7881215810775757,
+      "score_type": "cross_encoder",
+      "distance": 0.43582361936569214,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector"
+      ],
+      "retriever": "vector",
+      "source_doc_ids": [
+        "DOC-B0690-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0690-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0690",
+          "source_locator": "data/raw/museum_base_1070.csv#row=691",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 34,
+          "doc_ids": [
+            "DOC-B0690-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_base_1070.csv#row=691",
+      "text": "선사시대부터 근현대까지 선조들의 삶과 관련된 다양한 유물 전시",
+      "sido": "충청남도",
+      "sigungu": "부여군",
+      "span_id": "",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_base_1070.csv#row=691"
+      ],
+      "evidence_id": "E2",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=478",
+        "fields": {
+          "name": "부여생활사박물관",
+          "sido": "충청남도",
+          "sigungu": "부여군",
+          "address": "충청남도 부여군 규암면 백제문로 553",
+          "ownership_type": "사립",
+          "adult_fee": "6000",
+          "youth_fee": "5000",
+          "child_fee": "5000",
+          "adult_fee_status": "BASE_FEE_PAID",
+          "weekday_open": "10:00",
+          "weekday_close": "17:30",
+          "holiday_open": "10:00",
+          "holiday_close": "17:30",
+          "closure_rule_raw": "설 연휴+추석 연휴"
+        },
+        "base_data_date": "2025-12-10",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0363",
+      "name": "한림대학교박물관",
+      "document": "한림대학교 박물관은 선사와 역사시대의 유물과 민속품 등을 수집 정리하고, 보전과 전시를 통해 학내 구성원뿐 아니라 지역주민에게 역사 문화를 이해할 수 있는 장을 마련하고, 국가유산에 대한 조사와 연구를 통해 우리 역사연구에 기여하고자 1988년 한림대학교 부속기관으로 개관하였다. 제1전시실은 고고역사실, 제2전시실은 민속·공예실, 그리고 야외전시장 등을 갖추고 있다. 소장 유물로는 도기류, 토기류, 고서화 등 1,700여 점을 비롯하여, 강원도 및 주변 지역에 대한 발굴조사에서 출토된 3,000여 점의 국가귀속유물을 보관 관리하고 있다. 대표적인 전시유물로는 춘천 신매리와 천전리 유적, 양주 대모산성과 강화 외규장각지 유적 등지에서 출토된 선사시대부터 역사시대에 이르는 유물과 백제·신라·가야의 고대 토기류, 고려 시대 자기류, 조선시대의 명기와 장롱 등 민속품이 있다. 상설전시로는 구석기부터 조선시대에 이르는 유물들이 있으며 매년 1~2회의 기획 전시를 봄과 가을에 개최하고 있다. 기획 전시기간에는 ‘큐레이터와의 대화’라는 전시유물 설명회를 주 1회 개최하고 있다. 이 외에도 지역 청소년을 대상으로 하는 ‘상상을 담는 박물관’ 등의 교육 프로그램과 가족 대상 프로그램, 진로교육 프로그램을 운영 중이며 지역민을 대상으로 시민 박물관 대학 강좌와 문화콘텐츠 메이커스의 문화 행사도 운영하고 있다. 도토기류ㆍ고서화 등 1700여 점을 비롯하여 3000여 점의 국가귀속 유물을 보관 관리하고 있음",
+      "metadata": {
+        "latitude": 37.885427,
+        "image_copyright": "Type3",
+        "fee_notes": "전부 무료",
+        "name": "한림대학교박물관",
+        "adult_fee": 0.0,
+        "sido": "강원특별자치도",
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "child_fee": 0.0,
+        "weekday_close": "16:00",
+        "holiday_close": "00:00",
+        "closure_rule_raw": "금+토+일+공휴일+추석연휴+설연휴+시험 및 방학기간+휴관 시에도 단체예약 시 관람 가능",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/49/3381649_image2_1.JPG",
+        "weekday_open": "10:00",
+        "holiday_open": "00:00",
+        "youth_fee": 0.0,
+        "sigungu": "춘천시",
+        "source_types": "BASE|TOUR_API",
+        "requires_manual_review": true,
+        "ownership_type": "대학",
+        "address": "강원특별자치도 춘천시 한림대학길 1",
+        "transport_notes": "1)대중교통 : 춘천역 - 시내간선 300번, 지선 12, 12-S - 한림대학교 정류장 하차+2)승용차  : 서울양양고속도로(남춘천IC), 일반도로(46번경춘국도-403번도로)",
+        "homepage_url": "http://museum.hallym.ac.kr",
+        "longitude": 127.734959
+      },
+      "vector_rank": null,
+      "bm25_rank": 8,
+      "vector_distance": null,
+      "vector_score": null,
+      "bm25_score": 14.842702738009361,
+      "vector_document": "",
+      "bm25_document": "한림대학교 박물관은 선사와 역사시대의 유물과 민속품 등을 수집 정리하고, 보전과 전시를 통해 학내 구성원뿐 아니라 지역주민에게 역사 문화를 이해할 수 있는 장을 마련하고, 국가유산에 대한 조사와 연구를 통해 우리 역사연구에 기여하고자 1988년 한림대학교 부속기관으로 개관하였다. 제1전시실은 고고역사실, 제2전시실은 민속·공예실, 그리고 야외전시장 등을 갖추고 있다. 소장 유물로는 도기류, 토기류, 고서화 등 1,700여 점을 비롯하여, 강원도 및 주변 지역에 대한 발굴조사에서 출토된 3,000여 점의 국가귀속유물을 보관 관리하고 있다. 대표적인 전시유물로는 춘천 신매리와 천전리 유적, 양주 대모산성과 강화 외규장각지 유적 등지에서 출토된 선사시대부터 역사시대에 이르는 유물과 백제·신라·가야의 고대 토기류, 고려 시대 자기류, 조선시대의 명기와 장롱 등 민속품이 있다. 상설전시로는 구석기부터 조선시대에 이르는 유물들이 있으며 매년 1~2회의 기획 전시를 봄과 가을에 개최하고 있다. 기획 전시기간에는 ‘큐레이터와의 대화’라는 전시유물 설명회를 주 1회 개최하고 있다. 이 외에도 지역 청소년을 대상으로 하는 ‘상상을 담는 박물관’ 등의 교육 프로그램과 가족 대상 프로그램, 진로교육 프로그램을 운영 중이며 지역민을 대상으로 시민 박물관 대학 강좌와 문화콘텐츠 메이커스의 문화 행사도 운영하고 있다. 도토기류ㆍ고서화 등 1700여 점을 비롯하여 3000여 점의 국가귀속 유물을 보관 관리하고 있음",
+      "best_span_id": "chroma:M0363",
+      "best_span_text": "한림대학교 박물관은 선사와 역사시대의 유물과 민속품 등을 수집 정리하고, 보전과 전시를 통해 학내 구성원뿐 아니라 지역주민에게 역사 문화를 이해할 수 있는 장을 마련하고, 국가유산에 대한 조사와 연구를 통해 우리 역사연구에 기여하고자 1988년 한림대학교 부속기관으로 개관하였다. 제1전시실은 고고역사실, 제2전시실은 민속·공예실, 그리고 야외전시장 등을 갖추고 있다. 소장 유물로는 도기류, 토기류, 고서화 등 1,700여 점을 비롯하여, 강원도 및 주변 지역에 대한 발굴조사에서 출토된 3,000여 점의 국가귀속유물을 보관 관리하고 있다. 대표적인 전시유물로는 춘천 신매리와 천전리 유적, 양주 대모산성과 강화 외규장각지 유적 등지에서 출토된 선사시대부터 역사시대에 이르는 유물과 백제·신라·가야의 고대 토기류, 고려 시대 자기류, 조선시대의 명기와 장롱 등 민속품이 있다. 상설전시로는 구석기부터 조선시대에 이르는 유물들이 있으며 매년 1~2회의 기획 전시를 봄과 가을에 개최하고 있다. 기획 전시기간에는 ‘큐레이터와의 대화’라는 전시유물 설명회를 주 1회 개최하고 있다. 이 외에도 지역 청소년을 대상으로 하는 ‘상상을 담는 박물관’ 등의 교육 프로그램과 가족 대상 프로그램, 진로교육 프로그램을 운영 중이며 지역민을 대상으로 시민 박물관 대학 강좌와 문화콘텐츠 메이커스의 문화 행사도 운영하고 있다. 도토기류ㆍ고서화 등 1700여 점을 비롯하여 3000여 점의 국가귀속 유물을 보관 관리하고 있음",
+      "fusion_score": 0.014705882352941176,
+      "retrieved_by": [
+        "bm25"
+      ],
+      "fusion_rank": 17,
+      "rerank_score": 0.753172755241394,
+      "rank": 3,
+      "score": 0.753172755241394,
+      "score_type": "cross_encoder",
+      "distance": null,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "bm25"
+      ],
+      "retriever": "bm25",
+      "span_id": "chroma:M0363",
+      "source_doc_ids": [
+        "DOC-B0363-TOUR_API-129819",
+        "DOC-B0363-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0363-TOUR_API-129819",
+          "source_type": "TOUR_API",
+          "source_record_id": "129819",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=172",
+          "match_trust": "RECHECKED_BY_RULE_NOT_HUMAN_APPROVED"
+        },
+        {
+          "doc_id": "DOC-B0363-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0363",
+          "source_locator": "data/raw/museum_base_1070.csv#row=364",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 156,
+          "doc_ids": [
+            "DOC-B0363-TOUR_API-129819"
+          ]
+        },
+        {
+          "start": 157,
+          "end": 206,
+          "doc_ids": [
+            "DOC-B0363-TOUR_API-129819"
+          ]
+        },
+        {
+          "start": 207,
+          "end": 303,
+          "doc_ids": [
+            "DOC-B0363-TOUR_API-129819"
+          ]
+        },
+        {
+          "start": 304,
+          "end": 435,
+          "doc_ids": [
+            "DOC-B0363-TOUR_API-129819"
+          ]
+        },
+        {
+          "start": 436,
+          "end": 499,
+          "doc_ids": [
+            "DOC-B0363-TOUR_API-129819"
+          ]
+        },
+        {
+          "start": 500,
+          "end": 547,
+          "doc_ids": [
+            "DOC-B0363-TOUR_API-129819"
+          ]
+        },
+        {
+          "start": 548,
+          "end": 676,
+          "doc_ids": [
+            "DOC-B0363-TOUR_API-129819"
+          ]
+        },
+        {
+          "start": 677,
+          "end": 730,
+          "doc_ids": [
+            "DOC-B0363-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=172",
+      "text": "한림대학교 박물관은 선사와 역사시대의 유물과 민속품 등을 수집 정리하고, 보전과 전시를 통해 학내 구성원뿐 아니라 지역주민에게 역사 문화를 이해할 수 있는 장을 마련하고, 국가유산에 대한 조사와 연구를 통해 우리 역사연구에 기여하고자 1988년 한림대학교 부속기관으로 개관하였다. 제1전시실은 고고역사실, 제2전시실은 민속·공예실, 그리고 야외전시장 등을 갖추고 있다. 소장 유물로는 도기류, 토기류, 고서화 등 1,700여 점을 비롯하여, 강원도 및 주변 지역에 대한 발굴조사에서 출토된 3,000여 점의 국가귀속유물을 보관 관리하고 있다. 대표적인 전시유물로는 춘천 신매리와 천전리 유적, 양주 대모산성과 강화 외규장각지 유적 등지에서 출토된 선사시대부터 역사시대에 이르는 유물과 백제·신라·가야의 고대 토기류, 고려 시대 자기류, 조선시대의 명기와 장롱 등 민속품이 있다. 상설전시로는 구석기부터 조선시대에 이르는 유물들이 있으며 매년 1~2회의 기획 전시를 봄과 가을에 개최하고 있다. 기획 전시기간에는 ‘큐레이터와의 대화’라는 전시유물 설명회를 주 1회 개최하고 있다. 이 외에도 지역 청소년을 대상으로 하는 ‘상상을 담는 박물관’ 등의 교육 프로그램과 가족 대상 프로그램, 진로교육 프로그램을 운영 중이며 지역민을 대상으로 시민 박물관 대학 강좌와 문화콘텐츠 메이커스의 문화 행사도 운영하고 있다. 도토기류ㆍ고서화 등 1700여 점을 비롯하여 3000여 점의 국가귀속 유물을 보관 관리하고 있음",
+      "sido": "강원특별자치도",
+      "sigungu": "춘천시",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=172"
+      ],
+      "evidence_id": "E3",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=265",
+        "fields": {
+          "name": "한림대학교박물관",
+          "sido": "강원특별자치도",
+          "sigungu": "춘천시",
+          "address": "강원특별자치도 춘천시 한림대학길 1",
+          "ownership_type": "대학",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "10:00",
+          "weekday_close": "16:00",
+          "holiday_open": "00:00",
+          "holiday_close": "00:00",
+          "closure_rule_raw": "금+토+일+공휴일+추석연휴+설연휴+시험 및 방학기간+휴관 시에도 단체예약 시 관람 가능"
+        },
+        "base_data_date": "2026-06-10",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0606",
+      "name": "안양박물관",
+      "document": "선사시대부터 근현대까지 이어지는 안양의 역사와 문화를 살펴보는 공립박물관이다. 2004년 평촌아트홀에서 안양역사관으로 개관했으며, 2017년 옛 유유산업 안양공장 부지로 이전해 안양박물관으로 새롭게 문을 열었다. 상설전시는 선사·삼국시대의 삶의 시작, 통일신라·고려시대의 안양의 기원, 조선시대의 문화 전승, 근현대 도시의 성장으로 구성된다. 관양동 선사유적과 중초사지 당간지주, 안양사 명문기와 등 지역의 유물과 자료를 비롯해 안양사지 발굴 과정, 석수동 마애종과 안양사 칠층전탑 등을 다룬 영상 콘텐츠도 볼 수 있다. 건물은 김중업이 설계한 옛 공장 건축물을 활용했으며, 부지 안의 중초사지 당간지주와 삼층석탑, 인접한 김중업건축박물관과 안양예술공원을 함께 둘러보기 좋다.",
+      "metadata": {
+        "source_types": "TOUR_API",
+        "ownership_type": "공립",
+        "sido": "경기도",
+        "holiday_open": "09:30",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/81/3003381_image2_1.jpg",
+        "sigungu": "안양시",
+        "closure_rule_raw": "매주 월요일",
+        "name": "안양박물관",
+        "latitude": 37.418386,
+        "youth_fee": 0.0,
+        "weekday_open": "09:30",
+        "child_fee": 0.0,
+        "amenities_raw": "문화상품점+황토마루카페+물품보관소+응급대기실+수유실+자전거보관대",
+        "weekday_close": "17:30",
+        "adult_fee": 0.0,
+        "address": "경기도 안양시 만안구 예술공원로103번길 4",
+        "homepage_url": "https://ayac.or.kr/museum/",
+        "holiday_close": "17:30",
+        "image_copyright": "Type3",
+        "requires_manual_review": true,
+        "longitude": 126.918316,
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS"
+      },
+      "vector_rank": 10,
+      "bm25_rank": 7,
+      "vector_distance": 0.4943760633468628,
+      "vector_score": null,
+      "bm25_score": 15.710819600446627,
+      "vector_document": "선사시대부터 근현대까지 이어지는 안양의 역사와 문화를 살펴보는 공립박물관이다. 2004년 평촌아트홀에서 안양역사관으로 개관했으며, 2017년 옛 유유산업 안양공장 부지로 이전해 안양박물관으로 새롭게 문을 열었다. 상설전시는 선사·삼국시대의 삶의 시작, 통일신라·고려시대의 안양의 기원, 조선시대의 문화 전승, 근현대 도시의 성장으로 구성된다. 관양동 선사유적과 중초사지 당간지주, 안양사 명문기와 등 지역의 유물과 자료를 비롯해 안양사지 발굴 과정, 석수동 마애종과 안양사 칠층전탑 등을 다룬 영상 콘텐츠도 볼 수 있다. 건물은 김중업이 설계한 옛 공장 건축물을 활용했으며, 부지 안의 중초사지 당간지주와 삼층석탑, 인접한 김중업건축박물관과 안양예술공원을 함께 둘러보기 좋다.",
+      "bm25_document": "선사시대부터 근현대까지 이어지는 안양의 역사와 문화를 살펴보는 공립박물관이다. 2004년 평촌아트홀에서 안양역사관으로 개관했으며, 2017년 옛 유유산업 안양공장 부지로 이전해 안양박물관으로 새롭게 문을 열었다. 상설전시는 선사·삼국시대의 삶의 시작, 통일신라·고려시대의 안양의 기원, 조선시대의 문화 전승, 근현대 도시의 성장으로 구성된다. 관양동 선사유적과 중초사지 당간지주, 안양사 명문기와 등 지역의 유물과 자료를 비롯해 안양사지 발굴 과정, 석수동 마애종과 안양사 칠층전탑 등을 다룬 영상 콘텐츠도 볼 수 있다. 건물은 김중업이 설계한 옛 공장 건축물을 활용했으며, 부지 안의 중초사지 당간지주와 삼층석탑, 인접한 김중업건축박물관과 안양예술공원을 함께 둘러보기 좋다.",
+      "best_span_id": "chroma:M0606",
+      "best_span_text": "선사시대부터 근현대까지 이어지는 안양의 역사와 문화를 살펴보는 공립박물관이다. 2004년 평촌아트홀에서 안양역사관으로 개관했으며, 2017년 옛 유유산업 안양공장 부지로 이전해 안양박물관으로 새롭게 문을 열었다. 상설전시는 선사·삼국시대의 삶의 시작, 통일신라·고려시대의 안양의 기원, 조선시대의 문화 전승, 근현대 도시의 성장으로 구성된다. 관양동 선사유적과 중초사지 당간지주, 안양사 명문기와 등 지역의 유물과 자료를 비롯해 안양사지 발굴 과정, 석수동 마애종과 안양사 칠층전탑 등을 다룬 영상 콘텐츠도 볼 수 있다. 건물은 김중업이 설계한 옛 공장 건축물을 활용했으며, 부지 안의 중초사지 당간지주와 삼층석탑, 인접한 김중업건축박물관과 안양예술공원을 함께 둘러보기 좋다.",
+      "fusion_score": 0.029211087420042643,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 1,
+      "rerank_score": 0.44431543350219727,
+      "rank": 4,
+      "score": 0.44431543350219727,
+      "score_type": "cross_encoder",
+      "distance": 0.4943760633468628,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0606",
+      "source_doc_ids": [
+        "DOC-B0606-TOUR_API-3008259"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0606-TOUR_API-3008259",
+          "source_type": "TOUR_API",
+          "source_record_id": "3008259",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=302",
+          "match_trust": "RECHECKED_BY_RULE_NOT_HUMAN_APPROVED"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 43,
+          "doc_ids": [
+            "DOC-B0606-TOUR_API-3008259"
+          ]
+        },
+        {
+          "start": 44,
+          "end": 118,
+          "doc_ids": [
+            "DOC-B0606-TOUR_API-3008259"
+          ]
+        },
+        {
+          "start": 119,
+          "end": 191,
+          "doc_ids": [
+            "DOC-B0606-TOUR_API-3008259"
+          ]
+        },
+        {
+          "start": 192,
+          "end": 291,
+          "doc_ids": [
+            "DOC-B0606-TOUR_API-3008259"
+          ]
+        },
+        {
+          "start": 292,
+          "end": 378,
+          "doc_ids": [
+            "DOC-B0606-TOUR_API-3008259"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=302",
+      "text": "선사시대부터 근현대까지 이어지는 안양의 역사와 문화를 살펴보는 공립박물관이다. 2004년 평촌아트홀에서 안양역사관으로 개관했으며, 2017년 옛 유유산업 안양공장 부지로 이전해 안양박물관으로 새롭게 문을 열었다. 상설전시는 선사·삼국시대의 삶의 시작, 통일신라·고려시대의 안양의 기원, 조선시대의 문화 전승, 근현대 도시의 성장으로 구성된다. 관양동 선사유적과 중초사지 당간지주, 안양사 명문기와 등 지역의 유물과 자료를 비롯해 안양사지 발굴 과정, 석수동 마애종과 안양사 칠층전탑 등을 다룬 영상 콘텐츠도 볼 수 있다. 건물은 김중업이 설계한 옛 공장 건축물을 활용했으며, 부지 안의 중초사지 당간지주와 삼층석탑, 인접한 김중업건축박물관과 안양예술공원을 함께 둘러보기 좋다.",
+      "sido": "경기도",
+      "sigungu": "안양시",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=302"
+      ],
+      "evidence_id": "E4",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=425",
+        "fields": {
+          "name": "안양박물관",
+          "sido": "경기도",
+          "sigungu": "안양시",
+          "address": "경기도 안양시 만안구 예술공원로103번길 4",
+          "ownership_type": "공립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "09:30",
+          "weekday_close": "17:30",
+          "holiday_open": "09:30",
+          "holiday_close": "17:30",
+          "closure_rule_raw": "매주 월요일",
+          "amenities_raw": "문화상품점+황토마루카페+물품보관소+응급대기실+수유실+자전거보관대"
+        },
+        "base_data_date": "2026-01-02",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0205",
+      "name": "오산리선사유적박물관",
+      "document": "오산리선사유적박물관은 양양 오산리 유적에서 출토된 유물을 보관·전시·연구한다. 양양 오산리 유적은 박물관 일대를 둘러싼 습지 ‘쌍호’를 매립하는 과정에서 발굴된 약 8,000년 전 신석기 유물로, 우리나라 신석기시대를 대표하는 유적이다. 덧무늬 토기, 돌화살촉, 그물추 등 출토된 유물 4만여 점으로 보아 오산리에 살던 신석기인들이 어로와 수렵, 채집 생활을 했음을 알 수 있다. 박물관은 전시실, 야외 전시실, 수장고, 학예연구실 등을 갖췄다. 제1전시실은 어로, 채집, 토기 제작 등 오산리 신석기인들의 생활상을 디오라마 형태로 전시하고 있다. 제2전시실은 강원 영동 지역의 선사 문화를 소개하는 공간으로, 신석기시대부터 철기 시대에 걸쳐 양양, 강릉, 고성의 유물을 모아놓았다. 야외 전시실에는 쌍호, 탐방로, 움집이 자리한다. 너른 습지인 쌍호는 ‘움직이는 갈대숲’으로 유명하다. 습지 위에 섬처럼 떠 있는 갈대 군락지가 바람이 불면 움직이는 모습이 신비롭다. 2007년 개관, 오산리 유적 및 지역 출토 선사 유물 전시, 사적 제394호 오산리 유적 내 위치, 야외시설, 쌍호 탐방로 등",
+      "metadata": {
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/43/4053943_image2_1.jpg",
+        "requires_manual_review": true,
+        "source_types": "BASE|TOUR_API",
+        "weekday_close": "18:00",
+        "latitude": 38.085895,
+        "holiday_close": "18:00",
+        "child_fee": 0.0,
+        "transport_notes": "버스 양양시내에서 수산리·동호리 방향 오산리, 송포초등학교 하차 도보 400m",
+        "longitude": 128.660472,
+        "closure_rule_raw": "연중무휴",
+        "address": "강원특별자치도 양양군 손양면 학포길 33",
+        "sigungu": "양양군",
+        "holiday_open": "09:00",
+        "homepage_url": "https://www.yangyang.go.kr/gw/osm",
+        "amenities_raw": "주차장+화장실+자전거보관대",
+        "youth_fee": 0.0,
+        "sido": "강원특별자치도",
+        "name": "오산리선사유적박물관",
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "weekday_open": "09:00",
+        "fee_notes": "0",
+        "adult_fee": 0.0,
+        "image_copyright": "Type1",
+        "ownership_type": "공립"
+      },
+      "vector_rank": 12,
+      "bm25_rank": 14,
+      "vector_distance": 0.4957736134529114,
+      "vector_score": null,
+      "bm25_score": 14.21099734152285,
+      "vector_document": "오산리선사유적박물관은 양양 오산리 유적에서 출토된 유물을 보관·전시·연구한다. 양양 오산리 유적은 박물관 일대를 둘러싼 습지 ‘쌍호’를 매립하는 과정에서 발굴된 약 8,000년 전 신석기 유물로, 우리나라 신석기시대를 대표하는 유적이다. 덧무늬 토기, 돌화살촉, 그물추 등 출토된 유물 4만여 점으로 보아 오산리에 살던 신석기인들이 어로와 수렵, 채집 생활을 했음을 알 수 있다. 박물관은 전시실, 야외 전시실, 수장고, 학예연구실 등을 갖췄다. 제1전시실은 어로, 채집, 토기 제작 등 오산리 신석기인들의 생활상을 디오라마 형태로 전시하고 있다. 제2전시실은 강원 영동 지역의 선사 문화를 소개하는 공간으로, 신석기시대부터 철기 시대에 걸쳐 양양, 강릉, 고성의 유물을 모아놓았다. 야외 전시실에는 쌍호, 탐방로, 움집이 자리한다. 너른 습지인 쌍호는 ‘움직이는 갈대숲’으로 유명하다. 습지 위에 섬처럼 떠 있는 갈대 군락지가 바람이 불면 움직이는 모습이 신비롭다. 2007년 개관, 오산리 유적 및 지역 출토 선사 유물 전시, 사적 제394호 오산리 유적 내 위치, 야외시설, 쌍호 탐방로 등",
+      "bm25_document": "오산리선사유적박물관은 양양 오산리 유적에서 출토된 유물을 보관·전시·연구한다. 양양 오산리 유적은 박물관 일대를 둘러싼 습지 ‘쌍호’를 매립하는 과정에서 발굴된 약 8,000년 전 신석기 유물로, 우리나라 신석기시대를 대표하는 유적이다. 덧무늬 토기, 돌화살촉, 그물추 등 출토된 유물 4만여 점으로 보아 오산리에 살던 신석기인들이 어로와 수렵, 채집 생활을 했음을 알 수 있다. 박물관은 전시실, 야외 전시실, 수장고, 학예연구실 등을 갖췄다. 제1전시실은 어로, 채집, 토기 제작 등 오산리 신석기인들의 생활상을 디오라마 형태로 전시하고 있다. 제2전시실은 강원 영동 지역의 선사 문화를 소개하는 공간으로, 신석기시대부터 철기 시대에 걸쳐 양양, 강릉, 고성의 유물을 모아놓았다. 야외 전시실에는 쌍호, 탐방로, 움집이 자리한다. 너른 습지인 쌍호는 ‘움직이는 갈대숲’으로 유명하다. 습지 위에 섬처럼 떠 있는 갈대 군락지가 바람이 불면 움직이는 모습이 신비롭다. 2007년 개관, 오산리 유적 및 지역 출토 선사 유물 전시, 사적 제394호 오산리 유적 내 위치, 야외시설, 쌍호 탐방로 등",
+      "best_span_id": "chroma:M0205",
+      "best_span_text": "오산리선사유적박물관은 양양 오산리 유적에서 출토된 유물을 보관·전시·연구한다. 양양 오산리 유적은 박물관 일대를 둘러싼 습지 ‘쌍호’를 매립하는 과정에서 발굴된 약 8,000년 전 신석기 유물로, 우리나라 신석기시대를 대표하는 유적이다. 덧무늬 토기, 돌화살촉, 그물추 등 출토된 유물 4만여 점으로 보아 오산리에 살던 신석기인들이 어로와 수렵, 채집 생활을 했음을 알 수 있다. 박물관은 전시실, 야외 전시실, 수장고, 학예연구실 등을 갖췄다. 제1전시실은 어로, 채집, 토기 제작 등 오산리 신석기인들의 생활상을 디오라마 형태로 전시하고 있다. 제2전시실은 강원 영동 지역의 선사 문화를 소개하는 공간으로, 신석기시대부터 철기 시대에 걸쳐 양양, 강릉, 고성의 유물을 모아놓았다. 야외 전시실에는 쌍호, 탐방로, 움집이 자리한다. 너른 습지인 쌍호는 ‘움직이는 갈대숲’으로 유명하다. 습지 위에 섬처럼 떠 있는 갈대 군락지가 바람이 불면 움직이는 모습이 신비롭다. 2007년 개관, 오산리 유적 및 지역 출토 선사 유물 전시, 사적 제394호 오산리 유적 내 위치, 야외시설, 쌍호 탐방로 등",
+      "fusion_score": 0.027402402402402402,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 3,
+      "rerank_score": 0.43154552578926086,
+      "rank": 5,
+      "score": 0.43154552578926086,
+      "score_type": "cross_encoder",
+      "distance": 0.4957736134529114,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0205",
+      "source_doc_ids": [
+        "DOC-B0205-TOUR_API-130930",
+        "DOC-B0205-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0205-TOUR_API-130930",
+          "source_type": "TOUR_API",
+          "source_record_id": "130930",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=100",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        },
+        {
+          "doc_id": "DOC-B0205-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0205",
+          "source_locator": "data/raw/museum_base_1070.csv#row=206",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 43,
+          "doc_ids": [
+            "DOC-B0205-TOUR_API-130930"
+          ]
+        },
+        {
+          "start": 44,
+          "end": 132,
+          "doc_ids": [
+            "DOC-B0205-TOUR_API-130930"
+          ]
+        },
+        {
+          "start": 133,
+          "end": 212,
+          "doc_ids": [
+            "DOC-B0205-TOUR_API-130930"
+          ]
+        },
+        {
+          "start": 213,
+          "end": 249,
+          "doc_ids": [
+            "DOC-B0205-TOUR_API-130930"
+          ]
+        },
+        {
+          "start": 250,
+          "end": 306,
+          "doc_ids": [
+            "DOC-B0205-TOUR_API-130930"
+          ]
+        },
+        {
+          "start": 307,
+          "end": 382,
+          "doc_ids": [
+            "DOC-B0205-TOUR_API-130930"
+          ]
+        },
+        {
+          "start": 383,
+          "end": 410,
+          "doc_ids": [
+            "DOC-B0205-TOUR_API-130930"
+          ]
+        },
+        {
+          "start": 411,
+          "end": 440,
+          "doc_ids": [
+            "DOC-B0205-TOUR_API-130930"
+          ]
+        },
+        {
+          "start": 441,
+          "end": 485,
+          "doc_ids": [
+            "DOC-B0205-TOUR_API-130930"
+          ]
+        },
+        {
+          "start": 486,
+          "end": 557,
+          "doc_ids": [
+            "DOC-B0205-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=100",
+      "text": "오산리선사유적박물관은 양양 오산리 유적에서 출토된 유물을 보관·전시·연구한다. 양양 오산리 유적은 박물관 일대를 둘러싼 습지 ‘쌍호’를 매립하는 과정에서 발굴된 약 8,000년 전 신석기 유물로, 우리나라 신석기시대를 대표하는 유적이다. 덧무늬 토기, 돌화살촉, 그물추 등 출토된 유물 4만여 점으로 보아 오산리에 살던 신석기인들이 어로와 수렵, 채집 생활을 했음을 알 수 있다. 박물관은 전시실, 야외 전시실, 수장고, 학예연구실 등을 갖췄다. 제1전시실은 어로, 채집, 토기 제작 등 오산리 신석기인들의 생활상을 디오라마 형태로 전시하고 있다. 제2전시실은 강원 영동 지역의 선사 문화를 소개하는 공간으로, 신석기시대부터 철기 시대에 걸쳐 양양, 강릉, 고성의 유물을 모아놓았다. 야외 전시실에는 쌍호, 탐방로, 움집이 자리한다. 너른 습지인 쌍호는 ‘움직이는 갈대숲’으로 유명하다. 습지 위에 섬처럼 떠 있는 갈대 군락지가 바람이 불면 움직이는 모습이 신비롭다. 2007년 개관, 오산리 유적 및 지역 출토 선사 유물 전시, 사적 제394호 오산리 유적 내 위치, 야외시설, 쌍호 탐방로 등",
+      "sido": "강원특별자치도",
+      "sigungu": "양양군",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=100"
+      ],
+      "evidence_id": "E5",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=134",
+        "fields": {
+          "name": "오산리선사유적박물관",
+          "sido": "강원특별자치도",
+          "sigungu": "양양군",
+          "address": "강원특별자치도 양양군 손양면 학포길 33",
+          "ownership_type": "공립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "09:00",
+          "weekday_close": "18:00",
+          "holiday_open": "09:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "연중무휴",
+          "amenities_raw": "주차장+화장실+자전거보관대"
+        },
+        "base_data_date": "2026-07-30",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    }
+  ],
+  "answer": "창원시립마산박물관입니다. 상설전시실에는 지역에서 출토된 유물과 사진 자료 등이 전시되어 있어 선사시대부터 근현대까지 마산 지역의 역사와 문화를 이해할 수 있습니다. [E1]",
+  "retrieval_status": "ok",
+  "answer_status": "answered",
+  "route": "hybrid",
+  "retry_count": 0,
+  "supervisor_verified": true,
+  "rerank_applied": true,
+  "retriever_errors": [],
+  "warnings": [],
+  "duration_ms": 79924.3,
+  "error_type": "",
+  "hit_at_1": 1,
+  "hit_at_3": 1,
+  "hit_at_5": 1,
+  "recall_at_5": 1.0,
+  "mrr_at_10": 1.0
+}

@@ -1,0 +1,807 @@
+{
+  "evidence_context_version": "grounded-evidence-v2",
+  "evaluation_contexts": [
+    "{\"evidence_context_version\": \"grounded-evidence-v2\", \"evidence_id\": \"E1\", \"metadata_provenance\": {\"base_data_date\": \"2026-09-17\", \"fields\": {\"address\": \"경상남도 밀양시 밀양대공원로 100\", \"adult_fee\": \"1000\", \"adult_fee_status\": \"BASE_FEE_PAID\", \"amenities_raw\": \"문화상품점+휴게실\", \"child_fee\": \"500\", \"closure_rule_raw\": \"매주월요일(단, 공휴일경우, 다음날 휴관)+설 당일+추석 당일+1월1일\", \"holiday_close\": \"18:00\", \"holiday_open\": \"09:00\", \"name\": \"밀양시립박물관\", \"ownership_type\": \"공립\", \"sido\": \"경상남도\", \"sigungu\": \"밀양시\", \"weekday_close\": \"18:00\", \"weekday_open\": \"09:00\", \"youth_fee\": \"700\"}, \"source_kind\": \"derived_csv_row\", \"source_locator\": \"data/processed/museum_final_738.csv#record=94\", \"trust\": \"derived_dataset_not_human_verified\"}, \"museum_id\": \"M0151\", \"name\": \"밀양시립박물관\", \"source_doc_ids\": [\"DOC-B0151-TOUR_API-130087\", \"DOC-B0151-BASE\"], \"source_documents\": [{\"doc_id\": \"DOC-B0151-TOUR_API-130087\", \"match_trust\": \"AUTO_MATCH_NOT_HUMAN_VERIFIED\", \"source_locator\": \"data/raw/museum_tourapi_with_overview.csv#row=71\", \"source_record_id\": \"130087\", \"source_type\": \"TOUR_API\"}, {\"doc_id\": \"DOC-B0151-BASE\", \"match_trust\": \"BASE_SOURCE\", \"source_locator\": \"data/raw/museum_base_1070.csv#row=152\", \"source_record_id\": \"B0151\", \"source_type\": \"BASE\"}], \"source_locator\": \"data/raw/museum_tourapi_with_overview.csv#row=71\", \"source_locators\": [\"data/raw/museum_tourapi_with_overview.csv#row=71\"], \"source_scope\": \"text\", \"source_spans\": [{\"doc_ids\": [\"DOC-B0151-TOUR_API-130087\"], \"end\": 146, \"start\": 0}, {\"doc_ids\": [\"DOC-B0151-TOUR_API-130087\"], \"end\": 224, \"start\": 147}, {\"doc_ids\": [\"DOC-B0151-TOUR_API-130087\"], \"end\": 420, \"start\": 225}, {\"doc_ids\": [\"DOC-B0151-TOUR_API-130087\"], \"end\": 489, \"start\": 421}, {\"doc_ids\": [\"DOC-B0151-TOUR_API-130087\"], \"end\": 568, \"start\": 490}, {\"doc_ids\": [\"DOC-B0151-TOUR_API-130087\"], \"end\": 645, \"start\": 569}, {\"doc_ids\": [\"DOC-B0151-TOUR_API-130087\"], \"end\": 728, \"start\": 646}, {\"doc_ids\": [\"DOC-B0151-BASE\"], \"end\": 820, \"start\": 729}], \"source_urls\": [], \"text\": \"밀양시립박물관은 낙동강유역의 문화를 집대성하여 효율적인 보존·전시함은 물론, 향토사료의 수집·조사·연구·정리 등을 통해 역사와 문화예술에 대한 고증 등 중심역할을 수행하고 나아가 시민들에게 널리 공개하여 문화 향수 증대 및 사회교육에 이바지하기 위해 건립되었다. 박물관은 상설 1 전시실, 상설 2 전시실, 기획전시실로 나눠져 있으며 밀양지역의 역사(삼한시대~조선시대)를 조명해 볼 수 있도록 하였다. 주요 소장품은 밀양 12경도, 용담취규정잡영 외에 단원 김홍도 『선유도』, 오원장승업 『화조도』등 서화류와 이방중묘 출토 명기 및 지석, 청자명문매호 등 도자기와 토기류 등 낙동강 유역과 밀양지역 출토 고고유물들과 소눌선생문집책판, 퇴로본 성호선생문집책판 등 총 39종 4,835장의 문집책판(전시형수장고), 민속 및 생활유물이 주류를 이루고 있다. 밀양시립박물관에는 낙동강 문화 유물 외에 화석전시관, 밀양독립운동기념관이 조성되어 있어 또 다른 재미와 볼거리를 선사한다. 화석전시관은 밀양시립박물관 내에 위치하며 고생대 중생대 등 전 세계에 분포되어 있는 주요 화석 (공룡, 어류 등) 244점이 전시되어 있다. 밀양독립운동기념관은 독립의열단 단장이었던 약산 김원봉과 석정 윤세주 열사 등 밀양출신 독립운동가들의 활동상을 조명해 볼 수 있는 곳이다. 1919년 3월 13일부터 일어난 밀양지역의 주요 만세운동과 파리장서운동, 밀양경찰서 폭탄투척사건 등은 물론 밀양의 근현대사를 조명해 볼 수 있다. 1974년 4월 밀양군립박물관으로 개관한 이래 박물관에서는 낙동강 유역의 문화와 역사를 조명하며 밀양지역의 다양한 자료를 수집, 전시하고있는 경남 최초의 공립박물관\"}",
+    "{\"evidence_context_version\": \"grounded-evidence-v2\", \"evidence_id\": \"E2\", \"metadata_provenance\": {\"base_data_date\": \"2026-09-30\", \"fields\": {\"address\": \"제주특별자치도 서귀포시 성산읍 서성일로 689-21\", \"adult_fee\": \"10000\", \"adult_fee_status\": \"BASE_FEE_PAID\", \"child_fee\": \"8000\", \"closure_rule_raw\": \"수\", \"holiday_close\": \"18:00\", \"holiday_open\": \"09:00\", \"name\": \"제주해양동물박물관\", \"ownership_type\": \"사립\", \"sido\": \"제주특별자치도\", \"sigungu\": \"서귀포시\", \"weekday_close\": \"18:00\", \"weekday_open\": \"09:00\", \"youth_fee\": \"9000\"}, \"source_kind\": \"derived_csv_row\", \"source_locator\": \"data/processed/museum_final_738.csv#record=47\", \"trust\": \"derived_dataset_not_human_verified\"}, \"museum_id\": \"M0073\", \"name\": \"제주해양동물박물관\", \"source_doc_ids\": [\"DOC-B0073-TOUR_API-2751843\"], \"source_documents\": [{\"doc_id\": \"DOC-B0073-TOUR_API-2751843\", \"match_trust\": \"AUTO_MATCH_NOT_HUMAN_VERIFIED\", \"source_locator\": \"data/raw/museum_tourapi_with_overview.csv#row=37\", \"source_record_id\": \"2751843\", \"source_type\": \"TOUR_API\"}], \"source_locator\": \"data/raw/museum_tourapi_with_overview.csv#row=37\", \"source_locators\": [\"data/raw/museum_tourapi_with_overview.csv#row=37\"], \"source_scope\": \"text\", \"source_spans\": [{\"doc_ids\": [\"DOC-B0073-TOUR_API-2751843\"], \"end\": 34, \"start\": 0}, {\"doc_ids\": [\"DOC-B0073-TOUR_API-2751843\"], \"end\": 112, \"start\": 35}, {\"doc_ids\": [\"DOC-B0073-TOUR_API-2751843\"], \"end\": 159, \"start\": 113}, {\"doc_ids\": [\"DOC-B0073-TOUR_API-2751843\"], \"end\": 208, \"start\": 160}, {\"doc_ids\": [\"DOC-B0073-TOUR_API-2751843\"], \"end\": 276, \"start\": 209}, {\"doc_ids\": [\"DOC-B0073-TOUR_API-2751843\"], \"end\": 360, \"start\": 277}, {\"doc_ids\": [\"DOC-B0073-TOUR_API-2751843\"], \"end\": 413, \"start\": 361}], \"source_urls\": [], \"text\": \"제주해양동물박물관에서는 제주만의 특별한 교육 체험이 가능하다. 고래상어, 개복치, 키다리 게 등 해양 동물의 생생한 이야기에 대한 교육 그리고 체험이 가능하며, 어른과 어린이의 알찬 놀이터가 되어준다. 주요 소장품으로 약 800여 종의 해양동물 표본이 10,000여 점 전시되어 있다. 이곳의 해양동물 표본은 40여 년간의 오랜 경험과 특수 기술로 생동감 있게 제작되었다. 해양동물 실물 표본을 직접 관찰할 수 있어, 표본의 본질적 가치를 바탕으로 한 해양 동물 교육과 체험의 장이 되고 있다. 해양 동물자원의 중요성과 공존의 가치를 인식시키는 계기를 마련하고, 국내 생태계 보전의식 확산에 이바지하는, 지속 가능한 해양 동물 전문 박물관이다. 주변 관광지로는 세계적 자연유산인 성산일출봉과 섭지코지, 아쿠아플라넷, 용눈이오름 등이 있다.\"}",
+    "{\"evidence_context_version\": \"grounded-evidence-v2\", \"evidence_id\": \"E3\", \"metadata_provenance\": {\"base_data_date\": \"2025-11-01\", \"fields\": {\"address\": \"서울특별시 종로구 돈화문로 71(와룡동)\", \"adult_fee\": \"3000\", \"adult_fee_status\": \"BASE_FEE_PAID\", \"child_fee\": \"2000\", \"closure_rule_raw\": \"명절(1.1, 설날, 추석 당일)\", \"holiday_close\": \"18:00\", \"holiday_open\": \"12:00\", \"name\": \"떡박물관\", \"ownership_type\": \"사립\", \"sido\": \"서울특별시\", \"sigungu\": \"종로구\", \"weekday_close\": \"18:00\", \"weekday_open\": \"10:00\", \"youth_fee\": \"2000\"}, \"source_kind\": \"derived_csv_row\", \"source_locator\": \"data/processed/museum_final_738.csv#record=428\", \"trust\": \"derived_dataset_not_human_verified\"}, \"museum_id\": \"M0612\", \"name\": \"떡박물관\", \"source_doc_ids\": [\"DOC-B0612-TOUR_API-130365\"], \"source_documents\": [{\"doc_id\": \"DOC-B0612-TOUR_API-130365\", \"match_trust\": \"AUTO_MATCH_NOT_HUMAN_VERIFIED\", \"source_locator\": \"data/raw/museum_tourapi_with_overview.csv#row=304\", \"source_record_id\": \"130365\", \"source_type\": \"TOUR_API\"}], \"source_locator\": \"data/raw/museum_tourapi_with_overview.csv#row=304\", \"source_locators\": [\"data/raw/museum_tourapi_with_overview.csv#row=304\"], \"source_scope\": \"text\", \"source_spans\": [{\"doc_ids\": [\"DOC-B0612-TOUR_API-130365\"], \"end\": 61, \"start\": 0}, {\"doc_ids\": [\"DOC-B0612-TOUR_API-130365\"], \"end\": 156, \"start\": 62}, {\"doc_ids\": [\"DOC-B0612-TOUR_API-130365\"], \"end\": 307, \"start\": 157}, {\"doc_ids\": [\"DOC-B0612-TOUR_API-130365\"], \"end\": 392, \"start\": 308}, {\"doc_ids\": [\"DOC-B0612-TOUR_API-130365\"], \"end\": 465, \"start\": 393}, {\"doc_ids\": [\"DOC-B0612-TOUR_API-130365\"], \"end\": 501, \"start\": 466}, {\"doc_ids\": [\"DOC-B0612-TOUR_API-130365\"], \"end\": 557, \"start\": 502}, {\"doc_ids\": [\"DOC-B0612-TOUR_API-130365\"], \"end\": 629, \"start\": 558}], \"source_urls\": [], \"text\": \"떡박물관은 우리 조상들의 지혜롭고 슬기로웠던 삶의 모습과 숨결을 느낄 수 있는 체험공간이자 산교육의 마당이다. 개인적으로 수집한 소장품들을 이곳에 모아 박물관을 설립하게 된 동기는 1999년 3월 안국동 백상기념관에서 ‘이야기가 있는 옛 부엌살림전’을 개최한 것이 계기가 되었다. 전시를 본 많은 사람들이 우리의 옛 부엌살림을 언제나 만날 수 있는 공간이 있었으면 좋겠다는 의견을 주었고, 우리의 부엌살림 유물들이 잊히는 것이 마음이 아프던 차에 2002년 1월에 그동안 모아 온 소장품 3,000여 점을 지금의 박물관에 전시하면서 개관하게 되었다. 떡은 한국인의 생활 속에 깊숙이 들어앉아 희로애락을 함께 해 온 음식으로 그 종류도 많거니와 맛과 영양, 질감과 향을 위한 배합이 과학적으로 절묘하다. 떡박물관에서는 이러한 떡을 시절에 따라, 우리의 일생의례에 따라, 그리고 만드는 방법에 따라 분류 방법을 달리하여 전시하고 있다. 또한 떡을 만들 때 사용하는 각종 조리 도구들도 전시되어 있다. 떡을 보는 것만으로 그치는 것이 아닌 직접 만들어 보고 맛볼 수 있는 체험프로그램을 진행하고 있다. 체험을 통하여 내국인은 물론 외국인들에게도 우리의 자랑스러운 전통문화를 배우고, 잊혀 가는 식문화를 되살리는 계기가 되고 있다.\"}",
+    "{\"evidence_context_version\": \"grounded-evidence-v2\", \"evidence_id\": \"E4\", \"metadata_provenance\": {\"base_data_date\": \"2026-06-22\", \"fields\": {\"address\": \"경기도 파주시 탄현면 헤이리마을길 59-6\", \"adult_fee\": \"12000\", \"adult_fee_status\": \"BASE_FEE_PAID\", \"child_fee\": \"10000\", \"closure_rule_raw\": \"월요일+화요일\", \"holiday_close\": \"18:00\", \"holiday_open\": \"11:00\", \"name\": \"한길책박물관\", \"ownership_type\": \"사립\", \"sido\": \"경기도\", \"sigungu\": \"파주시\", \"weekday_close\": \"18:00\", \"weekday_open\": \"11:00\", \"youth_fee\": \"10000\"}, \"source_kind\": \"derived_csv_row\", \"source_locator\": \"data/processed/museum_final_738.csv#record=271\", \"trust\": \"derived_dataset_not_human_verified\"}, \"museum_id\": \"M0374\", \"name\": \"한길책박물관\", \"source_doc_ids\": [\"DOC-B0374-TOUR_API-2569495\"], \"source_documents\": [{\"doc_id\": \"DOC-B0374-TOUR_API-2569495\", \"match_trust\": \"AUTO_MATCH_NOT_HUMAN_VERIFIED\", \"source_locator\": \"data/raw/museum_tourapi_with_overview.csv#row=176\", \"source_record_id\": \"2569495\", \"source_type\": \"TOUR_API\"}], \"source_locator\": \"data/raw/museum_tourapi_with_overview.csv#row=176\", \"source_locators\": [\"data/raw/museum_tourapi_with_overview.csv#row=176\"], \"source_scope\": \"text\", \"source_spans\": [{\"doc_ids\": [\"DOC-B0374-TOUR_API-2569495\"], \"end\": 57, \"start\": 0}, {\"doc_ids\": [\"DOC-B0374-TOUR_API-2569495\"], \"end\": 105, \"start\": 58}, {\"doc_ids\": [\"DOC-B0374-TOUR_API-2569495\"], \"end\": 216, \"start\": 106}, {\"doc_ids\": [\"DOC-B0374-TOUR_API-2569495\"], \"end\": 317, \"start\": 217}, {\"doc_ids\": [\"DOC-B0374-TOUR_API-2569495\"], \"end\": 392, \"start\": 318}], \"source_urls\": [], \"text\": \"한길책박물관은 1976년 창립해 우리 시대 인문학 출판을 선도해 온 한길사에서 운영하는 책 박물관이다. 이곳은 책을 사랑하는 사람들과 고서를 만든 장인들의 아름다움을 나누고자 문을 열었다. 한길책박물관은 직사광선을 피하고 인위적인 빛은 어울리지 않는다고 생각하여 박물관 내부로는 직접적으로 들어오지 않도록 설계되었으며, 천혜의 자연경관과 잘 어울릴 수 있도록 디자인한 것이 큰 특징이다. 박물관의 대표적인 소장품으로는 윌리엄 모리스의 초서 저작집이 있는데, 전 세계에 극히 소수만이 완질(53종 66권)을 가지고 있으며, 국내에서는 이곳에서 대표적으로 소장하고 있다. 또한 17~19세기 유럽의 고서, 귀스타브 도레, 윌리엄 터너, 생텍쥐페리 등 유명 예술가의 화집 등 독특한 아트북을 소장하고 있다.\"}",
+    "{\"evidence_context_version\": \"grounded-evidence-v2\", \"evidence_id\": \"E5\", \"metadata_provenance\": {\"base_data_date\": \"2025-12-18\", \"fields\": {\"address\": \"경상북도 문경시 문경읍 새재로 944\", \"adult_fee\": \"0\", \"adult_fee_status\": \"BASE_FEE_ZERO_CHECK_EXCEPTIONS\", \"amenities_raw\": \"모바일서비스\", \"child_fee\": \"0\", \"closure_rule_raw\": \"1월1일, 설날, 추석, 박물관훈증소독 기간\", \"holiday_close\": \"18:00\", \"holiday_open\": \"09:00\", \"name\": \"옛길박물관\", \"ownership_type\": \"공립\", \"sido\": \"경상북도\", \"sigungu\": \"문경시\", \"weekday_close\": \"18:00\", \"weekday_open\": \"09:00\", \"youth_fee\": \"0\"}, \"source_kind\": \"derived_csv_row\", \"source_locator\": \"data/processed/museum_final_738.csv#record=515\", \"trust\": \"derived_dataset_not_human_verified\"}, \"museum_id\": \"M0741\", \"name\": \"옛길박물관\", \"source_doc_ids\": [\"DOC-B0741-TOUR_API-130314\"], \"source_documents\": [{\"doc_id\": \"DOC-B0741-TOUR_API-130314\", \"match_trust\": \"AUTO_MATCH_NOT_HUMAN_VERIFIED\", \"source_locator\": \"data/raw/museum_tourapi_with_overview.csv#row=358\", \"source_record_id\": \"130314\", \"source_type\": \"TOUR_API\"}], \"source_locator\": \"data/raw/museum_tourapi_with_overview.csv#row=358\", \"source_locators\": [\"data/raw/museum_tourapi_with_overview.csv#row=358\"], \"source_scope\": \"text\", \"source_spans\": [{\"doc_ids\": [\"DOC-B0741-TOUR_API-130314\"], \"end\": 32, \"start\": 0}, {\"doc_ids\": [\"DOC-B0741-TOUR_API-130314\"], \"end\": 212, \"start\": 33}, {\"doc_ids\": [\"DOC-B0741-TOUR_API-130314\"], \"end\": 280, \"start\": 213}, {\"doc_ids\": [\"DOC-B0741-TOUR_API-130314\"], \"end\": 371, \"start\": 281}, {\"doc_ids\": [\"DOC-B0741-TOUR_API-130314\"], \"end\": 408, \"start\": 372}, {\"doc_ids\": [\"DOC-B0741-TOUR_API-130314\"], \"end\": 485, \"start\": 409}, {\"doc_ids\": [\"DOC-B0741-TOUR_API-130314\"], \"end\": 620, \"start\": 486}, {\"doc_ids\": [\"DOC-B0741-TOUR_API-130314\"], \"end\": 830, \"start\": 621}], \"source_urls\": [], \"text\": \"문경은 우리나라 문화지리의 보고(寶庫)이자 길 박물관이다. 조선시대 역사와 문화의 소통로(疏通路)로서 조선팔도 고갯길의 대명사로 불리던 ‘문경새재’(명승 제32호)가 있고, 우리나라 최고(最古, 서기 156년 개척)의 고갯길인 ‘하늘재’, 옛길의 백미(白眉)이자 한국의 차마고도로 일컬을 수 있는 ‘토끼비리’(명승 제31호) 또 영남 대로 상의 허브 역할 담당했던 유곡역이 있다. 이러한 옛길 관련 문화유적은 이름만 남아 있는 것이 아니라 오늘날에도 살아있는 ‘길’로서 많은 사람들이 즐겨 찾고 있다. 옛길 박물관은 이러한 문경의 역사 문화적 정체성을 잘 나타내기 위하여 건립된 박물관으로 당초 향토사 중심의 문경새재 박물관을 리모델링하여 2009년 재개관하였다. 옛길 위에서 펼쳐졌던 각종 문화상을 옛길 박물관에 담아내고 있다. 박물관은 지하 1층 지상 2층 규모로, 3개 전시실과 1, 2층 중앙홀, 수장고, 영상실 등을 갖추고 있고, 야외전시장도 조성되어 있다. 제1전시실(주흘실)에는 문경관문, 영남 대로, 문경의 전투, 경상감사 도임 행차(慶尙監司到任行次), 제2전시실(조곡실)에는 문경의 문화와 의·식·주 생활, 집과 모둠살이, 신앙과 의례, 생업 기술 등에 관한 소장품 및 자료를 전시하고 있다. 제3전시실(조령실)에서는 굽다리접시·토기 항아리 등 신라시대 토기가 주를 이루는 매장유산, 1724년(경종 4) 도화서 화원 이치가 그린 옥소 권섭 영정, 선조가 홍인걸에게 하사하였다고 전해지는 어필 및 홍인걸의 유품인 투구, 김승주 삼공신 회맹록 판본, 주두업 지석 등에 관한 전시가 이루어지며, 야외에는 금학 사지 삼층석탑, 서낭당, 연자방아, 옹기와 장독대 등이 있다.\"}"
+  ],
+  "mode": "supervisor_full",
+  "question_id": "Q101",
+  "evidence": [
+    {
+      "museum_id": "M0151",
+      "name": "밀양시립박물관",
+      "document": "밀양시립박물관은 낙동강유역의 문화를 집대성하여 효율적인 보존·전시함은 물론, 향토사료의 수집·조사·연구·정리 등을 통해 역사와 문화예술에 대한 고증 등 중심역할을 수행하고 나아가 시민들에게 널리 공개하여 문화 향수 증대 및 사회교육에 이바지하기 위해 건립되었다. 박물관은 상설 1 전시실, 상설 2 전시실, 기획전시실로 나눠져 있으며 밀양지역의 역사(삼한시대~조선시대)를 조명해 볼 수 있도록 하였다. 주요 소장품은 밀양 12경도, 용담취규정잡영 외에 단원 김홍도 『선유도』, 오원장승업 『화조도』등 서화류와 이방중묘 출토 명기 및 지석, 청자명문매호 등 도자기와 토기류 등 낙동강 유역과 밀양지역 출토 고고유물들과 소눌선생문집책판, 퇴로본 성호선생문집책판 등 총 39종 4,835장의 문집책판(전시형수장고), 민속 및 생활유물이 주류를 이루고 있다. 밀양시립박물관에는 낙동강 문화 유물 외에 화석전시관, 밀양독립운동기념관이 조성되어 있어 또 다른 재미와 볼거리를 선사한다. 화석전시관은 밀양시립박물관 내에 위치하며 고생대 중생대 등 전 세계에 분포되어 있는 주요 화석 (공룡, 어류 등) 244점이 전시되어 있다. 밀양독립운동기념관은 독립의열단 단장이었던 약산 김원봉과 석정 윤세주 열사 등 밀양출신 독립운동가들의 활동상을 조명해 볼 수 있는 곳이다. 1919년 3월 13일부터 일어난 밀양지역의 주요 만세운동과 파리장서운동, 밀양경찰서 폭탄투척사건 등은 물론 밀양의 근현대사를 조명해 볼 수 있다. 1974년 4월 밀양군립박물관으로 개관한 이래 박물관에서는 낙동강 유역의 문화와 역사를 조명하며 밀양지역의 다양한 자료를 수집, 전시하고있는 경남 최초의 공립박물관",
+      "metadata": {
+        "transport_notes": "시내버스: 1, 2, 4-2, 5, 6, 9번 밀양향교 하차후 5분 도보",
+        "weekday_open": "09:00",
+        "source_types": "BASE|TOUR_API",
+        "adult_fee": 1000.0,
+        "latitude": 35.50296509,
+        "image_copyright": "Type3",
+        "youth_fee": 700.0,
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/85/4002785_image2_1.jpg",
+        "closure_rule_raw": "매주월요일(단, 공휴일경우, 다음날 휴관)+설 당일+추석 당일+1월1일",
+        "requires_manual_review": true,
+        "ownership_type": "공립",
+        "amenities_raw": "문화상품점+휴게실",
+        "adult_fee_status": "BASE_FEE_PAID",
+        "sigungu": "밀양시",
+        "homepage_url": "https://www.miryang.go.kr/msm/index.do",
+        "holiday_open": "09:00",
+        "holiday_close": "18:00",
+        "name": "밀양시립박물관",
+        "fee_notes": "* 20인이상 단체 30 감면* 예술인패스, 그린카드, 임산부 30감면* 6세 이하~65세 이상 무료* 독립유공자, 국가유공자, 장애인, 다자녀, 다문화, 한부모가족 등 무료",
+        "address": "경상남도 밀양시 밀양대공원로 100",
+        "longitude": 128.7593641,
+        "weekday_close": "18:00",
+        "child_fee": 500.0,
+        "sido": "경상남도"
+      },
+      "vector_rank": 1,
+      "bm25_rank": 1,
+      "vector_distance": 0.494215190410614,
+      "vector_score": null,
+      "bm25_score": 15.480398957206917,
+      "vector_document": "밀양시립박물관은 낙동강유역의 문화를 집대성하여 효율적인 보존·전시함은 물론, 향토사료의 수집·조사·연구·정리 등을 통해 역사와 문화예술에 대한 고증 등 중심역할을 수행하고 나아가 시민들에게 널리 공개하여 문화 향수 증대 및 사회교육에 이바지하기 위해 건립되었다. 박물관은 상설 1 전시실, 상설 2 전시실, 기획전시실로 나눠져 있으며 밀양지역의 역사(삼한시대~조선시대)를 조명해 볼 수 있도록 하였다. 주요 소장품은 밀양 12경도, 용담취규정잡영 외에 단원 김홍도 『선유도』, 오원장승업 『화조도』등 서화류와 이방중묘 출토 명기 및 지석, 청자명문매호 등 도자기와 토기류 등 낙동강 유역과 밀양지역 출토 고고유물들과 소눌선생문집책판, 퇴로본 성호선생문집책판 등 총 39종 4,835장의 문집책판(전시형수장고), 민속 및 생활유물이 주류를 이루고 있다. 밀양시립박물관에는 낙동강 문화 유물 외에 화석전시관, 밀양독립운동기념관이 조성되어 있어 또 다른 재미와 볼거리를 선사한다. 화석전시관은 밀양시립박물관 내에 위치하며 고생대 중생대 등 전 세계에 분포되어 있는 주요 화석 (공룡, 어류 등) 244점이 전시되어 있다. 밀양독립운동기념관은 독립의열단 단장이었던 약산 김원봉과 석정 윤세주 열사 등 밀양출신 독립운동가들의 활동상을 조명해 볼 수 있는 곳이다. 1919년 3월 13일부터 일어난 밀양지역의 주요 만세운동과 파리장서운동, 밀양경찰서 폭탄투척사건 등은 물론 밀양의 근현대사를 조명해 볼 수 있다. 1974년 4월 밀양군립박물관으로 개관한 이래 박물관에서는 낙동강 유역의 문화와 역사를 조명하며 밀양지역의 다양한 자료를 수집, 전시하고있는 경남 최초의 공립박물관",
+      "bm25_document": "밀양시립박물관은 낙동강유역의 문화를 집대성하여 효율적인 보존·전시함은 물론, 향토사료의 수집·조사·연구·정리 등을 통해 역사와 문화예술에 대한 고증 등 중심역할을 수행하고 나아가 시민들에게 널리 공개하여 문화 향수 증대 및 사회교육에 이바지하기 위해 건립되었다. 박물관은 상설 1 전시실, 상설 2 전시실, 기획전시실로 나눠져 있으며 밀양지역의 역사(삼한시대~조선시대)를 조명해 볼 수 있도록 하였다. 주요 소장품은 밀양 12경도, 용담취규정잡영 외에 단원 김홍도 『선유도』, 오원장승업 『화조도』등 서화류와 이방중묘 출토 명기 및 지석, 청자명문매호 등 도자기와 토기류 등 낙동강 유역과 밀양지역 출토 고고유물들과 소눌선생문집책판, 퇴로본 성호선생문집책판 등 총 39종 4,835장의 문집책판(전시형수장고), 민속 및 생활유물이 주류를 이루고 있다. 밀양시립박물관에는 낙동강 문화 유물 외에 화석전시관, 밀양독립운동기념관이 조성되어 있어 또 다른 재미와 볼거리를 선사한다. 화석전시관은 밀양시립박물관 내에 위치하며 고생대 중생대 등 전 세계에 분포되어 있는 주요 화석 (공룡, 어류 등) 244점이 전시되어 있다. 밀양독립운동기념관은 독립의열단 단장이었던 약산 김원봉과 석정 윤세주 열사 등 밀양출신 독립운동가들의 활동상을 조명해 볼 수 있는 곳이다. 1919년 3월 13일부터 일어난 밀양지역의 주요 만세운동과 파리장서운동, 밀양경찰서 폭탄투척사건 등은 물론 밀양의 근현대사를 조명해 볼 수 있다. 1974년 4월 밀양군립박물관으로 개관한 이래 박물관에서는 낙동강 유역의 문화와 역사를 조명하며 밀양지역의 다양한 자료를 수집, 전시하고있는 경남 최초의 공립박물관",
+      "best_span_id": "chroma:M0151",
+      "best_span_text": "밀양시립박물관은 낙동강유역의 문화를 집대성하여 효율적인 보존·전시함은 물론, 향토사료의 수집·조사·연구·정리 등을 통해 역사와 문화예술에 대한 고증 등 중심역할을 수행하고 나아가 시민들에게 널리 공개하여 문화 향수 증대 및 사회교육에 이바지하기 위해 건립되었다. 박물관은 상설 1 전시실, 상설 2 전시실, 기획전시실로 나눠져 있으며 밀양지역의 역사(삼한시대~조선시대)를 조명해 볼 수 있도록 하였다. 주요 소장품은 밀양 12경도, 용담취규정잡영 외에 단원 김홍도 『선유도』, 오원장승업 『화조도』등 서화류와 이방중묘 출토 명기 및 지석, 청자명문매호 등 도자기와 토기류 등 낙동강 유역과 밀양지역 출토 고고유물들과 소눌선생문집책판, 퇴로본 성호선생문집책판 등 총 39종 4,835장의 문집책판(전시형수장고), 민속 및 생활유물이 주류를 이루고 있다. 밀양시립박물관에는 낙동강 문화 유물 외에 화석전시관, 밀양독립운동기념관이 조성되어 있어 또 다른 재미와 볼거리를 선사한다. 화석전시관은 밀양시립박물관 내에 위치하며 고생대 중생대 등 전 세계에 분포되어 있는 주요 화석 (공룡, 어류 등) 244점이 전시되어 있다. 밀양독립운동기념관은 독립의열단 단장이었던 약산 김원봉과 석정 윤세주 열사 등 밀양출신 독립운동가들의 활동상을 조명해 볼 수 있는 곳이다. 1919년 3월 13일부터 일어난 밀양지역의 주요 만세운동과 파리장서운동, 밀양경찰서 폭탄투척사건 등은 물론 밀양의 근현대사를 조명해 볼 수 있다. 1974년 4월 밀양군립박물관으로 개관한 이래 박물관에서는 낙동강 유역의 문화와 역사를 조명하며 밀양지역의 다양한 자료를 수집, 전시하고있는 경남 최초의 공립박물관",
+      "fusion_score": 0.03278688524590164,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 1,
+      "name_match": true,
+      "rerank_score": 0.9999090433120728,
+      "rank": 1,
+      "score": 0.9999090433120728,
+      "score_type": "cross_encoder",
+      "distance": 0.494215190410614,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0151",
+      "source_doc_ids": [
+        "DOC-B0151-TOUR_API-130087",
+        "DOC-B0151-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0151-TOUR_API-130087",
+          "source_type": "TOUR_API",
+          "source_record_id": "130087",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=71",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        },
+        {
+          "doc_id": "DOC-B0151-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0151",
+          "source_locator": "data/raw/museum_base_1070.csv#row=152",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 146,
+          "doc_ids": [
+            "DOC-B0151-TOUR_API-130087"
+          ]
+        },
+        {
+          "start": 147,
+          "end": 224,
+          "doc_ids": [
+            "DOC-B0151-TOUR_API-130087"
+          ]
+        },
+        {
+          "start": 225,
+          "end": 420,
+          "doc_ids": [
+            "DOC-B0151-TOUR_API-130087"
+          ]
+        },
+        {
+          "start": 421,
+          "end": 489,
+          "doc_ids": [
+            "DOC-B0151-TOUR_API-130087"
+          ]
+        },
+        {
+          "start": 490,
+          "end": 568,
+          "doc_ids": [
+            "DOC-B0151-TOUR_API-130087"
+          ]
+        },
+        {
+          "start": 569,
+          "end": 645,
+          "doc_ids": [
+            "DOC-B0151-TOUR_API-130087"
+          ]
+        },
+        {
+          "start": 646,
+          "end": 728,
+          "doc_ids": [
+            "DOC-B0151-TOUR_API-130087"
+          ]
+        },
+        {
+          "start": 729,
+          "end": 820,
+          "doc_ids": [
+            "DOC-B0151-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=71",
+      "text": "밀양시립박물관은 낙동강유역의 문화를 집대성하여 효율적인 보존·전시함은 물론, 향토사료의 수집·조사·연구·정리 등을 통해 역사와 문화예술에 대한 고증 등 중심역할을 수행하고 나아가 시민들에게 널리 공개하여 문화 향수 증대 및 사회교육에 이바지하기 위해 건립되었다. 박물관은 상설 1 전시실, 상설 2 전시실, 기획전시실로 나눠져 있으며 밀양지역의 역사(삼한시대~조선시대)를 조명해 볼 수 있도록 하였다. 주요 소장품은 밀양 12경도, 용담취규정잡영 외에 단원 김홍도 『선유도』, 오원장승업 『화조도』등 서화류와 이방중묘 출토 명기 및 지석, 청자명문매호 등 도자기와 토기류 등 낙동강 유역과 밀양지역 출토 고고유물들과 소눌선생문집책판, 퇴로본 성호선생문집책판 등 총 39종 4,835장의 문집책판(전시형수장고), 민속 및 생활유물이 주류를 이루고 있다. 밀양시립박물관에는 낙동강 문화 유물 외에 화석전시관, 밀양독립운동기념관이 조성되어 있어 또 다른 재미와 볼거리를 선사한다. 화석전시관은 밀양시립박물관 내에 위치하며 고생대 중생대 등 전 세계에 분포되어 있는 주요 화석 (공룡, 어류 등) 244점이 전시되어 있다. 밀양독립운동기념관은 독립의열단 단장이었던 약산 김원봉과 석정 윤세주 열사 등 밀양출신 독립운동가들의 활동상을 조명해 볼 수 있는 곳이다. 1919년 3월 13일부터 일어난 밀양지역의 주요 만세운동과 파리장서운동, 밀양경찰서 폭탄투척사건 등은 물론 밀양의 근현대사를 조명해 볼 수 있다. 1974년 4월 밀양군립박물관으로 개관한 이래 박물관에서는 낙동강 유역의 문화와 역사를 조명하며 밀양지역의 다양한 자료를 수집, 전시하고있는 경남 최초의 공립박물관",
+      "sido": "경상남도",
+      "sigungu": "밀양시",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=71"
+      ],
+      "evidence_id": "E1",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=94",
+        "fields": {
+          "name": "밀양시립박물관",
+          "sido": "경상남도",
+          "sigungu": "밀양시",
+          "address": "경상남도 밀양시 밀양대공원로 100",
+          "ownership_type": "공립",
+          "adult_fee": "1000",
+          "youth_fee": "700",
+          "child_fee": "500",
+          "adult_fee_status": "BASE_FEE_PAID",
+          "weekday_open": "09:00",
+          "weekday_close": "18:00",
+          "holiday_open": "09:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "매주월요일(단, 공휴일경우, 다음날 휴관)+설 당일+추석 당일+1월1일",
+          "amenities_raw": "문화상품점+휴게실"
+        },
+        "base_data_date": "2026-09-17",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0073",
+      "name": "제주해양동물박물관",
+      "document": "제주해양동물박물관에서는 제주만의 특별한 교육 체험이 가능하다. 고래상어, 개복치, 키다리 게 등 해양 동물의 생생한 이야기에 대한 교육 그리고 체험이 가능하며, 어른과 어린이의 알찬 놀이터가 되어준다. 주요 소장품으로 약 800여 종의 해양동물 표본이 10,000여 점 전시되어 있다. 이곳의 해양동물 표본은 40여 년간의 오랜 경험과 특수 기술로 생동감 있게 제작되었다. 해양동물 실물 표본을 직접 관찰할 수 있어, 표본의 본질적 가치를 바탕으로 한 해양 동물 교육과 체험의 장이 되고 있다. 해양 동물자원의 중요성과 공존의 가치를 인식시키는 계기를 마련하고, 국내 생태계 보전의식 확산에 이바지하는, 지속 가능한 해양 동물 전문 박물관이다. 주변 관광지로는 세계적 자연유산인 성산일출봉과 섭지코지, 아쿠아플라넷, 용눈이오름 등이 있다.",
+      "metadata": {
+        "homepage_url": "http://www.jejumarineanimal.com",
+        "weekday_close": "18:00",
+        "latitude": 33.42948623,
+        "sido": "제주특별자치도",
+        "source_types": "TOUR_API",
+        "child_fee": 8000.0,
+        "ownership_type": "사립",
+        "weekday_open": "09:00",
+        "holiday_close": "18:00",
+        "youth_fee": 9000.0,
+        "holiday_open": "09:00",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/47/3548447_image2_1.jpg",
+        "adult_fee": 10000.0,
+        "sigungu": "서귀포시",
+        "name": "제주해양동물박물관",
+        "longitude": 126.8551274,
+        "address": "제주특별자치도 서귀포시 성산읍 서성일로 689-21",
+        "fee_notes": "단체 관람 시 할인+도민할인",
+        "image_copyright": "Type1",
+        "requires_manual_review": true,
+        "adult_fee_status": "BASE_FEE_PAID",
+        "closure_rule_raw": "수"
+      },
+      "vector_rank": null,
+      "bm25_rank": 5,
+      "vector_distance": null,
+      "vector_score": null,
+      "bm25_score": 7.899681404602024,
+      "vector_document": "",
+      "bm25_document": "제주해양동물박물관에서는 제주만의 특별한 교육 체험이 가능하다. 고래상어, 개복치, 키다리 게 등 해양 동물의 생생한 이야기에 대한 교육 그리고 체험이 가능하며, 어른과 어린이의 알찬 놀이터가 되어준다. 주요 소장품으로 약 800여 종의 해양동물 표본이 10,000여 점 전시되어 있다. 이곳의 해양동물 표본은 40여 년간의 오랜 경험과 특수 기술로 생동감 있게 제작되었다. 해양동물 실물 표본을 직접 관찰할 수 있어, 표본의 본질적 가치를 바탕으로 한 해양 동물 교육과 체험의 장이 되고 있다. 해양 동물자원의 중요성과 공존의 가치를 인식시키는 계기를 마련하고, 국내 생태계 보전의식 확산에 이바지하는, 지속 가능한 해양 동물 전문 박물관이다. 주변 관광지로는 세계적 자연유산인 성산일출봉과 섭지코지, 아쿠아플라넷, 용눈이오름 등이 있다.",
+      "best_span_id": "chroma:M0073",
+      "best_span_text": "제주해양동물박물관에서는 제주만의 특별한 교육 체험이 가능하다. 고래상어, 개복치, 키다리 게 등 해양 동물의 생생한 이야기에 대한 교육 그리고 체험이 가능하며, 어른과 어린이의 알찬 놀이터가 되어준다. 주요 소장품으로 약 800여 종의 해양동물 표본이 10,000여 점 전시되어 있다. 이곳의 해양동물 표본은 40여 년간의 오랜 경험과 특수 기술로 생동감 있게 제작되었다. 해양동물 실물 표본을 직접 관찰할 수 있어, 표본의 본질적 가치를 바탕으로 한 해양 동물 교육과 체험의 장이 되고 있다. 해양 동물자원의 중요성과 공존의 가치를 인식시키는 계기를 마련하고, 국내 생태계 보전의식 확산에 이바지하는, 지속 가능한 해양 동물 전문 박물관이다. 주변 관광지로는 세계적 자연유산인 성산일출봉과 섭지코지, 아쿠아플라넷, 용눈이오름 등이 있다.",
+      "fusion_score": 0.015384615384615385,
+      "retrieved_by": [
+        "bm25"
+      ],
+      "fusion_rank": 9,
+      "rerank_score": 0.0394003763794899,
+      "rank": 2,
+      "score": 0.0394003763794899,
+      "score_type": "cross_encoder",
+      "distance": null,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "bm25"
+      ],
+      "retriever": "bm25",
+      "span_id": "chroma:M0073",
+      "source_doc_ids": [
+        "DOC-B0073-TOUR_API-2751843"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0073-TOUR_API-2751843",
+          "source_type": "TOUR_API",
+          "source_record_id": "2751843",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=37",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 34,
+          "doc_ids": [
+            "DOC-B0073-TOUR_API-2751843"
+          ]
+        },
+        {
+          "start": 35,
+          "end": 112,
+          "doc_ids": [
+            "DOC-B0073-TOUR_API-2751843"
+          ]
+        },
+        {
+          "start": 113,
+          "end": 159,
+          "doc_ids": [
+            "DOC-B0073-TOUR_API-2751843"
+          ]
+        },
+        {
+          "start": 160,
+          "end": 208,
+          "doc_ids": [
+            "DOC-B0073-TOUR_API-2751843"
+          ]
+        },
+        {
+          "start": 209,
+          "end": 276,
+          "doc_ids": [
+            "DOC-B0073-TOUR_API-2751843"
+          ]
+        },
+        {
+          "start": 277,
+          "end": 360,
+          "doc_ids": [
+            "DOC-B0073-TOUR_API-2751843"
+          ]
+        },
+        {
+          "start": 361,
+          "end": 413,
+          "doc_ids": [
+            "DOC-B0073-TOUR_API-2751843"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=37",
+      "text": "제주해양동물박물관에서는 제주만의 특별한 교육 체험이 가능하다. 고래상어, 개복치, 키다리 게 등 해양 동물의 생생한 이야기에 대한 교육 그리고 체험이 가능하며, 어른과 어린이의 알찬 놀이터가 되어준다. 주요 소장품으로 약 800여 종의 해양동물 표본이 10,000여 점 전시되어 있다. 이곳의 해양동물 표본은 40여 년간의 오랜 경험과 특수 기술로 생동감 있게 제작되었다. 해양동물 실물 표본을 직접 관찰할 수 있어, 표본의 본질적 가치를 바탕으로 한 해양 동물 교육과 체험의 장이 되고 있다. 해양 동물자원의 중요성과 공존의 가치를 인식시키는 계기를 마련하고, 국내 생태계 보전의식 확산에 이바지하는, 지속 가능한 해양 동물 전문 박물관이다. 주변 관광지로는 세계적 자연유산인 성산일출봉과 섭지코지, 아쿠아플라넷, 용눈이오름 등이 있다.",
+      "sido": "제주특별자치도",
+      "sigungu": "서귀포시",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=37"
+      ],
+      "evidence_id": "E2",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=47",
+        "fields": {
+          "name": "제주해양동물박물관",
+          "sido": "제주특별자치도",
+          "sigungu": "서귀포시",
+          "address": "제주특별자치도 서귀포시 성산읍 서성일로 689-21",
+          "ownership_type": "사립",
+          "adult_fee": "10000",
+          "youth_fee": "9000",
+          "child_fee": "8000",
+          "adult_fee_status": "BASE_FEE_PAID",
+          "weekday_open": "09:00",
+          "weekday_close": "18:00",
+          "holiday_open": "09:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "수"
+        },
+        "base_data_date": "2026-09-30",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0612",
+      "name": "떡박물관",
+      "document": "떡박물관은 우리 조상들의 지혜롭고 슬기로웠던 삶의 모습과 숨결을 느낄 수 있는 체험공간이자 산교육의 마당이다. 개인적으로 수집한 소장품들을 이곳에 모아 박물관을 설립하게 된 동기는 1999년 3월 안국동 백상기념관에서 ‘이야기가 있는 옛 부엌살림전’을 개최한 것이 계기가 되었다. 전시를 본 많은 사람들이 우리의 옛 부엌살림을 언제나 만날 수 있는 공간이 있었으면 좋겠다는 의견을 주었고, 우리의 부엌살림 유물들이 잊히는 것이 마음이 아프던 차에 2002년 1월에 그동안 모아 온 소장품 3,000여 점을 지금의 박물관에 전시하면서 개관하게 되었다. 떡은 한국인의 생활 속에 깊숙이 들어앉아 희로애락을 함께 해 온 음식으로 그 종류도 많거니와 맛과 영양, 질감과 향을 위한 배합이 과학적으로 절묘하다. 떡박물관에서는 이러한 떡을 시절에 따라, 우리의 일생의례에 따라, 그리고 만드는 방법에 따라 분류 방법을 달리하여 전시하고 있다. 또한 떡을 만들 때 사용하는 각종 조리 도구들도 전시되어 있다. 떡을 보는 것만으로 그치는 것이 아닌 직접 만들어 보고 맛볼 수 있는 체험프로그램을 진행하고 있다. 체험을 통하여 내국인은 물론 외국인들에게도 우리의 자랑스러운 전통문화를 배우고, 잊혀 가는 식문화를 되살리는 계기가 되고 있다.",
+      "metadata": {
+        "address": "서울특별시 종로구 돈화문로 71(와룡동)",
+        "sido": "서울특별시",
+        "longitude": 126.9906359,
+        "adult_fee": 3000.0,
+        "homepage_url": "http://www.tkmuseum.or.kr/",
+        "name": "떡박물관",
+        "holiday_close": "18:00",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/39/3540839_image2_1.jpg",
+        "ownership_type": "사립",
+        "image_copyright": "Type1",
+        "adult_fee_status": "BASE_FEE_PAID",
+        "holiday_open": "12:00",
+        "source_types": "TOUR_API",
+        "requires_manual_review": true,
+        "weekday_close": "18:00",
+        "closure_rule_raw": "명절(1.1, 설날, 추석 당일)",
+        "sigungu": "종로구",
+        "youth_fee": 2000.0,
+        "child_fee": 2000.0,
+        "latitude": 37.57489958,
+        "weekday_open": "10:00"
+      },
+      "vector_rank": null,
+      "bm25_rank": 2,
+      "vector_distance": null,
+      "vector_score": null,
+      "bm25_score": 9.208580478688754,
+      "vector_document": "",
+      "bm25_document": "떡박물관은 우리 조상들의 지혜롭고 슬기로웠던 삶의 모습과 숨결을 느낄 수 있는 체험공간이자 산교육의 마당이다. 개인적으로 수집한 소장품들을 이곳에 모아 박물관을 설립하게 된 동기는 1999년 3월 안국동 백상기념관에서 ‘이야기가 있는 옛 부엌살림전’을 개최한 것이 계기가 되었다. 전시를 본 많은 사람들이 우리의 옛 부엌살림을 언제나 만날 수 있는 공간이 있었으면 좋겠다는 의견을 주었고, 우리의 부엌살림 유물들이 잊히는 것이 마음이 아프던 차에 2002년 1월에 그동안 모아 온 소장품 3,000여 점을 지금의 박물관에 전시하면서 개관하게 되었다. 떡은 한국인의 생활 속에 깊숙이 들어앉아 희로애락을 함께 해 온 음식으로 그 종류도 많거니와 맛과 영양, 질감과 향을 위한 배합이 과학적으로 절묘하다. 떡박물관에서는 이러한 떡을 시절에 따라, 우리의 일생의례에 따라, 그리고 만드는 방법에 따라 분류 방법을 달리하여 전시하고 있다. 또한 떡을 만들 때 사용하는 각종 조리 도구들도 전시되어 있다. 떡을 보는 것만으로 그치는 것이 아닌 직접 만들어 보고 맛볼 수 있는 체험프로그램을 진행하고 있다. 체험을 통하여 내국인은 물론 외국인들에게도 우리의 자랑스러운 전통문화를 배우고, 잊혀 가는 식문화를 되살리는 계기가 되고 있다.",
+      "best_span_id": "chroma:M0612",
+      "best_span_text": "떡박물관은 우리 조상들의 지혜롭고 슬기로웠던 삶의 모습과 숨결을 느낄 수 있는 체험공간이자 산교육의 마당이다. 개인적으로 수집한 소장품들을 이곳에 모아 박물관을 설립하게 된 동기는 1999년 3월 안국동 백상기념관에서 ‘이야기가 있는 옛 부엌살림전’을 개최한 것이 계기가 되었다. 전시를 본 많은 사람들이 우리의 옛 부엌살림을 언제나 만날 수 있는 공간이 있었으면 좋겠다는 의견을 주었고, 우리의 부엌살림 유물들이 잊히는 것이 마음이 아프던 차에 2002년 1월에 그동안 모아 온 소장품 3,000여 점을 지금의 박물관에 전시하면서 개관하게 되었다. 떡은 한국인의 생활 속에 깊숙이 들어앉아 희로애락을 함께 해 온 음식으로 그 종류도 많거니와 맛과 영양, 질감과 향을 위한 배합이 과학적으로 절묘하다. 떡박물관에서는 이러한 떡을 시절에 따라, 우리의 일생의례에 따라, 그리고 만드는 방법에 따라 분류 방법을 달리하여 전시하고 있다. 또한 떡을 만들 때 사용하는 각종 조리 도구들도 전시되어 있다. 떡을 보는 것만으로 그치는 것이 아닌 직접 만들어 보고 맛볼 수 있는 체험프로그램을 진행하고 있다. 체험을 통하여 내국인은 물론 외국인들에게도 우리의 자랑스러운 전통문화를 배우고, 잊혀 가는 식문화를 되살리는 계기가 되고 있다.",
+      "fusion_score": 0.016129032258064516,
+      "retrieved_by": [
+        "bm25"
+      ],
+      "fusion_rank": 3,
+      "rerank_score": 0.025190360844135284,
+      "rank": 3,
+      "score": 0.025190360844135284,
+      "score_type": "cross_encoder",
+      "distance": null,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "bm25"
+      ],
+      "retriever": "bm25",
+      "span_id": "chroma:M0612",
+      "source_doc_ids": [
+        "DOC-B0612-TOUR_API-130365"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0612-TOUR_API-130365",
+          "source_type": "TOUR_API",
+          "source_record_id": "130365",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=304",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 61,
+          "doc_ids": [
+            "DOC-B0612-TOUR_API-130365"
+          ]
+        },
+        {
+          "start": 62,
+          "end": 156,
+          "doc_ids": [
+            "DOC-B0612-TOUR_API-130365"
+          ]
+        },
+        {
+          "start": 157,
+          "end": 307,
+          "doc_ids": [
+            "DOC-B0612-TOUR_API-130365"
+          ]
+        },
+        {
+          "start": 308,
+          "end": 392,
+          "doc_ids": [
+            "DOC-B0612-TOUR_API-130365"
+          ]
+        },
+        {
+          "start": 393,
+          "end": 465,
+          "doc_ids": [
+            "DOC-B0612-TOUR_API-130365"
+          ]
+        },
+        {
+          "start": 466,
+          "end": 501,
+          "doc_ids": [
+            "DOC-B0612-TOUR_API-130365"
+          ]
+        },
+        {
+          "start": 502,
+          "end": 557,
+          "doc_ids": [
+            "DOC-B0612-TOUR_API-130365"
+          ]
+        },
+        {
+          "start": 558,
+          "end": 629,
+          "doc_ids": [
+            "DOC-B0612-TOUR_API-130365"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=304",
+      "text": "떡박물관은 우리 조상들의 지혜롭고 슬기로웠던 삶의 모습과 숨결을 느낄 수 있는 체험공간이자 산교육의 마당이다. 개인적으로 수집한 소장품들을 이곳에 모아 박물관을 설립하게 된 동기는 1999년 3월 안국동 백상기념관에서 ‘이야기가 있는 옛 부엌살림전’을 개최한 것이 계기가 되었다. 전시를 본 많은 사람들이 우리의 옛 부엌살림을 언제나 만날 수 있는 공간이 있었으면 좋겠다는 의견을 주었고, 우리의 부엌살림 유물들이 잊히는 것이 마음이 아프던 차에 2002년 1월에 그동안 모아 온 소장품 3,000여 점을 지금의 박물관에 전시하면서 개관하게 되었다. 떡은 한국인의 생활 속에 깊숙이 들어앉아 희로애락을 함께 해 온 음식으로 그 종류도 많거니와 맛과 영양, 질감과 향을 위한 배합이 과학적으로 절묘하다. 떡박물관에서는 이러한 떡을 시절에 따라, 우리의 일생의례에 따라, 그리고 만드는 방법에 따라 분류 방법을 달리하여 전시하고 있다. 또한 떡을 만들 때 사용하는 각종 조리 도구들도 전시되어 있다. 떡을 보는 것만으로 그치는 것이 아닌 직접 만들어 보고 맛볼 수 있는 체험프로그램을 진행하고 있다. 체험을 통하여 내국인은 물론 외국인들에게도 우리의 자랑스러운 전통문화를 배우고, 잊혀 가는 식문화를 되살리는 계기가 되고 있다.",
+      "sido": "서울특별시",
+      "sigungu": "종로구",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=304"
+      ],
+      "evidence_id": "E3",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=428",
+        "fields": {
+          "name": "떡박물관",
+          "sido": "서울특별시",
+          "sigungu": "종로구",
+          "address": "서울특별시 종로구 돈화문로 71(와룡동)",
+          "ownership_type": "사립",
+          "adult_fee": "3000",
+          "youth_fee": "2000",
+          "child_fee": "2000",
+          "adult_fee_status": "BASE_FEE_PAID",
+          "weekday_open": "10:00",
+          "weekday_close": "18:00",
+          "holiday_open": "12:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "명절(1.1, 설날, 추석 당일)"
+        },
+        "base_data_date": "2025-11-01",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0374",
+      "name": "한길책박물관",
+      "document": "한길책박물관은 1976년 창립해 우리 시대 인문학 출판을 선도해 온 한길사에서 운영하는 책 박물관이다. 이곳은 책을 사랑하는 사람들과 고서를 만든 장인들의 아름다움을 나누고자 문을 열었다. 한길책박물관은 직사광선을 피하고 인위적인 빛은 어울리지 않는다고 생각하여 박물관 내부로는 직접적으로 들어오지 않도록 설계되었으며, 천혜의 자연경관과 잘 어울릴 수 있도록 디자인한 것이 큰 특징이다. 박물관의 대표적인 소장품으로는 윌리엄 모리스의 초서 저작집이 있는데, 전 세계에 극히 소수만이 완질(53종 66권)을 가지고 있으며, 국내에서는 이곳에서 대표적으로 소장하고 있다. 또한 17~19세기 유럽의 고서, 귀스타브 도레, 윌리엄 터너, 생텍쥐페리 등 유명 예술가의 화집 등 독특한 아트북을 소장하고 있다.",
+      "metadata": {
+        "homepage_url": "http://blog.naver.com/hangilbm",
+        "adult_fee": 12000.0,
+        "sido": "경기도",
+        "image_copyright": "Type3",
+        "holiday_open": "11:00",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/59/3467459_image2_1.JPG",
+        "source_types": "TOUR_API",
+        "latitude": 37.7892612758,
+        "holiday_close": "18:00",
+        "sigungu": "파주시",
+        "longitude": 126.6979379076,
+        "ownership_type": "사립",
+        "child_fee": 10000.0,
+        "name": "한길책박물관",
+        "requires_manual_review": true,
+        "weekday_close": "18:00",
+        "fee_notes": "단체(20명 이상) 인당 8000원+36개월 미만 영유아 무료",
+        "address": "경기도 파주시 탄현면 헤이리마을길 59-6",
+        "closure_rule_raw": "월요일+화요일",
+        "weekday_open": "11:00",
+        "youth_fee": 10000.0,
+        "adult_fee_status": "BASE_FEE_PAID"
+      },
+      "vector_rank": null,
+      "bm25_rank": 6,
+      "vector_distance": null,
+      "vector_score": null,
+      "bm25_score": 7.2929002222491475,
+      "vector_document": "",
+      "bm25_document": "한길책박물관은 1976년 창립해 우리 시대 인문학 출판을 선도해 온 한길사에서 운영하는 책 박물관이다. 이곳은 책을 사랑하는 사람들과 고서를 만든 장인들의 아름다움을 나누고자 문을 열었다. 한길책박물관은 직사광선을 피하고 인위적인 빛은 어울리지 않는다고 생각하여 박물관 내부로는 직접적으로 들어오지 않도록 설계되었으며, 천혜의 자연경관과 잘 어울릴 수 있도록 디자인한 것이 큰 특징이다. 박물관의 대표적인 소장품으로는 윌리엄 모리스의 초서 저작집이 있는데, 전 세계에 극히 소수만이 완질(53종 66권)을 가지고 있으며, 국내에서는 이곳에서 대표적으로 소장하고 있다. 또한 17~19세기 유럽의 고서, 귀스타브 도레, 윌리엄 터너, 생텍쥐페리 등 유명 예술가의 화집 등 독특한 아트북을 소장하고 있다.",
+      "best_span_id": "chroma:M0374",
+      "best_span_text": "한길책박물관은 1976년 창립해 우리 시대 인문학 출판을 선도해 온 한길사에서 운영하는 책 박물관이다. 이곳은 책을 사랑하는 사람들과 고서를 만든 장인들의 아름다움을 나누고자 문을 열었다. 한길책박물관은 직사광선을 피하고 인위적인 빛은 어울리지 않는다고 생각하여 박물관 내부로는 직접적으로 들어오지 않도록 설계되었으며, 천혜의 자연경관과 잘 어울릴 수 있도록 디자인한 것이 큰 특징이다. 박물관의 대표적인 소장품으로는 윌리엄 모리스의 초서 저작집이 있는데, 전 세계에 극히 소수만이 완질(53종 66권)을 가지고 있으며, 국내에서는 이곳에서 대표적으로 소장하고 있다. 또한 17~19세기 유럽의 고서, 귀스타브 도레, 윌리엄 터너, 생텍쥐페리 등 유명 예술가의 화집 등 독특한 아트북을 소장하고 있다.",
+      "fusion_score": 0.015151515151515152,
+      "retrieved_by": [
+        "bm25"
+      ],
+      "fusion_rank": 11,
+      "rerank_score": 0.020830579102039337,
+      "rank": 4,
+      "score": 0.020830579102039337,
+      "score_type": "cross_encoder",
+      "distance": null,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "bm25"
+      ],
+      "retriever": "bm25",
+      "span_id": "chroma:M0374",
+      "source_doc_ids": [
+        "DOC-B0374-TOUR_API-2569495"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0374-TOUR_API-2569495",
+          "source_type": "TOUR_API",
+          "source_record_id": "2569495",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=176",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 57,
+          "doc_ids": [
+            "DOC-B0374-TOUR_API-2569495"
+          ]
+        },
+        {
+          "start": 58,
+          "end": 105,
+          "doc_ids": [
+            "DOC-B0374-TOUR_API-2569495"
+          ]
+        },
+        {
+          "start": 106,
+          "end": 216,
+          "doc_ids": [
+            "DOC-B0374-TOUR_API-2569495"
+          ]
+        },
+        {
+          "start": 217,
+          "end": 317,
+          "doc_ids": [
+            "DOC-B0374-TOUR_API-2569495"
+          ]
+        },
+        {
+          "start": 318,
+          "end": 392,
+          "doc_ids": [
+            "DOC-B0374-TOUR_API-2569495"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=176",
+      "text": "한길책박물관은 1976년 창립해 우리 시대 인문학 출판을 선도해 온 한길사에서 운영하는 책 박물관이다. 이곳은 책을 사랑하는 사람들과 고서를 만든 장인들의 아름다움을 나누고자 문을 열었다. 한길책박물관은 직사광선을 피하고 인위적인 빛은 어울리지 않는다고 생각하여 박물관 내부로는 직접적으로 들어오지 않도록 설계되었으며, 천혜의 자연경관과 잘 어울릴 수 있도록 디자인한 것이 큰 특징이다. 박물관의 대표적인 소장품으로는 윌리엄 모리스의 초서 저작집이 있는데, 전 세계에 극히 소수만이 완질(53종 66권)을 가지고 있으며, 국내에서는 이곳에서 대표적으로 소장하고 있다. 또한 17~19세기 유럽의 고서, 귀스타브 도레, 윌리엄 터너, 생텍쥐페리 등 유명 예술가의 화집 등 독특한 아트북을 소장하고 있다.",
+      "sido": "경기도",
+      "sigungu": "파주시",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=176"
+      ],
+      "evidence_id": "E4",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=271",
+        "fields": {
+          "name": "한길책박물관",
+          "sido": "경기도",
+          "sigungu": "파주시",
+          "address": "경기도 파주시 탄현면 헤이리마을길 59-6",
+          "ownership_type": "사립",
+          "adult_fee": "12000",
+          "youth_fee": "10000",
+          "child_fee": "10000",
+          "adult_fee_status": "BASE_FEE_PAID",
+          "weekday_open": "11:00",
+          "weekday_close": "18:00",
+          "holiday_open": "11:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "월요일+화요일"
+        },
+        "base_data_date": "2026-06-22",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0741",
+      "name": "옛길박물관",
+      "document": "문경은 우리나라 문화지리의 보고(寶庫)이자 길 박물관이다. 조선시대 역사와 문화의 소통로(疏通路)로서 조선팔도 고갯길의 대명사로 불리던 ‘문경새재’(명승 제32호)가 있고, 우리나라 최고(最古, 서기 156년 개척)의 고갯길인 ‘하늘재’, 옛길의 백미(白眉)이자 한국의 차마고도로 일컬을 수 있는 ‘토끼비리’(명승 제31호) 또 영남 대로 상의 허브 역할 담당했던 유곡역이 있다. 이러한 옛길 관련 문화유적은 이름만 남아 있는 것이 아니라 오늘날에도 살아있는 ‘길’로서 많은 사람들이 즐겨 찾고 있다. 옛길 박물관은 이러한 문경의 역사 문화적 정체성을 잘 나타내기 위하여 건립된 박물관으로 당초 향토사 중심의 문경새재 박물관을 리모델링하여 2009년 재개관하였다. 옛길 위에서 펼쳐졌던 각종 문화상을 옛길 박물관에 담아내고 있다. 박물관은 지하 1층 지상 2층 규모로, 3개 전시실과 1, 2층 중앙홀, 수장고, 영상실 등을 갖추고 있고, 야외전시장도 조성되어 있다. 제1전시실(주흘실)에는 문경관문, 영남 대로, 문경의 전투, 경상감사 도임 행차(慶尙監司到任行次), 제2전시실(조곡실)에는 문경의 문화와 의·식·주 생활, 집과 모둠살이, 신앙과 의례, 생업 기술 등에 관한 소장품 및 자료를 전시하고 있다. 제3전시실(조령실)에서는 굽다리접시·토기 항아리 등 신라시대 토기가 주를 이루는 매장유산, 1724년(경종 4) 도화서 화원 이치가 그린 옥소 권섭 영정, 선조가 홍인걸에게 하사하였다고 전해지는 어필 및 홍인걸의 유품인 투구, 김승주 삼공신 회맹록 판본, 주두업 지석 등에 관한 전시가 이루어지며, 야외에는 금학 사지 삼층석탑, 서낭당, 연자방아, 옹기와 장독대 등이 있다.",
+      "metadata": {
+        "longitude": 128.076414,
+        "weekday_close": "18:00",
+        "address": "경상북도 문경시 문경읍 새재로 944",
+        "holiday_close": "18:00",
+        "youth_fee": 0.0,
+        "image_copyright": "Type1",
+        "requires_manual_review": true,
+        "holiday_open": "09:00",
+        "child_fee": 0.0,
+        "closure_rule_raw": "1월1일, 설날, 추석, 박물관훈증소독 기간",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/09/4103109_image2_1.jpg",
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "sigungu": "문경시",
+        "adult_fee": 0.0,
+        "source_types": "TOUR_API",
+        "sido": "경상북도",
+        "weekday_open": "09:00",
+        "amenities_raw": "모바일서비스",
+        "latitude": 36.763134,
+        "name": "옛길박물관",
+        "ownership_type": "공립",
+        "fee_notes": "무료",
+        "homepage_url": "https://www.gbmg.go.kr/tour/contents.do?mId=0102010100"
+      },
+      "vector_rank": 10,
+      "bm25_rank": null,
+      "vector_distance": 0.5404389500617981,
+      "vector_score": null,
+      "bm25_score": null,
+      "vector_document": "문경은 우리나라 문화지리의 보고(寶庫)이자 길 박물관이다. 조선시대 역사와 문화의 소통로(疏通路)로서 조선팔도 고갯길의 대명사로 불리던 ‘문경새재’(명승 제32호)가 있고, 우리나라 최고(最古, 서기 156년 개척)의 고갯길인 ‘하늘재’, 옛길의 백미(白眉)이자 한국의 차마고도로 일컬을 수 있는 ‘토끼비리’(명승 제31호) 또 영남 대로 상의 허브 역할 담당했던 유곡역이 있다. 이러한 옛길 관련 문화유적은 이름만 남아 있는 것이 아니라 오늘날에도 살아있는 ‘길’로서 많은 사람들이 즐겨 찾고 있다. 옛길 박물관은 이러한 문경의 역사 문화적 정체성을 잘 나타내기 위하여 건립된 박물관으로 당초 향토사 중심의 문경새재 박물관을 리모델링하여 2009년 재개관하였다. 옛길 위에서 펼쳐졌던 각종 문화상을 옛길 박물관에 담아내고 있다. 박물관은 지하 1층 지상 2층 규모로, 3개 전시실과 1, 2층 중앙홀, 수장고, 영상실 등을 갖추고 있고, 야외전시장도 조성되어 있다. 제1전시실(주흘실)에는 문경관문, 영남 대로, 문경의 전투, 경상감사 도임 행차(慶尙監司到任行次), 제2전시실(조곡실)에는 문경의 문화와 의·식·주 생활, 집과 모둠살이, 신앙과 의례, 생업 기술 등에 관한 소장품 및 자료를 전시하고 있다. 제3전시실(조령실)에서는 굽다리접시·토기 항아리 등 신라시대 토기가 주를 이루는 매장유산, 1724년(경종 4) 도화서 화원 이치가 그린 옥소 권섭 영정, 선조가 홍인걸에게 하사하였다고 전해지는 어필 및 홍인걸의 유품인 투구, 김승주 삼공신 회맹록 판본, 주두업 지석 등에 관한 전시가 이루어지며, 야외에는 금학 사지 삼층석탑, 서낭당, 연자방아, 옹기와 장독대 등이 있다.",
+      "bm25_document": "",
+      "best_span_id": null,
+      "best_span_text": null,
+      "fusion_score": 0.014285714285714285,
+      "retrieved_by": [
+        "vector"
+      ],
+      "fusion_rank": 18,
+      "rerank_score": 0.009025600738823414,
+      "rank": 5,
+      "score": 0.009025600738823414,
+      "score_type": "cross_encoder",
+      "distance": 0.5404389500617981,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector"
+      ],
+      "retriever": "vector",
+      "source_doc_ids": [
+        "DOC-B0741-TOUR_API-130314"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0741-TOUR_API-130314",
+          "source_type": "TOUR_API",
+          "source_record_id": "130314",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=358",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 32,
+          "doc_ids": [
+            "DOC-B0741-TOUR_API-130314"
+          ]
+        },
+        {
+          "start": 33,
+          "end": 212,
+          "doc_ids": [
+            "DOC-B0741-TOUR_API-130314"
+          ]
+        },
+        {
+          "start": 213,
+          "end": 280,
+          "doc_ids": [
+            "DOC-B0741-TOUR_API-130314"
+          ]
+        },
+        {
+          "start": 281,
+          "end": 371,
+          "doc_ids": [
+            "DOC-B0741-TOUR_API-130314"
+          ]
+        },
+        {
+          "start": 372,
+          "end": 408,
+          "doc_ids": [
+            "DOC-B0741-TOUR_API-130314"
+          ]
+        },
+        {
+          "start": 409,
+          "end": 485,
+          "doc_ids": [
+            "DOC-B0741-TOUR_API-130314"
+          ]
+        },
+        {
+          "start": 486,
+          "end": 620,
+          "doc_ids": [
+            "DOC-B0741-TOUR_API-130314"
+          ]
+        },
+        {
+          "start": 621,
+          "end": 830,
+          "doc_ids": [
+            "DOC-B0741-TOUR_API-130314"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=358",
+      "text": "문경은 우리나라 문화지리의 보고(寶庫)이자 길 박물관이다. 조선시대 역사와 문화의 소통로(疏通路)로서 조선팔도 고갯길의 대명사로 불리던 ‘문경새재’(명승 제32호)가 있고, 우리나라 최고(最古, 서기 156년 개척)의 고갯길인 ‘하늘재’, 옛길의 백미(白眉)이자 한국의 차마고도로 일컬을 수 있는 ‘토끼비리’(명승 제31호) 또 영남 대로 상의 허브 역할 담당했던 유곡역이 있다. 이러한 옛길 관련 문화유적은 이름만 남아 있는 것이 아니라 오늘날에도 살아있는 ‘길’로서 많은 사람들이 즐겨 찾고 있다. 옛길 박물관은 이러한 문경의 역사 문화적 정체성을 잘 나타내기 위하여 건립된 박물관으로 당초 향토사 중심의 문경새재 박물관을 리모델링하여 2009년 재개관하였다. 옛길 위에서 펼쳐졌던 각종 문화상을 옛길 박물관에 담아내고 있다. 박물관은 지하 1층 지상 2층 규모로, 3개 전시실과 1, 2층 중앙홀, 수장고, 영상실 등을 갖추고 있고, 야외전시장도 조성되어 있다. 제1전시실(주흘실)에는 문경관문, 영남 대로, 문경의 전투, 경상감사 도임 행차(慶尙監司到任行次), 제2전시실(조곡실)에는 문경의 문화와 의·식·주 생활, 집과 모둠살이, 신앙과 의례, 생업 기술 등에 관한 소장품 및 자료를 전시하고 있다. 제3전시실(조령실)에서는 굽다리접시·토기 항아리 등 신라시대 토기가 주를 이루는 매장유산, 1724년(경종 4) 도화서 화원 이치가 그린 옥소 권섭 영정, 선조가 홍인걸에게 하사하였다고 전해지는 어필 및 홍인걸의 유품인 투구, 김승주 삼공신 회맹록 판본, 주두업 지석 등에 관한 전시가 이루어지며, 야외에는 금학 사지 삼층석탑, 서낭당, 연자방아, 옹기와 장독대 등이 있다.",
+      "sido": "경상북도",
+      "sigungu": "문경시",
+      "span_id": "",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=358"
+      ],
+      "evidence_id": "E5",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=515",
+        "fields": {
+          "name": "옛길박물관",
+          "sido": "경상북도",
+          "sigungu": "문경시",
+          "address": "경상북도 문경시 문경읍 새재로 944",
+          "ownership_type": "공립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "09:00",
+          "weekday_close": "18:00",
+          "holiday_open": "09:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "1월1일, 설날, 추석, 박물관훈증소독 기간",
+          "amenities_raw": "모바일서비스"
+        },
+        "base_data_date": "2025-12-18",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    }
+  ],
+  "answer": "밀양시립박물관의 주요 소장품으로는 **밀양 12경도**, 《용담취규정잡영》, 단원 김홍도의 《선유도》와 오원 장승업의 《화조도》 등 서화류가 있습니다. 이방중묘 출토 명기와 지석, 청자명문매호를 비롯한 도자기·토기류와 낙동강 유역 및 밀양 지역에서 출토된 고고유물도 소장하고 있습니다. [E1]\n\n또한 소눌선생문집책판과 퇴로본 성호선생문집책판 등을 포함한 문집 책판 39종 4,835장, 민속·생활유물이 주요 소장품입니다. 박물관 내 화석전시관에는 공룡·어류 등 주요 화석 244점도 전시되어 있습니다. [E1]",
+  "retrieval_status": "ok",
+  "answer_status": "answered",
+  "route": "hybrid",
+  "retry_count": 0,
+  "supervisor_verified": true,
+  "rerank_applied": true,
+  "retriever_errors": [],
+  "warnings": [],
+  "duration_ms": 76021.25,
+  "error_type": "",
+  "hit_at_1": 1,
+  "hit_at_3": 1,
+  "hit_at_5": 1,
+  "recall_at_5": 1.0,
+  "mrr_at_10": 1.0
+}

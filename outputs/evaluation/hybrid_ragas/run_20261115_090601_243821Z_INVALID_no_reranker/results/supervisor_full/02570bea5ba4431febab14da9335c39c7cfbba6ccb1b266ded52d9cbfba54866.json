@@ -1,0 +1,719 @@
+{
+  "mode": "supervisor_full",
+  "question_id": "Q224",
+  "evidence": [
+    {
+      "museum_id": "M0378",
+      "name": "벽봉한국장신구박물관",
+      "document": "벽봉한국장신구박물관은 한국 전통문화의 격조와 품격을 알리기 위하여 2014년 무형유산이 설립한 1종 전문 박물관이다. 선시대 왕실과 반가에서 사용한 한국의 전통장신구와 옥공예품에 관련된 작품을 전시하고 있다. 박물관의 소장품은 대부분 국가무형유산 옥장 김영희 선생님의 작품으로, 조선시대 왕실에서 사용된 궁중 장신구의 복원, 복제한 작품과 문양을 응용한 현대 창작품이 주를 이루고 있다. 이러한 특성을 살려 문화유산과 전통기술에 대한 가치를 향유하고 보편화를 위한 노력을 통해 전통문화에 대한 친밀함을 높이고자 한다.",
+      "metadata": {
+        "image_copyright": "Type3",
+        "address": "경기도 파주시 탄현면 헤이리마을길 48-38",
+        "sigungu": "파주시",
+        "longitude": 126.7000613546,
+        "weekday_open": "10:00",
+        "youth_fee": 4000.0,
+        "latitude": 37.787630289,
+        "child_fee": 4000.0,
+        "name": "벽봉한국장신구박물관",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/41/3353841_image2_1.jpg",
+        "holiday_close": "18:00",
+        "ownership_type": "사립",
+        "holiday_open": "10:00",
+        "adult_fee_status": "BASE_FEE_PAID",
+        "sido": "경기도",
+        "adult_fee": 6000.0,
+        "weekday_close": "18:00",
+        "source_types": "TOUR_API",
+        "closure_rule_raw": "월요일+화요일",
+        "requires_manual_review": true
+      },
+      "vector_rank": 1,
+      "bm25_rank": 1,
+      "vector_distance": 0.37859511375427246,
+      "vector_score": null,
+      "bm25_score": 30.808777883534905,
+      "vector_document": "벽봉한국장신구박물관은 한국 전통문화의 격조와 품격을 알리기 위하여 2014년 무형유산이 설립한 1종 전문 박물관이다. 선시대 왕실과 반가에서 사용한 한국의 전통장신구와 옥공예품에 관련된 작품을 전시하고 있다. 박물관의 소장품은 대부분 국가무형유산 옥장 김영희 선생님의 작품으로, 조선시대 왕실에서 사용된 궁중 장신구의 복원, 복제한 작품과 문양을 응용한 현대 창작품이 주를 이루고 있다. 이러한 특성을 살려 문화유산과 전통기술에 대한 가치를 향유하고 보편화를 위한 노력을 통해 전통문화에 대한 친밀함을 높이고자 한다.",
+      "bm25_document": "벽봉한국장신구박물관은 한국 전통문화의 격조와 품격을 알리기 위하여 2014년 무형유산이 설립한 1종 전문 박물관이다. 선시대 왕실과 반가에서 사용한 한국의 전통장신구와 옥공예품에 관련된 작품을 전시하고 있다. 박물관의 소장품은 대부분 국가무형유산 옥장 김영희 선생님의 작품으로, 조선시대 왕실에서 사용된 궁중 장신구의 복원, 복제한 작품과 문양을 응용한 현대 창작품이 주를 이루고 있다. 이러한 특성을 살려 문화유산과 전통기술에 대한 가치를 향유하고 보편화를 위한 노력을 통해 전통문화에 대한 친밀함을 높이고자 한다.",
+      "best_span_id": "chroma:M0378",
+      "best_span_text": "벽봉한국장신구박물관은 한국 전통문화의 격조와 품격을 알리기 위하여 2014년 무형유산이 설립한 1종 전문 박물관이다. 선시대 왕실과 반가에서 사용한 한국의 전통장신구와 옥공예품에 관련된 작품을 전시하고 있다. 박물관의 소장품은 대부분 국가무형유산 옥장 김영희 선생님의 작품으로, 조선시대 왕실에서 사용된 궁중 장신구의 복원, 복제한 작품과 문양을 응용한 현대 창작품이 주를 이루고 있다. 이러한 특성을 살려 문화유산과 전통기술에 대한 가치를 향유하고 보편화를 위한 노력을 통해 전통문화에 대한 친밀함을 높이고자 한다.",
+      "fusion_score": 0.03278688524590164,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 1,
+      "name_match": true,
+      "rerank_score": null,
+      "rank": 1,
+      "score": 0.03278688524590164,
+      "score_type": "rrf",
+      "distance": 0.37859511375427246,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0378",
+      "source_doc_ids": [
+        "DOC-B0378-TOUR_API-2551447"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0378-TOUR_API-2551447",
+          "source_type": "TOUR_API",
+          "source_record_id": "2551447",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=179",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 65,
+          "doc_ids": [
+            "DOC-B0378-TOUR_API-2551447"
+          ]
+        },
+        {
+          "start": 66,
+          "end": 116,
+          "doc_ids": [
+            "DOC-B0378-TOUR_API-2551447"
+          ]
+        },
+        {
+          "start": 117,
+          "end": 216,
+          "doc_ids": [
+            "DOC-B0378-TOUR_API-2551447"
+          ]
+        },
+        {
+          "start": 217,
+          "end": 289,
+          "doc_ids": [
+            "DOC-B0378-TOUR_API-2551447"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=179",
+      "text": "벽봉한국장신구박물관은 한국 전통문화의 격조와 품격을 알리기 위하여 2014년 무형유산이 설립한 1종 전문 박물관이다. 선시대 왕실과 반가에서 사용한 한국의 전통장신구와 옥공예품에 관련된 작품을 전시하고 있다. 박물관의 소장품은 대부분 국가무형유산 옥장 김영희 선생님의 작품으로, 조선시대 왕실에서 사용된 궁중 장신구의 복원, 복제한 작품과 문양을 응용한 현대 창작품이 주를 이루고 있다. 이러한 특성을 살려 문화유산과 전통기술에 대한 가치를 향유하고 보편화를 위한 노력을 통해 전통문화에 대한 친밀함을 높이고자 한다.",
+      "sido": "경기도",
+      "sigungu": "파주시",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=179"
+      ],
+      "evidence_id": "E1",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=274",
+        "fields": {
+          "name": "벽봉한국장신구박물관",
+          "sido": "경기도",
+          "sigungu": "파주시",
+          "address": "경기도 파주시 탄현면 헤이리마을길 48-38",
+          "ownership_type": "사립",
+          "adult_fee": "6000",
+          "youth_fee": "4000",
+          "child_fee": "4000",
+          "adult_fee_status": "BASE_FEE_PAID",
+          "weekday_open": "10:00",
+          "weekday_close": "18:00",
+          "holiday_open": "10:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "월요일+화요일"
+        },
+        "base_data_date": "2026-06-22",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0209",
+      "name": "만봉불화박물관",
+      "document": "만봉불화박물관은 중요무형문화유산으로 지정되신 만봉스님의 훌륭한 작품을 보존하고 전시하고 있다. 그리고 작품에 대한 이해와 연구를 통하여 만봉스님의 업적과 세계관, 더 나아가 한국불교문화의 우수성을 알리고 있는 곳이다. 만봉스님의 유물과 탱화 등 불화 작품, 도자기 등을 감상할 수 있다. 특히 2012년 12월 강원도 유형문화유산으로 지정된 초 10점이 전시되어 있어 더욱 풍부한 볼거리를 선사하고 있다. 만봉사, 만봉사박물관은 강원도 영월군 김삿갓면 예밀리 해발 1100미터의 망경대산 서쪽 계곡의 울창한 수림 속에 위치하고 있다. 이 두 곳은 한국불교미술의 거장인 만봉스님의 업적을 기리기 위해 창건된 사찰과 박물관이다. 박물관에는 만봉스님의 불화 작품 수백 점이 전시되어 있어 그분의 업적과 사상을 기리고 있다. 또한 만봉사 종각에는 ‘신원의 종’이라는 커다란 범종이 있다. 신원의 의미는 ‘새벽 동산’이라는 의미이다. 이처럼 만봉사는 모든 종단과 종교를 수용하는 독립 종단의 사찰로서 모든 사람들이 왕래하며 편안하게 기도하고 쉬어갈 수 있는 장소이다. 중요무형문화제 제48호로 지정되신 만봉스님의 훌륭한 작품을 보존하고 전시하고 있습니다.",
+      "metadata": {
+        "adult_fee_status": "BASE_FEE_PAID",
+        "adult_fee": 5000.0,
+        "latitude": 37.15499587,
+        "sido": "강원특별자치도",
+        "youth_fee": 4000.0,
+        "ownership_type": "사립",
+        "requires_manual_review": true,
+        "holiday_close": "18:00",
+        "address": "강원특별자치도 영월군 김삿갓면 망경대산길135-3",
+        "image_copyright": "Type3",
+        "sigungu": "영월군",
+        "holiday_open": "09:00",
+        "closure_rule_raw": "월",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/47/3394447_image2_1.JPG",
+        "name": "만봉불화박물관",
+        "source_types": "BASE|TOUR_API",
+        "fee_notes": "50프로 할인(영월군민+65세 이상)+ 단체요금: 20인 이상+무료(2급 이상 장애인 및 5세 이하)",
+        "weekday_open": "09:00",
+        "child_fee": 3000.0,
+        "longitude": 128.6086564,
+        "homepage_url": "https://korean.visitkorea.or.kr/detail/ms_detail.do?cotid=cac9efbf-4e28-416d-8af5-e40af18af867&big_category=A02&mid_category=A0206&big_area=32",
+        "weekday_close": "18:00"
+      },
+      "vector_rank": 9,
+      "bm25_rank": 3,
+      "vector_distance": 0.5172711610794067,
+      "vector_score": null,
+      "bm25_score": 19.055982316719955,
+      "vector_document": "만봉불화박물관은 중요무형문화유산으로 지정되신 만봉스님의 훌륭한 작품을 보존하고 전시하고 있다. 그리고 작품에 대한 이해와 연구를 통하여 만봉스님의 업적과 세계관, 더 나아가 한국불교문화의 우수성을 알리고 있는 곳이다. 만봉스님의 유물과 탱화 등 불화 작품, 도자기 등을 감상할 수 있다. 특히 2012년 12월 강원도 유형문화유산으로 지정된 초 10점이 전시되어 있어 더욱 풍부한 볼거리를 선사하고 있다. 만봉사, 만봉사박물관은 강원도 영월군 김삿갓면 예밀리 해발 1100미터의 망경대산 서쪽 계곡의 울창한 수림 속에 위치하고 있다. 이 두 곳은 한국불교미술의 거장인 만봉스님의 업적을 기리기 위해 창건된 사찰과 박물관이다. 박물관에는 만봉스님의 불화 작품 수백 점이 전시되어 있어 그분의 업적과 사상을 기리고 있다. 또한 만봉사 종각에는 ‘신원의 종’이라는 커다란 범종이 있다. 신원의 의미는 ‘새벽 동산’이라는 의미이다. 이처럼 만봉사는 모든 종단과 종교를 수용하는 독립 종단의 사찰로서 모든 사람들이 왕래하며 편안하게 기도하고 쉬어갈 수 있는 장소이다. 중요무형문화제 제48호로 지정되신 만봉스님의 훌륭한 작품을 보존하고 전시하고 있습니다.",
+      "bm25_document": "만봉불화박물관은 중요무형문화유산으로 지정되신 만봉스님의 훌륭한 작품을 보존하고 전시하고 있다. 그리고 작품에 대한 이해와 연구를 통하여 만봉스님의 업적과 세계관, 더 나아가 한국불교문화의 우수성을 알리고 있는 곳이다. 만봉스님의 유물과 탱화 등 불화 작품, 도자기 등을 감상할 수 있다. 특히 2012년 12월 강원도 유형문화유산으로 지정된 초 10점이 전시되어 있어 더욱 풍부한 볼거리를 선사하고 있다. 만봉사, 만봉사박물관은 강원도 영월군 김삿갓면 예밀리 해발 1100미터의 망경대산 서쪽 계곡의 울창한 수림 속에 위치하고 있다. 이 두 곳은 한국불교미술의 거장인 만봉스님의 업적을 기리기 위해 창건된 사찰과 박물관이다. 박물관에는 만봉스님의 불화 작품 수백 점이 전시되어 있어 그분의 업적과 사상을 기리고 있다. 또한 만봉사 종각에는 ‘신원의 종’이라는 커다란 범종이 있다. 신원의 의미는 ‘새벽 동산’이라는 의미이다. 이처럼 만봉사는 모든 종단과 종교를 수용하는 독립 종단의 사찰로서 모든 사람들이 왕래하며 편안하게 기도하고 쉬어갈 수 있는 장소이다. 중요무형문화제 제48호로 지정되신 만봉스님의 훌륭한 작품을 보존하고 전시하고 있습니다.",
+      "best_span_id": "chroma:M0209",
+      "best_span_text": "만봉불화박물관은 중요무형문화유산으로 지정되신 만봉스님의 훌륭한 작품을 보존하고 전시하고 있다. 그리고 작품에 대한 이해와 연구를 통하여 만봉스님의 업적과 세계관, 더 나아가 한국불교문화의 우수성을 알리고 있는 곳이다. 만봉스님의 유물과 탱화 등 불화 작품, 도자기 등을 감상할 수 있다. 특히 2012년 12월 강원도 유형문화유산으로 지정된 초 10점이 전시되어 있어 더욱 풍부한 볼거리를 선사하고 있다. 만봉사, 만봉사박물관은 강원도 영월군 김삿갓면 예밀리 해발 1100미터의 망경대산 서쪽 계곡의 울창한 수림 속에 위치하고 있다. 이 두 곳은 한국불교미술의 거장인 만봉스님의 업적을 기리기 위해 창건된 사찰과 박물관이다. 박물관에는 만봉스님의 불화 작품 수백 점이 전시되어 있어 그분의 업적과 사상을 기리고 있다. 또한 만봉사 종각에는 ‘신원의 종’이라는 커다란 범종이 있다. 신원의 의미는 ‘새벽 동산’이라는 의미이다. 이처럼 만봉사는 모든 종단과 종교를 수용하는 독립 종단의 사찰로서 모든 사람들이 왕래하며 편안하게 기도하고 쉬어갈 수 있는 장소이다. 중요무형문화제 제48호로 지정되신 만봉스님의 훌륭한 작품을 보존하고 전시하고 있습니다.",
+      "fusion_score": 0.03036576949620428,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 2,
+      "rerank_score": null,
+      "rank": 2,
+      "score": 0.03036576949620428,
+      "score_type": "rrf",
+      "distance": 0.5172711610794067,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0209",
+      "source_doc_ids": [
+        "DOC-B0209-TOUR_API-2777377",
+        "DOC-B0209-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0209-TOUR_API-2777377",
+          "source_type": "TOUR_API",
+          "source_record_id": "2777377",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=102",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        },
+        {
+          "doc_id": "DOC-B0209-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0209",
+          "source_locator": "data/raw/museum_base_1070.csv#row=210",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 52,
+          "doc_ids": [
+            "DOC-B0209-TOUR_API-2777377"
+          ]
+        },
+        {
+          "start": 53,
+          "end": 121,
+          "doc_ids": [
+            "DOC-B0209-TOUR_API-2777377"
+          ]
+        },
+        {
+          "start": 122,
+          "end": 160,
+          "doc_ids": [
+            "DOC-B0209-TOUR_API-2777377"
+          ]
+        },
+        {
+          "start": 161,
+          "end": 226,
+          "doc_ids": [
+            "DOC-B0209-TOUR_API-2777377"
+          ]
+        },
+        {
+          "start": 227,
+          "end": 298,
+          "doc_ids": [
+            "DOC-B0209-TOUR_API-2777377"
+          ]
+        },
+        {
+          "start": 299,
+          "end": 349,
+          "doc_ids": [
+            "DOC-B0209-TOUR_API-2777377"
+          ]
+        },
+        {
+          "start": 350,
+          "end": 401,
+          "doc_ids": [
+            "DOC-B0209-TOUR_API-2777377"
+          ]
+        },
+        {
+          "start": 402,
+          "end": 436,
+          "doc_ids": [
+            "DOC-B0209-TOUR_API-2777377"
+          ]
+        },
+        {
+          "start": 437,
+          "end": 461,
+          "doc_ids": [
+            "DOC-B0209-TOUR_API-2777377"
+          ]
+        },
+        {
+          "start": 462,
+          "end": 536,
+          "doc_ids": [
+            "DOC-B0209-TOUR_API-2777377"
+          ]
+        },
+        {
+          "start": 537,
+          "end": 585,
+          "doc_ids": [
+            "DOC-B0209-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=102",
+      "text": "만봉불화박물관은 중요무형문화유산으로 지정되신 만봉스님의 훌륭한 작품을 보존하고 전시하고 있다. 그리고 작품에 대한 이해와 연구를 통하여 만봉스님의 업적과 세계관, 더 나아가 한국불교문화의 우수성을 알리고 있는 곳이다. 만봉스님의 유물과 탱화 등 불화 작품, 도자기 등을 감상할 수 있다. 특히 2012년 12월 강원도 유형문화유산으로 지정된 초 10점이 전시되어 있어 더욱 풍부한 볼거리를 선사하고 있다. 만봉사, 만봉사박물관은 강원도 영월군 김삿갓면 예밀리 해발 1100미터의 망경대산 서쪽 계곡의 울창한 수림 속에 위치하고 있다. 이 두 곳은 한국불교미술의 거장인 만봉스님의 업적을 기리기 위해 창건된 사찰과 박물관이다. 박물관에는 만봉스님의 불화 작품 수백 점이 전시되어 있어 그분의 업적과 사상을 기리고 있다. 또한 만봉사 종각에는 ‘신원의 종’이라는 커다란 범종이 있다. 신원의 의미는 ‘새벽 동산’이라는 의미이다. 이처럼 만봉사는 모든 종단과 종교를 수용하는 독립 종단의 사찰로서 모든 사람들이 왕래하며 편안하게 기도하고 쉬어갈 수 있는 장소이다. 중요무형문화제 제48호로 지정되신 만봉스님의 훌륭한 작품을 보존하고 전시하고 있습니다.",
+      "sido": "강원특별자치도",
+      "sigungu": "영월군",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=102"
+      ],
+      "evidence_id": "E2",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=138",
+        "fields": {
+          "name": "만봉불화박물관",
+          "sido": "강원특별자치도",
+          "sigungu": "영월군",
+          "address": "강원특별자치도 영월군 김삿갓면 망경대산길135-3",
+          "ownership_type": "사립",
+          "adult_fee": "5000",
+          "youth_fee": "4000",
+          "child_fee": "3000",
+          "adult_fee_status": "BASE_FEE_PAID",
+          "weekday_open": "09:00",
+          "weekday_close": "18:00",
+          "holiday_open": "09:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "월"
+        },
+        "base_data_date": "2026-09-03",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M1017",
+      "name": "양구군립박수근미술관",
+      "document": "박수근미술관은 박수근 선생의 손길이 담겨있는 유품과 유화, 수채화, 드로잉, 판화, 삽화 등 여러 작품을 소장하고 있으며 이를 선별하여 상설 전시 하고 있습니다. 또한 박수근 선생과 같은 시대에 활동했던 근 현대 한국 화단의 주요 작가들의 다양한 작품들을 소장하고 있으며 이를 기획 전시하고 있습니다.",
+      "metadata": {
+        "child_fee": 3000.0,
+        "fee_notes": "지역상품권 환급(일반·개인)+6세이하+65세 이상+장애인+국민기초생활수급자+명예군민 등 면제+양구군민+호수문화권+병역명문가+단체관람 등 50 감면+다자녀가정 30 감면",
+        "homepage_url": "http://www.parksookeun.or.kr/",
+        "name": "양구군립박수근미술관",
+        "weekday_close": "18:00",
+        "address": "강원특별자치도 양구군 양구읍 박수근로 265-15",
+        "holiday_close": "18:00",
+        "requires_manual_review": false,
+        "longitude": 127.9815765,
+        "sigungu": "양구군",
+        "closure_rule_raw": "월",
+        "amenities_raw": "뮤지엄숍+연못+창작스튜디오 등",
+        "youth_fee": 3000.0,
+        "ownership_type": "공립",
+        "source_types": "BASE",
+        "weekday_open": "10:00",
+        "holiday_open": "10:00",
+        "adult_fee_status": "BASE_FEE_PAID",
+        "latitude": 38.0962413,
+        "adult_fee": 6000.0,
+        "sido": "강원특별자치도"
+      },
+      "vector_rank": 2,
+      "bm25_rank": null,
+      "vector_distance": 0.47707319259643555,
+      "vector_score": null,
+      "bm25_score": null,
+      "vector_document": "박수근미술관은 박수근 선생의 손길이 담겨있는 유품과 유화, 수채화, 드로잉, 판화, 삽화 등 여러 작품을 소장하고 있으며 이를 선별하여 상설 전시 하고 있습니다. 또한 박수근 선생과 같은 시대에 활동했던 근 현대 한국 화단의 주요 작가들의 다양한 작품들을 소장하고 있으며 이를 기획 전시하고 있습니다.",
+      "bm25_document": "",
+      "best_span_id": null,
+      "best_span_text": null,
+      "fusion_score": 0.016129032258064516,
+      "retrieved_by": [
+        "vector"
+      ],
+      "fusion_rank": 3,
+      "rerank_score": null,
+      "rank": 3,
+      "score": 0.016129032258064516,
+      "score_type": "rrf",
+      "distance": 0.47707319259643555,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector"
+      ],
+      "retriever": "vector",
+      "source_doc_ids": [
+        "DOC-B1017-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B1017-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B1017",
+          "source_locator": "data/raw/museum_base_1070.csv#row=1018",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 90,
+          "doc_ids": [
+            "DOC-B1017-BASE"
+          ]
+        },
+        {
+          "start": 91,
+          "end": 168,
+          "doc_ids": [
+            "DOC-B1017-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_base_1070.csv#row=1018",
+      "text": "박수근미술관은 박수근 선생의 손길이 담겨있는 유품과 유화, 수채화, 드로잉, 판화, 삽화 등 여러 작품을 소장하고 있으며 이를 선별하여 상설 전시 하고 있습니다. 또한 박수근 선생과 같은 시대에 활동했던 근 현대 한국 화단의 주요 작가들의 다양한 작품들을 소장하고 있으며 이를 기획 전시하고 있습니다.",
+      "sido": "강원특별자치도",
+      "sigungu": "양구군",
+      "span_id": "",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_base_1070.csv#row=1018"
+      ],
+      "evidence_id": "E3",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=699",
+        "fields": {
+          "name": "양구군립박수근미술관",
+          "sido": "강원특별자치도",
+          "sigungu": "양구군",
+          "address": "강원특별자치도 양구군 양구읍 박수근로 265-15",
+          "ownership_type": "공립",
+          "adult_fee": "6000",
+          "youth_fee": "3000",
+          "child_fee": "3000",
+          "adult_fee_status": "BASE_FEE_PAID",
+          "weekday_open": "10:00",
+          "weekday_close": "18:00",
+          "holiday_open": "10:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "월",
+          "amenities_raw": "뮤지엄숍+연못+창작스튜디오 등"
+        },
+        "base_data_date": "2025-08-05",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0647",
+      "name": "세계장신구박물관",
+      "document": "2004년에 개관한 세계장신구박물관은 2013년에 프랑스의 루브르 박물관, 미국의 메트로 폴리탄 뮤지움과 함께 ‘세계에서 가장 아름다운 10대 박물관’, 2015년에는 미국의 스미소니언 박물관, 영국 왕실박물관과 함께 ‘죽기 전에 봐야 할 세계 5대 보석박물관’으로 선정되었다. 경복궁의 숨소리가 들리는 북촌 심장부에 위치한 세계장신구박물관은 시인이자 수필가인 이강원 관장이 외교관의 아내로 세계 곳곳에서 수집한 전통 장신구 1,000여 점이 둥지를 틀고 있는 곳이다. 세계 어디에서도 찾아보기 힘든 장신구의 집결지라는 의미 외에도 독특하고 아름다운 건물과 전시기법으로 ‘서울의 장신구’라는 애칭까지 얻었다. 김승회 서울대학교 건축학과 교수는 두텁게 주름잡은 동판, 내후성 강판, 적삼목, 유리 등으로 외벽을 감싸고 스테인리스 통판문을 달아 아름다우면서도 중후한 건물을 소장품에 선물했다. 전시는 9개의 테마로 나누어져 있는데 북촌의 오밀조밀하고 정겨운 골목길을 건물 안으로 끌어들여 또 다른 재미를 연출했다. 5천만 년 이상 지구의 숨결을 담고 있는 호박벽, 16세기 유럽 사람들을 홀리게 했던 엘도라도 황금의 방, 마음의 결을 가다듬어 주는 십자가 방, 명상에 들게 하는 마스크 벽, 등불의 숲을 거니는 듯한 근대장신구의 방, 반지 벽 등을 감상할 수 있다. 사전 예약제로 운영된다.",
+      "metadata": {
+        "sigungu": "종로구",
+        "source_types": "TOUR_API",
+        "holiday_close": "17:00",
+        "image_copyright": "Type3",
+        "adult_fee": 7000.0,
+        "adult_fee_status": "BASE_FEE_PAID",
+        "latitude": 37.580936,
+        "name": "세계장신구박물관",
+        "child_fee": 3000.0,
+        "longitude": 126.9818046,
+        "sido": "서울특별시",
+        "weekday_open": "11:00",
+        "address": "서울특별시 종로구 북촌로5나길 2(화동)",
+        "ownership_type": "사립",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/63/3574663_image2_1.jpg",
+        "youth_fee": 5000.0,
+        "requires_manual_review": true,
+        "closure_rule_raw": "월요일+화요일",
+        "holiday_open": "11:00",
+        "homepage_url": "http://www.wjmuseum.com/",
+        "weekday_close": "17:00"
+      },
+      "vector_rank": null,
+      "bm25_rank": 2,
+      "vector_distance": null,
+      "vector_score": null,
+      "bm25_score": 22.116740988045176,
+      "vector_document": "",
+      "bm25_document": "2004년에 개관한 세계장신구박물관은 2013년에 프랑스의 루브르 박물관, 미국의 메트로 폴리탄 뮤지움과 함께 ‘세계에서 가장 아름다운 10대 박물관’, 2015년에는 미국의 스미소니언 박물관, 영국 왕실박물관과 함께 ‘죽기 전에 봐야 할 세계 5대 보석박물관’으로 선정되었다. 경복궁의 숨소리가 들리는 북촌 심장부에 위치한 세계장신구박물관은 시인이자 수필가인 이강원 관장이 외교관의 아내로 세계 곳곳에서 수집한 전통 장신구 1,000여 점이 둥지를 틀고 있는 곳이다. 세계 어디에서도 찾아보기 힘든 장신구의 집결지라는 의미 외에도 독특하고 아름다운 건물과 전시기법으로 ‘서울의 장신구’라는 애칭까지 얻었다. 김승회 서울대학교 건축학과 교수는 두텁게 주름잡은 동판, 내후성 강판, 적삼목, 유리 등으로 외벽을 감싸고 스테인리스 통판문을 달아 아름다우면서도 중후한 건물을 소장품에 선물했다. 전시는 9개의 테마로 나누어져 있는데 북촌의 오밀조밀하고 정겨운 골목길을 건물 안으로 끌어들여 또 다른 재미를 연출했다. 5천만 년 이상 지구의 숨결을 담고 있는 호박벽, 16세기 유럽 사람들을 홀리게 했던 엘도라도 황금의 방, 마음의 결을 가다듬어 주는 십자가 방, 명상에 들게 하는 마스크 벽, 등불의 숲을 거니는 듯한 근대장신구의 방, 반지 벽 등을 감상할 수 있다. 사전 예약제로 운영된다.",
+      "best_span_id": "chroma:M0647",
+      "best_span_text": "2004년에 개관한 세계장신구박물관은 2013년에 프랑스의 루브르 박물관, 미국의 메트로 폴리탄 뮤지움과 함께 ‘세계에서 가장 아름다운 10대 박물관’, 2015년에는 미국의 스미소니언 박물관, 영국 왕실박물관과 함께 ‘죽기 전에 봐야 할 세계 5대 보석박물관’으로 선정되었다. 경복궁의 숨소리가 들리는 북촌 심장부에 위치한 세계장신구박물관은 시인이자 수필가인 이강원 관장이 외교관의 아내로 세계 곳곳에서 수집한 전통 장신구 1,000여 점이 둥지를 틀고 있는 곳이다. 세계 어디에서도 찾아보기 힘든 장신구의 집결지라는 의미 외에도 독특하고 아름다운 건물과 전시기법으로 ‘서울의 장신구’라는 애칭까지 얻었다. 김승회 서울대학교 건축학과 교수는 두텁게 주름잡은 동판, 내후성 강판, 적삼목, 유리 등으로 외벽을 감싸고 스테인리스 통판문을 달아 아름다우면서도 중후한 건물을 소장품에 선물했다. 전시는 9개의 테마로 나누어져 있는데 북촌의 오밀조밀하고 정겨운 골목길을 건물 안으로 끌어들여 또 다른 재미를 연출했다. 5천만 년 이상 지구의 숨결을 담고 있는 호박벽, 16세기 유럽 사람들을 홀리게 했던 엘도라도 황금의 방, 마음의 결을 가다듬어 주는 십자가 방, 명상에 들게 하는 마스크 벽, 등불의 숲을 거니는 듯한 근대장신구의 방, 반지 벽 등을 감상할 수 있다. 사전 예약제로 운영된다.",
+      "fusion_score": 0.016129032258064516,
+      "retrieved_by": [
+        "bm25"
+      ],
+      "fusion_rank": 4,
+      "rerank_score": null,
+      "rank": 4,
+      "score": 0.016129032258064516,
+      "score_type": "rrf",
+      "distance": null,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "bm25"
+      ],
+      "retriever": "bm25",
+      "span_id": "chroma:M0647",
+      "source_doc_ids": [
+        "DOC-B0647-TOUR_API-130688"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0647-TOUR_API-130688",
+          "source_type": "TOUR_API",
+          "source_record_id": "130688",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=320",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 155,
+          "doc_ids": [
+            "DOC-B0647-TOUR_API-130688"
+          ]
+        },
+        {
+          "start": 156,
+          "end": 262,
+          "doc_ids": [
+            "DOC-B0647-TOUR_API-130688"
+          ]
+        },
+        {
+          "start": 263,
+          "end": 340,
+          "doc_ids": [
+            "DOC-B0647-TOUR_API-130688"
+          ]
+        },
+        {
+          "start": 341,
+          "end": 441,
+          "doc_ids": [
+            "DOC-B0647-TOUR_API-130688"
+          ]
+        },
+        {
+          "start": 442,
+          "end": 509,
+          "doc_ids": [
+            "DOC-B0647-TOUR_API-130688"
+          ]
+        },
+        {
+          "start": 510,
+          "end": 650,
+          "doc_ids": [
+            "DOC-B0647-TOUR_API-130688"
+          ]
+        },
+        {
+          "start": 651,
+          "end": 664,
+          "doc_ids": [
+            "DOC-B0647-TOUR_API-130688"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=320",
+      "text": "2004년에 개관한 세계장신구박물관은 2013년에 프랑스의 루브르 박물관, 미국의 메트로 폴리탄 뮤지움과 함께 ‘세계에서 가장 아름다운 10대 박물관’, 2015년에는 미국의 스미소니언 박물관, 영국 왕실박물관과 함께 ‘죽기 전에 봐야 할 세계 5대 보석박물관’으로 선정되었다. 경복궁의 숨소리가 들리는 북촌 심장부에 위치한 세계장신구박물관은 시인이자 수필가인 이강원 관장이 외교관의 아내로 세계 곳곳에서 수집한 전통 장신구 1,000여 점이 둥지를 틀고 있는 곳이다. 세계 어디에서도 찾아보기 힘든 장신구의 집결지라는 의미 외에도 독특하고 아름다운 건물과 전시기법으로 ‘서울의 장신구’라는 애칭까지 얻었다. 김승회 서울대학교 건축학과 교수는 두텁게 주름잡은 동판, 내후성 강판, 적삼목, 유리 등으로 외벽을 감싸고 스테인리스 통판문을 달아 아름다우면서도 중후한 건물을 소장품에 선물했다. 전시는 9개의 테마로 나누어져 있는데 북촌의 오밀조밀하고 정겨운 골목길을 건물 안으로 끌어들여 또 다른 재미를 연출했다. 5천만 년 이상 지구의 숨결을 담고 있는 호박벽, 16세기 유럽 사람들을 홀리게 했던 엘도라도 황금의 방, 마음의 결을 가다듬어 주는 십자가 방, 명상에 들게 하는 마스크 벽, 등불의 숲을 거니는 듯한 근대장신구의 방, 반지 벽 등을 감상할 수 있다. 사전 예약제로 운영된다.",
+      "sido": "서울특별시",
+      "sigungu": "종로구",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=320"
+      ],
+      "evidence_id": "E4",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=444",
+        "fields": {
+          "name": "세계장신구박물관",
+          "sido": "서울특별시",
+          "sigungu": "종로구",
+          "address": "서울특별시 종로구 북촌로5나길 2(화동)",
+          "ownership_type": "사립",
+          "adult_fee": "7000",
+          "youth_fee": "5000",
+          "child_fee": "3000",
+          "adult_fee_status": "BASE_FEE_PAID",
+          "weekday_open": "11:00",
+          "weekday_close": "17:00",
+          "holiday_open": "11:00",
+          "holiday_close": "17:00",
+          "closure_rule_raw": "월요일+화요일"
+        },
+        "base_data_date": "2025-11-01",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0119",
+      "name": "영천역사박물관",
+      "document": "영천시와 관련된 고문서 민속품 등의 문화재 전시",
+      "metadata": {
+        "sigungu": "영천시",
+        "amenities_raw": "전시실+강의실",
+        "holiday_open": "00:00",
+        "holiday_close": "00:00",
+        "homepage_url": "http://yeongcheonmuseum.com/",
+        "closure_rule_raw": "일요일+공휴일",
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "youth_fee": 0.0,
+        "transport_notes": "차량:영천역사박물관+버스:도림2동 정류장 하차",
+        "longitude": 128.9299782,
+        "ownership_type": "사립",
+        "requires_manual_review": true,
+        "address": "경상북도 영천시 선창길 9",
+        "name": "영천역사박물관",
+        "weekday_close": "17:30",
+        "adult_fee": 0.0,
+        "source_types": "BASE",
+        "sido": "경상북도",
+        "weekday_open": "10:00",
+        "latitude": 36.018594,
+        "child_fee": 0.0
+      },
+      "vector_rank": 3,
+      "bm25_rank": null,
+      "vector_distance": 0.4954739212989807,
+      "vector_score": null,
+      "bm25_score": null,
+      "vector_document": "영천시와 관련된 고문서 민속품 등의 문화재 전시",
+      "bm25_document": "",
+      "best_span_id": null,
+      "best_span_text": null,
+      "fusion_score": 0.015873015873015872,
+      "retrieved_by": [
+        "vector"
+      ],
+      "fusion_rank": 5,
+      "rerank_score": null,
+      "rank": 5,
+      "score": 0.015873015873015872,
+      "score_type": "rrf",
+      "distance": 0.4954739212989807,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector"
+      ],
+      "retriever": "vector",
+      "source_doc_ids": [
+        "DOC-B0119-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0119-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0119",
+          "source_locator": "data/raw/museum_base_1070.csv#row=120",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 26,
+          "doc_ids": [
+            "DOC-B0119-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_base_1070.csv#row=120",
+      "text": "영천시와 관련된 고문서 민속품 등의 문화재 전시",
+      "sido": "경상북도",
+      "sigungu": "영천시",
+      "span_id": "",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_base_1070.csv#row=120"
+      ],
+      "evidence_id": "E5",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=79",
+        "fields": {
+          "name": "영천역사박물관",
+          "sido": "경상북도",
+          "sigungu": "영천시",
+          "address": "경상북도 영천시 선창길 9",
+          "ownership_type": "사립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "10:00",
+          "weekday_close": "17:30",
+          "holiday_open": "00:00",
+          "holiday_close": "00:00",
+          "closure_rule_raw": "일요일+공휴일",
+          "amenities_raw": "전시실+강의실"
+        },
+        "base_data_date": "2026-10-22",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    }
+  ],
+  "answer": "벽봉한국장신구박물관의 소장품은 대부분 국가무형유산 옥장 김영희 선생님의 작품입니다. 조선시대 왕실에서 쓰인 궁중 장신구를 복원·복제한 작품과, 그 문양을 응용한 현대 창작품이 주를 이룹니다.[E1]",
+  "retrieval_status": "ok",
+  "answer_status": "answered",
+  "route": "hybrid",
+  "retry_count": 0,
+  "supervisor_verified": true,
+  "rerank_applied": false,
+  "retriever_errors": [],
+  "warnings": [
+    "Cross-Encoder reranking failed (FileNotFoundError); RRF order retained"
+  ],
+  "duration_ms": 11128.51,
+  "error_type": "",
+  "hit_at_1": 1,
+  "hit_at_3": 1,
+  "hit_at_5": 1,
+  "recall_at_5": 1.0,
+  "mrr_at_10": 1.0
+}

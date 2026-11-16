@@ -1,0 +1,52 @@
+{
+  "mode": "supervisor_full",
+  "question_id": "V2-UL02",
+  "evidence": [
+    {
+      "museum_id": "M0160",
+      "name": "최북미술관",
+      "text": "[Neo4j 구조화 속성] {\"amenities\": [{\"category\": \"가족·어린이\", \"name\": \"수유실\", \"raw_tokens\": [\"수유실\"]}], \"museum_id\": \"M0160\", \"name\": \"최북미술관\", \"sido\": \"전북특별자치도\", \"sigungu\": \"무주군\"}",
+      "span_id": "",
+      "source_doc_ids": [],
+      "source_urls": [],
+      "source_url": "",
+      "source_locators": [],
+      "source_locator": "",
+      "sido": "전북특별자치도",
+      "sigungu": "무주군",
+      "retriever": "graph",
+      "amenities": [
+        {
+          "category": "가족·어린이",
+          "name": "수유실",
+          "raw_tokens": [
+            "수유실"
+          ]
+        }
+      ],
+      "metadata": {},
+      "chunk_id": "",
+      "retrievers": [
+        "graph"
+      ],
+      "evidence_id": "E1",
+      "rank": 1
+    }
+  ],
+  "answer": "확인 가능한 근거가 부족하여 답변을 보류했음.",
+  "retrieval_status": "ok",
+  "answer_status": "abstained",
+  "route": "graph",
+  "retry_count": 1,
+  "supervisor_verified": false,
+  "rerank_applied": false,
+  "retriever_errors": [],
+  "warnings": [],
+  "duration_ms": 160427.62,
+  "error_type": "",
+  "hit_at_1": "",
+  "hit_at_3": "",
+  "hit_at_5": "",
+  "recall_at_5": "",
+  "mrr_at_10": ""
+}

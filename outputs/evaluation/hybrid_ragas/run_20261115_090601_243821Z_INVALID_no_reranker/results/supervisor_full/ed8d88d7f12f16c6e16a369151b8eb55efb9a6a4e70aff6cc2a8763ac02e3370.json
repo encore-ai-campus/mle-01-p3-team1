@@ -1,0 +1,774 @@
+{
+  "mode": "supervisor_full",
+  "question_id": "Q026",
+  "evidence": [
+    {
+      "museum_id": "M0012",
+      "name": "홍주성역사관",
+      "document": "홍주성역사관은 홍성 홍주읍성 내 위치하고 있다. 지역의 전통을 부각시키면서 동시에 역사에 바탕을 둔 미래지향적인 시설로 구성되었으며, 역사관의 기본적 기능에 충실하여 전시 유물의 상징적 의미와 예술적 요소를 함축성 있게 표현하여 이를 바탕으로 군민 참여와 소통의 장이자 연구의 중심지로서 지역 정보 센터의 역할을 하고 있다. 홍성과 충남 내포지역의 특색 있는 역사와 문화, 관련 유적 및 유물을 소재로 전시를 하고 있다. 박물관 주변에 옛 홍주목 관련 흔적들이 남아 있어 전시와 연계한 볼거리가 마련되어 있다. 홍성 홍주읍성(사적 231호) 내 위치하고 있으며 전면적 7199.17㎡ 및 연면적 1669㎡ 로 구성되어 있다. 박물관이 홍주읍성 내에 위치하고 있고 주변에 옛 홍주목 관련 흔적들이 남아 있어 전시와 연계한 볼거리가 마련되어 있다.",
+      "metadata": {
+        "weekday_close": "18:00",
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "address": "충청남도 홍성군 홍성읍 아문길 20",
+        "child_fee": 0.0,
+        "latitude": 36.60019715,
+        "homepage_url": "https://www.hongseong.go.kr/history/",
+        "ownership_type": "공립",
+        "weekday_open": "09:00",
+        "name": "홍주성역사관",
+        "source_types": "BASE|TOUR_API",
+        "sigungu": "홍성군",
+        "sido": "충청남도",
+        "requires_manual_review": true,
+        "closure_rule_raw": "월+1월 1일+설 연휴+추석 연휴",
+        "youth_fee": 0.0,
+        "adult_fee": 0.0,
+        "longitude": 126.660951,
+        "transport_notes": "서울→서해안고속도로(홍성IC)→21번국도(홍성방면)→홍주성역사관",
+        "holiday_close": "18:00",
+        "holiday_open": "09:00"
+      },
+      "vector_rank": 1,
+      "bm25_rank": null,
+      "vector_distance": 0.6087783575057983,
+      "vector_score": null,
+      "bm25_score": null,
+      "vector_document": "홍주성역사관은 홍성 홍주읍성 내 위치하고 있다. 지역의 전통을 부각시키면서 동시에 역사에 바탕을 둔 미래지향적인 시설로 구성되었으며, 역사관의 기본적 기능에 충실하여 전시 유물의 상징적 의미와 예술적 요소를 함축성 있게 표현하여 이를 바탕으로 군민 참여와 소통의 장이자 연구의 중심지로서 지역 정보 센터의 역할을 하고 있다. 홍성과 충남 내포지역의 특색 있는 역사와 문화, 관련 유적 및 유물을 소재로 전시를 하고 있다. 박물관 주변에 옛 홍주목 관련 흔적들이 남아 있어 전시와 연계한 볼거리가 마련되어 있다. 홍성 홍주읍성(사적 231호) 내 위치하고 있으며 전면적 7199.17㎡ 및 연면적 1669㎡ 로 구성되어 있다. 박물관이 홍주읍성 내에 위치하고 있고 주변에 옛 홍주목 관련 흔적들이 남아 있어 전시와 연계한 볼거리가 마련되어 있다.",
+      "bm25_document": "",
+      "best_span_id": null,
+      "best_span_text": null,
+      "fusion_score": 0.01639344262295082,
+      "retrieved_by": [
+        "vector"
+      ],
+      "fusion_rank": 1,
+      "name_match": true,
+      "rerank_score": null,
+      "rank": 1,
+      "score": 0.01639344262295082,
+      "score_type": "rrf",
+      "distance": 0.6087783575057983,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector"
+      ],
+      "retriever": "vector",
+      "source_doc_ids": [
+        "DOC-B0012-TOUR_API-2551494",
+        "DOC-B0012-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0012-TOUR_API-2551494",
+          "source_type": "TOUR_API",
+          "source_record_id": "2551494",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=10",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        },
+        {
+          "doc_id": "DOC-B0012-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0012",
+          "source_locator": "data/raw/museum_base_1070.csv#row=13",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 26,
+          "doc_ids": [
+            "DOC-B0012-TOUR_API-2551494"
+          ]
+        },
+        {
+          "start": 27,
+          "end": 181,
+          "doc_ids": [
+            "DOC-B0012-TOUR_API-2551494"
+          ]
+        },
+        {
+          "start": 182,
+          "end": 235,
+          "doc_ids": [
+            "DOC-B0012-BASE",
+            "DOC-B0012-TOUR_API-2551494"
+          ]
+        },
+        {
+          "start": 236,
+          "end": 285,
+          "doc_ids": [
+            "DOC-B0012-TOUR_API-2551494"
+          ]
+        },
+        {
+          "start": 286,
+          "end": 349,
+          "doc_ids": [
+            "DOC-B0012-BASE"
+          ]
+        },
+        {
+          "start": 350,
+          "end": 416,
+          "doc_ids": [
+            "DOC-B0012-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=10",
+      "text": "홍주성역사관은 홍성 홍주읍성 내 위치하고 있다. 지역의 전통을 부각시키면서 동시에 역사에 바탕을 둔 미래지향적인 시설로 구성되었으며, 역사관의 기본적 기능에 충실하여 전시 유물의 상징적 의미와 예술적 요소를 함축성 있게 표현하여 이를 바탕으로 군민 참여와 소통의 장이자 연구의 중심지로서 지역 정보 센터의 역할을 하고 있다. 홍성과 충남 내포지역의 특색 있는 역사와 문화, 관련 유적 및 유물을 소재로 전시를 하고 있다. 박물관 주변에 옛 홍주목 관련 흔적들이 남아 있어 전시와 연계한 볼거리가 마련되어 있다. 홍성 홍주읍성(사적 231호) 내 위치하고 있으며 전면적 7199.17㎡ 및 연면적 1669㎡ 로 구성되어 있다. 박물관이 홍주읍성 내에 위치하고 있고 주변에 옛 홍주목 관련 흔적들이 남아 있어 전시와 연계한 볼거리가 마련되어 있다.",
+      "sido": "충청남도",
+      "sigungu": "홍성군",
+      "span_id": "",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=10"
+      ],
+      "evidence_id": "E1",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=12",
+        "fields": {
+          "name": "홍주성역사관",
+          "sido": "충청남도",
+          "sigungu": "홍성군",
+          "address": "충청남도 홍성군 홍성읍 아문길 20",
+          "ownership_type": "공립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "09:00",
+          "weekday_close": "18:00",
+          "holiday_open": "09:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "월+1월 1일+설 연휴+추석 연휴"
+        },
+        "base_data_date": "2026-09-19",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0574",
+      "name": "전쟁기념관",
+      "document": "서울시 용산구 용산동에 호국전쟁의 실체를 보여주는 자료를 보존 전시하고 국민정신교육장으로 역할을 하며 조국을 위해 목숨을 바친 선열들의 숭고한 희생을 추모하고 그 업적을 기리기 위해 전쟁기념사업회에서 1994년 6월 10일 전쟁기념관을 세웠다. 전쟁기념관은 옥내전시와 옥외전시로 구분되어 있으며 3만 3천여 점의 소장유물 중 1만여 점을 전시하고 있다. 1만 900여 평의 옥내전시실은 호국추모실, 전쟁역사실, 6·25전쟁실, 해외파병실, 국군발전실, 대형장비실 등 6개 전시실로 구성되어 있으며 대형무기들이 전시되어 있는 옥외전시실이 있다. 3층 규모의 옥내전시실은 삼국시대로부터 현대까지 5천년 대한민국 전쟁사와 위국 헌신한 분들의 공로와 훈장 등이 실물·디오라마·복제품·기록화·영상 등의 다양한 전시기법에 따라 역동적이고 입체적으로 전시되어 있다. 특히 6·25전쟁실은 전쟁이 일어난 원인과 전쟁 경과 및 휴전에 이르기까지의 전 과정을 쉽고 올바르게 이해할 수 있도록 체험시설 등으로 구성되어 있다. 옥외전시장에는 세계 각국의 대형무기와 6·25전쟁 상징 조형물, 광개토대왕릉비, 형제의 상, 평화의 시계탑 등이 전시되어 있다. 제2차 세계대전, 6·25전쟁, 베트남전쟁 당시 사용되었던 장비를 전시하고 있는데, K-1전차를 비롯하여 곡사포, 미사일, 헬리콥터, 수송기 등이 전시되어 있다. 기념관 양측 회랑에는 국군 전사자와 유엔군 전사자 20여 만 명의 이름이 새겨진 전사자 명비가 있으며, 전쟁기념관을 대국민 호국문화의 장으로서도 큰 역할을 하고 있다. 어린이부터 일반인까지 다양한 계층을 대상으로 한 20여개의 교육프로그램을 운영함은 물론, 국군 군악·의장행사, 어린이날 문화축제, 현충일 그림그리기 대회, 6·25 호국문화행사 등 다양한 문화행사를 연간 개최하고 있어 기념관을 찾는 관람객들에게 새로운 볼거리를 제공하고 있다. 전쟁기념관의 캐릭터는 무돌이로, 나라를 지킨다는 뜻을 가진 철모와 평화를 상징하는 월계수잎이 특징적이다.",
+      "metadata": {
+        "holiday_open": "09:30",
+        "homepage_url": "http://www.warmemo.or.kr/",
+        "weekday_open": "09:30",
+        "sido": "서울특별시",
+        "requires_manual_review": true,
+        "name": "전쟁기념관",
+        "address": "서울특별시 용산구 이태원로 29",
+        "child_fee": 0.0,
+        "latitude": 37.53731288,
+        "image_copyright": "Type3",
+        "adult_fee": 0.0,
+        "holiday_close": "18:00",
+        "weekday_close": "18:00",
+        "ownership_type": "사립",
+        "source_types": "TOUR_API",
+        "image_url": "http://tong.visitkorea.or.kr/cms/resource/29/3465929_image2_1.JPG",
+        "youth_fee": 0.0,
+        "closure_rule_raw": "월요일(월요일 포함 연휴때는 연휴 다음날)",
+        "sigungu": "용산구",
+        "longitude": 126.9784661,
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS"
+      },
+      "vector_rank": 13,
+      "bm25_rank": 6,
+      "vector_distance": 0.6746461391448975,
+      "vector_score": null,
+      "bm25_score": 10.167793972490916,
+      "vector_document": "서울시 용산구 용산동에 호국전쟁의 실체를 보여주는 자료를 보존 전시하고 국민정신교육장으로 역할을 하며 조국을 위해 목숨을 바친 선열들의 숭고한 희생을 추모하고 그 업적을 기리기 위해 전쟁기념사업회에서 1994년 6월 10일 전쟁기념관을 세웠다. 전쟁기념관은 옥내전시와 옥외전시로 구분되어 있으며 3만 3천여 점의 소장유물 중 1만여 점을 전시하고 있다. 1만 900여 평의 옥내전시실은 호국추모실, 전쟁역사실, 6·25전쟁실, 해외파병실, 국군발전실, 대형장비실 등 6개 전시실로 구성되어 있으며 대형무기들이 전시되어 있는 옥외전시실이 있다. 3층 규모의 옥내전시실은 삼국시대로부터 현대까지 5천년 대한민국 전쟁사와 위국 헌신한 분들의 공로와 훈장 등이 실물·디오라마·복제품·기록화·영상 등의 다양한 전시기법에 따라 역동적이고 입체적으로 전시되어 있다. 특히 6·25전쟁실은 전쟁이 일어난 원인과 전쟁 경과 및 휴전에 이르기까지의 전 과정을 쉽고 올바르게 이해할 수 있도록 체험시설 등으로 구성되어 있다. 옥외전시장에는 세계 각국의 대형무기와 6·25전쟁 상징 조형물, 광개토대왕릉비, 형제의 상, 평화의 시계탑 등이 전시되어 있다. 제2차 세계대전, 6·25전쟁, 베트남전쟁 당시 사용되었던 장비를 전시하고 있는데, K-1전차를 비롯하여 곡사포, 미사일, 헬리콥터, 수송기 등이 전시되어 있다. 기념관 양측 회랑에는 국군 전사자와 유엔군 전사자 20여 만 명의 이름이 새겨진 전사자 명비가 있으며, 전쟁기념관을 대국민 호국문화의 장으로서도 큰 역할을 하고 있다. 어린이부터 일반인까지 다양한 계층을 대상으로 한 20여개의 교육프로그램을 운영함은 물론, 국군 군악·의장행사, 어린이날 문화축제, 현충일 그림그리기 대회, 6·25 호국문화행사 등 다양한 문화행사를 연간 개최하고 있어 기념관을 찾는 관람객들에게 새로운 볼거리를 제공하고 있다. 전쟁기념관의 캐릭터는 무돌이로, 나라를 지킨다는 뜻을 가진 철모와 평화를 상징하는 월계수잎이 특징적이다.",
+      "bm25_document": "서울시 용산구 용산동에 호국전쟁의 실체를 보여주는 자료를 보존 전시하고 국민정신교육장으로 역할을 하며 조국을 위해 목숨을 바친 선열들의 숭고한 희생을 추모하고 그 업적을 기리기 위해 전쟁기념사업회에서 1994년 6월 10일 전쟁기념관을 세웠다. 전쟁기념관은 옥내전시와 옥외전시로 구분되어 있으며 3만 3천여 점의 소장유물 중 1만여 점을 전시하고 있다. 1만 900여 평의 옥내전시실은 호국추모실, 전쟁역사실, 6·25전쟁실, 해외파병실, 국군발전실, 대형장비실 등 6개 전시실로 구성되어 있으며 대형무기들이 전시되어 있는 옥외전시실이 있다. 3층 규모의 옥내전시실은 삼국시대로부터 현대까지 5천년 대한민국 전쟁사와 위국 헌신한 분들의 공로와 훈장 등이 실물·디오라마·복제품·기록화·영상 등의 다양한 전시기법에 따라 역동적이고 입체적으로 전시되어 있다. 특히 6·25전쟁실은 전쟁이 일어난 원인과 전쟁 경과 및 휴전에 이르기까지의 전 과정을 쉽고 올바르게 이해할 수 있도록 체험시설 등으로 구성되어 있다. 옥외전시장에는 세계 각국의 대형무기와 6·25전쟁 상징 조형물, 광개토대왕릉비, 형제의 상, 평화의 시계탑 등이 전시되어 있다. 제2차 세계대전, 6·25전쟁, 베트남전쟁 당시 사용되었던 장비를 전시하고 있는데, K-1전차를 비롯하여 곡사포, 미사일, 헬리콥터, 수송기 등이 전시되어 있다. 기념관 양측 회랑에는 국군 전사자와 유엔군 전사자 20여 만 명의 이름이 새겨진 전사자 명비가 있으며, 전쟁기념관을 대국민 호국문화의 장으로서도 큰 역할을 하고 있다. 어린이부터 일반인까지 다양한 계층을 대상으로 한 20여개의 교육프로그램을 운영함은 물론, 국군 군악·의장행사, 어린이날 문화축제, 현충일 그림그리기 대회, 6·25 호국문화행사 등 다양한 문화행사를 연간 개최하고 있어 기념관을 찾는 관람객들에게 새로운 볼거리를 제공하고 있다. 전쟁기념관의 캐릭터는 무돌이로, 나라를 지킨다는 뜻을 가진 철모와 평화를 상징하는 월계수잎이 특징적이다.",
+      "best_span_id": "chroma:M0574",
+      "best_span_text": "서울시 용산구 용산동에 호국전쟁의 실체를 보여주는 자료를 보존 전시하고 국민정신교육장으로 역할을 하며 조국을 위해 목숨을 바친 선열들의 숭고한 희생을 추모하고 그 업적을 기리기 위해 전쟁기념사업회에서 1994년 6월 10일 전쟁기념관을 세웠다. 전쟁기념관은 옥내전시와 옥외전시로 구분되어 있으며 3만 3천여 점의 소장유물 중 1만여 점을 전시하고 있다. 1만 900여 평의 옥내전시실은 호국추모실, 전쟁역사실, 6·25전쟁실, 해외파병실, 국군발전실, 대형장비실 등 6개 전시실로 구성되어 있으며 대형무기들이 전시되어 있는 옥외전시실이 있다. 3층 규모의 옥내전시실은 삼국시대로부터 현대까지 5천년 대한민국 전쟁사와 위국 헌신한 분들의 공로와 훈장 등이 실물·디오라마·복제품·기록화·영상 등의 다양한 전시기법에 따라 역동적이고 입체적으로 전시되어 있다. 특히 6·25전쟁실은 전쟁이 일어난 원인과 전쟁 경과 및 휴전에 이르기까지의 전 과정을 쉽고 올바르게 이해할 수 있도록 체험시설 등으로 구성되어 있다. 옥외전시장에는 세계 각국의 대형무기와 6·25전쟁 상징 조형물, 광개토대왕릉비, 형제의 상, 평화의 시계탑 등이 전시되어 있다. 제2차 세계대전, 6·25전쟁, 베트남전쟁 당시 사용되었던 장비를 전시하고 있는데, K-1전차를 비롯하여 곡사포, 미사일, 헬리콥터, 수송기 등이 전시되어 있다. 기념관 양측 회랑에는 국군 전사자와 유엔군 전사자 20여 만 명의 이름이 새겨진 전사자 명비가 있으며, 전쟁기념관을 대국민 호국문화의 장으로서도 큰 역할을 하고 있다. 어린이부터 일반인까지 다양한 계층을 대상으로 한 20여개의 교육프로그램을 운영함은 물론, 국군 군악·의장행사, 어린이날 문화축제, 현충일 그림그리기 대회, 6·25 호국문화행사 등 다양한 문화행사를 연간 개최하고 있어 기념관을 찾는 관람객들에게 새로운 볼거리를 제공하고 있다. 전쟁기념관의 캐릭터는 무돌이로, 나라를 지킨다는 뜻을 가진 철모와 평화를 상징하는 월계수잎이 특징적이다.",
+      "fusion_score": 0.028850145288501453,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 2,
+      "rerank_score": null,
+      "rank": 2,
+      "score": 0.028850145288501453,
+      "score_type": "rrf",
+      "distance": 0.6746461391448975,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0574",
+      "source_doc_ids": [
+        "DOC-B0574-TOUR_API-130431"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0574-TOUR_API-130431",
+          "source_type": "TOUR_API",
+          "source_record_id": "130431",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=283",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 136,
+          "doc_ids": [
+            "DOC-B0574-TOUR_API-130431"
+          ]
+        },
+        {
+          "start": 137,
+          "end": 197,
+          "doc_ids": [
+            "DOC-B0574-TOUR_API-130431"
+          ]
+        },
+        {
+          "start": 198,
+          "end": 303,
+          "doc_ids": [
+            "DOC-B0574-TOUR_API-130431"
+          ]
+        },
+        {
+          "start": 304,
+          "end": 421,
+          "doc_ids": [
+            "DOC-B0574-TOUR_API-130431"
+          ]
+        },
+        {
+          "start": 422,
+          "end": 506,
+          "doc_ids": [
+            "DOC-B0574-TOUR_API-130431"
+          ]
+        },
+        {
+          "start": 507,
+          "end": 578,
+          "doc_ids": [
+            "DOC-B0574-TOUR_API-130431"
+          ]
+        },
+        {
+          "start": 579,
+          "end": 669,
+          "doc_ids": [
+            "DOC-B0574-TOUR_API-130431"
+          ]
+        },
+        {
+          "start": 670,
+          "end": 763,
+          "doc_ids": [
+            "DOC-B0574-TOUR_API-130431"
+          ]
+        },
+        {
+          "start": 764,
+          "end": 918,
+          "doc_ids": [
+            "DOC-B0574-TOUR_API-130431"
+          ]
+        },
+        {
+          "start": 919,
+          "end": 977,
+          "doc_ids": [
+            "DOC-B0574-TOUR_API-130431"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=283",
+      "text": "서울시 용산구 용산동에 호국전쟁의 실체를 보여주는 자료를 보존 전시하고 국민정신교육장으로 역할을 하며 조국을 위해 목숨을 바친 선열들의 숭고한 희생을 추모하고 그 업적을 기리기 위해 전쟁기념사업회에서 1994년 6월 10일 전쟁기념관을 세웠다. 전쟁기념관은 옥내전시와 옥외전시로 구분되어 있으며 3만 3천여 점의 소장유물 중 1만여 점을 전시하고 있다. 1만 900여 평의 옥내전시실은 호국추모실, 전쟁역사실, 6·25전쟁실, 해외파병실, 국군발전실, 대형장비실 등 6개 전시실로 구성되어 있으며 대형무기들이 전시되어 있는 옥외전시실이 있다. 3층 규모의 옥내전시실은 삼국시대로부터 현대까지 5천년 대한민국 전쟁사와 위국 헌신한 분들의 공로와 훈장 등이 실물·디오라마·복제품·기록화·영상 등의 다양한 전시기법에 따라 역동적이고 입체적으로 전시되어 있다. 특히 6·25전쟁실은 전쟁이 일어난 원인과 전쟁 경과 및 휴전에 이르기까지의 전 과정을 쉽고 올바르게 이해할 수 있도록 체험시설 등으로 구성되어 있다. 옥외전시장에는 세계 각국의 대형무기와 6·25전쟁 상징 조형물, 광개토대왕릉비, 형제의 상, 평화의 시계탑 등이 전시되어 있다. 제2차 세계대전, 6·25전쟁, 베트남전쟁 당시 사용되었던 장비를 전시하고 있는데, K-1전차를 비롯하여 곡사포, 미사일, 헬리콥터, 수송기 등이 전시되어 있다. 기념관 양측 회랑에는 국군 전사자와 유엔군 전사자 20여 만 명의 이름이 새겨진 전사자 명비가 있으며, 전쟁기념관을 대국민 호국문화의 장으로서도 큰 역할을 하고 있다. 어린이부터 일반인까지 다양한 계층을 대상으로 한 20여개의 교육프로그램을 운영함은 물론, 국군 군악·의장행사, 어린이날 문화축제, 현충일 그림그리기 대회, 6·25 호국문화행사 등 다양한 문화행사를 연간 개최하고 있어 기념관을 찾는 관람객들에게 새로운 볼거리를 제공하고 있다. 전쟁기념관의 캐릭터는 무돌이로, 나라를 지킨다는 뜻을 가진 철모와 평화를 상징하는 월계수잎이 특징적이다.",
+      "sido": "서울특별시",
+      "sigungu": "용산구",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=283"
+      ],
+      "evidence_id": "E2",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=398",
+        "fields": {
+          "name": "전쟁기념관",
+          "sido": "서울특별시",
+          "sigungu": "용산구",
+          "address": "서울특별시 용산구 이태원로 29",
+          "ownership_type": "사립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "09:30",
+          "weekday_close": "18:00",
+          "holiday_open": "09:30",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "월요일(월요일 포함 연휴때는 연휴 다음날)"
+        },
+        "base_data_date": "2026-01-26",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0889",
+      "name": "청주시한국공예관",
+      "document": "청주시 한국공예관은 1종 미술관으로 2001년 9월 개관하였으며, 공예를 주제로 한 국내 유일 미술관으로서 전시, 교육, 공예품의 개발과 판매를 해오고 있다. 기획전, 초대전, 대관전 등 국내·외 공예의 다양한 장르와 현재를 볼 수 있는 전시부터 약 3,000여 명의 수강생을 배출한 20여 년의 역사를 가진 시민공예학교를 운영해 오고 있으며, 지역 작가의 공예품을 구입할 수 있는 뮤지엄숍에서는 시즌별 기획 행사를 운영한다. 이와 함께 공예관은 2019년 가을 운천동에서의 역사를 마무리하고 문화제조창으로 확장 이전 개관하여 새롭게 출발하였다. 공예 전문 공립 미술관으로 기획 전시, 공예 아카데미 운영, 문화상품 개발·판매를 통해 시민의 문화예술적 소양을 높이고, 공예문화 교류의 열린 창을 만들기 위한 사업을 추진",
+      "metadata": {
+        "holiday_open": "10:00",
+        "address": "충청북도 청주시 청원구 상당로 314 (내덕동)",
+        "transport_notes": "고속버스터미널에서 921, 922, 111, 112, 113, 116, 118, 211, 511, 511-1 / 국제공항 747 / 오송역 511, 517, 511-1, 747",
+        "requires_manual_review": true,
+        "amenities_raw": "주차장",
+        "image_copyright": "Type1",
+        "longitude": 127.492382,
+        "name": "청주시한국공예관",
+        "ownership_type": "공립",
+        "adult_fee": 0.0,
+        "weekday_open": "10:00",
+        "sigungu": "청주시",
+        "child_fee": 0.0,
+        "weekday_close": "19:00",
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "homepage_url": "https://cjkcm.org",
+        "holiday_close": "19:00",
+        "sido": "충청북도",
+        "youth_fee": 0.0,
+        "closure_rule_raw": "1월 1일+설+추석 당일(14시까지 휴관)+월 휴관",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/12/3504612_image2_1.jpg",
+        "latitude": 36.656195,
+        "source_types": "BASE|TOUR_API"
+      },
+      "vector_rank": 12,
+      "bm25_rank": 11,
+      "vector_distance": 0.6707471609115601,
+      "vector_score": null,
+      "bm25_score": 8.747540603368108,
+      "vector_document": "청주시 한국공예관은 1종 미술관으로 2001년 9월 개관하였으며, 공예를 주제로 한 국내 유일 미술관으로서 전시, 교육, 공예품의 개발과 판매를 해오고 있다. 기획전, 초대전, 대관전 등 국내·외 공예의 다양한 장르와 현재를 볼 수 있는 전시부터 약 3,000여 명의 수강생을 배출한 20여 년의 역사를 가진 시민공예학교를 운영해 오고 있으며, 지역 작가의 공예품을 구입할 수 있는 뮤지엄숍에서는 시즌별 기획 행사를 운영한다. 이와 함께 공예관은 2019년 가을 운천동에서의 역사를 마무리하고 문화제조창으로 확장 이전 개관하여 새롭게 출발하였다. 공예 전문 공립 미술관으로 기획 전시, 공예 아카데미 운영, 문화상품 개발·판매를 통해 시민의 문화예술적 소양을 높이고, 공예문화 교류의 열린 창을 만들기 위한 사업을 추진",
+      "bm25_document": "청주시 한국공예관은 1종 미술관으로 2001년 9월 개관하였으며, 공예를 주제로 한 국내 유일 미술관으로서 전시, 교육, 공예품의 개발과 판매를 해오고 있다. 기획전, 초대전, 대관전 등 국내·외 공예의 다양한 장르와 현재를 볼 수 있는 전시부터 약 3,000여 명의 수강생을 배출한 20여 년의 역사를 가진 시민공예학교를 운영해 오고 있으며, 지역 작가의 공예품을 구입할 수 있는 뮤지엄숍에서는 시즌별 기획 행사를 운영한다. 이와 함께 공예관은 2019년 가을 운천동에서의 역사를 마무리하고 문화제조창으로 확장 이전 개관하여 새롭게 출발하였다. 공예 전문 공립 미술관으로 기획 전시, 공예 아카데미 운영, 문화상품 개발·판매를 통해 시민의 문화예술적 소양을 높이고, 공예문화 교류의 열린 창을 만들기 위한 사업을 추진",
+      "best_span_id": "chroma:M0889",
+      "best_span_text": "청주시 한국공예관은 1종 미술관으로 2001년 9월 개관하였으며, 공예를 주제로 한 국내 유일 미술관으로서 전시, 교육, 공예품의 개발과 판매를 해오고 있다. 기획전, 초대전, 대관전 등 국내·외 공예의 다양한 장르와 현재를 볼 수 있는 전시부터 약 3,000여 명의 수강생을 배출한 20여 년의 역사를 가진 시민공예학교를 운영해 오고 있으며, 지역 작가의 공예품을 구입할 수 있는 뮤지엄숍에서는 시즌별 기획 행사를 운영한다. 이와 함께 공예관은 2019년 가을 운천동에서의 역사를 마무리하고 문화제조창으로 확장 이전 개관하여 새롭게 출발하였다. 공예 전문 공립 미술관으로 기획 전시, 공예 아카데미 운영, 문화상품 개발·판매를 통해 시민의 문화예술적 소양을 높이고, 공예문화 교류의 열린 창을 만들기 위한 사업을 추진",
+      "fusion_score": 0.02797339593114241,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 3,
+      "rerank_score": null,
+      "rank": 3,
+      "score": 0.02797339593114241,
+      "score_type": "rrf",
+      "distance": 0.6707471609115601,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0889",
+      "source_doc_ids": [
+        "DOC-B0889-TOUR_API-2671122",
+        "DOC-B0889-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0889-TOUR_API-2671122",
+          "source_type": "TOUR_API",
+          "source_record_id": "2671122",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=419",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        },
+        {
+          "doc_id": "DOC-B0889-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0889",
+          "source_locator": "data/raw/museum_base_1070.csv#row=890",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 88,
+          "doc_ids": [
+            "DOC-B0889-TOUR_API-2671122"
+          ]
+        },
+        {
+          "start": 89,
+          "end": 238,
+          "doc_ids": [
+            "DOC-B0889-TOUR_API-2671122"
+          ]
+        },
+        {
+          "start": 239,
+          "end": 305,
+          "doc_ids": [
+            "DOC-B0889-TOUR_API-2671122"
+          ]
+        },
+        {
+          "start": 306,
+          "end": 402,
+          "doc_ids": [
+            "DOC-B0889-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=419",
+      "text": "청주시 한국공예관은 1종 미술관으로 2001년 9월 개관하였으며, 공예를 주제로 한 국내 유일 미술관으로서 전시, 교육, 공예품의 개발과 판매를 해오고 있다. 기획전, 초대전, 대관전 등 국내·외 공예의 다양한 장르와 현재를 볼 수 있는 전시부터 약 3,000여 명의 수강생을 배출한 20여 년의 역사를 가진 시민공예학교를 운영해 오고 있으며, 지역 작가의 공예품을 구입할 수 있는 뮤지엄숍에서는 시즌별 기획 행사를 운영한다. 이와 함께 공예관은 2019년 가을 운천동에서의 역사를 마무리하고 문화제조창으로 확장 이전 개관하여 새롭게 출발하였다. 공예 전문 공립 미술관으로 기획 전시, 공예 아카데미 운영, 문화상품 개발·판매를 통해 시민의 문화예술적 소양을 높이고, 공예문화 교류의 열린 창을 만들기 위한 사업을 추진",
+      "sido": "충청북도",
+      "sigungu": "청주시",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=419"
+      ],
+      "evidence_id": "E3",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=607",
+        "fields": {
+          "name": "청주시한국공예관",
+          "sido": "충청북도",
+          "sigungu": "청주시",
+          "address": "충청북도 청주시 청원구 상당로 314 (내덕동)",
+          "ownership_type": "공립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "10:00",
+          "weekday_close": "19:00",
+          "holiday_open": "10:00",
+          "holiday_close": "19:00",
+          "closure_rule_raw": "1월 1일+설+추석 당일(14시까지 휴관)+월 휴관",
+          "amenities_raw": "주차장"
+        },
+        "base_data_date": "2025-11-26",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0732",
+      "name": "충재유물관",
+      "document": "2007년 개관한 충재박물관은 조선시대 유물 10,000여점과 484점의 보물을 소장한 박물관으로, 전통마을인 닭실마을(달실)에 위치하고 있다. 소장하고 있는 모든 유물은 이 마을의 종갓집 및 마을출신 자손들로부터 받은 것이다. 연간 20,000여 명의 관람객이 방문하고 있다. 주변문화재의 관리와 교육프로그램 등을 시행하면서 봉화지역의 박물관으로서의 역할을 다하고 있는 중이다.",
+      "metadata": {
+        "child_fee": 0.0,
+        "longitude": 128.7424487,
+        "name": "충재유물관",
+        "holiday_close": "16:00",
+        "weekday_close": "16:00",
+        "holiday_open": "10:00",
+        "ownership_type": "공립",
+        "source_types": "BASE",
+        "adult_fee": 0.0,
+        "weekday_open": "10:00",
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "amenities_raw": "주차장",
+        "closure_rule_raw": "월+설 연휴+추석 연휴+법정공휴일",
+        "requires_manual_review": true,
+        "sido": "경상북도",
+        "sigungu": "봉화군",
+        "latitude": 36.9052737,
+        "youth_fee": 0.0,
+        "transport_notes": "버스: 봉화읍에서 춘양 및 재산방면 완행버스 이용+택시 : 봉화버스정류장에서 약 6,000원 내외+자가용 : 봉화버스정류장에서 7분 거리",
+        "address": "경상북도 봉화군 봉화읍 충재길 60"
+      },
+      "vector_rank": null,
+      "bm25_rank": 1,
+      "vector_distance": null,
+      "vector_score": null,
+      "bm25_score": 18.36457855463466,
+      "vector_document": "",
+      "bm25_document": "2007년 개관한 충재박물관은 조선시대 유물 10,000여점과 484점의 보물을 소장한 박물관으로, 전통마을인 닭실마을(달실)에 위치하고 있다. 소장하고 있는 모든 유물은 이 마을의 종갓집 및 마을출신 자손들로부터 받은 것이다. 연간 20,000여 명의 관람객이 방문하고 있다. 주변문화재의 관리와 교육프로그램 등을 시행하면서 봉화지역의 박물관으로서의 역할을 다하고 있는 중이다.",
+      "best_span_id": "chroma:M0732",
+      "best_span_text": "2007년 개관한 충재박물관은 조선시대 유물 10,000여점과 484점의 보물을 소장한 박물관으로, 전통마을인 닭실마을(달실)에 위치하고 있다. 소장하고 있는 모든 유물은 이 마을의 종갓집 및 마을출신 자손들로부터 받은 것이다. 연간 20,000여 명의 관람객이 방문하고 있다. 주변문화재의 관리와 교육프로그램 등을 시행하면서 봉화지역의 박물관으로서의 역할을 다하고 있는 중이다.",
+      "fusion_score": 0.01639344262295082,
+      "retrieved_by": [
+        "bm25"
+      ],
+      "fusion_rank": 4,
+      "rerank_score": null,
+      "rank": 4,
+      "score": 0.01639344262295082,
+      "score_type": "rrf",
+      "distance": null,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "bm25"
+      ],
+      "retriever": "bm25",
+      "span_id": "chroma:M0732",
+      "source_doc_ids": [
+        "DOC-B0732-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0732-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0732",
+          "source_locator": "data/raw/museum_base_1070.csv#row=733",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 80,
+          "doc_ids": [
+            "DOC-B0732-BASE"
+          ]
+        },
+        {
+          "start": 81,
+          "end": 127,
+          "doc_ids": [
+            "DOC-B0732-BASE"
+          ]
+        },
+        {
+          "start": 128,
+          "end": 155,
+          "doc_ids": [
+            "DOC-B0732-BASE"
+          ]
+        },
+        {
+          "start": 156,
+          "end": 212,
+          "doc_ids": [
+            "DOC-B0732-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_base_1070.csv#row=733",
+      "text": "2007년 개관한 충재박물관은 조선시대 유물 10,000여점과 484점의 보물을 소장한 박물관으로, 전통마을인 닭실마을(달실)에 위치하고 있다. 소장하고 있는 모든 유물은 이 마을의 종갓집 및 마을출신 자손들로부터 받은 것이다. 연간 20,000여 명의 관람객이 방문하고 있다. 주변문화재의 관리와 교육프로그램 등을 시행하면서 봉화지역의 박물관으로서의 역할을 다하고 있는 중이다.",
+      "sido": "경상북도",
+      "sigungu": "봉화군",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_base_1070.csv#row=733"
+      ],
+      "evidence_id": "E4",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=507",
+        "fields": {
+          "name": "충재유물관",
+          "sido": "경상북도",
+          "sigungu": "봉화군",
+          "address": "경상북도 봉화군 봉화읍 충재길 60",
+          "ownership_type": "공립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "10:00",
+          "weekday_close": "16:00",
+          "holiday_open": "10:00",
+          "holiday_close": "16:00",
+          "closure_rule_raw": "월+설 연휴+추석 연휴+법정공휴일",
+          "amenities_raw": "주차장"
+        },
+        "base_data_date": "2025-12-16",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0343",
+      "name": "반곡역사관",
+      "document": "반곡역사관은 원주시역사박물관의 분관으로 2019년 5월에 개관하였으며, 강원 원주혁신도시 조성사업 과정에서 출토된 신석기 시대부터 조선시대까지의 유적과 유물 500점이 전시되어 있다. 지형이 소반처럼 생겼다 하여 반곡이라는 지명이 붙은 이 곳은 신석기시대 유적이 원주 지역에서 처음으로 발견되었다는 점에서 의미가 남다르다. 역사관 1층은 혁신도시 건설 이전 반곡역과, 반곡동의 풍경, 주민생활의 어제와 오늘, 소중한 사람들 등 반곡동을 추억하는 사진과 영상 자료를 전시해 사라져간 옛모습을 그리워하는 세대와 과거가 궁금한 어린 세대들이 함께 교감을 나눌수 있도록 하였다. 2층은 유물 전시관과 신석기시대 마을 모습을 재현한 선사놀이터로 조성되어 있어 어린 아이들이 선사시대의 모습을 체험할 수 있게 해준다. 반곡역사관에서는 매달 다양한 주제의 체험과 행사, 문화 강좌 등 다채로운 프로그램을 통해 주민과 소통의 장을 마련하고 있다. 원주 혁신도시 조성사업 과정에서 출토된 반곡동 유적 관련 역사자료와 유물 500여점을 전시하고 있는 역사문화공간으로 어린이 대상 선사마을 놀이터 시설과 다양한 주제의 교육 체험프로그램 등이 운영 중이다.",
+      "metadata": {
+        "longitude": 127.9825461,
+        "latitude": 37.32480055,
+        "ownership_type": "공립",
+        "address": "강원특별자치도 원주시 양지로 36",
+        "adult_fee": 0.0,
+        "holiday_open": "09:00",
+        "youth_fee": 0.0,
+        "child_fee": 0.0,
+        "weekday_close": "18:00",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/64/4096964_image2_1.jpg",
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "name": "반곡역사관",
+        "source_types": "BASE|TOUR_API",
+        "holiday_close": "18:00",
+        "sido": "강원특별자치도",
+        "sigungu": "원주시",
+        "weekday_open": "09:00",
+        "transport_notes": "시내버스 111+100+18+16+13+7+5-2번",
+        "closure_rule_raw": "월+명절당일+공휴일 익일",
+        "homepage_url": "https://whm.wonju.go.kr/whm/page/view.php/sub_10_01",
+        "requires_manual_review": true,
+        "amenities_raw": "휴게공간+화장실",
+        "image_copyright": "Type1"
+      },
+      "vector_rank": 2,
+      "bm25_rank": null,
+      "vector_distance": 0.6211035251617432,
+      "vector_score": null,
+      "bm25_score": null,
+      "vector_document": "반곡역사관은 원주시역사박물관의 분관으로 2019년 5월에 개관하였으며, 강원 원주혁신도시 조성사업 과정에서 출토된 신석기 시대부터 조선시대까지의 유적과 유물 500점이 전시되어 있다. 지형이 소반처럼 생겼다 하여 반곡이라는 지명이 붙은 이 곳은 신석기시대 유적이 원주 지역에서 처음으로 발견되었다는 점에서 의미가 남다르다. 역사관 1층은 혁신도시 건설 이전 반곡역과, 반곡동의 풍경, 주민생활의 어제와 오늘, 소중한 사람들 등 반곡동을 추억하는 사진과 영상 자료를 전시해 사라져간 옛모습을 그리워하는 세대와 과거가 궁금한 어린 세대들이 함께 교감을 나눌수 있도록 하였다. 2층은 유물 전시관과 신석기시대 마을 모습을 재현한 선사놀이터로 조성되어 있어 어린 아이들이 선사시대의 모습을 체험할 수 있게 해준다. 반곡역사관에서는 매달 다양한 주제의 체험과 행사, 문화 강좌 등 다채로운 프로그램을 통해 주민과 소통의 장을 마련하고 있다. 원주 혁신도시 조성사업 과정에서 출토된 반곡동 유적 관련 역사자료와 유물 500여점을 전시하고 있는 역사문화공간으로 어린이 대상 선사마을 놀이터 시설과 다양한 주제의 교육 체험프로그램 등이 운영 중이다.",
+      "bm25_document": "",
+      "best_span_id": null,
+      "best_span_text": null,
+      "fusion_score": 0.016129032258064516,
+      "retrieved_by": [
+        "vector"
+      ],
+      "fusion_rank": 5,
+      "rerank_score": null,
+      "rank": 5,
+      "score": 0.016129032258064516,
+      "score_type": "rrf",
+      "distance": 0.6211035251617432,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector"
+      ],
+      "retriever": "vector",
+      "source_doc_ids": [
+        "DOC-B0343-TOUR_API-3028774",
+        "DOC-B0343-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0343-TOUR_API-3028774",
+          "source_type": "TOUR_API",
+          "source_record_id": "3028774",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=167",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        },
+        {
+          "doc_id": "DOC-B0343-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0343",
+          "source_locator": "data/raw/museum_base_1070.csv#row=344",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 102,
+          "doc_ids": [
+            "DOC-B0343-TOUR_API-3028774"
+          ]
+        },
+        {
+          "start": 103,
+          "end": 180,
+          "doc_ids": [
+            "DOC-B0343-TOUR_API-3028774"
+          ]
+        },
+        {
+          "start": 181,
+          "end": 319,
+          "doc_ids": [
+            "DOC-B0343-TOUR_API-3028774"
+          ]
+        },
+        {
+          "start": 320,
+          "end": 395,
+          "doc_ids": [
+            "DOC-B0343-TOUR_API-3028774"
+          ]
+        },
+        {
+          "start": 396,
+          "end": 465,
+          "doc_ids": [
+            "DOC-B0343-TOUR_API-3028774"
+          ]
+        },
+        {
+          "start": 466,
+          "end": 579,
+          "doc_ids": [
+            "DOC-B0343-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=167",
+      "text": "반곡역사관은 원주시역사박물관의 분관으로 2019년 5월에 개관하였으며, 강원 원주혁신도시 조성사업 과정에서 출토된 신석기 시대부터 조선시대까지의 유적과 유물 500점이 전시되어 있다. 지형이 소반처럼 생겼다 하여 반곡이라는 지명이 붙은 이 곳은 신석기시대 유적이 원주 지역에서 처음으로 발견되었다는 점에서 의미가 남다르다. 역사관 1층은 혁신도시 건설 이전 반곡역과, 반곡동의 풍경, 주민생활의 어제와 오늘, 소중한 사람들 등 반곡동을 추억하는 사진과 영상 자료를 전시해 사라져간 옛모습을 그리워하는 세대와 과거가 궁금한 어린 세대들이 함께 교감을 나눌수 있도록 하였다. 2층은 유물 전시관과 신석기시대 마을 모습을 재현한 선사놀이터로 조성되어 있어 어린 아이들이 선사시대의 모습을 체험할 수 있게 해준다. 반곡역사관에서는 매달 다양한 주제의 체험과 행사, 문화 강좌 등 다채로운 프로그램을 통해 주민과 소통의 장을 마련하고 있다. 원주 혁신도시 조성사업 과정에서 출토된 반곡동 유적 관련 역사자료와 유물 500여점을 전시하고 있는 역사문화공간으로 어린이 대상 선사마을 놀이터 시설과 다양한 주제의 교육 체험프로그램 등이 운영 중이다.",
+      "sido": "강원특별자치도",
+      "sigungu": "원주시",
+      "span_id": "",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=167"
+      ],
+      "evidence_id": "E5",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=249",
+        "fields": {
+          "name": "반곡역사관",
+          "sido": "강원특별자치도",
+          "sigungu": "원주시",
+          "address": "강원특별자치도 원주시 양지로 36",
+          "ownership_type": "공립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "09:00",
+          "weekday_close": "18:00",
+          "holiday_open": "09:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "월+명절당일+공휴일 익일",
+          "amenities_raw": "휴게공간+화장실"
+        },
+        "base_data_date": "2026-06-29",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    }
+  ],
+  "answer": "확인 가능한 근거가 부족하여 답변을 보류했음.",
+  "retrieval_status": "ok",
+  "answer_status": "abstained",
+  "route": "hybrid",
+  "retry_count": 1,
+  "supervisor_verified": false,
+  "rerank_applied": false,
+  "retriever_errors": [],
+  "warnings": [
+    "Cross-Encoder reranking failed (FileNotFoundError); RRF order retained"
+  ],
+  "duration_ms": 17959.83,
+  "error_type": "",
+  "hit_at_1": "",
+  "hit_at_3": "",
+  "hit_at_5": "",
+  "recall_at_5": "",
+  "mrr_at_10": ""
+}

@@ -1,0 +1,694 @@
+{
+  "mode": "supervisor_full",
+  "question_id": "Q023",
+  "evidence": [
+    {
+      "museum_id": "M0047",
+      "name": "제주유리박물관",
+      "document": "제주유리박물관은 한국의 유일한 유리 전문 박물관으로 넓은 공간에 전시된 유리작품을 감상할 수 있는 공간이다. 2008년 3월 1일 제주도에 개관했으며 유리 전시실, 가마 작업실, 브로잉실, 유리 가공실, 강의실, 카페 등을 갖추고 있다. 다양한 유리로 만들어진 작품이 제주의 자연과 어우러져 투명한 아름다움을 선사한다. 정월을 돌아보는 동안 자연과 예술 작품이 주는 힐링을 만끽할 수 있다. 유리블로잉 및 캔들 만들기 등 직접 유리 공예품을 만들 수 있는 체험 프로그램과 관람 중 마음에 드는 작품을 구입할 수 있는 기념품 숍이 준비되어 있다. 가족이나 친구, 지인과 함께 방문해 특별한 유리 체험을 즐길 수 있는 이색 박물관이다.",
+      "metadata": {
+        "weekday_close": "19:00",
+        "weekday_open": "10:00",
+        "image_copyright": "Type3",
+        "child_fee": 7000.0,
+        "closure_rule_raw": "연중무휴",
+        "sido": "제주특별자치도",
+        "adult_fee_status": "BASE_FEE_PAID",
+        "sigungu": "서귀포시",
+        "fee_notes": "단체 관람 시 할인",
+        "ownership_type": "사립",
+        "youth_fee": 8000.0,
+        "name": "제주유리박물관",
+        "homepage_url": "http://www.glassmuseum.co.kr/main.php",
+        "holiday_close": "19:00",
+        "latitude": 33.27851386,
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/33/3024533_image2_1.jpg",
+        "adult_fee": 9000.0,
+        "holiday_open": "10:00",
+        "source_types": "TOUR_API",
+        "address": "제주특별자치도 서귀포시 중산간서로 1403",
+        "longitude": 126.3701574,
+        "requires_manual_review": true
+      },
+      "vector_rank": 1,
+      "bm25_rank": 1,
+      "vector_distance": 0.4403194189071655,
+      "vector_score": null,
+      "bm25_score": 31.472795514309954,
+      "vector_document": "제주유리박물관은 한국의 유일한 유리 전문 박물관으로 넓은 공간에 전시된 유리작품을 감상할 수 있는 공간이다. 2008년 3월 1일 제주도에 개관했으며 유리 전시실, 가마 작업실, 브로잉실, 유리 가공실, 강의실, 카페 등을 갖추고 있다. 다양한 유리로 만들어진 작품이 제주의 자연과 어우러져 투명한 아름다움을 선사한다. 정월을 돌아보는 동안 자연과 예술 작품이 주는 힐링을 만끽할 수 있다. 유리블로잉 및 캔들 만들기 등 직접 유리 공예품을 만들 수 있는 체험 프로그램과 관람 중 마음에 드는 작품을 구입할 수 있는 기념품 숍이 준비되어 있다. 가족이나 친구, 지인과 함께 방문해 특별한 유리 체험을 즐길 수 있는 이색 박물관이다.",
+      "bm25_document": "제주유리박물관은 한국의 유일한 유리 전문 박물관으로 넓은 공간에 전시된 유리작품을 감상할 수 있는 공간이다. 2008년 3월 1일 제주도에 개관했으며 유리 전시실, 가마 작업실, 브로잉실, 유리 가공실, 강의실, 카페 등을 갖추고 있다. 다양한 유리로 만들어진 작품이 제주의 자연과 어우러져 투명한 아름다움을 선사한다. 정월을 돌아보는 동안 자연과 예술 작품이 주는 힐링을 만끽할 수 있다. 유리블로잉 및 캔들 만들기 등 직접 유리 공예품을 만들 수 있는 체험 프로그램과 관람 중 마음에 드는 작품을 구입할 수 있는 기념품 숍이 준비되어 있다. 가족이나 친구, 지인과 함께 방문해 특별한 유리 체험을 즐길 수 있는 이색 박물관이다.",
+      "best_span_id": "chroma:M0047",
+      "best_span_text": "제주유리박물관은 한국의 유일한 유리 전문 박물관으로 넓은 공간에 전시된 유리작품을 감상할 수 있는 공간이다. 2008년 3월 1일 제주도에 개관했으며 유리 전시실, 가마 작업실, 브로잉실, 유리 가공실, 강의실, 카페 등을 갖추고 있다. 다양한 유리로 만들어진 작품이 제주의 자연과 어우러져 투명한 아름다움을 선사한다. 정월을 돌아보는 동안 자연과 예술 작품이 주는 힐링을 만끽할 수 있다. 유리블로잉 및 캔들 만들기 등 직접 유리 공예품을 만들 수 있는 체험 프로그램과 관람 중 마음에 드는 작품을 구입할 수 있는 기념품 숍이 준비되어 있다. 가족이나 친구, 지인과 함께 방문해 특별한 유리 체험을 즐길 수 있는 이색 박물관이다.",
+      "fusion_score": 0.03278688524590164,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 1,
+      "rerank_score": 0.9999299049377441,
+      "rank": 1,
+      "score": 0.9999299049377441,
+      "score_type": "cross_encoder",
+      "distance": 0.4403194189071655,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0047",
+      "source_doc_ids": [
+        "DOC-B0047-TOUR_API-526666"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0047-TOUR_API-526666",
+          "source_type": "TOUR_API",
+          "source_record_id": "526666",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=26",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 60,
+          "doc_ids": [
+            "DOC-B0047-TOUR_API-526666"
+          ]
+        },
+        {
+          "start": 61,
+          "end": 132,
+          "doc_ids": [
+            "DOC-B0047-TOUR_API-526666"
+          ]
+        },
+        {
+          "start": 133,
+          "end": 178,
+          "doc_ids": [
+            "DOC-B0047-TOUR_API-526666"
+          ]
+        },
+        {
+          "start": 179,
+          "end": 218,
+          "doc_ids": [
+            "DOC-B0047-TOUR_API-526666"
+          ]
+        },
+        {
+          "start": 219,
+          "end": 304,
+          "doc_ids": [
+            "DOC-B0047-TOUR_API-526666"
+          ]
+        },
+        {
+          "start": 305,
+          "end": 353,
+          "doc_ids": [
+            "DOC-B0047-TOUR_API-526666"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=26",
+      "text": "제주유리박물관은 한국의 유일한 유리 전문 박물관으로 넓은 공간에 전시된 유리작품을 감상할 수 있는 공간이다. 2008년 3월 1일 제주도에 개관했으며 유리 전시실, 가마 작업실, 브로잉실, 유리 가공실, 강의실, 카페 등을 갖추고 있다. 다양한 유리로 만들어진 작품이 제주의 자연과 어우러져 투명한 아름다움을 선사한다. 정월을 돌아보는 동안 자연과 예술 작품이 주는 힐링을 만끽할 수 있다. 유리블로잉 및 캔들 만들기 등 직접 유리 공예품을 만들 수 있는 체험 프로그램과 관람 중 마음에 드는 작품을 구입할 수 있는 기념품 숍이 준비되어 있다. 가족이나 친구, 지인과 함께 방문해 특별한 유리 체험을 즐길 수 있는 이색 박물관이다.",
+      "sido": "제주특별자치도",
+      "sigungu": "서귀포시",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=26"
+      ],
+      "evidence_id": "E1",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=34",
+        "fields": {
+          "name": "제주유리박물관",
+          "sido": "제주특별자치도",
+          "sigungu": "서귀포시",
+          "address": "제주특별자치도 서귀포시 중산간서로 1403",
+          "ownership_type": "사립",
+          "adult_fee": "9000",
+          "youth_fee": "8000",
+          "child_fee": "7000",
+          "adult_fee_status": "BASE_FEE_PAID",
+          "weekday_open": "10:00",
+          "weekday_close": "19:00",
+          "holiday_open": "10:00",
+          "holiday_close": "19:00",
+          "closure_rule_raw": "연중무휴"
+        },
+        "base_data_date": "2026-09-30",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0052",
+      "name": "세계술박물관",
+      "document": "제주 서귀포에 위치한 세계술박물관은 술의 역사 자료와 술 빚을 때 사용했던 도구, 사라져 가는 옛날 술을 수집 전시하고 있으며 우리나라 술과 술병의 변천사를 한눈에 볼 수 있는 술 전문 박물관이다. 특히 세계관에서는 프랑스 코냑, 영국 스카치, 아이리시 아이리시, 미국 아메리칸, 캐나다 캐나디안, 소련 보드카, 멕시코 테킬라, 독일 맥주 그 외, 아시아 술 전시관에는 중국, 일본, 북한 술 등이 전시되어 있다. 자세한 설명을 읽어보면 술에 대한 다양한 기본 상식을 알 수 있다. 전시 중인 모든 술은 개봉되지 않은 정품이며 앞으로도 정품만을 수집하여 보존할 계획이라고 한다.",
+      "metadata": {
+        "weekday_open": "09:00",
+        "requires_manual_review": true,
+        "source_types": "TOUR_API",
+        "holiday_close": "18:00",
+        "adult_fee_status": "BASE_FEE_PAID",
+        "longitude": 126.8175928,
+        "image_copyright": "Type1",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/89/3548789_image2_1.jpg",
+        "fee_notes": "도민할인",
+        "address": "제주특별자치도 서귀포시 표선면 한마음초등로431",
+        "child_fee": 2000.0,
+        "name": "세계술박물관",
+        "sigungu": "서귀포시",
+        "homepage_url": "https://worlm.co.kr/",
+        "latitude": 33.35397099,
+        "weekday_close": "18:00",
+        "sido": "제주특별자치도",
+        "holiday_open": "09:00",
+        "adult_fee": 7000.0,
+        "closure_rule_raw": "연중무휴",
+        "ownership_type": "사립",
+        "youth_fee": 5000.0
+      },
+      "vector_rank": null,
+      "bm25_rank": 4,
+      "vector_distance": null,
+      "vector_score": null,
+      "bm25_score": 17.08607938071909,
+      "vector_document": "",
+      "bm25_document": "제주 서귀포에 위치한 세계술박물관은 술의 역사 자료와 술 빚을 때 사용했던 도구, 사라져 가는 옛날 술을 수집 전시하고 있으며 우리나라 술과 술병의 변천사를 한눈에 볼 수 있는 술 전문 박물관이다. 특히 세계관에서는 프랑스 코냑, 영국 스카치, 아이리시 아이리시, 미국 아메리칸, 캐나다 캐나디안, 소련 보드카, 멕시코 테킬라, 독일 맥주 그 외, 아시아 술 전시관에는 중국, 일본, 북한 술 등이 전시되어 있다. 자세한 설명을 읽어보면 술에 대한 다양한 기본 상식을 알 수 있다. 전시 중인 모든 술은 개봉되지 않은 정품이며 앞으로도 정품만을 수집하여 보존할 계획이라고 한다.",
+      "best_span_id": "chroma:M0052",
+      "best_span_text": "제주 서귀포에 위치한 세계술박물관은 술의 역사 자료와 술 빚을 때 사용했던 도구, 사라져 가는 옛날 술을 수집 전시하고 있으며 우리나라 술과 술병의 변천사를 한눈에 볼 수 있는 술 전문 박물관이다. 특히 세계관에서는 프랑스 코냑, 영국 스카치, 아이리시 아이리시, 미국 아메리칸, 캐나다 캐나디안, 소련 보드카, 멕시코 테킬라, 독일 맥주 그 외, 아시아 술 전시관에는 중국, 일본, 북한 술 등이 전시되어 있다. 자세한 설명을 읽어보면 술에 대한 다양한 기본 상식을 알 수 있다. 전시 중인 모든 술은 개봉되지 않은 정품이며 앞으로도 정품만을 수집하여 보존할 계획이라고 한다.",
+      "fusion_score": 0.015625,
+      "retrieved_by": [
+        "bm25"
+      ],
+      "fusion_rank": 8,
+      "rerank_score": 0.5905219316482544,
+      "rank": 2,
+      "score": 0.5905219316482544,
+      "score_type": "cross_encoder",
+      "distance": null,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "bm25"
+      ],
+      "retriever": "bm25",
+      "span_id": "chroma:M0052",
+      "source_doc_ids": [
+        "DOC-B0052-TOUR_API-2763826"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0052-TOUR_API-2763826",
+          "source_type": "TOUR_API",
+          "source_record_id": "2763826",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=29",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 110,
+          "doc_ids": [
+            "DOC-B0052-TOUR_API-2763826"
+          ]
+        },
+        {
+          "start": 111,
+          "end": 231,
+          "doc_ids": [
+            "DOC-B0052-TOUR_API-2763826"
+          ]
+        },
+        {
+          "start": 232,
+          "end": 269,
+          "doc_ids": [
+            "DOC-B0052-TOUR_API-2763826"
+          ]
+        },
+        {
+          "start": 270,
+          "end": 323,
+          "doc_ids": [
+            "DOC-B0052-TOUR_API-2763826"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=29",
+      "text": "제주 서귀포에 위치한 세계술박물관은 술의 역사 자료와 술 빚을 때 사용했던 도구, 사라져 가는 옛날 술을 수집 전시하고 있으며 우리나라 술과 술병의 변천사를 한눈에 볼 수 있는 술 전문 박물관이다. 특히 세계관에서는 프랑스 코냑, 영국 스카치, 아이리시 아이리시, 미국 아메리칸, 캐나다 캐나디안, 소련 보드카, 멕시코 테킬라, 독일 맥주 그 외, 아시아 술 전시관에는 중국, 일본, 북한 술 등이 전시되어 있다. 자세한 설명을 읽어보면 술에 대한 다양한 기본 상식을 알 수 있다. 전시 중인 모든 술은 개봉되지 않은 정품이며 앞으로도 정품만을 수집하여 보존할 계획이라고 한다.",
+      "sido": "제주특별자치도",
+      "sigungu": "서귀포시",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=29"
+      ],
+      "evidence_id": "E2",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=37",
+        "fields": {
+          "name": "세계술박물관",
+          "sido": "제주특별자치도",
+          "sigungu": "서귀포시",
+          "address": "제주특별자치도 서귀포시 표선면 한마음초등로431",
+          "ownership_type": "사립",
+          "adult_fee": "7000",
+          "youth_fee": "5000",
+          "child_fee": "2000",
+          "adult_fee_status": "BASE_FEE_PAID",
+          "weekday_open": "09:00",
+          "weekday_close": "18:00",
+          "holiday_open": "09:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "연중무휴"
+        },
+        "base_data_date": "2026-09-30",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0088",
+      "name": "감귤박물관",
+      "document": "서귀포 감귤 박물관은 제주 특산물인 감귤을 테마로 감귤의 세계를 한눈에 보고, 느끼고, 체험할 수 있도록 개관한 공립 전문 박물관이다. 감귤의 역사와 문화, 산업과 노동 현장을 엿볼 수 있는 의미 있는 전시 등을 통해 제주인의 삶의 모습을 반추해 볼 수 있다. 감귤의 발생, 역사와 종류, 재배 방법 등을 다양한 패널과 영상으로 구성하고, 유리 온실에는 전 세계 84품종의 감귤류를 식재 전시하여 사계절 싱싱한 감귤(생과)을 감상할 수 있도록 조성되어 감귤에 관한 모든 것을 체험하고 배울 수 있는 곳이다.",
+      "metadata": {
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/32/3411132_image2_1.jpg",
+        "latitude": 33.27159304,
+        "address": "제주특별자치도 서귀포시 효돈순환로 441",
+        "weekday_close": "18:00",
+        "name": "감귤박물관",
+        "weekday_open": "09:00",
+        "sigungu": "서귀포시",
+        "holiday_open": "09:00",
+        "adult_fee": 1500.0,
+        "sido": "제주특별자치도",
+        "longitude": 126.6074285,
+        "requires_manual_review": true,
+        "homepage_url": "http://culture.seogwipo.go.kr/citrus/index.htm",
+        "holiday_close": "18:00",
+        "image_copyright": "Type3",
+        "fee_notes": "단체 관람 시 할인+도민할인",
+        "source_types": "TOUR_API",
+        "ownership_type": "공립",
+        "youth_fee": 1000.0,
+        "child_fee": 800.0,
+        "closure_rule_raw": "1월1일+설날+추석",
+        "adult_fee_status": "BASE_FEE_PAID"
+      },
+      "vector_rank": 3,
+      "bm25_rank": 2,
+      "vector_distance": 0.5005183219909668,
+      "vector_score": null,
+      "bm25_score": 25.397287994860424,
+      "vector_document": "서귀포 감귤 박물관은 제주 특산물인 감귤을 테마로 감귤의 세계를 한눈에 보고, 느끼고, 체험할 수 있도록 개관한 공립 전문 박물관이다. 감귤의 역사와 문화, 산업과 노동 현장을 엿볼 수 있는 의미 있는 전시 등을 통해 제주인의 삶의 모습을 반추해 볼 수 있다. 감귤의 발생, 역사와 종류, 재배 방법 등을 다양한 패널과 영상으로 구성하고, 유리 온실에는 전 세계 84품종의 감귤류를 식재 전시하여 사계절 싱싱한 감귤(생과)을 감상할 수 있도록 조성되어 감귤에 관한 모든 것을 체험하고 배울 수 있는 곳이다.",
+      "bm25_document": "서귀포 감귤 박물관은 제주 특산물인 감귤을 테마로 감귤의 세계를 한눈에 보고, 느끼고, 체험할 수 있도록 개관한 공립 전문 박물관이다. 감귤의 역사와 문화, 산업과 노동 현장을 엿볼 수 있는 의미 있는 전시 등을 통해 제주인의 삶의 모습을 반추해 볼 수 있다. 감귤의 발생, 역사와 종류, 재배 방법 등을 다양한 패널과 영상으로 구성하고, 유리 온실에는 전 세계 84품종의 감귤류를 식재 전시하여 사계절 싱싱한 감귤(생과)을 감상할 수 있도록 조성되어 감귤에 관한 모든 것을 체험하고 배울 수 있는 곳이다.",
+      "best_span_id": "chroma:M0088",
+      "best_span_text": "서귀포 감귤 박물관은 제주 특산물인 감귤을 테마로 감귤의 세계를 한눈에 보고, 느끼고, 체험할 수 있도록 개관한 공립 전문 박물관이다. 감귤의 역사와 문화, 산업과 노동 현장을 엿볼 수 있는 의미 있는 전시 등을 통해 제주인의 삶의 모습을 반추해 볼 수 있다. 감귤의 발생, 역사와 종류, 재배 방법 등을 다양한 패널과 영상으로 구성하고, 유리 온실에는 전 세계 84품종의 감귤류를 식재 전시하여 사계절 싱싱한 감귤(생과)을 감상할 수 있도록 조성되어 감귤에 관한 모든 것을 체험하고 배울 수 있는 곳이다.",
+      "fusion_score": 0.03200204813108039,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 2,
+      "rerank_score": 0.5414732098579407,
+      "rank": 3,
+      "score": 0.5414732098579407,
+      "score_type": "cross_encoder",
+      "distance": 0.5005183219909668,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0088",
+      "source_doc_ids": [
+        "DOC-B0088-TOUR_API-590415"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0088-TOUR_API-590415",
+          "source_type": "TOUR_API",
+          "source_record_id": "590415",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=45",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 75,
+          "doc_ids": [
+            "DOC-B0088-TOUR_API-590415"
+          ]
+        },
+        {
+          "start": 76,
+          "end": 145,
+          "doc_ids": [
+            "DOC-B0088-TOUR_API-590415"
+          ]
+        },
+        {
+          "start": 146,
+          "end": 283,
+          "doc_ids": [
+            "DOC-B0088-TOUR_API-590415"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=45",
+      "text": "서귀포 감귤 박물관은 제주 특산물인 감귤을 테마로 감귤의 세계를 한눈에 보고, 느끼고, 체험할 수 있도록 개관한 공립 전문 박물관이다. 감귤의 역사와 문화, 산업과 노동 현장을 엿볼 수 있는 의미 있는 전시 등을 통해 제주인의 삶의 모습을 반추해 볼 수 있다. 감귤의 발생, 역사와 종류, 재배 방법 등을 다양한 패널과 영상으로 구성하고, 유리 온실에는 전 세계 84품종의 감귤류를 식재 전시하여 사계절 싱싱한 감귤(생과)을 감상할 수 있도록 조성되어 감귤에 관한 모든 것을 체험하고 배울 수 있는 곳이다.",
+      "sido": "제주특별자치도",
+      "sigungu": "서귀포시",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=45"
+      ],
+      "evidence_id": "E3",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=55",
+        "fields": {
+          "name": "감귤박물관",
+          "sido": "제주특별자치도",
+          "sigungu": "서귀포시",
+          "address": "제주특별자치도 서귀포시 효돈순환로 441",
+          "ownership_type": "공립",
+          "adult_fee": "1500",
+          "youth_fee": "1000",
+          "child_fee": "800",
+          "adult_fee_status": "BASE_FEE_PAID",
+          "weekday_open": "09:00",
+          "weekday_close": "18:00",
+          "holiday_open": "09:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "1월1일+설날+추석"
+        },
+        "base_data_date": "2026-09-30",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0083",
+      "name": "초콜릿 박물관",
+      "document": "제주의 자연과 어우러진 소박한 규모의 초콜릿 전문 박물관이다. 화산 활동으로 생성된 제주 고유의 송이석으로 지어진 박물관 건물은 유럽스타일 고성의 느낌을 주며 1,500여 평에 이르는 넓은 대지 위에서의 느낌은 방문객들에게 아늑함과 낭만을 동시에 느끼게 해 준다. 독일 쾰른의 초콜릿 박물관에 이어 세계 두 번째의 규모로 동양에서는 처음으로 세워진 초콜릿&카카오 전문 박물관으로 초콜릿의 전래 역사와 유럽을 선두로 변천과 발전을 지속해 온 지구상의 모든 초콜릿에 대해 재미있게 살펴볼 수 있는 기초 미각 문화의 전당이다. 세계 10대 초콜릿 박물관으로 선정되기도 했다. 일정 가격만큼의 초콜릿을 구매하면 초콜릿을 만들어 보는 체험 활동 이용권을 받을 수 있다.",
+      "metadata": {
+        "homepage_url": "http://chocomuseum.alltheway.kr/",
+        "longitude": 126.2299329,
+        "name": "초콜릿 박물관",
+        "image_copyright": "Type1",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/28/3548628_image2_1.jpg",
+        "adult_fee": 8000.0,
+        "weekday_close": "17:00",
+        "fee_notes": "6세 미만 및 65세 이상 무료",
+        "ownership_type": "사립",
+        "holiday_open": "10:30",
+        "sigungu": "서귀포시",
+        "sido": "제주특별자치도",
+        "requires_manual_review": true,
+        "holiday_close": "17:00",
+        "child_fee": 6000.0,
+        "address": "제주특별자치도 서귀포시 대정읍 일주서로3000번길 144",
+        "source_types": "TOUR_API",
+        "closure_rule_raw": "연중무휴",
+        "youth_fee": 0.0,
+        "weekday_open": "10:30",
+        "latitude": 33.25705283,
+        "adult_fee_status": "BASE_FEE_PAID"
+      },
+      "vector_rank": 2,
+      "bm25_rank": 5,
+      "vector_distance": 0.4767492413520813,
+      "vector_score": null,
+      "bm25_score": 16.68069435482011,
+      "vector_document": "제주의 자연과 어우러진 소박한 규모의 초콜릿 전문 박물관이다. 화산 활동으로 생성된 제주 고유의 송이석으로 지어진 박물관 건물은 유럽스타일 고성의 느낌을 주며 1,500여 평에 이르는 넓은 대지 위에서의 느낌은 방문객들에게 아늑함과 낭만을 동시에 느끼게 해 준다. 독일 쾰른의 초콜릿 박물관에 이어 세계 두 번째의 규모로 동양에서는 처음으로 세워진 초콜릿&카카오 전문 박물관으로 초콜릿의 전래 역사와 유럽을 선두로 변천과 발전을 지속해 온 지구상의 모든 초콜릿에 대해 재미있게 살펴볼 수 있는 기초 미각 문화의 전당이다. 세계 10대 초콜릿 박물관으로 선정되기도 했다. 일정 가격만큼의 초콜릿을 구매하면 초콜릿을 만들어 보는 체험 활동 이용권을 받을 수 있다.",
+      "bm25_document": "제주의 자연과 어우러진 소박한 규모의 초콜릿 전문 박물관이다. 화산 활동으로 생성된 제주 고유의 송이석으로 지어진 박물관 건물은 유럽스타일 고성의 느낌을 주며 1,500여 평에 이르는 넓은 대지 위에서의 느낌은 방문객들에게 아늑함과 낭만을 동시에 느끼게 해 준다. 독일 쾰른의 초콜릿 박물관에 이어 세계 두 번째의 규모로 동양에서는 처음으로 세워진 초콜릿&카카오 전문 박물관으로 초콜릿의 전래 역사와 유럽을 선두로 변천과 발전을 지속해 온 지구상의 모든 초콜릿에 대해 재미있게 살펴볼 수 있는 기초 미각 문화의 전당이다. 세계 10대 초콜릿 박물관으로 선정되기도 했다. 일정 가격만큼의 초콜릿을 구매하면 초콜릿을 만들어 보는 체험 활동 이용권을 받을 수 있다.",
+      "best_span_id": "chroma:M0083",
+      "best_span_text": "제주의 자연과 어우러진 소박한 규모의 초콜릿 전문 박물관이다. 화산 활동으로 생성된 제주 고유의 송이석으로 지어진 박물관 건물은 유럽스타일 고성의 느낌을 주며 1,500여 평에 이르는 넓은 대지 위에서의 느낌은 방문객들에게 아늑함과 낭만을 동시에 느끼게 해 준다. 독일 쾰른의 초콜릿 박물관에 이어 세계 두 번째의 규모로 동양에서는 처음으로 세워진 초콜릿&카카오 전문 박물관으로 초콜릿의 전래 역사와 유럽을 선두로 변천과 발전을 지속해 온 지구상의 모든 초콜릿에 대해 재미있게 살펴볼 수 있는 기초 미각 문화의 전당이다. 세계 10대 초콜릿 박물관으로 선정되기도 했다. 일정 가격만큼의 초콜릿을 구매하면 초콜릿을 만들어 보는 체험 활동 이용권을 받을 수 있다.",
+      "fusion_score": 0.0315136476426799,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 3,
+      "rerank_score": 0.37331873178482056,
+      "rank": 4,
+      "score": 0.37331873178482056,
+      "score_type": "cross_encoder",
+      "distance": 0.4767492413520813,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0083",
+      "source_doc_ids": [
+        "DOC-B0083-TOUR_API-130363"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0083-TOUR_API-130363",
+          "source_type": "TOUR_API",
+          "source_record_id": "130363",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=40",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 34,
+          "doc_ids": [
+            "DOC-B0083-TOUR_API-130363"
+          ]
+        },
+        {
+          "start": 35,
+          "end": 147,
+          "doc_ids": [
+            "DOC-B0083-TOUR_API-130363"
+          ]
+        },
+        {
+          "start": 148,
+          "end": 291,
+          "doc_ids": [
+            "DOC-B0083-TOUR_API-130363"
+          ]
+        },
+        {
+          "start": 292,
+          "end": 318,
+          "doc_ids": [
+            "DOC-B0083-TOUR_API-130363"
+          ]
+        },
+        {
+          "start": 319,
+          "end": 369,
+          "doc_ids": [
+            "DOC-B0083-TOUR_API-130363"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=40",
+      "text": "제주의 자연과 어우러진 소박한 규모의 초콜릿 전문 박물관이다. 화산 활동으로 생성된 제주 고유의 송이석으로 지어진 박물관 건물은 유럽스타일 고성의 느낌을 주며 1,500여 평에 이르는 넓은 대지 위에서의 느낌은 방문객들에게 아늑함과 낭만을 동시에 느끼게 해 준다. 독일 쾰른의 초콜릿 박물관에 이어 세계 두 번째의 규모로 동양에서는 처음으로 세워진 초콜릿&카카오 전문 박물관으로 초콜릿의 전래 역사와 유럽을 선두로 변천과 발전을 지속해 온 지구상의 모든 초콜릿에 대해 재미있게 살펴볼 수 있는 기초 미각 문화의 전당이다. 세계 10대 초콜릿 박물관으로 선정되기도 했다. 일정 가격만큼의 초콜릿을 구매하면 초콜릿을 만들어 보는 체험 활동 이용권을 받을 수 있다.",
+      "sido": "제주특별자치도",
+      "sigungu": "서귀포시",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=40"
+      ],
+      "evidence_id": "E4",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=50",
+        "fields": {
+          "name": "초콜릿 박물관",
+          "sido": "제주특별자치도",
+          "sigungu": "서귀포시",
+          "address": "제주특별자치도 서귀포시 대정읍 일주서로3000번길 144",
+          "ownership_type": "사립",
+          "adult_fee": "8000",
+          "youth_fee": "0",
+          "child_fee": "6000",
+          "adult_fee_status": "BASE_FEE_PAID",
+          "weekday_open": "10:30",
+          "weekday_close": "17:00",
+          "holiday_open": "10:30",
+          "holiday_close": "17:00",
+          "closure_rule_raw": "연중무휴"
+        },
+        "base_data_date": "2026-09-30",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0090",
+      "name": "제주민속촌",
+      "document": "제주민속촌은 2001년에 개관한 제1종 전문 박물관으로 1890년대를 전시 기준 연대로 하여 제주의 민속자료를 종합적으로 정리하여 전시하고 있으며, 100여 채에 달하는 제주 전통가옥은 제주도민이 생활하였던 가옥과 돌, 기둥 등을 그대로 옮겨와 복원해 전시하고 있다. 이 전통 가옥에는 생활용구, 농기구, 어구, 가구, 석물 등 민속자료가 전시되어 있다. 제주민속촌에서는 제주는 물론 우리나라의 향토수종 및 꽃들을 식재하여 사계절 내내 꽃들을 볼 수 있으며 재래흑돼지 및 가금, 가축을 사육하고 있어 자연학습장 기능도 겸하고 있다. 이외에도 다양한 테마별 전시장과 체험가옥, 전통민속놀이 체험장을 통해 다양한 볼거리와 체험거리를 제공하고 있다.",
+      "metadata": {
+        "child_fee": 12000.0,
+        "fee_notes": "단체 관람 시 할인+도민할인",
+        "sido": "제주특별자치도",
+        "amenities_raw": "체험가옥+자연학습장",
+        "sigungu": "서귀포시",
+        "holiday_close": "18:00",
+        "weekday_open": "09:00",
+        "name": "제주민속촌",
+        "homepage_url": "http://www.jejufolk.com/",
+        "youth_fee": 13000.0,
+        "requires_manual_review": true,
+        "holiday_open": "00:00",
+        "ownership_type": "사립",
+        "image_copyright": "Type1",
+        "weekday_close": "18:00",
+        "longitude": 126.8430882,
+        "source_types": "TOUR_API",
+        "latitude": 33.32128714,
+        "closure_rule_raw": "연중무휴",
+        "image_url": "http://tong.visitkorea.or.kr/cms/resource/43/3534943_image2_1.jpg",
+        "adult_fee_status": "BASE_FEE_PAID",
+        "adult_fee": 15000.0,
+        "address": "제주특별자치도 서귀포시 표선면 민속해안로 631-34"
+      },
+      "vector_rank": null,
+      "bm25_rank": 7,
+      "vector_distance": null,
+      "vector_score": null,
+      "bm25_score": 15.063898058727842,
+      "vector_document": "",
+      "bm25_document": "제주민속촌은 2001년에 개관한 제1종 전문 박물관으로 1890년대를 전시 기준 연대로 하여 제주의 민속자료를 종합적으로 정리하여 전시하고 있으며, 100여 채에 달하는 제주 전통가옥은 제주도민이 생활하였던 가옥과 돌, 기둥 등을 그대로 옮겨와 복원해 전시하고 있다. 이 전통 가옥에는 생활용구, 농기구, 어구, 가구, 석물 등 민속자료가 전시되어 있다. 제주민속촌에서는 제주는 물론 우리나라의 향토수종 및 꽃들을 식재하여 사계절 내내 꽃들을 볼 수 있으며 재래흑돼지 및 가금, 가축을 사육하고 있어 자연학습장 기능도 겸하고 있다. 이외에도 다양한 테마별 전시장과 체험가옥, 전통민속놀이 체험장을 통해 다양한 볼거리와 체험거리를 제공하고 있다.",
+      "best_span_id": "chroma:M0090",
+      "best_span_text": "제주민속촌은 2001년에 개관한 제1종 전문 박물관으로 1890년대를 전시 기준 연대로 하여 제주의 민속자료를 종합적으로 정리하여 전시하고 있으며, 100여 채에 달하는 제주 전통가옥은 제주도민이 생활하였던 가옥과 돌, 기둥 등을 그대로 옮겨와 복원해 전시하고 있다. 이 전통 가옥에는 생활용구, 농기구, 어구, 가구, 석물 등 민속자료가 전시되어 있다. 제주민속촌에서는 제주는 물론 우리나라의 향토수종 및 꽃들을 식재하여 사계절 내내 꽃들을 볼 수 있으며 재래흑돼지 및 가금, 가축을 사육하고 있어 자연학습장 기능도 겸하고 있다. 이외에도 다양한 테마별 전시장과 체험가옥, 전통민속놀이 체험장을 통해 다양한 볼거리와 체험거리를 제공하고 있다.",
+      "fusion_score": 0.014925373134328358,
+      "retrieved_by": [
+        "bm25"
+      ],
+      "fusion_rank": 11,
+      "rerank_score": 0.06354549527168274,
+      "rank": 5,
+      "score": 0.06354549527168274,
+      "score_type": "cross_encoder",
+      "distance": null,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "bm25"
+      ],
+      "retriever": "bm25",
+      "span_id": "chroma:M0090",
+      "source_doc_ids": [
+        "DOC-B0090-TOUR_API-130474"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0090-TOUR_API-130474",
+          "source_type": "TOUR_API",
+          "source_record_id": "130474",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=46",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 149,
+          "doc_ids": [
+            "DOC-B0090-TOUR_API-130474"
+          ]
+        },
+        {
+          "start": 150,
+          "end": 198,
+          "doc_ids": [
+            "DOC-B0090-TOUR_API-130474"
+          ]
+        },
+        {
+          "start": 199,
+          "end": 297,
+          "doc_ids": [
+            "DOC-B0090-TOUR_API-130474"
+          ]
+        },
+        {
+          "start": 298,
+          "end": 360,
+          "doc_ids": [
+            "DOC-B0090-TOUR_API-130474"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=46",
+      "text": "제주민속촌은 2001년에 개관한 제1종 전문 박물관으로 1890년대를 전시 기준 연대로 하여 제주의 민속자료를 종합적으로 정리하여 전시하고 있으며, 100여 채에 달하는 제주 전통가옥은 제주도민이 생활하였던 가옥과 돌, 기둥 등을 그대로 옮겨와 복원해 전시하고 있다. 이 전통 가옥에는 생활용구, 농기구, 어구, 가구, 석물 등 민속자료가 전시되어 있다. 제주민속촌에서는 제주는 물론 우리나라의 향토수종 및 꽃들을 식재하여 사계절 내내 꽃들을 볼 수 있으며 재래흑돼지 및 가금, 가축을 사육하고 있어 자연학습장 기능도 겸하고 있다. 이외에도 다양한 테마별 전시장과 체험가옥, 전통민속놀이 체험장을 통해 다양한 볼거리와 체험거리를 제공하고 있다.",
+      "sido": "제주특별자치도",
+      "sigungu": "서귀포시",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=46"
+      ],
+      "evidence_id": "E5",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=56",
+        "fields": {
+          "name": "제주민속촌",
+          "sido": "제주특별자치도",
+          "sigungu": "서귀포시",
+          "address": "제주특별자치도 서귀포시 표선면 민속해안로 631-34",
+          "ownership_type": "사립",
+          "adult_fee": "15000",
+          "youth_fee": "13000",
+          "child_fee": "12000",
+          "adult_fee_status": "BASE_FEE_PAID",
+          "weekday_open": "09:00",
+          "weekday_close": "18:00",
+          "holiday_open": "00:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "연중무휴",
+          "amenities_raw": "체험가옥+자연학습장"
+        },
+        "base_data_date": "2026-09-30",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    }
+  ],
+  "answer": "제주 서귀포에서 유리 블로잉과 캔들 만들기 체험을 할 수 있는 전문 박물관은 **제주유리박물관**입니다. 유리 전문 박물관으로 소개되며, 유리블로잉과 캔들 만들기 체험 프로그램을 운영한다고 안내되어 있습니다. [E1]",
+  "retrieval_status": "ok",
+  "answer_status": "answered",
+  "route": "hybrid",
+  "retry_count": 0,
+  "supervisor_verified": true,
+  "rerank_applied": true,
+  "retriever_errors": [],
+  "warnings": [],
+  "duration_ms": 148250.8,
+  "error_type": "",
+  "hit_at_1": 1,
+  "hit_at_3": 1,
+  "hit_at_5": 1,
+  "recall_at_5": 1.0,
+  "mrr_at_10": 1.0
+}

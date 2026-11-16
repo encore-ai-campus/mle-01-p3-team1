@@ -1,0 +1,146 @@
+{
+  "mode": "supervisor_full",
+  "question_id": "V2-SF02",
+  "evidence": [
+    {
+      "museum_id": "M0166",
+      "name": "부산박물관",
+      "text": "[Neo4j 구조화 속성] {\"amenities\": [\"수유실\"], \"facility_type\": \"박물관\", \"museum_id\": \"M0166\", \"name\": \"부산박물관\", \"sido\": \"부산광역시\", \"sigungu\": \"남구\", \"source_doc_ids\": [\"DOC-B0166-TOUR_API-129783\", \"DOC-WEB-M0166-20261111\"], \"source_locators\": [\"data/raw/museum_tourapi_with_overview.csv#row=77\", \"https://museum.busan.go.kr/busan/index/collectinfo01?bbsNo=1\"]}",
+      "span_id": "",
+      "source_doc_ids": [
+        "DOC-B0166-TOUR_API-129783",
+        "DOC-WEB-M0166-20261111"
+      ],
+      "source_urls": [
+        "https://museum.busan.go.kr/busan/index/collectinfo01?bbsNo=1"
+      ],
+      "source_url": "https://museum.busan.go.kr/busan/index/collectinfo01?bbsNo=1",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=77",
+        "https://museum.busan.go.kr/busan/index/collectinfo01?bbsNo=1"
+      ],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=77",
+      "sido": "부산광역시",
+      "sigungu": "남구",
+      "retriever": "graph",
+      "amenities": [
+        "수유실"
+      ],
+      "facility_type": "박물관",
+      "metadata": {},
+      "chunk_id": "",
+      "retrievers": [
+        "graph"
+      ],
+      "evidence_id": "E1",
+      "rank": 1
+    },
+    {
+      "museum_id": "M0167",
+      "name": "복천박물관",
+      "text": "[Neo4j 구조화 속성] {\"amenities\": [\"수유실\"], \"facility_type\": \"박물관\", \"museum_id\": \"M0167\", \"name\": \"복천박물관\", \"sido\": \"부산광역시\", \"sigungu\": \"동래구\", \"source_doc_ids\": [\"DOC-B0167-TOUR_API-130145\"], \"source_locators\": [\"data/raw/museum_tourapi_with_overview.csv#row=78\"]}",
+      "span_id": "",
+      "source_doc_ids": [
+        "DOC-B0167-TOUR_API-130145"
+      ],
+      "source_urls": [],
+      "source_url": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=78"
+      ],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=78",
+      "sido": "부산광역시",
+      "sigungu": "동래구",
+      "retriever": "graph",
+      "amenities": [
+        "수유실"
+      ],
+      "facility_type": "박물관",
+      "metadata": {},
+      "chunk_id": "",
+      "retrievers": [
+        "graph"
+      ],
+      "evidence_id": "E2",
+      "rank": 2
+    },
+    {
+      "museum_id": "M0168",
+      "name": "정관박물관",
+      "text": "[Neo4j 구조화 속성] {\"amenities\": [\"수유실\"], \"facility_type\": \"박물관\", \"museum_id\": \"M0168\", \"name\": \"정관박물관\", \"sido\": \"부산광역시\", \"sigungu\": \"기장군\", \"source_doc_ids\": [\"DOC-B0168-BASE\", \"DOC-B0168-TOUR_API-2556598\"], \"source_locators\": [\"data/raw/museum_base_1070.csv#row=169\", \"data/raw/museum_tourapi_with_overview.csv#row=79\"]}",
+      "span_id": "",
+      "source_doc_ids": [
+        "DOC-B0168-BASE",
+        "DOC-B0168-TOUR_API-2556598"
+      ],
+      "source_urls": [],
+      "source_url": "",
+      "source_locators": [
+        "data/raw/museum_base_1070.csv#row=169",
+        "data/raw/museum_tourapi_with_overview.csv#row=79"
+      ],
+      "source_locator": "data/raw/museum_base_1070.csv#row=169",
+      "sido": "부산광역시",
+      "sigungu": "기장군",
+      "retriever": "graph",
+      "amenities": [
+        "수유실"
+      ],
+      "facility_type": "박물관",
+      "metadata": {},
+      "chunk_id": "",
+      "retrievers": [
+        "graph"
+      ],
+      "evidence_id": "E3",
+      "rank": 3
+    },
+    {
+      "museum_id": "M0286",
+      "name": "사상생활사박물관",
+      "text": "[Neo4j 구조화 속성] {\"amenities\": [\"수유실\"], \"facility_type\": \"박물관\", \"museum_id\": \"M0286\", \"name\": \"사상생활사박물관\", \"sido\": \"부산광역시\", \"sigungu\": \"사상구\", \"source_doc_ids\": [\"DOC-B0286-BASE\", \"DOC-B0286-TOUR_API-3017191\"], \"source_locators\": [\"data/raw/museum_base_1070.csv#row=287\", \"data/raw/museum_tourapi_with_overview.csv#row=142\"]}",
+      "span_id": "",
+      "source_doc_ids": [
+        "DOC-B0286-BASE",
+        "DOC-B0286-TOUR_API-3017191"
+      ],
+      "source_urls": [],
+      "source_url": "",
+      "source_locators": [
+        "data/raw/museum_base_1070.csv#row=287",
+        "data/raw/museum_tourapi_with_overview.csv#row=142"
+      ],
+      "source_locator": "data/raw/museum_base_1070.csv#row=287",
+      "sido": "부산광역시",
+      "sigungu": "사상구",
+      "retriever": "graph",
+      "amenities": [
+        "수유실"
+      ],
+      "facility_type": "박물관",
+      "metadata": {},
+      "chunk_id": "",
+      "retrievers": [
+        "graph"
+      ],
+      "evidence_id": "E4",
+      "rank": 4
+    }
+  ],
+  "answer": "기록상 수유실이 있는 부산의 박물관은 다음과 같습니다.\n- 부산박물관(남구) [E1]\n- 복천박물관(동래구) [E2]\n- 정관박물관(기장군) [E3]\n- 사상생활사박물관(사상구) [E4]\n\n위 내용은 제공된 기록에 표시된 시설 정보이며, 현재 운영 여부를 확인한 것은 아닙니다. [E1][E2][E3][E4]",
+  "retrieval_status": "ok",
+  "answer_status": "answered",
+  "route": "graph",
+  "retry_count": 1,
+  "supervisor_verified": true,
+  "rerank_applied": false,
+  "retriever_errors": [],
+  "warnings": [],
+  "duration_ms": 43927.98,
+  "error_type": "",
+  "hit_at_1": 1,
+  "hit_at_3": 1,
+  "hit_at_5": 1,
+  "recall_at_5": 1.0,
+  "mrr_at_10": 1.0
+}

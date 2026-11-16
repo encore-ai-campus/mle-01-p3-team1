@@ -1,0 +1,658 @@
+{
+  "evidence_context_version": "grounded-evidence-v2",
+  "evaluation_contexts": [
+    "{\"evidence_context_version\": \"grounded-evidence-v2\", \"evidence_id\": \"E1\", \"metadata_provenance\": {\"base_data_date\": \"2026-07-01\", \"fields\": {\"address\": \"경상북도 구미시 박정희로 123\", \"adult_fee\": \"0\", \"adult_fee_status\": \"BASE_FEE_ZERO_CHECK_EXCEPTIONS\", \"child_fee\": \"0\", \"closure_rule_raw\": \"매주 월+1월 1일+설 당일+추석 당일\", \"holiday_close\": \"18:00\", \"holiday_open\": \"09:00\", \"name\": \"박정희대통령역사자료관\", \"ownership_type\": \"공립\", \"sido\": \"경상북도\", \"sigungu\": \"구미시\", \"weekday_close\": \"18:00\", \"weekday_open\": \"09:00\", \"youth_fee\": \"0\"}, \"source_kind\": \"derived_csv_row\", \"source_locator\": \"data/processed/museum_final_738.csv#record=193\", \"trust\": \"derived_dataset_not_human_verified\"}, \"museum_id\": \"M0271\", \"name\": \"박정희대통령역사자료관\", \"source_doc_ids\": [\"DOC-B0271-TOUR_API-2732402\", \"DOC-B0271-BASE\"], \"source_documents\": [{\"doc_id\": \"DOC-B0271-TOUR_API-2732402\", \"match_trust\": \"AUTO_MATCH_NOT_HUMAN_VERIFIED\", \"source_locator\": \"data/raw/museum_tourapi_with_overview.csv#row=136\", \"source_record_id\": \"2732402\", \"source_type\": \"TOUR_API\"}, {\"doc_id\": \"DOC-B0271-BASE\", \"match_trust\": \"BASE_SOURCE\", \"source_locator\": \"data/raw/museum_base_1070.csv#row=272\", \"source_record_id\": \"B0271\", \"source_type\": \"BASE\"}], \"source_locator\": \"data/raw/museum_tourapi_with_overview.csv#row=136\", \"source_locators\": [\"data/raw/museum_tourapi_with_overview.csv#row=136\"], \"source_scope\": \"text\", \"source_spans\": [{\"doc_ids\": [\"DOC-B0271-TOUR_API-2732402\"], \"end\": 93, \"start\": 0}, {\"doc_ids\": [\"DOC-B0271-TOUR_API-2732402\"], \"end\": 250, \"start\": 94}, {\"doc_ids\": [\"DOC-B0271-TOUR_API-2732402\"], \"end\": 315, \"start\": 251}, {\"doc_ids\": [\"DOC-B0271-TOUR_API-2732402\"], \"end\": 373, \"start\": 316}, {\"doc_ids\": [\"DOC-B0271-BASE\"], \"end\": 408, \"start\": 374}], \"source_urls\": [], \"text\": \"구미시는 우리나라 최초의 도립공원인 금오산을 비롯하여 낙동강이 도심 중앙을 흐르는 아름다운 도시로, 박정희대통령 생가와 대한민국 최대의 내륙 산업단지를 보유하고 있다. 2021년 9월 28일 개관한 박정희대통령역사자료관은 대통령의 유품과 구미공단 조성 당시 관련 자료 등을 수집·보관·관리하고 있으며 우리나라 근대화와 구미 산업발전 과정을 체계적으로 전시한 상설전시실, 기획전시실, 162석의 세미나실, 자료검색을 위한 아카이브실로 구성되어 있다. 어르신들에게는 몸소 겪었던 시대의 향수를 느끼게 하고 미래세대에는 대한민국의 근대화와 산업화 과정을 배울 수 있다. 역사자료관 주변은 박정희대통령 생가, 민족중흥관, 박대통령 동상, 새마을운동테마공원이 자리 잡고 있다. 박정희 대통령 유품 및 관련 근·현대사 자료를 보존 관리 전시\"}",
+    "{\"evidence_context_version\": \"grounded-evidence-v2\", \"evidence_id\": \"E2\", \"metadata_provenance\": {\"base_data_date\": \"2026-04-08\", \"fields\": {\"address\": \"경기도 수원시 영통구 월드컵로 92\", \"adult_fee\": \"0\", \"adult_fee_status\": \"BASE_FEE_ZERO_CHECK_EXCEPTIONS\", \"child_fee\": \"0\", \"closure_rule_raw\": \"신정, 설연휴, 추석연휴\", \"holiday_close\": \"17:00\", \"holiday_open\": \"10:00\", \"name\": \"국립지도박물관\", \"ownership_type\": \"국립\", \"sido\": \"경기도\", \"sigungu\": \"수원시\", \"weekday_close\": \"17:00\", \"weekday_open\": \"10:00\", \"youth_fee\": \"0\"}, \"source_kind\": \"derived_csv_row\", \"source_locator\": \"data/processed/museum_final_738.csv#record=354\", \"trust\": \"derived_dataset_not_human_verified\"}, \"museum_id\": \"M0491\", \"name\": \"국립지도박물관\", \"source_doc_ids\": [\"DOC-B0491-TOUR_API-130744\"], \"source_documents\": [{\"doc_id\": \"DOC-B0491-TOUR_API-130744\", \"match_trust\": \"AUTO_MATCH_NOT_HUMAN_VERIFIED\", \"source_locator\": \"data/raw/museum_tourapi_with_overview.csv#row=243\", \"source_record_id\": \"130744\", \"source_type\": \"TOUR_API\"}], \"source_locator\": \"data/raw/museum_tourapi_with_overview.csv#row=243\", \"source_locators\": [\"data/raw/museum_tourapi_with_overview.csv#row=243\"], \"source_scope\": \"text\", \"source_spans\": [{\"doc_ids\": [\"DOC-B0491-TOUR_API-130744\"], \"end\": 67, \"start\": 0}, {\"doc_ids\": [\"DOC-B0491-TOUR_API-130744\"], \"end\": 154, \"start\": 68}, {\"doc_ids\": [\"DOC-B0491-TOUR_API-130744\"], \"end\": 241, \"start\": 155}], \"source_urls\": [], \"text\": \"국립지도박물관은 수원시 영통구에 있는 전국 유일의 지도박물관이며 중앙홀, 역사관, 현대관, 야외전시장으로 구성되어 있다. 국토지리정보의 변천과정과 측량 및 지도제작 등의 역사적 유물과 자료를 체계적으로 수집, 전시소장, 관리하여 국토사랑에 대한 선조들의 얼을 되새기도록 한다. 중앙호르 역사관, 현대관, 야외전시장 등에서 고지도 및 측량 유물 등을 전시하여 측량과 지도제작에 관한 이해를 도모하고 국토사랑 공감대를 형성할 수 있다.\"}",
+    "{\"evidence_context_version\": \"grounded-evidence-v2\", \"evidence_id\": \"E3\", \"metadata_provenance\": {\"base_data_date\": \"2025-11-26\", \"fields\": {\"address\": \"충청북도 청주시 청원구 대성로 298(내덕동)\", \"adult_fee\": \"0\", \"adult_fee_status\": \"BASE_FEE_ZERO_CHECK_EXCEPTIONS\", \"amenities_raw\": \"주차장\", \"child_fee\": \"0\", \"closure_rule_raw\": \"주말+공휴일+방학기간\", \"holiday_close\": \"00:00\", \"holiday_open\": \"00:00\", \"name\": \"청주대학교박물관\", \"ownership_type\": \"대학\", \"sido\": \"충청북도\", \"sigungu\": \"청주시\", \"weekday_close\": \"17:00\", \"weekday_open\": \"09:30\", \"youth_fee\": \"0\"}, \"source_kind\": \"derived_csv_row\", \"source_locator\": \"data/processed/museum_final_738.csv#record=610\", \"trust\": \"derived_dataset_not_human_verified\"}, \"museum_id\": \"M0892\", \"name\": \"청주대학교박물관\", \"source_doc_ids\": [\"DOC-B0892-BASE\"], \"source_documents\": [{\"doc_id\": \"DOC-B0892-BASE\", \"match_trust\": \"BASE_SOURCE\", \"source_locator\": \"data/raw/museum_base_1070.csv#row=893\", \"source_record_id\": \"B0892\", \"source_type\": \"BASE\"}], \"source_locator\": \"data/raw/museum_base_1070.csv#row=893\", \"source_locators\": [\"data/raw/museum_base_1070.csv#row=893\"], \"source_scope\": \"text\", \"source_spans\": [{\"doc_ids\": [\"DOC-B0892-BASE\"], \"end\": 89, \"start\": 0}], \"source_urls\": [], \"text\": \"역사, 고고, 민속, 미술, 고예부문의 자료를 수집하고 보관하여 학술연구에 이바지할 목적으로 충북지방에서는 최초로 1967년 11월 10일에 종합박물관으로 개관\"}",
+    "{\"evidence_context_version\": \"grounded-evidence-v2\", \"evidence_id\": \"E4\", \"metadata_provenance\": {\"base_data_date\": \"2025-11-01\", \"fields\": {\"address\": \"서울특별시 종로구 홍지문1길 4(홍지동)\", \"adult_fee\": \"0\", \"adult_fee_status\": \"BASE_FEE_ZERO_CHECK_EXCEPTIONS\", \"child_fee\": \"0\", \"closure_rule_raw\": \"일요일+공휴일\", \"holiday_close\": \"00:00\", \"holiday_open\": \"00:00\", \"name\": \"김달진미술자료박물관\", \"ownership_type\": \"사립\", \"sido\": \"서울특별시\", \"sigungu\": \"종로구\", \"weekday_close\": \"17:00\", \"weekday_open\": \"10:00\", \"youth_fee\": \"0\"}, \"source_kind\": \"derived_csv_row\", \"source_locator\": \"data/processed/museum_final_738.csv#record=429\", \"trust\": \"derived_dataset_not_human_verified\"}, \"museum_id\": \"M0613\", \"name\": \"김달진미술자료박물관\", \"source_doc_ids\": [\"DOC-B0613-TOUR_API-2553377\"], \"source_documents\": [{\"doc_id\": \"DOC-B0613-TOUR_API-2553377\", \"match_trust\": \"AUTO_MATCH_NOT_HUMAN_VERIFIED\", \"source_locator\": \"data/raw/museum_tourapi_with_overview.csv#row=305\", \"source_record_id\": \"2553377\", \"source_type\": \"TOUR_API\"}], \"source_locator\": \"data/raw/museum_tourapi_with_overview.csv#row=305\", \"source_locators\": [\"data/raw/museum_tourapi_with_overview.csv#row=305\"], \"source_scope\": \"text\", \"source_spans\": [{\"doc_ids\": [\"DOC-B0613-TOUR_API-2553377\"], \"end\": 136, \"start\": 0}, {\"doc_ids\": [\"DOC-B0613-TOUR_API-2553377\"], \"end\": 259, \"start\": 137}, {\"doc_ids\": [\"DOC-B0613-TOUR_API-2553377\"], \"end\": 331, \"start\": 260}], \"source_urls\": [], \"text\": \"김달진 미술 자료박물관은 ‘서울아트가이드’를 발행하는 김달진 관장이 40여 년간 수집해 왔던 자료 중 사료적 가치가 큰 기록물과 자료를 수집, 분류, 보존, 연구, 전시를 위해 2008년 3월 국내 최초의 미술 자료 전문 박물관으로 개관하였다. 예술 창작과 학술 연구의 가장 기초적인 작업이라고 할 수 있는 미술 자료를 효율적으로 관리하고, 더 나아가 연구된 자료들을 중심으로 전시회를 열어 소개하며 누구나 공유할 수 있는 전문 아카이브의 역할을 실천하고자 한다. 또한 미술 자료 수집 캠페인을 통해 소중한 자료가 공공의 문화유산으로 가치전환될 수 있다는 인식을 확산시키는 데 앞장서고 있다.\"}",
+    "{\"evidence_context_version\": \"grounded-evidence-v2\", \"evidence_id\": \"E5\", \"metadata_provenance\": {\"base_data_date\": \"2025-08-05\", \"fields\": {\"address\": \"강원특별자치도 양구군 양구읍 금강산로 439-51\", \"adult_fee\": \"3000\", \"adult_fee_status\": \"BASE_FEE_PAID\", \"amenities_raw\": \"뮤지엄숍+향토사료관+고인돌공원+함춘주막\", \"child_fee\": \"3000\", \"closure_rule_raw\": \"월+1월 1일+설날 오전+추석 오전\", \"holiday_close\": \"18:00\", \"holiday_open\": \"10:00\", \"name\": \"양구근현대사박물관\", \"ownership_type\": \"공립\", \"sido\": \"강원특별자치도\", \"sigungu\": \"양구군\", \"weekday_close\": \"18:00\", \"weekday_open\": \"10:00\", \"youth_fee\": \"3000\"}, \"source_kind\": \"derived_csv_row\", \"source_locator\": \"data/processed/museum_final_738.csv#record=696\", \"trust\": \"derived_dataset_not_human_verified\"}, \"museum_id\": \"M1014\", \"name\": \"양구근현대사박물관\", \"source_doc_ids\": [\"DOC-B1014-BASE\"], \"source_documents\": [{\"doc_id\": \"DOC-B1014-BASE\", \"match_trust\": \"BASE_SOURCE\", \"source_locator\": \"data/raw/museum_base_1070.csv#row=1015\", \"source_record_id\": \"B1014\", \"source_type\": \"BASE\"}], \"source_locator\": \"data/raw/museum_base_1070.csv#row=1015\", \"source_locators\": [\"data/raw/museum_base_1070.csv#row=1015\"], \"source_scope\": \"text\", \"source_spans\": [{\"doc_ids\": [\"DOC-B1014-BASE\"], \"end\": 45, \"start\": 0}, {\"doc_ids\": [\"DOC-B1014-BASE\"], \"end\": 194, \"start\": 46}, {\"doc_ids\": [\"DOC-B1014-BASE\"], \"end\": 289, \"start\": 195}], \"source_urls\": [], \"text\": \"박물관은 근현대사를 담고 있는 다양한 자료를 테마별 전시관으로 구성하고 있습니다. 먼저 제1전시실은 한국근현대사 전반을 살펴볼 수 있는 역사의 휘모리 공간을 시작으로, 엽서관, 우표관, 씰관 등으로 구성되어 있으며, 제2전시실은 추억속의 영화역사 포스터 등을 전시한 추억의 영화관, 아리랑 문화를 다양한 면을 살필 수 있는 공간으로 전시되어 있다. 또한 기획전시실에는 기증유물특별전으로 기증자 박민일 박사, 송광호 기자, 철학가 김형석박사의 다양한 기증자료 중 도자기, 그림, 글씨, 민속품을 중심으로 전시하고 있다.\"}"
+  ],
+  "mode": "supervisor_full",
+  "question_id": "Q166",
+  "evidence": [
+    {
+      "museum_id": "M0271",
+      "name": "박정희대통령역사자료관",
+      "document": "구미시는 우리나라 최초의 도립공원인 금오산을 비롯하여 낙동강이 도심 중앙을 흐르는 아름다운 도시로, 박정희대통령 생가와 대한민국 최대의 내륙 산업단지를 보유하고 있다. 2021년 9월 28일 개관한 박정희대통령역사자료관은 대통령의 유품과 구미공단 조성 당시 관련 자료 등을 수집·보관·관리하고 있으며 우리나라 근대화와 구미 산업발전 과정을 체계적으로 전시한 상설전시실, 기획전시실, 162석의 세미나실, 자료검색을 위한 아카이브실로 구성되어 있다. 어르신들에게는 몸소 겪었던 시대의 향수를 느끼게 하고 미래세대에는 대한민국의 근대화와 산업화 과정을 배울 수 있다. 역사자료관 주변은 박정희대통령 생가, 민족중흥관, 박대통령 동상, 새마을운동테마공원이 자리 잡고 있다. 박정희 대통령 유품 및 관련 근·현대사 자료를 보존 관리 전시",
+      "metadata": {
+        "transport_notes": "101,161번 버스 탑승 박정희생가 정류장 하차+361,380-2,411-7번 버스 탑승 새마을운동테마공원 정류장 하차",
+        "homepage_url": "http://www.parkchungheepresidentialmuseum.or.kr",
+        "longitude": 128.3487682,
+        "image_copyright": "Type3",
+        "adult_fee": 0.0,
+        "holiday_open": "09:00",
+        "sigungu": "구미시",
+        "child_fee": 0.0,
+        "fee_notes": "관람료 한시적 무료 입장",
+        "latitude": 36.09074861,
+        "holiday_close": "18:00",
+        "sido": "경상북도",
+        "ownership_type": "공립",
+        "address": "경상북도 구미시 박정희로 123",
+        "source_types": "BASE|TOUR_API",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/01/2732401_image2_1.jpg",
+        "youth_fee": 0.0,
+        "requires_manual_review": true,
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "name": "박정희대통령역사자료관",
+        "weekday_open": "09:00",
+        "closure_rule_raw": "매주 월+1월 1일+설 당일+추석 당일",
+        "weekday_close": "18:00"
+      },
+      "vector_rank": 1,
+      "bm25_rank": 1,
+      "vector_distance": 0.5027812123298645,
+      "vector_score": null,
+      "bm25_score": 36.92148233378009,
+      "vector_document": "구미시는 우리나라 최초의 도립공원인 금오산을 비롯하여 낙동강이 도심 중앙을 흐르는 아름다운 도시로, 박정희대통령 생가와 대한민국 최대의 내륙 산업단지를 보유하고 있다. 2021년 9월 28일 개관한 박정희대통령역사자료관은 대통령의 유품과 구미공단 조성 당시 관련 자료 등을 수집·보관·관리하고 있으며 우리나라 근대화와 구미 산업발전 과정을 체계적으로 전시한 상설전시실, 기획전시실, 162석의 세미나실, 자료검색을 위한 아카이브실로 구성되어 있다. 어르신들에게는 몸소 겪었던 시대의 향수를 느끼게 하고 미래세대에는 대한민국의 근대화와 산업화 과정을 배울 수 있다. 역사자료관 주변은 박정희대통령 생가, 민족중흥관, 박대통령 동상, 새마을운동테마공원이 자리 잡고 있다. 박정희 대통령 유품 및 관련 근·현대사 자료를 보존 관리 전시",
+      "bm25_document": "구미시는 우리나라 최초의 도립공원인 금오산을 비롯하여 낙동강이 도심 중앙을 흐르는 아름다운 도시로, 박정희대통령 생가와 대한민국 최대의 내륙 산업단지를 보유하고 있다. 2021년 9월 28일 개관한 박정희대통령역사자료관은 대통령의 유품과 구미공단 조성 당시 관련 자료 등을 수집·보관·관리하고 있으며 우리나라 근대화와 구미 산업발전 과정을 체계적으로 전시한 상설전시실, 기획전시실, 162석의 세미나실, 자료검색을 위한 아카이브실로 구성되어 있다. 어르신들에게는 몸소 겪었던 시대의 향수를 느끼게 하고 미래세대에는 대한민국의 근대화와 산업화 과정을 배울 수 있다. 역사자료관 주변은 박정희대통령 생가, 민족중흥관, 박대통령 동상, 새마을운동테마공원이 자리 잡고 있다. 박정희 대통령 유품 및 관련 근·현대사 자료를 보존 관리 전시",
+      "best_span_id": "chroma:M0271",
+      "best_span_text": "구미시는 우리나라 최초의 도립공원인 금오산을 비롯하여 낙동강이 도심 중앙을 흐르는 아름다운 도시로, 박정희대통령 생가와 대한민국 최대의 내륙 산업단지를 보유하고 있다. 2021년 9월 28일 개관한 박정희대통령역사자료관은 대통령의 유품과 구미공단 조성 당시 관련 자료 등을 수집·보관·관리하고 있으며 우리나라 근대화와 구미 산업발전 과정을 체계적으로 전시한 상설전시실, 기획전시실, 162석의 세미나실, 자료검색을 위한 아카이브실로 구성되어 있다. 어르신들에게는 몸소 겪었던 시대의 향수를 느끼게 하고 미래세대에는 대한민국의 근대화와 산업화 과정을 배울 수 있다. 역사자료관 주변은 박정희대통령 생가, 민족중흥관, 박대통령 동상, 새마을운동테마공원이 자리 잡고 있다. 박정희 대통령 유품 및 관련 근·현대사 자료를 보존 관리 전시",
+      "fusion_score": 0.03278688524590164,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 1,
+      "name_match": true,
+      "rerank_score": 0.9984090924263,
+      "rank": 1,
+      "score": 0.9984090924263,
+      "score_type": "cross_encoder",
+      "distance": 0.5027812123298645,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0271",
+      "source_doc_ids": [
+        "DOC-B0271-TOUR_API-2732402",
+        "DOC-B0271-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0271-TOUR_API-2732402",
+          "source_type": "TOUR_API",
+          "source_record_id": "2732402",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=136",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        },
+        {
+          "doc_id": "DOC-B0271-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0271",
+          "source_locator": "data/raw/museum_base_1070.csv#row=272",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 93,
+          "doc_ids": [
+            "DOC-B0271-TOUR_API-2732402"
+          ]
+        },
+        {
+          "start": 94,
+          "end": 250,
+          "doc_ids": [
+            "DOC-B0271-TOUR_API-2732402"
+          ]
+        },
+        {
+          "start": 251,
+          "end": 315,
+          "doc_ids": [
+            "DOC-B0271-TOUR_API-2732402"
+          ]
+        },
+        {
+          "start": 316,
+          "end": 373,
+          "doc_ids": [
+            "DOC-B0271-TOUR_API-2732402"
+          ]
+        },
+        {
+          "start": 374,
+          "end": 408,
+          "doc_ids": [
+            "DOC-B0271-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=136",
+      "text": "구미시는 우리나라 최초의 도립공원인 금오산을 비롯하여 낙동강이 도심 중앙을 흐르는 아름다운 도시로, 박정희대통령 생가와 대한민국 최대의 내륙 산업단지를 보유하고 있다. 2021년 9월 28일 개관한 박정희대통령역사자료관은 대통령의 유품과 구미공단 조성 당시 관련 자료 등을 수집·보관·관리하고 있으며 우리나라 근대화와 구미 산업발전 과정을 체계적으로 전시한 상설전시실, 기획전시실, 162석의 세미나실, 자료검색을 위한 아카이브실로 구성되어 있다. 어르신들에게는 몸소 겪었던 시대의 향수를 느끼게 하고 미래세대에는 대한민국의 근대화와 산업화 과정을 배울 수 있다. 역사자료관 주변은 박정희대통령 생가, 민족중흥관, 박대통령 동상, 새마을운동테마공원이 자리 잡고 있다. 박정희 대통령 유품 및 관련 근·현대사 자료를 보존 관리 전시",
+      "sido": "경상북도",
+      "sigungu": "구미시",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=136"
+      ],
+      "evidence_id": "E1",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=193",
+        "fields": {
+          "name": "박정희대통령역사자료관",
+          "sido": "경상북도",
+          "sigungu": "구미시",
+          "address": "경상북도 구미시 박정희로 123",
+          "ownership_type": "공립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "09:00",
+          "weekday_close": "18:00",
+          "holiday_open": "09:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "매주 월+1월 1일+설 당일+추석 당일"
+        },
+        "base_data_date": "2026-07-01",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0491",
+      "name": "국립지도박물관",
+      "document": "국립지도박물관은 수원시 영통구에 있는 전국 유일의 지도박물관이며 중앙홀, 역사관, 현대관, 야외전시장으로 구성되어 있다. 국토지리정보의 변천과정과 측량 및 지도제작 등의 역사적 유물과 자료를 체계적으로 수집, 전시소장, 관리하여 국토사랑에 대한 선조들의 얼을 되새기도록 한다. 중앙호르 역사관, 현대관, 야외전시장 등에서 고지도 및 측량 유물 등을 전시하여 측량과 지도제작에 관한 이해를 도모하고 국토사랑 공감대를 형성할 수 있다.",
+      "metadata": {
+        "sido": "경기도",
+        "closure_rule_raw": "신정, 설연휴, 추석연휴",
+        "adult_fee": 0.0,
+        "youth_fee": 0.0,
+        "homepage_url": "https://www.ngii.go.kr",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/28/3543028_image2_1.jpg",
+        "source_types": "TOUR_API",
+        "address": "경기도 수원시 영통구 월드컵로 92",
+        "name": "국립지도박물관",
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "requires_manual_review": true,
+        "weekday_open": "10:00",
+        "latitude": 37.2757714463,
+        "longitude": 127.0549634103,
+        "image_copyright": "Type3",
+        "child_fee": 0.0,
+        "holiday_close": "17:00",
+        "weekday_close": "17:00",
+        "holiday_open": "10:00",
+        "sigungu": "수원시",
+        "ownership_type": "국립"
+      },
+      "vector_rank": null,
+      "bm25_rank": 3,
+      "vector_distance": null,
+      "vector_score": null,
+      "bm25_score": 12.021877256921039,
+      "vector_document": "",
+      "bm25_document": "국립지도박물관은 수원시 영통구에 있는 전국 유일의 지도박물관이며 중앙홀, 역사관, 현대관, 야외전시장으로 구성되어 있다. 국토지리정보의 변천과정과 측량 및 지도제작 등의 역사적 유물과 자료를 체계적으로 수집, 전시소장, 관리하여 국토사랑에 대한 선조들의 얼을 되새기도록 한다. 중앙호르 역사관, 현대관, 야외전시장 등에서 고지도 및 측량 유물 등을 전시하여 측량과 지도제작에 관한 이해를 도모하고 국토사랑 공감대를 형성할 수 있다.",
+      "best_span_id": "chroma:M0491",
+      "best_span_text": "국립지도박물관은 수원시 영통구에 있는 전국 유일의 지도박물관이며 중앙홀, 역사관, 현대관, 야외전시장으로 구성되어 있다. 국토지리정보의 변천과정과 측량 및 지도제작 등의 역사적 유물과 자료를 체계적으로 수집, 전시소장, 관리하여 국토사랑에 대한 선조들의 얼을 되새기도록 한다. 중앙호르 역사관, 현대관, 야외전시장 등에서 고지도 및 측량 유물 등을 전시하여 측량과 지도제작에 관한 이해를 도모하고 국토사랑 공감대를 형성할 수 있다.",
+      "fusion_score": 0.015873015873015872,
+      "retrieved_by": [
+        "bm25"
+      ],
+      "fusion_rank": 7,
+      "rerank_score": 0.01176465768367052,
+      "rank": 2,
+      "score": 0.01176465768367052,
+      "score_type": "cross_encoder",
+      "distance": null,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "bm25"
+      ],
+      "retriever": "bm25",
+      "span_id": "chroma:M0491",
+      "source_doc_ids": [
+        "DOC-B0491-TOUR_API-130744"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0491-TOUR_API-130744",
+          "source_type": "TOUR_API",
+          "source_record_id": "130744",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=243",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 67,
+          "doc_ids": [
+            "DOC-B0491-TOUR_API-130744"
+          ]
+        },
+        {
+          "start": 68,
+          "end": 154,
+          "doc_ids": [
+            "DOC-B0491-TOUR_API-130744"
+          ]
+        },
+        {
+          "start": 155,
+          "end": 241,
+          "doc_ids": [
+            "DOC-B0491-TOUR_API-130744"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=243",
+      "text": "국립지도박물관은 수원시 영통구에 있는 전국 유일의 지도박물관이며 중앙홀, 역사관, 현대관, 야외전시장으로 구성되어 있다. 국토지리정보의 변천과정과 측량 및 지도제작 등의 역사적 유물과 자료를 체계적으로 수집, 전시소장, 관리하여 국토사랑에 대한 선조들의 얼을 되새기도록 한다. 중앙호르 역사관, 현대관, 야외전시장 등에서 고지도 및 측량 유물 등을 전시하여 측량과 지도제작에 관한 이해를 도모하고 국토사랑 공감대를 형성할 수 있다.",
+      "sido": "경기도",
+      "sigungu": "수원시",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=243"
+      ],
+      "evidence_id": "E2",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=354",
+        "fields": {
+          "name": "국립지도박물관",
+          "sido": "경기도",
+          "sigungu": "수원시",
+          "address": "경기도 수원시 영통구 월드컵로 92",
+          "ownership_type": "국립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "10:00",
+          "weekday_close": "17:00",
+          "holiday_open": "10:00",
+          "holiday_close": "17:00",
+          "closure_rule_raw": "신정, 설연휴, 추석연휴"
+        },
+        "base_data_date": "2026-04-08",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0892",
+      "name": "청주대학교박물관",
+      "document": "역사, 고고, 민속, 미술, 고예부문의 자료를 수집하고 보관하여 학술연구에 이바지할 목적으로 충북지방에서는 최초로 1967년 11월 10일에 종합박물관으로 개관",
+      "metadata": {
+        "weekday_open": "09:30",
+        "child_fee": 0.0,
+        "ownership_type": "대학",
+        "adult_fee": 0.0,
+        "transport_notes": "청주IC: 청주,청주공항방면으로 좌회전 -> 가로수터널 직진 -> 터미널사거리에서 직진 -> 산업단지육거리에서 직진 -> 사창사거리에서 청주공항방면으로 좌회전 -> 봉명사거리에서 상당구청방면으로 우회전 -> 흥덕고가대교 직진 -> 청주대학교",
+        "latitude": 36.6508565,
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "sido": "충청북도",
+        "address": "충청북도 청주시 청원구 대성로 298(내덕동)",
+        "holiday_close": "00:00",
+        "amenities_raw": "주차장",
+        "name": "청주대학교박물관",
+        "sigungu": "청주시",
+        "youth_fee": 0.0,
+        "longitude": 127.4951991,
+        "holiday_open": "00:00",
+        "source_types": "BASE",
+        "homepage_url": "https://www.cju.ac.kr/muse/index.do",
+        "requires_manual_review": true,
+        "weekday_close": "17:00",
+        "closure_rule_raw": "주말+공휴일+방학기간"
+      },
+      "vector_rank": null,
+      "bm25_rank": 4,
+      "vector_distance": null,
+      "vector_score": null,
+      "bm25_score": 11.739603407561049,
+      "vector_document": "",
+      "bm25_document": "역사, 고고, 민속, 미술, 고예부문의 자료를 수집하고 보관하여 학술연구에 이바지할 목적으로 충북지방에서는 최초로 1967년 11월 10일에 종합박물관으로 개관",
+      "best_span_id": "chroma:M0892",
+      "best_span_text": "역사, 고고, 민속, 미술, 고예부문의 자료를 수집하고 보관하여 학술연구에 이바지할 목적으로 충북지방에서는 최초로 1967년 11월 10일에 종합박물관으로 개관",
+      "fusion_score": 0.015625,
+      "retrieved_by": [
+        "bm25"
+      ],
+      "fusion_rank": 8,
+      "rerank_score": 0.0082426518201828,
+      "rank": 3,
+      "score": 0.0082426518201828,
+      "score_type": "cross_encoder",
+      "distance": null,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "bm25"
+      ],
+      "retriever": "bm25",
+      "span_id": "chroma:M0892",
+      "source_doc_ids": [
+        "DOC-B0892-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0892-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0892",
+          "source_locator": "data/raw/museum_base_1070.csv#row=893",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 89,
+          "doc_ids": [
+            "DOC-B0892-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_base_1070.csv#row=893",
+      "text": "역사, 고고, 민속, 미술, 고예부문의 자료를 수집하고 보관하여 학술연구에 이바지할 목적으로 충북지방에서는 최초로 1967년 11월 10일에 종합박물관으로 개관",
+      "sido": "충청북도",
+      "sigungu": "청주시",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_base_1070.csv#row=893"
+      ],
+      "evidence_id": "E3",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=610",
+        "fields": {
+          "name": "청주대학교박물관",
+          "sido": "충청북도",
+          "sigungu": "청주시",
+          "address": "충청북도 청주시 청원구 대성로 298(내덕동)",
+          "ownership_type": "대학",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "09:30",
+          "weekday_close": "17:00",
+          "holiday_open": "00:00",
+          "holiday_close": "00:00",
+          "closure_rule_raw": "주말+공휴일+방학기간",
+          "amenities_raw": "주차장"
+        },
+        "base_data_date": "2025-11-26",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0613",
+      "name": "김달진미술자료박물관",
+      "document": "김달진 미술 자료박물관은 ‘서울아트가이드’를 발행하는 김달진 관장이 40여 년간 수집해 왔던 자료 중 사료적 가치가 큰 기록물과 자료를 수집, 분류, 보존, 연구, 전시를 위해 2008년 3월 국내 최초의 미술 자료 전문 박물관으로 개관하였다. 예술 창작과 학술 연구의 가장 기초적인 작업이라고 할 수 있는 미술 자료를 효율적으로 관리하고, 더 나아가 연구된 자료들을 중심으로 전시회를 열어 소개하며 누구나 공유할 수 있는 전문 아카이브의 역할을 실천하고자 한다. 또한 미술 자료 수집 캠페인을 통해 소중한 자료가 공공의 문화유산으로 가치전환될 수 있다는 인식을 확산시키는 데 앞장서고 있다.",
+      "metadata": {
+        "sido": "서울특별시",
+        "closure_rule_raw": "일요일+공휴일",
+        "youth_fee": 0.0,
+        "adult_fee": 0.0,
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/70/3412170_image2_1.JPG",
+        "image_copyright": "Type3",
+        "holiday_open": "00:00",
+        "homepage_url": "http://www.daljin.com/",
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "holiday_close": "00:00",
+        "latitude": 37.600016,
+        "sigungu": "종로구",
+        "fee_notes": "단체관람시 사전예약",
+        "requires_manual_review": true,
+        "source_types": "TOUR_API",
+        "weekday_open": "10:00",
+        "name": "김달진미술자료박물관",
+        "ownership_type": "사립",
+        "weekday_close": "17:00",
+        "longitude": 126.9566605,
+        "address": "서울특별시 종로구 홍지문1길 4(홍지동)",
+        "child_fee": 0.0
+      },
+      "vector_rank": 4,
+      "bm25_rank": 6,
+      "vector_distance": 0.5620620250701904,
+      "vector_score": null,
+      "bm25_score": 10.997564468369937,
+      "vector_document": "김달진 미술 자료박물관은 ‘서울아트가이드’를 발행하는 김달진 관장이 40여 년간 수집해 왔던 자료 중 사료적 가치가 큰 기록물과 자료를 수집, 분류, 보존, 연구, 전시를 위해 2008년 3월 국내 최초의 미술 자료 전문 박물관으로 개관하였다. 예술 창작과 학술 연구의 가장 기초적인 작업이라고 할 수 있는 미술 자료를 효율적으로 관리하고, 더 나아가 연구된 자료들을 중심으로 전시회를 열어 소개하며 누구나 공유할 수 있는 전문 아카이브의 역할을 실천하고자 한다. 또한 미술 자료 수집 캠페인을 통해 소중한 자료가 공공의 문화유산으로 가치전환될 수 있다는 인식을 확산시키는 데 앞장서고 있다.",
+      "bm25_document": "김달진 미술 자료박물관은 ‘서울아트가이드’를 발행하는 김달진 관장이 40여 년간 수집해 왔던 자료 중 사료적 가치가 큰 기록물과 자료를 수집, 분류, 보존, 연구, 전시를 위해 2008년 3월 국내 최초의 미술 자료 전문 박물관으로 개관하였다. 예술 창작과 학술 연구의 가장 기초적인 작업이라고 할 수 있는 미술 자료를 효율적으로 관리하고, 더 나아가 연구된 자료들을 중심으로 전시회를 열어 소개하며 누구나 공유할 수 있는 전문 아카이브의 역할을 실천하고자 한다. 또한 미술 자료 수집 캠페인을 통해 소중한 자료가 공공의 문화유산으로 가치전환될 수 있다는 인식을 확산시키는 데 앞장서고 있다.",
+      "best_span_id": "chroma:M0613",
+      "best_span_text": "김달진 미술 자료박물관은 ‘서울아트가이드’를 발행하는 김달진 관장이 40여 년간 수집해 왔던 자료 중 사료적 가치가 큰 기록물과 자료를 수집, 분류, 보존, 연구, 전시를 위해 2008년 3월 국내 최초의 미술 자료 전문 박물관으로 개관하였다. 예술 창작과 학술 연구의 가장 기초적인 작업이라고 할 수 있는 미술 자료를 효율적으로 관리하고, 더 나아가 연구된 자료들을 중심으로 전시회를 열어 소개하며 누구나 공유할 수 있는 전문 아카이브의 역할을 실천하고자 한다. 또한 미술 자료 수집 캠페인을 통해 소중한 자료가 공공의 문화유산으로 가치전환될 수 있다는 인식을 확산시키는 데 앞장서고 있다.",
+      "fusion_score": 0.030776515151515152,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 2,
+      "rerank_score": 0.00792700331658125,
+      "rank": 4,
+      "score": 0.00792700331658125,
+      "score_type": "cross_encoder",
+      "distance": 0.5620620250701904,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0613",
+      "source_doc_ids": [
+        "DOC-B0613-TOUR_API-2553377"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0613-TOUR_API-2553377",
+          "source_type": "TOUR_API",
+          "source_record_id": "2553377",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=305",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 136,
+          "doc_ids": [
+            "DOC-B0613-TOUR_API-2553377"
+          ]
+        },
+        {
+          "start": 137,
+          "end": 259,
+          "doc_ids": [
+            "DOC-B0613-TOUR_API-2553377"
+          ]
+        },
+        {
+          "start": 260,
+          "end": 331,
+          "doc_ids": [
+            "DOC-B0613-TOUR_API-2553377"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=305",
+      "text": "김달진 미술 자료박물관은 ‘서울아트가이드’를 발행하는 김달진 관장이 40여 년간 수집해 왔던 자료 중 사료적 가치가 큰 기록물과 자료를 수집, 분류, 보존, 연구, 전시를 위해 2008년 3월 국내 최초의 미술 자료 전문 박물관으로 개관하였다. 예술 창작과 학술 연구의 가장 기초적인 작업이라고 할 수 있는 미술 자료를 효율적으로 관리하고, 더 나아가 연구된 자료들을 중심으로 전시회를 열어 소개하며 누구나 공유할 수 있는 전문 아카이브의 역할을 실천하고자 한다. 또한 미술 자료 수집 캠페인을 통해 소중한 자료가 공공의 문화유산으로 가치전환될 수 있다는 인식을 확산시키는 데 앞장서고 있다.",
+      "sido": "서울특별시",
+      "sigungu": "종로구",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=305"
+      ],
+      "evidence_id": "E4",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=429",
+        "fields": {
+          "name": "김달진미술자료박물관",
+          "sido": "서울특별시",
+          "sigungu": "종로구",
+          "address": "서울특별시 종로구 홍지문1길 4(홍지동)",
+          "ownership_type": "사립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "10:00",
+          "weekday_close": "17:00",
+          "holiday_open": "00:00",
+          "holiday_close": "00:00",
+          "closure_rule_raw": "일요일+공휴일"
+        },
+        "base_data_date": "2025-11-01",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M1014",
+      "name": "양구근현대사박물관",
+      "document": "박물관은 근현대사를 담고 있는 다양한 자료를 테마별 전시관으로 구성하고 있습니다. 먼저 제1전시실은 한국근현대사 전반을 살펴볼 수 있는 역사의 휘모리 공간을 시작으로, 엽서관, 우표관, 씰관 등으로 구성되어 있으며, 제2전시실은 추억속의 영화역사 포스터 등을 전시한 추억의 영화관, 아리랑 문화를 다양한 면을 살필 수 있는 공간으로 전시되어 있다. 또한 기획전시실에는 기증유물특별전으로 기증자 박민일 박사, 송광호 기자, 철학가 김형석박사의 다양한 기증자료 중 도자기, 그림, 글씨, 민속품을 중심으로 전시하고 있다.",
+      "metadata": {
+        "source_types": "BASE",
+        "adult_fee": 3000.0,
+        "adult_fee_status": "BASE_FEE_PAID",
+        "weekday_close": "18:00",
+        "address": "강원특별자치도 양구군 양구읍 금강산로 439-51",
+        "holiday_open": "10:00",
+        "requires_manual_review": true,
+        "youth_fee": 3000.0,
+        "closure_rule_raw": "월+1월 1일+설날 오전+추석 오전",
+        "child_fee": 3000.0,
+        "weekday_open": "10:00",
+        "holiday_close": "18:00",
+        "latitude": 38.12222633,
+        "sido": "강원특별자치도",
+        "ownership_type": "공립",
+        "amenities_raw": "뮤지엄숍+향토사료관+고인돌공원+함춘주막",
+        "sigungu": "양구군",
+        "homepage_url": "http://www.ygpm.or.kr/",
+        "longitude": 127.9904068,
+        "name": "양구근현대사박물관",
+        "fee_notes": "지역상품권 환급+6세이하+65세 이상+장애인+국민기초생활수급자+명예군민 등 면제"
+      },
+      "vector_rank": 5,
+      "bm25_rank": null,
+      "vector_distance": 0.583310604095459,
+      "vector_score": null,
+      "bm25_score": null,
+      "vector_document": "박물관은 근현대사를 담고 있는 다양한 자료를 테마별 전시관으로 구성하고 있습니다. 먼저 제1전시실은 한국근현대사 전반을 살펴볼 수 있는 역사의 휘모리 공간을 시작으로, 엽서관, 우표관, 씰관 등으로 구성되어 있으며, 제2전시실은 추억속의 영화역사 포스터 등을 전시한 추억의 영화관, 아리랑 문화를 다양한 면을 살필 수 있는 공간으로 전시되어 있다. 또한 기획전시실에는 기증유물특별전으로 기증자 박민일 박사, 송광호 기자, 철학가 김형석박사의 다양한 기증자료 중 도자기, 그림, 글씨, 민속품을 중심으로 전시하고 있다.",
+      "bm25_document": "",
+      "best_span_id": null,
+      "best_span_text": null,
+      "fusion_score": 0.015384615384615385,
+      "retrieved_by": [
+        "vector"
+      ],
+      "fusion_rank": 9,
+      "rerank_score": 0.004381346516311169,
+      "rank": 5,
+      "score": 0.004381346516311169,
+      "score_type": "cross_encoder",
+      "distance": 0.583310604095459,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector"
+      ],
+      "retriever": "vector",
+      "source_doc_ids": [
+        "DOC-B1014-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B1014-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B1014",
+          "source_locator": "data/raw/museum_base_1070.csv#row=1015",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 45,
+          "doc_ids": [
+            "DOC-B1014-BASE"
+          ]
+        },
+        {
+          "start": 46,
+          "end": 194,
+          "doc_ids": [
+            "DOC-B1014-BASE"
+          ]
+        },
+        {
+          "start": 195,
+          "end": 289,
+          "doc_ids": [
+            "DOC-B1014-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_base_1070.csv#row=1015",
+      "text": "박물관은 근현대사를 담고 있는 다양한 자료를 테마별 전시관으로 구성하고 있습니다. 먼저 제1전시실은 한국근현대사 전반을 살펴볼 수 있는 역사의 휘모리 공간을 시작으로, 엽서관, 우표관, 씰관 등으로 구성되어 있으며, 제2전시실은 추억속의 영화역사 포스터 등을 전시한 추억의 영화관, 아리랑 문화를 다양한 면을 살필 수 있는 공간으로 전시되어 있다. 또한 기획전시실에는 기증유물특별전으로 기증자 박민일 박사, 송광호 기자, 철학가 김형석박사의 다양한 기증자료 중 도자기, 그림, 글씨, 민속품을 중심으로 전시하고 있다.",
+      "sido": "강원특별자치도",
+      "sigungu": "양구군",
+      "span_id": "",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_base_1070.csv#row=1015"
+      ],
+      "evidence_id": "E5",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=696",
+        "fields": {
+          "name": "양구근현대사박물관",
+          "sido": "강원특별자치도",
+          "sigungu": "양구군",
+          "address": "강원특별자치도 양구군 양구읍 금강산로 439-51",
+          "ownership_type": "공립",
+          "adult_fee": "3000",
+          "youth_fee": "3000",
+          "child_fee": "3000",
+          "adult_fee_status": "BASE_FEE_PAID",
+          "weekday_open": "10:00",
+          "weekday_close": "18:00",
+          "holiday_open": "10:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "월+1월 1일+설날 오전+추석 오전",
+          "amenities_raw": "뮤지엄숍+향토사료관+고인돌공원+함춘주막"
+        },
+        "base_data_date": "2025-08-05",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    }
+  ],
+  "answer": "박정희 대통령의 유품과 구미공단 조성 당시의 관련 자료를 수집·보관·관리합니다. 또한 박정희 대통령 유품과 관련 근·현대사 자료를 보존·관리·전시한다고 소개되어 있습니다. [E1]",
+  "retrieval_status": "ok",
+  "answer_status": "answered",
+  "route": "hybrid",
+  "retry_count": 0,
+  "supervisor_verified": true,
+  "rerank_applied": true,
+  "retriever_errors": [],
+  "warnings": [],
+  "duration_ms": 69368.88,
+  "error_type": "",
+  "hit_at_1": 1,
+  "hit_at_3": 1,
+  "hit_at_5": 1,
+  "recall_at_5": 1.0,
+  "mrr_at_10": 1.0
+}

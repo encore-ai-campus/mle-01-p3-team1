@@ -1,0 +1,728 @@
+{
+  "mode": "supervisor_full",
+  "question_id": "Q232",
+  "evidence": [
+    {
+      "museum_id": "M0403",
+      "name": "수원광교박물관",
+      "document": "수원광교박물관은 광교신도시 조성 시 출토되었던 유물들을 중심으로 광교의 역사를 한눈에 볼 수 있는 광교역사 문화실과 한국 현대사의 정치, 사회, 문화 등 다방면에 걸친 기증 사료가 전시된 소강 민관식 실, 충무공 이순신과 독도를 포함한 영토 관련 그리고 일제 침략사에 관한 다양한 기증유물로 이루어진 사운 이종학 실로 구성되어 있다. 수원광교박물관은 심온선생묘와 혜령군 묘 등의 역사 유적지와 함께 광교 역사공원 내에 위치하여 배움과 휴식을 동시에 취할 수 있는 수원시민의 문화공간이다. 또한 광교신도시 개발지역에서 발굴된 선사시대부터 근현대 시기의 유물을 전시하여 다양한 역사와 문화를 살펴볼 수 있으며, 기증유물을 통해 역사와 문화를 체험할 수 있다. 어린이체험실을 통해 유아들이 전시된 유물을 다양한 방식으로 접하고 이해할 수 있는 기회를 제공함으로써 주말 가족 나들이 장소로도 주목받고 있다. 수원광교박물관은 2014년 3월 7일에 개관+ 광교신도시 개발지역에서 발굴된 선사시대부터 근현대 시기의 유물을 전시한 광교역사문화실과 사운 이종학실+ 소강 민관식실로 이루어짐.",
+      "metadata": {
+        "adult_fee_status": "BASE_FEE_PAID",
+        "homepage_url": "https://smuseum.suwon.go.kr/gg/main/view",
+        "name": "수원광교박물관",
+        "longitude": 127.051421,
+        "sido": "경기도",
+        "child_fee": 0.0,
+        "source_types": "BASE|TOUR_API",
+        "fee_notes": "1. 국빈·외국사절단 및 그 수행자 무료+2. 국가유공자 무료+3. 장애인과 동반 1인  무료+4. 12세 이하의 어린이 및 65세 이상의 노인 무료",
+        "holiday_open": "09:00",
+        "weekday_open": "09:00",
+        "sigungu": "수원시",
+        "closure_rule_raw": "월(월요일이 공휴일인 경우 그 다음날 휴관)",
+        "ownership_type": "공립",
+        "amenities_raw": "카페테리아+수유실+물품보관소+자전거보관대",
+        "latitude": 37.296351,
+        "address": "경기도 수원시 영통구 광교로 182",
+        "weekday_close": "18:00",
+        "holiday_close": "18:00",
+        "transport_notes": "버스 : (좌석버스) M5115+M5121+3002+3007+M5422+7002+4000+4500 +(공항버스) 8165+8852+ (일반) 60+400+400-4+5-3+700-2+720-1+720-2+7-2+19+80+201+670+(마을)2+6",
+        "adult_fee": 2000.0,
+        "requires_manual_review": true,
+        "youth_fee": 1000.0
+      },
+      "vector_rank": 1,
+      "bm25_rank": 10,
+      "vector_distance": 0.3243633508682251,
+      "vector_score": null,
+      "bm25_score": 9.304627518219911,
+      "vector_document": "수원광교박물관은 광교신도시 조성 시 출토되었던 유물들을 중심으로 광교의 역사를 한눈에 볼 수 있는 광교역사 문화실과 한국 현대사의 정치, 사회, 문화 등 다방면에 걸친 기증 사료가 전시된 소강 민관식 실, 충무공 이순신과 독도를 포함한 영토 관련 그리고 일제 침략사에 관한 다양한 기증유물로 이루어진 사운 이종학 실로 구성되어 있다. 수원광교박물관은 심온선생묘와 혜령군 묘 등의 역사 유적지와 함께 광교 역사공원 내에 위치하여 배움과 휴식을 동시에 취할 수 있는 수원시민의 문화공간이다. 또한 광교신도시 개발지역에서 발굴된 선사시대부터 근현대 시기의 유물을 전시하여 다양한 역사와 문화를 살펴볼 수 있으며, 기증유물을 통해 역사와 문화를 체험할 수 있다. 어린이체험실을 통해 유아들이 전시된 유물을 다양한 방식으로 접하고 이해할 수 있는 기회를 제공함으로써 주말 가족 나들이 장소로도 주목받고 있다. 수원광교박물관은 2014년 3월 7일에 개관+ 광교신도시 개발지역에서 발굴된 선사시대부터 근현대 시기의 유물을 전시한 광교역사문화실과 사운 이종학실+ 소강 민관식실로 이루어짐.",
+      "bm25_document": "수원광교박물관은 광교신도시 조성 시 출토되었던 유물들을 중심으로 광교의 역사를 한눈에 볼 수 있는 광교역사 문화실과 한국 현대사의 정치, 사회, 문화 등 다방면에 걸친 기증 사료가 전시된 소강 민관식 실, 충무공 이순신과 독도를 포함한 영토 관련 그리고 일제 침략사에 관한 다양한 기증유물로 이루어진 사운 이종학 실로 구성되어 있다. 수원광교박물관은 심온선생묘와 혜령군 묘 등의 역사 유적지와 함께 광교 역사공원 내에 위치하여 배움과 휴식을 동시에 취할 수 있는 수원시민의 문화공간이다. 또한 광교신도시 개발지역에서 발굴된 선사시대부터 근현대 시기의 유물을 전시하여 다양한 역사와 문화를 살펴볼 수 있으며, 기증유물을 통해 역사와 문화를 체험할 수 있다. 어린이체험실을 통해 유아들이 전시된 유물을 다양한 방식으로 접하고 이해할 수 있는 기회를 제공함으로써 주말 가족 나들이 장소로도 주목받고 있다. 수원광교박물관은 2014년 3월 7일에 개관+ 광교신도시 개발지역에서 발굴된 선사시대부터 근현대 시기의 유물을 전시한 광교역사문화실과 사운 이종학실+ 소강 민관식실로 이루어짐.",
+      "best_span_id": "chroma:M0403",
+      "best_span_text": "수원광교박물관은 광교신도시 조성 시 출토되었던 유물들을 중심으로 광교의 역사를 한눈에 볼 수 있는 광교역사 문화실과 한국 현대사의 정치, 사회, 문화 등 다방면에 걸친 기증 사료가 전시된 소강 민관식 실, 충무공 이순신과 독도를 포함한 영토 관련 그리고 일제 침략사에 관한 다양한 기증유물로 이루어진 사운 이종학 실로 구성되어 있다. 수원광교박물관은 심온선생묘와 혜령군 묘 등의 역사 유적지와 함께 광교 역사공원 내에 위치하여 배움과 휴식을 동시에 취할 수 있는 수원시민의 문화공간이다. 또한 광교신도시 개발지역에서 발굴된 선사시대부터 근현대 시기의 유물을 전시하여 다양한 역사와 문화를 살펴볼 수 있으며, 기증유물을 통해 역사와 문화를 체험할 수 있다. 어린이체험실을 통해 유아들이 전시된 유물을 다양한 방식으로 접하고 이해할 수 있는 기회를 제공함으로써 주말 가족 나들이 장소로도 주목받고 있다. 수원광교박물관은 2014년 3월 7일에 개관+ 광교신도시 개발지역에서 발굴된 선사시대부터 근현대 시기의 유물을 전시한 광교역사문화실과 사운 이종학실+ 소강 민관식실로 이루어짐.",
+      "fusion_score": 0.030679156908665108,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 1,
+      "name_match": true,
+      "rerank_score": 0.9993661046028137,
+      "rank": 1,
+      "score": 0.9993661046028137,
+      "score_type": "cross_encoder",
+      "distance": 0.3243633508682251,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0403",
+      "source_doc_ids": [
+        "DOC-B0403-TOUR_API-2379222",
+        "DOC-B0403-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0403-TOUR_API-2379222",
+          "source_type": "TOUR_API",
+          "source_record_id": "2379222",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=188",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        },
+        {
+          "doc_id": "DOC-B0403-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0403",
+          "source_locator": "data/raw/museum_base_1070.csv#row=404",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 186,
+          "doc_ids": [
+            "DOC-B0403-TOUR_API-2379222"
+          ]
+        },
+        {
+          "start": 187,
+          "end": 272,
+          "doc_ids": [
+            "DOC-B0403-TOUR_API-2379222"
+          ]
+        },
+        {
+          "start": 273,
+          "end": 366,
+          "doc_ids": [
+            "DOC-B0403-TOUR_API-2379222"
+          ]
+        },
+        {
+          "start": 367,
+          "end": 447,
+          "doc_ids": [
+            "DOC-B0403-TOUR_API-2379222"
+          ]
+        },
+        {
+          "start": 448,
+          "end": 546,
+          "doc_ids": [
+            "DOC-B0403-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=188",
+      "text": "수원광교박물관은 광교신도시 조성 시 출토되었던 유물들을 중심으로 광교의 역사를 한눈에 볼 수 있는 광교역사 문화실과 한국 현대사의 정치, 사회, 문화 등 다방면에 걸친 기증 사료가 전시된 소강 민관식 실, 충무공 이순신과 독도를 포함한 영토 관련 그리고 일제 침략사에 관한 다양한 기증유물로 이루어진 사운 이종학 실로 구성되어 있다. 수원광교박물관은 심온선생묘와 혜령군 묘 등의 역사 유적지와 함께 광교 역사공원 내에 위치하여 배움과 휴식을 동시에 취할 수 있는 수원시민의 문화공간이다. 또한 광교신도시 개발지역에서 발굴된 선사시대부터 근현대 시기의 유물을 전시하여 다양한 역사와 문화를 살펴볼 수 있으며, 기증유물을 통해 역사와 문화를 체험할 수 있다. 어린이체험실을 통해 유아들이 전시된 유물을 다양한 방식으로 접하고 이해할 수 있는 기회를 제공함으로써 주말 가족 나들이 장소로도 주목받고 있다. 수원광교박물관은 2014년 3월 7일에 개관+ 광교신도시 개발지역에서 발굴된 선사시대부터 근현대 시기의 유물을 전시한 광교역사문화실과 사운 이종학실+ 소강 민관식실로 이루어짐.",
+      "sido": "경기도",
+      "sigungu": "수원시",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=188"
+      ],
+      "evidence_id": "E1",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=287",
+        "fields": {
+          "name": "수원광교박물관",
+          "sido": "경기도",
+          "sigungu": "수원시",
+          "address": "경기도 수원시 영통구 광교로 182",
+          "ownership_type": "공립",
+          "adult_fee": "2000",
+          "youth_fee": "1000",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_PAID",
+          "weekday_open": "09:00",
+          "weekday_close": "18:00",
+          "holiday_open": "09:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "월(월요일이 공휴일인 경우 그 다음날 휴관)",
+          "amenities_raw": "카페테리아+수유실+물품보관소+자전거보관대"
+        },
+        "base_data_date": "2026-05-19",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0401",
+      "name": "수원박물관",
+      "document": "수원박물관은 지하 1층, 지상 2층으로 수원역사박물관, 한국서예박물관 등 2개의 상설전시관과 특별전시실로 구성되어 있다. 오감으로 즐기고 배우는 어린이체험실, 다채로운 교육 프로그램 등이 운영되고, 소장유물은 수원지역에서 발굴된 유물, 구입 및 기증받은 유물 등으로 48,000여 점을 소장하고 있다. 수원역사박물관은 수원의 유구한 역사와 문화를 과거·현재·미래의 시점과 주제별로 구성하였으며, 크게 네 부분으로 구성된 전시관은 ‘수원의 자연환경’, ‘선사·역사시대의 변천사’, ‘수원로의 개설’, ‘60년대 수원 만나기’, ‘근대 수원의 문화’로 과거의 역사와 문화뿐만 아니라 현대의 발전하는 역동적인 수원의 모습을 다양하게 보여주고 있다. 한국서예박물관은 지방자치단체에서는 최초로 건립한 서예 전문 박물관으로, 우리나라 서예사를 한눈에 살펴볼 수 있다. 전시는 유물의 시기와 특성에 따라 각각의 전시 주제로 구성되어 있고 조선시대 사랑방이 재현되어 있다. 중요 작품으로는 영조와 정조가 쓴 어필첩 등이 있다. 수원박물관은 2008년 10월 1일에 개관+ 수원의 유구한 역사와 문화를 다양하게 보여주는 수원역사박물관과 한국 서예사를 한 눈에 볼 수 있는 한국서예박물관으로 이루어짐.",
+      "metadata": {
+        "latitude": 37.297646,
+        "youth_fee": 1000.0,
+        "adult_fee_status": "BASE_FEE_PAID",
+        "weekday_close": "18:00",
+        "amenities_raw": "뮤지엄샵+북카페+수유실+물품보관소+자전거보관대",
+        "holiday_open": "09:00",
+        "source_types": "BASE|TOUR_API",
+        "sido": "경기도",
+        "image_copyright": "Type1",
+        "child_fee": 0.0,
+        "holiday_close": "18:00",
+        "name": "수원박물관",
+        "requires_manual_review": true,
+        "longitude": 127.035631,
+        "fee_notes": "1. 국빈·외국사절단 및 그 수행자 무료+2. 국가유공자 무료+3. 장애인과 동반 1인  무료+4. 12세 이하의 어린이 및 65세 이상의 노인 무료",
+        "adult_fee": 2000.0,
+        "closure_rule_raw": "월(월요일이 공휴일인 경우 그 다음날 휴관)",
+        "ownership_type": "공립",
+        "transport_notes": "버스 : (좌석버스) 1007+3007+3008+4000+4500+7000+7001+8800+ (일반) 7+19+60+80+400+400-4+720-1+ (마을) 6",
+        "weekday_open": "09:00",
+        "address": "경기도 수원시 영통구 창룡대로 265",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/81/4056581_image2_1.jpg",
+        "homepage_url": "https://smuseum.suwon.go.kr/sw/main/view",
+        "sigungu": "수원시"
+      },
+      "vector_rank": 3,
+      "bm25_rank": null,
+      "vector_distance": 0.4962018132209778,
+      "vector_score": null,
+      "bm25_score": null,
+      "vector_document": "수원박물관은 지하 1층, 지상 2층으로 수원역사박물관, 한국서예박물관 등 2개의 상설전시관과 특별전시실로 구성되어 있다. 오감으로 즐기고 배우는 어린이체험실, 다채로운 교육 프로그램 등이 운영되고, 소장유물은 수원지역에서 발굴된 유물, 구입 및 기증받은 유물 등으로 48,000여 점을 소장하고 있다. 수원역사박물관은 수원의 유구한 역사와 문화를 과거·현재·미래의 시점과 주제별로 구성하였으며, 크게 네 부분으로 구성된 전시관은 ‘수원의 자연환경’, ‘선사·역사시대의 변천사’, ‘수원로의 개설’, ‘60년대 수원 만나기’, ‘근대 수원의 문화’로 과거의 역사와 문화뿐만 아니라 현대의 발전하는 역동적인 수원의 모습을 다양하게 보여주고 있다. 한국서예박물관은 지방자치단체에서는 최초로 건립한 서예 전문 박물관으로, 우리나라 서예사를 한눈에 살펴볼 수 있다. 전시는 유물의 시기와 특성에 따라 각각의 전시 주제로 구성되어 있고 조선시대 사랑방이 재현되어 있다. 중요 작품으로는 영조와 정조가 쓴 어필첩 등이 있다. 수원박물관은 2008년 10월 1일에 개관+ 수원의 유구한 역사와 문화를 다양하게 보여주는 수원역사박물관과 한국 서예사를 한 눈에 볼 수 있는 한국서예박물관으로 이루어짐.",
+      "bm25_document": "",
+      "best_span_id": null,
+      "best_span_text": null,
+      "fusion_score": 0.015873015873015872,
+      "retrieved_by": [
+        "vector"
+      ],
+      "fusion_rank": 5,
+      "rerank_score": 0.01713169552385807,
+      "rank": 2,
+      "score": 0.01713169552385807,
+      "score_type": "cross_encoder",
+      "distance": 0.4962018132209778,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector"
+      ],
+      "retriever": "vector",
+      "source_doc_ids": [
+        "DOC-B0401-TOUR_API-638913",
+        "DOC-B0401-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0401-TOUR_API-638913",
+          "source_type": "TOUR_API",
+          "source_record_id": "638913",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=186",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        },
+        {
+          "doc_id": "DOC-B0401-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0401",
+          "source_locator": "data/raw/museum_base_1070.csv#row=402",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 67,
+          "doc_ids": [
+            "DOC-B0401-TOUR_API-638913"
+          ]
+        },
+        {
+          "start": 68,
+          "end": 168,
+          "doc_ids": [
+            "DOC-B0401-TOUR_API-638913"
+          ]
+        },
+        {
+          "start": 169,
+          "end": 359,
+          "doc_ids": [
+            "DOC-B0401-TOUR_API-638913"
+          ]
+        },
+        {
+          "start": 360,
+          "end": 423,
+          "doc_ids": [
+            "DOC-B0401-TOUR_API-638913"
+          ]
+        },
+        {
+          "start": 424,
+          "end": 480,
+          "doc_ids": [
+            "DOC-B0401-TOUR_API-638913"
+          ]
+        },
+        {
+          "start": 481,
+          "end": 510,
+          "doc_ids": [
+            "DOC-B0401-TOUR_API-638913"
+          ]
+        },
+        {
+          "start": 511,
+          "end": 606,
+          "doc_ids": [
+            "DOC-B0401-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=186",
+      "text": "수원박물관은 지하 1층, 지상 2층으로 수원역사박물관, 한국서예박물관 등 2개의 상설전시관과 특별전시실로 구성되어 있다. 오감으로 즐기고 배우는 어린이체험실, 다채로운 교육 프로그램 등이 운영되고, 소장유물은 수원지역에서 발굴된 유물, 구입 및 기증받은 유물 등으로 48,000여 점을 소장하고 있다. 수원역사박물관은 수원의 유구한 역사와 문화를 과거·현재·미래의 시점과 주제별로 구성하였으며, 크게 네 부분으로 구성된 전시관은 ‘수원의 자연환경’, ‘선사·역사시대의 변천사’, ‘수원로의 개설’, ‘60년대 수원 만나기’, ‘근대 수원의 문화’로 과거의 역사와 문화뿐만 아니라 현대의 발전하는 역동적인 수원의 모습을 다양하게 보여주고 있다. 한국서예박물관은 지방자치단체에서는 최초로 건립한 서예 전문 박물관으로, 우리나라 서예사를 한눈에 살펴볼 수 있다. 전시는 유물의 시기와 특성에 따라 각각의 전시 주제로 구성되어 있고 조선시대 사랑방이 재현되어 있다. 중요 작품으로는 영조와 정조가 쓴 어필첩 등이 있다. 수원박물관은 2008년 10월 1일에 개관+ 수원의 유구한 역사와 문화를 다양하게 보여주는 수원역사박물관과 한국 서예사를 한 눈에 볼 수 있는 한국서예박물관으로 이루어짐.",
+      "sido": "경기도",
+      "sigungu": "수원시",
+      "span_id": "",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=186"
+      ],
+      "evidence_id": "E2",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=285",
+        "fields": {
+          "name": "수원박물관",
+          "sido": "경기도",
+          "sigungu": "수원시",
+          "address": "경기도 수원시 영통구 창룡대로 265",
+          "ownership_type": "공립",
+          "adult_fee": "2000",
+          "youth_fee": "1000",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_PAID",
+          "weekday_open": "09:00",
+          "weekday_close": "18:00",
+          "holiday_open": "09:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "월(월요일이 공휴일인 경우 그 다음날 휴관)",
+          "amenities_raw": "뮤지엄샵+북카페+수유실+물품보관소+자전거보관대"
+        },
+        "base_data_date": "2026-05-19",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0506",
+      "name": "대한민국역사박물관",
+      "document": "대한민국역사박물관은 19세기 말 개항기부터 오늘날까지의 대한민국의 행보를 기록한 박물관으로, 2012년 12월 26일에 개관한 최초의 국립 근현대사 박물관이다. 고난과 역경을 딛고 발전한 대한민국의 역사를 전시·교육·조사∙연구, 자료의 수집을 통해 국민과 공유하고자 설립되었다. 박물관은 대한민국의 역사를 시대별로 4개의 전시실로 나누어 설명하고 있다. 제1전시실에서는 ‘대한민국의 태동’, 제2전시실에서는 ‘대한민국의 기초 확립’, 제3전시실에서는 ‘대한민국의 성장과 발전’, 그리고 제4전시실에서는 ‘대한민국의 선진화, 세계로의 도약’을 주제로 전시가 구성되어 있다. 어린이 박물관에서는 어린이가 직접 체험하면서 근현대사를 배울 수 있다. 또한, 근현대사 전반에 걸친 다양한 주제의 특별 전시를 통해 대한민국 근현대사에 대한 심층적인 내용을 살펴볼 수 있다. 박물관에서 다양한 교육 프로그램과 문화행사도 운영하고 있다.",
+      "metadata": {
+        "sigungu": "종로구",
+        "latitude": 37.5737136067,
+        "sido": "서울특별시",
+        "source_types": "TOUR_API",
+        "holiday_open": "10:00",
+        "address": "서울특별시 종로구 세종대로 198",
+        "ownership_type": "국립",
+        "weekday_close": "18:00",
+        "closure_rule_raw": "1월 1일, 설날 당일, 추석 당일",
+        "child_fee": 0.0,
+        "adult_fee": 0.0,
+        "image_copyright": "Type3",
+        "youth_fee": 0.0,
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "weekday_open": "10:00",
+        "name": "대한민국역사박물관",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/91/3082991_image2_1.JPG",
+        "holiday_close": "18:00",
+        "homepage_url": "http://www.much.go.kr",
+        "requires_manual_review": true,
+        "longitude": 126.9783394425
+      },
+      "vector_rank": null,
+      "bm25_rank": 5,
+      "vector_distance": null,
+      "vector_score": null,
+      "bm25_score": 10.319963936720788,
+      "vector_document": "",
+      "bm25_document": "대한민국역사박물관은 19세기 말 개항기부터 오늘날까지의 대한민국의 행보를 기록한 박물관으로, 2012년 12월 26일에 개관한 최초의 국립 근현대사 박물관이다. 고난과 역경을 딛고 발전한 대한민국의 역사를 전시·교육·조사∙연구, 자료의 수집을 통해 국민과 공유하고자 설립되었다. 박물관은 대한민국의 역사를 시대별로 4개의 전시실로 나누어 설명하고 있다. 제1전시실에서는 ‘대한민국의 태동’, 제2전시실에서는 ‘대한민국의 기초 확립’, 제3전시실에서는 ‘대한민국의 성장과 발전’, 그리고 제4전시실에서는 ‘대한민국의 선진화, 세계로의 도약’을 주제로 전시가 구성되어 있다. 어린이 박물관에서는 어린이가 직접 체험하면서 근현대사를 배울 수 있다. 또한, 근현대사 전반에 걸친 다양한 주제의 특별 전시를 통해 대한민국 근현대사에 대한 심층적인 내용을 살펴볼 수 있다. 박물관에서 다양한 교육 프로그램과 문화행사도 운영하고 있다.",
+      "best_span_id": "chroma:M0506",
+      "best_span_text": "대한민국역사박물관은 19세기 말 개항기부터 오늘날까지의 대한민국의 행보를 기록한 박물관으로, 2012년 12월 26일에 개관한 최초의 국립 근현대사 박물관이다. 고난과 역경을 딛고 발전한 대한민국의 역사를 전시·교육·조사∙연구, 자료의 수집을 통해 국민과 공유하고자 설립되었다. 박물관은 대한민국의 역사를 시대별로 4개의 전시실로 나누어 설명하고 있다. 제1전시실에서는 ‘대한민국의 태동’, 제2전시실에서는 ‘대한민국의 기초 확립’, 제3전시실에서는 ‘대한민국의 성장과 발전’, 그리고 제4전시실에서는 ‘대한민국의 선진화, 세계로의 도약’을 주제로 전시가 구성되어 있다. 어린이 박물관에서는 어린이가 직접 체험하면서 근현대사를 배울 수 있다. 또한, 근현대사 전반에 걸친 다양한 주제의 특별 전시를 통해 대한민국 근현대사에 대한 심층적인 내용을 살펴볼 수 있다. 박물관에서 다양한 교육 프로그램과 문화행사도 운영하고 있다.",
+      "fusion_score": 0.015384615384615385,
+      "retrieved_by": [
+        "bm25"
+      ],
+      "fusion_rank": 10,
+      "rerank_score": 0.0015768943121656775,
+      "rank": 3,
+      "score": 0.0015768943121656775,
+      "score_type": "cross_encoder",
+      "distance": null,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "bm25"
+      ],
+      "retriever": "bm25",
+      "span_id": "chroma:M0506",
+      "source_doc_ids": [
+        "DOC-B0506-TOUR_API-1849416"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0506-TOUR_API-1849416",
+          "source_type": "TOUR_API",
+          "source_record_id": "1849416",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=251",
+          "match_trust": "RECHECKED_BY_RULE_NOT_HUMAN_APPROVED"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 89,
+          "doc_ids": [
+            "DOC-B0506-TOUR_API-1849416"
+          ]
+        },
+        {
+          "start": 90,
+          "end": 155,
+          "doc_ids": [
+            "DOC-B0506-TOUR_API-1849416"
+          ]
+        },
+        {
+          "start": 156,
+          "end": 197,
+          "doc_ids": [
+            "DOC-B0506-TOUR_API-1849416"
+          ]
+        },
+        {
+          "start": 198,
+          "end": 319,
+          "doc_ids": [
+            "DOC-B0506-TOUR_API-1849416"
+          ]
+        },
+        {
+          "start": 320,
+          "end": 359,
+          "doc_ids": [
+            "DOC-B0506-TOUR_API-1849416"
+          ]
+        },
+        {
+          "start": 360,
+          "end": 426,
+          "doc_ids": [
+            "DOC-B0506-TOUR_API-1849416"
+          ]
+        },
+        {
+          "start": 427,
+          "end": 460,
+          "doc_ids": [
+            "DOC-B0506-TOUR_API-1849416"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=251",
+      "text": "대한민국역사박물관은 19세기 말 개항기부터 오늘날까지의 대한민국의 행보를 기록한 박물관으로, 2012년 12월 26일에 개관한 최초의 국립 근현대사 박물관이다. 고난과 역경을 딛고 발전한 대한민국의 역사를 전시·교육·조사∙연구, 자료의 수집을 통해 국민과 공유하고자 설립되었다. 박물관은 대한민국의 역사를 시대별로 4개의 전시실로 나누어 설명하고 있다. 제1전시실에서는 ‘대한민국의 태동’, 제2전시실에서는 ‘대한민국의 기초 확립’, 제3전시실에서는 ‘대한민국의 성장과 발전’, 그리고 제4전시실에서는 ‘대한민국의 선진화, 세계로의 도약’을 주제로 전시가 구성되어 있다. 어린이 박물관에서는 어린이가 직접 체험하면서 근현대사를 배울 수 있다. 또한, 근현대사 전반에 걸친 다양한 주제의 특별 전시를 통해 대한민국 근현대사에 대한 심층적인 내용을 살펴볼 수 있다. 박물관에서 다양한 교육 프로그램과 문화행사도 운영하고 있다.",
+      "sido": "서울특별시",
+      "sigungu": "종로구",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=251"
+      ],
+      "evidence_id": "E3",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=362",
+        "fields": {
+          "name": "대한민국역사박물관",
+          "sido": "서울특별시",
+          "sigungu": "종로구",
+          "address": "서울특별시 종로구 세종대로 198",
+          "ownership_type": "국립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "10:00",
+          "weekday_close": "18:00",
+          "holiday_open": "10:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "1월 1일, 설날 당일, 추석 당일"
+        },
+        "base_data_date": "2026-04-08",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0277",
+      "name": "판교박물관",
+      "document": "2013년에 개관한 판교박물관은 판교 개발 당시 발굴된 한성백제 돌방무덤 9기와 고구려 돌방무덤 2기의 보존 및 활용을 위해 건립된 박물관으로, 삼국시대 유적을 비롯하여 판교에서 출토된 유물들을 통해 성남의 역사와 문화를 알리기 위해 조성되었다. 판교박물관은 지하 1층, 지하 1층으로 구성되어 있으며 전시실은 상설전시실과 수장형전시실로 이루어져 있다. 판교택지개발시 출토된 삼국시대 굴식돌방무덤의 보존 및 전시",
+      "metadata": {
+        "name": "판교박물관",
+        "transport_notes": "버스(73/330/350/375/9007/4000/4500/1007-1/누리4/반디5)",
+        "longitude": 127.095584,
+        "sido": "경기도",
+        "holiday_close": "18:00",
+        "adult_fee": 0.0,
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "sigungu": "성남시",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/07/3053407_image2_1.jpg",
+        "child_fee": 0.0,
+        "youth_fee": 0.0,
+        "ownership_type": "공립",
+        "requires_manual_review": true,
+        "weekday_open": "09:00",
+        "address": "경기도 성남시 분당구 판교로 191",
+        "image_copyright": "Type3",
+        "holiday_open": "09:00",
+        "source_types": "BASE|TOUR_API",
+        "closure_rule_raw": "월요일+1월1일+추석 연휴+설 연휴",
+        "latitude": 37.400925,
+        "weekday_close": "18:00",
+        "homepage_url": "https://museum.seongnam.go.kr/pangyo",
+        "amenities_raw": "자전거보관대"
+      },
+      "vector_rank": 6,
+      "bm25_rank": null,
+      "vector_distance": 0.5249049663543701,
+      "vector_score": null,
+      "bm25_score": null,
+      "vector_document": "2013년에 개관한 판교박물관은 판교 개발 당시 발굴된 한성백제 돌방무덤 9기와 고구려 돌방무덤 2기의 보존 및 활용을 위해 건립된 박물관으로, 삼국시대 유적을 비롯하여 판교에서 출토된 유물들을 통해 성남의 역사와 문화를 알리기 위해 조성되었다. 판교박물관은 지하 1층, 지하 1층으로 구성되어 있으며 전시실은 상설전시실과 수장형전시실로 이루어져 있다. 판교택지개발시 출토된 삼국시대 굴식돌방무덤의 보존 및 전시",
+      "bm25_document": "",
+      "best_span_id": null,
+      "best_span_text": null,
+      "fusion_score": 0.015151515151515152,
+      "retrieved_by": [
+        "vector"
+      ],
+      "fusion_rank": 11,
+      "rerank_score": 0.0012265227269381285,
+      "rank": 4,
+      "score": 0.0012265227269381285,
+      "score_type": "cross_encoder",
+      "distance": 0.5249049663543701,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector"
+      ],
+      "retriever": "vector",
+      "source_doc_ids": [
+        "DOC-B0277-TOUR_API-2371204",
+        "DOC-B0277-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0277-TOUR_API-2371204",
+          "source_type": "TOUR_API",
+          "source_record_id": "2371204",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=138",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        },
+        {
+          "doc_id": "DOC-B0277-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0277",
+          "source_locator": "data/raw/museum_base_1070.csv#row=278",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 137,
+          "doc_ids": [
+            "DOC-B0277-TOUR_API-2371204"
+          ]
+        },
+        {
+          "start": 138,
+          "end": 197,
+          "doc_ids": [
+            "DOC-B0277-TOUR_API-2371204"
+          ]
+        },
+        {
+          "start": 198,
+          "end": 230,
+          "doc_ids": [
+            "DOC-B0277-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=138",
+      "text": "2013년에 개관한 판교박물관은 판교 개발 당시 발굴된 한성백제 돌방무덤 9기와 고구려 돌방무덤 2기의 보존 및 활용을 위해 건립된 박물관으로, 삼국시대 유적을 비롯하여 판교에서 출토된 유물들을 통해 성남의 역사와 문화를 알리기 위해 조성되었다. 판교박물관은 지하 1층, 지하 1층으로 구성되어 있으며 전시실은 상설전시실과 수장형전시실로 이루어져 있다. 판교택지개발시 출토된 삼국시대 굴식돌방무덤의 보존 및 전시",
+      "sido": "경기도",
+      "sigungu": "성남시",
+      "span_id": "",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=138"
+      ],
+      "evidence_id": "E4",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=196",
+        "fields": {
+          "name": "판교박물관",
+          "sido": "경기도",
+          "sigungu": "성남시",
+          "address": "경기도 성남시 분당구 판교로 191",
+          "ownership_type": "공립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "09:00",
+          "weekday_close": "18:00",
+          "holiday_open": "09:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "월요일+1월1일+추석 연휴+설 연휴",
+          "amenities_raw": "자전거보관대"
+        },
+        "base_data_date": "2026-06-30",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0994",
+      "name": "수다라성보박물관",
+      "document": "불교 관련 전적, 불화, 공예품 전시",
+      "metadata": {
+        "holiday_open": "09:00",
+        "adult_fee": 0.0,
+        "ownership_type": "사립",
+        "name": "수다라성보박물관",
+        "weekday_open": "09:00",
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "holiday_close": "17:00",
+        "closure_rule_raw": "매주 월요일",
+        "weekday_close": "17:00",
+        "sigungu": "영광군",
+        "sido": "전남광주특별자치도",
+        "youth_fee": 0.0,
+        "requires_manual_review": false,
+        "latitude": 35.19967453,
+        "address": "전라남도 영광군 불갑면 불갑사로 450",
+        "source_types": "BASE",
+        "child_fee": 0.0,
+        "longitude": 126.5500459
+      },
+      "vector_rank": 10,
+      "bm25_rank": null,
+      "vector_distance": 0.5333899259567261,
+      "vector_score": null,
+      "bm25_score": null,
+      "vector_document": "불교 관련 전적, 불화, 공예품 전시",
+      "bm25_document": "",
+      "best_span_id": null,
+      "best_span_text": null,
+      "fusion_score": 0.014285714285714285,
+      "retrieved_by": [
+        "vector"
+      ],
+      "fusion_rank": 19,
+      "rerank_score": 0.0011128262849524617,
+      "rank": 5,
+      "score": 0.0011128262849524617,
+      "score_type": "cross_encoder",
+      "distance": 0.5333899259567261,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector"
+      ],
+      "retriever": "vector",
+      "source_doc_ids": [
+        "DOC-B0994-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0994-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0994",
+          "source_locator": "data/raw/museum_base_1070.csv#row=995",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 20,
+          "doc_ids": [
+            "DOC-B0994-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_base_1070.csv#row=995",
+      "text": "불교 관련 전적, 불화, 공예품 전시",
+      "sido": "전남광주특별자치도",
+      "sigungu": "영광군",
+      "span_id": "",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_base_1070.csv#row=995"
+      ],
+      "evidence_id": "E5",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=677",
+        "fields": {
+          "name": "수다라성보박물관",
+          "sido": "전라남도",
+          "sigungu": "영광군",
+          "address": "전라남도 영광군 불갑면 불갑사로 450",
+          "ownership_type": "사립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "09:00",
+          "weekday_close": "17:00",
+          "holiday_open": "09:00",
+          "holiday_close": "17:00",
+          "closure_rule_raw": "매주 월요일"
+        },
+        "base_data_date": "2025-11-28",
+        "trust": "derived_dataset_not_human_verified",
+        "normalizations": {
+          "sido": {
+            "source_value": "전라남도",
+            "matched_value": "전남광주특별자치도",
+            "rule": "configured_sido_alias"
+          }
+        }
+      }
+    }
+  ],
+  "answer": "광교신도시 개발지역에서 발굴된 선사시대부터 근현대까지의 유물을 전시해 광교의 역사와 문화를 살펴볼 수 있습니다. 관련 전시실은 출토 유물을 중심으로 광교의 역사를 보여주는 ‘광교역사문화실’입니다. [E1]",
+  "retrieval_status": "ok",
+  "answer_status": "answered",
+  "route": "hybrid",
+  "retry_count": 0,
+  "supervisor_verified": true,
+  "rerank_applied": true,
+  "retriever_errors": [],
+  "warnings": [],
+  "duration_ms": 133641.27,
+  "error_type": "",
+  "hit_at_1": 1,
+  "hit_at_3": 1,
+  "hit_at_5": 1,
+  "recall_at_5": 1.0,
+  "mrr_at_10": 1.0
+}

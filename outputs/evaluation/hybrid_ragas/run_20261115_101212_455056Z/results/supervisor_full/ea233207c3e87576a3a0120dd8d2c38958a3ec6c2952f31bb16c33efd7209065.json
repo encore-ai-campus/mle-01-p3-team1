@@ -1,0 +1,724 @@
+{
+  "mode": "supervisor_full",
+  "question_id": "Q183",
+  "evidence": [
+    {
+      "museum_id": "M0301",
+      "name": "소수박물관",
+      "document": "소수 박물관은 우리나라 최초의 사액서원인 영주 소수서원에서 보관하던 유물을 전시하며, 유교 문화를 통해 민족정신의 뿌리를 되새기기 위해 설립된 유교 전문 박물관이다. 2004년에 개관했으며, 지하 1층·지상 2층 규모로 5개의 전시실과 수장고, 시청각실, 야외전시실로 구성되어 있다. 기획전시실에서는 기증받은 2만여 점의 유물을 순환 전시하고, 제1전시실은 선사시대부터 조선시대까지의 문화유적을 소개한다. 제2전시실은 ‘유교의 전래’를 주제로 이황의 성학십도, 사서삼경, 학맥도 등을 전시하며, 제3·4 전시실은 서원과 향교, 그리고 소수서원의 창건과 관련 인물 및 유물을 중심으로 구성되어 있다. 소수 박물관 통합 관람권을 이용하면 소수서원, 영주 선비촌과 함께 관람할 수 있다. 영주시 유물의 반출을 막고 안전한 보관 및 전시를 위해 2004년 9월 22일에 개관한 1종 전문박물관으로서 소수서원이관 유물과 지역유물을 보관전시하고 있는 유교전문박물관입니다.",
+      "metadata": {
+        "closure_rule_raw": "연중무휴",
+        "youth_fee": 2000.0,
+        "holiday_open": "09:00",
+        "child_fee": 1000.0,
+        "requires_manual_review": true,
+        "homepage_url": "http://www.yeongju.go.kr/open_content/sosuseowon/index.do",
+        "image_copyright": "Type1",
+        "sigungu": "영주시",
+        "image_url": "http://tong.visitkorea.or.kr/cms/resource/70/3512770_image2_1.JPG",
+        "weekday_close": "18:00",
+        "address": "경상북도 영주시 순흥면 소백로 2780",
+        "adult_fee_status": "BASE_FEE_PAID",
+        "source_types": "BASE|TOUR_API",
+        "transport_notes": "버스: 27번 53번",
+        "weekday_open": "09:00",
+        "ownership_type": "공립",
+        "holiday_close": "18:00",
+        "latitude": 36.92592352,
+        "sido": "경상북도",
+        "longitude": 128.582312,
+        "fee_notes": "단체30인이상 할인-어른 2500원 청소년 1500원 어린이 800원 영주시민 50할인 영주시 소재 대학재학생 및 사업체 근무자 50할인 동주도시 시민 50할인",
+        "adult_fee": 3000.0,
+        "name": "소수박물관"
+      },
+      "vector_rank": null,
+      "bm25_rank": null,
+      "vector_distance": null,
+      "vector_score": null,
+      "bm25_score": null,
+      "vector_document": "",
+      "bm25_document": "소수 박물관은 우리나라 최초의 사액서원인 영주 소수서원에서 보관하던 유물을 전시하며, 유교 문화를 통해 민족정신의 뿌리를 되새기기 위해 설립된 유교 전문 박물관이다. 2004년에 개관했으며, 지하 1층·지상 2층 규모로 5개의 전시실과 수장고, 시청각실, 야외전시실로 구성되어 있다. 기획전시실에서는 기증받은 2만여 점의 유물을 순환 전시하고, 제1전시실은 선사시대부터 조선시대까지의 문화유적을 소개한다. 제2전시실은 ‘유교의 전래’를 주제로 이황의 성학십도, 사서삼경, 학맥도 등을 전시하며, 제3·4 전시실은 서원과 향교, 그리고 소수서원의 창건과 관련 인물 및 유물을 중심으로 구성되어 있다. 소수 박물관 통합 관람권을 이용하면 소수서원, 영주 선비촌과 함께 관람할 수 있다. 영주시 유물의 반출을 막고 안전한 보관 및 전시를 위해 2004년 9월 22일에 개관한 1종 전문박물관으로서 소수서원이관 유물과 지역유물을 보관전시하고 있는 유교전문박물관입니다.",
+      "best_span_id": "chroma:M0301",
+      "best_span_text": "소수 박물관은 우리나라 최초의 사액서원인 영주 소수서원에서 보관하던 유물을 전시하며, 유교 문화를 통해 민족정신의 뿌리를 되새기기 위해 설립된 유교 전문 박물관이다. 2004년에 개관했으며, 지하 1층·지상 2층 규모로 5개의 전시실과 수장고, 시청각실, 야외전시실로 구성되어 있다. 기획전시실에서는 기증받은 2만여 점의 유물을 순환 전시하고, 제1전시실은 선사시대부터 조선시대까지의 문화유적을 소개한다. 제2전시실은 ‘유교의 전래’를 주제로 이황의 성학십도, 사서삼경, 학맥도 등을 전시하며, 제3·4 전시실은 서원과 향교, 그리고 소수서원의 창건과 관련 인물 및 유물을 중심으로 구성되어 있다. 소수 박물관 통합 관람권을 이용하면 소수서원, 영주 선비촌과 함께 관람할 수 있다. 영주시 유물의 반출을 막고 안전한 보관 및 전시를 위해 2004년 9월 22일에 개관한 1종 전문박물관으로서 소수서원이관 유물과 지역유물을 보관전시하고 있는 유교전문박물관입니다.",
+      "fusion_score": 0.0,
+      "retrieved_by": [
+        "name_match"
+      ],
+      "fusion_rank": 1,
+      "name_match": true,
+      "rerank_score": 0.9993428587913513,
+      "rank": 1,
+      "score": 0.9993428587913513,
+      "score_type": "cross_encoder",
+      "distance": null,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "name_match"
+      ],
+      "retriever": "name_match",
+      "span_id": "chroma:M0301",
+      "source_doc_ids": [
+        "DOC-B0301-TOUR_API-130894",
+        "DOC-B0301-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0301-TOUR_API-130894",
+          "source_type": "TOUR_API",
+          "source_record_id": "130894",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=149",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        },
+        {
+          "doc_id": "DOC-B0301-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0301",
+          "source_locator": "data/raw/museum_base_1070.csv#row=302",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 92,
+          "doc_ids": [
+            "DOC-B0301-TOUR_API-130894"
+          ]
+        },
+        {
+          "start": 93,
+          "end": 158,
+          "doc_ids": [
+            "DOC-B0301-TOUR_API-130894"
+          ]
+        },
+        {
+          "start": 159,
+          "end": 226,
+          "doc_ids": [
+            "DOC-B0301-TOUR_API-130894"
+          ]
+        },
+        {
+          "start": 227,
+          "end": 334,
+          "doc_ids": [
+            "DOC-B0301-TOUR_API-130894"
+          ]
+        },
+        {
+          "start": 335,
+          "end": 381,
+          "doc_ids": [
+            "DOC-B0301-TOUR_API-130894"
+          ]
+        },
+        {
+          "start": 382,
+          "end": 481,
+          "doc_ids": [
+            "DOC-B0301-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=149",
+      "text": "소수 박물관은 우리나라 최초의 사액서원인 영주 소수서원에서 보관하던 유물을 전시하며, 유교 문화를 통해 민족정신의 뿌리를 되새기기 위해 설립된 유교 전문 박물관이다. 2004년에 개관했으며, 지하 1층·지상 2층 규모로 5개의 전시실과 수장고, 시청각실, 야외전시실로 구성되어 있다. 기획전시실에서는 기증받은 2만여 점의 유물을 순환 전시하고, 제1전시실은 선사시대부터 조선시대까지의 문화유적을 소개한다. 제2전시실은 ‘유교의 전래’를 주제로 이황의 성학십도, 사서삼경, 학맥도 등을 전시하며, 제3·4 전시실은 서원과 향교, 그리고 소수서원의 창건과 관련 인물 및 유물을 중심으로 구성되어 있다. 소수 박물관 통합 관람권을 이용하면 소수서원, 영주 선비촌과 함께 관람할 수 있다. 영주시 유물의 반출을 막고 안전한 보관 및 전시를 위해 2004년 9월 22일에 개관한 1종 전문박물관으로서 소수서원이관 유물과 지역유물을 보관전시하고 있는 유교전문박물관입니다.",
+      "sido": "경상북도",
+      "sigungu": "영주시",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=149"
+      ],
+      "evidence_id": "E1",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=214",
+        "fields": {
+          "name": "소수박물관",
+          "sido": "경상북도",
+          "sigungu": "영주시",
+          "address": "경상북도 영주시 순흥면 소백로 2780",
+          "ownership_type": "공립",
+          "adult_fee": "3000",
+          "youth_fee": "2000",
+          "child_fee": "1000",
+          "adult_fee_status": "BASE_FEE_PAID",
+          "weekday_open": "09:00",
+          "weekday_close": "18:00",
+          "holiday_open": "09:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "연중무휴"
+        },
+        "base_data_date": "2026-07-27",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M1014",
+      "name": "양구근현대사박물관",
+      "document": "박물관은 근현대사를 담고 있는 다양한 자료를 테마별 전시관으로 구성하고 있습니다. 먼저 제1전시실은 한국근현대사 전반을 살펴볼 수 있는 역사의 휘모리 공간을 시작으로, 엽서관, 우표관, 씰관 등으로 구성되어 있으며, 제2전시실은 추억속의 영화역사 포스터 등을 전시한 추억의 영화관, 아리랑 문화를 다양한 면을 살필 수 있는 공간으로 전시되어 있다. 또한 기획전시실에는 기증유물특별전으로 기증자 박민일 박사, 송광호 기자, 철학가 김형석박사의 다양한 기증자료 중 도자기, 그림, 글씨, 민속품을 중심으로 전시하고 있다.",
+      "metadata": {
+        "requires_manual_review": true,
+        "youth_fee": 3000.0,
+        "address": "강원특별자치도 양구군 양구읍 금강산로 439-51",
+        "adult_fee_status": "BASE_FEE_PAID",
+        "weekday_close": "18:00",
+        "fee_notes": "지역상품권 환급+6세이하+65세 이상+장애인+국민기초생활수급자+명예군민 등 면제",
+        "holiday_open": "10:00",
+        "source_types": "BASE",
+        "sigungu": "양구군",
+        "adult_fee": 3000.0,
+        "weekday_open": "10:00",
+        "holiday_close": "18:00",
+        "name": "양구근현대사박물관",
+        "latitude": 38.12222633,
+        "closure_rule_raw": "월+1월 1일+설날 오전+추석 오전",
+        "ownership_type": "공립",
+        "sido": "강원특별자치도",
+        "homepage_url": "http://www.ygpm.or.kr/",
+        "child_fee": 3000.0,
+        "amenities_raw": "뮤지엄숍+향토사료관+고인돌공원+함춘주막",
+        "longitude": 127.9904068
+      },
+      "vector_rank": 4,
+      "bm25_rank": null,
+      "vector_distance": 0.5591936111450195,
+      "vector_score": null,
+      "bm25_score": null,
+      "vector_document": "박물관은 근현대사를 담고 있는 다양한 자료를 테마별 전시관으로 구성하고 있습니다. 먼저 제1전시실은 한국근현대사 전반을 살펴볼 수 있는 역사의 휘모리 공간을 시작으로, 엽서관, 우표관, 씰관 등으로 구성되어 있으며, 제2전시실은 추억속의 영화역사 포스터 등을 전시한 추억의 영화관, 아리랑 문화를 다양한 면을 살필 수 있는 공간으로 전시되어 있다. 또한 기획전시실에는 기증유물특별전으로 기증자 박민일 박사, 송광호 기자, 철학가 김형석박사의 다양한 기증자료 중 도자기, 그림, 글씨, 민속품을 중심으로 전시하고 있다.",
+      "bm25_document": "",
+      "best_span_id": null,
+      "best_span_text": null,
+      "fusion_score": 0.015625,
+      "retrieved_by": [
+        "vector"
+      ],
+      "fusion_rank": 10,
+      "rerank_score": 0.22434760630130768,
+      "rank": 2,
+      "score": 0.22434760630130768,
+      "score_type": "cross_encoder",
+      "distance": 0.5591936111450195,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector"
+      ],
+      "retriever": "vector",
+      "source_doc_ids": [
+        "DOC-B1014-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B1014-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B1014",
+          "source_locator": "data/raw/museum_base_1070.csv#row=1015",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 45,
+          "doc_ids": [
+            "DOC-B1014-BASE"
+          ]
+        },
+        {
+          "start": 46,
+          "end": 194,
+          "doc_ids": [
+            "DOC-B1014-BASE"
+          ]
+        },
+        {
+          "start": 195,
+          "end": 289,
+          "doc_ids": [
+            "DOC-B1014-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_base_1070.csv#row=1015",
+      "text": "박물관은 근현대사를 담고 있는 다양한 자료를 테마별 전시관으로 구성하고 있습니다. 먼저 제1전시실은 한국근현대사 전반을 살펴볼 수 있는 역사의 휘모리 공간을 시작으로, 엽서관, 우표관, 씰관 등으로 구성되어 있으며, 제2전시실은 추억속의 영화역사 포스터 등을 전시한 추억의 영화관, 아리랑 문화를 다양한 면을 살필 수 있는 공간으로 전시되어 있다. 또한 기획전시실에는 기증유물특별전으로 기증자 박민일 박사, 송광호 기자, 철학가 김형석박사의 다양한 기증자료 중 도자기, 그림, 글씨, 민속품을 중심으로 전시하고 있다.",
+      "sido": "강원특별자치도",
+      "sigungu": "양구군",
+      "span_id": "",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_base_1070.csv#row=1015"
+      ],
+      "evidence_id": "E2",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=696",
+        "fields": {
+          "name": "양구근현대사박물관",
+          "sido": "강원특별자치도",
+          "sigungu": "양구군",
+          "address": "강원특별자치도 양구군 양구읍 금강산로 439-51",
+          "ownership_type": "공립",
+          "adult_fee": "3000",
+          "youth_fee": "3000",
+          "child_fee": "3000",
+          "adult_fee_status": "BASE_FEE_PAID",
+          "weekday_open": "10:00",
+          "weekday_close": "18:00",
+          "holiday_open": "10:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "월+1월 1일+설날 오전+추석 오전",
+          "amenities_raw": "뮤지엄숍+향토사료관+고인돌공원+함춘주막"
+        },
+        "base_data_date": "2025-08-05",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M1027",
+      "name": "한성백제박물관",
+      "document": "한성백제박물관은 서울이 2천 년 역사 도시라는 사실을 널리 알리기 위해 백제왕도 역사와 관련 깊은 유적들을 직접 보호·관리하면서 조사, 연구, 전시, 교육하고 있다. 서울의 고대 역사·문화를 조명하고, 문화유산의 의미와 가치를 되새기는 박물관이다. 박물관 로비에서 가장 먼저 마주치는 상징전시물은 풍납토성 성벽 단면 으로 성벽 단면을 얇게 떼어내 전시, 연출하였다. 제 1전시실은 서울의 구석기문화, 신석기문화, 청동기 및 초기철기문화를 한강유역이라는 공간에 맞춰 이야기로 꾸며져 있다. 제 2전시실은 제가 지금의 서울에서 건국하고 성장 및 발전하던 한성도읍기 493년을 다루고 있으며, 제 3전시실에서는 한강에서 벌어진 백제, 고구려, 신라의 각축과 한성함락 이후의 백제 역사를 다루고 있다. 한성백제 박물관은 서울시 송파구의 고대역사 유적지에 건립된 박물관으로 고대 역사와 문화를 연구하여 알리고자 설립되었다",
+      "metadata": {
+        "longitude": 127.1208007,
+        "requires_manual_review": true,
+        "holiday_close": "19:00",
+        "homepage_url": "http://baekjemuseum.seoul.go.kr",
+        "weekday_open": "09:00",
+        "amenities_raw": "박물관",
+        "fee_notes": "상설전시실 무료 (특별·기획전시는 유료로 진행될 수 있음)",
+        "latitude": 37.51542872,
+        "image_url": "http://tong.visitkorea.or.kr/cms/resource/55/3502855_image2_1.jpg",
+        "youth_fee": 0.0,
+        "adult_fee": 0.0,
+        "image_copyright": "Type1",
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "holiday_open": "09:00",
+        "transport_notes": "지하철 :8호선 몽촌토성역 1번 출구에서 남2문 방향으로 650m (도보10~15분)           5호선 올림픽공원역 3번 출구에서 남2문 방향으로 1km(도보15~20분)버스 : 올림픽공원역 방향에서 오실 때 30-5+3412+3413 한성백제박물관 하차         몽촌토성역 방향에서 오실 때 30+30-5+3412+3413 올림픽베어스타운 하차         방이동사거리 방향에서 오실 때 3216+3414 한성백제박물관 하차자가용 : 잠실+풍납동 방면에서 오실 때 (남2문앞에서 유턴 후 250m에서 진입)       둔촌동+오금동 방면에서 오실 때 (남2문에서 남3문방향으로 250m에서 진입)",
+        "name": "한성백제박물관",
+        "ownership_type": "공립",
+        "sigungu": "송파구",
+        "sido": "서울특별시",
+        "weekday_close": "19:00",
+        "closure_rule_raw": "월(공휴일인 경우 휴관하지 않음)+1월 1일+시장이 정하는 휴관일(관장에게 위임)",
+        "address": "서울특별시 송파구 위례성대로71, 한성백제박물관",
+        "source_types": "BASE|TOUR_API",
+        "child_fee": 0.0
+      },
+      "vector_rank": 19,
+      "bm25_rank": 5,
+      "vector_distance": 0.5975100994110107,
+      "vector_score": null,
+      "bm25_score": 8.16847350857255,
+      "vector_document": "한성백제박물관은 서울이 2천 년 역사 도시라는 사실을 널리 알리기 위해 백제왕도 역사와 관련 깊은 유적들을 직접 보호·관리하면서 조사, 연구, 전시, 교육하고 있다. 서울의 고대 역사·문화를 조명하고, 문화유산의 의미와 가치를 되새기는 박물관이다. 박물관 로비에서 가장 먼저 마주치는 상징전시물은 풍납토성 성벽 단면 으로 성벽 단면을 얇게 떼어내 전시, 연출하였다. 제 1전시실은 서울의 구석기문화, 신석기문화, 청동기 및 초기철기문화를 한강유역이라는 공간에 맞춰 이야기로 꾸며져 있다. 제 2전시실은 제가 지금의 서울에서 건국하고 성장 및 발전하던 한성도읍기 493년을 다루고 있으며, 제 3전시실에서는 한강에서 벌어진 백제, 고구려, 신라의 각축과 한성함락 이후의 백제 역사를 다루고 있다. 한성백제 박물관은 서울시 송파구의 고대역사 유적지에 건립된 박물관으로 고대 역사와 문화를 연구하여 알리고자 설립되었다",
+      "bm25_document": "한성백제박물관은 서울이 2천 년 역사 도시라는 사실을 널리 알리기 위해 백제왕도 역사와 관련 깊은 유적들을 직접 보호·관리하면서 조사, 연구, 전시, 교육하고 있다. 서울의 고대 역사·문화를 조명하고, 문화유산의 의미와 가치를 되새기는 박물관이다. 박물관 로비에서 가장 먼저 마주치는 상징전시물은 풍납토성 성벽 단면 으로 성벽 단면을 얇게 떼어내 전시, 연출하였다. 제 1전시실은 서울의 구석기문화, 신석기문화, 청동기 및 초기철기문화를 한강유역이라는 공간에 맞춰 이야기로 꾸며져 있다. 제 2전시실은 제가 지금의 서울에서 건국하고 성장 및 발전하던 한성도읍기 493년을 다루고 있으며, 제 3전시실에서는 한강에서 벌어진 백제, 고구려, 신라의 각축과 한성함락 이후의 백제 역사를 다루고 있다. 한성백제 박물관은 서울시 송파구의 고대역사 유적지에 건립된 박물관으로 고대 역사와 문화를 연구하여 알리고자 설립되었다",
+      "best_span_id": "chroma:M1027",
+      "best_span_text": "한성백제박물관은 서울이 2천 년 역사 도시라는 사실을 널리 알리기 위해 백제왕도 역사와 관련 깊은 유적들을 직접 보호·관리하면서 조사, 연구, 전시, 교육하고 있다. 서울의 고대 역사·문화를 조명하고, 문화유산의 의미와 가치를 되새기는 박물관이다. 박물관 로비에서 가장 먼저 마주치는 상징전시물은 풍납토성 성벽 단면 으로 성벽 단면을 얇게 떼어내 전시, 연출하였다. 제 1전시실은 서울의 구석기문화, 신석기문화, 청동기 및 초기철기문화를 한강유역이라는 공간에 맞춰 이야기로 꾸며져 있다. 제 2전시실은 제가 지금의 서울에서 건국하고 성장 및 발전하던 한성도읍기 493년을 다루고 있으며, 제 3전시실에서는 한강에서 벌어진 백제, 고구려, 신라의 각축과 한성함락 이후의 백제 역사를 다루고 있다. 한성백제 박물관은 서울시 송파구의 고대역사 유적지에 건립된 박물관으로 고대 역사와 문화를 연구하여 알리고자 설립되었다",
+      "fusion_score": 0.02804284323271665,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 2,
+      "rerank_score": 0.01564951054751873,
+      "rank": 3,
+      "score": 0.01564951054751873,
+      "score_type": "cross_encoder",
+      "distance": 0.5975100994110107,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M1027",
+      "source_doc_ids": [
+        "DOC-B1027-TOUR_API-1916296",
+        "DOC-B1027-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B1027-TOUR_API-1916296",
+          "source_type": "TOUR_API",
+          "source_record_id": "1916296",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=477",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        },
+        {
+          "doc_id": "DOC-B1027-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B1027",
+          "source_locator": "data/raw/museum_base_1070.csv#row=1028",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 92,
+          "doc_ids": [
+            "DOC-B1027-TOUR_API-1916296"
+          ]
+        },
+        {
+          "start": 93,
+          "end": 138,
+          "doc_ids": [
+            "DOC-B1027-TOUR_API-1916296"
+          ]
+        },
+        {
+          "start": 139,
+          "end": 204,
+          "doc_ids": [
+            "DOC-B1027-TOUR_API-1916296"
+          ]
+        },
+        {
+          "start": 205,
+          "end": 272,
+          "doc_ids": [
+            "DOC-B1027-TOUR_API-1916296"
+          ]
+        },
+        {
+          "start": 273,
+          "end": 388,
+          "doc_ids": [
+            "DOC-B1027-TOUR_API-1916296"
+          ]
+        },
+        {
+          "start": 389,
+          "end": 454,
+          "doc_ids": [
+            "DOC-B1027-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=477",
+      "text": "한성백제박물관은 서울이 2천 년 역사 도시라는 사실을 널리 알리기 위해 백제왕도 역사와 관련 깊은 유적들을 직접 보호·관리하면서 조사, 연구, 전시, 교육하고 있다. 서울의 고대 역사·문화를 조명하고, 문화유산의 의미와 가치를 되새기는 박물관이다. 박물관 로비에서 가장 먼저 마주치는 상징전시물은 풍납토성 성벽 단면 으로 성벽 단면을 얇게 떼어내 전시, 연출하였다. 제 1전시실은 서울의 구석기문화, 신석기문화, 청동기 및 초기철기문화를 한강유역이라는 공간에 맞춰 이야기로 꾸며져 있다. 제 2전시실은 제가 지금의 서울에서 건국하고 성장 및 발전하던 한성도읍기 493년을 다루고 있으며, 제 3전시실에서는 한강에서 벌어진 백제, 고구려, 신라의 각축과 한성함락 이후의 백제 역사를 다루고 있다. 한성백제 박물관은 서울시 송파구의 고대역사 유적지에 건립된 박물관으로 고대 역사와 문화를 연구하여 알리고자 설립되었다",
+      "sido": "서울특별시",
+      "sigungu": "송파구",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=477"
+      ],
+      "evidence_id": "E3",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=707",
+        "fields": {
+          "name": "한성백제박물관",
+          "sido": "서울특별시",
+          "sigungu": "송파구",
+          "address": "서울특별시 송파구 위례성대로71, 한성백제박물관",
+          "ownership_type": "공립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "09:00",
+          "weekday_close": "19:00",
+          "holiday_open": "09:00",
+          "holiday_close": "19:00",
+          "closure_rule_raw": "월(공휴일인 경우 휴관하지 않음)+1월 1일+시장이 정하는 휴관일(관장에게 위임)",
+          "amenities_raw": "박물관"
+        },
+        "base_data_date": "2023-01-11",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0155",
+      "name": "소전미술관",
+      "document": "서예 대가인 소전 손재형 선생의 작품과 그를 위해 작업된 국내 거장들의 작품이 전시되어 남도문화의 새로운 자랑거리로 자리매김하고 있다. 소전미술관에 전시된 작품들은 소전선생의 유족들이 소장하고 있던 부친의 평생 역작과 소전 생전을 위해 국내 거장들이 심혈을 기울인 그림들을 진도군에 기증한 것으로, 논산 이은상 시비문 등 소전 손재형 선생의 주옥같은 작품과 소장 그림 300여 점을 교대로 전시하고 있다. 제1전시실에는 선생의 청년시절 작품이, 2 전시실에는 문인화, 3 전시실에는 장년시설등의 작품, 4 전시실에는 양지니, 서희환, 박행보 등 제자들의 작품과 의제 허백련 선생등 거장들의 작품이 전시되어 있다. 추사 김정희 이래 서예 대가로 추앙받을 정도로 우리나라 서예계에 뚜렷한 발자취를 남긴 서예계의 거목인 소전 손재형 선생의 작품과 소장품이 전시되어 있으며 그의 제자 양진이·서희환 등의 작품과 의제 허백련 선생의 작품이 전시되어 있다.",
+      "metadata": {
+        "child_fee": 500.0,
+        "weekday_close": "17:30",
+        "name": "소전미술관",
+        "sido": "전남광주특별자치도",
+        "holiday_close": "17:30",
+        "latitude": 34.48678361,
+        "requires_manual_review": true,
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/67/4142967_image2_1.jpg",
+        "holiday_open": "09:00",
+        "weekday_open": "09:00",
+        "adult_fee": 1500.0,
+        "image_copyright": "Type1",
+        "youth_fee": 800.0,
+        "closure_rule_raw": "월+설 당일+추석 당일",
+        "longitude": 126.2646155,
+        "sigungu": "진도군",
+        "ownership_type": "공립",
+        "adult_fee_status": "BASE_FEE_PAID",
+        "address": "전남광주통합특별시 진도군 진도읍 철마길 29",
+        "source_types": "BASE|TOUR_API"
+      },
+      "vector_rank": 5,
+      "bm25_rank": null,
+      "vector_distance": 0.5632728934288025,
+      "vector_score": null,
+      "bm25_score": null,
+      "vector_document": "서예 대가인 소전 손재형 선생의 작품과 그를 위해 작업된 국내 거장들의 작품이 전시되어 남도문화의 새로운 자랑거리로 자리매김하고 있다. 소전미술관에 전시된 작품들은 소전선생의 유족들이 소장하고 있던 부친의 평생 역작과 소전 생전을 위해 국내 거장들이 심혈을 기울인 그림들을 진도군에 기증한 것으로, 논산 이은상 시비문 등 소전 손재형 선생의 주옥같은 작품과 소장 그림 300여 점을 교대로 전시하고 있다. 제1전시실에는 선생의 청년시절 작품이, 2 전시실에는 문인화, 3 전시실에는 장년시설등의 작품, 4 전시실에는 양지니, 서희환, 박행보 등 제자들의 작품과 의제 허백련 선생등 거장들의 작품이 전시되어 있다. 추사 김정희 이래 서예 대가로 추앙받을 정도로 우리나라 서예계에 뚜렷한 발자취를 남긴 서예계의 거목인 소전 손재형 선생의 작품과 소장품이 전시되어 있으며 그의 제자 양진이·서희환 등의 작품과 의제 허백련 선생의 작품이 전시되어 있다.",
+      "bm25_document": "",
+      "best_span_id": null,
+      "best_span_text": null,
+      "fusion_score": 0.015384615384615385,
+      "retrieved_by": [
+        "vector"
+      ],
+      "fusion_rank": 12,
+      "rerank_score": 0.01175580732524395,
+      "rank": 4,
+      "score": 0.01175580732524395,
+      "score_type": "cross_encoder",
+      "distance": 0.5632728934288025,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector"
+      ],
+      "retriever": "vector",
+      "source_doc_ids": [
+        "DOC-B0155-TOUR_API-1623916",
+        "DOC-B0155-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0155-TOUR_API-1623916",
+          "source_type": "TOUR_API",
+          "source_record_id": "1623916",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=73",
+          "match_trust": "RECHECKED_BY_RULE_NOT_HUMAN_APPROVED"
+        },
+        {
+          "doc_id": "DOC-B0155-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0155",
+          "source_locator": "data/raw/museum_base_1070.csv#row=156",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 75,
+          "doc_ids": [
+            "DOC-B0155-TOUR_API-1623916"
+          ]
+        },
+        {
+          "start": 76,
+          "end": 226,
+          "doc_ids": [
+            "DOC-B0155-TOUR_API-1623916"
+          ]
+        },
+        {
+          "start": 227,
+          "end": 342,
+          "doc_ids": [
+            "DOC-B0155-TOUR_API-1623916"
+          ]
+        },
+        {
+          "start": 343,
+          "end": 473,
+          "doc_ids": [
+            "DOC-B0155-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=73",
+      "text": "서예 대가인 소전 손재형 선생의 작품과 그를 위해 작업된 국내 거장들의 작품이 전시되어 남도문화의 새로운 자랑거리로 자리매김하고 있다. 소전미술관에 전시된 작품들은 소전선생의 유족들이 소장하고 있던 부친의 평생 역작과 소전 생전을 위해 국내 거장들이 심혈을 기울인 그림들을 진도군에 기증한 것으로, 논산 이은상 시비문 등 소전 손재형 선생의 주옥같은 작품과 소장 그림 300여 점을 교대로 전시하고 있다. 제1전시실에는 선생의 청년시절 작품이, 2 전시실에는 문인화, 3 전시실에는 장년시설등의 작품, 4 전시실에는 양지니, 서희환, 박행보 등 제자들의 작품과 의제 허백련 선생등 거장들의 작품이 전시되어 있다. 추사 김정희 이래 서예 대가로 추앙받을 정도로 우리나라 서예계에 뚜렷한 발자취를 남긴 서예계의 거목인 소전 손재형 선생의 작품과 소장품이 전시되어 있으며 그의 제자 양진이·서희환 등의 작품과 의제 허백련 선생의 작품이 전시되어 있다.",
+      "sido": "전남광주특별자치도",
+      "sigungu": "진도군",
+      "span_id": "",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=73"
+      ],
+      "evidence_id": "E4",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=98",
+        "fields": {
+          "name": "소전미술관",
+          "sido": "전남광주통합특별시",
+          "sigungu": "진도군",
+          "address": "전남광주통합특별시 진도군 진도읍 철마길 29",
+          "ownership_type": "공립",
+          "adult_fee": "1500",
+          "youth_fee": "800",
+          "child_fee": "500",
+          "adult_fee_status": "BASE_FEE_PAID",
+          "weekday_open": "09:00",
+          "weekday_close": "17:30",
+          "holiday_open": "09:00",
+          "holiday_close": "17:30",
+          "closure_rule_raw": "월+설 당일+추석 당일"
+        },
+        "base_data_date": "2026-08-13",
+        "trust": "derived_dataset_not_human_verified",
+        "normalizations": {
+          "sido": {
+            "source_value": "전남광주통합특별시",
+            "matched_value": "전남광주특별자치도",
+            "rule": "configured_sido_alias"
+          }
+        }
+      }
+    },
+    {
+      "museum_id": "M0407",
+      "name": "계양산성박물관",
+      "document": "계양산성박물관은 계양산성을 비롯한 우리나라 산성의 발달사와 계양의 역사와 문화를 한눈에 살펴볼 수 있도록 건립된 국내 최초의 산성 전문 박물관이다. 박물관의 상설전시는 역사의 테라는 주제 아래 ‘우리나라 산성의 발달사’와 ‘계양산성의 유적과 유물’에 대한 자료를 2개의 전시실에 나누어 전시하고 있다. 2층에는 다양한 주제의 전시를 진행할 수 있는 ‘기획전시실’이 마련되어 있으며, 매년 1회 기획전시를 개최해 상설전시에서 모두 담지 못한 계양산성 및 계양산성 출토유물의 역사·문화적 가치를 제고할 수 있는 전시 기획을 통해 다양한 전시 서비스를 제공하고 있다.",
+      "metadata": {
+        "name": "계양산성박물관",
+        "holiday_close": "18:00",
+        "child_fee": 0.0,
+        "weekday_open": "09:00",
+        "weekday_close": "18:00",
+        "homepage_url": "http://museum.gyeyang.go.kr/",
+        "fee_notes": "군경 500원",
+        "holiday_open": "09:00",
+        "amenities_raw": "카페테리아+야외매점+주차장",
+        "address": "인천광역시 계양구 계양산로 101",
+        "sido": "인천광역시",
+        "image_copyright": "Type1",
+        "adult_fee_status": "BASE_FEE_PAID",
+        "youth_fee": 0.0,
+        "source_types": "TOUR_API",
+        "closure_rule_raw": "월(단 공휴일과 겹치는 경우 그 다음날 휴관)+1월1일+설 당일+추석 당일",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/30/4063230_image2_1.jpg",
+        "longitude": 126.727032,
+        "ownership_type": "공립",
+        "sigungu": "계양구",
+        "requires_manual_review": true,
+        "latitude": 37.548054,
+        "adult_fee": 1000.0
+      },
+      "vector_rank": null,
+      "bm25_rank": 6,
+      "vector_distance": null,
+      "vector_score": null,
+      "bm25_score": 7.948267538478068,
+      "vector_document": "",
+      "bm25_document": "계양산성박물관은 계양산성을 비롯한 우리나라 산성의 발달사와 계양의 역사와 문화를 한눈에 살펴볼 수 있도록 건립된 국내 최초의 산성 전문 박물관이다. 박물관의 상설전시는 역사의 테라는 주제 아래 ‘우리나라 산성의 발달사’와 ‘계양산성의 유적과 유물’에 대한 자료를 2개의 전시실에 나누어 전시하고 있다. 2층에는 다양한 주제의 전시를 진행할 수 있는 ‘기획전시실’이 마련되어 있으며, 매년 1회 기획전시를 개최해 상설전시에서 모두 담지 못한 계양산성 및 계양산성 출토유물의 역사·문화적 가치를 제고할 수 있는 전시 기획을 통해 다양한 전시 서비스를 제공하고 있다.",
+      "best_span_id": "chroma:M0407",
+      "best_span_text": "계양산성박물관은 계양산성을 비롯한 우리나라 산성의 발달사와 계양의 역사와 문화를 한눈에 살펴볼 수 있도록 건립된 국내 최초의 산성 전문 박물관이다. 박물관의 상설전시는 역사의 테라는 주제 아래 ‘우리나라 산성의 발달사’와 ‘계양산성의 유적과 유물’에 대한 자료를 2개의 전시실에 나누어 전시하고 있다. 2층에는 다양한 주제의 전시를 진행할 수 있는 ‘기획전시실’이 마련되어 있으며, 매년 1회 기획전시를 개최해 상설전시에서 모두 담지 못한 계양산성 및 계양산성 출토유물의 역사·문화적 가치를 제고할 수 있는 전시 기획을 통해 다양한 전시 서비스를 제공하고 있다.",
+      "fusion_score": 0.015151515151515152,
+      "retrieved_by": [
+        "bm25"
+      ],
+      "fusion_rank": 14,
+      "rerank_score": 0.008131589740514755,
+      "rank": 5,
+      "score": 0.008131589740514755,
+      "score_type": "cross_encoder",
+      "distance": null,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "bm25"
+      ],
+      "retriever": "bm25",
+      "span_id": "chroma:M0407",
+      "source_doc_ids": [
+        "DOC-B0407-TOUR_API-2718558"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0407-TOUR_API-2718558",
+          "source_type": "TOUR_API",
+          "source_record_id": "2718558",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=191",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 82,
+          "doc_ids": [
+            "DOC-B0407-TOUR_API-2718558"
+          ]
+        },
+        {
+          "start": 83,
+          "end": 168,
+          "doc_ids": [
+            "DOC-B0407-TOUR_API-2718558"
+          ]
+        },
+        {
+          "start": 169,
+          "end": 314,
+          "doc_ids": [
+            "DOC-B0407-TOUR_API-2718558"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=191",
+      "text": "계양산성박물관은 계양산성을 비롯한 우리나라 산성의 발달사와 계양의 역사와 문화를 한눈에 살펴볼 수 있도록 건립된 국내 최초의 산성 전문 박물관이다. 박물관의 상설전시는 역사의 테라는 주제 아래 ‘우리나라 산성의 발달사’와 ‘계양산성의 유적과 유물’에 대한 자료를 2개의 전시실에 나누어 전시하고 있다. 2층에는 다양한 주제의 전시를 진행할 수 있는 ‘기획전시실’이 마련되어 있으며, 매년 1회 기획전시를 개최해 상설전시에서 모두 담지 못한 계양산성 및 계양산성 출토유물의 역사·문화적 가치를 제고할 수 있는 전시 기획을 통해 다양한 전시 서비스를 제공하고 있다.",
+      "sido": "인천광역시",
+      "sigungu": "계양구",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=191"
+      ],
+      "evidence_id": "E5",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=291",
+        "fields": {
+          "name": "계양산성박물관",
+          "sido": "인천광역시",
+          "sigungu": "계양구",
+          "address": "인천광역시 계양구 계양산로 101",
+          "ownership_type": "공립",
+          "adult_fee": "1000",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_PAID",
+          "weekday_open": "09:00",
+          "weekday_close": "18:00",
+          "holiday_open": "09:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "월(단 공휴일과 겹치는 경우 그 다음날 휴관)+1월1일+설 당일+추석 당일",
+          "amenities_raw": "카페테리아+야외매점+주차장"
+        },
+        "base_data_date": "2026-06-12",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    }
+  ],
+  "answer": "소수박물관 제2전시실은 ‘유교의 전래’를 주제로 하며, 주요 전시물로 이황의 『성학십도』, 사서삼경, 학맥도 등이 있습니다. [E1]",
+  "retrieval_status": "ok",
+  "answer_status": "answered",
+  "route": "hybrid",
+  "retry_count": 0,
+  "supervisor_verified": true,
+  "rerank_applied": true,
+  "retriever_errors": [],
+  "warnings": [],
+  "duration_ms": 159507.01,
+  "error_type": "",
+  "hit_at_1": 1,
+  "hit_at_3": 1,
+  "hit_at_5": 1,
+  "recall_at_5": 1.0,
+  "mrr_at_10": 1.0
+}

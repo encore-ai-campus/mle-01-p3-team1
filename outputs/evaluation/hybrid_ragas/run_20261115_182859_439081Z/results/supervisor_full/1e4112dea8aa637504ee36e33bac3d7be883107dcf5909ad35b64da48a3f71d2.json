@@ -1,0 +1,795 @@
+{
+  "evidence_context_version": "grounded-evidence-v2",
+  "evaluation_contexts": [
+    "{\"evidence_context_version\": \"grounded-evidence-v2\", \"evidence_id\": \"E1\", \"metadata_provenance\": {\"base_data_date\": \"2026-05-19\", \"fields\": {\"address\": \"경기도 여주시 신륵사길 6-12\", \"adult_fee\": \"0\", \"adult_fee_status\": \"BASE_FEE_ZERO_CHECK_EXCEPTIONS\", \"amenities_raw\": \"청춘카페\", \"child_fee\": \"0\", \"closure_rule_raw\": \"월요일+추석당일+설날당일+1월1일\", \"holiday_close\": \"18:00\", \"holiday_open\": \"09:00\", \"name\": \"여주박물관\", \"ownership_type\": \"공립\", \"sido\": \"경기도\", \"sigungu\": \"여주시\", \"weekday_close\": \"18:00\", \"weekday_open\": \"09:00\", \"youth_fee\": \"0\"}, \"source_kind\": \"derived_csv_row\", \"source_locator\": \"data/processed/museum_final_738.csv#record=225\", \"trust\": \"derived_dataset_not_human_verified\"}, \"museum_id\": \"M0312\", \"name\": \"여주박물관\", \"source_doc_ids\": [\"DOC-B0312-TOUR_API-130965\", \"DOC-B0312-BASE\"], \"source_documents\": [{\"doc_id\": \"DOC-B0312-TOUR_API-130965\", \"match_trust\": \"AUTO_MATCH_NOT_HUMAN_VERIFIED\", \"source_locator\": \"data/raw/museum_tourapi_with_overview.csv#row=153\", \"source_record_id\": \"130965\", \"source_type\": \"TOUR_API\"}, {\"doc_id\": \"DOC-B0312-BASE\", \"match_trust\": \"BASE_SOURCE\", \"source_locator\": \"data/raw/museum_base_1070.csv#row=313\", \"source_record_id\": \"B0312\", \"source_type\": \"BASE\"}], \"source_locator\": \"data/raw/museum_tourapi_with_overview.csv#row=153\", \"source_locators\": [\"data/raw/museum_tourapi_with_overview.csv#row=153\"], \"source_scope\": \"text\", \"source_spans\": [{\"doc_ids\": [\"DOC-B0312-TOUR_API-130965\"], \"end\": 101, \"start\": 0}, {\"doc_ids\": [\"DOC-B0312-TOUR_API-130965\"], \"end\": 236, \"start\": 102}, {\"doc_ids\": [\"DOC-B0312-TOUR_API-130965\"], \"end\": 300, \"start\": 237}, {\"doc_ids\": [\"DOC-B0312-TOUR_API-130965\"], \"end\": 388, \"start\": 301}, {\"doc_ids\": [\"DOC-B0312-TOUR_API-130965\"], \"end\": 464, \"start\": 389}, {\"doc_ids\": [\"DOC-B0312-TOUR_API-130965\"], \"end\": 573, \"start\": 465}, {\"doc_ids\": [\"DOC-B0312-TOUR_API-130965\"], \"end\": 615, \"start\": 574}, {\"doc_ids\": [\"DOC-B0312-TOUR_API-130965\"], \"end\": 650, \"start\": 616}, {\"doc_ids\": [\"DOC-B0312-TOUR_API-130965\"], \"end\": 726, \"start\": 651}, {\"doc_ids\": [\"DOC-B0312-TOUR_API-130965\"], \"end\": 778, \"start\": 727}, {\"doc_ids\": [\"DOC-B0312-TOUR_API-130965\"], \"end\": 849, \"start\": 779}, {\"doc_ids\": [\"DOC-B0312-TOUR_API-130965\"], \"end\": 957, \"start\": 850}, {\"doc_ids\": [\"DOC-B0312-BASE\"], \"end\": 1012, \"start\": 958}], \"source_urls\": [], \"text\": \"1997년 여주군향토사료관으로 문을 연 여주박물관은 여주의 역사와 민속자료 등을 조사·수집·전시·교육하고, 새로운 학술자료를 발굴하며 여주의 정체성을 확립하는 역할을 수행하고 있다. 2010년 전시실 확장 후 제1종 전문박물관으로 등록하여 여주박물관으로 명칭을 변경하였으며, 2016년 7월 14일 여마관(신관)의 건립으로 전국에 흩어졌던 여주지역 발굴출토 국가귀속유물과 그간 수집한 다양한 유물을 전시할 수 있게 되었다. 전시실은 상설전시실과 기획전시실, 야외전시실로 구분되어 있으며, 상설전시실은 4가지 주제로 전시를 진행하고 있다. 여주역사실에서는 국립중앙박물관을 비롯한 여러 기관들에서 보관하던 주요 유적 출토 국가귀속 유물들과 그간 구입·기증을 통해 수집한 중요유물들을 전시하고 있다. 흔암리 선사유적지, 신륵사, 고달사지, 세종대왕릉과 효종대왕릉, 명성황후 생가 등 수많은 문화유적은 여주의 오랜 역사를 증명하고 있다. 남한강 수석전시실은 김정식 선생이 57년간 모은 수석을 기증받아 전시한 곳으로, 산수경석·물형석·추상석·12지석 등 자연이 빚은 최고의 예술작품인 수석의 멋과 아름다움을 느낄 수 있는 공간이다. 갖가지 수석에 담긴 의미를 여주 남한강이 가지고 있는 이야기로 풀어놓았다. 수석의 신비로움을 다채로운 방식으로 이해할 수 있는 공간이다. 류주현 문학전시실은 우리나라에 ‘대하 역사소설’이라는 장르를 개척하신 여주 출신의 묵사 류주현 선생의 삶과 작품세계를 설명한 공간이다. 류주현 선생은 다양·다작의 작가로 『조선총독부』, 『대원군』 등을 대표작으로 꼽을 수 있다. 한국 대표 문인으로서 선생의 생애와 작품세계, 문인들과의 교류를 통해 옛 문인들의 멋스러운 삶의 정취를 느낄 수 있을 것이다. 조선 왕릉실은 세종 영릉(英陵)과 효종 영릉(寧陵) 두 기의 조선 왕릉이 여주로 천릉하면서 조선시대부터 현대에 이르기까지 왕릉과 함께 변화한 여주의 역사와 여주 사람들의 삶을 살펴볼 수 있다. 여주의 역사와 전통문화를 아우르는 시립박물관으로, 전시와 교육, 체험을 할 수 있는 문화공간이다.\"}",
+    "{\"evidence_context_version\": \"grounded-evidence-v2\", \"evidence_id\": \"E2\", \"metadata_provenance\": {\"base_data_date\": \"2026-05-19\", \"fields\": {\"address\": \"경기도 여주시 세종로 394-36\", \"adult_fee\": \"12000\", \"adult_fee_status\": \"BASE_FEE_PAID\", \"amenities_raw\": \"a Book Museum+카페\", \"child_fee\": \"6000\", \"closure_rule_raw\": \"월요일+화요일+설날당일+추석당일\", \"holiday_close\": \"17:00\", \"holiday_open\": \"11:00\", \"name\": \"여주미술관\", \"ownership_type\": \"사립\", \"sido\": \"경기도\", \"sigungu\": \"여주시\", \"weekday_close\": \"17:00\", \"weekday_open\": \"11:00\", \"youth_fee\": \"8000\"}, \"source_kind\": \"derived_csv_row\", \"source_locator\": \"data/processed/museum_final_738.csv#record=229\", \"trust\": \"derived_dataset_not_human_verified\"}, \"museum_id\": \"M0316\", \"name\": \"여주미술관\", \"source_doc_ids\": [\"DOC-B0316-TOUR_API-2766513\", \"DOC-B0316-BASE\"], \"source_documents\": [{\"doc_id\": \"DOC-B0316-TOUR_API-2766513\", \"match_trust\": \"AUTO_MATCH_NOT_HUMAN_VERIFIED\", \"source_locator\": \"data/raw/museum_tourapi_with_overview.csv#row=155\", \"source_record_id\": \"2766513\", \"source_type\": \"TOUR_API\"}, {\"doc_id\": \"DOC-B0316-BASE\", \"match_trust\": \"BASE_SOURCE\", \"source_locator\": \"data/raw/museum_base_1070.csv#row=317\", \"source_record_id\": \"B0316\", \"source_type\": \"BASE\"}], \"source_locator\": \"data/raw/museum_tourapi_with_overview.csv#row=155\", \"source_locators\": [\"data/raw/museum_tourapi_with_overview.csv#row=155\"], \"source_scope\": \"text\", \"source_spans\": [{\"doc_ids\": [\"DOC-B0316-TOUR_API-2766513\"], \"end\": 22, \"start\": 0}, {\"doc_ids\": [\"DOC-B0316-TOUR_API-2766513\"], \"end\": 88, \"start\": 23}, {\"doc_ids\": [\"DOC-B0316-TOUR_API-2766513\"], \"end\": 219, \"start\": 89}, {\"doc_ids\": [\"DOC-B0316-TOUR_API-2766513\"], \"end\": 262, \"start\": 220}, {\"doc_ids\": [\"DOC-B0316-BASE\"], \"end\": 310, \"start\": 263}, {\"doc_ids\": [\"DOC-B0316-BASE\"], \"end\": 376, \"start\": 311}], \"source_urls\": [], \"text\": \"경기도 여주시에 위치해 있는 미술관이다. 2019년 개관하였으며 미술관 설립자이자 작가인 박해룡의 작품들과 수집한 미술작품 700여 점을 상시 전시하고 있다. 깔끔한 외관과 아기자기한 공간 구성으로 현대인들의 감성을 자극하는 장소이며 여주 미술관의 감성을 닮은 카페 돈키호테는 독특한 소품들로 내부를 꾸며놓았다, 미술관 감상 후 조용하고 한적하여 카페에서 잔디정원을 바라보며 휴식하기에 좋다. 수도권에서 멀지 않은 곳에 있어 주말 나들이 삼아 방문하기 손색없는 곳이다. 2019년 개관하여 시민들이 일상속에서 미술을 친근하고 편안하게 접할 수 있는 공간. 미술관에는 설립자이자 작가로 활동중인 박해룡의 작품들과 그동안 수집한 미술 작품들 700점을 상시로 전시한 공간이다.\"}",
+    "{\"evidence_context_version\": \"grounded-evidence-v2\", \"evidence_id\": \"E3\", \"metadata_provenance\": {\"base_data_date\": \"2026-05-19\", \"fields\": {\"address\": \"경기도 여주시 명성로 71\", \"adult_fee\": \"0\", \"adult_fee_status\": \"BASE_FEE_ZERO_CHECK_EXCEPTIONS\", \"child_fee\": \"0\", \"closure_rule_raw\": \"월요일+추석당일+설날당일+1월1일\", \"holiday_close\": \"18:00\", \"holiday_open\": \"09:00\", \"name\": \"명성황후기념관\", \"ownership_type\": \"공립\", \"sido\": \"경기도\", \"sigungu\": \"여주시\", \"weekday_close\": \"18:00\", \"weekday_open\": \"09:00\", \"youth_fee\": \"0\"}, \"source_kind\": \"derived_csv_row\", \"source_locator\": \"data/processed/museum_final_738.csv#record=226\", \"trust\": \"derived_dataset_not_human_verified\"}, \"museum_id\": \"M0313\", \"name\": \"명성황후기념관\", \"source_doc_ids\": [\"DOC-B0313-TOUR_API-130327\", \"DOC-B0313-BASE\"], \"source_documents\": [{\"doc_id\": \"DOC-B0313-TOUR_API-130327\", \"match_trust\": \"RECHECKED_BY_RULE_NOT_HUMAN_APPROVED\", \"source_locator\": \"data/raw/museum_tourapi_with_overview.csv#row=154\", \"source_record_id\": \"130327\", \"source_type\": \"TOUR_API\"}, {\"doc_id\": \"DOC-B0313-BASE\", \"match_trust\": \"BASE_SOURCE\", \"source_locator\": \"data/raw/museum_base_1070.csv#row=314\", \"source_record_id\": \"B0313\", \"source_type\": \"BASE\"}], \"source_locator\": \"data/raw/museum_tourapi_with_overview.csv#row=154\", \"source_locators\": [\"data/raw/museum_tourapi_with_overview.csv#row=154\"], \"source_scope\": \"text\", \"source_spans\": [{\"doc_ids\": [\"DOC-B0313-TOUR_API-130327\"], \"end\": 79, \"start\": 0}, {\"doc_ids\": [\"DOC-B0313-TOUR_API-130327\"], \"end\": 173, \"start\": 80}, {\"doc_ids\": [\"DOC-B0313-TOUR_API-130327\"], \"end\": 252, \"start\": 174}, {\"doc_ids\": [\"DOC-B0313-TOUR_API-130327\"], \"end\": 291, \"start\": 253}, {\"doc_ids\": [\"DOC-B0313-BASE\"], \"end\": 386, \"start\": 292}], \"source_urls\": [], \"text\": \"명성황후기념관은 여주에서 태어나고 자란 조선 제26대 왕 고종의 비(妃)인 명성황후를 기념하기 위해 2017년 여주시가 설립한 공립박물관이다. 기념관은 명성황후가 태어나 8살까지 어린 시절을 보낸 생가의 바로 맞은편에 건립되었으며, 명성황후와 당시의 시대상을 엿볼 수 있는 다양한 유물과 자료를 전시하고 있다. 여주시민과 관람객을 위한 다양한 문화 프로그램을 지속적으로 기획하고 운영하여 ‘왕비의 고장’ 여주를 대표하는 문화 기관으로 거듭나고자 한다. 상설전시실에서는 , 등 명성황후와 조선시대의 유물을 만나볼 수 있다. 여주에서 태어나고 자란 조선 제26대 왕 고종의 비인 명성황후를 기념하기 위한 박물관으로 명성황후와 당시의 시대상을 살펴볼 수 있는 다양한 유물과 자료를 전시하고 있다.\"}",
+    "{\"evidence_context_version\": \"grounded-evidence-v2\", \"evidence_id\": \"E4\", \"metadata_provenance\": {\"base_data_date\": \"2026-07-18\", \"fields\": {\"address\": \"부산광역시 사상구 낙동대로 1258번길 36\", \"adult_fee\": \"0\", \"adult_fee_status\": \"BASE_FEE_ZERO_CHECK_EXCEPTIONS\", \"amenities_raw\": \"휠체어+장애인 주차구역+기저귀갈이대\", \"child_fee\": \"0\", \"closure_rule_raw\": \"1월 1일+설 및 추석연휴+매주 월요일(공휴일이면 그 다음 첫번째 평일 휴관)\", \"holiday_close\": \"18:00\", \"holiday_open\": \"09:00\", \"name\": \"사상생활사박물관\", \"ownership_type\": \"공립\", \"sido\": \"부산광역시\", \"sigungu\": \"사상구\", \"weekday_close\": \"18:00\", \"weekday_open\": \"09:00\", \"youth_fee\": \"0\"}, \"source_kind\": \"derived_csv_row\", \"source_locator\": \"data/processed/museum_final_738.csv#record=200\", \"trust\": \"derived_dataset_not_human_verified\"}, \"museum_id\": \"M0286\", \"name\": \"사상생활사박물관\", \"source_doc_ids\": [\"DOC-B0286-TOUR_API-3017191\", \"DOC-B0286-BASE\"], \"source_documents\": [{\"doc_id\": \"DOC-B0286-TOUR_API-3017191\", \"match_trust\": \"AUTO_MATCH_NOT_HUMAN_VERIFIED\", \"source_locator\": \"data/raw/museum_tourapi_with_overview.csv#row=142\", \"source_record_id\": \"3017191\", \"source_type\": \"TOUR_API\"}, {\"doc_id\": \"DOC-B0286-BASE\", \"match_trust\": \"BASE_SOURCE\", \"source_locator\": \"data/raw/museum_base_1070.csv#row=287\", \"source_record_id\": \"B0286\", \"source_type\": \"BASE\"}], \"source_locator\": \"data/raw/museum_tourapi_with_overview.csv#row=142\", \"source_locators\": [\"data/raw/museum_tourapi_with_overview.csv#row=142\"], \"source_scope\": \"text\", \"source_spans\": [{\"doc_ids\": [\"DOC-B0286-TOUR_API-3017191\"], \"end\": 147, \"start\": 0}, {\"doc_ids\": [\"DOC-B0286-TOUR_API-3017191\"], \"end\": 348, \"start\": 148}, {\"doc_ids\": [\"DOC-B0286-TOUR_API-3017191\"], \"end\": 371, \"start\": 349}, {\"doc_ids\": [\"DOC-B0286-BASE\"], \"end\": 408, \"start\": 372}], \"source_urls\": [], \"text\": \"사상생활사박물관은 2016년 5월 개관하여 사상의 자연과 함께 살아온 사람들의 생활사 변천 과정을 전시하고 지역에 산재해 있는 관광자원을 소개하는 곳이며 주민들이 주도적으로 운영에 참여하고 전문가와 행정이 협업하여 지역의 문화를 발전시키는 주민들의 소통 공간이다. 사상지역은 1970년대 대한민국 근대화에 있어 중추적인 역할을 해왔으나 공업화의 악영향으로 회색도시, 문화의 불모지라는 오명과 함께 날로 낙후되어 가고 있는 사상공업지역에 문화와 소통의 향기를 전하는 문화 네트워크형 박물관을 건립하여 잊혀가는 사상 주민들의 생활사와 추억들을 수집하여 역사를 조명하고 미래를 준비하기 위하여 사상생활사박물관을 건립하게 되었다. 특별 전시와 기획 전시도 운영하고 있다. 사상생활사박물관은 2016년 5월 6일 개관한 생활사 전문 박물관\"}",
+    "{\"evidence_context_version\": \"grounded-evidence-v2\", \"evidence_id\": \"E5\", \"metadata_provenance\": {\"base_data_date\": \"2024-08-08\", \"fields\": {\"address\": \"전라남도 나주시 다시면 백호로 287\", \"adult_fee\": \"0\", \"adult_fee_status\": \"BASE_FEE_ZERO_CHECK_EXCEPTIONS\", \"amenities_raw\": \"북카페, 야외체험시설, 주차장, 무선인터넷\", \"child_fee\": \"0\", \"closure_rule_raw\": \"신정, 매주 월요일, 설, 추석\", \"holiday_close\": \"18:00\", \"holiday_open\": \"10:00\", \"name\": \"나주복암리고분전시관\", \"ownership_type\": \"공립\", \"sido\": \"전라남도\", \"sigungu\": \"나주시\", \"weekday_close\": \"18:00\", \"weekday_open\": \"10:00\", \"youth_fee\": \"0\"}, \"normalizations\": {\"sido\": {\"matched_value\": \"전남광주특별자치도\", \"rule\": \"configured_sido_alias\", \"source_value\": \"전라남도\"}}, \"source_kind\": \"derived_csv_row\", \"source_locator\": \"data/processed/museum_final_738.csv#record=505\", \"trust\": \"derived_dataset_not_human_verified\"}, \"museum_id\": \"M0724\", \"name\": \"나주복암리고분전시관\", \"source_doc_ids\": [\"DOC-B0724-BASE\"], \"source_documents\": [{\"doc_id\": \"DOC-B0724-BASE\", \"match_trust\": \"BASE_SOURCE\", \"source_locator\": \"data/raw/museum_base_1070.csv#row=725\", \"source_record_id\": \"B0724\", \"source_type\": \"BASE\"}], \"source_locator\": \"data/raw/museum_base_1070.csv#row=725\", \"source_locators\": [\"data/raw/museum_base_1070.csv#row=725\"], \"source_scope\": \"text\", \"source_spans\": [{\"doc_ids\": [\"DOC-B0724-BASE\"], \"end\": 71, \"start\": 0}], \"source_urls\": [], \"text\": \"국가 사적 제404호인 나주복암리고분을 실물모습으로 전시하여 영산강유역 고대문화의 역동성과 중요성을 알기 위해 2016년에 개관\"}"
+  ],
+  "mode": "supervisor_full",
+  "question_id": "Q192",
+  "evidence": [
+    {
+      "museum_id": "M0312",
+      "name": "여주박물관",
+      "document": "1997년 여주군향토사료관으로 문을 연 여주박물관은 여주의 역사와 민속자료 등을 조사·수집·전시·교육하고, 새로운 학술자료를 발굴하며 여주의 정체성을 확립하는 역할을 수행하고 있다. 2010년 전시실 확장 후 제1종 전문박물관으로 등록하여 여주박물관으로 명칭을 변경하였으며, 2016년 7월 14일 여마관(신관)의 건립으로 전국에 흩어졌던 여주지역 발굴출토 국가귀속유물과 그간 수집한 다양한 유물을 전시할 수 있게 되었다. 전시실은 상설전시실과 기획전시실, 야외전시실로 구분되어 있으며, 상설전시실은 4가지 주제로 전시를 진행하고 있다. 여주역사실에서는 국립중앙박물관을 비롯한 여러 기관들에서 보관하던 주요 유적 출토 국가귀속 유물들과 그간 구입·기증을 통해 수집한 중요유물들을 전시하고 있다. 흔암리 선사유적지, 신륵사, 고달사지, 세종대왕릉과 효종대왕릉, 명성황후 생가 등 수많은 문화유적은 여주의 오랜 역사를 증명하고 있다. 남한강 수석전시실은 김정식 선생이 57년간 모은 수석을 기증받아 전시한 곳으로, 산수경석·물형석·추상석·12지석 등 자연이 빚은 최고의 예술작품인 수석의 멋과 아름다움을 느낄 수 있는 공간이다. 갖가지 수석에 담긴 의미를 여주 남한강이 가지고 있는 이야기로 풀어놓았다. 수석의 신비로움을 다채로운 방식으로 이해할 수 있는 공간이다. 류주현 문학전시실은 우리나라에 ‘대하 역사소설’이라는 장르를 개척하신 여주 출신의 묵사 류주현 선생의 삶과 작품세계를 설명한 공간이다. 류주현 선생은 다양·다작의 작가로 『조선총독부』, 『대원군』 등을 대표작으로 꼽을 수 있다. 한국 대표 문인으로서 선생의 생애와 작품세계, 문인들과의 교류를 통해 옛 문인들의 멋스러운 삶의 정취를 느낄 수 있을 것이다. 조선 왕릉실은 세종 영릉(英陵)과 효종 영릉(寧陵) 두 기의 조선 왕릉이 여주로 천릉하면서 조선시대부터 현대에 이르기까지 왕릉과 함께 변화한 여주의 역사와 여주 사람들의 삶을 살펴볼 수 있다. 여주의 역사와 전통문화를 아우르는 시립박물관으로, 전시와 교육, 체험을 할 수 있는 문화공간이다.",
+      "metadata": {
+        "closure_rule_raw": "월요일+추석당일+설날당일+1월1일",
+        "name": "여주박물관",
+        "sigungu": "여주시",
+        "sido": "경기도",
+        "ownership_type": "공립",
+        "holiday_open": "09:00",
+        "child_fee": 0.0,
+        "source_types": "BASE|TOUR_API",
+        "address": "경기도 여주시 신륵사길 6-12",
+        "latitude": 37.2996535,
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "weekday_close": "18:00",
+        "holiday_close": "18:00",
+        "image_copyright": "Type1",
+        "transport_notes": "여주IC → 여주대교 → 신륵사 관광단지 → 신륵사 관지 내 강변에 위치",
+        "youth_fee": 0.0,
+        "homepage_url": "http://www.yeoju.go.kr/museum",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/95/3540495_image2_1.jpg",
+        "weekday_open": "09:00",
+        "adult_fee": 0.0,
+        "amenities_raw": "청춘카페",
+        "requires_manual_review": true,
+        "longitude": 127.6533782
+      },
+      "vector_rank": 3,
+      "bm25_rank": 1,
+      "vector_distance": 0.55607670545578,
+      "vector_score": null,
+      "bm25_score": 18.600760981943463,
+      "vector_document": "1997년 여주군향토사료관으로 문을 연 여주박물관은 여주의 역사와 민속자료 등을 조사·수집·전시·교육하고, 새로운 학술자료를 발굴하며 여주의 정체성을 확립하는 역할을 수행하고 있다. 2010년 전시실 확장 후 제1종 전문박물관으로 등록하여 여주박물관으로 명칭을 변경하였으며, 2016년 7월 14일 여마관(신관)의 건립으로 전국에 흩어졌던 여주지역 발굴출토 국가귀속유물과 그간 수집한 다양한 유물을 전시할 수 있게 되었다. 전시실은 상설전시실과 기획전시실, 야외전시실로 구분되어 있으며, 상설전시실은 4가지 주제로 전시를 진행하고 있다. 여주역사실에서는 국립중앙박물관을 비롯한 여러 기관들에서 보관하던 주요 유적 출토 국가귀속 유물들과 그간 구입·기증을 통해 수집한 중요유물들을 전시하고 있다. 흔암리 선사유적지, 신륵사, 고달사지, 세종대왕릉과 효종대왕릉, 명성황후 생가 등 수많은 문화유적은 여주의 오랜 역사를 증명하고 있다. 남한강 수석전시실은 김정식 선생이 57년간 모은 수석을 기증받아 전시한 곳으로, 산수경석·물형석·추상석·12지석 등 자연이 빚은 최고의 예술작품인 수석의 멋과 아름다움을 느낄 수 있는 공간이다. 갖가지 수석에 담긴 의미를 여주 남한강이 가지고 있는 이야기로 풀어놓았다. 수석의 신비로움을 다채로운 방식으로 이해할 수 있는 공간이다. 류주현 문학전시실은 우리나라에 ‘대하 역사소설’이라는 장르를 개척하신 여주 출신의 묵사 류주현 선생의 삶과 작품세계를 설명한 공간이다. 류주현 선생은 다양·다작의 작가로 『조선총독부』, 『대원군』 등을 대표작으로 꼽을 수 있다. 한국 대표 문인으로서 선생의 생애와 작품세계, 문인들과의 교류를 통해 옛 문인들의 멋스러운 삶의 정취를 느낄 수 있을 것이다. 조선 왕릉실은 세종 영릉(英陵)과 효종 영릉(寧陵) 두 기의 조선 왕릉이 여주로 천릉하면서 조선시대부터 현대에 이르기까지 왕릉과 함께 변화한 여주의 역사와 여주 사람들의 삶을 살펴볼 수 있다. 여주의 역사와 전통문화를 아우르는 시립박물관으로, 전시와 교육, 체험을 할 수 있는 문화공간이다.",
+      "bm25_document": "1997년 여주군향토사료관으로 문을 연 여주박물관은 여주의 역사와 민속자료 등을 조사·수집·전시·교육하고, 새로운 학술자료를 발굴하며 여주의 정체성을 확립하는 역할을 수행하고 있다. 2010년 전시실 확장 후 제1종 전문박물관으로 등록하여 여주박물관으로 명칭을 변경하였으며, 2016년 7월 14일 여마관(신관)의 건립으로 전국에 흩어졌던 여주지역 발굴출토 국가귀속유물과 그간 수집한 다양한 유물을 전시할 수 있게 되었다. 전시실은 상설전시실과 기획전시실, 야외전시실로 구분되어 있으며, 상설전시실은 4가지 주제로 전시를 진행하고 있다. 여주역사실에서는 국립중앙박물관을 비롯한 여러 기관들에서 보관하던 주요 유적 출토 국가귀속 유물들과 그간 구입·기증을 통해 수집한 중요유물들을 전시하고 있다. 흔암리 선사유적지, 신륵사, 고달사지, 세종대왕릉과 효종대왕릉, 명성황후 생가 등 수많은 문화유적은 여주의 오랜 역사를 증명하고 있다. 남한강 수석전시실은 김정식 선생이 57년간 모은 수석을 기증받아 전시한 곳으로, 산수경석·물형석·추상석·12지석 등 자연이 빚은 최고의 예술작품인 수석의 멋과 아름다움을 느낄 수 있는 공간이다. 갖가지 수석에 담긴 의미를 여주 남한강이 가지고 있는 이야기로 풀어놓았다. 수석의 신비로움을 다채로운 방식으로 이해할 수 있는 공간이다. 류주현 문학전시실은 우리나라에 ‘대하 역사소설’이라는 장르를 개척하신 여주 출신의 묵사 류주현 선생의 삶과 작품세계를 설명한 공간이다. 류주현 선생은 다양·다작의 작가로 『조선총독부』, 『대원군』 등을 대표작으로 꼽을 수 있다. 한국 대표 문인으로서 선생의 생애와 작품세계, 문인들과의 교류를 통해 옛 문인들의 멋스러운 삶의 정취를 느낄 수 있을 것이다. 조선 왕릉실은 세종 영릉(英陵)과 효종 영릉(寧陵) 두 기의 조선 왕릉이 여주로 천릉하면서 조선시대부터 현대에 이르기까지 왕릉과 함께 변화한 여주의 역사와 여주 사람들의 삶을 살펴볼 수 있다. 여주의 역사와 전통문화를 아우르는 시립박물관으로, 전시와 교육, 체험을 할 수 있는 문화공간이다.",
+      "best_span_id": "chroma:M0312",
+      "best_span_text": "1997년 여주군향토사료관으로 문을 연 여주박물관은 여주의 역사와 민속자료 등을 조사·수집·전시·교육하고, 새로운 학술자료를 발굴하며 여주의 정체성을 확립하는 역할을 수행하고 있다. 2010년 전시실 확장 후 제1종 전문박물관으로 등록하여 여주박물관으로 명칭을 변경하였으며, 2016년 7월 14일 여마관(신관)의 건립으로 전국에 흩어졌던 여주지역 발굴출토 국가귀속유물과 그간 수집한 다양한 유물을 전시할 수 있게 되었다. 전시실은 상설전시실과 기획전시실, 야외전시실로 구분되어 있으며, 상설전시실은 4가지 주제로 전시를 진행하고 있다. 여주역사실에서는 국립중앙박물관을 비롯한 여러 기관들에서 보관하던 주요 유적 출토 국가귀속 유물들과 그간 구입·기증을 통해 수집한 중요유물들을 전시하고 있다. 흔암리 선사유적지, 신륵사, 고달사지, 세종대왕릉과 효종대왕릉, 명성황후 생가 등 수많은 문화유적은 여주의 오랜 역사를 증명하고 있다. 남한강 수석전시실은 김정식 선생이 57년간 모은 수석을 기증받아 전시한 곳으로, 산수경석·물형석·추상석·12지석 등 자연이 빚은 최고의 예술작품인 수석의 멋과 아름다움을 느낄 수 있는 공간이다. 갖가지 수석에 담긴 의미를 여주 남한강이 가지고 있는 이야기로 풀어놓았다. 수석의 신비로움을 다채로운 방식으로 이해할 수 있는 공간이다. 류주현 문학전시실은 우리나라에 ‘대하 역사소설’이라는 장르를 개척하신 여주 출신의 묵사 류주현 선생의 삶과 작품세계를 설명한 공간이다. 류주현 선생은 다양·다작의 작가로 『조선총독부』, 『대원군』 등을 대표작으로 꼽을 수 있다. 한국 대표 문인으로서 선생의 생애와 작품세계, 문인들과의 교류를 통해 옛 문인들의 멋스러운 삶의 정취를 느낄 수 있을 것이다. 조선 왕릉실은 세종 영릉(英陵)과 효종 영릉(寧陵) 두 기의 조선 왕릉이 여주로 천릉하면서 조선시대부터 현대에 이르기까지 왕릉과 함께 변화한 여주의 역사와 여주 사람들의 삶을 살펴볼 수 있다. 여주의 역사와 전통문화를 아우르는 시립박물관으로, 전시와 교육, 체험을 할 수 있는 문화공간이다.",
+      "fusion_score": 0.032266458495966696,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 1,
+      "name_match": true,
+      "rerank_score": 0.940882682800293,
+      "rank": 1,
+      "score": 0.940882682800293,
+      "score_type": "cross_encoder",
+      "distance": 0.55607670545578,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0312",
+      "source_doc_ids": [
+        "DOC-B0312-TOUR_API-130965",
+        "DOC-B0312-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0312-TOUR_API-130965",
+          "source_type": "TOUR_API",
+          "source_record_id": "130965",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=153",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        },
+        {
+          "doc_id": "DOC-B0312-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0312",
+          "source_locator": "data/raw/museum_base_1070.csv#row=313",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 101,
+          "doc_ids": [
+            "DOC-B0312-TOUR_API-130965"
+          ]
+        },
+        {
+          "start": 102,
+          "end": 236,
+          "doc_ids": [
+            "DOC-B0312-TOUR_API-130965"
+          ]
+        },
+        {
+          "start": 237,
+          "end": 300,
+          "doc_ids": [
+            "DOC-B0312-TOUR_API-130965"
+          ]
+        },
+        {
+          "start": 301,
+          "end": 388,
+          "doc_ids": [
+            "DOC-B0312-TOUR_API-130965"
+          ]
+        },
+        {
+          "start": 389,
+          "end": 464,
+          "doc_ids": [
+            "DOC-B0312-TOUR_API-130965"
+          ]
+        },
+        {
+          "start": 465,
+          "end": 573,
+          "doc_ids": [
+            "DOC-B0312-TOUR_API-130965"
+          ]
+        },
+        {
+          "start": 574,
+          "end": 615,
+          "doc_ids": [
+            "DOC-B0312-TOUR_API-130965"
+          ]
+        },
+        {
+          "start": 616,
+          "end": 650,
+          "doc_ids": [
+            "DOC-B0312-TOUR_API-130965"
+          ]
+        },
+        {
+          "start": 651,
+          "end": 726,
+          "doc_ids": [
+            "DOC-B0312-TOUR_API-130965"
+          ]
+        },
+        {
+          "start": 727,
+          "end": 778,
+          "doc_ids": [
+            "DOC-B0312-TOUR_API-130965"
+          ]
+        },
+        {
+          "start": 779,
+          "end": 849,
+          "doc_ids": [
+            "DOC-B0312-TOUR_API-130965"
+          ]
+        },
+        {
+          "start": 850,
+          "end": 957,
+          "doc_ids": [
+            "DOC-B0312-TOUR_API-130965"
+          ]
+        },
+        {
+          "start": 958,
+          "end": 1012,
+          "doc_ids": [
+            "DOC-B0312-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=153",
+      "text": "1997년 여주군향토사료관으로 문을 연 여주박물관은 여주의 역사와 민속자료 등을 조사·수집·전시·교육하고, 새로운 학술자료를 발굴하며 여주의 정체성을 확립하는 역할을 수행하고 있다. 2010년 전시실 확장 후 제1종 전문박물관으로 등록하여 여주박물관으로 명칭을 변경하였으며, 2016년 7월 14일 여마관(신관)의 건립으로 전국에 흩어졌던 여주지역 발굴출토 국가귀속유물과 그간 수집한 다양한 유물을 전시할 수 있게 되었다. 전시실은 상설전시실과 기획전시실, 야외전시실로 구분되어 있으며, 상설전시실은 4가지 주제로 전시를 진행하고 있다. 여주역사실에서는 국립중앙박물관을 비롯한 여러 기관들에서 보관하던 주요 유적 출토 국가귀속 유물들과 그간 구입·기증을 통해 수집한 중요유물들을 전시하고 있다. 흔암리 선사유적지, 신륵사, 고달사지, 세종대왕릉과 효종대왕릉, 명성황후 생가 등 수많은 문화유적은 여주의 오랜 역사를 증명하고 있다. 남한강 수석전시실은 김정식 선생이 57년간 모은 수석을 기증받아 전시한 곳으로, 산수경석·물형석·추상석·12지석 등 자연이 빚은 최고의 예술작품인 수석의 멋과 아름다움을 느낄 수 있는 공간이다. 갖가지 수석에 담긴 의미를 여주 남한강이 가지고 있는 이야기로 풀어놓았다. 수석의 신비로움을 다채로운 방식으로 이해할 수 있는 공간이다. 류주현 문학전시실은 우리나라에 ‘대하 역사소설’이라는 장르를 개척하신 여주 출신의 묵사 류주현 선생의 삶과 작품세계를 설명한 공간이다. 류주현 선생은 다양·다작의 작가로 『조선총독부』, 『대원군』 등을 대표작으로 꼽을 수 있다. 한국 대표 문인으로서 선생의 생애와 작품세계, 문인들과의 교류를 통해 옛 문인들의 멋스러운 삶의 정취를 느낄 수 있을 것이다. 조선 왕릉실은 세종 영릉(英陵)과 효종 영릉(寧陵) 두 기의 조선 왕릉이 여주로 천릉하면서 조선시대부터 현대에 이르기까지 왕릉과 함께 변화한 여주의 역사와 여주 사람들의 삶을 살펴볼 수 있다. 여주의 역사와 전통문화를 아우르는 시립박물관으로, 전시와 교육, 체험을 할 수 있는 문화공간이다.",
+      "sido": "경기도",
+      "sigungu": "여주시",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=153"
+      ],
+      "evidence_id": "E1",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=225",
+        "fields": {
+          "name": "여주박물관",
+          "sido": "경기도",
+          "sigungu": "여주시",
+          "address": "경기도 여주시 신륵사길 6-12",
+          "ownership_type": "공립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "09:00",
+          "weekday_close": "18:00",
+          "holiday_open": "09:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "월요일+추석당일+설날당일+1월1일",
+          "amenities_raw": "청춘카페"
+        },
+        "base_data_date": "2026-05-19",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0316",
+      "name": "여주미술관",
+      "document": "경기도 여주시에 위치해 있는 미술관이다. 2019년 개관하였으며 미술관 설립자이자 작가인 박해룡의 작품들과 수집한 미술작품 700여 점을 상시 전시하고 있다. 깔끔한 외관과 아기자기한 공간 구성으로 현대인들의 감성을 자극하는 장소이며 여주 미술관의 감성을 닮은 카페 돈키호테는 독특한 소품들로 내부를 꾸며놓았다, 미술관 감상 후 조용하고 한적하여 카페에서 잔디정원을 바라보며 휴식하기에 좋다. 수도권에서 멀지 않은 곳에 있어 주말 나들이 삼아 방문하기 손색없는 곳이다. 2019년 개관하여 시민들이 일상속에서 미술을 친근하고 편안하게 접할 수 있는 공간. 미술관에는 설립자이자 작가로 활동중인 박해룡의 작품들과 그동안 수집한 미술 작품들 700점을 상시로 전시한 공간이다.",
+      "metadata": {
+        "holiday_close": "17:00",
+        "weekday_close": "17:00",
+        "weekday_open": "11:00",
+        "transport_notes": "여주톨게이트→여주대학교 방면→코카콜라 사거리에서 좌회전→첫 번째 골목에서 우회전",
+        "requires_manual_review": true,
+        "adult_fee_status": "BASE_FEE_PAID",
+        "ownership_type": "사립",
+        "youth_fee": 8000.0,
+        "amenities_raw": "a Book Museum+카페",
+        "source_types": "BASE|TOUR_API",
+        "fee_notes": "여주시민(중복할인가능)+2000원할인(65세이상+장애인(복지카드소지자))+무료(만3세미만 어린이+군인)",
+        "child_fee": 6000.0,
+        "holiday_open": "11:00",
+        "address": "경기도 여주시 세종로 394-36",
+        "image_copyright": "Type3",
+        "homepage_url": "https://yeojuartmuseum.com/",
+        "longitude": 127.637079,
+        "sido": "경기도",
+        "sigungu": "여주시",
+        "latitude": 37.2647726,
+        "closure_rule_raw": "월요일+화요일+설날당일+추석당일",
+        "image_url": "http://tong.visitkorea.or.kr/cms/resource/84/2765684_image2_1.jpeg",
+        "adult_fee": 12000.0,
+        "name": "여주미술관"
+      },
+      "vector_rank": null,
+      "bm25_rank": 8,
+      "vector_distance": null,
+      "vector_score": null,
+      "bm25_score": 9.519059098730073,
+      "vector_document": "",
+      "bm25_document": "경기도 여주시에 위치해 있는 미술관이다. 2019년 개관하였으며 미술관 설립자이자 작가인 박해룡의 작품들과 수집한 미술작품 700여 점을 상시 전시하고 있다. 깔끔한 외관과 아기자기한 공간 구성으로 현대인들의 감성을 자극하는 장소이며 여주 미술관의 감성을 닮은 카페 돈키호테는 독특한 소품들로 내부를 꾸며놓았다, 미술관 감상 후 조용하고 한적하여 카페에서 잔디정원을 바라보며 휴식하기에 좋다. 수도권에서 멀지 않은 곳에 있어 주말 나들이 삼아 방문하기 손색없는 곳이다. 2019년 개관하여 시민들이 일상속에서 미술을 친근하고 편안하게 접할 수 있는 공간. 미술관에는 설립자이자 작가로 활동중인 박해룡의 작품들과 그동안 수집한 미술 작품들 700점을 상시로 전시한 공간이다.",
+      "best_span_id": "chroma:M0316",
+      "best_span_text": "경기도 여주시에 위치해 있는 미술관이다. 2019년 개관하였으며 미술관 설립자이자 작가인 박해룡의 작품들과 수집한 미술작품 700여 점을 상시 전시하고 있다. 깔끔한 외관과 아기자기한 공간 구성으로 현대인들의 감성을 자극하는 장소이며 여주 미술관의 감성을 닮은 카페 돈키호테는 독특한 소품들로 내부를 꾸며놓았다, 미술관 감상 후 조용하고 한적하여 카페에서 잔디정원을 바라보며 휴식하기에 좋다. 수도권에서 멀지 않은 곳에 있어 주말 나들이 삼아 방문하기 손색없는 곳이다. 2019년 개관하여 시민들이 일상속에서 미술을 친근하고 편안하게 접할 수 있는 공간. 미술관에는 설립자이자 작가로 활동중인 박해룡의 작품들과 그동안 수집한 미술 작품들 700점을 상시로 전시한 공간이다.",
+      "fusion_score": 0.014705882352941176,
+      "retrieved_by": [
+        "bm25"
+      ],
+      "fusion_rank": 13,
+      "rerank_score": 0.01390061341226101,
+      "rank": 2,
+      "score": 0.01390061341226101,
+      "score_type": "cross_encoder",
+      "distance": null,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "bm25"
+      ],
+      "retriever": "bm25",
+      "span_id": "chroma:M0316",
+      "source_doc_ids": [
+        "DOC-B0316-TOUR_API-2766513",
+        "DOC-B0316-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0316-TOUR_API-2766513",
+          "source_type": "TOUR_API",
+          "source_record_id": "2766513",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=155",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        },
+        {
+          "doc_id": "DOC-B0316-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0316",
+          "source_locator": "data/raw/museum_base_1070.csv#row=317",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 22,
+          "doc_ids": [
+            "DOC-B0316-TOUR_API-2766513"
+          ]
+        },
+        {
+          "start": 23,
+          "end": 88,
+          "doc_ids": [
+            "DOC-B0316-TOUR_API-2766513"
+          ]
+        },
+        {
+          "start": 89,
+          "end": 219,
+          "doc_ids": [
+            "DOC-B0316-TOUR_API-2766513"
+          ]
+        },
+        {
+          "start": 220,
+          "end": 262,
+          "doc_ids": [
+            "DOC-B0316-TOUR_API-2766513"
+          ]
+        },
+        {
+          "start": 263,
+          "end": 310,
+          "doc_ids": [
+            "DOC-B0316-BASE"
+          ]
+        },
+        {
+          "start": 311,
+          "end": 376,
+          "doc_ids": [
+            "DOC-B0316-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=155",
+      "text": "경기도 여주시에 위치해 있는 미술관이다. 2019년 개관하였으며 미술관 설립자이자 작가인 박해룡의 작품들과 수집한 미술작품 700여 점을 상시 전시하고 있다. 깔끔한 외관과 아기자기한 공간 구성으로 현대인들의 감성을 자극하는 장소이며 여주 미술관의 감성을 닮은 카페 돈키호테는 독특한 소품들로 내부를 꾸며놓았다, 미술관 감상 후 조용하고 한적하여 카페에서 잔디정원을 바라보며 휴식하기에 좋다. 수도권에서 멀지 않은 곳에 있어 주말 나들이 삼아 방문하기 손색없는 곳이다. 2019년 개관하여 시민들이 일상속에서 미술을 친근하고 편안하게 접할 수 있는 공간. 미술관에는 설립자이자 작가로 활동중인 박해룡의 작품들과 그동안 수집한 미술 작품들 700점을 상시로 전시한 공간이다.",
+      "sido": "경기도",
+      "sigungu": "여주시",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=155"
+      ],
+      "evidence_id": "E2",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=229",
+        "fields": {
+          "name": "여주미술관",
+          "sido": "경기도",
+          "sigungu": "여주시",
+          "address": "경기도 여주시 세종로 394-36",
+          "ownership_type": "사립",
+          "adult_fee": "12000",
+          "youth_fee": "8000",
+          "child_fee": "6000",
+          "adult_fee_status": "BASE_FEE_PAID",
+          "weekday_open": "11:00",
+          "weekday_close": "17:00",
+          "holiday_open": "11:00",
+          "holiday_close": "17:00",
+          "closure_rule_raw": "월요일+화요일+설날당일+추석당일",
+          "amenities_raw": "a Book Museum+카페"
+        },
+        "base_data_date": "2026-05-19",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0313",
+      "name": "명성황후기념관",
+      "document": "명성황후기념관은 여주에서 태어나고 자란 조선 제26대 왕 고종의 비(妃)인 명성황후를 기념하기 위해 2017년 여주시가 설립한 공립박물관이다. 기념관은 명성황후가 태어나 8살까지 어린 시절을 보낸 생가의 바로 맞은편에 건립되었으며, 명성황후와 당시의 시대상을 엿볼 수 있는 다양한 유물과 자료를 전시하고 있다. 여주시민과 관람객을 위한 다양한 문화 프로그램을 지속적으로 기획하고 운영하여 ‘왕비의 고장’ 여주를 대표하는 문화 기관으로 거듭나고자 한다. 상설전시실에서는 , 등 명성황후와 조선시대의 유물을 만나볼 수 있다. 여주에서 태어나고 자란 조선 제26대 왕 고종의 비인 명성황후를 기념하기 위한 박물관으로 명성황후와 당시의 시대상을 살펴볼 수 있는 다양한 유물과 자료를 전시하고 있다.",
+      "metadata": {
+        "ownership_type": "공립",
+        "weekday_open": "09:00",
+        "holiday_open": "09:00",
+        "fee_notes": "주차료(대형 2000원+소형 1000원+경차 500원)+여주시민(주민등록증 등 제시 필수) 주차 무료",
+        "image_copyright": "Type3",
+        "name": "명성황후기념관",
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "longitude": 127.6554281,
+        "adult_fee": 0.0,
+        "homepage_url": "https://www.yjcf.or.kr",
+        "weekday_close": "18:00",
+        "requires_manual_review": true,
+        "source_types": "BASE|TOUR_API",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/82/3565782_image2_1.jpg",
+        "sigungu": "여주시",
+        "child_fee": 0.0,
+        "holiday_close": "18:00",
+        "address": "경기도 여주시 명성로 71",
+        "youth_fee": 0.0,
+        "closure_rule_raw": "월요일+추석당일+설날당일+1월1일",
+        "latitude": 37.25967518,
+        "sido": "경기도",
+        "transport_notes": "경부고속도로 신갈 I.C., 중부고속도로 호법 I.C., 중부내륙고속도로 여주 Jct.에서 영동고속도로로 진입 →강릉방면 여주 I.C.에서 나와 → 여주 방향으로 우회전 하여 150m 지점에서 → 다시 우회전 한 후 직진하면 800m 지점에 명성황후생가가 위치"
+      },
+      "vector_rank": null,
+      "bm25_rank": 2,
+      "vector_distance": null,
+      "vector_score": null,
+      "bm25_score": 15.23746082997595,
+      "vector_document": "",
+      "bm25_document": "명성황후기념관은 여주에서 태어나고 자란 조선 제26대 왕 고종의 비(妃)인 명성황후를 기념하기 위해 2017년 여주시가 설립한 공립박물관이다. 기념관은 명성황후가 태어나 8살까지 어린 시절을 보낸 생가의 바로 맞은편에 건립되었으며, 명성황후와 당시의 시대상을 엿볼 수 있는 다양한 유물과 자료를 전시하고 있다. 여주시민과 관람객을 위한 다양한 문화 프로그램을 지속적으로 기획하고 운영하여 ‘왕비의 고장’ 여주를 대표하는 문화 기관으로 거듭나고자 한다. 상설전시실에서는 , 등 명성황후와 조선시대의 유물을 만나볼 수 있다. 여주에서 태어나고 자란 조선 제26대 왕 고종의 비인 명성황후를 기념하기 위한 박물관으로 명성황후와 당시의 시대상을 살펴볼 수 있는 다양한 유물과 자료를 전시하고 있다.",
+      "best_span_id": "chroma:M0313",
+      "best_span_text": "명성황후기념관은 여주에서 태어나고 자란 조선 제26대 왕 고종의 비(妃)인 명성황후를 기념하기 위해 2017년 여주시가 설립한 공립박물관이다. 기념관은 명성황후가 태어나 8살까지 어린 시절을 보낸 생가의 바로 맞은편에 건립되었으며, 명성황후와 당시의 시대상을 엿볼 수 있는 다양한 유물과 자료를 전시하고 있다. 여주시민과 관람객을 위한 다양한 문화 프로그램을 지속적으로 기획하고 운영하여 ‘왕비의 고장’ 여주를 대표하는 문화 기관으로 거듭나고자 한다. 상설전시실에서는 , 등 명성황후와 조선시대의 유물을 만나볼 수 있다. 여주에서 태어나고 자란 조선 제26대 왕 고종의 비인 명성황후를 기념하기 위한 박물관으로 명성황후와 당시의 시대상을 살펴볼 수 있는 다양한 유물과 자료를 전시하고 있다.",
+      "fusion_score": 0.016129032258064516,
+      "retrieved_by": [
+        "bm25"
+      ],
+      "fusion_rank": 5,
+      "rerank_score": 0.008501301519572735,
+      "rank": 3,
+      "score": 0.008501301519572735,
+      "score_type": "cross_encoder",
+      "distance": null,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "bm25"
+      ],
+      "retriever": "bm25",
+      "span_id": "chroma:M0313",
+      "source_doc_ids": [
+        "DOC-B0313-TOUR_API-130327",
+        "DOC-B0313-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0313-TOUR_API-130327",
+          "source_type": "TOUR_API",
+          "source_record_id": "130327",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=154",
+          "match_trust": "RECHECKED_BY_RULE_NOT_HUMAN_APPROVED"
+        },
+        {
+          "doc_id": "DOC-B0313-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0313",
+          "source_locator": "data/raw/museum_base_1070.csv#row=314",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 79,
+          "doc_ids": [
+            "DOC-B0313-TOUR_API-130327"
+          ]
+        },
+        {
+          "start": 80,
+          "end": 173,
+          "doc_ids": [
+            "DOC-B0313-TOUR_API-130327"
+          ]
+        },
+        {
+          "start": 174,
+          "end": 252,
+          "doc_ids": [
+            "DOC-B0313-TOUR_API-130327"
+          ]
+        },
+        {
+          "start": 253,
+          "end": 291,
+          "doc_ids": [
+            "DOC-B0313-TOUR_API-130327"
+          ]
+        },
+        {
+          "start": 292,
+          "end": 386,
+          "doc_ids": [
+            "DOC-B0313-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=154",
+      "text": "명성황후기념관은 여주에서 태어나고 자란 조선 제26대 왕 고종의 비(妃)인 명성황후를 기념하기 위해 2017년 여주시가 설립한 공립박물관이다. 기념관은 명성황후가 태어나 8살까지 어린 시절을 보낸 생가의 바로 맞은편에 건립되었으며, 명성황후와 당시의 시대상을 엿볼 수 있는 다양한 유물과 자료를 전시하고 있다. 여주시민과 관람객을 위한 다양한 문화 프로그램을 지속적으로 기획하고 운영하여 ‘왕비의 고장’ 여주를 대표하는 문화 기관으로 거듭나고자 한다. 상설전시실에서는 , 등 명성황후와 조선시대의 유물을 만나볼 수 있다. 여주에서 태어나고 자란 조선 제26대 왕 고종의 비인 명성황후를 기념하기 위한 박물관으로 명성황후와 당시의 시대상을 살펴볼 수 있는 다양한 유물과 자료를 전시하고 있다.",
+      "sido": "경기도",
+      "sigungu": "여주시",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=154"
+      ],
+      "evidence_id": "E3",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=226",
+        "fields": {
+          "name": "명성황후기념관",
+          "sido": "경기도",
+          "sigungu": "여주시",
+          "address": "경기도 여주시 명성로 71",
+          "ownership_type": "공립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "09:00",
+          "weekday_close": "18:00",
+          "holiday_open": "09:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "월요일+추석당일+설날당일+1월1일"
+        },
+        "base_data_date": "2026-05-19",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0286",
+      "name": "사상생활사박물관",
+      "document": "사상생활사박물관은 2016년 5월 개관하여 사상의 자연과 함께 살아온 사람들의 생활사 변천 과정을 전시하고 지역에 산재해 있는 관광자원을 소개하는 곳이며 주민들이 주도적으로 운영에 참여하고 전문가와 행정이 협업하여 지역의 문화를 발전시키는 주민들의 소통 공간이다. 사상지역은 1970년대 대한민국 근대화에 있어 중추적인 역할을 해왔으나 공업화의 악영향으로 회색도시, 문화의 불모지라는 오명과 함께 날로 낙후되어 가고 있는 사상공업지역에 문화와 소통의 향기를 전하는 문화 네트워크형 박물관을 건립하여 잊혀가는 사상 주민들의 생활사와 추억들을 수집하여 역사를 조명하고 미래를 준비하기 위하여 사상생활사박물관을 건립하게 되었다. 특별 전시와 기획 전시도 운영하고 있다. 사상생활사박물관은 2016년 5월 6일 개관한 생활사 전문 박물관",
+      "metadata": {
+        "weekday_close": "18:00",
+        "sido": "부산광역시",
+        "ownership_type": "공립",
+        "sigungu": "사상구",
+        "requires_manual_review": true,
+        "name": "사상생활사박물관",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/63/3017163_image2_1.JPG",
+        "amenities_raw": "휠체어+장애인 주차구역+기저귀갈이대",
+        "latitude": 35.1720448,
+        "closure_rule_raw": "1월 1일+설 및 추석연휴+매주 월요일(공휴일이면 그 다음 첫번째 평일 휴관)",
+        "image_copyright": "Type3",
+        "holiday_open": "09:00",
+        "weekday_open": "09:00",
+        "homepage_url": "https://www.sasang.go.kr/lmuseum/index.sasang",
+        "child_fee": 0.0,
+        "address": "부산광역시 사상구 낙동대로 1258번길 36",
+        "longitude": 128.9787416,
+        "source_types": "BASE|TOUR_API",
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "transport_notes": "지하철: 2호선 덕포역 1번 출구(약500m)+버스: 사상구7,123,126,138-1",
+        "youth_fee": 0.0,
+        "adult_fee": 0.0,
+        "holiday_close": "18:00"
+      },
+      "vector_rank": null,
+      "bm25_rank": 3,
+      "vector_distance": null,
+      "vector_score": null,
+      "bm25_score": 13.670459158352104,
+      "vector_document": "",
+      "bm25_document": "사상생활사박물관은 2016년 5월 개관하여 사상의 자연과 함께 살아온 사람들의 생활사 변천 과정을 전시하고 지역에 산재해 있는 관광자원을 소개하는 곳이며 주민들이 주도적으로 운영에 참여하고 전문가와 행정이 협업하여 지역의 문화를 발전시키는 주민들의 소통 공간이다. 사상지역은 1970년대 대한민국 근대화에 있어 중추적인 역할을 해왔으나 공업화의 악영향으로 회색도시, 문화의 불모지라는 오명과 함께 날로 낙후되어 가고 있는 사상공업지역에 문화와 소통의 향기를 전하는 문화 네트워크형 박물관을 건립하여 잊혀가는 사상 주민들의 생활사와 추억들을 수집하여 역사를 조명하고 미래를 준비하기 위하여 사상생활사박물관을 건립하게 되었다. 특별 전시와 기획 전시도 운영하고 있다. 사상생활사박물관은 2016년 5월 6일 개관한 생활사 전문 박물관",
+      "best_span_id": "chroma:M0286",
+      "best_span_text": "사상생활사박물관은 2016년 5월 개관하여 사상의 자연과 함께 살아온 사람들의 생활사 변천 과정을 전시하고 지역에 산재해 있는 관광자원을 소개하는 곳이며 주민들이 주도적으로 운영에 참여하고 전문가와 행정이 협업하여 지역의 문화를 발전시키는 주민들의 소통 공간이다. 사상지역은 1970년대 대한민국 근대화에 있어 중추적인 역할을 해왔으나 공업화의 악영향으로 회색도시, 문화의 불모지라는 오명과 함께 날로 낙후되어 가고 있는 사상공업지역에 문화와 소통의 향기를 전하는 문화 네트워크형 박물관을 건립하여 잊혀가는 사상 주민들의 생활사와 추억들을 수집하여 역사를 조명하고 미래를 준비하기 위하여 사상생활사박물관을 건립하게 되었다. 특별 전시와 기획 전시도 운영하고 있다. 사상생활사박물관은 2016년 5월 6일 개관한 생활사 전문 박물관",
+      "fusion_score": 0.015873015873015872,
+      "retrieved_by": [
+        "bm25"
+      ],
+      "fusion_rank": 6,
+      "rerank_score": 0.006225022953003645,
+      "rank": 4,
+      "score": 0.006225022953003645,
+      "score_type": "cross_encoder",
+      "distance": null,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "bm25"
+      ],
+      "retriever": "bm25",
+      "span_id": "chroma:M0286",
+      "source_doc_ids": [
+        "DOC-B0286-TOUR_API-3017191",
+        "DOC-B0286-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0286-TOUR_API-3017191",
+          "source_type": "TOUR_API",
+          "source_record_id": "3017191",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=142",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        },
+        {
+          "doc_id": "DOC-B0286-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0286",
+          "source_locator": "data/raw/museum_base_1070.csv#row=287",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 147,
+          "doc_ids": [
+            "DOC-B0286-TOUR_API-3017191"
+          ]
+        },
+        {
+          "start": 148,
+          "end": 348,
+          "doc_ids": [
+            "DOC-B0286-TOUR_API-3017191"
+          ]
+        },
+        {
+          "start": 349,
+          "end": 371,
+          "doc_ids": [
+            "DOC-B0286-TOUR_API-3017191"
+          ]
+        },
+        {
+          "start": 372,
+          "end": 408,
+          "doc_ids": [
+            "DOC-B0286-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=142",
+      "text": "사상생활사박물관은 2016년 5월 개관하여 사상의 자연과 함께 살아온 사람들의 생활사 변천 과정을 전시하고 지역에 산재해 있는 관광자원을 소개하는 곳이며 주민들이 주도적으로 운영에 참여하고 전문가와 행정이 협업하여 지역의 문화를 발전시키는 주민들의 소통 공간이다. 사상지역은 1970년대 대한민국 근대화에 있어 중추적인 역할을 해왔으나 공업화의 악영향으로 회색도시, 문화의 불모지라는 오명과 함께 날로 낙후되어 가고 있는 사상공업지역에 문화와 소통의 향기를 전하는 문화 네트워크형 박물관을 건립하여 잊혀가는 사상 주민들의 생활사와 추억들을 수집하여 역사를 조명하고 미래를 준비하기 위하여 사상생활사박물관을 건립하게 되었다. 특별 전시와 기획 전시도 운영하고 있다. 사상생활사박물관은 2016년 5월 6일 개관한 생활사 전문 박물관",
+      "sido": "부산광역시",
+      "sigungu": "사상구",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=142"
+      ],
+      "evidence_id": "E4",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=200",
+        "fields": {
+          "name": "사상생활사박물관",
+          "sido": "부산광역시",
+          "sigungu": "사상구",
+          "address": "부산광역시 사상구 낙동대로 1258번길 36",
+          "ownership_type": "공립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "09:00",
+          "weekday_close": "18:00",
+          "holiday_open": "09:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "1월 1일+설 및 추석연휴+매주 월요일(공휴일이면 그 다음 첫번째 평일 휴관)",
+          "amenities_raw": "휠체어+장애인 주차구역+기저귀갈이대"
+        },
+        "base_data_date": "2026-07-18",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0724",
+      "name": "나주복암리고분전시관",
+      "document": "국가 사적 제404호인 나주복암리고분을 실물모습으로 전시하여 영산강유역 고대문화의 역동성과 중요성을 알기 위해 2016년에 개관",
+      "metadata": {
+        "holiday_close": "18:00",
+        "address": "전라남도 나주시 다시면 백호로 287",
+        "homepage_url": "http://www.njbogam.or.kr",
+        "closure_rule_raw": "신정, 매주 월요일, 설, 추석",
+        "child_fee": 0.0,
+        "ownership_type": "공립",
+        "requires_manual_review": true,
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "youth_fee": 0.0,
+        "latitude": 34.996091,
+        "weekday_close": "18:00",
+        "name": "나주복암리고분전시관",
+        "transport_notes": "버스 500, 503",
+        "longitude": 126.657059219,
+        "sido": "전남광주특별자치도",
+        "sigungu": "나주시",
+        "amenities_raw": "북카페, 야외체험시설, 주차장, 무선인터넷",
+        "adult_fee": 0.0,
+        "source_types": "BASE",
+        "holiday_open": "10:00",
+        "weekday_open": "10:00"
+      },
+      "vector_rank": 1,
+      "bm25_rank": 18,
+      "vector_distance": 0.5325162410736084,
+      "vector_score": null,
+      "bm25_score": 8.435808854935942,
+      "vector_document": "국가 사적 제404호인 나주복암리고분을 실물모습으로 전시하여 영산강유역 고대문화의 역동성과 중요성을 알기 위해 2016년에 개관",
+      "bm25_document": "국가 사적 제404호인 나주복암리고분을 실물모습으로 전시하여 영산강유역 고대문화의 역동성과 중요성을 알기 위해 2016년에 개관",
+      "best_span_id": "chroma:M0724",
+      "best_span_text": "국가 사적 제404호인 나주복암리고분을 실물모습으로 전시하여 영산강유역 고대문화의 역동성과 중요성을 알기 위해 2016년에 개관",
+      "fusion_score": 0.02921395544346364,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 4,
+      "rerank_score": 0.003056591609492898,
+      "rank": 5,
+      "score": 0.003056591609492898,
+      "score_type": "cross_encoder",
+      "distance": 0.5325162410736084,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0724",
+      "source_doc_ids": [
+        "DOC-B0724-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0724-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0724",
+          "source_locator": "data/raw/museum_base_1070.csv#row=725",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 71,
+          "doc_ids": [
+            "DOC-B0724-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_base_1070.csv#row=725",
+      "text": "국가 사적 제404호인 나주복암리고분을 실물모습으로 전시하여 영산강유역 고대문화의 역동성과 중요성을 알기 위해 2016년에 개관",
+      "sido": "전남광주특별자치도",
+      "sigungu": "나주시",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_base_1070.csv#row=725"
+      ],
+      "evidence_id": "E5",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=505",
+        "fields": {
+          "name": "나주복암리고분전시관",
+          "sido": "전라남도",
+          "sigungu": "나주시",
+          "address": "전라남도 나주시 다시면 백호로 287",
+          "ownership_type": "공립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "10:00",
+          "weekday_close": "18:00",
+          "holiday_open": "10:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "신정, 매주 월요일, 설, 추석",
+          "amenities_raw": "북카페, 야외체험시설, 주차장, 무선인터넷"
+        },
+        "base_data_date": "2024-08-08",
+        "trust": "derived_dataset_not_human_verified",
+        "normalizations": {
+          "sido": {
+            "source_value": "전라남도",
+            "matched_value": "전남광주특별자치도",
+            "rule": "configured_sido_alias"
+          }
+        }
+      }
+    }
+  ],
+  "answer": "2016년 7월 14일 여주박물관의 신관인 여마관이 건립되어, 전국에 흩어져 있던 여주 지역 발굴 출토 국가귀속유물과 그동안 수집한 다양한 유물을 전시할 수 있게 되었습니다.[E1]",
+  "retrieval_status": "ok",
+  "answer_status": "answered",
+  "route": "hybrid",
+  "retry_count": 0,
+  "supervisor_verified": true,
+  "rerank_applied": true,
+  "retriever_errors": [],
+  "warnings": [],
+  "duration_ms": 76622.92,
+  "error_type": "",
+  "hit_at_1": 1,
+  "hit_at_3": 1,
+  "hit_at_5": 1,
+  "recall_at_5": 1.0,
+  "mrr_at_10": 1.0
+}

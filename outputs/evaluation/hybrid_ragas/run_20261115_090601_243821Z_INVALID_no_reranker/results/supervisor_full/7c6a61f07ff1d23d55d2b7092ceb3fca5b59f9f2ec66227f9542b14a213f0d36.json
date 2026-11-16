@@ -1,0 +1,640 @@
+{
+  "mode": "supervisor_full",
+  "question_id": "Q005",
+  "evidence": [
+    {
+      "museum_id": "M0006",
+      "name": "한국이민사박물관",
+      "document": "인천광역시 월미공원 내에 자리한 한국이민사 박물관은 2003년 미주 이민 100주년을 기념해 개관했다. 인천광역시 시민과 해외동포들이 십시일반으로 뜻을 모아 건립한 대한민국 최초의 이민사 박물관이다. 대한민국 이민의 출발지였던 인천항의 역사와 이민의 역사, 당시 국내외 상황을 설명하는 상설전시가 제1~제4전시실에서 전시된다. 이민사 관련 특별 전시도 연중 진행하며 인천문화기행, 한인 이민사 등 다양한 교육 문화 프로그램도 운영한다. 한국이민사박물관은 2003년 미주 이민 100주년을 맞아 우리 선조들의 해외에서의 개척자적인 삶을 기리고 그 발자취를 후손들에게 전 하기 위해 인천광역시 시민들과 해외동포들이 함께 뜻을 모아서 건립한 우리나라 최초의 이민사박물관입니다.",
+      "metadata": {
+        "source_types": "BASE|TOUR_API",
+        "weekday_close": "18:00",
+        "transport_notes": "인천지하철 : 인천역 하차+버스 45번 승차+해사고등학교 앞 하차",
+        "longitude": 126.598813785,
+        "sigungu": "제물포구",
+        "ownership_type": "공립",
+        "youth_fee": 0.0,
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "holiday_close": "18:00",
+        "name": "한국이민사박물관",
+        "holiday_open": "09:00",
+        "requires_manual_review": true,
+        "homepage_url": "http://www.incheon.go.kr/museum",
+        "adult_fee": 0.0,
+        "weekday_open": "09:00",
+        "latitude": 37.4705073529,
+        "address": "인천광역시 제물포구 월미로 329",
+        "closure_rule_raw": "월(단, 공휴일인 월요일은 제외)+1월1일",
+        "child_fee": 0.0,
+        "sido": "인천광역시"
+      },
+      "vector_rank": 2,
+      "bm25_rank": 1,
+      "vector_distance": 0.4945981502532959,
+      "vector_score": null,
+      "bm25_score": 25.441506503745074,
+      "vector_document": "인천광역시 월미공원 내에 자리한 한국이민사 박물관은 2003년 미주 이민 100주년을 기념해 개관했다. 인천광역시 시민과 해외동포들이 십시일반으로 뜻을 모아 건립한 대한민국 최초의 이민사 박물관이다. 대한민국 이민의 출발지였던 인천항의 역사와 이민의 역사, 당시 국내외 상황을 설명하는 상설전시가 제1~제4전시실에서 전시된다. 이민사 관련 특별 전시도 연중 진행하며 인천문화기행, 한인 이민사 등 다양한 교육 문화 프로그램도 운영한다. 한국이민사박물관은 2003년 미주 이민 100주년을 맞아 우리 선조들의 해외에서의 개척자적인 삶을 기리고 그 발자취를 후손들에게 전 하기 위해 인천광역시 시민들과 해외동포들이 함께 뜻을 모아서 건립한 우리나라 최초의 이민사박물관입니다.",
+      "bm25_document": "인천광역시 월미공원 내에 자리한 한국이민사 박물관은 2003년 미주 이민 100주년을 기념해 개관했다. 인천광역시 시민과 해외동포들이 십시일반으로 뜻을 모아 건립한 대한민국 최초의 이민사 박물관이다. 대한민국 이민의 출발지였던 인천항의 역사와 이민의 역사, 당시 국내외 상황을 설명하는 상설전시가 제1~제4전시실에서 전시된다. 이민사 관련 특별 전시도 연중 진행하며 인천문화기행, 한인 이민사 등 다양한 교육 문화 프로그램도 운영한다. 한국이민사박물관은 2003년 미주 이민 100주년을 맞아 우리 선조들의 해외에서의 개척자적인 삶을 기리고 그 발자취를 후손들에게 전 하기 위해 인천광역시 시민들과 해외동포들이 함께 뜻을 모아서 건립한 우리나라 최초의 이민사박물관입니다.",
+      "best_span_id": "chroma:M0006",
+      "best_span_text": "인천광역시 월미공원 내에 자리한 한국이민사 박물관은 2003년 미주 이민 100주년을 기념해 개관했다. 인천광역시 시민과 해외동포들이 십시일반으로 뜻을 모아 건립한 대한민국 최초의 이민사 박물관이다. 대한민국 이민의 출발지였던 인천항의 역사와 이민의 역사, 당시 국내외 상황을 설명하는 상설전시가 제1~제4전시실에서 전시된다. 이민사 관련 특별 전시도 연중 진행하며 인천문화기행, 한인 이민사 등 다양한 교육 문화 프로그램도 운영한다. 한국이민사박물관은 2003년 미주 이민 100주년을 맞아 우리 선조들의 해외에서의 개척자적인 삶을 기리고 그 발자취를 후손들에게 전 하기 위해 인천광역시 시민들과 해외동포들이 함께 뜻을 모아서 건립한 우리나라 최초의 이민사박물관입니다.",
+      "fusion_score": 0.03252247488101534,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 1,
+      "name_match": true,
+      "rerank_score": null,
+      "rank": 1,
+      "score": 0.03252247488101534,
+      "score_type": "rrf",
+      "distance": 0.4945981502532959,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0006",
+      "source_doc_ids": [
+        "DOC-B0006-TOUR_API-2465140",
+        "DOC-B0006-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0006-TOUR_API-2465140",
+          "source_type": "TOUR_API",
+          "source_record_id": "2465140",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=6",
+          "match_trust": "RECHECKED_BY_RULE_NOT_HUMAN_APPROVED"
+        },
+        {
+          "doc_id": "DOC-B0006-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0006",
+          "source_locator": "data/raw/museum_base_1070.csv#row=7",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 57,
+          "doc_ids": [
+            "DOC-B0006-TOUR_API-2465140"
+          ]
+        },
+        {
+          "start": 58,
+          "end": 111,
+          "doc_ids": [
+            "DOC-B0006-TOUR_API-2465140"
+          ]
+        },
+        {
+          "start": 112,
+          "end": 182,
+          "doc_ids": [
+            "DOC-B0006-TOUR_API-2465140"
+          ]
+        },
+        {
+          "start": 183,
+          "end": 243,
+          "doc_ids": [
+            "DOC-B0006-TOUR_API-2465140"
+          ]
+        },
+        {
+          "start": 244,
+          "end": 375,
+          "doc_ids": [
+            "DOC-B0006-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=6",
+      "text": "인천광역시 월미공원 내에 자리한 한국이민사 박물관은 2003년 미주 이민 100주년을 기념해 개관했다. 인천광역시 시민과 해외동포들이 십시일반으로 뜻을 모아 건립한 대한민국 최초의 이민사 박물관이다. 대한민국 이민의 출발지였던 인천항의 역사와 이민의 역사, 당시 국내외 상황을 설명하는 상설전시가 제1~제4전시실에서 전시된다. 이민사 관련 특별 전시도 연중 진행하며 인천문화기행, 한인 이민사 등 다양한 교육 문화 프로그램도 운영한다. 한국이민사박물관은 2003년 미주 이민 100주년을 맞아 우리 선조들의 해외에서의 개척자적인 삶을 기리고 그 발자취를 후손들에게 전 하기 위해 인천광역시 시민들과 해외동포들이 함께 뜻을 모아서 건립한 우리나라 최초의 이민사박물관입니다.",
+      "sido": "인천광역시",
+      "sigungu": "제물포구",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=6"
+      ],
+      "evidence_id": "E1",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=6",
+        "fields": {
+          "name": "한국이민사박물관",
+          "sido": "인천광역시",
+          "sigungu": "제물포구",
+          "address": "인천광역시 제물포구 월미로 329",
+          "ownership_type": "공립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "09:00",
+          "weekday_close": "18:00",
+          "holiday_open": "09:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "월(단, 공휴일인 월요일은 제외)+1월1일"
+        },
+        "base_data_date": "2026-09-18",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0503",
+      "name": "국립대한민국임시정부기념관",
+      "document": "국립대한민국임시정부기념관은 3.1운동으로 건립된 대한민국 임시정부의 법통을 계승한다고 밝히는 헌법정신의 내용과 가치를 널리 알리는 공간이다. 기념관에서는 대한민국 임시정부의 역사를 주제별로 펼쳐 알리는 상설전시와 1년에 두 차례 특별주제를 다루는 특별기획전시가 열린다. 또한 자라나는 미래세대가 대한민국 임시정부를 기억하고 그 역사를 자랑스럽게 여길 수 있도록 청소년을 대상으로 창의적인 체험 프로그램도 운영하고 있다.",
+      "metadata": {
+        "child_fee": 0.0,
+        "ownership_type": "국립",
+        "sigungu": "서대문구",
+        "requires_manual_review": true,
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "adult_fee": 0.0,
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/29/4095029_image2_1.jpg",
+        "weekday_open": "09:00",
+        "source_types": "TOUR_API",
+        "closure_rule_raw": "매주 월요일(단, 월요일이 공휴일인 경우 당일은 개관하고 그 다음 첫번째 평일에 휴관)",
+        "image_copyright": "Type1",
+        "name": "국립대한민국임시정부기념관",
+        "longitude": 126.9546507,
+        "address": "서울특별시 서대문구 통일로 279-24",
+        "holiday_open": "09:00",
+        "homepage_url": "https://www.nmkpg.go.kr",
+        "holiday_close": "18:00",
+        "latitude": 37.57624246,
+        "weekday_close": "18:00",
+        "sido": "서울특별시",
+        "youth_fee": 0.0
+      },
+      "vector_rank": 1,
+      "bm25_rank": null,
+      "vector_distance": 0.4887722134590149,
+      "vector_score": null,
+      "bm25_score": null,
+      "vector_document": "국립대한민국임시정부기념관은 3.1운동으로 건립된 대한민국 임시정부의 법통을 계승한다고 밝히는 헌법정신의 내용과 가치를 널리 알리는 공간이다. 기념관에서는 대한민국 임시정부의 역사를 주제별로 펼쳐 알리는 상설전시와 1년에 두 차례 특별주제를 다루는 특별기획전시가 열린다. 또한 자라나는 미래세대가 대한민국 임시정부를 기억하고 그 역사를 자랑스럽게 여길 수 있도록 청소년을 대상으로 창의적인 체험 프로그램도 운영하고 있다.",
+      "bm25_document": "",
+      "best_span_id": null,
+      "best_span_text": null,
+      "fusion_score": 0.01639344262295082,
+      "retrieved_by": [
+        "vector"
+      ],
+      "fusion_rank": 2,
+      "rerank_score": null,
+      "rank": 2,
+      "score": 0.01639344262295082,
+      "score_type": "rrf",
+      "distance": 0.4887722134590149,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector"
+      ],
+      "retriever": "vector",
+      "source_doc_ids": [
+        "DOC-B0503-TOUR_API-2813170"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0503-TOUR_API-2813170",
+          "source_type": "TOUR_API",
+          "source_record_id": "2813170",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=249",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 78,
+          "doc_ids": [
+            "DOC-B0503-TOUR_API-2813170"
+          ]
+        },
+        {
+          "start": 79,
+          "end": 150,
+          "doc_ids": [
+            "DOC-B0503-TOUR_API-2813170"
+          ]
+        },
+        {
+          "start": 151,
+          "end": 234,
+          "doc_ids": [
+            "DOC-B0503-TOUR_API-2813170"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=249",
+      "text": "국립대한민국임시정부기념관은 3.1운동으로 건립된 대한민국 임시정부의 법통을 계승한다고 밝히는 헌법정신의 내용과 가치를 널리 알리는 공간이다. 기념관에서는 대한민국 임시정부의 역사를 주제별로 펼쳐 알리는 상설전시와 1년에 두 차례 특별주제를 다루는 특별기획전시가 열린다. 또한 자라나는 미래세대가 대한민국 임시정부를 기억하고 그 역사를 자랑스럽게 여길 수 있도록 청소년을 대상으로 창의적인 체험 프로그램도 운영하고 있다.",
+      "sido": "서울특별시",
+      "sigungu": "서대문구",
+      "span_id": "",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=249"
+      ],
+      "evidence_id": "E2",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=360",
+        "fields": {
+          "name": "국립대한민국임시정부기념관",
+          "sido": "서울특별시",
+          "sigungu": "서대문구",
+          "address": "서울특별시 서대문구 통일로 279-24",
+          "ownership_type": "국립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "09:00",
+          "weekday_close": "18:00",
+          "holiday_open": "09:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "매주 월요일(단, 월요일이 공휴일인 경우 당일은 개관하고 그 다음 첫번째 평일에 휴관)"
+        },
+        "base_data_date": "2026-04-08",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0898",
+      "name": "의재미술관",
+      "document": "의재미술관은 의재 허백련(毅齋 許百鍊) 선생을 기념하기 위해 건립된 미술관입니다.",
+      "metadata": {
+        "sido": "광주광역시",
+        "closure_rule_raw": "월",
+        "youth_fee": 1000.0,
+        "holiday_close": "17:00",
+        "weekday_close": "05:30",
+        "latitude": 35.12937059,
+        "child_fee": 0.0,
+        "weekday_open": "09:30",
+        "address": "광주광역시 동구 증심사길 155(운림동)",
+        "holiday_open": "09:30",
+        "requires_manual_review": false,
+        "source_types": "BASE",
+        "homepage_url": "http://www.uijae.org/",
+        "sigungu": "동구",
+        "ownership_type": "사립",
+        "adult_fee": 2000.0,
+        "fee_notes": "군인 1000원",
+        "longitude": 126.967392,
+        "name": "의재미술관",
+        "adult_fee_status": "BASE_FEE_PAID"
+      },
+      "vector_rank": null,
+      "bm25_rank": 2,
+      "vector_distance": null,
+      "vector_score": null,
+      "bm25_score": 8.702172727613927,
+      "vector_document": "",
+      "bm25_document": "의재미술관은 의재 허백련(毅齋 許百鍊) 선생을 기념하기 위해 건립된 미술관입니다.",
+      "best_span_id": "chroma:M0898",
+      "best_span_text": "의재미술관은 의재 허백련(毅齋 許百鍊) 선생을 기념하기 위해 건립된 미술관입니다.",
+      "fusion_score": 0.016129032258064516,
+      "retrieved_by": [
+        "bm25"
+      ],
+      "fusion_rank": 3,
+      "rerank_score": null,
+      "rank": 3,
+      "score": 0.016129032258064516,
+      "score_type": "rrf",
+      "distance": null,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "bm25"
+      ],
+      "retriever": "bm25",
+      "span_id": "chroma:M0898",
+      "source_doc_ids": [
+        "DOC-B0898-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0898-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0898",
+          "source_locator": "data/raw/museum_base_1070.csv#row=899",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 45,
+          "doc_ids": [
+            "DOC-B0898-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_base_1070.csv#row=899",
+      "text": "의재미술관은 의재 허백련(毅齋 許百鍊) 선생을 기념하기 위해 건립된 미술관입니다.",
+      "sido": "광주광역시",
+      "sigungu": "동구",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_base_1070.csv#row=899"
+      ],
+      "evidence_id": "E3",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=616",
+        "fields": {
+          "name": "의재미술관",
+          "sido": "광주광역시",
+          "sigungu": "동구",
+          "address": "광주광역시 동구 증심사길 155(운림동)",
+          "ownership_type": "사립",
+          "adult_fee": "2000",
+          "youth_fee": "1000",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_PAID",
+          "weekday_open": "09:30",
+          "weekday_close": "05:30",
+          "holiday_open": "09:30",
+          "holiday_close": "17:00",
+          "closure_rule_raw": "월"
+        },
+        "base_data_date": "2025-06-26",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0785",
+      "name": "우민아트센터",
+      "document": "2011년 9월 (재)우민재단이 설립한 우민아트센터는 지역 문화예술에 대한 공공적 기여와 창의적 소통을 지향하고 한국 현대미술발전에 기여하고자 하는 등록 사립미술관",
+      "metadata": {
+        "holiday_close": "19:00",
+        "child_fee": 0.0,
+        "holiday_open": "10:00",
+        "adult_fee": 0.0,
+        "name": "우민아트센터",
+        "youth_fee": 0.0,
+        "longitude": 127.489187,
+        "closure_rule_raw": "1월1일+설연휴+추석연휴+매주 일요일",
+        "ownership_type": "사립",
+        "weekday_close": "19:00",
+        "weekday_open": "10:00",
+        "source_types": "BASE",
+        "sigungu": "청주시",
+        "latitude": 36.644553,
+        "sido": "충청북도",
+        "address": "충청북도 청주시 상당구 사북로 164, B1(북문로3가)",
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "transport_notes": "시내버스 10-2, 101, 111, 112, 105 등 방아다리에서 하차",
+        "requires_manual_review": true,
+        "homepage_url": "http://www.wuminartcenter.org",
+        "amenities_raw": "주차장+카페"
+      },
+      "vector_rank": 3,
+      "bm25_rank": null,
+      "vector_distance": 0.5053272247314453,
+      "vector_score": null,
+      "bm25_score": null,
+      "vector_document": "2011년 9월 (재)우민재단이 설립한 우민아트센터는 지역 문화예술에 대한 공공적 기여와 창의적 소통을 지향하고 한국 현대미술발전에 기여하고자 하는 등록 사립미술관",
+      "bm25_document": "",
+      "best_span_id": null,
+      "best_span_text": null,
+      "fusion_score": 0.015873015873015872,
+      "retrieved_by": [
+        "vector"
+      ],
+      "fusion_rank": 4,
+      "rerank_score": null,
+      "rank": 4,
+      "score": 0.015873015873015872,
+      "score_type": "rrf",
+      "distance": 0.5053272247314453,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector"
+      ],
+      "retriever": "vector",
+      "source_doc_ids": [
+        "DOC-B0785-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0785-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0785",
+          "source_locator": "data/raw/museum_base_1070.csv#row=786",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 91,
+          "doc_ids": [
+            "DOC-B0785-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_base_1070.csv#row=786",
+      "text": "2011년 9월 (재)우민재단이 설립한 우민아트센터는 지역 문화예술에 대한 공공적 기여와 창의적 소통을 지향하고 한국 현대미술발전에 기여하고자 하는 등록 사립미술관",
+      "sido": "충청북도",
+      "sigungu": "청주시",
+      "span_id": "",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_base_1070.csv#row=786"
+      ],
+      "evidence_id": "E4",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=541",
+        "fields": {
+          "name": "우민아트센터",
+          "sido": "충청북도",
+          "sigungu": "청주시",
+          "address": "충청북도 청주시 상당구 사북로 164, B1(북문로3가)",
+          "ownership_type": "사립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "10:00",
+          "weekday_close": "19:00",
+          "holiday_open": "10:00",
+          "holiday_close": "19:00",
+          "closure_rule_raw": "1월1일+설연휴+추석연휴+매주 일요일",
+          "amenities_raw": "주차장+카페"
+        },
+        "base_data_date": "2025-11-26",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0812",
+      "name": "어진박물관",
+      "document": "어진박물관은 태조어진과 어진봉안 관련 유물을 영구 보존하기 위해 건립된 곳으로, 국내 유일의 어진(왕의 초상) 전문 박물관이다. 전주는 조선을 건국한 태조 이성계의 본향으로, 조선왕조는 이를 기념하여 1410년(태종 10) 태조의 어진을 전주에 봉안하였다. 어진박물관은 태조어진 전주봉안 600주년을 맞이해 2010년 11월에 개관하였다. 시설로는 태조 어진 전시 및 실감미디어 콘텐츠를 볼 수 있는 태조어진실, 경기전 건립부터 전주의 조선왕조 관련 유적지와 조선왕조실록 등 태조어진과 관련된 유물을 볼 수 있는 역사실, 경기전에 태조어진이 봉안될 당시 사용하였던 가마들을 볼 수 있는 가마실, 조선시대 임금의 초상화 7점을 볼 수 있는 어진실, 체험실 등을 갖추고 있다.",
+      "metadata": {
+        "amenities_raw": "문화상품점",
+        "ownership_type": "공립",
+        "holiday_close": "18:00",
+        "source_types": "TOUR_API",
+        "address": "전북특별자치도 전주시 완산구 태조로 44, 1동",
+        "holiday_open": "09:00",
+        "weekday_open": "09:00",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/93/4055293_image2_1.jpg",
+        "name": "어진박물관",
+        "weekday_close": "18:00",
+        "sigungu": "전주시",
+        "requires_manual_review": true,
+        "latitude": 35.815519,
+        "sido": "전북특별자치도",
+        "closure_rule_raw": "월+신정",
+        "child_fee": 1000.0,
+        "adult_fee_status": "BASE_FEE_PAID",
+        "homepage_url": "http://www.eojinmuseum.org",
+        "fee_notes": "경기전 입장료 동일적용+무료(영유아 및 만 65세 이상)",
+        "longitude": 127.1501202,
+        "youth_fee": 2000.0,
+        "image_copyright": "Type1",
+        "adult_fee": 3000.0
+      },
+      "vector_rank": null,
+      "bm25_rank": 3,
+      "vector_distance": null,
+      "vector_score": null,
+      "bm25_score": 8.20731862224251,
+      "vector_document": "",
+      "bm25_document": "어진박물관은 태조어진과 어진봉안 관련 유물을 영구 보존하기 위해 건립된 곳으로, 국내 유일의 어진(왕의 초상) 전문 박물관이다. 전주는 조선을 건국한 태조 이성계의 본향으로, 조선왕조는 이를 기념하여 1410년(태종 10) 태조의 어진을 전주에 봉안하였다. 어진박물관은 태조어진 전주봉안 600주년을 맞이해 2010년 11월에 개관하였다. 시설로는 태조 어진 전시 및 실감미디어 콘텐츠를 볼 수 있는 태조어진실, 경기전 건립부터 전주의 조선왕조 관련 유적지와 조선왕조실록 등 태조어진과 관련된 유물을 볼 수 있는 역사실, 경기전에 태조어진이 봉안될 당시 사용하였던 가마들을 볼 수 있는 가마실, 조선시대 임금의 초상화 7점을 볼 수 있는 어진실, 체험실 등을 갖추고 있다.",
+      "best_span_id": "chroma:M0812",
+      "best_span_text": "어진박물관은 태조어진과 어진봉안 관련 유물을 영구 보존하기 위해 건립된 곳으로, 국내 유일의 어진(왕의 초상) 전문 박물관이다. 전주는 조선을 건국한 태조 이성계의 본향으로, 조선왕조는 이를 기념하여 1410년(태종 10) 태조의 어진을 전주에 봉안하였다. 어진박물관은 태조어진 전주봉안 600주년을 맞이해 2010년 11월에 개관하였다. 시설로는 태조 어진 전시 및 실감미디어 콘텐츠를 볼 수 있는 태조어진실, 경기전 건립부터 전주의 조선왕조 관련 유적지와 조선왕조실록 등 태조어진과 관련된 유물을 볼 수 있는 역사실, 경기전에 태조어진이 봉안될 당시 사용하였던 가마들을 볼 수 있는 가마실, 조선시대 임금의 초상화 7점을 볼 수 있는 어진실, 체험실 등을 갖추고 있다.",
+      "fusion_score": 0.015873015873015872,
+      "retrieved_by": [
+        "bm25"
+      ],
+      "fusion_rank": 5,
+      "rerank_score": null,
+      "rank": 5,
+      "score": 0.015873015873015872,
+      "score_type": "rrf",
+      "distance": null,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "bm25"
+      ],
+      "retriever": "bm25",
+      "span_id": "chroma:M0812",
+      "source_doc_ids": [
+        "DOC-B0812-TOUR_API-1587143"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0812-TOUR_API-1587143",
+          "source_type": "TOUR_API",
+          "source_record_id": "1587143",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=389",
+          "match_trust": "RECHECKED_BY_RULE_NOT_HUMAN_APPROVED"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 71,
+          "doc_ids": [
+            "DOC-B0812-TOUR_API-1587143"
+          ]
+        },
+        {
+          "start": 72,
+          "end": 143,
+          "doc_ids": [
+            "DOC-B0812-TOUR_API-1587143"
+          ]
+        },
+        {
+          "start": 144,
+          "end": 189,
+          "doc_ids": [
+            "DOC-B0812-TOUR_API-1587143"
+          ]
+        },
+        {
+          "start": 190,
+          "end": 376,
+          "doc_ids": [
+            "DOC-B0812-TOUR_API-1587143"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=389",
+      "text": "어진박물관은 태조어진과 어진봉안 관련 유물을 영구 보존하기 위해 건립된 곳으로, 국내 유일의 어진(왕의 초상) 전문 박물관이다. 전주는 조선을 건국한 태조 이성계의 본향으로, 조선왕조는 이를 기념하여 1410년(태종 10) 태조의 어진을 전주에 봉안하였다. 어진박물관은 태조어진 전주봉안 600주년을 맞이해 2010년 11월에 개관하였다. 시설로는 태조 어진 전시 및 실감미디어 콘텐츠를 볼 수 있는 태조어진실, 경기전 건립부터 전주의 조선왕조 관련 유적지와 조선왕조실록 등 태조어진과 관련된 유물을 볼 수 있는 역사실, 경기전에 태조어진이 봉안될 당시 사용하였던 가마들을 볼 수 있는 가마실, 조선시대 임금의 초상화 7점을 볼 수 있는 어진실, 체험실 등을 갖추고 있다.",
+      "sido": "전북특별자치도",
+      "sigungu": "전주시",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=389"
+      ],
+      "evidence_id": "E5",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=558",
+        "fields": {
+          "name": "어진박물관",
+          "sido": "전북특별자치도",
+          "sigungu": "전주시",
+          "address": "전북특별자치도 전주시 완산구 태조로 44, 1동",
+          "ownership_type": "공립",
+          "adult_fee": "3000",
+          "youth_fee": "2000",
+          "child_fee": "1000",
+          "adult_fee_status": "BASE_FEE_PAID",
+          "weekday_open": "09:00",
+          "weekday_close": "18:00",
+          "holiday_open": "09:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "월+신정",
+          "amenities_raw": "문화상품점"
+        },
+        "base_data_date": "2025-02-11",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    }
+  ],
+  "answer": "한국이민사박물관은 2003년 미주 이민 100주년을 기념하고, 해외에서 개척자의 삶을 살았던 선조들을 기리며 그 발자취를 후손에게 전하기 위해 건립되었습니다.[E1]",
+  "retrieval_status": "ok",
+  "answer_status": "answered",
+  "route": "hybrid",
+  "retry_count": 0,
+  "supervisor_verified": true,
+  "rerank_applied": false,
+  "retriever_errors": [],
+  "warnings": [
+    "Cross-Encoder reranking failed (FileNotFoundError); RRF order retained"
+  ],
+  "duration_ms": 13210.59,
+  "error_type": "",
+  "hit_at_1": 1,
+  "hit_at_3": 1,
+  "hit_at_5": 1,
+  "recall_at_5": 1.0,
+  "mrr_at_10": 1.0
+}

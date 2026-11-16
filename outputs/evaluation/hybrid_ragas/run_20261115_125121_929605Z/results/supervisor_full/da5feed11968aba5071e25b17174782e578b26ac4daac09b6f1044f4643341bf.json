@@ -1,0 +1,676 @@
+{
+  "mode": "supervisor_full",
+  "question_id": "Q146",
+  "evidence": [
+    {
+      "museum_id": "M0241",
+      "name": "청계천박물관",
+      "document": "청계천박물관은 2005년 9월 26일에 개관한 박물관으로, 서울의 중심을 흐르는 청계천의 역사와 문화를 한눈에 볼 수 있는 공간이다. 박물관 건물의 정면은 길게 뻗은 유리 형태로 되어 있으며, 이는 2005년 10월 1일 시민의 품으로 돌아온 청계천의 물길을 상징적으로 표현한 것이다. 청계천박물관은 상설전시실과 기획전시실, 교육실, 소강당 등 다양한 시설을 갖춘 복합문화공간으로, 청계천과 관련된 다양한 역사와 문화 그리고 미래를 전시하고 있다. 청계천의 모습을 통해 서울의 과거와 현재, 그리고 미래에 대한 이해를 높일 수 있다.",
+      "metadata": {
+        "sido": "서울특별시",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/11/3503011_image2_1.jpg",
+        "address": "서울특별시 성동구 청계천로 530",
+        "closure_rule_raw": "월+1월1일",
+        "child_fee": 0.0,
+        "holiday_close": "18:00",
+        "holiday_open": "09:00",
+        "sigungu": "성동구",
+        "name": "청계천박물관",
+        "weekday_close": "19:00",
+        "latitude": 37.5712267,
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "youth_fee": 0.0,
+        "adult_fee": 0.0,
+        "image_copyright": "Type1",
+        "longitude": 127.0350281,
+        "weekday_open": "09:00",
+        "homepage_url": "https://museum.seoul.go.kr/cgcm/index.do",
+        "source_types": "TOUR_API",
+        "ownership_type": "공립",
+        "requires_manual_review": true
+      },
+      "vector_rank": 2,
+      "bm25_rank": 1,
+      "vector_distance": 0.42532384395599365,
+      "vector_score": null,
+      "bm25_score": 27.38668136866389,
+      "vector_document": "청계천박물관은 2005년 9월 26일에 개관한 박물관으로, 서울의 중심을 흐르는 청계천의 역사와 문화를 한눈에 볼 수 있는 공간이다. 박물관 건물의 정면은 길게 뻗은 유리 형태로 되어 있으며, 이는 2005년 10월 1일 시민의 품으로 돌아온 청계천의 물길을 상징적으로 표현한 것이다. 청계천박물관은 상설전시실과 기획전시실, 교육실, 소강당 등 다양한 시설을 갖춘 복합문화공간으로, 청계천과 관련된 다양한 역사와 문화 그리고 미래를 전시하고 있다. 청계천의 모습을 통해 서울의 과거와 현재, 그리고 미래에 대한 이해를 높일 수 있다.",
+      "bm25_document": "청계천박물관은 2005년 9월 26일에 개관한 박물관으로, 서울의 중심을 흐르는 청계천의 역사와 문화를 한눈에 볼 수 있는 공간이다. 박물관 건물의 정면은 길게 뻗은 유리 형태로 되어 있으며, 이는 2005년 10월 1일 시민의 품으로 돌아온 청계천의 물길을 상징적으로 표현한 것이다. 청계천박물관은 상설전시실과 기획전시실, 교육실, 소강당 등 다양한 시설을 갖춘 복합문화공간으로, 청계천과 관련된 다양한 역사와 문화 그리고 미래를 전시하고 있다. 청계천의 모습을 통해 서울의 과거와 현재, 그리고 미래에 대한 이해를 높일 수 있다.",
+      "best_span_id": "chroma:M0241",
+      "best_span_text": "청계천박물관은 2005년 9월 26일에 개관한 박물관으로, 서울의 중심을 흐르는 청계천의 역사와 문화를 한눈에 볼 수 있는 공간이다. 박물관 건물의 정면은 길게 뻗은 유리 형태로 되어 있으며, 이는 2005년 10월 1일 시민의 품으로 돌아온 청계천의 물길을 상징적으로 표현한 것이다. 청계천박물관은 상설전시실과 기획전시실, 교육실, 소강당 등 다양한 시설을 갖춘 복합문화공간으로, 청계천과 관련된 다양한 역사와 문화 그리고 미래를 전시하고 있다. 청계천의 모습을 통해 서울의 과거와 현재, 그리고 미래에 대한 이해를 높일 수 있다.",
+      "fusion_score": 0.03252247488101534,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 1,
+      "name_match": true,
+      "rerank_score": 0.9999725818634033,
+      "rank": 1,
+      "score": 0.9999725818634033,
+      "score_type": "cross_encoder",
+      "distance": 0.42532384395599365,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0241",
+      "source_doc_ids": [
+        "DOC-B0241-TOUR_API-130658"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0241-TOUR_API-130658",
+          "source_type": "TOUR_API",
+          "source_record_id": "130658",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=118",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 74,
+          "doc_ids": [
+            "DOC-B0241-TOUR_API-130658"
+          ]
+        },
+        {
+          "start": 75,
+          "end": 159,
+          "doc_ids": [
+            "DOC-B0241-TOUR_API-130658"
+          ]
+        },
+        {
+          "start": 160,
+          "end": 250,
+          "doc_ids": [
+            "DOC-B0241-TOUR_API-130658"
+          ]
+        },
+        {
+          "start": 251,
+          "end": 298,
+          "doc_ids": [
+            "DOC-B0241-TOUR_API-130658"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=118",
+      "text": "청계천박물관은 2005년 9월 26일에 개관한 박물관으로, 서울의 중심을 흐르는 청계천의 역사와 문화를 한눈에 볼 수 있는 공간이다. 박물관 건물의 정면은 길게 뻗은 유리 형태로 되어 있으며, 이는 2005년 10월 1일 시민의 품으로 돌아온 청계천의 물길을 상징적으로 표현한 것이다. 청계천박물관은 상설전시실과 기획전시실, 교육실, 소강당 등 다양한 시설을 갖춘 복합문화공간으로, 청계천과 관련된 다양한 역사와 문화 그리고 미래를 전시하고 있다. 청계천의 모습을 통해 서울의 과거와 현재, 그리고 미래에 대한 이해를 높일 수 있다.",
+      "sido": "서울특별시",
+      "sigungu": "성동구",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=118"
+      ],
+      "evidence_id": "E1",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=169",
+        "fields": {
+          "name": "청계천박물관",
+          "sido": "서울특별시",
+          "sigungu": "성동구",
+          "address": "서울특별시 성동구 청계천로 530",
+          "ownership_type": "공립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "09:00",
+          "weekday_close": "19:00",
+          "holiday_open": "09:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "월+1월1일"
+        },
+        "base_data_date": "2026-09-03",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0733",
+      "name": "청량산박물관",
+      "document": "청량산박물관은 청량산도립공원 시설지구내에 위치하며 청량산과 조선시대 유산遊山문화에 특화된 박물관이다. 뿐만 아니라 봉화군의 역사와 인물, 민속자료의 전시, 향토사 연구 및 교육활동 등도 병행하고 있다. 박물관은 2개의 상설전시실과 기획전시실, 어린이체험실, 인물역사관, 농경전시관으로 구성되었다. 상설전시실에는 청량산과 관련된 역사, 인물, 자연환경 등과 유산문화와 관련된 각종 유물, 관련 인물들의 흔적들이 전시되어 있으며, 기획전시실에는 매년 봉화의 역사문화와 관련된 다양한 주제로 기획전이 개최되고 있다. 어린이체험실에는 아이들이 즐길수 있는 체험프로그램이 마련되어 있다. 인물역사관과 농경전시관에서는 봉화의 인물사와 농업사가 일목요연하게 정리되어 있다. 청량산박물관은 2004-06-11일 개관하여 청량산을 배경으로 한 문화유산과 자연환경, 지역 홍보자료를 한 곳에 모아 전시함으로써 봉화의 역사와 문화에 대한이해는 물론, 지역전통문화의 계승발전과 군민 정서함양의 계기를 마련하고 청량산을 찾는 사람들에게 유익한 탐방문화를 제공하여 자연체험의 산 교육장으로 활용함과 아울러 지역의 새로운 관광명소를 조성하고자 건립하였다",
+      "metadata": {
+        "weekday_close": "18:00",
+        "weekday_open": "09:00",
+        "closure_rule_raw": "월+법정공휴일",
+        "sigungu": "봉화군",
+        "requires_manual_review": true,
+        "holiday_open": "09:00",
+        "address": "경상북도 봉화군 명호면 광석길 39",
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "youth_fee": 0.0,
+        "amenities_raw": "전망대+휠체어+안내소",
+        "source_types": "BASE|TOUR_API",
+        "sido": "경상북도",
+        "name": "청량산박물관",
+        "child_fee": 0.0,
+        "adult_fee": 0.0,
+        "longitude": 128.8938782,
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/75/3340975_image2_1.JPG",
+        "holiday_close": "18:00",
+        "image_copyright": "Type3",
+        "homepage_url": "http://bonghwa.go.kr/open.content/mt/",
+        "ownership_type": "공립",
+        "transport_notes": "봉화출발 일 4회+안동(67번)출발 일 5회",
+        "latitude": 36.78808222
+      },
+      "vector_rank": null,
+      "bm25_rank": 3,
+      "vector_distance": null,
+      "vector_score": null,
+      "bm25_score": 10.297535315305897,
+      "vector_document": "",
+      "bm25_document": "청량산박물관은 청량산도립공원 시설지구내에 위치하며 청량산과 조선시대 유산遊山문화에 특화된 박물관이다. 뿐만 아니라 봉화군의 역사와 인물, 민속자료의 전시, 향토사 연구 및 교육활동 등도 병행하고 있다. 박물관은 2개의 상설전시실과 기획전시실, 어린이체험실, 인물역사관, 농경전시관으로 구성되었다. 상설전시실에는 청량산과 관련된 역사, 인물, 자연환경 등과 유산문화와 관련된 각종 유물, 관련 인물들의 흔적들이 전시되어 있으며, 기획전시실에는 매년 봉화의 역사문화와 관련된 다양한 주제로 기획전이 개최되고 있다. 어린이체험실에는 아이들이 즐길수 있는 체험프로그램이 마련되어 있다. 인물역사관과 농경전시관에서는 봉화의 인물사와 농업사가 일목요연하게 정리되어 있다. 청량산박물관은 2004-06-11일 개관하여 청량산을 배경으로 한 문화유산과 자연환경, 지역 홍보자료를 한 곳에 모아 전시함으로써 봉화의 역사와 문화에 대한이해는 물론, 지역전통문화의 계승발전과 군민 정서함양의 계기를 마련하고 청량산을 찾는 사람들에게 유익한 탐방문화를 제공하여 자연체험의 산 교육장으로 활용함과 아울러 지역의 새로운 관광명소를 조성하고자 건립하였다",
+      "best_span_id": "chroma:M0733",
+      "best_span_text": "청량산박물관은 청량산도립공원 시설지구내에 위치하며 청량산과 조선시대 유산遊山문화에 특화된 박물관이다. 뿐만 아니라 봉화군의 역사와 인물, 민속자료의 전시, 향토사 연구 및 교육활동 등도 병행하고 있다. 박물관은 2개의 상설전시실과 기획전시실, 어린이체험실, 인물역사관, 농경전시관으로 구성되었다. 상설전시실에는 청량산과 관련된 역사, 인물, 자연환경 등과 유산문화와 관련된 각종 유물, 관련 인물들의 흔적들이 전시되어 있으며, 기획전시실에는 매년 봉화의 역사문화와 관련된 다양한 주제로 기획전이 개최되고 있다. 어린이체험실에는 아이들이 즐길수 있는 체험프로그램이 마련되어 있다. 인물역사관과 농경전시관에서는 봉화의 인물사와 농업사가 일목요연하게 정리되어 있다. 청량산박물관은 2004-06-11일 개관하여 청량산을 배경으로 한 문화유산과 자연환경, 지역 홍보자료를 한 곳에 모아 전시함으로써 봉화의 역사와 문화에 대한이해는 물론, 지역전통문화의 계승발전과 군민 정서함양의 계기를 마련하고 청량산을 찾는 사람들에게 유익한 탐방문화를 제공하여 자연체험의 산 교육장으로 활용함과 아울러 지역의 새로운 관광명소를 조성하고자 건립하였다",
+      "fusion_score": 0.015873015873015872,
+      "retrieved_by": [
+        "bm25"
+      ],
+      "fusion_rank": 5,
+      "rerank_score": 0.025017516687512398,
+      "rank": 2,
+      "score": 0.025017516687512398,
+      "score_type": "cross_encoder",
+      "distance": null,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "bm25"
+      ],
+      "retriever": "bm25",
+      "span_id": "chroma:M0733",
+      "source_doc_ids": [
+        "DOC-B0733-TOUR_API-130666",
+        "DOC-B0733-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0733-TOUR_API-130666",
+          "source_type": "TOUR_API",
+          "source_record_id": "130666",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=353",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        },
+        {
+          "doc_id": "DOC-B0733-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0733",
+          "source_locator": "data/raw/museum_base_1070.csv#row=734",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 56,
+          "doc_ids": [
+            "DOC-B0733-TOUR_API-130666"
+          ]
+        },
+        {
+          "start": 57,
+          "end": 112,
+          "doc_ids": [
+            "DOC-B0733-TOUR_API-130666"
+          ]
+        },
+        {
+          "start": 113,
+          "end": 165,
+          "doc_ids": [
+            "DOC-B0733-TOUR_API-130666"
+          ]
+        },
+        {
+          "start": 166,
+          "end": 285,
+          "doc_ids": [
+            "DOC-B0733-TOUR_API-130666"
+          ]
+        },
+        {
+          "start": 286,
+          "end": 323,
+          "doc_ids": [
+            "DOC-B0733-TOUR_API-130666"
+          ]
+        },
+        {
+          "start": 324,
+          "end": 369,
+          "doc_ids": [
+            "DOC-B0733-TOUR_API-130666"
+          ]
+        },
+        {
+          "start": 370,
+          "end": 574,
+          "doc_ids": [
+            "DOC-B0733-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=353",
+      "text": "청량산박물관은 청량산도립공원 시설지구내에 위치하며 청량산과 조선시대 유산遊山문화에 특화된 박물관이다. 뿐만 아니라 봉화군의 역사와 인물, 민속자료의 전시, 향토사 연구 및 교육활동 등도 병행하고 있다. 박물관은 2개의 상설전시실과 기획전시실, 어린이체험실, 인물역사관, 농경전시관으로 구성되었다. 상설전시실에는 청량산과 관련된 역사, 인물, 자연환경 등과 유산문화와 관련된 각종 유물, 관련 인물들의 흔적들이 전시되어 있으며, 기획전시실에는 매년 봉화의 역사문화와 관련된 다양한 주제로 기획전이 개최되고 있다. 어린이체험실에는 아이들이 즐길수 있는 체험프로그램이 마련되어 있다. 인물역사관과 농경전시관에서는 봉화의 인물사와 농업사가 일목요연하게 정리되어 있다. 청량산박물관은 2004-06-11일 개관하여 청량산을 배경으로 한 문화유산과 자연환경, 지역 홍보자료를 한 곳에 모아 전시함으로써 봉화의 역사와 문화에 대한이해는 물론, 지역전통문화의 계승발전과 군민 정서함양의 계기를 마련하고 청량산을 찾는 사람들에게 유익한 탐방문화를 제공하여 자연체험의 산 교육장으로 활용함과 아울러 지역의 새로운 관광명소를 조성하고자 건립하였다",
+      "sido": "경상북도",
+      "sigungu": "봉화군",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=353"
+      ],
+      "evidence_id": "E2",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=508",
+        "fields": {
+          "name": "청량산박물관",
+          "sido": "경상북도",
+          "sigungu": "봉화군",
+          "address": "경상북도 봉화군 명호면 광석길 39",
+          "ownership_type": "공립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "09:00",
+          "weekday_close": "18:00",
+          "holiday_open": "09:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "월+법정공휴일",
+          "amenities_raw": "전망대+휠체어+안내소"
+        },
+        "base_data_date": "2025-12-16",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0485",
+      "name": "국립공주박물관",
+      "document": "국립공주박물관은 1946년 4월 1일 웅진 백제 문화를 중심으로 충청남도의 역사와 문화를 보존, 전시하기 위해 개관했다. 웅진백제를 주제로 하는 전시실과 충청남도의 역사문화를 주제로 한 전시실이 있으며, 다양한 주제의 특별전시도 수시로 열리고 있다. 전시 외에도 다채로운 문화행사와 교육 프로그램도 진행하고 있다. 백제 웅진 시기와 무령왕릉 관련 문화유산을 전시하는 국립박물관이다. 무령왕릉 출토 유물과 충남의 역사문화 자료를 중심으로 지역의 고대사를 살펴볼 수 있다.",
+      "metadata": {
+        "ownership_type": "국립",
+        "sido": "충청남도",
+        "longitude": 127.112179949,
+        "closure_rule_raw": "매주 월요일(단, 월요일이 공휴일인 경우 당일은 개관하고 그 다음 첫번째 평일에 휴관), 1월 1일, 설날 및 추석 당일",
+        "homepage_url": "https://gongju.museum.go.kr/kor/index.do",
+        "sigungu": "공주시",
+        "latitude": 36.465529123,
+        "address": "충청남도 공주시 관광단지길 34",
+        "youth_fee": 0.0,
+        "requires_manual_review": true,
+        "adult_fee": 0.0,
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "source_types": "TOUR_API|WEB_RESEARCH",
+        "child_fee": 0.0,
+        "holiday_open": "09:00",
+        "holiday_close": "18:00",
+        "name": "국립공주박물관",
+        "weekday_close": "18:00",
+        "weekday_open": "09:00",
+        "image_url": "http://tong.visitkorea.or.kr/cms/resource/33/3534933_image2_1.jpg",
+        "image_copyright": "Type1"
+      },
+      "vector_rank": null,
+      "bm25_rank": 2,
+      "vector_distance": null,
+      "vector_score": null,
+      "bm25_score": 10.838153578211227,
+      "vector_document": "",
+      "bm25_document": "국립공주박물관은 1946년 4월 1일 웅진 백제 문화를 중심으로 충청남도의 역사와 문화를 보존, 전시하기 위해 개관했다. 웅진백제를 주제로 하는 전시실과 충청남도의 역사문화를 주제로 한 전시실이 있으며, 다양한 주제의 특별전시도 수시로 열리고 있다. 전시 외에도 다채로운 문화행사와 교육 프로그램도 진행하고 있다. 백제 웅진 시기와 무령왕릉 관련 문화유산을 전시하는 국립박물관이다. 무령왕릉 출토 유물과 충남의 역사문화 자료를 중심으로 지역의 고대사를 살펴볼 수 있다.",
+      "best_span_id": "chroma:M0485",
+      "best_span_text": "국립공주박물관은 1946년 4월 1일 웅진 백제 문화를 중심으로 충청남도의 역사와 문화를 보존, 전시하기 위해 개관했다. 웅진백제를 주제로 하는 전시실과 충청남도의 역사문화를 주제로 한 전시실이 있으며, 다양한 주제의 특별전시도 수시로 열리고 있다. 전시 외에도 다채로운 문화행사와 교육 프로그램도 진행하고 있다. 백제 웅진 시기와 무령왕릉 관련 문화유산을 전시하는 국립박물관이다. 무령왕릉 출토 유물과 충남의 역사문화 자료를 중심으로 지역의 고대사를 살펴볼 수 있다.",
+      "fusion_score": 0.016129032258064516,
+      "retrieved_by": [
+        "bm25"
+      ],
+      "fusion_rank": 3,
+      "rerank_score": 0.02027141861617565,
+      "rank": 3,
+      "score": 0.02027141861617565,
+      "score_type": "cross_encoder",
+      "distance": null,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "bm25"
+      ],
+      "retriever": "bm25",
+      "span_id": "chroma:M0485",
+      "source_doc_ids": [
+        "DOC-B0485-TOUR_API-129787",
+        "DOC-WEB-M0485-20261111"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0485-TOUR_API-129787",
+          "source_type": "TOUR_API",
+          "source_record_id": "129787",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=237",
+          "match_trust": "RECHECKED_BY_RULE_NOT_HUMAN_APPROVED"
+        },
+        {
+          "doc_id": "DOC-WEB-M0485-20261111",
+          "source_type": "WEB_RESEARCH",
+          "source_record_id": "RESEARCH-M0485",
+          "source_locator": "https://kh.or.kr/cont/view/fest/month/menu/210?idx=110143&searchCategory1=600&searchDate=202507&searchField=all&thisPage=1",
+          "source_url": "https://kh.or.kr/cont/view/fest/month/menu/210?idx=110143&searchCategory1=600&searchDate=202507&searchField=all&thisPage=1",
+          "match_trust": "WEB_SOURCE_REVIEWED_NOT_HUMAN_APPROVED"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 67,
+          "doc_ids": [
+            "DOC-B0485-TOUR_API-129787"
+          ]
+        },
+        {
+          "start": 68,
+          "end": 139,
+          "doc_ids": [
+            "DOC-B0485-TOUR_API-129787"
+          ]
+        },
+        {
+          "start": 140,
+          "end": 175,
+          "doc_ids": [
+            "DOC-B0485-TOUR_API-129787"
+          ]
+        },
+        {
+          "start": 176,
+          "end": 213,
+          "doc_ids": [
+            "DOC-WEB-M0485-20261111"
+          ]
+        },
+        {
+          "start": 214,
+          "end": 262,
+          "doc_ids": [
+            "DOC-WEB-M0485-20261111"
+          ]
+        }
+      ],
+      "source_urls": [
+        "https://kh.or.kr/cont/view/fest/month/menu/210?idx=110143&searchCategory1=600&searchDate=202507&searchField=all&thisPage=1"
+      ],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=237",
+      "text": "국립공주박물관은 1946년 4월 1일 웅진 백제 문화를 중심으로 충청남도의 역사와 문화를 보존, 전시하기 위해 개관했다. 웅진백제를 주제로 하는 전시실과 충청남도의 역사문화를 주제로 한 전시실이 있으며, 다양한 주제의 특별전시도 수시로 열리고 있다. 전시 외에도 다채로운 문화행사와 교육 프로그램도 진행하고 있다. 백제 웅진 시기와 무령왕릉 관련 문화유산을 전시하는 국립박물관이다. 무령왕릉 출토 유물과 충남의 역사문화 자료를 중심으로 지역의 고대사를 살펴볼 수 있다.",
+      "sido": "충청남도",
+      "sigungu": "공주시",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=237"
+      ],
+      "evidence_id": "E3",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=348",
+        "fields": {
+          "name": "국립공주박물관",
+          "sido": "충청남도",
+          "sigungu": "공주시",
+          "address": "충청남도 공주시 관광단지길 34",
+          "ownership_type": "국립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "09:00",
+          "weekday_close": "18:00",
+          "holiday_open": "09:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "매주 월요일(단, 월요일이 공휴일인 경우 당일은 개관하고 그 다음 첫번째 평일에 휴관), 1월 1일, 설날 및 추석 당일"
+        },
+        "base_data_date": "2026-04-08",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0938",
+      "name": "포천역사문화관",
+      "document": "선사시대부터 근현대에 이르기까지 포천의 역사문화와 유물전시",
+      "metadata": {
+        "holiday_close": "00:00",
+        "longitude": 127.198245,
+        "sido": "경기도",
+        "latitude": 37.890447,
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "name": "포천역사문화관",
+        "source_types": "BASE",
+        "weekday_open": "09:30",
+        "weekday_close": "17:30",
+        "adult_fee": 0.0,
+        "holiday_open": "00:00",
+        "ownership_type": "공립",
+        "youth_fee": 0.0,
+        "address": "경기도 포천시 중앙로34번길 8",
+        "sigungu": "포천시",
+        "child_fee": 0.0,
+        "requires_manual_review": true,
+        "closure_rule_raw": "토+일+법정공휴일"
+      },
+      "vector_rank": 4,
+      "bm25_rank": null,
+      "vector_distance": 0.4445613622665405,
+      "vector_score": null,
+      "bm25_score": null,
+      "vector_document": "선사시대부터 근현대에 이르기까지 포천의 역사문화와 유물전시",
+      "bm25_document": "",
+      "best_span_id": null,
+      "best_span_text": null,
+      "fusion_score": 0.015625,
+      "retrieved_by": [
+        "vector"
+      ],
+      "fusion_rank": 6,
+      "rerank_score": 0.016602814197540283,
+      "rank": 4,
+      "score": 0.016602814197540283,
+      "score_type": "cross_encoder",
+      "distance": 0.4445613622665405,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector"
+      ],
+      "retriever": "vector",
+      "source_doc_ids": [
+        "DOC-B0938-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0938-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0938",
+          "source_locator": "data/raw/museum_base_1070.csv#row=939",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 32,
+          "doc_ids": [
+            "DOC-B0938-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_base_1070.csv#row=939",
+      "text": "선사시대부터 근현대에 이르기까지 포천의 역사문화와 유물전시",
+      "sido": "경기도",
+      "sigungu": "포천시",
+      "span_id": "",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_base_1070.csv#row=939"
+      ],
+      "evidence_id": "E4",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=645",
+        "fields": {
+          "name": "포천역사문화관",
+          "sido": "경기도",
+          "sigungu": "포천시",
+          "address": "경기도 포천시 중앙로34번길 8",
+          "ownership_type": "공립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "09:30",
+          "weekday_close": "17:30",
+          "holiday_open": "00:00",
+          "holiday_close": "00:00",
+          "closure_rule_raw": "토+일+법정공휴일"
+        },
+        "base_data_date": "2024-11-14",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0119",
+      "name": "영천역사박물관",
+      "document": "영천시와 관련된 고문서 민속품 등의 문화재 전시",
+      "metadata": {
+        "sido": "경상북도",
+        "closure_rule_raw": "일요일+공휴일",
+        "amenities_raw": "전시실+강의실",
+        "requires_manual_review": true,
+        "name": "영천역사박물관",
+        "holiday_open": "00:00",
+        "longitude": 128.9299782,
+        "adult_fee": 0.0,
+        "transport_notes": "차량:영천역사박물관+버스:도림2동 정류장 하차",
+        "sigungu": "영천시",
+        "ownership_type": "사립",
+        "homepage_url": "http://yeongcheonmuseum.com/",
+        "youth_fee": 0.0,
+        "latitude": 36.018594,
+        "weekday_close": "17:30",
+        "address": "경상북도 영천시 선창길 9",
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "source_types": "BASE",
+        "holiday_close": "00:00",
+        "weekday_open": "10:00",
+        "child_fee": 0.0
+      },
+      "vector_rank": 3,
+      "bm25_rank": null,
+      "vector_distance": 0.4357292652130127,
+      "vector_score": null,
+      "bm25_score": null,
+      "vector_document": "영천시와 관련된 고문서 민속품 등의 문화재 전시",
+      "bm25_document": "",
+      "best_span_id": null,
+      "best_span_text": null,
+      "fusion_score": 0.015873015873015872,
+      "retrieved_by": [
+        "vector"
+      ],
+      "fusion_rank": 4,
+      "rerank_score": 0.009287144988775253,
+      "rank": 5,
+      "score": 0.009287144988775253,
+      "score_type": "cross_encoder",
+      "distance": 0.4357292652130127,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector"
+      ],
+      "retriever": "vector",
+      "source_doc_ids": [
+        "DOC-B0119-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0119-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0119",
+          "source_locator": "data/raw/museum_base_1070.csv#row=120",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 26,
+          "doc_ids": [
+            "DOC-B0119-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_base_1070.csv#row=120",
+      "text": "영천시와 관련된 고문서 민속품 등의 문화재 전시",
+      "sido": "경상북도",
+      "sigungu": "영천시",
+      "span_id": "",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_base_1070.csv#row=120"
+      ],
+      "evidence_id": "E5",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=79",
+        "fields": {
+          "name": "영천역사박물관",
+          "sido": "경상북도",
+          "sigungu": "영천시",
+          "address": "경상북도 영천시 선창길 9",
+          "ownership_type": "사립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "10:00",
+          "weekday_close": "17:30",
+          "holiday_open": "00:00",
+          "holiday_close": "00:00",
+          "closure_rule_raw": "일요일+공휴일",
+          "amenities_raw": "전시실+강의실"
+        },
+        "base_data_date": "2026-10-22",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    }
+  ],
+  "answer": "청계천박물관은 청계천의 역사와 문화를 비롯해 청계천과 관련된 다양한 문화와 미래를 전시합니다. 이를 통해 청계천의 모습을 바탕으로 서울의 과거·현재·미래를 살펴볼 수 있습니다. [E1]",
+  "retrieval_status": "ok",
+  "answer_status": "answered",
+  "route": "hybrid",
+  "retry_count": 0,
+  "supervisor_verified": true,
+  "rerank_applied": true,
+  "retriever_errors": [],
+  "warnings": [],
+  "duration_ms": 136752.85,
+  "error_type": "",
+  "hit_at_1": 1,
+  "hit_at_3": 1,
+  "hit_at_5": 1,
+  "recall_at_5": 1.0,
+  "mrr_at_10": 1.0
+}

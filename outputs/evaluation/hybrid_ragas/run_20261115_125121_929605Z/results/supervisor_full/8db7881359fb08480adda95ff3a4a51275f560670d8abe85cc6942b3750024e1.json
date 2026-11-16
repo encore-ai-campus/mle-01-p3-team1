@@ -1,0 +1,751 @@
+{
+  "mode": "supervisor_full",
+  "question_id": "Q268",
+  "evidence": [
+    {
+      "museum_id": "M0458",
+      "name": "덕소자연사박물관",
+      "document": "덕소자연사박물관은 전 세계 30여 개국에서 수집한 공룡 화석과 광물, 곤충, 동물 박제 등 다양한 자연사 표본을 전시하는 자연사 전문 박물관이다. 움직이는 공룡을 재현한 공룡 전시관과 화석·광물·해양생물 전시를 통해 생물의 진화와 지구의 역사를 쉽고 흥미롭게 배울 수 있다. 박물관 외부에는 생태공원과 체험 공간이 조성되어 있어 동물과 자연을 가까이에서 관찰할 수 있으며 먹이 주기 체험 등 다양한 생태 학습도 가능하다. 어린이부터 어른까지 자연을 보고 배우며 즐길 수 있는 교육과 체험이 어우러진 공간으로 가족 나들이 장소로도 인기가 높다.",
+      "metadata": {
+        "holiday_open": "10:00",
+        "source_types": "TOUR_API",
+        "weekday_close": "18:00",
+        "sido": "경기도",
+        "holiday_close": "18:00",
+        "address": "경기도 남양주시 와부읍 석실로 46-11",
+        "ownership_type": "사립",
+        "amenities_raw": "문화상품점",
+        "sigungu": "남양주시",
+        "requires_manual_review": true,
+        "weekday_open": "10:00",
+        "adult_fee": 7000.0,
+        "name": "덕소자연사박물관",
+        "homepage_url": "http://www.duksomuseum.com/",
+        "longitude": 127.230014,
+        "latitude": 37.58001418,
+        "closure_rule_raw": "월+1월 1일+설 당일+추석 당일",
+        "adult_fee_status": "BASE_FEE_PAID",
+        "child_fee": 6000.0,
+        "youth_fee": 6000.0
+      },
+      "vector_rank": 1,
+      "bm25_rank": 1,
+      "vector_distance": 0.40895259380340576,
+      "vector_score": null,
+      "bm25_score": 44.140880770425866,
+      "vector_document": "덕소자연사박물관은 전 세계 30여 개국에서 수집한 공룡 화석과 광물, 곤충, 동물 박제 등 다양한 자연사 표본을 전시하는 자연사 전문 박물관이다. 움직이는 공룡을 재현한 공룡 전시관과 화석·광물·해양생물 전시를 통해 생물의 진화와 지구의 역사를 쉽고 흥미롭게 배울 수 있다. 박물관 외부에는 생태공원과 체험 공간이 조성되어 있어 동물과 자연을 가까이에서 관찰할 수 있으며 먹이 주기 체험 등 다양한 생태 학습도 가능하다. 어린이부터 어른까지 자연을 보고 배우며 즐길 수 있는 교육과 체험이 어우러진 공간으로 가족 나들이 장소로도 인기가 높다.",
+      "bm25_document": "덕소자연사박물관은 전 세계 30여 개국에서 수집한 공룡 화석과 광물, 곤충, 동물 박제 등 다양한 자연사 표본을 전시하는 자연사 전문 박물관이다. 움직이는 공룡을 재현한 공룡 전시관과 화석·광물·해양생물 전시를 통해 생물의 진화와 지구의 역사를 쉽고 흥미롭게 배울 수 있다. 박물관 외부에는 생태공원과 체험 공간이 조성되어 있어 동물과 자연을 가까이에서 관찰할 수 있으며 먹이 주기 체험 등 다양한 생태 학습도 가능하다. 어린이부터 어른까지 자연을 보고 배우며 즐길 수 있는 교육과 체험이 어우러진 공간으로 가족 나들이 장소로도 인기가 높다.",
+      "best_span_id": "chroma:M0458",
+      "best_span_text": "덕소자연사박물관은 전 세계 30여 개국에서 수집한 공룡 화석과 광물, 곤충, 동물 박제 등 다양한 자연사 표본을 전시하는 자연사 전문 박물관이다. 움직이는 공룡을 재현한 공룡 전시관과 화석·광물·해양생물 전시를 통해 생물의 진화와 지구의 역사를 쉽고 흥미롭게 배울 수 있다. 박물관 외부에는 생태공원과 체험 공간이 조성되어 있어 동물과 자연을 가까이에서 관찰할 수 있으며 먹이 주기 체험 등 다양한 생태 학습도 가능하다. 어린이부터 어른까지 자연을 보고 배우며 즐길 수 있는 교육과 체험이 어우러진 공간으로 가족 나들이 장소로도 인기가 높다.",
+      "fusion_score": 0.03278688524590164,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 1,
+      "name_match": true,
+      "rerank_score": 0.9985976815223694,
+      "rank": 1,
+      "score": 0.9985976815223694,
+      "score_type": "cross_encoder",
+      "distance": 0.40895259380340576,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0458",
+      "source_doc_ids": [
+        "DOC-B0458-TOUR_API-2736386"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0458-TOUR_API-2736386",
+          "source_type": "TOUR_API",
+          "source_record_id": "2736386",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=222",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 81,
+          "doc_ids": [
+            "DOC-B0458-TOUR_API-2736386"
+          ]
+        },
+        {
+          "start": 82,
+          "end": 153,
+          "doc_ids": [
+            "DOC-B0458-TOUR_API-2736386"
+          ]
+        },
+        {
+          "start": 154,
+          "end": 235,
+          "doc_ids": [
+            "DOC-B0458-TOUR_API-2736386"
+          ]
+        },
+        {
+          "start": 236,
+          "end": 303,
+          "doc_ids": [
+            "DOC-B0458-TOUR_API-2736386"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=222",
+      "text": "덕소자연사박물관은 전 세계 30여 개국에서 수집한 공룡 화석과 광물, 곤충, 동물 박제 등 다양한 자연사 표본을 전시하는 자연사 전문 박물관이다. 움직이는 공룡을 재현한 공룡 전시관과 화석·광물·해양생물 전시를 통해 생물의 진화와 지구의 역사를 쉽고 흥미롭게 배울 수 있다. 박물관 외부에는 생태공원과 체험 공간이 조성되어 있어 동물과 자연을 가까이에서 관찰할 수 있으며 먹이 주기 체험 등 다양한 생태 학습도 가능하다. 어린이부터 어른까지 자연을 보고 배우며 즐길 수 있는 교육과 체험이 어우러진 공간으로 가족 나들이 장소로도 인기가 높다.",
+      "sido": "경기도",
+      "sigungu": "남양주시",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=222"
+      ],
+      "evidence_id": "E1",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=330",
+        "fields": {
+          "name": "덕소자연사박물관",
+          "sido": "경기도",
+          "sigungu": "남양주시",
+          "address": "경기도 남양주시 와부읍 석실로 46-11",
+          "ownership_type": "사립",
+          "adult_fee": "7000",
+          "youth_fee": "6000",
+          "child_fee": "6000",
+          "adult_fee_status": "BASE_FEE_PAID",
+          "weekday_open": "10:00",
+          "weekday_close": "18:00",
+          "holiday_open": "10:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "월+1월 1일+설 당일+추석 당일",
+          "amenities_raw": "문화상품점"
+        },
+        "base_data_date": "2026-04-01",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0231",
+      "name": "창조자연사박물관",
+      "document": "창조자연사박물관은 1종 전문 자연사박물관으로 기독교 관점의 창조론 중심으로 설명해 주는 박물관이다. 20여 종의 움직이는 공룡과 골격 공룡, 초대형 해백합 화석을 비롯하여 화석 180여 점, 광물 190여 점, 어류 180여 점, 패류 200종 6,100여 점, 나비 곤충 264종 500여 점, 조류 60여 점, 액침표본 110여 점, 식물과 나무 60여 점의 유물을 전시, 보유하고 있다. 박물관이 소장하고 있는 화석과 광물의 원산지 및 학명은 사단법인 미래자연사환경학회의 인증받았으며 사단법인 한국창조과학회의 인증과 함께 정신 조인하여 지속해서 자연사와 창조과학의 정보를 지원받고 있으며 정기적으로 전문 강사를 세워 정기적인 창조과학 프로그램을 운영하고 있다. 들어가는 입구부터 전시관을 가득 채운 공룡들과 골격 공룡들은 실감 나게 만들어져 아이들의 눈을 사로잡으며, 야외학습장에서는 화석 발굴체험까지 할 수 있어, 공룡을 좋아하는 친구들은 더할 나위 없이 즐거운 경험을 할 수 있는 곳이다. 7200여점의 화석+ 광물+ 곤충표본+ 해양표본+ 동물박제+ 식물표본 등 전시",
+      "metadata": {
+        "closure_rule_raw": "월+ 1월1일 + 설날 및 추석연휴",
+        "requires_manual_review": true,
+        "sigungu": "시흥시",
+        "transport_notes": "(버스) 마을버스 1+ 1-1신천동 한신APT하차 후 도보 10분",
+        "fee_notes": "(할인)20인 이상 단체 1000원 할인+ 경로할인 3500원(65세 이상) + (무료)24개월 미만 영유아",
+        "youth_fee": 6000.0,
+        "holiday_close": "17:00",
+        "image_copyright": "Type1",
+        "longitude": 126.786468,
+        "homepage_url": "http://www.cjmuseum.net/",
+        "weekday_open": "10:00",
+        "weekday_close": "17:00",
+        "ownership_type": "사립",
+        "source_types": "BASE|TOUR_API",
+        "sido": "경기도",
+        "address": "경기도 시흥시 두문로 71번길 4",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/90/4100390_image2_1.jpg",
+        "holiday_open": "10:00",
+        "name": "창조자연사박물관",
+        "adult_fee": 7000.0,
+        "latitude": 37.43371505,
+        "adult_fee_status": "BASE_FEE_PAID",
+        "child_fee": 6000.0
+      },
+      "vector_rank": 3,
+      "bm25_rank": 2,
+      "vector_distance": 0.5365512371063232,
+      "vector_score": null,
+      "bm25_score": 37.150707553790795,
+      "vector_document": "창조자연사박물관은 1종 전문 자연사박물관으로 기독교 관점의 창조론 중심으로 설명해 주는 박물관이다. 20여 종의 움직이는 공룡과 골격 공룡, 초대형 해백합 화석을 비롯하여 화석 180여 점, 광물 190여 점, 어류 180여 점, 패류 200종 6,100여 점, 나비 곤충 264종 500여 점, 조류 60여 점, 액침표본 110여 점, 식물과 나무 60여 점의 유물을 전시, 보유하고 있다. 박물관이 소장하고 있는 화석과 광물의 원산지 및 학명은 사단법인 미래자연사환경학회의 인증받았으며 사단법인 한국창조과학회의 인증과 함께 정신 조인하여 지속해서 자연사와 창조과학의 정보를 지원받고 있으며 정기적으로 전문 강사를 세워 정기적인 창조과학 프로그램을 운영하고 있다. 들어가는 입구부터 전시관을 가득 채운 공룡들과 골격 공룡들은 실감 나게 만들어져 아이들의 눈을 사로잡으며, 야외학습장에서는 화석 발굴체험까지 할 수 있어, 공룡을 좋아하는 친구들은 더할 나위 없이 즐거운 경험을 할 수 있는 곳이다. 7200여점의 화석+ 광물+ 곤충표본+ 해양표본+ 동물박제+ 식물표본 등 전시",
+      "bm25_document": "창조자연사박물관은 1종 전문 자연사박물관으로 기독교 관점의 창조론 중심으로 설명해 주는 박물관이다. 20여 종의 움직이는 공룡과 골격 공룡, 초대형 해백합 화석을 비롯하여 화석 180여 점, 광물 190여 점, 어류 180여 점, 패류 200종 6,100여 점, 나비 곤충 264종 500여 점, 조류 60여 점, 액침표본 110여 점, 식물과 나무 60여 점의 유물을 전시, 보유하고 있다. 박물관이 소장하고 있는 화석과 광물의 원산지 및 학명은 사단법인 미래자연사환경학회의 인증받았으며 사단법인 한국창조과학회의 인증과 함께 정신 조인하여 지속해서 자연사와 창조과학의 정보를 지원받고 있으며 정기적으로 전문 강사를 세워 정기적인 창조과학 프로그램을 운영하고 있다. 들어가는 입구부터 전시관을 가득 채운 공룡들과 골격 공룡들은 실감 나게 만들어져 아이들의 눈을 사로잡으며, 야외학습장에서는 화석 발굴체험까지 할 수 있어, 공룡을 좋아하는 친구들은 더할 나위 없이 즐거운 경험을 할 수 있는 곳이다. 7200여점의 화석+ 광물+ 곤충표본+ 해양표본+ 동물박제+ 식물표본 등 전시",
+      "best_span_id": "chroma:M0231",
+      "best_span_text": "창조자연사박물관은 1종 전문 자연사박물관으로 기독교 관점의 창조론 중심으로 설명해 주는 박물관이다. 20여 종의 움직이는 공룡과 골격 공룡, 초대형 해백합 화석을 비롯하여 화석 180여 점, 광물 190여 점, 어류 180여 점, 패류 200종 6,100여 점, 나비 곤충 264종 500여 점, 조류 60여 점, 액침표본 110여 점, 식물과 나무 60여 점의 유물을 전시, 보유하고 있다. 박물관이 소장하고 있는 화석과 광물의 원산지 및 학명은 사단법인 미래자연사환경학회의 인증받았으며 사단법인 한국창조과학회의 인증과 함께 정신 조인하여 지속해서 자연사와 창조과학의 정보를 지원받고 있으며 정기적으로 전문 강사를 세워 정기적인 창조과학 프로그램을 운영하고 있다. 들어가는 입구부터 전시관을 가득 채운 공룡들과 골격 공룡들은 실감 나게 만들어져 아이들의 눈을 사로잡으며, 야외학습장에서는 화석 발굴체험까지 할 수 있어, 공룡을 좋아하는 친구들은 더할 나위 없이 즐거운 경험을 할 수 있는 곳이다. 7200여점의 화석+ 광물+ 곤충표본+ 해양표본+ 동물박제+ 식물표본 등 전시",
+      "fusion_score": 0.03200204813108039,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 3,
+      "rerank_score": 0.8768143057823181,
+      "rank": 2,
+      "score": 0.8768143057823181,
+      "score_type": "cross_encoder",
+      "distance": 0.5365512371063232,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0231",
+      "source_doc_ids": [
+        "DOC-B0231-TOUR_API-130743",
+        "DOC-B0231-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0231-TOUR_API-130743",
+          "source_type": "TOUR_API",
+          "source_record_id": "130743",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=116",
+          "match_trust": "RECHECKED_BY_RULE_NOT_HUMAN_APPROVED"
+        },
+        {
+          "doc_id": "DOC-B0231-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0231",
+          "source_locator": "data/raw/museum_base_1070.csv#row=232",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 55,
+          "doc_ids": [
+            "DOC-B0231-TOUR_API-130743"
+          ]
+        },
+        {
+          "start": 56,
+          "end": 219,
+          "doc_ids": [
+            "DOC-B0231-TOUR_API-130743"
+          ]
+        },
+        {
+          "start": 220,
+          "end": 372,
+          "doc_ids": [
+            "DOC-B0231-TOUR_API-130743"
+          ]
+        },
+        {
+          "start": 373,
+          "end": 502,
+          "doc_ids": [
+            "DOC-B0231-TOUR_API-130743"
+          ]
+        },
+        {
+          "start": 503,
+          "end": 546,
+          "doc_ids": [
+            "DOC-B0231-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=116",
+      "text": "창조자연사박물관은 1종 전문 자연사박물관으로 기독교 관점의 창조론 중심으로 설명해 주는 박물관이다. 20여 종의 움직이는 공룡과 골격 공룡, 초대형 해백합 화석을 비롯하여 화석 180여 점, 광물 190여 점, 어류 180여 점, 패류 200종 6,100여 점, 나비 곤충 264종 500여 점, 조류 60여 점, 액침표본 110여 점, 식물과 나무 60여 점의 유물을 전시, 보유하고 있다. 박물관이 소장하고 있는 화석과 광물의 원산지 및 학명은 사단법인 미래자연사환경학회의 인증받았으며 사단법인 한국창조과학회의 인증과 함께 정신 조인하여 지속해서 자연사와 창조과학의 정보를 지원받고 있으며 정기적으로 전문 강사를 세워 정기적인 창조과학 프로그램을 운영하고 있다. 들어가는 입구부터 전시관을 가득 채운 공룡들과 골격 공룡들은 실감 나게 만들어져 아이들의 눈을 사로잡으며, 야외학습장에서는 화석 발굴체험까지 할 수 있어, 공룡을 좋아하는 친구들은 더할 나위 없이 즐거운 경험을 할 수 있는 곳이다. 7200여점의 화석+ 광물+ 곤충표본+ 해양표본+ 동물박제+ 식물표본 등 전시",
+      "sido": "경기도",
+      "sigungu": "시흥시",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=116"
+      ],
+      "evidence_id": "E2",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=160",
+        "fields": {
+          "name": "창조자연사박물관",
+          "sido": "경기도",
+          "sigungu": "시흥시",
+          "address": "경기도 시흥시 두문로 71번길 4",
+          "ownership_type": "사립",
+          "adult_fee": "7000",
+          "youth_fee": "6000",
+          "child_fee": "6000",
+          "adult_fee_status": "BASE_FEE_PAID",
+          "weekday_open": "10:00",
+          "weekday_close": "17:00",
+          "holiday_open": "10:00",
+          "holiday_close": "17:00",
+          "closure_rule_raw": "월+ 1월1일 + 설날 및 추석연휴"
+        },
+        "base_data_date": "2026-09-07",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0455",
+      "name": "우석헌자연사박물관",
+      "document": "남양주시 진접읍에 있는 우석헌자연사박물관은 설립자 김정우 님의 아호인 '우석[愚石]'에서 유래하여 이름 지은 것으로, '어여쁜 돌의 집'이라는 뜻을 가지고 있다. 다양한 진본의 화석과 광물을 통해, 지역의 문화와 교육 활동의 장이 되고자 2003년 개관하였다. 전시실은 2층과 3층, 별관(디스커버리센터)로 구성되어, 30여 년간 체계적으로 수집된 공룡, 광물, 암석 등 지질 관련 자연사 표본을 통해 자유 이동식 전시대, 4면 관찰식 전시대 등 3세대 전시 기법을 도입해 관람객의 편의를 제공하고 있다. (출처 : 우석헌자연사박물관 홈페이지)",
+      "metadata": {
+        "amenities_raw": "문화상품점",
+        "latitude": 37.69803201,
+        "homepage_url": "https://www.geomuseum.org/",
+        "requires_manual_review": true,
+        "weekday_open": "10:00",
+        "youth_fee": 4000.0,
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/30/3077130_image2_1.jpg",
+        "address": "경기도 남양주시 진접읍 금강로 1095",
+        "sigungu": "남양주시",
+        "child_fee": 4000.0,
+        "longitude": 127.1608188,
+        "ownership_type": "사립",
+        "sido": "경기도",
+        "weekday_close": "19:00",
+        "closure_rule_raw": "월(월 공휴일인 경우 개관)",
+        "image_copyright": "Type3",
+        "adult_fee_status": "BASE_FEE_PAID",
+        "name": "우석헌자연사박물관",
+        "holiday_open": "10:00",
+        "adult_fee": 6500.0,
+        "holiday_close": "19:00",
+        "source_types": "TOUR_API"
+      },
+      "vector_rank": 5,
+      "bm25_rank": 4,
+      "vector_distance": 0.561550498008728,
+      "vector_score": null,
+      "bm25_score": 30.006446558085525,
+      "vector_document": "남양주시 진접읍에 있는 우석헌자연사박물관은 설립자 김정우 님의 아호인 '우석[愚石]'에서 유래하여 이름 지은 것으로, '어여쁜 돌의 집'이라는 뜻을 가지고 있다. 다양한 진본의 화석과 광물을 통해, 지역의 문화와 교육 활동의 장이 되고자 2003년 개관하였다. 전시실은 2층과 3층, 별관(디스커버리센터)로 구성되어, 30여 년간 체계적으로 수집된 공룡, 광물, 암석 등 지질 관련 자연사 표본을 통해 자유 이동식 전시대, 4면 관찰식 전시대 등 3세대 전시 기법을 도입해 관람객의 편의를 제공하고 있다. (출처 : 우석헌자연사박물관 홈페이지)",
+      "bm25_document": "남양주시 진접읍에 있는 우석헌자연사박물관은 설립자 김정우 님의 아호인 '우석[愚石]'에서 유래하여 이름 지은 것으로, '어여쁜 돌의 집'이라는 뜻을 가지고 있다. 다양한 진본의 화석과 광물을 통해, 지역의 문화와 교육 활동의 장이 되고자 2003년 개관하였다. 전시실은 2층과 3층, 별관(디스커버리센터)로 구성되어, 30여 년간 체계적으로 수집된 공룡, 광물, 암석 등 지질 관련 자연사 표본을 통해 자유 이동식 전시대, 4면 관찰식 전시대 등 3세대 전시 기법을 도입해 관람객의 편의를 제공하고 있다. (출처 : 우석헌자연사박물관 홈페이지)",
+      "best_span_id": "chroma:M0455",
+      "best_span_text": "남양주시 진접읍에 있는 우석헌자연사박물관은 설립자 김정우 님의 아호인 '우석[愚石]'에서 유래하여 이름 지은 것으로, '어여쁜 돌의 집'이라는 뜻을 가지고 있다. 다양한 진본의 화석과 광물을 통해, 지역의 문화와 교육 활동의 장이 되고자 2003년 개관하였다. 전시실은 2층과 3층, 별관(디스커버리센터)로 구성되어, 30여 년간 체계적으로 수집된 공룡, 광물, 암석 등 지질 관련 자연사 표본을 통해 자유 이동식 전시대, 4면 관찰식 전시대 등 3세대 전시 기법을 도입해 관람객의 편의를 제공하고 있다. (출처 : 우석헌자연사박물관 홈페이지)",
+      "fusion_score": 0.031009615384615385,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 4,
+      "rerank_score": 0.591943085193634,
+      "rank": 3,
+      "score": 0.591943085193634,
+      "score_type": "cross_encoder",
+      "distance": 0.561550498008728,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0455",
+      "source_doc_ids": [
+        "DOC-B0455-TOUR_API-130710"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0455-TOUR_API-130710",
+          "source_type": "TOUR_API",
+          "source_record_id": "130710",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=219",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 90,
+          "doc_ids": [
+            "DOC-B0455-TOUR_API-130710"
+          ]
+        },
+        {
+          "start": 91,
+          "end": 145,
+          "doc_ids": [
+            "DOC-B0455-TOUR_API-130710"
+          ]
+        },
+        {
+          "start": 146,
+          "end": 282,
+          "doc_ids": [
+            "DOC-B0455-TOUR_API-130710"
+          ]
+        },
+        {
+          "start": 283,
+          "end": 304,
+          "doc_ids": [
+            "DOC-B0455-TOUR_API-130710"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=219",
+      "text": "남양주시 진접읍에 있는 우석헌자연사박물관은 설립자 김정우 님의 아호인 '우석[愚石]'에서 유래하여 이름 지은 것으로, '어여쁜 돌의 집'이라는 뜻을 가지고 있다. 다양한 진본의 화석과 광물을 통해, 지역의 문화와 교육 활동의 장이 되고자 2003년 개관하였다. 전시실은 2층과 3층, 별관(디스커버리센터)로 구성되어, 30여 년간 체계적으로 수집된 공룡, 광물, 암석 등 지질 관련 자연사 표본을 통해 자유 이동식 전시대, 4면 관찰식 전시대 등 3세대 전시 기법을 도입해 관람객의 편의를 제공하고 있다. (출처 : 우석헌자연사박물관 홈페이지)",
+      "sido": "경기도",
+      "sigungu": "남양주시",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=219"
+      ],
+      "evidence_id": "E3",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=327",
+        "fields": {
+          "name": "우석헌자연사박물관",
+          "sido": "경기도",
+          "sigungu": "남양주시",
+          "address": "경기도 남양주시 진접읍 금강로 1095",
+          "ownership_type": "사립",
+          "adult_fee": "6500",
+          "youth_fee": "4000",
+          "child_fee": "4000",
+          "adult_fee_status": "BASE_FEE_PAID",
+          "weekday_open": "10:00",
+          "weekday_close": "19:00",
+          "holiday_open": "10:00",
+          "holiday_close": "19:00",
+          "closure_rule_raw": "월(월 공휴일인 경우 개관)",
+          "amenities_raw": "문화상품점"
+        },
+        "base_data_date": "2026-04-01",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M1006",
+      "name": "한국자연사박물관",
+      "document": "한국자연사박물관은 자연경관이 아름답기로 유명한 계룡산 국립공원 자락에 있으며, 국내 최대 규모와 최다의 소장품을 자랑하는 교육과 체험의 명소이다. 직접 투자, 발굴에 참여한 청운이라 불리는 천우호연사우르스청운엔시스 공룡의 실물 화석과 계룡산 특산식물 동물, 곤충, 자연사 관련 자료 등을 수집, 보존 및 전시 연구를 하고 있다. 전시관은 총 3층으로 지구상의 생명체에 기본이 되는 정보들부터 다양한 화석, 동물의 세계와 바다의 세계까지 다양한 전시로 구성되어 있다. 특별한 날에 운영하는 특별 전시도 진행하는데 정보는 홈페이지를 참고하면 된다. 한국자연사박물관에서 과학에 대해 자연스럽고 재미있게 배워보는 시간을 가져볼 수 있다. 1. 공룡,미라,화석,동물,식물, 광물,보석 전시 2. 공휴일 및 주말 매시간 전시해설(11:00~16:00)",
+      "metadata": {
+        "adult_fee": 9000.0,
+        "weekday_close": "18:00",
+        "latitude": 36.36640091,
+        "address": "충청남도 공주시 임금봉길 49-25",
+        "longitude": 127.2448239,
+        "sido": "충청남도",
+        "sigungu": "공주시",
+        "fee_notes": "개인후원회원 및 기관회원 무료 / 단체할인, 경로할인, 장애인할인",
+        "holiday_close": "18:00",
+        "image_copyright": "Type3",
+        "amenities_raw": "박물관, 주차장, 강당, 뮤지엄샵, 카페",
+        "closure_rule_raw": "매주 월요일",
+        "adult_fee_status": "BASE_FEE_PAID",
+        "requires_manual_review": true,
+        "weekday_open": "10:00",
+        "homepage_url": "http://www.krnamu.or.kr",
+        "name": "한국자연사박물관",
+        "source_types": "BASE|TOUR_API",
+        "transport_notes": "시내버스 48+ 303+ 350",
+        "youth_fee": 6000.0,
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/32/3390232_image2_1.JPG",
+        "holiday_open": "10:00",
+        "ownership_type": "사립",
+        "child_fee": 4000.0
+      },
+      "vector_rank": 2,
+      "bm25_rank": 3,
+      "vector_distance": 0.4898238182067871,
+      "vector_score": null,
+      "bm25_score": 31.712044463476403,
+      "vector_document": "한국자연사박물관은 자연경관이 아름답기로 유명한 계룡산 국립공원 자락에 있으며, 국내 최대 규모와 최다의 소장품을 자랑하는 교육과 체험의 명소이다. 직접 투자, 발굴에 참여한 청운이라 불리는 천우호연사우르스청운엔시스 공룡의 실물 화석과 계룡산 특산식물 동물, 곤충, 자연사 관련 자료 등을 수집, 보존 및 전시 연구를 하고 있다. 전시관은 총 3층으로 지구상의 생명체에 기본이 되는 정보들부터 다양한 화석, 동물의 세계와 바다의 세계까지 다양한 전시로 구성되어 있다. 특별한 날에 운영하는 특별 전시도 진행하는데 정보는 홈페이지를 참고하면 된다. 한국자연사박물관에서 과학에 대해 자연스럽고 재미있게 배워보는 시간을 가져볼 수 있다. 1. 공룡,미라,화석,동물,식물, 광물,보석 전시 2. 공휴일 및 주말 매시간 전시해설(11:00~16:00)",
+      "bm25_document": "한국자연사박물관은 자연경관이 아름답기로 유명한 계룡산 국립공원 자락에 있으며, 국내 최대 규모와 최다의 소장품을 자랑하는 교육과 체험의 명소이다. 직접 투자, 발굴에 참여한 청운이라 불리는 천우호연사우르스청운엔시스 공룡의 실물 화석과 계룡산 특산식물 동물, 곤충, 자연사 관련 자료 등을 수집, 보존 및 전시 연구를 하고 있다. 전시관은 총 3층으로 지구상의 생명체에 기본이 되는 정보들부터 다양한 화석, 동물의 세계와 바다의 세계까지 다양한 전시로 구성되어 있다. 특별한 날에 운영하는 특별 전시도 진행하는데 정보는 홈페이지를 참고하면 된다. 한국자연사박물관에서 과학에 대해 자연스럽고 재미있게 배워보는 시간을 가져볼 수 있다. 1. 공룡,미라,화석,동물,식물, 광물,보석 전시 2. 공휴일 및 주말 매시간 전시해설(11:00~16:00)",
+      "best_span_id": "chroma:M1006",
+      "best_span_text": "한국자연사박물관은 자연경관이 아름답기로 유명한 계룡산 국립공원 자락에 있으며, 국내 최대 규모와 최다의 소장품을 자랑하는 교육과 체험의 명소이다. 직접 투자, 발굴에 참여한 청운이라 불리는 천우호연사우르스청운엔시스 공룡의 실물 화석과 계룡산 특산식물 동물, 곤충, 자연사 관련 자료 등을 수집, 보존 및 전시 연구를 하고 있다. 전시관은 총 3층으로 지구상의 생명체에 기본이 되는 정보들부터 다양한 화석, 동물의 세계와 바다의 세계까지 다양한 전시로 구성되어 있다. 특별한 날에 운영하는 특별 전시도 진행하는데 정보는 홈페이지를 참고하면 된다. 한국자연사박물관에서 과학에 대해 자연스럽고 재미있게 배워보는 시간을 가져볼 수 있다. 1. 공룡,미라,화석,동물,식물, 광물,보석 전시 2. 공휴일 및 주말 매시간 전시해설(11:00~16:00)",
+      "fusion_score": 0.03200204813108039,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 2,
+      "rerank_score": 0.5518741607666016,
+      "rank": 4,
+      "score": 0.5518741607666016,
+      "score_type": "cross_encoder",
+      "distance": 0.4898238182067871,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M1006",
+      "source_doc_ids": [
+        "DOC-B1006-TOUR_API-130560",
+        "DOC-B1006-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B1006-TOUR_API-130560",
+          "source_type": "TOUR_API",
+          "source_record_id": "130560",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=469",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        },
+        {
+          "doc_id": "DOC-B1006-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B1006",
+          "source_locator": "data/raw/museum_base_1070.csv#row=1007",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 81,
+          "doc_ids": [
+            "DOC-B1006-TOUR_API-130560"
+          ]
+        },
+        {
+          "start": 82,
+          "end": 183,
+          "doc_ids": [
+            "DOC-B1006-TOUR_API-130560"
+          ]
+        },
+        {
+          "start": 184,
+          "end": 260,
+          "doc_ids": [
+            "DOC-B1006-TOUR_API-130560"
+          ]
+        },
+        {
+          "start": 261,
+          "end": 304,
+          "doc_ids": [
+            "DOC-B1006-TOUR_API-130560"
+          ]
+        },
+        {
+          "start": 305,
+          "end": 352,
+          "doc_ids": [
+            "DOC-B1006-TOUR_API-130560"
+          ]
+        },
+        {
+          "start": 353,
+          "end": 355,
+          "doc_ids": [
+            "DOC-B1006-BASE"
+          ]
+        },
+        {
+          "start": 356,
+          "end": 383,
+          "doc_ids": [
+            "DOC-B1006-BASE"
+          ]
+        },
+        {
+          "start": 384,
+          "end": 414,
+          "doc_ids": [
+            "DOC-B1006-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=469",
+      "text": "한국자연사박물관은 자연경관이 아름답기로 유명한 계룡산 국립공원 자락에 있으며, 국내 최대 규모와 최다의 소장품을 자랑하는 교육과 체험의 명소이다. 직접 투자, 발굴에 참여한 청운이라 불리는 천우호연사우르스청운엔시스 공룡의 실물 화석과 계룡산 특산식물 동물, 곤충, 자연사 관련 자료 등을 수집, 보존 및 전시 연구를 하고 있다. 전시관은 총 3층으로 지구상의 생명체에 기본이 되는 정보들부터 다양한 화석, 동물의 세계와 바다의 세계까지 다양한 전시로 구성되어 있다. 특별한 날에 운영하는 특별 전시도 진행하는데 정보는 홈페이지를 참고하면 된다. 한국자연사박물관에서 과학에 대해 자연스럽고 재미있게 배워보는 시간을 가져볼 수 있다. 1. 공룡,미라,화석,동물,식물, 광물,보석 전시 2. 공휴일 및 주말 매시간 전시해설(11:00~16:00)",
+      "sido": "충청남도",
+      "sigungu": "공주시",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=469"
+      ],
+      "evidence_id": "E4",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=689",
+        "fields": {
+          "name": "한국자연사박물관",
+          "sido": "충청남도",
+          "sigungu": "공주시",
+          "address": "충청남도 공주시 임금봉길 49-25",
+          "ownership_type": "사립",
+          "adult_fee": "9000",
+          "youth_fee": "6000",
+          "child_fee": "4000",
+          "adult_fee_status": "BASE_FEE_PAID",
+          "weekday_open": "10:00",
+          "weekday_close": "18:00",
+          "holiday_open": "10:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "매주 월요일",
+          "amenities_raw": "박물관, 주차장, 강당, 뮤지엄샵, 카페"
+        },
+        "base_data_date": "2024-08-27",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0457",
+      "name": "미호박물관",
+      "document": "미호박물관은 자연의 역사를 담아 2014년 7월에 개관했다. 이곳은 푸른 별 지구의 과거와 현재를 알 수 있는 곳으로 지구의 역사를 이야기해 주고 있다. 지구 최초의 생명체 화석인 스트로마톨라이트를 비롯하여 고생대, 중생대 시대의 동물, 식물 화석들을 다수 소장하고 전시하고 있다. 또한 신비롭고 다양한 광물, 곤충 표본을 전시하고 있다. 수도권 속 회색 도시를 벗어나 초록의 자연을 느낄 수 있으며, 규화목과 공룡 전시물이 있는 공룡마을 1, 2에서 어린이들이 자연과 공룡을 친구로 맞이한다. 다양한 전시 표본들과 감각, 체험 활동을 할 수 있다.",
+      "metadata": {
+        "holiday_open": "10:00",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/75/3537275_image2_1.jpg",
+        "youth_fee": 8000.0,
+        "adult_fee": 8000.0,
+        "source_types": "TOUR_API",
+        "longitude": 127.1806149,
+        "sido": "경기도",
+        "amenities_raw": "문화상품점+매점",
+        "name": "미호박물관",
+        "child_fee": 8000.0,
+        "ownership_type": "사립",
+        "homepage_url": "https://blog.naver.com/mihonhm",
+        "latitude": 37.5926636,
+        "sigungu": "남양주시",
+        "closure_rule_raw": "수+1월 1일+설 당일+추석 당일",
+        "holiday_close": "19:00",
+        "image_copyright": "Type3",
+        "adult_fee_status": "BASE_FEE_PAID",
+        "address": "경기도 남양주시 고산로126번길 15-2",
+        "weekday_close": "18:00",
+        "weekday_open": "10:00",
+        "requires_manual_review": true
+      },
+      "vector_rank": null,
+      "bm25_rank": 6,
+      "vector_distance": null,
+      "vector_score": null,
+      "bm25_score": 23.652069275701887,
+      "vector_document": "",
+      "bm25_document": "미호박물관은 자연의 역사를 담아 2014년 7월에 개관했다. 이곳은 푸른 별 지구의 과거와 현재를 알 수 있는 곳으로 지구의 역사를 이야기해 주고 있다. 지구 최초의 생명체 화석인 스트로마톨라이트를 비롯하여 고생대, 중생대 시대의 동물, 식물 화석들을 다수 소장하고 전시하고 있다. 또한 신비롭고 다양한 광물, 곤충 표본을 전시하고 있다. 수도권 속 회색 도시를 벗어나 초록의 자연을 느낄 수 있으며, 규화목과 공룡 전시물이 있는 공룡마을 1, 2에서 어린이들이 자연과 공룡을 친구로 맞이한다. 다양한 전시 표본들과 감각, 체험 활동을 할 수 있다.",
+      "best_span_id": "chroma:M0457",
+      "best_span_text": "미호박물관은 자연의 역사를 담아 2014년 7월에 개관했다. 이곳은 푸른 별 지구의 과거와 현재를 알 수 있는 곳으로 지구의 역사를 이야기해 주고 있다. 지구 최초의 생명체 화석인 스트로마톨라이트를 비롯하여 고생대, 중생대 시대의 동물, 식물 화석들을 다수 소장하고 전시하고 있다. 또한 신비롭고 다양한 광물, 곤충 표본을 전시하고 있다. 수도권 속 회색 도시를 벗어나 초록의 자연을 느낄 수 있으며, 규화목과 공룡 전시물이 있는 공룡마을 1, 2에서 어린이들이 자연과 공룡을 친구로 맞이한다. 다양한 전시 표본들과 감각, 체험 활동을 할 수 있다.",
+      "fusion_score": 0.015151515151515152,
+      "retrieved_by": [
+        "bm25"
+      ],
+      "fusion_rank": 13,
+      "rerank_score": 0.4661439061164856,
+      "rank": 5,
+      "score": 0.4661439061164856,
+      "score_type": "cross_encoder",
+      "distance": null,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "bm25"
+      ],
+      "retriever": "bm25",
+      "span_id": "chroma:M0457",
+      "source_doc_ids": [
+        "DOC-B0457-TOUR_API-2765519"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0457-TOUR_API-2765519",
+          "source_type": "TOUR_API",
+          "source_record_id": "2765519",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=221",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 33,
+          "doc_ids": [
+            "DOC-B0457-TOUR_API-2765519"
+          ]
+        },
+        {
+          "start": 34,
+          "end": 85,
+          "doc_ids": [
+            "DOC-B0457-TOUR_API-2765519"
+          ]
+        },
+        {
+          "start": 86,
+          "end": 157,
+          "doc_ids": [
+            "DOC-B0457-TOUR_API-2765519"
+          ]
+        },
+        {
+          "start": 158,
+          "end": 189,
+          "doc_ids": [
+            "DOC-B0457-TOUR_API-2765519"
+          ]
+        },
+        {
+          "start": 190,
+          "end": 276,
+          "doc_ids": [
+            "DOC-B0457-TOUR_API-2765519"
+          ]
+        },
+        {
+          "start": 277,
+          "end": 307,
+          "doc_ids": [
+            "DOC-B0457-TOUR_API-2765519"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=221",
+      "text": "미호박물관은 자연의 역사를 담아 2014년 7월에 개관했다. 이곳은 푸른 별 지구의 과거와 현재를 알 수 있는 곳으로 지구의 역사를 이야기해 주고 있다. 지구 최초의 생명체 화석인 스트로마톨라이트를 비롯하여 고생대, 중생대 시대의 동물, 식물 화석들을 다수 소장하고 전시하고 있다. 또한 신비롭고 다양한 광물, 곤충 표본을 전시하고 있다. 수도권 속 회색 도시를 벗어나 초록의 자연을 느낄 수 있으며, 규화목과 공룡 전시물이 있는 공룡마을 1, 2에서 어린이들이 자연과 공룡을 친구로 맞이한다. 다양한 전시 표본들과 감각, 체험 활동을 할 수 있다.",
+      "sido": "경기도",
+      "sigungu": "남양주시",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=221"
+      ],
+      "evidence_id": "E5",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=329",
+        "fields": {
+          "name": "미호박물관",
+          "sido": "경기도",
+          "sigungu": "남양주시",
+          "address": "경기도 남양주시 고산로126번길 15-2",
+          "ownership_type": "사립",
+          "adult_fee": "8000",
+          "youth_fee": "8000",
+          "child_fee": "8000",
+          "adult_fee_status": "BASE_FEE_PAID",
+          "weekday_open": "10:00",
+          "weekday_close": "18:00",
+          "holiday_open": "10:00",
+          "holiday_close": "19:00",
+          "closure_rule_raw": "수+1월 1일+설 당일+추석 당일",
+          "amenities_raw": "문화상품점+매점"
+        },
+        "base_data_date": "2026-04-01",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    }
+  ],
+  "answer": "공룡 화석 외에도 광물, 곤충 표본, 동물 박제를 전시합니다. 화석·광물·해양생물 전시도 소개되어 있습니다. [E1]",
+  "retrieval_status": "ok",
+  "answer_status": "answered",
+  "route": "hybrid",
+  "retry_count": 0,
+  "supervisor_verified": true,
+  "rerank_applied": true,
+  "retriever_errors": [],
+  "warnings": [],
+  "duration_ms": 127364.75,
+  "error_type": "",
+  "hit_at_1": 1,
+  "hit_at_3": 1,
+  "hit_at_5": 1,
+  "recall_at_5": 1.0,
+  "mrr_at_10": 1.0
+}

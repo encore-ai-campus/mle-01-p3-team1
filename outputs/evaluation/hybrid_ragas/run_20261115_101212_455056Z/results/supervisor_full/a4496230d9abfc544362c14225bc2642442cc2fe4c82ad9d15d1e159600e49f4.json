@@ -1,0 +1,122 @@
+{
+  "mode": "supervisor_full",
+  "question_id": "V2-SF08",
+  "evidence": [
+    {
+      "museum_id": "M0228",
+      "name": "속초시립박물관",
+      "text": "[Neo4j 구조화 속성] {\"amenities\": [\"식당\"], \"facility_type\": \"박물관\", \"museum_id\": \"M0228\", \"name\": \"속초시립박물관\", \"sido\": \"강원특별자치도\", \"sigungu\": \"속초시\"}",
+      "span_id": "",
+      "source_doc_ids": [],
+      "source_urls": [],
+      "source_url": "",
+      "source_locators": [],
+      "source_locator": "",
+      "sido": "강원특별자치도",
+      "sigungu": "속초시",
+      "retriever": "graph",
+      "amenities": [
+        "식당"
+      ],
+      "facility_type": "박물관",
+      "metadata": {},
+      "chunk_id": "",
+      "retrievers": [
+        "graph"
+      ],
+      "evidence_id": "E1",
+      "rank": 1
+    },
+    {
+      "museum_id": "M0355",
+      "name": "KT&G 상상마당 춘천 아트센터",
+      "text": "[Neo4j 구조화 속성] {\"amenities\": [\"식당\"], \"facility_type\": \"미술관\", \"museum_id\": \"M0355\", \"name\": \"KT&G 상상마당 춘천 아트센터\", \"sido\": \"강원특별자치도\", \"sigungu\": \"춘천시\"}",
+      "span_id": "",
+      "source_doc_ids": [],
+      "source_urls": [],
+      "source_url": "",
+      "source_locators": [],
+      "source_locator": "",
+      "sido": "강원특별자치도",
+      "sigungu": "춘천시",
+      "retriever": "graph",
+      "amenities": [
+        "식당"
+      ],
+      "facility_type": "미술관",
+      "metadata": {},
+      "chunk_id": "",
+      "retrievers": [
+        "graph"
+      ],
+      "evidence_id": "E2",
+      "rank": 2
+    },
+    {
+      "museum_id": "M0356",
+      "name": "이상원미술관",
+      "text": "[Neo4j 구조화 속성] {\"amenities\": [\"식당\"], \"facility_type\": \"미술관\", \"museum_id\": \"M0356\", \"name\": \"이상원미술관\", \"sido\": \"강원특별자치도\", \"sigungu\": \"춘천시\"}",
+      "span_id": "",
+      "source_doc_ids": [],
+      "source_urls": [],
+      "source_url": "",
+      "source_locators": [],
+      "source_locator": "",
+      "sido": "강원특별자치도",
+      "sigungu": "춘천시",
+      "retriever": "graph",
+      "amenities": [
+        "식당"
+      ],
+      "facility_type": "미술관",
+      "metadata": {},
+      "chunk_id": "",
+      "retrievers": [
+        "graph"
+      ],
+      "evidence_id": "E3",
+      "rank": 3
+    },
+    {
+      "museum_id": "M1022",
+      "name": "삼탄아트마인",
+      "text": "[Neo4j 구조화 속성] {\"amenities\": [\"식당\"], \"facility_type\": \"미술관\", \"museum_id\": \"M1022\", \"name\": \"삼탄아트마인\", \"sido\": \"강원특별자치도\", \"sigungu\": \"정선군\"}",
+      "span_id": "",
+      "source_doc_ids": [],
+      "source_urls": [],
+      "source_url": "",
+      "source_locators": [],
+      "source_locator": "",
+      "sido": "강원특별자치도",
+      "sigungu": "정선군",
+      "retriever": "graph",
+      "amenities": [
+        "식당"
+      ],
+      "facility_type": "미술관",
+      "metadata": {},
+      "chunk_id": "",
+      "retrievers": [
+        "graph"
+      ],
+      "evidence_id": "E4",
+      "rank": 4
+    }
+  ],
+  "answer": "확인 가능한 근거가 부족하여 답변을 보류했음.",
+  "retrieval_status": "ok",
+  "answer_status": "abstained",
+  "route": "graph",
+  "retry_count": 1,
+  "supervisor_verified": false,
+  "rerank_applied": false,
+  "retriever_errors": [],
+  "warnings": [],
+  "duration_ms": 60538.93,
+  "error_type": "",
+  "hit_at_1": 1,
+  "hit_at_3": 1,
+  "hit_at_5": 1,
+  "recall_at_5": 1.0,
+  "mrr_at_10": 1.0
+}

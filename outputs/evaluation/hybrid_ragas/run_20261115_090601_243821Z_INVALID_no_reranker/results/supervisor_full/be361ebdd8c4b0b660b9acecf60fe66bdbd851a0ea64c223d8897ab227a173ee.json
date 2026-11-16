@@ -1,0 +1,777 @@
+{
+  "mode": "supervisor_full",
+  "question_id": "Q278",
+  "evidence": [
+    {
+      "museum_id": "M0474",
+      "name": "경기북부어린이박물관",
+      "document": "소요산 자락에 자리 잡은 경기북부어린이박물관은 ‘숲에서 꿈꾸는 어린이’를 주제로 전시장을 구성하였다. 여기에는 어린이들이 자연 속에서 여러 생명들과 함께 몸으로 체험하며 꿈을 키우라는 마음이 담겨 있다. 숲을 주제로 과거의 숲, 현재의 숲, 미래의 숲이 펼쳐진 전시공간 중, 1층 ‘과거의 숲’에는 공룡숲·오름숲·바다숲(영아놀이터)이 있다. 공룡숲은 “동두천에도 공룡이 살았을까?”라는 질문과 함께 꼬마 브라키오를 따라 과거의 공룡 숲을 탐험하는 공간이고, 오름숲은 거대한 초식공룡 브라키오사우루스의 몸속을 오르내리는 신체 발달 대형 놀이터이며, 바다숲은 바닷속 해양 생물과 모험을 주제로 36개월 미만의 영아를 위해 꾸려진 체험전시실이다. 2층으로 올라가면 자연숲·오감숲·상상숲과 배움터가 ‘현재의 숲’과 ‘미래의 숲’을 이루고 있다. 자연숲은 ‘작아져야 보이는 세계’를 주제로 풀잎만큼 작아진 우리가 숲의 생명들을 가까이, 그리고 온몸으로 만나며 교감하는 공간이다. 오감숲은 다섯 가지 감각을 바탕으로 한 박물관 캐릭터들과 함께 숲 속의 감각을 일깨우는 체험전시장이다. 상상숲에서는 어린이와 함께하는 모두의 꿈과 상상을 키울 수 있도록 다양한 세대의 관람객을 위해 여러 생명들과의 공존을 다채롭게 풀어낸 기획전시를 주기적으로 선보인다. 그리고 배움터에서 자연과 생태계, 환경, 평화의 가치를 담은 교육과 실습을 통해 ‘미래의 숲’을 만들어 가고 있다. 또한 경기북부어린이박물관은 어린이가 주인공이 되어 나와 너, 우리를 이해하고 서로에 대한 존중의 가치를 확산하기 위해 다양한 전시·교육·출판·연구·교류 등의 프로그램을 기획하고 있다. 더불어 경기 북부의 교육지원청들과 연계한 학교 교육 프로그램, 어린이 문화예술교육 단체·지역 기관 및 활동가들과의 협업도 진행 중이다. 이를 바탕으로 어린이와 가족들이 ‘자연 놀이 숲’을 경험하며 꿈을 키우는 경기 북부 대표 문화예술공간으로 자리매김하고자 한다. 어린이가 주체가 되어 [숲에서 꿈꾸는 아이들]을 주제로 조성된 경기북부지역의 대표적인 문화 체험 공간 어린이박물관",
+      "metadata": {
+        "sigungu": "동두천시",
+        "longitude": 127.0644517,
+        "source_types": "BASE|TOUR_API",
+        "adult_fee_status": "BASE_FEE_PAID",
+        "homepage_url": "https://ngcm.ggcf.kr/",
+        "holiday_open": "10:00",
+        "ownership_type": "공립",
+        "closure_rule_raw": "월 (단, 월요일이 공휴일인 경우 당일은 개관하고 그 다음 첫번째 평일에 휴관)+1월1일+설날 및 추석 당일",
+        "sido": "경기도",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/42/4005842_image2_1.jpg",
+        "image_copyright": "Type3",
+        "latitude": 37.94467222,
+        "amenities_raw": "카페+뮤지엄샵+물품보관소+수유실+의무실",
+        "requires_manual_review": true,
+        "weekday_open": "10:00",
+        "adult_fee": 4000.0,
+        "transport_notes": "1호선 소요산역 1번 출구+도보 10분",
+        "address": "경기도 동두천시 평화로 2910번길 46",
+        "fee_notes": "단체 2000원+경기도민 2000원+그외 홈페이지 참조",
+        "name": "경기북부어린이박물관",
+        "weekday_close": "17:50",
+        "holiday_close": "17:50",
+        "youth_fee": 4000.0,
+        "child_fee": 4000.0
+      },
+      "vector_rank": 2,
+      "bm25_rank": 1,
+      "vector_distance": 0.44942641258239746,
+      "vector_score": null,
+      "bm25_score": 12.634897325619537,
+      "vector_document": "소요산 자락에 자리 잡은 경기북부어린이박물관은 ‘숲에서 꿈꾸는 어린이’를 주제로 전시장을 구성하였다. 여기에는 어린이들이 자연 속에서 여러 생명들과 함께 몸으로 체험하며 꿈을 키우라는 마음이 담겨 있다. 숲을 주제로 과거의 숲, 현재의 숲, 미래의 숲이 펼쳐진 전시공간 중, 1층 ‘과거의 숲’에는 공룡숲·오름숲·바다숲(영아놀이터)이 있다. 공룡숲은 “동두천에도 공룡이 살았을까?”라는 질문과 함께 꼬마 브라키오를 따라 과거의 공룡 숲을 탐험하는 공간이고, 오름숲은 거대한 초식공룡 브라키오사우루스의 몸속을 오르내리는 신체 발달 대형 놀이터이며, 바다숲은 바닷속 해양 생물과 모험을 주제로 36개월 미만의 영아를 위해 꾸려진 체험전시실이다. 2층으로 올라가면 자연숲·오감숲·상상숲과 배움터가 ‘현재의 숲’과 ‘미래의 숲’을 이루고 있다. 자연숲은 ‘작아져야 보이는 세계’를 주제로 풀잎만큼 작아진 우리가 숲의 생명들을 가까이, 그리고 온몸으로 만나며 교감하는 공간이다. 오감숲은 다섯 가지 감각을 바탕으로 한 박물관 캐릭터들과 함께 숲 속의 감각을 일깨우는 체험전시장이다. 상상숲에서는 어린이와 함께하는 모두의 꿈과 상상을 키울 수 있도록 다양한 세대의 관람객을 위해 여러 생명들과의 공존을 다채롭게 풀어낸 기획전시를 주기적으로 선보인다. 그리고 배움터에서 자연과 생태계, 환경, 평화의 가치를 담은 교육과 실습을 통해 ‘미래의 숲’을 만들어 가고 있다. 또한 경기북부어린이박물관은 어린이가 주인공이 되어 나와 너, 우리를 이해하고 서로에 대한 존중의 가치를 확산하기 위해 다양한 전시·교육·출판·연구·교류 등의 프로그램을 기획하고 있다. 더불어 경기 북부의 교육지원청들과 연계한 학교 교육 프로그램, 어린이 문화예술교육 단체·지역 기관 및 활동가들과의 협업도 진행 중이다. 이를 바탕으로 어린이와 가족들이 ‘자연 놀이 숲’을 경험하며 꿈을 키우는 경기 북부 대표 문화예술공간으로 자리매김하고자 한다. 어린이가 주체가 되어 [숲에서 꿈꾸는 아이들]을 주제로 조성된 경기북부지역의 대표적인 문화 체험 공간 어린이박물관",
+      "bm25_document": "소요산 자락에 자리 잡은 경기북부어린이박물관은 ‘숲에서 꿈꾸는 어린이’를 주제로 전시장을 구성하였다. 여기에는 어린이들이 자연 속에서 여러 생명들과 함께 몸으로 체험하며 꿈을 키우라는 마음이 담겨 있다. 숲을 주제로 과거의 숲, 현재의 숲, 미래의 숲이 펼쳐진 전시공간 중, 1층 ‘과거의 숲’에는 공룡숲·오름숲·바다숲(영아놀이터)이 있다. 공룡숲은 “동두천에도 공룡이 살았을까?”라는 질문과 함께 꼬마 브라키오를 따라 과거의 공룡 숲을 탐험하는 공간이고, 오름숲은 거대한 초식공룡 브라키오사우루스의 몸속을 오르내리는 신체 발달 대형 놀이터이며, 바다숲은 바닷속 해양 생물과 모험을 주제로 36개월 미만의 영아를 위해 꾸려진 체험전시실이다. 2층으로 올라가면 자연숲·오감숲·상상숲과 배움터가 ‘현재의 숲’과 ‘미래의 숲’을 이루고 있다. 자연숲은 ‘작아져야 보이는 세계’를 주제로 풀잎만큼 작아진 우리가 숲의 생명들을 가까이, 그리고 온몸으로 만나며 교감하는 공간이다. 오감숲은 다섯 가지 감각을 바탕으로 한 박물관 캐릭터들과 함께 숲 속의 감각을 일깨우는 체험전시장이다. 상상숲에서는 어린이와 함께하는 모두의 꿈과 상상을 키울 수 있도록 다양한 세대의 관람객을 위해 여러 생명들과의 공존을 다채롭게 풀어낸 기획전시를 주기적으로 선보인다. 그리고 배움터에서 자연과 생태계, 환경, 평화의 가치를 담은 교육과 실습을 통해 ‘미래의 숲’을 만들어 가고 있다. 또한 경기북부어린이박물관은 어린이가 주인공이 되어 나와 너, 우리를 이해하고 서로에 대한 존중의 가치를 확산하기 위해 다양한 전시·교육·출판·연구·교류 등의 프로그램을 기획하고 있다. 더불어 경기 북부의 교육지원청들과 연계한 학교 교육 프로그램, 어린이 문화예술교육 단체·지역 기관 및 활동가들과의 협업도 진행 중이다. 이를 바탕으로 어린이와 가족들이 ‘자연 놀이 숲’을 경험하며 꿈을 키우는 경기 북부 대표 문화예술공간으로 자리매김하고자 한다. 어린이가 주체가 되어 [숲에서 꿈꾸는 아이들]을 주제로 조성된 경기북부지역의 대표적인 문화 체험 공간 어린이박물관",
+      "best_span_id": "chroma:M0474",
+      "best_span_text": "소요산 자락에 자리 잡은 경기북부어린이박물관은 ‘숲에서 꿈꾸는 어린이’를 주제로 전시장을 구성하였다. 여기에는 어린이들이 자연 속에서 여러 생명들과 함께 몸으로 체험하며 꿈을 키우라는 마음이 담겨 있다. 숲을 주제로 과거의 숲, 현재의 숲, 미래의 숲이 펼쳐진 전시공간 중, 1층 ‘과거의 숲’에는 공룡숲·오름숲·바다숲(영아놀이터)이 있다. 공룡숲은 “동두천에도 공룡이 살았을까?”라는 질문과 함께 꼬마 브라키오를 따라 과거의 공룡 숲을 탐험하는 공간이고, 오름숲은 거대한 초식공룡 브라키오사우루스의 몸속을 오르내리는 신체 발달 대형 놀이터이며, 바다숲은 바닷속 해양 생물과 모험을 주제로 36개월 미만의 영아를 위해 꾸려진 체험전시실이다. 2층으로 올라가면 자연숲·오감숲·상상숲과 배움터가 ‘현재의 숲’과 ‘미래의 숲’을 이루고 있다. 자연숲은 ‘작아져야 보이는 세계’를 주제로 풀잎만큼 작아진 우리가 숲의 생명들을 가까이, 그리고 온몸으로 만나며 교감하는 공간이다. 오감숲은 다섯 가지 감각을 바탕으로 한 박물관 캐릭터들과 함께 숲 속의 감각을 일깨우는 체험전시장이다. 상상숲에서는 어린이와 함께하는 모두의 꿈과 상상을 키울 수 있도록 다양한 세대의 관람객을 위해 여러 생명들과의 공존을 다채롭게 풀어낸 기획전시를 주기적으로 선보인다. 그리고 배움터에서 자연과 생태계, 환경, 평화의 가치를 담은 교육과 실습을 통해 ‘미래의 숲’을 만들어 가고 있다. 또한 경기북부어린이박물관은 어린이가 주인공이 되어 나와 너, 우리를 이해하고 서로에 대한 존중의 가치를 확산하기 위해 다양한 전시·교육·출판·연구·교류 등의 프로그램을 기획하고 있다. 더불어 경기 북부의 교육지원청들과 연계한 학교 교육 프로그램, 어린이 문화예술교육 단체·지역 기관 및 활동가들과의 협업도 진행 중이다. 이를 바탕으로 어린이와 가족들이 ‘자연 놀이 숲’을 경험하며 꿈을 키우는 경기 북부 대표 문화예술공간으로 자리매김하고자 한다. 어린이가 주체가 되어 [숲에서 꿈꾸는 아이들]을 주제로 조성된 경기북부지역의 대표적인 문화 체험 공간 어린이박물관",
+      "fusion_score": 0.03252247488101534,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 1,
+      "name_match": true,
+      "rerank_score": null,
+      "rank": 1,
+      "score": 0.03252247488101534,
+      "score_type": "rrf",
+      "distance": 0.44942641258239746,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0474",
+      "source_doc_ids": [
+        "DOC-B0474-TOUR_API-2493039",
+        "DOC-B0474-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0474-TOUR_API-2493039",
+          "source_type": "TOUR_API",
+          "source_record_id": "2493039",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=233",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        },
+        {
+          "doc_id": "DOC-B0474-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0474",
+          "source_locator": "data/raw/museum_base_1070.csv#row=475",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 56,
+          "doc_ids": [
+            "DOC-B0474-TOUR_API-2493039"
+          ]
+        },
+        {
+          "start": 57,
+          "end": 113,
+          "doc_ids": [
+            "DOC-B0474-TOUR_API-2493039"
+          ]
+        },
+        {
+          "start": 114,
+          "end": 190,
+          "doc_ids": [
+            "DOC-B0474-TOUR_API-2493039"
+          ]
+        },
+        {
+          "start": 191,
+          "end": 358,
+          "doc_ids": [
+            "DOC-B0474-TOUR_API-2493039"
+          ]
+        },
+        {
+          "start": 359,
+          "end": 412,
+          "doc_ids": [
+            "DOC-B0474-TOUR_API-2493039"
+          ]
+        },
+        {
+          "start": 413,
+          "end": 486,
+          "doc_ids": [
+            "DOC-B0474-TOUR_API-2493039"
+          ]
+        },
+        {
+          "start": 487,
+          "end": 544,
+          "doc_ids": [
+            "DOC-B0474-TOUR_API-2493039"
+          ]
+        },
+        {
+          "start": 545,
+          "end": 637,
+          "doc_ids": [
+            "DOC-B0474-TOUR_API-2493039"
+          ]
+        },
+        {
+          "start": 638,
+          "end": 702,
+          "doc_ids": [
+            "DOC-B0474-TOUR_API-2493039"
+          ]
+        },
+        {
+          "start": 703,
+          "end": 805,
+          "doc_ids": [
+            "DOC-B0474-TOUR_API-2493039"
+          ]
+        },
+        {
+          "start": 806,
+          "end": 881,
+          "doc_ids": [
+            "DOC-B0474-TOUR_API-2493039"
+          ]
+        },
+        {
+          "start": 882,
+          "end": 952,
+          "doc_ids": [
+            "DOC-B0474-TOUR_API-2493039"
+          ]
+        },
+        {
+          "start": 953,
+          "end": 1016,
+          "doc_ids": [
+            "DOC-B0474-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=233",
+      "text": "소요산 자락에 자리 잡은 경기북부어린이박물관은 ‘숲에서 꿈꾸는 어린이’를 주제로 전시장을 구성하였다. 여기에는 어린이들이 자연 속에서 여러 생명들과 함께 몸으로 체험하며 꿈을 키우라는 마음이 담겨 있다. 숲을 주제로 과거의 숲, 현재의 숲, 미래의 숲이 펼쳐진 전시공간 중, 1층 ‘과거의 숲’에는 공룡숲·오름숲·바다숲(영아놀이터)이 있다. 공룡숲은 “동두천에도 공룡이 살았을까?”라는 질문과 함께 꼬마 브라키오를 따라 과거의 공룡 숲을 탐험하는 공간이고, 오름숲은 거대한 초식공룡 브라키오사우루스의 몸속을 오르내리는 신체 발달 대형 놀이터이며, 바다숲은 바닷속 해양 생물과 모험을 주제로 36개월 미만의 영아를 위해 꾸려진 체험전시실이다. 2층으로 올라가면 자연숲·오감숲·상상숲과 배움터가 ‘현재의 숲’과 ‘미래의 숲’을 이루고 있다. 자연숲은 ‘작아져야 보이는 세계’를 주제로 풀잎만큼 작아진 우리가 숲의 생명들을 가까이, 그리고 온몸으로 만나며 교감하는 공간이다. 오감숲은 다섯 가지 감각을 바탕으로 한 박물관 캐릭터들과 함께 숲 속의 감각을 일깨우는 체험전시장이다. 상상숲에서는 어린이와 함께하는 모두의 꿈과 상상을 키울 수 있도록 다양한 세대의 관람객을 위해 여러 생명들과의 공존을 다채롭게 풀어낸 기획전시를 주기적으로 선보인다. 그리고 배움터에서 자연과 생태계, 환경, 평화의 가치를 담은 교육과 실습을 통해 ‘미래의 숲’을 만들어 가고 있다. 또한 경기북부어린이박물관은 어린이가 주인공이 되어 나와 너, 우리를 이해하고 서로에 대한 존중의 가치를 확산하기 위해 다양한 전시·교육·출판·연구·교류 등의 프로그램을 기획하고 있다. 더불어 경기 북부의 교육지원청들과 연계한 학교 교육 프로그램, 어린이 문화예술교육 단체·지역 기관 및 활동가들과의 협업도 진행 중이다. 이를 바탕으로 어린이와 가족들이 ‘자연 놀이 숲’을 경험하며 꿈을 키우는 경기 북부 대표 문화예술공간으로 자리매김하고자 한다. 어린이가 주체가 되어 [숲에서 꿈꾸는 아이들]을 주제로 조성된 경기북부지역의 대표적인 문화 체험 공간 어린이박물관",
+      "sido": "경기도",
+      "sigungu": "동두천시",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=233"
+      ],
+      "evidence_id": "E1",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=345",
+        "fields": {
+          "name": "경기북부어린이박물관",
+          "sido": "경기도",
+          "sigungu": "동두천시",
+          "address": "경기도 동두천시 평화로 2910번길 46",
+          "ownership_type": "공립",
+          "adult_fee": "4000",
+          "youth_fee": "4000",
+          "child_fee": "4000",
+          "adult_fee_status": "BASE_FEE_PAID",
+          "weekday_open": "10:00",
+          "weekday_close": "17:50",
+          "holiday_open": "10:00",
+          "holiday_close": "17:50",
+          "closure_rule_raw": "월 (단, 월요일이 공휴일인 경우 당일은 개관하고 그 다음 첫번째 평일에 휴관)+1월1일+설날 및 추석 당일",
+          "amenities_raw": "카페+뮤지엄샵+물품보관소+수유실+의무실"
+        },
+        "base_data_date": "2026-03-12",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0120",
+      "name": "경상북도문화재연구원 역사박물관",
+      "document": "경상북도문화재연구원의 문화재 조사 성과들로 꾸며진 전문박물관",
+      "metadata": {
+        "ownership_type": "사립",
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "weekday_close": "17:00",
+        "homepage_url": "http://www.gbcp.or.kr",
+        "holiday_open": "10:00",
+        "amenities_raw": "시청각실(무대형120석)+세미나실(회의실20석)+작은도서관(도서자료200권+30석)",
+        "weekday_open": "10:00",
+        "name": "경상북도문화재연구원 역사박물관",
+        "latitude": 35.9441009,
+        "address": "경상북도 영천시 금호읍 원제2길 38",
+        "child_fee": 0.0,
+        "youth_fee": 0.0,
+        "source_types": "BASE",
+        "adult_fee": 0.0,
+        "longitude": 128.8971267,
+        "sigungu": "영천시",
+        "closure_rule_raw": "토요일+일요일+관람종료시각 안내사항 평일/공휴일관람종료시각 3월~10월(17:50) 11월~2월(17:00)",
+        "sido": "경상북도",
+        "transport_notes": "지하철: 1호선 안심역 4번 출구+버스:55, 555",
+        "requires_manual_review": true,
+        "holiday_close": "17:00"
+      },
+      "vector_rank": 1,
+      "bm25_rank": null,
+      "vector_distance": 0.4395829439163208,
+      "vector_score": null,
+      "bm25_score": null,
+      "vector_document": "경상북도문화재연구원의 문화재 조사 성과들로 꾸며진 전문박물관",
+      "bm25_document": "",
+      "best_span_id": null,
+      "best_span_text": null,
+      "fusion_score": 0.01639344262295082,
+      "retrieved_by": [
+        "vector"
+      ],
+      "fusion_rank": 2,
+      "rerank_score": null,
+      "rank": 2,
+      "score": 0.01639344262295082,
+      "score_type": "rrf",
+      "distance": 0.4395829439163208,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector"
+      ],
+      "retriever": "vector",
+      "source_doc_ids": [
+        "DOC-B0120-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0120-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0120",
+          "source_locator": "data/raw/museum_base_1070.csv#row=121",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 33,
+          "doc_ids": [
+            "DOC-B0120-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_base_1070.csv#row=121",
+      "text": "경상북도문화재연구원의 문화재 조사 성과들로 꾸며진 전문박물관",
+      "sido": "경상북도",
+      "sigungu": "영천시",
+      "span_id": "",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_base_1070.csv#row=121"
+      ],
+      "evidence_id": "E2",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=80",
+        "fields": {
+          "name": "경상북도문화재연구원 역사박물관",
+          "sido": "경상북도",
+          "sigungu": "영천시",
+          "address": "경상북도 영천시 금호읍 원제2길 38",
+          "ownership_type": "사립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "10:00",
+          "weekday_close": "17:00",
+          "holiday_open": "10:00",
+          "holiday_close": "17:00",
+          "closure_rule_raw": "토요일+일요일+관람종료시각 안내사항 평일/공휴일관람종료시각 3월~10월(17:50) 11월~2월(17:00)",
+          "amenities_raw": "시청각실(무대형120석)+세미나실(회의실20석)+작은도서관(도서자료200권+30석)"
+        },
+        "base_data_date": "2026-10-22",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0651",
+      "name": "양산시립박물관",
+      "document": "양산시립박물관은 양산지역의 역사와 문화를 보존 및 전승하고, 이를 토대로 시민의 역사의식을 함양하며, 복합문화공간의 역할을 하고자 2013년 4월 개관하였다. 박물관은 상설전시실, 기획전시실, 야외전시, 어린이박물관, 역사자료실 희청헌 등으로 조성되어 있다. 상설전시실은 양산의 역사와 문화를 볼 수 있는 역사실, 양산의 고분문화를 전시하고 있는 고분실로 구성되어 있으며, 어린이 박물관은 다양한 놀이체험을 통해 양산의 역사·문화를 배울 수 있는 공간으로 구성되어 있다. 야외전시에는 양산 북정동 683번지 유적 5호, 9호, 13호 횡구식석실묘가 전시되어 있다. 고분문화+불교문화+도자문화+제례문화 전시",
+      "metadata": {
+        "adult_fee": 0.0,
+        "sigungu": "양산시",
+        "fee_notes": "일부기획전시 유료(개인-일반1000+청소년+군인 700+어린이 500)+(단체-일반700+청소년+군인500+어린이300)",
+        "youth_fee": 0.0,
+        "weekday_close": "18:00",
+        "closure_rule_raw": "월+1월1일+설 연휴+추석 연휴",
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/14/4098814_image2_1.JPG",
+        "holiday_open": "09:00",
+        "amenities_raw": "대강당+기획전시실+어린이체험실+시청각실",
+        "child_fee": 0.0,
+        "address": "경상남도 양산시 북정로78",
+        "homepage_url": "http://www.yangsan.go.kr/museum/main.do",
+        "image_copyright": "Type1",
+        "ownership_type": "공립",
+        "holiday_close": "18:00",
+        "longitude": 129.0490217,
+        "sido": "경상남도",
+        "source_types": "BASE|TOUR_API",
+        "transport_notes": "1. 지하철-2호선 양산역 하차하여 북정 방면 32번, 128번, 128-1번, 138번 삼성중학교·시립박물관 정류장 하차 2. 버스 -부산 범어사 방면 : 12번, 13번, 삼성중학교·시립박물관 정류장 하차부산 명륜동 방면 : 1200번 삼성중학교·시립박물관 정류장 하차부산 구포, 덕천동 방면 : 23번 삼성중학교·시립박물관 정류장 하차물금 방면 : 21번, 32번, 128번, 128-1번, 138번 삼성중학교·시립박물관 정류장 하차웅상 방면 : 52번, 57번 구.터미널 정류장 하차 후 물금방면에서 오는 차로 환승",
+        "weekday_open": "09:00",
+        "name": "양산시립박물관",
+        "requires_manual_review": true,
+        "latitude": 35.3584941
+      },
+      "vector_rank": null,
+      "bm25_rank": 2,
+      "vector_distance": null,
+      "vector_score": null,
+      "bm25_score": 10.65741531089354,
+      "vector_document": "",
+      "bm25_document": "양산시립박물관은 양산지역의 역사와 문화를 보존 및 전승하고, 이를 토대로 시민의 역사의식을 함양하며, 복합문화공간의 역할을 하고자 2013년 4월 개관하였다. 박물관은 상설전시실, 기획전시실, 야외전시, 어린이박물관, 역사자료실 희청헌 등으로 조성되어 있다. 상설전시실은 양산의 역사와 문화를 볼 수 있는 역사실, 양산의 고분문화를 전시하고 있는 고분실로 구성되어 있으며, 어린이 박물관은 다양한 놀이체험을 통해 양산의 역사·문화를 배울 수 있는 공간으로 구성되어 있다. 야외전시에는 양산 북정동 683번지 유적 5호, 9호, 13호 횡구식석실묘가 전시되어 있다. 고분문화+불교문화+도자문화+제례문화 전시",
+      "best_span_id": "chroma:M0651",
+      "best_span_text": "양산시립박물관은 양산지역의 역사와 문화를 보존 및 전승하고, 이를 토대로 시민의 역사의식을 함양하며, 복합문화공간의 역할을 하고자 2013년 4월 개관하였다. 박물관은 상설전시실, 기획전시실, 야외전시, 어린이박물관, 역사자료실 희청헌 등으로 조성되어 있다. 상설전시실은 양산의 역사와 문화를 볼 수 있는 역사실, 양산의 고분문화를 전시하고 있는 고분실로 구성되어 있으며, 어린이 박물관은 다양한 놀이체험을 통해 양산의 역사·문화를 배울 수 있는 공간으로 구성되어 있다. 야외전시에는 양산 북정동 683번지 유적 5호, 9호, 13호 횡구식석실묘가 전시되어 있다. 고분문화+불교문화+도자문화+제례문화 전시",
+      "fusion_score": 0.016129032258064516,
+      "retrieved_by": [
+        "bm25"
+      ],
+      "fusion_rank": 3,
+      "rerank_score": null,
+      "rank": 3,
+      "score": 0.016129032258064516,
+      "score_type": "rrf",
+      "distance": null,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "bm25"
+      ],
+      "retriever": "bm25",
+      "span_id": "chroma:M0651",
+      "source_doc_ids": [
+        "DOC-B0651-TOUR_API-1912356",
+        "DOC-B0651-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0651-TOUR_API-1912356",
+          "source_type": "TOUR_API",
+          "source_record_id": "1912356",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=324",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        },
+        {
+          "doc_id": "DOC-B0651-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0651",
+          "source_locator": "data/raw/museum_base_1070.csv#row=652",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 88,
+          "doc_ids": [
+            "DOC-B0651-TOUR_API-1912356"
+          ]
+        },
+        {
+          "start": 89,
+          "end": 144,
+          "doc_ids": [
+            "DOC-B0651-TOUR_API-1912356"
+          ]
+        },
+        {
+          "start": 145,
+          "end": 263,
+          "doc_ids": [
+            "DOC-B0651-TOUR_API-1912356"
+          ]
+        },
+        {
+          "start": 264,
+          "end": 315,
+          "doc_ids": [
+            "DOC-B0651-TOUR_API-1912356"
+          ]
+        },
+        {
+          "start": 316,
+          "end": 338,
+          "doc_ids": [
+            "DOC-B0651-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=324",
+      "text": "양산시립박물관은 양산지역의 역사와 문화를 보존 및 전승하고, 이를 토대로 시민의 역사의식을 함양하며, 복합문화공간의 역할을 하고자 2013년 4월 개관하였다. 박물관은 상설전시실, 기획전시실, 야외전시, 어린이박물관, 역사자료실 희청헌 등으로 조성되어 있다. 상설전시실은 양산의 역사와 문화를 볼 수 있는 역사실, 양산의 고분문화를 전시하고 있는 고분실로 구성되어 있으며, 어린이 박물관은 다양한 놀이체험을 통해 양산의 역사·문화를 배울 수 있는 공간으로 구성되어 있다. 야외전시에는 양산 북정동 683번지 유적 5호, 9호, 13호 횡구식석실묘가 전시되어 있다. 고분문화+불교문화+도자문화+제례문화 전시",
+      "sido": "경상남도",
+      "sigungu": "양산시",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=324"
+      ],
+      "evidence_id": "E3",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=448",
+        "fields": {
+          "name": "양산시립박물관",
+          "sido": "경상남도",
+          "sigungu": "양산시",
+          "address": "경상남도 양산시 북정로78",
+          "ownership_type": "공립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "09:00",
+          "weekday_close": "18:00",
+          "holiday_open": "09:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "월+1월1일+설 연휴+추석 연휴",
+          "amenities_raw": "대강당+기획전시실+어린이체험실+시청각실"
+        },
+        "base_data_date": "2025-11-17",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0698",
+      "name": "박물관 수",
+      "document": "박물관 수는 대구광역시 범어동에 위치한 소규모 박물관으로 2011년 개관하였다. 이곳은 자수와 민화를 전문 콘텐츠로 전시 및 체험을 진행하는 곳이다. 베갯모 자수와 기타 전통자수 유물을 관람할 수 있으며, 민화 유물을 관람할 수 있다. 또한 박물관 뒤편에 교육 공간을 했는데 버선 만들기, 복주머니 만들기, 까치호랑이 만들기 등의 체험이 가능하다. 직접 만들어서 판매하는 자수 굿즈를 볼 수 있고 한국의 멋을 충분히 느낄 수 있는 곳이다. 한국의 자수와 민화에 대해 소개하고 전시, 교육하는 사립박물관",
+      "metadata": {
+        "sido": "대구광역시",
+        "image_copyright": "Type3",
+        "name": "박물관 수",
+        "adult_fee_status": "BASE_FEE_PAID",
+        "ownership_type": "사립",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/45/3342645_image2_1.jpg",
+        "weekday_open": "10:00",
+        "homepage_url": "https://www.museumsoo.org",
+        "address": "대구광역시 수성구 국채보상로 186길 79",
+        "source_types": "BASE|TOUR_API",
+        "requires_manual_review": true,
+        "youth_fee": 3000.0,
+        "longitude": 128.6341486,
+        "sigungu": "수성구",
+        "child_fee": 3000.0,
+        "latitude": 35.86482862,
+        "transport_notes": "지하철 2호선 수성구청역+309+323+323-1+420+420-1+425+509+609+649+724+840+939+100+990+991+303-1+814",
+        "weekday_close": "17:00",
+        "closure_rule_raw": "일요일 및 공휴일",
+        "adult_fee": 5000.0
+      },
+      "vector_rank": 3,
+      "bm25_rank": null,
+      "vector_distance": 0.4519420862197876,
+      "vector_score": null,
+      "bm25_score": null,
+      "vector_document": "박물관 수는 대구광역시 범어동에 위치한 소규모 박물관으로 2011년 개관하였다. 이곳은 자수와 민화를 전문 콘텐츠로 전시 및 체험을 진행하는 곳이다. 베갯모 자수와 기타 전통자수 유물을 관람할 수 있으며, 민화 유물을 관람할 수 있다. 또한 박물관 뒤편에 교육 공간을 했는데 버선 만들기, 복주머니 만들기, 까치호랑이 만들기 등의 체험이 가능하다. 직접 만들어서 판매하는 자수 굿즈를 볼 수 있고 한국의 멋을 충분히 느낄 수 있는 곳이다. 한국의 자수와 민화에 대해 소개하고 전시, 교육하는 사립박물관",
+      "bm25_document": "",
+      "best_span_id": null,
+      "best_span_text": null,
+      "fusion_score": 0.015873015873015872,
+      "retrieved_by": [
+        "vector"
+      ],
+      "fusion_rank": 4,
+      "rerank_score": null,
+      "rank": 4,
+      "score": 0.015873015873015872,
+      "score_type": "rrf",
+      "distance": 0.4519420862197876,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector"
+      ],
+      "retriever": "vector",
+      "source_doc_ids": [
+        "DOC-B0698-TOUR_API-2555014",
+        "DOC-B0698-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0698-TOUR_API-2555014",
+          "source_type": "TOUR_API",
+          "source_record_id": "2555014",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=341",
+          "match_trust": "RECHECKED_BY_RULE_NOT_HUMAN_APPROVED"
+        },
+        {
+          "doc_id": "DOC-B0698-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0698",
+          "source_locator": "data/raw/museum_base_1070.csv#row=699",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 44,
+          "doc_ids": [
+            "DOC-B0698-TOUR_API-2555014"
+          ]
+        },
+        {
+          "start": 45,
+          "end": 83,
+          "doc_ids": [
+            "DOC-B0698-TOUR_API-2555014"
+          ]
+        },
+        {
+          "start": 84,
+          "end": 131,
+          "doc_ids": [
+            "DOC-B0698-TOUR_API-2555014"
+          ]
+        },
+        {
+          "start": 132,
+          "end": 194,
+          "doc_ids": [
+            "DOC-B0698-TOUR_API-2555014"
+          ]
+        },
+        {
+          "start": 195,
+          "end": 245,
+          "doc_ids": [
+            "DOC-B0698-TOUR_API-2555014"
+          ]
+        },
+        {
+          "start": 246,
+          "end": 280,
+          "doc_ids": [
+            "DOC-B0698-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=341",
+      "text": "박물관 수는 대구광역시 범어동에 위치한 소규모 박물관으로 2011년 개관하였다. 이곳은 자수와 민화를 전문 콘텐츠로 전시 및 체험을 진행하는 곳이다. 베갯모 자수와 기타 전통자수 유물을 관람할 수 있으며, 민화 유물을 관람할 수 있다. 또한 박물관 뒤편에 교육 공간을 했는데 버선 만들기, 복주머니 만들기, 까치호랑이 만들기 등의 체험이 가능하다. 직접 만들어서 판매하는 자수 굿즈를 볼 수 있고 한국의 멋을 충분히 느낄 수 있는 곳이다. 한국의 자수와 민화에 대해 소개하고 전시, 교육하는 사립박물관",
+      "sido": "대구광역시",
+      "sigungu": "수성구",
+      "span_id": "",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=341"
+      ],
+      "evidence_id": "E4",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=484",
+        "fields": {
+          "name": "박물관 수",
+          "sido": "대구광역시",
+          "sigungu": "수성구",
+          "address": "대구광역시 수성구 국채보상로 186길 79",
+          "ownership_type": "사립",
+          "adult_fee": "5000",
+          "youth_fee": "3000",
+          "child_fee": "3000",
+          "adult_fee_status": "BASE_FEE_PAID",
+          "weekday_open": "10:00",
+          "weekday_close": "17:00",
+          "closure_rule_raw": "일요일 및 공휴일"
+        },
+        "base_data_date": "2025-12-10",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0235",
+      "name": "고양어린이박물관",
+      "document": "2016년에 개관한 고양어린이박물관은 경기 북부 최대 규모의 어린이박물관으로 12개의 기획·상설전시실 및 체험물로 구성되어 있다. 자연, 환경, 건축, 예술 등 다양한 테마로 구성된 체험 전시로 어린이 가족의 오감을 만족시키며, 어린이의 발달 과정에 맞추어 놀이보다 재미있는 교육을 선사한다. 그밖에 축제, 이벤트 등 다채로운 프로그램을 선보이며 늘 찾고 싶은 '어린이 가족 복합문화공간'으로 위상을 높이고 있다. 다양한 놀이와 체험을 통해 꿈과 미래를 만나는 어린이박물관",
+      "metadata": {
+        "source_types": "BASE|TOUR_API",
+        "transport_notes": "지하철 3호선 화정역 2번출구",
+        "longitude": 126.8309509,
+        "image_copyright": "Type1",
+        "weekday_close": "17:00",
+        "adult_fee": 5000.0,
+        "address": "경기도 고양시 덕양구 화중로 26",
+        "requires_manual_review": true,
+        "ownership_type": "공립",
+        "closure_rule_raw": "월(휴관일인 월요일이 법정 공휴일에 해당하는 경우 다음날 휴관)+1월 1일+설 당일+추석 당일",
+        "sigungu": "고양시",
+        "adult_fee_status": "BASE_FEE_PAID",
+        "name": "고양어린이박물관",
+        "weekday_open": "10:00",
+        "amenities_raw": "전시실+사무실+교육실+수장고",
+        "latitude": 37.62948069,
+        "sido": "경기도",
+        "fee_notes": "만36개월 미만+국민 기초수급생활자 및 자녀+한부모가족+장애인+국가유공자+독립유공자+5.18유공자+특수임무유공자+참전유공자+고엽제 후유증 환자+만65세이상 등",
+        "child_fee": 5000.0,
+        "holiday_open": "10:00",
+        "homepage_url": "http://www.goyangcm.or.kr",
+        "youth_fee": 5000.0,
+        "holiday_close": "17:00",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/41/4070841_image2_1.jpg"
+      },
+      "vector_rank": null,
+      "bm25_rank": 3,
+      "vector_distance": null,
+      "vector_score": null,
+      "bm25_score": 10.453370443755933,
+      "vector_document": "",
+      "bm25_document": "2016년에 개관한 고양어린이박물관은 경기 북부 최대 규모의 어린이박물관으로 12개의 기획·상설전시실 및 체험물로 구성되어 있다. 자연, 환경, 건축, 예술 등 다양한 테마로 구성된 체험 전시로 어린이 가족의 오감을 만족시키며, 어린이의 발달 과정에 맞추어 놀이보다 재미있는 교육을 선사한다. 그밖에 축제, 이벤트 등 다채로운 프로그램을 선보이며 늘 찾고 싶은 '어린이 가족 복합문화공간'으로 위상을 높이고 있다. 다양한 놀이와 체험을 통해 꿈과 미래를 만나는 어린이박물관",
+      "best_span_id": "chroma:M0235",
+      "best_span_text": "2016년에 개관한 고양어린이박물관은 경기 북부 최대 규모의 어린이박물관으로 12개의 기획·상설전시실 및 체험물로 구성되어 있다. 자연, 환경, 건축, 예술 등 다양한 테마로 구성된 체험 전시로 어린이 가족의 오감을 만족시키며, 어린이의 발달 과정에 맞추어 놀이보다 재미있는 교육을 선사한다. 그밖에 축제, 이벤트 등 다채로운 프로그램을 선보이며 늘 찾고 싶은 '어린이 가족 복합문화공간'으로 위상을 높이고 있다. 다양한 놀이와 체험을 통해 꿈과 미래를 만나는 어린이박물관",
+      "fusion_score": 0.015873015873015872,
+      "retrieved_by": [
+        "bm25"
+      ],
+      "fusion_rank": 5,
+      "rerank_score": null,
+      "rank": 5,
+      "score": 0.015873015873015872,
+      "score_type": "rrf",
+      "distance": null,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "bm25"
+      ],
+      "retriever": "bm25",
+      "span_id": "chroma:M0235",
+      "source_doc_ids": [
+        "DOC-B0235-TOUR_API-2551413",
+        "DOC-B0235-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0235-TOUR_API-2551413",
+          "source_type": "TOUR_API",
+          "source_record_id": "2551413",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=117",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        },
+        {
+          "doc_id": "DOC-B0235-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0235",
+          "source_locator": "data/raw/museum_base_1070.csv#row=236",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 72,
+          "doc_ids": [
+            "DOC-B0235-TOUR_API-2551413"
+          ]
+        },
+        {
+          "start": 73,
+          "end": 163,
+          "doc_ids": [
+            "DOC-B0235-TOUR_API-2551413"
+          ]
+        },
+        {
+          "start": 164,
+          "end": 231,
+          "doc_ids": [
+            "DOC-B0235-TOUR_API-2551413"
+          ]
+        },
+        {
+          "start": 232,
+          "end": 264,
+          "doc_ids": [
+            "DOC-B0235-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=117",
+      "text": "2016년에 개관한 고양어린이박물관은 경기 북부 최대 규모의 어린이박물관으로 12개의 기획·상설전시실 및 체험물로 구성되어 있다. 자연, 환경, 건축, 예술 등 다양한 테마로 구성된 체험 전시로 어린이 가족의 오감을 만족시키며, 어린이의 발달 과정에 맞추어 놀이보다 재미있는 교육을 선사한다. 그밖에 축제, 이벤트 등 다채로운 프로그램을 선보이며 늘 찾고 싶은 '어린이 가족 복합문화공간'으로 위상을 높이고 있다. 다양한 놀이와 체험을 통해 꿈과 미래를 만나는 어린이박물관",
+      "sido": "경기도",
+      "sigungu": "고양시",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=117"
+      ],
+      "evidence_id": "E5",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=163",
+        "fields": {
+          "name": "고양어린이박물관",
+          "sido": "경기도",
+          "sigungu": "고양시",
+          "address": "경기도 고양시 덕양구 화중로 26",
+          "ownership_type": "공립",
+          "adult_fee": "5000",
+          "youth_fee": "5000",
+          "child_fee": "5000",
+          "adult_fee_status": "BASE_FEE_PAID",
+          "weekday_open": "10:00",
+          "weekday_close": "17:00",
+          "holiday_open": "10:00",
+          "holiday_close": "17:00",
+          "closure_rule_raw": "월(휴관일인 월요일이 법정 공휴일에 해당하는 경우 다음날 휴관)+1월 1일+설 당일+추석 당일",
+          "amenities_raw": "전시실+사무실+교육실+수장고"
+        },
+        "base_data_date": "2026-09-15",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    }
+  ],
+  "answer": "경기북부어린이박물관은 ‘숲에서 꿈꾸는 어린이’를 주제로 전시공간을 구성합니다. [E1]\n\n- **1층 ‘과거의 숲’**: 공룡숲은 공룡 숲을 탐험하는 공간, 오름숲은 브라키오사우루스의 몸속을 오르내리는 신체 발달 놀이터, 바다숲은 36개월 미만 영아를 위한 해양 생물·모험 체험전시실입니다. [E1]\n- **2층 ‘현재의 숲’과 ‘미래의 숲’**: 자연숲에서는 숲의 생명과 교감하고, 오감숲에서는 다섯 감각으로 숲을 체험하며, 상상숲에서는 생명과의 공존을 다룬 기획전시를 주기적으로 선보입니다. [E1]\n- 2층 **배움터**에서는 자연·생태계·환경·평화의 가치를 담은 교육과 실습을 합니다. [E1]\n\n상상숲의 기획전시는 주기적으로 열린다고 소개되어 있지만, 현재 진행 중인 전시의 구체적인 내용은 자료에 나와 있지 않습니다. [E1]",
+  "retrieval_status": "ok",
+  "answer_status": "answered",
+  "route": "hybrid",
+  "retry_count": 1,
+  "supervisor_verified": true,
+  "rerank_applied": false,
+  "retriever_errors": [],
+  "warnings": [
+    "Cross-Encoder reranking failed (FileNotFoundError); RRF order retained"
+  ],
+  "duration_ms": 29915.06,
+  "error_type": "",
+  "hit_at_1": 1,
+  "hit_at_3": 1,
+  "hit_at_5": 1,
+  "recall_at_5": 1.0,
+  "mrr_at_10": 1.0
+}

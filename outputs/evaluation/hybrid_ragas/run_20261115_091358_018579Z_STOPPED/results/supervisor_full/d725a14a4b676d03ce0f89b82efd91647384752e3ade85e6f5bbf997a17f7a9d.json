@@ -1,0 +1,730 @@
+{
+  "mode": "supervisor_full",
+  "question_id": "Q249",
+  "evidence": [
+    {
+      "museum_id": "M0433",
+      "name": "거제어촌민속전시관",
+      "document": "거제어촌민속전시관은 남해안의 어촌생활사에 관한 전시를 관람할 수 있는 곳이다. 전통의 바다에서는 거제의 역사부터 인물, 문화유적, 민요, 옛 생활 등의 전통을 알아볼 수 있다. 생활의 바다에서는 거제의 수산음식, 생활도구, 어선, 어구, 어법 등 생활요소들을 알아볼 수 있으며, 부흥의 바다에서는 거제의 입지조건, 연근해산수업, 해양생물, 굴이야기 등을, 체험의 바다에서는 거제의 특산물과 관광 등을 알아볼 수 있다. 민속품+패류+어구+어류박제품 등 2120여점 소장",
+      "metadata": {
+        "holiday_close": "18:00",
+        "ownership_type": "공립",
+        "requires_manual_review": true,
+        "image_copyright": "Type1",
+        "source_types": "BASE|TOUR_API",
+        "homepage_url": "http://www.gmdc.co.kr/_marine/",
+        "sigungu": "거제시",
+        "address": "경상남도 거제시 일운면 지세포해안로 41",
+        "sido": "경상남도",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/52/3514952_image2_1.jpg",
+        "longitude": 128.7018853,
+        "weekday_close": "18:00",
+        "youth_fee": 2000.0,
+        "holiday_open": "09:00",
+        "adult_fee": 3000.0,
+        "adult_fee_status": "BASE_FEE_PAID",
+        "closure_rule_raw": "1월1일+설당일+추석당일+월요일(단, 월요일이 공휴일인 경우 당일은 개관하고 그 다음 첫번째 평일에 휴관)",
+        "weekday_open": "09:00",
+        "child_fee": 1000.0,
+        "latitude": 34.83369365,
+        "name": "거제어촌민속전시관",
+        "fee_notes": "할인(거제시민+만 65세 이상+관광지 통합이용권 이용자+상호협약 체결 시설 당일 입장권 소지자+단체 30명 이상)+무료(미취학 아동 + 국가보훈대상자+ 장애인+ 다자녀가정 + 기초생활수급자)"
+      },
+      "vector_rank": 1,
+      "bm25_rank": 1,
+      "vector_distance": 0.39935004711151123,
+      "vector_score": null,
+      "bm25_score": 55.498828989431125,
+      "vector_document": "거제어촌민속전시관은 남해안의 어촌생활사에 관한 전시를 관람할 수 있는 곳이다. 전통의 바다에서는 거제의 역사부터 인물, 문화유적, 민요, 옛 생활 등의 전통을 알아볼 수 있다. 생활의 바다에서는 거제의 수산음식, 생활도구, 어선, 어구, 어법 등 생활요소들을 알아볼 수 있으며, 부흥의 바다에서는 거제의 입지조건, 연근해산수업, 해양생물, 굴이야기 등을, 체험의 바다에서는 거제의 특산물과 관광 등을 알아볼 수 있다. 민속품+패류+어구+어류박제품 등 2120여점 소장",
+      "bm25_document": "거제어촌민속전시관은 남해안의 어촌생활사에 관한 전시를 관람할 수 있는 곳이다. 전통의 바다에서는 거제의 역사부터 인물, 문화유적, 민요, 옛 생활 등의 전통을 알아볼 수 있다. 생활의 바다에서는 거제의 수산음식, 생활도구, 어선, 어구, 어법 등 생활요소들을 알아볼 수 있으며, 부흥의 바다에서는 거제의 입지조건, 연근해산수업, 해양생물, 굴이야기 등을, 체험의 바다에서는 거제의 특산물과 관광 등을 알아볼 수 있다. 민속품+패류+어구+어류박제품 등 2120여점 소장",
+      "best_span_id": "chroma:M0433",
+      "best_span_text": "거제어촌민속전시관은 남해안의 어촌생활사에 관한 전시를 관람할 수 있는 곳이다. 전통의 바다에서는 거제의 역사부터 인물, 문화유적, 민요, 옛 생활 등의 전통을 알아볼 수 있다. 생활의 바다에서는 거제의 수산음식, 생활도구, 어선, 어구, 어법 등 생활요소들을 알아볼 수 있으며, 부흥의 바다에서는 거제의 입지조건, 연근해산수업, 해양생물, 굴이야기 등을, 체험의 바다에서는 거제의 특산물과 관광 등을 알아볼 수 있다. 민속품+패류+어구+어류박제품 등 2120여점 소장",
+      "fusion_score": 0.03278688524590164,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 1,
+      "name_match": true,
+      "rerank_score": 0.999932050704956,
+      "rank": 1,
+      "score": 0.999932050704956,
+      "score_type": "cross_encoder",
+      "distance": 0.39935004711151123,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0433",
+      "source_doc_ids": [
+        "DOC-B0433-TOUR_API-1622179",
+        "DOC-B0433-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0433-TOUR_API-1622179",
+          "source_type": "TOUR_API",
+          "source_record_id": "1622179",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=207",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        },
+        {
+          "doc_id": "DOC-B0433-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0433",
+          "source_locator": "data/raw/museum_base_1070.csv#row=434",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 43,
+          "doc_ids": [
+            "DOC-B0433-TOUR_API-1622179"
+          ]
+        },
+        {
+          "start": 44,
+          "end": 98,
+          "doc_ids": [
+            "DOC-B0433-TOUR_API-1622179"
+          ]
+        },
+        {
+          "start": 99,
+          "end": 233,
+          "doc_ids": [
+            "DOC-B0433-TOUR_API-1622179"
+          ]
+        },
+        {
+          "start": 234,
+          "end": 261,
+          "doc_ids": [
+            "DOC-B0433-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=207",
+      "text": "거제어촌민속전시관은 남해안의 어촌생활사에 관한 전시를 관람할 수 있는 곳이다. 전통의 바다에서는 거제의 역사부터 인물, 문화유적, 민요, 옛 생활 등의 전통을 알아볼 수 있다. 생활의 바다에서는 거제의 수산음식, 생활도구, 어선, 어구, 어법 등 생활요소들을 알아볼 수 있으며, 부흥의 바다에서는 거제의 입지조건, 연근해산수업, 해양생물, 굴이야기 등을, 체험의 바다에서는 거제의 특산물과 관광 등을 알아볼 수 있다. 민속품+패류+어구+어류박제품 등 2120여점 소장",
+      "sido": "경상남도",
+      "sigungu": "거제시",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=207"
+      ],
+      "evidence_id": "E1",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=307",
+        "fields": {
+          "name": "거제어촌민속전시관",
+          "sido": "경상남도",
+          "sigungu": "거제시",
+          "address": "경상남도 거제시 일운면 지세포해안로 41",
+          "ownership_type": "공립",
+          "adult_fee": "3000",
+          "youth_fee": "2000",
+          "child_fee": "1000",
+          "adult_fee_status": "BASE_FEE_PAID",
+          "weekday_open": "09:00",
+          "weekday_close": "18:00",
+          "holiday_open": "09:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "1월1일+설당일+추석당일+월요일(단, 월요일이 공휴일인 경우 당일은 개관하고 그 다음 첫번째 평일에 휴관)"
+        },
+        "base_data_date": "2026-03-26",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0430",
+      "name": "거제박물관",
+      "document": "거제박물관은 거제문화재단 산하의 기관으로서, 1991년 12월 21일에 개관하여, 1992년 문화관광부에 등록한 종합박물관(민속, 고고분야)으로서 거제의 역사와 민속에 관한 자료를 수집, 정리, 연구, 전시하고 있다. 1층은 기획전시실 공간으로 지역 내의 여러 문화행사(전시행사)를 개최할 수 있게 되어 있으며, 2층은 민속실로 거제에서 채집한 민속품이 진열되어 있는데, 섬이라는 환경조건으로 반농반어의 생산 형태를 갖게 되어 농경과 수산에 관계되는 용구가 많이 있다. 3층은 선사시대부터 조선시대까지의 다양한 유물이 전시되어 있다. 이러한 박물관 본연의 사업 외에 난, 수석, 사진 등의 지역 주민을 위한 일반 전시회와 민속품, 소장품 등의 기획 전시, 유물 사생대회와 클래식 음악회, 명사초청 강연회와 가족캠프 등의 문화와 예술에 관한 많은 사업들을 진행하고 있으며, 특히 박물관 대학과 대학원 등을 통해 지역민의 교양을 넓히고, 새로운 정보를 제공하는 사회교육 기능도 하고 있다. 도류+토기+민속품+고서+서화류 등 3500여점 소장",
+      "metadata": {
+        "child_fee": 1500.0,
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/71/3520971_image2_1.jpg",
+        "sido": "경상남도",
+        "longitude": 128.6862106,
+        "address": "경상남도 거제시 거제대로 3791",
+        "homepage_url": "http://gjmuseum.or.kr/",
+        "ownership_type": "사립",
+        "adult_fee_status": "BASE_FEE_PAID",
+        "latitude": 34.894053,
+        "requires_manual_review": true,
+        "holiday_open": "09:00",
+        "youth_fee": 2000.0,
+        "weekday_close": "18:00",
+        "adult_fee": 3000.0,
+        "weekday_open": "09:00",
+        "holiday_close": "18:00",
+        "closure_rule_raw": "월요일+설당일+추석당일",
+        "image_copyright": "Type1",
+        "fee_notes": "할인(경로우대, 국가유공자, 장애인, 단체(20인 이상))+무료입장(병역명문가)",
+        "sigungu": "거제시",
+        "name": "거제박물관",
+        "source_types": "BASE|TOUR_API"
+      },
+      "vector_rank": null,
+      "bm25_rank": 4,
+      "vector_distance": null,
+      "vector_score": null,
+      "bm25_score": 15.722441516281071,
+      "vector_document": "",
+      "bm25_document": "거제박물관은 거제문화재단 산하의 기관으로서, 1991년 12월 21일에 개관하여, 1992년 문화관광부에 등록한 종합박물관(민속, 고고분야)으로서 거제의 역사와 민속에 관한 자료를 수집, 정리, 연구, 전시하고 있다. 1층은 기획전시실 공간으로 지역 내의 여러 문화행사(전시행사)를 개최할 수 있게 되어 있으며, 2층은 민속실로 거제에서 채집한 민속품이 진열되어 있는데, 섬이라는 환경조건으로 반농반어의 생산 형태를 갖게 되어 농경과 수산에 관계되는 용구가 많이 있다. 3층은 선사시대부터 조선시대까지의 다양한 유물이 전시되어 있다. 이러한 박물관 본연의 사업 외에 난, 수석, 사진 등의 지역 주민을 위한 일반 전시회와 민속품, 소장품 등의 기획 전시, 유물 사생대회와 클래식 음악회, 명사초청 강연회와 가족캠프 등의 문화와 예술에 관한 많은 사업들을 진행하고 있으며, 특히 박물관 대학과 대학원 등을 통해 지역민의 교양을 넓히고, 새로운 정보를 제공하는 사회교육 기능도 하고 있다. 도류+토기+민속품+고서+서화류 등 3500여점 소장",
+      "best_span_id": "chroma:M0430",
+      "best_span_text": "거제박물관은 거제문화재단 산하의 기관으로서, 1991년 12월 21일에 개관하여, 1992년 문화관광부에 등록한 종합박물관(민속, 고고분야)으로서 거제의 역사와 민속에 관한 자료를 수집, 정리, 연구, 전시하고 있다. 1층은 기획전시실 공간으로 지역 내의 여러 문화행사(전시행사)를 개최할 수 있게 되어 있으며, 2층은 민속실로 거제에서 채집한 민속품이 진열되어 있는데, 섬이라는 환경조건으로 반농반어의 생산 형태를 갖게 되어 농경과 수산에 관계되는 용구가 많이 있다. 3층은 선사시대부터 조선시대까지의 다양한 유물이 전시되어 있다. 이러한 박물관 본연의 사업 외에 난, 수석, 사진 등의 지역 주민을 위한 일반 전시회와 민속품, 소장품 등의 기획 전시, 유물 사생대회와 클래식 음악회, 명사초청 강연회와 가족캠프 등의 문화와 예술에 관한 많은 사업들을 진행하고 있으며, 특히 박물관 대학과 대학원 등을 통해 지역민의 교양을 넓히고, 새로운 정보를 제공하는 사회교육 기능도 하고 있다. 도류+토기+민속품+고서+서화류 등 3500여점 소장",
+      "fusion_score": 0.015625,
+      "retrieved_by": [
+        "bm25"
+      ],
+      "fusion_rank": 8,
+      "rerank_score": 0.008814720436930656,
+      "rank": 2,
+      "score": 0.008814720436930656,
+      "score_type": "cross_encoder",
+      "distance": null,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "bm25"
+      ],
+      "retriever": "bm25",
+      "span_id": "chroma:M0430",
+      "source_doc_ids": [
+        "DOC-B0430-TOUR_API-129805",
+        "DOC-B0430-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0430-TOUR_API-129805",
+          "source_type": "TOUR_API",
+          "source_record_id": "129805",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=204",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        },
+        {
+          "doc_id": "DOC-B0430-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0430",
+          "source_locator": "data/raw/museum_base_1070.csv#row=431",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 121,
+          "doc_ids": [
+            "DOC-B0430-TOUR_API-129805"
+          ]
+        },
+        {
+          "start": 122,
+          "end": 262,
+          "doc_ids": [
+            "DOC-B0430-TOUR_API-129805"
+          ]
+        },
+        {
+          "start": 263,
+          "end": 298,
+          "doc_ids": [
+            "DOC-B0430-TOUR_API-129805"
+          ]
+        },
+        {
+          "start": 299,
+          "end": 495,
+          "doc_ids": [
+            "DOC-B0430-TOUR_API-129805"
+          ]
+        },
+        {
+          "start": 496,
+          "end": 524,
+          "doc_ids": [
+            "DOC-B0430-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=204",
+      "text": "거제박물관은 거제문화재단 산하의 기관으로서, 1991년 12월 21일에 개관하여, 1992년 문화관광부에 등록한 종합박물관(민속, 고고분야)으로서 거제의 역사와 민속에 관한 자료를 수집, 정리, 연구, 전시하고 있다. 1층은 기획전시실 공간으로 지역 내의 여러 문화행사(전시행사)를 개최할 수 있게 되어 있으며, 2층은 민속실로 거제에서 채집한 민속품이 진열되어 있는데, 섬이라는 환경조건으로 반농반어의 생산 형태를 갖게 되어 농경과 수산에 관계되는 용구가 많이 있다. 3층은 선사시대부터 조선시대까지의 다양한 유물이 전시되어 있다. 이러한 박물관 본연의 사업 외에 난, 수석, 사진 등의 지역 주민을 위한 일반 전시회와 민속품, 소장품 등의 기획 전시, 유물 사생대회와 클래식 음악회, 명사초청 강연회와 가족캠프 등의 문화와 예술에 관한 많은 사업들을 진행하고 있으며, 특히 박물관 대학과 대학원 등을 통해 지역민의 교양을 넓히고, 새로운 정보를 제공하는 사회교육 기능도 하고 있다. 도류+토기+민속품+고서+서화류 등 3500여점 소장",
+      "sido": "경상남도",
+      "sigungu": "거제시",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=204"
+      ],
+      "evidence_id": "E2",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=304",
+        "fields": {
+          "name": "거제박물관",
+          "sido": "경상남도",
+          "sigungu": "거제시",
+          "address": "경상남도 거제시 거제대로 3791",
+          "ownership_type": "사립",
+          "adult_fee": "3000",
+          "youth_fee": "2000",
+          "child_fee": "1500",
+          "adult_fee_status": "BASE_FEE_PAID",
+          "weekday_open": "09:00",
+          "weekday_close": "18:00",
+          "holiday_open": "09:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "월요일+설당일+추석당일"
+        },
+        "base_data_date": "2026-03-26",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0092",
+      "name": "민속자연사박물관",
+      "document": "제주의 자연환경과 전통 민속을 함께 보여주는 박물관이다. 자연사전시실에서는 지질·동식물과 해양생물 표본을, 민속전시실에서는 제주인의 생활과 생업 문화를 살펴볼 수 있다.",
+      "metadata": {
+        "amenities_raw": "카페테리아+문화상품판매+수유실+물품보관함",
+        "ownership_type": "공립",
+        "holiday_close": "18:00",
+        "name": "민속자연사박물관",
+        "weekday_close": "18:00",
+        "closure_rule_raw": "월+1월 1일+설 당일+설 다음날+추석 당일+추석 다음날+훈증 소독기간(별도 공지)",
+        "child_fee": 0.0,
+        "sigungu": "제주시",
+        "adult_fee": 2000.0,
+        "address": "제주특별자치도 제주시 삼성로 40",
+        "source_types": "WEB_RESEARCH",
+        "longitude": 126.5317241,
+        "requires_manual_review": true,
+        "holiday_open": "09:00",
+        "weekday_open": "09:00",
+        "latitude": 33.50563037,
+        "fee_notes": "단체 관람 시 할인+도민할인",
+        "adult_fee_status": "BASE_FEE_PAID",
+        "homepage_url": "http://www.jeju.go.kr/museum/index.htm",
+        "sido": "제주특별자치도",
+        "youth_fee": 1000.0
+      },
+      "vector_rank": null,
+      "bm25_rank": 7,
+      "vector_distance": null,
+      "vector_score": null,
+      "bm25_score": 14.555088965746481,
+      "vector_document": "",
+      "bm25_document": "제주의 자연환경과 전통 민속을 함께 보여주는 박물관이다. 자연사전시실에서는 지질·동식물과 해양생물 표본을, 민속전시실에서는 제주인의 생활과 생업 문화를 살펴볼 수 있다.",
+      "best_span_id": "chroma:M0092",
+      "best_span_text": "제주의 자연환경과 전통 민속을 함께 보여주는 박물관이다. 자연사전시실에서는 지질·동식물과 해양생물 표본을, 민속전시실에서는 제주인의 생활과 생업 문화를 살펴볼 수 있다.",
+      "fusion_score": 0.014925373134328358,
+      "retrieved_by": [
+        "bm25"
+      ],
+      "fusion_rank": 14,
+      "rerank_score": 0.0024206512607634068,
+      "rank": 3,
+      "score": 0.0024206512607634068,
+      "score_type": "cross_encoder",
+      "distance": null,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "bm25"
+      ],
+      "retriever": "bm25",
+      "span_id": "chroma:M0092",
+      "source_doc_ids": [
+        "DOC-WEB-M0092-20261111"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-WEB-M0092-20261111",
+          "source_type": "WEB_RESEARCH",
+          "source_record_id": "RESEARCH-M0092",
+          "source_locator": "https://www.visitjeju.net/kr/detail/view?contentsid=CONT_000000000500545",
+          "source_url": "https://www.visitjeju.net/kr/detail/view?contentsid=CONT_000000000500545",
+          "match_trust": "WEB_SOURCE_REVIEWED_NOT_HUMAN_APPROVED"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 31,
+          "doc_ids": [
+            "DOC-WEB-M0092-20261111"
+          ]
+        },
+        {
+          "start": 32,
+          "end": 94,
+          "doc_ids": [
+            "DOC-WEB-M0092-20261111"
+          ]
+        }
+      ],
+      "source_urls": [
+        "https://www.visitjeju.net/kr/detail/view?contentsid=CONT_000000000500545"
+      ],
+      "source_locator": "https://www.visitjeju.net/kr/detail/view?contentsid=CONT_000000000500545",
+      "text": "제주의 자연환경과 전통 민속을 함께 보여주는 박물관이다. 자연사전시실에서는 지질·동식물과 해양생물 표본을, 민속전시실에서는 제주인의 생활과 생업 문화를 살펴볼 수 있다.",
+      "sido": "제주특별자치도",
+      "sigungu": "제주시",
+      "chunk_id": "",
+      "source_locators": [
+        "https://www.visitjeju.net/kr/detail/view?contentsid=CONT_000000000500545"
+      ],
+      "evidence_id": "E3",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=58",
+        "fields": {
+          "name": "민속자연사박물관",
+          "sido": "제주특별자치도",
+          "sigungu": "제주시",
+          "address": "제주특별자치도 제주시 삼성로 40",
+          "ownership_type": "공립",
+          "adult_fee": "2000",
+          "youth_fee": "1000",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_PAID",
+          "weekday_open": "09:00",
+          "weekday_close": "18:00",
+          "holiday_open": "09:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "월+1월 1일+설 당일+설 다음날+추석 당일+추석 다음날+훈증 소독기간(별도 공지)",
+          "amenities_raw": "카페테리아+문화상품판매+수유실+물품보관함"
+        },
+        "base_data_date": "2026-09-30",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0099",
+      "name": "온양민속박물관",
+      "document": "우리나라 최초의 사립 민속박물관인 온양민속박물관은 우리 전통문화의 아름다움과 우수성을 알리기 위해 1978년 개관하였다. 전체 대지는 72,727㎡의 규모이며 이타미준의 국내 첫 번째 건축물인 구정 아트센터를 포함하여, 상설전시실, 특별전시실, 야외전시장 등으로 구성되어 있다. 옛 선조들의 지혜와 품격이 담긴 생활품 2만여 점을 소장하고 있으며, 전시 및 다양한 교육 체험 프로그램, 공연 등의 문화 행사를 체험할 수 있다. 유형적인 민속자료를 체계적으로 수집, 보존, 전시해 후세들에게 합리적으로 이해 교육시키며 전통적 요소를 오늘에 되살릴 수 있도록 유도하며 학술적으로 고증하여 연구하고 세계 속에 한국문화의 독자성을 선양하기 위해 설립된 박물관이다. 한국인의 전통 생활문화를 다루는 민속박물관이다. 의식주와 관혼상제, 농업·어업 등 생업, 민간신앙과 공예 관련 유물을 통해 한국 민속의 여러 모습을 살펴볼 수 있다.",
+      "metadata": {
+        "holiday_open": "10:00",
+        "sido": "충청남도",
+        "longitude": 127.0079103,
+        "source_types": "TOUR_API|WEB_RESEARCH",
+        "homepage_url": "http://onyangmuseum.or.kr/",
+        "adult_fee_status": "BASE_FEE_PAID",
+        "child_fee": 1500.0,
+        "weekday_close": "17:30",
+        "amenities_raw": "카페 등",
+        "youth_fee": 3000.0,
+        "requires_manual_review": true,
+        "closure_rule_raw": "월",
+        "transport_notes": "경부고속국도-남부우회도로-국도21호선을 이용하거나 38번국도-48번 국도를 이용하거나 아산만방조제-39번 국도를 이용해서 올 수 있습니다.",
+        "sigungu": "아산시",
+        "adult_fee": 5000.0,
+        "weekday_open": "10:00",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/80/3558580_image2_1.jpg",
+        "latitude": 36.79323056,
+        "name": "온양민속박물관",
+        "address": "충청남도 아산시 충무로 123",
+        "image_copyright": "Type1",
+        "ownership_type": "사립",
+        "fee_notes": "아산시민(80)+문화가 있는 날(30)+아산시티투어 및 장애인 할인",
+        "holiday_close": "17:30"
+      },
+      "vector_rank": null,
+      "bm25_rank": 2,
+      "vector_distance": null,
+      "vector_score": null,
+      "bm25_score": 17.573839763610085,
+      "vector_document": "",
+      "bm25_document": "우리나라 최초의 사립 민속박물관인 온양민속박물관은 우리 전통문화의 아름다움과 우수성을 알리기 위해 1978년 개관하였다. 전체 대지는 72,727㎡의 규모이며 이타미준의 국내 첫 번째 건축물인 구정 아트센터를 포함하여, 상설전시실, 특별전시실, 야외전시장 등으로 구성되어 있다. 옛 선조들의 지혜와 품격이 담긴 생활품 2만여 점을 소장하고 있으며, 전시 및 다양한 교육 체험 프로그램, 공연 등의 문화 행사를 체험할 수 있다. 유형적인 민속자료를 체계적으로 수집, 보존, 전시해 후세들에게 합리적으로 이해 교육시키며 전통적 요소를 오늘에 되살릴 수 있도록 유도하며 학술적으로 고증하여 연구하고 세계 속에 한국문화의 독자성을 선양하기 위해 설립된 박물관이다. 한국인의 전통 생활문화를 다루는 민속박물관이다. 의식주와 관혼상제, 농업·어업 등 생업, 민간신앙과 공예 관련 유물을 통해 한국 민속의 여러 모습을 살펴볼 수 있다.",
+      "best_span_id": "chroma:M0099",
+      "best_span_text": "우리나라 최초의 사립 민속박물관인 온양민속박물관은 우리 전통문화의 아름다움과 우수성을 알리기 위해 1978년 개관하였다. 전체 대지는 72,727㎡의 규모이며 이타미준의 국내 첫 번째 건축물인 구정 아트센터를 포함하여, 상설전시실, 특별전시실, 야외전시장 등으로 구성되어 있다. 옛 선조들의 지혜와 품격이 담긴 생활품 2만여 점을 소장하고 있으며, 전시 및 다양한 교육 체험 프로그램, 공연 등의 문화 행사를 체험할 수 있다. 유형적인 민속자료를 체계적으로 수집, 보존, 전시해 후세들에게 합리적으로 이해 교육시키며 전통적 요소를 오늘에 되살릴 수 있도록 유도하며 학술적으로 고증하여 연구하고 세계 속에 한국문화의 독자성을 선양하기 위해 설립된 박물관이다. 한국인의 전통 생활문화를 다루는 민속박물관이다. 의식주와 관혼상제, 농업·어업 등 생업, 민간신앙과 공예 관련 유물을 통해 한국 민속의 여러 모습을 살펴볼 수 있다.",
+      "fusion_score": 0.016129032258064516,
+      "retrieved_by": [
+        "bm25"
+      ],
+      "fusion_rank": 5,
+      "rerank_score": 0.0017545174341648817,
+      "rank": 4,
+      "score": 0.0017545174341648817,
+      "score_type": "cross_encoder",
+      "distance": null,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "bm25"
+      ],
+      "retriever": "bm25",
+      "span_id": "chroma:M0099",
+      "source_doc_ids": [
+        "DOC-B0099-TOUR_API-130063",
+        "DOC-WEB-M0099-20261111"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0099-TOUR_API-130063",
+          "source_type": "TOUR_API",
+          "source_record_id": "130063",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=49",
+          "match_trust": "RECHECKED_BY_RULE_NOT_HUMAN_APPROVED"
+        },
+        {
+          "doc_id": "DOC-WEB-M0099-20261111",
+          "source_type": "WEB_RESEARCH",
+          "source_record_id": "RESEARCH-M0099",
+          "source_locator": "https://encykorea.aks.ac.kr/Article/E0038861",
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0038861",
+          "match_trust": "WEB_SOURCE_REVIEWED_NOT_HUMAN_APPROVED"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 67,
+          "doc_ids": [
+            "DOC-B0099-TOUR_API-130063"
+          ]
+        },
+        {
+          "start": 68,
+          "end": 155,
+          "doc_ids": [
+            "DOC-B0099-TOUR_API-130063"
+          ]
+        },
+        {
+          "start": 156,
+          "end": 238,
+          "doc_ids": [
+            "DOC-B0099-TOUR_API-130063"
+          ]
+        },
+        {
+          "start": 239,
+          "end": 367,
+          "doc_ids": [
+            "DOC-B0099-TOUR_API-130063"
+          ]
+        },
+        {
+          "start": 368,
+          "end": 394,
+          "doc_ids": [
+            "DOC-WEB-M0099-20261111"
+          ]
+        },
+        {
+          "start": 395,
+          "end": 460,
+          "doc_ids": [
+            "DOC-WEB-M0099-20261111"
+          ]
+        }
+      ],
+      "source_urls": [
+        "https://encykorea.aks.ac.kr/Article/E0038861"
+      ],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=49",
+      "text": "우리나라 최초의 사립 민속박물관인 온양민속박물관은 우리 전통문화의 아름다움과 우수성을 알리기 위해 1978년 개관하였다. 전체 대지는 72,727㎡의 규모이며 이타미준의 국내 첫 번째 건축물인 구정 아트센터를 포함하여, 상설전시실, 특별전시실, 야외전시장 등으로 구성되어 있다. 옛 선조들의 지혜와 품격이 담긴 생활품 2만여 점을 소장하고 있으며, 전시 및 다양한 교육 체험 프로그램, 공연 등의 문화 행사를 체험할 수 있다. 유형적인 민속자료를 체계적으로 수집, 보존, 전시해 후세들에게 합리적으로 이해 교육시키며 전통적 요소를 오늘에 되살릴 수 있도록 유도하며 학술적으로 고증하여 연구하고 세계 속에 한국문화의 독자성을 선양하기 위해 설립된 박물관이다. 한국인의 전통 생활문화를 다루는 민속박물관이다. 의식주와 관혼상제, 농업·어업 등 생업, 민간신앙과 공예 관련 유물을 통해 한국 민속의 여러 모습을 살펴볼 수 있다.",
+      "sido": "충청남도",
+      "sigungu": "아산시",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=49"
+      ],
+      "evidence_id": "E4",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=61",
+        "fields": {
+          "name": "온양민속박물관",
+          "sido": "충청남도",
+          "sigungu": "아산시",
+          "address": "충청남도 아산시 충무로 123",
+          "ownership_type": "사립",
+          "adult_fee": "5000",
+          "youth_fee": "3000",
+          "child_fee": "1500",
+          "adult_fee_status": "BASE_FEE_PAID",
+          "weekday_open": "10:00",
+          "weekday_close": "17:30",
+          "holiday_open": "10:00",
+          "holiday_close": "17:30",
+          "closure_rule_raw": "월",
+          "amenities_raw": "카페 등"
+        },
+        "base_data_date": "2026-09-01",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0970",
+      "name": "태영민속박물관",
+      "document": "태영민속박물관은 지역 사회에 문화의 씨앗이 되고자 2000년에 개관했다. 삼국시대의 토기부터 조선시대 및 근대의 옹기가 전시되어 있다. 토기는 삼국시대 토기를 중심으로 통일신라시대 토기 및 고려시대 토기가 전시되어 있으며, 옹기는 조선시대의 것부터 근대에 사용되었던 것이다. 그리고 옛 생활을 체험해 볼 수 있는 전통 초가가 있으며, 야외전시장에서는 옹기의 기원과 발전, 옹기의 특성, 생활 속의 옹기들을 새롭게 설치된 설명 패널과 함께 종류별로 살펴볼 수 있다. 이 박물관은 시즌별 특별전은 물론 소장 유물을 상시 교체하여 가까이에서 우리 민속 문화를 느낄 수 있고 휴식공간으로도 활용된다. 또한 민속 문화를 유물을 통해 입체적으로 배우고 전통공예를 체험하면서 즐겁게 시간을 보낼 수 있는 여러 교육프로그램을 제공하여 학교 교육과 가정, 지역을 연결하는 평생학습의 실천자로서 역할을 담당하고 있다.",
+      "metadata": {
+        "name": "태영민속박물관",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/85/3338685_image2_1.jpg",
+        "source_types": "TOUR_API",
+        "image_copyright": "Type3",
+        "weekday_open": "10:00",
+        "sido": "충청남도",
+        "child_fee": 0.0,
+        "sigungu": "금산군",
+        "youth_fee": 0.0,
+        "longitude": 127.4368352,
+        "address": "충청남도 금산군 남이면 하금평촌길 26",
+        "ownership_type": "사립",
+        "weekday_close": "18:00",
+        "requires_manual_review": true,
+        "latitude": 36.05144078,
+        "holiday_close": "18:00",
+        "adult_fee": 0.0,
+        "homepage_url": "http://www.tfmuseum.org/",
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "holiday_open": "10:00",
+        "closure_rule_raw": "월+1월1일"
+      },
+      "vector_rank": 20,
+      "bm25_rank": 9,
+      "vector_distance": 0.6275458931922913,
+      "vector_score": null,
+      "bm25_score": 14.183404503089545,
+      "vector_document": "태영민속박물관은 지역 사회에 문화의 씨앗이 되고자 2000년에 개관했다. 삼국시대의 토기부터 조선시대 및 근대의 옹기가 전시되어 있다. 토기는 삼국시대 토기를 중심으로 통일신라시대 토기 및 고려시대 토기가 전시되어 있으며, 옹기는 조선시대의 것부터 근대에 사용되었던 것이다. 그리고 옛 생활을 체험해 볼 수 있는 전통 초가가 있으며, 야외전시장에서는 옹기의 기원과 발전, 옹기의 특성, 생활 속의 옹기들을 새롭게 설치된 설명 패널과 함께 종류별로 살펴볼 수 있다. 이 박물관은 시즌별 특별전은 물론 소장 유물을 상시 교체하여 가까이에서 우리 민속 문화를 느낄 수 있고 휴식공간으로도 활용된다. 또한 민속 문화를 유물을 통해 입체적으로 배우고 전통공예를 체험하면서 즐겁게 시간을 보낼 수 있는 여러 교육프로그램을 제공하여 학교 교육과 가정, 지역을 연결하는 평생학습의 실천자로서 역할을 담당하고 있다.",
+      "bm25_document": "태영민속박물관은 지역 사회에 문화의 씨앗이 되고자 2000년에 개관했다. 삼국시대의 토기부터 조선시대 및 근대의 옹기가 전시되어 있다. 토기는 삼국시대 토기를 중심으로 통일신라시대 토기 및 고려시대 토기가 전시되어 있으며, 옹기는 조선시대의 것부터 근대에 사용되었던 것이다. 그리고 옛 생활을 체험해 볼 수 있는 전통 초가가 있으며, 야외전시장에서는 옹기의 기원과 발전, 옹기의 특성, 생활 속의 옹기들을 새롭게 설치된 설명 패널과 함께 종류별로 살펴볼 수 있다. 이 박물관은 시즌별 특별전은 물론 소장 유물을 상시 교체하여 가까이에서 우리 민속 문화를 느낄 수 있고 휴식공간으로도 활용된다. 또한 민속 문화를 유물을 통해 입체적으로 배우고 전통공예를 체험하면서 즐겁게 시간을 보낼 수 있는 여러 교육프로그램을 제공하여 학교 교육과 가정, 지역을 연결하는 평생학습의 실천자로서 역할을 담당하고 있다.",
+      "best_span_id": "chroma:M0970",
+      "best_span_text": "태영민속박물관은 지역 사회에 문화의 씨앗이 되고자 2000년에 개관했다. 삼국시대의 토기부터 조선시대 및 근대의 옹기가 전시되어 있다. 토기는 삼국시대 토기를 중심으로 통일신라시대 토기 및 고려시대 토기가 전시되어 있으며, 옹기는 조선시대의 것부터 근대에 사용되었던 것이다. 그리고 옛 생활을 체험해 볼 수 있는 전통 초가가 있으며, 야외전시장에서는 옹기의 기원과 발전, 옹기의 특성, 생활 속의 옹기들을 새롭게 설치된 설명 패널과 함께 종류별로 살펴볼 수 있다. 이 박물관은 시즌별 특별전은 물론 소장 유물을 상시 교체하여 가까이에서 우리 민속 문화를 느낄 수 있고 휴식공간으로도 활용된다. 또한 민속 문화를 유물을 통해 입체적으로 배우고 전통공예를 체험하면서 즐겁게 시간을 보낼 수 있는 여러 교육프로그램을 제공하여 학교 교육과 가정, 지역을 연결하는 평생학습의 실천자로서 역할을 담당하고 있다.",
+      "fusion_score": 0.026992753623188405,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 3,
+      "rerank_score": 0.0007416917360387743,
+      "rank": 5,
+      "score": 0.0007416917360387743,
+      "score_type": "cross_encoder",
+      "distance": 0.6275458931922913,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0970",
+      "source_doc_ids": [
+        "DOC-B0970-TOUR_API-615547"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0970-TOUR_API-615547",
+          "source_type": "TOUR_API",
+          "source_record_id": "615547",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=454",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 40,
+          "doc_ids": [
+            "DOC-B0970-TOUR_API-615547"
+          ]
+        },
+        {
+          "start": 41,
+          "end": 75,
+          "doc_ids": [
+            "DOC-B0970-TOUR_API-615547"
+          ]
+        },
+        {
+          "start": 76,
+          "end": 153,
+          "doc_ids": [
+            "DOC-B0970-TOUR_API-615547"
+          ]
+        },
+        {
+          "start": 154,
+          "end": 259,
+          "doc_ids": [
+            "DOC-B0970-TOUR_API-615547"
+          ]
+        },
+        {
+          "start": 260,
+          "end": 331,
+          "doc_ids": [
+            "DOC-B0970-TOUR_API-615547"
+          ]
+        },
+        {
+          "start": 332,
+          "end": 447,
+          "doc_ids": [
+            "DOC-B0970-TOUR_API-615547"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=454",
+      "text": "태영민속박물관은 지역 사회에 문화의 씨앗이 되고자 2000년에 개관했다. 삼국시대의 토기부터 조선시대 및 근대의 옹기가 전시되어 있다. 토기는 삼국시대 토기를 중심으로 통일신라시대 토기 및 고려시대 토기가 전시되어 있으며, 옹기는 조선시대의 것부터 근대에 사용되었던 것이다. 그리고 옛 생활을 체험해 볼 수 있는 전통 초가가 있으며, 야외전시장에서는 옹기의 기원과 발전, 옹기의 특성, 생활 속의 옹기들을 새롭게 설치된 설명 패널과 함께 종류별로 살펴볼 수 있다. 이 박물관은 시즌별 특별전은 물론 소장 유물을 상시 교체하여 가까이에서 우리 민속 문화를 느낄 수 있고 휴식공간으로도 활용된다. 또한 민속 문화를 유물을 통해 입체적으로 배우고 전통공예를 체험하면서 즐겁게 시간을 보낼 수 있는 여러 교육프로그램을 제공하여 학교 교육과 가정, 지역을 연결하는 평생학습의 실천자로서 역할을 담당하고 있다.",
+      "sido": "충청남도",
+      "sigungu": "금산군",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=454"
+      ],
+      "evidence_id": "E5",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=666",
+        "fields": {
+          "name": "태영민속박물관",
+          "sido": "충청남도",
+          "sigungu": "금산군",
+          "address": "충청남도 금산군 남이면 하금평촌길 26",
+          "ownership_type": "사립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "10:00",
+          "weekday_close": "18:00",
+          "holiday_open": "10:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "월+1월1일"
+        },
+        "base_data_date": "2025-11-19",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    }
+  ],
+  "answer": "‘생활의 바다’에서는 거제의 수산음식, 생활도구, 어선, 어구, 어법을 알아볼 수 있습니다. [E1]",
+  "retrieval_status": "ok",
+  "answer_status": "answered",
+  "route": "hybrid",
+  "retry_count": 0,
+  "supervisor_verified": true,
+  "rerank_applied": true,
+  "retriever_errors": [],
+  "warnings": [],
+  "duration_ms": 129421.3,
+  "error_type": "",
+  "hit_at_1": 1,
+  "hit_at_3": 1,
+  "hit_at_5": 1,
+  "recall_at_5": 1.0,
+  "mrr_at_10": 1.0
+}

@@ -1,0 +1,633 @@
+{
+  "evidence_context_version": "grounded-evidence-v2",
+  "evaluation_contexts": [
+    "{\"evidence_context_version\": \"grounded-evidence-v2\", \"evidence_id\": \"E1\", \"metadata_provenance\": {\"base_data_date\": \"2025-12-18\", \"fields\": {\"address\": \"경상북도 문경시 문경읍 새재1길 45\", \"adult_fee\": \"0\", \"adult_fee_status\": \"BASE_FEE_ZERO_CHECK_EXCEPTIONS\", \"amenities_raw\": \"모바일서비스\", \"child_fee\": \"0\", \"closure_rule_raw\": \"1월1일, 설날, 추석\", \"holiday_close\": \"18:00\", \"holiday_open\": \"09:00\", \"name\": \"문경자연생태박물관\", \"ownership_type\": \"공립\", \"sido\": \"경상북도\", \"sigungu\": \"문경시\", \"weekday_close\": \"18:00\", \"weekday_open\": \"09:00\", \"youth_fee\": \"0\"}, \"source_kind\": \"derived_csv_row\", \"source_locator\": \"data/processed/museum_final_738.csv#record=512\", \"trust\": \"derived_dataset_not_human_verified\"}, \"museum_id\": \"M0737\", \"name\": \"문경자연생태박물관\", \"retrieval_branch\": \"document\", \"source_doc_ids\": [\"DOC-B0737-TOUR_API-4086237\"], \"source_documents\": [{\"doc_id\": \"DOC-B0737-TOUR_API-4086237\", \"match_trust\": \"AUTO_MATCH_NOT_HUMAN_VERIFIED\", \"source_locator\": \"data/raw/museum_tourapi_with_overview.csv#row=355\", \"source_record_id\": \"4086237\", \"source_type\": \"TOUR_API\"}], \"source_locator\": \"data/raw/museum_tourapi_with_overview.csv#row=355\", \"source_locators\": [\"data/raw/museum_tourapi_with_overview.csv#row=355\"], \"source_scope\": \"text\", \"source_spans\": [{\"doc_ids\": [\"DOC-B0737-TOUR_API-4086237\"], \"end\": 56, \"start\": 0}, {\"doc_ids\": [\"DOC-B0737-TOUR_API-4086237\"], \"end\": 126, \"start\": 57}, {\"doc_ids\": [\"DOC-B0737-TOUR_API-4086237\"], \"end\": 159, \"start\": 127}, {\"doc_ids\": [\"DOC-B0737-TOUR_API-4086237\"], \"end\": 194, \"start\": 160}, {\"doc_ids\": [\"DOC-B0737-TOUR_API-4086237\"], \"end\": 247, \"start\": 195}, {\"doc_ids\": [\"DOC-B0737-TOUR_API-4086237\"], \"end\": 266, \"start\": 248}], \"source_urls\": [], \"text\": \"문경에 위치한 문경자연생태박물관은 문경새재일원의 생태자원 및 생물자원을 연구하여 전시하는 박물관이다. 문경새재와 연계해서 하루 코스로 다녀오기 좋으며 실내에서 곤충 탐험, 생태 교육을 즐길 수 있어 아이들과 방문하기에도 좋다. 1층 벅스어드벤처는 곤충을 콘셉트로 한 실내 놀이시설이다. 벅스어드벤처 바로 옆에는 영상관과 4D 체험관이 위치해 있다. 2층은 상설 전시공간으로 다양한 곤충 표본과 생물 사진, 모형이 가득해 둘러보는 재미가 있다. (출처 : 경상북도청 공식블로그)\"}",
+    "{\"evidence_context_version\": \"grounded-evidence-v2\", \"evidence_id\": \"E2\", \"metadata_provenance\": {\"base_data_date\": \"2025-12-18\", \"fields\": {\"address\": \"경상북도 문경시 문경읍 새재로 944\", \"adult_fee\": \"0\", \"adult_fee_status\": \"BASE_FEE_ZERO_CHECK_EXCEPTIONS\", \"amenities_raw\": \"모바일서비스\", \"child_fee\": \"0\", \"closure_rule_raw\": \"1월1일, 설날, 추석, 박물관훈증소독 기간\", \"holiday_close\": \"18:00\", \"holiday_open\": \"09:00\", \"name\": \"옛길박물관\", \"ownership_type\": \"공립\", \"sido\": \"경상북도\", \"sigungu\": \"문경시\", \"weekday_close\": \"18:00\", \"weekday_open\": \"09:00\", \"youth_fee\": \"0\"}, \"source_kind\": \"derived_csv_row\", \"source_locator\": \"data/processed/museum_final_738.csv#record=515\", \"trust\": \"derived_dataset_not_human_verified\"}, \"museum_id\": \"M0741\", \"name\": \"옛길박물관\", \"retrieval_branch\": \"document\", \"source_doc_ids\": [\"DOC-B0741-TOUR_API-130314\"], \"source_documents\": [{\"doc_id\": \"DOC-B0741-TOUR_API-130314\", \"match_trust\": \"AUTO_MATCH_NOT_HUMAN_VERIFIED\", \"source_locator\": \"data/raw/museum_tourapi_with_overview.csv#row=358\", \"source_record_id\": \"130314\", \"source_type\": \"TOUR_API\"}], \"source_locator\": \"data/raw/museum_tourapi_with_overview.csv#row=358\", \"source_locators\": [\"data/raw/museum_tourapi_with_overview.csv#row=358\"], \"source_scope\": \"text\", \"source_spans\": [{\"doc_ids\": [\"DOC-B0741-TOUR_API-130314\"], \"end\": 32, \"start\": 0}, {\"doc_ids\": [\"DOC-B0741-TOUR_API-130314\"], \"end\": 212, \"start\": 33}, {\"doc_ids\": [\"DOC-B0741-TOUR_API-130314\"], \"end\": 280, \"start\": 213}, {\"doc_ids\": [\"DOC-B0741-TOUR_API-130314\"], \"end\": 371, \"start\": 281}, {\"doc_ids\": [\"DOC-B0741-TOUR_API-130314\"], \"end\": 408, \"start\": 372}, {\"doc_ids\": [\"DOC-B0741-TOUR_API-130314\"], \"end\": 485, \"start\": 409}, {\"doc_ids\": [\"DOC-B0741-TOUR_API-130314\"], \"end\": 620, \"start\": 486}, {\"doc_ids\": [\"DOC-B0741-TOUR_API-130314\"], \"end\": 830, \"start\": 621}], \"source_urls\": [], \"text\": \"문경은 우리나라 문화지리의 보고(寶庫)이자 길 박물관이다. 조선시대 역사와 문화의 소통로(疏通路)로서 조선팔도 고갯길의 대명사로 불리던 ‘문경새재’(명승 제32호)가 있고, 우리나라 최고(最古, 서기 156년 개척)의 고갯길인 ‘하늘재’, 옛길의 백미(白眉)이자 한국의 차마고도로 일컬을 수 있는 ‘토끼비리’(명승 제31호) 또 영남 대로 상의 허브 역할 담당했던 유곡역이 있다. 이러한 옛길 관련 문화유적은 이름만 남아 있는 것이 아니라 오늘날에도 살아있는 ‘길’로서 많은 사람들이 즐겨 찾고 있다. 옛길 박물관은 이러한 문경의 역사 문화적 정체성을 잘 나타내기 위하여 건립된 박물관으로 당초 향토사 중심의 문경새재 박물관을 리모델링하여 2009년 재개관하였다. 옛길 위에서 펼쳐졌던 각종 문화상을 옛길 박물관에 담아내고 있다. 박물관은 지하 1층 지상 2층 규모로, 3개 전시실과 1, 2층 중앙홀, 수장고, 영상실 등을 갖추고 있고, 야외전시장도 조성되어 있다. 제1전시실(주흘실)에는 문경관문, 영남 대로, 문경의 전투, 경상감사 도임 행차(慶尙監司到任行次), 제2전시실(조곡실)에는 문경의 문화와 의·식·주 생활, 집과 모둠살이, 신앙과 의례, 생업 기술 등에 관한 소장품 및 자료를 전시하고 있다. 제3전시실(조령실)에서는 굽다리접시·토기 항아리 등 신라시대 토기가 주를 이루는 매장유산, 1724년(경종 4) 도화서 화원 이치가 그린 옥소 권섭 영정, 선조가 홍인걸에게 하사하였다고 전해지는 어필 및 홍인걸의 유품인 투구, 김승주 삼공신 회맹록 판본, 주두업 지석 등에 관한 전시가 이루어지며, 야외에는 금학 사지 삼층석탑, 서낭당, 연자방아, 옹기와 장독대 등이 있다.\"}",
+    "{\"evidence_context_version\": \"grounded-evidence-v2\", \"evidence_id\": \"E3\", \"metadata_provenance\": {\"base_data_date\": \"2025-12-18\", \"fields\": {\"address\": \"경상북도 문경시 가은읍 대야로 1683\", \"adult_fee\": \"0\", \"adult_fee_status\": \"BASE_FEE_ZERO_CHECK_EXCEPTIONS\", \"child_fee\": \"0\", \"closure_rule_raw\": \"매주 월요일, 1월1일, 설날, 추석\", \"holiday_close\": \"18:00\", \"holiday_open\": \"09:00\", \"name\": \"운강이강년기념관\", \"ownership_type\": \"공립\", \"sido\": \"경상북도\", \"sigungu\": \"문경시\", \"weekday_close\": \"18:00\", \"weekday_open\": \"09:00\", \"youth_fee\": \"0\"}, \"source_kind\": \"derived_csv_row\", \"source_locator\": \"data/processed/museum_final_738.csv#record=513\", \"trust\": \"derived_dataset_not_human_verified\"}, \"museum_id\": \"M0738\", \"name\": \"운강이강년기념관\", \"retrieval_branch\": \"document\", \"source_doc_ids\": [\"DOC-B0738-TOUR_API-229911\"], \"source_documents\": [{\"doc_id\": \"DOC-B0738-TOUR_API-229911\", \"match_trust\": \"AUTO_MATCH_NOT_HUMAN_VERIFIED\", \"source_locator\": \"data/raw/museum_tourapi_with_overview.csv#row=356\", \"source_record_id\": \"229911\", \"source_type\": \"TOUR_API\"}], \"source_locator\": \"data/raw/museum_tourapi_with_overview.csv#row=356\", \"source_locators\": [\"data/raw/museum_tourapi_with_overview.csv#row=356\"], \"source_scope\": \"text\", \"source_spans\": [{\"doc_ids\": [\"DOC-B0738-TOUR_API-229911\"], \"end\": 71, \"start\": 0}, {\"doc_ids\": [\"DOC-B0738-TOUR_API-229911\"], \"end\": 220, \"start\": 72}, {\"doc_ids\": [\"DOC-B0738-TOUR_API-229911\"], \"end\": 354, \"start\": 221}, {\"doc_ids\": [\"DOC-B0738-TOUR_API-229911\"], \"end\": 469, \"start\": 355}, {\"doc_ids\": [\"DOC-B0738-TOUR_API-229911\"], \"end\": 526, \"start\": 470}, {\"doc_ids\": [\"DOC-B0738-TOUR_API-229911\"], \"end\": 639, \"start\": 527}], \"source_urls\": [], \"text\": \"운강기념관은 대한제국시대 구국의 일념으로 의병을 일으켜 빛나는 승리를 거둔 도창의대장 운강 이강년 선생의 업적을 기리는 곳이다. 운강 이강년은 일제 치하에서 여러 번의 전투를 해서 대승을 거둔 문경 출신의 대표적인 독립운동가로, 1908년 제천 작성 전투에서 일본군의 기습을 받아 결사 항전하다 발목에 적탄을 맞아 옥고를 치르다 1908년 10월 서대문 형무소에서 교수형으로 순국하였다고 한다. 이러한 의병대장 운강이강년선생의 항일투쟁의 숭고한 위업을 재조명하고, 이를 널리 알려 자라나는 후손들에게 역사의 산 교육장으로 활용하여 국민정신을 고취시키고 또한 올바른 민족 가치관을 정립하고자 기념관을 2002년 4월 11일에 개관했다. 운강 선생의 영정을 모시는 사당에서는 매년 9월 봉행제를 지내며 사당 옆 유물전시관에는 선생의 의병 활동 연보와 교지, 간찰을 비롯하여 활·화살·조총·화약통 등의 유품, 훈장 및 포장 등이 전시되어 있다. 또한 재산전투 디오라마, 영상실, 정보검색 코너 등도 마련되어 있어 사실적인 묘사와 정보를 제시한다. 전시관 외벽에는 의병 항쟁 13년 운강과 함께한 의병들의 이름과 출신, 고향 훈장 등의 기록이 있으며 야외정원에는 문경 출신의 독립운동가 84인을 기억하고자 이름과 약력이 적힌 안내판이 설치되어 있다.\"}",
+    "{\"evidence_context_version\": \"grounded-evidence-v2\", \"evidence_id\": \"E4\", \"evidence_role\": \"anchor\", \"museum_id\": \"M0739\", \"name\": \"문경도자기박물관\", \"operator_raw_name\": \"경상북도 문경시청\", \"org_type\": \"지방자치단체\", \"organization\": \"경상북도 문경시\", \"relation\": \"OPERATED_BY\", \"retrieval_branch\": \"graph\", \"sido\": \"경상북도\", \"sigungu\": \"문경시\", \"source_doc_ids\": [\"DOC-B0739-BASE\", \"DOC-B0739-TOUR_API-2609839\"], \"source_locator\": \"data/raw/museum_base_1070.csv#row=740\", \"source_locators\": [\"data/raw/museum_base_1070.csv#row=740\", \"data/raw/museum_tourapi_with_overview.csv#row=357\"], \"source_scope\": \"graph_properties\", \"source_urls\": [], \"text\": \"문경도자기박물관의 Neo4j operator_name(운영기관) 기록: 경상북도 문경시 (CSV 원문: 경상북도 문경시청)\\n[Neo4j 구조화 근거] {\\\"museum_id\\\": \\\"M0739\\\", \\\"name\\\": \\\"문경도자기박물관\\\", \\\"relation\\\": \\\"OPERATED_BY\\\", \\\"organization\\\": \\\"경상북도 문경시\\\", \\\"org_key\\\": \\\"경상북도문경시\\\", \\\"org_type\\\": \\\"지방자치단체\\\", \\\"raw_name\\\": \\\"경상북도 문경시청\\\", \\\"verification_status\\\": \\\"SOURCE_RECORDED\\\"}\", \"verification_status\": \"SOURCE_RECORDED\"}",
+    "{\"anchor_operator_raw_name\": \"경상북도 문경시청\", \"evidence_context_version\": \"grounded-evidence-v2\", \"evidence_id\": \"E5\", \"facility_type\": \"박물관\", \"graph_path\": \"anchor -[:OPERATED_BY]-> Organization <-[:OPERATED_BY]- candidate\", \"museum_id\": \"M0737\", \"name\": \"문경자연생태박물관\", \"operator_raw_name\": \"경상북도 문경시청\", \"org_type\": \"지방자치단체\", \"organization\": \"경상북도 문경시\", \"relation\": \"OPERATED_BY\", \"retrieval_branch\": \"graph\", \"sido\": \"경상북도\", \"sigungu\": \"문경시\", \"source_doc_ids\": [\"DOC-B0737-TOUR_API-4086237\"], \"source_locator\": \"data/raw/museum_tourapi_with_overview.csv#row=355\", \"source_locators\": [\"data/raw/museum_tourapi_with_overview.csv#row=355\"], \"source_scope\": \"graph_properties\", \"source_urls\": [], \"text\": \"{anchor_raw_name: 경상북도 문경시청, candidate_raw_name: 경상북도 문경시청, org_key: 경상북도문경시, organization: 경상북도 문경시, relation: OPERATED_BY, verification_status: SOURCE_RECORDED}\", \"verification_status\": \"SOURCE_RECORDED\"}",
+    "{\"anchor_operator_raw_name\": \"경상북도 문경시청\", \"evidence_context_version\": \"grounded-evidence-v2\", \"evidence_id\": \"E6\", \"facility_type\": \"박물관\", \"graph_path\": \"anchor -[:OPERATED_BY]-> Organization <-[:OPERATED_BY]- candidate\", \"museum_id\": \"M0741\", \"name\": \"옛길박물관\", \"operator_raw_name\": \"경상북도 문경시청\", \"org_type\": \"지방자치단체\", \"organization\": \"경상북도 문경시\", \"relation\": \"OPERATED_BY\", \"retrieval_branch\": \"graph\", \"sido\": \"경상북도\", \"sigungu\": \"문경시\", \"source_doc_ids\": [\"DOC-B0741-TOUR_API-130314\"], \"source_locator\": \"data/raw/museum_tourapi_with_overview.csv#row=358\", \"source_locators\": [\"data/raw/museum_tourapi_with_overview.csv#row=358\"], \"source_scope\": \"graph_properties\", \"source_urls\": [], \"text\": \"{anchor_raw_name: 경상북도 문경시청, candidate_raw_name: 경상북도 문경시청, org_key: 경상북도문경시, organization: 경상북도 문경시, relation: OPERATED_BY, verification_status: SOURCE_RECORDED}\", \"verification_status\": \"SOURCE_RECORDED\"}",
+    "{\"anchor_operator_raw_name\": \"경상북도 문경시청\", \"evidence_context_version\": \"grounded-evidence-v2\", \"evidence_id\": \"E7\", \"facility_type\": \"기념관\", \"graph_path\": \"anchor -[:OPERATED_BY]-> Organization <-[:OPERATED_BY]- candidate\", \"museum_id\": \"M0738\", \"name\": \"운강이강년기념관\", \"operator_raw_name\": \"경상북도 문경시청\", \"org_type\": \"지방자치단체\", \"organization\": \"경상북도 문경시\", \"relation\": \"OPERATED_BY\", \"retrieval_branch\": \"graph\", \"sido\": \"경상북도\", \"sigungu\": \"문경시\", \"source_doc_ids\": [\"DOC-B0738-TOUR_API-229911\"], \"source_locator\": \"data/raw/museum_tourapi_with_overview.csv#row=356\", \"source_locators\": [\"data/raw/museum_tourapi_with_overview.csv#row=356\"], \"source_scope\": \"graph_properties\", \"source_urls\": [], \"text\": \"{anchor_raw_name: 경상북도 문경시청, candidate_raw_name: 경상북도 문경시청, org_key: 경상북도문경시, organization: 경상북도 문경시, relation: OPERATED_BY, verification_status: SOURCE_RECORDED}\", \"verification_status\": \"SOURCE_RECORDED\"}"
+  ],
+  "mode": "supervisor_full",
+  "question_id": "V2-CB03",
+  "evidence": [
+    {
+      "museum_id": "M0737",
+      "name": "문경자연생태박물관",
+      "document": "문경에 위치한 문경자연생태박물관은 문경새재일원의 생태자원 및 생물자원을 연구하여 전시하는 박물관이다. 문경새재와 연계해서 하루 코스로 다녀오기 좋으며 실내에서 곤충 탐험, 생태 교육을 즐길 수 있어 아이들과 방문하기에도 좋다. 1층 벅스어드벤처는 곤충을 콘셉트로 한 실내 놀이시설이다. 벅스어드벤처 바로 옆에는 영상관과 4D 체험관이 위치해 있다. 2층은 상설 전시공간으로 다양한 곤충 표본과 생물 사진, 모형이 가득해 둘러보는 재미가 있다. (출처 : 경상북도청 공식블로그)",
+      "metadata": {
+        "weekday_close": "18:00",
+        "ownership_type": "공립",
+        "name": "문경자연생태박물관",
+        "homepage_url": "https://www.gbmg.go.kr/tour/contents.do?mId=0103010100",
+        "adult_fee": 0.0,
+        "sido": "경상북도",
+        "holiday_close": "18:00",
+        "source_types": "TOUR_API",
+        "holiday_open": "09:00",
+        "fee_notes": "무료",
+        "image_copyright": "Type3",
+        "requires_manual_review": true,
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/41/4086241_image2_1.jpg",
+        "latitude": 36.75251619,
+        "amenities_raw": "모바일서비스",
+        "youth_fee": 0.0,
+        "longitude": 128.0764842,
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "child_fee": 0.0,
+        "closure_rule_raw": "1월1일, 설날, 추석",
+        "sigungu": "문경시",
+        "address": "경상북도 문경시 문경읍 새재1길 45",
+        "weekday_open": "09:00"
+      },
+      "vector_rank": 1,
+      "bm25_rank": 1,
+      "vector_distance": 0.473832368850708,
+      "vector_score": null,
+      "bm25_score": 23.7102363181031,
+      "vector_document": "문경에 위치한 문경자연생태박물관은 문경새재일원의 생태자원 및 생물자원을 연구하여 전시하는 박물관이다. 문경새재와 연계해서 하루 코스로 다녀오기 좋으며 실내에서 곤충 탐험, 생태 교육을 즐길 수 있어 아이들과 방문하기에도 좋다. 1층 벅스어드벤처는 곤충을 콘셉트로 한 실내 놀이시설이다. 벅스어드벤처 바로 옆에는 영상관과 4D 체험관이 위치해 있다. 2층은 상설 전시공간으로 다양한 곤충 표본과 생물 사진, 모형이 가득해 둘러보는 재미가 있다. (출처 : 경상북도청 공식블로그)",
+      "bm25_document": "문경에 위치한 문경자연생태박물관은 문경새재일원의 생태자원 및 생물자원을 연구하여 전시하는 박물관이다. 문경새재와 연계해서 하루 코스로 다녀오기 좋으며 실내에서 곤충 탐험, 생태 교육을 즐길 수 있어 아이들과 방문하기에도 좋다. 1층 벅스어드벤처는 곤충을 콘셉트로 한 실내 놀이시설이다. 벅스어드벤처 바로 옆에는 영상관과 4D 체험관이 위치해 있다. 2층은 상설 전시공간으로 다양한 곤충 표본과 생물 사진, 모형이 가득해 둘러보는 재미가 있다. (출처 : 경상북도청 공식블로그)",
+      "best_span_id": "chroma:M0737",
+      "best_span_text": "문경에 위치한 문경자연생태박물관은 문경새재일원의 생태자원 및 생물자원을 연구하여 전시하는 박물관이다. 문경새재와 연계해서 하루 코스로 다녀오기 좋으며 실내에서 곤충 탐험, 생태 교육을 즐길 수 있어 아이들과 방문하기에도 좋다. 1층 벅스어드벤처는 곤충을 콘셉트로 한 실내 놀이시설이다. 벅스어드벤처 바로 옆에는 영상관과 4D 체험관이 위치해 있다. 2층은 상설 전시공간으로 다양한 곤충 표본과 생물 사진, 모형이 가득해 둘러보는 재미가 있다. (출처 : 경상북도청 공식블로그)",
+      "fusion_score": 0.03278688524590164,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 1,
+      "rerank_score": 0.5962952971458435,
+      "rank": 1,
+      "score": 0.5962952971458435,
+      "score_type": "cross_encoder",
+      "distance": 0.473832368850708,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0737",
+      "source_doc_ids": [
+        "DOC-B0737-TOUR_API-4086237"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0737-TOUR_API-4086237",
+          "source_type": "TOUR_API",
+          "source_record_id": "4086237",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=355",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 56,
+          "doc_ids": [
+            "DOC-B0737-TOUR_API-4086237"
+          ]
+        },
+        {
+          "start": 57,
+          "end": 126,
+          "doc_ids": [
+            "DOC-B0737-TOUR_API-4086237"
+          ]
+        },
+        {
+          "start": 127,
+          "end": 159,
+          "doc_ids": [
+            "DOC-B0737-TOUR_API-4086237"
+          ]
+        },
+        {
+          "start": 160,
+          "end": 194,
+          "doc_ids": [
+            "DOC-B0737-TOUR_API-4086237"
+          ]
+        },
+        {
+          "start": 195,
+          "end": 247,
+          "doc_ids": [
+            "DOC-B0737-TOUR_API-4086237"
+          ]
+        },
+        {
+          "start": 248,
+          "end": 266,
+          "doc_ids": [
+            "DOC-B0737-TOUR_API-4086237"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=355",
+      "text": "문경에 위치한 문경자연생태박물관은 문경새재일원의 생태자원 및 생물자원을 연구하여 전시하는 박물관이다. 문경새재와 연계해서 하루 코스로 다녀오기 좋으며 실내에서 곤충 탐험, 생태 교육을 즐길 수 있어 아이들과 방문하기에도 좋다. 1층 벅스어드벤처는 곤충을 콘셉트로 한 실내 놀이시설이다. 벅스어드벤처 바로 옆에는 영상관과 4D 체험관이 위치해 있다. 2층은 상설 전시공간으로 다양한 곤충 표본과 생물 사진, 모형이 가득해 둘러보는 재미가 있다. (출처 : 경상북도청 공식블로그)",
+      "sido": "경상북도",
+      "sigungu": "문경시",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=355"
+      ],
+      "evidence_id": "E1",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=512",
+        "fields": {
+          "name": "문경자연생태박물관",
+          "sido": "경상북도",
+          "sigungu": "문경시",
+          "address": "경상북도 문경시 문경읍 새재1길 45",
+          "ownership_type": "공립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "09:00",
+          "weekday_close": "18:00",
+          "holiday_open": "09:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "1월1일, 설날, 추석",
+          "amenities_raw": "모바일서비스"
+        },
+        "base_data_date": "2025-12-18",
+        "trust": "derived_dataset_not_human_verified"
+      },
+      "retrieval_branch": "document"
+    },
+    {
+      "museum_id": "M0741",
+      "name": "옛길박물관",
+      "document": "문경은 우리나라 문화지리의 보고(寶庫)이자 길 박물관이다. 조선시대 역사와 문화의 소통로(疏通路)로서 조선팔도 고갯길의 대명사로 불리던 ‘문경새재’(명승 제32호)가 있고, 우리나라 최고(最古, 서기 156년 개척)의 고갯길인 ‘하늘재’, 옛길의 백미(白眉)이자 한국의 차마고도로 일컬을 수 있는 ‘토끼비리’(명승 제31호) 또 영남 대로 상의 허브 역할 담당했던 유곡역이 있다. 이러한 옛길 관련 문화유적은 이름만 남아 있는 것이 아니라 오늘날에도 살아있는 ‘길’로서 많은 사람들이 즐겨 찾고 있다. 옛길 박물관은 이러한 문경의 역사 문화적 정체성을 잘 나타내기 위하여 건립된 박물관으로 당초 향토사 중심의 문경새재 박물관을 리모델링하여 2009년 재개관하였다. 옛길 위에서 펼쳐졌던 각종 문화상을 옛길 박물관에 담아내고 있다. 박물관은 지하 1층 지상 2층 규모로, 3개 전시실과 1, 2층 중앙홀, 수장고, 영상실 등을 갖추고 있고, 야외전시장도 조성되어 있다. 제1전시실(주흘실)에는 문경관문, 영남 대로, 문경의 전투, 경상감사 도임 행차(慶尙監司到任行次), 제2전시실(조곡실)에는 문경의 문화와 의·식·주 생활, 집과 모둠살이, 신앙과 의례, 생업 기술 등에 관한 소장품 및 자료를 전시하고 있다. 제3전시실(조령실)에서는 굽다리접시·토기 항아리 등 신라시대 토기가 주를 이루는 매장유산, 1724년(경종 4) 도화서 화원 이치가 그린 옥소 권섭 영정, 선조가 홍인걸에게 하사하였다고 전해지는 어필 및 홍인걸의 유품인 투구, 김승주 삼공신 회맹록 판본, 주두업 지석 등에 관한 전시가 이루어지며, 야외에는 금학 사지 삼층석탑, 서낭당, 연자방아, 옹기와 장독대 등이 있다.",
+      "metadata": {
+        "amenities_raw": "모바일서비스",
+        "address": "경상북도 문경시 문경읍 새재로 944",
+        "name": "옛길박물관",
+        "closure_rule_raw": "1월1일, 설날, 추석, 박물관훈증소독 기간",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/09/4103109_image2_1.jpg",
+        "fee_notes": "무료",
+        "weekday_close": "18:00",
+        "sigungu": "문경시",
+        "sido": "경상북도",
+        "weekday_open": "09:00",
+        "adult_fee": 0.0,
+        "homepage_url": "https://www.gbmg.go.kr/tour/contents.do?mId=0102010100",
+        "requires_manual_review": true,
+        "holiday_close": "18:00",
+        "image_copyright": "Type1",
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "holiday_open": "09:00",
+        "youth_fee": 0.0,
+        "source_types": "TOUR_API",
+        "ownership_type": "공립",
+        "longitude": 128.076414,
+        "latitude": 36.763134,
+        "child_fee": 0.0
+      },
+      "vector_rank": 2,
+      "bm25_rank": 2,
+      "vector_distance": 0.5838608741760254,
+      "vector_score": null,
+      "bm25_score": 12.883824734344703,
+      "vector_document": "문경은 우리나라 문화지리의 보고(寶庫)이자 길 박물관이다. 조선시대 역사와 문화의 소통로(疏通路)로서 조선팔도 고갯길의 대명사로 불리던 ‘문경새재’(명승 제32호)가 있고, 우리나라 최고(最古, 서기 156년 개척)의 고갯길인 ‘하늘재’, 옛길의 백미(白眉)이자 한국의 차마고도로 일컬을 수 있는 ‘토끼비리’(명승 제31호) 또 영남 대로 상의 허브 역할 담당했던 유곡역이 있다. 이러한 옛길 관련 문화유적은 이름만 남아 있는 것이 아니라 오늘날에도 살아있는 ‘길’로서 많은 사람들이 즐겨 찾고 있다. 옛길 박물관은 이러한 문경의 역사 문화적 정체성을 잘 나타내기 위하여 건립된 박물관으로 당초 향토사 중심의 문경새재 박물관을 리모델링하여 2009년 재개관하였다. 옛길 위에서 펼쳐졌던 각종 문화상을 옛길 박물관에 담아내고 있다. 박물관은 지하 1층 지상 2층 규모로, 3개 전시실과 1, 2층 중앙홀, 수장고, 영상실 등을 갖추고 있고, 야외전시장도 조성되어 있다. 제1전시실(주흘실)에는 문경관문, 영남 대로, 문경의 전투, 경상감사 도임 행차(慶尙監司到任行次), 제2전시실(조곡실)에는 문경의 문화와 의·식·주 생활, 집과 모둠살이, 신앙과 의례, 생업 기술 등에 관한 소장품 및 자료를 전시하고 있다. 제3전시실(조령실)에서는 굽다리접시·토기 항아리 등 신라시대 토기가 주를 이루는 매장유산, 1724년(경종 4) 도화서 화원 이치가 그린 옥소 권섭 영정, 선조가 홍인걸에게 하사하였다고 전해지는 어필 및 홍인걸의 유품인 투구, 김승주 삼공신 회맹록 판본, 주두업 지석 등에 관한 전시가 이루어지며, 야외에는 금학 사지 삼층석탑, 서낭당, 연자방아, 옹기와 장독대 등이 있다.",
+      "bm25_document": "문경은 우리나라 문화지리의 보고(寶庫)이자 길 박물관이다. 조선시대 역사와 문화의 소통로(疏通路)로서 조선팔도 고갯길의 대명사로 불리던 ‘문경새재’(명승 제32호)가 있고, 우리나라 최고(最古, 서기 156년 개척)의 고갯길인 ‘하늘재’, 옛길의 백미(白眉)이자 한국의 차마고도로 일컬을 수 있는 ‘토끼비리’(명승 제31호) 또 영남 대로 상의 허브 역할 담당했던 유곡역이 있다. 이러한 옛길 관련 문화유적은 이름만 남아 있는 것이 아니라 오늘날에도 살아있는 ‘길’로서 많은 사람들이 즐겨 찾고 있다. 옛길 박물관은 이러한 문경의 역사 문화적 정체성을 잘 나타내기 위하여 건립된 박물관으로 당초 향토사 중심의 문경새재 박물관을 리모델링하여 2009년 재개관하였다. 옛길 위에서 펼쳐졌던 각종 문화상을 옛길 박물관에 담아내고 있다. 박물관은 지하 1층 지상 2층 규모로, 3개 전시실과 1, 2층 중앙홀, 수장고, 영상실 등을 갖추고 있고, 야외전시장도 조성되어 있다. 제1전시실(주흘실)에는 문경관문, 영남 대로, 문경의 전투, 경상감사 도임 행차(慶尙監司到任行次), 제2전시실(조곡실)에는 문경의 문화와 의·식·주 생활, 집과 모둠살이, 신앙과 의례, 생업 기술 등에 관한 소장품 및 자료를 전시하고 있다. 제3전시실(조령실)에서는 굽다리접시·토기 항아리 등 신라시대 토기가 주를 이루는 매장유산, 1724년(경종 4) 도화서 화원 이치가 그린 옥소 권섭 영정, 선조가 홍인걸에게 하사하였다고 전해지는 어필 및 홍인걸의 유품인 투구, 김승주 삼공신 회맹록 판본, 주두업 지석 등에 관한 전시가 이루어지며, 야외에는 금학 사지 삼층석탑, 서낭당, 연자방아, 옹기와 장독대 등이 있다.",
+      "best_span_id": "chroma:M0741",
+      "best_span_text": "문경은 우리나라 문화지리의 보고(寶庫)이자 길 박물관이다. 조선시대 역사와 문화의 소통로(疏通路)로서 조선팔도 고갯길의 대명사로 불리던 ‘문경새재’(명승 제32호)가 있고, 우리나라 최고(最古, 서기 156년 개척)의 고갯길인 ‘하늘재’, 옛길의 백미(白眉)이자 한국의 차마고도로 일컬을 수 있는 ‘토끼비리’(명승 제31호) 또 영남 대로 상의 허브 역할 담당했던 유곡역이 있다. 이러한 옛길 관련 문화유적은 이름만 남아 있는 것이 아니라 오늘날에도 살아있는 ‘길’로서 많은 사람들이 즐겨 찾고 있다. 옛길 박물관은 이러한 문경의 역사 문화적 정체성을 잘 나타내기 위하여 건립된 박물관으로 당초 향토사 중심의 문경새재 박물관을 리모델링하여 2009년 재개관하였다. 옛길 위에서 펼쳐졌던 각종 문화상을 옛길 박물관에 담아내고 있다. 박물관은 지하 1층 지상 2층 규모로, 3개 전시실과 1, 2층 중앙홀, 수장고, 영상실 등을 갖추고 있고, 야외전시장도 조성되어 있다. 제1전시실(주흘실)에는 문경관문, 영남 대로, 문경의 전투, 경상감사 도임 행차(慶尙監司到任行次), 제2전시실(조곡실)에는 문경의 문화와 의·식·주 생활, 집과 모둠살이, 신앙과 의례, 생업 기술 등에 관한 소장품 및 자료를 전시하고 있다. 제3전시실(조령실)에서는 굽다리접시·토기 항아리 등 신라시대 토기가 주를 이루는 매장유산, 1724년(경종 4) 도화서 화원 이치가 그린 옥소 권섭 영정, 선조가 홍인걸에게 하사하였다고 전해지는 어필 및 홍인걸의 유품인 투구, 김승주 삼공신 회맹록 판본, 주두업 지석 등에 관한 전시가 이루어지며, 야외에는 금학 사지 삼층석탑, 서낭당, 연자방아, 옹기와 장독대 등이 있다.",
+      "fusion_score": 0.03225806451612903,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 2,
+      "rerank_score": 0.012677746824920177,
+      "rank": 2,
+      "score": 0.012677746824920177,
+      "score_type": "cross_encoder",
+      "distance": 0.5838608741760254,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0741",
+      "source_doc_ids": [
+        "DOC-B0741-TOUR_API-130314"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0741-TOUR_API-130314",
+          "source_type": "TOUR_API",
+          "source_record_id": "130314",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=358",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 32,
+          "doc_ids": [
+            "DOC-B0741-TOUR_API-130314"
+          ]
+        },
+        {
+          "start": 33,
+          "end": 212,
+          "doc_ids": [
+            "DOC-B0741-TOUR_API-130314"
+          ]
+        },
+        {
+          "start": 213,
+          "end": 280,
+          "doc_ids": [
+            "DOC-B0741-TOUR_API-130314"
+          ]
+        },
+        {
+          "start": 281,
+          "end": 371,
+          "doc_ids": [
+            "DOC-B0741-TOUR_API-130314"
+          ]
+        },
+        {
+          "start": 372,
+          "end": 408,
+          "doc_ids": [
+            "DOC-B0741-TOUR_API-130314"
+          ]
+        },
+        {
+          "start": 409,
+          "end": 485,
+          "doc_ids": [
+            "DOC-B0741-TOUR_API-130314"
+          ]
+        },
+        {
+          "start": 486,
+          "end": 620,
+          "doc_ids": [
+            "DOC-B0741-TOUR_API-130314"
+          ]
+        },
+        {
+          "start": 621,
+          "end": 830,
+          "doc_ids": [
+            "DOC-B0741-TOUR_API-130314"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=358",
+      "text": "문경은 우리나라 문화지리의 보고(寶庫)이자 길 박물관이다. 조선시대 역사와 문화의 소통로(疏通路)로서 조선팔도 고갯길의 대명사로 불리던 ‘문경새재’(명승 제32호)가 있고, 우리나라 최고(最古, 서기 156년 개척)의 고갯길인 ‘하늘재’, 옛길의 백미(白眉)이자 한국의 차마고도로 일컬을 수 있는 ‘토끼비리’(명승 제31호) 또 영남 대로 상의 허브 역할 담당했던 유곡역이 있다. 이러한 옛길 관련 문화유적은 이름만 남아 있는 것이 아니라 오늘날에도 살아있는 ‘길’로서 많은 사람들이 즐겨 찾고 있다. 옛길 박물관은 이러한 문경의 역사 문화적 정체성을 잘 나타내기 위하여 건립된 박물관으로 당초 향토사 중심의 문경새재 박물관을 리모델링하여 2009년 재개관하였다. 옛길 위에서 펼쳐졌던 각종 문화상을 옛길 박물관에 담아내고 있다. 박물관은 지하 1층 지상 2층 규모로, 3개 전시실과 1, 2층 중앙홀, 수장고, 영상실 등을 갖추고 있고, 야외전시장도 조성되어 있다. 제1전시실(주흘실)에는 문경관문, 영남 대로, 문경의 전투, 경상감사 도임 행차(慶尙監司到任行次), 제2전시실(조곡실)에는 문경의 문화와 의·식·주 생활, 집과 모둠살이, 신앙과 의례, 생업 기술 등에 관한 소장품 및 자료를 전시하고 있다. 제3전시실(조령실)에서는 굽다리접시·토기 항아리 등 신라시대 토기가 주를 이루는 매장유산, 1724년(경종 4) 도화서 화원 이치가 그린 옥소 권섭 영정, 선조가 홍인걸에게 하사하였다고 전해지는 어필 및 홍인걸의 유품인 투구, 김승주 삼공신 회맹록 판본, 주두업 지석 등에 관한 전시가 이루어지며, 야외에는 금학 사지 삼층석탑, 서낭당, 연자방아, 옹기와 장독대 등이 있다.",
+      "sido": "경상북도",
+      "sigungu": "문경시",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=358"
+      ],
+      "evidence_id": "E2",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=515",
+        "fields": {
+          "name": "옛길박물관",
+          "sido": "경상북도",
+          "sigungu": "문경시",
+          "address": "경상북도 문경시 문경읍 새재로 944",
+          "ownership_type": "공립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "09:00",
+          "weekday_close": "18:00",
+          "holiday_open": "09:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "1월1일, 설날, 추석, 박물관훈증소독 기간",
+          "amenities_raw": "모바일서비스"
+        },
+        "base_data_date": "2025-12-18",
+        "trust": "derived_dataset_not_human_verified"
+      },
+      "retrieval_branch": "document"
+    },
+    {
+      "museum_id": "M0738",
+      "name": "운강이강년기념관",
+      "document": "운강기념관은 대한제국시대 구국의 일념으로 의병을 일으켜 빛나는 승리를 거둔 도창의대장 운강 이강년 선생의 업적을 기리는 곳이다. 운강 이강년은 일제 치하에서 여러 번의 전투를 해서 대승을 거둔 문경 출신의 대표적인 독립운동가로, 1908년 제천 작성 전투에서 일본군의 기습을 받아 결사 항전하다 발목에 적탄을 맞아 옥고를 치르다 1908년 10월 서대문 형무소에서 교수형으로 순국하였다고 한다. 이러한 의병대장 운강이강년선생의 항일투쟁의 숭고한 위업을 재조명하고, 이를 널리 알려 자라나는 후손들에게 역사의 산 교육장으로 활용하여 국민정신을 고취시키고 또한 올바른 민족 가치관을 정립하고자 기념관을 2002년 4월 11일에 개관했다. 운강 선생의 영정을 모시는 사당에서는 매년 9월 봉행제를 지내며 사당 옆 유물전시관에는 선생의 의병 활동 연보와 교지, 간찰을 비롯하여 활·화살·조총·화약통 등의 유품, 훈장 및 포장 등이 전시되어 있다. 또한 재산전투 디오라마, 영상실, 정보검색 코너 등도 마련되어 있어 사실적인 묘사와 정보를 제시한다. 전시관 외벽에는 의병 항쟁 13년 운강과 함께한 의병들의 이름과 출신, 고향 훈장 등의 기록이 있으며 야외정원에는 문경 출신의 독립운동가 84인을 기억하고자 이름과 약력이 적힌 안내판이 설치되어 있다.",
+      "metadata": {
+        "source_types": "TOUR_API",
+        "address": "경상북도 문경시 가은읍 대야로 1683",
+        "homepage_url": "http://ungang.kr",
+        "weekday_open": "09:00",
+        "sigungu": "문경시",
+        "fee_notes": "무료",
+        "sido": "경상북도",
+        "requires_manual_review": true,
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "ownership_type": "공립",
+        "child_fee": 0.0,
+        "weekday_close": "18:00",
+        "longitude": 127.9955282,
+        "adult_fee": 0.0,
+        "image_copyright": "Type1",
+        "youth_fee": 0.0,
+        "holiday_open": "09:00",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/82/3584882_image2_1.jpg",
+        "name": "운강이강년기념관",
+        "latitude": 36.67228175,
+        "closure_rule_raw": "매주 월요일, 1월1일, 설날, 추석",
+        "holiday_close": "18:00"
+      },
+      "vector_rank": 3,
+      "bm25_rank": 3,
+      "vector_distance": 0.7069746255874634,
+      "vector_score": null,
+      "bm25_score": 8.734058803126484,
+      "vector_document": "운강기념관은 대한제국시대 구국의 일념으로 의병을 일으켜 빛나는 승리를 거둔 도창의대장 운강 이강년 선생의 업적을 기리는 곳이다. 운강 이강년은 일제 치하에서 여러 번의 전투를 해서 대승을 거둔 문경 출신의 대표적인 독립운동가로, 1908년 제천 작성 전투에서 일본군의 기습을 받아 결사 항전하다 발목에 적탄을 맞아 옥고를 치르다 1908년 10월 서대문 형무소에서 교수형으로 순국하였다고 한다. 이러한 의병대장 운강이강년선생의 항일투쟁의 숭고한 위업을 재조명하고, 이를 널리 알려 자라나는 후손들에게 역사의 산 교육장으로 활용하여 국민정신을 고취시키고 또한 올바른 민족 가치관을 정립하고자 기념관을 2002년 4월 11일에 개관했다. 운강 선생의 영정을 모시는 사당에서는 매년 9월 봉행제를 지내며 사당 옆 유물전시관에는 선생의 의병 활동 연보와 교지, 간찰을 비롯하여 활·화살·조총·화약통 등의 유품, 훈장 및 포장 등이 전시되어 있다. 또한 재산전투 디오라마, 영상실, 정보검색 코너 등도 마련되어 있어 사실적인 묘사와 정보를 제시한다. 전시관 외벽에는 의병 항쟁 13년 운강과 함께한 의병들의 이름과 출신, 고향 훈장 등의 기록이 있으며 야외정원에는 문경 출신의 독립운동가 84인을 기억하고자 이름과 약력이 적힌 안내판이 설치되어 있다.",
+      "bm25_document": "운강기념관은 대한제국시대 구국의 일념으로 의병을 일으켜 빛나는 승리를 거둔 도창의대장 운강 이강년 선생의 업적을 기리는 곳이다. 운강 이강년은 일제 치하에서 여러 번의 전투를 해서 대승을 거둔 문경 출신의 대표적인 독립운동가로, 1908년 제천 작성 전투에서 일본군의 기습을 받아 결사 항전하다 발목에 적탄을 맞아 옥고를 치르다 1908년 10월 서대문 형무소에서 교수형으로 순국하였다고 한다. 이러한 의병대장 운강이강년선생의 항일투쟁의 숭고한 위업을 재조명하고, 이를 널리 알려 자라나는 후손들에게 역사의 산 교육장으로 활용하여 국민정신을 고취시키고 또한 올바른 민족 가치관을 정립하고자 기념관을 2002년 4월 11일에 개관했다. 운강 선생의 영정을 모시는 사당에서는 매년 9월 봉행제를 지내며 사당 옆 유물전시관에는 선생의 의병 활동 연보와 교지, 간찰을 비롯하여 활·화살·조총·화약통 등의 유품, 훈장 및 포장 등이 전시되어 있다. 또한 재산전투 디오라마, 영상실, 정보검색 코너 등도 마련되어 있어 사실적인 묘사와 정보를 제시한다. 전시관 외벽에는 의병 항쟁 13년 운강과 함께한 의병들의 이름과 출신, 고향 훈장 등의 기록이 있으며 야외정원에는 문경 출신의 독립운동가 84인을 기억하고자 이름과 약력이 적힌 안내판이 설치되어 있다.",
+      "best_span_id": "chroma:M0738",
+      "best_span_text": "운강기념관은 대한제국시대 구국의 일념으로 의병을 일으켜 빛나는 승리를 거둔 도창의대장 운강 이강년 선생의 업적을 기리는 곳이다. 운강 이강년은 일제 치하에서 여러 번의 전투를 해서 대승을 거둔 문경 출신의 대표적인 독립운동가로, 1908년 제천 작성 전투에서 일본군의 기습을 받아 결사 항전하다 발목에 적탄을 맞아 옥고를 치르다 1908년 10월 서대문 형무소에서 교수형으로 순국하였다고 한다. 이러한 의병대장 운강이강년선생의 항일투쟁의 숭고한 위업을 재조명하고, 이를 널리 알려 자라나는 후손들에게 역사의 산 교육장으로 활용하여 국민정신을 고취시키고 또한 올바른 민족 가치관을 정립하고자 기념관을 2002년 4월 11일에 개관했다. 운강 선생의 영정을 모시는 사당에서는 매년 9월 봉행제를 지내며 사당 옆 유물전시관에는 선생의 의병 활동 연보와 교지, 간찰을 비롯하여 활·화살·조총·화약통 등의 유품, 훈장 및 포장 등이 전시되어 있다. 또한 재산전투 디오라마, 영상실, 정보검색 코너 등도 마련되어 있어 사실적인 묘사와 정보를 제시한다. 전시관 외벽에는 의병 항쟁 13년 운강과 함께한 의병들의 이름과 출신, 고향 훈장 등의 기록이 있으며 야외정원에는 문경 출신의 독립운동가 84인을 기억하고자 이름과 약력이 적힌 안내판이 설치되어 있다.",
+      "fusion_score": 0.031746031746031744,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 3,
+      "rerank_score": 0.0002531594946049154,
+      "rank": 3,
+      "score": 0.0002531594946049154,
+      "score_type": "cross_encoder",
+      "distance": 0.7069746255874634,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0738",
+      "source_doc_ids": [
+        "DOC-B0738-TOUR_API-229911"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0738-TOUR_API-229911",
+          "source_type": "TOUR_API",
+          "source_record_id": "229911",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=356",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 71,
+          "doc_ids": [
+            "DOC-B0738-TOUR_API-229911"
+          ]
+        },
+        {
+          "start": 72,
+          "end": 220,
+          "doc_ids": [
+            "DOC-B0738-TOUR_API-229911"
+          ]
+        },
+        {
+          "start": 221,
+          "end": 354,
+          "doc_ids": [
+            "DOC-B0738-TOUR_API-229911"
+          ]
+        },
+        {
+          "start": 355,
+          "end": 469,
+          "doc_ids": [
+            "DOC-B0738-TOUR_API-229911"
+          ]
+        },
+        {
+          "start": 470,
+          "end": 526,
+          "doc_ids": [
+            "DOC-B0738-TOUR_API-229911"
+          ]
+        },
+        {
+          "start": 527,
+          "end": 639,
+          "doc_ids": [
+            "DOC-B0738-TOUR_API-229911"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=356",
+      "text": "운강기념관은 대한제국시대 구국의 일념으로 의병을 일으켜 빛나는 승리를 거둔 도창의대장 운강 이강년 선생의 업적을 기리는 곳이다. 운강 이강년은 일제 치하에서 여러 번의 전투를 해서 대승을 거둔 문경 출신의 대표적인 독립운동가로, 1908년 제천 작성 전투에서 일본군의 기습을 받아 결사 항전하다 발목에 적탄을 맞아 옥고를 치르다 1908년 10월 서대문 형무소에서 교수형으로 순국하였다고 한다. 이러한 의병대장 운강이강년선생의 항일투쟁의 숭고한 위업을 재조명하고, 이를 널리 알려 자라나는 후손들에게 역사의 산 교육장으로 활용하여 국민정신을 고취시키고 또한 올바른 민족 가치관을 정립하고자 기념관을 2002년 4월 11일에 개관했다. 운강 선생의 영정을 모시는 사당에서는 매년 9월 봉행제를 지내며 사당 옆 유물전시관에는 선생의 의병 활동 연보와 교지, 간찰을 비롯하여 활·화살·조총·화약통 등의 유품, 훈장 및 포장 등이 전시되어 있다. 또한 재산전투 디오라마, 영상실, 정보검색 코너 등도 마련되어 있어 사실적인 묘사와 정보를 제시한다. 전시관 외벽에는 의병 항쟁 13년 운강과 함께한 의병들의 이름과 출신, 고향 훈장 등의 기록이 있으며 야외정원에는 문경 출신의 독립운동가 84인을 기억하고자 이름과 약력이 적힌 안내판이 설치되어 있다.",
+      "sido": "경상북도",
+      "sigungu": "문경시",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=356"
+      ],
+      "evidence_id": "E3",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=513",
+        "fields": {
+          "name": "운강이강년기념관",
+          "sido": "경상북도",
+          "sigungu": "문경시",
+          "address": "경상북도 문경시 가은읍 대야로 1683",
+          "ownership_type": "공립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "09:00",
+          "weekday_close": "18:00",
+          "holiday_open": "09:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "매주 월요일, 1월1일, 설날, 추석"
+        },
+        "base_data_date": "2025-12-18",
+        "trust": "derived_dataset_not_human_verified"
+      },
+      "retrieval_branch": "document"
+    },
+    {
+      "museum_id": "M0739",
+      "name": "문경도자기박물관",
+      "text": "문경도자기박물관의 Neo4j operator_name(운영기관) 기록: 경상북도 문경시 (CSV 원문: 경상북도 문경시청)\n[Neo4j 구조화 근거] {\"museum_id\": \"M0739\", \"name\": \"문경도자기박물관\", \"relation\": \"OPERATED_BY\", \"organization\": \"경상북도 문경시\", \"org_key\": \"경상북도문경시\", \"org_type\": \"지방자치단체\", \"raw_name\": \"경상북도 문경시청\", \"verification_status\": \"SOURCE_RECORDED\"}",
+      "span_id": "",
+      "source_doc_ids": [
+        "DOC-B0739-BASE",
+        "DOC-B0739-TOUR_API-2609839"
+      ],
+      "source_urls": [],
+      "source_url": "",
+      "source_locators": [
+        "data/raw/museum_base_1070.csv#row=740",
+        "data/raw/museum_tourapi_with_overview.csv#row=357"
+      ],
+      "source_locator": "data/raw/museum_base_1070.csv#row=740",
+      "sido": "경상북도",
+      "sigungu": "문경시",
+      "retriever": "graph",
+      "evidence_role": "anchor",
+      "source_scope": "graph_properties",
+      "relation": "OPERATED_BY",
+      "organization": "경상북도 문경시",
+      "org_type": "지방자치단체",
+      "operator_raw_name": "경상북도 문경시청",
+      "verification_status": "SOURCE_RECORDED",
+      "metadata": {},
+      "chunk_id": "",
+      "retrievers": [
+        "graph"
+      ],
+      "evidence_id": "E4",
+      "retrieval_branch": "graph",
+      "rank": 4
+    },
+    {
+      "museum_id": "M0737",
+      "name": "문경자연생태박물관",
+      "text": "{anchor_raw_name: 경상북도 문경시청, candidate_raw_name: 경상북도 문경시청, org_key: 경상북도문경시, organization: 경상북도 문경시, relation: OPERATED_BY, verification_status: SOURCE_RECORDED}",
+      "span_id": "",
+      "source_doc_ids": [
+        "DOC-B0737-TOUR_API-4086237"
+      ],
+      "source_urls": [],
+      "source_url": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=355"
+      ],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=355",
+      "sido": "경상북도",
+      "sigungu": "문경시",
+      "retriever": "graph",
+      "graph_path": "anchor -[:OPERATED_BY]-> Organization <-[:OPERATED_BY]- candidate",
+      "organization": "경상북도 문경시",
+      "org_type": "지방자치단체",
+      "operator_raw_name": "경상북도 문경시청",
+      "anchor_operator_raw_name": "경상북도 문경시청",
+      "relation": "OPERATED_BY",
+      "verification_status": "SOURCE_RECORDED",
+      "facility_type": "박물관",
+      "source_scope": "graph_properties",
+      "metadata": {},
+      "chunk_id": "",
+      "retrievers": [
+        "graph"
+      ],
+      "evidence_id": "E5",
+      "retrieval_branch": "graph",
+      "rank": 5
+    },
+    {
+      "museum_id": "M0741",
+      "name": "옛길박물관",
+      "text": "{anchor_raw_name: 경상북도 문경시청, candidate_raw_name: 경상북도 문경시청, org_key: 경상북도문경시, organization: 경상북도 문경시, relation: OPERATED_BY, verification_status: SOURCE_RECORDED}",
+      "span_id": "",
+      "source_doc_ids": [
+        "DOC-B0741-TOUR_API-130314"
+      ],
+      "source_urls": [],
+      "source_url": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=358"
+      ],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=358",
+      "sido": "경상북도",
+      "sigungu": "문경시",
+      "retriever": "graph",
+      "graph_path": "anchor -[:OPERATED_BY]-> Organization <-[:OPERATED_BY]- candidate",
+      "organization": "경상북도 문경시",
+      "org_type": "지방자치단체",
+      "operator_raw_name": "경상북도 문경시청",
+      "anchor_operator_raw_name": "경상북도 문경시청",
+      "relation": "OPERATED_BY",
+      "verification_status": "SOURCE_RECORDED",
+      "facility_type": "박물관",
+      "source_scope": "graph_properties",
+      "metadata": {},
+      "chunk_id": "",
+      "retrievers": [
+        "graph"
+      ],
+      "evidence_id": "E6",
+      "retrieval_branch": "graph",
+      "rank": 6
+    },
+    {
+      "museum_id": "M0738",
+      "name": "운강이강년기념관",
+      "text": "{anchor_raw_name: 경상북도 문경시청, candidate_raw_name: 경상북도 문경시청, org_key: 경상북도문경시, organization: 경상북도 문경시, relation: OPERATED_BY, verification_status: SOURCE_RECORDED}",
+      "span_id": "",
+      "source_doc_ids": [
+        "DOC-B0738-TOUR_API-229911"
+      ],
+      "source_urls": [],
+      "source_url": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=356"
+      ],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=356",
+      "sido": "경상북도",
+      "sigungu": "문경시",
+      "retriever": "graph",
+      "graph_path": "anchor -[:OPERATED_BY]-> Organization <-[:OPERATED_BY]- candidate",
+      "organization": "경상북도 문경시",
+      "org_type": "지방자치단체",
+      "operator_raw_name": "경상북도 문경시청",
+      "anchor_operator_raw_name": "경상북도 문경시청",
+      "relation": "OPERATED_BY",
+      "verification_status": "SOURCE_RECORDED",
+      "facility_type": "기념관",
+      "source_scope": "graph_properties",
+      "metadata": {},
+      "chunk_id": "",
+      "retrievers": [
+        "graph"
+      ],
+      "evidence_id": "E7",
+      "retrieval_branch": "graph",
+      "rank": 7
+    }
+  ],
+  "answer": "문경자연생태박물관입니다. 문경도자기박물관과 이곳 모두 운영기관 기록에 경상북도 문경시청(경상북도 문경시)으로 나와 있습니다. [E4][E5] 문경새재 일원의 생태·생물자원을 연구하고 전시하는 박물관으로 소개되어 있어 자연 생태를 볼 수 있는 곳으로 추천할 수 있습니다. [E1]",
+  "retrieval_status": "ok",
+  "answer_status": "answered",
+  "route": "combined",
+  "retry_count": 0,
+  "supervisor_verified": true,
+  "rerank_applied": true,
+  "retriever_errors": [],
+  "warnings": [
+    "Only 3 candidates available; no artificial padding"
+  ],
+  "duration_ms": 80109.33,
+  "error_type": "",
+  "hit_at_1": 1,
+  "hit_at_3": 1,
+  "hit_at_5": 1,
+  "recall_at_5": 1.0,
+  "mrr_at_10": 1.0
+}

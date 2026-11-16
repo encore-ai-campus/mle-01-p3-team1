@@ -1,0 +1,730 @@
+{
+  "mode": "supervisor_full",
+  "question_id": "Q252",
+  "evidence": [
+    {
+      "museum_id": "M0909",
+      "name": "충북대학교박물관",
+      "document": "1970년 9월 27일 개관한 박물관은 중원문화의 실체규명을 위한 학술조사와 연구, 국제학술교류 및 평생교육을 중점적으로 실시하여 대학박물관으로서의 기능과 역할에 충실하고 있다. 소장유물은 보물 제716호 『김길통좌리공신교서(金吉通佐理功臣敎書)』와 중요민속문화재 5건 286점 등 동산문화재7,500여점 및 구석기시대 유물 30,000여점을 소장하고 있다. 특히 구석기시대의 다양한 유물과 조선시대 복식유물은 우리 박물관의 상징이라 할 수 있다.",
+      "metadata": {
+        "adult_fee": 0.0,
+        "sido": "충청북도",
+        "homepage_url": "https://museum.chungbuk.ac.kr",
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "holiday_open": "09:00",
+        "weekday_open": "09:00",
+        "source_types": "BASE",
+        "youth_fee": 0.0,
+        "requires_manual_review": true,
+        "weekday_close": "17:30",
+        "address": "충청북도 청주시 서원구 충대로 1(개신동)",
+        "ownership_type": "대학",
+        "holiday_close": "17:30",
+        "child_fee": 0.0,
+        "name": "충북대학교박물관",
+        "sigungu": "청주시",
+        "amenities_raw": "주차장",
+        "longitude": 127.4547916,
+        "closure_rule_raw": "일요일+공휴일 및 학교에서 정하는 휴관일토요일은 예약자에 한해 관람가능",
+        "latitude": 36.63003782,
+        "transport_notes": "청주 고속(시외)버스터미널 승차(20-1, 50-1, 105, 502, 511, 710, 747, 823, 832등) 후 충북대학교 하차청주역 승차(514, 717, 911-1 등) 후 충북대학교 하차 / 오송역 승차(500, 502, 511, 747 등) 후 충북대학교 하차"
+      },
+      "vector_rank": 2,
+      "bm25_rank": 2,
+      "vector_distance": 0.5317797660827637,
+      "vector_score": null,
+      "bm25_score": 13.923056337714854,
+      "vector_document": "1970년 9월 27일 개관한 박물관은 중원문화의 실체규명을 위한 학술조사와 연구, 국제학술교류 및 평생교육을 중점적으로 실시하여 대학박물관으로서의 기능과 역할에 충실하고 있다. 소장유물은 보물 제716호 『김길통좌리공신교서(金吉通佐理功臣敎書)』와 중요민속문화재 5건 286점 등 동산문화재7,500여점 및 구석기시대 유물 30,000여점을 소장하고 있다. 특히 구석기시대의 다양한 유물과 조선시대 복식유물은 우리 박물관의 상징이라 할 수 있다.",
+      "bm25_document": "1970년 9월 27일 개관한 박물관은 중원문화의 실체규명을 위한 학술조사와 연구, 국제학술교류 및 평생교육을 중점적으로 실시하여 대학박물관으로서의 기능과 역할에 충실하고 있다. 소장유물은 보물 제716호 『김길통좌리공신교서(金吉通佐理功臣敎書)』와 중요민속문화재 5건 286점 등 동산문화재7,500여점 및 구석기시대 유물 30,000여점을 소장하고 있다. 특히 구석기시대의 다양한 유물과 조선시대 복식유물은 우리 박물관의 상징이라 할 수 있다.",
+      "best_span_id": "chroma:M0909",
+      "best_span_text": "1970년 9월 27일 개관한 박물관은 중원문화의 실체규명을 위한 학술조사와 연구, 국제학술교류 및 평생교육을 중점적으로 실시하여 대학박물관으로서의 기능과 역할에 충실하고 있다. 소장유물은 보물 제716호 『김길통좌리공신교서(金吉通佐理功臣敎書)』와 중요민속문화재 5건 286점 등 동산문화재7,500여점 및 구석기시대 유물 30,000여점을 소장하고 있다. 특히 구석기시대의 다양한 유물과 조선시대 복식유물은 우리 박물관의 상징이라 할 수 있다.",
+      "fusion_score": 0.03225806451612903,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 1,
+      "rerank_score": 0.00802609696984291,
+      "rank": 1,
+      "score": 0.03225806451612903,
+      "score_type": "rrf_low_confidence_rerank",
+      "distance": 0.5317797660827637,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0909",
+      "source_doc_ids": [
+        "DOC-B0909-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0909-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0909",
+          "source_locator": "data/raw/museum_base_1070.csv#row=910",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 99,
+          "doc_ids": [
+            "DOC-B0909-BASE"
+          ]
+        },
+        {
+          "start": 100,
+          "end": 199,
+          "doc_ids": [
+            "DOC-B0909-BASE"
+          ]
+        },
+        {
+          "start": 200,
+          "end": 249,
+          "doc_ids": [
+            "DOC-B0909-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_base_1070.csv#row=910",
+      "text": "1970년 9월 27일 개관한 박물관은 중원문화의 실체규명을 위한 학술조사와 연구, 국제학술교류 및 평생교육을 중점적으로 실시하여 대학박물관으로서의 기능과 역할에 충실하고 있다. 소장유물은 보물 제716호 『김길통좌리공신교서(金吉通佐理功臣敎書)』와 중요민속문화재 5건 286점 등 동산문화재7,500여점 및 구석기시대 유물 30,000여점을 소장하고 있다. 특히 구석기시대의 다양한 유물과 조선시대 복식유물은 우리 박물관의 상징이라 할 수 있다.",
+      "sido": "충청북도",
+      "sigungu": "청주시",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_base_1070.csv#row=910"
+      ],
+      "evidence_id": "E1",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=625",
+        "fields": {
+          "name": "충북대학교박물관",
+          "sido": "충청북도",
+          "sigungu": "청주시",
+          "address": "충청북도 청주시 서원구 충대로 1(개신동)",
+          "ownership_type": "대학",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "09:00",
+          "weekday_close": "17:30",
+          "holiday_open": "09:00",
+          "holiday_close": "17:30",
+          "closure_rule_raw": "일요일+공휴일 및 학교에서 정하는 휴관일토요일은 예약자에 한해 관람가능",
+          "amenities_raw": "주차장"
+        },
+        "base_data_date": "2025-11-26",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0436",
+      "name": "보령문화의전당",
+      "document": "보령문화의전당은 보령(대천) 시내에서 과거에 장항선 철도 대천역이 있던 자리에 건설된 문화공간이다. 이곳은 전시실과 문화공간으로 구성되어 있다. 장암서예관은 보령 출신의 서예가인 장암 이곤순 선생의 작품 2,366점을 기증받아 세운 서예관이다. 보령박물관은 보령지역 최초의 지방사 박물관인 보령박물관은 선사시대부터 근현대에 이르기까지 보령의 향토사를 고스란히 담고 있는 박물관이다. 보령문학관은 보령 지역 출신 문학인 이문희, 임영조, 최상규, 김성동, 권영민의 삶과 문학세계를 담은 물품이 전시되고 있다. 갯벌생태과학관은 보령을 대표하는 해안 지형인 갯벌의 종류와 생성과정, 갯벌에 터를 잡고 사는 갯벌 친구들, 보령 갯벌과 이용방안, 상처받은 갯벌의 보존 노력 등의 주제가 전시되고 있다. 그 외 기획 전시나 공연도 열릴 수 있으며 기획전시실, 대강당, 소강당, 교양강좌실, 야외공연장은 대관이 가능하다. 보령문화의전당은 국도 36호선, 지방도 610호선에서 중앙로, 번영로 등을 통해 접근할 수 있으며, 고속도로는 서해안고속도로 대천 IC가 가깝다. 대중교통은 장항선 철도 대천역, 보령종합터미널을 이용할 수 있다. 주변에는 보령중앙시장, 대천항, 대천해수욕장, 성주산 등의 관광지가 있다. 보령지역 최초의 지방사 박물관인 보령박물관은 선사시대부터 근·현대시대에 이르기까지 보령의 향토사를 고스란히 담고 있는 박물관이다. 각각의 시대마다 주거문화, 고분문화, 종교문화, 도자문화, 선비문화 등 주제가 있는 전시를 기획하여 관람객들로 하여금 보령지역이 품고 있는 역사를 한눈에 알 수 있는 기회를 제공한다. 대표적인 전시유물로는 충청남도 유형문화재 158호 금강암 비편(碑片)과 충청남도 시도민속문화재 32호 호서 옥마산 김부대왕지기 등 지정문화재가 있으며, 전시된 대부분의 유물이 보령지역에서 출토된 국가귀속유물이다. 그리고 60년대 보령거리 재현은 보령박물관의 색다른 볼거리이다.",
+      "metadata": {
+        "ownership_type": "공립",
+        "weekday_close": "18:00",
+        "sido": "충청남도",
+        "transport_notes": "대천역(버스) → 구기차역방면 자가용 5분내외 거리",
+        "holiday_close": "18:00",
+        "name": "보령문화의전당",
+        "sigungu": "보령시",
+        "requires_manual_review": true,
+        "fee_notes": "무료",
+        "latitude": 36.35071294,
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/07/3022507_image2_1.jpg",
+        "weekday_open": "09:00",
+        "youth_fee": 0.0,
+        "longitude": 126.5905262,
+        "holiday_open": "09:00",
+        "amenities_raw": "작은도서관+대강당+소강당",
+        "source_types": "BASE|TOUR_API",
+        "address": "충청남도 보령시 대흥로 63",
+        "closure_rule_raw": "월",
+        "image_copyright": "Type3",
+        "child_fee": 0.0,
+        "adult_fee": 0.0,
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "homepage_url": "http://culture.brcn.go.kr"
+      },
+      "vector_rank": 7,
+      "bm25_rank": 1,
+      "vector_distance": 0.5747789740562439,
+      "vector_score": null,
+      "bm25_score": 21.584468987458255,
+      "vector_document": "보령문화의전당은 보령(대천) 시내에서 과거에 장항선 철도 대천역이 있던 자리에 건설된 문화공간이다. 이곳은 전시실과 문화공간으로 구성되어 있다. 장암서예관은 보령 출신의 서예가인 장암 이곤순 선생의 작품 2,366점을 기증받아 세운 서예관이다. 보령박물관은 보령지역 최초의 지방사 박물관인 보령박물관은 선사시대부터 근현대에 이르기까지 보령의 향토사를 고스란히 담고 있는 박물관이다. 보령문학관은 보령 지역 출신 문학인 이문희, 임영조, 최상규, 김성동, 권영민의 삶과 문학세계를 담은 물품이 전시되고 있다. 갯벌생태과학관은 보령을 대표하는 해안 지형인 갯벌의 종류와 생성과정, 갯벌에 터를 잡고 사는 갯벌 친구들, 보령 갯벌과 이용방안, 상처받은 갯벌의 보존 노력 등의 주제가 전시되고 있다. 그 외 기획 전시나 공연도 열릴 수 있으며 기획전시실, 대강당, 소강당, 교양강좌실, 야외공연장은 대관이 가능하다. 보령문화의전당은 국도 36호선, 지방도 610호선에서 중앙로, 번영로 등을 통해 접근할 수 있으며, 고속도로는 서해안고속도로 대천 IC가 가깝다. 대중교통은 장항선 철도 대천역, 보령종합터미널을 이용할 수 있다. 주변에는 보령중앙시장, 대천항, 대천해수욕장, 성주산 등의 관광지가 있다. 보령지역 최초의 지방사 박물관인 보령박물관은 선사시대부터 근·현대시대에 이르기까지 보령의 향토사를 고스란히 담고 있는 박물관이다. 각각의 시대마다 주거문화, 고분문화, 종교문화, 도자문화, 선비문화 등 주제가 있는 전시를 기획하여 관람객들로 하여금 보령지역이 품고 있는 역사를 한눈에 알 수 있는 기회를 제공한다. 대표적인 전시유물로는 충청남도 유형문화재 158호 금강암 비편(碑片)과 충청남도 시도민속문화재 32호 호서 옥마산 김부대왕지기 등 지정문화재가 있으며, 전시된 대부분의 유물이 보령지역에서 출토된 국가귀속유물이다. 그리고 60년대 보령거리 재현은 보령박물관의 색다른 볼거리이다.",
+      "bm25_document": "보령문화의전당은 보령(대천) 시내에서 과거에 장항선 철도 대천역이 있던 자리에 건설된 문화공간이다. 이곳은 전시실과 문화공간으로 구성되어 있다. 장암서예관은 보령 출신의 서예가인 장암 이곤순 선생의 작품 2,366점을 기증받아 세운 서예관이다. 보령박물관은 보령지역 최초의 지방사 박물관인 보령박물관은 선사시대부터 근현대에 이르기까지 보령의 향토사를 고스란히 담고 있는 박물관이다. 보령문학관은 보령 지역 출신 문학인 이문희, 임영조, 최상규, 김성동, 권영민의 삶과 문학세계를 담은 물품이 전시되고 있다. 갯벌생태과학관은 보령을 대표하는 해안 지형인 갯벌의 종류와 생성과정, 갯벌에 터를 잡고 사는 갯벌 친구들, 보령 갯벌과 이용방안, 상처받은 갯벌의 보존 노력 등의 주제가 전시되고 있다. 그 외 기획 전시나 공연도 열릴 수 있으며 기획전시실, 대강당, 소강당, 교양강좌실, 야외공연장은 대관이 가능하다. 보령문화의전당은 국도 36호선, 지방도 610호선에서 중앙로, 번영로 등을 통해 접근할 수 있으며, 고속도로는 서해안고속도로 대천 IC가 가깝다. 대중교통은 장항선 철도 대천역, 보령종합터미널을 이용할 수 있다. 주변에는 보령중앙시장, 대천항, 대천해수욕장, 성주산 등의 관광지가 있다. 보령지역 최초의 지방사 박물관인 보령박물관은 선사시대부터 근·현대시대에 이르기까지 보령의 향토사를 고스란히 담고 있는 박물관이다. 각각의 시대마다 주거문화, 고분문화, 종교문화, 도자문화, 선비문화 등 주제가 있는 전시를 기획하여 관람객들로 하여금 보령지역이 품고 있는 역사를 한눈에 알 수 있는 기회를 제공한다. 대표적인 전시유물로는 충청남도 유형문화재 158호 금강암 비편(碑片)과 충청남도 시도민속문화재 32호 호서 옥마산 김부대왕지기 등 지정문화재가 있으며, 전시된 대부분의 유물이 보령지역에서 출토된 국가귀속유물이다. 그리고 60년대 보령거리 재현은 보령박물관의 색다른 볼거리이다.",
+      "best_span_id": "chroma:M0436",
+      "best_span_text": "보령문화의전당은 보령(대천) 시내에서 과거에 장항선 철도 대천역이 있던 자리에 건설된 문화공간이다. 이곳은 전시실과 문화공간으로 구성되어 있다. 장암서예관은 보령 출신의 서예가인 장암 이곤순 선생의 작품 2,366점을 기증받아 세운 서예관이다. 보령박물관은 보령지역 최초의 지방사 박물관인 보령박물관은 선사시대부터 근현대에 이르기까지 보령의 향토사를 고스란히 담고 있는 박물관이다. 보령문학관은 보령 지역 출신 문학인 이문희, 임영조, 최상규, 김성동, 권영민의 삶과 문학세계를 담은 물품이 전시되고 있다. 갯벌생태과학관은 보령을 대표하는 해안 지형인 갯벌의 종류와 생성과정, 갯벌에 터를 잡고 사는 갯벌 친구들, 보령 갯벌과 이용방안, 상처받은 갯벌의 보존 노력 등의 주제가 전시되고 있다. 그 외 기획 전시나 공연도 열릴 수 있으며 기획전시실, 대강당, 소강당, 교양강좌실, 야외공연장은 대관이 가능하다. 보령문화의전당은 국도 36호선, 지방도 610호선에서 중앙로, 번영로 등을 통해 접근할 수 있으며, 고속도로는 서해안고속도로 대천 IC가 가깝다. 대중교통은 장항선 철도 대천역, 보령종합터미널을 이용할 수 있다. 주변에는 보령중앙시장, 대천항, 대천해수욕장, 성주산 등의 관광지가 있다. 보령지역 최초의 지방사 박물관인 보령박물관은 선사시대부터 근·현대시대에 이르기까지 보령의 향토사를 고스란히 담고 있는 박물관이다. 각각의 시대마다 주거문화, 고분문화, 종교문화, 도자문화, 선비문화 등 주제가 있는 전시를 기획하여 관람객들로 하여금 보령지역이 품고 있는 역사를 한눈에 알 수 있는 기회를 제공한다. 대표적인 전시유물로는 충청남도 유형문화재 158호 금강암 비편(碑片)과 충청남도 시도민속문화재 32호 호서 옥마산 김부대왕지기 등 지정문화재가 있으며, 전시된 대부분의 유물이 보령지역에서 출토된 국가귀속유물이다. 그리고 60년대 보령거리 재현은 보령박물관의 색다른 볼거리이다.",
+      "fusion_score": 0.03131881575727918,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 2,
+      "rerank_score": 0.0004630899929907173,
+      "rank": 2,
+      "score": 0.03131881575727918,
+      "score_type": "rrf_low_confidence_rerank",
+      "distance": 0.5747789740562439,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0436",
+      "source_doc_ids": [
+        "DOC-B0436-TOUR_API-3022653",
+        "DOC-B0436-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0436-TOUR_API-3022653",
+          "source_type": "TOUR_API",
+          "source_record_id": "3022653",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=208",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        },
+        {
+          "doc_id": "DOC-B0436-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0436",
+          "source_locator": "data/raw/museum_base_1070.csv#row=437",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 55,
+          "doc_ids": [
+            "DOC-B0436-TOUR_API-3022653"
+          ]
+        },
+        {
+          "start": 56,
+          "end": 80,
+          "doc_ids": [
+            "DOC-B0436-TOUR_API-3022653"
+          ]
+        },
+        {
+          "start": 81,
+          "end": 136,
+          "doc_ids": [
+            "DOC-B0436-TOUR_API-3022653"
+          ]
+        },
+        {
+          "start": 137,
+          "end": 213,
+          "doc_ids": [
+            "DOC-B0436-TOUR_API-3022653"
+          ]
+        },
+        {
+          "start": 214,
+          "end": 283,
+          "doc_ids": [
+            "DOC-B0436-TOUR_API-3022653"
+          ]
+        },
+        {
+          "start": 284,
+          "end": 387,
+          "doc_ids": [
+            "DOC-B0436-TOUR_API-3022653"
+          ]
+        },
+        {
+          "start": 388,
+          "end": 452,
+          "doc_ids": [
+            "DOC-B0436-TOUR_API-3022653"
+          ]
+        },
+        {
+          "start": 453,
+          "end": 534,
+          "doc_ids": [
+            "DOC-B0436-TOUR_API-3022653"
+          ]
+        },
+        {
+          "start": 535,
+          "end": 571,
+          "doc_ids": [
+            "DOC-B0436-TOUR_API-3022653"
+          ]
+        },
+        {
+          "start": 572,
+          "end": 613,
+          "doc_ids": [
+            "DOC-B0436-TOUR_API-3022653"
+          ]
+        },
+        {
+          "start": 614,
+          "end": 686,
+          "doc_ids": [
+            "DOC-B0436-BASE"
+          ]
+        },
+        {
+          "start": 687,
+          "end": 789,
+          "doc_ids": [
+            "DOC-B0436-BASE"
+          ]
+        },
+        {
+          "start": 790,
+          "end": 908,
+          "doc_ids": [
+            "DOC-B0436-BASE"
+          ]
+        },
+        {
+          "start": 909,
+          "end": 944,
+          "doc_ids": [
+            "DOC-B0436-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=208",
+      "text": "보령문화의전당은 보령(대천) 시내에서 과거에 장항선 철도 대천역이 있던 자리에 건설된 문화공간이다. 이곳은 전시실과 문화공간으로 구성되어 있다. 장암서예관은 보령 출신의 서예가인 장암 이곤순 선생의 작품 2,366점을 기증받아 세운 서예관이다. 보령박물관은 보령지역 최초의 지방사 박물관인 보령박물관은 선사시대부터 근현대에 이르기까지 보령의 향토사를 고스란히 담고 있는 박물관이다. 보령문학관은 보령 지역 출신 문학인 이문희, 임영조, 최상규, 김성동, 권영민의 삶과 문학세계를 담은 물품이 전시되고 있다. 갯벌생태과학관은 보령을 대표하는 해안 지형인 갯벌의 종류와 생성과정, 갯벌에 터를 잡고 사는 갯벌 친구들, 보령 갯벌과 이용방안, 상처받은 갯벌의 보존 노력 등의 주제가 전시되고 있다. 그 외 기획 전시나 공연도 열릴 수 있으며 기획전시실, 대강당, 소강당, 교양강좌실, 야외공연장은 대관이 가능하다. 보령문화의전당은 국도 36호선, 지방도 610호선에서 중앙로, 번영로 등을 통해 접근할 수 있으며, 고속도로는 서해안고속도로 대천 IC가 가깝다. 대중교통은 장항선 철도 대천역, 보령종합터미널을 이용할 수 있다. 주변에는 보령중앙시장, 대천항, 대천해수욕장, 성주산 등의 관광지가 있다. 보령지역 최초의 지방사 박물관인 보령박물관은 선사시대부터 근·현대시대에 이르기까지 보령의 향토사를 고스란히 담고 있는 박물관이다. 각각의 시대마다 주거문화, 고분문화, 종교문화, 도자문화, 선비문화 등 주제가 있는 전시를 기획하여 관람객들로 하여금 보령지역이 품고 있는 역사를 한눈에 알 수 있는 기회를 제공한다. 대표적인 전시유물로는 충청남도 유형문화재 158호 금강암 비편(碑片)과 충청남도 시도민속문화재 32호 호서 옥마산 김부대왕지기 등 지정문화재가 있으며, 전시된 대부분의 유물이 보령지역에서 출토된 국가귀속유물이다. 그리고 60년대 보령거리 재현은 보령박물관의 색다른 볼거리이다.",
+      "sido": "충청남도",
+      "sigungu": "보령시",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=208"
+      ],
+      "evidence_id": "E2",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=310",
+        "fields": {
+          "name": "보령문화의전당",
+          "sido": "충청남도",
+          "sigungu": "보령시",
+          "address": "충청남도 보령시 대흥로 63",
+          "ownership_type": "공립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "09:00",
+          "weekday_close": "18:00",
+          "holiday_open": "09:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "월",
+          "amenities_raw": "작은도서관+대강당+소강당"
+        },
+        "base_data_date": "2026-04-03",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M1007",
+      "name": "충남역사박물관",
+      "document": "국가지정 문화재 3건 65점, 도(道)지정 문화재 12건 61점을 비롯하여 총 37,000여점의 유물을 소장하고 있으며, 근현대 충남의 모습을 한 눈에 엿볼 수 있는 상설전시장 외에도 기증기탁 유물에 대한 특별전 등을 운영하고 있습니다.",
+      "metadata": {
+        "amenities_raw": "전시실, 교육실습실, 체험학습실",
+        "source_types": "BASE",
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "adult_fee": 0.0,
+        "address": "충청남도 공주시 국고개길 24",
+        "longitude": 127.1273867,
+        "closure_rule_raw": "1월 1일+ 매주 월요일",
+        "name": "충남역사박물관",
+        "youth_fee": 0.0,
+        "holiday_open": "09:00",
+        "fee_notes": "없음",
+        "transport_notes": "시내버스 100+  108+  125+  200+  210+  212+  220+  230+  240+  250+  251+  264+  270+  580",
+        "child_fee": 0.0,
+        "requires_manual_review": false,
+        "latitude": 36.45308898,
+        "sigungu": "공주시",
+        "holiday_close": "18:00",
+        "weekday_close": "18:00",
+        "sido": "충청남도",
+        "weekday_open": "09:00",
+        "homepage_url": "http://museum.cihc.or.kr/museum",
+        "ownership_type": "공립"
+      },
+      "vector_rank": 1,
+      "bm25_rank": 19,
+      "vector_distance": 0.5250356793403625,
+      "vector_score": null,
+      "bm25_score": 7.581638235479341,
+      "vector_document": "국가지정 문화재 3건 65점, 도(道)지정 문화재 12건 61점을 비롯하여 총 37,000여점의 유물을 소장하고 있으며, 근현대 충남의 모습을 한 눈에 엿볼 수 있는 상설전시장 외에도 기증기탁 유물에 대한 특별전 등을 운영하고 있습니다.",
+      "bm25_document": "국가지정 문화재 3건 65점, 도(道)지정 문화재 12건 61점을 비롯하여 총 37,000여점의 유물을 소장하고 있으며, 근현대 충남의 모습을 한 눈에 엿볼 수 있는 상설전시장 외에도 기증기탁 유물에 대한 특별전 등을 운영하고 있습니다.",
+      "best_span_id": "chroma:M1007",
+      "best_span_text": "국가지정 문화재 3건 65점, 도(道)지정 문화재 12건 61점을 비롯하여 총 37,000여점의 유물을 소장하고 있으며, 근현대 충남의 모습을 한 눈에 엿볼 수 있는 상설전시장 외에도 기증기탁 유물에 대한 특별전 등을 운영하고 있습니다.",
+      "fusion_score": 0.029051670471052088,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 3,
+      "rerank_score": 0.008051359094679356,
+      "rank": 3,
+      "score": 0.029051670471052088,
+      "score_type": "rrf_low_confidence_rerank",
+      "distance": 0.5250356793403625,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M1007",
+      "source_doc_ids": [
+        "DOC-B1007-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B1007-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B1007",
+          "source_locator": "data/raw/museum_base_1070.csv#row=1008",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 132,
+          "doc_ids": [
+            "DOC-B1007-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_base_1070.csv#row=1008",
+      "text": "국가지정 문화재 3건 65점, 도(道)지정 문화재 12건 61점을 비롯하여 총 37,000여점의 유물을 소장하고 있으며, 근현대 충남의 모습을 한 눈에 엿볼 수 있는 상설전시장 외에도 기증기탁 유물에 대한 특별전 등을 운영하고 있습니다.",
+      "sido": "충청남도",
+      "sigungu": "공주시",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_base_1070.csv#row=1008"
+      ],
+      "evidence_id": "E3",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=690",
+        "fields": {
+          "name": "충남역사박물관",
+          "sido": "충청남도",
+          "sigungu": "공주시",
+          "address": "충청남도 공주시 국고개길 24",
+          "ownership_type": "공립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "09:00",
+          "weekday_close": "18:00",
+          "holiday_open": "09:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "1월 1일+ 매주 월요일",
+          "amenities_raw": "전시실, 교육실습실, 체험학습실"
+        },
+        "base_data_date": "2024-08-27",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0485",
+      "name": "국립공주박물관",
+      "document": "국립공주박물관은 1946년 4월 1일 웅진 백제 문화를 중심으로 충청남도의 역사와 문화를 보존, 전시하기 위해 개관했다. 웅진백제를 주제로 하는 전시실과 충청남도의 역사문화를 주제로 한 전시실이 있으며, 다양한 주제의 특별전시도 수시로 열리고 있다. 전시 외에도 다채로운 문화행사와 교육 프로그램도 진행하고 있다. 백제 웅진 시기와 무령왕릉 관련 문화유산을 전시하는 국립박물관이다. 무령왕릉 출토 유물과 충남의 역사문화 자료를 중심으로 지역의 고대사를 살펴볼 수 있다.",
+      "metadata": {
+        "image_copyright": "Type1",
+        "sido": "충청남도",
+        "youth_fee": 0.0,
+        "child_fee": 0.0,
+        "weekday_open": "09:00",
+        "latitude": 36.465529123,
+        "holiday_close": "18:00",
+        "requires_manual_review": true,
+        "name": "국립공주박물관",
+        "homepage_url": "https://gongju.museum.go.kr/kor/index.do",
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "holiday_open": "09:00",
+        "ownership_type": "국립",
+        "closure_rule_raw": "매주 월요일(단, 월요일이 공휴일인 경우 당일은 개관하고 그 다음 첫번째 평일에 휴관), 1월 1일, 설날 및 추석 당일",
+        "adult_fee": 0.0,
+        "address": "충청남도 공주시 관광단지길 34",
+        "longitude": 127.112179949,
+        "source_types": "TOUR_API|WEB_RESEARCH",
+        "sigungu": "공주시",
+        "image_url": "http://tong.visitkorea.or.kr/cms/resource/33/3534933_image2_1.jpg",
+        "weekday_close": "18:00"
+      },
+      "vector_rank": 13,
+      "bm25_rank": 7,
+      "vector_distance": 0.5863081216812134,
+      "vector_score": null,
+      "bm25_score": 10.214203215197616,
+      "vector_document": "국립공주박물관은 1946년 4월 1일 웅진 백제 문화를 중심으로 충청남도의 역사와 문화를 보존, 전시하기 위해 개관했다. 웅진백제를 주제로 하는 전시실과 충청남도의 역사문화를 주제로 한 전시실이 있으며, 다양한 주제의 특별전시도 수시로 열리고 있다. 전시 외에도 다채로운 문화행사와 교육 프로그램도 진행하고 있다. 백제 웅진 시기와 무령왕릉 관련 문화유산을 전시하는 국립박물관이다. 무령왕릉 출토 유물과 충남의 역사문화 자료를 중심으로 지역의 고대사를 살펴볼 수 있다.",
+      "bm25_document": "국립공주박물관은 1946년 4월 1일 웅진 백제 문화를 중심으로 충청남도의 역사와 문화를 보존, 전시하기 위해 개관했다. 웅진백제를 주제로 하는 전시실과 충청남도의 역사문화를 주제로 한 전시실이 있으며, 다양한 주제의 특별전시도 수시로 열리고 있다. 전시 외에도 다채로운 문화행사와 교육 프로그램도 진행하고 있다. 백제 웅진 시기와 무령왕릉 관련 문화유산을 전시하는 국립박물관이다. 무령왕릉 출토 유물과 충남의 역사문화 자료를 중심으로 지역의 고대사를 살펴볼 수 있다.",
+      "best_span_id": "chroma:M0485",
+      "best_span_text": "국립공주박물관은 1946년 4월 1일 웅진 백제 문화를 중심으로 충청남도의 역사와 문화를 보존, 전시하기 위해 개관했다. 웅진백제를 주제로 하는 전시실과 충청남도의 역사문화를 주제로 한 전시실이 있으며, 다양한 주제의 특별전시도 수시로 열리고 있다. 전시 외에도 다채로운 문화행사와 교육 프로그램도 진행하고 있다. 백제 웅진 시기와 무령왕릉 관련 문화유산을 전시하는 국립박물관이다. 무령왕릉 출토 유물과 충남의 역사문화 자료를 중심으로 지역의 고대사를 살펴볼 수 있다.",
+      "fusion_score": 0.02862400327131466,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 4,
+      "rerank_score": 0.00442446768283844,
+      "rank": 4,
+      "score": 0.02862400327131466,
+      "score_type": "rrf_low_confidence_rerank",
+      "distance": 0.5863081216812134,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0485",
+      "source_doc_ids": [
+        "DOC-B0485-TOUR_API-129787",
+        "DOC-WEB-M0485-20261111"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0485-TOUR_API-129787",
+          "source_type": "TOUR_API",
+          "source_record_id": "129787",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=237",
+          "match_trust": "RECHECKED_BY_RULE_NOT_HUMAN_APPROVED"
+        },
+        {
+          "doc_id": "DOC-WEB-M0485-20261111",
+          "source_type": "WEB_RESEARCH",
+          "source_record_id": "RESEARCH-M0485",
+          "source_locator": "https://kh.or.kr/cont/view/fest/month/menu/210?idx=110143&searchCategory1=600&searchDate=202507&searchField=all&thisPage=1",
+          "source_url": "https://kh.or.kr/cont/view/fest/month/menu/210?idx=110143&searchCategory1=600&searchDate=202507&searchField=all&thisPage=1",
+          "match_trust": "WEB_SOURCE_REVIEWED_NOT_HUMAN_APPROVED"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 67,
+          "doc_ids": [
+            "DOC-B0485-TOUR_API-129787"
+          ]
+        },
+        {
+          "start": 68,
+          "end": 139,
+          "doc_ids": [
+            "DOC-B0485-TOUR_API-129787"
+          ]
+        },
+        {
+          "start": 140,
+          "end": 175,
+          "doc_ids": [
+            "DOC-B0485-TOUR_API-129787"
+          ]
+        },
+        {
+          "start": 176,
+          "end": 213,
+          "doc_ids": [
+            "DOC-WEB-M0485-20261111"
+          ]
+        },
+        {
+          "start": 214,
+          "end": 262,
+          "doc_ids": [
+            "DOC-WEB-M0485-20261111"
+          ]
+        }
+      ],
+      "source_urls": [
+        "https://kh.or.kr/cont/view/fest/month/menu/210?idx=110143&searchCategory1=600&searchDate=202507&searchField=all&thisPage=1"
+      ],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=237",
+      "text": "국립공주박물관은 1946년 4월 1일 웅진 백제 문화를 중심으로 충청남도의 역사와 문화를 보존, 전시하기 위해 개관했다. 웅진백제를 주제로 하는 전시실과 충청남도의 역사문화를 주제로 한 전시실이 있으며, 다양한 주제의 특별전시도 수시로 열리고 있다. 전시 외에도 다채로운 문화행사와 교육 프로그램도 진행하고 있다. 백제 웅진 시기와 무령왕릉 관련 문화유산을 전시하는 국립박물관이다. 무령왕릉 출토 유물과 충남의 역사문화 자료를 중심으로 지역의 고대사를 살펴볼 수 있다.",
+      "sido": "충청남도",
+      "sigungu": "공주시",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=237"
+      ],
+      "evidence_id": "E4",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=348",
+        "fields": {
+          "name": "국립공주박물관",
+          "sido": "충청남도",
+          "sigungu": "공주시",
+          "address": "충청남도 공주시 관광단지길 34",
+          "ownership_type": "국립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "09:00",
+          "weekday_close": "18:00",
+          "holiday_open": "09:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "매주 월요일(단, 월요일이 공휴일인 경우 당일은 개관하고 그 다음 첫번째 평일에 휴관), 1월 1일, 설날 및 추석 당일"
+        },
+        "base_data_date": "2026-04-08",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0120",
+      "name": "경상북도문화재연구원 역사박물관",
+      "document": "경상북도문화재연구원의 문화재 조사 성과들로 꾸며진 전문박물관",
+      "metadata": {
+        "transport_notes": "지하철: 1호선 안심역 4번 출구+버스:55, 555",
+        "sigungu": "영천시",
+        "source_types": "BASE",
+        "adult_fee": 0.0,
+        "longitude": 128.8971267,
+        "homepage_url": "http://www.gbcp.or.kr",
+        "holiday_open": "10:00",
+        "requires_manual_review": true,
+        "closure_rule_raw": "토요일+일요일+관람종료시각 안내사항 평일/공휴일관람종료시각 3월~10월(17:50) 11월~2월(17:00)",
+        "address": "경상북도 영천시 금호읍 원제2길 38",
+        "holiday_close": "17:00",
+        "latitude": 35.9441009,
+        "weekday_open": "10:00",
+        "weekday_close": "17:00",
+        "amenities_raw": "시청각실(무대형120석)+세미나실(회의실20석)+작은도서관(도서자료200권+30석)",
+        "name": "경상북도문화재연구원 역사박물관",
+        "ownership_type": "사립",
+        "child_fee": 0.0,
+        "sido": "경상북도",
+        "youth_fee": 0.0,
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS"
+      },
+      "vector_rank": 3,
+      "bm25_rank": null,
+      "vector_distance": 0.5393588542938232,
+      "vector_score": null,
+      "bm25_score": null,
+      "vector_document": "경상북도문화재연구원의 문화재 조사 성과들로 꾸며진 전문박물관",
+      "bm25_document": "",
+      "best_span_id": null,
+      "best_span_text": null,
+      "fusion_score": 0.015873015873015872,
+      "retrieved_by": [
+        "vector"
+      ],
+      "fusion_rank": 5,
+      "rerank_score": 9.976798173738644e-05,
+      "rank": 5,
+      "score": 0.015873015873015872,
+      "score_type": "rrf_low_confidence_rerank",
+      "distance": 0.5393588542938232,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector"
+      ],
+      "retriever": "vector",
+      "source_doc_ids": [
+        "DOC-B0120-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0120-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0120",
+          "source_locator": "data/raw/museum_base_1070.csv#row=121",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 33,
+          "doc_ids": [
+            "DOC-B0120-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_base_1070.csv#row=121",
+      "text": "경상북도문화재연구원의 문화재 조사 성과들로 꾸며진 전문박물관",
+      "sido": "경상북도",
+      "sigungu": "영천시",
+      "span_id": "",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_base_1070.csv#row=121"
+      ],
+      "evidence_id": "E5",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=80",
+        "fields": {
+          "name": "경상북도문화재연구원 역사박물관",
+          "sido": "경상북도",
+          "sigungu": "영천시",
+          "address": "경상북도 영천시 금호읍 원제2길 38",
+          "ownership_type": "사립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "10:00",
+          "weekday_close": "17:00",
+          "holiday_open": "10:00",
+          "holiday_close": "17:00",
+          "closure_rule_raw": "토요일+일요일+관람종료시각 안내사항 평일/공휴일관람종료시각 3월~10월(17:50) 11월~2월(17:00)",
+          "amenities_raw": "시청각실(무대형120석)+세미나실(회의실20석)+작은도서관(도서자료200권+30석)"
+        },
+        "base_data_date": "2026-10-22",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    }
+  ],
+  "answer": "충청남도 시도민속문화재 32호는 **호서 옥마산 김부대왕지기**입니다. [E2]",
+  "retrieval_status": "ok",
+  "answer_status": "answered",
+  "route": "hybrid",
+  "retry_count": 0,
+  "supervisor_verified": true,
+  "rerank_applied": true,
+  "retriever_errors": [],
+  "warnings": [],
+  "duration_ms": 135151.08,
+  "error_type": "",
+  "hit_at_1": 0,
+  "hit_at_3": 1,
+  "hit_at_5": 1,
+  "recall_at_5": 1.0,
+  "mrr_at_10": 0.5
+}

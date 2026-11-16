@@ -1,0 +1,689 @@
+{
+  "mode": "supervisor_full",
+  "question_id": "Q019",
+  "evidence": [
+    {
+      "museum_id": "M0033",
+      "name": "자연사랑 미술관",
+      "document": "서귀포시에 위치한 사진갤러리이다. 폐교된 가시초등학교를 활용해 90평 규모의 넓은 전시 공간을 가진 것이 특징이다. 제주는 천혜의 자연경관으로 이루어진 화산섬으로, 섬 곳곳에 독특한 경관과 문화가 서려 있다. 이런 제주의 자연과 민속을 담은 사진가 서재철의 작품을 한눈에 볼 수 있도록 전시했다. 자연사랑미술관은 가시초등학교의 옛 모습을 담은 사진 전시실, 사진과 책을 판매하는 공간과 쉼터로 구성되어 있다. 땅 할아버지라는 의미의 따라비전시장에서는 제주오름(기생화산)의 다양한 모습을 만날 수 있고, 바람이 머무는 곳이라는 뜻의 바람자리전시장에서는 한라산과 바다를 통해 제주의 비경과 사계절을 느낄 수 있다. 그 외에 화산탄을 전시한 야외 화산탄 갤러리가 있다.",
+      "metadata": {
+        "requires_manual_review": true,
+        "youth_fee": 1000.0,
+        "homepage_url": "http://hallaphoto.com/default/",
+        "adult_fee": 3000.0,
+        "holiday_close": "17:00",
+        "address": "제주특별자치도 서귀포시 표선면 가시로613번길 46",
+        "sigungu": "서귀포시",
+        "image_url": "http://tong.visitkorea.or.kr/cms/resource/93/3547993_image2_1.jpg",
+        "adult_fee_status": "BASE_FEE_PAID",
+        "holiday_open": "10:00",
+        "weekday_close": "17:00",
+        "closure_rule_raw": "연중무휴",
+        "image_copyright": "Type1",
+        "fee_notes": "도민할인",
+        "ownership_type": "사립",
+        "weekday_open": "10:00",
+        "source_types": "TOUR_API",
+        "child_fee": 0.0,
+        "name": "자연사랑 미술관",
+        "sido": "제주특별자치도",
+        "longitude": 126.7719331,
+        "latitude": 33.35564999
+      },
+      "vector_rank": 1,
+      "bm25_rank": 1,
+      "vector_distance": 0.37136179208755493,
+      "vector_score": null,
+      "bm25_score": 34.756815907158845,
+      "vector_document": "서귀포시에 위치한 사진갤러리이다. 폐교된 가시초등학교를 활용해 90평 규모의 넓은 전시 공간을 가진 것이 특징이다. 제주는 천혜의 자연경관으로 이루어진 화산섬으로, 섬 곳곳에 독특한 경관과 문화가 서려 있다. 이런 제주의 자연과 민속을 담은 사진가 서재철의 작품을 한눈에 볼 수 있도록 전시했다. 자연사랑미술관은 가시초등학교의 옛 모습을 담은 사진 전시실, 사진과 책을 판매하는 공간과 쉼터로 구성되어 있다. 땅 할아버지라는 의미의 따라비전시장에서는 제주오름(기생화산)의 다양한 모습을 만날 수 있고, 바람이 머무는 곳이라는 뜻의 바람자리전시장에서는 한라산과 바다를 통해 제주의 비경과 사계절을 느낄 수 있다. 그 외에 화산탄을 전시한 야외 화산탄 갤러리가 있다.",
+      "bm25_document": "서귀포시에 위치한 사진갤러리이다. 폐교된 가시초등학교를 활용해 90평 규모의 넓은 전시 공간을 가진 것이 특징이다. 제주는 천혜의 자연경관으로 이루어진 화산섬으로, 섬 곳곳에 독특한 경관과 문화가 서려 있다. 이런 제주의 자연과 민속을 담은 사진가 서재철의 작품을 한눈에 볼 수 있도록 전시했다. 자연사랑미술관은 가시초등학교의 옛 모습을 담은 사진 전시실, 사진과 책을 판매하는 공간과 쉼터로 구성되어 있다. 땅 할아버지라는 의미의 따라비전시장에서는 제주오름(기생화산)의 다양한 모습을 만날 수 있고, 바람이 머무는 곳이라는 뜻의 바람자리전시장에서는 한라산과 바다를 통해 제주의 비경과 사계절을 느낄 수 있다. 그 외에 화산탄을 전시한 야외 화산탄 갤러리가 있다.",
+      "best_span_id": "chroma:M0033",
+      "best_span_text": "서귀포시에 위치한 사진갤러리이다. 폐교된 가시초등학교를 활용해 90평 규모의 넓은 전시 공간을 가진 것이 특징이다. 제주는 천혜의 자연경관으로 이루어진 화산섬으로, 섬 곳곳에 독특한 경관과 문화가 서려 있다. 이런 제주의 자연과 민속을 담은 사진가 서재철의 작품을 한눈에 볼 수 있도록 전시했다. 자연사랑미술관은 가시초등학교의 옛 모습을 담은 사진 전시실, 사진과 책을 판매하는 공간과 쉼터로 구성되어 있다. 땅 할아버지라는 의미의 따라비전시장에서는 제주오름(기생화산)의 다양한 모습을 만날 수 있고, 바람이 머무는 곳이라는 뜻의 바람자리전시장에서는 한라산과 바다를 통해 제주의 비경과 사계절을 느낄 수 있다. 그 외에 화산탄을 전시한 야외 화산탄 갤러리가 있다.",
+      "fusion_score": 0.03278688524590164,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 1,
+      "rerank_score": null,
+      "rank": 1,
+      "score": 0.03278688524590164,
+      "score_type": "rrf",
+      "distance": 0.37136179208755493,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0033",
+      "source_doc_ids": [
+        "DOC-B0033-TOUR_API-2606611"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0033-TOUR_API-2606611",
+          "source_type": "TOUR_API",
+          "source_record_id": "2606611",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=20",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 18,
+          "doc_ids": [
+            "DOC-B0033-TOUR_API-2606611"
+          ]
+        },
+        {
+          "start": 19,
+          "end": 64,
+          "doc_ids": [
+            "DOC-B0033-TOUR_API-2606611"
+          ]
+        },
+        {
+          "start": 65,
+          "end": 116,
+          "doc_ids": [
+            "DOC-B0033-TOUR_API-2606611"
+          ]
+        },
+        {
+          "start": 117,
+          "end": 165,
+          "doc_ids": [
+            "DOC-B0033-TOUR_API-2606611"
+          ]
+        },
+        {
+          "start": 166,
+          "end": 228,
+          "doc_ids": [
+            "DOC-B0033-TOUR_API-2606611"
+          ]
+        },
+        {
+          "start": 229,
+          "end": 341,
+          "doc_ids": [
+            "DOC-B0033-TOUR_API-2606611"
+          ]
+        },
+        {
+          "start": 342,
+          "end": 371,
+          "doc_ids": [
+            "DOC-B0033-TOUR_API-2606611"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=20",
+      "text": "서귀포시에 위치한 사진갤러리이다. 폐교된 가시초등학교를 활용해 90평 규모의 넓은 전시 공간을 가진 것이 특징이다. 제주는 천혜의 자연경관으로 이루어진 화산섬으로, 섬 곳곳에 독특한 경관과 문화가 서려 있다. 이런 제주의 자연과 민속을 담은 사진가 서재철의 작품을 한눈에 볼 수 있도록 전시했다. 자연사랑미술관은 가시초등학교의 옛 모습을 담은 사진 전시실, 사진과 책을 판매하는 공간과 쉼터로 구성되어 있다. 땅 할아버지라는 의미의 따라비전시장에서는 제주오름(기생화산)의 다양한 모습을 만날 수 있고, 바람이 머무는 곳이라는 뜻의 바람자리전시장에서는 한라산과 바다를 통해 제주의 비경과 사계절을 느낄 수 있다. 그 외에 화산탄을 전시한 야외 화산탄 갤러리가 있다.",
+      "sido": "제주특별자치도",
+      "sigungu": "서귀포시",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=20"
+      ],
+      "evidence_id": "E1",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=26",
+        "fields": {
+          "name": "자연사랑 미술관",
+          "sido": "제주특별자치도",
+          "sigungu": "서귀포시",
+          "address": "제주특별자치도 서귀포시 표선면 가시로613번길 46",
+          "ownership_type": "사립",
+          "adult_fee": "3000",
+          "youth_fee": "1000",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_PAID",
+          "weekday_open": "10:00",
+          "weekday_close": "17:00",
+          "holiday_open": "10:00",
+          "holiday_close": "17:00",
+          "closure_rule_raw": "연중무휴"
+        },
+        "base_data_date": "2026-09-30",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0092",
+      "name": "민속자연사박물관",
+      "document": "제주의 자연환경과 전통 민속을 함께 보여주는 박물관이다. 자연사전시실에서는 지질·동식물과 해양생물 표본을, 민속전시실에서는 제주인의 생활과 생업 문화를 살펴볼 수 있다.",
+      "metadata": {
+        "closure_rule_raw": "월+1월 1일+설 당일+설 다음날+추석 당일+추석 다음날+훈증 소독기간(별도 공지)",
+        "name": "민속자연사박물관",
+        "ownership_type": "공립",
+        "requires_manual_review": true,
+        "latitude": 33.50563037,
+        "adult_fee_status": "BASE_FEE_PAID",
+        "address": "제주특별자치도 제주시 삼성로 40",
+        "sigungu": "제주시",
+        "weekday_close": "18:00",
+        "holiday_close": "18:00",
+        "holiday_open": "09:00",
+        "amenities_raw": "카페테리아+문화상품판매+수유실+물품보관함",
+        "homepage_url": "http://www.jeju.go.kr/museum/index.htm",
+        "adult_fee": 2000.0,
+        "child_fee": 0.0,
+        "longitude": 126.5317241,
+        "sido": "제주특별자치도",
+        "source_types": "WEB_RESEARCH",
+        "youth_fee": 1000.0,
+        "weekday_open": "09:00",
+        "fee_notes": "단체 관람 시 할인+도민할인"
+      },
+      "vector_rank": 2,
+      "bm25_rank": 7,
+      "vector_distance": 0.513526439666748,
+      "vector_score": null,
+      "bm25_score": 15.255644777129866,
+      "vector_document": "제주의 자연환경과 전통 민속을 함께 보여주는 박물관이다. 자연사전시실에서는 지질·동식물과 해양생물 표본을, 민속전시실에서는 제주인의 생활과 생업 문화를 살펴볼 수 있다.",
+      "bm25_document": "제주의 자연환경과 전통 민속을 함께 보여주는 박물관이다. 자연사전시실에서는 지질·동식물과 해양생물 표본을, 민속전시실에서는 제주인의 생활과 생업 문화를 살펴볼 수 있다.",
+      "best_span_id": "chroma:M0092",
+      "best_span_text": "제주의 자연환경과 전통 민속을 함께 보여주는 박물관이다. 자연사전시실에서는 지질·동식물과 해양생물 표본을, 민속전시실에서는 제주인의 생활과 생업 문화를 살펴볼 수 있다.",
+      "fusion_score": 0.031054405392392875,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 2,
+      "rerank_score": null,
+      "rank": 2,
+      "score": 0.031054405392392875,
+      "score_type": "rrf",
+      "distance": 0.513526439666748,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0092",
+      "source_doc_ids": [
+        "DOC-WEB-M0092-20261111"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-WEB-M0092-20261111",
+          "source_type": "WEB_RESEARCH",
+          "source_record_id": "RESEARCH-M0092",
+          "source_locator": "https://www.visitjeju.net/kr/detail/view?contentsid=CONT_000000000500545",
+          "source_url": "https://www.visitjeju.net/kr/detail/view?contentsid=CONT_000000000500545",
+          "match_trust": "WEB_SOURCE_REVIEWED_NOT_HUMAN_APPROVED"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 31,
+          "doc_ids": [
+            "DOC-WEB-M0092-20261111"
+          ]
+        },
+        {
+          "start": 32,
+          "end": 94,
+          "doc_ids": [
+            "DOC-WEB-M0092-20261111"
+          ]
+        }
+      ],
+      "source_urls": [
+        "https://www.visitjeju.net/kr/detail/view?contentsid=CONT_000000000500545"
+      ],
+      "source_locator": "https://www.visitjeju.net/kr/detail/view?contentsid=CONT_000000000500545",
+      "text": "제주의 자연환경과 전통 민속을 함께 보여주는 박물관이다. 자연사전시실에서는 지질·동식물과 해양생물 표본을, 민속전시실에서는 제주인의 생활과 생업 문화를 살펴볼 수 있다.",
+      "sido": "제주특별자치도",
+      "sigungu": "제주시",
+      "chunk_id": "",
+      "source_locators": [
+        "https://www.visitjeju.net/kr/detail/view?contentsid=CONT_000000000500545"
+      ],
+      "evidence_id": "E2",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=58",
+        "fields": {
+          "name": "민속자연사박물관",
+          "sido": "제주특별자치도",
+          "sigungu": "제주시",
+          "address": "제주특별자치도 제주시 삼성로 40",
+          "ownership_type": "공립",
+          "adult_fee": "2000",
+          "youth_fee": "1000",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_PAID",
+          "weekday_open": "09:00",
+          "weekday_close": "18:00",
+          "holiday_open": "09:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "월+1월 1일+설 당일+설 다음날+추석 당일+추석 다음날+훈증 소독기간(별도 공지)",
+          "amenities_raw": "카페테리아+문화상품판매+수유실+물품보관함"
+        },
+        "base_data_date": "2026-09-30",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0090",
+      "name": "제주민속촌",
+      "document": "제주민속촌은 2001년에 개관한 제1종 전문 박물관으로 1890년대를 전시 기준 연대로 하여 제주의 민속자료를 종합적으로 정리하여 전시하고 있으며, 100여 채에 달하는 제주 전통가옥은 제주도민이 생활하였던 가옥과 돌, 기둥 등을 그대로 옮겨와 복원해 전시하고 있다. 이 전통 가옥에는 생활용구, 농기구, 어구, 가구, 석물 등 민속자료가 전시되어 있다. 제주민속촌에서는 제주는 물론 우리나라의 향토수종 및 꽃들을 식재하여 사계절 내내 꽃들을 볼 수 있으며 재래흑돼지 및 가금, 가축을 사육하고 있어 자연학습장 기능도 겸하고 있다. 이외에도 다양한 테마별 전시장과 체험가옥, 전통민속놀이 체험장을 통해 다양한 볼거리와 체험거리를 제공하고 있다.",
+      "metadata": {
+        "amenities_raw": "체험가옥+자연학습장",
+        "child_fee": 12000.0,
+        "youth_fee": 13000.0,
+        "image_copyright": "Type1",
+        "holiday_open": "00:00",
+        "weekday_close": "18:00",
+        "adult_fee_status": "BASE_FEE_PAID",
+        "longitude": 126.8430882,
+        "closure_rule_raw": "연중무휴",
+        "sigungu": "서귀포시",
+        "ownership_type": "사립",
+        "requires_manual_review": true,
+        "adult_fee": 15000.0,
+        "holiday_close": "18:00",
+        "address": "제주특별자치도 서귀포시 표선면 민속해안로 631-34",
+        "fee_notes": "단체 관람 시 할인+도민할인",
+        "image_url": "http://tong.visitkorea.or.kr/cms/resource/43/3534943_image2_1.jpg",
+        "homepage_url": "http://www.jejufolk.com/",
+        "source_types": "TOUR_API",
+        "latitude": 33.32128714,
+        "sido": "제주특별자치도",
+        "weekday_open": "09:00",
+        "name": "제주민속촌"
+      },
+      "vector_rank": 6,
+      "bm25_rank": 10,
+      "vector_distance": 0.5307215452194214,
+      "vector_score": null,
+      "bm25_score": 13.83157433975695,
+      "vector_document": "제주민속촌은 2001년에 개관한 제1종 전문 박물관으로 1890년대를 전시 기준 연대로 하여 제주의 민속자료를 종합적으로 정리하여 전시하고 있으며, 100여 채에 달하는 제주 전통가옥은 제주도민이 생활하였던 가옥과 돌, 기둥 등을 그대로 옮겨와 복원해 전시하고 있다. 이 전통 가옥에는 생활용구, 농기구, 어구, 가구, 석물 등 민속자료가 전시되어 있다. 제주민속촌에서는 제주는 물론 우리나라의 향토수종 및 꽃들을 식재하여 사계절 내내 꽃들을 볼 수 있으며 재래흑돼지 및 가금, 가축을 사육하고 있어 자연학습장 기능도 겸하고 있다. 이외에도 다양한 테마별 전시장과 체험가옥, 전통민속놀이 체험장을 통해 다양한 볼거리와 체험거리를 제공하고 있다.",
+      "bm25_document": "제주민속촌은 2001년에 개관한 제1종 전문 박물관으로 1890년대를 전시 기준 연대로 하여 제주의 민속자료를 종합적으로 정리하여 전시하고 있으며, 100여 채에 달하는 제주 전통가옥은 제주도민이 생활하였던 가옥과 돌, 기둥 등을 그대로 옮겨와 복원해 전시하고 있다. 이 전통 가옥에는 생활용구, 농기구, 어구, 가구, 석물 등 민속자료가 전시되어 있다. 제주민속촌에서는 제주는 물론 우리나라의 향토수종 및 꽃들을 식재하여 사계절 내내 꽃들을 볼 수 있으며 재래흑돼지 및 가금, 가축을 사육하고 있어 자연학습장 기능도 겸하고 있다. 이외에도 다양한 테마별 전시장과 체험가옥, 전통민속놀이 체험장을 통해 다양한 볼거리와 체험거리를 제공하고 있다.",
+      "best_span_id": "chroma:M0090",
+      "best_span_text": "제주민속촌은 2001년에 개관한 제1종 전문 박물관으로 1890년대를 전시 기준 연대로 하여 제주의 민속자료를 종합적으로 정리하여 전시하고 있으며, 100여 채에 달하는 제주 전통가옥은 제주도민이 생활하였던 가옥과 돌, 기둥 등을 그대로 옮겨와 복원해 전시하고 있다. 이 전통 가옥에는 생활용구, 농기구, 어구, 가구, 석물 등 민속자료가 전시되어 있다. 제주민속촌에서는 제주는 물론 우리나라의 향토수종 및 꽃들을 식재하여 사계절 내내 꽃들을 볼 수 있으며 재래흑돼지 및 가금, 가축을 사육하고 있어 자연학습장 기능도 겸하고 있다. 이외에도 다양한 테마별 전시장과 체험가옥, 전통민속놀이 체험장을 통해 다양한 볼거리와 체험거리를 제공하고 있다.",
+      "fusion_score": 0.029437229437229435,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 3,
+      "rerank_score": null,
+      "rank": 3,
+      "score": 0.029437229437229435,
+      "score_type": "rrf",
+      "distance": 0.5307215452194214,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0090",
+      "source_doc_ids": [
+        "DOC-B0090-TOUR_API-130474"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0090-TOUR_API-130474",
+          "source_type": "TOUR_API",
+          "source_record_id": "130474",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=46",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 149,
+          "doc_ids": [
+            "DOC-B0090-TOUR_API-130474"
+          ]
+        },
+        {
+          "start": 150,
+          "end": 198,
+          "doc_ids": [
+            "DOC-B0090-TOUR_API-130474"
+          ]
+        },
+        {
+          "start": 199,
+          "end": 297,
+          "doc_ids": [
+            "DOC-B0090-TOUR_API-130474"
+          ]
+        },
+        {
+          "start": 298,
+          "end": 360,
+          "doc_ids": [
+            "DOC-B0090-TOUR_API-130474"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=46",
+      "text": "제주민속촌은 2001년에 개관한 제1종 전문 박물관으로 1890년대를 전시 기준 연대로 하여 제주의 민속자료를 종합적으로 정리하여 전시하고 있으며, 100여 채에 달하는 제주 전통가옥은 제주도민이 생활하였던 가옥과 돌, 기둥 등을 그대로 옮겨와 복원해 전시하고 있다. 이 전통 가옥에는 생활용구, 농기구, 어구, 가구, 석물 등 민속자료가 전시되어 있다. 제주민속촌에서는 제주는 물론 우리나라의 향토수종 및 꽃들을 식재하여 사계절 내내 꽃들을 볼 수 있으며 재래흑돼지 및 가금, 가축을 사육하고 있어 자연학습장 기능도 겸하고 있다. 이외에도 다양한 테마별 전시장과 체험가옥, 전통민속놀이 체험장을 통해 다양한 볼거리와 체험거리를 제공하고 있다.",
+      "sido": "제주특별자치도",
+      "sigungu": "서귀포시",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=46"
+      ],
+      "evidence_id": "E3",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=56",
+        "fields": {
+          "name": "제주민속촌",
+          "sido": "제주특별자치도",
+          "sigungu": "서귀포시",
+          "address": "제주특별자치도 서귀포시 표선면 민속해안로 631-34",
+          "ownership_type": "사립",
+          "adult_fee": "15000",
+          "youth_fee": "13000",
+          "child_fee": "12000",
+          "adult_fee_status": "BASE_FEE_PAID",
+          "weekday_open": "09:00",
+          "weekday_close": "18:00",
+          "holiday_open": "00:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "연중무휴",
+          "amenities_raw": "체험가옥+자연학습장"
+        },
+        "base_data_date": "2026-09-30",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0431",
+      "name": "거제민속박물관",
+      "document": "연초면 대금산 아래 위치한 거제민속박물관은 명동초등학교가 폐교한 후 사립 박물관으로 탈바꿈한 곳이다. 오랜 기간 동안 수집한 농경·민속·서화 등 민속자료 5,500여 점이 전시되어 있는 자료관으로 문화관광부에 등록되어 있으며 전시관 부지 내에 곤충생태원이 위치하고 있어 다양한 볼거리가 있는 곳이다. 박물관이라고 하기에 규모는 조금 작으나 민속공예품 등이 아기자기하게 전시되어 있어 아이와 함께 둘러보며 감상하기 좋으며 어른들에게는 옛 추억을 되새기게 하는 소품들이 많다. 민속품+고서화+옹기+고가구+농기구 등 29000여점 소장",
+      "metadata": {
+        "holiday_open": "09:30",
+        "child_fee": 1000.0,
+        "youth_fee": 1000.0,
+        "homepage_url": "https://www.geoje.go.kr",
+        "holiday_close": "16:30",
+        "fee_notes": "할인(단체)",
+        "source_types": "BASE|TOUR_API",
+        "closure_rule_raw": "일요일",
+        "name": "거제민속박물관",
+        "weekday_close": "16:30",
+        "address": "경상남도 거제시 연초면 대금산로 339-7",
+        "weekday_open": "09:30",
+        "ownership_type": "사립",
+        "adult_fee": 2000.0,
+        "longitude": 128.677436,
+        "adult_fee_status": "BASE_FEE_PAID",
+        "requires_manual_review": true,
+        "latitude": 34.95011436,
+        "sigungu": "거제시",
+        "sido": "경상남도"
+      },
+      "vector_rank": 14,
+      "bm25_rank": 3,
+      "vector_distance": 0.5703107118606567,
+      "vector_score": null,
+      "bm25_score": 17.252163329537503,
+      "vector_document": "연초면 대금산 아래 위치한 거제민속박물관은 명동초등학교가 폐교한 후 사립 박물관으로 탈바꿈한 곳이다. 오랜 기간 동안 수집한 농경·민속·서화 등 민속자료 5,500여 점이 전시되어 있는 자료관으로 문화관광부에 등록되어 있으며 전시관 부지 내에 곤충생태원이 위치하고 있어 다양한 볼거리가 있는 곳이다. 박물관이라고 하기에 규모는 조금 작으나 민속공예품 등이 아기자기하게 전시되어 있어 아이와 함께 둘러보며 감상하기 좋으며 어른들에게는 옛 추억을 되새기게 하는 소품들이 많다. 민속품+고서화+옹기+고가구+농기구 등 29000여점 소장",
+      "bm25_document": "연초면 대금산 아래 위치한 거제민속박물관은 명동초등학교가 폐교한 후 사립 박물관으로 탈바꿈한 곳이다. 오랜 기간 동안 수집한 농경·민속·서화 등 민속자료 5,500여 점이 전시되어 있는 자료관으로 문화관광부에 등록되어 있으며 전시관 부지 내에 곤충생태원이 위치하고 있어 다양한 볼거리가 있는 곳이다. 박물관이라고 하기에 규모는 조금 작으나 민속공예품 등이 아기자기하게 전시되어 있어 아이와 함께 둘러보며 감상하기 좋으며 어른들에게는 옛 추억을 되새기게 하는 소품들이 많다. 민속품+고서화+옹기+고가구+농기구 등 29000여점 소장",
+      "best_span_id": "chroma:M0431",
+      "best_span_text": "연초면 대금산 아래 위치한 거제민속박물관은 명동초등학교가 폐교한 후 사립 박물관으로 탈바꿈한 곳이다. 오랜 기간 동안 수집한 농경·민속·서화 등 민속자료 5,500여 점이 전시되어 있는 자료관으로 문화관광부에 등록되어 있으며 전시관 부지 내에 곤충생태원이 위치하고 있어 다양한 볼거리가 있는 곳이다. 박물관이라고 하기에 규모는 조금 작으나 민속공예품 등이 아기자기하게 전시되어 있어 아이와 함께 둘러보며 감상하기 좋으며 어른들에게는 옛 추억을 되새기게 하는 소품들이 많다. 민속품+고서화+옹기+고가구+농기구 등 29000여점 소장",
+      "fusion_score": 0.029386529386529386,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 4,
+      "rerank_score": null,
+      "rank": 4,
+      "score": 0.029386529386529386,
+      "score_type": "rrf",
+      "distance": 0.5703107118606567,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0431",
+      "source_doc_ids": [
+        "DOC-B0431-TOUR_API-1622150",
+        "DOC-B0431-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0431-TOUR_API-1622150",
+          "source_type": "TOUR_API",
+          "source_record_id": "1622150",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=205",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        },
+        {
+          "doc_id": "DOC-B0431-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0431",
+          "source_locator": "data/raw/museum_base_1070.csv#row=432",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 56,
+          "doc_ids": [
+            "DOC-B0431-TOUR_API-1622150"
+          ]
+        },
+        {
+          "start": 57,
+          "end": 167,
+          "doc_ids": [
+            "DOC-B0431-TOUR_API-1622150"
+          ]
+        },
+        {
+          "start": 168,
+          "end": 264,
+          "doc_ids": [
+            "DOC-B0431-TOUR_API-1622150"
+          ]
+        },
+        {
+          "start": 265,
+          "end": 296,
+          "doc_ids": [
+            "DOC-B0431-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=205",
+      "text": "연초면 대금산 아래 위치한 거제민속박물관은 명동초등학교가 폐교한 후 사립 박물관으로 탈바꿈한 곳이다. 오랜 기간 동안 수집한 농경·민속·서화 등 민속자료 5,500여 점이 전시되어 있는 자료관으로 문화관광부에 등록되어 있으며 전시관 부지 내에 곤충생태원이 위치하고 있어 다양한 볼거리가 있는 곳이다. 박물관이라고 하기에 규모는 조금 작으나 민속공예품 등이 아기자기하게 전시되어 있어 아이와 함께 둘러보며 감상하기 좋으며 어른들에게는 옛 추억을 되새기게 하는 소품들이 많다. 민속품+고서화+옹기+고가구+농기구 등 29000여점 소장",
+      "sido": "경상남도",
+      "sigungu": "거제시",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=205"
+      ],
+      "evidence_id": "E4",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=305",
+        "fields": {
+          "name": "거제민속박물관",
+          "sido": "경상남도",
+          "sigungu": "거제시",
+          "address": "경상남도 거제시 연초면 대금산로 339-7",
+          "ownership_type": "사립",
+          "adult_fee": "2000",
+          "youth_fee": "1000",
+          "child_fee": "1000",
+          "adult_fee_status": "BASE_FEE_PAID",
+          "weekday_open": "09:30",
+          "weekday_close": "16:30",
+          "holiday_open": "09:30",
+          "holiday_close": "16:30",
+          "closure_rule_raw": "일요일"
+        },
+        "base_data_date": "2026-03-26",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0058",
+      "name": "제주세계자연유산센터 세계유산전시관",
+      "document": "제주 화산섬과 용암동굴의 세계자연유산 가치를 알리는 전시 공간이다. 제주 화산지형의 형성, 용암동굴과 한라산의 자연환경을 영상과 전시물로 탐구할 수 있다.",
+      "metadata": {
+        "fee_notes": "단체 관람 시 할인+도민할인",
+        "name": "제주세계자연유산센터 세계유산전시관",
+        "adult_fee": 3000.0,
+        "ownership_type": "공립",
+        "holiday_open": "09:00",
+        "address": "제주특별자치도 제주시 조천읍 선교로 569-36",
+        "youth_fee": 2000.0,
+        "source_types": "WEB_RESEARCH",
+        "requires_manual_review": true,
+        "sido": "제주특별자치도",
+        "adult_fee_status": "BASE_FEE_PAID",
+        "latitude": 33.45691987,
+        "sigungu": "제주시",
+        "weekday_close": "17:50",
+        "closure_rule_raw": "매월 첫째주 화요일",
+        "holiday_close": "17:50",
+        "child_fee": 0.0,
+        "homepage_url": "http://www.jeju.go.kr/wnhcenter/index.htm",
+        "longitude": 126.7147521,
+        "weekday_open": "09:00"
+      },
+      "vector_rank": 12,
+      "bm25_rank": 14,
+      "vector_distance": 0.5630781650543213,
+      "vector_score": null,
+      "bm25_score": 12.273733871004271,
+      "vector_document": "제주 화산섬과 용암동굴의 세계자연유산 가치를 알리는 전시 공간이다. 제주 화산지형의 형성, 용암동굴과 한라산의 자연환경을 영상과 전시물로 탐구할 수 있다.",
+      "bm25_document": "제주 화산섬과 용암동굴의 세계자연유산 가치를 알리는 전시 공간이다. 제주 화산지형의 형성, 용암동굴과 한라산의 자연환경을 영상과 전시물로 탐구할 수 있다.",
+      "best_span_id": "chroma:M0058",
+      "best_span_text": "제주 화산섬과 용암동굴의 세계자연유산 가치를 알리는 전시 공간이다. 제주 화산지형의 형성, 용암동굴과 한라산의 자연환경을 영상과 전시물로 탐구할 수 있다.",
+      "fusion_score": 0.027402402402402402,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 5,
+      "rerank_score": null,
+      "rank": 5,
+      "score": 0.027402402402402402,
+      "score_type": "rrf",
+      "distance": 0.5630781650543213,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0058",
+      "source_doc_ids": [
+        "DOC-WEB-M0058-20261111"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-WEB-M0058-20261111",
+          "source_type": "WEB_RESEARCH",
+          "source_record_id": "RESEARCH-M0058",
+          "source_locator": "https://www.visitjeju.net/kr/detail/view?contentsid=CONT_000000000500559",
+          "source_url": "https://www.visitjeju.net/kr/detail/view?contentsid=CONT_000000000500559",
+          "match_trust": "WEB_SOURCE_REVIEWED_NOT_HUMAN_APPROVED"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 37,
+          "doc_ids": [
+            "DOC-WEB-M0058-20261111"
+          ]
+        },
+        {
+          "start": 38,
+          "end": 86,
+          "doc_ids": [
+            "DOC-WEB-M0058-20261111"
+          ]
+        }
+      ],
+      "source_urls": [
+        "https://www.visitjeju.net/kr/detail/view?contentsid=CONT_000000000500559"
+      ],
+      "source_locator": "https://www.visitjeju.net/kr/detail/view?contentsid=CONT_000000000500559",
+      "text": "제주 화산섬과 용암동굴의 세계자연유산 가치를 알리는 전시 공간이다. 제주 화산지형의 형성, 용암동굴과 한라산의 자연환경을 영상과 전시물로 탐구할 수 있다.",
+      "sido": "제주특별자치도",
+      "sigungu": "제주시",
+      "chunk_id": "",
+      "source_locators": [
+        "https://www.visitjeju.net/kr/detail/view?contentsid=CONT_000000000500559"
+      ],
+      "evidence_id": "E5",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=40",
+        "fields": {
+          "name": "제주세계자연유산센터 세계유산전시관",
+          "sido": "제주특별자치도",
+          "sigungu": "제주시",
+          "address": "제주특별자치도 제주시 조천읍 선교로 569-36",
+          "ownership_type": "공립",
+          "adult_fee": "3000",
+          "youth_fee": "2000",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_PAID",
+          "weekday_open": "09:00",
+          "weekday_close": "17:50",
+          "holiday_open": "09:00",
+          "holiday_close": "17:50",
+          "closure_rule_raw": "매월 첫째주 화요일"
+        },
+        "base_data_date": "2026-09-30",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    }
+  ],
+  "answer": "해당하는 곳은 **자연사랑 미술관**입니다. 폐교된 가시초등학교를 전시 공간으로 활용하고, 제주 자연과 민속을 담은 사진가 서재철의 작품을 전시합니다. [E1]",
+  "retrieval_status": "ok",
+  "answer_status": "answered",
+  "route": "hybrid",
+  "retry_count": 0,
+  "supervisor_verified": true,
+  "rerank_applied": false,
+  "retriever_errors": [],
+  "warnings": [
+    "Cross-Encoder reranking failed (FileNotFoundError); RRF order retained"
+  ],
+  "duration_ms": 9758.1,
+  "error_type": "",
+  "hit_at_1": 1,
+  "hit_at_3": 1,
+  "hit_at_5": 1,
+  "recall_at_5": 1.0,
+  "mrr_at_10": 1.0
+}

@@ -1,0 +1,709 @@
+{
+  "mode": "supervisor_full",
+  "question_id": "Q246",
+  "evidence": [
+    {
+      "museum_id": "M0430",
+      "name": "거제박물관",
+      "document": "거제박물관은 거제문화재단 산하의 기관으로서, 1991년 12월 21일에 개관하여, 1992년 문화관광부에 등록한 종합박물관(민속, 고고분야)으로서 거제의 역사와 민속에 관한 자료를 수집, 정리, 연구, 전시하고 있다. 1층은 기획전시실 공간으로 지역 내의 여러 문화행사(전시행사)를 개최할 수 있게 되어 있으며, 2층은 민속실로 거제에서 채집한 민속품이 진열되어 있는데, 섬이라는 환경조건으로 반농반어의 생산 형태를 갖게 되어 농경과 수산에 관계되는 용구가 많이 있다. 3층은 선사시대부터 조선시대까지의 다양한 유물이 전시되어 있다. 이러한 박물관 본연의 사업 외에 난, 수석, 사진 등의 지역 주민을 위한 일반 전시회와 민속품, 소장품 등의 기획 전시, 유물 사생대회와 클래식 음악회, 명사초청 강연회와 가족캠프 등의 문화와 예술에 관한 많은 사업들을 진행하고 있으며, 특히 박물관 대학과 대학원 등을 통해 지역민의 교양을 넓히고, 새로운 정보를 제공하는 사회교육 기능도 하고 있다. 도류+토기+민속품+고서+서화류 등 3500여점 소장",
+      "metadata": {
+        "adult_fee_status": "BASE_FEE_PAID",
+        "address": "경상남도 거제시 거제대로 3791",
+        "closure_rule_raw": "월요일+설당일+추석당일",
+        "sido": "경상남도",
+        "youth_fee": 2000.0,
+        "ownership_type": "사립",
+        "weekday_close": "18:00",
+        "holiday_open": "09:00",
+        "latitude": 34.894053,
+        "source_types": "BASE|TOUR_API",
+        "image_copyright": "Type1",
+        "sigungu": "거제시",
+        "name": "거제박물관",
+        "weekday_open": "09:00",
+        "holiday_close": "18:00",
+        "longitude": 128.6862106,
+        "homepage_url": "http://gjmuseum.or.kr/",
+        "requires_manual_review": true,
+        "adult_fee": 3000.0,
+        "fee_notes": "할인(경로우대, 국가유공자, 장애인, 단체(20인 이상))+무료입장(병역명문가)",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/71/3520971_image2_1.jpg",
+        "child_fee": 1500.0
+      },
+      "vector_rank": 1,
+      "bm25_rank": 1,
+      "vector_distance": 0.4921071529388428,
+      "vector_score": null,
+      "bm25_score": 22.230037654412655,
+      "vector_document": "거제박물관은 거제문화재단 산하의 기관으로서, 1991년 12월 21일에 개관하여, 1992년 문화관광부에 등록한 종합박물관(민속, 고고분야)으로서 거제의 역사와 민속에 관한 자료를 수집, 정리, 연구, 전시하고 있다. 1층은 기획전시실 공간으로 지역 내의 여러 문화행사(전시행사)를 개최할 수 있게 되어 있으며, 2층은 민속실로 거제에서 채집한 민속품이 진열되어 있는데, 섬이라는 환경조건으로 반농반어의 생산 형태를 갖게 되어 농경과 수산에 관계되는 용구가 많이 있다. 3층은 선사시대부터 조선시대까지의 다양한 유물이 전시되어 있다. 이러한 박물관 본연의 사업 외에 난, 수석, 사진 등의 지역 주민을 위한 일반 전시회와 민속품, 소장품 등의 기획 전시, 유물 사생대회와 클래식 음악회, 명사초청 강연회와 가족캠프 등의 문화와 예술에 관한 많은 사업들을 진행하고 있으며, 특히 박물관 대학과 대학원 등을 통해 지역민의 교양을 넓히고, 새로운 정보를 제공하는 사회교육 기능도 하고 있다. 도류+토기+민속품+고서+서화류 등 3500여점 소장",
+      "bm25_document": "거제박물관은 거제문화재단 산하의 기관으로서, 1991년 12월 21일에 개관하여, 1992년 문화관광부에 등록한 종합박물관(민속, 고고분야)으로서 거제의 역사와 민속에 관한 자료를 수집, 정리, 연구, 전시하고 있다. 1층은 기획전시실 공간으로 지역 내의 여러 문화행사(전시행사)를 개최할 수 있게 되어 있으며, 2층은 민속실로 거제에서 채집한 민속품이 진열되어 있는데, 섬이라는 환경조건으로 반농반어의 생산 형태를 갖게 되어 농경과 수산에 관계되는 용구가 많이 있다. 3층은 선사시대부터 조선시대까지의 다양한 유물이 전시되어 있다. 이러한 박물관 본연의 사업 외에 난, 수석, 사진 등의 지역 주민을 위한 일반 전시회와 민속품, 소장품 등의 기획 전시, 유물 사생대회와 클래식 음악회, 명사초청 강연회와 가족캠프 등의 문화와 예술에 관한 많은 사업들을 진행하고 있으며, 특히 박물관 대학과 대학원 등을 통해 지역민의 교양을 넓히고, 새로운 정보를 제공하는 사회교육 기능도 하고 있다. 도류+토기+민속품+고서+서화류 등 3500여점 소장",
+      "best_span_id": "chroma:M0430",
+      "best_span_text": "거제박물관은 거제문화재단 산하의 기관으로서, 1991년 12월 21일에 개관하여, 1992년 문화관광부에 등록한 종합박물관(민속, 고고분야)으로서 거제의 역사와 민속에 관한 자료를 수집, 정리, 연구, 전시하고 있다. 1층은 기획전시실 공간으로 지역 내의 여러 문화행사(전시행사)를 개최할 수 있게 되어 있으며, 2층은 민속실로 거제에서 채집한 민속품이 진열되어 있는데, 섬이라는 환경조건으로 반농반어의 생산 형태를 갖게 되어 농경과 수산에 관계되는 용구가 많이 있다. 3층은 선사시대부터 조선시대까지의 다양한 유물이 전시되어 있다. 이러한 박물관 본연의 사업 외에 난, 수석, 사진 등의 지역 주민을 위한 일반 전시회와 민속품, 소장품 등의 기획 전시, 유물 사생대회와 클래식 음악회, 명사초청 강연회와 가족캠프 등의 문화와 예술에 관한 많은 사업들을 진행하고 있으며, 특히 박물관 대학과 대학원 등을 통해 지역민의 교양을 넓히고, 새로운 정보를 제공하는 사회교육 기능도 하고 있다. 도류+토기+민속품+고서+서화류 등 3500여점 소장",
+      "fusion_score": 0.03278688524590164,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 1,
+      "name_match": true,
+      "rerank_score": null,
+      "rank": 1,
+      "score": 0.03278688524590164,
+      "score_type": "rrf",
+      "distance": 0.4921071529388428,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0430",
+      "source_doc_ids": [
+        "DOC-B0430-TOUR_API-129805",
+        "DOC-B0430-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0430-TOUR_API-129805",
+          "source_type": "TOUR_API",
+          "source_record_id": "129805",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=204",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        },
+        {
+          "doc_id": "DOC-B0430-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0430",
+          "source_locator": "data/raw/museum_base_1070.csv#row=431",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 121,
+          "doc_ids": [
+            "DOC-B0430-TOUR_API-129805"
+          ]
+        },
+        {
+          "start": 122,
+          "end": 262,
+          "doc_ids": [
+            "DOC-B0430-TOUR_API-129805"
+          ]
+        },
+        {
+          "start": 263,
+          "end": 298,
+          "doc_ids": [
+            "DOC-B0430-TOUR_API-129805"
+          ]
+        },
+        {
+          "start": 299,
+          "end": 495,
+          "doc_ids": [
+            "DOC-B0430-TOUR_API-129805"
+          ]
+        },
+        {
+          "start": 496,
+          "end": 524,
+          "doc_ids": [
+            "DOC-B0430-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=204",
+      "text": "거제박물관은 거제문화재단 산하의 기관으로서, 1991년 12월 21일에 개관하여, 1992년 문화관광부에 등록한 종합박물관(민속, 고고분야)으로서 거제의 역사와 민속에 관한 자료를 수집, 정리, 연구, 전시하고 있다. 1층은 기획전시실 공간으로 지역 내의 여러 문화행사(전시행사)를 개최할 수 있게 되어 있으며, 2층은 민속실로 거제에서 채집한 민속품이 진열되어 있는데, 섬이라는 환경조건으로 반농반어의 생산 형태를 갖게 되어 농경과 수산에 관계되는 용구가 많이 있다. 3층은 선사시대부터 조선시대까지의 다양한 유물이 전시되어 있다. 이러한 박물관 본연의 사업 외에 난, 수석, 사진 등의 지역 주민을 위한 일반 전시회와 민속품, 소장품 등의 기획 전시, 유물 사생대회와 클래식 음악회, 명사초청 강연회와 가족캠프 등의 문화와 예술에 관한 많은 사업들을 진행하고 있으며, 특히 박물관 대학과 대학원 등을 통해 지역민의 교양을 넓히고, 새로운 정보를 제공하는 사회교육 기능도 하고 있다. 도류+토기+민속품+고서+서화류 등 3500여점 소장",
+      "sido": "경상남도",
+      "sigungu": "거제시",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=204"
+      ],
+      "evidence_id": "E1",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=304",
+        "fields": {
+          "name": "거제박물관",
+          "sido": "경상남도",
+          "sigungu": "거제시",
+          "address": "경상남도 거제시 거제대로 3791",
+          "ownership_type": "사립",
+          "adult_fee": "3000",
+          "youth_fee": "2000",
+          "child_fee": "1500",
+          "adult_fee_status": "BASE_FEE_PAID",
+          "weekday_open": "09:00",
+          "weekday_close": "18:00",
+          "holiday_open": "09:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "월요일+설당일+추석당일"
+        },
+        "base_data_date": "2026-03-26",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0268",
+      "name": "통영시립박물관",
+      "document": "통영시립박물관은 2013년 개관한 통영의 시립박물관으로, 시민들에게 문화예술의 체험 기회를 극대화하고 통영 문화예술의 활성화와 국제 문화교류에 이바지하기 위해 건립했다. 통영의 역사유물을 전시하고 기획하는 한편, 예술, 디자인 관련 세미나와 교육프로그램을 마련하고 공연, 영화상영 등 다양한 문화행사와 기획전시 및 박물관대학 등을 운영하고 있다. 통영시립박물관은 총 2층으로 1층에는 기획전시실과 세미나실, 2층에는 역사실, 민속실, 관장실 등 볼거리가 다양하다.",
+      "metadata": {
+        "sigungu": "통영시",
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "requires_manual_review": true,
+        "source_types": "TOUR_API",
+        "amenities_raw": "주차장",
+        "holiday_close": "18:00",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/16/3556816_image2_1.jpg",
+        "ownership_type": "공립",
+        "child_fee": 0.0,
+        "closure_rule_raw": "월+설당일+추석당일",
+        "transport_notes": "통영미늘고개>롯데마트방면 진입>산복도로>충렬사교차로에서 좌회전 400M>신협앞우회전진입>50M전방에서 통영시립박물관 도착",
+        "weekday_open": "09:00",
+        "weekday_close": "18:00",
+        "longitude": 128.4167887,
+        "name": "통영시립박물관",
+        "sido": "경상남도",
+        "homepage_url": "https://museum.tongyeong.go.kr/",
+        "holiday_open": "09:00",
+        "image_copyright": "Type1",
+        "address": "경상남도 통영시 중앙로 65(도천동)",
+        "youth_fee": 0.0,
+        "adult_fee": 0.0,
+        "latitude": 34.84075153
+      },
+      "vector_rank": 8,
+      "bm25_rank": 16,
+      "vector_distance": 0.5381180047988892,
+      "vector_score": null,
+      "bm25_score": 10.675234987800843,
+      "vector_document": "통영시립박물관은 2013년 개관한 통영의 시립박물관으로, 시민들에게 문화예술의 체험 기회를 극대화하고 통영 문화예술의 활성화와 국제 문화교류에 이바지하기 위해 건립했다. 통영의 역사유물을 전시하고 기획하는 한편, 예술, 디자인 관련 세미나와 교육프로그램을 마련하고 공연, 영화상영 등 다양한 문화행사와 기획전시 및 박물관대학 등을 운영하고 있다. 통영시립박물관은 총 2층으로 1층에는 기획전시실과 세미나실, 2층에는 역사실, 민속실, 관장실 등 볼거리가 다양하다.",
+      "bm25_document": "통영시립박물관은 2013년 개관한 통영의 시립박물관으로, 시민들에게 문화예술의 체험 기회를 극대화하고 통영 문화예술의 활성화와 국제 문화교류에 이바지하기 위해 건립했다. 통영의 역사유물을 전시하고 기획하는 한편, 예술, 디자인 관련 세미나와 교육프로그램을 마련하고 공연, 영화상영 등 다양한 문화행사와 기획전시 및 박물관대학 등을 운영하고 있다. 통영시립박물관은 총 2층으로 1층에는 기획전시실과 세미나실, 2층에는 역사실, 민속실, 관장실 등 볼거리가 다양하다.",
+      "best_span_id": "chroma:M0268",
+      "best_span_text": "통영시립박물관은 2013년 개관한 통영의 시립박물관으로, 시민들에게 문화예술의 체험 기회를 극대화하고 통영 문화예술의 활성화와 국제 문화교류에 이바지하기 위해 건립했다. 통영의 역사유물을 전시하고 기획하는 한편, 예술, 디자인 관련 세미나와 교육프로그램을 마련하고 공연, 영화상영 등 다양한 문화행사와 기획전시 및 박물관대학 등을 운영하고 있다. 통영시립박물관은 총 2층으로 1층에는 기획전시실과 세미나실, 2층에는 역사실, 민속실, 관장실 등 볼거리가 다양하다.",
+      "fusion_score": 0.02786377708978328,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 2,
+      "rerank_score": null,
+      "rank": 2,
+      "score": 0.02786377708978328,
+      "score_type": "rrf",
+      "distance": 0.5381180047988892,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0268",
+      "source_doc_ids": [
+        "DOC-B0268-TOUR_API-2370207"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0268-TOUR_API-2370207",
+          "source_type": "TOUR_API",
+          "source_record_id": "2370207",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=135",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 94,
+          "doc_ids": [
+            "DOC-B0268-TOUR_API-2370207"
+          ]
+        },
+        {
+          "start": 95,
+          "end": 193,
+          "doc_ids": [
+            "DOC-B0268-TOUR_API-2370207"
+          ]
+        },
+        {
+          "start": 194,
+          "end": 259,
+          "doc_ids": [
+            "DOC-B0268-TOUR_API-2370207"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=135",
+      "text": "통영시립박물관은 2013년 개관한 통영의 시립박물관으로, 시민들에게 문화예술의 체험 기회를 극대화하고 통영 문화예술의 활성화와 국제 문화교류에 이바지하기 위해 건립했다. 통영의 역사유물을 전시하고 기획하는 한편, 예술, 디자인 관련 세미나와 교육프로그램을 마련하고 공연, 영화상영 등 다양한 문화행사와 기획전시 및 박물관대학 등을 운영하고 있다. 통영시립박물관은 총 2층으로 1층에는 기획전시실과 세미나실, 2층에는 역사실, 민속실, 관장실 등 볼거리가 다양하다.",
+      "sido": "경상남도",
+      "sigungu": "통영시",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=135"
+      ],
+      "evidence_id": "E2",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=190",
+        "fields": {
+          "name": "통영시립박물관",
+          "sido": "경상남도",
+          "sigungu": "통영시",
+          "address": "경상남도 통영시 중앙로 65(도천동)",
+          "ownership_type": "공립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "09:00",
+          "weekday_close": "18:00",
+          "holiday_open": "09:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "월+설당일+추석당일",
+          "amenities_raw": "주차장"
+        },
+        "base_data_date": "2026-07-09",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0679",
+      "name": "(사)진주어린이박물관",
+      "document": "업사이클아트 작품 관람, 미디어아트 체험, 기획전시장 관람 및 체험, 생태미술관람 및 체험, VR 체험이 가능",
+      "metadata": {
+        "holiday_close": "19:00",
+        "name": "(사)진주어린이박물관",
+        "holiday_open": "10:20",
+        "sigungu": "진주시",
+        "address": "경상남도 진주시 망경로 224번길 40",
+        "latitude": 35.1811237,
+        "youth_fee": 15000.0,
+        "adult_fee_status": "BASE_FEE_PAID",
+        "homepage_url": "https://jcm.or.kr/jjcm/main/index.php",
+        "sido": "경상남도",
+        "requires_manual_review": true,
+        "child_fee": 15000.0,
+        "adult_fee": 7000.0,
+        "weekday_open": "10:20",
+        "source_types": "BASE",
+        "longitude": 128.0788419,
+        "ownership_type": "사립",
+        "fee_notes": "30 할인(국가유공자+ 장애인+국민기초생활수급자+다자녀가구+ 만 65세 이상)+ 제휴기관 할인+무료(36개월미만 어린이 동반시 입장가능)+단체25명이상 10000원",
+        "weekday_close": "19:00",
+        "transport_notes": "시내버스(121번+136번)",
+        "closure_rule_raw": "일+1월 1일+설날연휴+추석연휴"
+      },
+      "vector_rank": 2,
+      "bm25_rank": null,
+      "vector_distance": 0.5121756792068481,
+      "vector_score": null,
+      "bm25_score": null,
+      "vector_document": "업사이클아트 작품 관람, 미디어아트 체험, 기획전시장 관람 및 체험, 생태미술관람 및 체험, VR 체험이 가능",
+      "bm25_document": "",
+      "best_span_id": null,
+      "best_span_text": null,
+      "fusion_score": 0.016129032258064516,
+      "retrieved_by": [
+        "vector"
+      ],
+      "fusion_rank": 3,
+      "rerank_score": null,
+      "rank": 3,
+      "score": 0.016129032258064516,
+      "score_type": "rrf",
+      "distance": 0.5121756792068481,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector"
+      ],
+      "retriever": "vector",
+      "source_doc_ids": [
+        "DOC-B0679-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0679-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0679",
+          "source_locator": "data/raw/museum_base_1070.csv#row=680",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 61,
+          "doc_ids": [
+            "DOC-B0679-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_base_1070.csv#row=680",
+      "text": "업사이클아트 작품 관람, 미디어아트 체험, 기획전시장 관람 및 체험, 생태미술관람 및 체험, VR 체험이 가능",
+      "sido": "경상남도",
+      "sigungu": "진주시",
+      "span_id": "",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_base_1070.csv#row=680"
+      ],
+      "evidence_id": "E3",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=469",
+        "fields": {
+          "name": "(사)진주어린이박물관",
+          "sido": "경상남도",
+          "sigungu": "진주시",
+          "address": "경상남도 진주시 망경로 224번길 40",
+          "ownership_type": "사립",
+          "adult_fee": "7000",
+          "youth_fee": "15000",
+          "child_fee": "15000",
+          "adult_fee_status": "BASE_FEE_PAID",
+          "weekday_open": "10:20",
+          "weekday_close": "19:00",
+          "holiday_open": "10:20",
+          "holiday_close": "19:00",
+          "closure_rule_raw": "일+1월 1일+설날연휴+추석연휴"
+        },
+        "base_data_date": "2025-11-04",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0433",
+      "name": "거제어촌민속전시관",
+      "document": "거제어촌민속전시관은 남해안의 어촌생활사에 관한 전시를 관람할 수 있는 곳이다. 전통의 바다에서는 거제의 역사부터 인물, 문화유적, 민요, 옛 생활 등의 전통을 알아볼 수 있다. 생활의 바다에서는 거제의 수산음식, 생활도구, 어선, 어구, 어법 등 생활요소들을 알아볼 수 있으며, 부흥의 바다에서는 거제의 입지조건, 연근해산수업, 해양생물, 굴이야기 등을, 체험의 바다에서는 거제의 특산물과 관광 등을 알아볼 수 있다. 민속품+패류+어구+어류박제품 등 2120여점 소장",
+      "metadata": {
+        "adult_fee_status": "BASE_FEE_PAID",
+        "weekday_close": "18:00",
+        "adult_fee": 3000.0,
+        "youth_fee": 2000.0,
+        "sido": "경상남도",
+        "requires_manual_review": true,
+        "name": "거제어촌민속전시관",
+        "address": "경상남도 거제시 일운면 지세포해안로 41",
+        "holiday_open": "09:00",
+        "sigungu": "거제시",
+        "holiday_close": "18:00",
+        "ownership_type": "공립",
+        "fee_notes": "할인(거제시민+만 65세 이상+관광지 통합이용권 이용자+상호협약 체결 시설 당일 입장권 소지자+단체 30명 이상)+무료(미취학 아동 + 국가보훈대상자+ 장애인+ 다자녀가정 + 기초생활수급자)",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/52/3514952_image2_1.jpg",
+        "source_types": "BASE|TOUR_API",
+        "homepage_url": "http://www.gmdc.co.kr/_marine/",
+        "weekday_open": "09:00",
+        "child_fee": 1000.0,
+        "closure_rule_raw": "1월1일+설당일+추석당일+월요일(단, 월요일이 공휴일인 경우 당일은 개관하고 그 다음 첫번째 평일에 휴관)",
+        "latitude": 34.83369365,
+        "image_copyright": "Type1",
+        "longitude": 128.7018853
+      },
+      "vector_rank": null,
+      "bm25_rank": 2,
+      "vector_distance": null,
+      "vector_score": null,
+      "bm25_score": 14.837423914472343,
+      "vector_document": "",
+      "bm25_document": "거제어촌민속전시관은 남해안의 어촌생활사에 관한 전시를 관람할 수 있는 곳이다. 전통의 바다에서는 거제의 역사부터 인물, 문화유적, 민요, 옛 생활 등의 전통을 알아볼 수 있다. 생활의 바다에서는 거제의 수산음식, 생활도구, 어선, 어구, 어법 등 생활요소들을 알아볼 수 있으며, 부흥의 바다에서는 거제의 입지조건, 연근해산수업, 해양생물, 굴이야기 등을, 체험의 바다에서는 거제의 특산물과 관광 등을 알아볼 수 있다. 민속품+패류+어구+어류박제품 등 2120여점 소장",
+      "best_span_id": "chroma:M0433",
+      "best_span_text": "거제어촌민속전시관은 남해안의 어촌생활사에 관한 전시를 관람할 수 있는 곳이다. 전통의 바다에서는 거제의 역사부터 인물, 문화유적, 민요, 옛 생활 등의 전통을 알아볼 수 있다. 생활의 바다에서는 거제의 수산음식, 생활도구, 어선, 어구, 어법 등 생활요소들을 알아볼 수 있으며, 부흥의 바다에서는 거제의 입지조건, 연근해산수업, 해양생물, 굴이야기 등을, 체험의 바다에서는 거제의 특산물과 관광 등을 알아볼 수 있다. 민속품+패류+어구+어류박제품 등 2120여점 소장",
+      "fusion_score": 0.016129032258064516,
+      "retrieved_by": [
+        "bm25"
+      ],
+      "fusion_rank": 4,
+      "rerank_score": null,
+      "rank": 4,
+      "score": 0.016129032258064516,
+      "score_type": "rrf",
+      "distance": null,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "bm25"
+      ],
+      "retriever": "bm25",
+      "span_id": "chroma:M0433",
+      "source_doc_ids": [
+        "DOC-B0433-TOUR_API-1622179",
+        "DOC-B0433-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0433-TOUR_API-1622179",
+          "source_type": "TOUR_API",
+          "source_record_id": "1622179",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=207",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        },
+        {
+          "doc_id": "DOC-B0433-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0433",
+          "source_locator": "data/raw/museum_base_1070.csv#row=434",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 43,
+          "doc_ids": [
+            "DOC-B0433-TOUR_API-1622179"
+          ]
+        },
+        {
+          "start": 44,
+          "end": 98,
+          "doc_ids": [
+            "DOC-B0433-TOUR_API-1622179"
+          ]
+        },
+        {
+          "start": 99,
+          "end": 233,
+          "doc_ids": [
+            "DOC-B0433-TOUR_API-1622179"
+          ]
+        },
+        {
+          "start": 234,
+          "end": 261,
+          "doc_ids": [
+            "DOC-B0433-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=207",
+      "text": "거제어촌민속전시관은 남해안의 어촌생활사에 관한 전시를 관람할 수 있는 곳이다. 전통의 바다에서는 거제의 역사부터 인물, 문화유적, 민요, 옛 생활 등의 전통을 알아볼 수 있다. 생활의 바다에서는 거제의 수산음식, 생활도구, 어선, 어구, 어법 등 생활요소들을 알아볼 수 있으며, 부흥의 바다에서는 거제의 입지조건, 연근해산수업, 해양생물, 굴이야기 등을, 체험의 바다에서는 거제의 특산물과 관광 등을 알아볼 수 있다. 민속품+패류+어구+어류박제품 등 2120여점 소장",
+      "sido": "경상남도",
+      "sigungu": "거제시",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=207"
+      ],
+      "evidence_id": "E4",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=307",
+        "fields": {
+          "name": "거제어촌민속전시관",
+          "sido": "경상남도",
+          "sigungu": "거제시",
+          "address": "경상남도 거제시 일운면 지세포해안로 41",
+          "ownership_type": "공립",
+          "adult_fee": "3000",
+          "youth_fee": "2000",
+          "child_fee": "1000",
+          "adult_fee_status": "BASE_FEE_PAID",
+          "weekday_open": "09:00",
+          "weekday_close": "18:00",
+          "holiday_open": "09:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "1월1일+설당일+추석당일+월요일(단, 월요일이 공휴일인 경우 당일은 개관하고 그 다음 첫번째 평일에 휴관)"
+        },
+        "base_data_date": "2026-03-26",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0462",
+      "name": "서호미술관",
+      "document": "서호미술관은 2001년 5월 25일, 서울 인사동에서 운영되던 갤러리 서호가 지방 문화의 균형적 발전을 도모하기 위해 경기도 남양주시 조안면 북한강변에 개관한 복합문화전시공간이다. 이후 2007년 1종 미술관으로 등록되며 지역의 문화예술 진흥과 미술 향유 기회 확대에 기여해 왔다. 개관 이후 현재까지 동시대 미술의 다양한 흐름을 반영한 전시와 인문학·체험 프로그램 등 폭넓은 문화행사를 꾸준히 개최하고 있다. 특히 신진작가 발굴과 지역작가 지원을 핵심 운영 방향으로 삼아 미래지향적 예술 담론을 형성하고, 예술을 통한 지역사회 문화 활성화에 앞장서고 있다. 전시뿐 아니라 교육기관 및 지역 단체와 연계하여 예술체험학습·인문학 특강·찾아가는 미술관 프로그램 등을 운영하며 예술의 대중화와 문화복지 실현을 위한 공공적 역할을 수행하고 있다. 이처럼 서호미술관은 자연과 예술, 지역과 인간이 어우러지는 복합문화예술공간으로 예술을 통해 삶의 풍요로움과 공동체의 문화적 성장을 지향하고 있다. 1층에는 약 70평 규모의 전시실과 학예실이, 2층에는 관람객의 휴식과 교류를 위한 100석 규모의 레스토랑이 마련되어 있다. 그리고 약 500평의 야외 정원은 문화행사, 야외조각전, 공연 등 예술과 자연이 공존하는 열린 문화의 장으로 활용되고 있다. 또한, 2017년에 40평 규모의 한옥 별관을 증축하여 전시 구성을 더욱 풍성하게 만들고, 한옥에 대한 이해를 높이고 있다.",
+      "metadata": {
+        "youth_fee": 3000.0,
+        "sigungu": "남양주시",
+        "weekday_close": "18:00",
+        "image_copyright": "Type3",
+        "weekday_open": "10:00",
+        "closure_rule_raw": "설 연휴+추석 연휴",
+        "child_fee": 2000.0,
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/44/3565444_image2_1.JPG",
+        "adult_fee": 5000.0,
+        "ownership_type": "사립",
+        "homepage_url": "http://www.seohoart.com/",
+        "latitude": 37.63270736,
+        "holiday_open": "10:00",
+        "longitude": 127.3515079,
+        "address": "경기도 남양주시 화도읍 북한강로 1344",
+        "requires_manual_review": true,
+        "name": "서호미술관",
+        "adult_fee_status": "BASE_FEE_PAID",
+        "source_types": "TOUR_API",
+        "holiday_close": "18:00",
+        "sido": "경기도"
+      },
+      "vector_rank": 3,
+      "bm25_rank": null,
+      "vector_distance": 0.5309830904006958,
+      "vector_score": null,
+      "bm25_score": null,
+      "vector_document": "서호미술관은 2001년 5월 25일, 서울 인사동에서 운영되던 갤러리 서호가 지방 문화의 균형적 발전을 도모하기 위해 경기도 남양주시 조안면 북한강변에 개관한 복합문화전시공간이다. 이후 2007년 1종 미술관으로 등록되며 지역의 문화예술 진흥과 미술 향유 기회 확대에 기여해 왔다. 개관 이후 현재까지 동시대 미술의 다양한 흐름을 반영한 전시와 인문학·체험 프로그램 등 폭넓은 문화행사를 꾸준히 개최하고 있다. 특히 신진작가 발굴과 지역작가 지원을 핵심 운영 방향으로 삼아 미래지향적 예술 담론을 형성하고, 예술을 통한 지역사회 문화 활성화에 앞장서고 있다. 전시뿐 아니라 교육기관 및 지역 단체와 연계하여 예술체험학습·인문학 특강·찾아가는 미술관 프로그램 등을 운영하며 예술의 대중화와 문화복지 실현을 위한 공공적 역할을 수행하고 있다. 이처럼 서호미술관은 자연과 예술, 지역과 인간이 어우러지는 복합문화예술공간으로 예술을 통해 삶의 풍요로움과 공동체의 문화적 성장을 지향하고 있다. 1층에는 약 70평 규모의 전시실과 학예실이, 2층에는 관람객의 휴식과 교류를 위한 100석 규모의 레스토랑이 마련되어 있다. 그리고 약 500평의 야외 정원은 문화행사, 야외조각전, 공연 등 예술과 자연이 공존하는 열린 문화의 장으로 활용되고 있다. 또한, 2017년에 40평 규모의 한옥 별관을 증축하여 전시 구성을 더욱 풍성하게 만들고, 한옥에 대한 이해를 높이고 있다.",
+      "bm25_document": "",
+      "best_span_id": null,
+      "best_span_text": null,
+      "fusion_score": 0.015873015873015872,
+      "retrieved_by": [
+        "vector"
+      ],
+      "fusion_rank": 5,
+      "rerank_score": null,
+      "rank": 5,
+      "score": 0.015873015873015872,
+      "score_type": "rrf",
+      "distance": 0.5309830904006958,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector"
+      ],
+      "retriever": "vector",
+      "source_doc_ids": [
+        "DOC-B0462-TOUR_API-130709"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0462-TOUR_API-130709",
+          "source_type": "TOUR_API",
+          "source_record_id": "130709",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=225",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 100,
+          "doc_ids": [
+            "DOC-B0462-TOUR_API-130709"
+          ]
+        },
+        {
+          "start": 101,
+          "end": 157,
+          "doc_ids": [
+            "DOC-B0462-TOUR_API-130709"
+          ]
+        },
+        {
+          "start": 158,
+          "end": 229,
+          "doc_ids": [
+            "DOC-B0462-TOUR_API-130709"
+          ]
+        },
+        {
+          "start": 230,
+          "end": 312,
+          "doc_ids": [
+            "DOC-B0462-TOUR_API-130709"
+          ]
+        },
+        {
+          "start": 313,
+          "end": 413,
+          "doc_ids": [
+            "DOC-B0462-TOUR_API-130709"
+          ]
+        },
+        {
+          "start": 414,
+          "end": 495,
+          "doc_ids": [
+            "DOC-B0462-TOUR_API-130709"
+          ]
+        },
+        {
+          "start": 496,
+          "end": 566,
+          "doc_ids": [
+            "DOC-B0462-TOUR_API-130709"
+          ]
+        },
+        {
+          "start": 567,
+          "end": 636,
+          "doc_ids": [
+            "DOC-B0462-TOUR_API-130709"
+          ]
+        },
+        {
+          "start": 637,
+          "end": 706,
+          "doc_ids": [
+            "DOC-B0462-TOUR_API-130709"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=225",
+      "text": "서호미술관은 2001년 5월 25일, 서울 인사동에서 운영되던 갤러리 서호가 지방 문화의 균형적 발전을 도모하기 위해 경기도 남양주시 조안면 북한강변에 개관한 복합문화전시공간이다. 이후 2007년 1종 미술관으로 등록되며 지역의 문화예술 진흥과 미술 향유 기회 확대에 기여해 왔다. 개관 이후 현재까지 동시대 미술의 다양한 흐름을 반영한 전시와 인문학·체험 프로그램 등 폭넓은 문화행사를 꾸준히 개최하고 있다. 특히 신진작가 발굴과 지역작가 지원을 핵심 운영 방향으로 삼아 미래지향적 예술 담론을 형성하고, 예술을 통한 지역사회 문화 활성화에 앞장서고 있다. 전시뿐 아니라 교육기관 및 지역 단체와 연계하여 예술체험학습·인문학 특강·찾아가는 미술관 프로그램 등을 운영하며 예술의 대중화와 문화복지 실현을 위한 공공적 역할을 수행하고 있다. 이처럼 서호미술관은 자연과 예술, 지역과 인간이 어우러지는 복합문화예술공간으로 예술을 통해 삶의 풍요로움과 공동체의 문화적 성장을 지향하고 있다. 1층에는 약 70평 규모의 전시실과 학예실이, 2층에는 관람객의 휴식과 교류를 위한 100석 규모의 레스토랑이 마련되어 있다. 그리고 약 500평의 야외 정원은 문화행사, 야외조각전, 공연 등 예술과 자연이 공존하는 열린 문화의 장으로 활용되고 있다. 또한, 2017년에 40평 규모의 한옥 별관을 증축하여 전시 구성을 더욱 풍성하게 만들고, 한옥에 대한 이해를 높이고 있다.",
+      "sido": "경기도",
+      "sigungu": "남양주시",
+      "span_id": "",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=225"
+      ],
+      "evidence_id": "E5",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=333",
+        "fields": {
+          "name": "서호미술관",
+          "sido": "경기도",
+          "sigungu": "남양주시",
+          "address": "경기도 남양주시 화도읍 북한강로 1344",
+          "ownership_type": "사립",
+          "adult_fee": "5000",
+          "youth_fee": "3000",
+          "child_fee": "2000",
+          "adult_fee_status": "BASE_FEE_PAID",
+          "weekday_open": "10:00",
+          "weekday_close": "18:00",
+          "holiday_open": "10:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "설 연휴+추석 연휴"
+        },
+        "base_data_date": "2026-04-01",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    }
+  ],
+  "answer": "거제박물관은 문화·예술 관련 사업으로 지역 주민을 위한 난·수석·사진 일반 전시회와 민속품·소장품 기획전시를 진행합니다. 유물 사생대회, 클래식 음악회, 명사 초청 강연회, 가족캠프도 운영하며, 박물관 대학·대학원을 통한 사회교육도 실시합니다. [E1]",
+  "retrieval_status": "ok",
+  "answer_status": "answered",
+  "route": "hybrid",
+  "retry_count": 0,
+  "supervisor_verified": true,
+  "rerank_applied": false,
+  "retriever_errors": [],
+  "warnings": [
+    "Cross-Encoder reranking failed (FileNotFoundError); RRF order retained"
+  ],
+  "duration_ms": 11300.24,
+  "error_type": "",
+  "hit_at_1": 1,
+  "hit_at_3": 1,
+  "hit_at_5": 1,
+  "recall_at_5": 1.0,
+  "mrr_at_10": 1.0
+}

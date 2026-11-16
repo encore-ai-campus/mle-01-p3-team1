@@ -1,0 +1,742 @@
+{
+  "mode": "supervisor_full",
+  "question_id": "Q215",
+  "evidence": [
+    {
+      "museum_id": "M0357",
+      "name": "춘천미술관",
+      "document": "춘천미술관은 호반의 도시 춘천을 예술과 문화가 살아 숨 쉬는 도시로 가꾸어 나가기 위한 춘천 미술협회의 노력으로 1995년 삼천동 어린이회관 전시실에서 시작되었다. 그동안 춘천 미술인들의 활발한 작품 발표의 장이 되어 미술 문화의 저변 확대와 시민들의 생활에 청량제 역할을 하여 왔던 삼천동 춘천미술관이, 시민들에게 더욱 가까이 가기 위한 적극적인 노력의 일환으로 옥천동 옛 중앙감리교회 건물을 전시장으로 단장하여 새로운 출발을 하게 되었다. 춘천 미술관은 시민들 누구나 쉽게 다가와 신선한 문화의 향기를 함께 호흡할 수 있는 편안한 시민의 문화 휴식 공간이다. 고풍스러운 옛 교회건물을 리모델링하여 사용하고 있는 미술관으로 매주 색다른 작가들의 전시 관람 가능",
+      "metadata": {
+        "latitude": 37.882376,
+        "address": "강원특별자치도 춘천시 서부대성로 71",
+        "child_fee": 0.0,
+        "weekday_close": "18:00",
+        "holiday_open": "10:00",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/52/4105052_image2_1.jpg",
+        "image_copyright": "Type1",
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "homepage_url": "http://cafe.daum.net/CCART",
+        "adult_fee": 0.0,
+        "sido": "강원특별자치도",
+        "holiday_close": "18:00",
+        "longitude": 127.731333,
+        "closure_rule_raw": "토(전시있을 시 개관)+일(전시있을 시 개관)",
+        "ownership_type": "공립",
+        "name": "춘천미술관",
+        "source_types": "BASE|TOUR_API",
+        "requires_manual_review": true,
+        "youth_fee": 0.0,
+        "fee_notes": "전부 무료",
+        "weekday_open": "10:00",
+        "sigungu": "춘천시",
+        "transport_notes": "1)대중교통 : 춘천역환승센터[1164]- 300번 버스 - 춘천시청별관 정류장 하차, 도보 8분+2)승용차  : 서울양양고속도로(남춘천IC), 일반도로(46번경춘국도-403번도로)"
+      },
+      "vector_rank": 1,
+      "bm25_rank": 1,
+      "vector_distance": 0.46364402770996094,
+      "vector_score": null,
+      "bm25_score": 25.539436604679835,
+      "vector_document": "춘천미술관은 호반의 도시 춘천을 예술과 문화가 살아 숨 쉬는 도시로 가꾸어 나가기 위한 춘천 미술협회의 노력으로 1995년 삼천동 어린이회관 전시실에서 시작되었다. 그동안 춘천 미술인들의 활발한 작품 발표의 장이 되어 미술 문화의 저변 확대와 시민들의 생활에 청량제 역할을 하여 왔던 삼천동 춘천미술관이, 시민들에게 더욱 가까이 가기 위한 적극적인 노력의 일환으로 옥천동 옛 중앙감리교회 건물을 전시장으로 단장하여 새로운 출발을 하게 되었다. 춘천 미술관은 시민들 누구나 쉽게 다가와 신선한 문화의 향기를 함께 호흡할 수 있는 편안한 시민의 문화 휴식 공간이다. 고풍스러운 옛 교회건물을 리모델링하여 사용하고 있는 미술관으로 매주 색다른 작가들의 전시 관람 가능",
+      "bm25_document": "춘천미술관은 호반의 도시 춘천을 예술과 문화가 살아 숨 쉬는 도시로 가꾸어 나가기 위한 춘천 미술협회의 노력으로 1995년 삼천동 어린이회관 전시실에서 시작되었다. 그동안 춘천 미술인들의 활발한 작품 발표의 장이 되어 미술 문화의 저변 확대와 시민들의 생활에 청량제 역할을 하여 왔던 삼천동 춘천미술관이, 시민들에게 더욱 가까이 가기 위한 적극적인 노력의 일환으로 옥천동 옛 중앙감리교회 건물을 전시장으로 단장하여 새로운 출발을 하게 되었다. 춘천 미술관은 시민들 누구나 쉽게 다가와 신선한 문화의 향기를 함께 호흡할 수 있는 편안한 시민의 문화 휴식 공간이다. 고풍스러운 옛 교회건물을 리모델링하여 사용하고 있는 미술관으로 매주 색다른 작가들의 전시 관람 가능",
+      "best_span_id": "chroma:M0357",
+      "best_span_text": "춘천미술관은 호반의 도시 춘천을 예술과 문화가 살아 숨 쉬는 도시로 가꾸어 나가기 위한 춘천 미술협회의 노력으로 1995년 삼천동 어린이회관 전시실에서 시작되었다. 그동안 춘천 미술인들의 활발한 작품 발표의 장이 되어 미술 문화의 저변 확대와 시민들의 생활에 청량제 역할을 하여 왔던 삼천동 춘천미술관이, 시민들에게 더욱 가까이 가기 위한 적극적인 노력의 일환으로 옥천동 옛 중앙감리교회 건물을 전시장으로 단장하여 새로운 출발을 하게 되었다. 춘천 미술관은 시민들 누구나 쉽게 다가와 신선한 문화의 향기를 함께 호흡할 수 있는 편안한 시민의 문화 휴식 공간이다. 고풍스러운 옛 교회건물을 리모델링하여 사용하고 있는 미술관으로 매주 색다른 작가들의 전시 관람 가능",
+      "fusion_score": 0.03278688524590164,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 1,
+      "name_match": true,
+      "rerank_score": null,
+      "rank": 1,
+      "score": 0.03278688524590164,
+      "score_type": "rrf",
+      "distance": 0.46364402770996094,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0357",
+      "source_doc_ids": [
+        "DOC-B0357-TOUR_API-130661",
+        "DOC-B0357-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0357-TOUR_API-130661",
+          "source_type": "TOUR_API",
+          "source_record_id": "130661",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=169",
+          "match_trust": "RECHECKED_BY_RULE_NOT_HUMAN_APPROVED"
+        },
+        {
+          "doc_id": "DOC-B0357-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0357",
+          "source_locator": "data/raw/museum_base_1070.csv#row=358",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 91,
+          "doc_ids": [
+            "DOC-B0357-TOUR_API-130661"
+          ]
+        },
+        {
+          "start": 92,
+          "end": 247,
+          "doc_ids": [
+            "DOC-B0357-TOUR_API-130661"
+          ]
+        },
+        {
+          "start": 248,
+          "end": 314,
+          "doc_ids": [
+            "DOC-B0357-TOUR_API-130661"
+          ]
+        },
+        {
+          "start": 315,
+          "end": 370,
+          "doc_ids": [
+            "DOC-B0357-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=169",
+      "text": "춘천미술관은 호반의 도시 춘천을 예술과 문화가 살아 숨 쉬는 도시로 가꾸어 나가기 위한 춘천 미술협회의 노력으로 1995년 삼천동 어린이회관 전시실에서 시작되었다. 그동안 춘천 미술인들의 활발한 작품 발표의 장이 되어 미술 문화의 저변 확대와 시민들의 생활에 청량제 역할을 하여 왔던 삼천동 춘천미술관이, 시민들에게 더욱 가까이 가기 위한 적극적인 노력의 일환으로 옥천동 옛 중앙감리교회 건물을 전시장으로 단장하여 새로운 출발을 하게 되었다. 춘천 미술관은 시민들 누구나 쉽게 다가와 신선한 문화의 향기를 함께 호흡할 수 있는 편안한 시민의 문화 휴식 공간이다. 고풍스러운 옛 교회건물을 리모델링하여 사용하고 있는 미술관으로 매주 색다른 작가들의 전시 관람 가능",
+      "sido": "강원특별자치도",
+      "sigungu": "춘천시",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=169"
+      ],
+      "evidence_id": "E1",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=259",
+        "fields": {
+          "name": "춘천미술관",
+          "sido": "강원특별자치도",
+          "sigungu": "춘천시",
+          "address": "강원특별자치도 춘천시 서부대성로 71",
+          "ownership_type": "공립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "10:00",
+          "weekday_close": "18:00",
+          "holiday_open": "10:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "토(전시있을 시 개관)+일(전시있을 시 개관)"
+        },
+        "base_data_date": "2026-06-10",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0280",
+      "name": "성남큐브미술관",
+      "document": "성남문화재단이 운영하는 성남큐브미술관은 지역의 유일한 공립미술관으로 지난 2012년 9월에 등록되어 성남 시민을 위한 미술문화 향유 공간 창출 및 지역 미술문화 발전을 위해 노력하고 있다. 동시대 국내외 이슈와 미감을 전시로 풀어내는 동시대미감전과 동시대이슈전 지역 예술가의 작품을 소개함으로써 성남의 미술 지형을 조망해 보는 성남의 얼굴전, 성남과 국내 로컬을 연결하여 문화적 교감의 플랫폼 역할을 모색하는 지역 예술가 교류전을 선보이고 있으며 지역 미술의 미래를 살피고 확장의 디딤돌 역할을 하고자 '성남작가조명전’을 개최하여 지역 미술을 집중 응원하고 있다. 또한 어린이를 동반한 온 가족이 함께 전시를 관람하며 제시한 주제와 의미를 생각해 보는 어린이 교육 체험전, 내부 학예 인력의 조사와 검토를 거쳐 대중적 흡입력 있는 국내외 유명 작가 전시를 여름 특별기획전과 겨울 특별기획전의 특별 전시로 개최하고 있으며 미술관의 교육적 기능을 수행하고자 기획 전시와 연계한 다양한 교육·체험 프로그램을 진행하고 있다. 지역의 유일한 공립 미술관으로, 성남 시민을 위한 미술 문화 향유 공간 창출 및 지역 미술 문화 발전을 위해 노력하고 있습니다.",
+      "metadata": {
+        "address": "경기도 성남시 분당구 성남대로 808",
+        "latitude": 37.402839,
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "transport_notes": "광역버스(9408/3330/4000/9607/7200)+일반버스(250/220/2-1/51/33-1/300/720/720-1/77-1/116-3/17/17-1/119)+지하철(분당선 이매역 1번 출구에서 도보 10분)",
+        "longitude": 127.130404,
+        "adult_fee": 0.0,
+        "weekday_close": "18:00",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/13/3336413_image2_1.jpg",
+        "homepage_url": "http://www.snab.or.kr",
+        "sido": "경기도",
+        "source_types": "BASE|TOUR_API",
+        "closure_rule_raw": "월요일+설날 연휴+추석 연휴",
+        "weekday_open": "10:00",
+        "holiday_close": "18:00",
+        "requires_manual_review": true,
+        "image_copyright": "Type3",
+        "holiday_open": "10:00",
+        "fee_notes": "기획전시 별도",
+        "sigungu": "성남시",
+        "youth_fee": 0.0,
+        "ownership_type": "공립",
+        "child_fee": 0.0,
+        "name": "성남큐브미술관"
+      },
+      "vector_rank": 7,
+      "bm25_rank": 4,
+      "vector_distance": 0.549146294593811,
+      "vector_score": null,
+      "bm25_score": 9.610133799784164,
+      "vector_document": "성남문화재단이 운영하는 성남큐브미술관은 지역의 유일한 공립미술관으로 지난 2012년 9월에 등록되어 성남 시민을 위한 미술문화 향유 공간 창출 및 지역 미술문화 발전을 위해 노력하고 있다. 동시대 국내외 이슈와 미감을 전시로 풀어내는 동시대미감전과 동시대이슈전 지역 예술가의 작품을 소개함으로써 성남의 미술 지형을 조망해 보는 성남의 얼굴전, 성남과 국내 로컬을 연결하여 문화적 교감의 플랫폼 역할을 모색하는 지역 예술가 교류전을 선보이고 있으며 지역 미술의 미래를 살피고 확장의 디딤돌 역할을 하고자 '성남작가조명전’을 개최하여 지역 미술을 집중 응원하고 있다. 또한 어린이를 동반한 온 가족이 함께 전시를 관람하며 제시한 주제와 의미를 생각해 보는 어린이 교육 체험전, 내부 학예 인력의 조사와 검토를 거쳐 대중적 흡입력 있는 국내외 유명 작가 전시를 여름 특별기획전과 겨울 특별기획전의 특별 전시로 개최하고 있으며 미술관의 교육적 기능을 수행하고자 기획 전시와 연계한 다양한 교육·체험 프로그램을 진행하고 있다. 지역의 유일한 공립 미술관으로, 성남 시민을 위한 미술 문화 향유 공간 창출 및 지역 미술 문화 발전을 위해 노력하고 있습니다.",
+      "bm25_document": "성남문화재단이 운영하는 성남큐브미술관은 지역의 유일한 공립미술관으로 지난 2012년 9월에 등록되어 성남 시민을 위한 미술문화 향유 공간 창출 및 지역 미술문화 발전을 위해 노력하고 있다. 동시대 국내외 이슈와 미감을 전시로 풀어내는 동시대미감전과 동시대이슈전 지역 예술가의 작품을 소개함으로써 성남의 미술 지형을 조망해 보는 성남의 얼굴전, 성남과 국내 로컬을 연결하여 문화적 교감의 플랫폼 역할을 모색하는 지역 예술가 교류전을 선보이고 있으며 지역 미술의 미래를 살피고 확장의 디딤돌 역할을 하고자 '성남작가조명전’을 개최하여 지역 미술을 집중 응원하고 있다. 또한 어린이를 동반한 온 가족이 함께 전시를 관람하며 제시한 주제와 의미를 생각해 보는 어린이 교육 체험전, 내부 학예 인력의 조사와 검토를 거쳐 대중적 흡입력 있는 국내외 유명 작가 전시를 여름 특별기획전과 겨울 특별기획전의 특별 전시로 개최하고 있으며 미술관의 교육적 기능을 수행하고자 기획 전시와 연계한 다양한 교육·체험 프로그램을 진행하고 있다. 지역의 유일한 공립 미술관으로, 성남 시민을 위한 미술 문화 향유 공간 창출 및 지역 미술 문화 발전을 위해 노력하고 있습니다.",
+      "best_span_id": "chroma:M0280",
+      "best_span_text": "성남문화재단이 운영하는 성남큐브미술관은 지역의 유일한 공립미술관으로 지난 2012년 9월에 등록되어 성남 시민을 위한 미술문화 향유 공간 창출 및 지역 미술문화 발전을 위해 노력하고 있다. 동시대 국내외 이슈와 미감을 전시로 풀어내는 동시대미감전과 동시대이슈전 지역 예술가의 작품을 소개함으로써 성남의 미술 지형을 조망해 보는 성남의 얼굴전, 성남과 국내 로컬을 연결하여 문화적 교감의 플랫폼 역할을 모색하는 지역 예술가 교류전을 선보이고 있으며 지역 미술의 미래를 살피고 확장의 디딤돌 역할을 하고자 '성남작가조명전’을 개최하여 지역 미술을 집중 응원하고 있다. 또한 어린이를 동반한 온 가족이 함께 전시를 관람하며 제시한 주제와 의미를 생각해 보는 어린이 교육 체험전, 내부 학예 인력의 조사와 검토를 거쳐 대중적 흡입력 있는 국내외 유명 작가 전시를 여름 특별기획전과 겨울 특별기획전의 특별 전시로 개최하고 있으며 미술관의 교육적 기능을 수행하고자 기획 전시와 연계한 다양한 교육·체험 프로그램을 진행하고 있다. 지역의 유일한 공립 미술관으로, 성남 시민을 위한 미술 문화 향유 공간 창출 및 지역 미술 문화 발전을 위해 노력하고 있습니다.",
+      "fusion_score": 0.03055037313432836,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 2,
+      "rerank_score": null,
+      "rank": 2,
+      "score": 0.03055037313432836,
+      "score_type": "rrf",
+      "distance": 0.549146294593811,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0280",
+      "source_doc_ids": [
+        "DOC-B0280-TOUR_API-2784050",
+        "DOC-B0280-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0280-TOUR_API-2784050",
+          "source_type": "TOUR_API",
+          "source_record_id": "2784050",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=139",
+          "match_trust": "RECHECKED_BY_RULE_NOT_HUMAN_APPROVED"
+        },
+        {
+          "doc_id": "DOC-B0280-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0280",
+          "source_locator": "data/raw/museum_base_1070.csv#row=281",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 105,
+          "doc_ids": [
+            "DOC-B0280-TOUR_API-2784050"
+          ]
+        },
+        {
+          "start": 106,
+          "end": 315,
+          "doc_ids": [
+            "DOC-B0280-TOUR_API-2784050"
+          ]
+        },
+        {
+          "start": 316,
+          "end": 513,
+          "doc_ids": [
+            "DOC-B0280-TOUR_API-2784050"
+          ]
+        },
+        {
+          "start": 514,
+          "end": 585,
+          "doc_ids": [
+            "DOC-B0280-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=139",
+      "text": "성남문화재단이 운영하는 성남큐브미술관은 지역의 유일한 공립미술관으로 지난 2012년 9월에 등록되어 성남 시민을 위한 미술문화 향유 공간 창출 및 지역 미술문화 발전을 위해 노력하고 있다. 동시대 국내외 이슈와 미감을 전시로 풀어내는 동시대미감전과 동시대이슈전 지역 예술가의 작품을 소개함으로써 성남의 미술 지형을 조망해 보는 성남의 얼굴전, 성남과 국내 로컬을 연결하여 문화적 교감의 플랫폼 역할을 모색하는 지역 예술가 교류전을 선보이고 있으며 지역 미술의 미래를 살피고 확장의 디딤돌 역할을 하고자 '성남작가조명전’을 개최하여 지역 미술을 집중 응원하고 있다. 또한 어린이를 동반한 온 가족이 함께 전시를 관람하며 제시한 주제와 의미를 생각해 보는 어린이 교육 체험전, 내부 학예 인력의 조사와 검토를 거쳐 대중적 흡입력 있는 국내외 유명 작가 전시를 여름 특별기획전과 겨울 특별기획전의 특별 전시로 개최하고 있으며 미술관의 교육적 기능을 수행하고자 기획 전시와 연계한 다양한 교육·체험 프로그램을 진행하고 있다. 지역의 유일한 공립 미술관으로, 성남 시민을 위한 미술 문화 향유 공간 창출 및 지역 미술 문화 발전을 위해 노력하고 있습니다.",
+      "sido": "경기도",
+      "sigungu": "성남시",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=139"
+      ],
+      "evidence_id": "E2",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=198",
+        "fields": {
+          "name": "성남큐브미술관",
+          "sido": "경기도",
+          "sigungu": "성남시",
+          "address": "경기도 성남시 분당구 성남대로 808",
+          "ownership_type": "공립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "10:00",
+          "weekday_close": "18:00",
+          "holiday_open": "10:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "월요일+설날 연휴+추석 연휴"
+        },
+        "base_data_date": "2026-06-30",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0863",
+      "name": "은암미술관",
+      "document": "은암미술관은 2010년 6월에 설립된 사립 미술관으로 전시장, 수장고, 학예연구실 및 자료보관실을 갖추고 있으며 기획전, 초대전 등 다양한 전​시회와 함께 인문학 강좌 및 음악회를 개최하고 있다. 국립아시아 문화전당 그리고 예술의 거리와 가장 인접한 은암미술관은 시민 누구나 전시를 즐기는 문화 소통 공간으로 지역 중견작가 전시와 신진 작가 발굴 및 전시 공간을 제공하고 있다. 또한 국제 교류전과 국내외 작가를 초청하여 레지던스 프로그램을 운영하고 있다. 사이버 시대를 맞아 사이트와 모바일을 중심으로 지속적인 프로그램을 개발하고 있으며 전남광주통합특별시 문화를 선도해 새로운 시대와 요구에 맞는 미술관으로 문화 수도의 위상을 높이고 소통과 휴식을 제공하는 미술관이 되기 위해 노력하는 곳이다. 신진작가 발굴과 작고한 작가들의 작품전시, 기획전과 초대전 중심으로 운영하고 있으며, 국립아시아문화전당과 인접하여 미술인들 뿐만 아니라 시민의 소통장 역할을 하고 있음",
+      "metadata": {
+        "weekday_open": "10:00",
+        "adult_fee": 0.0,
+        "sido": "광주광역시",
+        "latitude": 35.150012,
+        "name": "은암미술관",
+        "homepage_url": "http://www.eunam.org",
+        "holiday_open": "10:00",
+        "holiday_close": "18:00",
+        "sigungu": "동구",
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "youth_fee": 0.0,
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/43/3402643_image2_1.jpg",
+        "source_types": "BASE|TOUR_API",
+        "weekday_close": "18:00",
+        "ownership_type": "사립",
+        "child_fee": 0.0,
+        "requires_manual_review": true,
+        "longitude": 126.920655,
+        "image_copyright": "Type3",
+        "address": "광주광역시 동구 서석로 85번길8-12(대의동)",
+        "closure_rule_raw": "일"
+      },
+      "vector_rank": 15,
+      "bm25_rank": 2,
+      "vector_distance": 0.5748631954193115,
+      "vector_score": null,
+      "bm25_score": 12.980087802719135,
+      "vector_document": "은암미술관은 2010년 6월에 설립된 사립 미술관으로 전시장, 수장고, 학예연구실 및 자료보관실을 갖추고 있으며 기획전, 초대전 등 다양한 전​시회와 함께 인문학 강좌 및 음악회를 개최하고 있다. 국립아시아 문화전당 그리고 예술의 거리와 가장 인접한 은암미술관은 시민 누구나 전시를 즐기는 문화 소통 공간으로 지역 중견작가 전시와 신진 작가 발굴 및 전시 공간을 제공하고 있다. 또한 국제 교류전과 국내외 작가를 초청하여 레지던스 프로그램을 운영하고 있다. 사이버 시대를 맞아 사이트와 모바일을 중심으로 지속적인 프로그램을 개발하고 있으며 전남광주통합특별시 문화를 선도해 새로운 시대와 요구에 맞는 미술관으로 문화 수도의 위상을 높이고 소통과 휴식을 제공하는 미술관이 되기 위해 노력하는 곳이다. 신진작가 발굴과 작고한 작가들의 작품전시, 기획전과 초대전 중심으로 운영하고 있으며, 국립아시아문화전당과 인접하여 미술인들 뿐만 아니라 시민의 소통장 역할을 하고 있음",
+      "bm25_document": "은암미술관은 2010년 6월에 설립된 사립 미술관으로 전시장, 수장고, 학예연구실 및 자료보관실을 갖추고 있으며 기획전, 초대전 등 다양한 전​시회와 함께 인문학 강좌 및 음악회를 개최하고 있다. 국립아시아 문화전당 그리고 예술의 거리와 가장 인접한 은암미술관은 시민 누구나 전시를 즐기는 문화 소통 공간으로 지역 중견작가 전시와 신진 작가 발굴 및 전시 공간을 제공하고 있다. 또한 국제 교류전과 국내외 작가를 초청하여 레지던스 프로그램을 운영하고 있다. 사이버 시대를 맞아 사이트와 모바일을 중심으로 지속적인 프로그램을 개발하고 있으며 전남광주통합특별시 문화를 선도해 새로운 시대와 요구에 맞는 미술관으로 문화 수도의 위상을 높이고 소통과 휴식을 제공하는 미술관이 되기 위해 노력하는 곳이다. 신진작가 발굴과 작고한 작가들의 작품전시, 기획전과 초대전 중심으로 운영하고 있으며, 국립아시아문화전당과 인접하여 미술인들 뿐만 아니라 시민의 소통장 역할을 하고 있음",
+      "best_span_id": "chroma:M0863",
+      "best_span_text": "은암미술관은 2010년 6월에 설립된 사립 미술관으로 전시장, 수장고, 학예연구실 및 자료보관실을 갖추고 있으며 기획전, 초대전 등 다양한 전​시회와 함께 인문학 강좌 및 음악회를 개최하고 있다. 국립아시아 문화전당 그리고 예술의 거리와 가장 인접한 은암미술관은 시민 누구나 전시를 즐기는 문화 소통 공간으로 지역 중견작가 전시와 신진 작가 발굴 및 전시 공간을 제공하고 있다. 또한 국제 교류전과 국내외 작가를 초청하여 레지던스 프로그램을 운영하고 있다. 사이버 시대를 맞아 사이트와 모바일을 중심으로 지속적인 프로그램을 개발하고 있으며 전남광주통합특별시 문화를 선도해 새로운 시대와 요구에 맞는 미술관으로 문화 수도의 위상을 높이고 소통과 휴식을 제공하는 미술관이 되기 위해 노력하는 곳이다. 신진작가 발굴과 작고한 작가들의 작품전시, 기획전과 초대전 중심으로 운영하고 있으며, 국립아시아문화전당과 인접하여 미술인들 뿐만 아니라 시민의 소통장 역할을 하고 있음",
+      "fusion_score": 0.02946236559139785,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 3,
+      "rerank_score": null,
+      "rank": 3,
+      "score": 0.02946236559139785,
+      "score_type": "rrf",
+      "distance": 0.5748631954193115,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0863",
+      "source_doc_ids": [
+        "DOC-B0863-TOUR_API-3402620",
+        "DOC-B0863-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0863-TOUR_API-3402620",
+          "source_type": "TOUR_API",
+          "source_record_id": "3402620",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=406",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        },
+        {
+          "doc_id": "DOC-B0863-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0863",
+          "source_locator": "data/raw/museum_base_1070.csv#row=864",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 109,
+          "doc_ids": [
+            "DOC-B0863-TOUR_API-3402620"
+          ]
+        },
+        {
+          "start": 110,
+          "end": 211,
+          "doc_ids": [
+            "DOC-B0863-TOUR_API-3402620"
+          ]
+        },
+        {
+          "start": 212,
+          "end": 255,
+          "doc_ids": [
+            "DOC-B0863-TOUR_API-3402620"
+          ]
+        },
+        {
+          "start": 256,
+          "end": 389,
+          "doc_ids": [
+            "DOC-B0863-TOUR_API-3402620"
+          ]
+        },
+        {
+          "start": 390,
+          "end": 483,
+          "doc_ids": [
+            "DOC-B0863-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=406",
+      "text": "은암미술관은 2010년 6월에 설립된 사립 미술관으로 전시장, 수장고, 학예연구실 및 자료보관실을 갖추고 있으며 기획전, 초대전 등 다양한 전​시회와 함께 인문학 강좌 및 음악회를 개최하고 있다. 국립아시아 문화전당 그리고 예술의 거리와 가장 인접한 은암미술관은 시민 누구나 전시를 즐기는 문화 소통 공간으로 지역 중견작가 전시와 신진 작가 발굴 및 전시 공간을 제공하고 있다. 또한 국제 교류전과 국내외 작가를 초청하여 레지던스 프로그램을 운영하고 있다. 사이버 시대를 맞아 사이트와 모바일을 중심으로 지속적인 프로그램을 개발하고 있으며 전남광주통합특별시 문화를 선도해 새로운 시대와 요구에 맞는 미술관으로 문화 수도의 위상을 높이고 소통과 휴식을 제공하는 미술관이 되기 위해 노력하는 곳이다. 신진작가 발굴과 작고한 작가들의 작품전시, 기획전과 초대전 중심으로 운영하고 있으며, 국립아시아문화전당과 인접하여 미술인들 뿐만 아니라 시민의 소통장 역할을 하고 있음",
+      "sido": "광주광역시",
+      "sigungu": "동구",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=406"
+      ],
+      "evidence_id": "E3",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=586",
+        "fields": {
+          "name": "은암미술관",
+          "sido": "광주광역시",
+          "sigungu": "동구",
+          "address": "광주광역시 동구 서석로 85번길8-12(대의동)",
+          "ownership_type": "사립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "10:00",
+          "weekday_close": "18:00",
+          "holiday_open": "10:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "일"
+        },
+        "base_data_date": "2025-06-26",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0129",
+      "name": "성북구립미술관",
+      "document": "성북구립미술관은 자치구 최초의 공립미술관으로, 2009년에 개관한 이래 지역 특성을 반영하여 한국 근현대미술 중심의 전문성과 미술문화 향유기회의 확장과 공공성을 지향하는 미술관으로 운영해오고 있다. 지역의 문화예술 자산을 보존하려는 노력, 지역공동체와의 적극적인 소통, 지역주민을 위한 긴밀한 교육기관, 작가가옥미술관의 설립 등 중요한 역할을 담당하며 지역 안팎의 교두보가 되는 사업을 시행하고 있다. 성북구립미술관은 2009년 개관한 최초 구립미술관으로 성북구 미술 작가들의 작품과 미술작품을 전시하기 위해 건립",
+      "metadata": {
+        "source_types": "BASE|TOUR_API",
+        "requires_manual_review": true,
+        "address": "서울특별시 성북구 성북로 134",
+        "latitude": 37.594808,
+        "youth_fee": 1000.0,
+        "weekday_open": "10:00",
+        "child_fee": 0.0,
+        "fee_notes": "무료(장애인+국가유공자+6세 이하+65세 이상)",
+        "sigungu": "성북구",
+        "longitude": 126.994886,
+        "adult_fee_status": "BASE_FEE_PAID",
+        "sido": "서울특별시",
+        "homepage_url": "http://sma.sbculture.or.kr",
+        "closure_rule_raw": "월(월요일이 공휴일인 경우 그 다음날)+1월 1일+설 연휴+추석 당일",
+        "holiday_close": "18:00",
+        "transport_notes": "한성대입구역(4호선) 6번출구에서 버스(1111+2112+성북03) 이용 성북구립미술관 하차",
+        "adult_fee": 2000.0,
+        "amenities_raw": "엘리베이터",
+        "holiday_open": "10:00",
+        "name": "성북구립미술관",
+        "ownership_type": "공립",
+        "weekday_close": "18:00"
+      },
+      "vector_rank": 20,
+      "bm25_rank": 5,
+      "vector_distance": 0.5807219743728638,
+      "vector_score": null,
+      "bm25_score": 9.196253591179227,
+      "vector_document": "성북구립미술관은 자치구 최초의 공립미술관으로, 2009년에 개관한 이래 지역 특성을 반영하여 한국 근현대미술 중심의 전문성과 미술문화 향유기회의 확장과 공공성을 지향하는 미술관으로 운영해오고 있다. 지역의 문화예술 자산을 보존하려는 노력, 지역공동체와의 적극적인 소통, 지역주민을 위한 긴밀한 교육기관, 작가가옥미술관의 설립 등 중요한 역할을 담당하며 지역 안팎의 교두보가 되는 사업을 시행하고 있다. 성북구립미술관은 2009년 개관한 최초 구립미술관으로 성북구 미술 작가들의 작품과 미술작품을 전시하기 위해 건립",
+      "bm25_document": "성북구립미술관은 자치구 최초의 공립미술관으로, 2009년에 개관한 이래 지역 특성을 반영하여 한국 근현대미술 중심의 전문성과 미술문화 향유기회의 확장과 공공성을 지향하는 미술관으로 운영해오고 있다. 지역의 문화예술 자산을 보존하려는 노력, 지역공동체와의 적극적인 소통, 지역주민을 위한 긴밀한 교육기관, 작가가옥미술관의 설립 등 중요한 역할을 담당하며 지역 안팎의 교두보가 되는 사업을 시행하고 있다. 성북구립미술관은 2009년 개관한 최초 구립미술관으로 성북구 미술 작가들의 작품과 미술작품을 전시하기 위해 건립",
+      "best_span_id": "chroma:M0129",
+      "best_span_text": "성북구립미술관은 자치구 최초의 공립미술관으로, 2009년에 개관한 이래 지역 특성을 반영하여 한국 근현대미술 중심의 전문성과 미술문화 향유기회의 확장과 공공성을 지향하는 미술관으로 운영해오고 있다. 지역의 문화예술 자산을 보존하려는 노력, 지역공동체와의 적극적인 소통, 지역주민을 위한 긴밀한 교육기관, 작가가옥미술관의 설립 등 중요한 역할을 담당하며 지역 안팎의 교두보가 되는 사업을 시행하고 있다. 성북구립미술관은 2009년 개관한 최초 구립미술관으로 성북구 미술 작가들의 작품과 미술작품을 전시하기 위해 건립",
+      "fusion_score": 0.027884615384615386,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 4,
+      "rerank_score": null,
+      "rank": 4,
+      "score": 0.027884615384615386,
+      "score_type": "rrf",
+      "distance": 0.5807219743728638,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0129",
+      "source_doc_ids": [
+        "DOC-B0129-TOUR_API-3058449",
+        "DOC-B0129-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0129-TOUR_API-3058449",
+          "source_type": "TOUR_API",
+          "source_record_id": "3058449",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=64",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        },
+        {
+          "doc_id": "DOC-B0129-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0129",
+          "source_locator": "data/raw/museum_base_1070.csv#row=130",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 110,
+          "doc_ids": [
+            "DOC-B0129-TOUR_API-3058449"
+          ]
+        },
+        {
+          "start": 111,
+          "end": 224,
+          "doc_ids": [
+            "DOC-B0129-TOUR_API-3058449"
+          ]
+        },
+        {
+          "start": 225,
+          "end": 287,
+          "doc_ids": [
+            "DOC-B0129-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=64",
+      "text": "성북구립미술관은 자치구 최초의 공립미술관으로, 2009년에 개관한 이래 지역 특성을 반영하여 한국 근현대미술 중심의 전문성과 미술문화 향유기회의 확장과 공공성을 지향하는 미술관으로 운영해오고 있다. 지역의 문화예술 자산을 보존하려는 노력, 지역공동체와의 적극적인 소통, 지역주민을 위한 긴밀한 교육기관, 작가가옥미술관의 설립 등 중요한 역할을 담당하며 지역 안팎의 교두보가 되는 사업을 시행하고 있다. 성북구립미술관은 2009년 개관한 최초 구립미술관으로 성북구 미술 작가들의 작품과 미술작품을 전시하기 위해 건립",
+      "sido": "서울특별시",
+      "sigungu": "성북구",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=64"
+      ],
+      "evidence_id": "E4",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=83",
+        "fields": {
+          "name": "성북구립미술관",
+          "sido": "서울특별시",
+          "sigungu": "성북구",
+          "address": "서울특별시 성북구 성북로 134",
+          "ownership_type": "공립",
+          "adult_fee": "2000",
+          "youth_fee": "1000",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_PAID",
+          "weekday_open": "10:00",
+          "weekday_close": "18:00",
+          "holiday_open": "10:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "월(월요일이 공휴일인 경우 그 다음날)+1월 1일+설 연휴+추석 당일",
+          "amenities_raw": "엘리베이터"
+        },
+        "base_data_date": "2026-10-16",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0598",
+      "name": "설미재미술관",
+      "document": "설미재미술관은 천혜의 자연향기가 가득한 문화 예술 공간이다. 가평지역사회의 문화 교육과 작가 초대전 및 교류전을 기획하면서 한국 현대미술의 한 축을 담당하고 있으며, 가평 지역 문화 발전을 위해 매년 공모를 거쳐 가평의 작가를 초빙해 기획전을 개최하고 있다. 가평군민들의 문화적 소양을 함양시켜 주는 것뿐만 아니라, 젊은 미술 작가들을 육성하고 가평지역 학생들에게 창의적인 미술교육을 실행하고자 설립하였다. 설미재 미술관의 전시실에서는 주로 기획전이 개최된다. 조형 연구소에서는 세미나가 주로 진행되며, 창작 스튜디오 3개실을 통하여 신진 작가들을 육성하는 동시에 공동체를 이루고 활성화하고 있다. 비전 있는 젊은 작가를 육성하여 작가 공동체를 활성화 하고 아울러 전문적인 미술교육 체험 프로그램을 개발하여 지역 사회 학생들에게 창의적 미술교육을 실행하고 있음",
+      "metadata": {
+        "address": "경기도 가평군 설악면 유명로 1454-38",
+        "name": "설미재미술관",
+        "holiday_open": "10:00",
+        "transport_notes": "버스:6-10,32-11,32-14",
+        "longitude": 127.482238,
+        "ownership_type": "사립",
+        "weekday_close": "17:00",
+        "youth_fee": 2500.0,
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/74/3499774_image2_1.JPG",
+        "sigungu": "가평군",
+        "fee_notes": "무료(7세미만 어린이+국가유공자 및 장애인+매월 마지막 수요일)",
+        "source_types": "BASE|TOUR_API",
+        "homepage_url": "http://www.artsm.kr/",
+        "image_copyright": "Type3",
+        "closure_rule_raw": "월+설날연휴+추석연휴",
+        "latitude": 37.660885,
+        "weekday_open": "10:00",
+        "requires_manual_review": true,
+        "adult_fee": 3000.0,
+        "amenities_raw": "주차장(20대)+사진촬영허가",
+        "child_fee": 2500.0,
+        "holiday_close": "17:00",
+        "adult_fee_status": "BASE_FEE_PAID",
+        "sido": "경기도"
+      },
+      "vector_rank": 2,
+      "bm25_rank": null,
+      "vector_distance": 0.5076640844345093,
+      "vector_score": null,
+      "bm25_score": null,
+      "vector_document": "설미재미술관은 천혜의 자연향기가 가득한 문화 예술 공간이다. 가평지역사회의 문화 교육과 작가 초대전 및 교류전을 기획하면서 한국 현대미술의 한 축을 담당하고 있으며, 가평 지역 문화 발전을 위해 매년 공모를 거쳐 가평의 작가를 초빙해 기획전을 개최하고 있다. 가평군민들의 문화적 소양을 함양시켜 주는 것뿐만 아니라, 젊은 미술 작가들을 육성하고 가평지역 학생들에게 창의적인 미술교육을 실행하고자 설립하였다. 설미재 미술관의 전시실에서는 주로 기획전이 개최된다. 조형 연구소에서는 세미나가 주로 진행되며, 창작 스튜디오 3개실을 통하여 신진 작가들을 육성하는 동시에 공동체를 이루고 활성화하고 있다. 비전 있는 젊은 작가를 육성하여 작가 공동체를 활성화 하고 아울러 전문적인 미술교육 체험 프로그램을 개발하여 지역 사회 학생들에게 창의적 미술교육을 실행하고 있음",
+      "bm25_document": "",
+      "best_span_id": null,
+      "best_span_text": null,
+      "fusion_score": 0.016129032258064516,
+      "retrieved_by": [
+        "vector"
+      ],
+      "fusion_rank": 5,
+      "rerank_score": null,
+      "rank": 5,
+      "score": 0.016129032258064516,
+      "score_type": "rrf",
+      "distance": 0.5076640844345093,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector"
+      ],
+      "retriever": "vector",
+      "source_doc_ids": [
+        "DOC-B0598-TOUR_API-2554994",
+        "DOC-B0598-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0598-TOUR_API-2554994",
+          "source_type": "TOUR_API",
+          "source_record_id": "2554994",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=298",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        },
+        {
+          "doc_id": "DOC-B0598-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0598",
+          "source_locator": "data/raw/museum_base_1070.csv#row=599",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 33,
+          "doc_ids": [
+            "DOC-B0598-TOUR_API-2554994"
+          ]
+        },
+        {
+          "start": 34,
+          "end": 144,
+          "doc_ids": [
+            "DOC-B0598-TOUR_API-2554994"
+          ]
+        },
+        {
+          "start": 145,
+          "end": 227,
+          "doc_ids": [
+            "DOC-B0598-TOUR_API-2554994"
+          ]
+        },
+        {
+          "start": 228,
+          "end": 257,
+          "doc_ids": [
+            "DOC-B0598-TOUR_API-2554994"
+          ]
+        },
+        {
+          "start": 258,
+          "end": 334,
+          "doc_ids": [
+            "DOC-B0598-TOUR_API-2554994"
+          ]
+        },
+        {
+          "start": 335,
+          "end": 425,
+          "doc_ids": [
+            "DOC-B0598-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=298",
+      "text": "설미재미술관은 천혜의 자연향기가 가득한 문화 예술 공간이다. 가평지역사회의 문화 교육과 작가 초대전 및 교류전을 기획하면서 한국 현대미술의 한 축을 담당하고 있으며, 가평 지역 문화 발전을 위해 매년 공모를 거쳐 가평의 작가를 초빙해 기획전을 개최하고 있다. 가평군민들의 문화적 소양을 함양시켜 주는 것뿐만 아니라, 젊은 미술 작가들을 육성하고 가평지역 학생들에게 창의적인 미술교육을 실행하고자 설립하였다. 설미재 미술관의 전시실에서는 주로 기획전이 개최된다. 조형 연구소에서는 세미나가 주로 진행되며, 창작 스튜디오 3개실을 통하여 신진 작가들을 육성하는 동시에 공동체를 이루고 활성화하고 있다. 비전 있는 젊은 작가를 육성하여 작가 공동체를 활성화 하고 아울러 전문적인 미술교육 체험 프로그램을 개발하여 지역 사회 학생들에게 창의적 미술교육을 실행하고 있음",
+      "sido": "경기도",
+      "sigungu": "가평군",
+      "span_id": "",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=298"
+      ],
+      "evidence_id": "E5",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=418",
+        "fields": {
+          "name": "설미재미술관",
+          "sido": "경기도",
+          "sigungu": "가평군",
+          "address": "경기도 가평군 설악면 유명로 1454-38",
+          "ownership_type": "사립",
+          "adult_fee": "3000",
+          "youth_fee": "2500",
+          "child_fee": "2500",
+          "adult_fee_status": "BASE_FEE_PAID",
+          "weekday_open": "10:00",
+          "weekday_close": "17:00",
+          "holiday_open": "10:00",
+          "holiday_close": "17:00",
+          "closure_rule_raw": "월+설날연휴+추석연휴",
+          "amenities_raw": "주차장(20대)+사진촬영허가"
+        },
+        "base_data_date": "2025-12-26",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    }
+  ],
+  "answer": "춘천미술관은 춘천 미술인들에게 작품을 활발히 발표할 수 있는 장을 제공해 왔고, 이를 통해 지역 미술문화의 저변 확대에 기여했습니다. [E1] 시민들에게는 미술관을 더 가까이 다가갈 수 있는 공간으로 열어, 누구나 전시와 문화를 접하며 쉴 수 있는 문화 휴식 공간이자 생활에 활력을 주는 역할을 해 왔습니다. [E1]",
+  "retrieval_status": "ok",
+  "answer_status": "answered",
+  "route": "hybrid",
+  "retry_count": 0,
+  "supervisor_verified": true,
+  "rerank_applied": false,
+  "retriever_errors": [],
+  "warnings": [
+    "Cross-Encoder reranking failed (FileNotFoundError); RRF order retained"
+  ],
+  "duration_ms": 10606.95,
+  "error_type": "",
+  "hit_at_1": 1,
+  "hit_at_3": 1,
+  "hit_at_5": 1,
+  "recall_at_5": 1.0,
+  "mrr_at_10": 1.0
+}

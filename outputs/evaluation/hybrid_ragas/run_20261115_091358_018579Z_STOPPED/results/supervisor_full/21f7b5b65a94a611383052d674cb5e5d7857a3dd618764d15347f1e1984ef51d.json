@@ -1,0 +1,676 @@
+{
+  "mode": "supervisor_full",
+  "question_id": "Q220",
+  "evidence": [
+    {
+      "museum_id": "M0373",
+      "name": "세계민속악기박물관",
+      "document": "세계민속악기박물관은 2003년 개관한 한국 최초의 악기 박물관으로, 전 세계 120개 나라에서 온 2,000 여 점의 악기와 민속 자료를 소장 및 전시하고 있다. 세계 악기를 통해 지구촌의 역사와 음악 문화를 살펴볼 수 있으며, 일부 악기는 직접 연주하고 만들어볼 수 있는 체험형 박물관이다. 매년 새로운 기획전, 공연 및 교육 프로그램 등을 진행하고 있다.",
+      "metadata": {
+        "source_types": "TOUR_API",
+        "adult_fee_status": "BASE_FEE_PAID",
+        "image_copyright": "Type3",
+        "child_fee": 6000.0,
+        "ownership_type": "사립",
+        "sido": "경기도",
+        "holiday_close": "17:30",
+        "longitude": 126.699378269,
+        "youth_fee": 6000.0,
+        "holiday_open": "09:30",
+        "homepage_url": "http://musicmuseum.kr/",
+        "name": "세계민속악기박물관",
+        "weekday_close": "17:30",
+        "latitude": 37.7895075879,
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/31/3382831_image2_1.JPG",
+        "address": "경기도 파주시 탄현면 헤이리마을길 63-26",
+        "requires_manual_review": true,
+        "adult_fee": 7000.0,
+        "closure_rule_raw": "월요일",
+        "fee_notes": "단체(20명이상)1인당 1000원 할인",
+        "weekday_open": "09:30",
+        "sigungu": "파주시"
+      },
+      "vector_rank": 1,
+      "bm25_rank": 1,
+      "vector_distance": 0.3704140782356262,
+      "vector_score": null,
+      "bm25_score": 18.02169540766355,
+      "vector_document": "세계민속악기박물관은 2003년 개관한 한국 최초의 악기 박물관으로, 전 세계 120개 나라에서 온 2,000 여 점의 악기와 민속 자료를 소장 및 전시하고 있다. 세계 악기를 통해 지구촌의 역사와 음악 문화를 살펴볼 수 있으며, 일부 악기는 직접 연주하고 만들어볼 수 있는 체험형 박물관이다. 매년 새로운 기획전, 공연 및 교육 프로그램 등을 진행하고 있다.",
+      "bm25_document": "세계민속악기박물관은 2003년 개관한 한국 최초의 악기 박물관으로, 전 세계 120개 나라에서 온 2,000 여 점의 악기와 민속 자료를 소장 및 전시하고 있다. 세계 악기를 통해 지구촌의 역사와 음악 문화를 살펴볼 수 있으며, 일부 악기는 직접 연주하고 만들어볼 수 있는 체험형 박물관이다. 매년 새로운 기획전, 공연 및 교육 프로그램 등을 진행하고 있다.",
+      "best_span_id": "chroma:M0373",
+      "best_span_text": "세계민속악기박물관은 2003년 개관한 한국 최초의 악기 박물관으로, 전 세계 120개 나라에서 온 2,000 여 점의 악기와 민속 자료를 소장 및 전시하고 있다. 세계 악기를 통해 지구촌의 역사와 음악 문화를 살펴볼 수 있으며, 일부 악기는 직접 연주하고 만들어볼 수 있는 체험형 박물관이다. 매년 새로운 기획전, 공연 및 교육 프로그램 등을 진행하고 있다.",
+      "fusion_score": 0.03278688524590164,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 1,
+      "name_match": true,
+      "rerank_score": 0.9996838569641113,
+      "rank": 1,
+      "score": 0.9996838569641113,
+      "score_type": "cross_encoder",
+      "distance": 0.3704140782356262,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0373",
+      "source_doc_ids": [
+        "DOC-B0373-TOUR_API-130680"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0373-TOUR_API-130680",
+          "source_type": "TOUR_API",
+          "source_record_id": "130680",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=175",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 90,
+          "doc_ids": [
+            "DOC-B0373-TOUR_API-130680"
+          ]
+        },
+        {
+          "start": 91,
+          "end": 163,
+          "doc_ids": [
+            "DOC-B0373-TOUR_API-130680"
+          ]
+        },
+        {
+          "start": 164,
+          "end": 200,
+          "doc_ids": [
+            "DOC-B0373-TOUR_API-130680"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=175",
+      "text": "세계민속악기박물관은 2003년 개관한 한국 최초의 악기 박물관으로, 전 세계 120개 나라에서 온 2,000 여 점의 악기와 민속 자료를 소장 및 전시하고 있다. 세계 악기를 통해 지구촌의 역사와 음악 문화를 살펴볼 수 있으며, 일부 악기는 직접 연주하고 만들어볼 수 있는 체험형 박물관이다. 매년 새로운 기획전, 공연 및 교육 프로그램 등을 진행하고 있다.",
+      "sido": "경기도",
+      "sigungu": "파주시",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=175"
+      ],
+      "evidence_id": "E1",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=270",
+        "fields": {
+          "name": "세계민속악기박물관",
+          "sido": "경기도",
+          "sigungu": "파주시",
+          "address": "경기도 파주시 탄현면 헤이리마을길 63-26",
+          "ownership_type": "사립",
+          "adult_fee": "7000",
+          "youth_fee": "6000",
+          "child_fee": "6000",
+          "adult_fee_status": "BASE_FEE_PAID",
+          "weekday_open": "09:30",
+          "weekday_close": "17:30",
+          "holiday_open": "09:30",
+          "holiday_close": "17:30",
+          "closure_rule_raw": "월요일"
+        },
+        "base_data_date": "2026-06-22",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0962",
+      "name": "마리소리골 악기박물관",
+      "document": "2007년 홍천군 서석면에 개관한 마리소리골악기박물관은 한국전통음악의 우수성을 알리고, 계승발전의 산실역할을 하기 위해 설립된 악기 박물관이다. 박물관에 전시된 악기는 군에서 편경과 편종 등을 구입하고, 서원대학교 음악교육과 이병욱 교수가 소장하고 있던 무형유산 보유자 및 명인들이 사용하던 악기와 악기 장인들로부터 기증받은 것이다. 마리소리골악기박물관에는 악기 전시뿐 아니라 풍물, 무용 등 우리 음악을 배울 수 있는 문화강좌와 체험, 소공연 세미나 등 다목적 문화센터의 기능도 하고 있다. 전시장 가운데 마련된 공연장에서는 각종 전통 국악 공연 등이 펼쳐져 아이를 동반한 가족단위 관광객에게 좋은 배움의 기회를 제공한다. 2007년11월16일 개관, 한국 전통 음악의 우수성을 알리고, 이해와 지식습득의 산실역활을 위해 개관된 최초의 악기 박물관.",
+      "metadata": {
+        "holiday_open": "09:00",
+        "sigungu": "홍천군",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/17/3577617_image2_1.jpg",
+        "holiday_close": "18:00",
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "address": "강원특별자치도 홍천군 서석면 마리소리길 207",
+        "requires_manual_review": true,
+        "fee_notes": "0",
+        "homepage_url": "https://www.hongcheon.go.kr/museum/",
+        "adult_fee": 0.0,
+        "longitude": 128.2511229,
+        "sido": "강원특별자치도",
+        "ownership_type": "공립",
+        "transport_notes": "https://www.hongcheon.go.kr/museum/hcm/sub/marisorigol/",
+        "weekday_open": "09:00",
+        "image_copyright": "Type1",
+        "child_fee": 0.0,
+        "latitude": 37.73788994,
+        "closure_rule_raw": "월",
+        "weekday_close": "18:00",
+        "youth_fee": 0.0,
+        "source_types": "BASE|TOUR_API",
+        "name": "마리소리골 악기박물관"
+      },
+      "vector_rank": 19,
+      "bm25_rank": 3,
+      "vector_distance": 0.5621151328086853,
+      "vector_score": null,
+      "bm25_score": 10.92364870272544,
+      "vector_document": "2007년 홍천군 서석면에 개관한 마리소리골악기박물관은 한국전통음악의 우수성을 알리고, 계승발전의 산실역할을 하기 위해 설립된 악기 박물관이다. 박물관에 전시된 악기는 군에서 편경과 편종 등을 구입하고, 서원대학교 음악교육과 이병욱 교수가 소장하고 있던 무형유산 보유자 및 명인들이 사용하던 악기와 악기 장인들로부터 기증받은 것이다. 마리소리골악기박물관에는 악기 전시뿐 아니라 풍물, 무용 등 우리 음악을 배울 수 있는 문화강좌와 체험, 소공연 세미나 등 다목적 문화센터의 기능도 하고 있다. 전시장 가운데 마련된 공연장에서는 각종 전통 국악 공연 등이 펼쳐져 아이를 동반한 가족단위 관광객에게 좋은 배움의 기회를 제공한다. 2007년11월16일 개관, 한국 전통 음악의 우수성을 알리고, 이해와 지식습득의 산실역활을 위해 개관된 최초의 악기 박물관.",
+      "bm25_document": "2007년 홍천군 서석면에 개관한 마리소리골악기박물관은 한국전통음악의 우수성을 알리고, 계승발전의 산실역할을 하기 위해 설립된 악기 박물관이다. 박물관에 전시된 악기는 군에서 편경과 편종 등을 구입하고, 서원대학교 음악교육과 이병욱 교수가 소장하고 있던 무형유산 보유자 및 명인들이 사용하던 악기와 악기 장인들로부터 기증받은 것이다. 마리소리골악기박물관에는 악기 전시뿐 아니라 풍물, 무용 등 우리 음악을 배울 수 있는 문화강좌와 체험, 소공연 세미나 등 다목적 문화센터의 기능도 하고 있다. 전시장 가운데 마련된 공연장에서는 각종 전통 국악 공연 등이 펼쳐져 아이를 동반한 가족단위 관광객에게 좋은 배움의 기회를 제공한다. 2007년11월16일 개관, 한국 전통 음악의 우수성을 알리고, 이해와 지식습득의 산실역활을 위해 개관된 최초의 악기 박물관.",
+      "best_span_id": "chroma:M0962",
+      "best_span_text": "2007년 홍천군 서석면에 개관한 마리소리골악기박물관은 한국전통음악의 우수성을 알리고, 계승발전의 산실역할을 하기 위해 설립된 악기 박물관이다. 박물관에 전시된 악기는 군에서 편경과 편종 등을 구입하고, 서원대학교 음악교육과 이병욱 교수가 소장하고 있던 무형유산 보유자 및 명인들이 사용하던 악기와 악기 장인들로부터 기증받은 것이다. 마리소리골악기박물관에는 악기 전시뿐 아니라 풍물, 무용 등 우리 음악을 배울 수 있는 문화강좌와 체험, 소공연 세미나 등 다목적 문화센터의 기능도 하고 있다. 전시장 가운데 마련된 공연장에서는 각종 전통 국악 공연 등이 펼쳐져 아이를 동반한 가족단위 관광객에게 좋은 배움의 기회를 제공한다. 2007년11월16일 개관, 한국 전통 음악의 우수성을 알리고, 이해와 지식습득의 산실역활을 위해 개관된 최초의 악기 박물관.",
+      "fusion_score": 0.028531243721117136,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 4,
+      "rerank_score": 0.043641895055770874,
+      "rank": 2,
+      "score": 0.043641895055770874,
+      "score_type": "cross_encoder",
+      "distance": 0.5621151328086853,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0962",
+      "source_doc_ids": [
+        "DOC-B0962-TOUR_API-2613266",
+        "DOC-B0962-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0962-TOUR_API-2613266",
+          "source_type": "TOUR_API",
+          "source_record_id": "2613266",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=450",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        },
+        {
+          "doc_id": "DOC-B0962-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0962",
+          "source_locator": "data/raw/museum_base_1070.csv#row=963",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 80,
+          "doc_ids": [
+            "DOC-B0962-TOUR_API-2613266"
+          ]
+        },
+        {
+          "start": 81,
+          "end": 186,
+          "doc_ids": [
+            "DOC-B0962-TOUR_API-2613266"
+          ]
+        },
+        {
+          "start": 187,
+          "end": 275,
+          "doc_ids": [
+            "DOC-B0962-TOUR_API-2613266"
+          ]
+        },
+        {
+          "start": 276,
+          "end": 349,
+          "doc_ids": [
+            "DOC-B0962-TOUR_API-2613266"
+          ]
+        },
+        {
+          "start": 350,
+          "end": 420,
+          "doc_ids": [
+            "DOC-B0962-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=450",
+      "text": "2007년 홍천군 서석면에 개관한 마리소리골악기박물관은 한국전통음악의 우수성을 알리고, 계승발전의 산실역할을 하기 위해 설립된 악기 박물관이다. 박물관에 전시된 악기는 군에서 편경과 편종 등을 구입하고, 서원대학교 음악교육과 이병욱 교수가 소장하고 있던 무형유산 보유자 및 명인들이 사용하던 악기와 악기 장인들로부터 기증받은 것이다. 마리소리골악기박물관에는 악기 전시뿐 아니라 풍물, 무용 등 우리 음악을 배울 수 있는 문화강좌와 체험, 소공연 세미나 등 다목적 문화센터의 기능도 하고 있다. 전시장 가운데 마련된 공연장에서는 각종 전통 국악 공연 등이 펼쳐져 아이를 동반한 가족단위 관광객에게 좋은 배움의 기회를 제공한다. 2007년11월16일 개관, 한국 전통 음악의 우수성을 알리고, 이해와 지식습득의 산실역활을 위해 개관된 최초의 악기 박물관.",
+      "sido": "강원특별자치도",
+      "sigungu": "홍천군",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=450"
+      ],
+      "evidence_id": "E2",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=662",
+        "fields": {
+          "name": "마리소리골 악기박물관",
+          "sido": "강원특별자치도",
+          "sigungu": "홍천군",
+          "address": "강원특별자치도 홍천군 서석면 마리소리길 207",
+          "ownership_type": "공립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "09:00",
+          "weekday_close": "18:00",
+          "holiday_open": "09:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "월"
+        },
+        "base_data_date": "2023-10-05",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0099",
+      "name": "온양민속박물관",
+      "document": "우리나라 최초의 사립 민속박물관인 온양민속박물관은 우리 전통문화의 아름다움과 우수성을 알리기 위해 1978년 개관하였다. 전체 대지는 72,727㎡의 규모이며 이타미준의 국내 첫 번째 건축물인 구정 아트센터를 포함하여, 상설전시실, 특별전시실, 야외전시장 등으로 구성되어 있다. 옛 선조들의 지혜와 품격이 담긴 생활품 2만여 점을 소장하고 있으며, 전시 및 다양한 교육 체험 프로그램, 공연 등의 문화 행사를 체험할 수 있다. 유형적인 민속자료를 체계적으로 수집, 보존, 전시해 후세들에게 합리적으로 이해 교육시키며 전통적 요소를 오늘에 되살릴 수 있도록 유도하며 학술적으로 고증하여 연구하고 세계 속에 한국문화의 독자성을 선양하기 위해 설립된 박물관이다. 한국인의 전통 생활문화를 다루는 민속박물관이다. 의식주와 관혼상제, 농업·어업 등 생업, 민간신앙과 공예 관련 유물을 통해 한국 민속의 여러 모습을 살펴볼 수 있다.",
+      "metadata": {
+        "holiday_open": "10:00",
+        "sido": "충청남도",
+        "longitude": 127.0079103,
+        "source_types": "TOUR_API|WEB_RESEARCH",
+        "homepage_url": "http://onyangmuseum.or.kr/",
+        "adult_fee_status": "BASE_FEE_PAID",
+        "child_fee": 1500.0,
+        "weekday_close": "17:30",
+        "amenities_raw": "카페 등",
+        "youth_fee": 3000.0,
+        "requires_manual_review": true,
+        "closure_rule_raw": "월",
+        "transport_notes": "경부고속국도-남부우회도로-국도21호선을 이용하거나 38번국도-48번 국도를 이용하거나 아산만방조제-39번 국도를 이용해서 올 수 있습니다.",
+        "sigungu": "아산시",
+        "adult_fee": 5000.0,
+        "weekday_open": "10:00",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/80/3558580_image2_1.jpg",
+        "latitude": 36.79323056,
+        "name": "온양민속박물관",
+        "address": "충청남도 아산시 충무로 123",
+        "image_copyright": "Type1",
+        "ownership_type": "사립",
+        "fee_notes": "아산시민(80)+문화가 있는 날(30)+아산시티투어 및 장애인 할인",
+        "holiday_close": "17:30"
+      },
+      "vector_rank": null,
+      "bm25_rank": 8,
+      "vector_distance": null,
+      "vector_score": null,
+      "bm25_score": 7.512561146654487,
+      "vector_document": "",
+      "bm25_document": "우리나라 최초의 사립 민속박물관인 온양민속박물관은 우리 전통문화의 아름다움과 우수성을 알리기 위해 1978년 개관하였다. 전체 대지는 72,727㎡의 규모이며 이타미준의 국내 첫 번째 건축물인 구정 아트센터를 포함하여, 상설전시실, 특별전시실, 야외전시장 등으로 구성되어 있다. 옛 선조들의 지혜와 품격이 담긴 생활품 2만여 점을 소장하고 있으며, 전시 및 다양한 교육 체험 프로그램, 공연 등의 문화 행사를 체험할 수 있다. 유형적인 민속자료를 체계적으로 수집, 보존, 전시해 후세들에게 합리적으로 이해 교육시키며 전통적 요소를 오늘에 되살릴 수 있도록 유도하며 학술적으로 고증하여 연구하고 세계 속에 한국문화의 독자성을 선양하기 위해 설립된 박물관이다. 한국인의 전통 생활문화를 다루는 민속박물관이다. 의식주와 관혼상제, 농업·어업 등 생업, 민간신앙과 공예 관련 유물을 통해 한국 민속의 여러 모습을 살펴볼 수 있다.",
+      "best_span_id": "chroma:M0099",
+      "best_span_text": "우리나라 최초의 사립 민속박물관인 온양민속박물관은 우리 전통문화의 아름다움과 우수성을 알리기 위해 1978년 개관하였다. 전체 대지는 72,727㎡의 규모이며 이타미준의 국내 첫 번째 건축물인 구정 아트센터를 포함하여, 상설전시실, 특별전시실, 야외전시장 등으로 구성되어 있다. 옛 선조들의 지혜와 품격이 담긴 생활품 2만여 점을 소장하고 있으며, 전시 및 다양한 교육 체험 프로그램, 공연 등의 문화 행사를 체험할 수 있다. 유형적인 민속자료를 체계적으로 수집, 보존, 전시해 후세들에게 합리적으로 이해 교육시키며 전통적 요소를 오늘에 되살릴 수 있도록 유도하며 학술적으로 고증하여 연구하고 세계 속에 한국문화의 독자성을 선양하기 위해 설립된 박물관이다. 한국인의 전통 생활문화를 다루는 민속박물관이다. 의식주와 관혼상제, 농업·어업 등 생업, 민간신앙과 공예 관련 유물을 통해 한국 민속의 여러 모습을 살펴볼 수 있다.",
+      "fusion_score": 0.014705882352941176,
+      "retrieved_by": [
+        "bm25"
+      ],
+      "fusion_rank": 16,
+      "rerank_score": 0.005643775686621666,
+      "rank": 3,
+      "score": 0.005643775686621666,
+      "score_type": "cross_encoder",
+      "distance": null,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "bm25"
+      ],
+      "retriever": "bm25",
+      "span_id": "chroma:M0099",
+      "source_doc_ids": [
+        "DOC-B0099-TOUR_API-130063",
+        "DOC-WEB-M0099-20261111"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0099-TOUR_API-130063",
+          "source_type": "TOUR_API",
+          "source_record_id": "130063",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=49",
+          "match_trust": "RECHECKED_BY_RULE_NOT_HUMAN_APPROVED"
+        },
+        {
+          "doc_id": "DOC-WEB-M0099-20261111",
+          "source_type": "WEB_RESEARCH",
+          "source_record_id": "RESEARCH-M0099",
+          "source_locator": "https://encykorea.aks.ac.kr/Article/E0038861",
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0038861",
+          "match_trust": "WEB_SOURCE_REVIEWED_NOT_HUMAN_APPROVED"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 67,
+          "doc_ids": [
+            "DOC-B0099-TOUR_API-130063"
+          ]
+        },
+        {
+          "start": 68,
+          "end": 155,
+          "doc_ids": [
+            "DOC-B0099-TOUR_API-130063"
+          ]
+        },
+        {
+          "start": 156,
+          "end": 238,
+          "doc_ids": [
+            "DOC-B0099-TOUR_API-130063"
+          ]
+        },
+        {
+          "start": 239,
+          "end": 367,
+          "doc_ids": [
+            "DOC-B0099-TOUR_API-130063"
+          ]
+        },
+        {
+          "start": 368,
+          "end": 394,
+          "doc_ids": [
+            "DOC-WEB-M0099-20261111"
+          ]
+        },
+        {
+          "start": 395,
+          "end": 460,
+          "doc_ids": [
+            "DOC-WEB-M0099-20261111"
+          ]
+        }
+      ],
+      "source_urls": [
+        "https://encykorea.aks.ac.kr/Article/E0038861"
+      ],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=49",
+      "text": "우리나라 최초의 사립 민속박물관인 온양민속박물관은 우리 전통문화의 아름다움과 우수성을 알리기 위해 1978년 개관하였다. 전체 대지는 72,727㎡의 규모이며 이타미준의 국내 첫 번째 건축물인 구정 아트센터를 포함하여, 상설전시실, 특별전시실, 야외전시장 등으로 구성되어 있다. 옛 선조들의 지혜와 품격이 담긴 생활품 2만여 점을 소장하고 있으며, 전시 및 다양한 교육 체험 프로그램, 공연 등의 문화 행사를 체험할 수 있다. 유형적인 민속자료를 체계적으로 수집, 보존, 전시해 후세들에게 합리적으로 이해 교육시키며 전통적 요소를 오늘에 되살릴 수 있도록 유도하며 학술적으로 고증하여 연구하고 세계 속에 한국문화의 독자성을 선양하기 위해 설립된 박물관이다. 한국인의 전통 생활문화를 다루는 민속박물관이다. 의식주와 관혼상제, 농업·어업 등 생업, 민간신앙과 공예 관련 유물을 통해 한국 민속의 여러 모습을 살펴볼 수 있다.",
+      "sido": "충청남도",
+      "sigungu": "아산시",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=49"
+      ],
+      "evidence_id": "E3",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=61",
+        "fields": {
+          "name": "온양민속박물관",
+          "sido": "충청남도",
+          "sigungu": "아산시",
+          "address": "충청남도 아산시 충무로 123",
+          "ownership_type": "사립",
+          "adult_fee": "5000",
+          "youth_fee": "3000",
+          "child_fee": "1500",
+          "adult_fee_status": "BASE_FEE_PAID",
+          "weekday_open": "10:00",
+          "weekday_close": "17:30",
+          "holiday_open": "10:00",
+          "holiday_close": "17:30",
+          "closure_rule_raw": "월",
+          "amenities_raw": "카페 등"
+        },
+        "base_data_date": "2026-09-01",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0361",
+      "name": "LIUSEUM 세계민족악기전시관",
+      "document": "세계 각국 민족 악기 300여점, 한국 대중음악의 역사를 조명하는 전시 관람 가능",
+      "metadata": {
+        "homepage_url": "http://www.songisland.co.kr/",
+        "holiday_close": "18:00",
+        "child_fee": 0.0,
+        "fee_notes": "전부 무료",
+        "holiday_open": "08:30",
+        "sido": "강원특별자치도",
+        "weekday_close": "18:00",
+        "transport_notes": "1)대중교통 : 가평역 - 10-4번 버스 - 남이섬종점 정류장 하차+2) 승용차 : 고속도로(서울양양고속도로-설악IC), 일반도로(경춘북로-경춘로)",
+        "closure_rule_raw": "연중 무휴",
+        "sigungu": "춘천시",
+        "source_types": "BASE",
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "longitude": 127.526131,
+        "youth_fee": 0.0,
+        "latitude": 37.790127,
+        "weekday_open": "08:30",
+        "address": "강원특별자치도 춘천시 남산면 남이섬길 1",
+        "adult_fee": 0.0,
+        "ownership_type": "사립",
+        "name": "LIUSEUM 세계민족악기전시관",
+        "amenities_raw": "스윙카페+수유실+휴식공간",
+        "requires_manual_review": false
+      },
+      "vector_rank": 3,
+      "bm25_rank": 4,
+      "vector_distance": 0.5020509958267212,
+      "vector_score": null,
+      "bm25_score": 9.219920651021596,
+      "vector_document": "세계 각국 민족 악기 300여점, 한국 대중음악의 역사를 조명하는 전시 관람 가능",
+      "bm25_document": "세계 각국 민족 악기 300여점, 한국 대중음악의 역사를 조명하는 전시 관람 가능",
+      "best_span_id": "chroma:M0361",
+      "best_span_text": "세계 각국 민족 악기 300여점, 한국 대중음악의 역사를 조명하는 전시 관람 가능",
+      "fusion_score": 0.03149801587301587,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 2,
+      "rerank_score": 0.0036903556901961565,
+      "rank": 4,
+      "score": 0.0036903556901961565,
+      "score_type": "cross_encoder",
+      "distance": 0.5020509958267212,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0361",
+      "source_doc_ids": [
+        "DOC-B0361-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0361-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0361",
+          "source_locator": "data/raw/museum_base_1070.csv#row=362",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 45,
+          "doc_ids": [
+            "DOC-B0361-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_base_1070.csv#row=362",
+      "text": "세계 각국 민족 악기 300여점, 한국 대중음악의 역사를 조명하는 전시 관람 가능",
+      "sido": "강원특별자치도",
+      "sigungu": "춘천시",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_base_1070.csv#row=362"
+      ],
+      "evidence_id": "E4",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=263",
+        "fields": {
+          "name": "LIUSEUM 세계민족악기전시관",
+          "sido": "강원특별자치도",
+          "sigungu": "춘천시",
+          "address": "강원특별자치도 춘천시 남산면 남이섬길 1",
+          "ownership_type": "사립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "08:30",
+          "weekday_close": "18:00",
+          "holiday_open": "08:30",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "연중 무휴",
+          "amenities_raw": "스윙카페+수유실+휴식공간"
+        },
+        "base_data_date": "2026-06-10",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0775",
+      "name": "부산포민속박물관",
+      "document": "사라져가는 민속자료를 한자리에 모아, 이를 보존, 전시, 조사, 연구하기 위하여 2006년 5월에 개관",
+      "metadata": {
+        "sido": "부산광역시",
+        "requires_manual_review": false,
+        "amenities_raw": "없음",
+        "address": "부산광역시 부산진구 중앙대로702번길 21",
+        "ownership_type": "사립",
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "closure_rule_raw": "휴관중",
+        "child_fee": 0.0,
+        "adult_fee": 0.0,
+        "latitude": 35.15554992,
+        "youth_fee": 0.0,
+        "longitude": 129.0603702,
+        "name": "부산포민속박물관",
+        "sigungu": "부산진구",
+        "source_types": "BASE",
+        "fee_notes": "0",
+        "weekday_close": "17:00",
+        "transport_notes": "지하철:1호선 서면역(2번출구)+2호선 서면역(6번출구)",
+        "holiday_open": "10:00",
+        "weekday_open": "10:00",
+        "homepage_url": "http://blog.naver.com/busanpo4300",
+        "holiday_close": "17:00"
+      },
+      "vector_rank": 6,
+      "bm25_rank": null,
+      "vector_distance": 0.5300609469413757,
+      "vector_score": null,
+      "bm25_score": null,
+      "vector_document": "사라져가는 민속자료를 한자리에 모아, 이를 보존, 전시, 조사, 연구하기 위하여 2006년 5월에 개관",
+      "bm25_document": "",
+      "best_span_id": null,
+      "best_span_text": null,
+      "fusion_score": 0.015151515151515152,
+      "retrieved_by": [
+        "vector"
+      ],
+      "fusion_rank": 14,
+      "rerank_score": 0.0028845486231148243,
+      "rank": 5,
+      "score": 0.0028845486231148243,
+      "score_type": "cross_encoder",
+      "distance": 0.5300609469413757,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector"
+      ],
+      "retriever": "vector",
+      "source_doc_ids": [
+        "DOC-B0775-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0775-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0775",
+          "source_locator": "data/raw/museum_base_1070.csv#row=776",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 57,
+          "doc_ids": [
+            "DOC-B0775-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_base_1070.csv#row=776",
+      "text": "사라져가는 민속자료를 한자리에 모아, 이를 보존, 전시, 조사, 연구하기 위하여 2006년 5월에 개관",
+      "sido": "부산광역시",
+      "sigungu": "부산진구",
+      "span_id": "",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_base_1070.csv#row=776"
+      ],
+      "evidence_id": "E5",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=536",
+        "fields": {
+          "name": "부산포민속박물관",
+          "sido": "부산광역시",
+          "sigungu": "부산진구",
+          "address": "부산광역시 부산진구 중앙대로702번길 21",
+          "ownership_type": "사립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "10:00",
+          "weekday_close": "17:00",
+          "holiday_open": "10:00",
+          "holiday_close": "17:00",
+          "closure_rule_raw": "휴관중",
+          "amenities_raw": "없음"
+        },
+        "base_data_date": "2025-11-27",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    }
+  ],
+  "answer": "세계민속악기박물관은 2003년에 개관했습니다. [E1]",
+  "retrieval_status": "ok",
+  "answer_status": "answered",
+  "route": "hybrid",
+  "retry_count": 0,
+  "supervisor_verified": true,
+  "rerank_applied": true,
+  "retriever_errors": [],
+  "warnings": [],
+  "duration_ms": 138608.19,
+  "error_type": "",
+  "hit_at_1": 1,
+  "hit_at_3": 1,
+  "hit_at_5": 1,
+  "recall_at_5": 1.0,
+  "mrr_at_10": 1.0
+}

@@ -1,0 +1,925 @@
+{
+  "mode": "supervisor_full",
+  "question_id": "V2-CB07",
+  "evidence": [
+    {
+      "museum_id": "M0716",
+      "name": "유관순열사기념관",
+      "document": "1902년 11월 26일 태어나 1919년 3월 1일 아우내독립만세운동을 주도하다가 1920년 9월 28일 서대문형무소에서 순국한 유관순 열사의 생애와 업적을 기리기 위한 기념관이다. 유관순열사기념관은 크게 전시관과 유관순 열사 생가로 구성되어 있다. 전시관은 유관순 열사의 생애와 활동을 다양한 방식으로 소개하고 있다. 유관순 열사의 유품과 사진, 영상자료 등을 통해 그녀의 일생을 생생하게 느낄 수 있으며, 아우내 독립만세운동의 전개 과정과 의미를 살펴볼 수 있다. 유관순 열사의 생전 모습과 유품, 가족사진 등이 전시되어 있다. 유관순 열사의 숭고한 독립 정신을 기리고, 대한민국의 역사와 가치를 되새기기 위한 중요한 장소다. 유관순열사 기념관은 열사의 탄신 100주년을 기념하여 2003년 4월 1일 개관하였다.",
+      "metadata": {
+        "holiday_close": "18:00",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/10/3519610_image2_1.jpg",
+        "image_copyright": "Type1",
+        "latitude": 36.7600902,
+        "name": "유관순열사기념관",
+        "youth_fee": 0.0,
+        "homepage_url": "http://www.cheonan.go.kr/yugwansun.do",
+        "transport_notes": "천안시내에서 진천으로 가는 21번 국도를 따라 18km정도 가면 아우내 장터이고, 이곳에서 진천 쪽으로 300m 지점에 위치",
+        "fee_notes": "0",
+        "child_fee": 0.0,
+        "holiday_open": "09:00",
+        "requires_manual_review": true,
+        "weekday_close": "18:00",
+        "address": "충청남도 천안시 동남구 유관순길 38",
+        "longitude": 127.3083675,
+        "source_types": "BASE|TOUR_API",
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "ownership_type": "공립",
+        "weekday_open": "09:00",
+        "amenities_raw": "문화상품점+매점",
+        "adult_fee": 0.0,
+        "sido": "충청남도",
+        "closure_rule_raw": "연중무휴",
+        "sigungu": "천안시"
+      },
+      "vector_rank": 3,
+      "bm25_rank": 1,
+      "vector_distance": 0.46341872215270996,
+      "vector_score": null,
+      "bm25_score": 29.32087228374,
+      "vector_document": "1902년 11월 26일 태어나 1919년 3월 1일 아우내독립만세운동을 주도하다가 1920년 9월 28일 서대문형무소에서 순국한 유관순 열사의 생애와 업적을 기리기 위한 기념관이다. 유관순열사기념관은 크게 전시관과 유관순 열사 생가로 구성되어 있다. 전시관은 유관순 열사의 생애와 활동을 다양한 방식으로 소개하고 있다. 유관순 열사의 유품과 사진, 영상자료 등을 통해 그녀의 일생을 생생하게 느낄 수 있으며, 아우내 독립만세운동의 전개 과정과 의미를 살펴볼 수 있다. 유관순 열사의 생전 모습과 유품, 가족사진 등이 전시되어 있다. 유관순 열사의 숭고한 독립 정신을 기리고, 대한민국의 역사와 가치를 되새기기 위한 중요한 장소다. 유관순열사 기념관은 열사의 탄신 100주년을 기념하여 2003년 4월 1일 개관하였다.",
+      "bm25_document": "1902년 11월 26일 태어나 1919년 3월 1일 아우내독립만세운동을 주도하다가 1920년 9월 28일 서대문형무소에서 순국한 유관순 열사의 생애와 업적을 기리기 위한 기념관이다. 유관순열사기념관은 크게 전시관과 유관순 열사 생가로 구성되어 있다. 전시관은 유관순 열사의 생애와 활동을 다양한 방식으로 소개하고 있다. 유관순 열사의 유품과 사진, 영상자료 등을 통해 그녀의 일생을 생생하게 느낄 수 있으며, 아우내 독립만세운동의 전개 과정과 의미를 살펴볼 수 있다. 유관순 열사의 생전 모습과 유품, 가족사진 등이 전시되어 있다. 유관순 열사의 숭고한 독립 정신을 기리고, 대한민국의 역사와 가치를 되새기기 위한 중요한 장소다. 유관순열사 기념관은 열사의 탄신 100주년을 기념하여 2003년 4월 1일 개관하였다.",
+      "best_span_id": "chroma:M0716",
+      "best_span_text": "1902년 11월 26일 태어나 1919년 3월 1일 아우내독립만세운동을 주도하다가 1920년 9월 28일 서대문형무소에서 순국한 유관순 열사의 생애와 업적을 기리기 위한 기념관이다. 유관순열사기념관은 크게 전시관과 유관순 열사 생가로 구성되어 있다. 전시관은 유관순 열사의 생애와 활동을 다양한 방식으로 소개하고 있다. 유관순 열사의 유품과 사진, 영상자료 등을 통해 그녀의 일생을 생생하게 느낄 수 있으며, 아우내 독립만세운동의 전개 과정과 의미를 살펴볼 수 있다. 유관순 열사의 생전 모습과 유품, 가족사진 등이 전시되어 있다. 유관순 열사의 숭고한 독립 정신을 기리고, 대한민국의 역사와 가치를 되새기기 위한 중요한 장소다. 유관순열사 기념관은 열사의 탄신 100주년을 기념하여 2003년 4월 1일 개관하였다.",
+      "fusion_score": 0.032266458495966696,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 2,
+      "rerank_score": 0.9224689602851868,
+      "rank": 1,
+      "score": 0.9224689602851868,
+      "score_type": "cross_encoder",
+      "distance": 0.46341872215270996,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0716",
+      "source_doc_ids": [
+        "DOC-B0716-TOUR_API-130495",
+        "DOC-B0716-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0716-TOUR_API-130495",
+          "source_type": "TOUR_API",
+          "source_record_id": "130495",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=349",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        },
+        {
+          "doc_id": "DOC-B0716-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0716",
+          "source_locator": "data/raw/museum_base_1070.csv#row=717",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 102,
+          "doc_ids": [
+            "DOC-B0716-TOUR_API-130495"
+          ]
+        },
+        {
+          "start": 103,
+          "end": 140,
+          "doc_ids": [
+            "DOC-B0716-TOUR_API-130495"
+          ]
+        },
+        {
+          "start": 141,
+          "end": 179,
+          "doc_ids": [
+            "DOC-B0716-TOUR_API-130495"
+          ]
+        },
+        {
+          "start": 180,
+          "end": 262,
+          "doc_ids": [
+            "DOC-B0716-TOUR_API-130495"
+          ]
+        },
+        {
+          "start": 263,
+          "end": 298,
+          "doc_ids": [
+            "DOC-B0716-TOUR_API-130495"
+          ]
+        },
+        {
+          "start": 299,
+          "end": 353,
+          "doc_ids": [
+            "DOC-B0716-TOUR_API-130495"
+          ]
+        },
+        {
+          "start": 354,
+          "end": 402,
+          "doc_ids": [
+            "DOC-B0716-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=349",
+      "text": "1902년 11월 26일 태어나 1919년 3월 1일 아우내독립만세운동을 주도하다가 1920년 9월 28일 서대문형무소에서 순국한 유관순 열사의 생애와 업적을 기리기 위한 기념관이다. 유관순열사기념관은 크게 전시관과 유관순 열사 생가로 구성되어 있다. 전시관은 유관순 열사의 생애와 활동을 다양한 방식으로 소개하고 있다. 유관순 열사의 유품과 사진, 영상자료 등을 통해 그녀의 일생을 생생하게 느낄 수 있으며, 아우내 독립만세운동의 전개 과정과 의미를 살펴볼 수 있다. 유관순 열사의 생전 모습과 유품, 가족사진 등이 전시되어 있다. 유관순 열사의 숭고한 독립 정신을 기리고, 대한민국의 역사와 가치를 되새기기 위한 중요한 장소다. 유관순열사 기념관은 열사의 탄신 100주년을 기념하여 2003년 4월 1일 개관하였다.",
+      "sido": "충청남도",
+      "sigungu": "천안시",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=349"
+      ],
+      "evidence_id": "E1",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=498",
+        "fields": {
+          "name": "유관순열사기념관",
+          "sido": "충청남도",
+          "sigungu": "천안시",
+          "address": "충청남도 천안시 동남구 유관순길 38",
+          "ownership_type": "공립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "09:00",
+          "weekday_close": "18:00",
+          "holiday_open": "09:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "연중무휴",
+          "amenities_raw": "문화상품점+매점"
+        },
+        "base_data_date": "2024-07-11",
+        "trust": "derived_dataset_not_human_verified"
+      },
+      "retrieval_branch": "document"
+    },
+    {
+      "museum_id": "M0718",
+      "name": "천안박물관",
+      "document": "천안박물관은 선사시대에서부터 근대에 이르기까지 천안에 살았던 사람들의 삶의 이야기를 담고 있으며 천안의 역사와 문화를 이해하고 체험하는 곳이다. 주요 시설은 3개의 수장고와 6개의 전시실이 있으며 야외공간은 초가 3동, 삼문, 와가, 협문, 야외공연장, 산책로분수대 등이 있다. 전시실은 천안 고고실, 천안 역사실, 천안 삼거리실, 기획 전시실, 교통통신실, 어린이 전시실로 구성되어 있다. 고려 시대와 조선 시대 향촌의 생활상을 모아놓았으며, 국보로 지정된 봉선홍경사 갈기비 모형과 자세한 내용을 살펴볼 수 있다. 과거 보러 가는 선비와 나그네들이 모였다 흩어졌던 천안삼거리 이야기를 재현한 천안삼거리실을 별도로 만들었다. 천안의 각종 풍물과 민속놀이도 빠뜨릴 수 없다. 근현대실은 천안 사람들의 삶을 되돌아보는 공간이다. 일제강점기 독립운동을 비롯해서 상업, 농업, 광업 등 다양한 분야의 근현대 유물을 전시하고 있다. 천안삼거리로 유명한 천안은 예로부터 영남과 호남 그리고 충청도 문물과 사람이 만나고 어우러져 하나가 되는 만남과 교류의 장이며, 이해와 화합의 장이었기에 역사적/문화적으로 중요한 장소입니다. 선사유적에서부터 근대에 이르기까지 그동안 감추어져 왔던 천안의 이야기들이 담긴 다양한 유적과 유물들을 만나볼 수 있게 되었습니다. 또한, 기획전시실, 체험하는 어린이 전시실, 공연장, 야외공연장 등에서 다양한 프로그램으로 문화행사가 열려 참여의 기회가 제공될 것 입니다.",
+      "metadata": {
+        "weekday_close": "17:00",
+        "address": "충청남도 천안시 동남구 천안삼거리길 27",
+        "sigungu": "천안시",
+        "transport_notes": "천안 IC에서 세종시 방향, 국도 1호선 천안삼거리 앞",
+        "holiday_close": "17:00",
+        "image_copyright": "Type1",
+        "closure_rule_raw": "월+1월 1일+설 당일+추석 당일 *2023.11~2025.5(리모델링 공사 휴관)",
+        "source_types": "BASE|TOUR_API",
+        "latitude": 36.78669474,
+        "longitude": 127.1633299,
+        "youth_fee": 0.0,
+        "ownership_type": "공립",
+        "requires_manual_review": true,
+        "fee_notes": "0",
+        "child_fee": 0.0,
+        "holiday_open": "09:00",
+        "name": "천안박물관",
+        "sido": "충청남도",
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "homepage_url": "http://www.cheonan.go.kr/museum.do",
+        "adult_fee": 0.0,
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/01/4109401_image2_1.jpg",
+        "amenities_raw": "공연장+강의실+매점",
+        "weekday_open": "09:00"
+      },
+      "vector_rank": 1,
+      "bm25_rank": 4,
+      "vector_distance": 0.43538546562194824,
+      "vector_score": null,
+      "bm25_score": 12.210073901869158,
+      "vector_document": "천안박물관은 선사시대에서부터 근대에 이르기까지 천안에 살았던 사람들의 삶의 이야기를 담고 있으며 천안의 역사와 문화를 이해하고 체험하는 곳이다. 주요 시설은 3개의 수장고와 6개의 전시실이 있으며 야외공간은 초가 3동, 삼문, 와가, 협문, 야외공연장, 산책로분수대 등이 있다. 전시실은 천안 고고실, 천안 역사실, 천안 삼거리실, 기획 전시실, 교통통신실, 어린이 전시실로 구성되어 있다. 고려 시대와 조선 시대 향촌의 생활상을 모아놓았으며, 국보로 지정된 봉선홍경사 갈기비 모형과 자세한 내용을 살펴볼 수 있다. 과거 보러 가는 선비와 나그네들이 모였다 흩어졌던 천안삼거리 이야기를 재현한 천안삼거리실을 별도로 만들었다. 천안의 각종 풍물과 민속놀이도 빠뜨릴 수 없다. 근현대실은 천안 사람들의 삶을 되돌아보는 공간이다. 일제강점기 독립운동을 비롯해서 상업, 농업, 광업 등 다양한 분야의 근현대 유물을 전시하고 있다. 천안삼거리로 유명한 천안은 예로부터 영남과 호남 그리고 충청도 문물과 사람이 만나고 어우러져 하나가 되는 만남과 교류의 장이며, 이해와 화합의 장이었기에 역사적/문화적으로 중요한 장소입니다. 선사유적에서부터 근대에 이르기까지 그동안 감추어져 왔던 천안의 이야기들이 담긴 다양한 유적과 유물들을 만나볼 수 있게 되었습니다. 또한, 기획전시실, 체험하는 어린이 전시실, 공연장, 야외공연장 등에서 다양한 프로그램으로 문화행사가 열려 참여의 기회가 제공될 것 입니다.",
+      "bm25_document": "천안박물관은 선사시대에서부터 근대에 이르기까지 천안에 살았던 사람들의 삶의 이야기를 담고 있으며 천안의 역사와 문화를 이해하고 체험하는 곳이다. 주요 시설은 3개의 수장고와 6개의 전시실이 있으며 야외공간은 초가 3동, 삼문, 와가, 협문, 야외공연장, 산책로분수대 등이 있다. 전시실은 천안 고고실, 천안 역사실, 천안 삼거리실, 기획 전시실, 교통통신실, 어린이 전시실로 구성되어 있다. 고려 시대와 조선 시대 향촌의 생활상을 모아놓았으며, 국보로 지정된 봉선홍경사 갈기비 모형과 자세한 내용을 살펴볼 수 있다. 과거 보러 가는 선비와 나그네들이 모였다 흩어졌던 천안삼거리 이야기를 재현한 천안삼거리실을 별도로 만들었다. 천안의 각종 풍물과 민속놀이도 빠뜨릴 수 없다. 근현대실은 천안 사람들의 삶을 되돌아보는 공간이다. 일제강점기 독립운동을 비롯해서 상업, 농업, 광업 등 다양한 분야의 근현대 유물을 전시하고 있다. 천안삼거리로 유명한 천안은 예로부터 영남과 호남 그리고 충청도 문물과 사람이 만나고 어우러져 하나가 되는 만남과 교류의 장이며, 이해와 화합의 장이었기에 역사적/문화적으로 중요한 장소입니다. 선사유적에서부터 근대에 이르기까지 그동안 감추어져 왔던 천안의 이야기들이 담긴 다양한 유적과 유물들을 만나볼 수 있게 되었습니다. 또한, 기획전시실, 체험하는 어린이 전시실, 공연장, 야외공연장 등에서 다양한 프로그램으로 문화행사가 열려 참여의 기회가 제공될 것 입니다.",
+      "best_span_id": "chroma:M0718",
+      "best_span_text": "천안박물관은 선사시대에서부터 근대에 이르기까지 천안에 살았던 사람들의 삶의 이야기를 담고 있으며 천안의 역사와 문화를 이해하고 체험하는 곳이다. 주요 시설은 3개의 수장고와 6개의 전시실이 있으며 야외공간은 초가 3동, 삼문, 와가, 협문, 야외공연장, 산책로분수대 등이 있다. 전시실은 천안 고고실, 천안 역사실, 천안 삼거리실, 기획 전시실, 교통통신실, 어린이 전시실로 구성되어 있다. 고려 시대와 조선 시대 향촌의 생활상을 모아놓았으며, 국보로 지정된 봉선홍경사 갈기비 모형과 자세한 내용을 살펴볼 수 있다. 과거 보러 가는 선비와 나그네들이 모였다 흩어졌던 천안삼거리 이야기를 재현한 천안삼거리실을 별도로 만들었다. 천안의 각종 풍물과 민속놀이도 빠뜨릴 수 없다. 근현대실은 천안 사람들의 삶을 되돌아보는 공간이다. 일제강점기 독립운동을 비롯해서 상업, 농업, 광업 등 다양한 분야의 근현대 유물을 전시하고 있다. 천안삼거리로 유명한 천안은 예로부터 영남과 호남 그리고 충청도 문물과 사람이 만나고 어우러져 하나가 되는 만남과 교류의 장이며, 이해와 화합의 장이었기에 역사적/문화적으로 중요한 장소입니다. 선사유적에서부터 근대에 이르기까지 그동안 감추어져 왔던 천안의 이야기들이 담긴 다양한 유적과 유물들을 만나볼 수 있게 되었습니다. 또한, 기획전시실, 체험하는 어린이 전시실, 공연장, 야외공연장 등에서 다양한 프로그램으로 문화행사가 열려 참여의 기회가 제공될 것 입니다.",
+      "fusion_score": 0.032018442622950824,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 1,
+      "name_match": true,
+      "rerank_score": 0.5921794772148132,
+      "rank": 2,
+      "score": 0.5921794772148132,
+      "score_type": "cross_encoder",
+      "distance": 0.43538546562194824,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0718",
+      "source_doc_ids": [
+        "DOC-B0718-TOUR_API-1935748",
+        "DOC-B0718-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0718-TOUR_API-1935748",
+          "source_type": "TOUR_API",
+          "source_record_id": "1935748",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=350",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        },
+        {
+          "doc_id": "DOC-B0718-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0718",
+          "source_locator": "data/raw/museum_base_1070.csv#row=719",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 80,
+          "doc_ids": [
+            "DOC-B0718-TOUR_API-1935748"
+          ]
+        },
+        {
+          "start": 81,
+          "end": 155,
+          "doc_ids": [
+            "DOC-B0718-TOUR_API-1935748"
+          ]
+        },
+        {
+          "start": 156,
+          "end": 218,
+          "doc_ids": [
+            "DOC-B0718-TOUR_API-1935748"
+          ]
+        },
+        {
+          "start": 219,
+          "end": 288,
+          "doc_ids": [
+            "DOC-B0718-TOUR_API-1935748"
+          ]
+        },
+        {
+          "start": 289,
+          "end": 349,
+          "doc_ids": [
+            "DOC-B0718-TOUR_API-1935748"
+          ]
+        },
+        {
+          "start": 350,
+          "end": 376,
+          "doc_ids": [
+            "DOC-B0718-TOUR_API-1935748"
+          ]
+        },
+        {
+          "start": 377,
+          "end": 405,
+          "doc_ids": [
+            "DOC-B0718-TOUR_API-1935748"
+          ]
+        },
+        {
+          "start": 406,
+          "end": 460,
+          "doc_ids": [
+            "DOC-B0718-TOUR_API-1935748"
+          ]
+        },
+        {
+          "start": 461,
+          "end": 567,
+          "doc_ids": [
+            "DOC-B0718-BASE"
+          ]
+        },
+        {
+          "start": 568,
+          "end": 640,
+          "doc_ids": [
+            "DOC-B0718-BASE"
+          ]
+        },
+        {
+          "start": 641,
+          "end": 719,
+          "doc_ids": [
+            "DOC-B0718-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=350",
+      "text": "천안박물관은 선사시대에서부터 근대에 이르기까지 천안에 살았던 사람들의 삶의 이야기를 담고 있으며 천안의 역사와 문화를 이해하고 체험하는 곳이다. 주요 시설은 3개의 수장고와 6개의 전시실이 있으며 야외공간은 초가 3동, 삼문, 와가, 협문, 야외공연장, 산책로분수대 등이 있다. 전시실은 천안 고고실, 천안 역사실, 천안 삼거리실, 기획 전시실, 교통통신실, 어린이 전시실로 구성되어 있다. 고려 시대와 조선 시대 향촌의 생활상을 모아놓았으며, 국보로 지정된 봉선홍경사 갈기비 모형과 자세한 내용을 살펴볼 수 있다. 과거 보러 가는 선비와 나그네들이 모였다 흩어졌던 천안삼거리 이야기를 재현한 천안삼거리실을 별도로 만들었다. 천안의 각종 풍물과 민속놀이도 빠뜨릴 수 없다. 근현대실은 천안 사람들의 삶을 되돌아보는 공간이다. 일제강점기 독립운동을 비롯해서 상업, 농업, 광업 등 다양한 분야의 근현대 유물을 전시하고 있다. 천안삼거리로 유명한 천안은 예로부터 영남과 호남 그리고 충청도 문물과 사람이 만나고 어우러져 하나가 되는 만남과 교류의 장이며, 이해와 화합의 장이었기에 역사적/문화적으로 중요한 장소입니다. 선사유적에서부터 근대에 이르기까지 그동안 감추어져 왔던 천안의 이야기들이 담긴 다양한 유적과 유물들을 만나볼 수 있게 되었습니다. 또한, 기획전시실, 체험하는 어린이 전시실, 공연장, 야외공연장 등에서 다양한 프로그램으로 문화행사가 열려 참여의 기회가 제공될 것 입니다.",
+      "sido": "충청남도",
+      "sigungu": "천안시",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=350"
+      ],
+      "evidence_id": "E2",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=500",
+        "fields": {
+          "name": "천안박물관",
+          "sido": "충청남도",
+          "sigungu": "천안시",
+          "address": "충청남도 천안시 동남구 천안삼거리길 27",
+          "ownership_type": "공립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "09:00",
+          "weekday_close": "17:00",
+          "holiday_open": "09:00",
+          "holiday_close": "17:00",
+          "closure_rule_raw": "월+1월 1일+설 당일+추석 당일 *2023.11~2025.5(리모델링 공사 휴관)",
+          "amenities_raw": "공연장+강의실+매점"
+        },
+        "base_data_date": "2024-07-11",
+        "trust": "derived_dataset_not_human_verified"
+      },
+      "retrieval_branch": "document"
+    },
+    {
+      "museum_id": "M0386",
+      "name": "과천사료박물관",
+      "document": "과천의 역사와 생활를 한눈에 볼수 있는 향토유물 전시",
+      "metadata": {
+        "holiday_close": "00:00",
+        "weekday_open": "09:00",
+        "sigungu": "과천시",
+        "sido": "경기도",
+        "source_types": "BASE",
+        "longitude": 127.0017944,
+        "homepage_url": "http://www.gccc.or.kr/",
+        "name": "과천사료박물관",
+        "fee_notes": "무료",
+        "latitude": 37.42834358,
+        "ownership_type": "공립",
+        "youth_fee": 0.0,
+        "child_fee": 0.0,
+        "closure_rule_raw": "토+일+공휴일",
+        "adult_fee": 0.0,
+        "requires_manual_review": true,
+        "weekday_close": "18:00",
+        "holiday_open": "00:00",
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "address": "경기도 과천시 문원로 40-1"
+      },
+      "vector_rank": 4,
+      "bm25_rank": null,
+      "vector_distance": 0.47629404067993164,
+      "vector_score": null,
+      "bm25_score": null,
+      "vector_document": "과천의 역사와 생활를 한눈에 볼수 있는 향토유물 전시",
+      "bm25_document": "",
+      "best_span_id": null,
+      "best_span_text": null,
+      "fusion_score": 0.015625,
+      "retrieved_by": [
+        "vector"
+      ],
+      "fusion_rank": 6,
+      "rerank_score": 0.000694905873388052,
+      "rank": 3,
+      "score": 0.000694905873388052,
+      "score_type": "cross_encoder",
+      "distance": 0.47629404067993164,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector"
+      ],
+      "retriever": "vector",
+      "source_doc_ids": [
+        "DOC-B0386-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0386-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0386",
+          "source_locator": "data/raw/museum_base_1070.csv#row=387",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 29,
+          "doc_ids": [
+            "DOC-B0386-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_base_1070.csv#row=387",
+      "text": "과천의 역사와 생활를 한눈에 볼수 있는 향토유물 전시",
+      "sido": "경기도",
+      "sigungu": "과천시",
+      "span_id": "",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_base_1070.csv#row=387"
+      ],
+      "evidence_id": "E3",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=275",
+        "fields": {
+          "name": "과천사료박물관",
+          "sido": "경기도",
+          "sigungu": "과천시",
+          "address": "경기도 과천시 문원로 40-1",
+          "ownership_type": "공립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "09:00",
+          "weekday_close": "18:00",
+          "holiday_open": "00:00",
+          "holiday_close": "00:00",
+          "closure_rule_raw": "토+일+공휴일"
+        },
+        "base_data_date": "2026-06-17",
+        "trust": "derived_dataset_not_human_verified"
+      },
+      "retrieval_branch": "document"
+    },
+    {
+      "museum_id": "M1068",
+      "name": "충남대학교 박물관",
+      "document": "충남대학교 박물관은 대전 유성구 충남대학교 대덕캠퍼스 내에 위치한 박물관이다. 이 박물관은 우리나라 전통문화 분야의 자료를 수집, 보관, 전시함으로써 본교 구성원 및 지역 주민들의 문화의식 수준 향상에 기여할 목적으로 1968년 4월 28일 설립되었다. 박물관은 전시실, 학예연구실, 시청각실, 유물 수장고, 유물 정리실, 도서실, 뮤지엄 샵, 행정실, 기계실 등 다양한 시설을 갖추고 있으며, 약 2,000여 점의 역사 유물과 1,000여 점의 교사용 자료를 소장하고 있다. 충남대학교 박물관은 한밭대로, 대학로, 유성대로를 통해 충남대학교 대덕캠퍼스로 진입하여 쉽게 접근할 수 있으며, 인근 고속도로는 호남고속도로 지선의 유성 IC가 가장 가깝다. 주변에는 유성종합스포츠센터, 궁동로데오거리, 유성온천 등 다양한 문화·여가 시설이 위치해 있다. - 충남대학교박물관은 1968년 4월 28일에 설립되어 다양한 역사문화자료를 수집, 보관, 전시함으로써 학술연구 및 교육문화발전에 힘써오고 있다. - 박물관 1층에 상설전시실이 운영 중에 있으며 다양한 발굴조사를 통해 수집된 유물들이 전시 되어 있으며, 충남대학교의 역사와 관련된 학교사 자료도 전시 되어있다. 그 외에 박물관대학 등 교육 강좌를 운영 중에 있다.",
+      "metadata": {
+        "weekday_close": "17:00",
+        "homepage_url": "http://museum.cnu.ac.kr/",
+        "longitude": 127.3420001,
+        "image_copyright": "Type3",
+        "ownership_type": "대학",
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "holiday_open": "10:00",
+        "holiday_close": "17:00",
+        "sigungu": "유성구",
+        "name": "충남대학교 박물관",
+        "latitude": 36.36836824,
+        "fee_notes": "무료",
+        "youth_fee": 0.0,
+        "amenities_raw": "없음",
+        "requires_manual_review": true,
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/88/3032688_image2_1.JPG",
+        "adult_fee": 0.0,
+        "sido": "대전광역시",
+        "weekday_open": "10:00",
+        "address": "대전광역시 유성구 대학로 99",
+        "child_fee": 0.0,
+        "transport_notes": "- 버스 : 111-1, 140, 222",
+        "closure_rule_raw": "토, 일, 공휴일, 개교기념일",
+        "source_types": "BASE|TOUR_API"
+      },
+      "vector_rank": null,
+      "bm25_rank": 6,
+      "vector_distance": null,
+      "vector_score": null,
+      "bm25_score": 11.7986921430907,
+      "vector_document": "",
+      "bm25_document": "충남대학교 박물관은 대전 유성구 충남대학교 대덕캠퍼스 내에 위치한 박물관이다. 이 박물관은 우리나라 전통문화 분야의 자료를 수집, 보관, 전시함으로써 본교 구성원 및 지역 주민들의 문화의식 수준 향상에 기여할 목적으로 1968년 4월 28일 설립되었다. 박물관은 전시실, 학예연구실, 시청각실, 유물 수장고, 유물 정리실, 도서실, 뮤지엄 샵, 행정실, 기계실 등 다양한 시설을 갖추고 있으며, 약 2,000여 점의 역사 유물과 1,000여 점의 교사용 자료를 소장하고 있다. 충남대학교 박물관은 한밭대로, 대학로, 유성대로를 통해 충남대학교 대덕캠퍼스로 진입하여 쉽게 접근할 수 있으며, 인근 고속도로는 호남고속도로 지선의 유성 IC가 가장 가깝다. 주변에는 유성종합스포츠센터, 궁동로데오거리, 유성온천 등 다양한 문화·여가 시설이 위치해 있다. - 충남대학교박물관은 1968년 4월 28일에 설립되어 다양한 역사문화자료를 수집, 보관, 전시함으로써 학술연구 및 교육문화발전에 힘써오고 있다. - 박물관 1층에 상설전시실이 운영 중에 있으며 다양한 발굴조사를 통해 수집된 유물들이 전시 되어 있으며, 충남대학교의 역사와 관련된 학교사 자료도 전시 되어있다. 그 외에 박물관대학 등 교육 강좌를 운영 중에 있다.",
+      "best_span_id": "chroma:M1068",
+      "best_span_text": "충남대학교 박물관은 대전 유성구 충남대학교 대덕캠퍼스 내에 위치한 박물관이다. 이 박물관은 우리나라 전통문화 분야의 자료를 수집, 보관, 전시함으로써 본교 구성원 및 지역 주민들의 문화의식 수준 향상에 기여할 목적으로 1968년 4월 28일 설립되었다. 박물관은 전시실, 학예연구실, 시청각실, 유물 수장고, 유물 정리실, 도서실, 뮤지엄 샵, 행정실, 기계실 등 다양한 시설을 갖추고 있으며, 약 2,000여 점의 역사 유물과 1,000여 점의 교사용 자료를 소장하고 있다. 충남대학교 박물관은 한밭대로, 대학로, 유성대로를 통해 충남대학교 대덕캠퍼스로 진입하여 쉽게 접근할 수 있으며, 인근 고속도로는 호남고속도로 지선의 유성 IC가 가장 가깝다. 주변에는 유성종합스포츠센터, 궁동로데오거리, 유성온천 등 다양한 문화·여가 시설이 위치해 있다. - 충남대학교박물관은 1968년 4월 28일에 설립되어 다양한 역사문화자료를 수집, 보관, 전시함으로써 학술연구 및 교육문화발전에 힘써오고 있다. - 박물관 1층에 상설전시실이 운영 중에 있으며 다양한 발굴조사를 통해 수집된 유물들이 전시 되어 있으며, 충남대학교의 역사와 관련된 학교사 자료도 전시 되어있다. 그 외에 박물관대학 등 교육 강좌를 운영 중에 있다.",
+      "fusion_score": 0.015151515151515152,
+      "retrieved_by": [
+        "bm25"
+      ],
+      "fusion_rank": 10,
+      "rerank_score": 0.0006103072664700449,
+      "rank": 4,
+      "score": 0.0006103072664700449,
+      "score_type": "cross_encoder",
+      "distance": null,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "bm25"
+      ],
+      "retriever": "bm25",
+      "span_id": "chroma:M1068",
+      "source_doc_ids": [
+        "DOC-B1068-TOUR_API-129817",
+        "DOC-B1068-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B1068-TOUR_API-129817",
+          "source_type": "TOUR_API",
+          "source_record_id": "129817",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=493",
+          "match_trust": "RECHECKED_BY_RULE_NOT_HUMAN_APPROVED"
+        },
+        {
+          "doc_id": "DOC-B1068-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B1068",
+          "source_locator": "data/raw/museum_base_1070.csv#row=1069",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 43,
+          "doc_ids": [
+            "DOC-B1068-TOUR_API-129817"
+          ]
+        },
+        {
+          "start": 44,
+          "end": 141,
+          "doc_ids": [
+            "DOC-B1068-TOUR_API-129817"
+          ]
+        },
+        {
+          "start": 142,
+          "end": 266,
+          "doc_ids": [
+            "DOC-B1068-TOUR_API-129817"
+          ]
+        },
+        {
+          "start": 267,
+          "end": 364,
+          "doc_ids": [
+            "DOC-B1068-TOUR_API-129817"
+          ]
+        },
+        {
+          "start": 365,
+          "end": 418,
+          "doc_ids": [
+            "DOC-B1068-TOUR_API-129817"
+          ]
+        },
+        {
+          "start": 419,
+          "end": 500,
+          "doc_ids": [
+            "DOC-B1068-BASE"
+          ]
+        },
+        {
+          "start": 501,
+          "end": 592,
+          "doc_ids": [
+            "DOC-B1068-BASE"
+          ]
+        },
+        {
+          "start": 593,
+          "end": 622,
+          "doc_ids": [
+            "DOC-B1068-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=493",
+      "text": "충남대학교 박물관은 대전 유성구 충남대학교 대덕캠퍼스 내에 위치한 박물관이다. 이 박물관은 우리나라 전통문화 분야의 자료를 수집, 보관, 전시함으로써 본교 구성원 및 지역 주민들의 문화의식 수준 향상에 기여할 목적으로 1968년 4월 28일 설립되었다. 박물관은 전시실, 학예연구실, 시청각실, 유물 수장고, 유물 정리실, 도서실, 뮤지엄 샵, 행정실, 기계실 등 다양한 시설을 갖추고 있으며, 약 2,000여 점의 역사 유물과 1,000여 점의 교사용 자료를 소장하고 있다. 충남대학교 박물관은 한밭대로, 대학로, 유성대로를 통해 충남대학교 대덕캠퍼스로 진입하여 쉽게 접근할 수 있으며, 인근 고속도로는 호남고속도로 지선의 유성 IC가 가장 가깝다. 주변에는 유성종합스포츠센터, 궁동로데오거리, 유성온천 등 다양한 문화·여가 시설이 위치해 있다. - 충남대학교박물관은 1968년 4월 28일에 설립되어 다양한 역사문화자료를 수집, 보관, 전시함으로써 학술연구 및 교육문화발전에 힘써오고 있다. - 박물관 1층에 상설전시실이 운영 중에 있으며 다양한 발굴조사를 통해 수집된 유물들이 전시 되어 있으며, 충남대학교의 역사와 관련된 학교사 자료도 전시 되어있다. 그 외에 박물관대학 등 교육 강좌를 운영 중에 있다.",
+      "sido": "대전광역시",
+      "sigungu": "유성구",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=493"
+      ],
+      "evidence_id": "E4",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=737",
+        "fields": {
+          "name": "충남대학교 박물관",
+          "sido": "대전광역시",
+          "sigungu": "유성구",
+          "address": "대전광역시 유성구 대학로 99",
+          "ownership_type": "대학",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "10:00",
+          "weekday_close": "17:00",
+          "holiday_open": "10:00",
+          "holiday_close": "17:00",
+          "closure_rule_raw": "토, 일, 공휴일, 개교기념일",
+          "amenities_raw": "없음"
+        },
+        "base_data_date": "2020-12-15",
+        "trust": "derived_dataset_not_human_verified"
+      },
+      "retrieval_branch": "document"
+    },
+    {
+      "museum_id": "M1014",
+      "name": "양구근현대사박물관",
+      "document": "박물관은 근현대사를 담고 있는 다양한 자료를 테마별 전시관으로 구성하고 있습니다. 먼저 제1전시실은 한국근현대사 전반을 살펴볼 수 있는 역사의 휘모리 공간을 시작으로, 엽서관, 우표관, 씰관 등으로 구성되어 있으며, 제2전시실은 추억속의 영화역사 포스터 등을 전시한 추억의 영화관, 아리랑 문화를 다양한 면을 살필 수 있는 공간으로 전시되어 있다. 또한 기획전시실에는 기증유물특별전으로 기증자 박민일 박사, 송광호 기자, 철학가 김형석박사의 다양한 기증자료 중 도자기, 그림, 글씨, 민속품을 중심으로 전시하고 있다.",
+      "metadata": {
+        "ownership_type": "공립",
+        "child_fee": 3000.0,
+        "amenities_raw": "뮤지엄숍+향토사료관+고인돌공원+함춘주막",
+        "holiday_open": "10:00",
+        "longitude": 127.9904068,
+        "fee_notes": "지역상품권 환급+6세이하+65세 이상+장애인+국민기초생활수급자+명예군민 등 면제",
+        "name": "양구근현대사박물관",
+        "sigungu": "양구군",
+        "requires_manual_review": true,
+        "youth_fee": 3000.0,
+        "address": "강원특별자치도 양구군 양구읍 금강산로 439-51",
+        "sido": "강원특별자치도",
+        "weekday_close": "18:00",
+        "holiday_close": "18:00",
+        "adult_fee": 3000.0,
+        "latitude": 38.12222633,
+        "weekday_open": "10:00",
+        "adult_fee_status": "BASE_FEE_PAID",
+        "source_types": "BASE",
+        "closure_rule_raw": "월+1월 1일+설날 오전+추석 오전",
+        "homepage_url": "http://www.ygpm.or.kr/"
+      },
+      "vector_rank": 7,
+      "bm25_rank": null,
+      "vector_distance": 0.5015266537666321,
+      "vector_score": null,
+      "bm25_score": null,
+      "vector_document": "박물관은 근현대사를 담고 있는 다양한 자료를 테마별 전시관으로 구성하고 있습니다. 먼저 제1전시실은 한국근현대사 전반을 살펴볼 수 있는 역사의 휘모리 공간을 시작으로, 엽서관, 우표관, 씰관 등으로 구성되어 있으며, 제2전시실은 추억속의 영화역사 포스터 등을 전시한 추억의 영화관, 아리랑 문화를 다양한 면을 살필 수 있는 공간으로 전시되어 있다. 또한 기획전시실에는 기증유물특별전으로 기증자 박민일 박사, 송광호 기자, 철학가 김형석박사의 다양한 기증자료 중 도자기, 그림, 글씨, 민속품을 중심으로 전시하고 있다.",
+      "bm25_document": "",
+      "best_span_id": null,
+      "best_span_text": null,
+      "fusion_score": 0.014925373134328358,
+      "retrieved_by": [
+        "vector"
+      ],
+      "fusion_rank": 11,
+      "rerank_score": 0.0006004179012961686,
+      "rank": 5,
+      "score": 0.0006004179012961686,
+      "score_type": "cross_encoder",
+      "distance": 0.5015266537666321,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector"
+      ],
+      "retriever": "vector",
+      "source_doc_ids": [
+        "DOC-B1014-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B1014-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B1014",
+          "source_locator": "data/raw/museum_base_1070.csv#row=1015",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 45,
+          "doc_ids": [
+            "DOC-B1014-BASE"
+          ]
+        },
+        {
+          "start": 46,
+          "end": 194,
+          "doc_ids": [
+            "DOC-B1014-BASE"
+          ]
+        },
+        {
+          "start": 195,
+          "end": 289,
+          "doc_ids": [
+            "DOC-B1014-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_base_1070.csv#row=1015",
+      "text": "박물관은 근현대사를 담고 있는 다양한 자료를 테마별 전시관으로 구성하고 있습니다. 먼저 제1전시실은 한국근현대사 전반을 살펴볼 수 있는 역사의 휘모리 공간을 시작으로, 엽서관, 우표관, 씰관 등으로 구성되어 있으며, 제2전시실은 추억속의 영화역사 포스터 등을 전시한 추억의 영화관, 아리랑 문화를 다양한 면을 살필 수 있는 공간으로 전시되어 있다. 또한 기획전시실에는 기증유물특별전으로 기증자 박민일 박사, 송광호 기자, 철학가 김형석박사의 다양한 기증자료 중 도자기, 그림, 글씨, 민속품을 중심으로 전시하고 있다.",
+      "sido": "강원특별자치도",
+      "sigungu": "양구군",
+      "span_id": "",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_base_1070.csv#row=1015"
+      ],
+      "evidence_id": "E5",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=696",
+        "fields": {
+          "name": "양구근현대사박물관",
+          "sido": "강원특별자치도",
+          "sigungu": "양구군",
+          "address": "강원특별자치도 양구군 양구읍 금강산로 439-51",
+          "ownership_type": "공립",
+          "adult_fee": "3000",
+          "youth_fee": "3000",
+          "child_fee": "3000",
+          "adult_fee_status": "BASE_FEE_PAID",
+          "weekday_open": "10:00",
+          "weekday_close": "18:00",
+          "holiday_open": "10:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "월+1월 1일+설날 오전+추석 오전",
+          "amenities_raw": "뮤지엄숍+향토사료관+고인돌공원+함춘주막"
+        },
+        "base_data_date": "2025-08-05",
+        "trust": "derived_dataset_not_human_verified"
+      },
+      "retrieval_branch": "document"
+    },
+    {
+      "museum_id": "M0718",
+      "name": "천안박물관",
+      "text": "천안박물관의 Neo4j operator_name(운영기관) 기록: 충청남도 천안시 (CSV 원문: 충청남도 천안시청)\n[Neo4j 구조화 근거] {\"museum_id\": \"M0718\", \"name\": \"천안박물관\", \"relation\": \"OPERATED_BY\", \"organization\": \"충청남도 천안시\", \"org_key\": \"충청남도천안시\", \"org_type\": \"지방자치단체\", \"raw_name\": \"충청남도 천안시청\", \"verification_status\": \"SOURCE_RECORDED\"}",
+      "span_id": "",
+      "source_doc_ids": [
+        "DOC-B0718-BASE",
+        "DOC-B0718-TOUR_API-1935748"
+      ],
+      "source_urls": [],
+      "source_url": "",
+      "source_locators": [
+        "data/raw/museum_base_1070.csv#row=719",
+        "data/raw/museum_tourapi_with_overview.csv#row=350"
+      ],
+      "source_locator": "data/raw/museum_base_1070.csv#row=719",
+      "sido": "충청남도",
+      "sigungu": "천안시",
+      "retriever": "graph",
+      "evidence_role": "anchor",
+      "source_scope": "graph_properties",
+      "relation": "OPERATED_BY",
+      "organization": "충청남도 천안시",
+      "org_type": "지방자치단체",
+      "operator_raw_name": "충청남도 천안시청",
+      "verification_status": "SOURCE_RECORDED",
+      "metadata": {},
+      "chunk_id": "",
+      "retrievers": [
+        "graph"
+      ],
+      "evidence_id": "E6",
+      "retrieval_branch": "graph",
+      "rank": 6
+    },
+    {
+      "museum_id": "M0716",
+      "name": "유관순열사기념관",
+      "text": "{anchor_raw_name: 충청남도 천안시청, candidate_raw_name: 충청남도 천안시청, org_key: 충청남도천안시, organization: 충청남도 천안시, relation: OPERATED_BY, verification_status: SOURCE_RECORDED}",
+      "span_id": "",
+      "source_doc_ids": [
+        "DOC-B0716-BASE",
+        "DOC-B0716-TOUR_API-130495"
+      ],
+      "source_urls": [],
+      "source_url": "",
+      "source_locators": [
+        "data/raw/museum_base_1070.csv#row=717",
+        "data/raw/museum_tourapi_with_overview.csv#row=349"
+      ],
+      "source_locator": "data/raw/museum_base_1070.csv#row=717",
+      "sido": "충청남도",
+      "sigungu": "천안시",
+      "retriever": "graph",
+      "graph_path": "anchor -[:OPERATED_BY]-> Organization <-[:OPERATED_BY]- candidate",
+      "organization": "충청남도 천안시",
+      "org_type": "지방자치단체",
+      "operator_raw_name": "충청남도 천안시청",
+      "anchor_operator_raw_name": "충청남도 천안시청",
+      "relation": "OPERATED_BY",
+      "verification_status": "SOURCE_RECORDED",
+      "facility_type": "기념관",
+      "source_scope": "graph_properties",
+      "metadata": {},
+      "chunk_id": "",
+      "retrievers": [
+        "graph"
+      ],
+      "evidence_id": "E7",
+      "retrieval_branch": "graph",
+      "rank": 7
+    },
+    {
+      "museum_id": "M0715",
+      "name": "이동녕기념관",
+      "text": "{anchor_raw_name: 충청남도 천안시청, candidate_raw_name: 충청남도 천안시청, org_key: 충청남도천안시, organization: 충청남도 천안시, relation: OPERATED_BY, verification_status: SOURCE_RECORDED}",
+      "span_id": "",
+      "source_doc_ids": [
+        "DOC-B0715-BASE"
+      ],
+      "source_urls": [],
+      "source_url": "",
+      "source_locators": [
+        "data/raw/museum_base_1070.csv#row=716"
+      ],
+      "source_locator": "data/raw/museum_base_1070.csv#row=716",
+      "sido": "충청남도",
+      "sigungu": "천안시",
+      "retriever": "graph",
+      "graph_path": "anchor -[:OPERATED_BY]-> Organization <-[:OPERATED_BY]- candidate",
+      "organization": "충청남도 천안시",
+      "org_type": "지방자치단체",
+      "operator_raw_name": "충청남도 천안시청",
+      "anchor_operator_raw_name": "충청남도 천안시청",
+      "relation": "OPERATED_BY",
+      "verification_status": "SOURCE_RECORDED",
+      "facility_type": "기념관",
+      "source_scope": "graph_properties",
+      "metadata": {},
+      "chunk_id": "",
+      "retrievers": [
+        "graph"
+      ],
+      "evidence_id": "E8",
+      "retrieval_branch": "graph",
+      "rank": 8
+    },
+    {
+      "museum_id": "M0717",
+      "name": "천안흥타령관",
+      "text": "{anchor_raw_name: 충청남도 천안시청, candidate_raw_name: 충청남도 천안시청, org_key: 충청남도천안시, organization: 충청남도 천안시, relation: OPERATED_BY, verification_status: SOURCE_RECORDED}",
+      "span_id": "",
+      "source_doc_ids": [
+        "DOC-B0717-BASE"
+      ],
+      "source_urls": [],
+      "source_url": "",
+      "source_locators": [
+        "data/raw/museum_base_1070.csv#row=718"
+      ],
+      "source_locator": "data/raw/museum_base_1070.csv#row=718",
+      "sido": "충청남도",
+      "sigungu": "천안시",
+      "retriever": "graph",
+      "graph_path": "anchor -[:OPERATED_BY]-> Organization <-[:OPERATED_BY]- candidate",
+      "organization": "충청남도 천안시",
+      "org_type": "지방자치단체",
+      "operator_raw_name": "충청남도 천안시청",
+      "anchor_operator_raw_name": "충청남도 천안시청",
+      "relation": "OPERATED_BY",
+      "verification_status": "SOURCE_RECORDED",
+      "facility_type": "전시관",
+      "source_scope": "graph_properties",
+      "metadata": {},
+      "chunk_id": "",
+      "retrievers": [
+        "graph"
+      ],
+      "evidence_id": "E9",
+      "retrieval_branch": "graph",
+      "rank": 9
+    }
+  ],
+  "answer": "천안박물관과 같은 기관(기록상 운영기관: 충청남도 천안시)이 운영하는 곳은 **유관순열사기념관**입니다[E6][E7]. 이곳 전시관에서는 유관순 열사의 생애와 활동을 소개하고 유품·사진·영상자료를 볼 수 있습니다[E1].",
+  "retrieval_status": "ok",
+  "answer_status": "answered",
+  "route": "combined",
+  "retry_count": 0,
+  "supervisor_verified": true,
+  "rerank_applied": true,
+  "retriever_errors": [],
+  "warnings": [],
+  "duration_ms": 145569.59,
+  "error_type": "",
+  "hit_at_1": 1,
+  "hit_at_3": 1,
+  "hit_at_5": 1,
+  "recall_at_5": 1.0,
+  "mrr_at_10": 1.0
+}

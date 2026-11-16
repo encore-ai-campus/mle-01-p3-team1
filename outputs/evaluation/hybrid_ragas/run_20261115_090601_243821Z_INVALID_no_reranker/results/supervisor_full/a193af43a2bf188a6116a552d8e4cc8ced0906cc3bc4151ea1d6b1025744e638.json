@@ -1,0 +1,736 @@
+{
+  "mode": "supervisor_full",
+  "question_id": "Q247",
+  "evidence": [
+    {
+      "museum_id": "M0431",
+      "name": "거제민속박물관",
+      "document": "연초면 대금산 아래 위치한 거제민속박물관은 명동초등학교가 폐교한 후 사립 박물관으로 탈바꿈한 곳이다. 오랜 기간 동안 수집한 농경·민속·서화 등 민속자료 5,500여 점이 전시되어 있는 자료관으로 문화관광부에 등록되어 있으며 전시관 부지 내에 곤충생태원이 위치하고 있어 다양한 볼거리가 있는 곳이다. 박물관이라고 하기에 규모는 조금 작으나 민속공예품 등이 아기자기하게 전시되어 있어 아이와 함께 둘러보며 감상하기 좋으며 어른들에게는 옛 추억을 되새기게 하는 소품들이 많다. 민속품+고서화+옹기+고가구+농기구 등 29000여점 소장",
+      "metadata": {
+        "adult_fee": 2000.0,
+        "sigungu": "거제시",
+        "adult_fee_status": "BASE_FEE_PAID",
+        "fee_notes": "할인(단체)",
+        "sido": "경상남도",
+        "address": "경상남도 거제시 연초면 대금산로 339-7",
+        "source_types": "BASE|TOUR_API",
+        "name": "거제민속박물관",
+        "longitude": 128.677436,
+        "youth_fee": 1000.0,
+        "child_fee": 1000.0,
+        "requires_manual_review": true,
+        "weekday_close": "16:30",
+        "weekday_open": "09:30",
+        "holiday_close": "16:30",
+        "ownership_type": "사립",
+        "latitude": 34.95011436,
+        "holiday_open": "09:30",
+        "homepage_url": "https://www.geoje.go.kr",
+        "closure_rule_raw": "일요일"
+      },
+      "vector_rank": 1,
+      "bm25_rank": 2,
+      "vector_distance": 0.49160289764404297,
+      "vector_score": null,
+      "bm25_score": 34.737132219659664,
+      "vector_document": "연초면 대금산 아래 위치한 거제민속박물관은 명동초등학교가 폐교한 후 사립 박물관으로 탈바꿈한 곳이다. 오랜 기간 동안 수집한 농경·민속·서화 등 민속자료 5,500여 점이 전시되어 있는 자료관으로 문화관광부에 등록되어 있으며 전시관 부지 내에 곤충생태원이 위치하고 있어 다양한 볼거리가 있는 곳이다. 박물관이라고 하기에 규모는 조금 작으나 민속공예품 등이 아기자기하게 전시되어 있어 아이와 함께 둘러보며 감상하기 좋으며 어른들에게는 옛 추억을 되새기게 하는 소품들이 많다. 민속품+고서화+옹기+고가구+농기구 등 29000여점 소장",
+      "bm25_document": "연초면 대금산 아래 위치한 거제민속박물관은 명동초등학교가 폐교한 후 사립 박물관으로 탈바꿈한 곳이다. 오랜 기간 동안 수집한 농경·민속·서화 등 민속자료 5,500여 점이 전시되어 있는 자료관으로 문화관광부에 등록되어 있으며 전시관 부지 내에 곤충생태원이 위치하고 있어 다양한 볼거리가 있는 곳이다. 박물관이라고 하기에 규모는 조금 작으나 민속공예품 등이 아기자기하게 전시되어 있어 아이와 함께 둘러보며 감상하기 좋으며 어른들에게는 옛 추억을 되새기게 하는 소품들이 많다. 민속품+고서화+옹기+고가구+농기구 등 29000여점 소장",
+      "best_span_id": "chroma:M0431",
+      "best_span_text": "연초면 대금산 아래 위치한 거제민속박물관은 명동초등학교가 폐교한 후 사립 박물관으로 탈바꿈한 곳이다. 오랜 기간 동안 수집한 농경·민속·서화 등 민속자료 5,500여 점이 전시되어 있는 자료관으로 문화관광부에 등록되어 있으며 전시관 부지 내에 곤충생태원이 위치하고 있어 다양한 볼거리가 있는 곳이다. 박물관이라고 하기에 규모는 조금 작으나 민속공예품 등이 아기자기하게 전시되어 있어 아이와 함께 둘러보며 감상하기 좋으며 어른들에게는 옛 추억을 되새기게 하는 소품들이 많다. 민속품+고서화+옹기+고가구+농기구 등 29000여점 소장",
+      "fusion_score": 0.03252247488101534,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 1,
+      "name_match": true,
+      "rerank_score": null,
+      "rank": 1,
+      "score": 0.03252247488101534,
+      "score_type": "rrf",
+      "distance": 0.49160289764404297,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0431",
+      "source_doc_ids": [
+        "DOC-B0431-TOUR_API-1622150",
+        "DOC-B0431-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0431-TOUR_API-1622150",
+          "source_type": "TOUR_API",
+          "source_record_id": "1622150",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=205",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        },
+        {
+          "doc_id": "DOC-B0431-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0431",
+          "source_locator": "data/raw/museum_base_1070.csv#row=432",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 56,
+          "doc_ids": [
+            "DOC-B0431-TOUR_API-1622150"
+          ]
+        },
+        {
+          "start": 57,
+          "end": 167,
+          "doc_ids": [
+            "DOC-B0431-TOUR_API-1622150"
+          ]
+        },
+        {
+          "start": 168,
+          "end": 264,
+          "doc_ids": [
+            "DOC-B0431-TOUR_API-1622150"
+          ]
+        },
+        {
+          "start": 265,
+          "end": 296,
+          "doc_ids": [
+            "DOC-B0431-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=205",
+      "text": "연초면 대금산 아래 위치한 거제민속박물관은 명동초등학교가 폐교한 후 사립 박물관으로 탈바꿈한 곳이다. 오랜 기간 동안 수집한 농경·민속·서화 등 민속자료 5,500여 점이 전시되어 있는 자료관으로 문화관광부에 등록되어 있으며 전시관 부지 내에 곤충생태원이 위치하고 있어 다양한 볼거리가 있는 곳이다. 박물관이라고 하기에 규모는 조금 작으나 민속공예품 등이 아기자기하게 전시되어 있어 아이와 함께 둘러보며 감상하기 좋으며 어른들에게는 옛 추억을 되새기게 하는 소품들이 많다. 민속품+고서화+옹기+고가구+농기구 등 29000여점 소장",
+      "sido": "경상남도",
+      "sigungu": "거제시",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=205"
+      ],
+      "evidence_id": "E1",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=305",
+        "fields": {
+          "name": "거제민속박물관",
+          "sido": "경상남도",
+          "sigungu": "거제시",
+          "address": "경상남도 거제시 연초면 대금산로 339-7",
+          "ownership_type": "사립",
+          "adult_fee": "2000",
+          "youth_fee": "1000",
+          "child_fee": "1000",
+          "adult_fee_status": "BASE_FEE_PAID",
+          "weekday_open": "09:30",
+          "weekday_close": "16:30",
+          "holiday_open": "09:30",
+          "holiday_close": "16:30",
+          "closure_rule_raw": "일요일"
+        },
+        "base_data_date": "2026-03-26",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0591",
+      "name": "김해민속박물관",
+      "document": "김해민속박물관은 김해문화원에서 전시 중인 민속유물을 옮겨와 2005년 10월 1일에 개관하였다. 통문화계승과 문화예술 진흥을 위해 김해문화원에서 수집·보존·전시하던 민속품 등을 이전·전시함으로써 보다 체계적인 관리를 통해 김해시민 및 김해시를 방문하는 관광객들에게 사라져 가는 우리의 민속 문화를 향유하고 우리 전통문화에 대한 이해와 소통을 간직하기 위해 개관하였다. 이곳은 김해 지역의 민속유물의 보존 관리 및 사라져 가는 민속의 재발견을 통해 생동감 있는 교육의 장으로 활용되고 있다. 김해민속박물관은 민속 및 농경에 관한 유물들을 전시하고 있으며, 전시 이외에도 전통놀이와 각종 체험행사 등 다양한 문화행사를 진행하고 있다. 김해지역의 민속유물을 보존관리하며 사라져가는 민속의 재발견을 통한 교육의 장으로 활용",
+      "metadata": {
+        "closure_rule_raw": "월요일(공휴일인 월요일은 운영, 다음날 휴관)+1월1일+설 당일+추석 당일",
+        "ownership_type": "공립",
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "adult_fee": 0.0,
+        "amenities_raw": "장애인화장실",
+        "transport_notes": "경전철 : 수로왕릉역 2번출구 도보 10분 / 버스 : 3-1, 8, 21, 21-1, 44, 97, 98 수로왕릉 정류소 하차 후 도보 5분",
+        "weekday_open": "09:00",
+        "youth_fee": 0.0,
+        "child_fee": 0.0,
+        "requires_manual_review": true,
+        "name": "김해민속박물관",
+        "sido": "경상남도",
+        "sigungu": "김해시",
+        "source_types": "BASE|TOUR_API",
+        "longitude": 128.8757902,
+        "holiday_open": "09:00",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/15/3539315_image2_1.jpg",
+        "homepage_url": "http://www.ghfolkmuseum.or.kr",
+        "image_copyright": "Type1",
+        "weekday_close": "18:00",
+        "holiday_close": "18:00",
+        "address": "경상남도 김해시 분성로 261번길 35",
+        "latitude": 35.235053
+      },
+      "vector_rank": 2,
+      "bm25_rank": 5,
+      "vector_distance": 0.4948543906211853,
+      "vector_score": null,
+      "bm25_score": 26.084952550254496,
+      "vector_document": "김해민속박물관은 김해문화원에서 전시 중인 민속유물을 옮겨와 2005년 10월 1일에 개관하였다. 통문화계승과 문화예술 진흥을 위해 김해문화원에서 수집·보존·전시하던 민속품 등을 이전·전시함으로써 보다 체계적인 관리를 통해 김해시민 및 김해시를 방문하는 관광객들에게 사라져 가는 우리의 민속 문화를 향유하고 우리 전통문화에 대한 이해와 소통을 간직하기 위해 개관하였다. 이곳은 김해 지역의 민속유물의 보존 관리 및 사라져 가는 민속의 재발견을 통해 생동감 있는 교육의 장으로 활용되고 있다. 김해민속박물관은 민속 및 농경에 관한 유물들을 전시하고 있으며, 전시 이외에도 전통놀이와 각종 체험행사 등 다양한 문화행사를 진행하고 있다. 김해지역의 민속유물을 보존관리하며 사라져가는 민속의 재발견을 통한 교육의 장으로 활용",
+      "bm25_document": "김해민속박물관은 김해문화원에서 전시 중인 민속유물을 옮겨와 2005년 10월 1일에 개관하였다. 통문화계승과 문화예술 진흥을 위해 김해문화원에서 수집·보존·전시하던 민속품 등을 이전·전시함으로써 보다 체계적인 관리를 통해 김해시민 및 김해시를 방문하는 관광객들에게 사라져 가는 우리의 민속 문화를 향유하고 우리 전통문화에 대한 이해와 소통을 간직하기 위해 개관하였다. 이곳은 김해 지역의 민속유물의 보존 관리 및 사라져 가는 민속의 재발견을 통해 생동감 있는 교육의 장으로 활용되고 있다. 김해민속박물관은 민속 및 농경에 관한 유물들을 전시하고 있으며, 전시 이외에도 전통놀이와 각종 체험행사 등 다양한 문화행사를 진행하고 있다. 김해지역의 민속유물을 보존관리하며 사라져가는 민속의 재발견을 통한 교육의 장으로 활용",
+      "best_span_id": "chroma:M0591",
+      "best_span_text": "김해민속박물관은 김해문화원에서 전시 중인 민속유물을 옮겨와 2005년 10월 1일에 개관하였다. 통문화계승과 문화예술 진흥을 위해 김해문화원에서 수집·보존·전시하던 민속품 등을 이전·전시함으로써 보다 체계적인 관리를 통해 김해시민 및 김해시를 방문하는 관광객들에게 사라져 가는 우리의 민속 문화를 향유하고 우리 전통문화에 대한 이해와 소통을 간직하기 위해 개관하였다. 이곳은 김해 지역의 민속유물의 보존 관리 및 사라져 가는 민속의 재발견을 통해 생동감 있는 교육의 장으로 활용되고 있다. 김해민속박물관은 민속 및 농경에 관한 유물들을 전시하고 있으며, 전시 이외에도 전통놀이와 각종 체험행사 등 다양한 문화행사를 진행하고 있다. 김해지역의 민속유물을 보존관리하며 사라져가는 민속의 재발견을 통한 교육의 장으로 활용",
+      "fusion_score": 0.0315136476426799,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 2,
+      "rerank_score": null,
+      "rank": 2,
+      "score": 0.0315136476426799,
+      "score_type": "rrf",
+      "distance": 0.4948543906211853,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0591",
+      "source_doc_ids": [
+        "DOC-B0591-TOUR_API-2406386",
+        "DOC-B0591-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0591-TOUR_API-2406386",
+          "source_type": "TOUR_API",
+          "source_record_id": "2406386",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=294",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        },
+        {
+          "doc_id": "DOC-B0591-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0591",
+          "source_locator": "data/raw/museum_base_1070.csv#row=592",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 53,
+          "doc_ids": [
+            "DOC-B0591-TOUR_API-2406386"
+          ]
+        },
+        {
+          "start": 54,
+          "end": 205,
+          "doc_ids": [
+            "DOC-B0591-TOUR_API-2406386"
+          ]
+        },
+        {
+          "start": 206,
+          "end": 273,
+          "doc_ids": [
+            "DOC-B0591-TOUR_API-2406386"
+          ]
+        },
+        {
+          "start": 274,
+          "end": 352,
+          "doc_ids": [
+            "DOC-B0591-TOUR_API-2406386"
+          ]
+        },
+        {
+          "start": 353,
+          "end": 400,
+          "doc_ids": [
+            "DOC-B0591-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=294",
+      "text": "김해민속박물관은 김해문화원에서 전시 중인 민속유물을 옮겨와 2005년 10월 1일에 개관하였다. 통문화계승과 문화예술 진흥을 위해 김해문화원에서 수집·보존·전시하던 민속품 등을 이전·전시함으로써 보다 체계적인 관리를 통해 김해시민 및 김해시를 방문하는 관광객들에게 사라져 가는 우리의 민속 문화를 향유하고 우리 전통문화에 대한 이해와 소통을 간직하기 위해 개관하였다. 이곳은 김해 지역의 민속유물의 보존 관리 및 사라져 가는 민속의 재발견을 통해 생동감 있는 교육의 장으로 활용되고 있다. 김해민속박물관은 민속 및 농경에 관한 유물들을 전시하고 있으며, 전시 이외에도 전통놀이와 각종 체험행사 등 다양한 문화행사를 진행하고 있다. 김해지역의 민속유물을 보존관리하며 사라져가는 민속의 재발견을 통한 교육의 장으로 활용",
+      "sido": "경상남도",
+      "sigungu": "김해시",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=294"
+      ],
+      "evidence_id": "E2",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=411",
+        "fields": {
+          "name": "김해민속박물관",
+          "sido": "경상남도",
+          "sigungu": "김해시",
+          "address": "경상남도 김해시 분성로 261번길 35",
+          "ownership_type": "공립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "09:00",
+          "weekday_close": "18:00",
+          "holiday_open": "09:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "월요일(공휴일인 월요일은 운영, 다음날 휴관)+1월1일+설 당일+추석 당일",
+          "amenities_raw": "장애인화장실"
+        },
+        "base_data_date": "2025-12-24",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0433",
+      "name": "거제어촌민속전시관",
+      "document": "거제어촌민속전시관은 남해안의 어촌생활사에 관한 전시를 관람할 수 있는 곳이다. 전통의 바다에서는 거제의 역사부터 인물, 문화유적, 민요, 옛 생활 등의 전통을 알아볼 수 있다. 생활의 바다에서는 거제의 수산음식, 생활도구, 어선, 어구, 어법 등 생활요소들을 알아볼 수 있으며, 부흥의 바다에서는 거제의 입지조건, 연근해산수업, 해양생물, 굴이야기 등을, 체험의 바다에서는 거제의 특산물과 관광 등을 알아볼 수 있다. 민속품+패류+어구+어류박제품 등 2120여점 소장",
+      "metadata": {
+        "sido": "경상남도",
+        "adult_fee_status": "BASE_FEE_PAID",
+        "fee_notes": "할인(거제시민+만 65세 이상+관광지 통합이용권 이용자+상호협약 체결 시설 당일 입장권 소지자+단체 30명 이상)+무료(미취학 아동 + 국가보훈대상자+ 장애인+ 다자녀가정 + 기초생활수급자)",
+        "ownership_type": "공립",
+        "address": "경상남도 거제시 일운면 지세포해안로 41",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/52/3514952_image2_1.jpg",
+        "weekday_close": "18:00",
+        "longitude": 128.7018853,
+        "image_copyright": "Type1",
+        "holiday_close": "18:00",
+        "youth_fee": 2000.0,
+        "requires_manual_review": true,
+        "child_fee": 1000.0,
+        "holiday_open": "09:00",
+        "homepage_url": "http://www.gmdc.co.kr/_marine/",
+        "weekday_open": "09:00",
+        "source_types": "BASE|TOUR_API",
+        "closure_rule_raw": "1월1일+설당일+추석당일+월요일(단, 월요일이 공휴일인 경우 당일은 개관하고 그 다음 첫번째 평일에 휴관)",
+        "sigungu": "거제시",
+        "adult_fee": 3000.0,
+        "name": "거제어촌민속전시관",
+        "latitude": 34.83369365
+      },
+      "vector_rank": 7,
+      "bm25_rank": 4,
+      "vector_distance": 0.5383082032203674,
+      "vector_score": null,
+      "bm25_score": 26.5636169974957,
+      "vector_document": "거제어촌민속전시관은 남해안의 어촌생활사에 관한 전시를 관람할 수 있는 곳이다. 전통의 바다에서는 거제의 역사부터 인물, 문화유적, 민요, 옛 생활 등의 전통을 알아볼 수 있다. 생활의 바다에서는 거제의 수산음식, 생활도구, 어선, 어구, 어법 등 생활요소들을 알아볼 수 있으며, 부흥의 바다에서는 거제의 입지조건, 연근해산수업, 해양생물, 굴이야기 등을, 체험의 바다에서는 거제의 특산물과 관광 등을 알아볼 수 있다. 민속품+패류+어구+어류박제품 등 2120여점 소장",
+      "bm25_document": "거제어촌민속전시관은 남해안의 어촌생활사에 관한 전시를 관람할 수 있는 곳이다. 전통의 바다에서는 거제의 역사부터 인물, 문화유적, 민요, 옛 생활 등의 전통을 알아볼 수 있다. 생활의 바다에서는 거제의 수산음식, 생활도구, 어선, 어구, 어법 등 생활요소들을 알아볼 수 있으며, 부흥의 바다에서는 거제의 입지조건, 연근해산수업, 해양생물, 굴이야기 등을, 체험의 바다에서는 거제의 특산물과 관광 등을 알아볼 수 있다. 민속품+패류+어구+어류박제품 등 2120여점 소장",
+      "best_span_id": "chroma:M0433",
+      "best_span_text": "거제어촌민속전시관은 남해안의 어촌생활사에 관한 전시를 관람할 수 있는 곳이다. 전통의 바다에서는 거제의 역사부터 인물, 문화유적, 민요, 옛 생활 등의 전통을 알아볼 수 있다. 생활의 바다에서는 거제의 수산음식, 생활도구, 어선, 어구, 어법 등 생활요소들을 알아볼 수 있으며, 부흥의 바다에서는 거제의 입지조건, 연근해산수업, 해양생물, 굴이야기 등을, 체험의 바다에서는 거제의 특산물과 관광 등을 알아볼 수 있다. 민속품+패류+어구+어류박제품 등 2120여점 소장",
+      "fusion_score": 0.03055037313432836,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 3,
+      "rerank_score": null,
+      "rank": 3,
+      "score": 0.03055037313432836,
+      "score_type": "rrf",
+      "distance": 0.5383082032203674,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0433",
+      "source_doc_ids": [
+        "DOC-B0433-TOUR_API-1622179",
+        "DOC-B0433-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0433-TOUR_API-1622179",
+          "source_type": "TOUR_API",
+          "source_record_id": "1622179",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=207",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        },
+        {
+          "doc_id": "DOC-B0433-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0433",
+          "source_locator": "data/raw/museum_base_1070.csv#row=434",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 43,
+          "doc_ids": [
+            "DOC-B0433-TOUR_API-1622179"
+          ]
+        },
+        {
+          "start": 44,
+          "end": 98,
+          "doc_ids": [
+            "DOC-B0433-TOUR_API-1622179"
+          ]
+        },
+        {
+          "start": 99,
+          "end": 233,
+          "doc_ids": [
+            "DOC-B0433-TOUR_API-1622179"
+          ]
+        },
+        {
+          "start": 234,
+          "end": 261,
+          "doc_ids": [
+            "DOC-B0433-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=207",
+      "text": "거제어촌민속전시관은 남해안의 어촌생활사에 관한 전시를 관람할 수 있는 곳이다. 전통의 바다에서는 거제의 역사부터 인물, 문화유적, 민요, 옛 생활 등의 전통을 알아볼 수 있다. 생활의 바다에서는 거제의 수산음식, 생활도구, 어선, 어구, 어법 등 생활요소들을 알아볼 수 있으며, 부흥의 바다에서는 거제의 입지조건, 연근해산수업, 해양생물, 굴이야기 등을, 체험의 바다에서는 거제의 특산물과 관광 등을 알아볼 수 있다. 민속품+패류+어구+어류박제품 등 2120여점 소장",
+      "sido": "경상남도",
+      "sigungu": "거제시",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=207"
+      ],
+      "evidence_id": "E3",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=307",
+        "fields": {
+          "name": "거제어촌민속전시관",
+          "sido": "경상남도",
+          "sigungu": "거제시",
+          "address": "경상남도 거제시 일운면 지세포해안로 41",
+          "ownership_type": "공립",
+          "adult_fee": "3000",
+          "youth_fee": "2000",
+          "child_fee": "1000",
+          "adult_fee_status": "BASE_FEE_PAID",
+          "weekday_open": "09:00",
+          "weekday_close": "18:00",
+          "holiday_open": "09:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "1월1일+설당일+추석당일+월요일(단, 월요일이 공휴일인 경우 당일은 개관하고 그 다음 첫번째 평일에 휴관)"
+        },
+        "base_data_date": "2026-03-26",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0625",
+      "name": "공주민속극박물관",
+      "document": "한국민속극박물관은 공주 시내 북쪽에 위치한 사설 민속극 박물관이다. 수집한 민속자료들을 전시하고, 각종 민속 공연과 출판 사업을 통해 우리나라 민속의 우수성을 알리고, 직접 체험할 수 있게 했다. 민속연극에 쓰이는 인형, 탈, 악기와 전통예술의 바탕이라 할 수 있는 무속자료, 재래농기구 등을 아담한 소나무 숲 속에 상설 전시하여 다양한 민속예능을 체험할 수 있는 전문 박물관으로 거듭났다. 각종 민속 자료를 전시하며, 인형극 교실과 종이 공예 교실을 운영해 학생과 일반인들이 직접 탈을 만들고, 공연도 해 보는 체험 학습의 기회를 제공한다. 충청남도 공주시 의당면 청룡리에 있는 사설 민속극 전문 박물관으로 민속학자 심우성 선생이 평생 수집한 민속 자료 들을 전시하고, 각종 민속 공연, 출판 사업, 다양한 체험 프로그램을 운영하고 있습니다.",
+      "metadata": {
+        "amenities_raw": "기념품점,식당",
+        "longitude": 127.1481684687,
+        "fee_notes": "20인이상 단체",
+        "child_fee": 2000.0,
+        "address": "충청남도 공주시 의당면 돌모루2길 17-15",
+        "image_copyright": "Type3",
+        "adult_fee_status": "BASE_FEE_PAID",
+        "transport_notes": "시내버스 540+공주종합터미널에서 택시로 10분",
+        "weekday_close": "17:00",
+        "holiday_close": "17:00",
+        "ownership_type": "사립",
+        "adult_fee": 3000.0,
+        "youth_fee": 2500.0,
+        "homepage_url": "https://cafe.naver.com/dolmorootown",
+        "image_url": "http://tong.visitkorea.or.kr/cms/resource/92/3338692_image2_1.jpg",
+        "sido": "충청남도",
+        "holiday_open": "10:00",
+        "requires_manual_review": true,
+        "weekday_open": "10:00",
+        "source_types": "BASE|TOUR_API",
+        "sigungu": "공주시",
+        "latitude": 36.5022801508,
+        "name": "공주민속극박물관",
+        "closure_rule_raw": "매주 월요일+ 설+ 추석 당일"
+      },
+      "vector_rank": 9,
+      "bm25_rank": 3,
+      "vector_distance": 0.5406749248504639,
+      "vector_score": null,
+      "bm25_score": 27.25645232259999,
+      "vector_document": "한국민속극박물관은 공주 시내 북쪽에 위치한 사설 민속극 박물관이다. 수집한 민속자료들을 전시하고, 각종 민속 공연과 출판 사업을 통해 우리나라 민속의 우수성을 알리고, 직접 체험할 수 있게 했다. 민속연극에 쓰이는 인형, 탈, 악기와 전통예술의 바탕이라 할 수 있는 무속자료, 재래농기구 등을 아담한 소나무 숲 속에 상설 전시하여 다양한 민속예능을 체험할 수 있는 전문 박물관으로 거듭났다. 각종 민속 자료를 전시하며, 인형극 교실과 종이 공예 교실을 운영해 학생과 일반인들이 직접 탈을 만들고, 공연도 해 보는 체험 학습의 기회를 제공한다. 충청남도 공주시 의당면 청룡리에 있는 사설 민속극 전문 박물관으로 민속학자 심우성 선생이 평생 수집한 민속 자료 들을 전시하고, 각종 민속 공연, 출판 사업, 다양한 체험 프로그램을 운영하고 있습니다.",
+      "bm25_document": "한국민속극박물관은 공주 시내 북쪽에 위치한 사설 민속극 박물관이다. 수집한 민속자료들을 전시하고, 각종 민속 공연과 출판 사업을 통해 우리나라 민속의 우수성을 알리고, 직접 체험할 수 있게 했다. 민속연극에 쓰이는 인형, 탈, 악기와 전통예술의 바탕이라 할 수 있는 무속자료, 재래농기구 등을 아담한 소나무 숲 속에 상설 전시하여 다양한 민속예능을 체험할 수 있는 전문 박물관으로 거듭났다. 각종 민속 자료를 전시하며, 인형극 교실과 종이 공예 교실을 운영해 학생과 일반인들이 직접 탈을 만들고, 공연도 해 보는 체험 학습의 기회를 제공한다. 충청남도 공주시 의당면 청룡리에 있는 사설 민속극 전문 박물관으로 민속학자 심우성 선생이 평생 수집한 민속 자료 들을 전시하고, 각종 민속 공연, 출판 사업, 다양한 체험 프로그램을 운영하고 있습니다.",
+      "best_span_id": "chroma:M0625",
+      "best_span_text": "한국민속극박물관은 공주 시내 북쪽에 위치한 사설 민속극 박물관이다. 수집한 민속자료들을 전시하고, 각종 민속 공연과 출판 사업을 통해 우리나라 민속의 우수성을 알리고, 직접 체험할 수 있게 했다. 민속연극에 쓰이는 인형, 탈, 악기와 전통예술의 바탕이라 할 수 있는 무속자료, 재래농기구 등을 아담한 소나무 숲 속에 상설 전시하여 다양한 민속예능을 체험할 수 있는 전문 박물관으로 거듭났다. 각종 민속 자료를 전시하며, 인형극 교실과 종이 공예 교실을 운영해 학생과 일반인들이 직접 탈을 만들고, 공연도 해 보는 체험 학습의 기회를 제공한다. 충청남도 공주시 의당면 청룡리에 있는 사설 민속극 전문 박물관으로 민속학자 심우성 선생이 평생 수집한 민속 자료 들을 전시하고, 각종 민속 공연, 출판 사업, 다양한 체험 프로그램을 운영하고 있습니다.",
+      "fusion_score": 0.03036576949620428,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 4,
+      "rerank_score": null,
+      "rank": 4,
+      "score": 0.03036576949620428,
+      "score_type": "rrf",
+      "distance": 0.5406749248504639,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0625",
+      "source_doc_ids": [
+        "DOC-B0625-TOUR_API-130171",
+        "DOC-B0625-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0625-TOUR_API-130171",
+          "source_type": "TOUR_API",
+          "source_record_id": "130171",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=312",
+          "match_trust": "RECHECKED_BY_RULE_NOT_HUMAN_APPROVED"
+        },
+        {
+          "doc_id": "DOC-B0625-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0625",
+          "source_locator": "data/raw/museum_base_1070.csv#row=626",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 37,
+          "doc_ids": [
+            "DOC-B0625-TOUR_API-130171"
+          ]
+        },
+        {
+          "start": 38,
+          "end": 109,
+          "doc_ids": [
+            "DOC-B0625-TOUR_API-130171"
+          ]
+        },
+        {
+          "start": 110,
+          "end": 218,
+          "doc_ids": [
+            "DOC-B0625-TOUR_API-130171"
+          ]
+        },
+        {
+          "start": 219,
+          "end": 303,
+          "doc_ids": [
+            "DOC-B0625-TOUR_API-130171"
+          ]
+        },
+        {
+          "start": 304,
+          "end": 416,
+          "doc_ids": [
+            "DOC-B0625-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=312",
+      "text": "한국민속극박물관은 공주 시내 북쪽에 위치한 사설 민속극 박물관이다. 수집한 민속자료들을 전시하고, 각종 민속 공연과 출판 사업을 통해 우리나라 민속의 우수성을 알리고, 직접 체험할 수 있게 했다. 민속연극에 쓰이는 인형, 탈, 악기와 전통예술의 바탕이라 할 수 있는 무속자료, 재래농기구 등을 아담한 소나무 숲 속에 상설 전시하여 다양한 민속예능을 체험할 수 있는 전문 박물관으로 거듭났다. 각종 민속 자료를 전시하며, 인형극 교실과 종이 공예 교실을 운영해 학생과 일반인들이 직접 탈을 만들고, 공연도 해 보는 체험 학습의 기회를 제공한다. 충청남도 공주시 의당면 청룡리에 있는 사설 민속극 전문 박물관으로 민속학자 심우성 선생이 평생 수집한 민속 자료 들을 전시하고, 각종 민속 공연, 출판 사업, 다양한 체험 프로그램을 운영하고 있습니다.",
+      "sido": "충청남도",
+      "sigungu": "공주시",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=312"
+      ],
+      "evidence_id": "E4",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=436",
+        "fields": {
+          "name": "공주민속극박물관",
+          "sido": "충청남도",
+          "sigungu": "공주시",
+          "address": "충청남도 공주시 의당면 돌모루2길 17-15",
+          "ownership_type": "사립",
+          "adult_fee": "3000",
+          "youth_fee": "2500",
+          "child_fee": "2000",
+          "adult_fee_status": "BASE_FEE_PAID",
+          "weekday_open": "10:00",
+          "weekday_close": "17:00",
+          "holiday_open": "10:00",
+          "holiday_close": "17:00",
+          "closure_rule_raw": "매주 월요일+ 설+ 추석 당일",
+          "amenities_raw": "기념품점,식당"
+        },
+        "base_data_date": "2024-08-27",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0090",
+      "name": "제주민속촌",
+      "document": "제주민속촌은 2001년에 개관한 제1종 전문 박물관으로 1890년대를 전시 기준 연대로 하여 제주의 민속자료를 종합적으로 정리하여 전시하고 있으며, 100여 채에 달하는 제주 전통가옥은 제주도민이 생활하였던 가옥과 돌, 기둥 등을 그대로 옮겨와 복원해 전시하고 있다. 이 전통 가옥에는 생활용구, 농기구, 어구, 가구, 석물 등 민속자료가 전시되어 있다. 제주민속촌에서는 제주는 물론 우리나라의 향토수종 및 꽃들을 식재하여 사계절 내내 꽃들을 볼 수 있으며 재래흑돼지 및 가금, 가축을 사육하고 있어 자연학습장 기능도 겸하고 있다. 이외에도 다양한 테마별 전시장과 체험가옥, 전통민속놀이 체험장을 통해 다양한 볼거리와 체험거리를 제공하고 있다.",
+      "metadata": {
+        "latitude": 33.32128714,
+        "name": "제주민속촌",
+        "holiday_close": "18:00",
+        "weekday_close": "18:00",
+        "sigungu": "서귀포시",
+        "image_url": "http://tong.visitkorea.or.kr/cms/resource/43/3534943_image2_1.jpg",
+        "requires_manual_review": true,
+        "sido": "제주특별자치도",
+        "image_copyright": "Type1",
+        "address": "제주특별자치도 서귀포시 표선면 민속해안로 631-34",
+        "homepage_url": "http://www.jejufolk.com/",
+        "weekday_open": "09:00",
+        "adult_fee": 15000.0,
+        "holiday_open": "00:00",
+        "amenities_raw": "체험가옥+자연학습장",
+        "child_fee": 12000.0,
+        "adult_fee_status": "BASE_FEE_PAID",
+        "youth_fee": 13000.0,
+        "ownership_type": "사립",
+        "fee_notes": "단체 관람 시 할인+도민할인",
+        "longitude": 126.8430882,
+        "closure_rule_raw": "연중무휴",
+        "source_types": "TOUR_API"
+      },
+      "vector_rank": 6,
+      "bm25_rank": 15,
+      "vector_distance": 0.5371510982513428,
+      "vector_score": null,
+      "bm25_score": 21.540264453048678,
+      "vector_document": "제주민속촌은 2001년에 개관한 제1종 전문 박물관으로 1890년대를 전시 기준 연대로 하여 제주의 민속자료를 종합적으로 정리하여 전시하고 있으며, 100여 채에 달하는 제주 전통가옥은 제주도민이 생활하였던 가옥과 돌, 기둥 등을 그대로 옮겨와 복원해 전시하고 있다. 이 전통 가옥에는 생활용구, 농기구, 어구, 가구, 석물 등 민속자료가 전시되어 있다. 제주민속촌에서는 제주는 물론 우리나라의 향토수종 및 꽃들을 식재하여 사계절 내내 꽃들을 볼 수 있으며 재래흑돼지 및 가금, 가축을 사육하고 있어 자연학습장 기능도 겸하고 있다. 이외에도 다양한 테마별 전시장과 체험가옥, 전통민속놀이 체험장을 통해 다양한 볼거리와 체험거리를 제공하고 있다.",
+      "bm25_document": "제주민속촌은 2001년에 개관한 제1종 전문 박물관으로 1890년대를 전시 기준 연대로 하여 제주의 민속자료를 종합적으로 정리하여 전시하고 있으며, 100여 채에 달하는 제주 전통가옥은 제주도민이 생활하였던 가옥과 돌, 기둥 등을 그대로 옮겨와 복원해 전시하고 있다. 이 전통 가옥에는 생활용구, 농기구, 어구, 가구, 석물 등 민속자료가 전시되어 있다. 제주민속촌에서는 제주는 물론 우리나라의 향토수종 및 꽃들을 식재하여 사계절 내내 꽃들을 볼 수 있으며 재래흑돼지 및 가금, 가축을 사육하고 있어 자연학습장 기능도 겸하고 있다. 이외에도 다양한 테마별 전시장과 체험가옥, 전통민속놀이 체험장을 통해 다양한 볼거리와 체험거리를 제공하고 있다.",
+      "best_span_id": "chroma:M0090",
+      "best_span_text": "제주민속촌은 2001년에 개관한 제1종 전문 박물관으로 1890년대를 전시 기준 연대로 하여 제주의 민속자료를 종합적으로 정리하여 전시하고 있으며, 100여 채에 달하는 제주 전통가옥은 제주도민이 생활하였던 가옥과 돌, 기둥 등을 그대로 옮겨와 복원해 전시하고 있다. 이 전통 가옥에는 생활용구, 농기구, 어구, 가구, 석물 등 민속자료가 전시되어 있다. 제주민속촌에서는 제주는 물론 우리나라의 향토수종 및 꽃들을 식재하여 사계절 내내 꽃들을 볼 수 있으며 재래흑돼지 및 가금, 가축을 사육하고 있어 자연학습장 기능도 겸하고 있다. 이외에도 다양한 테마별 전시장과 체험가옥, 전통민속놀이 체험장을 통해 다양한 볼거리와 체험거리를 제공하고 있다.",
+      "fusion_score": 0.028484848484848488,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 5,
+      "rerank_score": null,
+      "rank": 5,
+      "score": 0.028484848484848488,
+      "score_type": "rrf",
+      "distance": 0.5371510982513428,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0090",
+      "source_doc_ids": [
+        "DOC-B0090-TOUR_API-130474"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0090-TOUR_API-130474",
+          "source_type": "TOUR_API",
+          "source_record_id": "130474",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=46",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 149,
+          "doc_ids": [
+            "DOC-B0090-TOUR_API-130474"
+          ]
+        },
+        {
+          "start": 150,
+          "end": 198,
+          "doc_ids": [
+            "DOC-B0090-TOUR_API-130474"
+          ]
+        },
+        {
+          "start": 199,
+          "end": 297,
+          "doc_ids": [
+            "DOC-B0090-TOUR_API-130474"
+          ]
+        },
+        {
+          "start": 298,
+          "end": 360,
+          "doc_ids": [
+            "DOC-B0090-TOUR_API-130474"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=46",
+      "text": "제주민속촌은 2001년에 개관한 제1종 전문 박물관으로 1890년대를 전시 기준 연대로 하여 제주의 민속자료를 종합적으로 정리하여 전시하고 있으며, 100여 채에 달하는 제주 전통가옥은 제주도민이 생활하였던 가옥과 돌, 기둥 등을 그대로 옮겨와 복원해 전시하고 있다. 이 전통 가옥에는 생활용구, 농기구, 어구, 가구, 석물 등 민속자료가 전시되어 있다. 제주민속촌에서는 제주는 물론 우리나라의 향토수종 및 꽃들을 식재하여 사계절 내내 꽃들을 볼 수 있으며 재래흑돼지 및 가금, 가축을 사육하고 있어 자연학습장 기능도 겸하고 있다. 이외에도 다양한 테마별 전시장과 체험가옥, 전통민속놀이 체험장을 통해 다양한 볼거리와 체험거리를 제공하고 있다.",
+      "sido": "제주특별자치도",
+      "sigungu": "서귀포시",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=46"
+      ],
+      "evidence_id": "E5",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=56",
+        "fields": {
+          "name": "제주민속촌",
+          "sido": "제주특별자치도",
+          "sigungu": "서귀포시",
+          "address": "제주특별자치도 서귀포시 표선면 민속해안로 631-34",
+          "ownership_type": "사립",
+          "adult_fee": "15000",
+          "youth_fee": "13000",
+          "child_fee": "12000",
+          "adult_fee_status": "BASE_FEE_PAID",
+          "weekday_open": "09:00",
+          "weekday_close": "18:00",
+          "holiday_open": "00:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "연중무휴",
+          "amenities_raw": "체험가옥+자연학습장"
+        },
+        "base_data_date": "2026-09-30",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    }
+  ],
+  "answer": "소개자료에 따르면 농경·민속·서화 등의 민속자료는 약 5,500점 전시되어 있습니다. [E1]",
+  "retrieval_status": "ok",
+  "answer_status": "answered",
+  "route": "hybrid",
+  "retry_count": 0,
+  "supervisor_verified": true,
+  "rerank_applied": false,
+  "retriever_errors": [],
+  "warnings": [
+    "Cross-Encoder reranking failed (FileNotFoundError); RRF order retained"
+  ],
+  "duration_ms": 8346.22,
+  "error_type": "",
+  "hit_at_1": 1,
+  "hit_at_3": 1,
+  "hit_at_5": 1,
+  "recall_at_5": 1.0,
+  "mrr_at_10": 1.0
+}

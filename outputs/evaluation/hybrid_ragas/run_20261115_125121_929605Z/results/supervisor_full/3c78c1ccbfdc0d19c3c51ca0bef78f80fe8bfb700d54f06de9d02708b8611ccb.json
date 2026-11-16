@@ -1,0 +1,739 @@
+{
+  "mode": "supervisor_full",
+  "question_id": "Q251",
+  "evidence": [
+    {
+      "museum_id": "M0435",
+      "name": "모산조형미술관",
+      "document": "모산조형미술관이 자리 잡고 있는 보령시 성주면은 예로부터 ‘남포오석’이라 불리는 오석과 청석의 주산지이다. 오석은 비석의 재료로, 청석은 벼루 재료로 최고의 품질을 인정받았으며 이를 바탕으로 석재산업이 발달한 곳이다. 모산조형미술관은 개관 이래 이 ‘남포오석’이라는 미술관만의 독창적인 컨텐츠를 구축해왔고, 이를 중심으로 한 지역미술문화의 활성화를 위해 노력하고 있다.",
+      "metadata": {
+        "latitude": 36.3111117,
+        "youth_fee": 0.0,
+        "address": "충청남도 보령시 성주면 성주산로 673-24",
+        "fee_notes": "무료",
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "sido": "충청남도",
+        "amenities_raw": "카페",
+        "homepage_url": "http://mosanmuseum.com/",
+        "longitude": 126.6577924,
+        "holiday_open": "09:30",
+        "child_fee": 0.0,
+        "transport_notes": "승용차 15분대천역 → 보령시청 → 석탄박물관 →모산조형미술관대중교통 (25minutes)버스이용번호 (Bus number)809+801+801-1+801-2+800-2+813대천역 (성주/외산방면) → 보령시청 → 석탄박물관 → 모산조형미술관",
+        "name": "모산조형미술관",
+        "weekday_close": "18:00",
+        "closure_rule_raw": "연중무휴",
+        "holiday_close": "18:00",
+        "adult_fee": 0.0,
+        "requires_manual_review": false,
+        "source_types": "BASE",
+        "weekday_open": "09:00",
+        "sigungu": "보령시",
+        "ownership_type": "사립"
+      },
+      "vector_rank": 1,
+      "bm25_rank": 1,
+      "vector_distance": 0.5240116119384766,
+      "vector_score": null,
+      "bm25_score": 48.067315463860005,
+      "vector_document": "모산조형미술관이 자리 잡고 있는 보령시 성주면은 예로부터 ‘남포오석’이라 불리는 오석과 청석의 주산지이다. 오석은 비석의 재료로, 청석은 벼루 재료로 최고의 품질을 인정받았으며 이를 바탕으로 석재산업이 발달한 곳이다. 모산조형미술관은 개관 이래 이 ‘남포오석’이라는 미술관만의 독창적인 컨텐츠를 구축해왔고, 이를 중심으로 한 지역미술문화의 활성화를 위해 노력하고 있다.",
+      "bm25_document": "모산조형미술관이 자리 잡고 있는 보령시 성주면은 예로부터 ‘남포오석’이라 불리는 오석과 청석의 주산지이다. 오석은 비석의 재료로, 청석은 벼루 재료로 최고의 품질을 인정받았으며 이를 바탕으로 석재산업이 발달한 곳이다. 모산조형미술관은 개관 이래 이 ‘남포오석’이라는 미술관만의 독창적인 컨텐츠를 구축해왔고, 이를 중심으로 한 지역미술문화의 활성화를 위해 노력하고 있다.",
+      "best_span_id": "chroma:M0435",
+      "best_span_text": "모산조형미술관이 자리 잡고 있는 보령시 성주면은 예로부터 ‘남포오석’이라 불리는 오석과 청석의 주산지이다. 오석은 비석의 재료로, 청석은 벼루 재료로 최고의 품질을 인정받았으며 이를 바탕으로 석재산업이 발달한 곳이다. 모산조형미술관은 개관 이래 이 ‘남포오석’이라는 미술관만의 독창적인 컨텐츠를 구축해왔고, 이를 중심으로 한 지역미술문화의 활성화를 위해 노력하고 있다.",
+      "fusion_score": 0.03278688524590164,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 1,
+      "name_match": true,
+      "rerank_score": 0.9999346733093262,
+      "rank": 1,
+      "score": 0.9999346733093262,
+      "score_type": "cross_encoder",
+      "distance": 0.5240116119384766,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0435",
+      "source_doc_ids": [
+        "DOC-B0435-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0435-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0435",
+          "source_locator": "data/raw/museum_base_1070.csv#row=436",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 59,
+          "doc_ids": [
+            "DOC-B0435-BASE"
+          ]
+        },
+        {
+          "start": 60,
+          "end": 121,
+          "doc_ids": [
+            "DOC-B0435-BASE"
+          ]
+        },
+        {
+          "start": 122,
+          "end": 206,
+          "doc_ids": [
+            "DOC-B0435-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_base_1070.csv#row=436",
+      "text": "모산조형미술관이 자리 잡고 있는 보령시 성주면은 예로부터 ‘남포오석’이라 불리는 오석과 청석의 주산지이다. 오석은 비석의 재료로, 청석은 벼루 재료로 최고의 품질을 인정받았으며 이를 바탕으로 석재산업이 발달한 곳이다. 모산조형미술관은 개관 이래 이 ‘남포오석’이라는 미술관만의 독창적인 컨텐츠를 구축해왔고, 이를 중심으로 한 지역미술문화의 활성화를 위해 노력하고 있다.",
+      "sido": "충청남도",
+      "sigungu": "보령시",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_base_1070.csv#row=436"
+      ],
+      "evidence_id": "E1",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=309",
+        "fields": {
+          "name": "모산조형미술관",
+          "sido": "충청남도",
+          "sigungu": "보령시",
+          "address": "충청남도 보령시 성주면 성주산로 673-24",
+          "ownership_type": "사립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "09:00",
+          "weekday_close": "18:00",
+          "holiday_open": "09:30",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "연중무휴",
+          "amenities_raw": "카페"
+        },
+        "base_data_date": "2026-04-03",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0280",
+      "name": "성남큐브미술관",
+      "document": "성남문화재단이 운영하는 성남큐브미술관은 지역의 유일한 공립미술관으로 지난 2012년 9월에 등록되어 성남 시민을 위한 미술문화 향유 공간 창출 및 지역 미술문화 발전을 위해 노력하고 있다. 동시대 국내외 이슈와 미감을 전시로 풀어내는 동시대미감전과 동시대이슈전 지역 예술가의 작품을 소개함으로써 성남의 미술 지형을 조망해 보는 성남의 얼굴전, 성남과 국내 로컬을 연결하여 문화적 교감의 플랫폼 역할을 모색하는 지역 예술가 교류전을 선보이고 있으며 지역 미술의 미래를 살피고 확장의 디딤돌 역할을 하고자 '성남작가조명전’을 개최하여 지역 미술을 집중 응원하고 있다. 또한 어린이를 동반한 온 가족이 함께 전시를 관람하며 제시한 주제와 의미를 생각해 보는 어린이 교육 체험전, 내부 학예 인력의 조사와 검토를 거쳐 대중적 흡입력 있는 국내외 유명 작가 전시를 여름 특별기획전과 겨울 특별기획전의 특별 전시로 개최하고 있으며 미술관의 교육적 기능을 수행하고자 기획 전시와 연계한 다양한 교육·체험 프로그램을 진행하고 있다. 지역의 유일한 공립 미술관으로, 성남 시민을 위한 미술 문화 향유 공간 창출 및 지역 미술 문화 발전을 위해 노력하고 있습니다.",
+      "metadata": {
+        "weekday_open": "10:00",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/13/3336413_image2_1.jpg",
+        "child_fee": 0.0,
+        "sigungu": "성남시",
+        "image_copyright": "Type3",
+        "fee_notes": "기획전시 별도",
+        "source_types": "BASE|TOUR_API",
+        "transport_notes": "광역버스(9408/3330/4000/9607/7200)+일반버스(250/220/2-1/51/33-1/300/720/720-1/77-1/116-3/17/17-1/119)+지하철(분당선 이매역 1번 출구에서 도보 10분)",
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "youth_fee": 0.0,
+        "ownership_type": "공립",
+        "address": "경기도 성남시 분당구 성남대로 808",
+        "weekday_close": "18:00",
+        "longitude": 127.130404,
+        "homepage_url": "http://www.snab.or.kr",
+        "holiday_close": "18:00",
+        "closure_rule_raw": "월요일+설날 연휴+추석 연휴",
+        "holiday_open": "10:00",
+        "sido": "경기도",
+        "latitude": 37.402839,
+        "requires_manual_review": true,
+        "name": "성남큐브미술관",
+        "adult_fee": 0.0
+      },
+      "vector_rank": 2,
+      "bm25_rank": 11,
+      "vector_distance": 0.5364222526550293,
+      "vector_score": null,
+      "bm25_score": 13.147459153997227,
+      "vector_document": "성남문화재단이 운영하는 성남큐브미술관은 지역의 유일한 공립미술관으로 지난 2012년 9월에 등록되어 성남 시민을 위한 미술문화 향유 공간 창출 및 지역 미술문화 발전을 위해 노력하고 있다. 동시대 국내외 이슈와 미감을 전시로 풀어내는 동시대미감전과 동시대이슈전 지역 예술가의 작품을 소개함으로써 성남의 미술 지형을 조망해 보는 성남의 얼굴전, 성남과 국내 로컬을 연결하여 문화적 교감의 플랫폼 역할을 모색하는 지역 예술가 교류전을 선보이고 있으며 지역 미술의 미래를 살피고 확장의 디딤돌 역할을 하고자 '성남작가조명전’을 개최하여 지역 미술을 집중 응원하고 있다. 또한 어린이를 동반한 온 가족이 함께 전시를 관람하며 제시한 주제와 의미를 생각해 보는 어린이 교육 체험전, 내부 학예 인력의 조사와 검토를 거쳐 대중적 흡입력 있는 국내외 유명 작가 전시를 여름 특별기획전과 겨울 특별기획전의 특별 전시로 개최하고 있으며 미술관의 교육적 기능을 수행하고자 기획 전시와 연계한 다양한 교육·체험 프로그램을 진행하고 있다. 지역의 유일한 공립 미술관으로, 성남 시민을 위한 미술 문화 향유 공간 창출 및 지역 미술 문화 발전을 위해 노력하고 있습니다.",
+      "bm25_document": "성남문화재단이 운영하는 성남큐브미술관은 지역의 유일한 공립미술관으로 지난 2012년 9월에 등록되어 성남 시민을 위한 미술문화 향유 공간 창출 및 지역 미술문화 발전을 위해 노력하고 있다. 동시대 국내외 이슈와 미감을 전시로 풀어내는 동시대미감전과 동시대이슈전 지역 예술가의 작품을 소개함으로써 성남의 미술 지형을 조망해 보는 성남의 얼굴전, 성남과 국내 로컬을 연결하여 문화적 교감의 플랫폼 역할을 모색하는 지역 예술가 교류전을 선보이고 있으며 지역 미술의 미래를 살피고 확장의 디딤돌 역할을 하고자 '성남작가조명전’을 개최하여 지역 미술을 집중 응원하고 있다. 또한 어린이를 동반한 온 가족이 함께 전시를 관람하며 제시한 주제와 의미를 생각해 보는 어린이 교육 체험전, 내부 학예 인력의 조사와 검토를 거쳐 대중적 흡입력 있는 국내외 유명 작가 전시를 여름 특별기획전과 겨울 특별기획전의 특별 전시로 개최하고 있으며 미술관의 교육적 기능을 수행하고자 기획 전시와 연계한 다양한 교육·체험 프로그램을 진행하고 있다. 지역의 유일한 공립 미술관으로, 성남 시민을 위한 미술 문화 향유 공간 창출 및 지역 미술 문화 발전을 위해 노력하고 있습니다.",
+      "best_span_id": "chroma:M0280",
+      "best_span_text": "성남문화재단이 운영하는 성남큐브미술관은 지역의 유일한 공립미술관으로 지난 2012년 9월에 등록되어 성남 시민을 위한 미술문화 향유 공간 창출 및 지역 미술문화 발전을 위해 노력하고 있다. 동시대 국내외 이슈와 미감을 전시로 풀어내는 동시대미감전과 동시대이슈전 지역 예술가의 작품을 소개함으로써 성남의 미술 지형을 조망해 보는 성남의 얼굴전, 성남과 국내 로컬을 연결하여 문화적 교감의 플랫폼 역할을 모색하는 지역 예술가 교류전을 선보이고 있으며 지역 미술의 미래를 살피고 확장의 디딤돌 역할을 하고자 '성남작가조명전’을 개최하여 지역 미술을 집중 응원하고 있다. 또한 어린이를 동반한 온 가족이 함께 전시를 관람하며 제시한 주제와 의미를 생각해 보는 어린이 교육 체험전, 내부 학예 인력의 조사와 검토를 거쳐 대중적 흡입력 있는 국내외 유명 작가 전시를 여름 특별기획전과 겨울 특별기획전의 특별 전시로 개최하고 있으며 미술관의 교육적 기능을 수행하고자 기획 전시와 연계한 다양한 교육·체험 프로그램을 진행하고 있다. 지역의 유일한 공립 미술관으로, 성남 시민을 위한 미술 문화 향유 공간 창출 및 지역 미술 문화 발전을 위해 노력하고 있습니다.",
+      "fusion_score": 0.03021353930031804,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 5,
+      "rerank_score": 0.01215319149196148,
+      "rank": 2,
+      "score": 0.01215319149196148,
+      "score_type": "cross_encoder",
+      "distance": 0.5364222526550293,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0280",
+      "source_doc_ids": [
+        "DOC-B0280-TOUR_API-2784050",
+        "DOC-B0280-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0280-TOUR_API-2784050",
+          "source_type": "TOUR_API",
+          "source_record_id": "2784050",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=139",
+          "match_trust": "RECHECKED_BY_RULE_NOT_HUMAN_APPROVED"
+        },
+        {
+          "doc_id": "DOC-B0280-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0280",
+          "source_locator": "data/raw/museum_base_1070.csv#row=281",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 105,
+          "doc_ids": [
+            "DOC-B0280-TOUR_API-2784050"
+          ]
+        },
+        {
+          "start": 106,
+          "end": 315,
+          "doc_ids": [
+            "DOC-B0280-TOUR_API-2784050"
+          ]
+        },
+        {
+          "start": 316,
+          "end": 513,
+          "doc_ids": [
+            "DOC-B0280-TOUR_API-2784050"
+          ]
+        },
+        {
+          "start": 514,
+          "end": 585,
+          "doc_ids": [
+            "DOC-B0280-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=139",
+      "text": "성남문화재단이 운영하는 성남큐브미술관은 지역의 유일한 공립미술관으로 지난 2012년 9월에 등록되어 성남 시민을 위한 미술문화 향유 공간 창출 및 지역 미술문화 발전을 위해 노력하고 있다. 동시대 국내외 이슈와 미감을 전시로 풀어내는 동시대미감전과 동시대이슈전 지역 예술가의 작품을 소개함으로써 성남의 미술 지형을 조망해 보는 성남의 얼굴전, 성남과 국내 로컬을 연결하여 문화적 교감의 플랫폼 역할을 모색하는 지역 예술가 교류전을 선보이고 있으며 지역 미술의 미래를 살피고 확장의 디딤돌 역할을 하고자 '성남작가조명전’을 개최하여 지역 미술을 집중 응원하고 있다. 또한 어린이를 동반한 온 가족이 함께 전시를 관람하며 제시한 주제와 의미를 생각해 보는 어린이 교육 체험전, 내부 학예 인력의 조사와 검토를 거쳐 대중적 흡입력 있는 국내외 유명 작가 전시를 여름 특별기획전과 겨울 특별기획전의 특별 전시로 개최하고 있으며 미술관의 교육적 기능을 수행하고자 기획 전시와 연계한 다양한 교육·체험 프로그램을 진행하고 있다. 지역의 유일한 공립 미술관으로, 성남 시민을 위한 미술 문화 향유 공간 창출 및 지역 미술 문화 발전을 위해 노력하고 있습니다.",
+      "sido": "경기도",
+      "sigungu": "성남시",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=139"
+      ],
+      "evidence_id": "E2",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=198",
+        "fields": {
+          "name": "성남큐브미술관",
+          "sido": "경기도",
+          "sigungu": "성남시",
+          "address": "경기도 성남시 분당구 성남대로 808",
+          "ownership_type": "공립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "10:00",
+          "weekday_close": "18:00",
+          "holiday_open": "10:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "월요일+설날 연휴+추석 연휴"
+        },
+        "base_data_date": "2026-06-30",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0893",
+      "name": "광주시립미술관",
+      "document": "광주시립미술관은 1992년 지역 문화예술 발전을 위해 국내 공립미술관 중 최초로 개관하여 1995년 광주비엔날레 창설의 기초를 마련하는데 크게 일조하였으며, 시민들에게는 다양한 문화서비스를 제공하기 위해 노력해 왔다. 전남광주통합특별시의 서북쪽 관문인 중외공원 내에 2007년 신축 이전한 현재 미술관은 광주비엔날레, 국립아시아문화전당과 함께 지역 미술문화 발전은 물론, 세계 주요 미술관들과 국제교류의 폭을 넓혀 나가고 있다. 본관은 총 6개의 전시실과 어린이미술관, 문화센터, 도서자료실, 세미나실, 야외공연장, 카페 등을 갖추고 있다. 광주시립미술관이 위치한 중외공원은 광주비엔날레관, 광주시립민속박물관, 국립광주박물관, 광주문화예술회관 등이 함께 자리하고 있어, 자연과 문화예술이 함께 숨 쉬는 전남광주통합특별시의 대표 문화 명소이기도 하다. (출처 : 광주시립미술관 홈페이지)",
+      "metadata": {
+        "name": "광주시립미술관",
+        "amenities_raw": "본관주차장(일반17대, 임산부1대, 전기차2대)정문주차장(일반43대, 전기차2대)비엔날레전시관주차장(일반22대, 임산부1대, 장애인2대)비엔날레광장주차장(일반11대)용봉청소년문화의집주차장(일반70대, 장애인4대)비엔날레주차장(일반248대, 임산부12대, 장애인15대, 대형38대)",
+        "homepage_url": "https://artmuse.gwangju.go.kr/",
+        "sigungu": "북구",
+        "ownership_type": "공립",
+        "youth_fee": 0.0,
+        "latitude": 35.1832330525,
+        "source_types": "TOUR_API",
+        "address": "광주광역시 북구 하서로 52",
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "holiday_close": "18:00",
+        "longitude": 126.8857357552,
+        "weekday_open": "10:00",
+        "closure_rule_raw": "1월1일, 설(당일), 추석(당일), 매주 월요일",
+        "transport_notes": "(광주비엔날레관 하차)용봉 83, 상무 64(체육고/폴리텍5대학 하차)송정29, 첨단95,문흥53,용전84,용전85,상무63",
+        "adult_fee": 0.0,
+        "requires_manual_review": true,
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/68/4106468_image2_1.jpg",
+        "child_fee": 0.0,
+        "holiday_open": "10:00",
+        "weekday_close": "18:00",
+        "sido": "광주광역시",
+        "image_copyright": "Type1"
+      },
+      "vector_rank": null,
+      "bm25_rank": 12,
+      "vector_distance": null,
+      "vector_score": null,
+      "bm25_score": 12.864500168518674,
+      "vector_document": "",
+      "bm25_document": "광주시립미술관은 1992년 지역 문화예술 발전을 위해 국내 공립미술관 중 최초로 개관하여 1995년 광주비엔날레 창설의 기초를 마련하는데 크게 일조하였으며, 시민들에게는 다양한 문화서비스를 제공하기 위해 노력해 왔다. 전남광주통합특별시의 서북쪽 관문인 중외공원 내에 2007년 신축 이전한 현재 미술관은 광주비엔날레, 국립아시아문화전당과 함께 지역 미술문화 발전은 물론, 세계 주요 미술관들과 국제교류의 폭을 넓혀 나가고 있다. 본관은 총 6개의 전시실과 어린이미술관, 문화센터, 도서자료실, 세미나실, 야외공연장, 카페 등을 갖추고 있다. 광주시립미술관이 위치한 중외공원은 광주비엔날레관, 광주시립민속박물관, 국립광주박물관, 광주문화예술회관 등이 함께 자리하고 있어, 자연과 문화예술이 함께 숨 쉬는 전남광주통합특별시의 대표 문화 명소이기도 하다. (출처 : 광주시립미술관 홈페이지)",
+      "best_span_id": "chroma:M0893",
+      "best_span_text": "광주시립미술관은 1992년 지역 문화예술 발전을 위해 국내 공립미술관 중 최초로 개관하여 1995년 광주비엔날레 창설의 기초를 마련하는데 크게 일조하였으며, 시민들에게는 다양한 문화서비스를 제공하기 위해 노력해 왔다. 전남광주통합특별시의 서북쪽 관문인 중외공원 내에 2007년 신축 이전한 현재 미술관은 광주비엔날레, 국립아시아문화전당과 함께 지역 미술문화 발전은 물론, 세계 주요 미술관들과 국제교류의 폭을 넓혀 나가고 있다. 본관은 총 6개의 전시실과 어린이미술관, 문화센터, 도서자료실, 세미나실, 야외공연장, 카페 등을 갖추고 있다. 광주시립미술관이 위치한 중외공원은 광주비엔날레관, 광주시립민속박물관, 국립광주박물관, 광주문화예술회관 등이 함께 자리하고 있어, 자연과 문화예술이 함께 숨 쉬는 전남광주통합특별시의 대표 문화 명소이기도 하다. (출처 : 광주시립미술관 홈페이지)",
+      "fusion_score": 0.013888888888888888,
+      "retrieved_by": [
+        "bm25"
+      ],
+      "fusion_rank": 20,
+      "rerank_score": 0.005474417470395565,
+      "rank": 3,
+      "score": 0.005474417470395565,
+      "score_type": "cross_encoder",
+      "distance": null,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "bm25"
+      ],
+      "retriever": "bm25",
+      "span_id": "chroma:M0893",
+      "source_doc_ids": [
+        "DOC-B0893-TOUR_API-129761"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0893-TOUR_API-129761",
+          "source_type": "TOUR_API",
+          "source_record_id": "129761",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=422",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 121,
+          "doc_ids": [
+            "DOC-B0893-TOUR_API-129761"
+          ]
+        },
+        {
+          "start": 122,
+          "end": 239,
+          "doc_ids": [
+            "DOC-B0893-TOUR_API-129761"
+          ]
+        },
+        {
+          "start": 240,
+          "end": 302,
+          "doc_ids": [
+            "DOC-B0893-TOUR_API-129761"
+          ]
+        },
+        {
+          "start": 303,
+          "end": 419,
+          "doc_ids": [
+            "DOC-B0893-TOUR_API-129761"
+          ]
+        },
+        {
+          "start": 420,
+          "end": 439,
+          "doc_ids": [
+            "DOC-B0893-TOUR_API-129761"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=422",
+      "text": "광주시립미술관은 1992년 지역 문화예술 발전을 위해 국내 공립미술관 중 최초로 개관하여 1995년 광주비엔날레 창설의 기초를 마련하는데 크게 일조하였으며, 시민들에게는 다양한 문화서비스를 제공하기 위해 노력해 왔다. 전남광주통합특별시의 서북쪽 관문인 중외공원 내에 2007년 신축 이전한 현재 미술관은 광주비엔날레, 국립아시아문화전당과 함께 지역 미술문화 발전은 물론, 세계 주요 미술관들과 국제교류의 폭을 넓혀 나가고 있다. 본관은 총 6개의 전시실과 어린이미술관, 문화센터, 도서자료실, 세미나실, 야외공연장, 카페 등을 갖추고 있다. 광주시립미술관이 위치한 중외공원은 광주비엔날레관, 광주시립민속박물관, 국립광주박물관, 광주문화예술회관 등이 함께 자리하고 있어, 자연과 문화예술이 함께 숨 쉬는 전남광주통합특별시의 대표 문화 명소이기도 하다. (출처 : 광주시립미술관 홈페이지)",
+      "sido": "광주광역시",
+      "sigungu": "북구",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=422"
+      ],
+      "evidence_id": "E3",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=611",
+        "fields": {
+          "name": "광주시립미술관",
+          "sido": "광주광역시",
+          "sigungu": "북구",
+          "address": "광주광역시 북구 하서로 52",
+          "ownership_type": "공립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "10:00",
+          "weekday_close": "18:00",
+          "holiday_open": "10:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "1월1일, 설(당일), 추석(당일), 매주 월요일",
+          "amenities_raw": "본관주차장(일반17대, 임산부1대, 전기차2대)정문주차장(일반43대, 전기차2대)비엔날레전시관주차장(일반22대, 임산부1대, 장애인2대)비엔날레광장주차장(일반11대)용봉청소년문화의집주차장(일반70대, 장애인4대)비엔날레주차장(일반248대, 임산부12대, 장애인15대, 대형38대)"
+        },
+        "base_data_date": "2025-07-07",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0896",
+      "name": "무등현대미술관",
+      "document": "무등현대미술관은 중진 서양화가인 정송규 화백의 작업실 겸 전시 공간이자 지역 문화 커뮤니티 활성화 문화 공간으로 개관하였다. 주변 공방들과 함께 지역 문화의 소통과 커뮤니티를 형성하고 있다. 전남광주통합특별시의 예술인과 시민들이 예술을 향유하는 데 사랑방 역할을 하며, 지역민과 예술의 소통을 강화하기 위하여 2007년 10월 2일 건립되었다. 대지 700㎡에 노출콘크리트 공법으로 사각형 외벽 구조로 건립된 2층 건물이며 1층의 기획전시실은 층고가 높은 공간으로 특별전과 기획전, 대관전 등이 주로 열리고, 2층은 관장의 작업실 겸 상설 전시 공간, 수장고, 방문객을 위한 휴게 공간 등으로 되어 있다. 미술관의 명칭에 걸맞게 현대 미술 전시회를 꾸준히 개최하는 것은 물론 500여 점의 소장품을 중심으로 한 상설전시관을 운영",
+      "metadata": {
+        "requires_manual_review": true,
+        "youth_fee": 1000.0,
+        "latitude": 35.134183,
+        "holiday_open": "12:00",
+        "source_types": "BASE|TOUR_API",
+        "ownership_type": "사립",
+        "child_fee": 0.0,
+        "sigungu": "동구",
+        "weekday_open": "10:00",
+        "name": "무등현대미술관",
+        "homepage_url": "http://www.mdmoca.co.kr",
+        "adult_fee_status": "BASE_FEE_PAID",
+        "adult_fee": 2000.0,
+        "closure_rule_raw": "월",
+        "sido": "광주광역시",
+        "holiday_close": "18:00",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/77/3366777_image2_1.jpg",
+        "image_copyright": "Type3",
+        "longitude": 126.953723,
+        "address": "광주광역시 동구 증심사길 9(운림동)",
+        "weekday_close": "18:00"
+      },
+      "vector_rank": 16,
+      "bm25_rank": 7,
+      "vector_distance": 0.5775434970855713,
+      "vector_score": null,
+      "bm25_score": 14.184863241651444,
+      "vector_document": "무등현대미술관은 중진 서양화가인 정송규 화백의 작업실 겸 전시 공간이자 지역 문화 커뮤니티 활성화 문화 공간으로 개관하였다. 주변 공방들과 함께 지역 문화의 소통과 커뮤니티를 형성하고 있다. 전남광주통합특별시의 예술인과 시민들이 예술을 향유하는 데 사랑방 역할을 하며, 지역민과 예술의 소통을 강화하기 위하여 2007년 10월 2일 건립되었다. 대지 700㎡에 노출콘크리트 공법으로 사각형 외벽 구조로 건립된 2층 건물이며 1층의 기획전시실은 층고가 높은 공간으로 특별전과 기획전, 대관전 등이 주로 열리고, 2층은 관장의 작업실 겸 상설 전시 공간, 수장고, 방문객을 위한 휴게 공간 등으로 되어 있다. 미술관의 명칭에 걸맞게 현대 미술 전시회를 꾸준히 개최하는 것은 물론 500여 점의 소장품을 중심으로 한 상설전시관을 운영",
+      "bm25_document": "무등현대미술관은 중진 서양화가인 정송규 화백의 작업실 겸 전시 공간이자 지역 문화 커뮤니티 활성화 문화 공간으로 개관하였다. 주변 공방들과 함께 지역 문화의 소통과 커뮤니티를 형성하고 있다. 전남광주통합특별시의 예술인과 시민들이 예술을 향유하는 데 사랑방 역할을 하며, 지역민과 예술의 소통을 강화하기 위하여 2007년 10월 2일 건립되었다. 대지 700㎡에 노출콘크리트 공법으로 사각형 외벽 구조로 건립된 2층 건물이며 1층의 기획전시실은 층고가 높은 공간으로 특별전과 기획전, 대관전 등이 주로 열리고, 2층은 관장의 작업실 겸 상설 전시 공간, 수장고, 방문객을 위한 휴게 공간 등으로 되어 있다. 미술관의 명칭에 걸맞게 현대 미술 전시회를 꾸준히 개최하는 것은 물론 500여 점의 소장품을 중심으로 한 상설전시관을 운영",
+      "best_span_id": "chroma:M0896",
+      "best_span_text": "무등현대미술관은 중진 서양화가인 정송규 화백의 작업실 겸 전시 공간이자 지역 문화 커뮤니티 활성화 문화 공간으로 개관하였다. 주변 공방들과 함께 지역 문화의 소통과 커뮤니티를 형성하고 있다. 전남광주통합특별시의 예술인과 시민들이 예술을 향유하는 데 사랑방 역할을 하며, 지역민과 예술의 소통을 강화하기 위하여 2007년 10월 2일 건립되었다. 대지 700㎡에 노출콘크리트 공법으로 사각형 외벽 구조로 건립된 2층 건물이며 1층의 기획전시실은 층고가 높은 공간으로 특별전과 기획전, 대관전 등이 주로 열리고, 2층은 관장의 작업실 겸 상설 전시 공간, 수장고, 방문객을 위한 휴게 공간 등으로 되어 있다. 미술관의 명칭에 걸맞게 현대 미술 전시회를 꾸준히 개최하는 것은 물론 500여 점의 소장품을 중심으로 한 상설전시관을 운영",
+      "fusion_score": 0.028083267871170464,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 6,
+      "rerank_score": 0.00322534516453743,
+      "rank": 4,
+      "score": 0.00322534516453743,
+      "score_type": "cross_encoder",
+      "distance": 0.5775434970855713,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0896",
+      "source_doc_ids": [
+        "DOC-B0896-TOUR_API-2555853",
+        "DOC-B0896-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0896-TOUR_API-2555853",
+          "source_type": "TOUR_API",
+          "source_record_id": "2555853",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=423",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        },
+        {
+          "doc_id": "DOC-B0896-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0896",
+          "source_locator": "data/raw/museum_base_1070.csv#row=897",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 69,
+          "doc_ids": [
+            "DOC-B0896-TOUR_API-2555853"
+          ]
+        },
+        {
+          "start": 70,
+          "end": 106,
+          "doc_ids": [
+            "DOC-B0896-TOUR_API-2555853"
+          ]
+        },
+        {
+          "start": 107,
+          "end": 192,
+          "doc_ids": [
+            "DOC-B0896-TOUR_API-2555853"
+          ]
+        },
+        {
+          "start": 193,
+          "end": 338,
+          "doc_ids": [
+            "DOC-B0896-TOUR_API-2555853"
+          ]
+        },
+        {
+          "start": 339,
+          "end": 407,
+          "doc_ids": [
+            "DOC-B0896-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=423",
+      "text": "무등현대미술관은 중진 서양화가인 정송규 화백의 작업실 겸 전시 공간이자 지역 문화 커뮤니티 활성화 문화 공간으로 개관하였다. 주변 공방들과 함께 지역 문화의 소통과 커뮤니티를 형성하고 있다. 전남광주통합특별시의 예술인과 시민들이 예술을 향유하는 데 사랑방 역할을 하며, 지역민과 예술의 소통을 강화하기 위하여 2007년 10월 2일 건립되었다. 대지 700㎡에 노출콘크리트 공법으로 사각형 외벽 구조로 건립된 2층 건물이며 1층의 기획전시실은 층고가 높은 공간으로 특별전과 기획전, 대관전 등이 주로 열리고, 2층은 관장의 작업실 겸 상설 전시 공간, 수장고, 방문객을 위한 휴게 공간 등으로 되어 있다. 미술관의 명칭에 걸맞게 현대 미술 전시회를 꾸준히 개최하는 것은 물론 500여 점의 소장품을 중심으로 한 상설전시관을 운영",
+      "sido": "광주광역시",
+      "sigungu": "동구",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=423"
+      ],
+      "evidence_id": "E4",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=614",
+        "fields": {
+          "name": "무등현대미술관",
+          "sido": "광주광역시",
+          "sigungu": "동구",
+          "address": "광주광역시 동구 증심사길 9(운림동)",
+          "ownership_type": "사립",
+          "adult_fee": "2000",
+          "youth_fee": "1000",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_PAID",
+          "weekday_open": "10:00",
+          "weekday_close": "18:00",
+          "holiday_open": "12:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "월"
+        },
+        "base_data_date": "2025-06-26",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0462",
+      "name": "서호미술관",
+      "document": "서호미술관은 2001년 5월 25일, 서울 인사동에서 운영되던 갤러리 서호가 지방 문화의 균형적 발전을 도모하기 위해 경기도 남양주시 조안면 북한강변에 개관한 복합문화전시공간이다. 이후 2007년 1종 미술관으로 등록되며 지역의 문화예술 진흥과 미술 향유 기회 확대에 기여해 왔다. 개관 이후 현재까지 동시대 미술의 다양한 흐름을 반영한 전시와 인문학·체험 프로그램 등 폭넓은 문화행사를 꾸준히 개최하고 있다. 특히 신진작가 발굴과 지역작가 지원을 핵심 운영 방향으로 삼아 미래지향적 예술 담론을 형성하고, 예술을 통한 지역사회 문화 활성화에 앞장서고 있다. 전시뿐 아니라 교육기관 및 지역 단체와 연계하여 예술체험학습·인문학 특강·찾아가는 미술관 프로그램 등을 운영하며 예술의 대중화와 문화복지 실현을 위한 공공적 역할을 수행하고 있다. 이처럼 서호미술관은 자연과 예술, 지역과 인간이 어우러지는 복합문화예술공간으로 예술을 통해 삶의 풍요로움과 공동체의 문화적 성장을 지향하고 있다. 1층에는 약 70평 규모의 전시실과 학예실이, 2층에는 관람객의 휴식과 교류를 위한 100석 규모의 레스토랑이 마련되어 있다. 그리고 약 500평의 야외 정원은 문화행사, 야외조각전, 공연 등 예술과 자연이 공존하는 열린 문화의 장으로 활용되고 있다. 또한, 2017년에 40평 규모의 한옥 별관을 증축하여 전시 구성을 더욱 풍성하게 만들고, 한옥에 대한 이해를 높이고 있다.",
+      "metadata": {
+        "closure_rule_raw": "설 연휴+추석 연휴",
+        "adult_fee_status": "BASE_FEE_PAID",
+        "youth_fee": 3000.0,
+        "ownership_type": "사립",
+        "weekday_open": "10:00",
+        "holiday_close": "18:00",
+        "image_copyright": "Type3",
+        "name": "서호미술관",
+        "source_types": "TOUR_API",
+        "requires_manual_review": true,
+        "longitude": 127.3515079,
+        "homepage_url": "http://www.seohoart.com/",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/44/3565444_image2_1.JPG",
+        "latitude": 37.63270736,
+        "sido": "경기도",
+        "address": "경기도 남양주시 화도읍 북한강로 1344",
+        "child_fee": 2000.0,
+        "adult_fee": 5000.0,
+        "sigungu": "남양주시",
+        "weekday_close": "18:00",
+        "holiday_open": "10:00"
+      },
+      "vector_rank": 3,
+      "bm25_rank": null,
+      "vector_distance": 0.5366991758346558,
+      "vector_score": null,
+      "bm25_score": null,
+      "vector_document": "서호미술관은 2001년 5월 25일, 서울 인사동에서 운영되던 갤러리 서호가 지방 문화의 균형적 발전을 도모하기 위해 경기도 남양주시 조안면 북한강변에 개관한 복합문화전시공간이다. 이후 2007년 1종 미술관으로 등록되며 지역의 문화예술 진흥과 미술 향유 기회 확대에 기여해 왔다. 개관 이후 현재까지 동시대 미술의 다양한 흐름을 반영한 전시와 인문학·체험 프로그램 등 폭넓은 문화행사를 꾸준히 개최하고 있다. 특히 신진작가 발굴과 지역작가 지원을 핵심 운영 방향으로 삼아 미래지향적 예술 담론을 형성하고, 예술을 통한 지역사회 문화 활성화에 앞장서고 있다. 전시뿐 아니라 교육기관 및 지역 단체와 연계하여 예술체험학습·인문학 특강·찾아가는 미술관 프로그램 등을 운영하며 예술의 대중화와 문화복지 실현을 위한 공공적 역할을 수행하고 있다. 이처럼 서호미술관은 자연과 예술, 지역과 인간이 어우러지는 복합문화예술공간으로 예술을 통해 삶의 풍요로움과 공동체의 문화적 성장을 지향하고 있다. 1층에는 약 70평 규모의 전시실과 학예실이, 2층에는 관람객의 휴식과 교류를 위한 100석 규모의 레스토랑이 마련되어 있다. 그리고 약 500평의 야외 정원은 문화행사, 야외조각전, 공연 등 예술과 자연이 공존하는 열린 문화의 장으로 활용되고 있다. 또한, 2017년에 40평 규모의 한옥 별관을 증축하여 전시 구성을 더욱 풍성하게 만들고, 한옥에 대한 이해를 높이고 있다.",
+      "bm25_document": "",
+      "best_span_id": null,
+      "best_span_text": null,
+      "fusion_score": 0.015873015873015872,
+      "retrieved_by": [
+        "vector"
+      ],
+      "fusion_rank": 8,
+      "rerank_score": 0.0023144432343542576,
+      "rank": 5,
+      "score": 0.0023144432343542576,
+      "score_type": "cross_encoder",
+      "distance": 0.5366991758346558,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector"
+      ],
+      "retriever": "vector",
+      "source_doc_ids": [
+        "DOC-B0462-TOUR_API-130709"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0462-TOUR_API-130709",
+          "source_type": "TOUR_API",
+          "source_record_id": "130709",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=225",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 100,
+          "doc_ids": [
+            "DOC-B0462-TOUR_API-130709"
+          ]
+        },
+        {
+          "start": 101,
+          "end": 157,
+          "doc_ids": [
+            "DOC-B0462-TOUR_API-130709"
+          ]
+        },
+        {
+          "start": 158,
+          "end": 229,
+          "doc_ids": [
+            "DOC-B0462-TOUR_API-130709"
+          ]
+        },
+        {
+          "start": 230,
+          "end": 312,
+          "doc_ids": [
+            "DOC-B0462-TOUR_API-130709"
+          ]
+        },
+        {
+          "start": 313,
+          "end": 413,
+          "doc_ids": [
+            "DOC-B0462-TOUR_API-130709"
+          ]
+        },
+        {
+          "start": 414,
+          "end": 495,
+          "doc_ids": [
+            "DOC-B0462-TOUR_API-130709"
+          ]
+        },
+        {
+          "start": 496,
+          "end": 566,
+          "doc_ids": [
+            "DOC-B0462-TOUR_API-130709"
+          ]
+        },
+        {
+          "start": 567,
+          "end": 636,
+          "doc_ids": [
+            "DOC-B0462-TOUR_API-130709"
+          ]
+        },
+        {
+          "start": 637,
+          "end": 706,
+          "doc_ids": [
+            "DOC-B0462-TOUR_API-130709"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=225",
+      "text": "서호미술관은 2001년 5월 25일, 서울 인사동에서 운영되던 갤러리 서호가 지방 문화의 균형적 발전을 도모하기 위해 경기도 남양주시 조안면 북한강변에 개관한 복합문화전시공간이다. 이후 2007년 1종 미술관으로 등록되며 지역의 문화예술 진흥과 미술 향유 기회 확대에 기여해 왔다. 개관 이후 현재까지 동시대 미술의 다양한 흐름을 반영한 전시와 인문학·체험 프로그램 등 폭넓은 문화행사를 꾸준히 개최하고 있다. 특히 신진작가 발굴과 지역작가 지원을 핵심 운영 방향으로 삼아 미래지향적 예술 담론을 형성하고, 예술을 통한 지역사회 문화 활성화에 앞장서고 있다. 전시뿐 아니라 교육기관 및 지역 단체와 연계하여 예술체험학습·인문학 특강·찾아가는 미술관 프로그램 등을 운영하며 예술의 대중화와 문화복지 실현을 위한 공공적 역할을 수행하고 있다. 이처럼 서호미술관은 자연과 예술, 지역과 인간이 어우러지는 복합문화예술공간으로 예술을 통해 삶의 풍요로움과 공동체의 문화적 성장을 지향하고 있다. 1층에는 약 70평 규모의 전시실과 학예실이, 2층에는 관람객의 휴식과 교류를 위한 100석 규모의 레스토랑이 마련되어 있다. 그리고 약 500평의 야외 정원은 문화행사, 야외조각전, 공연 등 예술과 자연이 공존하는 열린 문화의 장으로 활용되고 있다. 또한, 2017년에 40평 규모의 한옥 별관을 증축하여 전시 구성을 더욱 풍성하게 만들고, 한옥에 대한 이해를 높이고 있다.",
+      "sido": "경기도",
+      "sigungu": "남양주시",
+      "span_id": "",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=225"
+      ],
+      "evidence_id": "E5",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=333",
+        "fields": {
+          "name": "서호미술관",
+          "sido": "경기도",
+          "sigungu": "남양주시",
+          "address": "경기도 남양주시 화도읍 북한강로 1344",
+          "ownership_type": "사립",
+          "adult_fee": "5000",
+          "youth_fee": "3000",
+          "child_fee": "2000",
+          "adult_fee_status": "BASE_FEE_PAID",
+          "weekday_open": "10:00",
+          "weekday_close": "18:00",
+          "holiday_open": "10:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "설 연휴+추석 연휴"
+        },
+        "base_data_date": "2026-04-01",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    }
+  ],
+  "answer": "모산조형미술관은 보령 성주면의 지역 자원인 ‘남포오석’을 미술관만의 독창적인 콘텐츠로 삼고, 이를 중심으로 지역미술문화 활성화를 위해 노력합니다. [E1]",
+  "retrieval_status": "ok",
+  "answer_status": "answered",
+  "route": "hybrid",
+  "retry_count": 0,
+  "supervisor_verified": true,
+  "rerank_applied": true,
+  "retriever_errors": [],
+  "warnings": [],
+  "duration_ms": 130982.34,
+  "error_type": "",
+  "hit_at_1": 1,
+  "hit_at_3": 1,
+  "hit_at_5": 1,
+  "recall_at_5": 1.0,
+  "mrr_at_10": 1.0
+}

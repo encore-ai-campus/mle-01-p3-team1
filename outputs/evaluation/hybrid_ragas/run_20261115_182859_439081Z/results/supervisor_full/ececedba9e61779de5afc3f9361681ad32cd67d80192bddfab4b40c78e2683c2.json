@@ -1,0 +1,563 @@
+{
+  "evidence_context_version": "grounded-evidence-v2",
+  "evaluation_contexts": [
+    "{\"evidence_context_version\": \"grounded-evidence-v2\", \"evidence_id\": \"E1\", \"metadata_provenance\": {\"base_data_date\": \"2024-07-11\", \"fields\": {\"address\": \"충청남도 천안시 동남구 유관순길 38\", \"adult_fee\": \"0\", \"adult_fee_status\": \"BASE_FEE_ZERO_CHECK_EXCEPTIONS\", \"amenities_raw\": \"문화상품점+매점\", \"child_fee\": \"0\", \"closure_rule_raw\": \"연중무휴\", \"holiday_close\": \"18:00\", \"holiday_open\": \"09:00\", \"name\": \"유관순열사기념관\", \"ownership_type\": \"공립\", \"sido\": \"충청남도\", \"sigungu\": \"천안시\", \"weekday_close\": \"18:00\", \"weekday_open\": \"09:00\", \"youth_fee\": \"0\"}, \"source_kind\": \"derived_csv_row\", \"source_locator\": \"data/processed/museum_final_738.csv#record=498\", \"trust\": \"derived_dataset_not_human_verified\"}, \"museum_id\": \"M0716\", \"name\": \"유관순열사기념관\", \"retrieval_branch\": \"document\", \"source_doc_ids\": [\"DOC-B0716-TOUR_API-130495\", \"DOC-B0716-BASE\"], \"source_documents\": [{\"doc_id\": \"DOC-B0716-TOUR_API-130495\", \"match_trust\": \"AUTO_MATCH_NOT_HUMAN_VERIFIED\", \"source_locator\": \"data/raw/museum_tourapi_with_overview.csv#row=349\", \"source_record_id\": \"130495\", \"source_type\": \"TOUR_API\"}, {\"doc_id\": \"DOC-B0716-BASE\", \"match_trust\": \"BASE_SOURCE\", \"source_locator\": \"data/raw/museum_base_1070.csv#row=717\", \"source_record_id\": \"B0716\", \"source_type\": \"BASE\"}], \"source_locator\": \"data/raw/museum_tourapi_with_overview.csv#row=349\", \"source_locators\": [\"data/raw/museum_tourapi_with_overview.csv#row=349\"], \"source_scope\": \"text\", \"source_spans\": [{\"doc_ids\": [\"DOC-B0716-TOUR_API-130495\"], \"end\": 102, \"start\": 0}, {\"doc_ids\": [\"DOC-B0716-TOUR_API-130495\"], \"end\": 140, \"start\": 103}, {\"doc_ids\": [\"DOC-B0716-TOUR_API-130495\"], \"end\": 179, \"start\": 141}, {\"doc_ids\": [\"DOC-B0716-TOUR_API-130495\"], \"end\": 262, \"start\": 180}, {\"doc_ids\": [\"DOC-B0716-TOUR_API-130495\"], \"end\": 298, \"start\": 263}, {\"doc_ids\": [\"DOC-B0716-TOUR_API-130495\"], \"end\": 353, \"start\": 299}, {\"doc_ids\": [\"DOC-B0716-BASE\"], \"end\": 402, \"start\": 354}], \"source_urls\": [], \"text\": \"1902년 11월 26일 태어나 1919년 3월 1일 아우내독립만세운동을 주도하다가 1920년 9월 28일 서대문형무소에서 순국한 유관순 열사의 생애와 업적을 기리기 위한 기념관이다. 유관순열사기념관은 크게 전시관과 유관순 열사 생가로 구성되어 있다. 전시관은 유관순 열사의 생애와 활동을 다양한 방식으로 소개하고 있다. 유관순 열사의 유품과 사진, 영상자료 등을 통해 그녀의 일생을 생생하게 느낄 수 있으며, 아우내 독립만세운동의 전개 과정과 의미를 살펴볼 수 있다. 유관순 열사의 생전 모습과 유품, 가족사진 등이 전시되어 있다. 유관순 열사의 숭고한 독립 정신을 기리고, 대한민국의 역사와 가치를 되새기기 위한 중요한 장소다. 유관순열사 기념관은 열사의 탄신 100주년을 기념하여 2003년 4월 1일 개관하였다.\"}",
+    "{\"evidence_context_version\": \"grounded-evidence-v2\", \"evidence_id\": \"E2\", \"metadata_provenance\": {\"base_data_date\": \"2024-07-11\", \"fields\": {\"address\": \"충청남도 천안시 동남구 천안대로 412\", \"adult_fee\": \"0\", \"adult_fee_status\": \"BASE_FEE_ZERO_CHECK_EXCEPTIONS\", \"child_fee\": \"0\", \"closure_rule_raw\": \"1월 1일 + 매주 월요일 + 설 당일+ 추석 당일\", \"holiday_close\": \"18:00\", \"holiday_open\": \"09:00\", \"name\": \"천안흥타령관\", \"ownership_type\": \"공립\", \"sido\": \"충청남도\", \"sigungu\": \"천안시\", \"weekday_close\": \"18:00\", \"weekday_open\": \"09:00\", \"youth_fee\": \"0\"}, \"source_kind\": \"derived_csv_row\", \"source_locator\": \"data/processed/museum_final_738.csv#record=499\", \"trust\": \"derived_dataset_not_human_verified\"}, \"museum_id\": \"M0717\", \"name\": \"천안흥타령관\", \"retrieval_branch\": \"document\", \"source_doc_ids\": [\"DOC-B0717-BASE\"], \"source_documents\": [{\"doc_id\": \"DOC-B0717-BASE\", \"match_trust\": \"BASE_SOURCE\", \"source_locator\": \"data/raw/museum_base_1070.csv#row=718\", \"source_record_id\": \"B0717\", \"source_type\": \"BASE\"}], \"source_locator\": \"data/raw/museum_base_1070.csv#row=718\", \"source_locators\": [\"data/raw/museum_base_1070.csv#row=718\"], \"source_scope\": \"text\", \"source_spans\": [{\"doc_ids\": [\"DOC-B0717-BASE\"], \"end\": 124, \"start\": 0}], \"source_urls\": [], \"text\": \"천안삼거리라는 역사적 명소에 술과 춤이라는 독특한 주제로 건립된 천안흥타령관은 전통주전시설, 전통춤전시실, 기획전시실, 전통주 및 춤체험전시관 등 내부에 다양한 유물을 갖춘 천안의 술과 춤을 한눈에 알 수 있는 전시관이다.\"}",
+    "{\"evidence_context_version\": \"grounded-evidence-v2\", \"evidence_id\": \"E3\", \"metadata_provenance\": {\"base_data_date\": \"2024-07-11\", \"fields\": {\"address\": \"충청남도 천안시 동남구 목천읍 동리4길 38\", \"adult_fee\": \"0\", \"adult_fee_status\": \"BASE_FEE_ZERO_CHECK_EXCEPTIONS\", \"child_fee\": \"0\", \"closure_rule_raw\": \"월+1월 1일+설 당일+추석 당일\", \"holiday_close\": \"18:00\", \"holiday_open\": \"09:00\", \"name\": \"이동녕기념관\", \"ownership_type\": \"공립\", \"sido\": \"충청남도\", \"sigungu\": \"천안시\", \"weekday_close\": \"18:00\", \"weekday_open\": \"09:00\", \"youth_fee\": \"0\"}, \"source_kind\": \"derived_csv_row\", \"source_locator\": \"data/processed/museum_final_738.csv#record=497\", \"trust\": \"derived_dataset_not_human_verified\"}, \"museum_id\": \"M0715\", \"name\": \"이동녕기념관\", \"retrieval_branch\": \"document\", \"source_doc_ids\": [\"DOC-B0715-BASE\"], \"source_documents\": [{\"doc_id\": \"DOC-B0715-BASE\", \"match_trust\": \"BASE_SOURCE\", \"source_locator\": \"data/raw/museum_base_1070.csv#row=716\", \"source_record_id\": \"B0715\", \"source_type\": \"BASE\"}], \"source_locator\": \"data/raw/museum_base_1070.csv#row=716\", \"source_locators\": [\"data/raw/museum_base_1070.csv#row=716\"], \"source_scope\": \"text\", \"source_spans\": [{\"doc_ids\": [\"DOC-B0715-BASE\"], \"end\": 25, \"start\": 0}], \"source_urls\": [], \"text\": \"석오 이동녕 선생의 삶과 사상을 엿볼 수 있음\"}",
+    "{\"evidence_context_version\": \"grounded-evidence-v2\", \"evidence_id\": \"E4\", \"evidence_role\": \"anchor\", \"museum_id\": \"M0718\", \"name\": \"천안박물관\", \"operator_raw_name\": \"충청남도 천안시청\", \"org_type\": \"지방자치단체\", \"organization\": \"충청남도 천안시\", \"relation\": \"OPERATED_BY\", \"retrieval_branch\": \"graph\", \"sido\": \"충청남도\", \"sigungu\": \"천안시\", \"source_doc_ids\": [\"DOC-B0718-BASE\", \"DOC-B0718-TOUR_API-1935748\"], \"source_locator\": \"data/raw/museum_base_1070.csv#row=719\", \"source_locators\": [\"data/raw/museum_base_1070.csv#row=719\", \"data/raw/museum_tourapi_with_overview.csv#row=350\"], \"source_scope\": \"graph_properties\", \"source_urls\": [], \"text\": \"천안박물관의 Neo4j operator_name(운영기관) 기록: 충청남도 천안시 (CSV 원문: 충청남도 천안시청)\\n[Neo4j 구조화 근거] {\\\"museum_id\\\": \\\"M0718\\\", \\\"name\\\": \\\"천안박물관\\\", \\\"relation\\\": \\\"OPERATED_BY\\\", \\\"organization\\\": \\\"충청남도 천안시\\\", \\\"org_key\\\": \\\"충청남도천안시\\\", \\\"org_type\\\": \\\"지방자치단체\\\", \\\"raw_name\\\": \\\"충청남도 천안시청\\\", \\\"verification_status\\\": \\\"SOURCE_RECORDED\\\"}\", \"verification_status\": \"SOURCE_RECORDED\"}",
+    "{\"anchor_operator_raw_name\": \"충청남도 천안시청\", \"evidence_context_version\": \"grounded-evidence-v2\", \"evidence_id\": \"E5\", \"facility_type\": \"기념관\", \"graph_path\": \"anchor -[:OPERATED_BY]-> Organization <-[:OPERATED_BY]- candidate\", \"museum_id\": \"M0716\", \"name\": \"유관순열사기념관\", \"operator_raw_name\": \"충청남도 천안시청\", \"org_type\": \"지방자치단체\", \"organization\": \"충청남도 천안시\", \"relation\": \"OPERATED_BY\", \"retrieval_branch\": \"graph\", \"sido\": \"충청남도\", \"sigungu\": \"천안시\", \"source_doc_ids\": [\"DOC-B0716-BASE\", \"DOC-B0716-TOUR_API-130495\"], \"source_locator\": \"data/raw/museum_base_1070.csv#row=717\", \"source_locators\": [\"data/raw/museum_base_1070.csv#row=717\", \"data/raw/museum_tourapi_with_overview.csv#row=349\"], \"source_scope\": \"graph_properties\", \"source_urls\": [], \"text\": \"{anchor_raw_name: 충청남도 천안시청, candidate_raw_name: 충청남도 천안시청, org_key: 충청남도천안시, organization: 충청남도 천안시, relation: OPERATED_BY, verification_status: SOURCE_RECORDED}\", \"verification_status\": \"SOURCE_RECORDED\"}",
+    "{\"anchor_operator_raw_name\": \"충청남도 천안시청\", \"evidence_context_version\": \"grounded-evidence-v2\", \"evidence_id\": \"E6\", \"facility_type\": \"기념관\", \"graph_path\": \"anchor -[:OPERATED_BY]-> Organization <-[:OPERATED_BY]- candidate\", \"museum_id\": \"M0715\", \"name\": \"이동녕기념관\", \"operator_raw_name\": \"충청남도 천안시청\", \"org_type\": \"지방자치단체\", \"organization\": \"충청남도 천안시\", \"relation\": \"OPERATED_BY\", \"retrieval_branch\": \"graph\", \"sido\": \"충청남도\", \"sigungu\": \"천안시\", \"source_doc_ids\": [\"DOC-B0715-BASE\"], \"source_locator\": \"data/raw/museum_base_1070.csv#row=716\", \"source_locators\": [\"data/raw/museum_base_1070.csv#row=716\"], \"source_scope\": \"graph_properties\", \"source_urls\": [], \"text\": \"{anchor_raw_name: 충청남도 천안시청, candidate_raw_name: 충청남도 천안시청, org_key: 충청남도천안시, organization: 충청남도 천안시, relation: OPERATED_BY, verification_status: SOURCE_RECORDED}\", \"verification_status\": \"SOURCE_RECORDED\"}",
+    "{\"anchor_operator_raw_name\": \"충청남도 천안시청\", \"evidence_context_version\": \"grounded-evidence-v2\", \"evidence_id\": \"E7\", \"facility_type\": \"전시관\", \"graph_path\": \"anchor -[:OPERATED_BY]-> Organization <-[:OPERATED_BY]- candidate\", \"museum_id\": \"M0717\", \"name\": \"천안흥타령관\", \"operator_raw_name\": \"충청남도 천안시청\", \"org_type\": \"지방자치단체\", \"organization\": \"충청남도 천안시\", \"relation\": \"OPERATED_BY\", \"retrieval_branch\": \"graph\", \"sido\": \"충청남도\", \"sigungu\": \"천안시\", \"source_doc_ids\": [\"DOC-B0717-BASE\"], \"source_locator\": \"data/raw/museum_base_1070.csv#row=718\", \"source_locators\": [\"data/raw/museum_base_1070.csv#row=718\"], \"source_scope\": \"graph_properties\", \"source_urls\": [], \"text\": \"{anchor_raw_name: 충청남도 천안시청, candidate_raw_name: 충청남도 천안시청, org_key: 충청남도천안시, organization: 충청남도 천안시, relation: OPERATED_BY, verification_status: SOURCE_RECORDED}\", \"verification_status\": \"SOURCE_RECORDED\"}"
+  ],
+  "mode": "supervisor_full",
+  "question_id": "V2-CB07",
+  "evidence": [
+    {
+      "museum_id": "M0716",
+      "name": "유관순열사기념관",
+      "document": "1902년 11월 26일 태어나 1919년 3월 1일 아우내독립만세운동을 주도하다가 1920년 9월 28일 서대문형무소에서 순국한 유관순 열사의 생애와 업적을 기리기 위한 기념관이다. 유관순열사기념관은 크게 전시관과 유관순 열사 생가로 구성되어 있다. 전시관은 유관순 열사의 생애와 활동을 다양한 방식으로 소개하고 있다. 유관순 열사의 유품과 사진, 영상자료 등을 통해 그녀의 일생을 생생하게 느낄 수 있으며, 아우내 독립만세운동의 전개 과정과 의미를 살펴볼 수 있다. 유관순 열사의 생전 모습과 유품, 가족사진 등이 전시되어 있다. 유관순 열사의 숭고한 독립 정신을 기리고, 대한민국의 역사와 가치를 되새기기 위한 중요한 장소다. 유관순열사 기념관은 열사의 탄신 100주년을 기념하여 2003년 4월 1일 개관하였다.",
+      "metadata": {
+        "sido": "충청남도",
+        "amenities_raw": "문화상품점+매점",
+        "fee_notes": "0",
+        "weekday_open": "09:00",
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "homepage_url": "http://www.cheonan.go.kr/yugwansun.do",
+        "adult_fee": 0.0,
+        "source_types": "BASE|TOUR_API",
+        "image_copyright": "Type1",
+        "closure_rule_raw": "연중무휴",
+        "name": "유관순열사기념관",
+        "sigungu": "천안시",
+        "requires_manual_review": true,
+        "latitude": 36.7600902,
+        "holiday_close": "18:00",
+        "transport_notes": "천안시내에서 진천으로 가는 21번 국도를 따라 18km정도 가면 아우내 장터이고, 이곳에서 진천 쪽으로 300m 지점에 위치",
+        "youth_fee": 0.0,
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/10/3519610_image2_1.jpg",
+        "address": "충청남도 천안시 동남구 유관순길 38",
+        "holiday_open": "09:00",
+        "child_fee": 0.0,
+        "longitude": 127.3083675,
+        "ownership_type": "공립",
+        "weekday_close": "18:00"
+      },
+      "vector_rank": 1,
+      "bm25_rank": 1,
+      "vector_distance": 0.46341872215270996,
+      "vector_score": null,
+      "bm25_score": 29.32087228374,
+      "vector_document": "1902년 11월 26일 태어나 1919년 3월 1일 아우내독립만세운동을 주도하다가 1920년 9월 28일 서대문형무소에서 순국한 유관순 열사의 생애와 업적을 기리기 위한 기념관이다. 유관순열사기념관은 크게 전시관과 유관순 열사 생가로 구성되어 있다. 전시관은 유관순 열사의 생애와 활동을 다양한 방식으로 소개하고 있다. 유관순 열사의 유품과 사진, 영상자료 등을 통해 그녀의 일생을 생생하게 느낄 수 있으며, 아우내 독립만세운동의 전개 과정과 의미를 살펴볼 수 있다. 유관순 열사의 생전 모습과 유품, 가족사진 등이 전시되어 있다. 유관순 열사의 숭고한 독립 정신을 기리고, 대한민국의 역사와 가치를 되새기기 위한 중요한 장소다. 유관순열사 기념관은 열사의 탄신 100주년을 기념하여 2003년 4월 1일 개관하였다.",
+      "bm25_document": "1902년 11월 26일 태어나 1919년 3월 1일 아우내독립만세운동을 주도하다가 1920년 9월 28일 서대문형무소에서 순국한 유관순 열사의 생애와 업적을 기리기 위한 기념관이다. 유관순열사기념관은 크게 전시관과 유관순 열사 생가로 구성되어 있다. 전시관은 유관순 열사의 생애와 활동을 다양한 방식으로 소개하고 있다. 유관순 열사의 유품과 사진, 영상자료 등을 통해 그녀의 일생을 생생하게 느낄 수 있으며, 아우내 독립만세운동의 전개 과정과 의미를 살펴볼 수 있다. 유관순 열사의 생전 모습과 유품, 가족사진 등이 전시되어 있다. 유관순 열사의 숭고한 독립 정신을 기리고, 대한민국의 역사와 가치를 되새기기 위한 중요한 장소다. 유관순열사 기념관은 열사의 탄신 100주년을 기념하여 2003년 4월 1일 개관하였다.",
+      "best_span_id": "chroma:M0716",
+      "best_span_text": "1902년 11월 26일 태어나 1919년 3월 1일 아우내독립만세운동을 주도하다가 1920년 9월 28일 서대문형무소에서 순국한 유관순 열사의 생애와 업적을 기리기 위한 기념관이다. 유관순열사기념관은 크게 전시관과 유관순 열사 생가로 구성되어 있다. 전시관은 유관순 열사의 생애와 활동을 다양한 방식으로 소개하고 있다. 유관순 열사의 유품과 사진, 영상자료 등을 통해 그녀의 일생을 생생하게 느낄 수 있으며, 아우내 독립만세운동의 전개 과정과 의미를 살펴볼 수 있다. 유관순 열사의 생전 모습과 유품, 가족사진 등이 전시되어 있다. 유관순 열사의 숭고한 독립 정신을 기리고, 대한민국의 역사와 가치를 되새기기 위한 중요한 장소다. 유관순열사 기념관은 열사의 탄신 100주년을 기념하여 2003년 4월 1일 개관하였다.",
+      "fusion_score": 0.03278688524590164,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 1,
+      "rerank_score": 0.9224689602851868,
+      "rank": 1,
+      "score": 0.9224689602851868,
+      "score_type": "cross_encoder",
+      "distance": 0.46341872215270996,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0716",
+      "source_doc_ids": [
+        "DOC-B0716-TOUR_API-130495",
+        "DOC-B0716-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0716-TOUR_API-130495",
+          "source_type": "TOUR_API",
+          "source_record_id": "130495",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=349",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        },
+        {
+          "doc_id": "DOC-B0716-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0716",
+          "source_locator": "data/raw/museum_base_1070.csv#row=717",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 102,
+          "doc_ids": [
+            "DOC-B0716-TOUR_API-130495"
+          ]
+        },
+        {
+          "start": 103,
+          "end": 140,
+          "doc_ids": [
+            "DOC-B0716-TOUR_API-130495"
+          ]
+        },
+        {
+          "start": 141,
+          "end": 179,
+          "doc_ids": [
+            "DOC-B0716-TOUR_API-130495"
+          ]
+        },
+        {
+          "start": 180,
+          "end": 262,
+          "doc_ids": [
+            "DOC-B0716-TOUR_API-130495"
+          ]
+        },
+        {
+          "start": 263,
+          "end": 298,
+          "doc_ids": [
+            "DOC-B0716-TOUR_API-130495"
+          ]
+        },
+        {
+          "start": 299,
+          "end": 353,
+          "doc_ids": [
+            "DOC-B0716-TOUR_API-130495"
+          ]
+        },
+        {
+          "start": 354,
+          "end": 402,
+          "doc_ids": [
+            "DOC-B0716-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=349",
+      "text": "1902년 11월 26일 태어나 1919년 3월 1일 아우내독립만세운동을 주도하다가 1920년 9월 28일 서대문형무소에서 순국한 유관순 열사의 생애와 업적을 기리기 위한 기념관이다. 유관순열사기념관은 크게 전시관과 유관순 열사 생가로 구성되어 있다. 전시관은 유관순 열사의 생애와 활동을 다양한 방식으로 소개하고 있다. 유관순 열사의 유품과 사진, 영상자료 등을 통해 그녀의 일생을 생생하게 느낄 수 있으며, 아우내 독립만세운동의 전개 과정과 의미를 살펴볼 수 있다. 유관순 열사의 생전 모습과 유품, 가족사진 등이 전시되어 있다. 유관순 열사의 숭고한 독립 정신을 기리고, 대한민국의 역사와 가치를 되새기기 위한 중요한 장소다. 유관순열사 기념관은 열사의 탄신 100주년을 기념하여 2003년 4월 1일 개관하였다.",
+      "sido": "충청남도",
+      "sigungu": "천안시",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=349"
+      ],
+      "evidence_id": "E1",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=498",
+        "fields": {
+          "name": "유관순열사기념관",
+          "sido": "충청남도",
+          "sigungu": "천안시",
+          "address": "충청남도 천안시 동남구 유관순길 38",
+          "ownership_type": "공립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "09:00",
+          "weekday_close": "18:00",
+          "holiday_open": "09:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "연중무휴",
+          "amenities_raw": "문화상품점+매점"
+        },
+        "base_data_date": "2024-07-11",
+        "trust": "derived_dataset_not_human_verified"
+      },
+      "retrieval_branch": "document"
+    },
+    {
+      "museum_id": "M0717",
+      "name": "천안흥타령관",
+      "document": "천안삼거리라는 역사적 명소에 술과 춤이라는 독특한 주제로 건립된 천안흥타령관은 전통주전시설, 전통춤전시실, 기획전시실, 전통주 및 춤체험전시관 등 내부에 다양한 유물을 갖춘 천안의 술과 춤을 한눈에 알 수 있는 전시관이다.",
+      "metadata": {
+        "adult_fee": 0.0,
+        "fee_notes": "0",
+        "homepage_url": "https://www.cheonan.go.kr/museum.do",
+        "transport_notes": "천안역 동부광장 → 700, 702번 버스 → 원삼거리 → 도보 5분",
+        "youth_fee": 0.0,
+        "sido": "충청남도",
+        "longitude": 127.165631,
+        "source_types": "BASE",
+        "address": "충청남도 천안시 동남구 천안대로 412",
+        "requires_manual_review": true,
+        "weekday_close": "18:00",
+        "child_fee": 0.0,
+        "holiday_close": "18:00",
+        "latitude": 36.78478709,
+        "name": "천안흥타령관",
+        "holiday_open": "09:00",
+        "closure_rule_raw": "1월 1일 + 매주 월요일 + 설 당일+ 추석 당일",
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "ownership_type": "공립",
+        "weekday_open": "09:00",
+        "sigungu": "천안시"
+      },
+      "vector_rank": 2,
+      "bm25_rank": 3,
+      "vector_distance": 0.5562623739242554,
+      "vector_score": null,
+      "bm25_score": 3.8753803862942187,
+      "vector_document": "천안삼거리라는 역사적 명소에 술과 춤이라는 독특한 주제로 건립된 천안흥타령관은 전통주전시설, 전통춤전시실, 기획전시실, 전통주 및 춤체험전시관 등 내부에 다양한 유물을 갖춘 천안의 술과 춤을 한눈에 알 수 있는 전시관이다.",
+      "bm25_document": "천안삼거리라는 역사적 명소에 술과 춤이라는 독특한 주제로 건립된 천안흥타령관은 전통주전시설, 전통춤전시실, 기획전시실, 전통주 및 춤체험전시관 등 내부에 다양한 유물을 갖춘 천안의 술과 춤을 한눈에 알 수 있는 전시관이다.",
+      "best_span_id": "chroma:M0717",
+      "best_span_text": "천안삼거리라는 역사적 명소에 술과 춤이라는 독특한 주제로 건립된 천안흥타령관은 전통주전시설, 전통춤전시실, 기획전시실, 전통주 및 춤체험전시관 등 내부에 다양한 유물을 갖춘 천안의 술과 춤을 한눈에 알 수 있는 전시관이다.",
+      "fusion_score": 0.03200204813108039,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 2,
+      "rerank_score": 0.006793772801756859,
+      "rank": 2,
+      "score": 0.006793772801756859,
+      "score_type": "cross_encoder",
+      "distance": 0.5562623739242554,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0717",
+      "source_doc_ids": [
+        "DOC-B0717-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0717-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0717",
+          "source_locator": "data/raw/museum_base_1070.csv#row=718",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 124,
+          "doc_ids": [
+            "DOC-B0717-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_base_1070.csv#row=718",
+      "text": "천안삼거리라는 역사적 명소에 술과 춤이라는 독특한 주제로 건립된 천안흥타령관은 전통주전시설, 전통춤전시실, 기획전시실, 전통주 및 춤체험전시관 등 내부에 다양한 유물을 갖춘 천안의 술과 춤을 한눈에 알 수 있는 전시관이다.",
+      "sido": "충청남도",
+      "sigungu": "천안시",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_base_1070.csv#row=718"
+      ],
+      "evidence_id": "E2",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=499",
+        "fields": {
+          "name": "천안흥타령관",
+          "sido": "충청남도",
+          "sigungu": "천안시",
+          "address": "충청남도 천안시 동남구 천안대로 412",
+          "ownership_type": "공립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "09:00",
+          "weekday_close": "18:00",
+          "holiday_open": "09:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "1월 1일 + 매주 월요일 + 설 당일+ 추석 당일"
+        },
+        "base_data_date": "2024-07-11",
+        "trust": "derived_dataset_not_human_verified"
+      },
+      "retrieval_branch": "document"
+    },
+    {
+      "museum_id": "M0715",
+      "name": "이동녕기념관",
+      "document": "석오 이동녕 선생의 삶과 사상을 엿볼 수 있음",
+      "metadata": {
+        "latitude": 36.7907152,
+        "child_fee": 0.0,
+        "sigungu": "천안시",
+        "source_types": "BASE",
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "homepage_url": "http://www.cheonan.go.kr/leedn.do",
+        "name": "이동녕기념관",
+        "adult_fee": 0.0,
+        "fee_notes": "0",
+        "holiday_open": "09:00",
+        "longitude": 127.2392868,
+        "requires_manual_review": true,
+        "weekday_open": "09:00",
+        "weekday_close": "18:00",
+        "closure_rule_raw": "월+1월 1일+설 당일+추석 당일",
+        "sido": "충청남도",
+        "transport_notes": "목천IC → 목천읍사무소 → 이동녕 기념관",
+        "address": "충청남도 천안시 동남구 목천읍 동리4길 38",
+        "youth_fee": 0.0,
+        "ownership_type": "공립",
+        "holiday_close": "18:00"
+      },
+      "vector_rank": 3,
+      "bm25_rank": 2,
+      "vector_distance": 0.6230754852294922,
+      "vector_score": null,
+      "bm25_score": 4.744388456580968,
+      "vector_document": "석오 이동녕 선생의 삶과 사상을 엿볼 수 있음",
+      "bm25_document": "석오 이동녕 선생의 삶과 사상을 엿볼 수 있음",
+      "best_span_id": "chroma:M0715",
+      "best_span_text": "석오 이동녕 선생의 삶과 사상을 엿볼 수 있음",
+      "fusion_score": 0.03200204813108039,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 3,
+      "rerank_score": 0.0003534693969413638,
+      "rank": 3,
+      "score": 0.0003534693969413638,
+      "score_type": "cross_encoder",
+      "distance": 0.6230754852294922,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0715",
+      "source_doc_ids": [
+        "DOC-B0715-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0715-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0715",
+          "source_locator": "data/raw/museum_base_1070.csv#row=716",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 25,
+          "doc_ids": [
+            "DOC-B0715-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_base_1070.csv#row=716",
+      "text": "석오 이동녕 선생의 삶과 사상을 엿볼 수 있음",
+      "sido": "충청남도",
+      "sigungu": "천안시",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_base_1070.csv#row=716"
+      ],
+      "evidence_id": "E3",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=497",
+        "fields": {
+          "name": "이동녕기념관",
+          "sido": "충청남도",
+          "sigungu": "천안시",
+          "address": "충청남도 천안시 동남구 목천읍 동리4길 38",
+          "ownership_type": "공립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "09:00",
+          "weekday_close": "18:00",
+          "holiday_open": "09:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "월+1월 1일+설 당일+추석 당일"
+        },
+        "base_data_date": "2024-07-11",
+        "trust": "derived_dataset_not_human_verified"
+      },
+      "retrieval_branch": "document"
+    },
+    {
+      "museum_id": "M0718",
+      "name": "천안박물관",
+      "text": "천안박물관의 Neo4j operator_name(운영기관) 기록: 충청남도 천안시 (CSV 원문: 충청남도 천안시청)\n[Neo4j 구조화 근거] {\"museum_id\": \"M0718\", \"name\": \"천안박물관\", \"relation\": \"OPERATED_BY\", \"organization\": \"충청남도 천안시\", \"org_key\": \"충청남도천안시\", \"org_type\": \"지방자치단체\", \"raw_name\": \"충청남도 천안시청\", \"verification_status\": \"SOURCE_RECORDED\"}",
+      "span_id": "",
+      "source_doc_ids": [
+        "DOC-B0718-BASE",
+        "DOC-B0718-TOUR_API-1935748"
+      ],
+      "source_urls": [],
+      "source_url": "",
+      "source_locators": [
+        "data/raw/museum_base_1070.csv#row=719",
+        "data/raw/museum_tourapi_with_overview.csv#row=350"
+      ],
+      "source_locator": "data/raw/museum_base_1070.csv#row=719",
+      "sido": "충청남도",
+      "sigungu": "천안시",
+      "retriever": "graph",
+      "evidence_role": "anchor",
+      "source_scope": "graph_properties",
+      "relation": "OPERATED_BY",
+      "organization": "충청남도 천안시",
+      "org_type": "지방자치단체",
+      "operator_raw_name": "충청남도 천안시청",
+      "verification_status": "SOURCE_RECORDED",
+      "metadata": {},
+      "chunk_id": "",
+      "retrievers": [
+        "graph"
+      ],
+      "evidence_id": "E4",
+      "retrieval_branch": "graph",
+      "rank": 4
+    },
+    {
+      "museum_id": "M0716",
+      "name": "유관순열사기념관",
+      "text": "{anchor_raw_name: 충청남도 천안시청, candidate_raw_name: 충청남도 천안시청, org_key: 충청남도천안시, organization: 충청남도 천안시, relation: OPERATED_BY, verification_status: SOURCE_RECORDED}",
+      "span_id": "",
+      "source_doc_ids": [
+        "DOC-B0716-BASE",
+        "DOC-B0716-TOUR_API-130495"
+      ],
+      "source_urls": [],
+      "source_url": "",
+      "source_locators": [
+        "data/raw/museum_base_1070.csv#row=717",
+        "data/raw/museum_tourapi_with_overview.csv#row=349"
+      ],
+      "source_locator": "data/raw/museum_base_1070.csv#row=717",
+      "sido": "충청남도",
+      "sigungu": "천안시",
+      "retriever": "graph",
+      "graph_path": "anchor -[:OPERATED_BY]-> Organization <-[:OPERATED_BY]- candidate",
+      "organization": "충청남도 천안시",
+      "org_type": "지방자치단체",
+      "operator_raw_name": "충청남도 천안시청",
+      "anchor_operator_raw_name": "충청남도 천안시청",
+      "relation": "OPERATED_BY",
+      "verification_status": "SOURCE_RECORDED",
+      "facility_type": "기념관",
+      "source_scope": "graph_properties",
+      "metadata": {},
+      "chunk_id": "",
+      "retrievers": [
+        "graph"
+      ],
+      "evidence_id": "E5",
+      "retrieval_branch": "graph",
+      "rank": 5
+    },
+    {
+      "museum_id": "M0715",
+      "name": "이동녕기념관",
+      "text": "{anchor_raw_name: 충청남도 천안시청, candidate_raw_name: 충청남도 천안시청, org_key: 충청남도천안시, organization: 충청남도 천안시, relation: OPERATED_BY, verification_status: SOURCE_RECORDED}",
+      "span_id": "",
+      "source_doc_ids": [
+        "DOC-B0715-BASE"
+      ],
+      "source_urls": [],
+      "source_url": "",
+      "source_locators": [
+        "data/raw/museum_base_1070.csv#row=716"
+      ],
+      "source_locator": "data/raw/museum_base_1070.csv#row=716",
+      "sido": "충청남도",
+      "sigungu": "천안시",
+      "retriever": "graph",
+      "graph_path": "anchor -[:OPERATED_BY]-> Organization <-[:OPERATED_BY]- candidate",
+      "organization": "충청남도 천안시",
+      "org_type": "지방자치단체",
+      "operator_raw_name": "충청남도 천안시청",
+      "anchor_operator_raw_name": "충청남도 천안시청",
+      "relation": "OPERATED_BY",
+      "verification_status": "SOURCE_RECORDED",
+      "facility_type": "기념관",
+      "source_scope": "graph_properties",
+      "metadata": {},
+      "chunk_id": "",
+      "retrievers": [
+        "graph"
+      ],
+      "evidence_id": "E6",
+      "retrieval_branch": "graph",
+      "rank": 6
+    },
+    {
+      "museum_id": "M0717",
+      "name": "천안흥타령관",
+      "text": "{anchor_raw_name: 충청남도 천안시청, candidate_raw_name: 충청남도 천안시청, org_key: 충청남도천안시, organization: 충청남도 천안시, relation: OPERATED_BY, verification_status: SOURCE_RECORDED}",
+      "span_id": "",
+      "source_doc_ids": [
+        "DOC-B0717-BASE"
+      ],
+      "source_urls": [],
+      "source_url": "",
+      "source_locators": [
+        "data/raw/museum_base_1070.csv#row=718"
+      ],
+      "source_locator": "data/raw/museum_base_1070.csv#row=718",
+      "sido": "충청남도",
+      "sigungu": "천안시",
+      "retriever": "graph",
+      "graph_path": "anchor -[:OPERATED_BY]-> Organization <-[:OPERATED_BY]- candidate",
+      "organization": "충청남도 천안시",
+      "org_type": "지방자치단체",
+      "operator_raw_name": "충청남도 천안시청",
+      "anchor_operator_raw_name": "충청남도 천안시청",
+      "relation": "OPERATED_BY",
+      "verification_status": "SOURCE_RECORDED",
+      "facility_type": "전시관",
+      "source_scope": "graph_properties",
+      "metadata": {},
+      "chunk_id": "",
+      "retrievers": [
+        "graph"
+      ],
+      "evidence_id": "E7",
+      "retrieval_branch": "graph",
+      "rank": 7
+    }
+  ],
+  "answer": "천안박물관과 같은 운영기관(기록상 충청남도 천안시청)이 운영하는 곳은 **유관순열사기념관**입니다. [E4][E5] 전시관에서 유관순 열사의 유품·사진·영상자료 등을 볼 수 있습니다. [E1]",
+  "retrieval_status": "ok",
+  "answer_status": "answered",
+  "route": "combined",
+  "retry_count": 0,
+  "supervisor_verified": true,
+  "rerank_applied": true,
+  "retriever_errors": [],
+  "warnings": [
+    "Only 3 candidates available; no artificial padding"
+  ],
+  "duration_ms": 80292.67,
+  "error_type": "",
+  "hit_at_1": 1,
+  "hit_at_3": 1,
+  "hit_at_5": 1,
+  "recall_at_5": 1.0,
+  "mrr_at_10": 1.0
+}

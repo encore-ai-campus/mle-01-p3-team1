@@ -1,0 +1,826 @@
+{
+  "mode": "supervisor_full",
+  "question_id": "Q006",
+  "evidence": [
+    {
+      "museum_id": "M0013",
+      "name": "거창박물관",
+      "document": "거창박물관은 거창을 너무나 사랑했던 고(故) 최남식, 김태순 두 분의 기증 유물 1,000여 점이 계기가 되어 1988년 5월 20일 당시 군 단위 최초로 개관한 공립박물관이다. 이후 2009년 3월 30일에 보수했고, 지금의 모습으로 새롭게 변신했다. 전시품 대부분이 거창지역에서 출토 전래된 자료들로 지역색을 잘 나타내고 있고, 채색본 대동여지도(大東輿地圖)와 둔마리 벽화고분을 비롯하여 가야토기, 고려자기, 조선백자, 선현유품, 생활민속품 등이 다양하게 종류별로 전시되어 있다. 거창의 역사 유물을 한눈에 살필 수 있는 거창박물관은 한옥구조의 2층 건물로, 전시실과 별관, 문화센터, 야외공연장 등으로 이루어져 있다. 거창 향토 사학자 최남식+김태순 두 분의 기증유물 1000점으로 1988. 5. 20. 건립된 군단위 최초 공립박물관",
+      "metadata": {
+        "fee_notes": "전부무료",
+        "holiday_close": "17:00",
+        "ownership_type": "공립",
+        "homepage_url": "http://www.geochang.go.kr/museum/Index.do",
+        "child_fee": 0.0,
+        "sigungu": "거창군",
+        "image_copyright": "Type1",
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "requires_manual_review": true,
+        "youth_fee": 0.0,
+        "transport_notes": "농어촌버스 : 남상·춘전선(홈페이지 참조)+도보 : 거창군청 ↔ 박물관(500m)",
+        "adult_fee": 0.0,
+        "weekday_close": "17:00",
+        "weekday_open": "09:00",
+        "address": "경상남도 거창군 거창읍 수남로 2181",
+        "holiday_open": "09:00",
+        "source_types": "BASE|TOUR_API",
+        "longitude": 127.9103127,
+        "name": "거창박물관",
+        "sido": "경상남도",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/39/4111639_image2_1.JPG",
+        "amenities_raw": "야외화장실",
+        "latitude": 35.67430045,
+        "closure_rule_raw": "월+1월 1일+설 당일+추석 당일"
+      },
+      "vector_rank": 1,
+      "bm25_rank": 1,
+      "vector_distance": 0.3124290108680725,
+      "vector_score": null,
+      "bm25_score": 23.61075548932592,
+      "vector_document": "거창박물관은 거창을 너무나 사랑했던 고(故) 최남식, 김태순 두 분의 기증 유물 1,000여 점이 계기가 되어 1988년 5월 20일 당시 군 단위 최초로 개관한 공립박물관이다. 이후 2009년 3월 30일에 보수했고, 지금의 모습으로 새롭게 변신했다. 전시품 대부분이 거창지역에서 출토 전래된 자료들로 지역색을 잘 나타내고 있고, 채색본 대동여지도(大東輿地圖)와 둔마리 벽화고분을 비롯하여 가야토기, 고려자기, 조선백자, 선현유품, 생활민속품 등이 다양하게 종류별로 전시되어 있다. 거창의 역사 유물을 한눈에 살필 수 있는 거창박물관은 한옥구조의 2층 건물로, 전시실과 별관, 문화센터, 야외공연장 등으로 이루어져 있다. 거창 향토 사학자 최남식+김태순 두 분의 기증유물 1000점으로 1988. 5. 20. 건립된 군단위 최초 공립박물관",
+      "bm25_document": "거창박물관은 거창을 너무나 사랑했던 고(故) 최남식, 김태순 두 분의 기증 유물 1,000여 점이 계기가 되어 1988년 5월 20일 당시 군 단위 최초로 개관한 공립박물관이다. 이후 2009년 3월 30일에 보수했고, 지금의 모습으로 새롭게 변신했다. 전시품 대부분이 거창지역에서 출토 전래된 자료들로 지역색을 잘 나타내고 있고, 채색본 대동여지도(大東輿地圖)와 둔마리 벽화고분을 비롯하여 가야토기, 고려자기, 조선백자, 선현유품, 생활민속품 등이 다양하게 종류별로 전시되어 있다. 거창의 역사 유물을 한눈에 살필 수 있는 거창박물관은 한옥구조의 2층 건물로, 전시실과 별관, 문화센터, 야외공연장 등으로 이루어져 있다. 거창 향토 사학자 최남식+김태순 두 분의 기증유물 1000점으로 1988. 5. 20. 건립된 군단위 최초 공립박물관",
+      "best_span_id": "chroma:M0013",
+      "best_span_text": "거창박물관은 거창을 너무나 사랑했던 고(故) 최남식, 김태순 두 분의 기증 유물 1,000여 점이 계기가 되어 1988년 5월 20일 당시 군 단위 최초로 개관한 공립박물관이다. 이후 2009년 3월 30일에 보수했고, 지금의 모습으로 새롭게 변신했다. 전시품 대부분이 거창지역에서 출토 전래된 자료들로 지역색을 잘 나타내고 있고, 채색본 대동여지도(大東輿地圖)와 둔마리 벽화고분을 비롯하여 가야토기, 고려자기, 조선백자, 선현유품, 생활민속품 등이 다양하게 종류별로 전시되어 있다. 거창의 역사 유물을 한눈에 살필 수 있는 거창박물관은 한옥구조의 2층 건물로, 전시실과 별관, 문화센터, 야외공연장 등으로 이루어져 있다. 거창 향토 사학자 최남식+김태순 두 분의 기증유물 1000점으로 1988. 5. 20. 건립된 군단위 최초 공립박물관",
+      "fusion_score": 0.03278688524590164,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 1,
+      "name_match": true,
+      "rerank_score": 0.9999700784683228,
+      "rank": 1,
+      "score": 0.9999700784683228,
+      "score_type": "cross_encoder",
+      "distance": 0.3124290108680725,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0013",
+      "source_doc_ids": [
+        "DOC-B0013-TOUR_API-130084",
+        "DOC-B0013-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0013-TOUR_API-130084",
+          "source_type": "TOUR_API",
+          "source_record_id": "130084",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=11",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        },
+        {
+          "doc_id": "DOC-B0013-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0013",
+          "source_locator": "data/raw/museum_base_1070.csv#row=14",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 99,
+          "doc_ids": [
+            "DOC-B0013-TOUR_API-130084"
+          ]
+        },
+        {
+          "start": 100,
+          "end": 141,
+          "doc_ids": [
+            "DOC-B0013-TOUR_API-130084"
+          ]
+        },
+        {
+          "start": 142,
+          "end": 270,
+          "doc_ids": [
+            "DOC-B0013-TOUR_API-130084"
+          ]
+        },
+        {
+          "start": 271,
+          "end": 348,
+          "doc_ids": [
+            "DOC-B0013-TOUR_API-130084"
+          ]
+        },
+        {
+          "start": 349,
+          "end": 390,
+          "doc_ids": [
+            "DOC-B0013-BASE"
+          ]
+        },
+        {
+          "start": 391,
+          "end": 393,
+          "doc_ids": [
+            "DOC-B0013-BASE"
+          ]
+        },
+        {
+          "start": 394,
+          "end": 397,
+          "doc_ids": [
+            "DOC-B0013-BASE"
+          ]
+        },
+        {
+          "start": 398,
+          "end": 414,
+          "doc_ids": [
+            "DOC-B0013-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=11",
+      "text": "거창박물관은 거창을 너무나 사랑했던 고(故) 최남식, 김태순 두 분의 기증 유물 1,000여 점이 계기가 되어 1988년 5월 20일 당시 군 단위 최초로 개관한 공립박물관이다. 이후 2009년 3월 30일에 보수했고, 지금의 모습으로 새롭게 변신했다. 전시품 대부분이 거창지역에서 출토 전래된 자료들로 지역색을 잘 나타내고 있고, 채색본 대동여지도(大東輿地圖)와 둔마리 벽화고분을 비롯하여 가야토기, 고려자기, 조선백자, 선현유품, 생활민속품 등이 다양하게 종류별로 전시되어 있다. 거창의 역사 유물을 한눈에 살필 수 있는 거창박물관은 한옥구조의 2층 건물로, 전시실과 별관, 문화센터, 야외공연장 등으로 이루어져 있다. 거창 향토 사학자 최남식+김태순 두 분의 기증유물 1000점으로 1988. 5. 20. 건립된 군단위 최초 공립박물관",
+      "sido": "경상남도",
+      "sigungu": "거창군",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=11"
+      ],
+      "evidence_id": "E1",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=13",
+        "fields": {
+          "name": "거창박물관",
+          "sido": "경상남도",
+          "sigungu": "거창군",
+          "address": "경상남도 거창군 거창읍 수남로 2181",
+          "ownership_type": "공립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "09:00",
+          "weekday_close": "17:00",
+          "holiday_open": "09:00",
+          "holiday_close": "17:00",
+          "closure_rule_raw": "월+1월 1일+설 당일+추석 당일",
+          "amenities_raw": "야외화장실"
+        },
+        "base_data_date": "2026-09-01",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0004",
+      "name": "인천광역시립박물관",
+      "document": "인천광역시립박물관은 1946년 개관한 우리나라 최초의 공립박물관이다. 한국전쟁으로 건물이 소실됐다가 1953년 복원되었고, 1990년 지금의 위치로 이전 개관하여 2006년 리모델링 후 재개관했다. 박물관은 지하 1층과 지상 3층, 야외전시장으로 조성되어 있다. 1층과 2층의 역사실에서는 선사시대에서 조선시대 이후 1945년 광복 때까지의 역사 문물들을 전시하고 있다. 특히 개항이라는 역사적 사건에 있었던 인천의 과거와 현재를 살펴볼 수 있는 자료들이 방대하다. 박물관에 기증, 기탁된 유물을 선별 전시하는 기증실과 시기별로 특별 전시를 진행하는 기획전시실도 볼거리가 많다. 공예실, 서예실, 야외 전시장까지 알찬 전시가 이어진다. 고인돌, 삼층석탑, 조난비 같은 유물과 더불어 인천 시민들의 추억을 실은 옛 수인선 협궤 객차가 전시되어 있다. 인천의 역사와 문화유산을 보존하고 다양한 교육과 체험의 기회를 제공하는 프로그램도 운영하고 있다. 바로 옆에 인천상륙작전기념관이 위치해 있다. 인천광역시립박물관은 1946년 4월 개관한 우리나라 최초의 공립박물관으로 인천지역의 향토사와 문화유산을 조사, 연구하고 그 결과를 시민들에게 공개하여, 시민들을 위한 시민들의 공간으로 만들자는 취지로 설립되었습니다.",
+      "metadata": {
+        "name": "인천광역시립박물관",
+        "sigungu": "연수구",
+        "ownership_type": "공립",
+        "adult_fee": 0.0,
+        "holiday_close": "18:00",
+        "source_types": "BASE|TOUR_API",
+        "closure_rule_raw": "매주 월요일(공휴일인 월요일 제외), 1월 1일",
+        "address": "인천광역시 연수구 청량로160번길 26",
+        "requires_manual_review": true,
+        "holiday_open": "09:00",
+        "longitude": 126.6531798,
+        "weekday_open": "09:00",
+        "homepage_url": "https://www.incheon.go.kr/museum/MU010102",
+        "latitude": 37.4205183287,
+        "weekday_close": "18:00",
+        "sido": "인천광역시",
+        "child_fee": 0.0,
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "image_copyright": "Type1",
+        "youth_fee": 0.0,
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/45/4056045_image2_1.jpg"
+      },
+      "vector_rank": 2,
+      "bm25_rank": 7,
+      "vector_distance": 0.40838223695755005,
+      "vector_score": null,
+      "bm25_score": 7.71045468590341,
+      "vector_document": "인천광역시립박물관은 1946년 개관한 우리나라 최초의 공립박물관이다. 한국전쟁으로 건물이 소실됐다가 1953년 복원되었고, 1990년 지금의 위치로 이전 개관하여 2006년 리모델링 후 재개관했다. 박물관은 지하 1층과 지상 3층, 야외전시장으로 조성되어 있다. 1층과 2층의 역사실에서는 선사시대에서 조선시대 이후 1945년 광복 때까지의 역사 문물들을 전시하고 있다. 특히 개항이라는 역사적 사건에 있었던 인천의 과거와 현재를 살펴볼 수 있는 자료들이 방대하다. 박물관에 기증, 기탁된 유물을 선별 전시하는 기증실과 시기별로 특별 전시를 진행하는 기획전시실도 볼거리가 많다. 공예실, 서예실, 야외 전시장까지 알찬 전시가 이어진다. 고인돌, 삼층석탑, 조난비 같은 유물과 더불어 인천 시민들의 추억을 실은 옛 수인선 협궤 객차가 전시되어 있다. 인천의 역사와 문화유산을 보존하고 다양한 교육과 체험의 기회를 제공하는 프로그램도 운영하고 있다. 바로 옆에 인천상륙작전기념관이 위치해 있다. 인천광역시립박물관은 1946년 4월 개관한 우리나라 최초의 공립박물관으로 인천지역의 향토사와 문화유산을 조사, 연구하고 그 결과를 시민들에게 공개하여, 시민들을 위한 시민들의 공간으로 만들자는 취지로 설립되었습니다.",
+      "bm25_document": "인천광역시립박물관은 1946년 개관한 우리나라 최초의 공립박물관이다. 한국전쟁으로 건물이 소실됐다가 1953년 복원되었고, 1990년 지금의 위치로 이전 개관하여 2006년 리모델링 후 재개관했다. 박물관은 지하 1층과 지상 3층, 야외전시장으로 조성되어 있다. 1층과 2층의 역사실에서는 선사시대에서 조선시대 이후 1945년 광복 때까지의 역사 문물들을 전시하고 있다. 특히 개항이라는 역사적 사건에 있었던 인천의 과거와 현재를 살펴볼 수 있는 자료들이 방대하다. 박물관에 기증, 기탁된 유물을 선별 전시하는 기증실과 시기별로 특별 전시를 진행하는 기획전시실도 볼거리가 많다. 공예실, 서예실, 야외 전시장까지 알찬 전시가 이어진다. 고인돌, 삼층석탑, 조난비 같은 유물과 더불어 인천 시민들의 추억을 실은 옛 수인선 협궤 객차가 전시되어 있다. 인천의 역사와 문화유산을 보존하고 다양한 교육과 체험의 기회를 제공하는 프로그램도 운영하고 있다. 바로 옆에 인천상륙작전기념관이 위치해 있다. 인천광역시립박물관은 1946년 4월 개관한 우리나라 최초의 공립박물관으로 인천지역의 향토사와 문화유산을 조사, 연구하고 그 결과를 시민들에게 공개하여, 시민들을 위한 시민들의 공간으로 만들자는 취지로 설립되었습니다.",
+      "best_span_id": "chroma:M0004",
+      "best_span_text": "인천광역시립박물관은 1946년 개관한 우리나라 최초의 공립박물관이다. 한국전쟁으로 건물이 소실됐다가 1953년 복원되었고, 1990년 지금의 위치로 이전 개관하여 2006년 리모델링 후 재개관했다. 박물관은 지하 1층과 지상 3층, 야외전시장으로 조성되어 있다. 1층과 2층의 역사실에서는 선사시대에서 조선시대 이후 1945년 광복 때까지의 역사 문물들을 전시하고 있다. 특히 개항이라는 역사적 사건에 있었던 인천의 과거와 현재를 살펴볼 수 있는 자료들이 방대하다. 박물관에 기증, 기탁된 유물을 선별 전시하는 기증실과 시기별로 특별 전시를 진행하는 기획전시실도 볼거리가 많다. 공예실, 서예실, 야외 전시장까지 알찬 전시가 이어진다. 고인돌, 삼층석탑, 조난비 같은 유물과 더불어 인천 시민들의 추억을 실은 옛 수인선 협궤 객차가 전시되어 있다. 인천의 역사와 문화유산을 보존하고 다양한 교육과 체험의 기회를 제공하는 프로그램도 운영하고 있다. 바로 옆에 인천상륙작전기념관이 위치해 있다. 인천광역시립박물관은 1946년 4월 개관한 우리나라 최초의 공립박물관으로 인천지역의 향토사와 문화유산을 조사, 연구하고 그 결과를 시민들에게 공개하여, 시민들을 위한 시민들의 공간으로 만들자는 취지로 설립되었습니다.",
+      "fusion_score": 0.031054405392392875,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 3,
+      "rerank_score": 0.029373502358794212,
+      "rank": 2,
+      "score": 0.029373502358794212,
+      "score_type": "cross_encoder",
+      "distance": 0.40838223695755005,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0004",
+      "source_doc_ids": [
+        "DOC-B0004-TOUR_API-129773",
+        "DOC-B0004-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0004-TOUR_API-129773",
+          "source_type": "TOUR_API",
+          "source_record_id": "129773",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=4",
+          "match_trust": "RECHECKED_BY_RULE_NOT_HUMAN_APPROVED"
+        },
+        {
+          "doc_id": "DOC-B0004-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0004",
+          "source_locator": "data/raw/museum_base_1070.csv#row=5",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 38,
+          "doc_ids": [
+            "DOC-B0004-TOUR_API-129773"
+          ]
+        },
+        {
+          "start": 39,
+          "end": 110,
+          "doc_ids": [
+            "DOC-B0004-TOUR_API-129773"
+          ]
+        },
+        {
+          "start": 111,
+          "end": 146,
+          "doc_ids": [
+            "DOC-B0004-TOUR_API-129773"
+          ]
+        },
+        {
+          "start": 147,
+          "end": 207,
+          "doc_ids": [
+            "DOC-B0004-TOUR_API-129773"
+          ]
+        },
+        {
+          "start": 208,
+          "end": 260,
+          "doc_ids": [
+            "DOC-B0004-TOUR_API-129773"
+          ]
+        },
+        {
+          "start": 261,
+          "end": 323,
+          "doc_ids": [
+            "DOC-B0004-TOUR_API-129773"
+          ]
+        },
+        {
+          "start": 324,
+          "end": 355,
+          "doc_ids": [
+            "DOC-B0004-TOUR_API-129773"
+          ]
+        },
+        {
+          "start": 356,
+          "end": 418,
+          "doc_ids": [
+            "DOC-B0004-TOUR_API-129773"
+          ]
+        },
+        {
+          "start": 419,
+          "end": 473,
+          "doc_ids": [
+            "DOC-B0004-TOUR_API-129773"
+          ]
+        },
+        {
+          "start": 474,
+          "end": 498,
+          "doc_ids": [
+            "DOC-B0004-TOUR_API-129773"
+          ]
+        },
+        {
+          "start": 499,
+          "end": 619,
+          "doc_ids": [
+            "DOC-B0004-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=4",
+      "text": "인천광역시립박물관은 1946년 개관한 우리나라 최초의 공립박물관이다. 한국전쟁으로 건물이 소실됐다가 1953년 복원되었고, 1990년 지금의 위치로 이전 개관하여 2006년 리모델링 후 재개관했다. 박물관은 지하 1층과 지상 3층, 야외전시장으로 조성되어 있다. 1층과 2층의 역사실에서는 선사시대에서 조선시대 이후 1945년 광복 때까지의 역사 문물들을 전시하고 있다. 특히 개항이라는 역사적 사건에 있었던 인천의 과거와 현재를 살펴볼 수 있는 자료들이 방대하다. 박물관에 기증, 기탁된 유물을 선별 전시하는 기증실과 시기별로 특별 전시를 진행하는 기획전시실도 볼거리가 많다. 공예실, 서예실, 야외 전시장까지 알찬 전시가 이어진다. 고인돌, 삼층석탑, 조난비 같은 유물과 더불어 인천 시민들의 추억을 실은 옛 수인선 협궤 객차가 전시되어 있다. 인천의 역사와 문화유산을 보존하고 다양한 교육과 체험의 기회를 제공하는 프로그램도 운영하고 있다. 바로 옆에 인천상륙작전기념관이 위치해 있다. 인천광역시립박물관은 1946년 4월 개관한 우리나라 최초의 공립박물관으로 인천지역의 향토사와 문화유산을 조사, 연구하고 그 결과를 시민들에게 공개하여, 시민들을 위한 시민들의 공간으로 만들자는 취지로 설립되었습니다.",
+      "sido": "인천광역시",
+      "sigungu": "연수구",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=4"
+      ],
+      "evidence_id": "E2",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=4",
+        "fields": {
+          "name": "인천광역시립박물관",
+          "sido": "인천광역시",
+          "sigungu": "연수구",
+          "address": "인천광역시 연수구 청량로160번길 26",
+          "ownership_type": "공립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "09:00",
+          "weekday_close": "18:00",
+          "holiday_open": "09:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "매주 월요일(공휴일인 월요일 제외), 1월 1일"
+        },
+        "base_data_date": "2026-09-18",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0203",
+      "name": "영일민속박물관",
+      "document": "영일민속박물관은 점차 사라져 가는 민속유물을 보존하고 이를 후세의 교육 자료로 활용하기 위해 건립된 박물관이다. 경상북도 영일군과 영일문화원이 공동으로 조선 말 흥해군 동헌이었던 제남헌을 수리하여 1983년 10월 29일 개관하였다. 이후 1985년 제2전시실을 신축하여 1987년 6월 군 단위 민속박물관으로서는 국내 최초로 준 박물관으로 지정되었다. 제1전시실, 제남헌, 제2전시실 등의 시설이 있으며 야외에는 초가와 연자방아 등이 설치되어 있다. 전시된 민속유물로는 질그릇, 도자기 등의 토기류, 관혼상제 및 의관류, 베틀과 토기 항아리와 같은 생활용구류 그리고 제남헌과 골패, 비석과 같은 기타 유물이 있다. 이 외에도 지게와 도리깨, 절구, 그물 등 농어업 기계류와 조선건국사집과 칙명, 교지, 각종 시집 등 고서적류 역시 전시되어 있다. 향토풍습 및 민속유물을 영구보존하고자 지역 주민등의 뜻을 모아 구 영일군과 영일문화원이 공동으로 헌종 원년(1835년)에 건립된 당시 흥해군의 동헌 건물이었던 제남헌을 수리하여 1983년 10월29일 개관이후 1985년 5월 제2전시실을 신축하여 민속박물관으로서는 국내최초로 1987년 6월 30일 문화부로 부터 박물관으로 지정됨.",
+      "metadata": {
+        "closure_rule_raw": "1월1일+공휴일 다음일+설 연휴+추석 연휴",
+        "ownership_type": "공립",
+        "homepage_url": "http://www.pohang.go.kr",
+        "longitude": 129.3471966,
+        "sido": "경상북도",
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "address": "경상북도 포항시 북구 흥해읍 한동로 51",
+        "holiday_close": "18:00",
+        "latitude": 36.110838,
+        "adult_fee": 0.0,
+        "weekday_close": "18:00",
+        "name": "영일민속박물관",
+        "weekday_open": "09:00",
+        "sigungu": "포항시",
+        "transport_notes": "시내에서 급행버스 5000번 이용. 흥해환승센터 하차",
+        "source_types": "BASE|TOUR_API",
+        "youth_fee": 0.0,
+        "child_fee": 0.0,
+        "requires_manual_review": true,
+        "holiday_open": "09:00"
+      },
+      "vector_rank": 6,
+      "bm25_rank": 2,
+      "vector_distance": 0.4441620707511902,
+      "vector_score": null,
+      "bm25_score": 11.166686840577997,
+      "vector_document": "영일민속박물관은 점차 사라져 가는 민속유물을 보존하고 이를 후세의 교육 자료로 활용하기 위해 건립된 박물관이다. 경상북도 영일군과 영일문화원이 공동으로 조선 말 흥해군 동헌이었던 제남헌을 수리하여 1983년 10월 29일 개관하였다. 이후 1985년 제2전시실을 신축하여 1987년 6월 군 단위 민속박물관으로서는 국내 최초로 준 박물관으로 지정되었다. 제1전시실, 제남헌, 제2전시실 등의 시설이 있으며 야외에는 초가와 연자방아 등이 설치되어 있다. 전시된 민속유물로는 질그릇, 도자기 등의 토기류, 관혼상제 및 의관류, 베틀과 토기 항아리와 같은 생활용구류 그리고 제남헌과 골패, 비석과 같은 기타 유물이 있다. 이 외에도 지게와 도리깨, 절구, 그물 등 농어업 기계류와 조선건국사집과 칙명, 교지, 각종 시집 등 고서적류 역시 전시되어 있다. 향토풍습 및 민속유물을 영구보존하고자 지역 주민등의 뜻을 모아 구 영일군과 영일문화원이 공동으로 헌종 원년(1835년)에 건립된 당시 흥해군의 동헌 건물이었던 제남헌을 수리하여 1983년 10월29일 개관이후 1985년 5월 제2전시실을 신축하여 민속박물관으로서는 국내최초로 1987년 6월 30일 문화부로 부터 박물관으로 지정됨.",
+      "bm25_document": "영일민속박물관은 점차 사라져 가는 민속유물을 보존하고 이를 후세의 교육 자료로 활용하기 위해 건립된 박물관이다. 경상북도 영일군과 영일문화원이 공동으로 조선 말 흥해군 동헌이었던 제남헌을 수리하여 1983년 10월 29일 개관하였다. 이후 1985년 제2전시실을 신축하여 1987년 6월 군 단위 민속박물관으로서는 국내 최초로 준 박물관으로 지정되었다. 제1전시실, 제남헌, 제2전시실 등의 시설이 있으며 야외에는 초가와 연자방아 등이 설치되어 있다. 전시된 민속유물로는 질그릇, 도자기 등의 토기류, 관혼상제 및 의관류, 베틀과 토기 항아리와 같은 생활용구류 그리고 제남헌과 골패, 비석과 같은 기타 유물이 있다. 이 외에도 지게와 도리깨, 절구, 그물 등 농어업 기계류와 조선건국사집과 칙명, 교지, 각종 시집 등 고서적류 역시 전시되어 있다. 향토풍습 및 민속유물을 영구보존하고자 지역 주민등의 뜻을 모아 구 영일군과 영일문화원이 공동으로 헌종 원년(1835년)에 건립된 당시 흥해군의 동헌 건물이었던 제남헌을 수리하여 1983년 10월29일 개관이후 1985년 5월 제2전시실을 신축하여 민속박물관으로서는 국내최초로 1987년 6월 30일 문화부로 부터 박물관으로 지정됨.",
+      "best_span_id": "chroma:M0203",
+      "best_span_text": "영일민속박물관은 점차 사라져 가는 민속유물을 보존하고 이를 후세의 교육 자료로 활용하기 위해 건립된 박물관이다. 경상북도 영일군과 영일문화원이 공동으로 조선 말 흥해군 동헌이었던 제남헌을 수리하여 1983년 10월 29일 개관하였다. 이후 1985년 제2전시실을 신축하여 1987년 6월 군 단위 민속박물관으로서는 국내 최초로 준 박물관으로 지정되었다. 제1전시실, 제남헌, 제2전시실 등의 시설이 있으며 야외에는 초가와 연자방아 등이 설치되어 있다. 전시된 민속유물로는 질그릇, 도자기 등의 토기류, 관혼상제 및 의관류, 베틀과 토기 항아리와 같은 생활용구류 그리고 제남헌과 골패, 비석과 같은 기타 유물이 있다. 이 외에도 지게와 도리깨, 절구, 그물 등 농어업 기계류와 조선건국사집과 칙명, 교지, 각종 시집 등 고서적류 역시 전시되어 있다. 향토풍습 및 민속유물을 영구보존하고자 지역 주민등의 뜻을 모아 구 영일군과 영일문화원이 공동으로 헌종 원년(1835년)에 건립된 당시 흥해군의 동헌 건물이었던 제남헌을 수리하여 1983년 10월29일 개관이후 1985년 5월 제2전시실을 신축하여 민속박물관으로서는 국내최초로 1987년 6월 30일 문화부로 부터 박물관으로 지정됨.",
+      "fusion_score": 0.03128054740957967,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 2,
+      "rerank_score": 0.024841081351041794,
+      "rank": 3,
+      "score": 0.024841081351041794,
+      "score_type": "cross_encoder",
+      "distance": 0.4441620707511902,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0203",
+      "source_doc_ids": [
+        "DOC-B0203-TOUR_API-130083",
+        "DOC-B0203-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0203-TOUR_API-130083",
+          "source_type": "TOUR_API",
+          "source_record_id": "130083",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=98",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        },
+        {
+          "doc_id": "DOC-B0203-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0203",
+          "source_locator": "data/raw/museum_base_1070.csv#row=204",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 62,
+          "doc_ids": [
+            "DOC-B0203-TOUR_API-130083"
+          ]
+        },
+        {
+          "start": 63,
+          "end": 130,
+          "doc_ids": [
+            "DOC-B0203-TOUR_API-130083"
+          ]
+        },
+        {
+          "start": 131,
+          "end": 197,
+          "doc_ids": [
+            "DOC-B0203-TOUR_API-130083"
+          ]
+        },
+        {
+          "start": 198,
+          "end": 252,
+          "doc_ids": [
+            "DOC-B0203-TOUR_API-130083"
+          ]
+        },
+        {
+          "start": 253,
+          "end": 344,
+          "doc_ids": [
+            "DOC-B0203-TOUR_API-130083"
+          ]
+        },
+        {
+          "start": 345,
+          "end": 418,
+          "doc_ids": [
+            "DOC-B0203-TOUR_API-130083"
+          ]
+        },
+        {
+          "start": 419,
+          "end": 604,
+          "doc_ids": [
+            "DOC-B0203-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=98",
+      "text": "영일민속박물관은 점차 사라져 가는 민속유물을 보존하고 이를 후세의 교육 자료로 활용하기 위해 건립된 박물관이다. 경상북도 영일군과 영일문화원이 공동으로 조선 말 흥해군 동헌이었던 제남헌을 수리하여 1983년 10월 29일 개관하였다. 이후 1985년 제2전시실을 신축하여 1987년 6월 군 단위 민속박물관으로서는 국내 최초로 준 박물관으로 지정되었다. 제1전시실, 제남헌, 제2전시실 등의 시설이 있으며 야외에는 초가와 연자방아 등이 설치되어 있다. 전시된 민속유물로는 질그릇, 도자기 등의 토기류, 관혼상제 및 의관류, 베틀과 토기 항아리와 같은 생활용구류 그리고 제남헌과 골패, 비석과 같은 기타 유물이 있다. 이 외에도 지게와 도리깨, 절구, 그물 등 농어업 기계류와 조선건국사집과 칙명, 교지, 각종 시집 등 고서적류 역시 전시되어 있다. 향토풍습 및 민속유물을 영구보존하고자 지역 주민등의 뜻을 모아 구 영일군과 영일문화원이 공동으로 헌종 원년(1835년)에 건립된 당시 흥해군의 동헌 건물이었던 제남헌을 수리하여 1983년 10월29일 개관이후 1985년 5월 제2전시실을 신축하여 민속박물관으로서는 국내최초로 1987년 6월 30일 문화부로 부터 박물관으로 지정됨.",
+      "sido": "경상북도",
+      "sigungu": "포항시",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=98"
+      ],
+      "evidence_id": "E3",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=132",
+        "fields": {
+          "name": "영일민속박물관",
+          "sido": "경상북도",
+          "sigungu": "포항시",
+          "address": "경상북도 포항시 북구 흥해읍 한동로 51",
+          "ownership_type": "공립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "09:00",
+          "weekday_close": "18:00",
+          "holiday_open": "09:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "1월1일+공휴일 다음일+설 연휴+추석 연휴"
+        },
+        "base_data_date": "2026-08-20",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0592",
+      "name": "진영역철도박물관",
+      "document": "진영역철도박물관은 1905년 군용 철도로 개통되어 100여 년이 넘는 시간 동안 지금의 자리를 지켜온 옛 진영역을 새롭게 단장하여 개관한 국내 최초 등록 공립 철도박물관이다. 옛 진영역은 경전선의 지선인 마산선 건립 시기부터 물류수송의 중심지로서 물류와 사람이 바삐 드나드는 장소였으나, 2010년 경전선 복선화 사업의 일환으로 지금의 KTX 진영역이 건립되면서 그 역할을 내어주고 폐선 하게 되었다. 그 후 한동안 방치되어 있던 옛 역사(驛舍)는 진영 소도읍 재활 사업을 통해 역 일대는 공원으로, 옛 진영역은 박물관으로 개관하여 김해의 근현대 모습을 보여주는 새로운 문화공간으로 조성되어 다시금 많은 사람들이 찾는 관광지로 사랑받고 있다. 진영의 역사(歷史)를 품은 국내 최초 공립 등록 철도박물관",
+      "metadata": {
+        "sigungu": "김해시",
+        "ownership_type": "공립",
+        "youth_fee": 0.0,
+        "longitude": 128.7304017,
+        "amenities_raw": "공원",
+        "homepage_url": "https://blog.naver.com/jinyeongmuseum",
+        "child_fee": 0.0,
+        "latitude": 35.303587,
+        "source_types": "BASE|TOUR_API",
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "adult_fee": 0.0,
+        "weekday_close": "18:00",
+        "name": "진영역철도박물관",
+        "holiday_open": "09:00",
+        "weekday_open": "09:00",
+        "holiday_close": "18:00",
+        "requires_manual_review": true,
+        "closure_rule_raw": "월요일(공휴일인 월요일은 운영, 다음날 휴관)+1월1일+설 당일+추석 당일",
+        "image_copyright": "Type1",
+        "transport_notes": "김해 출발 버스 : 140 중구 정류소 하차+버스 : 44, 56 진영단감농협 정류소 하차",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/57/3537957_image2_1.jpg",
+        "sido": "경상남도",
+        "address": "경상남도 김해시 진영읍 진영로 145-1"
+      },
+      "vector_rank": 20,
+      "bm25_rank": 9,
+      "vector_distance": 0.5014398097991943,
+      "vector_score": null,
+      "bm25_score": 7.586437975471286,
+      "vector_document": "진영역철도박물관은 1905년 군용 철도로 개통되어 100여 년이 넘는 시간 동안 지금의 자리를 지켜온 옛 진영역을 새롭게 단장하여 개관한 국내 최초 등록 공립 철도박물관이다. 옛 진영역은 경전선의 지선인 마산선 건립 시기부터 물류수송의 중심지로서 물류와 사람이 바삐 드나드는 장소였으나, 2010년 경전선 복선화 사업의 일환으로 지금의 KTX 진영역이 건립되면서 그 역할을 내어주고 폐선 하게 되었다. 그 후 한동안 방치되어 있던 옛 역사(驛舍)는 진영 소도읍 재활 사업을 통해 역 일대는 공원으로, 옛 진영역은 박물관으로 개관하여 김해의 근현대 모습을 보여주는 새로운 문화공간으로 조성되어 다시금 많은 사람들이 찾는 관광지로 사랑받고 있다. 진영의 역사(歷史)를 품은 국내 최초 공립 등록 철도박물관",
+      "bm25_document": "진영역철도박물관은 1905년 군용 철도로 개통되어 100여 년이 넘는 시간 동안 지금의 자리를 지켜온 옛 진영역을 새롭게 단장하여 개관한 국내 최초 등록 공립 철도박물관이다. 옛 진영역은 경전선의 지선인 마산선 건립 시기부터 물류수송의 중심지로서 물류와 사람이 바삐 드나드는 장소였으나, 2010년 경전선 복선화 사업의 일환으로 지금의 KTX 진영역이 건립되면서 그 역할을 내어주고 폐선 하게 되었다. 그 후 한동안 방치되어 있던 옛 역사(驛舍)는 진영 소도읍 재활 사업을 통해 역 일대는 공원으로, 옛 진영역은 박물관으로 개관하여 김해의 근현대 모습을 보여주는 새로운 문화공간으로 조성되어 다시금 많은 사람들이 찾는 관광지로 사랑받고 있다. 진영의 역사(歷史)를 품은 국내 최초 공립 등록 철도박물관",
+      "best_span_id": "chroma:M0592",
+      "best_span_text": "진영역철도박물관은 1905년 군용 철도로 개통되어 100여 년이 넘는 시간 동안 지금의 자리를 지켜온 옛 진영역을 새롭게 단장하여 개관한 국내 최초 등록 공립 철도박물관이다. 옛 진영역은 경전선의 지선인 마산선 건립 시기부터 물류수송의 중심지로서 물류와 사람이 바삐 드나드는 장소였으나, 2010년 경전선 복선화 사업의 일환으로 지금의 KTX 진영역이 건립되면서 그 역할을 내어주고 폐선 하게 되었다. 그 후 한동안 방치되어 있던 옛 역사(驛舍)는 진영 소도읍 재활 사업을 통해 역 일대는 공원으로, 옛 진영역은 박물관으로 개관하여 김해의 근현대 모습을 보여주는 새로운 문화공간으로 조성되어 다시금 많은 사람들이 찾는 관광지로 사랑받고 있다. 진영의 역사(歷史)를 품은 국내 최초 공립 등록 철도박물관",
+      "fusion_score": 0.026992753623188405,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 7,
+      "rerank_score": 0.01719069667160511,
+      "rank": 4,
+      "score": 0.01719069667160511,
+      "score_type": "cross_encoder",
+      "distance": 0.5014398097991943,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0592",
+      "source_doc_ids": [
+        "DOC-B0592-TOUR_API-2710793",
+        "DOC-B0592-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0592-TOUR_API-2710793",
+          "source_type": "TOUR_API",
+          "source_record_id": "2710793",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=295",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        },
+        {
+          "doc_id": "DOC-B0592-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0592",
+          "source_locator": "data/raw/museum_base_1070.csv#row=593",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 97,
+          "doc_ids": [
+            "DOC-B0592-TOUR_API-2710793"
+          ]
+        },
+        {
+          "start": 98,
+          "end": 224,
+          "doc_ids": [
+            "DOC-B0592-TOUR_API-2710793"
+          ]
+        },
+        {
+          "start": 225,
+          "end": 359,
+          "doc_ids": [
+            "DOC-B0592-TOUR_API-2710793"
+          ]
+        },
+        {
+          "start": 360,
+          "end": 392,
+          "doc_ids": [
+            "DOC-B0592-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=295",
+      "text": "진영역철도박물관은 1905년 군용 철도로 개통되어 100여 년이 넘는 시간 동안 지금의 자리를 지켜온 옛 진영역을 새롭게 단장하여 개관한 국내 최초 등록 공립 철도박물관이다. 옛 진영역은 경전선의 지선인 마산선 건립 시기부터 물류수송의 중심지로서 물류와 사람이 바삐 드나드는 장소였으나, 2010년 경전선 복선화 사업의 일환으로 지금의 KTX 진영역이 건립되면서 그 역할을 내어주고 폐선 하게 되었다. 그 후 한동안 방치되어 있던 옛 역사(驛舍)는 진영 소도읍 재활 사업을 통해 역 일대는 공원으로, 옛 진영역은 박물관으로 개관하여 김해의 근현대 모습을 보여주는 새로운 문화공간으로 조성되어 다시금 많은 사람들이 찾는 관광지로 사랑받고 있다. 진영의 역사(歷史)를 품은 국내 최초 공립 등록 철도박물관",
+      "sido": "경상남도",
+      "sigungu": "김해시",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=295"
+      ],
+      "evidence_id": "E4",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=412",
+        "fields": {
+          "name": "진영역철도박물관",
+          "sido": "경상남도",
+          "sigungu": "김해시",
+          "address": "경상남도 김해시 진영읍 진영로 145-1",
+          "ownership_type": "공립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "09:00",
+          "weekday_close": "18:00",
+          "holiday_open": "09:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "월요일(공휴일인 월요일은 운영, 다음날 휴관)+1월1일+설 당일+추석 당일",
+          "amenities_raw": "공원"
+        },
+        "base_data_date": "2025-12-24",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0692",
+      "name": "달성화석박물관",
+      "document": "대구 달성화석박물관은 국내 최초의 공립 화석 전문 박물관으로, 2023년에 개관하여 화석에 대한 대중의 관심을 높이고 있다. 다양한 화석과 암석 표본을 전시하고 교육 프로그램을 운영하여 방문객들에게 생생한 지구의 역사를 전달하고 있다. 또한 화석 연구를 위한 기반 시설을 구축하고, 관련 연구를 활성화하여 지구과학 발전에 기여한다. 달성화석박물관은 국내 최초의 공립 화석 전문 박물관으로, 국내에서 발견된 화석을 중심으로 지구의 역사와 생물의 다양성, 생물의 진화 과정에 대하여 전시하고 있습니다.",
+      "metadata": {
+        "requires_manual_review": true,
+        "image_url": "http://tong.visitkorea.or.kr/cms/resource/74/3456774_image2_1.jpg",
+        "sido": "대구광역시",
+        "latitude": 35.68436487,
+        "source_types": "BASE|TOUR_API",
+        "child_fee": 2000.0,
+        "holiday_open": "09:30",
+        "holiday_close": "17:30",
+        "adult_fee_status": "OFFICIAL_CONFIRMED_PAID",
+        "name": "달성화석박물관",
+        "weekday_open": "09:30",
+        "youth_fee": 2000.0,
+        "ownership_type": "공립",
+        "closure_rule_raw": "매주 월요일(공휴일이면 개관 후 다음 평일 휴관), 1월 1일, 설날·추석 당일",
+        "homepage_url": "https://fossilmuseum.dssiseol.or.kr/",
+        "longitude": 128.4622782,
+        "sigungu": "달성군",
+        "fee_notes": "일반 개인 성인 3,000원, 어린이·청소년 2,000원. 달성군민 성인 1,500원·어린이/청소년 1,000원, 6세 이하·65세 이상 등 무료 또는 감면(증빙 필요). 단체 요금 별도.",
+        "transport_notes": "655+665+급행8-1",
+        "adult_fee": 3000.0,
+        "weekday_close": "17:30",
+        "image_copyright": "Type1",
+        "address": "대구광역시 달성군 유가읍 테크노대로6길 66",
+        "amenities_raw": "카페+뮤지엄샵+물품보관소+수유실+자전거보관대"
+      },
+      "vector_rank": 5,
+      "bm25_rank": 5,
+      "vector_distance": 0.435976505279541,
+      "vector_score": null,
+      "bm25_score": 9.616028764191782,
+      "vector_document": "대구 달성화석박물관은 국내 최초의 공립 화석 전문 박물관으로, 2023년에 개관하여 화석에 대한 대중의 관심을 높이고 있다. 다양한 화석과 암석 표본을 전시하고 교육 프로그램을 운영하여 방문객들에게 생생한 지구의 역사를 전달하고 있다. 또한 화석 연구를 위한 기반 시설을 구축하고, 관련 연구를 활성화하여 지구과학 발전에 기여한다. 달성화석박물관은 국내 최초의 공립 화석 전문 박물관으로, 국내에서 발견된 화석을 중심으로 지구의 역사와 생물의 다양성, 생물의 진화 과정에 대하여 전시하고 있습니다.",
+      "bm25_document": "대구 달성화석박물관은 국내 최초의 공립 화석 전문 박물관으로, 2023년에 개관하여 화석에 대한 대중의 관심을 높이고 있다. 다양한 화석과 암석 표본을 전시하고 교육 프로그램을 운영하여 방문객들에게 생생한 지구의 역사를 전달하고 있다. 또한 화석 연구를 위한 기반 시설을 구축하고, 관련 연구를 활성화하여 지구과학 발전에 기여한다. 달성화석박물관은 국내 최초의 공립 화석 전문 박물관으로, 국내에서 발견된 화석을 중심으로 지구의 역사와 생물의 다양성, 생물의 진화 과정에 대하여 전시하고 있습니다.",
+      "best_span_id": "chroma:M0692",
+      "best_span_text": "대구 달성화석박물관은 국내 최초의 공립 화석 전문 박물관으로, 2023년에 개관하여 화석에 대한 대중의 관심을 높이고 있다. 다양한 화석과 암석 표본을 전시하고 교육 프로그램을 운영하여 방문객들에게 생생한 지구의 역사를 전달하고 있다. 또한 화석 연구를 위한 기반 시설을 구축하고, 관련 연구를 활성화하여 지구과학 발전에 기여한다. 달성화석박물관은 국내 최초의 공립 화석 전문 박물관으로, 국내에서 발견된 화석을 중심으로 지구의 역사와 생물의 다양성, 생물의 진화 과정에 대하여 전시하고 있습니다.",
+      "fusion_score": 0.03076923076923077,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 4,
+      "rerank_score": 0.005331879481673241,
+      "rank": 5,
+      "score": 0.005331879481673241,
+      "score_type": "cross_encoder",
+      "distance": 0.435976505279541,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0692",
+      "source_doc_ids": [
+        "DOC-B0692-TOUR_API-3456777",
+        "DOC-B0692-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0692-TOUR_API-3456777",
+          "source_type": "TOUR_API",
+          "source_record_id": "3456777",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=196",
+          "match_trust": "RECHECKED_BY_RULE_NOT_HUMAN_APPROVED"
+        },
+        {
+          "doc_id": "DOC-B0692-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0692",
+          "source_locator": "data/raw/museum_base_1070.csv#row=693",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 69,
+          "doc_ids": [
+            "DOC-B0692-TOUR_API-3456777"
+          ]
+        },
+        {
+          "start": 70,
+          "end": 131,
+          "doc_ids": [
+            "DOC-B0692-TOUR_API-3456777"
+          ]
+        },
+        {
+          "start": 132,
+          "end": 185,
+          "doc_ids": [
+            "DOC-B0692-TOUR_API-3456777"
+          ]
+        },
+        {
+          "start": 186,
+          "end": 278,
+          "doc_ids": [
+            "DOC-B0692-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=196",
+      "text": "대구 달성화석박물관은 국내 최초의 공립 화석 전문 박물관으로, 2023년에 개관하여 화석에 대한 대중의 관심을 높이고 있다. 다양한 화석과 암석 표본을 전시하고 교육 프로그램을 운영하여 방문객들에게 생생한 지구의 역사를 전달하고 있다. 또한 화석 연구를 위한 기반 시설을 구축하고, 관련 연구를 활성화하여 지구과학 발전에 기여한다. 달성화석박물관은 국내 최초의 공립 화석 전문 박물관으로, 국내에서 발견된 화석을 중심으로 지구의 역사와 생물의 다양성, 생물의 진화 과정에 대하여 전시하고 있습니다.",
+      "sido": "대구광역시",
+      "sigungu": "달성군",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=196"
+      ],
+      "evidence_id": "E5",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=480",
+        "fields": {
+          "name": "달성화석박물관",
+          "sido": "대구광역시",
+          "sigungu": "달성군",
+          "address": "대구광역시 달성군 유가읍 테크노대로6길 66",
+          "ownership_type": "공립",
+          "adult_fee": "3000",
+          "youth_fee": "2000",
+          "child_fee": "2000",
+          "adult_fee_status": "OFFICIAL_CONFIRMED_PAID",
+          "weekday_open": "09:30",
+          "weekday_close": "17:30",
+          "holiday_open": "09:30",
+          "holiday_close": "17:30",
+          "closure_rule_raw": "매주 월요일(공휴일이면 개관 후 다음 평일 휴관), 1월 1일, 설날·추석 당일",
+          "amenities_raw": "카페+뮤지엄샵+물품보관소+수유실+자전거보관대"
+        },
+        "base_data_date": "2025-12-10",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    }
+  ],
+  "answer": "거창박물관은 1988년 5월 20일 군 단위 최초의 공립박물관으로 개관했습니다. [E1]",
+  "retrieval_status": "ok",
+  "answer_status": "answered",
+  "route": "hybrid",
+  "retry_count": 0,
+  "supervisor_verified": true,
+  "rerank_applied": true,
+  "retriever_errors": [],
+  "warnings": [],
+  "duration_ms": 173269.14,
+  "error_type": "",
+  "hit_at_1": 1,
+  "hit_at_3": 1,
+  "hit_at_5": 1,
+  "recall_at_5": 1.0,
+  "mrr_at_10": 1.0
+}

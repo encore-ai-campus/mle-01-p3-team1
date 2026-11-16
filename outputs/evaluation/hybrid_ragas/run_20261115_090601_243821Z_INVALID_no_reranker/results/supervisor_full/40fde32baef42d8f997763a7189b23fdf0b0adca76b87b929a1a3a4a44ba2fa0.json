@@ -1,0 +1,768 @@
+{
+  "mode": "supervisor_full",
+  "question_id": "Q260",
+  "evidence": [
+    {
+      "museum_id": "M0448",
+      "name": "전곡선사박물관",
+      "document": "동아시아 최초로 아슐리안형 주먹도끼가 발견되어 세계 구석기 연구의 역사를 다시 쓰게 만든 연천 전곡리 유적에 자리한 유적박물관이다. 1978년 한탄강 변을 찾은 주한미군 그렉 보웬이 우연히 주먹도끼를 발견하면서 알려진 이 유적의 영구적인 보존과 활용을 위해 경기도가 2011년 4월 문을 열었다. 원시 생명체의 곡선을 모티브로 한 은빛 건물이 한탄강 언덕 위에 유려하게 자리해 그 자체로 눈길을 끈다. 전곡리에서 출토된 주먹도끼 등 구석기 유물과 정교한 고인류 복원 모형, 매머드 화석 등 자연사 유물을 바탕으로 진화, 구석기, 환경, 예술의 네 가지 주제로 상설전시를 꾸며 인류의 진화와 구석기 문화를 쉽게 이해할 수 있다. 다양한 고고학 체험과 기획전시도 꾸준히 열리며, 유적 후문을 통해 전곡리 유적과 이어져 있어 함께 둘러보기 좋다. 전곡선사박물관은 다양한 고고학 체험이 가능한 열려있는 박물관입니다.",
+      "metadata": {
+        "sigungu": "연천군",
+        "child_fee": 0.0,
+        "sido": "경기도",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/17/4117117_image2_1.jpg",
+        "closure_rule_raw": "매주 월요일(월요일이 공휴일인 경우 제외)+1월 1일+설날 당일+추석 당일",
+        "address": "경기도 연천군 전곡읍 평화로443번길 2",
+        "weekday_open": "10:00",
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "longitude": 127.0636178,
+        "adult_fee": 0.0,
+        "requires_manual_review": true,
+        "weekday_close": "18:00",
+        "name": "전곡선사박물관",
+        "homepage_url": "https://jgpm.ggcf.kr/",
+        "holiday_open": "10:00",
+        "image_copyright": "Type1",
+        "ownership_type": "공립",
+        "youth_fee": 0.0,
+        "latitude": 38.01142688,
+        "source_types": "BASE|TOUR_API",
+        "amenities_raw": "장애인 편의시설+주차장+카페테리아",
+        "transport_notes": "서울-3번국도-의정부방면-동두천방면-연천방면-한탄대교-사랑동삼거리-전곡선사박물관",
+        "holiday_close": "18:00"
+      },
+      "vector_rank": 4,
+      "bm25_rank": 5,
+      "vector_distance": 0.5287720561027527,
+      "vector_score": null,
+      "bm25_score": 15.336888131679714,
+      "vector_document": "동아시아 최초로 아슐리안형 주먹도끼가 발견되어 세계 구석기 연구의 역사를 다시 쓰게 만든 연천 전곡리 유적에 자리한 유적박물관이다. 1978년 한탄강 변을 찾은 주한미군 그렉 보웬이 우연히 주먹도끼를 발견하면서 알려진 이 유적의 영구적인 보존과 활용을 위해 경기도가 2011년 4월 문을 열었다. 원시 생명체의 곡선을 모티브로 한 은빛 건물이 한탄강 언덕 위에 유려하게 자리해 그 자체로 눈길을 끈다. 전곡리에서 출토된 주먹도끼 등 구석기 유물과 정교한 고인류 복원 모형, 매머드 화석 등 자연사 유물을 바탕으로 진화, 구석기, 환경, 예술의 네 가지 주제로 상설전시를 꾸며 인류의 진화와 구석기 문화를 쉽게 이해할 수 있다. 다양한 고고학 체험과 기획전시도 꾸준히 열리며, 유적 후문을 통해 전곡리 유적과 이어져 있어 함께 둘러보기 좋다. 전곡선사박물관은 다양한 고고학 체험이 가능한 열려있는 박물관입니다.",
+      "bm25_document": "동아시아 최초로 아슐리안형 주먹도끼가 발견되어 세계 구석기 연구의 역사를 다시 쓰게 만든 연천 전곡리 유적에 자리한 유적박물관이다. 1978년 한탄강 변을 찾은 주한미군 그렉 보웬이 우연히 주먹도끼를 발견하면서 알려진 이 유적의 영구적인 보존과 활용을 위해 경기도가 2011년 4월 문을 열었다. 원시 생명체의 곡선을 모티브로 한 은빛 건물이 한탄강 언덕 위에 유려하게 자리해 그 자체로 눈길을 끈다. 전곡리에서 출토된 주먹도끼 등 구석기 유물과 정교한 고인류 복원 모형, 매머드 화석 등 자연사 유물을 바탕으로 진화, 구석기, 환경, 예술의 네 가지 주제로 상설전시를 꾸며 인류의 진화와 구석기 문화를 쉽게 이해할 수 있다. 다양한 고고학 체험과 기획전시도 꾸준히 열리며, 유적 후문을 통해 전곡리 유적과 이어져 있어 함께 둘러보기 좋다. 전곡선사박물관은 다양한 고고학 체험이 가능한 열려있는 박물관입니다.",
+      "best_span_id": "chroma:M0448",
+      "best_span_text": "동아시아 최초로 아슐리안형 주먹도끼가 발견되어 세계 구석기 연구의 역사를 다시 쓰게 만든 연천 전곡리 유적에 자리한 유적박물관이다. 1978년 한탄강 변을 찾은 주한미군 그렉 보웬이 우연히 주먹도끼를 발견하면서 알려진 이 유적의 영구적인 보존과 활용을 위해 경기도가 2011년 4월 문을 열었다. 원시 생명체의 곡선을 모티브로 한 은빛 건물이 한탄강 언덕 위에 유려하게 자리해 그 자체로 눈길을 끈다. 전곡리에서 출토된 주먹도끼 등 구석기 유물과 정교한 고인류 복원 모형, 매머드 화석 등 자연사 유물을 바탕으로 진화, 구석기, 환경, 예술의 네 가지 주제로 상설전시를 꾸며 인류의 진화와 구석기 문화를 쉽게 이해할 수 있다. 다양한 고고학 체험과 기획전시도 꾸준히 열리며, 유적 후문을 통해 전곡리 유적과 이어져 있어 함께 둘러보기 좋다. 전곡선사박물관은 다양한 고고학 체험이 가능한 열려있는 박물관입니다.",
+      "fusion_score": 0.031009615384615385,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 1,
+      "name_match": true,
+      "rerank_score": null,
+      "rank": 1,
+      "score": 0.031009615384615385,
+      "score_type": "rrf",
+      "distance": 0.5287720561027527,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0448",
+      "source_doc_ids": [
+        "DOC-B0448-TOUR_API-1284966",
+        "DOC-B0448-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0448-TOUR_API-1284966",
+          "source_type": "TOUR_API",
+          "source_record_id": "1284966",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=215",
+          "match_trust": "RECHECKED_BY_RULE_NOT_HUMAN_APPROVED"
+        },
+        {
+          "doc_id": "DOC-B0448-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0448",
+          "source_locator": "data/raw/museum_base_1070.csv#row=449",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 73,
+          "doc_ids": [
+            "DOC-B0448-TOUR_API-1284966"
+          ]
+        },
+        {
+          "start": 74,
+          "end": 165,
+          "doc_ids": [
+            "DOC-B0448-TOUR_API-1284966"
+          ]
+        },
+        {
+          "start": 166,
+          "end": 224,
+          "doc_ids": [
+            "DOC-B0448-TOUR_API-1284966"
+          ]
+        },
+        {
+          "start": 225,
+          "end": 350,
+          "doc_ids": [
+            "DOC-B0448-TOUR_API-1284966"
+          ]
+        },
+        {
+          "start": 351,
+          "end": 414,
+          "doc_ids": [
+            "DOC-B0448-TOUR_API-1284966"
+          ]
+        },
+        {
+          "start": 415,
+          "end": 452,
+          "doc_ids": [
+            "DOC-B0448-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=215",
+      "text": "동아시아 최초로 아슐리안형 주먹도끼가 발견되어 세계 구석기 연구의 역사를 다시 쓰게 만든 연천 전곡리 유적에 자리한 유적박물관이다. 1978년 한탄강 변을 찾은 주한미군 그렉 보웬이 우연히 주먹도끼를 발견하면서 알려진 이 유적의 영구적인 보존과 활용을 위해 경기도가 2011년 4월 문을 열었다. 원시 생명체의 곡선을 모티브로 한 은빛 건물이 한탄강 언덕 위에 유려하게 자리해 그 자체로 눈길을 끈다. 전곡리에서 출토된 주먹도끼 등 구석기 유물과 정교한 고인류 복원 모형, 매머드 화석 등 자연사 유물을 바탕으로 진화, 구석기, 환경, 예술의 네 가지 주제로 상설전시를 꾸며 인류의 진화와 구석기 문화를 쉽게 이해할 수 있다. 다양한 고고학 체험과 기획전시도 꾸준히 열리며, 유적 후문을 통해 전곡리 유적과 이어져 있어 함께 둘러보기 좋다. 전곡선사박물관은 다양한 고고학 체험이 가능한 열려있는 박물관입니다.",
+      "sido": "경기도",
+      "sigungu": "연천군",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=215"
+      ],
+      "evidence_id": "E1",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=320",
+        "fields": {
+          "name": "전곡선사박물관",
+          "sido": "경기도",
+          "sigungu": "연천군",
+          "address": "경기도 연천군 전곡읍 평화로443번길 2",
+          "ownership_type": "공립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "10:00",
+          "weekday_close": "18:00",
+          "holiday_open": "10:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "매주 월요일(월요일이 공휴일인 경우 제외)+1월 1일+설날 당일+추석 당일",
+          "amenities_raw": "장애인 편의시설+주차장+카페테리아"
+        },
+        "base_data_date": "2026-05-11",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0401",
+      "name": "수원박물관",
+      "document": "수원박물관은 지하 1층, 지상 2층으로 수원역사박물관, 한국서예박물관 등 2개의 상설전시관과 특별전시실로 구성되어 있다. 오감으로 즐기고 배우는 어린이체험실, 다채로운 교육 프로그램 등이 운영되고, 소장유물은 수원지역에서 발굴된 유물, 구입 및 기증받은 유물 등으로 48,000여 점을 소장하고 있다. 수원역사박물관은 수원의 유구한 역사와 문화를 과거·현재·미래의 시점과 주제별로 구성하였으며, 크게 네 부분으로 구성된 전시관은 ‘수원의 자연환경’, ‘선사·역사시대의 변천사’, ‘수원로의 개설’, ‘60년대 수원 만나기’, ‘근대 수원의 문화’로 과거의 역사와 문화뿐만 아니라 현대의 발전하는 역동적인 수원의 모습을 다양하게 보여주고 있다. 한국서예박물관은 지방자치단체에서는 최초로 건립한 서예 전문 박물관으로, 우리나라 서예사를 한눈에 살펴볼 수 있다. 전시는 유물의 시기와 특성에 따라 각각의 전시 주제로 구성되어 있고 조선시대 사랑방이 재현되어 있다. 중요 작품으로는 영조와 정조가 쓴 어필첩 등이 있다. 수원박물관은 2008년 10월 1일에 개관+ 수원의 유구한 역사와 문화를 다양하게 보여주는 수원역사박물관과 한국 서예사를 한 눈에 볼 수 있는 한국서예박물관으로 이루어짐.",
+      "metadata": {
+        "closure_rule_raw": "월(월요일이 공휴일인 경우 그 다음날 휴관)",
+        "holiday_close": "18:00",
+        "address": "경기도 수원시 영통구 창룡대로 265",
+        "adult_fee": 2000.0,
+        "ownership_type": "공립",
+        "fee_notes": "1. 국빈·외국사절단 및 그 수행자 무료+2. 국가유공자 무료+3. 장애인과 동반 1인  무료+4. 12세 이하의 어린이 및 65세 이상의 노인 무료",
+        "sigungu": "수원시",
+        "transport_notes": "버스 : (좌석버스) 1007+3007+3008+4000+4500+7000+7001+8800+ (일반) 7+19+60+80+400+400-4+720-1+ (마을) 6",
+        "adult_fee_status": "BASE_FEE_PAID",
+        "youth_fee": 1000.0,
+        "homepage_url": "https://smuseum.suwon.go.kr/sw/main/view",
+        "amenities_raw": "뮤지엄샵+북카페+수유실+물품보관소+자전거보관대",
+        "source_types": "BASE|TOUR_API",
+        "weekday_close": "18:00",
+        "requires_manual_review": true,
+        "child_fee": 0.0,
+        "holiday_open": "09:00",
+        "image_copyright": "Type1",
+        "weekday_open": "09:00",
+        "longitude": 127.035631,
+        "sido": "경기도",
+        "name": "수원박물관",
+        "latitude": 37.297646,
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/81/4056581_image2_1.jpg"
+      },
+      "vector_rank": 20,
+      "bm25_rank": 2,
+      "vector_distance": 0.5605618953704834,
+      "vector_score": null,
+      "bm25_score": 17.274658821709828,
+      "vector_document": "수원박물관은 지하 1층, 지상 2층으로 수원역사박물관, 한국서예박물관 등 2개의 상설전시관과 특별전시실로 구성되어 있다. 오감으로 즐기고 배우는 어린이체험실, 다채로운 교육 프로그램 등이 운영되고, 소장유물은 수원지역에서 발굴된 유물, 구입 및 기증받은 유물 등으로 48,000여 점을 소장하고 있다. 수원역사박물관은 수원의 유구한 역사와 문화를 과거·현재·미래의 시점과 주제별로 구성하였으며, 크게 네 부분으로 구성된 전시관은 ‘수원의 자연환경’, ‘선사·역사시대의 변천사’, ‘수원로의 개설’, ‘60년대 수원 만나기’, ‘근대 수원의 문화’로 과거의 역사와 문화뿐만 아니라 현대의 발전하는 역동적인 수원의 모습을 다양하게 보여주고 있다. 한국서예박물관은 지방자치단체에서는 최초로 건립한 서예 전문 박물관으로, 우리나라 서예사를 한눈에 살펴볼 수 있다. 전시는 유물의 시기와 특성에 따라 각각의 전시 주제로 구성되어 있고 조선시대 사랑방이 재현되어 있다. 중요 작품으로는 영조와 정조가 쓴 어필첩 등이 있다. 수원박물관은 2008년 10월 1일에 개관+ 수원의 유구한 역사와 문화를 다양하게 보여주는 수원역사박물관과 한국 서예사를 한 눈에 볼 수 있는 한국서예박물관으로 이루어짐.",
+      "bm25_document": "수원박물관은 지하 1층, 지상 2층으로 수원역사박물관, 한국서예박물관 등 2개의 상설전시관과 특별전시실로 구성되어 있다. 오감으로 즐기고 배우는 어린이체험실, 다채로운 교육 프로그램 등이 운영되고, 소장유물은 수원지역에서 발굴된 유물, 구입 및 기증받은 유물 등으로 48,000여 점을 소장하고 있다. 수원역사박물관은 수원의 유구한 역사와 문화를 과거·현재·미래의 시점과 주제별로 구성하였으며, 크게 네 부분으로 구성된 전시관은 ‘수원의 자연환경’, ‘선사·역사시대의 변천사’, ‘수원로의 개설’, ‘60년대 수원 만나기’, ‘근대 수원의 문화’로 과거의 역사와 문화뿐만 아니라 현대의 발전하는 역동적인 수원의 모습을 다양하게 보여주고 있다. 한국서예박물관은 지방자치단체에서는 최초로 건립한 서예 전문 박물관으로, 우리나라 서예사를 한눈에 살펴볼 수 있다. 전시는 유물의 시기와 특성에 따라 각각의 전시 주제로 구성되어 있고 조선시대 사랑방이 재현되어 있다. 중요 작품으로는 영조와 정조가 쓴 어필첩 등이 있다. 수원박물관은 2008년 10월 1일에 개관+ 수원의 유구한 역사와 문화를 다양하게 보여주는 수원역사박물관과 한국 서예사를 한 눈에 볼 수 있는 한국서예박물관으로 이루어짐.",
+      "best_span_id": "chroma:M0401",
+      "best_span_text": "수원박물관은 지하 1층, 지상 2층으로 수원역사박물관, 한국서예박물관 등 2개의 상설전시관과 특별전시실로 구성되어 있다. 오감으로 즐기고 배우는 어린이체험실, 다채로운 교육 프로그램 등이 운영되고, 소장유물은 수원지역에서 발굴된 유물, 구입 및 기증받은 유물 등으로 48,000여 점을 소장하고 있다. 수원역사박물관은 수원의 유구한 역사와 문화를 과거·현재·미래의 시점과 주제별로 구성하였으며, 크게 네 부분으로 구성된 전시관은 ‘수원의 자연환경’, ‘선사·역사시대의 변천사’, ‘수원로의 개설’, ‘60년대 수원 만나기’, ‘근대 수원의 문화’로 과거의 역사와 문화뿐만 아니라 현대의 발전하는 역동적인 수원의 모습을 다양하게 보여주고 있다. 한국서예박물관은 지방자치단체에서는 최초로 건립한 서예 전문 박물관으로, 우리나라 서예사를 한눈에 살펴볼 수 있다. 전시는 유물의 시기와 특성에 따라 각각의 전시 주제로 구성되어 있고 조선시대 사랑방이 재현되어 있다. 중요 작품으로는 영조와 정조가 쓴 어필첩 등이 있다. 수원박물관은 2008년 10월 1일에 개관+ 수원의 유구한 역사와 문화를 다양하게 보여주는 수원역사박물관과 한국 서예사를 한 눈에 볼 수 있는 한국서예박물관으로 이루어짐.",
+      "fusion_score": 0.028629032258064516,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 2,
+      "rerank_score": null,
+      "rank": 2,
+      "score": 0.028629032258064516,
+      "score_type": "rrf",
+      "distance": 0.5605618953704834,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0401",
+      "source_doc_ids": [
+        "DOC-B0401-TOUR_API-638913",
+        "DOC-B0401-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0401-TOUR_API-638913",
+          "source_type": "TOUR_API",
+          "source_record_id": "638913",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=186",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        },
+        {
+          "doc_id": "DOC-B0401-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0401",
+          "source_locator": "data/raw/museum_base_1070.csv#row=402",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 67,
+          "doc_ids": [
+            "DOC-B0401-TOUR_API-638913"
+          ]
+        },
+        {
+          "start": 68,
+          "end": 168,
+          "doc_ids": [
+            "DOC-B0401-TOUR_API-638913"
+          ]
+        },
+        {
+          "start": 169,
+          "end": 359,
+          "doc_ids": [
+            "DOC-B0401-TOUR_API-638913"
+          ]
+        },
+        {
+          "start": 360,
+          "end": 423,
+          "doc_ids": [
+            "DOC-B0401-TOUR_API-638913"
+          ]
+        },
+        {
+          "start": 424,
+          "end": 480,
+          "doc_ids": [
+            "DOC-B0401-TOUR_API-638913"
+          ]
+        },
+        {
+          "start": 481,
+          "end": 510,
+          "doc_ids": [
+            "DOC-B0401-TOUR_API-638913"
+          ]
+        },
+        {
+          "start": 511,
+          "end": 606,
+          "doc_ids": [
+            "DOC-B0401-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=186",
+      "text": "수원박물관은 지하 1층, 지상 2층으로 수원역사박물관, 한국서예박물관 등 2개의 상설전시관과 특별전시실로 구성되어 있다. 오감으로 즐기고 배우는 어린이체험실, 다채로운 교육 프로그램 등이 운영되고, 소장유물은 수원지역에서 발굴된 유물, 구입 및 기증받은 유물 등으로 48,000여 점을 소장하고 있다. 수원역사박물관은 수원의 유구한 역사와 문화를 과거·현재·미래의 시점과 주제별로 구성하였으며, 크게 네 부분으로 구성된 전시관은 ‘수원의 자연환경’, ‘선사·역사시대의 변천사’, ‘수원로의 개설’, ‘60년대 수원 만나기’, ‘근대 수원의 문화’로 과거의 역사와 문화뿐만 아니라 현대의 발전하는 역동적인 수원의 모습을 다양하게 보여주고 있다. 한국서예박물관은 지방자치단체에서는 최초로 건립한 서예 전문 박물관으로, 우리나라 서예사를 한눈에 살펴볼 수 있다. 전시는 유물의 시기와 특성에 따라 각각의 전시 주제로 구성되어 있고 조선시대 사랑방이 재현되어 있다. 중요 작품으로는 영조와 정조가 쓴 어필첩 등이 있다. 수원박물관은 2008년 10월 1일에 개관+ 수원의 유구한 역사와 문화를 다양하게 보여주는 수원역사박물관과 한국 서예사를 한 눈에 볼 수 있는 한국서예박물관으로 이루어짐.",
+      "sido": "경기도",
+      "sigungu": "수원시",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=186"
+      ],
+      "evidence_id": "E2",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=285",
+        "fields": {
+          "name": "수원박물관",
+          "sido": "경기도",
+          "sigungu": "수원시",
+          "address": "경기도 수원시 영통구 창룡대로 265",
+          "ownership_type": "공립",
+          "adult_fee": "2000",
+          "youth_fee": "1000",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_PAID",
+          "weekday_open": "09:00",
+          "weekday_close": "18:00",
+          "holiday_open": "09:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "월(월요일이 공휴일인 경우 그 다음날 휴관)",
+          "amenities_raw": "뮤지엄샵+북카페+수유실+물품보관소+자전거보관대"
+        },
+        "base_data_date": "2026-05-19",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0231",
+      "name": "창조자연사박물관",
+      "document": "창조자연사박물관은 1종 전문 자연사박물관으로 기독교 관점의 창조론 중심으로 설명해 주는 박물관이다. 20여 종의 움직이는 공룡과 골격 공룡, 초대형 해백합 화석을 비롯하여 화석 180여 점, 광물 190여 점, 어류 180여 점, 패류 200종 6,100여 점, 나비 곤충 264종 500여 점, 조류 60여 점, 액침표본 110여 점, 식물과 나무 60여 점의 유물을 전시, 보유하고 있다. 박물관이 소장하고 있는 화석과 광물의 원산지 및 학명은 사단법인 미래자연사환경학회의 인증받았으며 사단법인 한국창조과학회의 인증과 함께 정신 조인하여 지속해서 자연사와 창조과학의 정보를 지원받고 있으며 정기적으로 전문 강사를 세워 정기적인 창조과학 프로그램을 운영하고 있다. 들어가는 입구부터 전시관을 가득 채운 공룡들과 골격 공룡들은 실감 나게 만들어져 아이들의 눈을 사로잡으며, 야외학습장에서는 화석 발굴체험까지 할 수 있어, 공룡을 좋아하는 친구들은 더할 나위 없이 즐거운 경험을 할 수 있는 곳이다. 7200여점의 화석+ 광물+ 곤충표본+ 해양표본+ 동물박제+ 식물표본 등 전시",
+      "metadata": {
+        "adult_fee": 7000.0,
+        "ownership_type": "사립",
+        "weekday_open": "10:00",
+        "name": "창조자연사박물관",
+        "sido": "경기도",
+        "weekday_close": "17:00",
+        "closure_rule_raw": "월+ 1월1일 + 설날 및 추석연휴",
+        "latitude": 37.43371505,
+        "longitude": 126.786468,
+        "sigungu": "시흥시",
+        "transport_notes": "(버스) 마을버스 1+ 1-1신천동 한신APT하차 후 도보 10분",
+        "adult_fee_status": "BASE_FEE_PAID",
+        "youth_fee": 6000.0,
+        "homepage_url": "http://www.cjmuseum.net/",
+        "source_types": "BASE|TOUR_API",
+        "address": "경기도 시흥시 두문로 71번길 4",
+        "holiday_open": "10:00",
+        "requires_manual_review": true,
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/90/4100390_image2_1.jpg",
+        "holiday_close": "17:00",
+        "fee_notes": "(할인)20인 이상 단체 1000원 할인+ 경로할인 3500원(65세 이상) + (무료)24개월 미만 영유아",
+        "image_copyright": "Type1",
+        "child_fee": 6000.0
+      },
+      "vector_rank": 1,
+      "bm25_rank": null,
+      "vector_distance": 0.5004916787147522,
+      "vector_score": null,
+      "bm25_score": null,
+      "vector_document": "창조자연사박물관은 1종 전문 자연사박물관으로 기독교 관점의 창조론 중심으로 설명해 주는 박물관이다. 20여 종의 움직이는 공룡과 골격 공룡, 초대형 해백합 화석을 비롯하여 화석 180여 점, 광물 190여 점, 어류 180여 점, 패류 200종 6,100여 점, 나비 곤충 264종 500여 점, 조류 60여 점, 액침표본 110여 점, 식물과 나무 60여 점의 유물을 전시, 보유하고 있다. 박물관이 소장하고 있는 화석과 광물의 원산지 및 학명은 사단법인 미래자연사환경학회의 인증받았으며 사단법인 한국창조과학회의 인증과 함께 정신 조인하여 지속해서 자연사와 창조과학의 정보를 지원받고 있으며 정기적으로 전문 강사를 세워 정기적인 창조과학 프로그램을 운영하고 있다. 들어가는 입구부터 전시관을 가득 채운 공룡들과 골격 공룡들은 실감 나게 만들어져 아이들의 눈을 사로잡으며, 야외학습장에서는 화석 발굴체험까지 할 수 있어, 공룡을 좋아하는 친구들은 더할 나위 없이 즐거운 경험을 할 수 있는 곳이다. 7200여점의 화석+ 광물+ 곤충표본+ 해양표본+ 동물박제+ 식물표본 등 전시",
+      "bm25_document": "",
+      "best_span_id": null,
+      "best_span_text": null,
+      "fusion_score": 0.01639344262295082,
+      "retrieved_by": [
+        "vector"
+      ],
+      "fusion_rank": 3,
+      "rerank_score": null,
+      "rank": 3,
+      "score": 0.01639344262295082,
+      "score_type": "rrf",
+      "distance": 0.5004916787147522,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector"
+      ],
+      "retriever": "vector",
+      "source_doc_ids": [
+        "DOC-B0231-TOUR_API-130743",
+        "DOC-B0231-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0231-TOUR_API-130743",
+          "source_type": "TOUR_API",
+          "source_record_id": "130743",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=116",
+          "match_trust": "RECHECKED_BY_RULE_NOT_HUMAN_APPROVED"
+        },
+        {
+          "doc_id": "DOC-B0231-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0231",
+          "source_locator": "data/raw/museum_base_1070.csv#row=232",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 55,
+          "doc_ids": [
+            "DOC-B0231-TOUR_API-130743"
+          ]
+        },
+        {
+          "start": 56,
+          "end": 219,
+          "doc_ids": [
+            "DOC-B0231-TOUR_API-130743"
+          ]
+        },
+        {
+          "start": 220,
+          "end": 372,
+          "doc_ids": [
+            "DOC-B0231-TOUR_API-130743"
+          ]
+        },
+        {
+          "start": 373,
+          "end": 502,
+          "doc_ids": [
+            "DOC-B0231-TOUR_API-130743"
+          ]
+        },
+        {
+          "start": 503,
+          "end": 546,
+          "doc_ids": [
+            "DOC-B0231-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=116",
+      "text": "창조자연사박물관은 1종 전문 자연사박물관으로 기독교 관점의 창조론 중심으로 설명해 주는 박물관이다. 20여 종의 움직이는 공룡과 골격 공룡, 초대형 해백합 화석을 비롯하여 화석 180여 점, 광물 190여 점, 어류 180여 점, 패류 200종 6,100여 점, 나비 곤충 264종 500여 점, 조류 60여 점, 액침표본 110여 점, 식물과 나무 60여 점의 유물을 전시, 보유하고 있다. 박물관이 소장하고 있는 화석과 광물의 원산지 및 학명은 사단법인 미래자연사환경학회의 인증받았으며 사단법인 한국창조과학회의 인증과 함께 정신 조인하여 지속해서 자연사와 창조과학의 정보를 지원받고 있으며 정기적으로 전문 강사를 세워 정기적인 창조과학 프로그램을 운영하고 있다. 들어가는 입구부터 전시관을 가득 채운 공룡들과 골격 공룡들은 실감 나게 만들어져 아이들의 눈을 사로잡으며, 야외학습장에서는 화석 발굴체험까지 할 수 있어, 공룡을 좋아하는 친구들은 더할 나위 없이 즐거운 경험을 할 수 있는 곳이다. 7200여점의 화석+ 광물+ 곤충표본+ 해양표본+ 동물박제+ 식물표본 등 전시",
+      "sido": "경기도",
+      "sigungu": "시흥시",
+      "span_id": "",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=116"
+      ],
+      "evidence_id": "E3",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=160",
+        "fields": {
+          "name": "창조자연사박물관",
+          "sido": "경기도",
+          "sigungu": "시흥시",
+          "address": "경기도 시흥시 두문로 71번길 4",
+          "ownership_type": "사립",
+          "adult_fee": "7000",
+          "youth_fee": "6000",
+          "child_fee": "6000",
+          "adult_fee_status": "BASE_FEE_PAID",
+          "weekday_open": "10:00",
+          "weekday_close": "17:00",
+          "holiday_open": "10:00",
+          "holiday_close": "17:00",
+          "closure_rule_raw": "월+ 1월1일 + 설날 및 추석연휴"
+        },
+        "base_data_date": "2026-09-07",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0991",
+      "name": "강화전쟁박물관",
+      "document": "강화전쟁박물관은 강화에서 일어난 전쟁과 관련한 유물을 전시하고 있다. 강화도는 지정학적 위치 때문에 항쟁의 역사가 많은 곳이다. 선사시대부터 근현대에 이르기까지 강화에서 일어난 각종 전쟁 유물 120점을 전시하고 있다. 총 네 개의 주제로 구성된 전시관에서 제1전시실은 선사시대부터 삼국시대 주제관으로, 돌 화살촉, 고리 자루 칼 등을 전시하고 있고, 제2전시실은 고려 시대의 철제은입사투구, 철투구, 철도자 등을 전시하고 있다. 제3전시실에서는 신미양요 때 어재연 장군이 광성보에 걸고 싸웠던 깃발인 수자기와 면제 갑옷 등을 볼 수 있다. 제4전시실에는 조선시대 주력 화포인 불랑기포, 항일 의병들이 사용한 화승총 등 근현대 유물이 전시돼 있다. 이 밖에도 항일 의병을 체험하는 코너와 포토존도 있다. 강화전쟁박물관은 천혜의 지정학적 위치를 가지고 있어 역사의 고비 때마다 국방상 요충지 역학을 수행하며 외세의 침략을 막아낸 강화의 호국정신을 널리 알리기 위한 전쟁관련 유물등을 전시하고 있습니다.",
+      "metadata": {
+        "adult_fee": 1200.0,
+        "sido": "인천광역시",
+        "weekday_open": "09:00",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/28/3532928_image2_1.jpg",
+        "holiday_open": "09:00",
+        "image_copyright": "Type1",
+        "holiday_close": "18:00",
+        "source_types": "BASE|TOUR_API",
+        "closure_rule_raw": "월+1월1일+설당일+추석당일",
+        "ownership_type": "공립",
+        "fee_notes": "무료(강화군민+국가유공자 및 그 가족+장애인 및 동반 보호자 1명+기증기탁자 등)",
+        "child_fee": 900.0,
+        "youth_fee": 900.0,
+        "sigungu": "강화군",
+        "transport_notes": "시내버스+ 군내버스+ 자가용이용",
+        "address": "인천광역시 강화군 강화읍 해안동로1366번길 18",
+        "name": "강화전쟁박물관",
+        "weekday_close": "18:00",
+        "adult_fee_status": "BASE_FEE_PAID",
+        "latitude": 37.73357906,
+        "longitude": 126.5159972,
+        "homepage_url": "http://www.ganghwa.go.kr/open_content/museum_war/",
+        "requires_manual_review": true
+      },
+      "vector_rank": null,
+      "bm25_rank": 1,
+      "vector_distance": null,
+      "vector_score": null,
+      "bm25_score": 18.356290951311024,
+      "vector_document": "",
+      "bm25_document": "강화전쟁박물관은 강화에서 일어난 전쟁과 관련한 유물을 전시하고 있다. 강화도는 지정학적 위치 때문에 항쟁의 역사가 많은 곳이다. 선사시대부터 근현대에 이르기까지 강화에서 일어난 각종 전쟁 유물 120점을 전시하고 있다. 총 네 개의 주제로 구성된 전시관에서 제1전시실은 선사시대부터 삼국시대 주제관으로, 돌 화살촉, 고리 자루 칼 등을 전시하고 있고, 제2전시실은 고려 시대의 철제은입사투구, 철투구, 철도자 등을 전시하고 있다. 제3전시실에서는 신미양요 때 어재연 장군이 광성보에 걸고 싸웠던 깃발인 수자기와 면제 갑옷 등을 볼 수 있다. 제4전시실에는 조선시대 주력 화포인 불랑기포, 항일 의병들이 사용한 화승총 등 근현대 유물이 전시돼 있다. 이 밖에도 항일 의병을 체험하는 코너와 포토존도 있다. 강화전쟁박물관은 천혜의 지정학적 위치를 가지고 있어 역사의 고비 때마다 국방상 요충지 역학을 수행하며 외세의 침략을 막아낸 강화의 호국정신을 널리 알리기 위한 전쟁관련 유물등을 전시하고 있습니다.",
+      "best_span_id": "chroma:M0991",
+      "best_span_text": "강화전쟁박물관은 강화에서 일어난 전쟁과 관련한 유물을 전시하고 있다. 강화도는 지정학적 위치 때문에 항쟁의 역사가 많은 곳이다. 선사시대부터 근현대에 이르기까지 강화에서 일어난 각종 전쟁 유물 120점을 전시하고 있다. 총 네 개의 주제로 구성된 전시관에서 제1전시실은 선사시대부터 삼국시대 주제관으로, 돌 화살촉, 고리 자루 칼 등을 전시하고 있고, 제2전시실은 고려 시대의 철제은입사투구, 철투구, 철도자 등을 전시하고 있다. 제3전시실에서는 신미양요 때 어재연 장군이 광성보에 걸고 싸웠던 깃발인 수자기와 면제 갑옷 등을 볼 수 있다. 제4전시실에는 조선시대 주력 화포인 불랑기포, 항일 의병들이 사용한 화승총 등 근현대 유물이 전시돼 있다. 이 밖에도 항일 의병을 체험하는 코너와 포토존도 있다. 강화전쟁박물관은 천혜의 지정학적 위치를 가지고 있어 역사의 고비 때마다 국방상 요충지 역학을 수행하며 외세의 침략을 막아낸 강화의 호국정신을 널리 알리기 위한 전쟁관련 유물등을 전시하고 있습니다.",
+      "fusion_score": 0.01639344262295082,
+      "retrieved_by": [
+        "bm25"
+      ],
+      "fusion_rank": 4,
+      "rerank_score": null,
+      "rank": 4,
+      "score": 0.01639344262295082,
+      "score_type": "rrf",
+      "distance": null,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "bm25"
+      ],
+      "retriever": "bm25",
+      "span_id": "chroma:M0991",
+      "source_doc_ids": [
+        "DOC-B0991-TOUR_API-2657495",
+        "DOC-B0991-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0991-TOUR_API-2657495",
+          "source_type": "TOUR_API",
+          "source_record_id": "2657495",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=460",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        },
+        {
+          "doc_id": "DOC-B0991-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0991",
+          "source_locator": "data/raw/museum_base_1070.csv#row=992",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 38,
+          "doc_ids": [
+            "DOC-B0991-TOUR_API-2657495"
+          ]
+        },
+        {
+          "start": 39,
+          "end": 71,
+          "doc_ids": [
+            "DOC-B0991-TOUR_API-2657495"
+          ]
+        },
+        {
+          "start": 72,
+          "end": 122,
+          "doc_ids": [
+            "DOC-B0991-TOUR_API-2657495"
+          ]
+        },
+        {
+          "start": 123,
+          "end": 240,
+          "doc_ids": [
+            "DOC-B0991-TOUR_API-2657495"
+          ]
+        },
+        {
+          "start": 241,
+          "end": 302,
+          "doc_ids": [
+            "DOC-B0991-TOUR_API-2657495"
+          ]
+        },
+        {
+          "start": 303,
+          "end": 362,
+          "doc_ids": [
+            "DOC-B0991-TOUR_API-2657495"
+          ]
+        },
+        {
+          "start": 363,
+          "end": 393,
+          "doc_ids": [
+            "DOC-B0991-TOUR_API-2657495"
+          ]
+        },
+        {
+          "start": 394,
+          "end": 503,
+          "doc_ids": [
+            "DOC-B0991-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=460",
+      "text": "강화전쟁박물관은 강화에서 일어난 전쟁과 관련한 유물을 전시하고 있다. 강화도는 지정학적 위치 때문에 항쟁의 역사가 많은 곳이다. 선사시대부터 근현대에 이르기까지 강화에서 일어난 각종 전쟁 유물 120점을 전시하고 있다. 총 네 개의 주제로 구성된 전시관에서 제1전시실은 선사시대부터 삼국시대 주제관으로, 돌 화살촉, 고리 자루 칼 등을 전시하고 있고, 제2전시실은 고려 시대의 철제은입사투구, 철투구, 철도자 등을 전시하고 있다. 제3전시실에서는 신미양요 때 어재연 장군이 광성보에 걸고 싸웠던 깃발인 수자기와 면제 갑옷 등을 볼 수 있다. 제4전시실에는 조선시대 주력 화포인 불랑기포, 항일 의병들이 사용한 화승총 등 근현대 유물이 전시돼 있다. 이 밖에도 항일 의병을 체험하는 코너와 포토존도 있다. 강화전쟁박물관은 천혜의 지정학적 위치를 가지고 있어 역사의 고비 때마다 국방상 요충지 역학을 수행하며 외세의 침략을 막아낸 강화의 호국정신을 널리 알리기 위한 전쟁관련 유물등을 전시하고 있습니다.",
+      "sido": "인천광역시",
+      "sigungu": "강화군",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=460"
+      ],
+      "evidence_id": "E4",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=674",
+        "fields": {
+          "name": "강화전쟁박물관",
+          "sido": "인천광역시",
+          "sigungu": "강화군",
+          "address": "인천광역시 강화군 강화읍 해안동로1366번길 18",
+          "ownership_type": "공립",
+          "adult_fee": "1200",
+          "youth_fee": "900",
+          "child_fee": "900",
+          "adult_fee_status": "BASE_FEE_PAID",
+          "weekday_open": "09:00",
+          "weekday_close": "18:00",
+          "holiday_open": "09:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "월+1월1일+설당일+추석당일"
+        },
+        "base_data_date": "2025-11-20",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0358",
+      "name": "강아지숲 박물관",
+      "document": "“반려견과 인간의 아름다운 관계”에 대한 상설전시 진행",
+      "metadata": {
+        "amenities_raw": "마켓+강아지 대기실+강아지의무실+물품보관소+의무실",
+        "adult_fee_status": "BASE_FEE_PAID",
+        "homepage_url": "http://www.dforest.co.kr/",
+        "ownership_type": "사립",
+        "sigungu": "춘천시",
+        "requires_manual_review": true,
+        "weekday_close": "18:00",
+        "holiday_close": "18:00",
+        "adult_fee": 17000.0,
+        "sido": "강원특별자치도",
+        "source_types": "BASE",
+        "holiday_open": "10:00",
+        "weekday_open": "10:00",
+        "address": "강원특별자치도 춘천시 남산면 충효로 437",
+        "fee_notes": "[할인대상]유아(36개월이하)+경로(만65세이상)+춘천시민+ 국가유공자, 장애인 + 단체(20명이상)+연간회원권 O+반려견 8,000원",
+        "name": "강아지숲 박물관",
+        "latitude": 37.736419,
+        "youth_fee": 15000.0,
+        "longitude": 127.662018,
+        "child_fee": 12000.0,
+        "closure_rule_raw": "월+설,추석 당일",
+        "transport_notes": "1)고속도로 : 서울양양고속도로>강촌 IC>5분 2)국도 : 강변북로>신경춘로>경춘로"
+      },
+      "vector_rank": 2,
+      "bm25_rank": null,
+      "vector_distance": 0.5199977159500122,
+      "vector_score": null,
+      "bm25_score": null,
+      "vector_document": "“반려견과 인간의 아름다운 관계”에 대한 상설전시 진행",
+      "bm25_document": "",
+      "best_span_id": null,
+      "best_span_text": null,
+      "fusion_score": 0.016129032258064516,
+      "retrieved_by": [
+        "vector"
+      ],
+      "fusion_rank": 5,
+      "rerank_score": null,
+      "rank": 5,
+      "score": 0.016129032258064516,
+      "score_type": "rrf",
+      "distance": 0.5199977159500122,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector"
+      ],
+      "retriever": "vector",
+      "source_doc_ids": [
+        "DOC-B0358-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0358-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0358",
+          "source_locator": "data/raw/museum_base_1070.csv#row=359",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 30,
+          "doc_ids": [
+            "DOC-B0358-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_base_1070.csv#row=359",
+      "text": "“반려견과 인간의 아름다운 관계”에 대한 상설전시 진행",
+      "sido": "강원특별자치도",
+      "sigungu": "춘천시",
+      "span_id": "",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_base_1070.csv#row=359"
+      ],
+      "evidence_id": "E5",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=260",
+        "fields": {
+          "name": "강아지숲 박물관",
+          "sido": "강원특별자치도",
+          "sigungu": "춘천시",
+          "address": "강원특별자치도 춘천시 남산면 충효로 437",
+          "ownership_type": "사립",
+          "adult_fee": "17000",
+          "youth_fee": "15000",
+          "child_fee": "12000",
+          "adult_fee_status": "BASE_FEE_PAID",
+          "weekday_open": "10:00",
+          "weekday_close": "18:00",
+          "holiday_open": "10:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "월+설,추석 당일",
+          "amenities_raw": "마켓+강아지 대기실+강아지의무실+물품보관소+의무실"
+        },
+        "base_data_date": "2026-06-10",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    }
+  ],
+  "answer": "전곡선사박물관의 상설전시는 **진화, 구석기, 환경, 예술**의 네 가지 주제로 구성되어 있습니다. [E1]",
+  "retrieval_status": "ok",
+  "answer_status": "answered",
+  "route": "hybrid",
+  "retry_count": 0,
+  "supervisor_verified": true,
+  "rerank_applied": false,
+  "retriever_errors": [],
+  "warnings": [
+    "Cross-Encoder reranking failed (FileNotFoundError); RRF order retained"
+  ],
+  "duration_ms": 7616.57,
+  "error_type": "",
+  "hit_at_1": 1,
+  "hit_at_3": 1,
+  "hit_at_5": 1,
+  "recall_at_5": 1.0,
+  "mrr_at_10": 1.0
+}

@@ -1,0 +1,817 @@
+{
+  "mode": "supervisor_full",
+  "question_id": "Q004",
+  "evidence": [
+    {
+      "museum_id": "M0005",
+      "name": "인천도시역사관",
+      "document": "인천광역시는 1883년 개항 후 우리나라 최초의 계획도시로 시작하여 140년이 넘는 시간이 흐르는 동안 다양한 변화와 확장을 거쳐 지금은 전국 8대 광역시 중 가장 넓은 면적에 300만 인구의 무한한 잠재력을 가진 도시로 성장해 왔다. 인천도시역사관은 도시 인천광역시의 역사와 변화 과정을 다양한 실물 자료 및 모형을 통해 시민들에게 알기 쉽게 전달하고 있다. 근대도시관은 개항(1883년) 이후부터 광복(1945년)까지 도시 인천의 형성과 변천 과정을 소개하고 있으며, 인천모형관은 모형을 통해 도시 인천의 현재 모습을 소개하고 있다. 지도를 통해 인천의 영역 확장 및 인천 해안 매립과 공간의 변화를 알 수 있다. 인천도시역사관은 국내 및 해외 도시의 홍보관과 차별화된 전략으로 글로벌 도시 마케팅 개념을 적용하여 인천의 과거와 현재 그리고 미래를 한 눈에 볼 수 있는 전시관입니다.",
+      "metadata": {
+        "weekday_close": "18:00",
+        "weekday_open": "09:00",
+        "adult_fee": 0.0,
+        "requires_manual_review": true,
+        "youth_fee": 0.0,
+        "transport_notes": "인천지하철 1호선 센트럴파크역 3번 출구+광역버스(M6405번+M6450번) 센트럴파크역 하차+급행버스(급행98번) 센트럴파크역 하차",
+        "holiday_close": "18:00",
+        "latitude": 37.3927678319,
+        "holiday_open": "09:00",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/25/4090525_image2_1.jpg",
+        "closure_rule_raw": "월(단, 공휴일인 월요일은 제외)+1월1일",
+        "image_copyright": "Type1",
+        "address": "인천광역시 연수구 인천타워대로 238",
+        "source_types": "BASE|TOUR_API",
+        "sido": "인천광역시",
+        "longitude": 126.6358893,
+        "ownership_type": "공립",
+        "child_fee": 0.0,
+        "name": "인천도시역사관",
+        "homepage_url": "http://www.incheon.go.kr/museum",
+        "sigungu": "연수구",
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS"
+      },
+      "vector_rank": 1,
+      "bm25_rank": 1,
+      "vector_distance": 0.36337077617645264,
+      "vector_score": null,
+      "bm25_score": 53.3443100586754,
+      "vector_document": "인천광역시는 1883년 개항 후 우리나라 최초의 계획도시로 시작하여 140년이 넘는 시간이 흐르는 동안 다양한 변화와 확장을 거쳐 지금은 전국 8대 광역시 중 가장 넓은 면적에 300만 인구의 무한한 잠재력을 가진 도시로 성장해 왔다. 인천도시역사관은 도시 인천광역시의 역사와 변화 과정을 다양한 실물 자료 및 모형을 통해 시민들에게 알기 쉽게 전달하고 있다. 근대도시관은 개항(1883년) 이후부터 광복(1945년)까지 도시 인천의 형성과 변천 과정을 소개하고 있으며, 인천모형관은 모형을 통해 도시 인천의 현재 모습을 소개하고 있다. 지도를 통해 인천의 영역 확장 및 인천 해안 매립과 공간의 변화를 알 수 있다. 인천도시역사관은 국내 및 해외 도시의 홍보관과 차별화된 전략으로 글로벌 도시 마케팅 개념을 적용하여 인천의 과거와 현재 그리고 미래를 한 눈에 볼 수 있는 전시관입니다.",
+      "bm25_document": "인천광역시는 1883년 개항 후 우리나라 최초의 계획도시로 시작하여 140년이 넘는 시간이 흐르는 동안 다양한 변화와 확장을 거쳐 지금은 전국 8대 광역시 중 가장 넓은 면적에 300만 인구의 무한한 잠재력을 가진 도시로 성장해 왔다. 인천도시역사관은 도시 인천광역시의 역사와 변화 과정을 다양한 실물 자료 및 모형을 통해 시민들에게 알기 쉽게 전달하고 있다. 근대도시관은 개항(1883년) 이후부터 광복(1945년)까지 도시 인천의 형성과 변천 과정을 소개하고 있으며, 인천모형관은 모형을 통해 도시 인천의 현재 모습을 소개하고 있다. 지도를 통해 인천의 영역 확장 및 인천 해안 매립과 공간의 변화를 알 수 있다. 인천도시역사관은 국내 및 해외 도시의 홍보관과 차별화된 전략으로 글로벌 도시 마케팅 개념을 적용하여 인천의 과거와 현재 그리고 미래를 한 눈에 볼 수 있는 전시관입니다.",
+      "best_span_id": "chroma:M0005",
+      "best_span_text": "인천광역시는 1883년 개항 후 우리나라 최초의 계획도시로 시작하여 140년이 넘는 시간이 흐르는 동안 다양한 변화와 확장을 거쳐 지금은 전국 8대 광역시 중 가장 넓은 면적에 300만 인구의 무한한 잠재력을 가진 도시로 성장해 왔다. 인천도시역사관은 도시 인천광역시의 역사와 변화 과정을 다양한 실물 자료 및 모형을 통해 시민들에게 알기 쉽게 전달하고 있다. 근대도시관은 개항(1883년) 이후부터 광복(1945년)까지 도시 인천의 형성과 변천 과정을 소개하고 있으며, 인천모형관은 모형을 통해 도시 인천의 현재 모습을 소개하고 있다. 지도를 통해 인천의 영역 확장 및 인천 해안 매립과 공간의 변화를 알 수 있다. 인천도시역사관은 국내 및 해외 도시의 홍보관과 차별화된 전략으로 글로벌 도시 마케팅 개념을 적용하여 인천의 과거와 현재 그리고 미래를 한 눈에 볼 수 있는 전시관입니다.",
+      "fusion_score": 0.03278688524590164,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 1,
+      "name_match": true,
+      "rerank_score": 0.9999737739562988,
+      "rank": 1,
+      "score": 0.9999737739562988,
+      "score_type": "cross_encoder",
+      "distance": 0.36337077617645264,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0005",
+      "source_doc_ids": [
+        "DOC-B0005-TOUR_API-1851364",
+        "DOC-B0005-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0005-TOUR_API-1851364",
+          "source_type": "TOUR_API",
+          "source_record_id": "1851364",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=5",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        },
+        {
+          "doc_id": "DOC-B0005-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0005",
+          "source_locator": "data/raw/museum_base_1070.csv#row=6",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 131,
+          "doc_ids": [
+            "DOC-B0005-TOUR_API-1851364"
+          ]
+        },
+        {
+          "start": 132,
+          "end": 201,
+          "doc_ids": [
+            "DOC-B0005-TOUR_API-1851364"
+          ]
+        },
+        {
+          "start": 202,
+          "end": 300,
+          "doc_ids": [
+            "DOC-B0005-TOUR_API-1851364"
+          ]
+        },
+        {
+          "start": 301,
+          "end": 345,
+          "doc_ids": [
+            "DOC-B0005-TOUR_API-1851364"
+          ]
+        },
+        {
+          "start": 346,
+          "end": 440,
+          "doc_ids": [
+            "DOC-B0005-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=5",
+      "text": "인천광역시는 1883년 개항 후 우리나라 최초의 계획도시로 시작하여 140년이 넘는 시간이 흐르는 동안 다양한 변화와 확장을 거쳐 지금은 전국 8대 광역시 중 가장 넓은 면적에 300만 인구의 무한한 잠재력을 가진 도시로 성장해 왔다. 인천도시역사관은 도시 인천광역시의 역사와 변화 과정을 다양한 실물 자료 및 모형을 통해 시민들에게 알기 쉽게 전달하고 있다. 근대도시관은 개항(1883년) 이후부터 광복(1945년)까지 도시 인천의 형성과 변천 과정을 소개하고 있으며, 인천모형관은 모형을 통해 도시 인천의 현재 모습을 소개하고 있다. 지도를 통해 인천의 영역 확장 및 인천 해안 매립과 공간의 변화를 알 수 있다. 인천도시역사관은 국내 및 해외 도시의 홍보관과 차별화된 전략으로 글로벌 도시 마케팅 개념을 적용하여 인천의 과거와 현재 그리고 미래를 한 눈에 볼 수 있는 전시관입니다.",
+      "sido": "인천광역시",
+      "sigungu": "연수구",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=5"
+      ],
+      "evidence_id": "E1",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=5",
+        "fields": {
+          "name": "인천도시역사관",
+          "sido": "인천광역시",
+          "sigungu": "연수구",
+          "address": "인천광역시 연수구 인천타워대로 238",
+          "ownership_type": "공립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "09:00",
+          "weekday_close": "18:00",
+          "holiday_open": "09:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "월(단, 공휴일인 월요일은 제외)+1월1일"
+        },
+        "base_data_date": "2026-09-18",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0925",
+      "name": "인천개항장 근대건축전시관",
+      "document": "인천 개항장 근대건축전시관은 개항장 내 서구 근대건축물을 모아 전시하는 공간이다. 일본 나가사키에 본점을 둔 18은행의 인천 지점으로 처음 세워졌다가 1954년부터 1992년까지 한국흥업은행과 카페로 활용된 바 있다. 4개의 전시관을 차례대로 훑어보면 1883년 개항 당시 국내외 정세부터 근대건축물 정보까지 다양한 사료를 만날 수 있다. 은행으로 사용될 당시의 금고와 지붕이 건물 안에 그대로 남아, 타임머신을 타고 역사의 현장으로 들어온 느낌마저 든다. 메인 전시관인 3전시실은 각국의 외교관사, 관공서부터 소실된 외국인의 주택 등 다양한 근대건축물 디오라마를 전시 중이다. 원하는 건축물을 선택하면 커다란 스크린을 통해 영상 설명을 들을 수도 있다. 금고로 사용되었던 공간은 18은행과 조선인 수탈 사이의 관계를 설명하는 4전시실로 꾸며놓았다. 18은행은 조선에서 무역하는 나가사키 상인들을 지원하는 한편 조선인들을 대상으로 고리대금업을 벌였는데, 이때 조선인들에게 받은 이자 대부분이 일본인에게 넘어가 조선인들의 삶이 피폐해졌다고 한다.",
+      "metadata": {
+        "image_copyright": "Type1",
+        "source_types": "TOUR_API",
+        "ownership_type": "공립",
+        "adult_fee_status": "BASE_FEE_PAID",
+        "weekday_close": "18:00",
+        "requires_manual_review": true,
+        "longitude": 126.6212228,
+        "homepage_url": "http://www.ijcf.or.kr/load.asp?subPage=522.03",
+        "latitude": 37.47298742,
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/66/4056166_image2_1.jpg",
+        "address": "인천광역시 중구 신포로23번길 77",
+        "holiday_close": "18:00",
+        "youth_fee": 300.0,
+        "holiday_open": "09:00",
+        "adult_fee": 500.0,
+        "child_fee": 200.0,
+        "sigungu": "중구",
+        "fee_notes": "통합관람권 10~35퍼센트할인+단체(20인 이상) 할인",
+        "name": "인천개항장 근대건축전시관",
+        "weekday_open": "09:00",
+        "closure_rule_raw": "매주 월요일",
+        "sido": "인천광역시"
+      },
+      "vector_rank": 3,
+      "bm25_rank": 6,
+      "vector_distance": 0.5632001161575317,
+      "vector_score": null,
+      "bm25_score": 17.599935500645756,
+      "vector_document": "인천 개항장 근대건축전시관은 개항장 내 서구 근대건축물을 모아 전시하는 공간이다. 일본 나가사키에 본점을 둔 18은행의 인천 지점으로 처음 세워졌다가 1954년부터 1992년까지 한국흥업은행과 카페로 활용된 바 있다. 4개의 전시관을 차례대로 훑어보면 1883년 개항 당시 국내외 정세부터 근대건축물 정보까지 다양한 사료를 만날 수 있다. 은행으로 사용될 당시의 금고와 지붕이 건물 안에 그대로 남아, 타임머신을 타고 역사의 현장으로 들어온 느낌마저 든다. 메인 전시관인 3전시실은 각국의 외교관사, 관공서부터 소실된 외국인의 주택 등 다양한 근대건축물 디오라마를 전시 중이다. 원하는 건축물을 선택하면 커다란 스크린을 통해 영상 설명을 들을 수도 있다. 금고로 사용되었던 공간은 18은행과 조선인 수탈 사이의 관계를 설명하는 4전시실로 꾸며놓았다. 18은행은 조선에서 무역하는 나가사키 상인들을 지원하는 한편 조선인들을 대상으로 고리대금업을 벌였는데, 이때 조선인들에게 받은 이자 대부분이 일본인에게 넘어가 조선인들의 삶이 피폐해졌다고 한다.",
+      "bm25_document": "인천 개항장 근대건축전시관은 개항장 내 서구 근대건축물을 모아 전시하는 공간이다. 일본 나가사키에 본점을 둔 18은행의 인천 지점으로 처음 세워졌다가 1954년부터 1992년까지 한국흥업은행과 카페로 활용된 바 있다. 4개의 전시관을 차례대로 훑어보면 1883년 개항 당시 국내외 정세부터 근대건축물 정보까지 다양한 사료를 만날 수 있다. 은행으로 사용될 당시의 금고와 지붕이 건물 안에 그대로 남아, 타임머신을 타고 역사의 현장으로 들어온 느낌마저 든다. 메인 전시관인 3전시실은 각국의 외교관사, 관공서부터 소실된 외국인의 주택 등 다양한 근대건축물 디오라마를 전시 중이다. 원하는 건축물을 선택하면 커다란 스크린을 통해 영상 설명을 들을 수도 있다. 금고로 사용되었던 공간은 18은행과 조선인 수탈 사이의 관계를 설명하는 4전시실로 꾸며놓았다. 18은행은 조선에서 무역하는 나가사키 상인들을 지원하는 한편 조선인들을 대상으로 고리대금업을 벌였는데, 이때 조선인들에게 받은 이자 대부분이 일본인에게 넘어가 조선인들의 삶이 피폐해졌다고 한다.",
+      "best_span_id": "chroma:M0925",
+      "best_span_text": "인천 개항장 근대건축전시관은 개항장 내 서구 근대건축물을 모아 전시하는 공간이다. 일본 나가사키에 본점을 둔 18은행의 인천 지점으로 처음 세워졌다가 1954년부터 1992년까지 한국흥업은행과 카페로 활용된 바 있다. 4개의 전시관을 차례대로 훑어보면 1883년 개항 당시 국내외 정세부터 근대건축물 정보까지 다양한 사료를 만날 수 있다. 은행으로 사용될 당시의 금고와 지붕이 건물 안에 그대로 남아, 타임머신을 타고 역사의 현장으로 들어온 느낌마저 든다. 메인 전시관인 3전시실은 각국의 외교관사, 관공서부터 소실된 외국인의 주택 등 다양한 근대건축물 디오라마를 전시 중이다. 원하는 건축물을 선택하면 커다란 스크린을 통해 영상 설명을 들을 수도 있다. 금고로 사용되었던 공간은 18은행과 조선인 수탈 사이의 관계를 설명하는 4전시실로 꾸며놓았다. 18은행은 조선에서 무역하는 나가사키 상인들을 지원하는 한편 조선인들을 대상으로 고리대금업을 벌였는데, 이때 조선인들에게 받은 이자 대부분이 일본인에게 넘어가 조선인들의 삶이 피폐해졌다고 한다.",
+      "fusion_score": 0.031024531024531024,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 3,
+      "rerank_score": 0.24334880709648132,
+      "rank": 2,
+      "score": 0.24334880709648132,
+      "score_type": "cross_encoder",
+      "distance": 0.5632001161575317,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0925",
+      "source_doc_ids": [
+        "DOC-B0925-TOUR_API-2779442"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0925-TOUR_API-2779442",
+          "source_type": "TOUR_API",
+          "source_record_id": "2779442",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=436",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 45,
+          "doc_ids": [
+            "DOC-B0925-TOUR_API-2779442"
+          ]
+        },
+        {
+          "start": 46,
+          "end": 121,
+          "doc_ids": [
+            "DOC-B0925-TOUR_API-2779442"
+          ]
+        },
+        {
+          "start": 122,
+          "end": 189,
+          "doc_ids": [
+            "DOC-B0925-TOUR_API-2779442"
+          ]
+        },
+        {
+          "start": 190,
+          "end": 255,
+          "doc_ids": [
+            "DOC-B0925-TOUR_API-2779442"
+          ]
+        },
+        {
+          "start": 256,
+          "end": 323,
+          "doc_ids": [
+            "DOC-B0925-TOUR_API-2779442"
+          ]
+        },
+        {
+          "start": 324,
+          "end": 366,
+          "doc_ids": [
+            "DOC-B0925-TOUR_API-2779442"
+          ]
+        },
+        {
+          "start": 367,
+          "end": 419,
+          "doc_ids": [
+            "DOC-B0925-TOUR_API-2779442"
+          ]
+        },
+        {
+          "start": 420,
+          "end": 528,
+          "doc_ids": [
+            "DOC-B0925-TOUR_API-2779442"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=436",
+      "text": "인천 개항장 근대건축전시관은 개항장 내 서구 근대건축물을 모아 전시하는 공간이다. 일본 나가사키에 본점을 둔 18은행의 인천 지점으로 처음 세워졌다가 1954년부터 1992년까지 한국흥업은행과 카페로 활용된 바 있다. 4개의 전시관을 차례대로 훑어보면 1883년 개항 당시 국내외 정세부터 근대건축물 정보까지 다양한 사료를 만날 수 있다. 은행으로 사용될 당시의 금고와 지붕이 건물 안에 그대로 남아, 타임머신을 타고 역사의 현장으로 들어온 느낌마저 든다. 메인 전시관인 3전시실은 각국의 외교관사, 관공서부터 소실된 외국인의 주택 등 다양한 근대건축물 디오라마를 전시 중이다. 원하는 건축물을 선택하면 커다란 스크린을 통해 영상 설명을 들을 수도 있다. 금고로 사용되었던 공간은 18은행과 조선인 수탈 사이의 관계를 설명하는 4전시실로 꾸며놓았다. 18은행은 조선에서 무역하는 나가사키 상인들을 지원하는 한편 조선인들을 대상으로 고리대금업을 벌였는데, 이때 조선인들에게 받은 이자 대부분이 일본인에게 넘어가 조선인들의 삶이 피폐해졌다고 한다.",
+      "sido": "인천광역시",
+      "sigungu": "중구",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=436"
+      ],
+      "evidence_id": "E2",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=641",
+        "fields": {
+          "name": "인천개항장 근대건축전시관",
+          "sido": "인천광역시",
+          "sigungu": "중구",
+          "address": "인천광역시 중구 신포로23번길 77",
+          "ownership_type": "공립",
+          "adult_fee": "500",
+          "youth_fee": "300",
+          "child_fee": "200",
+          "adult_fee_status": "BASE_FEE_PAID",
+          "weekday_open": "09:00",
+          "weekday_close": "18:00",
+          "holiday_open": "09:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "매주 월요일"
+        },
+        "base_data_date": "2025-08-18",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0004",
+      "name": "인천광역시립박물관",
+      "document": "인천광역시립박물관은 1946년 개관한 우리나라 최초의 공립박물관이다. 한국전쟁으로 건물이 소실됐다가 1953년 복원되었고, 1990년 지금의 위치로 이전 개관하여 2006년 리모델링 후 재개관했다. 박물관은 지하 1층과 지상 3층, 야외전시장으로 조성되어 있다. 1층과 2층의 역사실에서는 선사시대에서 조선시대 이후 1945년 광복 때까지의 역사 문물들을 전시하고 있다. 특히 개항이라는 역사적 사건에 있었던 인천의 과거와 현재를 살펴볼 수 있는 자료들이 방대하다. 박물관에 기증, 기탁된 유물을 선별 전시하는 기증실과 시기별로 특별 전시를 진행하는 기획전시실도 볼거리가 많다. 공예실, 서예실, 야외 전시장까지 알찬 전시가 이어진다. 고인돌, 삼층석탑, 조난비 같은 유물과 더불어 인천 시민들의 추억을 실은 옛 수인선 협궤 객차가 전시되어 있다. 인천의 역사와 문화유산을 보존하고 다양한 교육과 체험의 기회를 제공하는 프로그램도 운영하고 있다. 바로 옆에 인천상륙작전기념관이 위치해 있다. 인천광역시립박물관은 1946년 4월 개관한 우리나라 최초의 공립박물관으로 인천지역의 향토사와 문화유산을 조사, 연구하고 그 결과를 시민들에게 공개하여, 시민들을 위한 시민들의 공간으로 만들자는 취지로 설립되었습니다.",
+      "metadata": {
+        "longitude": 126.6531798,
+        "address": "인천광역시 연수구 청량로160번길 26",
+        "holiday_close": "18:00",
+        "homepage_url": "https://www.incheon.go.kr/museum/MU010102",
+        "youth_fee": 0.0,
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/45/4056045_image2_1.jpg",
+        "holiday_open": "09:00",
+        "sido": "인천광역시",
+        "source_types": "BASE|TOUR_API",
+        "latitude": 37.4205183287,
+        "weekday_open": "09:00",
+        "image_copyright": "Type1",
+        "child_fee": 0.0,
+        "weekday_close": "18:00",
+        "closure_rule_raw": "매주 월요일(공휴일인 월요일 제외), 1월 1일",
+        "sigungu": "연수구",
+        "requires_manual_review": true,
+        "ownership_type": "공립",
+        "name": "인천광역시립박물관",
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "adult_fee": 0.0
+      },
+      "vector_rank": 4,
+      "bm25_rank": 2,
+      "vector_distance": 0.5700889229774475,
+      "vector_score": null,
+      "bm25_score": 20.67625933967151,
+      "vector_document": "인천광역시립박물관은 1946년 개관한 우리나라 최초의 공립박물관이다. 한국전쟁으로 건물이 소실됐다가 1953년 복원되었고, 1990년 지금의 위치로 이전 개관하여 2006년 리모델링 후 재개관했다. 박물관은 지하 1층과 지상 3층, 야외전시장으로 조성되어 있다. 1층과 2층의 역사실에서는 선사시대에서 조선시대 이후 1945년 광복 때까지의 역사 문물들을 전시하고 있다. 특히 개항이라는 역사적 사건에 있었던 인천의 과거와 현재를 살펴볼 수 있는 자료들이 방대하다. 박물관에 기증, 기탁된 유물을 선별 전시하는 기증실과 시기별로 특별 전시를 진행하는 기획전시실도 볼거리가 많다. 공예실, 서예실, 야외 전시장까지 알찬 전시가 이어진다. 고인돌, 삼층석탑, 조난비 같은 유물과 더불어 인천 시민들의 추억을 실은 옛 수인선 협궤 객차가 전시되어 있다. 인천의 역사와 문화유산을 보존하고 다양한 교육과 체험의 기회를 제공하는 프로그램도 운영하고 있다. 바로 옆에 인천상륙작전기념관이 위치해 있다. 인천광역시립박물관은 1946년 4월 개관한 우리나라 최초의 공립박물관으로 인천지역의 향토사와 문화유산을 조사, 연구하고 그 결과를 시민들에게 공개하여, 시민들을 위한 시민들의 공간으로 만들자는 취지로 설립되었습니다.",
+      "bm25_document": "인천광역시립박물관은 1946년 개관한 우리나라 최초의 공립박물관이다. 한국전쟁으로 건물이 소실됐다가 1953년 복원되었고, 1990년 지금의 위치로 이전 개관하여 2006년 리모델링 후 재개관했다. 박물관은 지하 1층과 지상 3층, 야외전시장으로 조성되어 있다. 1층과 2층의 역사실에서는 선사시대에서 조선시대 이후 1945년 광복 때까지의 역사 문물들을 전시하고 있다. 특히 개항이라는 역사적 사건에 있었던 인천의 과거와 현재를 살펴볼 수 있는 자료들이 방대하다. 박물관에 기증, 기탁된 유물을 선별 전시하는 기증실과 시기별로 특별 전시를 진행하는 기획전시실도 볼거리가 많다. 공예실, 서예실, 야외 전시장까지 알찬 전시가 이어진다. 고인돌, 삼층석탑, 조난비 같은 유물과 더불어 인천 시민들의 추억을 실은 옛 수인선 협궤 객차가 전시되어 있다. 인천의 역사와 문화유산을 보존하고 다양한 교육과 체험의 기회를 제공하는 프로그램도 운영하고 있다. 바로 옆에 인천상륙작전기념관이 위치해 있다. 인천광역시립박물관은 1946년 4월 개관한 우리나라 최초의 공립박물관으로 인천지역의 향토사와 문화유산을 조사, 연구하고 그 결과를 시민들에게 공개하여, 시민들을 위한 시민들의 공간으로 만들자는 취지로 설립되었습니다.",
+      "best_span_id": "chroma:M0004",
+      "best_span_text": "인천광역시립박물관은 1946년 개관한 우리나라 최초의 공립박물관이다. 한국전쟁으로 건물이 소실됐다가 1953년 복원되었고, 1990년 지금의 위치로 이전 개관하여 2006년 리모델링 후 재개관했다. 박물관은 지하 1층과 지상 3층, 야외전시장으로 조성되어 있다. 1층과 2층의 역사실에서는 선사시대에서 조선시대 이후 1945년 광복 때까지의 역사 문물들을 전시하고 있다. 특히 개항이라는 역사적 사건에 있었던 인천의 과거와 현재를 살펴볼 수 있는 자료들이 방대하다. 박물관에 기증, 기탁된 유물을 선별 전시하는 기증실과 시기별로 특별 전시를 진행하는 기획전시실도 볼거리가 많다. 공예실, 서예실, 야외 전시장까지 알찬 전시가 이어진다. 고인돌, 삼층석탑, 조난비 같은 유물과 더불어 인천 시민들의 추억을 실은 옛 수인선 협궤 객차가 전시되어 있다. 인천의 역사와 문화유산을 보존하고 다양한 교육과 체험의 기회를 제공하는 프로그램도 운영하고 있다. 바로 옆에 인천상륙작전기념관이 위치해 있다. 인천광역시립박물관은 1946년 4월 개관한 우리나라 최초의 공립박물관으로 인천지역의 향토사와 문화유산을 조사, 연구하고 그 결과를 시민들에게 공개하여, 시민들을 위한 시민들의 공간으로 만들자는 취지로 설립되었습니다.",
+      "fusion_score": 0.031754032258064516,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 2,
+      "rerank_score": 0.07230595499277115,
+      "rank": 3,
+      "score": 0.07230595499277115,
+      "score_type": "cross_encoder",
+      "distance": 0.5700889229774475,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0004",
+      "source_doc_ids": [
+        "DOC-B0004-TOUR_API-129773",
+        "DOC-B0004-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0004-TOUR_API-129773",
+          "source_type": "TOUR_API",
+          "source_record_id": "129773",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=4",
+          "match_trust": "RECHECKED_BY_RULE_NOT_HUMAN_APPROVED"
+        },
+        {
+          "doc_id": "DOC-B0004-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0004",
+          "source_locator": "data/raw/museum_base_1070.csv#row=5",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 38,
+          "doc_ids": [
+            "DOC-B0004-TOUR_API-129773"
+          ]
+        },
+        {
+          "start": 39,
+          "end": 110,
+          "doc_ids": [
+            "DOC-B0004-TOUR_API-129773"
+          ]
+        },
+        {
+          "start": 111,
+          "end": 146,
+          "doc_ids": [
+            "DOC-B0004-TOUR_API-129773"
+          ]
+        },
+        {
+          "start": 147,
+          "end": 207,
+          "doc_ids": [
+            "DOC-B0004-TOUR_API-129773"
+          ]
+        },
+        {
+          "start": 208,
+          "end": 260,
+          "doc_ids": [
+            "DOC-B0004-TOUR_API-129773"
+          ]
+        },
+        {
+          "start": 261,
+          "end": 323,
+          "doc_ids": [
+            "DOC-B0004-TOUR_API-129773"
+          ]
+        },
+        {
+          "start": 324,
+          "end": 355,
+          "doc_ids": [
+            "DOC-B0004-TOUR_API-129773"
+          ]
+        },
+        {
+          "start": 356,
+          "end": 418,
+          "doc_ids": [
+            "DOC-B0004-TOUR_API-129773"
+          ]
+        },
+        {
+          "start": 419,
+          "end": 473,
+          "doc_ids": [
+            "DOC-B0004-TOUR_API-129773"
+          ]
+        },
+        {
+          "start": 474,
+          "end": 498,
+          "doc_ids": [
+            "DOC-B0004-TOUR_API-129773"
+          ]
+        },
+        {
+          "start": 499,
+          "end": 619,
+          "doc_ids": [
+            "DOC-B0004-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=4",
+      "text": "인천광역시립박물관은 1946년 개관한 우리나라 최초의 공립박물관이다. 한국전쟁으로 건물이 소실됐다가 1953년 복원되었고, 1990년 지금의 위치로 이전 개관하여 2006년 리모델링 후 재개관했다. 박물관은 지하 1층과 지상 3층, 야외전시장으로 조성되어 있다. 1층과 2층의 역사실에서는 선사시대에서 조선시대 이후 1945년 광복 때까지의 역사 문물들을 전시하고 있다. 특히 개항이라는 역사적 사건에 있었던 인천의 과거와 현재를 살펴볼 수 있는 자료들이 방대하다. 박물관에 기증, 기탁된 유물을 선별 전시하는 기증실과 시기별로 특별 전시를 진행하는 기획전시실도 볼거리가 많다. 공예실, 서예실, 야외 전시장까지 알찬 전시가 이어진다. 고인돌, 삼층석탑, 조난비 같은 유물과 더불어 인천 시민들의 추억을 실은 옛 수인선 협궤 객차가 전시되어 있다. 인천의 역사와 문화유산을 보존하고 다양한 교육과 체험의 기회를 제공하는 프로그램도 운영하고 있다. 바로 옆에 인천상륙작전기념관이 위치해 있다. 인천광역시립박물관은 1946년 4월 개관한 우리나라 최초의 공립박물관으로 인천지역의 향토사와 문화유산을 조사, 연구하고 그 결과를 시민들에게 공개하여, 시민들을 위한 시민들의 공간으로 만들자는 취지로 설립되었습니다.",
+      "sido": "인천광역시",
+      "sigungu": "연수구",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=4"
+      ],
+      "evidence_id": "E3",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=4",
+        "fields": {
+          "name": "인천광역시립박물관",
+          "sido": "인천광역시",
+          "sigungu": "연수구",
+          "address": "인천광역시 연수구 청량로160번길 26",
+          "ownership_type": "공립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "09:00",
+          "weekday_close": "18:00",
+          "holiday_open": "09:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "매주 월요일(공휴일인 월요일 제외), 1월 1일"
+        },
+        "base_data_date": "2026-09-18",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0708",
+      "name": "대구근대역사관",
+      "document": "대구근대역사관은 근대기 대구의 흔적과 역사·전통·문화를 사랑하는 이들의 요람이 되는 곳이다. 근대문화유산인 역사관 건물은 1932년 조선식산은행 대구지점으로 건립되어, 1954년부터는 한국산업은행 대구지점으로 이용된 근대문화유산이다. 르네상스 양식으로 조형미가 뛰어난 역사관 건물은 원형이 잘 보존돼 2003년 대구광역시 유형문화유산으로 지정되었다. 2008년 대구도시공사가 이 건물을 사들여 대구시에 기증했으며 이후 대구근대역사관으로 새롭게 단장돼 2011년 1월 문을 열었다. 지상 2층, 지하 1층의 박물관에는 대구 근대를 중심 범위로 행정‧사회‧경제‧교육‧독립운동‧예술 등을 소개하고 있으며, 1960년대까지 대구 현대사의 몇 장면도 만날 수 있다. 전시공간 외에도 체험실, 문화강좌실을 갖추고 있어 다양한 체험을 할 수 있는 장소이다. 근대기 대구의 모습과 선조들의 생활상을 알 수 있는 공립박물관",
+      "metadata": {
+        "source_types": "BASE|TOUR_API",
+        "latitude": 35.87179779,
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "sido": "대구광역시",
+        "weekday_close": "18:00",
+        "transport_notes": "지하철 1호선 중앙로역+204+304+349+401+410-1+503+623+706+730+급행2+북구2",
+        "longitude": 128.5911599,
+        "ownership_type": "공립",
+        "youth_fee": 0.0,
+        "homepage_url": "https://dmhm.or.kr",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/44/4110644_image2_1.jpg",
+        "weekday_open": "09:00",
+        "sigungu": "중구",
+        "image_copyright": "Type1",
+        "child_fee": 0.0,
+        "adult_fee": 0.0,
+        "holiday_open": "09:00",
+        "closure_rule_raw": "매주 월요일+1월 1일+설날추석 당일",
+        "name": "대구근대역사관",
+        "holiday_close": "18:00",
+        "address": "대구광역시 중구 경상감영길 67",
+        "requires_manual_review": true
+      },
+      "vector_rank": null,
+      "bm25_rank": 8,
+      "vector_distance": null,
+      "vector_score": null,
+      "bm25_score": 14.83050632677364,
+      "vector_document": "",
+      "bm25_document": "대구근대역사관은 근대기 대구의 흔적과 역사·전통·문화를 사랑하는 이들의 요람이 되는 곳이다. 근대문화유산인 역사관 건물은 1932년 조선식산은행 대구지점으로 건립되어, 1954년부터는 한국산업은행 대구지점으로 이용된 근대문화유산이다. 르네상스 양식으로 조형미가 뛰어난 역사관 건물은 원형이 잘 보존돼 2003년 대구광역시 유형문화유산으로 지정되었다. 2008년 대구도시공사가 이 건물을 사들여 대구시에 기증했으며 이후 대구근대역사관으로 새롭게 단장돼 2011년 1월 문을 열었다. 지상 2층, 지하 1층의 박물관에는 대구 근대를 중심 범위로 행정‧사회‧경제‧교육‧독립운동‧예술 등을 소개하고 있으며, 1960년대까지 대구 현대사의 몇 장면도 만날 수 있다. 전시공간 외에도 체험실, 문화강좌실을 갖추고 있어 다양한 체험을 할 수 있는 장소이다. 근대기 대구의 모습과 선조들의 생활상을 알 수 있는 공립박물관",
+      "best_span_id": "chroma:M0708",
+      "best_span_text": "대구근대역사관은 근대기 대구의 흔적과 역사·전통·문화를 사랑하는 이들의 요람이 되는 곳이다. 근대문화유산인 역사관 건물은 1932년 조선식산은행 대구지점으로 건립되어, 1954년부터는 한국산업은행 대구지점으로 이용된 근대문화유산이다. 르네상스 양식으로 조형미가 뛰어난 역사관 건물은 원형이 잘 보존돼 2003년 대구광역시 유형문화유산으로 지정되었다. 2008년 대구도시공사가 이 건물을 사들여 대구시에 기증했으며 이후 대구근대역사관으로 새롭게 단장돼 2011년 1월 문을 열었다. 지상 2층, 지하 1층의 박물관에는 대구 근대를 중심 범위로 행정‧사회‧경제‧교육‧독립운동‧예술 등을 소개하고 있으며, 1960년대까지 대구 현대사의 몇 장면도 만날 수 있다. 전시공간 외에도 체험실, 문화강좌실을 갖추고 있어 다양한 체험을 할 수 있는 장소이다. 근대기 대구의 모습과 선조들의 생활상을 알 수 있는 공립박물관",
+      "fusion_score": 0.014705882352941176,
+      "retrieved_by": [
+        "bm25"
+      ],
+      "fusion_rank": 15,
+      "rerank_score": 0.0011890704045072198,
+      "rank": 4,
+      "score": 0.0011890704045072198,
+      "score_type": "cross_encoder",
+      "distance": null,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "bm25"
+      ],
+      "retriever": "bm25",
+      "span_id": "chroma:M0708",
+      "source_doc_ids": [
+        "DOC-B0708-TOUR_API-1251806",
+        "DOC-B0708-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0708-TOUR_API-1251806",
+          "source_type": "TOUR_API",
+          "source_record_id": "1251806",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=345",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        },
+        {
+          "doc_id": "DOC-B0708-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0708",
+          "source_locator": "data/raw/museum_base_1070.csv#row=709",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 51,
+          "doc_ids": [
+            "DOC-B0708-TOUR_API-1251806"
+          ]
+        },
+        {
+          "start": 52,
+          "end": 130,
+          "doc_ids": [
+            "DOC-B0708-TOUR_API-1251806"
+          ]
+        },
+        {
+          "start": 131,
+          "end": 195,
+          "doc_ids": [
+            "DOC-B0708-TOUR_API-1251806"
+          ]
+        },
+        {
+          "start": 196,
+          "end": 268,
+          "doc_ids": [
+            "DOC-B0708-TOUR_API-1251806"
+          ]
+        },
+        {
+          "start": 269,
+          "end": 367,
+          "doc_ids": [
+            "DOC-B0708-TOUR_API-1251806"
+          ]
+        },
+        {
+          "start": 368,
+          "end": 416,
+          "doc_ids": [
+            "DOC-B0708-TOUR_API-1251806"
+          ]
+        },
+        {
+          "start": 417,
+          "end": 451,
+          "doc_ids": [
+            "DOC-B0708-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=345",
+      "text": "대구근대역사관은 근대기 대구의 흔적과 역사·전통·문화를 사랑하는 이들의 요람이 되는 곳이다. 근대문화유산인 역사관 건물은 1932년 조선식산은행 대구지점으로 건립되어, 1954년부터는 한국산업은행 대구지점으로 이용된 근대문화유산이다. 르네상스 양식으로 조형미가 뛰어난 역사관 건물은 원형이 잘 보존돼 2003년 대구광역시 유형문화유산으로 지정되었다. 2008년 대구도시공사가 이 건물을 사들여 대구시에 기증했으며 이후 대구근대역사관으로 새롭게 단장돼 2011년 1월 문을 열었다. 지상 2층, 지하 1층의 박물관에는 대구 근대를 중심 범위로 행정‧사회‧경제‧교육‧독립운동‧예술 등을 소개하고 있으며, 1960년대까지 대구 현대사의 몇 장면도 만날 수 있다. 전시공간 외에도 체험실, 문화강좌실을 갖추고 있어 다양한 체험을 할 수 있는 장소이다. 근대기 대구의 모습과 선조들의 생활상을 알 수 있는 공립박물관",
+      "sido": "대구광역시",
+      "sigungu": "중구",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=345"
+      ],
+      "evidence_id": "E4",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=492",
+        "fields": {
+          "name": "대구근대역사관",
+          "sido": "대구광역시",
+          "sigungu": "중구",
+          "address": "대구광역시 중구 경상감영길 67",
+          "ownership_type": "공립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "09:00",
+          "weekday_close": "18:00",
+          "holiday_open": "09:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "매주 월요일+1월 1일+설날추석 당일"
+        },
+        "base_data_date": "2025-12-10",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0286",
+      "name": "사상생활사박물관",
+      "document": "사상생활사박물관은 2016년 5월 개관하여 사상의 자연과 함께 살아온 사람들의 생활사 변천 과정을 전시하고 지역에 산재해 있는 관광자원을 소개하는 곳이며 주민들이 주도적으로 운영에 참여하고 전문가와 행정이 협업하여 지역의 문화를 발전시키는 주민들의 소통 공간이다. 사상지역은 1970년대 대한민국 근대화에 있어 중추적인 역할을 해왔으나 공업화의 악영향으로 회색도시, 문화의 불모지라는 오명과 함께 날로 낙후되어 가고 있는 사상공업지역에 문화와 소통의 향기를 전하는 문화 네트워크형 박물관을 건립하여 잊혀가는 사상 주민들의 생활사와 추억들을 수집하여 역사를 조명하고 미래를 준비하기 위하여 사상생활사박물관을 건립하게 되었다. 특별 전시와 기획 전시도 운영하고 있다. 사상생활사박물관은 2016년 5월 6일 개관한 생활사 전문 박물관",
+      "metadata": {
+        "homepage_url": "https://www.sasang.go.kr/lmuseum/index.sasang",
+        "closure_rule_raw": "1월 1일+설 및 추석연휴+매주 월요일(공휴일이면 그 다음 첫번째 평일 휴관)",
+        "child_fee": 0.0,
+        "sido": "부산광역시",
+        "requires_manual_review": true,
+        "holiday_open": "09:00",
+        "address": "부산광역시 사상구 낙동대로 1258번길 36",
+        "amenities_raw": "휠체어+장애인 주차구역+기저귀갈이대",
+        "adult_fee": 0.0,
+        "name": "사상생활사박물관",
+        "image_copyright": "Type3",
+        "longitude": 128.9787416,
+        "source_types": "BASE|TOUR_API",
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "youth_fee": 0.0,
+        "ownership_type": "공립",
+        "weekday_close": "18:00",
+        "transport_notes": "지하철: 2호선 덕포역 1번 출구(약500m)+버스: 사상구7,123,126,138-1",
+        "weekday_open": "09:00",
+        "latitude": 35.1720448,
+        "sigungu": "사상구",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/63/3017163_image2_1.JPG",
+        "holiday_close": "18:00"
+      },
+      "vector_rank": null,
+      "bm25_rank": 10,
+      "vector_distance": null,
+      "vector_score": null,
+      "bm25_score": 13.451170437900437,
+      "vector_document": "",
+      "bm25_document": "사상생활사박물관은 2016년 5월 개관하여 사상의 자연과 함께 살아온 사람들의 생활사 변천 과정을 전시하고 지역에 산재해 있는 관광자원을 소개하는 곳이며 주민들이 주도적으로 운영에 참여하고 전문가와 행정이 협업하여 지역의 문화를 발전시키는 주민들의 소통 공간이다. 사상지역은 1970년대 대한민국 근대화에 있어 중추적인 역할을 해왔으나 공업화의 악영향으로 회색도시, 문화의 불모지라는 오명과 함께 날로 낙후되어 가고 있는 사상공업지역에 문화와 소통의 향기를 전하는 문화 네트워크형 박물관을 건립하여 잊혀가는 사상 주민들의 생활사와 추억들을 수집하여 역사를 조명하고 미래를 준비하기 위하여 사상생활사박물관을 건립하게 되었다. 특별 전시와 기획 전시도 운영하고 있다. 사상생활사박물관은 2016년 5월 6일 개관한 생활사 전문 박물관",
+      "best_span_id": "chroma:M0286",
+      "best_span_text": "사상생활사박물관은 2016년 5월 개관하여 사상의 자연과 함께 살아온 사람들의 생활사 변천 과정을 전시하고 지역에 산재해 있는 관광자원을 소개하는 곳이며 주민들이 주도적으로 운영에 참여하고 전문가와 행정이 협업하여 지역의 문화를 발전시키는 주민들의 소통 공간이다. 사상지역은 1970년대 대한민국 근대화에 있어 중추적인 역할을 해왔으나 공업화의 악영향으로 회색도시, 문화의 불모지라는 오명과 함께 날로 낙후되어 가고 있는 사상공업지역에 문화와 소통의 향기를 전하는 문화 네트워크형 박물관을 건립하여 잊혀가는 사상 주민들의 생활사와 추억들을 수집하여 역사를 조명하고 미래를 준비하기 위하여 사상생활사박물관을 건립하게 되었다. 특별 전시와 기획 전시도 운영하고 있다. 사상생활사박물관은 2016년 5월 6일 개관한 생활사 전문 박물관",
+      "fusion_score": 0.014285714285714285,
+      "retrieved_by": [
+        "bm25"
+      ],
+      "fusion_rank": 17,
+      "rerank_score": 0.000758032314479351,
+      "rank": 5,
+      "score": 0.000758032314479351,
+      "score_type": "cross_encoder",
+      "distance": null,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "bm25"
+      ],
+      "retriever": "bm25",
+      "span_id": "chroma:M0286",
+      "source_doc_ids": [
+        "DOC-B0286-TOUR_API-3017191",
+        "DOC-B0286-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0286-TOUR_API-3017191",
+          "source_type": "TOUR_API",
+          "source_record_id": "3017191",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=142",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        },
+        {
+          "doc_id": "DOC-B0286-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0286",
+          "source_locator": "data/raw/museum_base_1070.csv#row=287",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 147,
+          "doc_ids": [
+            "DOC-B0286-TOUR_API-3017191"
+          ]
+        },
+        {
+          "start": 148,
+          "end": 348,
+          "doc_ids": [
+            "DOC-B0286-TOUR_API-3017191"
+          ]
+        },
+        {
+          "start": 349,
+          "end": 371,
+          "doc_ids": [
+            "DOC-B0286-TOUR_API-3017191"
+          ]
+        },
+        {
+          "start": 372,
+          "end": 408,
+          "doc_ids": [
+            "DOC-B0286-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=142",
+      "text": "사상생활사박물관은 2016년 5월 개관하여 사상의 자연과 함께 살아온 사람들의 생활사 변천 과정을 전시하고 지역에 산재해 있는 관광자원을 소개하는 곳이며 주민들이 주도적으로 운영에 참여하고 전문가와 행정이 협업하여 지역의 문화를 발전시키는 주민들의 소통 공간이다. 사상지역은 1970년대 대한민국 근대화에 있어 중추적인 역할을 해왔으나 공업화의 악영향으로 회색도시, 문화의 불모지라는 오명과 함께 날로 낙후되어 가고 있는 사상공업지역에 문화와 소통의 향기를 전하는 문화 네트워크형 박물관을 건립하여 잊혀가는 사상 주민들의 생활사와 추억들을 수집하여 역사를 조명하고 미래를 준비하기 위하여 사상생활사박물관을 건립하게 되었다. 특별 전시와 기획 전시도 운영하고 있다. 사상생활사박물관은 2016년 5월 6일 개관한 생활사 전문 박물관",
+      "sido": "부산광역시",
+      "sigungu": "사상구",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=142"
+      ],
+      "evidence_id": "E5",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=200",
+        "fields": {
+          "name": "사상생활사박물관",
+          "sido": "부산광역시",
+          "sigungu": "사상구",
+          "address": "부산광역시 사상구 낙동대로 1258번길 36",
+          "ownership_type": "공립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "09:00",
+          "weekday_close": "18:00",
+          "holiday_open": "09:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "1월 1일+설 및 추석연휴+매주 월요일(공휴일이면 그 다음 첫번째 평일 휴관)",
+          "amenities_raw": "휠체어+장애인 주차구역+기저귀갈이대"
+        },
+        "base_data_date": "2026-07-18",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    }
+  ],
+  "answer": "근대도시관은 개항(1883년) 이후 광복(1945년)까지 인천의 형성과 변천 과정을 소개합니다. [E1]",
+  "retrieval_status": "ok",
+  "answer_status": "answered",
+  "route": "hybrid",
+  "retry_count": 0,
+  "supervisor_verified": true,
+  "rerank_applied": true,
+  "retriever_errors": [],
+  "warnings": [],
+  "duration_ms": 218761.04,
+  "error_type": "",
+  "hit_at_1": 1,
+  "hit_at_3": 1,
+  "hit_at_5": 1,
+  "recall_at_5": 1.0,
+  "mrr_at_10": 1.0
+}

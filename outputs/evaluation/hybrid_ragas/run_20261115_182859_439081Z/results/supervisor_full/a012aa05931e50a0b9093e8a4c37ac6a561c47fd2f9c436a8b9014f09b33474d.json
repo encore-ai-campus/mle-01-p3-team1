@@ -1,0 +1,676 @@
+{
+  "evidence_context_version": "grounded-evidence-v2",
+  "evaluation_contexts": [
+    "{\"evidence_context_version\": \"grounded-evidence-v2\", \"evidence_id\": \"E1\", \"metadata_provenance\": {\"base_data_date\": \"2026-04-08\", \"fields\": {\"address\": \"서울특별시 서대문구 통일로 279-24\", \"adult_fee\": \"0\", \"adult_fee_status\": \"BASE_FEE_ZERO_CHECK_EXCEPTIONS\", \"child_fee\": \"0\", \"closure_rule_raw\": \"매주 월요일(단, 월요일이 공휴일인 경우 당일은 개관하고 그 다음 첫번째 평일에 휴관)\", \"holiday_close\": \"18:00\", \"holiday_open\": \"09:00\", \"name\": \"국립대한민국임시정부기념관\", \"ownership_type\": \"국립\", \"sido\": \"서울특별시\", \"sigungu\": \"서대문구\", \"weekday_close\": \"18:00\", \"weekday_open\": \"09:00\", \"youth_fee\": \"0\"}, \"source_kind\": \"derived_csv_row\", \"source_locator\": \"data/processed/museum_final_738.csv#record=360\", \"trust\": \"derived_dataset_not_human_verified\"}, \"museum_id\": \"M0503\", \"name\": \"국립대한민국임시정부기념관\", \"source_doc_ids\": [\"DOC-B0503-TOUR_API-2813170\"], \"source_documents\": [{\"doc_id\": \"DOC-B0503-TOUR_API-2813170\", \"match_trust\": \"AUTO_MATCH_NOT_HUMAN_VERIFIED\", \"source_locator\": \"data/raw/museum_tourapi_with_overview.csv#row=249\", \"source_record_id\": \"2813170\", \"source_type\": \"TOUR_API\"}], \"source_locator\": \"data/raw/museum_tourapi_with_overview.csv#row=249\", \"source_locators\": [\"data/raw/museum_tourapi_with_overview.csv#row=249\"], \"source_scope\": \"text\", \"source_spans\": [{\"doc_ids\": [\"DOC-B0503-TOUR_API-2813170\"], \"end\": 78, \"start\": 0}, {\"doc_ids\": [\"DOC-B0503-TOUR_API-2813170\"], \"end\": 150, \"start\": 79}, {\"doc_ids\": [\"DOC-B0503-TOUR_API-2813170\"], \"end\": 234, \"start\": 151}], \"source_urls\": [], \"text\": \"국립대한민국임시정부기념관은 3.1운동으로 건립된 대한민국 임시정부의 법통을 계승한다고 밝히는 헌법정신의 내용과 가치를 널리 알리는 공간이다. 기념관에서는 대한민국 임시정부의 역사를 주제별로 펼쳐 알리는 상설전시와 1년에 두 차례 특별주제를 다루는 특별기획전시가 열린다. 또한 자라나는 미래세대가 대한민국 임시정부를 기억하고 그 역사를 자랑스럽게 여길 수 있도록 청소년을 대상으로 창의적인 체험 프로그램도 운영하고 있다.\"}",
+    "{\"evidence_context_version\": \"grounded-evidence-v2\", \"evidence_id\": \"E2\", \"metadata_provenance\": {\"base_data_date\": \"2026-09-03\", \"fields\": {\"address\": \"서울특별시 성동구 성수일로12길 20\", \"adult_fee\": \"5000\", \"adult_fee_status\": \"BASE_FEE_PAID\", \"child_fee\": \"5000\", \"closure_rule_raw\": \"월+공휴일\", \"holiday_close\": \"18:00\", \"holiday_open\": \"10:00\", \"name\": \"헬로우뮤지움\", \"ownership_type\": \"사립\", \"sido\": \"서울특별시\", \"sigungu\": \"성동구\", \"weekday_close\": \"18:00\", \"weekday_open\": \"10:00\", \"youth_fee\": \"5000\"}, \"source_kind\": \"derived_csv_row\", \"source_locator\": \"data/processed/museum_final_738.csv#record=172\", \"trust\": \"derived_dataset_not_human_verified\"}, \"museum_id\": \"M0244\", \"name\": \"헬로우뮤지움\", \"source_doc_ids\": [\"DOC-B0244-TOUR_API-2488585\"], \"source_documents\": [{\"doc_id\": \"DOC-B0244-TOUR_API-2488585\", \"match_trust\": \"AUTO_MATCH_NOT_HUMAN_VERIFIED\", \"source_locator\": \"data/raw/museum_tourapi_with_overview.csv#row=121\", \"source_record_id\": \"2488585\", \"source_type\": \"TOUR_API\"}], \"source_locator\": \"data/raw/museum_tourapi_with_overview.csv#row=121\", \"source_locators\": [\"data/raw/museum_tourapi_with_overview.csv#row=121\"], \"source_scope\": \"text\", \"source_spans\": [{\"doc_ids\": [\"DOC-B0244-TOUR_API-2488585\"], \"end\": 46, \"start\": 0}, {\"doc_ids\": [\"DOC-B0244-TOUR_API-2488585\"], \"end\": 141, \"start\": 47}, {\"doc_ids\": [\"DOC-B0244-TOUR_API-2488585\"], \"end\": 211, \"start\": 142}], \"source_urls\": [], \"text\": \"국내 최초의 사립 어린이 미술관으로 2019년 10월 서울 성수동에 재개관을 했다. 헬로우 뮤지엄은 다음세대를 위한 미래적 가치를 실현하는 새로운 어린이미술관 모델을 선보이고 있으며, 지역 주민의 삶과 가까운 커뮤니티형 에코미술관으로 자리매김하고 있다. 어린이의 생태 감수성을 키우고, 어린이와 연결된 지역사회 구성원의 삶까지 풍요롭게 하는 전시와 교육 프로그램을 운영 중이다.\"}",
+    "{\"evidence_context_version\": \"grounded-evidence-v2\", \"evidence_id\": \"E3\", \"metadata_provenance\": {\"base_data_date\": \"2026-01-26\", \"fields\": {\"address\": \"서울특별시 용산구 임정로 26\", \"adult_fee\": \"0\", \"adult_fee_status\": \"BASE_FEE_ZERO_CHECK_EXCEPTIONS\", \"child_fee\": \"0\", \"closure_rule_raw\": \"월요일+1월1일+설연휴+추석연휴+기타 관장이 정하는 날\", \"holiday_close\": \"18:00\", \"holiday_open\": \"10:00\", \"name\": \"백범김구기념관\", \"ownership_type\": \"사립\", \"sido\": \"서울특별시\", \"sigungu\": \"용산구\", \"weekday_close\": \"18:00\", \"weekday_open\": \"10:00\", \"youth_fee\": \"0\"}, \"source_kind\": \"derived_csv_row\", \"source_locator\": \"data/processed/museum_final_738.csv#record=399\", \"trust\": \"derived_dataset_not_human_verified\"}, \"museum_id\": \"M0575\", \"name\": \"백범김구기념관\", \"source_doc_ids\": [\"DOC-B0575-TOUR_API-130473\"], \"source_documents\": [{\"doc_id\": \"DOC-B0575-TOUR_API-130473\", \"match_trust\": \"AUTO_MATCH_NOT_HUMAN_VERIFIED\", \"source_locator\": \"data/raw/museum_tourapi_with_overview.csv#row=284\", \"source_record_id\": \"130473\", \"source_type\": \"TOUR_API\"}], \"source_locator\": \"data/raw/museum_tourapi_with_overview.csv#row=284\", \"source_locators\": [\"data/raw/museum_tourapi_with_overview.csv#row=284\"], \"source_scope\": \"text\", \"source_spans\": [{\"doc_ids\": [\"DOC-B0575-TOUR_API-130473\"], \"end\": 154, \"start\": 0}, {\"doc_ids\": [\"DOC-B0575-TOUR_API-130473\"], \"end\": 306, \"start\": 155}, {\"doc_ids\": [\"DOC-B0575-TOUR_API-130473\"], \"end\": 440, \"start\": 307}], \"source_urls\": [], \"text\": \"백범김구기념관은 세계에서 가장 아름답고 높은 문화를 가진 자주·민주·통일 조국을 건설하기 위해 일생을 분투하신 겨레의 큰 스승 백범 김구 선생(1876~1949)의 삶과 사상을 널리 알리고 계승·발전시키기 위해 2000년 6월에 기공하여 2002년 10월 22일에 개관하였다. 근·현대사 전문 역사박물관인 백범김구기념관은 격동의 한국 근·현대사와 함께 한 김구 선생의 삶과 사상을 통해 대한민국 임시정부의 역사와 한국 근·현대를 이해하고 조국의 자주·민주·통일을 지향하며 민족의 아름다운 문화를 발전시켜 나아가는 온 겨레가 함께하는 문화 공간이다. 기념관 1층과 2층에 김구 선생의 일대기와 한국 근·현대사 관련한 각종 기록 및 자료를 전시하고 있으며, 전문 자료실과 각종 교육프로그램, 문화행사 등에 활용될 수 있는 교육장, 대회의실, 컨벤션홀 등 다양한 교육·문화공간을 갖추고 있다.\"}",
+    "{\"evidence_context_version\": \"grounded-evidence-v2\", \"evidence_id\": \"E4\", \"metadata_provenance\": {\"base_data_date\": \"2026-07-01\", \"fields\": {\"address\": \"경상북도 구미시 박정희로 123\", \"adult_fee\": \"0\", \"adult_fee_status\": \"BASE_FEE_ZERO_CHECK_EXCEPTIONS\", \"child_fee\": \"0\", \"closure_rule_raw\": \"매주 월+1월 1일+설 당일+추석 당일\", \"holiday_close\": \"18:00\", \"holiday_open\": \"09:00\", \"name\": \"박정희대통령역사자료관\", \"ownership_type\": \"공립\", \"sido\": \"경상북도\", \"sigungu\": \"구미시\", \"weekday_close\": \"18:00\", \"weekday_open\": \"09:00\", \"youth_fee\": \"0\"}, \"source_kind\": \"derived_csv_row\", \"source_locator\": \"data/processed/museum_final_738.csv#record=193\", \"trust\": \"derived_dataset_not_human_verified\"}, \"museum_id\": \"M0271\", \"name\": \"박정희대통령역사자료관\", \"source_doc_ids\": [\"DOC-B0271-TOUR_API-2732402\", \"DOC-B0271-BASE\"], \"source_documents\": [{\"doc_id\": \"DOC-B0271-TOUR_API-2732402\", \"match_trust\": \"AUTO_MATCH_NOT_HUMAN_VERIFIED\", \"source_locator\": \"data/raw/museum_tourapi_with_overview.csv#row=136\", \"source_record_id\": \"2732402\", \"source_type\": \"TOUR_API\"}, {\"doc_id\": \"DOC-B0271-BASE\", \"match_trust\": \"BASE_SOURCE\", \"source_locator\": \"data/raw/museum_base_1070.csv#row=272\", \"source_record_id\": \"B0271\", \"source_type\": \"BASE\"}], \"source_locator\": \"data/raw/museum_tourapi_with_overview.csv#row=136\", \"source_locators\": [\"data/raw/museum_tourapi_with_overview.csv#row=136\"], \"source_scope\": \"text\", \"source_spans\": [{\"doc_ids\": [\"DOC-B0271-TOUR_API-2732402\"], \"end\": 93, \"start\": 0}, {\"doc_ids\": [\"DOC-B0271-TOUR_API-2732402\"], \"end\": 250, \"start\": 94}, {\"doc_ids\": [\"DOC-B0271-TOUR_API-2732402\"], \"end\": 315, \"start\": 251}, {\"doc_ids\": [\"DOC-B0271-TOUR_API-2732402\"], \"end\": 373, \"start\": 316}, {\"doc_ids\": [\"DOC-B0271-BASE\"], \"end\": 408, \"start\": 374}], \"source_urls\": [], \"text\": \"구미시는 우리나라 최초의 도립공원인 금오산을 비롯하여 낙동강이 도심 중앙을 흐르는 아름다운 도시로, 박정희대통령 생가와 대한민국 최대의 내륙 산업단지를 보유하고 있다. 2021년 9월 28일 개관한 박정희대통령역사자료관은 대통령의 유품과 구미공단 조성 당시 관련 자료 등을 수집·보관·관리하고 있으며 우리나라 근대화와 구미 산업발전 과정을 체계적으로 전시한 상설전시실, 기획전시실, 162석의 세미나실, 자료검색을 위한 아카이브실로 구성되어 있다. 어르신들에게는 몸소 겪었던 시대의 향수를 느끼게 하고 미래세대에는 대한민국의 근대화와 산업화 과정을 배울 수 있다. 역사자료관 주변은 박정희대통령 생가, 민족중흥관, 박대통령 동상, 새마을운동테마공원이 자리 잡고 있다. 박정희 대통령 유품 및 관련 근·현대사 자료를 보존 관리 전시\"}",
+    "{\"evidence_context_version\": \"grounded-evidence-v2\", \"evidence_id\": \"E5\", \"metadata_provenance\": {\"base_data_date\": \"2026-04-08\", \"fields\": {\"address\": \"부산광역시 남구 홍곡로 320번길 100\", \"adult_fee\": \"0\", \"adult_fee_status\": \"BASE_FEE_ZERO_CHECK_EXCEPTIONS\", \"child_fee\": \"0\", \"closure_rule_raw\": \"매주 월요일, 1월 1일, 설날, 추석\", \"holiday_close\": \"17:30\", \"holiday_open\": \"09:30\", \"name\": \"국립일제강제동원역사관\", \"ownership_type\": \"국립\", \"sido\": \"부산광역시\", \"sigungu\": \"남구\", \"weekday_close\": \"17:30\", \"weekday_open\": \"09:30\", \"youth_fee\": \"0\"}, \"source_kind\": \"derived_csv_row\", \"source_locator\": \"data/processed/museum_final_738.csv#record=359\", \"trust\": \"derived_dataset_not_human_verified\"}, \"museum_id\": \"M0502\", \"name\": \"국립일제강제동원역사관\", \"source_doc_ids\": [\"DOC-B0502-TOUR_API-2551424\"], \"source_documents\": [{\"doc_id\": \"DOC-B0502-TOUR_API-2551424\", \"match_trust\": \"AUTO_MATCH_NOT_HUMAN_VERIFIED\", \"source_locator\": \"data/raw/museum_tourapi_with_overview.csv#row=248\", \"source_record_id\": \"2551424\", \"source_type\": \"TOUR_API\"}], \"source_locator\": \"data/raw/museum_tourapi_with_overview.csv#row=248\", \"source_locators\": [\"data/raw/museum_tourapi_with_overview.csv#row=248\"], \"source_scope\": \"text\", \"source_spans\": [{\"doc_ids\": [\"DOC-B0502-TOUR_API-2551424\"], \"end\": 95, \"start\": 0}, {\"doc_ids\": [\"DOC-B0502-TOUR_API-2551424\"], \"end\": 192, \"start\": 96}, {\"doc_ids\": [\"DOC-B0502-TOUR_API-2551424\"], \"end\": 239, \"start\": 193}, {\"doc_ids\": [\"DOC-B0502-TOUR_API-2551424\"], \"end\": 402, \"start\": 240}], \"source_urls\": [], \"text\": \"국립일제강제동원역사관은 일제 강점기 강제동원의 실상을 규명함으로써 성숙한 역사의식을 고취하고, 인권과 세계평화에 대한 국민 교육의 장을 제공하는 것을 목적으로 건립되었다. 일제 강점기 때 부산항이 대부분의 강제동원 출발지였고, 강제동원자의 일부가 경상도 출신이었다는 역사성과 접근성 등을 감안하여, 2008년 9월 부산에 건립 방침을 확정했다. 역사관 내부에는 정부에서 수집한 강제동원 수기, 사진, 박물류 등을 전시하고 있다. 그리고 일제 강제동원 희생자를 추모할 수 있는 추모탑과 기억의 터(위패관)가 마련되어 있고, 미래세대에게 평화의 소중함을 알리기 위한 어린이체험관과 어린이 도서관 다독다독이 있어 '유족을 위한 추도, 기념시설'로서의 역할은 물론 '일제강제동원 역사 교육 공간'으로서의 역할을 수행하고 있다.\"}"
+  ],
+  "mode": "supervisor_full",
+  "question_id": "Q291",
+  "evidence": [
+    {
+      "museum_id": "M0503",
+      "name": "국립대한민국임시정부기념관",
+      "document": "국립대한민국임시정부기념관은 3.1운동으로 건립된 대한민국 임시정부의 법통을 계승한다고 밝히는 헌법정신의 내용과 가치를 널리 알리는 공간이다. 기념관에서는 대한민국 임시정부의 역사를 주제별로 펼쳐 알리는 상설전시와 1년에 두 차례 특별주제를 다루는 특별기획전시가 열린다. 또한 자라나는 미래세대가 대한민국 임시정부를 기억하고 그 역사를 자랑스럽게 여길 수 있도록 청소년을 대상으로 창의적인 체험 프로그램도 운영하고 있다.",
+      "metadata": {
+        "source_types": "TOUR_API",
+        "child_fee": 0.0,
+        "holiday_open": "09:00",
+        "weekday_open": "09:00",
+        "homepage_url": "https://www.nmkpg.go.kr",
+        "sido": "서울특별시",
+        "closure_rule_raw": "매주 월요일(단, 월요일이 공휴일인 경우 당일은 개관하고 그 다음 첫번째 평일에 휴관)",
+        "weekday_close": "18:00",
+        "name": "국립대한민국임시정부기념관",
+        "youth_fee": 0.0,
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/29/4095029_image2_1.jpg",
+        "latitude": 37.57624246,
+        "requires_manual_review": true,
+        "holiday_close": "18:00",
+        "sigungu": "서대문구",
+        "adult_fee": 0.0,
+        "image_copyright": "Type1",
+        "longitude": 126.9546507,
+        "ownership_type": "국립",
+        "address": "서울특별시 서대문구 통일로 279-24"
+      },
+      "vector_rank": 1,
+      "bm25_rank": 1,
+      "vector_distance": 0.4959489107131958,
+      "vector_score": null,
+      "bm25_score": 41.758018288121036,
+      "vector_document": "국립대한민국임시정부기념관은 3.1운동으로 건립된 대한민국 임시정부의 법통을 계승한다고 밝히는 헌법정신의 내용과 가치를 널리 알리는 공간이다. 기념관에서는 대한민국 임시정부의 역사를 주제별로 펼쳐 알리는 상설전시와 1년에 두 차례 특별주제를 다루는 특별기획전시가 열린다. 또한 자라나는 미래세대가 대한민국 임시정부를 기억하고 그 역사를 자랑스럽게 여길 수 있도록 청소년을 대상으로 창의적인 체험 프로그램도 운영하고 있다.",
+      "bm25_document": "국립대한민국임시정부기념관은 3.1운동으로 건립된 대한민국 임시정부의 법통을 계승한다고 밝히는 헌법정신의 내용과 가치를 널리 알리는 공간이다. 기념관에서는 대한민국 임시정부의 역사를 주제별로 펼쳐 알리는 상설전시와 1년에 두 차례 특별주제를 다루는 특별기획전시가 열린다. 또한 자라나는 미래세대가 대한민국 임시정부를 기억하고 그 역사를 자랑스럽게 여길 수 있도록 청소년을 대상으로 창의적인 체험 프로그램도 운영하고 있다.",
+      "best_span_id": "chroma:M0503",
+      "best_span_text": "국립대한민국임시정부기념관은 3.1운동으로 건립된 대한민국 임시정부의 법통을 계승한다고 밝히는 헌법정신의 내용과 가치를 널리 알리는 공간이다. 기념관에서는 대한민국 임시정부의 역사를 주제별로 펼쳐 알리는 상설전시와 1년에 두 차례 특별주제를 다루는 특별기획전시가 열린다. 또한 자라나는 미래세대가 대한민국 임시정부를 기억하고 그 역사를 자랑스럽게 여길 수 있도록 청소년을 대상으로 창의적인 체험 프로그램도 운영하고 있다.",
+      "fusion_score": 0.03278688524590164,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 1,
+      "name_match": true,
+      "rerank_score": 0.9998944997787476,
+      "rank": 1,
+      "score": 0.9998944997787476,
+      "score_type": "cross_encoder",
+      "distance": 0.4959489107131958,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0503",
+      "source_doc_ids": [
+        "DOC-B0503-TOUR_API-2813170"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0503-TOUR_API-2813170",
+          "source_type": "TOUR_API",
+          "source_record_id": "2813170",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=249",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 78,
+          "doc_ids": [
+            "DOC-B0503-TOUR_API-2813170"
+          ]
+        },
+        {
+          "start": 79,
+          "end": 150,
+          "doc_ids": [
+            "DOC-B0503-TOUR_API-2813170"
+          ]
+        },
+        {
+          "start": 151,
+          "end": 234,
+          "doc_ids": [
+            "DOC-B0503-TOUR_API-2813170"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=249",
+      "text": "국립대한민국임시정부기념관은 3.1운동으로 건립된 대한민국 임시정부의 법통을 계승한다고 밝히는 헌법정신의 내용과 가치를 널리 알리는 공간이다. 기념관에서는 대한민국 임시정부의 역사를 주제별로 펼쳐 알리는 상설전시와 1년에 두 차례 특별주제를 다루는 특별기획전시가 열린다. 또한 자라나는 미래세대가 대한민국 임시정부를 기억하고 그 역사를 자랑스럽게 여길 수 있도록 청소년을 대상으로 창의적인 체험 프로그램도 운영하고 있다.",
+      "sido": "서울특별시",
+      "sigungu": "서대문구",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=249"
+      ],
+      "evidence_id": "E1",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=360",
+        "fields": {
+          "name": "국립대한민국임시정부기념관",
+          "sido": "서울특별시",
+          "sigungu": "서대문구",
+          "address": "서울특별시 서대문구 통일로 279-24",
+          "ownership_type": "국립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "09:00",
+          "weekday_close": "18:00",
+          "holiday_open": "09:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "매주 월요일(단, 월요일이 공휴일인 경우 당일은 개관하고 그 다음 첫번째 평일에 휴관)"
+        },
+        "base_data_date": "2026-04-08",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0244",
+      "name": "헬로우뮤지움",
+      "document": "국내 최초의 사립 어린이 미술관으로 2019년 10월 서울 성수동에 재개관을 했다. 헬로우 뮤지엄은 다음세대를 위한 미래적 가치를 실현하는 새로운 어린이미술관 모델을 선보이고 있으며, 지역 주민의 삶과 가까운 커뮤니티형 에코미술관으로 자리매김하고 있다. 어린이의 생태 감수성을 키우고, 어린이와 연결된 지역사회 구성원의 삶까지 풍요롭게 하는 전시와 교육 프로그램을 운영 중이다.",
+      "metadata": {
+        "name": "헬로우뮤지움",
+        "sido": "서울특별시",
+        "adult_fee": 5000.0,
+        "longitude": 127.0532497,
+        "latitude": 37.5481761,
+        "adult_fee_status": "BASE_FEE_PAID",
+        "holiday_close": "18:00",
+        "homepage_url": "http://www.hellomuseum.com/",
+        "weekday_close": "18:00",
+        "youth_fee": 5000.0,
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/16/3467516_image2_1.jpg",
+        "weekday_open": "10:00",
+        "address": "서울특별시 성동구 성수일로12길 20",
+        "closure_rule_raw": "월+공휴일",
+        "holiday_open": "10:00",
+        "source_types": "TOUR_API",
+        "image_copyright": "Type3",
+        "child_fee": 5000.0,
+        "sigungu": "성동구",
+        "requires_manual_review": true,
+        "ownership_type": "사립"
+      },
+      "vector_rank": null,
+      "bm25_rank": 8,
+      "vector_distance": null,
+      "vector_score": null,
+      "bm25_score": 10.584336190596233,
+      "vector_document": "",
+      "bm25_document": "국내 최초의 사립 어린이 미술관으로 2019년 10월 서울 성수동에 재개관을 했다. 헬로우 뮤지엄은 다음세대를 위한 미래적 가치를 실현하는 새로운 어린이미술관 모델을 선보이고 있으며, 지역 주민의 삶과 가까운 커뮤니티형 에코미술관으로 자리매김하고 있다. 어린이의 생태 감수성을 키우고, 어린이와 연결된 지역사회 구성원의 삶까지 풍요롭게 하는 전시와 교육 프로그램을 운영 중이다.",
+      "best_span_id": "chroma:M0244",
+      "best_span_text": "국내 최초의 사립 어린이 미술관으로 2019년 10월 서울 성수동에 재개관을 했다. 헬로우 뮤지엄은 다음세대를 위한 미래적 가치를 실현하는 새로운 어린이미술관 모델을 선보이고 있으며, 지역 주민의 삶과 가까운 커뮤니티형 에코미술관으로 자리매김하고 있다. 어린이의 생태 감수성을 키우고, 어린이와 연결된 지역사회 구성원의 삶까지 풍요롭게 하는 전시와 교육 프로그램을 운영 중이다.",
+      "fusion_score": 0.014705882352941176,
+      "retrieved_by": [
+        "bm25"
+      ],
+      "fusion_rank": 13,
+      "rerank_score": 0.060787368565797806,
+      "rank": 2,
+      "score": 0.060787368565797806,
+      "score_type": "cross_encoder",
+      "distance": null,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "bm25"
+      ],
+      "retriever": "bm25",
+      "span_id": "chroma:M0244",
+      "source_doc_ids": [
+        "DOC-B0244-TOUR_API-2488585"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0244-TOUR_API-2488585",
+          "source_type": "TOUR_API",
+          "source_record_id": "2488585",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=121",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 46,
+          "doc_ids": [
+            "DOC-B0244-TOUR_API-2488585"
+          ]
+        },
+        {
+          "start": 47,
+          "end": 141,
+          "doc_ids": [
+            "DOC-B0244-TOUR_API-2488585"
+          ]
+        },
+        {
+          "start": 142,
+          "end": 211,
+          "doc_ids": [
+            "DOC-B0244-TOUR_API-2488585"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=121",
+      "text": "국내 최초의 사립 어린이 미술관으로 2019년 10월 서울 성수동에 재개관을 했다. 헬로우 뮤지엄은 다음세대를 위한 미래적 가치를 실현하는 새로운 어린이미술관 모델을 선보이고 있으며, 지역 주민의 삶과 가까운 커뮤니티형 에코미술관으로 자리매김하고 있다. 어린이의 생태 감수성을 키우고, 어린이와 연결된 지역사회 구성원의 삶까지 풍요롭게 하는 전시와 교육 프로그램을 운영 중이다.",
+      "sido": "서울특별시",
+      "sigungu": "성동구",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=121"
+      ],
+      "evidence_id": "E2",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=172",
+        "fields": {
+          "name": "헬로우뮤지움",
+          "sido": "서울특별시",
+          "sigungu": "성동구",
+          "address": "서울특별시 성동구 성수일로12길 20",
+          "ownership_type": "사립",
+          "adult_fee": "5000",
+          "youth_fee": "5000",
+          "child_fee": "5000",
+          "adult_fee_status": "BASE_FEE_PAID",
+          "weekday_open": "10:00",
+          "weekday_close": "18:00",
+          "holiday_open": "10:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "월+공휴일"
+        },
+        "base_data_date": "2026-09-03",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0575",
+      "name": "백범김구기념관",
+      "document": "백범김구기념관은 세계에서 가장 아름답고 높은 문화를 가진 자주·민주·통일 조국을 건설하기 위해 일생을 분투하신 겨레의 큰 스승 백범 김구 선생(1876~1949)의 삶과 사상을 널리 알리고 계승·발전시키기 위해 2000년 6월에 기공하여 2002년 10월 22일에 개관하였다. 근·현대사 전문 역사박물관인 백범김구기념관은 격동의 한국 근·현대사와 함께 한 김구 선생의 삶과 사상을 통해 대한민국 임시정부의 역사와 한국 근·현대를 이해하고 조국의 자주·민주·통일을 지향하며 민족의 아름다운 문화를 발전시켜 나아가는 온 겨레가 함께하는 문화 공간이다. 기념관 1층과 2층에 김구 선생의 일대기와 한국 근·현대사 관련한 각종 기록 및 자료를 전시하고 있으며, 전문 자료실과 각종 교육프로그램, 문화행사 등에 활용될 수 있는 교육장, 대회의실, 컨벤션홀 등 다양한 교육·문화공간을 갖추고 있다.",
+      "metadata": {
+        "youth_fee": 0.0,
+        "longitude": 126.9592546,
+        "holiday_open": "10:00",
+        "adult_fee": 0.0,
+        "sido": "서울특별시",
+        "closure_rule_raw": "월요일+1월1일+설연휴+추석연휴+기타 관장이 정하는 날",
+        "homepage_url": "http://www.kimkoomuseum.org",
+        "sigungu": "용산구",
+        "source_types": "TOUR_API",
+        "image_copyright": "Type1",
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "ownership_type": "사립",
+        "latitude": 37.54427794,
+        "weekday_open": "10:00",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/98/3521598_image2_1.jpg",
+        "address": "서울특별시 용산구 임정로 26",
+        "child_fee": 0.0,
+        "name": "백범김구기념관",
+        "requires_manual_review": true,
+        "holiday_close": "18:00",
+        "weekday_close": "18:00"
+      },
+      "vector_rank": null,
+      "bm25_rank": 2,
+      "vector_distance": null,
+      "vector_score": null,
+      "bm25_score": 16.15543063697108,
+      "vector_document": "",
+      "bm25_document": "백범김구기념관은 세계에서 가장 아름답고 높은 문화를 가진 자주·민주·통일 조국을 건설하기 위해 일생을 분투하신 겨레의 큰 스승 백범 김구 선생(1876~1949)의 삶과 사상을 널리 알리고 계승·발전시키기 위해 2000년 6월에 기공하여 2002년 10월 22일에 개관하였다. 근·현대사 전문 역사박물관인 백범김구기념관은 격동의 한국 근·현대사와 함께 한 김구 선생의 삶과 사상을 통해 대한민국 임시정부의 역사와 한국 근·현대를 이해하고 조국의 자주·민주·통일을 지향하며 민족의 아름다운 문화를 발전시켜 나아가는 온 겨레가 함께하는 문화 공간이다. 기념관 1층과 2층에 김구 선생의 일대기와 한국 근·현대사 관련한 각종 기록 및 자료를 전시하고 있으며, 전문 자료실과 각종 교육프로그램, 문화행사 등에 활용될 수 있는 교육장, 대회의실, 컨벤션홀 등 다양한 교육·문화공간을 갖추고 있다.",
+      "best_span_id": "chroma:M0575",
+      "best_span_text": "백범김구기념관은 세계에서 가장 아름답고 높은 문화를 가진 자주·민주·통일 조국을 건설하기 위해 일생을 분투하신 겨레의 큰 스승 백범 김구 선생(1876~1949)의 삶과 사상을 널리 알리고 계승·발전시키기 위해 2000년 6월에 기공하여 2002년 10월 22일에 개관하였다. 근·현대사 전문 역사박물관인 백범김구기념관은 격동의 한국 근·현대사와 함께 한 김구 선생의 삶과 사상을 통해 대한민국 임시정부의 역사와 한국 근·현대를 이해하고 조국의 자주·민주·통일을 지향하며 민족의 아름다운 문화를 발전시켜 나아가는 온 겨레가 함께하는 문화 공간이다. 기념관 1층과 2층에 김구 선생의 일대기와 한국 근·현대사 관련한 각종 기록 및 자료를 전시하고 있으며, 전문 자료실과 각종 교육프로그램, 문화행사 등에 활용될 수 있는 교육장, 대회의실, 컨벤션홀 등 다양한 교육·문화공간을 갖추고 있다.",
+      "fusion_score": 0.016129032258064516,
+      "retrieved_by": [
+        "bm25"
+      ],
+      "fusion_rank": 7,
+      "rerank_score": 0.03699537739157677,
+      "rank": 3,
+      "score": 0.03699537739157677,
+      "score_type": "cross_encoder",
+      "distance": null,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "bm25"
+      ],
+      "retriever": "bm25",
+      "span_id": "chroma:M0575",
+      "source_doc_ids": [
+        "DOC-B0575-TOUR_API-130473"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0575-TOUR_API-130473",
+          "source_type": "TOUR_API",
+          "source_record_id": "130473",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=284",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 154,
+          "doc_ids": [
+            "DOC-B0575-TOUR_API-130473"
+          ]
+        },
+        {
+          "start": 155,
+          "end": 306,
+          "doc_ids": [
+            "DOC-B0575-TOUR_API-130473"
+          ]
+        },
+        {
+          "start": 307,
+          "end": 440,
+          "doc_ids": [
+            "DOC-B0575-TOUR_API-130473"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=284",
+      "text": "백범김구기념관은 세계에서 가장 아름답고 높은 문화를 가진 자주·민주·통일 조국을 건설하기 위해 일생을 분투하신 겨레의 큰 스승 백범 김구 선생(1876~1949)의 삶과 사상을 널리 알리고 계승·발전시키기 위해 2000년 6월에 기공하여 2002년 10월 22일에 개관하였다. 근·현대사 전문 역사박물관인 백범김구기념관은 격동의 한국 근·현대사와 함께 한 김구 선생의 삶과 사상을 통해 대한민국 임시정부의 역사와 한국 근·현대를 이해하고 조국의 자주·민주·통일을 지향하며 민족의 아름다운 문화를 발전시켜 나아가는 온 겨레가 함께하는 문화 공간이다. 기념관 1층과 2층에 김구 선생의 일대기와 한국 근·현대사 관련한 각종 기록 및 자료를 전시하고 있으며, 전문 자료실과 각종 교육프로그램, 문화행사 등에 활용될 수 있는 교육장, 대회의실, 컨벤션홀 등 다양한 교육·문화공간을 갖추고 있다.",
+      "sido": "서울특별시",
+      "sigungu": "용산구",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=284"
+      ],
+      "evidence_id": "E3",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=399",
+        "fields": {
+          "name": "백범김구기념관",
+          "sido": "서울특별시",
+          "sigungu": "용산구",
+          "address": "서울특별시 용산구 임정로 26",
+          "ownership_type": "사립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "10:00",
+          "weekday_close": "18:00",
+          "holiday_open": "10:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "월요일+1월1일+설연휴+추석연휴+기타 관장이 정하는 날"
+        },
+        "base_data_date": "2026-01-26",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0271",
+      "name": "박정희대통령역사자료관",
+      "document": "구미시는 우리나라 최초의 도립공원인 금오산을 비롯하여 낙동강이 도심 중앙을 흐르는 아름다운 도시로, 박정희대통령 생가와 대한민국 최대의 내륙 산업단지를 보유하고 있다. 2021년 9월 28일 개관한 박정희대통령역사자료관은 대통령의 유품과 구미공단 조성 당시 관련 자료 등을 수집·보관·관리하고 있으며 우리나라 근대화와 구미 산업발전 과정을 체계적으로 전시한 상설전시실, 기획전시실, 162석의 세미나실, 자료검색을 위한 아카이브실로 구성되어 있다. 어르신들에게는 몸소 겪었던 시대의 향수를 느끼게 하고 미래세대에는 대한민국의 근대화와 산업화 과정을 배울 수 있다. 역사자료관 주변은 박정희대통령 생가, 민족중흥관, 박대통령 동상, 새마을운동테마공원이 자리 잡고 있다. 박정희 대통령 유품 및 관련 근·현대사 자료를 보존 관리 전시",
+      "metadata": {
+        "holiday_close": "18:00",
+        "weekday_open": "09:00",
+        "source_types": "BASE|TOUR_API",
+        "homepage_url": "http://www.parkchungheepresidentialmuseum.or.kr",
+        "closure_rule_raw": "매주 월+1월 1일+설 당일+추석 당일",
+        "sigungu": "구미시",
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "sido": "경상북도",
+        "fee_notes": "관람료 한시적 무료 입장",
+        "adult_fee": 0.0,
+        "youth_fee": 0.0,
+        "child_fee": 0.0,
+        "transport_notes": "101,161번 버스 탑승 박정희생가 정류장 하차+361,380-2,411-7번 버스 탑승 새마을운동테마공원 정류장 하차",
+        "weekday_close": "18:00",
+        "ownership_type": "공립",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/01/2732401_image2_1.jpg",
+        "image_copyright": "Type3",
+        "address": "경상북도 구미시 박정희로 123",
+        "name": "박정희대통령역사자료관",
+        "latitude": 36.09074861,
+        "requires_manual_review": true,
+        "longitude": 128.3487682,
+        "holiday_open": "09:00"
+      },
+      "vector_rank": null,
+      "bm25_rank": 11,
+      "vector_distance": null,
+      "vector_score": null,
+      "bm25_score": 9.634354961243577,
+      "vector_document": "",
+      "bm25_document": "구미시는 우리나라 최초의 도립공원인 금오산을 비롯하여 낙동강이 도심 중앙을 흐르는 아름다운 도시로, 박정희대통령 생가와 대한민국 최대의 내륙 산업단지를 보유하고 있다. 2021년 9월 28일 개관한 박정희대통령역사자료관은 대통령의 유품과 구미공단 조성 당시 관련 자료 등을 수집·보관·관리하고 있으며 우리나라 근대화와 구미 산업발전 과정을 체계적으로 전시한 상설전시실, 기획전시실, 162석의 세미나실, 자료검색을 위한 아카이브실로 구성되어 있다. 어르신들에게는 몸소 겪었던 시대의 향수를 느끼게 하고 미래세대에는 대한민국의 근대화와 산업화 과정을 배울 수 있다. 역사자료관 주변은 박정희대통령 생가, 민족중흥관, 박대통령 동상, 새마을운동테마공원이 자리 잡고 있다. 박정희 대통령 유품 및 관련 근·현대사 자료를 보존 관리 전시",
+      "best_span_id": "chroma:M0271",
+      "best_span_text": "구미시는 우리나라 최초의 도립공원인 금오산을 비롯하여 낙동강이 도심 중앙을 흐르는 아름다운 도시로, 박정희대통령 생가와 대한민국 최대의 내륙 산업단지를 보유하고 있다. 2021년 9월 28일 개관한 박정희대통령역사자료관은 대통령의 유품과 구미공단 조성 당시 관련 자료 등을 수집·보관·관리하고 있으며 우리나라 근대화와 구미 산업발전 과정을 체계적으로 전시한 상설전시실, 기획전시실, 162석의 세미나실, 자료검색을 위한 아카이브실로 구성되어 있다. 어르신들에게는 몸소 겪었던 시대의 향수를 느끼게 하고 미래세대에는 대한민국의 근대화와 산업화 과정을 배울 수 있다. 역사자료관 주변은 박정희대통령 생가, 민족중흥관, 박대통령 동상, 새마을운동테마공원이 자리 잡고 있다. 박정희 대통령 유품 및 관련 근·현대사 자료를 보존 관리 전시",
+      "fusion_score": 0.014084507042253521,
+      "retrieved_by": [
+        "bm25"
+      ],
+      "fusion_rank": 18,
+      "rerank_score": 0.005971526727080345,
+      "rank": 4,
+      "score": 0.005971526727080345,
+      "score_type": "cross_encoder",
+      "distance": null,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "bm25"
+      ],
+      "retriever": "bm25",
+      "span_id": "chroma:M0271",
+      "source_doc_ids": [
+        "DOC-B0271-TOUR_API-2732402",
+        "DOC-B0271-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0271-TOUR_API-2732402",
+          "source_type": "TOUR_API",
+          "source_record_id": "2732402",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=136",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        },
+        {
+          "doc_id": "DOC-B0271-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0271",
+          "source_locator": "data/raw/museum_base_1070.csv#row=272",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 93,
+          "doc_ids": [
+            "DOC-B0271-TOUR_API-2732402"
+          ]
+        },
+        {
+          "start": 94,
+          "end": 250,
+          "doc_ids": [
+            "DOC-B0271-TOUR_API-2732402"
+          ]
+        },
+        {
+          "start": 251,
+          "end": 315,
+          "doc_ids": [
+            "DOC-B0271-TOUR_API-2732402"
+          ]
+        },
+        {
+          "start": 316,
+          "end": 373,
+          "doc_ids": [
+            "DOC-B0271-TOUR_API-2732402"
+          ]
+        },
+        {
+          "start": 374,
+          "end": 408,
+          "doc_ids": [
+            "DOC-B0271-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=136",
+      "text": "구미시는 우리나라 최초의 도립공원인 금오산을 비롯하여 낙동강이 도심 중앙을 흐르는 아름다운 도시로, 박정희대통령 생가와 대한민국 최대의 내륙 산업단지를 보유하고 있다. 2021년 9월 28일 개관한 박정희대통령역사자료관은 대통령의 유품과 구미공단 조성 당시 관련 자료 등을 수집·보관·관리하고 있으며 우리나라 근대화와 구미 산업발전 과정을 체계적으로 전시한 상설전시실, 기획전시실, 162석의 세미나실, 자료검색을 위한 아카이브실로 구성되어 있다. 어르신들에게는 몸소 겪었던 시대의 향수를 느끼게 하고 미래세대에는 대한민국의 근대화와 산업화 과정을 배울 수 있다. 역사자료관 주변은 박정희대통령 생가, 민족중흥관, 박대통령 동상, 새마을운동테마공원이 자리 잡고 있다. 박정희 대통령 유품 및 관련 근·현대사 자료를 보존 관리 전시",
+      "sido": "경상북도",
+      "sigungu": "구미시",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=136"
+      ],
+      "evidence_id": "E4",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=193",
+        "fields": {
+          "name": "박정희대통령역사자료관",
+          "sido": "경상북도",
+          "sigungu": "구미시",
+          "address": "경상북도 구미시 박정희로 123",
+          "ownership_type": "공립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "09:00",
+          "weekday_close": "18:00",
+          "holiday_open": "09:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "매주 월+1월 1일+설 당일+추석 당일"
+        },
+        "base_data_date": "2026-07-01",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0502",
+      "name": "국립일제강제동원역사관",
+      "document": "국립일제강제동원역사관은 일제 강점기 강제동원의 실상을 규명함으로써 성숙한 역사의식을 고취하고, 인권과 세계평화에 대한 국민 교육의 장을 제공하는 것을 목적으로 건립되었다. 일제 강점기 때 부산항이 대부분의 강제동원 출발지였고, 강제동원자의 일부가 경상도 출신이었다는 역사성과 접근성 등을 감안하여, 2008년 9월 부산에 건립 방침을 확정했다. 역사관 내부에는 정부에서 수집한 강제동원 수기, 사진, 박물류 등을 전시하고 있다. 그리고 일제 강제동원 희생자를 추모할 수 있는 추모탑과 기억의 터(위패관)가 마련되어 있고, 미래세대에게 평화의 소중함을 알리기 위한 어린이체험관과 어린이 도서관 다독다독이 있어 '유족을 위한 추도, 기념시설'로서의 역할은 물론 '일제강제동원 역사 교육 공간'으로서의 역할을 수행하고 있다.",
+      "metadata": {
+        "source_types": "TOUR_API",
+        "address": "부산광역시 남구 홍곡로 320번길 100",
+        "closure_rule_raw": "매주 월요일, 1월 1일, 설날, 추석",
+        "sido": "부산광역시",
+        "homepage_url": "https://www.fomo.or.kr/museum",
+        "weekday_close": "17:30",
+        "longitude": 129.0920701,
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/66/4102066_image2_1.jpg",
+        "youth_fee": 0.0,
+        "weekday_open": "09:30",
+        "adult_fee": 0.0,
+        "latitude": 35.12450497,
+        "requires_manual_review": true,
+        "holiday_open": "09:30",
+        "name": "국립일제강제동원역사관",
+        "child_fee": 0.0,
+        "sigungu": "남구",
+        "image_copyright": "Type1",
+        "ownership_type": "국립",
+        "holiday_close": "17:30"
+      },
+      "vector_rank": 4,
+      "bm25_rank": 4,
+      "vector_distance": 0.6464711427688599,
+      "vector_score": null,
+      "bm25_score": 13.423201667602674,
+      "vector_document": "국립일제강제동원역사관은 일제 강점기 강제동원의 실상을 규명함으로써 성숙한 역사의식을 고취하고, 인권과 세계평화에 대한 국민 교육의 장을 제공하는 것을 목적으로 건립되었다. 일제 강점기 때 부산항이 대부분의 강제동원 출발지였고, 강제동원자의 일부가 경상도 출신이었다는 역사성과 접근성 등을 감안하여, 2008년 9월 부산에 건립 방침을 확정했다. 역사관 내부에는 정부에서 수집한 강제동원 수기, 사진, 박물류 등을 전시하고 있다. 그리고 일제 강제동원 희생자를 추모할 수 있는 추모탑과 기억의 터(위패관)가 마련되어 있고, 미래세대에게 평화의 소중함을 알리기 위한 어린이체험관과 어린이 도서관 다독다독이 있어 '유족을 위한 추도, 기념시설'로서의 역할은 물론 '일제강제동원 역사 교육 공간'으로서의 역할을 수행하고 있다.",
+      "bm25_document": "국립일제강제동원역사관은 일제 강점기 강제동원의 실상을 규명함으로써 성숙한 역사의식을 고취하고, 인권과 세계평화에 대한 국민 교육의 장을 제공하는 것을 목적으로 건립되었다. 일제 강점기 때 부산항이 대부분의 강제동원 출발지였고, 강제동원자의 일부가 경상도 출신이었다는 역사성과 접근성 등을 감안하여, 2008년 9월 부산에 건립 방침을 확정했다. 역사관 내부에는 정부에서 수집한 강제동원 수기, 사진, 박물류 등을 전시하고 있다. 그리고 일제 강제동원 희생자를 추모할 수 있는 추모탑과 기억의 터(위패관)가 마련되어 있고, 미래세대에게 평화의 소중함을 알리기 위한 어린이체험관과 어린이 도서관 다독다독이 있어 '유족을 위한 추도, 기념시설'로서의 역할은 물론 '일제강제동원 역사 교육 공간'으로서의 역할을 수행하고 있다.",
+      "best_span_id": "chroma:M0502",
+      "best_span_text": "국립일제강제동원역사관은 일제 강점기 강제동원의 실상을 규명함으로써 성숙한 역사의식을 고취하고, 인권과 세계평화에 대한 국민 교육의 장을 제공하는 것을 목적으로 건립되었다. 일제 강점기 때 부산항이 대부분의 강제동원 출발지였고, 강제동원자의 일부가 경상도 출신이었다는 역사성과 접근성 등을 감안하여, 2008년 9월 부산에 건립 방침을 확정했다. 역사관 내부에는 정부에서 수집한 강제동원 수기, 사진, 박물류 등을 전시하고 있다. 그리고 일제 강제동원 희생자를 추모할 수 있는 추모탑과 기억의 터(위패관)가 마련되어 있고, 미래세대에게 평화의 소중함을 알리기 위한 어린이체험관과 어린이 도서관 다독다독이 있어 '유족을 위한 추도, 기념시설'로서의 역할은 물론 '일제강제동원 역사 교육 공간'으로서의 역할을 수행하고 있다.",
+      "fusion_score": 0.03125,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 2,
+      "rerank_score": 0.005736378952860832,
+      "rank": 5,
+      "score": 0.005736378952860832,
+      "score_type": "cross_encoder",
+      "distance": 0.6464711427688599,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0502",
+      "source_doc_ids": [
+        "DOC-B0502-TOUR_API-2551424"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0502-TOUR_API-2551424",
+          "source_type": "TOUR_API",
+          "source_record_id": "2551424",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=248",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 95,
+          "doc_ids": [
+            "DOC-B0502-TOUR_API-2551424"
+          ]
+        },
+        {
+          "start": 96,
+          "end": 192,
+          "doc_ids": [
+            "DOC-B0502-TOUR_API-2551424"
+          ]
+        },
+        {
+          "start": 193,
+          "end": 239,
+          "doc_ids": [
+            "DOC-B0502-TOUR_API-2551424"
+          ]
+        },
+        {
+          "start": 240,
+          "end": 402,
+          "doc_ids": [
+            "DOC-B0502-TOUR_API-2551424"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=248",
+      "text": "국립일제강제동원역사관은 일제 강점기 강제동원의 실상을 규명함으로써 성숙한 역사의식을 고취하고, 인권과 세계평화에 대한 국민 교육의 장을 제공하는 것을 목적으로 건립되었다. 일제 강점기 때 부산항이 대부분의 강제동원 출발지였고, 강제동원자의 일부가 경상도 출신이었다는 역사성과 접근성 등을 감안하여, 2008년 9월 부산에 건립 방침을 확정했다. 역사관 내부에는 정부에서 수집한 강제동원 수기, 사진, 박물류 등을 전시하고 있다. 그리고 일제 강제동원 희생자를 추모할 수 있는 추모탑과 기억의 터(위패관)가 마련되어 있고, 미래세대에게 평화의 소중함을 알리기 위한 어린이체험관과 어린이 도서관 다독다독이 있어 '유족을 위한 추도, 기념시설'로서의 역할은 물론 '일제강제동원 역사 교육 공간'으로서의 역할을 수행하고 있다.",
+      "sido": "부산광역시",
+      "sigungu": "남구",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=248"
+      ],
+      "evidence_id": "E5",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=359",
+        "fields": {
+          "name": "국립일제강제동원역사관",
+          "sido": "부산광역시",
+          "sigungu": "남구",
+          "address": "부산광역시 남구 홍곡로 320번길 100",
+          "ownership_type": "국립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "09:30",
+          "weekday_close": "17:30",
+          "holiday_open": "09:30",
+          "holiday_close": "17:30",
+          "closure_rule_raw": "매주 월요일, 1월 1일, 설날, 추석"
+        },
+        "base_data_date": "2026-04-08",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    }
+  ],
+  "answer": "국립대한민국임시정부기념관은 미래세대가 대한민국 임시정부를 기억하고 그 역사를 자랑스럽게 여길 수 있도록 청소년 대상의 창의적인 체험 프로그램을 운영합니다. [E1]",
+  "retrieval_status": "ok",
+  "answer_status": "answered",
+  "route": "hybrid",
+  "retry_count": 0,
+  "supervisor_verified": true,
+  "rerank_applied": true,
+  "retriever_errors": [],
+  "warnings": [],
+  "duration_ms": 74477.9,
+  "error_type": "",
+  "hit_at_1": 1,
+  "hit_at_3": 1,
+  "hit_at_5": 1,
+  "recall_at_5": 1.0,
+  "mrr_at_10": 1.0
+}

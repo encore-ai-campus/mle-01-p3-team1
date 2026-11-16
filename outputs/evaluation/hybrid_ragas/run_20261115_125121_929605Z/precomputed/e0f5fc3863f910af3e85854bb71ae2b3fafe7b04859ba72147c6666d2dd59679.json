@@ -1,0 +1,331 @@
+{
+  "question_id": "V2-SF04",
+  "response": {
+    "tool": "museum_hybrid_retrieve",
+    "status": "partial",
+    "query": "인천에서 주차 가능한 박물관이나 미술관을 알려줘",
+    "results": [
+      {
+        "museum_id": "M0407",
+        "name": "계양산성박물관",
+        "document": "계양산성박물관은 계양산성을 비롯한 우리나라 산성의 발달사와 계양의 역사와 문화를 한눈에 살펴볼 수 있도록 건립된 국내 최초의 산성 전문 박물관이다. 박물관의 상설전시는 역사의 테라는 주제 아래 ‘우리나라 산성의 발달사’와 ‘계양산성의 유적과 유물’에 대한 자료를 2개의 전시실에 나누어 전시하고 있다. 2층에는 다양한 주제의 전시를 진행할 수 있는 ‘기획전시실’이 마련되어 있으며, 매년 1회 기획전시를 개최해 상설전시에서 모두 담지 못한 계양산성 및 계양산성 출토유물의 역사·문화적 가치를 제고할 수 있는 전시 기획을 통해 다양한 전시 서비스를 제공하고 있다.",
+        "metadata": {
+          "address": "인천광역시 계양구 계양산로 101",
+          "closure_rule_raw": "월(단 공휴일과 겹치는 경우 그 다음날 휴관)+1월1일+설 당일+추석 당일",
+          "weekday_close": "18:00",
+          "ownership_type": "공립",
+          "name": "계양산성박물관",
+          "homepage_url": "http://museum.gyeyang.go.kr/",
+          "sigungu": "계양구",
+          "requires_manual_review": true,
+          "holiday_open": "09:00",
+          "longitude": 126.727032,
+          "adult_fee": 1000.0,
+          "sido": "인천광역시",
+          "latitude": 37.548054,
+          "fee_notes": "군경 500원",
+          "adult_fee_status": "BASE_FEE_PAID",
+          "weekday_open": "09:00",
+          "amenities_raw": "카페테리아+야외매점+주차장",
+          "source_types": "TOUR_API",
+          "holiday_close": "18:00",
+          "child_fee": 0.0,
+          "youth_fee": 0.0,
+          "image_copyright": "Type1",
+          "image_url": "https://tong.visitkorea.or.kr/cms/resource/30/4063230_image2_1.jpg",
+          "structured_match": "편의시설 '주차장': CSV amenities_raw의 '주차장' 항목 (온톨로지 필터가 metadata_provenance.fields의 같은 CSV 값으로 판정한 정적 기록이며 실시간 상태가 아님)"
+        },
+        "vector_rank": 1,
+        "bm25_rank": 1,
+        "vector_distance": 0.6581171751022339,
+        "vector_score": null,
+        "bm25_score": 2.383860942969084,
+        "vector_document": "계양산성박물관은 계양산성을 비롯한 우리나라 산성의 발달사와 계양의 역사와 문화를 한눈에 살펴볼 수 있도록 건립된 국내 최초의 산성 전문 박물관이다. 박물관의 상설전시는 역사의 테라는 주제 아래 ‘우리나라 산성의 발달사’와 ‘계양산성의 유적과 유물’에 대한 자료를 2개의 전시실에 나누어 전시하고 있다. 2층에는 다양한 주제의 전시를 진행할 수 있는 ‘기획전시실’이 마련되어 있으며, 매년 1회 기획전시를 개최해 상설전시에서 모두 담지 못한 계양산성 및 계양산성 출토유물의 역사·문화적 가치를 제고할 수 있는 전시 기획을 통해 다양한 전시 서비스를 제공하고 있다.",
+        "bm25_document": "계양산성박물관은 계양산성을 비롯한 우리나라 산성의 발달사와 계양의 역사와 문화를 한눈에 살펴볼 수 있도록 건립된 국내 최초의 산성 전문 박물관이다. 박물관의 상설전시는 역사의 테라는 주제 아래 ‘우리나라 산성의 발달사’와 ‘계양산성의 유적과 유물’에 대한 자료를 2개의 전시실에 나누어 전시하고 있다. 2층에는 다양한 주제의 전시를 진행할 수 있는 ‘기획전시실’이 마련되어 있으며, 매년 1회 기획전시를 개최해 상설전시에서 모두 담지 못한 계양산성 및 계양산성 출토유물의 역사·문화적 가치를 제고할 수 있는 전시 기획을 통해 다양한 전시 서비스를 제공하고 있다.",
+        "best_span_id": "chroma:M0407",
+        "best_span_text": "계양산성박물관은 계양산성을 비롯한 우리나라 산성의 발달사와 계양의 역사와 문화를 한눈에 살펴볼 수 있도록 건립된 국내 최초의 산성 전문 박물관이다. 박물관의 상설전시는 역사의 테라는 주제 아래 ‘우리나라 산성의 발달사’와 ‘계양산성의 유적과 유물’에 대한 자료를 2개의 전시실에 나누어 전시하고 있다. 2층에는 다양한 주제의 전시를 진행할 수 있는 ‘기획전시실’이 마련되어 있으며, 매년 1회 기획전시를 개최해 상설전시에서 모두 담지 못한 계양산성 및 계양산성 출토유물의 역사·문화적 가치를 제고할 수 있는 전시 기획을 통해 다양한 전시 서비스를 제공하고 있다.",
+        "fusion_score": 0.03278688524590164,
+        "retrieved_by": [
+          "vector",
+          "bm25"
+        ],
+        "fusion_rank": 1,
+        "rerank_score": 0.00014108647883404046,
+        "rank": 1,
+        "score": 0.03278688524590164,
+        "score_type": "rrf_low_confidence_rerank",
+        "distance": 0.6581171751022339,
+        "relevance": null,
+        "relevance_reason": null
+      }
+    ],
+    "source_ids": [
+      "M0407"
+    ],
+    "warnings": [
+      "Only 1 candidates available; no artificial padding"
+    ],
+    "unsupported_constraints": [],
+    "search_summary": {
+      "mode": "hybrid",
+      "filters": {},
+      "candidate_count": 1,
+      "requested_candidate_k": 20,
+      "returned_count": 1,
+      "reranked": true,
+      "vector_returned": 1,
+      "bm25_returned": 1,
+      "fused_returned": 1,
+      "final_returned": 1,
+      "rerank_requested": true,
+      "rerank_applied": true,
+      "rerank_failed": false,
+      "fusion_method": "weighted_rrf",
+      "config": {
+        "vector_top_k": 20,
+        "bm25_top_k": 20,
+        "fusion_top_k": 20,
+        "final_top_k": 10,
+        "rrf_k": 60,
+        "vector_weight": 1.0,
+        "bm25_weight": 1.0,
+        "reranker_model": "BAAI/bge-reranker-v2-m3",
+        "reranker_local_dir": null,
+        "reranker_revision": null,
+        "reranker_batch_size": 8,
+        "reranker_max_chars": 2000,
+        "rerank_failure_policy": "rrf_fallback",
+        "rerank_min_confidence": 0.1,
+        "retriever_failure_policy": "raise",
+        "parallel_retrieval": true
+      },
+      "metadata_filters": {},
+      "retriever_errors": [],
+      "requested_final_top_k": 5,
+      "expanded_query": "인천에서 주차 가능한 박물관이나 미술관을 알려줘",
+      "query_mode": "vector",
+      "analysis_status": "disabled",
+      "unsupported_constraints": [],
+      "ontology_filter": {
+        "status": "applied",
+        "backend": "neo4j_v2",
+        "conditions": {
+          "amenities": [
+            "주차장"
+          ],
+          "sido": "인천광역시",
+          "matched_terms": [
+            "주차 가능"
+          ]
+        },
+        "candidate_count": 1
+      },
+      "name_match": {
+        "status": "not_applicable",
+        "names": [],
+        "promoted": [],
+        "injected": [],
+        "unavailable": []
+      },
+      "rerank_low_confidence": true,
+      "rerank_best_score": 0.00014108647883404046,
+      "stages": [
+        {
+          "stage": "ontology_filter",
+          "duration_ms": 314.76,
+          "status": "applied",
+          "backend": "neo4j_v2",
+          "conditions": {
+            "amenities": [
+              "주차장"
+            ],
+            "sido": "인천광역시",
+            "matched_terms": [
+              "주차 가능"
+            ]
+          },
+          "candidate_count": 1
+        },
+        {
+          "stage": "query_analysis",
+          "status": "disabled",
+          "duration_ms": 0.17,
+          "filters": {},
+          "expanded_query": "인천에서 주차 가능한 박물관이나 미술관을 알려줘",
+          "mode": "vector",
+          "model": "disabled"
+        },
+        {
+          "stage": "vector_retrieval",
+          "status": "ok",
+          "duration_ms": 208.08,
+          "requested": 20,
+          "returned": 1
+        },
+        {
+          "stage": "bm25_retrieval",
+          "status": "ok",
+          "duration_ms": 6.88,
+          "requested": 20,
+          "returned": 1
+        },
+        {
+          "stage": "rrf_fusion",
+          "status": "ok",
+          "duration_ms": 0.07,
+          "requested": 20,
+          "returned": 1
+        },
+        {
+          "stage": "name_match",
+          "duration_ms": 0.2,
+          "status": "not_applicable",
+          "names": [],
+          "promoted": [],
+          "injected": [],
+          "unavailable": []
+        },
+        {
+          "stage": "cross_encoder_rerank",
+          "status": "low_confidence_rrf_order",
+          "duration_ms": 71725.46,
+          "requested": 1,
+          "returned": 1,
+          "best_score": 0.00014108647883404046,
+          "min_confidence": 0.1,
+          "model_load_ms": 0.0,
+          "inference_ms": 529.61,
+          "model_path": "C:\\Users\\Playdata\\.cache\\huggingface\\hub\\models--BAAI--bge-reranker-v2-m3\\snapshots\\953dc6f6f85a1b2dbfca4c34a2796e7dde08d41e",
+          "model_source": "local_only"
+        },
+        {
+          "stage": "final_selection",
+          "status": "ok",
+          "requested": 5,
+          "returned": 1
+        }
+      ],
+      "total_duration_ms": 72250.53
+    },
+    "fusion_candidates": [
+      {
+        "museum_id": "M0407",
+        "name": "계양산성박물관",
+        "document": "계양산성박물관은 계양산성을 비롯한 우리나라 산성의 발달사와 계양의 역사와 문화를 한눈에 살펴볼 수 있도록 건립된 국내 최초의 산성 전문 박물관이다. 박물관의 상설전시는 역사의 테라는 주제 아래 ‘우리나라 산성의 발달사’와 ‘계양산성의 유적과 유물’에 대한 자료를 2개의 전시실에 나누어 전시하고 있다. 2층에는 다양한 주제의 전시를 진행할 수 있는 ‘기획전시실’이 마련되어 있으며, 매년 1회 기획전시를 개최해 상설전시에서 모두 담지 못한 계양산성 및 계양산성 출토유물의 역사·문화적 가치를 제고할 수 있는 전시 기획을 통해 다양한 전시 서비스를 제공하고 있다.",
+        "metadata": {
+          "address": "인천광역시 계양구 계양산로 101",
+          "closure_rule_raw": "월(단 공휴일과 겹치는 경우 그 다음날 휴관)+1월1일+설 당일+추석 당일",
+          "weekday_close": "18:00",
+          "ownership_type": "공립",
+          "name": "계양산성박물관",
+          "homepage_url": "http://museum.gyeyang.go.kr/",
+          "sigungu": "계양구",
+          "requires_manual_review": true,
+          "holiday_open": "09:00",
+          "longitude": 126.727032,
+          "adult_fee": 1000.0,
+          "sido": "인천광역시",
+          "latitude": 37.548054,
+          "fee_notes": "군경 500원",
+          "adult_fee_status": "BASE_FEE_PAID",
+          "weekday_open": "09:00",
+          "amenities_raw": "카페테리아+야외매점+주차장",
+          "source_types": "TOUR_API",
+          "holiday_close": "18:00",
+          "child_fee": 0.0,
+          "youth_fee": 0.0,
+          "image_copyright": "Type1",
+          "image_url": "https://tong.visitkorea.or.kr/cms/resource/30/4063230_image2_1.jpg"
+        },
+        "vector_rank": 1,
+        "bm25_rank": 1,
+        "vector_distance": 0.6581171751022339,
+        "vector_score": null,
+        "bm25_score": 2.383860942969084,
+        "vector_document": "계양산성박물관은 계양산성을 비롯한 우리나라 산성의 발달사와 계양의 역사와 문화를 한눈에 살펴볼 수 있도록 건립된 국내 최초의 산성 전문 박물관이다. 박물관의 상설전시는 역사의 테라는 주제 아래 ‘우리나라 산성의 발달사’와 ‘계양산성의 유적과 유물’에 대한 자료를 2개의 전시실에 나누어 전시하고 있다. 2층에는 다양한 주제의 전시를 진행할 수 있는 ‘기획전시실’이 마련되어 있으며, 매년 1회 기획전시를 개최해 상설전시에서 모두 담지 못한 계양산성 및 계양산성 출토유물의 역사·문화적 가치를 제고할 수 있는 전시 기획을 통해 다양한 전시 서비스를 제공하고 있다.",
+        "bm25_document": "계양산성박물관은 계양산성을 비롯한 우리나라 산성의 발달사와 계양의 역사와 문화를 한눈에 살펴볼 수 있도록 건립된 국내 최초의 산성 전문 박물관이다. 박물관의 상설전시는 역사의 테라는 주제 아래 ‘우리나라 산성의 발달사’와 ‘계양산성의 유적과 유물’에 대한 자료를 2개의 전시실에 나누어 전시하고 있다. 2층에는 다양한 주제의 전시를 진행할 수 있는 ‘기획전시실’이 마련되어 있으며, 매년 1회 기획전시를 개최해 상설전시에서 모두 담지 못한 계양산성 및 계양산성 출토유물의 역사·문화적 가치를 제고할 수 있는 전시 기획을 통해 다양한 전시 서비스를 제공하고 있다.",
+        "best_span_id": "chroma:M0407",
+        "best_span_text": "계양산성박물관은 계양산성을 비롯한 우리나라 산성의 발달사와 계양의 역사와 문화를 한눈에 살펴볼 수 있도록 건립된 국내 최초의 산성 전문 박물관이다. 박물관의 상설전시는 역사의 테라는 주제 아래 ‘우리나라 산성의 발달사’와 ‘계양산성의 유적과 유물’에 대한 자료를 2개의 전시실에 나누어 전시하고 있다. 2층에는 다양한 주제의 전시를 진행할 수 있는 ‘기획전시실’이 마련되어 있으며, 매년 1회 기획전시를 개최해 상설전시에서 모두 담지 못한 계양산성 및 계양산성 출토유물의 역사·문화적 가치를 제고할 수 있는 전시 기획을 통해 다양한 전시 서비스를 제공하고 있다.",
+        "fusion_score": 0.03278688524590164,
+        "retrieved_by": [
+          "vector",
+          "bm25"
+        ],
+        "fusion_rank": 1
+      }
+    ],
+    "retrieval_candidates_full": {
+      "vector": [
+        {
+          "museum_id": "M0407",
+          "document": "계양산성박물관은 계양산성을 비롯한 우리나라 산성의 발달사와 계양의 역사와 문화를 한눈에 살펴볼 수 있도록 건립된 국내 최초의 산성 전문 박물관이다. 박물관의 상설전시는 역사의 테라는 주제 아래 ‘우리나라 산성의 발달사’와 ‘계양산성의 유적과 유물’에 대한 자료를 2개의 전시실에 나누어 전시하고 있다. 2층에는 다양한 주제의 전시를 진행할 수 있는 ‘기획전시실’이 마련되어 있으며, 매년 1회 기획전시를 개최해 상설전시에서 모두 담지 못한 계양산성 및 계양산성 출토유물의 역사·문화적 가치를 제고할 수 있는 전시 기획을 통해 다양한 전시 서비스를 제공하고 있다.",
+          "metadata": {
+            "address": "인천광역시 계양구 계양산로 101",
+            "closure_rule_raw": "월(단 공휴일과 겹치는 경우 그 다음날 휴관)+1월1일+설 당일+추석 당일",
+            "weekday_close": "18:00",
+            "ownership_type": "공립",
+            "name": "계양산성박물관",
+            "homepage_url": "http://museum.gyeyang.go.kr/",
+            "sigungu": "계양구",
+            "requires_manual_review": true,
+            "holiday_open": "09:00",
+            "longitude": 126.727032,
+            "adult_fee": 1000.0,
+            "sido": "인천광역시",
+            "latitude": 37.548054,
+            "fee_notes": "군경 500원",
+            "adult_fee_status": "BASE_FEE_PAID",
+            "weekday_open": "09:00",
+            "amenities_raw": "카페테리아+야외매점+주차장",
+            "source_types": "TOUR_API",
+            "holiday_close": "18:00",
+            "child_fee": 0.0,
+            "youth_fee": 0.0,
+            "image_copyright": "Type1",
+            "image_url": "https://tong.visitkorea.or.kr/cms/resource/30/4063230_image2_1.jpg"
+          },
+          "distance": 0.6581171751022339
+        }
+      ],
+      "bm25": [
+        {
+          "museum_id": "M0407",
+          "name": "계양산성박물관",
+          "document": "계양산성박물관은 계양산성을 비롯한 우리나라 산성의 발달사와 계양의 역사와 문화를 한눈에 살펴볼 수 있도록 건립된 국내 최초의 산성 전문 박물관이다. 박물관의 상설전시는 역사의 테라는 주제 아래 ‘우리나라 산성의 발달사’와 ‘계양산성의 유적과 유물’에 대한 자료를 2개의 전시실에 나누어 전시하고 있다. 2층에는 다양한 주제의 전시를 진행할 수 있는 ‘기획전시실’이 마련되어 있으며, 매년 1회 기획전시를 개최해 상설전시에서 모두 담지 못한 계양산성 및 계양산성 출토유물의 역사·문화적 가치를 제고할 수 있는 전시 기획을 통해 다양한 전시 서비스를 제공하고 있다.",
+          "metadata": {
+            "child_fee": 0.0,
+            "holiday_close": "18:00",
+            "adult_fee": 1000.0,
+            "weekday_close": "18:00",
+            "homepage_url": "http://museum.gyeyang.go.kr/",
+            "holiday_open": "09:00",
+            "image_url": "https://tong.visitkorea.or.kr/cms/resource/30/4063230_image2_1.jpg",
+            "latitude": 37.548054,
+            "requires_manual_review": true,
+            "weekday_open": "09:00",
+            "ownership_type": "공립",
+            "longitude": 126.727032,
+            "source_types": "TOUR_API",
+            "address": "인천광역시 계양구 계양산로 101",
+            "amenities_raw": "카페테리아+야외매점+주차장",
+            "youth_fee": 0.0,
+            "fee_notes": "군경 500원",
+            "sido": "인천광역시",
+            "closure_rule_raw": "월(단 공휴일과 겹치는 경우 그 다음날 휴관)+1월1일+설 당일+추석 당일",
+            "image_copyright": "Type1",
+            "sigungu": "계양구",
+            "adult_fee_status": "BASE_FEE_PAID",
+            "name": "계양산성박물관"
+          },
+          "score": 2.383860942969084,
+          "rank": 1,
+          "retriever": "bm25",
+          "best_span_id": "chroma:M0407",
+          "best_span_text": "계양산성박물관은 계양산성을 비롯한 우리나라 산성의 발달사와 계양의 역사와 문화를 한눈에 살펴볼 수 있도록 건립된 국내 최초의 산성 전문 박물관이다. 박물관의 상설전시는 역사의 테라는 주제 아래 ‘우리나라 산성의 발달사’와 ‘계양산성의 유적과 유물’에 대한 자료를 2개의 전시실에 나누어 전시하고 있다. 2층에는 다양한 주제의 전시를 진행할 수 있는 ‘기획전시실’이 마련되어 있으며, 매년 1회 기획전시를 개최해 상설전시에서 모두 담지 못한 계양산성 및 계양산성 출토유물의 역사·문화적 가치를 제고할 수 있는 전시 기획을 통해 다양한 전시 서비스를 제공하고 있다."
+        }
+      ]
+    }
+  },
+  "duration_ms": 72250.59,
+  "error_type": ""
+}

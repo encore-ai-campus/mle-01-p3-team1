@@ -1,0 +1,441 @@
+{
+  "question_id": "V2-SF09",
+  "response": {
+    "tool": "museum_hybrid_retrieve",
+    "status": "partial",
+    "query": "충북에서 카페 있는 박물관이나 미술관을 알려줘",
+    "results": [
+      {
+        "museum_id": "M0785",
+        "name": "우민아트센터",
+        "document": "2011년 9월 (재)우민재단이 설립한 우민아트센터는 지역 문화예술에 대한 공공적 기여와 창의적 소통을 지향하고 한국 현대미술발전에 기여하고자 하는 등록 사립미술관",
+        "metadata": {
+          "amenities_raw": "주차장+카페",
+          "holiday_close": "19:00",
+          "weekday_open": "10:00",
+          "latitude": 36.644553,
+          "address": "충청북도 청주시 상당구 사북로 164, B1(북문로3가)",
+          "holiday_open": "10:00",
+          "child_fee": 0.0,
+          "weekday_close": "19:00",
+          "sigungu": "청주시",
+          "name": "우민아트센터",
+          "source_types": "BASE",
+          "homepage_url": "http://www.wuminartcenter.org",
+          "adult_fee": 0.0,
+          "longitude": 127.489187,
+          "sido": "충청북도",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "requires_manual_review": true,
+          "transport_notes": "시내버스 10-2, 101, 111, 112, 105 등 방아다리에서 하차",
+          "youth_fee": 0.0,
+          "ownership_type": "사립",
+          "closure_rule_raw": "1월1일+설연휴+추석연휴+매주 일요일",
+          "structured_match": "편의시설 '카페': CSV amenities_raw의 '카페' 항목 (온톨로지 필터가 metadata_provenance.fields의 같은 CSV 값으로 판정한 정적 기록이며 실시간 상태가 아님)"
+        },
+        "vector_rank": 2,
+        "bm25_rank": 1,
+        "vector_distance": 0.6003921031951904,
+        "vector_score": null,
+        "bm25_score": 2.120929846205471,
+        "vector_document": "2011년 9월 (재)우민재단이 설립한 우민아트센터는 지역 문화예술에 대한 공공적 기여와 창의적 소통을 지향하고 한국 현대미술발전에 기여하고자 하는 등록 사립미술관",
+        "bm25_document": "2011년 9월 (재)우민재단이 설립한 우민아트센터는 지역 문화예술에 대한 공공적 기여와 창의적 소통을 지향하고 한국 현대미술발전에 기여하고자 하는 등록 사립미술관",
+        "best_span_id": "chroma:M0785",
+        "best_span_text": "2011년 9월 (재)우민재단이 설립한 우민아트센터는 지역 문화예술에 대한 공공적 기여와 창의적 소통을 지향하고 한국 현대미술발전에 기여하고자 하는 등록 사립미술관",
+        "fusion_score": 0.03252247488101534,
+        "retrieved_by": [
+          "vector",
+          "bm25"
+        ],
+        "fusion_rank": 1,
+        "rerank_score": null,
+        "rank": 1,
+        "score": 0.03252247488101534,
+        "score_type": "rrf",
+        "distance": 0.6003921031951904,
+        "relevance": null,
+        "relevance_reason": null
+      },
+      {
+        "museum_id": "M0334",
+        "name": "한국교통대학교 박물관",
+        "document": "산업기술 분야를 중심으로 한 고고역사,미술,공예 및 민속 관련 자료를 수집,전시하고 교직원 및 학생의 관람과 교육연구 자료로서 공여하여 향토문화의 인식계몽에 기어코자 함.",
+        "metadata": {
+          "transport_notes": "서울 → 충주(동서울터미널, 강남터미널 1시간 30분)수원 → 충주(직통, 직행 1시간 30분)청주 → 충주(직통, 직행 1시간)원주·제천 → 충주(직행 50분)문경·점촌 → 충주(직행 1시간)충주시외버스터미널 → 한국교통대학교(주덕방향 시내버스 5분)",
+          "holiday_open": "00:00",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "latitude": 36.96884634,
+          "address": "충청북도 충주시 대소원면 대학로 50",
+          "adult_fee": 0.0,
+          "longitude": 127.8727696,
+          "ownership_type": "대학",
+          "child_fee": 0.0,
+          "sigungu": "충주시",
+          "requires_manual_review": true,
+          "weekday_close": "17:00",
+          "youth_fee": 0.0,
+          "sido": "충청북도",
+          "source_types": "BASE",
+          "closure_rule_raw": "법정 공휴일",
+          "weekday_open": "10:00",
+          "name": "한국교통대학교 박물관",
+          "holiday_close": "00:00",
+          "amenities_raw": "커피숍+편의점+식당",
+          "homepage_url": "https://www.ut.ac.kr/museum.do",
+          "structured_match": "편의시설 '카페': CSV amenities_raw의 '커피숍' 항목 (온톨로지 필터가 metadata_provenance.fields의 같은 CSV 값으로 판정한 정적 기록이며 실시간 상태가 아님)"
+        },
+        "vector_rank": 1,
+        "bm25_rank": null,
+        "vector_distance": 0.597439169883728,
+        "vector_score": null,
+        "bm25_score": null,
+        "vector_document": "산업기술 분야를 중심으로 한 고고역사,미술,공예 및 민속 관련 자료를 수집,전시하고 교직원 및 학생의 관람과 교육연구 자료로서 공여하여 향토문화의 인식계몽에 기어코자 함.",
+        "bm25_document": "",
+        "best_span_id": null,
+        "best_span_text": null,
+        "fusion_score": 0.01639344262295082,
+        "retrieved_by": [
+          "vector"
+        ],
+        "fusion_rank": 2,
+        "rerank_score": null,
+        "rank": 2,
+        "score": 0.01639344262295082,
+        "score_type": "rrf",
+        "distance": 0.597439169883728,
+        "relevance": null,
+        "relevance_reason": null
+      }
+    ],
+    "source_ids": [
+      "M0785",
+      "M0334"
+    ],
+    "warnings": [
+      "Cross-Encoder reranking failed (FileNotFoundError); RRF order retained",
+      "Only 2 candidates available; no artificial padding"
+    ],
+    "unsupported_constraints": [],
+    "search_summary": {
+      "mode": "hybrid",
+      "filters": {},
+      "candidate_count": 2,
+      "requested_candidate_k": 20,
+      "returned_count": 2,
+      "reranked": false,
+      "vector_returned": 2,
+      "bm25_returned": 1,
+      "fused_returned": 2,
+      "final_returned": 2,
+      "rerank_requested": true,
+      "rerank_applied": false,
+      "rerank_failed": true,
+      "fusion_method": "weighted_rrf",
+      "config": {
+        "vector_top_k": 20,
+        "bm25_top_k": 20,
+        "fusion_top_k": 20,
+        "final_top_k": 10,
+        "rrf_k": 60,
+        "vector_weight": 1.0,
+        "bm25_weight": 1.0,
+        "reranker_model": "BAAI/bge-reranker-v2-m3",
+        "reranker_local_dir": null,
+        "reranker_revision": null,
+        "reranker_batch_size": 8,
+        "reranker_max_chars": 2000,
+        "rerank_failure_policy": "rrf_fallback",
+        "rerank_min_confidence": 0.1,
+        "retriever_failure_policy": "raise",
+        "parallel_retrieval": true
+      },
+      "metadata_filters": {},
+      "retriever_errors": [],
+      "requested_final_top_k": 5,
+      "expanded_query": "충북에서 카페 있는 박물관이나 미술관을 알려줘",
+      "query_mode": "vector",
+      "analysis_status": "disabled",
+      "unsupported_constraints": [],
+      "ontology_filter": {
+        "status": "applied",
+        "backend": "local_csv",
+        "conditions": {
+          "amenities": [
+            "카페"
+          ],
+          "sido": "충청북도",
+          "matched_terms": [
+            "카페 있"
+          ]
+        },
+        "candidate_count": 2
+      },
+      "name_match": {
+        "status": "not_applicable",
+        "names": [],
+        "promoted": [],
+        "injected": [],
+        "unavailable": []
+      },
+      "rerank_low_confidence": false,
+      "rerank_best_score": null,
+      "stages": [
+        {
+          "stage": "ontology_filter",
+          "duration_ms": 0.72,
+          "status": "applied",
+          "backend": "local_csv",
+          "conditions": {
+            "amenities": [
+              "카페"
+            ],
+            "sido": "충청북도",
+            "matched_terms": [
+              "카페 있"
+            ]
+          },
+          "candidate_count": 2
+        },
+        {
+          "stage": "query_analysis",
+          "status": "disabled",
+          "duration_ms": 0.05,
+          "filters": {},
+          "expanded_query": "충북에서 카페 있는 박물관이나 미술관을 알려줘",
+          "mode": "vector",
+          "model": "disabled"
+        },
+        {
+          "stage": "vector_retrieval",
+          "status": "ok",
+          "duration_ms": 180.68,
+          "requested": 20,
+          "returned": 2
+        },
+        {
+          "stage": "bm25_retrieval",
+          "status": "ok",
+          "duration_ms": 11.04,
+          "requested": 20,
+          "returned": 1
+        },
+        {
+          "stage": "rrf_fusion",
+          "status": "ok",
+          "duration_ms": 0.03,
+          "requested": 20,
+          "returned": 2
+        },
+        {
+          "stage": "name_match",
+          "duration_ms": 0.07,
+          "status": "not_applicable",
+          "names": [],
+          "promoted": [],
+          "injected": [],
+          "unavailable": []
+        },
+        {
+          "stage": "cross_encoder_rerank",
+          "status": "failed_fallback",
+          "duration_ms": 0.27,
+          "requested": 2,
+          "returned": 2,
+          "best_score": null,
+          "min_confidence": 0.1
+        },
+        {
+          "stage": "final_selection",
+          "status": "ok",
+          "requested": 5,
+          "returned": 2
+        }
+      ],
+      "total_duration_ms": 184.42
+    },
+    "fusion_candidates": [
+      {
+        "museum_id": "M0785",
+        "name": "우민아트센터",
+        "document": "2011년 9월 (재)우민재단이 설립한 우민아트센터는 지역 문화예술에 대한 공공적 기여와 창의적 소통을 지향하고 한국 현대미술발전에 기여하고자 하는 등록 사립미술관",
+        "metadata": {
+          "amenities_raw": "주차장+카페",
+          "holiday_close": "19:00",
+          "weekday_open": "10:00",
+          "latitude": 36.644553,
+          "address": "충청북도 청주시 상당구 사북로 164, B1(북문로3가)",
+          "holiday_open": "10:00",
+          "child_fee": 0.0,
+          "weekday_close": "19:00",
+          "sigungu": "청주시",
+          "name": "우민아트센터",
+          "source_types": "BASE",
+          "homepage_url": "http://www.wuminartcenter.org",
+          "adult_fee": 0.0,
+          "longitude": 127.489187,
+          "sido": "충청북도",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "requires_manual_review": true,
+          "transport_notes": "시내버스 10-2, 101, 111, 112, 105 등 방아다리에서 하차",
+          "youth_fee": 0.0,
+          "ownership_type": "사립",
+          "closure_rule_raw": "1월1일+설연휴+추석연휴+매주 일요일"
+        },
+        "vector_rank": 2,
+        "bm25_rank": 1,
+        "vector_distance": 0.6003921031951904,
+        "vector_score": null,
+        "bm25_score": 2.120929846205471,
+        "vector_document": "2011년 9월 (재)우민재단이 설립한 우민아트센터는 지역 문화예술에 대한 공공적 기여와 창의적 소통을 지향하고 한국 현대미술발전에 기여하고자 하는 등록 사립미술관",
+        "bm25_document": "2011년 9월 (재)우민재단이 설립한 우민아트센터는 지역 문화예술에 대한 공공적 기여와 창의적 소통을 지향하고 한국 현대미술발전에 기여하고자 하는 등록 사립미술관",
+        "best_span_id": "chroma:M0785",
+        "best_span_text": "2011년 9월 (재)우민재단이 설립한 우민아트센터는 지역 문화예술에 대한 공공적 기여와 창의적 소통을 지향하고 한국 현대미술발전에 기여하고자 하는 등록 사립미술관",
+        "fusion_score": 0.03252247488101534,
+        "retrieved_by": [
+          "vector",
+          "bm25"
+        ],
+        "fusion_rank": 1
+      },
+      {
+        "museum_id": "M0334",
+        "name": "한국교통대학교 박물관",
+        "document": "산업기술 분야를 중심으로 한 고고역사,미술,공예 및 민속 관련 자료를 수집,전시하고 교직원 및 학생의 관람과 교육연구 자료로서 공여하여 향토문화의 인식계몽에 기어코자 함.",
+        "metadata": {
+          "transport_notes": "서울 → 충주(동서울터미널, 강남터미널 1시간 30분)수원 → 충주(직통, 직행 1시간 30분)청주 → 충주(직통, 직행 1시간)원주·제천 → 충주(직행 50분)문경·점촌 → 충주(직행 1시간)충주시외버스터미널 → 한국교통대학교(주덕방향 시내버스 5분)",
+          "holiday_open": "00:00",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "latitude": 36.96884634,
+          "address": "충청북도 충주시 대소원면 대학로 50",
+          "adult_fee": 0.0,
+          "longitude": 127.8727696,
+          "ownership_type": "대학",
+          "child_fee": 0.0,
+          "sigungu": "충주시",
+          "requires_manual_review": true,
+          "weekday_close": "17:00",
+          "youth_fee": 0.0,
+          "sido": "충청북도",
+          "source_types": "BASE",
+          "closure_rule_raw": "법정 공휴일",
+          "weekday_open": "10:00",
+          "name": "한국교통대학교 박물관",
+          "holiday_close": "00:00",
+          "amenities_raw": "커피숍+편의점+식당",
+          "homepage_url": "https://www.ut.ac.kr/museum.do"
+        },
+        "vector_rank": 1,
+        "bm25_rank": null,
+        "vector_distance": 0.597439169883728,
+        "vector_score": null,
+        "bm25_score": null,
+        "vector_document": "산업기술 분야를 중심으로 한 고고역사,미술,공예 및 민속 관련 자료를 수집,전시하고 교직원 및 학생의 관람과 교육연구 자료로서 공여하여 향토문화의 인식계몽에 기어코자 함.",
+        "bm25_document": "",
+        "best_span_id": null,
+        "best_span_text": null,
+        "fusion_score": 0.01639344262295082,
+        "retrieved_by": [
+          "vector"
+        ],
+        "fusion_rank": 2
+      }
+    ],
+    "retrieval_candidates_full": {
+      "vector": [
+        {
+          "museum_id": "M0334",
+          "document": "산업기술 분야를 중심으로 한 고고역사,미술,공예 및 민속 관련 자료를 수집,전시하고 교직원 및 학생의 관람과 교육연구 자료로서 공여하여 향토문화의 인식계몽에 기어코자 함.",
+          "metadata": {
+            "transport_notes": "서울 → 충주(동서울터미널, 강남터미널 1시간 30분)수원 → 충주(직통, 직행 1시간 30분)청주 → 충주(직통, 직행 1시간)원주·제천 → 충주(직행 50분)문경·점촌 → 충주(직행 1시간)충주시외버스터미널 → 한국교통대학교(주덕방향 시내버스 5분)",
+            "holiday_open": "00:00",
+            "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+            "latitude": 36.96884634,
+            "address": "충청북도 충주시 대소원면 대학로 50",
+            "adult_fee": 0.0,
+            "longitude": 127.8727696,
+            "ownership_type": "대학",
+            "child_fee": 0.0,
+            "sigungu": "충주시",
+            "requires_manual_review": true,
+            "weekday_close": "17:00",
+            "youth_fee": 0.0,
+            "sido": "충청북도",
+            "source_types": "BASE",
+            "closure_rule_raw": "법정 공휴일",
+            "weekday_open": "10:00",
+            "name": "한국교통대학교 박물관",
+            "holiday_close": "00:00",
+            "amenities_raw": "커피숍+편의점+식당",
+            "homepage_url": "https://www.ut.ac.kr/museum.do"
+          },
+          "distance": 0.597439169883728
+        },
+        {
+          "museum_id": "M0785",
+          "document": "2011년 9월 (재)우민재단이 설립한 우민아트센터는 지역 문화예술에 대한 공공적 기여와 창의적 소통을 지향하고 한국 현대미술발전에 기여하고자 하는 등록 사립미술관",
+          "metadata": {
+            "amenities_raw": "주차장+카페",
+            "holiday_close": "19:00",
+            "weekday_open": "10:00",
+            "latitude": 36.644553,
+            "address": "충청북도 청주시 상당구 사북로 164, B1(북문로3가)",
+            "holiday_open": "10:00",
+            "child_fee": 0.0,
+            "weekday_close": "19:00",
+            "sigungu": "청주시",
+            "name": "우민아트센터",
+            "source_types": "BASE",
+            "homepage_url": "http://www.wuminartcenter.org",
+            "adult_fee": 0.0,
+            "longitude": 127.489187,
+            "sido": "충청북도",
+            "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+            "requires_manual_review": true,
+            "transport_notes": "시내버스 10-2, 101, 111, 112, 105 등 방아다리에서 하차",
+            "youth_fee": 0.0,
+            "ownership_type": "사립",
+            "closure_rule_raw": "1월1일+설연휴+추석연휴+매주 일요일"
+          },
+          "distance": 0.6003921031951904
+        }
+      ],
+      "bm25": [
+        {
+          "museum_id": "M0785",
+          "name": "우민아트센터",
+          "document": "2011년 9월 (재)우민재단이 설립한 우민아트센터는 지역 문화예술에 대한 공공적 기여와 창의적 소통을 지향하고 한국 현대미술발전에 기여하고자 하는 등록 사립미술관",
+          "metadata": {
+            "latitude": 36.644553,
+            "amenities_raw": "주차장+카페",
+            "address": "충청북도 청주시 상당구 사북로 164, B1(북문로3가)",
+            "weekday_open": "10:00",
+            "youth_fee": 0.0,
+            "holiday_close": "19:00",
+            "child_fee": 0.0,
+            "source_types": "BASE",
+            "transport_notes": "시내버스 10-2, 101, 111, 112, 105 등 방아다리에서 하차",
+            "adult_fee": 0.0,
+            "holiday_open": "10:00",
+            "ownership_type": "사립",
+            "homepage_url": "http://www.wuminartcenter.org",
+            "sigungu": "청주시",
+            "longitude": 127.489187,
+            "weekday_close": "19:00",
+            "sido": "충청북도",
+            "requires_manual_review": true,
+            "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+            "closure_rule_raw": "1월1일+설연휴+추석연휴+매주 일요일",
+            "name": "우민아트센터"
+          },
+          "score": 2.120929846205471,
+          "rank": 1,
+          "retriever": "bm25",
+          "best_span_id": "chroma:M0785",
+          "best_span_text": "2011년 9월 (재)우민재단이 설립한 우민아트센터는 지역 문화예술에 대한 공공적 기여와 창의적 소통을 지향하고 한국 현대미술발전에 기여하고자 하는 등록 사립미술관"
+        }
+      ]
+    }
+  },
+  "duration_ms": 184.45,
+  "error_type": ""
+}

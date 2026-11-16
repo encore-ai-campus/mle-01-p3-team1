@@ -1,0 +1,165 @@
+{
+  "evidence_context_version": "grounded-evidence-v2",
+  "evaluation_contexts": [
+    "{\"evidence_context_version\": \"grounded-evidence-v2\", \"evidence_id\": \"E1\", \"museum_id\": \"M0216\", \"name\": \"영월화석박물관\", \"sido\": \"강원특별자치도\", \"sigungu\": \"영월군\", \"source_doc_ids\": [\"DOC-B0216-TOUR_API-2714842\"], \"source_locator\": \"data/raw/museum_tourapi_with_overview.csv#row=107\", \"source_locators\": [\"data/raw/museum_tourapi_with_overview.csv#row=107\"], \"source_urls\": [], \"text\": \"선캄브리아누대부터 현생누대까지, 원생대부터 고생대, 중생대, 신새대의 곤충화석까지 각 기별로 다양하게 전시되어 있다.\", \"theme\": \"자연·생태\", \"topic\": \"화석·지질\"}",
+    "{\"evidence_context_version\": \"grounded-evidence-v2\", \"evidence_id\": \"E2\", \"museum_id\": \"M0231\", \"name\": \"창조자연사박물관\", \"sido\": \"경기도\", \"sigungu\": \"시흥시\", \"source_doc_ids\": [\"DOC-B0231-TOUR_API-130743\"], \"source_locator\": \"data/raw/museum_tourapi_with_overview.csv#row=116\", \"source_locators\": [\"data/raw/museum_tourapi_with_overview.csv#row=116\"], \"source_urls\": [], \"text\": \"20여 종의 움직이는 공룡과 골격 공룡, 초대형 해백합 화석을 비롯하여 화석 180여 점, 광물 190여 점, 어류 180여 점, 패류 200종 6,100여 점, 나비 곤충 264종 500여 점, 조류 60여 점, 액침표본 110여 점, 식물과 나무 60여 점의 유물을 전시, 보유하고 있다.\", \"theme\": \"자연·생태\", \"topic\": \"화석·지질\"}",
+    "{\"evidence_context_version\": \"grounded-evidence-v2\", \"evidence_id\": \"E3\", \"museum_id\": \"M0307\", \"name\": \"여주곤충박물관\", \"sido\": \"경기도\", \"sigungu\": \"여주시\", \"source_doc_ids\": [\"DOC-B0307-TOUR_API-2550788\"], \"source_locator\": \"data/raw/museum_tourapi_with_overview.csv#row=150\", \"source_locators\": [\"data/raw/museum_tourapi_with_overview.csv#row=150\"], \"source_urls\": [], \"text\": \"곤충의 아름답고 신비로운 모습을 볼 수 있으며, 곤충생태를 연구하고 이를 이용한 체험학습을 통해 곤충에 관심있는 사람에게 좀 더 많은 생태환경을 제공하는 곳으로 곤충 생명과학, 곤충 해설사교육을 진행하고 있으며 정서치유 프로그램도 같이 운영중인 곳이다.\", \"theme\": \"자연·생태\", \"topic\": \"곤충·생물\"}",
+    "{\"evidence_context_version\": \"grounded-evidence-v2\", \"evidence_id\": \"E4\", \"museum_id\": \"M0376\", \"name\": \"파주나비나라박물관\", \"sido\": \"경기도\", \"sigungu\": \"파주시\", \"source_doc_ids\": [\"DOC-B0376-TOUR_API-613661\"], \"source_locator\": \"data/raw/museum_tourapi_with_overview.csv#row=178\", \"source_locators\": [\"data/raw/museum_tourapi_with_overview.csv#row=178\"], \"source_urls\": [], \"text\": \"파주나비나라박물관은 자연환경 보존의 중요성과 생명의 소중함을 일깨줘 주는 동시에 곤충을 통한 교육 중심의 박물관이 되고자 2008년 4월 파주출판문화도시에 개관하였다.\", \"theme\": \"자연·생태\", \"topic\": \"곤충·생물\"}",
+    "{\"evidence_context_version\": \"grounded-evidence-v2\", \"evidence_id\": \"E5\", \"museum_id\": \"M0431\", \"name\": \"거제민속박물관\", \"sido\": \"경상남도\", \"sigungu\": \"거제시\", \"source_doc_ids\": [\"DOC-B0431-TOUR_API-1622150\"], \"source_locator\": \"data/raw/museum_tourapi_with_overview.csv#row=205\", \"source_locators\": [\"data/raw/museum_tourapi_with_overview.csv#row=205\"], \"source_urls\": [], \"text\": \"오랜 기간 동안 수집한 농경·민속·서화 등 민속자료 5,500여 점이 전시되어 있는 자료관으로 문화관광부에 등록되어 있으며 전시관 부지 내에 곤충생태원이 위치하고 있어 다양한 볼거리가 있는 곳이다.\", \"theme\": \"미술·예술\", \"topic\": \"서예·서화\"}"
+  ],
+  "mode": "supervisor_full",
+  "question_id": "V2-EH02",
+  "evidence": [
+    {
+      "museum_id": "M0216",
+      "name": "영월화석박물관",
+      "text": "선캄브리아누대부터 현생누대까지, 원생대부터 고생대, 중생대, 신새대의 곤충화석까지 각 기별로 다양하게 전시되어 있다.",
+      "span_id": "M0216:001",
+      "source_doc_ids": [
+        "DOC-B0216-TOUR_API-2714842"
+      ],
+      "source_urls": [],
+      "source_url": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=107"
+      ],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=107",
+      "sido": "강원특별자치도",
+      "sigungu": "영월군",
+      "retriever": "graph",
+      "topic": "화석·지질",
+      "theme": "자연·생태",
+      "metadata": {},
+      "chunk_id": "",
+      "retrievers": [
+        "graph"
+      ],
+      "evidence_id": "E1",
+      "rank": 1
+    },
+    {
+      "museum_id": "M0231",
+      "name": "창조자연사박물관",
+      "text": "20여 종의 움직이는 공룡과 골격 공룡, 초대형 해백합 화석을 비롯하여 화석 180여 점, 광물 190여 점, 어류 180여 점, 패류 200종 6,100여 점, 나비 곤충 264종 500여 점, 조류 60여 점, 액침표본 110여 점, 식물과 나무 60여 점의 유물을 전시, 보유하고 있다.",
+      "span_id": "M0231:001",
+      "source_doc_ids": [
+        "DOC-B0231-TOUR_API-130743"
+      ],
+      "source_urls": [],
+      "source_url": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=116"
+      ],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=116",
+      "sido": "경기도",
+      "sigungu": "시흥시",
+      "retriever": "graph",
+      "topic": "화석·지질",
+      "theme": "자연·생태",
+      "metadata": {},
+      "chunk_id": "",
+      "retrievers": [
+        "graph"
+      ],
+      "evidence_id": "E2",
+      "rank": 2
+    },
+    {
+      "museum_id": "M0307",
+      "name": "여주곤충박물관",
+      "text": "곤충의 아름답고 신비로운 모습을 볼 수 있으며, 곤충생태를 연구하고 이를 이용한 체험학습을 통해 곤충에 관심있는 사람에게 좀 더 많은 생태환경을 제공하는 곳으로 곤충 생명과학, 곤충 해설사교육을 진행하고 있으며 정서치유 프로그램도 같이 운영중인 곳이다.",
+      "span_id": "M0307:000",
+      "source_doc_ids": [
+        "DOC-B0307-TOUR_API-2550788"
+      ],
+      "source_urls": [],
+      "source_url": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=150"
+      ],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=150",
+      "sido": "경기도",
+      "sigungu": "여주시",
+      "retriever": "graph",
+      "topic": "곤충·생물",
+      "theme": "자연·생태",
+      "metadata": {},
+      "chunk_id": "",
+      "retrievers": [
+        "graph"
+      ],
+      "evidence_id": "E3",
+      "rank": 3
+    },
+    {
+      "museum_id": "M0376",
+      "name": "파주나비나라박물관",
+      "text": "파주나비나라박물관은 자연환경 보존의 중요성과 생명의 소중함을 일깨줘 주는 동시에 곤충을 통한 교육 중심의 박물관이 되고자 2008년 4월 파주출판문화도시에 개관하였다.",
+      "span_id": "M0376:000",
+      "source_doc_ids": [
+        "DOC-B0376-TOUR_API-613661"
+      ],
+      "source_urls": [],
+      "source_url": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=178"
+      ],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=178",
+      "sido": "경기도",
+      "sigungu": "파주시",
+      "retriever": "graph",
+      "topic": "곤충·생물",
+      "theme": "자연·생태",
+      "metadata": {},
+      "chunk_id": "",
+      "retrievers": [
+        "graph"
+      ],
+      "evidence_id": "E4",
+      "rank": 4
+    },
+    {
+      "museum_id": "M0431",
+      "name": "거제민속박물관",
+      "text": "오랜 기간 동안 수집한 농경·민속·서화 등 민속자료 5,500여 점이 전시되어 있는 자료관으로 문화관광부에 등록되어 있으며 전시관 부지 내에 곤충생태원이 위치하고 있어 다양한 볼거리가 있는 곳이다.",
+      "span_id": "M0431:001",
+      "source_doc_ids": [
+        "DOC-B0431-TOUR_API-1622150"
+      ],
+      "source_urls": [],
+      "source_url": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=205"
+      ],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=205",
+      "sido": "경상남도",
+      "sigungu": "거제시",
+      "retriever": "graph",
+      "topic": "서예·서화",
+      "theme": "미술·예술",
+      "metadata": {},
+      "chunk_id": "",
+      "retrievers": [
+        "graph"
+      ],
+      "evidence_id": "E5",
+      "rank": 5
+    }
+  ],
+  "answer": "확인 가능한 근거가 부족하여 답변을 보류했습니다. 확인하지 못한 내용: E4 파주나비나라박물관에서 실제로 곤충을 볼 수 있다는 근거.",
+  "retrieval_status": "ok",
+  "answer_status": "abstained",
+  "route": "graph",
+  "retry_count": 1,
+  "supervisor_verified": false,
+  "rerank_applied": false,
+  "retriever_errors": [],
+  "warnings": [],
+  "duration_ms": 125189.95,
+  "error_type": "",
+  "hit_at_1": 0,
+  "hit_at_3": 1,
+  "hit_at_5": 1,
+  "recall_at_5": 0.25,
+  "mrr_at_10": 0.3333333333333333
+}

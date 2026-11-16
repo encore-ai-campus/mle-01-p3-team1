@@ -51,8 +51,8 @@ checkpoints/
 
 # Generated evaluation outputs
 reports/generated/
-outputs/*
-!outputs/README.md
+# Local judge caches, including SQLite journal files
+outputs/**/judge_cache/
 
 # Build artifacts
 build/

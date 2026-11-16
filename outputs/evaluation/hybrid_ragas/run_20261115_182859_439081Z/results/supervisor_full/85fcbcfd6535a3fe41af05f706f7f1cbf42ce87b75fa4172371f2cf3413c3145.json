@@ -1,0 +1,766 @@
+{
+  "evidence_context_version": "grounded-evidence-v2",
+  "evaluation_contexts": [
+    "{\"evidence_context_version\": \"grounded-evidence-v2\", \"evidence_id\": \"E1\", \"metadata_provenance\": {\"base_data_date\": \"2026-09-19\", \"fields\": {\"address\": \"충청남도 홍성군 홍북읍 이응노로 61-7\", \"adult_fee\": \"1000\", \"adult_fee_status\": \"BASE_FEE_PAID\", \"amenities_raw\": \"북카페\", \"child_fee\": \"500\", \"closure_rule_raw\": \"월(월요일이 공휴일인 경우 화요일 대체 휴관)+1월 1일+설 연휴+추석 연휴\", \"holiday_close\": \"18:00\", \"holiday_open\": \"09:00\", \"name\": \"고암이응노생가기념관\", \"ownership_type\": \"공립\", \"sido\": \"충청남도\", \"sigungu\": \"홍성군\", \"weekday_close\": \"18:00\", \"weekday_open\": \"09:00\", \"youth_fee\": \"500\"}, \"source_kind\": \"derived_csv_row\", \"source_locator\": \"data/processed/museum_final_738.csv#record=11\", \"trust\": \"derived_dataset_not_human_verified\"}, \"museum_id\": \"M0011\", \"name\": \"고암이응노생가기념관\", \"source_doc_ids\": [\"DOC-B0011-BASE\", \"DOC-B0011-TOUR_API-2483785\"], \"source_documents\": [{\"doc_id\": \"DOC-B0011-BASE\", \"match_trust\": \"BASE_SOURCE\", \"source_locator\": \"data/raw/museum_base_1070.csv#row=12\", \"source_record_id\": \"B0011\", \"source_type\": \"BASE\"}, {\"doc_id\": \"DOC-B0011-TOUR_API-2483785\", \"match_trust\": \"AUTO_MATCH_NOT_HUMAN_VERIFIED\", \"source_locator\": \"data/raw/museum_tourapi_with_overview.csv#row=9\", \"source_record_id\": \"2483785\", \"source_type\": \"TOUR_API\"}], \"source_locator\": \"data/raw/museum_base_1070.csv#row=12\", \"source_locators\": [\"data/raw/museum_base_1070.csv#row=12\"], \"source_scope\": \"text\", \"source_spans\": [{\"doc_ids\": [\"DOC-B0011-BASE\"], \"end\": 68, \"start\": 0}, {\"doc_ids\": [\"DOC-B0011-BASE\", \"DOC-B0011-TOUR_API-2483785\"], \"end\": 178, \"start\": 69}, {\"doc_ids\": [\"DOC-B0011-BASE\", \"DOC-B0011-TOUR_API-2483785\"], \"end\": 262, \"start\": 179}, {\"doc_ids\": [\"DOC-B0011-BASE\", \"DOC-B0011-TOUR_API-2483785\"], \"end\": 316, \"start\": 263}, {\"doc_ids\": [\"DOC-B0011-TOUR_API-2483785\"], \"end\": 383, \"start\": 317}], \"source_urls\": [], \"text\": \"고암 이응노 생가기념관은 이응노가 탄생하고 유년을 보냈다는 충남 홍성군 홍북읍 중계리의 낮은 산자락 끝에 자리 잡고 있다. 고암 이응노 생가기념관은 대지 면적 2만여㎡ 및 건축 면적 1천여㎡로 전시 홀ㆍ북카페ㆍ다목적실 등 전시 시설을 중심으로 하는 공간과 초가로 지은 생가ㆍ연밭ㆍ산책로 등을 갖춘 기념관이자 미술관이다. 이응노 개인을 기리고자 마련된 이 생가 기념관은 그 자신이 미술가였기에 기능면에서 전시와 수장 공간이 반드시 필요한 미술관의 성격이 한층 더 강하다. 이런 의미에서 ’’고암 이응노 생가기념관’’은 기념관은 미술관의 측면에서 살펴보아야 할 것이다. 고암이응노생가기념관은 이응노가 탄생하고 유년을 보냈다는 충남 홍성군 홍북면 중계리의 낮은 산자락 끝에 자리 잡고 있다.\"}",
+    "{\"evidence_context_version\": \"grounded-evidence-v2\", \"evidence_id\": \"E2\", \"metadata_provenance\": {\"base_data_date\": \"2026-09-19\", \"fields\": {\"address\": \"충청남도 홍성군 홍성읍 아문길 20\", \"adult_fee\": \"0\", \"adult_fee_status\": \"BASE_FEE_ZERO_CHECK_EXCEPTIONS\", \"child_fee\": \"0\", \"closure_rule_raw\": \"월+1월 1일+설 연휴+추석 연휴\", \"holiday_close\": \"18:00\", \"holiday_open\": \"09:00\", \"name\": \"홍주성역사관\", \"ownership_type\": \"공립\", \"sido\": \"충청남도\", \"sigungu\": \"홍성군\", \"weekday_close\": \"18:00\", \"weekday_open\": \"09:00\", \"youth_fee\": \"0\"}, \"source_kind\": \"derived_csv_row\", \"source_locator\": \"data/processed/museum_final_738.csv#record=12\", \"trust\": \"derived_dataset_not_human_verified\"}, \"museum_id\": \"M0012\", \"name\": \"홍주성역사관\", \"source_doc_ids\": [\"DOC-B0012-TOUR_API-2551494\", \"DOC-B0012-BASE\"], \"source_documents\": [{\"doc_id\": \"DOC-B0012-TOUR_API-2551494\", \"match_trust\": \"AUTO_MATCH_NOT_HUMAN_VERIFIED\", \"source_locator\": \"data/raw/museum_tourapi_with_overview.csv#row=10\", \"source_record_id\": \"2551494\", \"source_type\": \"TOUR_API\"}, {\"doc_id\": \"DOC-B0012-BASE\", \"match_trust\": \"BASE_SOURCE\", \"source_locator\": \"data/raw/museum_base_1070.csv#row=13\", \"source_record_id\": \"B0012\", \"source_type\": \"BASE\"}], \"source_locator\": \"data/raw/museum_tourapi_with_overview.csv#row=10\", \"source_locators\": [\"data/raw/museum_tourapi_with_overview.csv#row=10\"], \"source_scope\": \"text\", \"source_spans\": [{\"doc_ids\": [\"DOC-B0012-TOUR_API-2551494\"], \"end\": 26, \"start\": 0}, {\"doc_ids\": [\"DOC-B0012-TOUR_API-2551494\"], \"end\": 181, \"start\": 27}, {\"doc_ids\": [\"DOC-B0012-BASE\", \"DOC-B0012-TOUR_API-2551494\"], \"end\": 235, \"start\": 182}, {\"doc_ids\": [\"DOC-B0012-TOUR_API-2551494\"], \"end\": 285, \"start\": 236}, {\"doc_ids\": [\"DOC-B0012-BASE\"], \"end\": 349, \"start\": 286}, {\"doc_ids\": [\"DOC-B0012-BASE\"], \"end\": 416, \"start\": 350}], \"source_urls\": [], \"text\": \"홍주성역사관은 홍성 홍주읍성 내 위치하고 있다. 지역의 전통을 부각시키면서 동시에 역사에 바탕을 둔 미래지향적인 시설로 구성되었으며, 역사관의 기본적 기능에 충실하여 전시 유물의 상징적 의미와 예술적 요소를 함축성 있게 표현하여 이를 바탕으로 군민 참여와 소통의 장이자 연구의 중심지로서 지역 정보 센터의 역할을 하고 있다. 홍성과 충남 내포지역의 특색 있는 역사와 문화, 관련 유적 및 유물을 소재로 전시를 하고 있다. 박물관 주변에 옛 홍주목 관련 흔적들이 남아 있어 전시와 연계한 볼거리가 마련되어 있다. 홍성 홍주읍성(사적 231호) 내 위치하고 있으며 전면적 7199.17㎡ 및 연면적 1669㎡ 로 구성되어 있다. 박물관이 홍주읍성 내에 위치하고 있고 주변에 옛 홍주목 관련 흔적들이 남아 있어 전시와 연계한 볼거리가 마련되어 있다.\"}",
+    "{\"evidence_context_version\": \"grounded-evidence-v2\", \"evidence_id\": \"E3\", \"metadata_provenance\": {\"base_data_date\": \"2026-06-05\", \"fields\": {\"address\": \"충청남도 예산군 덕산면 덕산온천로 183-5\", \"adult_fee\": \"0\", \"adult_fee_status\": \"BASE_FEE_ZERO_CHECK_EXCEPTIONS\", \"child_fee\": \"0\", \"closure_rule_raw\": \"연중무휴\", \"holiday_close\": \"18:00\", \"holiday_open\": \"09:00\", \"name\": \"윤봉길의사기념관\", \"ownership_type\": \"공립\", \"sido\": \"충청남도\", \"sigungu\": \"예산군\", \"weekday_close\": \"18:00\", \"weekday_open\": \"09:00\", \"youth_fee\": \"0\"}, \"source_kind\": \"derived_csv_row\", \"source_locator\": \"data/processed/museum_final_738.csv#record=237\", \"trust\": \"derived_dataset_not_human_verified\"}, \"museum_id\": \"M0331\", \"name\": \"윤봉길의사기념관\", \"source_doc_ids\": [\"DOC-B0331-TOUR_API-2514045\"], \"source_documents\": [{\"doc_id\": \"DOC-B0331-TOUR_API-2514045\", \"match_trust\": \"AUTO_MATCH_NOT_HUMAN_VERIFIED\", \"source_locator\": \"data/raw/museum_tourapi_with_overview.csv#row=161\", \"source_record_id\": \"2514045\", \"source_type\": \"TOUR_API\"}], \"source_locator\": \"data/raw/museum_tourapi_with_overview.csv#row=161\", \"source_locators\": [\"data/raw/museum_tourapi_with_overview.csv#row=161\"], \"source_scope\": \"text\", \"source_spans\": [{\"doc_ids\": [\"DOC-B0331-TOUR_API-2514045\"], \"end\": 75, \"start\": 0}, {\"doc_ids\": [\"DOC-B0331-TOUR_API-2514045\"], \"end\": 162, \"start\": 76}, {\"doc_ids\": [\"DOC-B0331-TOUR_API-2514045\"], \"end\": 263, \"start\": 163}, {\"doc_ids\": [\"DOC-B0331-TOUR_API-2514045\"], \"end\": 361, \"start\": 264}, {\"doc_ids\": [\"DOC-B0331-TOUR_API-2514045\"], \"end\": 458, \"start\": 362}], \"source_urls\": [], \"text\": \"예산 윤봉길의사기념관은 윤봉길 의사가 태어나 농촌계몽운동을 펼치고 중국으로 건너가기 전까지 거주하던 사적지 충의사 내에 조성되어 있다. 서울 서초구에 있는 매헌윤봉길의사기념관과 달리, 이곳 예산 기념관은 윤봉길 의사의 생가가 보존되어 있으며 사당과 기념비, 동상 등을 함께 둘러볼 수 있다. 전시관에는 1932년 상하이 훙커우 공원 의거를 감행해 우리나라의 독립의지를 세계에 알리고 순국하기까지 윤 의사의 일생을 다룬 그림, 영상, 디오라마 등이 생생하게 구비되어 있다. 특히 윤봉길 의사가 남겨 보물로 지정된 소중한 유품들을 관람할 수 있으며, 관람 전 큐브 활동지를 만들어 관람 후 그림 봉투 화분으로 활용하는 체험 프로그램도 마련되어 있다. 주변에는 덕산온천, 보부상유품전시관(예덕상무사), 내포보부상촌, 수덕사, 옥계저수지, 남연군묘 등 예산의 다양한 관광명소가 접해 있어 한꺼번에 연계하여 여행을 즐기기 좋다.\"}",
+    "{\"evidence_context_version\": \"grounded-evidence-v2\", \"evidence_id\": \"E4\", \"metadata_provenance\": {\"base_data_date\": \"2026-05-13\", \"fields\": {\"address\": \"울산광역시 중구 병영12길 15\", \"adult_fee\": \"0\", \"adult_fee_status\": \"BASE_FEE_ZERO_CHECK_EXCEPTIONS\", \"amenities_raw\": \"주차장+화장실\", \"child_fee\": \"0\", \"closure_rule_raw\": \"매주 월요일 (단, 월요일이 공휴일인 경우 당일은 개관하고 그 다음 첫번째 평일에 휴관)\", \"holiday_close\": \"18:00\", \"holiday_open\": \"09:00\", \"name\": \"외솔기념관\", \"ownership_type\": \"공립\", \"sido\": \"울산광역시\", \"sigungu\": \"중구\", \"weekday_close\": \"18:00\", \"weekday_open\": \"09:00\", \"youth_fee\": \"0\"}, \"source_kind\": \"derived_csv_row\", \"source_locator\": \"data/processed/museum_final_738.csv#record=290\", \"trust\": \"derived_dataset_not_human_verified\"}, \"museum_id\": \"M0406\", \"name\": \"외솔기념관\", \"source_doc_ids\": [\"DOC-B0406-TOUR_API-1624470\", \"DOC-B0406-BASE\"], \"source_documents\": [{\"doc_id\": \"DOC-B0406-TOUR_API-1624470\", \"match_trust\": \"AUTO_MATCH_NOT_HUMAN_VERIFIED\", \"source_locator\": \"data/raw/museum_tourapi_with_overview.csv#row=190\", \"source_record_id\": \"1624470\", \"source_type\": \"TOUR_API\"}, {\"doc_id\": \"DOC-B0406-BASE\", \"match_trust\": \"BASE_SOURCE\", \"source_locator\": \"data/raw/museum_base_1070.csv#row=407\", \"source_record_id\": \"B0406\", \"source_type\": \"BASE\"}], \"source_locator\": \"data/raw/museum_tourapi_with_overview.csv#row=190\", \"source_locators\": [\"data/raw/museum_tourapi_with_overview.csv#row=190\"], \"source_scope\": \"text\", \"source_spans\": [{\"doc_ids\": [\"DOC-B0406-TOUR_API-1624470\"], \"end\": 107, \"start\": 0}, {\"doc_ids\": [\"DOC-B0406-TOUR_API-1624470\"], \"end\": 165, \"start\": 108}, {\"doc_ids\": [\"DOC-B0406-TOUR_API-1624470\"], \"end\": 289, \"start\": 166}, {\"doc_ids\": [\"DOC-B0406-TOUR_API-1624470\"], \"end\": 429, \"start\": 290}, {\"doc_ids\": [\"DOC-B0406-TOUR_API-1624470\"], \"end\": 519, \"start\": 430}, {\"doc_ids\": [\"DOC-B0406-TOUR_API-1624470\"], \"end\": 564, \"start\": 520}, {\"doc_ids\": [\"DOC-B0406-TOUR_API-1624470\"], \"end\": 622, \"start\": 565}, {\"doc_ids\": [\"DOC-B0406-BASE\"], \"end\": 694, \"start\": 623}], \"source_urls\": [], \"text\": \"외솔기념관은 일제강점기 우리말과 글을 지킨 독립운동가이자 평생 한글 보급과 정보화를 위해 한길을 걸은 한글학자인 외솔 최현배의 업적을 기리고 그의 삶과 한글에 대한 정신을 기리고자 개관하였다. 외솔 최현배는 ‘한글 맞춤법 통일안’을 마련하고 표준말 정립, 우리말 사전 편찬 등에 심혈을 기울였다. 또한 문교부 편수 국장을 맡으며 초중등 교과서의 문법 체계, 가로 쓰기 체계 확립 등 대한민국의 국어정책의 초석을 다지고 한글전용 운동에 헌신하는 등 훈민정음이 오늘날의 한글이 되기까지 외솔 최현배의 갖은 노력이 있었다. 외솔기념관은 평생 한글을 지킨 외솔 최현배의 저서와 유품 등이 전시된 상설전시실을 비롯하여 다양한 한글 서적들을 열람할 수 있는 한글실, 어린이들을 위한 다양한 한글 놀이와 체험이 준비된 체험실, 교육 운영 공간인 모둠실, 영상실 등을 갖추고 있다. 특히 상설전시실은 2023년 3월 새롭게 개편되어 개관 당시보다 훨씬 쾌적한 공간으로 거듭났으며 다양한 자료를 통해 누구나 쉽게 외솔의 생애를 이해할 수 있다. 전시실 내 체험공간에서 ‘전자 타자기로 나만의 방문증 만들기’ 체험도 가능하다. 기념관 2층 야외 공간에는 외솔 최현배가 나고 자란 생가가 함께 있어 그의 삶을 한눈에 살필 수 있다. 외솔기념관은 외솔 최현배선생의 업적을 소개하고 대표 저서와 유품을 소장하고 있는 2010년 3월 23일에 개관한 공립박물관이다.\"}",
+    "{\"evidence_context_version\": \"grounded-evidence-v2\", \"evidence_id\": \"E5\", \"metadata_provenance\": {\"base_data_date\": \"2024-11-02\", \"fields\": {\"address\": \"울산광역시 중구 병영12길 15\", \"adult_fee\": \"0\", \"adult_fee_status\": \"BASE_FEE_ZERO_CHECK_EXCEPTIONS\", \"amenities_raw\": \"화장실, 주차장+유아놀이시설\", \"child_fee\": \"0\", \"closure_rule_raw\": \"매주 월+1월 1일+설날 및 추석 당일\", \"holiday_close\": \"18:00\", \"holiday_open\": \"09:00\", \"name\": \"울산외솔기념관\", \"ownership_type\": \"공립\", \"sido\": \"울산광역시\", \"sigungu\": \"중구\", \"weekday_close\": \"18:00\", \"weekday_open\": \"09:00\", \"youth_fee\": \"0\"}, \"source_kind\": \"derived_csv_row\", \"source_locator\": \"data/processed/museum_final_738.csv#record=527\", \"trust\": \"derived_dataset_not_human_verified\"}, \"museum_id\": \"M0764\", \"name\": \"울산외솔기념관\", \"source_doc_ids\": [\"DOC-B0764-BASE\"], \"source_documents\": [{\"doc_id\": \"DOC-B0764-BASE\", \"match_trust\": \"BASE_SOURCE\", \"source_locator\": \"data/raw/museum_base_1070.csv#row=765\", \"source_record_id\": \"B0764\", \"source_type\": \"BASE\"}], \"source_locator\": \"data/raw/museum_base_1070.csv#row=765\", \"source_locators\": [\"data/raw/museum_base_1070.csv#row=765\"], \"source_scope\": \"text\", \"source_spans\": [{\"doc_ids\": [\"DOC-B0764-BASE\"], \"end\": 117, \"start\": 0}, {\"doc_ids\": [\"DOC-B0764-BASE\"], \"end\": 240, \"start\": 118}, {\"doc_ids\": [\"DOC-B0764-BASE\"], \"end\": 287, \"start\": 241}], \"source_urls\": [], \"text\": \"외솔기념관은 일제강점기 우리말과 글을 지킨 독립운동가이자 평생 한글보급과 정보화를 위해 한길을 걸은 한글학자인 외솔 최현배 선생의 업적을 기리고 그의 삶과 한글에 대한 정신을 계승, 발전시키고자 개관하였습니다. 외솔 선생의 저서와 유품 등이 전시된 상설전시실을 비롯하여 다양한 한글서적들을 열람할 수 있는 한글실, 어린아이들이 한글의 체계를 놀이를 통해 익힐 수 있는 체험실, 그리고 영상실, 모둠실(강당) 등을 갖추고 있습니다. 또한 외솔 선생이 나고 자란 생가가 함께 있어 그의 삶을 한눈에 살필 수 있습니다.\"}"
+  ],
+  "mode": "supervisor_full",
+  "question_id": "Q011",
+  "evidence": [
+    {
+      "museum_id": "M0011",
+      "name": "고암이응노생가기념관",
+      "document": "고암 이응노 생가기념관은 이응노가 탄생하고 유년을 보냈다는 충남 홍성군 홍북읍 중계리의 낮은 산자락 끝에 자리 잡고 있다. 고암 이응노 생가기념관은 대지 면적 2만여㎡ 및 건축 면적 1천여㎡로 전시 홀ㆍ북카페ㆍ다목적실 등 전시 시설을 중심으로 하는 공간과 초가로 지은 생가ㆍ연밭ㆍ산책로 등을 갖춘 기념관이자 미술관이다. 이응노 개인을 기리고자 마련된 이 생가 기념관은 그 자신이 미술가였기에 기능면에서 전시와 수장 공간이 반드시 필요한 미술관의 성격이 한층 더 강하다. 이런 의미에서 ’’고암 이응노 생가기념관’’은 기념관은 미술관의 측면에서 살펴보아야 할 것이다. 고암이응노생가기념관은 이응노가 탄생하고 유년을 보냈다는 충남 홍성군 홍북면 중계리의 낮은 산자락 끝에 자리 잡고 있다.",
+      "metadata": {
+        "amenities_raw": "북카페",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/52/3351452_image2_1.jpg",
+        "name": "고암이응노생가기념관",
+        "requires_manual_review": true,
+        "ownership_type": "공립",
+        "transport_notes": "서울→서해안고속도로(홍성IC)→21번국도(홍성방면)→이응노생가기념관",
+        "latitude": 36.62232152,
+        "holiday_open": "09:00",
+        "adult_fee_status": "BASE_FEE_PAID",
+        "fee_notes": "무료(6세이하+65세이상+장애인+유공자)",
+        "address": "충청남도 홍성군 홍북읍 이응노로 61-7",
+        "homepage_url": "https://www.hongseong.go.kr/leeungno/index.do",
+        "image_copyright": "Type3",
+        "weekday_open": "09:00",
+        "adult_fee": 1000.0,
+        "source_types": "BASE|TOUR_API",
+        "closure_rule_raw": "월(월요일이 공휴일인 경우 화요일 대체 휴관)+1월 1일+설 연휴+추석 연휴",
+        "longitude": 126.6316653,
+        "sigungu": "홍성군",
+        "weekday_close": "18:00",
+        "child_fee": 500.0,
+        "youth_fee": 500.0,
+        "holiday_close": "18:00",
+        "sido": "충청남도"
+      },
+      "vector_rank": 1,
+      "bm25_rank": 1,
+      "vector_distance": 0.6437222361564636,
+      "vector_score": null,
+      "bm25_score": 35.44972888945184,
+      "vector_document": "고암 이응노 생가기념관은 이응노가 탄생하고 유년을 보냈다는 충남 홍성군 홍북읍 중계리의 낮은 산자락 끝에 자리 잡고 있다. 고암 이응노 생가기념관은 대지 면적 2만여㎡ 및 건축 면적 1천여㎡로 전시 홀ㆍ북카페ㆍ다목적실 등 전시 시설을 중심으로 하는 공간과 초가로 지은 생가ㆍ연밭ㆍ산책로 등을 갖춘 기념관이자 미술관이다. 이응노 개인을 기리고자 마련된 이 생가 기념관은 그 자신이 미술가였기에 기능면에서 전시와 수장 공간이 반드시 필요한 미술관의 성격이 한층 더 강하다. 이런 의미에서 ’’고암 이응노 생가기념관’’은 기념관은 미술관의 측면에서 살펴보아야 할 것이다. 고암이응노생가기념관은 이응노가 탄생하고 유년을 보냈다는 충남 홍성군 홍북면 중계리의 낮은 산자락 끝에 자리 잡고 있다.",
+      "bm25_document": "고암 이응노 생가기념관은 이응노가 탄생하고 유년을 보냈다는 충남 홍성군 홍북읍 중계리의 낮은 산자락 끝에 자리 잡고 있다. 고암 이응노 생가기념관은 대지 면적 2만여㎡ 및 건축 면적 1천여㎡로 전시 홀ㆍ북카페ㆍ다목적실 등 전시 시설을 중심으로 하는 공간과 초가로 지은 생가ㆍ연밭ㆍ산책로 등을 갖춘 기념관이자 미술관이다. 이응노 개인을 기리고자 마련된 이 생가 기념관은 그 자신이 미술가였기에 기능면에서 전시와 수장 공간이 반드시 필요한 미술관의 성격이 한층 더 강하다. 이런 의미에서 ’’고암 이응노 생가기념관’’은 기념관은 미술관의 측면에서 살펴보아야 할 것이다. 고암이응노생가기념관은 이응노가 탄생하고 유년을 보냈다는 충남 홍성군 홍북면 중계리의 낮은 산자락 끝에 자리 잡고 있다.",
+      "best_span_id": "chroma:M0011",
+      "best_span_text": "고암 이응노 생가기념관은 이응노가 탄생하고 유년을 보냈다는 충남 홍성군 홍북읍 중계리의 낮은 산자락 끝에 자리 잡고 있다. 고암 이응노 생가기념관은 대지 면적 2만여㎡ 및 건축 면적 1천여㎡로 전시 홀ㆍ북카페ㆍ다목적실 등 전시 시설을 중심으로 하는 공간과 초가로 지은 생가ㆍ연밭ㆍ산책로 등을 갖춘 기념관이자 미술관이다. 이응노 개인을 기리고자 마련된 이 생가 기념관은 그 자신이 미술가였기에 기능면에서 전시와 수장 공간이 반드시 필요한 미술관의 성격이 한층 더 강하다. 이런 의미에서 ’’고암 이응노 생가기념관’’은 기념관은 미술관의 측면에서 살펴보아야 할 것이다. 고암이응노생가기념관은 이응노가 탄생하고 유년을 보냈다는 충남 홍성군 홍북면 중계리의 낮은 산자락 끝에 자리 잡고 있다.",
+      "fusion_score": 0.03278688524590164,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 1,
+      "rerank_score": 0.9934791326522827,
+      "rank": 1,
+      "score": 0.9934791326522827,
+      "score_type": "cross_encoder",
+      "distance": 0.6437222361564636,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0011",
+      "source_doc_ids": [
+        "DOC-B0011-BASE",
+        "DOC-B0011-TOUR_API-2483785"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0011-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0011",
+          "source_locator": "data/raw/museum_base_1070.csv#row=12",
+          "match_trust": "BASE_SOURCE"
+        },
+        {
+          "doc_id": "DOC-B0011-TOUR_API-2483785",
+          "source_type": "TOUR_API",
+          "source_record_id": "2483785",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=9",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 68,
+          "doc_ids": [
+            "DOC-B0011-BASE"
+          ]
+        },
+        {
+          "start": 69,
+          "end": 178,
+          "doc_ids": [
+            "DOC-B0011-BASE",
+            "DOC-B0011-TOUR_API-2483785"
+          ]
+        },
+        {
+          "start": 179,
+          "end": 262,
+          "doc_ids": [
+            "DOC-B0011-BASE",
+            "DOC-B0011-TOUR_API-2483785"
+          ]
+        },
+        {
+          "start": 263,
+          "end": 316,
+          "doc_ids": [
+            "DOC-B0011-BASE",
+            "DOC-B0011-TOUR_API-2483785"
+          ]
+        },
+        {
+          "start": 317,
+          "end": 383,
+          "doc_ids": [
+            "DOC-B0011-TOUR_API-2483785"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_base_1070.csv#row=12",
+      "text": "고암 이응노 생가기념관은 이응노가 탄생하고 유년을 보냈다는 충남 홍성군 홍북읍 중계리의 낮은 산자락 끝에 자리 잡고 있다. 고암 이응노 생가기념관은 대지 면적 2만여㎡ 및 건축 면적 1천여㎡로 전시 홀ㆍ북카페ㆍ다목적실 등 전시 시설을 중심으로 하는 공간과 초가로 지은 생가ㆍ연밭ㆍ산책로 등을 갖춘 기념관이자 미술관이다. 이응노 개인을 기리고자 마련된 이 생가 기념관은 그 자신이 미술가였기에 기능면에서 전시와 수장 공간이 반드시 필요한 미술관의 성격이 한층 더 강하다. 이런 의미에서 ’’고암 이응노 생가기념관’’은 기념관은 미술관의 측면에서 살펴보아야 할 것이다. 고암이응노생가기념관은 이응노가 탄생하고 유년을 보냈다는 충남 홍성군 홍북면 중계리의 낮은 산자락 끝에 자리 잡고 있다.",
+      "sido": "충청남도",
+      "sigungu": "홍성군",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_base_1070.csv#row=12"
+      ],
+      "evidence_id": "E1",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=11",
+        "fields": {
+          "name": "고암이응노생가기념관",
+          "sido": "충청남도",
+          "sigungu": "홍성군",
+          "address": "충청남도 홍성군 홍북읍 이응노로 61-7",
+          "ownership_type": "공립",
+          "adult_fee": "1000",
+          "youth_fee": "500",
+          "child_fee": "500",
+          "adult_fee_status": "BASE_FEE_PAID",
+          "weekday_open": "09:00",
+          "weekday_close": "18:00",
+          "holiday_open": "09:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "월(월요일이 공휴일인 경우 화요일 대체 휴관)+1월 1일+설 연휴+추석 연휴",
+          "amenities_raw": "북카페"
+        },
+        "base_data_date": "2026-09-19",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0012",
+      "name": "홍주성역사관",
+      "document": "홍주성역사관은 홍성 홍주읍성 내 위치하고 있다. 지역의 전통을 부각시키면서 동시에 역사에 바탕을 둔 미래지향적인 시설로 구성되었으며, 역사관의 기본적 기능에 충실하여 전시 유물의 상징적 의미와 예술적 요소를 함축성 있게 표현하여 이를 바탕으로 군민 참여와 소통의 장이자 연구의 중심지로서 지역 정보 센터의 역할을 하고 있다. 홍성과 충남 내포지역의 특색 있는 역사와 문화, 관련 유적 및 유물을 소재로 전시를 하고 있다. 박물관 주변에 옛 홍주목 관련 흔적들이 남아 있어 전시와 연계한 볼거리가 마련되어 있다. 홍성 홍주읍성(사적 231호) 내 위치하고 있으며 전면적 7199.17㎡ 및 연면적 1669㎡ 로 구성되어 있다. 박물관이 홍주읍성 내에 위치하고 있고 주변에 옛 홍주목 관련 흔적들이 남아 있어 전시와 연계한 볼거리가 마련되어 있다.",
+      "metadata": {
+        "weekday_open": "09:00",
+        "transport_notes": "서울→서해안고속도로(홍성IC)→21번국도(홍성방면)→홍주성역사관",
+        "adult_fee": 0.0,
+        "holiday_open": "09:00",
+        "latitude": 36.60019715,
+        "closure_rule_raw": "월+1월 1일+설 연휴+추석 연휴",
+        "holiday_close": "18:00",
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "homepage_url": "https://www.hongseong.go.kr/history/",
+        "youth_fee": 0.0,
+        "weekday_close": "18:00",
+        "address": "충청남도 홍성군 홍성읍 아문길 20",
+        "longitude": 126.660951,
+        "name": "홍주성역사관",
+        "child_fee": 0.0,
+        "sigungu": "홍성군",
+        "ownership_type": "공립",
+        "requires_manual_review": true,
+        "sido": "충청남도",
+        "source_types": "BASE|TOUR_API"
+      },
+      "vector_rank": 2,
+      "bm25_rank": 2,
+      "vector_distance": 0.6466467380523682,
+      "vector_score": null,
+      "bm25_score": 16.97694272623231,
+      "vector_document": "홍주성역사관은 홍성 홍주읍성 내 위치하고 있다. 지역의 전통을 부각시키면서 동시에 역사에 바탕을 둔 미래지향적인 시설로 구성되었으며, 역사관의 기본적 기능에 충실하여 전시 유물의 상징적 의미와 예술적 요소를 함축성 있게 표현하여 이를 바탕으로 군민 참여와 소통의 장이자 연구의 중심지로서 지역 정보 센터의 역할을 하고 있다. 홍성과 충남 내포지역의 특색 있는 역사와 문화, 관련 유적 및 유물을 소재로 전시를 하고 있다. 박물관 주변에 옛 홍주목 관련 흔적들이 남아 있어 전시와 연계한 볼거리가 마련되어 있다. 홍성 홍주읍성(사적 231호) 내 위치하고 있으며 전면적 7199.17㎡ 및 연면적 1669㎡ 로 구성되어 있다. 박물관이 홍주읍성 내에 위치하고 있고 주변에 옛 홍주목 관련 흔적들이 남아 있어 전시와 연계한 볼거리가 마련되어 있다.",
+      "bm25_document": "홍주성역사관은 홍성 홍주읍성 내 위치하고 있다. 지역의 전통을 부각시키면서 동시에 역사에 바탕을 둔 미래지향적인 시설로 구성되었으며, 역사관의 기본적 기능에 충실하여 전시 유물의 상징적 의미와 예술적 요소를 함축성 있게 표현하여 이를 바탕으로 군민 참여와 소통의 장이자 연구의 중심지로서 지역 정보 센터의 역할을 하고 있다. 홍성과 충남 내포지역의 특색 있는 역사와 문화, 관련 유적 및 유물을 소재로 전시를 하고 있다. 박물관 주변에 옛 홍주목 관련 흔적들이 남아 있어 전시와 연계한 볼거리가 마련되어 있다. 홍성 홍주읍성(사적 231호) 내 위치하고 있으며 전면적 7199.17㎡ 및 연면적 1669㎡ 로 구성되어 있다. 박물관이 홍주읍성 내에 위치하고 있고 주변에 옛 홍주목 관련 흔적들이 남아 있어 전시와 연계한 볼거리가 마련되어 있다.",
+      "best_span_id": "chroma:M0012",
+      "best_span_text": "홍주성역사관은 홍성 홍주읍성 내 위치하고 있다. 지역의 전통을 부각시키면서 동시에 역사에 바탕을 둔 미래지향적인 시설로 구성되었으며, 역사관의 기본적 기능에 충실하여 전시 유물의 상징적 의미와 예술적 요소를 함축성 있게 표현하여 이를 바탕으로 군민 참여와 소통의 장이자 연구의 중심지로서 지역 정보 센터의 역할을 하고 있다. 홍성과 충남 내포지역의 특색 있는 역사와 문화, 관련 유적 및 유물을 소재로 전시를 하고 있다. 박물관 주변에 옛 홍주목 관련 흔적들이 남아 있어 전시와 연계한 볼거리가 마련되어 있다. 홍성 홍주읍성(사적 231호) 내 위치하고 있으며 전면적 7199.17㎡ 및 연면적 1669㎡ 로 구성되어 있다. 박물관이 홍주읍성 내에 위치하고 있고 주변에 옛 홍주목 관련 흔적들이 남아 있어 전시와 연계한 볼거리가 마련되어 있다.",
+      "fusion_score": 0.03225806451612903,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 2,
+      "rerank_score": 0.027631564065814018,
+      "rank": 2,
+      "score": 0.027631564065814018,
+      "score_type": "cross_encoder",
+      "distance": 0.6466467380523682,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0012",
+      "source_doc_ids": [
+        "DOC-B0012-TOUR_API-2551494",
+        "DOC-B0012-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0012-TOUR_API-2551494",
+          "source_type": "TOUR_API",
+          "source_record_id": "2551494",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=10",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        },
+        {
+          "doc_id": "DOC-B0012-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0012",
+          "source_locator": "data/raw/museum_base_1070.csv#row=13",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 26,
+          "doc_ids": [
+            "DOC-B0012-TOUR_API-2551494"
+          ]
+        },
+        {
+          "start": 27,
+          "end": 181,
+          "doc_ids": [
+            "DOC-B0012-TOUR_API-2551494"
+          ]
+        },
+        {
+          "start": 182,
+          "end": 235,
+          "doc_ids": [
+            "DOC-B0012-BASE",
+            "DOC-B0012-TOUR_API-2551494"
+          ]
+        },
+        {
+          "start": 236,
+          "end": 285,
+          "doc_ids": [
+            "DOC-B0012-TOUR_API-2551494"
+          ]
+        },
+        {
+          "start": 286,
+          "end": 349,
+          "doc_ids": [
+            "DOC-B0012-BASE"
+          ]
+        },
+        {
+          "start": 350,
+          "end": 416,
+          "doc_ids": [
+            "DOC-B0012-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=10",
+      "text": "홍주성역사관은 홍성 홍주읍성 내 위치하고 있다. 지역의 전통을 부각시키면서 동시에 역사에 바탕을 둔 미래지향적인 시설로 구성되었으며, 역사관의 기본적 기능에 충실하여 전시 유물의 상징적 의미와 예술적 요소를 함축성 있게 표현하여 이를 바탕으로 군민 참여와 소통의 장이자 연구의 중심지로서 지역 정보 센터의 역할을 하고 있다. 홍성과 충남 내포지역의 특색 있는 역사와 문화, 관련 유적 및 유물을 소재로 전시를 하고 있다. 박물관 주변에 옛 홍주목 관련 흔적들이 남아 있어 전시와 연계한 볼거리가 마련되어 있다. 홍성 홍주읍성(사적 231호) 내 위치하고 있으며 전면적 7199.17㎡ 및 연면적 1669㎡ 로 구성되어 있다. 박물관이 홍주읍성 내에 위치하고 있고 주변에 옛 홍주목 관련 흔적들이 남아 있어 전시와 연계한 볼거리가 마련되어 있다.",
+      "sido": "충청남도",
+      "sigungu": "홍성군",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=10"
+      ],
+      "evidence_id": "E2",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=12",
+        "fields": {
+          "name": "홍주성역사관",
+          "sido": "충청남도",
+          "sigungu": "홍성군",
+          "address": "충청남도 홍성군 홍성읍 아문길 20",
+          "ownership_type": "공립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "09:00",
+          "weekday_close": "18:00",
+          "holiday_open": "09:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "월+1월 1일+설 연휴+추석 연휴"
+        },
+        "base_data_date": "2026-09-19",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0331",
+      "name": "윤봉길의사기념관",
+      "document": "예산 윤봉길의사기념관은 윤봉길 의사가 태어나 농촌계몽운동을 펼치고 중국으로 건너가기 전까지 거주하던 사적지 충의사 내에 조성되어 있다. 서울 서초구에 있는 매헌윤봉길의사기념관과 달리, 이곳 예산 기념관은 윤봉길 의사의 생가가 보존되어 있으며 사당과 기념비, 동상 등을 함께 둘러볼 수 있다. 전시관에는 1932년 상하이 훙커우 공원 의거를 감행해 우리나라의 독립의지를 세계에 알리고 순국하기까지 윤 의사의 일생을 다룬 그림, 영상, 디오라마 등이 생생하게 구비되어 있다. 특히 윤봉길 의사가 남겨 보물로 지정된 소중한 유품들을 관람할 수 있으며, 관람 전 큐브 활동지를 만들어 관람 후 그림 봉투 화분으로 활용하는 체험 프로그램도 마련되어 있다. 주변에는 덕산온천, 보부상유품전시관(예덕상무사), 내포보부상촌, 수덕사, 옥계저수지, 남연군묘 등 예산의 다양한 관광명소가 접해 있어 한꺼번에 연계하여 여행을 즐기기 좋다.",
+      "metadata": {
+        "homepage_url": "https://www.yesan.go.kr",
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "longitude": 126.6513825,
+        "requires_manual_review": true,
+        "closure_rule_raw": "연중무휴",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/14/4097614_image2_1.jpg",
+        "image_copyright": "Type1",
+        "source_types": "TOUR_API",
+        "name": "윤봉길의사기념관",
+        "weekday_close": "18:00",
+        "holiday_open": "09:00",
+        "holiday_close": "18:00",
+        "youth_fee": 0.0,
+        "ownership_type": "공립",
+        "latitude": 36.6865377,
+        "weekday_open": "09:00",
+        "sido": "충청남도",
+        "adult_fee": 0.0,
+        "child_fee": 0.0,
+        "sigungu": "예산군",
+        "address": "충청남도 예산군 덕산면 덕산온천로 183-5"
+      },
+      "vector_rank": null,
+      "bm25_rank": 3,
+      "vector_distance": null,
+      "vector_score": null,
+      "bm25_score": 15.328369255737034,
+      "vector_document": "",
+      "bm25_document": "예산 윤봉길의사기념관은 윤봉길 의사가 태어나 농촌계몽운동을 펼치고 중국으로 건너가기 전까지 거주하던 사적지 충의사 내에 조성되어 있다. 서울 서초구에 있는 매헌윤봉길의사기념관과 달리, 이곳 예산 기념관은 윤봉길 의사의 생가가 보존되어 있으며 사당과 기념비, 동상 등을 함께 둘러볼 수 있다. 전시관에는 1932년 상하이 훙커우 공원 의거를 감행해 우리나라의 독립의지를 세계에 알리고 순국하기까지 윤 의사의 일생을 다룬 그림, 영상, 디오라마 등이 생생하게 구비되어 있다. 특히 윤봉길 의사가 남겨 보물로 지정된 소중한 유품들을 관람할 수 있으며, 관람 전 큐브 활동지를 만들어 관람 후 그림 봉투 화분으로 활용하는 체험 프로그램도 마련되어 있다. 주변에는 덕산온천, 보부상유품전시관(예덕상무사), 내포보부상촌, 수덕사, 옥계저수지, 남연군묘 등 예산의 다양한 관광명소가 접해 있어 한꺼번에 연계하여 여행을 즐기기 좋다.",
+      "best_span_id": "chroma:M0331",
+      "best_span_text": "예산 윤봉길의사기념관은 윤봉길 의사가 태어나 농촌계몽운동을 펼치고 중국으로 건너가기 전까지 거주하던 사적지 충의사 내에 조성되어 있다. 서울 서초구에 있는 매헌윤봉길의사기념관과 달리, 이곳 예산 기념관은 윤봉길 의사의 생가가 보존되어 있으며 사당과 기념비, 동상 등을 함께 둘러볼 수 있다. 전시관에는 1932년 상하이 훙커우 공원 의거를 감행해 우리나라의 독립의지를 세계에 알리고 순국하기까지 윤 의사의 일생을 다룬 그림, 영상, 디오라마 등이 생생하게 구비되어 있다. 특히 윤봉길 의사가 남겨 보물로 지정된 소중한 유품들을 관람할 수 있으며, 관람 전 큐브 활동지를 만들어 관람 후 그림 봉투 화분으로 활용하는 체험 프로그램도 마련되어 있다. 주변에는 덕산온천, 보부상유품전시관(예덕상무사), 내포보부상촌, 수덕사, 옥계저수지, 남연군묘 등 예산의 다양한 관광명소가 접해 있어 한꺼번에 연계하여 여행을 즐기기 좋다.",
+      "fusion_score": 0.015873015873015872,
+      "retrieved_by": [
+        "bm25"
+      ],
+      "fusion_rank": 5,
+      "rerank_score": 0.0036431297194212675,
+      "rank": 3,
+      "score": 0.0036431297194212675,
+      "score_type": "cross_encoder",
+      "distance": null,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "bm25"
+      ],
+      "retriever": "bm25",
+      "span_id": "chroma:M0331",
+      "source_doc_ids": [
+        "DOC-B0331-TOUR_API-2514045"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0331-TOUR_API-2514045",
+          "source_type": "TOUR_API",
+          "source_record_id": "2514045",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=161",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 75,
+          "doc_ids": [
+            "DOC-B0331-TOUR_API-2514045"
+          ]
+        },
+        {
+          "start": 76,
+          "end": 162,
+          "doc_ids": [
+            "DOC-B0331-TOUR_API-2514045"
+          ]
+        },
+        {
+          "start": 163,
+          "end": 263,
+          "doc_ids": [
+            "DOC-B0331-TOUR_API-2514045"
+          ]
+        },
+        {
+          "start": 264,
+          "end": 361,
+          "doc_ids": [
+            "DOC-B0331-TOUR_API-2514045"
+          ]
+        },
+        {
+          "start": 362,
+          "end": 458,
+          "doc_ids": [
+            "DOC-B0331-TOUR_API-2514045"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=161",
+      "text": "예산 윤봉길의사기념관은 윤봉길 의사가 태어나 농촌계몽운동을 펼치고 중국으로 건너가기 전까지 거주하던 사적지 충의사 내에 조성되어 있다. 서울 서초구에 있는 매헌윤봉길의사기념관과 달리, 이곳 예산 기념관은 윤봉길 의사의 생가가 보존되어 있으며 사당과 기념비, 동상 등을 함께 둘러볼 수 있다. 전시관에는 1932년 상하이 훙커우 공원 의거를 감행해 우리나라의 독립의지를 세계에 알리고 순국하기까지 윤 의사의 일생을 다룬 그림, 영상, 디오라마 등이 생생하게 구비되어 있다. 특히 윤봉길 의사가 남겨 보물로 지정된 소중한 유품들을 관람할 수 있으며, 관람 전 큐브 활동지를 만들어 관람 후 그림 봉투 화분으로 활용하는 체험 프로그램도 마련되어 있다. 주변에는 덕산온천, 보부상유품전시관(예덕상무사), 내포보부상촌, 수덕사, 옥계저수지, 남연군묘 등 예산의 다양한 관광명소가 접해 있어 한꺼번에 연계하여 여행을 즐기기 좋다.",
+      "sido": "충청남도",
+      "sigungu": "예산군",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=161"
+      ],
+      "evidence_id": "E3",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=237",
+        "fields": {
+          "name": "윤봉길의사기념관",
+          "sido": "충청남도",
+          "sigungu": "예산군",
+          "address": "충청남도 예산군 덕산면 덕산온천로 183-5",
+          "ownership_type": "공립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "09:00",
+          "weekday_close": "18:00",
+          "holiday_open": "09:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "연중무휴"
+        },
+        "base_data_date": "2026-06-05",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0406",
+      "name": "외솔기념관",
+      "document": "외솔기념관은 일제강점기 우리말과 글을 지킨 독립운동가이자 평생 한글 보급과 정보화를 위해 한길을 걸은 한글학자인 외솔 최현배의 업적을 기리고 그의 삶과 한글에 대한 정신을 기리고자 개관하였다. 외솔 최현배는 ‘한글 맞춤법 통일안’을 마련하고 표준말 정립, 우리말 사전 편찬 등에 심혈을 기울였다. 또한 문교부 편수 국장을 맡으며 초중등 교과서의 문법 체계, 가로 쓰기 체계 확립 등 대한민국의 국어정책의 초석을 다지고 한글전용 운동에 헌신하는 등 훈민정음이 오늘날의 한글이 되기까지 외솔 최현배의 갖은 노력이 있었다. 외솔기념관은 평생 한글을 지킨 외솔 최현배의 저서와 유품 등이 전시된 상설전시실을 비롯하여 다양한 한글 서적들을 열람할 수 있는 한글실, 어린이들을 위한 다양한 한글 놀이와 체험이 준비된 체험실, 교육 운영 공간인 모둠실, 영상실 등을 갖추고 있다. 특히 상설전시실은 2023년 3월 새롭게 개편되어 개관 당시보다 훨씬 쾌적한 공간으로 거듭났으며 다양한 자료를 통해 누구나 쉽게 외솔의 생애를 이해할 수 있다. 전시실 내 체험공간에서 ‘전자 타자기로 나만의 방문증 만들기’ 체험도 가능하다. 기념관 2층 야외 공간에는 외솔 최현배가 나고 자란 생가가 함께 있어 그의 삶을 한눈에 살필 수 있다. 외솔기념관은 외솔 최현배선생의 업적을 소개하고 대표 저서와 유품을 소장하고 있는 2010년 3월 23일에 개관한 공립박물관이다.",
+      "metadata": {
+        "youth_fee": 0.0,
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/89/3503489_image2_1.JPG",
+        "sigungu": "중구",
+        "adult_fee": 0.0,
+        "holiday_open": "09:00",
+        "amenities_raw": "주차장+화장실",
+        "fee_notes": "무료",
+        "closure_rule_raw": "매주 월요일 (단, 월요일이 공휴일인 경우 당일은 개관하고 그 다음 첫번째 평일에 휴관)",
+        "sido": "울산광역시",
+        "holiday_close": "18:00",
+        "latitude": 35.57475705,
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "weekday_close": "18:00",
+        "child_fee": 0.0,
+        "source_types": "BASE|TOUR_API",
+        "weekday_open": "09:00",
+        "ownership_type": "공립",
+        "longitude": 129.3474699,
+        "homepage_url": "http://www.junggu.ulsan.kr/oesol",
+        "name": "외솔기념관",
+        "image_copyright": "Type3",
+        "requires_manual_review": true,
+        "address": "울산광역시 중구 병영12길 15"
+      },
+      "vector_rank": null,
+      "bm25_rank": 10,
+      "vector_distance": null,
+      "vector_score": null,
+      "bm25_score": 11.969173237750589,
+      "vector_document": "",
+      "bm25_document": "외솔기념관은 일제강점기 우리말과 글을 지킨 독립운동가이자 평생 한글 보급과 정보화를 위해 한길을 걸은 한글학자인 외솔 최현배의 업적을 기리고 그의 삶과 한글에 대한 정신을 기리고자 개관하였다. 외솔 최현배는 ‘한글 맞춤법 통일안’을 마련하고 표준말 정립, 우리말 사전 편찬 등에 심혈을 기울였다. 또한 문교부 편수 국장을 맡으며 초중등 교과서의 문법 체계, 가로 쓰기 체계 확립 등 대한민국의 국어정책의 초석을 다지고 한글전용 운동에 헌신하는 등 훈민정음이 오늘날의 한글이 되기까지 외솔 최현배의 갖은 노력이 있었다. 외솔기념관은 평생 한글을 지킨 외솔 최현배의 저서와 유품 등이 전시된 상설전시실을 비롯하여 다양한 한글 서적들을 열람할 수 있는 한글실, 어린이들을 위한 다양한 한글 놀이와 체험이 준비된 체험실, 교육 운영 공간인 모둠실, 영상실 등을 갖추고 있다. 특히 상설전시실은 2023년 3월 새롭게 개편되어 개관 당시보다 훨씬 쾌적한 공간으로 거듭났으며 다양한 자료를 통해 누구나 쉽게 외솔의 생애를 이해할 수 있다. 전시실 내 체험공간에서 ‘전자 타자기로 나만의 방문증 만들기’ 체험도 가능하다. 기념관 2층 야외 공간에는 외솔 최현배가 나고 자란 생가가 함께 있어 그의 삶을 한눈에 살필 수 있다. 외솔기념관은 외솔 최현배선생의 업적을 소개하고 대표 저서와 유품을 소장하고 있는 2010년 3월 23일에 개관한 공립박물관이다.",
+      "best_span_id": "chroma:M0406",
+      "best_span_text": "외솔기념관은 일제강점기 우리말과 글을 지킨 독립운동가이자 평생 한글 보급과 정보화를 위해 한길을 걸은 한글학자인 외솔 최현배의 업적을 기리고 그의 삶과 한글에 대한 정신을 기리고자 개관하였다. 외솔 최현배는 ‘한글 맞춤법 통일안’을 마련하고 표준말 정립, 우리말 사전 편찬 등에 심혈을 기울였다. 또한 문교부 편수 국장을 맡으며 초중등 교과서의 문법 체계, 가로 쓰기 체계 확립 등 대한민국의 국어정책의 초석을 다지고 한글전용 운동에 헌신하는 등 훈민정음이 오늘날의 한글이 되기까지 외솔 최현배의 갖은 노력이 있었다. 외솔기념관은 평생 한글을 지킨 외솔 최현배의 저서와 유품 등이 전시된 상설전시실을 비롯하여 다양한 한글 서적들을 열람할 수 있는 한글실, 어린이들을 위한 다양한 한글 놀이와 체험이 준비된 체험실, 교육 운영 공간인 모둠실, 영상실 등을 갖추고 있다. 특히 상설전시실은 2023년 3월 새롭게 개편되어 개관 당시보다 훨씬 쾌적한 공간으로 거듭났으며 다양한 자료를 통해 누구나 쉽게 외솔의 생애를 이해할 수 있다. 전시실 내 체험공간에서 ‘전자 타자기로 나만의 방문증 만들기’ 체험도 가능하다. 기념관 2층 야외 공간에는 외솔 최현배가 나고 자란 생가가 함께 있어 그의 삶을 한눈에 살필 수 있다. 외솔기념관은 외솔 최현배선생의 업적을 소개하고 대표 저서와 유품을 소장하고 있는 2010년 3월 23일에 개관한 공립박물관이다.",
+      "fusion_score": 0.014285714285714285,
+      "retrieved_by": [
+        "bm25"
+      ],
+      "fusion_rank": 17,
+      "rerank_score": 0.002007616451010108,
+      "rank": 4,
+      "score": 0.002007616451010108,
+      "score_type": "cross_encoder",
+      "distance": null,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "bm25"
+      ],
+      "retriever": "bm25",
+      "span_id": "chroma:M0406",
+      "source_doc_ids": [
+        "DOC-B0406-TOUR_API-1624470",
+        "DOC-B0406-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0406-TOUR_API-1624470",
+          "source_type": "TOUR_API",
+          "source_record_id": "1624470",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=190",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        },
+        {
+          "doc_id": "DOC-B0406-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0406",
+          "source_locator": "data/raw/museum_base_1070.csv#row=407",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 107,
+          "doc_ids": [
+            "DOC-B0406-TOUR_API-1624470"
+          ]
+        },
+        {
+          "start": 108,
+          "end": 165,
+          "doc_ids": [
+            "DOC-B0406-TOUR_API-1624470"
+          ]
+        },
+        {
+          "start": 166,
+          "end": 289,
+          "doc_ids": [
+            "DOC-B0406-TOUR_API-1624470"
+          ]
+        },
+        {
+          "start": 290,
+          "end": 429,
+          "doc_ids": [
+            "DOC-B0406-TOUR_API-1624470"
+          ]
+        },
+        {
+          "start": 430,
+          "end": 519,
+          "doc_ids": [
+            "DOC-B0406-TOUR_API-1624470"
+          ]
+        },
+        {
+          "start": 520,
+          "end": 564,
+          "doc_ids": [
+            "DOC-B0406-TOUR_API-1624470"
+          ]
+        },
+        {
+          "start": 565,
+          "end": 622,
+          "doc_ids": [
+            "DOC-B0406-TOUR_API-1624470"
+          ]
+        },
+        {
+          "start": 623,
+          "end": 694,
+          "doc_ids": [
+            "DOC-B0406-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=190",
+      "text": "외솔기념관은 일제강점기 우리말과 글을 지킨 독립운동가이자 평생 한글 보급과 정보화를 위해 한길을 걸은 한글학자인 외솔 최현배의 업적을 기리고 그의 삶과 한글에 대한 정신을 기리고자 개관하였다. 외솔 최현배는 ‘한글 맞춤법 통일안’을 마련하고 표준말 정립, 우리말 사전 편찬 등에 심혈을 기울였다. 또한 문교부 편수 국장을 맡으며 초중등 교과서의 문법 체계, 가로 쓰기 체계 확립 등 대한민국의 국어정책의 초석을 다지고 한글전용 운동에 헌신하는 등 훈민정음이 오늘날의 한글이 되기까지 외솔 최현배의 갖은 노력이 있었다. 외솔기념관은 평생 한글을 지킨 외솔 최현배의 저서와 유품 등이 전시된 상설전시실을 비롯하여 다양한 한글 서적들을 열람할 수 있는 한글실, 어린이들을 위한 다양한 한글 놀이와 체험이 준비된 체험실, 교육 운영 공간인 모둠실, 영상실 등을 갖추고 있다. 특히 상설전시실은 2023년 3월 새롭게 개편되어 개관 당시보다 훨씬 쾌적한 공간으로 거듭났으며 다양한 자료를 통해 누구나 쉽게 외솔의 생애를 이해할 수 있다. 전시실 내 체험공간에서 ‘전자 타자기로 나만의 방문증 만들기’ 체험도 가능하다. 기념관 2층 야외 공간에는 외솔 최현배가 나고 자란 생가가 함께 있어 그의 삶을 한눈에 살필 수 있다. 외솔기념관은 외솔 최현배선생의 업적을 소개하고 대표 저서와 유품을 소장하고 있는 2010년 3월 23일에 개관한 공립박물관이다.",
+      "sido": "울산광역시",
+      "sigungu": "중구",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=190"
+      ],
+      "evidence_id": "E4",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=290",
+        "fields": {
+          "name": "외솔기념관",
+          "sido": "울산광역시",
+          "sigungu": "중구",
+          "address": "울산광역시 중구 병영12길 15",
+          "ownership_type": "공립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "09:00",
+          "weekday_close": "18:00",
+          "holiday_open": "09:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "매주 월요일 (단, 월요일이 공휴일인 경우 당일은 개관하고 그 다음 첫번째 평일에 휴관)",
+          "amenities_raw": "주차장+화장실"
+        },
+        "base_data_date": "2026-05-13",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0764",
+      "name": "울산외솔기념관",
+      "document": "외솔기념관은 일제강점기 우리말과 글을 지킨 독립운동가이자 평생 한글보급과 정보화를 위해 한길을 걸은 한글학자인 외솔 최현배 선생의 업적을 기리고 그의 삶과 한글에 대한 정신을 계승, 발전시키고자 개관하였습니다. 외솔 선생의 저서와 유품 등이 전시된 상설전시실을 비롯하여 다양한 한글서적들을 열람할 수 있는 한글실, 어린아이들이 한글의 체계를 놀이를 통해 익힐 수 있는 체험실, 그리고 영상실, 모둠실(강당) 등을 갖추고 있습니다. 또한 외솔 선생이 나고 자란 생가가 함께 있어 그의 삶을 한눈에 살필 수 있습니다.",
+      "metadata": {
+        "youth_fee": 0.0,
+        "weekday_close": "18:00",
+        "latitude": 35.57475583,
+        "weekday_open": "09:00",
+        "amenities_raw": "화장실, 주차장+유아놀이시설",
+        "child_fee": 0.0,
+        "adult_fee": 0.0,
+        "closure_rule_raw": "매주 월+1월 1일+설날 및 추석 당일",
+        "transport_notes": "병영사거리에서 도보 10분",
+        "sigungu": "중구",
+        "homepage_url": "http://www.junggu.ulsan.kr/oesol/",
+        "holiday_open": "09:00",
+        "requires_manual_review": true,
+        "address": "울산광역시 중구 병영12길 15",
+        "holiday_close": "18:00",
+        "sido": "울산광역시",
+        "longitude": 129.3474679,
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "name": "울산외솔기념관",
+        "ownership_type": "공립",
+        "source_types": "BASE",
+        "fee_notes": "0"
+      },
+      "vector_rank": 7,
+      "bm25_rank": 6,
+      "vector_distance": 0.6652156114578247,
+      "vector_score": null,
+      "bm25_score": 13.742359589148757,
+      "vector_document": "외솔기념관은 일제강점기 우리말과 글을 지킨 독립운동가이자 평생 한글보급과 정보화를 위해 한길을 걸은 한글학자인 외솔 최현배 선생의 업적을 기리고 그의 삶과 한글에 대한 정신을 계승, 발전시키고자 개관하였습니다. 외솔 선생의 저서와 유품 등이 전시된 상설전시실을 비롯하여 다양한 한글서적들을 열람할 수 있는 한글실, 어린아이들이 한글의 체계를 놀이를 통해 익힐 수 있는 체험실, 그리고 영상실, 모둠실(강당) 등을 갖추고 있습니다. 또한 외솔 선생이 나고 자란 생가가 함께 있어 그의 삶을 한눈에 살필 수 있습니다.",
+      "bm25_document": "외솔기념관은 일제강점기 우리말과 글을 지킨 독립운동가이자 평생 한글보급과 정보화를 위해 한길을 걸은 한글학자인 외솔 최현배 선생의 업적을 기리고 그의 삶과 한글에 대한 정신을 계승, 발전시키고자 개관하였습니다. 외솔 선생의 저서와 유품 등이 전시된 상설전시실을 비롯하여 다양한 한글서적들을 열람할 수 있는 한글실, 어린아이들이 한글의 체계를 놀이를 통해 익힐 수 있는 체험실, 그리고 영상실, 모둠실(강당) 등을 갖추고 있습니다. 또한 외솔 선생이 나고 자란 생가가 함께 있어 그의 삶을 한눈에 살필 수 있습니다.",
+      "best_span_id": "chroma:M0764",
+      "best_span_text": "외솔기념관은 일제강점기 우리말과 글을 지킨 독립운동가이자 평생 한글보급과 정보화를 위해 한길을 걸은 한글학자인 외솔 최현배 선생의 업적을 기리고 그의 삶과 한글에 대한 정신을 계승, 발전시키고자 개관하였습니다. 외솔 선생의 저서와 유품 등이 전시된 상설전시실을 비롯하여 다양한 한글서적들을 열람할 수 있는 한글실, 어린아이들이 한글의 체계를 놀이를 통해 익힐 수 있는 체험실, 그리고 영상실, 모둠실(강당) 등을 갖추고 있습니다. 또한 외솔 선생이 나고 자란 생가가 함께 있어 그의 삶을 한눈에 살필 수 있습니다.",
+      "fusion_score": 0.03007688828584351,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 3,
+      "rerank_score": 0.0014934955397620797,
+      "rank": 5,
+      "score": 0.0014934955397620797,
+      "score_type": "cross_encoder",
+      "distance": 0.6652156114578247,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0764",
+      "source_doc_ids": [
+        "DOC-B0764-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0764-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0764",
+          "source_locator": "data/raw/museum_base_1070.csv#row=765",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 117,
+          "doc_ids": [
+            "DOC-B0764-BASE"
+          ]
+        },
+        {
+          "start": 118,
+          "end": 240,
+          "doc_ids": [
+            "DOC-B0764-BASE"
+          ]
+        },
+        {
+          "start": 241,
+          "end": 287,
+          "doc_ids": [
+            "DOC-B0764-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_base_1070.csv#row=765",
+      "text": "외솔기념관은 일제강점기 우리말과 글을 지킨 독립운동가이자 평생 한글보급과 정보화를 위해 한길을 걸은 한글학자인 외솔 최현배 선생의 업적을 기리고 그의 삶과 한글에 대한 정신을 계승, 발전시키고자 개관하였습니다. 외솔 선생의 저서와 유품 등이 전시된 상설전시실을 비롯하여 다양한 한글서적들을 열람할 수 있는 한글실, 어린아이들이 한글의 체계를 놀이를 통해 익힐 수 있는 체험실, 그리고 영상실, 모둠실(강당) 등을 갖추고 있습니다. 또한 외솔 선생이 나고 자란 생가가 함께 있어 그의 삶을 한눈에 살필 수 있습니다.",
+      "sido": "울산광역시",
+      "sigungu": "중구",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_base_1070.csv#row=765"
+      ],
+      "evidence_id": "E5",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=527",
+        "fields": {
+          "name": "울산외솔기념관",
+          "sido": "울산광역시",
+          "sigungu": "중구",
+          "address": "울산광역시 중구 병영12길 15",
+          "ownership_type": "공립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "09:00",
+          "weekday_close": "18:00",
+          "holiday_open": "09:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "매주 월+1월 1일+설날 및 추석 당일",
+          "amenities_raw": "화장실, 주차장+유아놀이시설"
+        },
+        "base_data_date": "2024-11-02",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    }
+  ],
+  "answer": "고암이응노생가기념관입니다. 화가 이응노의 생가와 초가, 연밭, 산책로를 함께 갖춘 곳으로 소개되어 있습니다. [E1]",
+  "retrieval_status": "ok",
+  "answer_status": "answered",
+  "route": "hybrid",
+  "retry_count": 0,
+  "supervisor_verified": true,
+  "rerank_applied": true,
+  "retriever_errors": [],
+  "warnings": [],
+  "duration_ms": 82855.64,
+  "error_type": "",
+  "hit_at_1": 1,
+  "hit_at_3": 1,
+  "hit_at_5": 1,
+  "recall_at_5": 1.0,
+  "mrr_at_10": 1.0
+}

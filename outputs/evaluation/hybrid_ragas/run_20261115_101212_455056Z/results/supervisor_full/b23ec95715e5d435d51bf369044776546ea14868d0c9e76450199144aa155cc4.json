@@ -1,0 +1,55 @@
+{
+  "mode": "supervisor_full",
+  "question_id": "Q025",
+  "evidence": [
+    {
+      "museum_id": "M0001",
+      "name": "박진전쟁기념관",
+      "text": "[Neo4j 구조화 속성] {\"closure_weekdays\": [\"월\"], \"museum_id\": \"M0001\", \"name\": \"박진전쟁기념관\", \"open_all_year\": false, \"sido\": \"경상남도\", \"sigungu\": \"창녕군\", \"source_doc_ids\": [\"DOC-B0001-TOUR_API-2785601\"], \"source_locators\": [\"data/raw/museum_tourapi_with_overview.csv#row=2\"], \"source_type\": [\"TOUR_API\"]}",
+      "span_id": "",
+      "source_doc_ids": [
+        "DOC-B0001-TOUR_API-2785601"
+      ],
+      "source_urls": [],
+      "source_url": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=2"
+      ],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=2",
+      "sido": "경상남도",
+      "sigungu": "창녕군",
+      "retriever": "graph",
+      "source_type": [
+        "TOUR_API"
+      ],
+      "address": "경상남도 창녕군 남지읍 월상길 27",
+      "closure_weekdays": [
+        "월"
+      ],
+      "open_all_year": false,
+      "metadata": {},
+      "chunk_id": "",
+      "retrievers": [
+        "graph"
+      ],
+      "evidence_id": "E1",
+      "rank": 1
+    }
+  ],
+  "answer": "확인 가능한 근거가 부족하여 답변을 보류했음.",
+  "retrieval_status": "ok",
+  "answer_status": "abstained",
+  "route": "graph",
+  "retry_count": 1,
+  "supervisor_verified": false,
+  "rerank_applied": false,
+  "retriever_errors": [],
+  "warnings": [],
+  "duration_ms": 204469.73,
+  "error_type": "",
+  "hit_at_1": "",
+  "hit_at_3": "",
+  "hit_at_5": "",
+  "recall_at_5": "",
+  "mrr_at_10": ""
+}

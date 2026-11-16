@@ -1,0 +1,729 @@
+{
+  "evidence_context_version": "grounded-evidence-v2",
+  "evaluation_contexts": [
+    "{\"evidence_context_version\": \"grounded-evidence-v2\", \"evidence_id\": \"E1\", \"metadata_provenance\": {\"base_data_date\": \"2026-10-01\", \"fields\": {\"address\": \"인천광역시 미추홀구 경인로349번길 9\", \"adult_fee\": \"7000\", \"adult_fee_status\": \"BASE_FEE_PAID\", \"child_fee\": \"0\", \"closure_rule_raw\": \"월요일+일요일+법정공휴일\", \"holiday_close\": \"00:00\", \"holiday_open\": \"00:00\", \"name\": \"국제성서박물관\", \"ownership_type\": \"사립\", \"sido\": \"인천광역시\", \"sigungu\": \"미추홀구\", \"weekday_close\": \"17:00\", \"weekday_open\": \"10:00\", \"youth_fee\": \"5000\"}, \"source_kind\": \"derived_csv_row\", \"source_locator\": \"data/processed/museum_final_738.csv#record=70\", \"trust\": \"derived_dataset_not_human_verified\"}, \"museum_id\": \"M0110\", \"name\": \"국제성서박물관\", \"source_doc_ids\": [\"DOC-B0110-BASE\"], \"source_documents\": [{\"doc_id\": \"DOC-B0110-BASE\", \"match_trust\": \"BASE_SOURCE\", \"source_locator\": \"data/raw/museum_base_1070.csv#row=111\", \"source_record_id\": \"B0110\", \"source_type\": \"BASE\"}], \"source_locator\": \"data/raw/museum_base_1070.csv#row=111\", \"source_locators\": [\"data/raw/museum_base_1070.csv#row=111\"], \"source_scope\": \"text\", \"source_spans\": [{\"doc_ids\": [\"DOC-B0110-BASE\"], \"end\": 80, \"start\": 0}], \"source_urls\": [], \"text\": \"성서수집과 연구에 평생을 바친 한경수 목사가 세계 각국에서 모은 1만여 점의 성서와 미국의 성서연구가가 기증한 8천여 점의 성경을 소장하고 있다\"}",
+    "{\"evidence_context_version\": \"grounded-evidence-v2\", \"evidence_id\": \"E2\", \"metadata_provenance\": {\"base_data_date\": \"2026-05-13\", \"fields\": {\"address\": \"울산광역시 중구 병영12길 15\", \"adult_fee\": \"0\", \"adult_fee_status\": \"BASE_FEE_ZERO_CHECK_EXCEPTIONS\", \"amenities_raw\": \"주차장+화장실\", \"child_fee\": \"0\", \"closure_rule_raw\": \"매주 월요일 (단, 월요일이 공휴일인 경우 당일은 개관하고 그 다음 첫번째 평일에 휴관)\", \"holiday_close\": \"18:00\", \"holiday_open\": \"09:00\", \"name\": \"외솔기념관\", \"ownership_type\": \"공립\", \"sido\": \"울산광역시\", \"sigungu\": \"중구\", \"weekday_close\": \"18:00\", \"weekday_open\": \"09:00\", \"youth_fee\": \"0\"}, \"source_kind\": \"derived_csv_row\", \"source_locator\": \"data/processed/museum_final_738.csv#record=290\", \"trust\": \"derived_dataset_not_human_verified\"}, \"museum_id\": \"M0406\", \"name\": \"외솔기념관\", \"source_doc_ids\": [\"DOC-B0406-TOUR_API-1624470\", \"DOC-B0406-BASE\"], \"source_documents\": [{\"doc_id\": \"DOC-B0406-TOUR_API-1624470\", \"match_trust\": \"AUTO_MATCH_NOT_HUMAN_VERIFIED\", \"source_locator\": \"data/raw/museum_tourapi_with_overview.csv#row=190\", \"source_record_id\": \"1624470\", \"source_type\": \"TOUR_API\"}, {\"doc_id\": \"DOC-B0406-BASE\", \"match_trust\": \"BASE_SOURCE\", \"source_locator\": \"data/raw/museum_base_1070.csv#row=407\", \"source_record_id\": \"B0406\", \"source_type\": \"BASE\"}], \"source_locator\": \"data/raw/museum_tourapi_with_overview.csv#row=190\", \"source_locators\": [\"data/raw/museum_tourapi_with_overview.csv#row=190\"], \"source_scope\": \"text\", \"source_spans\": [{\"doc_ids\": [\"DOC-B0406-TOUR_API-1624470\"], \"end\": 107, \"start\": 0}, {\"doc_ids\": [\"DOC-B0406-TOUR_API-1624470\"], \"end\": 165, \"start\": 108}, {\"doc_ids\": [\"DOC-B0406-TOUR_API-1624470\"], \"end\": 289, \"start\": 166}, {\"doc_ids\": [\"DOC-B0406-TOUR_API-1624470\"], \"end\": 429, \"start\": 290}, {\"doc_ids\": [\"DOC-B0406-TOUR_API-1624470\"], \"end\": 519, \"start\": 430}, {\"doc_ids\": [\"DOC-B0406-TOUR_API-1624470\"], \"end\": 564, \"start\": 520}, {\"doc_ids\": [\"DOC-B0406-TOUR_API-1624470\"], \"end\": 622, \"start\": 565}, {\"doc_ids\": [\"DOC-B0406-BASE\"], \"end\": 694, \"start\": 623}], \"source_urls\": [], \"text\": \"외솔기념관은 일제강점기 우리말과 글을 지킨 독립운동가이자 평생 한글 보급과 정보화를 위해 한길을 걸은 한글학자인 외솔 최현배의 업적을 기리고 그의 삶과 한글에 대한 정신을 기리고자 개관하였다. 외솔 최현배는 ‘한글 맞춤법 통일안’을 마련하고 표준말 정립, 우리말 사전 편찬 등에 심혈을 기울였다. 또한 문교부 편수 국장을 맡으며 초중등 교과서의 문법 체계, 가로 쓰기 체계 확립 등 대한민국의 국어정책의 초석을 다지고 한글전용 운동에 헌신하는 등 훈민정음이 오늘날의 한글이 되기까지 외솔 최현배의 갖은 노력이 있었다. 외솔기념관은 평생 한글을 지킨 외솔 최현배의 저서와 유품 등이 전시된 상설전시실을 비롯하여 다양한 한글 서적들을 열람할 수 있는 한글실, 어린이들을 위한 다양한 한글 놀이와 체험이 준비된 체험실, 교육 운영 공간인 모둠실, 영상실 등을 갖추고 있다. 특히 상설전시실은 2023년 3월 새롭게 개편되어 개관 당시보다 훨씬 쾌적한 공간으로 거듭났으며 다양한 자료를 통해 누구나 쉽게 외솔의 생애를 이해할 수 있다. 전시실 내 체험공간에서 ‘전자 타자기로 나만의 방문증 만들기’ 체험도 가능하다. 기념관 2층 야외 공간에는 외솔 최현배가 나고 자란 생가가 함께 있어 그의 삶을 한눈에 살필 수 있다. 외솔기념관은 외솔 최현배선생의 업적을 소개하고 대표 저서와 유품을 소장하고 있는 2010년 3월 23일에 개관한 공립박물관이다.\"}",
+    "{\"evidence_context_version\": \"grounded-evidence-v2\", \"evidence_id\": \"E3\", \"metadata_provenance\": {\"base_data_date\": \"2026-09-03\", \"fields\": {\"address\": \"강원특별자치도 영월군 무릉도원면 무릉법흥로 303\", \"adult_fee\": \"5000\", \"adult_fee_status\": \"BASE_FEE_PAID\", \"child_fee\": \"3000\", \"closure_rule_raw\": \"월+화\", \"holiday_close\": \"18:00\", \"holiday_open\": \"09:00\", \"name\": \"호야지리박물관\", \"ownership_type\": \"사립\", \"sido\": \"강원특별자치도\", \"sigungu\": \"영월군\", \"weekday_close\": \"18:00\", \"weekday_open\": \"09:00\", \"youth_fee\": \"4000\"}, \"source_kind\": \"derived_csv_row\", \"source_locator\": \"data/processed/museum_final_738.csv#record=146\", \"trust\": \"derived_dataset_not_human_verified\"}, \"museum_id\": \"M0217\", \"name\": \"호야지리박물관\", \"source_doc_ids\": [\"DOC-B0217-TOUR_API-1625235\", \"DOC-B0217-BASE\"], \"source_documents\": [{\"doc_id\": \"DOC-B0217-TOUR_API-1625235\", \"match_trust\": \"AUTO_MATCH_NOT_HUMAN_VERIFIED\", \"source_locator\": \"data/raw/museum_tourapi_with_overview.csv#row=108\", \"source_record_id\": \"1625235\", \"source_type\": \"TOUR_API\"}, {\"doc_id\": \"DOC-B0217-BASE\", \"match_trust\": \"BASE_SOURCE\", \"source_locator\": \"data/raw/museum_base_1070.csv#row=218\", \"source_record_id\": \"B0217\", \"source_type\": \"BASE\"}], \"source_locator\": \"data/raw/museum_tourapi_with_overview.csv#row=108\", \"source_locators\": [\"data/raw/museum_tourapi_with_overview.csv#row=108\"], \"source_scope\": \"text\", \"source_spans\": [{\"doc_ids\": [\"DOC-B0217-TOUR_API-1625235\"], \"end\": 87, \"start\": 0}, {\"doc_ids\": [\"DOC-B0217-TOUR_API-1625235\"], \"end\": 116, \"start\": 88}, {\"doc_ids\": [\"DOC-B0217-TOUR_API-1625235\"], \"end\": 214, \"start\": 117}, {\"doc_ids\": [\"DOC-B0217-TOUR_API-1625235\"], \"end\": 305, \"start\": 215}, {\"doc_ids\": [\"DOC-B0217-TOUR_API-1625235\"], \"end\": 406, \"start\": 306}, {\"doc_ids\": [\"DOC-B0217-BASE\"], \"end\": 465, \"start\": 407}], \"source_urls\": [], \"text\": \"호야지리박물관은 무릉도원면 무릉리에 위치한 지리 전문 박물관으로 지리교육에 평생을 바친 호야 양재룡 선생님이 사재를 털어 건립한 지리 테마 사설 박물관이다. 크게 상설 전시관과 지오토피아관으로 구성되어 있다. 상설 전시관에는 지리란 무엇인가, 지리로 살펴보는 무릉도원 영월, 지리 속의 넓은 세상, 땅속의 세상/시청각실, 기획전시실 등 5개 전시관이 본관 1·2층으로 나누어져 있다. 지오토피아관 1층에 마련된 특별 전시실에는 『광개토대왕 비문』 실물 탁본 4면 전체가 전시되어 있고 한국령 독도를 증명하는『일청한군용정도』 진본도 전시되어 있다. 지오토피아관 2층의 체험학습실, 기획전시실에서는 지도가 증명하는 「한국 영토, 독도 지도 기획 전시」 견학 및 독도 특강과 함께 독도사랑과 단종에 관한 여러 체험 활동이 진행된다. 한국령 독도관련 고지도와 지리 관련 희귀자료를 관람 할 수 있는 국내 최초의 지리 테마 사설 박물관입니다\"}",
+    "{\"evidence_context_version\": \"grounded-evidence-v2\", \"evidence_id\": \"E4\", \"metadata_provenance\": {\"base_data_date\": \"2025-04-03\", \"fields\": {\"address\": \"서울특별시 구로구 오류로8라길 44\", \"adult_fee\": \"3000\", \"adult_fee_status\": \"BASE_FEE_PAID\", \"child_fee\": \"2000\", \"closure_rule_raw\": \"매주 월 휴관\", \"holiday_close\": \"17:00\", \"holiday_open\": \"13:00\", \"name\": \"평강 성서유물박물관\", \"ownership_type\": \"사립\", \"sido\": \"서울특별시\", \"sigungu\": \"구로구\", \"weekday_close\": \"17:00\", \"weekday_open\": \"10:00\", \"youth_fee\": \"2000\"}, \"source_kind\": \"derived_csv_row\", \"source_locator\": \"data/processed/museum_final_738.csv#record=692\", \"trust\": \"derived_dataset_not_human_verified\"}, \"museum_id\": \"M1010\", \"name\": \"평강 성서유물박물관\", \"source_doc_ids\": [\"DOC-B1010-BASE\"], \"source_documents\": [{\"doc_id\": \"DOC-B1010-BASE\", \"match_trust\": \"BASE_SOURCE\", \"source_locator\": \"data/raw/museum_base_1070.csv#row=1011\", \"source_record_id\": \"B1010\", \"source_type\": \"BASE\"}], \"source_locator\": \"data/raw/museum_base_1070.csv#row=1011\", \"source_locators\": [\"data/raw/museum_base_1070.csv#row=1011\"], \"source_scope\": \"text\", \"source_spans\": [{\"doc_ids\": [\"DOC-B1010-BASE\"], \"end\": 92, \"start\": 0}], \"source_urls\": [], \"text\": \"성서의 배경이 되는 지역인 메소포타미아, 이집트, 고대그리스, 로마에서 출토된 미이라, 향수병, 토기, 두루마리 성경등을 전시하고 있는 국내 유일의 성서고고학 박물관\"}",
+    "{\"evidence_context_version\": \"grounded-evidence-v2\", \"evidence_id\": \"E5\", \"metadata_provenance\": {\"base_data_date\": \"2026-03-23\", \"fields\": {\"address\": \"충청북도 제천시 금성면 양월로 34\", \"adult_fee\": \"5000\", \"adult_fee_status\": \"BASE_FEE_PAID\", \"amenities_raw\": \"장애인 편의시설 및 주차장\", \"child_fee\": \"2000\", \"closure_rule_raw\": \"월요일+법정공휴일\", \"holiday_close\": \"18:00\", \"holiday_open\": \"09:00\", \"name\": \"지적박물관\", \"ownership_type\": \"사립\", \"sido\": \"충청북도\", \"sigungu\": \"제천시\", \"weekday_close\": \"17:00\", \"weekday_open\": \"09:00\", \"youth_fee\": \"3000\"}, \"source_kind\": \"derived_csv_row\", \"source_locator\": \"data/processed/museum_final_738.csv#record=314\", \"trust\": \"derived_dataset_not_human_verified\"}, \"museum_id\": \"M0440\", \"name\": \"지적박물관\", \"source_doc_ids\": [\"DOC-B0440-TOUR_API-130789\", \"DOC-B0440-BASE\"], \"source_documents\": [{\"doc_id\": \"DOC-B0440-TOUR_API-130789\", \"match_trust\": \"AUTO_MATCH_NOT_HUMAN_VERIFIED\", \"source_locator\": \"data/raw/museum_tourapi_with_overview.csv#row=211\", \"source_record_id\": \"130789\", \"source_type\": \"TOUR_API\"}, {\"doc_id\": \"DOC-B0440-BASE\", \"match_trust\": \"BASE_SOURCE\", \"source_locator\": \"data/raw/museum_base_1070.csv#row=441\", \"source_record_id\": \"B0440\", \"source_type\": \"BASE\"}], \"source_locator\": \"data/raw/museum_tourapi_with_overview.csv#row=211\", \"source_locators\": [\"data/raw/museum_tourapi_with_overview.csv#row=211\"], \"source_scope\": \"text\", \"source_spans\": [{\"doc_ids\": [\"DOC-B0440-TOUR_API-130789\"], \"end\": 46, \"start\": 0}, {\"doc_ids\": [\"DOC-B0440-TOUR_API-130789\"], \"end\": 143, \"start\": 47}, {\"doc_ids\": [\"DOC-B0440-TOUR_API-130789\"], \"end\": 229, \"start\": 144}, {\"doc_ids\": [\"DOC-B0440-TOUR_API-130789\"], \"end\": 290, \"start\": 230}, {\"doc_ids\": [\"DOC-B0440-TOUR_API-130789\"], \"end\": 378, \"start\": 291}, {\"doc_ids\": [\"DOC-B0440-TOUR_API-130789\"], \"end\": 489, \"start\": 379}, {\"doc_ids\": [\"DOC-B0440-BASE\"], \"end\": 572, \"start\": 490}], \"source_urls\": [], \"text\": \"지적 박물관은 도서출판 우물을 운영하는 리진호 관장이 개관한 지적 전문 박물관이다. 리진호 관장이 40여 년간 지적 계통에 종사하였으며, 측량 관서에서 행정을, 현장에서 측량을, 강단에서 강의를 하면서 얻은 지식과 경험, 수집한 자료를 바탕으로 개관하였다. 이 박물관은 한국뿐만 아니라 세계에서 유일한 지적(地籍) 전문 자료관으로써 한국지적사를 알 수 있는 지적 유물(토지문서, 측량기계 등)을 소장하고 있다. 그리고 이외에도 향토지, 백 년사, 기독교 분야(성서, 개교 회사) 등 다양한 서지 자료들을 소장하고 있다. 지적·향토지·백년사·기독교 4개 분야에 걸쳐 한국 최고·최다의 자료를 전시·보존하고 있으며, 한국 유일의 인물 시인 김경 목사의 시를 낭하에 전시하고 있다. 관장인 학촌 리진호 씨가 36년간 수집한 책, 서장, 기기 등 지적 자료 1,000점, 향토지 1,000점, 백 년사 400점, 그리스도교 자료 1,000점 등 총 3,500여 점이 전시되어 있다. 지적박물관은 지적 관련 자료, 향토지, 백년사 등 3개 분야의 자료를 상설·특별 전시와 보관을 통해 학술 연구 및 교육에 기여하기 위해 설립되었다.\"}"
+  ],
+  "mode": "supervisor_full",
+  "question_id": "Q086",
+  "evidence": [
+    {
+      "museum_id": "M0110",
+      "name": "국제성서박물관",
+      "document": "성서수집과 연구에 평생을 바친 한경수 목사가 세계 각국에서 모은 1만여 점의 성서와 미국의 성서연구가가 기증한 8천여 점의 성경을 소장하고 있다",
+      "metadata": {
+        "name": "국제성서박물관",
+        "adult_fee": 7000.0,
+        "ownership_type": "사립",
+        "holiday_close": "00:00",
+        "longitude": 126.6783819482,
+        "transport_notes": "시내버스 2+15+33+41",
+        "sido": "인천광역시",
+        "homepage_url": "http://www.biblemuseum.or.kr",
+        "closure_rule_raw": "월요일+일요일+법정공휴일",
+        "child_fee": 0.0,
+        "weekday_open": "10:00",
+        "address": "인천광역시 미추홀구 경인로349번길 9",
+        "adult_fee_status": "BASE_FEE_PAID",
+        "youth_fee": 5000.0,
+        "latitude": 37.4592356,
+        "fee_notes": "5000원(학생+국가유공자+65세 이상 어르신) + 장애인/미취학아동 무료",
+        "requires_manual_review": true,
+        "sigungu": "미추홀구",
+        "source_types": "BASE",
+        "holiday_open": "00:00",
+        "weekday_close": "17:00"
+      },
+      "vector_rank": 1,
+      "bm25_rank": 1,
+      "vector_distance": 0.4234434962272644,
+      "vector_score": null,
+      "bm25_score": 33.336398202564965,
+      "vector_document": "성서수집과 연구에 평생을 바친 한경수 목사가 세계 각국에서 모은 1만여 점의 성서와 미국의 성서연구가가 기증한 8천여 점의 성경을 소장하고 있다",
+      "bm25_document": "성서수집과 연구에 평생을 바친 한경수 목사가 세계 각국에서 모은 1만여 점의 성서와 미국의 성서연구가가 기증한 8천여 점의 성경을 소장하고 있다",
+      "best_span_id": "chroma:M0110",
+      "best_span_text": "성서수집과 연구에 평생을 바친 한경수 목사가 세계 각국에서 모은 1만여 점의 성서와 미국의 성서연구가가 기증한 8천여 점의 성경을 소장하고 있다",
+      "fusion_score": 0.03278688524590164,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 1,
+      "name_match": true,
+      "rerank_score": 0.9959851503372192,
+      "rank": 1,
+      "score": 0.9959851503372192,
+      "score_type": "cross_encoder",
+      "distance": 0.4234434962272644,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0110",
+      "source_doc_ids": [
+        "DOC-B0110-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0110-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0110",
+          "source_locator": "data/raw/museum_base_1070.csv#row=111",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 80,
+          "doc_ids": [
+            "DOC-B0110-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_base_1070.csv#row=111",
+      "text": "성서수집과 연구에 평생을 바친 한경수 목사가 세계 각국에서 모은 1만여 점의 성서와 미국의 성서연구가가 기증한 8천여 점의 성경을 소장하고 있다",
+      "sido": "인천광역시",
+      "sigungu": "미추홀구",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_base_1070.csv#row=111"
+      ],
+      "evidence_id": "E1",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=70",
+        "fields": {
+          "name": "국제성서박물관",
+          "sido": "인천광역시",
+          "sigungu": "미추홀구",
+          "address": "인천광역시 미추홀구 경인로349번길 9",
+          "ownership_type": "사립",
+          "adult_fee": "7000",
+          "youth_fee": "5000",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_PAID",
+          "weekday_open": "10:00",
+          "weekday_close": "17:00",
+          "holiday_open": "00:00",
+          "holiday_close": "00:00",
+          "closure_rule_raw": "월요일+일요일+법정공휴일"
+        },
+        "base_data_date": "2026-10-01",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0406",
+      "name": "외솔기념관",
+      "document": "외솔기념관은 일제강점기 우리말과 글을 지킨 독립운동가이자 평생 한글 보급과 정보화를 위해 한길을 걸은 한글학자인 외솔 최현배의 업적을 기리고 그의 삶과 한글에 대한 정신을 기리고자 개관하였다. 외솔 최현배는 ‘한글 맞춤법 통일안’을 마련하고 표준말 정립, 우리말 사전 편찬 등에 심혈을 기울였다. 또한 문교부 편수 국장을 맡으며 초중등 교과서의 문법 체계, 가로 쓰기 체계 확립 등 대한민국의 국어정책의 초석을 다지고 한글전용 운동에 헌신하는 등 훈민정음이 오늘날의 한글이 되기까지 외솔 최현배의 갖은 노력이 있었다. 외솔기념관은 평생 한글을 지킨 외솔 최현배의 저서와 유품 등이 전시된 상설전시실을 비롯하여 다양한 한글 서적들을 열람할 수 있는 한글실, 어린이들을 위한 다양한 한글 놀이와 체험이 준비된 체험실, 교육 운영 공간인 모둠실, 영상실 등을 갖추고 있다. 특히 상설전시실은 2023년 3월 새롭게 개편되어 개관 당시보다 훨씬 쾌적한 공간으로 거듭났으며 다양한 자료를 통해 누구나 쉽게 외솔의 생애를 이해할 수 있다. 전시실 내 체험공간에서 ‘전자 타자기로 나만의 방문증 만들기’ 체험도 가능하다. 기념관 2층 야외 공간에는 외솔 최현배가 나고 자란 생가가 함께 있어 그의 삶을 한눈에 살필 수 있다. 외솔기념관은 외솔 최현배선생의 업적을 소개하고 대표 저서와 유품을 소장하고 있는 2010년 3월 23일에 개관한 공립박물관이다.",
+      "metadata": {
+        "youth_fee": 0.0,
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/89/3503489_image2_1.JPG",
+        "sigungu": "중구",
+        "adult_fee": 0.0,
+        "holiday_open": "09:00",
+        "amenities_raw": "주차장+화장실",
+        "fee_notes": "무료",
+        "closure_rule_raw": "매주 월요일 (단, 월요일이 공휴일인 경우 당일은 개관하고 그 다음 첫번째 평일에 휴관)",
+        "sido": "울산광역시",
+        "holiday_close": "18:00",
+        "latitude": 35.57475705,
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "weekday_close": "18:00",
+        "child_fee": 0.0,
+        "source_types": "BASE|TOUR_API",
+        "weekday_open": "09:00",
+        "ownership_type": "공립",
+        "longitude": 129.3474699,
+        "homepage_url": "http://www.junggu.ulsan.kr/oesol",
+        "name": "외솔기념관",
+        "image_copyright": "Type3",
+        "requires_manual_review": true,
+        "address": "울산광역시 중구 병영12길 15"
+      },
+      "vector_rank": null,
+      "bm25_rank": 7,
+      "vector_distance": null,
+      "vector_score": null,
+      "bm25_score": 9.297015143775445,
+      "vector_document": "",
+      "bm25_document": "외솔기념관은 일제강점기 우리말과 글을 지킨 독립운동가이자 평생 한글 보급과 정보화를 위해 한길을 걸은 한글학자인 외솔 최현배의 업적을 기리고 그의 삶과 한글에 대한 정신을 기리고자 개관하였다. 외솔 최현배는 ‘한글 맞춤법 통일안’을 마련하고 표준말 정립, 우리말 사전 편찬 등에 심혈을 기울였다. 또한 문교부 편수 국장을 맡으며 초중등 교과서의 문법 체계, 가로 쓰기 체계 확립 등 대한민국의 국어정책의 초석을 다지고 한글전용 운동에 헌신하는 등 훈민정음이 오늘날의 한글이 되기까지 외솔 최현배의 갖은 노력이 있었다. 외솔기념관은 평생 한글을 지킨 외솔 최현배의 저서와 유품 등이 전시된 상설전시실을 비롯하여 다양한 한글 서적들을 열람할 수 있는 한글실, 어린이들을 위한 다양한 한글 놀이와 체험이 준비된 체험실, 교육 운영 공간인 모둠실, 영상실 등을 갖추고 있다. 특히 상설전시실은 2023년 3월 새롭게 개편되어 개관 당시보다 훨씬 쾌적한 공간으로 거듭났으며 다양한 자료를 통해 누구나 쉽게 외솔의 생애를 이해할 수 있다. 전시실 내 체험공간에서 ‘전자 타자기로 나만의 방문증 만들기’ 체험도 가능하다. 기념관 2층 야외 공간에는 외솔 최현배가 나고 자란 생가가 함께 있어 그의 삶을 한눈에 살필 수 있다. 외솔기념관은 외솔 최현배선생의 업적을 소개하고 대표 저서와 유품을 소장하고 있는 2010년 3월 23일에 개관한 공립박물관이다.",
+      "best_span_id": "chroma:M0406",
+      "best_span_text": "외솔기념관은 일제강점기 우리말과 글을 지킨 독립운동가이자 평생 한글 보급과 정보화를 위해 한길을 걸은 한글학자인 외솔 최현배의 업적을 기리고 그의 삶과 한글에 대한 정신을 기리고자 개관하였다. 외솔 최현배는 ‘한글 맞춤법 통일안’을 마련하고 표준말 정립, 우리말 사전 편찬 등에 심혈을 기울였다. 또한 문교부 편수 국장을 맡으며 초중등 교과서의 문법 체계, 가로 쓰기 체계 확립 등 대한민국의 국어정책의 초석을 다지고 한글전용 운동에 헌신하는 등 훈민정음이 오늘날의 한글이 되기까지 외솔 최현배의 갖은 노력이 있었다. 외솔기념관은 평생 한글을 지킨 외솔 최현배의 저서와 유품 등이 전시된 상설전시실을 비롯하여 다양한 한글 서적들을 열람할 수 있는 한글실, 어린이들을 위한 다양한 한글 놀이와 체험이 준비된 체험실, 교육 운영 공간인 모둠실, 영상실 등을 갖추고 있다. 특히 상설전시실은 2023년 3월 새롭게 개편되어 개관 당시보다 훨씬 쾌적한 공간으로 거듭났으며 다양한 자료를 통해 누구나 쉽게 외솔의 생애를 이해할 수 있다. 전시실 내 체험공간에서 ‘전자 타자기로 나만의 방문증 만들기’ 체험도 가능하다. 기념관 2층 야외 공간에는 외솔 최현배가 나고 자란 생가가 함께 있어 그의 삶을 한눈에 살필 수 있다. 외솔기념관은 외솔 최현배선생의 업적을 소개하고 대표 저서와 유품을 소장하고 있는 2010년 3월 23일에 개관한 공립박물관이다.",
+      "fusion_score": 0.014925373134328358,
+      "retrieved_by": [
+        "bm25"
+      ],
+      "fusion_rank": 13,
+      "rerank_score": 0.0005405927659012377,
+      "rank": 2,
+      "score": 0.0005405927659012377,
+      "score_type": "cross_encoder",
+      "distance": null,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "bm25"
+      ],
+      "retriever": "bm25",
+      "span_id": "chroma:M0406",
+      "source_doc_ids": [
+        "DOC-B0406-TOUR_API-1624470",
+        "DOC-B0406-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0406-TOUR_API-1624470",
+          "source_type": "TOUR_API",
+          "source_record_id": "1624470",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=190",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        },
+        {
+          "doc_id": "DOC-B0406-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0406",
+          "source_locator": "data/raw/museum_base_1070.csv#row=407",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 107,
+          "doc_ids": [
+            "DOC-B0406-TOUR_API-1624470"
+          ]
+        },
+        {
+          "start": 108,
+          "end": 165,
+          "doc_ids": [
+            "DOC-B0406-TOUR_API-1624470"
+          ]
+        },
+        {
+          "start": 166,
+          "end": 289,
+          "doc_ids": [
+            "DOC-B0406-TOUR_API-1624470"
+          ]
+        },
+        {
+          "start": 290,
+          "end": 429,
+          "doc_ids": [
+            "DOC-B0406-TOUR_API-1624470"
+          ]
+        },
+        {
+          "start": 430,
+          "end": 519,
+          "doc_ids": [
+            "DOC-B0406-TOUR_API-1624470"
+          ]
+        },
+        {
+          "start": 520,
+          "end": 564,
+          "doc_ids": [
+            "DOC-B0406-TOUR_API-1624470"
+          ]
+        },
+        {
+          "start": 565,
+          "end": 622,
+          "doc_ids": [
+            "DOC-B0406-TOUR_API-1624470"
+          ]
+        },
+        {
+          "start": 623,
+          "end": 694,
+          "doc_ids": [
+            "DOC-B0406-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=190",
+      "text": "외솔기념관은 일제강점기 우리말과 글을 지킨 독립운동가이자 평생 한글 보급과 정보화를 위해 한길을 걸은 한글학자인 외솔 최현배의 업적을 기리고 그의 삶과 한글에 대한 정신을 기리고자 개관하였다. 외솔 최현배는 ‘한글 맞춤법 통일안’을 마련하고 표준말 정립, 우리말 사전 편찬 등에 심혈을 기울였다. 또한 문교부 편수 국장을 맡으며 초중등 교과서의 문법 체계, 가로 쓰기 체계 확립 등 대한민국의 국어정책의 초석을 다지고 한글전용 운동에 헌신하는 등 훈민정음이 오늘날의 한글이 되기까지 외솔 최현배의 갖은 노력이 있었다. 외솔기념관은 평생 한글을 지킨 외솔 최현배의 저서와 유품 등이 전시된 상설전시실을 비롯하여 다양한 한글 서적들을 열람할 수 있는 한글실, 어린이들을 위한 다양한 한글 놀이와 체험이 준비된 체험실, 교육 운영 공간인 모둠실, 영상실 등을 갖추고 있다. 특히 상설전시실은 2023년 3월 새롭게 개편되어 개관 당시보다 훨씬 쾌적한 공간으로 거듭났으며 다양한 자료를 통해 누구나 쉽게 외솔의 생애를 이해할 수 있다. 전시실 내 체험공간에서 ‘전자 타자기로 나만의 방문증 만들기’ 체험도 가능하다. 기념관 2층 야외 공간에는 외솔 최현배가 나고 자란 생가가 함께 있어 그의 삶을 한눈에 살필 수 있다. 외솔기념관은 외솔 최현배선생의 업적을 소개하고 대표 저서와 유품을 소장하고 있는 2010년 3월 23일에 개관한 공립박물관이다.",
+      "sido": "울산광역시",
+      "sigungu": "중구",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=190"
+      ],
+      "evidence_id": "E2",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=290",
+        "fields": {
+          "name": "외솔기념관",
+          "sido": "울산광역시",
+          "sigungu": "중구",
+          "address": "울산광역시 중구 병영12길 15",
+          "ownership_type": "공립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "09:00",
+          "weekday_close": "18:00",
+          "holiday_open": "09:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "매주 월요일 (단, 월요일이 공휴일인 경우 당일은 개관하고 그 다음 첫번째 평일에 휴관)",
+          "amenities_raw": "주차장+화장실"
+        },
+        "base_data_date": "2026-05-13",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0217",
+      "name": "호야지리박물관",
+      "document": "호야지리박물관은 무릉도원면 무릉리에 위치한 지리 전문 박물관으로 지리교육에 평생을 바친 호야 양재룡 선생님이 사재를 털어 건립한 지리 테마 사설 박물관이다. 크게 상설 전시관과 지오토피아관으로 구성되어 있다. 상설 전시관에는 지리란 무엇인가, 지리로 살펴보는 무릉도원 영월, 지리 속의 넓은 세상, 땅속의 세상/시청각실, 기획전시실 등 5개 전시관이 본관 1·2층으로 나누어져 있다. 지오토피아관 1층에 마련된 특별 전시실에는 『광개토대왕 비문』 실물 탁본 4면 전체가 전시되어 있고 한국령 독도를 증명하는『일청한군용정도』 진본도 전시되어 있다. 지오토피아관 2층의 체험학습실, 기획전시실에서는 지도가 증명하는 「한국 영토, 독도 지도 기획 전시」 견학 및 독도 특강과 함께 독도사랑과 단종에 관한 여러 체험 활동이 진행된다. 한국령 독도관련 고지도와 지리 관련 희귀자료를 관람 할 수 있는 국내 최초의 지리 테마 사설 박물관입니다",
+      "metadata": {
+        "longitude": 128.2626995,
+        "requires_manual_review": true,
+        "weekday_open": "09:00",
+        "holiday_close": "18:00",
+        "image_copyright": "Type1",
+        "name": "호야지리박물관",
+        "homepage_url": "http://www.geomuseum.co.kr",
+        "address": "강원특별자치도 영월군 무릉도원면 무릉법흥로 303",
+        "sido": "강원특별자치도",
+        "closure_rule_raw": "월+화",
+        "ownership_type": "사립",
+        "youth_fee": 4000.0,
+        "adult_fee": 5000.0,
+        "child_fee": 3000.0,
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/10/3581010_image2_1.jpg",
+        "latitude": 37.299986,
+        "holiday_open": "09:00",
+        "fee_notes": "50프로 할인(영월군민+65세 이상)+ 단체요금: 20인 이상+무료(2급 이상 장애인 및 5세 이하)",
+        "source_types": "BASE|TOUR_API",
+        "weekday_close": "18:00",
+        "sigungu": "영월군",
+        "adult_fee_status": "BASE_FEE_PAID"
+      },
+      "vector_rank": null,
+      "bm25_rank": 5,
+      "vector_distance": null,
+      "vector_score": null,
+      "bm25_score": 10.065334044534683,
+      "vector_document": "",
+      "bm25_document": "호야지리박물관은 무릉도원면 무릉리에 위치한 지리 전문 박물관으로 지리교육에 평생을 바친 호야 양재룡 선생님이 사재를 털어 건립한 지리 테마 사설 박물관이다. 크게 상설 전시관과 지오토피아관으로 구성되어 있다. 상설 전시관에는 지리란 무엇인가, 지리로 살펴보는 무릉도원 영월, 지리 속의 넓은 세상, 땅속의 세상/시청각실, 기획전시실 등 5개 전시관이 본관 1·2층으로 나누어져 있다. 지오토피아관 1층에 마련된 특별 전시실에는 『광개토대왕 비문』 실물 탁본 4면 전체가 전시되어 있고 한국령 독도를 증명하는『일청한군용정도』 진본도 전시되어 있다. 지오토피아관 2층의 체험학습실, 기획전시실에서는 지도가 증명하는 「한국 영토, 독도 지도 기획 전시」 견학 및 독도 특강과 함께 독도사랑과 단종에 관한 여러 체험 활동이 진행된다. 한국령 독도관련 고지도와 지리 관련 희귀자료를 관람 할 수 있는 국내 최초의 지리 테마 사설 박물관입니다",
+      "best_span_id": "chroma:M0217",
+      "best_span_text": "호야지리박물관은 무릉도원면 무릉리에 위치한 지리 전문 박물관으로 지리교육에 평생을 바친 호야 양재룡 선생님이 사재를 털어 건립한 지리 테마 사설 박물관이다. 크게 상설 전시관과 지오토피아관으로 구성되어 있다. 상설 전시관에는 지리란 무엇인가, 지리로 살펴보는 무릉도원 영월, 지리 속의 넓은 세상, 땅속의 세상/시청각실, 기획전시실 등 5개 전시관이 본관 1·2층으로 나누어져 있다. 지오토피아관 1층에 마련된 특별 전시실에는 『광개토대왕 비문』 실물 탁본 4면 전체가 전시되어 있고 한국령 독도를 증명하는『일청한군용정도』 진본도 전시되어 있다. 지오토피아관 2층의 체험학습실, 기획전시실에서는 지도가 증명하는 「한국 영토, 독도 지도 기획 전시」 견학 및 독도 특강과 함께 독도사랑과 단종에 관한 여러 체험 활동이 진행된다. 한국령 독도관련 고지도와 지리 관련 희귀자료를 관람 할 수 있는 국내 최초의 지리 테마 사설 박물관입니다",
+      "fusion_score": 0.015384615384615385,
+      "retrieved_by": [
+        "bm25"
+      ],
+      "fusion_rank": 9,
+      "rerank_score": 0.00045178885920904577,
+      "rank": 3,
+      "score": 0.00045178885920904577,
+      "score_type": "cross_encoder",
+      "distance": null,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "bm25"
+      ],
+      "retriever": "bm25",
+      "span_id": "chroma:M0217",
+      "source_doc_ids": [
+        "DOC-B0217-TOUR_API-1625235",
+        "DOC-B0217-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0217-TOUR_API-1625235",
+          "source_type": "TOUR_API",
+          "source_record_id": "1625235",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=108",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        },
+        {
+          "doc_id": "DOC-B0217-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0217",
+          "source_locator": "data/raw/museum_base_1070.csv#row=218",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 87,
+          "doc_ids": [
+            "DOC-B0217-TOUR_API-1625235"
+          ]
+        },
+        {
+          "start": 88,
+          "end": 116,
+          "doc_ids": [
+            "DOC-B0217-TOUR_API-1625235"
+          ]
+        },
+        {
+          "start": 117,
+          "end": 214,
+          "doc_ids": [
+            "DOC-B0217-TOUR_API-1625235"
+          ]
+        },
+        {
+          "start": 215,
+          "end": 305,
+          "doc_ids": [
+            "DOC-B0217-TOUR_API-1625235"
+          ]
+        },
+        {
+          "start": 306,
+          "end": 406,
+          "doc_ids": [
+            "DOC-B0217-TOUR_API-1625235"
+          ]
+        },
+        {
+          "start": 407,
+          "end": 465,
+          "doc_ids": [
+            "DOC-B0217-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=108",
+      "text": "호야지리박물관은 무릉도원면 무릉리에 위치한 지리 전문 박물관으로 지리교육에 평생을 바친 호야 양재룡 선생님이 사재를 털어 건립한 지리 테마 사설 박물관이다. 크게 상설 전시관과 지오토피아관으로 구성되어 있다. 상설 전시관에는 지리란 무엇인가, 지리로 살펴보는 무릉도원 영월, 지리 속의 넓은 세상, 땅속의 세상/시청각실, 기획전시실 등 5개 전시관이 본관 1·2층으로 나누어져 있다. 지오토피아관 1층에 마련된 특별 전시실에는 『광개토대왕 비문』 실물 탁본 4면 전체가 전시되어 있고 한국령 독도를 증명하는『일청한군용정도』 진본도 전시되어 있다. 지오토피아관 2층의 체험학습실, 기획전시실에서는 지도가 증명하는 「한국 영토, 독도 지도 기획 전시」 견학 및 독도 특강과 함께 독도사랑과 단종에 관한 여러 체험 활동이 진행된다. 한국령 독도관련 고지도와 지리 관련 희귀자료를 관람 할 수 있는 국내 최초의 지리 테마 사설 박물관입니다",
+      "sido": "강원특별자치도",
+      "sigungu": "영월군",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=108"
+      ],
+      "evidence_id": "E3",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=146",
+        "fields": {
+          "name": "호야지리박물관",
+          "sido": "강원특별자치도",
+          "sigungu": "영월군",
+          "address": "강원특별자치도 영월군 무릉도원면 무릉법흥로 303",
+          "ownership_type": "사립",
+          "adult_fee": "5000",
+          "youth_fee": "4000",
+          "child_fee": "3000",
+          "adult_fee_status": "BASE_FEE_PAID",
+          "weekday_open": "09:00",
+          "weekday_close": "18:00",
+          "holiday_open": "09:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "월+화"
+        },
+        "base_data_date": "2026-09-03",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M1010",
+      "name": "평강 성서유물박물관",
+      "document": "성서의 배경이 되는 지역인 메소포타미아, 이집트, 고대그리스, 로마에서 출토된 미이라, 향수병, 토기, 두루마리 성경등을 전시하고 있는 국내 유일의 성서고고학 박물관",
+      "metadata": {
+        "child_fee": 2000.0,
+        "holiday_close": "17:00",
+        "sigungu": "구로구",
+        "ownership_type": "사립",
+        "holiday_open": "13:00",
+        "adult_fee_status": "BASE_FEE_PAID",
+        "youth_fee": 2000.0,
+        "adult_fee": 3000.0,
+        "requires_manual_review": false,
+        "name": "평강 성서유물박물관",
+        "weekday_open": "10:00",
+        "transport_notes": "지하철 1호선 오류역하차 도보로 7분 지하철 7호선 천왕역하차 2번출구에서 도보로 12분",
+        "weekday_close": "17:00",
+        "longitude": 126.8440613,
+        "fee_notes": "6세 이하 어린이, 장애우 및 65세 이상 노인 무료",
+        "homepage_url": "http://www.apm.or.kr/",
+        "source_types": "BASE",
+        "sido": "서울특별시",
+        "address": "서울특별시 구로구 오류로8라길 44",
+        "closure_rule_raw": "매주 월 휴관",
+        "latitude": 37.4919053
+      },
+      "vector_rank": null,
+      "bm25_rank": 3,
+      "vector_distance": null,
+      "vector_score": null,
+      "bm25_score": 11.268332658228205,
+      "vector_document": "",
+      "bm25_document": "성서의 배경이 되는 지역인 메소포타미아, 이집트, 고대그리스, 로마에서 출토된 미이라, 향수병, 토기, 두루마리 성경등을 전시하고 있는 국내 유일의 성서고고학 박물관",
+      "best_span_id": "chroma:M1010",
+      "best_span_text": "성서의 배경이 되는 지역인 메소포타미아, 이집트, 고대그리스, 로마에서 출토된 미이라, 향수병, 토기, 두루마리 성경등을 전시하고 있는 국내 유일의 성서고고학 박물관",
+      "fusion_score": 0.015873015873015872,
+      "retrieved_by": [
+        "bm25"
+      ],
+      "fusion_rank": 5,
+      "rerank_score": 0.00043820051359944046,
+      "rank": 4,
+      "score": 0.00043820051359944046,
+      "score_type": "cross_encoder",
+      "distance": null,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "bm25"
+      ],
+      "retriever": "bm25",
+      "span_id": "chroma:M1010",
+      "source_doc_ids": [
+        "DOC-B1010-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B1010-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B1010",
+          "source_locator": "data/raw/museum_base_1070.csv#row=1011",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 92,
+          "doc_ids": [
+            "DOC-B1010-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_base_1070.csv#row=1011",
+      "text": "성서의 배경이 되는 지역인 메소포타미아, 이집트, 고대그리스, 로마에서 출토된 미이라, 향수병, 토기, 두루마리 성경등을 전시하고 있는 국내 유일의 성서고고학 박물관",
+      "sido": "서울특별시",
+      "sigungu": "구로구",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_base_1070.csv#row=1011"
+      ],
+      "evidence_id": "E4",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=692",
+        "fields": {
+          "name": "평강 성서유물박물관",
+          "sido": "서울특별시",
+          "sigungu": "구로구",
+          "address": "서울특별시 구로구 오류로8라길 44",
+          "ownership_type": "사립",
+          "adult_fee": "3000",
+          "youth_fee": "2000",
+          "child_fee": "2000",
+          "adult_fee_status": "BASE_FEE_PAID",
+          "weekday_open": "10:00",
+          "weekday_close": "17:00",
+          "holiday_open": "13:00",
+          "holiday_close": "17:00",
+          "closure_rule_raw": "매주 월 휴관"
+        },
+        "base_data_date": "2025-04-03",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0440",
+      "name": "지적박물관",
+      "document": "지적 박물관은 도서출판 우물을 운영하는 리진호 관장이 개관한 지적 전문 박물관이다. 리진호 관장이 40여 년간 지적 계통에 종사하였으며, 측량 관서에서 행정을, 현장에서 측량을, 강단에서 강의를 하면서 얻은 지식과 경험, 수집한 자료를 바탕으로 개관하였다. 이 박물관은 한국뿐만 아니라 세계에서 유일한 지적(地籍) 전문 자료관으로써 한국지적사를 알 수 있는 지적 유물(토지문서, 측량기계 등)을 소장하고 있다. 그리고 이외에도 향토지, 백 년사, 기독교 분야(성서, 개교 회사) 등 다양한 서지 자료들을 소장하고 있다. 지적·향토지·백년사·기독교 4개 분야에 걸쳐 한국 최고·최다의 자료를 전시·보존하고 있으며, 한국 유일의 인물 시인 김경 목사의 시를 낭하에 전시하고 있다. 관장인 학촌 리진호 씨가 36년간 수집한 책, 서장, 기기 등 지적 자료 1,000점, 향토지 1,000점, 백 년사 400점, 그리스도교 자료 1,000점 등 총 3,500여 점이 전시되어 있다. 지적박물관은 지적 관련 자료, 향토지, 백년사 등 3개 분야의 자료를 상설·특별 전시와 보관을 통해 학술 연구 및 교육에 기여하기 위해 설립되었다.",
+      "metadata": {
+        "name": "지적박물관",
+        "sigungu": "제천시",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/19/3348619_image2_1.JPG",
+        "image_copyright": "Type3",
+        "weekday_open": "09:00",
+        "youth_fee": 3000.0,
+        "closure_rule_raw": "월요일+법정공휴일",
+        "requires_manual_review": true,
+        "source_types": "BASE|TOUR_API",
+        "address": "충청북도 제천시 금성면 양월로 34",
+        "adult_fee": 5000.0,
+        "adult_fee_status": "BASE_FEE_PAID",
+        "homepage_url": "http://www.forjijeok.com/",
+        "sido": "충청북도",
+        "ownership_type": "사립",
+        "weekday_close": "17:00",
+        "holiday_close": "18:00",
+        "holiday_open": "09:00",
+        "latitude": 37.0761096,
+        "longitude": 128.1976789,
+        "amenities_raw": "장애인 편의시설 및 주차장",
+        "child_fee": 2000.0
+      },
+      "vector_rank": null,
+      "bm25_rank": 6,
+      "vector_distance": null,
+      "vector_score": null,
+      "bm25_score": 10.016735924729048,
+      "vector_document": "",
+      "bm25_document": "지적 박물관은 도서출판 우물을 운영하는 리진호 관장이 개관한 지적 전문 박물관이다. 리진호 관장이 40여 년간 지적 계통에 종사하였으며, 측량 관서에서 행정을, 현장에서 측량을, 강단에서 강의를 하면서 얻은 지식과 경험, 수집한 자료를 바탕으로 개관하였다. 이 박물관은 한국뿐만 아니라 세계에서 유일한 지적(地籍) 전문 자료관으로써 한국지적사를 알 수 있는 지적 유물(토지문서, 측량기계 등)을 소장하고 있다. 그리고 이외에도 향토지, 백 년사, 기독교 분야(성서, 개교 회사) 등 다양한 서지 자료들을 소장하고 있다. 지적·향토지·백년사·기독교 4개 분야에 걸쳐 한국 최고·최다의 자료를 전시·보존하고 있으며, 한국 유일의 인물 시인 김경 목사의 시를 낭하에 전시하고 있다. 관장인 학촌 리진호 씨가 36년간 수집한 책, 서장, 기기 등 지적 자료 1,000점, 향토지 1,000점, 백 년사 400점, 그리스도교 자료 1,000점 등 총 3,500여 점이 전시되어 있다. 지적박물관은 지적 관련 자료, 향토지, 백년사 등 3개 분야의 자료를 상설·특별 전시와 보관을 통해 학술 연구 및 교육에 기여하기 위해 설립되었다.",
+      "best_span_id": "chroma:M0440",
+      "best_span_text": "지적 박물관은 도서출판 우물을 운영하는 리진호 관장이 개관한 지적 전문 박물관이다. 리진호 관장이 40여 년간 지적 계통에 종사하였으며, 측량 관서에서 행정을, 현장에서 측량을, 강단에서 강의를 하면서 얻은 지식과 경험, 수집한 자료를 바탕으로 개관하였다. 이 박물관은 한국뿐만 아니라 세계에서 유일한 지적(地籍) 전문 자료관으로써 한국지적사를 알 수 있는 지적 유물(토지문서, 측량기계 등)을 소장하고 있다. 그리고 이외에도 향토지, 백 년사, 기독교 분야(성서, 개교 회사) 등 다양한 서지 자료들을 소장하고 있다. 지적·향토지·백년사·기독교 4개 분야에 걸쳐 한국 최고·최다의 자료를 전시·보존하고 있으며, 한국 유일의 인물 시인 김경 목사의 시를 낭하에 전시하고 있다. 관장인 학촌 리진호 씨가 36년간 수집한 책, 서장, 기기 등 지적 자료 1,000점, 향토지 1,000점, 백 년사 400점, 그리스도교 자료 1,000점 등 총 3,500여 점이 전시되어 있다. 지적박물관은 지적 관련 자료, 향토지, 백년사 등 3개 분야의 자료를 상설·특별 전시와 보관을 통해 학술 연구 및 교육에 기여하기 위해 설립되었다.",
+      "fusion_score": 0.015151515151515152,
+      "retrieved_by": [
+        "bm25"
+      ],
+      "fusion_rank": 11,
+      "rerank_score": 0.00012263914686627686,
+      "rank": 5,
+      "score": 0.00012263914686627686,
+      "score_type": "cross_encoder",
+      "distance": null,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "bm25"
+      ],
+      "retriever": "bm25",
+      "span_id": "chroma:M0440",
+      "source_doc_ids": [
+        "DOC-B0440-TOUR_API-130789",
+        "DOC-B0440-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0440-TOUR_API-130789",
+          "source_type": "TOUR_API",
+          "source_record_id": "130789",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=211",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        },
+        {
+          "doc_id": "DOC-B0440-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0440",
+          "source_locator": "data/raw/museum_base_1070.csv#row=441",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 46,
+          "doc_ids": [
+            "DOC-B0440-TOUR_API-130789"
+          ]
+        },
+        {
+          "start": 47,
+          "end": 143,
+          "doc_ids": [
+            "DOC-B0440-TOUR_API-130789"
+          ]
+        },
+        {
+          "start": 144,
+          "end": 229,
+          "doc_ids": [
+            "DOC-B0440-TOUR_API-130789"
+          ]
+        },
+        {
+          "start": 230,
+          "end": 290,
+          "doc_ids": [
+            "DOC-B0440-TOUR_API-130789"
+          ]
+        },
+        {
+          "start": 291,
+          "end": 378,
+          "doc_ids": [
+            "DOC-B0440-TOUR_API-130789"
+          ]
+        },
+        {
+          "start": 379,
+          "end": 489,
+          "doc_ids": [
+            "DOC-B0440-TOUR_API-130789"
+          ]
+        },
+        {
+          "start": 490,
+          "end": 572,
+          "doc_ids": [
+            "DOC-B0440-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=211",
+      "text": "지적 박물관은 도서출판 우물을 운영하는 리진호 관장이 개관한 지적 전문 박물관이다. 리진호 관장이 40여 년간 지적 계통에 종사하였으며, 측량 관서에서 행정을, 현장에서 측량을, 강단에서 강의를 하면서 얻은 지식과 경험, 수집한 자료를 바탕으로 개관하였다. 이 박물관은 한국뿐만 아니라 세계에서 유일한 지적(地籍) 전문 자료관으로써 한국지적사를 알 수 있는 지적 유물(토지문서, 측량기계 등)을 소장하고 있다. 그리고 이외에도 향토지, 백 년사, 기독교 분야(성서, 개교 회사) 등 다양한 서지 자료들을 소장하고 있다. 지적·향토지·백년사·기독교 4개 분야에 걸쳐 한국 최고·최다의 자료를 전시·보존하고 있으며, 한국 유일의 인물 시인 김경 목사의 시를 낭하에 전시하고 있다. 관장인 학촌 리진호 씨가 36년간 수집한 책, 서장, 기기 등 지적 자료 1,000점, 향토지 1,000점, 백 년사 400점, 그리스도교 자료 1,000점 등 총 3,500여 점이 전시되어 있다. 지적박물관은 지적 관련 자료, 향토지, 백년사 등 3개 분야의 자료를 상설·특별 전시와 보관을 통해 학술 연구 및 교육에 기여하기 위해 설립되었다.",
+      "sido": "충청북도",
+      "sigungu": "제천시",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=211"
+      ],
+      "evidence_id": "E5",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=314",
+        "fields": {
+          "name": "지적박물관",
+          "sido": "충청북도",
+          "sigungu": "제천시",
+          "address": "충청북도 제천시 금성면 양월로 34",
+          "ownership_type": "사립",
+          "adult_fee": "5000",
+          "youth_fee": "3000",
+          "child_fee": "2000",
+          "adult_fee_status": "BASE_FEE_PAID",
+          "weekday_open": "09:00",
+          "weekday_close": "17:00",
+          "holiday_open": "09:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "월요일+법정공휴일",
+          "amenities_raw": "장애인 편의시설 및 주차장"
+        },
+        "base_data_date": "2026-03-23",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    }
+  ],
+  "answer": "국제성서박물관 소개에 따르면 한경수 목사는 평생 성서 수집과 연구에 헌신했습니다.[E1]",
+  "retrieval_status": "ok",
+  "answer_status": "answered",
+  "route": "hybrid",
+  "retry_count": 0,
+  "supervisor_verified": true,
+  "rerank_applied": true,
+  "retriever_errors": [],
+  "warnings": [],
+  "duration_ms": 69021.46,
+  "error_type": "",
+  "hit_at_1": 1,
+  "hit_at_3": 1,
+  "hit_at_5": 1,
+  "recall_at_5": 1.0,
+  "mrr_at_10": 1.0
+}

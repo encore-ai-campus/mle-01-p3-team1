@@ -1,0 +1,756 @@
+{
+  "mode": "supervisor_full",
+  "question_id": "Q223",
+  "evidence": [
+    {
+      "museum_id": "M0376",
+      "name": "파주나비나라박물관",
+      "document": "파주나비나라박물관은 자연환경 보존의 중요성과 생명의 소중함을 일깨줘 주는 동시에 곤충을 통한 교육 중심의 박물관이 되고자 2008년 4월 파주출판문화도시에 개관하였다. 천연기념물 1점과 환경부 보호종 8점을 포함한 다양한 곤충 표본 1,000여 점과 관련 공예, 그림, 도서를 전시하고 있다. 지역민들과 문화적 감수성을 하고자 매년 다양한 관점의 전시를 개최하고자 대상별 교육을 진행한다.",
+      "metadata": {
+        "adult_fee": 7000.0,
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/52/3540652_image2_1.jpg",
+        "holiday_close": "18:00",
+        "holiday_open": "10:00",
+        "fee_notes": "단체(20명 이상) 인당 6300원",
+        "longitude": 126.6869123589,
+        "homepage_url": "http://www.nabynara.com",
+        "child_fee": 7000.0,
+        "weekday_open": "10:00",
+        "adult_fee_status": "BASE_FEE_PAID",
+        "closure_rule_raw": "월요일",
+        "sido": "경기도",
+        "requires_manual_review": true,
+        "address": "경기도 파주시 광인사길 161",
+        "ownership_type": "사립",
+        "youth_fee": 7000.0,
+        "name": "파주나비나라박물관",
+        "sigungu": "파주시",
+        "image_copyright": "Type1",
+        "weekday_close": "18:00",
+        "latitude": 37.7148520478,
+        "source_types": "TOUR_API"
+      },
+      "vector_rank": 1,
+      "bm25_rank": 1,
+      "vector_distance": 0.3000444173812866,
+      "vector_score": null,
+      "bm25_score": 13.131703215632275,
+      "vector_document": "파주나비나라박물관은 자연환경 보존의 중요성과 생명의 소중함을 일깨줘 주는 동시에 곤충을 통한 교육 중심의 박물관이 되고자 2008년 4월 파주출판문화도시에 개관하였다. 천연기념물 1점과 환경부 보호종 8점을 포함한 다양한 곤충 표본 1,000여 점과 관련 공예, 그림, 도서를 전시하고 있다. 지역민들과 문화적 감수성을 하고자 매년 다양한 관점의 전시를 개최하고자 대상별 교육을 진행한다.",
+      "bm25_document": "파주나비나라박물관은 자연환경 보존의 중요성과 생명의 소중함을 일깨줘 주는 동시에 곤충을 통한 교육 중심의 박물관이 되고자 2008년 4월 파주출판문화도시에 개관하였다. 천연기념물 1점과 환경부 보호종 8점을 포함한 다양한 곤충 표본 1,000여 점과 관련 공예, 그림, 도서를 전시하고 있다. 지역민들과 문화적 감수성을 하고자 매년 다양한 관점의 전시를 개최하고자 대상별 교육을 진행한다.",
+      "best_span_id": "chroma:M0376",
+      "best_span_text": "파주나비나라박물관은 자연환경 보존의 중요성과 생명의 소중함을 일깨줘 주는 동시에 곤충을 통한 교육 중심의 박물관이 되고자 2008년 4월 파주출판문화도시에 개관하였다. 천연기념물 1점과 환경부 보호종 8점을 포함한 다양한 곤충 표본 1,000여 점과 관련 공예, 그림, 도서를 전시하고 있다. 지역민들과 문화적 감수성을 하고자 매년 다양한 관점의 전시를 개최하고자 대상별 교육을 진행한다.",
+      "fusion_score": 0.03278688524590164,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 1,
+      "name_match": true,
+      "rerank_score": null,
+      "rank": 1,
+      "score": 0.03278688524590164,
+      "score_type": "rrf",
+      "distance": 0.3000444173812866,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0376",
+      "source_doc_ids": [
+        "DOC-B0376-TOUR_API-613661"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0376-TOUR_API-613661",
+          "source_type": "TOUR_API",
+          "source_record_id": "613661",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=178",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 93,
+          "doc_ids": [
+            "DOC-B0376-TOUR_API-613661"
+          ]
+        },
+        {
+          "start": 94,
+          "end": 163,
+          "doc_ids": [
+            "DOC-B0376-TOUR_API-613661"
+          ]
+        },
+        {
+          "start": 164,
+          "end": 217,
+          "doc_ids": [
+            "DOC-B0376-TOUR_API-613661"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=178",
+      "text": "파주나비나라박물관은 자연환경 보존의 중요성과 생명의 소중함을 일깨줘 주는 동시에 곤충을 통한 교육 중심의 박물관이 되고자 2008년 4월 파주출판문화도시에 개관하였다. 천연기념물 1점과 환경부 보호종 8점을 포함한 다양한 곤충 표본 1,000여 점과 관련 공예, 그림, 도서를 전시하고 있다. 지역민들과 문화적 감수성을 하고자 매년 다양한 관점의 전시를 개최하고자 대상별 교육을 진행한다.",
+      "sido": "경기도",
+      "sigungu": "파주시",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=178"
+      ],
+      "evidence_id": "E1",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=273",
+        "fields": {
+          "name": "파주나비나라박물관",
+          "sido": "경기도",
+          "sigungu": "파주시",
+          "address": "경기도 파주시 광인사길 161",
+          "ownership_type": "사립",
+          "adult_fee": "7000",
+          "youth_fee": "7000",
+          "child_fee": "7000",
+          "adult_fee_status": "BASE_FEE_PAID",
+          "weekday_open": "10:00",
+          "weekday_close": "18:00",
+          "holiday_open": "10:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "월요일"
+        },
+        "base_data_date": "2026-06-22",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0490",
+      "name": "국립농업박물관",
+      "document": "국립농업박물관은 우리 농업의 어제와 오늘 그리고 내일을 만날 수 있는 다양한 전시와 실내외 농업 체험장으로 구성되어 있다. 농업의 모든 것을 선보이는 상설 전시와 다양한 측면을 포착한 기획 전시, 농촌의 가치를 체험할 수 있는 어린이박물관이 있다. 도심 속 여유를 만끽할 수 있는 야외 농업 체험장과 식물원, 곤충관은 물론, 직접 느끼며 깨닫는 교육 프로그램까지 다양한 볼거리와 즐길거리가 가득하다. ‘모두가 찾아오고 싶은 생활 문화 공간’을 추구하며 농업 농촌의 가치를 친근하게 전파하고자 한다. 한국 농업의 역사와 미래, 농촌문화와 식문화를 소개하는 국립박물관이다. 농업관과 어린이박물관, 식물원·곤충관·농업체험시설을 통해 농업의 여러 모습을 체험할 수 있다.",
+      "metadata": {
+        "sido": "경기도",
+        "latitude": 37.2748838338,
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/95/4056595_image2_1.jpg",
+        "requires_manual_review": true,
+        "weekday_open": "10:00",
+        "adult_fee": 0.0,
+        "address": "경기도 수원시 권선구 수인로 154",
+        "name": "국립농업박물관",
+        "holiday_close": "18:00",
+        "ownership_type": "국립",
+        "youth_fee": 0.0,
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "closure_rule_raw": "매주 월요일, 1월 1일, 설·추석 당일",
+        "image_copyright": "Type1",
+        "holiday_open": "10:00",
+        "child_fee": 0.0,
+        "weekday_close": "18:00",
+        "sigungu": "수원시",
+        "source_types": "TOUR_API|WEB_RESEARCH",
+        "longitude": 126.9849753448,
+        "homepage_url": "https://www.namuk.or.kr/sites/kr/index.do"
+      },
+      "vector_rank": 13,
+      "bm25_rank": 17,
+      "vector_distance": 0.4933973550796509,
+      "vector_score": null,
+      "bm25_score": 7.255565431386,
+      "vector_document": "국립농업박물관은 우리 농업의 어제와 오늘 그리고 내일을 만날 수 있는 다양한 전시와 실내외 농업 체험장으로 구성되어 있다. 농업의 모든 것을 선보이는 상설 전시와 다양한 측면을 포착한 기획 전시, 농촌의 가치를 체험할 수 있는 어린이박물관이 있다. 도심 속 여유를 만끽할 수 있는 야외 농업 체험장과 식물원, 곤충관은 물론, 직접 느끼며 깨닫는 교육 프로그램까지 다양한 볼거리와 즐길거리가 가득하다. ‘모두가 찾아오고 싶은 생활 문화 공간’을 추구하며 농업 농촌의 가치를 친근하게 전파하고자 한다. 한국 농업의 역사와 미래, 농촌문화와 식문화를 소개하는 국립박물관이다. 농업관과 어린이박물관, 식물원·곤충관·농업체험시설을 통해 농업의 여러 모습을 체험할 수 있다.",
+      "bm25_document": "국립농업박물관은 우리 농업의 어제와 오늘 그리고 내일을 만날 수 있는 다양한 전시와 실내외 농업 체험장으로 구성되어 있다. 농업의 모든 것을 선보이는 상설 전시와 다양한 측면을 포착한 기획 전시, 농촌의 가치를 체험할 수 있는 어린이박물관이 있다. 도심 속 여유를 만끽할 수 있는 야외 농업 체험장과 식물원, 곤충관은 물론, 직접 느끼며 깨닫는 교육 프로그램까지 다양한 볼거리와 즐길거리가 가득하다. ‘모두가 찾아오고 싶은 생활 문화 공간’을 추구하며 농업 농촌의 가치를 친근하게 전파하고자 한다. 한국 농업의 역사와 미래, 농촌문화와 식문화를 소개하는 국립박물관이다. 농업관과 어린이박물관, 식물원·곤충관·농업체험시설을 통해 농업의 여러 모습을 체험할 수 있다.",
+      "best_span_id": "chroma:M0490",
+      "best_span_text": "국립농업박물관은 우리 농업의 어제와 오늘 그리고 내일을 만날 수 있는 다양한 전시와 실내외 농업 체험장으로 구성되어 있다. 농업의 모든 것을 선보이는 상설 전시와 다양한 측면을 포착한 기획 전시, 농촌의 가치를 체험할 수 있는 어린이박물관이 있다. 도심 속 여유를 만끽할 수 있는 야외 농업 체험장과 식물원, 곤충관은 물론, 직접 느끼며 깨닫는 교육 프로그램까지 다양한 볼거리와 즐길거리가 가득하다. ‘모두가 찾아오고 싶은 생활 문화 공간’을 추구하며 농업 농촌의 가치를 친근하게 전파하고자 한다. 한국 농업의 역사와 미래, 농촌문화와 식문화를 소개하는 국립박물관이다. 농업관과 어린이박물관, 식물원·곤충관·농업체험시설을 통해 농업의 여러 모습을 체험할 수 있다.",
+      "fusion_score": 0.02668564312399929,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 2,
+      "rerank_score": null,
+      "rank": 2,
+      "score": 0.02668564312399929,
+      "score_type": "rrf",
+      "distance": 0.4933973550796509,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0490",
+      "source_doc_ids": [
+        "DOC-B0490-TOUR_API-2944481",
+        "DOC-WEB-M0490-20261111"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0490-TOUR_API-2944481",
+          "source_type": "TOUR_API",
+          "source_record_id": "2944481",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=242",
+          "match_trust": "RECHECKED_BY_RULE_NOT_HUMAN_APPROVED"
+        },
+        {
+          "doc_id": "DOC-WEB-M0490-20261111",
+          "source_type": "WEB_RESEARCH",
+          "source_record_id": "RESEARCH-M0490",
+          "source_locator": "https://namuk.or.kr/kr/597/subview.do",
+          "source_url": "https://namuk.or.kr/kr/597/subview.do",
+          "match_trust": "WEB_SOURCE_REVIEWED_NOT_HUMAN_APPROVED"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 68,
+          "doc_ids": [
+            "DOC-B0490-TOUR_API-2944481"
+          ]
+        },
+        {
+          "start": 69,
+          "end": 138,
+          "doc_ids": [
+            "DOC-B0490-TOUR_API-2944481"
+          ]
+        },
+        {
+          "start": 139,
+          "end": 223,
+          "doc_ids": [
+            "DOC-B0490-TOUR_API-2944481"
+          ]
+        },
+        {
+          "start": 224,
+          "end": 278,
+          "doc_ids": [
+            "DOC-B0490-TOUR_API-2944481"
+          ]
+        },
+        {
+          "start": 279,
+          "end": 318,
+          "doc_ids": [
+            "DOC-WEB-M0490-20261111"
+          ]
+        },
+        {
+          "start": 319,
+          "end": 371,
+          "doc_ids": [
+            "DOC-WEB-M0490-20261111"
+          ]
+        }
+      ],
+      "source_urls": [
+        "https://namuk.or.kr/kr/597/subview.do"
+      ],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=242",
+      "text": "국립농업박물관은 우리 농업의 어제와 오늘 그리고 내일을 만날 수 있는 다양한 전시와 실내외 농업 체험장으로 구성되어 있다. 농업의 모든 것을 선보이는 상설 전시와 다양한 측면을 포착한 기획 전시, 농촌의 가치를 체험할 수 있는 어린이박물관이 있다. 도심 속 여유를 만끽할 수 있는 야외 농업 체험장과 식물원, 곤충관은 물론, 직접 느끼며 깨닫는 교육 프로그램까지 다양한 볼거리와 즐길거리가 가득하다. ‘모두가 찾아오고 싶은 생활 문화 공간’을 추구하며 농업 농촌의 가치를 친근하게 전파하고자 한다. 한국 농업의 역사와 미래, 농촌문화와 식문화를 소개하는 국립박물관이다. 농업관과 어린이박물관, 식물원·곤충관·농업체험시설을 통해 농업의 여러 모습을 체험할 수 있다.",
+      "sido": "경기도",
+      "sigungu": "수원시",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=242"
+      ],
+      "evidence_id": "E2",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=353",
+        "fields": {
+          "name": "국립농업박물관",
+          "sido": "경기도",
+          "sigungu": "수원시",
+          "address": "경기도 수원시 권선구 수인로 154",
+          "ownership_type": "국립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "10:00",
+          "weekday_close": "18:00",
+          "holiday_open": "10:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "매주 월요일, 1월 1일, 설·추석 당일"
+        },
+        "base_data_date": "2026-04-08",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0399",
+      "name": "부천시립박물관",
+      "document": "부천시립박물관은 삼국시대부터 현대에 이르기까지 대한민국 교육의 변천사를 살펴볼 수 있는 교육 전시실, 수백 년 동안 사랑받아 온 유럽 문화의 정수인 유럽자기 전시실, 억겁의 시간 동안 자연이 빚어낸 작품인 수석 전시실, 점말 옹기 터의 역사를 되돌아볼 수 있는 옹기 전시실과 부천 지역에서 출토된 유물이 있는 부천향토역사관으로 이루어져 있다. 문화도시 부천의 종합 박물관으로서 과거와 현재, 동양과 서양을 아우르는 다양한 소장품을 살펴볼 수 있다. 부천시립박물관은 선사시대부터 이어져오는 부천의 자랑스러운 역사를 알리고 계승하며 다양한 문화콘텐츠의 가치를 제고하여 시민을 위한 복합문화공간이 되고자 합니다.",
+      "metadata": {
+        "name": "부천시립박물관",
+        "fee_notes": "0",
+        "sido": "경기도",
+        "weekday_open": "09:30",
+        "longitude": 126.80175,
+        "youth_fee": 0.0,
+        "child_fee": 0.0,
+        "adult_fee": 0.0,
+        "transport_notes": "7호선 부천종합운동장역(2번출구) 에서  도보로 15분  버스 환승은 95번 60번으로 5분 정도 소요",
+        "address": "경기도 부천시 오정구 소사로 638",
+        "sigungu": "부천시",
+        "holiday_open": "09:30",
+        "image_copyright": "Type1",
+        "ownership_type": "공립",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/70/4119570_image2_1.jpg",
+        "requires_manual_review": true,
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "holiday_close": "18:00",
+        "source_types": "BASE|TOUR_API",
+        "homepage_url": "http://www.bcmuseum.or.kr",
+        "weekday_close": "18:00",
+        "closure_rule_raw": "월(월요일이 공휴일인 경우 월요일 정상 개관 후 화요일에 휴관)+1월 1일+설 연휴+추석 연휴",
+        "latitude": 37.51364
+      },
+      "vector_rank": 20,
+      "bm25_rank": 18,
+      "vector_distance": 0.5041483640670776,
+      "vector_score": null,
+      "bm25_score": 7.237434885249804,
+      "vector_document": "부천시립박물관은 삼국시대부터 현대에 이르기까지 대한민국 교육의 변천사를 살펴볼 수 있는 교육 전시실, 수백 년 동안 사랑받아 온 유럽 문화의 정수인 유럽자기 전시실, 억겁의 시간 동안 자연이 빚어낸 작품인 수석 전시실, 점말 옹기 터의 역사를 되돌아볼 수 있는 옹기 전시실과 부천 지역에서 출토된 유물이 있는 부천향토역사관으로 이루어져 있다. 문화도시 부천의 종합 박물관으로서 과거와 현재, 동양과 서양을 아우르는 다양한 소장품을 살펴볼 수 있다. 부천시립박물관은 선사시대부터 이어져오는 부천의 자랑스러운 역사를 알리고 계승하며 다양한 문화콘텐츠의 가치를 제고하여 시민을 위한 복합문화공간이 되고자 합니다.",
+      "bm25_document": "부천시립박물관은 삼국시대부터 현대에 이르기까지 대한민국 교육의 변천사를 살펴볼 수 있는 교육 전시실, 수백 년 동안 사랑받아 온 유럽 문화의 정수인 유럽자기 전시실, 억겁의 시간 동안 자연이 빚어낸 작품인 수석 전시실, 점말 옹기 터의 역사를 되돌아볼 수 있는 옹기 전시실과 부천 지역에서 출토된 유물이 있는 부천향토역사관으로 이루어져 있다. 문화도시 부천의 종합 박물관으로서 과거와 현재, 동양과 서양을 아우르는 다양한 소장품을 살펴볼 수 있다. 부천시립박물관은 선사시대부터 이어져오는 부천의 자랑스러운 역사를 알리고 계승하며 다양한 문화콘텐츠의 가치를 제고하여 시민을 위한 복합문화공간이 되고자 합니다.",
+      "best_span_id": "chroma:M0399",
+      "best_span_text": "부천시립박물관은 삼국시대부터 현대에 이르기까지 대한민국 교육의 변천사를 살펴볼 수 있는 교육 전시실, 수백 년 동안 사랑받아 온 유럽 문화의 정수인 유럽자기 전시실, 억겁의 시간 동안 자연이 빚어낸 작품인 수석 전시실, 점말 옹기 터의 역사를 되돌아볼 수 있는 옹기 전시실과 부천 지역에서 출토된 유물이 있는 부천향토역사관으로 이루어져 있다. 문화도시 부천의 종합 박물관으로서 과거와 현재, 동양과 서양을 아우르는 다양한 소장품을 살펴볼 수 있다. 부천시립박물관은 선사시대부터 이어져오는 부천의 자랑스러운 역사를 알리고 계승하며 다양한 문화콘텐츠의 가치를 제고하여 시민을 위한 복합문화공간이 되고자 합니다.",
+      "fusion_score": 0.02532051282051282,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 3,
+      "rerank_score": null,
+      "rank": 3,
+      "score": 0.02532051282051282,
+      "score_type": "rrf",
+      "distance": 0.5041483640670776,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0399",
+      "source_doc_ids": [
+        "DOC-B0399-TOUR_API-2734888",
+        "DOC-B0399-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0399-TOUR_API-2734888",
+          "source_type": "TOUR_API",
+          "source_record_id": "2734888",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=184",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        },
+        {
+          "doc_id": "DOC-B0399-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0399",
+          "source_locator": "data/raw/museum_base_1070.csv#row=400",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 191,
+          "doc_ids": [
+            "DOC-B0399-TOUR_API-2734888"
+          ]
+        },
+        {
+          "start": 192,
+          "end": 250,
+          "doc_ids": [
+            "DOC-B0399-TOUR_API-2734888"
+          ]
+        },
+        {
+          "start": 251,
+          "end": 339,
+          "doc_ids": [
+            "DOC-B0399-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=184",
+      "text": "부천시립박물관은 삼국시대부터 현대에 이르기까지 대한민국 교육의 변천사를 살펴볼 수 있는 교육 전시실, 수백 년 동안 사랑받아 온 유럽 문화의 정수인 유럽자기 전시실, 억겁의 시간 동안 자연이 빚어낸 작품인 수석 전시실, 점말 옹기 터의 역사를 되돌아볼 수 있는 옹기 전시실과 부천 지역에서 출토된 유물이 있는 부천향토역사관으로 이루어져 있다. 문화도시 부천의 종합 박물관으로서 과거와 현재, 동양과 서양을 아우르는 다양한 소장품을 살펴볼 수 있다. 부천시립박물관은 선사시대부터 이어져오는 부천의 자랑스러운 역사를 알리고 계승하며 다양한 문화콘텐츠의 가치를 제고하여 시민을 위한 복합문화공간이 되고자 합니다.",
+      "sido": "경기도",
+      "sigungu": "부천시",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=184"
+      ],
+      "evidence_id": "E3",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=283",
+        "fields": {
+          "name": "부천시립박물관",
+          "sido": "경기도",
+          "sigungu": "부천시",
+          "address": "경기도 부천시 오정구 소사로 638",
+          "ownership_type": "공립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "09:30",
+          "weekday_close": "18:00",
+          "holiday_open": "09:30",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "월(월요일이 공휴일인 경우 월요일 정상 개관 후 화요일에 휴관)+1월 1일+설 연휴+추석 연휴"
+        },
+        "base_data_date": "2026-06-17",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0846",
+      "name": "한국등잔박물관",
+      "document": "포은 정몽주 묘소 맞은편에 있는 한국등잔박물관은 박물관장 김동휘가 50여 년간 수집한 등잔들이 전시되어 있는 사립박물관이다. 국내 유일의 등기구 박물관으로 선조들의 옛 생활상을 살펴볼 수 있어 개인뿐 아니라 학생들의 체험학습 공간으로 많이 찾는 곳이다. 수원화성 성곽을 모티브로 지은 원통형의 등대 모양 건물은 지하 1층, 지상 3층 규모로 1, 2층은 전시 공간으로 3층은 세미나 및 각종 공연을 위한 다목적 공간으로 구성되어 있다. 또 별관 전시장에는 농기구 전시실이 있고 야외전시장인 연못과 자연석이 어우러진 아름다운 정원으로 가볍게 둘러보며 힐링하기 좋다. 상설전시실 1층에는 우리의 불그릇 등잔을 주제로 부엌, 찬방, 사랑방, 안방 등 공간별로 사용되었던 등잔의 종류와 용도를 옛 생활용품과 함께 전시되어 있으며, 2층은 일상을 지킨 빛과 예를 밝힌 빛을 주제로 시대별 등잔 양식과 특징을 한눈에 알아볼 수 있다. 또 1층 특별기획전시실에서는 지역작가 조명전을 개최해 경기도 내에서 왕성한 작품 활동을 펼치는 지역작가들을 소개하고 있다. 박물관에서는 다양한 어린이, 청소년, 성인을 대상으로 한 상설교육 프로그램과 특별교육 프로그램을 운영하고 있다. 초나 LED등, 도자 등잔 등을 만들어 볼 수 있어 특별한 추억을 선물한다. 포은 정몽주 묘소가 맞은편에 있으므로 연계해 함께 방문하기 좋다.",
+      "metadata": {
+        "weekday_close": "17:00",
+        "child_fee": 0.0,
+        "closure_rule_raw": "매주 월요일~화요일,신정,설연휴,추석(당일)",
+        "youth_fee": 5000.0,
+        "holiday_open": "10:00",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/61/3584961_image2_1.jpg",
+        "adult_fee": 8000.0,
+        "homepage_url": "https://www.deungjan.org",
+        "source_types": "TOUR_API",
+        "longitude": 127.1778809,
+        "address": "경기도 용인시 처인구 모현읍 능곡로56번길 8",
+        "name": "한국등잔박물관",
+        "ownership_type": "사립",
+        "sido": "경기도",
+        "weekday_open": "10:00",
+        "adult_fee_status": "BASE_FEE_PAID",
+        "holiday_close": "17:00",
+        "sigungu": "용인시",
+        "latitude": 37.33658645,
+        "requires_manual_review": true,
+        "fee_notes": "3000",
+        "image_copyright": "Type1"
+      },
+      "vector_rank": 2,
+      "bm25_rank": null,
+      "vector_distance": 0.4637177586555481,
+      "vector_score": null,
+      "bm25_score": null,
+      "vector_document": "포은 정몽주 묘소 맞은편에 있는 한국등잔박물관은 박물관장 김동휘가 50여 년간 수집한 등잔들이 전시되어 있는 사립박물관이다. 국내 유일의 등기구 박물관으로 선조들의 옛 생활상을 살펴볼 수 있어 개인뿐 아니라 학생들의 체험학습 공간으로 많이 찾는 곳이다. 수원화성 성곽을 모티브로 지은 원통형의 등대 모양 건물은 지하 1층, 지상 3층 규모로 1, 2층은 전시 공간으로 3층은 세미나 및 각종 공연을 위한 다목적 공간으로 구성되어 있다. 또 별관 전시장에는 농기구 전시실이 있고 야외전시장인 연못과 자연석이 어우러진 아름다운 정원으로 가볍게 둘러보며 힐링하기 좋다. 상설전시실 1층에는 우리의 불그릇 등잔을 주제로 부엌, 찬방, 사랑방, 안방 등 공간별로 사용되었던 등잔의 종류와 용도를 옛 생활용품과 함께 전시되어 있으며, 2층은 일상을 지킨 빛과 예를 밝힌 빛을 주제로 시대별 등잔 양식과 특징을 한눈에 알아볼 수 있다. 또 1층 특별기획전시실에서는 지역작가 조명전을 개최해 경기도 내에서 왕성한 작품 활동을 펼치는 지역작가들을 소개하고 있다. 박물관에서는 다양한 어린이, 청소년, 성인을 대상으로 한 상설교육 프로그램과 특별교육 프로그램을 운영하고 있다. 초나 LED등, 도자 등잔 등을 만들어 볼 수 있어 특별한 추억을 선물한다. 포은 정몽주 묘소가 맞은편에 있으므로 연계해 함께 방문하기 좋다.",
+      "bm25_document": "",
+      "best_span_id": null,
+      "best_span_text": null,
+      "fusion_score": 0.016129032258064516,
+      "retrieved_by": [
+        "vector"
+      ],
+      "fusion_rank": 4,
+      "rerank_score": null,
+      "rank": 4,
+      "score": 0.016129032258064516,
+      "score_type": "rrf",
+      "distance": 0.4637177586555481,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector"
+      ],
+      "retriever": "vector",
+      "source_doc_ids": [
+        "DOC-B0846-TOUR_API-130147"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0846-TOUR_API-130147",
+          "source_type": "TOUR_API",
+          "source_record_id": "130147",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=400",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 69,
+          "doc_ids": [
+            "DOC-B0846-TOUR_API-130147"
+          ]
+        },
+        {
+          "start": 70,
+          "end": 141,
+          "doc_ids": [
+            "DOC-B0846-TOUR_API-130147"
+          ]
+        },
+        {
+          "start": 142,
+          "end": 243,
+          "doc_ids": [
+            "DOC-B0846-TOUR_API-130147"
+          ]
+        },
+        {
+          "start": 244,
+          "end": 315,
+          "doc_ids": [
+            "DOC-B0846-TOUR_API-130147"
+          ]
+        },
+        {
+          "start": 316,
+          "end": 460,
+          "doc_ids": [
+            "DOC-B0846-TOUR_API-130147"
+          ]
+        },
+        {
+          "start": 461,
+          "end": 529,
+          "doc_ids": [
+            "DOC-B0846-TOUR_API-130147"
+          ]
+        },
+        {
+          "start": 530,
+          "end": 592,
+          "doc_ids": [
+            "DOC-B0846-TOUR_API-130147"
+          ]
+        },
+        {
+          "start": 593,
+          "end": 635,
+          "doc_ids": [
+            "DOC-B0846-TOUR_API-130147"
+          ]
+        },
+        {
+          "start": 636,
+          "end": 672,
+          "doc_ids": [
+            "DOC-B0846-TOUR_API-130147"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=400",
+      "text": "포은 정몽주 묘소 맞은편에 있는 한국등잔박물관은 박물관장 김동휘가 50여 년간 수집한 등잔들이 전시되어 있는 사립박물관이다. 국내 유일의 등기구 박물관으로 선조들의 옛 생활상을 살펴볼 수 있어 개인뿐 아니라 학생들의 체험학습 공간으로 많이 찾는 곳이다. 수원화성 성곽을 모티브로 지은 원통형의 등대 모양 건물은 지하 1층, 지상 3층 규모로 1, 2층은 전시 공간으로 3층은 세미나 및 각종 공연을 위한 다목적 공간으로 구성되어 있다. 또 별관 전시장에는 농기구 전시실이 있고 야외전시장인 연못과 자연석이 어우러진 아름다운 정원으로 가볍게 둘러보며 힐링하기 좋다. 상설전시실 1층에는 우리의 불그릇 등잔을 주제로 부엌, 찬방, 사랑방, 안방 등 공간별로 사용되었던 등잔의 종류와 용도를 옛 생활용품과 함께 전시되어 있으며, 2층은 일상을 지킨 빛과 예를 밝힌 빛을 주제로 시대별 등잔 양식과 특징을 한눈에 알아볼 수 있다. 또 1층 특별기획전시실에서는 지역작가 조명전을 개최해 경기도 내에서 왕성한 작품 활동을 펼치는 지역작가들을 소개하고 있다. 박물관에서는 다양한 어린이, 청소년, 성인을 대상으로 한 상설교육 프로그램과 특별교육 프로그램을 운영하고 있다. 초나 LED등, 도자 등잔 등을 만들어 볼 수 있어 특별한 추억을 선물한다. 포은 정몽주 묘소가 맞은편에 있으므로 연계해 함께 방문하기 좋다.",
+      "sido": "경기도",
+      "sigungu": "용인시",
+      "span_id": "",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=400"
+      ],
+      "evidence_id": "E4",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=573",
+        "fields": {
+          "name": "한국등잔박물관",
+          "sido": "경기도",
+          "sigungu": "용인시",
+          "address": "경기도 용인시 처인구 모현읍 능곡로56번길 8",
+          "ownership_type": "사립",
+          "adult_fee": "8000",
+          "youth_fee": "5000",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_PAID",
+          "weekday_open": "10:00",
+          "weekday_close": "17:00",
+          "holiday_open": "10:00",
+          "holiday_close": "17:00",
+          "closure_rule_raw": "매주 월요일~화요일,신정,설연휴,추석(당일)"
+        },
+        "base_data_date": "2024-11-29",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0073",
+      "name": "제주해양동물박물관",
+      "document": "제주해양동물박물관에서는 제주만의 특별한 교육 체험이 가능하다. 고래상어, 개복치, 키다리 게 등 해양 동물의 생생한 이야기에 대한 교육 그리고 체험이 가능하며, 어른과 어린이의 알찬 놀이터가 되어준다. 주요 소장품으로 약 800여 종의 해양동물 표본이 10,000여 점 전시되어 있다. 이곳의 해양동물 표본은 40여 년간의 오랜 경험과 특수 기술로 생동감 있게 제작되었다. 해양동물 실물 표본을 직접 관찰할 수 있어, 표본의 본질적 가치를 바탕으로 한 해양 동물 교육과 체험의 장이 되고 있다. 해양 동물자원의 중요성과 공존의 가치를 인식시키는 계기를 마련하고, 국내 생태계 보전의식 확산에 이바지하는, 지속 가능한 해양 동물 전문 박물관이다. 주변 관광지로는 세계적 자연유산인 성산일출봉과 섭지코지, 아쿠아플라넷, 용눈이오름 등이 있다.",
+      "metadata": {
+        "sido": "제주특별자치도",
+        "adult_fee": 10000.0,
+        "longitude": 126.8551274,
+        "holiday_close": "18:00",
+        "image_copyright": "Type1",
+        "homepage_url": "http://www.jejumarineanimal.com",
+        "name": "제주해양동물박물관",
+        "fee_notes": "단체 관람 시 할인+도민할인",
+        "holiday_open": "09:00",
+        "closure_rule_raw": "수",
+        "weekday_close": "18:00",
+        "latitude": 33.42948623,
+        "source_types": "TOUR_API",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/47/3548447_image2_1.jpg",
+        "weekday_open": "09:00",
+        "sigungu": "서귀포시",
+        "adult_fee_status": "BASE_FEE_PAID",
+        "child_fee": 8000.0,
+        "youth_fee": 9000.0,
+        "address": "제주특별자치도 서귀포시 성산읍 서성일로 689-21",
+        "requires_manual_review": true,
+        "ownership_type": "사립"
+      },
+      "vector_rank": null,
+      "bm25_rank": 2,
+      "vector_distance": null,
+      "vector_score": null,
+      "bm25_score": 9.379527709626963,
+      "vector_document": "",
+      "bm25_document": "제주해양동물박물관에서는 제주만의 특별한 교육 체험이 가능하다. 고래상어, 개복치, 키다리 게 등 해양 동물의 생생한 이야기에 대한 교육 그리고 체험이 가능하며, 어른과 어린이의 알찬 놀이터가 되어준다. 주요 소장품으로 약 800여 종의 해양동물 표본이 10,000여 점 전시되어 있다. 이곳의 해양동물 표본은 40여 년간의 오랜 경험과 특수 기술로 생동감 있게 제작되었다. 해양동물 실물 표본을 직접 관찰할 수 있어, 표본의 본질적 가치를 바탕으로 한 해양 동물 교육과 체험의 장이 되고 있다. 해양 동물자원의 중요성과 공존의 가치를 인식시키는 계기를 마련하고, 국내 생태계 보전의식 확산에 이바지하는, 지속 가능한 해양 동물 전문 박물관이다. 주변 관광지로는 세계적 자연유산인 성산일출봉과 섭지코지, 아쿠아플라넷, 용눈이오름 등이 있다.",
+      "best_span_id": "chroma:M0073",
+      "best_span_text": "제주해양동물박물관에서는 제주만의 특별한 교육 체험이 가능하다. 고래상어, 개복치, 키다리 게 등 해양 동물의 생생한 이야기에 대한 교육 그리고 체험이 가능하며, 어른과 어린이의 알찬 놀이터가 되어준다. 주요 소장품으로 약 800여 종의 해양동물 표본이 10,000여 점 전시되어 있다. 이곳의 해양동물 표본은 40여 년간의 오랜 경험과 특수 기술로 생동감 있게 제작되었다. 해양동물 실물 표본을 직접 관찰할 수 있어, 표본의 본질적 가치를 바탕으로 한 해양 동물 교육과 체험의 장이 되고 있다. 해양 동물자원의 중요성과 공존의 가치를 인식시키는 계기를 마련하고, 국내 생태계 보전의식 확산에 이바지하는, 지속 가능한 해양 동물 전문 박물관이다. 주변 관광지로는 세계적 자연유산인 성산일출봉과 섭지코지, 아쿠아플라넷, 용눈이오름 등이 있다.",
+      "fusion_score": 0.016129032258064516,
+      "retrieved_by": [
+        "bm25"
+      ],
+      "fusion_rank": 5,
+      "rerank_score": null,
+      "rank": 5,
+      "score": 0.016129032258064516,
+      "score_type": "rrf",
+      "distance": null,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "bm25"
+      ],
+      "retriever": "bm25",
+      "span_id": "chroma:M0073",
+      "source_doc_ids": [
+        "DOC-B0073-TOUR_API-2751843"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0073-TOUR_API-2751843",
+          "source_type": "TOUR_API",
+          "source_record_id": "2751843",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=37",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 34,
+          "doc_ids": [
+            "DOC-B0073-TOUR_API-2751843"
+          ]
+        },
+        {
+          "start": 35,
+          "end": 112,
+          "doc_ids": [
+            "DOC-B0073-TOUR_API-2751843"
+          ]
+        },
+        {
+          "start": 113,
+          "end": 159,
+          "doc_ids": [
+            "DOC-B0073-TOUR_API-2751843"
+          ]
+        },
+        {
+          "start": 160,
+          "end": 208,
+          "doc_ids": [
+            "DOC-B0073-TOUR_API-2751843"
+          ]
+        },
+        {
+          "start": 209,
+          "end": 276,
+          "doc_ids": [
+            "DOC-B0073-TOUR_API-2751843"
+          ]
+        },
+        {
+          "start": 277,
+          "end": 360,
+          "doc_ids": [
+            "DOC-B0073-TOUR_API-2751843"
+          ]
+        },
+        {
+          "start": 361,
+          "end": 413,
+          "doc_ids": [
+            "DOC-B0073-TOUR_API-2751843"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=37",
+      "text": "제주해양동물박물관에서는 제주만의 특별한 교육 체험이 가능하다. 고래상어, 개복치, 키다리 게 등 해양 동물의 생생한 이야기에 대한 교육 그리고 체험이 가능하며, 어른과 어린이의 알찬 놀이터가 되어준다. 주요 소장품으로 약 800여 종의 해양동물 표본이 10,000여 점 전시되어 있다. 이곳의 해양동물 표본은 40여 년간의 오랜 경험과 특수 기술로 생동감 있게 제작되었다. 해양동물 실물 표본을 직접 관찰할 수 있어, 표본의 본질적 가치를 바탕으로 한 해양 동물 교육과 체험의 장이 되고 있다. 해양 동물자원의 중요성과 공존의 가치를 인식시키는 계기를 마련하고, 국내 생태계 보전의식 확산에 이바지하는, 지속 가능한 해양 동물 전문 박물관이다. 주변 관광지로는 세계적 자연유산인 성산일출봉과 섭지코지, 아쿠아플라넷, 용눈이오름 등이 있다.",
+      "sido": "제주특별자치도",
+      "sigungu": "서귀포시",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=37"
+      ],
+      "evidence_id": "E5",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=47",
+        "fields": {
+          "name": "제주해양동물박물관",
+          "sido": "제주특별자치도",
+          "sigungu": "서귀포시",
+          "address": "제주특별자치도 서귀포시 성산읍 서성일로 689-21",
+          "ownership_type": "사립",
+          "adult_fee": "10000",
+          "youth_fee": "9000",
+          "child_fee": "8000",
+          "adult_fee_status": "BASE_FEE_PAID",
+          "weekday_open": "09:00",
+          "weekday_close": "18:00",
+          "holiday_open": "09:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "수"
+        },
+        "base_data_date": "2026-09-30",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    }
+  ],
+  "answer": "파주나비나라박물관은 곤충을 매개로 자연환경 보존의 중요성과 생명의 소중함을 배우도록 돕는 교육 중심 박물관입니다. [E1] 곤충 표본과 관련 공예·그림·도서 전시를 통해 곤충을 여러 방식으로 접하게 하고, 대상별 교육과 다양한 관점의 전시를 통해 지역민의 문화적 감수성을 높이는 것을 지향합니다. [E1]",
+  "retrieval_status": "ok",
+  "answer_status": "answered",
+  "route": "hybrid",
+  "retry_count": 0,
+  "supervisor_verified": true,
+  "rerank_applied": false,
+  "retriever_errors": [],
+  "warnings": [
+    "Cross-Encoder reranking failed (FileNotFoundError); RRF order retained"
+  ],
+  "duration_ms": 12427.74,
+  "error_type": "",
+  "hit_at_1": 1,
+  "hit_at_3": 1,
+  "hit_at_5": 1,
+  "recall_at_5": 1.0,
+  "mrr_at_10": 1.0
+}

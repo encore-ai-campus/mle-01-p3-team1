@@ -1,0 +1,766 @@
+{
+  "mode": "supervisor_full",
+  "question_id": "Q203",
+  "evidence": [
+    {
+      "museum_id": "M0332",
+      "name": "성마루미술관",
+      "document": "성마루미술관은 2007년 12월에 개관한 충주 최초의 사립미술관이다. 이곳은 조태남 관장이 32년 동안 교직 생활을 마치고 나서 태어나고 자란 고향에 지은 미술관이다. 충주 장성길에 자리 잡은 성마루미술관은 논 사이에 커다란 커피 조형물이 있어 눈에 띄는 곳이며 단아하게 지은 한옥은 전시 공간이기도 하지만 찾는 이들을 위해 무료로 운영하는 카페이기도 하다. 카페는 한옥의 틀은 그대로 두고 실내만 리모델링하여 한옥의 아늑함을 느낄 수 있어서 찾는 이들이 차를 마시며 편안히 관람할 수 있게 마련하였다. 미술관 건물은 따로 자리 잡고 있고 이곳에는 조태남 관장이 그동안 모아 온 서예작품, 한국화, 서양화, 유화, 도자기류 등 애장품 200여 점이 전시되어 있다. 미술관은 직원이 상주해 있지 않아 안내문에 따라 전시실 관람을 하면 된다. 만약 불이 꺼져 있다면 불을 켜고 관람 후 불을 끄고 나오면 된다. 이곳 역시 카페처럼 연중 무료로 개방하고 있다. 넓은 대지에 아기자기하게 자리 잡은 조형물과 공간 배치가 사람들의 마음을 편안하게 만들어주고 있다. 한옥 주변은 다양한 나무들과 꽃이 가득하고 부대시설로 쉼터, 연못, 수목원, 야외전시장, 산책로, 등산로를 갖추고 있다. 충주시 대소원면 장성리에 위치한 성마루미술관은 서예,한국화,서양화,유화,도자기 등의 소장품 200여점이 상설전시되어 있으며, 야외전시장, 수목원, 연못, 쉼터 등의 부대시설을 갖추고 있음",
+      "metadata": {
+        "longitude": 127.8387836,
+        "holiday_close": "17:00",
+        "weekday_open": "10:00",
+        "name": "성마루미술관",
+        "amenities_raw": "전시실",
+        "address": "충청북도 충주시 대소원면 장성길 38-1",
+        "youth_fee": 0.0,
+        "sido": "충청북도",
+        "transport_notes": "(자가용 이용 시) 충주IC 기준 약 15~20분 소요, (대중교통 이용 시) 충주공용버스터미널에서 112번 버스 이용",
+        "weekday_close": "17:00",
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "holiday_open": "10:00",
+        "adult_fee": 0.0,
+        "child_fee": 0.0,
+        "source_types": "BASE|TOUR_API",
+        "ownership_type": "사립",
+        "latitude": 36.96142968,
+        "requires_manual_review": true,
+        "sigungu": "충주시",
+        "closure_rule_raw": "매주 월요일",
+        "homepage_url": "https://blog.naver.com/sungmaruart"
+      },
+      "vector_rank": 2,
+      "bm25_rank": 1,
+      "vector_distance": 0.5504401922225952,
+      "vector_score": null,
+      "bm25_score": 26.769693468450367,
+      "vector_document": "성마루미술관은 2007년 12월에 개관한 충주 최초의 사립미술관이다. 이곳은 조태남 관장이 32년 동안 교직 생활을 마치고 나서 태어나고 자란 고향에 지은 미술관이다. 충주 장성길에 자리 잡은 성마루미술관은 논 사이에 커다란 커피 조형물이 있어 눈에 띄는 곳이며 단아하게 지은 한옥은 전시 공간이기도 하지만 찾는 이들을 위해 무료로 운영하는 카페이기도 하다. 카페는 한옥의 틀은 그대로 두고 실내만 리모델링하여 한옥의 아늑함을 느낄 수 있어서 찾는 이들이 차를 마시며 편안히 관람할 수 있게 마련하였다. 미술관 건물은 따로 자리 잡고 있고 이곳에는 조태남 관장이 그동안 모아 온 서예작품, 한국화, 서양화, 유화, 도자기류 등 애장품 200여 점이 전시되어 있다. 미술관은 직원이 상주해 있지 않아 안내문에 따라 전시실 관람을 하면 된다. 만약 불이 꺼져 있다면 불을 켜고 관람 후 불을 끄고 나오면 된다. 이곳 역시 카페처럼 연중 무료로 개방하고 있다. 넓은 대지에 아기자기하게 자리 잡은 조형물과 공간 배치가 사람들의 마음을 편안하게 만들어주고 있다. 한옥 주변은 다양한 나무들과 꽃이 가득하고 부대시설로 쉼터, 연못, 수목원, 야외전시장, 산책로, 등산로를 갖추고 있다. 충주시 대소원면 장성리에 위치한 성마루미술관은 서예,한국화,서양화,유화,도자기 등의 소장품 200여점이 상설전시되어 있으며, 야외전시장, 수목원, 연못, 쉼터 등의 부대시설을 갖추고 있음",
+      "bm25_document": "성마루미술관은 2007년 12월에 개관한 충주 최초의 사립미술관이다. 이곳은 조태남 관장이 32년 동안 교직 생활을 마치고 나서 태어나고 자란 고향에 지은 미술관이다. 충주 장성길에 자리 잡은 성마루미술관은 논 사이에 커다란 커피 조형물이 있어 눈에 띄는 곳이며 단아하게 지은 한옥은 전시 공간이기도 하지만 찾는 이들을 위해 무료로 운영하는 카페이기도 하다. 카페는 한옥의 틀은 그대로 두고 실내만 리모델링하여 한옥의 아늑함을 느낄 수 있어서 찾는 이들이 차를 마시며 편안히 관람할 수 있게 마련하였다. 미술관 건물은 따로 자리 잡고 있고 이곳에는 조태남 관장이 그동안 모아 온 서예작품, 한국화, 서양화, 유화, 도자기류 등 애장품 200여 점이 전시되어 있다. 미술관은 직원이 상주해 있지 않아 안내문에 따라 전시실 관람을 하면 된다. 만약 불이 꺼져 있다면 불을 켜고 관람 후 불을 끄고 나오면 된다. 이곳 역시 카페처럼 연중 무료로 개방하고 있다. 넓은 대지에 아기자기하게 자리 잡은 조형물과 공간 배치가 사람들의 마음을 편안하게 만들어주고 있다. 한옥 주변은 다양한 나무들과 꽃이 가득하고 부대시설로 쉼터, 연못, 수목원, 야외전시장, 산책로, 등산로를 갖추고 있다. 충주시 대소원면 장성리에 위치한 성마루미술관은 서예,한국화,서양화,유화,도자기 등의 소장품 200여점이 상설전시되어 있으며, 야외전시장, 수목원, 연못, 쉼터 등의 부대시설을 갖추고 있음",
+      "best_span_id": "chroma:M0332",
+      "best_span_text": "성마루미술관은 2007년 12월에 개관한 충주 최초의 사립미술관이다. 이곳은 조태남 관장이 32년 동안 교직 생활을 마치고 나서 태어나고 자란 고향에 지은 미술관이다. 충주 장성길에 자리 잡은 성마루미술관은 논 사이에 커다란 커피 조형물이 있어 눈에 띄는 곳이며 단아하게 지은 한옥은 전시 공간이기도 하지만 찾는 이들을 위해 무료로 운영하는 카페이기도 하다. 카페는 한옥의 틀은 그대로 두고 실내만 리모델링하여 한옥의 아늑함을 느낄 수 있어서 찾는 이들이 차를 마시며 편안히 관람할 수 있게 마련하였다. 미술관 건물은 따로 자리 잡고 있고 이곳에는 조태남 관장이 그동안 모아 온 서예작품, 한국화, 서양화, 유화, 도자기류 등 애장품 200여 점이 전시되어 있다. 미술관은 직원이 상주해 있지 않아 안내문에 따라 전시실 관람을 하면 된다. 만약 불이 꺼져 있다면 불을 켜고 관람 후 불을 끄고 나오면 된다. 이곳 역시 카페처럼 연중 무료로 개방하고 있다. 넓은 대지에 아기자기하게 자리 잡은 조형물과 공간 배치가 사람들의 마음을 편안하게 만들어주고 있다. 한옥 주변은 다양한 나무들과 꽃이 가득하고 부대시설로 쉼터, 연못, 수목원, 야외전시장, 산책로, 등산로를 갖추고 있다. 충주시 대소원면 장성리에 위치한 성마루미술관은 서예,한국화,서양화,유화,도자기 등의 소장품 200여점이 상설전시되어 있으며, 야외전시장, 수목원, 연못, 쉼터 등의 부대시설을 갖추고 있음",
+      "fusion_score": 0.03252247488101534,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 1,
+      "name_match": true,
+      "rerank_score": null,
+      "rank": 1,
+      "score": 0.03252247488101534,
+      "score_type": "rrf",
+      "distance": 0.5504401922225952,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0332",
+      "source_doc_ids": [
+        "DOC-B0332-TOUR_API-1687304",
+        "DOC-B0332-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0332-TOUR_API-1687304",
+          "source_type": "TOUR_API",
+          "source_record_id": "1687304",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=162",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        },
+        {
+          "doc_id": "DOC-B0332-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0332",
+          "source_locator": "data/raw/museum_base_1070.csv#row=333",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 38,
+          "doc_ids": [
+            "DOC-B0332-TOUR_API-1687304"
+          ]
+        },
+        {
+          "start": 39,
+          "end": 93,
+          "doc_ids": [
+            "DOC-B0332-TOUR_API-1687304"
+          ]
+        },
+        {
+          "start": 94,
+          "end": 200,
+          "doc_ids": [
+            "DOC-B0332-TOUR_API-1687304"
+          ]
+        },
+        {
+          "start": 201,
+          "end": 281,
+          "doc_ids": [
+            "DOC-B0332-TOUR_API-1687304"
+          ]
+        },
+        {
+          "start": 282,
+          "end": 371,
+          "doc_ids": [
+            "DOC-B0332-TOUR_API-1687304"
+          ]
+        },
+        {
+          "start": 372,
+          "end": 413,
+          "doc_ids": [
+            "DOC-B0332-TOUR_API-1687304"
+          ]
+        },
+        {
+          "start": 414,
+          "end": 451,
+          "doc_ids": [
+            "DOC-B0332-TOUR_API-1687304"
+          ]
+        },
+        {
+          "start": 452,
+          "end": 478,
+          "doc_ids": [
+            "DOC-B0332-TOUR_API-1687304"
+          ]
+        },
+        {
+          "start": 479,
+          "end": 534,
+          "doc_ids": [
+            "DOC-B0332-TOUR_API-1687304"
+          ]
+        },
+        {
+          "start": 535,
+          "end": 602,
+          "doc_ids": [
+            "DOC-B0332-TOUR_API-1687304"
+          ]
+        },
+        {
+          "start": 603,
+          "end": 707,
+          "doc_ids": [
+            "DOC-B0332-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=162",
+      "text": "성마루미술관은 2007년 12월에 개관한 충주 최초의 사립미술관이다. 이곳은 조태남 관장이 32년 동안 교직 생활을 마치고 나서 태어나고 자란 고향에 지은 미술관이다. 충주 장성길에 자리 잡은 성마루미술관은 논 사이에 커다란 커피 조형물이 있어 눈에 띄는 곳이며 단아하게 지은 한옥은 전시 공간이기도 하지만 찾는 이들을 위해 무료로 운영하는 카페이기도 하다. 카페는 한옥의 틀은 그대로 두고 실내만 리모델링하여 한옥의 아늑함을 느낄 수 있어서 찾는 이들이 차를 마시며 편안히 관람할 수 있게 마련하였다. 미술관 건물은 따로 자리 잡고 있고 이곳에는 조태남 관장이 그동안 모아 온 서예작품, 한국화, 서양화, 유화, 도자기류 등 애장품 200여 점이 전시되어 있다. 미술관은 직원이 상주해 있지 않아 안내문에 따라 전시실 관람을 하면 된다. 만약 불이 꺼져 있다면 불을 켜고 관람 후 불을 끄고 나오면 된다. 이곳 역시 카페처럼 연중 무료로 개방하고 있다. 넓은 대지에 아기자기하게 자리 잡은 조형물과 공간 배치가 사람들의 마음을 편안하게 만들어주고 있다. 한옥 주변은 다양한 나무들과 꽃이 가득하고 부대시설로 쉼터, 연못, 수목원, 야외전시장, 산책로, 등산로를 갖추고 있다. 충주시 대소원면 장성리에 위치한 성마루미술관은 서예,한국화,서양화,유화,도자기 등의 소장품 200여점이 상설전시되어 있으며, 야외전시장, 수목원, 연못, 쉼터 등의 부대시설을 갖추고 있음",
+      "sido": "충청북도",
+      "sigungu": "충주시",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=162"
+      ],
+      "evidence_id": "E1",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=238",
+        "fields": {
+          "name": "성마루미술관",
+          "sido": "충청북도",
+          "sigungu": "충주시",
+          "address": "충청북도 충주시 대소원면 장성길 38-1",
+          "ownership_type": "사립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "10:00",
+          "weekday_close": "17:00",
+          "holiday_open": "10:00",
+          "holiday_close": "17:00",
+          "closure_rule_raw": "매주 월요일",
+          "amenities_raw": "전시실"
+        },
+        "base_data_date": "2026-05-31",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0156",
+      "name": "나절로미술관",
+      "document": "진도군 임회면 상만리 여귀산 아랫자락에 위치한 나절로 미술관은 한국화가 이상은씨가 폐교된 (구)상만초교를 개조하여 만든 미술관이다. 나절로는 \"스스로 흥에 겨워 즐거움\"이란 뜻으로 쓰는 전라도 사투리로 미술관을 지은 이상은 화가의 호이자 자유분방한 내면적 예술세계를 표현하는 곳이란 뜻을 함유하고 있다. 5천여 평의 대지위에 마가렛 꽃 가득한 향기와 아름다운 정원, 전통 흙집으로 단장된 쉼터휴게실 등이 만들어져 그냥 지나칠 수 없는 곳. 미술관에는 한국화 서양화, 조각 등 한국의 중진.중견 작가들의 작품과 나절로미술관장의 작품 등 200여 점이 전시되어 있으며, 미술품 구매도 가능하다.나절로미술관은 13년간의 기다림과 준비 속에 아름다운 미술관이 탄생했으며, 5월과 6월에는 마가렛 꽃이 절정을 이루고 작은 음악회도 선사한다. 미술관내에는 민박시설(2동, 20여 명)이 되어 있어 민박도 가능하며 주변에 남도국립국악원과 바다의 절경은 찾는 이의 발길과 눈을 사로잡는다.",
+      "metadata": {
+        "address": "전남광주통합특별시 진도군 임회면 진도대로 3886",
+        "holiday_close": "17:00",
+        "ownership_type": "사립",
+        "youth_fee": 5000.0,
+        "holiday_open": "09:00",
+        "adult_fee_status": "BASE_FEE_PAID",
+        "adult_fee": 10000.0,
+        "weekday_close": "17:00",
+        "longitude": 126.2184684,
+        "requires_manual_review": true,
+        "child_fee": 0.0,
+        "weekday_open": "09:00",
+        "source_types": "BASE|TOUR_API",
+        "sigungu": "진도군",
+        "latitude": 34.38278134,
+        "sido": "전남광주특별자치도",
+        "name": "나절로미술관",
+        "closure_rule_raw": "월"
+      },
+      "vector_rank": 1,
+      "bm25_rank": 3,
+      "vector_distance": 0.5275969505310059,
+      "vector_score": null,
+      "bm25_score": 9.795309112982068,
+      "vector_document": "진도군 임회면 상만리 여귀산 아랫자락에 위치한 나절로 미술관은 한국화가 이상은씨가 폐교된 (구)상만초교를 개조하여 만든 미술관이다. 나절로는 \"스스로 흥에 겨워 즐거움\"이란 뜻으로 쓰는 전라도 사투리로 미술관을 지은 이상은 화가의 호이자 자유분방한 내면적 예술세계를 표현하는 곳이란 뜻을 함유하고 있다. 5천여 평의 대지위에 마가렛 꽃 가득한 향기와 아름다운 정원, 전통 흙집으로 단장된 쉼터휴게실 등이 만들어져 그냥 지나칠 수 없는 곳. 미술관에는 한국화 서양화, 조각 등 한국의 중진.중견 작가들의 작품과 나절로미술관장의 작품 등 200여 점이 전시되어 있으며, 미술품 구매도 가능하다.나절로미술관은 13년간의 기다림과 준비 속에 아름다운 미술관이 탄생했으며, 5월과 6월에는 마가렛 꽃이 절정을 이루고 작은 음악회도 선사한다. 미술관내에는 민박시설(2동, 20여 명)이 되어 있어 민박도 가능하며 주변에 남도국립국악원과 바다의 절경은 찾는 이의 발길과 눈을 사로잡는다.",
+      "bm25_document": "진도군 임회면 상만리 여귀산 아랫자락에 위치한 나절로 미술관은 한국화가 이상은씨가 폐교된 (구)상만초교를 개조하여 만든 미술관이다. 나절로는 \"스스로 흥에 겨워 즐거움\"이란 뜻으로 쓰는 전라도 사투리로 미술관을 지은 이상은 화가의 호이자 자유분방한 내면적 예술세계를 표현하는 곳이란 뜻을 함유하고 있다. 5천여 평의 대지위에 마가렛 꽃 가득한 향기와 아름다운 정원, 전통 흙집으로 단장된 쉼터휴게실 등이 만들어져 그냥 지나칠 수 없는 곳. 미술관에는 한국화 서양화, 조각 등 한국의 중진.중견 작가들의 작품과 나절로미술관장의 작품 등 200여 점이 전시되어 있으며, 미술품 구매도 가능하다.나절로미술관은 13년간의 기다림과 준비 속에 아름다운 미술관이 탄생했으며, 5월과 6월에는 마가렛 꽃이 절정을 이루고 작은 음악회도 선사한다. 미술관내에는 민박시설(2동, 20여 명)이 되어 있어 민박도 가능하며 주변에 남도국립국악원과 바다의 절경은 찾는 이의 발길과 눈을 사로잡는다.",
+      "best_span_id": "chroma:M0156",
+      "best_span_text": "진도군 임회면 상만리 여귀산 아랫자락에 위치한 나절로 미술관은 한국화가 이상은씨가 폐교된 (구)상만초교를 개조하여 만든 미술관이다. 나절로는 \"스스로 흥에 겨워 즐거움\"이란 뜻으로 쓰는 전라도 사투리로 미술관을 지은 이상은 화가의 호이자 자유분방한 내면적 예술세계를 표현하는 곳이란 뜻을 함유하고 있다. 5천여 평의 대지위에 마가렛 꽃 가득한 향기와 아름다운 정원, 전통 흙집으로 단장된 쉼터휴게실 등이 만들어져 그냥 지나칠 수 없는 곳. 미술관에는 한국화 서양화, 조각 등 한국의 중진.중견 작가들의 작품과 나절로미술관장의 작품 등 200여 점이 전시되어 있으며, 미술품 구매도 가능하다.나절로미술관은 13년간의 기다림과 준비 속에 아름다운 미술관이 탄생했으며, 5월과 6월에는 마가렛 꽃이 절정을 이루고 작은 음악회도 선사한다. 미술관내에는 민박시설(2동, 20여 명)이 되어 있어 민박도 가능하며 주변에 남도국립국악원과 바다의 절경은 찾는 이의 발길과 눈을 사로잡는다.",
+      "fusion_score": 0.032266458495966696,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 2,
+      "rerank_score": null,
+      "rank": 2,
+      "score": 0.032266458495966696,
+      "score_type": "rrf",
+      "distance": 0.5275969505310059,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0156",
+      "source_doc_ids": [
+        "DOC-B0156-TOUR_API-589639",
+        "DOC-B0156-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0156-TOUR_API-589639",
+          "source_type": "TOUR_API",
+          "source_record_id": "589639",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=74",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        },
+        {
+          "doc_id": "DOC-B0156-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0156",
+          "source_locator": "data/raw/museum_base_1070.csv#row=157",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 73,
+          "doc_ids": [
+            "DOC-B0156-TOUR_API-589639"
+          ]
+        },
+        {
+          "start": 74,
+          "end": 169,
+          "doc_ids": [
+            "DOC-B0156-BASE",
+            "DOC-B0156-TOUR_API-589639"
+          ]
+        },
+        {
+          "start": 170,
+          "end": 245,
+          "doc_ids": [
+            "DOC-B0156-TOUR_API-589639"
+          ]
+        },
+        {
+          "start": 246,
+          "end": 409,
+          "doc_ids": [
+            "DOC-B0156-TOUR_API-589639"
+          ]
+        },
+        {
+          "start": 410,
+          "end": 489,
+          "doc_ids": [
+            "DOC-B0156-TOUR_API-589639"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=74",
+      "text": "진도군 임회면 상만리 여귀산 아랫자락에 위치한 나절로 미술관은 한국화가 이상은씨가 폐교된 (구)상만초교를 개조하여 만든 미술관이다. 나절로는 \"스스로 흥에 겨워 즐거움\"이란 뜻으로 쓰는 전라도 사투리로 미술관을 지은 이상은 화가의 호이자 자유분방한 내면적 예술세계를 표현하는 곳이란 뜻을 함유하고 있다. 5천여 평의 대지위에 마가렛 꽃 가득한 향기와 아름다운 정원, 전통 흙집으로 단장된 쉼터휴게실 등이 만들어져 그냥 지나칠 수 없는 곳. 미술관에는 한국화 서양화, 조각 등 한국의 중진.중견 작가들의 작품과 나절로미술관장의 작품 등 200여 점이 전시되어 있으며, 미술품 구매도 가능하다.나절로미술관은 13년간의 기다림과 준비 속에 아름다운 미술관이 탄생했으며, 5월과 6월에는 마가렛 꽃이 절정을 이루고 작은 음악회도 선사한다. 미술관내에는 민박시설(2동, 20여 명)이 되어 있어 민박도 가능하며 주변에 남도국립국악원과 바다의 절경은 찾는 이의 발길과 눈을 사로잡는다.",
+      "sido": "전남광주특별자치도",
+      "sigungu": "진도군",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=74"
+      ],
+      "evidence_id": "E2",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=99",
+        "fields": {
+          "name": "나절로미술관",
+          "sido": "전남광주통합특별시",
+          "sigungu": "진도군",
+          "address": "전남광주통합특별시 진도군 임회면 진도대로 3886",
+          "ownership_type": "사립",
+          "adult_fee": "10000",
+          "youth_fee": "5000",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_PAID",
+          "weekday_open": "09:00",
+          "weekday_close": "17:00",
+          "holiday_open": "09:00",
+          "holiday_close": "17:00",
+          "closure_rule_raw": "월"
+        },
+        "base_data_date": "2026-08-13",
+        "trust": "derived_dataset_not_human_verified",
+        "normalizations": {
+          "sido": {
+            "source_value": "전남광주통합특별시",
+            "matched_value": "전남광주특별자치도",
+            "rule": "configured_sido_alias"
+          }
+        }
+      }
+    },
+    {
+      "museum_id": "M0537",
+      "name": "서해미술관",
+      "document": "서해미술관은 사립미술관으로 조형물 등 미술작품 전시(유물 총 180점 소장)",
+      "metadata": {
+        "longitude": 126.3774755,
+        "requires_manual_review": false,
+        "transport_notes": "서해안 고속도로 홍성IC에서 안면도+간월도 방면 20분 소요",
+        "address": "충청남도 서산시 부석면 무학로 152-13",
+        "sido": "충청남도",
+        "holiday_close": "18:00",
+        "latitude": 36.63887544,
+        "amenities_raw": "전시실+주차장",
+        "ownership_type": "사립",
+        "holiday_open": "10:00",
+        "sigungu": "서산시",
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "adult_fee": 0.0,
+        "source_types": "BASE",
+        "youth_fee": 0.0,
+        "closure_rule_raw": "연중무휴",
+        "weekday_open": "10:00",
+        "weekday_close": "18:00",
+        "child_fee": 0.0,
+        "name": "서해미술관"
+      },
+      "vector_rank": 3,
+      "bm25_rank": 7,
+      "vector_distance": 0.5631300806999207,
+      "vector_score": null,
+      "bm25_score": 8.974145518573835,
+      "vector_document": "서해미술관은 사립미술관으로 조형물 등 미술작품 전시(유물 총 180점 소장)",
+      "bm25_document": "서해미술관은 사립미술관으로 조형물 등 미술작품 전시(유물 총 180점 소장)",
+      "best_span_id": "chroma:M0537",
+      "best_span_text": "서해미술관은 사립미술관으로 조형물 등 미술작품 전시(유물 총 180점 소장)",
+      "fusion_score": 0.030798389007344232,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 3,
+      "rerank_score": null,
+      "rank": 3,
+      "score": 0.030798389007344232,
+      "score_type": "rrf",
+      "distance": 0.5631300806999207,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0537",
+      "source_doc_ids": [
+        "DOC-B0537-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0537-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0537",
+          "source_locator": "data/raw/museum_base_1070.csv#row=538",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 42,
+          "doc_ids": [
+            "DOC-B0537-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_base_1070.csv#row=538",
+      "text": "서해미술관은 사립미술관으로 조형물 등 미술작품 전시(유물 총 180점 소장)",
+      "sido": "충청남도",
+      "sigungu": "서산시",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_base_1070.csv#row=538"
+      ],
+      "evidence_id": "E3",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=378",
+        "fields": {
+          "name": "서해미술관",
+          "sido": "충청남도",
+          "sigungu": "서산시",
+          "address": "충청남도 서산시 부석면 무학로 152-13",
+          "ownership_type": "사립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "10:00",
+          "weekday_close": "18:00",
+          "holiday_open": "10:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "연중무휴",
+          "amenities_raw": "전시실+주차장"
+        },
+        "base_data_date": "2026-01-13",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0463",
+      "name": "모란미술관",
+      "document": "모란미술관은 경기도 마석에 위치한 사립미술관으로 1990년 4월에 개관했다. 조각전문미술관으로 출발하여 한국 현대조각의 향방을 모색하는 연구와 기획전을 개최해 왔고, 현재에는 조각뿐 아니라 다양한 장르의 동시대 미술을 소개하며 사회와 문화의 예술적 가치를 반영하는 전시를 통해 대중들의 삶 속에 미술문화가 뿌리내릴 수 있도록 하고 있다. 모란미술관 본관은 전시가 열리는 공간으로, 6개의 전시실이 2층으로 구성되어 있다. 건축가 이영범이 설계한 수장고와 모란탑(수장고와 노래하는 탑)은 미국건축가협회(AIA)뉴욕시지부에서 디자인상을 받은 건축물로 미술관의 소장품과 자료를 보관하는 곳이자 순수조형물이다. 모란탑 안에는 루브르 미술관의 주물 아틀리에(L'atelier de moulage du Musée du Louvre)에서 로댕의 원작을 바탕으로 석고 주조한 오귀스트 로댕(Auguste Rodin, 1840-1917)의 (1891~1898) 조각상이 있다. 모란미술관의 야외조각전시장은 8,600여 평에 이르는 넓은 공간으로 국내외 유명 조각가들의 작품이 자연과 함께 어우러져 있어 자연과 예술의 아름다움을 만끽할 수 있다. 또한 다양한 문화행사가 열리는 장으로 시민들을 위한 문화공간으로 활용되고 있다. 모란스페이스(별관)는 문화행사 및 다양한 전시가 가능한 갤러리 공간으로 대관이 가능하며, 모란미술관학교 및 미술관 교육프로그램이 진행되는 공간으로 지역사회 교육발전 시설로 등록되어 운영되고 있다.",
+      "metadata": {
+        "longitude": 127.3237775,
+        "child_fee": 5000.0,
+        "sigungu": "남양주시",
+        "requires_manual_review": true,
+        "latitude": 37.6504135,
+        "ownership_type": "사립",
+        "source_types": "TOUR_API",
+        "name": "모란미술관",
+        "holiday_open": "10:00",
+        "youth_fee": 6000.0,
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/88/3590288_image2_1.jpg",
+        "address": "경기도 남양주시 화도읍 경춘로2110번길 8",
+        "holiday_close": "18:00",
+        "sido": "경기도",
+        "image_copyright": "Type1",
+        "homepage_url": "http://www.moranmuseum.org/",
+        "weekday_open": "10:00",
+        "adult_fee": 10000.0,
+        "adult_fee_status": "BASE_FEE_PAID",
+        "closure_rule_raw": "월+1월 1일+설 연휴+추석 연휴+미술관 지정일",
+        "weekday_close": "18:00"
+      },
+      "vector_rank": 4,
+      "bm25_rank": 12,
+      "vector_distance": 0.5746557116508484,
+      "vector_score": null,
+      "bm25_score": 7.955102475763461,
+      "vector_document": "모란미술관은 경기도 마석에 위치한 사립미술관으로 1990년 4월에 개관했다. 조각전문미술관으로 출발하여 한국 현대조각의 향방을 모색하는 연구와 기획전을 개최해 왔고, 현재에는 조각뿐 아니라 다양한 장르의 동시대 미술을 소개하며 사회와 문화의 예술적 가치를 반영하는 전시를 통해 대중들의 삶 속에 미술문화가 뿌리내릴 수 있도록 하고 있다. 모란미술관 본관은 전시가 열리는 공간으로, 6개의 전시실이 2층으로 구성되어 있다. 건축가 이영범이 설계한 수장고와 모란탑(수장고와 노래하는 탑)은 미국건축가협회(AIA)뉴욕시지부에서 디자인상을 받은 건축물로 미술관의 소장품과 자료를 보관하는 곳이자 순수조형물이다. 모란탑 안에는 루브르 미술관의 주물 아틀리에(L'atelier de moulage du Musée du Louvre)에서 로댕의 원작을 바탕으로 석고 주조한 오귀스트 로댕(Auguste Rodin, 1840-1917)의 (1891~1898) 조각상이 있다. 모란미술관의 야외조각전시장은 8,600여 평에 이르는 넓은 공간으로 국내외 유명 조각가들의 작품이 자연과 함께 어우러져 있어 자연과 예술의 아름다움을 만끽할 수 있다. 또한 다양한 문화행사가 열리는 장으로 시민들을 위한 문화공간으로 활용되고 있다. 모란스페이스(별관)는 문화행사 및 다양한 전시가 가능한 갤러리 공간으로 대관이 가능하며, 모란미술관학교 및 미술관 교육프로그램이 진행되는 공간으로 지역사회 교육발전 시설로 등록되어 운영되고 있다.",
+      "bm25_document": "모란미술관은 경기도 마석에 위치한 사립미술관으로 1990년 4월에 개관했다. 조각전문미술관으로 출발하여 한국 현대조각의 향방을 모색하는 연구와 기획전을 개최해 왔고, 현재에는 조각뿐 아니라 다양한 장르의 동시대 미술을 소개하며 사회와 문화의 예술적 가치를 반영하는 전시를 통해 대중들의 삶 속에 미술문화가 뿌리내릴 수 있도록 하고 있다. 모란미술관 본관은 전시가 열리는 공간으로, 6개의 전시실이 2층으로 구성되어 있다. 건축가 이영범이 설계한 수장고와 모란탑(수장고와 노래하는 탑)은 미국건축가협회(AIA)뉴욕시지부에서 디자인상을 받은 건축물로 미술관의 소장품과 자료를 보관하는 곳이자 순수조형물이다. 모란탑 안에는 루브르 미술관의 주물 아틀리에(L'atelier de moulage du Musée du Louvre)에서 로댕의 원작을 바탕으로 석고 주조한 오귀스트 로댕(Auguste Rodin, 1840-1917)의 (1891~1898) 조각상이 있다. 모란미술관의 야외조각전시장은 8,600여 평에 이르는 넓은 공간으로 국내외 유명 조각가들의 작품이 자연과 함께 어우러져 있어 자연과 예술의 아름다움을 만끽할 수 있다. 또한 다양한 문화행사가 열리는 장으로 시민들을 위한 문화공간으로 활용되고 있다. 모란스페이스(별관)는 문화행사 및 다양한 전시가 가능한 갤러리 공간으로 대관이 가능하며, 모란미술관학교 및 미술관 교육프로그램이 진행되는 공간으로 지역사회 교육발전 시설로 등록되어 운영되고 있다.",
+      "best_span_id": "chroma:M0463",
+      "best_span_text": "모란미술관은 경기도 마석에 위치한 사립미술관으로 1990년 4월에 개관했다. 조각전문미술관으로 출발하여 한국 현대조각의 향방을 모색하는 연구와 기획전을 개최해 왔고, 현재에는 조각뿐 아니라 다양한 장르의 동시대 미술을 소개하며 사회와 문화의 예술적 가치를 반영하는 전시를 통해 대중들의 삶 속에 미술문화가 뿌리내릴 수 있도록 하고 있다. 모란미술관 본관은 전시가 열리는 공간으로, 6개의 전시실이 2층으로 구성되어 있다. 건축가 이영범이 설계한 수장고와 모란탑(수장고와 노래하는 탑)은 미국건축가협회(AIA)뉴욕시지부에서 디자인상을 받은 건축물로 미술관의 소장품과 자료를 보관하는 곳이자 순수조형물이다. 모란탑 안에는 루브르 미술관의 주물 아틀리에(L'atelier de moulage du Musée du Louvre)에서 로댕의 원작을 바탕으로 석고 주조한 오귀스트 로댕(Auguste Rodin, 1840-1917)의 (1891~1898) 조각상이 있다. 모란미술관의 야외조각전시장은 8,600여 평에 이르는 넓은 공간으로 국내외 유명 조각가들의 작품이 자연과 함께 어우러져 있어 자연과 예술의 아름다움을 만끽할 수 있다. 또한 다양한 문화행사가 열리는 장으로 시민들을 위한 문화공간으로 활용되고 있다. 모란스페이스(별관)는 문화행사 및 다양한 전시가 가능한 갤러리 공간으로 대관이 가능하며, 모란미술관학교 및 미술관 교육프로그램이 진행되는 공간으로 지역사회 교육발전 시설로 등록되어 운영되고 있다.",
+      "fusion_score": 0.029513888888888888,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 4,
+      "rerank_score": null,
+      "rank": 4,
+      "score": 0.029513888888888888,
+      "score_type": "rrf",
+      "distance": 0.5746557116508484,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0463",
+      "source_doc_ids": [
+        "DOC-B0463-TOUR_API-129770"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0463-TOUR_API-129770",
+          "source_type": "TOUR_API",
+          "source_record_id": "129770",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=226",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 42,
+          "doc_ids": [
+            "DOC-B0463-TOUR_API-129770"
+          ]
+        },
+        {
+          "start": 43,
+          "end": 188,
+          "doc_ids": [
+            "DOC-B0463-TOUR_API-129770"
+          ]
+        },
+        {
+          "start": 189,
+          "end": 235,
+          "doc_ids": [
+            "DOC-B0463-TOUR_API-129770"
+          ]
+        },
+        {
+          "start": 236,
+          "end": 337,
+          "doc_ids": [
+            "DOC-B0463-TOUR_API-129770"
+          ]
+        },
+        {
+          "start": 338,
+          "end": 481,
+          "doc_ids": [
+            "DOC-B0463-TOUR_API-129770"
+          ]
+        },
+        {
+          "start": 482,
+          "end": 575,
+          "doc_ids": [
+            "DOC-B0463-TOUR_API-129770"
+          ]
+        },
+        {
+          "start": 576,
+          "end": 620,
+          "doc_ids": [
+            "DOC-B0463-TOUR_API-129770"
+          ]
+        },
+        {
+          "start": 621,
+          "end": 730,
+          "doc_ids": [
+            "DOC-B0463-TOUR_API-129770"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=226",
+      "text": "모란미술관은 경기도 마석에 위치한 사립미술관으로 1990년 4월에 개관했다. 조각전문미술관으로 출발하여 한국 현대조각의 향방을 모색하는 연구와 기획전을 개최해 왔고, 현재에는 조각뿐 아니라 다양한 장르의 동시대 미술을 소개하며 사회와 문화의 예술적 가치를 반영하는 전시를 통해 대중들의 삶 속에 미술문화가 뿌리내릴 수 있도록 하고 있다. 모란미술관 본관은 전시가 열리는 공간으로, 6개의 전시실이 2층으로 구성되어 있다. 건축가 이영범이 설계한 수장고와 모란탑(수장고와 노래하는 탑)은 미국건축가협회(AIA)뉴욕시지부에서 디자인상을 받은 건축물로 미술관의 소장품과 자료를 보관하는 곳이자 순수조형물이다. 모란탑 안에는 루브르 미술관의 주물 아틀리에(L'atelier de moulage du Musée du Louvre)에서 로댕의 원작을 바탕으로 석고 주조한 오귀스트 로댕(Auguste Rodin, 1840-1917)의 (1891~1898) 조각상이 있다. 모란미술관의 야외조각전시장은 8,600여 평에 이르는 넓은 공간으로 국내외 유명 조각가들의 작품이 자연과 함께 어우러져 있어 자연과 예술의 아름다움을 만끽할 수 있다. 또한 다양한 문화행사가 열리는 장으로 시민들을 위한 문화공간으로 활용되고 있다. 모란스페이스(별관)는 문화행사 및 다양한 전시가 가능한 갤러리 공간으로 대관이 가능하며, 모란미술관학교 및 미술관 교육프로그램이 진행되는 공간으로 지역사회 교육발전 시설로 등록되어 운영되고 있다.",
+      "sido": "경기도",
+      "sigungu": "남양주시",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=226"
+      ],
+      "evidence_id": "E4",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=334",
+        "fields": {
+          "name": "모란미술관",
+          "sido": "경기도",
+          "sigungu": "남양주시",
+          "address": "경기도 남양주시 화도읍 경춘로2110번길 8",
+          "ownership_type": "사립",
+          "adult_fee": "10000",
+          "youth_fee": "6000",
+          "child_fee": "5000",
+          "adult_fee_status": "BASE_FEE_PAID",
+          "weekday_open": "10:00",
+          "weekday_close": "18:00",
+          "holiday_open": "10:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "월+1월 1일+설 연휴+추석 연휴+미술관 지정일"
+        },
+        "base_data_date": "2026-04-01",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0031",
+      "name": "돌하르방미술관",
+      "document": "돌하르방미술관은 제주시 조천읍에 위치한 미술관이다. 이곳은 제주 토박이 김남흥 원장이 15년 이상의 세월 동안 개인의 힘으로 일구어온 생명과 평화의 공원이자 문화와 예술을 담은 공원이다. 도 내외에 흩어져 있는 48기의 돌하르방을 원형 그대로 재현해 전시하고 있을 뿐만 아니라 현대적인 해석으로 탄생한 다양한 형태의 돌하르방과 250여 개의 조형물들을 공원 곳곳에서 야외 전시하고 있다. 또, 곶자왈 산책길에서는 각종 양치식물과 청미래덩굴, 자귀나무, 꾸지뽕나무 등 다양한 수목을 관찰할 수 있어 살아 숨 쉬는 자연을 그대로 접할 수 있다.",
+      "metadata": {
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/99/3077599_image2_1.jpg",
+        "sigungu": "제주시",
+        "youth_fee": 5000.0,
+        "address": "제주특별자치도 제주시 조천읍 북촌서1길 70",
+        "ownership_type": "사립",
+        "longitude": 126.6888123,
+        "requires_manual_review": true,
+        "weekday_open": "09:00",
+        "sido": "제주특별자치도",
+        "fee_notes": "단체 관람 시 할인+도민할인",
+        "image_copyright": "Type3",
+        "name": "돌하르방미술관",
+        "source_types": "TOUR_API",
+        "weekday_close": "18:00",
+        "closure_rule_raw": "설 당일 추석 당일",
+        "adult_fee_status": "BASE_FEE_PAID",
+        "adult_fee": 7000.0,
+        "child_fee": 0.0,
+        "latitude": 33.5388475,
+        "holiday_close": "18:00",
+        "homepage_url": "https://blog.naver.com/dhbpark",
+        "holiday_open": "09:00"
+      },
+      "vector_rank": 9,
+      "bm25_rank": 9,
+      "vector_distance": 0.5908746719360352,
+      "vector_score": null,
+      "bm25_score": 8.319101088448546,
+      "vector_document": "돌하르방미술관은 제주시 조천읍에 위치한 미술관이다. 이곳은 제주 토박이 김남흥 원장이 15년 이상의 세월 동안 개인의 힘으로 일구어온 생명과 평화의 공원이자 문화와 예술을 담은 공원이다. 도 내외에 흩어져 있는 48기의 돌하르방을 원형 그대로 재현해 전시하고 있을 뿐만 아니라 현대적인 해석으로 탄생한 다양한 형태의 돌하르방과 250여 개의 조형물들을 공원 곳곳에서 야외 전시하고 있다. 또, 곶자왈 산책길에서는 각종 양치식물과 청미래덩굴, 자귀나무, 꾸지뽕나무 등 다양한 수목을 관찰할 수 있어 살아 숨 쉬는 자연을 그대로 접할 수 있다.",
+      "bm25_document": "돌하르방미술관은 제주시 조천읍에 위치한 미술관이다. 이곳은 제주 토박이 김남흥 원장이 15년 이상의 세월 동안 개인의 힘으로 일구어온 생명과 평화의 공원이자 문화와 예술을 담은 공원이다. 도 내외에 흩어져 있는 48기의 돌하르방을 원형 그대로 재현해 전시하고 있을 뿐만 아니라 현대적인 해석으로 탄생한 다양한 형태의 돌하르방과 250여 개의 조형물들을 공원 곳곳에서 야외 전시하고 있다. 또, 곶자왈 산책길에서는 각종 양치식물과 청미래덩굴, 자귀나무, 꾸지뽕나무 등 다양한 수목을 관찰할 수 있어 살아 숨 쉬는 자연을 그대로 접할 수 있다.",
+      "best_span_id": "chroma:M0031",
+      "best_span_text": "돌하르방미술관은 제주시 조천읍에 위치한 미술관이다. 이곳은 제주 토박이 김남흥 원장이 15년 이상의 세월 동안 개인의 힘으로 일구어온 생명과 평화의 공원이자 문화와 예술을 담은 공원이다. 도 내외에 흩어져 있는 48기의 돌하르방을 원형 그대로 재현해 전시하고 있을 뿐만 아니라 현대적인 해석으로 탄생한 다양한 형태의 돌하르방과 250여 개의 조형물들을 공원 곳곳에서 야외 전시하고 있다. 또, 곶자왈 산책길에서는 각종 양치식물과 청미래덩굴, 자귀나무, 꾸지뽕나무 등 다양한 수목을 관찰할 수 있어 살아 숨 쉬는 자연을 그대로 접할 수 있다.",
+      "fusion_score": 0.028985507246376812,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 5,
+      "rerank_score": null,
+      "rank": 5,
+      "score": 0.028985507246376812,
+      "score_type": "rrf",
+      "distance": 0.5908746719360352,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0031",
+      "source_doc_ids": [
+        "DOC-B0031-TOUR_API-128777"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0031-TOUR_API-128777",
+          "source_type": "TOUR_API",
+          "source_record_id": "128777",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=18",
+          "match_trust": "RECHECKED_BY_RULE_NOT_HUMAN_APPROVED"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 28,
+          "doc_ids": [
+            "DOC-B0031-TOUR_API-128777"
+          ]
+        },
+        {
+          "start": 29,
+          "end": 104,
+          "doc_ids": [
+            "DOC-B0031-TOUR_API-128777"
+          ]
+        },
+        {
+          "start": 105,
+          "end": 216,
+          "doc_ids": [
+            "DOC-B0031-TOUR_API-128777"
+          ]
+        },
+        {
+          "start": 217,
+          "end": 302,
+          "doc_ids": [
+            "DOC-B0031-TOUR_API-128777"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=18",
+      "text": "돌하르방미술관은 제주시 조천읍에 위치한 미술관이다. 이곳은 제주 토박이 김남흥 원장이 15년 이상의 세월 동안 개인의 힘으로 일구어온 생명과 평화의 공원이자 문화와 예술을 담은 공원이다. 도 내외에 흩어져 있는 48기의 돌하르방을 원형 그대로 재현해 전시하고 있을 뿐만 아니라 현대적인 해석으로 탄생한 다양한 형태의 돌하르방과 250여 개의 조형물들을 공원 곳곳에서 야외 전시하고 있다. 또, 곶자왈 산책길에서는 각종 양치식물과 청미래덩굴, 자귀나무, 꾸지뽕나무 등 다양한 수목을 관찰할 수 있어 살아 숨 쉬는 자연을 그대로 접할 수 있다.",
+      "sido": "제주특별자치도",
+      "sigungu": "제주시",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=18"
+      ],
+      "evidence_id": "E5",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=24",
+        "fields": {
+          "name": "돌하르방미술관",
+          "sido": "제주특별자치도",
+          "sigungu": "제주시",
+          "address": "제주특별자치도 제주시 조천읍 북촌서1길 70",
+          "ownership_type": "사립",
+          "adult_fee": "7000",
+          "youth_fee": "5000",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_PAID",
+          "weekday_open": "09:00",
+          "weekday_close": "18:00",
+          "holiday_open": "09:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "설 당일 추석 당일"
+        },
+        "base_data_date": "2026-09-30",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    }
+  ],
+  "answer": "논 사이에 있는 커다란 커피 조형물로 눈에 띄는 곳입니다. [E1]",
+  "retrieval_status": "ok",
+  "answer_status": "answered",
+  "route": "hybrid",
+  "retry_count": 0,
+  "supervisor_verified": true,
+  "rerank_applied": false,
+  "retriever_errors": [],
+  "warnings": [
+    "Cross-Encoder reranking failed (FileNotFoundError); RRF order retained"
+  ],
+  "duration_ms": 7929.33,
+  "error_type": "",
+  "hit_at_1": 1,
+  "hit_at_3": 1,
+  "hit_at_5": 1,
+  "recall_at_5": 1.0,
+  "mrr_at_10": 1.0
+}

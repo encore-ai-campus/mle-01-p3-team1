@@ -1,0 +1,649 @@
+{
+  "evidence_context_version": "grounded-evidence-v2",
+  "evaluation_contexts": [
+    "{\"evidence_context_version\": \"grounded-evidence-v2\", \"evidence_id\": \"E1\", \"metadata_provenance\": {\"base_data_date\": \"2026-05-31\", \"fields\": {\"address\": \"충청북도 충주시 충열1길 6(단월동)\", \"adult_fee\": \"0\", \"adult_fee_status\": \"BASE_FEE_ZERO_CHECK_EXCEPTIONS\", \"amenities_raw\": \"주차장\", \"child_fee\": \"0\", \"closure_rule_raw\": \"연중무휴\", \"holiday_close\": \"18:00\", \"holiday_open\": \"09:00\", \"name\": \"충렬사유물전시관\", \"ownership_type\": \"국립\", \"sido\": \"충청북도\", \"sigungu\": \"충주시\", \"weekday_close\": \"18:00\", \"weekday_open\": \"09:00\", \"youth_fee\": \"0\"}, \"source_kind\": \"derived_csv_row\", \"source_locator\": \"data/processed/museum_final_738.csv#record=243\", \"trust\": \"derived_dataset_not_human_verified\"}, \"museum_id\": \"M0337\", \"name\": \"충렬사유물전시관\", \"source_doc_ids\": [\"DOC-B0337-BASE\"], \"source_documents\": [{\"doc_id\": \"DOC-B0337-BASE\", \"match_trust\": \"BASE_SOURCE\", \"source_locator\": \"data/raw/museum_base_1070.csv#row=338\", \"source_record_id\": \"B0337\", \"source_type\": \"BASE\"}], \"source_locator\": \"data/raw/museum_base_1070.csv#row=338\", \"source_locators\": [\"data/raw/museum_base_1070.csv#row=338\"], \"source_scope\": \"text\", \"source_spans\": [{\"doc_ids\": [\"DOC-B0337-BASE\"], \"end\": 81, \"start\": 0}], \"source_urls\": [], \"text\": \"임충민공 충렬사는 선조27년 충주에서 태어난 임경업장군의 충절을 기리기 위해 세운 사당이며 장군이 사용했던 유품을 충렬사유물전시관에 전시하고 있음\"}",
+    "{\"evidence_context_version\": \"grounded-evidence-v2\", \"evidence_id\": \"E2\", \"metadata_provenance\": {\"base_data_date\": \"2025-12-22\", \"fields\": {\"address\": \"경기도 오산시 한신대길 137\", \"adult_fee\": \"0\", \"adult_fee_status\": \"BASE_FEE_ZERO_CHECK_EXCEPTIONS\", \"amenities_raw\": \"교내 벤치 및 휴게시설\", \"child_fee\": \"0\", \"closure_rule_raw\": \"공휴일+국경일 및 개교기념일(4.19)\", \"holiday_close\": \"16:00\", \"holiday_open\": \"10:00\", \"name\": \"한신대학교박물관\", \"ownership_type\": \"대학\", \"sido\": \"경기도\", \"sigungu\": \"오산시\", \"weekday_close\": \"16:00\", \"weekday_open\": \"10:00\", \"youth_fee\": \"0\"}, \"source_kind\": \"derived_csv_row\", \"source_locator\": \"data/processed/museum_final_738.csv#record=423\", \"trust\": \"derived_dataset_not_human_verified\"}, \"museum_id\": \"M0603\", \"name\": \"한신대학교박물관\", \"source_doc_ids\": [\"DOC-B0603-BASE\"], \"source_documents\": [{\"doc_id\": \"DOC-B0603-BASE\", \"match_trust\": \"BASE_SOURCE\", \"source_locator\": \"data/raw/museum_base_1070.csv#row=604\", \"source_record_id\": \"B0603\", \"source_type\": \"BASE\"}], \"source_locator\": \"data/raw/museum_base_1070.csv#row=604\", \"source_locators\": [\"data/raw/museum_base_1070.csv#row=604\"], \"source_scope\": \"text\", \"source_spans\": [{\"doc_ids\": [\"DOC-B0603-BASE\"], \"end\": 139, \"start\": 0}], \"source_urls\": [], \"text\": \"한신대학교 박물관은 고고·역사·민속 등에 관한 유물을 수집하여 정리, 보존, 전시함으로써 교내의 성원들은 물론 일반 국민들의역사문화인식 함양에 기여하고, 이에 대한 학술적 연구를 통해 우리의 역사문화를 체계적으로 규명하는데 그 목적을 두고 있습니다.\"}",
+    "{\"evidence_context_version\": \"grounded-evidence-v2\", \"evidence_id\": \"E3\", \"metadata_provenance\": {\"base_data_date\": \"2025-12-10\", \"fields\": {\"address\": \"충청남도 부여군 규암면 백제문로 553\", \"adult_fee\": \"6000\", \"adult_fee_status\": \"BASE_FEE_PAID\", \"child_fee\": \"5000\", \"closure_rule_raw\": \"설 연휴+추석 연휴\", \"holiday_close\": \"17:30\", \"holiday_open\": \"10:00\", \"name\": \"부여생활사박물관\", \"ownership_type\": \"사립\", \"sido\": \"충청남도\", \"sigungu\": \"부여군\", \"weekday_close\": \"17:30\", \"weekday_open\": \"10:00\", \"youth_fee\": \"5000\"}, \"source_kind\": \"derived_csv_row\", \"source_locator\": \"data/processed/museum_final_738.csv#record=478\", \"trust\": \"derived_dataset_not_human_verified\"}, \"museum_id\": \"M0690\", \"name\": \"부여생활사박물관\", \"source_doc_ids\": [\"DOC-B0690-BASE\"], \"source_documents\": [{\"doc_id\": \"DOC-B0690-BASE\", \"match_trust\": \"BASE_SOURCE\", \"source_locator\": \"data/raw/museum_base_1070.csv#row=691\", \"source_record_id\": \"B0690\", \"source_type\": \"BASE\"}], \"source_locator\": \"data/raw/museum_base_1070.csv#row=691\", \"source_locators\": [\"data/raw/museum_base_1070.csv#row=691\"], \"source_scope\": \"text\", \"source_spans\": [{\"doc_ids\": [\"DOC-B0690-BASE\"], \"end\": 34, \"start\": 0}], \"source_urls\": [], \"text\": \"선사시대부터 근현대까지 선조들의 삶과 관련된 다양한 유물 전시\"}",
+    "{\"evidence_context_version\": \"grounded-evidence-v2\", \"evidence_id\": \"E4\", \"metadata_provenance\": {\"base_data_date\": \"2025-11-20\", \"fields\": {\"address\": \"인천광역시 강화군 하점면 강화대로 994-19\", \"adult_fee\": \"3000\", \"adult_fee_status\": \"BASE_FEE_PAID\", \"child_fee\": \"2000\", \"closure_rule_raw\": \"월+1월1일+설당일+추석당일\", \"holiday_close\": \"18:00\", \"holiday_open\": \"09:00\", \"name\": \"강화역사박물관\", \"ownership_type\": \"공립\", \"sido\": \"인천광역시\", \"sigungu\": \"강화군\", \"weekday_close\": \"18:00\", \"weekday_open\": \"09:00\", \"youth_fee\": \"2000\"}, \"source_kind\": \"derived_csv_row\", \"source_locator\": \"data/processed/museum_final_738.csv#record=712\", \"trust\": \"derived_dataset_not_human_verified\"}, \"museum_id\": \"M1035\", \"name\": \"강화역사박물관\", \"source_doc_ids\": [\"DOC-B1035-TOUR_API-129810\", \"DOC-B1035-BASE\"], \"source_documents\": [{\"doc_id\": \"DOC-B1035-TOUR_API-129810\", \"match_trust\": \"AUTO_MATCH_NOT_HUMAN_VERIFIED\", \"source_locator\": \"data/raw/museum_tourapi_with_overview.csv#row=481\", \"source_record_id\": \"129810\", \"source_type\": \"TOUR_API\"}, {\"doc_id\": \"DOC-B1035-BASE\", \"match_trust\": \"BASE_SOURCE\", \"source_locator\": \"data/raw/museum_base_1070.csv#row=1036\", \"source_record_id\": \"B1035\", \"source_type\": \"BASE\"}], \"source_locator\": \"data/raw/museum_tourapi_with_overview.csv#row=481\", \"source_locators\": [\"data/raw/museum_tourapi_with_overview.csv#row=481\"], \"source_scope\": \"text\", \"source_spans\": [{\"doc_ids\": [\"DOC-B1035-TOUR_API-129810\"], \"end\": 82, \"start\": 0}, {\"doc_ids\": [\"DOC-B1035-TOUR_API-129810\"], \"end\": 125, \"start\": 83}, {\"doc_ids\": [\"DOC-B1035-TOUR_API-129810\"], \"end\": 223, \"start\": 126}, {\"doc_ids\": [\"DOC-B1035-TOUR_API-129810\"], \"end\": 287, \"start\": 224}, {\"doc_ids\": [\"DOC-B1035-TOUR_API-129810\"], \"end\": 390, \"start\": 288}, {\"doc_ids\": [\"DOC-B1035-BASE\"], \"end\": 499, \"start\": 391}], \"source_urls\": [], \"text\": \"강화역사박물관은 강화의 문화유산을 보존·연구하여 전시할 목적으로 세워진 공립박물관으로 갑곶돈대 옆에 있었던 것을 2010년 지금의 자리로 이전했다. 상설전시실, 기획전시실을 비롯하여 영상실 등 다양한 부대시설을 갖추고 있다. 상설전시실에는 강화의 선사유적지와 고려왕릉에서 출토된 유물과 향교, 전통 사찰 소장품 등의 국가유산이 전시되어 있고, 기획전시실에서는 해마다 다채로운 주제의 특별전이 열린다. 강화 역사의 이해를 돕기 위해 영상실과 교육 프로그램을 함께 운영하고 있어 복합문화공간으로서 역할을 다하고 있다. 강화역사박물관은 고인돌공원 옆에 자리 잡고 있어 세계문화유산으로 지정된 강화고인돌과 길이 710cm, 너비 550cm 되는 거석인 청동기시대의 대표적 유물인 강화지석묘를 볼 수 있다. 세계문화유산으로 지정된 사적 제137호 강화부근리 지석묘 앞에 위치한 강화역사박물관은 오천년 역사의 문화를 자랑하는 문화유산을 보존 · 활용하기 위한 조사연구 및 전시교육 활동을 하고 있습니다.\"}",
+    "{\"evidence_context_version\": \"grounded-evidence-v2\", \"evidence_id\": \"E5\", \"metadata_provenance\": {\"base_data_date\": \"2026-05-26\", \"fields\": {\"address\": \"경기도 광명시 오리로347번길 5-6\", \"adult_fee\": \"10000\", \"adult_fee_status\": \"BASE_FEE_PAID\", \"amenities_raw\": \"없음\", \"child_fee\": \"5000\", \"closure_rule_raw\": \"월요일+일요일+설 연휴+추석 연휴+공휴일\", \"holiday_close\": \"00:00\", \"holiday_open\": \"00:00\", \"name\": \"충현박물관\", \"ownership_type\": \"사립\", \"sido\": \"경기도\", \"sigungu\": \"광명시\", \"weekday_close\": \"17:00\", \"weekday_open\": \"10:00\", \"youth_fee\": \"5000\"}, \"source_kind\": \"derived_csv_row\", \"source_locator\": \"data/processed/museum_final_738.csv#record=278\", \"trust\": \"derived_dataset_not_human_verified\"}, \"museum_id\": \"M0391\", \"name\": \"충현박물관\", \"source_doc_ids\": [\"DOC-B0391-TOUR_API-130707\", \"DOC-B0391-BASE\"], \"source_documents\": [{\"doc_id\": \"DOC-B0391-TOUR_API-130707\", \"match_trust\": \"RECHECKED_BY_RULE_NOT_HUMAN_APPROVED\", \"source_locator\": \"data/raw/museum_tourapi_with_overview.csv#row=181\", \"source_record_id\": \"130707\", \"source_type\": \"TOUR_API\"}, {\"doc_id\": \"DOC-B0391-BASE\", \"match_trust\": \"BASE_SOURCE\", \"source_locator\": \"data/raw/museum_base_1070.csv#row=392\", \"source_record_id\": \"B0391\", \"source_type\": \"BASE\"}], \"source_locator\": \"data/raw/museum_tourapi_with_overview.csv#row=181\", \"source_locators\": [\"data/raw/museum_tourapi_with_overview.csv#row=181\"], \"source_scope\": \"text\", \"source_spans\": [{\"doc_ids\": [\"DOC-B0391-TOUR_API-130707\"], \"end\": 34, \"start\": 0}, {\"doc_ids\": [\"DOC-B0391-TOUR_API-130707\"], \"end\": 93, \"start\": 35}, {\"doc_ids\": [\"DOC-B0391-TOUR_API-130707\"], \"end\": 187, \"start\": 94}, {\"doc_ids\": [\"DOC-B0391-BASE\"], \"end\": 208, \"start\": 188}], \"source_urls\": [], \"text\": \"충현박물관은 이원익 종가에서 만든 전국 유일의 종가박물관이다. 이원익 직계 후손들이 선대의 유품을 보존하며 조선시대 선비문화를 계승, 보호한다는 사명감으로 설립하였다. 영정과 친필 등 이원익과 관련된 자료와 종가에서 사용했던 제기와 민속생활품, 400여 년 전의 유물로부터 근대에 이르기까지 사대부집안의 각종 자료 등이 전시되어 있다. 조선시대 청백리 오리이원익 종가박물관\"}"
+  ],
+  "mode": "supervisor_full",
+  "question_id": "Q206",
+  "evidence": [
+    {
+      "museum_id": "M0337",
+      "name": "충렬사유물전시관",
+      "document": "임충민공 충렬사는 선조27년 충주에서 태어난 임경업장군의 충절을 기리기 위해 세운 사당이며 장군이 사용했던 유품을 충렬사유물전시관에 전시하고 있음",
+      "metadata": {
+        "latitude": 36.94617991,
+        "address": "충청북도 충주시 충열1길 6(단월동)",
+        "weekday_close": "18:00",
+        "sigungu": "충주시",
+        "sido": "충청북도",
+        "source_types": "BASE",
+        "holiday_open": "09:00",
+        "child_fee": 0.0,
+        "transport_notes": "자가운전 : 충주IC→달천사거리(우회전)→건국대학교→달천동주민센터건너편→충주임충민공충렬사대중교통 : 충주공용버스터미널에서 610번 버스 이용",
+        "name": "충렬사유물전시관",
+        "longitude": 127.9054216,
+        "weekday_open": "09:00",
+        "closure_rule_raw": "연중무휴",
+        "ownership_type": "국립",
+        "youth_fee": 0.0,
+        "adult_fee": 0.0,
+        "holiday_close": "18:00",
+        "requires_manual_review": false,
+        "amenities_raw": "주차장",
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS"
+      },
+      "vector_rank": 1,
+      "bm25_rank": 1,
+      "vector_distance": 0.5398349761962891,
+      "vector_score": null,
+      "bm25_score": 44.6926722823822,
+      "vector_document": "임충민공 충렬사는 선조27년 충주에서 태어난 임경업장군의 충절을 기리기 위해 세운 사당이며 장군이 사용했던 유품을 충렬사유물전시관에 전시하고 있음",
+      "bm25_document": "임충민공 충렬사는 선조27년 충주에서 태어난 임경업장군의 충절을 기리기 위해 세운 사당이며 장군이 사용했던 유품을 충렬사유물전시관에 전시하고 있음",
+      "best_span_id": "chroma:M0337",
+      "best_span_text": "임충민공 충렬사는 선조27년 충주에서 태어난 임경업장군의 충절을 기리기 위해 세운 사당이며 장군이 사용했던 유품을 충렬사유물전시관에 전시하고 있음",
+      "fusion_score": 0.03278688524590164,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 1,
+      "rerank_score": 0.9997177720069885,
+      "rank": 1,
+      "score": 0.9997177720069885,
+      "score_type": "cross_encoder",
+      "distance": 0.5398349761962891,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0337",
+      "source_doc_ids": [
+        "DOC-B0337-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0337-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0337",
+          "source_locator": "data/raw/museum_base_1070.csv#row=338",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 81,
+          "doc_ids": [
+            "DOC-B0337-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_base_1070.csv#row=338",
+      "text": "임충민공 충렬사는 선조27년 충주에서 태어난 임경업장군의 충절을 기리기 위해 세운 사당이며 장군이 사용했던 유품을 충렬사유물전시관에 전시하고 있음",
+      "sido": "충청북도",
+      "sigungu": "충주시",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_base_1070.csv#row=338"
+      ],
+      "evidence_id": "E1",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=243",
+        "fields": {
+          "name": "충렬사유물전시관",
+          "sido": "충청북도",
+          "sigungu": "충주시",
+          "address": "충청북도 충주시 충열1길 6(단월동)",
+          "ownership_type": "국립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "09:00",
+          "weekday_close": "18:00",
+          "holiday_open": "09:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "연중무휴",
+          "amenities_raw": "주차장"
+        },
+        "base_data_date": "2026-05-31",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0603",
+      "name": "한신대학교박물관",
+      "document": "한신대학교 박물관은 고고·역사·민속 등에 관한 유물을 수집하여 정리, 보존, 전시함으로써 교내의 성원들은 물론 일반 국민들의역사문화인식 함양에 기여하고, 이에 대한 학술적 연구를 통해 우리의 역사문화를 체계적으로 규명하는데 그 목적을 두고 있습니다.",
+      "metadata": {
+        "child_fee": 0.0,
+        "address": "경기도 오산시 한신대길 137",
+        "fee_notes": "무료",
+        "homepage_url": "http://www.hs.ac.kr/hsmuseum/index.do",
+        "youth_fee": 0.0,
+        "ownership_type": "대학",
+        "sido": "경기도",
+        "adult_fee": 0.0,
+        "weekday_close": "16:00",
+        "source_types": "BASE",
+        "transport_notes": "1호선 병점(한신대)역 하차, 2번출구 버스정류장에서 마을버스(55, 56) 이용광역버스 : 학교-강남역(1550-1) 한신대학교 기숙사 앞 승강장에서 승하차수원 IC (13.9km, 약 27분)수원 IC 출구 좌회전→오산천2길 좌회전→서령로 좌회전→315번 지방도고가도로→박지성길 오산/동탄/병점 방면 좌회전→북태안길 우측방향→점역/동탄 방면 좌회전→효행길 84번 지방도 고가도로→한신대길 좌회전→한신대학교도착기흥(동탄) IC 출구→오산/용인 방면 지하차도→ 수원/능동마을방면 우측 → 지하차도 옆길 → 315번 지방도 능리교차로 좌회전 → 병점 방면→효행길 84번 지방도 고가도로→한신대길 좌회전 → 한신대학교도착북오산IC 출구→성호중고길 우회전→동부대로 우회전 → 대원로 좌회전 → 중앙대로 1번국도 → 세마대사거리에서 정남 방면 좌회전 → 양산로 우회전 → 한신대길 좌회전→한신대학교도착과천ㆍ의왕고속도로 진입 → 400번 봉담동탄고속도로 진입→동탄ㆍ정남 방면→17번 평택화성고속도로 동화성ㆍ평택방면 우측방향 → 동화성ㆍ안녕방면 좌측방향 → 안녕IC → 84번 우측방향 → 한신대길 우회전 → 한신대학교도착 서해안고속도로 진입 → 40번 평택제천고속도로 음성ㆍ경부고속도로 방면 우측→17번 평택화성고속도로 동화성ㆍ평택방면 우측방향 → 동화성ㆍ안녕방면 좌측방향→안녕IC→84번 우측방향→한신대길 우회전→한신대학교도착",
+        "longitude": 127.0282159,
+        "holiday_close": "16:00",
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "name": "한신대학교박물관",
+        "closure_rule_raw": "공휴일+국경일 및 개교기념일(4.19)",
+        "requires_manual_review": true,
+        "amenities_raw": "교내 벤치 및 휴게시설",
+        "weekday_open": "10:00",
+        "holiday_open": "10:00",
+        "latitude": 37.19243447,
+        "sigungu": "오산시"
+      },
+      "vector_rank": null,
+      "bm25_rank": 7,
+      "vector_distance": null,
+      "vector_score": null,
+      "bm25_score": 13.388775903419756,
+      "vector_document": "",
+      "bm25_document": "한신대학교 박물관은 고고·역사·민속 등에 관한 유물을 수집하여 정리, 보존, 전시함으로써 교내의 성원들은 물론 일반 국민들의역사문화인식 함양에 기여하고, 이에 대한 학술적 연구를 통해 우리의 역사문화를 체계적으로 규명하는데 그 목적을 두고 있습니다.",
+      "best_span_id": "chroma:M0603",
+      "best_span_text": "한신대학교 박물관은 고고·역사·민속 등에 관한 유물을 수집하여 정리, 보존, 전시함으로써 교내의 성원들은 물론 일반 국민들의역사문화인식 함양에 기여하고, 이에 대한 학술적 연구를 통해 우리의 역사문화를 체계적으로 규명하는데 그 목적을 두고 있습니다.",
+      "fusion_score": 0.014925373134328358,
+      "retrieved_by": [
+        "bm25"
+      ],
+      "fusion_rank": 14,
+      "rerank_score": 0.008707251399755478,
+      "rank": 2,
+      "score": 0.008707251399755478,
+      "score_type": "cross_encoder",
+      "distance": null,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "bm25"
+      ],
+      "retriever": "bm25",
+      "span_id": "chroma:M0603",
+      "source_doc_ids": [
+        "DOC-B0603-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0603-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0603",
+          "source_locator": "data/raw/museum_base_1070.csv#row=604",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 139,
+          "doc_ids": [
+            "DOC-B0603-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_base_1070.csv#row=604",
+      "text": "한신대학교 박물관은 고고·역사·민속 등에 관한 유물을 수집하여 정리, 보존, 전시함으로써 교내의 성원들은 물론 일반 국민들의역사문화인식 함양에 기여하고, 이에 대한 학술적 연구를 통해 우리의 역사문화를 체계적으로 규명하는데 그 목적을 두고 있습니다.",
+      "sido": "경기도",
+      "sigungu": "오산시",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_base_1070.csv#row=604"
+      ],
+      "evidence_id": "E2",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=423",
+        "fields": {
+          "name": "한신대학교박물관",
+          "sido": "경기도",
+          "sigungu": "오산시",
+          "address": "경기도 오산시 한신대길 137",
+          "ownership_type": "대학",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "10:00",
+          "weekday_close": "16:00",
+          "holiday_open": "10:00",
+          "holiday_close": "16:00",
+          "closure_rule_raw": "공휴일+국경일 및 개교기념일(4.19)",
+          "amenities_raw": "교내 벤치 및 휴게시설"
+        },
+        "base_data_date": "2025-12-22",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0690",
+      "name": "부여생활사박물관",
+      "document": "선사시대부터 근현대까지 선조들의 삶과 관련된 다양한 유물 전시",
+      "metadata": {
+        "youth_fee": 5000.0,
+        "closure_rule_raw": "설 연휴+추석 연휴",
+        "holiday_close": "17:30",
+        "name": "부여생활사박물관",
+        "adult_fee": 6000.0,
+        "weekday_close": "17:30",
+        "address": "충청남도 부여군 규암면 백제문로 553",
+        "adult_fee_status": "BASE_FEE_PAID",
+        "latitude": 36.3065313,
+        "requires_manual_review": true,
+        "source_types": "BASE",
+        "longitude": 126.9169635,
+        "child_fee": 5000.0,
+        "sido": "충청남도",
+        "ownership_type": "사립",
+        "weekday_open": "10:00",
+        "sigungu": "부여군",
+        "holiday_open": "10:00"
+      },
+      "vector_rank": 4,
+      "bm25_rank": null,
+      "vector_distance": 0.6001931428909302,
+      "vector_score": null,
+      "bm25_score": null,
+      "vector_document": "선사시대부터 근현대까지 선조들의 삶과 관련된 다양한 유물 전시",
+      "bm25_document": "",
+      "best_span_id": null,
+      "best_span_text": null,
+      "fusion_score": 0.015625,
+      "retrieved_by": [
+        "vector"
+      ],
+      "fusion_rank": 7,
+      "rerank_score": 0.006966918706893921,
+      "rank": 3,
+      "score": 0.006966918706893921,
+      "score_type": "cross_encoder",
+      "distance": 0.6001931428909302,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector"
+      ],
+      "retriever": "vector",
+      "source_doc_ids": [
+        "DOC-B0690-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0690-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0690",
+          "source_locator": "data/raw/museum_base_1070.csv#row=691",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 34,
+          "doc_ids": [
+            "DOC-B0690-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_base_1070.csv#row=691",
+      "text": "선사시대부터 근현대까지 선조들의 삶과 관련된 다양한 유물 전시",
+      "sido": "충청남도",
+      "sigungu": "부여군",
+      "span_id": "",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_base_1070.csv#row=691"
+      ],
+      "evidence_id": "E3",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=478",
+        "fields": {
+          "name": "부여생활사박물관",
+          "sido": "충청남도",
+          "sigungu": "부여군",
+          "address": "충청남도 부여군 규암면 백제문로 553",
+          "ownership_type": "사립",
+          "adult_fee": "6000",
+          "youth_fee": "5000",
+          "child_fee": "5000",
+          "adult_fee_status": "BASE_FEE_PAID",
+          "weekday_open": "10:00",
+          "weekday_close": "17:30",
+          "holiday_open": "10:00",
+          "holiday_close": "17:30",
+          "closure_rule_raw": "설 연휴+추석 연휴"
+        },
+        "base_data_date": "2025-12-10",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M1035",
+      "name": "강화역사박물관",
+      "document": "강화역사박물관은 강화의 문화유산을 보존·연구하여 전시할 목적으로 세워진 공립박물관으로 갑곶돈대 옆에 있었던 것을 2010년 지금의 자리로 이전했다. 상설전시실, 기획전시실을 비롯하여 영상실 등 다양한 부대시설을 갖추고 있다. 상설전시실에는 강화의 선사유적지와 고려왕릉에서 출토된 유물과 향교, 전통 사찰 소장품 등의 국가유산이 전시되어 있고, 기획전시실에서는 해마다 다채로운 주제의 특별전이 열린다. 강화 역사의 이해를 돕기 위해 영상실과 교육 프로그램을 함께 운영하고 있어 복합문화공간으로서 역할을 다하고 있다. 강화역사박물관은 고인돌공원 옆에 자리 잡고 있어 세계문화유산으로 지정된 강화고인돌과 길이 710cm, 너비 550cm 되는 거석인 청동기시대의 대표적 유물인 강화지석묘를 볼 수 있다. 세계문화유산으로 지정된 사적 제137호 강화부근리 지석묘 앞에 위치한 강화역사박물관은 오천년 역사의 문화를 자랑하는 문화유산을 보존 · 활용하기 위한 조사연구 및 전시교육 활동을 하고 있습니다.",
+      "metadata": {
+        "weekday_open": "09:00",
+        "ownership_type": "공립",
+        "holiday_close": "18:00",
+        "address": "인천광역시 강화군 하점면 강화대로 994-19",
+        "homepage_url": "http://www.ganghwa.go.kr/open_content/museum_history/",
+        "requires_manual_review": true,
+        "adult_fee": 3000.0,
+        "transport_notes": "시내버스+ 군내버스+ 자가용이용",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/21/3383821_image2_1.JPG",
+        "adult_fee_status": "BASE_FEE_PAID",
+        "longitude": 126.4353365,
+        "sido": "인천광역시",
+        "image_copyright": "Type3",
+        "holiday_open": "09:00",
+        "fee_notes": "무료(강화군민+국가유공자 및 그 가족+장애인 및 동반 보호자 1명+기증기탁자 등)",
+        "source_types": "BASE|TOUR_API",
+        "youth_fee": 2000.0,
+        "latitude": 37.77370952,
+        "closure_rule_raw": "월+1월1일+설당일+추석당일",
+        "sigungu": "강화군",
+        "child_fee": 2000.0,
+        "name": "강화역사박물관",
+        "weekday_close": "18:00"
+      },
+      "vector_rank": null,
+      "bm25_rank": 9,
+      "vector_distance": null,
+      "vector_score": null,
+      "bm25_score": 12.848063282579298,
+      "vector_document": "",
+      "bm25_document": "강화역사박물관은 강화의 문화유산을 보존·연구하여 전시할 목적으로 세워진 공립박물관으로 갑곶돈대 옆에 있었던 것을 2010년 지금의 자리로 이전했다. 상설전시실, 기획전시실을 비롯하여 영상실 등 다양한 부대시설을 갖추고 있다. 상설전시실에는 강화의 선사유적지와 고려왕릉에서 출토된 유물과 향교, 전통 사찰 소장품 등의 국가유산이 전시되어 있고, 기획전시실에서는 해마다 다채로운 주제의 특별전이 열린다. 강화 역사의 이해를 돕기 위해 영상실과 교육 프로그램을 함께 운영하고 있어 복합문화공간으로서 역할을 다하고 있다. 강화역사박물관은 고인돌공원 옆에 자리 잡고 있어 세계문화유산으로 지정된 강화고인돌과 길이 710cm, 너비 550cm 되는 거석인 청동기시대의 대표적 유물인 강화지석묘를 볼 수 있다. 세계문화유산으로 지정된 사적 제137호 강화부근리 지석묘 앞에 위치한 강화역사박물관은 오천년 역사의 문화를 자랑하는 문화유산을 보존 · 활용하기 위한 조사연구 및 전시교육 활동을 하고 있습니다.",
+      "best_span_id": "chroma:M1035",
+      "best_span_text": "강화역사박물관은 강화의 문화유산을 보존·연구하여 전시할 목적으로 세워진 공립박물관으로 갑곶돈대 옆에 있었던 것을 2010년 지금의 자리로 이전했다. 상설전시실, 기획전시실을 비롯하여 영상실 등 다양한 부대시설을 갖추고 있다. 상설전시실에는 강화의 선사유적지와 고려왕릉에서 출토된 유물과 향교, 전통 사찰 소장품 등의 국가유산이 전시되어 있고, 기획전시실에서는 해마다 다채로운 주제의 특별전이 열린다. 강화 역사의 이해를 돕기 위해 영상실과 교육 프로그램을 함께 운영하고 있어 복합문화공간으로서 역할을 다하고 있다. 강화역사박물관은 고인돌공원 옆에 자리 잡고 있어 세계문화유산으로 지정된 강화고인돌과 길이 710cm, 너비 550cm 되는 거석인 청동기시대의 대표적 유물인 강화지석묘를 볼 수 있다. 세계문화유산으로 지정된 사적 제137호 강화부근리 지석묘 앞에 위치한 강화역사박물관은 오천년 역사의 문화를 자랑하는 문화유산을 보존 · 활용하기 위한 조사연구 및 전시교육 활동을 하고 있습니다.",
+      "fusion_score": 0.014492753623188406,
+      "retrieved_by": [
+        "bm25"
+      ],
+      "fusion_rank": 18,
+      "rerank_score": 0.005009863525629044,
+      "rank": 4,
+      "score": 0.005009863525629044,
+      "score_type": "cross_encoder",
+      "distance": null,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "bm25"
+      ],
+      "retriever": "bm25",
+      "span_id": "chroma:M1035",
+      "source_doc_ids": [
+        "DOC-B1035-TOUR_API-129810",
+        "DOC-B1035-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B1035-TOUR_API-129810",
+          "source_type": "TOUR_API",
+          "source_record_id": "129810",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=481",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        },
+        {
+          "doc_id": "DOC-B1035-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B1035",
+          "source_locator": "data/raw/museum_base_1070.csv#row=1036",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 82,
+          "doc_ids": [
+            "DOC-B1035-TOUR_API-129810"
+          ]
+        },
+        {
+          "start": 83,
+          "end": 125,
+          "doc_ids": [
+            "DOC-B1035-TOUR_API-129810"
+          ]
+        },
+        {
+          "start": 126,
+          "end": 223,
+          "doc_ids": [
+            "DOC-B1035-TOUR_API-129810"
+          ]
+        },
+        {
+          "start": 224,
+          "end": 287,
+          "doc_ids": [
+            "DOC-B1035-TOUR_API-129810"
+          ]
+        },
+        {
+          "start": 288,
+          "end": 390,
+          "doc_ids": [
+            "DOC-B1035-TOUR_API-129810"
+          ]
+        },
+        {
+          "start": 391,
+          "end": 499,
+          "doc_ids": [
+            "DOC-B1035-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=481",
+      "text": "강화역사박물관은 강화의 문화유산을 보존·연구하여 전시할 목적으로 세워진 공립박물관으로 갑곶돈대 옆에 있었던 것을 2010년 지금의 자리로 이전했다. 상설전시실, 기획전시실을 비롯하여 영상실 등 다양한 부대시설을 갖추고 있다. 상설전시실에는 강화의 선사유적지와 고려왕릉에서 출토된 유물과 향교, 전통 사찰 소장품 등의 국가유산이 전시되어 있고, 기획전시실에서는 해마다 다채로운 주제의 특별전이 열린다. 강화 역사의 이해를 돕기 위해 영상실과 교육 프로그램을 함께 운영하고 있어 복합문화공간으로서 역할을 다하고 있다. 강화역사박물관은 고인돌공원 옆에 자리 잡고 있어 세계문화유산으로 지정된 강화고인돌과 길이 710cm, 너비 550cm 되는 거석인 청동기시대의 대표적 유물인 강화지석묘를 볼 수 있다. 세계문화유산으로 지정된 사적 제137호 강화부근리 지석묘 앞에 위치한 강화역사박물관은 오천년 역사의 문화를 자랑하는 문화유산을 보존 · 활용하기 위한 조사연구 및 전시교육 활동을 하고 있습니다.",
+      "sido": "인천광역시",
+      "sigungu": "강화군",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=481"
+      ],
+      "evidence_id": "E4",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=712",
+        "fields": {
+          "name": "강화역사박물관",
+          "sido": "인천광역시",
+          "sigungu": "강화군",
+          "address": "인천광역시 강화군 하점면 강화대로 994-19",
+          "ownership_type": "공립",
+          "adult_fee": "3000",
+          "youth_fee": "2000",
+          "child_fee": "2000",
+          "adult_fee_status": "BASE_FEE_PAID",
+          "weekday_open": "09:00",
+          "weekday_close": "18:00",
+          "holiday_open": "09:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "월+1월1일+설당일+추석당일"
+        },
+        "base_data_date": "2025-11-20",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0391",
+      "name": "충현박물관",
+      "document": "충현박물관은 이원익 종가에서 만든 전국 유일의 종가박물관이다. 이원익 직계 후손들이 선대의 유품을 보존하며 조선시대 선비문화를 계승, 보호한다는 사명감으로 설립하였다. 영정과 친필 등 이원익과 관련된 자료와 종가에서 사용했던 제기와 민속생활품, 400여 년 전의 유물로부터 근대에 이르기까지 사대부집안의 각종 자료 등이 전시되어 있다. 조선시대 청백리 오리이원익 종가박물관",
+      "metadata": {
+        "adult_fee": 10000.0,
+        "name": "충현박물관",
+        "youth_fee": 5000.0,
+        "holiday_close": "00:00",
+        "sido": "경기도",
+        "amenities_raw": "없음",
+        "fee_notes": "(일반시민)7000원(성인단체+65세이상+장애인)+(광명시민)5000원(성인)+ (광명시민)4000원 (성인단체+65세이상+장애인+유아+청소년)",
+        "requires_manual_review": true,
+        "ownership_type": "사립",
+        "homepage_url": "http://www.chunghyeon.org/",
+        "holiday_open": "00:00",
+        "address": "경기도 광명시 오리로347번길 5-6",
+        "adult_fee_status": "BASE_FEE_PAID",
+        "sigungu": "광명시",
+        "longitude": 126.8777258,
+        "transport_notes": "버스 : 2+3+11-2+12+17+22+75+77+505+5627+5633 소하2동 행정복지센터 광명동굴길입구 하차",
+        "weekday_close": "17:00",
+        "weekday_open": "10:00",
+        "child_fee": 5000.0,
+        "closure_rule_raw": "월요일+일요일+설 연휴+추석 연휴+공휴일",
+        "source_types": "BASE|TOUR_API",
+        "latitude": 37.4339273,
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/10/3563410_image2_1.jpg",
+        "image_copyright": "Type1"
+      },
+      "vector_rank": 10,
+      "bm25_rank": null,
+      "vector_distance": 0.6218948364257812,
+      "vector_score": null,
+      "bm25_score": null,
+      "vector_document": "충현박물관은 이원익 종가에서 만든 전국 유일의 종가박물관이다. 이원익 직계 후손들이 선대의 유품을 보존하며 조선시대 선비문화를 계승, 보호한다는 사명감으로 설립하였다. 영정과 친필 등 이원익과 관련된 자료와 종가에서 사용했던 제기와 민속생활품, 400여 년 전의 유물로부터 근대에 이르기까지 사대부집안의 각종 자료 등이 전시되어 있다. 조선시대 청백리 오리이원익 종가박물관",
+      "bm25_document": "",
+      "best_span_id": null,
+      "best_span_text": null,
+      "fusion_score": 0.014285714285714285,
+      "retrieved_by": [
+        "vector"
+      ],
+      "fusion_rank": 19,
+      "rerank_score": 0.002880864543840289,
+      "rank": 5,
+      "score": 0.002880864543840289,
+      "score_type": "cross_encoder",
+      "distance": 0.6218948364257812,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector"
+      ],
+      "retriever": "vector",
+      "source_doc_ids": [
+        "DOC-B0391-TOUR_API-130707",
+        "DOC-B0391-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0391-TOUR_API-130707",
+          "source_type": "TOUR_API",
+          "source_record_id": "130707",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=181",
+          "match_trust": "RECHECKED_BY_RULE_NOT_HUMAN_APPROVED"
+        },
+        {
+          "doc_id": "DOC-B0391-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0391",
+          "source_locator": "data/raw/museum_base_1070.csv#row=392",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 34,
+          "doc_ids": [
+            "DOC-B0391-TOUR_API-130707"
+          ]
+        },
+        {
+          "start": 35,
+          "end": 93,
+          "doc_ids": [
+            "DOC-B0391-TOUR_API-130707"
+          ]
+        },
+        {
+          "start": 94,
+          "end": 187,
+          "doc_ids": [
+            "DOC-B0391-TOUR_API-130707"
+          ]
+        },
+        {
+          "start": 188,
+          "end": 208,
+          "doc_ids": [
+            "DOC-B0391-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=181",
+      "text": "충현박물관은 이원익 종가에서 만든 전국 유일의 종가박물관이다. 이원익 직계 후손들이 선대의 유품을 보존하며 조선시대 선비문화를 계승, 보호한다는 사명감으로 설립하였다. 영정과 친필 등 이원익과 관련된 자료와 종가에서 사용했던 제기와 민속생활품, 400여 년 전의 유물로부터 근대에 이르기까지 사대부집안의 각종 자료 등이 전시되어 있다. 조선시대 청백리 오리이원익 종가박물관",
+      "sido": "경기도",
+      "sigungu": "광명시",
+      "span_id": "",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=181"
+      ],
+      "evidence_id": "E5",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=278",
+        "fields": {
+          "name": "충현박물관",
+          "sido": "경기도",
+          "sigungu": "광명시",
+          "address": "경기도 광명시 오리로347번길 5-6",
+          "ownership_type": "사립",
+          "adult_fee": "10000",
+          "youth_fee": "5000",
+          "child_fee": "5000",
+          "adult_fee_status": "BASE_FEE_PAID",
+          "weekday_open": "10:00",
+          "weekday_close": "17:00",
+          "holiday_open": "00:00",
+          "holiday_close": "00:00",
+          "closure_rule_raw": "월요일+일요일+설 연휴+추석 연휴+공휴일",
+          "amenities_raw": "없음"
+        },
+        "base_data_date": "2026-05-26",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    }
+  ],
+  "answer": "임충민공 충렬사는 임경업 장군의 충절을 기리기 위해 세운 사당입니다. [E1] 장군이 사용했던 유품은 충렬사유물전시관에 전시되어 있습니다. [E1]",
+  "retrieval_status": "ok",
+  "answer_status": "answered",
+  "route": "hybrid",
+  "retry_count": 0,
+  "supervisor_verified": true,
+  "rerank_applied": true,
+  "retriever_errors": [],
+  "warnings": [],
+  "duration_ms": 74904.07,
+  "error_type": "",
+  "hit_at_1": 1,
+  "hit_at_3": 1,
+  "hit_at_5": 1,
+  "recall_at_5": 1.0,
+  "mrr_at_10": 1.0
+}

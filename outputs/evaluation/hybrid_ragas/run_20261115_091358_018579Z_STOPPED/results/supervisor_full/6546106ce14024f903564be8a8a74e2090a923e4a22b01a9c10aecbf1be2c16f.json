@@ -1,0 +1,94 @@
+{
+  "mode": "supervisor_full",
+  "question_id": "V2-OO10",
+  "evidence": [
+    {
+      "museum_id": "M0404",
+      "name": "울산옹기박물관",
+      "text": "울산옹기박물관의 Neo4j operator_name(운영기관) 기록: 울산광역시 울주군 (CSV 원문: 울산광역시 울주군청)\n[Neo4j 구조화 근거] {\"museum_id\": \"M0404\", \"name\": \"울산옹기박물관\", \"relation\": \"OPERATED_BY\", \"organization\": \"울산광역시 울주군\", \"org_key\": \"울산광역시울주군\", \"org_type\": \"지방자치단체\", \"raw_name\": \"울산광역시 울주군청\", \"verification_status\": \"SOURCE_RECORDED\"}",
+      "span_id": "",
+      "source_doc_ids": [
+        "DOC-B0404-BASE",
+        "DOC-B0762-BASE"
+      ],
+      "source_urls": [],
+      "source_url": "",
+      "source_locators": [
+        "data/raw/museum_base_1070.csv#row=405",
+        "data/raw/museum_base_1070.csv#row=763"
+      ],
+      "source_locator": "data/raw/museum_base_1070.csv#row=405",
+      "sido": "울산광역시",
+      "sigungu": "울주군",
+      "retriever": "graph",
+      "evidence_role": "anchor",
+      "source_scope": "graph_properties",
+      "relation": "OPERATED_BY",
+      "organization": "울산광역시 울주군",
+      "org_type": "지방자치단체",
+      "operator_raw_name": "울산광역시 울주군청",
+      "verification_status": "SOURCE_RECORDED",
+      "metadata": {},
+      "chunk_id": "",
+      "retrievers": [
+        "graph"
+      ],
+      "evidence_id": "E1",
+      "rank": 1
+    },
+    {
+      "museum_id": "M0405",
+      "name": "울주민속박물관",
+      "text": "{anchor_raw_name: 울산광역시 울주군청, candidate_raw_name: 울산광역시 울주군청, org_key: 울산광역시울주군, organization: 울산광역시 울주군, relation: OPERATED_BY, verification_status: SOURCE_RECORDED}",
+      "span_id": "",
+      "source_doc_ids": [
+        "DOC-B0405-BASE",
+        "DOC-B0405-TOUR_API-2822920",
+        "DOC-B0763-BASE"
+      ],
+      "source_urls": [],
+      "source_url": "",
+      "source_locators": [
+        "data/raw/museum_base_1070.csv#row=406",
+        "data/raw/museum_tourapi_with_overview.csv#row=189",
+        "data/raw/museum_base_1070.csv#row=764"
+      ],
+      "source_locator": "data/raw/museum_base_1070.csv#row=406",
+      "sido": "울산광역시",
+      "sigungu": "울주군",
+      "retriever": "graph",
+      "graph_path": "anchor -[:OPERATED_BY]-> Organization <-[:OPERATED_BY]- candidate",
+      "organization": "울산광역시 울주군",
+      "org_type": "지방자치단체",
+      "operator_raw_name": "울산광역시 울주군청",
+      "anchor_operator_raw_name": "울산광역시 울주군청",
+      "relation": "OPERATED_BY",
+      "verification_status": "SOURCE_RECORDED",
+      "facility_type": "박물관",
+      "source_scope": "graph_properties",
+      "metadata": {},
+      "chunk_id": "",
+      "retrievers": [
+        "graph"
+      ],
+      "evidence_id": "E2",
+      "rank": 2
+    }
+  ],
+  "answer": "운영기관 기록상 울산옹기박물관과 같은 울산광역시 울주군(원문: 울산광역시 울주군청)이 운영하는 다른 시설은 울주민속박물관입니다. [E1][E2]",
+  "retrieval_status": "ok",
+  "answer_status": "answered",
+  "route": "graph",
+  "retry_count": 0,
+  "supervisor_verified": true,
+  "rerank_applied": false,
+  "retriever_errors": [],
+  "warnings": [],
+  "duration_ms": 144516.77,
+  "error_type": "",
+  "hit_at_1": 1,
+  "hit_at_3": 1,
+  "hit_at_5": 1,
+  "recall_at_5": 1.0,
+  "mrr_at_10": 1.0
+}

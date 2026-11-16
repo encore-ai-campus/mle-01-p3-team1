@@ -1,0 +1,743 @@
+{
+  "mode": "supervisor_full",
+  "question_id": "Q149",
+  "evidence": [
+    {
+      "museum_id": "M0244",
+      "name": "헬로우뮤지움",
+      "document": "국내 최초의 사립 어린이 미술관으로 2019년 10월 서울 성수동에 재개관을 했다. 헬로우 뮤지엄은 다음세대를 위한 미래적 가치를 실현하는 새로운 어린이미술관 모델을 선보이고 있으며, 지역 주민의 삶과 가까운 커뮤니티형 에코미술관으로 자리매김하고 있다. 어린이의 생태 감수성을 키우고, 어린이와 연결된 지역사회 구성원의 삶까지 풍요롭게 하는 전시와 교육 프로그램을 운영 중이다.",
+      "metadata": {
+        "requires_manual_review": true,
+        "sigungu": "성동구",
+        "longitude": 127.0532497,
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/16/3467516_image2_1.jpg",
+        "weekday_close": "18:00",
+        "weekday_open": "10:00",
+        "holiday_close": "18:00",
+        "homepage_url": "http://www.hellomuseum.com/",
+        "sido": "서울특별시",
+        "image_copyright": "Type3",
+        "ownership_type": "사립",
+        "latitude": 37.5481761,
+        "child_fee": 5000.0,
+        "youth_fee": 5000.0,
+        "closure_rule_raw": "월+공휴일",
+        "adult_fee_status": "BASE_FEE_PAID",
+        "source_types": "TOUR_API",
+        "name": "헬로우뮤지움",
+        "address": "서울특별시 성동구 성수일로12길 20",
+        "holiday_open": "10:00",
+        "adult_fee": 5000.0
+      },
+      "vector_rank": 1,
+      "bm25_rank": 1,
+      "vector_distance": 0.5282955169677734,
+      "vector_score": null,
+      "bm25_score": 23.35865761540389,
+      "vector_document": "국내 최초의 사립 어린이 미술관으로 2019년 10월 서울 성수동에 재개관을 했다. 헬로우 뮤지엄은 다음세대를 위한 미래적 가치를 실현하는 새로운 어린이미술관 모델을 선보이고 있으며, 지역 주민의 삶과 가까운 커뮤니티형 에코미술관으로 자리매김하고 있다. 어린이의 생태 감수성을 키우고, 어린이와 연결된 지역사회 구성원의 삶까지 풍요롭게 하는 전시와 교육 프로그램을 운영 중이다.",
+      "bm25_document": "국내 최초의 사립 어린이 미술관으로 2019년 10월 서울 성수동에 재개관을 했다. 헬로우 뮤지엄은 다음세대를 위한 미래적 가치를 실현하는 새로운 어린이미술관 모델을 선보이고 있으며, 지역 주민의 삶과 가까운 커뮤니티형 에코미술관으로 자리매김하고 있다. 어린이의 생태 감수성을 키우고, 어린이와 연결된 지역사회 구성원의 삶까지 풍요롭게 하는 전시와 교육 프로그램을 운영 중이다.",
+      "best_span_id": "chroma:M0244",
+      "best_span_text": "국내 최초의 사립 어린이 미술관으로 2019년 10월 서울 성수동에 재개관을 했다. 헬로우 뮤지엄은 다음세대를 위한 미래적 가치를 실현하는 새로운 어린이미술관 모델을 선보이고 있으며, 지역 주민의 삶과 가까운 커뮤니티형 에코미술관으로 자리매김하고 있다. 어린이의 생태 감수성을 키우고, 어린이와 연결된 지역사회 구성원의 삶까지 풍요롭게 하는 전시와 교육 프로그램을 운영 중이다.",
+      "fusion_score": 0.03278688524590164,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 1,
+      "rerank_score": null,
+      "rank": 1,
+      "score": 0.03278688524590164,
+      "score_type": "rrf",
+      "distance": 0.5282955169677734,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0244",
+      "source_doc_ids": [
+        "DOC-B0244-TOUR_API-2488585"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0244-TOUR_API-2488585",
+          "source_type": "TOUR_API",
+          "source_record_id": "2488585",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=121",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 46,
+          "doc_ids": [
+            "DOC-B0244-TOUR_API-2488585"
+          ]
+        },
+        {
+          "start": 47,
+          "end": 141,
+          "doc_ids": [
+            "DOC-B0244-TOUR_API-2488585"
+          ]
+        },
+        {
+          "start": 142,
+          "end": 211,
+          "doc_ids": [
+            "DOC-B0244-TOUR_API-2488585"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=121",
+      "text": "국내 최초의 사립 어린이 미술관으로 2019년 10월 서울 성수동에 재개관을 했다. 헬로우 뮤지엄은 다음세대를 위한 미래적 가치를 실현하는 새로운 어린이미술관 모델을 선보이고 있으며, 지역 주민의 삶과 가까운 커뮤니티형 에코미술관으로 자리매김하고 있다. 어린이의 생태 감수성을 키우고, 어린이와 연결된 지역사회 구성원의 삶까지 풍요롭게 하는 전시와 교육 프로그램을 운영 중이다.",
+      "sido": "서울특별시",
+      "sigungu": "성동구",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=121"
+      ],
+      "evidence_id": "E1",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=172",
+        "fields": {
+          "name": "헬로우뮤지움",
+          "sido": "서울특별시",
+          "sigungu": "성동구",
+          "address": "서울특별시 성동구 성수일로12길 20",
+          "ownership_type": "사립",
+          "adult_fee": "5000",
+          "youth_fee": "5000",
+          "child_fee": "5000",
+          "adult_fee_status": "BASE_FEE_PAID",
+          "weekday_open": "10:00",
+          "weekday_close": "18:00",
+          "holiday_open": "10:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "월+공휴일"
+        },
+        "base_data_date": "2026-09-03",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0048",
+      "name": "포도뮤지엄",
+      "document": "제주시 안덕면에 위치한 포도뮤지엄은 다양성을 존중하고 서로의 생각을 공유하며 미래의 가치를 나누는 미술관이다. 지난 2021년 4월에 개관하였으며 지구 생태 환경과 인류의 공생, 사회 소외 계층의 목소리에 귀를 기울이는 것에 집중한다. 이를 통해 교육적이고 다양성을 존중하는 콘텐츠를 바탕으로 모두를 위한 뮤지엄을 목표로 한다. 또한 자체 프로그램인 '살롱드포도 Salon de PODO'도 지속적으로 진행 중이다. 박물관 1층에는 카페와 기념품샵 등이 있다.",
+      "metadata": {
+        "holiday_close": "18:00",
+        "weekday_open": "10:00",
+        "homepage_url": "https://www.podomuseum.com/",
+        "youth_fee": 6000.0,
+        "name": "포도뮤지엄",
+        "address": "제주특별자치도 서귀포시 안덕면 산록남로 788",
+        "image_copyright": "Type1",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/79/4070579_image2_1.jpg",
+        "adult_fee": 10000.0,
+        "holiday_open": "10:00",
+        "ownership_type": "사립",
+        "longitude": 126.3859703,
+        "child_fee": 4000.0,
+        "source_types": "TOUR_API",
+        "requires_manual_review": true,
+        "adult_fee_status": "BASE_FEE_PAID",
+        "weekday_close": "18:00",
+        "closure_rule_raw": "매주화",
+        "latitude": 33.3192674,
+        "fee_notes": "도민할인",
+        "sido": "제주특별자치도",
+        "sigungu": "서귀포시"
+      },
+      "vector_rank": 4,
+      "bm25_rank": 2,
+      "vector_distance": 0.6884470582008362,
+      "vector_score": null,
+      "bm25_score": 9.47262693688945,
+      "vector_document": "제주시 안덕면에 위치한 포도뮤지엄은 다양성을 존중하고 서로의 생각을 공유하며 미래의 가치를 나누는 미술관이다. 지난 2021년 4월에 개관하였으며 지구 생태 환경과 인류의 공생, 사회 소외 계층의 목소리에 귀를 기울이는 것에 집중한다. 이를 통해 교육적이고 다양성을 존중하는 콘텐츠를 바탕으로 모두를 위한 뮤지엄을 목표로 한다. 또한 자체 프로그램인 '살롱드포도 Salon de PODO'도 지속적으로 진행 중이다. 박물관 1층에는 카페와 기념품샵 등이 있다.",
+      "bm25_document": "제주시 안덕면에 위치한 포도뮤지엄은 다양성을 존중하고 서로의 생각을 공유하며 미래의 가치를 나누는 미술관이다. 지난 2021년 4월에 개관하였으며 지구 생태 환경과 인류의 공생, 사회 소외 계층의 목소리에 귀를 기울이는 것에 집중한다. 이를 통해 교육적이고 다양성을 존중하는 콘텐츠를 바탕으로 모두를 위한 뮤지엄을 목표로 한다. 또한 자체 프로그램인 '살롱드포도 Salon de PODO'도 지속적으로 진행 중이다. 박물관 1층에는 카페와 기념품샵 등이 있다.",
+      "best_span_id": "chroma:M0048",
+      "best_span_text": "제주시 안덕면에 위치한 포도뮤지엄은 다양성을 존중하고 서로의 생각을 공유하며 미래의 가치를 나누는 미술관이다. 지난 2021년 4월에 개관하였으며 지구 생태 환경과 인류의 공생, 사회 소외 계층의 목소리에 귀를 기울이는 것에 집중한다. 이를 통해 교육적이고 다양성을 존중하는 콘텐츠를 바탕으로 모두를 위한 뮤지엄을 목표로 한다. 또한 자체 프로그램인 '살롱드포도 Salon de PODO'도 지속적으로 진행 중이다. 박물관 1층에는 카페와 기념품샵 등이 있다.",
+      "fusion_score": 0.031754032258064516,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 2,
+      "rerank_score": null,
+      "rank": 2,
+      "score": 0.031754032258064516,
+      "score_type": "rrf",
+      "distance": 0.6884470582008362,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0048",
+      "source_doc_ids": [
+        "DOC-B0048-TOUR_API-2836855"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0048-TOUR_API-2836855",
+          "source_type": "TOUR_API",
+          "source_record_id": "2836855",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=27",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 61,
+          "doc_ids": [
+            "DOC-B0048-TOUR_API-2836855"
+          ]
+        },
+        {
+          "start": 62,
+          "end": 131,
+          "doc_ids": [
+            "DOC-B0048-TOUR_API-2836855"
+          ]
+        },
+        {
+          "start": 132,
+          "end": 183,
+          "doc_ids": [
+            "DOC-B0048-TOUR_API-2836855"
+          ]
+        },
+        {
+          "start": 184,
+          "end": 232,
+          "doc_ids": [
+            "DOC-B0048-TOUR_API-2836855"
+          ]
+        },
+        {
+          "start": 233,
+          "end": 257,
+          "doc_ids": [
+            "DOC-B0048-TOUR_API-2836855"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=27",
+      "text": "제주시 안덕면에 위치한 포도뮤지엄은 다양성을 존중하고 서로의 생각을 공유하며 미래의 가치를 나누는 미술관이다. 지난 2021년 4월에 개관하였으며 지구 생태 환경과 인류의 공생, 사회 소외 계층의 목소리에 귀를 기울이는 것에 집중한다. 이를 통해 교육적이고 다양성을 존중하는 콘텐츠를 바탕으로 모두를 위한 뮤지엄을 목표로 한다. 또한 자체 프로그램인 '살롱드포도 Salon de PODO'도 지속적으로 진행 중이다. 박물관 1층에는 카페와 기념품샵 등이 있다.",
+      "sido": "제주특별자치도",
+      "sigungu": "서귀포시",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=27"
+      ],
+      "evidence_id": "E2",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=35",
+        "fields": {
+          "name": "포도뮤지엄",
+          "sido": "제주특별자치도",
+          "sigungu": "서귀포시",
+          "address": "제주특별자치도 서귀포시 안덕면 산록남로 788",
+          "ownership_type": "사립",
+          "adult_fee": "10000",
+          "youth_fee": "6000",
+          "child_fee": "4000",
+          "adult_fee_status": "BASE_FEE_PAID",
+          "weekday_open": "10:00",
+          "weekday_close": "18:00",
+          "holiday_open": "10:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "매주화"
+        },
+        "base_data_date": "2026-09-30",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0847",
+      "name": "삼성화재 모빌리티뮤지엄",
+      "document": "삼성화재 모빌리티뮤지엄은 재미있는 모빌리티 어트랙션을 체험하고 공간과 어우러진 아름다운 클래식카를 감상하며 푸르른 자연 속 여유로운 휴식도 함께 할 수 있는 복합문화공간이다. 모빌리티의 과거와 현재 그리고 미래를 조망하면서 즐거운 체험, 깊이있는 배움 그리고 여유로운 맛과 휴식을 함께 할 수 있는 공간이다. 국내 최초 자동차 전문 박물관으로 개관해 어린이 교통교실 등 안전체험교육을 함께 운영하여 개인뿐 아니라 어린이집, 유치원, 학교 등의 기관 및 단체 체험학습장으로도 많은 사랑을 받는 곳이다. 살아생전 자동차 수집가였던 삼성전자 이건희 회장이 삼성교통박물관으로 개관하여 2023년 대대적인 리뉴얼 작업을 거쳐 삼성화재 모빌리티뮤지엄으로 재탄생하였다. 박물관은 클래식카에서 모빌리티로 테마를 확장하고 체험과 복합문화 기능이 강화되어 더욱 다채로운 볼거리와 체험거리를 제공하고 있다. 삼성화재 모빌리티뮤지엄은 2층 건물로 1층에는 모빌리티 상설전시와 특별전시로 구성되어 있다. 친환경, 자율주행, UAM, 드론, 우주여행 등 다양한 모빌리티를 이해할 수 있는 공간으로 조성하였다. 2층은 감성적인 공간과 조화를 이룬 클래식카를 감상할 수 있는 공간으로 자동차 발명 이후 시대별 변화와 발전과정을 살펴볼 수 있다. 야외에는 시승체험 및 드라이빙 체험존이 있다. 체험 프로그램은 실내∙실외 유료체험으로 운영된다. 실내 체험으로는 대형 드론타워에서 직접 드론을 날려보는 ‘레디! 플라이 드론’, 가마(GAMA) 시뮬레이터에 탑승해 가상 레이싱 게임을 즐기는 ‘스피드킹 레이서’, 4D 시뮬레이터를 타고 가상 전투비행과 치열한 공중전을 체험해 보는 ‘익스트림 에어 컴뱃’ 등이 있으며, 야외체험으로는 클래식카를 직접 시승해 보는 ‘헤리티지 드라이브’, RC카 전용 대형서킷에서 속도와 스릴을 체험하는 ‘RC 레이스웨이’가 있다.",
+      "metadata": {
+        "weekday_close": "18:00",
+        "sigungu": "용인시",
+        "source_types": "TOUR_API",
+        "weekday_open": "10:00",
+        "image_copyright": "Type1",
+        "adult_fee_status": "BASE_FEE_PAID",
+        "address": "경기도 용인시 처인구 포곡읍 에버랜드로376번길 171",
+        "latitude": 37.300383,
+        "requires_manual_review": true,
+        "youth_fee": 5000.0,
+        "sido": "경기도",
+        "ownership_type": "사립",
+        "holiday_open": "10:00",
+        "closure_rule_raw": "매주 월요일, 설연휴,추석연휴",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/67/4127067_image2_1.jpg",
+        "homepage_url": "http://www.stm.or.kr",
+        "fee_notes": "3000",
+        "adult_fee": 6000.0,
+        "name": "삼성화재 모빌리티뮤지엄",
+        "child_fee": 5000.0,
+        "longitude": 127.2169538,
+        "holiday_close": "18:00"
+      },
+      "vector_rank": 2,
+      "bm25_rank": 7,
+      "vector_distance": 0.671945333480835,
+      "vector_score": null,
+      "bm25_score": 5.9663217988237065,
+      "vector_document": "삼성화재 모빌리티뮤지엄은 재미있는 모빌리티 어트랙션을 체험하고 공간과 어우러진 아름다운 클래식카를 감상하며 푸르른 자연 속 여유로운 휴식도 함께 할 수 있는 복합문화공간이다. 모빌리티의 과거와 현재 그리고 미래를 조망하면서 즐거운 체험, 깊이있는 배움 그리고 여유로운 맛과 휴식을 함께 할 수 있는 공간이다. 국내 최초 자동차 전문 박물관으로 개관해 어린이 교통교실 등 안전체험교육을 함께 운영하여 개인뿐 아니라 어린이집, 유치원, 학교 등의 기관 및 단체 체험학습장으로도 많은 사랑을 받는 곳이다. 살아생전 자동차 수집가였던 삼성전자 이건희 회장이 삼성교통박물관으로 개관하여 2023년 대대적인 리뉴얼 작업을 거쳐 삼성화재 모빌리티뮤지엄으로 재탄생하였다. 박물관은 클래식카에서 모빌리티로 테마를 확장하고 체험과 복합문화 기능이 강화되어 더욱 다채로운 볼거리와 체험거리를 제공하고 있다. 삼성화재 모빌리티뮤지엄은 2층 건물로 1층에는 모빌리티 상설전시와 특별전시로 구성되어 있다. 친환경, 자율주행, UAM, 드론, 우주여행 등 다양한 모빌리티를 이해할 수 있는 공간으로 조성하였다. 2층은 감성적인 공간과 조화를 이룬 클래식카를 감상할 수 있는 공간으로 자동차 발명 이후 시대별 변화와 발전과정을 살펴볼 수 있다. 야외에는 시승체험 및 드라이빙 체험존이 있다. 체험 프로그램은 실내∙실외 유료체험으로 운영된다. 실내 체험으로는 대형 드론타워에서 직접 드론을 날려보는 ‘레디! 플라이 드론’, 가마(GAMA) 시뮬레이터에 탑승해 가상 레이싱 게임을 즐기는 ‘스피드킹 레이서’, 4D 시뮬레이터를 타고 가상 전투비행과 치열한 공중전을 체험해 보는 ‘익스트림 에어 컴뱃’ 등이 있으며, 야외체험으로는 클래식카를 직접 시승해 보는 ‘헤리티지 드라이브’, RC카 전용 대형서킷에서 속도와 스릴을 체험하는 ‘RC 레이스웨이’가 있다.",
+      "bm25_document": "삼성화재 모빌리티뮤지엄은 재미있는 모빌리티 어트랙션을 체험하고 공간과 어우러진 아름다운 클래식카를 감상하며 푸르른 자연 속 여유로운 휴식도 함께 할 수 있는 복합문화공간이다. 모빌리티의 과거와 현재 그리고 미래를 조망하면서 즐거운 체험, 깊이있는 배움 그리고 여유로운 맛과 휴식을 함께 할 수 있는 공간이다. 국내 최초 자동차 전문 박물관으로 개관해 어린이 교통교실 등 안전체험교육을 함께 운영하여 개인뿐 아니라 어린이집, 유치원, 학교 등의 기관 및 단체 체험학습장으로도 많은 사랑을 받는 곳이다. 살아생전 자동차 수집가였던 삼성전자 이건희 회장이 삼성교통박물관으로 개관하여 2023년 대대적인 리뉴얼 작업을 거쳐 삼성화재 모빌리티뮤지엄으로 재탄생하였다. 박물관은 클래식카에서 모빌리티로 테마를 확장하고 체험과 복합문화 기능이 강화되어 더욱 다채로운 볼거리와 체험거리를 제공하고 있다. 삼성화재 모빌리티뮤지엄은 2층 건물로 1층에는 모빌리티 상설전시와 특별전시로 구성되어 있다. 친환경, 자율주행, UAM, 드론, 우주여행 등 다양한 모빌리티를 이해할 수 있는 공간으로 조성하였다. 2층은 감성적인 공간과 조화를 이룬 클래식카를 감상할 수 있는 공간으로 자동차 발명 이후 시대별 변화와 발전과정을 살펴볼 수 있다. 야외에는 시승체험 및 드라이빙 체험존이 있다. 체험 프로그램은 실내∙실외 유료체험으로 운영된다. 실내 체험으로는 대형 드론타워에서 직접 드론을 날려보는 ‘레디! 플라이 드론’, 가마(GAMA) 시뮬레이터에 탑승해 가상 레이싱 게임을 즐기는 ‘스피드킹 레이서’, 4D 시뮬레이터를 타고 가상 전투비행과 치열한 공중전을 체험해 보는 ‘익스트림 에어 컴뱃’ 등이 있으며, 야외체험으로는 클래식카를 직접 시승해 보는 ‘헤리티지 드라이브’, RC카 전용 대형서킷에서 속도와 스릴을 체험하는 ‘RC 레이스웨이’가 있다.",
+      "best_span_id": "chroma:M0847",
+      "best_span_text": "삼성화재 모빌리티뮤지엄은 재미있는 모빌리티 어트랙션을 체험하고 공간과 어우러진 아름다운 클래식카를 감상하며 푸르른 자연 속 여유로운 휴식도 함께 할 수 있는 복합문화공간이다. 모빌리티의 과거와 현재 그리고 미래를 조망하면서 즐거운 체험, 깊이있는 배움 그리고 여유로운 맛과 휴식을 함께 할 수 있는 공간이다. 국내 최초 자동차 전문 박물관으로 개관해 어린이 교통교실 등 안전체험교육을 함께 운영하여 개인뿐 아니라 어린이집, 유치원, 학교 등의 기관 및 단체 체험학습장으로도 많은 사랑을 받는 곳이다. 살아생전 자동차 수집가였던 삼성전자 이건희 회장이 삼성교통박물관으로 개관하여 2023년 대대적인 리뉴얼 작업을 거쳐 삼성화재 모빌리티뮤지엄으로 재탄생하였다. 박물관은 클래식카에서 모빌리티로 테마를 확장하고 체험과 복합문화 기능이 강화되어 더욱 다채로운 볼거리와 체험거리를 제공하고 있다. 삼성화재 모빌리티뮤지엄은 2층 건물로 1층에는 모빌리티 상설전시와 특별전시로 구성되어 있다. 친환경, 자율주행, UAM, 드론, 우주여행 등 다양한 모빌리티를 이해할 수 있는 공간으로 조성하였다. 2층은 감성적인 공간과 조화를 이룬 클래식카를 감상할 수 있는 공간으로 자동차 발명 이후 시대별 변화와 발전과정을 살펴볼 수 있다. 야외에는 시승체험 및 드라이빙 체험존이 있다. 체험 프로그램은 실내∙실외 유료체험으로 운영된다. 실내 체험으로는 대형 드론타워에서 직접 드론을 날려보는 ‘레디! 플라이 드론’, 가마(GAMA) 시뮬레이터에 탑승해 가상 레이싱 게임을 즐기는 ‘스피드킹 레이서’, 4D 시뮬레이터를 타고 가상 전투비행과 치열한 공중전을 체험해 보는 ‘익스트림 에어 컴뱃’ 등이 있으며, 야외체험으로는 클래식카를 직접 시승해 보는 ‘헤리티지 드라이브’, RC카 전용 대형서킷에서 속도와 스릴을 체험하는 ‘RC 레이스웨이’가 있다.",
+      "fusion_score": 0.031054405392392875,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 3,
+      "rerank_score": null,
+      "rank": 3,
+      "score": 0.031054405392392875,
+      "score_type": "rrf",
+      "distance": 0.671945333480835,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0847",
+      "source_doc_ids": [
+        "DOC-B0847-TOUR_API-2463772"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0847-TOUR_API-2463772",
+          "source_type": "TOUR_API",
+          "source_record_id": "2463772",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=401",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 97,
+          "doc_ids": [
+            "DOC-B0847-TOUR_API-2463772"
+          ]
+        },
+        {
+          "start": 98,
+          "end": 172,
+          "doc_ids": [
+            "DOC-B0847-TOUR_API-2463772"
+          ]
+        },
+        {
+          "start": 173,
+          "end": 279,
+          "doc_ids": [
+            "DOC-B0847-TOUR_API-2463772"
+          ]
+        },
+        {
+          "start": 280,
+          "end": 367,
+          "doc_ids": [
+            "DOC-B0847-TOUR_API-2463772"
+          ]
+        },
+        {
+          "start": 368,
+          "end": 440,
+          "doc_ids": [
+            "DOC-B0847-TOUR_API-2463772"
+          ]
+        },
+        {
+          "start": 441,
+          "end": 492,
+          "doc_ids": [
+            "DOC-B0847-TOUR_API-2463772"
+          ]
+        },
+        {
+          "start": 493,
+          "end": 550,
+          "doc_ids": [
+            "DOC-B0847-TOUR_API-2463772"
+          ]
+        },
+        {
+          "start": 551,
+          "end": 624,
+          "doc_ids": [
+            "DOC-B0847-TOUR_API-2463772"
+          ]
+        },
+        {
+          "start": 625,
+          "end": 650,
+          "doc_ids": [
+            "DOC-B0847-TOUR_API-2463772"
+          ]
+        },
+        {
+          "start": 651,
+          "end": 678,
+          "doc_ids": [
+            "DOC-B0847-TOUR_API-2463772"
+          ]
+        },
+        {
+          "start": 679,
+          "end": 714,
+          "doc_ids": [
+            "DOC-B0847-TOUR_API-2463772"
+          ]
+        },
+        {
+          "start": 715,
+          "end": 909,
+          "doc_ids": [
+            "DOC-B0847-TOUR_API-2463772"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=401",
+      "text": "삼성화재 모빌리티뮤지엄은 재미있는 모빌리티 어트랙션을 체험하고 공간과 어우러진 아름다운 클래식카를 감상하며 푸르른 자연 속 여유로운 휴식도 함께 할 수 있는 복합문화공간이다. 모빌리티의 과거와 현재 그리고 미래를 조망하면서 즐거운 체험, 깊이있는 배움 그리고 여유로운 맛과 휴식을 함께 할 수 있는 공간이다. 국내 최초 자동차 전문 박물관으로 개관해 어린이 교통교실 등 안전체험교육을 함께 운영하여 개인뿐 아니라 어린이집, 유치원, 학교 등의 기관 및 단체 체험학습장으로도 많은 사랑을 받는 곳이다. 살아생전 자동차 수집가였던 삼성전자 이건희 회장이 삼성교통박물관으로 개관하여 2023년 대대적인 리뉴얼 작업을 거쳐 삼성화재 모빌리티뮤지엄으로 재탄생하였다. 박물관은 클래식카에서 모빌리티로 테마를 확장하고 체험과 복합문화 기능이 강화되어 더욱 다채로운 볼거리와 체험거리를 제공하고 있다. 삼성화재 모빌리티뮤지엄은 2층 건물로 1층에는 모빌리티 상설전시와 특별전시로 구성되어 있다. 친환경, 자율주행, UAM, 드론, 우주여행 등 다양한 모빌리티를 이해할 수 있는 공간으로 조성하였다. 2층은 감성적인 공간과 조화를 이룬 클래식카를 감상할 수 있는 공간으로 자동차 발명 이후 시대별 변화와 발전과정을 살펴볼 수 있다. 야외에는 시승체험 및 드라이빙 체험존이 있다. 체험 프로그램은 실내∙실외 유료체험으로 운영된다. 실내 체험으로는 대형 드론타워에서 직접 드론을 날려보는 ‘레디! 플라이 드론’, 가마(GAMA) 시뮬레이터에 탑승해 가상 레이싱 게임을 즐기는 ‘스피드킹 레이서’, 4D 시뮬레이터를 타고 가상 전투비행과 치열한 공중전을 체험해 보는 ‘익스트림 에어 컴뱃’ 등이 있으며, 야외체험으로는 클래식카를 직접 시승해 보는 ‘헤리티지 드라이브’, RC카 전용 대형서킷에서 속도와 스릴을 체험하는 ‘RC 레이스웨이’가 있다.",
+      "sido": "경기도",
+      "sigungu": "용인시",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=401"
+      ],
+      "evidence_id": "E3",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=574",
+        "fields": {
+          "name": "삼성화재 모빌리티뮤지엄",
+          "sido": "경기도",
+          "sigungu": "용인시",
+          "address": "경기도 용인시 처인구 포곡읍 에버랜드로376번길 171",
+          "ownership_type": "사립",
+          "adult_fee": "6000",
+          "youth_fee": "5000",
+          "child_fee": "5000",
+          "adult_fee_status": "BASE_FEE_PAID",
+          "weekday_open": "10:00",
+          "weekday_close": "18:00",
+          "holiday_open": "10:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "매주 월요일, 설연휴,추석연휴"
+        },
+        "base_data_date": "2024-11-29",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0657",
+      "name": "환기미술관",
+      "document": "환기미술관은 1992년 11월 수화 김환기를 기리고 현대미술의 발전에 공헌하고자 건축가 우규승의 설계로 서울에 개관하였다. 한국현대미술을 대표하는 김환기의 예술세계를 널리 알리기 위해 매년 김환기 연구 특별기획전과 도록을 발간하고 있으며 ‘근현대작가 연구’, ‘수화가 만난 사람들’, ‘환기미술관 공간프로젝트’, ‘환기재단 작가전’과 같은 현대작가와 동시대 작가들 전시뿐만 아니라 ‘프리환기’ 공모전을 통하여 다양한 분야에서 활동하는 젊은 예술가들의 창작활동을 지원하고 있다. 또한 ‘치매어르신 예술프로그램’ ‘아트온’ ‘아트띵크’ 등과 같은 교육프로그램을 통해 시민사회를 위한 공공교육기관으로서의 역할도 담당하고 있다. 이는 예술가가 남긴 훌륭한 예술세계가 시간과 더불어 우리 문화유산으로 역사에 남는다는 설립자의 신념에서 출발한 것이다. 앞으로도 환기미술관은 기관의 미래 비전인 “예술로써 소통하는 사회로의 꿈”을 실현하기 위해 더욱 노력할 것이다.",
+      "metadata": {
+        "longitude": 126.966112,
+        "weekday_close": "18:00",
+        "source_types": "TOUR_API",
+        "sido": "서울특별시",
+        "ownership_type": "사립",
+        "child_fee": 7500.0,
+        "homepage_url": "http://whankimuseum.org/",
+        "image_url": "http://tong.visitkorea.or.kr/cms/resource/52/3488552_image2_1.jpg",
+        "latitude": 37.59408714,
+        "sigungu": "종로구",
+        "closure_rule_raw": "월요일",
+        "adult_fee": 15000.0,
+        "adult_fee_status": "BASE_FEE_PAID",
+        "holiday_close": "18:00",
+        "address": "서울특별시 종로구 자하문로 40길 63",
+        "image_copyright": "Type3",
+        "holiday_open": "10:00",
+        "name": "환기미술관",
+        "requires_manual_review": true,
+        "weekday_open": "10:00",
+        "youth_fee": 7500.0
+      },
+      "vector_rank": 3,
+      "bm25_rank": 6,
+      "vector_distance": 0.6794756054878235,
+      "vector_score": null,
+      "bm25_score": 6.105247146529346,
+      "vector_document": "환기미술관은 1992년 11월 수화 김환기를 기리고 현대미술의 발전에 공헌하고자 건축가 우규승의 설계로 서울에 개관하였다. 한국현대미술을 대표하는 김환기의 예술세계를 널리 알리기 위해 매년 김환기 연구 특별기획전과 도록을 발간하고 있으며 ‘근현대작가 연구’, ‘수화가 만난 사람들’, ‘환기미술관 공간프로젝트’, ‘환기재단 작가전’과 같은 현대작가와 동시대 작가들 전시뿐만 아니라 ‘프리환기’ 공모전을 통하여 다양한 분야에서 활동하는 젊은 예술가들의 창작활동을 지원하고 있다. 또한 ‘치매어르신 예술프로그램’ ‘아트온’ ‘아트띵크’ 등과 같은 교육프로그램을 통해 시민사회를 위한 공공교육기관으로서의 역할도 담당하고 있다. 이는 예술가가 남긴 훌륭한 예술세계가 시간과 더불어 우리 문화유산으로 역사에 남는다는 설립자의 신념에서 출발한 것이다. 앞으로도 환기미술관은 기관의 미래 비전인 “예술로써 소통하는 사회로의 꿈”을 실현하기 위해 더욱 노력할 것이다.",
+      "bm25_document": "환기미술관은 1992년 11월 수화 김환기를 기리고 현대미술의 발전에 공헌하고자 건축가 우규승의 설계로 서울에 개관하였다. 한국현대미술을 대표하는 김환기의 예술세계를 널리 알리기 위해 매년 김환기 연구 특별기획전과 도록을 발간하고 있으며 ‘근현대작가 연구’, ‘수화가 만난 사람들’, ‘환기미술관 공간프로젝트’, ‘환기재단 작가전’과 같은 현대작가와 동시대 작가들 전시뿐만 아니라 ‘프리환기’ 공모전을 통하여 다양한 분야에서 활동하는 젊은 예술가들의 창작활동을 지원하고 있다. 또한 ‘치매어르신 예술프로그램’ ‘아트온’ ‘아트띵크’ 등과 같은 교육프로그램을 통해 시민사회를 위한 공공교육기관으로서의 역할도 담당하고 있다. 이는 예술가가 남긴 훌륭한 예술세계가 시간과 더불어 우리 문화유산으로 역사에 남는다는 설립자의 신념에서 출발한 것이다. 앞으로도 환기미술관은 기관의 미래 비전인 “예술로써 소통하는 사회로의 꿈”을 실현하기 위해 더욱 노력할 것이다.",
+      "best_span_id": "chroma:M0657",
+      "best_span_text": "환기미술관은 1992년 11월 수화 김환기를 기리고 현대미술의 발전에 공헌하고자 건축가 우규승의 설계로 서울에 개관하였다. 한국현대미술을 대표하는 김환기의 예술세계를 널리 알리기 위해 매년 김환기 연구 특별기획전과 도록을 발간하고 있으며 ‘근현대작가 연구’, ‘수화가 만난 사람들’, ‘환기미술관 공간프로젝트’, ‘환기재단 작가전’과 같은 현대작가와 동시대 작가들 전시뿐만 아니라 ‘프리환기’ 공모전을 통하여 다양한 분야에서 활동하는 젊은 예술가들의 창작활동을 지원하고 있다. 또한 ‘치매어르신 예술프로그램’ ‘아트온’ ‘아트띵크’ 등과 같은 교육프로그램을 통해 시민사회를 위한 공공교육기관으로서의 역할도 담당하고 있다. 이는 예술가가 남긴 훌륭한 예술세계가 시간과 더불어 우리 문화유산으로 역사에 남는다는 설립자의 신념에서 출발한 것이다. 앞으로도 환기미술관은 기관의 미래 비전인 “예술로써 소통하는 사회로의 꿈”을 실현하기 위해 더욱 노력할 것이다.",
+      "fusion_score": 0.031024531024531024,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 4,
+      "rerank_score": null,
+      "rank": 4,
+      "score": 0.031024531024531024,
+      "score_type": "rrf",
+      "distance": 0.6794756054878235,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0657",
+      "source_doc_ids": [
+        "DOC-B0657-TOUR_API-129760"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0657-TOUR_API-129760",
+          "source_type": "TOUR_API",
+          "source_record_id": "129760",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=327",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 68,
+          "doc_ids": [
+            "DOC-B0657-TOUR_API-129760"
+          ]
+        },
+        {
+          "start": 69,
+          "end": 266,
+          "doc_ids": [
+            "DOC-B0657-TOUR_API-129760"
+          ]
+        },
+        {
+          "start": 267,
+          "end": 347,
+          "doc_ids": [
+            "DOC-B0657-TOUR_API-129760"
+          ]
+        },
+        {
+          "start": 348,
+          "end": 414,
+          "doc_ids": [
+            "DOC-B0657-TOUR_API-129760"
+          ]
+        },
+        {
+          "start": 415,
+          "end": 477,
+          "doc_ids": [
+            "DOC-B0657-TOUR_API-129760"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=327",
+      "text": "환기미술관은 1992년 11월 수화 김환기를 기리고 현대미술의 발전에 공헌하고자 건축가 우규승의 설계로 서울에 개관하였다. 한국현대미술을 대표하는 김환기의 예술세계를 널리 알리기 위해 매년 김환기 연구 특별기획전과 도록을 발간하고 있으며 ‘근현대작가 연구’, ‘수화가 만난 사람들’, ‘환기미술관 공간프로젝트’, ‘환기재단 작가전’과 같은 현대작가와 동시대 작가들 전시뿐만 아니라 ‘프리환기’ 공모전을 통하여 다양한 분야에서 활동하는 젊은 예술가들의 창작활동을 지원하고 있다. 또한 ‘치매어르신 예술프로그램’ ‘아트온’ ‘아트띵크’ 등과 같은 교육프로그램을 통해 시민사회를 위한 공공교육기관으로서의 역할도 담당하고 있다. 이는 예술가가 남긴 훌륭한 예술세계가 시간과 더불어 우리 문화유산으로 역사에 남는다는 설립자의 신념에서 출발한 것이다. 앞으로도 환기미술관은 기관의 미래 비전인 “예술로써 소통하는 사회로의 꿈”을 실현하기 위해 더욱 노력할 것이다.",
+      "sido": "서울특별시",
+      "sigungu": "종로구",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=327"
+      ],
+      "evidence_id": "E4",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=453",
+        "fields": {
+          "name": "환기미술관",
+          "sido": "서울특별시",
+          "sigungu": "종로구",
+          "address": "서울특별시 종로구 자하문로 40길 63",
+          "ownership_type": "사립",
+          "adult_fee": "15000",
+          "youth_fee": "7500",
+          "child_fee": "7500",
+          "adult_fee_status": "BASE_FEE_PAID",
+          "weekday_open": "10:00",
+          "weekday_close": "18:00",
+          "holiday_open": "10:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "월요일"
+        },
+        "base_data_date": "2025-11-01",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0964",
+      "name": "북촌박물관",
+      "document": "북촌박물관은 우리의 문화자산을 인문학적 접근을 통해 과거와 소통하고, 바람직한 미래를 열어 가는데 이바지하고자 시작되었다. 북촌박물관은 역사의 흐름 속에서 알게 모르게 우리의 생활 속에 이어져 온 유·무형의 문화자산을 전시하고 옛것이 지닌 미의식의 가치를 오늘의 생활에 연결시키고자 한다. 이를 위해 북촌박물관은 고미술품은 물론, 전통의 가치가 새롭게 해석되고 재현된 현대미술 및 공예품의 전시를 통해 그 속에 깃든 ‘총체적인 삶의 아우라로서의 우리 문화’를 재조명한다. 또한, 우리 문화의 전통적 가치를 공유하는 많은 이들이 풍속도의 한 장면처럼 모이고, 그 모임을 의미 있는 형태로 기록하여 널리 알리는 통로 역할을 수행하며, 전통의 바탕 위에서 오늘을 살고 있는 우리 삶의 가치를 되돌아보고, 체험하는 온고지신(溫故知新)의 장을 마련하고 한다.",
+      "metadata": {
+        "image_copyright": "Type3",
+        "sido": "서울특별시",
+        "adult_fee": 3000.0,
+        "weekday_open": "10:00",
+        "weekday_close": "18:00",
+        "source_types": "TOUR_API",
+        "adult_fee_status": "BASE_FEE_PAID",
+        "requires_manual_review": true,
+        "ownership_type": "사립",
+        "closure_rule_raw": "월요일",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/16/3303716_image2_1.jpg",
+        "holiday_open": "10:00",
+        "sigungu": "종로구",
+        "name": "북촌박물관",
+        "address": "서울특별시 종로구 북촌로 39",
+        "child_fee": 0.0,
+        "holiday_close": "18:00",
+        "longitude": 126.9847663,
+        "youth_fee": 2000.0,
+        "latitude": 37.58043197
+      },
+      "vector_rank": 6,
+      "bm25_rank": 8,
+      "vector_distance": 0.7104761004447937,
+      "vector_score": null,
+      "bm25_score": 5.74061328113951,
+      "vector_document": "북촌박물관은 우리의 문화자산을 인문학적 접근을 통해 과거와 소통하고, 바람직한 미래를 열어 가는데 이바지하고자 시작되었다. 북촌박물관은 역사의 흐름 속에서 알게 모르게 우리의 생활 속에 이어져 온 유·무형의 문화자산을 전시하고 옛것이 지닌 미의식의 가치를 오늘의 생활에 연결시키고자 한다. 이를 위해 북촌박물관은 고미술품은 물론, 전통의 가치가 새롭게 해석되고 재현된 현대미술 및 공예품의 전시를 통해 그 속에 깃든 ‘총체적인 삶의 아우라로서의 우리 문화’를 재조명한다. 또한, 우리 문화의 전통적 가치를 공유하는 많은 이들이 풍속도의 한 장면처럼 모이고, 그 모임을 의미 있는 형태로 기록하여 널리 알리는 통로 역할을 수행하며, 전통의 바탕 위에서 오늘을 살고 있는 우리 삶의 가치를 되돌아보고, 체험하는 온고지신(溫故知新)의 장을 마련하고 한다.",
+      "bm25_document": "북촌박물관은 우리의 문화자산을 인문학적 접근을 통해 과거와 소통하고, 바람직한 미래를 열어 가는데 이바지하고자 시작되었다. 북촌박물관은 역사의 흐름 속에서 알게 모르게 우리의 생활 속에 이어져 온 유·무형의 문화자산을 전시하고 옛것이 지닌 미의식의 가치를 오늘의 생활에 연결시키고자 한다. 이를 위해 북촌박물관은 고미술품은 물론, 전통의 가치가 새롭게 해석되고 재현된 현대미술 및 공예품의 전시를 통해 그 속에 깃든 ‘총체적인 삶의 아우라로서의 우리 문화’를 재조명한다. 또한, 우리 문화의 전통적 가치를 공유하는 많은 이들이 풍속도의 한 장면처럼 모이고, 그 모임을 의미 있는 형태로 기록하여 널리 알리는 통로 역할을 수행하며, 전통의 바탕 위에서 오늘을 살고 있는 우리 삶의 가치를 되돌아보고, 체험하는 온고지신(溫故知新)의 장을 마련하고 한다.",
+      "best_span_id": "chroma:M0964",
+      "best_span_text": "북촌박물관은 우리의 문화자산을 인문학적 접근을 통해 과거와 소통하고, 바람직한 미래를 열어 가는데 이바지하고자 시작되었다. 북촌박물관은 역사의 흐름 속에서 알게 모르게 우리의 생활 속에 이어져 온 유·무형의 문화자산을 전시하고 옛것이 지닌 미의식의 가치를 오늘의 생활에 연결시키고자 한다. 이를 위해 북촌박물관은 고미술품은 물론, 전통의 가치가 새롭게 해석되고 재현된 현대미술 및 공예품의 전시를 통해 그 속에 깃든 ‘총체적인 삶의 아우라로서의 우리 문화’를 재조명한다. 또한, 우리 문화의 전통적 가치를 공유하는 많은 이들이 풍속도의 한 장면처럼 모이고, 그 모임을 의미 있는 형태로 기록하여 널리 알리는 통로 역할을 수행하며, 전통의 바탕 위에서 오늘을 살고 있는 우리 삶의 가치를 되돌아보고, 체험하는 온고지신(溫故知新)의 장을 마련하고 한다.",
+      "fusion_score": 0.029857397504456328,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 5,
+      "rerank_score": null,
+      "rank": 5,
+      "score": 0.029857397504456328,
+      "score_type": "rrf",
+      "distance": 0.7104761004447937,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0964",
+      "source_doc_ids": [
+        "DOC-B0964-TOUR_API-2445728"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0964-TOUR_API-2445728",
+          "source_type": "TOUR_API",
+          "source_record_id": "2445728",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=452",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 68,
+          "doc_ids": [
+            "DOC-B0964-TOUR_API-2445728"
+          ]
+        },
+        {
+          "start": 69,
+          "end": 161,
+          "doc_ids": [
+            "DOC-B0964-TOUR_API-2445728"
+          ]
+        },
+        {
+          "start": 162,
+          "end": 263,
+          "doc_ids": [
+            "DOC-B0964-TOUR_API-2445728"
+          ]
+        },
+        {
+          "start": 264,
+          "end": 419,
+          "doc_ids": [
+            "DOC-B0964-TOUR_API-2445728"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=452",
+      "text": "북촌박물관은 우리의 문화자산을 인문학적 접근을 통해 과거와 소통하고, 바람직한 미래를 열어 가는데 이바지하고자 시작되었다. 북촌박물관은 역사의 흐름 속에서 알게 모르게 우리의 생활 속에 이어져 온 유·무형의 문화자산을 전시하고 옛것이 지닌 미의식의 가치를 오늘의 생활에 연결시키고자 한다. 이를 위해 북촌박물관은 고미술품은 물론, 전통의 가치가 새롭게 해석되고 재현된 현대미술 및 공예품의 전시를 통해 그 속에 깃든 ‘총체적인 삶의 아우라로서의 우리 문화’를 재조명한다. 또한, 우리 문화의 전통적 가치를 공유하는 많은 이들이 풍속도의 한 장면처럼 모이고, 그 모임을 의미 있는 형태로 기록하여 널리 알리는 통로 역할을 수행하며, 전통의 바탕 위에서 오늘을 살고 있는 우리 삶의 가치를 되돌아보고, 체험하는 온고지신(溫故知新)의 장을 마련하고 한다.",
+      "sido": "서울특별시",
+      "sigungu": "종로구",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=452"
+      ],
+      "evidence_id": "E5",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=664",
+        "fields": {
+          "name": "북촌박물관",
+          "sido": "서울특별시",
+          "sigungu": "종로구",
+          "address": "서울특별시 종로구 북촌로 39",
+          "ownership_type": "사립",
+          "adult_fee": "3000",
+          "youth_fee": "2000",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_PAID",
+          "weekday_open": "10:00",
+          "weekday_close": "18:00",
+          "holiday_open": "10:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "월요일"
+        },
+        "base_data_date": "2025-11-01",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    }
+  ],
+  "answer": "헬로우뮤지움은 어린이의 생태 감수성을 키우고 지역 주민의 삶과 가까운 ‘커뮤니티형 에코미술관’으로 자리매김하며, 전시·교육 프로그램을 통해 어린이뿐 아니라 어린이와 연결된 지역사회 구성원의 삶도 풍요롭게 하는 방식으로 미래적 가치를 실현한다고 소개되어 있습니다. [E1]",
+  "retrieval_status": "ok",
+  "answer_status": "answered",
+  "route": "hybrid",
+  "retry_count": 0,
+  "supervisor_verified": true,
+  "rerank_applied": false,
+  "retriever_errors": [],
+  "warnings": [
+    "Cross-Encoder reranking failed (FileNotFoundError); RRF order retained"
+  ],
+  "duration_ms": 11099.56,
+  "error_type": "",
+  "hit_at_1": 1,
+  "hit_at_3": 1,
+  "hit_at_5": 1,
+  "recall_at_5": 1.0,
+  "mrr_at_10": 1.0
+}

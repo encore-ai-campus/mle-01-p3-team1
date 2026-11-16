@@ -1,0 +1,100 @@
+{
+  "mode": "supervisor_full",
+  "question_id": "Q071",
+  "evidence": [
+    {
+      "museum_id": "M0085",
+      "name": "조안베어뮤지엄",
+      "text": "제주도 남부 서귀포시의 중문 관광단지 내에 위치하고 있는 조안베어뮤지엄은 세계적으로 유명한 테디베어 아티스트인 조안 오의 작업실이자 전시공간이다.",
+      "span_id": "M0085:000",
+      "source_doc_ids": [
+        "DOC-B0085-TOUR_API-819583"
+      ],
+      "source_urls": [],
+      "source_url": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=42"
+      ],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=42",
+      "sido": "제주특별자치도",
+      "sigungu": "서귀포시",
+      "retriever": "graph",
+      "facility_type": "박물관",
+      "metadata": {},
+      "chunk_id": "",
+      "retrievers": [
+        "graph"
+      ],
+      "evidence_id": "E1",
+      "rank": 1
+    },
+    {
+      "museum_id": "M0085",
+      "name": "조안베어뮤지엄",
+      "text": "박물관에서는 천연의 소재로 만들어진 테디베어를 만날 수 있으며, 제주 자연의 아름다움을 느끼며 느긋한 휴식을 취할 수 있는 곳이다.",
+      "span_id": "M0085:001",
+      "source_doc_ids": [
+        "DOC-B0085-TOUR_API-819583"
+      ],
+      "source_urls": [],
+      "source_url": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=42"
+      ],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=42",
+      "sido": "제주특별자치도",
+      "sigungu": "서귀포시",
+      "retriever": "graph",
+      "facility_type": "박물관",
+      "metadata": {},
+      "chunk_id": "",
+      "retrievers": [
+        "graph"
+      ],
+      "evidence_id": "E2",
+      "rank": 2
+    },
+    {
+      "museum_id": "M0085",
+      "name": "조안베어뮤지엄",
+      "text": "나지막한 언덕에 있는 조안베어뮤지엄에서는 백여 년 된 오십 그루의 소나무들과 돌담들이 그대로 보존되고 있어 제주 올레를 함께 할 수 있는 곳이다.",
+      "span_id": "M0085:002",
+      "source_doc_ids": [
+        "DOC-B0085-TOUR_API-819583"
+      ],
+      "source_urls": [],
+      "source_url": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=42"
+      ],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=42",
+      "sido": "제주특별자치도",
+      "sigungu": "서귀포시",
+      "retriever": "graph",
+      "facility_type": "박물관",
+      "metadata": {},
+      "chunk_id": "",
+      "retrievers": [
+        "graph"
+      ],
+      "evidence_id": "E3",
+      "rank": 3
+    }
+  ],
+  "answer": "조안베어뮤지엄은 서귀포시 중문 관광단지 안에 있는 테디베어 아티스트 조안 오의 작업실이자 전시공간입니다. [E1] 천연 소재로 만든 테디베어를 볼 수 있고, 제주 자연 속에서 쉬거나 오래된 소나무와 돌담을 보며 제주 올레를 함께할 수 있는 곳으로 소개되어 있습니다. [E2][E3]",
+  "retrieval_status": "ok",
+  "answer_status": "answered",
+  "route": "graph",
+  "retry_count": 1,
+  "supervisor_verified": true,
+  "rerank_applied": false,
+  "retriever_errors": [],
+  "warnings": [],
+  "duration_ms": 181218.7,
+  "error_type": "",
+  "hit_at_1": 1,
+  "hit_at_3": 1,
+  "hit_at_5": 1,
+  "recall_at_5": 1.0,
+  "mrr_at_10": 1.0
+}

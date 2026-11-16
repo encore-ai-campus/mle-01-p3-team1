@@ -1,0 +1,88 @@
+{
+  "mode": "supervisor_full",
+  "question_id": "V2-SW05",
+  "evidence": [
+    {
+      "museum_id": "M1064",
+      "name": "옛터박물관",
+      "text": "[Neo4j 구조화 속성] {\"amenities\": [\"카페\"], \"facility_type\": \"박물관\", \"museum_id\": \"M1064\", \"name\": \"옛터박물관\", \"open_all_year\": true, \"sido\": \"대전광역시\", \"sigungu\": \"동구\", \"source_doc_ids\": [\"DOC-B1064-BASE\"], \"source_locators\": [\"data/raw/museum_base_1070.csv#row=1065\"]}",
+      "span_id": "",
+      "source_doc_ids": [
+        "DOC-B1064-BASE"
+      ],
+      "source_urls": [],
+      "source_url": "",
+      "source_locators": [
+        "data/raw/museum_base_1070.csv#row=1065"
+      ],
+      "source_locator": "data/raw/museum_base_1070.csv#row=1065",
+      "sido": "대전광역시",
+      "sigungu": "동구",
+      "retriever": "graph",
+      "amenities": [
+        "카페"
+      ],
+      "facility_type": "박물관",
+      "closure_weekdays": [],
+      "open_all_year": true,
+      "source_scope": "graph_properties",
+      "metadata": {},
+      "chunk_id": "",
+      "retrievers": [
+        "graph"
+      ],
+      "evidence_id": "E1",
+      "rank": 1
+    },
+    {
+      "museum_id": "M1069",
+      "name": "옛터민속박물관",
+      "text": "[Neo4j 구조화 속성] {\"amenities\": [\"카페\"], \"facility_type\": \"박물관\", \"museum_id\": \"M1069\", \"name\": \"옛터민속박물관\", \"open_all_year\": true, \"sido\": \"대전광역시\", \"sigungu\": \"동구\", \"source_doc_ids\": [\"DOC-B1069-BASE\", \"DOC-B1069-TOUR_API-130890\"], \"source_locators\": [\"data/raw/museum_base_1070.csv#row=1070\", \"data/raw/museum_tourapi_with_overview.csv#row=494\"]}",
+      "span_id": "",
+      "source_doc_ids": [
+        "DOC-B1069-BASE",
+        "DOC-B1069-TOUR_API-130890"
+      ],
+      "source_urls": [],
+      "source_url": "",
+      "source_locators": [
+        "data/raw/museum_base_1070.csv#row=1070",
+        "data/raw/museum_tourapi_with_overview.csv#row=494"
+      ],
+      "source_locator": "data/raw/museum_base_1070.csv#row=1070",
+      "sido": "대전광역시",
+      "sigungu": "동구",
+      "retriever": "graph",
+      "amenities": [
+        "카페"
+      ],
+      "facility_type": "박물관",
+      "closure_weekdays": [],
+      "open_all_year": true,
+      "source_scope": "graph_properties",
+      "metadata": {},
+      "chunk_id": "",
+      "retrievers": [
+        "graph"
+      ],
+      "evidence_id": "E2",
+      "rank": 2
+    }
+  ],
+  "answer": "기록상 월요일에도 여는 대전의 카페 보유 박물관은 다음 두 곳입니다.\n- 옛터박물관(동구): 연중 개관, 휴관 요일 기록 없음, 카페 보유로 기록되어 있습니다. [E1]\n- 옛터민속박물관(동구): 연중 개관, 휴관 요일 기록 없음, 카페 보유로 기록되어 있습니다. [E2]\n\n이는 기록된 정보 기준이며 실시간 운영 여부를 뜻하지는 않습니다. [E1][E2]",
+  "retrieval_status": "ok",
+  "answer_status": "answered",
+  "route": "graph",
+  "retry_count": 1,
+  "supervisor_verified": true,
+  "rerank_applied": false,
+  "retriever_errors": [],
+  "warnings": [],
+  "duration_ms": 75403.71,
+  "error_type": "",
+  "hit_at_1": 1,
+  "hit_at_3": 1,
+  "hit_at_5": 1,
+  "recall_at_5": 1.0,
+  "mrr_at_10": 1.0
+}

@@ -1,0 +1,679 @@
+{
+  "mode": "supervisor_full",
+  "question_id": "Q134",
+  "evidence": [
+    {
+      "museum_id": "M0213",
+      "name": "영월아프리카미술박물관",
+      "document": "영월아프리카미술박물관은 아프리카 여러 부족의 생활, 의식, 신앙, 축제 등과 관련하여 만들어진 문화품 즉 조각, 그림, 생활도구, 장신구 등과 현대 미술 작품을 상설전시하고 있다. 아프리카의 다양한 문화를 폭넓게 이해하기 위해 주한아프리카대사관이 출품한 아프리카 문화전을 반영구적으로 전시하고 있다. 또한 계기별 또는 지역적 특성에 맞는 특별기획전을 개최하여 박물관의 기능을 보완하고 있다. 영월아프리카미술박물관은 아프리카인들의 관념 세계를 표현한 마스크와 인물상 등 전통적 조각품을 통하여 그들의 예술적 재능을 찾아볼 수 있고 아프리카 미술의 소재, 제작 기법, 미술적 특징 등이 현대미술에 미치는 영향과 의미를 알아볼 수 있도록 전시하고 있다. 아프리카 20여개 나라에서 수집한 미술품을 전시하고 있으며, 이국적인 풍취와함께 원초적인 생동감을 느낄 수 있습니다.",
+      "metadata": {
+        "sido": "강원특별자치도",
+        "fee_notes": "50프로 할인(영월군민+65세 이상)+ 단체요금: 20인 이상+무료(2급 이상 장애인 및 5세 이하)",
+        "latitude": 37.13187895,
+        "adult_fee": 5000.0,
+        "weekday_close": "18:00",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/20/3557220_image2_1.JPG",
+        "adult_fee_status": "BASE_FEE_PAID",
+        "sigungu": "영월군",
+        "name": "영월아프리카미술박물관",
+        "source_types": "BASE|TOUR_API",
+        "address": "강원특별자치도 영월군 김삿갓면 영월동로 1107-1",
+        "holiday_close": "18:00",
+        "longitude": 128.5353509,
+        "closure_rule_raw": "화+수",
+        "weekday_open": "09:00",
+        "ownership_type": "사립",
+        "requires_manual_review": true,
+        "youth_fee": 4000.0,
+        "homepage_url": "https://aamy.kr",
+        "image_copyright": "Type1",
+        "holiday_open": "09:00",
+        "child_fee": 3000.0
+      },
+      "vector_rank": 1,
+      "bm25_rank": 1,
+      "vector_distance": 0.34378474950790405,
+      "vector_score": null,
+      "bm25_score": 41.59339155330227,
+      "vector_document": "영월아프리카미술박물관은 아프리카 여러 부족의 생활, 의식, 신앙, 축제 등과 관련하여 만들어진 문화품 즉 조각, 그림, 생활도구, 장신구 등과 현대 미술 작품을 상설전시하고 있다. 아프리카의 다양한 문화를 폭넓게 이해하기 위해 주한아프리카대사관이 출품한 아프리카 문화전을 반영구적으로 전시하고 있다. 또한 계기별 또는 지역적 특성에 맞는 특별기획전을 개최하여 박물관의 기능을 보완하고 있다. 영월아프리카미술박물관은 아프리카인들의 관념 세계를 표현한 마스크와 인물상 등 전통적 조각품을 통하여 그들의 예술적 재능을 찾아볼 수 있고 아프리카 미술의 소재, 제작 기법, 미술적 특징 등이 현대미술에 미치는 영향과 의미를 알아볼 수 있도록 전시하고 있다. 아프리카 20여개 나라에서 수집한 미술품을 전시하고 있으며, 이국적인 풍취와함께 원초적인 생동감을 느낄 수 있습니다.",
+      "bm25_document": "영월아프리카미술박물관은 아프리카 여러 부족의 생활, 의식, 신앙, 축제 등과 관련하여 만들어진 문화품 즉 조각, 그림, 생활도구, 장신구 등과 현대 미술 작품을 상설전시하고 있다. 아프리카의 다양한 문화를 폭넓게 이해하기 위해 주한아프리카대사관이 출품한 아프리카 문화전을 반영구적으로 전시하고 있다. 또한 계기별 또는 지역적 특성에 맞는 특별기획전을 개최하여 박물관의 기능을 보완하고 있다. 영월아프리카미술박물관은 아프리카인들의 관념 세계를 표현한 마스크와 인물상 등 전통적 조각품을 통하여 그들의 예술적 재능을 찾아볼 수 있고 아프리카 미술의 소재, 제작 기법, 미술적 특징 등이 현대미술에 미치는 영향과 의미를 알아볼 수 있도록 전시하고 있다. 아프리카 20여개 나라에서 수집한 미술품을 전시하고 있으며, 이국적인 풍취와함께 원초적인 생동감을 느낄 수 있습니다.",
+      "best_span_id": "chroma:M0213",
+      "best_span_text": "영월아프리카미술박물관은 아프리카 여러 부족의 생활, 의식, 신앙, 축제 등과 관련하여 만들어진 문화품 즉 조각, 그림, 생활도구, 장신구 등과 현대 미술 작품을 상설전시하고 있다. 아프리카의 다양한 문화를 폭넓게 이해하기 위해 주한아프리카대사관이 출품한 아프리카 문화전을 반영구적으로 전시하고 있다. 또한 계기별 또는 지역적 특성에 맞는 특별기획전을 개최하여 박물관의 기능을 보완하고 있다. 영월아프리카미술박물관은 아프리카인들의 관념 세계를 표현한 마스크와 인물상 등 전통적 조각품을 통하여 그들의 예술적 재능을 찾아볼 수 있고 아프리카 미술의 소재, 제작 기법, 미술적 특징 등이 현대미술에 미치는 영향과 의미를 알아볼 수 있도록 전시하고 있다. 아프리카 20여개 나라에서 수집한 미술품을 전시하고 있으며, 이국적인 풍취와함께 원초적인 생동감을 느낄 수 있습니다.",
+      "fusion_score": 0.03278688524590164,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 1,
+      "name_match": true,
+      "rerank_score": 0.9875431060791016,
+      "rank": 1,
+      "score": 0.9875431060791016,
+      "score_type": "cross_encoder",
+      "distance": 0.34378474950790405,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0213",
+      "source_doc_ids": [
+        "DOC-B0213-TOUR_API-1398051",
+        "DOC-B0213-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0213-TOUR_API-1398051",
+          "source_type": "TOUR_API",
+          "source_record_id": "1398051",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=105",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        },
+        {
+          "doc_id": "DOC-B0213-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0213",
+          "source_locator": "data/raw/museum_base_1070.csv#row=214",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 100,
+          "doc_ids": [
+            "DOC-B0213-TOUR_API-1398051"
+          ]
+        },
+        {
+          "start": 101,
+          "end": 167,
+          "doc_ids": [
+            "DOC-B0213-TOUR_API-1398051"
+          ]
+        },
+        {
+          "start": 168,
+          "end": 218,
+          "doc_ids": [
+            "DOC-B0213-TOUR_API-1398051"
+          ]
+        },
+        {
+          "start": 219,
+          "end": 362,
+          "doc_ids": [
+            "DOC-B0213-TOUR_API-1398051"
+          ]
+        },
+        {
+          "start": 363,
+          "end": 428,
+          "doc_ids": [
+            "DOC-B0213-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=105",
+      "text": "영월아프리카미술박물관은 아프리카 여러 부족의 생활, 의식, 신앙, 축제 등과 관련하여 만들어진 문화품 즉 조각, 그림, 생활도구, 장신구 등과 현대 미술 작품을 상설전시하고 있다. 아프리카의 다양한 문화를 폭넓게 이해하기 위해 주한아프리카대사관이 출품한 아프리카 문화전을 반영구적으로 전시하고 있다. 또한 계기별 또는 지역적 특성에 맞는 특별기획전을 개최하여 박물관의 기능을 보완하고 있다. 영월아프리카미술박물관은 아프리카인들의 관념 세계를 표현한 마스크와 인물상 등 전통적 조각품을 통하여 그들의 예술적 재능을 찾아볼 수 있고 아프리카 미술의 소재, 제작 기법, 미술적 특징 등이 현대미술에 미치는 영향과 의미를 알아볼 수 있도록 전시하고 있다. 아프리카 20여개 나라에서 수집한 미술품을 전시하고 있으며, 이국적인 풍취와함께 원초적인 생동감을 느낄 수 있습니다.",
+      "sido": "강원특별자치도",
+      "sigungu": "영월군",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=105"
+      ],
+      "evidence_id": "E1",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=142",
+        "fields": {
+          "name": "영월아프리카미술박물관",
+          "sido": "강원특별자치도",
+          "sigungu": "영월군",
+          "address": "강원특별자치도 영월군 김삿갓면 영월동로 1107-1",
+          "ownership_type": "사립",
+          "adult_fee": "5000",
+          "youth_fee": "4000",
+          "child_fee": "3000",
+          "adult_fee_status": "BASE_FEE_PAID",
+          "weekday_open": "09:00",
+          "weekday_close": "18:00",
+          "holiday_open": "09:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "화+수"
+        },
+        "base_data_date": "2026-09-03",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0087",
+      "name": "아프리카 박물관",
+      "document": "아프리카 박물관은 1998년 11월 서울 대학로에 아프리카란 우리에겐 다소 생소한 문화를 토대로 한 박물관을 개관하였으며, 2004년 12월 새로운 문화적 도약을 위해 제주도 서귀포시 중문관광단지 국제컨벤션센터 동쪽에 박물관 건물을 신축하고 이전하였다. 서귀포시 중문관광단지에 새롭게 선보인 아프리카 박물관의 건물은 서아프리카 말리의 젠네에 위치하고 있는 이슬람 대사원을 토대로 설계하였다. 젠네 대사원은 흙으로 지어진 건물 중 세계 최대 규모이며, 국제 문화 협력 교류기관인 유네스코는 전 인류가 함께 보존해야 할 세계문화유산으로 지정하고 있다. 신축된 아프리카 박물관은 아프리카 대륙 문화의 정통성을 훼손하지 않고 보다 다양한 시각으로 소개하고자 하는 본 박물관의 의지를 표방하고 있다.",
+      "metadata": {
+        "requires_manual_review": true,
+        "sigungu": "서귀포시",
+        "adult_fee": 10000.0,
+        "sido": "제주특별자치도",
+        "weekday_open": "09:00",
+        "weekday_close": "19:00",
+        "holiday_close": "19:00",
+        "fee_notes": "단체 관람 시 할인+도민할인",
+        "holiday_open": "09:00",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/15/3548215_image2_1.jpg",
+        "source_types": "TOUR_API",
+        "name": "아프리카 박물관",
+        "image_copyright": "Type1",
+        "ownership_type": "사립",
+        "closure_rule_raw": "연중무휴",
+        "latitude": 33.23997655,
+        "address": "제주특별자치도 서귀포시 이어도로 49",
+        "child_fee": 8000.0,
+        "homepage_url": "http://africamuseum.alltheway.kr/",
+        "youth_fee": 9000.0,
+        "longitude": 126.4288137,
+        "adult_fee_status": "BASE_FEE_PAID"
+      },
+      "vector_rank": 5,
+      "bm25_rank": 2,
+      "vector_distance": 0.5444594621658325,
+      "vector_score": null,
+      "bm25_score": 25.498022046599058,
+      "vector_document": "아프리카 박물관은 1998년 11월 서울 대학로에 아프리카란 우리에겐 다소 생소한 문화를 토대로 한 박물관을 개관하였으며, 2004년 12월 새로운 문화적 도약을 위해 제주도 서귀포시 중문관광단지 국제컨벤션센터 동쪽에 박물관 건물을 신축하고 이전하였다. 서귀포시 중문관광단지에 새롭게 선보인 아프리카 박물관의 건물은 서아프리카 말리의 젠네에 위치하고 있는 이슬람 대사원을 토대로 설계하였다. 젠네 대사원은 흙으로 지어진 건물 중 세계 최대 규모이며, 국제 문화 협력 교류기관인 유네스코는 전 인류가 함께 보존해야 할 세계문화유산으로 지정하고 있다. 신축된 아프리카 박물관은 아프리카 대륙 문화의 정통성을 훼손하지 않고 보다 다양한 시각으로 소개하고자 하는 본 박물관의 의지를 표방하고 있다.",
+      "bm25_document": "아프리카 박물관은 1998년 11월 서울 대학로에 아프리카란 우리에겐 다소 생소한 문화를 토대로 한 박물관을 개관하였으며, 2004년 12월 새로운 문화적 도약을 위해 제주도 서귀포시 중문관광단지 국제컨벤션센터 동쪽에 박물관 건물을 신축하고 이전하였다. 서귀포시 중문관광단지에 새롭게 선보인 아프리카 박물관의 건물은 서아프리카 말리의 젠네에 위치하고 있는 이슬람 대사원을 토대로 설계하였다. 젠네 대사원은 흙으로 지어진 건물 중 세계 최대 규모이며, 국제 문화 협력 교류기관인 유네스코는 전 인류가 함께 보존해야 할 세계문화유산으로 지정하고 있다. 신축된 아프리카 박물관은 아프리카 대륙 문화의 정통성을 훼손하지 않고 보다 다양한 시각으로 소개하고자 하는 본 박물관의 의지를 표방하고 있다.",
+      "best_span_id": "chroma:M0087",
+      "best_span_text": "아프리카 박물관은 1998년 11월 서울 대학로에 아프리카란 우리에겐 다소 생소한 문화를 토대로 한 박물관을 개관하였으며, 2004년 12월 새로운 문화적 도약을 위해 제주도 서귀포시 중문관광단지 국제컨벤션센터 동쪽에 박물관 건물을 신축하고 이전하였다. 서귀포시 중문관광단지에 새롭게 선보인 아프리카 박물관의 건물은 서아프리카 말리의 젠네에 위치하고 있는 이슬람 대사원을 토대로 설계하였다. 젠네 대사원은 흙으로 지어진 건물 중 세계 최대 규모이며, 국제 문화 협력 교류기관인 유네스코는 전 인류가 함께 보존해야 할 세계문화유산으로 지정하고 있다. 신축된 아프리카 박물관은 아프리카 대륙 문화의 정통성을 훼손하지 않고 보다 다양한 시각으로 소개하고자 하는 본 박물관의 의지를 표방하고 있다.",
+      "fusion_score": 0.0315136476426799,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 3,
+      "rerank_score": 0.011288979090750217,
+      "rank": 2,
+      "score": 0.011288979090750217,
+      "score_type": "cross_encoder",
+      "distance": 0.5444594621658325,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0087",
+      "source_doc_ids": [
+        "DOC-B0087-TOUR_API-130180"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0087-TOUR_API-130180",
+          "source_type": "TOUR_API",
+          "source_record_id": "130180",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=44",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 141,
+          "doc_ids": [
+            "DOC-B0087-TOUR_API-130180"
+          ]
+        },
+        {
+          "start": 142,
+          "end": 218,
+          "doc_ids": [
+            "DOC-B0087-TOUR_API-130180"
+          ]
+        },
+        {
+          "start": 219,
+          "end": 306,
+          "doc_ids": [
+            "DOC-B0087-TOUR_API-130180"
+          ]
+        },
+        {
+          "start": 307,
+          "end": 386,
+          "doc_ids": [
+            "DOC-B0087-TOUR_API-130180"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=44",
+      "text": "아프리카 박물관은 1998년 11월 서울 대학로에 아프리카란 우리에겐 다소 생소한 문화를 토대로 한 박물관을 개관하였으며, 2004년 12월 새로운 문화적 도약을 위해 제주도 서귀포시 중문관광단지 국제컨벤션센터 동쪽에 박물관 건물을 신축하고 이전하였다. 서귀포시 중문관광단지에 새롭게 선보인 아프리카 박물관의 건물은 서아프리카 말리의 젠네에 위치하고 있는 이슬람 대사원을 토대로 설계하였다. 젠네 대사원은 흙으로 지어진 건물 중 세계 최대 규모이며, 국제 문화 협력 교류기관인 유네스코는 전 인류가 함께 보존해야 할 세계문화유산으로 지정하고 있다. 신축된 아프리카 박물관은 아프리카 대륙 문화의 정통성을 훼손하지 않고 보다 다양한 시각으로 소개하고자 하는 본 박물관의 의지를 표방하고 있다.",
+      "sido": "제주특별자치도",
+      "sigungu": "서귀포시",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=44"
+      ],
+      "evidence_id": "E2",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=54",
+        "fields": {
+          "name": "아프리카 박물관",
+          "sido": "제주특별자치도",
+          "sigungu": "서귀포시",
+          "address": "제주특별자치도 서귀포시 이어도로 49",
+          "ownership_type": "사립",
+          "adult_fee": "10000",
+          "youth_fee": "9000",
+          "child_fee": "8000",
+          "adult_fee_status": "BASE_FEE_PAID",
+          "weekday_open": "09:00",
+          "weekday_close": "19:00",
+          "holiday_open": "09:00",
+          "holiday_close": "19:00",
+          "closure_rule_raw": "연중무휴"
+        },
+        "base_data_date": "2026-09-30",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0219",
+      "name": "국제현대미술관",
+      "document": "2000년에 개관한 국제현대미술관은 영월군 영월읍 삼옥리 아름다운 동강변에 자리 잡고 있다. 문화격차 해소와 영월의 국제화를 위해 개관한 다양한 예술 작품을 감상할 수 있는 복합문화공간이다. 야외조각공원 에는 17개국 100여 점의 미술작품이 고즈넉한 풍경과 함께 설치되어 있으며, 실내 전시실에는 70여 개국 소장품 3,000여 점이 상설교환 전시되어 갈 때마다 새로운 느낌을 준다. 프랑스와 이탈리아 등 70개국 조각 작품 350여점 가운데 60여점 이상 전시되어 관람객을 맞고 있습니다.",
+      "metadata": {
+        "latitude": 37.20840155,
+        "adult_fee_status": "BASE_FEE_PAID",
+        "homepage_url": "http://www.ywmuseum.com",
+        "ownership_type": "사립",
+        "child_fee": 3000.0,
+        "image_copyright": "Type1",
+        "closure_rule_raw": "월+화",
+        "holiday_open": "09:00",
+        "weekday_open": "09:00",
+        "source_types": "BASE|TOUR_API",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/10/3557210_image2_1.JPG",
+        "name": "국제현대미술관",
+        "sigungu": "영월군",
+        "longitude": 128.5069046,
+        "weekday_close": "18:00",
+        "sido": "강원특별자치도",
+        "adult_fee": 5000.0,
+        "requires_manual_review": true,
+        "address": "강원특별자치도 영월군 영월읍 삼옥길31",
+        "fee_notes": "50프로 할인(영월군민+65세 이상)+ 단체요금: 20인 이상+무료(2급 이상 장애인 및 5세 이하)",
+        "youth_fee": 4000.0,
+        "holiday_close": "18:00"
+      },
+      "vector_rank": null,
+      "bm25_rank": 9,
+      "vector_distance": null,
+      "vector_score": null,
+      "bm25_score": 12.456169217280001,
+      "vector_document": "",
+      "bm25_document": "2000년에 개관한 국제현대미술관은 영월군 영월읍 삼옥리 아름다운 동강변에 자리 잡고 있다. 문화격차 해소와 영월의 국제화를 위해 개관한 다양한 예술 작품을 감상할 수 있는 복합문화공간이다. 야외조각공원 에는 17개국 100여 점의 미술작품이 고즈넉한 풍경과 함께 설치되어 있으며, 실내 전시실에는 70여 개국 소장품 3,000여 점이 상설교환 전시되어 갈 때마다 새로운 느낌을 준다. 프랑스와 이탈리아 등 70개국 조각 작품 350여점 가운데 60여점 이상 전시되어 관람객을 맞고 있습니다.",
+      "best_span_id": "chroma:M0219",
+      "best_span_text": "2000년에 개관한 국제현대미술관은 영월군 영월읍 삼옥리 아름다운 동강변에 자리 잡고 있다. 문화격차 해소와 영월의 국제화를 위해 개관한 다양한 예술 작품을 감상할 수 있는 복합문화공간이다. 야외조각공원 에는 17개국 100여 점의 미술작품이 고즈넉한 풍경과 함께 설치되어 있으며, 실내 전시실에는 70여 개국 소장품 3,000여 점이 상설교환 전시되어 갈 때마다 새로운 느낌을 준다. 프랑스와 이탈리아 등 70개국 조각 작품 350여점 가운데 60여점 이상 전시되어 관람객을 맞고 있습니다.",
+      "fusion_score": 0.014492753623188406,
+      "retrieved_by": [
+        "bm25"
+      ],
+      "fusion_rank": 16,
+      "rerank_score": 0.0032284585759043694,
+      "rank": 3,
+      "score": 0.0032284585759043694,
+      "score_type": "cross_encoder",
+      "distance": null,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "bm25"
+      ],
+      "retriever": "bm25",
+      "span_id": "chroma:M0219",
+      "source_doc_ids": [
+        "DOC-B0219-TOUR_API-798017",
+        "DOC-B0219-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0219-TOUR_API-798017",
+          "source_type": "TOUR_API",
+          "source_record_id": "798017",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=109",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        },
+        {
+          "doc_id": "DOC-B0219-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0219",
+          "source_locator": "data/raw/museum_base_1070.csv#row=220",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 51,
+          "doc_ids": [
+            "DOC-B0219-TOUR_API-798017"
+          ]
+        },
+        {
+          "start": 52,
+          "end": 106,
+          "doc_ids": [
+            "DOC-B0219-TOUR_API-798017"
+          ]
+        },
+        {
+          "start": 107,
+          "end": 215,
+          "doc_ids": [
+            "DOC-B0219-TOUR_API-798017"
+          ]
+        },
+        {
+          "start": 216,
+          "end": 275,
+          "doc_ids": [
+            "DOC-B0219-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=109",
+      "text": "2000년에 개관한 국제현대미술관은 영월군 영월읍 삼옥리 아름다운 동강변에 자리 잡고 있다. 문화격차 해소와 영월의 국제화를 위해 개관한 다양한 예술 작품을 감상할 수 있는 복합문화공간이다. 야외조각공원 에는 17개국 100여 점의 미술작품이 고즈넉한 풍경과 함께 설치되어 있으며, 실내 전시실에는 70여 개국 소장품 3,000여 점이 상설교환 전시되어 갈 때마다 새로운 느낌을 준다. 프랑스와 이탈리아 등 70개국 조각 작품 350여점 가운데 60여점 이상 전시되어 관람객을 맞고 있습니다.",
+      "sido": "강원특별자치도",
+      "sigungu": "영월군",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=109"
+      ],
+      "evidence_id": "E3",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=148",
+        "fields": {
+          "name": "국제현대미술관",
+          "sido": "강원특별자치도",
+          "sigungu": "영월군",
+          "address": "강원특별자치도 영월군 영월읍 삼옥길31",
+          "ownership_type": "사립",
+          "adult_fee": "5000",
+          "youth_fee": "4000",
+          "child_fee": "3000",
+          "adult_fee_status": "BASE_FEE_PAID",
+          "weekday_open": "09:00",
+          "weekday_close": "18:00",
+          "holiday_open": "09:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "월+화"
+        },
+        "base_data_date": "2026-09-03",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0212",
+      "name": "영월종교미술박물관",
+      "document": "성서를 기반으로 제작된 1백여점의 주전시 작품과 6백여점의 다양한 작품을 주제별로 감상할 수 있습니다.",
+      "metadata": {
+        "holiday_open": "09:00",
+        "sido": "강원특별자치도",
+        "weekday_open": "09:00",
+        "longitude": 128.4452253,
+        "sigungu": "영월군",
+        "closure_rule_raw": "화",
+        "homepage_url": "http://www.paulart.co.kr",
+        "requires_manual_review": false,
+        "adult_fee": 5000.0,
+        "source_types": "BASE",
+        "child_fee": 2000.0,
+        "youth_fee": 3000.0,
+        "name": "영월종교미술박물관",
+        "fee_notes": "50프로 할인(영월군민+65세 이상)+ 단체요금: 20인 이상+무료(2급 이상 장애인 및 5세 이하)",
+        "ownership_type": "사립",
+        "address": "강원특별자치도 영월군 북면 시루산길122-2",
+        "latitude": 37.210942,
+        "weekday_close": "17:00",
+        "adult_fee_status": "BASE_FEE_PAID",
+        "holiday_close": "17:00"
+      },
+      "vector_rank": 10,
+      "bm25_rank": null,
+      "vector_distance": 0.5732484459877014,
+      "vector_score": null,
+      "bm25_score": null,
+      "vector_document": "성서를 기반으로 제작된 1백여점의 주전시 작품과 6백여점의 다양한 작품을 주제별로 감상할 수 있습니다.",
+      "bm25_document": "",
+      "best_span_id": null,
+      "best_span_text": null,
+      "fusion_score": 0.014285714285714285,
+      "retrieved_by": [
+        "vector"
+      ],
+      "fusion_rank": 17,
+      "rerank_score": 0.0007767354836687446,
+      "rank": 4,
+      "score": 0.0007767354836687446,
+      "score_type": "cross_encoder",
+      "distance": 0.5732484459877014,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector"
+      ],
+      "retriever": "vector",
+      "source_doc_ids": [
+        "DOC-B0212-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0212-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0212",
+          "source_locator": "data/raw/museum_base_1070.csv#row=213",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 57,
+          "doc_ids": [
+            "DOC-B0212-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_base_1070.csv#row=213",
+      "text": "성서를 기반으로 제작된 1백여점의 주전시 작품과 6백여점의 다양한 작품을 주제별로 감상할 수 있습니다.",
+      "sido": "강원특별자치도",
+      "sigungu": "영월군",
+      "span_id": "",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_base_1070.csv#row=213"
+      ],
+      "evidence_id": "E4",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=141",
+        "fields": {
+          "name": "영월종교미술박물관",
+          "sido": "강원특별자치도",
+          "sigungu": "영월군",
+          "address": "강원특별자치도 영월군 북면 시루산길122-2",
+          "ownership_type": "사립",
+          "adult_fee": "5000",
+          "youth_fee": "3000",
+          "child_fee": "2000",
+          "adult_fee_status": "BASE_FEE_PAID",
+          "weekday_open": "09:00",
+          "weekday_close": "17:00",
+          "holiday_open": "09:00",
+          "holiday_close": "17:00",
+          "closure_rule_raw": "화"
+        },
+        "base_data_date": "2026-09-03",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0867",
+      "name": "예아리박물관",
+      "document": "예아리박물관은 세계문화관, 한국문화관, 문화상품관, 기획전시관, 야외전시장으로 구성되어 있으며, 동서양의 상장례 관련 유물을 300여 점 전시하고 있다. 전시물은 유물의 보존 상태를 위하여 주기적으로 교체하고 있다. 세계문화관에서는 아시아, 유럽의 상례문화인 조장, 카타콤 등을 실감나게 재현하였고, 한국문화관에서는 철저한 고증을 통해 재현한 조선의 22대 왕인 정도대왕의 국장도감의궤반차도를 미니어처로 현장감 있게 재현하여 조선시대에 왕의 장엄한 국장행렬을 감상할 수 있다. 기획전시관에서는 아프리카 가나의 다양한 모양관을 비롯하여, 각 부족들의 제례 관련 유물들을 전시하고 있다.",
+      "metadata": {
+        "longitude": 127.3642612,
+        "weekday_close": "18:00",
+        "sigungu": "용인시",
+        "fee_notes": "15000",
+        "name": "예아리박물관",
+        "ownership_type": "사립",
+        "sido": "경기도",
+        "closure_rule_raw": "매주 월요일,설연휴,추석연휴",
+        "adult_fee": 4000.0,
+        "adult_fee_status": "BASE_FEE_PAID",
+        "youth_fee": 4000.0,
+        "child_fee": 4000.0,
+        "latitude": 37.14132389,
+        "homepage_url": "http://www.yearee.com",
+        "holiday_close": "18:00",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/88/3383488_image2_1.jpg",
+        "image_copyright": "Type3",
+        "requires_manual_review": true,
+        "holiday_open": "10:00",
+        "source_types": "TOUR_API",
+        "address": "경기도 용인시 처인구 백암면 원설로270번길 25",
+        "weekday_open": "10:00"
+      },
+      "vector_rank": 3,
+      "bm25_rank": 3,
+      "vector_distance": 0.5328004360198975,
+      "vector_score": null,
+      "bm25_score": 15.670487982208064,
+      "vector_document": "예아리박물관은 세계문화관, 한국문화관, 문화상품관, 기획전시관, 야외전시장으로 구성되어 있으며, 동서양의 상장례 관련 유물을 300여 점 전시하고 있다. 전시물은 유물의 보존 상태를 위하여 주기적으로 교체하고 있다. 세계문화관에서는 아시아, 유럽의 상례문화인 조장, 카타콤 등을 실감나게 재현하였고, 한국문화관에서는 철저한 고증을 통해 재현한 조선의 22대 왕인 정도대왕의 국장도감의궤반차도를 미니어처로 현장감 있게 재현하여 조선시대에 왕의 장엄한 국장행렬을 감상할 수 있다. 기획전시관에서는 아프리카 가나의 다양한 모양관을 비롯하여, 각 부족들의 제례 관련 유물들을 전시하고 있다.",
+      "bm25_document": "예아리박물관은 세계문화관, 한국문화관, 문화상품관, 기획전시관, 야외전시장으로 구성되어 있으며, 동서양의 상장례 관련 유물을 300여 점 전시하고 있다. 전시물은 유물의 보존 상태를 위하여 주기적으로 교체하고 있다. 세계문화관에서는 아시아, 유럽의 상례문화인 조장, 카타콤 등을 실감나게 재현하였고, 한국문화관에서는 철저한 고증을 통해 재현한 조선의 22대 왕인 정도대왕의 국장도감의궤반차도를 미니어처로 현장감 있게 재현하여 조선시대에 왕의 장엄한 국장행렬을 감상할 수 있다. 기획전시관에서는 아프리카 가나의 다양한 모양관을 비롯하여, 각 부족들의 제례 관련 유물들을 전시하고 있다.",
+      "best_span_id": "chroma:M0867",
+      "best_span_text": "예아리박물관은 세계문화관, 한국문화관, 문화상품관, 기획전시관, 야외전시장으로 구성되어 있으며, 동서양의 상장례 관련 유물을 300여 점 전시하고 있다. 전시물은 유물의 보존 상태를 위하여 주기적으로 교체하고 있다. 세계문화관에서는 아시아, 유럽의 상례문화인 조장, 카타콤 등을 실감나게 재현하였고, 한국문화관에서는 철저한 고증을 통해 재현한 조선의 22대 왕인 정도대왕의 국장도감의궤반차도를 미니어처로 현장감 있게 재현하여 조선시대에 왕의 장엄한 국장행렬을 감상할 수 있다. 기획전시관에서는 아프리카 가나의 다양한 모양관을 비롯하여, 각 부족들의 제례 관련 유물들을 전시하고 있다.",
+      "fusion_score": 0.031746031746031744,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 2,
+      "rerank_score": 0.000597821781411767,
+      "rank": 5,
+      "score": 0.000597821781411767,
+      "score_type": "cross_encoder",
+      "distance": 0.5328004360198975,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0867",
+      "source_doc_ids": [
+        "DOC-B0867-TOUR_API-1824455"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0867-TOUR_API-1824455",
+          "source_type": "TOUR_API",
+          "source_record_id": "1824455",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=409",
+          "match_trust": "RECHECKED_BY_RULE_NOT_HUMAN_APPROVED"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 85,
+          "doc_ids": [
+            "DOC-B0867-TOUR_API-1824455"
+          ]
+        },
+        {
+          "start": 86,
+          "end": 120,
+          "doc_ids": [
+            "DOC-B0867-TOUR_API-1824455"
+          ]
+        },
+        {
+          "start": 121,
+          "end": 266,
+          "doc_ids": [
+            "DOC-B0867-TOUR_API-1824455"
+          ]
+        },
+        {
+          "start": 267,
+          "end": 326,
+          "doc_ids": [
+            "DOC-B0867-TOUR_API-1824455"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=409",
+      "text": "예아리박물관은 세계문화관, 한국문화관, 문화상품관, 기획전시관, 야외전시장으로 구성되어 있으며, 동서양의 상장례 관련 유물을 300여 점 전시하고 있다. 전시물은 유물의 보존 상태를 위하여 주기적으로 교체하고 있다. 세계문화관에서는 아시아, 유럽의 상례문화인 조장, 카타콤 등을 실감나게 재현하였고, 한국문화관에서는 철저한 고증을 통해 재현한 조선의 22대 왕인 정도대왕의 국장도감의궤반차도를 미니어처로 현장감 있게 재현하여 조선시대에 왕의 장엄한 국장행렬을 감상할 수 있다. 기획전시관에서는 아프리카 가나의 다양한 모양관을 비롯하여, 각 부족들의 제례 관련 유물들을 전시하고 있다.",
+      "sido": "경기도",
+      "sigungu": "용인시",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=409"
+      ],
+      "evidence_id": "E5",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=590",
+        "fields": {
+          "name": "예아리박물관",
+          "sido": "경기도",
+          "sigungu": "용인시",
+          "address": "경기도 용인시 처인구 백암면 원설로270번길 25",
+          "ownership_type": "사립",
+          "adult_fee": "4000",
+          "youth_fee": "4000",
+          "child_fee": "4000",
+          "adult_fee_status": "BASE_FEE_PAID",
+          "weekday_open": "10:00",
+          "weekday_close": "18:00",
+          "holiday_open": "10:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "매주 월요일,설연휴,추석연휴"
+        },
+        "base_data_date": "2024-11-29",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    }
+  ],
+  "answer": "영월아프리카미술박물관은 아프리카 여러 부족의 생활·의식·신앙·축제와 관련된 조각, 그림, 생활도구, 장신구 등의 문화품과 현대 미술 작품을 상설 전시합니다. [E1]\n\n전시에는 주한아프리카대사관이 출품한 아프리카 문화전도 포함되며, 다양한 아프리카 문화를 폭넓게 소개하기 위해 반영구적으로 선보입니다. 여기에 계기나 지역적 특성에 맞춘 특별기획전도 개최합니다. [E1]\n\n아프리카인들의 관념 세계를 표현한 마스크와 인물상 등 전통 조각품을 통해 그들의 예술적 재능을 살펴볼 수 있고, 아프리카 미술의 소재·제작 기법·미술적 특징이 현대미술에 미친 영향과 의미도 이해하도록 구성되어 있습니다. 전시품은 아프리카 20여 개 나라에서 수집한 미술품입니다. [E1]",
+  "retrieval_status": "ok",
+  "answer_status": "answered",
+  "route": "hybrid",
+  "retry_count": 0,
+  "supervisor_verified": true,
+  "rerank_applied": true,
+  "retriever_errors": [],
+  "warnings": [],
+  "duration_ms": 141594.45,
+  "error_type": "",
+  "hit_at_1": 1,
+  "hit_at_3": 1,
+  "hit_at_5": 1,
+  "recall_at_5": 1.0,
+  "mrr_at_10": 1.0
+}

@@ -1,0 +1,740 @@
+{
+  "mode": "supervisor_full",
+  "question_id": "Q028",
+  "evidence": [
+    {
+      "museum_id": "M0016",
+      "name": "창원시립진해박물관",
+      "document": "창원시립진해박물관은 1998년 10월 31일 개관하였으며 제황산 공원 내 진해탑 1층과 2층에 전시실, 사무실, 시청각실, 유물창고, 전망탑 등의 시설을 갖추고 있다. 전시실에는 진해의 시대별 변천사, 신석기, 청동기, 삼한·삼국시대 유물, 조선시대 도요지 모형, 진해 고기잡이 모형, 가락국 수로왕과 왕비의 모형, 거북선 모형, 웅천읍성 모형 등이 있고 진해 유적에 관한 영상물도 상영하고 있다. 진해지역 전체를 축소한 모형과 함께 진해의 역사 연대와 시대별 역사를 확인할 수 있으며 진해의 어제와 오늘을 한눈에 알 수 있어 많은 관광객이 찾아오고 있다. 박물관이 있는 제황산공원에는 모노레일을 타고 올라가거나 산책길을 이용하여 올라갈 수 있고 공원 안에 정자, 벤치, 휴게시설들이 잘 갖추어져 있다. 진해박물관은 진해탑 내에 위치하고 있으며, 2016년 3월에 리모델링 공사를 통해 군항도시 진해의 역사를 살펴볼수 있는 문화공간임",
+      "metadata": {
+        "longitude": 128.6631795,
+        "closure_rule_raw": "매주월+1월 1일+설날+추석당일",
+        "weekday_open": "09:00",
+        "adult_fee": 0.0,
+        "image_copyright": "Type3",
+        "homepage_url": "https://www.changwon.go.kr",
+        "sido": "경상남도",
+        "holiday_close": "18:00",
+        "transport_notes": "제황산공원 모노레일카 이용",
+        "latitude": 35.14882748,
+        "holiday_open": "09:00",
+        "source_types": "BASE|TOUR_API",
+        "weekday_close": "18:00",
+        "child_fee": 0.0,
+        "address": "경상남도 창원시 진해구 중원동로 52",
+        "youth_fee": 0.0,
+        "sigungu": "창원시",
+        "requires_manual_review": true,
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/17/3572917_image2_1.jpg",
+        "name": "창원시립진해박물관",
+        "ownership_type": "공립"
+      },
+      "vector_rank": 1,
+      "bm25_rank": 11,
+      "vector_distance": 0.52577805519104,
+      "vector_score": null,
+      "bm25_score": 6.331162486575371,
+      "vector_document": "창원시립진해박물관은 1998년 10월 31일 개관하였으며 제황산 공원 내 진해탑 1층과 2층에 전시실, 사무실, 시청각실, 유물창고, 전망탑 등의 시설을 갖추고 있다. 전시실에는 진해의 시대별 변천사, 신석기, 청동기, 삼한·삼국시대 유물, 조선시대 도요지 모형, 진해 고기잡이 모형, 가락국 수로왕과 왕비의 모형, 거북선 모형, 웅천읍성 모형 등이 있고 진해 유적에 관한 영상물도 상영하고 있다. 진해지역 전체를 축소한 모형과 함께 진해의 역사 연대와 시대별 역사를 확인할 수 있으며 진해의 어제와 오늘을 한눈에 알 수 있어 많은 관광객이 찾아오고 있다. 박물관이 있는 제황산공원에는 모노레일을 타고 올라가거나 산책길을 이용하여 올라갈 수 있고 공원 안에 정자, 벤치, 휴게시설들이 잘 갖추어져 있다. 진해박물관은 진해탑 내에 위치하고 있으며, 2016년 3월에 리모델링 공사를 통해 군항도시 진해의 역사를 살펴볼수 있는 문화공간임",
+      "bm25_document": "창원시립진해박물관은 1998년 10월 31일 개관하였으며 제황산 공원 내 진해탑 1층과 2층에 전시실, 사무실, 시청각실, 유물창고, 전망탑 등의 시설을 갖추고 있다. 전시실에는 진해의 시대별 변천사, 신석기, 청동기, 삼한·삼국시대 유물, 조선시대 도요지 모형, 진해 고기잡이 모형, 가락국 수로왕과 왕비의 모형, 거북선 모형, 웅천읍성 모형 등이 있고 진해 유적에 관한 영상물도 상영하고 있다. 진해지역 전체를 축소한 모형과 함께 진해의 역사 연대와 시대별 역사를 확인할 수 있으며 진해의 어제와 오늘을 한눈에 알 수 있어 많은 관광객이 찾아오고 있다. 박물관이 있는 제황산공원에는 모노레일을 타고 올라가거나 산책길을 이용하여 올라갈 수 있고 공원 안에 정자, 벤치, 휴게시설들이 잘 갖추어져 있다. 진해박물관은 진해탑 내에 위치하고 있으며, 2016년 3월에 리모델링 공사를 통해 군항도시 진해의 역사를 살펴볼수 있는 문화공간임",
+      "best_span_id": "chroma:M0016",
+      "best_span_text": "창원시립진해박물관은 1998년 10월 31일 개관하였으며 제황산 공원 내 진해탑 1층과 2층에 전시실, 사무실, 시청각실, 유물창고, 전망탑 등의 시설을 갖추고 있다. 전시실에는 진해의 시대별 변천사, 신석기, 청동기, 삼한·삼국시대 유물, 조선시대 도요지 모형, 진해 고기잡이 모형, 가락국 수로왕과 왕비의 모형, 거북선 모형, 웅천읍성 모형 등이 있고 진해 유적에 관한 영상물도 상영하고 있다. 진해지역 전체를 축소한 모형과 함께 진해의 역사 연대와 시대별 역사를 확인할 수 있으며 진해의 어제와 오늘을 한눈에 알 수 있어 많은 관광객이 찾아오고 있다. 박물관이 있는 제황산공원에는 모노레일을 타고 올라가거나 산책길을 이용하여 올라갈 수 있고 공원 안에 정자, 벤치, 휴게시설들이 잘 갖추어져 있다. 진해박물관은 진해탑 내에 위치하고 있으며, 2016년 3월에 리모델링 공사를 통해 군항도시 진해의 역사를 살펴볼수 있는 문화공간임",
+      "fusion_score": 0.03047794966520434,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 1,
+      "name_match": true,
+      "rerank_score": 0.14506252110004425,
+      "rank": 1,
+      "score": 0.14506252110004425,
+      "score_type": "cross_encoder",
+      "distance": 0.52577805519104,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0016",
+      "source_doc_ids": [
+        "DOC-B0016-TOUR_API-791089",
+        "DOC-B0016-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0016-TOUR_API-791089",
+          "source_type": "TOUR_API",
+          "source_record_id": "791089",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=12",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        },
+        {
+          "doc_id": "DOC-B0016-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0016",
+          "source_locator": "data/raw/museum_base_1070.csv#row=17",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 93,
+          "doc_ids": [
+            "DOC-B0016-TOUR_API-791089"
+          ]
+        },
+        {
+          "start": 94,
+          "end": 222,
+          "doc_ids": [
+            "DOC-B0016-TOUR_API-791089"
+          ]
+        },
+        {
+          "start": 223,
+          "end": 311,
+          "doc_ids": [
+            "DOC-B0016-TOUR_API-791089"
+          ]
+        },
+        {
+          "start": 312,
+          "end": 393,
+          "doc_ids": [
+            "DOC-B0016-TOUR_API-791089"
+          ]
+        },
+        {
+          "start": 394,
+          "end": 466,
+          "doc_ids": [
+            "DOC-B0016-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=12",
+      "text": "창원시립진해박물관은 1998년 10월 31일 개관하였으며 제황산 공원 내 진해탑 1층과 2층에 전시실, 사무실, 시청각실, 유물창고, 전망탑 등의 시설을 갖추고 있다. 전시실에는 진해의 시대별 변천사, 신석기, 청동기, 삼한·삼국시대 유물, 조선시대 도요지 모형, 진해 고기잡이 모형, 가락국 수로왕과 왕비의 모형, 거북선 모형, 웅천읍성 모형 등이 있고 진해 유적에 관한 영상물도 상영하고 있다. 진해지역 전체를 축소한 모형과 함께 진해의 역사 연대와 시대별 역사를 확인할 수 있으며 진해의 어제와 오늘을 한눈에 알 수 있어 많은 관광객이 찾아오고 있다. 박물관이 있는 제황산공원에는 모노레일을 타고 올라가거나 산책길을 이용하여 올라갈 수 있고 공원 안에 정자, 벤치, 휴게시설들이 잘 갖추어져 있다. 진해박물관은 진해탑 내에 위치하고 있으며, 2016년 3월에 리모델링 공사를 통해 군항도시 진해의 역사를 살펴볼수 있는 문화공간임",
+      "sido": "경상남도",
+      "sigungu": "창원시",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=12"
+      ],
+      "evidence_id": "E1",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=16",
+        "fields": {
+          "name": "창원시립진해박물관",
+          "sido": "경상남도",
+          "sigungu": "창원시",
+          "address": "경상남도 창원시 진해구 중원동로 52",
+          "ownership_type": "공립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "09:00",
+          "weekday_close": "18:00",
+          "holiday_open": "09:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "매주월+1월 1일+설날+추석당일"
+        },
+        "base_data_date": "2026-09-01",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0017",
+      "name": "창원시립마산박물관",
+      "document": "창원시립마산박물관은 급격한 현대화와 도시화의 물결속에서 사라져가는 우리지역의 문화유산을 수집∙보관∙전시∙교육하며, 지역민과 함께 지켜나가는 소중한 문화공간으로 2001년 9월 개관하였다. 전시실은 상설전시실과 기획전시실, 야외전시장으로 구성되어 있으며 이외에도 어린이도서실, 강의실 등의 시설을 갖추고 있다. 상설전시실은 각종 지역 출토 유물과 사진 자료, 설명문 등이 전시되어 있어 선사시대부터 근현대에 이르기까지 지역의 역사와 문화를 체계적으로 이해할 수 있다. 창원시립마산박물관은 역사문화 교육, 지역사 자료조사 활동, 문화행사 등 다양한 박물관 프로그램을 운영하여 지역문화 유산의 가치를 널리 알리고 지역문화 창조의 중추적 역할을 하고 있다. 마산시립박물관은 2001년 9월 12에 개관하였으며, 현대화와 도시화로 사라져가는 문화유산을 수집.보관.전시.교육하는 문화공간임",
+      "metadata": {
+        "latitude": 35.20567156,
+        "ownership_type": "공립",
+        "closure_rule_raw": "매주월+1월 1일+설날+추석당일",
+        "name": "창원시립마산박물관",
+        "transport_notes": "창원시립마산박물관 271번",
+        "image_url": "http://tong.visitkorea.or.kr/cms/resource/10/3564710_image2_1.jpg",
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "child_fee": 0.0,
+        "holiday_open": "09:00",
+        "holiday_close": "18:00",
+        "longitude": 128.5689101,
+        "source_types": "BASE|TOUR_API",
+        "image_copyright": "Type1",
+        "sigungu": "창원시",
+        "youth_fee": 0.0,
+        "homepage_url": "https://www.changwon.go.kr/cwportal/depart/11062/11381/11383.web",
+        "weekday_open": "09:00",
+        "requires_manual_review": true,
+        "weekday_close": "18:00",
+        "sido": "경상남도",
+        "adult_fee": 0.0,
+        "address": "경상남도 창원시 마산합포구 문신길105(추산동)"
+      },
+      "vector_rank": 4,
+      "bm25_rank": null,
+      "vector_distance": 0.5518501996994019,
+      "vector_score": null,
+      "bm25_score": null,
+      "vector_document": "창원시립마산박물관은 급격한 현대화와 도시화의 물결속에서 사라져가는 우리지역의 문화유산을 수집∙보관∙전시∙교육하며, 지역민과 함께 지켜나가는 소중한 문화공간으로 2001년 9월 개관하였다. 전시실은 상설전시실과 기획전시실, 야외전시장으로 구성되어 있으며 이외에도 어린이도서실, 강의실 등의 시설을 갖추고 있다. 상설전시실은 각종 지역 출토 유물과 사진 자료, 설명문 등이 전시되어 있어 선사시대부터 근현대에 이르기까지 지역의 역사와 문화를 체계적으로 이해할 수 있다. 창원시립마산박물관은 역사문화 교육, 지역사 자료조사 활동, 문화행사 등 다양한 박물관 프로그램을 운영하여 지역문화 유산의 가치를 널리 알리고 지역문화 창조의 중추적 역할을 하고 있다. 마산시립박물관은 2001년 9월 12에 개관하였으며, 현대화와 도시화로 사라져가는 문화유산을 수집.보관.전시.교육하는 문화공간임",
+      "bm25_document": "",
+      "best_span_id": null,
+      "best_span_text": null,
+      "fusion_score": 0.015625,
+      "retrieved_by": [
+        "vector"
+      ],
+      "fusion_rank": 7,
+      "rerank_score": 0.0009650182328186929,
+      "rank": 2,
+      "score": 0.0009650182328186929,
+      "score_type": "cross_encoder",
+      "distance": 0.5518501996994019,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector"
+      ],
+      "retriever": "vector",
+      "source_doc_ids": [
+        "DOC-B0017-TOUR_API-130421",
+        "DOC-B0017-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0017-TOUR_API-130421",
+          "source_type": "TOUR_API",
+          "source_record_id": "130421",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=13",
+          "match_trust": "RECHECKED_BY_RULE_NOT_HUMAN_APPROVED"
+        },
+        {
+          "doc_id": "DOC-B0017-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0017",
+          "source_locator": "data/raw/museum_base_1070.csv#row=18",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 104,
+          "doc_ids": [
+            "DOC-B0017-TOUR_API-130421"
+          ]
+        },
+        {
+          "start": 105,
+          "end": 172,
+          "doc_ids": [
+            "DOC-B0017-TOUR_API-130421"
+          ]
+        },
+        {
+          "start": 173,
+          "end": 260,
+          "doc_ids": [
+            "DOC-B0017-TOUR_API-130421"
+          ]
+        },
+        {
+          "start": 261,
+          "end": 363,
+          "doc_ids": [
+            "DOC-B0017-TOUR_API-130421"
+          ]
+        },
+        {
+          "start": 364,
+          "end": 435,
+          "doc_ids": [
+            "DOC-B0017-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=13",
+      "text": "창원시립마산박물관은 급격한 현대화와 도시화의 물결속에서 사라져가는 우리지역의 문화유산을 수집∙보관∙전시∙교육하며, 지역민과 함께 지켜나가는 소중한 문화공간으로 2001년 9월 개관하였다. 전시실은 상설전시실과 기획전시실, 야외전시장으로 구성되어 있으며 이외에도 어린이도서실, 강의실 등의 시설을 갖추고 있다. 상설전시실은 각종 지역 출토 유물과 사진 자료, 설명문 등이 전시되어 있어 선사시대부터 근현대에 이르기까지 지역의 역사와 문화를 체계적으로 이해할 수 있다. 창원시립마산박물관은 역사문화 교육, 지역사 자료조사 활동, 문화행사 등 다양한 박물관 프로그램을 운영하여 지역문화 유산의 가치를 널리 알리고 지역문화 창조의 중추적 역할을 하고 있다. 마산시립박물관은 2001년 9월 12에 개관하였으며, 현대화와 도시화로 사라져가는 문화유산을 수집.보관.전시.교육하는 문화공간임",
+      "sido": "경상남도",
+      "sigungu": "창원시",
+      "span_id": "",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=13"
+      ],
+      "evidence_id": "E2",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=17",
+        "fields": {
+          "name": "창원시립마산박물관",
+          "sido": "경상남도",
+          "sigungu": "창원시",
+          "address": "경상남도 창원시 마산합포구 문신길105(추산동)",
+          "ownership_type": "공립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "09:00",
+          "weekday_close": "18:00",
+          "holiday_open": "09:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "매주월+1월 1일+설날+추석당일"
+        },
+        "base_data_date": "2026-09-01",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0112",
+      "name": "송암박두성기념관",
+      "document": "송암박두성기념관은 충청북도 진천군에 위치한 박두성 선생의 업적을 기리기 위한 기념관이다. 박두성 선생은 일제강점기 독립운동가이자 교육자로, 민족 교육과 독립운동에 헌신한 인물로 잘 알려져 있다. 기념관에는 그의 생애와 업적을 보여주는 다양한 유품, 사진, 문서 등이 전시되어 있으며, 독립운동과 교육 분야에서의 기여를 기리기 위한 교육적인 프로그램도 운영된다. 특히, 기념관 내에는 한글 점자 자료가 포함되어 있어, 시각장애인들도 박두성 선생의 역사적 업적을 쉽게 접할 수 있도록 배려한 점이 특징이다. 이러한 점자 자료는 그의 교육 정신과 민족 문화에 대한 공헌을 강조하며, 모든 방문객이 박두성 선생의 업적을 기억하고 공유할 수 있도록 돕는다 시각 장애인들의 세종대왕으로 불리는 송암은 1910년대 제생원 맹아부 교사로 재직하며 한글 점자를 창안했고 선생의 삶과 업적을 유품과 자료 등이 전시된 기념관에서 만날 수 있다",
+      "metadata": {
+        "homepage_url": "http://www.songam.net/",
+        "requires_manual_review": true,
+        "closure_rule_raw": "토요일+일요일+법정공휴일",
+        "ownership_type": "공립",
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "longitude": 126.6560275,
+        "source_types": "BASE|TOUR_API",
+        "holiday_open": "00:00",
+        "sido": "인천광역시",
+        "weekday_close": "18:00",
+        "latitude": 37.43811766,
+        "name": "송암박두성기념관",
+        "address": "인천광역시 미추홀구 한나루로357번길 105-19",
+        "holiday_close": "00:00",
+        "child_fee": 0.0,
+        "adult_fee": 0.0,
+        "transport_notes": "시내버스 518+520",
+        "sigungu": "미추홀구",
+        "youth_fee": 0.0,
+        "weekday_open": "09:00"
+      },
+      "vector_rank": null,
+      "bm25_rank": 3,
+      "vector_distance": null,
+      "vector_score": null,
+      "bm25_score": 10.383195961416035,
+      "vector_document": "",
+      "bm25_document": "송암박두성기념관은 충청북도 진천군에 위치한 박두성 선생의 업적을 기리기 위한 기념관이다. 박두성 선생은 일제강점기 독립운동가이자 교육자로, 민족 교육과 독립운동에 헌신한 인물로 잘 알려져 있다. 기념관에는 그의 생애와 업적을 보여주는 다양한 유품, 사진, 문서 등이 전시되어 있으며, 독립운동과 교육 분야에서의 기여를 기리기 위한 교육적인 프로그램도 운영된다. 특히, 기념관 내에는 한글 점자 자료가 포함되어 있어, 시각장애인들도 박두성 선생의 역사적 업적을 쉽게 접할 수 있도록 배려한 점이 특징이다. 이러한 점자 자료는 그의 교육 정신과 민족 문화에 대한 공헌을 강조하며, 모든 방문객이 박두성 선생의 업적을 기억하고 공유할 수 있도록 돕는다 시각 장애인들의 세종대왕으로 불리는 송암은 1910년대 제생원 맹아부 교사로 재직하며 한글 점자를 창안했고 선생의 삶과 업적을 유품과 자료 등이 전시된 기념관에서 만날 수 있다",
+      "best_span_id": "chroma:M0112",
+      "best_span_text": "송암박두성기념관은 충청북도 진천군에 위치한 박두성 선생의 업적을 기리기 위한 기념관이다. 박두성 선생은 일제강점기 독립운동가이자 교육자로, 민족 교육과 독립운동에 헌신한 인물로 잘 알려져 있다. 기념관에는 그의 생애와 업적을 보여주는 다양한 유품, 사진, 문서 등이 전시되어 있으며, 독립운동과 교육 분야에서의 기여를 기리기 위한 교육적인 프로그램도 운영된다. 특히, 기념관 내에는 한글 점자 자료가 포함되어 있어, 시각장애인들도 박두성 선생의 역사적 업적을 쉽게 접할 수 있도록 배려한 점이 특징이다. 이러한 점자 자료는 그의 교육 정신과 민족 문화에 대한 공헌을 강조하며, 모든 방문객이 박두성 선생의 업적을 기억하고 공유할 수 있도록 돕는다 시각 장애인들의 세종대왕으로 불리는 송암은 1910년대 제생원 맹아부 교사로 재직하며 한글 점자를 창안했고 선생의 삶과 업적을 유품과 자료 등이 전시된 기념관에서 만날 수 있다",
+      "fusion_score": 0.015873015873015872,
+      "retrieved_by": [
+        "bm25"
+      ],
+      "fusion_rank": 6,
+      "rerank_score": 0.00011058765812776983,
+      "rank": 3,
+      "score": 0.00011058765812776983,
+      "score_type": "cross_encoder",
+      "distance": null,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "bm25"
+      ],
+      "retriever": "bm25",
+      "span_id": "chroma:M0112",
+      "source_doc_ids": [
+        "DOC-B0112-TOUR_API-3448312",
+        "DOC-B0112-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0112-TOUR_API-3448312",
+          "source_type": "TOUR_API",
+          "source_record_id": "3448312",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=56",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        },
+        {
+          "doc_id": "DOC-B0112-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0112",
+          "source_locator": "data/raw/museum_base_1070.csv#row=113",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 49,
+          "doc_ids": [
+            "DOC-B0112-TOUR_API-3448312"
+          ]
+        },
+        {
+          "start": 50,
+          "end": 108,
+          "doc_ids": [
+            "DOC-B0112-TOUR_API-3448312"
+          ]
+        },
+        {
+          "start": 109,
+          "end": 201,
+          "doc_ids": [
+            "DOC-B0112-TOUR_API-3448312"
+          ]
+        },
+        {
+          "start": 202,
+          "end": 281,
+          "doc_ids": [
+            "DOC-B0112-TOUR_API-3448312"
+          ]
+        },
+        {
+          "start": 282,
+          "end": 361,
+          "doc_ids": [
+            "DOC-B0112-TOUR_API-3448312"
+          ]
+        },
+        {
+          "start": 362,
+          "end": 460,
+          "doc_ids": [
+            "DOC-B0112-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=56",
+      "text": "송암박두성기념관은 충청북도 진천군에 위치한 박두성 선생의 업적을 기리기 위한 기념관이다. 박두성 선생은 일제강점기 독립운동가이자 교육자로, 민족 교육과 독립운동에 헌신한 인물로 잘 알려져 있다. 기념관에는 그의 생애와 업적을 보여주는 다양한 유품, 사진, 문서 등이 전시되어 있으며, 독립운동과 교육 분야에서의 기여를 기리기 위한 교육적인 프로그램도 운영된다. 특히, 기념관 내에는 한글 점자 자료가 포함되어 있어, 시각장애인들도 박두성 선생의 역사적 업적을 쉽게 접할 수 있도록 배려한 점이 특징이다. 이러한 점자 자료는 그의 교육 정신과 민족 문화에 대한 공헌을 강조하며, 모든 방문객이 박두성 선생의 업적을 기억하고 공유할 수 있도록 돕는다 시각 장애인들의 세종대왕으로 불리는 송암은 1910년대 제생원 맹아부 교사로 재직하며 한글 점자를 창안했고 선생의 삶과 업적을 유품과 자료 등이 전시된 기념관에서 만날 수 있다",
+      "sido": "인천광역시",
+      "sigungu": "미추홀구",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=56"
+      ],
+      "evidence_id": "E3",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=72",
+        "fields": {
+          "name": "송암박두성기념관",
+          "sido": "인천광역시",
+          "sigungu": "미추홀구",
+          "address": "인천광역시 미추홀구 한나루로357번길 105-19",
+          "ownership_type": "공립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "09:00",
+          "weekday_close": "18:00",
+          "holiday_open": "00:00",
+          "holiday_close": "00:00",
+          "closure_rule_raw": "토요일+일요일+법정공휴일"
+        },
+        "base_data_date": "2026-10-01",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M1014",
+      "name": "양구근현대사박물관",
+      "document": "박물관은 근현대사를 담고 있는 다양한 자료를 테마별 전시관으로 구성하고 있습니다. 먼저 제1전시실은 한국근현대사 전반을 살펴볼 수 있는 역사의 휘모리 공간을 시작으로, 엽서관, 우표관, 씰관 등으로 구성되어 있으며, 제2전시실은 추억속의 영화역사 포스터 등을 전시한 추억의 영화관, 아리랑 문화를 다양한 면을 살필 수 있는 공간으로 전시되어 있다. 또한 기획전시실에는 기증유물특별전으로 기증자 박민일 박사, 송광호 기자, 철학가 김형석박사의 다양한 기증자료 중 도자기, 그림, 글씨, 민속품을 중심으로 전시하고 있다.",
+      "metadata": {
+        "closure_rule_raw": "월+1월 1일+설날 오전+추석 오전",
+        "adult_fee": 3000.0,
+        "sido": "강원특별자치도",
+        "sigungu": "양구군",
+        "ownership_type": "공립",
+        "address": "강원특별자치도 양구군 양구읍 금강산로 439-51",
+        "name": "양구근현대사박물관",
+        "holiday_open": "10:00",
+        "child_fee": 3000.0,
+        "homepage_url": "http://www.ygpm.or.kr/",
+        "holiday_close": "18:00",
+        "weekday_close": "18:00",
+        "fee_notes": "지역상품권 환급+6세이하+65세 이상+장애인+국민기초생활수급자+명예군민 등 면제",
+        "latitude": 38.12222633,
+        "requires_manual_review": true,
+        "amenities_raw": "뮤지엄숍+향토사료관+고인돌공원+함춘주막",
+        "youth_fee": 3000.0,
+        "longitude": 127.9904068,
+        "source_types": "BASE",
+        "adult_fee_status": "BASE_FEE_PAID",
+        "weekday_open": "10:00"
+      },
+      "vector_rank": null,
+      "bm25_rank": 4,
+      "vector_distance": null,
+      "vector_score": null,
+      "bm25_score": 9.900998386148613,
+      "vector_document": "",
+      "bm25_document": "박물관은 근현대사를 담고 있는 다양한 자료를 테마별 전시관으로 구성하고 있습니다. 먼저 제1전시실은 한국근현대사 전반을 살펴볼 수 있는 역사의 휘모리 공간을 시작으로, 엽서관, 우표관, 씰관 등으로 구성되어 있으며, 제2전시실은 추억속의 영화역사 포스터 등을 전시한 추억의 영화관, 아리랑 문화를 다양한 면을 살필 수 있는 공간으로 전시되어 있다. 또한 기획전시실에는 기증유물특별전으로 기증자 박민일 박사, 송광호 기자, 철학가 김형석박사의 다양한 기증자료 중 도자기, 그림, 글씨, 민속품을 중심으로 전시하고 있다.",
+      "best_span_id": "chroma:M1014",
+      "best_span_text": "박물관은 근현대사를 담고 있는 다양한 자료를 테마별 전시관으로 구성하고 있습니다. 먼저 제1전시실은 한국근현대사 전반을 살펴볼 수 있는 역사의 휘모리 공간을 시작으로, 엽서관, 우표관, 씰관 등으로 구성되어 있으며, 제2전시실은 추억속의 영화역사 포스터 등을 전시한 추억의 영화관, 아리랑 문화를 다양한 면을 살필 수 있는 공간으로 전시되어 있다. 또한 기획전시실에는 기증유물특별전으로 기증자 박민일 박사, 송광호 기자, 철학가 김형석박사의 다양한 기증자료 중 도자기, 그림, 글씨, 민속품을 중심으로 전시하고 있다.",
+      "fusion_score": 0.015625,
+      "retrieved_by": [
+        "bm25"
+      ],
+      "fusion_rank": 8,
+      "rerank_score": 6.953954289201647e-05,
+      "rank": 4,
+      "score": 6.953954289201647e-05,
+      "score_type": "cross_encoder",
+      "distance": null,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "bm25"
+      ],
+      "retriever": "bm25",
+      "span_id": "chroma:M1014",
+      "source_doc_ids": [
+        "DOC-B1014-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B1014-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B1014",
+          "source_locator": "data/raw/museum_base_1070.csv#row=1015",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 45,
+          "doc_ids": [
+            "DOC-B1014-BASE"
+          ]
+        },
+        {
+          "start": 46,
+          "end": 194,
+          "doc_ids": [
+            "DOC-B1014-BASE"
+          ]
+        },
+        {
+          "start": 195,
+          "end": 289,
+          "doc_ids": [
+            "DOC-B1014-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_base_1070.csv#row=1015",
+      "text": "박물관은 근현대사를 담고 있는 다양한 자료를 테마별 전시관으로 구성하고 있습니다. 먼저 제1전시실은 한국근현대사 전반을 살펴볼 수 있는 역사의 휘모리 공간을 시작으로, 엽서관, 우표관, 씰관 등으로 구성되어 있으며, 제2전시실은 추억속의 영화역사 포스터 등을 전시한 추억의 영화관, 아리랑 문화를 다양한 면을 살필 수 있는 공간으로 전시되어 있다. 또한 기획전시실에는 기증유물특별전으로 기증자 박민일 박사, 송광호 기자, 철학가 김형석박사의 다양한 기증자료 중 도자기, 그림, 글씨, 민속품을 중심으로 전시하고 있다.",
+      "sido": "강원특별자치도",
+      "sigungu": "양구군",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_base_1070.csv#row=1015"
+      ],
+      "evidence_id": "E4",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=696",
+        "fields": {
+          "name": "양구근현대사박물관",
+          "sido": "강원특별자치도",
+          "sigungu": "양구군",
+          "address": "강원특별자치도 양구군 양구읍 금강산로 439-51",
+          "ownership_type": "공립",
+          "adult_fee": "3000",
+          "youth_fee": "3000",
+          "child_fee": "3000",
+          "adult_fee_status": "BASE_FEE_PAID",
+          "weekday_open": "10:00",
+          "weekday_close": "18:00",
+          "holiday_open": "10:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "월+1월 1일+설날 오전+추석 오전",
+          "amenities_raw": "뮤지엄숍+향토사료관+고인돌공원+함춘주막"
+        },
+        "base_data_date": "2025-08-05",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0217",
+      "name": "호야지리박물관",
+      "document": "호야지리박물관은 무릉도원면 무릉리에 위치한 지리 전문 박물관으로 지리교육에 평생을 바친 호야 양재룡 선생님이 사재를 털어 건립한 지리 테마 사설 박물관이다. 크게 상설 전시관과 지오토피아관으로 구성되어 있다. 상설 전시관에는 지리란 무엇인가, 지리로 살펴보는 무릉도원 영월, 지리 속의 넓은 세상, 땅속의 세상/시청각실, 기획전시실 등 5개 전시관이 본관 1·2층으로 나누어져 있다. 지오토피아관 1층에 마련된 특별 전시실에는 『광개토대왕 비문』 실물 탁본 4면 전체가 전시되어 있고 한국령 독도를 증명하는『일청한군용정도』 진본도 전시되어 있다. 지오토피아관 2층의 체험학습실, 기획전시실에서는 지도가 증명하는 「한국 영토, 독도 지도 기획 전시」 견학 및 독도 특강과 함께 독도사랑과 단종에 관한 여러 체험 활동이 진행된다. 한국령 독도관련 고지도와 지리 관련 희귀자료를 관람 할 수 있는 국내 최초의 지리 테마 사설 박물관입니다",
+      "metadata": {
+        "youth_fee": 4000.0,
+        "holiday_open": "09:00",
+        "homepage_url": "http://www.geomuseum.co.kr",
+        "address": "강원특별자치도 영월군 무릉도원면 무릉법흥로 303",
+        "sido": "강원특별자치도",
+        "weekday_close": "18:00",
+        "source_types": "BASE|TOUR_API",
+        "holiday_close": "18:00",
+        "image_copyright": "Type1",
+        "latitude": 37.299986,
+        "sigungu": "영월군",
+        "longitude": 128.2626995,
+        "fee_notes": "50프로 할인(영월군민+65세 이상)+ 단체요금: 20인 이상+무료(2급 이상 장애인 및 5세 이하)",
+        "requires_manual_review": true,
+        "child_fee": 3000.0,
+        "weekday_open": "09:00",
+        "ownership_type": "사립",
+        "adult_fee": 5000.0,
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/10/3581010_image2_1.jpg",
+        "name": "호야지리박물관",
+        "adult_fee_status": "BASE_FEE_PAID",
+        "closure_rule_raw": "월+화"
+      },
+      "vector_rank": null,
+      "bm25_rank": 5,
+      "vector_distance": null,
+      "vector_score": null,
+      "bm25_score": 9.628180815470582,
+      "vector_document": "",
+      "bm25_document": "호야지리박물관은 무릉도원면 무릉리에 위치한 지리 전문 박물관으로 지리교육에 평생을 바친 호야 양재룡 선생님이 사재를 털어 건립한 지리 테마 사설 박물관이다. 크게 상설 전시관과 지오토피아관으로 구성되어 있다. 상설 전시관에는 지리란 무엇인가, 지리로 살펴보는 무릉도원 영월, 지리 속의 넓은 세상, 땅속의 세상/시청각실, 기획전시실 등 5개 전시관이 본관 1·2층으로 나누어져 있다. 지오토피아관 1층에 마련된 특별 전시실에는 『광개토대왕 비문』 실물 탁본 4면 전체가 전시되어 있고 한국령 독도를 증명하는『일청한군용정도』 진본도 전시되어 있다. 지오토피아관 2층의 체험학습실, 기획전시실에서는 지도가 증명하는 「한국 영토, 독도 지도 기획 전시」 견학 및 독도 특강과 함께 독도사랑과 단종에 관한 여러 체험 활동이 진행된다. 한국령 독도관련 고지도와 지리 관련 희귀자료를 관람 할 수 있는 국내 최초의 지리 테마 사설 박물관입니다",
+      "best_span_id": "chroma:M0217",
+      "best_span_text": "호야지리박물관은 무릉도원면 무릉리에 위치한 지리 전문 박물관으로 지리교육에 평생을 바친 호야 양재룡 선생님이 사재를 털어 건립한 지리 테마 사설 박물관이다. 크게 상설 전시관과 지오토피아관으로 구성되어 있다. 상설 전시관에는 지리란 무엇인가, 지리로 살펴보는 무릉도원 영월, 지리 속의 넓은 세상, 땅속의 세상/시청각실, 기획전시실 등 5개 전시관이 본관 1·2층으로 나누어져 있다. 지오토피아관 1층에 마련된 특별 전시실에는 『광개토대왕 비문』 실물 탁본 4면 전체가 전시되어 있고 한국령 독도를 증명하는『일청한군용정도』 진본도 전시되어 있다. 지오토피아관 2층의 체험학습실, 기획전시실에서는 지도가 증명하는 「한국 영토, 독도 지도 기획 전시」 견학 및 독도 특강과 함께 독도사랑과 단종에 관한 여러 체험 활동이 진행된다. 한국령 독도관련 고지도와 지리 관련 희귀자료를 관람 할 수 있는 국내 최초의 지리 테마 사설 박물관입니다",
+      "fusion_score": 0.015384615384615385,
+      "retrieved_by": [
+        "bm25"
+      ],
+      "fusion_rank": 10,
+      "rerank_score": 6.184397352626547e-05,
+      "rank": 5,
+      "score": 6.184397352626547e-05,
+      "score_type": "cross_encoder",
+      "distance": null,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "bm25"
+      ],
+      "retriever": "bm25",
+      "span_id": "chroma:M0217",
+      "source_doc_ids": [
+        "DOC-B0217-TOUR_API-1625235",
+        "DOC-B0217-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0217-TOUR_API-1625235",
+          "source_type": "TOUR_API",
+          "source_record_id": "1625235",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=108",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        },
+        {
+          "doc_id": "DOC-B0217-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0217",
+          "source_locator": "data/raw/museum_base_1070.csv#row=218",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 87,
+          "doc_ids": [
+            "DOC-B0217-TOUR_API-1625235"
+          ]
+        },
+        {
+          "start": 88,
+          "end": 116,
+          "doc_ids": [
+            "DOC-B0217-TOUR_API-1625235"
+          ]
+        },
+        {
+          "start": 117,
+          "end": 214,
+          "doc_ids": [
+            "DOC-B0217-TOUR_API-1625235"
+          ]
+        },
+        {
+          "start": 215,
+          "end": 305,
+          "doc_ids": [
+            "DOC-B0217-TOUR_API-1625235"
+          ]
+        },
+        {
+          "start": 306,
+          "end": 406,
+          "doc_ids": [
+            "DOC-B0217-TOUR_API-1625235"
+          ]
+        },
+        {
+          "start": 407,
+          "end": 465,
+          "doc_ids": [
+            "DOC-B0217-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=108",
+      "text": "호야지리박물관은 무릉도원면 무릉리에 위치한 지리 전문 박물관으로 지리교육에 평생을 바친 호야 양재룡 선생님이 사재를 털어 건립한 지리 테마 사설 박물관이다. 크게 상설 전시관과 지오토피아관으로 구성되어 있다. 상설 전시관에는 지리란 무엇인가, 지리로 살펴보는 무릉도원 영월, 지리 속의 넓은 세상, 땅속의 세상/시청각실, 기획전시실 등 5개 전시관이 본관 1·2층으로 나누어져 있다. 지오토피아관 1층에 마련된 특별 전시실에는 『광개토대왕 비문』 실물 탁본 4면 전체가 전시되어 있고 한국령 독도를 증명하는『일청한군용정도』 진본도 전시되어 있다. 지오토피아관 2층의 체험학습실, 기획전시실에서는 지도가 증명하는 「한국 영토, 독도 지도 기획 전시」 견학 및 독도 특강과 함께 독도사랑과 단종에 관한 여러 체험 활동이 진행된다. 한국령 독도관련 고지도와 지리 관련 희귀자료를 관람 할 수 있는 국내 최초의 지리 테마 사설 박물관입니다",
+      "sido": "강원특별자치도",
+      "sigungu": "영월군",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=108"
+      ],
+      "evidence_id": "E5",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=146",
+        "fields": {
+          "name": "호야지리박물관",
+          "sido": "강원특별자치도",
+          "sigungu": "영월군",
+          "address": "강원특별자치도 영월군 무릉도원면 무릉법흥로 303",
+          "ownership_type": "사립",
+          "adult_fee": "5000",
+          "youth_fee": "4000",
+          "child_fee": "3000",
+          "adult_fee_status": "BASE_FEE_PAID",
+          "weekday_open": "09:00",
+          "weekday_close": "18:00",
+          "holiday_open": "09:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "월+화"
+        },
+        "base_data_date": "2026-09-03",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    }
+  ],
+  "answer": "확인 가능한 근거가 부족하여 답변을 보류했음.",
+  "retrieval_status": "ok",
+  "answer_status": "abstained",
+  "route": "hybrid",
+  "retry_count": 1,
+  "supervisor_verified": false,
+  "rerank_applied": true,
+  "retriever_errors": [],
+  "warnings": [],
+  "duration_ms": 160833.09,
+  "error_type": "",
+  "hit_at_1": "",
+  "hit_at_3": "",
+  "hit_at_5": "",
+  "recall_at_5": "",
+  "mrr_at_10": ""
+}

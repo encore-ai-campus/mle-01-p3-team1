@@ -1,0 +1,749 @@
+{
+  "evidence_context_version": "grounded-evidence-v2",
+  "evaluation_contexts": [
+    "{\"evidence_context_version\": \"grounded-evidence-v2\", \"evidence_id\": \"E1\", \"metadata_provenance\": {\"base_data_date\": \"2026-07-31\", \"fields\": {\"address\": \"전북특별자치도 김제시 부량면 벽골제로 442\", \"adult_fee\": \"0\", \"adult_fee_status\": \"BASE_FEE_ZERO_CHECK_EXCEPTIONS\", \"child_fee\": \"0\", \"closure_rule_raw\": \"매주 월요일 + 1월 1일\", \"holiday_close\": \"18:00\", \"holiday_open\": \"09:00\", \"name\": \"벽천미술관\", \"ownership_type\": \"공립\", \"sido\": \"전북특별자치도\", \"sigungu\": \"김제시\", \"weekday_close\": \"18:00\", \"weekday_open\": \"09:00\", \"youth_fee\": \"0\"}, \"source_kind\": \"derived_csv_row\", \"source_locator\": \"data/processed/museum_final_738.csv#record=215\", \"trust\": \"derived_dataset_not_human_verified\"}, \"museum_id\": \"M0302\", \"name\": \"벽천미술관\", \"source_doc_ids\": [\"DOC-B0302-BASE\"], \"source_documents\": [{\"doc_id\": \"DOC-B0302-BASE\", \"match_trust\": \"BASE_SOURCE\", \"source_locator\": \"data/raw/museum_base_1070.csv#row=303\", \"source_record_id\": \"B0302\", \"source_type\": \"BASE\"}], \"source_locator\": \"data/raw/museum_base_1070.csv#row=303\", \"source_locators\": [\"data/raw/museum_base_1070.csv#row=303\"], \"source_scope\": \"text\", \"source_spans\": [{\"doc_ids\": [\"DOC-B0302-BASE\"], \"end\": 127, \"start\": 0}, {\"doc_ids\": [\"DOC-B0302-BASE\"], \"end\": 193, \"start\": 128}], \"source_urls\": [], \"text\": \"호남 한국화 발전에 이바지한 벽천 나상목(1924-1999)은 철저한 자연성에 입각한 전통 화법을 연구하면서, 기존의 산수화풍에서 벗어나 자연을 주관적으로 재해석하는 시도를 하며 호남화단 특유의 습윤(濕潤)한 기풍을 완성하였다. 벽천미술관은 나상목의 업적과 정신을 기리기 위해 건립되었으며, 미술작품과 자료를 전시, 연구, 수집을 목적으로 한다.\"}",
+    "{\"evidence_context_version\": \"grounded-evidence-v2\", \"evidence_id\": \"E2\", \"metadata_provenance\": {\"base_data_date\": \"2026-03-05\", \"fields\": {\"address\": \"서울특별시 강서구 양천로47길 36\", \"adult_fee\": \"1000\", \"adult_fee_status\": \"BASE_FEE_PAID\", \"amenities_raw\": \"주차장(26대)+카페테리아+뮤지엄샵+수유실+자전거보관대\", \"child_fee\": \"500\", \"closure_rule_raw\": \"월+1월1일+설 당일+추석 당일\", \"holiday_close\": \"18:00\", \"holiday_open\": \"10:00\", \"name\": \"겸재정선미술관\", \"ownership_type\": \"공립\", \"sido\": \"서울특별시\", \"sigungu\": \"강서구\", \"weekday_close\": \"18:00\", \"weekday_open\": \"10:00\", \"youth_fee\": \"500\"}, \"source_kind\": \"derived_csv_row\", \"source_locator\": \"data/processed/museum_final_738.csv#record=380\", \"trust\": \"derived_dataset_not_human_verified\"}, \"museum_id\": \"M0543\", \"name\": \"겸재정선미술관\", \"source_doc_ids\": [\"DOC-B0543-TOUR_API-774675\", \"DOC-B0543-BASE\"], \"source_documents\": [{\"doc_id\": \"DOC-B0543-TOUR_API-774675\", \"match_trust\": \"AUTO_MATCH_NOT_HUMAN_VERIFIED\", \"source_locator\": \"data/raw/museum_tourapi_with_overview.csv#row=267\", \"source_record_id\": \"774675\", \"source_type\": \"TOUR_API\"}, {\"doc_id\": \"DOC-B0543-BASE\", \"match_trust\": \"BASE_SOURCE\", \"source_locator\": \"data/raw/museum_base_1070.csv#row=544\", \"source_record_id\": \"B0543\", \"source_type\": \"BASE\"}], \"source_locator\": \"data/raw/museum_tourapi_with_overview.csv#row=267\", \"source_locators\": [\"data/raw/museum_tourapi_with_overview.csv#row=267\"], \"source_scope\": \"text\", \"source_spans\": [{\"doc_ids\": [\"DOC-B0543-TOUR_API-774675\"], \"end\": 36, \"start\": 0}, {\"doc_ids\": [\"DOC-B0543-TOUR_API-774675\"], \"end\": 91, \"start\": 37}, {\"doc_ids\": [\"DOC-B0543-TOUR_API-774675\"], \"end\": 196, \"start\": 92}, {\"doc_ids\": [\"DOC-B0543-TOUR_API-774675\"], \"end\": 283, \"start\": 197}, {\"doc_ids\": [\"DOC-B0543-TOUR_API-774675\"], \"end\": 335, \"start\": 284}, {\"doc_ids\": [\"DOC-B0543-TOUR_API-774675\"], \"end\": 388, \"start\": 336}, {\"doc_ids\": [\"DOC-B0543-TOUR_API-774675\"], \"end\": 439, \"start\": 389}, {\"doc_ids\": [\"DOC-B0543-BASE\"], \"end\": 521, \"start\": 440}, {\"doc_ids\": [\"DOC-B0543-BASE\"], \"end\": 527, \"start\": 522}], \"source_urls\": [], \"text\": \"겸재정선미술관은 강서구 습지생태공원 맞은편에 있는 구립미술관이다. 겸재 정선(1676~1759)은 진경산수 화풍을 창안하여 한국 미술의 정체성을 이끌어낸 화성이다. 겸재정선미술관은 지하 1층, 지상 3층 건물로, 미술관 1층에는 양천현아실, 기획전시실이 마련되어 있어 양천과 정선의 인연에 대해 소개하였고 기획전시실에서는 다른 작가의 전시가 가능하다. 2층에는 정선의 생애 및 작품을 살펴볼 수 있는 겸재기념관실과 정선이 여행한 전국과 그의 작품 속 장소의 현재와 과거의 변화된 모습을 비교해 볼 수 있다. 겸재기념실 외에도 체험실, 영상실이 마련되어 있어 직접 정선작품을 학습하고 체험할 수 있다. 3층에는 카페테리아, 뮤지움 숍, 다목적실, 수유실이 있어서 관람객에게 편의를 제공하고 있다. 다목적실은 영상 시청, 강의 및 세미나, 전시가 모두 가능하며 대관 장소로 활용하고 있다. 겸재정선미술관은 진경산수화풍을 완성한 겸재 정선(1676~1759)의 위대한 예술적 업적을 기리고 진경문화를 계승·발전시키고자 2009.4.23. 건립되었음\"}",
+    "{\"evidence_context_version\": \"grounded-evidence-v2\", \"evidence_id\": \"E3\", \"metadata_provenance\": {\"base_data_date\": \"2022-06-15\", \"fields\": {\"address\": \"전북특별자치도 순창군 적성면 평남길 122\", \"adult_fee\": \"0\", \"adult_fee_status\": \"BASE_FEE_ZERO_CHECK_EXCEPTIONS\", \"child_fee\": \"0\", \"closure_rule_raw\": \"월(특별개관일 별도공지)\", \"holiday_close\": \"18:00\", \"holiday_open\": \"10:00\", \"name\": \"섬진강미술관\", \"ownership_type\": \"공립\", \"sido\": \"전북특별자치도\", \"sigungu\": \"순창군\", \"weekday_close\": \"18:00\", \"weekday_open\": \"10:00\", \"youth_fee\": \"0\"}, \"source_kind\": \"derived_csv_row\", \"source_locator\": \"data/processed/museum_final_738.csv#record=569\", \"trust\": \"derived_dataset_not_human_verified\"}, \"museum_id\": \"M0835\", \"name\": \"섬진강미술관\", \"source_doc_ids\": [\"DOC-B0835-TOUR_API-4112664\", \"DOC-B0835-BASE\"], \"source_documents\": [{\"doc_id\": \"DOC-B0835-TOUR_API-4112664\", \"match_trust\": \"RECHECKED_BY_RULE_NOT_HUMAN_APPROVED\", \"source_locator\": \"data/raw/museum_tourapi_with_overview.csv#row=396\", \"source_record_id\": \"4112664\", \"source_type\": \"TOUR_API\"}, {\"doc_id\": \"DOC-B0835-BASE\", \"match_trust\": \"BASE_SOURCE\", \"source_locator\": \"data/raw/museum_base_1070.csv#row=836\", \"source_record_id\": \"B0835\", \"source_type\": \"BASE\"}], \"source_locator\": \"data/raw/museum_tourapi_with_overview.csv#row=396\", \"source_locators\": [\"data/raw/museum_tourapi_with_overview.csv#row=396\"], \"source_scope\": \"text\", \"source_spans\": [{\"doc_ids\": [\"DOC-B0835-TOUR_API-4112664\"], \"end\": 72, \"start\": 0}, {\"doc_ids\": [\"DOC-B0835-TOUR_API-4112664\"], \"end\": 139, \"start\": 73}, {\"doc_ids\": [\"DOC-B0835-TOUR_API-4112664\"], \"end\": 215, \"start\": 140}, {\"doc_ids\": [\"DOC-B0835-TOUR_API-4112664\"], \"end\": 304, \"start\": 216}, {\"doc_ids\": [\"DOC-B0835-TOUR_API-4112664\"], \"end\": 353, \"start\": 305}, {\"doc_ids\": [\"DOC-B0835-TOUR_API-4112664\"], \"end\": 470, \"start\": 354}, {\"doc_ids\": [\"DOC-B0835-BASE\"], \"end\": 638, \"start\": 471}], \"source_urls\": [], \"text\": \"잔잔하게 흐르는 섬진강과 오수천 두 물길이 만나며 넉넉한 적성 들녘이 펼쳐지는 풍경 속에 예술이 한 폭의 그림처럼 스며들어 있다. 마을 어귀부터 돌담을 수놓은 벽화와 다채로운 조형물이 반겨주며 동네 전체가 지붕 없는 커다란 야외 미술관 역할을 한다. 산자락 끝에 평온하게 자리한 미술관은 곡면 지붕에 커다란 통창을 두른 신관과 단정한 석재 벽을 지닌 별관으로 나뉘어 방문객을 맞이한다. 아담하고 깔끔한 전시실은 하얀 벽면과 윤기 나는 바닥이 돋보이며 순창을 비롯한 지역 작가들의 회화와 조각 등 풍성한 예술 작품을 여유롭게 감상하기에 제격이다. 옥상 전망대에 오르면 시원한 강줄기와 채계산 출렁다리 능선이 한눈에 시원하게 들어온다. 마당에 놓인 기울어진 액자 모양 조형물 너머로 펼쳐지는 생생한 자연경관을 배경으로 사진을 남기거나 구남마을 안길을 천천히 걸으며 곳곳에 숨겨진 공공미술 작품을 찾아보는 여유로운 문화 산책을 즐겨보기를 바란다. 순창군은 천년의 고도 청정 순창, 유구한 역사를 자랑할 수 있을 만큼 그 어느 곳을 보아도 선사시대부터 터전을 잡고 청정 섬진강의 유역인 적성구남마을에 465㎡규모의 섬진강미술관을 개관하여 섬진강에 얽힌 농경 문화를 바탕으로 한 운영을 통해 전국 미술인들이 즐겨 찾는 미술관광 캠프로 운영 방침이다.\"}",
+    "{\"evidence_context_version\": \"grounded-evidence-v2\", \"evidence_id\": \"E4\", \"metadata_provenance\": {\"base_data_date\": \"2026-09-18\", \"fields\": {\"address\": \"인천광역시 연수구 인천타워대로 238\", \"adult_fee\": \"0\", \"adult_fee_status\": \"BASE_FEE_ZERO_CHECK_EXCEPTIONS\", \"child_fee\": \"0\", \"closure_rule_raw\": \"월(단, 공휴일인 월요일은 제외)+1월1일\", \"holiday_close\": \"18:00\", \"holiday_open\": \"09:00\", \"name\": \"인천도시역사관\", \"ownership_type\": \"공립\", \"sido\": \"인천광역시\", \"sigungu\": \"연수구\", \"weekday_close\": \"18:00\", \"weekday_open\": \"09:00\", \"youth_fee\": \"0\"}, \"source_kind\": \"derived_csv_row\", \"source_locator\": \"data/processed/museum_final_738.csv#record=5\", \"trust\": \"derived_dataset_not_human_verified\"}, \"museum_id\": \"M0005\", \"name\": \"인천도시역사관\", \"source_doc_ids\": [\"DOC-B0005-TOUR_API-1851364\", \"DOC-B0005-BASE\"], \"source_documents\": [{\"doc_id\": \"DOC-B0005-TOUR_API-1851364\", \"match_trust\": \"AUTO_MATCH_NOT_HUMAN_VERIFIED\", \"source_locator\": \"data/raw/museum_tourapi_with_overview.csv#row=5\", \"source_record_id\": \"1851364\", \"source_type\": \"TOUR_API\"}, {\"doc_id\": \"DOC-B0005-BASE\", \"match_trust\": \"BASE_SOURCE\", \"source_locator\": \"data/raw/museum_base_1070.csv#row=6\", \"source_record_id\": \"B0005\", \"source_type\": \"BASE\"}], \"source_locator\": \"data/raw/museum_tourapi_with_overview.csv#row=5\", \"source_locators\": [\"data/raw/museum_tourapi_with_overview.csv#row=5\"], \"source_scope\": \"text\", \"source_spans\": [{\"doc_ids\": [\"DOC-B0005-TOUR_API-1851364\"], \"end\": 131, \"start\": 0}, {\"doc_ids\": [\"DOC-B0005-TOUR_API-1851364\"], \"end\": 201, \"start\": 132}, {\"doc_ids\": [\"DOC-B0005-TOUR_API-1851364\"], \"end\": 300, \"start\": 202}, {\"doc_ids\": [\"DOC-B0005-TOUR_API-1851364\"], \"end\": 345, \"start\": 301}, {\"doc_ids\": [\"DOC-B0005-BASE\"], \"end\": 440, \"start\": 346}], \"source_urls\": [], \"text\": \"인천광역시는 1883년 개항 후 우리나라 최초의 계획도시로 시작하여 140년이 넘는 시간이 흐르는 동안 다양한 변화와 확장을 거쳐 지금은 전국 8대 광역시 중 가장 넓은 면적에 300만 인구의 무한한 잠재력을 가진 도시로 성장해 왔다. 인천도시역사관은 도시 인천광역시의 역사와 변화 과정을 다양한 실물 자료 및 모형을 통해 시민들에게 알기 쉽게 전달하고 있다. 근대도시관은 개항(1883년) 이후부터 광복(1945년)까지 도시 인천의 형성과 변천 과정을 소개하고 있으며, 인천모형관은 모형을 통해 도시 인천의 현재 모습을 소개하고 있다. 지도를 통해 인천의 영역 확장 및 인천 해안 매립과 공간의 변화를 알 수 있다. 인천도시역사관은 국내 및 해외 도시의 홍보관과 차별화된 전략으로 글로벌 도시 마케팅 개념을 적용하여 인천의 과거와 현재 그리고 미래를 한 눈에 볼 수 있는 전시관입니다.\"}",
+    "{\"evidence_context_version\": \"grounded-evidence-v2\", \"evidence_id\": \"E5\", \"metadata_provenance\": {\"base_data_date\": \"2024-07-18\", \"fields\": {\"address\": \"서울특별시 강남구 선릉로 807\", \"adult_fee\": \"15000\", \"adult_fee_status\": \"BASE_FEE_PAID\", \"child_fee\": \"10000\", \"closure_rule_raw\": \"월\", \"holiday_close\": \"19:00\", \"holiday_open\": \"10:00\", \"name\": \"K현대미술관\", \"ownership_type\": \"사립\", \"sido\": \"서울특별시\", \"sigungu\": \"강남구\", \"weekday_close\": \"19:00\", \"weekday_open\": \"10:00\", \"youth_fee\": \"12000\"}, \"source_kind\": \"derived_csv_row\", \"source_locator\": \"data/processed/museum_final_738.csv#record=532\", \"trust\": \"derived_dataset_not_human_verified\"}, \"museum_id\": \"M0771\", \"name\": \"K현대미술관\", \"source_doc_ids\": [\"DOC-B0771-TOUR_API-2773265\"], \"source_documents\": [{\"doc_id\": \"DOC-B0771-TOUR_API-2773265\", \"match_trust\": \"AUTO_MATCH_NOT_HUMAN_VERIFIED\", \"source_locator\": \"data/raw/museum_tourapi_with_overview.csv#row=372\", \"source_record_id\": \"2773265\", \"source_type\": \"TOUR_API\"}], \"source_locator\": \"data/raw/museum_tourapi_with_overview.csv#row=372\", \"source_locators\": [\"data/raw/museum_tourapi_with_overview.csv#row=372\"], \"source_scope\": \"text\", \"source_spans\": [{\"doc_ids\": [\"DOC-B0771-TOUR_API-2773265\"], \"end\": 57, \"start\": 0}, {\"doc_ids\": [\"DOC-B0771-TOUR_API-2773265\"], \"end\": 170, \"start\": 58}, {\"doc_ids\": [\"DOC-B0771-TOUR_API-2773265\"], \"end\": 272, \"start\": 171}], \"source_urls\": [], \"text\": \"서울 강남구 압구정동 중심에 위치한 K현대미술관은 6개 층 전시장 4,959㎡ 규모의 사립 미술관이다. 현대미술의 실험적이고, 다학문적인 플랫폼이며 현대 사회의 대화의 장이 될 수 있는 역할을 수행 하는 것을 목표로 다양한 국내외 아티스트들의 도전적 시도를 존중하며 실험적 전시를 대중에게 소개하고 있다. 또한 모든 연령층에게 예술에 대한 친숙함을 주기 위해 장벽 없는 환경에서 어린이부터 성인까지 누구나 쉽게 예술과 가까워지고, 직접 참여할 수 있는 프로그램과 워크숍을 제공하고 있다.\"}"
+  ],
+  "mode": "supervisor_full",
+  "question_id": "Q184",
+  "evidence": [
+    {
+      "museum_id": "M0302",
+      "name": "벽천미술관",
+      "document": "호남 한국화 발전에 이바지한 벽천 나상목(1924-1999)은 철저한 자연성에 입각한 전통 화법을 연구하면서, 기존의 산수화풍에서 벗어나 자연을 주관적으로 재해석하는 시도를 하며 호남화단 특유의 습윤(濕潤)한 기풍을 완성하였다. 벽천미술관은 나상목의 업적과 정신을 기리기 위해 건립되었으며, 미술작품과 자료를 전시, 연구, 수집을 목적으로 한다.",
+      "metadata": {
+        "holiday_open": "09:00",
+        "latitude": 35.7546256,
+        "closure_rule_raw": "매주 월요일 + 1월 1일",
+        "requires_manual_review": false,
+        "weekday_close": "18:00",
+        "sido": "전북특별자치도",
+        "youth_fee": 0.0,
+        "sigungu": "김제시",
+        "adult_fee": 0.0,
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "name": "벽천미술관",
+        "weekday_open": "09:00",
+        "address": "전북특별자치도 김제시 부량면 벽골제로 442",
+        "longitude": 126.8531043,
+        "ownership_type": "공립",
+        "fee_notes": "무료",
+        "child_fee": 0.0,
+        "source_types": "BASE",
+        "homepage_url": "https://www.gimje.go.kr/tour/index.gimje",
+        "holiday_close": "18:00"
+      },
+      "vector_rank": 1,
+      "bm25_rank": 1,
+      "vector_distance": 0.5059093236923218,
+      "vector_score": null,
+      "bm25_score": 24.81600360081776,
+      "vector_document": "호남 한국화 발전에 이바지한 벽천 나상목(1924-1999)은 철저한 자연성에 입각한 전통 화법을 연구하면서, 기존의 산수화풍에서 벗어나 자연을 주관적으로 재해석하는 시도를 하며 호남화단 특유의 습윤(濕潤)한 기풍을 완성하였다. 벽천미술관은 나상목의 업적과 정신을 기리기 위해 건립되었으며, 미술작품과 자료를 전시, 연구, 수집을 목적으로 한다.",
+      "bm25_document": "호남 한국화 발전에 이바지한 벽천 나상목(1924-1999)은 철저한 자연성에 입각한 전통 화법을 연구하면서, 기존의 산수화풍에서 벗어나 자연을 주관적으로 재해석하는 시도를 하며 호남화단 특유의 습윤(濕潤)한 기풍을 완성하였다. 벽천미술관은 나상목의 업적과 정신을 기리기 위해 건립되었으며, 미술작품과 자료를 전시, 연구, 수집을 목적으로 한다.",
+      "best_span_id": "chroma:M0302",
+      "best_span_text": "호남 한국화 발전에 이바지한 벽천 나상목(1924-1999)은 철저한 자연성에 입각한 전통 화법을 연구하면서, 기존의 산수화풍에서 벗어나 자연을 주관적으로 재해석하는 시도를 하며 호남화단 특유의 습윤(濕潤)한 기풍을 완성하였다. 벽천미술관은 나상목의 업적과 정신을 기리기 위해 건립되었으며, 미술작품과 자료를 전시, 연구, 수집을 목적으로 한다.",
+      "fusion_score": 0.03278688524590164,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 1,
+      "name_match": true,
+      "rerank_score": 0.9973405003547668,
+      "rank": 1,
+      "score": 0.9973405003547668,
+      "score_type": "cross_encoder",
+      "distance": 0.5059093236923218,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0302",
+      "source_doc_ids": [
+        "DOC-B0302-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0302-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0302",
+          "source_locator": "data/raw/museum_base_1070.csv#row=303",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 127,
+          "doc_ids": [
+            "DOC-B0302-BASE"
+          ]
+        },
+        {
+          "start": 128,
+          "end": 193,
+          "doc_ids": [
+            "DOC-B0302-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_base_1070.csv#row=303",
+      "text": "호남 한국화 발전에 이바지한 벽천 나상목(1924-1999)은 철저한 자연성에 입각한 전통 화법을 연구하면서, 기존의 산수화풍에서 벗어나 자연을 주관적으로 재해석하는 시도를 하며 호남화단 특유의 습윤(濕潤)한 기풍을 완성하였다. 벽천미술관은 나상목의 업적과 정신을 기리기 위해 건립되었으며, 미술작품과 자료를 전시, 연구, 수집을 목적으로 한다.",
+      "sido": "전북특별자치도",
+      "sigungu": "김제시",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_base_1070.csv#row=303"
+      ],
+      "evidence_id": "E1",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=215",
+        "fields": {
+          "name": "벽천미술관",
+          "sido": "전북특별자치도",
+          "sigungu": "김제시",
+          "address": "전북특별자치도 김제시 부량면 벽골제로 442",
+          "ownership_type": "공립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "09:00",
+          "weekday_close": "18:00",
+          "holiday_open": "09:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "매주 월요일 + 1월 1일"
+        },
+        "base_data_date": "2026-07-31",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0543",
+      "name": "겸재정선미술관",
+      "document": "겸재정선미술관은 강서구 습지생태공원 맞은편에 있는 구립미술관이다. 겸재 정선(1676~1759)은 진경산수 화풍을 창안하여 한국 미술의 정체성을 이끌어낸 화성이다. 겸재정선미술관은 지하 1층, 지상 3층 건물로, 미술관 1층에는 양천현아실, 기획전시실이 마련되어 있어 양천과 정선의 인연에 대해 소개하였고 기획전시실에서는 다른 작가의 전시가 가능하다. 2층에는 정선의 생애 및 작품을 살펴볼 수 있는 겸재기념관실과 정선이 여행한 전국과 그의 작품 속 장소의 현재와 과거의 변화된 모습을 비교해 볼 수 있다. 겸재기념실 외에도 체험실, 영상실이 마련되어 있어 직접 정선작품을 학습하고 체험할 수 있다. 3층에는 카페테리아, 뮤지움 숍, 다목적실, 수유실이 있어서 관람객에게 편의를 제공하고 있다. 다목적실은 영상 시청, 강의 및 세미나, 전시가 모두 가능하며 대관 장소로 활용하고 있다. 겸재정선미술관은 진경산수화풍을 완성한 겸재 정선(1676~1759)의 위대한 예술적 업적을 기리고 진경문화를 계승·발전시키고자 2009.4.23. 건립되었음",
+      "metadata": {
+        "sigungu": "강서구",
+        "transport_notes": "지하철9호선 양천향교역 1번출구→마을버스 강서06 탑승하여겸재정선미술관 앞 하차",
+        "holiday_close": "18:00",
+        "homepage_url": "https://culture.gangseo.seoul.kr/",
+        "adult_fee_status": "BASE_FEE_PAID",
+        "adult_fee": 1000.0,
+        "holiday_open": "10:00",
+        "latitude": 37.57222423,
+        "source_types": "BASE|TOUR_API",
+        "sido": "서울특별시",
+        "closure_rule_raw": "월+1월1일+설 당일+추석 당일",
+        "image_copyright": "Type1",
+        "youth_fee": 500.0,
+        "amenities_raw": "주차장(26대)+카페테리아+뮤지엄샵+수유실+자전거보관대",
+        "child_fee": 500.0,
+        "address": "서울특별시 강서구 양천로47길 36",
+        "ownership_type": "공립",
+        "requires_manual_review": true,
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/99/4078199_image2_1.jpg",
+        "longitude": 126.8387234,
+        "weekday_close": "18:00",
+        "name": "겸재정선미술관",
+        "weekday_open": "10:00",
+        "fee_notes": "1. 무료: 만6세이하+만65세이상+국가·독립유공자 등+장애인+다둥이행복카드소지자 2. 통합관람(겸재정선미술관+허준박물관): 어른(개인 1300원+단체 1000원) / 청소년(개인 700원+단체 500원)"
+      },
+      "vector_rank": null,
+      "bm25_rank": 2,
+      "vector_distance": null,
+      "vector_score": null,
+      "bm25_score": 13.349766874746596,
+      "vector_document": "",
+      "bm25_document": "겸재정선미술관은 강서구 습지생태공원 맞은편에 있는 구립미술관이다. 겸재 정선(1676~1759)은 진경산수 화풍을 창안하여 한국 미술의 정체성을 이끌어낸 화성이다. 겸재정선미술관은 지하 1층, 지상 3층 건물로, 미술관 1층에는 양천현아실, 기획전시실이 마련되어 있어 양천과 정선의 인연에 대해 소개하였고 기획전시실에서는 다른 작가의 전시가 가능하다. 2층에는 정선의 생애 및 작품을 살펴볼 수 있는 겸재기념관실과 정선이 여행한 전국과 그의 작품 속 장소의 현재와 과거의 변화된 모습을 비교해 볼 수 있다. 겸재기념실 외에도 체험실, 영상실이 마련되어 있어 직접 정선작품을 학습하고 체험할 수 있다. 3층에는 카페테리아, 뮤지움 숍, 다목적실, 수유실이 있어서 관람객에게 편의를 제공하고 있다. 다목적실은 영상 시청, 강의 및 세미나, 전시가 모두 가능하며 대관 장소로 활용하고 있다. 겸재정선미술관은 진경산수화풍을 완성한 겸재 정선(1676~1759)의 위대한 예술적 업적을 기리고 진경문화를 계승·발전시키고자 2009.4.23. 건립되었음",
+      "best_span_id": "chroma:M0543",
+      "best_span_text": "겸재정선미술관은 강서구 습지생태공원 맞은편에 있는 구립미술관이다. 겸재 정선(1676~1759)은 진경산수 화풍을 창안하여 한국 미술의 정체성을 이끌어낸 화성이다. 겸재정선미술관은 지하 1층, 지상 3층 건물로, 미술관 1층에는 양천현아실, 기획전시실이 마련되어 있어 양천과 정선의 인연에 대해 소개하였고 기획전시실에서는 다른 작가의 전시가 가능하다. 2층에는 정선의 생애 및 작품을 살펴볼 수 있는 겸재기념관실과 정선이 여행한 전국과 그의 작품 속 장소의 현재와 과거의 변화된 모습을 비교해 볼 수 있다. 겸재기념실 외에도 체험실, 영상실이 마련되어 있어 직접 정선작품을 학습하고 체험할 수 있다. 3층에는 카페테리아, 뮤지움 숍, 다목적실, 수유실이 있어서 관람객에게 편의를 제공하고 있다. 다목적실은 영상 시청, 강의 및 세미나, 전시가 모두 가능하며 대관 장소로 활용하고 있다. 겸재정선미술관은 진경산수화풍을 완성한 겸재 정선(1676~1759)의 위대한 예술적 업적을 기리고 진경문화를 계승·발전시키고자 2009.4.23. 건립되었음",
+      "fusion_score": 0.016129032258064516,
+      "retrieved_by": [
+        "bm25"
+      ],
+      "fusion_rank": 3,
+      "rerank_score": 0.0006955770659260452,
+      "rank": 2,
+      "score": 0.0006955770659260452,
+      "score_type": "cross_encoder",
+      "distance": null,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "bm25"
+      ],
+      "retriever": "bm25",
+      "span_id": "chroma:M0543",
+      "source_doc_ids": [
+        "DOC-B0543-TOUR_API-774675",
+        "DOC-B0543-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0543-TOUR_API-774675",
+          "source_type": "TOUR_API",
+          "source_record_id": "774675",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=267",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        },
+        {
+          "doc_id": "DOC-B0543-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0543",
+          "source_locator": "data/raw/museum_base_1070.csv#row=544",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 36,
+          "doc_ids": [
+            "DOC-B0543-TOUR_API-774675"
+          ]
+        },
+        {
+          "start": 37,
+          "end": 91,
+          "doc_ids": [
+            "DOC-B0543-TOUR_API-774675"
+          ]
+        },
+        {
+          "start": 92,
+          "end": 196,
+          "doc_ids": [
+            "DOC-B0543-TOUR_API-774675"
+          ]
+        },
+        {
+          "start": 197,
+          "end": 283,
+          "doc_ids": [
+            "DOC-B0543-TOUR_API-774675"
+          ]
+        },
+        {
+          "start": 284,
+          "end": 335,
+          "doc_ids": [
+            "DOC-B0543-TOUR_API-774675"
+          ]
+        },
+        {
+          "start": 336,
+          "end": 388,
+          "doc_ids": [
+            "DOC-B0543-TOUR_API-774675"
+          ]
+        },
+        {
+          "start": 389,
+          "end": 439,
+          "doc_ids": [
+            "DOC-B0543-TOUR_API-774675"
+          ]
+        },
+        {
+          "start": 440,
+          "end": 521,
+          "doc_ids": [
+            "DOC-B0543-BASE"
+          ]
+        },
+        {
+          "start": 522,
+          "end": 527,
+          "doc_ids": [
+            "DOC-B0543-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=267",
+      "text": "겸재정선미술관은 강서구 습지생태공원 맞은편에 있는 구립미술관이다. 겸재 정선(1676~1759)은 진경산수 화풍을 창안하여 한국 미술의 정체성을 이끌어낸 화성이다. 겸재정선미술관은 지하 1층, 지상 3층 건물로, 미술관 1층에는 양천현아실, 기획전시실이 마련되어 있어 양천과 정선의 인연에 대해 소개하였고 기획전시실에서는 다른 작가의 전시가 가능하다. 2층에는 정선의 생애 및 작품을 살펴볼 수 있는 겸재기념관실과 정선이 여행한 전국과 그의 작품 속 장소의 현재와 과거의 변화된 모습을 비교해 볼 수 있다. 겸재기념실 외에도 체험실, 영상실이 마련되어 있어 직접 정선작품을 학습하고 체험할 수 있다. 3층에는 카페테리아, 뮤지움 숍, 다목적실, 수유실이 있어서 관람객에게 편의를 제공하고 있다. 다목적실은 영상 시청, 강의 및 세미나, 전시가 모두 가능하며 대관 장소로 활용하고 있다. 겸재정선미술관은 진경산수화풍을 완성한 겸재 정선(1676~1759)의 위대한 예술적 업적을 기리고 진경문화를 계승·발전시키고자 2009.4.23. 건립되었음",
+      "sido": "서울특별시",
+      "sigungu": "강서구",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=267"
+      ],
+      "evidence_id": "E2",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=380",
+        "fields": {
+          "name": "겸재정선미술관",
+          "sido": "서울특별시",
+          "sigungu": "강서구",
+          "address": "서울특별시 강서구 양천로47길 36",
+          "ownership_type": "공립",
+          "adult_fee": "1000",
+          "youth_fee": "500",
+          "child_fee": "500",
+          "adult_fee_status": "BASE_FEE_PAID",
+          "weekday_open": "10:00",
+          "weekday_close": "18:00",
+          "holiday_open": "10:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "월+1월1일+설 당일+추석 당일",
+          "amenities_raw": "주차장(26대)+카페테리아+뮤지엄샵+수유실+자전거보관대"
+        },
+        "base_data_date": "2026-03-05",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0835",
+      "name": "섬진강미술관",
+      "document": "잔잔하게 흐르는 섬진강과 오수천 두 물길이 만나며 넉넉한 적성 들녘이 펼쳐지는 풍경 속에 예술이 한 폭의 그림처럼 스며들어 있다. 마을 어귀부터 돌담을 수놓은 벽화와 다채로운 조형물이 반겨주며 동네 전체가 지붕 없는 커다란 야외 미술관 역할을 한다. 산자락 끝에 평온하게 자리한 미술관은 곡면 지붕에 커다란 통창을 두른 신관과 단정한 석재 벽을 지닌 별관으로 나뉘어 방문객을 맞이한다. 아담하고 깔끔한 전시실은 하얀 벽면과 윤기 나는 바닥이 돋보이며 순창을 비롯한 지역 작가들의 회화와 조각 등 풍성한 예술 작품을 여유롭게 감상하기에 제격이다. 옥상 전망대에 오르면 시원한 강줄기와 채계산 출렁다리 능선이 한눈에 시원하게 들어온다. 마당에 놓인 기울어진 액자 모양 조형물 너머로 펼쳐지는 생생한 자연경관을 배경으로 사진을 남기거나 구남마을 안길을 천천히 걸으며 곳곳에 숨겨진 공공미술 작품을 찾아보는 여유로운 문화 산책을 즐겨보기를 바란다. 순창군은 천년의 고도 청정 순창, 유구한 역사를 자랑할 수 있을 만큼 그 어느 곳을 보아도 선사시대부터 터전을 잡고 청정 섬진강의 유역인 적성구남마을에 465㎡규모의 섬진강미술관을 개관하여 섬진강에 얽힌 농경 문화를 바탕으로 한 운영을 통해 전국 미술인들이 즐겨 찾는 미술관광 캠프로 운영 방침이다.",
+      "metadata": {
+        "holiday_open": "10:00",
+        "adult_fee": 0.0,
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/12/4110612_image2_1.jpg",
+        "holiday_close": "18:00",
+        "transport_notes": "순창버스터미널+적성평남마을+ 도보10분",
+        "source_types": "BASE|TOUR_API",
+        "child_fee": 0.0,
+        "weekday_open": "10:00",
+        "weekday_close": "18:00",
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "name": "섬진강미술관",
+        "ownership_type": "공립",
+        "latitude": 35.4269683166,
+        "sigungu": "순창군",
+        "requires_manual_review": true,
+        "address": "전북특별자치도 순창군 적성면 평남길 122",
+        "longitude": 127.2195607025,
+        "youth_fee": 0.0,
+        "closure_rule_raw": "월(특별개관일 별도공지)",
+        "sido": "전북특별자치도",
+        "homepage_url": "https://www.artsunchang.com",
+        "image_copyright": "Type1"
+      },
+      "vector_rank": null,
+      "bm25_rank": 7,
+      "vector_distance": null,
+      "vector_score": null,
+      "bm25_score": 7.563740974465153,
+      "vector_document": "",
+      "bm25_document": "잔잔하게 흐르는 섬진강과 오수천 두 물길이 만나며 넉넉한 적성 들녘이 펼쳐지는 풍경 속에 예술이 한 폭의 그림처럼 스며들어 있다. 마을 어귀부터 돌담을 수놓은 벽화와 다채로운 조형물이 반겨주며 동네 전체가 지붕 없는 커다란 야외 미술관 역할을 한다. 산자락 끝에 평온하게 자리한 미술관은 곡면 지붕에 커다란 통창을 두른 신관과 단정한 석재 벽을 지닌 별관으로 나뉘어 방문객을 맞이한다. 아담하고 깔끔한 전시실은 하얀 벽면과 윤기 나는 바닥이 돋보이며 순창을 비롯한 지역 작가들의 회화와 조각 등 풍성한 예술 작품을 여유롭게 감상하기에 제격이다. 옥상 전망대에 오르면 시원한 강줄기와 채계산 출렁다리 능선이 한눈에 시원하게 들어온다. 마당에 놓인 기울어진 액자 모양 조형물 너머로 펼쳐지는 생생한 자연경관을 배경으로 사진을 남기거나 구남마을 안길을 천천히 걸으며 곳곳에 숨겨진 공공미술 작품을 찾아보는 여유로운 문화 산책을 즐겨보기를 바란다. 순창군은 천년의 고도 청정 순창, 유구한 역사를 자랑할 수 있을 만큼 그 어느 곳을 보아도 선사시대부터 터전을 잡고 청정 섬진강의 유역인 적성구남마을에 465㎡규모의 섬진강미술관을 개관하여 섬진강에 얽힌 농경 문화를 바탕으로 한 운영을 통해 전국 미술인들이 즐겨 찾는 미술관광 캠프로 운영 방침이다.",
+      "best_span_id": "chroma:M0835",
+      "best_span_text": "잔잔하게 흐르는 섬진강과 오수천 두 물길이 만나며 넉넉한 적성 들녘이 펼쳐지는 풍경 속에 예술이 한 폭의 그림처럼 스며들어 있다. 마을 어귀부터 돌담을 수놓은 벽화와 다채로운 조형물이 반겨주며 동네 전체가 지붕 없는 커다란 야외 미술관 역할을 한다. 산자락 끝에 평온하게 자리한 미술관은 곡면 지붕에 커다란 통창을 두른 신관과 단정한 석재 벽을 지닌 별관으로 나뉘어 방문객을 맞이한다. 아담하고 깔끔한 전시실은 하얀 벽면과 윤기 나는 바닥이 돋보이며 순창을 비롯한 지역 작가들의 회화와 조각 등 풍성한 예술 작품을 여유롭게 감상하기에 제격이다. 옥상 전망대에 오르면 시원한 강줄기와 채계산 출렁다리 능선이 한눈에 시원하게 들어온다. 마당에 놓인 기울어진 액자 모양 조형물 너머로 펼쳐지는 생생한 자연경관을 배경으로 사진을 남기거나 구남마을 안길을 천천히 걸으며 곳곳에 숨겨진 공공미술 작품을 찾아보는 여유로운 문화 산책을 즐겨보기를 바란다. 순창군은 천년의 고도 청정 순창, 유구한 역사를 자랑할 수 있을 만큼 그 어느 곳을 보아도 선사시대부터 터전을 잡고 청정 섬진강의 유역인 적성구남마을에 465㎡규모의 섬진강미술관을 개관하여 섬진강에 얽힌 농경 문화를 바탕으로 한 운영을 통해 전국 미술인들이 즐겨 찾는 미술관광 캠프로 운영 방침이다.",
+      "fusion_score": 0.014925373134328358,
+      "retrieved_by": [
+        "bm25"
+      ],
+      "fusion_rank": 13,
+      "rerank_score": 7.400986942229792e-05,
+      "rank": 3,
+      "score": 7.400986942229792e-05,
+      "score_type": "cross_encoder",
+      "distance": null,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "bm25"
+      ],
+      "retriever": "bm25",
+      "span_id": "chroma:M0835",
+      "source_doc_ids": [
+        "DOC-B0835-TOUR_API-4112664",
+        "DOC-B0835-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0835-TOUR_API-4112664",
+          "source_type": "TOUR_API",
+          "source_record_id": "4112664",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=396",
+          "match_trust": "RECHECKED_BY_RULE_NOT_HUMAN_APPROVED"
+        },
+        {
+          "doc_id": "DOC-B0835-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0835",
+          "source_locator": "data/raw/museum_base_1070.csv#row=836",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 72,
+          "doc_ids": [
+            "DOC-B0835-TOUR_API-4112664"
+          ]
+        },
+        {
+          "start": 73,
+          "end": 139,
+          "doc_ids": [
+            "DOC-B0835-TOUR_API-4112664"
+          ]
+        },
+        {
+          "start": 140,
+          "end": 215,
+          "doc_ids": [
+            "DOC-B0835-TOUR_API-4112664"
+          ]
+        },
+        {
+          "start": 216,
+          "end": 304,
+          "doc_ids": [
+            "DOC-B0835-TOUR_API-4112664"
+          ]
+        },
+        {
+          "start": 305,
+          "end": 353,
+          "doc_ids": [
+            "DOC-B0835-TOUR_API-4112664"
+          ]
+        },
+        {
+          "start": 354,
+          "end": 470,
+          "doc_ids": [
+            "DOC-B0835-TOUR_API-4112664"
+          ]
+        },
+        {
+          "start": 471,
+          "end": 638,
+          "doc_ids": [
+            "DOC-B0835-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=396",
+      "text": "잔잔하게 흐르는 섬진강과 오수천 두 물길이 만나며 넉넉한 적성 들녘이 펼쳐지는 풍경 속에 예술이 한 폭의 그림처럼 스며들어 있다. 마을 어귀부터 돌담을 수놓은 벽화와 다채로운 조형물이 반겨주며 동네 전체가 지붕 없는 커다란 야외 미술관 역할을 한다. 산자락 끝에 평온하게 자리한 미술관은 곡면 지붕에 커다란 통창을 두른 신관과 단정한 석재 벽을 지닌 별관으로 나뉘어 방문객을 맞이한다. 아담하고 깔끔한 전시실은 하얀 벽면과 윤기 나는 바닥이 돋보이며 순창을 비롯한 지역 작가들의 회화와 조각 등 풍성한 예술 작품을 여유롭게 감상하기에 제격이다. 옥상 전망대에 오르면 시원한 강줄기와 채계산 출렁다리 능선이 한눈에 시원하게 들어온다. 마당에 놓인 기울어진 액자 모양 조형물 너머로 펼쳐지는 생생한 자연경관을 배경으로 사진을 남기거나 구남마을 안길을 천천히 걸으며 곳곳에 숨겨진 공공미술 작품을 찾아보는 여유로운 문화 산책을 즐겨보기를 바란다. 순창군은 천년의 고도 청정 순창, 유구한 역사를 자랑할 수 있을 만큼 그 어느 곳을 보아도 선사시대부터 터전을 잡고 청정 섬진강의 유역인 적성구남마을에 465㎡규모의 섬진강미술관을 개관하여 섬진강에 얽힌 농경 문화를 바탕으로 한 운영을 통해 전국 미술인들이 즐겨 찾는 미술관광 캠프로 운영 방침이다.",
+      "sido": "전북특별자치도",
+      "sigungu": "순창군",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=396"
+      ],
+      "evidence_id": "E3",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=569",
+        "fields": {
+          "name": "섬진강미술관",
+          "sido": "전북특별자치도",
+          "sigungu": "순창군",
+          "address": "전북특별자치도 순창군 적성면 평남길 122",
+          "ownership_type": "공립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "10:00",
+          "weekday_close": "18:00",
+          "holiday_open": "10:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "월(특별개관일 별도공지)"
+        },
+        "base_data_date": "2022-06-15",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0005",
+      "name": "인천도시역사관",
+      "document": "인천광역시는 1883년 개항 후 우리나라 최초의 계획도시로 시작하여 140년이 넘는 시간이 흐르는 동안 다양한 변화와 확장을 거쳐 지금은 전국 8대 광역시 중 가장 넓은 면적에 300만 인구의 무한한 잠재력을 가진 도시로 성장해 왔다. 인천도시역사관은 도시 인천광역시의 역사와 변화 과정을 다양한 실물 자료 및 모형을 통해 시민들에게 알기 쉽게 전달하고 있다. 근대도시관은 개항(1883년) 이후부터 광복(1945년)까지 도시 인천의 형성과 변천 과정을 소개하고 있으며, 인천모형관은 모형을 통해 도시 인천의 현재 모습을 소개하고 있다. 지도를 통해 인천의 영역 확장 및 인천 해안 매립과 공간의 변화를 알 수 있다. 인천도시역사관은 국내 및 해외 도시의 홍보관과 차별화된 전략으로 글로벌 도시 마케팅 개념을 적용하여 인천의 과거와 현재 그리고 미래를 한 눈에 볼 수 있는 전시관입니다.",
+      "metadata": {
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/25/4090525_image2_1.jpg",
+        "youth_fee": 0.0,
+        "weekday_close": "18:00",
+        "sigungu": "연수구",
+        "name": "인천도시역사관",
+        "homepage_url": "http://www.incheon.go.kr/museum",
+        "adult_fee": 0.0,
+        "latitude": 37.3927678319,
+        "transport_notes": "인천지하철 1호선 센트럴파크역 3번 출구+광역버스(M6405번+M6450번) 센트럴파크역 하차+급행버스(급행98번) 센트럴파크역 하차",
+        "longitude": 126.6358893,
+        "sido": "인천광역시",
+        "requires_manual_review": true,
+        "image_copyright": "Type1",
+        "weekday_open": "09:00",
+        "ownership_type": "공립",
+        "source_types": "BASE|TOUR_API",
+        "closure_rule_raw": "월(단, 공휴일인 월요일은 제외)+1월1일",
+        "holiday_open": "09:00",
+        "child_fee": 0.0,
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "address": "인천광역시 연수구 인천타워대로 238",
+        "holiday_close": "18:00"
+      },
+      "vector_rank": null,
+      "bm25_rank": 3,
+      "vector_distance": null,
+      "vector_score": null,
+      "bm25_score": 10.310555806952951,
+      "vector_document": "",
+      "bm25_document": "인천광역시는 1883년 개항 후 우리나라 최초의 계획도시로 시작하여 140년이 넘는 시간이 흐르는 동안 다양한 변화와 확장을 거쳐 지금은 전국 8대 광역시 중 가장 넓은 면적에 300만 인구의 무한한 잠재력을 가진 도시로 성장해 왔다. 인천도시역사관은 도시 인천광역시의 역사와 변화 과정을 다양한 실물 자료 및 모형을 통해 시민들에게 알기 쉽게 전달하고 있다. 근대도시관은 개항(1883년) 이후부터 광복(1945년)까지 도시 인천의 형성과 변천 과정을 소개하고 있으며, 인천모형관은 모형을 통해 도시 인천의 현재 모습을 소개하고 있다. 지도를 통해 인천의 영역 확장 및 인천 해안 매립과 공간의 변화를 알 수 있다. 인천도시역사관은 국내 및 해외 도시의 홍보관과 차별화된 전략으로 글로벌 도시 마케팅 개념을 적용하여 인천의 과거와 현재 그리고 미래를 한 눈에 볼 수 있는 전시관입니다.",
+      "best_span_id": "chroma:M0005",
+      "best_span_text": "인천광역시는 1883년 개항 후 우리나라 최초의 계획도시로 시작하여 140년이 넘는 시간이 흐르는 동안 다양한 변화와 확장을 거쳐 지금은 전국 8대 광역시 중 가장 넓은 면적에 300만 인구의 무한한 잠재력을 가진 도시로 성장해 왔다. 인천도시역사관은 도시 인천광역시의 역사와 변화 과정을 다양한 실물 자료 및 모형을 통해 시민들에게 알기 쉽게 전달하고 있다. 근대도시관은 개항(1883년) 이후부터 광복(1945년)까지 도시 인천의 형성과 변천 과정을 소개하고 있으며, 인천모형관은 모형을 통해 도시 인천의 현재 모습을 소개하고 있다. 지도를 통해 인천의 영역 확장 및 인천 해안 매립과 공간의 변화를 알 수 있다. 인천도시역사관은 국내 및 해외 도시의 홍보관과 차별화된 전략으로 글로벌 도시 마케팅 개념을 적용하여 인천의 과거와 현재 그리고 미래를 한 눈에 볼 수 있는 전시관입니다.",
+      "fusion_score": 0.015873015873015872,
+      "retrieved_by": [
+        "bm25"
+      ],
+      "fusion_rank": 5,
+      "rerank_score": 5.145378963788971e-05,
+      "rank": 4,
+      "score": 5.145378963788971e-05,
+      "score_type": "cross_encoder",
+      "distance": null,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "bm25"
+      ],
+      "retriever": "bm25",
+      "span_id": "chroma:M0005",
+      "source_doc_ids": [
+        "DOC-B0005-TOUR_API-1851364",
+        "DOC-B0005-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0005-TOUR_API-1851364",
+          "source_type": "TOUR_API",
+          "source_record_id": "1851364",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=5",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        },
+        {
+          "doc_id": "DOC-B0005-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0005",
+          "source_locator": "data/raw/museum_base_1070.csv#row=6",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 131,
+          "doc_ids": [
+            "DOC-B0005-TOUR_API-1851364"
+          ]
+        },
+        {
+          "start": 132,
+          "end": 201,
+          "doc_ids": [
+            "DOC-B0005-TOUR_API-1851364"
+          ]
+        },
+        {
+          "start": 202,
+          "end": 300,
+          "doc_ids": [
+            "DOC-B0005-TOUR_API-1851364"
+          ]
+        },
+        {
+          "start": 301,
+          "end": 345,
+          "doc_ids": [
+            "DOC-B0005-TOUR_API-1851364"
+          ]
+        },
+        {
+          "start": 346,
+          "end": 440,
+          "doc_ids": [
+            "DOC-B0005-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=5",
+      "text": "인천광역시는 1883년 개항 후 우리나라 최초의 계획도시로 시작하여 140년이 넘는 시간이 흐르는 동안 다양한 변화와 확장을 거쳐 지금은 전국 8대 광역시 중 가장 넓은 면적에 300만 인구의 무한한 잠재력을 가진 도시로 성장해 왔다. 인천도시역사관은 도시 인천광역시의 역사와 변화 과정을 다양한 실물 자료 및 모형을 통해 시민들에게 알기 쉽게 전달하고 있다. 근대도시관은 개항(1883년) 이후부터 광복(1945년)까지 도시 인천의 형성과 변천 과정을 소개하고 있으며, 인천모형관은 모형을 통해 도시 인천의 현재 모습을 소개하고 있다. 지도를 통해 인천의 영역 확장 및 인천 해안 매립과 공간의 변화를 알 수 있다. 인천도시역사관은 국내 및 해외 도시의 홍보관과 차별화된 전략으로 글로벌 도시 마케팅 개념을 적용하여 인천의 과거와 현재 그리고 미래를 한 눈에 볼 수 있는 전시관입니다.",
+      "sido": "인천광역시",
+      "sigungu": "연수구",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=5"
+      ],
+      "evidence_id": "E4",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=5",
+        "fields": {
+          "name": "인천도시역사관",
+          "sido": "인천광역시",
+          "sigungu": "연수구",
+          "address": "인천광역시 연수구 인천타워대로 238",
+          "ownership_type": "공립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "09:00",
+          "weekday_close": "18:00",
+          "holiday_open": "09:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "월(단, 공휴일인 월요일은 제외)+1월1일"
+        },
+        "base_data_date": "2026-09-18",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0771",
+      "name": "K현대미술관",
+      "document": "서울 강남구 압구정동 중심에 위치한 K현대미술관은 6개 층 전시장 4,959㎡ 규모의 사립 미술관이다. 현대미술의 실험적이고, 다학문적인 플랫폼이며 현대 사회의 대화의 장이 될 수 있는 역할을 수행 하는 것을 목표로 다양한 국내외 아티스트들의 도전적 시도를 존중하며 실험적 전시를 대중에게 소개하고 있다. 또한 모든 연령층에게 예술에 대한 친숙함을 주기 위해 장벽 없는 환경에서 어린이부터 성인까지 누구나 쉽게 예술과 가까워지고, 직접 참여할 수 있는 프로그램과 워크숍을 제공하고 있다.",
+      "metadata": {
+        "holiday_close": "19:00",
+        "sido": "서울특별시",
+        "holiday_open": "10:00",
+        "image_url": "http://tong.visitkorea.or.kr/cms/resource/79/2778979_image2_1.jpg",
+        "youth_fee": 12000.0,
+        "closure_rule_raw": "월",
+        "homepage_url": "http://kmcaseoul.org/",
+        "image_copyright": "Type3",
+        "name": "K현대미술관",
+        "requires_manual_review": true,
+        "longitude": 127.0391734,
+        "child_fee": 10000.0,
+        "ownership_type": "사립",
+        "adult_fee": 15000.0,
+        "adult_fee_status": "BASE_FEE_PAID",
+        "sigungu": "강남구",
+        "source_types": "TOUR_API",
+        "address": "서울특별시 강남구 선릉로 807",
+        "weekday_close": "19:00",
+        "latitude": 37.52438077,
+        "weekday_open": "10:00"
+      },
+      "vector_rank": null,
+      "bm25_rank": 4,
+      "vector_distance": null,
+      "vector_score": null,
+      "bm25_score": 9.830305887771146,
+      "vector_document": "",
+      "bm25_document": "서울 강남구 압구정동 중심에 위치한 K현대미술관은 6개 층 전시장 4,959㎡ 규모의 사립 미술관이다. 현대미술의 실험적이고, 다학문적인 플랫폼이며 현대 사회의 대화의 장이 될 수 있는 역할을 수행 하는 것을 목표로 다양한 국내외 아티스트들의 도전적 시도를 존중하며 실험적 전시를 대중에게 소개하고 있다. 또한 모든 연령층에게 예술에 대한 친숙함을 주기 위해 장벽 없는 환경에서 어린이부터 성인까지 누구나 쉽게 예술과 가까워지고, 직접 참여할 수 있는 프로그램과 워크숍을 제공하고 있다.",
+      "best_span_id": "chroma:M0771",
+      "best_span_text": "서울 강남구 압구정동 중심에 위치한 K현대미술관은 6개 층 전시장 4,959㎡ 규모의 사립 미술관이다. 현대미술의 실험적이고, 다학문적인 플랫폼이며 현대 사회의 대화의 장이 될 수 있는 역할을 수행 하는 것을 목표로 다양한 국내외 아티스트들의 도전적 시도를 존중하며 실험적 전시를 대중에게 소개하고 있다. 또한 모든 연령층에게 예술에 대한 친숙함을 주기 위해 장벽 없는 환경에서 어린이부터 성인까지 누구나 쉽게 예술과 가까워지고, 직접 참여할 수 있는 프로그램과 워크숍을 제공하고 있다.",
+      "fusion_score": 0.015625,
+      "retrieved_by": [
+        "bm25"
+      ],
+      "fusion_rank": 7,
+      "rerank_score": 4.855855513596907e-05,
+      "rank": 5,
+      "score": 4.855855513596907e-05,
+      "score_type": "cross_encoder",
+      "distance": null,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "bm25"
+      ],
+      "retriever": "bm25",
+      "span_id": "chroma:M0771",
+      "source_doc_ids": [
+        "DOC-B0771-TOUR_API-2773265"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0771-TOUR_API-2773265",
+          "source_type": "TOUR_API",
+          "source_record_id": "2773265",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=372",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 57,
+          "doc_ids": [
+            "DOC-B0771-TOUR_API-2773265"
+          ]
+        },
+        {
+          "start": 58,
+          "end": 170,
+          "doc_ids": [
+            "DOC-B0771-TOUR_API-2773265"
+          ]
+        },
+        {
+          "start": 171,
+          "end": 272,
+          "doc_ids": [
+            "DOC-B0771-TOUR_API-2773265"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=372",
+      "text": "서울 강남구 압구정동 중심에 위치한 K현대미술관은 6개 층 전시장 4,959㎡ 규모의 사립 미술관이다. 현대미술의 실험적이고, 다학문적인 플랫폼이며 현대 사회의 대화의 장이 될 수 있는 역할을 수행 하는 것을 목표로 다양한 국내외 아티스트들의 도전적 시도를 존중하며 실험적 전시를 대중에게 소개하고 있다. 또한 모든 연령층에게 예술에 대한 친숙함을 주기 위해 장벽 없는 환경에서 어린이부터 성인까지 누구나 쉽게 예술과 가까워지고, 직접 참여할 수 있는 프로그램과 워크숍을 제공하고 있다.",
+      "sido": "서울특별시",
+      "sigungu": "강남구",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=372"
+      ],
+      "evidence_id": "E5",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=532",
+        "fields": {
+          "name": "K현대미술관",
+          "sido": "서울특별시",
+          "sigungu": "강남구",
+          "address": "서울특별시 강남구 선릉로 807",
+          "ownership_type": "사립",
+          "adult_fee": "15000",
+          "youth_fee": "12000",
+          "child_fee": "10000",
+          "adult_fee_status": "BASE_FEE_PAID",
+          "weekday_open": "10:00",
+          "weekday_close": "19:00",
+          "holiday_open": "10:00",
+          "holiday_close": "19:00",
+          "closure_rule_raw": "월"
+        },
+        "base_data_date": "2024-07-18",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    }
+  ],
+  "answer": "나상목은 기존 산수화풍에서 벗어나 자연을 주관적으로 재해석하는 변화를 시도했습니다. [E1]",
+  "retrieval_status": "ok",
+  "answer_status": "answered",
+  "route": "hybrid",
+  "retry_count": 0,
+  "supervisor_verified": true,
+  "rerank_applied": true,
+  "retriever_errors": [],
+  "warnings": [],
+  "duration_ms": 71697.09,
+  "error_type": "",
+  "hit_at_1": 1,
+  "hit_at_3": 1,
+  "hit_at_5": 1,
+  "recall_at_5": 1.0,
+  "mrr_at_10": 1.0
+}

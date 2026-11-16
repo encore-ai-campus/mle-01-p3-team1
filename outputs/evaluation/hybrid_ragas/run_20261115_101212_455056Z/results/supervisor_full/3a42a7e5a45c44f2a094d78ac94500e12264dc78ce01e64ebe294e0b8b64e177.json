@@ -1,0 +1,754 @@
+{
+  "mode": "supervisor_full",
+  "question_id": "Q095",
+  "evidence": [
+    {
+      "museum_id": "M0130",
+      "name": "성북선잠박물관",
+      "document": "조선시대 서릉 씨를 양잠의 신(蠶神)으로 모시고 제사를 지냈던 사적 제83호 선잠단지는 우리 조상들이 의생활에 대해 중요하게 인식했음을 상징하는 장소이다. 성북선잠박물관은 선잠단지와 연계하여 역사성과 상징성을 제고하고 자랑스러운 역사·문화를 계승 및 가치를 알리며 시민이 공유할 수 있는 문화공간 조성을 위해 건립되었다. 전시실 제1관은 선잠단의 옛 기록과 일제강점기를 지나 훼손된 모습, 복원의 현장까지 선잠단에 대한 역사를 담고 있다. 2관은 선잠단에서의 선잠제 거행 모습, 친잠례의 모습을 모형으로 재현하였고, 선잠제의 진행과정을 3D 영상으로 표현했다. 3관은 개방형 수장고 및 특별전시실로 양잠, 직조 등에 사용된 도구들을 직접 볼 수 있으며, 왕실 비단창고를 조성하여 금(錦), 사(紗), 라(羅), 단(緞) 등 다양한 비단을 체험할 수 있는 공간이다. 성북선잠박물관은 제례·지역 역사·교류사·직업 체험교육·인문학 강좌 등 다양한 주제를 다루는 교육 및 체험 프로그램을 운영하고 있다. 성북선잠박물관은 2018년 4월 개관한 최초 구립박물관으로 선잠단지(사적 제83호)의 역사성을 알리기 위해 건립",
+      "metadata": {
+        "amenities_raw": "장애인엘리베이터+장애인용 화장실",
+        "holiday_open": "10:00",
+        "sido": "서울특별시",
+        "source_types": "BASE|TOUR_API",
+        "weekday_open": "10:00",
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "homepage_url": "http://museum.sb.go.kr",
+        "name": "성북선잠박물관",
+        "sigungu": "성북구",
+        "transport_notes": "버스(1111+2112+성북03)+지하철 한성대입구역(4호선) 6번출구에서 성북동 방향으로 약 900m(도보)",
+        "weekday_close": "17:30",
+        "longitude": 126.998206,
+        "youth_fee": 0.0,
+        "ownership_type": "공립",
+        "child_fee": 0.0,
+        "fee_notes": "무료(장애인+국가유공자+6세 이하+65세 이상)",
+        "holiday_close": "17:30",
+        "closure_rule_raw": "월(월요일이 공휴일인 경우 그 다음날)+1월 1일+설 연휴+추석 연휴",
+        "latitude": 37.593234,
+        "adult_fee": 0.0,
+        "requires_manual_review": true,
+        "address": "서울특별시 성북구 성북로 96"
+      },
+      "vector_rank": 1,
+      "bm25_rank": 1,
+      "vector_distance": 0.5023301243782043,
+      "vector_score": null,
+      "bm25_score": 20.573378085015367,
+      "vector_document": "조선시대 서릉 씨를 양잠의 신(蠶神)으로 모시고 제사를 지냈던 사적 제83호 선잠단지는 우리 조상들이 의생활에 대해 중요하게 인식했음을 상징하는 장소이다. 성북선잠박물관은 선잠단지와 연계하여 역사성과 상징성을 제고하고 자랑스러운 역사·문화를 계승 및 가치를 알리며 시민이 공유할 수 있는 문화공간 조성을 위해 건립되었다. 전시실 제1관은 선잠단의 옛 기록과 일제강점기를 지나 훼손된 모습, 복원의 현장까지 선잠단에 대한 역사를 담고 있다. 2관은 선잠단에서의 선잠제 거행 모습, 친잠례의 모습을 모형으로 재현하였고, 선잠제의 진행과정을 3D 영상으로 표현했다. 3관은 개방형 수장고 및 특별전시실로 양잠, 직조 등에 사용된 도구들을 직접 볼 수 있으며, 왕실 비단창고를 조성하여 금(錦), 사(紗), 라(羅), 단(緞) 등 다양한 비단을 체험할 수 있는 공간이다. 성북선잠박물관은 제례·지역 역사·교류사·직업 체험교육·인문학 강좌 등 다양한 주제를 다루는 교육 및 체험 프로그램을 운영하고 있다. 성북선잠박물관은 2018년 4월 개관한 최초 구립박물관으로 선잠단지(사적 제83호)의 역사성을 알리기 위해 건립",
+      "bm25_document": "조선시대 서릉 씨를 양잠의 신(蠶神)으로 모시고 제사를 지냈던 사적 제83호 선잠단지는 우리 조상들이 의생활에 대해 중요하게 인식했음을 상징하는 장소이다. 성북선잠박물관은 선잠단지와 연계하여 역사성과 상징성을 제고하고 자랑스러운 역사·문화를 계승 및 가치를 알리며 시민이 공유할 수 있는 문화공간 조성을 위해 건립되었다. 전시실 제1관은 선잠단의 옛 기록과 일제강점기를 지나 훼손된 모습, 복원의 현장까지 선잠단에 대한 역사를 담고 있다. 2관은 선잠단에서의 선잠제 거행 모습, 친잠례의 모습을 모형으로 재현하였고, 선잠제의 진행과정을 3D 영상으로 표현했다. 3관은 개방형 수장고 및 특별전시실로 양잠, 직조 등에 사용된 도구들을 직접 볼 수 있으며, 왕실 비단창고를 조성하여 금(錦), 사(紗), 라(羅), 단(緞) 등 다양한 비단을 체험할 수 있는 공간이다. 성북선잠박물관은 제례·지역 역사·교류사·직업 체험교육·인문학 강좌 등 다양한 주제를 다루는 교육 및 체험 프로그램을 운영하고 있다. 성북선잠박물관은 2018년 4월 개관한 최초 구립박물관으로 선잠단지(사적 제83호)의 역사성을 알리기 위해 건립",
+      "best_span_id": "chroma:M0130",
+      "best_span_text": "조선시대 서릉 씨를 양잠의 신(蠶神)으로 모시고 제사를 지냈던 사적 제83호 선잠단지는 우리 조상들이 의생활에 대해 중요하게 인식했음을 상징하는 장소이다. 성북선잠박물관은 선잠단지와 연계하여 역사성과 상징성을 제고하고 자랑스러운 역사·문화를 계승 및 가치를 알리며 시민이 공유할 수 있는 문화공간 조성을 위해 건립되었다. 전시실 제1관은 선잠단의 옛 기록과 일제강점기를 지나 훼손된 모습, 복원의 현장까지 선잠단에 대한 역사를 담고 있다. 2관은 선잠단에서의 선잠제 거행 모습, 친잠례의 모습을 모형으로 재현하였고, 선잠제의 진행과정을 3D 영상으로 표현했다. 3관은 개방형 수장고 및 특별전시실로 양잠, 직조 등에 사용된 도구들을 직접 볼 수 있으며, 왕실 비단창고를 조성하여 금(錦), 사(紗), 라(羅), 단(緞) 등 다양한 비단을 체험할 수 있는 공간이다. 성북선잠박물관은 제례·지역 역사·교류사·직업 체험교육·인문학 강좌 등 다양한 주제를 다루는 교육 및 체험 프로그램을 운영하고 있다. 성북선잠박물관은 2018년 4월 개관한 최초 구립박물관으로 선잠단지(사적 제83호)의 역사성을 알리기 위해 건립",
+      "fusion_score": 0.03278688524590164,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 1,
+      "name_match": true,
+      "rerank_score": 0.9992985725402832,
+      "rank": 1,
+      "score": 0.9992985725402832,
+      "score_type": "cross_encoder",
+      "distance": 0.5023301243782043,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0130",
+      "source_doc_ids": [
+        "DOC-B0130-TOUR_API-3043911",
+        "DOC-B0130-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0130-TOUR_API-3043911",
+          "source_type": "TOUR_API",
+          "source_record_id": "3043911",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=65",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        },
+        {
+          "doc_id": "DOC-B0130-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0130",
+          "source_locator": "data/raw/museum_base_1070.csv#row=131",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 86,
+          "doc_ids": [
+            "DOC-B0130-TOUR_API-3043911"
+          ]
+        },
+        {
+          "start": 87,
+          "end": 179,
+          "doc_ids": [
+            "DOC-B0130-TOUR_API-3043911"
+          ]
+        },
+        {
+          "start": 180,
+          "end": 245,
+          "doc_ids": [
+            "DOC-B0130-TOUR_API-3043911"
+          ]
+        },
+        {
+          "start": 246,
+          "end": 313,
+          "doc_ids": [
+            "DOC-B0130-TOUR_API-3043911"
+          ]
+        },
+        {
+          "start": 314,
+          "end": 427,
+          "doc_ids": [
+            "DOC-B0130-TOUR_API-3043911"
+          ]
+        },
+        {
+          "start": 428,
+          "end": 501,
+          "doc_ids": [
+            "DOC-B0130-TOUR_API-3043911"
+          ]
+        },
+        {
+          "start": 502,
+          "end": 564,
+          "doc_ids": [
+            "DOC-B0130-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=65",
+      "text": "조선시대 서릉 씨를 양잠의 신(蠶神)으로 모시고 제사를 지냈던 사적 제83호 선잠단지는 우리 조상들이 의생활에 대해 중요하게 인식했음을 상징하는 장소이다. 성북선잠박물관은 선잠단지와 연계하여 역사성과 상징성을 제고하고 자랑스러운 역사·문화를 계승 및 가치를 알리며 시민이 공유할 수 있는 문화공간 조성을 위해 건립되었다. 전시실 제1관은 선잠단의 옛 기록과 일제강점기를 지나 훼손된 모습, 복원의 현장까지 선잠단에 대한 역사를 담고 있다. 2관은 선잠단에서의 선잠제 거행 모습, 친잠례의 모습을 모형으로 재현하였고, 선잠제의 진행과정을 3D 영상으로 표현했다. 3관은 개방형 수장고 및 특별전시실로 양잠, 직조 등에 사용된 도구들을 직접 볼 수 있으며, 왕실 비단창고를 조성하여 금(錦), 사(紗), 라(羅), 단(緞) 등 다양한 비단을 체험할 수 있는 공간이다. 성북선잠박물관은 제례·지역 역사·교류사·직업 체험교육·인문학 강좌 등 다양한 주제를 다루는 교육 및 체험 프로그램을 운영하고 있다. 성북선잠박물관은 2018년 4월 개관한 최초 구립박물관으로 선잠단지(사적 제83호)의 역사성을 알리기 위해 건립",
+      "sido": "서울특별시",
+      "sigungu": "성북구",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=65"
+      ],
+      "evidence_id": "E1",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=84",
+        "fields": {
+          "name": "성북선잠박물관",
+          "sido": "서울특별시",
+          "sigungu": "성북구",
+          "address": "서울특별시 성북구 성북로 96",
+          "ownership_type": "공립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "10:00",
+          "weekday_close": "17:30",
+          "holiday_open": "10:00",
+          "holiday_close": "17:30",
+          "closure_rule_raw": "월(월요일이 공휴일인 경우 그 다음날)+1월 1일+설 연휴+추석 연휴",
+          "amenities_raw": "장애인엘리베이터+장애인용 화장실"
+        },
+        "base_data_date": "2026-10-16",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0891",
+      "name": "한국잠사박물관",
+      "document": "한국잠사박물관은 우리나라 잠사 문화의 역사를 보여주고, 전통을 수집하고 보존해 후대에 물려주기 위해서 개관한 박물관이다. 잠사는 누에고치를 쳐서 실을 뽑는 일을 말한다. 박물관에서는 학생들에게는 자연과학을 이해하고 배울 수 있는 생생한 학습 현장을 제공하기 위해 누에고치를 쳐서 실을 뽑고 비단을 만드는 체험 프로그램을 운영 중이다. 또, 박물관과 디지털키즈카페, 양떼정원 체험, 사계절 썰매장, 수영장, 오디축제를 연계한 한국잠사플레이팜을 운영하며 방문객들에게 다양한 체험교육과 행사를 진행하고 있다. 민족 전통 잠사산업과 곤충 누에의 비밀이 숨겨져 있는곳, 4계절 계절프로그램과 청주 복합 테마파크형 박물관",
+      "metadata": {
+        "holiday_open": "10:00",
+        "ownership_type": "사립",
+        "latitude": 36.63936808,
+        "name": "한국잠사박물관",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/31/3057331_image2_1.jpg",
+        "fee_notes": "시즌별 상이",
+        "source_types": "BASE|TOUR_API",
+        "address": "충청북도 청주시 흥덕구 강내면 청주역로 213-52",
+        "adult_fee": 10000.0,
+        "requires_manual_review": true,
+        "sido": "충청북도",
+        "closure_rule_raw": "매주 월요일",
+        "adult_fee_status": "BASE_FEE_PAID",
+        "weekday_open": "10:00",
+        "child_fee": 12000.0,
+        "transport_notes": "청주역에서 자차 5분거리",
+        "amenities_raw": "주차장",
+        "holiday_close": "17:00",
+        "image_copyright": "Type3",
+        "weekday_close": "17:00",
+        "sigungu": "청주시",
+        "youth_fee": 10000.0,
+        "longitude": 127.3822358,
+        "homepage_url": "https://www.jamsamuseum.co.kr"
+      },
+      "vector_rank": 3,
+      "bm25_rank": 13,
+      "vector_distance": 0.5610951781272888,
+      "vector_score": null,
+      "bm25_score": 10.67153430799625,
+      "vector_document": "한국잠사박물관은 우리나라 잠사 문화의 역사를 보여주고, 전통을 수집하고 보존해 후대에 물려주기 위해서 개관한 박물관이다. 잠사는 누에고치를 쳐서 실을 뽑는 일을 말한다. 박물관에서는 학생들에게는 자연과학을 이해하고 배울 수 있는 생생한 학습 현장을 제공하기 위해 누에고치를 쳐서 실을 뽑고 비단을 만드는 체험 프로그램을 운영 중이다. 또, 박물관과 디지털키즈카페, 양떼정원 체험, 사계절 썰매장, 수영장, 오디축제를 연계한 한국잠사플레이팜을 운영하며 방문객들에게 다양한 체험교육과 행사를 진행하고 있다. 민족 전통 잠사산업과 곤충 누에의 비밀이 숨겨져 있는곳, 4계절 계절프로그램과 청주 복합 테마파크형 박물관",
+      "bm25_document": "한국잠사박물관은 우리나라 잠사 문화의 역사를 보여주고, 전통을 수집하고 보존해 후대에 물려주기 위해서 개관한 박물관이다. 잠사는 누에고치를 쳐서 실을 뽑는 일을 말한다. 박물관에서는 학생들에게는 자연과학을 이해하고 배울 수 있는 생생한 학습 현장을 제공하기 위해 누에고치를 쳐서 실을 뽑고 비단을 만드는 체험 프로그램을 운영 중이다. 또, 박물관과 디지털키즈카페, 양떼정원 체험, 사계절 썰매장, 수영장, 오디축제를 연계한 한국잠사플레이팜을 운영하며 방문객들에게 다양한 체험교육과 행사를 진행하고 있다. 민족 전통 잠사산업과 곤충 누에의 비밀이 숨겨져 있는곳, 4계절 계절프로그램과 청주 복합 테마파크형 박물관",
+      "best_span_id": "chroma:M0891",
+      "best_span_text": "한국잠사박물관은 우리나라 잠사 문화의 역사를 보여주고, 전통을 수집하고 보존해 후대에 물려주기 위해서 개관한 박물관이다. 잠사는 누에고치를 쳐서 실을 뽑는 일을 말한다. 박물관에서는 학생들에게는 자연과학을 이해하고 배울 수 있는 생생한 학습 현장을 제공하기 위해 누에고치를 쳐서 실을 뽑고 비단을 만드는 체험 프로그램을 운영 중이다. 또, 박물관과 디지털키즈카페, 양떼정원 체험, 사계절 썰매장, 수영장, 오디축제를 연계한 한국잠사플레이팜을 운영하며 방문객들에게 다양한 체험교육과 행사를 진행하고 있다. 민족 전통 잠사산업과 곤충 누에의 비밀이 숨겨져 있는곳, 4계절 계절프로그램과 청주 복합 테마파크형 박물관",
+      "fusion_score": 0.029571646010002173,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 3,
+      "rerank_score": 0.32274138927459717,
+      "rank": 2,
+      "score": 0.32274138927459717,
+      "score_type": "cross_encoder",
+      "distance": 0.5610951781272888,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0891",
+      "source_doc_ids": [
+        "DOC-B0891-TOUR_API-130748",
+        "DOC-B0891-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0891-TOUR_API-130748",
+          "source_type": "TOUR_API",
+          "source_record_id": "130748",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=421",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        },
+        {
+          "doc_id": "DOC-B0891-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0891",
+          "source_locator": "data/raw/museum_base_1070.csv#row=892",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 67,
+          "doc_ids": [
+            "DOC-B0891-TOUR_API-130748"
+          ]
+        },
+        {
+          "start": 68,
+          "end": 94,
+          "doc_ids": [
+            "DOC-B0891-TOUR_API-130748"
+          ]
+        },
+        {
+          "start": 95,
+          "end": 186,
+          "doc_ids": [
+            "DOC-B0891-TOUR_API-130748"
+          ]
+        },
+        {
+          "start": 187,
+          "end": 281,
+          "doc_ids": [
+            "DOC-B0891-TOUR_API-130748"
+          ]
+        },
+        {
+          "start": 282,
+          "end": 341,
+          "doc_ids": [
+            "DOC-B0891-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=421",
+      "text": "한국잠사박물관은 우리나라 잠사 문화의 역사를 보여주고, 전통을 수집하고 보존해 후대에 물려주기 위해서 개관한 박물관이다. 잠사는 누에고치를 쳐서 실을 뽑는 일을 말한다. 박물관에서는 학생들에게는 자연과학을 이해하고 배울 수 있는 생생한 학습 현장을 제공하기 위해 누에고치를 쳐서 실을 뽑고 비단을 만드는 체험 프로그램을 운영 중이다. 또, 박물관과 디지털키즈카페, 양떼정원 체험, 사계절 썰매장, 수영장, 오디축제를 연계한 한국잠사플레이팜을 운영하며 방문객들에게 다양한 체험교육과 행사를 진행하고 있다. 민족 전통 잠사산업과 곤충 누에의 비밀이 숨겨져 있는곳, 4계절 계절프로그램과 청주 복합 테마파크형 박물관",
+      "sido": "충청북도",
+      "sigungu": "청주시",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=421"
+      ],
+      "evidence_id": "E2",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=609",
+        "fields": {
+          "name": "한국잠사박물관",
+          "sido": "충청북도",
+          "sigungu": "청주시",
+          "address": "충청북도 청주시 흥덕구 강내면 청주역로 213-52",
+          "ownership_type": "사립",
+          "adult_fee": "10000",
+          "youth_fee": "10000",
+          "child_fee": "12000",
+          "adult_fee_status": "BASE_FEE_PAID",
+          "weekday_open": "10:00",
+          "weekday_close": "17:00",
+          "holiday_open": "10:00",
+          "holiday_close": "17:00",
+          "closure_rule_raw": "매주 월요일",
+          "amenities_raw": "주차장"
+        },
+        "base_data_date": "2025-11-26",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0949",
+      "name": "강릉커피박물관",
+      "document": "강릉커피박물관은 대한민국 최초의 커피 전문 박물관으로 강원도 강릉시 왕산골에 위치한 곳이다. 커피를 좋아하는 모든 연령대의 관광객들이 커피를 이해하고 소통할 수 있는 커뮤니티 공간이기도 하다. 커피나무 재배서부터 커피 유물 전시 등의 과정을 직접 눈으로 보고 경험할 수 있다. 박물관은 크게 일반전시관, 특별관, 커피체험관, 커피 교육관, 뮤지엄 카페로 구성되어 있다. 1관은 커피의 역사와 문화를 알 수 있는 유물이 전시되어 있다. 2관에서는 커피 로스터와 그라인더를 볼 수 있다. 3관에서는 커피가 추출되는 과정의 커피메이커부터 커피추출 도구들이 전시되어 있다. 4관에서는 온실 속 커피나무를 통해 다양한 커피나무들을 볼 수 있다. 5관인 커피 체험관에서는 다양한 커피의 종류와 향을 느낄 수 있다. 뮤지엄카페가 있어 스페셜 커피와 다양한 사이드 메뉴를 맛볼 수도 있다.",
+      "metadata": {
+        "sido": "강원특별자치도",
+        "name": "강릉커피박물관",
+        "child_fee": 5000.0,
+        "image_copyright": "Type3",
+        "latitude": 37.65223553,
+        "youth_fee": 5000.0,
+        "requires_manual_review": true,
+        "source_types": "TOUR_API",
+        "ownership_type": "사립",
+        "closure_rule_raw": "연중무휴",
+        "longitude": 128.784661,
+        "adult_fee": 5000.0,
+        "adult_fee_status": "BASE_FEE_PAID",
+        "address": "강원특별자치도 강릉시 왕산면 왕산로 2171-19",
+        "weekday_open": "10:00",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/19/3332919_image2_1.jpg",
+        "sigungu": "강릉시",
+        "homepage_url": "http://www.coffeemuseum.kr/",
+        "holiday_close": "17:00",
+        "holiday_open": "10:00",
+        "weekday_close": "17:00"
+      },
+      "vector_rank": null,
+      "bm25_rank": 2,
+      "vector_distance": null,
+      "vector_score": null,
+      "bm25_score": 16.128959267659244,
+      "vector_document": "",
+      "bm25_document": "강릉커피박물관은 대한민국 최초의 커피 전문 박물관으로 강원도 강릉시 왕산골에 위치한 곳이다. 커피를 좋아하는 모든 연령대의 관광객들이 커피를 이해하고 소통할 수 있는 커뮤니티 공간이기도 하다. 커피나무 재배서부터 커피 유물 전시 등의 과정을 직접 눈으로 보고 경험할 수 있다. 박물관은 크게 일반전시관, 특별관, 커피체험관, 커피 교육관, 뮤지엄 카페로 구성되어 있다. 1관은 커피의 역사와 문화를 알 수 있는 유물이 전시되어 있다. 2관에서는 커피 로스터와 그라인더를 볼 수 있다. 3관에서는 커피가 추출되는 과정의 커피메이커부터 커피추출 도구들이 전시되어 있다. 4관에서는 온실 속 커피나무를 통해 다양한 커피나무들을 볼 수 있다. 5관인 커피 체험관에서는 다양한 커피의 종류와 향을 느낄 수 있다. 뮤지엄카페가 있어 스페셜 커피와 다양한 사이드 메뉴를 맛볼 수도 있다.",
+      "best_span_id": "chroma:M0949",
+      "best_span_text": "강릉커피박물관은 대한민국 최초의 커피 전문 박물관으로 강원도 강릉시 왕산골에 위치한 곳이다. 커피를 좋아하는 모든 연령대의 관광객들이 커피를 이해하고 소통할 수 있는 커뮤니티 공간이기도 하다. 커피나무 재배서부터 커피 유물 전시 등의 과정을 직접 눈으로 보고 경험할 수 있다. 박물관은 크게 일반전시관, 특별관, 커피체험관, 커피 교육관, 뮤지엄 카페로 구성되어 있다. 1관은 커피의 역사와 문화를 알 수 있는 유물이 전시되어 있다. 2관에서는 커피 로스터와 그라인더를 볼 수 있다. 3관에서는 커피가 추출되는 과정의 커피메이커부터 커피추출 도구들이 전시되어 있다. 4관에서는 온실 속 커피나무를 통해 다양한 커피나무들을 볼 수 있다. 5관인 커피 체험관에서는 다양한 커피의 종류와 향을 느낄 수 있다. 뮤지엄카페가 있어 스페셜 커피와 다양한 사이드 메뉴를 맛볼 수도 있다.",
+      "fusion_score": 0.016129032258064516,
+      "retrieved_by": [
+        "bm25"
+      ],
+      "fusion_rank": 7,
+      "rerank_score": 0.008752856403589249,
+      "rank": 3,
+      "score": 0.008752856403589249,
+      "score_type": "cross_encoder",
+      "distance": null,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "bm25"
+      ],
+      "retriever": "bm25",
+      "span_id": "chroma:M0949",
+      "source_doc_ids": [
+        "DOC-B0949-TOUR_API-2592013"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0949-TOUR_API-2592013",
+          "source_type": "TOUR_API",
+          "source_record_id": "2592013",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=443",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 51,
+          "doc_ids": [
+            "DOC-B0949-TOUR_API-2592013"
+          ]
+        },
+        {
+          "start": 52,
+          "end": 107,
+          "doc_ids": [
+            "DOC-B0949-TOUR_API-2592013"
+          ]
+        },
+        {
+          "start": 108,
+          "end": 154,
+          "doc_ids": [
+            "DOC-B0949-TOUR_API-2592013"
+          ]
+        },
+        {
+          "start": 155,
+          "end": 206,
+          "doc_ids": [
+            "DOC-B0949-TOUR_API-2592013"
+          ]
+        },
+        {
+          "start": 207,
+          "end": 242,
+          "doc_ids": [
+            "DOC-B0949-TOUR_API-2592013"
+          ]
+        },
+        {
+          "start": 243,
+          "end": 270,
+          "doc_ids": [
+            "DOC-B0949-TOUR_API-2592013"
+          ]
+        },
+        {
+          "start": 271,
+          "end": 316,
+          "doc_ids": [
+            "DOC-B0949-TOUR_API-2592013"
+          ]
+        },
+        {
+          "start": 317,
+          "end": 355,
+          "doc_ids": [
+            "DOC-B0949-TOUR_API-2592013"
+          ]
+        },
+        {
+          "start": 356,
+          "end": 393,
+          "doc_ids": [
+            "DOC-B0949-TOUR_API-2592013"
+          ]
+        },
+        {
+          "start": 394,
+          "end": 433,
+          "doc_ids": [
+            "DOC-B0949-TOUR_API-2592013"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=443",
+      "text": "강릉커피박물관은 대한민국 최초의 커피 전문 박물관으로 강원도 강릉시 왕산골에 위치한 곳이다. 커피를 좋아하는 모든 연령대의 관광객들이 커피를 이해하고 소통할 수 있는 커뮤니티 공간이기도 하다. 커피나무 재배서부터 커피 유물 전시 등의 과정을 직접 눈으로 보고 경험할 수 있다. 박물관은 크게 일반전시관, 특별관, 커피체험관, 커피 교육관, 뮤지엄 카페로 구성되어 있다. 1관은 커피의 역사와 문화를 알 수 있는 유물이 전시되어 있다. 2관에서는 커피 로스터와 그라인더를 볼 수 있다. 3관에서는 커피가 추출되는 과정의 커피메이커부터 커피추출 도구들이 전시되어 있다. 4관에서는 온실 속 커피나무를 통해 다양한 커피나무들을 볼 수 있다. 5관인 커피 체험관에서는 다양한 커피의 종류와 향을 느낄 수 있다. 뮤지엄카페가 있어 스페셜 커피와 다양한 사이드 메뉴를 맛볼 수도 있다.",
+      "sido": "강원특별자치도",
+      "sigungu": "강릉시",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=443"
+      ],
+      "evidence_id": "E3",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=654",
+        "fields": {
+          "name": "강릉커피박물관",
+          "sido": "강원특별자치도",
+          "sigungu": "강릉시",
+          "address": "강원특별자치도 강릉시 왕산면 왕산로 2171-19",
+          "ownership_type": "사립",
+          "adult_fee": "5000",
+          "youth_fee": "5000",
+          "child_fee": "5000",
+          "adult_fee_status": "BASE_FEE_PAID",
+          "weekday_open": "10:00",
+          "weekday_close": "17:00",
+          "holiday_open": "10:00",
+          "holiday_close": "17:00",
+          "closure_rule_raw": "연중무휴"
+        },
+        "base_data_date": "2024-03-18",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0439",
+      "name": "한국차문화박물관",
+      "document": "한국차문화박물관은 폐교를 개조하여 만든 보이차 전문 박물관이다. 박물관 전시실에는 한, 중, 일 3,000여 점 차도구와 보이차에 관련된 역사, 다양한 형태의 보이차가 전시되어 있다. 또한 보이차와 보이차를 우리는 방법 등에 대한 설명을 들으며 보이차를 시음해 볼 수 있으며, 우주의 소리 싱잉볼 명상 체험도 즐길 수 있다. 한국차문화박물관은 보이차 전문 박물관으로 중국 및 한국, 일본의 차 도구에 대한 상설 전시를 진행하고 있으며, 일상생활에서 쉽게 접할 수 있는 차문화를 알리고자 합니다.",
+      "metadata": {
+        "youth_fee": 8000.0,
+        "name": "한국차문화박물관",
+        "fee_notes": "영유아(만 24개월 미만) 무료",
+        "holiday_open": "10:00",
+        "amenities_raw": "장애인 편의시설 및 주차장",
+        "source_types": "BASE|TOUR_API",
+        "child_fee": 8000.0,
+        "latitude": 37.09018793,
+        "weekday_open": "10:00",
+        "adult_fee_status": "BASE_FEE_PAID",
+        "requires_manual_review": true,
+        "longitude": 128.1145196,
+        "closure_rule_raw": "월요일+화요일",
+        "image_copyright": "Type3",
+        "homepage_url": "https://tour.jecheon.go.kr/tour/base/tour/contents/view?clturCntntsNo=3704&menuLevel=3&menuNo=104",
+        "weekday_close": "18:00",
+        "ownership_type": "사립",
+        "sigungu": "제천시",
+        "adult_fee": 16000.0,
+        "sido": "충청북도",
+        "holiday_close": "17:00",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/29/3410229_image2_1.jpg",
+        "address": "충청북도 제천시 봉양읍 국사봉로 741"
+      },
+      "vector_rank": 9,
+      "bm25_rank": 6,
+      "vector_distance": 0.5873844623565674,
+      "vector_score": null,
+      "bm25_score": 11.480250505618633,
+      "vector_document": "한국차문화박물관은 폐교를 개조하여 만든 보이차 전문 박물관이다. 박물관 전시실에는 한, 중, 일 3,000여 점 차도구와 보이차에 관련된 역사, 다양한 형태의 보이차가 전시되어 있다. 또한 보이차와 보이차를 우리는 방법 등에 대한 설명을 들으며 보이차를 시음해 볼 수 있으며, 우주의 소리 싱잉볼 명상 체험도 즐길 수 있다. 한국차문화박물관은 보이차 전문 박물관으로 중국 및 한국, 일본의 차 도구에 대한 상설 전시를 진행하고 있으며, 일상생활에서 쉽게 접할 수 있는 차문화를 알리고자 합니다.",
+      "bm25_document": "한국차문화박물관은 폐교를 개조하여 만든 보이차 전문 박물관이다. 박물관 전시실에는 한, 중, 일 3,000여 점 차도구와 보이차에 관련된 역사, 다양한 형태의 보이차가 전시되어 있다. 또한 보이차와 보이차를 우리는 방법 등에 대한 설명을 들으며 보이차를 시음해 볼 수 있으며, 우주의 소리 싱잉볼 명상 체험도 즐길 수 있다. 한국차문화박물관은 보이차 전문 박물관으로 중국 및 한국, 일본의 차 도구에 대한 상설 전시를 진행하고 있으며, 일상생활에서 쉽게 접할 수 있는 차문화를 알리고자 합니다.",
+      "best_span_id": "chroma:M0439",
+      "best_span_text": "한국차문화박물관은 폐교를 개조하여 만든 보이차 전문 박물관이다. 박물관 전시실에는 한, 중, 일 3,000여 점 차도구와 보이차에 관련된 역사, 다양한 형태의 보이차가 전시되어 있다. 또한 보이차와 보이차를 우리는 방법 등에 대한 설명을 들으며 보이차를 시음해 볼 수 있으며, 우주의 소리 싱잉볼 명상 체험도 즐길 수 있다. 한국차문화박물관은 보이차 전문 박물관으로 중국 및 한국, 일본의 차 도구에 대한 상설 전시를 진행하고 있으며, 일상생활에서 쉽게 접할 수 있는 차문화를 알리고자 합니다.",
+      "fusion_score": 0.02964426877470356,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 2,
+      "rerank_score": 0.0017277339939028025,
+      "rank": 4,
+      "score": 0.0017277339939028025,
+      "score_type": "cross_encoder",
+      "distance": 0.5873844623565674,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0439",
+      "source_doc_ids": [
+        "DOC-B0439-TOUR_API-3410452",
+        "DOC-B0439-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0439-TOUR_API-3410452",
+          "source_type": "TOUR_API",
+          "source_record_id": "3410452",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=210",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        },
+        {
+          "doc_id": "DOC-B0439-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0439",
+          "source_locator": "data/raw/museum_base_1070.csv#row=440",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 35,
+          "doc_ids": [
+            "DOC-B0439-TOUR_API-3410452"
+          ]
+        },
+        {
+          "start": 36,
+          "end": 102,
+          "doc_ids": [
+            "DOC-B0439-TOUR_API-3410452"
+          ]
+        },
+        {
+          "start": 103,
+          "end": 181,
+          "doc_ids": [
+            "DOC-B0439-TOUR_API-3410452"
+          ]
+        },
+        {
+          "start": 182,
+          "end": 276,
+          "doc_ids": [
+            "DOC-B0439-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=210",
+      "text": "한국차문화박물관은 폐교를 개조하여 만든 보이차 전문 박물관이다. 박물관 전시실에는 한, 중, 일 3,000여 점 차도구와 보이차에 관련된 역사, 다양한 형태의 보이차가 전시되어 있다. 또한 보이차와 보이차를 우리는 방법 등에 대한 설명을 들으며 보이차를 시음해 볼 수 있으며, 우주의 소리 싱잉볼 명상 체험도 즐길 수 있다. 한국차문화박물관은 보이차 전문 박물관으로 중국 및 한국, 일본의 차 도구에 대한 상설 전시를 진행하고 있으며, 일상생활에서 쉽게 접할 수 있는 차문화를 알리고자 합니다.",
+      "sido": "충청북도",
+      "sigungu": "제천시",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=210"
+      ],
+      "evidence_id": "E4",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=313",
+        "fields": {
+          "name": "한국차문화박물관",
+          "sido": "충청북도",
+          "sigungu": "제천시",
+          "address": "충청북도 제천시 봉양읍 국사봉로 741",
+          "ownership_type": "사립",
+          "adult_fee": "16000",
+          "youth_fee": "8000",
+          "child_fee": "8000",
+          "adult_fee_status": "BASE_FEE_PAID",
+          "weekday_open": "10:00",
+          "weekday_close": "18:00",
+          "holiday_open": "10:00",
+          "holiday_close": "17:00",
+          "closure_rule_raw": "월요일+화요일",
+          "amenities_raw": "장애인 편의시설 및 주차장"
+        },
+        "base_data_date": "2026-03-23",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0701",
+      "name": "전통산업박물관",
+      "document": "길쌈방, 천연염색, 매실, 전통생산도구 등을 전시,체험교육하는 사립박물관",
+      "metadata": {
+        "ownership_type": "사립",
+        "adult_fee_status": "BASE_FEE_PAID",
+        "holiday_open": "10:00",
+        "youth_fee": 2000.0,
+        "weekday_close": "17:00",
+        "holiday_close": "17:00",
+        "latitude": 35.99780144,
+        "source_types": "BASE",
+        "sigungu": "동구",
+        "weekday_open": "10:00",
+        "homepage_url": "https://www.skmuseum.co.kr",
+        "child_fee": 1500.0,
+        "closure_rule_raw": "매주 월요일",
+        "address": "대구광역시 동구 팔공산로 225-34",
+        "longitude": 128.6138939,
+        "sido": "대구광역시",
+        "requires_manual_review": false,
+        "adult_fee": 2000.0,
+        "name": "전통산업박물관"
+      },
+      "vector_rank": 5,
+      "bm25_rank": null,
+      "vector_distance": 0.5755413770675659,
+      "vector_score": null,
+      "bm25_score": null,
+      "vector_document": "길쌈방, 천연염색, 매실, 전통생산도구 등을 전시,체험교육하는 사립박물관",
+      "bm25_document": "",
+      "best_span_id": null,
+      "best_span_text": null,
+      "fusion_score": 0.015384615384615385,
+      "retrieved_by": [
+        "vector"
+      ],
+      "fusion_rank": 11,
+      "rerank_score": 0.0013176541542634368,
+      "rank": 5,
+      "score": 0.0013176541542634368,
+      "score_type": "cross_encoder",
+      "distance": 0.5755413770675659,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector"
+      ],
+      "retriever": "vector",
+      "source_doc_ids": [
+        "DOC-B0701-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0701-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0701",
+          "source_locator": "data/raw/museum_base_1070.csv#row=702",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 40,
+          "doc_ids": [
+            "DOC-B0701-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_base_1070.csv#row=702",
+      "text": "길쌈방, 천연염색, 매실, 전통생산도구 등을 전시,체험교육하는 사립박물관",
+      "sido": "대구광역시",
+      "sigungu": "동구",
+      "span_id": "",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_base_1070.csv#row=702"
+      ],
+      "evidence_id": "E5",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=487",
+        "fields": {
+          "name": "전통산업박물관",
+          "sido": "대구광역시",
+          "sigungu": "동구",
+          "address": "대구광역시 동구 팔공산로 225-34",
+          "ownership_type": "사립",
+          "adult_fee": "2000",
+          "youth_fee": "2000",
+          "child_fee": "1500",
+          "adult_fee_status": "BASE_FEE_PAID",
+          "weekday_open": "10:00",
+          "weekday_close": "17:00",
+          "holiday_open": "10:00",
+          "holiday_close": "17:00",
+          "closure_rule_raw": "매주 월요일"
+        },
+        "base_data_date": "2025-12-10",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    }
+  ],
+  "answer": "3관에서는 양잠과 직조에 사용된 도구들을 볼 수 있고, 금(錦)·사(紗)·라(羅)·단(緞) 등 다양한 비단을 체험할 수 있습니다. [E1]",
+  "retrieval_status": "ok",
+  "answer_status": "answered",
+  "route": "hybrid",
+  "retry_count": 0,
+  "supervisor_verified": true,
+  "rerank_applied": true,
+  "retriever_errors": [],
+  "warnings": [],
+  "duration_ms": 137324.92,
+  "error_type": "",
+  "hit_at_1": 1,
+  "hit_at_3": 1,
+  "hit_at_5": 1,
+  "recall_at_5": 1.0,
+  "mrr_at_10": 1.0
+}

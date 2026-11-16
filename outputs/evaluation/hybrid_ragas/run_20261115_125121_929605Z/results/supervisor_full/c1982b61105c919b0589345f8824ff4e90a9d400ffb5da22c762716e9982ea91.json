@@ -1,0 +1,947 @@
+{
+  "mode": "supervisor_full",
+  "question_id": "V2-CB05",
+  "evidence": [
+    {
+      "museum_id": "M0923",
+      "name": "짜장면박물관",
+      "document": "옛 공화춘 건물을 리모델링하여 개관한 짜장면 박물관은 국가등록문화유산으로 짜장면 관련 다양한 콘텐츠를 지속적으로 만들어가는 국내 최초의 짜장 테마박물관이다. 총 6개의 상설전시실과 1개의 기획전시실로 구성되어 있다. 짜장면의 유래와 역사, 문화를 시기적으로 구분하여 전시하고 있으며, 매년 다양한 주제의 기획 전시를 개최하고 있다.",
+      "metadata": {
+        "holiday_close": "18:00",
+        "sido": "인천광역시",
+        "source_types": "TOUR_API",
+        "homepage_url": "http://www.ijcf.or.kr/load.asp?subPage=522.05",
+        "youth_fee": 300.0,
+        "child_fee": 200.0,
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/22/4056222_image2_1.jpg",
+        "weekday_open": "09:00",
+        "fee_notes": "통합관람권 10~35퍼센트할인+단체(20인 이상) 할인",
+        "requires_manual_review": true,
+        "address": "인천광역시 중구 차이나타운로 56-14",
+        "image_copyright": "Type1",
+        "sigungu": "중구",
+        "longitude": 126.618197,
+        "adult_fee": 500.0,
+        "name": "짜장면박물관",
+        "adult_fee_status": "BASE_FEE_PAID",
+        "weekday_close": "18:00",
+        "closure_rule_raw": "매주 월요일",
+        "latitude": 37.4748153,
+        "holiday_open": "09:00",
+        "ownership_type": "공립"
+      },
+      "vector_rank": null,
+      "bm25_rank": 1,
+      "vector_distance": null,
+      "vector_score": null,
+      "bm25_score": 16.703512579326794,
+      "vector_document": "",
+      "bm25_document": "옛 공화춘 건물을 리모델링하여 개관한 짜장면 박물관은 국가등록문화유산으로 짜장면 관련 다양한 콘텐츠를 지속적으로 만들어가는 국내 최초의 짜장 테마박물관이다. 총 6개의 상설전시실과 1개의 기획전시실로 구성되어 있다. 짜장면의 유래와 역사, 문화를 시기적으로 구분하여 전시하고 있으며, 매년 다양한 주제의 기획 전시를 개최하고 있다.",
+      "best_span_id": "chroma:M0923",
+      "best_span_text": "옛 공화춘 건물을 리모델링하여 개관한 짜장면 박물관은 국가등록문화유산으로 짜장면 관련 다양한 콘텐츠를 지속적으로 만들어가는 국내 최초의 짜장 테마박물관이다. 총 6개의 상설전시실과 1개의 기획전시실로 구성되어 있다. 짜장면의 유래와 역사, 문화를 시기적으로 구분하여 전시하고 있으며, 매년 다양한 주제의 기획 전시를 개최하고 있다.",
+      "fusion_score": 0.01639344262295082,
+      "retrieved_by": [
+        "bm25"
+      ],
+      "fusion_rank": 1,
+      "name_match": true,
+      "rerank_score": 0.09617547690868378,
+      "rank": 1,
+      "score": 0.01639344262295082,
+      "score_type": "rrf_low_confidence_rerank",
+      "distance": null,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "bm25"
+      ],
+      "retriever": "bm25",
+      "span_id": "chroma:M0923",
+      "source_doc_ids": [
+        "DOC-B0923-TOUR_API-1931699"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0923-TOUR_API-1931699",
+          "source_type": "TOUR_API",
+          "source_record_id": "1931699",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=434",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 87,
+          "doc_ids": [
+            "DOC-B0923-TOUR_API-1931699"
+          ]
+        },
+        {
+          "start": 88,
+          "end": 120,
+          "doc_ids": [
+            "DOC-B0923-TOUR_API-1931699"
+          ]
+        },
+        {
+          "start": 121,
+          "end": 185,
+          "doc_ids": [
+            "DOC-B0923-TOUR_API-1931699"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=434",
+      "text": "옛 공화춘 건물을 리모델링하여 개관한 짜장면 박물관은 국가등록문화유산으로 짜장면 관련 다양한 콘텐츠를 지속적으로 만들어가는 국내 최초의 짜장 테마박물관이다. 총 6개의 상설전시실과 1개의 기획전시실로 구성되어 있다. 짜장면의 유래와 역사, 문화를 시기적으로 구분하여 전시하고 있으며, 매년 다양한 주제의 기획 전시를 개최하고 있다.",
+      "sido": "인천광역시",
+      "sigungu": "중구",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=434"
+      ],
+      "evidence_id": "E1",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=639",
+        "fields": {
+          "name": "짜장면박물관",
+          "sido": "인천광역시",
+          "sigungu": "중구",
+          "address": "인천광역시 중구 차이나타운로 56-14",
+          "ownership_type": "공립",
+          "adult_fee": "500",
+          "youth_fee": "300",
+          "child_fee": "200",
+          "adult_fee_status": "BASE_FEE_PAID",
+          "weekday_open": "09:00",
+          "weekday_close": "18:00",
+          "holiday_open": "09:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "매주 월요일"
+        },
+        "base_data_date": "2025-08-18",
+        "trust": "derived_dataset_not_human_verified"
+      },
+      "retrieval_branch": "document"
+    },
+    {
+      "museum_id": "M0535",
+      "name": "진안역사박물관",
+      "document": "2006년 6월 21일에 개관한 진안역사박물관은 용담 다목적댐 건설로 인해 수몰된 지역의 사라진 삶의 터전을 발굴유물을 통해 보존 및 전시하고 지역의 역사와 문화에 관한 자료를 수집·연구하여 대내외적으로 활용되도록 하는 동시에 역사를 통해 소통하고 문화안에서 새로움을 찾는 열린 공간이다. 박물관은 총 2층으로 되어 있다. 1층에는 고고관, 민속관, 세미나실이 있으며, 2층에는 기록관 기획전시관, 학예 자료실이 있다. 고고관은 용담댐 수몰지역에서 발굴된 선사, 고고유물을 전시한다. 선사시대부터 조선시대까지에 걸친 유물들을 통해 진안의 지나온 역사와 생활 모습을 알 수 있다. 민속관에서는 진안의 명산인 마이산과 석탑군 등의 수려한 자연환경과 진한 풍물, 금척무, 매사냥 등의 풍부한 전통문화자원을 볼 수 있는 전시관이다. 기록관은 진안 관련 다양한 기록 자료인 고지도와 고문서, 서원 향교 관련 유물과 자료들을 한자리에 모았다. 이를 통하여 진안의 과거와 현재의 흔적을 살펴보고, 진안의 기록문화를 고찰할 수 있다. 기획전시관은 가변 전시 공간으로 진한의 특생을 연구하고 재조명하는 전시관인 동시에 전시와 교육의 적극적인 연계를 통해 박물관의 풍부한 자료를 교육에 활용하고 새로운 교육 프로그램 개발에 힘쓰는 사회교육의 장이다. 진안의 역사와 문화를 종합적으로 보여주는 박물관",
+      "metadata": {
+        "weekday_open": "09:00",
+        "adult_fee": 0.0,
+        "ownership_type": "공립",
+        "latitude": 35.77255631,
+        "sido": "전북특별자치도",
+        "source_types": "BASE|TOUR_API",
+        "closure_rule_raw": "매주 월요일+1월1일+설날 당일+추석 당일",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/13/3587813_image2_1.jpg",
+        "amenities_raw": "전시실+강당",
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "homepage_url": "https://jinan.go.kr/museum/",
+        "holiday_close": "18:00",
+        "youth_fee": 0.0,
+        "holiday_open": "09:00",
+        "address": "전북특별자치도 진안군 진안읍 내사양길 7",
+        "sigungu": "진안군",
+        "requires_manual_review": true,
+        "image_copyright": "Type1",
+        "transport_notes": "(대중교통)마이산행 버스+(자가용)역사박물관 주차장 이용",
+        "name": "진안역사박물관",
+        "weekday_close": "18:00",
+        "longitude": 127.4171648,
+        "child_fee": 0.0
+      },
+      "vector_rank": 1,
+      "bm25_rank": null,
+      "vector_distance": 0.48515504598617554,
+      "vector_score": null,
+      "bm25_score": null,
+      "vector_document": "2006년 6월 21일에 개관한 진안역사박물관은 용담 다목적댐 건설로 인해 수몰된 지역의 사라진 삶의 터전을 발굴유물을 통해 보존 및 전시하고 지역의 역사와 문화에 관한 자료를 수집·연구하여 대내외적으로 활용되도록 하는 동시에 역사를 통해 소통하고 문화안에서 새로움을 찾는 열린 공간이다. 박물관은 총 2층으로 되어 있다. 1층에는 고고관, 민속관, 세미나실이 있으며, 2층에는 기록관 기획전시관, 학예 자료실이 있다. 고고관은 용담댐 수몰지역에서 발굴된 선사, 고고유물을 전시한다. 선사시대부터 조선시대까지에 걸친 유물들을 통해 진안의 지나온 역사와 생활 모습을 알 수 있다. 민속관에서는 진안의 명산인 마이산과 석탑군 등의 수려한 자연환경과 진한 풍물, 금척무, 매사냥 등의 풍부한 전통문화자원을 볼 수 있는 전시관이다. 기록관은 진안 관련 다양한 기록 자료인 고지도와 고문서, 서원 향교 관련 유물과 자료들을 한자리에 모았다. 이를 통하여 진안의 과거와 현재의 흔적을 살펴보고, 진안의 기록문화를 고찰할 수 있다. 기획전시관은 가변 전시 공간으로 진한의 특생을 연구하고 재조명하는 전시관인 동시에 전시와 교육의 적극적인 연계를 통해 박물관의 풍부한 자료를 교육에 활용하고 새로운 교육 프로그램 개발에 힘쓰는 사회교육의 장이다. 진안의 역사와 문화를 종합적으로 보여주는 박물관",
+      "bm25_document": "",
+      "best_span_id": null,
+      "best_span_text": null,
+      "fusion_score": 0.01639344262295082,
+      "retrieved_by": [
+        "vector"
+      ],
+      "fusion_rank": 2,
+      "rerank_score": 0.00014776687021367252,
+      "rank": 2,
+      "score": 0.01639344262295082,
+      "score_type": "rrf_low_confidence_rerank",
+      "distance": 0.48515504598617554,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector"
+      ],
+      "retriever": "vector",
+      "source_doc_ids": [
+        "DOC-B0535-TOUR_API-1628029",
+        "DOC-B0535-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0535-TOUR_API-1628029",
+          "source_type": "TOUR_API",
+          "source_record_id": "1628029",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=266",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        },
+        {
+          "doc_id": "DOC-B0535-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0535",
+          "source_locator": "data/raw/museum_base_1070.csv#row=536",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 161,
+          "doc_ids": [
+            "DOC-B0535-TOUR_API-1628029"
+          ]
+        },
+        {
+          "start": 162,
+          "end": 180,
+          "doc_ids": [
+            "DOC-B0535-TOUR_API-1628029"
+          ]
+        },
+        {
+          "start": 181,
+          "end": 234,
+          "doc_ids": [
+            "DOC-B0535-TOUR_API-1628029"
+          ]
+        },
+        {
+          "start": 235,
+          "end": 270,
+          "doc_ids": [
+            "DOC-B0535-TOUR_API-1628029"
+          ]
+        },
+        {
+          "start": 271,
+          "end": 323,
+          "doc_ids": [
+            "DOC-B0535-TOUR_API-1628029"
+          ]
+        },
+        {
+          "start": 324,
+          "end": 405,
+          "doc_ids": [
+            "DOC-B0535-TOUR_API-1628029"
+          ]
+        },
+        {
+          "start": 406,
+          "end": 465,
+          "doc_ids": [
+            "DOC-B0535-TOUR_API-1628029"
+          ]
+        },
+        {
+          "start": 466,
+          "end": 514,
+          "doc_ids": [
+            "DOC-B0535-TOUR_API-1628029"
+          ]
+        },
+        {
+          "start": 515,
+          "end": 633,
+          "doc_ids": [
+            "DOC-B0535-TOUR_API-1628029"
+          ]
+        },
+        {
+          "start": 634,
+          "end": 660,
+          "doc_ids": [
+            "DOC-B0535-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=266",
+      "text": "2006년 6월 21일에 개관한 진안역사박물관은 용담 다목적댐 건설로 인해 수몰된 지역의 사라진 삶의 터전을 발굴유물을 통해 보존 및 전시하고 지역의 역사와 문화에 관한 자료를 수집·연구하여 대내외적으로 활용되도록 하는 동시에 역사를 통해 소통하고 문화안에서 새로움을 찾는 열린 공간이다. 박물관은 총 2층으로 되어 있다. 1층에는 고고관, 민속관, 세미나실이 있으며, 2층에는 기록관 기획전시관, 학예 자료실이 있다. 고고관은 용담댐 수몰지역에서 발굴된 선사, 고고유물을 전시한다. 선사시대부터 조선시대까지에 걸친 유물들을 통해 진안의 지나온 역사와 생활 모습을 알 수 있다. 민속관에서는 진안의 명산인 마이산과 석탑군 등의 수려한 자연환경과 진한 풍물, 금척무, 매사냥 등의 풍부한 전통문화자원을 볼 수 있는 전시관이다. 기록관은 진안 관련 다양한 기록 자료인 고지도와 고문서, 서원 향교 관련 유물과 자료들을 한자리에 모았다. 이를 통하여 진안의 과거와 현재의 흔적을 살펴보고, 진안의 기록문화를 고찰할 수 있다. 기획전시관은 가변 전시 공간으로 진한의 특생을 연구하고 재조명하는 전시관인 동시에 전시와 교육의 적극적인 연계를 통해 박물관의 풍부한 자료를 교육에 활용하고 새로운 교육 프로그램 개발에 힘쓰는 사회교육의 장이다. 진안의 역사와 문화를 종합적으로 보여주는 박물관",
+      "sido": "전북특별자치도",
+      "sigungu": "진안군",
+      "span_id": "",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=266"
+      ],
+      "evidence_id": "E2",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=377",
+        "fields": {
+          "name": "진안역사박물관",
+          "sido": "전북특별자치도",
+          "sigungu": "진안군",
+          "address": "전북특별자치도 진안군 진안읍 내사양길 7",
+          "ownership_type": "공립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "09:00",
+          "weekday_close": "18:00",
+          "holiday_open": "09:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "매주 월요일+1월1일+설날 당일+추석 당일",
+          "amenities_raw": "전시실+강당"
+        },
+        "base_data_date": "2026-01-28",
+        "trust": "derived_dataset_not_human_verified"
+      },
+      "retrieval_branch": "document"
+    },
+    {
+      "museum_id": "M0846",
+      "name": "한국등잔박물관",
+      "document": "포은 정몽주 묘소 맞은편에 있는 한국등잔박물관은 박물관장 김동휘가 50여 년간 수집한 등잔들이 전시되어 있는 사립박물관이다. 국내 유일의 등기구 박물관으로 선조들의 옛 생활상을 살펴볼 수 있어 개인뿐 아니라 학생들의 체험학습 공간으로 많이 찾는 곳이다. 수원화성 성곽을 모티브로 지은 원통형의 등대 모양 건물은 지하 1층, 지상 3층 규모로 1, 2층은 전시 공간으로 3층은 세미나 및 각종 공연을 위한 다목적 공간으로 구성되어 있다. 또 별관 전시장에는 농기구 전시실이 있고 야외전시장인 연못과 자연석이 어우러진 아름다운 정원으로 가볍게 둘러보며 힐링하기 좋다. 상설전시실 1층에는 우리의 불그릇 등잔을 주제로 부엌, 찬방, 사랑방, 안방 등 공간별로 사용되었던 등잔의 종류와 용도를 옛 생활용품과 함께 전시되어 있으며, 2층은 일상을 지킨 빛과 예를 밝힌 빛을 주제로 시대별 등잔 양식과 특징을 한눈에 알아볼 수 있다. 또 1층 특별기획전시실에서는 지역작가 조명전을 개최해 경기도 내에서 왕성한 작품 활동을 펼치는 지역작가들을 소개하고 있다. 박물관에서는 다양한 어린이, 청소년, 성인을 대상으로 한 상설교육 프로그램과 특별교육 프로그램을 운영하고 있다. 초나 LED등, 도자 등잔 등을 만들어 볼 수 있어 특별한 추억을 선물한다. 포은 정몽주 묘소가 맞은편에 있으므로 연계해 함께 방문하기 좋다.",
+      "metadata": {
+        "fee_notes": "3000",
+        "image_copyright": "Type1",
+        "homepage_url": "https://www.deungjan.org",
+        "adult_fee": 8000.0,
+        "youth_fee": 5000.0,
+        "weekday_open": "10:00",
+        "closure_rule_raw": "매주 월요일~화요일,신정,설연휴,추석(당일)",
+        "sido": "경기도",
+        "address": "경기도 용인시 처인구 모현읍 능곡로56번길 8",
+        "sigungu": "용인시",
+        "holiday_close": "17:00",
+        "latitude": 37.33658645,
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/61/3584961_image2_1.jpg",
+        "adult_fee_status": "BASE_FEE_PAID",
+        "weekday_close": "17:00",
+        "child_fee": 0.0,
+        "requires_manual_review": true,
+        "ownership_type": "사립",
+        "holiday_open": "10:00",
+        "source_types": "TOUR_API",
+        "longitude": 127.1778809,
+        "name": "한국등잔박물관"
+      },
+      "vector_rank": 2,
+      "bm25_rank": null,
+      "vector_distance": 0.5102385878562927,
+      "vector_score": null,
+      "bm25_score": null,
+      "vector_document": "포은 정몽주 묘소 맞은편에 있는 한국등잔박물관은 박물관장 김동휘가 50여 년간 수집한 등잔들이 전시되어 있는 사립박물관이다. 국내 유일의 등기구 박물관으로 선조들의 옛 생활상을 살펴볼 수 있어 개인뿐 아니라 학생들의 체험학습 공간으로 많이 찾는 곳이다. 수원화성 성곽을 모티브로 지은 원통형의 등대 모양 건물은 지하 1층, 지상 3층 규모로 1, 2층은 전시 공간으로 3층은 세미나 및 각종 공연을 위한 다목적 공간으로 구성되어 있다. 또 별관 전시장에는 농기구 전시실이 있고 야외전시장인 연못과 자연석이 어우러진 아름다운 정원으로 가볍게 둘러보며 힐링하기 좋다. 상설전시실 1층에는 우리의 불그릇 등잔을 주제로 부엌, 찬방, 사랑방, 안방 등 공간별로 사용되었던 등잔의 종류와 용도를 옛 생활용품과 함께 전시되어 있으며, 2층은 일상을 지킨 빛과 예를 밝힌 빛을 주제로 시대별 등잔 양식과 특징을 한눈에 알아볼 수 있다. 또 1층 특별기획전시실에서는 지역작가 조명전을 개최해 경기도 내에서 왕성한 작품 활동을 펼치는 지역작가들을 소개하고 있다. 박물관에서는 다양한 어린이, 청소년, 성인을 대상으로 한 상설교육 프로그램과 특별교육 프로그램을 운영하고 있다. 초나 LED등, 도자 등잔 등을 만들어 볼 수 있어 특별한 추억을 선물한다. 포은 정몽주 묘소가 맞은편에 있으므로 연계해 함께 방문하기 좋다.",
+      "bm25_document": "",
+      "best_span_id": null,
+      "best_span_text": null,
+      "fusion_score": 0.016129032258064516,
+      "retrieved_by": [
+        "vector"
+      ],
+      "fusion_rank": 3,
+      "rerank_score": 6.267629942158237e-05,
+      "rank": 3,
+      "score": 0.016129032258064516,
+      "score_type": "rrf_low_confidence_rerank",
+      "distance": 0.5102385878562927,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector"
+      ],
+      "retriever": "vector",
+      "source_doc_ids": [
+        "DOC-B0846-TOUR_API-130147"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0846-TOUR_API-130147",
+          "source_type": "TOUR_API",
+          "source_record_id": "130147",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=400",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 69,
+          "doc_ids": [
+            "DOC-B0846-TOUR_API-130147"
+          ]
+        },
+        {
+          "start": 70,
+          "end": 141,
+          "doc_ids": [
+            "DOC-B0846-TOUR_API-130147"
+          ]
+        },
+        {
+          "start": 142,
+          "end": 243,
+          "doc_ids": [
+            "DOC-B0846-TOUR_API-130147"
+          ]
+        },
+        {
+          "start": 244,
+          "end": 315,
+          "doc_ids": [
+            "DOC-B0846-TOUR_API-130147"
+          ]
+        },
+        {
+          "start": 316,
+          "end": 460,
+          "doc_ids": [
+            "DOC-B0846-TOUR_API-130147"
+          ]
+        },
+        {
+          "start": 461,
+          "end": 529,
+          "doc_ids": [
+            "DOC-B0846-TOUR_API-130147"
+          ]
+        },
+        {
+          "start": 530,
+          "end": 592,
+          "doc_ids": [
+            "DOC-B0846-TOUR_API-130147"
+          ]
+        },
+        {
+          "start": 593,
+          "end": 635,
+          "doc_ids": [
+            "DOC-B0846-TOUR_API-130147"
+          ]
+        },
+        {
+          "start": 636,
+          "end": 672,
+          "doc_ids": [
+            "DOC-B0846-TOUR_API-130147"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=400",
+      "text": "포은 정몽주 묘소 맞은편에 있는 한국등잔박물관은 박물관장 김동휘가 50여 년간 수집한 등잔들이 전시되어 있는 사립박물관이다. 국내 유일의 등기구 박물관으로 선조들의 옛 생활상을 살펴볼 수 있어 개인뿐 아니라 학생들의 체험학습 공간으로 많이 찾는 곳이다. 수원화성 성곽을 모티브로 지은 원통형의 등대 모양 건물은 지하 1층, 지상 3층 규모로 1, 2층은 전시 공간으로 3층은 세미나 및 각종 공연을 위한 다목적 공간으로 구성되어 있다. 또 별관 전시장에는 농기구 전시실이 있고 야외전시장인 연못과 자연석이 어우러진 아름다운 정원으로 가볍게 둘러보며 힐링하기 좋다. 상설전시실 1층에는 우리의 불그릇 등잔을 주제로 부엌, 찬방, 사랑방, 안방 등 공간별로 사용되었던 등잔의 종류와 용도를 옛 생활용품과 함께 전시되어 있으며, 2층은 일상을 지킨 빛과 예를 밝힌 빛을 주제로 시대별 등잔 양식과 특징을 한눈에 알아볼 수 있다. 또 1층 특별기획전시실에서는 지역작가 조명전을 개최해 경기도 내에서 왕성한 작품 활동을 펼치는 지역작가들을 소개하고 있다. 박물관에서는 다양한 어린이, 청소년, 성인을 대상으로 한 상설교육 프로그램과 특별교육 프로그램을 운영하고 있다. 초나 LED등, 도자 등잔 등을 만들어 볼 수 있어 특별한 추억을 선물한다. 포은 정몽주 묘소가 맞은편에 있으므로 연계해 함께 방문하기 좋다.",
+      "sido": "경기도",
+      "sigungu": "용인시",
+      "span_id": "",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=400"
+      ],
+      "evidence_id": "E3",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=573",
+        "fields": {
+          "name": "한국등잔박물관",
+          "sido": "경기도",
+          "sigungu": "용인시",
+          "address": "경기도 용인시 처인구 모현읍 능곡로56번길 8",
+          "ownership_type": "사립",
+          "adult_fee": "8000",
+          "youth_fee": "5000",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_PAID",
+          "weekday_open": "10:00",
+          "weekday_close": "17:00",
+          "holiday_open": "10:00",
+          "holiday_close": "17:00",
+          "closure_rule_raw": "매주 월요일~화요일,신정,설연휴,추석(당일)"
+        },
+        "base_data_date": "2024-11-29",
+        "trust": "derived_dataset_not_human_verified"
+      },
+      "retrieval_branch": "document"
+    },
+    {
+      "museum_id": "M0877",
+      "name": "양평곤충박물관",
+      "document": "2011년 11월 양평에 개관한 양평곤충박물관은 도심에서 쉽게 볼 수 없는 다양한 종류의 곤충을 만날 수 있는 곳이다. 다녀간 사람들이 적극적으로 추천하는 곳으로, 어린 자녀를 둔 가족단위의 방문객에게 큰 인기를 끌고 있다. 상설 및 기획 전시실, 포토존, 체험실 등으로 구성되어 있다. 전시실에는 국내외 각지에 서식하는 희귀 곤충표본 1,500여 점이 전시되어 있다. 특히 사슴벌레, 장수풍뎅이를 관찰하고, 흙 속에 있는 애벌레를 찾아 만져볼 수 있는 곤충체험실은 어린이들의 관심을 가장 많이 받는 곳이다. 곤충 스탬프 찍기, 곤충 배지 만들기 같은 체험 프로그램이 마련되어 있고, 야외 체험장에서는 나비 목걸이, 장수풍뎅이 표본 만들기 등 유료 프로그램도 운영된다. 영상학습실에서 다큐멘터리가 연속 상영되어 언제든지 감상할 수 있다. 2011년 11월 18일에 개관한 곤충전문박물관",
+      "metadata": {
+        "longitude": 127.4491461,
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/75/4110975_image2_1.jpg",
+        "transport_notes": "(버스)2000-1, 200-2, 2000-3, 3-4, 6, 6-2, 6-5, 6-6, 9-5, 9-6번 버스",
+        "homepage_url": "https://www.yp21.go.kr/museumhub/",
+        "address": "경기도 양평군 옥천면 경강로 1496",
+        "child_fee": 2000.0,
+        "name": "양평곤충박물관",
+        "youth_fee": 2000.0,
+        "ownership_type": "공립",
+        "holiday_open": "09:30",
+        "sigungu": "양평군",
+        "weekday_open": "09:30",
+        "adult_fee_status": "BASE_FEE_PAID",
+        "closure_rule_raw": "월(단, 월요일이 공휴일인 경우 당일은 개관하고 그 다음날 휴관)+1월1일+설+추석 당일",
+        "requires_manual_review": true,
+        "holiday_close": "17:00",
+        "fee_notes": "군인 2000+[단체]일반 2500+[단체]군인·청소년·어린이 1500+[무료]만65세이상 노인+[무료]장애인 및 국가유공자+[무료]양평군민+[무료]그린카드 소지자",
+        "image_copyright": "Type3",
+        "latitude": 37.50920003,
+        "weekday_close": "17:00",
+        "amenities_raw": "매점+교육실",
+        "source_types": "BASE|TOUR_API",
+        "adult_fee": 3000.0,
+        "sido": "경기도"
+      },
+      "vector_rank": null,
+      "bm25_rank": 2,
+      "vector_distance": null,
+      "vector_score": null,
+      "bm25_score": 14.374793744871685,
+      "vector_document": "",
+      "bm25_document": "2011년 11월 양평에 개관한 양평곤충박물관은 도심에서 쉽게 볼 수 없는 다양한 종류의 곤충을 만날 수 있는 곳이다. 다녀간 사람들이 적극적으로 추천하는 곳으로, 어린 자녀를 둔 가족단위의 방문객에게 큰 인기를 끌고 있다. 상설 및 기획 전시실, 포토존, 체험실 등으로 구성되어 있다. 전시실에는 국내외 각지에 서식하는 희귀 곤충표본 1,500여 점이 전시되어 있다. 특히 사슴벌레, 장수풍뎅이를 관찰하고, 흙 속에 있는 애벌레를 찾아 만져볼 수 있는 곤충체험실은 어린이들의 관심을 가장 많이 받는 곳이다. 곤충 스탬프 찍기, 곤충 배지 만들기 같은 체험 프로그램이 마련되어 있고, 야외 체험장에서는 나비 목걸이, 장수풍뎅이 표본 만들기 등 유료 프로그램도 운영된다. 영상학습실에서 다큐멘터리가 연속 상영되어 언제든지 감상할 수 있다. 2011년 11월 18일에 개관한 곤충전문박물관",
+      "best_span_id": "chroma:M0877",
+      "best_span_text": "2011년 11월 양평에 개관한 양평곤충박물관은 도심에서 쉽게 볼 수 없는 다양한 종류의 곤충을 만날 수 있는 곳이다. 다녀간 사람들이 적극적으로 추천하는 곳으로, 어린 자녀를 둔 가족단위의 방문객에게 큰 인기를 끌고 있다. 상설 및 기획 전시실, 포토존, 체험실 등으로 구성되어 있다. 전시실에는 국내외 각지에 서식하는 희귀 곤충표본 1,500여 점이 전시되어 있다. 특히 사슴벌레, 장수풍뎅이를 관찰하고, 흙 속에 있는 애벌레를 찾아 만져볼 수 있는 곤충체험실은 어린이들의 관심을 가장 많이 받는 곳이다. 곤충 스탬프 찍기, 곤충 배지 만들기 같은 체험 프로그램이 마련되어 있고, 야외 체험장에서는 나비 목걸이, 장수풍뎅이 표본 만들기 등 유료 프로그램도 운영된다. 영상학습실에서 다큐멘터리가 연속 상영되어 언제든지 감상할 수 있다. 2011년 11월 18일에 개관한 곤충전문박물관",
+      "fusion_score": 0.016129032258064516,
+      "retrieved_by": [
+        "bm25"
+      ],
+      "fusion_rank": 4,
+      "rerank_score": 7.297539559658617e-05,
+      "rank": 4,
+      "score": 0.016129032258064516,
+      "score_type": "rrf_low_confidence_rerank",
+      "distance": null,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "bm25"
+      ],
+      "retriever": "bm25",
+      "span_id": "chroma:M0877",
+      "source_doc_ids": [
+        "DOC-B0877-TOUR_API-2605321",
+        "DOC-B0877-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0877-TOUR_API-2605321",
+          "source_type": "TOUR_API",
+          "source_record_id": "2605321",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=414",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        },
+        {
+          "doc_id": "DOC-B0877-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0877",
+          "source_locator": "data/raw/museum_base_1070.csv#row=878",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 66,
+          "doc_ids": [
+            "DOC-B0877-TOUR_API-2605321"
+          ]
+        },
+        {
+          "start": 67,
+          "end": 125,
+          "doc_ids": [
+            "DOC-B0877-TOUR_API-2605321"
+          ]
+        },
+        {
+          "start": 126,
+          "end": 160,
+          "doc_ids": [
+            "DOC-B0877-TOUR_API-2605321"
+          ]
+        },
+        {
+          "start": 161,
+          "end": 206,
+          "doc_ids": [
+            "DOC-B0877-TOUR_API-2605321"
+          ]
+        },
+        {
+          "start": 207,
+          "end": 284,
+          "doc_ids": [
+            "DOC-B0877-TOUR_API-2605321"
+          ]
+        },
+        {
+          "start": 285,
+          "end": 374,
+          "doc_ids": [
+            "DOC-B0877-TOUR_API-2605321"
+          ]
+        },
+        {
+          "start": 375,
+          "end": 412,
+          "doc_ids": [
+            "DOC-B0877-TOUR_API-2605321"
+          ]
+        },
+        {
+          "start": 413,
+          "end": 439,
+          "doc_ids": [
+            "DOC-B0877-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=414",
+      "text": "2011년 11월 양평에 개관한 양평곤충박물관은 도심에서 쉽게 볼 수 없는 다양한 종류의 곤충을 만날 수 있는 곳이다. 다녀간 사람들이 적극적으로 추천하는 곳으로, 어린 자녀를 둔 가족단위의 방문객에게 큰 인기를 끌고 있다. 상설 및 기획 전시실, 포토존, 체험실 등으로 구성되어 있다. 전시실에는 국내외 각지에 서식하는 희귀 곤충표본 1,500여 점이 전시되어 있다. 특히 사슴벌레, 장수풍뎅이를 관찰하고, 흙 속에 있는 애벌레를 찾아 만져볼 수 있는 곤충체험실은 어린이들의 관심을 가장 많이 받는 곳이다. 곤충 스탬프 찍기, 곤충 배지 만들기 같은 체험 프로그램이 마련되어 있고, 야외 체험장에서는 나비 목걸이, 장수풍뎅이 표본 만들기 등 유료 프로그램도 운영된다. 영상학습실에서 다큐멘터리가 연속 상영되어 언제든지 감상할 수 있다. 2011년 11월 18일에 개관한 곤충전문박물관",
+      "sido": "경기도",
+      "sigungu": "양평군",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=414"
+      ],
+      "evidence_id": "E4",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=598",
+        "fields": {
+          "name": "양평곤충박물관",
+          "sido": "경기도",
+          "sigungu": "양평군",
+          "address": "경기도 양평군 옥천면 경강로 1496",
+          "ownership_type": "공립",
+          "adult_fee": "3000",
+          "youth_fee": "2000",
+          "child_fee": "2000",
+          "adult_fee_status": "BASE_FEE_PAID",
+          "weekday_open": "09:30",
+          "weekday_close": "17:00",
+          "holiday_open": "09:30",
+          "holiday_close": "17:00",
+          "closure_rule_raw": "월(단, 월요일이 공휴일인 경우 당일은 개관하고 그 다음날 휴관)+1월1일+설+추석 당일",
+          "amenities_raw": "매점+교육실"
+        },
+        "base_data_date": "2023-05-24",
+        "trust": "derived_dataset_not_human_verified"
+      },
+      "retrieval_branch": "document"
+    },
+    {
+      "museum_id": "M0008",
+      "name": "검단선사박물관",
+      "document": "검단선사박물관은 검단, 원당, 동양, 불로지구 등 인천 서북부지역의 도시개발 진행 과정에서 발굴된 도토류, 골각류, 금속류, 옥석유리류 등의 선사시대유물을 전시하고 있으며, 청동기시대 집터 및 돌널무덤(석관묘)을 발굴 당시 모습 그대로 이전 설치하였습니다",
+      "metadata": {
+        "weekday_close": "18:00",
+        "child_fee": 0.0,
+        "transport_notes": "인천 지하철 1호선 및 공항철도 계양역 하차 + 일반 30번/급행 97번 승차 + 원당사거리 하차 + 인천 지하철 2호선 완정역 하차 + 일반 30번/87번 승차 + 원당사거리 하차",
+        "ownership_type": "공립",
+        "youth_fee": 0.0,
+        "sigungu": "검단구",
+        "latitude": 37.5941058855,
+        "adult_fee": 0.0,
+        "requires_manual_review": true,
+        "address": "인천광역시 검단구 고산후로121번길 7",
+        "holiday_open": "09:00",
+        "longitude": 126.6986824,
+        "weekday_open": "09:00",
+        "name": "검단선사박물관",
+        "source_types": "BASE",
+        "closure_rule_raw": "월(단, 공휴일인 월요일은 제외)+1월1일",
+        "holiday_close": "18:00",
+        "homepage_url": "http://www.incheon.go.kr/museum",
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "sido": "인천광역시"
+      },
+      "vector_rank": 3,
+      "bm25_rank": null,
+      "vector_distance": 0.5120819807052612,
+      "vector_score": null,
+      "bm25_score": null,
+      "vector_document": "검단선사박물관은 검단, 원당, 동양, 불로지구 등 인천 서북부지역의 도시개발 진행 과정에서 발굴된 도토류, 골각류, 금속류, 옥석유리류 등의 선사시대유물을 전시하고 있으며, 청동기시대 집터 및 돌널무덤(석관묘)을 발굴 당시 모습 그대로 이전 설치하였습니다",
+      "bm25_document": "",
+      "best_span_id": null,
+      "best_span_text": null,
+      "fusion_score": 0.015873015873015872,
+      "retrieved_by": [
+        "vector"
+      ],
+      "fusion_rank": 5,
+      "rerank_score": 7.337894203374162e-05,
+      "rank": 5,
+      "score": 0.015873015873015872,
+      "score_type": "rrf_low_confidence_rerank",
+      "distance": 0.5120819807052612,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector"
+      ],
+      "retriever": "vector",
+      "source_doc_ids": [
+        "DOC-B0008-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0008-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0008",
+          "source_locator": "data/raw/museum_base_1070.csv#row=9",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 142,
+          "doc_ids": [
+            "DOC-B0008-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_base_1070.csv#row=9",
+      "text": "검단선사박물관은 검단, 원당, 동양, 불로지구 등 인천 서북부지역의 도시개발 진행 과정에서 발굴된 도토류, 골각류, 금속류, 옥석유리류 등의 선사시대유물을 전시하고 있으며, 청동기시대 집터 및 돌널무덤(석관묘)을 발굴 당시 모습 그대로 이전 설치하였습니다",
+      "sido": "인천광역시",
+      "sigungu": "검단구",
+      "span_id": "",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_base_1070.csv#row=9"
+      ],
+      "evidence_id": "E5",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=8",
+        "fields": {
+          "name": "검단선사박물관",
+          "sido": "인천광역시",
+          "sigungu": "검단구",
+          "address": "인천광역시 검단구 고산후로121번길 7",
+          "ownership_type": "공립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "09:00",
+          "weekday_close": "18:00",
+          "holiday_open": "09:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "월(단, 공휴일인 월요일은 제외)+1월1일"
+        },
+        "base_data_date": "2026-09-18",
+        "trust": "derived_dataset_not_human_verified"
+      },
+      "retrieval_branch": "document"
+    },
+    {
+      "museum_id": "M0923",
+      "name": "짜장면박물관",
+      "text": "짜장면박물관의 Neo4j operator_name(운영기관) 기록: 인천중구문화재단 (CSV 원문: 재단법인 인천중구문화재단)\n[Neo4j 구조화 근거] {\"museum_id\": \"M0923\", \"name\": \"짜장면박물관\", \"relation\": \"OPERATED_BY\", \"organization\": \"인천중구문화재단\", \"org_key\": \"인천중구문화재단\", \"org_type\": \"재단·비영리법인\", \"raw_name\": \"재단법인 인천중구문화재단\", \"verification_status\": \"SOURCE_RECORDED\"}",
+      "span_id": "",
+      "source_doc_ids": [
+        "DOC-B0923-TOUR_API-1931699"
+      ],
+      "source_urls": [],
+      "source_url": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=434"
+      ],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=434",
+      "sido": "인천광역시",
+      "sigungu": "중구",
+      "retriever": "graph",
+      "evidence_role": "anchor",
+      "source_scope": "graph_properties",
+      "relation": "OPERATED_BY",
+      "organization": "인천중구문화재단",
+      "org_type": "재단·비영리법인",
+      "operator_raw_name": "재단법인 인천중구문화재단",
+      "verification_status": "SOURCE_RECORDED",
+      "metadata": {},
+      "chunk_id": "",
+      "retrievers": [
+        "graph"
+      ],
+      "evidence_id": "E6",
+      "retrieval_branch": "graph",
+      "rank": 6
+    },
+    {
+      "museum_id": "M0924",
+      "name": "대불호텔전시관",
+      "text": "{anchor_raw_name: 재단법인 인천중구문화재단, candidate_raw_name: 재단법인 인천중구문화재단, org_key: 인천중구문화재단, organization: 인천중구문화재단, relation: OPERATED_BY, verification_status: SOURCE_RECORDED}",
+      "span_id": "",
+      "source_doc_ids": [
+        "DOC-B0924-TOUR_API-2994530"
+      ],
+      "source_urls": [],
+      "source_url": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=435"
+      ],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=435",
+      "sido": "인천광역시",
+      "sigungu": "중구",
+      "retriever": "graph",
+      "graph_path": "anchor -[:OPERATED_BY]-> Organization <-[:OPERATED_BY]- candidate",
+      "organization": "인천중구문화재단",
+      "org_type": "재단·비영리법인",
+      "operator_raw_name": "재단법인 인천중구문화재단",
+      "anchor_operator_raw_name": "재단법인 인천중구문화재단",
+      "relation": "OPERATED_BY",
+      "verification_status": "SOURCE_RECORDED",
+      "facility_type": "전시관",
+      "source_scope": "graph_properties",
+      "metadata": {},
+      "chunk_id": "",
+      "retrievers": [
+        "graph"
+      ],
+      "evidence_id": "E7",
+      "retrieval_branch": "graph",
+      "rank": 7
+    },
+    {
+      "museum_id": "M0927",
+      "name": "영종역사관",
+      "text": "{anchor_raw_name: 재단법인 인천중구문화재단, candidate_raw_name: 재단법인 인천중구문화재단, org_key: 인천중구문화재단, organization: 인천중구문화재단, relation: OPERATED_BY, verification_status: SOURCE_RECORDED}",
+      "span_id": "",
+      "source_doc_ids": [
+        "DOC-B0927-TOUR_API-2638436"
+      ],
+      "source_urls": [],
+      "source_url": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=437"
+      ],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=437",
+      "sido": "인천광역시",
+      "sigungu": "중구",
+      "retriever": "graph",
+      "graph_path": "anchor -[:OPERATED_BY]-> Organization <-[:OPERATED_BY]- candidate",
+      "organization": "인천중구문화재단",
+      "org_type": "재단·비영리법인",
+      "operator_raw_name": "재단법인 인천중구문화재단",
+      "anchor_operator_raw_name": "재단법인 인천중구문화재단",
+      "relation": "OPERATED_BY",
+      "verification_status": "SOURCE_RECORDED",
+      "facility_type": "역사관",
+      "source_scope": "graph_properties",
+      "metadata": {},
+      "chunk_id": "",
+      "retrievers": [
+        "graph"
+      ],
+      "evidence_id": "E8",
+      "retrieval_branch": "graph",
+      "rank": 8
+    },
+    {
+      "museum_id": "M0925",
+      "name": "인천개항장 근대건축전시관",
+      "text": "{anchor_raw_name: 재단법인 인천중구문화재단, candidate_raw_name: 재단법인 인천중구문화재단, org_key: 인천중구문화재단, organization: 인천중구문화재단, relation: OPERATED_BY, verification_status: SOURCE_RECORDED}",
+      "span_id": "",
+      "source_doc_ids": [
+        "DOC-B0925-TOUR_API-2779442"
+      ],
+      "source_urls": [],
+      "source_url": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=436"
+      ],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=436",
+      "sido": "인천광역시",
+      "sigungu": "중구",
+      "retriever": "graph",
+      "graph_path": "anchor -[:OPERATED_BY]-> Organization <-[:OPERATED_BY]- candidate",
+      "organization": "인천중구문화재단",
+      "org_type": "재단·비영리법인",
+      "operator_raw_name": "재단법인 인천중구문화재단",
+      "anchor_operator_raw_name": "재단법인 인천중구문화재단",
+      "relation": "OPERATED_BY",
+      "verification_status": "SOURCE_RECORDED",
+      "facility_type": "전시관",
+      "source_scope": "graph_properties",
+      "metadata": {},
+      "chunk_id": "",
+      "retrievers": [
+        "graph"
+      ],
+      "evidence_id": "E9",
+      "retrieval_branch": "graph",
+      "rank": 9
+    },
+    {
+      "museum_id": "M0922",
+      "name": "한중문화관",
+      "text": "{anchor_raw_name: 재단법인 인천중구문화재단, candidate_raw_name: 재단법인 인천중구문화재단, org_key: 인천중구문화재단, organization: 인천중구문화재단, relation: OPERATED_BY, verification_status: SOURCE_RECORDED}",
+      "span_id": "",
+      "source_doc_ids": [
+        "DOC-B0922-TOUR_API-652305"
+      ],
+      "source_urls": [],
+      "source_url": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=433"
+      ],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=433",
+      "sido": "인천광역시",
+      "sigungu": "중구",
+      "retriever": "graph",
+      "graph_path": "anchor -[:OPERATED_BY]-> Organization <-[:OPERATED_BY]- candidate",
+      "organization": "인천중구문화재단",
+      "org_type": "재단·비영리법인",
+      "operator_raw_name": "재단법인 인천중구문화재단",
+      "anchor_operator_raw_name": "재단법인 인천중구문화재단",
+      "relation": "OPERATED_BY",
+      "verification_status": "SOURCE_RECORDED",
+      "facility_type": "전시관",
+      "source_scope": "graph_properties",
+      "metadata": {},
+      "chunk_id": "",
+      "retrievers": [
+        "graph"
+      ],
+      "evidence_id": "E10",
+      "retrieval_branch": "graph",
+      "rank": 10
+    }
+  ],
+  "answer": "확인 가능한 근거가 부족하여 답변을 보류했습니다. 확인하지 못한 내용: 인천개항장 근대건축전시관에서 개항기 건축물을 볼 수 있다는 전시 내용.",
+  "retrieval_status": "ok",
+  "answer_status": "abstained",
+  "route": "combined",
+  "retry_count": 0,
+  "supervisor_verified": false,
+  "rerank_applied": true,
+  "retriever_errors": [],
+  "warnings": [],
+  "duration_ms": 144114.54,
+  "error_type": "",
+  "hit_at_1": 0,
+  "hit_at_3": 0,
+  "hit_at_5": 0,
+  "recall_at_5": 0.0,
+  "mrr_at_10": 0.125
+}

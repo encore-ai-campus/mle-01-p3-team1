@@ -1,0 +1,287 @@
+{
+  "question_id": "V2-SF11",
+  "response": {
+    "tool": "museum_hybrid_retrieve",
+    "status": "partial",
+    "query": "전북에서 휠체어 대여 되는 박물관이나 미술관을 알려줘",
+    "results": [
+      {
+        "museum_id": "M0827",
+        "name": "고창판소리박물관",
+        "document": "고창판소리박물관은 판소리 이론가이자 개작자이며 후원가였던 동리 신재효 및 진채선, 김소희 등 다수의 명창을 기념하고 판소리 전통을 계승 발전시키기 위하여 동리 신재효 선생의 고택자리에 설립",
+        "metadata": {
+          "sido": "전북특별자치도",
+          "homepage_url": "http://www.gochang.go.kr/pansorimuseum",
+          "holiday_close": "18:00",
+          "requires_manual_review": true,
+          "youth_fee": 0.0,
+          "adult_fee": 0.0,
+          "closure_rule_raw": "매주 월요일+1월 1일+설날+추석",
+          "address": "전북특별자치도 고창군 고창읍 동리로 100",
+          "latitude": 35.43237353,
+          "holiday_open": "09:00",
+          "longitude": 126.7026295,
+          "child_fee": 0.0,
+          "weekday_open": "09:00",
+          "weekday_close": "18:00",
+          "amenities_raw": "휠체어",
+          "name": "고창판소리박물관",
+          "source_types": "BASE",
+          "sigungu": "고창군",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "ownership_type": "공립",
+          "transport_notes": "고창군청에서 100미터+고창버스터미널에서  500미터",
+          "structured_match": "편의시설 '휠체어 대여·이용': CSV amenities_raw의 '휠체어' 항목 (온톨로지 필터가 metadata_provenance.fields의 같은 CSV 값으로 판정한 정적 기록이며 실시간 상태가 아님)"
+        },
+        "vector_rank": 1,
+        "bm25_rank": null,
+        "vector_distance": 0.5584295988082886,
+        "vector_score": null,
+        "bm25_score": null,
+        "vector_document": "고창판소리박물관은 판소리 이론가이자 개작자이며 후원가였던 동리 신재효 및 진채선, 김소희 등 다수의 명창을 기념하고 판소리 전통을 계승 발전시키기 위하여 동리 신재효 선생의 고택자리에 설립",
+        "bm25_document": "",
+        "best_span_id": null,
+        "best_span_text": null,
+        "fusion_score": 0.01639344262295082,
+        "retrieved_by": [
+          "vector"
+        ],
+        "fusion_rank": 1,
+        "rerank_score": 0.00035919449874199927,
+        "rank": 1,
+        "score": 0.01639344262295082,
+        "score_type": "rrf_low_confidence_rerank",
+        "distance": 0.5584295988082886,
+        "relevance": null,
+        "relevance_reason": null
+      }
+    ],
+    "source_ids": [
+      "M0827"
+    ],
+    "warnings": [
+      "Only 1 candidates available; no artificial padding"
+    ],
+    "unsupported_constraints": [],
+    "search_summary": {
+      "mode": "hybrid",
+      "filters": {},
+      "candidate_count": 1,
+      "requested_candidate_k": 20,
+      "returned_count": 1,
+      "reranked": true,
+      "vector_returned": 1,
+      "bm25_returned": 0,
+      "fused_returned": 1,
+      "final_returned": 1,
+      "rerank_requested": true,
+      "rerank_applied": true,
+      "rerank_failed": false,
+      "fusion_method": "weighted_rrf",
+      "config": {
+        "vector_top_k": 20,
+        "bm25_top_k": 20,
+        "fusion_top_k": 20,
+        "final_top_k": 10,
+        "rrf_k": 60,
+        "vector_weight": 1.0,
+        "bm25_weight": 1.0,
+        "reranker_model": "BAAI/bge-reranker-v2-m3",
+        "reranker_local_dir": null,
+        "reranker_revision": null,
+        "reranker_batch_size": 8,
+        "reranker_max_chars": 2000,
+        "rerank_failure_policy": "rrf_fallback",
+        "rerank_min_confidence": 0.1,
+        "retriever_failure_policy": "raise",
+        "parallel_retrieval": true
+      },
+      "metadata_filters": {},
+      "retriever_errors": [],
+      "requested_final_top_k": 5,
+      "expanded_query": "전북에서 휠체어 대여 되는 박물관이나 미술관을 알려줘",
+      "query_mode": "vector",
+      "analysis_status": "disabled",
+      "unsupported_constraints": [],
+      "ontology_filter": {
+        "status": "applied",
+        "backend": "local_csv",
+        "conditions": {
+          "amenities": [
+            "휠체어 대여·이용"
+          ],
+          "sido": "전북특별자치도",
+          "matched_terms": [
+            "휠체어 대여 되"
+          ]
+        },
+        "candidate_count": 1
+      },
+      "name_match": {
+        "status": "not_applicable",
+        "names": [],
+        "promoted": [],
+        "injected": [],
+        "unavailable": []
+      },
+      "rerank_low_confidence": true,
+      "rerank_best_score": 0.00035919449874199927,
+      "stages": [
+        {
+          "stage": "ontology_filter",
+          "duration_ms": 3.24,
+          "status": "applied",
+          "backend": "local_csv",
+          "conditions": {
+            "amenities": [
+              "휠체어 대여·이용"
+            ],
+            "sido": "전북특별자치도",
+            "matched_terms": [
+              "휠체어 대여 되"
+            ]
+          },
+          "candidate_count": 1
+        },
+        {
+          "stage": "query_analysis",
+          "status": "disabled",
+          "duration_ms": 0.11,
+          "filters": {},
+          "expanded_query": "전북에서 휠체어 대여 되는 박물관이나 미술관을 알려줘",
+          "mode": "vector",
+          "model": "disabled"
+        },
+        {
+          "stage": "vector_retrieval",
+          "status": "ok",
+          "duration_ms": 155.61,
+          "requested": 20,
+          "returned": 1
+        },
+        {
+          "stage": "bm25_retrieval",
+          "status": "empty",
+          "duration_ms": 10.87,
+          "requested": 20,
+          "returned": 0
+        },
+        {
+          "stage": "rrf_fusion",
+          "status": "ok",
+          "duration_ms": 0.06,
+          "requested": 20,
+          "returned": 1
+        },
+        {
+          "stage": "name_match",
+          "duration_ms": 0.24,
+          "status": "not_applicable",
+          "names": [],
+          "promoted": [],
+          "injected": [],
+          "unavailable": []
+        },
+        {
+          "stage": "cross_encoder_rerank",
+          "status": "low_confidence_rrf_order",
+          "duration_ms": 11750.31,
+          "requested": 1,
+          "returned": 1,
+          "best_score": 0.00035919449874199927,
+          "min_confidence": 0.1,
+          "model_load_ms": 0.0,
+          "inference_ms": 307.84,
+          "model_path": "C:\\Users\\Playdata\\.cache\\huggingface\\hub\\models--BAAI--bge-reranker-v2-m3\\snapshots\\953dc6f6f85a1b2dbfca4c34a2796e7dde08d41e",
+          "model_source": "local_only"
+        },
+        {
+          "stage": "final_selection",
+          "status": "ok",
+          "requested": 5,
+          "returned": 1
+        }
+      ],
+      "total_duration_ms": 11916.26
+    },
+    "fusion_candidates": [
+      {
+        "museum_id": "M0827",
+        "name": "고창판소리박물관",
+        "document": "고창판소리박물관은 판소리 이론가이자 개작자이며 후원가였던 동리 신재효 및 진채선, 김소희 등 다수의 명창을 기념하고 판소리 전통을 계승 발전시키기 위하여 동리 신재효 선생의 고택자리에 설립",
+        "metadata": {
+          "sido": "전북특별자치도",
+          "homepage_url": "http://www.gochang.go.kr/pansorimuseum",
+          "holiday_close": "18:00",
+          "requires_manual_review": true,
+          "youth_fee": 0.0,
+          "adult_fee": 0.0,
+          "closure_rule_raw": "매주 월요일+1월 1일+설날+추석",
+          "address": "전북특별자치도 고창군 고창읍 동리로 100",
+          "latitude": 35.43237353,
+          "holiday_open": "09:00",
+          "longitude": 126.7026295,
+          "child_fee": 0.0,
+          "weekday_open": "09:00",
+          "weekday_close": "18:00",
+          "amenities_raw": "휠체어",
+          "name": "고창판소리박물관",
+          "source_types": "BASE",
+          "sigungu": "고창군",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "ownership_type": "공립",
+          "transport_notes": "고창군청에서 100미터+고창버스터미널에서  500미터"
+        },
+        "vector_rank": 1,
+        "bm25_rank": null,
+        "vector_distance": 0.5584295988082886,
+        "vector_score": null,
+        "bm25_score": null,
+        "vector_document": "고창판소리박물관은 판소리 이론가이자 개작자이며 후원가였던 동리 신재효 및 진채선, 김소희 등 다수의 명창을 기념하고 판소리 전통을 계승 발전시키기 위하여 동리 신재효 선생의 고택자리에 설립",
+        "bm25_document": "",
+        "best_span_id": null,
+        "best_span_text": null,
+        "fusion_score": 0.01639344262295082,
+        "retrieved_by": [
+          "vector"
+        ],
+        "fusion_rank": 1
+      }
+    ],
+    "retrieval_candidates_full": {
+      "vector": [
+        {
+          "museum_id": "M0827",
+          "document": "고창판소리박물관은 판소리 이론가이자 개작자이며 후원가였던 동리 신재효 및 진채선, 김소희 등 다수의 명창을 기념하고 판소리 전통을 계승 발전시키기 위하여 동리 신재효 선생의 고택자리에 설립",
+          "metadata": {
+            "sido": "전북특별자치도",
+            "homepage_url": "http://www.gochang.go.kr/pansorimuseum",
+            "holiday_close": "18:00",
+            "requires_manual_review": true,
+            "youth_fee": 0.0,
+            "adult_fee": 0.0,
+            "closure_rule_raw": "매주 월요일+1월 1일+설날+추석",
+            "address": "전북특별자치도 고창군 고창읍 동리로 100",
+            "latitude": 35.43237353,
+            "holiday_open": "09:00",
+            "longitude": 126.7026295,
+            "child_fee": 0.0,
+            "weekday_open": "09:00",
+            "weekday_close": "18:00",
+            "amenities_raw": "휠체어",
+            "name": "고창판소리박물관",
+            "source_types": "BASE",
+            "sigungu": "고창군",
+            "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+            "ownership_type": "공립",
+            "transport_notes": "고창군청에서 100미터+고창버스터미널에서  500미터"
+          },
+          "distance": 0.5584295988082886
+        }
+      ],
+      "bm25": []
+    }
+  },
+  "duration_ms": 11916.34,
+  "error_type": ""
+}

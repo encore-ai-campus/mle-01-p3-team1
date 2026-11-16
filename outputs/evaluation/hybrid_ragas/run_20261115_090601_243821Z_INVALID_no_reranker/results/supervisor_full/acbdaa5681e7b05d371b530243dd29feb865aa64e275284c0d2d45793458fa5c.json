@@ -1,0 +1,701 @@
+{
+  "mode": "supervisor_full",
+  "question_id": "Q134",
+  "evidence": [
+    {
+      "museum_id": "M0213",
+      "name": "영월아프리카미술박물관",
+      "document": "영월아프리카미술박물관은 아프리카 여러 부족의 생활, 의식, 신앙, 축제 등과 관련하여 만들어진 문화품 즉 조각, 그림, 생활도구, 장신구 등과 현대 미술 작품을 상설전시하고 있다. 아프리카의 다양한 문화를 폭넓게 이해하기 위해 주한아프리카대사관이 출품한 아프리카 문화전을 반영구적으로 전시하고 있다. 또한 계기별 또는 지역적 특성에 맞는 특별기획전을 개최하여 박물관의 기능을 보완하고 있다. 영월아프리카미술박물관은 아프리카인들의 관념 세계를 표현한 마스크와 인물상 등 전통적 조각품을 통하여 그들의 예술적 재능을 찾아볼 수 있고 아프리카 미술의 소재, 제작 기법, 미술적 특징 등이 현대미술에 미치는 영향과 의미를 알아볼 수 있도록 전시하고 있다. 아프리카 20여개 나라에서 수집한 미술품을 전시하고 있으며, 이국적인 풍취와함께 원초적인 생동감을 느낄 수 있습니다.",
+      "metadata": {
+        "latitude": 37.13187895,
+        "adult_fee_status": "BASE_FEE_PAID",
+        "homepage_url": "https://aamy.kr",
+        "image_copyright": "Type1",
+        "weekday_close": "18:00",
+        "adult_fee": 5000.0,
+        "fee_notes": "50프로 할인(영월군민+65세 이상)+ 단체요금: 20인 이상+무료(2급 이상 장애인 및 5세 이하)",
+        "name": "영월아프리카미술박물관",
+        "address": "강원특별자치도 영월군 김삿갓면 영월동로 1107-1",
+        "longitude": 128.5353509,
+        "requires_manual_review": true,
+        "child_fee": 3000.0,
+        "sido": "강원특별자치도",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/20/3557220_image2_1.JPG",
+        "source_types": "BASE|TOUR_API",
+        "sigungu": "영월군",
+        "holiday_open": "09:00",
+        "weekday_open": "09:00",
+        "ownership_type": "사립",
+        "closure_rule_raw": "화+수",
+        "holiday_close": "18:00",
+        "youth_fee": 4000.0
+      },
+      "vector_rank": 1,
+      "bm25_rank": 1,
+      "vector_distance": 0.34378474950790405,
+      "vector_score": null,
+      "bm25_score": 41.59339155330227,
+      "vector_document": "영월아프리카미술박물관은 아프리카 여러 부족의 생활, 의식, 신앙, 축제 등과 관련하여 만들어진 문화품 즉 조각, 그림, 생활도구, 장신구 등과 현대 미술 작품을 상설전시하고 있다. 아프리카의 다양한 문화를 폭넓게 이해하기 위해 주한아프리카대사관이 출품한 아프리카 문화전을 반영구적으로 전시하고 있다. 또한 계기별 또는 지역적 특성에 맞는 특별기획전을 개최하여 박물관의 기능을 보완하고 있다. 영월아프리카미술박물관은 아프리카인들의 관념 세계를 표현한 마스크와 인물상 등 전통적 조각품을 통하여 그들의 예술적 재능을 찾아볼 수 있고 아프리카 미술의 소재, 제작 기법, 미술적 특징 등이 현대미술에 미치는 영향과 의미를 알아볼 수 있도록 전시하고 있다. 아프리카 20여개 나라에서 수집한 미술품을 전시하고 있으며, 이국적인 풍취와함께 원초적인 생동감을 느낄 수 있습니다.",
+      "bm25_document": "영월아프리카미술박물관은 아프리카 여러 부족의 생활, 의식, 신앙, 축제 등과 관련하여 만들어진 문화품 즉 조각, 그림, 생활도구, 장신구 등과 현대 미술 작품을 상설전시하고 있다. 아프리카의 다양한 문화를 폭넓게 이해하기 위해 주한아프리카대사관이 출품한 아프리카 문화전을 반영구적으로 전시하고 있다. 또한 계기별 또는 지역적 특성에 맞는 특별기획전을 개최하여 박물관의 기능을 보완하고 있다. 영월아프리카미술박물관은 아프리카인들의 관념 세계를 표현한 마스크와 인물상 등 전통적 조각품을 통하여 그들의 예술적 재능을 찾아볼 수 있고 아프리카 미술의 소재, 제작 기법, 미술적 특징 등이 현대미술에 미치는 영향과 의미를 알아볼 수 있도록 전시하고 있다. 아프리카 20여개 나라에서 수집한 미술품을 전시하고 있으며, 이국적인 풍취와함께 원초적인 생동감을 느낄 수 있습니다.",
+      "best_span_id": "chroma:M0213",
+      "best_span_text": "영월아프리카미술박물관은 아프리카 여러 부족의 생활, 의식, 신앙, 축제 등과 관련하여 만들어진 문화품 즉 조각, 그림, 생활도구, 장신구 등과 현대 미술 작품을 상설전시하고 있다. 아프리카의 다양한 문화를 폭넓게 이해하기 위해 주한아프리카대사관이 출품한 아프리카 문화전을 반영구적으로 전시하고 있다. 또한 계기별 또는 지역적 특성에 맞는 특별기획전을 개최하여 박물관의 기능을 보완하고 있다. 영월아프리카미술박물관은 아프리카인들의 관념 세계를 표현한 마스크와 인물상 등 전통적 조각품을 통하여 그들의 예술적 재능을 찾아볼 수 있고 아프리카 미술의 소재, 제작 기법, 미술적 특징 등이 현대미술에 미치는 영향과 의미를 알아볼 수 있도록 전시하고 있다. 아프리카 20여개 나라에서 수집한 미술품을 전시하고 있으며, 이국적인 풍취와함께 원초적인 생동감을 느낄 수 있습니다.",
+      "fusion_score": 0.03278688524590164,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 1,
+      "name_match": true,
+      "rerank_score": null,
+      "rank": 1,
+      "score": 0.03278688524590164,
+      "score_type": "rrf",
+      "distance": 0.34378474950790405,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0213",
+      "source_doc_ids": [
+        "DOC-B0213-TOUR_API-1398051",
+        "DOC-B0213-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0213-TOUR_API-1398051",
+          "source_type": "TOUR_API",
+          "source_record_id": "1398051",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=105",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        },
+        {
+          "doc_id": "DOC-B0213-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0213",
+          "source_locator": "data/raw/museum_base_1070.csv#row=214",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 100,
+          "doc_ids": [
+            "DOC-B0213-TOUR_API-1398051"
+          ]
+        },
+        {
+          "start": 101,
+          "end": 167,
+          "doc_ids": [
+            "DOC-B0213-TOUR_API-1398051"
+          ]
+        },
+        {
+          "start": 168,
+          "end": 218,
+          "doc_ids": [
+            "DOC-B0213-TOUR_API-1398051"
+          ]
+        },
+        {
+          "start": 219,
+          "end": 362,
+          "doc_ids": [
+            "DOC-B0213-TOUR_API-1398051"
+          ]
+        },
+        {
+          "start": 363,
+          "end": 428,
+          "doc_ids": [
+            "DOC-B0213-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=105",
+      "text": "영월아프리카미술박물관은 아프리카 여러 부족의 생활, 의식, 신앙, 축제 등과 관련하여 만들어진 문화품 즉 조각, 그림, 생활도구, 장신구 등과 현대 미술 작품을 상설전시하고 있다. 아프리카의 다양한 문화를 폭넓게 이해하기 위해 주한아프리카대사관이 출품한 아프리카 문화전을 반영구적으로 전시하고 있다. 또한 계기별 또는 지역적 특성에 맞는 특별기획전을 개최하여 박물관의 기능을 보완하고 있다. 영월아프리카미술박물관은 아프리카인들의 관념 세계를 표현한 마스크와 인물상 등 전통적 조각품을 통하여 그들의 예술적 재능을 찾아볼 수 있고 아프리카 미술의 소재, 제작 기법, 미술적 특징 등이 현대미술에 미치는 영향과 의미를 알아볼 수 있도록 전시하고 있다. 아프리카 20여개 나라에서 수집한 미술품을 전시하고 있으며, 이국적인 풍취와함께 원초적인 생동감을 느낄 수 있습니다.",
+      "sido": "강원특별자치도",
+      "sigungu": "영월군",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=105"
+      ],
+      "evidence_id": "E1",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=142",
+        "fields": {
+          "name": "영월아프리카미술박물관",
+          "sido": "강원특별자치도",
+          "sigungu": "영월군",
+          "address": "강원특별자치도 영월군 김삿갓면 영월동로 1107-1",
+          "ownership_type": "사립",
+          "adult_fee": "5000",
+          "youth_fee": "4000",
+          "child_fee": "3000",
+          "adult_fee_status": "BASE_FEE_PAID",
+          "weekday_open": "09:00",
+          "weekday_close": "18:00",
+          "holiday_open": "09:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "화+수"
+        },
+        "base_data_date": "2026-09-03",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0867",
+      "name": "예아리박물관",
+      "document": "예아리박물관은 세계문화관, 한국문화관, 문화상품관, 기획전시관, 야외전시장으로 구성되어 있으며, 동서양의 상장례 관련 유물을 300여 점 전시하고 있다. 전시물은 유물의 보존 상태를 위하여 주기적으로 교체하고 있다. 세계문화관에서는 아시아, 유럽의 상례문화인 조장, 카타콤 등을 실감나게 재현하였고, 한국문화관에서는 철저한 고증을 통해 재현한 조선의 22대 왕인 정도대왕의 국장도감의궤반차도를 미니어처로 현장감 있게 재현하여 조선시대에 왕의 장엄한 국장행렬을 감상할 수 있다. 기획전시관에서는 아프리카 가나의 다양한 모양관을 비롯하여, 각 부족들의 제례 관련 유물들을 전시하고 있다.",
+      "metadata": {
+        "name": "예아리박물관",
+        "image_copyright": "Type3",
+        "weekday_close": "18:00",
+        "latitude": 37.14132389,
+        "requires_manual_review": true,
+        "longitude": 127.3642612,
+        "address": "경기도 용인시 처인구 백암면 원설로270번길 25",
+        "homepage_url": "http://www.yearee.com",
+        "closure_rule_raw": "매주 월요일,설연휴,추석연휴",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/88/3383488_image2_1.jpg",
+        "source_types": "TOUR_API",
+        "adult_fee": 4000.0,
+        "adult_fee_status": "BASE_FEE_PAID",
+        "weekday_open": "10:00",
+        "fee_notes": "15000",
+        "child_fee": 4000.0,
+        "holiday_close": "18:00",
+        "sigungu": "용인시",
+        "ownership_type": "사립",
+        "sido": "경기도",
+        "holiday_open": "10:00",
+        "youth_fee": 4000.0
+      },
+      "vector_rank": 3,
+      "bm25_rank": 3,
+      "vector_distance": 0.5328004360198975,
+      "vector_score": null,
+      "bm25_score": 15.670487982208064,
+      "vector_document": "예아리박물관은 세계문화관, 한국문화관, 문화상품관, 기획전시관, 야외전시장으로 구성되어 있으며, 동서양의 상장례 관련 유물을 300여 점 전시하고 있다. 전시물은 유물의 보존 상태를 위하여 주기적으로 교체하고 있다. 세계문화관에서는 아시아, 유럽의 상례문화인 조장, 카타콤 등을 실감나게 재현하였고, 한국문화관에서는 철저한 고증을 통해 재현한 조선의 22대 왕인 정도대왕의 국장도감의궤반차도를 미니어처로 현장감 있게 재현하여 조선시대에 왕의 장엄한 국장행렬을 감상할 수 있다. 기획전시관에서는 아프리카 가나의 다양한 모양관을 비롯하여, 각 부족들의 제례 관련 유물들을 전시하고 있다.",
+      "bm25_document": "예아리박물관은 세계문화관, 한국문화관, 문화상품관, 기획전시관, 야외전시장으로 구성되어 있으며, 동서양의 상장례 관련 유물을 300여 점 전시하고 있다. 전시물은 유물의 보존 상태를 위하여 주기적으로 교체하고 있다. 세계문화관에서는 아시아, 유럽의 상례문화인 조장, 카타콤 등을 실감나게 재현하였고, 한국문화관에서는 철저한 고증을 통해 재현한 조선의 22대 왕인 정도대왕의 국장도감의궤반차도를 미니어처로 현장감 있게 재현하여 조선시대에 왕의 장엄한 국장행렬을 감상할 수 있다. 기획전시관에서는 아프리카 가나의 다양한 모양관을 비롯하여, 각 부족들의 제례 관련 유물들을 전시하고 있다.",
+      "best_span_id": "chroma:M0867",
+      "best_span_text": "예아리박물관은 세계문화관, 한국문화관, 문화상품관, 기획전시관, 야외전시장으로 구성되어 있으며, 동서양의 상장례 관련 유물을 300여 점 전시하고 있다. 전시물은 유물의 보존 상태를 위하여 주기적으로 교체하고 있다. 세계문화관에서는 아시아, 유럽의 상례문화인 조장, 카타콤 등을 실감나게 재현하였고, 한국문화관에서는 철저한 고증을 통해 재현한 조선의 22대 왕인 정도대왕의 국장도감의궤반차도를 미니어처로 현장감 있게 재현하여 조선시대에 왕의 장엄한 국장행렬을 감상할 수 있다. 기획전시관에서는 아프리카 가나의 다양한 모양관을 비롯하여, 각 부족들의 제례 관련 유물들을 전시하고 있다.",
+      "fusion_score": 0.031746031746031744,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 2,
+      "rerank_score": null,
+      "rank": 2,
+      "score": 0.031746031746031744,
+      "score_type": "rrf",
+      "distance": 0.5328004360198975,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0867",
+      "source_doc_ids": [
+        "DOC-B0867-TOUR_API-1824455"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0867-TOUR_API-1824455",
+          "source_type": "TOUR_API",
+          "source_record_id": "1824455",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=409",
+          "match_trust": "RECHECKED_BY_RULE_NOT_HUMAN_APPROVED"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 85,
+          "doc_ids": [
+            "DOC-B0867-TOUR_API-1824455"
+          ]
+        },
+        {
+          "start": 86,
+          "end": 120,
+          "doc_ids": [
+            "DOC-B0867-TOUR_API-1824455"
+          ]
+        },
+        {
+          "start": 121,
+          "end": 266,
+          "doc_ids": [
+            "DOC-B0867-TOUR_API-1824455"
+          ]
+        },
+        {
+          "start": 267,
+          "end": 326,
+          "doc_ids": [
+            "DOC-B0867-TOUR_API-1824455"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=409",
+      "text": "예아리박물관은 세계문화관, 한국문화관, 문화상품관, 기획전시관, 야외전시장으로 구성되어 있으며, 동서양의 상장례 관련 유물을 300여 점 전시하고 있다. 전시물은 유물의 보존 상태를 위하여 주기적으로 교체하고 있다. 세계문화관에서는 아시아, 유럽의 상례문화인 조장, 카타콤 등을 실감나게 재현하였고, 한국문화관에서는 철저한 고증을 통해 재현한 조선의 22대 왕인 정도대왕의 국장도감의궤반차도를 미니어처로 현장감 있게 재현하여 조선시대에 왕의 장엄한 국장행렬을 감상할 수 있다. 기획전시관에서는 아프리카 가나의 다양한 모양관을 비롯하여, 각 부족들의 제례 관련 유물들을 전시하고 있다.",
+      "sido": "경기도",
+      "sigungu": "용인시",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=409"
+      ],
+      "evidence_id": "E2",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=590",
+        "fields": {
+          "name": "예아리박물관",
+          "sido": "경기도",
+          "sigungu": "용인시",
+          "address": "경기도 용인시 처인구 백암면 원설로270번길 25",
+          "ownership_type": "사립",
+          "adult_fee": "4000",
+          "youth_fee": "4000",
+          "child_fee": "4000",
+          "adult_fee_status": "BASE_FEE_PAID",
+          "weekday_open": "10:00",
+          "weekday_close": "18:00",
+          "holiday_open": "10:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "매주 월요일,설연휴,추석연휴"
+        },
+        "base_data_date": "2024-11-29",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0087",
+      "name": "아프리카 박물관",
+      "document": "아프리카 박물관은 1998년 11월 서울 대학로에 아프리카란 우리에겐 다소 생소한 문화를 토대로 한 박물관을 개관하였으며, 2004년 12월 새로운 문화적 도약을 위해 제주도 서귀포시 중문관광단지 국제컨벤션센터 동쪽에 박물관 건물을 신축하고 이전하였다. 서귀포시 중문관광단지에 새롭게 선보인 아프리카 박물관의 건물은 서아프리카 말리의 젠네에 위치하고 있는 이슬람 대사원을 토대로 설계하였다. 젠네 대사원은 흙으로 지어진 건물 중 세계 최대 규모이며, 국제 문화 협력 교류기관인 유네스코는 전 인류가 함께 보존해야 할 세계문화유산으로 지정하고 있다. 신축된 아프리카 박물관은 아프리카 대륙 문화의 정통성을 훼손하지 않고 보다 다양한 시각으로 소개하고자 하는 본 박물관의 의지를 표방하고 있다.",
+      "metadata": {
+        "longitude": 126.4288137,
+        "weekday_open": "09:00",
+        "holiday_open": "09:00",
+        "image_copyright": "Type1",
+        "adult_fee_status": "BASE_FEE_PAID",
+        "homepage_url": "http://africamuseum.alltheway.kr/",
+        "sigungu": "서귀포시",
+        "closure_rule_raw": "연중무휴",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/15/3548215_image2_1.jpg",
+        "address": "제주특별자치도 서귀포시 이어도로 49",
+        "adult_fee": 10000.0,
+        "ownership_type": "사립",
+        "fee_notes": "단체 관람 시 할인+도민할인",
+        "sido": "제주특별자치도",
+        "latitude": 33.23997655,
+        "youth_fee": 9000.0,
+        "name": "아프리카 박물관",
+        "source_types": "TOUR_API",
+        "weekday_close": "19:00",
+        "requires_manual_review": true,
+        "holiday_close": "19:00",
+        "child_fee": 8000.0
+      },
+      "vector_rank": 5,
+      "bm25_rank": 2,
+      "vector_distance": 0.5444594621658325,
+      "vector_score": null,
+      "bm25_score": 25.498022046599058,
+      "vector_document": "아프리카 박물관은 1998년 11월 서울 대학로에 아프리카란 우리에겐 다소 생소한 문화를 토대로 한 박물관을 개관하였으며, 2004년 12월 새로운 문화적 도약을 위해 제주도 서귀포시 중문관광단지 국제컨벤션센터 동쪽에 박물관 건물을 신축하고 이전하였다. 서귀포시 중문관광단지에 새롭게 선보인 아프리카 박물관의 건물은 서아프리카 말리의 젠네에 위치하고 있는 이슬람 대사원을 토대로 설계하였다. 젠네 대사원은 흙으로 지어진 건물 중 세계 최대 규모이며, 국제 문화 협력 교류기관인 유네스코는 전 인류가 함께 보존해야 할 세계문화유산으로 지정하고 있다. 신축된 아프리카 박물관은 아프리카 대륙 문화의 정통성을 훼손하지 않고 보다 다양한 시각으로 소개하고자 하는 본 박물관의 의지를 표방하고 있다.",
+      "bm25_document": "아프리카 박물관은 1998년 11월 서울 대학로에 아프리카란 우리에겐 다소 생소한 문화를 토대로 한 박물관을 개관하였으며, 2004년 12월 새로운 문화적 도약을 위해 제주도 서귀포시 중문관광단지 국제컨벤션센터 동쪽에 박물관 건물을 신축하고 이전하였다. 서귀포시 중문관광단지에 새롭게 선보인 아프리카 박물관의 건물은 서아프리카 말리의 젠네에 위치하고 있는 이슬람 대사원을 토대로 설계하였다. 젠네 대사원은 흙으로 지어진 건물 중 세계 최대 규모이며, 국제 문화 협력 교류기관인 유네스코는 전 인류가 함께 보존해야 할 세계문화유산으로 지정하고 있다. 신축된 아프리카 박물관은 아프리카 대륙 문화의 정통성을 훼손하지 않고 보다 다양한 시각으로 소개하고자 하는 본 박물관의 의지를 표방하고 있다.",
+      "best_span_id": "chroma:M0087",
+      "best_span_text": "아프리카 박물관은 1998년 11월 서울 대학로에 아프리카란 우리에겐 다소 생소한 문화를 토대로 한 박물관을 개관하였으며, 2004년 12월 새로운 문화적 도약을 위해 제주도 서귀포시 중문관광단지 국제컨벤션센터 동쪽에 박물관 건물을 신축하고 이전하였다. 서귀포시 중문관광단지에 새롭게 선보인 아프리카 박물관의 건물은 서아프리카 말리의 젠네에 위치하고 있는 이슬람 대사원을 토대로 설계하였다. 젠네 대사원은 흙으로 지어진 건물 중 세계 최대 규모이며, 국제 문화 협력 교류기관인 유네스코는 전 인류가 함께 보존해야 할 세계문화유산으로 지정하고 있다. 신축된 아프리카 박물관은 아프리카 대륙 문화의 정통성을 훼손하지 않고 보다 다양한 시각으로 소개하고자 하는 본 박물관의 의지를 표방하고 있다.",
+      "fusion_score": 0.0315136476426799,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 3,
+      "rerank_score": null,
+      "rank": 3,
+      "score": 0.0315136476426799,
+      "score_type": "rrf",
+      "distance": 0.5444594621658325,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0087",
+      "source_doc_ids": [
+        "DOC-B0087-TOUR_API-130180"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0087-TOUR_API-130180",
+          "source_type": "TOUR_API",
+          "source_record_id": "130180",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=44",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 141,
+          "doc_ids": [
+            "DOC-B0087-TOUR_API-130180"
+          ]
+        },
+        {
+          "start": 142,
+          "end": 218,
+          "doc_ids": [
+            "DOC-B0087-TOUR_API-130180"
+          ]
+        },
+        {
+          "start": 219,
+          "end": 306,
+          "doc_ids": [
+            "DOC-B0087-TOUR_API-130180"
+          ]
+        },
+        {
+          "start": 307,
+          "end": 386,
+          "doc_ids": [
+            "DOC-B0087-TOUR_API-130180"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=44",
+      "text": "아프리카 박물관은 1998년 11월 서울 대학로에 아프리카란 우리에겐 다소 생소한 문화를 토대로 한 박물관을 개관하였으며, 2004년 12월 새로운 문화적 도약을 위해 제주도 서귀포시 중문관광단지 국제컨벤션센터 동쪽에 박물관 건물을 신축하고 이전하였다. 서귀포시 중문관광단지에 새롭게 선보인 아프리카 박물관의 건물은 서아프리카 말리의 젠네에 위치하고 있는 이슬람 대사원을 토대로 설계하였다. 젠네 대사원은 흙으로 지어진 건물 중 세계 최대 규모이며, 국제 문화 협력 교류기관인 유네스코는 전 인류가 함께 보존해야 할 세계문화유산으로 지정하고 있다. 신축된 아프리카 박물관은 아프리카 대륙 문화의 정통성을 훼손하지 않고 보다 다양한 시각으로 소개하고자 하는 본 박물관의 의지를 표방하고 있다.",
+      "sido": "제주특별자치도",
+      "sigungu": "서귀포시",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=44"
+      ],
+      "evidence_id": "E3",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=54",
+        "fields": {
+          "name": "아프리카 박물관",
+          "sido": "제주특별자치도",
+          "sigungu": "서귀포시",
+          "address": "제주특별자치도 서귀포시 이어도로 49",
+          "ownership_type": "사립",
+          "adult_fee": "10000",
+          "youth_fee": "9000",
+          "child_fee": "8000",
+          "adult_fee_status": "BASE_FEE_PAID",
+          "weekday_open": "09:00",
+          "weekday_close": "19:00",
+          "holiday_open": "09:00",
+          "holiday_close": "19:00",
+          "closure_rule_raw": "연중무휴"
+        },
+        "base_data_date": "2026-09-30",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M1021",
+      "name": "아리랑박물관",
+      "document": "아리랑박물관은 아리랑의 역사와 현재, 그리고 미래를 보여주는 5천여 점의 자료가 전시되어 있는 곳이다. 아리랑은 7천만 한민족의 민요를 넘어 세계인의 노래이며 유네스코 인류무형문화유산이자 대한민국 무형문화유산이다. 풍부하고 희귀한 자료를 바탕으로 다양한 주제의 기획전과 특별전을 운영하며, 아리랑의 전승과 대중화에 기여하고 있다. 관람 하루 전까지 전화 또는 홈페이지 사전예약을 하면 박물관 직원으로부터 전시유물 설명을 들을 수 있다. 유네스코 인류무형문화유산인 아리랑의 역사가치와 문화를 경험할 수 잇는 아리랑 관련 유물 전시",
+      "metadata": {
+        "source_types": "BASE|TOUR_API",
+        "sigungu": "정선군",
+        "holiday_close": "18:00",
+        "ownership_type": "공립",
+        "address": "강원특별자치도 정선군 정선읍 애산로 51",
+        "adult_fee": 2000.0,
+        "weekday_close": "18:00",
+        "amenities_raw": "주차장+상설전시실+기획전시실+시청각교육실",
+        "fee_notes": "미취학 아동 무료",
+        "homepage_url": "https://www.arirangmuseum.or.kr",
+        "latitude": 37.376383,
+        "holiday_open": "10:00",
+        "name": "아리랑박물관",
+        "longitude": 128.671536,
+        "requires_manual_review": true,
+        "weekday_open": "10:00",
+        "image_copyright": "Type1",
+        "child_fee": 2000.0,
+        "closure_rule_raw": "월(단 월요일이 공휴일인 경우 당일은 개관하고 그다음 첫번째 평일에 휴관)+1월 1일+설 연휴+추석 연휴",
+        "adult_fee_status": "BASE_FEE_PAID",
+        "youth_fee": 2000.0,
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/18/3584618_image2_1.jpg",
+        "sido": "강원특별자치도"
+      },
+      "vector_rank": 15,
+      "bm25_rank": 10,
+      "vector_distance": 0.5825114250183105,
+      "vector_score": null,
+      "bm25_score": 12.404676626497075,
+      "vector_document": "아리랑박물관은 아리랑의 역사와 현재, 그리고 미래를 보여주는 5천여 점의 자료가 전시되어 있는 곳이다. 아리랑은 7천만 한민족의 민요를 넘어 세계인의 노래이며 유네스코 인류무형문화유산이자 대한민국 무형문화유산이다. 풍부하고 희귀한 자료를 바탕으로 다양한 주제의 기획전과 특별전을 운영하며, 아리랑의 전승과 대중화에 기여하고 있다. 관람 하루 전까지 전화 또는 홈페이지 사전예약을 하면 박물관 직원으로부터 전시유물 설명을 들을 수 있다. 유네스코 인류무형문화유산인 아리랑의 역사가치와 문화를 경험할 수 잇는 아리랑 관련 유물 전시",
+      "bm25_document": "아리랑박물관은 아리랑의 역사와 현재, 그리고 미래를 보여주는 5천여 점의 자료가 전시되어 있는 곳이다. 아리랑은 7천만 한민족의 민요를 넘어 세계인의 노래이며 유네스코 인류무형문화유산이자 대한민국 무형문화유산이다. 풍부하고 희귀한 자료를 바탕으로 다양한 주제의 기획전과 특별전을 운영하며, 아리랑의 전승과 대중화에 기여하고 있다. 관람 하루 전까지 전화 또는 홈페이지 사전예약을 하면 박물관 직원으로부터 전시유물 설명을 들을 수 있다. 유네스코 인류무형문화유산인 아리랑의 역사가치와 문화를 경험할 수 잇는 아리랑 관련 유물 전시",
+      "best_span_id": "chroma:M1021",
+      "best_span_text": "아리랑박물관은 아리랑의 역사와 현재, 그리고 미래를 보여주는 5천여 점의 자료가 전시되어 있는 곳이다. 아리랑은 7천만 한민족의 민요를 넘어 세계인의 노래이며 유네스코 인류무형문화유산이자 대한민국 무형문화유산이다. 풍부하고 희귀한 자료를 바탕으로 다양한 주제의 기획전과 특별전을 운영하며, 아리랑의 전승과 대중화에 기여하고 있다. 관람 하루 전까지 전화 또는 홈페이지 사전예약을 하면 박물관 직원으로부터 전시유물 설명을 들을 수 있다. 유네스코 인류무형문화유산인 아리랑의 역사가치와 문화를 경험할 수 잇는 아리랑 관련 유물 전시",
+      "fusion_score": 0.02761904761904762,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 4,
+      "rerank_score": null,
+      "rank": 4,
+      "score": 0.02761904761904762,
+      "score_type": "rrf",
+      "distance": 0.5825114250183105,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M1021",
+      "source_doc_ids": [
+        "DOC-B1021-TOUR_API-2783023",
+        "DOC-B1021-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B1021-TOUR_API-2783023",
+          "source_type": "TOUR_API",
+          "source_record_id": "2783023",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=473",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        },
+        {
+          "doc_id": "DOC-B1021-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B1021",
+          "source_locator": "data/raw/museum_base_1070.csv#row=1022",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 57,
+          "doc_ids": [
+            "DOC-B1021-TOUR_API-2783023"
+          ]
+        },
+        {
+          "start": 58,
+          "end": 119,
+          "doc_ids": [
+            "DOC-B1021-TOUR_API-2783023"
+          ]
+        },
+        {
+          "start": 120,
+          "end": 184,
+          "doc_ids": [
+            "DOC-B1021-TOUR_API-2783023"
+          ]
+        },
+        {
+          "start": 185,
+          "end": 243,
+          "doc_ids": [
+            "DOC-B1021-TOUR_API-2783023"
+          ]
+        },
+        {
+          "start": 244,
+          "end": 295,
+          "doc_ids": [
+            "DOC-B1021-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=473",
+      "text": "아리랑박물관은 아리랑의 역사와 현재, 그리고 미래를 보여주는 5천여 점의 자료가 전시되어 있는 곳이다. 아리랑은 7천만 한민족의 민요를 넘어 세계인의 노래이며 유네스코 인류무형문화유산이자 대한민국 무형문화유산이다. 풍부하고 희귀한 자료를 바탕으로 다양한 주제의 기획전과 특별전을 운영하며, 아리랑의 전승과 대중화에 기여하고 있다. 관람 하루 전까지 전화 또는 홈페이지 사전예약을 하면 박물관 직원으로부터 전시유물 설명을 들을 수 있다. 유네스코 인류무형문화유산인 아리랑의 역사가치와 문화를 경험할 수 잇는 아리랑 관련 유물 전시",
+      "sido": "강원특별자치도",
+      "sigungu": "정선군",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=473"
+      ],
+      "evidence_id": "E4",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=701",
+        "fields": {
+          "name": "아리랑박물관",
+          "sido": "강원특별자치도",
+          "sigungu": "정선군",
+          "address": "강원특별자치도 정선군 정선읍 애산로 51",
+          "ownership_type": "공립",
+          "adult_fee": "2000",
+          "youth_fee": "2000",
+          "child_fee": "2000",
+          "adult_fee_status": "BASE_FEE_PAID",
+          "weekday_open": "10:00",
+          "weekday_close": "18:00",
+          "holiday_open": "10:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "월(단 월요일이 공휴일인 경우 당일은 개관하고 그다음 첫번째 평일에 휴관)+1월 1일+설 연휴+추석 연휴",
+          "amenities_raw": "주차장+상설전시실+기획전시실+시청각교육실"
+        },
+        "base_data_date": "2025-08-05",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0290",
+      "name": "사립아인미술관",
+      "document": "사립아인미술관은 개인작가 초대전을 비롯한 개인전, 단체전 등 여러 작가들의 작품을 일정기간 동안 전시하고 있으며, 다양한 주제를 통해 전시회 진행하고 있어 미술작품을 쉽게 접할 수 있는 기회를 제공하고 있다.",
+      "metadata": {
+        "amenities_raw": "카페+주차장+화장실",
+        "child_fee": 0.0,
+        "sido": "전남광주특별자치도",
+        "holiday_open": "11:00",
+        "homepage_url": "https://blog.naver.com/ainmuseum",
+        "requires_manual_review": false,
+        "weekday_close": "20:00",
+        "transport_notes": "농어촌 버스 10 : 장성터미널 탑승 →황룡교정류장 하차",
+        "source_types": "BASE",
+        "adult_fee": 0.0,
+        "sigungu": "장성군",
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "holiday_close": "20:00",
+        "closure_rule_raw": "연중무휴",
+        "weekday_open": "11:00",
+        "ownership_type": "사립",
+        "address": "전남광주통합특별시 장성군 장성읍 미락단지길 8",
+        "name": "사립아인미술관",
+        "longitude": 126.817249,
+        "latitude": 35.344232,
+        "youth_fee": 0.0
+      },
+      "vector_rank": 2,
+      "bm25_rank": null,
+      "vector_distance": 0.5161236524581909,
+      "vector_score": null,
+      "bm25_score": null,
+      "vector_document": "사립아인미술관은 개인작가 초대전을 비롯한 개인전, 단체전 등 여러 작가들의 작품을 일정기간 동안 전시하고 있으며, 다양한 주제를 통해 전시회 진행하고 있어 미술작품을 쉽게 접할 수 있는 기회를 제공하고 있다.",
+      "bm25_document": "",
+      "best_span_id": null,
+      "best_span_text": null,
+      "fusion_score": 0.016129032258064516,
+      "retrieved_by": [
+        "vector"
+      ],
+      "fusion_rank": 5,
+      "rerank_score": null,
+      "rank": 5,
+      "score": 0.016129032258064516,
+      "score_type": "rrf",
+      "distance": 0.5161236524581909,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector"
+      ],
+      "retriever": "vector",
+      "source_doc_ids": [
+        "DOC-B0290-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0290-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0290",
+          "source_locator": "data/raw/museum_base_1070.csv#row=291",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 116,
+          "doc_ids": [
+            "DOC-B0290-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_base_1070.csv#row=291",
+      "text": "사립아인미술관은 개인작가 초대전을 비롯한 개인전, 단체전 등 여러 작가들의 작품을 일정기간 동안 전시하고 있으며, 다양한 주제를 통해 전시회 진행하고 있어 미술작품을 쉽게 접할 수 있는 기회를 제공하고 있다.",
+      "sido": "전남광주특별자치도",
+      "sigungu": "장성군",
+      "span_id": "",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_base_1070.csv#row=291"
+      ],
+      "evidence_id": "E5",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=204",
+        "fields": {
+          "name": "사립아인미술관",
+          "sido": "전남광주통합특별시",
+          "sigungu": "장성군",
+          "address": "전남광주통합특별시 장성군 장성읍 미락단지길 8",
+          "ownership_type": "사립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "11:00",
+          "weekday_close": "20:00",
+          "holiday_open": "11:00",
+          "holiday_close": "20:00",
+          "closure_rule_raw": "연중무휴",
+          "amenities_raw": "카페+주차장+화장실"
+        },
+        "base_data_date": "2026-08-03",
+        "trust": "derived_dataset_not_human_verified",
+        "normalizations": {
+          "sido": {
+            "source_value": "전남광주통합특별시",
+            "matched_value": "전남광주특별자치도",
+            "rule": "configured_sido_alias"
+          }
+        }
+      }
+    }
+  ],
+  "answer": "영월아프리카미술박물관은 아프리카 여러 부족의 생활·의식·신앙·축제와 관련된 문화품을 현대미술 작품과 함께 상설전시합니다. 전시품에는 조각과 그림, 생활도구, 장신구 등이 포함됩니다. [E1]\n\n아프리카 문화를 폭넓게 소개하기 위해 주한아프리카대사관이 출품한 아프리카 문화전도 반영구적으로 전시하며, 계기나 지역적 특성에 맞춘 특별기획전도 개최합니다. [E1]\n\n아프리카인들의 관념 세계를 표현한 마스크와 인물상 같은 전통 조각품을 통해 그들의 예술적 재능을 살펴볼 수 있고, 아프리카 미술의 소재·제작 기법·미술적 특징이 현대미술에 미친 영향과 의미도 알아볼 수 있도록 전시를 구성하고 있습니다. 전시품은 아프리카 20여 개 나라에서 수집한 미술품입니다. [E1]",
+  "retrieval_status": "ok",
+  "answer_status": "answered",
+  "route": "hybrid",
+  "retry_count": 0,
+  "supervisor_verified": true,
+  "rerank_applied": false,
+  "retriever_errors": [],
+  "warnings": [
+    "Cross-Encoder reranking failed (FileNotFoundError); RRF order retained"
+  ],
+  "duration_ms": 14286.85,
+  "error_type": "",
+  "hit_at_1": 1,
+  "hit_at_3": 1,
+  "hit_at_5": 1,
+  "recall_at_5": 1.0,
+  "mrr_at_10": 1.0
+}

@@ -1,0 +1,861 @@
+{
+  "mode": "supervisor_full",
+  "question_id": "Q281",
+  "evidence": [
+    {
+      "museum_id": "M0487",
+      "name": "국립산악박물관",
+      "document": "국립산악박물관은 산림청이 건립한 국내 최초 산악박물관으로 세계적인 산악 강국인 우리나라 등산의 역사와 문화를 한눈에 담는 곳이다. 산림청이 2014년 우리 산에 대한 자긍심 고취와 산악·등산 문화의 대중화를 위한 목적으로 건립했다. 박물관 1층은 국내 명산을 소개하는 공간과 영상실, 기획 전시실 등이 자리하며 2층에는 산악교실, 산악체험실, 고산체험실이 있다. 이곳에서는 산악 교실, 인공 암벽 등반과 산악영상, 활동지 등 체험을 자유롭게 이용할 수 있다. 산악체험실은 장비 없이 체험이 가능한 3m 높이의 낮은 인공 암벽을 자유롭게 체험할 수 있다. 고산 체험은 1시간 간격으로 운영되며 해발 3,000~5,000m 같은 환경 조건에서 고산을 환경을 경험하는 등 다양한 산악 경험을 제공한다. 고산체험을 제외한 모든 체험 프로그램은 예약 없이도 이용가능하다. 3층은 국내 등반의 역사를 비롯해 산과 관련된 신앙, 생활문화 등을 소개하며, 대한민국을 대표하는 산악인들과 이들이 사용했던 장비와 유물, 산악, 산림문화를 관람할 수 있다. 전시와 박물관 체험을 통해 산에 대한 전문적인 지식과 장비, 안전수칙 등을 확인하고 여러 가지 등산·트래킹에 대한 정보를 알 수 있다.",
+      "metadata": {
+        "requires_manual_review": true,
+        "name": "국립산악박물관",
+        "weekday_open": "09:00",
+        "closure_rule_raw": "매주 월요일(단, 월요일이 공휴일인 경우 당일은 개관하고 그 다음 첫번째 평일에 휴관), 1월 1일(신정), 설연휴, 추석연휴",
+        "sido": "강원특별자치도",
+        "address": "강원특별자치도 속초시 미시령로 3054",
+        "child_fee": 0.0,
+        "holiday_open": "09:00",
+        "youth_fee": 0.0,
+        "weekday_close": "18:00",
+        "longitude": 128.5404971421,
+        "sigungu": "속초시",
+        "image_copyright": "Type1",
+        "source_types": "TOUR_API",
+        "homepage_url": "https://komount.or.kr/nmm/index.do",
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "ownership_type": "국립",
+        "latitude": 38.202732105,
+        "image_url": "http://tong.visitkorea.or.kr/cms/resource/42/3514742_image2_1.jpg",
+        "adult_fee": 0.0,
+        "holiday_close": "18:00"
+      },
+      "vector_rank": 1,
+      "bm25_rank": 1,
+      "vector_distance": 0.37023723125457764,
+      "vector_score": null,
+      "bm25_score": 39.34135779444849,
+      "vector_document": "국립산악박물관은 산림청이 건립한 국내 최초 산악박물관으로 세계적인 산악 강국인 우리나라 등산의 역사와 문화를 한눈에 담는 곳이다. 산림청이 2014년 우리 산에 대한 자긍심 고취와 산악·등산 문화의 대중화를 위한 목적으로 건립했다. 박물관 1층은 국내 명산을 소개하는 공간과 영상실, 기획 전시실 등이 자리하며 2층에는 산악교실, 산악체험실, 고산체험실이 있다. 이곳에서는 산악 교실, 인공 암벽 등반과 산악영상, 활동지 등 체험을 자유롭게 이용할 수 있다. 산악체험실은 장비 없이 체험이 가능한 3m 높이의 낮은 인공 암벽을 자유롭게 체험할 수 있다. 고산 체험은 1시간 간격으로 운영되며 해발 3,000~5,000m 같은 환경 조건에서 고산을 환경을 경험하는 등 다양한 산악 경험을 제공한다. 고산체험을 제외한 모든 체험 프로그램은 예약 없이도 이용가능하다. 3층은 국내 등반의 역사를 비롯해 산과 관련된 신앙, 생활문화 등을 소개하며, 대한민국을 대표하는 산악인들과 이들이 사용했던 장비와 유물, 산악, 산림문화를 관람할 수 있다. 전시와 박물관 체험을 통해 산에 대한 전문적인 지식과 장비, 안전수칙 등을 확인하고 여러 가지 등산·트래킹에 대한 정보를 알 수 있다.",
+      "bm25_document": "국립산악박물관은 산림청이 건립한 국내 최초 산악박물관으로 세계적인 산악 강국인 우리나라 등산의 역사와 문화를 한눈에 담는 곳이다. 산림청이 2014년 우리 산에 대한 자긍심 고취와 산악·등산 문화의 대중화를 위한 목적으로 건립했다. 박물관 1층은 국내 명산을 소개하는 공간과 영상실, 기획 전시실 등이 자리하며 2층에는 산악교실, 산악체험실, 고산체험실이 있다. 이곳에서는 산악 교실, 인공 암벽 등반과 산악영상, 활동지 등 체험을 자유롭게 이용할 수 있다. 산악체험실은 장비 없이 체험이 가능한 3m 높이의 낮은 인공 암벽을 자유롭게 체험할 수 있다. 고산 체험은 1시간 간격으로 운영되며 해발 3,000~5,000m 같은 환경 조건에서 고산을 환경을 경험하는 등 다양한 산악 경험을 제공한다. 고산체험을 제외한 모든 체험 프로그램은 예약 없이도 이용가능하다. 3층은 국내 등반의 역사를 비롯해 산과 관련된 신앙, 생활문화 등을 소개하며, 대한민국을 대표하는 산악인들과 이들이 사용했던 장비와 유물, 산악, 산림문화를 관람할 수 있다. 전시와 박물관 체험을 통해 산에 대한 전문적인 지식과 장비, 안전수칙 등을 확인하고 여러 가지 등산·트래킹에 대한 정보를 알 수 있다.",
+      "best_span_id": "chroma:M0487",
+      "best_span_text": "국립산악박물관은 산림청이 건립한 국내 최초 산악박물관으로 세계적인 산악 강국인 우리나라 등산의 역사와 문화를 한눈에 담는 곳이다. 산림청이 2014년 우리 산에 대한 자긍심 고취와 산악·등산 문화의 대중화를 위한 목적으로 건립했다. 박물관 1층은 국내 명산을 소개하는 공간과 영상실, 기획 전시실 등이 자리하며 2층에는 산악교실, 산악체험실, 고산체험실이 있다. 이곳에서는 산악 교실, 인공 암벽 등반과 산악영상, 활동지 등 체험을 자유롭게 이용할 수 있다. 산악체험실은 장비 없이 체험이 가능한 3m 높이의 낮은 인공 암벽을 자유롭게 체험할 수 있다. 고산 체험은 1시간 간격으로 운영되며 해발 3,000~5,000m 같은 환경 조건에서 고산을 환경을 경험하는 등 다양한 산악 경험을 제공한다. 고산체험을 제외한 모든 체험 프로그램은 예약 없이도 이용가능하다. 3층은 국내 등반의 역사를 비롯해 산과 관련된 신앙, 생활문화 등을 소개하며, 대한민국을 대표하는 산악인들과 이들이 사용했던 장비와 유물, 산악, 산림문화를 관람할 수 있다. 전시와 박물관 체험을 통해 산에 대한 전문적인 지식과 장비, 안전수칙 등을 확인하고 여러 가지 등산·트래킹에 대한 정보를 알 수 있다.",
+      "fusion_score": 0.03278688524590164,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 1,
+      "name_match": true,
+      "rerank_score": 0.9996470212936401,
+      "rank": 1,
+      "score": 0.9996470212936401,
+      "score_type": "cross_encoder",
+      "distance": 0.37023723125457764,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0487",
+      "source_doc_ids": [
+        "DOC-B0487-TOUR_API-2513889"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0487-TOUR_API-2513889",
+          "source_type": "TOUR_API",
+          "source_record_id": "2513889",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=239",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 72,
+          "doc_ids": [
+            "DOC-B0487-TOUR_API-2513889"
+          ]
+        },
+        {
+          "start": 73,
+          "end": 129,
+          "doc_ids": [
+            "DOC-B0487-TOUR_API-2513889"
+          ]
+        },
+        {
+          "start": 130,
+          "end": 202,
+          "doc_ids": [
+            "DOC-B0487-TOUR_API-2513889"
+          ]
+        },
+        {
+          "start": 203,
+          "end": 256,
+          "doc_ids": [
+            "DOC-B0487-TOUR_API-2513889"
+          ]
+        },
+        {
+          "start": 257,
+          "end": 309,
+          "doc_ids": [
+            "DOC-B0487-TOUR_API-2513889"
+          ]
+        },
+        {
+          "start": 310,
+          "end": 389,
+          "doc_ids": [
+            "DOC-B0487-TOUR_API-2513889"
+          ]
+        },
+        {
+          "start": 390,
+          "end": 426,
+          "doc_ids": [
+            "DOC-B0487-TOUR_API-2513889"
+          ]
+        },
+        {
+          "start": 427,
+          "end": 524,
+          "doc_ids": [
+            "DOC-B0487-TOUR_API-2513889"
+          ]
+        },
+        {
+          "start": 525,
+          "end": 600,
+          "doc_ids": [
+            "DOC-B0487-TOUR_API-2513889"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=239",
+      "text": "국립산악박물관은 산림청이 건립한 국내 최초 산악박물관으로 세계적인 산악 강국인 우리나라 등산의 역사와 문화를 한눈에 담는 곳이다. 산림청이 2014년 우리 산에 대한 자긍심 고취와 산악·등산 문화의 대중화를 위한 목적으로 건립했다. 박물관 1층은 국내 명산을 소개하는 공간과 영상실, 기획 전시실 등이 자리하며 2층에는 산악교실, 산악체험실, 고산체험실이 있다. 이곳에서는 산악 교실, 인공 암벽 등반과 산악영상, 활동지 등 체험을 자유롭게 이용할 수 있다. 산악체험실은 장비 없이 체험이 가능한 3m 높이의 낮은 인공 암벽을 자유롭게 체험할 수 있다. 고산 체험은 1시간 간격으로 운영되며 해발 3,000~5,000m 같은 환경 조건에서 고산을 환경을 경험하는 등 다양한 산악 경험을 제공한다. 고산체험을 제외한 모든 체험 프로그램은 예약 없이도 이용가능하다. 3층은 국내 등반의 역사를 비롯해 산과 관련된 신앙, 생활문화 등을 소개하며, 대한민국을 대표하는 산악인들과 이들이 사용했던 장비와 유물, 산악, 산림문화를 관람할 수 있다. 전시와 박물관 체험을 통해 산에 대한 전문적인 지식과 장비, 안전수칙 등을 확인하고 여러 가지 등산·트래킹에 대한 정보를 알 수 있다.",
+      "sido": "강원특별자치도",
+      "sigungu": "속초시",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=239"
+      ],
+      "evidence_id": "E1",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=350",
+        "fields": {
+          "name": "국립산악박물관",
+          "sido": "강원특별자치도",
+          "sigungu": "속초시",
+          "address": "강원특별자치도 속초시 미시령로 3054",
+          "ownership_type": "국립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "09:00",
+          "weekday_close": "18:00",
+          "holiday_open": "09:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "매주 월요일(단, 월요일이 공휴일인 경우 당일은 개관하고 그 다음 첫번째 평일에 휴관), 1월 1일(신정), 설연휴, 추석연휴"
+        },
+        "base_data_date": "2026-04-08",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0475",
+      "name": "국립경주박물관",
+      "document": "국립경주박물관은 신라의 문화유산을 한눈에 살펴볼 수 있는 한국의 대표적인 박물관이다. 이곳에서는 기원전 57년부터 기원후 935년까지 이어진 천년왕국 신라의 압축된 역사를 살펴볼 수 있다. 경주 여행 시 가장 먼저 방문해 사전 지식을 쌓은 뒤 유적지를 둘러보면 더욱 알찬 여행이 된다. 박물관은 신라역사관, 신라미술관, 월지관, 신라천년보고, 옥외전시 등 5개의 상설전시관과 특별전시관으로 구성된다. 신라역사관에서는 신라의 역사적 흐름을, 신라미술관에서는 찬란한 미술문화와 유물을 볼 수 있다. 월지관은 통일신라시대 왕실의 생활문화를 중심으로 구성되어 있다. 옥외전시장에는 범종, 석탑, 석불, 석등, 비석받침 등 석조 유물 1,300여 점이 전시되어 있다. 박물관 인근에는 2019년 개관한 영남권 수장고인 신라천년보고가 있다. 이곳은 영남지역에서 출토된 유물 약 60만 점을 보관하며, 3,000여 점은 전시수장고에서 관람할 수 있다. 신라역사관, 신라미술관, 월지관에서는 전시해설 프로그램도 운영되니 관람 전 시간표를 확인하는 것이 좋다. 신라의 역사와 문화유산을 중심으로 전시하는 국립박물관이다. 신라시대의 불교미술과 고고자료, 금속공예 등 경주에서 출토된 문화유산을 통해 신라 문화를 살펴볼 수 있다.",
+      "metadata": {
+        "homepage_url": "https://gyeongju.museum.go.kr/",
+        "sigungu": "경주시",
+        "adult_fee": 0.0,
+        "youth_fee": 0.0,
+        "holiday_close": "18:00",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/06/4097506_image2_1.JPG",
+        "child_fee": 0.0,
+        "ownership_type": "국립",
+        "weekday_open": "09:00",
+        "image_copyright": "Type1",
+        "weekday_close": "18:00",
+        "latitude": 35.8294300868,
+        "longitude": 129.2286819147,
+        "source_types": "TOUR_API|WEB_RESEARCH",
+        "closure_rule_raw": "1월 1일, 설날, 추석, 3월,11월 첫 번째 월요일",
+        "requires_manual_review": true,
+        "sido": "경상북도",
+        "name": "국립경주박물관",
+        "address": "경상북도 경주시 일정로 186",
+        "holiday_open": "09:00",
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS"
+      },
+      "vector_rank": null,
+      "bm25_rank": 8,
+      "vector_distance": null,
+      "vector_score": null,
+      "bm25_score": 13.977525964532594,
+      "vector_document": "",
+      "bm25_document": "국립경주박물관은 신라의 문화유산을 한눈에 살펴볼 수 있는 한국의 대표적인 박물관이다. 이곳에서는 기원전 57년부터 기원후 935년까지 이어진 천년왕국 신라의 압축된 역사를 살펴볼 수 있다. 경주 여행 시 가장 먼저 방문해 사전 지식을 쌓은 뒤 유적지를 둘러보면 더욱 알찬 여행이 된다. 박물관은 신라역사관, 신라미술관, 월지관, 신라천년보고, 옥외전시 등 5개의 상설전시관과 특별전시관으로 구성된다. 신라역사관에서는 신라의 역사적 흐름을, 신라미술관에서는 찬란한 미술문화와 유물을 볼 수 있다. 월지관은 통일신라시대 왕실의 생활문화를 중심으로 구성되어 있다. 옥외전시장에는 범종, 석탑, 석불, 석등, 비석받침 등 석조 유물 1,300여 점이 전시되어 있다. 박물관 인근에는 2019년 개관한 영남권 수장고인 신라천년보고가 있다. 이곳은 영남지역에서 출토된 유물 약 60만 점을 보관하며, 3,000여 점은 전시수장고에서 관람할 수 있다. 신라역사관, 신라미술관, 월지관에서는 전시해설 프로그램도 운영되니 관람 전 시간표를 확인하는 것이 좋다. 신라의 역사와 문화유산을 중심으로 전시하는 국립박물관이다. 신라시대의 불교미술과 고고자료, 금속공예 등 경주에서 출토된 문화유산을 통해 신라 문화를 살펴볼 수 있다.",
+      "best_span_id": "chroma:M0475",
+      "best_span_text": "국립경주박물관은 신라의 문화유산을 한눈에 살펴볼 수 있는 한국의 대표적인 박물관이다. 이곳에서는 기원전 57년부터 기원후 935년까지 이어진 천년왕국 신라의 압축된 역사를 살펴볼 수 있다. 경주 여행 시 가장 먼저 방문해 사전 지식을 쌓은 뒤 유적지를 둘러보면 더욱 알찬 여행이 된다. 박물관은 신라역사관, 신라미술관, 월지관, 신라천년보고, 옥외전시 등 5개의 상설전시관과 특별전시관으로 구성된다. 신라역사관에서는 신라의 역사적 흐름을, 신라미술관에서는 찬란한 미술문화와 유물을 볼 수 있다. 월지관은 통일신라시대 왕실의 생활문화를 중심으로 구성되어 있다. 옥외전시장에는 범종, 석탑, 석불, 석등, 비석받침 등 석조 유물 1,300여 점이 전시되어 있다. 박물관 인근에는 2019년 개관한 영남권 수장고인 신라천년보고가 있다. 이곳은 영남지역에서 출토된 유물 약 60만 점을 보관하며, 3,000여 점은 전시수장고에서 관람할 수 있다. 신라역사관, 신라미술관, 월지관에서는 전시해설 프로그램도 운영되니 관람 전 시간표를 확인하는 것이 좋다. 신라의 역사와 문화유산을 중심으로 전시하는 국립박물관이다. 신라시대의 불교미술과 고고자료, 금속공예 등 경주에서 출토된 문화유산을 통해 신라 문화를 살펴볼 수 있다.",
+      "fusion_score": 0.014705882352941176,
+      "retrieved_by": [
+        "bm25"
+      ],
+      "fusion_rank": 14,
+      "rerank_score": 0.003472229465842247,
+      "rank": 2,
+      "score": 0.003472229465842247,
+      "score_type": "cross_encoder",
+      "distance": null,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "bm25"
+      ],
+      "retriever": "bm25",
+      "span_id": "chroma:M0475",
+      "source_doc_ids": [
+        "DOC-B0475-TOUR_API-129778",
+        "DOC-WEB-M0475-20261111"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0475-TOUR_API-129778",
+          "source_type": "TOUR_API",
+          "source_record_id": "129778",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=234",
+          "match_trust": "RECHECKED_BY_RULE_NOT_HUMAN_APPROVED"
+        },
+        {
+          "doc_id": "DOC-WEB-M0475-20261111",
+          "source_type": "WEB_RESEARCH",
+          "source_record_id": "RESEARCH-M0475",
+          "source_locator": "https://gyeongju.museum.go.kr/",
+          "source_url": "https://gyeongju.museum.go.kr/",
+          "match_trust": "WEB_SOURCE_REVIEWED_NOT_HUMAN_APPROVED"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 47,
+          "doc_ids": [
+            "DOC-B0475-TOUR_API-129778"
+          ]
+        },
+        {
+          "start": 48,
+          "end": 105,
+          "doc_ids": [
+            "DOC-B0475-TOUR_API-129778"
+          ]
+        },
+        {
+          "start": 106,
+          "end": 159,
+          "doc_ids": [
+            "DOC-B0475-TOUR_API-129778"
+          ]
+        },
+        {
+          "start": 160,
+          "end": 223,
+          "doc_ids": [
+            "DOC-B0475-TOUR_API-129778"
+          ]
+        },
+        {
+          "start": 224,
+          "end": 276,
+          "doc_ids": [
+            "DOC-B0475-TOUR_API-129778"
+          ]
+        },
+        {
+          "start": 277,
+          "end": 312,
+          "doc_ids": [
+            "DOC-B0475-TOUR_API-129778"
+          ]
+        },
+        {
+          "start": 313,
+          "end": 368,
+          "doc_ids": [
+            "DOC-B0475-TOUR_API-129778"
+          ]
+        },
+        {
+          "start": 369,
+          "end": 408,
+          "doc_ids": [
+            "DOC-B0475-TOUR_API-129778"
+          ]
+        },
+        {
+          "start": 409,
+          "end": 469,
+          "doc_ids": [
+            "DOC-B0475-TOUR_API-129778"
+          ]
+        },
+        {
+          "start": 470,
+          "end": 528,
+          "doc_ids": [
+            "DOC-B0475-TOUR_API-129778"
+          ]
+        },
+        {
+          "start": 529,
+          "end": 561,
+          "doc_ids": [
+            "DOC-WEB-M0475-20261111"
+          ]
+        },
+        {
+          "start": 562,
+          "end": 621,
+          "doc_ids": [
+            "DOC-WEB-M0475-20261111"
+          ]
+        }
+      ],
+      "source_urls": [
+        "https://gyeongju.museum.go.kr/"
+      ],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=234",
+      "text": "국립경주박물관은 신라의 문화유산을 한눈에 살펴볼 수 있는 한국의 대표적인 박물관이다. 이곳에서는 기원전 57년부터 기원후 935년까지 이어진 천년왕국 신라의 압축된 역사를 살펴볼 수 있다. 경주 여행 시 가장 먼저 방문해 사전 지식을 쌓은 뒤 유적지를 둘러보면 더욱 알찬 여행이 된다. 박물관은 신라역사관, 신라미술관, 월지관, 신라천년보고, 옥외전시 등 5개의 상설전시관과 특별전시관으로 구성된다. 신라역사관에서는 신라의 역사적 흐름을, 신라미술관에서는 찬란한 미술문화와 유물을 볼 수 있다. 월지관은 통일신라시대 왕실의 생활문화를 중심으로 구성되어 있다. 옥외전시장에는 범종, 석탑, 석불, 석등, 비석받침 등 석조 유물 1,300여 점이 전시되어 있다. 박물관 인근에는 2019년 개관한 영남권 수장고인 신라천년보고가 있다. 이곳은 영남지역에서 출토된 유물 약 60만 점을 보관하며, 3,000여 점은 전시수장고에서 관람할 수 있다. 신라역사관, 신라미술관, 월지관에서는 전시해설 프로그램도 운영되니 관람 전 시간표를 확인하는 것이 좋다. 신라의 역사와 문화유산을 중심으로 전시하는 국립박물관이다. 신라시대의 불교미술과 고고자료, 금속공예 등 경주에서 출토된 문화유산을 통해 신라 문화를 살펴볼 수 있다.",
+      "sido": "경상북도",
+      "sigungu": "경주시",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=234"
+      ],
+      "evidence_id": "E2",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=346",
+        "fields": {
+          "name": "국립경주박물관",
+          "sido": "경상북도",
+          "sigungu": "경주시",
+          "address": "경상북도 경주시 일정로 186",
+          "ownership_type": "국립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "09:00",
+          "weekday_close": "18:00",
+          "holiday_open": "09:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "1월 1일, 설날, 추석, 3월,11월 첫 번째 월요일"
+        },
+        "base_data_date": "2026-04-08",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0972",
+      "name": "금산역사문화박물관",
+      "document": "금산역사문화박물관은 금산의 역사와 문화를 한자리에서 살펴볼 수 있는 공간이다. 1층은 금산 역사관, 2층은 금산 생활 민속관으로 나뉜다. 금산에 인류가 첫발을 내디딘 구석기시대부터 백제와 신라가 금산을 두고 각축전을 벌였던 삼국시대, 원나라에서 벼슬을 한 공을 인정받아 고향인 금산을 금주(錦州)로 승격시킨 성리학자 김신이 활동했던 고려, 조선왕조의 태실을 묻을 만큼 길지로 평가받았던 조선, 금산군수 홍범식을 비롯한 독립운동의 역사를 간직한 근현대가 순서대로 이어진다. 금산 생활 민속관에는 과거 전라북도에 속했던 터라 전라좌도농악의 특징이 녹아있는 금산농악과 세계중요농업유산으로 선정된 금산의 인삼 농사 기술을 만나볼 수 있다. 또 세계 각국의 생활 민속을 함께 비교해 볼 수 있는 지구촌 생활 민속실도 마련돼 있다. 금산역사문화박물관은 지하1층 지상3층 규모로 1층 금산역사관에는 선사시대부터 근현대까지 금산의 역사와 발굴유물을 전시하고 있으며 2층 금산생활민속관에는 금산의 민속유물과 세계민속유물을 전시하고 있습니다.",
+      "metadata": {
+        "holiday_close": "18:00",
+        "sigungu": "금산군",
+        "homepage_url": "https://www.geumsan.go.kr/museum/",
+        "adult_fee": 0.0,
+        "sido": "충청남도",
+        "closure_rule_raw": "월+1월1일+설 당일+추석 당일",
+        "ownership_type": "공립",
+        "weekday_open": "09:00",
+        "youth_fee": 0.0,
+        "weekday_close": "18:00",
+        "latitude": 36.1141664,
+        "image_copyright": "Type1",
+        "longitude": 127.4918544,
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/86/3559586_image2_1.jpg",
+        "name": "금산역사문화박물관",
+        "child_fee": 0.0,
+        "source_types": "BASE|TOUR_API",
+        "requires_manual_review": true,
+        "address": "충청남도 금산군 금산읍 금산로 1575",
+        "holiday_open": "09:00"
+      },
+      "vector_rank": 4,
+      "bm25_rank": null,
+      "vector_distance": 0.468289852142334,
+      "vector_score": null,
+      "bm25_score": null,
+      "vector_document": "금산역사문화박물관은 금산의 역사와 문화를 한자리에서 살펴볼 수 있는 공간이다. 1층은 금산 역사관, 2층은 금산 생활 민속관으로 나뉜다. 금산에 인류가 첫발을 내디딘 구석기시대부터 백제와 신라가 금산을 두고 각축전을 벌였던 삼국시대, 원나라에서 벼슬을 한 공을 인정받아 고향인 금산을 금주(錦州)로 승격시킨 성리학자 김신이 활동했던 고려, 조선왕조의 태실을 묻을 만큼 길지로 평가받았던 조선, 금산군수 홍범식을 비롯한 독립운동의 역사를 간직한 근현대가 순서대로 이어진다. 금산 생활 민속관에는 과거 전라북도에 속했던 터라 전라좌도농악의 특징이 녹아있는 금산농악과 세계중요농업유산으로 선정된 금산의 인삼 농사 기술을 만나볼 수 있다. 또 세계 각국의 생활 민속을 함께 비교해 볼 수 있는 지구촌 생활 민속실도 마련돼 있다. 금산역사문화박물관은 지하1층 지상3층 규모로 1층 금산역사관에는 선사시대부터 근현대까지 금산의 역사와 발굴유물을 전시하고 있으며 2층 금산생활민속관에는 금산의 민속유물과 세계민속유물을 전시하고 있습니다.",
+      "bm25_document": "",
+      "best_span_id": null,
+      "best_span_text": null,
+      "fusion_score": 0.015625,
+      "retrieved_by": [
+        "vector"
+      ],
+      "fusion_rank": 6,
+      "rerank_score": 0.0018423584988340735,
+      "rank": 3,
+      "score": 0.0018423584988340735,
+      "score_type": "cross_encoder",
+      "distance": 0.468289852142334,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector"
+      ],
+      "retriever": "vector",
+      "source_doc_ids": [
+        "DOC-B0972-TOUR_API-2782404",
+        "DOC-B0972-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0972-TOUR_API-2782404",
+          "source_type": "TOUR_API",
+          "source_record_id": "2782404",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=456",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        },
+        {
+          "doc_id": "DOC-B0972-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0972",
+          "source_locator": "data/raw/museum_base_1070.csv#row=973",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 43,
+          "doc_ids": [
+            "DOC-B0972-TOUR_API-2782404"
+          ]
+        },
+        {
+          "start": 44,
+          "end": 76,
+          "doc_ids": [
+            "DOC-B0972-TOUR_API-2782404"
+          ]
+        },
+        {
+          "start": 77,
+          "end": 263,
+          "doc_ids": [
+            "DOC-B0972-TOUR_API-2782404"
+          ]
+        },
+        {
+          "start": 264,
+          "end": 353,
+          "doc_ids": [
+            "DOC-B0972-TOUR_API-2782404"
+          ]
+        },
+        {
+          "start": 354,
+          "end": 403,
+          "doc_ids": [
+            "DOC-B0972-TOUR_API-2782404"
+          ]
+        },
+        {
+          "start": 404,
+          "end": 517,
+          "doc_ids": [
+            "DOC-B0972-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=456",
+      "text": "금산역사문화박물관은 금산의 역사와 문화를 한자리에서 살펴볼 수 있는 공간이다. 1층은 금산 역사관, 2층은 금산 생활 민속관으로 나뉜다. 금산에 인류가 첫발을 내디딘 구석기시대부터 백제와 신라가 금산을 두고 각축전을 벌였던 삼국시대, 원나라에서 벼슬을 한 공을 인정받아 고향인 금산을 금주(錦州)로 승격시킨 성리학자 김신이 활동했던 고려, 조선왕조의 태실을 묻을 만큼 길지로 평가받았던 조선, 금산군수 홍범식을 비롯한 독립운동의 역사를 간직한 근현대가 순서대로 이어진다. 금산 생활 민속관에는 과거 전라북도에 속했던 터라 전라좌도농악의 특징이 녹아있는 금산농악과 세계중요농업유산으로 선정된 금산의 인삼 농사 기술을 만나볼 수 있다. 또 세계 각국의 생활 민속을 함께 비교해 볼 수 있는 지구촌 생활 민속실도 마련돼 있다. 금산역사문화박물관은 지하1층 지상3층 규모로 1층 금산역사관에는 선사시대부터 근현대까지 금산의 역사와 발굴유물을 전시하고 있으며 2층 금산생활민속관에는 금산의 민속유물과 세계민속유물을 전시하고 있습니다.",
+      "sido": "충청남도",
+      "sigungu": "금산군",
+      "span_id": "",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=456"
+      ],
+      "evidence_id": "E3",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=668",
+        "fields": {
+          "name": "금산역사문화박물관",
+          "sido": "충청남도",
+          "sigungu": "금산군",
+          "address": "충청남도 금산군 금산읍 금산로 1575",
+          "ownership_type": "공립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "09:00",
+          "weekday_close": "18:00",
+          "holiday_open": "09:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "월+1월1일+설 당일+추석 당일"
+        },
+        "base_data_date": "2025-11-19",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0489",
+      "name": "국립춘천박물관",
+      "document": "국립춘천박물관은 강원특별자치도의 역사와 문화를 한자리에서 만날 수 있는 복합문화공간이다. 2002년 개관 이후 강원 지역 문화유산을 연구·보존·전시하며 지역 문화의 가치와 정체성을 널리 알리고 있다. 선사시대부터 근세까지 강원의 역사 흐름을 살펴볼 수 있는 상설전시를 비롯해 브랜드존, 기획전시실, 야외정원 등 다양한 공간을 운영하고 있으며, 약 12만여 점의 소장품을 보유한 강원 대표 국립박물관이다. 전시관에서는 구석기 유물부터 고려 불교문화, 조선시대 문화유산까지 시대별 강원의 모습을 만나볼 수 있다. 특히 영월 창령사 터 오백나한, 강원의 불교미술, 금강산과 관동팔경 등을 주제로 한 브랜드 전시는 강원만의 문화적 특색과 아름다움을 더욱 깊이 있게 전한다. 또한 가로 28m 규모의 초대형 실감영상은 관동팔경과 오백나한 등을 생생하게 담아내며 몰입감 있는 관람 경험을 선사해 관람의 즐거움을 더한다. 자연과 조화를 이루는 현대적인 건축미 역시 눈길을 끈다. 본관 건축물은 2003년 ‘제25회 한국건축가협회상’을 수상했으며, 야외정원과 어린이박물관 등 휴식·체험 공간도 함께 마련되어 있어 가족 단위 방문객들도 편안하게 즐기기 좋다. 역사와 문화, 자연과 체험이 어우러진 국립춘천박물관은 남녀노소 누구나 즐길 수 있는 문화 여행지이다. 강원 지역의 선사시대부터 근세에 이르는 역사와 문화유산을 소개하는 국립박물관이다. 강원의 불교미술, 금강산과 관동팔경, 지역의 생활문화 등 다양한 주제를 상설·테마 전시로 다룬다.",
+      "metadata": {
+        "source_types": "TOUR_API|WEB_RESEARCH",
+        "youth_fee": 0.0,
+        "weekday_open": "09:00",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/48/4067048_image2_1.jpg",
+        "holiday_close": "18:00",
+        "sido": "강원특별자치도",
+        "address": "강원특별자치도 춘천시 우석로 70",
+        "closure_rule_raw": "매주 월요일(단, 월요일이 공휴일인 경우 당일은 개관하고 그 다음 첫번째 평일에 휴관), 1월 1일, 설날 및 추석 당일",
+        "homepage_url": "https://chuncheon.museum.go.kr/kor/index.do",
+        "latitude": 37.8640187675,
+        "name": "국립춘천박물관",
+        "requires_manual_review": true,
+        "longitude": 127.7521906961,
+        "ownership_type": "국립",
+        "sigungu": "춘천시",
+        "child_fee": 0.0,
+        "adult_fee": 0.0,
+        "holiday_open": "09:00",
+        "image_copyright": "Type3",
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "weekday_close": "18:00"
+      },
+      "vector_rank": null,
+      "bm25_rank": 7,
+      "vector_distance": null,
+      "vector_score": null,
+      "bm25_score": 14.284403075555677,
+      "vector_document": "",
+      "bm25_document": "국립춘천박물관은 강원특별자치도의 역사와 문화를 한자리에서 만날 수 있는 복합문화공간이다. 2002년 개관 이후 강원 지역 문화유산을 연구·보존·전시하며 지역 문화의 가치와 정체성을 널리 알리고 있다. 선사시대부터 근세까지 강원의 역사 흐름을 살펴볼 수 있는 상설전시를 비롯해 브랜드존, 기획전시실, 야외정원 등 다양한 공간을 운영하고 있으며, 약 12만여 점의 소장품을 보유한 강원 대표 국립박물관이다. 전시관에서는 구석기 유물부터 고려 불교문화, 조선시대 문화유산까지 시대별 강원의 모습을 만나볼 수 있다. 특히 영월 창령사 터 오백나한, 강원의 불교미술, 금강산과 관동팔경 등을 주제로 한 브랜드 전시는 강원만의 문화적 특색과 아름다움을 더욱 깊이 있게 전한다. 또한 가로 28m 규모의 초대형 실감영상은 관동팔경과 오백나한 등을 생생하게 담아내며 몰입감 있는 관람 경험을 선사해 관람의 즐거움을 더한다. 자연과 조화를 이루는 현대적인 건축미 역시 눈길을 끈다. 본관 건축물은 2003년 ‘제25회 한국건축가협회상’을 수상했으며, 야외정원과 어린이박물관 등 휴식·체험 공간도 함께 마련되어 있어 가족 단위 방문객들도 편안하게 즐기기 좋다. 역사와 문화, 자연과 체험이 어우러진 국립춘천박물관은 남녀노소 누구나 즐길 수 있는 문화 여행지이다. 강원 지역의 선사시대부터 근세에 이르는 역사와 문화유산을 소개하는 국립박물관이다. 강원의 불교미술, 금강산과 관동팔경, 지역의 생활문화 등 다양한 주제를 상설·테마 전시로 다룬다.",
+      "best_span_id": "chroma:M0489",
+      "best_span_text": "국립춘천박물관은 강원특별자치도의 역사와 문화를 한자리에서 만날 수 있는 복합문화공간이다. 2002년 개관 이후 강원 지역 문화유산을 연구·보존·전시하며 지역 문화의 가치와 정체성을 널리 알리고 있다. 선사시대부터 근세까지 강원의 역사 흐름을 살펴볼 수 있는 상설전시를 비롯해 브랜드존, 기획전시실, 야외정원 등 다양한 공간을 운영하고 있으며, 약 12만여 점의 소장품을 보유한 강원 대표 국립박물관이다. 전시관에서는 구석기 유물부터 고려 불교문화, 조선시대 문화유산까지 시대별 강원의 모습을 만나볼 수 있다. 특히 영월 창령사 터 오백나한, 강원의 불교미술, 금강산과 관동팔경 등을 주제로 한 브랜드 전시는 강원만의 문화적 특색과 아름다움을 더욱 깊이 있게 전한다. 또한 가로 28m 규모의 초대형 실감영상은 관동팔경과 오백나한 등을 생생하게 담아내며 몰입감 있는 관람 경험을 선사해 관람의 즐거움을 더한다. 자연과 조화를 이루는 현대적인 건축미 역시 눈길을 끈다. 본관 건축물은 2003년 ‘제25회 한국건축가협회상’을 수상했으며, 야외정원과 어린이박물관 등 휴식·체험 공간도 함께 마련되어 있어 가족 단위 방문객들도 편안하게 즐기기 좋다. 역사와 문화, 자연과 체험이 어우러진 국립춘천박물관은 남녀노소 누구나 즐길 수 있는 문화 여행지이다. 강원 지역의 선사시대부터 근세에 이르는 역사와 문화유산을 소개하는 국립박물관이다. 강원의 불교미술, 금강산과 관동팔경, 지역의 생활문화 등 다양한 주제를 상설·테마 전시로 다룬다.",
+      "fusion_score": 0.014925373134328358,
+      "retrieved_by": [
+        "bm25"
+      ],
+      "fusion_rank": 12,
+      "rerank_score": 0.001101178233511746,
+      "rank": 4,
+      "score": 0.001101178233511746,
+      "score_type": "cross_encoder",
+      "distance": null,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "bm25"
+      ],
+      "retriever": "bm25",
+      "span_id": "chroma:M0489",
+      "source_doc_ids": [
+        "DOC-B0489-TOUR_API-130654",
+        "DOC-WEB-M0489-20261111"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0489-TOUR_API-130654",
+          "source_type": "TOUR_API",
+          "source_record_id": "130654",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=241",
+          "match_trust": "RECHECKED_BY_RULE_NOT_HUMAN_APPROVED"
+        },
+        {
+          "doc_id": "DOC-WEB-M0489-20261111",
+          "source_type": "WEB_RESEARCH",
+          "source_record_id": "RESEARCH-M0489",
+          "source_locator": "https://chuncheon.museum.go.kr/kor/sub02_01.do",
+          "source_url": "https://chuncheon.museum.go.kr/kor/sub02_01.do",
+          "match_trust": "WEB_SOURCE_REVIEWED_NOT_HUMAN_APPROVED"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 49,
+          "doc_ids": [
+            "DOC-B0489-TOUR_API-130654"
+          ]
+        },
+        {
+          "start": 50,
+          "end": 111,
+          "doc_ids": [
+            "DOC-B0489-TOUR_API-130654"
+          ]
+        },
+        {
+          "start": 112,
+          "end": 225,
+          "doc_ids": [
+            "DOC-B0489-TOUR_API-130654"
+          ]
+        },
+        {
+          "start": 226,
+          "end": 284,
+          "doc_ids": [
+            "DOC-B0489-TOUR_API-130654"
+          ]
+        },
+        {
+          "start": 285,
+          "end": 372,
+          "doc_ids": [
+            "DOC-B0489-TOUR_API-130654"
+          ]
+        },
+        {
+          "start": 373,
+          "end": 452,
+          "doc_ids": [
+            "DOC-B0489-TOUR_API-130654"
+          ]
+        },
+        {
+          "start": 453,
+          "end": 484,
+          "doc_ids": [
+            "DOC-B0489-TOUR_API-130654"
+          ]
+        },
+        {
+          "start": 485,
+          "end": 583,
+          "doc_ids": [
+            "DOC-B0489-TOUR_API-130654"
+          ]
+        },
+        {
+          "start": 584,
+          "end": 640,
+          "doc_ids": [
+            "DOC-B0489-TOUR_API-130654"
+          ]
+        },
+        {
+          "start": 641,
+          "end": 686,
+          "doc_ids": [
+            "DOC-WEB-M0489-20261111"
+          ]
+        },
+        {
+          "start": 687,
+          "end": 741,
+          "doc_ids": [
+            "DOC-WEB-M0489-20261111"
+          ]
+        }
+      ],
+      "source_urls": [
+        "https://chuncheon.museum.go.kr/kor/sub02_01.do"
+      ],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=241",
+      "text": "국립춘천박물관은 강원특별자치도의 역사와 문화를 한자리에서 만날 수 있는 복합문화공간이다. 2002년 개관 이후 강원 지역 문화유산을 연구·보존·전시하며 지역 문화의 가치와 정체성을 널리 알리고 있다. 선사시대부터 근세까지 강원의 역사 흐름을 살펴볼 수 있는 상설전시를 비롯해 브랜드존, 기획전시실, 야외정원 등 다양한 공간을 운영하고 있으며, 약 12만여 점의 소장품을 보유한 강원 대표 국립박물관이다. 전시관에서는 구석기 유물부터 고려 불교문화, 조선시대 문화유산까지 시대별 강원의 모습을 만나볼 수 있다. 특히 영월 창령사 터 오백나한, 강원의 불교미술, 금강산과 관동팔경 등을 주제로 한 브랜드 전시는 강원만의 문화적 특색과 아름다움을 더욱 깊이 있게 전한다. 또한 가로 28m 규모의 초대형 실감영상은 관동팔경과 오백나한 등을 생생하게 담아내며 몰입감 있는 관람 경험을 선사해 관람의 즐거움을 더한다. 자연과 조화를 이루는 현대적인 건축미 역시 눈길을 끈다. 본관 건축물은 2003년 ‘제25회 한국건축가협회상’을 수상했으며, 야외정원과 어린이박물관 등 휴식·체험 공간도 함께 마련되어 있어 가족 단위 방문객들도 편안하게 즐기기 좋다. 역사와 문화, 자연과 체험이 어우러진 국립춘천박물관은 남녀노소 누구나 즐길 수 있는 문화 여행지이다. 강원 지역의 선사시대부터 근세에 이르는 역사와 문화유산을 소개하는 국립박물관이다. 강원의 불교미술, 금강산과 관동팔경, 지역의 생활문화 등 다양한 주제를 상설·테마 전시로 다룬다.",
+      "sido": "강원특별자치도",
+      "sigungu": "춘천시",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=241"
+      ],
+      "evidence_id": "E4",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=352",
+        "fields": {
+          "name": "국립춘천박물관",
+          "sido": "강원특별자치도",
+          "sigungu": "춘천시",
+          "address": "강원특별자치도 춘천시 우석로 70",
+          "ownership_type": "국립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "09:00",
+          "weekday_close": "18:00",
+          "holiday_open": "09:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "매주 월요일(단, 월요일이 공휴일인 경우 당일은 개관하고 그 다음 첫번째 평일에 휴관), 1월 1일, 설날 및 추석 당일"
+        },
+        "base_data_date": "2026-04-08",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0527",
+      "name": "국립극장 공연예술박물관",
+      "document": "남산 자락에 위치한 국립극장 공연예술박물관은 2009년 12월 개관한 우리나라 최초의 공연예술 전문박물관이다. 국립극장 설립 이후 축적된 연극, 무용, 창극, 오페라, 판소리 등 다양한 공연예술 자료 약 44만 점을 전시와 자료실을 통해 만나볼 수 있다. 2층 상설전시실에서는 우리나라 공연예술의 역사와 공연이 무대에 오르기까지의 제작 과정을 주제별로 살펴볼 수 있다. 최신 기술과 공연예술을 접목한 실감형 콘텐츠를 체험할 수 있는 별별실감극장과 증강현실 기술을 활용해 무빙포스터, 무대분장, 의상체험 등을 즐길 수 있는 별별체험존도 마련되어 있다. 지하철 3호선 동대입구역 6번 출구에서 약 900미터 거리에 위치해 접근성이 좋으며, 국립극장 공연 관람 전후 함께 둘러보기에도 좋다.",
+      "metadata": {
+        "sido": "서울특별시",
+        "weekday_close": "18:00",
+        "latitude": 37.55199491,
+        "holiday_open": "10:00",
+        "holiday_close": "18:00",
+        "ownership_type": "국립",
+        "name": "국립극장 공연예술박물관",
+        "weekday_open": "10:00",
+        "homepage_url": "https://www.ntok.go.kr",
+        "longitude": 126.9992673,
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/11/3012811_image2_1.jpg",
+        "requires_manual_review": true,
+        "image_copyright": "Type3",
+        "closure_rule_raw": "매주 월요일, 1월 1일",
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "sigungu": "중구",
+        "child_fee": 0.0,
+        "address": "서울특별시 중구 장충단로 59",
+        "source_types": "TOUR_API",
+        "adult_fee": 0.0,
+        "youth_fee": 0.0
+      },
+      "vector_rank": null,
+      "bm25_rank": 2,
+      "vector_distance": null,
+      "vector_score": null,
+      "bm25_score": 16.17776549320721,
+      "vector_document": "",
+      "bm25_document": "남산 자락에 위치한 국립극장 공연예술박물관은 2009년 12월 개관한 우리나라 최초의 공연예술 전문박물관이다. 국립극장 설립 이후 축적된 연극, 무용, 창극, 오페라, 판소리 등 다양한 공연예술 자료 약 44만 점을 전시와 자료실을 통해 만나볼 수 있다. 2층 상설전시실에서는 우리나라 공연예술의 역사와 공연이 무대에 오르기까지의 제작 과정을 주제별로 살펴볼 수 있다. 최신 기술과 공연예술을 접목한 실감형 콘텐츠를 체험할 수 있는 별별실감극장과 증강현실 기술을 활용해 무빙포스터, 무대분장, 의상체험 등을 즐길 수 있는 별별체험존도 마련되어 있다. 지하철 3호선 동대입구역 6번 출구에서 약 900미터 거리에 위치해 접근성이 좋으며, 국립극장 공연 관람 전후 함께 둘러보기에도 좋다.",
+      "best_span_id": "chroma:M0527",
+      "best_span_text": "남산 자락에 위치한 국립극장 공연예술박물관은 2009년 12월 개관한 우리나라 최초의 공연예술 전문박물관이다. 국립극장 설립 이후 축적된 연극, 무용, 창극, 오페라, 판소리 등 다양한 공연예술 자료 약 44만 점을 전시와 자료실을 통해 만나볼 수 있다. 2층 상설전시실에서는 우리나라 공연예술의 역사와 공연이 무대에 오르기까지의 제작 과정을 주제별로 살펴볼 수 있다. 최신 기술과 공연예술을 접목한 실감형 콘텐츠를 체험할 수 있는 별별실감극장과 증강현실 기술을 활용해 무빙포스터, 무대분장, 의상체험 등을 즐길 수 있는 별별체험존도 마련되어 있다. 지하철 3호선 동대입구역 6번 출구에서 약 900미터 거리에 위치해 접근성이 좋으며, 국립극장 공연 관람 전후 함께 둘러보기에도 좋다.",
+      "fusion_score": 0.016129032258064516,
+      "retrieved_by": [
+        "bm25"
+      ],
+      "fusion_rank": 4,
+      "rerank_score": 0.0010384470224380493,
+      "rank": 5,
+      "score": 0.0010384470224380493,
+      "score_type": "cross_encoder",
+      "distance": null,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "bm25"
+      ],
+      "retriever": "bm25",
+      "span_id": "chroma:M0527",
+      "source_doc_ids": [
+        "DOC-B0527-TOUR_API-3012859"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0527-TOUR_API-3012859",
+          "source_type": "TOUR_API",
+          "source_record_id": "3012859",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=261",
+          "match_trust": "RECHECKED_BY_RULE_NOT_HUMAN_APPROVED"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 61,
+          "doc_ids": [
+            "DOC-B0527-TOUR_API-3012859"
+          ]
+        },
+        {
+          "start": 62,
+          "end": 142,
+          "doc_ids": [
+            "DOC-B0527-TOUR_API-3012859"
+          ]
+        },
+        {
+          "start": 143,
+          "end": 206,
+          "doc_ids": [
+            "DOC-B0527-TOUR_API-3012859"
+          ]
+        },
+        {
+          "start": 207,
+          "end": 307,
+          "doc_ids": [
+            "DOC-B0527-TOUR_API-3012859"
+          ]
+        },
+        {
+          "start": 308,
+          "end": 383,
+          "doc_ids": [
+            "DOC-B0527-TOUR_API-3012859"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=261",
+      "text": "남산 자락에 위치한 국립극장 공연예술박물관은 2009년 12월 개관한 우리나라 최초의 공연예술 전문박물관이다. 국립극장 설립 이후 축적된 연극, 무용, 창극, 오페라, 판소리 등 다양한 공연예술 자료 약 44만 점을 전시와 자료실을 통해 만나볼 수 있다. 2층 상설전시실에서는 우리나라 공연예술의 역사와 공연이 무대에 오르기까지의 제작 과정을 주제별로 살펴볼 수 있다. 최신 기술과 공연예술을 접목한 실감형 콘텐츠를 체험할 수 있는 별별실감극장과 증강현실 기술을 활용해 무빙포스터, 무대분장, 의상체험 등을 즐길 수 있는 별별체험존도 마련되어 있다. 지하철 3호선 동대입구역 6번 출구에서 약 900미터 거리에 위치해 접근성이 좋으며, 국립극장 공연 관람 전후 함께 둘러보기에도 좋다.",
+      "sido": "서울특별시",
+      "sigungu": "중구",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=261"
+      ],
+      "evidence_id": "E5",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=370",
+        "fields": {
+          "name": "국립극장 공연예술박물관",
+          "sido": "서울특별시",
+          "sigungu": "중구",
+          "address": "서울특별시 중구 장충단로 59",
+          "ownership_type": "국립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "10:00",
+          "weekday_close": "18:00",
+          "holiday_open": "10:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "매주 월요일, 1월 1일"
+        },
+        "base_data_date": "2026-04-08",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    }
+  ],
+  "answer": "국립산악박물관 3층에서는 국내 등반의 역사를 비롯해 산과 관련된 신앙과 생활문화를 살펴볼 수 있습니다. 또한 대한민국을 대표하는 산악인들과 그들이 사용했던 장비·유물, 산악 및 산림문화를 관람할 수 있습니다. [E1]",
+  "retrieval_status": "ok",
+  "answer_status": "answered",
+  "route": "hybrid",
+  "retry_count": 0,
+  "supervisor_verified": true,
+  "rerank_applied": true,
+  "retriever_errors": [],
+  "warnings": [],
+  "duration_ms": 149745.8,
+  "error_type": "",
+  "hit_at_1": 1,
+  "hit_at_3": 1,
+  "hit_at_5": 1,
+  "recall_at_5": 1.0,
+  "mrr_at_10": 1.0
+}

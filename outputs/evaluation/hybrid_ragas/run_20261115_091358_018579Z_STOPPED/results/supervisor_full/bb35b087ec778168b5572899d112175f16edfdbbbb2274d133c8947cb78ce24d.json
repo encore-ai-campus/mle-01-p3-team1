@@ -1,0 +1,24 @@
+{
+  "mode": "supervisor_full",
+  "question_id": "V2-SN04",
+  "evidence": [],
+  "answer": "기록된 데이터에서 조건(인천광역시, 편의시설 휠체어 대여·이용)을 모두 만족하는 시설을 찾지 못했습니다. 편의시설·휴관 정보는 일부 시설에만 기록되어 있어, 기록이 없다고 실제로 없다는 뜻은 아닙니다. 조건을 줄여 다시 질문해 주세요.",
+  "retrieval_status": "no_results",
+  "answer_status": "abstained",
+  "route": "hybrid",
+  "retry_count": 0,
+  "supervisor_verified": false,
+  "rerank_applied": false,
+  "retriever_errors": [],
+  "warnings": [
+    "구조 조건(지역 인천광역시, 편의시설 휠체어 대여·이용)을 만족하는 기록이 있는 시설이 없습니다; 조건을 빼고 검색하지 않았습니다.",
+    "No candidates were returned with positive retrieval signal"
+  ],
+  "duration_ms": 2327.39,
+  "error_type": "",
+  "hit_at_1": "",
+  "hit_at_3": "",
+  "hit_at_5": "",
+  "recall_at_5": "",
+  "mrr_at_10": ""
+}

@@ -1,0 +1,808 @@
+{
+  "mode": "supervisor_full",
+  "question_id": "Q148",
+  "evidence": [
+    {
+      "museum_id": "M0243",
+      "name": "한양대학교 박물관",
+      "document": "한양대학교박물관은 1979년 개관 이래, 끊임없이 귀중한 문화유산을 발굴, 수집, 보존하고 연구하고 있다. 2003년 이후 매년 특별전을 개최하고 각종 문화체험 및 문화강좌, 박물관 교육 사업을 진행하는 등 대학 캠퍼스를 넘어 지역사회 문화적 플랫폼이자 복합문화예술공간으로서의 역할을 다하고 있다. 건물은 1층부터 5층까지 있지만 실질적으로 전시 공간은 2층부터 시작한다. 2층에는 다양한 전자기기들의 과거와 현재의 모습을 만나볼 수 있다. 3층에는 다양한 주제의 특별전이 열리는 100여평 규모의 기획전시실이 마련되어 있다. 4층은 도자·서화·생활민속실은 소장품 가운데 대표적인 도자기, 서화, 민속품을 엄선하여 전시하고 있으며, 화려하고 섬세한 공예 기술을 비롯하여, 다양한 서화와 생활 도구를 통해 당대 사람들의 삶과 문화를 이해할 수 있도록 구성하였다. 마지막으로 5층 고고역사실은 1979년 미사리 선사유적에 대한 발굴조사를 실시한 이래 한양대학교박물관에서 조사한 다양한 유적과 유물을 소개하고 있다.",
+      "metadata": {
+        "name": "한양대학교 박물관",
+        "address": "서울특별시 성동구 왕십리로 222",
+        "weekday_close": "17:00",
+        "requires_manual_review": true,
+        "ownership_type": "대학",
+        "closure_rule_raw": "일+국경일+공휴일",
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "youth_fee": 0.0,
+        "child_fee": 0.0,
+        "source_types": "TOUR_API",
+        "holiday_open": "00:00",
+        "image_copyright": "Type3",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/29/3537629_image2_1.jpg",
+        "adult_fee": 0.0,
+        "sido": "서울특별시",
+        "holiday_close": "00:00",
+        "longitude": 127.0466112,
+        "weekday_open": "10:00",
+        "sigungu": "성동구",
+        "homepage_url": "https://museumuf.hanyang.ac.kr",
+        "latitude": 37.55450355
+      },
+      "vector_rank": 2,
+      "bm25_rank": 1,
+      "vector_distance": 0.4482429623603821,
+      "vector_score": null,
+      "bm25_score": 27.369809199434684,
+      "vector_document": "한양대학교박물관은 1979년 개관 이래, 끊임없이 귀중한 문화유산을 발굴, 수집, 보존하고 연구하고 있다. 2003년 이후 매년 특별전을 개최하고 각종 문화체험 및 문화강좌, 박물관 교육 사업을 진행하는 등 대학 캠퍼스를 넘어 지역사회 문화적 플랫폼이자 복합문화예술공간으로서의 역할을 다하고 있다. 건물은 1층부터 5층까지 있지만 실질적으로 전시 공간은 2층부터 시작한다. 2층에는 다양한 전자기기들의 과거와 현재의 모습을 만나볼 수 있다. 3층에는 다양한 주제의 특별전이 열리는 100여평 규모의 기획전시실이 마련되어 있다. 4층은 도자·서화·생활민속실은 소장품 가운데 대표적인 도자기, 서화, 민속품을 엄선하여 전시하고 있으며, 화려하고 섬세한 공예 기술을 비롯하여, 다양한 서화와 생활 도구를 통해 당대 사람들의 삶과 문화를 이해할 수 있도록 구성하였다. 마지막으로 5층 고고역사실은 1979년 미사리 선사유적에 대한 발굴조사를 실시한 이래 한양대학교박물관에서 조사한 다양한 유적과 유물을 소개하고 있다.",
+      "bm25_document": "한양대학교박물관은 1979년 개관 이래, 끊임없이 귀중한 문화유산을 발굴, 수집, 보존하고 연구하고 있다. 2003년 이후 매년 특별전을 개최하고 각종 문화체험 및 문화강좌, 박물관 교육 사업을 진행하는 등 대학 캠퍼스를 넘어 지역사회 문화적 플랫폼이자 복합문화예술공간으로서의 역할을 다하고 있다. 건물은 1층부터 5층까지 있지만 실질적으로 전시 공간은 2층부터 시작한다. 2층에는 다양한 전자기기들의 과거와 현재의 모습을 만나볼 수 있다. 3층에는 다양한 주제의 특별전이 열리는 100여평 규모의 기획전시실이 마련되어 있다. 4층은 도자·서화·생활민속실은 소장품 가운데 대표적인 도자기, 서화, 민속품을 엄선하여 전시하고 있으며, 화려하고 섬세한 공예 기술을 비롯하여, 다양한 서화와 생활 도구를 통해 당대 사람들의 삶과 문화를 이해할 수 있도록 구성하였다. 마지막으로 5층 고고역사실은 1979년 미사리 선사유적에 대한 발굴조사를 실시한 이래 한양대학교박물관에서 조사한 다양한 유적과 유물을 소개하고 있다.",
+      "best_span_id": "chroma:M0243",
+      "best_span_text": "한양대학교박물관은 1979년 개관 이래, 끊임없이 귀중한 문화유산을 발굴, 수집, 보존하고 연구하고 있다. 2003년 이후 매년 특별전을 개최하고 각종 문화체험 및 문화강좌, 박물관 교육 사업을 진행하는 등 대학 캠퍼스를 넘어 지역사회 문화적 플랫폼이자 복합문화예술공간으로서의 역할을 다하고 있다. 건물은 1층부터 5층까지 있지만 실질적으로 전시 공간은 2층부터 시작한다. 2층에는 다양한 전자기기들의 과거와 현재의 모습을 만나볼 수 있다. 3층에는 다양한 주제의 특별전이 열리는 100여평 규모의 기획전시실이 마련되어 있다. 4층은 도자·서화·생활민속실은 소장품 가운데 대표적인 도자기, 서화, 민속품을 엄선하여 전시하고 있으며, 화려하고 섬세한 공예 기술을 비롯하여, 다양한 서화와 생활 도구를 통해 당대 사람들의 삶과 문화를 이해할 수 있도록 구성하였다. 마지막으로 5층 고고역사실은 1979년 미사리 선사유적에 대한 발굴조사를 실시한 이래 한양대학교박물관에서 조사한 다양한 유적과 유물을 소개하고 있다.",
+      "fusion_score": 0.03252247488101534,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 1,
+      "name_match": true,
+      "rerank_score": 0.9994992017745972,
+      "rank": 1,
+      "score": 0.9994992017745972,
+      "score_type": "cross_encoder",
+      "distance": 0.4482429623603821,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0243",
+      "source_doc_ids": [
+        "DOC-B0243-TOUR_API-130958"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0243-TOUR_API-130958",
+          "source_type": "TOUR_API",
+          "source_record_id": "130958",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=120",
+          "match_trust": "RECHECKED_BY_RULE_NOT_HUMAN_APPROVED"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 59,
+          "doc_ids": [
+            "DOC-B0243-TOUR_API-130958"
+          ]
+        },
+        {
+          "start": 60,
+          "end": 166,
+          "doc_ids": [
+            "DOC-B0243-TOUR_API-130958"
+          ]
+        },
+        {
+          "start": 167,
+          "end": 208,
+          "doc_ids": [
+            "DOC-B0243-TOUR_API-130958"
+          ]
+        },
+        {
+          "start": 209,
+          "end": 246,
+          "doc_ids": [
+            "DOC-B0243-TOUR_API-130958"
+          ]
+        },
+        {
+          "start": 247,
+          "end": 294,
+          "doc_ids": [
+            "DOC-B0243-TOUR_API-130958"
+          ]
+        },
+        {
+          "start": 295,
+          "end": 425,
+          "doc_ids": [
+            "DOC-B0243-TOUR_API-130958"
+          ]
+        },
+        {
+          "start": 426,
+          "end": 509,
+          "doc_ids": [
+            "DOC-B0243-TOUR_API-130958"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=120",
+      "text": "한양대학교박물관은 1979년 개관 이래, 끊임없이 귀중한 문화유산을 발굴, 수집, 보존하고 연구하고 있다. 2003년 이후 매년 특별전을 개최하고 각종 문화체험 및 문화강좌, 박물관 교육 사업을 진행하는 등 대학 캠퍼스를 넘어 지역사회 문화적 플랫폼이자 복합문화예술공간으로서의 역할을 다하고 있다. 건물은 1층부터 5층까지 있지만 실질적으로 전시 공간은 2층부터 시작한다. 2층에는 다양한 전자기기들의 과거와 현재의 모습을 만나볼 수 있다. 3층에는 다양한 주제의 특별전이 열리는 100여평 규모의 기획전시실이 마련되어 있다. 4층은 도자·서화·생활민속실은 소장품 가운데 대표적인 도자기, 서화, 민속품을 엄선하여 전시하고 있으며, 화려하고 섬세한 공예 기술을 비롯하여, 다양한 서화와 생활 도구를 통해 당대 사람들의 삶과 문화를 이해할 수 있도록 구성하였다. 마지막으로 5층 고고역사실은 1979년 미사리 선사유적에 대한 발굴조사를 실시한 이래 한양대학교박물관에서 조사한 다양한 유적과 유물을 소개하고 있다.",
+      "sido": "서울특별시",
+      "sigungu": "성동구",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=120"
+      ],
+      "evidence_id": "E1",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=171",
+        "fields": {
+          "name": "한양대학교 박물관",
+          "sido": "서울특별시",
+          "sigungu": "성동구",
+          "address": "서울특별시 성동구 왕십리로 222",
+          "ownership_type": "대학",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "10:00",
+          "weekday_close": "17:00",
+          "holiday_open": "00:00",
+          "holiday_close": "00:00",
+          "closure_rule_raw": "일+국경일+공휴일"
+        },
+        "base_data_date": "2026-09-03",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0906",
+      "name": "덕성여자대학교 박물관",
+      "document": "회화·도자실 : 회화류 : 조선시대 회화. 민화 등 회화류 및 각종 도자기 전시목공예실 : 조선시대 목가구, 소반, 반닫이 등복식실 : 원삼, 초의, 저고리 등 조선후기의 남녀복식 전시금속공예실 : 청동병, 동경 등 고려시대의 청동기유물, 등잔, 촛대 등 조선후기의 등기류, 나전칠기류 등 전시",
+      "metadata": {
+        "name": "덕성여자대학교 박물관",
+        "latitude": 37.66877,
+        "homepage_url": "http://museum.duksung.ac.kr",
+        "fee_notes": "무료",
+        "sigungu": "도봉구",
+        "holiday_close": "00:00",
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "closure_rule_raw": "토,일요일 법정공휴일 개교기념일, 동하계 휴가기간, 기타 정부나 대학에서 임시휴일로 정하는 날.",
+        "longitude": 127.04707,
+        "requires_manual_review": true,
+        "source_types": "BASE",
+        "child_fee": 0.0,
+        "weekday_open": "10:00",
+        "ownership_type": "사립",
+        "weekday_close": "16:00",
+        "holiday_open": "00:00",
+        "transport_notes": "지하철: 4호선 수유역 하차 덕성여자대학교 방향 버스 이용(101번, 170번, 1144번, 1217번)버스: 101번, 109번, 144번, 151번, 170번, 1144번, 1217번, 1218번 ,1219번",
+        "adult_fee": 0.0,
+        "address": "서울특별시 도봉구 근화교길 19 덕성여자대학교",
+        "sido": "서울특별시",
+        "youth_fee": 0.0
+      },
+      "vector_rank": 1,
+      "bm25_rank": null,
+      "vector_distance": 0.37200748920440674,
+      "vector_score": null,
+      "bm25_score": null,
+      "vector_document": "회화·도자실 : 회화류 : 조선시대 회화. 민화 등 회화류 및 각종 도자기 전시목공예실 : 조선시대 목가구, 소반, 반닫이 등복식실 : 원삼, 초의, 저고리 등 조선후기의 남녀복식 전시금속공예실 : 청동병, 동경 등 고려시대의 청동기유물, 등잔, 촛대 등 조선후기의 등기류, 나전칠기류 등 전시",
+      "bm25_document": "",
+      "best_span_id": null,
+      "best_span_text": null,
+      "fusion_score": 0.01639344262295082,
+      "retrieved_by": [
+        "vector"
+      ],
+      "fusion_rank": 3,
+      "rerank_score": 0.05305282771587372,
+      "rank": 2,
+      "score": 0.05305282771587372,
+      "score_type": "cross_encoder",
+      "distance": 0.37200748920440674,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector"
+      ],
+      "retriever": "vector",
+      "source_doc_ids": [
+        "DOC-B0906-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0906-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0906",
+          "source_locator": "data/raw/museum_base_1070.csv#row=907",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 23,
+          "doc_ids": [
+            "DOC-B0906-BASE"
+          ]
+        },
+        {
+          "start": 24,
+          "end": 164,
+          "doc_ids": [
+            "DOC-B0906-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_base_1070.csv#row=907",
+      "text": "회화·도자실 : 회화류 : 조선시대 회화. 민화 등 회화류 및 각종 도자기 전시목공예실 : 조선시대 목가구, 소반, 반닫이 등복식실 : 원삼, 초의, 저고리 등 조선후기의 남녀복식 전시금속공예실 : 청동병, 동경 등 고려시대의 청동기유물, 등잔, 촛대 등 조선후기의 등기류, 나전칠기류 등 전시",
+      "sido": "서울특별시",
+      "sigungu": "도봉구",
+      "span_id": "",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_base_1070.csv#row=907"
+      ],
+      "evidence_id": "E2",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=623",
+        "fields": {
+          "name": "덕성여자대학교 박물관",
+          "sido": "서울특별시",
+          "sigungu": "도봉구",
+          "address": "서울특별시 도봉구 근화교길 19 덕성여자대학교",
+          "ownership_type": "사립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "10:00",
+          "weekday_close": "16:00",
+          "holiday_open": "00:00",
+          "holiday_close": "00:00",
+          "closure_rule_raw": "토,일요일 법정공휴일 개교기념일, 동하계 휴가기간, 기타 정부나 대학에서 임시휴일로 정하는 날."
+        },
+        "base_data_date": "2018-05-15",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0007",
+      "name": "송암미술관",
+      "document": "송암미술관은 인천광역시 미추홀구에 위치한 공립 미술관으로, 인천시립박물관의 분관이자 인천 유일의 시립 미술관이다. 1989년 고[故] 이회림 선생이 서울에서 사립 미술관으로 처음 개관하였으며, 1992년 인천으로 이전한 뒤 2005년에는 미술관 건물과 약 1만여 점의 소장품을 인천시에 기증하면서 공립 미술관으로 전환되었다. 이회림 선생은 ‘마지막 개성상인’으로 불릴 만큼 전통문화에 대한 깊은 애정을 지닌 인물로, 도자기, 회화, 공예품 등 다양한 분야의 유물을 수집해왔다. 송암미술관은 고대부터 근현대에 이르는 폭넓은 시대의 유물을 소장하고 있으며, 이를 바탕으로 한국 미술의 흐름과 아름다움을 소개하는 상설 및 기획 전시를 운영하고 있다. 또한 유아부터 성인까지 다양한 연령층을 위한 교육 프로그램을 통해 지역 문화예술 교육의 거점 역할도 수행하고 있다. 송암미술관은 전시와 교육을 아우르며, 전통문화의 가치를 대중과 나누는 열린 문화공간으로 자리매김하고 있다. 송암미술관은 상설전시 공간으로 1층 공예실과 2층 서화실을 운영하고 있다. 1층 공예실은 2024년에 전시 개편을 통해 새롭게 구성되었으며, 고려시대부터 조선시대에 이르는 도자기와 공예품이 중심을 이룬다. 고려청자, 조선의 분청사기와 백자 등 시대별 도자기를 통해 한국 도자문화의 흐름을 살펴볼 수 있으며, 불교 조각과 민속 공예품도 함께 전시되어 있어 전통 생활문화와 신앙을 조망할 수 있는 공간이다. 2층 서화실은 조선 후기부터 근대에 이르는 서화 작품을 중심으로 구성되어 있다. 보물 제1997호인 ‘평양성도 병풍’을 비롯해, 겸재 정선의 ‘노송영지’, 김규진, 이도영, 안종원이 공동 제작한 ‘합작도’등 다양한 회화와 서예 작품이 전시되어 있다. 송암미술관의 야외 전시장은 자연 속에서 유물을 감상할 수 있는 공간으로, 관람객들에게 휴식과 사색의 시간을 제공한다. 문인석[文人石], 망주석[望柱石], 동자석[童子石] 등 다양한 전통 석조물과 광개토대왕릉비의 복제품이 실물 크기로 전시되어 있다 . 송암미술관에는 고대부터 현대까지 서화, 조각, 공예, 도자기 등 전 시대와 장르를 망라하여 총 9천여 점이 넘는 유물이 소장되어 있으며, 상설전은 주요 유물 300여점이 정기적으로 교체 전시됩니다. 송암문화재단이 인천광역시에 기증한 미술관은 고서화+불상+불기류+목가구+공예품+목판 등 9385점 소장",
+      "metadata": {
+        "holiday_close": "18:00",
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "name": "송암미술관",
+        "latitude": 37.4344431,
+        "longitude": 126.6417695433,
+        "image_copyright": "Type3",
+        "requires_manual_review": true,
+        "youth_fee": 0.0,
+        "address": "인천광역시 미추홀구 비류대로55번길 68",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/72/3490572_image2_1.jpg",
+        "adult_fee": 0.0,
+        "homepage_url": "https://www.incheon.go.kr/museum/MU020102",
+        "sido": "인천광역시",
+        "source_types": "BASE|TOUR_API",
+        "weekday_close": "18:00",
+        "child_fee": 0.0,
+        "sigungu": "미추홀구",
+        "holiday_open": "09:00",
+        "closure_rule_raw": "매주 월요일(공휴일인 월요일 제외), 1월 1일",
+        "ownership_type": "공립",
+        "weekday_open": "09:00"
+      },
+      "vector_rank": null,
+      "bm25_rank": 2,
+      "vector_distance": null,
+      "vector_score": null,
+      "bm25_score": 15.174737654709622,
+      "vector_document": "",
+      "bm25_document": "송암미술관은 인천광역시 미추홀구에 위치한 공립 미술관으로, 인천시립박물관의 분관이자 인천 유일의 시립 미술관이다. 1989년 고[故] 이회림 선생이 서울에서 사립 미술관으로 처음 개관하였으며, 1992년 인천으로 이전한 뒤 2005년에는 미술관 건물과 약 1만여 점의 소장품을 인천시에 기증하면서 공립 미술관으로 전환되었다. 이회림 선생은 ‘마지막 개성상인’으로 불릴 만큼 전통문화에 대한 깊은 애정을 지닌 인물로, 도자기, 회화, 공예품 등 다양한 분야의 유물을 수집해왔다. 송암미술관은 고대부터 근현대에 이르는 폭넓은 시대의 유물을 소장하고 있으며, 이를 바탕으로 한국 미술의 흐름과 아름다움을 소개하는 상설 및 기획 전시를 운영하고 있다. 또한 유아부터 성인까지 다양한 연령층을 위한 교육 프로그램을 통해 지역 문화예술 교육의 거점 역할도 수행하고 있다. 송암미술관은 전시와 교육을 아우르며, 전통문화의 가치를 대중과 나누는 열린 문화공간으로 자리매김하고 있다. 송암미술관은 상설전시 공간으로 1층 공예실과 2층 서화실을 운영하고 있다. 1층 공예실은 2024년에 전시 개편을 통해 새롭게 구성되었으며, 고려시대부터 조선시대에 이르는 도자기와 공예품이 중심을 이룬다. 고려청자, 조선의 분청사기와 백자 등 시대별 도자기를 통해 한국 도자문화의 흐름을 살펴볼 수 있으며, 불교 조각과 민속 공예품도 함께 전시되어 있어 전통 생활문화와 신앙을 조망할 수 있는 공간이다. 2층 서화실은 조선 후기부터 근대에 이르는 서화 작품을 중심으로 구성되어 있다. 보물 제1997호인 ‘평양성도 병풍’을 비롯해, 겸재 정선의 ‘노송영지’, 김규진, 이도영, 안종원이 공동 제작한 ‘합작도’등 다양한 회화와 서예 작품이 전시되어 있다. 송암미술관의 야외 전시장은 자연 속에서 유물을 감상할 수 있는 공간으로, 관람객들에게 휴식과 사색의 시간을 제공한다. 문인석[文人石], 망주석[望柱石], 동자석[童子石] 등 다양한 전통 석조물과 광개토대왕릉비의 복제품이 실물 크기로 전시되어 있다 . 송암미술관에는 고대부터 현대까지 서화, 조각, 공예, 도자기 등 전 시대와 장르를 망라하여 총 9천여 점이 넘는 유물이 소장되어 있으며, 상설전은 주요 유물 300여점이 정기적으로 교체 전시됩니다. 송암문화재단이 인천광역시에 기증한 미술관은 고서화+불상+불기류+목가구+공예품+목판 등 9385점 소장",
+      "best_span_id": "chroma:M0007",
+      "best_span_text": "송암미술관은 인천광역시 미추홀구에 위치한 공립 미술관으로, 인천시립박물관의 분관이자 인천 유일의 시립 미술관이다. 1989년 고[故] 이회림 선생이 서울에서 사립 미술관으로 처음 개관하였으며, 1992년 인천으로 이전한 뒤 2005년에는 미술관 건물과 약 1만여 점의 소장품을 인천시에 기증하면서 공립 미술관으로 전환되었다. 이회림 선생은 ‘마지막 개성상인’으로 불릴 만큼 전통문화에 대한 깊은 애정을 지닌 인물로, 도자기, 회화, 공예품 등 다양한 분야의 유물을 수집해왔다. 송암미술관은 고대부터 근현대에 이르는 폭넓은 시대의 유물을 소장하고 있으며, 이를 바탕으로 한국 미술의 흐름과 아름다움을 소개하는 상설 및 기획 전시를 운영하고 있다. 또한 유아부터 성인까지 다양한 연령층을 위한 교육 프로그램을 통해 지역 문화예술 교육의 거점 역할도 수행하고 있다. 송암미술관은 전시와 교육을 아우르며, 전통문화의 가치를 대중과 나누는 열린 문화공간으로 자리매김하고 있다. 송암미술관은 상설전시 공간으로 1층 공예실과 2층 서화실을 운영하고 있다. 1층 공예실은 2024년에 전시 개편을 통해 새롭게 구성되었으며, 고려시대부터 조선시대에 이르는 도자기와 공예품이 중심을 이룬다. 고려청자, 조선의 분청사기와 백자 등 시대별 도자기를 통해 한국 도자문화의 흐름을 살펴볼 수 있으며, 불교 조각과 민속 공예품도 함께 전시되어 있어 전통 생활문화와 신앙을 조망할 수 있는 공간이다. 2층 서화실은 조선 후기부터 근대에 이르는 서화 작품을 중심으로 구성되어 있다. 보물 제1997호인 ‘평양성도 병풍’을 비롯해, 겸재 정선의 ‘노송영지’, 김규진, 이도영, 안종원이 공동 제작한 ‘합작도’등 다양한 회화와 서예 작품이 전시되어 있다. 송암미술관의 야외 전시장은 자연 속에서 유물을 감상할 수 있는 공간으로, 관람객들에게 휴식과 사색의 시간을 제공한다. 문인석[文人石], 망주석[望柱石], 동자석[童子石] 등 다양한 전통 석조물과 광개토대왕릉비의 복제품이 실물 크기로 전시되어 있다 . 송암미술관에는 고대부터 현대까지 서화, 조각, 공예, 도자기 등 전 시대와 장르를 망라하여 총 9천여 점이 넘는 유물이 소장되어 있으며, 상설전은 주요 유물 300여점이 정기적으로 교체 전시됩니다. 송암문화재단이 인천광역시에 기증한 미술관은 고서화+불상+불기류+목가구+공예품+목판 등 9385점 소장",
+      "fusion_score": 0.016129032258064516,
+      "retrieved_by": [
+        "bm25"
+      ],
+      "fusion_rank": 4,
+      "rerank_score": 0.01724201813340187,
+      "rank": 3,
+      "score": 0.01724201813340187,
+      "score_type": "cross_encoder",
+      "distance": null,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "bm25"
+      ],
+      "retriever": "bm25",
+      "span_id": "chroma:M0007",
+      "source_doc_ids": [
+        "DOC-B0007-TOUR_API-130076",
+        "DOC-B0007-BASE",
+        "DOC-B0107-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0007-TOUR_API-130076",
+          "source_type": "TOUR_API",
+          "source_record_id": "130076",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=7",
+          "match_trust": "RECHECKED_BY_RULE_NOT_HUMAN_APPROVED"
+        },
+        {
+          "doc_id": "DOC-B0007-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0007",
+          "source_locator": "data/raw/museum_base_1070.csv#row=8",
+          "match_trust": "BASE_SOURCE"
+        },
+        {
+          "doc_id": "DOC-B0107-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0107",
+          "source_locator": "data/raw/museum_base_1070.csv#row=108",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 63,
+          "doc_ids": [
+            "DOC-B0007-TOUR_API-130076"
+          ]
+        },
+        {
+          "start": 64,
+          "end": 181,
+          "doc_ids": [
+            "DOC-B0007-TOUR_API-130076"
+          ]
+        },
+        {
+          "start": 182,
+          "end": 266,
+          "doc_ids": [
+            "DOC-B0007-TOUR_API-130076"
+          ]
+        },
+        {
+          "start": 267,
+          "end": 360,
+          "doc_ids": [
+            "DOC-B0007-TOUR_API-130076"
+          ]
+        },
+        {
+          "start": 361,
+          "end": 425,
+          "doc_ids": [
+            "DOC-B0007-TOUR_API-130076"
+          ]
+        },
+        {
+          "start": 426,
+          "end": 485,
+          "doc_ids": [
+            "DOC-B0007-TOUR_API-130076"
+          ]
+        },
+        {
+          "start": 486,
+          "end": 527,
+          "doc_ids": [
+            "DOC-B0007-TOUR_API-130076"
+          ]
+        },
+        {
+          "start": 528,
+          "end": 600,
+          "doc_ids": [
+            "DOC-B0007-TOUR_API-130076"
+          ]
+        },
+        {
+          "start": 601,
+          "end": 711,
+          "doc_ids": [
+            "DOC-B0007-TOUR_API-130076"
+          ]
+        },
+        {
+          "start": 712,
+          "end": 756,
+          "doc_ids": [
+            "DOC-B0007-TOUR_API-130076"
+          ]
+        },
+        {
+          "start": 757,
+          "end": 851,
+          "doc_ids": [
+            "DOC-B0007-TOUR_API-130076"
+          ]
+        },
+        {
+          "start": 852,
+          "end": 917,
+          "doc_ids": [
+            "DOC-B0007-TOUR_API-130076"
+          ]
+        },
+        {
+          "start": 918,
+          "end": 991,
+          "doc_ids": [
+            "DOC-B0007-TOUR_API-130076"
+          ]
+        },
+        {
+          "start": 992,
+          "end": 1102,
+          "doc_ids": [
+            "DOC-B0007-BASE"
+          ]
+        },
+        {
+          "start": 1103,
+          "end": 1159,
+          "doc_ids": [
+            "DOC-B0107-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=7",
+      "text": "송암미술관은 인천광역시 미추홀구에 위치한 공립 미술관으로, 인천시립박물관의 분관이자 인천 유일의 시립 미술관이다. 1989년 고[故] 이회림 선생이 서울에서 사립 미술관으로 처음 개관하였으며, 1992년 인천으로 이전한 뒤 2005년에는 미술관 건물과 약 1만여 점의 소장품을 인천시에 기증하면서 공립 미술관으로 전환되었다. 이회림 선생은 ‘마지막 개성상인’으로 불릴 만큼 전통문화에 대한 깊은 애정을 지닌 인물로, 도자기, 회화, 공예품 등 다양한 분야의 유물을 수집해왔다. 송암미술관은 고대부터 근현대에 이르는 폭넓은 시대의 유물을 소장하고 있으며, 이를 바탕으로 한국 미술의 흐름과 아름다움을 소개하는 상설 및 기획 전시를 운영하고 있다. 또한 유아부터 성인까지 다양한 연령층을 위한 교육 프로그램을 통해 지역 문화예술 교육의 거점 역할도 수행하고 있다. 송암미술관은 전시와 교육을 아우르며, 전통문화의 가치를 대중과 나누는 열린 문화공간으로 자리매김하고 있다. 송암미술관은 상설전시 공간으로 1층 공예실과 2층 서화실을 운영하고 있다. 1층 공예실은 2024년에 전시 개편을 통해 새롭게 구성되었으며, 고려시대부터 조선시대에 이르는 도자기와 공예품이 중심을 이룬다. 고려청자, 조선의 분청사기와 백자 등 시대별 도자기를 통해 한국 도자문화의 흐름을 살펴볼 수 있으며, 불교 조각과 민속 공예품도 함께 전시되어 있어 전통 생활문화와 신앙을 조망할 수 있는 공간이다. 2층 서화실은 조선 후기부터 근대에 이르는 서화 작품을 중심으로 구성되어 있다. 보물 제1997호인 ‘평양성도 병풍’을 비롯해, 겸재 정선의 ‘노송영지’, 김규진, 이도영, 안종원이 공동 제작한 ‘합작도’등 다양한 회화와 서예 작품이 전시되어 있다. 송암미술관의 야외 전시장은 자연 속에서 유물을 감상할 수 있는 공간으로, 관람객들에게 휴식과 사색의 시간을 제공한다. 문인석[文人石], 망주석[望柱石], 동자석[童子石] 등 다양한 전통 석조물과 광개토대왕릉비의 복제품이 실물 크기로 전시되어 있다 . 송암미술관에는 고대부터 현대까지 서화, 조각, 공예, 도자기 등 전 시대와 장르를 망라하여 총 9천여 점이 넘는 유물이 소장되어 있으며, 상설전은 주요 유물 300여점이 정기적으로 교체 전시됩니다. 송암문화재단이 인천광역시에 기증한 미술관은 고서화+불상+불기류+목가구+공예품+목판 등 9385점 소장",
+      "sido": "인천광역시",
+      "sigungu": "미추홀구",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=7"
+      ],
+      "evidence_id": "E3",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=7",
+        "fields": {
+          "name": "송암미술관",
+          "sido": "인천광역시",
+          "sigungu": "미추홀구",
+          "address": "인천광역시 미추홀구 비류대로55번길 68",
+          "ownership_type": "공립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "09:00",
+          "weekday_close": "18:00",
+          "holiday_open": "09:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "매주 월요일(공휴일인 월요일 제외), 1월 1일"
+        },
+        "base_data_date": "2026-09-18",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0430",
+      "name": "거제박물관",
+      "document": "거제박물관은 거제문화재단 산하의 기관으로서, 1991년 12월 21일에 개관하여, 1992년 문화관광부에 등록한 종합박물관(민속, 고고분야)으로서 거제의 역사와 민속에 관한 자료를 수집, 정리, 연구, 전시하고 있다. 1층은 기획전시실 공간으로 지역 내의 여러 문화행사(전시행사)를 개최할 수 있게 되어 있으며, 2층은 민속실로 거제에서 채집한 민속품이 진열되어 있는데, 섬이라는 환경조건으로 반농반어의 생산 형태를 갖게 되어 농경과 수산에 관계되는 용구가 많이 있다. 3층은 선사시대부터 조선시대까지의 다양한 유물이 전시되어 있다. 이러한 박물관 본연의 사업 외에 난, 수석, 사진 등의 지역 주민을 위한 일반 전시회와 민속품, 소장품 등의 기획 전시, 유물 사생대회와 클래식 음악회, 명사초청 강연회와 가족캠프 등의 문화와 예술에 관한 많은 사업들을 진행하고 있으며, 특히 박물관 대학과 대학원 등을 통해 지역민의 교양을 넓히고, 새로운 정보를 제공하는 사회교육 기능도 하고 있다. 도류+토기+민속품+고서+서화류 등 3500여점 소장",
+      "metadata": {
+        "sigungu": "거제시",
+        "adult_fee_status": "BASE_FEE_PAID",
+        "longitude": 128.6862106,
+        "sido": "경상남도",
+        "holiday_close": "18:00",
+        "address": "경상남도 거제시 거제대로 3791",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/71/3520971_image2_1.jpg",
+        "image_copyright": "Type1",
+        "latitude": 34.894053,
+        "closure_rule_raw": "월요일+설당일+추석당일",
+        "youth_fee": 2000.0,
+        "requires_manual_review": true,
+        "ownership_type": "사립",
+        "child_fee": 1500.0,
+        "name": "거제박물관",
+        "holiday_open": "09:00",
+        "source_types": "BASE|TOUR_API",
+        "adult_fee": 3000.0,
+        "homepage_url": "http://gjmuseum.or.kr/",
+        "weekday_close": "18:00",
+        "weekday_open": "09:00",
+        "fee_notes": "할인(경로우대, 국가유공자, 장애인, 단체(20인 이상))+무료입장(병역명문가)"
+      },
+      "vector_rank": null,
+      "bm25_rank": 4,
+      "vector_distance": null,
+      "vector_score": null,
+      "bm25_score": 14.855326865127422,
+      "vector_document": "",
+      "bm25_document": "거제박물관은 거제문화재단 산하의 기관으로서, 1991년 12월 21일에 개관하여, 1992년 문화관광부에 등록한 종합박물관(민속, 고고분야)으로서 거제의 역사와 민속에 관한 자료를 수집, 정리, 연구, 전시하고 있다. 1층은 기획전시실 공간으로 지역 내의 여러 문화행사(전시행사)를 개최할 수 있게 되어 있으며, 2층은 민속실로 거제에서 채집한 민속품이 진열되어 있는데, 섬이라는 환경조건으로 반농반어의 생산 형태를 갖게 되어 농경과 수산에 관계되는 용구가 많이 있다. 3층은 선사시대부터 조선시대까지의 다양한 유물이 전시되어 있다. 이러한 박물관 본연의 사업 외에 난, 수석, 사진 등의 지역 주민을 위한 일반 전시회와 민속품, 소장품 등의 기획 전시, 유물 사생대회와 클래식 음악회, 명사초청 강연회와 가족캠프 등의 문화와 예술에 관한 많은 사업들을 진행하고 있으며, 특히 박물관 대학과 대학원 등을 통해 지역민의 교양을 넓히고, 새로운 정보를 제공하는 사회교육 기능도 하고 있다. 도류+토기+민속품+고서+서화류 등 3500여점 소장",
+      "best_span_id": "chroma:M0430",
+      "best_span_text": "거제박물관은 거제문화재단 산하의 기관으로서, 1991년 12월 21일에 개관하여, 1992년 문화관광부에 등록한 종합박물관(민속, 고고분야)으로서 거제의 역사와 민속에 관한 자료를 수집, 정리, 연구, 전시하고 있다. 1층은 기획전시실 공간으로 지역 내의 여러 문화행사(전시행사)를 개최할 수 있게 되어 있으며, 2층은 민속실로 거제에서 채집한 민속품이 진열되어 있는데, 섬이라는 환경조건으로 반농반어의 생산 형태를 갖게 되어 농경과 수산에 관계되는 용구가 많이 있다. 3층은 선사시대부터 조선시대까지의 다양한 유물이 전시되어 있다. 이러한 박물관 본연의 사업 외에 난, 수석, 사진 등의 지역 주민을 위한 일반 전시회와 민속품, 소장품 등의 기획 전시, 유물 사생대회와 클래식 음악회, 명사초청 강연회와 가족캠프 등의 문화와 예술에 관한 많은 사업들을 진행하고 있으며, 특히 박물관 대학과 대학원 등을 통해 지역민의 교양을 넓히고, 새로운 정보를 제공하는 사회교육 기능도 하고 있다. 도류+토기+민속품+고서+서화류 등 3500여점 소장",
+      "fusion_score": 0.015625,
+      "retrieved_by": [
+        "bm25"
+      ],
+      "fusion_rank": 8,
+      "rerank_score": 0.01052263006567955,
+      "rank": 4,
+      "score": 0.01052263006567955,
+      "score_type": "cross_encoder",
+      "distance": null,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "bm25"
+      ],
+      "retriever": "bm25",
+      "span_id": "chroma:M0430",
+      "source_doc_ids": [
+        "DOC-B0430-TOUR_API-129805",
+        "DOC-B0430-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0430-TOUR_API-129805",
+          "source_type": "TOUR_API",
+          "source_record_id": "129805",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=204",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        },
+        {
+          "doc_id": "DOC-B0430-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0430",
+          "source_locator": "data/raw/museum_base_1070.csv#row=431",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 121,
+          "doc_ids": [
+            "DOC-B0430-TOUR_API-129805"
+          ]
+        },
+        {
+          "start": 122,
+          "end": 262,
+          "doc_ids": [
+            "DOC-B0430-TOUR_API-129805"
+          ]
+        },
+        {
+          "start": 263,
+          "end": 298,
+          "doc_ids": [
+            "DOC-B0430-TOUR_API-129805"
+          ]
+        },
+        {
+          "start": 299,
+          "end": 495,
+          "doc_ids": [
+            "DOC-B0430-TOUR_API-129805"
+          ]
+        },
+        {
+          "start": 496,
+          "end": 524,
+          "doc_ids": [
+            "DOC-B0430-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=204",
+      "text": "거제박물관은 거제문화재단 산하의 기관으로서, 1991년 12월 21일에 개관하여, 1992년 문화관광부에 등록한 종합박물관(민속, 고고분야)으로서 거제의 역사와 민속에 관한 자료를 수집, 정리, 연구, 전시하고 있다. 1층은 기획전시실 공간으로 지역 내의 여러 문화행사(전시행사)를 개최할 수 있게 되어 있으며, 2층은 민속실로 거제에서 채집한 민속품이 진열되어 있는데, 섬이라는 환경조건으로 반농반어의 생산 형태를 갖게 되어 농경과 수산에 관계되는 용구가 많이 있다. 3층은 선사시대부터 조선시대까지의 다양한 유물이 전시되어 있다. 이러한 박물관 본연의 사업 외에 난, 수석, 사진 등의 지역 주민을 위한 일반 전시회와 민속품, 소장품 등의 기획 전시, 유물 사생대회와 클래식 음악회, 명사초청 강연회와 가족캠프 등의 문화와 예술에 관한 많은 사업들을 진행하고 있으며, 특히 박물관 대학과 대학원 등을 통해 지역민의 교양을 넓히고, 새로운 정보를 제공하는 사회교육 기능도 하고 있다. 도류+토기+민속품+고서+서화류 등 3500여점 소장",
+      "sido": "경상남도",
+      "sigungu": "거제시",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=204"
+      ],
+      "evidence_id": "E4",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=304",
+        "fields": {
+          "name": "거제박물관",
+          "sido": "경상남도",
+          "sigungu": "거제시",
+          "address": "경상남도 거제시 거제대로 3791",
+          "ownership_type": "사립",
+          "adult_fee": "3000",
+          "youth_fee": "2000",
+          "child_fee": "1500",
+          "adult_fee_status": "BASE_FEE_PAID",
+          "weekday_open": "09:00",
+          "weekday_close": "18:00",
+          "holiday_open": "09:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "월요일+설당일+추석당일"
+        },
+        "base_data_date": "2026-03-26",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0972",
+      "name": "금산역사문화박물관",
+      "document": "금산역사문화박물관은 금산의 역사와 문화를 한자리에서 살펴볼 수 있는 공간이다. 1층은 금산 역사관, 2층은 금산 생활 민속관으로 나뉜다. 금산에 인류가 첫발을 내디딘 구석기시대부터 백제와 신라가 금산을 두고 각축전을 벌였던 삼국시대, 원나라에서 벼슬을 한 공을 인정받아 고향인 금산을 금주(錦州)로 승격시킨 성리학자 김신이 활동했던 고려, 조선왕조의 태실을 묻을 만큼 길지로 평가받았던 조선, 금산군수 홍범식을 비롯한 독립운동의 역사를 간직한 근현대가 순서대로 이어진다. 금산 생활 민속관에는 과거 전라북도에 속했던 터라 전라좌도농악의 특징이 녹아있는 금산농악과 세계중요농업유산으로 선정된 금산의 인삼 농사 기술을 만나볼 수 있다. 또 세계 각국의 생활 민속을 함께 비교해 볼 수 있는 지구촌 생활 민속실도 마련돼 있다. 금산역사문화박물관은 지하1층 지상3층 규모로 1층 금산역사관에는 선사시대부터 근현대까지 금산의 역사와 발굴유물을 전시하고 있으며 2층 금산생활민속관에는 금산의 민속유물과 세계민속유물을 전시하고 있습니다.",
+      "metadata": {
+        "sigungu": "금산군",
+        "child_fee": 0.0,
+        "latitude": 36.1141664,
+        "weekday_close": "18:00",
+        "homepage_url": "https://www.geumsan.go.kr/museum/",
+        "youth_fee": 0.0,
+        "longitude": 127.4918544,
+        "sido": "충청남도",
+        "holiday_close": "18:00",
+        "image_copyright": "Type1",
+        "adult_fee": 0.0,
+        "address": "충청남도 금산군 금산읍 금산로 1575",
+        "name": "금산역사문화박물관",
+        "holiday_open": "09:00",
+        "requires_manual_review": true,
+        "source_types": "BASE|TOUR_API",
+        "weekday_open": "09:00",
+        "closure_rule_raw": "월+1월1일+설 당일+추석 당일",
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/86/3559586_image2_1.jpg",
+        "ownership_type": "공립"
+      },
+      "vector_rank": null,
+      "bm25_rank": 3,
+      "vector_distance": null,
+      "vector_score": null,
+      "bm25_score": 15.043334026147825,
+      "vector_document": "",
+      "bm25_document": "금산역사문화박물관은 금산의 역사와 문화를 한자리에서 살펴볼 수 있는 공간이다. 1층은 금산 역사관, 2층은 금산 생활 민속관으로 나뉜다. 금산에 인류가 첫발을 내디딘 구석기시대부터 백제와 신라가 금산을 두고 각축전을 벌였던 삼국시대, 원나라에서 벼슬을 한 공을 인정받아 고향인 금산을 금주(錦州)로 승격시킨 성리학자 김신이 활동했던 고려, 조선왕조의 태실을 묻을 만큼 길지로 평가받았던 조선, 금산군수 홍범식을 비롯한 독립운동의 역사를 간직한 근현대가 순서대로 이어진다. 금산 생활 민속관에는 과거 전라북도에 속했던 터라 전라좌도농악의 특징이 녹아있는 금산농악과 세계중요농업유산으로 선정된 금산의 인삼 농사 기술을 만나볼 수 있다. 또 세계 각국의 생활 민속을 함께 비교해 볼 수 있는 지구촌 생활 민속실도 마련돼 있다. 금산역사문화박물관은 지하1층 지상3층 규모로 1층 금산역사관에는 선사시대부터 근현대까지 금산의 역사와 발굴유물을 전시하고 있으며 2층 금산생활민속관에는 금산의 민속유물과 세계민속유물을 전시하고 있습니다.",
+      "best_span_id": "chroma:M0972",
+      "best_span_text": "금산역사문화박물관은 금산의 역사와 문화를 한자리에서 살펴볼 수 있는 공간이다. 1층은 금산 역사관, 2층은 금산 생활 민속관으로 나뉜다. 금산에 인류가 첫발을 내디딘 구석기시대부터 백제와 신라가 금산을 두고 각축전을 벌였던 삼국시대, 원나라에서 벼슬을 한 공을 인정받아 고향인 금산을 금주(錦州)로 승격시킨 성리학자 김신이 활동했던 고려, 조선왕조의 태실을 묻을 만큼 길지로 평가받았던 조선, 금산군수 홍범식을 비롯한 독립운동의 역사를 간직한 근현대가 순서대로 이어진다. 금산 생활 민속관에는 과거 전라북도에 속했던 터라 전라좌도농악의 특징이 녹아있는 금산농악과 세계중요농업유산으로 선정된 금산의 인삼 농사 기술을 만나볼 수 있다. 또 세계 각국의 생활 민속을 함께 비교해 볼 수 있는 지구촌 생활 민속실도 마련돼 있다. 금산역사문화박물관은 지하1층 지상3층 규모로 1층 금산역사관에는 선사시대부터 근현대까지 금산의 역사와 발굴유물을 전시하고 있으며 2층 금산생활민속관에는 금산의 민속유물과 세계민속유물을 전시하고 있습니다.",
+      "fusion_score": 0.015873015873015872,
+      "retrieved_by": [
+        "bm25"
+      ],
+      "fusion_rank": 6,
+      "rerank_score": 0.009943410754203796,
+      "rank": 5,
+      "score": 0.009943410754203796,
+      "score_type": "cross_encoder",
+      "distance": null,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "bm25"
+      ],
+      "retriever": "bm25",
+      "span_id": "chroma:M0972",
+      "source_doc_ids": [
+        "DOC-B0972-TOUR_API-2782404",
+        "DOC-B0972-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0972-TOUR_API-2782404",
+          "source_type": "TOUR_API",
+          "source_record_id": "2782404",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=456",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        },
+        {
+          "doc_id": "DOC-B0972-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0972",
+          "source_locator": "data/raw/museum_base_1070.csv#row=973",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 43,
+          "doc_ids": [
+            "DOC-B0972-TOUR_API-2782404"
+          ]
+        },
+        {
+          "start": 44,
+          "end": 76,
+          "doc_ids": [
+            "DOC-B0972-TOUR_API-2782404"
+          ]
+        },
+        {
+          "start": 77,
+          "end": 263,
+          "doc_ids": [
+            "DOC-B0972-TOUR_API-2782404"
+          ]
+        },
+        {
+          "start": 264,
+          "end": 353,
+          "doc_ids": [
+            "DOC-B0972-TOUR_API-2782404"
+          ]
+        },
+        {
+          "start": 354,
+          "end": 403,
+          "doc_ids": [
+            "DOC-B0972-TOUR_API-2782404"
+          ]
+        },
+        {
+          "start": 404,
+          "end": 517,
+          "doc_ids": [
+            "DOC-B0972-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=456",
+      "text": "금산역사문화박물관은 금산의 역사와 문화를 한자리에서 살펴볼 수 있는 공간이다. 1층은 금산 역사관, 2층은 금산 생활 민속관으로 나뉜다. 금산에 인류가 첫발을 내디딘 구석기시대부터 백제와 신라가 금산을 두고 각축전을 벌였던 삼국시대, 원나라에서 벼슬을 한 공을 인정받아 고향인 금산을 금주(錦州)로 승격시킨 성리학자 김신이 활동했던 고려, 조선왕조의 태실을 묻을 만큼 길지로 평가받았던 조선, 금산군수 홍범식을 비롯한 독립운동의 역사를 간직한 근현대가 순서대로 이어진다. 금산 생활 민속관에는 과거 전라북도에 속했던 터라 전라좌도농악의 특징이 녹아있는 금산농악과 세계중요농업유산으로 선정된 금산의 인삼 농사 기술을 만나볼 수 있다. 또 세계 각국의 생활 민속을 함께 비교해 볼 수 있는 지구촌 생활 민속실도 마련돼 있다. 금산역사문화박물관은 지하1층 지상3층 규모로 1층 금산역사관에는 선사시대부터 근현대까지 금산의 역사와 발굴유물을 전시하고 있으며 2층 금산생활민속관에는 금산의 민속유물과 세계민속유물을 전시하고 있습니다.",
+      "sido": "충청남도",
+      "sigungu": "금산군",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=456"
+      ],
+      "evidence_id": "E5",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=668",
+        "fields": {
+          "name": "금산역사문화박물관",
+          "sido": "충청남도",
+          "sigungu": "금산군",
+          "address": "충청남도 금산군 금산읍 금산로 1575",
+          "ownership_type": "공립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "09:00",
+          "weekday_close": "18:00",
+          "holiday_open": "09:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "월+1월1일+설 당일+추석 당일"
+        },
+        "base_data_date": "2025-11-19",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    }
+  ],
+  "answer": "4층 도자·서화·생활민속실에는 소장품 중 엄선한 대표 도자기·서화·민속품이 전시되어 있습니다. 전시는 화려하고 섬세한 공예 기술과 다양한 서화·생활 도구를 통해 당시 사람들의 삶과 문화를 이해할 수 있도록 구성되어 있습니다. [E1]",
+  "retrieval_status": "ok",
+  "answer_status": "answered",
+  "route": "hybrid",
+  "retry_count": 1,
+  "supervisor_verified": true,
+  "rerank_applied": true,
+  "retriever_errors": [],
+  "warnings": [],
+  "duration_ms": 149846.15,
+  "error_type": "",
+  "hit_at_1": 1,
+  "hit_at_3": 1,
+  "hit_at_5": 1,
+  "recall_at_5": 1.0,
+  "mrr_at_10": 1.0
+}

@@ -1,0 +1,715 @@
+{
+  "mode": "supervisor_full",
+  "question_id": "Q247",
+  "evidence": [
+    {
+      "museum_id": "M0431",
+      "name": "거제민속박물관",
+      "document": "연초면 대금산 아래 위치한 거제민속박물관은 명동초등학교가 폐교한 후 사립 박물관으로 탈바꿈한 곳이다. 오랜 기간 동안 수집한 농경·민속·서화 등 민속자료 5,500여 점이 전시되어 있는 자료관으로 문화관광부에 등록되어 있으며 전시관 부지 내에 곤충생태원이 위치하고 있어 다양한 볼거리가 있는 곳이다. 박물관이라고 하기에 규모는 조금 작으나 민속공예품 등이 아기자기하게 전시되어 있어 아이와 함께 둘러보며 감상하기 좋으며 어른들에게는 옛 추억을 되새기게 하는 소품들이 많다. 민속품+고서화+옹기+고가구+농기구 등 29000여점 소장",
+      "metadata": {
+        "sido": "경상남도",
+        "requires_manual_review": true,
+        "weekday_open": "09:30",
+        "longitude": 128.677436,
+        "sigungu": "거제시",
+        "homepage_url": "https://www.geoje.go.kr",
+        "closure_rule_raw": "일요일",
+        "youth_fee": 1000.0,
+        "adult_fee_status": "BASE_FEE_PAID",
+        "address": "경상남도 거제시 연초면 대금산로 339-7",
+        "holiday_open": "09:30",
+        "latitude": 34.95011436,
+        "ownership_type": "사립",
+        "adult_fee": 2000.0,
+        "weekday_close": "16:30",
+        "name": "거제민속박물관",
+        "holiday_close": "16:30",
+        "source_types": "BASE|TOUR_API",
+        "fee_notes": "할인(단체)",
+        "child_fee": 1000.0
+      },
+      "vector_rank": 1,
+      "bm25_rank": 2,
+      "vector_distance": 0.49160289764404297,
+      "vector_score": null,
+      "bm25_score": 34.737132219659664,
+      "vector_document": "연초면 대금산 아래 위치한 거제민속박물관은 명동초등학교가 폐교한 후 사립 박물관으로 탈바꿈한 곳이다. 오랜 기간 동안 수집한 농경·민속·서화 등 민속자료 5,500여 점이 전시되어 있는 자료관으로 문화관광부에 등록되어 있으며 전시관 부지 내에 곤충생태원이 위치하고 있어 다양한 볼거리가 있는 곳이다. 박물관이라고 하기에 규모는 조금 작으나 민속공예품 등이 아기자기하게 전시되어 있어 아이와 함께 둘러보며 감상하기 좋으며 어른들에게는 옛 추억을 되새기게 하는 소품들이 많다. 민속품+고서화+옹기+고가구+농기구 등 29000여점 소장",
+      "bm25_document": "연초면 대금산 아래 위치한 거제민속박물관은 명동초등학교가 폐교한 후 사립 박물관으로 탈바꿈한 곳이다. 오랜 기간 동안 수집한 농경·민속·서화 등 민속자료 5,500여 점이 전시되어 있는 자료관으로 문화관광부에 등록되어 있으며 전시관 부지 내에 곤충생태원이 위치하고 있어 다양한 볼거리가 있는 곳이다. 박물관이라고 하기에 규모는 조금 작으나 민속공예품 등이 아기자기하게 전시되어 있어 아이와 함께 둘러보며 감상하기 좋으며 어른들에게는 옛 추억을 되새기게 하는 소품들이 많다. 민속품+고서화+옹기+고가구+농기구 등 29000여점 소장",
+      "best_span_id": "chroma:M0431",
+      "best_span_text": "연초면 대금산 아래 위치한 거제민속박물관은 명동초등학교가 폐교한 후 사립 박물관으로 탈바꿈한 곳이다. 오랜 기간 동안 수집한 농경·민속·서화 등 민속자료 5,500여 점이 전시되어 있는 자료관으로 문화관광부에 등록되어 있으며 전시관 부지 내에 곤충생태원이 위치하고 있어 다양한 볼거리가 있는 곳이다. 박물관이라고 하기에 규모는 조금 작으나 민속공예품 등이 아기자기하게 전시되어 있어 아이와 함께 둘러보며 감상하기 좋으며 어른들에게는 옛 추억을 되새기게 하는 소품들이 많다. 민속품+고서화+옹기+고가구+농기구 등 29000여점 소장",
+      "fusion_score": 0.03252247488101534,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 1,
+      "name_match": true,
+      "rerank_score": 0.9998103976249695,
+      "rank": 1,
+      "score": 0.9998103976249695,
+      "score_type": "cross_encoder",
+      "distance": 0.49160289764404297,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0431",
+      "source_doc_ids": [
+        "DOC-B0431-TOUR_API-1622150",
+        "DOC-B0431-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0431-TOUR_API-1622150",
+          "source_type": "TOUR_API",
+          "source_record_id": "1622150",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=205",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        },
+        {
+          "doc_id": "DOC-B0431-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0431",
+          "source_locator": "data/raw/museum_base_1070.csv#row=432",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 56,
+          "doc_ids": [
+            "DOC-B0431-TOUR_API-1622150"
+          ]
+        },
+        {
+          "start": 57,
+          "end": 167,
+          "doc_ids": [
+            "DOC-B0431-TOUR_API-1622150"
+          ]
+        },
+        {
+          "start": 168,
+          "end": 264,
+          "doc_ids": [
+            "DOC-B0431-TOUR_API-1622150"
+          ]
+        },
+        {
+          "start": 265,
+          "end": 296,
+          "doc_ids": [
+            "DOC-B0431-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=205",
+      "text": "연초면 대금산 아래 위치한 거제민속박물관은 명동초등학교가 폐교한 후 사립 박물관으로 탈바꿈한 곳이다. 오랜 기간 동안 수집한 농경·민속·서화 등 민속자료 5,500여 점이 전시되어 있는 자료관으로 문화관광부에 등록되어 있으며 전시관 부지 내에 곤충생태원이 위치하고 있어 다양한 볼거리가 있는 곳이다. 박물관이라고 하기에 규모는 조금 작으나 민속공예품 등이 아기자기하게 전시되어 있어 아이와 함께 둘러보며 감상하기 좋으며 어른들에게는 옛 추억을 되새기게 하는 소품들이 많다. 민속품+고서화+옹기+고가구+농기구 등 29000여점 소장",
+      "sido": "경상남도",
+      "sigungu": "거제시",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=205"
+      ],
+      "evidence_id": "E1",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=305",
+        "fields": {
+          "name": "거제민속박물관",
+          "sido": "경상남도",
+          "sigungu": "거제시",
+          "address": "경상남도 거제시 연초면 대금산로 339-7",
+          "ownership_type": "사립",
+          "adult_fee": "2000",
+          "youth_fee": "1000",
+          "child_fee": "1000",
+          "adult_fee_status": "BASE_FEE_PAID",
+          "weekday_open": "09:30",
+          "weekday_close": "16:30",
+          "holiday_open": "09:30",
+          "holiday_close": "16:30",
+          "closure_rule_raw": "일요일"
+        },
+        "base_data_date": "2026-03-26",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0430",
+      "name": "거제박물관",
+      "document": "거제박물관은 거제문화재단 산하의 기관으로서, 1991년 12월 21일에 개관하여, 1992년 문화관광부에 등록한 종합박물관(민속, 고고분야)으로서 거제의 역사와 민속에 관한 자료를 수집, 정리, 연구, 전시하고 있다. 1층은 기획전시실 공간으로 지역 내의 여러 문화행사(전시행사)를 개최할 수 있게 되어 있으며, 2층은 민속실로 거제에서 채집한 민속품이 진열되어 있는데, 섬이라는 환경조건으로 반농반어의 생산 형태를 갖게 되어 농경과 수산에 관계되는 용구가 많이 있다. 3층은 선사시대부터 조선시대까지의 다양한 유물이 전시되어 있다. 이러한 박물관 본연의 사업 외에 난, 수석, 사진 등의 지역 주민을 위한 일반 전시회와 민속품, 소장품 등의 기획 전시, 유물 사생대회와 클래식 음악회, 명사초청 강연회와 가족캠프 등의 문화와 예술에 관한 많은 사업들을 진행하고 있으며, 특히 박물관 대학과 대학원 등을 통해 지역민의 교양을 넓히고, 새로운 정보를 제공하는 사회교육 기능도 하고 있다. 도류+토기+민속품+고서+서화류 등 3500여점 소장",
+      "metadata": {
+        "sigungu": "거제시",
+        "adult_fee_status": "BASE_FEE_PAID",
+        "longitude": 128.6862106,
+        "sido": "경상남도",
+        "holiday_close": "18:00",
+        "address": "경상남도 거제시 거제대로 3791",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/71/3520971_image2_1.jpg",
+        "image_copyright": "Type1",
+        "latitude": 34.894053,
+        "closure_rule_raw": "월요일+설당일+추석당일",
+        "youth_fee": 2000.0,
+        "requires_manual_review": true,
+        "ownership_type": "사립",
+        "child_fee": 1500.0,
+        "name": "거제박물관",
+        "holiday_open": "09:00",
+        "source_types": "BASE|TOUR_API",
+        "adult_fee": 3000.0,
+        "homepage_url": "http://gjmuseum.or.kr/",
+        "weekday_close": "18:00",
+        "weekday_open": "09:00",
+        "fee_notes": "할인(경로우대, 국가유공자, 장애인, 단체(20인 이상))+무료입장(병역명문가)"
+      },
+      "vector_rank": null,
+      "bm25_rank": 1,
+      "vector_distance": null,
+      "vector_score": null,
+      "bm25_score": 37.10416998143984,
+      "vector_document": "",
+      "bm25_document": "거제박물관은 거제문화재단 산하의 기관으로서, 1991년 12월 21일에 개관하여, 1992년 문화관광부에 등록한 종합박물관(민속, 고고분야)으로서 거제의 역사와 민속에 관한 자료를 수집, 정리, 연구, 전시하고 있다. 1층은 기획전시실 공간으로 지역 내의 여러 문화행사(전시행사)를 개최할 수 있게 되어 있으며, 2층은 민속실로 거제에서 채집한 민속품이 진열되어 있는데, 섬이라는 환경조건으로 반농반어의 생산 형태를 갖게 되어 농경과 수산에 관계되는 용구가 많이 있다. 3층은 선사시대부터 조선시대까지의 다양한 유물이 전시되어 있다. 이러한 박물관 본연의 사업 외에 난, 수석, 사진 등의 지역 주민을 위한 일반 전시회와 민속품, 소장품 등의 기획 전시, 유물 사생대회와 클래식 음악회, 명사초청 강연회와 가족캠프 등의 문화와 예술에 관한 많은 사업들을 진행하고 있으며, 특히 박물관 대학과 대학원 등을 통해 지역민의 교양을 넓히고, 새로운 정보를 제공하는 사회교육 기능도 하고 있다. 도류+토기+민속품+고서+서화류 등 3500여점 소장",
+      "best_span_id": "chroma:M0430",
+      "best_span_text": "거제박물관은 거제문화재단 산하의 기관으로서, 1991년 12월 21일에 개관하여, 1992년 문화관광부에 등록한 종합박물관(민속, 고고분야)으로서 거제의 역사와 민속에 관한 자료를 수집, 정리, 연구, 전시하고 있다. 1층은 기획전시실 공간으로 지역 내의 여러 문화행사(전시행사)를 개최할 수 있게 되어 있으며, 2층은 민속실로 거제에서 채집한 민속품이 진열되어 있는데, 섬이라는 환경조건으로 반농반어의 생산 형태를 갖게 되어 농경과 수산에 관계되는 용구가 많이 있다. 3층은 선사시대부터 조선시대까지의 다양한 유물이 전시되어 있다. 이러한 박물관 본연의 사업 외에 난, 수석, 사진 등의 지역 주민을 위한 일반 전시회와 민속품, 소장품 등의 기획 전시, 유물 사생대회와 클래식 음악회, 명사초청 강연회와 가족캠프 등의 문화와 예술에 관한 많은 사업들을 진행하고 있으며, 특히 박물관 대학과 대학원 등을 통해 지역민의 교양을 넓히고, 새로운 정보를 제공하는 사회교육 기능도 하고 있다. 도류+토기+민속품+고서+서화류 등 3500여점 소장",
+      "fusion_score": 0.01639344262295082,
+      "retrieved_by": [
+        "bm25"
+      ],
+      "fusion_rank": 11,
+      "rerank_score": 0.9914291501045227,
+      "rank": 2,
+      "score": 0.9914291501045227,
+      "score_type": "cross_encoder",
+      "distance": null,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "bm25"
+      ],
+      "retriever": "bm25",
+      "span_id": "chroma:M0430",
+      "source_doc_ids": [
+        "DOC-B0430-TOUR_API-129805",
+        "DOC-B0430-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0430-TOUR_API-129805",
+          "source_type": "TOUR_API",
+          "source_record_id": "129805",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=204",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        },
+        {
+          "doc_id": "DOC-B0430-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0430",
+          "source_locator": "data/raw/museum_base_1070.csv#row=431",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 121,
+          "doc_ids": [
+            "DOC-B0430-TOUR_API-129805"
+          ]
+        },
+        {
+          "start": 122,
+          "end": 262,
+          "doc_ids": [
+            "DOC-B0430-TOUR_API-129805"
+          ]
+        },
+        {
+          "start": 263,
+          "end": 298,
+          "doc_ids": [
+            "DOC-B0430-TOUR_API-129805"
+          ]
+        },
+        {
+          "start": 299,
+          "end": 495,
+          "doc_ids": [
+            "DOC-B0430-TOUR_API-129805"
+          ]
+        },
+        {
+          "start": 496,
+          "end": 524,
+          "doc_ids": [
+            "DOC-B0430-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=204",
+      "text": "거제박물관은 거제문화재단 산하의 기관으로서, 1991년 12월 21일에 개관하여, 1992년 문화관광부에 등록한 종합박물관(민속, 고고분야)으로서 거제의 역사와 민속에 관한 자료를 수집, 정리, 연구, 전시하고 있다. 1층은 기획전시실 공간으로 지역 내의 여러 문화행사(전시행사)를 개최할 수 있게 되어 있으며, 2층은 민속실로 거제에서 채집한 민속품이 진열되어 있는데, 섬이라는 환경조건으로 반농반어의 생산 형태를 갖게 되어 농경과 수산에 관계되는 용구가 많이 있다. 3층은 선사시대부터 조선시대까지의 다양한 유물이 전시되어 있다. 이러한 박물관 본연의 사업 외에 난, 수석, 사진 등의 지역 주민을 위한 일반 전시회와 민속품, 소장품 등의 기획 전시, 유물 사생대회와 클래식 음악회, 명사초청 강연회와 가족캠프 등의 문화와 예술에 관한 많은 사업들을 진행하고 있으며, 특히 박물관 대학과 대학원 등을 통해 지역민의 교양을 넓히고, 새로운 정보를 제공하는 사회교육 기능도 하고 있다. 도류+토기+민속품+고서+서화류 등 3500여점 소장",
+      "sido": "경상남도",
+      "sigungu": "거제시",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=204"
+      ],
+      "evidence_id": "E2",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=304",
+        "fields": {
+          "name": "거제박물관",
+          "sido": "경상남도",
+          "sigungu": "거제시",
+          "address": "경상남도 거제시 거제대로 3791",
+          "ownership_type": "사립",
+          "adult_fee": "3000",
+          "youth_fee": "2000",
+          "child_fee": "1500",
+          "adult_fee_status": "BASE_FEE_PAID",
+          "weekday_open": "09:00",
+          "weekday_close": "18:00",
+          "holiday_open": "09:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "월요일+설당일+추석당일"
+        },
+        "base_data_date": "2026-03-26",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0433",
+      "name": "거제어촌민속전시관",
+      "document": "거제어촌민속전시관은 남해안의 어촌생활사에 관한 전시를 관람할 수 있는 곳이다. 전통의 바다에서는 거제의 역사부터 인물, 문화유적, 민요, 옛 생활 등의 전통을 알아볼 수 있다. 생활의 바다에서는 거제의 수산음식, 생활도구, 어선, 어구, 어법 등 생활요소들을 알아볼 수 있으며, 부흥의 바다에서는 거제의 입지조건, 연근해산수업, 해양생물, 굴이야기 등을, 체험의 바다에서는 거제의 특산물과 관광 등을 알아볼 수 있다. 민속품+패류+어구+어류박제품 등 2120여점 소장",
+      "metadata": {
+        "holiday_close": "18:00",
+        "child_fee": 1000.0,
+        "source_types": "BASE|TOUR_API",
+        "adult_fee_status": "BASE_FEE_PAID",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/52/3514952_image2_1.jpg",
+        "fee_notes": "할인(거제시민+만 65세 이상+관광지 통합이용권 이용자+상호협약 체결 시설 당일 입장권 소지자+단체 30명 이상)+무료(미취학 아동 + 국가보훈대상자+ 장애인+ 다자녀가정 + 기초생활수급자)",
+        "name": "거제어촌민속전시관",
+        "latitude": 34.83369365,
+        "sigungu": "거제시",
+        "adult_fee": 3000.0,
+        "holiday_open": "09:00",
+        "sido": "경상남도",
+        "ownership_type": "공립",
+        "closure_rule_raw": "1월1일+설당일+추석당일+월요일(단, 월요일이 공휴일인 경우 당일은 개관하고 그 다음 첫번째 평일에 휴관)",
+        "requires_manual_review": true,
+        "homepage_url": "http://www.gmdc.co.kr/_marine/",
+        "image_copyright": "Type1",
+        "address": "경상남도 거제시 일운면 지세포해안로 41",
+        "youth_fee": 2000.0,
+        "weekday_open": "09:00",
+        "weekday_close": "18:00",
+        "longitude": 128.7018853
+      },
+      "vector_rank": 7,
+      "bm25_rank": 4,
+      "vector_distance": 0.5383082032203674,
+      "vector_score": null,
+      "bm25_score": 26.5636169974957,
+      "vector_document": "거제어촌민속전시관은 남해안의 어촌생활사에 관한 전시를 관람할 수 있는 곳이다. 전통의 바다에서는 거제의 역사부터 인물, 문화유적, 민요, 옛 생활 등의 전통을 알아볼 수 있다. 생활의 바다에서는 거제의 수산음식, 생활도구, 어선, 어구, 어법 등 생활요소들을 알아볼 수 있으며, 부흥의 바다에서는 거제의 입지조건, 연근해산수업, 해양생물, 굴이야기 등을, 체험의 바다에서는 거제의 특산물과 관광 등을 알아볼 수 있다. 민속품+패류+어구+어류박제품 등 2120여점 소장",
+      "bm25_document": "거제어촌민속전시관은 남해안의 어촌생활사에 관한 전시를 관람할 수 있는 곳이다. 전통의 바다에서는 거제의 역사부터 인물, 문화유적, 민요, 옛 생활 등의 전통을 알아볼 수 있다. 생활의 바다에서는 거제의 수산음식, 생활도구, 어선, 어구, 어법 등 생활요소들을 알아볼 수 있으며, 부흥의 바다에서는 거제의 입지조건, 연근해산수업, 해양생물, 굴이야기 등을, 체험의 바다에서는 거제의 특산물과 관광 등을 알아볼 수 있다. 민속품+패류+어구+어류박제품 등 2120여점 소장",
+      "best_span_id": "chroma:M0433",
+      "best_span_text": "거제어촌민속전시관은 남해안의 어촌생활사에 관한 전시를 관람할 수 있는 곳이다. 전통의 바다에서는 거제의 역사부터 인물, 문화유적, 민요, 옛 생활 등의 전통을 알아볼 수 있다. 생활의 바다에서는 거제의 수산음식, 생활도구, 어선, 어구, 어법 등 생활요소들을 알아볼 수 있으며, 부흥의 바다에서는 거제의 입지조건, 연근해산수업, 해양생물, 굴이야기 등을, 체험의 바다에서는 거제의 특산물과 관광 등을 알아볼 수 있다. 민속품+패류+어구+어류박제품 등 2120여점 소장",
+      "fusion_score": 0.03055037313432836,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 3,
+      "rerank_score": 0.39682337641716003,
+      "rank": 3,
+      "score": 0.39682337641716003,
+      "score_type": "cross_encoder",
+      "distance": 0.5383082032203674,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0433",
+      "source_doc_ids": [
+        "DOC-B0433-TOUR_API-1622179",
+        "DOC-B0433-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0433-TOUR_API-1622179",
+          "source_type": "TOUR_API",
+          "source_record_id": "1622179",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=207",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        },
+        {
+          "doc_id": "DOC-B0433-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0433",
+          "source_locator": "data/raw/museum_base_1070.csv#row=434",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 43,
+          "doc_ids": [
+            "DOC-B0433-TOUR_API-1622179"
+          ]
+        },
+        {
+          "start": 44,
+          "end": 98,
+          "doc_ids": [
+            "DOC-B0433-TOUR_API-1622179"
+          ]
+        },
+        {
+          "start": 99,
+          "end": 233,
+          "doc_ids": [
+            "DOC-B0433-TOUR_API-1622179"
+          ]
+        },
+        {
+          "start": 234,
+          "end": 261,
+          "doc_ids": [
+            "DOC-B0433-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=207",
+      "text": "거제어촌민속전시관은 남해안의 어촌생활사에 관한 전시를 관람할 수 있는 곳이다. 전통의 바다에서는 거제의 역사부터 인물, 문화유적, 민요, 옛 생활 등의 전통을 알아볼 수 있다. 생활의 바다에서는 거제의 수산음식, 생활도구, 어선, 어구, 어법 등 생활요소들을 알아볼 수 있으며, 부흥의 바다에서는 거제의 입지조건, 연근해산수업, 해양생물, 굴이야기 등을, 체험의 바다에서는 거제의 특산물과 관광 등을 알아볼 수 있다. 민속품+패류+어구+어류박제품 등 2120여점 소장",
+      "sido": "경상남도",
+      "sigungu": "거제시",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=207"
+      ],
+      "evidence_id": "E3",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=307",
+        "fields": {
+          "name": "거제어촌민속전시관",
+          "sido": "경상남도",
+          "sigungu": "거제시",
+          "address": "경상남도 거제시 일운면 지세포해안로 41",
+          "ownership_type": "공립",
+          "adult_fee": "3000",
+          "youth_fee": "2000",
+          "child_fee": "1000",
+          "adult_fee_status": "BASE_FEE_PAID",
+          "weekday_open": "09:00",
+          "weekday_close": "18:00",
+          "holiday_open": "09:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "1월1일+설당일+추석당일+월요일(단, 월요일이 공휴일인 경우 당일은 개관하고 그 다음 첫번째 평일에 휴관)"
+        },
+        "base_data_date": "2026-03-26",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M1064",
+      "name": "옛터박물관",
+      "document": "옛터민속박물관은 2001년 3월개관하여 토기+도자기+서지류+장신구 등 민속유물 5만여점을 소장하고 있으며, 현재 3백 여점을 전시하고 있음",
+      "metadata": {
+        "youth_fee": 0.0,
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "amenities_raw": "한식당+통찻집",
+        "homepage_url": "https://www.yetermuseum.com",
+        "requires_manual_review": false,
+        "weekday_close": "22:00",
+        "holiday_close": "22:00",
+        "source_types": "BASE",
+        "latitude": 36.21510494,
+        "holiday_open": "10:00",
+        "sigungu": "동구",
+        "name": "옛터박물관",
+        "weekday_open": "10:00",
+        "sido": "대전광역시",
+        "adult_fee": 0.0,
+        "ownership_type": "사립",
+        "child_fee": 0.0,
+        "closure_rule_raw": "연중무휴",
+        "longitude": 127.4408443,
+        "transport_notes": "대중교통:501번 대전시립 제2노인병원승강장+고속도로 남대전IC에서 금산방면 10분 소요",
+        "address": "대전광역시 동구 산내로 321-35(하소동"
+      },
+      "vector_rank": 15,
+      "bm25_rank": 7,
+      "vector_distance": 0.5580931901931763,
+      "vector_score": null,
+      "bm25_score": 23.87361060937257,
+      "vector_document": "옛터민속박물관은 2001년 3월개관하여 토기+도자기+서지류+장신구 등 민속유물 5만여점을 소장하고 있으며, 현재 3백 여점을 전시하고 있음",
+      "bm25_document": "옛터민속박물관은 2001년 3월개관하여 토기+도자기+서지류+장신구 등 민속유물 5만여점을 소장하고 있으며, 현재 3백 여점을 전시하고 있음",
+      "best_span_id": "chroma:M1064",
+      "best_span_text": "옛터민속박물관은 2001년 3월개관하여 토기+도자기+서지류+장신구 등 민속유물 5만여점을 소장하고 있으며, 현재 3백 여점을 전시하고 있음",
+      "fusion_score": 0.028258706467661692,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 7,
+      "rerank_score": 0.1077209860086441,
+      "rank": 4,
+      "score": 0.1077209860086441,
+      "score_type": "cross_encoder",
+      "distance": 0.5580931901931763,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M1064",
+      "source_doc_ids": [
+        "DOC-B1064-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B1064-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B1064",
+          "source_locator": "data/raw/museum_base_1070.csv#row=1065",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 77,
+          "doc_ids": [
+            "DOC-B1064-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_base_1070.csv#row=1065",
+      "text": "옛터민속박물관은 2001년 3월개관하여 토기+도자기+서지류+장신구 등 민속유물 5만여점을 소장하고 있으며, 현재 3백 여점을 전시하고 있음",
+      "sido": "대전광역시",
+      "sigungu": "동구",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_base_1070.csv#row=1065"
+      ],
+      "evidence_id": "E4",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=735",
+        "fields": {
+          "name": "옛터박물관",
+          "sido": "대전광역시",
+          "sigungu": "동구",
+          "address": "대전광역시 동구 산내로 321-35(하소동",
+          "ownership_type": "사립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "10:00",
+          "weekday_close": "22:00",
+          "holiday_open": "10:00",
+          "holiday_close": "22:00",
+          "closure_rule_raw": "연중무휴",
+          "amenities_raw": "한식당+통찻집"
+        },
+        "base_data_date": "2025-08-05",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0099",
+      "name": "온양민속박물관",
+      "document": "우리나라 최초의 사립 민속박물관인 온양민속박물관은 우리 전통문화의 아름다움과 우수성을 알리기 위해 1978년 개관하였다. 전체 대지는 72,727㎡의 규모이며 이타미준의 국내 첫 번째 건축물인 구정 아트센터를 포함하여, 상설전시실, 특별전시실, 야외전시장 등으로 구성되어 있다. 옛 선조들의 지혜와 품격이 담긴 생활품 2만여 점을 소장하고 있으며, 전시 및 다양한 교육 체험 프로그램, 공연 등의 문화 행사를 체험할 수 있다. 유형적인 민속자료를 체계적으로 수집, 보존, 전시해 후세들에게 합리적으로 이해 교육시키며 전통적 요소를 오늘에 되살릴 수 있도록 유도하며 학술적으로 고증하여 연구하고 세계 속에 한국문화의 독자성을 선양하기 위해 설립된 박물관이다. 한국인의 전통 생활문화를 다루는 민속박물관이다. 의식주와 관혼상제, 농업·어업 등 생업, 민간신앙과 공예 관련 유물을 통해 한국 민속의 여러 모습을 살펴볼 수 있다.",
+      "metadata": {
+        "weekday_close": "17:30",
+        "sigungu": "아산시",
+        "homepage_url": "http://onyangmuseum.or.kr/",
+        "requires_manual_review": true,
+        "holiday_close": "17:30",
+        "adult_fee": 5000.0,
+        "amenities_raw": "카페 등",
+        "name": "온양민속박물관",
+        "fee_notes": "아산시민(80)+문화가 있는 날(30)+아산시티투어 및 장애인 할인",
+        "ownership_type": "사립",
+        "longitude": 127.0079103,
+        "weekday_open": "10:00",
+        "youth_fee": 3000.0,
+        "child_fee": 1500.0,
+        "sido": "충청남도",
+        "source_types": "TOUR_API|WEB_RESEARCH",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/80/3558580_image2_1.jpg",
+        "adult_fee_status": "BASE_FEE_PAID",
+        "latitude": 36.79323056,
+        "closure_rule_raw": "월",
+        "transport_notes": "경부고속국도-남부우회도로-국도21호선을 이용하거나 38번국도-48번 국도를 이용하거나 아산만방조제-39번 국도를 이용해서 올 수 있습니다.",
+        "holiday_open": "10:00",
+        "address": "충청남도 아산시 충무로 123",
+        "image_copyright": "Type1"
+      },
+      "vector_rank": null,
+      "bm25_rank": 8,
+      "vector_distance": null,
+      "vector_score": null,
+      "bm25_score": 23.577914719295375,
+      "vector_document": "",
+      "bm25_document": "우리나라 최초의 사립 민속박물관인 온양민속박물관은 우리 전통문화의 아름다움과 우수성을 알리기 위해 1978년 개관하였다. 전체 대지는 72,727㎡의 규모이며 이타미준의 국내 첫 번째 건축물인 구정 아트센터를 포함하여, 상설전시실, 특별전시실, 야외전시장 등으로 구성되어 있다. 옛 선조들의 지혜와 품격이 담긴 생활품 2만여 점을 소장하고 있으며, 전시 및 다양한 교육 체험 프로그램, 공연 등의 문화 행사를 체험할 수 있다. 유형적인 민속자료를 체계적으로 수집, 보존, 전시해 후세들에게 합리적으로 이해 교육시키며 전통적 요소를 오늘에 되살릴 수 있도록 유도하며 학술적으로 고증하여 연구하고 세계 속에 한국문화의 독자성을 선양하기 위해 설립된 박물관이다. 한국인의 전통 생활문화를 다루는 민속박물관이다. 의식주와 관혼상제, 농업·어업 등 생업, 민간신앙과 공예 관련 유물을 통해 한국 민속의 여러 모습을 살펴볼 수 있다.",
+      "best_span_id": "chroma:M0099",
+      "best_span_text": "우리나라 최초의 사립 민속박물관인 온양민속박물관은 우리 전통문화의 아름다움과 우수성을 알리기 위해 1978년 개관하였다. 전체 대지는 72,727㎡의 규모이며 이타미준의 국내 첫 번째 건축물인 구정 아트센터를 포함하여, 상설전시실, 특별전시실, 야외전시장 등으로 구성되어 있다. 옛 선조들의 지혜와 품격이 담긴 생활품 2만여 점을 소장하고 있으며, 전시 및 다양한 교육 체험 프로그램, 공연 등의 문화 행사를 체험할 수 있다. 유형적인 민속자료를 체계적으로 수집, 보존, 전시해 후세들에게 합리적으로 이해 교육시키며 전통적 요소를 오늘에 되살릴 수 있도록 유도하며 학술적으로 고증하여 연구하고 세계 속에 한국문화의 독자성을 선양하기 위해 설립된 박물관이다. 한국인의 전통 생활문화를 다루는 민속박물관이다. 의식주와 관혼상제, 농업·어업 등 생업, 민간신앙과 공예 관련 유물을 통해 한국 민속의 여러 모습을 살펴볼 수 있다.",
+      "fusion_score": 0.014705882352941176,
+      "retrieved_by": [
+        "bm25"
+      ],
+      "fusion_rank": 16,
+      "rerank_score": 0.09113506972789764,
+      "rank": 5,
+      "score": 0.09113506972789764,
+      "score_type": "cross_encoder",
+      "distance": null,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "bm25"
+      ],
+      "retriever": "bm25",
+      "span_id": "chroma:M0099",
+      "source_doc_ids": [
+        "DOC-B0099-TOUR_API-130063",
+        "DOC-WEB-M0099-20261111"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0099-TOUR_API-130063",
+          "source_type": "TOUR_API",
+          "source_record_id": "130063",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=49",
+          "match_trust": "RECHECKED_BY_RULE_NOT_HUMAN_APPROVED"
+        },
+        {
+          "doc_id": "DOC-WEB-M0099-20261111",
+          "source_type": "WEB_RESEARCH",
+          "source_record_id": "RESEARCH-M0099",
+          "source_locator": "https://encykorea.aks.ac.kr/Article/E0038861",
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0038861",
+          "match_trust": "WEB_SOURCE_REVIEWED_NOT_HUMAN_APPROVED"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 67,
+          "doc_ids": [
+            "DOC-B0099-TOUR_API-130063"
+          ]
+        },
+        {
+          "start": 68,
+          "end": 155,
+          "doc_ids": [
+            "DOC-B0099-TOUR_API-130063"
+          ]
+        },
+        {
+          "start": 156,
+          "end": 238,
+          "doc_ids": [
+            "DOC-B0099-TOUR_API-130063"
+          ]
+        },
+        {
+          "start": 239,
+          "end": 367,
+          "doc_ids": [
+            "DOC-B0099-TOUR_API-130063"
+          ]
+        },
+        {
+          "start": 368,
+          "end": 394,
+          "doc_ids": [
+            "DOC-WEB-M0099-20261111"
+          ]
+        },
+        {
+          "start": 395,
+          "end": 460,
+          "doc_ids": [
+            "DOC-WEB-M0099-20261111"
+          ]
+        }
+      ],
+      "source_urls": [
+        "https://encykorea.aks.ac.kr/Article/E0038861"
+      ],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=49",
+      "text": "우리나라 최초의 사립 민속박물관인 온양민속박물관은 우리 전통문화의 아름다움과 우수성을 알리기 위해 1978년 개관하였다. 전체 대지는 72,727㎡의 규모이며 이타미준의 국내 첫 번째 건축물인 구정 아트센터를 포함하여, 상설전시실, 특별전시실, 야외전시장 등으로 구성되어 있다. 옛 선조들의 지혜와 품격이 담긴 생활품 2만여 점을 소장하고 있으며, 전시 및 다양한 교육 체험 프로그램, 공연 등의 문화 행사를 체험할 수 있다. 유형적인 민속자료를 체계적으로 수집, 보존, 전시해 후세들에게 합리적으로 이해 교육시키며 전통적 요소를 오늘에 되살릴 수 있도록 유도하며 학술적으로 고증하여 연구하고 세계 속에 한국문화의 독자성을 선양하기 위해 설립된 박물관이다. 한국인의 전통 생활문화를 다루는 민속박물관이다. 의식주와 관혼상제, 농업·어업 등 생업, 민간신앙과 공예 관련 유물을 통해 한국 민속의 여러 모습을 살펴볼 수 있다.",
+      "sido": "충청남도",
+      "sigungu": "아산시",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=49"
+      ],
+      "evidence_id": "E5",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=61",
+        "fields": {
+          "name": "온양민속박물관",
+          "sido": "충청남도",
+          "sigungu": "아산시",
+          "address": "충청남도 아산시 충무로 123",
+          "ownership_type": "사립",
+          "adult_fee": "5000",
+          "youth_fee": "3000",
+          "child_fee": "1500",
+          "adult_fee_status": "BASE_FEE_PAID",
+          "weekday_open": "10:00",
+          "weekday_close": "17:30",
+          "holiday_open": "10:00",
+          "holiday_close": "17:30",
+          "closure_rule_raw": "월",
+          "amenities_raw": "카페 등"
+        },
+        "base_data_date": "2026-09-01",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    }
+  ],
+  "answer": "소개자료에 따르면 농경·민속·서화 등의 민속자료는 약 5,500점 전시되어 있습니다.[E1]",
+  "retrieval_status": "ok",
+  "answer_status": "answered",
+  "route": "hybrid",
+  "retry_count": 0,
+  "supervisor_verified": true,
+  "rerank_applied": true,
+  "retriever_errors": [],
+  "warnings": [],
+  "duration_ms": 134460.45,
+  "error_type": "",
+  "hit_at_1": 1,
+  "hit_at_3": 1,
+  "hit_at_5": 1,
+  "recall_at_5": 1.0,
+  "mrr_at_10": 1.0
+}

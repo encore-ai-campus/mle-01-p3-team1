@@ -1,0 +1,748 @@
+{
+  "evidence_context_version": "grounded-evidence-v2",
+  "evaluation_contexts": [
+    "{\"evidence_context_version\": \"grounded-evidence-v2\", \"evidence_id\": \"E1\", \"metadata_provenance\": {\"base_data_date\": \"2026-10-13\", \"fields\": {\"address\": \"경상남도 남해군 남해읍 남해대로 2745\", \"adult_fee\": \"2000\", \"adult_fee_status\": \"BASE_FEE_PAID\", \"amenities_raw\": \"야외공원+주차장+화장실+물품보관소\", \"child_fee\": \"1000\", \"closure_rule_raw\": \"화(단 화요일이 공휴일인 경우 당일은 개관하고 그 다음날 휴관)+설 당일+추석 당일\", \"holiday_close\": \"18:00\", \"holiday_open\": \"09:00\", \"name\": \"남해유배문학관\", \"ownership_type\": \"공립\", \"sido\": \"경상남도\", \"sigungu\": \"남해군\", \"weekday_close\": \"18:00\", \"weekday_open\": \"09:00\", \"youth_fee\": \"1500\"}, \"source_kind\": \"derived_csv_row\", \"source_locator\": \"data/processed/museum_final_738.csv#record=75\", \"trust\": \"derived_dataset_not_human_verified\"}, \"museum_id\": \"M0115\", \"name\": \"남해유배문학관\", \"source_doc_ids\": [\"DOC-B0115-TOUR_API-1267091\", \"DOC-B0115-BASE\"], \"source_documents\": [{\"doc_id\": \"DOC-B0115-TOUR_API-1267091\", \"match_trust\": \"AUTO_MATCH_NOT_HUMAN_VERIFIED\", \"source_locator\": \"data/raw/museum_tourapi_with_overview.csv#row=59\", \"source_record_id\": \"1267091\", \"source_type\": \"TOUR_API\"}, {\"doc_id\": \"DOC-B0115-BASE\", \"match_trust\": \"BASE_SOURCE\", \"source_locator\": \"data/raw/museum_base_1070.csv#row=116\", \"source_record_id\": \"B0115\", \"source_type\": \"BASE\"}], \"source_locator\": \"data/raw/museum_tourapi_with_overview.csv#row=59\", \"source_locators\": [\"data/raw/museum_tourapi_with_overview.csv#row=59\"], \"source_scope\": \"text\", \"source_spans\": [{\"doc_ids\": [\"DOC-B0115-TOUR_API-1267091\"], \"end\": 63, \"start\": 0}, {\"doc_ids\": [\"DOC-B0115-TOUR_API-1267091\"], \"end\": 174, \"start\": 64}, {\"doc_ids\": [\"DOC-B0115-TOUR_API-1267091\"], \"end\": 326, \"start\": 175}, {\"doc_ids\": [\"DOC-B0115-BASE\"], \"end\": 359, \"start\": 327}], \"source_urls\": [], \"text\": \"남해유배문학관은 국내 최대 문학관으로 유배문학을 연구하고 계승 발전시키기 위해 2010년 11월 1일 개관되었다. 지하 1층, 지상 1층 규모로 유배문학 전시실과 연구실, 공연 및 학술 세미나 개최를 위한 다목적 강당, 편의시설 등이 들어서고 남해의 유배 역사와 유배문학을 시청할 수 있는 영상실도 갖추고 있다. 권력도 부귀영화도 모두 빼앗긴 채 ‘유배’라는 백척간두에 선 절망적인 삶 속에서도 문학과 예술을 꽃피웠던 우리 선조들의 숭고한 불멸의 혼을 기리기 위해 우리나라 최초로 건립된 남해유배문학관은 세월 속에 잊혀져 가는 유배객들을 기리는 문학의 진한 향기가 피어나는 공간이다. 국내 최대 문학관으로 최초로 유배객과 문학에 관한 전시공간\"}",
+    "{\"evidence_context_version\": \"grounded-evidence-v2\", \"evidence_id\": \"E2\", \"metadata_provenance\": {\"base_data_date\": \"2026-09-30\", \"fields\": {\"address\": \"제주특별자치도 서귀포시 대정읍 추사로 44\", \"adult_fee\": \"0\", \"adult_fee_status\": \"BASE_FEE_ZERO_CHECK_EXCEPTIONS\", \"child_fee\": \"0\", \"closure_rule_raw\": \"월+1월 1일+설 연휴+추석 연휴\", \"holiday_close\": \"18:00\", \"holiday_open\": \"09:00\", \"name\": \"제주추사관\", \"ownership_type\": \"공립\", \"sido\": \"제주특별자치도\", \"sigungu\": \"서귀포시\", \"weekday_close\": \"18:00\", \"weekday_open\": \"09:00\", \"youth_fee\": \"0\"}, \"source_kind\": \"derived_csv_row\", \"source_locator\": \"data/processed/museum_final_738.csv#record=21\", \"trust\": \"derived_dataset_not_human_verified\"}, \"museum_id\": \"M0027\", \"name\": \"제주추사관\", \"source_doc_ids\": [\"DOC-B0027-TOUR_API-2406460\"], \"source_documents\": [{\"doc_id\": \"DOC-B0027-TOUR_API-2406460\", \"match_trust\": \"AUTO_MATCH_NOT_HUMAN_VERIFIED\", \"source_locator\": \"data/raw/museum_tourapi_with_overview.csv#row=16\", \"source_record_id\": \"2406460\", \"source_type\": \"TOUR_API\"}], \"source_locator\": \"data/raw/museum_tourapi_with_overview.csv#row=16\", \"source_locators\": [\"data/raw/museum_tourapi_with_overview.csv#row=16\"], \"source_scope\": \"text\", \"source_spans\": [{\"doc_ids\": [\"DOC-B0027-TOUR_API-2406460\"], \"end\": 72, \"start\": 0}, {\"doc_ids\": [\"DOC-B0027-TOUR_API-2406460\"], \"end\": 131, \"start\": 73}, {\"doc_ids\": [\"DOC-B0027-TOUR_API-2406460\"], \"end\": 224, \"start\": 132}, {\"doc_ids\": [\"DOC-B0027-TOUR_API-2406460\"], \"end\": 361, \"start\": 225}], \"source_urls\": [], \"text\": \"제주추사관은 조선후기 대학자이자 예술가인 추사 김정희 선생의 삶과 학문 예술세계를 기리기 위해 지난 2010년 12월 건립되었다. 제주추사관의 전신은 1984년 지주지역 예술인들과 제주사 연구자들의 노력으로 건립된 추사유물전 시관이다. 그러나 전시관이 낡은 데다, 2007년 10월 추사유배지가 국가지정유산으로 승격되면서 그 격에 걸맞게 재건립되어야 한다는 여론에 따라 새롭게 제주추사관을 완공하였다. 제주추사관은 추사기념홀을 비롯해 3개의 전시실과 교육실, 수장고 등의 시설을 갖추고 있으며, 부국문화재단, 추사동호회 등에서 기증해 주신 ‘예산김정희종가유물일괄’, 추사 현판 글씨, 추사 편지 글씨, 추사 지인의 편지 글씨 등을 전시하고 있다.\"}",
+    "{\"evidence_context_version\": \"grounded-evidence-v2\", \"evidence_id\": \"E3\", \"metadata_provenance\": {\"base_data_date\": \"2025-07-01\", \"fields\": {\"address\": \"전라남도 곡성군 죽곡면 태안로 622-38\", \"adult_fee\": \"0\", \"adult_fee_status\": \"BASE_FEE_ZERO_CHECK_EXCEPTIONS\", \"amenities_raw\": \"창작실\", \"child_fee\": \"0\", \"closure_rule_raw\": \"월\", \"holiday_close\": \"18:00\", \"holiday_open\": \"09:00\", \"name\": \"조태일 시문학기념관\", \"ownership_type\": \"공립\", \"sido\": \"전라남도\", \"sigungu\": \"곡성군\", \"weekday_close\": \"18:00\", \"weekday_open\": \"09:00\", \"youth_fee\": \"0\"}, \"normalizations\": {\"sido\": {\"matched_value\": \"전남광주특별자치도\", \"rule\": \"configured_sido_alias\", \"source_value\": \"전라남도\"}}, \"source_kind\": \"derived_csv_row\", \"source_locator\": \"data/processed/museum_final_738.csv#record=682\", \"trust\": \"derived_dataset_not_human_verified\"}, \"museum_id\": \"M0999\", \"name\": \"조태일 시문학기념관\", \"source_doc_ids\": [\"DOC-B0999-TOUR_API-2616184\", \"DOC-B0999-BASE\"], \"source_documents\": [{\"doc_id\": \"DOC-B0999-TOUR_API-2616184\", \"match_trust\": \"AUTO_MATCH_NOT_HUMAN_VERIFIED\", \"source_locator\": \"data/raw/museum_tourapi_with_overview.csv#row=466\", \"source_record_id\": \"2616184\", \"source_type\": \"TOUR_API\"}, {\"doc_id\": \"DOC-B0999-BASE\", \"match_trust\": \"BASE_SOURCE\", \"source_locator\": \"data/raw/museum_base_1070.csv#row=1000\", \"source_record_id\": \"B0999\", \"source_type\": \"BASE\"}], \"source_locator\": \"data/raw/museum_tourapi_with_overview.csv#row=466\", \"source_locators\": [\"data/raw/museum_tourapi_with_overview.csv#row=466\"], \"source_scope\": \"text\", \"source_spans\": [{\"doc_ids\": [\"DOC-B0999-TOUR_API-2616184\"], \"end\": 83, \"start\": 0}, {\"doc_ids\": [\"DOC-B0999-TOUR_API-2616184\"], \"end\": 126, \"start\": 84}, {\"doc_ids\": [\"DOC-B0999-TOUR_API-2616184\"], \"end\": 199, \"start\": 127}, {\"doc_ids\": [\"DOC-B0999-TOUR_API-2616184\"], \"end\": 345, \"start\": 200}, {\"doc_ids\": [\"DOC-B0999-BASE\"], \"end\": 410, \"start\": 346}], \"source_urls\": [], \"text\": \"시인 조태일(1941-1999)은 곡성 태안사에서 대처승의 아들로 태어나, 1964년 경향신문 신춘문예에 ‘아침선박’이 당선되면서 문단에 등단하였다. 이후 1969년 시 전문지 ‘시인’을 창간하였고, 8권의 시집을 간행하였다. 곡성군에서는 시인 조태일의 문학세계를 기리기 위해 2003년 봉정리 태안사 승려의 다비식(茶毘式) 장소를 기념관으로 탈바꿈시켰다. 조태일시문학기념관에는 시인 조태일의 문학작품과 유품 등 2,000여 점이 전시되어 있으며, 시집 전시관에는 우리나라 최초의 근대 시집인 최남선의 ‘백팔번뇌’, 최초의 번역시집 ‘오뇌의 무도’ 등 희귀본부터 최근 작품까지 3,000여 점의 시집이 전시되어 있다. 조태일 시문학기념관은 199년 타계한 문단의 큰별인 죽형 조태일선생을 기리기 위해 2003년 곡성군에서 건립하였다.\"}",
+    "{\"evidence_context_version\": \"grounded-evidence-v2\", \"evidence_id\": \"E4\", \"metadata_provenance\": {\"base_data_date\": \"2026-06-17\", \"fields\": {\"address\": \"경기도 부천시 오정구 고리울로8번길 77\", \"adult_fee\": \"0\", \"adult_fee_status\": \"BASE_FEE_ZERO_CHECK_EXCEPTIONS\", \"child_fee\": \"0\", \"closure_rule_raw\": \"월(월요일이 공휴일인 경우 월요일 정상 개관 후 화요일에 휴관)+1월 1일+설 연휴+추석 연휴\", \"holiday_close\": \"18:00\", \"holiday_open\": \"09:00\", \"name\": \"수주문학관\", \"ownership_type\": \"공립\", \"sido\": \"경기도\", \"sigungu\": \"부천시\", \"weekday_close\": \"18:00\", \"weekday_open\": \"09:00\", \"youth_fee\": \"0\"}, \"source_kind\": \"derived_csv_row\", \"source_locator\": \"data/processed/museum_final_738.csv#record=280\", \"trust\": \"derived_dataset_not_human_verified\"}, \"museum_id\": \"M0393\", \"name\": \"수주문학관\", \"source_doc_ids\": [\"DOC-B0393-TOUR_API-3453292\", \"DOC-B0393-BASE\"], \"source_documents\": [{\"doc_id\": \"DOC-B0393-TOUR_API-3453292\", \"match_trust\": \"RECHECKED_BY_RULE_NOT_HUMAN_APPROVED\", \"source_locator\": \"data/raw/museum_tourapi_with_overview.csv#row=182\", \"source_record_id\": \"3453292\", \"source_type\": \"TOUR_API\"}, {\"doc_id\": \"DOC-B0393-BASE\", \"match_trust\": \"BASE_SOURCE\", \"source_locator\": \"data/raw/museum_base_1070.csv#row=394\", \"source_record_id\": \"B0393\", \"source_type\": \"BASE\"}], \"source_locator\": \"data/raw/museum_tourapi_with_overview.csv#row=182\", \"source_locators\": [\"data/raw/museum_tourapi_with_overview.csv#row=182\"], \"source_scope\": \"text\", \"source_spans\": [{\"doc_ids\": [\"DOC-B0393-TOUR_API-3453292\"], \"end\": 73, \"start\": 0}, {\"doc_ids\": [\"DOC-B0393-TOUR_API-3453292\"], \"end\": 128, \"start\": 74}, {\"doc_ids\": [\"DOC-B0393-BASE\"], \"end\": 196, \"start\": 129}], \"source_urls\": [], \"text\": \"수주문학관은 경기도 부천시 고강동에 위치한 문화공간으로, 한국 근대문학의 시인인 수주 변영로 선생의 문학을 기리기 위해 설립되었다. 2022년에 개관하였으며, 다양한 전시와 문화행사를 통해 수주 시인의 삶과 작품을 소개하고 있다. 한국 근대문학을 개척한 선구적 문필가이자 부천의 시인인 수주 변영로의 문학정신과 작품을 기념하기 위해 조성된 문학관이다.\"}",
+    "{\"evidence_context_version\": \"grounded-evidence-v2\", \"evidence_id\": \"E5\", \"metadata_provenance\": {\"base_data_date\": \"2026-06-29\", \"fields\": {\"address\": \"강원특별자치도 원주시 지정면 간현웃말길 46\", \"adult_fee\": \"0\", \"adult_fee_status\": \"BASE_FEE_ZERO_CHECK_EXCEPTIONS\", \"child_fee\": \"0\", \"closure_rule_raw\": \"월+명절당일+공휴일 익일\", \"holiday_close\": \"17:00\", \"holiday_open\": \"10:00\", \"name\": \"조엄기념관\", \"ownership_type\": \"공립\", \"sido\": \"강원특별자치도\", \"sigungu\": \"원주시\", \"weekday_close\": \"17:00\", \"weekday_open\": \"10:00\", \"youth_fee\": \"0\"}, \"source_kind\": \"derived_csv_row\", \"source_locator\": \"data/processed/museum_final_738.csv#record=247\", \"trust\": \"derived_dataset_not_human_verified\"}, \"museum_id\": \"M0341\", \"name\": \"조엄기념관\", \"source_doc_ids\": [\"DOC-B0341-TOUR_API-2764837\", \"DOC-B0341-BASE\"], \"source_documents\": [{\"doc_id\": \"DOC-B0341-TOUR_API-2764837\", \"match_trust\": \"AUTO_MATCH_NOT_HUMAN_VERIFIED\", \"source_locator\": \"data/raw/museum_tourapi_with_overview.csv#row=166\", \"source_record_id\": \"2764837\", \"source_type\": \"TOUR_API\"}, {\"doc_id\": \"DOC-B0341-BASE\", \"match_trust\": \"BASE_SOURCE\", \"source_locator\": \"data/raw/museum_base_1070.csv#row=342\", \"source_record_id\": \"B0341\", \"source_type\": \"BASE\"}], \"source_locator\": \"data/raw/museum_tourapi_with_overview.csv#row=166\", \"source_locators\": [\"data/raw/museum_tourapi_with_overview.csv#row=166\"], \"source_scope\": \"text\", \"source_spans\": [{\"doc_ids\": [\"DOC-B0341-TOUR_API-2764837\"], \"end\": 94, \"start\": 0}, {\"doc_ids\": [\"DOC-B0341-TOUR_API-2764837\"], \"end\": 119, \"start\": 95}, {\"doc_ids\": [\"DOC-B0341-TOUR_API-2764837\"], \"end\": 218, \"start\": 120}, {\"doc_ids\": [\"DOC-B0341-TOUR_API-2764837\"], \"end\": 272, \"start\": 219}, {\"doc_ids\": [\"DOC-B0341-TOUR_API-2764837\"], \"end\": 310, \"start\": 273}, {\"doc_ids\": [\"DOC-B0341-TOUR_API-2764837\"], \"end\": 393, \"start\": 311}, {\"doc_ids\": [\"DOC-B0341-BASE\"], \"end\": 514, \"start\": 394}], \"source_urls\": [], \"text\": \"2014년 11월 개관한 조엄기념관은 조선에 고구마를 들여와 백성들의 굶주림을 해결하고자 노력했던 문익공(文翼公) 조엄(趙曮) 선생의 애민정신을 기리기 위해 건립되었다. 기념관 외부 공간은 산책과 사색의 공간이다. 조엄기념관 마당에서 조업 사당을 지나 조엄묘역(강원특별자치도 기념물 제76호)까지 느린 걸음으로 20분 정도면 산책이 가능하며, 사계결 변화하는 정원의 모습을 감상할 수 있다. 기념관 주차장 옆 텃밭에는 고구마를 심어 경작하는 공간으로 고구마가 자라는 모습을 볼 수 있다. 내부 전시시설은 고구마로 만든 음식모형이 전시된 공간으로 시작된다. 조엄 선생의 생애와 연보, 풍양 조씨 집안 이야기, 해사일기 등에 관해 감상할 수 있으며, 영상실에는 조엄 선생에 관한 시청각자료가 구비되어 있다. 우리나라에 최초로 고구마를 도입하여 조선시대 당시 기근 해결에 큰 기여를 했던 문익공 조엄 선생을 기리는 기념관으로 조엄묘역과 조엄사당 등이 함께 위치하며 직접 고구마 경작을 할 수 있는 체험프로그램도 운영 중이다.\"}"
+  ],
+  "mode": "supervisor_full",
+  "question_id": "Q089",
+  "evidence": [
+    {
+      "museum_id": "M0115",
+      "name": "남해유배문학관",
+      "document": "남해유배문학관은 국내 최대 문학관으로 유배문학을 연구하고 계승 발전시키기 위해 2010년 11월 1일 개관되었다. 지하 1층, 지상 1층 규모로 유배문학 전시실과 연구실, 공연 및 학술 세미나 개최를 위한 다목적 강당, 편의시설 등이 들어서고 남해의 유배 역사와 유배문학을 시청할 수 있는 영상실도 갖추고 있다. 권력도 부귀영화도 모두 빼앗긴 채 ‘유배’라는 백척간두에 선 절망적인 삶 속에서도 문학과 예술을 꽃피웠던 우리 선조들의 숭고한 불멸의 혼을 기리기 위해 우리나라 최초로 건립된 남해유배문학관은 세월 속에 잊혀져 가는 유배객들을 기리는 문학의 진한 향기가 피어나는 공간이다. 국내 최대 문학관으로 최초로 유배객과 문학에 관한 전시공간",
+      "metadata": {
+        "adult_fee": 2000.0,
+        "adult_fee_status": "BASE_FEE_PAID",
+        "fee_notes": "무료(단체할인+65세 이상+장애우+군민)",
+        "latitude": 34.83195858,
+        "source_types": "BASE|TOUR_API",
+        "longitude": 127.899138,
+        "youth_fee": 1500.0,
+        "image_copyright": "Type1",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/81/3553481_image2_1.jpg",
+        "closure_rule_raw": "화(단 화요일이 공휴일인 경우 당일은 개관하고 그 다음날 휴관)+설 당일+추석 당일",
+        "child_fee": 1000.0,
+        "homepage_url": "https://www.namhae.go.kr/tour/00008/00022/00168.web",
+        "weekday_open": "09:00",
+        "amenities_raw": "야외공원+주차장+화장실+물품보관소",
+        "holiday_open": "09:00",
+        "transport_notes": "버스:401,402,403,404,500+자가용 이용",
+        "holiday_close": "18:00",
+        "ownership_type": "공립",
+        "requires_manual_review": true,
+        "sigungu": "남해군",
+        "address": "경상남도 남해군 남해읍 남해대로 2745",
+        "name": "남해유배문학관",
+        "sido": "경상남도",
+        "weekday_close": "18:00"
+      },
+      "vector_rank": 1,
+      "bm25_rank": 1,
+      "vector_distance": 0.38085436820983887,
+      "vector_score": null,
+      "bm25_score": 12.10674835521647,
+      "vector_document": "남해유배문학관은 국내 최대 문학관으로 유배문학을 연구하고 계승 발전시키기 위해 2010년 11월 1일 개관되었다. 지하 1층, 지상 1층 규모로 유배문학 전시실과 연구실, 공연 및 학술 세미나 개최를 위한 다목적 강당, 편의시설 등이 들어서고 남해의 유배 역사와 유배문학을 시청할 수 있는 영상실도 갖추고 있다. 권력도 부귀영화도 모두 빼앗긴 채 ‘유배’라는 백척간두에 선 절망적인 삶 속에서도 문학과 예술을 꽃피웠던 우리 선조들의 숭고한 불멸의 혼을 기리기 위해 우리나라 최초로 건립된 남해유배문학관은 세월 속에 잊혀져 가는 유배객들을 기리는 문학의 진한 향기가 피어나는 공간이다. 국내 최대 문학관으로 최초로 유배객과 문학에 관한 전시공간",
+      "bm25_document": "남해유배문학관은 국내 최대 문학관으로 유배문학을 연구하고 계승 발전시키기 위해 2010년 11월 1일 개관되었다. 지하 1층, 지상 1층 규모로 유배문학 전시실과 연구실, 공연 및 학술 세미나 개최를 위한 다목적 강당, 편의시설 등이 들어서고 남해의 유배 역사와 유배문학을 시청할 수 있는 영상실도 갖추고 있다. 권력도 부귀영화도 모두 빼앗긴 채 ‘유배’라는 백척간두에 선 절망적인 삶 속에서도 문학과 예술을 꽃피웠던 우리 선조들의 숭고한 불멸의 혼을 기리기 위해 우리나라 최초로 건립된 남해유배문학관은 세월 속에 잊혀져 가는 유배객들을 기리는 문학의 진한 향기가 피어나는 공간이다. 국내 최대 문학관으로 최초로 유배객과 문학에 관한 전시공간",
+      "best_span_id": "chroma:M0115",
+      "best_span_text": "남해유배문학관은 국내 최대 문학관으로 유배문학을 연구하고 계승 발전시키기 위해 2010년 11월 1일 개관되었다. 지하 1층, 지상 1층 규모로 유배문학 전시실과 연구실, 공연 및 학술 세미나 개최를 위한 다목적 강당, 편의시설 등이 들어서고 남해의 유배 역사와 유배문학을 시청할 수 있는 영상실도 갖추고 있다. 권력도 부귀영화도 모두 빼앗긴 채 ‘유배’라는 백척간두에 선 절망적인 삶 속에서도 문학과 예술을 꽃피웠던 우리 선조들의 숭고한 불멸의 혼을 기리기 위해 우리나라 최초로 건립된 남해유배문학관은 세월 속에 잊혀져 가는 유배객들을 기리는 문학의 진한 향기가 피어나는 공간이다. 국내 최대 문학관으로 최초로 유배객과 문학에 관한 전시공간",
+      "fusion_score": 0.03278688524590164,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 1,
+      "name_match": true,
+      "rerank_score": 0.99985671043396,
+      "rank": 1,
+      "score": 0.99985671043396,
+      "score_type": "cross_encoder",
+      "distance": 0.38085436820983887,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0115",
+      "source_doc_ids": [
+        "DOC-B0115-TOUR_API-1267091",
+        "DOC-B0115-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0115-TOUR_API-1267091",
+          "source_type": "TOUR_API",
+          "source_record_id": "1267091",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=59",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        },
+        {
+          "doc_id": "DOC-B0115-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0115",
+          "source_locator": "data/raw/museum_base_1070.csv#row=116",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 63,
+          "doc_ids": [
+            "DOC-B0115-TOUR_API-1267091"
+          ]
+        },
+        {
+          "start": 64,
+          "end": 174,
+          "doc_ids": [
+            "DOC-B0115-TOUR_API-1267091"
+          ]
+        },
+        {
+          "start": 175,
+          "end": 326,
+          "doc_ids": [
+            "DOC-B0115-TOUR_API-1267091"
+          ]
+        },
+        {
+          "start": 327,
+          "end": 359,
+          "doc_ids": [
+            "DOC-B0115-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=59",
+      "text": "남해유배문학관은 국내 최대 문학관으로 유배문학을 연구하고 계승 발전시키기 위해 2010년 11월 1일 개관되었다. 지하 1층, 지상 1층 규모로 유배문학 전시실과 연구실, 공연 및 학술 세미나 개최를 위한 다목적 강당, 편의시설 등이 들어서고 남해의 유배 역사와 유배문학을 시청할 수 있는 영상실도 갖추고 있다. 권력도 부귀영화도 모두 빼앗긴 채 ‘유배’라는 백척간두에 선 절망적인 삶 속에서도 문학과 예술을 꽃피웠던 우리 선조들의 숭고한 불멸의 혼을 기리기 위해 우리나라 최초로 건립된 남해유배문학관은 세월 속에 잊혀져 가는 유배객들을 기리는 문학의 진한 향기가 피어나는 공간이다. 국내 최대 문학관으로 최초로 유배객과 문학에 관한 전시공간",
+      "sido": "경상남도",
+      "sigungu": "남해군",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=59"
+      ],
+      "evidence_id": "E1",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=75",
+        "fields": {
+          "name": "남해유배문학관",
+          "sido": "경상남도",
+          "sigungu": "남해군",
+          "address": "경상남도 남해군 남해읍 남해대로 2745",
+          "ownership_type": "공립",
+          "adult_fee": "2000",
+          "youth_fee": "1500",
+          "child_fee": "1000",
+          "adult_fee_status": "BASE_FEE_PAID",
+          "weekday_open": "09:00",
+          "weekday_close": "18:00",
+          "holiday_open": "09:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "화(단 화요일이 공휴일인 경우 당일은 개관하고 그 다음날 휴관)+설 당일+추석 당일",
+          "amenities_raw": "야외공원+주차장+화장실+물품보관소"
+        },
+        "base_data_date": "2026-10-13",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0027",
+      "name": "제주추사관",
+      "document": "제주추사관은 조선후기 대학자이자 예술가인 추사 김정희 선생의 삶과 학문 예술세계를 기리기 위해 지난 2010년 12월 건립되었다. 제주추사관의 전신은 1984년 지주지역 예술인들과 제주사 연구자들의 노력으로 건립된 추사유물전 시관이다. 그러나 전시관이 낡은 데다, 2007년 10월 추사유배지가 국가지정유산으로 승격되면서 그 격에 걸맞게 재건립되어야 한다는 여론에 따라 새롭게 제주추사관을 완공하였다. 제주추사관은 추사기념홀을 비롯해 3개의 전시실과 교육실, 수장고 등의 시설을 갖추고 있으며, 부국문화재단, 추사동호회 등에서 기증해 주신 ‘예산김정희종가유물일괄’, 추사 현판 글씨, 추사 편지 글씨, 추사 지인의 편지 글씨 등을 전시하고 있다.",
+      "metadata": {
+        "longitude": 126.278494,
+        "holiday_open": "09:00",
+        "latitude": 33.24979614,
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/38/4114738_image2_1.jpg",
+        "adult_fee": 0.0,
+        "child_fee": 0.0,
+        "weekday_open": "09:00",
+        "sido": "제주특별자치도",
+        "source_types": "TOUR_API",
+        "address": "제주특별자치도 서귀포시 대정읍 추사로 44",
+        "homepage_url": "http://www.jeju.go.kr/chusa/index.htm",
+        "youth_fee": 0.0,
+        "name": "제주추사관",
+        "closure_rule_raw": "월+1월 1일+설 연휴+추석 연휴",
+        "requires_manual_review": true,
+        "holiday_close": "18:00",
+        "weekday_close": "18:00",
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "ownership_type": "공립",
+        "image_copyright": "Type1",
+        "sigungu": "서귀포시"
+      },
+      "vector_rank": null,
+      "bm25_rank": 5,
+      "vector_distance": null,
+      "vector_score": null,
+      "bm25_score": 6.38705797361684,
+      "vector_document": "",
+      "bm25_document": "제주추사관은 조선후기 대학자이자 예술가인 추사 김정희 선생의 삶과 학문 예술세계를 기리기 위해 지난 2010년 12월 건립되었다. 제주추사관의 전신은 1984년 지주지역 예술인들과 제주사 연구자들의 노력으로 건립된 추사유물전 시관이다. 그러나 전시관이 낡은 데다, 2007년 10월 추사유배지가 국가지정유산으로 승격되면서 그 격에 걸맞게 재건립되어야 한다는 여론에 따라 새롭게 제주추사관을 완공하였다. 제주추사관은 추사기념홀을 비롯해 3개의 전시실과 교육실, 수장고 등의 시설을 갖추고 있으며, 부국문화재단, 추사동호회 등에서 기증해 주신 ‘예산김정희종가유물일괄’, 추사 현판 글씨, 추사 편지 글씨, 추사 지인의 편지 글씨 등을 전시하고 있다.",
+      "best_span_id": "chroma:M0027",
+      "best_span_text": "제주추사관은 조선후기 대학자이자 예술가인 추사 김정희 선생의 삶과 학문 예술세계를 기리기 위해 지난 2010년 12월 건립되었다. 제주추사관의 전신은 1984년 지주지역 예술인들과 제주사 연구자들의 노력으로 건립된 추사유물전 시관이다. 그러나 전시관이 낡은 데다, 2007년 10월 추사유배지가 국가지정유산으로 승격되면서 그 격에 걸맞게 재건립되어야 한다는 여론에 따라 새롭게 제주추사관을 완공하였다. 제주추사관은 추사기념홀을 비롯해 3개의 전시실과 교육실, 수장고 등의 시설을 갖추고 있으며, 부국문화재단, 추사동호회 등에서 기증해 주신 ‘예산김정희종가유물일괄’, 추사 현판 글씨, 추사 편지 글씨, 추사 지인의 편지 글씨 등을 전시하고 있다.",
+      "fusion_score": 0.015384615384615385,
+      "retrieved_by": [
+        "bm25"
+      ],
+      "fusion_rank": 9,
+      "rerank_score": 0.01739300601184368,
+      "rank": 2,
+      "score": 0.01739300601184368,
+      "score_type": "cross_encoder",
+      "distance": null,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "bm25"
+      ],
+      "retriever": "bm25",
+      "span_id": "chroma:M0027",
+      "source_doc_ids": [
+        "DOC-B0027-TOUR_API-2406460"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0027-TOUR_API-2406460",
+          "source_type": "TOUR_API",
+          "source_record_id": "2406460",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=16",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 72,
+          "doc_ids": [
+            "DOC-B0027-TOUR_API-2406460"
+          ]
+        },
+        {
+          "start": 73,
+          "end": 131,
+          "doc_ids": [
+            "DOC-B0027-TOUR_API-2406460"
+          ]
+        },
+        {
+          "start": 132,
+          "end": 224,
+          "doc_ids": [
+            "DOC-B0027-TOUR_API-2406460"
+          ]
+        },
+        {
+          "start": 225,
+          "end": 361,
+          "doc_ids": [
+            "DOC-B0027-TOUR_API-2406460"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=16",
+      "text": "제주추사관은 조선후기 대학자이자 예술가인 추사 김정희 선생의 삶과 학문 예술세계를 기리기 위해 지난 2010년 12월 건립되었다. 제주추사관의 전신은 1984년 지주지역 예술인들과 제주사 연구자들의 노력으로 건립된 추사유물전 시관이다. 그러나 전시관이 낡은 데다, 2007년 10월 추사유배지가 국가지정유산으로 승격되면서 그 격에 걸맞게 재건립되어야 한다는 여론에 따라 새롭게 제주추사관을 완공하였다. 제주추사관은 추사기념홀을 비롯해 3개의 전시실과 교육실, 수장고 등의 시설을 갖추고 있으며, 부국문화재단, 추사동호회 등에서 기증해 주신 ‘예산김정희종가유물일괄’, 추사 현판 글씨, 추사 편지 글씨, 추사 지인의 편지 글씨 등을 전시하고 있다.",
+      "sido": "제주특별자치도",
+      "sigungu": "서귀포시",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=16"
+      ],
+      "evidence_id": "E2",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=21",
+        "fields": {
+          "name": "제주추사관",
+          "sido": "제주특별자치도",
+          "sigungu": "서귀포시",
+          "address": "제주특별자치도 서귀포시 대정읍 추사로 44",
+          "ownership_type": "공립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "09:00",
+          "weekday_close": "18:00",
+          "holiday_open": "09:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "월+1월 1일+설 연휴+추석 연휴"
+        },
+        "base_data_date": "2026-09-30",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0999",
+      "name": "조태일 시문학기념관",
+      "document": "시인 조태일(1941-1999)은 곡성 태안사에서 대처승의 아들로 태어나, 1964년 경향신문 신춘문예에 ‘아침선박’이 당선되면서 문단에 등단하였다. 이후 1969년 시 전문지 ‘시인’을 창간하였고, 8권의 시집을 간행하였다. 곡성군에서는 시인 조태일의 문학세계를 기리기 위해 2003년 봉정리 태안사 승려의 다비식(茶毘式) 장소를 기념관으로 탈바꿈시켰다. 조태일시문학기념관에는 시인 조태일의 문학작품과 유품 등 2,000여 점이 전시되어 있으며, 시집 전시관에는 우리나라 최초의 근대 시집인 최남선의 ‘백팔번뇌’, 최초의 번역시집 ‘오뇌의 무도’ 등 희귀본부터 최근 작품까지 3,000여 점의 시집이 전시되어 있다. 조태일 시문학기념관은 199년 타계한 문단의 큰별인 죽형 조태일선생을 기리기 위해 2003년 곡성군에서 건립하였다.",
+      "metadata": {
+        "closure_rule_raw": "월",
+        "ownership_type": "공립",
+        "weekday_open": "09:00",
+        "weekday_close": "18:00",
+        "source_types": "BASE|TOUR_API",
+        "holiday_open": "09:00",
+        "longitude": 127.3685909,
+        "fee_notes": "무료",
+        "sido": "전남광주특별자치도",
+        "holiday_close": "18:00",
+        "child_fee": 0.0,
+        "latitude": 35.13351552,
+        "name": "조태일 시문학기념관",
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/09/3552809_image2_1.jpg",
+        "adult_fee": 0.0,
+        "requires_manual_review": true,
+        "sigungu": "곡성군",
+        "amenities_raw": "창작실",
+        "address": "전라남도 곡성군 죽곡면 태안로 622-38",
+        "homepage_url": "http://www.gokseong.go.kr/tour/?pid=90&act=view&SEQ=94",
+        "youth_fee": 0.0,
+        "image_copyright": "Type1"
+      },
+      "vector_rank": null,
+      "bm25_rank": 4,
+      "vector_distance": null,
+      "vector_score": null,
+      "bm25_score": 6.393824262785332,
+      "vector_document": "",
+      "bm25_document": "시인 조태일(1941-1999)은 곡성 태안사에서 대처승의 아들로 태어나, 1964년 경향신문 신춘문예에 ‘아침선박’이 당선되면서 문단에 등단하였다. 이후 1969년 시 전문지 ‘시인’을 창간하였고, 8권의 시집을 간행하였다. 곡성군에서는 시인 조태일의 문학세계를 기리기 위해 2003년 봉정리 태안사 승려의 다비식(茶毘式) 장소를 기념관으로 탈바꿈시켰다. 조태일시문학기념관에는 시인 조태일의 문학작품과 유품 등 2,000여 점이 전시되어 있으며, 시집 전시관에는 우리나라 최초의 근대 시집인 최남선의 ‘백팔번뇌’, 최초의 번역시집 ‘오뇌의 무도’ 등 희귀본부터 최근 작품까지 3,000여 점의 시집이 전시되어 있다. 조태일 시문학기념관은 199년 타계한 문단의 큰별인 죽형 조태일선생을 기리기 위해 2003년 곡성군에서 건립하였다.",
+      "best_span_id": "chroma:M0999",
+      "best_span_text": "시인 조태일(1941-1999)은 곡성 태안사에서 대처승의 아들로 태어나, 1964년 경향신문 신춘문예에 ‘아침선박’이 당선되면서 문단에 등단하였다. 이후 1969년 시 전문지 ‘시인’을 창간하였고, 8권의 시집을 간행하였다. 곡성군에서는 시인 조태일의 문학세계를 기리기 위해 2003년 봉정리 태안사 승려의 다비식(茶毘式) 장소를 기념관으로 탈바꿈시켰다. 조태일시문학기념관에는 시인 조태일의 문학작품과 유품 등 2,000여 점이 전시되어 있으며, 시집 전시관에는 우리나라 최초의 근대 시집인 최남선의 ‘백팔번뇌’, 최초의 번역시집 ‘오뇌의 무도’ 등 희귀본부터 최근 작품까지 3,000여 점의 시집이 전시되어 있다. 조태일 시문학기념관은 199년 타계한 문단의 큰별인 죽형 조태일선생을 기리기 위해 2003년 곡성군에서 건립하였다.",
+      "fusion_score": 0.015625,
+      "retrieved_by": [
+        "bm25"
+      ],
+      "fusion_rank": 8,
+      "rerank_score": 0.00826726108789444,
+      "rank": 3,
+      "score": 0.00826726108789444,
+      "score_type": "cross_encoder",
+      "distance": null,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "bm25"
+      ],
+      "retriever": "bm25",
+      "span_id": "chroma:M0999",
+      "source_doc_ids": [
+        "DOC-B0999-TOUR_API-2616184",
+        "DOC-B0999-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0999-TOUR_API-2616184",
+          "source_type": "TOUR_API",
+          "source_record_id": "2616184",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=466",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        },
+        {
+          "doc_id": "DOC-B0999-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0999",
+          "source_locator": "data/raw/museum_base_1070.csv#row=1000",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 83,
+          "doc_ids": [
+            "DOC-B0999-TOUR_API-2616184"
+          ]
+        },
+        {
+          "start": 84,
+          "end": 126,
+          "doc_ids": [
+            "DOC-B0999-TOUR_API-2616184"
+          ]
+        },
+        {
+          "start": 127,
+          "end": 199,
+          "doc_ids": [
+            "DOC-B0999-TOUR_API-2616184"
+          ]
+        },
+        {
+          "start": 200,
+          "end": 345,
+          "doc_ids": [
+            "DOC-B0999-TOUR_API-2616184"
+          ]
+        },
+        {
+          "start": 346,
+          "end": 410,
+          "doc_ids": [
+            "DOC-B0999-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=466",
+      "text": "시인 조태일(1941-1999)은 곡성 태안사에서 대처승의 아들로 태어나, 1964년 경향신문 신춘문예에 ‘아침선박’이 당선되면서 문단에 등단하였다. 이후 1969년 시 전문지 ‘시인’을 창간하였고, 8권의 시집을 간행하였다. 곡성군에서는 시인 조태일의 문학세계를 기리기 위해 2003년 봉정리 태안사 승려의 다비식(茶毘式) 장소를 기념관으로 탈바꿈시켰다. 조태일시문학기념관에는 시인 조태일의 문학작품과 유품 등 2,000여 점이 전시되어 있으며, 시집 전시관에는 우리나라 최초의 근대 시집인 최남선의 ‘백팔번뇌’, 최초의 번역시집 ‘오뇌의 무도’ 등 희귀본부터 최근 작품까지 3,000여 점의 시집이 전시되어 있다. 조태일 시문학기념관은 199년 타계한 문단의 큰별인 죽형 조태일선생을 기리기 위해 2003년 곡성군에서 건립하였다.",
+      "sido": "전남광주특별자치도",
+      "sigungu": "곡성군",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=466"
+      ],
+      "evidence_id": "E3",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=682",
+        "fields": {
+          "name": "조태일 시문학기념관",
+          "sido": "전라남도",
+          "sigungu": "곡성군",
+          "address": "전라남도 곡성군 죽곡면 태안로 622-38",
+          "ownership_type": "공립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "09:00",
+          "weekday_close": "18:00",
+          "holiday_open": "09:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "월",
+          "amenities_raw": "창작실"
+        },
+        "base_data_date": "2025-07-01",
+        "trust": "derived_dataset_not_human_verified",
+        "normalizations": {
+          "sido": {
+            "source_value": "전라남도",
+            "matched_value": "전남광주특별자치도",
+            "rule": "configured_sido_alias"
+          }
+        }
+      }
+    },
+    {
+      "museum_id": "M0393",
+      "name": "수주문학관",
+      "document": "수주문학관은 경기도 부천시 고강동에 위치한 문화공간으로, 한국 근대문학의 시인인 수주 변영로 선생의 문학을 기리기 위해 설립되었다. 2022년에 개관하였으며, 다양한 전시와 문화행사를 통해 수주 시인의 삶과 작품을 소개하고 있다. 한국 근대문학을 개척한 선구적 문필가이자 부천의 시인인 수주 변영로의 문학정신과 작품을 기념하기 위해 조성된 문학관이다.",
+      "metadata": {
+        "closure_rule_raw": "월(월요일이 공휴일인 경우 월요일 정상 개관 후 화요일에 휴관)+1월 1일+설 연휴+추석 연휴",
+        "fee_notes": "0",
+        "name": "수주문학관",
+        "longitude": 126.81865,
+        "youth_fee": 0.0,
+        "adult_fee": 0.0,
+        "transport_notes": "원종역 2번출구에서 도보로 19분",
+        "sigungu": "부천시",
+        "sido": "경기도",
+        "image_url": "http://tong.visitkorea.or.kr/cms/resource/21/3453121_image2_1.JPG",
+        "holiday_close": "18:00",
+        "ownership_type": "공립",
+        "image_copyright": "Type1",
+        "child_fee": 0.0,
+        "weekday_open": "09:00",
+        "holiday_open": "09:00",
+        "requires_manual_review": true,
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "homepage_url": "http://www.bcmuseum.or.kr",
+        "source_types": "BASE|TOUR_API",
+        "latitude": 37.52438,
+        "weekday_close": "18:00",
+        "address": "경기도 부천시 오정구 고리울로8번길 77"
+      },
+      "vector_rank": 10,
+      "bm25_rank": null,
+      "vector_distance": 0.5784891843795776,
+      "vector_score": null,
+      "bm25_score": null,
+      "vector_document": "수주문학관은 경기도 부천시 고강동에 위치한 문화공간으로, 한국 근대문학의 시인인 수주 변영로 선생의 문학을 기리기 위해 설립되었다. 2022년에 개관하였으며, 다양한 전시와 문화행사를 통해 수주 시인의 삶과 작품을 소개하고 있다. 한국 근대문학을 개척한 선구적 문필가이자 부천의 시인인 수주 변영로의 문학정신과 작품을 기념하기 위해 조성된 문학관이다.",
+      "bm25_document": "",
+      "best_span_id": null,
+      "best_span_text": null,
+      "fusion_score": 0.014285714285714285,
+      "retrieved_by": [
+        "vector"
+      ],
+      "fusion_rank": 17,
+      "rerank_score": 0.006441720761358738,
+      "rank": 4,
+      "score": 0.006441720761358738,
+      "score_type": "cross_encoder",
+      "distance": 0.5784891843795776,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector"
+      ],
+      "retriever": "vector",
+      "source_doc_ids": [
+        "DOC-B0393-TOUR_API-3453292",
+        "DOC-B0393-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0393-TOUR_API-3453292",
+          "source_type": "TOUR_API",
+          "source_record_id": "3453292",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=182",
+          "match_trust": "RECHECKED_BY_RULE_NOT_HUMAN_APPROVED"
+        },
+        {
+          "doc_id": "DOC-B0393-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0393",
+          "source_locator": "data/raw/museum_base_1070.csv#row=394",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 73,
+          "doc_ids": [
+            "DOC-B0393-TOUR_API-3453292"
+          ]
+        },
+        {
+          "start": 74,
+          "end": 128,
+          "doc_ids": [
+            "DOC-B0393-TOUR_API-3453292"
+          ]
+        },
+        {
+          "start": 129,
+          "end": 196,
+          "doc_ids": [
+            "DOC-B0393-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=182",
+      "text": "수주문학관은 경기도 부천시 고강동에 위치한 문화공간으로, 한국 근대문학의 시인인 수주 변영로 선생의 문학을 기리기 위해 설립되었다. 2022년에 개관하였으며, 다양한 전시와 문화행사를 통해 수주 시인의 삶과 작품을 소개하고 있다. 한국 근대문학을 개척한 선구적 문필가이자 부천의 시인인 수주 변영로의 문학정신과 작품을 기념하기 위해 조성된 문학관이다.",
+      "sido": "경기도",
+      "sigungu": "부천시",
+      "span_id": "",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=182"
+      ],
+      "evidence_id": "E4",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=280",
+        "fields": {
+          "name": "수주문학관",
+          "sido": "경기도",
+          "sigungu": "부천시",
+          "address": "경기도 부천시 오정구 고리울로8번길 77",
+          "ownership_type": "공립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "09:00",
+          "weekday_close": "18:00",
+          "holiday_open": "09:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "월(월요일이 공휴일인 경우 월요일 정상 개관 후 화요일에 휴관)+1월 1일+설 연휴+추석 연휴"
+        },
+        "base_data_date": "2026-06-17",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0341",
+      "name": "조엄기념관",
+      "document": "2014년 11월 개관한 조엄기념관은 조선에 고구마를 들여와 백성들의 굶주림을 해결하고자 노력했던 문익공(文翼公) 조엄(趙曮) 선생의 애민정신을 기리기 위해 건립되었다. 기념관 외부 공간은 산책과 사색의 공간이다. 조엄기념관 마당에서 조업 사당을 지나 조엄묘역(강원특별자치도 기념물 제76호)까지 느린 걸음으로 20분 정도면 산책이 가능하며, 사계결 변화하는 정원의 모습을 감상할 수 있다. 기념관 주차장 옆 텃밭에는 고구마를 심어 경작하는 공간으로 고구마가 자라는 모습을 볼 수 있다. 내부 전시시설은 고구마로 만든 음식모형이 전시된 공간으로 시작된다. 조엄 선생의 생애와 연보, 풍양 조씨 집안 이야기, 해사일기 등에 관해 감상할 수 있으며, 영상실에는 조엄 선생에 관한 시청각자료가 구비되어 있다. 우리나라에 최초로 고구마를 도입하여 조선시대 당시 기근 해결에 큰 기여를 했던 문익공 조엄 선생을 기리는 기념관으로 조엄묘역과 조엄사당 등이 함께 위치하며 직접 고구마 경작을 할 수 있는 체험프로그램도 운영 중이다.",
+      "metadata": {
+        "requires_manual_review": true,
+        "source_types": "BASE|TOUR_API",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/03/3557103_image2_1.JPG",
+        "image_copyright": "Type1",
+        "longitude": 127.8517615,
+        "closure_rule_raw": "월+명절당일+공휴일 익일",
+        "holiday_open": "10:00",
+        "address": "강원특별자치도 원주시 지정면 간현웃말길 46",
+        "homepage_url": "http://whm.wonju.go.kr/whm/page/view.php/sub_08_01",
+        "child_fee": 0.0,
+        "ownership_type": "공립",
+        "adult_fee": 0.0,
+        "weekday_close": "17:00",
+        "latitude": 37.3538156,
+        "sigungu": "원주시",
+        "holiday_close": "17:00",
+        "weekday_open": "10:00",
+        "transport_notes": "시외버스터미널 주변 시내버스52+ 57번(지정면행)",
+        "youth_fee": 0.0,
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "name": "조엄기념관",
+        "sido": "강원특별자치도"
+      },
+      "vector_rank": null,
+      "bm25_rank": 10,
+      "vector_distance": null,
+      "vector_score": null,
+      "bm25_score": 5.251636602132981,
+      "vector_document": "",
+      "bm25_document": "2014년 11월 개관한 조엄기념관은 조선에 고구마를 들여와 백성들의 굶주림을 해결하고자 노력했던 문익공(文翼公) 조엄(趙曮) 선생의 애민정신을 기리기 위해 건립되었다. 기념관 외부 공간은 산책과 사색의 공간이다. 조엄기념관 마당에서 조업 사당을 지나 조엄묘역(강원특별자치도 기념물 제76호)까지 느린 걸음으로 20분 정도면 산책이 가능하며, 사계결 변화하는 정원의 모습을 감상할 수 있다. 기념관 주차장 옆 텃밭에는 고구마를 심어 경작하는 공간으로 고구마가 자라는 모습을 볼 수 있다. 내부 전시시설은 고구마로 만든 음식모형이 전시된 공간으로 시작된다. 조엄 선생의 생애와 연보, 풍양 조씨 집안 이야기, 해사일기 등에 관해 감상할 수 있으며, 영상실에는 조엄 선생에 관한 시청각자료가 구비되어 있다. 우리나라에 최초로 고구마를 도입하여 조선시대 당시 기근 해결에 큰 기여를 했던 문익공 조엄 선생을 기리는 기념관으로 조엄묘역과 조엄사당 등이 함께 위치하며 직접 고구마 경작을 할 수 있는 체험프로그램도 운영 중이다.",
+      "best_span_id": "chroma:M0341",
+      "best_span_text": "2014년 11월 개관한 조엄기념관은 조선에 고구마를 들여와 백성들의 굶주림을 해결하고자 노력했던 문익공(文翼公) 조엄(趙曮) 선생의 애민정신을 기리기 위해 건립되었다. 기념관 외부 공간은 산책과 사색의 공간이다. 조엄기념관 마당에서 조업 사당을 지나 조엄묘역(강원특별자치도 기념물 제76호)까지 느린 걸음으로 20분 정도면 산책이 가능하며, 사계결 변화하는 정원의 모습을 감상할 수 있다. 기념관 주차장 옆 텃밭에는 고구마를 심어 경작하는 공간으로 고구마가 자라는 모습을 볼 수 있다. 내부 전시시설은 고구마로 만든 음식모형이 전시된 공간으로 시작된다. 조엄 선생의 생애와 연보, 풍양 조씨 집안 이야기, 해사일기 등에 관해 감상할 수 있으며, 영상실에는 조엄 선생에 관한 시청각자료가 구비되어 있다. 우리나라에 최초로 고구마를 도입하여 조선시대 당시 기근 해결에 큰 기여를 했던 문익공 조엄 선생을 기리는 기념관으로 조엄묘역과 조엄사당 등이 함께 위치하며 직접 고구마 경작을 할 수 있는 체험프로그램도 운영 중이다.",
+      "fusion_score": 0.014285714285714285,
+      "retrieved_by": [
+        "bm25"
+      ],
+      "fusion_rank": 18,
+      "rerank_score": 0.0049708508886396885,
+      "rank": 5,
+      "score": 0.0049708508886396885,
+      "score_type": "cross_encoder",
+      "distance": null,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "bm25"
+      ],
+      "retriever": "bm25",
+      "span_id": "chroma:M0341",
+      "source_doc_ids": [
+        "DOC-B0341-TOUR_API-2764837",
+        "DOC-B0341-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0341-TOUR_API-2764837",
+          "source_type": "TOUR_API",
+          "source_record_id": "2764837",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=166",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        },
+        {
+          "doc_id": "DOC-B0341-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0341",
+          "source_locator": "data/raw/museum_base_1070.csv#row=342",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 94,
+          "doc_ids": [
+            "DOC-B0341-TOUR_API-2764837"
+          ]
+        },
+        {
+          "start": 95,
+          "end": 119,
+          "doc_ids": [
+            "DOC-B0341-TOUR_API-2764837"
+          ]
+        },
+        {
+          "start": 120,
+          "end": 218,
+          "doc_ids": [
+            "DOC-B0341-TOUR_API-2764837"
+          ]
+        },
+        {
+          "start": 219,
+          "end": 272,
+          "doc_ids": [
+            "DOC-B0341-TOUR_API-2764837"
+          ]
+        },
+        {
+          "start": 273,
+          "end": 310,
+          "doc_ids": [
+            "DOC-B0341-TOUR_API-2764837"
+          ]
+        },
+        {
+          "start": 311,
+          "end": 393,
+          "doc_ids": [
+            "DOC-B0341-TOUR_API-2764837"
+          ]
+        },
+        {
+          "start": 394,
+          "end": 514,
+          "doc_ids": [
+            "DOC-B0341-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=166",
+      "text": "2014년 11월 개관한 조엄기념관은 조선에 고구마를 들여와 백성들의 굶주림을 해결하고자 노력했던 문익공(文翼公) 조엄(趙曮) 선생의 애민정신을 기리기 위해 건립되었다. 기념관 외부 공간은 산책과 사색의 공간이다. 조엄기념관 마당에서 조업 사당을 지나 조엄묘역(강원특별자치도 기념물 제76호)까지 느린 걸음으로 20분 정도면 산책이 가능하며, 사계결 변화하는 정원의 모습을 감상할 수 있다. 기념관 주차장 옆 텃밭에는 고구마를 심어 경작하는 공간으로 고구마가 자라는 모습을 볼 수 있다. 내부 전시시설은 고구마로 만든 음식모형이 전시된 공간으로 시작된다. 조엄 선생의 생애와 연보, 풍양 조씨 집안 이야기, 해사일기 등에 관해 감상할 수 있으며, 영상실에는 조엄 선생에 관한 시청각자료가 구비되어 있다. 우리나라에 최초로 고구마를 도입하여 조선시대 당시 기근 해결에 큰 기여를 했던 문익공 조엄 선생을 기리는 기념관으로 조엄묘역과 조엄사당 등이 함께 위치하며 직접 고구마 경작을 할 수 있는 체험프로그램도 운영 중이다.",
+      "sido": "강원특별자치도",
+      "sigungu": "원주시",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=166"
+      ],
+      "evidence_id": "E5",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=247",
+        "fields": {
+          "name": "조엄기념관",
+          "sido": "강원특별자치도",
+          "sigungu": "원주시",
+          "address": "강원특별자치도 원주시 지정면 간현웃말길 46",
+          "ownership_type": "공립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "10:00",
+          "weekday_close": "17:00",
+          "holiday_open": "10:00",
+          "holiday_close": "17:00",
+          "closure_rule_raw": "월+명절당일+공휴일 익일"
+        },
+        "base_data_date": "2026-06-29",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    }
+  ],
+  "answer": "남해유배문학관은 유배라는 절망적인 삶 속에서도 문학과 예술을 꽃피운 선조들의 숭고한 혼과, 세월 속에 잊혀가는 유배객들을 기리기 위해 건립되었습니다. [E1]",
+  "retrieval_status": "ok",
+  "answer_status": "answered",
+  "route": "hybrid",
+  "retry_count": 0,
+  "supervisor_verified": true,
+  "rerank_applied": true,
+  "retriever_errors": [],
+  "warnings": [],
+  "duration_ms": 72284.11,
+  "error_type": "",
+  "hit_at_1": 1,
+  "hit_at_3": 1,
+  "hit_at_5": 1,
+  "recall_at_5": 1.0,
+  "mrr_at_10": 1.0
+}

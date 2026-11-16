@@ -1,0 +1,723 @@
+{
+  "evidence_context_version": "grounded-evidence-v2",
+  "evaluation_contexts": [
+    "{\"evidence_context_version\": \"grounded-evidence-v2\", \"evidence_id\": \"E1\", \"metadata_provenance\": {\"base_data_date\": \"2024-12-13\", \"fields\": {\"address\": \"강원특별자치도 인제군 북면 만해로 136\", \"adult_fee\": \"0\", \"adult_fee_status\": \"BASE_FEE_ZERO_CHECK_EXCEPTIONS\", \"amenities_raw\": \"휴게공간\", \"child_fee\": \"0\", \"closure_rule_raw\": \"월+1월 1일+설 당일+추석 하루\", \"holiday_close\": \"18:00\", \"holiday_open\": \"09:00\", \"name\": \"한국시집박물관\", \"ownership_type\": \"공립\", \"sido\": \"강원특별자치도\", \"sigungu\": \"인제군\", \"weekday_close\": \"18:00\", \"weekday_open\": \"09:00\", \"youth_fee\": \"0\"}, \"source_kind\": \"derived_csv_row\", \"source_locator\": \"data/processed/museum_final_738.csv#record=544\", \"trust\": \"derived_dataset_not_human_verified\"}, \"museum_id\": \"M0788\", \"name\": \"한국시집박물관\", \"retrieval_branch\": \"document\", \"source_doc_ids\": [\"DOC-B0788-TOUR_API-2714793\", \"DOC-B0788-BASE\"], \"source_documents\": [{\"doc_id\": \"DOC-B0788-TOUR_API-2714793\", \"match_trust\": \"AUTO_MATCH_NOT_HUMAN_VERIFIED\", \"source_locator\": \"data/raw/museum_tourapi_with_overview.csv#row=379\", \"source_record_id\": \"2714793\", \"source_type\": \"TOUR_API\"}, {\"doc_id\": \"DOC-B0788-BASE\", \"match_trust\": \"BASE_SOURCE\", \"source_locator\": \"data/raw/museum_base_1070.csv#row=789\", \"source_record_id\": \"B0788\", \"source_type\": \"BASE\"}], \"source_locator\": \"data/raw/museum_tourapi_with_overview.csv#row=379\", \"source_locators\": [\"data/raw/museum_tourapi_with_overview.csv#row=379\"], \"source_scope\": \"text\", \"source_spans\": [{\"doc_ids\": [\"DOC-B0788-TOUR_API-2714793\"], \"end\": 90, \"start\": 0}, {\"doc_ids\": [\"DOC-B0788-TOUR_API-2714793\"], \"end\": 128, \"start\": 91}, {\"doc_ids\": [\"DOC-B0788-TOUR_API-2714793\"], \"end\": 211, \"start\": 129}, {\"doc_ids\": [\"DOC-B0788-TOUR_API-2714793\"], \"end\": 327, \"start\": 212}, {\"doc_ids\": [\"DOC-B0788-TOUR_API-2714793\"], \"end\": 458, \"start\": 328}, {\"doc_ids\": [\"DOC-B0788-BASE\"], \"end\": 481, \"start\": 459}], \"source_urls\": [], \"text\": \"한국시집박물관은 우리나라 근·현대기의 시집[詩集]을 체계적으로 전시하고 교육하는 국내 유일의 전문 박물관으로, 강원특별자치도 인제군 북면 용대리에 자리하고 있다. 총 9,459㎡의 부지에 지하 1층, 지상 2층 규모로 건립되었다. 지상 1층에는 관람객들이 자유롭게 시집을 대여해 읽을 수 있는 작은 도서관, 다양한 체험학습이 가능한 교육·체험 공간, 안내실 등이 마련되어 있다. 지상 2층은 ‘근·현대 시기(1900~1970년대)’의 한국 시집을 연대기별로 전시한 상설 전시실, 시를 직접 짓고 낭송해 볼 수 있는 체험실, 그리고 특별전 등을 열 수 있는 기획 전시실로 구성되어 있다. 한국시집박물관은 국내외 많은 시인들과 소장가들이 기증한 기증 시집을 소장하고 있으며, 그중에는 오뇌의 무도, 해파리의 노래, 육사 시집 등과 같이 일반에 잘 알려지지 않은 1950년대 이전에 간행된 희귀 시집들도 다수 포함되어 있다. 우리나라 근현대 시기 시집 보존 및 전시\"}",
+    "{\"evidence_context_version\": \"grounded-evidence-v2\", \"evidence_id\": \"E2\", \"metadata_provenance\": {\"base_data_date\": \"2024-12-13\", \"fields\": {\"address\": \"강원특별자치도 인제군 인제읍 인제로156번길 50\", \"adult_fee\": \"0\", \"adult_fee_status\": \"BASE_FEE_ZERO_CHECK_EXCEPTIONS\", \"amenities_raw\": \"휴게공간\", \"child_fee\": \"0\", \"closure_rule_raw\": \"월+설 당일+추석 당일+공휴일 다음날\", \"holiday_close\": \"18:00\", \"holiday_open\": \"09:00\", \"name\": \"인제산촌민속박물관\", \"ownership_type\": \"공립\", \"sido\": \"강원특별자치도\", \"sigungu\": \"인제군\", \"weekday_close\": \"18:00\", \"weekday_open\": \"09:00\", \"youth_fee\": \"0\"}, \"source_kind\": \"derived_csv_row\", \"source_locator\": \"data/processed/museum_final_738.csv#record=547\", \"trust\": \"derived_dataset_not_human_verified\"}, \"museum_id\": \"M0791\", \"name\": \"인제산촌민속박물관\", \"retrieval_branch\": \"document\", \"source_doc_ids\": [\"DOC-B0791-TOUR_API-130513\", \"DOC-B0791-BASE\"], \"source_documents\": [{\"doc_id\": \"DOC-B0791-TOUR_API-130513\", \"match_trust\": \"AUTO_MATCH_NOT_HUMAN_VERIFIED\", \"source_locator\": \"data/raw/museum_tourapi_with_overview.csv#row=382\", \"source_record_id\": \"130513\", \"source_type\": \"TOUR_API\"}, {\"doc_id\": \"DOC-B0791-BASE\", \"match_trust\": \"BASE_SOURCE\", \"source_locator\": \"data/raw/museum_base_1070.csv#row=792\", \"source_record_id\": \"B0791\", \"source_type\": \"BASE\"}], \"source_locator\": \"data/raw/museum_tourapi_with_overview.csv#row=382\", \"source_locators\": [\"data/raw/museum_tourapi_with_overview.csv#row=382\"], \"source_scope\": \"text\", \"source_spans\": [{\"doc_ids\": [\"DOC-B0791-TOUR_API-130513\"], \"end\": 86, \"start\": 0}, {\"doc_ids\": [\"DOC-B0791-TOUR_API-130513\"], \"end\": 152, \"start\": 87}, {\"doc_ids\": [\"DOC-B0791-TOUR_API-130513\"], \"end\": 235, \"start\": 153}, {\"doc_ids\": [\"DOC-B0791-TOUR_API-130513\"], \"end\": 294, \"start\": 236}, {\"doc_ids\": [\"DOC-B0791-TOUR_API-130513\"], \"end\": 333, \"start\": 295}, {\"doc_ids\": [\"DOC-B0791-TOUR_API-130513\"], \"end\": 421, \"start\": 334}, {\"doc_ids\": [\"DOC-B0791-BASE\"], \"end\": 444, \"start\": 422}], \"source_urls\": [], \"text\": \"인제산촌민속박물관은 인제군의 사라져 가는 민속문화를 체계적으로 보존·전시하고 있는 국내 유일의 산촌민속 전문박물관으로서 2003년 10월 8일 개관하였다. 총 2층으로 건립된 인제산촌민속박물관은 외형이 비상하는 새를 기본 모티브로 하여 도약과 웅비의 정신을 상징하고 있다. 전시실은 총 2개로 제1전시실은 산촌 사람들의 삶과 믿음의 세계라는 테마로 산촌의 봄, 여름, 가을, 겨울 풍경과 겨울맞이로 나뉘어 전시되고 있다. 제2전시실은 산촌 사람들의 애환과 여유라는 주제로 사계절 식생활의 모습과 주거 형태 등을 전시하고 있다. 그 외로는 특별전시실, 박인환 문학관, 야외전시장으로 구분되어 있다. 인제산촌민속박물관은 산촌 문화의 생태와 문화를 엿볼 수 있고 사라져 가는 산촌문화를 되새겨 볼 수 있는 공간으로 옛것에 대한 소중함을 배울 수 있는 곳이다. 제일산수 인제군의 산촌문화 보존 및 전시\"}",
+    "{\"evidence_context_version\": \"grounded-evidence-v2\", \"evidence_id\": \"E3\", \"metadata_provenance\": {\"base_data_date\": \"2024-12-13\", \"fields\": {\"address\": \"강원특별자치도 인제군 북면 만해로 154\", \"adult_fee\": \"0\", \"adult_fee_status\": \"BASE_FEE_ZERO_CHECK_EXCEPTIONS\", \"amenities_raw\": \"휴게공간\", \"child_fee\": \"0\", \"closure_rule_raw\": \"월+1월 1일+설 당일+추석 하루\", \"holiday_close\": \"18:00\", \"holiday_open\": \"09:00\", \"name\": \"여초서예관\", \"ownership_type\": \"공립\", \"sido\": \"강원특별자치도\", \"sigungu\": \"인제군\", \"weekday_close\": \"18:00\", \"weekday_open\": \"09:00\", \"youth_fee\": \"0\"}, \"source_kind\": \"derived_csv_row\", \"source_locator\": \"data/processed/museum_final_738.csv#record=545\", \"trust\": \"derived_dataset_not_human_verified\"}, \"museum_id\": \"M0789\", \"name\": \"여초서예관\", \"retrieval_branch\": \"document\", \"source_doc_ids\": [\"DOC-B0789-TOUR_API-2692510\", \"DOC-B0789-BASE\"], \"source_documents\": [{\"doc_id\": \"DOC-B0789-TOUR_API-2692510\", \"match_trust\": \"AUTO_MATCH_NOT_HUMAN_VERIFIED\", \"source_locator\": \"data/raw/museum_tourapi_with_overview.csv#row=380\", \"source_record_id\": \"2692510\", \"source_type\": \"TOUR_API\"}, {\"doc_id\": \"DOC-B0789-BASE\", \"match_trust\": \"BASE_SOURCE\", \"source_locator\": \"data/raw/museum_base_1070.csv#row=790\", \"source_record_id\": \"B0789\", \"source_type\": \"BASE\"}], \"source_locator\": \"data/raw/museum_tourapi_with_overview.csv#row=380\", \"source_locators\": [\"data/raw/museum_tourapi_with_overview.csv#row=380\"], \"source_scope\": \"text\", \"source_spans\": [{\"doc_ids\": [\"DOC-B0789-TOUR_API-2692510\"], \"end\": 103, \"start\": 0}, {\"doc_ids\": [\"DOC-B0789-TOUR_API-2692510\"], \"end\": 175, \"start\": 104}, {\"doc_ids\": [\"DOC-B0789-TOUR_API-2692510\"], \"end\": 294, \"start\": 176}, {\"doc_ids\": [\"DOC-B0789-TOUR_API-2692510\"], \"end\": 382, \"start\": 295}, {\"doc_ids\": [\"DOC-B0789-TOUR_API-2692510\"], \"end\": 427, \"start\": 383}, {\"doc_ids\": [\"DOC-B0789-TOUR_API-2692510\"], \"end\": 487, \"start\": 428}, {\"doc_ids\": [\"DOC-B0789-TOUR_API-2692510\"], \"end\": 547, \"start\": 488}, {\"doc_ids\": [\"DOC-B0789-TOUR_API-2692510\"], \"end\": 618, \"start\": 548}, {\"doc_ids\": [\"DOC-B0789-TOUR_API-2692510\"], \"end\": 670, \"start\": 619}, {\"doc_ids\": [\"DOC-B0789-TOUR_API-2692510\"], \"end\": 706, \"start\": 671}, {\"doc_ids\": [\"DOC-B0789-TOUR_API-2692510\"], \"end\": 801, \"start\": 707}, {\"doc_ids\": [\"DOC-B0789-TOUR_API-2692510\"], \"end\": 876, \"start\": 802}, {\"doc_ids\": [\"DOC-B0789-TOUR_API-2692510\"], \"end\": 1016, \"start\": 877}, {\"doc_ids\": [\"DOC-B0789-TOUR_API-2692510\"], \"end\": 1099, \"start\": 1017}, {\"doc_ids\": [\"DOC-B0789-BASE\"], \"end\": 1146, \"start\": 1100}], \"source_urls\": [], \"text\": \"강원특별자치도 인제군 북면 용대리에 위치한 여초서예관은 근현대 한국 서예 역사에서 최고의 대가[大家]로 평가받는 여초 김응현[如初 金膺顯] 선생을 기리기 위해 설립된 서예전문박물관이다. 이곳에는 여초 김응현 선생의 서예작품과 유품, 국내·외 서법 관련 자료, 서적 등 총 6천여 점의 소장품이 보존·전시되고 있다. 2013년 6월 전국 최대 규모의 서예전문박물관인 여초서예관이 인제군에 세워져 여초의 서법정신이 담긴 소중한 작품들이 보존·전시되었으며, 현재 서예문화예술 발전을 위한 다양한 전시 및 교육 사업이 진행되고 있다. 여초서예관을 설계한 건축가 이성관은 김응현의 서예 작품을 깊이 연구하고, 그의 작품에서 풍기는 고상하고 순결한 느낌이 건축에도 잘 녹아들 수 있기를 바랐다. 건축가는 서예관이 지어질 장소 주변을 두르고 있는 오래된 소나무 숲에 주목했다. 한국인들은 계절의 변화에 관계없이 푸르름을 잃지 않는 소나무를 언제나 반듯하고 품위 있는 선비에 비유한다. 건축가는 서예관으로 주변의 소나무 숲을 끌어들여 김응현의 작품에 기품을 더하는 방향으로 설계를 진행하였다. 서예관은 이러한 콘셉트가 반영되어 주변의 소나무 숲을 보존하는 동시에 가능한 자연지형을 훼손하지 않는 상태로 대지에 앉혀졌다. 소나무 숲을 배경으로 하고, 지면에는 경사지형을 활용하여 교육 시설과 부대시설을 배치하였다. 전시시설은 필로티를 이용하여 지면에서부터 한 층을 띄워 올렸다. 필로티를 통해 전시시설이 지면에서 분리되면서 생겨난 수평의 빈 공간으로는 주변의 자연경관을 끌어들여, 서예관으로 가까이 다가갈수록 건물과 자연이 하나로 중첩되어 보인다. 필로티를 지나 건물로 들어서면 위로는 네모난 형태로 하늘이 열려있고, 아래로는 잔잔한 수면 위로 햇살이 반짝이는 연못을 만나게 된다. 기존에 대지를 흐르던 개울물을 그대로 살려 만들어진 이 연못은 필로티로 만들어진 공간 사이로 들어오는 주변의 자연을 비출 뿐만 아니라, 전시시설 벽면에 새겨진 김응현의 서예 작품을 비추면서 여초 김응현 작품이 갖는 고상하고 순결한 느낌을 부각시킨다. 이렇게 2012년 완공된 서예관 건축물은 빼어난 건축미를 인정받아 2012년에 ‘한국건축문화대상 우수상’, ‘올해의 건축 Best7’에 선정되었다. 여초 김응현선생의 서예작품과 유품, 국내·외 서법관련 자료, 서적 등 보존 · 전시\"}",
+    "{\"evidence_context_version\": \"grounded-evidence-v2\", \"evidence_id\": \"E4\", \"evidence_role\": \"anchor\", \"museum_id\": \"M0790\", \"name\": \"박인환문학관\", \"operator_raw_name\": \"인제군문화재단\", \"org_type\": \"재단·비영리법인\", \"organization\": \"인제군문화재단\", \"relation\": \"OPERATED_BY\", \"retrieval_branch\": \"graph\", \"sido\": \"강원특별자치도\", \"sigungu\": \"인제군\", \"source_doc_ids\": [\"DOC-B0790-BASE\", \"DOC-B0790-TOUR_API-1932440\"], \"source_locator\": \"data/raw/museum_base_1070.csv#row=791\", \"source_locators\": [\"data/raw/museum_base_1070.csv#row=791\", \"data/raw/museum_tourapi_with_overview.csv#row=381\"], \"source_scope\": \"graph_properties\", \"source_urls\": [], \"text\": \"박인환문학관의 Neo4j operator_name(운영기관) 기록: 인제군문화재단 (CSV 원문: 인제군문화재단)\\n[Neo4j 구조화 근거] {\\\"museum_id\\\": \\\"M0790\\\", \\\"name\\\": \\\"박인환문학관\\\", \\\"relation\\\": \\\"OPERATED_BY\\\", \\\"organization\\\": \\\"인제군문화재단\\\", \\\"org_key\\\": \\\"인제군문화재단\\\", \\\"org_type\\\": \\\"재단·비영리법인\\\", \\\"raw_name\\\": \\\"인제군문화재단\\\", \\\"verification_status\\\": \\\"SOURCE_RECORDED\\\"}\", \"verification_status\": \"SOURCE_RECORDED\"}",
+    "{\"anchor_operator_raw_name\": \"인제군문화재단\", \"evidence_context_version\": \"grounded-evidence-v2\", \"evidence_id\": \"E5\", \"facility_type\": \"전시관\", \"graph_path\": \"anchor -[:OPERATED_BY]-> Organization <-[:OPERATED_BY]- candidate\", \"museum_id\": \"M0789\", \"name\": \"여초서예관\", \"operator_raw_name\": \"인제군문화재단\", \"org_type\": \"재단·비영리법인\", \"organization\": \"인제군문화재단\", \"relation\": \"OPERATED_BY\", \"retrieval_branch\": \"graph\", \"sido\": \"강원특별자치도\", \"sigungu\": \"인제군\", \"source_doc_ids\": [\"DOC-B0789-BASE\", \"DOC-B0789-TOUR_API-2692510\"], \"source_locator\": \"data/raw/museum_base_1070.csv#row=790\", \"source_locators\": [\"data/raw/museum_base_1070.csv#row=790\", \"data/raw/museum_tourapi_with_overview.csv#row=380\"], \"source_scope\": \"graph_properties\", \"source_urls\": [], \"text\": \"{anchor_raw_name: 인제군문화재단, candidate_raw_name: 인제군문화재단, org_key: 인제군문화재단, organization: 인제군문화재단, relation: OPERATED_BY, verification_status: SOURCE_RECORDED}\", \"verification_status\": \"SOURCE_RECORDED\"}",
+    "{\"anchor_operator_raw_name\": \"인제군문화재단\", \"evidence_context_version\": \"grounded-evidence-v2\", \"evidence_id\": \"E6\", \"facility_type\": \"박물관\", \"graph_path\": \"anchor -[:OPERATED_BY]-> Organization <-[:OPERATED_BY]- candidate\", \"museum_id\": \"M0791\", \"name\": \"인제산촌민속박물관\", \"operator_raw_name\": \"인제군문화재단\", \"org_type\": \"재단·비영리법인\", \"organization\": \"인제군문화재단\", \"relation\": \"OPERATED_BY\", \"retrieval_branch\": \"graph\", \"sido\": \"강원특별자치도\", \"sigungu\": \"인제군\", \"source_doc_ids\": [\"DOC-B0791-BASE\", \"DOC-B0791-TOUR_API-130513\"], \"source_locator\": \"data/raw/museum_base_1070.csv#row=792\", \"source_locators\": [\"data/raw/museum_base_1070.csv#row=792\", \"data/raw/museum_tourapi_with_overview.csv#row=382\"], \"source_scope\": \"graph_properties\", \"source_urls\": [], \"text\": \"{anchor_raw_name: 인제군문화재단, candidate_raw_name: 인제군문화재단, org_key: 인제군문화재단, organization: 인제군문화재단, relation: OPERATED_BY, verification_status: SOURCE_RECORDED}\", \"verification_status\": \"SOURCE_RECORDED\"}",
+    "{\"anchor_operator_raw_name\": \"인제군문화재단\", \"evidence_context_version\": \"grounded-evidence-v2\", \"evidence_id\": \"E7\", \"facility_type\": \"박물관\", \"graph_path\": \"anchor -[:OPERATED_BY]-> Organization <-[:OPERATED_BY]- candidate\", \"museum_id\": \"M0788\", \"name\": \"한국시집박물관\", \"operator_raw_name\": \"인제군문화재단\", \"org_type\": \"재단·비영리법인\", \"organization\": \"인제군문화재단\", \"relation\": \"OPERATED_BY\", \"retrieval_branch\": \"graph\", \"sido\": \"강원특별자치도\", \"sigungu\": \"인제군\", \"source_doc_ids\": [\"DOC-B0788-BASE\", \"DOC-B0788-TOUR_API-2714793\"], \"source_locator\": \"data/raw/museum_base_1070.csv#row=789\", \"source_locators\": [\"data/raw/museum_base_1070.csv#row=789\", \"data/raw/museum_tourapi_with_overview.csv#row=379\"], \"source_scope\": \"graph_properties\", \"source_urls\": [], \"text\": \"{anchor_raw_name: 인제군문화재단, candidate_raw_name: 인제군문화재단, org_key: 인제군문화재단, organization: 인제군문화재단, relation: OPERATED_BY, verification_status: SOURCE_RECORDED}\", \"verification_status\": \"SOURCE_RECORDED\"}"
+  ],
+  "mode": "supervisor_full",
+  "question_id": "V2-CB09",
+  "evidence": [
+    {
+      "museum_id": "M0788",
+      "name": "한국시집박물관",
+      "document": "한국시집박물관은 우리나라 근·현대기의 시집[詩集]을 체계적으로 전시하고 교육하는 국내 유일의 전문 박물관으로, 강원특별자치도 인제군 북면 용대리에 자리하고 있다. 총 9,459㎡의 부지에 지하 1층, 지상 2층 규모로 건립되었다. 지상 1층에는 관람객들이 자유롭게 시집을 대여해 읽을 수 있는 작은 도서관, 다양한 체험학습이 가능한 교육·체험 공간, 안내실 등이 마련되어 있다. 지상 2층은 ‘근·현대 시기(1900~1970년대)’의 한국 시집을 연대기별로 전시한 상설 전시실, 시를 직접 짓고 낭송해 볼 수 있는 체험실, 그리고 특별전 등을 열 수 있는 기획 전시실로 구성되어 있다. 한국시집박물관은 국내외 많은 시인들과 소장가들이 기증한 기증 시집을 소장하고 있으며, 그중에는 오뇌의 무도, 해파리의 노래, 육사 시집 등과 같이 일반에 잘 알려지지 않은 1950년대 이전에 간행된 희귀 시집들도 다수 포함되어 있다. 우리나라 근현대 시기 시집 보존 및 전시",
+      "metadata": {
+        "image_copyright": "Type3",
+        "longitude": 128.3184745,
+        "address": "강원특별자치도 인제군 북면 만해로 136",
+        "child_fee": 0.0,
+        "source_types": "BASE|TOUR_API",
+        "sido": "강원특별자치도",
+        "youth_fee": 0.0,
+        "closure_rule_raw": "월+1월 1일+설 당일+추석 하루",
+        "weekday_close": "18:00",
+        "holiday_close": "18:00",
+        "latitude": 38.1886501,
+        "amenities_raw": "휴게공간",
+        "holiday_open": "09:00",
+        "fee_notes": "0",
+        "adult_fee": 0.0,
+        "transport_notes": "용대리 만해마을 인근",
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/69/3502869_image2_1.jpg",
+        "sigungu": "인제군",
+        "weekday_open": "09:00",
+        "name": "한국시집박물관",
+        "ownership_type": "공립",
+        "requires_manual_review": true
+      },
+      "vector_rank": 1,
+      "bm25_rank": 1,
+      "vector_distance": 0.550872802734375,
+      "vector_score": null,
+      "bm25_score": 17.792846473860834,
+      "vector_document": "한국시집박물관은 우리나라 근·현대기의 시집[詩集]을 체계적으로 전시하고 교육하는 국내 유일의 전문 박물관으로, 강원특별자치도 인제군 북면 용대리에 자리하고 있다. 총 9,459㎡의 부지에 지하 1층, 지상 2층 규모로 건립되었다. 지상 1층에는 관람객들이 자유롭게 시집을 대여해 읽을 수 있는 작은 도서관, 다양한 체험학습이 가능한 교육·체험 공간, 안내실 등이 마련되어 있다. 지상 2층은 ‘근·현대 시기(1900~1970년대)’의 한국 시집을 연대기별로 전시한 상설 전시실, 시를 직접 짓고 낭송해 볼 수 있는 체험실, 그리고 특별전 등을 열 수 있는 기획 전시실로 구성되어 있다. 한국시집박물관은 국내외 많은 시인들과 소장가들이 기증한 기증 시집을 소장하고 있으며, 그중에는 오뇌의 무도, 해파리의 노래, 육사 시집 등과 같이 일반에 잘 알려지지 않은 1950년대 이전에 간행된 희귀 시집들도 다수 포함되어 있다. 우리나라 근현대 시기 시집 보존 및 전시",
+      "bm25_document": "한국시집박물관은 우리나라 근·현대기의 시집[詩集]을 체계적으로 전시하고 교육하는 국내 유일의 전문 박물관으로, 강원특별자치도 인제군 북면 용대리에 자리하고 있다. 총 9,459㎡의 부지에 지하 1층, 지상 2층 규모로 건립되었다. 지상 1층에는 관람객들이 자유롭게 시집을 대여해 읽을 수 있는 작은 도서관, 다양한 체험학습이 가능한 교육·체험 공간, 안내실 등이 마련되어 있다. 지상 2층은 ‘근·현대 시기(1900~1970년대)’의 한국 시집을 연대기별로 전시한 상설 전시실, 시를 직접 짓고 낭송해 볼 수 있는 체험실, 그리고 특별전 등을 열 수 있는 기획 전시실로 구성되어 있다. 한국시집박물관은 국내외 많은 시인들과 소장가들이 기증한 기증 시집을 소장하고 있으며, 그중에는 오뇌의 무도, 해파리의 노래, 육사 시집 등과 같이 일반에 잘 알려지지 않은 1950년대 이전에 간행된 희귀 시집들도 다수 포함되어 있다. 우리나라 근현대 시기 시집 보존 및 전시",
+      "best_span_id": "chroma:M0788",
+      "best_span_text": "한국시집박물관은 우리나라 근·현대기의 시집[詩集]을 체계적으로 전시하고 교육하는 국내 유일의 전문 박물관으로, 강원특별자치도 인제군 북면 용대리에 자리하고 있다. 총 9,459㎡의 부지에 지하 1층, 지상 2층 규모로 건립되었다. 지상 1층에는 관람객들이 자유롭게 시집을 대여해 읽을 수 있는 작은 도서관, 다양한 체험학습이 가능한 교육·체험 공간, 안내실 등이 마련되어 있다. 지상 2층은 ‘근·현대 시기(1900~1970년대)’의 한국 시집을 연대기별로 전시한 상설 전시실, 시를 직접 짓고 낭송해 볼 수 있는 체험실, 그리고 특별전 등을 열 수 있는 기획 전시실로 구성되어 있다. 한국시집박물관은 국내외 많은 시인들과 소장가들이 기증한 기증 시집을 소장하고 있으며, 그중에는 오뇌의 무도, 해파리의 노래, 육사 시집 등과 같이 일반에 잘 알려지지 않은 1950년대 이전에 간행된 희귀 시집들도 다수 포함되어 있다. 우리나라 근현대 시기 시집 보존 및 전시",
+      "fusion_score": 0.03278688524590164,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 1,
+      "rerank_score": 0.14029984176158905,
+      "rank": 1,
+      "score": 0.14029984176158905,
+      "score_type": "cross_encoder",
+      "distance": 0.550872802734375,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0788",
+      "source_doc_ids": [
+        "DOC-B0788-TOUR_API-2714793",
+        "DOC-B0788-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0788-TOUR_API-2714793",
+          "source_type": "TOUR_API",
+          "source_record_id": "2714793",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=379",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        },
+        {
+          "doc_id": "DOC-B0788-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0788",
+          "source_locator": "data/raw/museum_base_1070.csv#row=789",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 90,
+          "doc_ids": [
+            "DOC-B0788-TOUR_API-2714793"
+          ]
+        },
+        {
+          "start": 91,
+          "end": 128,
+          "doc_ids": [
+            "DOC-B0788-TOUR_API-2714793"
+          ]
+        },
+        {
+          "start": 129,
+          "end": 211,
+          "doc_ids": [
+            "DOC-B0788-TOUR_API-2714793"
+          ]
+        },
+        {
+          "start": 212,
+          "end": 327,
+          "doc_ids": [
+            "DOC-B0788-TOUR_API-2714793"
+          ]
+        },
+        {
+          "start": 328,
+          "end": 458,
+          "doc_ids": [
+            "DOC-B0788-TOUR_API-2714793"
+          ]
+        },
+        {
+          "start": 459,
+          "end": 481,
+          "doc_ids": [
+            "DOC-B0788-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=379",
+      "text": "한국시집박물관은 우리나라 근·현대기의 시집[詩集]을 체계적으로 전시하고 교육하는 국내 유일의 전문 박물관으로, 강원특별자치도 인제군 북면 용대리에 자리하고 있다. 총 9,459㎡의 부지에 지하 1층, 지상 2층 규모로 건립되었다. 지상 1층에는 관람객들이 자유롭게 시집을 대여해 읽을 수 있는 작은 도서관, 다양한 체험학습이 가능한 교육·체험 공간, 안내실 등이 마련되어 있다. 지상 2층은 ‘근·현대 시기(1900~1970년대)’의 한국 시집을 연대기별로 전시한 상설 전시실, 시를 직접 짓고 낭송해 볼 수 있는 체험실, 그리고 특별전 등을 열 수 있는 기획 전시실로 구성되어 있다. 한국시집박물관은 국내외 많은 시인들과 소장가들이 기증한 기증 시집을 소장하고 있으며, 그중에는 오뇌의 무도, 해파리의 노래, 육사 시집 등과 같이 일반에 잘 알려지지 않은 1950년대 이전에 간행된 희귀 시집들도 다수 포함되어 있다. 우리나라 근현대 시기 시집 보존 및 전시",
+      "sido": "강원특별자치도",
+      "sigungu": "인제군",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=379"
+      ],
+      "evidence_id": "E1",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=544",
+        "fields": {
+          "name": "한국시집박물관",
+          "sido": "강원특별자치도",
+          "sigungu": "인제군",
+          "address": "강원특별자치도 인제군 북면 만해로 136",
+          "ownership_type": "공립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "09:00",
+          "weekday_close": "18:00",
+          "holiday_open": "09:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "월+1월 1일+설 당일+추석 하루",
+          "amenities_raw": "휴게공간"
+        },
+        "base_data_date": "2024-12-13",
+        "trust": "derived_dataset_not_human_verified"
+      },
+      "retrieval_branch": "document"
+    },
+    {
+      "museum_id": "M0791",
+      "name": "인제산촌민속박물관",
+      "document": "인제산촌민속박물관은 인제군의 사라져 가는 민속문화를 체계적으로 보존·전시하고 있는 국내 유일의 산촌민속 전문박물관으로서 2003년 10월 8일 개관하였다. 총 2층으로 건립된 인제산촌민속박물관은 외형이 비상하는 새를 기본 모티브로 하여 도약과 웅비의 정신을 상징하고 있다. 전시실은 총 2개로 제1전시실은 산촌 사람들의 삶과 믿음의 세계라는 테마로 산촌의 봄, 여름, 가을, 겨울 풍경과 겨울맞이로 나뉘어 전시되고 있다. 제2전시실은 산촌 사람들의 애환과 여유라는 주제로 사계절 식생활의 모습과 주거 형태 등을 전시하고 있다. 그 외로는 특별전시실, 박인환 문학관, 야외전시장으로 구분되어 있다. 인제산촌민속박물관은 산촌 문화의 생태와 문화를 엿볼 수 있고 사라져 가는 산촌문화를 되새겨 볼 수 있는 공간으로 옛것에 대한 소중함을 배울 수 있는 곳이다. 제일산수 인제군의 산촌문화 보존 및 전시",
+      "metadata": {
+        "transport_notes": "인제읍터미널에서 도보 10분",
+        "name": "인제산촌민속박물관",
+        "holiday_close": "18:00",
+        "sido": "강원특별자치도",
+        "amenities_raw": "휴게공간",
+        "address": "강원특별자치도 인제군 인제읍 인제로156번길 50",
+        "image_copyright": "Type3",
+        "closure_rule_raw": "월+설 당일+추석 당일+공휴일 다음날",
+        "child_fee": 0.0,
+        "source_types": "BASE|TOUR_API",
+        "homepage_url": "http://mvfm.kr/",
+        "youth_fee": 0.0,
+        "holiday_open": "09:00",
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "longitude": 128.1717223,
+        "weekday_close": "18:00",
+        "requires_manual_review": true,
+        "ownership_type": "공립",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/96/3502896_image2_1.jpg",
+        "weekday_open": "09:00",
+        "sigungu": "인제군",
+        "latitude": 38.06277737,
+        "fee_notes": "0",
+        "adult_fee": 0.0
+      },
+      "vector_rank": 2,
+      "bm25_rank": 2,
+      "vector_distance": 0.6364834904670715,
+      "vector_score": null,
+      "bm25_score": 15.744531638469333,
+      "vector_document": "인제산촌민속박물관은 인제군의 사라져 가는 민속문화를 체계적으로 보존·전시하고 있는 국내 유일의 산촌민속 전문박물관으로서 2003년 10월 8일 개관하였다. 총 2층으로 건립된 인제산촌민속박물관은 외형이 비상하는 새를 기본 모티브로 하여 도약과 웅비의 정신을 상징하고 있다. 전시실은 총 2개로 제1전시실은 산촌 사람들의 삶과 믿음의 세계라는 테마로 산촌의 봄, 여름, 가을, 겨울 풍경과 겨울맞이로 나뉘어 전시되고 있다. 제2전시실은 산촌 사람들의 애환과 여유라는 주제로 사계절 식생활의 모습과 주거 형태 등을 전시하고 있다. 그 외로는 특별전시실, 박인환 문학관, 야외전시장으로 구분되어 있다. 인제산촌민속박물관은 산촌 문화의 생태와 문화를 엿볼 수 있고 사라져 가는 산촌문화를 되새겨 볼 수 있는 공간으로 옛것에 대한 소중함을 배울 수 있는 곳이다. 제일산수 인제군의 산촌문화 보존 및 전시",
+      "bm25_document": "인제산촌민속박물관은 인제군의 사라져 가는 민속문화를 체계적으로 보존·전시하고 있는 국내 유일의 산촌민속 전문박물관으로서 2003년 10월 8일 개관하였다. 총 2층으로 건립된 인제산촌민속박물관은 외형이 비상하는 새를 기본 모티브로 하여 도약과 웅비의 정신을 상징하고 있다. 전시실은 총 2개로 제1전시실은 산촌 사람들의 삶과 믿음의 세계라는 테마로 산촌의 봄, 여름, 가을, 겨울 풍경과 겨울맞이로 나뉘어 전시되고 있다. 제2전시실은 산촌 사람들의 애환과 여유라는 주제로 사계절 식생활의 모습과 주거 형태 등을 전시하고 있다. 그 외로는 특별전시실, 박인환 문학관, 야외전시장으로 구분되어 있다. 인제산촌민속박물관은 산촌 문화의 생태와 문화를 엿볼 수 있고 사라져 가는 산촌문화를 되새겨 볼 수 있는 공간으로 옛것에 대한 소중함을 배울 수 있는 곳이다. 제일산수 인제군의 산촌문화 보존 및 전시",
+      "best_span_id": "chroma:M0791",
+      "best_span_text": "인제산촌민속박물관은 인제군의 사라져 가는 민속문화를 체계적으로 보존·전시하고 있는 국내 유일의 산촌민속 전문박물관으로서 2003년 10월 8일 개관하였다. 총 2층으로 건립된 인제산촌민속박물관은 외형이 비상하는 새를 기본 모티브로 하여 도약과 웅비의 정신을 상징하고 있다. 전시실은 총 2개로 제1전시실은 산촌 사람들의 삶과 믿음의 세계라는 테마로 산촌의 봄, 여름, 가을, 겨울 풍경과 겨울맞이로 나뉘어 전시되고 있다. 제2전시실은 산촌 사람들의 애환과 여유라는 주제로 사계절 식생활의 모습과 주거 형태 등을 전시하고 있다. 그 외로는 특별전시실, 박인환 문학관, 야외전시장으로 구분되어 있다. 인제산촌민속박물관은 산촌 문화의 생태와 문화를 엿볼 수 있고 사라져 가는 산촌문화를 되새겨 볼 수 있는 공간으로 옛것에 대한 소중함을 배울 수 있는 곳이다. 제일산수 인제군의 산촌문화 보존 및 전시",
+      "fusion_score": 0.03225806451612903,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 2,
+      "rerank_score": 0.035379521548748016,
+      "rank": 2,
+      "score": 0.035379521548748016,
+      "score_type": "cross_encoder",
+      "distance": 0.6364834904670715,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0791",
+      "source_doc_ids": [
+        "DOC-B0791-TOUR_API-130513",
+        "DOC-B0791-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0791-TOUR_API-130513",
+          "source_type": "TOUR_API",
+          "source_record_id": "130513",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=382",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        },
+        {
+          "doc_id": "DOC-B0791-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0791",
+          "source_locator": "data/raw/museum_base_1070.csv#row=792",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 86,
+          "doc_ids": [
+            "DOC-B0791-TOUR_API-130513"
+          ]
+        },
+        {
+          "start": 87,
+          "end": 152,
+          "doc_ids": [
+            "DOC-B0791-TOUR_API-130513"
+          ]
+        },
+        {
+          "start": 153,
+          "end": 235,
+          "doc_ids": [
+            "DOC-B0791-TOUR_API-130513"
+          ]
+        },
+        {
+          "start": 236,
+          "end": 294,
+          "doc_ids": [
+            "DOC-B0791-TOUR_API-130513"
+          ]
+        },
+        {
+          "start": 295,
+          "end": 333,
+          "doc_ids": [
+            "DOC-B0791-TOUR_API-130513"
+          ]
+        },
+        {
+          "start": 334,
+          "end": 421,
+          "doc_ids": [
+            "DOC-B0791-TOUR_API-130513"
+          ]
+        },
+        {
+          "start": 422,
+          "end": 444,
+          "doc_ids": [
+            "DOC-B0791-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=382",
+      "text": "인제산촌민속박물관은 인제군의 사라져 가는 민속문화를 체계적으로 보존·전시하고 있는 국내 유일의 산촌민속 전문박물관으로서 2003년 10월 8일 개관하였다. 총 2층으로 건립된 인제산촌민속박물관은 외형이 비상하는 새를 기본 모티브로 하여 도약과 웅비의 정신을 상징하고 있다. 전시실은 총 2개로 제1전시실은 산촌 사람들의 삶과 믿음의 세계라는 테마로 산촌의 봄, 여름, 가을, 겨울 풍경과 겨울맞이로 나뉘어 전시되고 있다. 제2전시실은 산촌 사람들의 애환과 여유라는 주제로 사계절 식생활의 모습과 주거 형태 등을 전시하고 있다. 그 외로는 특별전시실, 박인환 문학관, 야외전시장으로 구분되어 있다. 인제산촌민속박물관은 산촌 문화의 생태와 문화를 엿볼 수 있고 사라져 가는 산촌문화를 되새겨 볼 수 있는 공간으로 옛것에 대한 소중함을 배울 수 있는 곳이다. 제일산수 인제군의 산촌문화 보존 및 전시",
+      "sido": "강원특별자치도",
+      "sigungu": "인제군",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=382"
+      ],
+      "evidence_id": "E2",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=547",
+        "fields": {
+          "name": "인제산촌민속박물관",
+          "sido": "강원특별자치도",
+          "sigungu": "인제군",
+          "address": "강원특별자치도 인제군 인제읍 인제로156번길 50",
+          "ownership_type": "공립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "09:00",
+          "weekday_close": "18:00",
+          "holiday_open": "09:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "월+설 당일+추석 당일+공휴일 다음날",
+          "amenities_raw": "휴게공간"
+        },
+        "base_data_date": "2024-12-13",
+        "trust": "derived_dataset_not_human_verified"
+      },
+      "retrieval_branch": "document"
+    },
+    {
+      "museum_id": "M0789",
+      "name": "여초서예관",
+      "document": "강원특별자치도 인제군 북면 용대리에 위치한 여초서예관은 근현대 한국 서예 역사에서 최고의 대가[大家]로 평가받는 여초 김응현[如初 金膺顯] 선생을 기리기 위해 설립된 서예전문박물관이다. 이곳에는 여초 김응현 선생의 서예작품과 유품, 국내·외 서법 관련 자료, 서적 등 총 6천여 점의 소장품이 보존·전시되고 있다. 2013년 6월 전국 최대 규모의 서예전문박물관인 여초서예관이 인제군에 세워져 여초의 서법정신이 담긴 소중한 작품들이 보존·전시되었으며, 현재 서예문화예술 발전을 위한 다양한 전시 및 교육 사업이 진행되고 있다. 여초서예관을 설계한 건축가 이성관은 김응현의 서예 작품을 깊이 연구하고, 그의 작품에서 풍기는 고상하고 순결한 느낌이 건축에도 잘 녹아들 수 있기를 바랐다. 건축가는 서예관이 지어질 장소 주변을 두르고 있는 오래된 소나무 숲에 주목했다. 한국인들은 계절의 변화에 관계없이 푸르름을 잃지 않는 소나무를 언제나 반듯하고 품위 있는 선비에 비유한다. 건축가는 서예관으로 주변의 소나무 숲을 끌어들여 김응현의 작품에 기품을 더하는 방향으로 설계를 진행하였다. 서예관은 이러한 콘셉트가 반영되어 주변의 소나무 숲을 보존하는 동시에 가능한 자연지형을 훼손하지 않는 상태로 대지에 앉혀졌다. 소나무 숲을 배경으로 하고, 지면에는 경사지형을 활용하여 교육 시설과 부대시설을 배치하였다. 전시시설은 필로티를 이용하여 지면에서부터 한 층을 띄워 올렸다. 필로티를 통해 전시시설이 지면에서 분리되면서 생겨난 수평의 빈 공간으로는 주변의 자연경관을 끌어들여, 서예관으로 가까이 다가갈수록 건물과 자연이 하나로 중첩되어 보인다. 필로티를 지나 건물로 들어서면 위로는 네모난 형태로 하늘이 열려있고, 아래로는 잔잔한 수면 위로 햇살이 반짝이는 연못을 만나게 된다. 기존에 대지를 흐르던 개울물을 그대로 살려 만들어진 이 연못은 필로티로 만들어진 공간 사이로 들어오는 주변의 자연을 비출 뿐만 아니라, 전시시설 벽면에 새겨진 김응현의 서예 작품을 비추면서 여초 김응현 작품이 갖는 고상하고 순결한 느낌을 부각시킨다. 이렇게 2012년 완공된 서예관 건축물은 빼어난 건축미를 인정받아 2012년에 ‘한국건축문화대상 우수상’, ‘올해의 건축 Best7’에 선정되었다. 여초 김응현선생의 서예작품과 유품, 국내·외 서법관련 자료, 서적 등 보존 · 전시",
+      "metadata": {
+        "image_copyright": "Type3",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/75/3502875_image2_1.jpg",
+        "sigungu": "인제군",
+        "closure_rule_raw": "월+1월 1일+설 당일+추석 하루",
+        "child_fee": 0.0,
+        "homepage_url": "http://yeochomuseum.kr/",
+        "transport_notes": "용대리 만해마을 인근",
+        "fee_notes": "0",
+        "ownership_type": "공립",
+        "latitude": 38.18891481,
+        "name": "여초서예관",
+        "holiday_close": "18:00",
+        "source_types": "BASE|TOUR_API",
+        "longitude": 128.3197865,
+        "requires_manual_review": true,
+        "address": "강원특별자치도 인제군 북면 만해로 154",
+        "weekday_close": "18:00",
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "weekday_open": "09:00",
+        "youth_fee": 0.0,
+        "adult_fee": 0.0,
+        "amenities_raw": "휴게공간",
+        "holiday_open": "09:00",
+        "sido": "강원특별자치도"
+      },
+      "vector_rank": 3,
+      "bm25_rank": 3,
+      "vector_distance": 0.6367080807685852,
+      "vector_score": null,
+      "bm25_score": 5.1758118253458445,
+      "vector_document": "강원특별자치도 인제군 북면 용대리에 위치한 여초서예관은 근현대 한국 서예 역사에서 최고의 대가[大家]로 평가받는 여초 김응현[如初 金膺顯] 선생을 기리기 위해 설립된 서예전문박물관이다. 이곳에는 여초 김응현 선생의 서예작품과 유품, 국내·외 서법 관련 자료, 서적 등 총 6천여 점의 소장품이 보존·전시되고 있다. 2013년 6월 전국 최대 규모의 서예전문박물관인 여초서예관이 인제군에 세워져 여초의 서법정신이 담긴 소중한 작품들이 보존·전시되었으며, 현재 서예문화예술 발전을 위한 다양한 전시 및 교육 사업이 진행되고 있다. 여초서예관을 설계한 건축가 이성관은 김응현의 서예 작품을 깊이 연구하고, 그의 작품에서 풍기는 고상하고 순결한 느낌이 건축에도 잘 녹아들 수 있기를 바랐다. 건축가는 서예관이 지어질 장소 주변을 두르고 있는 오래된 소나무 숲에 주목했다. 한국인들은 계절의 변화에 관계없이 푸르름을 잃지 않는 소나무를 언제나 반듯하고 품위 있는 선비에 비유한다. 건축가는 서예관으로 주변의 소나무 숲을 끌어들여 김응현의 작품에 기품을 더하는 방향으로 설계를 진행하였다. 서예관은 이러한 콘셉트가 반영되어 주변의 소나무 숲을 보존하는 동시에 가능한 자연지형을 훼손하지 않는 상태로 대지에 앉혀졌다. 소나무 숲을 배경으로 하고, 지면에는 경사지형을 활용하여 교육 시설과 부대시설을 배치하였다. 전시시설은 필로티를 이용하여 지면에서부터 한 층을 띄워 올렸다. 필로티를 통해 전시시설이 지면에서 분리되면서 생겨난 수평의 빈 공간으로는 주변의 자연경관을 끌어들여, 서예관으로 가까이 다가갈수록 건물과 자연이 하나로 중첩되어 보인다. 필로티를 지나 건물로 들어서면 위로는 네모난 형태로 하늘이 열려있고, 아래로는 잔잔한 수면 위로 햇살이 반짝이는 연못을 만나게 된다. 기존에 대지를 흐르던 개울물을 그대로 살려 만들어진 이 연못은 필로티로 만들어진 공간 사이로 들어오는 주변의 자연을 비출 뿐만 아니라, 전시시설 벽면에 새겨진 김응현의 서예 작품을 비추면서 여초 김응현 작품이 갖는 고상하고 순결한 느낌을 부각시킨다. 이렇게 2012년 완공된 서예관 건축물은 빼어난 건축미를 인정받아 2012년에 ‘한국건축문화대상 우수상’, ‘올해의 건축 Best7’에 선정되었다. 여초 김응현선생의 서예작품과 유품, 국내·외 서법관련 자료, 서적 등 보존 · 전시",
+      "bm25_document": "강원특별자치도 인제군 북면 용대리에 위치한 여초서예관은 근현대 한국 서예 역사에서 최고의 대가[大家]로 평가받는 여초 김응현[如初 金膺顯] 선생을 기리기 위해 설립된 서예전문박물관이다. 이곳에는 여초 김응현 선생의 서예작품과 유품, 국내·외 서법 관련 자료, 서적 등 총 6천여 점의 소장품이 보존·전시되고 있다. 2013년 6월 전국 최대 규모의 서예전문박물관인 여초서예관이 인제군에 세워져 여초의 서법정신이 담긴 소중한 작품들이 보존·전시되었으며, 현재 서예문화예술 발전을 위한 다양한 전시 및 교육 사업이 진행되고 있다. 여초서예관을 설계한 건축가 이성관은 김응현의 서예 작품을 깊이 연구하고, 그의 작품에서 풍기는 고상하고 순결한 느낌이 건축에도 잘 녹아들 수 있기를 바랐다. 건축가는 서예관이 지어질 장소 주변을 두르고 있는 오래된 소나무 숲에 주목했다. 한국인들은 계절의 변화에 관계없이 푸르름을 잃지 않는 소나무를 언제나 반듯하고 품위 있는 선비에 비유한다. 건축가는 서예관으로 주변의 소나무 숲을 끌어들여 김응현의 작품에 기품을 더하는 방향으로 설계를 진행하였다. 서예관은 이러한 콘셉트가 반영되어 주변의 소나무 숲을 보존하는 동시에 가능한 자연지형을 훼손하지 않는 상태로 대지에 앉혀졌다. 소나무 숲을 배경으로 하고, 지면에는 경사지형을 활용하여 교육 시설과 부대시설을 배치하였다. 전시시설은 필로티를 이용하여 지면에서부터 한 층을 띄워 올렸다. 필로티를 통해 전시시설이 지면에서 분리되면서 생겨난 수평의 빈 공간으로는 주변의 자연경관을 끌어들여, 서예관으로 가까이 다가갈수록 건물과 자연이 하나로 중첩되어 보인다. 필로티를 지나 건물로 들어서면 위로는 네모난 형태로 하늘이 열려있고, 아래로는 잔잔한 수면 위로 햇살이 반짝이는 연못을 만나게 된다. 기존에 대지를 흐르던 개울물을 그대로 살려 만들어진 이 연못은 필로티로 만들어진 공간 사이로 들어오는 주변의 자연을 비출 뿐만 아니라, 전시시설 벽면에 새겨진 김응현의 서예 작품을 비추면서 여초 김응현 작품이 갖는 고상하고 순결한 느낌을 부각시킨다. 이렇게 2012년 완공된 서예관 건축물은 빼어난 건축미를 인정받아 2012년에 ‘한국건축문화대상 우수상’, ‘올해의 건축 Best7’에 선정되었다. 여초 김응현선생의 서예작품과 유품, 국내·외 서법관련 자료, 서적 등 보존 · 전시",
+      "best_span_id": "chroma:M0789",
+      "best_span_text": "강원특별자치도 인제군 북면 용대리에 위치한 여초서예관은 근현대 한국 서예 역사에서 최고의 대가[大家]로 평가받는 여초 김응현[如初 金膺顯] 선생을 기리기 위해 설립된 서예전문박물관이다. 이곳에는 여초 김응현 선생의 서예작품과 유품, 국내·외 서법 관련 자료, 서적 등 총 6천여 점의 소장품이 보존·전시되고 있다. 2013년 6월 전국 최대 규모의 서예전문박물관인 여초서예관이 인제군에 세워져 여초의 서법정신이 담긴 소중한 작품들이 보존·전시되었으며, 현재 서예문화예술 발전을 위한 다양한 전시 및 교육 사업이 진행되고 있다. 여초서예관을 설계한 건축가 이성관은 김응현의 서예 작품을 깊이 연구하고, 그의 작품에서 풍기는 고상하고 순결한 느낌이 건축에도 잘 녹아들 수 있기를 바랐다. 건축가는 서예관이 지어질 장소 주변을 두르고 있는 오래된 소나무 숲에 주목했다. 한국인들은 계절의 변화에 관계없이 푸르름을 잃지 않는 소나무를 언제나 반듯하고 품위 있는 선비에 비유한다. 건축가는 서예관으로 주변의 소나무 숲을 끌어들여 김응현의 작품에 기품을 더하는 방향으로 설계를 진행하였다. 서예관은 이러한 콘셉트가 반영되어 주변의 소나무 숲을 보존하는 동시에 가능한 자연지형을 훼손하지 않는 상태로 대지에 앉혀졌다. 소나무 숲을 배경으로 하고, 지면에는 경사지형을 활용하여 교육 시설과 부대시설을 배치하였다. 전시시설은 필로티를 이용하여 지면에서부터 한 층을 띄워 올렸다. 필로티를 통해 전시시설이 지면에서 분리되면서 생겨난 수평의 빈 공간으로는 주변의 자연경관을 끌어들여, 서예관으로 가까이 다가갈수록 건물과 자연이 하나로 중첩되어 보인다. 필로티를 지나 건물로 들어서면 위로는 네모난 형태로 하늘이 열려있고, 아래로는 잔잔한 수면 위로 햇살이 반짝이는 연못을 만나게 된다. 기존에 대지를 흐르던 개울물을 그대로 살려 만들어진 이 연못은 필로티로 만들어진 공간 사이로 들어오는 주변의 자연을 비출 뿐만 아니라, 전시시설 벽면에 새겨진 김응현의 서예 작품을 비추면서 여초 김응현 작품이 갖는 고상하고 순결한 느낌을 부각시킨다. 이렇게 2012년 완공된 서예관 건축물은 빼어난 건축미를 인정받아 2012년에 ‘한국건축문화대상 우수상’, ‘올해의 건축 Best7’에 선정되었다. 여초 김응현선생의 서예작품과 유품, 국내·외 서법관련 자료, 서적 등 보존 · 전시",
+      "fusion_score": 0.031746031746031744,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 3,
+      "rerank_score": 0.0005606904742307961,
+      "rank": 3,
+      "score": 0.0005606904742307961,
+      "score_type": "cross_encoder",
+      "distance": 0.6367080807685852,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0789",
+      "source_doc_ids": [
+        "DOC-B0789-TOUR_API-2692510",
+        "DOC-B0789-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0789-TOUR_API-2692510",
+          "source_type": "TOUR_API",
+          "source_record_id": "2692510",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=380",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        },
+        {
+          "doc_id": "DOC-B0789-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0789",
+          "source_locator": "data/raw/museum_base_1070.csv#row=790",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 103,
+          "doc_ids": [
+            "DOC-B0789-TOUR_API-2692510"
+          ]
+        },
+        {
+          "start": 104,
+          "end": 175,
+          "doc_ids": [
+            "DOC-B0789-TOUR_API-2692510"
+          ]
+        },
+        {
+          "start": 176,
+          "end": 294,
+          "doc_ids": [
+            "DOC-B0789-TOUR_API-2692510"
+          ]
+        },
+        {
+          "start": 295,
+          "end": 382,
+          "doc_ids": [
+            "DOC-B0789-TOUR_API-2692510"
+          ]
+        },
+        {
+          "start": 383,
+          "end": 427,
+          "doc_ids": [
+            "DOC-B0789-TOUR_API-2692510"
+          ]
+        },
+        {
+          "start": 428,
+          "end": 487,
+          "doc_ids": [
+            "DOC-B0789-TOUR_API-2692510"
+          ]
+        },
+        {
+          "start": 488,
+          "end": 547,
+          "doc_ids": [
+            "DOC-B0789-TOUR_API-2692510"
+          ]
+        },
+        {
+          "start": 548,
+          "end": 618,
+          "doc_ids": [
+            "DOC-B0789-TOUR_API-2692510"
+          ]
+        },
+        {
+          "start": 619,
+          "end": 670,
+          "doc_ids": [
+            "DOC-B0789-TOUR_API-2692510"
+          ]
+        },
+        {
+          "start": 671,
+          "end": 706,
+          "doc_ids": [
+            "DOC-B0789-TOUR_API-2692510"
+          ]
+        },
+        {
+          "start": 707,
+          "end": 801,
+          "doc_ids": [
+            "DOC-B0789-TOUR_API-2692510"
+          ]
+        },
+        {
+          "start": 802,
+          "end": 876,
+          "doc_ids": [
+            "DOC-B0789-TOUR_API-2692510"
+          ]
+        },
+        {
+          "start": 877,
+          "end": 1016,
+          "doc_ids": [
+            "DOC-B0789-TOUR_API-2692510"
+          ]
+        },
+        {
+          "start": 1017,
+          "end": 1099,
+          "doc_ids": [
+            "DOC-B0789-TOUR_API-2692510"
+          ]
+        },
+        {
+          "start": 1100,
+          "end": 1146,
+          "doc_ids": [
+            "DOC-B0789-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=380",
+      "text": "강원특별자치도 인제군 북면 용대리에 위치한 여초서예관은 근현대 한국 서예 역사에서 최고의 대가[大家]로 평가받는 여초 김응현[如初 金膺顯] 선생을 기리기 위해 설립된 서예전문박물관이다. 이곳에는 여초 김응현 선생의 서예작품과 유품, 국내·외 서법 관련 자료, 서적 등 총 6천여 점의 소장품이 보존·전시되고 있다. 2013년 6월 전국 최대 규모의 서예전문박물관인 여초서예관이 인제군에 세워져 여초의 서법정신이 담긴 소중한 작품들이 보존·전시되었으며, 현재 서예문화예술 발전을 위한 다양한 전시 및 교육 사업이 진행되고 있다. 여초서예관을 설계한 건축가 이성관은 김응현의 서예 작품을 깊이 연구하고, 그의 작품에서 풍기는 고상하고 순결한 느낌이 건축에도 잘 녹아들 수 있기를 바랐다. 건축가는 서예관이 지어질 장소 주변을 두르고 있는 오래된 소나무 숲에 주목했다. 한국인들은 계절의 변화에 관계없이 푸르름을 잃지 않는 소나무를 언제나 반듯하고 품위 있는 선비에 비유한다. 건축가는 서예관으로 주변의 소나무 숲을 끌어들여 김응현의 작품에 기품을 더하는 방향으로 설계를 진행하였다. 서예관은 이러한 콘셉트가 반영되어 주변의 소나무 숲을 보존하는 동시에 가능한 자연지형을 훼손하지 않는 상태로 대지에 앉혀졌다. 소나무 숲을 배경으로 하고, 지면에는 경사지형을 활용하여 교육 시설과 부대시설을 배치하였다. 전시시설은 필로티를 이용하여 지면에서부터 한 층을 띄워 올렸다. 필로티를 통해 전시시설이 지면에서 분리되면서 생겨난 수평의 빈 공간으로는 주변의 자연경관을 끌어들여, 서예관으로 가까이 다가갈수록 건물과 자연이 하나로 중첩되어 보인다. 필로티를 지나 건물로 들어서면 위로는 네모난 형태로 하늘이 열려있고, 아래로는 잔잔한 수면 위로 햇살이 반짝이는 연못을 만나게 된다. 기존에 대지를 흐르던 개울물을 그대로 살려 만들어진 이 연못은 필로티로 만들어진 공간 사이로 들어오는 주변의 자연을 비출 뿐만 아니라, 전시시설 벽면에 새겨진 김응현의 서예 작품을 비추면서 여초 김응현 작품이 갖는 고상하고 순결한 느낌을 부각시킨다. 이렇게 2012년 완공된 서예관 건축물은 빼어난 건축미를 인정받아 2012년에 ‘한국건축문화대상 우수상’, ‘올해의 건축 Best7’에 선정되었다. 여초 김응현선생의 서예작품과 유품, 국내·외 서법관련 자료, 서적 등 보존 · 전시",
+      "sido": "강원특별자치도",
+      "sigungu": "인제군",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=380"
+      ],
+      "evidence_id": "E3",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=545",
+        "fields": {
+          "name": "여초서예관",
+          "sido": "강원특별자치도",
+          "sigungu": "인제군",
+          "address": "강원특별자치도 인제군 북면 만해로 154",
+          "ownership_type": "공립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "09:00",
+          "weekday_close": "18:00",
+          "holiday_open": "09:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "월+1월 1일+설 당일+추석 하루",
+          "amenities_raw": "휴게공간"
+        },
+        "base_data_date": "2024-12-13",
+        "trust": "derived_dataset_not_human_verified"
+      },
+      "retrieval_branch": "document"
+    },
+    {
+      "museum_id": "M0790",
+      "name": "박인환문학관",
+      "text": "박인환문학관의 Neo4j operator_name(운영기관) 기록: 인제군문화재단 (CSV 원문: 인제군문화재단)\n[Neo4j 구조화 근거] {\"museum_id\": \"M0790\", \"name\": \"박인환문학관\", \"relation\": \"OPERATED_BY\", \"organization\": \"인제군문화재단\", \"org_key\": \"인제군문화재단\", \"org_type\": \"재단·비영리법인\", \"raw_name\": \"인제군문화재단\", \"verification_status\": \"SOURCE_RECORDED\"}",
+      "span_id": "",
+      "source_doc_ids": [
+        "DOC-B0790-BASE",
+        "DOC-B0790-TOUR_API-1932440"
+      ],
+      "source_urls": [],
+      "source_url": "",
+      "source_locators": [
+        "data/raw/museum_base_1070.csv#row=791",
+        "data/raw/museum_tourapi_with_overview.csv#row=381"
+      ],
+      "source_locator": "data/raw/museum_base_1070.csv#row=791",
+      "sido": "강원특별자치도",
+      "sigungu": "인제군",
+      "retriever": "graph",
+      "evidence_role": "anchor",
+      "source_scope": "graph_properties",
+      "relation": "OPERATED_BY",
+      "organization": "인제군문화재단",
+      "org_type": "재단·비영리법인",
+      "operator_raw_name": "인제군문화재단",
+      "verification_status": "SOURCE_RECORDED",
+      "metadata": {},
+      "chunk_id": "",
+      "retrievers": [
+        "graph"
+      ],
+      "evidence_id": "E4",
+      "retrieval_branch": "graph",
+      "rank": 4
+    },
+    {
+      "museum_id": "M0789",
+      "name": "여초서예관",
+      "text": "{anchor_raw_name: 인제군문화재단, candidate_raw_name: 인제군문화재단, org_key: 인제군문화재단, organization: 인제군문화재단, relation: OPERATED_BY, verification_status: SOURCE_RECORDED}",
+      "span_id": "",
+      "source_doc_ids": [
+        "DOC-B0789-BASE",
+        "DOC-B0789-TOUR_API-2692510"
+      ],
+      "source_urls": [],
+      "source_url": "",
+      "source_locators": [
+        "data/raw/museum_base_1070.csv#row=790",
+        "data/raw/museum_tourapi_with_overview.csv#row=380"
+      ],
+      "source_locator": "data/raw/museum_base_1070.csv#row=790",
+      "sido": "강원특별자치도",
+      "sigungu": "인제군",
+      "retriever": "graph",
+      "graph_path": "anchor -[:OPERATED_BY]-> Organization <-[:OPERATED_BY]- candidate",
+      "organization": "인제군문화재단",
+      "org_type": "재단·비영리법인",
+      "operator_raw_name": "인제군문화재단",
+      "anchor_operator_raw_name": "인제군문화재단",
+      "relation": "OPERATED_BY",
+      "verification_status": "SOURCE_RECORDED",
+      "facility_type": "전시관",
+      "source_scope": "graph_properties",
+      "metadata": {},
+      "chunk_id": "",
+      "retrievers": [
+        "graph"
+      ],
+      "evidence_id": "E5",
+      "retrieval_branch": "graph",
+      "rank": 5
+    },
+    {
+      "museum_id": "M0791",
+      "name": "인제산촌민속박물관",
+      "text": "{anchor_raw_name: 인제군문화재단, candidate_raw_name: 인제군문화재단, org_key: 인제군문화재단, organization: 인제군문화재단, relation: OPERATED_BY, verification_status: SOURCE_RECORDED}",
+      "span_id": "",
+      "source_doc_ids": [
+        "DOC-B0791-BASE",
+        "DOC-B0791-TOUR_API-130513"
+      ],
+      "source_urls": [],
+      "source_url": "",
+      "source_locators": [
+        "data/raw/museum_base_1070.csv#row=792",
+        "data/raw/museum_tourapi_with_overview.csv#row=382"
+      ],
+      "source_locator": "data/raw/museum_base_1070.csv#row=792",
+      "sido": "강원특별자치도",
+      "sigungu": "인제군",
+      "retriever": "graph",
+      "graph_path": "anchor -[:OPERATED_BY]-> Organization <-[:OPERATED_BY]- candidate",
+      "organization": "인제군문화재단",
+      "org_type": "재단·비영리법인",
+      "operator_raw_name": "인제군문화재단",
+      "anchor_operator_raw_name": "인제군문화재단",
+      "relation": "OPERATED_BY",
+      "verification_status": "SOURCE_RECORDED",
+      "facility_type": "박물관",
+      "source_scope": "graph_properties",
+      "metadata": {},
+      "chunk_id": "",
+      "retrievers": [
+        "graph"
+      ],
+      "evidence_id": "E6",
+      "retrieval_branch": "graph",
+      "rank": 6
+    },
+    {
+      "museum_id": "M0788",
+      "name": "한국시집박물관",
+      "text": "{anchor_raw_name: 인제군문화재단, candidate_raw_name: 인제군문화재단, org_key: 인제군문화재단, organization: 인제군문화재단, relation: OPERATED_BY, verification_status: SOURCE_RECORDED}",
+      "span_id": "",
+      "source_doc_ids": [
+        "DOC-B0788-BASE",
+        "DOC-B0788-TOUR_API-2714793"
+      ],
+      "source_urls": [],
+      "source_url": "",
+      "source_locators": [
+        "data/raw/museum_base_1070.csv#row=789",
+        "data/raw/museum_tourapi_with_overview.csv#row=379"
+      ],
+      "source_locator": "data/raw/museum_base_1070.csv#row=789",
+      "sido": "강원특별자치도",
+      "sigungu": "인제군",
+      "retriever": "graph",
+      "graph_path": "anchor -[:OPERATED_BY]-> Organization <-[:OPERATED_BY]- candidate",
+      "organization": "인제군문화재단",
+      "org_type": "재단·비영리법인",
+      "operator_raw_name": "인제군문화재단",
+      "anchor_operator_raw_name": "인제군문화재단",
+      "relation": "OPERATED_BY",
+      "verification_status": "SOURCE_RECORDED",
+      "facility_type": "박물관",
+      "source_scope": "graph_properties",
+      "metadata": {},
+      "chunk_id": "",
+      "retrievers": [
+        "graph"
+      ],
+      "evidence_id": "E7",
+      "retrieval_branch": "graph",
+      "rank": 7
+    }
+  ],
+  "answer": "박인환문학관과 같은 운영기관인 인제군문화재단이 운영하는 곳 중에는 **한국시집박물관**이 있습니다. 박물관 1층에 관람객이 시집을 자유롭게 빌려 읽을 수 있는 작은 도서관이 있습니다. [E4][E7][E1]",
+  "retrieval_status": "ok",
+  "answer_status": "answered",
+  "route": "combined",
+  "retry_count": 0,
+  "supervisor_verified": true,
+  "rerank_applied": true,
+  "retriever_errors": [],
+  "warnings": [
+    "Only 3 candidates available; no artificial padding"
+  ],
+  "duration_ms": 79291.51,
+  "error_type": "",
+  "hit_at_1": 1,
+  "hit_at_3": 1,
+  "hit_at_5": 1,
+  "recall_at_5": 1.0,
+  "mrr_at_10": 1.0
+}

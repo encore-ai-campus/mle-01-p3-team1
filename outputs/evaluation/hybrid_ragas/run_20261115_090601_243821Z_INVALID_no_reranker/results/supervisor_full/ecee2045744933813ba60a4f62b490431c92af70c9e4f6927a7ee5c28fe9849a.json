@@ -1,0 +1,767 @@
+{
+  "mode": "supervisor_full",
+  "question_id": "Q071",
+  "evidence": [
+    {
+      "museum_id": "M0085",
+      "name": "조안베어뮤지엄",
+      "document": "제주도 남부 서귀포시의 중문 관광단지 내에 위치하고 있는 조안베어뮤지엄은 세계적으로 유명한 테디베어 아티스트인 조안 오의 작업실이자 전시공간이다. 박물관에서는 천연의 소재로 만들어진 테디베어를 만날 수 있으며, 제주 자연의 아름다움을 느끼며 느긋한 휴식을 취할 수 있는 곳이다. 나지막한 언덕에 있는 조안베어뮤지엄에서는 백여 년 된 오십 그루의 소나무들과 돌담들이 그대로 보존되고 있어 제주 올레를 함께 할 수 있는 곳이다.",
+      "metadata": {
+        "child_fee": 10000.0,
+        "name": "조안베어뮤지엄",
+        "adult_fee_status": "BASE_FEE_PAID",
+        "adult_fee": 12000.0,
+        "weekday_close": "17:00",
+        "sido": "제주특별자치도",
+        "weekday_open": "09:00",
+        "ownership_type": "사립",
+        "source_types": "TOUR_API",
+        "longitude": 126.4341101,
+        "holiday_open": "09:00",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/87/4146787_image2_1.jpg",
+        "sigungu": "서귀포시",
+        "closure_rule_raw": "일",
+        "holiday_close": "17:00",
+        "fee_notes": "도민할인",
+        "homepage_url": "http://www.joannestudio.co.kr/",
+        "latitude": 33.24025015,
+        "requires_manual_review": true,
+        "youth_fee": 11000.0,
+        "address": "제주특별자치도 서귀포시 대포로 113",
+        "image_copyright": "Type1"
+      },
+      "vector_rank": 1,
+      "bm25_rank": 1,
+      "vector_distance": 0.4663923978805542,
+      "vector_score": null,
+      "bm25_score": 33.988865602623164,
+      "vector_document": "제주도 남부 서귀포시의 중문 관광단지 내에 위치하고 있는 조안베어뮤지엄은 세계적으로 유명한 테디베어 아티스트인 조안 오의 작업실이자 전시공간이다. 박물관에서는 천연의 소재로 만들어진 테디베어를 만날 수 있으며, 제주 자연의 아름다움을 느끼며 느긋한 휴식을 취할 수 있는 곳이다. 나지막한 언덕에 있는 조안베어뮤지엄에서는 백여 년 된 오십 그루의 소나무들과 돌담들이 그대로 보존되고 있어 제주 올레를 함께 할 수 있는 곳이다.",
+      "bm25_document": "제주도 남부 서귀포시의 중문 관광단지 내에 위치하고 있는 조안베어뮤지엄은 세계적으로 유명한 테디베어 아티스트인 조안 오의 작업실이자 전시공간이다. 박물관에서는 천연의 소재로 만들어진 테디베어를 만날 수 있으며, 제주 자연의 아름다움을 느끼며 느긋한 휴식을 취할 수 있는 곳이다. 나지막한 언덕에 있는 조안베어뮤지엄에서는 백여 년 된 오십 그루의 소나무들과 돌담들이 그대로 보존되고 있어 제주 올레를 함께 할 수 있는 곳이다.",
+      "best_span_id": "chroma:M0085",
+      "best_span_text": "제주도 남부 서귀포시의 중문 관광단지 내에 위치하고 있는 조안베어뮤지엄은 세계적으로 유명한 테디베어 아티스트인 조안 오의 작업실이자 전시공간이다. 박물관에서는 천연의 소재로 만들어진 테디베어를 만날 수 있으며, 제주 자연의 아름다움을 느끼며 느긋한 휴식을 취할 수 있는 곳이다. 나지막한 언덕에 있는 조안베어뮤지엄에서는 백여 년 된 오십 그루의 소나무들과 돌담들이 그대로 보존되고 있어 제주 올레를 함께 할 수 있는 곳이다.",
+      "fusion_score": 0.03278688524590164,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 1,
+      "name_match": true,
+      "rerank_score": null,
+      "rank": 1,
+      "score": 0.03278688524590164,
+      "score_type": "rrf",
+      "distance": 0.4663923978805542,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0085",
+      "source_doc_ids": [
+        "DOC-B0085-TOUR_API-819583"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0085-TOUR_API-819583",
+          "source_type": "TOUR_API",
+          "source_record_id": "819583",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=42",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 81,
+          "doc_ids": [
+            "DOC-B0085-TOUR_API-819583"
+          ]
+        },
+        {
+          "start": 82,
+          "end": 155,
+          "doc_ids": [
+            "DOC-B0085-TOUR_API-819583"
+          ]
+        },
+        {
+          "start": 156,
+          "end": 237,
+          "doc_ids": [
+            "DOC-B0085-TOUR_API-819583"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=42",
+      "text": "제주도 남부 서귀포시의 중문 관광단지 내에 위치하고 있는 조안베어뮤지엄은 세계적으로 유명한 테디베어 아티스트인 조안 오의 작업실이자 전시공간이다. 박물관에서는 천연의 소재로 만들어진 테디베어를 만날 수 있으며, 제주 자연의 아름다움을 느끼며 느긋한 휴식을 취할 수 있는 곳이다. 나지막한 언덕에 있는 조안베어뮤지엄에서는 백여 년 된 오십 그루의 소나무들과 돌담들이 그대로 보존되고 있어 제주 올레를 함께 할 수 있는 곳이다.",
+      "sido": "제주특별자치도",
+      "sigungu": "서귀포시",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=42"
+      ],
+      "evidence_id": "E1",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=52",
+        "fields": {
+          "name": "조안베어뮤지엄",
+          "sido": "제주특별자치도",
+          "sigungu": "서귀포시",
+          "address": "제주특별자치도 서귀포시 대포로 113",
+          "ownership_type": "사립",
+          "adult_fee": "12000",
+          "youth_fee": "11000",
+          "child_fee": "10000",
+          "adult_fee_status": "BASE_FEE_PAID",
+          "weekday_open": "09:00",
+          "weekday_close": "17:00",
+          "holiday_open": "09:00",
+          "holiday_close": "17:00",
+          "closure_rule_raw": "일"
+        },
+        "base_data_date": "2026-09-30",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M1022",
+      "name": "삼탄아트마인",
+      "document": "삼탄아트마인은 1964년에서 2001년까지 삼척탄좌가 있던 자리다. 그 터 위에 옛 폐광의 흔적을 보존하며 문화 예술의 가치를 입혔다. 그래서 그 이름 안에 ‘아트(예술 art)’와 ‘마인(광산 mine)’이 공존한다. 제일 먼저 만나는 장소는 삼탄아트센터 본관이다. 과거 삼척탄좌 시절 사무공간과 광원들의 공동 샤워실, 수직갱을 움직이던 운전실이 있던 장소다. 이를 활용해 레지던시룸, 현대미술관 CAM1, 삼탄아트마인 자료 등으로 꾸몄다. 그 가운데 옛 광원이 몸을 씻던 샤워장과 장화를 씻던 세화장 등은 마인 갤러리로 변신했다. 덕분에 아주 특별한 전시 풍경을 연출한다. 레일바이뮤지엄 또한 삼탄아트마인의 자랑이다. 외부에서 진입할 때 가장 먼저 보이는 53m의 권양기가 위치한 건물이다. 권양기는 광원들이 지하 탄광으로 이동할 때 사용하던 산업용 엘리베이터다. 건물 내부는 당시의 현장을 그대로 보존해 옛 삼척탄좌의 분위기를 가장 잘 느낄 수 있다. 야외공원에는 탄광의 기계 제작 공장동을 개조한 레스토랑 823L, 중앙압축기실로 쓰이던 원시미술박물관이 위치한다. 옛 탄광과 예술의 조화가 절묘해 현재와 과거의 시간을 넘나드는 듯하다. 2001년 10월 폐광된 삼척탄좌 시설을 활용+창조적인 문화예술단지로 운영",
+      "metadata": {
+        "ownership_type": "사립",
+        "weekday_close": "18:00",
+        "closure_rule_raw": "월",
+        "adult_fee_status": "BASE_FEE_PAID",
+        "sido": "강원특별자치도",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/15/3364115_image2_1.jpg",
+        "homepage_url": "http://samtanartmine.com/",
+        "sigungu": "정선군",
+        "amenities_raw": "주차장+레스토랑+야외공연장+아트레지던시 룸",
+        "child_fee": 11000.0,
+        "source_types": "BASE|TOUR_API",
+        "latitude": 37.185072,
+        "image_copyright": "Type3",
+        "address": "강원특별자치도 정선군 고한읍 함백산로 1445-44",
+        "youth_fee": 13000.0,
+        "fee_notes": "미취학 아동 무료+정선&태백지역민 및 광부출신 복지카드 및 국가유공자 30퍼센트 할인",
+        "name": "삼탄아트마인",
+        "weekday_open": "09:00",
+        "holiday_close": "18:00",
+        "adult_fee": 13000.0,
+        "holiday_open": "09:00",
+        "longitude": 128.8836162,
+        "requires_manual_review": true
+      },
+      "vector_rank": 14,
+      "bm25_rank": 18,
+      "vector_distance": 0.6266039609909058,
+      "vector_score": null,
+      "bm25_score": 7.756054763335408,
+      "vector_document": "삼탄아트마인은 1964년에서 2001년까지 삼척탄좌가 있던 자리다. 그 터 위에 옛 폐광의 흔적을 보존하며 문화 예술의 가치를 입혔다. 그래서 그 이름 안에 ‘아트(예술 art)’와 ‘마인(광산 mine)’이 공존한다. 제일 먼저 만나는 장소는 삼탄아트센터 본관이다. 과거 삼척탄좌 시절 사무공간과 광원들의 공동 샤워실, 수직갱을 움직이던 운전실이 있던 장소다. 이를 활용해 레지던시룸, 현대미술관 CAM1, 삼탄아트마인 자료 등으로 꾸몄다. 그 가운데 옛 광원이 몸을 씻던 샤워장과 장화를 씻던 세화장 등은 마인 갤러리로 변신했다. 덕분에 아주 특별한 전시 풍경을 연출한다. 레일바이뮤지엄 또한 삼탄아트마인의 자랑이다. 외부에서 진입할 때 가장 먼저 보이는 53m의 권양기가 위치한 건물이다. 권양기는 광원들이 지하 탄광으로 이동할 때 사용하던 산업용 엘리베이터다. 건물 내부는 당시의 현장을 그대로 보존해 옛 삼척탄좌의 분위기를 가장 잘 느낄 수 있다. 야외공원에는 탄광의 기계 제작 공장동을 개조한 레스토랑 823L, 중앙압축기실로 쓰이던 원시미술박물관이 위치한다. 옛 탄광과 예술의 조화가 절묘해 현재와 과거의 시간을 넘나드는 듯하다. 2001년 10월 폐광된 삼척탄좌 시설을 활용+창조적인 문화예술단지로 운영",
+      "bm25_document": "삼탄아트마인은 1964년에서 2001년까지 삼척탄좌가 있던 자리다. 그 터 위에 옛 폐광의 흔적을 보존하며 문화 예술의 가치를 입혔다. 그래서 그 이름 안에 ‘아트(예술 art)’와 ‘마인(광산 mine)’이 공존한다. 제일 먼저 만나는 장소는 삼탄아트센터 본관이다. 과거 삼척탄좌 시절 사무공간과 광원들의 공동 샤워실, 수직갱을 움직이던 운전실이 있던 장소다. 이를 활용해 레지던시룸, 현대미술관 CAM1, 삼탄아트마인 자료 등으로 꾸몄다. 그 가운데 옛 광원이 몸을 씻던 샤워장과 장화를 씻던 세화장 등은 마인 갤러리로 변신했다. 덕분에 아주 특별한 전시 풍경을 연출한다. 레일바이뮤지엄 또한 삼탄아트마인의 자랑이다. 외부에서 진입할 때 가장 먼저 보이는 53m의 권양기가 위치한 건물이다. 권양기는 광원들이 지하 탄광으로 이동할 때 사용하던 산업용 엘리베이터다. 건물 내부는 당시의 현장을 그대로 보존해 옛 삼척탄좌의 분위기를 가장 잘 느낄 수 있다. 야외공원에는 탄광의 기계 제작 공장동을 개조한 레스토랑 823L, 중앙압축기실로 쓰이던 원시미술박물관이 위치한다. 옛 탄광과 예술의 조화가 절묘해 현재와 과거의 시간을 넘나드는 듯하다. 2001년 10월 폐광된 삼척탄좌 시설을 활용+창조적인 문화예술단지로 운영",
+      "best_span_id": "chroma:M1022",
+      "best_span_text": "삼탄아트마인은 1964년에서 2001년까지 삼척탄좌가 있던 자리다. 그 터 위에 옛 폐광의 흔적을 보존하며 문화 예술의 가치를 입혔다. 그래서 그 이름 안에 ‘아트(예술 art)’와 ‘마인(광산 mine)’이 공존한다. 제일 먼저 만나는 장소는 삼탄아트센터 본관이다. 과거 삼척탄좌 시절 사무공간과 광원들의 공동 샤워실, 수직갱을 움직이던 운전실이 있던 장소다. 이를 활용해 레지던시룸, 현대미술관 CAM1, 삼탄아트마인 자료 등으로 꾸몄다. 그 가운데 옛 광원이 몸을 씻던 샤워장과 장화를 씻던 세화장 등은 마인 갤러리로 변신했다. 덕분에 아주 특별한 전시 풍경을 연출한다. 레일바이뮤지엄 또한 삼탄아트마인의 자랑이다. 외부에서 진입할 때 가장 먼저 보이는 53m의 권양기가 위치한 건물이다. 권양기는 광원들이 지하 탄광으로 이동할 때 사용하던 산업용 엘리베이터다. 건물 내부는 당시의 현장을 그대로 보존해 옛 삼척탄좌의 분위기를 가장 잘 느낄 수 있다. 야외공원에는 탄광의 기계 제작 공장동을 개조한 레스토랑 823L, 중앙압축기실로 쓰이던 원시미술박물관이 위치한다. 옛 탄광과 예술의 조화가 절묘해 현재와 과거의 시간을 넘나드는 듯하다. 2001년 10월 폐광된 삼척탄좌 시설을 활용+창조적인 문화예술단지로 운영",
+      "fusion_score": 0.026334026334026334,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 2,
+      "rerank_score": null,
+      "rank": 2,
+      "score": 0.026334026334026334,
+      "score_type": "rrf",
+      "distance": 0.6266039609909058,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M1022",
+      "source_doc_ids": [
+        "DOC-B1022-TOUR_API-2470392",
+        "DOC-B1022-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B1022-TOUR_API-2470392",
+          "source_type": "TOUR_API",
+          "source_record_id": "2470392",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=474",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        },
+        {
+          "doc_id": "DOC-B1022-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B1022",
+          "source_locator": "data/raw/museum_base_1070.csv#row=1023",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 37,
+          "doc_ids": [
+            "DOC-B1022-TOUR_API-2470392"
+          ]
+        },
+        {
+          "start": 38,
+          "end": 75,
+          "doc_ids": [
+            "DOC-B1022-TOUR_API-2470392"
+          ]
+        },
+        {
+          "start": 76,
+          "end": 122,
+          "doc_ids": [
+            "DOC-B1022-TOUR_API-2470392"
+          ]
+        },
+        {
+          "start": 123,
+          "end": 149,
+          "doc_ids": [
+            "DOC-B1022-TOUR_API-2470392"
+          ]
+        },
+        {
+          "start": 150,
+          "end": 202,
+          "doc_ids": [
+            "DOC-B1022-TOUR_API-2470392"
+          ]
+        },
+        {
+          "start": 203,
+          "end": 247,
+          "doc_ids": [
+            "DOC-B1022-TOUR_API-2470392"
+          ]
+        },
+        {
+          "start": 248,
+          "end": 298,
+          "doc_ids": [
+            "DOC-B1022-TOUR_API-2470392"
+          ]
+        },
+        {
+          "start": 299,
+          "end": 322,
+          "doc_ids": [
+            "DOC-B1022-TOUR_API-2470392"
+          ]
+        },
+        {
+          "start": 323,
+          "end": 347,
+          "doc_ids": [
+            "DOC-B1022-TOUR_API-2470392"
+          ]
+        },
+        {
+          "start": 348,
+          "end": 388,
+          "doc_ids": [
+            "DOC-B1022-TOUR_API-2470392"
+          ]
+        },
+        {
+          "start": 389,
+          "end": 429,
+          "doc_ids": [
+            "DOC-B1022-TOUR_API-2470392"
+          ]
+        },
+        {
+          "start": 430,
+          "end": 479,
+          "doc_ids": [
+            "DOC-B1022-TOUR_API-2470392"
+          ]
+        },
+        {
+          "start": 480,
+          "end": 543,
+          "doc_ids": [
+            "DOC-B1022-TOUR_API-2470392"
+          ]
+        },
+        {
+          "start": 544,
+          "end": 583,
+          "doc_ids": [
+            "DOC-B1022-TOUR_API-2470392"
+          ]
+        },
+        {
+          "start": 584,
+          "end": 625,
+          "doc_ids": [
+            "DOC-B1022-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=474",
+      "text": "삼탄아트마인은 1964년에서 2001년까지 삼척탄좌가 있던 자리다. 그 터 위에 옛 폐광의 흔적을 보존하며 문화 예술의 가치를 입혔다. 그래서 그 이름 안에 ‘아트(예술 art)’와 ‘마인(광산 mine)’이 공존한다. 제일 먼저 만나는 장소는 삼탄아트센터 본관이다. 과거 삼척탄좌 시절 사무공간과 광원들의 공동 샤워실, 수직갱을 움직이던 운전실이 있던 장소다. 이를 활용해 레지던시룸, 현대미술관 CAM1, 삼탄아트마인 자료 등으로 꾸몄다. 그 가운데 옛 광원이 몸을 씻던 샤워장과 장화를 씻던 세화장 등은 마인 갤러리로 변신했다. 덕분에 아주 특별한 전시 풍경을 연출한다. 레일바이뮤지엄 또한 삼탄아트마인의 자랑이다. 외부에서 진입할 때 가장 먼저 보이는 53m의 권양기가 위치한 건물이다. 권양기는 광원들이 지하 탄광으로 이동할 때 사용하던 산업용 엘리베이터다. 건물 내부는 당시의 현장을 그대로 보존해 옛 삼척탄좌의 분위기를 가장 잘 느낄 수 있다. 야외공원에는 탄광의 기계 제작 공장동을 개조한 레스토랑 823L, 중앙압축기실로 쓰이던 원시미술박물관이 위치한다. 옛 탄광과 예술의 조화가 절묘해 현재와 과거의 시간을 넘나드는 듯하다. 2001년 10월 폐광된 삼척탄좌 시설을 활용+창조적인 문화예술단지로 운영",
+      "sido": "강원특별자치도",
+      "sigungu": "정선군",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=474"
+      ],
+      "evidence_id": "E2",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=702",
+        "fields": {
+          "name": "삼탄아트마인",
+          "sido": "강원특별자치도",
+          "sigungu": "정선군",
+          "address": "강원특별자치도 정선군 고한읍 함백산로 1445-44",
+          "ownership_type": "사립",
+          "adult_fee": "13000",
+          "youth_fee": "13000",
+          "child_fee": "11000",
+          "adult_fee_status": "BASE_FEE_PAID",
+          "weekday_open": "09:00",
+          "weekday_close": "18:00",
+          "holiday_open": "09:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "월",
+          "amenities_raw": "주차장+레스토랑+야외공연장+아트레지던시 룸"
+        },
+        "base_data_date": "2025-08-05",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0850",
+      "name": "디자인씽킹뮤지엄",
+      "document": "디자인씽킹뮤지엄은 실내 전시를 중심으로 구성된 체험형 박물관으로 요즘에는 쉽게 만나기 어려운 수작업 오브제와 컬러풀한 연출이 실내 전시실 곳곳에 살아 있는 문화공간이다. 9개의 실내 전시실은 예술과 디자인, 조선시대와 고려시대 유물, 이야기 콘텐츠가 복합적으로 펼쳐지는 곳이다. 전시실뿐만 아니라 고양이, 토끼 등의 동물들과 마주할 수 있는 공간이 마련되어 있어 아이들도 즐겁게 관람 가능하다. 20여 개 이상의 체험 프로그램은 실내를 중심으로 상시 또는 연계 운영되며, 국가 공인 자격증을 보유한 학예사·교육사·문화예술교육사가 직접 지도한다. 강릉 시내에 위치하여 접근성이 좋아 여행 중에도 부담없이 방문하기 좋다.",
+      "metadata": {
+        "image_copyright": "Type3",
+        "weekday_open": "09:00",
+        "homepage_url": "https://designthinkingmuseum.com",
+        "youth_fee": 0.0,
+        "address": "강원특별자치도 강릉시 구정면 정등로 130",
+        "longitude": 128.8741651,
+        "name": "디자인씽킹뮤지엄",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/66/3592166_image2_1.jpeg",
+        "holiday_close": "00:00",
+        "holiday_open": "00:00",
+        "sigungu": "강릉시",
+        "child_fee": 0.0,
+        "sido": "강원특별자치도",
+        "requires_manual_review": true,
+        "adult_fee": 0.0,
+        "closure_rule_raw": "공휴일+비정기 휴무일(코로나로 일정하지 않음)",
+        "source_types": "TOUR_API",
+        "ownership_type": "사립",
+        "latitude": 37.72922013,
+        "weekday_close": "18:00",
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS"
+      },
+      "vector_rank": 2,
+      "bm25_rank": null,
+      "vector_distance": 0.5204019546508789,
+      "vector_score": null,
+      "bm25_score": null,
+      "vector_document": "디자인씽킹뮤지엄은 실내 전시를 중심으로 구성된 체험형 박물관으로 요즘에는 쉽게 만나기 어려운 수작업 오브제와 컬러풀한 연출이 실내 전시실 곳곳에 살아 있는 문화공간이다. 9개의 실내 전시실은 예술과 디자인, 조선시대와 고려시대 유물, 이야기 콘텐츠가 복합적으로 펼쳐지는 곳이다. 전시실뿐만 아니라 고양이, 토끼 등의 동물들과 마주할 수 있는 공간이 마련되어 있어 아이들도 즐겁게 관람 가능하다. 20여 개 이상의 체험 프로그램은 실내를 중심으로 상시 또는 연계 운영되며, 국가 공인 자격증을 보유한 학예사·교육사·문화예술교육사가 직접 지도한다. 강릉 시내에 위치하여 접근성이 좋아 여행 중에도 부담없이 방문하기 좋다.",
+      "bm25_document": "",
+      "best_span_id": null,
+      "best_span_text": null,
+      "fusion_score": 0.016129032258064516,
+      "retrieved_by": [
+        "vector"
+      ],
+      "fusion_rank": 3,
+      "rerank_score": null,
+      "rank": 3,
+      "score": 0.016129032258064516,
+      "score_type": "rrf",
+      "distance": 0.5204019546508789,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector"
+      ],
+      "retriever": "vector",
+      "source_doc_ids": [
+        "DOC-B0850-TOUR_API-3592123"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0850-TOUR_API-3592123",
+          "source_type": "TOUR_API",
+          "source_record_id": "3592123",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=402",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 94,
+          "doc_ids": [
+            "DOC-B0850-TOUR_API-3592123"
+          ]
+        },
+        {
+          "start": 95,
+          "end": 155,
+          "doc_ids": [
+            "DOC-B0850-TOUR_API-3592123"
+          ]
+        },
+        {
+          "start": 156,
+          "end": 220,
+          "doc_ids": [
+            "DOC-B0850-TOUR_API-3592123"
+          ]
+        },
+        {
+          "start": 221,
+          "end": 304,
+          "doc_ids": [
+            "DOC-B0850-TOUR_API-3592123"
+          ]
+        },
+        {
+          "start": 305,
+          "end": 345,
+          "doc_ids": [
+            "DOC-B0850-TOUR_API-3592123"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=402",
+      "text": "디자인씽킹뮤지엄은 실내 전시를 중심으로 구성된 체험형 박물관으로 요즘에는 쉽게 만나기 어려운 수작업 오브제와 컬러풀한 연출이 실내 전시실 곳곳에 살아 있는 문화공간이다. 9개의 실내 전시실은 예술과 디자인, 조선시대와 고려시대 유물, 이야기 콘텐츠가 복합적으로 펼쳐지는 곳이다. 전시실뿐만 아니라 고양이, 토끼 등의 동물들과 마주할 수 있는 공간이 마련되어 있어 아이들도 즐겁게 관람 가능하다. 20여 개 이상의 체험 프로그램은 실내를 중심으로 상시 또는 연계 운영되며, 국가 공인 자격증을 보유한 학예사·교육사·문화예술교육사가 직접 지도한다. 강릉 시내에 위치하여 접근성이 좋아 여행 중에도 부담없이 방문하기 좋다.",
+      "sido": "강원특별자치도",
+      "sigungu": "강릉시",
+      "span_id": "",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=402"
+      ],
+      "evidence_id": "E3",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=575",
+        "fields": {
+          "name": "디자인씽킹뮤지엄",
+          "sido": "강원특별자치도",
+          "sigungu": "강릉시",
+          "address": "강원특별자치도 강릉시 구정면 정등로 130",
+          "ownership_type": "사립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "09:00",
+          "weekday_close": "18:00",
+          "holiday_open": "00:00",
+          "holiday_close": "00:00",
+          "closure_rule_raw": "공휴일+비정기 휴무일(코로나로 일정하지 않음)"
+        },
+        "base_data_date": "2024-03-18",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0913",
+      "name": "청주백제유물전시관",
+      "document": "청주백제유물전시관은 사적 청주 신봉동 고분군의 역사와 문화를 보존하기 위해 2001년 11월 29일 개관했다. 선사시대부터 조선에 이르는 청주의 역사를 비롯해, 청주 신봉동 백제 고분군을 중심으로 인근의 송절동, 봉명동, 명암동, 가경동 유적과 청원의 송대리와 주성리 유적과 여러 유물을 전시하고 있다. 주요 소장 유물로는 삼국시대의 굽다리접시, 굽단지, 바리 모양토 기, 병 모양 토기, 세발토기, 손잡이 잔, 단지, 대구 등이 있다. 그밖에 기획 전시와 다채로운 문화행사, 체험·교육 프로그램을 열어 청주의 역사와 문화를 전하고 있다. 전시관에서는 청주시 문화 관광해설사의 전시관 해설을 진행한다. 사적 제319호 청주신봉동동백제고분군에 2001년 11월 건립 청주지역의 초기 역사를 보여주는 대표적인 교육의 장소",
+      "metadata": {
+        "adult_fee": 0.0,
+        "child_fee": 0.0,
+        "address": "충청북도 청주시 흥덕구 1순환로 438번길 9(신봉동)",
+        "weekday_open": "09:00",
+        "sigungu": "청주시",
+        "homepage_url": "https://cheongju.go.kr/cjbaekje/index.do",
+        "amenities_raw": "주차장",
+        "longitude": 127.4690007,
+        "name": "청주백제유물전시관",
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "source_types": "BASE|TOUR_API",
+        "latitude": 36.652175,
+        "ownership_type": "공립",
+        "holiday_close": "18:00",
+        "holiday_open": "09:00",
+        "sido": "충청북도",
+        "weekday_close": "18:00",
+        "youth_fee": 0.0,
+        "image_copyright": "Type1",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/41/4120041_image2_1.JPG",
+        "closure_rule_raw": "1월 1일+설 연휴+추석 연휴+월+14시까지",
+        "transport_notes": "자가용 이용시-경부고속도로 청주IC 10.9㎞ 중부고속도로 서청주 IC 6.2㎞ 대중교통 고소버스터미널에서 사창사거리 정류장 하차 후 도보 5분",
+        "requires_manual_review": true
+      },
+      "vector_rank": null,
+      "bm25_rank": 2,
+      "vector_distance": null,
+      "vector_score": null,
+      "bm25_score": 11.504598938124612,
+      "vector_document": "",
+      "bm25_document": "청주백제유물전시관은 사적 청주 신봉동 고분군의 역사와 문화를 보존하기 위해 2001년 11월 29일 개관했다. 선사시대부터 조선에 이르는 청주의 역사를 비롯해, 청주 신봉동 백제 고분군을 중심으로 인근의 송절동, 봉명동, 명암동, 가경동 유적과 청원의 송대리와 주성리 유적과 여러 유물을 전시하고 있다. 주요 소장 유물로는 삼국시대의 굽다리접시, 굽단지, 바리 모양토 기, 병 모양 토기, 세발토기, 손잡이 잔, 단지, 대구 등이 있다. 그밖에 기획 전시와 다채로운 문화행사, 체험·교육 프로그램을 열어 청주의 역사와 문화를 전하고 있다. 전시관에서는 청주시 문화 관광해설사의 전시관 해설을 진행한다. 사적 제319호 청주신봉동동백제고분군에 2001년 11월 건립 청주지역의 초기 역사를 보여주는 대표적인 교육의 장소",
+      "best_span_id": "chroma:M0913",
+      "best_span_text": "청주백제유물전시관은 사적 청주 신봉동 고분군의 역사와 문화를 보존하기 위해 2001년 11월 29일 개관했다. 선사시대부터 조선에 이르는 청주의 역사를 비롯해, 청주 신봉동 백제 고분군을 중심으로 인근의 송절동, 봉명동, 명암동, 가경동 유적과 청원의 송대리와 주성리 유적과 여러 유물을 전시하고 있다. 주요 소장 유물로는 삼국시대의 굽다리접시, 굽단지, 바리 모양토 기, 병 모양 토기, 세발토기, 손잡이 잔, 단지, 대구 등이 있다. 그밖에 기획 전시와 다채로운 문화행사, 체험·교육 프로그램을 열어 청주의 역사와 문화를 전하고 있다. 전시관에서는 청주시 문화 관광해설사의 전시관 해설을 진행한다. 사적 제319호 청주신봉동동백제고분군에 2001년 11월 건립 청주지역의 초기 역사를 보여주는 대표적인 교육의 장소",
+      "fusion_score": 0.016129032258064516,
+      "retrieved_by": [
+        "bm25"
+      ],
+      "fusion_rank": 4,
+      "rerank_score": null,
+      "rank": 4,
+      "score": 0.016129032258064516,
+      "score_type": "rrf",
+      "distance": null,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "bm25"
+      ],
+      "retriever": "bm25",
+      "span_id": "chroma:M0913",
+      "source_doc_ids": [
+        "DOC-B0913-TOUR_API-1627209",
+        "DOC-B0913-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0913-TOUR_API-1627209",
+          "source_type": "TOUR_API",
+          "source_record_id": "1627209",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=427",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        },
+        {
+          "doc_id": "DOC-B0913-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0913",
+          "source_locator": "data/raw/museum_base_1070.csv#row=914",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 61,
+          "doc_ids": [
+            "DOC-B0913-TOUR_API-1627209"
+          ]
+        },
+        {
+          "start": 62,
+          "end": 169,
+          "doc_ids": [
+            "DOC-B0913-TOUR_API-1627209"
+          ]
+        },
+        {
+          "start": 170,
+          "end": 244,
+          "doc_ids": [
+            "DOC-B0913-TOUR_API-1627209"
+          ]
+        },
+        {
+          "start": 245,
+          "end": 301,
+          "doc_ids": [
+            "DOC-B0913-TOUR_API-1627209"
+          ]
+        },
+        {
+          "start": 302,
+          "end": 336,
+          "doc_ids": [
+            "DOC-B0913-TOUR_API-1627209"
+          ]
+        },
+        {
+          "start": 337,
+          "end": 401,
+          "doc_ids": [
+            "DOC-B0913-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=427",
+      "text": "청주백제유물전시관은 사적 청주 신봉동 고분군의 역사와 문화를 보존하기 위해 2001년 11월 29일 개관했다. 선사시대부터 조선에 이르는 청주의 역사를 비롯해, 청주 신봉동 백제 고분군을 중심으로 인근의 송절동, 봉명동, 명암동, 가경동 유적과 청원의 송대리와 주성리 유적과 여러 유물을 전시하고 있다. 주요 소장 유물로는 삼국시대의 굽다리접시, 굽단지, 바리 모양토 기, 병 모양 토기, 세발토기, 손잡이 잔, 단지, 대구 등이 있다. 그밖에 기획 전시와 다채로운 문화행사, 체험·교육 프로그램을 열어 청주의 역사와 문화를 전하고 있다. 전시관에서는 청주시 문화 관광해설사의 전시관 해설을 진행한다. 사적 제319호 청주신봉동동백제고분군에 2001년 11월 건립 청주지역의 초기 역사를 보여주는 대표적인 교육의 장소",
+      "sido": "충청북도",
+      "sigungu": "청주시",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=427"
+      ],
+      "evidence_id": "E4",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=629",
+        "fields": {
+          "name": "청주백제유물전시관",
+          "sido": "충청북도",
+          "sigungu": "청주시",
+          "address": "충청북도 청주시 흥덕구 1순환로 438번길 9(신봉동)",
+          "ownership_type": "공립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "09:00",
+          "weekday_close": "18:00",
+          "holiday_open": "09:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "1월 1일+설 연휴+추석 연휴+월+14시까지",
+          "amenities_raw": "주차장"
+        },
+        "base_data_date": "2025-11-26",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0985",
+      "name": "뮤지엄원",
+      "document": "대중을 위한 예술, 대중이 체험하고 즐길 수 있는 예술 등을 소개",
+      "metadata": {
+        "source_types": "BASE",
+        "requires_manual_review": false,
+        "adult_fee": 18000.0,
+        "adult_fee_status": "BASE_FEE_PAID",
+        "sido": "부산광역시",
+        "weekday_open": "10:00",
+        "address": "부산광역시 해운대구 센텀서로 20",
+        "latitude": 35.1713212,
+        "youth_fee": 15000.0,
+        "ownership_type": "사립",
+        "transport_notes": "부산 지하철 2호선 센텀시티역 하차",
+        "weekday_close": "19:00",
+        "name": "뮤지엄원",
+        "holiday_close": "20:00",
+        "sigungu": "해운대구",
+        "holiday_open": "10:00",
+        "child_fee": 13000.0,
+        "longitude": 129.1289814,
+        "closure_rule_raw": "연중무휴",
+        "homepage_url": "https://museum1.co.kr",
+        "fee_notes": "장애인, 유공자, 단체 할인"
+      },
+      "vector_rank": 3,
+      "bm25_rank": null,
+      "vector_distance": 0.537213921546936,
+      "vector_score": null,
+      "bm25_score": null,
+      "vector_document": "대중을 위한 예술, 대중이 체험하고 즐길 수 있는 예술 등을 소개",
+      "bm25_document": "",
+      "best_span_id": null,
+      "best_span_text": null,
+      "fusion_score": 0.015873015873015872,
+      "retrieved_by": [
+        "vector"
+      ],
+      "fusion_rank": 5,
+      "rerank_score": null,
+      "rank": 5,
+      "score": 0.015873015873015872,
+      "score_type": "rrf",
+      "distance": 0.537213921546936,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector"
+      ],
+      "retriever": "vector",
+      "source_doc_ids": [
+        "DOC-B0985-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0985-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0985",
+          "source_locator": "data/raw/museum_base_1070.csv#row=986",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 36,
+          "doc_ids": [
+            "DOC-B0985-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_base_1070.csv#row=986",
+      "text": "대중을 위한 예술, 대중이 체험하고 즐길 수 있는 예술 등을 소개",
+      "sido": "부산광역시",
+      "sigungu": "해운대구",
+      "span_id": "",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_base_1070.csv#row=986"
+      ],
+      "evidence_id": "E5",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=671",
+        "fields": {
+          "name": "뮤지엄원",
+          "sido": "부산광역시",
+          "sigungu": "해운대구",
+          "address": "부산광역시 해운대구 센텀서로 20",
+          "ownership_type": "사립",
+          "adult_fee": "18000",
+          "youth_fee": "15000",
+          "child_fee": "13000",
+          "adult_fee_status": "BASE_FEE_PAID",
+          "weekday_open": "10:00",
+          "weekday_close": "19:00",
+          "holiday_open": "10:00",
+          "holiday_close": "20:00",
+          "closure_rule_raw": "연중무휴"
+        },
+        "base_data_date": "2025-11-20",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    }
+  ],
+  "answer": "조안베어뮤지엄은 조안 오의 작업실이자 전시공간으로, 천연 소재로 만든 테디베어를 볼 수 있는 곳입니다. 제주 자연을 느끼며 쉬어갈 수 있고, 언덕의 오래된 소나무들과 돌담이 보존되어 있어 제주 올레를 함께 즐길 수 있다고 소개되어 있습니다. [E1]",
+  "retrieval_status": "ok",
+  "answer_status": "answered",
+  "route": "hybrid",
+  "retry_count": 0,
+  "supervisor_verified": true,
+  "rerank_applied": false,
+  "retriever_errors": [],
+  "warnings": [
+    "Cross-Encoder reranking failed (FileNotFoundError); RRF order retained"
+  ],
+  "duration_ms": 11840.77,
+  "error_type": "",
+  "hit_at_1": 1,
+  "hit_at_3": 1,
+  "hit_at_5": 1,
+  "recall_at_5": 1.0,
+  "mrr_at_10": 1.0
+}

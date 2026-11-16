@@ -1,0 +1,665 @@
+{
+  "mode": "supervisor_full",
+  "question_id": "Q086",
+  "evidence": [
+    {
+      "museum_id": "M0110",
+      "name": "국제성서박물관",
+      "document": "성서수집과 연구에 평생을 바친 한경수 목사가 세계 각국에서 모은 1만여 점의 성서와 미국의 성서연구가가 기증한 8천여 점의 성경을 소장하고 있다",
+      "metadata": {
+        "closure_rule_raw": "월요일+일요일+법정공휴일",
+        "homepage_url": "http://www.biblemuseum.or.kr",
+        "adult_fee_status": "BASE_FEE_PAID",
+        "sido": "인천광역시",
+        "fee_notes": "5000원(학생+국가유공자+65세 이상 어르신) + 장애인/미취학아동 무료",
+        "transport_notes": "시내버스 2+15+33+41",
+        "latitude": 37.4592356,
+        "address": "인천광역시 미추홀구 경인로349번길 9",
+        "sigungu": "미추홀구",
+        "weekday_open": "10:00",
+        "holiday_open": "00:00",
+        "weekday_close": "17:00",
+        "requires_manual_review": true,
+        "adult_fee": 7000.0,
+        "youth_fee": 5000.0,
+        "longitude": 126.6783819482,
+        "holiday_close": "00:00",
+        "ownership_type": "사립",
+        "source_types": "BASE",
+        "name": "국제성서박물관",
+        "child_fee": 0.0
+      },
+      "vector_rank": 1,
+      "bm25_rank": 1,
+      "vector_distance": 0.4234434962272644,
+      "vector_score": null,
+      "bm25_score": 33.336398202564965,
+      "vector_document": "성서수집과 연구에 평생을 바친 한경수 목사가 세계 각국에서 모은 1만여 점의 성서와 미국의 성서연구가가 기증한 8천여 점의 성경을 소장하고 있다",
+      "bm25_document": "성서수집과 연구에 평생을 바친 한경수 목사가 세계 각국에서 모은 1만여 점의 성서와 미국의 성서연구가가 기증한 8천여 점의 성경을 소장하고 있다",
+      "best_span_id": "chroma:M0110",
+      "best_span_text": "성서수집과 연구에 평생을 바친 한경수 목사가 세계 각국에서 모은 1만여 점의 성서와 미국의 성서연구가가 기증한 8천여 점의 성경을 소장하고 있다",
+      "fusion_score": 0.03278688524590164,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 1,
+      "name_match": true,
+      "rerank_score": null,
+      "rank": 1,
+      "score": 0.03278688524590164,
+      "score_type": "rrf",
+      "distance": 0.4234434962272644,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0110",
+      "source_doc_ids": [
+        "DOC-B0110-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0110-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0110",
+          "source_locator": "data/raw/museum_base_1070.csv#row=111",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 80,
+          "doc_ids": [
+            "DOC-B0110-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_base_1070.csv#row=111",
+      "text": "성서수집과 연구에 평생을 바친 한경수 목사가 세계 각국에서 모은 1만여 점의 성서와 미국의 성서연구가가 기증한 8천여 점의 성경을 소장하고 있다",
+      "sido": "인천광역시",
+      "sigungu": "미추홀구",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_base_1070.csv#row=111"
+      ],
+      "evidence_id": "E1",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=70",
+        "fields": {
+          "name": "국제성서박물관",
+          "sido": "인천광역시",
+          "sigungu": "미추홀구",
+          "address": "인천광역시 미추홀구 경인로349번길 9",
+          "ownership_type": "사립",
+          "adult_fee": "7000",
+          "youth_fee": "5000",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_PAID",
+          "weekday_open": "10:00",
+          "weekday_close": "17:00",
+          "holiday_open": "00:00",
+          "holiday_close": "00:00",
+          "closure_rule_raw": "월요일+일요일+법정공휴일"
+        },
+        "base_data_date": "2026-10-01",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0698",
+      "name": "박물관 수",
+      "document": "박물관 수는 대구광역시 범어동에 위치한 소규모 박물관으로 2011년 개관하였다. 이곳은 자수와 민화를 전문 콘텐츠로 전시 및 체험을 진행하는 곳이다. 베갯모 자수와 기타 전통자수 유물을 관람할 수 있으며, 민화 유물을 관람할 수 있다. 또한 박물관 뒤편에 교육 공간을 했는데 버선 만들기, 복주머니 만들기, 까치호랑이 만들기 등의 체험이 가능하다. 직접 만들어서 판매하는 자수 굿즈를 볼 수 있고 한국의 멋을 충분히 느낄 수 있는 곳이다. 한국의 자수와 민화에 대해 소개하고 전시, 교육하는 사립박물관",
+      "metadata": {
+        "ownership_type": "사립",
+        "image_copyright": "Type3",
+        "closure_rule_raw": "일요일 및 공휴일",
+        "sigungu": "수성구",
+        "longitude": 128.6341486,
+        "adult_fee_status": "BASE_FEE_PAID",
+        "youth_fee": 3000.0,
+        "name": "박물관 수",
+        "child_fee": 3000.0,
+        "transport_notes": "지하철 2호선 수성구청역+309+323+323-1+420+420-1+425+509+609+649+724+840+939+100+990+991+303-1+814",
+        "weekday_close": "17:00",
+        "latitude": 35.86482862,
+        "sido": "대구광역시",
+        "address": "대구광역시 수성구 국채보상로 186길 79",
+        "source_types": "BASE|TOUR_API",
+        "homepage_url": "https://www.museumsoo.org",
+        "adult_fee": 5000.0,
+        "requires_manual_review": true,
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/45/3342645_image2_1.jpg",
+        "weekday_open": "10:00"
+      },
+      "vector_rank": 2,
+      "bm25_rank": null,
+      "vector_distance": 0.5739130973815918,
+      "vector_score": null,
+      "bm25_score": null,
+      "vector_document": "박물관 수는 대구광역시 범어동에 위치한 소규모 박물관으로 2011년 개관하였다. 이곳은 자수와 민화를 전문 콘텐츠로 전시 및 체험을 진행하는 곳이다. 베갯모 자수와 기타 전통자수 유물을 관람할 수 있으며, 민화 유물을 관람할 수 있다. 또한 박물관 뒤편에 교육 공간을 했는데 버선 만들기, 복주머니 만들기, 까치호랑이 만들기 등의 체험이 가능하다. 직접 만들어서 판매하는 자수 굿즈를 볼 수 있고 한국의 멋을 충분히 느낄 수 있는 곳이다. 한국의 자수와 민화에 대해 소개하고 전시, 교육하는 사립박물관",
+      "bm25_document": "",
+      "best_span_id": null,
+      "best_span_text": null,
+      "fusion_score": 0.016129032258064516,
+      "retrieved_by": [
+        "vector"
+      ],
+      "fusion_rank": 2,
+      "rerank_score": null,
+      "rank": 2,
+      "score": 0.016129032258064516,
+      "score_type": "rrf",
+      "distance": 0.5739130973815918,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector"
+      ],
+      "retriever": "vector",
+      "source_doc_ids": [
+        "DOC-B0698-TOUR_API-2555014",
+        "DOC-B0698-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0698-TOUR_API-2555014",
+          "source_type": "TOUR_API",
+          "source_record_id": "2555014",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=341",
+          "match_trust": "RECHECKED_BY_RULE_NOT_HUMAN_APPROVED"
+        },
+        {
+          "doc_id": "DOC-B0698-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0698",
+          "source_locator": "data/raw/museum_base_1070.csv#row=699",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 44,
+          "doc_ids": [
+            "DOC-B0698-TOUR_API-2555014"
+          ]
+        },
+        {
+          "start": 45,
+          "end": 83,
+          "doc_ids": [
+            "DOC-B0698-TOUR_API-2555014"
+          ]
+        },
+        {
+          "start": 84,
+          "end": 131,
+          "doc_ids": [
+            "DOC-B0698-TOUR_API-2555014"
+          ]
+        },
+        {
+          "start": 132,
+          "end": 194,
+          "doc_ids": [
+            "DOC-B0698-TOUR_API-2555014"
+          ]
+        },
+        {
+          "start": 195,
+          "end": 245,
+          "doc_ids": [
+            "DOC-B0698-TOUR_API-2555014"
+          ]
+        },
+        {
+          "start": 246,
+          "end": 280,
+          "doc_ids": [
+            "DOC-B0698-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=341",
+      "text": "박물관 수는 대구광역시 범어동에 위치한 소규모 박물관으로 2011년 개관하였다. 이곳은 자수와 민화를 전문 콘텐츠로 전시 및 체험을 진행하는 곳이다. 베갯모 자수와 기타 전통자수 유물을 관람할 수 있으며, 민화 유물을 관람할 수 있다. 또한 박물관 뒤편에 교육 공간을 했는데 버선 만들기, 복주머니 만들기, 까치호랑이 만들기 등의 체험이 가능하다. 직접 만들어서 판매하는 자수 굿즈를 볼 수 있고 한국의 멋을 충분히 느낄 수 있는 곳이다. 한국의 자수와 민화에 대해 소개하고 전시, 교육하는 사립박물관",
+      "sido": "대구광역시",
+      "sigungu": "수성구",
+      "span_id": "",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=341"
+      ],
+      "evidence_id": "E2",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=484",
+        "fields": {
+          "name": "박물관 수",
+          "sido": "대구광역시",
+          "sigungu": "수성구",
+          "address": "대구광역시 수성구 국채보상로 186길 79",
+          "ownership_type": "사립",
+          "adult_fee": "5000",
+          "youth_fee": "3000",
+          "child_fee": "3000",
+          "adult_fee_status": "BASE_FEE_PAID",
+          "weekday_open": "10:00",
+          "weekday_close": "17:00",
+          "closure_rule_raw": "일요일 및 공휴일"
+        },
+        "base_data_date": "2025-12-10",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0696",
+      "name": "계명대학교행소박물관",
+      "document": "계명대학교 성서캠퍼스 내에 있는 박물관으로 다양한 유적의 발굴조사, 학술대회, 특별전시, 사회교육활동을 통하여 대구경북지역의 역사와 문화 소개",
+      "metadata": {
+        "weekday_close": "17:00",
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "requires_manual_review": true,
+        "holiday_open": "10:00",
+        "source_types": "BASE",
+        "name": "계명대학교행소박물관",
+        "sido": "대구광역시",
+        "weekday_open": "10:00",
+        "latitude": 35.85355435,
+        "transport_notes": "지하철 2호선 계명대역+급행1+급행5+250+425+503+527+564+655+달서1+달서3+성서1+성서1-1+성서2+524 등",
+        "address": "대구광역시 달서구 달구벌대로 1095",
+        "longitude": 128.4814938,
+        "adult_fee": 0.0,
+        "child_fee": 0.0,
+        "closure_rule_raw": "매주 월요일+1월 1일+설날추석 당일",
+        "homepage_url": "https://www.hengsomuseum.com",
+        "sigungu": "달서구",
+        "holiday_close": "17:00",
+        "youth_fee": 0.0,
+        "ownership_type": "대학"
+      },
+      "vector_rank": null,
+      "bm25_rank": 2,
+      "vector_distance": null,
+      "vector_score": null,
+      "bm25_score": 12.552329541408488,
+      "vector_document": "",
+      "bm25_document": "계명대학교 성서캠퍼스 내에 있는 박물관으로 다양한 유적의 발굴조사, 학술대회, 특별전시, 사회교육활동을 통하여 대구경북지역의 역사와 문화 소개",
+      "best_span_id": "chroma:M0696",
+      "best_span_text": "계명대학교 성서캠퍼스 내에 있는 박물관으로 다양한 유적의 발굴조사, 학술대회, 특별전시, 사회교육활동을 통하여 대구경북지역의 역사와 문화 소개",
+      "fusion_score": 0.016129032258064516,
+      "retrieved_by": [
+        "bm25"
+      ],
+      "fusion_rank": 3,
+      "rerank_score": null,
+      "rank": 3,
+      "score": 0.016129032258064516,
+      "score_type": "rrf",
+      "distance": null,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "bm25"
+      ],
+      "retriever": "bm25",
+      "span_id": "chroma:M0696",
+      "source_doc_ids": [
+        "DOC-B0696-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0696-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0696",
+          "source_locator": "data/raw/museum_base_1070.csv#row=697",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 79,
+          "doc_ids": [
+            "DOC-B0696-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_base_1070.csv#row=697",
+      "text": "계명대학교 성서캠퍼스 내에 있는 박물관으로 다양한 유적의 발굴조사, 학술대회, 특별전시, 사회교육활동을 통하여 대구경북지역의 역사와 문화 소개",
+      "sido": "대구광역시",
+      "sigungu": "달서구",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_base_1070.csv#row=697"
+      ],
+      "evidence_id": "E3",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=482",
+        "fields": {
+          "name": "계명대학교행소박물관",
+          "sido": "대구광역시",
+          "sigungu": "달서구",
+          "address": "대구광역시 달서구 달구벌대로 1095",
+          "ownership_type": "대학",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "10:00",
+          "weekday_close": "17:00",
+          "holiday_open": "10:00",
+          "holiday_close": "17:00",
+          "closure_rule_raw": "매주 월요일+1월 1일+설날추석 당일"
+        },
+        "base_data_date": "2025-12-10",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0161",
+      "name": "박을복자수박물관",
+      "document": "박을복자수박물관은 북한산 백운대 자락에 박을복 선생이 거주하던 주택을 개조하여 만든 전통 자수 박물관이다. 전통 자수와 근·현대회화의 흐름을 결합시켜 한국 현대 자수 발전에 기여한 박을복선생(1915~2015)의 업적을 기리기 위해 설립되었다. 박을복 선생의 작품들을 전시하여 그동안 관람이 쉽지 않았던 감상 자수를 일반에게 선보이며, 한국 근현대 자수의 역사를 재정리해 놓았다. 박물관의 1층은 기획전시가 이루어지는 기획전시장이 있으며, 2층에는 상설전시장으로 박을복 선생데 대한 자세한 설명과 작품이 전시되어 있다. 또한, 이곳에서는 강의와 실기 체험을 동시에 진행하는 교육프로그램을 운영하고 있다. 인문학과 문화예술 분야 전문가들의 강의를 듣고 각 강의에 해당하는 예술 분야의 작가들과 에듀케이터들을 주축으로 이에 관한 작업을 직접 체험 해 볼 수 있다. 박물관 관람 전 전화로 사전 예약이 필요하므로 방문하기 전 전화 문의 후 관람하면 된다. 현대 한국자수 발전에 기여한 박을복 선생의 업적을 기리고 한국 자수의 역사 및 감상 자수를 일반에게 선보여 문화향수의 기회 제공",
+      "metadata": {
+        "source_types": "BASE|TOUR_API",
+        "closure_rule_raw": "토+일+국가공휴일",
+        "latitude": 37.65381634,
+        "name": "박을복자수박물관",
+        "transport_notes": "지하철 4호선 수유역(3번 출구)에서 120번ㆍ153번 탑승 후 덕성여대 하차",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/14/3589314_image2_1.jpg",
+        "holiday_open": "00:00",
+        "weekday_close": "17:00",
+        "image_copyright": "Type1",
+        "adult_fee": 0.0,
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "homepage_url": "http://www.embromuseum.com",
+        "weekday_open": "10:00",
+        "youth_fee": 0.0,
+        "longitude": 127.0084901,
+        "holiday_close": "00:00",
+        "sigungu": "강북구",
+        "fee_notes": "단체 20명 이상(무료)",
+        "address": "서울특별시 강북구 삼양로 149가길53",
+        "child_fee": 0.0,
+        "ownership_type": "사립",
+        "requires_manual_review": true,
+        "sido": "서울특별시"
+      },
+      "vector_rank": 3,
+      "bm25_rank": null,
+      "vector_distance": 0.5757187604904175,
+      "vector_score": null,
+      "bm25_score": null,
+      "vector_document": "박을복자수박물관은 북한산 백운대 자락에 박을복 선생이 거주하던 주택을 개조하여 만든 전통 자수 박물관이다. 전통 자수와 근·현대회화의 흐름을 결합시켜 한국 현대 자수 발전에 기여한 박을복선생(1915~2015)의 업적을 기리기 위해 설립되었다. 박을복 선생의 작품들을 전시하여 그동안 관람이 쉽지 않았던 감상 자수를 일반에게 선보이며, 한국 근현대 자수의 역사를 재정리해 놓았다. 박물관의 1층은 기획전시가 이루어지는 기획전시장이 있으며, 2층에는 상설전시장으로 박을복 선생데 대한 자세한 설명과 작품이 전시되어 있다. 또한, 이곳에서는 강의와 실기 체험을 동시에 진행하는 교육프로그램을 운영하고 있다. 인문학과 문화예술 분야 전문가들의 강의를 듣고 각 강의에 해당하는 예술 분야의 작가들과 에듀케이터들을 주축으로 이에 관한 작업을 직접 체험 해 볼 수 있다. 박물관 관람 전 전화로 사전 예약이 필요하므로 방문하기 전 전화 문의 후 관람하면 된다. 현대 한국자수 발전에 기여한 박을복 선생의 업적을 기리고 한국 자수의 역사 및 감상 자수를 일반에게 선보여 문화향수의 기회 제공",
+      "bm25_document": "",
+      "best_span_id": null,
+      "best_span_text": null,
+      "fusion_score": 0.015873015873015872,
+      "retrieved_by": [
+        "vector"
+      ],
+      "fusion_rank": 4,
+      "rerank_score": null,
+      "rank": 4,
+      "score": 0.015873015873015872,
+      "score_type": "rrf",
+      "distance": 0.5757187604904175,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector"
+      ],
+      "retriever": "vector",
+      "source_doc_ids": [
+        "DOC-B0161-TOUR_API-130929",
+        "DOC-B0161-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0161-TOUR_API-130929",
+          "source_type": "TOUR_API",
+          "source_record_id": "130929",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=75",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        },
+        {
+          "doc_id": "DOC-B0161-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0161",
+          "source_locator": "data/raw/museum_base_1070.csv#row=162",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 59,
+          "doc_ids": [
+            "DOC-B0161-TOUR_API-130929"
+          ]
+        },
+        {
+          "start": 60,
+          "end": 136,
+          "doc_ids": [
+            "DOC-B0161-TOUR_API-130929"
+          ]
+        },
+        {
+          "start": 137,
+          "end": 212,
+          "doc_ids": [
+            "DOC-B0161-TOUR_API-130929"
+          ]
+        },
+        {
+          "start": 213,
+          "end": 290,
+          "doc_ids": [
+            "DOC-B0161-TOUR_API-130929"
+          ]
+        },
+        {
+          "start": 291,
+          "end": 337,
+          "doc_ids": [
+            "DOC-B0161-TOUR_API-130929"
+          ]
+        },
+        {
+          "start": 338,
+          "end": 425,
+          "doc_ids": [
+            "DOC-B0161-TOUR_API-130929"
+          ]
+        },
+        {
+          "start": 426,
+          "end": 475,
+          "doc_ids": [
+            "DOC-B0161-TOUR_API-130929"
+          ]
+        },
+        {
+          "start": 476,
+          "end": 547,
+          "doc_ids": [
+            "DOC-B0161-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=75",
+      "text": "박을복자수박물관은 북한산 백운대 자락에 박을복 선생이 거주하던 주택을 개조하여 만든 전통 자수 박물관이다. 전통 자수와 근·현대회화의 흐름을 결합시켜 한국 현대 자수 발전에 기여한 박을복선생(1915~2015)의 업적을 기리기 위해 설립되었다. 박을복 선생의 작품들을 전시하여 그동안 관람이 쉽지 않았던 감상 자수를 일반에게 선보이며, 한국 근현대 자수의 역사를 재정리해 놓았다. 박물관의 1층은 기획전시가 이루어지는 기획전시장이 있으며, 2층에는 상설전시장으로 박을복 선생데 대한 자세한 설명과 작품이 전시되어 있다. 또한, 이곳에서는 강의와 실기 체험을 동시에 진행하는 교육프로그램을 운영하고 있다. 인문학과 문화예술 분야 전문가들의 강의를 듣고 각 강의에 해당하는 예술 분야의 작가들과 에듀케이터들을 주축으로 이에 관한 작업을 직접 체험 해 볼 수 있다. 박물관 관람 전 전화로 사전 예약이 필요하므로 방문하기 전 전화 문의 후 관람하면 된다. 현대 한국자수 발전에 기여한 박을복 선생의 업적을 기리고 한국 자수의 역사 및 감상 자수를 일반에게 선보여 문화향수의 기회 제공",
+      "sido": "서울특별시",
+      "sigungu": "강북구",
+      "span_id": "",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=75"
+      ],
+      "evidence_id": "E4",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=104",
+        "fields": {
+          "name": "박을복자수박물관",
+          "sido": "서울특별시",
+          "sigungu": "강북구",
+          "address": "서울특별시 강북구 삼양로 149가길53",
+          "ownership_type": "사립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "10:00",
+          "weekday_close": "17:00",
+          "holiday_open": "00:00",
+          "holiday_close": "00:00",
+          "closure_rule_raw": "토+일+국가공휴일"
+        },
+        "base_data_date": "2026-08-14",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M1010",
+      "name": "평강 성서유물박물관",
+      "document": "성서의 배경이 되는 지역인 메소포타미아, 이집트, 고대그리스, 로마에서 출토된 미이라, 향수병, 토기, 두루마리 성경등을 전시하고 있는 국내 유일의 성서고고학 박물관",
+      "metadata": {
+        "adult_fee_status": "BASE_FEE_PAID",
+        "youth_fee": 2000.0,
+        "source_types": "BASE",
+        "requires_manual_review": false,
+        "holiday_close": "17:00",
+        "latitude": 37.4919053,
+        "sigungu": "구로구",
+        "adult_fee": 3000.0,
+        "child_fee": 2000.0,
+        "sido": "서울특별시",
+        "fee_notes": "6세 이하 어린이, 장애우 및 65세 이상 노인 무료",
+        "ownership_type": "사립",
+        "address": "서울특별시 구로구 오류로8라길 44",
+        "weekday_open": "10:00",
+        "transport_notes": "지하철 1호선 오류역하차 도보로 7분 지하철 7호선 천왕역하차 2번출구에서 도보로 12분",
+        "weekday_close": "17:00",
+        "homepage_url": "http://www.apm.or.kr/",
+        "name": "평강 성서유물박물관",
+        "closure_rule_raw": "매주 월 휴관",
+        "holiday_open": "13:00",
+        "longitude": 126.8440613
+      },
+      "vector_rank": null,
+      "bm25_rank": 3,
+      "vector_distance": null,
+      "vector_score": null,
+      "bm25_score": 11.268332658228205,
+      "vector_document": "",
+      "bm25_document": "성서의 배경이 되는 지역인 메소포타미아, 이집트, 고대그리스, 로마에서 출토된 미이라, 향수병, 토기, 두루마리 성경등을 전시하고 있는 국내 유일의 성서고고학 박물관",
+      "best_span_id": "chroma:M1010",
+      "best_span_text": "성서의 배경이 되는 지역인 메소포타미아, 이집트, 고대그리스, 로마에서 출토된 미이라, 향수병, 토기, 두루마리 성경등을 전시하고 있는 국내 유일의 성서고고학 박물관",
+      "fusion_score": 0.015873015873015872,
+      "retrieved_by": [
+        "bm25"
+      ],
+      "fusion_rank": 5,
+      "rerank_score": null,
+      "rank": 5,
+      "score": 0.015873015873015872,
+      "score_type": "rrf",
+      "distance": null,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "bm25"
+      ],
+      "retriever": "bm25",
+      "span_id": "chroma:M1010",
+      "source_doc_ids": [
+        "DOC-B1010-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B1010-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B1010",
+          "source_locator": "data/raw/museum_base_1070.csv#row=1011",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 92,
+          "doc_ids": [
+            "DOC-B1010-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_base_1070.csv#row=1011",
+      "text": "성서의 배경이 되는 지역인 메소포타미아, 이집트, 고대그리스, 로마에서 출토된 미이라, 향수병, 토기, 두루마리 성경등을 전시하고 있는 국내 유일의 성서고고학 박물관",
+      "sido": "서울특별시",
+      "sigungu": "구로구",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_base_1070.csv#row=1011"
+      ],
+      "evidence_id": "E5",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=692",
+        "fields": {
+          "name": "평강 성서유물박물관",
+          "sido": "서울특별시",
+          "sigungu": "구로구",
+          "address": "서울특별시 구로구 오류로8라길 44",
+          "ownership_type": "사립",
+          "adult_fee": "3000",
+          "youth_fee": "2000",
+          "child_fee": "2000",
+          "adult_fee_status": "BASE_FEE_PAID",
+          "weekday_open": "10:00",
+          "weekday_close": "17:00",
+          "holiday_open": "13:00",
+          "holiday_close": "17:00",
+          "closure_rule_raw": "매주 월 휴관"
+        },
+        "base_data_date": "2025-04-03",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    }
+  ],
+  "answer": "한경수 목사는 평생 성서 수집과 연구에 헌신했습니다. [E1]",
+  "retrieval_status": "ok",
+  "answer_status": "answered",
+  "route": "hybrid",
+  "retry_count": 0,
+  "supervisor_verified": true,
+  "rerank_applied": false,
+  "retriever_errors": [],
+  "warnings": [
+    "Cross-Encoder reranking failed (FileNotFoundError); RRF order retained"
+  ],
+  "duration_ms": 7806.82,
+  "error_type": "",
+  "hit_at_1": 1,
+  "hit_at_3": 1,
+  "hit_at_5": 1,
+  "recall_at_5": 1.0,
+  "mrr_at_10": 1.0
+}

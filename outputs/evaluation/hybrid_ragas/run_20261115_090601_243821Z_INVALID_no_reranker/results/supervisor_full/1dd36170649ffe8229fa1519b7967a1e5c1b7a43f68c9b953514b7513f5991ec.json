@@ -1,0 +1,696 @@
+{
+  "mode": "supervisor_full",
+  "question_id": "Q272",
+  "evidence": [
+    {
+      "museum_id": "M0463",
+      "name": "모란미술관",
+      "document": "모란미술관은 경기도 마석에 위치한 사립미술관으로 1990년 4월에 개관했다. 조각전문미술관으로 출발하여 한국 현대조각의 향방을 모색하는 연구와 기획전을 개최해 왔고, 현재에는 조각뿐 아니라 다양한 장르의 동시대 미술을 소개하며 사회와 문화의 예술적 가치를 반영하는 전시를 통해 대중들의 삶 속에 미술문화가 뿌리내릴 수 있도록 하고 있다. 모란미술관 본관은 전시가 열리는 공간으로, 6개의 전시실이 2층으로 구성되어 있다. 건축가 이영범이 설계한 수장고와 모란탑(수장고와 노래하는 탑)은 미국건축가협회(AIA)뉴욕시지부에서 디자인상을 받은 건축물로 미술관의 소장품과 자료를 보관하는 곳이자 순수조형물이다. 모란탑 안에는 루브르 미술관의 주물 아틀리에(L'atelier de moulage du Musée du Louvre)에서 로댕의 원작을 바탕으로 석고 주조한 오귀스트 로댕(Auguste Rodin, 1840-1917)의 (1891~1898) 조각상이 있다. 모란미술관의 야외조각전시장은 8,600여 평에 이르는 넓은 공간으로 국내외 유명 조각가들의 작품이 자연과 함께 어우러져 있어 자연과 예술의 아름다움을 만끽할 수 있다. 또한 다양한 문화행사가 열리는 장으로 시민들을 위한 문화공간으로 활용되고 있다. 모란스페이스(별관)는 문화행사 및 다양한 전시가 가능한 갤러리 공간으로 대관이 가능하며, 모란미술관학교 및 미술관 교육프로그램이 진행되는 공간으로 지역사회 교육발전 시설로 등록되어 운영되고 있다.",
+      "metadata": {
+        "image_copyright": "Type1",
+        "weekday_open": "10:00",
+        "ownership_type": "사립",
+        "source_types": "TOUR_API",
+        "closure_rule_raw": "월+1월 1일+설 연휴+추석 연휴+미술관 지정일",
+        "homepage_url": "http://www.moranmuseum.org/",
+        "youth_fee": 6000.0,
+        "longitude": 127.3237775,
+        "adult_fee_status": "BASE_FEE_PAID",
+        "latitude": 37.6504135,
+        "address": "경기도 남양주시 화도읍 경춘로2110번길 8",
+        "adult_fee": 10000.0,
+        "sido": "경기도",
+        "sigungu": "남양주시",
+        "holiday_close": "18:00",
+        "weekday_close": "18:00",
+        "requires_manual_review": true,
+        "child_fee": 5000.0,
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/88/3590288_image2_1.jpg",
+        "name": "모란미술관",
+        "holiday_open": "10:00"
+      },
+      "vector_rank": 1,
+      "bm25_rank": 1,
+      "vector_distance": 0.3933402895927429,
+      "vector_score": null,
+      "bm25_score": 23.95209182377165,
+      "vector_document": "모란미술관은 경기도 마석에 위치한 사립미술관으로 1990년 4월에 개관했다. 조각전문미술관으로 출발하여 한국 현대조각의 향방을 모색하는 연구와 기획전을 개최해 왔고, 현재에는 조각뿐 아니라 다양한 장르의 동시대 미술을 소개하며 사회와 문화의 예술적 가치를 반영하는 전시를 통해 대중들의 삶 속에 미술문화가 뿌리내릴 수 있도록 하고 있다. 모란미술관 본관은 전시가 열리는 공간으로, 6개의 전시실이 2층으로 구성되어 있다. 건축가 이영범이 설계한 수장고와 모란탑(수장고와 노래하는 탑)은 미국건축가협회(AIA)뉴욕시지부에서 디자인상을 받은 건축물로 미술관의 소장품과 자료를 보관하는 곳이자 순수조형물이다. 모란탑 안에는 루브르 미술관의 주물 아틀리에(L'atelier de moulage du Musée du Louvre)에서 로댕의 원작을 바탕으로 석고 주조한 오귀스트 로댕(Auguste Rodin, 1840-1917)의 (1891~1898) 조각상이 있다. 모란미술관의 야외조각전시장은 8,600여 평에 이르는 넓은 공간으로 국내외 유명 조각가들의 작품이 자연과 함께 어우러져 있어 자연과 예술의 아름다움을 만끽할 수 있다. 또한 다양한 문화행사가 열리는 장으로 시민들을 위한 문화공간으로 활용되고 있다. 모란스페이스(별관)는 문화행사 및 다양한 전시가 가능한 갤러리 공간으로 대관이 가능하며, 모란미술관학교 및 미술관 교육프로그램이 진행되는 공간으로 지역사회 교육발전 시설로 등록되어 운영되고 있다.",
+      "bm25_document": "모란미술관은 경기도 마석에 위치한 사립미술관으로 1990년 4월에 개관했다. 조각전문미술관으로 출발하여 한국 현대조각의 향방을 모색하는 연구와 기획전을 개최해 왔고, 현재에는 조각뿐 아니라 다양한 장르의 동시대 미술을 소개하며 사회와 문화의 예술적 가치를 반영하는 전시를 통해 대중들의 삶 속에 미술문화가 뿌리내릴 수 있도록 하고 있다. 모란미술관 본관은 전시가 열리는 공간으로, 6개의 전시실이 2층으로 구성되어 있다. 건축가 이영범이 설계한 수장고와 모란탑(수장고와 노래하는 탑)은 미국건축가협회(AIA)뉴욕시지부에서 디자인상을 받은 건축물로 미술관의 소장품과 자료를 보관하는 곳이자 순수조형물이다. 모란탑 안에는 루브르 미술관의 주물 아틀리에(L'atelier de moulage du Musée du Louvre)에서 로댕의 원작을 바탕으로 석고 주조한 오귀스트 로댕(Auguste Rodin, 1840-1917)의 (1891~1898) 조각상이 있다. 모란미술관의 야외조각전시장은 8,600여 평에 이르는 넓은 공간으로 국내외 유명 조각가들의 작품이 자연과 함께 어우러져 있어 자연과 예술의 아름다움을 만끽할 수 있다. 또한 다양한 문화행사가 열리는 장으로 시민들을 위한 문화공간으로 활용되고 있다. 모란스페이스(별관)는 문화행사 및 다양한 전시가 가능한 갤러리 공간으로 대관이 가능하며, 모란미술관학교 및 미술관 교육프로그램이 진행되는 공간으로 지역사회 교육발전 시설로 등록되어 운영되고 있다.",
+      "best_span_id": "chroma:M0463",
+      "best_span_text": "모란미술관은 경기도 마석에 위치한 사립미술관으로 1990년 4월에 개관했다. 조각전문미술관으로 출발하여 한국 현대조각의 향방을 모색하는 연구와 기획전을 개최해 왔고, 현재에는 조각뿐 아니라 다양한 장르의 동시대 미술을 소개하며 사회와 문화의 예술적 가치를 반영하는 전시를 통해 대중들의 삶 속에 미술문화가 뿌리내릴 수 있도록 하고 있다. 모란미술관 본관은 전시가 열리는 공간으로, 6개의 전시실이 2층으로 구성되어 있다. 건축가 이영범이 설계한 수장고와 모란탑(수장고와 노래하는 탑)은 미국건축가협회(AIA)뉴욕시지부에서 디자인상을 받은 건축물로 미술관의 소장품과 자료를 보관하는 곳이자 순수조형물이다. 모란탑 안에는 루브르 미술관의 주물 아틀리에(L'atelier de moulage du Musée du Louvre)에서 로댕의 원작을 바탕으로 석고 주조한 오귀스트 로댕(Auguste Rodin, 1840-1917)의 (1891~1898) 조각상이 있다. 모란미술관의 야외조각전시장은 8,600여 평에 이르는 넓은 공간으로 국내외 유명 조각가들의 작품이 자연과 함께 어우러져 있어 자연과 예술의 아름다움을 만끽할 수 있다. 또한 다양한 문화행사가 열리는 장으로 시민들을 위한 문화공간으로 활용되고 있다. 모란스페이스(별관)는 문화행사 및 다양한 전시가 가능한 갤러리 공간으로 대관이 가능하며, 모란미술관학교 및 미술관 교육프로그램이 진행되는 공간으로 지역사회 교육발전 시설로 등록되어 운영되고 있다.",
+      "fusion_score": 0.03278688524590164,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 1,
+      "name_match": true,
+      "rerank_score": null,
+      "rank": 1,
+      "score": 0.03278688524590164,
+      "score_type": "rrf",
+      "distance": 0.3933402895927429,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0463",
+      "source_doc_ids": [
+        "DOC-B0463-TOUR_API-129770"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0463-TOUR_API-129770",
+          "source_type": "TOUR_API",
+          "source_record_id": "129770",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=226",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 42,
+          "doc_ids": [
+            "DOC-B0463-TOUR_API-129770"
+          ]
+        },
+        {
+          "start": 43,
+          "end": 188,
+          "doc_ids": [
+            "DOC-B0463-TOUR_API-129770"
+          ]
+        },
+        {
+          "start": 189,
+          "end": 235,
+          "doc_ids": [
+            "DOC-B0463-TOUR_API-129770"
+          ]
+        },
+        {
+          "start": 236,
+          "end": 337,
+          "doc_ids": [
+            "DOC-B0463-TOUR_API-129770"
+          ]
+        },
+        {
+          "start": 338,
+          "end": 481,
+          "doc_ids": [
+            "DOC-B0463-TOUR_API-129770"
+          ]
+        },
+        {
+          "start": 482,
+          "end": 575,
+          "doc_ids": [
+            "DOC-B0463-TOUR_API-129770"
+          ]
+        },
+        {
+          "start": 576,
+          "end": 620,
+          "doc_ids": [
+            "DOC-B0463-TOUR_API-129770"
+          ]
+        },
+        {
+          "start": 621,
+          "end": 730,
+          "doc_ids": [
+            "DOC-B0463-TOUR_API-129770"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=226",
+      "text": "모란미술관은 경기도 마석에 위치한 사립미술관으로 1990년 4월에 개관했다. 조각전문미술관으로 출발하여 한국 현대조각의 향방을 모색하는 연구와 기획전을 개최해 왔고, 현재에는 조각뿐 아니라 다양한 장르의 동시대 미술을 소개하며 사회와 문화의 예술적 가치를 반영하는 전시를 통해 대중들의 삶 속에 미술문화가 뿌리내릴 수 있도록 하고 있다. 모란미술관 본관은 전시가 열리는 공간으로, 6개의 전시실이 2층으로 구성되어 있다. 건축가 이영범이 설계한 수장고와 모란탑(수장고와 노래하는 탑)은 미국건축가협회(AIA)뉴욕시지부에서 디자인상을 받은 건축물로 미술관의 소장품과 자료를 보관하는 곳이자 순수조형물이다. 모란탑 안에는 루브르 미술관의 주물 아틀리에(L'atelier de moulage du Musée du Louvre)에서 로댕의 원작을 바탕으로 석고 주조한 오귀스트 로댕(Auguste Rodin, 1840-1917)의 (1891~1898) 조각상이 있다. 모란미술관의 야외조각전시장은 8,600여 평에 이르는 넓은 공간으로 국내외 유명 조각가들의 작품이 자연과 함께 어우러져 있어 자연과 예술의 아름다움을 만끽할 수 있다. 또한 다양한 문화행사가 열리는 장으로 시민들을 위한 문화공간으로 활용되고 있다. 모란스페이스(별관)는 문화행사 및 다양한 전시가 가능한 갤러리 공간으로 대관이 가능하며, 모란미술관학교 및 미술관 교육프로그램이 진행되는 공간으로 지역사회 교육발전 시설로 등록되어 운영되고 있다.",
+      "sido": "경기도",
+      "sigungu": "남양주시",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=226"
+      ],
+      "evidence_id": "E1",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=334",
+        "fields": {
+          "name": "모란미술관",
+          "sido": "경기도",
+          "sigungu": "남양주시",
+          "address": "경기도 남양주시 화도읍 경춘로2110번길 8",
+          "ownership_type": "사립",
+          "adult_fee": "10000",
+          "youth_fee": "6000",
+          "child_fee": "5000",
+          "adult_fee_status": "BASE_FEE_PAID",
+          "weekday_open": "10:00",
+          "weekday_close": "18:00",
+          "holiday_open": "10:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "월+1월 1일+설 연휴+추석 연휴+미술관 지정일"
+        },
+        "base_data_date": "2026-04-01",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0629",
+      "name": "성곡미술관",
+      "document": "성곡미술관은 1995년 개관한 공익 미술관으로 한국 현대미술의 발전과 문화 예술 저변 확대를 위해 다양한 전시와 작가 지원 사업을 이어오고 있다. 전통적인 한국의 미감과 정신을 현대적으로 재해석한 기획전은 물론, 국내외 현대미술을 아우르는 개인전과 국제전을 꾸준히 선보이며 신진 작가 발굴과 국제 미술 교류에도 힘쓰고 있다. 본관과 별관, 조각공원으로 이루어져 있으며 자연 속 야외 조각 작품을 감상하며 산책을 즐길 수 있다. 관람객을 위한 아트숍과 카페도 함께 운영해 전시와 휴식을 동시에 즐길 수 있으며 다양한 교육·큐레이터 프로그램을 통해 현대미술을 보다 쉽고 깊이 이해할 수 있는 문화 예술 공간으로 자리매김하고 있다.",
+      "metadata": {
+        "child_fee": 2000.0,
+        "adult_fee_status": "BASE_FEE_PAID",
+        "longitude": 126.969703,
+        "requires_manual_review": true,
+        "sido": "서울특별시",
+        "youth_fee": 3000.0,
+        "name": "성곡미술관",
+        "homepage_url": "http://www.sungkokmuseum.org/",
+        "sigungu": "종로구",
+        "source_types": "TOUR_API",
+        "holiday_close": "18:00",
+        "ownership_type": "사립",
+        "weekday_open": "10:00",
+        "holiday_open": "10:00",
+        "weekday_close": "18:00",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/31/3487031_image2_1.png",
+        "image_copyright": "Type3",
+        "closure_rule_raw": "월요일",
+        "latitude": 37.57350943,
+        "address": "서울특별시 종로구 경희궁길 42",
+        "adult_fee": 5000.0
+      },
+      "vector_rank": 4,
+      "bm25_rank": 3,
+      "vector_distance": 0.48151594400405884,
+      "vector_score": null,
+      "bm25_score": 13.156423559057668,
+      "vector_document": "성곡미술관은 1995년 개관한 공익 미술관으로 한국 현대미술의 발전과 문화 예술 저변 확대를 위해 다양한 전시와 작가 지원 사업을 이어오고 있다. 전통적인 한국의 미감과 정신을 현대적으로 재해석한 기획전은 물론, 국내외 현대미술을 아우르는 개인전과 국제전을 꾸준히 선보이며 신진 작가 발굴과 국제 미술 교류에도 힘쓰고 있다. 본관과 별관, 조각공원으로 이루어져 있으며 자연 속 야외 조각 작품을 감상하며 산책을 즐길 수 있다. 관람객을 위한 아트숍과 카페도 함께 운영해 전시와 휴식을 동시에 즐길 수 있으며 다양한 교육·큐레이터 프로그램을 통해 현대미술을 보다 쉽고 깊이 이해할 수 있는 문화 예술 공간으로 자리매김하고 있다.",
+      "bm25_document": "성곡미술관은 1995년 개관한 공익 미술관으로 한국 현대미술의 발전과 문화 예술 저변 확대를 위해 다양한 전시와 작가 지원 사업을 이어오고 있다. 전통적인 한국의 미감과 정신을 현대적으로 재해석한 기획전은 물론, 국내외 현대미술을 아우르는 개인전과 국제전을 꾸준히 선보이며 신진 작가 발굴과 국제 미술 교류에도 힘쓰고 있다. 본관과 별관, 조각공원으로 이루어져 있으며 자연 속 야외 조각 작품을 감상하며 산책을 즐길 수 있다. 관람객을 위한 아트숍과 카페도 함께 운영해 전시와 휴식을 동시에 즐길 수 있으며 다양한 교육·큐레이터 프로그램을 통해 현대미술을 보다 쉽고 깊이 이해할 수 있는 문화 예술 공간으로 자리매김하고 있다.",
+      "best_span_id": "chroma:M0629",
+      "best_span_text": "성곡미술관은 1995년 개관한 공익 미술관으로 한국 현대미술의 발전과 문화 예술 저변 확대를 위해 다양한 전시와 작가 지원 사업을 이어오고 있다. 전통적인 한국의 미감과 정신을 현대적으로 재해석한 기획전은 물론, 국내외 현대미술을 아우르는 개인전과 국제전을 꾸준히 선보이며 신진 작가 발굴과 국제 미술 교류에도 힘쓰고 있다. 본관과 별관, 조각공원으로 이루어져 있으며 자연 속 야외 조각 작품을 감상하며 산책을 즐길 수 있다. 관람객을 위한 아트숍과 카페도 함께 운영해 전시와 휴식을 동시에 즐길 수 있으며 다양한 교육·큐레이터 프로그램을 통해 현대미술을 보다 쉽고 깊이 이해할 수 있는 문화 예술 공간으로 자리매김하고 있다.",
+      "fusion_score": 0.03149801587301587,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 2,
+      "rerank_score": null,
+      "rank": 2,
+      "score": 0.03149801587301587,
+      "score_type": "rrf",
+      "distance": 0.48151594400405884,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0629",
+      "source_doc_ids": [
+        "DOC-B0629-TOUR_API-130154"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0629-TOUR_API-130154",
+          "source_type": "TOUR_API",
+          "source_record_id": "130154",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=314",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 81,
+          "doc_ids": [
+            "DOC-B0629-TOUR_API-130154"
+          ]
+        },
+        {
+          "start": 82,
+          "end": 181,
+          "doc_ids": [
+            "DOC-B0629-TOUR_API-130154"
+          ]
+        },
+        {
+          "start": 182,
+          "end": 238,
+          "doc_ids": [
+            "DOC-B0629-TOUR_API-130154"
+          ]
+        },
+        {
+          "start": 239,
+          "end": 350,
+          "doc_ids": [
+            "DOC-B0629-TOUR_API-130154"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=314",
+      "text": "성곡미술관은 1995년 개관한 공익 미술관으로 한국 현대미술의 발전과 문화 예술 저변 확대를 위해 다양한 전시와 작가 지원 사업을 이어오고 있다. 전통적인 한국의 미감과 정신을 현대적으로 재해석한 기획전은 물론, 국내외 현대미술을 아우르는 개인전과 국제전을 꾸준히 선보이며 신진 작가 발굴과 국제 미술 교류에도 힘쓰고 있다. 본관과 별관, 조각공원으로 이루어져 있으며 자연 속 야외 조각 작품을 감상하며 산책을 즐길 수 있다. 관람객을 위한 아트숍과 카페도 함께 운영해 전시와 휴식을 동시에 즐길 수 있으며 다양한 교육·큐레이터 프로그램을 통해 현대미술을 보다 쉽고 깊이 이해할 수 있는 문화 예술 공간으로 자리매김하고 있다.",
+      "sido": "서울특별시",
+      "sigungu": "종로구",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=314"
+      ],
+      "evidence_id": "E2",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=438",
+        "fields": {
+          "name": "성곡미술관",
+          "sido": "서울특별시",
+          "sigungu": "종로구",
+          "address": "서울특별시 종로구 경희궁길 42",
+          "ownership_type": "사립",
+          "adult_fee": "5000",
+          "youth_fee": "3000",
+          "child_fee": "2000",
+          "adult_fee_status": "BASE_FEE_PAID",
+          "weekday_open": "10:00",
+          "weekday_close": "18:00",
+          "holiday_open": "10:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "월요일"
+        },
+        "base_data_date": "2025-11-01",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0854",
+      "name": "한미사진미술관",
+      "document": "한미사진미술관은 전시를 비롯하여 작가지원 및 학술, 출판, 국제 교류 등의 활동을 하는 한편, 사진문화예술의 활성화를 위해 활동하는 문화예술 단체들을 후원함으로서 상호협력체계를 형성하고 함께 성장할 수 있는 기회를 가지는데 목적이 있습니다. 특히, 한국 근·현대사진을 소장 및 연구함으로서 한국사진사의 체계화를 위해 노력하고 있습니다",
+      "metadata": {
+        "holiday_open": "11:00",
+        "name": "한미사진미술관",
+        "adult_fee_status": "BASE_FEE_PAID",
+        "sido": "서울특별시",
+        "longitude": 127.1139562,
+        "transport_notes": "지하철 :8호선 몽촌토성역 2번 출구 50m 직진 올림픽 공원 평화의 문 맞은편 한미타워 19+20층버스 : 30+30-5+333+3412+3413 _ 올릭픽공원역 하차",
+        "latitude": 37.51659259,
+        "closure_rule_raw": "매주일요일",
+        "holiday_close": "18:30",
+        "requires_manual_review": false,
+        "weekday_open": "10:00",
+        "homepage_url": "http://www.photomuseum.or.kr/",
+        "sigungu": "송파구",
+        "weekday_close": "19:00",
+        "fee_notes": "1000원 할인(10인 이상 단체 (* 관람료는 전시에 따라 달라집니다.))+할인(사진전공 학생+송파구민(신분증 확인))+무료(10인이상 경로단체(65세 이상)+장애우+미취학 아동+국가유공자)",
+        "child_fee": 0.0,
+        "youth_fee": 5000.0,
+        "adult_fee": 6000.0,
+        "source_types": "BASE",
+        "amenities_raw": "미술관",
+        "ownership_type": "사립",
+        "address": "서울특별시 송파구 위례성대로14, 한미타워 19.20층"
+      },
+      "vector_rank": 2,
+      "bm25_rank": 7,
+      "vector_distance": 0.4591590166091919,
+      "vector_score": null,
+      "bm25_score": 12.083609970735012,
+      "vector_document": "한미사진미술관은 전시를 비롯하여 작가지원 및 학술, 출판, 국제 교류 등의 활동을 하는 한편, 사진문화예술의 활성화를 위해 활동하는 문화예술 단체들을 후원함으로서 상호협력체계를 형성하고 함께 성장할 수 있는 기회를 가지는데 목적이 있습니다. 특히, 한국 근·현대사진을 소장 및 연구함으로서 한국사진사의 체계화를 위해 노력하고 있습니다",
+      "bm25_document": "한미사진미술관은 전시를 비롯하여 작가지원 및 학술, 출판, 국제 교류 등의 활동을 하는 한편, 사진문화예술의 활성화를 위해 활동하는 문화예술 단체들을 후원함으로서 상호협력체계를 형성하고 함께 성장할 수 있는 기회를 가지는데 목적이 있습니다. 특히, 한국 근·현대사진을 소장 및 연구함으로서 한국사진사의 체계화를 위해 노력하고 있습니다",
+      "best_span_id": "chroma:M0854",
+      "best_span_text": "한미사진미술관은 전시를 비롯하여 작가지원 및 학술, 출판, 국제 교류 등의 활동을 하는 한편, 사진문화예술의 활성화를 위해 활동하는 문화예술 단체들을 후원함으로서 상호협력체계를 형성하고 함께 성장할 수 있는 기회를 가지는데 목적이 있습니다. 특히, 한국 근·현대사진을 소장 및 연구함으로서 한국사진사의 체계화를 위해 노력하고 있습니다",
+      "fusion_score": 0.031054405392392875,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 3,
+      "rerank_score": null,
+      "rank": 3,
+      "score": 0.031054405392392875,
+      "score_type": "rrf",
+      "distance": 0.4591590166091919,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0854",
+      "source_doc_ids": [
+        "DOC-B0854-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0854-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0854",
+          "source_locator": "data/raw/museum_base_1070.csv#row=855",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 134,
+          "doc_ids": [
+            "DOC-B0854-BASE"
+          ]
+        },
+        {
+          "start": 135,
+          "end": 186,
+          "doc_ids": [
+            "DOC-B0854-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_base_1070.csv#row=855",
+      "text": "한미사진미술관은 전시를 비롯하여 작가지원 및 학술, 출판, 국제 교류 등의 활동을 하는 한편, 사진문화예술의 활성화를 위해 활동하는 문화예술 단체들을 후원함으로서 상호협력체계를 형성하고 함께 성장할 수 있는 기회를 가지는데 목적이 있습니다. 특히, 한국 근·현대사진을 소장 및 연구함으로서 한국사진사의 체계화를 위해 노력하고 있습니다",
+      "sido": "서울특별시",
+      "sigungu": "송파구",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_base_1070.csv#row=855"
+      ],
+      "evidence_id": "E3",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=577",
+        "fields": {
+          "name": "한미사진미술관",
+          "sido": "서울특별시",
+          "sigungu": "송파구",
+          "address": "서울특별시 송파구 위례성대로14, 한미타워 19.20층",
+          "ownership_type": "사립",
+          "adult_fee": "6000",
+          "youth_fee": "5000",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_PAID",
+          "weekday_open": "10:00",
+          "weekday_close": "19:00",
+          "holiday_open": "11:00",
+          "holiday_close": "18:30",
+          "closure_rule_raw": "매주일요일",
+          "amenities_raw": "미술관"
+        },
+        "base_data_date": "2023-01-11",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0550",
+      "name": "영은미술관",
+      "document": "영은미술관은 한국 문화예술 창작활동을 지원하고자 설립된 대유문화재단을 모태로 2000년 11월 개관했다. 경기도 광주시 경안 천변의 수려한 자연환경 속에 위치한 이곳은 동시대 현대미술 작품을 소장, 연구, 전시하는 현대미술관과 창작스튜디오를 중심으로 운영되고 있다. 복합문화공간을 지향하는 영은미술관은 조형예술의 틀을 넘어 형식과 내용이 공존·교차하는 예술적 시도를 이어가며, 예술의 대중적 기반을 넓혀가는 동시에 예술의 대중화에 기여하고자 한다. 기획전과 개인전을 통해 국내외 현대미술 주요 작가의 작품을 소개하고, 동시대 미술의 흐름과 함께 경험할 수 있도록 한다. 또한, 전시와 연계된 세미나, 워크숍 등을 개최하여 현대미술의 주요 쟁점과 논제에 대한 활발한 담론을 형성해 나가고 있다. 동시대 현대미술 작품을 소장, 전시하는 현대미술관과 국내 초유의 창작스튜디오를 겸비한 복합문화공간이다.",
+      "metadata": {
+        "address": "경기도 광주시 청석로 300(쌍령동)",
+        "longitude": 127.268748,
+        "requires_manual_review": true,
+        "adult_fee_status": "BASE_FEE_PAID",
+        "weekday_close": "18:00",
+        "sigungu": "광주시",
+        "image_copyright": "Type3",
+        "child_fee": 5000.0,
+        "youth_fee": 7000.0,
+        "sido": "경기도",
+        "homepage_url": "https://www.youngeunmuseum.org/",
+        "latitude": 37.41355842,
+        "weekday_open": "10:00",
+        "source_types": "BASE|TOUR_API",
+        "adult_fee": 10000.0,
+        "name": "영은미술관",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/77/4098677_image2_1.jpg",
+        "holiday_open": "10:00",
+        "holiday_close": "18:00",
+        "ownership_type": "사립",
+        "closure_rule_raw": "월요일+화요일+신정+설연휴+추석연휴+1.1.~3.20."
+      },
+      "vector_rank": 17,
+      "bm25_rank": 4,
+      "vector_distance": 0.5337464809417725,
+      "vector_score": null,
+      "bm25_score": 12.764814951550738,
+      "vector_document": "영은미술관은 한국 문화예술 창작활동을 지원하고자 설립된 대유문화재단을 모태로 2000년 11월 개관했다. 경기도 광주시 경안 천변의 수려한 자연환경 속에 위치한 이곳은 동시대 현대미술 작품을 소장, 연구, 전시하는 현대미술관과 창작스튜디오를 중심으로 운영되고 있다. 복합문화공간을 지향하는 영은미술관은 조형예술의 틀을 넘어 형식과 내용이 공존·교차하는 예술적 시도를 이어가며, 예술의 대중적 기반을 넓혀가는 동시에 예술의 대중화에 기여하고자 한다. 기획전과 개인전을 통해 국내외 현대미술 주요 작가의 작품을 소개하고, 동시대 미술의 흐름과 함께 경험할 수 있도록 한다. 또한, 전시와 연계된 세미나, 워크숍 등을 개최하여 현대미술의 주요 쟁점과 논제에 대한 활발한 담론을 형성해 나가고 있다. 동시대 현대미술 작품을 소장, 전시하는 현대미술관과 국내 초유의 창작스튜디오를 겸비한 복합문화공간이다.",
+      "bm25_document": "영은미술관은 한국 문화예술 창작활동을 지원하고자 설립된 대유문화재단을 모태로 2000년 11월 개관했다. 경기도 광주시 경안 천변의 수려한 자연환경 속에 위치한 이곳은 동시대 현대미술 작품을 소장, 연구, 전시하는 현대미술관과 창작스튜디오를 중심으로 운영되고 있다. 복합문화공간을 지향하는 영은미술관은 조형예술의 틀을 넘어 형식과 내용이 공존·교차하는 예술적 시도를 이어가며, 예술의 대중적 기반을 넓혀가는 동시에 예술의 대중화에 기여하고자 한다. 기획전과 개인전을 통해 국내외 현대미술 주요 작가의 작품을 소개하고, 동시대 미술의 흐름과 함께 경험할 수 있도록 한다. 또한, 전시와 연계된 세미나, 워크숍 등을 개최하여 현대미술의 주요 쟁점과 논제에 대한 활발한 담론을 형성해 나가고 있다. 동시대 현대미술 작품을 소장, 전시하는 현대미술관과 국내 초유의 창작스튜디오를 겸비한 복합문화공간이다.",
+      "best_span_id": "chroma:M0550",
+      "best_span_text": "영은미술관은 한국 문화예술 창작활동을 지원하고자 설립된 대유문화재단을 모태로 2000년 11월 개관했다. 경기도 광주시 경안 천변의 수려한 자연환경 속에 위치한 이곳은 동시대 현대미술 작품을 소장, 연구, 전시하는 현대미술관과 창작스튜디오를 중심으로 운영되고 있다. 복합문화공간을 지향하는 영은미술관은 조형예술의 틀을 넘어 형식과 내용이 공존·교차하는 예술적 시도를 이어가며, 예술의 대중적 기반을 넓혀가는 동시에 예술의 대중화에 기여하고자 한다. 기획전과 개인전을 통해 국내외 현대미술 주요 작가의 작품을 소개하고, 동시대 미술의 흐름과 함께 경험할 수 있도록 한다. 또한, 전시와 연계된 세미나, 워크숍 등을 개최하여 현대미술의 주요 쟁점과 논제에 대한 활발한 담론을 형성해 나가고 있다. 동시대 현대미술 작품을 소장, 전시하는 현대미술관과 국내 초유의 창작스튜디오를 겸비한 복합문화공간이다.",
+      "fusion_score": 0.028612012987012988,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 4,
+      "rerank_score": null,
+      "rank": 4,
+      "score": 0.028612012987012988,
+      "score_type": "rrf",
+      "distance": 0.5337464809417725,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0550",
+      "source_doc_ids": [
+        "DOC-B0550-TOUR_API-130412",
+        "DOC-B0550-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0550-TOUR_API-130412",
+          "source_type": "TOUR_API",
+          "source_record_id": "130412",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=272",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        },
+        {
+          "doc_id": "DOC-B0550-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0550",
+          "source_locator": "data/raw/museum_base_1070.csv#row=551",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 58,
+          "doc_ids": [
+            "DOC-B0550-TOUR_API-130412"
+          ]
+        },
+        {
+          "start": 59,
+          "end": 148,
+          "doc_ids": [
+            "DOC-B0550-TOUR_API-130412"
+          ]
+        },
+        {
+          "start": 149,
+          "end": 250,
+          "doc_ids": [
+            "DOC-B0550-TOUR_API-130412"
+          ]
+        },
+        {
+          "start": 251,
+          "end": 318,
+          "doc_ids": [
+            "DOC-B0550-TOUR_API-130412"
+          ]
+        },
+        {
+          "start": 319,
+          "end": 387,
+          "doc_ids": [
+            "DOC-B0550-TOUR_API-130412"
+          ]
+        },
+        {
+          "start": 388,
+          "end": 445,
+          "doc_ids": [
+            "DOC-B0550-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=272",
+      "text": "영은미술관은 한국 문화예술 창작활동을 지원하고자 설립된 대유문화재단을 모태로 2000년 11월 개관했다. 경기도 광주시 경안 천변의 수려한 자연환경 속에 위치한 이곳은 동시대 현대미술 작품을 소장, 연구, 전시하는 현대미술관과 창작스튜디오를 중심으로 운영되고 있다. 복합문화공간을 지향하는 영은미술관은 조형예술의 틀을 넘어 형식과 내용이 공존·교차하는 예술적 시도를 이어가며, 예술의 대중적 기반을 넓혀가는 동시에 예술의 대중화에 기여하고자 한다. 기획전과 개인전을 통해 국내외 현대미술 주요 작가의 작품을 소개하고, 동시대 미술의 흐름과 함께 경험할 수 있도록 한다. 또한, 전시와 연계된 세미나, 워크숍 등을 개최하여 현대미술의 주요 쟁점과 논제에 대한 활발한 담론을 형성해 나가고 있다. 동시대 현대미술 작품을 소장, 전시하는 현대미술관과 국내 초유의 창작스튜디오를 겸비한 복합문화공간이다.",
+      "sido": "경기도",
+      "sigungu": "광주시",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=272"
+      ],
+      "evidence_id": "E4",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=387",
+        "fields": {
+          "name": "영은미술관",
+          "sido": "경기도",
+          "sigungu": "광주시",
+          "address": "경기도 광주시 청석로 300(쌍령동)",
+          "ownership_type": "사립",
+          "adult_fee": "10000",
+          "youth_fee": "7000",
+          "child_fee": "5000",
+          "adult_fee_status": "BASE_FEE_PAID",
+          "weekday_open": "10:00",
+          "weekday_close": "18:00",
+          "holiday_open": "10:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "월요일+화요일+신정+설연휴+추석연휴+1.1.~3.20."
+        },
+        "base_data_date": "2026-02-04",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0172",
+      "name": "양주시립장욱진미술관",
+      "document": "양주시립장욱진미술관은 한국 근현대미술을 대표하는 장욱진의 업적과 정신을 기리며, 한국현대미술의 발전에 이바지하는 미술작품과 자료를 전시, 연구, 수집을 목적으로 합니다.",
+      "metadata": {
+        "sigungu": "양주시",
+        "weekday_open": "10:00",
+        "closure_rule_raw": "월+1월 1일+설 당일+추석 당일",
+        "sido": "경기도",
+        "holiday_open": "10:00",
+        "child_fee": 1000.0,
+        "weekday_close": "18:00",
+        "youth_fee": 1000.0,
+        "homepage_url": "http://changucchin.yangju.go.kr/",
+        "adult_fee": 5000.0,
+        "address": "경기도 양주시 장흥면 권율로 193",
+        "name": "양주시립장욱진미술관",
+        "latitude": 37.73281632,
+        "longitude": 126.9492504,
+        "fee_notes": "50프로할인(양주시민(신분증 소지자))+무료(7세 이하+65세 이상+국가유공자+장애인(1~3등급))",
+        "adult_fee_status": "BASE_FEE_PAID",
+        "source_types": "BASE",
+        "ownership_type": "공립",
+        "holiday_close": "18:00",
+        "requires_manual_review": true
+      },
+      "vector_rank": 13,
+      "bm25_rank": 9,
+      "vector_distance": 0.5243456959724426,
+      "vector_score": null,
+      "bm25_score": 12.018898823408072,
+      "vector_document": "양주시립장욱진미술관은 한국 근현대미술을 대표하는 장욱진의 업적과 정신을 기리며, 한국현대미술의 발전에 이바지하는 미술작품과 자료를 전시, 연구, 수집을 목적으로 합니다.",
+      "bm25_document": "양주시립장욱진미술관은 한국 근현대미술을 대표하는 장욱진의 업적과 정신을 기리며, 한국현대미술의 발전에 이바지하는 미술작품과 자료를 전시, 연구, 수집을 목적으로 합니다.",
+      "best_span_id": "chroma:M0172",
+      "best_span_text": "양주시립장욱진미술관은 한국 근현대미술을 대표하는 장욱진의 업적과 정신을 기리며, 한국현대미술의 발전에 이바지하는 미술작품과 자료를 전시, 연구, 수집을 목적으로 합니다.",
+      "fusion_score": 0.02819138376017471,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 5,
+      "rerank_score": null,
+      "rank": 5,
+      "score": 0.02819138376017471,
+      "score_type": "rrf",
+      "distance": 0.5243456959724426,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0172",
+      "source_doc_ids": [
+        "DOC-B0172-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0172-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0172",
+          "source_locator": "data/raw/museum_base_1070.csv#row=173",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 94,
+          "doc_ids": [
+            "DOC-B0172-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_base_1070.csv#row=173",
+      "text": "양주시립장욱진미술관은 한국 근현대미술을 대표하는 장욱진의 업적과 정신을 기리며, 한국현대미술의 발전에 이바지하는 미술작품과 자료를 전시, 연구, 수집을 목적으로 합니다.",
+      "sido": "경기도",
+      "sigungu": "양주시",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_base_1070.csv#row=173"
+      ],
+      "evidence_id": "E5",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=113",
+        "fields": {
+          "name": "양주시립장욱진미술관",
+          "sido": "경기도",
+          "sigungu": "양주시",
+          "address": "경기도 양주시 장흥면 권율로 193",
+          "ownership_type": "공립",
+          "adult_fee": "5000",
+          "youth_fee": "1000",
+          "child_fee": "1000",
+          "adult_fee_status": "BASE_FEE_PAID",
+          "weekday_open": "10:00",
+          "weekday_close": "18:00",
+          "holiday_open": "10:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "월+1월 1일+설 당일+추석 당일"
+        },
+        "base_data_date": "2026-08-18",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    }
+  ],
+  "answer": "모란미술관은 조각전문미술관으로 출발해 한국 현대조각의 향방을 모색하는 연구를 해 왔으며, 관련 기획전도 개최해 왔습니다. [E1] 이후에는 조각에만 한정하지 않고 다양한 장르의 동시대 미술을 소개하며, 사회·문화의 예술적 가치를 반영하는 전시를 이어가고 있습니다. [E1]",
+  "retrieval_status": "ok",
+  "answer_status": "answered",
+  "route": "hybrid",
+  "retry_count": 0,
+  "supervisor_verified": true,
+  "rerank_applied": false,
+  "retriever_errors": [],
+  "warnings": [
+    "Cross-Encoder reranking failed (FileNotFoundError); RRF order retained"
+  ],
+  "duration_ms": 11403.21,
+  "error_type": "",
+  "hit_at_1": 1,
+  "hit_at_3": 1,
+  "hit_at_5": 1,
+  "recall_at_5": 1.0,
+  "mrr_at_10": 1.0
+}

@@ -1,0 +1,95 @@
+{
+  "evidence_context_version": "grounded-evidence-v2",
+  "evaluation_contexts": [
+    "{\"evidence_context_version\": \"grounded-evidence-v2\", \"evidence_id\": \"E1\", \"evidence_role\": \"anchor\", \"museum_id\": \"M0114\", \"name\": \"남해탈공연박물관\", \"operator_raw_name\": \"경상남도 남해군청\", \"org_type\": \"지방자치단체\", \"organization\": \"경상남도 남해군\", \"relation\": \"OPERATED_BY\", \"sido\": \"경상남도\", \"sigungu\": \"남해군\", \"source_doc_ids\": [\"DOC-B0114-TOUR_API-1267185\"], \"source_locator\": \"data/raw/museum_tourapi_with_overview.csv#row=58\", \"source_locators\": [\"data/raw/museum_tourapi_with_overview.csv#row=58\"], \"source_scope\": \"graph_properties\", \"source_urls\": [], \"text\": \"남해탈공연박물관의 Neo4j operator_name(운영기관) 기록: 경상남도 남해군 (CSV 원문: 경상남도 남해군청)\\n[Neo4j 구조화 근거] {\\\"museum_id\\\": \\\"M0114\\\", \\\"name\\\": \\\"남해탈공연박물관\\\", \\\"relation\\\": \\\"OPERATED_BY\\\", \\\"organization\\\": \\\"경상남도 남해군\\\", \\\"org_key\\\": \\\"경상남도남해군\\\", \\\"org_type\\\": \\\"지방자치단체\\\", \\\"raw_name\\\": \\\"경상남도 남해군청\\\", \\\"verification_status\\\": \\\"SOURCE_RECORDED\\\"}\", \"verification_status\": \"SOURCE_RECORDED\"}",
+    "{\"anchor_operator_raw_name\": \"경상남도 남해군청\", \"evidence_context_version\": \"grounded-evidence-v2\", \"evidence_id\": \"E2\", \"facility_type\": \"문학관\", \"graph_path\": \"anchor -[:OPERATED_BY]-> Organization <-[:OPERATED_BY]- candidate\", \"museum_id\": \"M0115\", \"name\": \"남해유배문학관\", \"operator_raw_name\": \"경상남도 남해군청\", \"org_type\": \"지방자치단체\", \"organization\": \"경상남도 남해군\", \"relation\": \"OPERATED_BY\", \"sido\": \"경상남도\", \"sigungu\": \"남해군\", \"source_doc_ids\": [\"DOC-B0115-BASE\", \"DOC-B0115-TOUR_API-1267091\"], \"source_locator\": \"data/raw/museum_base_1070.csv#row=116\", \"source_locators\": [\"data/raw/museum_base_1070.csv#row=116\", \"data/raw/museum_tourapi_with_overview.csv#row=59\"], \"source_scope\": \"graph_properties\", \"source_urls\": [], \"text\": \"{anchor_raw_name: 경상남도 남해군청, candidate_raw_name: 경상남도 남해군청, org_key: 경상남도남해군, organization: 경상남도 남해군, relation: OPERATED_BY, verification_status: SOURCE_RECORDED}\", \"verification_status\": \"SOURCE_RECORDED\"}"
+  ],
+  "mode": "supervisor_full",
+  "question_id": "V2-OO04",
+  "evidence": [
+    {
+      "museum_id": "M0114",
+      "name": "남해탈공연박물관",
+      "text": "남해탈공연박물관의 Neo4j operator_name(운영기관) 기록: 경상남도 남해군 (CSV 원문: 경상남도 남해군청)\n[Neo4j 구조화 근거] {\"museum_id\": \"M0114\", \"name\": \"남해탈공연박물관\", \"relation\": \"OPERATED_BY\", \"organization\": \"경상남도 남해군\", \"org_key\": \"경상남도남해군\", \"org_type\": \"지방자치단체\", \"raw_name\": \"경상남도 남해군청\", \"verification_status\": \"SOURCE_RECORDED\"}",
+      "span_id": "",
+      "source_doc_ids": [
+        "DOC-B0114-TOUR_API-1267185"
+      ],
+      "source_urls": [],
+      "source_url": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=58"
+      ],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=58",
+      "sido": "경상남도",
+      "sigungu": "남해군",
+      "retriever": "graph",
+      "evidence_role": "anchor",
+      "source_scope": "graph_properties",
+      "relation": "OPERATED_BY",
+      "organization": "경상남도 남해군",
+      "org_type": "지방자치단체",
+      "operator_raw_name": "경상남도 남해군청",
+      "verification_status": "SOURCE_RECORDED",
+      "metadata": {},
+      "chunk_id": "",
+      "retrievers": [
+        "graph"
+      ],
+      "evidence_id": "E1",
+      "rank": 1
+    },
+    {
+      "museum_id": "M0115",
+      "name": "남해유배문학관",
+      "text": "{anchor_raw_name: 경상남도 남해군청, candidate_raw_name: 경상남도 남해군청, org_key: 경상남도남해군, organization: 경상남도 남해군, relation: OPERATED_BY, verification_status: SOURCE_RECORDED}",
+      "span_id": "",
+      "source_doc_ids": [
+        "DOC-B0115-BASE",
+        "DOC-B0115-TOUR_API-1267091"
+      ],
+      "source_urls": [],
+      "source_url": "",
+      "source_locators": [
+        "data/raw/museum_base_1070.csv#row=116",
+        "data/raw/museum_tourapi_with_overview.csv#row=59"
+      ],
+      "source_locator": "data/raw/museum_base_1070.csv#row=116",
+      "sido": "경상남도",
+      "sigungu": "남해군",
+      "retriever": "graph",
+      "graph_path": "anchor -[:OPERATED_BY]-> Organization <-[:OPERATED_BY]- candidate",
+      "organization": "경상남도 남해군",
+      "org_type": "지방자치단체",
+      "operator_raw_name": "경상남도 남해군청",
+      "anchor_operator_raw_name": "경상남도 남해군청",
+      "relation": "OPERATED_BY",
+      "verification_status": "SOURCE_RECORDED",
+      "facility_type": "문학관",
+      "source_scope": "graph_properties",
+      "metadata": {},
+      "chunk_id": "",
+      "retrievers": [
+        "graph"
+      ],
+      "evidence_id": "E2",
+      "rank": 2
+    }
+  ],
+  "answer": "남해탈공연박물관의 운영기관은 경상남도 남해군이며[E1], 같은 기관이 운영하는 다른 시설로 남해유배문학관이 기록되어 있습니다[E2].",
+  "retrieval_status": "ok",
+  "answer_status": "answered",
+  "route": "graph",
+  "retry_count": 0,
+  "supervisor_verified": true,
+  "rerank_applied": false,
+  "retriever_errors": [],
+  "warnings": [],
+  "duration_ms": 70664.96,
+  "error_type": "",
+  "hit_at_1": 1,
+  "hit_at_3": 1,
+  "hit_at_5": 1,
+  "recall_at_5": 1.0,
+  "mrr_at_10": 1.0
+}

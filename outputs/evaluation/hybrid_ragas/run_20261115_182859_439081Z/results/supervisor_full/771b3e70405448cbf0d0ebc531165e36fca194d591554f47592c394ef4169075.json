@@ -1,0 +1,23 @@
+{
+  "evidence_context_version": "grounded-evidence-v2",
+  "evaluation_contexts": [],
+  "mode": "supervisor_full",
+  "question_id": "V2-EH01",
+  "evidence": [],
+  "answer": "확인 가능한 근거가 부족하여 답변을 보류했습니다.",
+  "retrieval_status": "no_results",
+  "answer_status": "abstained",
+  "route": "graph",
+  "retry_count": 1,
+  "supervisor_verified": false,
+  "rerank_applied": false,
+  "retriever_errors": [],
+  "warnings": [],
+  "duration_ms": 113364.25,
+  "error_type": "",
+  "hit_at_1": 0,
+  "hit_at_3": 0,
+  "hit_at_5": 0,
+  "recall_at_5": 0.0,
+  "mrr_at_10": 0.0
+}

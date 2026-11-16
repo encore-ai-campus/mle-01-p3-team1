@@ -1,0 +1,643 @@
+{
+  "mode": "supervisor_full",
+  "question_id": "Q151",
+  "evidence": [
+    {
+      "museum_id": "M0248",
+      "name": "한국금융사박물관",
+      "document": "한국금융사박물관은 우리나라 금융 발전사에 대한 이해를 돕고자 1997년 신한은행이 설립한 국내 최초의 금융사 전문 박물관이다. 화폐 등 국내 금융사에 관련된 약 6,500여 점의 유물을 소장하고 있으며, 유물의 수집·관리와 연구, 다양한 기획 전시, 전문적인 금융 교육을 지속하고 있다. 향후에도 다양한 사료를 수집하고 관리하며, 쉽고 재미있게 배우는 경제 교육을 운영하는 종합문화공간으로서 우리나라의 금융사를 알리는 데 최선을 다하고자 한다.",
+      "metadata": {
+        "source_types": "TOUR_API",
+        "latitude": 37.568592,
+        "sigungu": "중구",
+        "sido": "서울특별시",
+        "ownership_type": "사립",
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "name": "한국금융사박물관",
+        "weekday_open": "10:00",
+        "holiday_open": "00:00",
+        "image_copyright": "Type1",
+        "closure_rule_raw": "일요일+공휴일",
+        "requires_manual_review": true,
+        "child_fee": 0.0,
+        "address": "서울특별시 중구 세종대로 135-5",
+        "homepage_url": "http://www.beautifulshinhan.co.kr",
+        "adult_fee": 0.0,
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/92/4101292_image2_1.jpg",
+        "weekday_close": "18:00",
+        "longitude": 126.97643,
+        "holiday_close": "00:00",
+        "youth_fee": 0.0
+      },
+      "vector_rank": 1,
+      "bm25_rank": 1,
+      "vector_distance": 0.43162351846694946,
+      "vector_score": null,
+      "bm25_score": 13.232532862529158,
+      "vector_document": "한국금융사박물관은 우리나라 금융 발전사에 대한 이해를 돕고자 1997년 신한은행이 설립한 국내 최초의 금융사 전문 박물관이다. 화폐 등 국내 금융사에 관련된 약 6,500여 점의 유물을 소장하고 있으며, 유물의 수집·관리와 연구, 다양한 기획 전시, 전문적인 금융 교육을 지속하고 있다. 향후에도 다양한 사료를 수집하고 관리하며, 쉽고 재미있게 배우는 경제 교육을 운영하는 종합문화공간으로서 우리나라의 금융사를 알리는 데 최선을 다하고자 한다.",
+      "bm25_document": "한국금융사박물관은 우리나라 금융 발전사에 대한 이해를 돕고자 1997년 신한은행이 설립한 국내 최초의 금융사 전문 박물관이다. 화폐 등 국내 금융사에 관련된 약 6,500여 점의 유물을 소장하고 있으며, 유물의 수집·관리와 연구, 다양한 기획 전시, 전문적인 금융 교육을 지속하고 있다. 향후에도 다양한 사료를 수집하고 관리하며, 쉽고 재미있게 배우는 경제 교육을 운영하는 종합문화공간으로서 우리나라의 금융사를 알리는 데 최선을 다하고자 한다.",
+      "best_span_id": "chroma:M0248",
+      "best_span_text": "한국금융사박물관은 우리나라 금융 발전사에 대한 이해를 돕고자 1997년 신한은행이 설립한 국내 최초의 금융사 전문 박물관이다. 화폐 등 국내 금융사에 관련된 약 6,500여 점의 유물을 소장하고 있으며, 유물의 수집·관리와 연구, 다양한 기획 전시, 전문적인 금융 교육을 지속하고 있다. 향후에도 다양한 사료를 수집하고 관리하며, 쉽고 재미있게 배우는 경제 교육을 운영하는 종합문화공간으로서 우리나라의 금융사를 알리는 데 최선을 다하고자 한다.",
+      "fusion_score": 0.03278688524590164,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 1,
+      "name_match": true,
+      "rerank_score": 0.9999498128890991,
+      "rank": 1,
+      "score": 0.9999498128890991,
+      "score_type": "cross_encoder",
+      "distance": 0.43162351846694946,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0248",
+      "source_doc_ids": [
+        "DOC-B0248-TOUR_API-130157"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0248-TOUR_API-130157",
+          "source_type": "TOUR_API",
+          "source_record_id": "130157",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=123",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 70,
+          "doc_ids": [
+            "DOC-B0248-TOUR_API-130157"
+          ]
+        },
+        {
+          "start": 71,
+          "end": 160,
+          "doc_ids": [
+            "DOC-B0248-TOUR_API-130157"
+          ]
+        },
+        {
+          "start": 161,
+          "end": 248,
+          "doc_ids": [
+            "DOC-B0248-TOUR_API-130157"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=123",
+      "text": "한국금융사박물관은 우리나라 금융 발전사에 대한 이해를 돕고자 1997년 신한은행이 설립한 국내 최초의 금융사 전문 박물관이다. 화폐 등 국내 금융사에 관련된 약 6,500여 점의 유물을 소장하고 있으며, 유물의 수집·관리와 연구, 다양한 기획 전시, 전문적인 금융 교육을 지속하고 있다. 향후에도 다양한 사료를 수집하고 관리하며, 쉽고 재미있게 배우는 경제 교육을 운영하는 종합문화공간으로서 우리나라의 금융사를 알리는 데 최선을 다하고자 한다.",
+      "sido": "서울특별시",
+      "sigungu": "중구",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=123"
+      ],
+      "evidence_id": "E1",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=175",
+        "fields": {
+          "name": "한국금융사박물관",
+          "sido": "서울특별시",
+          "sigungu": "중구",
+          "address": "서울특별시 중구 세종대로 135-5",
+          "ownership_type": "사립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "10:00",
+          "weekday_close": "18:00",
+          "holiday_open": "00:00",
+          "holiday_close": "00:00",
+          "closure_rule_raw": "일요일+공휴일"
+        },
+        "base_data_date": "2026-09-08",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0247",
+      "name": "한국은행 화폐금융박물관",
+      "document": "한국의 고대 화폐부터 조선·대한제국 및 현대 화폐에 이르는 변화를 살펴볼 수 있는 박물관이다. 세계 화폐와 기념주화 등 금융·화폐문화 관련 자료도 전시한다.",
+      "metadata": {
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "sigungu": "중구",
+        "weekday_open": "10:00",
+        "closure_rule_raw": "월요일+설 연휴+추석 연휴+근로자의 날+선거일+12월 29일~다음해 1월 2일",
+        "name": "한국은행 화폐금융박물관",
+        "weekday_close": "17:00",
+        "homepage_url": "https://www.bok.or.kr/museum/main/contents.do?menuNo=700112",
+        "adult_fee": 0.0,
+        "source_types": "WEB_RESEARCH",
+        "youth_fee": 0.0,
+        "ownership_type": "사립",
+        "requires_manual_review": true,
+        "latitude": 37.562511,
+        "sido": "서울특별시",
+        "longitude": 126.979728,
+        "holiday_close": "17:00",
+        "address": "서울특별시 중구 남대문로 39",
+        "child_fee": 0.0,
+        "holiday_open": "10:00"
+      },
+      "vector_rank": 4,
+      "bm25_rank": null,
+      "vector_distance": 0.4980887770652771,
+      "vector_score": null,
+      "bm25_score": null,
+      "vector_document": "한국의 고대 화폐부터 조선·대한제국 및 현대 화폐에 이르는 변화를 살펴볼 수 있는 박물관이다. 세계 화폐와 기념주화 등 금융·화폐문화 관련 자료도 전시한다.",
+      "bm25_document": "",
+      "best_span_id": null,
+      "best_span_text": null,
+      "fusion_score": 0.015625,
+      "retrieved_by": [
+        "vector"
+      ],
+      "fusion_rank": 7,
+      "rerank_score": 0.2664911448955536,
+      "rank": 2,
+      "score": 0.2664911448955536,
+      "score_type": "cross_encoder",
+      "distance": 0.4980887770652771,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector"
+      ],
+      "retriever": "vector",
+      "source_doc_ids": [
+        "DOC-WEB-M0247-20261111"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-WEB-M0247-20261111",
+          "source_type": "WEB_RESEARCH",
+          "source_record_id": "RESEARCH-M0247",
+          "source_locator": "https://www.bok.or.kr/museum/main/contents.do?menuNo=700842",
+          "source_url": "https://www.bok.or.kr/museum/main/contents.do?menuNo=700842",
+          "match_trust": "WEB_SOURCE_REVIEWED_NOT_HUMAN_APPROVED"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 52,
+          "doc_ids": [
+            "DOC-WEB-M0247-20261111"
+          ]
+        },
+        {
+          "start": 53,
+          "end": 87,
+          "doc_ids": [
+            "DOC-WEB-M0247-20261111"
+          ]
+        }
+      ],
+      "source_urls": [
+        "https://www.bok.or.kr/museum/main/contents.do?menuNo=700842"
+      ],
+      "source_locator": "https://www.bok.or.kr/museum/main/contents.do?menuNo=700842",
+      "text": "한국의 고대 화폐부터 조선·대한제국 및 현대 화폐에 이르는 변화를 살펴볼 수 있는 박물관이다. 세계 화폐와 기념주화 등 금융·화폐문화 관련 자료도 전시한다.",
+      "sido": "서울특별시",
+      "sigungu": "중구",
+      "span_id": "",
+      "chunk_id": "",
+      "source_locators": [
+        "https://www.bok.or.kr/museum/main/contents.do?menuNo=700842"
+      ],
+      "evidence_id": "E2",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=174",
+        "fields": {
+          "name": "한국은행 화폐금융박물관",
+          "sido": "서울특별시",
+          "sigungu": "중구",
+          "address": "서울특별시 중구 남대문로 39",
+          "ownership_type": "사립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "10:00",
+          "weekday_close": "17:00",
+          "holiday_open": "10:00",
+          "holiday_close": "17:00",
+          "closure_rule_raw": "월요일+설 연휴+추석 연휴+근로자의 날+선거일+12월 29일~다음해 1월 2일"
+        },
+        "base_data_date": "2026-09-08",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0401",
+      "name": "수원박물관",
+      "document": "수원박물관은 지하 1층, 지상 2층으로 수원역사박물관, 한국서예박물관 등 2개의 상설전시관과 특별전시실로 구성되어 있다. 오감으로 즐기고 배우는 어린이체험실, 다채로운 교육 프로그램 등이 운영되고, 소장유물은 수원지역에서 발굴된 유물, 구입 및 기증받은 유물 등으로 48,000여 점을 소장하고 있다. 수원역사박물관은 수원의 유구한 역사와 문화를 과거·현재·미래의 시점과 주제별로 구성하였으며, 크게 네 부분으로 구성된 전시관은 ‘수원의 자연환경’, ‘선사·역사시대의 변천사’, ‘수원로의 개설’, ‘60년대 수원 만나기’, ‘근대 수원의 문화’로 과거의 역사와 문화뿐만 아니라 현대의 발전하는 역동적인 수원의 모습을 다양하게 보여주고 있다. 한국서예박물관은 지방자치단체에서는 최초로 건립한 서예 전문 박물관으로, 우리나라 서예사를 한눈에 살펴볼 수 있다. 전시는 유물의 시기와 특성에 따라 각각의 전시 주제로 구성되어 있고 조선시대 사랑방이 재현되어 있다. 중요 작품으로는 영조와 정조가 쓴 어필첩 등이 있다. 수원박물관은 2008년 10월 1일에 개관+ 수원의 유구한 역사와 문화를 다양하게 보여주는 수원역사박물관과 한국 서예사를 한 눈에 볼 수 있는 한국서예박물관으로 이루어짐.",
+      "metadata": {
+        "latitude": 37.297646,
+        "adult_fee_status": "BASE_FEE_PAID",
+        "weekday_open": "09:00",
+        "name": "수원박물관",
+        "sigungu": "수원시",
+        "adult_fee": 2000.0,
+        "holiday_open": "09:00",
+        "ownership_type": "공립",
+        "youth_fee": 1000.0,
+        "child_fee": 0.0,
+        "weekday_close": "18:00",
+        "longitude": 127.035631,
+        "amenities_raw": "뮤지엄샵+북카페+수유실+물품보관소+자전거보관대",
+        "image_copyright": "Type1",
+        "homepage_url": "https://smuseum.suwon.go.kr/sw/main/view",
+        "address": "경기도 수원시 영통구 창룡대로 265",
+        "transport_notes": "버스 : (좌석버스) 1007+3007+3008+4000+4500+7000+7001+8800+ (일반) 7+19+60+80+400+400-4+720-1+ (마을) 6",
+        "holiday_close": "18:00",
+        "requires_manual_review": true,
+        "source_types": "BASE|TOUR_API",
+        "fee_notes": "1. 국빈·외국사절단 및 그 수행자 무료+2. 국가유공자 무료+3. 장애인과 동반 1인  무료+4. 12세 이하의 어린이 및 65세 이상의 노인 무료",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/81/4056581_image2_1.jpg",
+        "sido": "경기도",
+        "closure_rule_raw": "월(월요일이 공휴일인 경우 그 다음날 휴관)"
+      },
+      "vector_rank": null,
+      "bm25_rank": 10,
+      "vector_distance": null,
+      "vector_score": null,
+      "bm25_score": 6.488602945420504,
+      "vector_document": "",
+      "bm25_document": "수원박물관은 지하 1층, 지상 2층으로 수원역사박물관, 한국서예박물관 등 2개의 상설전시관과 특별전시실로 구성되어 있다. 오감으로 즐기고 배우는 어린이체험실, 다채로운 교육 프로그램 등이 운영되고, 소장유물은 수원지역에서 발굴된 유물, 구입 및 기증받은 유물 등으로 48,000여 점을 소장하고 있다. 수원역사박물관은 수원의 유구한 역사와 문화를 과거·현재·미래의 시점과 주제별로 구성하였으며, 크게 네 부분으로 구성된 전시관은 ‘수원의 자연환경’, ‘선사·역사시대의 변천사’, ‘수원로의 개설’, ‘60년대 수원 만나기’, ‘근대 수원의 문화’로 과거의 역사와 문화뿐만 아니라 현대의 발전하는 역동적인 수원의 모습을 다양하게 보여주고 있다. 한국서예박물관은 지방자치단체에서는 최초로 건립한 서예 전문 박물관으로, 우리나라 서예사를 한눈에 살펴볼 수 있다. 전시는 유물의 시기와 특성에 따라 각각의 전시 주제로 구성되어 있고 조선시대 사랑방이 재현되어 있다. 중요 작품으로는 영조와 정조가 쓴 어필첩 등이 있다. 수원박물관은 2008년 10월 1일에 개관+ 수원의 유구한 역사와 문화를 다양하게 보여주는 수원역사박물관과 한국 서예사를 한 눈에 볼 수 있는 한국서예박물관으로 이루어짐.",
+      "best_span_id": "chroma:M0401",
+      "best_span_text": "수원박물관은 지하 1층, 지상 2층으로 수원역사박물관, 한국서예박물관 등 2개의 상설전시관과 특별전시실로 구성되어 있다. 오감으로 즐기고 배우는 어린이체험실, 다채로운 교육 프로그램 등이 운영되고, 소장유물은 수원지역에서 발굴된 유물, 구입 및 기증받은 유물 등으로 48,000여 점을 소장하고 있다. 수원역사박물관은 수원의 유구한 역사와 문화를 과거·현재·미래의 시점과 주제별로 구성하였으며, 크게 네 부분으로 구성된 전시관은 ‘수원의 자연환경’, ‘선사·역사시대의 변천사’, ‘수원로의 개설’, ‘60년대 수원 만나기’, ‘근대 수원의 문화’로 과거의 역사와 문화뿐만 아니라 현대의 발전하는 역동적인 수원의 모습을 다양하게 보여주고 있다. 한국서예박물관은 지방자치단체에서는 최초로 건립한 서예 전문 박물관으로, 우리나라 서예사를 한눈에 살펴볼 수 있다. 전시는 유물의 시기와 특성에 따라 각각의 전시 주제로 구성되어 있고 조선시대 사랑방이 재현되어 있다. 중요 작품으로는 영조와 정조가 쓴 어필첩 등이 있다. 수원박물관은 2008년 10월 1일에 개관+ 수원의 유구한 역사와 문화를 다양하게 보여주는 수원역사박물관과 한국 서예사를 한 눈에 볼 수 있는 한국서예박물관으로 이루어짐.",
+      "fusion_score": 0.014285714285714285,
+      "retrieved_by": [
+        "bm25"
+      ],
+      "fusion_rank": 19,
+      "rerank_score": 0.04800920560956001,
+      "rank": 3,
+      "score": 0.04800920560956001,
+      "score_type": "cross_encoder",
+      "distance": null,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "bm25"
+      ],
+      "retriever": "bm25",
+      "span_id": "chroma:M0401",
+      "source_doc_ids": [
+        "DOC-B0401-TOUR_API-638913",
+        "DOC-B0401-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0401-TOUR_API-638913",
+          "source_type": "TOUR_API",
+          "source_record_id": "638913",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=186",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        },
+        {
+          "doc_id": "DOC-B0401-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0401",
+          "source_locator": "data/raw/museum_base_1070.csv#row=402",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 67,
+          "doc_ids": [
+            "DOC-B0401-TOUR_API-638913"
+          ]
+        },
+        {
+          "start": 68,
+          "end": 168,
+          "doc_ids": [
+            "DOC-B0401-TOUR_API-638913"
+          ]
+        },
+        {
+          "start": 169,
+          "end": 359,
+          "doc_ids": [
+            "DOC-B0401-TOUR_API-638913"
+          ]
+        },
+        {
+          "start": 360,
+          "end": 423,
+          "doc_ids": [
+            "DOC-B0401-TOUR_API-638913"
+          ]
+        },
+        {
+          "start": 424,
+          "end": 480,
+          "doc_ids": [
+            "DOC-B0401-TOUR_API-638913"
+          ]
+        },
+        {
+          "start": 481,
+          "end": 510,
+          "doc_ids": [
+            "DOC-B0401-TOUR_API-638913"
+          ]
+        },
+        {
+          "start": 511,
+          "end": 606,
+          "doc_ids": [
+            "DOC-B0401-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=186",
+      "text": "수원박물관은 지하 1층, 지상 2층으로 수원역사박물관, 한국서예박물관 등 2개의 상설전시관과 특별전시실로 구성되어 있다. 오감으로 즐기고 배우는 어린이체험실, 다채로운 교육 프로그램 등이 운영되고, 소장유물은 수원지역에서 발굴된 유물, 구입 및 기증받은 유물 등으로 48,000여 점을 소장하고 있다. 수원역사박물관은 수원의 유구한 역사와 문화를 과거·현재·미래의 시점과 주제별로 구성하였으며, 크게 네 부분으로 구성된 전시관은 ‘수원의 자연환경’, ‘선사·역사시대의 변천사’, ‘수원로의 개설’, ‘60년대 수원 만나기’, ‘근대 수원의 문화’로 과거의 역사와 문화뿐만 아니라 현대의 발전하는 역동적인 수원의 모습을 다양하게 보여주고 있다. 한국서예박물관은 지방자치단체에서는 최초로 건립한 서예 전문 박물관으로, 우리나라 서예사를 한눈에 살펴볼 수 있다. 전시는 유물의 시기와 특성에 따라 각각의 전시 주제로 구성되어 있고 조선시대 사랑방이 재현되어 있다. 중요 작품으로는 영조와 정조가 쓴 어필첩 등이 있다. 수원박물관은 2008년 10월 1일에 개관+ 수원의 유구한 역사와 문화를 다양하게 보여주는 수원역사박물관과 한국 서예사를 한 눈에 볼 수 있는 한국서예박물관으로 이루어짐.",
+      "sido": "경기도",
+      "sigungu": "수원시",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=186"
+      ],
+      "evidence_id": "E3",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=285",
+        "fields": {
+          "name": "수원박물관",
+          "sido": "경기도",
+          "sigungu": "수원시",
+          "address": "경기도 수원시 영통구 창룡대로 265",
+          "ownership_type": "공립",
+          "adult_fee": "2000",
+          "youth_fee": "1000",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_PAID",
+          "weekday_open": "09:00",
+          "weekday_close": "18:00",
+          "holiday_open": "09:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "월(월요일이 공휴일인 경우 그 다음날 휴관)",
+          "amenities_raw": "뮤지엄샵+북카페+수유실+물품보관소+자전거보관대"
+        },
+        "base_data_date": "2026-05-19",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0995",
+      "name": "불교천태중앙박물관",
+      "document": "불교와 관련된 전적+회화+공예+조각 등의 다양한 유물을 소장하고 있다+대표적으로 국가지정문화재 43점을 비롯하여 중국+일본+몽골+티베트+파키스탄 등 세계 각지에서 수집한 다양한 불교 관련 유물들을 보유하고 있다",
+      "metadata": {
+        "adult_fee": 0.0,
+        "holiday_open": "09:00",
+        "weekday_close": "17:00",
+        "holiday_close": "17:00",
+        "longitude": 128.4851688,
+        "source_types": "BASE",
+        "homepage_url": "http://www.cheontae.org/cul/loader.php?hcode=culture/museum",
+        "youth_fee": 0.0,
+        "ownership_type": "사립",
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "weekday_open": "10:00",
+        "address": "충청북도 단양군 영춘면 백자길 9",
+        "amenities_raw": "매점",
+        "name": "불교천태중앙박물관",
+        "requires_manual_review": true,
+        "sigungu": "단양군",
+        "sido": "충청북도",
+        "child_fee": 0.0,
+        "closure_rule_raw": "1월 1일+설날 당일 + 추석 당일+ 월",
+        "latitude": 37.0435507
+      },
+      "vector_rank": null,
+      "bm25_rank": 6,
+      "vector_distance": null,
+      "vector_score": null,
+      "bm25_score": 7.010341727476512,
+      "vector_document": "",
+      "bm25_document": "불교와 관련된 전적+회화+공예+조각 등의 다양한 유물을 소장하고 있다+대표적으로 국가지정문화재 43점을 비롯하여 중국+일본+몽골+티베트+파키스탄 등 세계 각지에서 수집한 다양한 불교 관련 유물들을 보유하고 있다",
+      "best_span_id": "chroma:M0995",
+      "best_span_text": "불교와 관련된 전적+회화+공예+조각 등의 다양한 유물을 소장하고 있다+대표적으로 국가지정문화재 43점을 비롯하여 중국+일본+몽골+티베트+파키스탄 등 세계 각지에서 수집한 다양한 불교 관련 유물들을 보유하고 있다",
+      "fusion_score": 0.015151515151515152,
+      "retrieved_by": [
+        "bm25"
+      ],
+      "fusion_rank": 12,
+      "rerank_score": 0.02367626130580902,
+      "rank": 4,
+      "score": 0.02367626130580902,
+      "score_type": "cross_encoder",
+      "distance": null,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "bm25"
+      ],
+      "retriever": "bm25",
+      "span_id": "chroma:M0995",
+      "source_doc_ids": [
+        "DOC-B0995-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0995-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0995",
+          "source_locator": "data/raw/museum_base_1070.csv#row=996",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 117,
+          "doc_ids": [
+            "DOC-B0995-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_base_1070.csv#row=996",
+      "text": "불교와 관련된 전적+회화+공예+조각 등의 다양한 유물을 소장하고 있다+대표적으로 국가지정문화재 43점을 비롯하여 중국+일본+몽골+티베트+파키스탄 등 세계 각지에서 수집한 다양한 불교 관련 유물들을 보유하고 있다",
+      "sido": "충청북도",
+      "sigungu": "단양군",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_base_1070.csv#row=996"
+      ],
+      "evidence_id": "E4",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=678",
+        "fields": {
+          "name": "불교천태중앙박물관",
+          "sido": "충청북도",
+          "sigungu": "단양군",
+          "address": "충청북도 단양군 영춘면 백자길 9",
+          "ownership_type": "사립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "10:00",
+          "weekday_close": "17:00",
+          "holiday_open": "09:00",
+          "holiday_close": "17:00",
+          "closure_rule_raw": "1월 1일+설날 당일 + 추석 당일+ 월",
+          "amenities_raw": "매점"
+        },
+        "base_data_date": "2025-12-02",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M1007",
+      "name": "충남역사박물관",
+      "document": "국가지정 문화재 3건 65점, 도(道)지정 문화재 12건 61점을 비롯하여 총 37,000여점의 유물을 소장하고 있으며, 근현대 충남의 모습을 한 눈에 엿볼 수 있는 상설전시장 외에도 기증기탁 유물에 대한 특별전 등을 운영하고 있습니다.",
+      "metadata": {
+        "longitude": 127.1273867,
+        "address": "충청남도 공주시 국고개길 24",
+        "latitude": 36.45308898,
+        "holiday_close": "18:00",
+        "amenities_raw": "전시실, 교육실습실, 체험학습실",
+        "ownership_type": "공립",
+        "name": "충남역사박물관",
+        "requires_manual_review": false,
+        "sido": "충청남도",
+        "youth_fee": 0.0,
+        "holiday_open": "09:00",
+        "weekday_open": "09:00",
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "sigungu": "공주시",
+        "fee_notes": "없음",
+        "closure_rule_raw": "1월 1일+ 매주 월요일",
+        "source_types": "BASE",
+        "weekday_close": "18:00",
+        "homepage_url": "http://museum.cihc.or.kr/museum",
+        "adult_fee": 0.0,
+        "transport_notes": "시내버스 100+  108+  125+  200+  210+  212+  220+  230+  240+  250+  251+  264+  270+  580",
+        "child_fee": 0.0
+      },
+      "vector_rank": null,
+      "bm25_rank": 5,
+      "vector_distance": null,
+      "vector_score": null,
+      "bm25_score": 7.030057172508574,
+      "vector_document": "",
+      "bm25_document": "국가지정 문화재 3건 65점, 도(道)지정 문화재 12건 61점을 비롯하여 총 37,000여점의 유물을 소장하고 있으며, 근현대 충남의 모습을 한 눈에 엿볼 수 있는 상설전시장 외에도 기증기탁 유물에 대한 특별전 등을 운영하고 있습니다.",
+      "best_span_id": "chroma:M1007",
+      "best_span_text": "국가지정 문화재 3건 65점, 도(道)지정 문화재 12건 61점을 비롯하여 총 37,000여점의 유물을 소장하고 있으며, 근현대 충남의 모습을 한 눈에 엿볼 수 있는 상설전시장 외에도 기증기탁 유물에 대한 특별전 등을 운영하고 있습니다.",
+      "fusion_score": 0.015384615384615385,
+      "retrieved_by": [
+        "bm25"
+      ],
+      "fusion_rank": 10,
+      "rerank_score": 0.02188124507665634,
+      "rank": 5,
+      "score": 0.02188124507665634,
+      "score_type": "cross_encoder",
+      "distance": null,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "bm25"
+      ],
+      "retriever": "bm25",
+      "span_id": "chroma:M1007",
+      "source_doc_ids": [
+        "DOC-B1007-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B1007-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B1007",
+          "source_locator": "data/raw/museum_base_1070.csv#row=1008",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 132,
+          "doc_ids": [
+            "DOC-B1007-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_base_1070.csv#row=1008",
+      "text": "국가지정 문화재 3건 65점, 도(道)지정 문화재 12건 61점을 비롯하여 총 37,000여점의 유물을 소장하고 있으며, 근현대 충남의 모습을 한 눈에 엿볼 수 있는 상설전시장 외에도 기증기탁 유물에 대한 특별전 등을 운영하고 있습니다.",
+      "sido": "충청남도",
+      "sigungu": "공주시",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_base_1070.csv#row=1008"
+      ],
+      "evidence_id": "E5",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=690",
+        "fields": {
+          "name": "충남역사박물관",
+          "sido": "충청남도",
+          "sigungu": "공주시",
+          "address": "충청남도 공주시 국고개길 24",
+          "ownership_type": "공립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "09:00",
+          "weekday_close": "18:00",
+          "holiday_open": "09:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "1월 1일+ 매주 월요일",
+          "amenities_raw": "전시실, 교육실습실, 체험학습실"
+        },
+        "base_data_date": "2024-08-27",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    }
+  ],
+  "answer": "한국금융사박물관은 화폐를 비롯해 국내 금융사와 관련된 유물 약 6,500점을 소장하고 있습니다. [E1]",
+  "retrieval_status": "ok",
+  "answer_status": "answered",
+  "route": "hybrid",
+  "retry_count": 0,
+  "supervisor_verified": true,
+  "rerank_applied": true,
+  "retriever_errors": [],
+  "warnings": [],
+  "duration_ms": 143205.16,
+  "error_type": "",
+  "hit_at_1": 1,
+  "hit_at_3": 1,
+  "hit_at_5": 1,
+  "recall_at_5": 1.0,
+  "mrr_at_10": 1.0
+}

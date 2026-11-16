@@ -1,0 +1,719 @@
+{
+  "mode": "supervisor_full",
+  "question_id": "V2-ET01",
+  "evidence": [
+    {
+      "museum_id": "M0599",
+      "name": "남송미술관",
+      "document": "남송미술관은 가평 명지산과 연인산 청정 계곡 자락에 위치하여 전원의 아름다운 풍경과 다양한 문화 소재로의 예술을 감상할 수 종합 문화 예술 전시 공간이다. 2006년 개관전을 시작으로 다양한 예술 장르의 작품 전시를 꾸준히 열어 온 이곳은 사양화가 남궁원 관장의 풍부한 예술 활동과 더불어 그동안 수집하고 관리해 왔던 국내외 미술품을 기반으로 미적 가치가 있는 미술품을 기획·전시해 왔다. 한국 전통한옥 건축물의 외관을 갖추고 있으며, 1층과 2층에는 전시공간, 3층에는 체험학습공간, 4층에는 개방형 전시실로 구성되어 있다. 또한, 방문객의 편의를 위해 옥외 주차장을 갖추고 있고, 부대시설로는 인근에 문화체험학습 시설이자 예술인 쉼터 공간인 허수아비마을이 있다. 허수아비 마을은 가평 명지산 계곡에 자리 잡고 있으며, 바쁘게 생활하는 도시인들에게 어머니 품속 같은 자연을 함께 호흡할 수 있는 휴양지로 1만여 ㎡의 대지에 문화 예술의 향기를 풍족히 느낄 수 있도록 다듬어진 아름다운 마을이다. 가평 전원의 아름다운 풍경과 현대 미술의 세계가 만나 다양한 문화와 예술을 감상할 수 있는 가평의 대표적인 문화 예술 전시 공간이다. 설립자 남궁원 작가의 풍부한 작품과 그간 수집해 왔던 미술품을 기반으로 가평지역의 미술문화 발전을 위해 다양한 예술품들을 전시하여 감상, 체험과 교육의 기회를 제공한다.",
+      "metadata": {
+        "name": "남송미술관",
+        "latitude": 37.904512,
+        "source_types": "BASE|TOUR_API",
+        "longitude": 127.472221,
+        "holiday_open": "10:00",
+        "adult_fee_status": "BASE_FEE_PAID",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/75/3503075_image2_1.jpg",
+        "adult_fee": 3000.0,
+        "sido": "경기도",
+        "amenities_raw": "주차장(10대)+장애인시설(승강기)",
+        "homepage_url": "http://www.namsongart.com/",
+        "sigungu": "가평군",
+        "requires_manual_review": true,
+        "closure_rule_raw": "월+화+설날연휴+추석연휴",
+        "ownership_type": "사립",
+        "weekday_open": "10:00",
+        "holiday_close": "18:00",
+        "transport_notes": "버스:33-1,33-8,33-4,50-1,50-3",
+        "image_copyright": "Type3",
+        "address": "경기도 가평군 북면 백둔로 322",
+        "weekday_close": "18:00",
+        "child_fee": 2000.0,
+        "youth_fee": 2000.0,
+        "fee_notes": "무료(4세미만 어린이+국가유공자 및 장애인+경로우대증 소유자) 단체 성인 20명(2000원)+단체 학생 10명(1000원)"
+      },
+      "vector_rank": 4,
+      "bm25_rank": 2,
+      "vector_distance": 0.46339958906173706,
+      "vector_score": null,
+      "bm25_score": 12.32016216627556,
+      "vector_document": "남송미술관은 가평 명지산과 연인산 청정 계곡 자락에 위치하여 전원의 아름다운 풍경과 다양한 문화 소재로의 예술을 감상할 수 종합 문화 예술 전시 공간이다. 2006년 개관전을 시작으로 다양한 예술 장르의 작품 전시를 꾸준히 열어 온 이곳은 사양화가 남궁원 관장의 풍부한 예술 활동과 더불어 그동안 수집하고 관리해 왔던 국내외 미술품을 기반으로 미적 가치가 있는 미술품을 기획·전시해 왔다. 한국 전통한옥 건축물의 외관을 갖추고 있으며, 1층과 2층에는 전시공간, 3층에는 체험학습공간, 4층에는 개방형 전시실로 구성되어 있다. 또한, 방문객의 편의를 위해 옥외 주차장을 갖추고 있고, 부대시설로는 인근에 문화체험학습 시설이자 예술인 쉼터 공간인 허수아비마을이 있다. 허수아비 마을은 가평 명지산 계곡에 자리 잡고 있으며, 바쁘게 생활하는 도시인들에게 어머니 품속 같은 자연을 함께 호흡할 수 있는 휴양지로 1만여 ㎡의 대지에 문화 예술의 향기를 풍족히 느낄 수 있도록 다듬어진 아름다운 마을이다. 가평 전원의 아름다운 풍경과 현대 미술의 세계가 만나 다양한 문화와 예술을 감상할 수 있는 가평의 대표적인 문화 예술 전시 공간이다. 설립자 남궁원 작가의 풍부한 작품과 그간 수집해 왔던 미술품을 기반으로 가평지역의 미술문화 발전을 위해 다양한 예술품들을 전시하여 감상, 체험과 교육의 기회를 제공한다.",
+      "bm25_document": "남송미술관은 가평 명지산과 연인산 청정 계곡 자락에 위치하여 전원의 아름다운 풍경과 다양한 문화 소재로의 예술을 감상할 수 종합 문화 예술 전시 공간이다. 2006년 개관전을 시작으로 다양한 예술 장르의 작품 전시를 꾸준히 열어 온 이곳은 사양화가 남궁원 관장의 풍부한 예술 활동과 더불어 그동안 수집하고 관리해 왔던 국내외 미술품을 기반으로 미적 가치가 있는 미술품을 기획·전시해 왔다. 한국 전통한옥 건축물의 외관을 갖추고 있으며, 1층과 2층에는 전시공간, 3층에는 체험학습공간, 4층에는 개방형 전시실로 구성되어 있다. 또한, 방문객의 편의를 위해 옥외 주차장을 갖추고 있고, 부대시설로는 인근에 문화체험학습 시설이자 예술인 쉼터 공간인 허수아비마을이 있다. 허수아비 마을은 가평 명지산 계곡에 자리 잡고 있으며, 바쁘게 생활하는 도시인들에게 어머니 품속 같은 자연을 함께 호흡할 수 있는 휴양지로 1만여 ㎡의 대지에 문화 예술의 향기를 풍족히 느낄 수 있도록 다듬어진 아름다운 마을이다. 가평 전원의 아름다운 풍경과 현대 미술의 세계가 만나 다양한 문화와 예술을 감상할 수 있는 가평의 대표적인 문화 예술 전시 공간이다. 설립자 남궁원 작가의 풍부한 작품과 그간 수집해 왔던 미술품을 기반으로 가평지역의 미술문화 발전을 위해 다양한 예술품들을 전시하여 감상, 체험과 교육의 기회를 제공한다.",
+      "best_span_id": "chroma:M0599",
+      "best_span_text": "남송미술관은 가평 명지산과 연인산 청정 계곡 자락에 위치하여 전원의 아름다운 풍경과 다양한 문화 소재로의 예술을 감상할 수 종합 문화 예술 전시 공간이다. 2006년 개관전을 시작으로 다양한 예술 장르의 작품 전시를 꾸준히 열어 온 이곳은 사양화가 남궁원 관장의 풍부한 예술 활동과 더불어 그동안 수집하고 관리해 왔던 국내외 미술품을 기반으로 미적 가치가 있는 미술품을 기획·전시해 왔다. 한국 전통한옥 건축물의 외관을 갖추고 있으며, 1층과 2층에는 전시공간, 3층에는 체험학습공간, 4층에는 개방형 전시실로 구성되어 있다. 또한, 방문객의 편의를 위해 옥외 주차장을 갖추고 있고, 부대시설로는 인근에 문화체험학습 시설이자 예술인 쉼터 공간인 허수아비마을이 있다. 허수아비 마을은 가평 명지산 계곡에 자리 잡고 있으며, 바쁘게 생활하는 도시인들에게 어머니 품속 같은 자연을 함께 호흡할 수 있는 휴양지로 1만여 ㎡의 대지에 문화 예술의 향기를 풍족히 느낄 수 있도록 다듬어진 아름다운 마을이다. 가평 전원의 아름다운 풍경과 현대 미술의 세계가 만나 다양한 문화와 예술을 감상할 수 있는 가평의 대표적인 문화 예술 전시 공간이다. 설립자 남궁원 작가의 풍부한 작품과 그간 수집해 왔던 미술품을 기반으로 가평지역의 미술문화 발전을 위해 다양한 예술품들을 전시하여 감상, 체험과 교육의 기회를 제공한다.",
+      "fusion_score": 0.031754032258064516,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 1,
+      "rerank_score": 0.9728487133979797,
+      "rank": 1,
+      "score": 0.9728487133979797,
+      "score_type": "cross_encoder",
+      "distance": 0.46339958906173706,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0599",
+      "source_doc_ids": [
+        "DOC-B0599-TOUR_API-1060264",
+        "DOC-B0599-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0599-TOUR_API-1060264",
+          "source_type": "TOUR_API",
+          "source_record_id": "1060264",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=299",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        },
+        {
+          "doc_id": "DOC-B0599-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0599",
+          "source_locator": "data/raw/museum_base_1070.csv#row=600",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 86,
+          "doc_ids": [
+            "DOC-B0599-TOUR_API-1060264"
+          ]
+        },
+        {
+          "start": 87,
+          "end": 217,
+          "doc_ids": [
+            "DOC-B0599-TOUR_API-1060264"
+          ]
+        },
+        {
+          "start": 218,
+          "end": 294,
+          "doc_ids": [
+            "DOC-B0599-TOUR_API-1060264"
+          ]
+        },
+        {
+          "start": 295,
+          "end": 372,
+          "doc_ids": [
+            "DOC-B0599-TOUR_API-1060264"
+          ]
+        },
+        {
+          "start": 373,
+          "end": 501,
+          "doc_ids": [
+            "DOC-B0599-TOUR_API-1060264"
+          ]
+        },
+        {
+          "start": 502,
+          "end": 576,
+          "doc_ids": [
+            "DOC-B0599-BASE"
+          ]
+        },
+        {
+          "start": 577,
+          "end": 671,
+          "doc_ids": [
+            "DOC-B0599-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=299",
+      "text": "남송미술관은 가평 명지산과 연인산 청정 계곡 자락에 위치하여 전원의 아름다운 풍경과 다양한 문화 소재로의 예술을 감상할 수 종합 문화 예술 전시 공간이다. 2006년 개관전을 시작으로 다양한 예술 장르의 작품 전시를 꾸준히 열어 온 이곳은 사양화가 남궁원 관장의 풍부한 예술 활동과 더불어 그동안 수집하고 관리해 왔던 국내외 미술품을 기반으로 미적 가치가 있는 미술품을 기획·전시해 왔다. 한국 전통한옥 건축물의 외관을 갖추고 있으며, 1층과 2층에는 전시공간, 3층에는 체험학습공간, 4층에는 개방형 전시실로 구성되어 있다. 또한, 방문객의 편의를 위해 옥외 주차장을 갖추고 있고, 부대시설로는 인근에 문화체험학습 시설이자 예술인 쉼터 공간인 허수아비마을이 있다. 허수아비 마을은 가평 명지산 계곡에 자리 잡고 있으며, 바쁘게 생활하는 도시인들에게 어머니 품속 같은 자연을 함께 호흡할 수 있는 휴양지로 1만여 ㎡의 대지에 문화 예술의 향기를 풍족히 느낄 수 있도록 다듬어진 아름다운 마을이다. 가평 전원의 아름다운 풍경과 현대 미술의 세계가 만나 다양한 문화와 예술을 감상할 수 있는 가평의 대표적인 문화 예술 전시 공간이다. 설립자 남궁원 작가의 풍부한 작품과 그간 수집해 왔던 미술품을 기반으로 가평지역의 미술문화 발전을 위해 다양한 예술품들을 전시하여 감상, 체험과 교육의 기회를 제공한다.",
+      "sido": "경기도",
+      "sigungu": "가평군",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=299"
+      ],
+      "evidence_id": "E1",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=419",
+        "fields": {
+          "name": "남송미술관",
+          "sido": "경기도",
+          "sigungu": "가평군",
+          "address": "경기도 가평군 북면 백둔로 322",
+          "ownership_type": "사립",
+          "adult_fee": "3000",
+          "youth_fee": "2000",
+          "child_fee": "2000",
+          "adult_fee_status": "BASE_FEE_PAID",
+          "weekday_open": "10:00",
+          "weekday_close": "18:00",
+          "holiday_open": "10:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "월+화+설날연휴+추석연휴",
+          "amenities_raw": "주차장(10대)+장애인시설(승강기)"
+        },
+        "base_data_date": "2025-12-26",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0598",
+      "name": "설미재미술관",
+      "document": "설미재미술관은 천혜의 자연향기가 가득한 문화 예술 공간이다. 가평지역사회의 문화 교육과 작가 초대전 및 교류전을 기획하면서 한국 현대미술의 한 축을 담당하고 있으며, 가평 지역 문화 발전을 위해 매년 공모를 거쳐 가평의 작가를 초빙해 기획전을 개최하고 있다. 가평군민들의 문화적 소양을 함양시켜 주는 것뿐만 아니라, 젊은 미술 작가들을 육성하고 가평지역 학생들에게 창의적인 미술교육을 실행하고자 설립하였다. 설미재 미술관의 전시실에서는 주로 기획전이 개최된다. 조형 연구소에서는 세미나가 주로 진행되며, 창작 스튜디오 3개실을 통하여 신진 작가들을 육성하는 동시에 공동체를 이루고 활성화하고 있다. 비전 있는 젊은 작가를 육성하여 작가 공동체를 활성화 하고 아울러 전문적인 미술교육 체험 프로그램을 개발하여 지역 사회 학생들에게 창의적 미술교육을 실행하고 있음",
+      "metadata": {
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/74/3499774_image2_1.JPG",
+        "address": "경기도 가평군 설악면 유명로 1454-38",
+        "image_copyright": "Type3",
+        "weekday_open": "10:00",
+        "holiday_open": "10:00",
+        "name": "설미재미술관",
+        "amenities_raw": "주차장(20대)+사진촬영허가",
+        "source_types": "BASE|TOUR_API",
+        "child_fee": 2500.0,
+        "sido": "경기도",
+        "weekday_close": "17:00",
+        "homepage_url": "http://www.artsm.kr/",
+        "requires_manual_review": true,
+        "ownership_type": "사립",
+        "closure_rule_raw": "월+설날연휴+추석연휴",
+        "fee_notes": "무료(7세미만 어린이+국가유공자 및 장애인+매월 마지막 수요일)",
+        "latitude": 37.660885,
+        "sigungu": "가평군",
+        "transport_notes": "버스:6-10,32-11,32-14",
+        "holiday_close": "17:00",
+        "youth_fee": 2500.0,
+        "adult_fee_status": "BASE_FEE_PAID",
+        "longitude": 127.482238,
+        "adult_fee": 3000.0
+      },
+      "vector_rank": 10,
+      "bm25_rank": 1,
+      "vector_distance": 0.47687119245529175,
+      "vector_score": null,
+      "bm25_score": 13.843842359727,
+      "vector_document": "설미재미술관은 천혜의 자연향기가 가득한 문화 예술 공간이다. 가평지역사회의 문화 교육과 작가 초대전 및 교류전을 기획하면서 한국 현대미술의 한 축을 담당하고 있으며, 가평 지역 문화 발전을 위해 매년 공모를 거쳐 가평의 작가를 초빙해 기획전을 개최하고 있다. 가평군민들의 문화적 소양을 함양시켜 주는 것뿐만 아니라, 젊은 미술 작가들을 육성하고 가평지역 학생들에게 창의적인 미술교육을 실행하고자 설립하였다. 설미재 미술관의 전시실에서는 주로 기획전이 개최된다. 조형 연구소에서는 세미나가 주로 진행되며, 창작 스튜디오 3개실을 통하여 신진 작가들을 육성하는 동시에 공동체를 이루고 활성화하고 있다. 비전 있는 젊은 작가를 육성하여 작가 공동체를 활성화 하고 아울러 전문적인 미술교육 체험 프로그램을 개발하여 지역 사회 학생들에게 창의적 미술교육을 실행하고 있음",
+      "bm25_document": "설미재미술관은 천혜의 자연향기가 가득한 문화 예술 공간이다. 가평지역사회의 문화 교육과 작가 초대전 및 교류전을 기획하면서 한국 현대미술의 한 축을 담당하고 있으며, 가평 지역 문화 발전을 위해 매년 공모를 거쳐 가평의 작가를 초빙해 기획전을 개최하고 있다. 가평군민들의 문화적 소양을 함양시켜 주는 것뿐만 아니라, 젊은 미술 작가들을 육성하고 가평지역 학생들에게 창의적인 미술교육을 실행하고자 설립하였다. 설미재 미술관의 전시실에서는 주로 기획전이 개최된다. 조형 연구소에서는 세미나가 주로 진행되며, 창작 스튜디오 3개실을 통하여 신진 작가들을 육성하는 동시에 공동체를 이루고 활성화하고 있다. 비전 있는 젊은 작가를 육성하여 작가 공동체를 활성화 하고 아울러 전문적인 미술교육 체험 프로그램을 개발하여 지역 사회 학생들에게 창의적 미술교육을 실행하고 있음",
+      "best_span_id": "chroma:M0598",
+      "best_span_text": "설미재미술관은 천혜의 자연향기가 가득한 문화 예술 공간이다. 가평지역사회의 문화 교육과 작가 초대전 및 교류전을 기획하면서 한국 현대미술의 한 축을 담당하고 있으며, 가평 지역 문화 발전을 위해 매년 공모를 거쳐 가평의 작가를 초빙해 기획전을 개최하고 있다. 가평군민들의 문화적 소양을 함양시켜 주는 것뿐만 아니라, 젊은 미술 작가들을 육성하고 가평지역 학생들에게 창의적인 미술교육을 실행하고자 설립하였다. 설미재 미술관의 전시실에서는 주로 기획전이 개최된다. 조형 연구소에서는 세미나가 주로 진행되며, 창작 스튜디오 3개실을 통하여 신진 작가들을 육성하는 동시에 공동체를 이루고 활성화하고 있다. 비전 있는 젊은 작가를 육성하여 작가 공동체를 활성화 하고 아울러 전문적인 미술교육 체험 프로그램을 개발하여 지역 사회 학생들에게 창의적 미술교육을 실행하고 있음",
+      "fusion_score": 0.030679156908665108,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 2,
+      "rerank_score": 0.8737860321998596,
+      "rank": 2,
+      "score": 0.8737860321998596,
+      "score_type": "cross_encoder",
+      "distance": 0.47687119245529175,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0598",
+      "source_doc_ids": [
+        "DOC-B0598-TOUR_API-2554994",
+        "DOC-B0598-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0598-TOUR_API-2554994",
+          "source_type": "TOUR_API",
+          "source_record_id": "2554994",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=298",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        },
+        {
+          "doc_id": "DOC-B0598-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0598",
+          "source_locator": "data/raw/museum_base_1070.csv#row=599",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 33,
+          "doc_ids": [
+            "DOC-B0598-TOUR_API-2554994"
+          ]
+        },
+        {
+          "start": 34,
+          "end": 144,
+          "doc_ids": [
+            "DOC-B0598-TOUR_API-2554994"
+          ]
+        },
+        {
+          "start": 145,
+          "end": 227,
+          "doc_ids": [
+            "DOC-B0598-TOUR_API-2554994"
+          ]
+        },
+        {
+          "start": 228,
+          "end": 257,
+          "doc_ids": [
+            "DOC-B0598-TOUR_API-2554994"
+          ]
+        },
+        {
+          "start": 258,
+          "end": 334,
+          "doc_ids": [
+            "DOC-B0598-TOUR_API-2554994"
+          ]
+        },
+        {
+          "start": 335,
+          "end": 425,
+          "doc_ids": [
+            "DOC-B0598-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=298",
+      "text": "설미재미술관은 천혜의 자연향기가 가득한 문화 예술 공간이다. 가평지역사회의 문화 교육과 작가 초대전 및 교류전을 기획하면서 한국 현대미술의 한 축을 담당하고 있으며, 가평 지역 문화 발전을 위해 매년 공모를 거쳐 가평의 작가를 초빙해 기획전을 개최하고 있다. 가평군민들의 문화적 소양을 함양시켜 주는 것뿐만 아니라, 젊은 미술 작가들을 육성하고 가평지역 학생들에게 창의적인 미술교육을 실행하고자 설립하였다. 설미재 미술관의 전시실에서는 주로 기획전이 개최된다. 조형 연구소에서는 세미나가 주로 진행되며, 창작 스튜디오 3개실을 통하여 신진 작가들을 육성하는 동시에 공동체를 이루고 활성화하고 있다. 비전 있는 젊은 작가를 육성하여 작가 공동체를 활성화 하고 아울러 전문적인 미술교육 체험 프로그램을 개발하여 지역 사회 학생들에게 창의적 미술교육을 실행하고 있음",
+      "sido": "경기도",
+      "sigungu": "가평군",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=298"
+      ],
+      "evidence_id": "E2",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=418",
+        "fields": {
+          "name": "설미재미술관",
+          "sido": "경기도",
+          "sigungu": "가평군",
+          "address": "경기도 가평군 설악면 유명로 1454-38",
+          "ownership_type": "사립",
+          "adult_fee": "3000",
+          "youth_fee": "2500",
+          "child_fee": "2500",
+          "adult_fee_status": "BASE_FEE_PAID",
+          "weekday_open": "10:00",
+          "weekday_close": "17:00",
+          "holiday_open": "10:00",
+          "holiday_close": "17:00",
+          "closure_rule_raw": "월+설날연휴+추석연휴",
+          "amenities_raw": "주차장(20대)+사진촬영허가"
+        },
+        "base_data_date": "2025-12-26",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0597",
+      "name": "일지미술관",
+      "document": "대도시와 산간 농촌의 중간층인 가평의 예술적 특징과 이질적인 분위기의 주민구조를 문화로 해소하고자하는 전시",
+      "metadata": {
+        "latitude": 37.83281,
+        "weekday_close": "19:00",
+        "name": "일지미술관",
+        "holiday_close": "18:00",
+        "ownership_type": "사립",
+        "closure_rule_raw": "연중무휴",
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "requires_manual_review": false,
+        "address": "경기도 가평군 조종면 운악청계로 140",
+        "transport_notes": "버스:31-9,31-2",
+        "youth_fee": 0.0,
+        "weekday_open": "09:00",
+        "source_types": "BASE",
+        "adult_fee": 0.0,
+        "longitude": 127.345306,
+        "child_fee": 0.0,
+        "holiday_open": "10:00",
+        "sido": "경기도",
+        "sigungu": "가평군",
+        "amenities_raw": "주차장(20대)+사진촬영허가"
+      },
+      "vector_rank": 11,
+      "bm25_rank": 3,
+      "vector_distance": 0.4770326614379883,
+      "vector_score": null,
+      "bm25_score": 8.435981210525883,
+      "vector_document": "대도시와 산간 농촌의 중간층인 가평의 예술적 특징과 이질적인 분위기의 주민구조를 문화로 해소하고자하는 전시",
+      "bm25_document": "대도시와 산간 농촌의 중간층인 가평의 예술적 특징과 이질적인 분위기의 주민구조를 문화로 해소하고자하는 전시",
+      "best_span_id": "chroma:M0597",
+      "best_span_text": "대도시와 산간 농촌의 중간층인 가평의 예술적 특징과 이질적인 분위기의 주민구조를 문화로 해소하고자하는 전시",
+      "fusion_score": 0.029957522915269395,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 3,
+      "rerank_score": 0.48353856801986694,
+      "rank": 3,
+      "score": 0.48353856801986694,
+      "score_type": "cross_encoder",
+      "distance": 0.4770326614379883,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0597",
+      "source_doc_ids": [
+        "DOC-B0597-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0597-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0597",
+          "source_locator": "data/raw/museum_base_1070.csv#row=598",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 59,
+          "doc_ids": [
+            "DOC-B0597-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_base_1070.csv#row=598",
+      "text": "대도시와 산간 농촌의 중간층인 가평의 예술적 특징과 이질적인 분위기의 주민구조를 문화로 해소하고자하는 전시",
+      "sido": "경기도",
+      "sigungu": "가평군",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_base_1070.csv#row=598"
+      ],
+      "evidence_id": "E3",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=417",
+        "fields": {
+          "name": "일지미술관",
+          "sido": "경기도",
+          "sigungu": "가평군",
+          "address": "경기도 가평군 조종면 운악청계로 140",
+          "ownership_type": "사립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "09:00",
+          "weekday_close": "19:00",
+          "holiday_open": "10:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "연중무휴",
+          "amenities_raw": "주차장(20대)+사진촬영허가"
+        },
+        "base_data_date": "2025-12-26",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0468",
+      "name": "종이미술관",
+      "document": "종이미술관은 한국 최초의 종이조형 미술관으로 종이와 미술을 소재로 다양하게 표현되는 문화와 예술을 통해 이웃과 함께하는 행복하고 아름다운 미술관이다. 어린이 미술관, 전통놀이 체험장, 한옥체험장, 공예품 만들기 체험장을 갖추고 있으며 야외 잔디공원에서 뛰어놀 수 있고 한옥에서 숙박도 할 수 있는 힐링공간이다. 종이미술관은 2014년 개관한 한국 최초의 종이조형미술관",
+      "metadata": {
+        "latitude": 37.2245131,
+        "fee_notes": "유아무료(24개월까지)",
+        "sigungu": "안산시",
+        "youth_fee": 10000.0,
+        "amenities_raw": "문화상품점+카페+한옥체험관",
+        "longitude": 126.5759886,
+        "holiday_open": "10:00",
+        "adult_fee": 10000.0,
+        "transport_notes": "지하철 : 4호선 안산역↔시내버스 123번 이용, 오이도역↔광역버스 790번 이용",
+        "weekday_close": "18:00",
+        "weekday_open": "10:00",
+        "ownership_type": "사립",
+        "sido": "경기도",
+        "image_copyright": "Type1",
+        "requires_manual_review": true,
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/72/3563472_image2_1.jpg",
+        "source_types": "BASE|TOUR_API",
+        "adult_fee_status": "BASE_FEE_PAID",
+        "child_fee": 7000.0,
+        "address": "경기도 안산시 단원구 대남로 233",
+        "name": "종이미술관",
+        "holiday_close": "18:00",
+        "closure_rule_raw": "월요일"
+      },
+      "vector_rank": null,
+      "bm25_rank": 4,
+      "vector_distance": null,
+      "vector_score": null,
+      "bm25_score": 5.624784964679497,
+      "vector_document": "",
+      "bm25_document": "종이미술관은 한국 최초의 종이조형 미술관으로 종이와 미술을 소재로 다양하게 표현되는 문화와 예술을 통해 이웃과 함께하는 행복하고 아름다운 미술관이다. 어린이 미술관, 전통놀이 체험장, 한옥체험장, 공예품 만들기 체험장을 갖추고 있으며 야외 잔디공원에서 뛰어놀 수 있고 한옥에서 숙박도 할 수 있는 힐링공간이다. 종이미술관은 2014년 개관한 한국 최초의 종이조형미술관",
+      "best_span_id": "chroma:M0468",
+      "best_span_text": "종이미술관은 한국 최초의 종이조형 미술관으로 종이와 미술을 소재로 다양하게 표현되는 문화와 예술을 통해 이웃과 함께하는 행복하고 아름다운 미술관이다. 어린이 미술관, 전통놀이 체험장, 한옥체험장, 공예품 만들기 체험장을 갖추고 있으며 야외 잔디공원에서 뛰어놀 수 있고 한옥에서 숙박도 할 수 있는 힐링공간이다. 종이미술관은 2014년 개관한 한국 최초의 종이조형미술관",
+      "fusion_score": 0.015625,
+      "retrieved_by": [
+        "bm25"
+      ],
+      "fusion_rank": 10,
+      "rerank_score": 0.03249167278409004,
+      "rank": 4,
+      "score": 0.03249167278409004,
+      "score_type": "cross_encoder",
+      "distance": null,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "bm25"
+      ],
+      "retriever": "bm25",
+      "span_id": "chroma:M0468",
+      "source_doc_ids": [
+        "DOC-B0468-TOUR_API-2684972",
+        "DOC-B0468-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0468-TOUR_API-2684972",
+          "source_type": "TOUR_API",
+          "source_record_id": "2684972",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=229",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        },
+        {
+          "doc_id": "DOC-B0468-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0468",
+          "source_locator": "data/raw/museum_base_1070.csv#row=469",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 83,
+          "doc_ids": [
+            "DOC-B0468-TOUR_API-2684972"
+          ]
+        },
+        {
+          "start": 84,
+          "end": 173,
+          "doc_ids": [
+            "DOC-B0468-TOUR_API-2684972"
+          ]
+        },
+        {
+          "start": 174,
+          "end": 205,
+          "doc_ids": [
+            "DOC-B0468-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=229",
+      "text": "종이미술관은 한국 최초의 종이조형 미술관으로 종이와 미술을 소재로 다양하게 표현되는 문화와 예술을 통해 이웃과 함께하는 행복하고 아름다운 미술관이다. 어린이 미술관, 전통놀이 체험장, 한옥체험장, 공예품 만들기 체험장을 갖추고 있으며 야외 잔디공원에서 뛰어놀 수 있고 한옥에서 숙박도 할 수 있는 힐링공간이다. 종이미술관은 2014년 개관한 한국 최초의 종이조형미술관",
+      "sido": "경기도",
+      "sigungu": "안산시",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=229"
+      ],
+      "evidence_id": "E4",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=339",
+        "fields": {
+          "name": "종이미술관",
+          "sido": "경기도",
+          "sigungu": "안산시",
+          "address": "경기도 안산시 단원구 대남로 233",
+          "ownership_type": "사립",
+          "adult_fee": "10000",
+          "youth_fee": "10000",
+          "child_fee": "7000",
+          "adult_fee_status": "BASE_FEE_PAID",
+          "weekday_open": "10:00",
+          "weekday_close": "18:00",
+          "holiday_open": "10:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "월요일",
+          "amenities_raw": "문화상품점+카페+한옥체험관"
+        },
+        "base_data_date": "2026-03-05",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0293",
+      "name": "함평군립미술관",
+      "document": "함평군립미술관은 와 이 열리는 함평엑스포공원에 위치하고 있다. 미술관의 외관은 양 날개를 펼쳐 날아가고 있는 나비 형상이며, 이 나비 몸체의 중앙에 미술관의 핵심시설인 전시실이 1층과 2층에 걸쳐 총 3개실로 자리 잡고 있다. 그 날개에 해당하는 양쪽에는 수장고와 자료실, 학예연구실 등이 있다.",
+      "metadata": {
+        "child_fee": 0.0,
+        "holiday_open": "10:00",
+        "sido": "전남광주특별자치도",
+        "requires_manual_review": true,
+        "weekday_close": "18:00",
+        "latitude": 35.05813923,
+        "holiday_close": "18:00",
+        "fee_notes": "축제시 입장료에 포함",
+        "closure_rule_raw": "매주 월요일+1월 1일+설 당일+추석 당일",
+        "homepage_url": "http://www.hpart.or.kr/",
+        "longitude": 126.5226056,
+        "ownership_type": "공립",
+        "weekday_open": "10:00",
+        "address": "전남광주통합특별시 함평군 함평읍 곤재로 27",
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "youth_fee": 0.0,
+        "source_types": "BASE",
+        "name": "함평군립미술관",
+        "amenities_raw": "카페+수유실",
+        "sigungu": "함평군",
+        "transport_notes": "함평터미널 도보 15분",
+        "adult_fee": 0.0
+      },
+      "vector_rank": 17,
+      "bm25_rank": 17,
+      "vector_distance": 0.49391496181488037,
+      "vector_score": null,
+      "bm25_score": 5.246415015610636,
+      "vector_document": "함평군립미술관은 와 이 열리는 함평엑스포공원에 위치하고 있다. 미술관의 외관은 양 날개를 펼쳐 날아가고 있는 나비 형상이며, 이 나비 몸체의 중앙에 미술관의 핵심시설인 전시실이 1층과 2층에 걸쳐 총 3개실로 자리 잡고 있다. 그 날개에 해당하는 양쪽에는 수장고와 자료실, 학예연구실 등이 있다.",
+      "bm25_document": "함평군립미술관은 와 이 열리는 함평엑스포공원에 위치하고 있다. 미술관의 외관은 양 날개를 펼쳐 날아가고 있는 나비 형상이며, 이 나비 몸체의 중앙에 미술관의 핵심시설인 전시실이 1층과 2층에 걸쳐 총 3개실로 자리 잡고 있다. 그 날개에 해당하는 양쪽에는 수장고와 자료실, 학예연구실 등이 있다.",
+      "best_span_id": "chroma:M0293",
+      "best_span_text": "함평군립미술관은 와 이 열리는 함평엑스포공원에 위치하고 있다. 미술관의 외관은 양 날개를 펼쳐 날아가고 있는 나비 형상이며, 이 나비 몸체의 중앙에 미술관의 핵심시설인 전시실이 1층과 2층에 걸쳐 총 3개실로 자리 잡고 있다. 그 날개에 해당하는 양쪽에는 수장고와 자료실, 학예연구실 등이 있다.",
+      "fusion_score": 0.025974025974025976,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 5,
+      "rerank_score": 0.009932084940373898,
+      "rank": 5,
+      "score": 0.009932084940373898,
+      "score_type": "cross_encoder",
+      "distance": 0.49391496181488037,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0293",
+      "source_doc_ids": [
+        "DOC-B0293-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0293-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0293",
+          "source_locator": "data/raw/museum_base_1070.csv#row=294",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 34,
+          "doc_ids": [
+            "DOC-B0293-BASE"
+          ]
+        },
+        {
+          "start": 35,
+          "end": 126,
+          "doc_ids": [
+            "DOC-B0293-BASE"
+          ]
+        },
+        {
+          "start": 127,
+          "end": 165,
+          "doc_ids": [
+            "DOC-B0293-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_base_1070.csv#row=294",
+      "text": "함평군립미술관은 와 이 열리는 함평엑스포공원에 위치하고 있다. 미술관의 외관은 양 날개를 펼쳐 날아가고 있는 나비 형상이며, 이 나비 몸체의 중앙에 미술관의 핵심시설인 전시실이 1층과 2층에 걸쳐 총 3개실로 자리 잡고 있다. 그 날개에 해당하는 양쪽에는 수장고와 자료실, 학예연구실 등이 있다.",
+      "sido": "전남광주특별자치도",
+      "sigungu": "함평군",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_base_1070.csv#row=294"
+      ],
+      "evidence_id": "E5",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=207",
+        "fields": {
+          "name": "함평군립미술관",
+          "sido": "전남광주통합특별시",
+          "sigungu": "함평군",
+          "address": "전남광주통합특별시 함평군 함평읍 곤재로 27",
+          "ownership_type": "공립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "10:00",
+          "weekday_close": "18:00",
+          "holiday_open": "10:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "매주 월요일+1월 1일+설 당일+추석 당일",
+          "amenities_raw": "카페+수유실"
+        },
+        "base_data_date": "2026-07-29",
+        "trust": "derived_dataset_not_human_verified",
+        "normalizations": {
+          "sido": {
+            "source_value": "전남광주통합특별시",
+            "matched_value": "전남광주특별자치도",
+            "rule": "configured_sido_alias"
+          }
+        }
+      }
+    }
+  ],
+  "answer": "가평군에 있는 미술관으로는 남송미술관, 설미재미술관, 일지미술관이 있습니다.[E1][E2][E3]",
+  "retrieval_status": "ok",
+  "answer_status": "answered",
+  "route": "hybrid",
+  "retry_count": 0,
+  "supervisor_verified": true,
+  "rerank_applied": true,
+  "retriever_errors": [],
+  "warnings": [],
+  "duration_ms": 136065.6,
+  "error_type": "",
+  "hit_at_1": 1,
+  "hit_at_3": 1,
+  "hit_at_5": 1,
+  "recall_at_5": 0.75,
+  "mrr_at_10": 1.0
+}

@@ -1,0 +1,742 @@
+{
+  "evidence_context_version": "grounded-evidence-v2",
+  "evaluation_contexts": [
+    "{\"evidence_context_version\": \"grounded-evidence-v2\", \"evidence_id\": \"E1\", \"metadata_provenance\": {\"base_data_date\": \"2026-04-08\", \"fields\": {\"address\": \"서울특별시 강남구 언주로 721\", \"adult_fee\": \"0\", \"adult_fee_status\": \"BASE_FEE_ZERO_CHECK_EXCEPTIONS\", \"child_fee\": \"0\", \"closure_rule_raw\": \"주말 및 공휴일\", \"holiday_close\": \"00:00\", \"holiday_open\": \"00:00\", \"name\": \"국립관세박물관\", \"ownership_type\": \"국립\", \"sido\": \"서울특별시\", \"sigungu\": \"강남구\", \"weekday_close\": \"18:00\", \"weekday_open\": \"10:00\", \"youth_fee\": \"0\"}, \"source_kind\": \"derived_csv_row\", \"source_locator\": \"data/processed/museum_final_738.csv#record=368\", \"trust\": \"derived_dataset_not_human_verified\"}, \"museum_id\": \"M0525\", \"name\": \"국립관세박물관\", \"source_doc_ids\": [\"DOC-B0525-TOUR_API-130924\"], \"source_documents\": [{\"doc_id\": \"DOC-B0525-TOUR_API-130924\", \"match_trust\": \"AUTO_MATCH_NOT_HUMAN_VERIFIED\", \"source_locator\": \"data/raw/museum_tourapi_with_overview.csv#row=259\", \"source_record_id\": \"130924\", \"source_type\": \"TOUR_API\"}], \"source_locator\": \"data/raw/museum_tourapi_with_overview.csv#row=259\", \"source_locators\": [\"data/raw/museum_tourapi_with_overview.csv#row=259\"], \"source_scope\": \"text\", \"source_spans\": [{\"doc_ids\": [\"DOC-B0525-TOUR_API-130924\"], \"end\": 71, \"start\": 0}, {\"doc_ids\": [\"DOC-B0525-TOUR_API-130924\"], \"end\": 168, \"start\": 72}, {\"doc_ids\": [\"DOC-B0525-TOUR_API-130924\"], \"end\": 238, \"start\": 169}, {\"doc_ids\": [\"DOC-B0525-TOUR_API-130924\"], \"end\": 292, \"start\": 239}, {\"doc_ids\": [\"DOC-B0525-TOUR_API-130924\"], \"end\": 417, \"start\": 293}], \"source_urls\": [], \"text\": \"국립관세박물관은 강남구에 위치한 국립박물관으로, 개항기부터 현대까지 한국 경제사와 함께한 관세 문화를 경험할 수 있는 공간이다. 박물관은 총 3개 주제관인 관세역사관, 관세행정관, 관세외교관이 있으며, 핸즈온 전시 공간인 공항 체험과 해외직구시 사용하는 유니패스존에서는 인터렉티브 체험을 할 수 있다. 또한 박물관 관람 시에는 전시실에 비치된 전시 활동지와 모바일을 활용한 웹콘텐츠로 관세 문화를 입체적으로 경험 할 수 있다. 관세 문화를 더 깊이 체험하고자 할 때에는 별도 전화 예약을 통해 박물관 교육에 참여 가능하다. 관세박물관을 통해 세관의 역사를 재조명하고 관세 주권과 국익을 지켜온 관세인의 노고를 기억함으로써 국민들에게 세관에 대한 이해를 높이는 한편, 더 발전된 미래로 나아가기 위한 교훈의 장으로 삼고자 하는 취지를 가지고 있다.\"}",
+    "{\"evidence_context_version\": \"grounded-evidence-v2\", \"evidence_id\": \"E2\", \"metadata_provenance\": {\"base_data_date\": \"2026-04-08\", \"fields\": {\"address\": \"세종특별자치시 국세청로 8-14\", \"adult_fee\": \"0\", \"adult_fee_status\": \"BASE_FEE_ZERO_CHECK_EXCEPTIONS\", \"child_fee\": \"0\", \"closure_rule_raw\": \"매주 월요일, 법정공휴일\", \"name\": \"국립조세박물관\", \"ownership_type\": \"국립\", \"sido\": \"세종특별자치시\", \"sigungu\": \"세종시\", \"weekday_close\": \"18:00\", \"weekday_open\": \"09:00\", \"youth_fee\": \"0\"}, \"source_kind\": \"derived_csv_row\", \"source_locator\": \"data/processed/museum_final_738.csv#record=356\", \"trust\": \"derived_dataset_not_human_verified\"}, \"museum_id\": \"M0496\", \"name\": \"국립조세박물관\", \"source_doc_ids\": [\"DOC-B0496-TOUR_API-130952\"], \"source_documents\": [{\"doc_id\": \"DOC-B0496-TOUR_API-130952\", \"match_trust\": \"RECHECKED_BY_RULE_NOT_HUMAN_APPROVED\", \"source_locator\": \"data/raw/museum_tourapi_with_overview.csv#row=245\", \"source_record_id\": \"130952\", \"source_type\": \"TOUR_API\"}], \"source_locator\": \"data/raw/museum_tourapi_with_overview.csv#row=245\", \"source_locators\": [\"data/raw/museum_tourapi_with_overview.csv#row=245\"], \"source_scope\": \"text\", \"source_spans\": [{\"doc_ids\": [\"DOC-B0496-TOUR_API-130952\"], \"end\": 71, \"start\": 0}, {\"doc_ids\": [\"DOC-B0496-TOUR_API-130952\"], \"end\": 126, \"start\": 72}, {\"doc_ids\": [\"DOC-B0496-TOUR_API-130952\"], \"end\": 207, \"start\": 127}, {\"doc_ids\": [\"DOC-B0496-TOUR_API-130952\"], \"end\": 248, \"start\": 208}], \"source_urls\": [], \"text\": \"조세박물관은 세금의 역사와 조세제도, 국세행정의 발전과정을 소개하여 세금의 중요성을 느낄 수 있는 국내유일의 세금전문박물관이다. 세금의 중요성을 홍보하고 국세행정에 대한 이해를 도모하고자 ‘대국민 교육의 장’으로서 설립되었다. 각 시대별 조세제도의 내용과 역사적 사건에 관한 자료들을 정리하여 전시하고 있으며, 세금과 관련된 각종 도서와 연구논문 등을 수집관리하고 있다. 학생들에게는 세금 체험 장소로, 연구자들에게는 자료관으로 이용되고 있다.\"}",
+    "{\"evidence_context_version\": \"grounded-evidence-v2\", \"evidence_id\": \"E3\", \"metadata_provenance\": {\"base_data_date\": \"2025-08-18\", \"fields\": {\"address\": \"인천광역시 중구 구읍로 63\", \"adult_fee\": \"1000\", \"adult_fee_status\": \"BASE_FEE_PAID\", \"child_fee\": \"500\", \"closure_rule_raw\": \"매주 월요일\", \"holiday_close\": \"18:00\", \"holiday_open\": \"10:00\", \"name\": \"영종역사관\", \"ownership_type\": \"공립\", \"sido\": \"인천광역시\", \"sigungu\": \"중구\", \"weekday_close\": \"18:00\", \"weekday_open\": \"10:00\", \"youth_fee\": \"700\"}, \"source_kind\": \"derived_csv_row\", \"source_locator\": \"data/processed/museum_final_738.csv#record=642\", \"trust\": \"derived_dataset_not_human_verified\"}, \"museum_id\": \"M0927\", \"name\": \"영종역사관\", \"source_doc_ids\": [\"DOC-B0927-TOUR_API-2638436\"], \"source_documents\": [{\"doc_id\": \"DOC-B0927-TOUR_API-2638436\", \"match_trust\": \"AUTO_MATCH_NOT_HUMAN_VERIFIED\", \"source_locator\": \"data/raw/museum_tourapi_with_overview.csv#row=437\", \"source_record_id\": \"2638436\", \"source_type\": \"TOUR_API\"}], \"source_locator\": \"data/raw/museum_tourapi_with_overview.csv#row=437\", \"source_locators\": [\"data/raw/museum_tourapi_with_overview.csv#row=437\"], \"source_scope\": \"text\", \"source_spans\": [{\"doc_ids\": [\"DOC-B0927-TOUR_API-2638436\"], \"end\": 78, \"start\": 0}, {\"doc_ids\": [\"DOC-B0927-TOUR_API-2638436\"], \"end\": 155, \"start\": 79}], \"source_urls\": [], \"text\": \"영종역사관은 긴 세월 동안 유구한 역사와 문화, 세상과 통하는 중간 거점으로 그 가치를 재조명 받고 있는 영종도를 알리기 위하여 건립되었다. 오랜 삶의 터전으로서의 영종도와 각종 개발로 인하여 급격하게 변화된 근현대 영종도의 생활문화를 담고 있는 영종도의 대표적인 문화공간이다.\"}",
+    "{\"evidence_context_version\": \"grounded-evidence-v2\", \"evidence_id\": \"E4\", \"metadata_provenance\": {\"base_data_date\": \"2026-06-24\", \"fields\": {\"address\": \"전북특별자치도 남원시 양림길 14-9\", \"adult_fee\": \"0\", \"adult_fee_status\": \"BASE_FEE_ZERO_CHECK_EXCEPTIONS\", \"amenities_raw\": \"물품보관소\", \"child_fee\": \"0\", \"closure_rule_raw\": \"월+1월 1일+설날+추석\", \"holiday_close\": \"18:00\", \"holiday_open\": \"09:00\", \"name\": \"남원향토박물관\", \"ownership_type\": \"공립\", \"sido\": \"전북특별자치도\", \"sigungu\": \"남원시\", \"weekday_close\": \"18:00\", \"weekday_open\": \"09:00\", \"youth_fee\": \"0\"}, \"source_kind\": \"derived_csv_row\", \"source_locator\": \"data/processed/museum_final_738.csv#record=232\", \"trust\": \"derived_dataset_not_human_verified\"}, \"museum_id\": \"M0320\", \"name\": \"남원향토박물관\", \"source_doc_ids\": [\"DOC-B0320-BASE\", \"DOC-B0320-TOUR_API-130506\"], \"source_documents\": [{\"doc_id\": \"DOC-B0320-BASE\", \"match_trust\": \"BASE_SOURCE\", \"source_locator\": \"data/raw/museum_base_1070.csv#row=321\", \"source_record_id\": \"B0320\", \"source_type\": \"BASE\"}, {\"doc_id\": \"DOC-B0320-TOUR_API-130506\", \"match_trust\": \"AUTO_MATCH_NOT_HUMAN_VERIFIED\", \"source_locator\": \"data/raw/museum_tourapi_with_overview.csv#row=157\", \"source_record_id\": \"130506\", \"source_type\": \"TOUR_API\"}], \"source_locator\": \"data/raw/museum_base_1070.csv#row=321\", \"source_locators\": [\"data/raw/museum_base_1070.csv#row=321\"], \"source_scope\": \"text\", \"source_spans\": [{\"doc_ids\": [\"DOC-B0320-BASE\"], \"end\": 50, \"start\": 0}, {\"doc_ids\": [\"DOC-B0320-BASE\"], \"end\": 137, \"start\": 51}, {\"doc_ids\": [\"DOC-B0320-BASE\"], \"end\": 200, \"start\": 138}, {\"doc_ids\": [\"DOC-B0320-BASE\"], \"end\": 268, \"start\": 201}, {\"doc_ids\": [\"DOC-B0320-BASE\"], \"end\": 390, \"start\": 269}, {\"doc_ids\": [\"DOC-B0320-BASE\"], \"end\": 408, \"start\": 391}, {\"doc_ids\": [\"DOC-B0320-TOUR_API-130506\"], \"end\": 482, \"start\": 409}, {\"doc_ids\": [\"DOC-B0320-TOUR_API-130506\"], \"end\": 606, \"start\": 483}, {\"doc_ids\": [\"DOC-B0320-TOUR_API-130506\"], \"end\": 656, \"start\": 607}, {\"doc_ids\": [\"DOC-B0320-TOUR_API-130506\"], \"end\": 741, \"start\": 657}, {\"doc_ids\": [\"DOC-B0320-TOUR_API-130506\"], \"end\": 812, \"start\": 742}], \"source_urls\": [], \"text\": \"남원 지역은 예로부터 역사와 전통이 깊은 고장으로 많은 문화유산과 민속자료가 산재해 있다. 오랜 역사를 증거 하는 고대시대의 출토유물, 광한루로 대표되는 수준 높았던 조선시대 양반 문화, 정유재란기 왜적에 대항했던 선열들의 정신과 흔적들이 있다. 또한 남원은 세계적 무형유산인 판소리의 고장이며 『춘향전』, 『흥부전』등 고전 문학의 산실이자 주요 배경지였다. 남원향토박물관은 산재해 있는 남원의 유형 · 무형의 많은 문화유산을 체계적으로 수집·보존·전시·연구하기 위해 설립되었다. 이러한 체계적 수집, 연구, 전시를 통해 인류의 문화 자산을 널리 인류와 함께 향유하며, 안으로는 지역의 정체성을 함양하여 애향심을 기르고, 밖으로는 남원의 문화를 선양하여 문화유산을 온전히 후손들에게 전하고자 한다. * 개관일 2004년 5월 1일 춘향테마파크 안에 있는 남원향토박물관은 남원지역에 산재해 있는 문화유산을 체계적으로 수집, 보존, 전시, 연구하기 위해 설립되었다. 남원지역은 예로부터 역사와 전통이 깊은 고장으로 많은 문화유산과 오랜 역사를 증거하는 고대 유물들과 시대별 독특한 문화의 산실이자, 세계적 무형유산인 판소리의 고장이며, 춘향전을 비롯한 고전 문학의 태생지이자 배경지였다. 박물관에는 상설 전시 공간, 수장고, 기획 전시실, 영상실, 종합안내실로 구성되어 있다. 상설 전시 공간에는 구석기 시대부터 시작된 남원의 역사와 판소리, 동편제, 남원의 문학과 세시풍속, 민간신앙 등의 남원지역의 민속자료를 전시하고 있다. 춘향테마파크는 심수관도예전시관과 춘향전 영화 세트장, 남원향토박물관이 있어 테마파크 입장권 하나로 모든 곳을 관람할 수 있다.\"}",
+    "{\"evidence_context_version\": \"grounded-evidence-v2\", \"evidence_id\": \"E5\", \"metadata_provenance\": {\"base_data_date\": \"2025-12-18\", \"fields\": {\"address\": \"경상북도 문경시 가은읍 대야로 1683\", \"adult_fee\": \"0\", \"adult_fee_status\": \"BASE_FEE_ZERO_CHECK_EXCEPTIONS\", \"child_fee\": \"0\", \"closure_rule_raw\": \"매주 월요일, 1월1일, 설날, 추석\", \"holiday_close\": \"18:00\", \"holiday_open\": \"09:00\", \"name\": \"운강이강년기념관\", \"ownership_type\": \"공립\", \"sido\": \"경상북도\", \"sigungu\": \"문경시\", \"weekday_close\": \"18:00\", \"weekday_open\": \"09:00\", \"youth_fee\": \"0\"}, \"source_kind\": \"derived_csv_row\", \"source_locator\": \"data/processed/museum_final_738.csv#record=513\", \"trust\": \"derived_dataset_not_human_verified\"}, \"museum_id\": \"M0738\", \"name\": \"운강이강년기념관\", \"source_doc_ids\": [\"DOC-B0738-TOUR_API-229911\"], \"source_documents\": [{\"doc_id\": \"DOC-B0738-TOUR_API-229911\", \"match_trust\": \"AUTO_MATCH_NOT_HUMAN_VERIFIED\", \"source_locator\": \"data/raw/museum_tourapi_with_overview.csv#row=356\", \"source_record_id\": \"229911\", \"source_type\": \"TOUR_API\"}], \"source_locator\": \"data/raw/museum_tourapi_with_overview.csv#row=356\", \"source_locators\": [\"data/raw/museum_tourapi_with_overview.csv#row=356\"], \"source_scope\": \"text\", \"source_spans\": [{\"doc_ids\": [\"DOC-B0738-TOUR_API-229911\"], \"end\": 71, \"start\": 0}, {\"doc_ids\": [\"DOC-B0738-TOUR_API-229911\"], \"end\": 220, \"start\": 72}, {\"doc_ids\": [\"DOC-B0738-TOUR_API-229911\"], \"end\": 354, \"start\": 221}, {\"doc_ids\": [\"DOC-B0738-TOUR_API-229911\"], \"end\": 469, \"start\": 355}, {\"doc_ids\": [\"DOC-B0738-TOUR_API-229911\"], \"end\": 526, \"start\": 470}, {\"doc_ids\": [\"DOC-B0738-TOUR_API-229911\"], \"end\": 639, \"start\": 527}], \"source_urls\": [], \"text\": \"운강기념관은 대한제국시대 구국의 일념으로 의병을 일으켜 빛나는 승리를 거둔 도창의대장 운강 이강년 선생의 업적을 기리는 곳이다. 운강 이강년은 일제 치하에서 여러 번의 전투를 해서 대승을 거둔 문경 출신의 대표적인 독립운동가로, 1908년 제천 작성 전투에서 일본군의 기습을 받아 결사 항전하다 발목에 적탄을 맞아 옥고를 치르다 1908년 10월 서대문 형무소에서 교수형으로 순국하였다고 한다. 이러한 의병대장 운강이강년선생의 항일투쟁의 숭고한 위업을 재조명하고, 이를 널리 알려 자라나는 후손들에게 역사의 산 교육장으로 활용하여 국민정신을 고취시키고 또한 올바른 민족 가치관을 정립하고자 기념관을 2002년 4월 11일에 개관했다. 운강 선생의 영정을 모시는 사당에서는 매년 9월 봉행제를 지내며 사당 옆 유물전시관에는 선생의 의병 활동 연보와 교지, 간찰을 비롯하여 활·화살·조총·화약통 등의 유품, 훈장 및 포장 등이 전시되어 있다. 또한 재산전투 디오라마, 영상실, 정보검색 코너 등도 마련되어 있어 사실적인 묘사와 정보를 제시한다. 전시관 외벽에는 의병 항쟁 13년 운강과 함께한 의병들의 이름과 출신, 고향 훈장 등의 기록이 있으며 야외정원에는 문경 출신의 독립운동가 84인을 기억하고자 이름과 약력이 적힌 안내판이 설치되어 있다.\"}"
+  ],
+  "mode": "supervisor_full",
+  "question_id": "Q299",
+  "evidence": [
+    {
+      "museum_id": "M0525",
+      "name": "국립관세박물관",
+      "document": "국립관세박물관은 강남구에 위치한 국립박물관으로, 개항기부터 현대까지 한국 경제사와 함께한 관세 문화를 경험할 수 있는 공간이다. 박물관은 총 3개 주제관인 관세역사관, 관세행정관, 관세외교관이 있으며, 핸즈온 전시 공간인 공항 체험과 해외직구시 사용하는 유니패스존에서는 인터렉티브 체험을 할 수 있다. 또한 박물관 관람 시에는 전시실에 비치된 전시 활동지와 모바일을 활용한 웹콘텐츠로 관세 문화를 입체적으로 경험 할 수 있다. 관세 문화를 더 깊이 체험하고자 할 때에는 별도 전화 예약을 통해 박물관 교육에 참여 가능하다. 관세박물관을 통해 세관의 역사를 재조명하고 관세 주권과 국익을 지켜온 관세인의 노고를 기억함으로써 국민들에게 세관에 대한 이해를 높이는 한편, 더 발전된 미래로 나아가기 위한 교훈의 장으로 삼고자 하는 취지를 가지고 있다.",
+      "metadata": {
+        "requires_manual_review": true,
+        "adult_fee": 0.0,
+        "holiday_close": "00:00",
+        "longitude": 127.033779,
+        "holiday_open": "00:00",
+        "weekday_open": "10:00",
+        "closure_rule_raw": "주말 및 공휴일",
+        "source_types": "TOUR_API",
+        "address": "서울특별시 강남구 언주로 721",
+        "image_copyright": "Type3",
+        "homepage_url": "https://www.customs.go.kr/seoul",
+        "ownership_type": "국립",
+        "sido": "서울특별시",
+        "latitude": 37.518374,
+        "name": "국립관세박물관",
+        "sigungu": "강남구",
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "weekday_close": "18:00",
+        "youth_fee": 0.0,
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/25/3503425_image2_1.jpg",
+        "child_fee": 0.0
+      },
+      "vector_rank": 2,
+      "bm25_rank": 1,
+      "vector_distance": 0.5063587427139282,
+      "vector_score": null,
+      "bm25_score": 41.61061585917216,
+      "vector_document": "국립관세박물관은 강남구에 위치한 국립박물관으로, 개항기부터 현대까지 한국 경제사와 함께한 관세 문화를 경험할 수 있는 공간이다. 박물관은 총 3개 주제관인 관세역사관, 관세행정관, 관세외교관이 있으며, 핸즈온 전시 공간인 공항 체험과 해외직구시 사용하는 유니패스존에서는 인터렉티브 체험을 할 수 있다. 또한 박물관 관람 시에는 전시실에 비치된 전시 활동지와 모바일을 활용한 웹콘텐츠로 관세 문화를 입체적으로 경험 할 수 있다. 관세 문화를 더 깊이 체험하고자 할 때에는 별도 전화 예약을 통해 박물관 교육에 참여 가능하다. 관세박물관을 통해 세관의 역사를 재조명하고 관세 주권과 국익을 지켜온 관세인의 노고를 기억함으로써 국민들에게 세관에 대한 이해를 높이는 한편, 더 발전된 미래로 나아가기 위한 교훈의 장으로 삼고자 하는 취지를 가지고 있다.",
+      "bm25_document": "국립관세박물관은 강남구에 위치한 국립박물관으로, 개항기부터 현대까지 한국 경제사와 함께한 관세 문화를 경험할 수 있는 공간이다. 박물관은 총 3개 주제관인 관세역사관, 관세행정관, 관세외교관이 있으며, 핸즈온 전시 공간인 공항 체험과 해외직구시 사용하는 유니패스존에서는 인터렉티브 체험을 할 수 있다. 또한 박물관 관람 시에는 전시실에 비치된 전시 활동지와 모바일을 활용한 웹콘텐츠로 관세 문화를 입체적으로 경험 할 수 있다. 관세 문화를 더 깊이 체험하고자 할 때에는 별도 전화 예약을 통해 박물관 교육에 참여 가능하다. 관세박물관을 통해 세관의 역사를 재조명하고 관세 주권과 국익을 지켜온 관세인의 노고를 기억함으로써 국민들에게 세관에 대한 이해를 높이는 한편, 더 발전된 미래로 나아가기 위한 교훈의 장으로 삼고자 하는 취지를 가지고 있다.",
+      "best_span_id": "chroma:M0525",
+      "best_span_text": "국립관세박물관은 강남구에 위치한 국립박물관으로, 개항기부터 현대까지 한국 경제사와 함께한 관세 문화를 경험할 수 있는 공간이다. 박물관은 총 3개 주제관인 관세역사관, 관세행정관, 관세외교관이 있으며, 핸즈온 전시 공간인 공항 체험과 해외직구시 사용하는 유니패스존에서는 인터렉티브 체험을 할 수 있다. 또한 박물관 관람 시에는 전시실에 비치된 전시 활동지와 모바일을 활용한 웹콘텐츠로 관세 문화를 입체적으로 경험 할 수 있다. 관세 문화를 더 깊이 체험하고자 할 때에는 별도 전화 예약을 통해 박물관 교육에 참여 가능하다. 관세박물관을 통해 세관의 역사를 재조명하고 관세 주권과 국익을 지켜온 관세인의 노고를 기억함으로써 국민들에게 세관에 대한 이해를 높이는 한편, 더 발전된 미래로 나아가기 위한 교훈의 장으로 삼고자 하는 취지를 가지고 있다.",
+      "fusion_score": 0.03252247488101534,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 1,
+      "rerank_score": 0.9998551607131958,
+      "rank": 1,
+      "score": 0.9998551607131958,
+      "score_type": "cross_encoder",
+      "distance": 0.5063587427139282,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0525",
+      "source_doc_ids": [
+        "DOC-B0525-TOUR_API-130924"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0525-TOUR_API-130924",
+          "source_type": "TOUR_API",
+          "source_record_id": "130924",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=259",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 71,
+          "doc_ids": [
+            "DOC-B0525-TOUR_API-130924"
+          ]
+        },
+        {
+          "start": 72,
+          "end": 168,
+          "doc_ids": [
+            "DOC-B0525-TOUR_API-130924"
+          ]
+        },
+        {
+          "start": 169,
+          "end": 238,
+          "doc_ids": [
+            "DOC-B0525-TOUR_API-130924"
+          ]
+        },
+        {
+          "start": 239,
+          "end": 292,
+          "doc_ids": [
+            "DOC-B0525-TOUR_API-130924"
+          ]
+        },
+        {
+          "start": 293,
+          "end": 417,
+          "doc_ids": [
+            "DOC-B0525-TOUR_API-130924"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=259",
+      "text": "국립관세박물관은 강남구에 위치한 국립박물관으로, 개항기부터 현대까지 한국 경제사와 함께한 관세 문화를 경험할 수 있는 공간이다. 박물관은 총 3개 주제관인 관세역사관, 관세행정관, 관세외교관이 있으며, 핸즈온 전시 공간인 공항 체험과 해외직구시 사용하는 유니패스존에서는 인터렉티브 체험을 할 수 있다. 또한 박물관 관람 시에는 전시실에 비치된 전시 활동지와 모바일을 활용한 웹콘텐츠로 관세 문화를 입체적으로 경험 할 수 있다. 관세 문화를 더 깊이 체험하고자 할 때에는 별도 전화 예약을 통해 박물관 교육에 참여 가능하다. 관세박물관을 통해 세관의 역사를 재조명하고 관세 주권과 국익을 지켜온 관세인의 노고를 기억함으로써 국민들에게 세관에 대한 이해를 높이는 한편, 더 발전된 미래로 나아가기 위한 교훈의 장으로 삼고자 하는 취지를 가지고 있다.",
+      "sido": "서울특별시",
+      "sigungu": "강남구",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=259"
+      ],
+      "evidence_id": "E1",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=368",
+        "fields": {
+          "name": "국립관세박물관",
+          "sido": "서울특별시",
+          "sigungu": "강남구",
+          "address": "서울특별시 강남구 언주로 721",
+          "ownership_type": "국립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "10:00",
+          "weekday_close": "18:00",
+          "holiday_open": "00:00",
+          "holiday_close": "00:00",
+          "closure_rule_raw": "주말 및 공휴일"
+        },
+        "base_data_date": "2026-04-08",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0496",
+      "name": "국립조세박물관",
+      "document": "조세박물관은 세금의 역사와 조세제도, 국세행정의 발전과정을 소개하여 세금의 중요성을 느낄 수 있는 국내유일의 세금전문박물관이다. 세금의 중요성을 홍보하고 국세행정에 대한 이해를 도모하고자 ‘대국민 교육의 장’으로서 설립되었다. 각 시대별 조세제도의 내용과 역사적 사건에 관한 자료들을 정리하여 전시하고 있으며, 세금과 관련된 각종 도서와 연구논문 등을 수집관리하고 있다. 학생들에게는 세금 체험 장소로, 연구자들에게는 자료관으로 이용되고 있다.",
+      "metadata": {
+        "image_copyright": "Type3",
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "longitude": 127.2603064,
+        "adult_fee": 0.0,
+        "ownership_type": "국립",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/45/4063845_image2_1.jpeg",
+        "weekday_open": "09:00",
+        "source_types": "TOUR_API",
+        "address": "세종특별자치시 국세청로 8-14",
+        "homepage_url": "https://www.nts.go.kr/museum",
+        "requires_manual_review": true,
+        "child_fee": 0.0,
+        "closure_rule_raw": "매주 월요일, 법정공휴일",
+        "sido": "세종특별자치시",
+        "weekday_close": "18:00",
+        "sigungu": "세종시",
+        "latitude": 36.48507978,
+        "youth_fee": 0.0,
+        "name": "국립조세박물관"
+      },
+      "vector_rank": 1,
+      "bm25_rank": null,
+      "vector_distance": 0.4888976812362671,
+      "vector_score": null,
+      "bm25_score": null,
+      "vector_document": "조세박물관은 세금의 역사와 조세제도, 국세행정의 발전과정을 소개하여 세금의 중요성을 느낄 수 있는 국내유일의 세금전문박물관이다. 세금의 중요성을 홍보하고 국세행정에 대한 이해를 도모하고자 ‘대국민 교육의 장’으로서 설립되었다. 각 시대별 조세제도의 내용과 역사적 사건에 관한 자료들을 정리하여 전시하고 있으며, 세금과 관련된 각종 도서와 연구논문 등을 수집관리하고 있다. 학생들에게는 세금 체험 장소로, 연구자들에게는 자료관으로 이용되고 있다.",
+      "bm25_document": "",
+      "best_span_id": null,
+      "best_span_text": null,
+      "fusion_score": 0.01639344262295082,
+      "retrieved_by": [
+        "vector"
+      ],
+      "fusion_rank": 4,
+      "rerank_score": 0.62752765417099,
+      "rank": 2,
+      "score": 0.62752765417099,
+      "score_type": "cross_encoder",
+      "distance": 0.4888976812362671,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector"
+      ],
+      "retriever": "vector",
+      "source_doc_ids": [
+        "DOC-B0496-TOUR_API-130952"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0496-TOUR_API-130952",
+          "source_type": "TOUR_API",
+          "source_record_id": "130952",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=245",
+          "match_trust": "RECHECKED_BY_RULE_NOT_HUMAN_APPROVED"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 71,
+          "doc_ids": [
+            "DOC-B0496-TOUR_API-130952"
+          ]
+        },
+        {
+          "start": 72,
+          "end": 126,
+          "doc_ids": [
+            "DOC-B0496-TOUR_API-130952"
+          ]
+        },
+        {
+          "start": 127,
+          "end": 207,
+          "doc_ids": [
+            "DOC-B0496-TOUR_API-130952"
+          ]
+        },
+        {
+          "start": 208,
+          "end": 248,
+          "doc_ids": [
+            "DOC-B0496-TOUR_API-130952"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=245",
+      "text": "조세박물관은 세금의 역사와 조세제도, 국세행정의 발전과정을 소개하여 세금의 중요성을 느낄 수 있는 국내유일의 세금전문박물관이다. 세금의 중요성을 홍보하고 국세행정에 대한 이해를 도모하고자 ‘대국민 교육의 장’으로서 설립되었다. 각 시대별 조세제도의 내용과 역사적 사건에 관한 자료들을 정리하여 전시하고 있으며, 세금과 관련된 각종 도서와 연구논문 등을 수집관리하고 있다. 학생들에게는 세금 체험 장소로, 연구자들에게는 자료관으로 이용되고 있다.",
+      "sido": "세종특별자치시",
+      "sigungu": "세종시",
+      "span_id": "",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=245"
+      ],
+      "evidence_id": "E2",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=356",
+        "fields": {
+          "name": "국립조세박물관",
+          "sido": "세종특별자치시",
+          "sigungu": "세종시",
+          "address": "세종특별자치시 국세청로 8-14",
+          "ownership_type": "국립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "09:00",
+          "weekday_close": "18:00",
+          "closure_rule_raw": "매주 월요일, 법정공휴일"
+        },
+        "base_data_date": "2026-04-08",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0927",
+      "name": "영종역사관",
+      "document": "영종역사관은 긴 세월 동안 유구한 역사와 문화, 세상과 통하는 중간 거점으로 그 가치를 재조명 받고 있는 영종도를 알리기 위하여 건립되었다. 오랜 삶의 터전으로서의 영종도와 각종 개발로 인하여 급격하게 변화된 근현대 영종도의 생활문화를 담고 있는 영종도의 대표적인 문화공간이다.",
+      "metadata": {
+        "longitude": 126.5777135,
+        "holiday_close": "18:00",
+        "weekday_close": "18:00",
+        "adult_fee": 1000.0,
+        "sigungu": "중구",
+        "youth_fee": 700.0,
+        "holiday_open": "10:00",
+        "closure_rule_raw": "매주 월요일",
+        "adult_fee_status": "BASE_FEE_PAID",
+        "requires_manual_review": true,
+        "fee_notes": "단체(20인 이상) 10~35퍼센트할인",
+        "name": "영종역사관",
+        "source_types": "TOUR_API",
+        "weekday_open": "10:00",
+        "latitude": 37.48907002,
+        "ownership_type": "공립",
+        "homepage_url": "http://www.ijcf.or.kr/load.asp?subPage=522.08",
+        "sido": "인천광역시",
+        "child_fee": 500.0,
+        "address": "인천광역시 중구 구읍로 63"
+      },
+      "vector_rank": 6,
+      "bm25_rank": 19,
+      "vector_distance": 0.5249272584915161,
+      "vector_score": null,
+      "bm25_score": 4.18020467312753,
+      "vector_document": "영종역사관은 긴 세월 동안 유구한 역사와 문화, 세상과 통하는 중간 거점으로 그 가치를 재조명 받고 있는 영종도를 알리기 위하여 건립되었다. 오랜 삶의 터전으로서의 영종도와 각종 개발로 인하여 급격하게 변화된 근현대 영종도의 생활문화를 담고 있는 영종도의 대표적인 문화공간이다.",
+      "bm25_document": "영종역사관은 긴 세월 동안 유구한 역사와 문화, 세상과 통하는 중간 거점으로 그 가치를 재조명 받고 있는 영종도를 알리기 위하여 건립되었다. 오랜 삶의 터전으로서의 영종도와 각종 개발로 인하여 급격하게 변화된 근현대 영종도의 생활문화를 담고 있는 영종도의 대표적인 문화공간이다.",
+      "best_span_id": "chroma:M0927",
+      "best_span_text": "영종역사관은 긴 세월 동안 유구한 역사와 문화, 세상과 통하는 중간 거점으로 그 가치를 재조명 받고 있는 영종도를 알리기 위하여 건립되었다. 오랜 삶의 터전으로서의 영종도와 각종 개발로 인하여 급격하게 변화된 근현대 영종도의 생활문화를 담고 있는 영종도의 대표적인 문화공간이다.",
+      "fusion_score": 0.027809742999616416,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 2,
+      "rerank_score": 0.00108276994433254,
+      "rank": 3,
+      "score": 0.00108276994433254,
+      "score_type": "cross_encoder",
+      "distance": 0.5249272584915161,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0927",
+      "source_doc_ids": [
+        "DOC-B0927-TOUR_API-2638436"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0927-TOUR_API-2638436",
+          "source_type": "TOUR_API",
+          "source_record_id": "2638436",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=437",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 78,
+          "doc_ids": [
+            "DOC-B0927-TOUR_API-2638436"
+          ]
+        },
+        {
+          "start": 79,
+          "end": 155,
+          "doc_ids": [
+            "DOC-B0927-TOUR_API-2638436"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=437",
+      "text": "영종역사관은 긴 세월 동안 유구한 역사와 문화, 세상과 통하는 중간 거점으로 그 가치를 재조명 받고 있는 영종도를 알리기 위하여 건립되었다. 오랜 삶의 터전으로서의 영종도와 각종 개발로 인하여 급격하게 변화된 근현대 영종도의 생활문화를 담고 있는 영종도의 대표적인 문화공간이다.",
+      "sido": "인천광역시",
+      "sigungu": "중구",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=437"
+      ],
+      "evidence_id": "E3",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=642",
+        "fields": {
+          "name": "영종역사관",
+          "sido": "인천광역시",
+          "sigungu": "중구",
+          "address": "인천광역시 중구 구읍로 63",
+          "ownership_type": "공립",
+          "adult_fee": "1000",
+          "youth_fee": "700",
+          "child_fee": "500",
+          "adult_fee_status": "BASE_FEE_PAID",
+          "weekday_open": "10:00",
+          "weekday_close": "18:00",
+          "holiday_open": "10:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "매주 월요일"
+        },
+        "base_data_date": "2025-08-18",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0320",
+      "name": "남원향토박물관",
+      "document": "남원 지역은 예로부터 역사와 전통이 깊은 고장으로 많은 문화유산과 민속자료가 산재해 있다. 오랜 역사를 증거 하는 고대시대의 출토유물, 광한루로 대표되는 수준 높았던 조선시대 양반 문화, 정유재란기 왜적에 대항했던 선열들의 정신과 흔적들이 있다. 또한 남원은 세계적 무형유산인 판소리의 고장이며 『춘향전』, 『흥부전』등 고전 문학의 산실이자 주요 배경지였다. 남원향토박물관은 산재해 있는 남원의 유형 · 무형의 많은 문화유산을 체계적으로 수집·보존·전시·연구하기 위해 설립되었다. 이러한 체계적 수집, 연구, 전시를 통해 인류의 문화 자산을 널리 인류와 함께 향유하며, 안으로는 지역의 정체성을 함양하여 애향심을 기르고, 밖으로는 남원의 문화를 선양하여 문화유산을 온전히 후손들에게 전하고자 한다. * 개관일 2004년 5월 1일 춘향테마파크 안에 있는 남원향토박물관은 남원지역에 산재해 있는 문화유산을 체계적으로 수집, 보존, 전시, 연구하기 위해 설립되었다. 남원지역은 예로부터 역사와 전통이 깊은 고장으로 많은 문화유산과 오랜 역사를 증거하는 고대 유물들과 시대별 독특한 문화의 산실이자, 세계적 무형유산인 판소리의 고장이며, 춘향전을 비롯한 고전 문학의 태생지이자 배경지였다. 박물관에는 상설 전시 공간, 수장고, 기획 전시실, 영상실, 종합안내실로 구성되어 있다. 상설 전시 공간에는 구석기 시대부터 시작된 남원의 역사와 판소리, 동편제, 남원의 문학과 세시풍속, 민간신앙 등의 남원지역의 민속자료를 전시하고 있다. 춘향테마파크는 심수관도예전시관과 춘향전 영화 세트장, 남원향토박물관이 있어 테마파크 입장권 하나로 모든 곳을 관람할 수 있다.",
+      "metadata": {
+        "homepage_url": "http://www.namwon.go.kr/tour/",
+        "name": "남원향토박물관",
+        "requires_manual_review": true,
+        "child_fee": 0.0,
+        "youth_fee": 0.0,
+        "weekday_open": "09:00",
+        "address": "전북특별자치도 남원시 양림길 14-9",
+        "ownership_type": "공립",
+        "adult_fee": 0.0,
+        "latitude": 35.401464,
+        "fee_notes": "춘향테마파크 안에 있어 추가로 3000원을 지불해야 함.",
+        "closure_rule_raw": "월+1월 1일+설날+추석",
+        "longitude": 127.386902,
+        "sido": "전북특별자치도",
+        "amenities_raw": "물품보관소",
+        "holiday_open": "09:00",
+        "image_copyright": "Type3",
+        "source_types": "BASE|TOUR_API",
+        "holiday_close": "18:00",
+        "weekday_close": "18:00",
+        "sigungu": "남원시",
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/15/3343915_image2_1.jpg"
+      },
+      "vector_rank": null,
+      "bm25_rank": 9,
+      "vector_distance": null,
+      "vector_score": null,
+      "bm25_score": 4.859423642336212,
+      "vector_document": "",
+      "bm25_document": "남원 지역은 예로부터 역사와 전통이 깊은 고장으로 많은 문화유산과 민속자료가 산재해 있다. 오랜 역사를 증거 하는 고대시대의 출토유물, 광한루로 대표되는 수준 높았던 조선시대 양반 문화, 정유재란기 왜적에 대항했던 선열들의 정신과 흔적들이 있다. 또한 남원은 세계적 무형유산인 판소리의 고장이며 『춘향전』, 『흥부전』등 고전 문학의 산실이자 주요 배경지였다. 남원향토박물관은 산재해 있는 남원의 유형 · 무형의 많은 문화유산을 체계적으로 수집·보존·전시·연구하기 위해 설립되었다. 이러한 체계적 수집, 연구, 전시를 통해 인류의 문화 자산을 널리 인류와 함께 향유하며, 안으로는 지역의 정체성을 함양하여 애향심을 기르고, 밖으로는 남원의 문화를 선양하여 문화유산을 온전히 후손들에게 전하고자 한다. * 개관일 2004년 5월 1일 춘향테마파크 안에 있는 남원향토박물관은 남원지역에 산재해 있는 문화유산을 체계적으로 수집, 보존, 전시, 연구하기 위해 설립되었다. 남원지역은 예로부터 역사와 전통이 깊은 고장으로 많은 문화유산과 오랜 역사를 증거하는 고대 유물들과 시대별 독특한 문화의 산실이자, 세계적 무형유산인 판소리의 고장이며, 춘향전을 비롯한 고전 문학의 태생지이자 배경지였다. 박물관에는 상설 전시 공간, 수장고, 기획 전시실, 영상실, 종합안내실로 구성되어 있다. 상설 전시 공간에는 구석기 시대부터 시작된 남원의 역사와 판소리, 동편제, 남원의 문학과 세시풍속, 민간신앙 등의 남원지역의 민속자료를 전시하고 있다. 춘향테마파크는 심수관도예전시관과 춘향전 영화 세트장, 남원향토박물관이 있어 테마파크 입장권 하나로 모든 곳을 관람할 수 있다.",
+      "best_span_id": "chroma:M0320",
+      "best_span_text": "남원 지역은 예로부터 역사와 전통이 깊은 고장으로 많은 문화유산과 민속자료가 산재해 있다. 오랜 역사를 증거 하는 고대시대의 출토유물, 광한루로 대표되는 수준 높았던 조선시대 양반 문화, 정유재란기 왜적에 대항했던 선열들의 정신과 흔적들이 있다. 또한 남원은 세계적 무형유산인 판소리의 고장이며 『춘향전』, 『흥부전』등 고전 문학의 산실이자 주요 배경지였다. 남원향토박물관은 산재해 있는 남원의 유형 · 무형의 많은 문화유산을 체계적으로 수집·보존·전시·연구하기 위해 설립되었다. 이러한 체계적 수집, 연구, 전시를 통해 인류의 문화 자산을 널리 인류와 함께 향유하며, 안으로는 지역의 정체성을 함양하여 애향심을 기르고, 밖으로는 남원의 문화를 선양하여 문화유산을 온전히 후손들에게 전하고자 한다. * 개관일 2004년 5월 1일 춘향테마파크 안에 있는 남원향토박물관은 남원지역에 산재해 있는 문화유산을 체계적으로 수집, 보존, 전시, 연구하기 위해 설립되었다. 남원지역은 예로부터 역사와 전통이 깊은 고장으로 많은 문화유산과 오랜 역사를 증거하는 고대 유물들과 시대별 독특한 문화의 산실이자, 세계적 무형유산인 판소리의 고장이며, 춘향전을 비롯한 고전 문학의 태생지이자 배경지였다. 박물관에는 상설 전시 공간, 수장고, 기획 전시실, 영상실, 종합안내실로 구성되어 있다. 상설 전시 공간에는 구석기 시대부터 시작된 남원의 역사와 판소리, 동편제, 남원의 문학과 세시풍속, 민간신앙 등의 남원지역의 민속자료를 전시하고 있다. 춘향테마파크는 심수관도예전시관과 춘향전 영화 세트장, 남원향토박물관이 있어 테마파크 입장권 하나로 모든 곳을 관람할 수 있다.",
+      "fusion_score": 0.014492753623188406,
+      "retrieved_by": [
+        "bm25"
+      ],
+      "fusion_rank": 18,
+      "rerank_score": 0.0009737571817822754,
+      "rank": 4,
+      "score": 0.0009737571817822754,
+      "score_type": "cross_encoder",
+      "distance": null,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "bm25"
+      ],
+      "retriever": "bm25",
+      "span_id": "chroma:M0320",
+      "source_doc_ids": [
+        "DOC-B0320-BASE",
+        "DOC-B0320-TOUR_API-130506"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0320-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0320",
+          "source_locator": "data/raw/museum_base_1070.csv#row=321",
+          "match_trust": "BASE_SOURCE"
+        },
+        {
+          "doc_id": "DOC-B0320-TOUR_API-130506",
+          "source_type": "TOUR_API",
+          "source_record_id": "130506",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=157",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 50,
+          "doc_ids": [
+            "DOC-B0320-BASE"
+          ]
+        },
+        {
+          "start": 51,
+          "end": 137,
+          "doc_ids": [
+            "DOC-B0320-BASE"
+          ]
+        },
+        {
+          "start": 138,
+          "end": 200,
+          "doc_ids": [
+            "DOC-B0320-BASE"
+          ]
+        },
+        {
+          "start": 201,
+          "end": 268,
+          "doc_ids": [
+            "DOC-B0320-BASE"
+          ]
+        },
+        {
+          "start": 269,
+          "end": 390,
+          "doc_ids": [
+            "DOC-B0320-BASE"
+          ]
+        },
+        {
+          "start": 391,
+          "end": 408,
+          "doc_ids": [
+            "DOC-B0320-BASE"
+          ]
+        },
+        {
+          "start": 409,
+          "end": 482,
+          "doc_ids": [
+            "DOC-B0320-TOUR_API-130506"
+          ]
+        },
+        {
+          "start": 483,
+          "end": 606,
+          "doc_ids": [
+            "DOC-B0320-TOUR_API-130506"
+          ]
+        },
+        {
+          "start": 607,
+          "end": 656,
+          "doc_ids": [
+            "DOC-B0320-TOUR_API-130506"
+          ]
+        },
+        {
+          "start": 657,
+          "end": 741,
+          "doc_ids": [
+            "DOC-B0320-TOUR_API-130506"
+          ]
+        },
+        {
+          "start": 742,
+          "end": 812,
+          "doc_ids": [
+            "DOC-B0320-TOUR_API-130506"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_base_1070.csv#row=321",
+      "text": "남원 지역은 예로부터 역사와 전통이 깊은 고장으로 많은 문화유산과 민속자료가 산재해 있다. 오랜 역사를 증거 하는 고대시대의 출토유물, 광한루로 대표되는 수준 높았던 조선시대 양반 문화, 정유재란기 왜적에 대항했던 선열들의 정신과 흔적들이 있다. 또한 남원은 세계적 무형유산인 판소리의 고장이며 『춘향전』, 『흥부전』등 고전 문학의 산실이자 주요 배경지였다. 남원향토박물관은 산재해 있는 남원의 유형 · 무형의 많은 문화유산을 체계적으로 수집·보존·전시·연구하기 위해 설립되었다. 이러한 체계적 수집, 연구, 전시를 통해 인류의 문화 자산을 널리 인류와 함께 향유하며, 안으로는 지역의 정체성을 함양하여 애향심을 기르고, 밖으로는 남원의 문화를 선양하여 문화유산을 온전히 후손들에게 전하고자 한다. * 개관일 2004년 5월 1일 춘향테마파크 안에 있는 남원향토박물관은 남원지역에 산재해 있는 문화유산을 체계적으로 수집, 보존, 전시, 연구하기 위해 설립되었다. 남원지역은 예로부터 역사와 전통이 깊은 고장으로 많은 문화유산과 오랜 역사를 증거하는 고대 유물들과 시대별 독특한 문화의 산실이자, 세계적 무형유산인 판소리의 고장이며, 춘향전을 비롯한 고전 문학의 태생지이자 배경지였다. 박물관에는 상설 전시 공간, 수장고, 기획 전시실, 영상실, 종합안내실로 구성되어 있다. 상설 전시 공간에는 구석기 시대부터 시작된 남원의 역사와 판소리, 동편제, 남원의 문학과 세시풍속, 민간신앙 등의 남원지역의 민속자료를 전시하고 있다. 춘향테마파크는 심수관도예전시관과 춘향전 영화 세트장, 남원향토박물관이 있어 테마파크 입장권 하나로 모든 곳을 관람할 수 있다.",
+      "sido": "전북특별자치도",
+      "sigungu": "남원시",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_base_1070.csv#row=321"
+      ],
+      "evidence_id": "E4",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=232",
+        "fields": {
+          "name": "남원향토박물관",
+          "sido": "전북특별자치도",
+          "sigungu": "남원시",
+          "address": "전북특별자치도 남원시 양림길 14-9",
+          "ownership_type": "공립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "09:00",
+          "weekday_close": "18:00",
+          "holiday_open": "09:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "월+1월 1일+설날+추석",
+          "amenities_raw": "물품보관소"
+        },
+        "base_data_date": "2026-06-24",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0738",
+      "name": "운강이강년기념관",
+      "document": "운강기념관은 대한제국시대 구국의 일념으로 의병을 일으켜 빛나는 승리를 거둔 도창의대장 운강 이강년 선생의 업적을 기리는 곳이다. 운강 이강년은 일제 치하에서 여러 번의 전투를 해서 대승을 거둔 문경 출신의 대표적인 독립운동가로, 1908년 제천 작성 전투에서 일본군의 기습을 받아 결사 항전하다 발목에 적탄을 맞아 옥고를 치르다 1908년 10월 서대문 형무소에서 교수형으로 순국하였다고 한다. 이러한 의병대장 운강이강년선생의 항일투쟁의 숭고한 위업을 재조명하고, 이를 널리 알려 자라나는 후손들에게 역사의 산 교육장으로 활용하여 국민정신을 고취시키고 또한 올바른 민족 가치관을 정립하고자 기념관을 2002년 4월 11일에 개관했다. 운강 선생의 영정을 모시는 사당에서는 매년 9월 봉행제를 지내며 사당 옆 유물전시관에는 선생의 의병 활동 연보와 교지, 간찰을 비롯하여 활·화살·조총·화약통 등의 유품, 훈장 및 포장 등이 전시되어 있다. 또한 재산전투 디오라마, 영상실, 정보검색 코너 등도 마련되어 있어 사실적인 묘사와 정보를 제시한다. 전시관 외벽에는 의병 항쟁 13년 운강과 함께한 의병들의 이름과 출신, 고향 훈장 등의 기록이 있으며 야외정원에는 문경 출신의 독립운동가 84인을 기억하고자 이름과 약력이 적힌 안내판이 설치되어 있다.",
+      "metadata": {
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "longitude": 127.9955282,
+        "source_types": "TOUR_API",
+        "weekday_close": "18:00",
+        "address": "경상북도 문경시 가은읍 대야로 1683",
+        "ownership_type": "공립",
+        "child_fee": 0.0,
+        "sido": "경상북도",
+        "youth_fee": 0.0,
+        "holiday_open": "09:00",
+        "closure_rule_raw": "매주 월요일, 1월1일, 설날, 추석",
+        "latitude": 36.67228175,
+        "sigungu": "문경시",
+        "requires_manual_review": true,
+        "weekday_open": "09:00",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/82/3584882_image2_1.jpg",
+        "image_copyright": "Type1",
+        "adult_fee": 0.0,
+        "homepage_url": "http://ungang.kr",
+        "name": "운강이강년기념관",
+        "fee_notes": "무료",
+        "holiday_close": "18:00"
+      },
+      "vector_rank": null,
+      "bm25_rank": 5,
+      "vector_distance": null,
+      "vector_score": null,
+      "bm25_score": 5.681278889599142,
+      "vector_document": "",
+      "bm25_document": "운강기념관은 대한제국시대 구국의 일념으로 의병을 일으켜 빛나는 승리를 거둔 도창의대장 운강 이강년 선생의 업적을 기리는 곳이다. 운강 이강년은 일제 치하에서 여러 번의 전투를 해서 대승을 거둔 문경 출신의 대표적인 독립운동가로, 1908년 제천 작성 전투에서 일본군의 기습을 받아 결사 항전하다 발목에 적탄을 맞아 옥고를 치르다 1908년 10월 서대문 형무소에서 교수형으로 순국하였다고 한다. 이러한 의병대장 운강이강년선생의 항일투쟁의 숭고한 위업을 재조명하고, 이를 널리 알려 자라나는 후손들에게 역사의 산 교육장으로 활용하여 국민정신을 고취시키고 또한 올바른 민족 가치관을 정립하고자 기념관을 2002년 4월 11일에 개관했다. 운강 선생의 영정을 모시는 사당에서는 매년 9월 봉행제를 지내며 사당 옆 유물전시관에는 선생의 의병 활동 연보와 교지, 간찰을 비롯하여 활·화살·조총·화약통 등의 유품, 훈장 및 포장 등이 전시되어 있다. 또한 재산전투 디오라마, 영상실, 정보검색 코너 등도 마련되어 있어 사실적인 묘사와 정보를 제시한다. 전시관 외벽에는 의병 항쟁 13년 운강과 함께한 의병들의 이름과 출신, 고향 훈장 등의 기록이 있으며 야외정원에는 문경 출신의 독립운동가 84인을 기억하고자 이름과 약력이 적힌 안내판이 설치되어 있다.",
+      "best_span_id": "chroma:M0738",
+      "best_span_text": "운강기념관은 대한제국시대 구국의 일념으로 의병을 일으켜 빛나는 승리를 거둔 도창의대장 운강 이강년 선생의 업적을 기리는 곳이다. 운강 이강년은 일제 치하에서 여러 번의 전투를 해서 대승을 거둔 문경 출신의 대표적인 독립운동가로, 1908년 제천 작성 전투에서 일본군의 기습을 받아 결사 항전하다 발목에 적탄을 맞아 옥고를 치르다 1908년 10월 서대문 형무소에서 교수형으로 순국하였다고 한다. 이러한 의병대장 운강이강년선생의 항일투쟁의 숭고한 위업을 재조명하고, 이를 널리 알려 자라나는 후손들에게 역사의 산 교육장으로 활용하여 국민정신을 고취시키고 또한 올바른 민족 가치관을 정립하고자 기념관을 2002년 4월 11일에 개관했다. 운강 선생의 영정을 모시는 사당에서는 매년 9월 봉행제를 지내며 사당 옆 유물전시관에는 선생의 의병 활동 연보와 교지, 간찰을 비롯하여 활·화살·조총·화약통 등의 유품, 훈장 및 포장 등이 전시되어 있다. 또한 재산전투 디오라마, 영상실, 정보검색 코너 등도 마련되어 있어 사실적인 묘사와 정보를 제시한다. 전시관 외벽에는 의병 항쟁 13년 운강과 함께한 의병들의 이름과 출신, 고향 훈장 등의 기록이 있으며 야외정원에는 문경 출신의 독립운동가 84인을 기억하고자 이름과 약력이 적힌 안내판이 설치되어 있다.",
+      "fusion_score": 0.015384615384615385,
+      "retrieved_by": [
+        "bm25"
+      ],
+      "fusion_rank": 11,
+      "rerank_score": 0.0006272864411585033,
+      "rank": 5,
+      "score": 0.0006272864411585033,
+      "score_type": "cross_encoder",
+      "distance": null,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "bm25"
+      ],
+      "retriever": "bm25",
+      "span_id": "chroma:M0738",
+      "source_doc_ids": [
+        "DOC-B0738-TOUR_API-229911"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0738-TOUR_API-229911",
+          "source_type": "TOUR_API",
+          "source_record_id": "229911",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=356",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 71,
+          "doc_ids": [
+            "DOC-B0738-TOUR_API-229911"
+          ]
+        },
+        {
+          "start": 72,
+          "end": 220,
+          "doc_ids": [
+            "DOC-B0738-TOUR_API-229911"
+          ]
+        },
+        {
+          "start": 221,
+          "end": 354,
+          "doc_ids": [
+            "DOC-B0738-TOUR_API-229911"
+          ]
+        },
+        {
+          "start": 355,
+          "end": 469,
+          "doc_ids": [
+            "DOC-B0738-TOUR_API-229911"
+          ]
+        },
+        {
+          "start": 470,
+          "end": 526,
+          "doc_ids": [
+            "DOC-B0738-TOUR_API-229911"
+          ]
+        },
+        {
+          "start": 527,
+          "end": 639,
+          "doc_ids": [
+            "DOC-B0738-TOUR_API-229911"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=356",
+      "text": "운강기념관은 대한제국시대 구국의 일념으로 의병을 일으켜 빛나는 승리를 거둔 도창의대장 운강 이강년 선생의 업적을 기리는 곳이다. 운강 이강년은 일제 치하에서 여러 번의 전투를 해서 대승을 거둔 문경 출신의 대표적인 독립운동가로, 1908년 제천 작성 전투에서 일본군의 기습을 받아 결사 항전하다 발목에 적탄을 맞아 옥고를 치르다 1908년 10월 서대문 형무소에서 교수형으로 순국하였다고 한다. 이러한 의병대장 운강이강년선생의 항일투쟁의 숭고한 위업을 재조명하고, 이를 널리 알려 자라나는 후손들에게 역사의 산 교육장으로 활용하여 국민정신을 고취시키고 또한 올바른 민족 가치관을 정립하고자 기념관을 2002년 4월 11일에 개관했다. 운강 선생의 영정을 모시는 사당에서는 매년 9월 봉행제를 지내며 사당 옆 유물전시관에는 선생의 의병 활동 연보와 교지, 간찰을 비롯하여 활·화살·조총·화약통 등의 유품, 훈장 및 포장 등이 전시되어 있다. 또한 재산전투 디오라마, 영상실, 정보검색 코너 등도 마련되어 있어 사실적인 묘사와 정보를 제시한다. 전시관 외벽에는 의병 항쟁 13년 운강과 함께한 의병들의 이름과 출신, 고향 훈장 등의 기록이 있으며 야외정원에는 문경 출신의 독립운동가 84인을 기억하고자 이름과 약력이 적힌 안내판이 설치되어 있다.",
+      "sido": "경상북도",
+      "sigungu": "문경시",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=356"
+      ],
+      "evidence_id": "E5",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=513",
+        "fields": {
+          "name": "운강이강년기념관",
+          "sido": "경상북도",
+          "sigungu": "문경시",
+          "address": "경상북도 문경시 가은읍 대야로 1683",
+          "ownership_type": "공립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "09:00",
+          "weekday_close": "18:00",
+          "holiday_open": "09:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "매주 월요일, 1월1일, 설날, 추석"
+        },
+        "base_data_date": "2025-12-18",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    }
+  ],
+  "answer": "관세박물관은 관세 주권과 국익을 지켜온 관세인의 노고를 기억하고, 세관의 역사를 되짚어 국민의 세관에 대한 이해를 높이려는 취지를 가지고 있습니다. 또한 그 역사를 더 발전된 미래로 나아가기 위한 교훈으로 삼고자 합니다.[E1]",
+  "retrieval_status": "ok",
+  "answer_status": "answered",
+  "route": "hybrid",
+  "retry_count": 0,
+  "supervisor_verified": true,
+  "rerank_applied": true,
+  "retriever_errors": [],
+  "warnings": [],
+  "duration_ms": 72970.82,
+  "error_type": "",
+  "hit_at_1": 1,
+  "hit_at_3": 1,
+  "hit_at_5": 1,
+  "recall_at_5": 1.0,
+  "mrr_at_10": 1.0
+}

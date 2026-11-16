@@ -1,0 +1,771 @@
+{
+  "mode": "supervisor_full",
+  "question_id": "Q298",
+  "evidence": [
+    {
+      "museum_id": "M0524",
+      "name": "국립기상박물관",
+      "document": "울 국립기상박물관은 대한민국의 기상과 날씨에 관련된 다양한 정보와 자료를 전시하는 특별한 박물관이다. 서울시 종로구에 위치한 이 박물관은 기상학의 발전, 기후 변화, 날씨 예측 기술 등을 주제로 한 전시를 통해 방문객들에게 기상과 날씨의 중요성을 알리고 있다. 박물관은 기상과 관련된 역사적 자료와 최첨단 기상 관측 기술을 소개하며, 기후 변화와 자연재해에 대한 이해를 돕는 다양한 체험 프로그램도 제공한다. 전시물은 기상 장비, 예보 시스템, 세계 각국의 기상 사례 등을 포함하고 있으며, 어린이와 청소년을 위한 교육 프로그램도 마련되어 있어, 기상과 날씨에 대한 관심을 자연스럽게 키울 수 있는 장소이다. 특히, 기상 예보의 정확성과 기후 변화 대응에 대한 최신 정보를 제공하며, 과학적이고 교육적인 관점에서 기상에 대한 지식을 쌓을 수 있는 기회를 제공한다. 또한, 박물관 내에는 기상관측 체험을 할 수 있는 공간도 마련되어 있어, 관람객들이 실제 기상 데이터를 직접 체험하고 배우는 즐거운 경험을 제공한다. 서울 국립기상박물관은 날씨와 기후 변화가 현대 사회에 미치는 영향을 깊이 이해하고, 이를 해결하기 위한 과학적 접근을 배우는 중요한 교육의 장이다. 기상학에 대한 흥미를 높이고, 기후 문제에 대한 경각심을 일깨울 수 있는 특별한 공간으로 많은 이들에게 유익한 정보를 제공하는 곳이다.",
+      "metadata": {
+        "holiday_close": "18:00",
+        "sigungu": "종로구",
+        "sido": "서울특별시",
+        "ownership_type": "국립",
+        "adult_fee": 0.0,
+        "youth_fee": 0.0,
+        "holiday_open": "10:00",
+        "address": "서울특별시 종로구 송월길 52",
+        "requires_manual_review": true,
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/38/3456038_image2_1.jpg",
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "closure_rule_raw": "1월 1일, 설, 추석 당일, 매주 월요일(월요일이 공휴일, 또는 대체 공휴일인 경우 다음 첫번째 평일)",
+        "source_types": "TOUR_API",
+        "name": "국립기상박물관",
+        "weekday_open": "10:00",
+        "image_copyright": "Type1",
+        "homepage_url": "https://science.kma.go.kr/museum/",
+        "latitude": 37.5702217431,
+        "longitude": 126.966204176,
+        "weekday_close": "18:00",
+        "child_fee": 0.0
+      },
+      "vector_rank": 1,
+      "bm25_rank": 1,
+      "vector_distance": 0.40971505641937256,
+      "vector_score": null,
+      "bm25_score": 38.73845043763184,
+      "vector_document": "울 국립기상박물관은 대한민국의 기상과 날씨에 관련된 다양한 정보와 자료를 전시하는 특별한 박물관이다. 서울시 종로구에 위치한 이 박물관은 기상학의 발전, 기후 변화, 날씨 예측 기술 등을 주제로 한 전시를 통해 방문객들에게 기상과 날씨의 중요성을 알리고 있다. 박물관은 기상과 관련된 역사적 자료와 최첨단 기상 관측 기술을 소개하며, 기후 변화와 자연재해에 대한 이해를 돕는 다양한 체험 프로그램도 제공한다. 전시물은 기상 장비, 예보 시스템, 세계 각국의 기상 사례 등을 포함하고 있으며, 어린이와 청소년을 위한 교육 프로그램도 마련되어 있어, 기상과 날씨에 대한 관심을 자연스럽게 키울 수 있는 장소이다. 특히, 기상 예보의 정확성과 기후 변화 대응에 대한 최신 정보를 제공하며, 과학적이고 교육적인 관점에서 기상에 대한 지식을 쌓을 수 있는 기회를 제공한다. 또한, 박물관 내에는 기상관측 체험을 할 수 있는 공간도 마련되어 있어, 관람객들이 실제 기상 데이터를 직접 체험하고 배우는 즐거운 경험을 제공한다. 서울 국립기상박물관은 날씨와 기후 변화가 현대 사회에 미치는 영향을 깊이 이해하고, 이를 해결하기 위한 과학적 접근을 배우는 중요한 교육의 장이다. 기상학에 대한 흥미를 높이고, 기후 문제에 대한 경각심을 일깨울 수 있는 특별한 공간으로 많은 이들에게 유익한 정보를 제공하는 곳이다.",
+      "bm25_document": "울 국립기상박물관은 대한민국의 기상과 날씨에 관련된 다양한 정보와 자료를 전시하는 특별한 박물관이다. 서울시 종로구에 위치한 이 박물관은 기상학의 발전, 기후 변화, 날씨 예측 기술 등을 주제로 한 전시를 통해 방문객들에게 기상과 날씨의 중요성을 알리고 있다. 박물관은 기상과 관련된 역사적 자료와 최첨단 기상 관측 기술을 소개하며, 기후 변화와 자연재해에 대한 이해를 돕는 다양한 체험 프로그램도 제공한다. 전시물은 기상 장비, 예보 시스템, 세계 각국의 기상 사례 등을 포함하고 있으며, 어린이와 청소년을 위한 교육 프로그램도 마련되어 있어, 기상과 날씨에 대한 관심을 자연스럽게 키울 수 있는 장소이다. 특히, 기상 예보의 정확성과 기후 변화 대응에 대한 최신 정보를 제공하며, 과학적이고 교육적인 관점에서 기상에 대한 지식을 쌓을 수 있는 기회를 제공한다. 또한, 박물관 내에는 기상관측 체험을 할 수 있는 공간도 마련되어 있어, 관람객들이 실제 기상 데이터를 직접 체험하고 배우는 즐거운 경험을 제공한다. 서울 국립기상박물관은 날씨와 기후 변화가 현대 사회에 미치는 영향을 깊이 이해하고, 이를 해결하기 위한 과학적 접근을 배우는 중요한 교육의 장이다. 기상학에 대한 흥미를 높이고, 기후 문제에 대한 경각심을 일깨울 수 있는 특별한 공간으로 많은 이들에게 유익한 정보를 제공하는 곳이다.",
+      "best_span_id": "chroma:M0524",
+      "best_span_text": "울 국립기상박물관은 대한민국의 기상과 날씨에 관련된 다양한 정보와 자료를 전시하는 특별한 박물관이다. 서울시 종로구에 위치한 이 박물관은 기상학의 발전, 기후 변화, 날씨 예측 기술 등을 주제로 한 전시를 통해 방문객들에게 기상과 날씨의 중요성을 알리고 있다. 박물관은 기상과 관련된 역사적 자료와 최첨단 기상 관측 기술을 소개하며, 기후 변화와 자연재해에 대한 이해를 돕는 다양한 체험 프로그램도 제공한다. 전시물은 기상 장비, 예보 시스템, 세계 각국의 기상 사례 등을 포함하고 있으며, 어린이와 청소년을 위한 교육 프로그램도 마련되어 있어, 기상과 날씨에 대한 관심을 자연스럽게 키울 수 있는 장소이다. 특히, 기상 예보의 정확성과 기후 변화 대응에 대한 최신 정보를 제공하며, 과학적이고 교육적인 관점에서 기상에 대한 지식을 쌓을 수 있는 기회를 제공한다. 또한, 박물관 내에는 기상관측 체험을 할 수 있는 공간도 마련되어 있어, 관람객들이 실제 기상 데이터를 직접 체험하고 배우는 즐거운 경험을 제공한다. 서울 국립기상박물관은 날씨와 기후 변화가 현대 사회에 미치는 영향을 깊이 이해하고, 이를 해결하기 위한 과학적 접근을 배우는 중요한 교육의 장이다. 기상학에 대한 흥미를 높이고, 기후 문제에 대한 경각심을 일깨울 수 있는 특별한 공간으로 많은 이들에게 유익한 정보를 제공하는 곳이다.",
+      "fusion_score": 0.03278688524590164,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 1,
+      "name_match": true,
+      "rerank_score": 0.9996548891067505,
+      "rank": 1,
+      "score": 0.9996548891067505,
+      "score_type": "cross_encoder",
+      "distance": 0.40971505641937256,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0524",
+      "source_doc_ids": [
+        "DOC-B0524-TOUR_API-3038260"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0524-TOUR_API-3038260",
+          "source_type": "TOUR_API",
+          "source_record_id": "3038260",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=258",
+          "match_trust": "RECHECKED_BY_RULE_NOT_HUMAN_APPROVED"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 56,
+          "doc_ids": [
+            "DOC-B0524-TOUR_API-3038260"
+          ]
+        },
+        {
+          "start": 57,
+          "end": 145,
+          "doc_ids": [
+            "DOC-B0524-TOUR_API-3038260"
+          ]
+        },
+        {
+          "start": 146,
+          "end": 228,
+          "doc_ids": [
+            "DOC-B0524-TOUR_API-3038260"
+          ]
+        },
+        {
+          "start": 229,
+          "end": 340,
+          "doc_ids": [
+            "DOC-B0524-TOUR_API-3038260"
+          ]
+        },
+        {
+          "start": 341,
+          "end": 427,
+          "doc_ids": [
+            "DOC-B0524-TOUR_API-3038260"
+          ]
+        },
+        {
+          "start": 428,
+          "end": 511,
+          "doc_ids": [
+            "DOC-B0524-TOUR_API-3038260"
+          ]
+        },
+        {
+          "start": 512,
+          "end": 594,
+          "doc_ids": [
+            "DOC-B0524-TOUR_API-3038260"
+          ]
+        },
+        {
+          "start": 595,
+          "end": 670,
+          "doc_ids": [
+            "DOC-B0524-TOUR_API-3038260"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=258",
+      "text": "울 국립기상박물관은 대한민국의 기상과 날씨에 관련된 다양한 정보와 자료를 전시하는 특별한 박물관이다. 서울시 종로구에 위치한 이 박물관은 기상학의 발전, 기후 변화, 날씨 예측 기술 등을 주제로 한 전시를 통해 방문객들에게 기상과 날씨의 중요성을 알리고 있다. 박물관은 기상과 관련된 역사적 자료와 최첨단 기상 관측 기술을 소개하며, 기후 변화와 자연재해에 대한 이해를 돕는 다양한 체험 프로그램도 제공한다. 전시물은 기상 장비, 예보 시스템, 세계 각국의 기상 사례 등을 포함하고 있으며, 어린이와 청소년을 위한 교육 프로그램도 마련되어 있어, 기상과 날씨에 대한 관심을 자연스럽게 키울 수 있는 장소이다. 특히, 기상 예보의 정확성과 기후 변화 대응에 대한 최신 정보를 제공하며, 과학적이고 교육적인 관점에서 기상에 대한 지식을 쌓을 수 있는 기회를 제공한다. 또한, 박물관 내에는 기상관측 체험을 할 수 있는 공간도 마련되어 있어, 관람객들이 실제 기상 데이터를 직접 체험하고 배우는 즐거운 경험을 제공한다. 서울 국립기상박물관은 날씨와 기후 변화가 현대 사회에 미치는 영향을 깊이 이해하고, 이를 해결하기 위한 과학적 접근을 배우는 중요한 교육의 장이다. 기상학에 대한 흥미를 높이고, 기후 문제에 대한 경각심을 일깨울 수 있는 특별한 공간으로 많은 이들에게 유익한 정보를 제공하는 곳이다.",
+      "sido": "서울특별시",
+      "sigungu": "종로구",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=258"
+      ],
+      "evidence_id": "E1",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=367",
+        "fields": {
+          "name": "국립기상박물관",
+          "sido": "서울특별시",
+          "sigungu": "종로구",
+          "address": "서울특별시 종로구 송월길 52",
+          "ownership_type": "국립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "10:00",
+          "weekday_close": "18:00",
+          "holiday_open": "10:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "1월 1일, 설, 추석 당일, 매주 월요일(월요일이 공휴일, 또는 대체 공휴일인 경우 다음 첫번째 평일)"
+        },
+        "base_data_date": "2026-04-08",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0490",
+      "name": "국립농업박물관",
+      "document": "국립농업박물관은 우리 농업의 어제와 오늘 그리고 내일을 만날 수 있는 다양한 전시와 실내외 농업 체험장으로 구성되어 있다. 농업의 모든 것을 선보이는 상설 전시와 다양한 측면을 포착한 기획 전시, 농촌의 가치를 체험할 수 있는 어린이박물관이 있다. 도심 속 여유를 만끽할 수 있는 야외 농업 체험장과 식물원, 곤충관은 물론, 직접 느끼며 깨닫는 교육 프로그램까지 다양한 볼거리와 즐길거리가 가득하다. ‘모두가 찾아오고 싶은 생활 문화 공간’을 추구하며 농업 농촌의 가치를 친근하게 전파하고자 한다. 한국 농업의 역사와 미래, 농촌문화와 식문화를 소개하는 국립박물관이다. 농업관과 어린이박물관, 식물원·곤충관·농업체험시설을 통해 농업의 여러 모습을 체험할 수 있다.",
+      "metadata": {
+        "name": "국립농업박물관",
+        "longitude": 126.9849753448,
+        "homepage_url": "https://www.namuk.or.kr/sites/kr/index.do",
+        "image_copyright": "Type1",
+        "weekday_open": "10:00",
+        "holiday_open": "10:00",
+        "weekday_close": "18:00",
+        "source_types": "TOUR_API|WEB_RESEARCH",
+        "closure_rule_raw": "매주 월요일, 1월 1일, 설·추석 당일",
+        "child_fee": 0.0,
+        "youth_fee": 0.0,
+        "holiday_close": "18:00",
+        "adult_fee": 0.0,
+        "address": "경기도 수원시 권선구 수인로 154",
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/95/4056595_image2_1.jpg",
+        "sido": "경기도",
+        "requires_manual_review": true,
+        "latitude": 37.2748838338,
+        "ownership_type": "국립",
+        "sigungu": "수원시"
+      },
+      "vector_rank": 2,
+      "bm25_rank": 6,
+      "vector_distance": 0.4754335284233093,
+      "vector_score": null,
+      "bm25_score": 11.289301222297102,
+      "vector_document": "국립농업박물관은 우리 농업의 어제와 오늘 그리고 내일을 만날 수 있는 다양한 전시와 실내외 농업 체험장으로 구성되어 있다. 농업의 모든 것을 선보이는 상설 전시와 다양한 측면을 포착한 기획 전시, 농촌의 가치를 체험할 수 있는 어린이박물관이 있다. 도심 속 여유를 만끽할 수 있는 야외 농업 체험장과 식물원, 곤충관은 물론, 직접 느끼며 깨닫는 교육 프로그램까지 다양한 볼거리와 즐길거리가 가득하다. ‘모두가 찾아오고 싶은 생활 문화 공간’을 추구하며 농업 농촌의 가치를 친근하게 전파하고자 한다. 한국 농업의 역사와 미래, 농촌문화와 식문화를 소개하는 국립박물관이다. 농업관과 어린이박물관, 식물원·곤충관·농업체험시설을 통해 농업의 여러 모습을 체험할 수 있다.",
+      "bm25_document": "국립농업박물관은 우리 농업의 어제와 오늘 그리고 내일을 만날 수 있는 다양한 전시와 실내외 농업 체험장으로 구성되어 있다. 농업의 모든 것을 선보이는 상설 전시와 다양한 측면을 포착한 기획 전시, 농촌의 가치를 체험할 수 있는 어린이박물관이 있다. 도심 속 여유를 만끽할 수 있는 야외 농업 체험장과 식물원, 곤충관은 물론, 직접 느끼며 깨닫는 교육 프로그램까지 다양한 볼거리와 즐길거리가 가득하다. ‘모두가 찾아오고 싶은 생활 문화 공간’을 추구하며 농업 농촌의 가치를 친근하게 전파하고자 한다. 한국 농업의 역사와 미래, 농촌문화와 식문화를 소개하는 국립박물관이다. 농업관과 어린이박물관, 식물원·곤충관·농업체험시설을 통해 농업의 여러 모습을 체험할 수 있다.",
+      "best_span_id": "chroma:M0490",
+      "best_span_text": "국립농업박물관은 우리 농업의 어제와 오늘 그리고 내일을 만날 수 있는 다양한 전시와 실내외 농업 체험장으로 구성되어 있다. 농업의 모든 것을 선보이는 상설 전시와 다양한 측면을 포착한 기획 전시, 농촌의 가치를 체험할 수 있는 어린이박물관이 있다. 도심 속 여유를 만끽할 수 있는 야외 농업 체험장과 식물원, 곤충관은 물론, 직접 느끼며 깨닫는 교육 프로그램까지 다양한 볼거리와 즐길거리가 가득하다. ‘모두가 찾아오고 싶은 생활 문화 공간’을 추구하며 농업 농촌의 가치를 친근하게 전파하고자 한다. 한국 농업의 역사와 미래, 농촌문화와 식문화를 소개하는 국립박물관이다. 농업관과 어린이박물관, 식물원·곤충관·농업체험시설을 통해 농업의 여러 모습을 체험할 수 있다.",
+      "fusion_score": 0.03128054740957967,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 2,
+      "rerank_score": 0.004367975518107414,
+      "rank": 2,
+      "score": 0.004367975518107414,
+      "score_type": "cross_encoder",
+      "distance": 0.4754335284233093,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0490",
+      "source_doc_ids": [
+        "DOC-B0490-TOUR_API-2944481",
+        "DOC-WEB-M0490-20261111"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0490-TOUR_API-2944481",
+          "source_type": "TOUR_API",
+          "source_record_id": "2944481",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=242",
+          "match_trust": "RECHECKED_BY_RULE_NOT_HUMAN_APPROVED"
+        },
+        {
+          "doc_id": "DOC-WEB-M0490-20261111",
+          "source_type": "WEB_RESEARCH",
+          "source_record_id": "RESEARCH-M0490",
+          "source_locator": "https://namuk.or.kr/kr/597/subview.do",
+          "source_url": "https://namuk.or.kr/kr/597/subview.do",
+          "match_trust": "WEB_SOURCE_REVIEWED_NOT_HUMAN_APPROVED"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 68,
+          "doc_ids": [
+            "DOC-B0490-TOUR_API-2944481"
+          ]
+        },
+        {
+          "start": 69,
+          "end": 138,
+          "doc_ids": [
+            "DOC-B0490-TOUR_API-2944481"
+          ]
+        },
+        {
+          "start": 139,
+          "end": 223,
+          "doc_ids": [
+            "DOC-B0490-TOUR_API-2944481"
+          ]
+        },
+        {
+          "start": 224,
+          "end": 278,
+          "doc_ids": [
+            "DOC-B0490-TOUR_API-2944481"
+          ]
+        },
+        {
+          "start": 279,
+          "end": 318,
+          "doc_ids": [
+            "DOC-WEB-M0490-20261111"
+          ]
+        },
+        {
+          "start": 319,
+          "end": 371,
+          "doc_ids": [
+            "DOC-WEB-M0490-20261111"
+          ]
+        }
+      ],
+      "source_urls": [
+        "https://namuk.or.kr/kr/597/subview.do"
+      ],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=242",
+      "text": "국립농업박물관은 우리 농업의 어제와 오늘 그리고 내일을 만날 수 있는 다양한 전시와 실내외 농업 체험장으로 구성되어 있다. 농업의 모든 것을 선보이는 상설 전시와 다양한 측면을 포착한 기획 전시, 농촌의 가치를 체험할 수 있는 어린이박물관이 있다. 도심 속 여유를 만끽할 수 있는 야외 농업 체험장과 식물원, 곤충관은 물론, 직접 느끼며 깨닫는 교육 프로그램까지 다양한 볼거리와 즐길거리가 가득하다. ‘모두가 찾아오고 싶은 생활 문화 공간’을 추구하며 농업 농촌의 가치를 친근하게 전파하고자 한다. 한국 농업의 역사와 미래, 농촌문화와 식문화를 소개하는 국립박물관이다. 농업관과 어린이박물관, 식물원·곤충관·농업체험시설을 통해 농업의 여러 모습을 체험할 수 있다.",
+      "sido": "경기도",
+      "sigungu": "수원시",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=242"
+      ],
+      "evidence_id": "E2",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=353",
+        "fields": {
+          "name": "국립농업박물관",
+          "sido": "경기도",
+          "sigungu": "수원시",
+          "address": "경기도 수원시 권선구 수인로 154",
+          "ownership_type": "국립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "10:00",
+          "weekday_close": "18:00",
+          "holiday_open": "10:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "매주 월요일, 1월 1일, 설·추석 당일"
+        },
+        "base_data_date": "2026-04-08",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0501",
+      "name": "국립해양박물관",
+      "document": "국립해양박물관은 대한민국 해양문화의 랜드마크로서 해양의 역사·문화·생물·예술에 이르는 다양한 분야의 유물과 자료를 수집, 보존, 연구하는 종합 해양 전문 박물관이다. 부산광역시 영도구에 위치하며, 2012년 5월 개관하였다. 지하 1층부터 지상 4층까지 구성되어 있으며, 전시실, 해양도서관, 어린이 박물관, 수장고, 수족관 등 다양한 시설을 갖추고 있다. 박물관은 약 3만여 점의 해양 관련 유물을 소장하고 있으며, 기획전과 상설전시를 통해 관람객에게 풍부한 콘텐츠를 제공한다. 또한, 바다 생물들이 살아 숨 쉬는 공간이자 해양동물전문구조치료기관, 서직지외보전기관으로서 생물을 보호·보전하는 역할을 수행하고 있다. 어린이박물관, 어린이해양도서관을 포함한 어린이·청소년을 위한 교육 프로그램도 활발히 진행되고 있다. 국민 누구나 바다의 소중함과 미래 가치를 느낄 수 있도록 돕는 국립 해양문화 플랫폼이다.",
+      "metadata": {
+        "requires_manual_review": true,
+        "source_types": "TOUR_API",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/50/4111450_image2_1.jpg",
+        "address": "부산광역시 영도구 해양로 301번길 45",
+        "closure_rule_raw": "매주 월요일(월요일이 공휴일인 경우 다음 첫 평일 휴관)",
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "holiday_close": "19:00",
+        "weekday_open": "09:00",
+        "latitude": 35.0785634153,
+        "holiday_open": "09:00",
+        "child_fee": 0.0,
+        "image_copyright": "Type1",
+        "youth_fee": 0.0,
+        "sido": "부산광역시",
+        "homepage_url": "https://www.mmk.or.kr/",
+        "longitude": 129.0802448645,
+        "name": "국립해양박물관",
+        "adult_fee": 0.0,
+        "ownership_type": "국립",
+        "weekday_close": "18:00",
+        "sigungu": "영도구"
+      },
+      "vector_rank": null,
+      "bm25_rank": 4,
+      "vector_distance": null,
+      "vector_score": null,
+      "bm25_score": 12.19277514021704,
+      "vector_document": "",
+      "bm25_document": "국립해양박물관은 대한민국 해양문화의 랜드마크로서 해양의 역사·문화·생물·예술에 이르는 다양한 분야의 유물과 자료를 수집, 보존, 연구하는 종합 해양 전문 박물관이다. 부산광역시 영도구에 위치하며, 2012년 5월 개관하였다. 지하 1층부터 지상 4층까지 구성되어 있으며, 전시실, 해양도서관, 어린이 박물관, 수장고, 수족관 등 다양한 시설을 갖추고 있다. 박물관은 약 3만여 점의 해양 관련 유물을 소장하고 있으며, 기획전과 상설전시를 통해 관람객에게 풍부한 콘텐츠를 제공한다. 또한, 바다 생물들이 살아 숨 쉬는 공간이자 해양동물전문구조치료기관, 서직지외보전기관으로서 생물을 보호·보전하는 역할을 수행하고 있다. 어린이박물관, 어린이해양도서관을 포함한 어린이·청소년을 위한 교육 프로그램도 활발히 진행되고 있다. 국민 누구나 바다의 소중함과 미래 가치를 느낄 수 있도록 돕는 국립 해양문화 플랫폼이다.",
+      "best_span_id": "chroma:M0501",
+      "best_span_text": "국립해양박물관은 대한민국 해양문화의 랜드마크로서 해양의 역사·문화·생물·예술에 이르는 다양한 분야의 유물과 자료를 수집, 보존, 연구하는 종합 해양 전문 박물관이다. 부산광역시 영도구에 위치하며, 2012년 5월 개관하였다. 지하 1층부터 지상 4층까지 구성되어 있으며, 전시실, 해양도서관, 어린이 박물관, 수장고, 수족관 등 다양한 시설을 갖추고 있다. 박물관은 약 3만여 점의 해양 관련 유물을 소장하고 있으며, 기획전과 상설전시를 통해 관람객에게 풍부한 콘텐츠를 제공한다. 또한, 바다 생물들이 살아 숨 쉬는 공간이자 해양동물전문구조치료기관, 서직지외보전기관으로서 생물을 보호·보전하는 역할을 수행하고 있다. 어린이박물관, 어린이해양도서관을 포함한 어린이·청소년을 위한 교육 프로그램도 활발히 진행되고 있다. 국민 누구나 바다의 소중함과 미래 가치를 느낄 수 있도록 돕는 국립 해양문화 플랫폼이다.",
+      "fusion_score": 0.015625,
+      "retrieved_by": [
+        "bm25"
+      ],
+      "fusion_rank": 10,
+      "rerank_score": 0.0038601974956691265,
+      "rank": 3,
+      "score": 0.0038601974956691265,
+      "score_type": "cross_encoder",
+      "distance": null,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "bm25"
+      ],
+      "retriever": "bm25",
+      "span_id": "chroma:M0501",
+      "source_doc_ids": [
+        "DOC-B0501-TOUR_API-1825843"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0501-TOUR_API-1825843",
+          "source_type": "TOUR_API",
+          "source_record_id": "1825843",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=247",
+          "match_trust": "RECHECKED_BY_RULE_NOT_HUMAN_APPROVED"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 92,
+          "doc_ids": [
+            "DOC-B0501-TOUR_API-1825843"
+          ]
+        },
+        {
+          "start": 93,
+          "end": 125,
+          "doc_ids": [
+            "DOC-B0501-TOUR_API-1825843"
+          ]
+        },
+        {
+          "start": 126,
+          "end": 199,
+          "doc_ids": [
+            "DOC-B0501-TOUR_API-1825843"
+          ]
+        },
+        {
+          "start": 200,
+          "end": 268,
+          "doc_ids": [
+            "DOC-B0501-TOUR_API-1825843"
+          ]
+        },
+        {
+          "start": 269,
+          "end": 344,
+          "doc_ids": [
+            "DOC-B0501-TOUR_API-1825843"
+          ]
+        },
+        {
+          "start": 345,
+          "end": 400,
+          "doc_ids": [
+            "DOC-B0501-TOUR_API-1825843"
+          ]
+        },
+        {
+          "start": 401,
+          "end": 450,
+          "doc_ids": [
+            "DOC-B0501-TOUR_API-1825843"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=247",
+      "text": "국립해양박물관은 대한민국 해양문화의 랜드마크로서 해양의 역사·문화·생물·예술에 이르는 다양한 분야의 유물과 자료를 수집, 보존, 연구하는 종합 해양 전문 박물관이다. 부산광역시 영도구에 위치하며, 2012년 5월 개관하였다. 지하 1층부터 지상 4층까지 구성되어 있으며, 전시실, 해양도서관, 어린이 박물관, 수장고, 수족관 등 다양한 시설을 갖추고 있다. 박물관은 약 3만여 점의 해양 관련 유물을 소장하고 있으며, 기획전과 상설전시를 통해 관람객에게 풍부한 콘텐츠를 제공한다. 또한, 바다 생물들이 살아 숨 쉬는 공간이자 해양동물전문구조치료기관, 서직지외보전기관으로서 생물을 보호·보전하는 역할을 수행하고 있다. 어린이박물관, 어린이해양도서관을 포함한 어린이·청소년을 위한 교육 프로그램도 활발히 진행되고 있다. 국민 누구나 바다의 소중함과 미래 가치를 느낄 수 있도록 돕는 국립 해양문화 플랫폼이다.",
+      "sido": "부산광역시",
+      "sigungu": "영도구",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=247"
+      ],
+      "evidence_id": "E3",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=358",
+        "fields": {
+          "name": "국립해양박물관",
+          "sido": "부산광역시",
+          "sigungu": "영도구",
+          "address": "부산광역시 영도구 해양로 301번길 45",
+          "ownership_type": "국립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "09:00",
+          "weekday_close": "18:00",
+          "holiday_open": "09:00",
+          "holiday_close": "19:00",
+          "closure_rule_raw": "매주 월요일(월요일이 공휴일인 경우 다음 첫 평일 휴관)"
+        },
+        "base_data_date": "2026-04-08",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0485",
+      "name": "국립공주박물관",
+      "document": "국립공주박물관은 1946년 4월 1일 웅진 백제 문화를 중심으로 충청남도의 역사와 문화를 보존, 전시하기 위해 개관했다. 웅진백제를 주제로 하는 전시실과 충청남도의 역사문화를 주제로 한 전시실이 있으며, 다양한 주제의 특별전시도 수시로 열리고 있다. 전시 외에도 다채로운 문화행사와 교육 프로그램도 진행하고 있다. 백제 웅진 시기와 무령왕릉 관련 문화유산을 전시하는 국립박물관이다. 무령왕릉 출토 유물과 충남의 역사문화 자료를 중심으로 지역의 고대사를 살펴볼 수 있다.",
+      "metadata": {
+        "image_copyright": "Type1",
+        "adult_fee": 0.0,
+        "weekday_open": "09:00",
+        "homepage_url": "https://gongju.museum.go.kr/kor/index.do",
+        "weekday_close": "18:00",
+        "holiday_open": "09:00",
+        "child_fee": 0.0,
+        "closure_rule_raw": "매주 월요일(단, 월요일이 공휴일인 경우 당일은 개관하고 그 다음 첫번째 평일에 휴관), 1월 1일, 설날 및 추석 당일",
+        "name": "국립공주박물관",
+        "youth_fee": 0.0,
+        "ownership_type": "국립",
+        "sido": "충청남도",
+        "latitude": 36.465529123,
+        "image_url": "http://tong.visitkorea.or.kr/cms/resource/33/3534933_image2_1.jpg",
+        "address": "충청남도 공주시 관광단지길 34",
+        "sigungu": "공주시",
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "source_types": "TOUR_API|WEB_RESEARCH",
+        "longitude": 127.112179949,
+        "holiday_close": "18:00",
+        "requires_manual_review": true
+      },
+      "vector_rank": null,
+      "bm25_rank": 5,
+      "vector_distance": null,
+      "vector_score": null,
+      "bm25_score": 11.575996642530377,
+      "vector_document": "",
+      "bm25_document": "국립공주박물관은 1946년 4월 1일 웅진 백제 문화를 중심으로 충청남도의 역사와 문화를 보존, 전시하기 위해 개관했다. 웅진백제를 주제로 하는 전시실과 충청남도의 역사문화를 주제로 한 전시실이 있으며, 다양한 주제의 특별전시도 수시로 열리고 있다. 전시 외에도 다채로운 문화행사와 교육 프로그램도 진행하고 있다. 백제 웅진 시기와 무령왕릉 관련 문화유산을 전시하는 국립박물관이다. 무령왕릉 출토 유물과 충남의 역사문화 자료를 중심으로 지역의 고대사를 살펴볼 수 있다.",
+      "best_span_id": "chroma:M0485",
+      "best_span_text": "국립공주박물관은 1946년 4월 1일 웅진 백제 문화를 중심으로 충청남도의 역사와 문화를 보존, 전시하기 위해 개관했다. 웅진백제를 주제로 하는 전시실과 충청남도의 역사문화를 주제로 한 전시실이 있으며, 다양한 주제의 특별전시도 수시로 열리고 있다. 전시 외에도 다채로운 문화행사와 교육 프로그램도 진행하고 있다. 백제 웅진 시기와 무령왕릉 관련 문화유산을 전시하는 국립박물관이다. 무령왕릉 출토 유물과 충남의 역사문화 자료를 중심으로 지역의 고대사를 살펴볼 수 있다.",
+      "fusion_score": 0.015384615384615385,
+      "retrieved_by": [
+        "bm25"
+      ],
+      "fusion_rank": 12,
+      "rerank_score": 0.0017781773349270225,
+      "rank": 4,
+      "score": 0.0017781773349270225,
+      "score_type": "cross_encoder",
+      "distance": null,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "bm25"
+      ],
+      "retriever": "bm25",
+      "span_id": "chroma:M0485",
+      "source_doc_ids": [
+        "DOC-B0485-TOUR_API-129787",
+        "DOC-WEB-M0485-20261111"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0485-TOUR_API-129787",
+          "source_type": "TOUR_API",
+          "source_record_id": "129787",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=237",
+          "match_trust": "RECHECKED_BY_RULE_NOT_HUMAN_APPROVED"
+        },
+        {
+          "doc_id": "DOC-WEB-M0485-20261111",
+          "source_type": "WEB_RESEARCH",
+          "source_record_id": "RESEARCH-M0485",
+          "source_locator": "https://kh.or.kr/cont/view/fest/month/menu/210?idx=110143&searchCategory1=600&searchDate=202507&searchField=all&thisPage=1",
+          "source_url": "https://kh.or.kr/cont/view/fest/month/menu/210?idx=110143&searchCategory1=600&searchDate=202507&searchField=all&thisPage=1",
+          "match_trust": "WEB_SOURCE_REVIEWED_NOT_HUMAN_APPROVED"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 67,
+          "doc_ids": [
+            "DOC-B0485-TOUR_API-129787"
+          ]
+        },
+        {
+          "start": 68,
+          "end": 139,
+          "doc_ids": [
+            "DOC-B0485-TOUR_API-129787"
+          ]
+        },
+        {
+          "start": 140,
+          "end": 175,
+          "doc_ids": [
+            "DOC-B0485-TOUR_API-129787"
+          ]
+        },
+        {
+          "start": 176,
+          "end": 213,
+          "doc_ids": [
+            "DOC-WEB-M0485-20261111"
+          ]
+        },
+        {
+          "start": 214,
+          "end": 262,
+          "doc_ids": [
+            "DOC-WEB-M0485-20261111"
+          ]
+        }
+      ],
+      "source_urls": [
+        "https://kh.or.kr/cont/view/fest/month/menu/210?idx=110143&searchCategory1=600&searchDate=202507&searchField=all&thisPage=1"
+      ],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=237",
+      "text": "국립공주박물관은 1946년 4월 1일 웅진 백제 문화를 중심으로 충청남도의 역사와 문화를 보존, 전시하기 위해 개관했다. 웅진백제를 주제로 하는 전시실과 충청남도의 역사문화를 주제로 한 전시실이 있으며, 다양한 주제의 특별전시도 수시로 열리고 있다. 전시 외에도 다채로운 문화행사와 교육 프로그램도 진행하고 있다. 백제 웅진 시기와 무령왕릉 관련 문화유산을 전시하는 국립박물관이다. 무령왕릉 출토 유물과 충남의 역사문화 자료를 중심으로 지역의 고대사를 살펴볼 수 있다.",
+      "sido": "충청남도",
+      "sigungu": "공주시",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=237"
+      ],
+      "evidence_id": "E4",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=348",
+        "fields": {
+          "name": "국립공주박물관",
+          "sido": "충청남도",
+          "sigungu": "공주시",
+          "address": "충청남도 공주시 관광단지길 34",
+          "ownership_type": "국립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "09:00",
+          "weekday_close": "18:00",
+          "holiday_open": "09:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "매주 월요일(단, 월요일이 공휴일인 경우 당일은 개관하고 그 다음 첫번째 평일에 휴관), 1월 1일, 설날 및 추석 당일"
+        },
+        "base_data_date": "2026-04-08",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0504",
+      "name": "국립항공박물관",
+      "document": "국립항공박물관은 국내 최초의 항공 분야 국립박물관이다. 2020년 7월 5일 개관했으며, 한인비행학교 개교 100주년에 맞춰 문을 열었다. 박물관은 항공 역사, 항공 산업, 항공 생활, 야외 전시, 기획 전시로 나눠지며 국내, 해외의 항공 역사를 자세하게 소개하고 있다. 박물관에는 지금껏 알지 못한 우리 항공사의 보석 같은 전시물과 실물 비행기 16대가 전시되어 있으며, 항공사별 항공기 등록 현황, 조종사, 승무원 현황, 각종 체험 등 우리 삶을 바꿀 미래 항공 기술 발전에 대해 살펴볼 수 있다. 국립항공박물관은 대한민국 항공의 역사를 저장하고 현재를 투영하며 미래를 선도하는 세계적인 박물관이 되도록 노력하고 있다.",
+      "metadata": {
+        "homepage_url": "https://www.aviation.or.kr/",
+        "ownership_type": "국립",
+        "latitude": 37.5568697659,
+        "source_types": "TOUR_API",
+        "weekday_close": "18:00",
+        "image_copyright": "Type3",
+        "longitude": 126.8088723462,
+        "holiday_open": "10:00",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/14/3569014_image2_1.jpg",
+        "sido": "서울특별시",
+        "child_fee": 0.0,
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "closure_rule_raw": "매주 월요일(단, 월요일이 공휴일인 경우 당일은 개관하고 그 다음 첫번째 평일에 휴관)",
+        "address": "서울특별시 강서구 하늘길 177",
+        "weekday_open": "10:00",
+        "youth_fee": 0.0,
+        "adult_fee": 0.0,
+        "sigungu": "강서구",
+        "name": "국립항공박물관",
+        "holiday_close": "18:00",
+        "requires_manual_review": true
+      },
+      "vector_rank": null,
+      "bm25_rank": 2,
+      "vector_distance": null,
+      "vector_score": null,
+      "bm25_score": 13.804754655337346,
+      "vector_document": "",
+      "bm25_document": "국립항공박물관은 국내 최초의 항공 분야 국립박물관이다. 2020년 7월 5일 개관했으며, 한인비행학교 개교 100주년에 맞춰 문을 열었다. 박물관은 항공 역사, 항공 산업, 항공 생활, 야외 전시, 기획 전시로 나눠지며 국내, 해외의 항공 역사를 자세하게 소개하고 있다. 박물관에는 지금껏 알지 못한 우리 항공사의 보석 같은 전시물과 실물 비행기 16대가 전시되어 있으며, 항공사별 항공기 등록 현황, 조종사, 승무원 현황, 각종 체험 등 우리 삶을 바꿀 미래 항공 기술 발전에 대해 살펴볼 수 있다. 국립항공박물관은 대한민국 항공의 역사를 저장하고 현재를 투영하며 미래를 선도하는 세계적인 박물관이 되도록 노력하고 있다.",
+      "best_span_id": "chroma:M0504",
+      "best_span_text": "국립항공박물관은 국내 최초의 항공 분야 국립박물관이다. 2020년 7월 5일 개관했으며, 한인비행학교 개교 100주년에 맞춰 문을 열었다. 박물관은 항공 역사, 항공 산업, 항공 생활, 야외 전시, 기획 전시로 나눠지며 국내, 해외의 항공 역사를 자세하게 소개하고 있다. 박물관에는 지금껏 알지 못한 우리 항공사의 보석 같은 전시물과 실물 비행기 16대가 전시되어 있으며, 항공사별 항공기 등록 현황, 조종사, 승무원 현황, 각종 체험 등 우리 삶을 바꿀 미래 항공 기술 발전에 대해 살펴볼 수 있다. 국립항공박물관은 대한민국 항공의 역사를 저장하고 현재를 투영하며 미래를 선도하는 세계적인 박물관이 되도록 노력하고 있다.",
+      "fusion_score": 0.016129032258064516,
+      "retrieved_by": [
+        "bm25"
+      ],
+      "fusion_rank": 7,
+      "rerank_score": 0.0009869086788967252,
+      "rank": 5,
+      "score": 0.0009869086788967252,
+      "score_type": "cross_encoder",
+      "distance": null,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "bm25"
+      ],
+      "retriever": "bm25",
+      "span_id": "chroma:M0504",
+      "source_doc_ids": [
+        "DOC-B0504-TOUR_API-2706762"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0504-TOUR_API-2706762",
+          "source_type": "TOUR_API",
+          "source_record_id": "2706762",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=250",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 30,
+          "doc_ids": [
+            "DOC-B0504-TOUR_API-2706762"
+          ]
+        },
+        {
+          "start": 31,
+          "end": 77,
+          "doc_ids": [
+            "DOC-B0504-TOUR_API-2706762"
+          ]
+        },
+        {
+          "start": 78,
+          "end": 151,
+          "doc_ids": [
+            "DOC-B0504-TOUR_API-2706762"
+          ]
+        },
+        {
+          "start": 152,
+          "end": 280,
+          "doc_ids": [
+            "DOC-B0504-TOUR_API-2706762"
+          ]
+        },
+        {
+          "start": 281,
+          "end": 348,
+          "doc_ids": [
+            "DOC-B0504-TOUR_API-2706762"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=250",
+      "text": "국립항공박물관은 국내 최초의 항공 분야 국립박물관이다. 2020년 7월 5일 개관했으며, 한인비행학교 개교 100주년에 맞춰 문을 열었다. 박물관은 항공 역사, 항공 산업, 항공 생활, 야외 전시, 기획 전시로 나눠지며 국내, 해외의 항공 역사를 자세하게 소개하고 있다. 박물관에는 지금껏 알지 못한 우리 항공사의 보석 같은 전시물과 실물 비행기 16대가 전시되어 있으며, 항공사별 항공기 등록 현황, 조종사, 승무원 현황, 각종 체험 등 우리 삶을 바꿀 미래 항공 기술 발전에 대해 살펴볼 수 있다. 국립항공박물관은 대한민국 항공의 역사를 저장하고 현재를 투영하며 미래를 선도하는 세계적인 박물관이 되도록 노력하고 있다.",
+      "sido": "서울특별시",
+      "sigungu": "강서구",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=250"
+      ],
+      "evidence_id": "E5",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=361",
+        "fields": {
+          "name": "국립항공박물관",
+          "sido": "서울특별시",
+          "sigungu": "강서구",
+          "address": "서울특별시 강서구 하늘길 177",
+          "ownership_type": "국립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "10:00",
+          "weekday_close": "18:00",
+          "holiday_open": "10:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "매주 월요일(단, 월요일이 공휴일인 경우 당일은 개관하고 그 다음 첫번째 평일에 휴관)"
+        },
+        "base_data_date": "2026-04-08",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    }
+  ],
+  "answer": "국립기상박물관에는 기상 장비와 예보 시스템, 세계 각국의 기상 사례 등이 전시되며, 기상학의 발전·기후 변화·날씨 예측 기술과 기상 관측 기술도 소개됩니다. [E1] 기상 관측 체험 공간에서 실제 기상 데이터를 살펴보는 체험을 할 수 있고, 기후 변화와 자연재해를 이해하는 체험 프로그램 및 어린이·청소년 대상 교육 프로그램도 마련되어 있다고 안내되어 있습니다. [E1]",
+  "retrieval_status": "ok",
+  "answer_status": "answered",
+  "route": "hybrid",
+  "retry_count": 0,
+  "supervisor_verified": true,
+  "rerank_applied": true,
+  "retriever_errors": [],
+  "warnings": [],
+  "duration_ms": 142049.15,
+  "error_type": "",
+  "hit_at_1": 1,
+  "hit_at_3": 1,
+  "hit_at_5": 1,
+  "recall_at_5": 1.0,
+  "mrr_at_10": 1.0
+}

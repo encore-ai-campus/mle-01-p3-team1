@@ -1,0 +1,754 @@
+{
+  "mode": "supervisor_full",
+  "question_id": "Q110",
+  "evidence": [
+    {
+      "museum_id": "M0168",
+      "name": "정관박물관",
+      "document": "정관박물관은 정관신도시 조성사업으로 인해 사라지게 될 국가유산에 대한 보존 및 활용방안으로 건립된 박물관이다. 상설전시는 기장 지역의 삼국시대 마을 유적에서 발굴된 생활유물을 전시한 ‘소두방의 생활’, 신도시 개발로 인해 마을을 떠날 수밖에 없었던 옛 주민의 이야기와 기증품에 담긴 소중한 마음, 그리고 정관박물관의 발자취가 담긴 ‘소두방의 기억’, 삼국시대 마을을 재현하여 당시의 정취를 느낄 수 있는 야외전시공원으로 구성되어 있다. 더불어 놀이체험을 통해 역사학습의 즐거움을 경험할 수 있는 부산지역 박물관 최초 ‘어린이 체험실’도 마련되어 있다. 이외에도 특별기획전시와 교육프로그램을 통해 역사문화와 관련된 다양한 볼거리와 체험활동을 관람객에게 제공한다. 삼국시대 살림살이와 생활유물이 전시된 열린박물관",
+      "metadata": {
+        "source_types": "BASE|TOUR_API",
+        "amenities_raw": "수유실",
+        "closure_rule_raw": "1.1 휴관매주 월요일 휴관",
+        "ownership_type": "공립",
+        "weekday_close": "18:00",
+        "transport_notes": "지하철, 버스 등홈페이지 참조",
+        "weekday_open": "09:00",
+        "sido": "부산광역시",
+        "adult_fee": 0.0,
+        "holiday_close": "18:00",
+        "holiday_open": "09:00",
+        "homepage_url": "https://museum.busan.go.kr/jeonggwan/index",
+        "fee_notes": "부산광역시립박물관 운영 조례 제5조에 따름",
+        "child_fee": 0.0,
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "sigungu": "기장군",
+        "name": "정관박물관",
+        "latitude": 35.32680782,
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/91/3541891_image2_1.jpg",
+        "youth_fee": 0.0,
+        "longitude": 129.1848654,
+        "image_copyright": "Type3",
+        "requires_manual_review": true,
+        "address": "부산광역시 기장군 정관읍 정관중앙로 122(방곡리)"
+      },
+      "vector_rank": 2,
+      "bm25_rank": 1,
+      "vector_distance": 0.5488423109054565,
+      "vector_score": null,
+      "bm25_score": 31.953937801277668,
+      "vector_document": "정관박물관은 정관신도시 조성사업으로 인해 사라지게 될 국가유산에 대한 보존 및 활용방안으로 건립된 박물관이다. 상설전시는 기장 지역의 삼국시대 마을 유적에서 발굴된 생활유물을 전시한 ‘소두방의 생활’, 신도시 개발로 인해 마을을 떠날 수밖에 없었던 옛 주민의 이야기와 기증품에 담긴 소중한 마음, 그리고 정관박물관의 발자취가 담긴 ‘소두방의 기억’, 삼국시대 마을을 재현하여 당시의 정취를 느낄 수 있는 야외전시공원으로 구성되어 있다. 더불어 놀이체험을 통해 역사학습의 즐거움을 경험할 수 있는 부산지역 박물관 최초 ‘어린이 체험실’도 마련되어 있다. 이외에도 특별기획전시와 교육프로그램을 통해 역사문화와 관련된 다양한 볼거리와 체험활동을 관람객에게 제공한다. 삼국시대 살림살이와 생활유물이 전시된 열린박물관",
+      "bm25_document": "정관박물관은 정관신도시 조성사업으로 인해 사라지게 될 국가유산에 대한 보존 및 활용방안으로 건립된 박물관이다. 상설전시는 기장 지역의 삼국시대 마을 유적에서 발굴된 생활유물을 전시한 ‘소두방의 생활’, 신도시 개발로 인해 마을을 떠날 수밖에 없었던 옛 주민의 이야기와 기증품에 담긴 소중한 마음, 그리고 정관박물관의 발자취가 담긴 ‘소두방의 기억’, 삼국시대 마을을 재현하여 당시의 정취를 느낄 수 있는 야외전시공원으로 구성되어 있다. 더불어 놀이체험을 통해 역사학습의 즐거움을 경험할 수 있는 부산지역 박물관 최초 ‘어린이 체험실’도 마련되어 있다. 이외에도 특별기획전시와 교육프로그램을 통해 역사문화와 관련된 다양한 볼거리와 체험활동을 관람객에게 제공한다. 삼국시대 살림살이와 생활유물이 전시된 열린박물관",
+      "best_span_id": "chroma:M0168",
+      "best_span_text": "정관박물관은 정관신도시 조성사업으로 인해 사라지게 될 국가유산에 대한 보존 및 활용방안으로 건립된 박물관이다. 상설전시는 기장 지역의 삼국시대 마을 유적에서 발굴된 생활유물을 전시한 ‘소두방의 생활’, 신도시 개발로 인해 마을을 떠날 수밖에 없었던 옛 주민의 이야기와 기증품에 담긴 소중한 마음, 그리고 정관박물관의 발자취가 담긴 ‘소두방의 기억’, 삼국시대 마을을 재현하여 당시의 정취를 느낄 수 있는 야외전시공원으로 구성되어 있다. 더불어 놀이체험을 통해 역사학습의 즐거움을 경험할 수 있는 부산지역 박물관 최초 ‘어린이 체험실’도 마련되어 있다. 이외에도 특별기획전시와 교육프로그램을 통해 역사문화와 관련된 다양한 볼거리와 체험활동을 관람객에게 제공한다. 삼국시대 살림살이와 생활유물이 전시된 열린박물관",
+      "fusion_score": 0.03252247488101534,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 1,
+      "name_match": true,
+      "rerank_score": 0.9763839840888977,
+      "rank": 1,
+      "score": 0.9763839840888977,
+      "score_type": "cross_encoder",
+      "distance": 0.5488423109054565,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0168",
+      "source_doc_ids": [
+        "DOC-B0168-TOUR_API-2556598",
+        "DOC-B0168-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0168-TOUR_API-2556598",
+          "source_type": "TOUR_API",
+          "source_record_id": "2556598",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=79",
+          "match_trust": "RECHECKED_BY_RULE_NOT_HUMAN_APPROVED"
+        },
+        {
+          "doc_id": "DOC-B0168-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0168",
+          "source_locator": "data/raw/museum_base_1070.csv#row=169",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 61,
+          "doc_ids": [
+            "DOC-B0168-TOUR_API-2556598"
+          ]
+        },
+        {
+          "start": 62,
+          "end": 243,
+          "doc_ids": [
+            "DOC-B0168-TOUR_API-2556598"
+          ]
+        },
+        {
+          "start": 244,
+          "end": 308,
+          "doc_ids": [
+            "DOC-B0168-TOUR_API-2556598"
+          ]
+        },
+        {
+          "start": 309,
+          "end": 369,
+          "doc_ids": [
+            "DOC-B0168-TOUR_API-2556598"
+          ]
+        },
+        {
+          "start": 370,
+          "end": 396,
+          "doc_ids": [
+            "DOC-B0168-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=79",
+      "text": "정관박물관은 정관신도시 조성사업으로 인해 사라지게 될 국가유산에 대한 보존 및 활용방안으로 건립된 박물관이다. 상설전시는 기장 지역의 삼국시대 마을 유적에서 발굴된 생활유물을 전시한 ‘소두방의 생활’, 신도시 개발로 인해 마을을 떠날 수밖에 없었던 옛 주민의 이야기와 기증품에 담긴 소중한 마음, 그리고 정관박물관의 발자취가 담긴 ‘소두방의 기억’, 삼국시대 마을을 재현하여 당시의 정취를 느낄 수 있는 야외전시공원으로 구성되어 있다. 더불어 놀이체험을 통해 역사학습의 즐거움을 경험할 수 있는 부산지역 박물관 최초 ‘어린이 체험실’도 마련되어 있다. 이외에도 특별기획전시와 교육프로그램을 통해 역사문화와 관련된 다양한 볼거리와 체험활동을 관람객에게 제공한다. 삼국시대 살림살이와 생활유물이 전시된 열린박물관",
+      "sido": "부산광역시",
+      "sigungu": "기장군",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=79"
+      ],
+      "evidence_id": "E1",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=109",
+        "fields": {
+          "name": "정관박물관",
+          "sido": "부산광역시",
+          "sigungu": "기장군",
+          "address": "부산광역시 기장군 정관읍 정관중앙로 122(방곡리)",
+          "ownership_type": "공립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "09:00",
+          "weekday_close": "18:00",
+          "holiday_open": "09:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "1.1 휴관매주 월요일 휴관",
+          "amenities_raw": "수유실"
+        },
+        "base_data_date": "2026-09-04",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0099",
+      "name": "온양민속박물관",
+      "document": "우리나라 최초의 사립 민속박물관인 온양민속박물관은 우리 전통문화의 아름다움과 우수성을 알리기 위해 1978년 개관하였다. 전체 대지는 72,727㎡의 규모이며 이타미준의 국내 첫 번째 건축물인 구정 아트센터를 포함하여, 상설전시실, 특별전시실, 야외전시장 등으로 구성되어 있다. 옛 선조들의 지혜와 품격이 담긴 생활품 2만여 점을 소장하고 있으며, 전시 및 다양한 교육 체험 프로그램, 공연 등의 문화 행사를 체험할 수 있다. 유형적인 민속자료를 체계적으로 수집, 보존, 전시해 후세들에게 합리적으로 이해 교육시키며 전통적 요소를 오늘에 되살릴 수 있도록 유도하며 학술적으로 고증하여 연구하고 세계 속에 한국문화의 독자성을 선양하기 위해 설립된 박물관이다. 한국인의 전통 생활문화를 다루는 민속박물관이다. 의식주와 관혼상제, 농업·어업 등 생업, 민간신앙과 공예 관련 유물을 통해 한국 민속의 여러 모습을 살펴볼 수 있다.",
+      "metadata": {
+        "holiday_open": "10:00",
+        "sido": "충청남도",
+        "longitude": 127.0079103,
+        "source_types": "TOUR_API|WEB_RESEARCH",
+        "homepage_url": "http://onyangmuseum.or.kr/",
+        "adult_fee_status": "BASE_FEE_PAID",
+        "child_fee": 1500.0,
+        "weekday_close": "17:30",
+        "amenities_raw": "카페 등",
+        "youth_fee": 3000.0,
+        "requires_manual_review": true,
+        "closure_rule_raw": "월",
+        "transport_notes": "경부고속국도-남부우회도로-국도21호선을 이용하거나 38번국도-48번 국도를 이용하거나 아산만방조제-39번 국도를 이용해서 올 수 있습니다.",
+        "sigungu": "아산시",
+        "adult_fee": 5000.0,
+        "weekday_open": "10:00",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/80/3558580_image2_1.jpg",
+        "latitude": 36.79323056,
+        "name": "온양민속박물관",
+        "address": "충청남도 아산시 충무로 123",
+        "image_copyright": "Type1",
+        "ownership_type": "사립",
+        "fee_notes": "아산시민(80)+문화가 있는 날(30)+아산시티투어 및 장애인 할인",
+        "holiday_close": "17:30"
+      },
+      "vector_rank": null,
+      "bm25_rank": 5,
+      "vector_distance": null,
+      "vector_score": null,
+      "bm25_score": 6.118990216279872,
+      "vector_document": "",
+      "bm25_document": "우리나라 최초의 사립 민속박물관인 온양민속박물관은 우리 전통문화의 아름다움과 우수성을 알리기 위해 1978년 개관하였다. 전체 대지는 72,727㎡의 규모이며 이타미준의 국내 첫 번째 건축물인 구정 아트센터를 포함하여, 상설전시실, 특별전시실, 야외전시장 등으로 구성되어 있다. 옛 선조들의 지혜와 품격이 담긴 생활품 2만여 점을 소장하고 있으며, 전시 및 다양한 교육 체험 프로그램, 공연 등의 문화 행사를 체험할 수 있다. 유형적인 민속자료를 체계적으로 수집, 보존, 전시해 후세들에게 합리적으로 이해 교육시키며 전통적 요소를 오늘에 되살릴 수 있도록 유도하며 학술적으로 고증하여 연구하고 세계 속에 한국문화의 독자성을 선양하기 위해 설립된 박물관이다. 한국인의 전통 생활문화를 다루는 민속박물관이다. 의식주와 관혼상제, 농업·어업 등 생업, 민간신앙과 공예 관련 유물을 통해 한국 민속의 여러 모습을 살펴볼 수 있다.",
+      "best_span_id": "chroma:M0099",
+      "best_span_text": "우리나라 최초의 사립 민속박물관인 온양민속박물관은 우리 전통문화의 아름다움과 우수성을 알리기 위해 1978년 개관하였다. 전체 대지는 72,727㎡의 규모이며 이타미준의 국내 첫 번째 건축물인 구정 아트센터를 포함하여, 상설전시실, 특별전시실, 야외전시장 등으로 구성되어 있다. 옛 선조들의 지혜와 품격이 담긴 생활품 2만여 점을 소장하고 있으며, 전시 및 다양한 교육 체험 프로그램, 공연 등의 문화 행사를 체험할 수 있다. 유형적인 민속자료를 체계적으로 수집, 보존, 전시해 후세들에게 합리적으로 이해 교육시키며 전통적 요소를 오늘에 되살릴 수 있도록 유도하며 학술적으로 고증하여 연구하고 세계 속에 한국문화의 독자성을 선양하기 위해 설립된 박물관이다. 한국인의 전통 생활문화를 다루는 민속박물관이다. 의식주와 관혼상제, 농업·어업 등 생업, 민간신앙과 공예 관련 유물을 통해 한국 민속의 여러 모습을 살펴볼 수 있다.",
+      "fusion_score": 0.015384615384615385,
+      "retrieved_by": [
+        "bm25"
+      ],
+      "fusion_rank": 9,
+      "rerank_score": 0.00036230499972589314,
+      "rank": 2,
+      "score": 0.00036230499972589314,
+      "score_type": "cross_encoder",
+      "distance": null,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "bm25"
+      ],
+      "retriever": "bm25",
+      "span_id": "chroma:M0099",
+      "source_doc_ids": [
+        "DOC-B0099-TOUR_API-130063",
+        "DOC-WEB-M0099-20261111"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0099-TOUR_API-130063",
+          "source_type": "TOUR_API",
+          "source_record_id": "130063",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=49",
+          "match_trust": "RECHECKED_BY_RULE_NOT_HUMAN_APPROVED"
+        },
+        {
+          "doc_id": "DOC-WEB-M0099-20261111",
+          "source_type": "WEB_RESEARCH",
+          "source_record_id": "RESEARCH-M0099",
+          "source_locator": "https://encykorea.aks.ac.kr/Article/E0038861",
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0038861",
+          "match_trust": "WEB_SOURCE_REVIEWED_NOT_HUMAN_APPROVED"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 67,
+          "doc_ids": [
+            "DOC-B0099-TOUR_API-130063"
+          ]
+        },
+        {
+          "start": 68,
+          "end": 155,
+          "doc_ids": [
+            "DOC-B0099-TOUR_API-130063"
+          ]
+        },
+        {
+          "start": 156,
+          "end": 238,
+          "doc_ids": [
+            "DOC-B0099-TOUR_API-130063"
+          ]
+        },
+        {
+          "start": 239,
+          "end": 367,
+          "doc_ids": [
+            "DOC-B0099-TOUR_API-130063"
+          ]
+        },
+        {
+          "start": 368,
+          "end": 394,
+          "doc_ids": [
+            "DOC-WEB-M0099-20261111"
+          ]
+        },
+        {
+          "start": 395,
+          "end": 460,
+          "doc_ids": [
+            "DOC-WEB-M0099-20261111"
+          ]
+        }
+      ],
+      "source_urls": [
+        "https://encykorea.aks.ac.kr/Article/E0038861"
+      ],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=49",
+      "text": "우리나라 최초의 사립 민속박물관인 온양민속박물관은 우리 전통문화의 아름다움과 우수성을 알리기 위해 1978년 개관하였다. 전체 대지는 72,727㎡의 규모이며 이타미준의 국내 첫 번째 건축물인 구정 아트센터를 포함하여, 상설전시실, 특별전시실, 야외전시장 등으로 구성되어 있다. 옛 선조들의 지혜와 품격이 담긴 생활품 2만여 점을 소장하고 있으며, 전시 및 다양한 교육 체험 프로그램, 공연 등의 문화 행사를 체험할 수 있다. 유형적인 민속자료를 체계적으로 수집, 보존, 전시해 후세들에게 합리적으로 이해 교육시키며 전통적 요소를 오늘에 되살릴 수 있도록 유도하며 학술적으로 고증하여 연구하고 세계 속에 한국문화의 독자성을 선양하기 위해 설립된 박물관이다. 한국인의 전통 생활문화를 다루는 민속박물관이다. 의식주와 관혼상제, 농업·어업 등 생업, 민간신앙과 공예 관련 유물을 통해 한국 민속의 여러 모습을 살펴볼 수 있다.",
+      "sido": "충청남도",
+      "sigungu": "아산시",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=49"
+      ],
+      "evidence_id": "E2",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=61",
+        "fields": {
+          "name": "온양민속박물관",
+          "sido": "충청남도",
+          "sigungu": "아산시",
+          "address": "충청남도 아산시 충무로 123",
+          "ownership_type": "사립",
+          "adult_fee": "5000",
+          "youth_fee": "3000",
+          "child_fee": "1500",
+          "adult_fee_status": "BASE_FEE_PAID",
+          "weekday_open": "10:00",
+          "weekday_close": "17:30",
+          "holiday_open": "10:00",
+          "holiday_close": "17:30",
+          "closure_rule_raw": "월",
+          "amenities_raw": "카페 등"
+        },
+        "base_data_date": "2026-09-01",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0649",
+      "name": "북촌생활사박물관",
+      "document": "북촌생활사박물관은 서울의 600년 역사를 안고 있는 한옥 밀집 지역인 북촌에 대한 전시를 하는 곳이다. 오랫동안 살았거나 살고 있는 사람들이 실제 생활에 사용했던 생활 물건들을 수집·보존·전시하면서 이를 통해 지역의 근·현대생활사를 정리하고 지역의 전통과 문화를 계승‧발전시켜 나가는 데 기여하고자 설립한 사립박물관이다. 북촌 주민들이 변화무쌍했던 우리나라 근‧현대 100여 년을 지나오는 동안 실제 생활에 사용했던 생활사의 생생한 증거물 3천여 점을 소장하고 있다. 소장품 한 점 한 점이 멀게는 조선시대 초기부터 가깝게는 1970년대 후반까지 오랜 세월에 걸쳐 실 생활에 사용되어 온 물건들로서 소장품 하나하나마다 그 물건을 간수하며 사용해 온 사람들의 진진한 삶의 이야기와 깊이 배어 있는 짙은 손때에서 우러나오는 오래된 향기를 만나볼 수 있다.",
+      "metadata": {
+        "homepage_url": "http://cafe.daum.net/namu3579",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/75/3574275_image2_1.jpg",
+        "holiday_open": "10:00",
+        "closure_rule_raw": "연중무휴",
+        "adult_fee": 5000.0,
+        "ownership_type": "사립",
+        "child_fee": 0.0,
+        "weekday_open": "10:00",
+        "youth_fee": 3000.0,
+        "address": "서울특별시 종로구 북촌로5나길 90(삼청동)",
+        "requires_manual_review": true,
+        "image_copyright": "Type3",
+        "adult_fee_status": "BASE_FEE_PAID",
+        "holiday_close": "19:00",
+        "name": "북촌생활사박물관",
+        "sigungu": "종로구",
+        "source_types": "TOUR_API",
+        "latitude": 37.584425,
+        "sido": "서울특별시",
+        "longitude": 126.9829948,
+        "weekday_close": "19:00"
+      },
+      "vector_rank": 3,
+      "bm25_rank": null,
+      "vector_distance": 0.5617109537124634,
+      "vector_score": null,
+      "bm25_score": null,
+      "vector_document": "북촌생활사박물관은 서울의 600년 역사를 안고 있는 한옥 밀집 지역인 북촌에 대한 전시를 하는 곳이다. 오랫동안 살았거나 살고 있는 사람들이 실제 생활에 사용했던 생활 물건들을 수집·보존·전시하면서 이를 통해 지역의 근·현대생활사를 정리하고 지역의 전통과 문화를 계승‧발전시켜 나가는 데 기여하고자 설립한 사립박물관이다. 북촌 주민들이 변화무쌍했던 우리나라 근‧현대 100여 년을 지나오는 동안 실제 생활에 사용했던 생활사의 생생한 증거물 3천여 점을 소장하고 있다. 소장품 한 점 한 점이 멀게는 조선시대 초기부터 가깝게는 1970년대 후반까지 오랜 세월에 걸쳐 실 생활에 사용되어 온 물건들로서 소장품 하나하나마다 그 물건을 간수하며 사용해 온 사람들의 진진한 삶의 이야기와 깊이 배어 있는 짙은 손때에서 우러나오는 오래된 향기를 만나볼 수 있다.",
+      "bm25_document": "",
+      "best_span_id": null,
+      "best_span_text": null,
+      "fusion_score": 0.015873015873015872,
+      "retrieved_by": [
+        "vector"
+      ],
+      "fusion_rank": 5,
+      "rerank_score": 0.0003589596599340439,
+      "rank": 3,
+      "score": 0.0003589596599340439,
+      "score_type": "cross_encoder",
+      "distance": 0.5617109537124634,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector"
+      ],
+      "retriever": "vector",
+      "source_doc_ids": [
+        "DOC-B0649-TOUR_API-231971"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0649-TOUR_API-231971",
+          "source_type": "TOUR_API",
+          "source_record_id": "231971",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=322",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 57,
+          "doc_ids": [
+            "DOC-B0649-TOUR_API-231971"
+          ]
+        },
+        {
+          "start": 58,
+          "end": 179,
+          "doc_ids": [
+            "DOC-B0649-TOUR_API-231971"
+          ]
+        },
+        {
+          "start": 180,
+          "end": 261,
+          "doc_ids": [
+            "DOC-B0649-TOUR_API-231971"
+          ]
+        },
+        {
+          "start": 262,
+          "end": 420,
+          "doc_ids": [
+            "DOC-B0649-TOUR_API-231971"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=322",
+      "text": "북촌생활사박물관은 서울의 600년 역사를 안고 있는 한옥 밀집 지역인 북촌에 대한 전시를 하는 곳이다. 오랫동안 살았거나 살고 있는 사람들이 실제 생활에 사용했던 생활 물건들을 수집·보존·전시하면서 이를 통해 지역의 근·현대생활사를 정리하고 지역의 전통과 문화를 계승‧발전시켜 나가는 데 기여하고자 설립한 사립박물관이다. 북촌 주민들이 변화무쌍했던 우리나라 근‧현대 100여 년을 지나오는 동안 실제 생활에 사용했던 생활사의 생생한 증거물 3천여 점을 소장하고 있다. 소장품 한 점 한 점이 멀게는 조선시대 초기부터 가깝게는 1970년대 후반까지 오랜 세월에 걸쳐 실 생활에 사용되어 온 물건들로서 소장품 하나하나마다 그 물건을 간수하며 사용해 온 사람들의 진진한 삶의 이야기와 깊이 배어 있는 짙은 손때에서 우러나오는 오래된 향기를 만나볼 수 있다.",
+      "sido": "서울특별시",
+      "sigungu": "종로구",
+      "span_id": "",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=322"
+      ],
+      "evidence_id": "E3",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=446",
+        "fields": {
+          "name": "북촌생활사박물관",
+          "sido": "서울특별시",
+          "sigungu": "종로구",
+          "address": "서울특별시 종로구 북촌로5나길 90(삼청동)",
+          "ownership_type": "사립",
+          "adult_fee": "5000",
+          "youth_fee": "3000",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_PAID",
+          "weekday_open": "10:00",
+          "weekday_close": "19:00",
+          "holiday_open": "10:00",
+          "holiday_close": "19:00",
+          "closure_rule_raw": "연중무휴"
+        },
+        "base_data_date": "2025-11-01",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0286",
+      "name": "사상생활사박물관",
+      "document": "사상생활사박물관은 2016년 5월 개관하여 사상의 자연과 함께 살아온 사람들의 생활사 변천 과정을 전시하고 지역에 산재해 있는 관광자원을 소개하는 곳이며 주민들이 주도적으로 운영에 참여하고 전문가와 행정이 협업하여 지역의 문화를 발전시키는 주민들의 소통 공간이다. 사상지역은 1970년대 대한민국 근대화에 있어 중추적인 역할을 해왔으나 공업화의 악영향으로 회색도시, 문화의 불모지라는 오명과 함께 날로 낙후되어 가고 있는 사상공업지역에 문화와 소통의 향기를 전하는 문화 네트워크형 박물관을 건립하여 잊혀가는 사상 주민들의 생활사와 추억들을 수집하여 역사를 조명하고 미래를 준비하기 위하여 사상생활사박물관을 건립하게 되었다. 특별 전시와 기획 전시도 운영하고 있다. 사상생활사박물관은 2016년 5월 6일 개관한 생활사 전문 박물관",
+      "metadata": {
+        "holiday_open": "09:00",
+        "closure_rule_raw": "1월 1일+설 및 추석연휴+매주 월요일(공휴일이면 그 다음 첫번째 평일 휴관)",
+        "holiday_close": "18:00",
+        "child_fee": 0.0,
+        "sigungu": "사상구",
+        "weekday_open": "09:00",
+        "sido": "부산광역시",
+        "address": "부산광역시 사상구 낙동대로 1258번길 36",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/63/3017163_image2_1.JPG",
+        "weekday_close": "18:00",
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "source_types": "BASE|TOUR_API",
+        "requires_manual_review": true,
+        "amenities_raw": "휠체어+장애인 주차구역+기저귀갈이대",
+        "name": "사상생활사박물관",
+        "latitude": 35.1720448,
+        "longitude": 128.9787416,
+        "youth_fee": 0.0,
+        "transport_notes": "지하철: 2호선 덕포역 1번 출구(약500m)+버스: 사상구7,123,126,138-1",
+        "adult_fee": 0.0,
+        "homepage_url": "https://www.sasang.go.kr/lmuseum/index.sasang",
+        "ownership_type": "공립",
+        "image_copyright": "Type3"
+      },
+      "vector_rank": 8,
+      "bm25_rank": null,
+      "vector_distance": 0.5744003057479858,
+      "vector_score": null,
+      "bm25_score": null,
+      "vector_document": "사상생활사박물관은 2016년 5월 개관하여 사상의 자연과 함께 살아온 사람들의 생활사 변천 과정을 전시하고 지역에 산재해 있는 관광자원을 소개하는 곳이며 주민들이 주도적으로 운영에 참여하고 전문가와 행정이 협업하여 지역의 문화를 발전시키는 주민들의 소통 공간이다. 사상지역은 1970년대 대한민국 근대화에 있어 중추적인 역할을 해왔으나 공업화의 악영향으로 회색도시, 문화의 불모지라는 오명과 함께 날로 낙후되어 가고 있는 사상공업지역에 문화와 소통의 향기를 전하는 문화 네트워크형 박물관을 건립하여 잊혀가는 사상 주민들의 생활사와 추억들을 수집하여 역사를 조명하고 미래를 준비하기 위하여 사상생활사박물관을 건립하게 되었다. 특별 전시와 기획 전시도 운영하고 있다. 사상생활사박물관은 2016년 5월 6일 개관한 생활사 전문 박물관",
+      "bm25_document": "",
+      "best_span_id": null,
+      "best_span_text": null,
+      "fusion_score": 0.014705882352941176,
+      "retrieved_by": [
+        "vector"
+      ],
+      "fusion_rank": 14,
+      "rerank_score": 0.0003293133922852576,
+      "rank": 4,
+      "score": 0.0003293133922852576,
+      "score_type": "cross_encoder",
+      "distance": 0.5744003057479858,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector"
+      ],
+      "retriever": "vector",
+      "source_doc_ids": [
+        "DOC-B0286-TOUR_API-3017191",
+        "DOC-B0286-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0286-TOUR_API-3017191",
+          "source_type": "TOUR_API",
+          "source_record_id": "3017191",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=142",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        },
+        {
+          "doc_id": "DOC-B0286-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0286",
+          "source_locator": "data/raw/museum_base_1070.csv#row=287",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 147,
+          "doc_ids": [
+            "DOC-B0286-TOUR_API-3017191"
+          ]
+        },
+        {
+          "start": 148,
+          "end": 348,
+          "doc_ids": [
+            "DOC-B0286-TOUR_API-3017191"
+          ]
+        },
+        {
+          "start": 349,
+          "end": 371,
+          "doc_ids": [
+            "DOC-B0286-TOUR_API-3017191"
+          ]
+        },
+        {
+          "start": 372,
+          "end": 408,
+          "doc_ids": [
+            "DOC-B0286-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=142",
+      "text": "사상생활사박물관은 2016년 5월 개관하여 사상의 자연과 함께 살아온 사람들의 생활사 변천 과정을 전시하고 지역에 산재해 있는 관광자원을 소개하는 곳이며 주민들이 주도적으로 운영에 참여하고 전문가와 행정이 협업하여 지역의 문화를 발전시키는 주민들의 소통 공간이다. 사상지역은 1970년대 대한민국 근대화에 있어 중추적인 역할을 해왔으나 공업화의 악영향으로 회색도시, 문화의 불모지라는 오명과 함께 날로 낙후되어 가고 있는 사상공업지역에 문화와 소통의 향기를 전하는 문화 네트워크형 박물관을 건립하여 잊혀가는 사상 주민들의 생활사와 추억들을 수집하여 역사를 조명하고 미래를 준비하기 위하여 사상생활사박물관을 건립하게 되었다. 특별 전시와 기획 전시도 운영하고 있다. 사상생활사박물관은 2016년 5월 6일 개관한 생활사 전문 박물관",
+      "sido": "부산광역시",
+      "sigungu": "사상구",
+      "span_id": "",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=142"
+      ],
+      "evidence_id": "E4",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=200",
+        "fields": {
+          "name": "사상생활사박물관",
+          "sido": "부산광역시",
+          "sigungu": "사상구",
+          "address": "부산광역시 사상구 낙동대로 1258번길 36",
+          "ownership_type": "공립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "09:00",
+          "weekday_close": "18:00",
+          "holiday_open": "09:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "1월 1일+설 및 추석연휴+매주 월요일(공휴일이면 그 다음 첫번째 평일 휴관)",
+          "amenities_raw": "휠체어+장애인 주차구역+기저귀갈이대"
+        },
+        "base_data_date": "2026-07-18",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0490",
+      "name": "국립농업박물관",
+      "document": "국립농업박물관은 우리 농업의 어제와 오늘 그리고 내일을 만날 수 있는 다양한 전시와 실내외 농업 체험장으로 구성되어 있다. 농업의 모든 것을 선보이는 상설 전시와 다양한 측면을 포착한 기획 전시, 농촌의 가치를 체험할 수 있는 어린이박물관이 있다. 도심 속 여유를 만끽할 수 있는 야외 농업 체험장과 식물원, 곤충관은 물론, 직접 느끼며 깨닫는 교육 프로그램까지 다양한 볼거리와 즐길거리가 가득하다. ‘모두가 찾아오고 싶은 생활 문화 공간’을 추구하며 농업 농촌의 가치를 친근하게 전파하고자 한다. 한국 농업의 역사와 미래, 농촌문화와 식문화를 소개하는 국립박물관이다. 농업관과 어린이박물관, 식물원·곤충관·농업체험시설을 통해 농업의 여러 모습을 체험할 수 있다.",
+      "metadata": {
+        "weekday_open": "10:00",
+        "holiday_close": "18:00",
+        "sigungu": "수원시",
+        "image_copyright": "Type1",
+        "youth_fee": 0.0,
+        "longitude": 126.9849753448,
+        "ownership_type": "국립",
+        "address": "경기도 수원시 권선구 수인로 154",
+        "source_types": "TOUR_API|WEB_RESEARCH",
+        "child_fee": 0.0,
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/95/4056595_image2_1.jpg",
+        "sido": "경기도",
+        "weekday_close": "18:00",
+        "requires_manual_review": true,
+        "homepage_url": "https://www.namuk.or.kr/sites/kr/index.do",
+        "closure_rule_raw": "매주 월요일, 1월 1일, 설·추석 당일",
+        "holiday_open": "10:00",
+        "adult_fee": 0.0,
+        "latitude": 37.2748838338,
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "name": "국립농업박물관"
+      },
+      "vector_rank": 6,
+      "bm25_rank": null,
+      "vector_distance": 0.5651951432228088,
+      "vector_score": null,
+      "bm25_score": null,
+      "vector_document": "국립농업박물관은 우리 농업의 어제와 오늘 그리고 내일을 만날 수 있는 다양한 전시와 실내외 농업 체험장으로 구성되어 있다. 농업의 모든 것을 선보이는 상설 전시와 다양한 측면을 포착한 기획 전시, 농촌의 가치를 체험할 수 있는 어린이박물관이 있다. 도심 속 여유를 만끽할 수 있는 야외 농업 체험장과 식물원, 곤충관은 물론, 직접 느끼며 깨닫는 교육 프로그램까지 다양한 볼거리와 즐길거리가 가득하다. ‘모두가 찾아오고 싶은 생활 문화 공간’을 추구하며 농업 농촌의 가치를 친근하게 전파하고자 한다. 한국 농업의 역사와 미래, 농촌문화와 식문화를 소개하는 국립박물관이다. 농업관과 어린이박물관, 식물원·곤충관·농업체험시설을 통해 농업의 여러 모습을 체험할 수 있다.",
+      "bm25_document": "",
+      "best_span_id": null,
+      "best_span_text": null,
+      "fusion_score": 0.015151515151515152,
+      "retrieved_by": [
+        "vector"
+      ],
+      "fusion_rank": 10,
+      "rerank_score": 0.00029467997956089675,
+      "rank": 5,
+      "score": 0.00029467997956089675,
+      "score_type": "cross_encoder",
+      "distance": 0.5651951432228088,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector"
+      ],
+      "retriever": "vector",
+      "source_doc_ids": [
+        "DOC-B0490-TOUR_API-2944481",
+        "DOC-WEB-M0490-20261111"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0490-TOUR_API-2944481",
+          "source_type": "TOUR_API",
+          "source_record_id": "2944481",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=242",
+          "match_trust": "RECHECKED_BY_RULE_NOT_HUMAN_APPROVED"
+        },
+        {
+          "doc_id": "DOC-WEB-M0490-20261111",
+          "source_type": "WEB_RESEARCH",
+          "source_record_id": "RESEARCH-M0490",
+          "source_locator": "https://namuk.or.kr/kr/597/subview.do",
+          "source_url": "https://namuk.or.kr/kr/597/subview.do",
+          "match_trust": "WEB_SOURCE_REVIEWED_NOT_HUMAN_APPROVED"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 68,
+          "doc_ids": [
+            "DOC-B0490-TOUR_API-2944481"
+          ]
+        },
+        {
+          "start": 69,
+          "end": 138,
+          "doc_ids": [
+            "DOC-B0490-TOUR_API-2944481"
+          ]
+        },
+        {
+          "start": 139,
+          "end": 223,
+          "doc_ids": [
+            "DOC-B0490-TOUR_API-2944481"
+          ]
+        },
+        {
+          "start": 224,
+          "end": 278,
+          "doc_ids": [
+            "DOC-B0490-TOUR_API-2944481"
+          ]
+        },
+        {
+          "start": 279,
+          "end": 318,
+          "doc_ids": [
+            "DOC-WEB-M0490-20261111"
+          ]
+        },
+        {
+          "start": 319,
+          "end": 371,
+          "doc_ids": [
+            "DOC-WEB-M0490-20261111"
+          ]
+        }
+      ],
+      "source_urls": [
+        "https://namuk.or.kr/kr/597/subview.do"
+      ],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=242",
+      "text": "국립농업박물관은 우리 농업의 어제와 오늘 그리고 내일을 만날 수 있는 다양한 전시와 실내외 농업 체험장으로 구성되어 있다. 농업의 모든 것을 선보이는 상설 전시와 다양한 측면을 포착한 기획 전시, 농촌의 가치를 체험할 수 있는 어린이박물관이 있다. 도심 속 여유를 만끽할 수 있는 야외 농업 체험장과 식물원, 곤충관은 물론, 직접 느끼며 깨닫는 교육 프로그램까지 다양한 볼거리와 즐길거리가 가득하다. ‘모두가 찾아오고 싶은 생활 문화 공간’을 추구하며 농업 농촌의 가치를 친근하게 전파하고자 한다. 한국 농업의 역사와 미래, 농촌문화와 식문화를 소개하는 국립박물관이다. 농업관과 어린이박물관, 식물원·곤충관·농업체험시설을 통해 농업의 여러 모습을 체험할 수 있다.",
+      "sido": "경기도",
+      "sigungu": "수원시",
+      "span_id": "",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=242"
+      ],
+      "evidence_id": "E5",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=353",
+        "fields": {
+          "name": "국립농업박물관",
+          "sido": "경기도",
+          "sigungu": "수원시",
+          "address": "경기도 수원시 권선구 수인로 154",
+          "ownership_type": "국립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "10:00",
+          "weekday_close": "18:00",
+          "holiday_open": "10:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "매주 월요일, 1월 1일, 설·추석 당일"
+        },
+        "base_data_date": "2026-04-08",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    }
+  ],
+  "answer": "‘소두방의 생활’은 기장 지역의 삼국시대 마을 유적에서 발굴된 생활유물을 전시합니다. [E1] ‘소두방의 기억’은 신도시 개발로 마을을 떠나야 했던 옛 주민들의 이야기와 기증품에 담긴 마음, 정관박물관의 발자취를 다룹니다. [E1]",
+  "retrieval_status": "ok",
+  "answer_status": "answered",
+  "route": "hybrid",
+  "retry_count": 0,
+  "supervisor_verified": true,
+  "rerank_applied": true,
+  "retriever_errors": [],
+  "warnings": [],
+  "duration_ms": 132681.99,
+  "error_type": "",
+  "hit_at_1": 1,
+  "hit_at_3": 1,
+  "hit_at_5": 1,
+  "recall_at_5": 1.0,
+  "mrr_at_10": 1.0
+}

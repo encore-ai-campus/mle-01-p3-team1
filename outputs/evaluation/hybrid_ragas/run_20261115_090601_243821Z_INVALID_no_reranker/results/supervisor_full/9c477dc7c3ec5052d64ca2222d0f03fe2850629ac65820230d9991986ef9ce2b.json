@@ -1,0 +1,748 @@
+{
+  "mode": "supervisor_full",
+  "question_id": "Q169",
+  "evidence": [
+    {
+      "museum_id": "M0277",
+      "name": "판교박물관",
+      "document": "2013년에 개관한 판교박물관은 판교 개발 당시 발굴된 한성백제 돌방무덤 9기와 고구려 돌방무덤 2기의 보존 및 활용을 위해 건립된 박물관으로, 삼국시대 유적을 비롯하여 판교에서 출토된 유물들을 통해 성남의 역사와 문화를 알리기 위해 조성되었다. 판교박물관은 지하 1층, 지하 1층으로 구성되어 있으며 전시실은 상설전시실과 수장형전시실로 이루어져 있다. 판교택지개발시 출토된 삼국시대 굴식돌방무덤의 보존 및 전시",
+      "metadata": {
+        "holiday_close": "18:00",
+        "homepage_url": "https://museum.seongnam.go.kr/pangyo",
+        "name": "판교박물관",
+        "ownership_type": "공립",
+        "latitude": 37.400925,
+        "child_fee": 0.0,
+        "source_types": "BASE|TOUR_API",
+        "sigungu": "성남시",
+        "longitude": 127.095584,
+        "transport_notes": "버스(73/330/350/375/9007/4000/4500/1007-1/누리4/반디5)",
+        "holiday_open": "09:00",
+        "sido": "경기도",
+        "image_copyright": "Type3",
+        "closure_rule_raw": "월요일+1월1일+추석 연휴+설 연휴",
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "amenities_raw": "자전거보관대",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/07/3053407_image2_1.jpg",
+        "weekday_close": "18:00",
+        "weekday_open": "09:00",
+        "youth_fee": 0.0,
+        "address": "경기도 성남시 분당구 판교로 191",
+        "adult_fee": 0.0,
+        "requires_manual_review": true
+      },
+      "vector_rank": 1,
+      "bm25_rank": 1,
+      "vector_distance": 0.42197877168655396,
+      "vector_score": null,
+      "bm25_score": 11.8175404399336,
+      "vector_document": "2013년에 개관한 판교박물관은 판교 개발 당시 발굴된 한성백제 돌방무덤 9기와 고구려 돌방무덤 2기의 보존 및 활용을 위해 건립된 박물관으로, 삼국시대 유적을 비롯하여 판교에서 출토된 유물들을 통해 성남의 역사와 문화를 알리기 위해 조성되었다. 판교박물관은 지하 1층, 지하 1층으로 구성되어 있으며 전시실은 상설전시실과 수장형전시실로 이루어져 있다. 판교택지개발시 출토된 삼국시대 굴식돌방무덤의 보존 및 전시",
+      "bm25_document": "2013년에 개관한 판교박물관은 판교 개발 당시 발굴된 한성백제 돌방무덤 9기와 고구려 돌방무덤 2기의 보존 및 활용을 위해 건립된 박물관으로, 삼국시대 유적을 비롯하여 판교에서 출토된 유물들을 통해 성남의 역사와 문화를 알리기 위해 조성되었다. 판교박물관은 지하 1층, 지하 1층으로 구성되어 있으며 전시실은 상설전시실과 수장형전시실로 이루어져 있다. 판교택지개발시 출토된 삼국시대 굴식돌방무덤의 보존 및 전시",
+      "best_span_id": "chroma:M0277",
+      "best_span_text": "2013년에 개관한 판교박물관은 판교 개발 당시 발굴된 한성백제 돌방무덤 9기와 고구려 돌방무덤 2기의 보존 및 활용을 위해 건립된 박물관으로, 삼국시대 유적을 비롯하여 판교에서 출토된 유물들을 통해 성남의 역사와 문화를 알리기 위해 조성되었다. 판교박물관은 지하 1층, 지하 1층으로 구성되어 있으며 전시실은 상설전시실과 수장형전시실로 이루어져 있다. 판교택지개발시 출토된 삼국시대 굴식돌방무덤의 보존 및 전시",
+      "fusion_score": 0.03278688524590164,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 1,
+      "name_match": true,
+      "rerank_score": null,
+      "rank": 1,
+      "score": 0.03278688524590164,
+      "score_type": "rrf",
+      "distance": 0.42197877168655396,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0277",
+      "source_doc_ids": [
+        "DOC-B0277-TOUR_API-2371204",
+        "DOC-B0277-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0277-TOUR_API-2371204",
+          "source_type": "TOUR_API",
+          "source_record_id": "2371204",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=138",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        },
+        {
+          "doc_id": "DOC-B0277-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0277",
+          "source_locator": "data/raw/museum_base_1070.csv#row=278",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 137,
+          "doc_ids": [
+            "DOC-B0277-TOUR_API-2371204"
+          ]
+        },
+        {
+          "start": 138,
+          "end": 197,
+          "doc_ids": [
+            "DOC-B0277-TOUR_API-2371204"
+          ]
+        },
+        {
+          "start": 198,
+          "end": 230,
+          "doc_ids": [
+            "DOC-B0277-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=138",
+      "text": "2013년에 개관한 판교박물관은 판교 개발 당시 발굴된 한성백제 돌방무덤 9기와 고구려 돌방무덤 2기의 보존 및 활용을 위해 건립된 박물관으로, 삼국시대 유적을 비롯하여 판교에서 출토된 유물들을 통해 성남의 역사와 문화를 알리기 위해 조성되었다. 판교박물관은 지하 1층, 지하 1층으로 구성되어 있으며 전시실은 상설전시실과 수장형전시실로 이루어져 있다. 판교택지개발시 출토된 삼국시대 굴식돌방무덤의 보존 및 전시",
+      "sido": "경기도",
+      "sigungu": "성남시",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=138"
+      ],
+      "evidence_id": "E1",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=196",
+        "fields": {
+          "name": "판교박물관",
+          "sido": "경기도",
+          "sigungu": "성남시",
+          "address": "경기도 성남시 분당구 판교로 191",
+          "ownership_type": "공립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "09:00",
+          "weekday_close": "18:00",
+          "holiday_open": "09:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "월요일+1월1일+추석 연휴+설 연휴",
+          "amenities_raw": "자전거보관대"
+        },
+        "base_data_date": "2026-06-30",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M1041",
+      "name": "배재대학교 박물관",
+      "document": "- 배재대학교 박물관은 1988년 3월 개관하여 1993년 주시경기념도서관 4층으로 확장ㆍ이관하였습니다. - 20여년 동안 다양한 역사자료 및 문화자료들을 수집하고 수집한 유물들을 보관 및 전시함으로써 학술 연구 및 교육, 문화발전을 위해 노력하였습니다. - 박물관은 토기전시실ㆍ배재역사실과 학예실, 관장실, 자료실로 구성되어 있습니다.",
+      "metadata": {
+        "latitude": 36.32323809,
+        "holiday_open": "10:00",
+        "holiday_close": "17:00",
+        "fee_notes": "무료",
+        "transport_notes": "- 버스 : 612, 301, 216, 916, 312",
+        "weekday_close": "16:00",
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "longitude": 127.3660759,
+        "child_fee": 0.0,
+        "weekday_open": "10:00",
+        "source_types": "BASE",
+        "homepage_url": "https://www.museum.pcu.ac.kr/",
+        "amenities_raw": "없음",
+        "address": "대전광역시 서구 배재로 155-40",
+        "ownership_type": "대학",
+        "sido": "대전광역시",
+        "requires_manual_review": true,
+        "adult_fee": 0.0,
+        "name": "배재대학교 박물관",
+        "sigungu": "서구",
+        "youth_fee": 0.0,
+        "closure_rule_raw": "토,일, 공휴일"
+      },
+      "vector_rank": 10,
+      "bm25_rank": 12,
+      "vector_distance": 0.5210328102111816,
+      "vector_score": null,
+      "bm25_score": 3.0705166279830647,
+      "vector_document": "- 배재대학교 박물관은 1988년 3월 개관하여 1993년 주시경기념도서관 4층으로 확장ㆍ이관하였습니다. - 20여년 동안 다양한 역사자료 및 문화자료들을 수집하고 수집한 유물들을 보관 및 전시함으로써 학술 연구 및 교육, 문화발전을 위해 노력하였습니다. - 박물관은 토기전시실ㆍ배재역사실과 학예실, 관장실, 자료실로 구성되어 있습니다.",
+      "bm25_document": "- 배재대학교 박물관은 1988년 3월 개관하여 1993년 주시경기념도서관 4층으로 확장ㆍ이관하였습니다. - 20여년 동안 다양한 역사자료 및 문화자료들을 수집하고 수집한 유물들을 보관 및 전시함으로써 학술 연구 및 교육, 문화발전을 위해 노력하였습니다. - 박물관은 토기전시실ㆍ배재역사실과 학예실, 관장실, 자료실로 구성되어 있습니다.",
+      "best_span_id": "chroma:M1041",
+      "best_span_text": "- 배재대학교 박물관은 1988년 3월 개관하여 1993년 주시경기념도서관 4층으로 확장ㆍ이관하였습니다. - 20여년 동안 다양한 역사자료 및 문화자료들을 수집하고 수집한 유물들을 보관 및 전시함으로써 학술 연구 및 교육, 문화발전을 위해 노력하였습니다. - 박물관은 토기전시실ㆍ배재역사실과 학예실, 관장실, 자료실로 구성되어 있습니다.",
+      "fusion_score": 0.02817460317460317,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 2,
+      "rerank_score": null,
+      "rank": 2,
+      "score": 0.02817460317460317,
+      "score_type": "rrf",
+      "distance": 0.5210328102111816,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M1041",
+      "source_doc_ids": [
+        "DOC-B1041-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B1041-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B1041",
+          "source_locator": "data/raw/museum_base_1070.csv#row=1042",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 58,
+          "doc_ids": [
+            "DOC-B1041-BASE"
+          ]
+        },
+        {
+          "start": 59,
+          "end": 142,
+          "doc_ids": [
+            "DOC-B1041-BASE"
+          ]
+        },
+        {
+          "start": 143,
+          "end": 188,
+          "doc_ids": [
+            "DOC-B1041-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_base_1070.csv#row=1042",
+      "text": "- 배재대학교 박물관은 1988년 3월 개관하여 1993년 주시경기념도서관 4층으로 확장ㆍ이관하였습니다. - 20여년 동안 다양한 역사자료 및 문화자료들을 수집하고 수집한 유물들을 보관 및 전시함으로써 학술 연구 및 교육, 문화발전을 위해 노력하였습니다. - 박물관은 토기전시실ㆍ배재역사실과 학예실, 관장실, 자료실로 구성되어 있습니다.",
+      "sido": "대전광역시",
+      "sigungu": "서구",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_base_1070.csv#row=1042"
+      ],
+      "evidence_id": "E2",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=717",
+        "fields": {
+          "name": "배재대학교 박물관",
+          "sido": "대전광역시",
+          "sigungu": "서구",
+          "address": "대전광역시 서구 배재로 155-40",
+          "ownership_type": "대학",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "10:00",
+          "weekday_close": "16:00",
+          "holiday_open": "10:00",
+          "holiday_close": "17:00",
+          "closure_rule_raw": "토,일, 공휴일",
+          "amenities_raw": "없음"
+        },
+        "base_data_date": "2020-12-15",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M1066",
+      "name": "한밭교육박물관",
+      "document": "한밭교육박물관은 1992년 7월 10일 교육부의 승인을 받아, 대지 4,198㎡에 연건축면적 2,195㎡으로 9개의 전시실과 3개의 전시장, 야외 전시장 그리고 각종 부대시설을 갖추고 옛날에 사용하던 교과서를 비롯하여 교육 관련도서, 교육학습기록, 교원학생서장, 사무용품 등 교육 관련유물 총 27,000여 점의 자료를 보존, 전시하고 교육과정과 연계하여 학생들의 학습장으로 활용되도록 운영하고 있는 교육박물관이다. 제1전시실에서는 옛날 서당교육의 모습에서부터 구한 말 신식교육이 들어오기까지의 생생한 모습과 많은 자료가 시대, 영역별로 전시하고 있으며, 제2전시실에서는 일제 강점기 시절의 여러 가지 아픈 과거인 창씨개명서장, 황국신민서사석 등 황민화 교육의 모습들이 전시되어 있다. 제3전시실에는 해방과 더불어 시작된 교수요목기부 터 7차 교육과정기까지의 우리 교육이 발달해 온 모습이 각종 교과서 및 교구 자료와 함께 전시하고 있으며, 제4전시실 에는 조선시대 교육기관 모습이 모형촌으로 그 시대의 사회 풍습과 더불어 전시하고 있다. 그 외 제5전시실은 옛날의 사랑방을 중심으로 한 선비들의 생활모습과 각종 민속자료들, 제6전시실은 안방에서의 여인들 생활모습, 제7전시실에서는 어전회의 모습과 옛날 저잣거리 모습이 전시되어 있다. 이러한 전시실을 기반으로 한밭교육박물관은 우리의 교육 문화는 물론 생활, 민속, 문화도 한눈에 볼 수 있는 훌륭한 교육의 장으로 자리 잡고 있다. 국가유산으로도 인정받는 한밭교육박물관 건물 한밭교육박물관 건물은 1938년 6월 8일 준공된 건물로 학교 건물로 대전에서는 가장 오래된 건물이다. 한 번의 개축도 없이 학교 건물로 사용되었으며, 6.25 전쟁 당사에는 유엔과 북한군이 번갈아 주둔하여, 지금까지 당시 총탄의 흔적이 선명하게 남아있다. 이러한 중요성으로 인해 현재 대전광역시 문화유산자료로 지정되어 있다. 한밭교육박물관은 1992. 7. 10개관 한 이래 5개의 상설전시장과 기획전시실 옛교실 야외전시장을 갖추고 있음 옛날에 사용하던 교과서를 비릇하여 교육 관련 도서+교육학습 기록+교원 학생 서장+사무용품등 교육관련 유물 총37180여점을 보존 전시하고 있음",
+      "metadata": {
+        "source_types": "BASE|TOUR_API",
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "sigungu": "동구",
+        "weekday_close": "17:00",
+        "youth_fee": 0.0,
+        "latitude": 36.33739295,
+        "name": "한밭교육박물관",
+        "ownership_type": "국립",
+        "closure_rule_raw": "월",
+        "image_copyright": "Type3",
+        "sido": "대전광역시",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/76/3560876_image2_1.jpg",
+        "transport_notes": "급행버스(2)+간선버스(101+201+501+606+607+802)+지선버스(314+512+611+616+602+711)+대전역에서 도보 10분",
+        "holiday_open": "09:00",
+        "child_fee": 0.0,
+        "adult_fee": 0.0,
+        "weekday_open": "09:00",
+        "longitude": 127.4287971,
+        "holiday_close": "17:00",
+        "requires_manual_review": true,
+        "homepage_url": "https://www.hbem.or.kr",
+        "address": "대전광역시 동구 우암로 96(삼성동)"
+      },
+      "vector_rank": 2,
+      "bm25_rank": null,
+      "vector_distance": 0.49519282579421997,
+      "vector_score": null,
+      "bm25_score": null,
+      "vector_document": "한밭교육박물관은 1992년 7월 10일 교육부의 승인을 받아, 대지 4,198㎡에 연건축면적 2,195㎡으로 9개의 전시실과 3개의 전시장, 야외 전시장 그리고 각종 부대시설을 갖추고 옛날에 사용하던 교과서를 비롯하여 교육 관련도서, 교육학습기록, 교원학생서장, 사무용품 등 교육 관련유물 총 27,000여 점의 자료를 보존, 전시하고 교육과정과 연계하여 학생들의 학습장으로 활용되도록 운영하고 있는 교육박물관이다. 제1전시실에서는 옛날 서당교육의 모습에서부터 구한 말 신식교육이 들어오기까지의 생생한 모습과 많은 자료가 시대, 영역별로 전시하고 있으며, 제2전시실에서는 일제 강점기 시절의 여러 가지 아픈 과거인 창씨개명서장, 황국신민서사석 등 황민화 교육의 모습들이 전시되어 있다. 제3전시실에는 해방과 더불어 시작된 교수요목기부 터 7차 교육과정기까지의 우리 교육이 발달해 온 모습이 각종 교과서 및 교구 자료와 함께 전시하고 있으며, 제4전시실 에는 조선시대 교육기관 모습이 모형촌으로 그 시대의 사회 풍습과 더불어 전시하고 있다. 그 외 제5전시실은 옛날의 사랑방을 중심으로 한 선비들의 생활모습과 각종 민속자료들, 제6전시실은 안방에서의 여인들 생활모습, 제7전시실에서는 어전회의 모습과 옛날 저잣거리 모습이 전시되어 있다. 이러한 전시실을 기반으로 한밭교육박물관은 우리의 교육 문화는 물론 생활, 민속, 문화도 한눈에 볼 수 있는 훌륭한 교육의 장으로 자리 잡고 있다. 국가유산으로도 인정받는 한밭교육박물관 건물 한밭교육박물관 건물은 1938년 6월 8일 준공된 건물로 학교 건물로 대전에서는 가장 오래된 건물이다. 한 번의 개축도 없이 학교 건물로 사용되었으며, 6.25 전쟁 당사에는 유엔과 북한군이 번갈아 주둔하여, 지금까지 당시 총탄의 흔적이 선명하게 남아있다. 이러한 중요성으로 인해 현재 대전광역시 문화유산자료로 지정되어 있다. 한밭교육박물관은 1992. 7. 10개관 한 이래 5개의 상설전시장과 기획전시실 옛교실 야외전시장을 갖추고 있음 옛날에 사용하던 교과서를 비릇하여 교육 관련 도서+교육학습 기록+교원 학생 서장+사무용품등 교육관련 유물 총37180여점을 보존 전시하고 있음",
+      "bm25_document": "",
+      "best_span_id": null,
+      "best_span_text": null,
+      "fusion_score": 0.016129032258064516,
+      "retrieved_by": [
+        "vector"
+      ],
+      "fusion_rank": 3,
+      "rerank_score": null,
+      "rank": 3,
+      "score": 0.016129032258064516,
+      "score_type": "rrf",
+      "distance": 0.49519282579421997,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector"
+      ],
+      "retriever": "vector",
+      "source_doc_ids": [
+        "DOC-B1066-TOUR_API-130420",
+        "DOC-B1066-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B1066-TOUR_API-130420",
+          "source_type": "TOUR_API",
+          "source_record_id": "130420",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=398",
+          "match_trust": "RECHECKED_BY_RULE_NOT_HUMAN_APPROVED"
+        },
+        {
+          "doc_id": "DOC-B1066-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B1066",
+          "source_locator": "data/raw/museum_base_1070.csv#row=1067",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 232,
+          "doc_ids": [
+            "DOC-B1066-TOUR_API-130420"
+          ]
+        },
+        {
+          "start": 233,
+          "end": 383,
+          "doc_ids": [
+            "DOC-B1066-TOUR_API-130420"
+          ]
+        },
+        {
+          "start": 384,
+          "end": 525,
+          "doc_ids": [
+            "DOC-B1066-TOUR_API-130420"
+          ]
+        },
+        {
+          "start": 526,
+          "end": 635,
+          "doc_ids": [
+            "DOC-B1066-TOUR_API-130420"
+          ]
+        },
+        {
+          "start": 636,
+          "end": 717,
+          "doc_ids": [
+            "DOC-B1066-TOUR_API-130420"
+          ]
+        },
+        {
+          "start": 718,
+          "end": 799,
+          "doc_ids": [
+            "DOC-B1066-TOUR_API-130420"
+          ]
+        },
+        {
+          "start": 800,
+          "end": 885,
+          "doc_ids": [
+            "DOC-B1066-TOUR_API-130420"
+          ]
+        },
+        {
+          "start": 886,
+          "end": 924,
+          "doc_ids": [
+            "DOC-B1066-TOUR_API-130420"
+          ]
+        },
+        {
+          "start": 925,
+          "end": 939,
+          "doc_ids": [
+            "DOC-B1066-BASE"
+          ]
+        },
+        {
+          "start": 940,
+          "end": 942,
+          "doc_ids": [
+            "DOC-B1066-BASE"
+          ]
+        },
+        {
+          "start": 943,
+          "end": 1067,
+          "doc_ids": [
+            "DOC-B1066-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=398",
+      "text": "한밭교육박물관은 1992년 7월 10일 교육부의 승인을 받아, 대지 4,198㎡에 연건축면적 2,195㎡으로 9개의 전시실과 3개의 전시장, 야외 전시장 그리고 각종 부대시설을 갖추고 옛날에 사용하던 교과서를 비롯하여 교육 관련도서, 교육학습기록, 교원학생서장, 사무용품 등 교육 관련유물 총 27,000여 점의 자료를 보존, 전시하고 교육과정과 연계하여 학생들의 학습장으로 활용되도록 운영하고 있는 교육박물관이다. 제1전시실에서는 옛날 서당교육의 모습에서부터 구한 말 신식교육이 들어오기까지의 생생한 모습과 많은 자료가 시대, 영역별로 전시하고 있으며, 제2전시실에서는 일제 강점기 시절의 여러 가지 아픈 과거인 창씨개명서장, 황국신민서사석 등 황민화 교육의 모습들이 전시되어 있다. 제3전시실에는 해방과 더불어 시작된 교수요목기부 터 7차 교육과정기까지의 우리 교육이 발달해 온 모습이 각종 교과서 및 교구 자료와 함께 전시하고 있으며, 제4전시실 에는 조선시대 교육기관 모습이 모형촌으로 그 시대의 사회 풍습과 더불어 전시하고 있다. 그 외 제5전시실은 옛날의 사랑방을 중심으로 한 선비들의 생활모습과 각종 민속자료들, 제6전시실은 안방에서의 여인들 생활모습, 제7전시실에서는 어전회의 모습과 옛날 저잣거리 모습이 전시되어 있다. 이러한 전시실을 기반으로 한밭교육박물관은 우리의 교육 문화는 물론 생활, 민속, 문화도 한눈에 볼 수 있는 훌륭한 교육의 장으로 자리 잡고 있다. 국가유산으로도 인정받는 한밭교육박물관 건물 한밭교육박물관 건물은 1938년 6월 8일 준공된 건물로 학교 건물로 대전에서는 가장 오래된 건물이다. 한 번의 개축도 없이 학교 건물로 사용되었으며, 6.25 전쟁 당사에는 유엔과 북한군이 번갈아 주둔하여, 지금까지 당시 총탄의 흔적이 선명하게 남아있다. 이러한 중요성으로 인해 현재 대전광역시 문화유산자료로 지정되어 있다. 한밭교육박물관은 1992. 7. 10개관 한 이래 5개의 상설전시장과 기획전시실 옛교실 야외전시장을 갖추고 있음 옛날에 사용하던 교과서를 비릇하여 교육 관련 도서+교육학습 기록+교원 학생 서장+사무용품등 교육관련 유물 총37180여점을 보존 전시하고 있음",
+      "sido": "대전광역시",
+      "sigungu": "동구",
+      "span_id": "",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=398"
+      ],
+      "evidence_id": "E3",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=736",
+        "fields": {
+          "name": "한밭교육박물관",
+          "sido": "대전광역시",
+          "sigungu": "동구",
+          "address": "대전광역시 동구 우암로 96(삼성동)",
+          "ownership_type": "국립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "09:00",
+          "weekday_close": "17:00",
+          "holiday_open": "09:00",
+          "holiday_close": "17:00",
+          "closure_rule_raw": "월"
+        },
+        "base_data_date": "2025-08-05",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0708",
+      "name": "대구근대역사관",
+      "document": "대구근대역사관은 근대기 대구의 흔적과 역사·전통·문화를 사랑하는 이들의 요람이 되는 곳이다. 근대문화유산인 역사관 건물은 1932년 조선식산은행 대구지점으로 건립되어, 1954년부터는 한국산업은행 대구지점으로 이용된 근대문화유산이다. 르네상스 양식으로 조형미가 뛰어난 역사관 건물은 원형이 잘 보존돼 2003년 대구광역시 유형문화유산으로 지정되었다. 2008년 대구도시공사가 이 건물을 사들여 대구시에 기증했으며 이후 대구근대역사관으로 새롭게 단장돼 2011년 1월 문을 열었다. 지상 2층, 지하 1층의 박물관에는 대구 근대를 중심 범위로 행정‧사회‧경제‧교육‧독립운동‧예술 등을 소개하고 있으며, 1960년대까지 대구 현대사의 몇 장면도 만날 수 있다. 전시공간 외에도 체험실, 문화강좌실을 갖추고 있어 다양한 체험을 할 수 있는 장소이다. 근대기 대구의 모습과 선조들의 생활상을 알 수 있는 공립박물관",
+      "metadata": {
+        "youth_fee": 0.0,
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "name": "대구근대역사관",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/44/4110644_image2_1.jpg",
+        "sido": "대구광역시",
+        "requires_manual_review": true,
+        "sigungu": "중구",
+        "child_fee": 0.0,
+        "closure_rule_raw": "매주 월요일+1월 1일+설날추석 당일",
+        "adult_fee": 0.0,
+        "holiday_open": "09:00",
+        "latitude": 35.87179779,
+        "homepage_url": "https://dmhm.or.kr",
+        "address": "대구광역시 중구 경상감영길 67",
+        "weekday_close": "18:00",
+        "longitude": 128.5911599,
+        "ownership_type": "공립",
+        "image_copyright": "Type1",
+        "holiday_close": "18:00",
+        "transport_notes": "지하철 1호선 중앙로역+204+304+349+401+410-1+503+623+706+730+급행2+북구2",
+        "weekday_open": "09:00",
+        "source_types": "BASE|TOUR_API"
+      },
+      "vector_rank": null,
+      "bm25_rank": 2,
+      "vector_distance": null,
+      "vector_score": null,
+      "bm25_score": 7.419550553793708,
+      "vector_document": "",
+      "bm25_document": "대구근대역사관은 근대기 대구의 흔적과 역사·전통·문화를 사랑하는 이들의 요람이 되는 곳이다. 근대문화유산인 역사관 건물은 1932년 조선식산은행 대구지점으로 건립되어, 1954년부터는 한국산업은행 대구지점으로 이용된 근대문화유산이다. 르네상스 양식으로 조형미가 뛰어난 역사관 건물은 원형이 잘 보존돼 2003년 대구광역시 유형문화유산으로 지정되었다. 2008년 대구도시공사가 이 건물을 사들여 대구시에 기증했으며 이후 대구근대역사관으로 새롭게 단장돼 2011년 1월 문을 열었다. 지상 2층, 지하 1층의 박물관에는 대구 근대를 중심 범위로 행정‧사회‧경제‧교육‧독립운동‧예술 등을 소개하고 있으며, 1960년대까지 대구 현대사의 몇 장면도 만날 수 있다. 전시공간 외에도 체험실, 문화강좌실을 갖추고 있어 다양한 체험을 할 수 있는 장소이다. 근대기 대구의 모습과 선조들의 생활상을 알 수 있는 공립박물관",
+      "best_span_id": "chroma:M0708",
+      "best_span_text": "대구근대역사관은 근대기 대구의 흔적과 역사·전통·문화를 사랑하는 이들의 요람이 되는 곳이다. 근대문화유산인 역사관 건물은 1932년 조선식산은행 대구지점으로 건립되어, 1954년부터는 한국산업은행 대구지점으로 이용된 근대문화유산이다. 르네상스 양식으로 조형미가 뛰어난 역사관 건물은 원형이 잘 보존돼 2003년 대구광역시 유형문화유산으로 지정되었다. 2008년 대구도시공사가 이 건물을 사들여 대구시에 기증했으며 이후 대구근대역사관으로 새롭게 단장돼 2011년 1월 문을 열었다. 지상 2층, 지하 1층의 박물관에는 대구 근대를 중심 범위로 행정‧사회‧경제‧교육‧독립운동‧예술 등을 소개하고 있으며, 1960년대까지 대구 현대사의 몇 장면도 만날 수 있다. 전시공간 외에도 체험실, 문화강좌실을 갖추고 있어 다양한 체험을 할 수 있는 장소이다. 근대기 대구의 모습과 선조들의 생활상을 알 수 있는 공립박물관",
+      "fusion_score": 0.016129032258064516,
+      "retrieved_by": [
+        "bm25"
+      ],
+      "fusion_rank": 4,
+      "rerank_score": null,
+      "rank": 4,
+      "score": 0.016129032258064516,
+      "score_type": "rrf",
+      "distance": null,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "bm25"
+      ],
+      "retriever": "bm25",
+      "span_id": "chroma:M0708",
+      "source_doc_ids": [
+        "DOC-B0708-TOUR_API-1251806",
+        "DOC-B0708-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0708-TOUR_API-1251806",
+          "source_type": "TOUR_API",
+          "source_record_id": "1251806",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=345",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        },
+        {
+          "doc_id": "DOC-B0708-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0708",
+          "source_locator": "data/raw/museum_base_1070.csv#row=709",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 51,
+          "doc_ids": [
+            "DOC-B0708-TOUR_API-1251806"
+          ]
+        },
+        {
+          "start": 52,
+          "end": 130,
+          "doc_ids": [
+            "DOC-B0708-TOUR_API-1251806"
+          ]
+        },
+        {
+          "start": 131,
+          "end": 195,
+          "doc_ids": [
+            "DOC-B0708-TOUR_API-1251806"
+          ]
+        },
+        {
+          "start": 196,
+          "end": 268,
+          "doc_ids": [
+            "DOC-B0708-TOUR_API-1251806"
+          ]
+        },
+        {
+          "start": 269,
+          "end": 367,
+          "doc_ids": [
+            "DOC-B0708-TOUR_API-1251806"
+          ]
+        },
+        {
+          "start": 368,
+          "end": 416,
+          "doc_ids": [
+            "DOC-B0708-TOUR_API-1251806"
+          ]
+        },
+        {
+          "start": 417,
+          "end": 451,
+          "doc_ids": [
+            "DOC-B0708-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=345",
+      "text": "대구근대역사관은 근대기 대구의 흔적과 역사·전통·문화를 사랑하는 이들의 요람이 되는 곳이다. 근대문화유산인 역사관 건물은 1932년 조선식산은행 대구지점으로 건립되어, 1954년부터는 한국산업은행 대구지점으로 이용된 근대문화유산이다. 르네상스 양식으로 조형미가 뛰어난 역사관 건물은 원형이 잘 보존돼 2003년 대구광역시 유형문화유산으로 지정되었다. 2008년 대구도시공사가 이 건물을 사들여 대구시에 기증했으며 이후 대구근대역사관으로 새롭게 단장돼 2011년 1월 문을 열었다. 지상 2층, 지하 1층의 박물관에는 대구 근대를 중심 범위로 행정‧사회‧경제‧교육‧독립운동‧예술 등을 소개하고 있으며, 1960년대까지 대구 현대사의 몇 장면도 만날 수 있다. 전시공간 외에도 체험실, 문화강좌실을 갖추고 있어 다양한 체험을 할 수 있는 장소이다. 근대기 대구의 모습과 선조들의 생활상을 알 수 있는 공립박물관",
+      "sido": "대구광역시",
+      "sigungu": "중구",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=345"
+      ],
+      "evidence_id": "E4",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=492",
+        "fields": {
+          "name": "대구근대역사관",
+          "sido": "대구광역시",
+          "sigungu": "중구",
+          "address": "대구광역시 중구 경상감영길 67",
+          "ownership_type": "공립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "09:00",
+          "weekday_close": "18:00",
+          "holiday_open": "09:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "매주 월요일+1월 1일+설날추석 당일"
+        },
+        "base_data_date": "2025-12-10",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M1004",
+      "name": "공주기독교박물관",
+      "document": "공주제일교회는 충청권 선교 거점이었던 115년의 기독교 역사가 전시된 기독교 박물관입니다. 1층은 독립을 위해 헌신했던 기독교도들의 역사를 돌아볼 수 있고, 2층은 공주지역 기독교 역사와 관련 유물들이 전시되어 있습니다.",
+      "metadata": {
+        "latitude": 36.4509175,
+        "sigungu": "공주시",
+        "weekday_close": "17:00",
+        "adult_fee": 2000.0,
+        "transport_notes": "시내버스 100+ 125+ 200+ 210+ 212+ 220+ 221+ 230+ 240+ 250+ 251+ 270+ 281+ 501",
+        "holiday_open": "10:00",
+        "longitude": 127.1225019,
+        "adult_fee_status": "BASE_FEE_PAID",
+        "name": "공주기독교박물관",
+        "ownership_type": "사립",
+        "address": "충청남도 공주시 제민1길 18",
+        "child_fee": 1000.0,
+        "source_types": "BASE",
+        "closure_rule_raw": "매주 일요일+ 월요일",
+        "requires_manual_review": false,
+        "holiday_close": "17:00",
+        "sido": "충청남도",
+        "amenities_raw": "전시실, 수장고, 자료도서실",
+        "fee_notes": "미취학아동 무료",
+        "weekday_open": "10:00",
+        "youth_fee": 2000.0
+      },
+      "vector_rank": 3,
+      "bm25_rank": null,
+      "vector_distance": 0.5008222460746765,
+      "vector_score": null,
+      "bm25_score": null,
+      "vector_document": "공주제일교회는 충청권 선교 거점이었던 115년의 기독교 역사가 전시된 기독교 박물관입니다. 1층은 독립을 위해 헌신했던 기독교도들의 역사를 돌아볼 수 있고, 2층은 공주지역 기독교 역사와 관련 유물들이 전시되어 있습니다.",
+      "bm25_document": "",
+      "best_span_id": null,
+      "best_span_text": null,
+      "fusion_score": 0.015873015873015872,
+      "retrieved_by": [
+        "vector"
+      ],
+      "fusion_rank": 5,
+      "rerank_score": null,
+      "rank": 5,
+      "score": 0.015873015873015872,
+      "score_type": "rrf",
+      "distance": 0.5008222460746765,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector"
+      ],
+      "retriever": "vector",
+      "source_doc_ids": [
+        "DOC-B1004-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B1004-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B1004",
+          "source_locator": "data/raw/museum_base_1070.csv#row=1005",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 50,
+          "doc_ids": [
+            "DOC-B1004-BASE"
+          ]
+        },
+        {
+          "start": 51,
+          "end": 123,
+          "doc_ids": [
+            "DOC-B1004-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_base_1070.csv#row=1005",
+      "text": "공주제일교회는 충청권 선교 거점이었던 115년의 기독교 역사가 전시된 기독교 박물관입니다. 1층은 독립을 위해 헌신했던 기독교도들의 역사를 돌아볼 수 있고, 2층은 공주지역 기독교 역사와 관련 유물들이 전시되어 있습니다.",
+      "sido": "충청남도",
+      "sigungu": "공주시",
+      "span_id": "",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_base_1070.csv#row=1005"
+      ],
+      "evidence_id": "E5",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=687",
+        "fields": {
+          "name": "공주기독교박물관",
+          "sido": "충청남도",
+          "sigungu": "공주시",
+          "address": "충청남도 공주시 제민1길 18",
+          "ownership_type": "사립",
+          "adult_fee": "2000",
+          "youth_fee": "2000",
+          "child_fee": "1000",
+          "adult_fee_status": "BASE_FEE_PAID",
+          "weekday_open": "10:00",
+          "weekday_close": "17:00",
+          "holiday_open": "10:00",
+          "holiday_close": "17:00",
+          "closure_rule_raw": "매주 일요일+ 월요일",
+          "amenities_raw": "전시실, 수장고, 자료도서실"
+        },
+        "base_data_date": "2024-08-27",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    }
+  ],
+  "answer": "판교박물관은 2013년에 개관했습니다. [E1]",
+  "retrieval_status": "ok",
+  "answer_status": "answered",
+  "route": "hybrid",
+  "retry_count": 0,
+  "supervisor_verified": true,
+  "rerank_applied": false,
+  "retriever_errors": [],
+  "warnings": [
+    "Cross-Encoder reranking failed (FileNotFoundError); RRF order retained"
+  ],
+  "duration_ms": 12819.65,
+  "error_type": "",
+  "hit_at_1": 1,
+  "hit_at_3": 1,
+  "hit_at_5": 1,
+  "recall_at_5": 1.0,
+  "mrr_at_10": 1.0
+}

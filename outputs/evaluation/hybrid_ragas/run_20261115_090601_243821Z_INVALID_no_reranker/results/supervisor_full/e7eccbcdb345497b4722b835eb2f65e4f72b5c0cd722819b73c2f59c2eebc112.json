@@ -1,0 +1,736 @@
+{
+  "mode": "supervisor_full",
+  "question_id": "Q177",
+  "evidence": [
+    {
+      "museum_id": "M0292",
+      "name": "필암서원 유물전시관",
+      "document": "유물전시관은 필암서원과 하서 김인후 관련 유물을 보관하고, 정보를 제공하기 위해 1999년 설립하였으며, 2008년 시설을 증축하여 새롭게 개관하였다. 현재 3,744점의 유물을 소장하고 있으며, 관람객들에게 다양한 볼거리를 제공하고 있다.",
+      "metadata": {
+        "latitude": 35.309894,
+        "name": "필암서원 유물전시관",
+        "adult_fee": 0.0,
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "requires_manual_review": true,
+        "weekday_close": "18:00",
+        "longitude": 126.751069,
+        "sigungu": "장성군",
+        "closure_rule_raw": "1월1일+설날 당일+추석 당일",
+        "youth_fee": 0.0,
+        "child_fee": 0.0,
+        "weekday_open": "09:00",
+        "source_types": "BASE",
+        "holiday_close": "18:00",
+        "holiday_open": "09:00",
+        "ownership_type": "공립",
+        "homepage_url": "https://www.jangseong.go.kr/home/tour/spectacle/spectacle_01/spectacle_01_14",
+        "amenities_raw": "주차장+화장실",
+        "address": "전남광주통합특별시 장성군 황룡면 필암서원로 187",
+        "sido": "전남광주특별자치도",
+        "transport_notes": "농어촌 버스 46 : 장성터미널 탑승 →원필암정류장 하차"
+      },
+      "vector_rank": 1,
+      "bm25_rank": 1,
+      "vector_distance": 0.4170593023300171,
+      "vector_score": null,
+      "bm25_score": 16.6772260600642,
+      "vector_document": "유물전시관은 필암서원과 하서 김인후 관련 유물을 보관하고, 정보를 제공하기 위해 1999년 설립하였으며, 2008년 시설을 증축하여 새롭게 개관하였다. 현재 3,744점의 유물을 소장하고 있으며, 관람객들에게 다양한 볼거리를 제공하고 있다.",
+      "bm25_document": "유물전시관은 필암서원과 하서 김인후 관련 유물을 보관하고, 정보를 제공하기 위해 1999년 설립하였으며, 2008년 시설을 증축하여 새롭게 개관하였다. 현재 3,744점의 유물을 소장하고 있으며, 관람객들에게 다양한 볼거리를 제공하고 있다.",
+      "best_span_id": "chroma:M0292",
+      "best_span_text": "유물전시관은 필암서원과 하서 김인후 관련 유물을 보관하고, 정보를 제공하기 위해 1999년 설립하였으며, 2008년 시설을 증축하여 새롭게 개관하였다. 현재 3,744점의 유물을 소장하고 있으며, 관람객들에게 다양한 볼거리를 제공하고 있다.",
+      "fusion_score": 0.03278688524590164,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 1,
+      "name_match": true,
+      "rerank_score": null,
+      "rank": 1,
+      "score": 0.03278688524590164,
+      "score_type": "rrf",
+      "distance": 0.4170593023300171,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0292",
+      "source_doc_ids": [
+        "DOC-B0292-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0292-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0292",
+          "source_locator": "data/raw/museum_base_1070.csv#row=293",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 84,
+          "doc_ids": [
+            "DOC-B0292-BASE"
+          ]
+        },
+        {
+          "start": 85,
+          "end": 134,
+          "doc_ids": [
+            "DOC-B0292-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_base_1070.csv#row=293",
+      "text": "유물전시관은 필암서원과 하서 김인후 관련 유물을 보관하고, 정보를 제공하기 위해 1999년 설립하였으며, 2008년 시설을 증축하여 새롭게 개관하였다. 현재 3,744점의 유물을 소장하고 있으며, 관람객들에게 다양한 볼거리를 제공하고 있다.",
+      "sido": "전남광주특별자치도",
+      "sigungu": "장성군",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_base_1070.csv#row=293"
+      ],
+      "evidence_id": "E1",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=206",
+        "fields": {
+          "name": "필암서원 유물전시관",
+          "sido": "전남광주통합특별시",
+          "sigungu": "장성군",
+          "address": "전남광주통합특별시 장성군 황룡면 필암서원로 187",
+          "ownership_type": "공립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "09:00",
+          "weekday_close": "18:00",
+          "holiday_open": "09:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "1월1일+설날 당일+추석 당일",
+          "amenities_raw": "주차장+화장실"
+        },
+        "base_data_date": "2026-08-03",
+        "trust": "derived_dataset_not_human_verified",
+        "normalizations": {
+          "sido": {
+            "source_value": "전남광주통합특별시",
+            "matched_value": "전남광주특별자치도",
+            "rule": "configured_sido_alias"
+          }
+        }
+      }
+    },
+    {
+      "museum_id": "M0301",
+      "name": "소수박물관",
+      "document": "소수 박물관은 우리나라 최초의 사액서원인 영주 소수서원에서 보관하던 유물을 전시하며, 유교 문화를 통해 민족정신의 뿌리를 되새기기 위해 설립된 유교 전문 박물관이다. 2004년에 개관했으며, 지하 1층·지상 2층 규모로 5개의 전시실과 수장고, 시청각실, 야외전시실로 구성되어 있다. 기획전시실에서는 기증받은 2만여 점의 유물을 순환 전시하고, 제1전시실은 선사시대부터 조선시대까지의 문화유적을 소개한다. 제2전시실은 ‘유교의 전래’를 주제로 이황의 성학십도, 사서삼경, 학맥도 등을 전시하며, 제3·4 전시실은 서원과 향교, 그리고 소수서원의 창건과 관련 인물 및 유물을 중심으로 구성되어 있다. 소수 박물관 통합 관람권을 이용하면 소수서원, 영주 선비촌과 함께 관람할 수 있다. 영주시 유물의 반출을 막고 안전한 보관 및 전시를 위해 2004년 9월 22일에 개관한 1종 전문박물관으로서 소수서원이관 유물과 지역유물을 보관전시하고 있는 유교전문박물관입니다.",
+      "metadata": {
+        "requires_manual_review": true,
+        "youth_fee": 2000.0,
+        "closure_rule_raw": "연중무휴",
+        "transport_notes": "버스: 27번 53번",
+        "weekday_close": "18:00",
+        "adult_fee": 3000.0,
+        "child_fee": 1000.0,
+        "homepage_url": "http://www.yeongju.go.kr/open_content/sosuseowon/index.do",
+        "weekday_open": "09:00",
+        "adult_fee_status": "BASE_FEE_PAID",
+        "image_copyright": "Type1",
+        "fee_notes": "단체30인이상 할인-어른 2500원 청소년 1500원 어린이 800원 영주시민 50할인 영주시 소재 대학재학생 및 사업체 근무자 50할인 동주도시 시민 50할인",
+        "holiday_close": "18:00",
+        "latitude": 36.92592352,
+        "longitude": 128.582312,
+        "image_url": "http://tong.visitkorea.or.kr/cms/resource/70/3512770_image2_1.JPG",
+        "holiday_open": "09:00",
+        "name": "소수박물관",
+        "source_types": "BASE|TOUR_API",
+        "ownership_type": "공립",
+        "address": "경상북도 영주시 순흥면 소백로 2780",
+        "sido": "경상북도",
+        "sigungu": "영주시"
+      },
+      "vector_rank": 2,
+      "bm25_rank": 2,
+      "vector_distance": 0.5607090592384338,
+      "vector_score": null,
+      "bm25_score": 16.035073825635703,
+      "vector_document": "소수 박물관은 우리나라 최초의 사액서원인 영주 소수서원에서 보관하던 유물을 전시하며, 유교 문화를 통해 민족정신의 뿌리를 되새기기 위해 설립된 유교 전문 박물관이다. 2004년에 개관했으며, 지하 1층·지상 2층 규모로 5개의 전시실과 수장고, 시청각실, 야외전시실로 구성되어 있다. 기획전시실에서는 기증받은 2만여 점의 유물을 순환 전시하고, 제1전시실은 선사시대부터 조선시대까지의 문화유적을 소개한다. 제2전시실은 ‘유교의 전래’를 주제로 이황의 성학십도, 사서삼경, 학맥도 등을 전시하며, 제3·4 전시실은 서원과 향교, 그리고 소수서원의 창건과 관련 인물 및 유물을 중심으로 구성되어 있다. 소수 박물관 통합 관람권을 이용하면 소수서원, 영주 선비촌과 함께 관람할 수 있다. 영주시 유물의 반출을 막고 안전한 보관 및 전시를 위해 2004년 9월 22일에 개관한 1종 전문박물관으로서 소수서원이관 유물과 지역유물을 보관전시하고 있는 유교전문박물관입니다.",
+      "bm25_document": "소수 박물관은 우리나라 최초의 사액서원인 영주 소수서원에서 보관하던 유물을 전시하며, 유교 문화를 통해 민족정신의 뿌리를 되새기기 위해 설립된 유교 전문 박물관이다. 2004년에 개관했으며, 지하 1층·지상 2층 규모로 5개의 전시실과 수장고, 시청각실, 야외전시실로 구성되어 있다. 기획전시실에서는 기증받은 2만여 점의 유물을 순환 전시하고, 제1전시실은 선사시대부터 조선시대까지의 문화유적을 소개한다. 제2전시실은 ‘유교의 전래’를 주제로 이황의 성학십도, 사서삼경, 학맥도 등을 전시하며, 제3·4 전시실은 서원과 향교, 그리고 소수서원의 창건과 관련 인물 및 유물을 중심으로 구성되어 있다. 소수 박물관 통합 관람권을 이용하면 소수서원, 영주 선비촌과 함께 관람할 수 있다. 영주시 유물의 반출을 막고 안전한 보관 및 전시를 위해 2004년 9월 22일에 개관한 1종 전문박물관으로서 소수서원이관 유물과 지역유물을 보관전시하고 있는 유교전문박물관입니다.",
+      "best_span_id": "chroma:M0301",
+      "best_span_text": "소수 박물관은 우리나라 최초의 사액서원인 영주 소수서원에서 보관하던 유물을 전시하며, 유교 문화를 통해 민족정신의 뿌리를 되새기기 위해 설립된 유교 전문 박물관이다. 2004년에 개관했으며, 지하 1층·지상 2층 규모로 5개의 전시실과 수장고, 시청각실, 야외전시실로 구성되어 있다. 기획전시실에서는 기증받은 2만여 점의 유물을 순환 전시하고, 제1전시실은 선사시대부터 조선시대까지의 문화유적을 소개한다. 제2전시실은 ‘유교의 전래’를 주제로 이황의 성학십도, 사서삼경, 학맥도 등을 전시하며, 제3·4 전시실은 서원과 향교, 그리고 소수서원의 창건과 관련 인물 및 유물을 중심으로 구성되어 있다. 소수 박물관 통합 관람권을 이용하면 소수서원, 영주 선비촌과 함께 관람할 수 있다. 영주시 유물의 반출을 막고 안전한 보관 및 전시를 위해 2004년 9월 22일에 개관한 1종 전문박물관으로서 소수서원이관 유물과 지역유물을 보관전시하고 있는 유교전문박물관입니다.",
+      "fusion_score": 0.03225806451612903,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 2,
+      "rerank_score": null,
+      "rank": 2,
+      "score": 0.03225806451612903,
+      "score_type": "rrf",
+      "distance": 0.5607090592384338,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0301",
+      "source_doc_ids": [
+        "DOC-B0301-TOUR_API-130894",
+        "DOC-B0301-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0301-TOUR_API-130894",
+          "source_type": "TOUR_API",
+          "source_record_id": "130894",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=149",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        },
+        {
+          "doc_id": "DOC-B0301-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0301",
+          "source_locator": "data/raw/museum_base_1070.csv#row=302",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 92,
+          "doc_ids": [
+            "DOC-B0301-TOUR_API-130894"
+          ]
+        },
+        {
+          "start": 93,
+          "end": 158,
+          "doc_ids": [
+            "DOC-B0301-TOUR_API-130894"
+          ]
+        },
+        {
+          "start": 159,
+          "end": 226,
+          "doc_ids": [
+            "DOC-B0301-TOUR_API-130894"
+          ]
+        },
+        {
+          "start": 227,
+          "end": 334,
+          "doc_ids": [
+            "DOC-B0301-TOUR_API-130894"
+          ]
+        },
+        {
+          "start": 335,
+          "end": 381,
+          "doc_ids": [
+            "DOC-B0301-TOUR_API-130894"
+          ]
+        },
+        {
+          "start": 382,
+          "end": 481,
+          "doc_ids": [
+            "DOC-B0301-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=149",
+      "text": "소수 박물관은 우리나라 최초의 사액서원인 영주 소수서원에서 보관하던 유물을 전시하며, 유교 문화를 통해 민족정신의 뿌리를 되새기기 위해 설립된 유교 전문 박물관이다. 2004년에 개관했으며, 지하 1층·지상 2층 규모로 5개의 전시실과 수장고, 시청각실, 야외전시실로 구성되어 있다. 기획전시실에서는 기증받은 2만여 점의 유물을 순환 전시하고, 제1전시실은 선사시대부터 조선시대까지의 문화유적을 소개한다. 제2전시실은 ‘유교의 전래’를 주제로 이황의 성학십도, 사서삼경, 학맥도 등을 전시하며, 제3·4 전시실은 서원과 향교, 그리고 소수서원의 창건과 관련 인물 및 유물을 중심으로 구성되어 있다. 소수 박물관 통합 관람권을 이용하면 소수서원, 영주 선비촌과 함께 관람할 수 있다. 영주시 유물의 반출을 막고 안전한 보관 및 전시를 위해 2004년 9월 22일에 개관한 1종 전문박물관으로서 소수서원이관 유물과 지역유물을 보관전시하고 있는 유교전문박물관입니다.",
+      "sido": "경상북도",
+      "sigungu": "영주시",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=149"
+      ],
+      "evidence_id": "E2",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=214",
+        "fields": {
+          "name": "소수박물관",
+          "sido": "경상북도",
+          "sigungu": "영주시",
+          "address": "경상북도 영주시 순흥면 소백로 2780",
+          "ownership_type": "공립",
+          "adult_fee": "3000",
+          "youth_fee": "2000",
+          "child_fee": "1000",
+          "adult_fee_status": "BASE_FEE_PAID",
+          "weekday_open": "09:00",
+          "weekday_close": "18:00",
+          "holiday_open": "09:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "연중무휴"
+        },
+        "base_data_date": "2026-07-27",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0535",
+      "name": "진안역사박물관",
+      "document": "2006년 6월 21일에 개관한 진안역사박물관은 용담 다목적댐 건설로 인해 수몰된 지역의 사라진 삶의 터전을 발굴유물을 통해 보존 및 전시하고 지역의 역사와 문화에 관한 자료를 수집·연구하여 대내외적으로 활용되도록 하는 동시에 역사를 통해 소통하고 문화안에서 새로움을 찾는 열린 공간이다. 박물관은 총 2층으로 되어 있다. 1층에는 고고관, 민속관, 세미나실이 있으며, 2층에는 기록관 기획전시관, 학예 자료실이 있다. 고고관은 용담댐 수몰지역에서 발굴된 선사, 고고유물을 전시한다. 선사시대부터 조선시대까지에 걸친 유물들을 통해 진안의 지나온 역사와 생활 모습을 알 수 있다. 민속관에서는 진안의 명산인 마이산과 석탑군 등의 수려한 자연환경과 진한 풍물, 금척무, 매사냥 등의 풍부한 전통문화자원을 볼 수 있는 전시관이다. 기록관은 진안 관련 다양한 기록 자료인 고지도와 고문서, 서원 향교 관련 유물과 자료들을 한자리에 모았다. 이를 통하여 진안의 과거와 현재의 흔적을 살펴보고, 진안의 기록문화를 고찰할 수 있다. 기획전시관은 가변 전시 공간으로 진한의 특생을 연구하고 재조명하는 전시관인 동시에 전시와 교육의 적극적인 연계를 통해 박물관의 풍부한 자료를 교육에 활용하고 새로운 교육 프로그램 개발에 힘쓰는 사회교육의 장이다. 진안의 역사와 문화를 종합적으로 보여주는 박물관",
+      "metadata": {
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "homepage_url": "https://jinan.go.kr/museum/",
+        "name": "진안역사박물관",
+        "weekday_close": "18:00",
+        "ownership_type": "공립",
+        "amenities_raw": "전시실+강당",
+        "holiday_close": "18:00",
+        "latitude": 35.77255631,
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/13/3587813_image2_1.jpg",
+        "closure_rule_raw": "매주 월요일+1월1일+설날 당일+추석 당일",
+        "requires_manual_review": true,
+        "holiday_open": "09:00",
+        "sido": "전북특별자치도",
+        "source_types": "BASE|TOUR_API",
+        "image_copyright": "Type1",
+        "adult_fee": 0.0,
+        "youth_fee": 0.0,
+        "transport_notes": "(대중교통)마이산행 버스+(자가용)역사박물관 주차장 이용",
+        "weekday_open": "09:00",
+        "longitude": 127.4171648,
+        "child_fee": 0.0,
+        "sigungu": "진안군",
+        "address": "전북특별자치도 진안군 진안읍 내사양길 7"
+      },
+      "vector_rank": 5,
+      "bm25_rank": 7,
+      "vector_distance": 0.5691511034965515,
+      "vector_score": null,
+      "bm25_score": 13.718388106102909,
+      "vector_document": "2006년 6월 21일에 개관한 진안역사박물관은 용담 다목적댐 건설로 인해 수몰된 지역의 사라진 삶의 터전을 발굴유물을 통해 보존 및 전시하고 지역의 역사와 문화에 관한 자료를 수집·연구하여 대내외적으로 활용되도록 하는 동시에 역사를 통해 소통하고 문화안에서 새로움을 찾는 열린 공간이다. 박물관은 총 2층으로 되어 있다. 1층에는 고고관, 민속관, 세미나실이 있으며, 2층에는 기록관 기획전시관, 학예 자료실이 있다. 고고관은 용담댐 수몰지역에서 발굴된 선사, 고고유물을 전시한다. 선사시대부터 조선시대까지에 걸친 유물들을 통해 진안의 지나온 역사와 생활 모습을 알 수 있다. 민속관에서는 진안의 명산인 마이산과 석탑군 등의 수려한 자연환경과 진한 풍물, 금척무, 매사냥 등의 풍부한 전통문화자원을 볼 수 있는 전시관이다. 기록관은 진안 관련 다양한 기록 자료인 고지도와 고문서, 서원 향교 관련 유물과 자료들을 한자리에 모았다. 이를 통하여 진안의 과거와 현재의 흔적을 살펴보고, 진안의 기록문화를 고찰할 수 있다. 기획전시관은 가변 전시 공간으로 진한의 특생을 연구하고 재조명하는 전시관인 동시에 전시와 교육의 적극적인 연계를 통해 박물관의 풍부한 자료를 교육에 활용하고 새로운 교육 프로그램 개발에 힘쓰는 사회교육의 장이다. 진안의 역사와 문화를 종합적으로 보여주는 박물관",
+      "bm25_document": "2006년 6월 21일에 개관한 진안역사박물관은 용담 다목적댐 건설로 인해 수몰된 지역의 사라진 삶의 터전을 발굴유물을 통해 보존 및 전시하고 지역의 역사와 문화에 관한 자료를 수집·연구하여 대내외적으로 활용되도록 하는 동시에 역사를 통해 소통하고 문화안에서 새로움을 찾는 열린 공간이다. 박물관은 총 2층으로 되어 있다. 1층에는 고고관, 민속관, 세미나실이 있으며, 2층에는 기록관 기획전시관, 학예 자료실이 있다. 고고관은 용담댐 수몰지역에서 발굴된 선사, 고고유물을 전시한다. 선사시대부터 조선시대까지에 걸친 유물들을 통해 진안의 지나온 역사와 생활 모습을 알 수 있다. 민속관에서는 진안의 명산인 마이산과 석탑군 등의 수려한 자연환경과 진한 풍물, 금척무, 매사냥 등의 풍부한 전통문화자원을 볼 수 있는 전시관이다. 기록관은 진안 관련 다양한 기록 자료인 고지도와 고문서, 서원 향교 관련 유물과 자료들을 한자리에 모았다. 이를 통하여 진안의 과거와 현재의 흔적을 살펴보고, 진안의 기록문화를 고찰할 수 있다. 기획전시관은 가변 전시 공간으로 진한의 특생을 연구하고 재조명하는 전시관인 동시에 전시와 교육의 적극적인 연계를 통해 박물관의 풍부한 자료를 교육에 활용하고 새로운 교육 프로그램 개발에 힘쓰는 사회교육의 장이다. 진안의 역사와 문화를 종합적으로 보여주는 박물관",
+      "best_span_id": "chroma:M0535",
+      "best_span_text": "2006년 6월 21일에 개관한 진안역사박물관은 용담 다목적댐 건설로 인해 수몰된 지역의 사라진 삶의 터전을 발굴유물을 통해 보존 및 전시하고 지역의 역사와 문화에 관한 자료를 수집·연구하여 대내외적으로 활용되도록 하는 동시에 역사를 통해 소통하고 문화안에서 새로움을 찾는 열린 공간이다. 박물관은 총 2층으로 되어 있다. 1층에는 고고관, 민속관, 세미나실이 있으며, 2층에는 기록관 기획전시관, 학예 자료실이 있다. 고고관은 용담댐 수몰지역에서 발굴된 선사, 고고유물을 전시한다. 선사시대부터 조선시대까지에 걸친 유물들을 통해 진안의 지나온 역사와 생활 모습을 알 수 있다. 민속관에서는 진안의 명산인 마이산과 석탑군 등의 수려한 자연환경과 진한 풍물, 금척무, 매사냥 등의 풍부한 전통문화자원을 볼 수 있는 전시관이다. 기록관은 진안 관련 다양한 기록 자료인 고지도와 고문서, 서원 향교 관련 유물과 자료들을 한자리에 모았다. 이를 통하여 진안의 과거와 현재의 흔적을 살펴보고, 진안의 기록문화를 고찰할 수 있다. 기획전시관은 가변 전시 공간으로 진한의 특생을 연구하고 재조명하는 전시관인 동시에 전시와 교육의 적극적인 연계를 통해 박물관의 풍부한 자료를 교육에 활용하고 새로운 교육 프로그램 개발에 힘쓰는 사회교육의 장이다. 진안의 역사와 문화를 종합적으로 보여주는 박물관",
+      "fusion_score": 0.030309988518943745,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 3,
+      "rerank_score": null,
+      "rank": 3,
+      "score": 0.030309988518943745,
+      "score_type": "rrf",
+      "distance": 0.5691511034965515,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0535",
+      "source_doc_ids": [
+        "DOC-B0535-TOUR_API-1628029",
+        "DOC-B0535-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0535-TOUR_API-1628029",
+          "source_type": "TOUR_API",
+          "source_record_id": "1628029",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=266",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        },
+        {
+          "doc_id": "DOC-B0535-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0535",
+          "source_locator": "data/raw/museum_base_1070.csv#row=536",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 161,
+          "doc_ids": [
+            "DOC-B0535-TOUR_API-1628029"
+          ]
+        },
+        {
+          "start": 162,
+          "end": 180,
+          "doc_ids": [
+            "DOC-B0535-TOUR_API-1628029"
+          ]
+        },
+        {
+          "start": 181,
+          "end": 234,
+          "doc_ids": [
+            "DOC-B0535-TOUR_API-1628029"
+          ]
+        },
+        {
+          "start": 235,
+          "end": 270,
+          "doc_ids": [
+            "DOC-B0535-TOUR_API-1628029"
+          ]
+        },
+        {
+          "start": 271,
+          "end": 323,
+          "doc_ids": [
+            "DOC-B0535-TOUR_API-1628029"
+          ]
+        },
+        {
+          "start": 324,
+          "end": 405,
+          "doc_ids": [
+            "DOC-B0535-TOUR_API-1628029"
+          ]
+        },
+        {
+          "start": 406,
+          "end": 465,
+          "doc_ids": [
+            "DOC-B0535-TOUR_API-1628029"
+          ]
+        },
+        {
+          "start": 466,
+          "end": 514,
+          "doc_ids": [
+            "DOC-B0535-TOUR_API-1628029"
+          ]
+        },
+        {
+          "start": 515,
+          "end": 633,
+          "doc_ids": [
+            "DOC-B0535-TOUR_API-1628029"
+          ]
+        },
+        {
+          "start": 634,
+          "end": 660,
+          "doc_ids": [
+            "DOC-B0535-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=266",
+      "text": "2006년 6월 21일에 개관한 진안역사박물관은 용담 다목적댐 건설로 인해 수몰된 지역의 사라진 삶의 터전을 발굴유물을 통해 보존 및 전시하고 지역의 역사와 문화에 관한 자료를 수집·연구하여 대내외적으로 활용되도록 하는 동시에 역사를 통해 소통하고 문화안에서 새로움을 찾는 열린 공간이다. 박물관은 총 2층으로 되어 있다. 1층에는 고고관, 민속관, 세미나실이 있으며, 2층에는 기록관 기획전시관, 학예 자료실이 있다. 고고관은 용담댐 수몰지역에서 발굴된 선사, 고고유물을 전시한다. 선사시대부터 조선시대까지에 걸친 유물들을 통해 진안의 지나온 역사와 생활 모습을 알 수 있다. 민속관에서는 진안의 명산인 마이산과 석탑군 등의 수려한 자연환경과 진한 풍물, 금척무, 매사냥 등의 풍부한 전통문화자원을 볼 수 있는 전시관이다. 기록관은 진안 관련 다양한 기록 자료인 고지도와 고문서, 서원 향교 관련 유물과 자료들을 한자리에 모았다. 이를 통하여 진안의 과거와 현재의 흔적을 살펴보고, 진안의 기록문화를 고찰할 수 있다. 기획전시관은 가변 전시 공간으로 진한의 특생을 연구하고 재조명하는 전시관인 동시에 전시와 교육의 적극적인 연계를 통해 박물관의 풍부한 자료를 교육에 활용하고 새로운 교육 프로그램 개발에 힘쓰는 사회교육의 장이다. 진안의 역사와 문화를 종합적으로 보여주는 박물관",
+      "sido": "전북특별자치도",
+      "sigungu": "진안군",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=266"
+      ],
+      "evidence_id": "E3",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=377",
+        "fields": {
+          "name": "진안역사박물관",
+          "sido": "전북특별자치도",
+          "sigungu": "진안군",
+          "address": "전북특별자치도 진안군 진안읍 내사양길 7",
+          "ownership_type": "공립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "09:00",
+          "weekday_close": "18:00",
+          "holiday_open": "09:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "매주 월요일+1월1일+설날 당일+추석 당일",
+          "amenities_raw": "전시실+강당"
+        },
+        "base_data_date": "2026-01-28",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0526",
+      "name": "국립고궁박물관",
+      "document": "1992년 궁중유물전시관으로 설립되었다. 조선시대와 대한제국기의 격조 높은 왕실유물을 전시하여 조선왕조에 대한 올바른 이해와 역사관을 정립하고자 조선왕조 정궁인 경복궁과 연계한 문화 공간으로 조성되어 광복 60주년이던 2005년 8월 15일에 국립고궁박물관으로 명칭을 변경하였고, 2007년 11월에 전면 개관하였다. 조선시대 최고 수준의 문화와 정신이 집약되어 있는 왕실 유물의 과학적이고 체계적인 보존과 복원을 통해 다양하고 시의성 있는 왕실 문화 전시를 기획하고, 왕실 소장품을 꾸준히 확충하여 전시 유물을 확대해나가고 있다. 또한 왕실 문화를 주제로 한 다양한 교육 프로그램을 운영하고, 국내‧외의 왕실 문화 기관과의 교류 활성화에도 많은 노력을 하고 있다. 이를 통해 품격 있는 왕실 문화유산의 의미를 관람객에게 전달하며 조선 왕실과 대한제국 황실의 가치를 전달하고자 한다.",
+      "metadata": {
+        "longitude": 126.9749748251,
+        "homepage_url": "http://www.gogung.go.kr",
+        "holiday_open": "09:30",
+        "name": "국립고궁박물관",
+        "source_types": "TOUR_API",
+        "youth_fee": 0.0,
+        "sigungu": "종로구",
+        "closure_rule_raw": "1월 1일, 설날 당일, 추석 당일, 매월 마지막 월요일(공휴일이면 다음날)",
+        "weekday_open": "09:30",
+        "sido": "서울특별시",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/35/4054035_image2_1.png",
+        "ownership_type": "국립",
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "weekday_close": "17:30",
+        "address": "서울특별시 종로구 효자로 12",
+        "requires_manual_review": true,
+        "holiday_close": "17:30",
+        "child_fee": 0.0,
+        "image_copyright": "Type1",
+        "latitude": 37.576585,
+        "adult_fee": 0.0
+      },
+      "vector_rank": 7,
+      "bm25_rank": 16,
+      "vector_distance": 0.5719332695007324,
+      "vector_score": null,
+      "bm25_score": 12.062325676503015,
+      "vector_document": "1992년 궁중유물전시관으로 설립되었다. 조선시대와 대한제국기의 격조 높은 왕실유물을 전시하여 조선왕조에 대한 올바른 이해와 역사관을 정립하고자 조선왕조 정궁인 경복궁과 연계한 문화 공간으로 조성되어 광복 60주년이던 2005년 8월 15일에 국립고궁박물관으로 명칭을 변경하였고, 2007년 11월에 전면 개관하였다. 조선시대 최고 수준의 문화와 정신이 집약되어 있는 왕실 유물의 과학적이고 체계적인 보존과 복원을 통해 다양하고 시의성 있는 왕실 문화 전시를 기획하고, 왕실 소장품을 꾸준히 확충하여 전시 유물을 확대해나가고 있다. 또한 왕실 문화를 주제로 한 다양한 교육 프로그램을 운영하고, 국내‧외의 왕실 문화 기관과의 교류 활성화에도 많은 노력을 하고 있다. 이를 통해 품격 있는 왕실 문화유산의 의미를 관람객에게 전달하며 조선 왕실과 대한제국 황실의 가치를 전달하고자 한다.",
+      "bm25_document": "1992년 궁중유물전시관으로 설립되었다. 조선시대와 대한제국기의 격조 높은 왕실유물을 전시하여 조선왕조에 대한 올바른 이해와 역사관을 정립하고자 조선왕조 정궁인 경복궁과 연계한 문화 공간으로 조성되어 광복 60주년이던 2005년 8월 15일에 국립고궁박물관으로 명칭을 변경하였고, 2007년 11월에 전면 개관하였다. 조선시대 최고 수준의 문화와 정신이 집약되어 있는 왕실 유물의 과학적이고 체계적인 보존과 복원을 통해 다양하고 시의성 있는 왕실 문화 전시를 기획하고, 왕실 소장품을 꾸준히 확충하여 전시 유물을 확대해나가고 있다. 또한 왕실 문화를 주제로 한 다양한 교육 프로그램을 운영하고, 국내‧외의 왕실 문화 기관과의 교류 활성화에도 많은 노력을 하고 있다. 이를 통해 품격 있는 왕실 문화유산의 의미를 관람객에게 전달하며 조선 왕실과 대한제국 황실의 가치를 전달하고자 한다.",
+      "best_span_id": "chroma:M0526",
+      "best_span_text": "1992년 궁중유물전시관으로 설립되었다. 조선시대와 대한제국기의 격조 높은 왕실유물을 전시하여 조선왕조에 대한 올바른 이해와 역사관을 정립하고자 조선왕조 정궁인 경복궁과 연계한 문화 공간으로 조성되어 광복 60주년이던 2005년 8월 15일에 국립고궁박물관으로 명칭을 변경하였고, 2007년 11월에 전면 개관하였다. 조선시대 최고 수준의 문화와 정신이 집약되어 있는 왕실 유물의 과학적이고 체계적인 보존과 복원을 통해 다양하고 시의성 있는 왕실 문화 전시를 기획하고, 왕실 소장품을 꾸준히 확충하여 전시 유물을 확대해나가고 있다. 또한 왕실 문화를 주제로 한 다양한 교육 프로그램을 운영하고, 국내‧외의 왕실 문화 기관과의 교류 활성화에도 많은 노력을 하고 있다. 이를 통해 품격 있는 왕실 문화유산의 의미를 관람객에게 전달하며 조선 왕실과 대한제국 황실의 가치를 전달하고자 한다.",
+      "fusion_score": 0.028083267871170464,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 4,
+      "rerank_score": null,
+      "rank": 4,
+      "score": 0.028083267871170464,
+      "score_type": "rrf",
+      "distance": 0.5719332695007324,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0526",
+      "source_doc_ids": [
+        "DOC-B0526-TOUR_API-129811"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0526-TOUR_API-129811",
+          "source_type": "TOUR_API",
+          "source_record_id": "129811",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=260",
+          "match_trust": "RECHECKED_BY_RULE_NOT_HUMAN_APPROVED"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 22,
+          "doc_ids": [
+            "DOC-B0526-TOUR_API-129811"
+          ]
+        },
+        {
+          "start": 23,
+          "end": 177,
+          "doc_ids": [
+            "DOC-B0526-TOUR_API-129811"
+          ]
+        },
+        {
+          "start": 178,
+          "end": 297,
+          "doc_ids": [
+            "DOC-B0526-TOUR_API-129811"
+          ]
+        },
+        {
+          "start": 298,
+          "end": 372,
+          "doc_ids": [
+            "DOC-B0526-TOUR_API-129811"
+          ]
+        },
+        {
+          "start": 373,
+          "end": 438,
+          "doc_ids": [
+            "DOC-B0526-TOUR_API-129811"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=260",
+      "text": "1992년 궁중유물전시관으로 설립되었다. 조선시대와 대한제국기의 격조 높은 왕실유물을 전시하여 조선왕조에 대한 올바른 이해와 역사관을 정립하고자 조선왕조 정궁인 경복궁과 연계한 문화 공간으로 조성되어 광복 60주년이던 2005년 8월 15일에 국립고궁박물관으로 명칭을 변경하였고, 2007년 11월에 전면 개관하였다. 조선시대 최고 수준의 문화와 정신이 집약되어 있는 왕실 유물의 과학적이고 체계적인 보존과 복원을 통해 다양하고 시의성 있는 왕실 문화 전시를 기획하고, 왕실 소장품을 꾸준히 확충하여 전시 유물을 확대해나가고 있다. 또한 왕실 문화를 주제로 한 다양한 교육 프로그램을 운영하고, 국내‧외의 왕실 문화 기관과의 교류 활성화에도 많은 노력을 하고 있다. 이를 통해 품격 있는 왕실 문화유산의 의미를 관람객에게 전달하며 조선 왕실과 대한제국 황실의 가치를 전달하고자 한다.",
+      "sido": "서울특별시",
+      "sigungu": "종로구",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=260"
+      ],
+      "evidence_id": "E4",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=369",
+        "fields": {
+          "name": "국립고궁박물관",
+          "sido": "서울특별시",
+          "sigungu": "종로구",
+          "address": "서울특별시 종로구 효자로 12",
+          "ownership_type": "국립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "09:30",
+          "weekday_close": "17:30",
+          "holiday_open": "09:30",
+          "holiday_close": "17:30",
+          "closure_rule_raw": "1월 1일, 설날 당일, 추석 당일, 매월 마지막 월요일(공휴일이면 다음날)"
+        },
+        "base_data_date": "2026-04-08",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0826",
+      "name": "마       한       관",
+      "document": "익산 마한박물관은 2008년 4월 개관, 2013년 7월 이후 익산 출토 국가귀속유물을 인수하여 현재 전시 및 보관·관리하고 있는 박물관임",
+      "metadata": {
+        "latitude": 36.00153068,
+        "holiday_close": "18:00",
+        "longitude": 127.0570706,
+        "ownership_type": "공립",
+        "address": "전북특별자치도 익산시 금마면 고도9길 41-14",
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "youth_fee": 0.0,
+        "adult_fee": 0.0,
+        "requires_manual_review": false,
+        "name": "마       한       관",
+        "weekday_open": "09:00",
+        "child_fee": 0.0,
+        "closure_rule_raw": "매주 월요일",
+        "homepage_url": "http://www.iksan.go.kr/mahan",
+        "sigungu": "익산시",
+        "holiday_open": "09:00",
+        "source_types": "BASE",
+        "sido": "전북특별자치도",
+        "transport_notes": "버스: 222+222-3+61+64+41+41-1+60+60-1+60-2+62+63+65",
+        "weekday_close": "18:00"
+      },
+      "vector_rank": 19,
+      "bm25_rank": 11,
+      "vector_distance": 0.598172664642334,
+      "vector_score": null,
+      "bm25_score": 13.06051597043028,
+      "vector_document": "익산 마한박물관은 2008년 4월 개관, 2013년 7월 이후 익산 출토 국가귀속유물을 인수하여 현재 전시 및 보관·관리하고 있는 박물관임",
+      "bm25_document": "익산 마한박물관은 2008년 4월 개관, 2013년 7월 이후 익산 출토 국가귀속유물을 인수하여 현재 전시 및 보관·관리하고 있는 박물관임",
+      "best_span_id": "chroma:M0826",
+      "best_span_text": "익산 마한박물관은 2008년 4월 개관, 2013년 7월 이후 익산 출토 국가귀속유물을 인수하여 현재 전시 및 보관·관리하고 있는 박물관임",
+      "fusion_score": 0.026742734890354787,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 5,
+      "rerank_score": null,
+      "rank": 5,
+      "score": 0.026742734890354787,
+      "score_type": "rrf",
+      "distance": 0.598172664642334,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0826",
+      "source_doc_ids": [
+        "DOC-B0826-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0826-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0826",
+          "source_locator": "data/raw/museum_base_1070.csv#row=827",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 77,
+          "doc_ids": [
+            "DOC-B0826-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_base_1070.csv#row=827",
+      "text": "익산 마한박물관은 2008년 4월 개관, 2013년 7월 이후 익산 출토 국가귀속유물을 인수하여 현재 전시 및 보관·관리하고 있는 박물관임",
+      "sido": "전북특별자치도",
+      "sigungu": "익산시",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_base_1070.csv#row=827"
+      ],
+      "evidence_id": "E5",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=561",
+        "fields": {
+          "name": "마       한       관",
+          "sido": "전북특별자치도",
+          "sigungu": "익산시",
+          "address": "전북특별자치도 익산시 금마면 고도9길 41-14",
+          "ownership_type": "공립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "09:00",
+          "weekday_close": "18:00",
+          "holiday_open": "09:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "매주 월요일"
+        },
+        "base_data_date": "2025-06-23",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    }
+  ],
+  "answer": "필암서원과 하서 김인후 관련 유물을 보관하고 정보를 제공하기 위해 1999년에 설립되었습니다. [E1] 2008년에는 시설을 증축한 뒤 새롭게 개관했습니다. [E1]",
+  "retrieval_status": "ok",
+  "answer_status": "answered",
+  "route": "hybrid",
+  "retry_count": 0,
+  "supervisor_verified": true,
+  "rerank_applied": false,
+  "retriever_errors": [],
+  "warnings": [
+    "Cross-Encoder reranking failed (FileNotFoundError); RRF order retained"
+  ],
+  "duration_ms": 8865.88,
+  "error_type": "",
+  "hit_at_1": 1,
+  "hit_at_3": 1,
+  "hit_at_5": 1,
+  "recall_at_5": 1.0,
+  "mrr_at_10": 1.0
+}

@@ -1,0 +1,682 @@
+{
+  "mode": "supervisor_full",
+  "question_id": "Q204",
+  "evidence": [
+    {
+      "museum_id": "M0334",
+      "name": "한국교통대학교 박물관",
+      "document": "산업기술 분야를 중심으로 한 고고역사,미술,공예 및 민속 관련 자료를 수집,전시하고 교직원 및 학생의 관람과 교육연구 자료로서 공여하여 향토문화의 인식계몽에 기어코자 함.",
+      "metadata": {
+        "homepage_url": "https://www.ut.ac.kr/museum.do",
+        "weekday_close": "17:00",
+        "adult_fee": 0.0,
+        "longitude": 127.8727696,
+        "sigungu": "충주시",
+        "source_types": "BASE",
+        "name": "한국교통대학교 박물관",
+        "address": "충청북도 충주시 대소원면 대학로 50",
+        "holiday_close": "00:00",
+        "requires_manual_review": true,
+        "sido": "충청북도",
+        "closure_rule_raw": "법정 공휴일",
+        "amenities_raw": "커피숍+편의점+식당",
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "child_fee": 0.0,
+        "transport_notes": "서울 → 충주(동서울터미널, 강남터미널 1시간 30분)수원 → 충주(직통, 직행 1시간 30분)청주 → 충주(직통, 직행 1시간)원주·제천 → 충주(직행 50분)문경·점촌 → 충주(직행 1시간)충주시외버스터미널 → 한국교통대학교(주덕방향 시내버스 5분)",
+        "ownership_type": "대학",
+        "latitude": 36.96884634,
+        "holiday_open": "00:00",
+        "youth_fee": 0.0,
+        "weekday_open": "10:00"
+      },
+      "vector_rank": 1,
+      "bm25_rank": 2,
+      "vector_distance": 0.3115251064300537,
+      "vector_score": null,
+      "bm25_score": 14.662281420165613,
+      "vector_document": "산업기술 분야를 중심으로 한 고고역사,미술,공예 및 민속 관련 자료를 수집,전시하고 교직원 및 학생의 관람과 교육연구 자료로서 공여하여 향토문화의 인식계몽에 기어코자 함.",
+      "bm25_document": "산업기술 분야를 중심으로 한 고고역사,미술,공예 및 민속 관련 자료를 수집,전시하고 교직원 및 학생의 관람과 교육연구 자료로서 공여하여 향토문화의 인식계몽에 기어코자 함.",
+      "best_span_id": "chroma:M0334",
+      "best_span_text": "산업기술 분야를 중심으로 한 고고역사,미술,공예 및 민속 관련 자료를 수집,전시하고 교직원 및 학생의 관람과 교육연구 자료로서 공여하여 향토문화의 인식계몽에 기어코자 함.",
+      "fusion_score": 0.03252247488101534,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 1,
+      "name_match": true,
+      "rerank_score": 0.9998787641525269,
+      "rank": 1,
+      "score": 0.9998787641525269,
+      "score_type": "cross_encoder",
+      "distance": 0.3115251064300537,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0334",
+      "source_doc_ids": [
+        "DOC-B0334-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0334-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0334",
+          "source_locator": "data/raw/museum_base_1070.csv#row=335",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 95,
+          "doc_ids": [
+            "DOC-B0334-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_base_1070.csv#row=335",
+      "text": "산업기술 분야를 중심으로 한 고고역사,미술,공예 및 민속 관련 자료를 수집,전시하고 교직원 및 학생의 관람과 교육연구 자료로서 공여하여 향토문화의 인식계몽에 기어코자 함.",
+      "sido": "충청북도",
+      "sigungu": "충주시",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_base_1070.csv#row=335"
+      ],
+      "evidence_id": "E1",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=240",
+        "fields": {
+          "name": "한국교통대학교 박물관",
+          "sido": "충청북도",
+          "sigungu": "충주시",
+          "address": "충청북도 충주시 대소원면 대학로 50",
+          "ownership_type": "대학",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "10:00",
+          "weekday_close": "17:00",
+          "holiday_open": "00:00",
+          "holiday_close": "00:00",
+          "closure_rule_raw": "법정 공휴일",
+          "amenities_raw": "커피숍+편의점+식당"
+        },
+        "base_data_date": "2026-05-31",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0440",
+      "name": "지적박물관",
+      "document": "지적 박물관은 도서출판 우물을 운영하는 리진호 관장이 개관한 지적 전문 박물관이다. 리진호 관장이 40여 년간 지적 계통에 종사하였으며, 측량 관서에서 행정을, 현장에서 측량을, 강단에서 강의를 하면서 얻은 지식과 경험, 수집한 자료를 바탕으로 개관하였다. 이 박물관은 한국뿐만 아니라 세계에서 유일한 지적(地籍) 전문 자료관으로써 한국지적사를 알 수 있는 지적 유물(토지문서, 측량기계 등)을 소장하고 있다. 그리고 이외에도 향토지, 백 년사, 기독교 분야(성서, 개교 회사) 등 다양한 서지 자료들을 소장하고 있다. 지적·향토지·백년사·기독교 4개 분야에 걸쳐 한국 최고·최다의 자료를 전시·보존하고 있으며, 한국 유일의 인물 시인 김경 목사의 시를 낭하에 전시하고 있다. 관장인 학촌 리진호 씨가 36년간 수집한 책, 서장, 기기 등 지적 자료 1,000점, 향토지 1,000점, 백 년사 400점, 그리스도교 자료 1,000점 등 총 3,500여 점이 전시되어 있다. 지적박물관은 지적 관련 자료, 향토지, 백년사 등 3개 분야의 자료를 상설·특별 전시와 보관을 통해 학술 연구 및 교육에 기여하기 위해 설립되었다.",
+      "metadata": {
+        "sido": "충청북도",
+        "sigungu": "제천시",
+        "image_copyright": "Type3",
+        "youth_fee": 3000.0,
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/19/3348619_image2_1.JPG",
+        "weekday_close": "17:00",
+        "amenities_raw": "장애인 편의시설 및 주차장",
+        "requires_manual_review": true,
+        "longitude": 128.1976789,
+        "holiday_close": "18:00",
+        "weekday_open": "09:00",
+        "ownership_type": "사립",
+        "child_fee": 2000.0,
+        "latitude": 37.0761096,
+        "adult_fee_status": "BASE_FEE_PAID",
+        "address": "충청북도 제천시 금성면 양월로 34",
+        "adult_fee": 5000.0,
+        "homepage_url": "http://www.forjijeok.com/",
+        "closure_rule_raw": "월요일+법정공휴일",
+        "holiday_open": "09:00",
+        "name": "지적박물관",
+        "source_types": "BASE|TOUR_API"
+      },
+      "vector_rank": null,
+      "bm25_rank": 4,
+      "vector_distance": null,
+      "vector_score": null,
+      "bm25_score": 13.39858837344987,
+      "vector_document": "",
+      "bm25_document": "지적 박물관은 도서출판 우물을 운영하는 리진호 관장이 개관한 지적 전문 박물관이다. 리진호 관장이 40여 년간 지적 계통에 종사하였으며, 측량 관서에서 행정을, 현장에서 측량을, 강단에서 강의를 하면서 얻은 지식과 경험, 수집한 자료를 바탕으로 개관하였다. 이 박물관은 한국뿐만 아니라 세계에서 유일한 지적(地籍) 전문 자료관으로써 한국지적사를 알 수 있는 지적 유물(토지문서, 측량기계 등)을 소장하고 있다. 그리고 이외에도 향토지, 백 년사, 기독교 분야(성서, 개교 회사) 등 다양한 서지 자료들을 소장하고 있다. 지적·향토지·백년사·기독교 4개 분야에 걸쳐 한국 최고·최다의 자료를 전시·보존하고 있으며, 한국 유일의 인물 시인 김경 목사의 시를 낭하에 전시하고 있다. 관장인 학촌 리진호 씨가 36년간 수집한 책, 서장, 기기 등 지적 자료 1,000점, 향토지 1,000점, 백 년사 400점, 그리스도교 자료 1,000점 등 총 3,500여 점이 전시되어 있다. 지적박물관은 지적 관련 자료, 향토지, 백년사 등 3개 분야의 자료를 상설·특별 전시와 보관을 통해 학술 연구 및 교육에 기여하기 위해 설립되었다.",
+      "best_span_id": "chroma:M0440",
+      "best_span_text": "지적 박물관은 도서출판 우물을 운영하는 리진호 관장이 개관한 지적 전문 박물관이다. 리진호 관장이 40여 년간 지적 계통에 종사하였으며, 측량 관서에서 행정을, 현장에서 측량을, 강단에서 강의를 하면서 얻은 지식과 경험, 수집한 자료를 바탕으로 개관하였다. 이 박물관은 한국뿐만 아니라 세계에서 유일한 지적(地籍) 전문 자료관으로써 한국지적사를 알 수 있는 지적 유물(토지문서, 측량기계 등)을 소장하고 있다. 그리고 이외에도 향토지, 백 년사, 기독교 분야(성서, 개교 회사) 등 다양한 서지 자료들을 소장하고 있다. 지적·향토지·백년사·기독교 4개 분야에 걸쳐 한국 최고·최다의 자료를 전시·보존하고 있으며, 한국 유일의 인물 시인 김경 목사의 시를 낭하에 전시하고 있다. 관장인 학촌 리진호 씨가 36년간 수집한 책, 서장, 기기 등 지적 자료 1,000점, 향토지 1,000점, 백 년사 400점, 그리스도교 자료 1,000점 등 총 3,500여 점이 전시되어 있다. 지적박물관은 지적 관련 자료, 향토지, 백년사 등 3개 분야의 자료를 상설·특별 전시와 보관을 통해 학술 연구 및 교육에 기여하기 위해 설립되었다.",
+      "fusion_score": 0.015625,
+      "retrieved_by": [
+        "bm25"
+      ],
+      "fusion_rank": 9,
+      "rerank_score": 0.028583204373717308,
+      "rank": 2,
+      "score": 0.028583204373717308,
+      "score_type": "cross_encoder",
+      "distance": null,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "bm25"
+      ],
+      "retriever": "bm25",
+      "span_id": "chroma:M0440",
+      "source_doc_ids": [
+        "DOC-B0440-TOUR_API-130789",
+        "DOC-B0440-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0440-TOUR_API-130789",
+          "source_type": "TOUR_API",
+          "source_record_id": "130789",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=211",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        },
+        {
+          "doc_id": "DOC-B0440-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0440",
+          "source_locator": "data/raw/museum_base_1070.csv#row=441",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 46,
+          "doc_ids": [
+            "DOC-B0440-TOUR_API-130789"
+          ]
+        },
+        {
+          "start": 47,
+          "end": 143,
+          "doc_ids": [
+            "DOC-B0440-TOUR_API-130789"
+          ]
+        },
+        {
+          "start": 144,
+          "end": 229,
+          "doc_ids": [
+            "DOC-B0440-TOUR_API-130789"
+          ]
+        },
+        {
+          "start": 230,
+          "end": 290,
+          "doc_ids": [
+            "DOC-B0440-TOUR_API-130789"
+          ]
+        },
+        {
+          "start": 291,
+          "end": 378,
+          "doc_ids": [
+            "DOC-B0440-TOUR_API-130789"
+          ]
+        },
+        {
+          "start": 379,
+          "end": 489,
+          "doc_ids": [
+            "DOC-B0440-TOUR_API-130789"
+          ]
+        },
+        {
+          "start": 490,
+          "end": 572,
+          "doc_ids": [
+            "DOC-B0440-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=211",
+      "text": "지적 박물관은 도서출판 우물을 운영하는 리진호 관장이 개관한 지적 전문 박물관이다. 리진호 관장이 40여 년간 지적 계통에 종사하였으며, 측량 관서에서 행정을, 현장에서 측량을, 강단에서 강의를 하면서 얻은 지식과 경험, 수집한 자료를 바탕으로 개관하였다. 이 박물관은 한국뿐만 아니라 세계에서 유일한 지적(地籍) 전문 자료관으로써 한국지적사를 알 수 있는 지적 유물(토지문서, 측량기계 등)을 소장하고 있다. 그리고 이외에도 향토지, 백 년사, 기독교 분야(성서, 개교 회사) 등 다양한 서지 자료들을 소장하고 있다. 지적·향토지·백년사·기독교 4개 분야에 걸쳐 한국 최고·최다의 자료를 전시·보존하고 있으며, 한국 유일의 인물 시인 김경 목사의 시를 낭하에 전시하고 있다. 관장인 학촌 리진호 씨가 36년간 수집한 책, 서장, 기기 등 지적 자료 1,000점, 향토지 1,000점, 백 년사 400점, 그리스도교 자료 1,000점 등 총 3,500여 점이 전시되어 있다. 지적박물관은 지적 관련 자료, 향토지, 백년사 등 3개 분야의 자료를 상설·특별 전시와 보관을 통해 학술 연구 및 교육에 기여하기 위해 설립되었다.",
+      "sido": "충청북도",
+      "sigungu": "제천시",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=211"
+      ],
+      "evidence_id": "E2",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=314",
+        "fields": {
+          "name": "지적박물관",
+          "sido": "충청북도",
+          "sigungu": "제천시",
+          "address": "충청북도 제천시 금성면 양월로 34",
+          "ownership_type": "사립",
+          "adult_fee": "5000",
+          "youth_fee": "3000",
+          "child_fee": "2000",
+          "adult_fee_status": "BASE_FEE_PAID",
+          "weekday_open": "09:00",
+          "weekday_close": "17:00",
+          "holiday_open": "09:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "월요일+법정공휴일",
+          "amenities_raw": "장애인 편의시설 및 주차장"
+        },
+        "base_data_date": "2026-03-23",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M1044",
+      "name": "한남대학교 중앙박물관",
+      "document": "- 한남대학교 중앙박물관은 1982년 개관하여 역사ㆍ고고ㆍ민속ㆍ대학역사에 관한 자료를 수집ㆍ전시하고, 학술조사, 특별전시, 특별개관, 자유학기제와 진로체험 교육, 세시이벤트, 문화유산탐방, 학술심포지움, 교양강좌, 발간물 발행 등 다양한 활동하고 있다.",
+      "metadata": {
+        "source_types": "BASE",
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "requires_manual_review": true,
+        "homepage_url": "https://www.bakmul.hannam.ac.kr",
+        "amenities_raw": "없음",
+        "weekday_close": "16:00",
+        "transport_notes": "- 버스 : 105, 314, 711",
+        "sigungu": "대덕구",
+        "adult_fee": 0.0,
+        "weekday_open": "10:00",
+        "longitude": 127.4233081,
+        "latitude": 36.35279872,
+        "name": "한남대학교 중앙박물관",
+        "address": "대전광역시 대덕구 한남로 70",
+        "holiday_open": "10:00",
+        "holiday_close": "17:00",
+        "youth_fee": 0.0,
+        "closure_rule_raw": "개교기념일(4.15), 공휴일, 토, 일",
+        "ownership_type": "대학",
+        "sido": "대전광역시",
+        "fee_notes": "무료",
+        "child_fee": 0.0
+      },
+      "vector_rank": 10,
+      "bm25_rank": null,
+      "vector_distance": 0.4755621552467346,
+      "vector_score": null,
+      "bm25_score": null,
+      "vector_document": "- 한남대학교 중앙박물관은 1982년 개관하여 역사ㆍ고고ㆍ민속ㆍ대학역사에 관한 자료를 수집ㆍ전시하고, 학술조사, 특별전시, 특별개관, 자유학기제와 진로체험 교육, 세시이벤트, 문화유산탐방, 학술심포지움, 교양강좌, 발간물 발행 등 다양한 활동하고 있다.",
+      "bm25_document": "",
+      "best_span_id": null,
+      "best_span_text": null,
+      "fusion_score": 0.014285714285714285,
+      "retrieved_by": [
+        "vector"
+      ],
+      "fusion_rank": 15,
+      "rerank_score": 0.014012834057211876,
+      "rank": 3,
+      "score": 0.014012834057211876,
+      "score_type": "cross_encoder",
+      "distance": 0.4755621552467346,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector"
+      ],
+      "retriever": "vector",
+      "source_doc_ids": [
+        "DOC-B1044-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B1044-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B1044",
+          "source_locator": "data/raw/museum_base_1070.csv#row=1045",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 141,
+          "doc_ids": [
+            "DOC-B1044-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_base_1070.csv#row=1045",
+      "text": "- 한남대학교 중앙박물관은 1982년 개관하여 역사ㆍ고고ㆍ민속ㆍ대학역사에 관한 자료를 수집ㆍ전시하고, 학술조사, 특별전시, 특별개관, 자유학기제와 진로체험 교육, 세시이벤트, 문화유산탐방, 학술심포지움, 교양강좌, 발간물 발행 등 다양한 활동하고 있다.",
+      "sido": "대전광역시",
+      "sigungu": "대덕구",
+      "span_id": "",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_base_1070.csv#row=1045"
+      ],
+      "evidence_id": "E3",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=720",
+        "fields": {
+          "name": "한남대학교 중앙박물관",
+          "sido": "대전광역시",
+          "sigungu": "대덕구",
+          "address": "대전광역시 대덕구 한남로 70",
+          "ownership_type": "대학",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "10:00",
+          "weekday_close": "16:00",
+          "holiday_open": "10:00",
+          "holiday_close": "17:00",
+          "closure_rule_raw": "개교기념일(4.15), 공휴일, 토, 일",
+          "amenities_raw": "없음"
+        },
+        "base_data_date": "2020-12-15",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0111",
+      "name": "인하대학교박물관",
+      "document": "1976년 개관하여 국내외 자료조사와 연구+유물수집+역사+문화+민속과 인류학 분야를 수장 전시하고 있다",
+      "metadata": {
+        "requires_manual_review": true,
+        "homepage_url": "https://museum.inha.ac.kr/museum/index.do",
+        "weekday_close": "16:00",
+        "latitude": 37.4494764603,
+        "sigungu": "미추홀구",
+        "longitude": 126.6602598686,
+        "ownership_type": "대학",
+        "holiday_open": "00:00",
+        "address": "인천광역시 미추홀구 인하로 100",
+        "transport_notes": "간선버스 5+5-1+8+9+13+27+46+111-2 + 지선버스 511+515+516+518+512+517+519 + 광역버스 1601+9200 + 직행좌석 3001 + 급행간선908 + 무료셔틀버스 주안역1번출구",
+        "youth_fee": 0.0,
+        "source_types": "BASE",
+        "weekday_open": "10:00",
+        "child_fee": 0.0,
+        "adult_fee": 0.0,
+        "closure_rule_raw": "토요일+일요일+법정공휴일+개교기념일(4월24일)",
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "holiday_close": "00:00",
+        "name": "인하대학교박물관",
+        "sido": "인천광역시"
+      },
+      "vector_rank": 9,
+      "bm25_rank": 8,
+      "vector_distance": 0.47040921449661255,
+      "vector_score": null,
+      "bm25_score": 11.48220961329123,
+      "vector_document": "1976년 개관하여 국내외 자료조사와 연구+유물수집+역사+문화+민속과 인류학 분야를 수장 전시하고 있다",
+      "bm25_document": "1976년 개관하여 국내외 자료조사와 연구+유물수집+역사+문화+민속과 인류학 분야를 수장 전시하고 있다",
+      "best_span_id": "chroma:M0111",
+      "best_span_text": "1976년 개관하여 국내외 자료조사와 연구+유물수집+역사+문화+민속과 인류학 분야를 수장 전시하고 있다",
+      "fusion_score": 0.02919863597612958,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 4,
+      "rerank_score": 0.013902764767408371,
+      "rank": 4,
+      "score": 0.013902764767408371,
+      "score_type": "cross_encoder",
+      "distance": 0.47040921449661255,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0111",
+      "source_doc_ids": [
+        "DOC-B0111-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0111-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0111",
+          "source_locator": "data/raw/museum_base_1070.csv#row=112",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 57,
+          "doc_ids": [
+            "DOC-B0111-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_base_1070.csv#row=112",
+      "text": "1976년 개관하여 국내외 자료조사와 연구+유물수집+역사+문화+민속과 인류학 분야를 수장 전시하고 있다",
+      "sido": "인천광역시",
+      "sigungu": "미추홀구",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_base_1070.csv#row=112"
+      ],
+      "evidence_id": "E4",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=71",
+        "fields": {
+          "name": "인하대학교박물관",
+          "sido": "인천광역시",
+          "sigungu": "미추홀구",
+          "address": "인천광역시 미추홀구 인하로 100",
+          "ownership_type": "대학",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "10:00",
+          "weekday_close": "16:00",
+          "holiday_open": "00:00",
+          "holiday_close": "00:00",
+          "closure_rule_raw": "토요일+일요일+법정공휴일+개교기념일(4월24일)"
+        },
+        "base_data_date": "2026-10-01",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M1068",
+      "name": "충남대학교 박물관",
+      "document": "충남대학교 박물관은 대전 유성구 충남대학교 대덕캠퍼스 내에 위치한 박물관이다. 이 박물관은 우리나라 전통문화 분야의 자료를 수집, 보관, 전시함으로써 본교 구성원 및 지역 주민들의 문화의식 수준 향상에 기여할 목적으로 1968년 4월 28일 설립되었다. 박물관은 전시실, 학예연구실, 시청각실, 유물 수장고, 유물 정리실, 도서실, 뮤지엄 샵, 행정실, 기계실 등 다양한 시설을 갖추고 있으며, 약 2,000여 점의 역사 유물과 1,000여 점의 교사용 자료를 소장하고 있다. 충남대학교 박물관은 한밭대로, 대학로, 유성대로를 통해 충남대학교 대덕캠퍼스로 진입하여 쉽게 접근할 수 있으며, 인근 고속도로는 호남고속도로 지선의 유성 IC가 가장 가깝다. 주변에는 유성종합스포츠센터, 궁동로데오거리, 유성온천 등 다양한 문화·여가 시설이 위치해 있다. - 충남대학교박물관은 1968년 4월 28일에 설립되어 다양한 역사문화자료를 수집, 보관, 전시함으로써 학술연구 및 교육문화발전에 힘써오고 있다. - 박물관 1층에 상설전시실이 운영 중에 있으며 다양한 발굴조사를 통해 수집된 유물들이 전시 되어 있으며, 충남대학교의 역사와 관련된 학교사 자료도 전시 되어있다. 그 외에 박물관대학 등 교육 강좌를 운영 중에 있다.",
+      "metadata": {
+        "image_copyright": "Type3",
+        "youth_fee": 0.0,
+        "fee_notes": "무료",
+        "holiday_close": "17:00",
+        "homepage_url": "http://museum.cnu.ac.kr/",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/88/3032688_image2_1.JPG",
+        "sido": "대전광역시",
+        "closure_rule_raw": "토, 일, 공휴일, 개교기념일",
+        "child_fee": 0.0,
+        "name": "충남대학교 박물관",
+        "amenities_raw": "없음",
+        "holiday_open": "10:00",
+        "requires_manual_review": true,
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "latitude": 36.36836824,
+        "address": "대전광역시 유성구 대학로 99",
+        "transport_notes": "- 버스 : 111-1, 140, 222",
+        "weekday_close": "17:00",
+        "adult_fee": 0.0,
+        "sigungu": "유성구",
+        "source_types": "BASE|TOUR_API",
+        "weekday_open": "10:00",
+        "ownership_type": "대학",
+        "longitude": 127.3420001
+      },
+      "vector_rank": null,
+      "bm25_rank": 10,
+      "vector_distance": null,
+      "vector_score": null,
+      "bm25_score": 11.233766979516343,
+      "vector_document": "",
+      "bm25_document": "충남대학교 박물관은 대전 유성구 충남대학교 대덕캠퍼스 내에 위치한 박물관이다. 이 박물관은 우리나라 전통문화 분야의 자료를 수집, 보관, 전시함으로써 본교 구성원 및 지역 주민들의 문화의식 수준 향상에 기여할 목적으로 1968년 4월 28일 설립되었다. 박물관은 전시실, 학예연구실, 시청각실, 유물 수장고, 유물 정리실, 도서실, 뮤지엄 샵, 행정실, 기계실 등 다양한 시설을 갖추고 있으며, 약 2,000여 점의 역사 유물과 1,000여 점의 교사용 자료를 소장하고 있다. 충남대학교 박물관은 한밭대로, 대학로, 유성대로를 통해 충남대학교 대덕캠퍼스로 진입하여 쉽게 접근할 수 있으며, 인근 고속도로는 호남고속도로 지선의 유성 IC가 가장 가깝다. 주변에는 유성종합스포츠센터, 궁동로데오거리, 유성온천 등 다양한 문화·여가 시설이 위치해 있다. - 충남대학교박물관은 1968년 4월 28일에 설립되어 다양한 역사문화자료를 수집, 보관, 전시함으로써 학술연구 및 교육문화발전에 힘써오고 있다. - 박물관 1층에 상설전시실이 운영 중에 있으며 다양한 발굴조사를 통해 수집된 유물들이 전시 되어 있으며, 충남대학교의 역사와 관련된 학교사 자료도 전시 되어있다. 그 외에 박물관대학 등 교육 강좌를 운영 중에 있다.",
+      "best_span_id": "chroma:M1068",
+      "best_span_text": "충남대학교 박물관은 대전 유성구 충남대학교 대덕캠퍼스 내에 위치한 박물관이다. 이 박물관은 우리나라 전통문화 분야의 자료를 수집, 보관, 전시함으로써 본교 구성원 및 지역 주민들의 문화의식 수준 향상에 기여할 목적으로 1968년 4월 28일 설립되었다. 박물관은 전시실, 학예연구실, 시청각실, 유물 수장고, 유물 정리실, 도서실, 뮤지엄 샵, 행정실, 기계실 등 다양한 시설을 갖추고 있으며, 약 2,000여 점의 역사 유물과 1,000여 점의 교사용 자료를 소장하고 있다. 충남대학교 박물관은 한밭대로, 대학로, 유성대로를 통해 충남대학교 대덕캠퍼스로 진입하여 쉽게 접근할 수 있으며, 인근 고속도로는 호남고속도로 지선의 유성 IC가 가장 가깝다. 주변에는 유성종합스포츠센터, 궁동로데오거리, 유성온천 등 다양한 문화·여가 시설이 위치해 있다. - 충남대학교박물관은 1968년 4월 28일에 설립되어 다양한 역사문화자료를 수집, 보관, 전시함으로써 학술연구 및 교육문화발전에 힘써오고 있다. - 박물관 1층에 상설전시실이 운영 중에 있으며 다양한 발굴조사를 통해 수집된 유물들이 전시 되어 있으며, 충남대학교의 역사와 관련된 학교사 자료도 전시 되어있다. 그 외에 박물관대학 등 교육 강좌를 운영 중에 있다.",
+      "fusion_score": 0.014285714285714285,
+      "retrieved_by": [
+        "bm25"
+      ],
+      "fusion_rank": 16,
+      "rerank_score": 0.011258846148848534,
+      "rank": 5,
+      "score": 0.011258846148848534,
+      "score_type": "cross_encoder",
+      "distance": null,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "bm25"
+      ],
+      "retriever": "bm25",
+      "span_id": "chroma:M1068",
+      "source_doc_ids": [
+        "DOC-B1068-TOUR_API-129817",
+        "DOC-B1068-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B1068-TOUR_API-129817",
+          "source_type": "TOUR_API",
+          "source_record_id": "129817",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=493",
+          "match_trust": "RECHECKED_BY_RULE_NOT_HUMAN_APPROVED"
+        },
+        {
+          "doc_id": "DOC-B1068-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B1068",
+          "source_locator": "data/raw/museum_base_1070.csv#row=1069",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 43,
+          "doc_ids": [
+            "DOC-B1068-TOUR_API-129817"
+          ]
+        },
+        {
+          "start": 44,
+          "end": 141,
+          "doc_ids": [
+            "DOC-B1068-TOUR_API-129817"
+          ]
+        },
+        {
+          "start": 142,
+          "end": 266,
+          "doc_ids": [
+            "DOC-B1068-TOUR_API-129817"
+          ]
+        },
+        {
+          "start": 267,
+          "end": 364,
+          "doc_ids": [
+            "DOC-B1068-TOUR_API-129817"
+          ]
+        },
+        {
+          "start": 365,
+          "end": 418,
+          "doc_ids": [
+            "DOC-B1068-TOUR_API-129817"
+          ]
+        },
+        {
+          "start": 419,
+          "end": 500,
+          "doc_ids": [
+            "DOC-B1068-BASE"
+          ]
+        },
+        {
+          "start": 501,
+          "end": 592,
+          "doc_ids": [
+            "DOC-B1068-BASE"
+          ]
+        },
+        {
+          "start": 593,
+          "end": 622,
+          "doc_ids": [
+            "DOC-B1068-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=493",
+      "text": "충남대학교 박물관은 대전 유성구 충남대학교 대덕캠퍼스 내에 위치한 박물관이다. 이 박물관은 우리나라 전통문화 분야의 자료를 수집, 보관, 전시함으로써 본교 구성원 및 지역 주민들의 문화의식 수준 향상에 기여할 목적으로 1968년 4월 28일 설립되었다. 박물관은 전시실, 학예연구실, 시청각실, 유물 수장고, 유물 정리실, 도서실, 뮤지엄 샵, 행정실, 기계실 등 다양한 시설을 갖추고 있으며, 약 2,000여 점의 역사 유물과 1,000여 점의 교사용 자료를 소장하고 있다. 충남대학교 박물관은 한밭대로, 대학로, 유성대로를 통해 충남대학교 대덕캠퍼스로 진입하여 쉽게 접근할 수 있으며, 인근 고속도로는 호남고속도로 지선의 유성 IC가 가장 가깝다. 주변에는 유성종합스포츠센터, 궁동로데오거리, 유성온천 등 다양한 문화·여가 시설이 위치해 있다. - 충남대학교박물관은 1968년 4월 28일에 설립되어 다양한 역사문화자료를 수집, 보관, 전시함으로써 학술연구 및 교육문화발전에 힘써오고 있다. - 박물관 1층에 상설전시실이 운영 중에 있으며 다양한 발굴조사를 통해 수집된 유물들이 전시 되어 있으며, 충남대학교의 역사와 관련된 학교사 자료도 전시 되어있다. 그 외에 박물관대학 등 교육 강좌를 운영 중에 있다.",
+      "sido": "대전광역시",
+      "sigungu": "유성구",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=493"
+      ],
+      "evidence_id": "E5",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=737",
+        "fields": {
+          "name": "충남대학교 박물관",
+          "sido": "대전광역시",
+          "sigungu": "유성구",
+          "address": "대전광역시 유성구 대학로 99",
+          "ownership_type": "대학",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "10:00",
+          "weekday_close": "17:00",
+          "holiday_open": "10:00",
+          "holiday_close": "17:00",
+          "closure_rule_raw": "토, 일, 공휴일, 개교기념일",
+          "amenities_raw": "없음"
+        },
+        "base_data_date": "2020-12-15",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    }
+  ],
+  "answer": "한국교통대학교 박물관은 **산업기술 분야를 중심으로**, 고고역사·미술·공예·민속 관련 자료를 수집하고 전시합니다. [E1]",
+  "retrieval_status": "ok",
+  "answer_status": "answered",
+  "route": "hybrid",
+  "retry_count": 0,
+  "supervisor_verified": true,
+  "rerank_applied": true,
+  "retriever_errors": [],
+  "warnings": [],
+  "duration_ms": 138158.76,
+  "error_type": "",
+  "hit_at_1": 1,
+  "hit_at_3": 1,
+  "hit_at_5": 1,
+  "recall_at_5": 1.0,
+  "mrr_at_10": 1.0
+}

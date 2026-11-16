@@ -1,0 +1,696 @@
+{
+  "mode": "supervisor_full",
+  "question_id": "Q291",
+  "evidence": [
+    {
+      "museum_id": "M0503",
+      "name": "국립대한민국임시정부기념관",
+      "document": "국립대한민국임시정부기념관은 3.1운동으로 건립된 대한민국 임시정부의 법통을 계승한다고 밝히는 헌법정신의 내용과 가치를 널리 알리는 공간이다. 기념관에서는 대한민국 임시정부의 역사를 주제별로 펼쳐 알리는 상설전시와 1년에 두 차례 특별주제를 다루는 특별기획전시가 열린다. 또한 자라나는 미래세대가 대한민국 임시정부를 기억하고 그 역사를 자랑스럽게 여길 수 있도록 청소년을 대상으로 창의적인 체험 프로그램도 운영하고 있다.",
+      "metadata": {
+        "holiday_open": "09:00",
+        "sido": "서울특별시",
+        "source_types": "TOUR_API",
+        "address": "서울특별시 서대문구 통일로 279-24",
+        "latitude": 37.57624246,
+        "homepage_url": "https://www.nmkpg.go.kr",
+        "child_fee": 0.0,
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/29/4095029_image2_1.jpg",
+        "holiday_close": "18:00",
+        "image_copyright": "Type1",
+        "longitude": 126.9546507,
+        "weekday_open": "09:00",
+        "adult_fee": 0.0,
+        "closure_rule_raw": "매주 월요일(단, 월요일이 공휴일인 경우 당일은 개관하고 그 다음 첫번째 평일에 휴관)",
+        "sigungu": "서대문구",
+        "requires_manual_review": true,
+        "name": "국립대한민국임시정부기념관",
+        "youth_fee": 0.0,
+        "weekday_close": "18:00",
+        "ownership_type": "국립",
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS"
+      },
+      "vector_rank": 1,
+      "bm25_rank": 1,
+      "vector_distance": 0.4959489107131958,
+      "vector_score": null,
+      "bm25_score": 41.758018288121036,
+      "vector_document": "국립대한민국임시정부기념관은 3.1운동으로 건립된 대한민국 임시정부의 법통을 계승한다고 밝히는 헌법정신의 내용과 가치를 널리 알리는 공간이다. 기념관에서는 대한민국 임시정부의 역사를 주제별로 펼쳐 알리는 상설전시와 1년에 두 차례 특별주제를 다루는 특별기획전시가 열린다. 또한 자라나는 미래세대가 대한민국 임시정부를 기억하고 그 역사를 자랑스럽게 여길 수 있도록 청소년을 대상으로 창의적인 체험 프로그램도 운영하고 있다.",
+      "bm25_document": "국립대한민국임시정부기념관은 3.1운동으로 건립된 대한민국 임시정부의 법통을 계승한다고 밝히는 헌법정신의 내용과 가치를 널리 알리는 공간이다. 기념관에서는 대한민국 임시정부의 역사를 주제별로 펼쳐 알리는 상설전시와 1년에 두 차례 특별주제를 다루는 특별기획전시가 열린다. 또한 자라나는 미래세대가 대한민국 임시정부를 기억하고 그 역사를 자랑스럽게 여길 수 있도록 청소년을 대상으로 창의적인 체험 프로그램도 운영하고 있다.",
+      "best_span_id": "chroma:M0503",
+      "best_span_text": "국립대한민국임시정부기념관은 3.1운동으로 건립된 대한민국 임시정부의 법통을 계승한다고 밝히는 헌법정신의 내용과 가치를 널리 알리는 공간이다. 기념관에서는 대한민국 임시정부의 역사를 주제별로 펼쳐 알리는 상설전시와 1년에 두 차례 특별주제를 다루는 특별기획전시가 열린다. 또한 자라나는 미래세대가 대한민국 임시정부를 기억하고 그 역사를 자랑스럽게 여길 수 있도록 청소년을 대상으로 창의적인 체험 프로그램도 운영하고 있다.",
+      "fusion_score": 0.03278688524590164,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 1,
+      "name_match": true,
+      "rerank_score": null,
+      "rank": 1,
+      "score": 0.03278688524590164,
+      "score_type": "rrf",
+      "distance": 0.4959489107131958,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0503",
+      "source_doc_ids": [
+        "DOC-B0503-TOUR_API-2813170"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0503-TOUR_API-2813170",
+          "source_type": "TOUR_API",
+          "source_record_id": "2813170",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=249",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 78,
+          "doc_ids": [
+            "DOC-B0503-TOUR_API-2813170"
+          ]
+        },
+        {
+          "start": 79,
+          "end": 150,
+          "doc_ids": [
+            "DOC-B0503-TOUR_API-2813170"
+          ]
+        },
+        {
+          "start": 151,
+          "end": 234,
+          "doc_ids": [
+            "DOC-B0503-TOUR_API-2813170"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=249",
+      "text": "국립대한민국임시정부기념관은 3.1운동으로 건립된 대한민국 임시정부의 법통을 계승한다고 밝히는 헌법정신의 내용과 가치를 널리 알리는 공간이다. 기념관에서는 대한민국 임시정부의 역사를 주제별로 펼쳐 알리는 상설전시와 1년에 두 차례 특별주제를 다루는 특별기획전시가 열린다. 또한 자라나는 미래세대가 대한민국 임시정부를 기억하고 그 역사를 자랑스럽게 여길 수 있도록 청소년을 대상으로 창의적인 체험 프로그램도 운영하고 있다.",
+      "sido": "서울특별시",
+      "sigungu": "서대문구",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=249"
+      ],
+      "evidence_id": "E1",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=360",
+        "fields": {
+          "name": "국립대한민국임시정부기념관",
+          "sido": "서울특별시",
+          "sigungu": "서대문구",
+          "address": "서울특별시 서대문구 통일로 279-24",
+          "ownership_type": "국립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "09:00",
+          "weekday_close": "18:00",
+          "holiday_open": "09:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "매주 월요일(단, 월요일이 공휴일인 경우 당일은 개관하고 그 다음 첫번째 평일에 휴관)"
+        },
+        "base_data_date": "2026-04-08",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0502",
+      "name": "국립일제강제동원역사관",
+      "document": "국립일제강제동원역사관은 일제 강점기 강제동원의 실상을 규명함으로써 성숙한 역사의식을 고취하고, 인권과 세계평화에 대한 국민 교육의 장을 제공하는 것을 목적으로 건립되었다. 일제 강점기 때 부산항이 대부분의 강제동원 출발지였고, 강제동원자의 일부가 경상도 출신이었다는 역사성과 접근성 등을 감안하여, 2008년 9월 부산에 건립 방침을 확정했다. 역사관 내부에는 정부에서 수집한 강제동원 수기, 사진, 박물류 등을 전시하고 있다. 그리고 일제 강제동원 희생자를 추모할 수 있는 추모탑과 기억의 터(위패관)가 마련되어 있고, 미래세대에게 평화의 소중함을 알리기 위한 어린이체험관과 어린이 도서관 다독다독이 있어 '유족을 위한 추도, 기념시설'로서의 역할은 물론 '일제강제동원 역사 교육 공간'으로서의 역할을 수행하고 있다.",
+      "metadata": {
+        "holiday_open": "09:30",
+        "weekday_open": "09:30",
+        "homepage_url": "https://www.fomo.or.kr/museum",
+        "image_copyright": "Type1",
+        "latitude": 35.12450497,
+        "youth_fee": 0.0,
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/66/4102066_image2_1.jpg",
+        "weekday_close": "17:30",
+        "adult_fee": 0.0,
+        "name": "국립일제강제동원역사관",
+        "sido": "부산광역시",
+        "longitude": 129.0920701,
+        "address": "부산광역시 남구 홍곡로 320번길 100",
+        "closure_rule_raw": "매주 월요일, 1월 1일, 설날, 추석",
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "ownership_type": "국립",
+        "child_fee": 0.0,
+        "source_types": "TOUR_API",
+        "sigungu": "남구",
+        "holiday_close": "17:30",
+        "requires_manual_review": true
+      },
+      "vector_rank": 4,
+      "bm25_rank": 4,
+      "vector_distance": 0.6464711427688599,
+      "vector_score": null,
+      "bm25_score": 13.423201667602674,
+      "vector_document": "국립일제강제동원역사관은 일제 강점기 강제동원의 실상을 규명함으로써 성숙한 역사의식을 고취하고, 인권과 세계평화에 대한 국민 교육의 장을 제공하는 것을 목적으로 건립되었다. 일제 강점기 때 부산항이 대부분의 강제동원 출발지였고, 강제동원자의 일부가 경상도 출신이었다는 역사성과 접근성 등을 감안하여, 2008년 9월 부산에 건립 방침을 확정했다. 역사관 내부에는 정부에서 수집한 강제동원 수기, 사진, 박물류 등을 전시하고 있다. 그리고 일제 강제동원 희생자를 추모할 수 있는 추모탑과 기억의 터(위패관)가 마련되어 있고, 미래세대에게 평화의 소중함을 알리기 위한 어린이체험관과 어린이 도서관 다독다독이 있어 '유족을 위한 추도, 기념시설'로서의 역할은 물론 '일제강제동원 역사 교육 공간'으로서의 역할을 수행하고 있다.",
+      "bm25_document": "국립일제강제동원역사관은 일제 강점기 강제동원의 실상을 규명함으로써 성숙한 역사의식을 고취하고, 인권과 세계평화에 대한 국민 교육의 장을 제공하는 것을 목적으로 건립되었다. 일제 강점기 때 부산항이 대부분의 강제동원 출발지였고, 강제동원자의 일부가 경상도 출신이었다는 역사성과 접근성 등을 감안하여, 2008년 9월 부산에 건립 방침을 확정했다. 역사관 내부에는 정부에서 수집한 강제동원 수기, 사진, 박물류 등을 전시하고 있다. 그리고 일제 강제동원 희생자를 추모할 수 있는 추모탑과 기억의 터(위패관)가 마련되어 있고, 미래세대에게 평화의 소중함을 알리기 위한 어린이체험관과 어린이 도서관 다독다독이 있어 '유족을 위한 추도, 기념시설'로서의 역할은 물론 '일제강제동원 역사 교육 공간'으로서의 역할을 수행하고 있다.",
+      "best_span_id": "chroma:M0502",
+      "best_span_text": "국립일제강제동원역사관은 일제 강점기 강제동원의 실상을 규명함으로써 성숙한 역사의식을 고취하고, 인권과 세계평화에 대한 국민 교육의 장을 제공하는 것을 목적으로 건립되었다. 일제 강점기 때 부산항이 대부분의 강제동원 출발지였고, 강제동원자의 일부가 경상도 출신이었다는 역사성과 접근성 등을 감안하여, 2008년 9월 부산에 건립 방침을 확정했다. 역사관 내부에는 정부에서 수집한 강제동원 수기, 사진, 박물류 등을 전시하고 있다. 그리고 일제 강제동원 희생자를 추모할 수 있는 추모탑과 기억의 터(위패관)가 마련되어 있고, 미래세대에게 평화의 소중함을 알리기 위한 어린이체험관과 어린이 도서관 다독다독이 있어 '유족을 위한 추도, 기념시설'로서의 역할은 물론 '일제강제동원 역사 교육 공간'으로서의 역할을 수행하고 있다.",
+      "fusion_score": 0.03125,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 2,
+      "rerank_score": null,
+      "rank": 2,
+      "score": 0.03125,
+      "score_type": "rrf",
+      "distance": 0.6464711427688599,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0502",
+      "source_doc_ids": [
+        "DOC-B0502-TOUR_API-2551424"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0502-TOUR_API-2551424",
+          "source_type": "TOUR_API",
+          "source_record_id": "2551424",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=248",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 95,
+          "doc_ids": [
+            "DOC-B0502-TOUR_API-2551424"
+          ]
+        },
+        {
+          "start": 96,
+          "end": 192,
+          "doc_ids": [
+            "DOC-B0502-TOUR_API-2551424"
+          ]
+        },
+        {
+          "start": 193,
+          "end": 239,
+          "doc_ids": [
+            "DOC-B0502-TOUR_API-2551424"
+          ]
+        },
+        {
+          "start": 240,
+          "end": 402,
+          "doc_ids": [
+            "DOC-B0502-TOUR_API-2551424"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=248",
+      "text": "국립일제강제동원역사관은 일제 강점기 강제동원의 실상을 규명함으로써 성숙한 역사의식을 고취하고, 인권과 세계평화에 대한 국민 교육의 장을 제공하는 것을 목적으로 건립되었다. 일제 강점기 때 부산항이 대부분의 강제동원 출발지였고, 강제동원자의 일부가 경상도 출신이었다는 역사성과 접근성 등을 감안하여, 2008년 9월 부산에 건립 방침을 확정했다. 역사관 내부에는 정부에서 수집한 강제동원 수기, 사진, 박물류 등을 전시하고 있다. 그리고 일제 강제동원 희생자를 추모할 수 있는 추모탑과 기억의 터(위패관)가 마련되어 있고, 미래세대에게 평화의 소중함을 알리기 위한 어린이체험관과 어린이 도서관 다독다독이 있어 '유족을 위한 추도, 기념시설'로서의 역할은 물론 '일제강제동원 역사 교육 공간'으로서의 역할을 수행하고 있다.",
+      "sido": "부산광역시",
+      "sigungu": "남구",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=248"
+      ],
+      "evidence_id": "E2",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=359",
+        "fields": {
+          "name": "국립일제강제동원역사관",
+          "sido": "부산광역시",
+          "sigungu": "남구",
+          "address": "부산광역시 남구 홍곡로 320번길 100",
+          "ownership_type": "국립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "09:30",
+          "weekday_close": "17:30",
+          "holiday_open": "09:30",
+          "holiday_close": "17:30",
+          "closure_rule_raw": "매주 월요일, 1월 1일, 설날, 추석"
+        },
+        "base_data_date": "2026-04-08",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0506",
+      "name": "대한민국역사박물관",
+      "document": "대한민국역사박물관은 19세기 말 개항기부터 오늘날까지의 대한민국의 행보를 기록한 박물관으로, 2012년 12월 26일에 개관한 최초의 국립 근현대사 박물관이다. 고난과 역경을 딛고 발전한 대한민국의 역사를 전시·교육·조사∙연구, 자료의 수집을 통해 국민과 공유하고자 설립되었다. 박물관은 대한민국의 역사를 시대별로 4개의 전시실로 나누어 설명하고 있다. 제1전시실에서는 ‘대한민국의 태동’, 제2전시실에서는 ‘대한민국의 기초 확립’, 제3전시실에서는 ‘대한민국의 성장과 발전’, 그리고 제4전시실에서는 ‘대한민국의 선진화, 세계로의 도약’을 주제로 전시가 구성되어 있다. 어린이 박물관에서는 어린이가 직접 체험하면서 근현대사를 배울 수 있다. 또한, 근현대사 전반에 걸친 다양한 주제의 특별 전시를 통해 대한민국 근현대사에 대한 심층적인 내용을 살펴볼 수 있다. 박물관에서 다양한 교육 프로그램과 문화행사도 운영하고 있다.",
+      "metadata": {
+        "requires_manual_review": true,
+        "sigungu": "종로구",
+        "child_fee": 0.0,
+        "holiday_close": "18:00",
+        "ownership_type": "국립",
+        "sido": "서울특별시",
+        "adult_fee": 0.0,
+        "holiday_open": "10:00",
+        "address": "서울특별시 종로구 세종대로 198",
+        "longitude": 126.9783394425,
+        "weekday_open": "10:00",
+        "weekday_close": "18:00",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/91/3082991_image2_1.JPG",
+        "youth_fee": 0.0,
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "closure_rule_raw": "1월 1일, 설날 당일, 추석 당일",
+        "image_copyright": "Type3",
+        "source_types": "TOUR_API",
+        "homepage_url": "http://www.much.go.kr",
+        "latitude": 37.5737136067,
+        "name": "대한민국역사박물관"
+      },
+      "vector_rank": 3,
+      "bm25_rank": 7,
+      "vector_distance": 0.6407984495162964,
+      "vector_score": null,
+      "bm25_score": 11.024905017495072,
+      "vector_document": "대한민국역사박물관은 19세기 말 개항기부터 오늘날까지의 대한민국의 행보를 기록한 박물관으로, 2012년 12월 26일에 개관한 최초의 국립 근현대사 박물관이다. 고난과 역경을 딛고 발전한 대한민국의 역사를 전시·교육·조사∙연구, 자료의 수집을 통해 국민과 공유하고자 설립되었다. 박물관은 대한민국의 역사를 시대별로 4개의 전시실로 나누어 설명하고 있다. 제1전시실에서는 ‘대한민국의 태동’, 제2전시실에서는 ‘대한민국의 기초 확립’, 제3전시실에서는 ‘대한민국의 성장과 발전’, 그리고 제4전시실에서는 ‘대한민국의 선진화, 세계로의 도약’을 주제로 전시가 구성되어 있다. 어린이 박물관에서는 어린이가 직접 체험하면서 근현대사를 배울 수 있다. 또한, 근현대사 전반에 걸친 다양한 주제의 특별 전시를 통해 대한민국 근현대사에 대한 심층적인 내용을 살펴볼 수 있다. 박물관에서 다양한 교육 프로그램과 문화행사도 운영하고 있다.",
+      "bm25_document": "대한민국역사박물관은 19세기 말 개항기부터 오늘날까지의 대한민국의 행보를 기록한 박물관으로, 2012년 12월 26일에 개관한 최초의 국립 근현대사 박물관이다. 고난과 역경을 딛고 발전한 대한민국의 역사를 전시·교육·조사∙연구, 자료의 수집을 통해 국민과 공유하고자 설립되었다. 박물관은 대한민국의 역사를 시대별로 4개의 전시실로 나누어 설명하고 있다. 제1전시실에서는 ‘대한민국의 태동’, 제2전시실에서는 ‘대한민국의 기초 확립’, 제3전시실에서는 ‘대한민국의 성장과 발전’, 그리고 제4전시실에서는 ‘대한민국의 선진화, 세계로의 도약’을 주제로 전시가 구성되어 있다. 어린이 박물관에서는 어린이가 직접 체험하면서 근현대사를 배울 수 있다. 또한, 근현대사 전반에 걸친 다양한 주제의 특별 전시를 통해 대한민국 근현대사에 대한 심층적인 내용을 살펴볼 수 있다. 박물관에서 다양한 교육 프로그램과 문화행사도 운영하고 있다.",
+      "best_span_id": "chroma:M0506",
+      "best_span_text": "대한민국역사박물관은 19세기 말 개항기부터 오늘날까지의 대한민국의 행보를 기록한 박물관으로, 2012년 12월 26일에 개관한 최초의 국립 근현대사 박물관이다. 고난과 역경을 딛고 발전한 대한민국의 역사를 전시·교육·조사∙연구, 자료의 수집을 통해 국민과 공유하고자 설립되었다. 박물관은 대한민국의 역사를 시대별로 4개의 전시실로 나누어 설명하고 있다. 제1전시실에서는 ‘대한민국의 태동’, 제2전시실에서는 ‘대한민국의 기초 확립’, 제3전시실에서는 ‘대한민국의 성장과 발전’, 그리고 제4전시실에서는 ‘대한민국의 선진화, 세계로의 도약’을 주제로 전시가 구성되어 있다. 어린이 박물관에서는 어린이가 직접 체험하면서 근현대사를 배울 수 있다. 또한, 근현대사 전반에 걸친 다양한 주제의 특별 전시를 통해 대한민국 근현대사에 대한 심층적인 내용을 살펴볼 수 있다. 박물관에서 다양한 교육 프로그램과 문화행사도 운영하고 있다.",
+      "fusion_score": 0.030798389007344232,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 3,
+      "rerank_score": null,
+      "rank": 3,
+      "score": 0.030798389007344232,
+      "score_type": "rrf",
+      "distance": 0.6407984495162964,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0506",
+      "source_doc_ids": [
+        "DOC-B0506-TOUR_API-1849416"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0506-TOUR_API-1849416",
+          "source_type": "TOUR_API",
+          "source_record_id": "1849416",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=251",
+          "match_trust": "RECHECKED_BY_RULE_NOT_HUMAN_APPROVED"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 89,
+          "doc_ids": [
+            "DOC-B0506-TOUR_API-1849416"
+          ]
+        },
+        {
+          "start": 90,
+          "end": 155,
+          "doc_ids": [
+            "DOC-B0506-TOUR_API-1849416"
+          ]
+        },
+        {
+          "start": 156,
+          "end": 197,
+          "doc_ids": [
+            "DOC-B0506-TOUR_API-1849416"
+          ]
+        },
+        {
+          "start": 198,
+          "end": 319,
+          "doc_ids": [
+            "DOC-B0506-TOUR_API-1849416"
+          ]
+        },
+        {
+          "start": 320,
+          "end": 359,
+          "doc_ids": [
+            "DOC-B0506-TOUR_API-1849416"
+          ]
+        },
+        {
+          "start": 360,
+          "end": 426,
+          "doc_ids": [
+            "DOC-B0506-TOUR_API-1849416"
+          ]
+        },
+        {
+          "start": 427,
+          "end": 460,
+          "doc_ids": [
+            "DOC-B0506-TOUR_API-1849416"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=251",
+      "text": "대한민국역사박물관은 19세기 말 개항기부터 오늘날까지의 대한민국의 행보를 기록한 박물관으로, 2012년 12월 26일에 개관한 최초의 국립 근현대사 박물관이다. 고난과 역경을 딛고 발전한 대한민국의 역사를 전시·교육·조사∙연구, 자료의 수집을 통해 국민과 공유하고자 설립되었다. 박물관은 대한민국의 역사를 시대별로 4개의 전시실로 나누어 설명하고 있다. 제1전시실에서는 ‘대한민국의 태동’, 제2전시실에서는 ‘대한민국의 기초 확립’, 제3전시실에서는 ‘대한민국의 성장과 발전’, 그리고 제4전시실에서는 ‘대한민국의 선진화, 세계로의 도약’을 주제로 전시가 구성되어 있다. 어린이 박물관에서는 어린이가 직접 체험하면서 근현대사를 배울 수 있다. 또한, 근현대사 전반에 걸친 다양한 주제의 특별 전시를 통해 대한민국 근현대사에 대한 심층적인 내용을 살펴볼 수 있다. 박물관에서 다양한 교육 프로그램과 문화행사도 운영하고 있다.",
+      "sido": "서울특별시",
+      "sigungu": "종로구",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=251"
+      ],
+      "evidence_id": "E3",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=362",
+        "fields": {
+          "name": "대한민국역사박물관",
+          "sido": "서울특별시",
+          "sigungu": "종로구",
+          "address": "서울특별시 종로구 세종대로 198",
+          "ownership_type": "국립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "10:00",
+          "weekday_close": "18:00",
+          "holiday_open": "10:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "1월 1일, 설날 당일, 추석 당일"
+        },
+        "base_data_date": "2026-04-08",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0169",
+      "name": "임시수도기념관",
+      "document": "임시수도기념관은 한국전쟁이라는 국난의 시기에 대한민국 임시수도로서 소명을 훌륭하게 마친 부산의 위상과 역사성을 기념하고 부산 시민의 자긍심을 고취하기 위해 1984년 6월 25일 개관하였다. 개관 당시 중심 건물이었던 대통령 관저는 일제강점기인 1925년 경상남도 도청이 진주에서 부산으로 이전하면서 1926년 8월 10일 도지사 관사로 지어진 벽돌조의 2층 가옥으로 1950년 한국전쟁 발발로 부산이 대한민국의 임시수도 기능을 했던 기간(1950~53년)에는 대한민국의 초대 대통령인 이승만 대통령이 거처하던 곳이다. 한국 전쟁 당시 대한민국 정치의 최종 결정과 대외적인 외교업무가 이루어진 장소라는 점을 사실적으로 보여주기 위하여 대통령의 집무실과 응접실 등을 당시 분위기 그대로 재현하였고 대통령 내외와 수행비서들의 생활공간이기도 한 내실과 거실, 손님방, 식당과 부엌 등에서는 검소하고 소박한 대통령 내외의 일상적인 면들도 볼 수 있다. 이 곳은 전시관을 함께 운영하고 있으며 2012년 9월 대통령 관저 뒤편에 자리 잡고 있던 옛 부산고등검찰청 검사장 관사를 전면 리모델링하여 새로운 전시관으로 개관했다. 지하 1층, 지상 1층의 벽돌조 가옥인 전시관은 한국전쟁의 발발과 피란민들의 생활상, 임시수도 시기 부산의 정치, 경제, 문화 등을 보여주는 상설전시실로 꾸며져 있다.",
+      "metadata": {
+        "weekday_close": "18:00",
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "transport_notes": "지하철, 버스 등홈페이지 참조",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/16/4055716_image2_1.png",
+        "fee_notes": "부산광역시립박물관 운영 조례 제5조에 따름",
+        "source_types": "TOUR_API",
+        "sigungu": "서구",
+        "image_copyright": "Type1",
+        "adult_fee": 0.0,
+        "requires_manual_review": true,
+        "latitude": 35.10375325,
+        "weekday_open": "09:00",
+        "name": "임시수도기념관",
+        "youth_fee": 0.0,
+        "closure_rule_raw": "1.1 휴관매주 월요일 휴관",
+        "holiday_open": "09:00",
+        "longitude": 129.0175964,
+        "holiday_close": "18:00",
+        "address": "부산광역시 서구 임시수도기념로 45(부민동3가)",
+        "child_fee": 0.0,
+        "sido": "부산광역시",
+        "ownership_type": "공립",
+        "homepage_url": "https://www.busan.go.kr/monument/index"
+      },
+      "vector_rank": 9,
+      "bm25_rank": 5,
+      "vector_distance": 0.6680039763450623,
+      "vector_score": null,
+      "bm25_score": 12.91789870946614,
+      "vector_document": "임시수도기념관은 한국전쟁이라는 국난의 시기에 대한민국 임시수도로서 소명을 훌륭하게 마친 부산의 위상과 역사성을 기념하고 부산 시민의 자긍심을 고취하기 위해 1984년 6월 25일 개관하였다. 개관 당시 중심 건물이었던 대통령 관저는 일제강점기인 1925년 경상남도 도청이 진주에서 부산으로 이전하면서 1926년 8월 10일 도지사 관사로 지어진 벽돌조의 2층 가옥으로 1950년 한국전쟁 발발로 부산이 대한민국의 임시수도 기능을 했던 기간(1950~53년)에는 대한민국의 초대 대통령인 이승만 대통령이 거처하던 곳이다. 한국 전쟁 당시 대한민국 정치의 최종 결정과 대외적인 외교업무가 이루어진 장소라는 점을 사실적으로 보여주기 위하여 대통령의 집무실과 응접실 등을 당시 분위기 그대로 재현하였고 대통령 내외와 수행비서들의 생활공간이기도 한 내실과 거실, 손님방, 식당과 부엌 등에서는 검소하고 소박한 대통령 내외의 일상적인 면들도 볼 수 있다. 이 곳은 전시관을 함께 운영하고 있으며 2012년 9월 대통령 관저 뒤편에 자리 잡고 있던 옛 부산고등검찰청 검사장 관사를 전면 리모델링하여 새로운 전시관으로 개관했다. 지하 1층, 지상 1층의 벽돌조 가옥인 전시관은 한국전쟁의 발발과 피란민들의 생활상, 임시수도 시기 부산의 정치, 경제, 문화 등을 보여주는 상설전시실로 꾸며져 있다.",
+      "bm25_document": "임시수도기념관은 한국전쟁이라는 국난의 시기에 대한민국 임시수도로서 소명을 훌륭하게 마친 부산의 위상과 역사성을 기념하고 부산 시민의 자긍심을 고취하기 위해 1984년 6월 25일 개관하였다. 개관 당시 중심 건물이었던 대통령 관저는 일제강점기인 1925년 경상남도 도청이 진주에서 부산으로 이전하면서 1926년 8월 10일 도지사 관사로 지어진 벽돌조의 2층 가옥으로 1950년 한국전쟁 발발로 부산이 대한민국의 임시수도 기능을 했던 기간(1950~53년)에는 대한민국의 초대 대통령인 이승만 대통령이 거처하던 곳이다. 한국 전쟁 당시 대한민국 정치의 최종 결정과 대외적인 외교업무가 이루어진 장소라는 점을 사실적으로 보여주기 위하여 대통령의 집무실과 응접실 등을 당시 분위기 그대로 재현하였고 대통령 내외와 수행비서들의 생활공간이기도 한 내실과 거실, 손님방, 식당과 부엌 등에서는 검소하고 소박한 대통령 내외의 일상적인 면들도 볼 수 있다. 이 곳은 전시관을 함께 운영하고 있으며 2012년 9월 대통령 관저 뒤편에 자리 잡고 있던 옛 부산고등검찰청 검사장 관사를 전면 리모델링하여 새로운 전시관으로 개관했다. 지하 1층, 지상 1층의 벽돌조 가옥인 전시관은 한국전쟁의 발발과 피란민들의 생활상, 임시수도 시기 부산의 정치, 경제, 문화 등을 보여주는 상설전시실로 꾸며져 있다.",
+      "best_span_id": "chroma:M0169",
+      "best_span_text": "임시수도기념관은 한국전쟁이라는 국난의 시기에 대한민국 임시수도로서 소명을 훌륭하게 마친 부산의 위상과 역사성을 기념하고 부산 시민의 자긍심을 고취하기 위해 1984년 6월 25일 개관하였다. 개관 당시 중심 건물이었던 대통령 관저는 일제강점기인 1925년 경상남도 도청이 진주에서 부산으로 이전하면서 1926년 8월 10일 도지사 관사로 지어진 벽돌조의 2층 가옥으로 1950년 한국전쟁 발발로 부산이 대한민국의 임시수도 기능을 했던 기간(1950~53년)에는 대한민국의 초대 대통령인 이승만 대통령이 거처하던 곳이다. 한국 전쟁 당시 대한민국 정치의 최종 결정과 대외적인 외교업무가 이루어진 장소라는 점을 사실적으로 보여주기 위하여 대통령의 집무실과 응접실 등을 당시 분위기 그대로 재현하였고 대통령 내외와 수행비서들의 생활공간이기도 한 내실과 거실, 손님방, 식당과 부엌 등에서는 검소하고 소박한 대통령 내외의 일상적인 면들도 볼 수 있다. 이 곳은 전시관을 함께 운영하고 있으며 2012년 9월 대통령 관저 뒤편에 자리 잡고 있던 옛 부산고등검찰청 검사장 관사를 전면 리모델링하여 새로운 전시관으로 개관했다. 지하 1층, 지상 1층의 벽돌조 가옥인 전시관은 한국전쟁의 발발과 피란민들의 생활상, 임시수도 시기 부산의 정치, 경제, 문화 등을 보여주는 상설전시실로 꾸며져 있다.",
+      "fusion_score": 0.029877369007803793,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 4,
+      "rerank_score": null,
+      "rank": 4,
+      "score": 0.029877369007803793,
+      "score_type": "rrf",
+      "distance": 0.6680039763450623,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0169",
+      "source_doc_ids": [
+        "DOC-B0169-TOUR_API-1608530"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0169-TOUR_API-1608530",
+          "source_type": "TOUR_API",
+          "source_record_id": "1608530",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=80",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 106,
+          "doc_ids": [
+            "DOC-B0169-TOUR_API-1608530"
+          ]
+        },
+        {
+          "start": 107,
+          "end": 290,
+          "doc_ids": [
+            "DOC-B0169-TOUR_API-1608530"
+          ]
+        },
+        {
+          "start": 291,
+          "end": 472,
+          "doc_ids": [
+            "DOC-B0169-TOUR_API-1608530"
+          ]
+        },
+        {
+          "start": 473,
+          "end": 567,
+          "doc_ids": [
+            "DOC-B0169-TOUR_API-1608530"
+          ]
+        },
+        {
+          "start": 568,
+          "end": 661,
+          "doc_ids": [
+            "DOC-B0169-TOUR_API-1608530"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=80",
+      "text": "임시수도기념관은 한국전쟁이라는 국난의 시기에 대한민국 임시수도로서 소명을 훌륭하게 마친 부산의 위상과 역사성을 기념하고 부산 시민의 자긍심을 고취하기 위해 1984년 6월 25일 개관하였다. 개관 당시 중심 건물이었던 대통령 관저는 일제강점기인 1925년 경상남도 도청이 진주에서 부산으로 이전하면서 1926년 8월 10일 도지사 관사로 지어진 벽돌조의 2층 가옥으로 1950년 한국전쟁 발발로 부산이 대한민국의 임시수도 기능을 했던 기간(1950~53년)에는 대한민국의 초대 대통령인 이승만 대통령이 거처하던 곳이다. 한국 전쟁 당시 대한민국 정치의 최종 결정과 대외적인 외교업무가 이루어진 장소라는 점을 사실적으로 보여주기 위하여 대통령의 집무실과 응접실 등을 당시 분위기 그대로 재현하였고 대통령 내외와 수행비서들의 생활공간이기도 한 내실과 거실, 손님방, 식당과 부엌 등에서는 검소하고 소박한 대통령 내외의 일상적인 면들도 볼 수 있다. 이 곳은 전시관을 함께 운영하고 있으며 2012년 9월 대통령 관저 뒤편에 자리 잡고 있던 옛 부산고등검찰청 검사장 관사를 전면 리모델링하여 새로운 전시관으로 개관했다. 지하 1층, 지상 1층의 벽돌조 가옥인 전시관은 한국전쟁의 발발과 피란민들의 생활상, 임시수도 시기 부산의 정치, 경제, 문화 등을 보여주는 상설전시실로 꾸며져 있다.",
+      "sido": "부산광역시",
+      "sigungu": "서구",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=80"
+      ],
+      "evidence_id": "E4",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=110",
+        "fields": {
+          "name": "임시수도기념관",
+          "sido": "부산광역시",
+          "sigungu": "서구",
+          "address": "부산광역시 서구 임시수도기념로 45(부민동3가)",
+          "ownership_type": "공립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "09:00",
+          "weekday_close": "18:00",
+          "holiday_open": "09:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "1.1 휴관매주 월요일 휴관"
+        },
+        "base_data_date": "2026-09-04",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0983",
+      "name": "유엔평화기념관",
+      "document": "유엔평화기념관은 6·25 전쟁에 참전하여 대한민국의 자유와 평화를 지켜낸 유엔 참전국과 참전용사들의 공헌을 기억하기 위해 건립된 국가보훈부 산하 현충시설이다. 기념관 내 6·25 전쟁실, 유엔참전기념실, 유엔국제평화실의 3개의 상설전시실과 2개의 기획전시실을 통해 역사의 한 단면을 이해하고 평화유지를 위한 희생과 의지를 기억할 수 있도록 하고 있다. 아울러 유엔 참전국에 대한 감사와 파트너십 강화, 미래 평화를 향한 글로벌 인재 양성이라는 목표를 가지고 참전국 교류사업, 교육사업, 전시사업 등 호국·평화 관련 사업들을 추진하고 있다.",
+      "metadata": {
+        "weekday_open": "10:00",
+        "source_types": "TOUR_API",
+        "requires_manual_review": true,
+        "address": "부산광역시 남구 홍곡로320번길 106",
+        "longitude": 129.093215,
+        "child_fee": 0.0,
+        "holiday_open": "10:00",
+        "homepage_url": "https://www.unpm.or.kr",
+        "sido": "부산광역시",
+        "latitude": 35.12475247,
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "youth_fee": 0.0,
+        "closure_rule_raw": "매주 월요일, 단 국가공휴일과 월요일이 겹칠 경우 당일은 개관하고 다음날 휴관",
+        "holiday_close": "18:00",
+        "image_copyright": "Type3",
+        "ownership_type": "사립",
+        "name": "유엔평화기념관",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/00/3514900_image2_1.jpg",
+        "sigungu": "남구",
+        "weekday_close": "18:00",
+        "adult_fee": 0.0
+      },
+      "vector_rank": 7,
+      "bm25_rank": 12,
+      "vector_distance": 0.6665637493133545,
+      "vector_score": null,
+      "bm25_score": 9.226659363624057,
+      "vector_document": "유엔평화기념관은 6·25 전쟁에 참전하여 대한민국의 자유와 평화를 지켜낸 유엔 참전국과 참전용사들의 공헌을 기억하기 위해 건립된 국가보훈부 산하 현충시설이다. 기념관 내 6·25 전쟁실, 유엔참전기념실, 유엔국제평화실의 3개의 상설전시실과 2개의 기획전시실을 통해 역사의 한 단면을 이해하고 평화유지를 위한 희생과 의지를 기억할 수 있도록 하고 있다. 아울러 유엔 참전국에 대한 감사와 파트너십 강화, 미래 평화를 향한 글로벌 인재 양성이라는 목표를 가지고 참전국 교류사업, 교육사업, 전시사업 등 호국·평화 관련 사업들을 추진하고 있다.",
+      "bm25_document": "유엔평화기념관은 6·25 전쟁에 참전하여 대한민국의 자유와 평화를 지켜낸 유엔 참전국과 참전용사들의 공헌을 기억하기 위해 건립된 국가보훈부 산하 현충시설이다. 기념관 내 6·25 전쟁실, 유엔참전기념실, 유엔국제평화실의 3개의 상설전시실과 2개의 기획전시실을 통해 역사의 한 단면을 이해하고 평화유지를 위한 희생과 의지를 기억할 수 있도록 하고 있다. 아울러 유엔 참전국에 대한 감사와 파트너십 강화, 미래 평화를 향한 글로벌 인재 양성이라는 목표를 가지고 참전국 교류사업, 교육사업, 전시사업 등 호국·평화 관련 사업들을 추진하고 있다.",
+      "best_span_id": "chroma:M0983",
+      "best_span_text": "유엔평화기념관은 6·25 전쟁에 참전하여 대한민국의 자유와 평화를 지켜낸 유엔 참전국과 참전용사들의 공헌을 기억하기 위해 건립된 국가보훈부 산하 현충시설이다. 기념관 내 6·25 전쟁실, 유엔참전기념실, 유엔국제평화실의 3개의 상설전시실과 2개의 기획전시실을 통해 역사의 한 단면을 이해하고 평화유지를 위한 희생과 의지를 기억할 수 있도록 하고 있다. 아울러 유엔 참전국에 대한 감사와 파트너십 강화, 미래 평화를 향한 글로벌 인재 양성이라는 목표를 가지고 참전국 교류사업, 교육사업, 전시사업 등 호국·평화 관련 사업들을 추진하고 있다.",
+      "fusion_score": 0.028814262023217248,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 5,
+      "rerank_score": null,
+      "rank": 5,
+      "score": 0.028814262023217248,
+      "score_type": "rrf",
+      "distance": 0.6665637493133545,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0983",
+      "source_doc_ids": [
+        "DOC-B0983-TOUR_API-2558329"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0983-TOUR_API-2558329",
+          "source_type": "TOUR_API",
+          "source_record_id": "2558329",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=457",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 88,
+          "doc_ids": [
+            "DOC-B0983-TOUR_API-2558329"
+          ]
+        },
+        {
+          "start": 89,
+          "end": 196,
+          "doc_ids": [
+            "DOC-B0983-TOUR_API-2558329"
+          ]
+        },
+        {
+          "start": 197,
+          "end": 301,
+          "doc_ids": [
+            "DOC-B0983-TOUR_API-2558329"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=457",
+      "text": "유엔평화기념관은 6·25 전쟁에 참전하여 대한민국의 자유와 평화를 지켜낸 유엔 참전국과 참전용사들의 공헌을 기억하기 위해 건립된 국가보훈부 산하 현충시설이다. 기념관 내 6·25 전쟁실, 유엔참전기념실, 유엔국제평화실의 3개의 상설전시실과 2개의 기획전시실을 통해 역사의 한 단면을 이해하고 평화유지를 위한 희생과 의지를 기억할 수 있도록 하고 있다. 아울러 유엔 참전국에 대한 감사와 파트너십 강화, 미래 평화를 향한 글로벌 인재 양성이라는 목표를 가지고 참전국 교류사업, 교육사업, 전시사업 등 호국·평화 관련 사업들을 추진하고 있다.",
+      "sido": "부산광역시",
+      "sigungu": "남구",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=457"
+      ],
+      "evidence_id": "E5",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=669",
+        "fields": {
+          "name": "유엔평화기념관",
+          "sido": "부산광역시",
+          "sigungu": "남구",
+          "address": "부산광역시 남구 홍곡로320번길 106",
+          "ownership_type": "사립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "10:00",
+          "weekday_close": "18:00",
+          "holiday_open": "10:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "매주 월요일, 단 국가공휴일과 월요일이 겹칠 경우 당일은 개관하고 다음날 휴관"
+        },
+        "base_data_date": "2025-11-24",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    }
+  ],
+  "answer": "기념관은 미래세대가 대한민국 임시정부를 기억하고 그 역사를 자랑스럽게 여기도록 청소년 대상의 창의적인 체험 프로그램을 운영합니다. [E1]",
+  "retrieval_status": "ok",
+  "answer_status": "answered",
+  "route": "hybrid",
+  "retry_count": 0,
+  "supervisor_verified": true,
+  "rerank_applied": false,
+  "retriever_errors": [],
+  "warnings": [
+    "Cross-Encoder reranking failed (FileNotFoundError); RRF order retained"
+  ],
+  "duration_ms": 8986.24,
+  "error_type": "",
+  "hit_at_1": 1,
+  "hit_at_3": 1,
+  "hit_at_5": 1,
+  "recall_at_5": 1.0,
+  "mrr_at_10": 1.0
+}

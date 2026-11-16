@@ -1,0 +1,657 @@
+{
+  "mode": "supervisor_full",
+  "question_id": "Q187",
+  "evidence": [
+    {
+      "museum_id": "M0305",
+      "name": "극재미술관",
+      "document": "1999년 10월 대명캠퍼스 동산관에 개관한 극재미술관은 2008년 9월 한국 추상화의 거목 극재 정점식 화백의 예술과 교육철학을 본받고자 극재미술관으로 명명하고 상설전시관을 갖추어 운영됨.",
+      "metadata": {
+        "ownership_type": "대학",
+        "weekday_open": "10:00",
+        "youth_fee": 0.0,
+        "weekday_close": "16:00",
+        "sigungu": "남구",
+        "longitude": 128.5793157,
+        "sido": "대구광역시",
+        "latitude": 35.85552317,
+        "holiday_open": "00:00",
+        "name": "극재미술관",
+        "address": "대구광역시 남구 명덕로 104, 계명대학교 2층 동산관(대명동)",
+        "closure_rule_raw": "토+일+공휴일",
+        "requires_manual_review": true,
+        "source_types": "BASE",
+        "adult_fee": 0.0,
+        "holiday_close": "00:00",
+        "child_fee": 0.0,
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "homepage_url": "https://cms.kmu.ac.kr/gukje/index.do"
+      },
+      "vector_rank": 1,
+      "bm25_rank": 1,
+      "vector_distance": 0.4602128267288208,
+      "vector_score": null,
+      "bm25_score": 25.26782197897903,
+      "vector_document": "1999년 10월 대명캠퍼스 동산관에 개관한 극재미술관은 2008년 9월 한국 추상화의 거목 극재 정점식 화백의 예술과 교육철학을 본받고자 극재미술관으로 명명하고 상설전시관을 갖추어 운영됨.",
+      "bm25_document": "1999년 10월 대명캠퍼스 동산관에 개관한 극재미술관은 2008년 9월 한국 추상화의 거목 극재 정점식 화백의 예술과 교육철학을 본받고자 극재미술관으로 명명하고 상설전시관을 갖추어 운영됨.",
+      "best_span_id": "chroma:M0305",
+      "best_span_text": "1999년 10월 대명캠퍼스 동산관에 개관한 극재미술관은 2008년 9월 한국 추상화의 거목 극재 정점식 화백의 예술과 교육철학을 본받고자 극재미술관으로 명명하고 상설전시관을 갖추어 운영됨.",
+      "fusion_score": 0.03278688524590164,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 1,
+      "name_match": true,
+      "rerank_score": 0.9773503541946411,
+      "rank": 1,
+      "score": 0.9773503541946411,
+      "score_type": "cross_encoder",
+      "distance": 0.4602128267288208,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0305",
+      "source_doc_ids": [
+        "DOC-B0305-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0305-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0305",
+          "source_locator": "data/raw/museum_base_1070.csv#row=306",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 106,
+          "doc_ids": [
+            "DOC-B0305-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_base_1070.csv#row=306",
+      "text": "1999년 10월 대명캠퍼스 동산관에 개관한 극재미술관은 2008년 9월 한국 추상화의 거목 극재 정점식 화백의 예술과 교육철학을 본받고자 극재미술관으로 명명하고 상설전시관을 갖추어 운영됨.",
+      "sido": "대구광역시",
+      "sigungu": "남구",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_base_1070.csv#row=306"
+      ],
+      "evidence_id": "E1",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=218",
+        "fields": {
+          "name": "극재미술관",
+          "sido": "대구광역시",
+          "sigungu": "남구",
+          "address": "대구광역시 남구 명덕로 104, 계명대학교 2층 동산관(대명동)",
+          "ownership_type": "대학",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "10:00",
+          "weekday_close": "16:00",
+          "holiday_open": "00:00",
+          "holiday_close": "00:00",
+          "closure_rule_raw": "토+일+공휴일"
+        },
+        "base_data_date": "2026-07-27",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0683",
+      "name": "계명대 극재미술관",
+      "document": "1999년 개관한 극재미술관은 한국 추상화의 거목이자 미술대학의 개척과 발전에 큰 공헌을 한 고 극재(克哉) 정점식(鄭點植) 화백의 예술과 교육철학을 본받고자 그 호를 미술관명으로 명명하였습니다. 평소 왕성한 작품활동과 후학사랑의 실천에 앞장서 온 화백의 유화, 크로키, 서적 등의 기증으로 2008년 상설전시실이 만들어지게 되었습니다. 2012년 3월 3개의 전시장(화이트갤러리, 블랙갤러리, 크리에이티브갤러리)으로 확장되면서 교내 부속기관으로 승격되어 독자적인 운영을 시작하였고, 같은 해 12월 ‘박물관 및 미술관 진흥법’에 의거하여 제1종 미술관으로 등록되었습니다. 극재미술관은 대학미술관의 특성에 맞춰 교수·강사와 학생들이 주체가 되어 다양한 분야의 전시를 기획·개최하고 있으며, 향후 새로운 미술사업과 교육프로그램을 개발하여 대학 내 구성원뿐만 아니라 지역주민들이 친근하게 다가갈 수 있는 문화공간의 현장으로 자리매김하고자 합니다.",
+      "metadata": {
+        "requires_manual_review": true,
+        "longitude": 128.5793157,
+        "child_fee": 0.0,
+        "holiday_open": "00:00",
+        "weekday_open": "10:00",
+        "name": "계명대 극재미술관",
+        "holiday_close": "00:00",
+        "ownership_type": "대학",
+        "adult_fee": 0.0,
+        "transport_notes": "509+650+706+805+836+달서4+순환2-1+300+306+518+609+651+805+남구1-1+대구지하철 3호선 남산역 하차 후 2번 출구에서 약 500m",
+        "source_types": "BASE",
+        "address": "대구광역시 남구 명덕로 104",
+        "amenities_raw": "전시실",
+        "latitude": 35.85552317,
+        "sigungu": "남구",
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "sido": "대구광역시",
+        "youth_fee": 0.0,
+        "homepage_url": "https://newcms.kmu.ac.kr/gukje/index.do",
+        "weekday_close": "18:00",
+        "closure_rule_raw": "임시휴관"
+      },
+      "vector_rank": 3,
+      "bm25_rank": 2,
+      "vector_distance": 0.5215905904769897,
+      "vector_score": null,
+      "bm25_score": 15.364552044245874,
+      "vector_document": "1999년 개관한 극재미술관은 한국 추상화의 거목이자 미술대학의 개척과 발전에 큰 공헌을 한 고 극재(克哉) 정점식(鄭點植) 화백의 예술과 교육철학을 본받고자 그 호를 미술관명으로 명명하였습니다. 평소 왕성한 작품활동과 후학사랑의 실천에 앞장서 온 화백의 유화, 크로키, 서적 등의 기증으로 2008년 상설전시실이 만들어지게 되었습니다. 2012년 3월 3개의 전시장(화이트갤러리, 블랙갤러리, 크리에이티브갤러리)으로 확장되면서 교내 부속기관으로 승격되어 독자적인 운영을 시작하였고, 같은 해 12월 ‘박물관 및 미술관 진흥법’에 의거하여 제1종 미술관으로 등록되었습니다. 극재미술관은 대학미술관의 특성에 맞춰 교수·강사와 학생들이 주체가 되어 다양한 분야의 전시를 기획·개최하고 있으며, 향후 새로운 미술사업과 교육프로그램을 개발하여 대학 내 구성원뿐만 아니라 지역주민들이 친근하게 다가갈 수 있는 문화공간의 현장으로 자리매김하고자 합니다.",
+      "bm25_document": "1999년 개관한 극재미술관은 한국 추상화의 거목이자 미술대학의 개척과 발전에 큰 공헌을 한 고 극재(克哉) 정점식(鄭點植) 화백의 예술과 교육철학을 본받고자 그 호를 미술관명으로 명명하였습니다. 평소 왕성한 작품활동과 후학사랑의 실천에 앞장서 온 화백의 유화, 크로키, 서적 등의 기증으로 2008년 상설전시실이 만들어지게 되었습니다. 2012년 3월 3개의 전시장(화이트갤러리, 블랙갤러리, 크리에이티브갤러리)으로 확장되면서 교내 부속기관으로 승격되어 독자적인 운영을 시작하였고, 같은 해 12월 ‘박물관 및 미술관 진흥법’에 의거하여 제1종 미술관으로 등록되었습니다. 극재미술관은 대학미술관의 특성에 맞춰 교수·강사와 학생들이 주체가 되어 다양한 분야의 전시를 기획·개최하고 있으며, 향후 새로운 미술사업과 교육프로그램을 개발하여 대학 내 구성원뿐만 아니라 지역주민들이 친근하게 다가갈 수 있는 문화공간의 현장으로 자리매김하고자 합니다.",
+      "best_span_id": "chroma:M0683",
+      "best_span_text": "1999년 개관한 극재미술관은 한국 추상화의 거목이자 미술대학의 개척과 발전에 큰 공헌을 한 고 극재(克哉) 정점식(鄭點植) 화백의 예술과 교육철학을 본받고자 그 호를 미술관명으로 명명하였습니다. 평소 왕성한 작품활동과 후학사랑의 실천에 앞장서 온 화백의 유화, 크로키, 서적 등의 기증으로 2008년 상설전시실이 만들어지게 되었습니다. 2012년 3월 3개의 전시장(화이트갤러리, 블랙갤러리, 크리에이티브갤러리)으로 확장되면서 교내 부속기관으로 승격되어 독자적인 운영을 시작하였고, 같은 해 12월 ‘박물관 및 미술관 진흥법’에 의거하여 제1종 미술관으로 등록되었습니다. 극재미술관은 대학미술관의 특성에 맞춰 교수·강사와 학생들이 주체가 되어 다양한 분야의 전시를 기획·개최하고 있으며, 향후 새로운 미술사업과 교육프로그램을 개발하여 대학 내 구성원뿐만 아니라 지역주민들이 친근하게 다가갈 수 있는 문화공간의 현장으로 자리매김하고자 합니다.",
+      "fusion_score": 0.03200204813108039,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 2,
+      "rerank_score": 0.8476759791374207,
+      "rank": 2,
+      "score": 0.8476759791374207,
+      "score_type": "cross_encoder",
+      "distance": 0.5215905904769897,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0683",
+      "source_doc_ids": [
+        "DOC-B0683-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0683-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0683",
+          "source_locator": "data/raw/museum_base_1070.csv#row=684",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 109,
+          "doc_ids": [
+            "DOC-B0683-BASE"
+          ]
+        },
+        {
+          "start": 110,
+          "end": 188,
+          "doc_ids": [
+            "DOC-B0683-BASE"
+          ]
+        },
+        {
+          "start": 189,
+          "end": 320,
+          "doc_ids": [
+            "DOC-B0683-BASE"
+          ]
+        },
+        {
+          "start": 321,
+          "end": 471,
+          "doc_ids": [
+            "DOC-B0683-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_base_1070.csv#row=684",
+      "text": "1999년 개관한 극재미술관은 한국 추상화의 거목이자 미술대학의 개척과 발전에 큰 공헌을 한 고 극재(克哉) 정점식(鄭點植) 화백의 예술과 교육철학을 본받고자 그 호를 미술관명으로 명명하였습니다. 평소 왕성한 작품활동과 후학사랑의 실천에 앞장서 온 화백의 유화, 크로키, 서적 등의 기증으로 2008년 상설전시실이 만들어지게 되었습니다. 2012년 3월 3개의 전시장(화이트갤러리, 블랙갤러리, 크리에이티브갤러리)으로 확장되면서 교내 부속기관으로 승격되어 독자적인 운영을 시작하였고, 같은 해 12월 ‘박물관 및 미술관 진흥법’에 의거하여 제1종 미술관으로 등록되었습니다. 극재미술관은 대학미술관의 특성에 맞춰 교수·강사와 학생들이 주체가 되어 다양한 분야의 전시를 기획·개최하고 있으며, 향후 새로운 미술사업과 교육프로그램을 개발하여 대학 내 구성원뿐만 아니라 지역주민들이 친근하게 다가갈 수 있는 문화공간의 현장으로 자리매김하고자 합니다.",
+      "sido": "대구광역시",
+      "sigungu": "남구",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_base_1070.csv#row=684"
+      ],
+      "evidence_id": "E2",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=472",
+        "fields": {
+          "name": "계명대 극재미술관",
+          "sido": "대구광역시",
+          "sigungu": "남구",
+          "address": "대구광역시 남구 명덕로 104",
+          "ownership_type": "대학",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "10:00",
+          "weekday_close": "18:00",
+          "holiday_open": "00:00",
+          "holiday_close": "00:00",
+          "closure_rule_raw": "임시휴관",
+          "amenities_raw": "전시실"
+        },
+        "base_data_date": "2025-12-10",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0502",
+      "name": "국립일제강제동원역사관",
+      "document": "국립일제강제동원역사관은 일제 강점기 강제동원의 실상을 규명함으로써 성숙한 역사의식을 고취하고, 인권과 세계평화에 대한 국민 교육의 장을 제공하는 것을 목적으로 건립되었다. 일제 강점기 때 부산항이 대부분의 강제동원 출발지였고, 강제동원자의 일부가 경상도 출신이었다는 역사성과 접근성 등을 감안하여, 2008년 9월 부산에 건립 방침을 확정했다. 역사관 내부에는 정부에서 수집한 강제동원 수기, 사진, 박물류 등을 전시하고 있다. 그리고 일제 강제동원 희생자를 추모할 수 있는 추모탑과 기억의 터(위패관)가 마련되어 있고, 미래세대에게 평화의 소중함을 알리기 위한 어린이체험관과 어린이 도서관 다독다독이 있어 '유족을 위한 추도, 기념시설'로서의 역할은 물론 '일제강제동원 역사 교육 공간'으로서의 역할을 수행하고 있다.",
+      "metadata": {
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "source_types": "TOUR_API",
+        "latitude": 35.12450497,
+        "homepage_url": "https://www.fomo.or.kr/museum",
+        "image_copyright": "Type1",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/66/4102066_image2_1.jpg",
+        "youth_fee": 0.0,
+        "name": "국립일제강제동원역사관",
+        "weekday_open": "09:30",
+        "closure_rule_raw": "매주 월요일, 1월 1일, 설날, 추석",
+        "weekday_close": "17:30",
+        "requires_manual_review": true,
+        "holiday_close": "17:30",
+        "adult_fee": 0.0,
+        "holiday_open": "09:30",
+        "longitude": 129.0920701,
+        "ownership_type": "국립",
+        "child_fee": 0.0,
+        "sigungu": "남구",
+        "sido": "부산광역시",
+        "address": "부산광역시 남구 홍곡로 320번길 100"
+      },
+      "vector_rank": null,
+      "bm25_rank": 9,
+      "vector_distance": null,
+      "vector_score": null,
+      "bm25_score": 10.256331518047466,
+      "vector_document": "",
+      "bm25_document": "국립일제강제동원역사관은 일제 강점기 강제동원의 실상을 규명함으로써 성숙한 역사의식을 고취하고, 인권과 세계평화에 대한 국민 교육의 장을 제공하는 것을 목적으로 건립되었다. 일제 강점기 때 부산항이 대부분의 강제동원 출발지였고, 강제동원자의 일부가 경상도 출신이었다는 역사성과 접근성 등을 감안하여, 2008년 9월 부산에 건립 방침을 확정했다. 역사관 내부에는 정부에서 수집한 강제동원 수기, 사진, 박물류 등을 전시하고 있다. 그리고 일제 강제동원 희생자를 추모할 수 있는 추모탑과 기억의 터(위패관)가 마련되어 있고, 미래세대에게 평화의 소중함을 알리기 위한 어린이체험관과 어린이 도서관 다독다독이 있어 '유족을 위한 추도, 기념시설'로서의 역할은 물론 '일제강제동원 역사 교육 공간'으로서의 역할을 수행하고 있다.",
+      "best_span_id": "chroma:M0502",
+      "best_span_text": "국립일제강제동원역사관은 일제 강점기 강제동원의 실상을 규명함으로써 성숙한 역사의식을 고취하고, 인권과 세계평화에 대한 국민 교육의 장을 제공하는 것을 목적으로 건립되었다. 일제 강점기 때 부산항이 대부분의 강제동원 출발지였고, 강제동원자의 일부가 경상도 출신이었다는 역사성과 접근성 등을 감안하여, 2008년 9월 부산에 건립 방침을 확정했다. 역사관 내부에는 정부에서 수집한 강제동원 수기, 사진, 박물류 등을 전시하고 있다. 그리고 일제 강제동원 희생자를 추모할 수 있는 추모탑과 기억의 터(위패관)가 마련되어 있고, 미래세대에게 평화의 소중함을 알리기 위한 어린이체험관과 어린이 도서관 다독다독이 있어 '유족을 위한 추도, 기념시설'로서의 역할은 물론 '일제강제동원 역사 교육 공간'으로서의 역할을 수행하고 있다.",
+      "fusion_score": 0.014492753623188406,
+      "retrieved_by": [
+        "bm25"
+      ],
+      "fusion_rank": 17,
+      "rerank_score": 0.006865262985229492,
+      "rank": 3,
+      "score": 0.006865262985229492,
+      "score_type": "cross_encoder",
+      "distance": null,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "bm25"
+      ],
+      "retriever": "bm25",
+      "span_id": "chroma:M0502",
+      "source_doc_ids": [
+        "DOC-B0502-TOUR_API-2551424"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0502-TOUR_API-2551424",
+          "source_type": "TOUR_API",
+          "source_record_id": "2551424",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=248",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 95,
+          "doc_ids": [
+            "DOC-B0502-TOUR_API-2551424"
+          ]
+        },
+        {
+          "start": 96,
+          "end": 192,
+          "doc_ids": [
+            "DOC-B0502-TOUR_API-2551424"
+          ]
+        },
+        {
+          "start": 193,
+          "end": 239,
+          "doc_ids": [
+            "DOC-B0502-TOUR_API-2551424"
+          ]
+        },
+        {
+          "start": 240,
+          "end": 402,
+          "doc_ids": [
+            "DOC-B0502-TOUR_API-2551424"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=248",
+      "text": "국립일제강제동원역사관은 일제 강점기 강제동원의 실상을 규명함으로써 성숙한 역사의식을 고취하고, 인권과 세계평화에 대한 국민 교육의 장을 제공하는 것을 목적으로 건립되었다. 일제 강점기 때 부산항이 대부분의 강제동원 출발지였고, 강제동원자의 일부가 경상도 출신이었다는 역사성과 접근성 등을 감안하여, 2008년 9월 부산에 건립 방침을 확정했다. 역사관 내부에는 정부에서 수집한 강제동원 수기, 사진, 박물류 등을 전시하고 있다. 그리고 일제 강제동원 희생자를 추모할 수 있는 추모탑과 기억의 터(위패관)가 마련되어 있고, 미래세대에게 평화의 소중함을 알리기 위한 어린이체험관과 어린이 도서관 다독다독이 있어 '유족을 위한 추도, 기념시설'로서의 역할은 물론 '일제강제동원 역사 교육 공간'으로서의 역할을 수행하고 있다.",
+      "sido": "부산광역시",
+      "sigungu": "남구",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=248"
+      ],
+      "evidence_id": "E3",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=359",
+        "fields": {
+          "name": "국립일제강제동원역사관",
+          "sido": "부산광역시",
+          "sigungu": "남구",
+          "address": "부산광역시 남구 홍곡로 320번길 100",
+          "ownership_type": "국립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "09:30",
+          "weekday_close": "17:30",
+          "holiday_open": "09:30",
+          "holiday_close": "17:30",
+          "closure_rule_raw": "매주 월요일, 1월 1일, 설날, 추석"
+        },
+        "base_data_date": "2026-04-08",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0287",
+      "name": "사비나미술관",
+      "document": "1996년 3월 개관한 사비나미술관은 서울 은평구 내 최초의 현대미술관으로서 융·복합 전시, 예술 교육프로그램, 아카데미, 세미나, 문화행사 등 다양한 문화예술 활동을 통해 시민들의 예술적 소양과 심미안, 창의성을 길러주는 평생학교의 역할을 하고 있다. 또한 제1종 등록미술관(전문미술관, 제251호)으로 융합, 변화, 도전, 혁신, 실험정신을 창조성의 원천으로 활용하며 예술의 의미와 가치를 이끌어내고 사회 전반에 확산시키는 역할을 수행하고 있다. 미술관의 건물은 삼각형 모양으로 외벽은 흰 벽돌, 내벽은 노출 콘크리트, 창문이 거의 없는 개방성과 폐쇄성이 융합된 건축물인데, 이곳에는 융복합과 혁신을 지향하는 사비나미술관의 미션(mission)과 정체성이 담겨있다. 사비나미술관은 2008년 5월 학예사경력인정기관 지정, 2015년 7월 서울교육인증기관 지정, 2017년 문화체육관광부가 주최하고 예술경영지원센터가 주관한 2017 예술경영 컨퍼런스에서 예술경영대상을 수상한 바가 있다. 또한 2014년 국내 최초로 미술계의 구글로 불리는 아트시(Artsy)와 MOU 체결, 2016년 전 세계 상위 미술품 컬렉터의 데이터를 보유한 래리스 리스트(Larry's List)에서 조사한 사립미술관보고서에서 국내 3대 우수미술관으로 선정되었다. 은평구 내 최초의 미술관으로서 융복합 전시, 예술 교육프로그램, 아카데미, 세미나, 문화행사 등 다양한 문화예술 활동을 통해 시민들의 예술적 소양과 심미안, 창의성을 길러주는 평생학교의 역할을 수행",
+      "metadata": {
+        "weekday_open": "10:00",
+        "longitude": 126.9293496,
+        "adult_fee_status": "BASE_FEE_PAID",
+        "ownership_type": "사립",
+        "closure_rule_raw": "매주 월요일",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/13/3527813_image2_1.jpg",
+        "requires_manual_review": true,
+        "youth_fee": 5000.0,
+        "weekday_close": "18:00",
+        "holiday_close": "18:00",
+        "name": "사비나미술관",
+        "child_fee": 5000.0,
+        "latitude": 37.6301511,
+        "source_types": "BASE|TOUR_API",
+        "image_copyright": "Type1",
+        "sido": "서울특별시",
+        "transport_notes": "지하철 3호선 연신내역(3,5번 출구) 또는 구파발역(3번 출구)에서 버스 환승, 연신내역 3번출구 571번 탑승 후 신도초,중교입구 정류장 하차, 연신내역 3번출구 701, 720, 7211번 탑승 후 폭포동 정류장 하차, 연신내역 5번출구 7720번 탑승 후 신도초중교입구정류장 하차, 구파발역 3번출구 720 탑승 후 폭포동,은평노인종합복지관 하차,구파발역 3번출구 7734 탑승 후 신도초,중교입구 하차, 독바위역 6호선 1번 출구 맞은편 수리초등학교 버스정류장에서 7720/7734 승차 후, 은평경찰서(5정거장 후) 또는 고전번역원(6정거장 후)에서 하차 후 도보 5분",
+        "homepage_url": "http://www.savinamuseum.com",
+        "holiday_open": "10:00",
+        "amenities_raw": "카페, 주차장",
+        "adult_fee": 6000.0,
+        "fee_notes": "65세 이상, 국가유공자, 장애인 및 동반 1인 50 할인, 은평구 지역주민 1000원 할인",
+        "address": "서울특별시 은평구 진관동 진관1로 93",
+        "sigungu": "은평구"
+      },
+      "vector_rank": null,
+      "bm25_rank": 4,
+      "vector_distance": null,
+      "vector_score": null,
+      "bm25_score": 12.334632117425588,
+      "vector_document": "",
+      "bm25_document": "1996년 3월 개관한 사비나미술관은 서울 은평구 내 최초의 현대미술관으로서 융·복합 전시, 예술 교육프로그램, 아카데미, 세미나, 문화행사 등 다양한 문화예술 활동을 통해 시민들의 예술적 소양과 심미안, 창의성을 길러주는 평생학교의 역할을 하고 있다. 또한 제1종 등록미술관(전문미술관, 제251호)으로 융합, 변화, 도전, 혁신, 실험정신을 창조성의 원천으로 활용하며 예술의 의미와 가치를 이끌어내고 사회 전반에 확산시키는 역할을 수행하고 있다. 미술관의 건물은 삼각형 모양으로 외벽은 흰 벽돌, 내벽은 노출 콘크리트, 창문이 거의 없는 개방성과 폐쇄성이 융합된 건축물인데, 이곳에는 융복합과 혁신을 지향하는 사비나미술관의 미션(mission)과 정체성이 담겨있다. 사비나미술관은 2008년 5월 학예사경력인정기관 지정, 2015년 7월 서울교육인증기관 지정, 2017년 문화체육관광부가 주최하고 예술경영지원센터가 주관한 2017 예술경영 컨퍼런스에서 예술경영대상을 수상한 바가 있다. 또한 2014년 국내 최초로 미술계의 구글로 불리는 아트시(Artsy)와 MOU 체결, 2016년 전 세계 상위 미술품 컬렉터의 데이터를 보유한 래리스 리스트(Larry's List)에서 조사한 사립미술관보고서에서 국내 3대 우수미술관으로 선정되었다. 은평구 내 최초의 미술관으로서 융복합 전시, 예술 교육프로그램, 아카데미, 세미나, 문화행사 등 다양한 문화예술 활동을 통해 시민들의 예술적 소양과 심미안, 창의성을 길러주는 평생학교의 역할을 수행",
+      "best_span_id": "chroma:M0287",
+      "best_span_text": "1996년 3월 개관한 사비나미술관은 서울 은평구 내 최초의 현대미술관으로서 융·복합 전시, 예술 교육프로그램, 아카데미, 세미나, 문화행사 등 다양한 문화예술 활동을 통해 시민들의 예술적 소양과 심미안, 창의성을 길러주는 평생학교의 역할을 하고 있다. 또한 제1종 등록미술관(전문미술관, 제251호)으로 융합, 변화, 도전, 혁신, 실험정신을 창조성의 원천으로 활용하며 예술의 의미와 가치를 이끌어내고 사회 전반에 확산시키는 역할을 수행하고 있다. 미술관의 건물은 삼각형 모양으로 외벽은 흰 벽돌, 내벽은 노출 콘크리트, 창문이 거의 없는 개방성과 폐쇄성이 융합된 건축물인데, 이곳에는 융복합과 혁신을 지향하는 사비나미술관의 미션(mission)과 정체성이 담겨있다. 사비나미술관은 2008년 5월 학예사경력인정기관 지정, 2015년 7월 서울교육인증기관 지정, 2017년 문화체육관광부가 주최하고 예술경영지원센터가 주관한 2017 예술경영 컨퍼런스에서 예술경영대상을 수상한 바가 있다. 또한 2014년 국내 최초로 미술계의 구글로 불리는 아트시(Artsy)와 MOU 체결, 2016년 전 세계 상위 미술품 컬렉터의 데이터를 보유한 래리스 리스트(Larry's List)에서 조사한 사립미술관보고서에서 국내 3대 우수미술관으로 선정되었다. 은평구 내 최초의 미술관으로서 융복합 전시, 예술 교육프로그램, 아카데미, 세미나, 문화행사 등 다양한 문화예술 활동을 통해 시민들의 예술적 소양과 심미안, 창의성을 길러주는 평생학교의 역할을 수행",
+      "fusion_score": 0.015625,
+      "retrieved_by": [
+        "bm25"
+      ],
+      "fusion_rank": 7,
+      "rerank_score": 0.0013369533699005842,
+      "rank": 4,
+      "score": 0.0013369533699005842,
+      "score_type": "cross_encoder",
+      "distance": null,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "bm25"
+      ],
+      "retriever": "bm25",
+      "span_id": "chroma:M0287",
+      "source_doc_ids": [
+        "DOC-B0287-TOUR_API-130416",
+        "DOC-B0287-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0287-TOUR_API-130416",
+          "source_type": "TOUR_API",
+          "source_record_id": "130416",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=143",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        },
+        {
+          "doc_id": "DOC-B0287-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0287",
+          "source_locator": "data/raw/museum_base_1070.csv#row=288",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 141,
+          "doc_ids": [
+            "DOC-B0287-TOUR_API-130416"
+          ]
+        },
+        {
+          "start": 142,
+          "end": 251,
+          "doc_ids": [
+            "DOC-B0287-TOUR_API-130416"
+          ]
+        },
+        {
+          "start": 252,
+          "end": 374,
+          "doc_ids": [
+            "DOC-B0287-TOUR_API-130416"
+          ]
+        },
+        {
+          "start": 375,
+          "end": 497,
+          "doc_ids": [
+            "DOC-B0287-TOUR_API-130416"
+          ]
+        },
+        {
+          "start": 498,
+          "end": 638,
+          "doc_ids": [
+            "DOC-B0287-TOUR_API-130416"
+          ]
+        },
+        {
+          "start": 639,
+          "end": 749,
+          "doc_ids": [
+            "DOC-B0287-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=143",
+      "text": "1996년 3월 개관한 사비나미술관은 서울 은평구 내 최초의 현대미술관으로서 융·복합 전시, 예술 교육프로그램, 아카데미, 세미나, 문화행사 등 다양한 문화예술 활동을 통해 시민들의 예술적 소양과 심미안, 창의성을 길러주는 평생학교의 역할을 하고 있다. 또한 제1종 등록미술관(전문미술관, 제251호)으로 융합, 변화, 도전, 혁신, 실험정신을 창조성의 원천으로 활용하며 예술의 의미와 가치를 이끌어내고 사회 전반에 확산시키는 역할을 수행하고 있다. 미술관의 건물은 삼각형 모양으로 외벽은 흰 벽돌, 내벽은 노출 콘크리트, 창문이 거의 없는 개방성과 폐쇄성이 융합된 건축물인데, 이곳에는 융복합과 혁신을 지향하는 사비나미술관의 미션(mission)과 정체성이 담겨있다. 사비나미술관은 2008년 5월 학예사경력인정기관 지정, 2015년 7월 서울교육인증기관 지정, 2017년 문화체육관광부가 주최하고 예술경영지원센터가 주관한 2017 예술경영 컨퍼런스에서 예술경영대상을 수상한 바가 있다. 또한 2014년 국내 최초로 미술계의 구글로 불리는 아트시(Artsy)와 MOU 체결, 2016년 전 세계 상위 미술품 컬렉터의 데이터를 보유한 래리스 리스트(Larry's List)에서 조사한 사립미술관보고서에서 국내 3대 우수미술관으로 선정되었다. 은평구 내 최초의 미술관으로서 융복합 전시, 예술 교육프로그램, 아카데미, 세미나, 문화행사 등 다양한 문화예술 활동을 통해 시민들의 예술적 소양과 심미안, 창의성을 길러주는 평생학교의 역할을 수행",
+      "sido": "서울특별시",
+      "sigungu": "은평구",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=143"
+      ],
+      "evidence_id": "E4",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=201",
+        "fields": {
+          "name": "사비나미술관",
+          "sido": "서울특별시",
+          "sigungu": "은평구",
+          "address": "서울특별시 은평구 진관동 진관1로 93",
+          "ownership_type": "사립",
+          "adult_fee": "6000",
+          "youth_fee": "5000",
+          "child_fee": "5000",
+          "adult_fee_status": "BASE_FEE_PAID",
+          "weekday_open": "10:00",
+          "weekday_close": "18:00",
+          "holiday_open": "10:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "매주 월요일",
+          "amenities_raw": "카페, 주차장"
+        },
+        "base_data_date": "2026-06-30",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0828",
+      "name": "고창고인돌박물관",
+      "document": "고창고인돌박물관은 세계유산 고창고인돌유적에 위치하며, 2008년 9월 25일에 개관한 최초의 고인돌전문박물관",
+      "metadata": {
+        "ownership_type": "공립",
+        "child_fee": 1000.0,
+        "sigungu": "고창군",
+        "source_types": "BASE",
+        "adult_fee_status": "BASE_FEE_PAID",
+        "holiday_open": "09:00",
+        "name": "고창고인돌박물관",
+        "latitude": 35.44169795,
+        "longitude": 126.6524975,
+        "fee_notes": "무료(고창군민+65세 이상 어르신+장애인 등)",
+        "transport_notes": "고창버스터미널에서 10분거리",
+        "holiday_close": "18:00",
+        "requires_manual_review": false,
+        "weekday_open": "09:00",
+        "homepage_url": "https://www.gochang.go.kr/gcdolmen",
+        "address": "전북특별자치도 고창군 고창읍 고인돌공원길 74",
+        "youth_fee": 2000.0,
+        "weekday_close": "18:00",
+        "amenities_raw": "뮤지엄샵+매점+물품보관소+수유실",
+        "sido": "전북특별자치도",
+        "adult_fee": 3000.0,
+        "closure_rule_raw": "매주 월요일"
+      },
+      "vector_rank": null,
+      "bm25_rank": 3,
+      "vector_distance": null,
+      "vector_score": null,
+      "bm25_score": 12.835013061298831,
+      "vector_document": "",
+      "bm25_document": "고창고인돌박물관은 세계유산 고창고인돌유적에 위치하며, 2008년 9월 25일에 개관한 최초의 고인돌전문박물관",
+      "best_span_id": "chroma:M0828",
+      "best_span_text": "고창고인돌박물관은 세계유산 고창고인돌유적에 위치하며, 2008년 9월 25일에 개관한 최초의 고인돌전문박물관",
+      "fusion_score": 0.015873015873015872,
+      "retrieved_by": [
+        "bm25"
+      ],
+      "fusion_rank": 5,
+      "rerank_score": 0.00039088010089471936,
+      "rank": 5,
+      "score": 0.00039088010089471936,
+      "score_type": "cross_encoder",
+      "distance": null,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "bm25"
+      ],
+      "retriever": "bm25",
+      "span_id": "chroma:M0828",
+      "source_doc_ids": [
+        "DOC-B0828-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0828-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0828",
+          "source_locator": "data/raw/museum_base_1070.csv#row=829",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 60,
+          "doc_ids": [
+            "DOC-B0828-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_base_1070.csv#row=829",
+      "text": "고창고인돌박물관은 세계유산 고창고인돌유적에 위치하며, 2008년 9월 25일에 개관한 최초의 고인돌전문박물관",
+      "sido": "전북특별자치도",
+      "sigungu": "고창군",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_base_1070.csv#row=829"
+      ],
+      "evidence_id": "E5",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=563",
+        "fields": {
+          "name": "고창고인돌박물관",
+          "sido": "전북특별자치도",
+          "sigungu": "고창군",
+          "address": "전북특별자치도 고창군 고창읍 고인돌공원길 74",
+          "ownership_type": "공립",
+          "adult_fee": "3000",
+          "youth_fee": "2000",
+          "child_fee": "1000",
+          "adult_fee_status": "BASE_FEE_PAID",
+          "weekday_open": "09:00",
+          "weekday_close": "18:00",
+          "holiday_open": "09:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "매주 월요일",
+          "amenities_raw": "뮤지엄샵+매점+물품보관소+수유실"
+        },
+        "base_data_date": "2024-06-02",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    }
+  ],
+  "answer": "2008년 9월, 극재 정점식 화백의 예술과 교육철학을 기리고자 미술관을 ‘극재미술관’으로 명명하고 상설전시관을 갖추어 운영하기 시작했습니다.[E1]",
+  "retrieval_status": "ok",
+  "answer_status": "answered",
+  "route": "hybrid",
+  "retry_count": 0,
+  "supervisor_verified": true,
+  "rerank_applied": true,
+  "retriever_errors": [],
+  "warnings": [],
+  "duration_ms": 135973.61,
+  "error_type": "",
+  "hit_at_1": 1,
+  "hit_at_3": 1,
+  "hit_at_5": 1,
+  "recall_at_5": 1.0,
+  "mrr_at_10": 1.0
+}

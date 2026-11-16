@@ -1,0 +1,730 @@
+{
+  "mode": "supervisor_full",
+  "question_id": "Q214",
+  "evidence": [
+    {
+      "museum_id": "M0354",
+      "name": "원주역사박물관",
+      "document": "원주시의 대표적인 박물관으로 ,원주의 고대시대부터 일제강점기까지 원주의 역사를 한눈에 살필수 있으며, 역사강좌, 체혐교실 등 다양한 문화프로그램도 운영중이다.",
+      "metadata": {
+        "ownership_type": "공립",
+        "requires_manual_review": true,
+        "amenities_raw": "주말체험교실",
+        "sigungu": "원주시",
+        "closure_rule_raw": "월+명절당일+공휴일 익일",
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "sido": "강원특별자치도",
+        "transport_notes": "시내버스 5+5-1+5-2+16-1+81",
+        "weekday_close": "18:00",
+        "weekday_open": "09:00",
+        "youth_fee": 0.0,
+        "longitude": 127.9664064,
+        "name": "원주역사박물관",
+        "holiday_open": "09:00",
+        "adult_fee": 0.0,
+        "latitude": 37.34309272,
+        "child_fee": 0.0,
+        "homepage_url": "http://whm.wonju.go.kr/",
+        "address": "강원특별자치도 원주시 봉산로 134",
+        "source_types": "BASE",
+        "holiday_close": "18:00"
+      },
+      "vector_rank": 1,
+      "bm25_rank": 20,
+      "vector_distance": 0.3511873483657837,
+      "vector_score": null,
+      "bm25_score": 6.311439774971699,
+      "vector_document": "원주시의 대표적인 박물관으로 ,원주의 고대시대부터 일제강점기까지 원주의 역사를 한눈에 살필수 있으며, 역사강좌, 체혐교실 등 다양한 문화프로그램도 운영중이다.",
+      "bm25_document": "원주시의 대표적인 박물관으로 ,원주의 고대시대부터 일제강점기까지 원주의 역사를 한눈에 살필수 있으며, 역사강좌, 체혐교실 등 다양한 문화프로그램도 운영중이다.",
+      "best_span_id": "chroma:M0354",
+      "best_span_text": "원주시의 대표적인 박물관으로 ,원주의 고대시대부터 일제강점기까지 원주의 역사를 한눈에 살필수 있으며, 역사강좌, 체혐교실 등 다양한 문화프로그램도 운영중이다.",
+      "fusion_score": 0.02889344262295082,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 1,
+      "name_match": true,
+      "rerank_score": null,
+      "rank": 1,
+      "score": 0.02889344262295082,
+      "score_type": "rrf",
+      "distance": 0.3511873483657837,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0354",
+      "source_doc_ids": [
+        "DOC-B0354-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0354-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0354",
+          "source_locator": "data/raw/museum_base_1070.csv#row=355",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 88,
+          "doc_ids": [
+            "DOC-B0354-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_base_1070.csv#row=355",
+      "text": "원주시의 대표적인 박물관으로 ,원주의 고대시대부터 일제강점기까지 원주의 역사를 한눈에 살필수 있으며, 역사강좌, 체혐교실 등 다양한 문화프로그램도 운영중이다.",
+      "sido": "강원특별자치도",
+      "sigungu": "원주시",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_base_1070.csv#row=355"
+      ],
+      "evidence_id": "E1",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=256",
+        "fields": {
+          "name": "원주역사박물관",
+          "sido": "강원특별자치도",
+          "sigungu": "원주시",
+          "address": "강원특별자치도 원주시 봉산로 134",
+          "ownership_type": "공립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "09:00",
+          "weekday_close": "18:00",
+          "holiday_open": "09:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "월+명절당일+공휴일 익일",
+          "amenities_raw": "주말체험교실"
+        },
+        "base_data_date": "2026-06-29",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0485",
+      "name": "국립공주박물관",
+      "document": "국립공주박물관은 1946년 4월 1일 웅진 백제 문화를 중심으로 충청남도의 역사와 문화를 보존, 전시하기 위해 개관했다. 웅진백제를 주제로 하는 전시실과 충청남도의 역사문화를 주제로 한 전시실이 있으며, 다양한 주제의 특별전시도 수시로 열리고 있다. 전시 외에도 다채로운 문화행사와 교육 프로그램도 진행하고 있다. 백제 웅진 시기와 무령왕릉 관련 문화유산을 전시하는 국립박물관이다. 무령왕릉 출토 유물과 충남의 역사문화 자료를 중심으로 지역의 고대사를 살펴볼 수 있다.",
+      "metadata": {
+        "weekday_open": "09:00",
+        "ownership_type": "국립",
+        "image_url": "http://tong.visitkorea.or.kr/cms/resource/33/3534933_image2_1.jpg",
+        "homepage_url": "https://gongju.museum.go.kr/kor/index.do",
+        "youth_fee": 0.0,
+        "source_types": "TOUR_API|WEB_RESEARCH",
+        "holiday_close": "18:00",
+        "adult_fee": 0.0,
+        "name": "국립공주박물관",
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "address": "충청남도 공주시 관광단지길 34",
+        "holiday_open": "09:00",
+        "longitude": 127.112179949,
+        "weekday_close": "18:00",
+        "sigungu": "공주시",
+        "sido": "충청남도",
+        "image_copyright": "Type1",
+        "latitude": 36.465529123,
+        "requires_manual_review": true,
+        "child_fee": 0.0,
+        "closure_rule_raw": "매주 월요일(단, 월요일이 공휴일인 경우 당일은 개관하고 그 다음 첫번째 평일에 휴관), 1월 1일, 설날 및 추석 당일"
+      },
+      "vector_rank": 14,
+      "bm25_rank": 1,
+      "vector_distance": 0.5212965607643127,
+      "vector_score": null,
+      "bm25_score": 8.932387713302811,
+      "vector_document": "국립공주박물관은 1946년 4월 1일 웅진 백제 문화를 중심으로 충청남도의 역사와 문화를 보존, 전시하기 위해 개관했다. 웅진백제를 주제로 하는 전시실과 충청남도의 역사문화를 주제로 한 전시실이 있으며, 다양한 주제의 특별전시도 수시로 열리고 있다. 전시 외에도 다채로운 문화행사와 교육 프로그램도 진행하고 있다. 백제 웅진 시기와 무령왕릉 관련 문화유산을 전시하는 국립박물관이다. 무령왕릉 출토 유물과 충남의 역사문화 자료를 중심으로 지역의 고대사를 살펴볼 수 있다.",
+      "bm25_document": "국립공주박물관은 1946년 4월 1일 웅진 백제 문화를 중심으로 충청남도의 역사와 문화를 보존, 전시하기 위해 개관했다. 웅진백제를 주제로 하는 전시실과 충청남도의 역사문화를 주제로 한 전시실이 있으며, 다양한 주제의 특별전시도 수시로 열리고 있다. 전시 외에도 다채로운 문화행사와 교육 프로그램도 진행하고 있다. 백제 웅진 시기와 무령왕릉 관련 문화유산을 전시하는 국립박물관이다. 무령왕릉 출토 유물과 충남의 역사문화 자료를 중심으로 지역의 고대사를 살펴볼 수 있다.",
+      "best_span_id": "chroma:M0485",
+      "best_span_text": "국립공주박물관은 1946년 4월 1일 웅진 백제 문화를 중심으로 충청남도의 역사와 문화를 보존, 전시하기 위해 개관했다. 웅진백제를 주제로 하는 전시실과 충청남도의 역사문화를 주제로 한 전시실이 있으며, 다양한 주제의 특별전시도 수시로 열리고 있다. 전시 외에도 다채로운 문화행사와 교육 프로그램도 진행하고 있다. 백제 웅진 시기와 무령왕릉 관련 문화유산을 전시하는 국립박물관이다. 무령왕릉 출토 유물과 충남의 역사문화 자료를 중심으로 지역의 고대사를 살펴볼 수 있다.",
+      "fusion_score": 0.029906956136464335,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 2,
+      "rerank_score": null,
+      "rank": 2,
+      "score": 0.029906956136464335,
+      "score_type": "rrf",
+      "distance": 0.5212965607643127,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0485",
+      "source_doc_ids": [
+        "DOC-B0485-TOUR_API-129787",
+        "DOC-WEB-M0485-20261111"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0485-TOUR_API-129787",
+          "source_type": "TOUR_API",
+          "source_record_id": "129787",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=237",
+          "match_trust": "RECHECKED_BY_RULE_NOT_HUMAN_APPROVED"
+        },
+        {
+          "doc_id": "DOC-WEB-M0485-20261111",
+          "source_type": "WEB_RESEARCH",
+          "source_record_id": "RESEARCH-M0485",
+          "source_locator": "https://kh.or.kr/cont/view/fest/month/menu/210?idx=110143&searchCategory1=600&searchDate=202507&searchField=all&thisPage=1",
+          "source_url": "https://kh.or.kr/cont/view/fest/month/menu/210?idx=110143&searchCategory1=600&searchDate=202507&searchField=all&thisPage=1",
+          "match_trust": "WEB_SOURCE_REVIEWED_NOT_HUMAN_APPROVED"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 67,
+          "doc_ids": [
+            "DOC-B0485-TOUR_API-129787"
+          ]
+        },
+        {
+          "start": 68,
+          "end": 139,
+          "doc_ids": [
+            "DOC-B0485-TOUR_API-129787"
+          ]
+        },
+        {
+          "start": 140,
+          "end": 175,
+          "doc_ids": [
+            "DOC-B0485-TOUR_API-129787"
+          ]
+        },
+        {
+          "start": 176,
+          "end": 213,
+          "doc_ids": [
+            "DOC-WEB-M0485-20261111"
+          ]
+        },
+        {
+          "start": 214,
+          "end": 262,
+          "doc_ids": [
+            "DOC-WEB-M0485-20261111"
+          ]
+        }
+      ],
+      "source_urls": [
+        "https://kh.or.kr/cont/view/fest/month/menu/210?idx=110143&searchCategory1=600&searchDate=202507&searchField=all&thisPage=1"
+      ],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=237",
+      "text": "국립공주박물관은 1946년 4월 1일 웅진 백제 문화를 중심으로 충청남도의 역사와 문화를 보존, 전시하기 위해 개관했다. 웅진백제를 주제로 하는 전시실과 충청남도의 역사문화를 주제로 한 전시실이 있으며, 다양한 주제의 특별전시도 수시로 열리고 있다. 전시 외에도 다채로운 문화행사와 교육 프로그램도 진행하고 있다. 백제 웅진 시기와 무령왕릉 관련 문화유산을 전시하는 국립박물관이다. 무령왕릉 출토 유물과 충남의 역사문화 자료를 중심으로 지역의 고대사를 살펴볼 수 있다.",
+      "sido": "충청남도",
+      "sigungu": "공주시",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=237"
+      ],
+      "evidence_id": "E2",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=348",
+        "fields": {
+          "name": "국립공주박물관",
+          "sido": "충청남도",
+          "sigungu": "공주시",
+          "address": "충청남도 공주시 관광단지길 34",
+          "ownership_type": "국립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "09:00",
+          "weekday_close": "18:00",
+          "holiday_open": "09:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "매주 월요일(단, 월요일이 공휴일인 경우 당일은 개관하고 그 다음 첫번째 평일에 휴관), 1월 1일, 설날 및 추석 당일"
+        },
+        "base_data_date": "2026-04-08",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0804",
+      "name": "전주역사박물관",
+      "document": "전주역사박물관은 전주시에서 직영하는 박물관으로 전주의 역사를 통시대적으로 보여주며 그 문화적 특질과 우수성을 부각시키는 지역사박물관이다. 특히, 전주지역의 역사 문화를 발굴하고 체계화하는 ‘전주학’ 연구의 중심이 되고자 한다. 상설 전시 및 기획 전시와 교육프로그램 등을 운영하고 있다.",
+      "metadata": {
+        "longitude": 127.0933286,
+        "youth_fee": 0.0,
+        "sigungu": "전주시",
+        "image_copyright": "Type1",
+        "name": "전주역사박물관",
+        "homepage_url": "http://www.jeonjumuseum.org",
+        "weekday_close": "18:00",
+        "amenities_raw": "문화상품점+물품보관소+수유실+자전거보관대",
+        "sido": "전북특별자치도",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/00/3587800_image2_1.jpg",
+        "requires_manual_review": true,
+        "latitude": 35.8011446,
+        "address": "전북특별자치도 전주시 완산구 쑥고개로 259",
+        "weekday_open": "09:00",
+        "holiday_open": "09:00",
+        "adult_fee": 0.0,
+        "child_fee": 0.0,
+        "ownership_type": "공립",
+        "source_types": "TOUR_API",
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "holiday_close": "18:00",
+        "closure_rule_raw": "월+신정"
+      },
+      "vector_rank": 4,
+      "bm25_rank": 19,
+      "vector_distance": 0.48643386363983154,
+      "vector_score": null,
+      "bm25_score": 6.322794408426028,
+      "vector_document": "전주역사박물관은 전주시에서 직영하는 박물관으로 전주의 역사를 통시대적으로 보여주며 그 문화적 특질과 우수성을 부각시키는 지역사박물관이다. 특히, 전주지역의 역사 문화를 발굴하고 체계화하는 ‘전주학’ 연구의 중심이 되고자 한다. 상설 전시 및 기획 전시와 교육프로그램 등을 운영하고 있다.",
+      "bm25_document": "전주역사박물관은 전주시에서 직영하는 박물관으로 전주의 역사를 통시대적으로 보여주며 그 문화적 특질과 우수성을 부각시키는 지역사박물관이다. 특히, 전주지역의 역사 문화를 발굴하고 체계화하는 ‘전주학’ 연구의 중심이 되고자 한다. 상설 전시 및 기획 전시와 교육프로그램 등을 운영하고 있다.",
+      "best_span_id": "chroma:M0804",
+      "best_span_text": "전주역사박물관은 전주시에서 직영하는 박물관으로 전주의 역사를 통시대적으로 보여주며 그 문화적 특질과 우수성을 부각시키는 지역사박물관이다. 특히, 전주지역의 역사 문화를 발굴하고 체계화하는 ‘전주학’ 연구의 중심이 되고자 한다. 상설 전시 및 기획 전시와 교육프로그램 등을 운영하고 있다.",
+      "fusion_score": 0.028283227848101264,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 3,
+      "rerank_score": null,
+      "rank": 3,
+      "score": 0.028283227848101264,
+      "score_type": "rrf",
+      "distance": 0.48643386363983154,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0804",
+      "source_doc_ids": [
+        "DOC-B0804-TOUR_API-130445"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0804-TOUR_API-130445",
+          "source_type": "TOUR_API",
+          "source_record_id": "130445",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=386",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 76,
+          "doc_ids": [
+            "DOC-B0804-TOUR_API-130445"
+          ]
+        },
+        {
+          "start": 77,
+          "end": 126,
+          "doc_ids": [
+            "DOC-B0804-TOUR_API-130445"
+          ]
+        },
+        {
+          "start": 127,
+          "end": 160,
+          "doc_ids": [
+            "DOC-B0804-TOUR_API-130445"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=386",
+      "text": "전주역사박물관은 전주시에서 직영하는 박물관으로 전주의 역사를 통시대적으로 보여주며 그 문화적 특질과 우수성을 부각시키는 지역사박물관이다. 특히, 전주지역의 역사 문화를 발굴하고 체계화하는 ‘전주학’ 연구의 중심이 되고자 한다. 상설 전시 및 기획 전시와 교육프로그램 등을 운영하고 있다.",
+      "sido": "전북특별자치도",
+      "sigungu": "전주시",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=386"
+      ],
+      "evidence_id": "E3",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=555",
+        "fields": {
+          "name": "전주역사박물관",
+          "sido": "전북특별자치도",
+          "sigungu": "전주시",
+          "address": "전북특별자치도 전주시 완산구 쑥고개로 259",
+          "ownership_type": "공립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "09:00",
+          "weekday_close": "18:00",
+          "holiday_open": "09:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "월+신정",
+          "amenities_raw": "문화상품점+물품보관소+수유실+자전거보관대"
+        },
+        "base_data_date": "2025-02-11",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0810",
+      "name": "완판본문화관",
+      "document": "완판본문화관은 전주 한옥마을에 위치한 문화관으로, 전주 지역에서 생산해 낸 각종 출판 유산을 보전하고, 출판문화의 중심지였던 전주의 역사와 문화를 재조명하기 위해 설립된 문화관이다. 2011년 10월 18일에 개관하였으며, 2017년 1월부터 대장경문화학교가 새로운 수탁자로 선정되어 운영 중이다. ‘완판본’ 전주의 옛 지명인 완산에서 출판한 옛 책과 그 판본을 말하는데 전라감영에서 발간한 60여 종의 완영본과 민간에서 판매를 목적으로 발간한 방각본이 있다. 완판본 중에서 가장 인기 있는 책은 한국고전소설로 이는 완판본문화관 전시실에서 볼 수 있다. 완판본문화관 전시실에서는 한국고전소설 완영본 서책 외에 전라감영에서 출판한 역사서와 문집, 사서삼경과 완판본 제작 과정, 복각한 책판과 서책 등 전주의 출판 문화를 한눈에 볼 수 있다. 전시 외에도 강연과 목판인쇄체험, 한지 엽서 체험, 목판 인쇄, 옛 책 만들기 등의 체험 프로그램이 있으며, 판각과 책 도장 체험은 단체 위주로 체험 수업이 진행된다. 목판화를 활용하여 제작한 엽서, 독서대, 명함꽂이 등의 상품도 함께 구매할 수 있다. 각종 문화 행사를 열 수 있는 50석 규모의 세미나실과 전시실, 야외마당은 대관도 가능하며 문의는 전화로 받고 있다. 자녀와 함께 전주 여행을 계획 중이라면 이색적이고 교육적인 체험이 있는 완판본문화관에 방문해 볼 것을 추천한다.",
+      "metadata": {
+        "adult_fee": 0.0,
+        "weekday_close": "17:00",
+        "ownership_type": "사립",
+        "closure_rule_raw": "월+신정",
+        "longitude": 127.1579796,
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/68/3561868_image2_1.jpg",
+        "name": "완판본문화관",
+        "source_types": "TOUR_API",
+        "child_fee": 0.0,
+        "image_copyright": "Type1",
+        "sido": "전북특별자치도",
+        "latitude": 35.81196229,
+        "address": "전북특별자치도 전주시 완산구 전주천동로 24",
+        "weekday_open": "10:00",
+        "youth_fee": 0.0,
+        "holiday_open": "10:00",
+        "sigungu": "전주시",
+        "requires_manual_review": true,
+        "homepage_url": "https://wanpanbon.modoo.at/",
+        "holiday_close": "17:00"
+      },
+      "vector_rank": 2,
+      "bm25_rank": null,
+      "vector_distance": 0.449604868888855,
+      "vector_score": null,
+      "bm25_score": null,
+      "vector_document": "완판본문화관은 전주 한옥마을에 위치한 문화관으로, 전주 지역에서 생산해 낸 각종 출판 유산을 보전하고, 출판문화의 중심지였던 전주의 역사와 문화를 재조명하기 위해 설립된 문화관이다. 2011년 10월 18일에 개관하였으며, 2017년 1월부터 대장경문화학교가 새로운 수탁자로 선정되어 운영 중이다. ‘완판본’ 전주의 옛 지명인 완산에서 출판한 옛 책과 그 판본을 말하는데 전라감영에서 발간한 60여 종의 완영본과 민간에서 판매를 목적으로 발간한 방각본이 있다. 완판본 중에서 가장 인기 있는 책은 한국고전소설로 이는 완판본문화관 전시실에서 볼 수 있다. 완판본문화관 전시실에서는 한국고전소설 완영본 서책 외에 전라감영에서 출판한 역사서와 문집, 사서삼경과 완판본 제작 과정, 복각한 책판과 서책 등 전주의 출판 문화를 한눈에 볼 수 있다. 전시 외에도 강연과 목판인쇄체험, 한지 엽서 체험, 목판 인쇄, 옛 책 만들기 등의 체험 프로그램이 있으며, 판각과 책 도장 체험은 단체 위주로 체험 수업이 진행된다. 목판화를 활용하여 제작한 엽서, 독서대, 명함꽂이 등의 상품도 함께 구매할 수 있다. 각종 문화 행사를 열 수 있는 50석 규모의 세미나실과 전시실, 야외마당은 대관도 가능하며 문의는 전화로 받고 있다. 자녀와 함께 전주 여행을 계획 중이라면 이색적이고 교육적인 체험이 있는 완판본문화관에 방문해 볼 것을 추천한다.",
+      "bm25_document": "",
+      "best_span_id": null,
+      "best_span_text": null,
+      "fusion_score": 0.016129032258064516,
+      "retrieved_by": [
+        "vector"
+      ],
+      "fusion_rank": 4,
+      "rerank_score": null,
+      "rank": 4,
+      "score": 0.016129032258064516,
+      "score_type": "rrf",
+      "distance": 0.449604868888855,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector"
+      ],
+      "retriever": "vector",
+      "source_doc_ids": [
+        "DOC-B0810-TOUR_API-3067827"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0810-TOUR_API-3067827",
+          "source_type": "TOUR_API",
+          "source_record_id": "3067827",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=388",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 101,
+          "doc_ids": [
+            "DOC-B0810-TOUR_API-3067827"
+          ]
+        },
+        {
+          "start": 102,
+          "end": 166,
+          "doc_ids": [
+            "DOC-B0810-TOUR_API-3067827"
+          ]
+        },
+        {
+          "start": 167,
+          "end": 257,
+          "doc_ids": [
+            "DOC-B0810-TOUR_API-3067827"
+          ]
+        },
+        {
+          "start": 258,
+          "end": 309,
+          "doc_ids": [
+            "DOC-B0810-TOUR_API-3067827"
+          ]
+        },
+        {
+          "start": 310,
+          "end": 413,
+          "doc_ids": [
+            "DOC-B0810-TOUR_API-3067827"
+          ]
+        },
+        {
+          "start": 414,
+          "end": 507,
+          "doc_ids": [
+            "DOC-B0810-TOUR_API-3067827"
+          ]
+        },
+        {
+          "start": 508,
+          "end": 555,
+          "doc_ids": [
+            "DOC-B0810-TOUR_API-3067827"
+          ]
+        },
+        {
+          "start": 556,
+          "end": 621,
+          "doc_ids": [
+            "DOC-B0810-TOUR_API-3067827"
+          ]
+        },
+        {
+          "start": 622,
+          "end": 684,
+          "doc_ids": [
+            "DOC-B0810-TOUR_API-3067827"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=388",
+      "text": "완판본문화관은 전주 한옥마을에 위치한 문화관으로, 전주 지역에서 생산해 낸 각종 출판 유산을 보전하고, 출판문화의 중심지였던 전주의 역사와 문화를 재조명하기 위해 설립된 문화관이다. 2011년 10월 18일에 개관하였으며, 2017년 1월부터 대장경문화학교가 새로운 수탁자로 선정되어 운영 중이다. ‘완판본’ 전주의 옛 지명인 완산에서 출판한 옛 책과 그 판본을 말하는데 전라감영에서 발간한 60여 종의 완영본과 민간에서 판매를 목적으로 발간한 방각본이 있다. 완판본 중에서 가장 인기 있는 책은 한국고전소설로 이는 완판본문화관 전시실에서 볼 수 있다. 완판본문화관 전시실에서는 한국고전소설 완영본 서책 외에 전라감영에서 출판한 역사서와 문집, 사서삼경과 완판본 제작 과정, 복각한 책판과 서책 등 전주의 출판 문화를 한눈에 볼 수 있다. 전시 외에도 강연과 목판인쇄체험, 한지 엽서 체험, 목판 인쇄, 옛 책 만들기 등의 체험 프로그램이 있으며, 판각과 책 도장 체험은 단체 위주로 체험 수업이 진행된다. 목판화를 활용하여 제작한 엽서, 독서대, 명함꽂이 등의 상품도 함께 구매할 수 있다. 각종 문화 행사를 열 수 있는 50석 규모의 세미나실과 전시실, 야외마당은 대관도 가능하며 문의는 전화로 받고 있다. 자녀와 함께 전주 여행을 계획 중이라면 이색적이고 교육적인 체험이 있는 완판본문화관에 방문해 볼 것을 추천한다.",
+      "sido": "전북특별자치도",
+      "sigungu": "전주시",
+      "span_id": "",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=388"
+      ],
+      "evidence_id": "E4",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=557",
+        "fields": {
+          "name": "완판본문화관",
+          "sido": "전북특별자치도",
+          "sigungu": "전주시",
+          "address": "전북특별자치도 전주시 완산구 전주천동로 24",
+          "ownership_type": "사립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "10:00",
+          "weekday_close": "17:00",
+          "holiday_open": "10:00",
+          "holiday_close": "17:00",
+          "closure_rule_raw": "월+신정"
+        },
+        "base_data_date": "2025-02-11",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M1027",
+      "name": "한성백제박물관",
+      "document": "한성백제박물관은 서울이 2천 년 역사 도시라는 사실을 널리 알리기 위해 백제왕도 역사와 관련 깊은 유적들을 직접 보호·관리하면서 조사, 연구, 전시, 교육하고 있다. 서울의 고대 역사·문화를 조명하고, 문화유산의 의미와 가치를 되새기는 박물관이다. 박물관 로비에서 가장 먼저 마주치는 상징전시물은 풍납토성 성벽 단면 으로 성벽 단면을 얇게 떼어내 전시, 연출하였다. 제 1전시실은 서울의 구석기문화, 신석기문화, 청동기 및 초기철기문화를 한강유역이라는 공간에 맞춰 이야기로 꾸며져 있다. 제 2전시실은 제가 지금의 서울에서 건국하고 성장 및 발전하던 한성도읍기 493년을 다루고 있으며, 제 3전시실에서는 한강에서 벌어진 백제, 고구려, 신라의 각축과 한성함락 이후의 백제 역사를 다루고 있다. 한성백제 박물관은 서울시 송파구의 고대역사 유적지에 건립된 박물관으로 고대 역사와 문화를 연구하여 알리고자 설립되었다",
+      "metadata": {
+        "name": "한성백제박물관",
+        "homepage_url": "http://baekjemuseum.seoul.go.kr",
+        "sido": "서울특별시",
+        "ownership_type": "공립",
+        "amenities_raw": "박물관",
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "weekday_open": "09:00",
+        "child_fee": 0.0,
+        "fee_notes": "상설전시실 무료 (특별·기획전시는 유료로 진행될 수 있음)",
+        "adult_fee": 0.0,
+        "transport_notes": "지하철 :8호선 몽촌토성역 1번 출구에서 남2문 방향으로 650m (도보10~15분)           5호선 올림픽공원역 3번 출구에서 남2문 방향으로 1km(도보15~20분)버스 : 올림픽공원역 방향에서 오실 때 30-5+3412+3413 한성백제박물관 하차         몽촌토성역 방향에서 오실 때 30+30-5+3412+3413 올림픽베어스타운 하차         방이동사거리 방향에서 오실 때 3216+3414 한성백제박물관 하차자가용 : 잠실+풍납동 방면에서 오실 때 (남2문앞에서 유턴 후 250m에서 진입)       둔촌동+오금동 방면에서 오실 때 (남2문에서 남3문방향으로 250m에서 진입)",
+        "address": "서울특별시 송파구 위례성대로71, 한성백제박물관",
+        "requires_manual_review": true,
+        "sigungu": "송파구",
+        "longitude": 127.1208007,
+        "youth_fee": 0.0,
+        "holiday_close": "19:00",
+        "closure_rule_raw": "월(공휴일인 경우 휴관하지 않음)+1월 1일+시장이 정하는 휴관일(관장에게 위임)",
+        "weekday_close": "19:00",
+        "image_url": "http://tong.visitkorea.or.kr/cms/resource/55/3502855_image2_1.jpg",
+        "source_types": "BASE|TOUR_API",
+        "image_copyright": "Type1",
+        "holiday_open": "09:00",
+        "latitude": 37.51542872
+      },
+      "vector_rank": null,
+      "bm25_rank": 2,
+      "vector_distance": null,
+      "vector_score": null,
+      "bm25_score": 8.574846236455631,
+      "vector_document": "",
+      "bm25_document": "한성백제박물관은 서울이 2천 년 역사 도시라는 사실을 널리 알리기 위해 백제왕도 역사와 관련 깊은 유적들을 직접 보호·관리하면서 조사, 연구, 전시, 교육하고 있다. 서울의 고대 역사·문화를 조명하고, 문화유산의 의미와 가치를 되새기는 박물관이다. 박물관 로비에서 가장 먼저 마주치는 상징전시물은 풍납토성 성벽 단면 으로 성벽 단면을 얇게 떼어내 전시, 연출하였다. 제 1전시실은 서울의 구석기문화, 신석기문화, 청동기 및 초기철기문화를 한강유역이라는 공간에 맞춰 이야기로 꾸며져 있다. 제 2전시실은 제가 지금의 서울에서 건국하고 성장 및 발전하던 한성도읍기 493년을 다루고 있으며, 제 3전시실에서는 한강에서 벌어진 백제, 고구려, 신라의 각축과 한성함락 이후의 백제 역사를 다루고 있다. 한성백제 박물관은 서울시 송파구의 고대역사 유적지에 건립된 박물관으로 고대 역사와 문화를 연구하여 알리고자 설립되었다",
+      "best_span_id": "chroma:M1027",
+      "best_span_text": "한성백제박물관은 서울이 2천 년 역사 도시라는 사실을 널리 알리기 위해 백제왕도 역사와 관련 깊은 유적들을 직접 보호·관리하면서 조사, 연구, 전시, 교육하고 있다. 서울의 고대 역사·문화를 조명하고, 문화유산의 의미와 가치를 되새기는 박물관이다. 박물관 로비에서 가장 먼저 마주치는 상징전시물은 풍납토성 성벽 단면 으로 성벽 단면을 얇게 떼어내 전시, 연출하였다. 제 1전시실은 서울의 구석기문화, 신석기문화, 청동기 및 초기철기문화를 한강유역이라는 공간에 맞춰 이야기로 꾸며져 있다. 제 2전시실은 제가 지금의 서울에서 건국하고 성장 및 발전하던 한성도읍기 493년을 다루고 있으며, 제 3전시실에서는 한강에서 벌어진 백제, 고구려, 신라의 각축과 한성함락 이후의 백제 역사를 다루고 있다. 한성백제 박물관은 서울시 송파구의 고대역사 유적지에 건립된 박물관으로 고대 역사와 문화를 연구하여 알리고자 설립되었다",
+      "fusion_score": 0.016129032258064516,
+      "retrieved_by": [
+        "bm25"
+      ],
+      "fusion_rank": 5,
+      "rerank_score": null,
+      "rank": 5,
+      "score": 0.016129032258064516,
+      "score_type": "rrf",
+      "distance": null,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "bm25"
+      ],
+      "retriever": "bm25",
+      "span_id": "chroma:M1027",
+      "source_doc_ids": [
+        "DOC-B1027-TOUR_API-1916296",
+        "DOC-B1027-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B1027-TOUR_API-1916296",
+          "source_type": "TOUR_API",
+          "source_record_id": "1916296",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=477",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        },
+        {
+          "doc_id": "DOC-B1027-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B1027",
+          "source_locator": "data/raw/museum_base_1070.csv#row=1028",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 92,
+          "doc_ids": [
+            "DOC-B1027-TOUR_API-1916296"
+          ]
+        },
+        {
+          "start": 93,
+          "end": 138,
+          "doc_ids": [
+            "DOC-B1027-TOUR_API-1916296"
+          ]
+        },
+        {
+          "start": 139,
+          "end": 204,
+          "doc_ids": [
+            "DOC-B1027-TOUR_API-1916296"
+          ]
+        },
+        {
+          "start": 205,
+          "end": 272,
+          "doc_ids": [
+            "DOC-B1027-TOUR_API-1916296"
+          ]
+        },
+        {
+          "start": 273,
+          "end": 388,
+          "doc_ids": [
+            "DOC-B1027-TOUR_API-1916296"
+          ]
+        },
+        {
+          "start": 389,
+          "end": 454,
+          "doc_ids": [
+            "DOC-B1027-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=477",
+      "text": "한성백제박물관은 서울이 2천 년 역사 도시라는 사실을 널리 알리기 위해 백제왕도 역사와 관련 깊은 유적들을 직접 보호·관리하면서 조사, 연구, 전시, 교육하고 있다. 서울의 고대 역사·문화를 조명하고, 문화유산의 의미와 가치를 되새기는 박물관이다. 박물관 로비에서 가장 먼저 마주치는 상징전시물은 풍납토성 성벽 단면 으로 성벽 단면을 얇게 떼어내 전시, 연출하였다. 제 1전시실은 서울의 구석기문화, 신석기문화, 청동기 및 초기철기문화를 한강유역이라는 공간에 맞춰 이야기로 꾸며져 있다. 제 2전시실은 제가 지금의 서울에서 건국하고 성장 및 발전하던 한성도읍기 493년을 다루고 있으며, 제 3전시실에서는 한강에서 벌어진 백제, 고구려, 신라의 각축과 한성함락 이후의 백제 역사를 다루고 있다. 한성백제 박물관은 서울시 송파구의 고대역사 유적지에 건립된 박물관으로 고대 역사와 문화를 연구하여 알리고자 설립되었다",
+      "sido": "서울특별시",
+      "sigungu": "송파구",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=477"
+      ],
+      "evidence_id": "E5",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=707",
+        "fields": {
+          "name": "한성백제박물관",
+          "sido": "서울특별시",
+          "sigungu": "송파구",
+          "address": "서울특별시 송파구 위례성대로71, 한성백제박물관",
+          "ownership_type": "공립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "09:00",
+          "weekday_close": "19:00",
+          "holiday_open": "09:00",
+          "holiday_close": "19:00",
+          "closure_rule_raw": "월(공휴일인 경우 휴관하지 않음)+1월 1일+시장이 정하는 휴관일(관장에게 위임)",
+          "amenities_raw": "박물관"
+        },
+        "base_data_date": "2023-01-11",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    }
+  ],
+  "answer": "원주역사박물관은 원주의 고대시대부터 일제강점기까지의 역사를 다룹니다. 문화프로그램으로는 역사강좌와 체험교실 등을 운영합니다. [E1]",
+  "retrieval_status": "ok",
+  "answer_status": "answered",
+  "route": "hybrid",
+  "retry_count": 0,
+  "supervisor_verified": true,
+  "rerank_applied": false,
+  "retriever_errors": [],
+  "warnings": [
+    "Cross-Encoder reranking failed (FileNotFoundError); RRF order retained"
+  ],
+  "duration_ms": 14033.42,
+  "error_type": "",
+  "hit_at_1": 1,
+  "hit_at_3": 1,
+  "hit_at_5": 1,
+  "recall_at_5": 1.0,
+  "mrr_at_10": 1.0
+}

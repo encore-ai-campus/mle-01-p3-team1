@@ -1,0 +1,831 @@
+{
+  "mode": "supervisor_full",
+  "question_id": "Q195",
+  "evidence": [
+    {
+      "museum_id": "M0318",
+      "name": "장수역사전시관",
+      "document": "장수역사전시관은 장수군 장계면에 위치한 공립박물관이다. 2023년 9월에 개관하였다. 금강의 발원지 장수는 선사시대부터 현대에 이르기까지 유구한 역사를 고이 간직한 지역으로 많은 문화유산이 산재한 곳이다. 이에 장수역사전시관에서는 장수군의 우수한 역사와 문화유산을 수집 및 보존하고, 전문적인 연구를 통해 전시하고 있다. 장수역사전시관은 총 2층으로 장수군 전체 역사를 한눈에 살펴볼 수 있는 상설전시실과 어린이들이 역사문화를 쉽게 이해하고 체험할 수 있는 어린이전시실이 마련되어 있다. 또한, 기획전시실에서 주제별 특별전시를 통해 다양한 전시를 만나볼 수 있다. 금강의 발원지이자 지역사를 대표하는 우리 박물관은 고대부터 근현대에 이르기까지 장수의 역사와 문화를 종합적으로 관람할 수 있는 장수역사전시관 입니다.",
+      "metadata": {
+        "latitude": 35.73004472,
+        "youth_fee": 0.0,
+        "child_fee": 0.0,
+        "source_types": "BASE|TOUR_API",
+        "homepage_url": "https://museum.jangsu.go.kr",
+        "requires_manual_review": true,
+        "fee_notes": "0",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/05/3338105_image2_1.jpg",
+        "ownership_type": "공립",
+        "holiday_close": "18:00",
+        "sido": "전북특별자치도",
+        "amenities_raw": "전시관 앞 주차장",
+        "weekday_close": "18:00",
+        "address": "전북특별자치도 장수군 장계면 방천길11",
+        "holiday_open": "09:00",
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "sigungu": "장수군",
+        "name": "장수역사전시관",
+        "adult_fee": 0.0,
+        "weekday_open": "09:00",
+        "longitude": 127.5897788,
+        "image_copyright": "Type3",
+        "closure_rule_raw": "월+설당일+추석당일"
+      },
+      "vector_rank": 1,
+      "bm25_rank": 1,
+      "vector_distance": 0.532051682472229,
+      "vector_score": null,
+      "bm25_score": 19.40891338406163,
+      "vector_document": "장수역사전시관은 장수군 장계면에 위치한 공립박물관이다. 2023년 9월에 개관하였다. 금강의 발원지 장수는 선사시대부터 현대에 이르기까지 유구한 역사를 고이 간직한 지역으로 많은 문화유산이 산재한 곳이다. 이에 장수역사전시관에서는 장수군의 우수한 역사와 문화유산을 수집 및 보존하고, 전문적인 연구를 통해 전시하고 있다. 장수역사전시관은 총 2층으로 장수군 전체 역사를 한눈에 살펴볼 수 있는 상설전시실과 어린이들이 역사문화를 쉽게 이해하고 체험할 수 있는 어린이전시실이 마련되어 있다. 또한, 기획전시실에서 주제별 특별전시를 통해 다양한 전시를 만나볼 수 있다. 금강의 발원지이자 지역사를 대표하는 우리 박물관은 고대부터 근현대에 이르기까지 장수의 역사와 문화를 종합적으로 관람할 수 있는 장수역사전시관 입니다.",
+      "bm25_document": "장수역사전시관은 장수군 장계면에 위치한 공립박물관이다. 2023년 9월에 개관하였다. 금강의 발원지 장수는 선사시대부터 현대에 이르기까지 유구한 역사를 고이 간직한 지역으로 많은 문화유산이 산재한 곳이다. 이에 장수역사전시관에서는 장수군의 우수한 역사와 문화유산을 수집 및 보존하고, 전문적인 연구를 통해 전시하고 있다. 장수역사전시관은 총 2층으로 장수군 전체 역사를 한눈에 살펴볼 수 있는 상설전시실과 어린이들이 역사문화를 쉽게 이해하고 체험할 수 있는 어린이전시실이 마련되어 있다. 또한, 기획전시실에서 주제별 특별전시를 통해 다양한 전시를 만나볼 수 있다. 금강의 발원지이자 지역사를 대표하는 우리 박물관은 고대부터 근현대에 이르기까지 장수의 역사와 문화를 종합적으로 관람할 수 있는 장수역사전시관 입니다.",
+      "best_span_id": "chroma:M0318",
+      "best_span_text": "장수역사전시관은 장수군 장계면에 위치한 공립박물관이다. 2023년 9월에 개관하였다. 금강의 발원지 장수는 선사시대부터 현대에 이르기까지 유구한 역사를 고이 간직한 지역으로 많은 문화유산이 산재한 곳이다. 이에 장수역사전시관에서는 장수군의 우수한 역사와 문화유산을 수집 및 보존하고, 전문적인 연구를 통해 전시하고 있다. 장수역사전시관은 총 2층으로 장수군 전체 역사를 한눈에 살펴볼 수 있는 상설전시실과 어린이들이 역사문화를 쉽게 이해하고 체험할 수 있는 어린이전시실이 마련되어 있다. 또한, 기획전시실에서 주제별 특별전시를 통해 다양한 전시를 만나볼 수 있다. 금강의 발원지이자 지역사를 대표하는 우리 박물관은 고대부터 근현대에 이르기까지 장수의 역사와 문화를 종합적으로 관람할 수 있는 장수역사전시관 입니다.",
+      "fusion_score": 0.03278688524590164,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 1,
+      "name_match": true,
+      "rerank_score": 0.9972410202026367,
+      "rank": 1,
+      "score": 0.9972410202026367,
+      "score_type": "cross_encoder",
+      "distance": 0.532051682472229,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0318",
+      "source_doc_ids": [
+        "DOC-B0318-TOUR_API-3338212",
+        "DOC-B0318-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0318-TOUR_API-3338212",
+          "source_type": "TOUR_API",
+          "source_record_id": "3338212",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=156",
+          "match_trust": "RECHECKED_BY_RULE_NOT_HUMAN_APPROVED"
+        },
+        {
+          "doc_id": "DOC-B0318-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0318",
+          "source_locator": "data/raw/museum_base_1070.csv#row=319",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 30,
+          "doc_ids": [
+            "DOC-B0318-TOUR_API-3338212"
+          ]
+        },
+        {
+          "start": 31,
+          "end": 47,
+          "doc_ids": [
+            "DOC-B0318-TOUR_API-3338212"
+          ]
+        },
+        {
+          "start": 48,
+          "end": 114,
+          "doc_ids": [
+            "DOC-B0318-TOUR_API-3338212"
+          ]
+        },
+        {
+          "start": 115,
+          "end": 179,
+          "doc_ids": [
+            "DOC-B0318-TOUR_API-3338212"
+          ]
+        },
+        {
+          "start": 180,
+          "end": 272,
+          "doc_ids": [
+            "DOC-B0318-TOUR_API-3338212"
+          ]
+        },
+        {
+          "start": 273,
+          "end": 315,
+          "doc_ids": [
+            "DOC-B0318-TOUR_API-3338212"
+          ]
+        },
+        {
+          "start": 316,
+          "end": 399,
+          "doc_ids": [
+            "DOC-B0318-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=156",
+      "text": "장수역사전시관은 장수군 장계면에 위치한 공립박물관이다. 2023년 9월에 개관하였다. 금강의 발원지 장수는 선사시대부터 현대에 이르기까지 유구한 역사를 고이 간직한 지역으로 많은 문화유산이 산재한 곳이다. 이에 장수역사전시관에서는 장수군의 우수한 역사와 문화유산을 수집 및 보존하고, 전문적인 연구를 통해 전시하고 있다. 장수역사전시관은 총 2층으로 장수군 전체 역사를 한눈에 살펴볼 수 있는 상설전시실과 어린이들이 역사문화를 쉽게 이해하고 체험할 수 있는 어린이전시실이 마련되어 있다. 또한, 기획전시실에서 주제별 특별전시를 통해 다양한 전시를 만나볼 수 있다. 금강의 발원지이자 지역사를 대표하는 우리 박물관은 고대부터 근현대에 이르기까지 장수의 역사와 문화를 종합적으로 관람할 수 있는 장수역사전시관 입니다.",
+      "sido": "전북특별자치도",
+      "sigungu": "장수군",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=156"
+      ],
+      "evidence_id": "E1",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=230",
+        "fields": {
+          "name": "장수역사전시관",
+          "sido": "전북특별자치도",
+          "sigungu": "장수군",
+          "address": "전북특별자치도 장수군 장계면 방천길11",
+          "ownership_type": "공립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "09:00",
+          "weekday_close": "18:00",
+          "holiday_open": "09:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "월+설당일+추석당일",
+          "amenities_raw": "전시관 앞 주차장"
+        },
+        "base_data_date": "2026-05-07",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0801",
+      "name": "전주한옥마을역사관",
+      "document": "전주한옥마을역사관은 한옥마을의 역사와 변천 과정 등을 한눈에 확인할 수 있는 역사관으로 옛 창작예술공간의 한옥 2개 동을 리모델링해 2018년에 개관하였다. 전시관은 상설전시실과 기획전시실로 나뉘며 상설전시실에는 한옥마을의 역사를 연표 형식으로 정리해 전주한옥마을의 변천사를 알 수 있다. 내부에 설치한 5개의 모니터에는 한옥마을에 오랫동안 거주한 주민 인터뷰, 한옥마을의 과거·현재 모습, 한옥마을에 얽힌 일화 등을 상영한다. 또 한옥마을 안 주요 명소를 입체영상으로 볼 수 있으며 가상현실 체험도 가능하다. 기획전시실에는 한옥마을의 옛 사진과 한옥마을의 숨은 이야기, 이곳에서 촬영한 영화와 드라마에 관한 내용을 소개해 두었다. 한옥마을 역사관에서는 정기 해설과 수시 해설의 해설 프로그램을 운영하고 있다. 정기 해설은 관광객이 집중되는 주말에 전시실을 순회하면서 진행되며, 수시 해설은 관람객의 요청에 따라 탄력적으로 진행된다. 사전 예약 한 20인 이상의 단체 해설은 우선순위로 진행된다. 대한민국에서 유일하게 보존되어 있는 900여 채의 한옥마을의 소소한 이야기와 어제와 오늘, 그리고 미래의 이야기가 궁금하다면 한옥마을로 여행을 떠나기 전 먼저 들러 보는 것도 의미 있는 여행의 시작이 될 듯하다.",
+      "metadata": {
+        "weekday_close": "18:00",
+        "longitude": 127.1530349,
+        "child_fee": 0.0,
+        "requires_manual_review": true,
+        "latitude": 35.81589052,
+        "address": "전북특별자치도 전주시 완산구 최명희길 17-10",
+        "adult_fee": 0.0,
+        "weekday_open": "10:00",
+        "holiday_close": "18:00",
+        "source_types": "TOUR_API",
+        "sido": "전북특별자치도",
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "homepage_url": "https://tour.jeonju.go.kr",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/75/4110175_image2_1.jpg",
+        "closure_rule_raw": "월",
+        "image_copyright": "Type1",
+        "ownership_type": "공립",
+        "youth_fee": 0.0,
+        "name": "전주한옥마을역사관",
+        "sigungu": "전주시",
+        "holiday_open": "10:00"
+      },
+      "vector_rank": 19,
+      "bm25_rank": 3,
+      "vector_distance": 0.5970216989517212,
+      "vector_score": null,
+      "bm25_score": 10.303655589761613,
+      "vector_document": "전주한옥마을역사관은 한옥마을의 역사와 변천 과정 등을 한눈에 확인할 수 있는 역사관으로 옛 창작예술공간의 한옥 2개 동을 리모델링해 2018년에 개관하였다. 전시관은 상설전시실과 기획전시실로 나뉘며 상설전시실에는 한옥마을의 역사를 연표 형식으로 정리해 전주한옥마을의 변천사를 알 수 있다. 내부에 설치한 5개의 모니터에는 한옥마을에 오랫동안 거주한 주민 인터뷰, 한옥마을의 과거·현재 모습, 한옥마을에 얽힌 일화 등을 상영한다. 또 한옥마을 안 주요 명소를 입체영상으로 볼 수 있으며 가상현실 체험도 가능하다. 기획전시실에는 한옥마을의 옛 사진과 한옥마을의 숨은 이야기, 이곳에서 촬영한 영화와 드라마에 관한 내용을 소개해 두었다. 한옥마을 역사관에서는 정기 해설과 수시 해설의 해설 프로그램을 운영하고 있다. 정기 해설은 관광객이 집중되는 주말에 전시실을 순회하면서 진행되며, 수시 해설은 관람객의 요청에 따라 탄력적으로 진행된다. 사전 예약 한 20인 이상의 단체 해설은 우선순위로 진행된다. 대한민국에서 유일하게 보존되어 있는 900여 채의 한옥마을의 소소한 이야기와 어제와 오늘, 그리고 미래의 이야기가 궁금하다면 한옥마을로 여행을 떠나기 전 먼저 들러 보는 것도 의미 있는 여행의 시작이 될 듯하다.",
+      "bm25_document": "전주한옥마을역사관은 한옥마을의 역사와 변천 과정 등을 한눈에 확인할 수 있는 역사관으로 옛 창작예술공간의 한옥 2개 동을 리모델링해 2018년에 개관하였다. 전시관은 상설전시실과 기획전시실로 나뉘며 상설전시실에는 한옥마을의 역사를 연표 형식으로 정리해 전주한옥마을의 변천사를 알 수 있다. 내부에 설치한 5개의 모니터에는 한옥마을에 오랫동안 거주한 주민 인터뷰, 한옥마을의 과거·현재 모습, 한옥마을에 얽힌 일화 등을 상영한다. 또 한옥마을 안 주요 명소를 입체영상으로 볼 수 있으며 가상현실 체험도 가능하다. 기획전시실에는 한옥마을의 옛 사진과 한옥마을의 숨은 이야기, 이곳에서 촬영한 영화와 드라마에 관한 내용을 소개해 두었다. 한옥마을 역사관에서는 정기 해설과 수시 해설의 해설 프로그램을 운영하고 있다. 정기 해설은 관광객이 집중되는 주말에 전시실을 순회하면서 진행되며, 수시 해설은 관람객의 요청에 따라 탄력적으로 진행된다. 사전 예약 한 20인 이상의 단체 해설은 우선순위로 진행된다. 대한민국에서 유일하게 보존되어 있는 900여 채의 한옥마을의 소소한 이야기와 어제와 오늘, 그리고 미래의 이야기가 궁금하다면 한옥마을로 여행을 떠나기 전 먼저 들러 보는 것도 의미 있는 여행의 시작이 될 듯하다.",
+      "best_span_id": "chroma:M0801",
+      "best_span_text": "전주한옥마을역사관은 한옥마을의 역사와 변천 과정 등을 한눈에 확인할 수 있는 역사관으로 옛 창작예술공간의 한옥 2개 동을 리모델링해 2018년에 개관하였다. 전시관은 상설전시실과 기획전시실로 나뉘며 상설전시실에는 한옥마을의 역사를 연표 형식으로 정리해 전주한옥마을의 변천사를 알 수 있다. 내부에 설치한 5개의 모니터에는 한옥마을에 오랫동안 거주한 주민 인터뷰, 한옥마을의 과거·현재 모습, 한옥마을에 얽힌 일화 등을 상영한다. 또 한옥마을 안 주요 명소를 입체영상으로 볼 수 있으며 가상현실 체험도 가능하다. 기획전시실에는 한옥마을의 옛 사진과 한옥마을의 숨은 이야기, 이곳에서 촬영한 영화와 드라마에 관한 내용을 소개해 두었다. 한옥마을 역사관에서는 정기 해설과 수시 해설의 해설 프로그램을 운영하고 있다. 정기 해설은 관광객이 집중되는 주말에 전시실을 순회하면서 진행되며, 수시 해설은 관람객의 요청에 따라 탄력적으로 진행된다. 사전 예약 한 20인 이상의 단체 해설은 우선순위로 진행된다. 대한민국에서 유일하게 보존되어 있는 900여 채의 한옥마을의 소소한 이야기와 어제와 오늘, 그리고 미래의 이야기가 궁금하다면 한옥마을로 여행을 떠나기 전 먼저 들러 보는 것도 의미 있는 여행의 시작이 될 듯하다.",
+      "fusion_score": 0.028531243721117136,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 2,
+      "rerank_score": 0.27397266030311584,
+      "rank": 2,
+      "score": 0.27397266030311584,
+      "score_type": "cross_encoder",
+      "distance": 0.5970216989517212,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0801",
+      "source_doc_ids": [
+        "DOC-B0801-TOUR_API-3056595"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0801-TOUR_API-3056595",
+          "source_type": "TOUR_API",
+          "source_record_id": "3056595",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=384",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 87,
+          "doc_ids": [
+            "DOC-B0801-TOUR_API-3056595"
+          ]
+        },
+        {
+          "start": 88,
+          "end": 161,
+          "doc_ids": [
+            "DOC-B0801-TOUR_API-3056595"
+          ]
+        },
+        {
+          "start": 162,
+          "end": 239,
+          "doc_ids": [
+            "DOC-B0801-TOUR_API-3056595"
+          ]
+        },
+        {
+          "start": 240,
+          "end": 285,
+          "doc_ids": [
+            "DOC-B0801-TOUR_API-3056595"
+          ]
+        },
+        {
+          "start": 286,
+          "end": 353,
+          "doc_ids": [
+            "DOC-B0801-TOUR_API-3056595"
+          ]
+        },
+        {
+          "start": 354,
+          "end": 397,
+          "doc_ids": [
+            "DOC-B0801-TOUR_API-3056595"
+          ]
+        },
+        {
+          "start": 398,
+          "end": 466,
+          "doc_ids": [
+            "DOC-B0801-TOUR_API-3056595"
+          ]
+        },
+        {
+          "start": 467,
+          "end": 501,
+          "doc_ids": [
+            "DOC-B0801-TOUR_API-3056595"
+          ]
+        },
+        {
+          "start": 502,
+          "end": 620,
+          "doc_ids": [
+            "DOC-B0801-TOUR_API-3056595"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=384",
+      "text": "전주한옥마을역사관은 한옥마을의 역사와 변천 과정 등을 한눈에 확인할 수 있는 역사관으로 옛 창작예술공간의 한옥 2개 동을 리모델링해 2018년에 개관하였다. 전시관은 상설전시실과 기획전시실로 나뉘며 상설전시실에는 한옥마을의 역사를 연표 형식으로 정리해 전주한옥마을의 변천사를 알 수 있다. 내부에 설치한 5개의 모니터에는 한옥마을에 오랫동안 거주한 주민 인터뷰, 한옥마을의 과거·현재 모습, 한옥마을에 얽힌 일화 등을 상영한다. 또 한옥마을 안 주요 명소를 입체영상으로 볼 수 있으며 가상현실 체험도 가능하다. 기획전시실에는 한옥마을의 옛 사진과 한옥마을의 숨은 이야기, 이곳에서 촬영한 영화와 드라마에 관한 내용을 소개해 두었다. 한옥마을 역사관에서는 정기 해설과 수시 해설의 해설 프로그램을 운영하고 있다. 정기 해설은 관광객이 집중되는 주말에 전시실을 순회하면서 진행되며, 수시 해설은 관람객의 요청에 따라 탄력적으로 진행된다. 사전 예약 한 20인 이상의 단체 해설은 우선순위로 진행된다. 대한민국에서 유일하게 보존되어 있는 900여 채의 한옥마을의 소소한 이야기와 어제와 오늘, 그리고 미래의 이야기가 궁금하다면 한옥마을로 여행을 떠나기 전 먼저 들러 보는 것도 의미 있는 여행의 시작이 될 듯하다.",
+      "sido": "전북특별자치도",
+      "sigungu": "전주시",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=384"
+      ],
+      "evidence_id": "E2",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=553",
+        "fields": {
+          "name": "전주한옥마을역사관",
+          "sido": "전북특별자치도",
+          "sigungu": "전주시",
+          "address": "전북특별자치도 전주시 완산구 최명희길 17-10",
+          "ownership_type": "공립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "10:00",
+          "weekday_close": "18:00",
+          "holiday_open": "10:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "월"
+        },
+        "base_data_date": "2025-02-11",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0493",
+      "name": "국립여성사전시관",
+      "document": "국립여성사전시관은 한국 여성사 정립, 보급을 통해 양성평등 가치를 확산하는 복합교육문화공간이다. 역사 속 여성의 역할과 역사발전에 기여한 인물을 조명하고, 여성을 위한 교육과 국민의 양성평등의식 고양을 위한 장으로 활용하기 위해 설립되었다. 국립여성사전시관의 상설전시는 연대별, 분야별로 나뉘어 역사발전에 기여한 이야기, 역사의 궤도를 바꾸었던 이야기, 국난의 시기에 아픈 기억들, 그리고 세계 인류의 존엄성과 평화의 가치를 일깨우는 여성들의 이야기로 채워져 있다. 또한, 이곳은 교육부 인증 교육기부 진로체험 인증기관 중 하나로, 진로 탐색 프로그램인 나도 큐레이터, 초등학생을 대상으로 하는 찾아가는 여성사전시관, 성인대상으로 하는 여성사 아카데미를 운영하고 있다.",
+      "metadata": {
+        "weekday_close": "18:00",
+        "requires_manual_review": true,
+        "image_copyright": "Type1",
+        "address": "경기도 고양시 덕양구 화중로104번길 50",
+        "name": "국립여성사전시관",
+        "weekday_open": "10:00",
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "longitude": 126.834035479,
+        "youth_fee": 0.0,
+        "source_types": "TOUR_API",
+        "holiday_close": "00:00",
+        "ownership_type": "국립",
+        "child_fee": 0.0,
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/01/3527701_image2_1.jpg",
+        "closure_rule_raw": "일요일, 공휴일 및 명절 휴관",
+        "sido": "경기도",
+        "holiday_open": "00:00",
+        "homepage_url": "http://eherstory.mogef.go.kr",
+        "adult_fee": 0.0,
+        "sigungu": "고양시",
+        "latitude": 37.6358155664
+      },
+      "vector_rank": 10,
+      "bm25_rank": null,
+      "vector_distance": 0.5845191478729248,
+      "vector_score": null,
+      "bm25_score": null,
+      "vector_document": "국립여성사전시관은 한국 여성사 정립, 보급을 통해 양성평등 가치를 확산하는 복합교육문화공간이다. 역사 속 여성의 역할과 역사발전에 기여한 인물을 조명하고, 여성을 위한 교육과 국민의 양성평등의식 고양을 위한 장으로 활용하기 위해 설립되었다. 국립여성사전시관의 상설전시는 연대별, 분야별로 나뉘어 역사발전에 기여한 이야기, 역사의 궤도를 바꾸었던 이야기, 국난의 시기에 아픈 기억들, 그리고 세계 인류의 존엄성과 평화의 가치를 일깨우는 여성들의 이야기로 채워져 있다. 또한, 이곳은 교육부 인증 교육기부 진로체험 인증기관 중 하나로, 진로 탐색 프로그램인 나도 큐레이터, 초등학생을 대상으로 하는 찾아가는 여성사전시관, 성인대상으로 하는 여성사 아카데미를 운영하고 있다.",
+      "bm25_document": "",
+      "best_span_id": null,
+      "best_span_text": null,
+      "fusion_score": 0.014285714285714285,
+      "retrieved_by": [
+        "vector"
+      ],
+      "fusion_rank": 18,
+      "rerank_score": 0.07334819436073303,
+      "rank": 3,
+      "score": 0.07334819436073303,
+      "score_type": "cross_encoder",
+      "distance": 0.5845191478729248,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector"
+      ],
+      "retriever": "vector",
+      "source_doc_ids": [
+        "DOC-B0493-TOUR_API-130963"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0493-TOUR_API-130963",
+          "source_type": "TOUR_API",
+          "source_record_id": "130963",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=244",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 53,
+          "doc_ids": [
+            "DOC-B0493-TOUR_API-130963"
+          ]
+        },
+        {
+          "start": 54,
+          "end": 134,
+          "doc_ids": [
+            "DOC-B0493-TOUR_API-130963"
+          ]
+        },
+        {
+          "start": 135,
+          "end": 260,
+          "doc_ids": [
+            "DOC-B0493-TOUR_API-130963"
+          ]
+        },
+        {
+          "start": 261,
+          "end": 374,
+          "doc_ids": [
+            "DOC-B0493-TOUR_API-130963"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=244",
+      "text": "국립여성사전시관은 한국 여성사 정립, 보급을 통해 양성평등 가치를 확산하는 복합교육문화공간이다. 역사 속 여성의 역할과 역사발전에 기여한 인물을 조명하고, 여성을 위한 교육과 국민의 양성평등의식 고양을 위한 장으로 활용하기 위해 설립되었다. 국립여성사전시관의 상설전시는 연대별, 분야별로 나뉘어 역사발전에 기여한 이야기, 역사의 궤도를 바꾸었던 이야기, 국난의 시기에 아픈 기억들, 그리고 세계 인류의 존엄성과 평화의 가치를 일깨우는 여성들의 이야기로 채워져 있다. 또한, 이곳은 교육부 인증 교육기부 진로체험 인증기관 중 하나로, 진로 탐색 프로그램인 나도 큐레이터, 초등학생을 대상으로 하는 찾아가는 여성사전시관, 성인대상으로 하는 여성사 아카데미를 운영하고 있다.",
+      "sido": "경기도",
+      "sigungu": "고양시",
+      "span_id": "",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=244"
+      ],
+      "evidence_id": "E3",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=355",
+        "fields": {
+          "name": "국립여성사전시관",
+          "sido": "경기도",
+          "sigungu": "고양시",
+          "address": "경기도 고양시 덕양구 화중로104번길 50",
+          "ownership_type": "국립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "10:00",
+          "weekday_close": "18:00",
+          "holiday_open": "00:00",
+          "holiday_close": "00:00",
+          "closure_rule_raw": "일요일, 공휴일 및 명절 휴관"
+        },
+        "base_data_date": "2026-04-08",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0263",
+      "name": "합천박물관",
+      "document": "합천박물관은 합천의 전통문화와 역사에 대한 올바른 지식을 제공하기 위해 2004년 12월 개관했다. 가야 시대 다라국의 지배자 묘역으로 알려진 옥전 고분군의 유물 중 사료적 가치가 높은 용봉 문양 고리 자루 큰칼과 금제 귀걸이를 포함해 각종 장신구, 철기류, 토기류 등 다라국의 역사와 문화를 알 수 있는 유물을 상설 전시하고 있다. 현재는 합천의 역사와 문화를 살펴볼 수 있는 자료들도 전시하고 있다. 박물관은 본관과 별관으로 나누어져 있다. 본관 1층 상설전시실은 황강에서 꽃핀 합천의 역사를 종합적으로 보여줄 수 있도록 선사시대부터 가야를 포함한 삼국시대까지 대표 유적과 유물을 시간의 흐름에 따라 소개한다. 2층 상설전시실은 세계유산 옥전고분군을 테마로 해 옥전고분군의 위상을 더욱 알릴 수 있는 전시로 구성했다. 별관은 역사관으로 합천의 고대부터 근대에 이르는 유구한 역사를 알리는 자료를 상설 전시하고 있다. 박물관을 이용하는 관람객의 이해를 돕기 위해 실물 크기로 복원한 가야시대 다라국 지배자의 무덤과 다라국 도성의 미니어처, 다양한 영상 자료 등을 갖췄다. 합천박물관은 2004년 12월 9일에 개관하여, 합천 지역의 전통문화와 역사에 대한 올바른 지식을 제공하고자 설립하였다.",
+      "metadata": {
+        "holiday_open": "09:00",
+        "requires_manual_review": true,
+        "child_fee": 0.0,
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "longitude": 128.2829423,
+        "adult_fee": 0.0,
+        "sigungu": "합천군",
+        "sido": "경상남도",
+        "image_copyright": "Type1",
+        "weekday_open": "09:00",
+        "address": "경상남도 합천군 쌍책면 황강옥전로 1558",
+        "youth_fee": 0.0,
+        "source_types": "BASE|TOUR_API",
+        "amenities_raw": "주차시설+산책로+야외조각전시+인공폭포+분수대",
+        "homepage_url": "https://www.hc.go.kr/museum.web",
+        "latitude": 35.58042271,
+        "transport_notes": "버스: 합천-초계(성태.초계)(합천터미널)에서 쌍책정류장 하차",
+        "ownership_type": "공립",
+        "holiday_close": "18:00",
+        "closure_rule_raw": "월(단, 월요일이 공휴일인 경우 당일은 개관하고 그 다음 첫번째 평일에 휴관)+1월1일+설 당일+추석 당일",
+        "name": "합천박물관",
+        "image_url": "http://tong.visitkorea.or.kr/cms/resource/90/3584890_image2_1.jpg",
+        "weekday_close": "18:00"
+      },
+      "vector_rank": null,
+      "bm25_rank": 2,
+      "vector_distance": null,
+      "vector_score": null,
+      "bm25_score": 10.436197213157337,
+      "vector_document": "",
+      "bm25_document": "합천박물관은 합천의 전통문화와 역사에 대한 올바른 지식을 제공하기 위해 2004년 12월 개관했다. 가야 시대 다라국의 지배자 묘역으로 알려진 옥전 고분군의 유물 중 사료적 가치가 높은 용봉 문양 고리 자루 큰칼과 금제 귀걸이를 포함해 각종 장신구, 철기류, 토기류 등 다라국의 역사와 문화를 알 수 있는 유물을 상설 전시하고 있다. 현재는 합천의 역사와 문화를 살펴볼 수 있는 자료들도 전시하고 있다. 박물관은 본관과 별관으로 나누어져 있다. 본관 1층 상설전시실은 황강에서 꽃핀 합천의 역사를 종합적으로 보여줄 수 있도록 선사시대부터 가야를 포함한 삼국시대까지 대표 유적과 유물을 시간의 흐름에 따라 소개한다. 2층 상설전시실은 세계유산 옥전고분군을 테마로 해 옥전고분군의 위상을 더욱 알릴 수 있는 전시로 구성했다. 별관은 역사관으로 합천의 고대부터 근대에 이르는 유구한 역사를 알리는 자료를 상설 전시하고 있다. 박물관을 이용하는 관람객의 이해를 돕기 위해 실물 크기로 복원한 가야시대 다라국 지배자의 무덤과 다라국 도성의 미니어처, 다양한 영상 자료 등을 갖췄다. 합천박물관은 2004년 12월 9일에 개관하여, 합천 지역의 전통문화와 역사에 대한 올바른 지식을 제공하고자 설립하였다.",
+      "best_span_id": "chroma:M0263",
+      "best_span_text": "합천박물관은 합천의 전통문화와 역사에 대한 올바른 지식을 제공하기 위해 2004년 12월 개관했다. 가야 시대 다라국의 지배자 묘역으로 알려진 옥전 고분군의 유물 중 사료적 가치가 높은 용봉 문양 고리 자루 큰칼과 금제 귀걸이를 포함해 각종 장신구, 철기류, 토기류 등 다라국의 역사와 문화를 알 수 있는 유물을 상설 전시하고 있다. 현재는 합천의 역사와 문화를 살펴볼 수 있는 자료들도 전시하고 있다. 박물관은 본관과 별관으로 나누어져 있다. 본관 1층 상설전시실은 황강에서 꽃핀 합천의 역사를 종합적으로 보여줄 수 있도록 선사시대부터 가야를 포함한 삼국시대까지 대표 유적과 유물을 시간의 흐름에 따라 소개한다. 2층 상설전시실은 세계유산 옥전고분군을 테마로 해 옥전고분군의 위상을 더욱 알릴 수 있는 전시로 구성했다. 별관은 역사관으로 합천의 고대부터 근대에 이르는 유구한 역사를 알리는 자료를 상설 전시하고 있다. 박물관을 이용하는 관람객의 이해를 돕기 위해 실물 크기로 복원한 가야시대 다라국 지배자의 무덤과 다라국 도성의 미니어처, 다양한 영상 자료 등을 갖췄다. 합천박물관은 2004년 12월 9일에 개관하여, 합천 지역의 전통문화와 역사에 대한 올바른 지식을 제공하고자 설립하였다.",
+      "fusion_score": 0.016129032258064516,
+      "retrieved_by": [
+        "bm25"
+      ],
+      "fusion_rank": 4,
+      "rerank_score": 0.06906695663928986,
+      "rank": 4,
+      "score": 0.06906695663928986,
+      "score_type": "cross_encoder",
+      "distance": null,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "bm25"
+      ],
+      "retriever": "bm25",
+      "span_id": "chroma:M0263",
+      "source_doc_ids": [
+        "DOC-B0263-TOUR_API-130897",
+        "DOC-B0263-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0263-TOUR_API-130897",
+          "source_type": "TOUR_API",
+          "source_record_id": "130897",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=131",
+          "match_trust": "RECHECKED_BY_RULE_NOT_HUMAN_APPROVED"
+        },
+        {
+          "doc_id": "DOC-B0263-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0263",
+          "source_locator": "data/raw/museum_base_1070.csv#row=264",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 55,
+          "doc_ids": [
+            "DOC-B0263-TOUR_API-130897"
+          ]
+        },
+        {
+          "start": 56,
+          "end": 186,
+          "doc_ids": [
+            "DOC-B0263-TOUR_API-130897"
+          ]
+        },
+        {
+          "start": 187,
+          "end": 225,
+          "doc_ids": [
+            "DOC-B0263-TOUR_API-130897"
+          ]
+        },
+        {
+          "start": 226,
+          "end": 248,
+          "doc_ids": [
+            "DOC-B0263-TOUR_API-130897"
+          ]
+        },
+        {
+          "start": 249,
+          "end": 343,
+          "doc_ids": [
+            "DOC-B0263-TOUR_API-130897"
+          ]
+        },
+        {
+          "start": 344,
+          "end": 403,
+          "doc_ids": [
+            "DOC-B0263-TOUR_API-130897"
+          ]
+        },
+        {
+          "start": 404,
+          "end": 458,
+          "doc_ids": [
+            "DOC-B0263-TOUR_API-130897"
+          ]
+        },
+        {
+          "start": 459,
+          "end": 544,
+          "doc_ids": [
+            "DOC-B0263-TOUR_API-130897"
+          ]
+        },
+        {
+          "start": 545,
+          "end": 612,
+          "doc_ids": [
+            "DOC-B0263-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=131",
+      "text": "합천박물관은 합천의 전통문화와 역사에 대한 올바른 지식을 제공하기 위해 2004년 12월 개관했다. 가야 시대 다라국의 지배자 묘역으로 알려진 옥전 고분군의 유물 중 사료적 가치가 높은 용봉 문양 고리 자루 큰칼과 금제 귀걸이를 포함해 각종 장신구, 철기류, 토기류 등 다라국의 역사와 문화를 알 수 있는 유물을 상설 전시하고 있다. 현재는 합천의 역사와 문화를 살펴볼 수 있는 자료들도 전시하고 있다. 박물관은 본관과 별관으로 나누어져 있다. 본관 1층 상설전시실은 황강에서 꽃핀 합천의 역사를 종합적으로 보여줄 수 있도록 선사시대부터 가야를 포함한 삼국시대까지 대표 유적과 유물을 시간의 흐름에 따라 소개한다. 2층 상설전시실은 세계유산 옥전고분군을 테마로 해 옥전고분군의 위상을 더욱 알릴 수 있는 전시로 구성했다. 별관은 역사관으로 합천의 고대부터 근대에 이르는 유구한 역사를 알리는 자료를 상설 전시하고 있다. 박물관을 이용하는 관람객의 이해를 돕기 위해 실물 크기로 복원한 가야시대 다라국 지배자의 무덤과 다라국 도성의 미니어처, 다양한 영상 자료 등을 갖췄다. 합천박물관은 2004년 12월 9일에 개관하여, 합천 지역의 전통문화와 역사에 대한 올바른 지식을 제공하고자 설립하였다.",
+      "sido": "경상남도",
+      "sigungu": "합천군",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=131"
+      ],
+      "evidence_id": "E4",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=185",
+        "fields": {
+          "name": "합천박물관",
+          "sido": "경상남도",
+          "sigungu": "합천군",
+          "address": "경상남도 합천군 쌍책면 황강옥전로 1558",
+          "ownership_type": "공립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "09:00",
+          "weekday_close": "18:00",
+          "holiday_open": "09:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "월(단, 월요일이 공휴일인 경우 당일은 개관하고 그 다음 첫번째 평일에 휴관)+1월1일+설 당일+추석 당일",
+          "amenities_raw": "주차시설+산책로+야외조각전시+인공폭포+분수대"
+        },
+        "base_data_date": "2026-07-10",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0409",
+      "name": "부평역사박물관",
+      "document": "부평역사박물관은 부평의 역사와 문화를 알리고, 지역민에게 다양한 문화 체험의 기회를 제공하기 위해 2007년에 개관하였다. 박물관은 1층에 기획전시실과 기증전시실, 2층에 부평역사실과 농경문화실로 구성되어 있다. 상설전시실인 부평역사실에서는 전통시대부터 일제강점기, 6·25 전쟁 당시와 이후에 이르기까지 주요 시대별로 부평의 역사를 한눈에 살펴볼 수 있다. 농경문화실과 기증전시실에서는 부평의 전통시대와 현대사의 다양한 모습을 전시하고 있다. 기증전시실에는 50여 년의 역사를 지닌 ‘봉다방’, 부평의 마지막 달동네였던 ‘열우물 마을’, 일제강점기 역사를 간직한 산곡동 ‘검정사택’ 등과 관련한 생생한 자료들이 전시되어 있어 흥미를 더한다. 다양한 주제로 열리는 특별기획전은 시기마다 전시 내용이 바뀌므로, 새로운 전시가 열릴 때마다 방문하는 것도 좋은 방법이다. 박물관 2층 회랑을 따라 휴식 공간과 뮤지엄 카페가 마련되어 있으며, 야외에는 전통 초가가 조성되어 있어 산책과 함께 전통문화를 체험할 수 있다. 2007년 3월 29일 개관하였으며 부평의 역사와 문화를 주제로 총 3개의 상설전시실과 1개의 특별전시실이 있음. 전시사업과 함께 지역역사 자료의 수집과 보존, 연구를 진행하고 있으며 지역민들을 대상으로 하는 문화교육도 활발히 진행",
+      "metadata": {
+        "holiday_open": "09:00",
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "name": "부평역사박물관",
+        "adult_fee": 0.0,
+        "source_types": "BASE|TOUR_API",
+        "homepage_url": "https://portal.icbp.go.kr/bphm/",
+        "weekday_close": "18:00",
+        "ownership_type": "공립",
+        "youth_fee": 0.0,
+        "requires_manual_review": true,
+        "address": "인천광역시 부평구 굴포로 151",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/37/3073237_image2_1.jpg",
+        "sido": "인천광역시",
+        "longitude": 126.737918,
+        "sigungu": "부평구",
+        "holiday_close": "18:00",
+        "latitude": 37.512195,
+        "amenities_raw": "박물관 카페",
+        "image_copyright": "Type3",
+        "transport_notes": "지하철 1호선 부개역+지하철 1호선 부평역+지하철 7호선 삼산월드체육관역",
+        "child_fee": 0.0,
+        "closure_rule_raw": "매주 월요일",
+        "weekday_open": "09:00"
+      },
+      "vector_rank": null,
+      "bm25_rank": 5,
+      "vector_distance": null,
+      "vector_score": null,
+      "bm25_score": 9.77269318086748,
+      "vector_document": "",
+      "bm25_document": "부평역사박물관은 부평의 역사와 문화를 알리고, 지역민에게 다양한 문화 체험의 기회를 제공하기 위해 2007년에 개관하였다. 박물관은 1층에 기획전시실과 기증전시실, 2층에 부평역사실과 농경문화실로 구성되어 있다. 상설전시실인 부평역사실에서는 전통시대부터 일제강점기, 6·25 전쟁 당시와 이후에 이르기까지 주요 시대별로 부평의 역사를 한눈에 살펴볼 수 있다. 농경문화실과 기증전시실에서는 부평의 전통시대와 현대사의 다양한 모습을 전시하고 있다. 기증전시실에는 50여 년의 역사를 지닌 ‘봉다방’, 부평의 마지막 달동네였던 ‘열우물 마을’, 일제강점기 역사를 간직한 산곡동 ‘검정사택’ 등과 관련한 생생한 자료들이 전시되어 있어 흥미를 더한다. 다양한 주제로 열리는 특별기획전은 시기마다 전시 내용이 바뀌므로, 새로운 전시가 열릴 때마다 방문하는 것도 좋은 방법이다. 박물관 2층 회랑을 따라 휴식 공간과 뮤지엄 카페가 마련되어 있으며, 야외에는 전통 초가가 조성되어 있어 산책과 함께 전통문화를 체험할 수 있다. 2007년 3월 29일 개관하였으며 부평의 역사와 문화를 주제로 총 3개의 상설전시실과 1개의 특별전시실이 있음. 전시사업과 함께 지역역사 자료의 수집과 보존, 연구를 진행하고 있으며 지역민들을 대상으로 하는 문화교육도 활발히 진행",
+      "best_span_id": "chroma:M0409",
+      "best_span_text": "부평역사박물관은 부평의 역사와 문화를 알리고, 지역민에게 다양한 문화 체험의 기회를 제공하기 위해 2007년에 개관하였다. 박물관은 1층에 기획전시실과 기증전시실, 2층에 부평역사실과 농경문화실로 구성되어 있다. 상설전시실인 부평역사실에서는 전통시대부터 일제강점기, 6·25 전쟁 당시와 이후에 이르기까지 주요 시대별로 부평의 역사를 한눈에 살펴볼 수 있다. 농경문화실과 기증전시실에서는 부평의 전통시대와 현대사의 다양한 모습을 전시하고 있다. 기증전시실에는 50여 년의 역사를 지닌 ‘봉다방’, 부평의 마지막 달동네였던 ‘열우물 마을’, 일제강점기 역사를 간직한 산곡동 ‘검정사택’ 등과 관련한 생생한 자료들이 전시되어 있어 흥미를 더한다. 다양한 주제로 열리는 특별기획전은 시기마다 전시 내용이 바뀌므로, 새로운 전시가 열릴 때마다 방문하는 것도 좋은 방법이다. 박물관 2층 회랑을 따라 휴식 공간과 뮤지엄 카페가 마련되어 있으며, 야외에는 전통 초가가 조성되어 있어 산책과 함께 전통문화를 체험할 수 있다. 2007년 3월 29일 개관하였으며 부평의 역사와 문화를 주제로 총 3개의 상설전시실과 1개의 특별전시실이 있음. 전시사업과 함께 지역역사 자료의 수집과 보존, 연구를 진행하고 있으며 지역민들을 대상으로 하는 문화교육도 활발히 진행",
+      "fusion_score": 0.015384615384615385,
+      "retrieved_by": [
+        "bm25"
+      ],
+      "fusion_rank": 9,
+      "rerank_score": 0.06506230682134628,
+      "rank": 5,
+      "score": 0.06506230682134628,
+      "score_type": "cross_encoder",
+      "distance": null,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "bm25"
+      ],
+      "retriever": "bm25",
+      "span_id": "chroma:M0409",
+      "source_doc_ids": [
+        "DOC-B0409-TOUR_API-130911",
+        "DOC-B0409-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0409-TOUR_API-130911",
+          "source_type": "TOUR_API",
+          "source_record_id": "130911",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=192",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        },
+        {
+          "doc_id": "DOC-B0409-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0409",
+          "source_locator": "data/raw/museum_base_1070.csv#row=410",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 68,
+          "doc_ids": [
+            "DOC-B0409-TOUR_API-130911"
+          ]
+        },
+        {
+          "start": 69,
+          "end": 118,
+          "doc_ids": [
+            "DOC-B0409-TOUR_API-130911"
+          ]
+        },
+        {
+          "start": 119,
+          "end": 200,
+          "doc_ids": [
+            "DOC-B0409-TOUR_API-130911"
+          ]
+        },
+        {
+          "start": 201,
+          "end": 248,
+          "doc_ids": [
+            "DOC-B0409-TOUR_API-130911"
+          ]
+        },
+        {
+          "start": 249,
+          "end": 359,
+          "doc_ids": [
+            "DOC-B0409-TOUR_API-130911"
+          ]
+        },
+        {
+          "start": 360,
+          "end": 428,
+          "doc_ids": [
+            "DOC-B0409-TOUR_API-130911"
+          ]
+        },
+        {
+          "start": 429,
+          "end": 510,
+          "doc_ids": [
+            "DOC-B0409-TOUR_API-130911"
+          ]
+        },
+        {
+          "start": 511,
+          "end": 574,
+          "doc_ids": [
+            "DOC-B0409-BASE"
+          ]
+        },
+        {
+          "start": 575,
+          "end": 640,
+          "doc_ids": [
+            "DOC-B0409-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=192",
+      "text": "부평역사박물관은 부평의 역사와 문화를 알리고, 지역민에게 다양한 문화 체험의 기회를 제공하기 위해 2007년에 개관하였다. 박물관은 1층에 기획전시실과 기증전시실, 2층에 부평역사실과 농경문화실로 구성되어 있다. 상설전시실인 부평역사실에서는 전통시대부터 일제강점기, 6·25 전쟁 당시와 이후에 이르기까지 주요 시대별로 부평의 역사를 한눈에 살펴볼 수 있다. 농경문화실과 기증전시실에서는 부평의 전통시대와 현대사의 다양한 모습을 전시하고 있다. 기증전시실에는 50여 년의 역사를 지닌 ‘봉다방’, 부평의 마지막 달동네였던 ‘열우물 마을’, 일제강점기 역사를 간직한 산곡동 ‘검정사택’ 등과 관련한 생생한 자료들이 전시되어 있어 흥미를 더한다. 다양한 주제로 열리는 특별기획전은 시기마다 전시 내용이 바뀌므로, 새로운 전시가 열릴 때마다 방문하는 것도 좋은 방법이다. 박물관 2층 회랑을 따라 휴식 공간과 뮤지엄 카페가 마련되어 있으며, 야외에는 전통 초가가 조성되어 있어 산책과 함께 전통문화를 체험할 수 있다. 2007년 3월 29일 개관하였으며 부평의 역사와 문화를 주제로 총 3개의 상설전시실과 1개의 특별전시실이 있음. 전시사업과 함께 지역역사 자료의 수집과 보존, 연구를 진행하고 있으며 지역민들을 대상으로 하는 문화교육도 활발히 진행",
+      "sido": "인천광역시",
+      "sigungu": "부평구",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=192"
+      ],
+      "evidence_id": "E5",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=292",
+        "fields": {
+          "name": "부평역사박물관",
+          "sido": "인천광역시",
+          "sigungu": "부평구",
+          "address": "인천광역시 부평구 굴포로 151",
+          "ownership_type": "공립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "09:00",
+          "weekday_close": "18:00",
+          "holiday_open": "09:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "매주 월요일",
+          "amenities_raw": "박물관 카페"
+        },
+        "base_data_date": "2026-05-27",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    }
+  ],
+  "answer": "상설전시실에서는 장수군의 전체 역사를 한눈에 살펴볼 수 있습니다. 다만 자료에는 전시 내용을 시대별·주제별로 구체적으로 나누어 설명하지는 않습니다. [E1]",
+  "retrieval_status": "ok",
+  "answer_status": "answered",
+  "route": "hybrid",
+  "retry_count": 1,
+  "supervisor_verified": true,
+  "rerank_applied": true,
+  "retriever_errors": [],
+  "warnings": [],
+  "duration_ms": 151949.39,
+  "error_type": "",
+  "hit_at_1": 1,
+  "hit_at_3": 1,
+  "hit_at_5": 1,
+  "recall_at_5": 1.0,
+  "mrr_at_10": 1.0
+}

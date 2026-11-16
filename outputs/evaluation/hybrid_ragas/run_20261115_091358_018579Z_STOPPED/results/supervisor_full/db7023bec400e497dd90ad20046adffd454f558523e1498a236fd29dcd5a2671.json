@@ -1,0 +1,763 @@
+{
+  "mode": "supervisor_full",
+  "question_id": "V2-CF06",
+  "evidence": [
+    {
+      "museum_id": "M0009",
+      "name": "한국식기박물관",
+      "document": "한국식기박물관은 백제 부흥 운동의 마지막 격전지로 가능성이 제기되는 장곡 산성(주류성)과 통일신라시대의 국가 제사를 행한 오서산에 위치하고 있다. 본 박물관은 오랫동안 전수ㆍ수집한 유물을 한약방ㆍ조선시대 문화실ㆍ한국의 토기-고려청자실ㆍ전통부엌 등의 테마별로 전시되어 있다.",
+      "metadata": {
+        "source_types": "BASE",
+        "transport_notes": "광천+홍성버스터미널(기차역)→옥계방면 시외버스 이용하여 예당큰집 하차",
+        "child_fee": 0.0,
+        "weekday_open": "10:00",
+        "youth_fee": 0.0,
+        "address": "충청남도 홍성군 장곡면 무한로 957-24",
+        "adult_fee": 0.0,
+        "requires_manual_review": false,
+        "holiday_close": "17:00",
+        "name": "한국식기박물관",
+        "weekday_close": "17:00",
+        "longitude": 126.7423027,
+        "sigungu": "홍성군",
+        "latitude": 36.49396445,
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "holiday_open": "10:00",
+        "sido": "충청남도",
+        "ownership_type": "사립",
+        "closure_rule_raw": "월+토+일"
+      },
+      "vector_rank": 6,
+      "bm25_rank": 1,
+      "vector_distance": 0.5421433448791504,
+      "vector_score": null,
+      "bm25_score": 12.6612976852075,
+      "vector_document": "한국식기박물관은 백제 부흥 운동의 마지막 격전지로 가능성이 제기되는 장곡 산성(주류성)과 통일신라시대의 국가 제사를 행한 오서산에 위치하고 있다. 본 박물관은 오랫동안 전수ㆍ수집한 유물을 한약방ㆍ조선시대 문화실ㆍ한국의 토기-고려청자실ㆍ전통부엌 등의 테마별로 전시되어 있다.",
+      "bm25_document": "한국식기박물관은 백제 부흥 운동의 마지막 격전지로 가능성이 제기되는 장곡 산성(주류성)과 통일신라시대의 국가 제사를 행한 오서산에 위치하고 있다. 본 박물관은 오랫동안 전수ㆍ수집한 유물을 한약방ㆍ조선시대 문화실ㆍ한국의 토기-고려청자실ㆍ전통부엌 등의 테마별로 전시되어 있다.",
+      "best_span_id": "chroma:M0009",
+      "best_span_text": "한국식기박물관은 백제 부흥 운동의 마지막 격전지로 가능성이 제기되는 장곡 산성(주류성)과 통일신라시대의 국가 제사를 행한 오서산에 위치하고 있다. 본 박물관은 오랫동안 전수ㆍ수집한 유물을 한약방ㆍ조선시대 문화실ㆍ한국의 토기-고려청자실ㆍ전통부엌 등의 테마별로 전시되어 있다.",
+      "fusion_score": 0.031544957774465976,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 1,
+      "name_match": true,
+      "rerank_score": 0.049327727407217026,
+      "rank": 1,
+      "score": 0.031544957774465976,
+      "score_type": "rrf_low_confidence_rerank",
+      "distance": 0.5421433448791504,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0009",
+      "source_doc_ids": [
+        "DOC-B0009-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0009-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0009",
+          "source_locator": "data/raw/museum_base_1070.csv#row=10",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 81,
+          "doc_ids": [
+            "DOC-B0009-BASE"
+          ]
+        },
+        {
+          "start": 82,
+          "end": 152,
+          "doc_ids": [
+            "DOC-B0009-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_base_1070.csv#row=10",
+      "text": "한국식기박물관은 백제 부흥 운동의 마지막 격전지로 가능성이 제기되는 장곡 산성(주류성)과 통일신라시대의 국가 제사를 행한 오서산에 위치하고 있다. 본 박물관은 오랫동안 전수ㆍ수집한 유물을 한약방ㆍ조선시대 문화실ㆍ한국의 토기-고려청자실ㆍ전통부엌 등의 테마별로 전시되어 있다.",
+      "sido": "충청남도",
+      "sigungu": "홍성군",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_base_1070.csv#row=10"
+      ],
+      "evidence_id": "E1",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=9",
+        "fields": {
+          "name": "한국식기박물관",
+          "sido": "충청남도",
+          "sigungu": "홍성군",
+          "address": "충청남도 홍성군 장곡면 무한로 957-24",
+          "ownership_type": "사립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "10:00",
+          "weekday_close": "17:00",
+          "holiday_open": "10:00",
+          "holiday_close": "17:00",
+          "closure_rule_raw": "월+토+일"
+        },
+        "base_data_date": "2026-09-19",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0579",
+      "name": "세종전통장류박물관",
+      "document": "지난 2013년 처음 문을 연 세종전통장류박물관은 우리나라 장류 문화를 한자리에서 살펴볼 수 있는 전문 박물관이다. 전시실은 장의 역사와 한국의 발효 음식, 장의 재료가 되는 다양한 콩 종자와 과학적인 저장 용기 등 풍성한 볼거리로 채워져 있다. 야외에는 각 지역의 기후와 문화에 따라 다른 모양을 지닌 장독을 함께 전시해 관람객들의 호기심을 자극한다. 메주 모양의 천연 곡물 비누 만들기나 우리 민족이 즐겨 먹었던 전통 장류의 하나인 집장 만들기 등 체험 프로그램도 운영한다. 본격적으로 장을 담는 시기인 11월 이후에 방문하면 전통 방식으로 된장과 고추장을 만드는 모습도 관람할 수 있다.",
+      "metadata": {
+        "name": "세종전통장류박물관",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/05/3559105_image2_1.jpg",
+        "holiday_close": "16:30",
+        "address": "세종특별시 전동면 배일길 90-43",
+        "adult_fee": 0.0,
+        "holiday_open": "10:30",
+        "longitude": 127.259467,
+        "ownership_type": "사립",
+        "sigungu": "전동면",
+        "closure_rule_raw": "화요일+설연휴+추석연휴",
+        "source_types": "TOUR_API",
+        "image_copyright": "Type1",
+        "sido": "세종특별시",
+        "homepage_url": "http://www.dweeungbark.co.kr/",
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "weekday_open": "10:30",
+        "weekday_close": "16:30",
+        "requires_manual_review": true,
+        "latitude": 36.675045,
+        "youth_fee": 0.0,
+        "child_fee": 0.0
+      },
+      "vector_rank": 1,
+      "bm25_rank": 3,
+      "vector_distance": 0.4978315830230713,
+      "vector_score": null,
+      "bm25_score": 9.026435030697053,
+      "vector_document": "지난 2013년 처음 문을 연 세종전통장류박물관은 우리나라 장류 문화를 한자리에서 살펴볼 수 있는 전문 박물관이다. 전시실은 장의 역사와 한국의 발효 음식, 장의 재료가 되는 다양한 콩 종자와 과학적인 저장 용기 등 풍성한 볼거리로 채워져 있다. 야외에는 각 지역의 기후와 문화에 따라 다른 모양을 지닌 장독을 함께 전시해 관람객들의 호기심을 자극한다. 메주 모양의 천연 곡물 비누 만들기나 우리 민족이 즐겨 먹었던 전통 장류의 하나인 집장 만들기 등 체험 프로그램도 운영한다. 본격적으로 장을 담는 시기인 11월 이후에 방문하면 전통 방식으로 된장과 고추장을 만드는 모습도 관람할 수 있다.",
+      "bm25_document": "지난 2013년 처음 문을 연 세종전통장류박물관은 우리나라 장류 문화를 한자리에서 살펴볼 수 있는 전문 박물관이다. 전시실은 장의 역사와 한국의 발효 음식, 장의 재료가 되는 다양한 콩 종자와 과학적인 저장 용기 등 풍성한 볼거리로 채워져 있다. 야외에는 각 지역의 기후와 문화에 따라 다른 모양을 지닌 장독을 함께 전시해 관람객들의 호기심을 자극한다. 메주 모양의 천연 곡물 비누 만들기나 우리 민족이 즐겨 먹었던 전통 장류의 하나인 집장 만들기 등 체험 프로그램도 운영한다. 본격적으로 장을 담는 시기인 11월 이후에 방문하면 전통 방식으로 된장과 고추장을 만드는 모습도 관람할 수 있다.",
+      "best_span_id": "chroma:M0579",
+      "best_span_text": "지난 2013년 처음 문을 연 세종전통장류박물관은 우리나라 장류 문화를 한자리에서 살펴볼 수 있는 전문 박물관이다. 전시실은 장의 역사와 한국의 발효 음식, 장의 재료가 되는 다양한 콩 종자와 과학적인 저장 용기 등 풍성한 볼거리로 채워져 있다. 야외에는 각 지역의 기후와 문화에 따라 다른 모양을 지닌 장독을 함께 전시해 관람객들의 호기심을 자극한다. 메주 모양의 천연 곡물 비누 만들기나 우리 민족이 즐겨 먹었던 전통 장류의 하나인 집장 만들기 등 체험 프로그램도 운영한다. 본격적으로 장을 담는 시기인 11월 이후에 방문하면 전통 방식으로 된장과 고추장을 만드는 모습도 관람할 수 있다.",
+      "fusion_score": 0.032266458495966696,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 2,
+      "rerank_score": 0.000478706177091226,
+      "rank": 2,
+      "score": 0.032266458495966696,
+      "score_type": "rrf_low_confidence_rerank",
+      "distance": 0.4978315830230713,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0579",
+      "source_doc_ids": [
+        "DOC-B0579-TOUR_API-2790505"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0579-TOUR_API-2790505",
+          "source_type": "TOUR_API",
+          "source_record_id": "2790505",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=285",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 64,
+          "doc_ids": [
+            "DOC-B0579-TOUR_API-2790505"
+          ]
+        },
+        {
+          "start": 65,
+          "end": 137,
+          "doc_ids": [
+            "DOC-B0579-TOUR_API-2790505"
+          ]
+        },
+        {
+          "start": 138,
+          "end": 197,
+          "doc_ids": [
+            "DOC-B0579-TOUR_API-2790505"
+          ]
+        },
+        {
+          "start": 198,
+          "end": 267,
+          "doc_ids": [
+            "DOC-B0579-TOUR_API-2790505"
+          ]
+        },
+        {
+          "start": 268,
+          "end": 331,
+          "doc_ids": [
+            "DOC-B0579-TOUR_API-2790505"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=285",
+      "text": "지난 2013년 처음 문을 연 세종전통장류박물관은 우리나라 장류 문화를 한자리에서 살펴볼 수 있는 전문 박물관이다. 전시실은 장의 역사와 한국의 발효 음식, 장의 재료가 되는 다양한 콩 종자와 과학적인 저장 용기 등 풍성한 볼거리로 채워져 있다. 야외에는 각 지역의 기후와 문화에 따라 다른 모양을 지닌 장독을 함께 전시해 관람객들의 호기심을 자극한다. 메주 모양의 천연 곡물 비누 만들기나 우리 민족이 즐겨 먹었던 전통 장류의 하나인 집장 만들기 등 체험 프로그램도 운영한다. 본격적으로 장을 담는 시기인 11월 이후에 방문하면 전통 방식으로 된장과 고추장을 만드는 모습도 관람할 수 있다.",
+      "sido": "세종특별시",
+      "sigungu": "전동면",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=285"
+      ],
+      "evidence_id": "E2",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=400",
+        "fields": {
+          "name": "세종전통장류박물관",
+          "sido": "세종특별시",
+          "sigungu": "전동면",
+          "address": "세종특별시 전동면 배일길 90-43",
+          "ownership_type": "사립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "10:30",
+          "weekday_close": "16:30",
+          "holiday_open": "10:30",
+          "holiday_close": "16:30",
+          "closure_rule_raw": "화요일+설연휴+추석연휴"
+        },
+        "base_data_date": "2026-01-05",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0788",
+      "name": "한국시집박물관",
+      "document": "한국시집박물관은 우리나라 근·현대기의 시집[詩集]을 체계적으로 전시하고 교육하는 국내 유일의 전문 박물관으로, 강원특별자치도 인제군 북면 용대리에 자리하고 있다. 총 9,459㎡의 부지에 지하 1층, 지상 2층 규모로 건립되었다. 지상 1층에는 관람객들이 자유롭게 시집을 대여해 읽을 수 있는 작은 도서관, 다양한 체험학습이 가능한 교육·체험 공간, 안내실 등이 마련되어 있다. 지상 2층은 ‘근·현대 시기(1900~1970년대)’의 한국 시집을 연대기별로 전시한 상설 전시실, 시를 직접 짓고 낭송해 볼 수 있는 체험실, 그리고 특별전 등을 열 수 있는 기획 전시실로 구성되어 있다. 한국시집박물관은 국내외 많은 시인들과 소장가들이 기증한 기증 시집을 소장하고 있으며, 그중에는 오뇌의 무도, 해파리의 노래, 육사 시집 등과 같이 일반에 잘 알려지지 않은 1950년대 이전에 간행된 희귀 시집들도 다수 포함되어 있다. 우리나라 근현대 시기 시집 보존 및 전시",
+      "metadata": {
+        "address": "강원특별자치도 인제군 북면 만해로 136",
+        "longitude": 128.3184745,
+        "image_copyright": "Type3",
+        "adult_fee": 0.0,
+        "ownership_type": "공립",
+        "name": "한국시집박물관",
+        "weekday_open": "09:00",
+        "holiday_open": "09:00",
+        "amenities_raw": "휴게공간",
+        "requires_manual_review": true,
+        "fee_notes": "0",
+        "transport_notes": "용대리 만해마을 인근",
+        "weekday_close": "18:00",
+        "source_types": "BASE|TOUR_API",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/69/3502869_image2_1.jpg",
+        "latitude": 38.1886501,
+        "sigungu": "인제군",
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "child_fee": 0.0,
+        "closure_rule_raw": "월+1월 1일+설 당일+추석 하루",
+        "youth_fee": 0.0,
+        "holiday_close": "18:00",
+        "sido": "강원특별자치도"
+      },
+      "vector_rank": 16,
+      "bm25_rank": 17,
+      "vector_distance": 0.5806257724761963,
+      "vector_score": null,
+      "bm25_score": 6.378769902525478,
+      "vector_document": "한국시집박물관은 우리나라 근·현대기의 시집[詩集]을 체계적으로 전시하고 교육하는 국내 유일의 전문 박물관으로, 강원특별자치도 인제군 북면 용대리에 자리하고 있다. 총 9,459㎡의 부지에 지하 1층, 지상 2층 규모로 건립되었다. 지상 1층에는 관람객들이 자유롭게 시집을 대여해 읽을 수 있는 작은 도서관, 다양한 체험학습이 가능한 교육·체험 공간, 안내실 등이 마련되어 있다. 지상 2층은 ‘근·현대 시기(1900~1970년대)’의 한국 시집을 연대기별로 전시한 상설 전시실, 시를 직접 짓고 낭송해 볼 수 있는 체험실, 그리고 특별전 등을 열 수 있는 기획 전시실로 구성되어 있다. 한국시집박물관은 국내외 많은 시인들과 소장가들이 기증한 기증 시집을 소장하고 있으며, 그중에는 오뇌의 무도, 해파리의 노래, 육사 시집 등과 같이 일반에 잘 알려지지 않은 1950년대 이전에 간행된 희귀 시집들도 다수 포함되어 있다. 우리나라 근현대 시기 시집 보존 및 전시",
+      "bm25_document": "한국시집박물관은 우리나라 근·현대기의 시집[詩集]을 체계적으로 전시하고 교육하는 국내 유일의 전문 박물관으로, 강원특별자치도 인제군 북면 용대리에 자리하고 있다. 총 9,459㎡의 부지에 지하 1층, 지상 2층 규모로 건립되었다. 지상 1층에는 관람객들이 자유롭게 시집을 대여해 읽을 수 있는 작은 도서관, 다양한 체험학습이 가능한 교육·체험 공간, 안내실 등이 마련되어 있다. 지상 2층은 ‘근·현대 시기(1900~1970년대)’의 한국 시집을 연대기별로 전시한 상설 전시실, 시를 직접 짓고 낭송해 볼 수 있는 체험실, 그리고 특별전 등을 열 수 있는 기획 전시실로 구성되어 있다. 한국시집박물관은 국내외 많은 시인들과 소장가들이 기증한 기증 시집을 소장하고 있으며, 그중에는 오뇌의 무도, 해파리의 노래, 육사 시집 등과 같이 일반에 잘 알려지지 않은 1950년대 이전에 간행된 희귀 시집들도 다수 포함되어 있다. 우리나라 근현대 시기 시집 보존 및 전시",
+      "best_span_id": "chroma:M0788",
+      "best_span_text": "한국시집박물관은 우리나라 근·현대기의 시집[詩集]을 체계적으로 전시하고 교육하는 국내 유일의 전문 박물관으로, 강원특별자치도 인제군 북면 용대리에 자리하고 있다. 총 9,459㎡의 부지에 지하 1층, 지상 2층 규모로 건립되었다. 지상 1층에는 관람객들이 자유롭게 시집을 대여해 읽을 수 있는 작은 도서관, 다양한 체험학습이 가능한 교육·체험 공간, 안내실 등이 마련되어 있다. 지상 2층은 ‘근·현대 시기(1900~1970년대)’의 한국 시집을 연대기별로 전시한 상설 전시실, 시를 직접 짓고 낭송해 볼 수 있는 체험실, 그리고 특별전 등을 열 수 있는 기획 전시실로 구성되어 있다. 한국시집박물관은 국내외 많은 시인들과 소장가들이 기증한 기증 시집을 소장하고 있으며, 그중에는 오뇌의 무도, 해파리의 노래, 육사 시집 등과 같이 일반에 잘 알려지지 않은 1950년대 이전에 간행된 희귀 시집들도 다수 포함되어 있다. 우리나라 근현대 시기 시집 보존 및 전시",
+      "fusion_score": 0.026144907723855092,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 3,
+      "rerank_score": 0.00014224373444449157,
+      "rank": 3,
+      "score": 0.026144907723855092,
+      "score_type": "rrf_low_confidence_rerank",
+      "distance": 0.5806257724761963,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0788",
+      "source_doc_ids": [
+        "DOC-B0788-TOUR_API-2714793",
+        "DOC-B0788-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0788-TOUR_API-2714793",
+          "source_type": "TOUR_API",
+          "source_record_id": "2714793",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=379",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        },
+        {
+          "doc_id": "DOC-B0788-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0788",
+          "source_locator": "data/raw/museum_base_1070.csv#row=789",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 90,
+          "doc_ids": [
+            "DOC-B0788-TOUR_API-2714793"
+          ]
+        },
+        {
+          "start": 91,
+          "end": 128,
+          "doc_ids": [
+            "DOC-B0788-TOUR_API-2714793"
+          ]
+        },
+        {
+          "start": 129,
+          "end": 211,
+          "doc_ids": [
+            "DOC-B0788-TOUR_API-2714793"
+          ]
+        },
+        {
+          "start": 212,
+          "end": 327,
+          "doc_ids": [
+            "DOC-B0788-TOUR_API-2714793"
+          ]
+        },
+        {
+          "start": 328,
+          "end": 458,
+          "doc_ids": [
+            "DOC-B0788-TOUR_API-2714793"
+          ]
+        },
+        {
+          "start": 459,
+          "end": 481,
+          "doc_ids": [
+            "DOC-B0788-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=379",
+      "text": "한국시집박물관은 우리나라 근·현대기의 시집[詩集]을 체계적으로 전시하고 교육하는 국내 유일의 전문 박물관으로, 강원특별자치도 인제군 북면 용대리에 자리하고 있다. 총 9,459㎡의 부지에 지하 1층, 지상 2층 규모로 건립되었다. 지상 1층에는 관람객들이 자유롭게 시집을 대여해 읽을 수 있는 작은 도서관, 다양한 체험학습이 가능한 교육·체험 공간, 안내실 등이 마련되어 있다. 지상 2층은 ‘근·현대 시기(1900~1970년대)’의 한국 시집을 연대기별로 전시한 상설 전시실, 시를 직접 짓고 낭송해 볼 수 있는 체험실, 그리고 특별전 등을 열 수 있는 기획 전시실로 구성되어 있다. 한국시집박물관은 국내외 많은 시인들과 소장가들이 기증한 기증 시집을 소장하고 있으며, 그중에는 오뇌의 무도, 해파리의 노래, 육사 시집 등과 같이 일반에 잘 알려지지 않은 1950년대 이전에 간행된 희귀 시집들도 다수 포함되어 있다. 우리나라 근현대 시기 시집 보존 및 전시",
+      "sido": "강원특별자치도",
+      "sigungu": "인제군",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=379"
+      ],
+      "evidence_id": "E3",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=544",
+        "fields": {
+          "name": "한국시집박물관",
+          "sido": "강원특별자치도",
+          "sigungu": "인제군",
+          "address": "강원특별자치도 인제군 북면 만해로 136",
+          "ownership_type": "공립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "09:00",
+          "weekday_close": "18:00",
+          "holiday_open": "09:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "월+1월 1일+설 당일+추석 하루",
+          "amenities_raw": "휴게공간"
+        },
+        "base_data_date": "2024-12-13",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0846",
+      "name": "한국등잔박물관",
+      "document": "포은 정몽주 묘소 맞은편에 있는 한국등잔박물관은 박물관장 김동휘가 50여 년간 수집한 등잔들이 전시되어 있는 사립박물관이다. 국내 유일의 등기구 박물관으로 선조들의 옛 생활상을 살펴볼 수 있어 개인뿐 아니라 학생들의 체험학습 공간으로 많이 찾는 곳이다. 수원화성 성곽을 모티브로 지은 원통형의 등대 모양 건물은 지하 1층, 지상 3층 규모로 1, 2층은 전시 공간으로 3층은 세미나 및 각종 공연을 위한 다목적 공간으로 구성되어 있다. 또 별관 전시장에는 농기구 전시실이 있고 야외전시장인 연못과 자연석이 어우러진 아름다운 정원으로 가볍게 둘러보며 힐링하기 좋다. 상설전시실 1층에는 우리의 불그릇 등잔을 주제로 부엌, 찬방, 사랑방, 안방 등 공간별로 사용되었던 등잔의 종류와 용도를 옛 생활용품과 함께 전시되어 있으며, 2층은 일상을 지킨 빛과 예를 밝힌 빛을 주제로 시대별 등잔 양식과 특징을 한눈에 알아볼 수 있다. 또 1층 특별기획전시실에서는 지역작가 조명전을 개최해 경기도 내에서 왕성한 작품 활동을 펼치는 지역작가들을 소개하고 있다. 박물관에서는 다양한 어린이, 청소년, 성인을 대상으로 한 상설교육 프로그램과 특별교육 프로그램을 운영하고 있다. 초나 LED등, 도자 등잔 등을 만들어 볼 수 있어 특별한 추억을 선물한다. 포은 정몽주 묘소가 맞은편에 있으므로 연계해 함께 방문하기 좋다.",
+      "metadata": {
+        "requires_manual_review": true,
+        "closure_rule_raw": "매주 월요일~화요일,신정,설연휴,추석(당일)",
+        "adult_fee": 8000.0,
+        "address": "경기도 용인시 처인구 모현읍 능곡로56번길 8",
+        "holiday_close": "17:00",
+        "sido": "경기도",
+        "name": "한국등잔박물관",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/61/3584961_image2_1.jpg",
+        "sigungu": "용인시",
+        "fee_notes": "3000",
+        "weekday_open": "10:00",
+        "latitude": 37.33658645,
+        "adult_fee_status": "BASE_FEE_PAID",
+        "source_types": "TOUR_API",
+        "ownership_type": "사립",
+        "holiday_open": "10:00",
+        "weekday_close": "17:00",
+        "youth_fee": 5000.0,
+        "child_fee": 0.0,
+        "longitude": 127.1778809,
+        "homepage_url": "https://www.deungjan.org",
+        "image_copyright": "Type1"
+      },
+      "vector_rank": 2,
+      "bm25_rank": null,
+      "vector_distance": 0.5264446139335632,
+      "vector_score": null,
+      "bm25_score": null,
+      "vector_document": "포은 정몽주 묘소 맞은편에 있는 한국등잔박물관은 박물관장 김동휘가 50여 년간 수집한 등잔들이 전시되어 있는 사립박물관이다. 국내 유일의 등기구 박물관으로 선조들의 옛 생활상을 살펴볼 수 있어 개인뿐 아니라 학생들의 체험학습 공간으로 많이 찾는 곳이다. 수원화성 성곽을 모티브로 지은 원통형의 등대 모양 건물은 지하 1층, 지상 3층 규모로 1, 2층은 전시 공간으로 3층은 세미나 및 각종 공연을 위한 다목적 공간으로 구성되어 있다. 또 별관 전시장에는 농기구 전시실이 있고 야외전시장인 연못과 자연석이 어우러진 아름다운 정원으로 가볍게 둘러보며 힐링하기 좋다. 상설전시실 1층에는 우리의 불그릇 등잔을 주제로 부엌, 찬방, 사랑방, 안방 등 공간별로 사용되었던 등잔의 종류와 용도를 옛 생활용품과 함께 전시되어 있으며, 2층은 일상을 지킨 빛과 예를 밝힌 빛을 주제로 시대별 등잔 양식과 특징을 한눈에 알아볼 수 있다. 또 1층 특별기획전시실에서는 지역작가 조명전을 개최해 경기도 내에서 왕성한 작품 활동을 펼치는 지역작가들을 소개하고 있다. 박물관에서는 다양한 어린이, 청소년, 성인을 대상으로 한 상설교육 프로그램과 특별교육 프로그램을 운영하고 있다. 초나 LED등, 도자 등잔 등을 만들어 볼 수 있어 특별한 추억을 선물한다. 포은 정몽주 묘소가 맞은편에 있으므로 연계해 함께 방문하기 좋다.",
+      "bm25_document": "",
+      "best_span_id": null,
+      "best_span_text": null,
+      "fusion_score": 0.016129032258064516,
+      "retrieved_by": [
+        "vector"
+      ],
+      "fusion_rank": 4,
+      "rerank_score": 0.00035459399805404246,
+      "rank": 4,
+      "score": 0.016129032258064516,
+      "score_type": "rrf_low_confidence_rerank",
+      "distance": 0.5264446139335632,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector"
+      ],
+      "retriever": "vector",
+      "source_doc_ids": [
+        "DOC-B0846-TOUR_API-130147"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0846-TOUR_API-130147",
+          "source_type": "TOUR_API",
+          "source_record_id": "130147",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=400",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 69,
+          "doc_ids": [
+            "DOC-B0846-TOUR_API-130147"
+          ]
+        },
+        {
+          "start": 70,
+          "end": 141,
+          "doc_ids": [
+            "DOC-B0846-TOUR_API-130147"
+          ]
+        },
+        {
+          "start": 142,
+          "end": 243,
+          "doc_ids": [
+            "DOC-B0846-TOUR_API-130147"
+          ]
+        },
+        {
+          "start": 244,
+          "end": 315,
+          "doc_ids": [
+            "DOC-B0846-TOUR_API-130147"
+          ]
+        },
+        {
+          "start": 316,
+          "end": 460,
+          "doc_ids": [
+            "DOC-B0846-TOUR_API-130147"
+          ]
+        },
+        {
+          "start": 461,
+          "end": 529,
+          "doc_ids": [
+            "DOC-B0846-TOUR_API-130147"
+          ]
+        },
+        {
+          "start": 530,
+          "end": 592,
+          "doc_ids": [
+            "DOC-B0846-TOUR_API-130147"
+          ]
+        },
+        {
+          "start": 593,
+          "end": 635,
+          "doc_ids": [
+            "DOC-B0846-TOUR_API-130147"
+          ]
+        },
+        {
+          "start": 636,
+          "end": 672,
+          "doc_ids": [
+            "DOC-B0846-TOUR_API-130147"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=400",
+      "text": "포은 정몽주 묘소 맞은편에 있는 한국등잔박물관은 박물관장 김동휘가 50여 년간 수집한 등잔들이 전시되어 있는 사립박물관이다. 국내 유일의 등기구 박물관으로 선조들의 옛 생활상을 살펴볼 수 있어 개인뿐 아니라 학생들의 체험학습 공간으로 많이 찾는 곳이다. 수원화성 성곽을 모티브로 지은 원통형의 등대 모양 건물은 지하 1층, 지상 3층 규모로 1, 2층은 전시 공간으로 3층은 세미나 및 각종 공연을 위한 다목적 공간으로 구성되어 있다. 또 별관 전시장에는 농기구 전시실이 있고 야외전시장인 연못과 자연석이 어우러진 아름다운 정원으로 가볍게 둘러보며 힐링하기 좋다. 상설전시실 1층에는 우리의 불그릇 등잔을 주제로 부엌, 찬방, 사랑방, 안방 등 공간별로 사용되었던 등잔의 종류와 용도를 옛 생활용품과 함께 전시되어 있으며, 2층은 일상을 지킨 빛과 예를 밝힌 빛을 주제로 시대별 등잔 양식과 특징을 한눈에 알아볼 수 있다. 또 1층 특별기획전시실에서는 지역작가 조명전을 개최해 경기도 내에서 왕성한 작품 활동을 펼치는 지역작가들을 소개하고 있다. 박물관에서는 다양한 어린이, 청소년, 성인을 대상으로 한 상설교육 프로그램과 특별교육 프로그램을 운영하고 있다. 초나 LED등, 도자 등잔 등을 만들어 볼 수 있어 특별한 추억을 선물한다. 포은 정몽주 묘소가 맞은편에 있으므로 연계해 함께 방문하기 좋다.",
+      "sido": "경기도",
+      "sigungu": "용인시",
+      "span_id": "",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=400"
+      ],
+      "evidence_id": "E4",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=573",
+        "fields": {
+          "name": "한국등잔박물관",
+          "sido": "경기도",
+          "sigungu": "용인시",
+          "address": "경기도 용인시 처인구 모현읍 능곡로56번길 8",
+          "ownership_type": "사립",
+          "adult_fee": "8000",
+          "youth_fee": "5000",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_PAID",
+          "weekday_open": "10:00",
+          "weekday_close": "17:00",
+          "holiday_open": "10:00",
+          "holiday_close": "17:00",
+          "closure_rule_raw": "매주 월요일~화요일,신정,설연휴,추석(당일)"
+        },
+        "base_data_date": "2024-11-29",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0681",
+      "name": "국립대구박물관",
+      "document": "국립대구박물관은 대구와 경상북도의 문화유산을 보존·연구·전시·교육하는 문화시설로, 1994년 12월 7일 문을 열었다. 2006년 10월 19일에는 박물관 건물 남쪽에 수장고를 추가하고, 북쪽에는 사회교육관인 해솔관과 특별전시실을 증축하였다. 이후, 지방 국립박물관 전시의 특성화와 안정적인 전시 환경 확보를 위해 상설전시실 재개편 공사를 시행하였으며, 2010년 7월 19일에는 고대문화실, 중세문화실, 복식문화실을 새롭게 개관하였다. 특히, 기존의 민속실을 대신해 새로 문을 연 복식문화실은 대구가 섬유·복식 산업을 기반으로 근대 도시로 성장한 배경을 바탕으로 조성되었다. 이 공간에서는 우리 삶에서 큰 부분을 차지하는 옷의 역사를 국내외의 다양한 자료를 통해 교체·전시하고 있다. 야외 전시장에는 청동기 시대의 고인돌과 집터, 삼국 시대의 토기가마, 통일신라 시대의 석탑 등이 곳곳에 전시되어 있어, 산책하며 둘러볼 수 있다. 또한, 기획전시실과 특별전시실에서는 연중 다채롭고 흥미로운 전시가 열리며, 박물관 교육의 활성화를 위해 해솔관에 다양한 교육 시설을 마련하고 세대별·계층별 맞춤형 교육 프로그램을 연중 운영하고 있다. 대구와 경상북도의 문화유산을 보존,연구,전시,교육하는 국립박물관",
+      "metadata": {
+        "source_types": "BASE|TOUR_API",
+        "youth_fee": 0.0,
+        "image_copyright": "Type1",
+        "address": "대구광역시 수성구 청호로 321",
+        "transport_notes": "순환3+순환3-1+234+349+449+수성1+수성1-1+수성3+수성3-1",
+        "holiday_open": "09:00",
+        "name": "국립대구박물관",
+        "requires_manual_review": true,
+        "adult_fee": 0.0,
+        "child_fee": 0.0,
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "ownership_type": "국립",
+        "homepage_url": "https://daegu.museum.go.kr",
+        "weekday_open": "09:00",
+        "sido": "대구광역시",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/85/3008585_image2_1.jpg",
+        "holiday_close": "18:00",
+        "latitude": 35.84557453,
+        "sigungu": "수성구",
+        "weekday_close": "18:00",
+        "longitude": 128.6383419,
+        "closure_rule_raw": "매주 월요일(월요일이 공휴일이면 개관 후 다음 첫 평일 휴관), 1월 1일, 설날·추석 당일"
+      },
+      "vector_rank": null,
+      "bm25_rank": 2,
+      "vector_distance": null,
+      "vector_score": null,
+      "bm25_score": 9.05975217946003,
+      "vector_document": "",
+      "bm25_document": "국립대구박물관은 대구와 경상북도의 문화유산을 보존·연구·전시·교육하는 문화시설로, 1994년 12월 7일 문을 열었다. 2006년 10월 19일에는 박물관 건물 남쪽에 수장고를 추가하고, 북쪽에는 사회교육관인 해솔관과 특별전시실을 증축하였다. 이후, 지방 국립박물관 전시의 특성화와 안정적인 전시 환경 확보를 위해 상설전시실 재개편 공사를 시행하였으며, 2010년 7월 19일에는 고대문화실, 중세문화실, 복식문화실을 새롭게 개관하였다. 특히, 기존의 민속실을 대신해 새로 문을 연 복식문화실은 대구가 섬유·복식 산업을 기반으로 근대 도시로 성장한 배경을 바탕으로 조성되었다. 이 공간에서는 우리 삶에서 큰 부분을 차지하는 옷의 역사를 국내외의 다양한 자료를 통해 교체·전시하고 있다. 야외 전시장에는 청동기 시대의 고인돌과 집터, 삼국 시대의 토기가마, 통일신라 시대의 석탑 등이 곳곳에 전시되어 있어, 산책하며 둘러볼 수 있다. 또한, 기획전시실과 특별전시실에서는 연중 다채롭고 흥미로운 전시가 열리며, 박물관 교육의 활성화를 위해 해솔관에 다양한 교육 시설을 마련하고 세대별·계층별 맞춤형 교육 프로그램을 연중 운영하고 있다. 대구와 경상북도의 문화유산을 보존,연구,전시,교육하는 국립박물관",
+      "best_span_id": "chroma:M0681",
+      "best_span_text": "국립대구박물관은 대구와 경상북도의 문화유산을 보존·연구·전시·교육하는 문화시설로, 1994년 12월 7일 문을 열었다. 2006년 10월 19일에는 박물관 건물 남쪽에 수장고를 추가하고, 북쪽에는 사회교육관인 해솔관과 특별전시실을 증축하였다. 이후, 지방 국립박물관 전시의 특성화와 안정적인 전시 환경 확보를 위해 상설전시실 재개편 공사를 시행하였으며, 2010년 7월 19일에는 고대문화실, 중세문화실, 복식문화실을 새롭게 개관하였다. 특히, 기존의 민속실을 대신해 새로 문을 연 복식문화실은 대구가 섬유·복식 산업을 기반으로 근대 도시로 성장한 배경을 바탕으로 조성되었다. 이 공간에서는 우리 삶에서 큰 부분을 차지하는 옷의 역사를 국내외의 다양한 자료를 통해 교체·전시하고 있다. 야외 전시장에는 청동기 시대의 고인돌과 집터, 삼국 시대의 토기가마, 통일신라 시대의 석탑 등이 곳곳에 전시되어 있어, 산책하며 둘러볼 수 있다. 또한, 기획전시실과 특별전시실에서는 연중 다채롭고 흥미로운 전시가 열리며, 박물관 교육의 활성화를 위해 해솔관에 다양한 교육 시설을 마련하고 세대별·계층별 맞춤형 교육 프로그램을 연중 운영하고 있다. 대구와 경상북도의 문화유산을 보존,연구,전시,교육하는 국립박물관",
+      "fusion_score": 0.016129032258064516,
+      "retrieved_by": [
+        "bm25"
+      ],
+      "fusion_rank": 5,
+      "rerank_score": 0.0004250997444614768,
+      "rank": 5,
+      "score": 0.016129032258064516,
+      "score_type": "rrf_low_confidence_rerank",
+      "distance": null,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "bm25"
+      ],
+      "retriever": "bm25",
+      "span_id": "chroma:M0681",
+      "source_doc_ids": [
+        "DOC-B0681-TOUR_API-130132",
+        "DOC-B0681-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0681-TOUR_API-130132",
+          "source_type": "TOUR_API",
+          "source_record_id": "130132",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=141",
+          "match_trust": "RECHECKED_BY_RULE_NOT_HUMAN_APPROVED"
+        },
+        {
+          "doc_id": "DOC-B0681-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0681",
+          "source_locator": "data/raw/museum_base_1070.csv#row=682",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 66,
+          "doc_ids": [
+            "DOC-B0681-TOUR_API-130132"
+          ]
+        },
+        {
+          "start": 67,
+          "end": 135,
+          "doc_ids": [
+            "DOC-B0681-TOUR_API-130132"
+          ]
+        },
+        {
+          "start": 136,
+          "end": 244,
+          "doc_ids": [
+            "DOC-B0681-TOUR_API-130132"
+          ]
+        },
+        {
+          "start": 245,
+          "end": 322,
+          "doc_ids": [
+            "DOC-B0681-TOUR_API-130132"
+          ]
+        },
+        {
+          "start": 323,
+          "end": 383,
+          "doc_ids": [
+            "DOC-B0681-TOUR_API-130132"
+          ]
+        },
+        {
+          "start": 384,
+          "end": 465,
+          "doc_ids": [
+            "DOC-B0681-TOUR_API-130132"
+          ]
+        },
+        {
+          "start": 466,
+          "end": 577,
+          "doc_ids": [
+            "DOC-B0681-TOUR_API-130132"
+          ]
+        },
+        {
+          "start": 578,
+          "end": 613,
+          "doc_ids": [
+            "DOC-B0681-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=141",
+      "text": "국립대구박물관은 대구와 경상북도의 문화유산을 보존·연구·전시·교육하는 문화시설로, 1994년 12월 7일 문을 열었다. 2006년 10월 19일에는 박물관 건물 남쪽에 수장고를 추가하고, 북쪽에는 사회교육관인 해솔관과 특별전시실을 증축하였다. 이후, 지방 국립박물관 전시의 특성화와 안정적인 전시 환경 확보를 위해 상설전시실 재개편 공사를 시행하였으며, 2010년 7월 19일에는 고대문화실, 중세문화실, 복식문화실을 새롭게 개관하였다. 특히, 기존의 민속실을 대신해 새로 문을 연 복식문화실은 대구가 섬유·복식 산업을 기반으로 근대 도시로 성장한 배경을 바탕으로 조성되었다. 이 공간에서는 우리 삶에서 큰 부분을 차지하는 옷의 역사를 국내외의 다양한 자료를 통해 교체·전시하고 있다. 야외 전시장에는 청동기 시대의 고인돌과 집터, 삼국 시대의 토기가마, 통일신라 시대의 석탑 등이 곳곳에 전시되어 있어, 산책하며 둘러볼 수 있다. 또한, 기획전시실과 특별전시실에서는 연중 다채롭고 흥미로운 전시가 열리며, 박물관 교육의 활성화를 위해 해솔관에 다양한 교육 시설을 마련하고 세대별·계층별 맞춤형 교육 프로그램을 연중 운영하고 있다. 대구와 경상북도의 문화유산을 보존,연구,전시,교육하는 국립박물관",
+      "sido": "대구광역시",
+      "sigungu": "수성구",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=141"
+      ],
+      "evidence_id": "E5",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=470",
+        "fields": {
+          "name": "국립대구박물관",
+          "sido": "대구광역시",
+          "sigungu": "수성구",
+          "address": "대구광역시 수성구 청호로 321",
+          "ownership_type": "국립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "09:00",
+          "weekday_close": "18:00",
+          "holiday_open": "09:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "매주 월요일(월요일이 공휴일이면 개관 후 다음 첫 평일 휴관), 1월 1일, 설날·추석 당일"
+        },
+        "base_data_date": "2025-12-10",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    }
+  ],
+  "answer": "아니요. 기록상 한국식기박물관은 일요일에 휴관합니다(휴관일 표기: “월+토+일”). [E1] 이 정보는 2026년 9월 19일 기준의 데이터이며, 실시간 운영 여부를 확인한 것은 아닙니다. [E1]",
+  "retrieval_status": "ok",
+  "answer_status": "answered",
+  "route": "hybrid",
+  "retry_count": 0,
+  "supervisor_verified": true,
+  "rerank_applied": true,
+  "retriever_errors": [],
+  "warnings": [],
+  "duration_ms": 144787.51,
+  "error_type": "",
+  "hit_at_1": 1,
+  "hit_at_3": 1,
+  "hit_at_5": 1,
+  "recall_at_5": 1.0,
+  "mrr_at_10": 1.0
+}

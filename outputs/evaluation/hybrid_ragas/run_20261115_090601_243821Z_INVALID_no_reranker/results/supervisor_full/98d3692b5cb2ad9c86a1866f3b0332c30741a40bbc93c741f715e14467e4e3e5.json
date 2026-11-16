@@ -1,0 +1,723 @@
+{
+  "mode": "supervisor_full",
+  "question_id": "Q263",
+  "evidence": [
+    {
+      "museum_id": "M0451",
+      "name": "경북대학교 미술관",
+      "document": "경북대학교미술관은 지역에서 최초로 설립된 대학 미술관이자 공공미술관으로서 지역사회에 봉사하고 글로벌 시대에 문화역량을 강화하기 위해 2006년에 설립되었다. 전시 및 다양한 학술행사와 교육 프로그램을 개발·운영하여 대학 내 구성원 뿐만 아니라 일반 관객들에게 문화적 체험의 장을 제공하고 있다. 예술 전문기관으로서의 전문성과 함께 음악, 건축, 문학 등의 장르 간 상호 연계를 통한 복합문화 공간이다. 또 미술관을 찾는 관람객들에게 다양한 전시와 공연, 학술행사를 통해 삶의 여유와 문화적 욕구를 충족시킬 수 있도록 노력하는 장소이다. 지역 최초로 설립된 대학미술관이자 공공미술관으로 전시 및 다양한 학술행사와 교육프로그램을 개발 운영하고 있음 경북대학교 미술관은 지역사회에 봉사하고 글로벌 시대에 문화역량을 강화하기 위해 2006년 설립됨",
+      "metadata": {
+        "fee_notes": "기획전 또는 특별전의 경우 관람료가 책정될 수 있음",
+        "sido": "대구광역시",
+        "image_copyright": "Type3",
+        "holiday_open": "00:00",
+        "child_fee": 0.0,
+        "latitude": 35.88909849,
+        "sigungu": "북구",
+        "address": "대구광역시 북구 대학로 80(산격동)",
+        "ownership_type": "대학",
+        "homepage_url": "http://artmuseum.knu.ac.kr",
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "holiday_close": "00:00",
+        "weekday_open": "10:00",
+        "youth_fee": 0.0,
+        "amenities_raw": "전시실",
+        "source_types": "BASE|TOUR_API",
+        "adult_fee": 0.0,
+        "requires_manual_review": true,
+        "closure_rule_raw": "일요일+국정공휴일",
+        "name": "경북대학교 미술관",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/77/3089977_image2_1.JPG",
+        "longitude": 128.6143217,
+        "weekday_close": "18:00"
+      },
+      "vector_rank": 1,
+      "bm25_rank": 1,
+      "vector_distance": 0.3585445284843445,
+      "vector_score": null,
+      "bm25_score": 16.570903109811454,
+      "vector_document": "경북대학교미술관은 지역에서 최초로 설립된 대학 미술관이자 공공미술관으로서 지역사회에 봉사하고 글로벌 시대에 문화역량을 강화하기 위해 2006년에 설립되었다. 전시 및 다양한 학술행사와 교육 프로그램을 개발·운영하여 대학 내 구성원 뿐만 아니라 일반 관객들에게 문화적 체험의 장을 제공하고 있다. 예술 전문기관으로서의 전문성과 함께 음악, 건축, 문학 등의 장르 간 상호 연계를 통한 복합문화 공간이다. 또 미술관을 찾는 관람객들에게 다양한 전시와 공연, 학술행사를 통해 삶의 여유와 문화적 욕구를 충족시킬 수 있도록 노력하는 장소이다. 지역 최초로 설립된 대학미술관이자 공공미술관으로 전시 및 다양한 학술행사와 교육프로그램을 개발 운영하고 있음 경북대학교 미술관은 지역사회에 봉사하고 글로벌 시대에 문화역량을 강화하기 위해 2006년 설립됨",
+      "bm25_document": "경북대학교미술관은 지역에서 최초로 설립된 대학 미술관이자 공공미술관으로서 지역사회에 봉사하고 글로벌 시대에 문화역량을 강화하기 위해 2006년에 설립되었다. 전시 및 다양한 학술행사와 교육 프로그램을 개발·운영하여 대학 내 구성원 뿐만 아니라 일반 관객들에게 문화적 체험의 장을 제공하고 있다. 예술 전문기관으로서의 전문성과 함께 음악, 건축, 문학 등의 장르 간 상호 연계를 통한 복합문화 공간이다. 또 미술관을 찾는 관람객들에게 다양한 전시와 공연, 학술행사를 통해 삶의 여유와 문화적 욕구를 충족시킬 수 있도록 노력하는 장소이다. 지역 최초로 설립된 대학미술관이자 공공미술관으로 전시 및 다양한 학술행사와 교육프로그램을 개발 운영하고 있음 경북대학교 미술관은 지역사회에 봉사하고 글로벌 시대에 문화역량을 강화하기 위해 2006년 설립됨",
+      "best_span_id": "chroma:M0451",
+      "best_span_text": "경북대학교미술관은 지역에서 최초로 설립된 대학 미술관이자 공공미술관으로서 지역사회에 봉사하고 글로벌 시대에 문화역량을 강화하기 위해 2006년에 설립되었다. 전시 및 다양한 학술행사와 교육 프로그램을 개발·운영하여 대학 내 구성원 뿐만 아니라 일반 관객들에게 문화적 체험의 장을 제공하고 있다. 예술 전문기관으로서의 전문성과 함께 음악, 건축, 문학 등의 장르 간 상호 연계를 통한 복합문화 공간이다. 또 미술관을 찾는 관람객들에게 다양한 전시와 공연, 학술행사를 통해 삶의 여유와 문화적 욕구를 충족시킬 수 있도록 노력하는 장소이다. 지역 최초로 설립된 대학미술관이자 공공미술관으로 전시 및 다양한 학술행사와 교육프로그램을 개발 운영하고 있음 경북대학교 미술관은 지역사회에 봉사하고 글로벌 시대에 문화역량을 강화하기 위해 2006년 설립됨",
+      "fusion_score": 0.03278688524590164,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 1,
+      "name_match": true,
+      "rerank_score": null,
+      "rank": 1,
+      "score": 0.03278688524590164,
+      "score_type": "rrf",
+      "distance": 0.3585445284843445,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0451",
+      "source_doc_ids": [
+        "DOC-B0451-TOUR_API-3089983",
+        "DOC-B0451-BASE",
+        "DOC-B0684-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0451-TOUR_API-3089983",
+          "source_type": "TOUR_API",
+          "source_record_id": "3089983",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=216",
+          "match_trust": "RECHECKED_BY_RULE_NOT_HUMAN_APPROVED"
+        },
+        {
+          "doc_id": "DOC-B0451-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0451",
+          "source_locator": "data/raw/museum_base_1070.csv#row=452",
+          "match_trust": "BASE_SOURCE"
+        },
+        {
+          "doc_id": "DOC-B0684-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0684",
+          "source_locator": "data/raw/museum_base_1070.csv#row=685",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 87,
+          "doc_ids": [
+            "DOC-B0451-TOUR_API-3089983"
+          ]
+        },
+        {
+          "start": 88,
+          "end": 164,
+          "doc_ids": [
+            "DOC-B0451-TOUR_API-3089983"
+          ]
+        },
+        {
+          "start": 165,
+          "end": 224,
+          "doc_ids": [
+            "DOC-B0451-TOUR_API-3089983"
+          ]
+        },
+        {
+          "start": 225,
+          "end": 299,
+          "doc_ids": [
+            "DOC-B0451-TOUR_API-3089983"
+          ]
+        },
+        {
+          "start": 300,
+          "end": 360,
+          "doc_ids": [
+            "DOC-B0451-BASE"
+          ]
+        },
+        {
+          "start": 361,
+          "end": 414,
+          "doc_ids": [
+            "DOC-B0684-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=216",
+      "text": "경북대학교미술관은 지역에서 최초로 설립된 대학 미술관이자 공공미술관으로서 지역사회에 봉사하고 글로벌 시대에 문화역량을 강화하기 위해 2006년에 설립되었다. 전시 및 다양한 학술행사와 교육 프로그램을 개발·운영하여 대학 내 구성원 뿐만 아니라 일반 관객들에게 문화적 체험의 장을 제공하고 있다. 예술 전문기관으로서의 전문성과 함께 음악, 건축, 문학 등의 장르 간 상호 연계를 통한 복합문화 공간이다. 또 미술관을 찾는 관람객들에게 다양한 전시와 공연, 학술행사를 통해 삶의 여유와 문화적 욕구를 충족시킬 수 있도록 노력하는 장소이다. 지역 최초로 설립된 대학미술관이자 공공미술관으로 전시 및 다양한 학술행사와 교육프로그램을 개발 운영하고 있음 경북대학교 미술관은 지역사회에 봉사하고 글로벌 시대에 문화역량을 강화하기 위해 2006년 설립됨",
+      "sido": "대구광역시",
+      "sigungu": "북구",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=216"
+      ],
+      "evidence_id": "E1",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=323",
+        "fields": {
+          "name": "경북대학교 미술관",
+          "sido": "대구광역시",
+          "sigungu": "북구",
+          "address": "대구광역시 북구 대학로 80(산격동)",
+          "ownership_type": "대학",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "10:00",
+          "weekday_close": "18:00",
+          "holiday_open": "00:00",
+          "holiday_close": "00:00",
+          "closure_rule_raw": "일요일+국정공휴일",
+          "amenities_raw": "전시실"
+        },
+        "base_data_date": "2026-04-17",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0901",
+      "name": "조선대학교 박물관",
+      "document": "조선대학교 박물관은 실물교육자료를 수집·연구·전시하고 교육과 학술 및 지역 발전에 이바지할 목적으로 설립되었습니다",
+      "metadata": {
+        "address": "광주광역시 동구 필문대로 309(서석동,조선대학교)",
+        "weekday_close": "17:00",
+        "source_types": "BASE",
+        "longitude": 126.934363,
+        "closure_rule_raw": "토+일+공휴일",
+        "ownership_type": "대학",
+        "holiday_close": "00:00",
+        "weekday_open": "10:00",
+        "youth_fee": 0.0,
+        "adult_fee": 0.0,
+        "holiday_open": "00:00",
+        "requires_manual_review": true,
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "sigungu": "동구",
+        "latitude": 35.146003,
+        "homepage_url": "http://www2.chosun.ac.kr/mbs/museum/",
+        "child_fee": 0.0,
+        "name": "조선대학교 박물관",
+        "sido": "광주광역시"
+      },
+      "vector_rank": 4,
+      "bm25_rank": 2,
+      "vector_distance": 0.4862304925918579,
+      "vector_score": null,
+      "bm25_score": 10.494859947807287,
+      "vector_document": "조선대학교 박물관은 실물교육자료를 수집·연구·전시하고 교육과 학술 및 지역 발전에 이바지할 목적으로 설립되었습니다",
+      "bm25_document": "조선대학교 박물관은 실물교육자료를 수집·연구·전시하고 교육과 학술 및 지역 발전에 이바지할 목적으로 설립되었습니다",
+      "best_span_id": "chroma:M0901",
+      "best_span_text": "조선대학교 박물관은 실물교육자료를 수집·연구·전시하고 교육과 학술 및 지역 발전에 이바지할 목적으로 설립되었습니다",
+      "fusion_score": 0.031754032258064516,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 2,
+      "rerank_score": null,
+      "rank": 2,
+      "score": 0.031754032258064516,
+      "score_type": "rrf",
+      "distance": 0.4862304925918579,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0901",
+      "source_doc_ids": [
+        "DOC-B0901-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0901-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0901",
+          "source_locator": "data/raw/museum_base_1070.csv#row=902",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 63,
+          "doc_ids": [
+            "DOC-B0901-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_base_1070.csv#row=902",
+      "text": "조선대학교 박물관은 실물교육자료를 수집·연구·전시하고 교육과 학술 및 지역 발전에 이바지할 목적으로 설립되었습니다",
+      "sido": "광주광역시",
+      "sigungu": "동구",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_base_1070.csv#row=902"
+      ],
+      "evidence_id": "E2",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=619",
+        "fields": {
+          "name": "조선대학교 박물관",
+          "sido": "광주광역시",
+          "sigungu": "동구",
+          "address": "광주광역시 동구 필문대로 309(서석동,조선대학교)",
+          "ownership_type": "대학",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "10:00",
+          "weekday_close": "17:00",
+          "holiday_open": "00:00",
+          "holiday_close": "00:00",
+          "closure_rule_raw": "토+일+공휴일"
+        },
+        "base_data_date": "2025-06-26",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0453",
+      "name": "경북대학교 박물관",
+      "document": "경북대학교 박물관은 1959년 개관 이래 유물의 수집과 보존, 전시, 연구 등을 통하여 대구, 경북지역의 문화유산 연구에 기여해 왔다. 박물관의 소장품으로는 국가지정유산 보물 7점을 포함하여 선사시대부터 근대 민속자료에 이르기까지 7천여 점의 수집품과 4만여 점의 발굴품을 소장하고 있다. 박물관은 7개의 실내 상설전시실과 야외 전시장을 운영하고 있다. 상설전시실은 순서대로 선사·삼국실, 가야·통일신라실, 고려실, 조선실, 민속·국악기실, 근대문화실이 있으며 제7전시실은 월파원 언덕 정상에 위치하여 최고의 전망을 자랑하는 석조물 전시실로 훼손이 우려되는 국가유산들을 실내 전시하여 특별 관리를 하고 있다. 월파원은 우리나라에서 가장 아름답게 조경된 야외 박물관 가운데 하나로 1965년에 조성되었다. 경북대학교 박물관은 문화강좌, 문화유적답사, 특별전시회 등 사회교육과 전시 기능을 강화하고 있으며, 초등학생 이상 학생 단체 관람객 가운데 신청팀에 한해 소장 유물 설명을 하는 프로그램을 운영하고 있다. 1959년 개관 이래 유물의 수집과 보존, 전시, 연구 등을 통하여 대구 경북지역의 중축적인 문화시설로서 그 역할을 수행하여 왔음 경북대학교 대구캠퍼스 내에 있는 박물관으로 최근에는 문화강좌, 문화유적답사, 특별전시회 등 사회교육과 전시 기능 강화",
+      "metadata": {
+        "sigungu": "북구",
+        "closure_rule_raw": "토·일요일, 공휴일 및 개교기념일 (임시휴관 가능)",
+        "image_copyright": "Type1",
+        "source_types": "BASE|TOUR_API",
+        "fee_notes": "일반인 관람 가능",
+        "homepage_url": "http://museum.knu.ac.kr/",
+        "weekday_open": "10:00",
+        "ownership_type": "대학",
+        "requires_manual_review": true,
+        "youth_fee": 0.0,
+        "name": "경북대학교 박물관",
+        "latitude": 35.88909849,
+        "address": "대구광역시 북구 대학로 80(산격동)",
+        "weekday_close": "17:00",
+        "sido": "대구광역시",
+        "child_fee": 0.0,
+        "amenities_raw": "기획전시실+상설전시실+야외전시장+자료정리실+보존과학실+도서실+시청각실+수장실",
+        "holiday_open": "00:00",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/05/3515805_image2_1.jpg",
+        "longitude": 128.6143217,
+        "adult_fee": 0.0,
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "holiday_close": "00:00"
+      },
+      "vector_rank": 3,
+      "bm25_rank": 19,
+      "vector_distance": 0.4667091369628906,
+      "vector_score": null,
+      "bm25_score": 6.070533846195344,
+      "vector_document": "경북대학교 박물관은 1959년 개관 이래 유물의 수집과 보존, 전시, 연구 등을 통하여 대구, 경북지역의 문화유산 연구에 기여해 왔다. 박물관의 소장품으로는 국가지정유산 보물 7점을 포함하여 선사시대부터 근대 민속자료에 이르기까지 7천여 점의 수집품과 4만여 점의 발굴품을 소장하고 있다. 박물관은 7개의 실내 상설전시실과 야외 전시장을 운영하고 있다. 상설전시실은 순서대로 선사·삼국실, 가야·통일신라실, 고려실, 조선실, 민속·국악기실, 근대문화실이 있으며 제7전시실은 월파원 언덕 정상에 위치하여 최고의 전망을 자랑하는 석조물 전시실로 훼손이 우려되는 국가유산들을 실내 전시하여 특별 관리를 하고 있다. 월파원은 우리나라에서 가장 아름답게 조경된 야외 박물관 가운데 하나로 1965년에 조성되었다. 경북대학교 박물관은 문화강좌, 문화유적답사, 특별전시회 등 사회교육과 전시 기능을 강화하고 있으며, 초등학생 이상 학생 단체 관람객 가운데 신청팀에 한해 소장 유물 설명을 하는 프로그램을 운영하고 있다. 1959년 개관 이래 유물의 수집과 보존, 전시, 연구 등을 통하여 대구 경북지역의 중축적인 문화시설로서 그 역할을 수행하여 왔음 경북대학교 대구캠퍼스 내에 있는 박물관으로 최근에는 문화강좌, 문화유적답사, 특별전시회 등 사회교육과 전시 기능 강화",
+      "bm25_document": "경북대학교 박물관은 1959년 개관 이래 유물의 수집과 보존, 전시, 연구 등을 통하여 대구, 경북지역의 문화유산 연구에 기여해 왔다. 박물관의 소장품으로는 국가지정유산 보물 7점을 포함하여 선사시대부터 근대 민속자료에 이르기까지 7천여 점의 수집품과 4만여 점의 발굴품을 소장하고 있다. 박물관은 7개의 실내 상설전시실과 야외 전시장을 운영하고 있다. 상설전시실은 순서대로 선사·삼국실, 가야·통일신라실, 고려실, 조선실, 민속·국악기실, 근대문화실이 있으며 제7전시실은 월파원 언덕 정상에 위치하여 최고의 전망을 자랑하는 석조물 전시실로 훼손이 우려되는 국가유산들을 실내 전시하여 특별 관리를 하고 있다. 월파원은 우리나라에서 가장 아름답게 조경된 야외 박물관 가운데 하나로 1965년에 조성되었다. 경북대학교 박물관은 문화강좌, 문화유적답사, 특별전시회 등 사회교육과 전시 기능을 강화하고 있으며, 초등학생 이상 학생 단체 관람객 가운데 신청팀에 한해 소장 유물 설명을 하는 프로그램을 운영하고 있다. 1959년 개관 이래 유물의 수집과 보존, 전시, 연구 등을 통하여 대구 경북지역의 중축적인 문화시설로서 그 역할을 수행하여 왔음 경북대학교 대구캠퍼스 내에 있는 박물관으로 최근에는 문화강좌, 문화유적답사, 특별전시회 등 사회교육과 전시 기능 강화",
+      "best_span_id": "chroma:M0453",
+      "best_span_text": "경북대학교 박물관은 1959년 개관 이래 유물의 수집과 보존, 전시, 연구 등을 통하여 대구, 경북지역의 문화유산 연구에 기여해 왔다. 박물관의 소장품으로는 국가지정유산 보물 7점을 포함하여 선사시대부터 근대 민속자료에 이르기까지 7천여 점의 수집품과 4만여 점의 발굴품을 소장하고 있다. 박물관은 7개의 실내 상설전시실과 야외 전시장을 운영하고 있다. 상설전시실은 순서대로 선사·삼국실, 가야·통일신라실, 고려실, 조선실, 민속·국악기실, 근대문화실이 있으며 제7전시실은 월파원 언덕 정상에 위치하여 최고의 전망을 자랑하는 석조물 전시실로 훼손이 우려되는 국가유산들을 실내 전시하여 특별 관리를 하고 있다. 월파원은 우리나라에서 가장 아름답게 조경된 야외 박물관 가운데 하나로 1965년에 조성되었다. 경북대학교 박물관은 문화강좌, 문화유적답사, 특별전시회 등 사회교육과 전시 기능을 강화하고 있으며, 초등학생 이상 학생 단체 관람객 가운데 신청팀에 한해 소장 유물 설명을 하는 프로그램을 운영하고 있다. 1959년 개관 이래 유물의 수집과 보존, 전시, 연구 등을 통하여 대구 경북지역의 중축적인 문화시설로서 그 역할을 수행하여 왔음 경북대학교 대구캠퍼스 내에 있는 박물관으로 최근에는 문화강좌, 문화유적답사, 특별전시회 등 사회교육과 전시 기능 강화",
+      "fusion_score": 0.028531243721117136,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 3,
+      "rerank_score": null,
+      "rank": 3,
+      "score": 0.028531243721117136,
+      "score_type": "rrf",
+      "distance": 0.4667091369628906,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0453",
+      "source_doc_ids": [
+        "DOC-B0453-TOUR_API-1115923",
+        "DOC-B0453-BASE",
+        "DOC-B0695-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0453-TOUR_API-1115923",
+          "source_type": "TOUR_API",
+          "source_record_id": "1115923",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=217",
+          "match_trust": "RECHECKED_BY_RULE_NOT_HUMAN_APPROVED"
+        },
+        {
+          "doc_id": "DOC-B0453-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0453",
+          "source_locator": "data/raw/museum_base_1070.csv#row=454",
+          "match_trust": "BASE_SOURCE"
+        },
+        {
+          "doc_id": "DOC-B0695-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0695",
+          "source_locator": "data/raw/museum_base_1070.csv#row=696",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 75,
+          "doc_ids": [
+            "DOC-B0453-TOUR_API-1115923"
+          ]
+        },
+        {
+          "start": 76,
+          "end": 161,
+          "doc_ids": [
+            "DOC-B0453-TOUR_API-1115923"
+          ]
+        },
+        {
+          "start": 162,
+          "end": 197,
+          "doc_ids": [
+            "DOC-B0453-TOUR_API-1115923"
+          ]
+        },
+        {
+          "start": 198,
+          "end": 340,
+          "doc_ids": [
+            "DOC-B0453-TOUR_API-1115923"
+          ]
+        },
+        {
+          "start": 341,
+          "end": 393,
+          "doc_ids": [
+            "DOC-B0453-TOUR_API-1115923"
+          ]
+        },
+        {
+          "start": 394,
+          "end": 507,
+          "doc_ids": [
+            "DOC-B0453-TOUR_API-1115923"
+          ]
+        },
+        {
+          "start": 508,
+          "end": 580,
+          "doc_ids": [
+            "DOC-B0453-BASE"
+          ]
+        },
+        {
+          "start": 581,
+          "end": 646,
+          "doc_ids": [
+            "DOC-B0695-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=217",
+      "text": "경북대학교 박물관은 1959년 개관 이래 유물의 수집과 보존, 전시, 연구 등을 통하여 대구, 경북지역의 문화유산 연구에 기여해 왔다. 박물관의 소장품으로는 국가지정유산 보물 7점을 포함하여 선사시대부터 근대 민속자료에 이르기까지 7천여 점의 수집품과 4만여 점의 발굴품을 소장하고 있다. 박물관은 7개의 실내 상설전시실과 야외 전시장을 운영하고 있다. 상설전시실은 순서대로 선사·삼국실, 가야·통일신라실, 고려실, 조선실, 민속·국악기실, 근대문화실이 있으며 제7전시실은 월파원 언덕 정상에 위치하여 최고의 전망을 자랑하는 석조물 전시실로 훼손이 우려되는 국가유산들을 실내 전시하여 특별 관리를 하고 있다. 월파원은 우리나라에서 가장 아름답게 조경된 야외 박물관 가운데 하나로 1965년에 조성되었다. 경북대학교 박물관은 문화강좌, 문화유적답사, 특별전시회 등 사회교육과 전시 기능을 강화하고 있으며, 초등학생 이상 학생 단체 관람객 가운데 신청팀에 한해 소장 유물 설명을 하는 프로그램을 운영하고 있다. 1959년 개관 이래 유물의 수집과 보존, 전시, 연구 등을 통하여 대구 경북지역의 중축적인 문화시설로서 그 역할을 수행하여 왔음 경북대학교 대구캠퍼스 내에 있는 박물관으로 최근에는 문화강좌, 문화유적답사, 특별전시회 등 사회교육과 전시 기능 강화",
+      "sido": "대구광역시",
+      "sigungu": "북구",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=217"
+      ],
+      "evidence_id": "E3",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=325",
+        "fields": {
+          "name": "경북대학교 박물관",
+          "sido": "대구광역시",
+          "sigungu": "북구",
+          "address": "대구광역시 북구 대학로 80(산격동)",
+          "ownership_type": "대학",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "10:00",
+          "weekday_close": "17:00",
+          "holiday_open": "00:00",
+          "holiday_close": "00:00",
+          "closure_rule_raw": "토·일요일, 공휴일 및 개교기념일 (임시휴관 가능)",
+          "amenities_raw": "기획전시실+상설전시실+야외전시장+자료정리실+보존과학실+도서실+시청각실+수장실"
+        },
+        "base_data_date": "2026-04-17",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0655",
+      "name": "대림미술관",
+      "document": "대림미술관은 서울 종로구 통의동에 위치한 사립 미술관으로 DL그룹 (구 대림그룹)에 의해 설립되었다. 1993년 대전에 개관한 한림갤러리에서 출발, 1997년 한국 최초의 사진 전문 미술관인 한림미술관을 운영하다 2002년 5월 서울로 이전해 현재의 대림미술관으로 재개관하며 디자인을 포함, 다양한 예술 장르를 넘나드는 감각적인 전시를 소개하며 그 영역을 확장하고 있다. 전시와 연계된 다양한 프로그램을 체험할 수 있으며, 일상 속에서 새로운 라이프스타일을 제안하는 문화 공간으로 자리하고 있다.",
+      "metadata": {
+        "homepage_url": "http://www.daelimmuseum.org/",
+        "requires_manual_review": true,
+        "longitude": 126.9733647,
+        "youth_fee": 9000.0,
+        "closure_rule_raw": "월요일+추석 연휴",
+        "image_copyright": "Type1",
+        "latitude": 37.57750352,
+        "sigungu": "종로구",
+        "weekday_close": "20:00",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/57/3571557_image2_1.jpg",
+        "holiday_close": "20:00",
+        "weekday_open": "11:00",
+        "adult_fee_status": "BASE_FEE_PAID",
+        "name": "대림미술관",
+        "ownership_type": "사립",
+        "sido": "서울특별시",
+        "holiday_open": "11:00",
+        "address": "서울특별시 종로구 자하문로 4길 21",
+        "source_types": "TOUR_API",
+        "adult_fee": 18000.0,
+        "child_fee": 6000.0
+      },
+      "vector_rank": 12,
+      "bm25_rank": 11,
+      "vector_distance": 0.5509464144706726,
+      "vector_score": null,
+      "bm25_score": 6.776230041384755,
+      "vector_document": "대림미술관은 서울 종로구 통의동에 위치한 사립 미술관으로 DL그룹 (구 대림그룹)에 의해 설립되었다. 1993년 대전에 개관한 한림갤러리에서 출발, 1997년 한국 최초의 사진 전문 미술관인 한림미술관을 운영하다 2002년 5월 서울로 이전해 현재의 대림미술관으로 재개관하며 디자인을 포함, 다양한 예술 장르를 넘나드는 감각적인 전시를 소개하며 그 영역을 확장하고 있다. 전시와 연계된 다양한 프로그램을 체험할 수 있으며, 일상 속에서 새로운 라이프스타일을 제안하는 문화 공간으로 자리하고 있다.",
+      "bm25_document": "대림미술관은 서울 종로구 통의동에 위치한 사립 미술관으로 DL그룹 (구 대림그룹)에 의해 설립되었다. 1993년 대전에 개관한 한림갤러리에서 출발, 1997년 한국 최초의 사진 전문 미술관인 한림미술관을 운영하다 2002년 5월 서울로 이전해 현재의 대림미술관으로 재개관하며 디자인을 포함, 다양한 예술 장르를 넘나드는 감각적인 전시를 소개하며 그 영역을 확장하고 있다. 전시와 연계된 다양한 프로그램을 체험할 수 있으며, 일상 속에서 새로운 라이프스타일을 제안하는 문화 공간으로 자리하고 있다.",
+      "best_span_id": "chroma:M0655",
+      "best_span_text": "대림미술관은 서울 종로구 통의동에 위치한 사립 미술관으로 DL그룹 (구 대림그룹)에 의해 설립되었다. 1993년 대전에 개관한 한림갤러리에서 출발, 1997년 한국 최초의 사진 전문 미술관인 한림미술관을 운영하다 2002년 5월 서울로 이전해 현재의 대림미술관으로 재개관하며 디자인을 포함, 다양한 예술 장르를 넘나드는 감각적인 전시를 소개하며 그 영역을 확장하고 있다. 전시와 연계된 다양한 프로그램을 체험할 수 있으며, 일상 속에서 새로운 라이프스타일을 제안하는 문화 공간으로 자리하고 있다.",
+      "fusion_score": 0.02797339593114241,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 4,
+      "rerank_score": null,
+      "rank": 4,
+      "score": 0.02797339593114241,
+      "score_type": "rrf",
+      "distance": 0.5509464144706726,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0655",
+      "source_doc_ids": [
+        "DOC-B0655-TOUR_API-130459"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0655-TOUR_API-130459",
+          "source_type": "TOUR_API",
+          "source_record_id": "130459",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=325",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 56,
+          "doc_ids": [
+            "DOC-B0655-TOUR_API-130459"
+          ]
+        },
+        {
+          "start": 57,
+          "end": 207,
+          "doc_ids": [
+            "DOC-B0655-TOUR_API-130459"
+          ]
+        },
+        {
+          "start": 208,
+          "end": 277,
+          "doc_ids": [
+            "DOC-B0655-TOUR_API-130459"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=325",
+      "text": "대림미술관은 서울 종로구 통의동에 위치한 사립 미술관으로 DL그룹 (구 대림그룹)에 의해 설립되었다. 1993년 대전에 개관한 한림갤러리에서 출발, 1997년 한국 최초의 사진 전문 미술관인 한림미술관을 운영하다 2002년 5월 서울로 이전해 현재의 대림미술관으로 재개관하며 디자인을 포함, 다양한 예술 장르를 넘나드는 감각적인 전시를 소개하며 그 영역을 확장하고 있다. 전시와 연계된 다양한 프로그램을 체험할 수 있으며, 일상 속에서 새로운 라이프스타일을 제안하는 문화 공간으로 자리하고 있다.",
+      "sido": "서울특별시",
+      "sigungu": "종로구",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=325"
+      ],
+      "evidence_id": "E4",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=451",
+        "fields": {
+          "name": "대림미술관",
+          "sido": "서울특별시",
+          "sigungu": "종로구",
+          "address": "서울특별시 종로구 자하문로 4길 21",
+          "ownership_type": "사립",
+          "adult_fee": "18000",
+          "youth_fee": "9000",
+          "child_fee": "6000",
+          "adult_fee_status": "BASE_FEE_PAID",
+          "weekday_open": "11:00",
+          "weekday_close": "20:00",
+          "holiday_open": "11:00",
+          "holiday_close": "20:00",
+          "closure_rule_raw": "월요일+추석 연휴"
+        },
+        "base_data_date": "2025-11-01",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0652",
+      "name": "동아대학교석당미술관",
+      "document": "석당미술관은 동아대학교의 설립자이신 석당 정재환 박사님의 교육업적과 예술정신을 이어가고자 설립 운영되고 있다. 동아대학교 예술대학 교수, 지역 예술가들의 작품을 비롯해 부산화단의 훌륭한 족적을 남기신 청초 이석우, 옻칠예술의 선구자 김성수 작품 등 현재까지 300여 점을 소장하고 있으며, 소장품 보존과 연구를 위해 노력하고 있다. 매년 다양한 주제의 기획전시를 통해 확장된 의미의 현대미술을 소개하고 미술전공자들의 창작의욕 고취를 위해 yaa(young artist artista) 전시를 개최하여 부산 경남지역 대학생들의 창작발표 기회를 제공하고 있기도 하다.",
+      "metadata": {
+        "name": "동아대학교석당미술관",
+        "latitude": 35.103747,
+        "longitude": 129.0194155,
+        "sido": "부산광역시",
+        "ownership_type": "대학",
+        "child_fee": 0.0,
+        "weekday_open": "09:30",
+        "amenities_raw": "화장실(장애인용 포함)+엘리베이터+유모차 및 휠체어 대여",
+        "requires_manual_review": true,
+        "closure_rule_raw": "법정공휴일+개교기념일(11월 1일)(미술관 사정에 따라 변경될 수 있음)",
+        "address": "부산광역시 서구 구덕로 225",
+        "transport_notes": "지하철 이용 시 1호선 토성동역에서 하차 2번출구 도보로 10분",
+        "adult_fee": 0.0,
+        "fee_notes": "해당없음",
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "youth_fee": 0.0,
+        "weekday_close": "17:00",
+        "holiday_open": "09:30",
+        "sigungu": "서구",
+        "holiday_close": "17:00",
+        "source_types": "BASE",
+        "homepage_url": "http://museumsd.donga.ac.kr"
+      },
+      "vector_rank": 2,
+      "bm25_rank": null,
+      "vector_distance": 0.4647884964942932,
+      "vector_score": null,
+      "bm25_score": null,
+      "vector_document": "석당미술관은 동아대학교의 설립자이신 석당 정재환 박사님의 교육업적과 예술정신을 이어가고자 설립 운영되고 있다. 동아대학교 예술대학 교수, 지역 예술가들의 작품을 비롯해 부산화단의 훌륭한 족적을 남기신 청초 이석우, 옻칠예술의 선구자 김성수 작품 등 현재까지 300여 점을 소장하고 있으며, 소장품 보존과 연구를 위해 노력하고 있다. 매년 다양한 주제의 기획전시를 통해 확장된 의미의 현대미술을 소개하고 미술전공자들의 창작의욕 고취를 위해 yaa(young artist artista) 전시를 개최하여 부산 경남지역 대학생들의 창작발표 기회를 제공하고 있기도 하다.",
+      "bm25_document": "",
+      "best_span_id": null,
+      "best_span_text": null,
+      "fusion_score": 0.016129032258064516,
+      "retrieved_by": [
+        "vector"
+      ],
+      "fusion_rank": 5,
+      "rerank_score": null,
+      "rank": 5,
+      "score": 0.016129032258064516,
+      "score_type": "rrf",
+      "distance": 0.4647884964942932,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector"
+      ],
+      "retriever": "vector",
+      "source_doc_ids": [
+        "DOC-B0652-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0652-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0652",
+          "source_locator": "data/raw/museum_base_1070.csv#row=653",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 61,
+          "doc_ids": [
+            "DOC-B0652-BASE"
+          ]
+        },
+        {
+          "start": 62,
+          "end": 185,
+          "doc_ids": [
+            "DOC-B0652-BASE"
+          ]
+        },
+        {
+          "start": 186,
+          "end": 315,
+          "doc_ids": [
+            "DOC-B0652-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_base_1070.csv#row=653",
+      "text": "석당미술관은 동아대학교의 설립자이신 석당 정재환 박사님의 교육업적과 예술정신을 이어가고자 설립 운영되고 있다. 동아대학교 예술대학 교수, 지역 예술가들의 작품을 비롯해 부산화단의 훌륭한 족적을 남기신 청초 이석우, 옻칠예술의 선구자 김성수 작품 등 현재까지 300여 점을 소장하고 있으며, 소장품 보존과 연구를 위해 노력하고 있다. 매년 다양한 주제의 기획전시를 통해 확장된 의미의 현대미술을 소개하고 미술전공자들의 창작의욕 고취를 위해 yaa(young artist artista) 전시를 개최하여 부산 경남지역 대학생들의 창작발표 기회를 제공하고 있기도 하다.",
+      "sido": "부산광역시",
+      "sigungu": "서구",
+      "span_id": "",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_base_1070.csv#row=653"
+      ],
+      "evidence_id": "E5",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=449",
+        "fields": {
+          "name": "동아대학교석당미술관",
+          "sido": "부산광역시",
+          "sigungu": "서구",
+          "address": "부산광역시 서구 구덕로 225",
+          "ownership_type": "대학",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "09:30",
+          "weekday_close": "17:00",
+          "holiday_open": "09:30",
+          "holiday_close": "17:00",
+          "closure_rule_raw": "법정공휴일+개교기념일(11월 1일)(미술관 사정에 따라 변경될 수 있음)",
+          "amenities_raw": "화장실(장애인용 포함)+엘리베이터+유모차 및 휠체어 대여"
+        },
+        "base_data_date": "2025-11-18",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    }
+  ],
+  "answer": "경북대학교 미술관은 2006년에 설립되었으며, 지역사회에 봉사하고 글로벌 시대에 문화역량을 강화하기 위한 목적이었습니다. [E1]",
+  "retrieval_status": "ok",
+  "answer_status": "answered",
+  "route": "hybrid",
+  "retry_count": 0,
+  "supervisor_verified": true,
+  "rerank_applied": false,
+  "retriever_errors": [],
+  "warnings": [
+    "Cross-Encoder reranking failed (FileNotFoundError); RRF order retained"
+  ],
+  "duration_ms": 9074.02,
+  "error_type": "",
+  "hit_at_1": 1,
+  "hit_at_3": 1,
+  "hit_at_5": 1,
+  "recall_at_5": 1.0,
+  "mrr_at_10": 1.0
+}

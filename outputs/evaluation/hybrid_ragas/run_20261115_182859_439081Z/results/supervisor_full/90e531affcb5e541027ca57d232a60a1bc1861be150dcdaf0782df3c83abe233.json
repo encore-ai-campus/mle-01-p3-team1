@@ -1,0 +1,705 @@
+{
+  "evidence_context_version": "grounded-evidence-v2",
+  "evaluation_contexts": [
+    "{\"evidence_context_version\": \"grounded-evidence-v2\", \"evidence_id\": \"E1\", \"metadata_provenance\": {\"base_data_date\": \"2026-06-17\", \"fields\": {\"address\": \"경기도 부천시 오정구 소사로 638\", \"adult_fee\": \"0\", \"adult_fee_status\": \"BASE_FEE_ZERO_CHECK_EXCEPTIONS\", \"child_fee\": \"0\", \"closure_rule_raw\": \"월(월요일이 공휴일인 경우 월요일 정상 개관 후 화요일에 휴관)+1월 1일+설 연휴+추석 연휴\", \"holiday_close\": \"18:00\", \"holiday_open\": \"09:30\", \"name\": \"부천시립박물관\", \"ownership_type\": \"공립\", \"sido\": \"경기도\", \"sigungu\": \"부천시\", \"weekday_close\": \"18:00\", \"weekday_open\": \"09:30\", \"youth_fee\": \"0\"}, \"source_kind\": \"derived_csv_row\", \"source_locator\": \"data/processed/museum_final_738.csv#record=283\", \"trust\": \"derived_dataset_not_human_verified\"}, \"museum_id\": \"M0399\", \"name\": \"부천시립박물관\", \"retrieval_branch\": \"document\", \"source_doc_ids\": [\"DOC-B0399-TOUR_API-2734888\", \"DOC-B0399-BASE\"], \"source_documents\": [{\"doc_id\": \"DOC-B0399-TOUR_API-2734888\", \"match_trust\": \"AUTO_MATCH_NOT_HUMAN_VERIFIED\", \"source_locator\": \"data/raw/museum_tourapi_with_overview.csv#row=184\", \"source_record_id\": \"2734888\", \"source_type\": \"TOUR_API\"}, {\"doc_id\": \"DOC-B0399-BASE\", \"match_trust\": \"BASE_SOURCE\", \"source_locator\": \"data/raw/museum_base_1070.csv#row=400\", \"source_record_id\": \"B0399\", \"source_type\": \"BASE\"}], \"source_locator\": \"data/raw/museum_tourapi_with_overview.csv#row=184\", \"source_locators\": [\"data/raw/museum_tourapi_with_overview.csv#row=184\"], \"source_scope\": \"text\", \"source_spans\": [{\"doc_ids\": [\"DOC-B0399-TOUR_API-2734888\"], \"end\": 191, \"start\": 0}, {\"doc_ids\": [\"DOC-B0399-TOUR_API-2734888\"], \"end\": 250, \"start\": 192}, {\"doc_ids\": [\"DOC-B0399-BASE\"], \"end\": 339, \"start\": 251}], \"source_urls\": [], \"text\": \"부천시립박물관은 삼국시대부터 현대에 이르기까지 대한민국 교육의 변천사를 살펴볼 수 있는 교육 전시실, 수백 년 동안 사랑받아 온 유럽 문화의 정수인 유럽자기 전시실, 억겁의 시간 동안 자연이 빚어낸 작품인 수석 전시실, 점말 옹기 터의 역사를 되돌아볼 수 있는 옹기 전시실과 부천 지역에서 출토된 유물이 있는 부천향토역사관으로 이루어져 있다. 문화도시 부천의 종합 박물관으로서 과거와 현재, 동양과 서양을 아우르는 다양한 소장품을 살펴볼 수 있다. 부천시립박물관은 선사시대부터 이어져오는 부천의 자랑스러운 역사를 알리고 계승하며 다양한 문화콘텐츠의 가치를 제고하여 시민을 위한 복합문화공간이 되고자 합니다.\"}",
+    "{\"evidence_context_version\": \"grounded-evidence-v2\", \"evidence_id\": \"E2\", \"metadata_provenance\": {\"base_data_date\": \"2026-06-17\", \"fields\": {\"address\": \"경기도 부천시 오정구 고리울로8번길 77\", \"adult_fee\": \"0\", \"adult_fee_status\": \"BASE_FEE_ZERO_CHECK_EXCEPTIONS\", \"child_fee\": \"0\", \"closure_rule_raw\": \"월(월요일이 공휴일인 경우 월요일 정상 개관 후 화요일에 휴관)+1월 1일+설 연휴+추석 연휴\", \"holiday_close\": \"18:00\", \"holiday_open\": \"09:00\", \"name\": \"고강선사유적체험관\", \"ownership_type\": \"공립\", \"sido\": \"경기도\", \"sigungu\": \"부천시\", \"weekday_close\": \"18:00\", \"weekday_open\": \"09:00\", \"youth_fee\": \"0\"}, \"source_kind\": \"derived_csv_row\", \"source_locator\": \"data/processed/museum_final_738.csv#record=279\", \"trust\": \"derived_dataset_not_human_verified\"}, \"museum_id\": \"M0392\", \"name\": \"고강선사유적체험관\", \"retrieval_branch\": \"document\", \"source_doc_ids\": [\"DOC-B0392-BASE\"], \"source_documents\": [{\"doc_id\": \"DOC-B0392-BASE\", \"match_trust\": \"BASE_SOURCE\", \"source_locator\": \"data/raw/museum_base_1070.csv#row=393\", \"source_record_id\": \"B0392\", \"source_type\": \"BASE\"}], \"source_locator\": \"data/raw/museum_base_1070.csv#row=393\", \"source_locators\": [\"data/raw/museum_base_1070.csv#row=393\"], \"source_scope\": \"text\", \"source_spans\": [{\"doc_ids\": [\"DOC-B0392-BASE\"], \"end\": 51, \"start\": 0}], \"source_urls\": [], \"text\": \"청동기시대 고강 선사 문화의 가치를 널리 알리기 위해 2022년 개관한 체험형 전시공간이다.\"}",
+    "{\"evidence_context_version\": \"grounded-evidence-v2\", \"evidence_id\": \"E3\", \"metadata_provenance\": {\"base_data_date\": \"2026-06-17\", \"fields\": {\"address\": \"경기도 부천시 소사구 성주로214번길 61\", \"adult_fee\": \"0\", \"adult_fee_status\": \"BASE_FEE_ZERO_CHECK_EXCEPTIONS\", \"child_fee\": \"0\", \"closure_rule_raw\": \"월(월요일이 공휴일인 경우 월요일 정상 개관 후 화요일에 휴관)+1월 1일+설 연휴+추석 연휴\", \"holiday_close\": \"18:00\", \"holiday_open\": \"09:30\", \"name\": \"부천펄벅기념관\", \"ownership_type\": \"공립\", \"sido\": \"경기도\", \"sigungu\": \"부천시\", \"weekday_close\": \"18:00\", \"weekday_open\": \"09:30\", \"youth_fee\": \"0\"}, \"source_kind\": \"derived_csv_row\", \"source_locator\": \"data/processed/museum_final_738.csv#record=281\", \"trust\": \"derived_dataset_not_human_verified\"}, \"museum_id\": \"M0397\", \"name\": \"부천펄벅기념관\", \"retrieval_branch\": \"document\", \"source_doc_ids\": [\"DOC-B0397-BASE\"], \"source_documents\": [{\"doc_id\": \"DOC-B0397-BASE\", \"match_trust\": \"BASE_SOURCE\", \"source_locator\": \"data/raw/museum_base_1070.csv#row=398\", \"source_record_id\": \"B0397\", \"source_type\": \"BASE\"}], \"source_locator\": \"data/raw/museum_base_1070.csv#row=398\", \"source_locators\": [\"data/raw/museum_base_1070.csv#row=398\"], \"source_scope\": \"text\", \"source_spans\": [{\"doc_ids\": [\"DOC-B0397-BASE\"], \"end\": 78, \"start\": 0}], \"source_urls\": [], \"text\": \"부천시는 한국에서 보여준 펄벅여사의 고귀한 박애정신을 기리기 위해 옛 소사희망원 터에 2006년 9월 30일 부천펄벅기념관을 설립하였습니다.\"}",
+    "{\"evidence_context_version\": \"grounded-evidence-v2\", \"evidence_id\": \"E4\", \"metadata_provenance\": {\"base_data_date\": \"2026-06-17\", \"fields\": {\"address\": \"경기도 부천시 오정구 고리울로8번길 77\", \"adult_fee\": \"0\", \"adult_fee_status\": \"BASE_FEE_ZERO_CHECK_EXCEPTIONS\", \"child_fee\": \"0\", \"closure_rule_raw\": \"월(월요일이 공휴일인 경우 월요일 정상 개관 후 화요일에 휴관)+1월 1일+설 연휴+추석 연휴\", \"holiday_close\": \"18:00\", \"holiday_open\": \"09:00\", \"name\": \"수주문학관\", \"ownership_type\": \"공립\", \"sido\": \"경기도\", \"sigungu\": \"부천시\", \"weekday_close\": \"18:00\", \"weekday_open\": \"09:00\", \"youth_fee\": \"0\"}, \"source_kind\": \"derived_csv_row\", \"source_locator\": \"data/processed/museum_final_738.csv#record=280\", \"trust\": \"derived_dataset_not_human_verified\"}, \"museum_id\": \"M0393\", \"name\": \"수주문학관\", \"retrieval_branch\": \"document\", \"source_doc_ids\": [\"DOC-B0393-TOUR_API-3453292\", \"DOC-B0393-BASE\"], \"source_documents\": [{\"doc_id\": \"DOC-B0393-TOUR_API-3453292\", \"match_trust\": \"RECHECKED_BY_RULE_NOT_HUMAN_APPROVED\", \"source_locator\": \"data/raw/museum_tourapi_with_overview.csv#row=182\", \"source_record_id\": \"3453292\", \"source_type\": \"TOUR_API\"}, {\"doc_id\": \"DOC-B0393-BASE\", \"match_trust\": \"BASE_SOURCE\", \"source_locator\": \"data/raw/museum_base_1070.csv#row=394\", \"source_record_id\": \"B0393\", \"source_type\": \"BASE\"}], \"source_locator\": \"data/raw/museum_tourapi_with_overview.csv#row=182\", \"source_locators\": [\"data/raw/museum_tourapi_with_overview.csv#row=182\"], \"source_scope\": \"text\", \"source_spans\": [{\"doc_ids\": [\"DOC-B0393-TOUR_API-3453292\"], \"end\": 73, \"start\": 0}, {\"doc_ids\": [\"DOC-B0393-TOUR_API-3453292\"], \"end\": 128, \"start\": 74}, {\"doc_ids\": [\"DOC-B0393-BASE\"], \"end\": 196, \"start\": 129}], \"source_urls\": [], \"text\": \"수주문학관은 경기도 부천시 고강동에 위치한 문화공간으로, 한국 근대문학의 시인인 수주 변영로 선생의 문학을 기리기 위해 설립되었다. 2022년에 개관하였으며, 다양한 전시와 문화행사를 통해 수주 시인의 삶과 작품을 소개하고 있다. 한국 근대문학을 개척한 선구적 문필가이자 부천의 시인인 수주 변영로의 문학정신과 작품을 기념하기 위해 조성된 문학관이다.\"}",
+    "{\"evidence_context_version\": \"grounded-evidence-v2\", \"evidence_id\": \"E5\", \"evidence_role\": \"anchor\", \"museum_id\": \"M0398\", \"name\": \"부천활박물관\", \"operator_raw_name\": \"부천문화재단\", \"org_type\": \"재단·비영리법인\", \"organization\": \"부천문화재단\", \"relation\": \"OPERATED_BY\", \"retrieval_branch\": \"graph\", \"sido\": \"경기도\", \"sigungu\": \"부천시\", \"source_doc_ids\": [\"DOC-B0398-BASE\", \"DOC-B0398-TOUR_API-130675\"], \"source_locator\": \"data/raw/museum_base_1070.csv#row=399\", \"source_locators\": [\"data/raw/museum_base_1070.csv#row=399\", \"data/raw/museum_tourapi_with_overview.csv#row=183\"], \"source_scope\": \"graph_properties\", \"source_urls\": [], \"text\": \"부천활박물관의 Neo4j operator_name(운영기관) 기록: 부천문화재단 (CSV 원문: 부천문화재단)\\n[Neo4j 구조화 근거] {\\\"museum_id\\\": \\\"M0398\\\", \\\"name\\\": \\\"부천활박물관\\\", \\\"relation\\\": \\\"OPERATED_BY\\\", \\\"organization\\\": \\\"부천문화재단\\\", \\\"org_key\\\": \\\"부천문화재단\\\", \\\"org_type\\\": \\\"재단·비영리법인\\\", \\\"raw_name\\\": \\\"부천문화재단\\\", \\\"verification_status\\\": \\\"SOURCE_RECORDED\\\"}\", \"verification_status\": \"SOURCE_RECORDED\"}",
+    "{\"anchor_operator_raw_name\": \"부천문화재단\", \"evidence_context_version\": \"grounded-evidence-v2\", \"evidence_id\": \"E6\", \"facility_type\": \"체험관\", \"graph_path\": \"anchor -[:OPERATED_BY]-> Organization <-[:OPERATED_BY]- candidate\", \"museum_id\": \"M0392\", \"name\": \"고강선사유적체험관\", \"operator_raw_name\": \"부천문화재단\", \"org_type\": \"재단·비영리법인\", \"organization\": \"부천문화재단\", \"relation\": \"OPERATED_BY\", \"retrieval_branch\": \"graph\", \"sido\": \"경기도\", \"sigungu\": \"부천시\", \"source_doc_ids\": [\"DOC-B0392-BASE\"], \"source_locator\": \"data/raw/museum_base_1070.csv#row=393\", \"source_locators\": [\"data/raw/museum_base_1070.csv#row=393\"], \"source_scope\": \"graph_properties\", \"source_urls\": [], \"text\": \"{anchor_raw_name: 부천문화재단, candidate_raw_name: 부천문화재단, org_key: 부천문화재단, organization: 부천문화재단, relation: OPERATED_BY, verification_status: SOURCE_RECORDED}\", \"verification_status\": \"SOURCE_RECORDED\"}",
+    "{\"anchor_operator_raw_name\": \"부천문화재단\", \"evidence_context_version\": \"grounded-evidence-v2\", \"evidence_id\": \"E7\", \"facility_type\": \"박물관\", \"graph_path\": \"anchor -[:OPERATED_BY]-> Organization <-[:OPERATED_BY]- candidate\", \"museum_id\": \"M0399\", \"name\": \"부천시립박물관\", \"operator_raw_name\": \"부천문화재단\", \"org_type\": \"재단·비영리법인\", \"organization\": \"부천문화재단\", \"relation\": \"OPERATED_BY\", \"retrieval_branch\": \"graph\", \"sido\": \"경기도\", \"sigungu\": \"부천시\", \"source_doc_ids\": [\"DOC-B0399-BASE\", \"DOC-B0399-TOUR_API-2734888\"], \"source_locator\": \"data/raw/museum_base_1070.csv#row=400\", \"source_locators\": [\"data/raw/museum_base_1070.csv#row=400\", \"data/raw/museum_tourapi_with_overview.csv#row=184\"], \"source_scope\": \"graph_properties\", \"source_urls\": [], \"text\": \"{anchor_raw_name: 부천문화재단, candidate_raw_name: 부천문화재단, org_key: 부천문화재단, organization: 부천문화재단, relation: OPERATED_BY, verification_status: SOURCE_RECORDED}\", \"verification_status\": \"SOURCE_RECORDED\"}",
+    "{\"anchor_operator_raw_name\": \"부천문화재단\", \"evidence_context_version\": \"grounded-evidence-v2\", \"evidence_id\": \"E8\", \"facility_type\": \"기념관\", \"graph_path\": \"anchor -[:OPERATED_BY]-> Organization <-[:OPERATED_BY]- candidate\", \"museum_id\": \"M0397\", \"name\": \"부천펄벅기념관\", \"operator_raw_name\": \"부천문화재단\", \"org_type\": \"재단·비영리법인\", \"organization\": \"부천문화재단\", \"relation\": \"OPERATED_BY\", \"retrieval_branch\": \"graph\", \"sido\": \"경기도\", \"sigungu\": \"부천시\", \"source_doc_ids\": [\"DOC-B0397-BASE\"], \"source_locator\": \"data/raw/museum_base_1070.csv#row=398\", \"source_locators\": [\"data/raw/museum_base_1070.csv#row=398\"], \"source_scope\": \"graph_properties\", \"source_urls\": [], \"text\": \"{anchor_raw_name: 부천문화재단, candidate_raw_name: 부천문화재단, org_key: 부천문화재단, organization: 부천문화재단, relation: OPERATED_BY, verification_status: SOURCE_RECORDED}\", \"verification_status\": \"SOURCE_RECORDED\"}",
+    "{\"anchor_operator_raw_name\": \"부천문화재단\", \"evidence_context_version\": \"grounded-evidence-v2\", \"evidence_id\": \"E9\", \"facility_type\": \"문학관\", \"graph_path\": \"anchor -[:OPERATED_BY]-> Organization <-[:OPERATED_BY]- candidate\", \"museum_id\": \"M0393\", \"name\": \"수주문학관\", \"operator_raw_name\": \"부천문화재단\", \"org_type\": \"재단·비영리법인\", \"organization\": \"부천문화재단\", \"relation\": \"OPERATED_BY\", \"retrieval_branch\": \"graph\", \"sido\": \"경기도\", \"sigungu\": \"부천시\", \"source_doc_ids\": [\"DOC-B0393-BASE\", \"DOC-B0393-TOUR_API-3453292\"], \"source_locator\": \"data/raw/museum_base_1070.csv#row=394\", \"source_locators\": [\"data/raw/museum_base_1070.csv#row=394\", \"data/raw/museum_tourapi_with_overview.csv#row=182\"], \"source_scope\": \"graph_properties\", \"source_urls\": [], \"text\": \"{anchor_raw_name: 부천문화재단, candidate_raw_name: 부천문화재단, org_key: 부천문화재단, organization: 부천문화재단, relation: OPERATED_BY, verification_status: SOURCE_RECORDED}\", \"verification_status\": \"SOURCE_RECORDED\"}"
+  ],
+  "mode": "supervisor_full",
+  "question_id": "V2-CB10",
+  "evidence": [
+    {
+      "museum_id": "M0399",
+      "name": "부천시립박물관",
+      "document": "부천시립박물관은 삼국시대부터 현대에 이르기까지 대한민국 교육의 변천사를 살펴볼 수 있는 교육 전시실, 수백 년 동안 사랑받아 온 유럽 문화의 정수인 유럽자기 전시실, 억겁의 시간 동안 자연이 빚어낸 작품인 수석 전시실, 점말 옹기 터의 역사를 되돌아볼 수 있는 옹기 전시실과 부천 지역에서 출토된 유물이 있는 부천향토역사관으로 이루어져 있다. 문화도시 부천의 종합 박물관으로서 과거와 현재, 동양과 서양을 아우르는 다양한 소장품을 살펴볼 수 있다. 부천시립박물관은 선사시대부터 이어져오는 부천의 자랑스러운 역사를 알리고 계승하며 다양한 문화콘텐츠의 가치를 제고하여 시민을 위한 복합문화공간이 되고자 합니다.",
+      "metadata": {
+        "address": "경기도 부천시 오정구 소사로 638",
+        "weekday_close": "18:00",
+        "transport_notes": "7호선 부천종합운동장역(2번출구) 에서  도보로 15분  버스 환승은 95번 60번으로 5분 정도 소요",
+        "longitude": 126.80175,
+        "sigungu": "부천시",
+        "youth_fee": 0.0,
+        "name": "부천시립박물관",
+        "latitude": 37.51364,
+        "holiday_open": "09:30",
+        "closure_rule_raw": "월(월요일이 공휴일인 경우 월요일 정상 개관 후 화요일에 휴관)+1월 1일+설 연휴+추석 연휴",
+        "ownership_type": "공립",
+        "sido": "경기도",
+        "holiday_close": "18:00",
+        "fee_notes": "0",
+        "adult_fee": 0.0,
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/70/4119570_image2_1.jpg",
+        "requires_manual_review": true,
+        "image_copyright": "Type1",
+        "source_types": "BASE|TOUR_API",
+        "weekday_open": "09:30",
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "child_fee": 0.0,
+        "homepage_url": "http://www.bcmuseum.or.kr"
+      },
+      "vector_rank": 1,
+      "bm25_rank": 1,
+      "vector_distance": 0.503740668296814,
+      "vector_score": null,
+      "bm25_score": 9.032303169653805,
+      "vector_document": "부천시립박물관은 삼국시대부터 현대에 이르기까지 대한민국 교육의 변천사를 살펴볼 수 있는 교육 전시실, 수백 년 동안 사랑받아 온 유럽 문화의 정수인 유럽자기 전시실, 억겁의 시간 동안 자연이 빚어낸 작품인 수석 전시실, 점말 옹기 터의 역사를 되돌아볼 수 있는 옹기 전시실과 부천 지역에서 출토된 유물이 있는 부천향토역사관으로 이루어져 있다. 문화도시 부천의 종합 박물관으로서 과거와 현재, 동양과 서양을 아우르는 다양한 소장품을 살펴볼 수 있다. 부천시립박물관은 선사시대부터 이어져오는 부천의 자랑스러운 역사를 알리고 계승하며 다양한 문화콘텐츠의 가치를 제고하여 시민을 위한 복합문화공간이 되고자 합니다.",
+      "bm25_document": "부천시립박물관은 삼국시대부터 현대에 이르기까지 대한민국 교육의 변천사를 살펴볼 수 있는 교육 전시실, 수백 년 동안 사랑받아 온 유럽 문화의 정수인 유럽자기 전시실, 억겁의 시간 동안 자연이 빚어낸 작품인 수석 전시실, 점말 옹기 터의 역사를 되돌아볼 수 있는 옹기 전시실과 부천 지역에서 출토된 유물이 있는 부천향토역사관으로 이루어져 있다. 문화도시 부천의 종합 박물관으로서 과거와 현재, 동양과 서양을 아우르는 다양한 소장품을 살펴볼 수 있다. 부천시립박물관은 선사시대부터 이어져오는 부천의 자랑스러운 역사를 알리고 계승하며 다양한 문화콘텐츠의 가치를 제고하여 시민을 위한 복합문화공간이 되고자 합니다.",
+      "best_span_id": "chroma:M0399",
+      "best_span_text": "부천시립박물관은 삼국시대부터 현대에 이르기까지 대한민국 교육의 변천사를 살펴볼 수 있는 교육 전시실, 수백 년 동안 사랑받아 온 유럽 문화의 정수인 유럽자기 전시실, 억겁의 시간 동안 자연이 빚어낸 작품인 수석 전시실, 점말 옹기 터의 역사를 되돌아볼 수 있는 옹기 전시실과 부천 지역에서 출토된 유물이 있는 부천향토역사관으로 이루어져 있다. 문화도시 부천의 종합 박물관으로서 과거와 현재, 동양과 서양을 아우르는 다양한 소장품을 살펴볼 수 있다. 부천시립박물관은 선사시대부터 이어져오는 부천의 자랑스러운 역사를 알리고 계승하며 다양한 문화콘텐츠의 가치를 제고하여 시민을 위한 복합문화공간이 되고자 합니다.",
+      "fusion_score": 0.03278688524590164,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 1,
+      "rerank_score": 0.6143337488174438,
+      "rank": 1,
+      "score": 0.6143337488174438,
+      "score_type": "cross_encoder",
+      "distance": 0.503740668296814,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0399",
+      "source_doc_ids": [
+        "DOC-B0399-TOUR_API-2734888",
+        "DOC-B0399-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0399-TOUR_API-2734888",
+          "source_type": "TOUR_API",
+          "source_record_id": "2734888",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=184",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        },
+        {
+          "doc_id": "DOC-B0399-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0399",
+          "source_locator": "data/raw/museum_base_1070.csv#row=400",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 191,
+          "doc_ids": [
+            "DOC-B0399-TOUR_API-2734888"
+          ]
+        },
+        {
+          "start": 192,
+          "end": 250,
+          "doc_ids": [
+            "DOC-B0399-TOUR_API-2734888"
+          ]
+        },
+        {
+          "start": 251,
+          "end": 339,
+          "doc_ids": [
+            "DOC-B0399-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=184",
+      "text": "부천시립박물관은 삼국시대부터 현대에 이르기까지 대한민국 교육의 변천사를 살펴볼 수 있는 교육 전시실, 수백 년 동안 사랑받아 온 유럽 문화의 정수인 유럽자기 전시실, 억겁의 시간 동안 자연이 빚어낸 작품인 수석 전시실, 점말 옹기 터의 역사를 되돌아볼 수 있는 옹기 전시실과 부천 지역에서 출토된 유물이 있는 부천향토역사관으로 이루어져 있다. 문화도시 부천의 종합 박물관으로서 과거와 현재, 동양과 서양을 아우르는 다양한 소장품을 살펴볼 수 있다. 부천시립박물관은 선사시대부터 이어져오는 부천의 자랑스러운 역사를 알리고 계승하며 다양한 문화콘텐츠의 가치를 제고하여 시민을 위한 복합문화공간이 되고자 합니다.",
+      "sido": "경기도",
+      "sigungu": "부천시",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=184"
+      ],
+      "evidence_id": "E1",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=283",
+        "fields": {
+          "name": "부천시립박물관",
+          "sido": "경기도",
+          "sigungu": "부천시",
+          "address": "경기도 부천시 오정구 소사로 638",
+          "ownership_type": "공립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "09:30",
+          "weekday_close": "18:00",
+          "holiday_open": "09:30",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "월(월요일이 공휴일인 경우 월요일 정상 개관 후 화요일에 휴관)+1월 1일+설 연휴+추석 연휴"
+        },
+        "base_data_date": "2026-06-17",
+        "trust": "derived_dataset_not_human_verified"
+      },
+      "retrieval_branch": "document"
+    },
+    {
+      "museum_id": "M0392",
+      "name": "고강선사유적체험관",
+      "document": "청동기시대 고강 선사 문화의 가치를 널리 알리기 위해 2022년 개관한 체험형 전시공간이다.",
+      "metadata": {
+        "weekday_open": "09:00",
+        "source_types": "BASE",
+        "fee_notes": "0",
+        "sigungu": "부천시",
+        "homepage_url": "http://www.bcmuseum.or.kr",
+        "transport_notes": "원종역 2번출구에서 도보로 19분",
+        "address": "경기도 부천시 오정구 고리울로8번길 77",
+        "holiday_close": "18:00",
+        "requires_manual_review": true,
+        "sido": "경기도",
+        "child_fee": 0.0,
+        "longitude": 126.81865,
+        "holiday_open": "09:00",
+        "youth_fee": 0.0,
+        "closure_rule_raw": "월(월요일이 공휴일인 경우 월요일 정상 개관 후 화요일에 휴관)+1월 1일+설 연휴+추석 연휴",
+        "adult_fee": 0.0,
+        "latitude": 37.52438,
+        "weekday_close": "18:00",
+        "ownership_type": "공립",
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "name": "고강선사유적체험관"
+      },
+      "vector_rank": 2,
+      "bm25_rank": 2,
+      "vector_distance": 0.5431019067764282,
+      "vector_score": null,
+      "bm25_score": 5.570947489254595,
+      "vector_document": "청동기시대 고강 선사 문화의 가치를 널리 알리기 위해 2022년 개관한 체험형 전시공간이다.",
+      "bm25_document": "청동기시대 고강 선사 문화의 가치를 널리 알리기 위해 2022년 개관한 체험형 전시공간이다.",
+      "best_span_id": "chroma:M0392",
+      "best_span_text": "청동기시대 고강 선사 문화의 가치를 널리 알리기 위해 2022년 개관한 체험형 전시공간이다.",
+      "fusion_score": 0.03225806451612903,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 2,
+      "rerank_score": 0.08768106251955032,
+      "rank": 2,
+      "score": 0.08768106251955032,
+      "score_type": "cross_encoder",
+      "distance": 0.5431019067764282,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0392",
+      "source_doc_ids": [
+        "DOC-B0392-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0392-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0392",
+          "source_locator": "data/raw/museum_base_1070.csv#row=393",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 51,
+          "doc_ids": [
+            "DOC-B0392-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_base_1070.csv#row=393",
+      "text": "청동기시대 고강 선사 문화의 가치를 널리 알리기 위해 2022년 개관한 체험형 전시공간이다.",
+      "sido": "경기도",
+      "sigungu": "부천시",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_base_1070.csv#row=393"
+      ],
+      "evidence_id": "E2",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=279",
+        "fields": {
+          "name": "고강선사유적체험관",
+          "sido": "경기도",
+          "sigungu": "부천시",
+          "address": "경기도 부천시 오정구 고리울로8번길 77",
+          "ownership_type": "공립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "09:00",
+          "weekday_close": "18:00",
+          "holiday_open": "09:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "월(월요일이 공휴일인 경우 월요일 정상 개관 후 화요일에 휴관)+1월 1일+설 연휴+추석 연휴"
+        },
+        "base_data_date": "2026-06-17",
+        "trust": "derived_dataset_not_human_verified"
+      },
+      "retrieval_branch": "document"
+    },
+    {
+      "museum_id": "M0397",
+      "name": "부천펄벅기념관",
+      "document": "부천시는 한국에서 보여준 펄벅여사의 고귀한 박애정신을 기리기 위해 옛 소사희망원 터에 2006년 9월 30일 부천펄벅기념관을 설립하였습니다.",
+      "metadata": {
+        "homepage_url": "http://www.bcmuseum.or.kr",
+        "fee_notes": "0",
+        "ownership_type": "공립",
+        "holiday_open": "09:30",
+        "youth_fee": 0.0,
+        "address": "경기도 부천시 소사구 성주로214번길 61",
+        "source_types": "BASE",
+        "requires_manual_review": true,
+        "latitude": 37.4755,
+        "sigungu": "부천시",
+        "weekday_open": "09:30",
+        "closure_rule_raw": "월(월요일이 공휴일인 경우 월요일 정상 개관 후 화요일에 휴관)+1월 1일+설 연휴+추석 연휴",
+        "name": "부천펄벅기념관",
+        "longitude": 126.78171,
+        "child_fee": 0.0,
+        "transport_notes": "지하철 1호선 부천역 4번 출구에서 6-2  015번 버스환승하시거나 도보 가능( 20분 소요)",
+        "holiday_close": "18:00",
+        "adult_fee": 0.0,
+        "weekday_close": "18:00",
+        "sido": "경기도",
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS"
+      },
+      "vector_rank": 3,
+      "bm25_rank": null,
+      "vector_distance": 0.6257685422897339,
+      "vector_score": null,
+      "bm25_score": null,
+      "vector_document": "부천시는 한국에서 보여준 펄벅여사의 고귀한 박애정신을 기리기 위해 옛 소사희망원 터에 2006년 9월 30일 부천펄벅기념관을 설립하였습니다.",
+      "bm25_document": "",
+      "best_span_id": null,
+      "best_span_text": null,
+      "fusion_score": 0.015873015873015872,
+      "retrieved_by": [
+        "vector"
+      ],
+      "fusion_rank": 4,
+      "rerank_score": 0.00043302428093738854,
+      "rank": 3,
+      "score": 0.00043302428093738854,
+      "score_type": "cross_encoder",
+      "distance": 0.6257685422897339,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector"
+      ],
+      "retriever": "vector",
+      "source_doc_ids": [
+        "DOC-B0397-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0397-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0397",
+          "source_locator": "data/raw/museum_base_1070.csv#row=398",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 78,
+          "doc_ids": [
+            "DOC-B0397-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_base_1070.csv#row=398",
+      "text": "부천시는 한국에서 보여준 펄벅여사의 고귀한 박애정신을 기리기 위해 옛 소사희망원 터에 2006년 9월 30일 부천펄벅기념관을 설립하였습니다.",
+      "sido": "경기도",
+      "sigungu": "부천시",
+      "span_id": "",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_base_1070.csv#row=398"
+      ],
+      "evidence_id": "E3",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=281",
+        "fields": {
+          "name": "부천펄벅기념관",
+          "sido": "경기도",
+          "sigungu": "부천시",
+          "address": "경기도 부천시 소사구 성주로214번길 61",
+          "ownership_type": "공립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "09:30",
+          "weekday_close": "18:00",
+          "holiday_open": "09:30",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "월(월요일이 공휴일인 경우 월요일 정상 개관 후 화요일에 휴관)+1월 1일+설 연휴+추석 연휴"
+        },
+        "base_data_date": "2026-06-17",
+        "trust": "derived_dataset_not_human_verified"
+      },
+      "retrieval_branch": "document"
+    },
+    {
+      "museum_id": "M0393",
+      "name": "수주문학관",
+      "document": "수주문학관은 경기도 부천시 고강동에 위치한 문화공간으로, 한국 근대문학의 시인인 수주 변영로 선생의 문학을 기리기 위해 설립되었다. 2022년에 개관하였으며, 다양한 전시와 문화행사를 통해 수주 시인의 삶과 작품을 소개하고 있다. 한국 근대문학을 개척한 선구적 문필가이자 부천의 시인인 수주 변영로의 문학정신과 작품을 기념하기 위해 조성된 문학관이다.",
+      "metadata": {
+        "child_fee": 0.0,
+        "requires_manual_review": true,
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "longitude": 126.81865,
+        "address": "경기도 부천시 오정구 고리울로8번길 77",
+        "sigungu": "부천시",
+        "sido": "경기도",
+        "latitude": 37.52438,
+        "transport_notes": "원종역 2번출구에서 도보로 19분",
+        "youth_fee": 0.0,
+        "image_url": "http://tong.visitkorea.or.kr/cms/resource/21/3453121_image2_1.JPG",
+        "fee_notes": "0",
+        "holiday_open": "09:00",
+        "homepage_url": "http://www.bcmuseum.or.kr",
+        "ownership_type": "공립",
+        "weekday_close": "18:00",
+        "closure_rule_raw": "월(월요일이 공휴일인 경우 월요일 정상 개관 후 화요일에 휴관)+1월 1일+설 연휴+추석 연휴",
+        "name": "수주문학관",
+        "source_types": "BASE|TOUR_API",
+        "weekday_open": "09:00",
+        "adult_fee": 0.0,
+        "image_copyright": "Type1",
+        "holiday_close": "18:00"
+      },
+      "vector_rank": 4,
+      "bm25_rank": 3,
+      "vector_distance": 0.6709014773368835,
+      "vector_score": null,
+      "bm25_score": 3.9481934674320724,
+      "vector_document": "수주문학관은 경기도 부천시 고강동에 위치한 문화공간으로, 한국 근대문학의 시인인 수주 변영로 선생의 문학을 기리기 위해 설립되었다. 2022년에 개관하였으며, 다양한 전시와 문화행사를 통해 수주 시인의 삶과 작품을 소개하고 있다. 한국 근대문학을 개척한 선구적 문필가이자 부천의 시인인 수주 변영로의 문학정신과 작품을 기념하기 위해 조성된 문학관이다.",
+      "bm25_document": "수주문학관은 경기도 부천시 고강동에 위치한 문화공간으로, 한국 근대문학의 시인인 수주 변영로 선생의 문학을 기리기 위해 설립되었다. 2022년에 개관하였으며, 다양한 전시와 문화행사를 통해 수주 시인의 삶과 작품을 소개하고 있다. 한국 근대문학을 개척한 선구적 문필가이자 부천의 시인인 수주 변영로의 문학정신과 작품을 기념하기 위해 조성된 문학관이다.",
+      "best_span_id": "chroma:M0393",
+      "best_span_text": "수주문학관은 경기도 부천시 고강동에 위치한 문화공간으로, 한국 근대문학의 시인인 수주 변영로 선생의 문학을 기리기 위해 설립되었다. 2022년에 개관하였으며, 다양한 전시와 문화행사를 통해 수주 시인의 삶과 작품을 소개하고 있다. 한국 근대문학을 개척한 선구적 문필가이자 부천의 시인인 수주 변영로의 문학정신과 작품을 기념하기 위해 조성된 문학관이다.",
+      "fusion_score": 0.03149801587301587,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 3,
+      "rerank_score": 0.00011023505794582888,
+      "rank": 4,
+      "score": 0.00011023505794582888,
+      "score_type": "cross_encoder",
+      "distance": 0.6709014773368835,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0393",
+      "source_doc_ids": [
+        "DOC-B0393-TOUR_API-3453292",
+        "DOC-B0393-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0393-TOUR_API-3453292",
+          "source_type": "TOUR_API",
+          "source_record_id": "3453292",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=182",
+          "match_trust": "RECHECKED_BY_RULE_NOT_HUMAN_APPROVED"
+        },
+        {
+          "doc_id": "DOC-B0393-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0393",
+          "source_locator": "data/raw/museum_base_1070.csv#row=394",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 73,
+          "doc_ids": [
+            "DOC-B0393-TOUR_API-3453292"
+          ]
+        },
+        {
+          "start": 74,
+          "end": 128,
+          "doc_ids": [
+            "DOC-B0393-TOUR_API-3453292"
+          ]
+        },
+        {
+          "start": 129,
+          "end": 196,
+          "doc_ids": [
+            "DOC-B0393-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=182",
+      "text": "수주문학관은 경기도 부천시 고강동에 위치한 문화공간으로, 한국 근대문학의 시인인 수주 변영로 선생의 문학을 기리기 위해 설립되었다. 2022년에 개관하였으며, 다양한 전시와 문화행사를 통해 수주 시인의 삶과 작품을 소개하고 있다. 한국 근대문학을 개척한 선구적 문필가이자 부천의 시인인 수주 변영로의 문학정신과 작품을 기념하기 위해 조성된 문학관이다.",
+      "sido": "경기도",
+      "sigungu": "부천시",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=182"
+      ],
+      "evidence_id": "E4",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=280",
+        "fields": {
+          "name": "수주문학관",
+          "sido": "경기도",
+          "sigungu": "부천시",
+          "address": "경기도 부천시 오정구 고리울로8번길 77",
+          "ownership_type": "공립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "09:00",
+          "weekday_close": "18:00",
+          "holiday_open": "09:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "월(월요일이 공휴일인 경우 월요일 정상 개관 후 화요일에 휴관)+1월 1일+설 연휴+추석 연휴"
+        },
+        "base_data_date": "2026-06-17",
+        "trust": "derived_dataset_not_human_verified"
+      },
+      "retrieval_branch": "document"
+    },
+    {
+      "museum_id": "M0398",
+      "name": "부천활박물관",
+      "text": "부천활박물관의 Neo4j operator_name(운영기관) 기록: 부천문화재단 (CSV 원문: 부천문화재단)\n[Neo4j 구조화 근거] {\"museum_id\": \"M0398\", \"name\": \"부천활박물관\", \"relation\": \"OPERATED_BY\", \"organization\": \"부천문화재단\", \"org_key\": \"부천문화재단\", \"org_type\": \"재단·비영리법인\", \"raw_name\": \"부천문화재단\", \"verification_status\": \"SOURCE_RECORDED\"}",
+      "span_id": "",
+      "source_doc_ids": [
+        "DOC-B0398-BASE",
+        "DOC-B0398-TOUR_API-130675"
+      ],
+      "source_urls": [],
+      "source_url": "",
+      "source_locators": [
+        "data/raw/museum_base_1070.csv#row=399",
+        "data/raw/museum_tourapi_with_overview.csv#row=183"
+      ],
+      "source_locator": "data/raw/museum_base_1070.csv#row=399",
+      "sido": "경기도",
+      "sigungu": "부천시",
+      "retriever": "graph",
+      "evidence_role": "anchor",
+      "source_scope": "graph_properties",
+      "relation": "OPERATED_BY",
+      "organization": "부천문화재단",
+      "org_type": "재단·비영리법인",
+      "operator_raw_name": "부천문화재단",
+      "verification_status": "SOURCE_RECORDED",
+      "metadata": {},
+      "chunk_id": "",
+      "retrievers": [
+        "graph"
+      ],
+      "evidence_id": "E5",
+      "retrieval_branch": "graph",
+      "rank": 5
+    },
+    {
+      "museum_id": "M0392",
+      "name": "고강선사유적체험관",
+      "text": "{anchor_raw_name: 부천문화재단, candidate_raw_name: 부천문화재단, org_key: 부천문화재단, organization: 부천문화재단, relation: OPERATED_BY, verification_status: SOURCE_RECORDED}",
+      "span_id": "",
+      "source_doc_ids": [
+        "DOC-B0392-BASE"
+      ],
+      "source_urls": [],
+      "source_url": "",
+      "source_locators": [
+        "data/raw/museum_base_1070.csv#row=393"
+      ],
+      "source_locator": "data/raw/museum_base_1070.csv#row=393",
+      "sido": "경기도",
+      "sigungu": "부천시",
+      "retriever": "graph",
+      "graph_path": "anchor -[:OPERATED_BY]-> Organization <-[:OPERATED_BY]- candidate",
+      "organization": "부천문화재단",
+      "org_type": "재단·비영리법인",
+      "operator_raw_name": "부천문화재단",
+      "anchor_operator_raw_name": "부천문화재단",
+      "relation": "OPERATED_BY",
+      "verification_status": "SOURCE_RECORDED",
+      "facility_type": "체험관",
+      "source_scope": "graph_properties",
+      "metadata": {},
+      "chunk_id": "",
+      "retrievers": [
+        "graph"
+      ],
+      "evidence_id": "E6",
+      "retrieval_branch": "graph",
+      "rank": 6
+    },
+    {
+      "museum_id": "M0399",
+      "name": "부천시립박물관",
+      "text": "{anchor_raw_name: 부천문화재단, candidate_raw_name: 부천문화재단, org_key: 부천문화재단, organization: 부천문화재단, relation: OPERATED_BY, verification_status: SOURCE_RECORDED}",
+      "span_id": "",
+      "source_doc_ids": [
+        "DOC-B0399-BASE",
+        "DOC-B0399-TOUR_API-2734888"
+      ],
+      "source_urls": [],
+      "source_url": "",
+      "source_locators": [
+        "data/raw/museum_base_1070.csv#row=400",
+        "data/raw/museum_tourapi_with_overview.csv#row=184"
+      ],
+      "source_locator": "data/raw/museum_base_1070.csv#row=400",
+      "sido": "경기도",
+      "sigungu": "부천시",
+      "retriever": "graph",
+      "graph_path": "anchor -[:OPERATED_BY]-> Organization <-[:OPERATED_BY]- candidate",
+      "organization": "부천문화재단",
+      "org_type": "재단·비영리법인",
+      "operator_raw_name": "부천문화재단",
+      "anchor_operator_raw_name": "부천문화재단",
+      "relation": "OPERATED_BY",
+      "verification_status": "SOURCE_RECORDED",
+      "facility_type": "박물관",
+      "source_scope": "graph_properties",
+      "metadata": {},
+      "chunk_id": "",
+      "retrievers": [
+        "graph"
+      ],
+      "evidence_id": "E7",
+      "retrieval_branch": "graph",
+      "rank": 7
+    },
+    {
+      "museum_id": "M0397",
+      "name": "부천펄벅기념관",
+      "text": "{anchor_raw_name: 부천문화재단, candidate_raw_name: 부천문화재단, org_key: 부천문화재단, organization: 부천문화재단, relation: OPERATED_BY, verification_status: SOURCE_RECORDED}",
+      "span_id": "",
+      "source_doc_ids": [
+        "DOC-B0397-BASE"
+      ],
+      "source_urls": [],
+      "source_url": "",
+      "source_locators": [
+        "data/raw/museum_base_1070.csv#row=398"
+      ],
+      "source_locator": "data/raw/museum_base_1070.csv#row=398",
+      "sido": "경기도",
+      "sigungu": "부천시",
+      "retriever": "graph",
+      "graph_path": "anchor -[:OPERATED_BY]-> Organization <-[:OPERATED_BY]- candidate",
+      "organization": "부천문화재단",
+      "org_type": "재단·비영리법인",
+      "operator_raw_name": "부천문화재단",
+      "anchor_operator_raw_name": "부천문화재단",
+      "relation": "OPERATED_BY",
+      "verification_status": "SOURCE_RECORDED",
+      "facility_type": "기념관",
+      "source_scope": "graph_properties",
+      "metadata": {},
+      "chunk_id": "",
+      "retrievers": [
+        "graph"
+      ],
+      "evidence_id": "E8",
+      "retrieval_branch": "graph",
+      "rank": 8
+    },
+    {
+      "museum_id": "M0393",
+      "name": "수주문학관",
+      "text": "{anchor_raw_name: 부천문화재단, candidate_raw_name: 부천문화재단, org_key: 부천문화재단, organization: 부천문화재단, relation: OPERATED_BY, verification_status: SOURCE_RECORDED}",
+      "span_id": "",
+      "source_doc_ids": [
+        "DOC-B0393-BASE",
+        "DOC-B0393-TOUR_API-3453292"
+      ],
+      "source_urls": [],
+      "source_url": "",
+      "source_locators": [
+        "data/raw/museum_base_1070.csv#row=394",
+        "data/raw/museum_tourapi_with_overview.csv#row=182"
+      ],
+      "source_locator": "data/raw/museum_base_1070.csv#row=394",
+      "sido": "경기도",
+      "sigungu": "부천시",
+      "retriever": "graph",
+      "graph_path": "anchor -[:OPERATED_BY]-> Organization <-[:OPERATED_BY]- candidate",
+      "organization": "부천문화재단",
+      "org_type": "재단·비영리법인",
+      "operator_raw_name": "부천문화재단",
+      "anchor_operator_raw_name": "부천문화재단",
+      "relation": "OPERATED_BY",
+      "verification_status": "SOURCE_RECORDED",
+      "facility_type": "문학관",
+      "source_scope": "graph_properties",
+      "metadata": {},
+      "chunk_id": "",
+      "retrievers": [
+        "graph"
+      ],
+      "evidence_id": "E9",
+      "retrieval_branch": "graph",
+      "rank": 9
+    }
+  ],
+  "answer": "확인 가능한 근거가 부족하여 답변을 보류했습니다. 확인하지 못한 내용: 고강선사유적체험관에서 선사시대 유적이나 유물을 실제로 볼 수 있다는 근거.",
+  "retrieval_status": "ok",
+  "answer_status": "abstained",
+  "route": "combined",
+  "retry_count": 0,
+  "supervisor_verified": false,
+  "rerank_applied": true,
+  "retriever_errors": [],
+  "warnings": [
+    "Only 4 candidates available; no artificial padding"
+  ],
+  "duration_ms": 82503.65,
+  "error_type": "",
+  "hit_at_1": 0,
+  "hit_at_3": 1,
+  "hit_at_5": 1,
+  "recall_at_5": 1.0,
+  "mrr_at_10": 0.5
+}

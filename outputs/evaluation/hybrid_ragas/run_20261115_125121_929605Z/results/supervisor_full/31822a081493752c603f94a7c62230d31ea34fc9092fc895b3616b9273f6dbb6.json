@@ -1,0 +1,819 @@
+{
+  "mode": "supervisor_full",
+  "question_id": "Q123",
+  "evidence": [
+    {
+      "museum_id": "M0191",
+      "name": "경상북도독립운동기념관",
+      "document": "경상북도독립운동기념관은 2007년 개관한 안동독립운동기념관을 2014년에 경상북도 전체의 기념관으로 승격·확장하여 2017년 6월 30일 다시 문을 열었다. 경북독립운동사에 관한 자료를 수집‧보존, 조사‧연구, 전시, 교육함으로써 민족의 자주독립을 지켜온 독립운동가들의 나라 사랑 정신을 계승하고 민족문화의 정체성 확립 및 올바른 국가관을 정립하는데 목적을 두고 있다. 또한 경상북도독립운동기념관의 전시실은 독립관과 의열관으로 구성되어 있으며, 1894년 갑오의병부터 1945년 조국 광복 때까지 51년간 펼쳐진 경북 사람들의 국내외 독립운동이 담겨 있다. 의병항쟁을 시작으로 국채보상운동, 자정순국, 만주지역 항일투쟁, 6·10 만세운동, 의열투쟁, 한국광복군 등 경북 사람들의 쉼 없는 항일투쟁과 관련 유물이 소개되어 있다. 또한 의열관은 안동 독립운동의 뿌리가 된 전통마을의 항일투쟁을 한눈에 볼 수 있다. 안동 독립운동의 뿌리가 된 전통마을의 항일투쟁을 전시하고 있는 전시실과 되살아나는 불씨, 나라 위해 목숨 바친 경북 사람들의 51년 독립운동을 영상으로 보여주는 추강영상실, 유아를 위한 교육과 체험공간인 새싹교육실 등으로 구성되어 있다. 경북 지역 독립운동의 역사를 기록하고 기념하는 시설이다. 의병 활동에서 광복에 이르는 지역의 항일운동과 독립운동가들의 활동을 전시·교육을 통해 소개한다.",
+      "metadata": {
+        "sido": "경상북도",
+        "image_copyright": "Type1",
+        "holiday_open": "09:00",
+        "weekday_open": "09:00",
+        "name": "경상북도독립운동기념관",
+        "ownership_type": "사립",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/76/3585876_image2_1.jpg",
+        "source_types": "TOUR_API|WEB_RESEARCH",
+        "child_fee": 1000.0,
+        "homepage_url": "http://815gb.or.kr",
+        "sigungu": "안동시",
+        "weekday_close": "18:00",
+        "closure_rule_raw": "월+설 당일+추석 당일",
+        "requires_manual_review": true,
+        "adult_fee": 2000.0,
+        "adult_fee_status": "BASE_FEE_PAID",
+        "youth_fee": 1500.0,
+        "holiday_close": "18:00",
+        "address": "경상북도 안동시 임하면 독립기념관길 2",
+        "latitude": 36.533194,
+        "longitude": 128.858222
+      },
+      "vector_rank": 1,
+      "bm25_rank": 1,
+      "vector_distance": 0.356259822845459,
+      "vector_score": null,
+      "bm25_score": 20.657240798007386,
+      "vector_document": "경상북도독립운동기념관은 2007년 개관한 안동독립운동기념관을 2014년에 경상북도 전체의 기념관으로 승격·확장하여 2017년 6월 30일 다시 문을 열었다. 경북독립운동사에 관한 자료를 수집‧보존, 조사‧연구, 전시, 교육함으로써 민족의 자주독립을 지켜온 독립운동가들의 나라 사랑 정신을 계승하고 민족문화의 정체성 확립 및 올바른 국가관을 정립하는데 목적을 두고 있다. 또한 경상북도독립운동기념관의 전시실은 독립관과 의열관으로 구성되어 있으며, 1894년 갑오의병부터 1945년 조국 광복 때까지 51년간 펼쳐진 경북 사람들의 국내외 독립운동이 담겨 있다. 의병항쟁을 시작으로 국채보상운동, 자정순국, 만주지역 항일투쟁, 6·10 만세운동, 의열투쟁, 한국광복군 등 경북 사람들의 쉼 없는 항일투쟁과 관련 유물이 소개되어 있다. 또한 의열관은 안동 독립운동의 뿌리가 된 전통마을의 항일투쟁을 한눈에 볼 수 있다. 안동 독립운동의 뿌리가 된 전통마을의 항일투쟁을 전시하고 있는 전시실과 되살아나는 불씨, 나라 위해 목숨 바친 경북 사람들의 51년 독립운동을 영상으로 보여주는 추강영상실, 유아를 위한 교육과 체험공간인 새싹교육실 등으로 구성되어 있다. 경북 지역 독립운동의 역사를 기록하고 기념하는 시설이다. 의병 활동에서 광복에 이르는 지역의 항일운동과 독립운동가들의 활동을 전시·교육을 통해 소개한다.",
+      "bm25_document": "경상북도독립운동기념관은 2007년 개관한 안동독립운동기념관을 2014년에 경상북도 전체의 기념관으로 승격·확장하여 2017년 6월 30일 다시 문을 열었다. 경북독립운동사에 관한 자료를 수집‧보존, 조사‧연구, 전시, 교육함으로써 민족의 자주독립을 지켜온 독립운동가들의 나라 사랑 정신을 계승하고 민족문화의 정체성 확립 및 올바른 국가관을 정립하는데 목적을 두고 있다. 또한 경상북도독립운동기념관의 전시실은 독립관과 의열관으로 구성되어 있으며, 1894년 갑오의병부터 1945년 조국 광복 때까지 51년간 펼쳐진 경북 사람들의 국내외 독립운동이 담겨 있다. 의병항쟁을 시작으로 국채보상운동, 자정순국, 만주지역 항일투쟁, 6·10 만세운동, 의열투쟁, 한국광복군 등 경북 사람들의 쉼 없는 항일투쟁과 관련 유물이 소개되어 있다. 또한 의열관은 안동 독립운동의 뿌리가 된 전통마을의 항일투쟁을 한눈에 볼 수 있다. 안동 독립운동의 뿌리가 된 전통마을의 항일투쟁을 전시하고 있는 전시실과 되살아나는 불씨, 나라 위해 목숨 바친 경북 사람들의 51년 독립운동을 영상으로 보여주는 추강영상실, 유아를 위한 교육과 체험공간인 새싹교육실 등으로 구성되어 있다. 경북 지역 독립운동의 역사를 기록하고 기념하는 시설이다. 의병 활동에서 광복에 이르는 지역의 항일운동과 독립운동가들의 활동을 전시·교육을 통해 소개한다.",
+      "best_span_id": "chroma:M0191",
+      "best_span_text": "경상북도독립운동기념관은 2007년 개관한 안동독립운동기념관을 2014년에 경상북도 전체의 기념관으로 승격·확장하여 2017년 6월 30일 다시 문을 열었다. 경북독립운동사에 관한 자료를 수집‧보존, 조사‧연구, 전시, 교육함으로써 민족의 자주독립을 지켜온 독립운동가들의 나라 사랑 정신을 계승하고 민족문화의 정체성 확립 및 올바른 국가관을 정립하는데 목적을 두고 있다. 또한 경상북도독립운동기념관의 전시실은 독립관과 의열관으로 구성되어 있으며, 1894년 갑오의병부터 1945년 조국 광복 때까지 51년간 펼쳐진 경북 사람들의 국내외 독립운동이 담겨 있다. 의병항쟁을 시작으로 국채보상운동, 자정순국, 만주지역 항일투쟁, 6·10 만세운동, 의열투쟁, 한국광복군 등 경북 사람들의 쉼 없는 항일투쟁과 관련 유물이 소개되어 있다. 또한 의열관은 안동 독립운동의 뿌리가 된 전통마을의 항일투쟁을 한눈에 볼 수 있다. 안동 독립운동의 뿌리가 된 전통마을의 항일투쟁을 전시하고 있는 전시실과 되살아나는 불씨, 나라 위해 목숨 바친 경북 사람들의 51년 독립운동을 영상으로 보여주는 추강영상실, 유아를 위한 교육과 체험공간인 새싹교육실 등으로 구성되어 있다. 경북 지역 독립운동의 역사를 기록하고 기념하는 시설이다. 의병 활동에서 광복에 이르는 지역의 항일운동과 독립운동가들의 활동을 전시·교육을 통해 소개한다.",
+      "fusion_score": 0.03278688524590164,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 1,
+      "name_match": true,
+      "rerank_score": 0.9999122619628906,
+      "rank": 1,
+      "score": 0.9999122619628906,
+      "score_type": "cross_encoder",
+      "distance": 0.356259822845459,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0191",
+      "source_doc_ids": [
+        "DOC-B0191-TOUR_API-795012",
+        "DOC-WEB-M0191-20261111"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0191-TOUR_API-795012",
+          "source_type": "TOUR_API",
+          "source_record_id": "795012",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=92",
+          "match_trust": "RECHECKED_BY_RULE_NOT_HUMAN_APPROVED"
+        },
+        {
+          "doc_id": "DOC-WEB-M0191-20261111",
+          "source_type": "WEB_RESEARCH",
+          "source_record_id": "RESEARCH-M0191",
+          "source_locator": "https://mfis.mpva.go.kr/memorial/movementView.do?gubunCode=ALL&sid=871",
+          "source_url": "https://mfis.mpva.go.kr/memorial/movementView.do?gubunCode=ALL&sid=871",
+          "match_trust": "WEB_SOURCE_REVIEWED_NOT_HUMAN_APPROVED"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 87,
+          "doc_ids": [
+            "DOC-B0191-TOUR_API-795012"
+          ]
+        },
+        {
+          "start": 88,
+          "end": 206,
+          "doc_ids": [
+            "DOC-B0191-TOUR_API-795012"
+          ]
+        },
+        {
+          "start": 207,
+          "end": 311,
+          "doc_ids": [
+            "DOC-B0191-TOUR_API-795012"
+          ]
+        },
+        {
+          "start": 312,
+          "end": 407,
+          "doc_ids": [
+            "DOC-B0191-TOUR_API-795012"
+          ]
+        },
+        {
+          "start": 408,
+          "end": 454,
+          "doc_ids": [
+            "DOC-B0191-TOUR_API-795012"
+          ]
+        },
+        {
+          "start": 455,
+          "end": 587,
+          "doc_ids": [
+            "DOC-B0191-TOUR_API-795012"
+          ]
+        },
+        {
+          "start": 588,
+          "end": 619,
+          "doc_ids": [
+            "DOC-WEB-M0191-20261111"
+          ]
+        },
+        {
+          "start": 620,
+          "end": 673,
+          "doc_ids": [
+            "DOC-WEB-M0191-20261111"
+          ]
+        }
+      ],
+      "source_urls": [
+        "https://mfis.mpva.go.kr/memorial/movementView.do?gubunCode=ALL&sid=871"
+      ],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=92",
+      "text": "경상북도독립운동기념관은 2007년 개관한 안동독립운동기념관을 2014년에 경상북도 전체의 기념관으로 승격·확장하여 2017년 6월 30일 다시 문을 열었다. 경북독립운동사에 관한 자료를 수집‧보존, 조사‧연구, 전시, 교육함으로써 민족의 자주독립을 지켜온 독립운동가들의 나라 사랑 정신을 계승하고 민족문화의 정체성 확립 및 올바른 국가관을 정립하는데 목적을 두고 있다. 또한 경상북도독립운동기념관의 전시실은 독립관과 의열관으로 구성되어 있으며, 1894년 갑오의병부터 1945년 조국 광복 때까지 51년간 펼쳐진 경북 사람들의 국내외 독립운동이 담겨 있다. 의병항쟁을 시작으로 국채보상운동, 자정순국, 만주지역 항일투쟁, 6·10 만세운동, 의열투쟁, 한국광복군 등 경북 사람들의 쉼 없는 항일투쟁과 관련 유물이 소개되어 있다. 또한 의열관은 안동 독립운동의 뿌리가 된 전통마을의 항일투쟁을 한눈에 볼 수 있다. 안동 독립운동의 뿌리가 된 전통마을의 항일투쟁을 전시하고 있는 전시실과 되살아나는 불씨, 나라 위해 목숨 바친 경북 사람들의 51년 독립운동을 영상으로 보여주는 추강영상실, 유아를 위한 교육과 체험공간인 새싹교육실 등으로 구성되어 있다. 경북 지역 독립운동의 역사를 기록하고 기념하는 시설이다. 의병 활동에서 광복에 이르는 지역의 항일운동과 독립운동가들의 활동을 전시·교육을 통해 소개한다.",
+      "sido": "경상북도",
+      "sigungu": "안동시",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=92"
+      ],
+      "evidence_id": "E1",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=126",
+        "fields": {
+          "name": "경상북도독립운동기념관",
+          "sido": "경상북도",
+          "sigungu": "안동시",
+          "address": "경상북도 안동시 임하면 독립기념관길 2",
+          "ownership_type": "사립",
+          "adult_fee": "2000",
+          "youth_fee": "1500",
+          "child_fee": "1000",
+          "adult_fee_status": "BASE_FEE_PAID",
+          "weekday_open": "09:00",
+          "weekday_close": "18:00",
+          "holiday_open": "09:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "월+설 당일+추석 당일"
+        },
+        "base_data_date": "2026-09-04",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0714",
+      "name": "독립기념관",
+      "document": "독립기념관은 항일투쟁의 역사를 제대로 정립하고, 이를 널리 알리려는 목적으로 건립되었다. 상설전시관은 겨레의 뿌리, 겨레의 시련, 겨레의 함성, 평화누리, 나라 되찾기, 새로운 나라 총 6개로 구성되어 있다. 각 전시관을 차례로 둘러보며 우리 민족의 찬란한 역사와 자주독립을 향한 선열들의 고귀한 희생정신을 되새길 수 있다. 함께하는 독립운동 체험관은 우리나라를 되찾기 위한 독립운동의 역사를 쉽고 재미있게 배우면서 나라 사랑의 마음을 느껴보는 체험관으로, 영아부터 성인까지 모든 세대가 함께할 수 있다. 무궁화, 태극기 등 나라 상징물로 꾸며진 공간에서 오감을 자극하는 놀이를 즐길 수 있다. ◎ 한류의 매력을 만나는 여행 정보 - 예능 K 컬처를 만든 한국인의 뜨거운 역사를 만날 수 있는 독립기념관은 멀리서도 장엄함을 드러내는 겨레의 탑과 동양 최대 기와 건물인 겨레의 집이다. 에이티즈가 골든벨을 했던 통일 염원의 동산과 통일의 종까지 둘러보며 K-spirit을 느껴볼 것을 추천한다. 뜨거운 민족혼과 대자연의 풍광이 어우러진 겨례의 전당",
+      "metadata": {
+        "name": "독립기념관",
+        "holiday_close": "18:00",
+        "image_copyright": "Type1",
+        "adult_fee": 0.0,
+        "amenities_raw": "문화상품점+매점",
+        "child_fee": 0.0,
+        "address": "충청남도 천안시 동남구 목천읍 독립기념관로 1",
+        "holiday_open": "09:30",
+        "weekday_close": "18:00",
+        "ownership_type": "사립",
+        "transport_notes": "경부 고속도로 목천(독립기념관) 나들목에서 2km, 천안나들목에서 국도 21호 이용 시 12km",
+        "sigungu": "천안시",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/21/3450021_image2_1.jpg",
+        "closure_rule_raw": "월요일",
+        "requires_manual_review": true,
+        "weekday_open": "09:30",
+        "youth_fee": 0.0,
+        "fee_notes": "0",
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "latitude": 36.781872,
+        "homepage_url": "http://www.i815.or.kr",
+        "longitude": 127.2303981,
+        "sido": "충청남도",
+        "source_types": "BASE|TOUR_API"
+      },
+      "vector_rank": 9,
+      "bm25_rank": 6,
+      "vector_distance": 0.6070653200149536,
+      "vector_score": null,
+      "bm25_score": 9.767609128694321,
+      "vector_document": "독립기념관은 항일투쟁의 역사를 제대로 정립하고, 이를 널리 알리려는 목적으로 건립되었다. 상설전시관은 겨레의 뿌리, 겨레의 시련, 겨레의 함성, 평화누리, 나라 되찾기, 새로운 나라 총 6개로 구성되어 있다. 각 전시관을 차례로 둘러보며 우리 민족의 찬란한 역사와 자주독립을 향한 선열들의 고귀한 희생정신을 되새길 수 있다. 함께하는 독립운동 체험관은 우리나라를 되찾기 위한 독립운동의 역사를 쉽고 재미있게 배우면서 나라 사랑의 마음을 느껴보는 체험관으로, 영아부터 성인까지 모든 세대가 함께할 수 있다. 무궁화, 태극기 등 나라 상징물로 꾸며진 공간에서 오감을 자극하는 놀이를 즐길 수 있다. ◎ 한류의 매력을 만나는 여행 정보 - 예능 K 컬처를 만든 한국인의 뜨거운 역사를 만날 수 있는 독립기념관은 멀리서도 장엄함을 드러내는 겨레의 탑과 동양 최대 기와 건물인 겨레의 집이다. 에이티즈가 골든벨을 했던 통일 염원의 동산과 통일의 종까지 둘러보며 K-spirit을 느껴볼 것을 추천한다. 뜨거운 민족혼과 대자연의 풍광이 어우러진 겨례의 전당",
+      "bm25_document": "독립기념관은 항일투쟁의 역사를 제대로 정립하고, 이를 널리 알리려는 목적으로 건립되었다. 상설전시관은 겨레의 뿌리, 겨레의 시련, 겨레의 함성, 평화누리, 나라 되찾기, 새로운 나라 총 6개로 구성되어 있다. 각 전시관을 차례로 둘러보며 우리 민족의 찬란한 역사와 자주독립을 향한 선열들의 고귀한 희생정신을 되새길 수 있다. 함께하는 독립운동 체험관은 우리나라를 되찾기 위한 독립운동의 역사를 쉽고 재미있게 배우면서 나라 사랑의 마음을 느껴보는 체험관으로, 영아부터 성인까지 모든 세대가 함께할 수 있다. 무궁화, 태극기 등 나라 상징물로 꾸며진 공간에서 오감을 자극하는 놀이를 즐길 수 있다. ◎ 한류의 매력을 만나는 여행 정보 - 예능 K 컬처를 만든 한국인의 뜨거운 역사를 만날 수 있는 독립기념관은 멀리서도 장엄함을 드러내는 겨레의 탑과 동양 최대 기와 건물인 겨레의 집이다. 에이티즈가 골든벨을 했던 통일 염원의 동산과 통일의 종까지 둘러보며 K-spirit을 느껴볼 것을 추천한다. 뜨거운 민족혼과 대자연의 풍광이 어우러진 겨례의 전당",
+      "best_span_id": "chroma:M0714",
+      "best_span_text": "독립기념관은 항일투쟁의 역사를 제대로 정립하고, 이를 널리 알리려는 목적으로 건립되었다. 상설전시관은 겨레의 뿌리, 겨레의 시련, 겨레의 함성, 평화누리, 나라 되찾기, 새로운 나라 총 6개로 구성되어 있다. 각 전시관을 차례로 둘러보며 우리 민족의 찬란한 역사와 자주독립을 향한 선열들의 고귀한 희생정신을 되새길 수 있다. 함께하는 독립운동 체험관은 우리나라를 되찾기 위한 독립운동의 역사를 쉽고 재미있게 배우면서 나라 사랑의 마음을 느껴보는 체험관으로, 영아부터 성인까지 모든 세대가 함께할 수 있다. 무궁화, 태극기 등 나라 상징물로 꾸며진 공간에서 오감을 자극하는 놀이를 즐길 수 있다. ◎ 한류의 매력을 만나는 여행 정보 - 예능 K 컬처를 만든 한국인의 뜨거운 역사를 만날 수 있는 독립기념관은 멀리서도 장엄함을 드러내는 겨레의 탑과 동양 최대 기와 건물인 겨레의 집이다. 에이티즈가 골든벨을 했던 통일 염원의 동산과 통일의 종까지 둘러보며 K-spirit을 느껴볼 것을 추천한다. 뜨거운 민족혼과 대자연의 풍광이 어우러진 겨례의 전당",
+      "fusion_score": 0.02964426877470356,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 5,
+      "rerank_score": 0.8220893740653992,
+      "rank": 2,
+      "score": 0.8220893740653992,
+      "score_type": "cross_encoder",
+      "distance": 0.6070653200149536,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0714",
+      "source_doc_ids": [
+        "DOC-B0714-TOUR_API-129790",
+        "DOC-B0714-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0714-TOUR_API-129790",
+          "source_type": "TOUR_API",
+          "source_record_id": "129790",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=348",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        },
+        {
+          "doc_id": "DOC-B0714-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0714",
+          "source_locator": "data/raw/museum_base_1070.csv#row=715",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 49,
+          "doc_ids": [
+            "DOC-B0714-TOUR_API-129790"
+          ]
+        },
+        {
+          "start": 50,
+          "end": 116,
+          "doc_ids": [
+            "DOC-B0714-TOUR_API-129790"
+          ]
+        },
+        {
+          "start": 117,
+          "end": 181,
+          "doc_ids": [
+            "DOC-B0714-TOUR_API-129790"
+          ]
+        },
+        {
+          "start": 182,
+          "end": 282,
+          "doc_ids": [
+            "DOC-B0714-TOUR_API-129790"
+          ]
+        },
+        {
+          "start": 283,
+          "end": 332,
+          "doc_ids": [
+            "DOC-B0714-TOUR_API-129790"
+          ]
+        },
+        {
+          "start": 333,
+          "end": 438,
+          "doc_ids": [
+            "DOC-B0714-TOUR_API-129790"
+          ]
+        },
+        {
+          "start": 439,
+          "end": 499,
+          "doc_ids": [
+            "DOC-B0714-TOUR_API-129790"
+          ]
+        },
+        {
+          "start": 500,
+          "end": 529,
+          "doc_ids": [
+            "DOC-B0714-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=348",
+      "text": "독립기념관은 항일투쟁의 역사를 제대로 정립하고, 이를 널리 알리려는 목적으로 건립되었다. 상설전시관은 겨레의 뿌리, 겨레의 시련, 겨레의 함성, 평화누리, 나라 되찾기, 새로운 나라 총 6개로 구성되어 있다. 각 전시관을 차례로 둘러보며 우리 민족의 찬란한 역사와 자주독립을 향한 선열들의 고귀한 희생정신을 되새길 수 있다. 함께하는 독립운동 체험관은 우리나라를 되찾기 위한 독립운동의 역사를 쉽고 재미있게 배우면서 나라 사랑의 마음을 느껴보는 체험관으로, 영아부터 성인까지 모든 세대가 함께할 수 있다. 무궁화, 태극기 등 나라 상징물로 꾸며진 공간에서 오감을 자극하는 놀이를 즐길 수 있다. ◎ 한류의 매력을 만나는 여행 정보 - 예능 K 컬처를 만든 한국인의 뜨거운 역사를 만날 수 있는 독립기념관은 멀리서도 장엄함을 드러내는 겨레의 탑과 동양 최대 기와 건물인 겨레의 집이다. 에이티즈가 골든벨을 했던 통일 염원의 동산과 통일의 종까지 둘러보며 K-spirit을 느껴볼 것을 추천한다. 뜨거운 민족혼과 대자연의 풍광이 어우러진 겨례의 전당",
+      "sido": "충청남도",
+      "sigungu": "천안시",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=348"
+      ],
+      "evidence_id": "E2",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=496",
+        "fields": {
+          "name": "독립기념관",
+          "sido": "충청남도",
+          "sigungu": "천안시",
+          "address": "충청남도 천안시 동남구 목천읍 독립기념관로 1",
+          "ownership_type": "사립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "09:30",
+          "weekday_close": "18:00",
+          "holiday_open": "09:30",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "월요일",
+          "amenities_raw": "문화상품점+매점"
+        },
+        "base_data_date": "2024-07-11",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0556",
+      "name": "화성시독립운동기념관",
+      "document": "화성시독립운동기념관은 화성 사람들의 독립운동과 그 정신을 기리고, 나아가 격렬했던 화성지역 독립운동의 역사적 가치를 전하기 위해 기존의 제암리3.1운동 순국 기념관을 확장 이전하여 2024년 4월 15일에 개관하였다. 화성시독립운동기념관은 화성 출신 순국선열들을 기리기 위해 설립된 문화 및 교육적 공간이다. 화성 지역 독립운동의 역사와 화성 출신 독립운동가들의 항일투쟁을 집중적으로 조명하여 그 시대의 역사적 배경과 독립운동가들의 노력을 깊이 이해할 수 있는 상설전시실과 매년 화성 독립운동의 다양하고 새로운 주제를 바탕으로 기획한 전시가 열리는 기획전시실, 아이들이 놀이를 통해 자연스럽게 독립운동의 가치와 소중함을 느낄 수 있도록 조성한 어린이체험실이 운영되고 있다. 이외에도 다양한 교육·문화강좌를 통해 기념관을 찾는 시민들에게 화성 독립운동의 가치와 폭넒은 이해를 제공하고 있다.",
+      "metadata": {
+        "image_copyright": "Type1",
+        "sigungu": "화성시",
+        "requires_manual_review": true,
+        "holiday_open": "10:00",
+        "holiday_close": "18:00",
+        "homepage_url": "https://hs815.hscity.go.kr/",
+        "address": "경기도 화성시 만세구 향남읍 제암고주로 34",
+        "latitude": 37.12567679,
+        "child_fee": 0.0,
+        "source_types": "TOUR_API",
+        "sido": "경기도",
+        "name": "화성시독립운동기념관",
+        "weekday_open": "10:00",
+        "youth_fee": 0.0,
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/34/4066534_image2_1.jpg",
+        "ownership_type": "공립",
+        "weekday_close": "18:00",
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "amenities_raw": "정신교육관강당(대관가능 - 빔프로젝터, 마이크 대여 가능)+야외공원+주차장(주차무료)",
+        "longitude": 126.8910932,
+        "closure_rule_raw": "1월 1일+월(공휴일인 경우에는 그 다음날)+설날당일+추석당일+그 밖에 시장이 필요하다고 인정하는 날",
+        "adult_fee": 0.0
+      },
+      "vector_rank": 2,
+      "bm25_rank": 2,
+      "vector_distance": 0.5469312071800232,
+      "vector_score": null,
+      "bm25_score": 16.979170889182864,
+      "vector_document": "화성시독립운동기념관은 화성 사람들의 독립운동과 그 정신을 기리고, 나아가 격렬했던 화성지역 독립운동의 역사적 가치를 전하기 위해 기존의 제암리3.1운동 순국 기념관을 확장 이전하여 2024년 4월 15일에 개관하였다. 화성시독립운동기념관은 화성 출신 순국선열들을 기리기 위해 설립된 문화 및 교육적 공간이다. 화성 지역 독립운동의 역사와 화성 출신 독립운동가들의 항일투쟁을 집중적으로 조명하여 그 시대의 역사적 배경과 독립운동가들의 노력을 깊이 이해할 수 있는 상설전시실과 매년 화성 독립운동의 다양하고 새로운 주제를 바탕으로 기획한 전시가 열리는 기획전시실, 아이들이 놀이를 통해 자연스럽게 독립운동의 가치와 소중함을 느낄 수 있도록 조성한 어린이체험실이 운영되고 있다. 이외에도 다양한 교육·문화강좌를 통해 기념관을 찾는 시민들에게 화성 독립운동의 가치와 폭넒은 이해를 제공하고 있다.",
+      "bm25_document": "화성시독립운동기념관은 화성 사람들의 독립운동과 그 정신을 기리고, 나아가 격렬했던 화성지역 독립운동의 역사적 가치를 전하기 위해 기존의 제암리3.1운동 순국 기념관을 확장 이전하여 2024년 4월 15일에 개관하였다. 화성시독립운동기념관은 화성 출신 순국선열들을 기리기 위해 설립된 문화 및 교육적 공간이다. 화성 지역 독립운동의 역사와 화성 출신 독립운동가들의 항일투쟁을 집중적으로 조명하여 그 시대의 역사적 배경과 독립운동가들의 노력을 깊이 이해할 수 있는 상설전시실과 매년 화성 독립운동의 다양하고 새로운 주제를 바탕으로 기획한 전시가 열리는 기획전시실, 아이들이 놀이를 통해 자연스럽게 독립운동의 가치와 소중함을 느낄 수 있도록 조성한 어린이체험실이 운영되고 있다. 이외에도 다양한 교육·문화강좌를 통해 기념관을 찾는 시민들에게 화성 독립운동의 가치와 폭넒은 이해를 제공하고 있다.",
+      "best_span_id": "chroma:M0556",
+      "best_span_text": "화성시독립운동기념관은 화성 사람들의 독립운동과 그 정신을 기리고, 나아가 격렬했던 화성지역 독립운동의 역사적 가치를 전하기 위해 기존의 제암리3.1운동 순국 기념관을 확장 이전하여 2024년 4월 15일에 개관하였다. 화성시독립운동기념관은 화성 출신 순국선열들을 기리기 위해 설립된 문화 및 교육적 공간이다. 화성 지역 독립운동의 역사와 화성 출신 독립운동가들의 항일투쟁을 집중적으로 조명하여 그 시대의 역사적 배경과 독립운동가들의 노력을 깊이 이해할 수 있는 상설전시실과 매년 화성 독립운동의 다양하고 새로운 주제를 바탕으로 기획한 전시가 열리는 기획전시실, 아이들이 놀이를 통해 자연스럽게 독립운동의 가치와 소중함을 느낄 수 있도록 조성한 어린이체험실이 운영되고 있다. 이외에도 다양한 교육·문화강좌를 통해 기념관을 찾는 시민들에게 화성 독립운동의 가치와 폭넒은 이해를 제공하고 있다.",
+      "fusion_score": 0.03225806451612903,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 2,
+      "rerank_score": 0.745021402835846,
+      "rank": 3,
+      "score": 0.745021402835846,
+      "score_type": "cross_encoder",
+      "distance": 0.5469312071800232,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0556",
+      "source_doc_ids": [
+        "DOC-B0556-TOUR_API-3427488"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0556-TOUR_API-3427488",
+          "source_type": "TOUR_API",
+          "source_record_id": "3427488",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=275",
+          "match_trust": "RECHECKED_BY_RULE_NOT_HUMAN_APPROVED"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 121,
+          "doc_ids": [
+            "DOC-B0556-TOUR_API-3427488"
+          ]
+        },
+        {
+          "start": 122,
+          "end": 172,
+          "doc_ids": [
+            "DOC-B0556-TOUR_API-3427488"
+          ]
+        },
+        {
+          "start": 173,
+          "end": 376,
+          "doc_ids": [
+            "DOC-B0556-TOUR_API-3427488"
+          ]
+        },
+        {
+          "start": 377,
+          "end": 441,
+          "doc_ids": [
+            "DOC-B0556-TOUR_API-3427488"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=275",
+      "text": "화성시독립운동기념관은 화성 사람들의 독립운동과 그 정신을 기리고, 나아가 격렬했던 화성지역 독립운동의 역사적 가치를 전하기 위해 기존의 제암리3.1운동 순국 기념관을 확장 이전하여 2024년 4월 15일에 개관하였다. 화성시독립운동기념관은 화성 출신 순국선열들을 기리기 위해 설립된 문화 및 교육적 공간이다. 화성 지역 독립운동의 역사와 화성 출신 독립운동가들의 항일투쟁을 집중적으로 조명하여 그 시대의 역사적 배경과 독립운동가들의 노력을 깊이 이해할 수 있는 상설전시실과 매년 화성 독립운동의 다양하고 새로운 주제를 바탕으로 기획한 전시가 열리는 기획전시실, 아이들이 놀이를 통해 자연스럽게 독립운동의 가치와 소중함을 느낄 수 있도록 조성한 어린이체험실이 운영되고 있다. 이외에도 다양한 교육·문화강좌를 통해 기념관을 찾는 시민들에게 화성 독립운동의 가치와 폭넒은 이해를 제공하고 있다.",
+      "sido": "경기도",
+      "sigungu": "화성시",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=275"
+      ],
+      "evidence_id": "E3",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=390",
+        "fields": {
+          "name": "화성시독립운동기념관",
+          "sido": "경기도",
+          "sigungu": "화성시",
+          "address": "경기도 화성시 만세구 향남읍 제암고주로 34",
+          "ownership_type": "공립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "10:00",
+          "weekday_close": "18:00",
+          "holiday_open": "10:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "1월 1일+월(공휴일인 경우에는 그 다음날)+설날당일+추석당일+그 밖에 시장이 필요하다고 인정하는 날",
+          "amenities_raw": "정신교육관강당(대관가능 - 빔프로젝터, 마이크 대여 가능)+야외공원+주차장(주차무료)"
+        },
+        "base_data_date": "2026-02-01",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0151",
+      "name": "밀양시립박물관",
+      "document": "밀양시립박물관은 낙동강유역의 문화를 집대성하여 효율적인 보존·전시함은 물론, 향토사료의 수집·조사·연구·정리 등을 통해 역사와 문화예술에 대한 고증 등 중심역할을 수행하고 나아가 시민들에게 널리 공개하여 문화 향수 증대 및 사회교육에 이바지하기 위해 건립되었다. 박물관은 상설 1 전시실, 상설 2 전시실, 기획전시실로 나눠져 있으며 밀양지역의 역사(삼한시대~조선시대)를 조명해 볼 수 있도록 하였다. 주요 소장품은 밀양 12경도, 용담취규정잡영 외에 단원 김홍도 『선유도』, 오원장승업 『화조도』등 서화류와 이방중묘 출토 명기 및 지석, 청자명문매호 등 도자기와 토기류 등 낙동강 유역과 밀양지역 출토 고고유물들과 소눌선생문집책판, 퇴로본 성호선생문집책판 등 총 39종 4,835장의 문집책판(전시형수장고), 민속 및 생활유물이 주류를 이루고 있다. 밀양시립박물관에는 낙동강 문화 유물 외에 화석전시관, 밀양독립운동기념관이 조성되어 있어 또 다른 재미와 볼거리를 선사한다. 화석전시관은 밀양시립박물관 내에 위치하며 고생대 중생대 등 전 세계에 분포되어 있는 주요 화석 (공룡, 어류 등) 244점이 전시되어 있다. 밀양독립운동기념관은 독립의열단 단장이었던 약산 김원봉과 석정 윤세주 열사 등 밀양출신 독립운동가들의 활동상을 조명해 볼 수 있는 곳이다. 1919년 3월 13일부터 일어난 밀양지역의 주요 만세운동과 파리장서운동, 밀양경찰서 폭탄투척사건 등은 물론 밀양의 근현대사를 조명해 볼 수 있다. 1974년 4월 밀양군립박물관으로 개관한 이래 박물관에서는 낙동강 유역의 문화와 역사를 조명하며 밀양지역의 다양한 자료를 수집, 전시하고있는 경남 최초의 공립박물관",
+      "metadata": {
+        "requires_manual_review": true,
+        "weekday_close": "18:00",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/85/4002785_image2_1.jpg",
+        "holiday_close": "18:00",
+        "closure_rule_raw": "매주월요일(단, 공휴일경우, 다음날 휴관)+설 당일+추석 당일+1월1일",
+        "homepage_url": "https://www.miryang.go.kr/msm/index.do",
+        "name": "밀양시립박물관",
+        "youth_fee": 700.0,
+        "adult_fee_status": "BASE_FEE_PAID",
+        "source_types": "BASE|TOUR_API",
+        "sido": "경상남도",
+        "image_copyright": "Type3",
+        "latitude": 35.50296509,
+        "fee_notes": "* 20인이상 단체 30 감면* 예술인패스, 그린카드, 임산부 30감면* 6세 이하~65세 이상 무료* 독립유공자, 국가유공자, 장애인, 다자녀, 다문화, 한부모가족 등 무료",
+        "amenities_raw": "문화상품점+휴게실",
+        "ownership_type": "공립",
+        "adult_fee": 1000.0,
+        "child_fee": 500.0,
+        "address": "경상남도 밀양시 밀양대공원로 100",
+        "weekday_open": "09:00",
+        "holiday_open": "09:00",
+        "longitude": 128.7593641,
+        "transport_notes": "시내버스: 1, 2, 4-2, 5, 6, 9번 밀양향교 하차후 5분 도보",
+        "sigungu": "밀양시"
+      },
+      "vector_rank": null,
+      "bm25_rank": 4,
+      "vector_distance": null,
+      "vector_score": null,
+      "bm25_score": 10.4259436959258,
+      "vector_document": "",
+      "bm25_document": "밀양시립박물관은 낙동강유역의 문화를 집대성하여 효율적인 보존·전시함은 물론, 향토사료의 수집·조사·연구·정리 등을 통해 역사와 문화예술에 대한 고증 등 중심역할을 수행하고 나아가 시민들에게 널리 공개하여 문화 향수 증대 및 사회교육에 이바지하기 위해 건립되었다. 박물관은 상설 1 전시실, 상설 2 전시실, 기획전시실로 나눠져 있으며 밀양지역의 역사(삼한시대~조선시대)를 조명해 볼 수 있도록 하였다. 주요 소장품은 밀양 12경도, 용담취규정잡영 외에 단원 김홍도 『선유도』, 오원장승업 『화조도』등 서화류와 이방중묘 출토 명기 및 지석, 청자명문매호 등 도자기와 토기류 등 낙동강 유역과 밀양지역 출토 고고유물들과 소눌선생문집책판, 퇴로본 성호선생문집책판 등 총 39종 4,835장의 문집책판(전시형수장고), 민속 및 생활유물이 주류를 이루고 있다. 밀양시립박물관에는 낙동강 문화 유물 외에 화석전시관, 밀양독립운동기념관이 조성되어 있어 또 다른 재미와 볼거리를 선사한다. 화석전시관은 밀양시립박물관 내에 위치하며 고생대 중생대 등 전 세계에 분포되어 있는 주요 화석 (공룡, 어류 등) 244점이 전시되어 있다. 밀양독립운동기념관은 독립의열단 단장이었던 약산 김원봉과 석정 윤세주 열사 등 밀양출신 독립운동가들의 활동상을 조명해 볼 수 있는 곳이다. 1919년 3월 13일부터 일어난 밀양지역의 주요 만세운동과 파리장서운동, 밀양경찰서 폭탄투척사건 등은 물론 밀양의 근현대사를 조명해 볼 수 있다. 1974년 4월 밀양군립박물관으로 개관한 이래 박물관에서는 낙동강 유역의 문화와 역사를 조명하며 밀양지역의 다양한 자료를 수집, 전시하고있는 경남 최초의 공립박물관",
+      "best_span_id": "chroma:M0151",
+      "best_span_text": "밀양시립박물관은 낙동강유역의 문화를 집대성하여 효율적인 보존·전시함은 물론, 향토사료의 수집·조사·연구·정리 등을 통해 역사와 문화예술에 대한 고증 등 중심역할을 수행하고 나아가 시민들에게 널리 공개하여 문화 향수 증대 및 사회교육에 이바지하기 위해 건립되었다. 박물관은 상설 1 전시실, 상설 2 전시실, 기획전시실로 나눠져 있으며 밀양지역의 역사(삼한시대~조선시대)를 조명해 볼 수 있도록 하였다. 주요 소장품은 밀양 12경도, 용담취규정잡영 외에 단원 김홍도 『선유도』, 오원장승업 『화조도』등 서화류와 이방중묘 출토 명기 및 지석, 청자명문매호 등 도자기와 토기류 등 낙동강 유역과 밀양지역 출토 고고유물들과 소눌선생문집책판, 퇴로본 성호선생문집책판 등 총 39종 4,835장의 문집책판(전시형수장고), 민속 및 생활유물이 주류를 이루고 있다. 밀양시립박물관에는 낙동강 문화 유물 외에 화석전시관, 밀양독립운동기념관이 조성되어 있어 또 다른 재미와 볼거리를 선사한다. 화석전시관은 밀양시립박물관 내에 위치하며 고생대 중생대 등 전 세계에 분포되어 있는 주요 화석 (공룡, 어류 등) 244점이 전시되어 있다. 밀양독립운동기념관은 독립의열단 단장이었던 약산 김원봉과 석정 윤세주 열사 등 밀양출신 독립운동가들의 활동상을 조명해 볼 수 있는 곳이다. 1919년 3월 13일부터 일어난 밀양지역의 주요 만세운동과 파리장서운동, 밀양경찰서 폭탄투척사건 등은 물론 밀양의 근현대사를 조명해 볼 수 있다. 1974년 4월 밀양군립박물관으로 개관한 이래 박물관에서는 낙동강 유역의 문화와 역사를 조명하며 밀양지역의 다양한 자료를 수집, 전시하고있는 경남 최초의 공립박물관",
+      "fusion_score": 0.015625,
+      "retrieved_by": [
+        "bm25"
+      ],
+      "fusion_rank": 10,
+      "rerank_score": 0.7311336994171143,
+      "rank": 4,
+      "score": 0.7311336994171143,
+      "score_type": "cross_encoder",
+      "distance": null,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "bm25"
+      ],
+      "retriever": "bm25",
+      "span_id": "chroma:M0151",
+      "source_doc_ids": [
+        "DOC-B0151-TOUR_API-130087",
+        "DOC-B0151-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0151-TOUR_API-130087",
+          "source_type": "TOUR_API",
+          "source_record_id": "130087",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=71",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        },
+        {
+          "doc_id": "DOC-B0151-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0151",
+          "source_locator": "data/raw/museum_base_1070.csv#row=152",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 146,
+          "doc_ids": [
+            "DOC-B0151-TOUR_API-130087"
+          ]
+        },
+        {
+          "start": 147,
+          "end": 224,
+          "doc_ids": [
+            "DOC-B0151-TOUR_API-130087"
+          ]
+        },
+        {
+          "start": 225,
+          "end": 420,
+          "doc_ids": [
+            "DOC-B0151-TOUR_API-130087"
+          ]
+        },
+        {
+          "start": 421,
+          "end": 489,
+          "doc_ids": [
+            "DOC-B0151-TOUR_API-130087"
+          ]
+        },
+        {
+          "start": 490,
+          "end": 568,
+          "doc_ids": [
+            "DOC-B0151-TOUR_API-130087"
+          ]
+        },
+        {
+          "start": 569,
+          "end": 645,
+          "doc_ids": [
+            "DOC-B0151-TOUR_API-130087"
+          ]
+        },
+        {
+          "start": 646,
+          "end": 728,
+          "doc_ids": [
+            "DOC-B0151-TOUR_API-130087"
+          ]
+        },
+        {
+          "start": 729,
+          "end": 820,
+          "doc_ids": [
+            "DOC-B0151-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=71",
+      "text": "밀양시립박물관은 낙동강유역의 문화를 집대성하여 효율적인 보존·전시함은 물론, 향토사료의 수집·조사·연구·정리 등을 통해 역사와 문화예술에 대한 고증 등 중심역할을 수행하고 나아가 시민들에게 널리 공개하여 문화 향수 증대 및 사회교육에 이바지하기 위해 건립되었다. 박물관은 상설 1 전시실, 상설 2 전시실, 기획전시실로 나눠져 있으며 밀양지역의 역사(삼한시대~조선시대)를 조명해 볼 수 있도록 하였다. 주요 소장품은 밀양 12경도, 용담취규정잡영 외에 단원 김홍도 『선유도』, 오원장승업 『화조도』등 서화류와 이방중묘 출토 명기 및 지석, 청자명문매호 등 도자기와 토기류 등 낙동강 유역과 밀양지역 출토 고고유물들과 소눌선생문집책판, 퇴로본 성호선생문집책판 등 총 39종 4,835장의 문집책판(전시형수장고), 민속 및 생활유물이 주류를 이루고 있다. 밀양시립박물관에는 낙동강 문화 유물 외에 화석전시관, 밀양독립운동기념관이 조성되어 있어 또 다른 재미와 볼거리를 선사한다. 화석전시관은 밀양시립박물관 내에 위치하며 고생대 중생대 등 전 세계에 분포되어 있는 주요 화석 (공룡, 어류 등) 244점이 전시되어 있다. 밀양독립운동기념관은 독립의열단 단장이었던 약산 김원봉과 석정 윤세주 열사 등 밀양출신 독립운동가들의 활동상을 조명해 볼 수 있는 곳이다. 1919년 3월 13일부터 일어난 밀양지역의 주요 만세운동과 파리장서운동, 밀양경찰서 폭탄투척사건 등은 물론 밀양의 근현대사를 조명해 볼 수 있다. 1974년 4월 밀양군립박물관으로 개관한 이래 박물관에서는 낙동강 유역의 문화와 역사를 조명하며 밀양지역의 다양한 자료를 수집, 전시하고있는 경남 최초의 공립박물관",
+      "sido": "경상남도",
+      "sigungu": "밀양시",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=71"
+      ],
+      "evidence_id": "E4",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=94",
+        "fields": {
+          "name": "밀양시립박물관",
+          "sido": "경상남도",
+          "sigungu": "밀양시",
+          "address": "경상남도 밀양시 밀양대공원로 100",
+          "ownership_type": "공립",
+          "adult_fee": "1000",
+          "youth_fee": "700",
+          "child_fee": "500",
+          "adult_fee_status": "BASE_FEE_PAID",
+          "weekday_open": "09:00",
+          "weekday_close": "18:00",
+          "holiday_open": "09:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "매주월요일(단, 공휴일경우, 다음날 휴관)+설 당일+추석 당일+1월1일",
+          "amenities_raw": "문화상품점+휴게실"
+        },
+        "base_data_date": "2026-09-17",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0298",
+      "name": "의병박물관",
+      "document": "나라가 위기에 처했을 때 자발적으로 일어선 의병의 숭고한 구국 정신을 기리고 지역의 유구한 역사를 체계적으로 조명하는 전문 박물관이다. 의병 역사뿐 아니라 의령 지역의 선사 시대 및 고대 가야의 유적과 유물까지 폭넓게 아우르는 복합 역사 교육 거점으로 운영되고 있다. 본관 상설전시실은 임진왜란 당시 최초로 의병을 일으켜 정암진 전투를 승리로 이끌고 곡창지대를 수호한 홍의장군 곽재우의 친필 현판 및 유물, 당시 전투 모형을 집중 조명한다. 또한 제2전시관에서는 구한말부터 일제강점기까지 국권 회복에 헌신한 의령 출신 독립운동가들의 유품과 사료를 전시하고 있어, 시대별 의병·독립운동의 맥을 한눈에 살펴볼 수 있다. 바로 곁의 충익사와 함께 둘러보면 의령 땅에 깃든 의병 정신을 더욱 깊이 느낄 수 있다. 의병박물관은 기존의 의령군민문화회관 내에 위치하고 있던 의령박물관을 충익사 기념관(보물 제671호 곽재우 유물 일관 등 의병 관련 유물)과 합관하여 의령읍 충익로 1-25번지에 신축하면서 의병박물관으로 명칭 변경하였으면 2012년 6월1일 개관하였다.",
+      "metadata": {
+        "closure_rule_raw": "매년 1월 1일과 매주 월요일(단, 월요일이 「관공서의 공휴일에 관한 규정」제2조에 따른 공휴일일 때에는 월요일 다음의 첫 번째 평일)",
+        "transport_notes": "버스: 의령우체국 정류장(도보: 9분)",
+        "holiday_open": "09:00",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/15/4123215_image2_1.JPG",
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "requires_manual_review": true,
+        "holiday_close": "17:30",
+        "fee_notes": "무료",
+        "latitude": 35.31468812,
+        "source_types": "BASE|TOUR_API",
+        "weekday_close": "17:30",
+        "image_copyright": "Type1",
+        "address": "경상남도 의령군 의령읍 충익로 1-25",
+        "homepage_url": "http://www.uiryeong.go.kr/tour/index.uiryeong?menuCd=DOM_000000506004000000",
+        "name": "의병박물관",
+        "sido": "경상남도",
+        "ownership_type": "공립",
+        "longitude": 128.2594317,
+        "weekday_open": "09:00",
+        "youth_fee": 0.0,
+        "child_fee": 0.0,
+        "sigungu": "의령군",
+        "adult_fee": 0.0
+      },
+      "vector_rank": null,
+      "bm25_rank": 8,
+      "vector_distance": null,
+      "vector_score": null,
+      "bm25_score": 8.72542166381011,
+      "vector_document": "",
+      "bm25_document": "나라가 위기에 처했을 때 자발적으로 일어선 의병의 숭고한 구국 정신을 기리고 지역의 유구한 역사를 체계적으로 조명하는 전문 박물관이다. 의병 역사뿐 아니라 의령 지역의 선사 시대 및 고대 가야의 유적과 유물까지 폭넓게 아우르는 복합 역사 교육 거점으로 운영되고 있다. 본관 상설전시실은 임진왜란 당시 최초로 의병을 일으켜 정암진 전투를 승리로 이끌고 곡창지대를 수호한 홍의장군 곽재우의 친필 현판 및 유물, 당시 전투 모형을 집중 조명한다. 또한 제2전시관에서는 구한말부터 일제강점기까지 국권 회복에 헌신한 의령 출신 독립운동가들의 유품과 사료를 전시하고 있어, 시대별 의병·독립운동의 맥을 한눈에 살펴볼 수 있다. 바로 곁의 충익사와 함께 둘러보면 의령 땅에 깃든 의병 정신을 더욱 깊이 느낄 수 있다. 의병박물관은 기존의 의령군민문화회관 내에 위치하고 있던 의령박물관을 충익사 기념관(보물 제671호 곽재우 유물 일관 등 의병 관련 유물)과 합관하여 의령읍 충익로 1-25번지에 신축하면서 의병박물관으로 명칭 변경하였으면 2012년 6월1일 개관하였다.",
+      "best_span_id": "chroma:M0298",
+      "best_span_text": "나라가 위기에 처했을 때 자발적으로 일어선 의병의 숭고한 구국 정신을 기리고 지역의 유구한 역사를 체계적으로 조명하는 전문 박물관이다. 의병 역사뿐 아니라 의령 지역의 선사 시대 및 고대 가야의 유적과 유물까지 폭넓게 아우르는 복합 역사 교육 거점으로 운영되고 있다. 본관 상설전시실은 임진왜란 당시 최초로 의병을 일으켜 정암진 전투를 승리로 이끌고 곡창지대를 수호한 홍의장군 곽재우의 친필 현판 및 유물, 당시 전투 모형을 집중 조명한다. 또한 제2전시관에서는 구한말부터 일제강점기까지 국권 회복에 헌신한 의령 출신 독립운동가들의 유품과 사료를 전시하고 있어, 시대별 의병·독립운동의 맥을 한눈에 살펴볼 수 있다. 바로 곁의 충익사와 함께 둘러보면 의령 땅에 깃든 의병 정신을 더욱 깊이 느낄 수 있다. 의병박물관은 기존의 의령군민문화회관 내에 위치하고 있던 의령박물관을 충익사 기념관(보물 제671호 곽재우 유물 일관 등 의병 관련 유물)과 합관하여 의령읍 충익로 1-25번지에 신축하면서 의병박물관으로 명칭 변경하였으면 2012년 6월1일 개관하였다.",
+      "fusion_score": 0.014705882352941176,
+      "retrieved_by": [
+        "bm25"
+      ],
+      "fusion_rank": 14,
+      "rerank_score": 0.09844952821731567,
+      "rank": 5,
+      "score": 0.09844952821731567,
+      "score_type": "cross_encoder",
+      "distance": null,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "bm25"
+      ],
+      "retriever": "bm25",
+      "span_id": "chroma:M0298",
+      "source_doc_ids": [
+        "DOC-B0298-TOUR_API-4130915",
+        "DOC-B0298-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0298-TOUR_API-4130915",
+          "source_type": "TOUR_API",
+          "source_record_id": "4130915",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=147",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        },
+        {
+          "doc_id": "DOC-B0298-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0298",
+          "source_locator": "data/raw/museum_base_1070.csv#row=299",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 75,
+          "doc_ids": [
+            "DOC-B0298-TOUR_API-4130915"
+          ]
+        },
+        {
+          "start": 76,
+          "end": 149,
+          "doc_ids": [
+            "DOC-B0298-TOUR_API-4130915"
+          ]
+        },
+        {
+          "start": 150,
+          "end": 246,
+          "doc_ids": [
+            "DOC-B0298-TOUR_API-4130915"
+          ]
+        },
+        {
+          "start": 247,
+          "end": 344,
+          "doc_ids": [
+            "DOC-B0298-TOUR_API-4130915"
+          ]
+        },
+        {
+          "start": 345,
+          "end": 394,
+          "doc_ids": [
+            "DOC-B0298-TOUR_API-4130915"
+          ]
+        },
+        {
+          "start": 395,
+          "end": 535,
+          "doc_ids": [
+            "DOC-B0298-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=147",
+      "text": "나라가 위기에 처했을 때 자발적으로 일어선 의병의 숭고한 구국 정신을 기리고 지역의 유구한 역사를 체계적으로 조명하는 전문 박물관이다. 의병 역사뿐 아니라 의령 지역의 선사 시대 및 고대 가야의 유적과 유물까지 폭넓게 아우르는 복합 역사 교육 거점으로 운영되고 있다. 본관 상설전시실은 임진왜란 당시 최초로 의병을 일으켜 정암진 전투를 승리로 이끌고 곡창지대를 수호한 홍의장군 곽재우의 친필 현판 및 유물, 당시 전투 모형을 집중 조명한다. 또한 제2전시관에서는 구한말부터 일제강점기까지 국권 회복에 헌신한 의령 출신 독립운동가들의 유품과 사료를 전시하고 있어, 시대별 의병·독립운동의 맥을 한눈에 살펴볼 수 있다. 바로 곁의 충익사와 함께 둘러보면 의령 땅에 깃든 의병 정신을 더욱 깊이 느낄 수 있다. 의병박물관은 기존의 의령군민문화회관 내에 위치하고 있던 의령박물관을 충익사 기념관(보물 제671호 곽재우 유물 일관 등 의병 관련 유물)과 합관하여 의령읍 충익로 1-25번지에 신축하면서 의병박물관으로 명칭 변경하였으면 2012년 6월1일 개관하였다.",
+      "sido": "경상남도",
+      "sigungu": "의령군",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=147"
+      ],
+      "evidence_id": "E5",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=212",
+        "fields": {
+          "name": "의병박물관",
+          "sido": "경상남도",
+          "sigungu": "의령군",
+          "address": "경상남도 의령군 의령읍 충익로 1-25",
+          "ownership_type": "공립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "09:00",
+          "weekday_close": "17:30",
+          "holiday_open": "09:00",
+          "holiday_close": "17:30",
+          "closure_rule_raw": "매년 1월 1일과 매주 월요일(단, 월요일이 「관공서의 공휴일에 관한 규정」제2조에 따른 공휴일일 때에는 월요일 다음의 첫 번째 평일)"
+        },
+        "base_data_date": "2026-07-27",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    }
+  ],
+  "answer": "경상북도독립운동기념관의 전시실은 **독립관과 의열관**으로 구성되어 있습니다. 의열관에서는 안동 독립운동의 뿌리가 된 전통마을의 항일투쟁을 볼 수 있고, 그 밖에 독립운동을 영상으로 소개하는 **추강영상실**과 유아 교육·체험 공간인 **새싹교육실**도 마련되어 있습니다. [E1]",
+  "retrieval_status": "ok",
+  "answer_status": "answered",
+  "route": "hybrid",
+  "retry_count": 0,
+  "supervisor_verified": true,
+  "rerank_applied": true,
+  "retriever_errors": [],
+  "warnings": [],
+  "duration_ms": 143513.05,
+  "error_type": "",
+  "hit_at_1": 1,
+  "hit_at_3": 1,
+  "hit_at_5": 1,
+  "recall_at_5": 1.0,
+  "mrr_at_10": 1.0
+}

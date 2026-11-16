@@ -1,0 +1,44 @@
+{
+  "mode": "supervisor_full",
+  "question_id": "Q271",
+  "evidence": [
+    {
+      "museum_id": "M0462",
+      "name": "서호미술관",
+      "text": "[Neo4j 구조화 속성] {\"museum_id\": \"M0462\", \"name\": \"서호미술관\", \"sido\": \"경기도\", \"sigungu\": \"남양주시\"}",
+      "span_id": "",
+      "source_doc_ids": [],
+      "source_urls": [],
+      "source_url": "",
+      "source_locators": [],
+      "source_locator": "",
+      "sido": "경기도",
+      "sigungu": "남양주시",
+      "retriever": "graph",
+      "address": "경기도 남양주시 화도읍 북한강로 1344",
+      "metadata": {},
+      "chunk_id": "",
+      "retrievers": [
+        "graph"
+      ],
+      "evidence_id": "E1",
+      "rank": 1
+    }
+  ],
+  "answer": "확인 가능한 근거가 부족하여 답변을 보류했음.",
+  "retrieval_status": "ok",
+  "answer_status": "abstained",
+  "route": "graph",
+  "retry_count": 1,
+  "supervisor_verified": false,
+  "rerank_applied": false,
+  "retriever_errors": [],
+  "warnings": [],
+  "duration_ms": 147514.26,
+  "error_type": "",
+  "hit_at_1": 1,
+  "hit_at_3": 1,
+  "hit_at_5": 1,
+  "recall_at_5": 1.0,
+  "mrr_at_10": 1.0
+}

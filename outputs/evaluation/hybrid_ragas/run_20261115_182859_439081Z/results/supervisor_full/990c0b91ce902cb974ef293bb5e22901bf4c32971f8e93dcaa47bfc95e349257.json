@@ -1,0 +1,665 @@
+{
+  "evidence_context_version": "grounded-evidence-v2",
+  "evaluation_contexts": [
+    "{\"evidence_context_version\": \"grounded-evidence-v2\", \"evidence_id\": \"E1\", \"metadata_provenance\": {\"base_data_date\": \"2026-05-26\", \"fields\": {\"address\": \"경기도 광명시 오리로347번길 5-6\", \"adult_fee\": \"10000\", \"adult_fee_status\": \"BASE_FEE_PAID\", \"amenities_raw\": \"없음\", \"child_fee\": \"5000\", \"closure_rule_raw\": \"월요일+일요일+설 연휴+추석 연휴+공휴일\", \"holiday_close\": \"00:00\", \"holiday_open\": \"00:00\", \"name\": \"충현박물관\", \"ownership_type\": \"사립\", \"sido\": \"경기도\", \"sigungu\": \"광명시\", \"weekday_close\": \"17:00\", \"weekday_open\": \"10:00\", \"youth_fee\": \"5000\"}, \"source_kind\": \"derived_csv_row\", \"source_locator\": \"data/processed/museum_final_738.csv#record=278\", \"trust\": \"derived_dataset_not_human_verified\"}, \"museum_id\": \"M0391\", \"name\": \"충현박물관\", \"source_doc_ids\": [\"DOC-B0391-TOUR_API-130707\", \"DOC-B0391-BASE\"], \"source_documents\": [{\"doc_id\": \"DOC-B0391-TOUR_API-130707\", \"match_trust\": \"RECHECKED_BY_RULE_NOT_HUMAN_APPROVED\", \"source_locator\": \"data/raw/museum_tourapi_with_overview.csv#row=181\", \"source_record_id\": \"130707\", \"source_type\": \"TOUR_API\"}, {\"doc_id\": \"DOC-B0391-BASE\", \"match_trust\": \"BASE_SOURCE\", \"source_locator\": \"data/raw/museum_base_1070.csv#row=392\", \"source_record_id\": \"B0391\", \"source_type\": \"BASE\"}], \"source_locator\": \"data/raw/museum_tourapi_with_overview.csv#row=181\", \"source_locators\": [\"data/raw/museum_tourapi_with_overview.csv#row=181\"], \"source_scope\": \"text\", \"source_spans\": [{\"doc_ids\": [\"DOC-B0391-TOUR_API-130707\"], \"end\": 34, \"start\": 0}, {\"doc_ids\": [\"DOC-B0391-TOUR_API-130707\"], \"end\": 93, \"start\": 35}, {\"doc_ids\": [\"DOC-B0391-TOUR_API-130707\"], \"end\": 187, \"start\": 94}, {\"doc_ids\": [\"DOC-B0391-BASE\"], \"end\": 208, \"start\": 188}], \"source_urls\": [], \"text\": \"충현박물관은 이원익 종가에서 만든 전국 유일의 종가박물관이다. 이원익 직계 후손들이 선대의 유품을 보존하며 조선시대 선비문화를 계승, 보호한다는 사명감으로 설립하였다. 영정과 친필 등 이원익과 관련된 자료와 종가에서 사용했던 제기와 민속생활품, 400여 년 전의 유물로부터 근대에 이르기까지 사대부집안의 각종 자료 등이 전시되어 있다. 조선시대 청백리 오리이원익 종가박물관\"}",
+    "{\"evidence_context_version\": \"grounded-evidence-v2\", \"evidence_id\": \"E2\", \"metadata_provenance\": {\"base_data_date\": \"2025-08-05\", \"fields\": {\"address\": \"강원특별자치도 양구군 양구읍 금강산로 439-51\", \"adult_fee\": \"3000\", \"adult_fee_status\": \"BASE_FEE_PAID\", \"amenities_raw\": \"뮤지엄숍+향토사료관+고인돌공원+함춘주막\", \"child_fee\": \"3000\", \"closure_rule_raw\": \"월+1월 1일+설날 오전+추석 오전\", \"holiday_close\": \"18:00\", \"holiday_open\": \"10:00\", \"name\": \"양구근현대사박물관\", \"ownership_type\": \"공립\", \"sido\": \"강원특별자치도\", \"sigungu\": \"양구군\", \"weekday_close\": \"18:00\", \"weekday_open\": \"10:00\", \"youth_fee\": \"3000\"}, \"source_kind\": \"derived_csv_row\", \"source_locator\": \"data/processed/museum_final_738.csv#record=696\", \"trust\": \"derived_dataset_not_human_verified\"}, \"museum_id\": \"M1014\", \"name\": \"양구근현대사박물관\", \"source_doc_ids\": [\"DOC-B1014-BASE\"], \"source_documents\": [{\"doc_id\": \"DOC-B1014-BASE\", \"match_trust\": \"BASE_SOURCE\", \"source_locator\": \"data/raw/museum_base_1070.csv#row=1015\", \"source_record_id\": \"B1014\", \"source_type\": \"BASE\"}], \"source_locator\": \"data/raw/museum_base_1070.csv#row=1015\", \"source_locators\": [\"data/raw/museum_base_1070.csv#row=1015\"], \"source_scope\": \"text\", \"source_spans\": [{\"doc_ids\": [\"DOC-B1014-BASE\"], \"end\": 45, \"start\": 0}, {\"doc_ids\": [\"DOC-B1014-BASE\"], \"end\": 194, \"start\": 46}, {\"doc_ids\": [\"DOC-B1014-BASE\"], \"end\": 289, \"start\": 195}], \"source_urls\": [], \"text\": \"박물관은 근현대사를 담고 있는 다양한 자료를 테마별 전시관으로 구성하고 있습니다. 먼저 제1전시실은 한국근현대사 전반을 살펴볼 수 있는 역사의 휘모리 공간을 시작으로, 엽서관, 우표관, 씰관 등으로 구성되어 있으며, 제2전시실은 추억속의 영화역사 포스터 등을 전시한 추억의 영화관, 아리랑 문화를 다양한 면을 살필 수 있는 공간으로 전시되어 있다. 또한 기획전시실에는 기증유물특별전으로 기증자 박민일 박사, 송광호 기자, 철학가 김형석박사의 다양한 기증자료 중 도자기, 그림, 글씨, 민속품을 중심으로 전시하고 있다.\"}",
+    "{\"evidence_context_version\": \"grounded-evidence-v2\", \"evidence_id\": \"E3\", \"metadata_provenance\": {\"base_data_date\": \"2026-06-10\", \"fields\": {\"address\": \"강원특별자치도 춘천시 영서로 3017\", \"adult_fee\": \"2000\", \"adult_fee_status\": \"BASE_FEE_PAID\", \"child_fee\": \"2000\", \"closure_rule_raw\": \"월+1월 1일+설 당일+추석 당일+박물관 전시 교체 기간\", \"holiday_close\": \"18:00\", \"holiday_open\": \"10:00\", \"name\": \"인형극박물관\", \"ownership_type\": \"공립\", \"sido\": \"강원특별자치도\", \"sigungu\": \"춘천시\", \"weekday_close\": \"18:00\", \"weekday_open\": \"10:00\", \"youth_fee\": \"2000\"}, \"source_kind\": \"derived_csv_row\", \"source_locator\": \"data/processed/museum_final_738.csv#record=266\", \"trust\": \"derived_dataset_not_human_verified\"}, \"museum_id\": \"M0364\", \"name\": \"인형극박물관\", \"source_doc_ids\": [\"DOC-B0364-BASE\"], \"source_documents\": [{\"doc_id\": \"DOC-B0364-BASE\", \"match_trust\": \"BASE_SOURCE\", \"source_locator\": \"data/raw/museum_base_1070.csv#row=365\", \"source_record_id\": \"B0364\", \"source_type\": \"BASE\"}], \"source_locator\": \"data/raw/museum_base_1070.csv#row=365\", \"source_locators\": [\"data/raw/museum_base_1070.csv#row=365\"], \"source_scope\": \"text\", \"source_spans\": [{\"doc_ids\": [\"DOC-B0364-BASE\"], \"end\": 36, \"start\": 0}], \"source_urls\": [], \"text\": \"국내외 200여점의 인형과 각종 인형극 관련 자료를 전시하고 있음\"}",
+    "{\"evidence_context_version\": \"grounded-evidence-v2\", \"evidence_id\": \"E4\", \"metadata_provenance\": {\"base_data_date\": \"2026-03-26\", \"fields\": {\"address\": \"경상남도 거제시 거제대로 3791\", \"adult_fee\": \"3000\", \"adult_fee_status\": \"BASE_FEE_PAID\", \"child_fee\": \"1500\", \"closure_rule_raw\": \"월요일+설당일+추석당일\", \"holiday_close\": \"18:00\", \"holiday_open\": \"09:00\", \"name\": \"거제박물관\", \"ownership_type\": \"사립\", \"sido\": \"경상남도\", \"sigungu\": \"거제시\", \"weekday_close\": \"18:00\", \"weekday_open\": \"09:00\", \"youth_fee\": \"2000\"}, \"source_kind\": \"derived_csv_row\", \"source_locator\": \"data/processed/museum_final_738.csv#record=304\", \"trust\": \"derived_dataset_not_human_verified\"}, \"museum_id\": \"M0430\", \"name\": \"거제박물관\", \"source_doc_ids\": [\"DOC-B0430-TOUR_API-129805\", \"DOC-B0430-BASE\"], \"source_documents\": [{\"doc_id\": \"DOC-B0430-TOUR_API-129805\", \"match_trust\": \"AUTO_MATCH_NOT_HUMAN_VERIFIED\", \"source_locator\": \"data/raw/museum_tourapi_with_overview.csv#row=204\", \"source_record_id\": \"129805\", \"source_type\": \"TOUR_API\"}, {\"doc_id\": \"DOC-B0430-BASE\", \"match_trust\": \"BASE_SOURCE\", \"source_locator\": \"data/raw/museum_base_1070.csv#row=431\", \"source_record_id\": \"B0430\", \"source_type\": \"BASE\"}], \"source_locator\": \"data/raw/museum_tourapi_with_overview.csv#row=204\", \"source_locators\": [\"data/raw/museum_tourapi_with_overview.csv#row=204\"], \"source_scope\": \"text\", \"source_spans\": [{\"doc_ids\": [\"DOC-B0430-TOUR_API-129805\"], \"end\": 121, \"start\": 0}, {\"doc_ids\": [\"DOC-B0430-TOUR_API-129805\"], \"end\": 262, \"start\": 122}, {\"doc_ids\": [\"DOC-B0430-TOUR_API-129805\"], \"end\": 298, \"start\": 263}, {\"doc_ids\": [\"DOC-B0430-TOUR_API-129805\"], \"end\": 495, \"start\": 299}, {\"doc_ids\": [\"DOC-B0430-BASE\"], \"end\": 524, \"start\": 496}], \"source_urls\": [], \"text\": \"거제박물관은 거제문화재단 산하의 기관으로서, 1991년 12월 21일에 개관하여, 1992년 문화관광부에 등록한 종합박물관(민속, 고고분야)으로서 거제의 역사와 민속에 관한 자료를 수집, 정리, 연구, 전시하고 있다. 1층은 기획전시실 공간으로 지역 내의 여러 문화행사(전시행사)를 개최할 수 있게 되어 있으며, 2층은 민속실로 거제에서 채집한 민속품이 진열되어 있는데, 섬이라는 환경조건으로 반농반어의 생산 형태를 갖게 되어 농경과 수산에 관계되는 용구가 많이 있다. 3층은 선사시대부터 조선시대까지의 다양한 유물이 전시되어 있다. 이러한 박물관 본연의 사업 외에 난, 수석, 사진 등의 지역 주민을 위한 일반 전시회와 민속품, 소장품 등의 기획 전시, 유물 사생대회와 클래식 음악회, 명사초청 강연회와 가족캠프 등의 문화와 예술에 관한 많은 사업들을 진행하고 있으며, 특히 박물관 대학과 대학원 등을 통해 지역민의 교양을 넓히고, 새로운 정보를 제공하는 사회교육 기능도 하고 있다. 도류+토기+민속품+고서+서화류 등 3500여점 소장\"}",
+    "{\"evidence_context_version\": \"grounded-evidence-v2\", \"evidence_id\": \"E5\", \"metadata_provenance\": {\"base_data_date\": \"2018-05-15\", \"fields\": {\"address\": \"서울특별시 도봉구 근화교길 19 덕성여자대학교\", \"adult_fee\": \"0\", \"adult_fee_status\": \"BASE_FEE_ZERO_CHECK_EXCEPTIONS\", \"child_fee\": \"0\", \"closure_rule_raw\": \"토,일요일 법정공휴일 개교기념일, 동하계 휴가기간, 기타 정부나 대학에서 임시휴일로 정하는 날.\", \"holiday_close\": \"00:00\", \"holiday_open\": \"00:00\", \"name\": \"덕성여자대학교 박물관\", \"ownership_type\": \"사립\", \"sido\": \"서울특별시\", \"sigungu\": \"도봉구\", \"weekday_close\": \"16:00\", \"weekday_open\": \"10:00\", \"youth_fee\": \"0\"}, \"source_kind\": \"derived_csv_row\", \"source_locator\": \"data/processed/museum_final_738.csv#record=623\", \"trust\": \"derived_dataset_not_human_verified\"}, \"museum_id\": \"M0906\", \"name\": \"덕성여자대학교 박물관\", \"source_doc_ids\": [\"DOC-B0906-BASE\"], \"source_documents\": [{\"doc_id\": \"DOC-B0906-BASE\", \"match_trust\": \"BASE_SOURCE\", \"source_locator\": \"data/raw/museum_base_1070.csv#row=907\", \"source_record_id\": \"B0906\", \"source_type\": \"BASE\"}], \"source_locator\": \"data/raw/museum_base_1070.csv#row=907\", \"source_locators\": [\"data/raw/museum_base_1070.csv#row=907\"], \"source_scope\": \"text\", \"source_spans\": [{\"doc_ids\": [\"DOC-B0906-BASE\"], \"end\": 23, \"start\": 0}, {\"doc_ids\": [\"DOC-B0906-BASE\"], \"end\": 164, \"start\": 24}], \"source_urls\": [], \"text\": \"회화·도자실 : 회화류 : 조선시대 회화. 민화 등 회화류 및 각종 도자기 전시목공예실 : 조선시대 목가구, 소반, 반닫이 등복식실 : 원삼, 초의, 저고리 등 조선후기의 남녀복식 전시금속공예실 : 청동병, 동경 등 고려시대의 청동기유물, 등잔, 촛대 등 조선후기의 등기류, 나전칠기류 등 전시\"}"
+  ],
+  "mode": "supervisor_full",
+  "question_id": "Q226",
+  "evidence": [
+    {
+      "museum_id": "M0391",
+      "name": "충현박물관",
+      "document": "충현박물관은 이원익 종가에서 만든 전국 유일의 종가박물관이다. 이원익 직계 후손들이 선대의 유품을 보존하며 조선시대 선비문화를 계승, 보호한다는 사명감으로 설립하였다. 영정과 친필 등 이원익과 관련된 자료와 종가에서 사용했던 제기와 민속생활품, 400여 년 전의 유물로부터 근대에 이르기까지 사대부집안의 각종 자료 등이 전시되어 있다. 조선시대 청백리 오리이원익 종가박물관",
+      "metadata": {
+        "adult_fee_status": "BASE_FEE_PAID",
+        "closure_rule_raw": "월요일+일요일+설 연휴+추석 연휴+공휴일",
+        "holiday_close": "00:00",
+        "source_types": "BASE|TOUR_API",
+        "child_fee": 5000.0,
+        "transport_notes": "버스 : 2+3+11-2+12+17+22+75+77+505+5627+5633 소하2동 행정복지센터 광명동굴길입구 하차",
+        "youth_fee": 5000.0,
+        "latitude": 37.4339273,
+        "adult_fee": 10000.0,
+        "holiday_open": "00:00",
+        "weekday_close": "17:00",
+        "homepage_url": "http://www.chunghyeon.org/",
+        "longitude": 126.8777258,
+        "fee_notes": "(일반시민)7000원(성인단체+65세이상+장애인)+(광명시민)5000원(성인)+ (광명시민)4000원 (성인단체+65세이상+장애인+유아+청소년)",
+        "sido": "경기도",
+        "requires_manual_review": true,
+        "address": "경기도 광명시 오리로347번길 5-6",
+        "amenities_raw": "없음",
+        "name": "충현박물관",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/10/3563410_image2_1.jpg",
+        "image_copyright": "Type1",
+        "weekday_open": "10:00",
+        "ownership_type": "사립",
+        "sigungu": "광명시"
+      },
+      "vector_rank": 1,
+      "bm25_rank": 1,
+      "vector_distance": 0.43506157398223877,
+      "vector_score": null,
+      "bm25_score": 26.17224312381621,
+      "vector_document": "충현박물관은 이원익 종가에서 만든 전국 유일의 종가박물관이다. 이원익 직계 후손들이 선대의 유품을 보존하며 조선시대 선비문화를 계승, 보호한다는 사명감으로 설립하였다. 영정과 친필 등 이원익과 관련된 자료와 종가에서 사용했던 제기와 민속생활품, 400여 년 전의 유물로부터 근대에 이르기까지 사대부집안의 각종 자료 등이 전시되어 있다. 조선시대 청백리 오리이원익 종가박물관",
+      "bm25_document": "충현박물관은 이원익 종가에서 만든 전국 유일의 종가박물관이다. 이원익 직계 후손들이 선대의 유품을 보존하며 조선시대 선비문화를 계승, 보호한다는 사명감으로 설립하였다. 영정과 친필 등 이원익과 관련된 자료와 종가에서 사용했던 제기와 민속생활품, 400여 년 전의 유물로부터 근대에 이르기까지 사대부집안의 각종 자료 등이 전시되어 있다. 조선시대 청백리 오리이원익 종가박물관",
+      "best_span_id": "chroma:M0391",
+      "best_span_text": "충현박물관은 이원익 종가에서 만든 전국 유일의 종가박물관이다. 이원익 직계 후손들이 선대의 유품을 보존하며 조선시대 선비문화를 계승, 보호한다는 사명감으로 설립하였다. 영정과 친필 등 이원익과 관련된 자료와 종가에서 사용했던 제기와 민속생활품, 400여 년 전의 유물로부터 근대에 이르기까지 사대부집안의 각종 자료 등이 전시되어 있다. 조선시대 청백리 오리이원익 종가박물관",
+      "fusion_score": 0.03278688524590164,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 1,
+      "name_match": true,
+      "rerank_score": 0.9999009370803833,
+      "rank": 1,
+      "score": 0.9999009370803833,
+      "score_type": "cross_encoder",
+      "distance": 0.43506157398223877,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0391",
+      "source_doc_ids": [
+        "DOC-B0391-TOUR_API-130707",
+        "DOC-B0391-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0391-TOUR_API-130707",
+          "source_type": "TOUR_API",
+          "source_record_id": "130707",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=181",
+          "match_trust": "RECHECKED_BY_RULE_NOT_HUMAN_APPROVED"
+        },
+        {
+          "doc_id": "DOC-B0391-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0391",
+          "source_locator": "data/raw/museum_base_1070.csv#row=392",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 34,
+          "doc_ids": [
+            "DOC-B0391-TOUR_API-130707"
+          ]
+        },
+        {
+          "start": 35,
+          "end": 93,
+          "doc_ids": [
+            "DOC-B0391-TOUR_API-130707"
+          ]
+        },
+        {
+          "start": 94,
+          "end": 187,
+          "doc_ids": [
+            "DOC-B0391-TOUR_API-130707"
+          ]
+        },
+        {
+          "start": 188,
+          "end": 208,
+          "doc_ids": [
+            "DOC-B0391-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=181",
+      "text": "충현박물관은 이원익 종가에서 만든 전국 유일의 종가박물관이다. 이원익 직계 후손들이 선대의 유품을 보존하며 조선시대 선비문화를 계승, 보호한다는 사명감으로 설립하였다. 영정과 친필 등 이원익과 관련된 자료와 종가에서 사용했던 제기와 민속생활품, 400여 년 전의 유물로부터 근대에 이르기까지 사대부집안의 각종 자료 등이 전시되어 있다. 조선시대 청백리 오리이원익 종가박물관",
+      "sido": "경기도",
+      "sigungu": "광명시",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=181"
+      ],
+      "evidence_id": "E1",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=278",
+        "fields": {
+          "name": "충현박물관",
+          "sido": "경기도",
+          "sigungu": "광명시",
+          "address": "경기도 광명시 오리로347번길 5-6",
+          "ownership_type": "사립",
+          "adult_fee": "10000",
+          "youth_fee": "5000",
+          "child_fee": "5000",
+          "adult_fee_status": "BASE_FEE_PAID",
+          "weekday_open": "10:00",
+          "weekday_close": "17:00",
+          "holiday_open": "00:00",
+          "holiday_close": "00:00",
+          "closure_rule_raw": "월요일+일요일+설 연휴+추석 연휴+공휴일",
+          "amenities_raw": "없음"
+        },
+        "base_data_date": "2026-05-26",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M1014",
+      "name": "양구근현대사박물관",
+      "document": "박물관은 근현대사를 담고 있는 다양한 자료를 테마별 전시관으로 구성하고 있습니다. 먼저 제1전시실은 한국근현대사 전반을 살펴볼 수 있는 역사의 휘모리 공간을 시작으로, 엽서관, 우표관, 씰관 등으로 구성되어 있으며, 제2전시실은 추억속의 영화역사 포스터 등을 전시한 추억의 영화관, 아리랑 문화를 다양한 면을 살필 수 있는 공간으로 전시되어 있다. 또한 기획전시실에는 기증유물특별전으로 기증자 박민일 박사, 송광호 기자, 철학가 김형석박사의 다양한 기증자료 중 도자기, 그림, 글씨, 민속품을 중심으로 전시하고 있다.",
+      "metadata": {
+        "address": "강원특별자치도 양구군 양구읍 금강산로 439-51",
+        "homepage_url": "http://www.ygpm.or.kr/",
+        "latitude": 38.12222633,
+        "weekday_close": "18:00",
+        "fee_notes": "지역상품권 환급+6세이하+65세 이상+장애인+국민기초생활수급자+명예군민 등 면제",
+        "name": "양구근현대사박물관",
+        "requires_manual_review": true,
+        "ownership_type": "공립",
+        "sido": "강원특별자치도",
+        "holiday_close": "18:00",
+        "longitude": 127.9904068,
+        "child_fee": 3000.0,
+        "adult_fee_status": "BASE_FEE_PAID",
+        "holiday_open": "10:00",
+        "youth_fee": 3000.0,
+        "sigungu": "양구군",
+        "closure_rule_raw": "월+1월 1일+설날 오전+추석 오전",
+        "adult_fee": 3000.0,
+        "amenities_raw": "뮤지엄숍+향토사료관+고인돌공원+함춘주막",
+        "weekday_open": "10:00",
+        "source_types": "BASE"
+      },
+      "vector_rank": 2,
+      "bm25_rank": null,
+      "vector_distance": 0.4997466802597046,
+      "vector_score": null,
+      "bm25_score": null,
+      "vector_document": "박물관은 근현대사를 담고 있는 다양한 자료를 테마별 전시관으로 구성하고 있습니다. 먼저 제1전시실은 한국근현대사 전반을 살펴볼 수 있는 역사의 휘모리 공간을 시작으로, 엽서관, 우표관, 씰관 등으로 구성되어 있으며, 제2전시실은 추억속의 영화역사 포스터 등을 전시한 추억의 영화관, 아리랑 문화를 다양한 면을 살필 수 있는 공간으로 전시되어 있다. 또한 기획전시실에는 기증유물특별전으로 기증자 박민일 박사, 송광호 기자, 철학가 김형석박사의 다양한 기증자료 중 도자기, 그림, 글씨, 민속품을 중심으로 전시하고 있다.",
+      "bm25_document": "",
+      "best_span_id": null,
+      "best_span_text": null,
+      "fusion_score": 0.016129032258064516,
+      "retrieved_by": [
+        "vector"
+      ],
+      "fusion_rank": 2,
+      "rerank_score": 0.0023005916737020016,
+      "rank": 2,
+      "score": 0.0023005916737020016,
+      "score_type": "cross_encoder",
+      "distance": 0.4997466802597046,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector"
+      ],
+      "retriever": "vector",
+      "source_doc_ids": [
+        "DOC-B1014-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B1014-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B1014",
+          "source_locator": "data/raw/museum_base_1070.csv#row=1015",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 45,
+          "doc_ids": [
+            "DOC-B1014-BASE"
+          ]
+        },
+        {
+          "start": 46,
+          "end": 194,
+          "doc_ids": [
+            "DOC-B1014-BASE"
+          ]
+        },
+        {
+          "start": 195,
+          "end": 289,
+          "doc_ids": [
+            "DOC-B1014-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_base_1070.csv#row=1015",
+      "text": "박물관은 근현대사를 담고 있는 다양한 자료를 테마별 전시관으로 구성하고 있습니다. 먼저 제1전시실은 한국근현대사 전반을 살펴볼 수 있는 역사의 휘모리 공간을 시작으로, 엽서관, 우표관, 씰관 등으로 구성되어 있으며, 제2전시실은 추억속의 영화역사 포스터 등을 전시한 추억의 영화관, 아리랑 문화를 다양한 면을 살필 수 있는 공간으로 전시되어 있다. 또한 기획전시실에는 기증유물특별전으로 기증자 박민일 박사, 송광호 기자, 철학가 김형석박사의 다양한 기증자료 중 도자기, 그림, 글씨, 민속품을 중심으로 전시하고 있다.",
+      "sido": "강원특별자치도",
+      "sigungu": "양구군",
+      "span_id": "",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_base_1070.csv#row=1015"
+      ],
+      "evidence_id": "E2",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=696",
+        "fields": {
+          "name": "양구근현대사박물관",
+          "sido": "강원특별자치도",
+          "sigungu": "양구군",
+          "address": "강원특별자치도 양구군 양구읍 금강산로 439-51",
+          "ownership_type": "공립",
+          "adult_fee": "3000",
+          "youth_fee": "3000",
+          "child_fee": "3000",
+          "adult_fee_status": "BASE_FEE_PAID",
+          "weekday_open": "10:00",
+          "weekday_close": "18:00",
+          "holiday_open": "10:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "월+1월 1일+설날 오전+추석 오전",
+          "amenities_raw": "뮤지엄숍+향토사료관+고인돌공원+함춘주막"
+        },
+        "base_data_date": "2025-08-05",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0364",
+      "name": "인형극박물관",
+      "document": "국내외 200여점의 인형과 각종 인형극 관련 자료를 전시하고 있음",
+      "metadata": {
+        "holiday_open": "10:00",
+        "latitude": 37.921096,
+        "weekday_close": "18:00",
+        "homepage_url": "http://www.cocobau.com/",
+        "longitude": 127.720105,
+        "requires_manual_review": true,
+        "ownership_type": "공립",
+        "child_fee": 2000.0,
+        "source_types": "BASE",
+        "weekday_open": "10:00",
+        "sigungu": "춘천시",
+        "name": "인형극박물관",
+        "closure_rule_raw": "월+1월 1일+설 당일+추석 당일+박물관 전시 교체 기간",
+        "transport_notes": "1)대중교통 : 춘천역환승센터[2288] - 지선 12번 - 인형극장정류장 하차 / 춘천역 춘천농협정류장[1370] - 지선 9번 - 청소년수련원 정류장 하차 도보로 6분+2)승용차 : 서울양양고속도로(남춘천IC), 일반도로(46번경춘국도-403번도로)",
+        "sido": "강원특별자치도",
+        "holiday_close": "18:00",
+        "youth_fee": 2000.0,
+        "adult_fee_status": "BASE_FEE_PAID",
+        "fee_notes": "할인 대상[춘천시민+시내단체(20인 이상) : 1000원+시외단체(20인 이상) : 1500원]+무료(장애인+국가유공자+만 65세 이상+단체 인솔교사)",
+        "adult_fee": 2000.0,
+        "address": "강원특별자치도 춘천시 영서로 3017"
+      },
+      "vector_rank": 3,
+      "bm25_rank": null,
+      "vector_distance": 0.5151076316833496,
+      "vector_score": null,
+      "bm25_score": null,
+      "vector_document": "국내외 200여점의 인형과 각종 인형극 관련 자료를 전시하고 있음",
+      "bm25_document": "",
+      "best_span_id": null,
+      "best_span_text": null,
+      "fusion_score": 0.015873015873015872,
+      "retrieved_by": [
+        "vector"
+      ],
+      "fusion_rank": 4,
+      "rerank_score": 0.0021619494073092937,
+      "rank": 3,
+      "score": 0.0021619494073092937,
+      "score_type": "cross_encoder",
+      "distance": 0.5151076316833496,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector"
+      ],
+      "retriever": "vector",
+      "source_doc_ids": [
+        "DOC-B0364-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0364-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0364",
+          "source_locator": "data/raw/museum_base_1070.csv#row=365",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 36,
+          "doc_ids": [
+            "DOC-B0364-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_base_1070.csv#row=365",
+      "text": "국내외 200여점의 인형과 각종 인형극 관련 자료를 전시하고 있음",
+      "sido": "강원특별자치도",
+      "sigungu": "춘천시",
+      "span_id": "",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_base_1070.csv#row=365"
+      ],
+      "evidence_id": "E3",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=266",
+        "fields": {
+          "name": "인형극박물관",
+          "sido": "강원특별자치도",
+          "sigungu": "춘천시",
+          "address": "강원특별자치도 춘천시 영서로 3017",
+          "ownership_type": "공립",
+          "adult_fee": "2000",
+          "youth_fee": "2000",
+          "child_fee": "2000",
+          "adult_fee_status": "BASE_FEE_PAID",
+          "weekday_open": "10:00",
+          "weekday_close": "18:00",
+          "holiday_open": "10:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "월+1월 1일+설 당일+추석 당일+박물관 전시 교체 기간"
+        },
+        "base_data_date": "2026-06-10",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0430",
+      "name": "거제박물관",
+      "document": "거제박물관은 거제문화재단 산하의 기관으로서, 1991년 12월 21일에 개관하여, 1992년 문화관광부에 등록한 종합박물관(민속, 고고분야)으로서 거제의 역사와 민속에 관한 자료를 수집, 정리, 연구, 전시하고 있다. 1층은 기획전시실 공간으로 지역 내의 여러 문화행사(전시행사)를 개최할 수 있게 되어 있으며, 2층은 민속실로 거제에서 채집한 민속품이 진열되어 있는데, 섬이라는 환경조건으로 반농반어의 생산 형태를 갖게 되어 농경과 수산에 관계되는 용구가 많이 있다. 3층은 선사시대부터 조선시대까지의 다양한 유물이 전시되어 있다. 이러한 박물관 본연의 사업 외에 난, 수석, 사진 등의 지역 주민을 위한 일반 전시회와 민속품, 소장품 등의 기획 전시, 유물 사생대회와 클래식 음악회, 명사초청 강연회와 가족캠프 등의 문화와 예술에 관한 많은 사업들을 진행하고 있으며, 특히 박물관 대학과 대학원 등을 통해 지역민의 교양을 넓히고, 새로운 정보를 제공하는 사회교육 기능도 하고 있다. 도류+토기+민속품+고서+서화류 등 3500여점 소장",
+      "metadata": {
+        "requires_manual_review": true,
+        "youth_fee": 2000.0,
+        "longitude": 128.6862106,
+        "weekday_close": "18:00",
+        "child_fee": 1500.0,
+        "latitude": 34.894053,
+        "adult_fee_status": "BASE_FEE_PAID",
+        "name": "거제박물관",
+        "holiday_open": "09:00",
+        "ownership_type": "사립",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/71/3520971_image2_1.jpg",
+        "source_types": "BASE|TOUR_API",
+        "weekday_open": "09:00",
+        "closure_rule_raw": "월요일+설당일+추석당일",
+        "sigungu": "거제시",
+        "address": "경상남도 거제시 거제대로 3791",
+        "image_copyright": "Type1",
+        "adult_fee": 3000.0,
+        "holiday_close": "18:00",
+        "homepage_url": "http://gjmuseum.or.kr/",
+        "sido": "경상남도",
+        "fee_notes": "할인(경로우대, 국가유공자, 장애인, 단체(20인 이상))+무료입장(병역명문가)"
+      },
+      "vector_rank": null,
+      "bm25_rank": 7,
+      "vector_distance": null,
+      "vector_score": null,
+      "bm25_score": 11.812136732146657,
+      "vector_document": "",
+      "bm25_document": "거제박물관은 거제문화재단 산하의 기관으로서, 1991년 12월 21일에 개관하여, 1992년 문화관광부에 등록한 종합박물관(민속, 고고분야)으로서 거제의 역사와 민속에 관한 자료를 수집, 정리, 연구, 전시하고 있다. 1층은 기획전시실 공간으로 지역 내의 여러 문화행사(전시행사)를 개최할 수 있게 되어 있으며, 2층은 민속실로 거제에서 채집한 민속품이 진열되어 있는데, 섬이라는 환경조건으로 반농반어의 생산 형태를 갖게 되어 농경과 수산에 관계되는 용구가 많이 있다. 3층은 선사시대부터 조선시대까지의 다양한 유물이 전시되어 있다. 이러한 박물관 본연의 사업 외에 난, 수석, 사진 등의 지역 주민을 위한 일반 전시회와 민속품, 소장품 등의 기획 전시, 유물 사생대회와 클래식 음악회, 명사초청 강연회와 가족캠프 등의 문화와 예술에 관한 많은 사업들을 진행하고 있으며, 특히 박물관 대학과 대학원 등을 통해 지역민의 교양을 넓히고, 새로운 정보를 제공하는 사회교육 기능도 하고 있다. 도류+토기+민속품+고서+서화류 등 3500여점 소장",
+      "best_span_id": "chroma:M0430",
+      "best_span_text": "거제박물관은 거제문화재단 산하의 기관으로서, 1991년 12월 21일에 개관하여, 1992년 문화관광부에 등록한 종합박물관(민속, 고고분야)으로서 거제의 역사와 민속에 관한 자료를 수집, 정리, 연구, 전시하고 있다. 1층은 기획전시실 공간으로 지역 내의 여러 문화행사(전시행사)를 개최할 수 있게 되어 있으며, 2층은 민속실로 거제에서 채집한 민속품이 진열되어 있는데, 섬이라는 환경조건으로 반농반어의 생산 형태를 갖게 되어 농경과 수산에 관계되는 용구가 많이 있다. 3층은 선사시대부터 조선시대까지의 다양한 유물이 전시되어 있다. 이러한 박물관 본연의 사업 외에 난, 수석, 사진 등의 지역 주민을 위한 일반 전시회와 민속품, 소장품 등의 기획 전시, 유물 사생대회와 클래식 음악회, 명사초청 강연회와 가족캠프 등의 문화와 예술에 관한 많은 사업들을 진행하고 있으며, 특히 박물관 대학과 대학원 등을 통해 지역민의 교양을 넓히고, 새로운 정보를 제공하는 사회교육 기능도 하고 있다. 도류+토기+민속품+고서+서화류 등 3500여점 소장",
+      "fusion_score": 0.014925373134328358,
+      "retrieved_by": [
+        "bm25"
+      ],
+      "fusion_rank": 13,
+      "rerank_score": 0.0010393011616542935,
+      "rank": 4,
+      "score": 0.0010393011616542935,
+      "score_type": "cross_encoder",
+      "distance": null,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "bm25"
+      ],
+      "retriever": "bm25",
+      "span_id": "chroma:M0430",
+      "source_doc_ids": [
+        "DOC-B0430-TOUR_API-129805",
+        "DOC-B0430-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0430-TOUR_API-129805",
+          "source_type": "TOUR_API",
+          "source_record_id": "129805",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=204",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        },
+        {
+          "doc_id": "DOC-B0430-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0430",
+          "source_locator": "data/raw/museum_base_1070.csv#row=431",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 121,
+          "doc_ids": [
+            "DOC-B0430-TOUR_API-129805"
+          ]
+        },
+        {
+          "start": 122,
+          "end": 262,
+          "doc_ids": [
+            "DOC-B0430-TOUR_API-129805"
+          ]
+        },
+        {
+          "start": 263,
+          "end": 298,
+          "doc_ids": [
+            "DOC-B0430-TOUR_API-129805"
+          ]
+        },
+        {
+          "start": 299,
+          "end": 495,
+          "doc_ids": [
+            "DOC-B0430-TOUR_API-129805"
+          ]
+        },
+        {
+          "start": 496,
+          "end": 524,
+          "doc_ids": [
+            "DOC-B0430-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=204",
+      "text": "거제박물관은 거제문화재단 산하의 기관으로서, 1991년 12월 21일에 개관하여, 1992년 문화관광부에 등록한 종합박물관(민속, 고고분야)으로서 거제의 역사와 민속에 관한 자료를 수집, 정리, 연구, 전시하고 있다. 1층은 기획전시실 공간으로 지역 내의 여러 문화행사(전시행사)를 개최할 수 있게 되어 있으며, 2층은 민속실로 거제에서 채집한 민속품이 진열되어 있는데, 섬이라는 환경조건으로 반농반어의 생산 형태를 갖게 되어 농경과 수산에 관계되는 용구가 많이 있다. 3층은 선사시대부터 조선시대까지의 다양한 유물이 전시되어 있다. 이러한 박물관 본연의 사업 외에 난, 수석, 사진 등의 지역 주민을 위한 일반 전시회와 민속품, 소장품 등의 기획 전시, 유물 사생대회와 클래식 음악회, 명사초청 강연회와 가족캠프 등의 문화와 예술에 관한 많은 사업들을 진행하고 있으며, 특히 박물관 대학과 대학원 등을 통해 지역민의 교양을 넓히고, 새로운 정보를 제공하는 사회교육 기능도 하고 있다. 도류+토기+민속품+고서+서화류 등 3500여점 소장",
+      "sido": "경상남도",
+      "sigungu": "거제시",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=204"
+      ],
+      "evidence_id": "E4",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=304",
+        "fields": {
+          "name": "거제박물관",
+          "sido": "경상남도",
+          "sigungu": "거제시",
+          "address": "경상남도 거제시 거제대로 3791",
+          "ownership_type": "사립",
+          "adult_fee": "3000",
+          "youth_fee": "2000",
+          "child_fee": "1500",
+          "adult_fee_status": "BASE_FEE_PAID",
+          "weekday_open": "09:00",
+          "weekday_close": "18:00",
+          "holiday_open": "09:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "월요일+설당일+추석당일"
+        },
+        "base_data_date": "2026-03-26",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0906",
+      "name": "덕성여자대학교 박물관",
+      "document": "회화·도자실 : 회화류 : 조선시대 회화. 민화 등 회화류 및 각종 도자기 전시목공예실 : 조선시대 목가구, 소반, 반닫이 등복식실 : 원삼, 초의, 저고리 등 조선후기의 남녀복식 전시금속공예실 : 청동병, 동경 등 고려시대의 청동기유물, 등잔, 촛대 등 조선후기의 등기류, 나전칠기류 등 전시",
+      "metadata": {
+        "adult_fee": 0.0,
+        "holiday_close": "00:00",
+        "transport_notes": "지하철: 4호선 수유역 하차 덕성여자대학교 방향 버스 이용(101번, 170번, 1144번, 1217번)버스: 101번, 109번, 144번, 151번, 170번, 1144번, 1217번, 1218번 ,1219번",
+        "latitude": 37.66877,
+        "homepage_url": "http://museum.duksung.ac.kr",
+        "requires_manual_review": true,
+        "sigungu": "도봉구",
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "fee_notes": "무료",
+        "child_fee": 0.0,
+        "youth_fee": 0.0,
+        "closure_rule_raw": "토,일요일 법정공휴일 개교기념일, 동하계 휴가기간, 기타 정부나 대학에서 임시휴일로 정하는 날.",
+        "holiday_open": "00:00",
+        "source_types": "BASE",
+        "weekday_close": "16:00",
+        "longitude": 127.04707,
+        "ownership_type": "사립",
+        "sido": "서울특별시",
+        "name": "덕성여자대학교 박물관",
+        "address": "서울특별시 도봉구 근화교길 19 덕성여자대학교",
+        "weekday_open": "10:00"
+      },
+      "vector_rank": 11,
+      "bm25_rank": null,
+      "vector_distance": 0.5809259414672852,
+      "vector_score": null,
+      "bm25_score": null,
+      "vector_document": "회화·도자실 : 회화류 : 조선시대 회화. 민화 등 회화류 및 각종 도자기 전시목공예실 : 조선시대 목가구, 소반, 반닫이 등복식실 : 원삼, 초의, 저고리 등 조선후기의 남녀복식 전시금속공예실 : 청동병, 동경 등 고려시대의 청동기유물, 등잔, 촛대 등 조선후기의 등기류, 나전칠기류 등 전시",
+      "bm25_document": "",
+      "best_span_id": null,
+      "best_span_text": null,
+      "fusion_score": 0.014084507042253521,
+      "retrieved_by": [
+        "vector"
+      ],
+      "fusion_rank": 20,
+      "rerank_score": 0.0010155272902920842,
+      "rank": 5,
+      "score": 0.0010155272902920842,
+      "score_type": "cross_encoder",
+      "distance": 0.5809259414672852,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector"
+      ],
+      "retriever": "vector",
+      "source_doc_ids": [
+        "DOC-B0906-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0906-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0906",
+          "source_locator": "data/raw/museum_base_1070.csv#row=907",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 23,
+          "doc_ids": [
+            "DOC-B0906-BASE"
+          ]
+        },
+        {
+          "start": 24,
+          "end": 164,
+          "doc_ids": [
+            "DOC-B0906-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_base_1070.csv#row=907",
+      "text": "회화·도자실 : 회화류 : 조선시대 회화. 민화 등 회화류 및 각종 도자기 전시목공예실 : 조선시대 목가구, 소반, 반닫이 등복식실 : 원삼, 초의, 저고리 등 조선후기의 남녀복식 전시금속공예실 : 청동병, 동경 등 고려시대의 청동기유물, 등잔, 촛대 등 조선후기의 등기류, 나전칠기류 등 전시",
+      "sido": "서울특별시",
+      "sigungu": "도봉구",
+      "span_id": "",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_base_1070.csv#row=907"
+      ],
+      "evidence_id": "E5",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=623",
+        "fields": {
+          "name": "덕성여자대학교 박물관",
+          "sido": "서울특별시",
+          "sigungu": "도봉구",
+          "address": "서울특별시 도봉구 근화교길 19 덕성여자대학교",
+          "ownership_type": "사립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "10:00",
+          "weekday_close": "16:00",
+          "holiday_open": "00:00",
+          "holiday_close": "00:00",
+          "closure_rule_raw": "토,일요일 법정공휴일 개교기념일, 동하계 휴가기간, 기타 정부나 대학에서 임시휴일로 정하는 날."
+        },
+        "base_data_date": "2018-05-15",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    }
+  ],
+  "answer": "충현박물관에는 이원익의 영정과 친필 등 그와 관련된 자료가 전시되어 있습니다. 또 종가에서 사용한 제기와 민속생활품, 약 400년 전 유물부터 근대에 이르기까지 사대부 집안의 각종 자료도 전시됩니다.[E1]",
+  "retrieval_status": "ok",
+  "answer_status": "answered",
+  "route": "hybrid",
+  "retry_count": 0,
+  "supervisor_verified": true,
+  "rerank_applied": true,
+  "retriever_errors": [],
+  "warnings": [],
+  "duration_ms": 66960.09,
+  "error_type": "",
+  "hit_at_1": 1,
+  "hit_at_3": 1,
+  "hit_at_5": 1,
+  "recall_at_5": 1.0,
+  "mrr_at_10": 1.0
+}

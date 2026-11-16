@@ -1,0 +1,843 @@
+{
+  "mode": "supervisor_full",
+  "question_id": "Q003",
+  "evidence": [
+    {
+      "museum_id": "M0004",
+      "name": "인천광역시립박물관",
+      "document": "인천광역시립박물관은 1946년 개관한 우리나라 최초의 공립박물관이다. 한국전쟁으로 건물이 소실됐다가 1953년 복원되었고, 1990년 지금의 위치로 이전 개관하여 2006년 리모델링 후 재개관했다. 박물관은 지하 1층과 지상 3층, 야외전시장으로 조성되어 있다. 1층과 2층의 역사실에서는 선사시대에서 조선시대 이후 1945년 광복 때까지의 역사 문물들을 전시하고 있다. 특히 개항이라는 역사적 사건에 있었던 인천의 과거와 현재를 살펴볼 수 있는 자료들이 방대하다. 박물관에 기증, 기탁된 유물을 선별 전시하는 기증실과 시기별로 특별 전시를 진행하는 기획전시실도 볼거리가 많다. 공예실, 서예실, 야외 전시장까지 알찬 전시가 이어진다. 고인돌, 삼층석탑, 조난비 같은 유물과 더불어 인천 시민들의 추억을 실은 옛 수인선 협궤 객차가 전시되어 있다. 인천의 역사와 문화유산을 보존하고 다양한 교육과 체험의 기회를 제공하는 프로그램도 운영하고 있다. 바로 옆에 인천상륙작전기념관이 위치해 있다. 인천광역시립박물관은 1946년 4월 개관한 우리나라 최초의 공립박물관으로 인천지역의 향토사와 문화유산을 조사, 연구하고 그 결과를 시민들에게 공개하여, 시민들을 위한 시민들의 공간으로 만들자는 취지로 설립되었습니다.",
+      "metadata": {
+        "sigungu": "연수구",
+        "ownership_type": "공립",
+        "youth_fee": 0.0,
+        "longitude": 126.6531798,
+        "weekday_open": "09:00",
+        "homepage_url": "https://www.incheon.go.kr/museum/MU010102",
+        "closure_rule_raw": "매주 월요일(공휴일인 월요일 제외), 1월 1일",
+        "address": "인천광역시 연수구 청량로160번길 26",
+        "source_types": "BASE|TOUR_API",
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/45/4056045_image2_1.jpg",
+        "child_fee": 0.0,
+        "image_copyright": "Type1",
+        "latitude": 37.4205183287,
+        "sido": "인천광역시",
+        "requires_manual_review": true,
+        "adult_fee": 0.0,
+        "holiday_open": "09:00",
+        "holiday_close": "18:00",
+        "name": "인천광역시립박물관",
+        "weekday_close": "18:00"
+      },
+      "vector_rank": 1,
+      "bm25_rank": 1,
+      "vector_distance": 0.2586320638656616,
+      "vector_score": null,
+      "bm25_score": 20.23645225303445,
+      "vector_document": "인천광역시립박물관은 1946년 개관한 우리나라 최초의 공립박물관이다. 한국전쟁으로 건물이 소실됐다가 1953년 복원되었고, 1990년 지금의 위치로 이전 개관하여 2006년 리모델링 후 재개관했다. 박물관은 지하 1층과 지상 3층, 야외전시장으로 조성되어 있다. 1층과 2층의 역사실에서는 선사시대에서 조선시대 이후 1945년 광복 때까지의 역사 문물들을 전시하고 있다. 특히 개항이라는 역사적 사건에 있었던 인천의 과거와 현재를 살펴볼 수 있는 자료들이 방대하다. 박물관에 기증, 기탁된 유물을 선별 전시하는 기증실과 시기별로 특별 전시를 진행하는 기획전시실도 볼거리가 많다. 공예실, 서예실, 야외 전시장까지 알찬 전시가 이어진다. 고인돌, 삼층석탑, 조난비 같은 유물과 더불어 인천 시민들의 추억을 실은 옛 수인선 협궤 객차가 전시되어 있다. 인천의 역사와 문화유산을 보존하고 다양한 교육과 체험의 기회를 제공하는 프로그램도 운영하고 있다. 바로 옆에 인천상륙작전기념관이 위치해 있다. 인천광역시립박물관은 1946년 4월 개관한 우리나라 최초의 공립박물관으로 인천지역의 향토사와 문화유산을 조사, 연구하고 그 결과를 시민들에게 공개하여, 시민들을 위한 시민들의 공간으로 만들자는 취지로 설립되었습니다.",
+      "bm25_document": "인천광역시립박물관은 1946년 개관한 우리나라 최초의 공립박물관이다. 한국전쟁으로 건물이 소실됐다가 1953년 복원되었고, 1990년 지금의 위치로 이전 개관하여 2006년 리모델링 후 재개관했다. 박물관은 지하 1층과 지상 3층, 야외전시장으로 조성되어 있다. 1층과 2층의 역사실에서는 선사시대에서 조선시대 이후 1945년 광복 때까지의 역사 문물들을 전시하고 있다. 특히 개항이라는 역사적 사건에 있었던 인천의 과거와 현재를 살펴볼 수 있는 자료들이 방대하다. 박물관에 기증, 기탁된 유물을 선별 전시하는 기증실과 시기별로 특별 전시를 진행하는 기획전시실도 볼거리가 많다. 공예실, 서예실, 야외 전시장까지 알찬 전시가 이어진다. 고인돌, 삼층석탑, 조난비 같은 유물과 더불어 인천 시민들의 추억을 실은 옛 수인선 협궤 객차가 전시되어 있다. 인천의 역사와 문화유산을 보존하고 다양한 교육과 체험의 기회를 제공하는 프로그램도 운영하고 있다. 바로 옆에 인천상륙작전기념관이 위치해 있다. 인천광역시립박물관은 1946년 4월 개관한 우리나라 최초의 공립박물관으로 인천지역의 향토사와 문화유산을 조사, 연구하고 그 결과를 시민들에게 공개하여, 시민들을 위한 시민들의 공간으로 만들자는 취지로 설립되었습니다.",
+      "best_span_id": "chroma:M0004",
+      "best_span_text": "인천광역시립박물관은 1946년 개관한 우리나라 최초의 공립박물관이다. 한국전쟁으로 건물이 소실됐다가 1953년 복원되었고, 1990년 지금의 위치로 이전 개관하여 2006년 리모델링 후 재개관했다. 박물관은 지하 1층과 지상 3층, 야외전시장으로 조성되어 있다. 1층과 2층의 역사실에서는 선사시대에서 조선시대 이후 1945년 광복 때까지의 역사 문물들을 전시하고 있다. 특히 개항이라는 역사적 사건에 있었던 인천의 과거와 현재를 살펴볼 수 있는 자료들이 방대하다. 박물관에 기증, 기탁된 유물을 선별 전시하는 기증실과 시기별로 특별 전시를 진행하는 기획전시실도 볼거리가 많다. 공예실, 서예실, 야외 전시장까지 알찬 전시가 이어진다. 고인돌, 삼층석탑, 조난비 같은 유물과 더불어 인천 시민들의 추억을 실은 옛 수인선 협궤 객차가 전시되어 있다. 인천의 역사와 문화유산을 보존하고 다양한 교육과 체험의 기회를 제공하는 프로그램도 운영하고 있다. 바로 옆에 인천상륙작전기념관이 위치해 있다. 인천광역시립박물관은 1946년 4월 개관한 우리나라 최초의 공립박물관으로 인천지역의 향토사와 문화유산을 조사, 연구하고 그 결과를 시민들에게 공개하여, 시민들을 위한 시민들의 공간으로 만들자는 취지로 설립되었습니다.",
+      "fusion_score": 0.03278688524590164,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 1,
+      "name_match": true,
+      "rerank_score": 0.9999758005142212,
+      "rank": 1,
+      "score": 0.9999758005142212,
+      "score_type": "cross_encoder",
+      "distance": 0.2586320638656616,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0004",
+      "source_doc_ids": [
+        "DOC-B0004-TOUR_API-129773",
+        "DOC-B0004-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0004-TOUR_API-129773",
+          "source_type": "TOUR_API",
+          "source_record_id": "129773",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=4",
+          "match_trust": "RECHECKED_BY_RULE_NOT_HUMAN_APPROVED"
+        },
+        {
+          "doc_id": "DOC-B0004-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0004",
+          "source_locator": "data/raw/museum_base_1070.csv#row=5",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 38,
+          "doc_ids": [
+            "DOC-B0004-TOUR_API-129773"
+          ]
+        },
+        {
+          "start": 39,
+          "end": 110,
+          "doc_ids": [
+            "DOC-B0004-TOUR_API-129773"
+          ]
+        },
+        {
+          "start": 111,
+          "end": 146,
+          "doc_ids": [
+            "DOC-B0004-TOUR_API-129773"
+          ]
+        },
+        {
+          "start": 147,
+          "end": 207,
+          "doc_ids": [
+            "DOC-B0004-TOUR_API-129773"
+          ]
+        },
+        {
+          "start": 208,
+          "end": 260,
+          "doc_ids": [
+            "DOC-B0004-TOUR_API-129773"
+          ]
+        },
+        {
+          "start": 261,
+          "end": 323,
+          "doc_ids": [
+            "DOC-B0004-TOUR_API-129773"
+          ]
+        },
+        {
+          "start": 324,
+          "end": 355,
+          "doc_ids": [
+            "DOC-B0004-TOUR_API-129773"
+          ]
+        },
+        {
+          "start": 356,
+          "end": 418,
+          "doc_ids": [
+            "DOC-B0004-TOUR_API-129773"
+          ]
+        },
+        {
+          "start": 419,
+          "end": 473,
+          "doc_ids": [
+            "DOC-B0004-TOUR_API-129773"
+          ]
+        },
+        {
+          "start": 474,
+          "end": 498,
+          "doc_ids": [
+            "DOC-B0004-TOUR_API-129773"
+          ]
+        },
+        {
+          "start": 499,
+          "end": 619,
+          "doc_ids": [
+            "DOC-B0004-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=4",
+      "text": "인천광역시립박물관은 1946년 개관한 우리나라 최초의 공립박물관이다. 한국전쟁으로 건물이 소실됐다가 1953년 복원되었고, 1990년 지금의 위치로 이전 개관하여 2006년 리모델링 후 재개관했다. 박물관은 지하 1층과 지상 3층, 야외전시장으로 조성되어 있다. 1층과 2층의 역사실에서는 선사시대에서 조선시대 이후 1945년 광복 때까지의 역사 문물들을 전시하고 있다. 특히 개항이라는 역사적 사건에 있었던 인천의 과거와 현재를 살펴볼 수 있는 자료들이 방대하다. 박물관에 기증, 기탁된 유물을 선별 전시하는 기증실과 시기별로 특별 전시를 진행하는 기획전시실도 볼거리가 많다. 공예실, 서예실, 야외 전시장까지 알찬 전시가 이어진다. 고인돌, 삼층석탑, 조난비 같은 유물과 더불어 인천 시민들의 추억을 실은 옛 수인선 협궤 객차가 전시되어 있다. 인천의 역사와 문화유산을 보존하고 다양한 교육과 체험의 기회를 제공하는 프로그램도 운영하고 있다. 바로 옆에 인천상륙작전기념관이 위치해 있다. 인천광역시립박물관은 1946년 4월 개관한 우리나라 최초의 공립박물관으로 인천지역의 향토사와 문화유산을 조사, 연구하고 그 결과를 시민들에게 공개하여, 시민들을 위한 시민들의 공간으로 만들자는 취지로 설립되었습니다.",
+      "sido": "인천광역시",
+      "sigungu": "연수구",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=4"
+      ],
+      "evidence_id": "E1",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=4",
+        "fields": {
+          "name": "인천광역시립박물관",
+          "sido": "인천광역시",
+          "sigungu": "연수구",
+          "address": "인천광역시 연수구 청량로160번길 26",
+          "ownership_type": "공립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "09:00",
+          "weekday_close": "18:00",
+          "holiday_open": "09:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "매주 월요일(공휴일인 월요일 제외), 1월 1일"
+        },
+        "base_data_date": "2026-09-18",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M1063",
+      "name": "소래역사관",
+      "document": "2012년 개관한 소래역사관은 급속한 신도시 개발과 도시화로 사라져 가는 소래의 역사와 문화 아름다운 옛 모습을 느껴보고자 건립된 인천광역시 최초의 공립박물관이다. 소래를 대표하는 이미지인 소래갯벌, 소래포구, 소래염전, 수인선 협궤열차 등 4개의 재미있는 전시 테마를 구성하였고, BF(Barrier Free: 장애물 없는 생활환경) 인증을 통한 시설관리로 누구라도 쉽게 역사관을 방문하여 불편 없이 전시를 관람할 수 있도록 준비되어 있다.",
+      "metadata": {
+        "weekday_close": "18:00",
+        "adult_fee": 500.0,
+        "youth_fee": 300.0,
+        "name": "소래역사관",
+        "homepage_url": "https://www.namdongcf.or.kr",
+        "source_types": "TOUR_API",
+        "requires_manual_review": true,
+        "sido": "인천광역시",
+        "child_fee": 200.0,
+        "sigungu": "남동구",
+        "address": "인천광역시 남동구 아암대로 1605",
+        "adult_fee_status": "BASE_FEE_PAID",
+        "longitude": 126.7375992,
+        "amenities_raw": "장애인화장실+수유실",
+        "image_copyright": "Type1",
+        "holiday_close": "18:00",
+        "latitude": 37.39816347,
+        "ownership_type": "공립",
+        "fee_notes": "단체 어른300원+청소년200원+어린이100원+무료(65세 이상+6세 미만+국가유공자+기초수급자+1~3급장애인+그린카드 소지자 등)",
+        "closure_rule_raw": "매주 월요일(월요일이 공휴일인 경우 그 다음날)+1월1일+설날+추석 당일",
+        "weekday_open": "10:00",
+        "holiday_open": "10:00",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/87/4139387_image2_1.jpg"
+      },
+      "vector_rank": 3,
+      "bm25_rank": null,
+      "vector_distance": 0.37833690643310547,
+      "vector_score": null,
+      "bm25_score": null,
+      "vector_document": "2012년 개관한 소래역사관은 급속한 신도시 개발과 도시화로 사라져 가는 소래의 역사와 문화 아름다운 옛 모습을 느껴보고자 건립된 인천광역시 최초의 공립박물관이다. 소래를 대표하는 이미지인 소래갯벌, 소래포구, 소래염전, 수인선 협궤열차 등 4개의 재미있는 전시 테마를 구성하였고, BF(Barrier Free: 장애물 없는 생활환경) 인증을 통한 시설관리로 누구라도 쉽게 역사관을 방문하여 불편 없이 전시를 관람할 수 있도록 준비되어 있다.",
+      "bm25_document": "",
+      "best_span_id": null,
+      "best_span_text": null,
+      "fusion_score": 0.015873015873015872,
+      "retrieved_by": [
+        "vector"
+      ],
+      "fusion_rank": 7,
+      "rerank_score": 0.9653001427650452,
+      "rank": 2,
+      "score": 0.9653001427650452,
+      "score_type": "cross_encoder",
+      "distance": 0.37833690643310547,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector"
+      ],
+      "retriever": "vector",
+      "source_doc_ids": [
+        "DOC-B1063-TOUR_API-2647918"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B1063-TOUR_API-2647918",
+          "source_type": "TOUR_API",
+          "source_record_id": "2647918",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=492",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 91,
+          "doc_ids": [
+            "DOC-B1063-TOUR_API-2647918"
+          ]
+        },
+        {
+          "start": 92,
+          "end": 247,
+          "doc_ids": [
+            "DOC-B1063-TOUR_API-2647918"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=492",
+      "text": "2012년 개관한 소래역사관은 급속한 신도시 개발과 도시화로 사라져 가는 소래의 역사와 문화 아름다운 옛 모습을 느껴보고자 건립된 인천광역시 최초의 공립박물관이다. 소래를 대표하는 이미지인 소래갯벌, 소래포구, 소래염전, 수인선 협궤열차 등 4개의 재미있는 전시 테마를 구성하였고, BF(Barrier Free: 장애물 없는 생활환경) 인증을 통한 시설관리로 누구라도 쉽게 역사관을 방문하여 불편 없이 전시를 관람할 수 있도록 준비되어 있다.",
+      "sido": "인천광역시",
+      "sigungu": "남동구",
+      "span_id": "",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=492"
+      ],
+      "evidence_id": "E2",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=734",
+        "fields": {
+          "name": "소래역사관",
+          "sido": "인천광역시",
+          "sigungu": "남동구",
+          "address": "인천광역시 남동구 아암대로 1605",
+          "ownership_type": "공립",
+          "adult_fee": "500",
+          "youth_fee": "300",
+          "child_fee": "200",
+          "adult_fee_status": "BASE_FEE_PAID",
+          "weekday_open": "10:00",
+          "weekday_close": "18:00",
+          "holiday_open": "10:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "매주 월요일(월요일이 공휴일인 경우 그 다음날)+1월1일+설날+추석 당일",
+          "amenities_raw": "장애인화장실+수유실"
+        },
+        "base_data_date": "2025-11-28",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0005",
+      "name": "인천도시역사관",
+      "document": "인천광역시는 1883년 개항 후 우리나라 최초의 계획도시로 시작하여 140년이 넘는 시간이 흐르는 동안 다양한 변화와 확장을 거쳐 지금은 전국 8대 광역시 중 가장 넓은 면적에 300만 인구의 무한한 잠재력을 가진 도시로 성장해 왔다. 인천도시역사관은 도시 인천광역시의 역사와 변화 과정을 다양한 실물 자료 및 모형을 통해 시민들에게 알기 쉽게 전달하고 있다. 근대도시관은 개항(1883년) 이후부터 광복(1945년)까지 도시 인천의 형성과 변천 과정을 소개하고 있으며, 인천모형관은 모형을 통해 도시 인천의 현재 모습을 소개하고 있다. 지도를 통해 인천의 영역 확장 및 인천 해안 매립과 공간의 변화를 알 수 있다. 인천도시역사관은 국내 및 해외 도시의 홍보관과 차별화된 전략으로 글로벌 도시 마케팅 개념을 적용하여 인천의 과거와 현재 그리고 미래를 한 눈에 볼 수 있는 전시관입니다.",
+      "metadata": {
+        "ownership_type": "공립",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/25/4090525_image2_1.jpg",
+        "child_fee": 0.0,
+        "youth_fee": 0.0,
+        "holiday_open": "09:00",
+        "address": "인천광역시 연수구 인천타워대로 238",
+        "source_types": "BASE|TOUR_API",
+        "name": "인천도시역사관",
+        "image_copyright": "Type1",
+        "holiday_close": "18:00",
+        "latitude": 37.3927678319,
+        "longitude": 126.6358893,
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "homepage_url": "http://www.incheon.go.kr/museum",
+        "requires_manual_review": true,
+        "transport_notes": "인천지하철 1호선 센트럴파크역 3번 출구+광역버스(M6405번+M6450번) 센트럴파크역 하차+급행버스(급행98번) 센트럴파크역 하차",
+        "sigungu": "연수구",
+        "weekday_close": "18:00",
+        "weekday_open": "09:00",
+        "closure_rule_raw": "월(단, 공휴일인 월요일은 제외)+1월1일",
+        "sido": "인천광역시",
+        "adult_fee": 0.0
+      },
+      "vector_rank": 2,
+      "bm25_rank": 19,
+      "vector_distance": 0.3370712995529175,
+      "vector_score": null,
+      "bm25_score": 12.533700696767973,
+      "vector_document": "인천광역시는 1883년 개항 후 우리나라 최초의 계획도시로 시작하여 140년이 넘는 시간이 흐르는 동안 다양한 변화와 확장을 거쳐 지금은 전국 8대 광역시 중 가장 넓은 면적에 300만 인구의 무한한 잠재력을 가진 도시로 성장해 왔다. 인천도시역사관은 도시 인천광역시의 역사와 변화 과정을 다양한 실물 자료 및 모형을 통해 시민들에게 알기 쉽게 전달하고 있다. 근대도시관은 개항(1883년) 이후부터 광복(1945년)까지 도시 인천의 형성과 변천 과정을 소개하고 있으며, 인천모형관은 모형을 통해 도시 인천의 현재 모습을 소개하고 있다. 지도를 통해 인천의 영역 확장 및 인천 해안 매립과 공간의 변화를 알 수 있다. 인천도시역사관은 국내 및 해외 도시의 홍보관과 차별화된 전략으로 글로벌 도시 마케팅 개념을 적용하여 인천의 과거와 현재 그리고 미래를 한 눈에 볼 수 있는 전시관입니다.",
+      "bm25_document": "인천광역시는 1883년 개항 후 우리나라 최초의 계획도시로 시작하여 140년이 넘는 시간이 흐르는 동안 다양한 변화와 확장을 거쳐 지금은 전국 8대 광역시 중 가장 넓은 면적에 300만 인구의 무한한 잠재력을 가진 도시로 성장해 왔다. 인천도시역사관은 도시 인천광역시의 역사와 변화 과정을 다양한 실물 자료 및 모형을 통해 시민들에게 알기 쉽게 전달하고 있다. 근대도시관은 개항(1883년) 이후부터 광복(1945년)까지 도시 인천의 형성과 변천 과정을 소개하고 있으며, 인천모형관은 모형을 통해 도시 인천의 현재 모습을 소개하고 있다. 지도를 통해 인천의 영역 확장 및 인천 해안 매립과 공간의 변화를 알 수 있다. 인천도시역사관은 국내 및 해외 도시의 홍보관과 차별화된 전략으로 글로벌 도시 마케팅 개념을 적용하여 인천의 과거와 현재 그리고 미래를 한 눈에 볼 수 있는 전시관입니다.",
+      "best_span_id": "chroma:M0005",
+      "best_span_text": "인천광역시는 1883년 개항 후 우리나라 최초의 계획도시로 시작하여 140년이 넘는 시간이 흐르는 동안 다양한 변화와 확장을 거쳐 지금은 전국 8대 광역시 중 가장 넓은 면적에 300만 인구의 무한한 잠재력을 가진 도시로 성장해 왔다. 인천도시역사관은 도시 인천광역시의 역사와 변화 과정을 다양한 실물 자료 및 모형을 통해 시민들에게 알기 쉽게 전달하고 있다. 근대도시관은 개항(1883년) 이후부터 광복(1945년)까지 도시 인천의 형성과 변천 과정을 소개하고 있으며, 인천모형관은 모형을 통해 도시 인천의 현재 모습을 소개하고 있다. 지도를 통해 인천의 영역 확장 및 인천 해안 매립과 공간의 변화를 알 수 있다. 인천도시역사관은 국내 및 해외 도시의 홍보관과 차별화된 전략으로 글로벌 도시 마케팅 개념을 적용하여 인천의 과거와 현재 그리고 미래를 한 눈에 볼 수 있는 전시관입니다.",
+      "fusion_score": 0.02878726010616578,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 4,
+      "rerank_score": 0.3457106351852417,
+      "rank": 3,
+      "score": 0.3457106351852417,
+      "score_type": "cross_encoder",
+      "distance": 0.3370712995529175,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0005",
+      "source_doc_ids": [
+        "DOC-B0005-TOUR_API-1851364",
+        "DOC-B0005-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0005-TOUR_API-1851364",
+          "source_type": "TOUR_API",
+          "source_record_id": "1851364",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=5",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        },
+        {
+          "doc_id": "DOC-B0005-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0005",
+          "source_locator": "data/raw/museum_base_1070.csv#row=6",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 131,
+          "doc_ids": [
+            "DOC-B0005-TOUR_API-1851364"
+          ]
+        },
+        {
+          "start": 132,
+          "end": 201,
+          "doc_ids": [
+            "DOC-B0005-TOUR_API-1851364"
+          ]
+        },
+        {
+          "start": 202,
+          "end": 300,
+          "doc_ids": [
+            "DOC-B0005-TOUR_API-1851364"
+          ]
+        },
+        {
+          "start": 301,
+          "end": 345,
+          "doc_ids": [
+            "DOC-B0005-TOUR_API-1851364"
+          ]
+        },
+        {
+          "start": 346,
+          "end": 440,
+          "doc_ids": [
+            "DOC-B0005-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=5",
+      "text": "인천광역시는 1883년 개항 후 우리나라 최초의 계획도시로 시작하여 140년이 넘는 시간이 흐르는 동안 다양한 변화와 확장을 거쳐 지금은 전국 8대 광역시 중 가장 넓은 면적에 300만 인구의 무한한 잠재력을 가진 도시로 성장해 왔다. 인천도시역사관은 도시 인천광역시의 역사와 변화 과정을 다양한 실물 자료 및 모형을 통해 시민들에게 알기 쉽게 전달하고 있다. 근대도시관은 개항(1883년) 이후부터 광복(1945년)까지 도시 인천의 형성과 변천 과정을 소개하고 있으며, 인천모형관은 모형을 통해 도시 인천의 현재 모습을 소개하고 있다. 지도를 통해 인천의 영역 확장 및 인천 해안 매립과 공간의 변화를 알 수 있다. 인천도시역사관은 국내 및 해외 도시의 홍보관과 차별화된 전략으로 글로벌 도시 마케팅 개념을 적용하여 인천의 과거와 현재 그리고 미래를 한 눈에 볼 수 있는 전시관입니다.",
+      "sido": "인천광역시",
+      "sigungu": "연수구",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=5"
+      ],
+      "evidence_id": "E3",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=5",
+        "fields": {
+          "name": "인천도시역사관",
+          "sido": "인천광역시",
+          "sigungu": "연수구",
+          "address": "인천광역시 연수구 인천타워대로 238",
+          "ownership_type": "공립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "09:00",
+          "weekday_close": "18:00",
+          "holiday_open": "09:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "월(단, 공휴일인 월요일은 제외)+1월1일"
+        },
+        "base_data_date": "2026-09-18",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0007",
+      "name": "송암미술관",
+      "document": "송암미술관은 인천광역시 미추홀구에 위치한 공립 미술관으로, 인천시립박물관의 분관이자 인천 유일의 시립 미술관이다. 1989년 고[故] 이회림 선생이 서울에서 사립 미술관으로 처음 개관하였으며, 1992년 인천으로 이전한 뒤 2005년에는 미술관 건물과 약 1만여 점의 소장품을 인천시에 기증하면서 공립 미술관으로 전환되었다. 이회림 선생은 ‘마지막 개성상인’으로 불릴 만큼 전통문화에 대한 깊은 애정을 지닌 인물로, 도자기, 회화, 공예품 등 다양한 분야의 유물을 수집해왔다. 송암미술관은 고대부터 근현대에 이르는 폭넓은 시대의 유물을 소장하고 있으며, 이를 바탕으로 한국 미술의 흐름과 아름다움을 소개하는 상설 및 기획 전시를 운영하고 있다. 또한 유아부터 성인까지 다양한 연령층을 위한 교육 프로그램을 통해 지역 문화예술 교육의 거점 역할도 수행하고 있다. 송암미술관은 전시와 교육을 아우르며, 전통문화의 가치를 대중과 나누는 열린 문화공간으로 자리매김하고 있다. 송암미술관은 상설전시 공간으로 1층 공예실과 2층 서화실을 운영하고 있다. 1층 공예실은 2024년에 전시 개편을 통해 새롭게 구성되었으며, 고려시대부터 조선시대에 이르는 도자기와 공예품이 중심을 이룬다. 고려청자, 조선의 분청사기와 백자 등 시대별 도자기를 통해 한국 도자문화의 흐름을 살펴볼 수 있으며, 불교 조각과 민속 공예품도 함께 전시되어 있어 전통 생활문화와 신앙을 조망할 수 있는 공간이다. 2층 서화실은 조선 후기부터 근대에 이르는 서화 작품을 중심으로 구성되어 있다. 보물 제1997호인 ‘평양성도 병풍’을 비롯해, 겸재 정선의 ‘노송영지’, 김규진, 이도영, 안종원이 공동 제작한 ‘합작도’등 다양한 회화와 서예 작품이 전시되어 있다. 송암미술관의 야외 전시장은 자연 속에서 유물을 감상할 수 있는 공간으로, 관람객들에게 휴식과 사색의 시간을 제공한다. 문인석[文人石], 망주석[望柱石], 동자석[童子石] 등 다양한 전통 석조물과 광개토대왕릉비의 복제품이 실물 크기로 전시되어 있다 . 송암미술관에는 고대부터 현대까지 서화, 조각, 공예, 도자기 등 전 시대와 장르를 망라하여 총 9천여 점이 넘는 유물이 소장되어 있으며, 상설전은 주요 유물 300여점이 정기적으로 교체 전시됩니다. 송암문화재단이 인천광역시에 기증한 미술관은 고서화+불상+불기류+목가구+공예품+목판 등 9385점 소장",
+      "metadata": {
+        "holiday_close": "18:00",
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "name": "송암미술관",
+        "latitude": 37.4344431,
+        "longitude": 126.6417695433,
+        "image_copyright": "Type3",
+        "requires_manual_review": true,
+        "youth_fee": 0.0,
+        "address": "인천광역시 미추홀구 비류대로55번길 68",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/72/3490572_image2_1.jpg",
+        "adult_fee": 0.0,
+        "homepage_url": "https://www.incheon.go.kr/museum/MU020102",
+        "sido": "인천광역시",
+        "source_types": "BASE|TOUR_API",
+        "weekday_close": "18:00",
+        "child_fee": 0.0,
+        "sigungu": "미추홀구",
+        "holiday_open": "09:00",
+        "closure_rule_raw": "매주 월요일(공휴일인 월요일 제외), 1월 1일",
+        "ownership_type": "공립",
+        "weekday_open": "09:00"
+      },
+      "vector_rank": null,
+      "bm25_rank": 6,
+      "vector_distance": null,
+      "vector_score": null,
+      "bm25_score": 14.834631172117849,
+      "vector_document": "",
+      "bm25_document": "송암미술관은 인천광역시 미추홀구에 위치한 공립 미술관으로, 인천시립박물관의 분관이자 인천 유일의 시립 미술관이다. 1989년 고[故] 이회림 선생이 서울에서 사립 미술관으로 처음 개관하였으며, 1992년 인천으로 이전한 뒤 2005년에는 미술관 건물과 약 1만여 점의 소장품을 인천시에 기증하면서 공립 미술관으로 전환되었다. 이회림 선생은 ‘마지막 개성상인’으로 불릴 만큼 전통문화에 대한 깊은 애정을 지닌 인물로, 도자기, 회화, 공예품 등 다양한 분야의 유물을 수집해왔다. 송암미술관은 고대부터 근현대에 이르는 폭넓은 시대의 유물을 소장하고 있으며, 이를 바탕으로 한국 미술의 흐름과 아름다움을 소개하는 상설 및 기획 전시를 운영하고 있다. 또한 유아부터 성인까지 다양한 연령층을 위한 교육 프로그램을 통해 지역 문화예술 교육의 거점 역할도 수행하고 있다. 송암미술관은 전시와 교육을 아우르며, 전통문화의 가치를 대중과 나누는 열린 문화공간으로 자리매김하고 있다. 송암미술관은 상설전시 공간으로 1층 공예실과 2층 서화실을 운영하고 있다. 1층 공예실은 2024년에 전시 개편을 통해 새롭게 구성되었으며, 고려시대부터 조선시대에 이르는 도자기와 공예품이 중심을 이룬다. 고려청자, 조선의 분청사기와 백자 등 시대별 도자기를 통해 한국 도자문화의 흐름을 살펴볼 수 있으며, 불교 조각과 민속 공예품도 함께 전시되어 있어 전통 생활문화와 신앙을 조망할 수 있는 공간이다. 2층 서화실은 조선 후기부터 근대에 이르는 서화 작품을 중심으로 구성되어 있다. 보물 제1997호인 ‘평양성도 병풍’을 비롯해, 겸재 정선의 ‘노송영지’, 김규진, 이도영, 안종원이 공동 제작한 ‘합작도’등 다양한 회화와 서예 작품이 전시되어 있다. 송암미술관의 야외 전시장은 자연 속에서 유물을 감상할 수 있는 공간으로, 관람객들에게 휴식과 사색의 시간을 제공한다. 문인석[文人石], 망주석[望柱石], 동자석[童子石] 등 다양한 전통 석조물과 광개토대왕릉비의 복제품이 실물 크기로 전시되어 있다 . 송암미술관에는 고대부터 현대까지 서화, 조각, 공예, 도자기 등 전 시대와 장르를 망라하여 총 9천여 점이 넘는 유물이 소장되어 있으며, 상설전은 주요 유물 300여점이 정기적으로 교체 전시됩니다. 송암문화재단이 인천광역시에 기증한 미술관은 고서화+불상+불기류+목가구+공예품+목판 등 9385점 소장",
+      "best_span_id": "chroma:M0007",
+      "best_span_text": "송암미술관은 인천광역시 미추홀구에 위치한 공립 미술관으로, 인천시립박물관의 분관이자 인천 유일의 시립 미술관이다. 1989년 고[故] 이회림 선생이 서울에서 사립 미술관으로 처음 개관하였으며, 1992년 인천으로 이전한 뒤 2005년에는 미술관 건물과 약 1만여 점의 소장품을 인천시에 기증하면서 공립 미술관으로 전환되었다. 이회림 선생은 ‘마지막 개성상인’으로 불릴 만큼 전통문화에 대한 깊은 애정을 지닌 인물로, 도자기, 회화, 공예품 등 다양한 분야의 유물을 수집해왔다. 송암미술관은 고대부터 근현대에 이르는 폭넓은 시대의 유물을 소장하고 있으며, 이를 바탕으로 한국 미술의 흐름과 아름다움을 소개하는 상설 및 기획 전시를 운영하고 있다. 또한 유아부터 성인까지 다양한 연령층을 위한 교육 프로그램을 통해 지역 문화예술 교육의 거점 역할도 수행하고 있다. 송암미술관은 전시와 교육을 아우르며, 전통문화의 가치를 대중과 나누는 열린 문화공간으로 자리매김하고 있다. 송암미술관은 상설전시 공간으로 1층 공예실과 2층 서화실을 운영하고 있다. 1층 공예실은 2024년에 전시 개편을 통해 새롭게 구성되었으며, 고려시대부터 조선시대에 이르는 도자기와 공예품이 중심을 이룬다. 고려청자, 조선의 분청사기와 백자 등 시대별 도자기를 통해 한국 도자문화의 흐름을 살펴볼 수 있으며, 불교 조각과 민속 공예품도 함께 전시되어 있어 전통 생활문화와 신앙을 조망할 수 있는 공간이다. 2층 서화실은 조선 후기부터 근대에 이르는 서화 작품을 중심으로 구성되어 있다. 보물 제1997호인 ‘평양성도 병풍’을 비롯해, 겸재 정선의 ‘노송영지’, 김규진, 이도영, 안종원이 공동 제작한 ‘합작도’등 다양한 회화와 서예 작품이 전시되어 있다. 송암미술관의 야외 전시장은 자연 속에서 유물을 감상할 수 있는 공간으로, 관람객들에게 휴식과 사색의 시간을 제공한다. 문인석[文人石], 망주석[望柱石], 동자석[童子石] 등 다양한 전통 석조물과 광개토대왕릉비의 복제품이 실물 크기로 전시되어 있다 . 송암미술관에는 고대부터 현대까지 서화, 조각, 공예, 도자기 등 전 시대와 장르를 망라하여 총 9천여 점이 넘는 유물이 소장되어 있으며, 상설전은 주요 유물 300여점이 정기적으로 교체 전시됩니다. 송암문화재단이 인천광역시에 기증한 미술관은 고서화+불상+불기류+목가구+공예품+목판 등 9385점 소장",
+      "fusion_score": 0.015151515151515152,
+      "retrieved_by": [
+        "bm25"
+      ],
+      "fusion_rank": 12,
+      "rerank_score": 0.2806398272514343,
+      "rank": 4,
+      "score": 0.2806398272514343,
+      "score_type": "cross_encoder",
+      "distance": null,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "bm25"
+      ],
+      "retriever": "bm25",
+      "span_id": "chroma:M0007",
+      "source_doc_ids": [
+        "DOC-B0007-TOUR_API-130076",
+        "DOC-B0007-BASE",
+        "DOC-B0107-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0007-TOUR_API-130076",
+          "source_type": "TOUR_API",
+          "source_record_id": "130076",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=7",
+          "match_trust": "RECHECKED_BY_RULE_NOT_HUMAN_APPROVED"
+        },
+        {
+          "doc_id": "DOC-B0007-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0007",
+          "source_locator": "data/raw/museum_base_1070.csv#row=8",
+          "match_trust": "BASE_SOURCE"
+        },
+        {
+          "doc_id": "DOC-B0107-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0107",
+          "source_locator": "data/raw/museum_base_1070.csv#row=108",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 63,
+          "doc_ids": [
+            "DOC-B0007-TOUR_API-130076"
+          ]
+        },
+        {
+          "start": 64,
+          "end": 181,
+          "doc_ids": [
+            "DOC-B0007-TOUR_API-130076"
+          ]
+        },
+        {
+          "start": 182,
+          "end": 266,
+          "doc_ids": [
+            "DOC-B0007-TOUR_API-130076"
+          ]
+        },
+        {
+          "start": 267,
+          "end": 360,
+          "doc_ids": [
+            "DOC-B0007-TOUR_API-130076"
+          ]
+        },
+        {
+          "start": 361,
+          "end": 425,
+          "doc_ids": [
+            "DOC-B0007-TOUR_API-130076"
+          ]
+        },
+        {
+          "start": 426,
+          "end": 485,
+          "doc_ids": [
+            "DOC-B0007-TOUR_API-130076"
+          ]
+        },
+        {
+          "start": 486,
+          "end": 527,
+          "doc_ids": [
+            "DOC-B0007-TOUR_API-130076"
+          ]
+        },
+        {
+          "start": 528,
+          "end": 600,
+          "doc_ids": [
+            "DOC-B0007-TOUR_API-130076"
+          ]
+        },
+        {
+          "start": 601,
+          "end": 711,
+          "doc_ids": [
+            "DOC-B0007-TOUR_API-130076"
+          ]
+        },
+        {
+          "start": 712,
+          "end": 756,
+          "doc_ids": [
+            "DOC-B0007-TOUR_API-130076"
+          ]
+        },
+        {
+          "start": 757,
+          "end": 851,
+          "doc_ids": [
+            "DOC-B0007-TOUR_API-130076"
+          ]
+        },
+        {
+          "start": 852,
+          "end": 917,
+          "doc_ids": [
+            "DOC-B0007-TOUR_API-130076"
+          ]
+        },
+        {
+          "start": 918,
+          "end": 991,
+          "doc_ids": [
+            "DOC-B0007-TOUR_API-130076"
+          ]
+        },
+        {
+          "start": 992,
+          "end": 1102,
+          "doc_ids": [
+            "DOC-B0007-BASE"
+          ]
+        },
+        {
+          "start": 1103,
+          "end": 1159,
+          "doc_ids": [
+            "DOC-B0107-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=7",
+      "text": "송암미술관은 인천광역시 미추홀구에 위치한 공립 미술관으로, 인천시립박물관의 분관이자 인천 유일의 시립 미술관이다. 1989년 고[故] 이회림 선생이 서울에서 사립 미술관으로 처음 개관하였으며, 1992년 인천으로 이전한 뒤 2005년에는 미술관 건물과 약 1만여 점의 소장품을 인천시에 기증하면서 공립 미술관으로 전환되었다. 이회림 선생은 ‘마지막 개성상인’으로 불릴 만큼 전통문화에 대한 깊은 애정을 지닌 인물로, 도자기, 회화, 공예품 등 다양한 분야의 유물을 수집해왔다. 송암미술관은 고대부터 근현대에 이르는 폭넓은 시대의 유물을 소장하고 있으며, 이를 바탕으로 한국 미술의 흐름과 아름다움을 소개하는 상설 및 기획 전시를 운영하고 있다. 또한 유아부터 성인까지 다양한 연령층을 위한 교육 프로그램을 통해 지역 문화예술 교육의 거점 역할도 수행하고 있다. 송암미술관은 전시와 교육을 아우르며, 전통문화의 가치를 대중과 나누는 열린 문화공간으로 자리매김하고 있다. 송암미술관은 상설전시 공간으로 1층 공예실과 2층 서화실을 운영하고 있다. 1층 공예실은 2024년에 전시 개편을 통해 새롭게 구성되었으며, 고려시대부터 조선시대에 이르는 도자기와 공예품이 중심을 이룬다. 고려청자, 조선의 분청사기와 백자 등 시대별 도자기를 통해 한국 도자문화의 흐름을 살펴볼 수 있으며, 불교 조각과 민속 공예품도 함께 전시되어 있어 전통 생활문화와 신앙을 조망할 수 있는 공간이다. 2층 서화실은 조선 후기부터 근대에 이르는 서화 작품을 중심으로 구성되어 있다. 보물 제1997호인 ‘평양성도 병풍’을 비롯해, 겸재 정선의 ‘노송영지’, 김규진, 이도영, 안종원이 공동 제작한 ‘합작도’등 다양한 회화와 서예 작품이 전시되어 있다. 송암미술관의 야외 전시장은 자연 속에서 유물을 감상할 수 있는 공간으로, 관람객들에게 휴식과 사색의 시간을 제공한다. 문인석[文人石], 망주석[望柱石], 동자석[童子石] 등 다양한 전통 석조물과 광개토대왕릉비의 복제품이 실물 크기로 전시되어 있다 . 송암미술관에는 고대부터 현대까지 서화, 조각, 공예, 도자기 등 전 시대와 장르를 망라하여 총 9천여 점이 넘는 유물이 소장되어 있으며, 상설전은 주요 유물 300여점이 정기적으로 교체 전시됩니다. 송암문화재단이 인천광역시에 기증한 미술관은 고서화+불상+불기류+목가구+공예품+목판 등 9385점 소장",
+      "sido": "인천광역시",
+      "sigungu": "미추홀구",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=7"
+      ],
+      "evidence_id": "E4",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=7",
+        "fields": {
+          "name": "송암미술관",
+          "sido": "인천광역시",
+          "sigungu": "미추홀구",
+          "address": "인천광역시 미추홀구 비류대로55번길 68",
+          "ownership_type": "공립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "09:00",
+          "weekday_close": "18:00",
+          "holiday_open": "09:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "매주 월요일(공휴일인 월요일 제외), 1월 1일"
+        },
+        "base_data_date": "2026-09-18",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0006",
+      "name": "한국이민사박물관",
+      "document": "인천광역시 월미공원 내에 자리한 한국이민사 박물관은 2003년 미주 이민 100주년을 기념해 개관했다. 인천광역시 시민과 해외동포들이 십시일반으로 뜻을 모아 건립한 대한민국 최초의 이민사 박물관이다. 대한민국 이민의 출발지였던 인천항의 역사와 이민의 역사, 당시 국내외 상황을 설명하는 상설전시가 제1~제4전시실에서 전시된다. 이민사 관련 특별 전시도 연중 진행하며 인천문화기행, 한인 이민사 등 다양한 교육 문화 프로그램도 운영한다. 한국이민사박물관은 2003년 미주 이민 100주년을 맞아 우리 선조들의 해외에서의 개척자적인 삶을 기리고 그 발자취를 후손들에게 전 하기 위해 인천광역시 시민들과 해외동포들이 함께 뜻을 모아서 건립한 우리나라 최초의 이민사박물관입니다.",
+      "metadata": {
+        "holiday_close": "18:00",
+        "sido": "인천광역시",
+        "latitude": 37.4705073529,
+        "name": "한국이민사박물관",
+        "holiday_open": "09:00",
+        "weekday_open": "09:00",
+        "closure_rule_raw": "월(단, 공휴일인 월요일은 제외)+1월1일",
+        "longitude": 126.598813785,
+        "requires_manual_review": true,
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "sigungu": "제물포구",
+        "weekday_close": "18:00",
+        "child_fee": 0.0,
+        "source_types": "BASE|TOUR_API",
+        "transport_notes": "인천지하철 : 인천역 하차+버스 45번 승차+해사고등학교 앞 하차",
+        "homepage_url": "http://www.incheon.go.kr/museum",
+        "ownership_type": "공립",
+        "adult_fee": 0.0,
+        "youth_fee": 0.0,
+        "address": "인천광역시 제물포구 월미로 329"
+      },
+      "vector_rank": 4,
+      "bm25_rank": 3,
+      "vector_distance": 0.4070718288421631,
+      "vector_score": null,
+      "bm25_score": 16.489163238445087,
+      "vector_document": "인천광역시 월미공원 내에 자리한 한국이민사 박물관은 2003년 미주 이민 100주년을 기념해 개관했다. 인천광역시 시민과 해외동포들이 십시일반으로 뜻을 모아 건립한 대한민국 최초의 이민사 박물관이다. 대한민국 이민의 출발지였던 인천항의 역사와 이민의 역사, 당시 국내외 상황을 설명하는 상설전시가 제1~제4전시실에서 전시된다. 이민사 관련 특별 전시도 연중 진행하며 인천문화기행, 한인 이민사 등 다양한 교육 문화 프로그램도 운영한다. 한국이민사박물관은 2003년 미주 이민 100주년을 맞아 우리 선조들의 해외에서의 개척자적인 삶을 기리고 그 발자취를 후손들에게 전 하기 위해 인천광역시 시민들과 해외동포들이 함께 뜻을 모아서 건립한 우리나라 최초의 이민사박물관입니다.",
+      "bm25_document": "인천광역시 월미공원 내에 자리한 한국이민사 박물관은 2003년 미주 이민 100주년을 기념해 개관했다. 인천광역시 시민과 해외동포들이 십시일반으로 뜻을 모아 건립한 대한민국 최초의 이민사 박물관이다. 대한민국 이민의 출발지였던 인천항의 역사와 이민의 역사, 당시 국내외 상황을 설명하는 상설전시가 제1~제4전시실에서 전시된다. 이민사 관련 특별 전시도 연중 진행하며 인천문화기행, 한인 이민사 등 다양한 교육 문화 프로그램도 운영한다. 한국이민사박물관은 2003년 미주 이민 100주년을 맞아 우리 선조들의 해외에서의 개척자적인 삶을 기리고 그 발자취를 후손들에게 전 하기 위해 인천광역시 시민들과 해외동포들이 함께 뜻을 모아서 건립한 우리나라 최초의 이민사박물관입니다.",
+      "best_span_id": "chroma:M0006",
+      "best_span_text": "인천광역시 월미공원 내에 자리한 한국이민사 박물관은 2003년 미주 이민 100주년을 기념해 개관했다. 인천광역시 시민과 해외동포들이 십시일반으로 뜻을 모아 건립한 대한민국 최초의 이민사 박물관이다. 대한민국 이민의 출발지였던 인천항의 역사와 이민의 역사, 당시 국내외 상황을 설명하는 상설전시가 제1~제4전시실에서 전시된다. 이민사 관련 특별 전시도 연중 진행하며 인천문화기행, 한인 이민사 등 다양한 교육 문화 프로그램도 운영한다. 한국이민사박물관은 2003년 미주 이민 100주년을 맞아 우리 선조들의 해외에서의 개척자적인 삶을 기리고 그 발자취를 후손들에게 전 하기 위해 인천광역시 시민들과 해외동포들이 함께 뜻을 모아서 건립한 우리나라 최초의 이민사박물관입니다.",
+      "fusion_score": 0.03149801587301587,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 2,
+      "rerank_score": 0.17992590367794037,
+      "rank": 5,
+      "score": 0.17992590367794037,
+      "score_type": "cross_encoder",
+      "distance": 0.4070718288421631,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0006",
+      "source_doc_ids": [
+        "DOC-B0006-TOUR_API-2465140",
+        "DOC-B0006-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0006-TOUR_API-2465140",
+          "source_type": "TOUR_API",
+          "source_record_id": "2465140",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=6",
+          "match_trust": "RECHECKED_BY_RULE_NOT_HUMAN_APPROVED"
+        },
+        {
+          "doc_id": "DOC-B0006-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0006",
+          "source_locator": "data/raw/museum_base_1070.csv#row=7",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 57,
+          "doc_ids": [
+            "DOC-B0006-TOUR_API-2465140"
+          ]
+        },
+        {
+          "start": 58,
+          "end": 111,
+          "doc_ids": [
+            "DOC-B0006-TOUR_API-2465140"
+          ]
+        },
+        {
+          "start": 112,
+          "end": 182,
+          "doc_ids": [
+            "DOC-B0006-TOUR_API-2465140"
+          ]
+        },
+        {
+          "start": 183,
+          "end": 243,
+          "doc_ids": [
+            "DOC-B0006-TOUR_API-2465140"
+          ]
+        },
+        {
+          "start": 244,
+          "end": 375,
+          "doc_ids": [
+            "DOC-B0006-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=6",
+      "text": "인천광역시 월미공원 내에 자리한 한국이민사 박물관은 2003년 미주 이민 100주년을 기념해 개관했다. 인천광역시 시민과 해외동포들이 십시일반으로 뜻을 모아 건립한 대한민국 최초의 이민사 박물관이다. 대한민국 이민의 출발지였던 인천항의 역사와 이민의 역사, 당시 국내외 상황을 설명하는 상설전시가 제1~제4전시실에서 전시된다. 이민사 관련 특별 전시도 연중 진행하며 인천문화기행, 한인 이민사 등 다양한 교육 문화 프로그램도 운영한다. 한국이민사박물관은 2003년 미주 이민 100주년을 맞아 우리 선조들의 해외에서의 개척자적인 삶을 기리고 그 발자취를 후손들에게 전 하기 위해 인천광역시 시민들과 해외동포들이 함께 뜻을 모아서 건립한 우리나라 최초의 이민사박물관입니다.",
+      "sido": "인천광역시",
+      "sigungu": "제물포구",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=6"
+      ],
+      "evidence_id": "E5",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=6",
+        "fields": {
+          "name": "한국이민사박물관",
+          "sido": "인천광역시",
+          "sigungu": "제물포구",
+          "address": "인천광역시 제물포구 월미로 329",
+          "ownership_type": "공립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "09:00",
+          "weekday_close": "18:00",
+          "holiday_open": "09:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "월(단, 공휴일인 월요일은 제외)+1월1일"
+        },
+        "base_data_date": "2026-09-18",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    }
+  ],
+  "answer": "인천광역시립박물관은 1946년에 개관한 우리나라 최초의 공립박물관입니다. [E1]",
+  "retrieval_status": "ok",
+  "answer_status": "answered",
+  "route": "hybrid",
+  "retry_count": 0,
+  "supervisor_verified": true,
+  "rerank_applied": true,
+  "retriever_errors": [],
+  "warnings": [],
+  "duration_ms": 96824.77,
+  "error_type": "",
+  "hit_at_1": 1,
+  "hit_at_3": 1,
+  "hit_at_5": 1,
+  "recall_at_5": 1.0,
+  "mrr_at_10": 1.0
+}

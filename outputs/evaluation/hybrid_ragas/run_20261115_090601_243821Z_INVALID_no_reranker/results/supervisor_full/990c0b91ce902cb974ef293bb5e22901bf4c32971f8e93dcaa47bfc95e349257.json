@@ -1,0 +1,640 @@
+{
+  "mode": "supervisor_full",
+  "question_id": "Q226",
+  "evidence": [
+    {
+      "museum_id": "M0391",
+      "name": "충현박물관",
+      "document": "충현박물관은 이원익 종가에서 만든 전국 유일의 종가박물관이다. 이원익 직계 후손들이 선대의 유품을 보존하며 조선시대 선비문화를 계승, 보호한다는 사명감으로 설립하였다. 영정과 친필 등 이원익과 관련된 자료와 종가에서 사용했던 제기와 민속생활품, 400여 년 전의 유물로부터 근대에 이르기까지 사대부집안의 각종 자료 등이 전시되어 있다. 조선시대 청백리 오리이원익 종가박물관",
+      "metadata": {
+        "homepage_url": "http://www.chunghyeon.org/",
+        "adult_fee_status": "BASE_FEE_PAID",
+        "closure_rule_raw": "월요일+일요일+설 연휴+추석 연휴+공휴일",
+        "sido": "경기도",
+        "holiday_open": "00:00",
+        "fee_notes": "(일반시민)7000원(성인단체+65세이상+장애인)+(광명시민)5000원(성인)+ (광명시민)4000원 (성인단체+65세이상+장애인+유아+청소년)",
+        "adult_fee": 10000.0,
+        "sigungu": "광명시",
+        "amenities_raw": "없음",
+        "address": "경기도 광명시 오리로347번길 5-6",
+        "child_fee": 5000.0,
+        "longitude": 126.8777258,
+        "requires_manual_review": true,
+        "weekday_close": "17:00",
+        "name": "충현박물관",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/10/3563410_image2_1.jpg",
+        "latitude": 37.4339273,
+        "source_types": "BASE|TOUR_API",
+        "holiday_close": "00:00",
+        "transport_notes": "버스 : 2+3+11-2+12+17+22+75+77+505+5627+5633 소하2동 행정복지센터 광명동굴길입구 하차",
+        "youth_fee": 5000.0,
+        "weekday_open": "10:00",
+        "ownership_type": "사립",
+        "image_copyright": "Type1"
+      },
+      "vector_rank": 1,
+      "bm25_rank": 1,
+      "vector_distance": 0.43506157398223877,
+      "vector_score": null,
+      "bm25_score": 26.17224312381621,
+      "vector_document": "충현박물관은 이원익 종가에서 만든 전국 유일의 종가박물관이다. 이원익 직계 후손들이 선대의 유품을 보존하며 조선시대 선비문화를 계승, 보호한다는 사명감으로 설립하였다. 영정과 친필 등 이원익과 관련된 자료와 종가에서 사용했던 제기와 민속생활품, 400여 년 전의 유물로부터 근대에 이르기까지 사대부집안의 각종 자료 등이 전시되어 있다. 조선시대 청백리 오리이원익 종가박물관",
+      "bm25_document": "충현박물관은 이원익 종가에서 만든 전국 유일의 종가박물관이다. 이원익 직계 후손들이 선대의 유품을 보존하며 조선시대 선비문화를 계승, 보호한다는 사명감으로 설립하였다. 영정과 친필 등 이원익과 관련된 자료와 종가에서 사용했던 제기와 민속생활품, 400여 년 전의 유물로부터 근대에 이르기까지 사대부집안의 각종 자료 등이 전시되어 있다. 조선시대 청백리 오리이원익 종가박물관",
+      "best_span_id": "chroma:M0391",
+      "best_span_text": "충현박물관은 이원익 종가에서 만든 전국 유일의 종가박물관이다. 이원익 직계 후손들이 선대의 유품을 보존하며 조선시대 선비문화를 계승, 보호한다는 사명감으로 설립하였다. 영정과 친필 등 이원익과 관련된 자료와 종가에서 사용했던 제기와 민속생활품, 400여 년 전의 유물로부터 근대에 이르기까지 사대부집안의 각종 자료 등이 전시되어 있다. 조선시대 청백리 오리이원익 종가박물관",
+      "fusion_score": 0.03278688524590164,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 1,
+      "name_match": true,
+      "rerank_score": null,
+      "rank": 1,
+      "score": 0.03278688524590164,
+      "score_type": "rrf",
+      "distance": 0.43506157398223877,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0391",
+      "source_doc_ids": [
+        "DOC-B0391-TOUR_API-130707",
+        "DOC-B0391-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0391-TOUR_API-130707",
+          "source_type": "TOUR_API",
+          "source_record_id": "130707",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=181",
+          "match_trust": "RECHECKED_BY_RULE_NOT_HUMAN_APPROVED"
+        },
+        {
+          "doc_id": "DOC-B0391-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0391",
+          "source_locator": "data/raw/museum_base_1070.csv#row=392",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 34,
+          "doc_ids": [
+            "DOC-B0391-TOUR_API-130707"
+          ]
+        },
+        {
+          "start": 35,
+          "end": 93,
+          "doc_ids": [
+            "DOC-B0391-TOUR_API-130707"
+          ]
+        },
+        {
+          "start": 94,
+          "end": 187,
+          "doc_ids": [
+            "DOC-B0391-TOUR_API-130707"
+          ]
+        },
+        {
+          "start": 188,
+          "end": 208,
+          "doc_ids": [
+            "DOC-B0391-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=181",
+      "text": "충현박물관은 이원익 종가에서 만든 전국 유일의 종가박물관이다. 이원익 직계 후손들이 선대의 유품을 보존하며 조선시대 선비문화를 계승, 보호한다는 사명감으로 설립하였다. 영정과 친필 등 이원익과 관련된 자료와 종가에서 사용했던 제기와 민속생활품, 400여 년 전의 유물로부터 근대에 이르기까지 사대부집안의 각종 자료 등이 전시되어 있다. 조선시대 청백리 오리이원익 종가박물관",
+      "sido": "경기도",
+      "sigungu": "광명시",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=181"
+      ],
+      "evidence_id": "E1",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=278",
+        "fields": {
+          "name": "충현박물관",
+          "sido": "경기도",
+          "sigungu": "광명시",
+          "address": "경기도 광명시 오리로347번길 5-6",
+          "ownership_type": "사립",
+          "adult_fee": "10000",
+          "youth_fee": "5000",
+          "child_fee": "5000",
+          "adult_fee_status": "BASE_FEE_PAID",
+          "weekday_open": "10:00",
+          "weekday_close": "17:00",
+          "holiday_open": "00:00",
+          "holiday_close": "00:00",
+          "closure_rule_raw": "월요일+일요일+설 연휴+추석 연휴+공휴일",
+          "amenities_raw": "없음"
+        },
+        "base_data_date": "2026-05-26",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M1014",
+      "name": "양구근현대사박물관",
+      "document": "박물관은 근현대사를 담고 있는 다양한 자료를 테마별 전시관으로 구성하고 있습니다. 먼저 제1전시실은 한국근현대사 전반을 살펴볼 수 있는 역사의 휘모리 공간을 시작으로, 엽서관, 우표관, 씰관 등으로 구성되어 있으며, 제2전시실은 추억속의 영화역사 포스터 등을 전시한 추억의 영화관, 아리랑 문화를 다양한 면을 살필 수 있는 공간으로 전시되어 있다. 또한 기획전시실에는 기증유물특별전으로 기증자 박민일 박사, 송광호 기자, 철학가 김형석박사의 다양한 기증자료 중 도자기, 그림, 글씨, 민속품을 중심으로 전시하고 있다.",
+      "metadata": {
+        "longitude": 127.9904068,
+        "holiday_open": "10:00",
+        "closure_rule_raw": "월+1월 1일+설날 오전+추석 오전",
+        "ownership_type": "공립",
+        "fee_notes": "지역상품권 환급+6세이하+65세 이상+장애인+국민기초생활수급자+명예군민 등 면제",
+        "requires_manual_review": true,
+        "name": "양구근현대사박물관",
+        "adult_fee_status": "BASE_FEE_PAID",
+        "adult_fee": 3000.0,
+        "homepage_url": "http://www.ygpm.or.kr/",
+        "latitude": 38.12222633,
+        "sigungu": "양구군",
+        "amenities_raw": "뮤지엄숍+향토사료관+고인돌공원+함춘주막",
+        "address": "강원특별자치도 양구군 양구읍 금강산로 439-51",
+        "weekday_open": "10:00",
+        "source_types": "BASE",
+        "youth_fee": 3000.0,
+        "child_fee": 3000.0,
+        "sido": "강원특별자치도",
+        "weekday_close": "18:00",
+        "holiday_close": "18:00"
+      },
+      "vector_rank": 2,
+      "bm25_rank": null,
+      "vector_distance": 0.4997466802597046,
+      "vector_score": null,
+      "bm25_score": null,
+      "vector_document": "박물관은 근현대사를 담고 있는 다양한 자료를 테마별 전시관으로 구성하고 있습니다. 먼저 제1전시실은 한국근현대사 전반을 살펴볼 수 있는 역사의 휘모리 공간을 시작으로, 엽서관, 우표관, 씰관 등으로 구성되어 있으며, 제2전시실은 추억속의 영화역사 포스터 등을 전시한 추억의 영화관, 아리랑 문화를 다양한 면을 살필 수 있는 공간으로 전시되어 있다. 또한 기획전시실에는 기증유물특별전으로 기증자 박민일 박사, 송광호 기자, 철학가 김형석박사의 다양한 기증자료 중 도자기, 그림, 글씨, 민속품을 중심으로 전시하고 있다.",
+      "bm25_document": "",
+      "best_span_id": null,
+      "best_span_text": null,
+      "fusion_score": 0.016129032258064516,
+      "retrieved_by": [
+        "vector"
+      ],
+      "fusion_rank": 2,
+      "rerank_score": null,
+      "rank": 2,
+      "score": 0.016129032258064516,
+      "score_type": "rrf",
+      "distance": 0.4997466802597046,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector"
+      ],
+      "retriever": "vector",
+      "source_doc_ids": [
+        "DOC-B1014-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B1014-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B1014",
+          "source_locator": "data/raw/museum_base_1070.csv#row=1015",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 45,
+          "doc_ids": [
+            "DOC-B1014-BASE"
+          ]
+        },
+        {
+          "start": 46,
+          "end": 194,
+          "doc_ids": [
+            "DOC-B1014-BASE"
+          ]
+        },
+        {
+          "start": 195,
+          "end": 289,
+          "doc_ids": [
+            "DOC-B1014-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_base_1070.csv#row=1015",
+      "text": "박물관은 근현대사를 담고 있는 다양한 자료를 테마별 전시관으로 구성하고 있습니다. 먼저 제1전시실은 한국근현대사 전반을 살펴볼 수 있는 역사의 휘모리 공간을 시작으로, 엽서관, 우표관, 씰관 등으로 구성되어 있으며, 제2전시실은 추억속의 영화역사 포스터 등을 전시한 추억의 영화관, 아리랑 문화를 다양한 면을 살필 수 있는 공간으로 전시되어 있다. 또한 기획전시실에는 기증유물특별전으로 기증자 박민일 박사, 송광호 기자, 철학가 김형석박사의 다양한 기증자료 중 도자기, 그림, 글씨, 민속품을 중심으로 전시하고 있다.",
+      "sido": "강원특별자치도",
+      "sigungu": "양구군",
+      "span_id": "",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_base_1070.csv#row=1015"
+      ],
+      "evidence_id": "E2",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=696",
+        "fields": {
+          "name": "양구근현대사박물관",
+          "sido": "강원특별자치도",
+          "sigungu": "양구군",
+          "address": "강원특별자치도 양구군 양구읍 금강산로 439-51",
+          "ownership_type": "공립",
+          "adult_fee": "3000",
+          "youth_fee": "3000",
+          "child_fee": "3000",
+          "adult_fee_status": "BASE_FEE_PAID",
+          "weekday_open": "10:00",
+          "weekday_close": "18:00",
+          "holiday_open": "10:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "월+1월 1일+설날 오전+추석 오전",
+          "amenities_raw": "뮤지엄숍+향토사료관+고인돌공원+함춘주막"
+        },
+        "base_data_date": "2025-08-05",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0496",
+      "name": "국립조세박물관",
+      "document": "조세박물관은 세금의 역사와 조세제도, 국세행정의 발전과정을 소개하여 세금의 중요성을 느낄 수 있는 국내유일의 세금전문박물관이다. 세금의 중요성을 홍보하고 국세행정에 대한 이해를 도모하고자 ‘대국민 교육의 장’으로서 설립되었다. 각 시대별 조세제도의 내용과 역사적 사건에 관한 자료들을 정리하여 전시하고 있으며, 세금과 관련된 각종 도서와 연구논문 등을 수집관리하고 있다. 학생들에게는 세금 체험 장소로, 연구자들에게는 자료관으로 이용되고 있다.",
+      "metadata": {
+        "name": "국립조세박물관",
+        "sido": "세종특별자치시",
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "closure_rule_raw": "매주 월요일, 법정공휴일",
+        "sigungu": "세종시",
+        "homepage_url": "https://www.nts.go.kr/museum",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/45/4063845_image2_1.jpeg",
+        "ownership_type": "국립",
+        "longitude": 127.2603064,
+        "latitude": 36.48507978,
+        "child_fee": 0.0,
+        "requires_manual_review": true,
+        "youth_fee": 0.0,
+        "weekday_close": "18:00",
+        "adult_fee": 0.0,
+        "image_copyright": "Type3",
+        "source_types": "TOUR_API",
+        "address": "세종특별자치시 국세청로 8-14",
+        "weekday_open": "09:00"
+      },
+      "vector_rank": null,
+      "bm25_rank": 2,
+      "vector_distance": null,
+      "vector_score": null,
+      "bm25_score": 11.987903323827652,
+      "vector_document": "",
+      "bm25_document": "조세박물관은 세금의 역사와 조세제도, 국세행정의 발전과정을 소개하여 세금의 중요성을 느낄 수 있는 국내유일의 세금전문박물관이다. 세금의 중요성을 홍보하고 국세행정에 대한 이해를 도모하고자 ‘대국민 교육의 장’으로서 설립되었다. 각 시대별 조세제도의 내용과 역사적 사건에 관한 자료들을 정리하여 전시하고 있으며, 세금과 관련된 각종 도서와 연구논문 등을 수집관리하고 있다. 학생들에게는 세금 체험 장소로, 연구자들에게는 자료관으로 이용되고 있다.",
+      "best_span_id": "chroma:M0496",
+      "best_span_text": "조세박물관은 세금의 역사와 조세제도, 국세행정의 발전과정을 소개하여 세금의 중요성을 느낄 수 있는 국내유일의 세금전문박물관이다. 세금의 중요성을 홍보하고 국세행정에 대한 이해를 도모하고자 ‘대국민 교육의 장’으로서 설립되었다. 각 시대별 조세제도의 내용과 역사적 사건에 관한 자료들을 정리하여 전시하고 있으며, 세금과 관련된 각종 도서와 연구논문 등을 수집관리하고 있다. 학생들에게는 세금 체험 장소로, 연구자들에게는 자료관으로 이용되고 있다.",
+      "fusion_score": 0.016129032258064516,
+      "retrieved_by": [
+        "bm25"
+      ],
+      "fusion_rank": 3,
+      "rerank_score": null,
+      "rank": 3,
+      "score": 0.016129032258064516,
+      "score_type": "rrf",
+      "distance": null,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "bm25"
+      ],
+      "retriever": "bm25",
+      "span_id": "chroma:M0496",
+      "source_doc_ids": [
+        "DOC-B0496-TOUR_API-130952"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0496-TOUR_API-130952",
+          "source_type": "TOUR_API",
+          "source_record_id": "130952",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=245",
+          "match_trust": "RECHECKED_BY_RULE_NOT_HUMAN_APPROVED"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 71,
+          "doc_ids": [
+            "DOC-B0496-TOUR_API-130952"
+          ]
+        },
+        {
+          "start": 72,
+          "end": 126,
+          "doc_ids": [
+            "DOC-B0496-TOUR_API-130952"
+          ]
+        },
+        {
+          "start": 127,
+          "end": 207,
+          "doc_ids": [
+            "DOC-B0496-TOUR_API-130952"
+          ]
+        },
+        {
+          "start": 208,
+          "end": 248,
+          "doc_ids": [
+            "DOC-B0496-TOUR_API-130952"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=245",
+      "text": "조세박물관은 세금의 역사와 조세제도, 국세행정의 발전과정을 소개하여 세금의 중요성을 느낄 수 있는 국내유일의 세금전문박물관이다. 세금의 중요성을 홍보하고 국세행정에 대한 이해를 도모하고자 ‘대국민 교육의 장’으로서 설립되었다. 각 시대별 조세제도의 내용과 역사적 사건에 관한 자료들을 정리하여 전시하고 있으며, 세금과 관련된 각종 도서와 연구논문 등을 수집관리하고 있다. 학생들에게는 세금 체험 장소로, 연구자들에게는 자료관으로 이용되고 있다.",
+      "sido": "세종특별자치시",
+      "sigungu": "세종시",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=245"
+      ],
+      "evidence_id": "E3",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=356",
+        "fields": {
+          "name": "국립조세박물관",
+          "sido": "세종특별자치시",
+          "sigungu": "세종시",
+          "address": "세종특별자치시 국세청로 8-14",
+          "ownership_type": "국립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "09:00",
+          "weekday_close": "18:00",
+          "closure_rule_raw": "매주 월요일, 법정공휴일"
+        },
+        "base_data_date": "2026-04-08",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0364",
+      "name": "인형극박물관",
+      "document": "국내외 200여점의 인형과 각종 인형극 관련 자료를 전시하고 있음",
+      "metadata": {
+        "fee_notes": "할인 대상[춘천시민+시내단체(20인 이상) : 1000원+시외단체(20인 이상) : 1500원]+무료(장애인+국가유공자+만 65세 이상+단체 인솔교사)",
+        "transport_notes": "1)대중교통 : 춘천역환승센터[2288] - 지선 12번 - 인형극장정류장 하차 / 춘천역 춘천농협정류장[1370] - 지선 9번 - 청소년수련원 정류장 하차 도보로 6분+2)승용차 : 서울양양고속도로(남춘천IC), 일반도로(46번경춘국도-403번도로)",
+        "closure_rule_raw": "월+1월 1일+설 당일+추석 당일+박물관 전시 교체 기간",
+        "ownership_type": "공립",
+        "youth_fee": 2000.0,
+        "weekday_close": "18:00",
+        "source_types": "BASE",
+        "latitude": 37.921096,
+        "address": "강원특별자치도 춘천시 영서로 3017",
+        "homepage_url": "http://www.cocobau.com/",
+        "holiday_open": "10:00",
+        "adult_fee_status": "BASE_FEE_PAID",
+        "sido": "강원특별자치도",
+        "sigungu": "춘천시",
+        "adult_fee": 2000.0,
+        "weekday_open": "10:00",
+        "name": "인형극박물관",
+        "requires_manual_review": true,
+        "longitude": 127.720105,
+        "child_fee": 2000.0,
+        "holiday_close": "18:00"
+      },
+      "vector_rank": 3,
+      "bm25_rank": null,
+      "vector_distance": 0.5151076316833496,
+      "vector_score": null,
+      "bm25_score": null,
+      "vector_document": "국내외 200여점의 인형과 각종 인형극 관련 자료를 전시하고 있음",
+      "bm25_document": "",
+      "best_span_id": null,
+      "best_span_text": null,
+      "fusion_score": 0.015873015873015872,
+      "retrieved_by": [
+        "vector"
+      ],
+      "fusion_rank": 4,
+      "rerank_score": null,
+      "rank": 4,
+      "score": 0.015873015873015872,
+      "score_type": "rrf",
+      "distance": 0.5151076316833496,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector"
+      ],
+      "retriever": "vector",
+      "source_doc_ids": [
+        "DOC-B0364-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0364-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0364",
+          "source_locator": "data/raw/museum_base_1070.csv#row=365",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 36,
+          "doc_ids": [
+            "DOC-B0364-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_base_1070.csv#row=365",
+      "text": "국내외 200여점의 인형과 각종 인형극 관련 자료를 전시하고 있음",
+      "sido": "강원특별자치도",
+      "sigungu": "춘천시",
+      "span_id": "",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_base_1070.csv#row=365"
+      ],
+      "evidence_id": "E4",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=266",
+        "fields": {
+          "name": "인형극박물관",
+          "sido": "강원특별자치도",
+          "sigungu": "춘천시",
+          "address": "강원특별자치도 춘천시 영서로 3017",
+          "ownership_type": "공립",
+          "adult_fee": "2000",
+          "youth_fee": "2000",
+          "child_fee": "2000",
+          "adult_fee_status": "BASE_FEE_PAID",
+          "weekday_open": "10:00",
+          "weekday_close": "18:00",
+          "holiday_open": "10:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "월+1월 1일+설 당일+추석 당일+박물관 전시 교체 기간"
+        },
+        "base_data_date": "2026-06-10",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M1043",
+      "name": "한남대학교 자연사박물관",
+      "document": "- 한남대학교 자연사박물관은 자연을 이루는 광물, 화석, 동물, 식물 그리고 인간에 관한 표본을 우선 수집하고 보존 연구하여 그 결과를 전시와 각종 프로그램을 통해 대중에게 자연에 대한 올바로 인식시키는데 목적을 두고 운영하고 있다. - 20만여점의 표본이 식물, 포유류, 조류, 양서?파충류, 해양무척추동물, 패류, 곤충, 화석 및 광물 등 다양한 분류군별 전시가 이루어져 있다.",
+      "metadata": {
+        "youth_fee": 0.0,
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "latitude": 36.35279872,
+        "transport_notes": "- 버스 : 105, 314, 711",
+        "adult_fee": 0.0,
+        "weekday_close": "16:00",
+        "name": "한남대학교 자연사박물관",
+        "amenities_raw": "없음",
+        "fee_notes": "무료",
+        "holiday_open": "10:00",
+        "longitude": 127.4233081,
+        "holiday_close": "17:00",
+        "source_types": "BASE",
+        "weekday_open": "10:00",
+        "sigungu": "대덕구",
+        "child_fee": 0.0,
+        "sido": "대전광역시",
+        "address": "대전광역시 대덕구 한남로 70",
+        "ownership_type": "대학",
+        "requires_manual_review": true,
+        "closure_rule_raw": "개교기념일(4.15), 공휴일,  토, 일"
+      },
+      "vector_rank": null,
+      "bm25_rank": 3,
+      "vector_distance": null,
+      "vector_score": null,
+      "bm25_score": 11.961353287215413,
+      "vector_document": "",
+      "bm25_document": "- 한남대학교 자연사박물관은 자연을 이루는 광물, 화석, 동물, 식물 그리고 인간에 관한 표본을 우선 수집하고 보존 연구하여 그 결과를 전시와 각종 프로그램을 통해 대중에게 자연에 대한 올바로 인식시키는데 목적을 두고 운영하고 있다. - 20만여점의 표본이 식물, 포유류, 조류, 양서?파충류, 해양무척추동물, 패류, 곤충, 화석 및 광물 등 다양한 분류군별 전시가 이루어져 있다.",
+      "best_span_id": "chroma:M1043",
+      "best_span_text": "- 한남대학교 자연사박물관은 자연을 이루는 광물, 화석, 동물, 식물 그리고 인간에 관한 표본을 우선 수집하고 보존 연구하여 그 결과를 전시와 각종 프로그램을 통해 대중에게 자연에 대한 올바로 인식시키는데 목적을 두고 운영하고 있다. - 20만여점의 표본이 식물, 포유류, 조류, 양서?파충류, 해양무척추동물, 패류, 곤충, 화석 및 광물 등 다양한 분류군별 전시가 이루어져 있다.",
+      "fusion_score": 0.015873015873015872,
+      "retrieved_by": [
+        "bm25"
+      ],
+      "fusion_rank": 5,
+      "rerank_score": null,
+      "rank": 5,
+      "score": 0.015873015873015872,
+      "score_type": "rrf",
+      "distance": null,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "bm25"
+      ],
+      "retriever": "bm25",
+      "span_id": "chroma:M1043",
+      "source_doc_ids": [
+        "DOC-B1043-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B1043-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B1043",
+          "source_locator": "data/raw/museum_base_1070.csv#row=1044",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 130,
+          "doc_ids": [
+            "DOC-B1043-BASE"
+          ]
+        },
+        {
+          "start": 131,
+          "end": 213,
+          "doc_ids": [
+            "DOC-B1043-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_base_1070.csv#row=1044",
+      "text": "- 한남대학교 자연사박물관은 자연을 이루는 광물, 화석, 동물, 식물 그리고 인간에 관한 표본을 우선 수집하고 보존 연구하여 그 결과를 전시와 각종 프로그램을 통해 대중에게 자연에 대한 올바로 인식시키는데 목적을 두고 운영하고 있다. - 20만여점의 표본이 식물, 포유류, 조류, 양서?파충류, 해양무척추동물, 패류, 곤충, 화석 및 광물 등 다양한 분류군별 전시가 이루어져 있다.",
+      "sido": "대전광역시",
+      "sigungu": "대덕구",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_base_1070.csv#row=1044"
+      ],
+      "evidence_id": "E5",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=719",
+        "fields": {
+          "name": "한남대학교 자연사박물관",
+          "sido": "대전광역시",
+          "sigungu": "대덕구",
+          "address": "대전광역시 대덕구 한남로 70",
+          "ownership_type": "대학",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "10:00",
+          "weekday_close": "16:00",
+          "holiday_open": "10:00",
+          "holiday_close": "17:00",
+          "closure_rule_raw": "개교기념일(4.15), 공휴일,  토, 일",
+          "amenities_raw": "없음"
+        },
+        "base_data_date": "2020-12-15",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    }
+  ],
+  "answer": "충현박물관에는 이원익의 영정과 친필 등 관련 자료가 전시되어 있습니다. 종가에서 사용했던 제기와 민속생활품, 그리고 400여 년 전 유물부터 근대에 이르기까지 사대부 집안의 각종 자료도 전시됩니다. [E1]",
+  "retrieval_status": "ok",
+  "answer_status": "answered",
+  "route": "hybrid",
+  "retry_count": 0,
+  "supervisor_verified": true,
+  "rerank_applied": false,
+  "retriever_errors": [],
+  "warnings": [
+    "Cross-Encoder reranking failed (FileNotFoundError); RRF order retained"
+  ],
+  "duration_ms": 10393.39,
+  "error_type": "",
+  "hit_at_1": 1,
+  "hit_at_3": 1,
+  "hit_at_5": 1,
+  "recall_at_5": 1.0,
+  "mrr_at_10": 1.0
+}

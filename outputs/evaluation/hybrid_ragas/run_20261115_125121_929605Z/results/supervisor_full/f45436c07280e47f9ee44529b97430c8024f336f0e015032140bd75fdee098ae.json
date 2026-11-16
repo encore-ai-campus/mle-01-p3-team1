@@ -1,0 +1,782 @@
+{
+  "mode": "supervisor_full",
+  "question_id": "Q254",
+  "evidence": [
+    {
+      "museum_id": "M0439",
+      "name": "한국차문화박물관",
+      "document": "한국차문화박물관은 폐교를 개조하여 만든 보이차 전문 박물관이다. 박물관 전시실에는 한, 중, 일 3,000여 점 차도구와 보이차에 관련된 역사, 다양한 형태의 보이차가 전시되어 있다. 또한 보이차와 보이차를 우리는 방법 등에 대한 설명을 들으며 보이차를 시음해 볼 수 있으며, 우주의 소리 싱잉볼 명상 체험도 즐길 수 있다. 한국차문화박물관은 보이차 전문 박물관으로 중국 및 한국, 일본의 차 도구에 대한 상설 전시를 진행하고 있으며, 일상생활에서 쉽게 접할 수 있는 차문화를 알리고자 합니다.",
+      "metadata": {
+        "sido": "충청북도",
+        "longitude": 128.1145196,
+        "adult_fee": 16000.0,
+        "ownership_type": "사립",
+        "sigungu": "제천시",
+        "name": "한국차문화박물관",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/29/3410229_image2_1.jpg",
+        "address": "충청북도 제천시 봉양읍 국사봉로 741",
+        "fee_notes": "영유아(만 24개월 미만) 무료",
+        "amenities_raw": "장애인 편의시설 및 주차장",
+        "image_copyright": "Type3",
+        "closure_rule_raw": "월요일+화요일",
+        "holiday_open": "10:00",
+        "child_fee": 8000.0,
+        "youth_fee": 8000.0,
+        "homepage_url": "https://tour.jecheon.go.kr/tour/base/tour/contents/view?clturCntntsNo=3704&menuLevel=3&menuNo=104",
+        "requires_manual_review": true,
+        "weekday_open": "10:00",
+        "source_types": "BASE|TOUR_API",
+        "adult_fee_status": "BASE_FEE_PAID",
+        "latitude": 37.09018793,
+        "weekday_close": "18:00",
+        "holiday_close": "17:00"
+      },
+      "vector_rank": 1,
+      "bm25_rank": 1,
+      "vector_distance": 0.31117820739746094,
+      "vector_score": null,
+      "bm25_score": 28.336923119818927,
+      "vector_document": "한국차문화박물관은 폐교를 개조하여 만든 보이차 전문 박물관이다. 박물관 전시실에는 한, 중, 일 3,000여 점 차도구와 보이차에 관련된 역사, 다양한 형태의 보이차가 전시되어 있다. 또한 보이차와 보이차를 우리는 방법 등에 대한 설명을 들으며 보이차를 시음해 볼 수 있으며, 우주의 소리 싱잉볼 명상 체험도 즐길 수 있다. 한국차문화박물관은 보이차 전문 박물관으로 중국 및 한국, 일본의 차 도구에 대한 상설 전시를 진행하고 있으며, 일상생활에서 쉽게 접할 수 있는 차문화를 알리고자 합니다.",
+      "bm25_document": "한국차문화박물관은 폐교를 개조하여 만든 보이차 전문 박물관이다. 박물관 전시실에는 한, 중, 일 3,000여 점 차도구와 보이차에 관련된 역사, 다양한 형태의 보이차가 전시되어 있다. 또한 보이차와 보이차를 우리는 방법 등에 대한 설명을 들으며 보이차를 시음해 볼 수 있으며, 우주의 소리 싱잉볼 명상 체험도 즐길 수 있다. 한국차문화박물관은 보이차 전문 박물관으로 중국 및 한국, 일본의 차 도구에 대한 상설 전시를 진행하고 있으며, 일상생활에서 쉽게 접할 수 있는 차문화를 알리고자 합니다.",
+      "best_span_id": "chroma:M0439",
+      "best_span_text": "한국차문화박물관은 폐교를 개조하여 만든 보이차 전문 박물관이다. 박물관 전시실에는 한, 중, 일 3,000여 점 차도구와 보이차에 관련된 역사, 다양한 형태의 보이차가 전시되어 있다. 또한 보이차와 보이차를 우리는 방법 등에 대한 설명을 들으며 보이차를 시음해 볼 수 있으며, 우주의 소리 싱잉볼 명상 체험도 즐길 수 있다. 한국차문화박물관은 보이차 전문 박물관으로 중국 및 한국, 일본의 차 도구에 대한 상설 전시를 진행하고 있으며, 일상생활에서 쉽게 접할 수 있는 차문화를 알리고자 합니다.",
+      "fusion_score": 0.03278688524590164,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 1,
+      "name_match": true,
+      "rerank_score": 0.9995419979095459,
+      "rank": 1,
+      "score": 0.9995419979095459,
+      "score_type": "cross_encoder",
+      "distance": 0.31117820739746094,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0439",
+      "source_doc_ids": [
+        "DOC-B0439-TOUR_API-3410452",
+        "DOC-B0439-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0439-TOUR_API-3410452",
+          "source_type": "TOUR_API",
+          "source_record_id": "3410452",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=210",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        },
+        {
+          "doc_id": "DOC-B0439-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0439",
+          "source_locator": "data/raw/museum_base_1070.csv#row=440",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 35,
+          "doc_ids": [
+            "DOC-B0439-TOUR_API-3410452"
+          ]
+        },
+        {
+          "start": 36,
+          "end": 102,
+          "doc_ids": [
+            "DOC-B0439-TOUR_API-3410452"
+          ]
+        },
+        {
+          "start": 103,
+          "end": 181,
+          "doc_ids": [
+            "DOC-B0439-TOUR_API-3410452"
+          ]
+        },
+        {
+          "start": 182,
+          "end": 276,
+          "doc_ids": [
+            "DOC-B0439-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=210",
+      "text": "한국차문화박물관은 폐교를 개조하여 만든 보이차 전문 박물관이다. 박물관 전시실에는 한, 중, 일 3,000여 점 차도구와 보이차에 관련된 역사, 다양한 형태의 보이차가 전시되어 있다. 또한 보이차와 보이차를 우리는 방법 등에 대한 설명을 들으며 보이차를 시음해 볼 수 있으며, 우주의 소리 싱잉볼 명상 체험도 즐길 수 있다. 한국차문화박물관은 보이차 전문 박물관으로 중국 및 한국, 일본의 차 도구에 대한 상설 전시를 진행하고 있으며, 일상생활에서 쉽게 접할 수 있는 차문화를 알리고자 합니다.",
+      "sido": "충청북도",
+      "sigungu": "제천시",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=210"
+      ],
+      "evidence_id": "E1",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=313",
+        "fields": {
+          "name": "한국차문화박물관",
+          "sido": "충청북도",
+          "sigungu": "제천시",
+          "address": "충청북도 제천시 봉양읍 국사봉로 741",
+          "ownership_type": "사립",
+          "adult_fee": "16000",
+          "youth_fee": "8000",
+          "child_fee": "8000",
+          "adult_fee_status": "BASE_FEE_PAID",
+          "weekday_open": "10:00",
+          "weekday_close": "18:00",
+          "holiday_open": "10:00",
+          "holiday_close": "17:00",
+          "closure_rule_raw": "월요일+화요일",
+          "amenities_raw": "장애인 편의시설 및 주차장"
+        },
+        "base_data_date": "2026-03-23",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0295",
+      "name": "한국차박물관",
+      "document": "한국차박물관은 세계 녹차의 중심을 꿈꾸는 차의 주산지, 보성에 위치해 있으며 지하 1층, 지상 5층 규모로 수장고와 전시실 등을 갖췄다. 1층 차문화관, 2층 차역사관, 3층 차생활관을 테마로 보고 배우고, 체험할 수 있는 문화 공간과 다례등 각종 체험프로그램을 운영하고 있다. 한국 차 문화를 선도하고 있다는 자부심으로 차 문화의 올바른 정립과 보급은 물론 다양한 프로그램 개발·제공을 통해 한국 차의 미래를 여는 박물관, 다시 찾고 싶은 박물관이 되도록 노력하고 있다.",
+      "metadata": {
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/31/4061231_image2_1.jpg",
+        "longitude": 127.0819011677,
+        "latitude": 34.7197741512,
+        "holiday_close": "17:00",
+        "sido": "전남광주특별자치도",
+        "image_copyright": "Type1",
+        "closure_rule_raw": "월",
+        "homepage_url": "http://www.boseong.go.kr/tea",
+        "sigungu": "보성군",
+        "source_types": "TOUR_API",
+        "child_fee": 500.0,
+        "adult_fee_status": "BASE_FEE_PAID",
+        "youth_fee": 700.0,
+        "holiday_open": "10:00",
+        "address": "전남광주통합특별시 보성군 보성읍 녹차로 775",
+        "adult_fee": 1000.0,
+        "weekday_close": "17:00",
+        "ownership_type": "공립",
+        "name": "한국차박물관",
+        "requires_manual_review": true,
+        "weekday_open": "10:00"
+      },
+      "vector_rank": 2,
+      "bm25_rank": 4,
+      "vector_distance": 0.4167436957359314,
+      "vector_score": null,
+      "bm25_score": 20.815771380331743,
+      "vector_document": "한국차박물관은 세계 녹차의 중심을 꿈꾸는 차의 주산지, 보성에 위치해 있으며 지하 1층, 지상 5층 규모로 수장고와 전시실 등을 갖췄다. 1층 차문화관, 2층 차역사관, 3층 차생활관을 테마로 보고 배우고, 체험할 수 있는 문화 공간과 다례등 각종 체험프로그램을 운영하고 있다. 한국 차 문화를 선도하고 있다는 자부심으로 차 문화의 올바른 정립과 보급은 물론 다양한 프로그램 개발·제공을 통해 한국 차의 미래를 여는 박물관, 다시 찾고 싶은 박물관이 되도록 노력하고 있다.",
+      "bm25_document": "한국차박물관은 세계 녹차의 중심을 꿈꾸는 차의 주산지, 보성에 위치해 있으며 지하 1층, 지상 5층 규모로 수장고와 전시실 등을 갖췄다. 1층 차문화관, 2층 차역사관, 3층 차생활관을 테마로 보고 배우고, 체험할 수 있는 문화 공간과 다례등 각종 체험프로그램을 운영하고 있다. 한국 차 문화를 선도하고 있다는 자부심으로 차 문화의 올바른 정립과 보급은 물론 다양한 프로그램 개발·제공을 통해 한국 차의 미래를 여는 박물관, 다시 찾고 싶은 박물관이 되도록 노력하고 있다.",
+      "best_span_id": "chroma:M0295",
+      "best_span_text": "한국차박물관은 세계 녹차의 중심을 꿈꾸는 차의 주산지, 보성에 위치해 있으며 지하 1층, 지상 5층 규모로 수장고와 전시실 등을 갖췄다. 1층 차문화관, 2층 차역사관, 3층 차생활관을 테마로 보고 배우고, 체험할 수 있는 문화 공간과 다례등 각종 체험프로그램을 운영하고 있다. 한국 차 문화를 선도하고 있다는 자부심으로 차 문화의 올바른 정립과 보급은 물론 다양한 프로그램 개발·제공을 통해 한국 차의 미래를 여는 박물관, 다시 찾고 싶은 박물관이 되도록 노력하고 있다.",
+      "fusion_score": 0.031754032258064516,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 2,
+      "rerank_score": 0.49128419160842896,
+      "rank": 2,
+      "score": 0.49128419160842896,
+      "score_type": "cross_encoder",
+      "distance": 0.4167436957359314,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0295",
+      "source_doc_ids": [
+        "DOC-B0295-TOUR_API-2470539"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0295-TOUR_API-2470539",
+          "source_type": "TOUR_API",
+          "source_record_id": "2470539",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=145",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 76,
+          "doc_ids": [
+            "DOC-B0295-TOUR_API-2470539"
+          ]
+        },
+        {
+          "start": 77,
+          "end": 155,
+          "doc_ids": [
+            "DOC-B0295-TOUR_API-2470539"
+          ]
+        },
+        {
+          "start": 156,
+          "end": 264,
+          "doc_ids": [
+            "DOC-B0295-TOUR_API-2470539"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=145",
+      "text": "한국차박물관은 세계 녹차의 중심을 꿈꾸는 차의 주산지, 보성에 위치해 있으며 지하 1층, 지상 5층 규모로 수장고와 전시실 등을 갖췄다. 1층 차문화관, 2층 차역사관, 3층 차생활관을 테마로 보고 배우고, 체험할 수 있는 문화 공간과 다례등 각종 체험프로그램을 운영하고 있다. 한국 차 문화를 선도하고 있다는 자부심으로 차 문화의 올바른 정립과 보급은 물론 다양한 프로그램 개발·제공을 통해 한국 차의 미래를 여는 박물관, 다시 찾고 싶은 박물관이 되도록 노력하고 있다.",
+      "sido": "전남광주특별자치도",
+      "sigungu": "보성군",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=145"
+      ],
+      "evidence_id": "E2",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=209",
+        "fields": {
+          "name": "한국차박물관",
+          "sido": "전남광주통합특별시",
+          "sigungu": "보성군",
+          "address": "전남광주통합특별시 보성군 보성읍 녹차로 775",
+          "ownership_type": "공립",
+          "adult_fee": "1000",
+          "youth_fee": "700",
+          "child_fee": "500",
+          "adult_fee_status": "BASE_FEE_PAID",
+          "weekday_open": "10:00",
+          "weekday_close": "17:00",
+          "holiday_open": "10:00",
+          "holiday_close": "17:00",
+          "closure_rule_raw": "월"
+        },
+        "base_data_date": "2026-07-29",
+        "trust": "derived_dataset_not_human_verified",
+        "normalizations": {
+          "sido": {
+            "source_value": "전남광주통합특별시",
+            "matched_value": "전남광주특별자치도",
+            "rule": "configured_sido_alias"
+          }
+        }
+      }
+    },
+    {
+      "museum_id": "M0215",
+      "name": "호안다구박물관",
+      "document": "호안다구박물관은 차와 관련된 다구[茶具] 전문 박물관이다. 우리나라와 중국 등 동양의 다양한 차 문화 및 역사를 볼 수 있는 찻잔, 차통, 차호, 주전자, 수구, 다반, 향로, 화로 등 다구 500여 점이 전시되어 있으며 다례, 차 고전, 다화, 아동 다례, 통과의례를 주제로 체험 교실을 운영하고 있다. 체험 교실에서는 전통 예절과 다례를 배우고, 직접 차를 내리고 마시면서 차를 체험할 수 있다. 영월 호안다구박물관은 자연경관이 수려한 지역에 있으며 특히 맑게 흐르는 내리천은 차의 근본이 물맛이라는 것을 알게 해준다. 박물관은 어린이부터 성인까지 누구나 이용할 수 있다. 특히 차[茶]를 공부하는 학생 그리고 도자기에 관심이 많은 이들에게는 고 미술품의 감상, 연구 및 차의 역사와 문화에 대한 토론을 나눌 수 있는 장소가 마련되어 있어 차에 대한 궁금증을 해소할 수 있다. 어린이부터 성인까지 차와 관련된 작품의 감상과 다도 및 제다실습을 자연과 함께 체험할 수 있는 곳으로 최적의 요건을 갖추고 있습니다.",
+      "metadata": {
+        "holiday_close": "18:00",
+        "weekday_open": "09:00",
+        "source_types": "BASE|TOUR_API",
+        "sigungu": "영월군",
+        "image_copyright": "Type1",
+        "latitude": 37.10579141,
+        "fee_notes": "50프로 할인(영월군민+65세 이상)+ 단체요금: 20인 이상+무료(2급 이상 장애인 및 5세 이하)",
+        "address": "강원특별자치도 영월군 김삿갓면 내리계곡로 1088",
+        "sido": "강원특별자치도",
+        "youth_fee": 4000.0,
+        "holiday_open": "09:00",
+        "name": "호안다구박물관",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/60/4142660_image2_1.jpg",
+        "ownership_type": "사립",
+        "closure_rule_raw": "월",
+        "homepage_url": "http://www.ywmuseum.com",
+        "requires_manual_review": true,
+        "adult_fee_status": "BASE_FEE_PAID",
+        "longitude": 128.677057,
+        "child_fee": 3000.0,
+        "weekday_close": "18:00",
+        "adult_fee": 5000.0
+      },
+      "vector_rank": 5,
+      "bm25_rank": 3,
+      "vector_distance": 0.4862104058265686,
+      "vector_score": null,
+      "bm25_score": 20.90948006618732,
+      "vector_document": "호안다구박물관은 차와 관련된 다구[茶具] 전문 박물관이다. 우리나라와 중국 등 동양의 다양한 차 문화 및 역사를 볼 수 있는 찻잔, 차통, 차호, 주전자, 수구, 다반, 향로, 화로 등 다구 500여 점이 전시되어 있으며 다례, 차 고전, 다화, 아동 다례, 통과의례를 주제로 체험 교실을 운영하고 있다. 체험 교실에서는 전통 예절과 다례를 배우고, 직접 차를 내리고 마시면서 차를 체험할 수 있다. 영월 호안다구박물관은 자연경관이 수려한 지역에 있으며 특히 맑게 흐르는 내리천은 차의 근본이 물맛이라는 것을 알게 해준다. 박물관은 어린이부터 성인까지 누구나 이용할 수 있다. 특히 차[茶]를 공부하는 학생 그리고 도자기에 관심이 많은 이들에게는 고 미술품의 감상, 연구 및 차의 역사와 문화에 대한 토론을 나눌 수 있는 장소가 마련되어 있어 차에 대한 궁금증을 해소할 수 있다. 어린이부터 성인까지 차와 관련된 작품의 감상과 다도 및 제다실습을 자연과 함께 체험할 수 있는 곳으로 최적의 요건을 갖추고 있습니다.",
+      "bm25_document": "호안다구박물관은 차와 관련된 다구[茶具] 전문 박물관이다. 우리나라와 중국 등 동양의 다양한 차 문화 및 역사를 볼 수 있는 찻잔, 차통, 차호, 주전자, 수구, 다반, 향로, 화로 등 다구 500여 점이 전시되어 있으며 다례, 차 고전, 다화, 아동 다례, 통과의례를 주제로 체험 교실을 운영하고 있다. 체험 교실에서는 전통 예절과 다례를 배우고, 직접 차를 내리고 마시면서 차를 체험할 수 있다. 영월 호안다구박물관은 자연경관이 수려한 지역에 있으며 특히 맑게 흐르는 내리천은 차의 근본이 물맛이라는 것을 알게 해준다. 박물관은 어린이부터 성인까지 누구나 이용할 수 있다. 특히 차[茶]를 공부하는 학생 그리고 도자기에 관심이 많은 이들에게는 고 미술품의 감상, 연구 및 차의 역사와 문화에 대한 토론을 나눌 수 있는 장소가 마련되어 있어 차에 대한 궁금증을 해소할 수 있다. 어린이부터 성인까지 차와 관련된 작품의 감상과 다도 및 제다실습을 자연과 함께 체험할 수 있는 곳으로 최적의 요건을 갖추고 있습니다.",
+      "best_span_id": "chroma:M0215",
+      "best_span_text": "호안다구박물관은 차와 관련된 다구[茶具] 전문 박물관이다. 우리나라와 중국 등 동양의 다양한 차 문화 및 역사를 볼 수 있는 찻잔, 차통, 차호, 주전자, 수구, 다반, 향로, 화로 등 다구 500여 점이 전시되어 있으며 다례, 차 고전, 다화, 아동 다례, 통과의례를 주제로 체험 교실을 운영하고 있다. 체험 교실에서는 전통 예절과 다례를 배우고, 직접 차를 내리고 마시면서 차를 체험할 수 있다. 영월 호안다구박물관은 자연경관이 수려한 지역에 있으며 특히 맑게 흐르는 내리천은 차의 근본이 물맛이라는 것을 알게 해준다. 박물관은 어린이부터 성인까지 누구나 이용할 수 있다. 특히 차[茶]를 공부하는 학생 그리고 도자기에 관심이 많은 이들에게는 고 미술품의 감상, 연구 및 차의 역사와 문화에 대한 토론을 나눌 수 있는 장소가 마련되어 있어 차에 대한 궁금증을 해소할 수 있다. 어린이부터 성인까지 차와 관련된 작품의 감상과 다도 및 제다실습을 자연과 함께 체험할 수 있는 곳으로 최적의 요건을 갖추고 있습니다.",
+      "fusion_score": 0.03125763125763126,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 3,
+      "rerank_score": 0.10193216055631638,
+      "rank": 3,
+      "score": 0.10193216055631638,
+      "score_type": "cross_encoder",
+      "distance": 0.4862104058265686,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0215",
+      "source_doc_ids": [
+        "DOC-B0215-TOUR_API-1959509",
+        "DOC-B0215-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0215-TOUR_API-1959509",
+          "source_type": "TOUR_API",
+          "source_record_id": "1959509",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=106",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        },
+        {
+          "doc_id": "DOC-B0215-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0215",
+          "source_locator": "data/raw/museum_base_1070.csv#row=216",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 32,
+          "doc_ids": [
+            "DOC-B0215-TOUR_API-1959509"
+          ]
+        },
+        {
+          "start": 33,
+          "end": 170,
+          "doc_ids": [
+            "DOC-B0215-TOUR_API-1959509"
+          ]
+        },
+        {
+          "start": 171,
+          "end": 223,
+          "doc_ids": [
+            "DOC-B0215-TOUR_API-1959509"
+          ]
+        },
+        {
+          "start": 224,
+          "end": 292,
+          "doc_ids": [
+            "DOC-B0215-TOUR_API-1959509"
+          ]
+        },
+        {
+          "start": 293,
+          "end": 322,
+          "doc_ids": [
+            "DOC-B0215-TOUR_API-1959509"
+          ]
+        },
+        {
+          "start": 323,
+          "end": 436,
+          "doc_ids": [
+            "DOC-B0215-TOUR_API-1959509"
+          ]
+        },
+        {
+          "start": 437,
+          "end": 511,
+          "doc_ids": [
+            "DOC-B0215-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=106",
+      "text": "호안다구박물관은 차와 관련된 다구[茶具] 전문 박물관이다. 우리나라와 중국 등 동양의 다양한 차 문화 및 역사를 볼 수 있는 찻잔, 차통, 차호, 주전자, 수구, 다반, 향로, 화로 등 다구 500여 점이 전시되어 있으며 다례, 차 고전, 다화, 아동 다례, 통과의례를 주제로 체험 교실을 운영하고 있다. 체험 교실에서는 전통 예절과 다례를 배우고, 직접 차를 내리고 마시면서 차를 체험할 수 있다. 영월 호안다구박물관은 자연경관이 수려한 지역에 있으며 특히 맑게 흐르는 내리천은 차의 근본이 물맛이라는 것을 알게 해준다. 박물관은 어린이부터 성인까지 누구나 이용할 수 있다. 특히 차[茶]를 공부하는 학생 그리고 도자기에 관심이 많은 이들에게는 고 미술품의 감상, 연구 및 차의 역사와 문화에 대한 토론을 나눌 수 있는 장소가 마련되어 있어 차에 대한 궁금증을 해소할 수 있다. 어린이부터 성인까지 차와 관련된 작품의 감상과 다도 및 제다실습을 자연과 함께 체험할 수 있는 곳으로 최적의 요건을 갖추고 있습니다.",
+      "sido": "강원특별자치도",
+      "sigungu": "영월군",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=106"
+      ],
+      "evidence_id": "E3",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=144",
+        "fields": {
+          "name": "호안다구박물관",
+          "sido": "강원특별자치도",
+          "sigungu": "영월군",
+          "address": "강원특별자치도 영월군 김삿갓면 내리계곡로 1088",
+          "ownership_type": "사립",
+          "adult_fee": "5000",
+          "youth_fee": "4000",
+          "child_fee": "3000",
+          "adult_fee_status": "BASE_FEE_PAID",
+          "weekday_open": "09:00",
+          "weekday_close": "18:00",
+          "holiday_open": "09:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "월"
+        },
+        "base_data_date": "2026-09-03",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0127",
+      "name": "명원박물관",
+      "document": "명원박물관은 성곡도서관 5층에 있던 국민대학교 박물관과 우리나라 차 문화 보급에 힘써 온 명원민속관을 통합하여 2022년 개관한 박물관이다. 이름인 명원은 ‘차의 향기를 머금은 아름다운 뜰’을 의미한다. 전시동과 교육동, 명원다헌으로 구성되어 있다. 성곡헌(전시동)에는 상설전시실, 한옥강의실, 한옥전시실로 이루어져 있고, 해옹헌(교육동)에는 기획전시실, 명원강의실이 마련되어 있다. 명헌다헌은 이전 설치한 한규설 고택을 의미하며 을사늑약에 반대한 참정대신 한규설의 옛집으로 1977년 서울시 민속문화유산으로 지정된 것을 국민대학교의 중흥을 이끈 성곡 김성곤 선생의 부인 명원 김미희 여사가 기증받아 1980년 현재의 자리로 옮겨왔다. 고택은 차문화 교육과 전통문화 공연장으로 활용된다. 만나다, 만들다, 거닐다, 배우다, 그리다 등 의미를 담아 다섯 개의 공간으로 구성하여 차 문화와 역사, 민족의 역사를 문화를 조명하는 미술 소장품들과 전통 다구류 및 울산 반구대(6m)와 천전리 암각화(10m) 전체 탁본 등 고고학 자료, 조선시대 서지류 등 520여건을 전시한다. 교육 프로그램으로는 한국의 문화에 대한 이론과 실습수업을 받을 수 있는 다례와 전통가옥, 전통복식, 전통배례 등을 체험할 수 있는 한국 문화 체험교육이 있다. 이 밖에도 햇차다회, 전통국악공연 등의 문화행사를 즐길 수 있다.",
+      "metadata": {
+        "amenities_raw": "화장실",
+        "image_copyright": "Type3",
+        "name": "명원박물관",
+        "fee_notes": "무료",
+        "sido": "서울특별시",
+        "weekday_close": "16:00",
+        "latitude": 37.61113362405416,
+        "holiday_close": "16:00",
+        "child_fee": 0.0,
+        "transport_notes": "북한산보국문역+지하철 길음역",
+        "youth_fee": 0.0,
+        "adult_fee": 0.0,
+        "ownership_type": "사립",
+        "homepage_url": "https://museum.kookmin.ac.kr",
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "weekday_open": "10:00",
+        "source_types": "TOUR_API",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/82/3084482_image2_1.JPG",
+        "holiday_open": "10:00",
+        "sigungu": "성북구",
+        "closure_rule_raw": "매주 토+일",
+        "address": "서울특별시 성북구 정릉로9길 68",
+        "longitude": 126.99997870811453,
+        "requires_manual_review": true
+      },
+      "vector_rank": 4,
+      "bm25_rank": 5,
+      "vector_distance": 0.4815104603767395,
+      "vector_score": null,
+      "bm25_score": 19.622675104861226,
+      "vector_document": "명원박물관은 성곡도서관 5층에 있던 국민대학교 박물관과 우리나라 차 문화 보급에 힘써 온 명원민속관을 통합하여 2022년 개관한 박물관이다. 이름인 명원은 ‘차의 향기를 머금은 아름다운 뜰’을 의미한다. 전시동과 교육동, 명원다헌으로 구성되어 있다. 성곡헌(전시동)에는 상설전시실, 한옥강의실, 한옥전시실로 이루어져 있고, 해옹헌(교육동)에는 기획전시실, 명원강의실이 마련되어 있다. 명헌다헌은 이전 설치한 한규설 고택을 의미하며 을사늑약에 반대한 참정대신 한규설의 옛집으로 1977년 서울시 민속문화유산으로 지정된 것을 국민대학교의 중흥을 이끈 성곡 김성곤 선생의 부인 명원 김미희 여사가 기증받아 1980년 현재의 자리로 옮겨왔다. 고택은 차문화 교육과 전통문화 공연장으로 활용된다. 만나다, 만들다, 거닐다, 배우다, 그리다 등 의미를 담아 다섯 개의 공간으로 구성하여 차 문화와 역사, 민족의 역사를 문화를 조명하는 미술 소장품들과 전통 다구류 및 울산 반구대(6m)와 천전리 암각화(10m) 전체 탁본 등 고고학 자료, 조선시대 서지류 등 520여건을 전시한다. 교육 프로그램으로는 한국의 문화에 대한 이론과 실습수업을 받을 수 있는 다례와 전통가옥, 전통복식, 전통배례 등을 체험할 수 있는 한국 문화 체험교육이 있다. 이 밖에도 햇차다회, 전통국악공연 등의 문화행사를 즐길 수 있다.",
+      "bm25_document": "명원박물관은 성곡도서관 5층에 있던 국민대학교 박물관과 우리나라 차 문화 보급에 힘써 온 명원민속관을 통합하여 2022년 개관한 박물관이다. 이름인 명원은 ‘차의 향기를 머금은 아름다운 뜰’을 의미한다. 전시동과 교육동, 명원다헌으로 구성되어 있다. 성곡헌(전시동)에는 상설전시실, 한옥강의실, 한옥전시실로 이루어져 있고, 해옹헌(교육동)에는 기획전시실, 명원강의실이 마련되어 있다. 명헌다헌은 이전 설치한 한규설 고택을 의미하며 을사늑약에 반대한 참정대신 한규설의 옛집으로 1977년 서울시 민속문화유산으로 지정된 것을 국민대학교의 중흥을 이끈 성곡 김성곤 선생의 부인 명원 김미희 여사가 기증받아 1980년 현재의 자리로 옮겨왔다. 고택은 차문화 교육과 전통문화 공연장으로 활용된다. 만나다, 만들다, 거닐다, 배우다, 그리다 등 의미를 담아 다섯 개의 공간으로 구성하여 차 문화와 역사, 민족의 역사를 문화를 조명하는 미술 소장품들과 전통 다구류 및 울산 반구대(6m)와 천전리 암각화(10m) 전체 탁본 등 고고학 자료, 조선시대 서지류 등 520여건을 전시한다. 교육 프로그램으로는 한국의 문화에 대한 이론과 실습수업을 받을 수 있는 다례와 전통가옥, 전통복식, 전통배례 등을 체험할 수 있는 한국 문화 체험교육이 있다. 이 밖에도 햇차다회, 전통국악공연 등의 문화행사를 즐길 수 있다.",
+      "best_span_id": "chroma:M0127",
+      "best_span_text": "명원박물관은 성곡도서관 5층에 있던 국민대학교 박물관과 우리나라 차 문화 보급에 힘써 온 명원민속관을 통합하여 2022년 개관한 박물관이다. 이름인 명원은 ‘차의 향기를 머금은 아름다운 뜰’을 의미한다. 전시동과 교육동, 명원다헌으로 구성되어 있다. 성곡헌(전시동)에는 상설전시실, 한옥강의실, 한옥전시실로 이루어져 있고, 해옹헌(교육동)에는 기획전시실, 명원강의실이 마련되어 있다. 명헌다헌은 이전 설치한 한규설 고택을 의미하며 을사늑약에 반대한 참정대신 한규설의 옛집으로 1977년 서울시 민속문화유산으로 지정된 것을 국민대학교의 중흥을 이끈 성곡 김성곤 선생의 부인 명원 김미희 여사가 기증받아 1980년 현재의 자리로 옮겨왔다. 고택은 차문화 교육과 전통문화 공연장으로 활용된다. 만나다, 만들다, 거닐다, 배우다, 그리다 등 의미를 담아 다섯 개의 공간으로 구성하여 차 문화와 역사, 민족의 역사를 문화를 조명하는 미술 소장품들과 전통 다구류 및 울산 반구대(6m)와 천전리 암각화(10m) 전체 탁본 등 고고학 자료, 조선시대 서지류 등 520여건을 전시한다. 교육 프로그램으로는 한국의 문화에 대한 이론과 실습수업을 받을 수 있는 다례와 전통가옥, 전통복식, 전통배례 등을 체험할 수 있는 한국 문화 체험교육이 있다. 이 밖에도 햇차다회, 전통국악공연 등의 문화행사를 즐길 수 있다.",
+      "fusion_score": 0.031009615384615385,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 5,
+      "rerank_score": 0.044225163757801056,
+      "rank": 4,
+      "score": 0.044225163757801056,
+      "score_type": "cross_encoder",
+      "distance": 0.4815104603767395,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0127",
+      "source_doc_ids": [
+        "DOC-B0127-TOUR_API-3085031"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0127-TOUR_API-3085031",
+          "source_type": "TOUR_API",
+          "source_record_id": "3085031",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=63",
+          "match_trust": "RECHECKED_BY_RULE_NOT_HUMAN_APPROVED"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 78,
+          "doc_ids": [
+            "DOC-B0127-TOUR_API-3085031"
+          ]
+        },
+        {
+          "start": 79,
+          "end": 113,
+          "doc_ids": [
+            "DOC-B0127-TOUR_API-3085031"
+          ]
+        },
+        {
+          "start": 114,
+          "end": 139,
+          "doc_ids": [
+            "DOC-B0127-TOUR_API-3085031"
+          ]
+        },
+        {
+          "start": 140,
+          "end": 214,
+          "doc_ids": [
+            "DOC-B0127-TOUR_API-3085031"
+          ]
+        },
+        {
+          "start": 215,
+          "end": 355,
+          "doc_ids": [
+            "DOC-B0127-TOUR_API-3085031"
+          ]
+        },
+        {
+          "start": 356,
+          "end": 384,
+          "doc_ids": [
+            "DOC-B0127-TOUR_API-3085031"
+          ]
+        },
+        {
+          "start": 385,
+          "end": 543,
+          "doc_ids": [
+            "DOC-B0127-TOUR_API-3085031"
+          ]
+        },
+        {
+          "start": 544,
+          "end": 632,
+          "doc_ids": [
+            "DOC-B0127-TOUR_API-3085031"
+          ]
+        },
+        {
+          "start": 633,
+          "end": 669,
+          "doc_ids": [
+            "DOC-B0127-TOUR_API-3085031"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=63",
+      "text": "명원박물관은 성곡도서관 5층에 있던 국민대학교 박물관과 우리나라 차 문화 보급에 힘써 온 명원민속관을 통합하여 2022년 개관한 박물관이다. 이름인 명원은 ‘차의 향기를 머금은 아름다운 뜰’을 의미한다. 전시동과 교육동, 명원다헌으로 구성되어 있다. 성곡헌(전시동)에는 상설전시실, 한옥강의실, 한옥전시실로 이루어져 있고, 해옹헌(교육동)에는 기획전시실, 명원강의실이 마련되어 있다. 명헌다헌은 이전 설치한 한규설 고택을 의미하며 을사늑약에 반대한 참정대신 한규설의 옛집으로 1977년 서울시 민속문화유산으로 지정된 것을 국민대학교의 중흥을 이끈 성곡 김성곤 선생의 부인 명원 김미희 여사가 기증받아 1980년 현재의 자리로 옮겨왔다. 고택은 차문화 교육과 전통문화 공연장으로 활용된다. 만나다, 만들다, 거닐다, 배우다, 그리다 등 의미를 담아 다섯 개의 공간으로 구성하여 차 문화와 역사, 민족의 역사를 문화를 조명하는 미술 소장품들과 전통 다구류 및 울산 반구대(6m)와 천전리 암각화(10m) 전체 탁본 등 고고학 자료, 조선시대 서지류 등 520여건을 전시한다. 교육 프로그램으로는 한국의 문화에 대한 이론과 실습수업을 받을 수 있는 다례와 전통가옥, 전통복식, 전통배례 등을 체험할 수 있는 한국 문화 체험교육이 있다. 이 밖에도 햇차다회, 전통국악공연 등의 문화행사를 즐길 수 있다.",
+      "sido": "서울특별시",
+      "sigungu": "성북구",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=63"
+      ],
+      "evidence_id": "E4",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=82",
+        "fields": {
+          "name": "명원박물관",
+          "sido": "서울특별시",
+          "sigungu": "성북구",
+          "address": "서울특별시 성북구 정릉로9길 68",
+          "ownership_type": "사립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "10:00",
+          "weekday_close": "16:00",
+          "holiday_open": "10:00",
+          "holiday_close": "16:00",
+          "closure_rule_raw": "매주 토+일",
+          "amenities_raw": "화장실"
+        },
+        "base_data_date": "2026-10-16",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0998",
+      "name": "다도박물관",
+      "document": "김포다도박물관은 한국 차[茶] 문화역사를 재조명할 수 있도록 개관한 전통 다도 전문 사립 박물관이다. 1만여 평 부지 위에 조각공원, 팔도장독 전시, 갤러리 등의 부대시설을 갖추고 있다. 박물관 뒤로는 울창한 숲이 병풍처럼 둘러싸여 있어 마치 한 폭의 그림과 같은 느낌이다. 살아 숨 쉬는 예절과 차[茶] 문화역사의 현장을 재현하고 일반인들의 문화적 욕구를 충족시킬 수 있도록 연 2~3회 정도의 다양한 특별전을 기획, 전시하는 등 다양한 문화행사와 공연을 개최하여 문화적 욕구를 충족시킬 수 있는 복합 문화 예술 공간이다. 어린이, 청소년, 일반 시민, 외국인들이 인성교육에 도움이 될 수 있는 다도와 전통 예절 체험 등을 교육 받을 수 있으며 자연을 벗 삼아 휴식을 취할 수 있는 정자, 생태 연못, 잔디정원을 조성하였으며, 민속놀이(투호례, 제기차기, 윷놀이 등)도 체험할 수 있다. 한국 차문화역사를 재조명 할 수 있도록 2001년 5월 개관한 국내 유일의 전통 다도 전문 사립박물관",
+      "metadata": {
+        "transport_notes": "대중교통 이용시 : 강화도행(48번국도) 88, 96, 3000 버스(군하리 하차) > 택시 탑승 & 이동 약 5분 + 자가용 이용시 : 48번국도 강화도 방면 > 청소년수련관 : 김포조각공원과 애기봉 삼거리에서 애기봉방향으로 약 5분",
+        "ownership_type": "사립",
+        "closure_rule_raw": "매주 월요일",
+        "adult_fee": 5000.0,
+        "name": "다도박물관",
+        "adult_fee_status": "BASE_FEE_PAID",
+        "homepage_url": "http://www.gimpoteamuseum.org",
+        "longitude": 126.574432,
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/67/3335767_image2_1.jpg",
+        "weekday_close": "18:00",
+        "requires_manual_review": true,
+        "child_fee": 2000.0,
+        "latitude": 37.7375188,
+        "fee_notes": "성인 : 5000원 / 단체(20명이상) 관람시 인당 4000원) +청소년(초/중/고등) : 3000원 + 유아(3세~7세) : 2000원",
+        "address": "경기도 김포시 월곶면 애기봉로275번길 187-49",
+        "sigungu": "김포시",
+        "holiday_open": "10:00",
+        "source_types": "BASE|TOUR_API",
+        "weekday_open": "10:00",
+        "sido": "경기도",
+        "image_copyright": "Type3",
+        "youth_fee": 3000.0,
+        "holiday_close": "18:00"
+      },
+      "vector_rank": 3,
+      "bm25_rank": 6,
+      "vector_distance": 0.46506524085998535,
+      "vector_score": null,
+      "bm25_score": 18.05323993121008,
+      "vector_document": "김포다도박물관은 한국 차[茶] 문화역사를 재조명할 수 있도록 개관한 전통 다도 전문 사립 박물관이다. 1만여 평 부지 위에 조각공원, 팔도장독 전시, 갤러리 등의 부대시설을 갖추고 있다. 박물관 뒤로는 울창한 숲이 병풍처럼 둘러싸여 있어 마치 한 폭의 그림과 같은 느낌이다. 살아 숨 쉬는 예절과 차[茶] 문화역사의 현장을 재현하고 일반인들의 문화적 욕구를 충족시킬 수 있도록 연 2~3회 정도의 다양한 특별전을 기획, 전시하는 등 다양한 문화행사와 공연을 개최하여 문화적 욕구를 충족시킬 수 있는 복합 문화 예술 공간이다. 어린이, 청소년, 일반 시민, 외국인들이 인성교육에 도움이 될 수 있는 다도와 전통 예절 체험 등을 교육 받을 수 있으며 자연을 벗 삼아 휴식을 취할 수 있는 정자, 생태 연못, 잔디정원을 조성하였으며, 민속놀이(투호례, 제기차기, 윷놀이 등)도 체험할 수 있다. 한국 차문화역사를 재조명 할 수 있도록 2001년 5월 개관한 국내 유일의 전통 다도 전문 사립박물관",
+      "bm25_document": "김포다도박물관은 한국 차[茶] 문화역사를 재조명할 수 있도록 개관한 전통 다도 전문 사립 박물관이다. 1만여 평 부지 위에 조각공원, 팔도장독 전시, 갤러리 등의 부대시설을 갖추고 있다. 박물관 뒤로는 울창한 숲이 병풍처럼 둘러싸여 있어 마치 한 폭의 그림과 같은 느낌이다. 살아 숨 쉬는 예절과 차[茶] 문화역사의 현장을 재현하고 일반인들의 문화적 욕구를 충족시킬 수 있도록 연 2~3회 정도의 다양한 특별전을 기획, 전시하는 등 다양한 문화행사와 공연을 개최하여 문화적 욕구를 충족시킬 수 있는 복합 문화 예술 공간이다. 어린이, 청소년, 일반 시민, 외국인들이 인성교육에 도움이 될 수 있는 다도와 전통 예절 체험 등을 교육 받을 수 있으며 자연을 벗 삼아 휴식을 취할 수 있는 정자, 생태 연못, 잔디정원을 조성하였으며, 민속놀이(투호례, 제기차기, 윷놀이 등)도 체험할 수 있다. 한국 차문화역사를 재조명 할 수 있도록 2001년 5월 개관한 국내 유일의 전통 다도 전문 사립박물관",
+      "best_span_id": "chroma:M0998",
+      "best_span_text": "김포다도박물관은 한국 차[茶] 문화역사를 재조명할 수 있도록 개관한 전통 다도 전문 사립 박물관이다. 1만여 평 부지 위에 조각공원, 팔도장독 전시, 갤러리 등의 부대시설을 갖추고 있다. 박물관 뒤로는 울창한 숲이 병풍처럼 둘러싸여 있어 마치 한 폭의 그림과 같은 느낌이다. 살아 숨 쉬는 예절과 차[茶] 문화역사의 현장을 재현하고 일반인들의 문화적 욕구를 충족시킬 수 있도록 연 2~3회 정도의 다양한 특별전을 기획, 전시하는 등 다양한 문화행사와 공연을 개최하여 문화적 욕구를 충족시킬 수 있는 복합 문화 예술 공간이다. 어린이, 청소년, 일반 시민, 외국인들이 인성교육에 도움이 될 수 있는 다도와 전통 예절 체험 등을 교육 받을 수 있으며 자연을 벗 삼아 휴식을 취할 수 있는 정자, 생태 연못, 잔디정원을 조성하였으며, 민속놀이(투호례, 제기차기, 윷놀이 등)도 체험할 수 있다. 한국 차문화역사를 재조명 할 수 있도록 2001년 5월 개관한 국내 유일의 전통 다도 전문 사립박물관",
+      "fusion_score": 0.031024531024531024,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 4,
+      "rerank_score": 0.024666134268045425,
+      "rank": 5,
+      "score": 0.024666134268045425,
+      "score_type": "cross_encoder",
+      "distance": 0.46506524085998535,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0998",
+      "source_doc_ids": [
+        "DOC-B0998-TOUR_API-130655",
+        "DOC-B0998-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0998-TOUR_API-130655",
+          "source_type": "TOUR_API",
+          "source_record_id": "130655",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=465",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        },
+        {
+          "doc_id": "DOC-B0998-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0998",
+          "source_locator": "data/raw/museum_base_1070.csv#row=999",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 56,
+          "doc_ids": [
+            "DOC-B0998-TOUR_API-130655"
+          ]
+        },
+        {
+          "start": 57,
+          "end": 104,
+          "doc_ids": [
+            "DOC-B0998-TOUR_API-130655"
+          ]
+        },
+        {
+          "start": 105,
+          "end": 153,
+          "doc_ids": [
+            "DOC-B0998-TOUR_API-130655"
+          ]
+        },
+        {
+          "start": 154,
+          "end": 293,
+          "doc_ids": [
+            "DOC-B0998-TOUR_API-130655"
+          ]
+        },
+        {
+          "start": 294,
+          "end": 441,
+          "doc_ids": [
+            "DOC-B0998-TOUR_API-130655"
+          ]
+        },
+        {
+          "start": 442,
+          "end": 498,
+          "doc_ids": [
+            "DOC-B0998-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=465",
+      "text": "김포다도박물관은 한국 차[茶] 문화역사를 재조명할 수 있도록 개관한 전통 다도 전문 사립 박물관이다. 1만여 평 부지 위에 조각공원, 팔도장독 전시, 갤러리 등의 부대시설을 갖추고 있다. 박물관 뒤로는 울창한 숲이 병풍처럼 둘러싸여 있어 마치 한 폭의 그림과 같은 느낌이다. 살아 숨 쉬는 예절과 차[茶] 문화역사의 현장을 재현하고 일반인들의 문화적 욕구를 충족시킬 수 있도록 연 2~3회 정도의 다양한 특별전을 기획, 전시하는 등 다양한 문화행사와 공연을 개최하여 문화적 욕구를 충족시킬 수 있는 복합 문화 예술 공간이다. 어린이, 청소년, 일반 시민, 외국인들이 인성교육에 도움이 될 수 있는 다도와 전통 예절 체험 등을 교육 받을 수 있으며 자연을 벗 삼아 휴식을 취할 수 있는 정자, 생태 연못, 잔디정원을 조성하였으며, 민속놀이(투호례, 제기차기, 윷놀이 등)도 체험할 수 있다. 한국 차문화역사를 재조명 할 수 있도록 2001년 5월 개관한 국내 유일의 전통 다도 전문 사립박물관",
+      "sido": "경기도",
+      "sigungu": "김포시",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=465"
+      ],
+      "evidence_id": "E5",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=681",
+        "fields": {
+          "name": "다도박물관",
+          "sido": "경기도",
+          "sigungu": "김포시",
+          "address": "경기도 김포시 월곶면 애기봉로275번길 187-49",
+          "ownership_type": "사립",
+          "adult_fee": "5000",
+          "youth_fee": "3000",
+          "child_fee": "2000",
+          "adult_fee_status": "BASE_FEE_PAID",
+          "weekday_open": "10:00",
+          "weekday_close": "18:00",
+          "holiday_open": "10:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "매주 월요일"
+        },
+        "base_data_date": "2025-11-17",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    }
+  ],
+  "answer": "한국, 중국, 일본의 차 도구를 상설 전시합니다. [E1]",
+  "retrieval_status": "ok",
+  "answer_status": "answered",
+  "route": "hybrid",
+  "retry_count": 0,
+  "supervisor_verified": true,
+  "rerank_applied": true,
+  "retriever_errors": [],
+  "warnings": [],
+  "duration_ms": 132554.09,
+  "error_type": "",
+  "hit_at_1": 1,
+  "hit_at_3": 1,
+  "hit_at_5": 1,
+  "recall_at_5": 1.0,
+  "mrr_at_10": 1.0
+}

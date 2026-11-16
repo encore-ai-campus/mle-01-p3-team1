@@ -1,0 +1,648 @@
+{
+  "mode": "supervisor_full",
+  "question_id": "Q175",
+  "evidence": [
+    {
+      "museum_id": "M0290",
+      "name": "사립아인미술관",
+      "document": "사립아인미술관은 개인작가 초대전을 비롯한 개인전, 단체전 등 여러 작가들의 작품을 일정기간 동안 전시하고 있으며, 다양한 주제를 통해 전시회 진행하고 있어 미술작품을 쉽게 접할 수 있는 기회를 제공하고 있다.",
+      "metadata": {
+        "address": "전남광주통합특별시 장성군 장성읍 미락단지길 8",
+        "youth_fee": 0.0,
+        "longitude": 126.817249,
+        "requires_manual_review": false,
+        "adult_fee": 0.0,
+        "latitude": 35.344232,
+        "transport_notes": "농어촌 버스 10 : 장성터미널 탑승 →황룡교정류장 하차",
+        "homepage_url": "https://blog.naver.com/ainmuseum",
+        "amenities_raw": "카페+주차장+화장실",
+        "sigungu": "장성군",
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "holiday_open": "11:00",
+        "weekday_open": "11:00",
+        "child_fee": 0.0,
+        "weekday_close": "20:00",
+        "closure_rule_raw": "연중무휴",
+        "ownership_type": "사립",
+        "holiday_close": "20:00",
+        "source_types": "BASE",
+        "sido": "전남광주특별자치도",
+        "name": "사립아인미술관"
+      },
+      "vector_rank": 1,
+      "bm25_rank": 1,
+      "vector_distance": 0.3077492117881775,
+      "vector_score": null,
+      "bm25_score": 19.649040102821285,
+      "vector_document": "사립아인미술관은 개인작가 초대전을 비롯한 개인전, 단체전 등 여러 작가들의 작품을 일정기간 동안 전시하고 있으며, 다양한 주제를 통해 전시회 진행하고 있어 미술작품을 쉽게 접할 수 있는 기회를 제공하고 있다.",
+      "bm25_document": "사립아인미술관은 개인작가 초대전을 비롯한 개인전, 단체전 등 여러 작가들의 작품을 일정기간 동안 전시하고 있으며, 다양한 주제를 통해 전시회 진행하고 있어 미술작품을 쉽게 접할 수 있는 기회를 제공하고 있다.",
+      "best_span_id": "chroma:M0290",
+      "best_span_text": "사립아인미술관은 개인작가 초대전을 비롯한 개인전, 단체전 등 여러 작가들의 작품을 일정기간 동안 전시하고 있으며, 다양한 주제를 통해 전시회 진행하고 있어 미술작품을 쉽게 접할 수 있는 기회를 제공하고 있다.",
+      "fusion_score": 0.03278688524590164,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 1,
+      "name_match": true,
+      "rerank_score": null,
+      "rank": 1,
+      "score": 0.03278688524590164,
+      "score_type": "rrf",
+      "distance": 0.3077492117881775,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0290",
+      "source_doc_ids": [
+        "DOC-B0290-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0290-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0290",
+          "source_locator": "data/raw/museum_base_1070.csv#row=291",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 116,
+          "doc_ids": [
+            "DOC-B0290-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_base_1070.csv#row=291",
+      "text": "사립아인미술관은 개인작가 초대전을 비롯한 개인전, 단체전 등 여러 작가들의 작품을 일정기간 동안 전시하고 있으며, 다양한 주제를 통해 전시회 진행하고 있어 미술작품을 쉽게 접할 수 있는 기회를 제공하고 있다.",
+      "sido": "전남광주특별자치도",
+      "sigungu": "장성군",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_base_1070.csv#row=291"
+      ],
+      "evidence_id": "E1",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=204",
+        "fields": {
+          "name": "사립아인미술관",
+          "sido": "전남광주통합특별시",
+          "sigungu": "장성군",
+          "address": "전남광주통합특별시 장성군 장성읍 미락단지길 8",
+          "ownership_type": "사립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "11:00",
+          "weekday_close": "20:00",
+          "holiday_open": "11:00",
+          "holiday_close": "20:00",
+          "closure_rule_raw": "연중무휴",
+          "amenities_raw": "카페+주차장+화장실"
+        },
+        "base_data_date": "2026-08-03",
+        "trust": "derived_dataset_not_human_verified",
+        "normalizations": {
+          "sido": {
+            "source_value": "전남광주통합특별시",
+            "matched_value": "전남광주특별자치도",
+            "rule": "configured_sido_alias"
+          }
+        }
+      }
+    },
+    {
+      "museum_id": "M0210",
+      "name": "인도미술박물관",
+      "document": "인도미술박물관은 1981년부터 인도미술에 매료되어 인도에 살고 여행하며 여러 차례 인도 사회와 인도인의 삶을 주제로 한 개인전을 개최한 박여송 관장과 인도 지역연구를 하는 남편 백좌흠 교수가 그동안 하나씩 모아 온 그림 조각, 공예품 등 다양한 인도 미술품들을 전시하고 있다. 제1전시실은 칼람 카리 페인팅, 두루마리 페인팅, 파타 페인팅, 세밀화 등 회화 작품이 전시되어 있다. 제2전시실은 마두바니와 왈리 페인팅 등 인도의 대표적 민화를 감상할 수 있는 공간이다. 제3전시실은 다양한 가면, 부처상, 힌두 신상, 나가판넬조각, 바스타르 철조각 등 다양한 조각품들을 전시하고 있고 복도에는 인도 여러 지역의 서로 다른 기법의 섬유 작품들과 목조각 등의 공예품들이 전시되어 있다. 다양한 인종과 종교로 이루어진 인도의 각종 미술품들을 전시하고 있습니다.",
+      "metadata": {
+        "sigungu": "영월군",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/20/3379320_image2_1.JPG",
+        "closure_rule_raw": "월",
+        "sido": "강원특별자치도",
+        "homepage_url": "http://www.ywmuseum.com",
+        "holiday_close": "18:00",
+        "source_types": "BASE|TOUR_API",
+        "holiday_open": "09:00",
+        "ownership_type": "사립",
+        "youth_fee": 4000.0,
+        "fee_notes": "50프로 할인(영월군민+65세 이상)+ 단체요금: 20인 이상+무료(2급 이상 장애인 및 5세 이하)",
+        "weekday_open": "09:00",
+        "address": "강원특별자치도 영월군 주천면 송학주천로 899-6",
+        "adult_fee_status": "BASE_FEE_PAID",
+        "adult_fee": 5000.0,
+        "child_fee": 3000.0,
+        "latitude": 37.23587339,
+        "requires_manual_review": true,
+        "weekday_close": "18:00",
+        "image_copyright": "Type3",
+        "longitude": 128.2392085,
+        "name": "인도미술박물관"
+      },
+      "vector_rank": 3,
+      "bm25_rank": 2,
+      "vector_distance": 0.5000669360160828,
+      "vector_score": null,
+      "bm25_score": 9.53755511616805,
+      "vector_document": "인도미술박물관은 1981년부터 인도미술에 매료되어 인도에 살고 여행하며 여러 차례 인도 사회와 인도인의 삶을 주제로 한 개인전을 개최한 박여송 관장과 인도 지역연구를 하는 남편 백좌흠 교수가 그동안 하나씩 모아 온 그림 조각, 공예품 등 다양한 인도 미술품들을 전시하고 있다. 제1전시실은 칼람 카리 페인팅, 두루마리 페인팅, 파타 페인팅, 세밀화 등 회화 작품이 전시되어 있다. 제2전시실은 마두바니와 왈리 페인팅 등 인도의 대표적 민화를 감상할 수 있는 공간이다. 제3전시실은 다양한 가면, 부처상, 힌두 신상, 나가판넬조각, 바스타르 철조각 등 다양한 조각품들을 전시하고 있고 복도에는 인도 여러 지역의 서로 다른 기법의 섬유 작품들과 목조각 등의 공예품들이 전시되어 있다. 다양한 인종과 종교로 이루어진 인도의 각종 미술품들을 전시하고 있습니다.",
+      "bm25_document": "인도미술박물관은 1981년부터 인도미술에 매료되어 인도에 살고 여행하며 여러 차례 인도 사회와 인도인의 삶을 주제로 한 개인전을 개최한 박여송 관장과 인도 지역연구를 하는 남편 백좌흠 교수가 그동안 하나씩 모아 온 그림 조각, 공예품 등 다양한 인도 미술품들을 전시하고 있다. 제1전시실은 칼람 카리 페인팅, 두루마리 페인팅, 파타 페인팅, 세밀화 등 회화 작품이 전시되어 있다. 제2전시실은 마두바니와 왈리 페인팅 등 인도의 대표적 민화를 감상할 수 있는 공간이다. 제3전시실은 다양한 가면, 부처상, 힌두 신상, 나가판넬조각, 바스타르 철조각 등 다양한 조각품들을 전시하고 있고 복도에는 인도 여러 지역의 서로 다른 기법의 섬유 작품들과 목조각 등의 공예품들이 전시되어 있다. 다양한 인종과 종교로 이루어진 인도의 각종 미술품들을 전시하고 있습니다.",
+      "best_span_id": "chroma:M0210",
+      "best_span_text": "인도미술박물관은 1981년부터 인도미술에 매료되어 인도에 살고 여행하며 여러 차례 인도 사회와 인도인의 삶을 주제로 한 개인전을 개최한 박여송 관장과 인도 지역연구를 하는 남편 백좌흠 교수가 그동안 하나씩 모아 온 그림 조각, 공예품 등 다양한 인도 미술품들을 전시하고 있다. 제1전시실은 칼람 카리 페인팅, 두루마리 페인팅, 파타 페인팅, 세밀화 등 회화 작품이 전시되어 있다. 제2전시실은 마두바니와 왈리 페인팅 등 인도의 대표적 민화를 감상할 수 있는 공간이다. 제3전시실은 다양한 가면, 부처상, 힌두 신상, 나가판넬조각, 바스타르 철조각 등 다양한 조각품들을 전시하고 있고 복도에는 인도 여러 지역의 서로 다른 기법의 섬유 작품들과 목조각 등의 공예품들이 전시되어 있다. 다양한 인종과 종교로 이루어진 인도의 각종 미술품들을 전시하고 있습니다.",
+      "fusion_score": 0.03200204813108039,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 2,
+      "rerank_score": null,
+      "rank": 2,
+      "score": 0.03200204813108039,
+      "score_type": "rrf",
+      "distance": 0.5000669360160828,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0210",
+      "source_doc_ids": [
+        "DOC-B0210-TOUR_API-1937324",
+        "DOC-B0210-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0210-TOUR_API-1937324",
+          "source_type": "TOUR_API",
+          "source_record_id": "1937324",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=103",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        },
+        {
+          "doc_id": "DOC-B0210-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0210",
+          "source_locator": "data/raw/museum_base_1070.csv#row=211",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 154,
+          "doc_ids": [
+            "DOC-B0210-TOUR_API-1937324"
+          ]
+        },
+        {
+          "start": 155,
+          "end": 212,
+          "doc_ids": [
+            "DOC-B0210-TOUR_API-1937324"
+          ]
+        },
+        {
+          "start": 213,
+          "end": 261,
+          "doc_ids": [
+            "DOC-B0210-TOUR_API-1937324"
+          ]
+        },
+        {
+          "start": 262,
+          "end": 380,
+          "doc_ids": [
+            "DOC-B0210-TOUR_API-1937324"
+          ]
+        },
+        {
+          "start": 381,
+          "end": 421,
+          "doc_ids": [
+            "DOC-B0210-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=103",
+      "text": "인도미술박물관은 1981년부터 인도미술에 매료되어 인도에 살고 여행하며 여러 차례 인도 사회와 인도인의 삶을 주제로 한 개인전을 개최한 박여송 관장과 인도 지역연구를 하는 남편 백좌흠 교수가 그동안 하나씩 모아 온 그림 조각, 공예품 등 다양한 인도 미술품들을 전시하고 있다. 제1전시실은 칼람 카리 페인팅, 두루마리 페인팅, 파타 페인팅, 세밀화 등 회화 작품이 전시되어 있다. 제2전시실은 마두바니와 왈리 페인팅 등 인도의 대표적 민화를 감상할 수 있는 공간이다. 제3전시실은 다양한 가면, 부처상, 힌두 신상, 나가판넬조각, 바스타르 철조각 등 다양한 조각품들을 전시하고 있고 복도에는 인도 여러 지역의 서로 다른 기법의 섬유 작품들과 목조각 등의 공예품들이 전시되어 있다. 다양한 인종과 종교로 이루어진 인도의 각종 미술품들을 전시하고 있습니다.",
+      "sido": "강원특별자치도",
+      "sigungu": "영월군",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=103"
+      ],
+      "evidence_id": "E2",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=139",
+        "fields": {
+          "name": "인도미술박물관",
+          "sido": "강원특별자치도",
+          "sigungu": "영월군",
+          "address": "강원특별자치도 영월군 주천면 송학주천로 899-6",
+          "ownership_type": "사립",
+          "adult_fee": "5000",
+          "youth_fee": "4000",
+          "child_fee": "3000",
+          "adult_fee_status": "BASE_FEE_PAID",
+          "weekday_open": "09:00",
+          "weekday_close": "18:00",
+          "holiday_open": "09:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "월"
+        },
+        "base_data_date": "2026-09-03",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0863",
+      "name": "은암미술관",
+      "document": "은암미술관은 2010년 6월에 설립된 사립 미술관으로 전시장, 수장고, 학예연구실 및 자료보관실을 갖추고 있으며 기획전, 초대전 등 다양한 전​시회와 함께 인문학 강좌 및 음악회를 개최하고 있다. 국립아시아 문화전당 그리고 예술의 거리와 가장 인접한 은암미술관은 시민 누구나 전시를 즐기는 문화 소통 공간으로 지역 중견작가 전시와 신진 작가 발굴 및 전시 공간을 제공하고 있다. 또한 국제 교류전과 국내외 작가를 초청하여 레지던스 프로그램을 운영하고 있다. 사이버 시대를 맞아 사이트와 모바일을 중심으로 지속적인 프로그램을 개발하고 있으며 전남광주통합특별시 문화를 선도해 새로운 시대와 요구에 맞는 미술관으로 문화 수도의 위상을 높이고 소통과 휴식을 제공하는 미술관이 되기 위해 노력하는 곳이다. 신진작가 발굴과 작고한 작가들의 작품전시, 기획전과 초대전 중심으로 운영하고 있으며, 국립아시아문화전당과 인접하여 미술인들 뿐만 아니라 시민의 소통장 역할을 하고 있음",
+      "metadata": {
+        "closure_rule_raw": "일",
+        "address": "광주광역시 동구 서석로 85번길8-12(대의동)",
+        "ownership_type": "사립",
+        "weekday_close": "18:00",
+        "sido": "광주광역시",
+        "child_fee": 0.0,
+        "latitude": 35.150012,
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "requires_manual_review": true,
+        "image_copyright": "Type3",
+        "longitude": 126.920655,
+        "adult_fee": 0.0,
+        "homepage_url": "http://www.eunam.org",
+        "sigungu": "동구",
+        "name": "은암미술관",
+        "source_types": "BASE|TOUR_API",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/43/3402643_image2_1.jpg",
+        "holiday_close": "18:00",
+        "holiday_open": "10:00",
+        "weekday_open": "10:00",
+        "youth_fee": 0.0
+      },
+      "vector_rank": 2,
+      "bm25_rank": null,
+      "vector_distance": 0.4594353437423706,
+      "vector_score": null,
+      "bm25_score": null,
+      "vector_document": "은암미술관은 2010년 6월에 설립된 사립 미술관으로 전시장, 수장고, 학예연구실 및 자료보관실을 갖추고 있으며 기획전, 초대전 등 다양한 전​시회와 함께 인문학 강좌 및 음악회를 개최하고 있다. 국립아시아 문화전당 그리고 예술의 거리와 가장 인접한 은암미술관은 시민 누구나 전시를 즐기는 문화 소통 공간으로 지역 중견작가 전시와 신진 작가 발굴 및 전시 공간을 제공하고 있다. 또한 국제 교류전과 국내외 작가를 초청하여 레지던스 프로그램을 운영하고 있다. 사이버 시대를 맞아 사이트와 모바일을 중심으로 지속적인 프로그램을 개발하고 있으며 전남광주통합특별시 문화를 선도해 새로운 시대와 요구에 맞는 미술관으로 문화 수도의 위상을 높이고 소통과 휴식을 제공하는 미술관이 되기 위해 노력하는 곳이다. 신진작가 발굴과 작고한 작가들의 작품전시, 기획전과 초대전 중심으로 운영하고 있으며, 국립아시아문화전당과 인접하여 미술인들 뿐만 아니라 시민의 소통장 역할을 하고 있음",
+      "bm25_document": "",
+      "best_span_id": null,
+      "best_span_text": null,
+      "fusion_score": 0.016129032258064516,
+      "retrieved_by": [
+        "vector"
+      ],
+      "fusion_rank": 3,
+      "rerank_score": null,
+      "rank": 3,
+      "score": 0.016129032258064516,
+      "score_type": "rrf",
+      "distance": 0.4594353437423706,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector"
+      ],
+      "retriever": "vector",
+      "source_doc_ids": [
+        "DOC-B0863-TOUR_API-3402620",
+        "DOC-B0863-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0863-TOUR_API-3402620",
+          "source_type": "TOUR_API",
+          "source_record_id": "3402620",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=406",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        },
+        {
+          "doc_id": "DOC-B0863-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0863",
+          "source_locator": "data/raw/museum_base_1070.csv#row=864",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 109,
+          "doc_ids": [
+            "DOC-B0863-TOUR_API-3402620"
+          ]
+        },
+        {
+          "start": 110,
+          "end": 211,
+          "doc_ids": [
+            "DOC-B0863-TOUR_API-3402620"
+          ]
+        },
+        {
+          "start": 212,
+          "end": 255,
+          "doc_ids": [
+            "DOC-B0863-TOUR_API-3402620"
+          ]
+        },
+        {
+          "start": 256,
+          "end": 389,
+          "doc_ids": [
+            "DOC-B0863-TOUR_API-3402620"
+          ]
+        },
+        {
+          "start": 390,
+          "end": 483,
+          "doc_ids": [
+            "DOC-B0863-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=406",
+      "text": "은암미술관은 2010년 6월에 설립된 사립 미술관으로 전시장, 수장고, 학예연구실 및 자료보관실을 갖추고 있으며 기획전, 초대전 등 다양한 전​시회와 함께 인문학 강좌 및 음악회를 개최하고 있다. 국립아시아 문화전당 그리고 예술의 거리와 가장 인접한 은암미술관은 시민 누구나 전시를 즐기는 문화 소통 공간으로 지역 중견작가 전시와 신진 작가 발굴 및 전시 공간을 제공하고 있다. 또한 국제 교류전과 국내외 작가를 초청하여 레지던스 프로그램을 운영하고 있다. 사이버 시대를 맞아 사이트와 모바일을 중심으로 지속적인 프로그램을 개발하고 있으며 전남광주통합특별시 문화를 선도해 새로운 시대와 요구에 맞는 미술관으로 문화 수도의 위상을 높이고 소통과 휴식을 제공하는 미술관이 되기 위해 노력하는 곳이다. 신진작가 발굴과 작고한 작가들의 작품전시, 기획전과 초대전 중심으로 운영하고 있으며, 국립아시아문화전당과 인접하여 미술인들 뿐만 아니라 시민의 소통장 역할을 하고 있음",
+      "sido": "광주광역시",
+      "sigungu": "동구",
+      "span_id": "",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=406"
+      ],
+      "evidence_id": "E3",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=586",
+        "fields": {
+          "name": "은암미술관",
+          "sido": "광주광역시",
+          "sigungu": "동구",
+          "address": "광주광역시 동구 서석로 85번길8-12(대의동)",
+          "ownership_type": "사립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "10:00",
+          "weekday_close": "18:00",
+          "holiday_open": "10:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "일"
+        },
+        "base_data_date": "2025-06-26",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M1003",
+      "name": "DIMA MOA",
+      "document": "동아방송예술대학교 엔터테인먼트관 내에 있는 DIMA갤러리는 기획전과 개인전을 통해 대학 소장품 및 국내외 유수한 작가들의 작품을 전시하며, 지역 예술문화를 선도하여 지역문화 형성에 기여하고 지역민의 예술 체험 기회를 제공하고자 합니다.",
+      "metadata": {
+        "latitude": 37.062338,
+        "name": "DIMA MOA",
+        "ownership_type": "대학",
+        "youth_fee": 0.0,
+        "weekday_open": "09:00",
+        "sido": "경기도",
+        "closure_rule_raw": "일요일+공휴일",
+        "homepage_url": "http://moa.dima.ac.kr",
+        "holiday_close": "18:00",
+        "sigungu": "안성시",
+        "holiday_open": "09:00",
+        "adult_fee": 0.0,
+        "child_fee": 0.0,
+        "weekday_close": "18:00",
+        "requires_manual_review": true,
+        "source_types": "BASE",
+        "address": "경기도 안성시 삼죽면 동아예대길 47",
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "longitude": 127.353282
+      },
+      "vector_rank": null,
+      "bm25_rank": 3,
+      "vector_distance": null,
+      "vector_score": null,
+      "bm25_score": 8.903078333943121,
+      "vector_document": "",
+      "bm25_document": "동아방송예술대학교 엔터테인먼트관 내에 있는 DIMA갤러리는 기획전과 개인전을 통해 대학 소장품 및 국내외 유수한 작가들의 작품을 전시하며, 지역 예술문화를 선도하여 지역문화 형성에 기여하고 지역민의 예술 체험 기회를 제공하고자 합니다.",
+      "best_span_id": "chroma:M1003",
+      "best_span_text": "동아방송예술대학교 엔터테인먼트관 내에 있는 DIMA갤러리는 기획전과 개인전을 통해 대학 소장품 및 국내외 유수한 작가들의 작품을 전시하며, 지역 예술문화를 선도하여 지역문화 형성에 기여하고 지역민의 예술 체험 기회를 제공하고자 합니다.",
+      "fusion_score": 0.015873015873015872,
+      "retrieved_by": [
+        "bm25"
+      ],
+      "fusion_rank": 4,
+      "rerank_score": null,
+      "rank": 4,
+      "score": 0.015873015873015872,
+      "score_type": "rrf",
+      "distance": null,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "bm25"
+      ],
+      "retriever": "bm25",
+      "span_id": "chroma:M1003",
+      "source_doc_ids": [
+        "DOC-B1003-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B1003-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B1003",
+          "source_locator": "data/raw/museum_base_1070.csv#row=1004",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 131,
+          "doc_ids": [
+            "DOC-B1003-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_base_1070.csv#row=1004",
+      "text": "동아방송예술대학교 엔터테인먼트관 내에 있는 DIMA갤러리는 기획전과 개인전을 통해 대학 소장품 및 국내외 유수한 작가들의 작품을 전시하며, 지역 예술문화를 선도하여 지역문화 형성에 기여하고 지역민의 예술 체험 기회를 제공하고자 합니다.",
+      "sido": "경기도",
+      "sigungu": "안성시",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_base_1070.csv#row=1004"
+      ],
+      "evidence_id": "E4",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=686",
+        "fields": {
+          "name": "DIMA MOA",
+          "sido": "경기도",
+          "sigungu": "안성시",
+          "address": "경기도 안성시 삼죽면 동아예대길 47",
+          "ownership_type": "대학",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "09:00",
+          "weekday_close": "18:00",
+          "holiday_open": "09:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "일요일+공휴일"
+        },
+        "base_data_date": "2023-11-02",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0537",
+      "name": "서해미술관",
+      "document": "서해미술관은 사립미술관으로 조형물 등 미술작품 전시(유물 총 180점 소장)",
+      "metadata": {
+        "source_types": "BASE",
+        "youth_fee": 0.0,
+        "holiday_close": "18:00",
+        "amenities_raw": "전시실+주차장",
+        "closure_rule_raw": "연중무휴",
+        "latitude": 36.63887544,
+        "adult_fee": 0.0,
+        "ownership_type": "사립",
+        "child_fee": 0.0,
+        "weekday_close": "18:00",
+        "sido": "충청남도",
+        "transport_notes": "서해안 고속도로 홍성IC에서 안면도+간월도 방면 20분 소요",
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "name": "서해미술관",
+        "address": "충청남도 서산시 부석면 무학로 152-13",
+        "weekday_open": "10:00",
+        "longitude": 126.3774755,
+        "sigungu": "서산시",
+        "requires_manual_review": false,
+        "holiday_open": "10:00"
+      },
+      "vector_rank": 4,
+      "bm25_rank": null,
+      "vector_distance": 0.5035794377326965,
+      "vector_score": null,
+      "bm25_score": null,
+      "vector_document": "서해미술관은 사립미술관으로 조형물 등 미술작품 전시(유물 총 180점 소장)",
+      "bm25_document": "",
+      "best_span_id": null,
+      "best_span_text": null,
+      "fusion_score": 0.015625,
+      "retrieved_by": [
+        "vector"
+      ],
+      "fusion_rank": 5,
+      "rerank_score": null,
+      "rank": 5,
+      "score": 0.015625,
+      "score_type": "rrf",
+      "distance": 0.5035794377326965,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector"
+      ],
+      "retriever": "vector",
+      "source_doc_ids": [
+        "DOC-B0537-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0537-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0537",
+          "source_locator": "data/raw/museum_base_1070.csv#row=538",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 42,
+          "doc_ids": [
+            "DOC-B0537-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_base_1070.csv#row=538",
+      "text": "서해미술관은 사립미술관으로 조형물 등 미술작품 전시(유물 총 180점 소장)",
+      "sido": "충청남도",
+      "sigungu": "서산시",
+      "span_id": "",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_base_1070.csv#row=538"
+      ],
+      "evidence_id": "E5",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=378",
+        "fields": {
+          "name": "서해미술관",
+          "sido": "충청남도",
+          "sigungu": "서산시",
+          "address": "충청남도 서산시 부석면 무학로 152-13",
+          "ownership_type": "사립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "10:00",
+          "weekday_close": "18:00",
+          "holiday_open": "10:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "연중무휴",
+          "amenities_raw": "전시실+주차장"
+        },
+        "base_data_date": "2026-01-13",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    }
+  ],
+  "answer": "사립아인미술관은 개인작가 초대전을 비롯해 개인전과 단체전을 열고, 여러 작가의 작품을 일정 기간 전시합니다. 다양한 주제를 바탕으로 전시회를 진행합니다. [E1]",
+  "retrieval_status": "ok",
+  "answer_status": "answered",
+  "route": "hybrid",
+  "retry_count": 0,
+  "supervisor_verified": true,
+  "rerank_applied": false,
+  "retriever_errors": [],
+  "warnings": [
+    "Cross-Encoder reranking failed (FileNotFoundError); RRF order retained"
+  ],
+  "duration_ms": 8821.75,
+  "error_type": "",
+  "hit_at_1": 1,
+  "hit_at_3": 1,
+  "hit_at_5": 1,
+  "recall_at_5": 1.0,
+  "mrr_at_10": 1.0
+}

@@ -1,0 +1,716 @@
+{
+  "mode": "supervisor_full",
+  "question_id": "Q255",
+  "evidence": [
+    {
+      "museum_id": "M0440",
+      "name": "지적박물관",
+      "document": "지적 박물관은 도서출판 우물을 운영하는 리진호 관장이 개관한 지적 전문 박물관이다. 리진호 관장이 40여 년간 지적 계통에 종사하였으며, 측량 관서에서 행정을, 현장에서 측량을, 강단에서 강의를 하면서 얻은 지식과 경험, 수집한 자료를 바탕으로 개관하였다. 이 박물관은 한국뿐만 아니라 세계에서 유일한 지적(地籍) 전문 자료관으로써 한국지적사를 알 수 있는 지적 유물(토지문서, 측량기계 등)을 소장하고 있다. 그리고 이외에도 향토지, 백 년사, 기독교 분야(성서, 개교 회사) 등 다양한 서지 자료들을 소장하고 있다. 지적·향토지·백년사·기독교 4개 분야에 걸쳐 한국 최고·최다의 자료를 전시·보존하고 있으며, 한국 유일의 인물 시인 김경 목사의 시를 낭하에 전시하고 있다. 관장인 학촌 리진호 씨가 36년간 수집한 책, 서장, 기기 등 지적 자료 1,000점, 향토지 1,000점, 백 년사 400점, 그리스도교 자료 1,000점 등 총 3,500여 점이 전시되어 있다. 지적박물관은 지적 관련 자료, 향토지, 백년사 등 3개 분야의 자료를 상설·특별 전시와 보관을 통해 학술 연구 및 교육에 기여하기 위해 설립되었다.",
+      "metadata": {
+        "holiday_close": "18:00",
+        "adult_fee_status": "BASE_FEE_PAID",
+        "longitude": 128.1976789,
+        "requires_manual_review": true,
+        "address": "충청북도 제천시 금성면 양월로 34",
+        "ownership_type": "사립",
+        "child_fee": 2000.0,
+        "weekday_open": "09:00",
+        "image_copyright": "Type3",
+        "holiday_open": "09:00",
+        "homepage_url": "http://www.forjijeok.com/",
+        "weekday_close": "17:00",
+        "source_types": "BASE|TOUR_API",
+        "closure_rule_raw": "월요일+법정공휴일",
+        "amenities_raw": "장애인 편의시설 및 주차장",
+        "name": "지적박물관",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/19/3348619_image2_1.JPG",
+        "latitude": 37.0761096,
+        "sido": "충청북도",
+        "sigungu": "제천시",
+        "adult_fee": 5000.0,
+        "youth_fee": 3000.0
+      },
+      "vector_rank": 1,
+      "bm25_rank": 1,
+      "vector_distance": 0.4478764533996582,
+      "vector_score": null,
+      "bm25_score": 24.30785360492957,
+      "vector_document": "지적 박물관은 도서출판 우물을 운영하는 리진호 관장이 개관한 지적 전문 박물관이다. 리진호 관장이 40여 년간 지적 계통에 종사하였으며, 측량 관서에서 행정을, 현장에서 측량을, 강단에서 강의를 하면서 얻은 지식과 경험, 수집한 자료를 바탕으로 개관하였다. 이 박물관은 한국뿐만 아니라 세계에서 유일한 지적(地籍) 전문 자료관으로써 한국지적사를 알 수 있는 지적 유물(토지문서, 측량기계 등)을 소장하고 있다. 그리고 이외에도 향토지, 백 년사, 기독교 분야(성서, 개교 회사) 등 다양한 서지 자료들을 소장하고 있다. 지적·향토지·백년사·기독교 4개 분야에 걸쳐 한국 최고·최다의 자료를 전시·보존하고 있으며, 한국 유일의 인물 시인 김경 목사의 시를 낭하에 전시하고 있다. 관장인 학촌 리진호 씨가 36년간 수집한 책, 서장, 기기 등 지적 자료 1,000점, 향토지 1,000점, 백 년사 400점, 그리스도교 자료 1,000점 등 총 3,500여 점이 전시되어 있다. 지적박물관은 지적 관련 자료, 향토지, 백년사 등 3개 분야의 자료를 상설·특별 전시와 보관을 통해 학술 연구 및 교육에 기여하기 위해 설립되었다.",
+      "bm25_document": "지적 박물관은 도서출판 우물을 운영하는 리진호 관장이 개관한 지적 전문 박물관이다. 리진호 관장이 40여 년간 지적 계통에 종사하였으며, 측량 관서에서 행정을, 현장에서 측량을, 강단에서 강의를 하면서 얻은 지식과 경험, 수집한 자료를 바탕으로 개관하였다. 이 박물관은 한국뿐만 아니라 세계에서 유일한 지적(地籍) 전문 자료관으로써 한국지적사를 알 수 있는 지적 유물(토지문서, 측량기계 등)을 소장하고 있다. 그리고 이외에도 향토지, 백 년사, 기독교 분야(성서, 개교 회사) 등 다양한 서지 자료들을 소장하고 있다. 지적·향토지·백년사·기독교 4개 분야에 걸쳐 한국 최고·최다의 자료를 전시·보존하고 있으며, 한국 유일의 인물 시인 김경 목사의 시를 낭하에 전시하고 있다. 관장인 학촌 리진호 씨가 36년간 수집한 책, 서장, 기기 등 지적 자료 1,000점, 향토지 1,000점, 백 년사 400점, 그리스도교 자료 1,000점 등 총 3,500여 점이 전시되어 있다. 지적박물관은 지적 관련 자료, 향토지, 백년사 등 3개 분야의 자료를 상설·특별 전시와 보관을 통해 학술 연구 및 교육에 기여하기 위해 설립되었다.",
+      "best_span_id": "chroma:M0440",
+      "best_span_text": "지적 박물관은 도서출판 우물을 운영하는 리진호 관장이 개관한 지적 전문 박물관이다. 리진호 관장이 40여 년간 지적 계통에 종사하였으며, 측량 관서에서 행정을, 현장에서 측량을, 강단에서 강의를 하면서 얻은 지식과 경험, 수집한 자료를 바탕으로 개관하였다. 이 박물관은 한국뿐만 아니라 세계에서 유일한 지적(地籍) 전문 자료관으로써 한국지적사를 알 수 있는 지적 유물(토지문서, 측량기계 등)을 소장하고 있다. 그리고 이외에도 향토지, 백 년사, 기독교 분야(성서, 개교 회사) 등 다양한 서지 자료들을 소장하고 있다. 지적·향토지·백년사·기독교 4개 분야에 걸쳐 한국 최고·최다의 자료를 전시·보존하고 있으며, 한국 유일의 인물 시인 김경 목사의 시를 낭하에 전시하고 있다. 관장인 학촌 리진호 씨가 36년간 수집한 책, 서장, 기기 등 지적 자료 1,000점, 향토지 1,000점, 백 년사 400점, 그리스도교 자료 1,000점 등 총 3,500여 점이 전시되어 있다. 지적박물관은 지적 관련 자료, 향토지, 백년사 등 3개 분야의 자료를 상설·특별 전시와 보관을 통해 학술 연구 및 교육에 기여하기 위해 설립되었다.",
+      "fusion_score": 0.03278688524590164,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 1,
+      "name_match": true,
+      "rerank_score": null,
+      "rank": 1,
+      "score": 0.03278688524590164,
+      "score_type": "rrf",
+      "distance": 0.4478764533996582,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0440",
+      "source_doc_ids": [
+        "DOC-B0440-TOUR_API-130789",
+        "DOC-B0440-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0440-TOUR_API-130789",
+          "source_type": "TOUR_API",
+          "source_record_id": "130789",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=211",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        },
+        {
+          "doc_id": "DOC-B0440-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0440",
+          "source_locator": "data/raw/museum_base_1070.csv#row=441",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 46,
+          "doc_ids": [
+            "DOC-B0440-TOUR_API-130789"
+          ]
+        },
+        {
+          "start": 47,
+          "end": 143,
+          "doc_ids": [
+            "DOC-B0440-TOUR_API-130789"
+          ]
+        },
+        {
+          "start": 144,
+          "end": 229,
+          "doc_ids": [
+            "DOC-B0440-TOUR_API-130789"
+          ]
+        },
+        {
+          "start": 230,
+          "end": 290,
+          "doc_ids": [
+            "DOC-B0440-TOUR_API-130789"
+          ]
+        },
+        {
+          "start": 291,
+          "end": 378,
+          "doc_ids": [
+            "DOC-B0440-TOUR_API-130789"
+          ]
+        },
+        {
+          "start": 379,
+          "end": 489,
+          "doc_ids": [
+            "DOC-B0440-TOUR_API-130789"
+          ]
+        },
+        {
+          "start": 490,
+          "end": 572,
+          "doc_ids": [
+            "DOC-B0440-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=211",
+      "text": "지적 박물관은 도서출판 우물을 운영하는 리진호 관장이 개관한 지적 전문 박물관이다. 리진호 관장이 40여 년간 지적 계통에 종사하였으며, 측량 관서에서 행정을, 현장에서 측량을, 강단에서 강의를 하면서 얻은 지식과 경험, 수집한 자료를 바탕으로 개관하였다. 이 박물관은 한국뿐만 아니라 세계에서 유일한 지적(地籍) 전문 자료관으로써 한국지적사를 알 수 있는 지적 유물(토지문서, 측량기계 등)을 소장하고 있다. 그리고 이외에도 향토지, 백 년사, 기독교 분야(성서, 개교 회사) 등 다양한 서지 자료들을 소장하고 있다. 지적·향토지·백년사·기독교 4개 분야에 걸쳐 한국 최고·최다의 자료를 전시·보존하고 있으며, 한국 유일의 인물 시인 김경 목사의 시를 낭하에 전시하고 있다. 관장인 학촌 리진호 씨가 36년간 수집한 책, 서장, 기기 등 지적 자료 1,000점, 향토지 1,000점, 백 년사 400점, 그리스도교 자료 1,000점 등 총 3,500여 점이 전시되어 있다. 지적박물관은 지적 관련 자료, 향토지, 백년사 등 3개 분야의 자료를 상설·특별 전시와 보관을 통해 학술 연구 및 교육에 기여하기 위해 설립되었다.",
+      "sido": "충청북도",
+      "sigungu": "제천시",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=211"
+      ],
+      "evidence_id": "E1",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=314",
+        "fields": {
+          "name": "지적박물관",
+          "sido": "충청북도",
+          "sigungu": "제천시",
+          "address": "충청북도 제천시 금성면 양월로 34",
+          "ownership_type": "사립",
+          "adult_fee": "5000",
+          "youth_fee": "3000",
+          "child_fee": "2000",
+          "adult_fee_status": "BASE_FEE_PAID",
+          "weekday_open": "09:00",
+          "weekday_close": "17:00",
+          "holiday_open": "09:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "월요일+법정공휴일",
+          "amenities_raw": "장애인 편의시설 및 주차장"
+        },
+        "base_data_date": "2026-03-23",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M1041",
+      "name": "배재대학교 박물관",
+      "document": "- 배재대학교 박물관은 1988년 3월 개관하여 1993년 주시경기념도서관 4층으로 확장ㆍ이관하였습니다. - 20여년 동안 다양한 역사자료 및 문화자료들을 수집하고 수집한 유물들을 보관 및 전시함으로써 학술 연구 및 교육, 문화발전을 위해 노력하였습니다. - 박물관은 토기전시실ㆍ배재역사실과 학예실, 관장실, 자료실로 구성되어 있습니다.",
+      "metadata": {
+        "amenities_raw": "없음",
+        "name": "배재대학교 박물관",
+        "requires_manual_review": true,
+        "closure_rule_raw": "토,일, 공휴일",
+        "weekday_open": "10:00",
+        "child_fee": 0.0,
+        "sido": "대전광역시",
+        "longitude": 127.3660759,
+        "address": "대전광역시 서구 배재로 155-40",
+        "youth_fee": 0.0,
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "transport_notes": "- 버스 : 612, 301, 216, 916, 312",
+        "holiday_open": "10:00",
+        "ownership_type": "대학",
+        "homepage_url": "https://www.museum.pcu.ac.kr/",
+        "adult_fee": 0.0,
+        "holiday_close": "17:00",
+        "weekday_close": "16:00",
+        "sigungu": "서구",
+        "fee_notes": "무료",
+        "latitude": 36.32323809,
+        "source_types": "BASE"
+      },
+      "vector_rank": 3,
+      "bm25_rank": 2,
+      "vector_distance": 0.5497406721115112,
+      "vector_score": null,
+      "bm25_score": 15.603196249299186,
+      "vector_document": "- 배재대학교 박물관은 1988년 3월 개관하여 1993년 주시경기념도서관 4층으로 확장ㆍ이관하였습니다. - 20여년 동안 다양한 역사자료 및 문화자료들을 수집하고 수집한 유물들을 보관 및 전시함으로써 학술 연구 및 교육, 문화발전을 위해 노력하였습니다. - 박물관은 토기전시실ㆍ배재역사실과 학예실, 관장실, 자료실로 구성되어 있습니다.",
+      "bm25_document": "- 배재대학교 박물관은 1988년 3월 개관하여 1993년 주시경기념도서관 4층으로 확장ㆍ이관하였습니다. - 20여년 동안 다양한 역사자료 및 문화자료들을 수집하고 수집한 유물들을 보관 및 전시함으로써 학술 연구 및 교육, 문화발전을 위해 노력하였습니다. - 박물관은 토기전시실ㆍ배재역사실과 학예실, 관장실, 자료실로 구성되어 있습니다.",
+      "best_span_id": "chroma:M1041",
+      "best_span_text": "- 배재대학교 박물관은 1988년 3월 개관하여 1993년 주시경기념도서관 4층으로 확장ㆍ이관하였습니다. - 20여년 동안 다양한 역사자료 및 문화자료들을 수집하고 수집한 유물들을 보관 및 전시함으로써 학술 연구 및 교육, 문화발전을 위해 노력하였습니다. - 박물관은 토기전시실ㆍ배재역사실과 학예실, 관장실, 자료실로 구성되어 있습니다.",
+      "fusion_score": 0.03200204813108039,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 2,
+      "rerank_score": null,
+      "rank": 2,
+      "score": 0.03200204813108039,
+      "score_type": "rrf",
+      "distance": 0.5497406721115112,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M1041",
+      "source_doc_ids": [
+        "DOC-B1041-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B1041-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B1041",
+          "source_locator": "data/raw/museum_base_1070.csv#row=1042",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 58,
+          "doc_ids": [
+            "DOC-B1041-BASE"
+          ]
+        },
+        {
+          "start": 59,
+          "end": 142,
+          "doc_ids": [
+            "DOC-B1041-BASE"
+          ]
+        },
+        {
+          "start": 143,
+          "end": 188,
+          "doc_ids": [
+            "DOC-B1041-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_base_1070.csv#row=1042",
+      "text": "- 배재대학교 박물관은 1988년 3월 개관하여 1993년 주시경기념도서관 4층으로 확장ㆍ이관하였습니다. - 20여년 동안 다양한 역사자료 및 문화자료들을 수집하고 수집한 유물들을 보관 및 전시함으로써 학술 연구 및 교육, 문화발전을 위해 노력하였습니다. - 박물관은 토기전시실ㆍ배재역사실과 학예실, 관장실, 자료실로 구성되어 있습니다.",
+      "sido": "대전광역시",
+      "sigungu": "서구",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_base_1070.csv#row=1042"
+      ],
+      "evidence_id": "E2",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=717",
+        "fields": {
+          "name": "배재대학교 박물관",
+          "sido": "대전광역시",
+          "sigungu": "서구",
+          "address": "대전광역시 서구 배재로 155-40",
+          "ownership_type": "대학",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "10:00",
+          "weekday_close": "16:00",
+          "holiday_open": "10:00",
+          "holiday_close": "17:00",
+          "closure_rule_raw": "토,일, 공휴일",
+          "amenities_raw": "없음"
+        },
+        "base_data_date": "2020-12-15",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0613",
+      "name": "김달진미술자료박물관",
+      "document": "김달진 미술 자료박물관은 ‘서울아트가이드’를 발행하는 김달진 관장이 40여 년간 수집해 왔던 자료 중 사료적 가치가 큰 기록물과 자료를 수집, 분류, 보존, 연구, 전시를 위해 2008년 3월 국내 최초의 미술 자료 전문 박물관으로 개관하였다. 예술 창작과 학술 연구의 가장 기초적인 작업이라고 할 수 있는 미술 자료를 효율적으로 관리하고, 더 나아가 연구된 자료들을 중심으로 전시회를 열어 소개하며 누구나 공유할 수 있는 전문 아카이브의 역할을 실천하고자 한다. 또한 미술 자료 수집 캠페인을 통해 소중한 자료가 공공의 문화유산으로 가치전환될 수 있다는 인식을 확산시키는 데 앞장서고 있다.",
+      "metadata": {
+        "closure_rule_raw": "일요일+공휴일",
+        "youth_fee": 0.0,
+        "adult_fee": 0.0,
+        "longitude": 126.9566605,
+        "holiday_open": "00:00",
+        "fee_notes": "단체관람시 사전예약",
+        "weekday_open": "10:00",
+        "ownership_type": "사립",
+        "sido": "서울특별시",
+        "address": "서울특별시 종로구 홍지문1길 4(홍지동)",
+        "holiday_close": "00:00",
+        "latitude": 37.600016,
+        "image_copyright": "Type3",
+        "child_fee": 0.0,
+        "requires_manual_review": true,
+        "sigungu": "종로구",
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/70/3412170_image2_1.JPG",
+        "weekday_close": "17:00",
+        "homepage_url": "http://www.daljin.com/",
+        "name": "김달진미술자료박물관",
+        "source_types": "TOUR_API"
+      },
+      "vector_rank": 6,
+      "bm25_rank": 3,
+      "vector_distance": 0.5955489873886108,
+      "vector_score": null,
+      "bm25_score": 10.607063297997986,
+      "vector_document": "김달진 미술 자료박물관은 ‘서울아트가이드’를 발행하는 김달진 관장이 40여 년간 수집해 왔던 자료 중 사료적 가치가 큰 기록물과 자료를 수집, 분류, 보존, 연구, 전시를 위해 2008년 3월 국내 최초의 미술 자료 전문 박물관으로 개관하였다. 예술 창작과 학술 연구의 가장 기초적인 작업이라고 할 수 있는 미술 자료를 효율적으로 관리하고, 더 나아가 연구된 자료들을 중심으로 전시회를 열어 소개하며 누구나 공유할 수 있는 전문 아카이브의 역할을 실천하고자 한다. 또한 미술 자료 수집 캠페인을 통해 소중한 자료가 공공의 문화유산으로 가치전환될 수 있다는 인식을 확산시키는 데 앞장서고 있다.",
+      "bm25_document": "김달진 미술 자료박물관은 ‘서울아트가이드’를 발행하는 김달진 관장이 40여 년간 수집해 왔던 자료 중 사료적 가치가 큰 기록물과 자료를 수집, 분류, 보존, 연구, 전시를 위해 2008년 3월 국내 최초의 미술 자료 전문 박물관으로 개관하였다. 예술 창작과 학술 연구의 가장 기초적인 작업이라고 할 수 있는 미술 자료를 효율적으로 관리하고, 더 나아가 연구된 자료들을 중심으로 전시회를 열어 소개하며 누구나 공유할 수 있는 전문 아카이브의 역할을 실천하고자 한다. 또한 미술 자료 수집 캠페인을 통해 소중한 자료가 공공의 문화유산으로 가치전환될 수 있다는 인식을 확산시키는 데 앞장서고 있다.",
+      "best_span_id": "chroma:M0613",
+      "best_span_text": "김달진 미술 자료박물관은 ‘서울아트가이드’를 발행하는 김달진 관장이 40여 년간 수집해 왔던 자료 중 사료적 가치가 큰 기록물과 자료를 수집, 분류, 보존, 연구, 전시를 위해 2008년 3월 국내 최초의 미술 자료 전문 박물관으로 개관하였다. 예술 창작과 학술 연구의 가장 기초적인 작업이라고 할 수 있는 미술 자료를 효율적으로 관리하고, 더 나아가 연구된 자료들을 중심으로 전시회를 열어 소개하며 누구나 공유할 수 있는 전문 아카이브의 역할을 실천하고자 한다. 또한 미술 자료 수집 캠페인을 통해 소중한 자료가 공공의 문화유산으로 가치전환될 수 있다는 인식을 확산시키는 데 앞장서고 있다.",
+      "fusion_score": 0.031024531024531024,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 3,
+      "rerank_score": null,
+      "rank": 3,
+      "score": 0.031024531024531024,
+      "score_type": "rrf",
+      "distance": 0.5955489873886108,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0613",
+      "source_doc_ids": [
+        "DOC-B0613-TOUR_API-2553377"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0613-TOUR_API-2553377",
+          "source_type": "TOUR_API",
+          "source_record_id": "2553377",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=305",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 136,
+          "doc_ids": [
+            "DOC-B0613-TOUR_API-2553377"
+          ]
+        },
+        {
+          "start": 137,
+          "end": 259,
+          "doc_ids": [
+            "DOC-B0613-TOUR_API-2553377"
+          ]
+        },
+        {
+          "start": 260,
+          "end": 331,
+          "doc_ids": [
+            "DOC-B0613-TOUR_API-2553377"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=305",
+      "text": "김달진 미술 자료박물관은 ‘서울아트가이드’를 발행하는 김달진 관장이 40여 년간 수집해 왔던 자료 중 사료적 가치가 큰 기록물과 자료를 수집, 분류, 보존, 연구, 전시를 위해 2008년 3월 국내 최초의 미술 자료 전문 박물관으로 개관하였다. 예술 창작과 학술 연구의 가장 기초적인 작업이라고 할 수 있는 미술 자료를 효율적으로 관리하고, 더 나아가 연구된 자료들을 중심으로 전시회를 열어 소개하며 누구나 공유할 수 있는 전문 아카이브의 역할을 실천하고자 한다. 또한 미술 자료 수집 캠페인을 통해 소중한 자료가 공공의 문화유산으로 가치전환될 수 있다는 인식을 확산시키는 데 앞장서고 있다.",
+      "sido": "서울특별시",
+      "sigungu": "종로구",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=305"
+      ],
+      "evidence_id": "E3",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=429",
+        "fields": {
+          "name": "김달진미술자료박물관",
+          "sido": "서울특별시",
+          "sigungu": "종로구",
+          "address": "서울특별시 종로구 홍지문1길 4(홍지동)",
+          "ownership_type": "사립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "10:00",
+          "weekday_close": "17:00",
+          "holiday_open": "00:00",
+          "holiday_close": "00:00",
+          "closure_rule_raw": "일요일+공휴일"
+        },
+        "base_data_date": "2025-11-01",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0111",
+      "name": "인하대학교박물관",
+      "document": "1976년 개관하여 국내외 자료조사와 연구+유물수집+역사+문화+민속과 인류학 분야를 수장 전시하고 있다",
+      "metadata": {
+        "homepage_url": "https://museum.inha.ac.kr/museum/index.do",
+        "name": "인하대학교박물관",
+        "requires_manual_review": true,
+        "youth_fee": 0.0,
+        "weekday_open": "10:00",
+        "transport_notes": "간선버스 5+5-1+8+9+13+27+46+111-2 + 지선버스 511+515+516+518+512+517+519 + 광역버스 1601+9200 + 직행좌석 3001 + 급행간선908 + 무료셔틀버스 주안역1번출구",
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "adult_fee": 0.0,
+        "closure_rule_raw": "토요일+일요일+법정공휴일+개교기념일(4월24일)",
+        "latitude": 37.4494764603,
+        "child_fee": 0.0,
+        "source_types": "BASE",
+        "holiday_open": "00:00",
+        "weekday_close": "16:00",
+        "sido": "인천광역시",
+        "holiday_close": "00:00",
+        "sigungu": "미추홀구",
+        "address": "인천광역시 미추홀구 인하로 100",
+        "longitude": 126.6602598686,
+        "ownership_type": "대학"
+      },
+      "vector_rank": 2,
+      "bm25_rank": 16,
+      "vector_distance": 0.5368770360946655,
+      "vector_score": null,
+      "bm25_score": 6.573513281092616,
+      "vector_document": "1976년 개관하여 국내외 자료조사와 연구+유물수집+역사+문화+민속과 인류학 분야를 수장 전시하고 있다",
+      "bm25_document": "1976년 개관하여 국내외 자료조사와 연구+유물수집+역사+문화+민속과 인류학 분야를 수장 전시하고 있다",
+      "best_span_id": "chroma:M0111",
+      "best_span_text": "1976년 개관하여 국내외 자료조사와 연구+유물수집+역사+문화+민속과 인류학 분야를 수장 전시하고 있다",
+      "fusion_score": 0.02928692699490662,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 4,
+      "rerank_score": null,
+      "rank": 4,
+      "score": 0.02928692699490662,
+      "score_type": "rrf",
+      "distance": 0.5368770360946655,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0111",
+      "source_doc_ids": [
+        "DOC-B0111-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0111-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0111",
+          "source_locator": "data/raw/museum_base_1070.csv#row=112",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 57,
+          "doc_ids": [
+            "DOC-B0111-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_base_1070.csv#row=112",
+      "text": "1976년 개관하여 국내외 자료조사와 연구+유물수집+역사+문화+민속과 인류학 분야를 수장 전시하고 있다",
+      "sido": "인천광역시",
+      "sigungu": "미추홀구",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_base_1070.csv#row=112"
+      ],
+      "evidence_id": "E4",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=71",
+        "fields": {
+          "name": "인하대학교박물관",
+          "sido": "인천광역시",
+          "sigungu": "미추홀구",
+          "address": "인천광역시 미추홀구 인하로 100",
+          "ownership_type": "대학",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "10:00",
+          "weekday_close": "16:00",
+          "holiday_open": "00:00",
+          "holiday_close": "00:00",
+          "closure_rule_raw": "토요일+일요일+법정공휴일+개교기념일(4월24일)"
+        },
+        "base_data_date": "2026-10-01",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0761",
+      "name": "울산해양박물관",
+      "document": "울산해양박물관은 울산 최초의 사립 박물관으로 설립 관장이 지난 60년 동안 6 대륙 세계 70여 개국에서 수집한 산호·패류 및 해양생태 자료들을 전시하는 전문 박물관이다. 박물관은 전시관과 교육관으로 나누어져 있다. 전시관 1층은 세계 각국에서 수집한 희귀 패류와 어류 박제품 등의 해양생태자원들을 전시하고 있으며 해저 깊은 곳에 사는 심해 관벌레를 비롯해 가공하기 전의 자연 상태의 진주와 하트 조개, 청자 고둥, 바다뱀, 바다거북과 다양한 상어 박제품 등 약 1,000여 점이 전시되어 있다. 2층은 세계 희귀 산호 전시실로 구성되어 있다. 약 300면 수령의 테이블산호를 비롯해 나팔 산호, 맨드라미산호 등 500여 점의 희귀 산호류들을 관찰할 수 있다. 교육관 1층의 기념품 판매장에서는 진주를 비롯해 다양한 패각류, 산호류 등을 비교적 값싸게 구입할 수 있으며 2층에서는 단체관람객 등을 위한 체험 교육이 이루어지는 교육공간과 사무실이 있다. 세계 희귀 해양생태자료들의 전시를 통해 관람객들에게 해양생물의 다양성을 체험할 수 있게 함과 동시에 점점 황폐화되어 가는 해양 환경의 중요성을 다시 한번 생각할 수 있는 교육의 공간으로서 그 역할을 다하고 있다. 6대륙 바다의 생물자원을 한 곳에 모아놓은 세계교류의 역할공간으로 울산 최초 사립박물관임",
+      "metadata": {
+        "weekday_close": "17:00",
+        "holiday_close": "17:00",
+        "sido": "울산광역시",
+        "amenities_raw": "주차장",
+        "adult_fee_status": "BASE_FEE_PAID",
+        "image_copyright": "Type3",
+        "fee_notes": "장애인1,2,3급/군인/ 국가유공자/ 신분증 지참시 50 할인",
+        "adult_fee": 5000.0,
+        "requires_manual_review": true,
+        "holiday_open": "09:00",
+        "ownership_type": "사립",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/22/4105722_image2_1.jpg",
+        "name": "울산해양박물관",
+        "closure_rule_raw": "매주 월",
+        "youth_fee": 4000.0,
+        "longitude": 129.3546962,
+        "sigungu": "울주군",
+        "address": "울산광역시 울주군 서생면 해맞이로 1251",
+        "latitude": 35.36165466,
+        "weekday_open": "09:00",
+        "child_fee": 3000.0,
+        "source_types": "BASE|TOUR_API"
+      },
+      "vector_rank": 11,
+      "bm25_rank": 6,
+      "vector_distance": 0.6012205481529236,
+      "vector_score": null,
+      "bm25_score": 8.303830573387947,
+      "vector_document": "울산해양박물관은 울산 최초의 사립 박물관으로 설립 관장이 지난 60년 동안 6 대륙 세계 70여 개국에서 수집한 산호·패류 및 해양생태 자료들을 전시하는 전문 박물관이다. 박물관은 전시관과 교육관으로 나누어져 있다. 전시관 1층은 세계 각국에서 수집한 희귀 패류와 어류 박제품 등의 해양생태자원들을 전시하고 있으며 해저 깊은 곳에 사는 심해 관벌레를 비롯해 가공하기 전의 자연 상태의 진주와 하트 조개, 청자 고둥, 바다뱀, 바다거북과 다양한 상어 박제품 등 약 1,000여 점이 전시되어 있다. 2층은 세계 희귀 산호 전시실로 구성되어 있다. 약 300면 수령의 테이블산호를 비롯해 나팔 산호, 맨드라미산호 등 500여 점의 희귀 산호류들을 관찰할 수 있다. 교육관 1층의 기념품 판매장에서는 진주를 비롯해 다양한 패각류, 산호류 등을 비교적 값싸게 구입할 수 있으며 2층에서는 단체관람객 등을 위한 체험 교육이 이루어지는 교육공간과 사무실이 있다. 세계 희귀 해양생태자료들의 전시를 통해 관람객들에게 해양생물의 다양성을 체험할 수 있게 함과 동시에 점점 황폐화되어 가는 해양 환경의 중요성을 다시 한번 생각할 수 있는 교육의 공간으로서 그 역할을 다하고 있다. 6대륙 바다의 생물자원을 한 곳에 모아놓은 세계교류의 역할공간으로 울산 최초 사립박물관임",
+      "bm25_document": "울산해양박물관은 울산 최초의 사립 박물관으로 설립 관장이 지난 60년 동안 6 대륙 세계 70여 개국에서 수집한 산호·패류 및 해양생태 자료들을 전시하는 전문 박물관이다. 박물관은 전시관과 교육관으로 나누어져 있다. 전시관 1층은 세계 각국에서 수집한 희귀 패류와 어류 박제품 등의 해양생태자원들을 전시하고 있으며 해저 깊은 곳에 사는 심해 관벌레를 비롯해 가공하기 전의 자연 상태의 진주와 하트 조개, 청자 고둥, 바다뱀, 바다거북과 다양한 상어 박제품 등 약 1,000여 점이 전시되어 있다. 2층은 세계 희귀 산호 전시실로 구성되어 있다. 약 300면 수령의 테이블산호를 비롯해 나팔 산호, 맨드라미산호 등 500여 점의 희귀 산호류들을 관찰할 수 있다. 교육관 1층의 기념품 판매장에서는 진주를 비롯해 다양한 패각류, 산호류 등을 비교적 값싸게 구입할 수 있으며 2층에서는 단체관람객 등을 위한 체험 교육이 이루어지는 교육공간과 사무실이 있다. 세계 희귀 해양생태자료들의 전시를 통해 관람객들에게 해양생물의 다양성을 체험할 수 있게 함과 동시에 점점 황폐화되어 가는 해양 환경의 중요성을 다시 한번 생각할 수 있는 교육의 공간으로서 그 역할을 다하고 있다. 6대륙 바다의 생물자원을 한 곳에 모아놓은 세계교류의 역할공간으로 울산 최초 사립박물관임",
+      "best_span_id": "chroma:M0761",
+      "best_span_text": "울산해양박물관은 울산 최초의 사립 박물관으로 설립 관장이 지난 60년 동안 6 대륙 세계 70여 개국에서 수집한 산호·패류 및 해양생태 자료들을 전시하는 전문 박물관이다. 박물관은 전시관과 교육관으로 나누어져 있다. 전시관 1층은 세계 각국에서 수집한 희귀 패류와 어류 박제품 등의 해양생태자원들을 전시하고 있으며 해저 깊은 곳에 사는 심해 관벌레를 비롯해 가공하기 전의 자연 상태의 진주와 하트 조개, 청자 고둥, 바다뱀, 바다거북과 다양한 상어 박제품 등 약 1,000여 점이 전시되어 있다. 2층은 세계 희귀 산호 전시실로 구성되어 있다. 약 300면 수령의 테이블산호를 비롯해 나팔 산호, 맨드라미산호 등 500여 점의 희귀 산호류들을 관찰할 수 있다. 교육관 1층의 기념품 판매장에서는 진주를 비롯해 다양한 패각류, 산호류 등을 비교적 값싸게 구입할 수 있으며 2층에서는 단체관람객 등을 위한 체험 교육이 이루어지는 교육공간과 사무실이 있다. 세계 희귀 해양생태자료들의 전시를 통해 관람객들에게 해양생물의 다양성을 체험할 수 있게 함과 동시에 점점 황폐화되어 가는 해양 환경의 중요성을 다시 한번 생각할 수 있는 교육의 공간으로서 그 역할을 다하고 있다. 6대륙 바다의 생물자원을 한 곳에 모아놓은 세계교류의 역할공간으로 울산 최초 사립박물관임",
+      "fusion_score": 0.029236022193768675,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 5,
+      "rerank_score": null,
+      "rank": 5,
+      "score": 0.029236022193768675,
+      "score_type": "rrf",
+      "distance": 0.6012205481529236,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0761",
+      "source_doc_ids": [
+        "DOC-B0761-TOUR_API-1936811",
+        "DOC-B0761-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0761-TOUR_API-1936811",
+          "source_type": "TOUR_API",
+          "source_record_id": "1936811",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=369",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        },
+        {
+          "doc_id": "DOC-B0761-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0761",
+          "source_locator": "data/raw/museum_base_1070.csv#row=762",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 95,
+          "doc_ids": [
+            "DOC-B0761-TOUR_API-1936811"
+          ]
+        },
+        {
+          "start": 96,
+          "end": 120,
+          "doc_ids": [
+            "DOC-B0761-TOUR_API-1936811"
+          ]
+        },
+        {
+          "start": 121,
+          "end": 277,
+          "doc_ids": [
+            "DOC-B0761-TOUR_API-1936811"
+          ]
+        },
+        {
+          "start": 278,
+          "end": 304,
+          "doc_ids": [
+            "DOC-B0761-TOUR_API-1936811"
+          ]
+        },
+        {
+          "start": 305,
+          "end": 369,
+          "doc_ids": [
+            "DOC-B0761-TOUR_API-1936811"
+          ]
+        },
+        {
+          "start": 370,
+          "end": 476,
+          "doc_ids": [
+            "DOC-B0761-TOUR_API-1936811"
+          ]
+        },
+        {
+          "start": 477,
+          "end": 595,
+          "doc_ids": [
+            "DOC-B0761-TOUR_API-1936811"
+          ]
+        },
+        {
+          "start": 596,
+          "end": 645,
+          "doc_ids": [
+            "DOC-B0761-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=369",
+      "text": "울산해양박물관은 울산 최초의 사립 박물관으로 설립 관장이 지난 60년 동안 6 대륙 세계 70여 개국에서 수집한 산호·패류 및 해양생태 자료들을 전시하는 전문 박물관이다. 박물관은 전시관과 교육관으로 나누어져 있다. 전시관 1층은 세계 각국에서 수집한 희귀 패류와 어류 박제품 등의 해양생태자원들을 전시하고 있으며 해저 깊은 곳에 사는 심해 관벌레를 비롯해 가공하기 전의 자연 상태의 진주와 하트 조개, 청자 고둥, 바다뱀, 바다거북과 다양한 상어 박제품 등 약 1,000여 점이 전시되어 있다. 2층은 세계 희귀 산호 전시실로 구성되어 있다. 약 300면 수령의 테이블산호를 비롯해 나팔 산호, 맨드라미산호 등 500여 점의 희귀 산호류들을 관찰할 수 있다. 교육관 1층의 기념품 판매장에서는 진주를 비롯해 다양한 패각류, 산호류 등을 비교적 값싸게 구입할 수 있으며 2층에서는 단체관람객 등을 위한 체험 교육이 이루어지는 교육공간과 사무실이 있다. 세계 희귀 해양생태자료들의 전시를 통해 관람객들에게 해양생물의 다양성을 체험할 수 있게 함과 동시에 점점 황폐화되어 가는 해양 환경의 중요성을 다시 한번 생각할 수 있는 교육의 공간으로서 그 역할을 다하고 있다. 6대륙 바다의 생물자원을 한 곳에 모아놓은 세계교류의 역할공간으로 울산 최초 사립박물관임",
+      "sido": "울산광역시",
+      "sigungu": "울주군",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=369"
+      ],
+      "evidence_id": "E5",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=526",
+        "fields": {
+          "name": "울산해양박물관",
+          "sido": "울산광역시",
+          "sigungu": "울주군",
+          "address": "울산광역시 울주군 서생면 해맞이로 1251",
+          "ownership_type": "사립",
+          "adult_fee": "5000",
+          "youth_fee": "4000",
+          "child_fee": "3000",
+          "adult_fee_status": "BASE_FEE_PAID",
+          "weekday_open": "09:00",
+          "weekday_close": "17:00",
+          "holiday_open": "09:00",
+          "holiday_close": "17:00",
+          "closure_rule_raw": "매주 월",
+          "amenities_raw": "주차장"
+        },
+        "base_data_date": "2024-11-02",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    }
+  ],
+  "answer": "학촌 리진호 관장은 자료를 36년간 수집했습니다. [E1]",
+  "retrieval_status": "ok",
+  "answer_status": "answered",
+  "route": "hybrid",
+  "retry_count": 0,
+  "supervisor_verified": true,
+  "rerank_applied": false,
+  "retriever_errors": [],
+  "warnings": [
+    "Cross-Encoder reranking failed (FileNotFoundError); RRF order retained"
+  ],
+  "duration_ms": 12031.84,
+  "error_type": "",
+  "hit_at_1": 1,
+  "hit_at_3": 1,
+  "hit_at_5": 1,
+  "recall_at_5": 1.0,
+  "mrr_at_10": 1.0
+}

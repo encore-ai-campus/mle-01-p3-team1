@@ -1,0 +1,752 @@
+{
+  "mode": "supervisor_full",
+  "question_id": "Q271",
+  "evidence": [
+    {
+      "museum_id": "M0462",
+      "name": "서호미술관",
+      "document": "서호미술관은 2001년 5월 25일, 서울 인사동에서 운영되던 갤러리 서호가 지방 문화의 균형적 발전을 도모하기 위해 경기도 남양주시 조안면 북한강변에 개관한 복합문화전시공간이다. 이후 2007년 1종 미술관으로 등록되며 지역의 문화예술 진흥과 미술 향유 기회 확대에 기여해 왔다. 개관 이후 현재까지 동시대 미술의 다양한 흐름을 반영한 전시와 인문학·체험 프로그램 등 폭넓은 문화행사를 꾸준히 개최하고 있다. 특히 신진작가 발굴과 지역작가 지원을 핵심 운영 방향으로 삼아 미래지향적 예술 담론을 형성하고, 예술을 통한 지역사회 문화 활성화에 앞장서고 있다. 전시뿐 아니라 교육기관 및 지역 단체와 연계하여 예술체험학습·인문학 특강·찾아가는 미술관 프로그램 등을 운영하며 예술의 대중화와 문화복지 실현을 위한 공공적 역할을 수행하고 있다. 이처럼 서호미술관은 자연과 예술, 지역과 인간이 어우러지는 복합문화예술공간으로 예술을 통해 삶의 풍요로움과 공동체의 문화적 성장을 지향하고 있다. 1층에는 약 70평 규모의 전시실과 학예실이, 2층에는 관람객의 휴식과 교류를 위한 100석 규모의 레스토랑이 마련되어 있다. 그리고 약 500평의 야외 정원은 문화행사, 야외조각전, 공연 등 예술과 자연이 공존하는 열린 문화의 장으로 활용되고 있다. 또한, 2017년에 40평 규모의 한옥 별관을 증축하여 전시 구성을 더욱 풍성하게 만들고, 한옥에 대한 이해를 높이고 있다.",
+      "metadata": {
+        "closure_rule_raw": "설 연휴+추석 연휴",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/44/3565444_image2_1.JPG",
+        "holiday_open": "10:00",
+        "adult_fee_status": "BASE_FEE_PAID",
+        "youth_fee": 3000.0,
+        "sigungu": "남양주시",
+        "longitude": 127.3515079,
+        "source_types": "TOUR_API",
+        "name": "서호미술관",
+        "weekday_close": "18:00",
+        "adult_fee": 5000.0,
+        "holiday_close": "18:00",
+        "sido": "경기도",
+        "homepage_url": "http://www.seohoart.com/",
+        "image_copyright": "Type3",
+        "latitude": 37.63270736,
+        "requires_manual_review": true,
+        "address": "경기도 남양주시 화도읍 북한강로 1344",
+        "child_fee": 2000.0,
+        "ownership_type": "사립",
+        "weekday_open": "10:00"
+      },
+      "vector_rank": 1,
+      "bm25_rank": null,
+      "vector_distance": 0.3610595464706421,
+      "vector_score": null,
+      "bm25_score": null,
+      "vector_document": "서호미술관은 2001년 5월 25일, 서울 인사동에서 운영되던 갤러리 서호가 지방 문화의 균형적 발전을 도모하기 위해 경기도 남양주시 조안면 북한강변에 개관한 복합문화전시공간이다. 이후 2007년 1종 미술관으로 등록되며 지역의 문화예술 진흥과 미술 향유 기회 확대에 기여해 왔다. 개관 이후 현재까지 동시대 미술의 다양한 흐름을 반영한 전시와 인문학·체험 프로그램 등 폭넓은 문화행사를 꾸준히 개최하고 있다. 특히 신진작가 발굴과 지역작가 지원을 핵심 운영 방향으로 삼아 미래지향적 예술 담론을 형성하고, 예술을 통한 지역사회 문화 활성화에 앞장서고 있다. 전시뿐 아니라 교육기관 및 지역 단체와 연계하여 예술체험학습·인문학 특강·찾아가는 미술관 프로그램 등을 운영하며 예술의 대중화와 문화복지 실현을 위한 공공적 역할을 수행하고 있다. 이처럼 서호미술관은 자연과 예술, 지역과 인간이 어우러지는 복합문화예술공간으로 예술을 통해 삶의 풍요로움과 공동체의 문화적 성장을 지향하고 있다. 1층에는 약 70평 규모의 전시실과 학예실이, 2층에는 관람객의 휴식과 교류를 위한 100석 규모의 레스토랑이 마련되어 있다. 그리고 약 500평의 야외 정원은 문화행사, 야외조각전, 공연 등 예술과 자연이 공존하는 열린 문화의 장으로 활용되고 있다. 또한, 2017년에 40평 규모의 한옥 별관을 증축하여 전시 구성을 더욱 풍성하게 만들고, 한옥에 대한 이해를 높이고 있다.",
+      "bm25_document": "",
+      "best_span_id": null,
+      "best_span_text": null,
+      "fusion_score": 0.01639344262295082,
+      "retrieved_by": [
+        "vector"
+      ],
+      "fusion_rank": 1,
+      "name_match": true,
+      "rerank_score": null,
+      "rank": 1,
+      "score": 0.01639344262295082,
+      "score_type": "rrf",
+      "distance": 0.3610595464706421,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector"
+      ],
+      "retriever": "vector",
+      "source_doc_ids": [
+        "DOC-B0462-TOUR_API-130709"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0462-TOUR_API-130709",
+          "source_type": "TOUR_API",
+          "source_record_id": "130709",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=225",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 100,
+          "doc_ids": [
+            "DOC-B0462-TOUR_API-130709"
+          ]
+        },
+        {
+          "start": 101,
+          "end": 157,
+          "doc_ids": [
+            "DOC-B0462-TOUR_API-130709"
+          ]
+        },
+        {
+          "start": 158,
+          "end": 229,
+          "doc_ids": [
+            "DOC-B0462-TOUR_API-130709"
+          ]
+        },
+        {
+          "start": 230,
+          "end": 312,
+          "doc_ids": [
+            "DOC-B0462-TOUR_API-130709"
+          ]
+        },
+        {
+          "start": 313,
+          "end": 413,
+          "doc_ids": [
+            "DOC-B0462-TOUR_API-130709"
+          ]
+        },
+        {
+          "start": 414,
+          "end": 495,
+          "doc_ids": [
+            "DOC-B0462-TOUR_API-130709"
+          ]
+        },
+        {
+          "start": 496,
+          "end": 566,
+          "doc_ids": [
+            "DOC-B0462-TOUR_API-130709"
+          ]
+        },
+        {
+          "start": 567,
+          "end": 636,
+          "doc_ids": [
+            "DOC-B0462-TOUR_API-130709"
+          ]
+        },
+        {
+          "start": 637,
+          "end": 706,
+          "doc_ids": [
+            "DOC-B0462-TOUR_API-130709"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=225",
+      "text": "서호미술관은 2001년 5월 25일, 서울 인사동에서 운영되던 갤러리 서호가 지방 문화의 균형적 발전을 도모하기 위해 경기도 남양주시 조안면 북한강변에 개관한 복합문화전시공간이다. 이후 2007년 1종 미술관으로 등록되며 지역의 문화예술 진흥과 미술 향유 기회 확대에 기여해 왔다. 개관 이후 현재까지 동시대 미술의 다양한 흐름을 반영한 전시와 인문학·체험 프로그램 등 폭넓은 문화행사를 꾸준히 개최하고 있다. 특히 신진작가 발굴과 지역작가 지원을 핵심 운영 방향으로 삼아 미래지향적 예술 담론을 형성하고, 예술을 통한 지역사회 문화 활성화에 앞장서고 있다. 전시뿐 아니라 교육기관 및 지역 단체와 연계하여 예술체험학습·인문학 특강·찾아가는 미술관 프로그램 등을 운영하며 예술의 대중화와 문화복지 실현을 위한 공공적 역할을 수행하고 있다. 이처럼 서호미술관은 자연과 예술, 지역과 인간이 어우러지는 복합문화예술공간으로 예술을 통해 삶의 풍요로움과 공동체의 문화적 성장을 지향하고 있다. 1층에는 약 70평 규모의 전시실과 학예실이, 2층에는 관람객의 휴식과 교류를 위한 100석 규모의 레스토랑이 마련되어 있다. 그리고 약 500평의 야외 정원은 문화행사, 야외조각전, 공연 등 예술과 자연이 공존하는 열린 문화의 장으로 활용되고 있다. 또한, 2017년에 40평 규모의 한옥 별관을 증축하여 전시 구성을 더욱 풍성하게 만들고, 한옥에 대한 이해를 높이고 있다.",
+      "sido": "경기도",
+      "sigungu": "남양주시",
+      "span_id": "",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=225"
+      ],
+      "evidence_id": "E1",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=333",
+        "fields": {
+          "name": "서호미술관",
+          "sido": "경기도",
+          "sigungu": "남양주시",
+          "address": "경기도 남양주시 화도읍 북한강로 1344",
+          "ownership_type": "사립",
+          "adult_fee": "5000",
+          "youth_fee": "3000",
+          "child_fee": "2000",
+          "adult_fee_status": "BASE_FEE_PAID",
+          "weekday_open": "10:00",
+          "weekday_close": "18:00",
+          "holiday_open": "10:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "설 연휴+추석 연휴"
+        },
+        "base_data_date": "2026-04-01",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0118",
+      "name": "시안미술관",
+      "document": "시안미술관은 2004년 4월 시안아트센터로 설립하여 2004년 12월 박물관미술관진흥법에 의거 등록한 제1종 미술관이다. 경상북도 영천시 화산면에 폐교된 옛 초등학교를 리노베이션 하여 탄생한 복합문화예술공간이자 전문 미술관으로 수준 높은 문화서비스 기획과 프로그램의 제공을 통해 지역 문화예술발전에 기여하고 수도권 및 대도시와의 문화서비스 수준 격차의 해소와 점차 심화되고 있는 대도시 문화편중 현상을 극복하고자 한다. 또한 시안미술관이 소재하고 있는 가래실마을은 2011 문화체육관광부 마을미술프로젝트에 선정되어 가래실문화마을로 조성, 미술관과 마을의 경계를 없앤 지붕 없는 미술관이라는 키워드로 확장된 문화예술 인프라를 구축하고 있다. 시안미술관은 미술관 방문객에게 다양한 경험의 기회를 제공하고자 프로그램을 기획한다. 방문객이 미술관에서 다양한 문화예술 활동을 경험할 수 있도록 미술관 교육프로그램을 비롯하여 학교교육프로그램, 사회교육프로그램, 전시연계프로그램 등 미술로 경험할 수 있는 확장된 커리큘럼을 통해 수준 높은 프로그램을 제공하고 있다. 지역 사립미술관의 새로운 패러다임 시안미술관은 2004년 시안아트센터로 설립하여 2004년 12월 미술관등록이 허가된 제1종 사립미술관",
+      "metadata": {
+        "requires_manual_review": true,
+        "sigungu": "영천시",
+        "sido": "경상북도",
+        "weekday_close": "17:30",
+        "amenities_raw": "전시실+야외조각공원+글라스뷰+미술관 카페+미술관 레지던스룸+뮤지엄샵+아트스위치스튜디오",
+        "fee_notes": "무료(시안미술관멤버+보호자 동반 미취학 아동+영천시 화산면 주민+후원인 또는 후원기업 임직원)+50할인(장애인+국가유공자+영천시민+예술인패스 소지자)",
+        "closure_rule_raw": "월요일+설날당일+추석당일",
+        "source_types": "BASE|TOUR_API",
+        "transport_notes": "버스 : 241, 241-1, 331, 242, 242-2, 330",
+        "holiday_close": "17:30",
+        "weekday_open": "10:00",
+        "child_fee": 0.0,
+        "holiday_open": "10:00",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/74/3574574_image2_1.JPG",
+        "youth_fee": 3000.0,
+        "adult_fee": 4000.0,
+        "address": "경상북도 영천시 화산면 가래실로 364",
+        "longitude": 128.889217,
+        "image_copyright": "Type1",
+        "adult_fee_status": "BASE_FEE_PAID",
+        "homepage_url": "http://www.cianmuseum.org/",
+        "name": "시안미술관",
+        "ownership_type": "사립",
+        "latitude": 36.03276243
+      },
+      "vector_rank": 12,
+      "bm25_rank": 5,
+      "vector_distance": 0.536766767501831,
+      "vector_score": null,
+      "bm25_score": 5.61824430251689,
+      "vector_document": "시안미술관은 2004년 4월 시안아트센터로 설립하여 2004년 12월 박물관미술관진흥법에 의거 등록한 제1종 미술관이다. 경상북도 영천시 화산면에 폐교된 옛 초등학교를 리노베이션 하여 탄생한 복합문화예술공간이자 전문 미술관으로 수준 높은 문화서비스 기획과 프로그램의 제공을 통해 지역 문화예술발전에 기여하고 수도권 및 대도시와의 문화서비스 수준 격차의 해소와 점차 심화되고 있는 대도시 문화편중 현상을 극복하고자 한다. 또한 시안미술관이 소재하고 있는 가래실마을은 2011 문화체육관광부 마을미술프로젝트에 선정되어 가래실문화마을로 조성, 미술관과 마을의 경계를 없앤 지붕 없는 미술관이라는 키워드로 확장된 문화예술 인프라를 구축하고 있다. 시안미술관은 미술관 방문객에게 다양한 경험의 기회를 제공하고자 프로그램을 기획한다. 방문객이 미술관에서 다양한 문화예술 활동을 경험할 수 있도록 미술관 교육프로그램을 비롯하여 학교교육프로그램, 사회교육프로그램, 전시연계프로그램 등 미술로 경험할 수 있는 확장된 커리큘럼을 통해 수준 높은 프로그램을 제공하고 있다. 지역 사립미술관의 새로운 패러다임 시안미술관은 2004년 시안아트센터로 설립하여 2004년 12월 미술관등록이 허가된 제1종 사립미술관",
+      "bm25_document": "시안미술관은 2004년 4월 시안아트센터로 설립하여 2004년 12월 박물관미술관진흥법에 의거 등록한 제1종 미술관이다. 경상북도 영천시 화산면에 폐교된 옛 초등학교를 리노베이션 하여 탄생한 복합문화예술공간이자 전문 미술관으로 수준 높은 문화서비스 기획과 프로그램의 제공을 통해 지역 문화예술발전에 기여하고 수도권 및 대도시와의 문화서비스 수준 격차의 해소와 점차 심화되고 있는 대도시 문화편중 현상을 극복하고자 한다. 또한 시안미술관이 소재하고 있는 가래실마을은 2011 문화체육관광부 마을미술프로젝트에 선정되어 가래실문화마을로 조성, 미술관과 마을의 경계를 없앤 지붕 없는 미술관이라는 키워드로 확장된 문화예술 인프라를 구축하고 있다. 시안미술관은 미술관 방문객에게 다양한 경험의 기회를 제공하고자 프로그램을 기획한다. 방문객이 미술관에서 다양한 문화예술 활동을 경험할 수 있도록 미술관 교육프로그램을 비롯하여 학교교육프로그램, 사회교육프로그램, 전시연계프로그램 등 미술로 경험할 수 있는 확장된 커리큘럼을 통해 수준 높은 프로그램을 제공하고 있다. 지역 사립미술관의 새로운 패러다임 시안미술관은 2004년 시안아트센터로 설립하여 2004년 12월 미술관등록이 허가된 제1종 사립미술관",
+      "best_span_id": "chroma:M0118",
+      "best_span_text": "시안미술관은 2004년 4월 시안아트센터로 설립하여 2004년 12월 박물관미술관진흥법에 의거 등록한 제1종 미술관이다. 경상북도 영천시 화산면에 폐교된 옛 초등학교를 리노베이션 하여 탄생한 복합문화예술공간이자 전문 미술관으로 수준 높은 문화서비스 기획과 프로그램의 제공을 통해 지역 문화예술발전에 기여하고 수도권 및 대도시와의 문화서비스 수준 격차의 해소와 점차 심화되고 있는 대도시 문화편중 현상을 극복하고자 한다. 또한 시안미술관이 소재하고 있는 가래실마을은 2011 문화체육관광부 마을미술프로젝트에 선정되어 가래실문화마을로 조성, 미술관과 마을의 경계를 없앤 지붕 없는 미술관이라는 키워드로 확장된 문화예술 인프라를 구축하고 있다. 시안미술관은 미술관 방문객에게 다양한 경험의 기회를 제공하고자 프로그램을 기획한다. 방문객이 미술관에서 다양한 문화예술 활동을 경험할 수 있도록 미술관 교육프로그램을 비롯하여 학교교육프로그램, 사회교육프로그램, 전시연계프로그램 등 미술로 경험할 수 있는 확장된 커리큘럼을 통해 수준 높은 프로그램을 제공하고 있다. 지역 사립미술관의 새로운 패러다임 시안미술관은 2004년 시안아트센터로 설립하여 2004년 12월 미술관등록이 허가된 제1종 사립미술관",
+      "fusion_score": 0.029273504273504274,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 2,
+      "rerank_score": null,
+      "rank": 2,
+      "score": 0.029273504273504274,
+      "score_type": "rrf",
+      "distance": 0.536766767501831,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0118",
+      "source_doc_ids": [
+        "DOC-B0118-TOUR_API-615222",
+        "DOC-B0118-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0118-TOUR_API-615222",
+          "source_type": "TOUR_API",
+          "source_record_id": "615222",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=62",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        },
+        {
+          "doc_id": "DOC-B0118-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0118",
+          "source_locator": "data/raw/museum_base_1070.csv#row=119",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 67,
+          "doc_ids": [
+            "DOC-B0118-TOUR_API-615222"
+          ]
+        },
+        {
+          "start": 68,
+          "end": 234,
+          "doc_ids": [
+            "DOC-B0118-TOUR_API-615222"
+          ]
+        },
+        {
+          "start": 235,
+          "end": 357,
+          "doc_ids": [
+            "DOC-B0118-TOUR_API-615222"
+          ]
+        },
+        {
+          "start": 358,
+          "end": 404,
+          "doc_ids": [
+            "DOC-B0118-TOUR_API-615222"
+          ]
+        },
+        {
+          "start": 405,
+          "end": 533,
+          "doc_ids": [
+            "DOC-B0118-TOUR_API-615222"
+          ]
+        },
+        {
+          "start": 534,
+          "end": 609,
+          "doc_ids": [
+            "DOC-B0118-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=62",
+      "text": "시안미술관은 2004년 4월 시안아트센터로 설립하여 2004년 12월 박물관미술관진흥법에 의거 등록한 제1종 미술관이다. 경상북도 영천시 화산면에 폐교된 옛 초등학교를 리노베이션 하여 탄생한 복합문화예술공간이자 전문 미술관으로 수준 높은 문화서비스 기획과 프로그램의 제공을 통해 지역 문화예술발전에 기여하고 수도권 및 대도시와의 문화서비스 수준 격차의 해소와 점차 심화되고 있는 대도시 문화편중 현상을 극복하고자 한다. 또한 시안미술관이 소재하고 있는 가래실마을은 2011 문화체육관광부 마을미술프로젝트에 선정되어 가래실문화마을로 조성, 미술관과 마을의 경계를 없앤 지붕 없는 미술관이라는 키워드로 확장된 문화예술 인프라를 구축하고 있다. 시안미술관은 미술관 방문객에게 다양한 경험의 기회를 제공하고자 프로그램을 기획한다. 방문객이 미술관에서 다양한 문화예술 활동을 경험할 수 있도록 미술관 교육프로그램을 비롯하여 학교교육프로그램, 사회교육프로그램, 전시연계프로그램 등 미술로 경험할 수 있는 확장된 커리큘럼을 통해 수준 높은 프로그램을 제공하고 있다. 지역 사립미술관의 새로운 패러다임 시안미술관은 2004년 시안아트센터로 설립하여 2004년 12월 미술관등록이 허가된 제1종 사립미술관",
+      "sido": "경상북도",
+      "sigungu": "영천시",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=62"
+      ],
+      "evidence_id": "E2",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=78",
+        "fields": {
+          "name": "시안미술관",
+          "sido": "경상북도",
+          "sigungu": "영천시",
+          "address": "경상북도 영천시 화산면 가래실로 364",
+          "ownership_type": "사립",
+          "adult_fee": "4000",
+          "youth_fee": "3000",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_PAID",
+          "weekday_open": "10:00",
+          "weekday_close": "17:30",
+          "holiday_open": "10:00",
+          "holiday_close": "17:30",
+          "closure_rule_raw": "월요일+설날당일+추석당일",
+          "amenities_raw": "전시실+야외조각공원+글라스뷰+미술관 카페+미술관 레지던스룸+뮤지엄샵+아트스위치스튜디오"
+        },
+        "base_data_date": "2026-10-22",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0655",
+      "name": "대림미술관",
+      "document": "대림미술관은 서울 종로구 통의동에 위치한 사립 미술관으로 DL그룹 (구 대림그룹)에 의해 설립되었다. 1993년 대전에 개관한 한림갤러리에서 출발, 1997년 한국 최초의 사진 전문 미술관인 한림미술관을 운영하다 2002년 5월 서울로 이전해 현재의 대림미술관으로 재개관하며 디자인을 포함, 다양한 예술 장르를 넘나드는 감각적인 전시를 소개하며 그 영역을 확장하고 있다. 전시와 연계된 다양한 프로그램을 체험할 수 있으며, 일상 속에서 새로운 라이프스타일을 제안하는 문화 공간으로 자리하고 있다.",
+      "metadata": {
+        "child_fee": 6000.0,
+        "holiday_open": "11:00",
+        "ownership_type": "사립",
+        "closure_rule_raw": "월요일+추석 연휴",
+        "sido": "서울특별시",
+        "requires_manual_review": true,
+        "weekday_close": "20:00",
+        "address": "서울특별시 종로구 자하문로 4길 21",
+        "source_types": "TOUR_API",
+        "adult_fee": 18000.0,
+        "sigungu": "종로구",
+        "weekday_open": "11:00",
+        "holiday_close": "20:00",
+        "longitude": 126.9733647,
+        "adult_fee_status": "BASE_FEE_PAID",
+        "youth_fee": 9000.0,
+        "latitude": 37.57750352,
+        "name": "대림미술관",
+        "image_copyright": "Type1",
+        "homepage_url": "http://www.daelimmuseum.org/",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/57/3571557_image2_1.jpg"
+      },
+      "vector_rank": 13,
+      "bm25_rank": 11,
+      "vector_distance": 0.5371646881103516,
+      "vector_score": null,
+      "bm25_score": 5.359754602607618,
+      "vector_document": "대림미술관은 서울 종로구 통의동에 위치한 사립 미술관으로 DL그룹 (구 대림그룹)에 의해 설립되었다. 1993년 대전에 개관한 한림갤러리에서 출발, 1997년 한국 최초의 사진 전문 미술관인 한림미술관을 운영하다 2002년 5월 서울로 이전해 현재의 대림미술관으로 재개관하며 디자인을 포함, 다양한 예술 장르를 넘나드는 감각적인 전시를 소개하며 그 영역을 확장하고 있다. 전시와 연계된 다양한 프로그램을 체험할 수 있으며, 일상 속에서 새로운 라이프스타일을 제안하는 문화 공간으로 자리하고 있다.",
+      "bm25_document": "대림미술관은 서울 종로구 통의동에 위치한 사립 미술관으로 DL그룹 (구 대림그룹)에 의해 설립되었다. 1993년 대전에 개관한 한림갤러리에서 출발, 1997년 한국 최초의 사진 전문 미술관인 한림미술관을 운영하다 2002년 5월 서울로 이전해 현재의 대림미술관으로 재개관하며 디자인을 포함, 다양한 예술 장르를 넘나드는 감각적인 전시를 소개하며 그 영역을 확장하고 있다. 전시와 연계된 다양한 프로그램을 체험할 수 있으며, 일상 속에서 새로운 라이프스타일을 제안하는 문화 공간으로 자리하고 있다.",
+      "best_span_id": "chroma:M0655",
+      "best_span_text": "대림미술관은 서울 종로구 통의동에 위치한 사립 미술관으로 DL그룹 (구 대림그룹)에 의해 설립되었다. 1993년 대전에 개관한 한림갤러리에서 출발, 1997년 한국 최초의 사진 전문 미술관인 한림미술관을 운영하다 2002년 5월 서울로 이전해 현재의 대림미술관으로 재개관하며 디자인을 포함, 다양한 예술 장르를 넘나드는 감각적인 전시를 소개하며 그 영역을 확장하고 있다. 전시와 연계된 다양한 프로그램을 체험할 수 있으며, 일상 속에서 새로운 라이프스타일을 제안하는 문화 공간으로 자리하고 있다.",
+      "fusion_score": 0.027783137179239824,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 3,
+      "rerank_score": null,
+      "rank": 3,
+      "score": 0.027783137179239824,
+      "score_type": "rrf",
+      "distance": 0.5371646881103516,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0655",
+      "source_doc_ids": [
+        "DOC-B0655-TOUR_API-130459"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0655-TOUR_API-130459",
+          "source_type": "TOUR_API",
+          "source_record_id": "130459",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=325",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 56,
+          "doc_ids": [
+            "DOC-B0655-TOUR_API-130459"
+          ]
+        },
+        {
+          "start": 57,
+          "end": 207,
+          "doc_ids": [
+            "DOC-B0655-TOUR_API-130459"
+          ]
+        },
+        {
+          "start": 208,
+          "end": 277,
+          "doc_ids": [
+            "DOC-B0655-TOUR_API-130459"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=325",
+      "text": "대림미술관은 서울 종로구 통의동에 위치한 사립 미술관으로 DL그룹 (구 대림그룹)에 의해 설립되었다. 1993년 대전에 개관한 한림갤러리에서 출발, 1997년 한국 최초의 사진 전문 미술관인 한림미술관을 운영하다 2002년 5월 서울로 이전해 현재의 대림미술관으로 재개관하며 디자인을 포함, 다양한 예술 장르를 넘나드는 감각적인 전시를 소개하며 그 영역을 확장하고 있다. 전시와 연계된 다양한 프로그램을 체험할 수 있으며, 일상 속에서 새로운 라이프스타일을 제안하는 문화 공간으로 자리하고 있다.",
+      "sido": "서울특별시",
+      "sigungu": "종로구",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=325"
+      ],
+      "evidence_id": "E3",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=451",
+        "fields": {
+          "name": "대림미술관",
+          "sido": "서울특별시",
+          "sigungu": "종로구",
+          "address": "서울특별시 종로구 자하문로 4길 21",
+          "ownership_type": "사립",
+          "adult_fee": "18000",
+          "youth_fee": "9000",
+          "child_fee": "6000",
+          "adult_fee_status": "BASE_FEE_PAID",
+          "weekday_open": "11:00",
+          "weekday_close": "20:00",
+          "holiday_open": "11:00",
+          "holiday_close": "20:00",
+          "closure_rule_raw": "월요일+추석 연휴"
+        },
+        "base_data_date": "2025-11-01",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0869",
+      "name": "호암미술관",
+      "document": "우리나라 최초의 사립미술관인 호암미술관은 삼성그룹의 창업주인［故 호암 湖巖 이병철 선생］이 30여 년에 걸쳐 수집한 한국미술품 1천2백여 점을 바탕으로 1982년 4월 22일에 개관하였다. 미술관 2층에는 라운지가 있어 전시 관람 후 휴식을 취하며 희원을 한눈에 감상할 수 있다. 또한, 미술관 주차장에는 관람객의 편의를 위하여 매점, 기념품점 등 편의시설이 마련되어 있다.",
+      "metadata": {
+        "weekday_open": "10:00",
+        "sigungu": "용인시",
+        "address": "경기도 용인시 처인구 포곡읍 에버랜드로562번길 38",
+        "weekday_close": "18:00",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/93/3086393_image2_1.jpg",
+        "homepage_url": "https://www.hoammuseum.org",
+        "youth_fee": 7000.0,
+        "source_types": "TOUR_API",
+        "holiday_open": "10:00",
+        "sido": "경기도",
+        "name": "호암미술관",
+        "adult_fee": 14000.0,
+        "holiday_close": "18:00",
+        "child_fee": 0.0,
+        "adult_fee_status": "BASE_FEE_PAID",
+        "closure_rule_raw": "매주 월요일,신정,설(당일),추석(당일)",
+        "ownership_type": "사립",
+        "longitude": 127.192333,
+        "fee_notes": "0",
+        "image_copyright": "Type3",
+        "requires_manual_review": true,
+        "latitude": 37.29321604
+      },
+      "vector_rank": 8,
+      "bm25_rank": 19,
+      "vector_distance": 0.5156115889549255,
+      "vector_score": null,
+      "bm25_score": 5.195165433720287,
+      "vector_document": "우리나라 최초의 사립미술관인 호암미술관은 삼성그룹의 창업주인［故 호암 湖巖 이병철 선생］이 30여 년에 걸쳐 수집한 한국미술품 1천2백여 점을 바탕으로 1982년 4월 22일에 개관하였다. 미술관 2층에는 라운지가 있어 전시 관람 후 휴식을 취하며 희원을 한눈에 감상할 수 있다. 또한, 미술관 주차장에는 관람객의 편의를 위하여 매점, 기념품점 등 편의시설이 마련되어 있다.",
+      "bm25_document": "우리나라 최초의 사립미술관인 호암미술관은 삼성그룹의 창업주인［故 호암 湖巖 이병철 선생］이 30여 년에 걸쳐 수집한 한국미술품 1천2백여 점을 바탕으로 1982년 4월 22일에 개관하였다. 미술관 2층에는 라운지가 있어 전시 관람 후 휴식을 취하며 희원을 한눈에 감상할 수 있다. 또한, 미술관 주차장에는 관람객의 편의를 위하여 매점, 기념품점 등 편의시설이 마련되어 있다.",
+      "best_span_id": "chroma:M0869",
+      "best_span_text": "우리나라 최초의 사립미술관인 호암미술관은 삼성그룹의 창업주인［故 호암 湖巖 이병철 선생］이 30여 년에 걸쳐 수집한 한국미술품 1천2백여 점을 바탕으로 1982년 4월 22일에 개관하였다. 미술관 2층에는 라운지가 있어 전시 관람 후 휴식을 취하며 희원을 한눈에 감상할 수 있다. 또한, 미술관 주차장에는 관람객의 편의를 위하여 매점, 기념품점 등 편의시설이 마련되어 있다.",
+      "fusion_score": 0.027364110201042444,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 4,
+      "rerank_score": null,
+      "rank": 4,
+      "score": 0.027364110201042444,
+      "score_type": "rrf",
+      "distance": 0.5156115889549255,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0869",
+      "source_doc_ids": [
+        "DOC-B0869-TOUR_API-129765"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0869-TOUR_API-129765",
+          "source_type": "TOUR_API",
+          "source_record_id": "129765",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=411",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 105,
+          "doc_ids": [
+            "DOC-B0869-TOUR_API-129765"
+          ]
+        },
+        {
+          "start": 106,
+          "end": 156,
+          "doc_ids": [
+            "DOC-B0869-TOUR_API-129765"
+          ]
+        },
+        {
+          "start": 157,
+          "end": 209,
+          "doc_ids": [
+            "DOC-B0869-TOUR_API-129765"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=411",
+      "text": "우리나라 최초의 사립미술관인 호암미술관은 삼성그룹의 창업주인［故 호암 湖巖 이병철 선생］이 30여 년에 걸쳐 수집한 한국미술품 1천2백여 점을 바탕으로 1982년 4월 22일에 개관하였다. 미술관 2층에는 라운지가 있어 전시 관람 후 휴식을 취하며 희원을 한눈에 감상할 수 있다. 또한, 미술관 주차장에는 관람객의 편의를 위하여 매점, 기념품점 등 편의시설이 마련되어 있다.",
+      "sido": "경기도",
+      "sigungu": "용인시",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=411"
+      ],
+      "evidence_id": "E4",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=592",
+        "fields": {
+          "name": "호암미술관",
+          "sido": "경기도",
+          "sigungu": "용인시",
+          "address": "경기도 용인시 처인구 포곡읍 에버랜드로562번길 38",
+          "ownership_type": "사립",
+          "adult_fee": "14000",
+          "youth_fee": "7000",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_PAID",
+          "weekday_open": "10:00",
+          "weekday_close": "18:00",
+          "holiday_open": "10:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "매주 월요일,신정,설(당일),추석(당일)"
+        },
+        "base_data_date": "2024-11-29",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0316",
+      "name": "여주미술관",
+      "document": "경기도 여주시에 위치해 있는 미술관이다. 2019년 개관하였으며 미술관 설립자이자 작가인 박해룡의 작품들과 수집한 미술작품 700여 점을 상시 전시하고 있다. 깔끔한 외관과 아기자기한 공간 구성으로 현대인들의 감성을 자극하는 장소이며 여주 미술관의 감성을 닮은 카페 돈키호테는 독특한 소품들로 내부를 꾸며놓았다, 미술관 감상 후 조용하고 한적하여 카페에서 잔디정원을 바라보며 휴식하기에 좋다. 수도권에서 멀지 않은 곳에 있어 주말 나들이 삼아 방문하기 손색없는 곳이다. 2019년 개관하여 시민들이 일상속에서 미술을 친근하고 편안하게 접할 수 있는 공간. 미술관에는 설립자이자 작가로 활동중인 박해룡의 작품들과 그동안 수집한 미술 작품들 700점을 상시로 전시한 공간이다.",
+      "metadata": {
+        "homepage_url": "https://yeojuartmuseum.com/",
+        "requires_manual_review": true,
+        "amenities_raw": "a Book Museum+카페",
+        "sido": "경기도",
+        "latitude": 37.2647726,
+        "adult_fee_status": "BASE_FEE_PAID",
+        "address": "경기도 여주시 세종로 394-36",
+        "weekday_open": "11:00",
+        "longitude": 127.637079,
+        "sigungu": "여주시",
+        "holiday_open": "11:00",
+        "weekday_close": "17:00",
+        "child_fee": 6000.0,
+        "youth_fee": 8000.0,
+        "ownership_type": "사립",
+        "image_copyright": "Type3",
+        "closure_rule_raw": "월요일+화요일+설날당일+추석당일",
+        "source_types": "BASE|TOUR_API",
+        "name": "여주미술관",
+        "adult_fee": 12000.0,
+        "image_url": "http://tong.visitkorea.or.kr/cms/resource/84/2765684_image2_1.jpeg",
+        "fee_notes": "여주시민(중복할인가능)+2000원할인(65세이상+장애인(복지카드소지자))+무료(만3세미만 어린이+군인)",
+        "transport_notes": "여주톨게이트→여주대학교 방면→코카콜라 사거리에서 좌회전→첫 번째 골목에서 우회전",
+        "holiday_close": "17:00"
+      },
+      "vector_rank": 15,
+      "bm25_rank": 18,
+      "vector_distance": 0.5427948236465454,
+      "vector_score": null,
+      "bm25_score": 5.233612327174427,
+      "vector_document": "경기도 여주시에 위치해 있는 미술관이다. 2019년 개관하였으며 미술관 설립자이자 작가인 박해룡의 작품들과 수집한 미술작품 700여 점을 상시 전시하고 있다. 깔끔한 외관과 아기자기한 공간 구성으로 현대인들의 감성을 자극하는 장소이며 여주 미술관의 감성을 닮은 카페 돈키호테는 독특한 소품들로 내부를 꾸며놓았다, 미술관 감상 후 조용하고 한적하여 카페에서 잔디정원을 바라보며 휴식하기에 좋다. 수도권에서 멀지 않은 곳에 있어 주말 나들이 삼아 방문하기 손색없는 곳이다. 2019년 개관하여 시민들이 일상속에서 미술을 친근하고 편안하게 접할 수 있는 공간. 미술관에는 설립자이자 작가로 활동중인 박해룡의 작품들과 그동안 수집한 미술 작품들 700점을 상시로 전시한 공간이다.",
+      "bm25_document": "경기도 여주시에 위치해 있는 미술관이다. 2019년 개관하였으며 미술관 설립자이자 작가인 박해룡의 작품들과 수집한 미술작품 700여 점을 상시 전시하고 있다. 깔끔한 외관과 아기자기한 공간 구성으로 현대인들의 감성을 자극하는 장소이며 여주 미술관의 감성을 닮은 카페 돈키호테는 독특한 소품들로 내부를 꾸며놓았다, 미술관 감상 후 조용하고 한적하여 카페에서 잔디정원을 바라보며 휴식하기에 좋다. 수도권에서 멀지 않은 곳에 있어 주말 나들이 삼아 방문하기 손색없는 곳이다. 2019년 개관하여 시민들이 일상속에서 미술을 친근하고 편안하게 접할 수 있는 공간. 미술관에는 설립자이자 작가로 활동중인 박해룡의 작품들과 그동안 수집한 미술 작품들 700점을 상시로 전시한 공간이다.",
+      "best_span_id": "chroma:M0316",
+      "best_span_text": "경기도 여주시에 위치해 있는 미술관이다. 2019년 개관하였으며 미술관 설립자이자 작가인 박해룡의 작품들과 수집한 미술작품 700여 점을 상시 전시하고 있다. 깔끔한 외관과 아기자기한 공간 구성으로 현대인들의 감성을 자극하는 장소이며 여주 미술관의 감성을 닮은 카페 돈키호테는 독특한 소품들로 내부를 꾸며놓았다, 미술관 감상 후 조용하고 한적하여 카페에서 잔디정원을 바라보며 휴식하기에 좋다. 수도권에서 멀지 않은 곳에 있어 주말 나들이 삼아 방문하기 손색없는 곳이다. 2019년 개관하여 시민들이 일상속에서 미술을 친근하고 편안하게 접할 수 있는 공간. 미술관에는 설립자이자 작가로 활동중인 박해룡의 작품들과 그동안 수집한 미술 작품들 700점을 상시로 전시한 공간이다.",
+      "fusion_score": 0.026153846153846153,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 5,
+      "rerank_score": null,
+      "rank": 5,
+      "score": 0.026153846153846153,
+      "score_type": "rrf",
+      "distance": 0.5427948236465454,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0316",
+      "source_doc_ids": [
+        "DOC-B0316-TOUR_API-2766513",
+        "DOC-B0316-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0316-TOUR_API-2766513",
+          "source_type": "TOUR_API",
+          "source_record_id": "2766513",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=155",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        },
+        {
+          "doc_id": "DOC-B0316-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0316",
+          "source_locator": "data/raw/museum_base_1070.csv#row=317",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 22,
+          "doc_ids": [
+            "DOC-B0316-TOUR_API-2766513"
+          ]
+        },
+        {
+          "start": 23,
+          "end": 88,
+          "doc_ids": [
+            "DOC-B0316-TOUR_API-2766513"
+          ]
+        },
+        {
+          "start": 89,
+          "end": 219,
+          "doc_ids": [
+            "DOC-B0316-TOUR_API-2766513"
+          ]
+        },
+        {
+          "start": 220,
+          "end": 262,
+          "doc_ids": [
+            "DOC-B0316-TOUR_API-2766513"
+          ]
+        },
+        {
+          "start": 263,
+          "end": 310,
+          "doc_ids": [
+            "DOC-B0316-BASE"
+          ]
+        },
+        {
+          "start": 311,
+          "end": 376,
+          "doc_ids": [
+            "DOC-B0316-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=155",
+      "text": "경기도 여주시에 위치해 있는 미술관이다. 2019년 개관하였으며 미술관 설립자이자 작가인 박해룡의 작품들과 수집한 미술작품 700여 점을 상시 전시하고 있다. 깔끔한 외관과 아기자기한 공간 구성으로 현대인들의 감성을 자극하는 장소이며 여주 미술관의 감성을 닮은 카페 돈키호테는 독특한 소품들로 내부를 꾸며놓았다, 미술관 감상 후 조용하고 한적하여 카페에서 잔디정원을 바라보며 휴식하기에 좋다. 수도권에서 멀지 않은 곳에 있어 주말 나들이 삼아 방문하기 손색없는 곳이다. 2019년 개관하여 시민들이 일상속에서 미술을 친근하고 편안하게 접할 수 있는 공간. 미술관에는 설립자이자 작가로 활동중인 박해룡의 작품들과 그동안 수집한 미술 작품들 700점을 상시로 전시한 공간이다.",
+      "sido": "경기도",
+      "sigungu": "여주시",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=155"
+      ],
+      "evidence_id": "E5",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=229",
+        "fields": {
+          "name": "여주미술관",
+          "sido": "경기도",
+          "sigungu": "여주시",
+          "address": "경기도 여주시 세종로 394-36",
+          "ownership_type": "사립",
+          "adult_fee": "12000",
+          "youth_fee": "8000",
+          "child_fee": "6000",
+          "adult_fee_status": "BASE_FEE_PAID",
+          "weekday_open": "11:00",
+          "weekday_close": "17:00",
+          "holiday_open": "11:00",
+          "holiday_close": "17:00",
+          "closure_rule_raw": "월요일+화요일+설날당일+추석당일",
+          "amenities_raw": "a Book Museum+카페"
+        },
+        "base_data_date": "2026-05-19",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    }
+  ],
+  "answer": "서호미술관은 경기도 남양주시 화도읍 북한강로 1344에 있습니다. [E1]",
+  "retrieval_status": "ok",
+  "answer_status": "answered",
+  "route": "hybrid",
+  "retry_count": 0,
+  "supervisor_verified": true,
+  "rerank_applied": false,
+  "retriever_errors": [],
+  "warnings": [
+    "Cross-Encoder reranking failed (FileNotFoundError); RRF order retained"
+  ],
+  "duration_ms": 14856.31,
+  "error_type": "",
+  "hit_at_1": 1,
+  "hit_at_3": 1,
+  "hit_at_5": 1,
+  "recall_at_5": 1.0,
+  "mrr_at_10": 1.0
+}

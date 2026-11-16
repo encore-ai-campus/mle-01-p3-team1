@@ -1,0 +1,79 @@
+{
+  "evidence_context_version": "grounded-evidence-v2",
+  "evaluation_contexts": [
+    "{\"evidence_context_version\": \"grounded-evidence-v2\", \"evidence_id\": \"E1\", \"facility_type\": \"미술관\", \"museum_id\": \"M0269\", \"name\": \"전혁림미술관\", \"sido\": \"경상남도\", \"sigungu\": \"통영시\", \"source_doc_ids\": [\"DOC-B0269-BASE\"], \"source_locator\": \"data/raw/museum_base_1070.csv#row=270\", \"source_locators\": [\"data/raw/museum_base_1070.csv#row=270\"], \"source_urls\": [], \"text\": \"전혁림 화백이 1975년부터 30년 가까이 생활하던 집을 헐고 새로운 창조의 공간으로 신축하여 2003년 5월 11일 미술관으로 개관. 전혁림 화백의 작품과 관련 자료를 상설 전시하고 있으며, 봄, 가을 기획전을 개최함\"}",
+    "{\"evidence_context_version\": \"grounded-evidence-v2\", \"evidence_id\": \"E2\", \"facility_type\": \"미술관\", \"museum_id\": \"M0270\", \"name\": \"통영옻칠미술관\", \"sido\": \"경상남도\", \"sigungu\": \"통영시\", \"source_doc_ids\": [\"DOC-B0270-BASE\"], \"source_locator\": \"data/raw/museum_base_1070.csv#row=271\", \"source_locators\": [\"data/raw/museum_base_1070.csv#row=271\"], \"source_urls\": [], \"text\": \"전통옻칠예술과 현대화된 옻칠창작예술을 감상할 수 있는 국내 유일의 옻칠미술관\"}"
+  ],
+  "mode": "supervisor_full",
+  "question_id": "V2-ET03",
+  "evidence": [
+    {
+      "museum_id": "M0269",
+      "name": "전혁림미술관",
+      "text": "전혁림 화백이 1975년부터 30년 가까이 생활하던 집을 헐고 새로운 창조의 공간으로 신축하여 2003년 5월 11일 미술관으로 개관. 전혁림 화백의 작품과 관련 자료를 상설 전시하고 있으며, 봄, 가을 기획전을 개최함",
+      "span_id": "",
+      "source_doc_ids": [
+        "DOC-B0269-BASE"
+      ],
+      "source_urls": [],
+      "source_url": "",
+      "source_locators": [
+        "data/raw/museum_base_1070.csv#row=270"
+      ],
+      "source_locator": "data/raw/museum_base_1070.csv#row=270",
+      "sido": "경상남도",
+      "sigungu": "통영시",
+      "retriever": "graph",
+      "facility_type": "미술관",
+      "metadata": {},
+      "chunk_id": "",
+      "retrievers": [
+        "graph"
+      ],
+      "evidence_id": "E1",
+      "rank": 1
+    },
+    {
+      "museum_id": "M0270",
+      "name": "통영옻칠미술관",
+      "text": "전통옻칠예술과 현대화된 옻칠창작예술을 감상할 수 있는 국내 유일의 옻칠미술관",
+      "span_id": "",
+      "source_doc_ids": [
+        "DOC-B0270-BASE"
+      ],
+      "source_urls": [],
+      "source_url": "",
+      "source_locators": [
+        "data/raw/museum_base_1070.csv#row=271"
+      ],
+      "source_locator": "data/raw/museum_base_1070.csv#row=271",
+      "sido": "경상남도",
+      "sigungu": "통영시",
+      "retriever": "graph",
+      "facility_type": "미술관",
+      "metadata": {},
+      "chunk_id": "",
+      "retrievers": [
+        "graph"
+      ],
+      "evidence_id": "E2",
+      "rank": 2
+    }
+  ],
+  "answer": "통영시에 있는 미술관으로는 전혁림미술관과 통영옻칠미술관이 있습니다.[E1][E2]",
+  "retrieval_status": "ok",
+  "answer_status": "answered",
+  "route": "graph",
+  "retry_count": 1,
+  "supervisor_verified": true,
+  "rerank_applied": false,
+  "retriever_errors": [],
+  "warnings": [],
+  "duration_ms": 107467.58,
+  "error_type": "",
+  "hit_at_1": 1,
+  "hit_at_3": 1,
+  "hit_at_5": 1,
+  "recall_at_5": 1.0,
+  "mrr_at_10": 1.0
+}

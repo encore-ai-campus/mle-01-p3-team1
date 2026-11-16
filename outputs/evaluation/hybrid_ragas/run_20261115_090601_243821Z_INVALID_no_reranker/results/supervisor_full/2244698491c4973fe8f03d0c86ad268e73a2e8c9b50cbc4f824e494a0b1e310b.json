@@ -1,0 +1,767 @@
+{
+  "mode": "supervisor_full",
+  "question_id": "Q186",
+  "evidence": [
+    {
+      "museum_id": "M0304",
+      "name": "서천 이하복 고택 전시관",
+      "document": "서천 이하복 고택은 우리나라 중부지방의 전통농가(큰집) 형태를 그대로 간직한 채 보존되고 있는 대표적인 가옥으로서 그 가치를 인정 받아 1984년 12월 24일 중요민속자료 제 197호로 지정되었다. 19세기 후반 안채를 짓고 20세기 초에 사랑채·아래채·광채를 지으면서 안채를 늘려지었다. 안마당을 중심으로 ”ㄱ”자형의 안채와 그 앞쪽으로 ”ㅡ”자형의 사랑채, 안채의 왼쪽에 광채가 있어 튼 ”ㅁ”자형 배치를 하였다. 또한 사랑채의 오른쪽에는 2칸 정도 떨어져서 ”ㅡ”자형의 아래채가 자리잡고 있다. 안채는 원래 부?과 방 2개로 구성된 3칸집이었으나, 후대에 왼쪽의 부엌을 늘리고 오른쪽으로 대청과 방·부엌 겸 헛간으로 사용하는 ”헛청”을 덧달았다. 사랑채는 왼쪽에 대문을 내고, 부엌과 사랑방으로 구성되었다. 아래채는 며느리가 거처하는 독립적인 공간으로, 부엌과 방 2개, 광으로 구성되어 살림을 따로 하게 되어있다. 필요이상의 재료나 멋을 전혀 부리지 않은채 전형적인 민간기법을 사용하며 매우 검소하고 소박하게 지어진 것으로 유명하다. 고택 옆에 지어진 서천 이하복 고택 전시관은 생전에 이하복 선생의 손때가 묻은 생활용품들을 비롯한 유물들이 전시되어있다.",
+      "metadata": {
+        "holiday_close": "17:00",
+        "homepage_url": "http://tour.seocheon.go.kr/",
+        "ownership_type": "공립",
+        "weekday_close": "17:00",
+        "amenities_raw": "전시실+영상실+체험실+장애인 휠체어 리프트+주차장",
+        "address": "충청남도 서천군 기산면 신막로 57번길 32-3",
+        "child_fee": 0.0,
+        "holiday_open": "10:00",
+        "closure_rule_raw": "월+1월1일+설날+추석",
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "name": "서천 이하복 고택 전시관",
+        "longitude": 126.7592669,
+        "sido": "충청남도",
+        "source_types": "BASE",
+        "weekday_open": "10:00",
+        "youth_fee": 0.0,
+        "adult_fee": 0.0,
+        "fee_notes": "0",
+        "requires_manual_review": true,
+        "sigungu": "서천군",
+        "latitude": 36.0809383
+      },
+      "vector_rank": 1,
+      "bm25_rank": 1,
+      "vector_distance": 0.5986277461051941,
+      "vector_score": null,
+      "bm25_score": 30.71362660466833,
+      "vector_document": "서천 이하복 고택은 우리나라 중부지방의 전통농가(큰집) 형태를 그대로 간직한 채 보존되고 있는 대표적인 가옥으로서 그 가치를 인정 받아 1984년 12월 24일 중요민속자료 제 197호로 지정되었다. 19세기 후반 안채를 짓고 20세기 초에 사랑채·아래채·광채를 지으면서 안채를 늘려지었다. 안마당을 중심으로 ”ㄱ”자형의 안채와 그 앞쪽으로 ”ㅡ”자형의 사랑채, 안채의 왼쪽에 광채가 있어 튼 ”ㅁ”자형 배치를 하였다. 또한 사랑채의 오른쪽에는 2칸 정도 떨어져서 ”ㅡ”자형의 아래채가 자리잡고 있다. 안채는 원래 부?과 방 2개로 구성된 3칸집이었으나, 후대에 왼쪽의 부엌을 늘리고 오른쪽으로 대청과 방·부엌 겸 헛간으로 사용하는 ”헛청”을 덧달았다. 사랑채는 왼쪽에 대문을 내고, 부엌과 사랑방으로 구성되었다. 아래채는 며느리가 거처하는 독립적인 공간으로, 부엌과 방 2개, 광으로 구성되어 살림을 따로 하게 되어있다. 필요이상의 재료나 멋을 전혀 부리지 않은채 전형적인 민간기법을 사용하며 매우 검소하고 소박하게 지어진 것으로 유명하다. 고택 옆에 지어진 서천 이하복 고택 전시관은 생전에 이하복 선생의 손때가 묻은 생활용품들을 비롯한 유물들이 전시되어있다.",
+      "bm25_document": "서천 이하복 고택은 우리나라 중부지방의 전통농가(큰집) 형태를 그대로 간직한 채 보존되고 있는 대표적인 가옥으로서 그 가치를 인정 받아 1984년 12월 24일 중요민속자료 제 197호로 지정되었다. 19세기 후반 안채를 짓고 20세기 초에 사랑채·아래채·광채를 지으면서 안채를 늘려지었다. 안마당을 중심으로 ”ㄱ”자형의 안채와 그 앞쪽으로 ”ㅡ”자형의 사랑채, 안채의 왼쪽에 광채가 있어 튼 ”ㅁ”자형 배치를 하였다. 또한 사랑채의 오른쪽에는 2칸 정도 떨어져서 ”ㅡ”자형의 아래채가 자리잡고 있다. 안채는 원래 부?과 방 2개로 구성된 3칸집이었으나, 후대에 왼쪽의 부엌을 늘리고 오른쪽으로 대청과 방·부엌 겸 헛간으로 사용하는 ”헛청”을 덧달았다. 사랑채는 왼쪽에 대문을 내고, 부엌과 사랑방으로 구성되었다. 아래채는 며느리가 거처하는 독립적인 공간으로, 부엌과 방 2개, 광으로 구성되어 살림을 따로 하게 되어있다. 필요이상의 재료나 멋을 전혀 부리지 않은채 전형적인 민간기법을 사용하며 매우 검소하고 소박하게 지어진 것으로 유명하다. 고택 옆에 지어진 서천 이하복 고택 전시관은 생전에 이하복 선생의 손때가 묻은 생활용품들을 비롯한 유물들이 전시되어있다.",
+      "best_span_id": "chroma:M0304",
+      "best_span_text": "서천 이하복 고택은 우리나라 중부지방의 전통농가(큰집) 형태를 그대로 간직한 채 보존되고 있는 대표적인 가옥으로서 그 가치를 인정 받아 1984년 12월 24일 중요민속자료 제 197호로 지정되었다. 19세기 후반 안채를 짓고 20세기 초에 사랑채·아래채·광채를 지으면서 안채를 늘려지었다. 안마당을 중심으로 ”ㄱ”자형의 안채와 그 앞쪽으로 ”ㅡ”자형의 사랑채, 안채의 왼쪽에 광채가 있어 튼 ”ㅁ”자형 배치를 하였다. 또한 사랑채의 오른쪽에는 2칸 정도 떨어져서 ”ㅡ”자형의 아래채가 자리잡고 있다. 안채는 원래 부?과 방 2개로 구성된 3칸집이었으나, 후대에 왼쪽의 부엌을 늘리고 오른쪽으로 대청과 방·부엌 겸 헛간으로 사용하는 ”헛청”을 덧달았다. 사랑채는 왼쪽에 대문을 내고, 부엌과 사랑방으로 구성되었다. 아래채는 며느리가 거처하는 독립적인 공간으로, 부엌과 방 2개, 광으로 구성되어 살림을 따로 하게 되어있다. 필요이상의 재료나 멋을 전혀 부리지 않은채 전형적인 민간기법을 사용하며 매우 검소하고 소박하게 지어진 것으로 유명하다. 고택 옆에 지어진 서천 이하복 고택 전시관은 생전에 이하복 선생의 손때가 묻은 생활용품들을 비롯한 유물들이 전시되어있다.",
+      "fusion_score": 0.03278688524590164,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 1,
+      "rerank_score": null,
+      "rank": 1,
+      "score": 0.03278688524590164,
+      "score_type": "rrf",
+      "distance": 0.5986277461051941,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0304",
+      "source_doc_ids": [
+        "DOC-B0304-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0304-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0304",
+          "source_locator": "data/raw/museum_base_1070.csv#row=305",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 111,
+          "doc_ids": [
+            "DOC-B0304-BASE"
+          ]
+        },
+        {
+          "start": 112,
+          "end": 162,
+          "doc_ids": [
+            "DOC-B0304-BASE"
+          ]
+        },
+        {
+          "start": 163,
+          "end": 234,
+          "doc_ids": [
+            "DOC-B0304-BASE"
+          ]
+        },
+        {
+          "start": 235,
+          "end": 280,
+          "doc_ids": [
+            "DOC-B0304-BASE"
+          ]
+        },
+        {
+          "start": 281,
+          "end": 365,
+          "doc_ids": [
+            "DOC-B0304-BASE"
+          ]
+        },
+        {
+          "start": 366,
+          "end": 399,
+          "doc_ids": [
+            "DOC-B0304-BASE"
+          ]
+        },
+        {
+          "start": 400,
+          "end": 460,
+          "doc_ids": [
+            "DOC-B0304-BASE"
+          ]
+        },
+        {
+          "start": 461,
+          "end": 527,
+          "doc_ids": [
+            "DOC-B0304-BASE"
+          ]
+        },
+        {
+          "start": 528,
+          "end": 595,
+          "doc_ids": [
+            "DOC-B0304-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_base_1070.csv#row=305",
+      "text": "서천 이하복 고택은 우리나라 중부지방의 전통농가(큰집) 형태를 그대로 간직한 채 보존되고 있는 대표적인 가옥으로서 그 가치를 인정 받아 1984년 12월 24일 중요민속자료 제 197호로 지정되었다. 19세기 후반 안채를 짓고 20세기 초에 사랑채·아래채·광채를 지으면서 안채를 늘려지었다. 안마당을 중심으로 ”ㄱ”자형의 안채와 그 앞쪽으로 ”ㅡ”자형의 사랑채, 안채의 왼쪽에 광채가 있어 튼 ”ㅁ”자형 배치를 하였다. 또한 사랑채의 오른쪽에는 2칸 정도 떨어져서 ”ㅡ”자형의 아래채가 자리잡고 있다. 안채는 원래 부?과 방 2개로 구성된 3칸집이었으나, 후대에 왼쪽의 부엌을 늘리고 오른쪽으로 대청과 방·부엌 겸 헛간으로 사용하는 ”헛청”을 덧달았다. 사랑채는 왼쪽에 대문을 내고, 부엌과 사랑방으로 구성되었다. 아래채는 며느리가 거처하는 독립적인 공간으로, 부엌과 방 2개, 광으로 구성되어 살림을 따로 하게 되어있다. 필요이상의 재료나 멋을 전혀 부리지 않은채 전형적인 민간기법을 사용하며 매우 검소하고 소박하게 지어진 것으로 유명하다. 고택 옆에 지어진 서천 이하복 고택 전시관은 생전에 이하복 선생의 손때가 묻은 생활용품들을 비롯한 유물들이 전시되어있다.",
+      "sido": "충청남도",
+      "sigungu": "서천군",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_base_1070.csv#row=305"
+      ],
+      "evidence_id": "E1",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=217",
+        "fields": {
+          "name": "서천 이하복 고택 전시관",
+          "sido": "충청남도",
+          "sigungu": "서천군",
+          "address": "충청남도 서천군 기산면 신막로 57번길 32-3",
+          "ownership_type": "공립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "10:00",
+          "weekday_close": "17:00",
+          "holiday_open": "10:00",
+          "holiday_close": "17:00",
+          "closure_rule_raw": "월+1월1일+설날+추석",
+          "amenities_raw": "전시실+영상실+체험실+장애인 휠체어 리프트+주차장"
+        },
+        "base_data_date": "2026-08-04",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0161",
+      "name": "박을복자수박물관",
+      "document": "박을복자수박물관은 북한산 백운대 자락에 박을복 선생이 거주하던 주택을 개조하여 만든 전통 자수 박물관이다. 전통 자수와 근·현대회화의 흐름을 결합시켜 한국 현대 자수 발전에 기여한 박을복선생(1915~2015)의 업적을 기리기 위해 설립되었다. 박을복 선생의 작품들을 전시하여 그동안 관람이 쉽지 않았던 감상 자수를 일반에게 선보이며, 한국 근현대 자수의 역사를 재정리해 놓았다. 박물관의 1층은 기획전시가 이루어지는 기획전시장이 있으며, 2층에는 상설전시장으로 박을복 선생데 대한 자세한 설명과 작품이 전시되어 있다. 또한, 이곳에서는 강의와 실기 체험을 동시에 진행하는 교육프로그램을 운영하고 있다. 인문학과 문화예술 분야 전문가들의 강의를 듣고 각 강의에 해당하는 예술 분야의 작가들과 에듀케이터들을 주축으로 이에 관한 작업을 직접 체험 해 볼 수 있다. 박물관 관람 전 전화로 사전 예약이 필요하므로 방문하기 전 전화 문의 후 관람하면 된다. 현대 한국자수 발전에 기여한 박을복 선생의 업적을 기리고 한국 자수의 역사 및 감상 자수를 일반에게 선보여 문화향수의 기회 제공",
+      "metadata": {
+        "requires_manual_review": true,
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "ownership_type": "사립",
+        "sido": "서울특별시",
+        "transport_notes": "지하철 4호선 수유역(3번 출구)에서 120번ㆍ153번 탑승 후 덕성여대 하차",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/14/3589314_image2_1.jpg",
+        "adult_fee": 0.0,
+        "address": "서울특별시 강북구 삼양로 149가길53",
+        "fee_notes": "단체 20명 이상(무료)",
+        "weekday_open": "10:00",
+        "image_copyright": "Type1",
+        "sigungu": "강북구",
+        "source_types": "BASE|TOUR_API",
+        "name": "박을복자수박물관",
+        "child_fee": 0.0,
+        "holiday_close": "00:00",
+        "weekday_close": "17:00",
+        "youth_fee": 0.0,
+        "longitude": 127.0084901,
+        "closure_rule_raw": "토+일+국가공휴일",
+        "holiday_open": "00:00",
+        "homepage_url": "http://www.embromuseum.com",
+        "latitude": 37.65381634
+      },
+      "vector_rank": 14,
+      "bm25_rank": 3,
+      "vector_distance": 0.7734345197677612,
+      "vector_score": null,
+      "bm25_score": 9.244605292893526,
+      "vector_document": "박을복자수박물관은 북한산 백운대 자락에 박을복 선생이 거주하던 주택을 개조하여 만든 전통 자수 박물관이다. 전통 자수와 근·현대회화의 흐름을 결합시켜 한국 현대 자수 발전에 기여한 박을복선생(1915~2015)의 업적을 기리기 위해 설립되었다. 박을복 선생의 작품들을 전시하여 그동안 관람이 쉽지 않았던 감상 자수를 일반에게 선보이며, 한국 근현대 자수의 역사를 재정리해 놓았다. 박물관의 1층은 기획전시가 이루어지는 기획전시장이 있으며, 2층에는 상설전시장으로 박을복 선생데 대한 자세한 설명과 작품이 전시되어 있다. 또한, 이곳에서는 강의와 실기 체험을 동시에 진행하는 교육프로그램을 운영하고 있다. 인문학과 문화예술 분야 전문가들의 강의를 듣고 각 강의에 해당하는 예술 분야의 작가들과 에듀케이터들을 주축으로 이에 관한 작업을 직접 체험 해 볼 수 있다. 박물관 관람 전 전화로 사전 예약이 필요하므로 방문하기 전 전화 문의 후 관람하면 된다. 현대 한국자수 발전에 기여한 박을복 선생의 업적을 기리고 한국 자수의 역사 및 감상 자수를 일반에게 선보여 문화향수의 기회 제공",
+      "bm25_document": "박을복자수박물관은 북한산 백운대 자락에 박을복 선생이 거주하던 주택을 개조하여 만든 전통 자수 박물관이다. 전통 자수와 근·현대회화의 흐름을 결합시켜 한국 현대 자수 발전에 기여한 박을복선생(1915~2015)의 업적을 기리기 위해 설립되었다. 박을복 선생의 작품들을 전시하여 그동안 관람이 쉽지 않았던 감상 자수를 일반에게 선보이며, 한국 근현대 자수의 역사를 재정리해 놓았다. 박물관의 1층은 기획전시가 이루어지는 기획전시장이 있으며, 2층에는 상설전시장으로 박을복 선생데 대한 자세한 설명과 작품이 전시되어 있다. 또한, 이곳에서는 강의와 실기 체험을 동시에 진행하는 교육프로그램을 운영하고 있다. 인문학과 문화예술 분야 전문가들의 강의를 듣고 각 강의에 해당하는 예술 분야의 작가들과 에듀케이터들을 주축으로 이에 관한 작업을 직접 체험 해 볼 수 있다. 박물관 관람 전 전화로 사전 예약이 필요하므로 방문하기 전 전화 문의 후 관람하면 된다. 현대 한국자수 발전에 기여한 박을복 선생의 업적을 기리고 한국 자수의 역사 및 감상 자수를 일반에게 선보여 문화향수의 기회 제공",
+      "best_span_id": "chroma:M0161",
+      "best_span_text": "박을복자수박물관은 북한산 백운대 자락에 박을복 선생이 거주하던 주택을 개조하여 만든 전통 자수 박물관이다. 전통 자수와 근·현대회화의 흐름을 결합시켜 한국 현대 자수 발전에 기여한 박을복선생(1915~2015)의 업적을 기리기 위해 설립되었다. 박을복 선생의 작품들을 전시하여 그동안 관람이 쉽지 않았던 감상 자수를 일반에게 선보이며, 한국 근현대 자수의 역사를 재정리해 놓았다. 박물관의 1층은 기획전시가 이루어지는 기획전시장이 있으며, 2층에는 상설전시장으로 박을복 선생데 대한 자세한 설명과 작품이 전시되어 있다. 또한, 이곳에서는 강의와 실기 체험을 동시에 진행하는 교육프로그램을 운영하고 있다. 인문학과 문화예술 분야 전문가들의 강의를 듣고 각 강의에 해당하는 예술 분야의 작가들과 에듀케이터들을 주축으로 이에 관한 작업을 직접 체험 해 볼 수 있다. 박물관 관람 전 전화로 사전 예약이 필요하므로 방문하기 전 전화 문의 후 관람하면 된다. 현대 한국자수 발전에 기여한 박을복 선생의 업적을 기리고 한국 자수의 역사 및 감상 자수를 일반에게 선보여 문화향수의 기회 제공",
+      "fusion_score": 0.029386529386529386,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 2,
+      "rerank_score": null,
+      "rank": 2,
+      "score": 0.029386529386529386,
+      "score_type": "rrf",
+      "distance": 0.7734345197677612,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0161",
+      "source_doc_ids": [
+        "DOC-B0161-TOUR_API-130929",
+        "DOC-B0161-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0161-TOUR_API-130929",
+          "source_type": "TOUR_API",
+          "source_record_id": "130929",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=75",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        },
+        {
+          "doc_id": "DOC-B0161-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0161",
+          "source_locator": "data/raw/museum_base_1070.csv#row=162",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 59,
+          "doc_ids": [
+            "DOC-B0161-TOUR_API-130929"
+          ]
+        },
+        {
+          "start": 60,
+          "end": 136,
+          "doc_ids": [
+            "DOC-B0161-TOUR_API-130929"
+          ]
+        },
+        {
+          "start": 137,
+          "end": 212,
+          "doc_ids": [
+            "DOC-B0161-TOUR_API-130929"
+          ]
+        },
+        {
+          "start": 213,
+          "end": 290,
+          "doc_ids": [
+            "DOC-B0161-TOUR_API-130929"
+          ]
+        },
+        {
+          "start": 291,
+          "end": 337,
+          "doc_ids": [
+            "DOC-B0161-TOUR_API-130929"
+          ]
+        },
+        {
+          "start": 338,
+          "end": 425,
+          "doc_ids": [
+            "DOC-B0161-TOUR_API-130929"
+          ]
+        },
+        {
+          "start": 426,
+          "end": 475,
+          "doc_ids": [
+            "DOC-B0161-TOUR_API-130929"
+          ]
+        },
+        {
+          "start": 476,
+          "end": 547,
+          "doc_ids": [
+            "DOC-B0161-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=75",
+      "text": "박을복자수박물관은 북한산 백운대 자락에 박을복 선생이 거주하던 주택을 개조하여 만든 전통 자수 박물관이다. 전통 자수와 근·현대회화의 흐름을 결합시켜 한국 현대 자수 발전에 기여한 박을복선생(1915~2015)의 업적을 기리기 위해 설립되었다. 박을복 선생의 작품들을 전시하여 그동안 관람이 쉽지 않았던 감상 자수를 일반에게 선보이며, 한국 근현대 자수의 역사를 재정리해 놓았다. 박물관의 1층은 기획전시가 이루어지는 기획전시장이 있으며, 2층에는 상설전시장으로 박을복 선생데 대한 자세한 설명과 작품이 전시되어 있다. 또한, 이곳에서는 강의와 실기 체험을 동시에 진행하는 교육프로그램을 운영하고 있다. 인문학과 문화예술 분야 전문가들의 강의를 듣고 각 강의에 해당하는 예술 분야의 작가들과 에듀케이터들을 주축으로 이에 관한 작업을 직접 체험 해 볼 수 있다. 박물관 관람 전 전화로 사전 예약이 필요하므로 방문하기 전 전화 문의 후 관람하면 된다. 현대 한국자수 발전에 기여한 박을복 선생의 업적을 기리고 한국 자수의 역사 및 감상 자수를 일반에게 선보여 문화향수의 기회 제공",
+      "sido": "서울특별시",
+      "sigungu": "강북구",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=75"
+      ],
+      "evidence_id": "E2",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=104",
+        "fields": {
+          "name": "박을복자수박물관",
+          "sido": "서울특별시",
+          "sigungu": "강북구",
+          "address": "서울특별시 강북구 삼양로 149가길53",
+          "ownership_type": "사립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "10:00",
+          "weekday_close": "17:00",
+          "holiday_open": "00:00",
+          "holiday_close": "00:00",
+          "closure_rule_raw": "토+일+국가공휴일"
+        },
+        "base_data_date": "2026-08-14",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0167",
+      "name": "복천박물관",
+      "document": "복천박물관은 복천동고분군에서 출토된 유물을 중심으로, 삼한시대부터 삼국시대까지의 부산지역의 역사를 보여주는 고고 전문박물관이다. 복천동고분군에서 7차에 걸친 발굴 조사로 밝혀진 덧널무덤, 구덩식돌덧널무덤, 앞트기식돌방무덤, 독널무덤 등 총 200여기의 무덤이 확인되었고, 여기서 다양한 형태의 가야토기, 철제무기류, 가지방울, 금동관, 목걸이 등의 유물들이 출토되었으며, 박물관에는 출토된 유물을 종합전시하고 있다. 복천박물관은 개관 이후 인근지역의 매장유산에 대한 조사와 연구를 수행하며, 부산의 역사와 문화, 나아가 가야사의 실체를 규명해 나가고 있으며, 지속해서 축적된 연구 성과를 바탕으로 다양한 학술 세미나 및 특별전을 통해 전문가와 시민들에게 제공함으로써 역사교육장으로서의 역할도 담당하고 있다.",
+      "metadata": {
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/88/3492288_image2_1.jpg",
+        "sigungu": "동래구",
+        "closure_rule_raw": "1.1 휴관매주 월요일 휴관",
+        "name": "복천박물관",
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "longitude": 129.0911773,
+        "homepage_url": "https://museum.busan.go.kr/bokcheon/index",
+        "ownership_type": "공립",
+        "requires_manual_review": true,
+        "image_copyright": "Type3",
+        "sido": "부산광역시",
+        "transport_notes": "지하철, 버스 등홈페이지 참조",
+        "weekday_close": "18:00",
+        "weekday_open": "09:00",
+        "amenities_raw": "문헌자료실+수유실",
+        "source_types": "TOUR_API",
+        "address": "부산광역시 동래구 복천로 63(복천동)",
+        "holiday_open": "09:00",
+        "youth_fee": 0.0,
+        "latitude": 35.20877341,
+        "holiday_close": "18:00",
+        "adult_fee": 0.0,
+        "fee_notes": "부산광역시립박물관 운영 조례 제5조에 따름",
+        "child_fee": 0.0
+      },
+      "vector_rank": 2,
+      "bm25_rank": null,
+      "vector_distance": 0.7408044338226318,
+      "vector_score": null,
+      "bm25_score": null,
+      "vector_document": "복천박물관은 복천동고분군에서 출토된 유물을 중심으로, 삼한시대부터 삼국시대까지의 부산지역의 역사를 보여주는 고고 전문박물관이다. 복천동고분군에서 7차에 걸친 발굴 조사로 밝혀진 덧널무덤, 구덩식돌덧널무덤, 앞트기식돌방무덤, 독널무덤 등 총 200여기의 무덤이 확인되었고, 여기서 다양한 형태의 가야토기, 철제무기류, 가지방울, 금동관, 목걸이 등의 유물들이 출토되었으며, 박물관에는 출토된 유물을 종합전시하고 있다. 복천박물관은 개관 이후 인근지역의 매장유산에 대한 조사와 연구를 수행하며, 부산의 역사와 문화, 나아가 가야사의 실체를 규명해 나가고 있으며, 지속해서 축적된 연구 성과를 바탕으로 다양한 학술 세미나 및 특별전을 통해 전문가와 시민들에게 제공함으로써 역사교육장으로서의 역할도 담당하고 있다.",
+      "bm25_document": "",
+      "best_span_id": null,
+      "best_span_text": null,
+      "fusion_score": 0.016129032258064516,
+      "retrieved_by": [
+        "vector"
+      ],
+      "fusion_rank": 3,
+      "rerank_score": null,
+      "rank": 3,
+      "score": 0.016129032258064516,
+      "score_type": "rrf",
+      "distance": 0.7408044338226318,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector"
+      ],
+      "retriever": "vector",
+      "source_doc_ids": [
+        "DOC-B0167-TOUR_API-130145"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0167-TOUR_API-130145",
+          "source_type": "TOUR_API",
+          "source_record_id": "130145",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=78",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 71,
+          "doc_ids": [
+            "DOC-B0167-TOUR_API-130145"
+          ]
+        },
+        {
+          "start": 72,
+          "end": 232,
+          "doc_ids": [
+            "DOC-B0167-TOUR_API-130145"
+          ]
+        },
+        {
+          "start": 233,
+          "end": 395,
+          "doc_ids": [
+            "DOC-B0167-TOUR_API-130145"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=78",
+      "text": "복천박물관은 복천동고분군에서 출토된 유물을 중심으로, 삼한시대부터 삼국시대까지의 부산지역의 역사를 보여주는 고고 전문박물관이다. 복천동고분군에서 7차에 걸친 발굴 조사로 밝혀진 덧널무덤, 구덩식돌덧널무덤, 앞트기식돌방무덤, 독널무덤 등 총 200여기의 무덤이 확인되었고, 여기서 다양한 형태의 가야토기, 철제무기류, 가지방울, 금동관, 목걸이 등의 유물들이 출토되었으며, 박물관에는 출토된 유물을 종합전시하고 있다. 복천박물관은 개관 이후 인근지역의 매장유산에 대한 조사와 연구를 수행하며, 부산의 역사와 문화, 나아가 가야사의 실체를 규명해 나가고 있으며, 지속해서 축적된 연구 성과를 바탕으로 다양한 학술 세미나 및 특별전을 통해 전문가와 시민들에게 제공함으로써 역사교육장으로서의 역할도 담당하고 있다.",
+      "sido": "부산광역시",
+      "sigungu": "동래구",
+      "span_id": "",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=78"
+      ],
+      "evidence_id": "E3",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=108",
+        "fields": {
+          "name": "복천박물관",
+          "sido": "부산광역시",
+          "sigungu": "동래구",
+          "address": "부산광역시 동래구 복천로 63(복천동)",
+          "ownership_type": "공립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "09:00",
+          "weekday_close": "18:00",
+          "holiday_open": "09:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "1.1 휴관매주 월요일 휴관",
+          "amenities_raw": "문헌자료실+수유실"
+        },
+        "base_data_date": "2026-09-04",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0659",
+      "name": "토탈미술관",
+      "document": "토탈미술관은 전시회뿐 아니라 다양한 문화 행사를 진행하는 복합문화공간이다. 문화에 대한 제도적 기반이 없었던 1976년 동숭동 대학로에서 디자이너를 위한 토탈갤러리로 시작하여 경기도 장흥에 국내 최초의 야외조각공원 형태의 미술관을 설립하였다. 미술관 개념의 확대와 더불어 서울 종로구 평창동에 현대예술 전반을 통섭하는 전시장을 마련하였는데, 이곳은 국내외 현대미술품 전시뿐 아니라 다양한 장르의 문화를 폭넓게 수용하는 복합문화공간이다. 특히 회원들을 대상으로 개설된 교육 프로그램과 미술관 음악회는 수준 높은 문화 향유의 기회를 제공하고 있다. 토탈미술관은 비탈길의 경사를 등지고 전면을 향해 활짝 열린 건물과 데크 공간을 가지고 있는 것이 특징이며, 꽃들이 활짝 핀 마당의 봄에서부터 하얀 눈꽃이 나무마다 맺히는 겨울까지의 계절을 가득 담고 있다. 마당에 덩그러니 놓인 베르나르 브네의 작품은 세월과 문화를 자연스럽게 녹아내는 미술관의 특징을 그대로 보여준다. 1층 아카이브 공간을 지나 지하로 내려가면 돌출된 바위벽을 그대로 가진 전시실과 밖을 향해 유리창이 전면으로 트인 전시실이 있다. 한층 아래에는 압도적으로 높은 층고의 전시 공간을 만나게 된다. 이처럼 전시장 또한 내부와 외부를 넘나드는 복합적이고 열린 공간으로서 예술적 에너지를 가득 담고 있고, 미술관 공간 구성 자체도 현대미술의 역동적인 힘을 반영하고 있다. 토탈미술관은 설립자인 문신규 건축가가 설계하였으며, 한국건축가협회에서 수여하는 [올해의 건축상]을 수상하기도 하였다.",
+      "metadata": {
+        "adult_fee_status": "BASE_FEE_PAID",
+        "image_copyright": "Type1",
+        "requires_manual_review": true,
+        "homepage_url": "http://www.totalmuseum.org/",
+        "sido": "서울특별시",
+        "ownership_type": "사립",
+        "sigungu": "종로구",
+        "youth_fee": 3000.0,
+        "weekday_close": "18:00",
+        "source_types": "TOUR_API",
+        "holiday_close": "18:00",
+        "name": "토탈미술관",
+        "child_fee": 3000.0,
+        "closure_rule_raw": "월요일",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/99/3499799_image2_1.jpg",
+        "longitude": 126.9756765,
+        "adult_fee": 5000.0,
+        "address": "서울특별시 종로구 평창32길 8",
+        "weekday_open": "11:00",
+        "latitude": 37.61212012,
+        "holiday_open": "11:00"
+      },
+      "vector_rank": null,
+      "bm25_rank": 2,
+      "vector_distance": null,
+      "vector_score": null,
+      "bm25_score": 11.34866090492782,
+      "vector_document": "",
+      "bm25_document": "토탈미술관은 전시회뿐 아니라 다양한 문화 행사를 진행하는 복합문화공간이다. 문화에 대한 제도적 기반이 없었던 1976년 동숭동 대학로에서 디자이너를 위한 토탈갤러리로 시작하여 경기도 장흥에 국내 최초의 야외조각공원 형태의 미술관을 설립하였다. 미술관 개념의 확대와 더불어 서울 종로구 평창동에 현대예술 전반을 통섭하는 전시장을 마련하였는데, 이곳은 국내외 현대미술품 전시뿐 아니라 다양한 장르의 문화를 폭넓게 수용하는 복합문화공간이다. 특히 회원들을 대상으로 개설된 교육 프로그램과 미술관 음악회는 수준 높은 문화 향유의 기회를 제공하고 있다. 토탈미술관은 비탈길의 경사를 등지고 전면을 향해 활짝 열린 건물과 데크 공간을 가지고 있는 것이 특징이며, 꽃들이 활짝 핀 마당의 봄에서부터 하얀 눈꽃이 나무마다 맺히는 겨울까지의 계절을 가득 담고 있다. 마당에 덩그러니 놓인 베르나르 브네의 작품은 세월과 문화를 자연스럽게 녹아내는 미술관의 특징을 그대로 보여준다. 1층 아카이브 공간을 지나 지하로 내려가면 돌출된 바위벽을 그대로 가진 전시실과 밖을 향해 유리창이 전면으로 트인 전시실이 있다. 한층 아래에는 압도적으로 높은 층고의 전시 공간을 만나게 된다. 이처럼 전시장 또한 내부와 외부를 넘나드는 복합적이고 열린 공간으로서 예술적 에너지를 가득 담고 있고, 미술관 공간 구성 자체도 현대미술의 역동적인 힘을 반영하고 있다. 토탈미술관은 설립자인 문신규 건축가가 설계하였으며, 한국건축가협회에서 수여하는 [올해의 건축상]을 수상하기도 하였다.",
+      "best_span_id": "chroma:M0659",
+      "best_span_text": "토탈미술관은 전시회뿐 아니라 다양한 문화 행사를 진행하는 복합문화공간이다. 문화에 대한 제도적 기반이 없었던 1976년 동숭동 대학로에서 디자이너를 위한 토탈갤러리로 시작하여 경기도 장흥에 국내 최초의 야외조각공원 형태의 미술관을 설립하였다. 미술관 개념의 확대와 더불어 서울 종로구 평창동에 현대예술 전반을 통섭하는 전시장을 마련하였는데, 이곳은 국내외 현대미술품 전시뿐 아니라 다양한 장르의 문화를 폭넓게 수용하는 복합문화공간이다. 특히 회원들을 대상으로 개설된 교육 프로그램과 미술관 음악회는 수준 높은 문화 향유의 기회를 제공하고 있다. 토탈미술관은 비탈길의 경사를 등지고 전면을 향해 활짝 열린 건물과 데크 공간을 가지고 있는 것이 특징이며, 꽃들이 활짝 핀 마당의 봄에서부터 하얀 눈꽃이 나무마다 맺히는 겨울까지의 계절을 가득 담고 있다. 마당에 덩그러니 놓인 베르나르 브네의 작품은 세월과 문화를 자연스럽게 녹아내는 미술관의 특징을 그대로 보여준다. 1층 아카이브 공간을 지나 지하로 내려가면 돌출된 바위벽을 그대로 가진 전시실과 밖을 향해 유리창이 전면으로 트인 전시실이 있다. 한층 아래에는 압도적으로 높은 층고의 전시 공간을 만나게 된다. 이처럼 전시장 또한 내부와 외부를 넘나드는 복합적이고 열린 공간으로서 예술적 에너지를 가득 담고 있고, 미술관 공간 구성 자체도 현대미술의 역동적인 힘을 반영하고 있다. 토탈미술관은 설립자인 문신규 건축가가 설계하였으며, 한국건축가협회에서 수여하는 [올해의 건축상]을 수상하기도 하였다.",
+      "fusion_score": 0.016129032258064516,
+      "retrieved_by": [
+        "bm25"
+      ],
+      "fusion_rank": 4,
+      "rerank_score": null,
+      "rank": 4,
+      "score": 0.016129032258064516,
+      "score_type": "rrf",
+      "distance": null,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "bm25"
+      ],
+      "retriever": "bm25",
+      "span_id": "chroma:M0659",
+      "source_doc_ids": [
+        "DOC-B0659-TOUR_API-130272"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0659-TOUR_API-130272",
+          "source_type": "TOUR_API",
+          "source_record_id": "130272",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=328",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 41,
+          "doc_ids": [
+            "DOC-B0659-TOUR_API-130272"
+          ]
+        },
+        {
+          "start": 42,
+          "end": 135,
+          "doc_ids": [
+            "DOC-B0659-TOUR_API-130272"
+          ]
+        },
+        {
+          "start": 136,
+          "end": 243,
+          "doc_ids": [
+            "DOC-B0659-TOUR_API-130272"
+          ]
+        },
+        {
+          "start": 244,
+          "end": 304,
+          "doc_ids": [
+            "DOC-B0659-TOUR_API-130272"
+          ]
+        },
+        {
+          "start": 305,
+          "end": 419,
+          "doc_ids": [
+            "DOC-B0659-TOUR_API-130272"
+          ]
+        },
+        {
+          "start": 420,
+          "end": 482,
+          "doc_ids": [
+            "DOC-B0659-TOUR_API-130272"
+          ]
+        },
+        {
+          "start": 483,
+          "end": 555,
+          "doc_ids": [
+            "DOC-B0659-TOUR_API-130272"
+          ]
+        },
+        {
+          "start": 556,
+          "end": 591,
+          "doc_ids": [
+            "DOC-B0659-TOUR_API-130272"
+          ]
+        },
+        {
+          "start": 592,
+          "end": 686,
+          "doc_ids": [
+            "DOC-B0659-TOUR_API-130272"
+          ]
+        },
+        {
+          "start": 687,
+          "end": 752,
+          "doc_ids": [
+            "DOC-B0659-TOUR_API-130272"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=328",
+      "text": "토탈미술관은 전시회뿐 아니라 다양한 문화 행사를 진행하는 복합문화공간이다. 문화에 대한 제도적 기반이 없었던 1976년 동숭동 대학로에서 디자이너를 위한 토탈갤러리로 시작하여 경기도 장흥에 국내 최초의 야외조각공원 형태의 미술관을 설립하였다. 미술관 개념의 확대와 더불어 서울 종로구 평창동에 현대예술 전반을 통섭하는 전시장을 마련하였는데, 이곳은 국내외 현대미술품 전시뿐 아니라 다양한 장르의 문화를 폭넓게 수용하는 복합문화공간이다. 특히 회원들을 대상으로 개설된 교육 프로그램과 미술관 음악회는 수준 높은 문화 향유의 기회를 제공하고 있다. 토탈미술관은 비탈길의 경사를 등지고 전면을 향해 활짝 열린 건물과 데크 공간을 가지고 있는 것이 특징이며, 꽃들이 활짝 핀 마당의 봄에서부터 하얀 눈꽃이 나무마다 맺히는 겨울까지의 계절을 가득 담고 있다. 마당에 덩그러니 놓인 베르나르 브네의 작품은 세월과 문화를 자연스럽게 녹아내는 미술관의 특징을 그대로 보여준다. 1층 아카이브 공간을 지나 지하로 내려가면 돌출된 바위벽을 그대로 가진 전시실과 밖을 향해 유리창이 전면으로 트인 전시실이 있다. 한층 아래에는 압도적으로 높은 층고의 전시 공간을 만나게 된다. 이처럼 전시장 또한 내부와 외부를 넘나드는 복합적이고 열린 공간으로서 예술적 에너지를 가득 담고 있고, 미술관 공간 구성 자체도 현대미술의 역동적인 힘을 반영하고 있다. 토탈미술관은 설립자인 문신규 건축가가 설계하였으며, 한국건축가협회에서 수여하는 [올해의 건축상]을 수상하기도 하였다.",
+      "sido": "서울특별시",
+      "sigungu": "종로구",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=328"
+      ],
+      "evidence_id": "E4",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=454",
+        "fields": {
+          "name": "토탈미술관",
+          "sido": "서울특별시",
+          "sigungu": "종로구",
+          "address": "서울특별시 종로구 평창32길 8",
+          "ownership_type": "사립",
+          "adult_fee": "5000",
+          "youth_fee": "3000",
+          "child_fee": "3000",
+          "adult_fee_status": "BASE_FEE_PAID",
+          "weekday_open": "11:00",
+          "weekday_close": "18:00",
+          "holiday_open": "11:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "월요일"
+        },
+        "base_data_date": "2025-11-01",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0945",
+      "name": "안면도쥬라기박물관",
+      "document": "중생대 공룡 전시물+단궁류+파충류+포유류+익룡+새+해양생물+각종 공룡 실물 크기 모형 등 전시",
+      "metadata": {
+        "adult_fee": 12000.0,
+        "holiday_open": "09:30",
+        "fee_notes": "장애인(1~3급 2000원+4~6급 4000원)+경로 2000원+군인ㆍ경찰ㆍ소방ㆍ국가유공자 5000원",
+        "source_types": "BASE",
+        "address": "충청남도 태안군 남면 곰섬로 37-20",
+        "latitude": 36.60929425,
+        "homepage_url": "http://www.anmyondojurassic.com",
+        "name": "안면도쥬라기박물관",
+        "weekday_close": "17:30",
+        "sigungu": "태안군",
+        "transport_notes": "서해안고속도로 홍성IC→갈산교차로(안면도 방면)→국도 40호선(남당리 방면)→창리교차로 직진→원청사거리 좌회전→곰섬 삼거리 우회전→안면도쥬라기공원(홍성IC에서 약 30분 소요)",
+        "requires_manual_review": true,
+        "youth_fee": 10000.0,
+        "holiday_close": "18:00",
+        "longitude": 126.310712,
+        "closure_rule_raw": "월(월요일이 공휴일인 경우 다음날)+설 당일+추석 당일+정부지정 대체공휴일일 경우 그 다음날",
+        "amenities_raw": "기념품샵",
+        "ownership_type": "사립",
+        "adult_fee_status": "BASE_FEE_PAID",
+        "child_fee": 9000.0,
+        "sido": "충청남도",
+        "weekday_open": "09:30"
+      },
+      "vector_rank": 3,
+      "bm25_rank": null,
+      "vector_distance": 0.7457396984100342,
+      "vector_score": null,
+      "bm25_score": null,
+      "vector_document": "중생대 공룡 전시물+단궁류+파충류+포유류+익룡+새+해양생물+각종 공룡 실물 크기 모형 등 전시",
+      "bm25_document": "",
+      "best_span_id": null,
+      "best_span_text": null,
+      "fusion_score": 0.015873015873015872,
+      "retrieved_by": [
+        "vector"
+      ],
+      "fusion_rank": 5,
+      "rerank_score": null,
+      "rank": 5,
+      "score": 0.015873015873015872,
+      "score_type": "rrf",
+      "distance": 0.7457396984100342,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector"
+      ],
+      "retriever": "vector",
+      "source_doc_ids": [
+        "DOC-B0945-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0945-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0945",
+          "source_locator": "data/raw/museum_base_1070.csv#row=946",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 52,
+          "doc_ids": [
+            "DOC-B0945-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_base_1070.csv#row=946",
+      "text": "중생대 공룡 전시물+단궁류+파충류+포유류+익룡+새+해양생물+각종 공룡 실물 크기 모형 등 전시",
+      "sido": "충청남도",
+      "sigungu": "태안군",
+      "span_id": "",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_base_1070.csv#row=946"
+      ],
+      "evidence_id": "E5",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=650",
+        "fields": {
+          "name": "안면도쥬라기박물관",
+          "sido": "충청남도",
+          "sigungu": "태안군",
+          "address": "충청남도 태안군 남면 곰섬로 37-20",
+          "ownership_type": "사립",
+          "adult_fee": "12000",
+          "youth_fee": "10000",
+          "child_fee": "9000",
+          "adult_fee_status": "BASE_FEE_PAID",
+          "weekday_open": "09:30",
+          "weekday_close": "17:30",
+          "holiday_open": "09:30",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "월(월요일이 공휴일인 경우 다음날)+설 당일+추석 당일+정부지정 대체공휴일일 경우 그 다음날",
+          "amenities_raw": "기념품샵"
+        },
+        "base_data_date": "2024-09-24",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    }
+  ],
+  "answer": "서천 이하복 고택은 중부지방 전통농가의 큰집 형태를 간직한 가옥입니다. 안마당을 중심으로 ㄱ자형 안채와 그 앞의 ㅡ자형 사랑채, 안채 왼쪽의 광채가 놓여 전체적으로 튼 ㅁ자형 배치를 이룹니다. 사랑채 오른쪽에는 조금 떨어져 ㅡ자형 아래채가 자리합니다. 아래채는 며느리가 따로 살림을 할 수 있는 독립된 공간으로 구성되어 있습니다. 전체적으로 전형적인 민간 건축기법을 사용하고, 불필요한 재료나 장식을 덜어 검소하고 소박하게 지은 것이 특징입니다. [E1]",
+  "retrieval_status": "ok",
+  "answer_status": "answered",
+  "route": "hybrid",
+  "retry_count": 0,
+  "supervisor_verified": true,
+  "rerank_applied": false,
+  "retriever_errors": [],
+  "warnings": [
+    "Cross-Encoder reranking failed (FileNotFoundError); RRF order retained"
+  ],
+  "duration_ms": 11801.38,
+  "error_type": "",
+  "hit_at_1": 1,
+  "hit_at_3": 1,
+  "hit_at_5": 1,
+  "recall_at_5": 1.0,
+  "mrr_at_10": 1.0
+}

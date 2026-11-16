@@ -1,0 +1,760 @@
+{
+  "mode": "supervisor_full",
+  "question_id": "Q269",
+  "evidence": [
+    {
+      "museum_id": "M0459",
+      "name": "남양주시립박물관",
+      "document": "남양주시 와부읍에 있는 남양주시립박물관은 남양주의 역사와 문화를 보존하기 위해 설립된 곳으로 2010년 4월에 개관하였다. 상설전시실, 기획전시실, 교육실 등이 갖추어져있으며, 외부에는 야외공연장과 석조유물을 만날 수 있다. 상설전시실에서는 남양주시에서 출토된 구석기 유물부터 조선, 근대의 다양한 민속유물 등을, 기획전시실에서는 매해 새로운 주제의 다양한 전시를 선보이고 있다. (출처 : 남양주시립박물관 홈페이지) 남양주의 역사와 문화를 보존, 전시하고 교육하여 과거와 현재, 미래를 아우르는 시민 문화와 교육의 공간",
+      "metadata": {
+        "child_fee": 0.0,
+        "weekday_close": "18:00",
+        "image_copyright": "Type3",
+        "sido": "경기도",
+        "requires_manual_review": true,
+        "address": "경기도 남양주시 와부읍 팔당로 121",
+        "holiday_open": "10:00",
+        "adult_fee": 0.0,
+        "transport_notes": "버스 58-3, 2000-1, 8-8번(팔당역 하차) / 버스 112-1번(하팔당 마을 하차) / 마을버스 63, 50번(팔당역 하차) / 지하철 경의중앙선 팔당역 하차",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/16/3381916_image2_1.JPG",
+        "youth_fee": 0.0,
+        "holiday_close": "18:00",
+        "sigungu": "남양주시",
+        "amenities_raw": "휴게공간",
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "source_types": "BASE|TOUR_API",
+        "longitude": 127.2443749,
+        "weekday_open": "10:00",
+        "ownership_type": "공립",
+        "closure_rule_raw": "월(월 공휴일이면 다음 평일)+1월 1일+설 당일+추석 당일",
+        "name": "남양주시립박물관",
+        "homepage_url": "http://blog.naver.com/nyjmuseum",
+        "latitude": 37.54638551
+      },
+      "vector_rank": 1,
+      "bm25_rank": 1,
+      "vector_distance": 0.46838706731796265,
+      "vector_score": null,
+      "bm25_score": 26.040780710091035,
+      "vector_document": "남양주시 와부읍에 있는 남양주시립박물관은 남양주의 역사와 문화를 보존하기 위해 설립된 곳으로 2010년 4월에 개관하였다. 상설전시실, 기획전시실, 교육실 등이 갖추어져있으며, 외부에는 야외공연장과 석조유물을 만날 수 있다. 상설전시실에서는 남양주시에서 출토된 구석기 유물부터 조선, 근대의 다양한 민속유물 등을, 기획전시실에서는 매해 새로운 주제의 다양한 전시를 선보이고 있다. (출처 : 남양주시립박물관 홈페이지) 남양주의 역사와 문화를 보존, 전시하고 교육하여 과거와 현재, 미래를 아우르는 시민 문화와 교육의 공간",
+      "bm25_document": "남양주시 와부읍에 있는 남양주시립박물관은 남양주의 역사와 문화를 보존하기 위해 설립된 곳으로 2010년 4월에 개관하였다. 상설전시실, 기획전시실, 교육실 등이 갖추어져있으며, 외부에는 야외공연장과 석조유물을 만날 수 있다. 상설전시실에서는 남양주시에서 출토된 구석기 유물부터 조선, 근대의 다양한 민속유물 등을, 기획전시실에서는 매해 새로운 주제의 다양한 전시를 선보이고 있다. (출처 : 남양주시립박물관 홈페이지) 남양주의 역사와 문화를 보존, 전시하고 교육하여 과거와 현재, 미래를 아우르는 시민 문화와 교육의 공간",
+      "best_span_id": "chroma:M0459",
+      "best_span_text": "남양주시 와부읍에 있는 남양주시립박물관은 남양주의 역사와 문화를 보존하기 위해 설립된 곳으로 2010년 4월에 개관하였다. 상설전시실, 기획전시실, 교육실 등이 갖추어져있으며, 외부에는 야외공연장과 석조유물을 만날 수 있다. 상설전시실에서는 남양주시에서 출토된 구석기 유물부터 조선, 근대의 다양한 민속유물 등을, 기획전시실에서는 매해 새로운 주제의 다양한 전시를 선보이고 있다. (출처 : 남양주시립박물관 홈페이지) 남양주의 역사와 문화를 보존, 전시하고 교육하여 과거와 현재, 미래를 아우르는 시민 문화와 교육의 공간",
+      "fusion_score": 0.03278688524590164,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 1,
+      "name_match": true,
+      "rerank_score": null,
+      "rank": 1,
+      "score": 0.03278688524590164,
+      "score_type": "rrf",
+      "distance": 0.46838706731796265,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0459",
+      "source_doc_ids": [
+        "DOC-B0459-TOUR_API-1936797",
+        "DOC-B0459-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0459-TOUR_API-1936797",
+          "source_type": "TOUR_API",
+          "source_record_id": "1936797",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=223",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        },
+        {
+          "doc_id": "DOC-B0459-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0459",
+          "source_locator": "data/raw/museum_base_1070.csv#row=460",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 68,
+          "doc_ids": [
+            "DOC-B0459-TOUR_API-1936797"
+          ]
+        },
+        {
+          "start": 69,
+          "end": 125,
+          "doc_ids": [
+            "DOC-B0459-TOUR_API-1936797"
+          ]
+        },
+        {
+          "start": 126,
+          "end": 212,
+          "doc_ids": [
+            "DOC-B0459-TOUR_API-1936797"
+          ]
+        },
+        {
+          "start": 213,
+          "end": 233,
+          "doc_ids": [
+            "DOC-B0459-TOUR_API-1936797"
+          ]
+        },
+        {
+          "start": 234,
+          "end": 291,
+          "doc_ids": [
+            "DOC-B0459-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=223",
+      "text": "남양주시 와부읍에 있는 남양주시립박물관은 남양주의 역사와 문화를 보존하기 위해 설립된 곳으로 2010년 4월에 개관하였다. 상설전시실, 기획전시실, 교육실 등이 갖추어져있으며, 외부에는 야외공연장과 석조유물을 만날 수 있다. 상설전시실에서는 남양주시에서 출토된 구석기 유물부터 조선, 근대의 다양한 민속유물 등을, 기획전시실에서는 매해 새로운 주제의 다양한 전시를 선보이고 있다. (출처 : 남양주시립박물관 홈페이지) 남양주의 역사와 문화를 보존, 전시하고 교육하여 과거와 현재, 미래를 아우르는 시민 문화와 교육의 공간",
+      "sido": "경기도",
+      "sigungu": "남양주시",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=223"
+      ],
+      "evidence_id": "E1",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=331",
+        "fields": {
+          "name": "남양주시립박물관",
+          "sido": "경기도",
+          "sigungu": "남양주시",
+          "address": "경기도 남양주시 와부읍 팔당로 121",
+          "ownership_type": "공립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "10:00",
+          "weekday_close": "18:00",
+          "holiday_open": "10:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "월(월 공휴일이면 다음 평일)+1월 1일+설 당일+추석 당일",
+          "amenities_raw": "휴게공간"
+        },
+        "base_data_date": "2026-04-01",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0312",
+      "name": "여주박물관",
+      "document": "1997년 여주군향토사료관으로 문을 연 여주박물관은 여주의 역사와 민속자료 등을 조사·수집·전시·교육하고, 새로운 학술자료를 발굴하며 여주의 정체성을 확립하는 역할을 수행하고 있다. 2010년 전시실 확장 후 제1종 전문박물관으로 등록하여 여주박물관으로 명칭을 변경하였으며, 2016년 7월 14일 여마관(신관)의 건립으로 전국에 흩어졌던 여주지역 발굴출토 국가귀속유물과 그간 수집한 다양한 유물을 전시할 수 있게 되었다. 전시실은 상설전시실과 기획전시실, 야외전시실로 구분되어 있으며, 상설전시실은 4가지 주제로 전시를 진행하고 있다. 여주역사실에서는 국립중앙박물관을 비롯한 여러 기관들에서 보관하던 주요 유적 출토 국가귀속 유물들과 그간 구입·기증을 통해 수집한 중요유물들을 전시하고 있다. 흔암리 선사유적지, 신륵사, 고달사지, 세종대왕릉과 효종대왕릉, 명성황후 생가 등 수많은 문화유적은 여주의 오랜 역사를 증명하고 있다. 남한강 수석전시실은 김정식 선생이 57년간 모은 수석을 기증받아 전시한 곳으로, 산수경석·물형석·추상석·12지석 등 자연이 빚은 최고의 예술작품인 수석의 멋과 아름다움을 느낄 수 있는 공간이다. 갖가지 수석에 담긴 의미를 여주 남한강이 가지고 있는 이야기로 풀어놓았다. 수석의 신비로움을 다채로운 방식으로 이해할 수 있는 공간이다. 류주현 문학전시실은 우리나라에 ‘대하 역사소설’이라는 장르를 개척하신 여주 출신의 묵사 류주현 선생의 삶과 작품세계를 설명한 공간이다. 류주현 선생은 다양·다작의 작가로 『조선총독부』, 『대원군』 등을 대표작으로 꼽을 수 있다. 한국 대표 문인으로서 선생의 생애와 작품세계, 문인들과의 교류를 통해 옛 문인들의 멋스러운 삶의 정취를 느낄 수 있을 것이다. 조선 왕릉실은 세종 영릉(英陵)과 효종 영릉(寧陵) 두 기의 조선 왕릉이 여주로 천릉하면서 조선시대부터 현대에 이르기까지 왕릉과 함께 변화한 여주의 역사와 여주 사람들의 삶을 살펴볼 수 있다. 여주의 역사와 전통문화를 아우르는 시립박물관으로, 전시와 교육, 체험을 할 수 있는 문화공간이다.",
+      "metadata": {
+        "youth_fee": 0.0,
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "weekday_close": "18:00",
+        "longitude": 127.6533782,
+        "adult_fee": 0.0,
+        "closure_rule_raw": "월요일+추석당일+설날당일+1월1일",
+        "sigungu": "여주시",
+        "name": "여주박물관",
+        "source_types": "BASE|TOUR_API",
+        "homepage_url": "http://www.yeoju.go.kr/museum",
+        "sido": "경기도",
+        "address": "경기도 여주시 신륵사길 6-12",
+        "weekday_open": "09:00",
+        "transport_notes": "여주IC → 여주대교 → 신륵사 관광단지 → 신륵사 관지 내 강변에 위치",
+        "holiday_close": "18:00",
+        "image_copyright": "Type1",
+        "ownership_type": "공립",
+        "latitude": 37.2996535,
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/95/3540495_image2_1.jpg",
+        "child_fee": 0.0,
+        "amenities_raw": "청춘카페",
+        "requires_manual_review": true,
+        "holiday_open": "09:00"
+      },
+      "vector_rank": 13,
+      "bm25_rank": 8,
+      "vector_distance": 0.5136637687683105,
+      "vector_score": null,
+      "bm25_score": 10.083944326978646,
+      "vector_document": "1997년 여주군향토사료관으로 문을 연 여주박물관은 여주의 역사와 민속자료 등을 조사·수집·전시·교육하고, 새로운 학술자료를 발굴하며 여주의 정체성을 확립하는 역할을 수행하고 있다. 2010년 전시실 확장 후 제1종 전문박물관으로 등록하여 여주박물관으로 명칭을 변경하였으며, 2016년 7월 14일 여마관(신관)의 건립으로 전국에 흩어졌던 여주지역 발굴출토 국가귀속유물과 그간 수집한 다양한 유물을 전시할 수 있게 되었다. 전시실은 상설전시실과 기획전시실, 야외전시실로 구분되어 있으며, 상설전시실은 4가지 주제로 전시를 진행하고 있다. 여주역사실에서는 국립중앙박물관을 비롯한 여러 기관들에서 보관하던 주요 유적 출토 국가귀속 유물들과 그간 구입·기증을 통해 수집한 중요유물들을 전시하고 있다. 흔암리 선사유적지, 신륵사, 고달사지, 세종대왕릉과 효종대왕릉, 명성황후 생가 등 수많은 문화유적은 여주의 오랜 역사를 증명하고 있다. 남한강 수석전시실은 김정식 선생이 57년간 모은 수석을 기증받아 전시한 곳으로, 산수경석·물형석·추상석·12지석 등 자연이 빚은 최고의 예술작품인 수석의 멋과 아름다움을 느낄 수 있는 공간이다. 갖가지 수석에 담긴 의미를 여주 남한강이 가지고 있는 이야기로 풀어놓았다. 수석의 신비로움을 다채로운 방식으로 이해할 수 있는 공간이다. 류주현 문학전시실은 우리나라에 ‘대하 역사소설’이라는 장르를 개척하신 여주 출신의 묵사 류주현 선생의 삶과 작품세계를 설명한 공간이다. 류주현 선생은 다양·다작의 작가로 『조선총독부』, 『대원군』 등을 대표작으로 꼽을 수 있다. 한국 대표 문인으로서 선생의 생애와 작품세계, 문인들과의 교류를 통해 옛 문인들의 멋스러운 삶의 정취를 느낄 수 있을 것이다. 조선 왕릉실은 세종 영릉(英陵)과 효종 영릉(寧陵) 두 기의 조선 왕릉이 여주로 천릉하면서 조선시대부터 현대에 이르기까지 왕릉과 함께 변화한 여주의 역사와 여주 사람들의 삶을 살펴볼 수 있다. 여주의 역사와 전통문화를 아우르는 시립박물관으로, 전시와 교육, 체험을 할 수 있는 문화공간이다.",
+      "bm25_document": "1997년 여주군향토사료관으로 문을 연 여주박물관은 여주의 역사와 민속자료 등을 조사·수집·전시·교육하고, 새로운 학술자료를 발굴하며 여주의 정체성을 확립하는 역할을 수행하고 있다. 2010년 전시실 확장 후 제1종 전문박물관으로 등록하여 여주박물관으로 명칭을 변경하였으며, 2016년 7월 14일 여마관(신관)의 건립으로 전국에 흩어졌던 여주지역 발굴출토 국가귀속유물과 그간 수집한 다양한 유물을 전시할 수 있게 되었다. 전시실은 상설전시실과 기획전시실, 야외전시실로 구분되어 있으며, 상설전시실은 4가지 주제로 전시를 진행하고 있다. 여주역사실에서는 국립중앙박물관을 비롯한 여러 기관들에서 보관하던 주요 유적 출토 국가귀속 유물들과 그간 구입·기증을 통해 수집한 중요유물들을 전시하고 있다. 흔암리 선사유적지, 신륵사, 고달사지, 세종대왕릉과 효종대왕릉, 명성황후 생가 등 수많은 문화유적은 여주의 오랜 역사를 증명하고 있다. 남한강 수석전시실은 김정식 선생이 57년간 모은 수석을 기증받아 전시한 곳으로, 산수경석·물형석·추상석·12지석 등 자연이 빚은 최고의 예술작품인 수석의 멋과 아름다움을 느낄 수 있는 공간이다. 갖가지 수석에 담긴 의미를 여주 남한강이 가지고 있는 이야기로 풀어놓았다. 수석의 신비로움을 다채로운 방식으로 이해할 수 있는 공간이다. 류주현 문학전시실은 우리나라에 ‘대하 역사소설’이라는 장르를 개척하신 여주 출신의 묵사 류주현 선생의 삶과 작품세계를 설명한 공간이다. 류주현 선생은 다양·다작의 작가로 『조선총독부』, 『대원군』 등을 대표작으로 꼽을 수 있다. 한국 대표 문인으로서 선생의 생애와 작품세계, 문인들과의 교류를 통해 옛 문인들의 멋스러운 삶의 정취를 느낄 수 있을 것이다. 조선 왕릉실은 세종 영릉(英陵)과 효종 영릉(寧陵) 두 기의 조선 왕릉이 여주로 천릉하면서 조선시대부터 현대에 이르기까지 왕릉과 함께 변화한 여주의 역사와 여주 사람들의 삶을 살펴볼 수 있다. 여주의 역사와 전통문화를 아우르는 시립박물관으로, 전시와 교육, 체험을 할 수 있는 문화공간이다.",
+      "best_span_id": "chroma:M0312",
+      "best_span_text": "1997년 여주군향토사료관으로 문을 연 여주박물관은 여주의 역사와 민속자료 등을 조사·수집·전시·교육하고, 새로운 학술자료를 발굴하며 여주의 정체성을 확립하는 역할을 수행하고 있다. 2010년 전시실 확장 후 제1종 전문박물관으로 등록하여 여주박물관으로 명칭을 변경하였으며, 2016년 7월 14일 여마관(신관)의 건립으로 전국에 흩어졌던 여주지역 발굴출토 국가귀속유물과 그간 수집한 다양한 유물을 전시할 수 있게 되었다. 전시실은 상설전시실과 기획전시실, 야외전시실로 구분되어 있으며, 상설전시실은 4가지 주제로 전시를 진행하고 있다. 여주역사실에서는 국립중앙박물관을 비롯한 여러 기관들에서 보관하던 주요 유적 출토 국가귀속 유물들과 그간 구입·기증을 통해 수집한 중요유물들을 전시하고 있다. 흔암리 선사유적지, 신륵사, 고달사지, 세종대왕릉과 효종대왕릉, 명성황후 생가 등 수많은 문화유적은 여주의 오랜 역사를 증명하고 있다. 남한강 수석전시실은 김정식 선생이 57년간 모은 수석을 기증받아 전시한 곳으로, 산수경석·물형석·추상석·12지석 등 자연이 빚은 최고의 예술작품인 수석의 멋과 아름다움을 느낄 수 있는 공간이다. 갖가지 수석에 담긴 의미를 여주 남한강이 가지고 있는 이야기로 풀어놓았다. 수석의 신비로움을 다채로운 방식으로 이해할 수 있는 공간이다. 류주현 문학전시실은 우리나라에 ‘대하 역사소설’이라는 장르를 개척하신 여주 출신의 묵사 류주현 선생의 삶과 작품세계를 설명한 공간이다. 류주현 선생은 다양·다작의 작가로 『조선총독부』, 『대원군』 등을 대표작으로 꼽을 수 있다. 한국 대표 문인으로서 선생의 생애와 작품세계, 문인들과의 교류를 통해 옛 문인들의 멋스러운 삶의 정취를 느낄 수 있을 것이다. 조선 왕릉실은 세종 영릉(英陵)과 효종 영릉(寧陵) 두 기의 조선 왕릉이 여주로 천릉하면서 조선시대부터 현대에 이르기까지 왕릉과 함께 변화한 여주의 역사와 여주 사람들의 삶을 살펴볼 수 있다. 여주의 역사와 전통문화를 아우르는 시립박물관으로, 전시와 교육, 체험을 할 수 있는 문화공간이다.",
+      "fusion_score": 0.028404512489927477,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 2,
+      "rerank_score": null,
+      "rank": 2,
+      "score": 0.028404512489927477,
+      "score_type": "rrf",
+      "distance": 0.5136637687683105,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0312",
+      "source_doc_ids": [
+        "DOC-B0312-TOUR_API-130965",
+        "DOC-B0312-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0312-TOUR_API-130965",
+          "source_type": "TOUR_API",
+          "source_record_id": "130965",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=153",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        },
+        {
+          "doc_id": "DOC-B0312-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0312",
+          "source_locator": "data/raw/museum_base_1070.csv#row=313",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 101,
+          "doc_ids": [
+            "DOC-B0312-TOUR_API-130965"
+          ]
+        },
+        {
+          "start": 102,
+          "end": 236,
+          "doc_ids": [
+            "DOC-B0312-TOUR_API-130965"
+          ]
+        },
+        {
+          "start": 237,
+          "end": 300,
+          "doc_ids": [
+            "DOC-B0312-TOUR_API-130965"
+          ]
+        },
+        {
+          "start": 301,
+          "end": 388,
+          "doc_ids": [
+            "DOC-B0312-TOUR_API-130965"
+          ]
+        },
+        {
+          "start": 389,
+          "end": 464,
+          "doc_ids": [
+            "DOC-B0312-TOUR_API-130965"
+          ]
+        },
+        {
+          "start": 465,
+          "end": 573,
+          "doc_ids": [
+            "DOC-B0312-TOUR_API-130965"
+          ]
+        },
+        {
+          "start": 574,
+          "end": 615,
+          "doc_ids": [
+            "DOC-B0312-TOUR_API-130965"
+          ]
+        },
+        {
+          "start": 616,
+          "end": 650,
+          "doc_ids": [
+            "DOC-B0312-TOUR_API-130965"
+          ]
+        },
+        {
+          "start": 651,
+          "end": 726,
+          "doc_ids": [
+            "DOC-B0312-TOUR_API-130965"
+          ]
+        },
+        {
+          "start": 727,
+          "end": 778,
+          "doc_ids": [
+            "DOC-B0312-TOUR_API-130965"
+          ]
+        },
+        {
+          "start": 779,
+          "end": 849,
+          "doc_ids": [
+            "DOC-B0312-TOUR_API-130965"
+          ]
+        },
+        {
+          "start": 850,
+          "end": 957,
+          "doc_ids": [
+            "DOC-B0312-TOUR_API-130965"
+          ]
+        },
+        {
+          "start": 958,
+          "end": 1012,
+          "doc_ids": [
+            "DOC-B0312-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=153",
+      "text": "1997년 여주군향토사료관으로 문을 연 여주박물관은 여주의 역사와 민속자료 등을 조사·수집·전시·교육하고, 새로운 학술자료를 발굴하며 여주의 정체성을 확립하는 역할을 수행하고 있다. 2010년 전시실 확장 후 제1종 전문박물관으로 등록하여 여주박물관으로 명칭을 변경하였으며, 2016년 7월 14일 여마관(신관)의 건립으로 전국에 흩어졌던 여주지역 발굴출토 국가귀속유물과 그간 수집한 다양한 유물을 전시할 수 있게 되었다. 전시실은 상설전시실과 기획전시실, 야외전시실로 구분되어 있으며, 상설전시실은 4가지 주제로 전시를 진행하고 있다. 여주역사실에서는 국립중앙박물관을 비롯한 여러 기관들에서 보관하던 주요 유적 출토 국가귀속 유물들과 그간 구입·기증을 통해 수집한 중요유물들을 전시하고 있다. 흔암리 선사유적지, 신륵사, 고달사지, 세종대왕릉과 효종대왕릉, 명성황후 생가 등 수많은 문화유적은 여주의 오랜 역사를 증명하고 있다. 남한강 수석전시실은 김정식 선생이 57년간 모은 수석을 기증받아 전시한 곳으로, 산수경석·물형석·추상석·12지석 등 자연이 빚은 최고의 예술작품인 수석의 멋과 아름다움을 느낄 수 있는 공간이다. 갖가지 수석에 담긴 의미를 여주 남한강이 가지고 있는 이야기로 풀어놓았다. 수석의 신비로움을 다채로운 방식으로 이해할 수 있는 공간이다. 류주현 문학전시실은 우리나라에 ‘대하 역사소설’이라는 장르를 개척하신 여주 출신의 묵사 류주현 선생의 삶과 작품세계를 설명한 공간이다. 류주현 선생은 다양·다작의 작가로 『조선총독부』, 『대원군』 등을 대표작으로 꼽을 수 있다. 한국 대표 문인으로서 선생의 생애와 작품세계, 문인들과의 교류를 통해 옛 문인들의 멋스러운 삶의 정취를 느낄 수 있을 것이다. 조선 왕릉실은 세종 영릉(英陵)과 효종 영릉(寧陵) 두 기의 조선 왕릉이 여주로 천릉하면서 조선시대부터 현대에 이르기까지 왕릉과 함께 변화한 여주의 역사와 여주 사람들의 삶을 살펴볼 수 있다. 여주의 역사와 전통문화를 아우르는 시립박물관으로, 전시와 교육, 체험을 할 수 있는 문화공간이다.",
+      "sido": "경기도",
+      "sigungu": "여주시",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=153"
+      ],
+      "evidence_id": "E2",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=225",
+        "fields": {
+          "name": "여주박물관",
+          "sido": "경기도",
+          "sigungu": "여주시",
+          "address": "경기도 여주시 신륵사길 6-12",
+          "ownership_type": "공립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "09:00",
+          "weekday_close": "18:00",
+          "holiday_open": "09:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "월요일+추석당일+설날당일+1월1일",
+          "amenities_raw": "청춘카페"
+        },
+        "base_data_date": "2026-05-19",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0782",
+      "name": "정읍시립미술관",
+      "document": "정읍시립미술관은 기존 시립도서관을 리모델링하여 2015년 10월 24일 개관하였다. 지하 1층, 지상 2층 건물에 3개의 전시실, 수장고, 야외 전시 공간, 뮤지엄 교육실, 상상버스 등의 시설이 마련되어 있다. 전문성과 대중성을 두루 갖춘 창작의 공간으로, 다양한 기획 전시와 문화예술을 통하여 시민들의 소통과 삶의 질을 향상시킬 수 있는 지역 문화 플랫폼으로 자리매김하고 있다. 정읍 예술인들의 창작 의욕을 북돋우며 미술문화를 뿌리내려, 세상을 아름답게 보는 특색을 갖춘 문화예술공간이다. 정읍사공원 옆에 위치한 정읍시립미술관은 2015년에 옛 정읍시립도서관을 리모델링하여 전시실 3관, 교육실 1관의 시설로 개관하였습니다.정읍 및 인근지역의 미술 전시 수요를 충족하기 위하여 연 4회의 기획전시와 그 외 대관전시, 미술교육프로그램을 운영중입니다.",
+      "metadata": {
+        "weekday_open": "10:00",
+        "source_types": "BASE|TOUR_API",
+        "adult_fee": 0.0,
+        "sigungu": "정읍시",
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "sido": "전북특별자치도",
+        "ownership_type": "공립",
+        "youth_fee": 0.0,
+        "requires_manual_review": true,
+        "fee_notes": "전체 무료",
+        "holiday_open": "10:00",
+        "address": "전북특별자치도 정읍시 시기4길 7",
+        "amenities_raw": "까페",
+        "latitude": 35.55232735,
+        "weekday_close": "18:00",
+        "homepage_url": "http://www.jeongeup.go.kr",
+        "child_fee": 0.0,
+        "transport_notes": "277번(시내운행버스) 이용, 시기주공 정류장에서 하차, 도보로 10분 소요",
+        "image_copyright": "Type3",
+        "holiday_close": "18:00",
+        "image_url": "http://tong.visitkorea.or.kr/cms/resource/18/2742618_image2_1.JPG",
+        "longitude": 126.8613896,
+        "closure_rule_raw": "매주 월",
+        "name": "정읍시립미술관"
+      },
+      "vector_rank": 20,
+      "bm25_rank": 5,
+      "vector_distance": 0.5212991833686829,
+      "vector_score": null,
+      "bm25_score": 11.454463275704635,
+      "vector_document": "정읍시립미술관은 기존 시립도서관을 리모델링하여 2015년 10월 24일 개관하였다. 지하 1층, 지상 2층 건물에 3개의 전시실, 수장고, 야외 전시 공간, 뮤지엄 교육실, 상상버스 등의 시설이 마련되어 있다. 전문성과 대중성을 두루 갖춘 창작의 공간으로, 다양한 기획 전시와 문화예술을 통하여 시민들의 소통과 삶의 질을 향상시킬 수 있는 지역 문화 플랫폼으로 자리매김하고 있다. 정읍 예술인들의 창작 의욕을 북돋우며 미술문화를 뿌리내려, 세상을 아름답게 보는 특색을 갖춘 문화예술공간이다. 정읍사공원 옆에 위치한 정읍시립미술관은 2015년에 옛 정읍시립도서관을 리모델링하여 전시실 3관, 교육실 1관의 시설로 개관하였습니다.정읍 및 인근지역의 미술 전시 수요를 충족하기 위하여 연 4회의 기획전시와 그 외 대관전시, 미술교육프로그램을 운영중입니다.",
+      "bm25_document": "정읍시립미술관은 기존 시립도서관을 리모델링하여 2015년 10월 24일 개관하였다. 지하 1층, 지상 2층 건물에 3개의 전시실, 수장고, 야외 전시 공간, 뮤지엄 교육실, 상상버스 등의 시설이 마련되어 있다. 전문성과 대중성을 두루 갖춘 창작의 공간으로, 다양한 기획 전시와 문화예술을 통하여 시민들의 소통과 삶의 질을 향상시킬 수 있는 지역 문화 플랫폼으로 자리매김하고 있다. 정읍 예술인들의 창작 의욕을 북돋우며 미술문화를 뿌리내려, 세상을 아름답게 보는 특색을 갖춘 문화예술공간이다. 정읍사공원 옆에 위치한 정읍시립미술관은 2015년에 옛 정읍시립도서관을 리모델링하여 전시실 3관, 교육실 1관의 시설로 개관하였습니다.정읍 및 인근지역의 미술 전시 수요를 충족하기 위하여 연 4회의 기획전시와 그 외 대관전시, 미술교육프로그램을 운영중입니다.",
+      "best_span_id": "chroma:M0782",
+      "best_span_text": "정읍시립미술관은 기존 시립도서관을 리모델링하여 2015년 10월 24일 개관하였다. 지하 1층, 지상 2층 건물에 3개의 전시실, 수장고, 야외 전시 공간, 뮤지엄 교육실, 상상버스 등의 시설이 마련되어 있다. 전문성과 대중성을 두루 갖춘 창작의 공간으로, 다양한 기획 전시와 문화예술을 통하여 시민들의 소통과 삶의 질을 향상시킬 수 있는 지역 문화 플랫폼으로 자리매김하고 있다. 정읍 예술인들의 창작 의욕을 북돋우며 미술문화를 뿌리내려, 세상을 아름답게 보는 특색을 갖춘 문화예술공간이다. 정읍사공원 옆에 위치한 정읍시립미술관은 2015년에 옛 정읍시립도서관을 리모델링하여 전시실 3관, 교육실 1관의 시설로 개관하였습니다.정읍 및 인근지역의 미술 전시 수요를 충족하기 위하여 연 4회의 기획전시와 그 외 대관전시, 미술교육프로그램을 운영중입니다.",
+      "fusion_score": 0.027884615384615386,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 3,
+      "rerank_score": null,
+      "rank": 3,
+      "score": 0.027884615384615386,
+      "score_type": "rrf",
+      "distance": 0.5212991833686829,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0782",
+      "source_doc_ids": [
+        "DOC-B0782-TOUR_API-2742247",
+        "DOC-B0782-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0782-TOUR_API-2742247",
+          "source_type": "TOUR_API",
+          "source_record_id": "2742247",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=377",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        },
+        {
+          "doc_id": "DOC-B0782-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0782",
+          "source_locator": "data/raw/museum_base_1070.csv#row=783",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 46,
+          "doc_ids": [
+            "DOC-B0782-TOUR_API-2742247"
+          ]
+        },
+        {
+          "start": 47,
+          "end": 117,
+          "doc_ids": [
+            "DOC-B0782-TOUR_API-2742247"
+          ]
+        },
+        {
+          "start": 118,
+          "end": 212,
+          "doc_ids": [
+            "DOC-B0782-TOUR_API-2742247"
+          ]
+        },
+        {
+          "start": 213,
+          "end": 274,
+          "doc_ids": [
+            "DOC-B0782-TOUR_API-2742247"
+          ]
+        },
+        {
+          "start": 275,
+          "end": 419,
+          "doc_ids": [
+            "DOC-B0782-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=377",
+      "text": "정읍시립미술관은 기존 시립도서관을 리모델링하여 2015년 10월 24일 개관하였다. 지하 1층, 지상 2층 건물에 3개의 전시실, 수장고, 야외 전시 공간, 뮤지엄 교육실, 상상버스 등의 시설이 마련되어 있다. 전문성과 대중성을 두루 갖춘 창작의 공간으로, 다양한 기획 전시와 문화예술을 통하여 시민들의 소통과 삶의 질을 향상시킬 수 있는 지역 문화 플랫폼으로 자리매김하고 있다. 정읍 예술인들의 창작 의욕을 북돋우며 미술문화를 뿌리내려, 세상을 아름답게 보는 특색을 갖춘 문화예술공간이다. 정읍사공원 옆에 위치한 정읍시립미술관은 2015년에 옛 정읍시립도서관을 리모델링하여 전시실 3관, 교육실 1관의 시설로 개관하였습니다.정읍 및 인근지역의 미술 전시 수요를 충족하기 위하여 연 4회의 기획전시와 그 외 대관전시, 미술교육프로그램을 운영중입니다.",
+      "sido": "전북특별자치도",
+      "sigungu": "정읍시",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=377"
+      ],
+      "evidence_id": "E3",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=538",
+        "fields": {
+          "name": "정읍시립미술관",
+          "sido": "전북특별자치도",
+          "sigungu": "정읍시",
+          "address": "전북특별자치도 정읍시 시기4길 7",
+          "ownership_type": "공립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "10:00",
+          "weekday_close": "18:00",
+          "holiday_open": "10:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "매주 월",
+          "amenities_raw": "까페"
+        },
+        "base_data_date": "2025-12-01",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0864",
+      "name": "국윤미술관",
+      "document": "젊은 작가에서 중견, 원로 작가의 기획전과 초대전 중심으로 전시",
+      "metadata": {
+        "holiday_close": "18:00",
+        "sigungu": "동구",
+        "requires_manual_review": false,
+        "closure_rule_raw": "월",
+        "name": "국윤미술관",
+        "source_types": "BASE",
+        "weekday_open": "10:00",
+        "holiday_open": "10:00",
+        "latitude": 35.131896,
+        "adult_fee": 0.0,
+        "address": "광주광역시 동구 의재로 82(소태동)",
+        "ownership_type": "사립",
+        "homepage_url": "http://cafe.daum.net/yywol",
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "longitude": 126.936533,
+        "child_fee": 0.0,
+        "weekday_close": "18:00",
+        "youth_fee": 0.0,
+        "sido": "광주광역시"
+      },
+      "vector_rank": 2,
+      "bm25_rank": null,
+      "vector_distance": 0.4797002673149109,
+      "vector_score": null,
+      "bm25_score": null,
+      "vector_document": "젊은 작가에서 중견, 원로 작가의 기획전과 초대전 중심으로 전시",
+      "bm25_document": "",
+      "best_span_id": null,
+      "best_span_text": null,
+      "fusion_score": 0.016129032258064516,
+      "retrieved_by": [
+        "vector"
+      ],
+      "fusion_rank": 4,
+      "rerank_score": null,
+      "rank": 4,
+      "score": 0.016129032258064516,
+      "score_type": "rrf",
+      "distance": 0.4797002673149109,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector"
+      ],
+      "retriever": "vector",
+      "source_doc_ids": [
+        "DOC-B0864-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0864-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0864",
+          "source_locator": "data/raw/museum_base_1070.csv#row=865",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 35,
+          "doc_ids": [
+            "DOC-B0864-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_base_1070.csv#row=865",
+      "text": "젊은 작가에서 중견, 원로 작가의 기획전과 초대전 중심으로 전시",
+      "sido": "광주광역시",
+      "sigungu": "동구",
+      "span_id": "",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_base_1070.csv#row=865"
+      ],
+      "evidence_id": "E4",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=587",
+        "fields": {
+          "name": "국윤미술관",
+          "sido": "광주광역시",
+          "sigungu": "동구",
+          "address": "광주광역시 동구 의재로 82(소태동)",
+          "ownership_type": "사립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "10:00",
+          "weekday_close": "18:00",
+          "holiday_open": "10:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "월"
+        },
+        "base_data_date": "2025-06-26",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0268",
+      "name": "통영시립박물관",
+      "document": "통영시립박물관은 2013년 개관한 통영의 시립박물관으로, 시민들에게 문화예술의 체험 기회를 극대화하고 통영 문화예술의 활성화와 국제 문화교류에 이바지하기 위해 건립했다. 통영의 역사유물을 전시하고 기획하는 한편, 예술, 디자인 관련 세미나와 교육프로그램을 마련하고 공연, 영화상영 등 다양한 문화행사와 기획전시 및 박물관대학 등을 운영하고 있다. 통영시립박물관은 총 2층으로 1층에는 기획전시실과 세미나실, 2층에는 역사실, 민속실, 관장실 등 볼거리가 다양하다.",
+      "metadata": {
+        "transport_notes": "통영미늘고개>롯데마트방면 진입>산복도로>충렬사교차로에서 좌회전 400M>신협앞우회전진입>50M전방에서 통영시립박물관 도착",
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "name": "통영시립박물관",
+        "holiday_open": "09:00",
+        "source_types": "TOUR_API",
+        "requires_manual_review": true,
+        "closure_rule_raw": "월+설당일+추석당일",
+        "sigungu": "통영시",
+        "weekday_close": "18:00",
+        "weekday_open": "09:00",
+        "longitude": 128.4167887,
+        "latitude": 34.84075153,
+        "adult_fee": 0.0,
+        "address": "경상남도 통영시 중앙로 65(도천동)",
+        "holiday_close": "18:00",
+        "image_copyright": "Type1",
+        "child_fee": 0.0,
+        "youth_fee": 0.0,
+        "ownership_type": "공립",
+        "amenities_raw": "주차장",
+        "sido": "경상남도",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/16/3556816_image2_1.jpg",
+        "homepage_url": "https://museum.tongyeong.go.kr/"
+      },
+      "vector_rank": null,
+      "bm25_rank": 2,
+      "vector_distance": null,
+      "vector_score": null,
+      "bm25_score": 14.409003332942978,
+      "vector_document": "",
+      "bm25_document": "통영시립박물관은 2013년 개관한 통영의 시립박물관으로, 시민들에게 문화예술의 체험 기회를 극대화하고 통영 문화예술의 활성화와 국제 문화교류에 이바지하기 위해 건립했다. 통영의 역사유물을 전시하고 기획하는 한편, 예술, 디자인 관련 세미나와 교육프로그램을 마련하고 공연, 영화상영 등 다양한 문화행사와 기획전시 및 박물관대학 등을 운영하고 있다. 통영시립박물관은 총 2층으로 1층에는 기획전시실과 세미나실, 2층에는 역사실, 민속실, 관장실 등 볼거리가 다양하다.",
+      "best_span_id": "chroma:M0268",
+      "best_span_text": "통영시립박물관은 2013년 개관한 통영의 시립박물관으로, 시민들에게 문화예술의 체험 기회를 극대화하고 통영 문화예술의 활성화와 국제 문화교류에 이바지하기 위해 건립했다. 통영의 역사유물을 전시하고 기획하는 한편, 예술, 디자인 관련 세미나와 교육프로그램을 마련하고 공연, 영화상영 등 다양한 문화행사와 기획전시 및 박물관대학 등을 운영하고 있다. 통영시립박물관은 총 2층으로 1층에는 기획전시실과 세미나실, 2층에는 역사실, 민속실, 관장실 등 볼거리가 다양하다.",
+      "fusion_score": 0.016129032258064516,
+      "retrieved_by": [
+        "bm25"
+      ],
+      "fusion_rank": 5,
+      "rerank_score": null,
+      "rank": 5,
+      "score": 0.016129032258064516,
+      "score_type": "rrf",
+      "distance": null,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "bm25"
+      ],
+      "retriever": "bm25",
+      "span_id": "chroma:M0268",
+      "source_doc_ids": [
+        "DOC-B0268-TOUR_API-2370207"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0268-TOUR_API-2370207",
+          "source_type": "TOUR_API",
+          "source_record_id": "2370207",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=135",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 94,
+          "doc_ids": [
+            "DOC-B0268-TOUR_API-2370207"
+          ]
+        },
+        {
+          "start": 95,
+          "end": 193,
+          "doc_ids": [
+            "DOC-B0268-TOUR_API-2370207"
+          ]
+        },
+        {
+          "start": 194,
+          "end": 259,
+          "doc_ids": [
+            "DOC-B0268-TOUR_API-2370207"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=135",
+      "text": "통영시립박물관은 2013년 개관한 통영의 시립박물관으로, 시민들에게 문화예술의 체험 기회를 극대화하고 통영 문화예술의 활성화와 국제 문화교류에 이바지하기 위해 건립했다. 통영의 역사유물을 전시하고 기획하는 한편, 예술, 디자인 관련 세미나와 교육프로그램을 마련하고 공연, 영화상영 등 다양한 문화행사와 기획전시 및 박물관대학 등을 운영하고 있다. 통영시립박물관은 총 2층으로 1층에는 기획전시실과 세미나실, 2층에는 역사실, 민속실, 관장실 등 볼거리가 다양하다.",
+      "sido": "경상남도",
+      "sigungu": "통영시",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=135"
+      ],
+      "evidence_id": "E5",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=190",
+        "fields": {
+          "name": "통영시립박물관",
+          "sido": "경상남도",
+          "sigungu": "통영시",
+          "address": "경상남도 통영시 중앙로 65(도천동)",
+          "ownership_type": "공립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "09:00",
+          "weekday_close": "18:00",
+          "holiday_open": "09:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "월+설당일+추석당일",
+          "amenities_raw": "주차장"
+        },
+        "base_data_date": "2026-07-09",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    }
+  ],
+  "answer": "기획전시실에서는 매해 새로운 주제를 정해 다양한 전시를 선보입니다. [E1]",
+  "retrieval_status": "ok",
+  "answer_status": "answered",
+  "route": "hybrid",
+  "retry_count": 0,
+  "supervisor_verified": true,
+  "rerank_applied": false,
+  "retriever_errors": [],
+  "warnings": [
+    "Cross-Encoder reranking failed (FileNotFoundError); RRF order retained"
+  ],
+  "duration_ms": 10331.57,
+  "error_type": "",
+  "hit_at_1": 1,
+  "hit_at_3": 1,
+  "hit_at_5": 1,
+  "recall_at_5": 1.0,
+  "mrr_at_10": 1.0
+}

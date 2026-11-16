@@ -1,0 +1,644 @@
+{
+  "mode": "supervisor_full",
+  "question_id": "Q109",
+  "evidence": [
+    {
+      "museum_id": "M0167",
+      "name": "복천박물관",
+      "document": "복천박물관은 복천동고분군에서 출토된 유물을 중심으로, 삼한시대부터 삼국시대까지의 부산지역의 역사를 보여주는 고고 전문박물관이다. 복천동고분군에서 7차에 걸친 발굴 조사로 밝혀진 덧널무덤, 구덩식돌덧널무덤, 앞트기식돌방무덤, 독널무덤 등 총 200여기의 무덤이 확인되었고, 여기서 다양한 형태의 가야토기, 철제무기류, 가지방울, 금동관, 목걸이 등의 유물들이 출토되었으며, 박물관에는 출토된 유물을 종합전시하고 있다. 복천박물관은 개관 이후 인근지역의 매장유산에 대한 조사와 연구를 수행하며, 부산의 역사와 문화, 나아가 가야사의 실체를 규명해 나가고 있으며, 지속해서 축적된 연구 성과를 바탕으로 다양한 학술 세미나 및 특별전을 통해 전문가와 시민들에게 제공함으로써 역사교육장으로서의 역할도 담당하고 있다.",
+      "metadata": {
+        "image_copyright": "Type3",
+        "closure_rule_raw": "1.1 휴관매주 월요일 휴관",
+        "weekday_open": "09:00",
+        "child_fee": 0.0,
+        "ownership_type": "공립",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/88/3492288_image2_1.jpg",
+        "requires_manual_review": true,
+        "name": "복천박물관",
+        "adult_fee": 0.0,
+        "source_types": "TOUR_API",
+        "homepage_url": "https://museum.busan.go.kr/bokcheon/index",
+        "sido": "부산광역시",
+        "youth_fee": 0.0,
+        "fee_notes": "부산광역시립박물관 운영 조례 제5조에 따름",
+        "amenities_raw": "문헌자료실+수유실",
+        "holiday_open": "09:00",
+        "address": "부산광역시 동래구 복천로 63(복천동)",
+        "holiday_close": "18:00",
+        "longitude": 129.0911773,
+        "sigungu": "동래구",
+        "weekday_close": "18:00",
+        "transport_notes": "지하철, 버스 등홈페이지 참조",
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "latitude": 35.20877341
+      },
+      "vector_rank": 3,
+      "bm25_rank": 1,
+      "vector_distance": 0.4560856223106384,
+      "vector_score": null,
+      "bm25_score": 25.495631231535388,
+      "vector_document": "복천박물관은 복천동고분군에서 출토된 유물을 중심으로, 삼한시대부터 삼국시대까지의 부산지역의 역사를 보여주는 고고 전문박물관이다. 복천동고분군에서 7차에 걸친 발굴 조사로 밝혀진 덧널무덤, 구덩식돌덧널무덤, 앞트기식돌방무덤, 독널무덤 등 총 200여기의 무덤이 확인되었고, 여기서 다양한 형태의 가야토기, 철제무기류, 가지방울, 금동관, 목걸이 등의 유물들이 출토되었으며, 박물관에는 출토된 유물을 종합전시하고 있다. 복천박물관은 개관 이후 인근지역의 매장유산에 대한 조사와 연구를 수행하며, 부산의 역사와 문화, 나아가 가야사의 실체를 규명해 나가고 있으며, 지속해서 축적된 연구 성과를 바탕으로 다양한 학술 세미나 및 특별전을 통해 전문가와 시민들에게 제공함으로써 역사교육장으로서의 역할도 담당하고 있다.",
+      "bm25_document": "복천박물관은 복천동고분군에서 출토된 유물을 중심으로, 삼한시대부터 삼국시대까지의 부산지역의 역사를 보여주는 고고 전문박물관이다. 복천동고분군에서 7차에 걸친 발굴 조사로 밝혀진 덧널무덤, 구덩식돌덧널무덤, 앞트기식돌방무덤, 독널무덤 등 총 200여기의 무덤이 확인되었고, 여기서 다양한 형태의 가야토기, 철제무기류, 가지방울, 금동관, 목걸이 등의 유물들이 출토되었으며, 박물관에는 출토된 유물을 종합전시하고 있다. 복천박물관은 개관 이후 인근지역의 매장유산에 대한 조사와 연구를 수행하며, 부산의 역사와 문화, 나아가 가야사의 실체를 규명해 나가고 있으며, 지속해서 축적된 연구 성과를 바탕으로 다양한 학술 세미나 및 특별전을 통해 전문가와 시민들에게 제공함으로써 역사교육장으로서의 역할도 담당하고 있다.",
+      "best_span_id": "chroma:M0167",
+      "best_span_text": "복천박물관은 복천동고분군에서 출토된 유물을 중심으로, 삼한시대부터 삼국시대까지의 부산지역의 역사를 보여주는 고고 전문박물관이다. 복천동고분군에서 7차에 걸친 발굴 조사로 밝혀진 덧널무덤, 구덩식돌덧널무덤, 앞트기식돌방무덤, 독널무덤 등 총 200여기의 무덤이 확인되었고, 여기서 다양한 형태의 가야토기, 철제무기류, 가지방울, 금동관, 목걸이 등의 유물들이 출토되었으며, 박물관에는 출토된 유물을 종합전시하고 있다. 복천박물관은 개관 이후 인근지역의 매장유산에 대한 조사와 연구를 수행하며, 부산의 역사와 문화, 나아가 가야사의 실체를 규명해 나가고 있으며, 지속해서 축적된 연구 성과를 바탕으로 다양한 학술 세미나 및 특별전을 통해 전문가와 시민들에게 제공함으로써 역사교육장으로서의 역할도 담당하고 있다.",
+      "fusion_score": 0.032266458495966696,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 1,
+      "name_match": true,
+      "rerank_score": 0.9995155334472656,
+      "rank": 1,
+      "score": 0.9995155334472656,
+      "score_type": "cross_encoder",
+      "distance": 0.4560856223106384,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0167",
+      "source_doc_ids": [
+        "DOC-B0167-TOUR_API-130145"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0167-TOUR_API-130145",
+          "source_type": "TOUR_API",
+          "source_record_id": "130145",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=78",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 71,
+          "doc_ids": [
+            "DOC-B0167-TOUR_API-130145"
+          ]
+        },
+        {
+          "start": 72,
+          "end": 232,
+          "doc_ids": [
+            "DOC-B0167-TOUR_API-130145"
+          ]
+        },
+        {
+          "start": 233,
+          "end": 395,
+          "doc_ids": [
+            "DOC-B0167-TOUR_API-130145"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=78",
+      "text": "복천박물관은 복천동고분군에서 출토된 유물을 중심으로, 삼한시대부터 삼국시대까지의 부산지역의 역사를 보여주는 고고 전문박물관이다. 복천동고분군에서 7차에 걸친 발굴 조사로 밝혀진 덧널무덤, 구덩식돌덧널무덤, 앞트기식돌방무덤, 독널무덤 등 총 200여기의 무덤이 확인되었고, 여기서 다양한 형태의 가야토기, 철제무기류, 가지방울, 금동관, 목걸이 등의 유물들이 출토되었으며, 박물관에는 출토된 유물을 종합전시하고 있다. 복천박물관은 개관 이후 인근지역의 매장유산에 대한 조사와 연구를 수행하며, 부산의 역사와 문화, 나아가 가야사의 실체를 규명해 나가고 있으며, 지속해서 축적된 연구 성과를 바탕으로 다양한 학술 세미나 및 특별전을 통해 전문가와 시민들에게 제공함으로써 역사교육장으로서의 역할도 담당하고 있다.",
+      "sido": "부산광역시",
+      "sigungu": "동래구",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=78"
+      ],
+      "evidence_id": "E1",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=108",
+        "fields": {
+          "name": "복천박물관",
+          "sido": "부산광역시",
+          "sigungu": "동래구",
+          "address": "부산광역시 동래구 복천로 63(복천동)",
+          "ownership_type": "공립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "09:00",
+          "weekday_close": "18:00",
+          "holiday_open": "09:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "1.1 휴관매주 월요일 휴관",
+          "amenities_raw": "문헌자료실+수유실"
+        },
+        "base_data_date": "2026-09-04",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0166",
+      "name": "부산박물관",
+      "document": "부산박물관은 1978년 7월 11일 개관한 이래 문화유산의 수집, 보존, 전시, 연구, 발굴, 조사, 박물관 교육 등 부산지역 전통문화 계승에 앞장서 왔다. 산하에 복천박물관, 동삼동패총전시관, 부산근대역사관, 임시수도기념관 등 전문박물관을 두고 있는 부산의 종합역사박물관이다. 부산박물관의 주요 사업 내용은 국가유산발굴조사연구, 어린이 및 성인 강좌, 박물관대학 등 교육, 특별전시, 국가유산보존 및 관리, 자료수집 학술연구논문집 발간 등 종합문화교육의 장이라 할 수 있다. 부산과 동남권의 역사·문화유산을 전시하는 지역박물관이다. 선사시대부터 고려시대의 유물을 다루는 동래관과 조선시대 이후 근현대사를 살펴보는 부산관을 운영한다.",
+      "metadata": {
+        "address": "부산광역시 남구 유엔평화로 63(대연동)",
+        "adult_fee": 0.0,
+        "homepage_url": "https://museum.busan.go.kr/busan/index",
+        "weekday_open": "09:00",
+        "youth_fee": 0.0,
+        "holiday_open": "09:00",
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "weekday_close": "18:00",
+        "holiday_close": "18:00",
+        "name": "부산박물관",
+        "requires_manual_review": true,
+        "source_types": "TOUR_API|WEB_RESEARCH",
+        "image_copyright": "Type3",
+        "transport_notes": "지하철, 버스 등홈페이지 참조",
+        "ownership_type": "공립",
+        "closure_rule_raw": "1.1 휴관매주 월요일 휴관",
+        "fee_notes": "부산광역시립박물관 운영 조례 제5조에 따름",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/54/3492254_image2_1.jpg",
+        "amenities_raw": "문헌자료실+수유실",
+        "sigungu": "남구",
+        "sido": "부산광역시",
+        "latitude": 35.12955255,
+        "longitude": 129.0929379,
+        "child_fee": 0.0
+      },
+      "vector_rank": 12,
+      "bm25_rank": 9,
+      "vector_distance": 0.5056518912315369,
+      "vector_score": null,
+      "bm25_score": 10.872947135309111,
+      "vector_document": "부산박물관은 1978년 7월 11일 개관한 이래 문화유산의 수집, 보존, 전시, 연구, 발굴, 조사, 박물관 교육 등 부산지역 전통문화 계승에 앞장서 왔다. 산하에 복천박물관, 동삼동패총전시관, 부산근대역사관, 임시수도기념관 등 전문박물관을 두고 있는 부산의 종합역사박물관이다. 부산박물관의 주요 사업 내용은 국가유산발굴조사연구, 어린이 및 성인 강좌, 박물관대학 등 교육, 특별전시, 국가유산보존 및 관리, 자료수집 학술연구논문집 발간 등 종합문화교육의 장이라 할 수 있다. 부산과 동남권의 역사·문화유산을 전시하는 지역박물관이다. 선사시대부터 고려시대의 유물을 다루는 동래관과 조선시대 이후 근현대사를 살펴보는 부산관을 운영한다.",
+      "bm25_document": "부산박물관은 1978년 7월 11일 개관한 이래 문화유산의 수집, 보존, 전시, 연구, 발굴, 조사, 박물관 교육 등 부산지역 전통문화 계승에 앞장서 왔다. 산하에 복천박물관, 동삼동패총전시관, 부산근대역사관, 임시수도기념관 등 전문박물관을 두고 있는 부산의 종합역사박물관이다. 부산박물관의 주요 사업 내용은 국가유산발굴조사연구, 어린이 및 성인 강좌, 박물관대학 등 교육, 특별전시, 국가유산보존 및 관리, 자료수집 학술연구논문집 발간 등 종합문화교육의 장이라 할 수 있다. 부산과 동남권의 역사·문화유산을 전시하는 지역박물관이다. 선사시대부터 고려시대의 유물을 다루는 동래관과 조선시대 이후 근현대사를 살펴보는 부산관을 운영한다.",
+      "best_span_id": "chroma:M0166",
+      "best_span_text": "부산박물관은 1978년 7월 11일 개관한 이래 문화유산의 수집, 보존, 전시, 연구, 발굴, 조사, 박물관 교육 등 부산지역 전통문화 계승에 앞장서 왔다. 산하에 복천박물관, 동삼동패총전시관, 부산근대역사관, 임시수도기념관 등 전문박물관을 두고 있는 부산의 종합역사박물관이다. 부산박물관의 주요 사업 내용은 국가유산발굴조사연구, 어린이 및 성인 강좌, 박물관대학 등 교육, 특별전시, 국가유산보존 및 관리, 자료수집 학술연구논문집 발간 등 종합문화교육의 장이라 할 수 있다. 부산과 동남권의 역사·문화유산을 전시하는 지역박물관이다. 선사시대부터 고려시대의 유물을 다루는 동래관과 조선시대 이후 근현대사를 살펴보는 부산관을 운영한다.",
+      "fusion_score": 0.028381642512077296,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 3,
+      "rerank_score": 0.35991233587265015,
+      "rank": 2,
+      "score": 0.35991233587265015,
+      "score_type": "cross_encoder",
+      "distance": 0.5056518912315369,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0166",
+      "source_doc_ids": [
+        "DOC-B0166-TOUR_API-129783",
+        "DOC-WEB-M0166-20261111"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0166-TOUR_API-129783",
+          "source_type": "TOUR_API",
+          "source_record_id": "129783",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=77",
+          "match_trust": "RECHECKED_BY_RULE_NOT_HUMAN_APPROVED"
+        },
+        {
+          "doc_id": "DOC-WEB-M0166-20261111",
+          "source_type": "WEB_RESEARCH",
+          "source_record_id": "RESEARCH-M0166",
+          "source_locator": "https://museum.busan.go.kr/busan/index/collectinfo01?bbsNo=1",
+          "source_url": "https://museum.busan.go.kr/busan/index/collectinfo01?bbsNo=1",
+          "match_trust": "WEB_SOURCE_REVIEWED_NOT_HUMAN_APPROVED"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 87,
+          "doc_ids": [
+            "DOC-B0166-TOUR_API-129783"
+          ]
+        },
+        {
+          "start": 88,
+          "end": 155,
+          "doc_ids": [
+            "DOC-B0166-TOUR_API-129783"
+          ]
+        },
+        {
+          "start": 156,
+          "end": 266,
+          "doc_ids": [
+            "DOC-B0166-TOUR_API-129783"
+          ]
+        },
+        {
+          "start": 267,
+          "end": 298,
+          "doc_ids": [
+            "DOC-WEB-M0166-20261111"
+          ]
+        },
+        {
+          "start": 299,
+          "end": 354,
+          "doc_ids": [
+            "DOC-WEB-M0166-20261111"
+          ]
+        }
+      ],
+      "source_urls": [
+        "https://museum.busan.go.kr/busan/index/collectinfo01?bbsNo=1"
+      ],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=77",
+      "text": "부산박물관은 1978년 7월 11일 개관한 이래 문화유산의 수집, 보존, 전시, 연구, 발굴, 조사, 박물관 교육 등 부산지역 전통문화 계승에 앞장서 왔다. 산하에 복천박물관, 동삼동패총전시관, 부산근대역사관, 임시수도기념관 등 전문박물관을 두고 있는 부산의 종합역사박물관이다. 부산박물관의 주요 사업 내용은 국가유산발굴조사연구, 어린이 및 성인 강좌, 박물관대학 등 교육, 특별전시, 국가유산보존 및 관리, 자료수집 학술연구논문집 발간 등 종합문화교육의 장이라 할 수 있다. 부산과 동남권의 역사·문화유산을 전시하는 지역박물관이다. 선사시대부터 고려시대의 유물을 다루는 동래관과 조선시대 이후 근현대사를 살펴보는 부산관을 운영한다.",
+      "sido": "부산광역시",
+      "sigungu": "남구",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=77"
+      ],
+      "evidence_id": "E2",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=107",
+        "fields": {
+          "name": "부산박물관",
+          "sido": "부산광역시",
+          "sigungu": "남구",
+          "address": "부산광역시 남구 유엔평화로 63(대연동)",
+          "ownership_type": "공립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "09:00",
+          "weekday_close": "18:00",
+          "holiday_open": "09:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "1.1 휴관매주 월요일 휴관",
+          "amenities_raw": "문헌자료실+수유실"
+        },
+        "base_data_date": "2026-09-04",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0909",
+      "name": "충북대학교박물관",
+      "document": "1970년 9월 27일 개관한 박물관은 중원문화의 실체규명을 위한 학술조사와 연구, 국제학술교류 및 평생교육을 중점적으로 실시하여 대학박물관으로서의 기능과 역할에 충실하고 있다. 소장유물은 보물 제716호 『김길통좌리공신교서(金吉通佐理功臣敎書)』와 중요민속문화재 5건 286점 등 동산문화재7,500여점 및 구석기시대 유물 30,000여점을 소장하고 있다. 특히 구석기시대의 다양한 유물과 조선시대 복식유물은 우리 박물관의 상징이라 할 수 있다.",
+      "metadata": {
+        "holiday_open": "09:00",
+        "transport_notes": "청주 고속(시외)버스터미널 승차(20-1, 50-1, 105, 502, 511, 710, 747, 823, 832등) 후 충북대학교 하차청주역 승차(514, 717, 911-1 등) 후 충북대학교 하차 / 오송역 승차(500, 502, 511, 747 등) 후 충북대학교 하차",
+        "requires_manual_review": true,
+        "latitude": 36.63003782,
+        "weekday_open": "09:00",
+        "source_types": "BASE",
+        "closure_rule_raw": "일요일+공휴일 및 학교에서 정하는 휴관일토요일은 예약자에 한해 관람가능",
+        "name": "충북대학교박물관",
+        "youth_fee": 0.0,
+        "address": "충청북도 청주시 서원구 충대로 1(개신동)",
+        "ownership_type": "대학",
+        "holiday_close": "17:30",
+        "amenities_raw": "주차장",
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "adult_fee": 0.0,
+        "homepage_url": "https://museum.chungbuk.ac.kr",
+        "longitude": 127.4547916,
+        "weekday_close": "17:30",
+        "sido": "충청북도",
+        "child_fee": 0.0,
+        "sigungu": "청주시"
+      },
+      "vector_rank": 18,
+      "bm25_rank": 2,
+      "vector_distance": 0.5171780586242676,
+      "vector_score": null,
+      "bm25_score": 14.93910749277313,
+      "vector_document": "1970년 9월 27일 개관한 박물관은 중원문화의 실체규명을 위한 학술조사와 연구, 국제학술교류 및 평생교육을 중점적으로 실시하여 대학박물관으로서의 기능과 역할에 충실하고 있다. 소장유물은 보물 제716호 『김길통좌리공신교서(金吉通佐理功臣敎書)』와 중요민속문화재 5건 286점 등 동산문화재7,500여점 및 구석기시대 유물 30,000여점을 소장하고 있다. 특히 구석기시대의 다양한 유물과 조선시대 복식유물은 우리 박물관의 상징이라 할 수 있다.",
+      "bm25_document": "1970년 9월 27일 개관한 박물관은 중원문화의 실체규명을 위한 학술조사와 연구, 국제학술교류 및 평생교육을 중점적으로 실시하여 대학박물관으로서의 기능과 역할에 충실하고 있다. 소장유물은 보물 제716호 『김길통좌리공신교서(金吉通佐理功臣敎書)』와 중요민속문화재 5건 286점 등 동산문화재7,500여점 및 구석기시대 유물 30,000여점을 소장하고 있다. 특히 구석기시대의 다양한 유물과 조선시대 복식유물은 우리 박물관의 상징이라 할 수 있다.",
+      "best_span_id": "chroma:M0909",
+      "best_span_text": "1970년 9월 27일 개관한 박물관은 중원문화의 실체규명을 위한 학술조사와 연구, 국제학술교류 및 평생교육을 중점적으로 실시하여 대학박물관으로서의 기능과 역할에 충실하고 있다. 소장유물은 보물 제716호 『김길통좌리공신교서(金吉通佐理功臣敎書)』와 중요민속문화재 5건 286점 등 동산문화재7,500여점 및 구석기시대 유물 30,000여점을 소장하고 있다. 특히 구석기시대의 다양한 유물과 조선시대 복식유물은 우리 박물관의 상징이라 할 수 있다.",
+      "fusion_score": 0.028949545078577336,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 2,
+      "rerank_score": 0.03282914310693741,
+      "rank": 3,
+      "score": 0.03282914310693741,
+      "score_type": "cross_encoder",
+      "distance": 0.5171780586242676,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0909",
+      "source_doc_ids": [
+        "DOC-B0909-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0909-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0909",
+          "source_locator": "data/raw/museum_base_1070.csv#row=910",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 99,
+          "doc_ids": [
+            "DOC-B0909-BASE"
+          ]
+        },
+        {
+          "start": 100,
+          "end": 199,
+          "doc_ids": [
+            "DOC-B0909-BASE"
+          ]
+        },
+        {
+          "start": 200,
+          "end": 249,
+          "doc_ids": [
+            "DOC-B0909-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_base_1070.csv#row=910",
+      "text": "1970년 9월 27일 개관한 박물관은 중원문화의 실체규명을 위한 학술조사와 연구, 국제학술교류 및 평생교육을 중점적으로 실시하여 대학박물관으로서의 기능과 역할에 충실하고 있다. 소장유물은 보물 제716호 『김길통좌리공신교서(金吉通佐理功臣敎書)』와 중요민속문화재 5건 286점 등 동산문화재7,500여점 및 구석기시대 유물 30,000여점을 소장하고 있다. 특히 구석기시대의 다양한 유물과 조선시대 복식유물은 우리 박물관의 상징이라 할 수 있다.",
+      "sido": "충청북도",
+      "sigungu": "청주시",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_base_1070.csv#row=910"
+      ],
+      "evidence_id": "E3",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=625",
+        "fields": {
+          "name": "충북대학교박물관",
+          "sido": "충청북도",
+          "sigungu": "청주시",
+          "address": "충청북도 청주시 서원구 충대로 1(개신동)",
+          "ownership_type": "대학",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "09:00",
+          "weekday_close": "17:30",
+          "holiday_open": "09:00",
+          "holiday_close": "17:30",
+          "closure_rule_raw": "일요일+공휴일 및 학교에서 정하는 휴관일토요일은 예약자에 한해 관람가능",
+          "amenities_raw": "주차장"
+        },
+        "base_data_date": "2025-11-26",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0603",
+      "name": "한신대학교박물관",
+      "document": "한신대학교 박물관은 고고·역사·민속 등에 관한 유물을 수집하여 정리, 보존, 전시함으로써 교내의 성원들은 물론 일반 국민들의역사문화인식 함양에 기여하고, 이에 대한 학술적 연구를 통해 우리의 역사문화를 체계적으로 규명하는데 그 목적을 두고 있습니다.",
+      "metadata": {
+        "youth_fee": 0.0,
+        "adult_fee": 0.0,
+        "weekday_open": "10:00",
+        "weekday_close": "16:00",
+        "name": "한신대학교박물관",
+        "closure_rule_raw": "공휴일+국경일 및 개교기념일(4.19)",
+        "transport_notes": "1호선 병점(한신대)역 하차, 2번출구 버스정류장에서 마을버스(55, 56) 이용광역버스 : 학교-강남역(1550-1) 한신대학교 기숙사 앞 승강장에서 승하차수원 IC (13.9km, 약 27분)수원 IC 출구 좌회전→오산천2길 좌회전→서령로 좌회전→315번 지방도고가도로→박지성길 오산/동탄/병점 방면 좌회전→북태안길 우측방향→점역/동탄 방면 좌회전→효행길 84번 지방도 고가도로→한신대길 좌회전→한신대학교도착기흥(동탄) IC 출구→오산/용인 방면 지하차도→ 수원/능동마을방면 우측 → 지하차도 옆길 → 315번 지방도 능리교차로 좌회전 → 병점 방면→효행길 84번 지방도 고가도로→한신대길 좌회전 → 한신대학교도착북오산IC 출구→성호중고길 우회전→동부대로 우회전 → 대원로 좌회전 → 중앙대로 1번국도 → 세마대사거리에서 정남 방면 좌회전 → 양산로 우회전 → 한신대길 좌회전→한신대학교도착과천ㆍ의왕고속도로 진입 → 400번 봉담동탄고속도로 진입→동탄ㆍ정남 방면→17번 평택화성고속도로 동화성ㆍ평택방면 우측방향 → 동화성ㆍ안녕방면 좌측방향 → 안녕IC → 84번 우측방향 → 한신대길 우회전 → 한신대학교도착 서해안고속도로 진입 → 40번 평택제천고속도로 음성ㆍ경부고속도로 방면 우측→17번 평택화성고속도로 동화성ㆍ평택방면 우측방향 → 동화성ㆍ안녕방면 좌측방향→안녕IC→84번 우측방향→한신대길 우회전→한신대학교도착",
+        "address": "경기도 오산시 한신대길 137",
+        "longitude": 127.0282159,
+        "latitude": 37.19243447,
+        "fee_notes": "무료",
+        "ownership_type": "대학",
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "holiday_open": "10:00",
+        "homepage_url": "http://www.hs.ac.kr/hsmuseum/index.do",
+        "requires_manual_review": true,
+        "child_fee": 0.0,
+        "source_types": "BASE",
+        "amenities_raw": "교내 벤치 및 휴게시설",
+        "holiday_close": "16:00",
+        "sido": "경기도",
+        "sigungu": "오산시"
+      },
+      "vector_rank": null,
+      "bm25_rank": 3,
+      "vector_distance": null,
+      "vector_score": null,
+      "bm25_score": 14.297714741896307,
+      "vector_document": "",
+      "bm25_document": "한신대학교 박물관은 고고·역사·민속 등에 관한 유물을 수집하여 정리, 보존, 전시함으로써 교내의 성원들은 물론 일반 국민들의역사문화인식 함양에 기여하고, 이에 대한 학술적 연구를 통해 우리의 역사문화를 체계적으로 규명하는데 그 목적을 두고 있습니다.",
+      "best_span_id": "chroma:M0603",
+      "best_span_text": "한신대학교 박물관은 고고·역사·민속 등에 관한 유물을 수집하여 정리, 보존, 전시함으로써 교내의 성원들은 물론 일반 국민들의역사문화인식 함양에 기여하고, 이에 대한 학술적 연구를 통해 우리의 역사문화를 체계적으로 규명하는데 그 목적을 두고 있습니다.",
+      "fusion_score": 0.015873015873015872,
+      "retrieved_by": [
+        "bm25"
+      ],
+      "fusion_rank": 6,
+      "rerank_score": 0.01109762117266655,
+      "rank": 4,
+      "score": 0.01109762117266655,
+      "score_type": "cross_encoder",
+      "distance": null,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "bm25"
+      ],
+      "retriever": "bm25",
+      "span_id": "chroma:M0603",
+      "source_doc_ids": [
+        "DOC-B0603-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0603-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0603",
+          "source_locator": "data/raw/museum_base_1070.csv#row=604",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 139,
+          "doc_ids": [
+            "DOC-B0603-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_base_1070.csv#row=604",
+      "text": "한신대학교 박물관은 고고·역사·민속 등에 관한 유물을 수집하여 정리, 보존, 전시함으로써 교내의 성원들은 물론 일반 국민들의역사문화인식 함양에 기여하고, 이에 대한 학술적 연구를 통해 우리의 역사문화를 체계적으로 규명하는데 그 목적을 두고 있습니다.",
+      "sido": "경기도",
+      "sigungu": "오산시",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_base_1070.csv#row=604"
+      ],
+      "evidence_id": "E4",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=423",
+        "fields": {
+          "name": "한신대학교박물관",
+          "sido": "경기도",
+          "sigungu": "오산시",
+          "address": "경기도 오산시 한신대길 137",
+          "ownership_type": "대학",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "10:00",
+          "weekday_close": "16:00",
+          "holiday_open": "10:00",
+          "holiday_close": "16:00",
+          "closure_rule_raw": "공휴일+국경일 및 개교기념일(4.19)",
+          "amenities_raw": "교내 벤치 및 휴게시설"
+        },
+        "base_data_date": "2025-12-22",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0689",
+      "name": "한국전통문화대학교박물관",
+      "document": "문화재분야의 조사 연구 발굴 보존 등 전통문화의 다양한 융복합 연구개발을 선도하는 박물관",
+      "metadata": {
+        "sigungu": "부여군",
+        "child_fee": 0.0,
+        "holiday_close": "00:00",
+        "youth_fee": 0.0,
+        "name": "한국전통문화대학교박물관",
+        "source_types": "BASE",
+        "longitude": 126.8966496,
+        "latitude": 36.30789119,
+        "requires_manual_review": true,
+        "closure_rule_raw": "토+일+공휴일+1월 1일+설 연휴+추석 연휴",
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "sido": "충청남도",
+        "weekday_open": "09:30",
+        "address": "충청남도 부여군 규암면 백제문로 367",
+        "adult_fee": 0.0,
+        "ownership_type": "대학",
+        "holiday_open": "00:00",
+        "weekday_close": "17:30"
+      },
+      "vector_rank": 6,
+      "bm25_rank": null,
+      "vector_distance": 0.47370922565460205,
+      "vector_score": null,
+      "bm25_score": null,
+      "vector_document": "문화재분야의 조사 연구 발굴 보존 등 전통문화의 다양한 융복합 연구개발을 선도하는 박물관",
+      "bm25_document": "",
+      "best_span_id": null,
+      "best_span_text": null,
+      "fusion_score": 0.015151515151515152,
+      "retrieved_by": [
+        "vector"
+      ],
+      "fusion_rank": 11,
+      "rerank_score": 0.010933609679341316,
+      "rank": 5,
+      "score": 0.010933609679341316,
+      "score_type": "cross_encoder",
+      "distance": 0.47370922565460205,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector"
+      ],
+      "retriever": "vector",
+      "source_doc_ids": [
+        "DOC-B0689-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0689-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0689",
+          "source_locator": "data/raw/museum_base_1070.csv#row=690",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 49,
+          "doc_ids": [
+            "DOC-B0689-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_base_1070.csv#row=690",
+      "text": "문화재분야의 조사 연구 발굴 보존 등 전통문화의 다양한 융복합 연구개발을 선도하는 박물관",
+      "sido": "충청남도",
+      "sigungu": "부여군",
+      "span_id": "",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_base_1070.csv#row=690"
+      ],
+      "evidence_id": "E5",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=477",
+        "fields": {
+          "name": "한국전통문화대학교박물관",
+          "sido": "충청남도",
+          "sigungu": "부여군",
+          "address": "충청남도 부여군 규암면 백제문로 367",
+          "ownership_type": "대학",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "09:30",
+          "weekday_close": "17:30",
+          "holiday_open": "00:00",
+          "holiday_close": "00:00",
+          "closure_rule_raw": "토+일+공휴일+1월 1일+설 연휴+추석 연휴"
+        },
+        "base_data_date": "2025-12-10",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    }
+  ],
+  "answer": "복천박물관은 인근 매장유산을 조사·연구해 부산의 역사와 문화, 나아가 가야사의 실체를 규명해 나가고 있습니다. 복천동고분군 발굴에서는 여러 형태의 무덤 200여 기와 가야토기·철제 무기·금동관 등의 유물이 확인되어, 삼한시대부터 삼국시대까지 부산지역의 역사를 살피는 근거가 되고 있습니다.[E1]",
+  "retrieval_status": "ok",
+  "answer_status": "answered",
+  "route": "hybrid",
+  "retry_count": 0,
+  "supervisor_verified": true,
+  "rerank_applied": true,
+  "retriever_errors": [],
+  "warnings": [],
+  "duration_ms": 141940.44,
+  "error_type": "",
+  "hit_at_1": 1,
+  "hit_at_3": 1,
+  "hit_at_5": 1,
+  "recall_at_5": 1.0,
+  "mrr_at_10": 1.0
+}

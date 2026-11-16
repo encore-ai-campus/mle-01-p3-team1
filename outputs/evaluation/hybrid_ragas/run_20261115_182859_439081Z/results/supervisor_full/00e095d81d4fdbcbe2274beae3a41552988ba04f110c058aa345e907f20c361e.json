@@ -1,0 +1,794 @@
+{
+  "evidence_context_version": "grounded-evidence-v2",
+  "evaluation_contexts": [
+    "{\"evidence_context_version\": \"grounded-evidence-v2\", \"evidence_id\": \"E1\", \"metadata_provenance\": {\"base_data_date\": \"2026-09-19\", \"fields\": {\"address\": \"충청남도 홍성군 홍성읍 아문길 20\", \"adult_fee\": \"0\", \"adult_fee_status\": \"BASE_FEE_ZERO_CHECK_EXCEPTIONS\", \"child_fee\": \"0\", \"closure_rule_raw\": \"월+1월 1일+설 연휴+추석 연휴\", \"holiday_close\": \"18:00\", \"holiday_open\": \"09:00\", \"name\": \"홍주성역사관\", \"ownership_type\": \"공립\", \"sido\": \"충청남도\", \"sigungu\": \"홍성군\", \"weekday_close\": \"18:00\", \"weekday_open\": \"09:00\", \"youth_fee\": \"0\"}, \"source_kind\": \"derived_csv_row\", \"source_locator\": \"data/processed/museum_final_738.csv#record=12\", \"trust\": \"derived_dataset_not_human_verified\"}, \"museum_id\": \"M0012\", \"name\": \"홍주성역사관\", \"source_doc_ids\": [\"DOC-B0012-TOUR_API-2551494\", \"DOC-B0012-BASE\"], \"source_documents\": [{\"doc_id\": \"DOC-B0012-TOUR_API-2551494\", \"match_trust\": \"AUTO_MATCH_NOT_HUMAN_VERIFIED\", \"source_locator\": \"data/raw/museum_tourapi_with_overview.csv#row=10\", \"source_record_id\": \"2551494\", \"source_type\": \"TOUR_API\"}, {\"doc_id\": \"DOC-B0012-BASE\", \"match_trust\": \"BASE_SOURCE\", \"source_locator\": \"data/raw/museum_base_1070.csv#row=13\", \"source_record_id\": \"B0012\", \"source_type\": \"BASE\"}], \"source_locator\": \"data/raw/museum_tourapi_with_overview.csv#row=10\", \"source_locators\": [\"data/raw/museum_tourapi_with_overview.csv#row=10\"], \"source_scope\": \"text\", \"source_spans\": [{\"doc_ids\": [\"DOC-B0012-TOUR_API-2551494\"], \"end\": 26, \"start\": 0}, {\"doc_ids\": [\"DOC-B0012-TOUR_API-2551494\"], \"end\": 181, \"start\": 27}, {\"doc_ids\": [\"DOC-B0012-BASE\", \"DOC-B0012-TOUR_API-2551494\"], \"end\": 235, \"start\": 182}, {\"doc_ids\": [\"DOC-B0012-TOUR_API-2551494\"], \"end\": 285, \"start\": 236}, {\"doc_ids\": [\"DOC-B0012-BASE\"], \"end\": 349, \"start\": 286}, {\"doc_ids\": [\"DOC-B0012-BASE\"], \"end\": 416, \"start\": 350}], \"source_urls\": [], \"text\": \"홍주성역사관은 홍성 홍주읍성 내 위치하고 있다. 지역의 전통을 부각시키면서 동시에 역사에 바탕을 둔 미래지향적인 시설로 구성되었으며, 역사관의 기본적 기능에 충실하여 전시 유물의 상징적 의미와 예술적 요소를 함축성 있게 표현하여 이를 바탕으로 군민 참여와 소통의 장이자 연구의 중심지로서 지역 정보 센터의 역할을 하고 있다. 홍성과 충남 내포지역의 특색 있는 역사와 문화, 관련 유적 및 유물을 소재로 전시를 하고 있다. 박물관 주변에 옛 홍주목 관련 흔적들이 남아 있어 전시와 연계한 볼거리가 마련되어 있다. 홍성 홍주읍성(사적 231호) 내 위치하고 있으며 전면적 7199.17㎡ 및 연면적 1669㎡ 로 구성되어 있다. 박물관이 홍주읍성 내에 위치하고 있고 주변에 옛 홍주목 관련 흔적들이 남아 있어 전시와 연계한 볼거리가 마련되어 있다.\"}",
+    "{\"evidence_context_version\": \"grounded-evidence-v2\", \"evidence_id\": \"E2\", \"metadata_provenance\": {\"base_data_date\": \"2026-05-19\", \"fields\": {\"address\": \"경기도 수원시 팔달구 창룡대로 21\", \"adult_fee\": \"2000\", \"adult_fee_status\": \"BASE_FEE_PAID\", \"amenities_raw\": \"카페테리아+뮤지업샵+수유실+물품보관실\", \"child_fee\": \"0\", \"closure_rule_raw\": \"월(월요일이 공휴일인 경우 그 다음날 휴관)\", \"holiday_close\": \"18:00\", \"holiday_open\": \"09:00\", \"name\": \"수원화성박물관\", \"ownership_type\": \"공립\", \"sido\": \"경기도\", \"sigungu\": \"수원시\", \"weekday_close\": \"18:00\", \"weekday_open\": \"09:00\", \"youth_fee\": \"1000\"}, \"source_kind\": \"derived_csv_row\", \"source_locator\": \"data/processed/museum_final_738.csv#record=286\", \"trust\": \"derived_dataset_not_human_verified\"}, \"museum_id\": \"M0402\", \"name\": \"수원화성박물관\", \"source_doc_ids\": [\"DOC-B0402-TOUR_API-1921150\", \"DOC-B0402-BASE\"], \"source_documents\": [{\"doc_id\": \"DOC-B0402-TOUR_API-1921150\", \"match_trust\": \"RECHECKED_BY_RULE_NOT_HUMAN_APPROVED\", \"source_locator\": \"data/raw/museum_tourapi_with_overview.csv#row=187\", \"source_record_id\": \"1921150\", \"source_type\": \"TOUR_API\"}, {\"doc_id\": \"DOC-B0402-BASE\", \"match_trust\": \"BASE_SOURCE\", \"source_locator\": \"data/raw/museum_base_1070.csv#row=403\", \"source_record_id\": \"B0402\", \"source_type\": \"BASE\"}], \"source_locator\": \"data/raw/museum_tourapi_with_overview.csv#row=187\", \"source_locators\": [\"data/raw/museum_tourapi_with_overview.csv#row=187\"], \"source_scope\": \"text\", \"source_spans\": [{\"doc_ids\": [\"DOC-B0402-TOUR_API-1921150\"], \"end\": 110, \"start\": 0}, {\"doc_ids\": [\"DOC-B0402-TOUR_API-1921150\"], \"end\": 219, \"start\": 111}, {\"doc_ids\": [\"DOC-B0402-TOUR_API-1921150\"], \"end\": 296, \"start\": 220}, {\"doc_ids\": [\"DOC-B0402-TOUR_API-1921150\"], \"end\": 425, \"start\": 297}, {\"doc_ids\": [\"DOC-B0402-BASE\"], \"end\": 507, \"start\": 426}], \"source_urls\": [], \"text\": \"수원화성박물관은 화성의 역사와 문화를 총체적으로 보여줄 수 있으며 화성을 찾는 방문객에게 더 효과적이고 체계적인 안내와 정조시대 문화 융성의 모습, 더불어 화성의 우수성을 알려주는 전문 박물관이다. 수원시는 우리 민족 문화유산의 자랑인 유네스코 세계문화유산 수원 화성과 조선 후기 우리 문화의 우수성을 알리고 지역의 문화와 예술이 살아 숨 쉬는 공간을 만들고자 수원 화성 박물관을 건립하였다. 화성은 18세기 전 세계 군사 건축물의 모범이자 조선시대 성곽 문화의 꽃으로 평가받고 있으며, 단순한 성곽이 아닌 도시 전체이기도 하다. 화성 박물관은 수원 신도시 건설과 화성을 축성한 정조의 사상과 정신을 포함하여 화성 축성에 참여한 인물, 화성에 주둔했던 장용영 군사, 그리고 정조의 8일간의 화성 행차를 통해 각종 문화행사를 모형과 유물을 통하여 전시하고 있다. 세계문화유산 수원화성의 중심부에 자리잡아 접근성이 용이하고 모형과 관련 유물의 전시를 통해 화성 축성에 대한 전반을 이해할 수 있게 건립되었습니다\"}",
+    "{\"evidence_context_version\": \"grounded-evidence-v2\", \"evidence_id\": \"E3\", \"metadata_provenance\": {\"base_data_date\": \"2026-03-05\", \"fields\": {\"address\": \"서울특별시 강서구 양천로47길 36\", \"adult_fee\": \"1000\", \"adult_fee_status\": \"BASE_FEE_PAID\", \"amenities_raw\": \"주차장(26대)+카페테리아+뮤지엄샵+수유실+자전거보관대\", \"child_fee\": \"500\", \"closure_rule_raw\": \"월+1월1일+설 당일+추석 당일\", \"holiday_close\": \"18:00\", \"holiday_open\": \"10:00\", \"name\": \"겸재정선미술관\", \"ownership_type\": \"공립\", \"sido\": \"서울특별시\", \"sigungu\": \"강서구\", \"weekday_close\": \"18:00\", \"weekday_open\": \"10:00\", \"youth_fee\": \"500\"}, \"source_kind\": \"derived_csv_row\", \"source_locator\": \"data/processed/museum_final_738.csv#record=380\", \"trust\": \"derived_dataset_not_human_verified\"}, \"museum_id\": \"M0543\", \"name\": \"겸재정선미술관\", \"source_doc_ids\": [\"DOC-B0543-TOUR_API-774675\", \"DOC-B0543-BASE\"], \"source_documents\": [{\"doc_id\": \"DOC-B0543-TOUR_API-774675\", \"match_trust\": \"AUTO_MATCH_NOT_HUMAN_VERIFIED\", \"source_locator\": \"data/raw/museum_tourapi_with_overview.csv#row=267\", \"source_record_id\": \"774675\", \"source_type\": \"TOUR_API\"}, {\"doc_id\": \"DOC-B0543-BASE\", \"match_trust\": \"BASE_SOURCE\", \"source_locator\": \"data/raw/museum_base_1070.csv#row=544\", \"source_record_id\": \"B0543\", \"source_type\": \"BASE\"}], \"source_locator\": \"data/raw/museum_tourapi_with_overview.csv#row=267\", \"source_locators\": [\"data/raw/museum_tourapi_with_overview.csv#row=267\"], \"source_scope\": \"text\", \"source_spans\": [{\"doc_ids\": [\"DOC-B0543-TOUR_API-774675\"], \"end\": 36, \"start\": 0}, {\"doc_ids\": [\"DOC-B0543-TOUR_API-774675\"], \"end\": 91, \"start\": 37}, {\"doc_ids\": [\"DOC-B0543-TOUR_API-774675\"], \"end\": 196, \"start\": 92}, {\"doc_ids\": [\"DOC-B0543-TOUR_API-774675\"], \"end\": 283, \"start\": 197}, {\"doc_ids\": [\"DOC-B0543-TOUR_API-774675\"], \"end\": 335, \"start\": 284}, {\"doc_ids\": [\"DOC-B0543-TOUR_API-774675\"], \"end\": 388, \"start\": 336}, {\"doc_ids\": [\"DOC-B0543-TOUR_API-774675\"], \"end\": 439, \"start\": 389}, {\"doc_ids\": [\"DOC-B0543-BASE\"], \"end\": 521, \"start\": 440}, {\"doc_ids\": [\"DOC-B0543-BASE\"], \"end\": 527, \"start\": 522}], \"source_urls\": [], \"text\": \"겸재정선미술관은 강서구 습지생태공원 맞은편에 있는 구립미술관이다. 겸재 정선(1676~1759)은 진경산수 화풍을 창안하여 한국 미술의 정체성을 이끌어낸 화성이다. 겸재정선미술관은 지하 1층, 지상 3층 건물로, 미술관 1층에는 양천현아실, 기획전시실이 마련되어 있어 양천과 정선의 인연에 대해 소개하였고 기획전시실에서는 다른 작가의 전시가 가능하다. 2층에는 정선의 생애 및 작품을 살펴볼 수 있는 겸재기념관실과 정선이 여행한 전국과 그의 작품 속 장소의 현재와 과거의 변화된 모습을 비교해 볼 수 있다. 겸재기념실 외에도 체험실, 영상실이 마련되어 있어 직접 정선작품을 학습하고 체험할 수 있다. 3층에는 카페테리아, 뮤지움 숍, 다목적실, 수유실이 있어서 관람객에게 편의를 제공하고 있다. 다목적실은 영상 시청, 강의 및 세미나, 전시가 모두 가능하며 대관 장소로 활용하고 있다. 겸재정선미술관은 진경산수화풍을 완성한 겸재 정선(1676~1759)의 위대한 예술적 업적을 기리고 진경문화를 계승·발전시키고자 2009.4.23. 건립되었음\"}",
+    "{\"evidence_context_version\": \"grounded-evidence-v2\", \"evidence_id\": \"E4\", \"metadata_provenance\": {\"base_data_date\": \"2026-08-13\", \"fields\": {\"address\": \"전남광주통합특별시 진도군 임회면 죽림길 97\", \"adult_fee\": \"5000\", \"adult_fee_status\": \"BASE_FEE_PAID\", \"child_fee\": \"0\", \"closure_rule_raw\": \"월\", \"holiday_close\": \"18:00\", \"holiday_open\": \"09:00\", \"name\": \"시에그린한국시화박물관\", \"ownership_type\": \"사립\", \"sido\": \"전남광주통합특별시\", \"sigungu\": \"진도군\", \"weekday_close\": \"18:00\", \"weekday_open\": \"09:00\", \"youth_fee\": \"5000\"}, \"normalizations\": {\"sido\": {\"matched_value\": \"전남광주특별자치도\", \"rule\": \"configured_sido_alias\", \"source_value\": \"전남광주통합특별시\"}}, \"source_kind\": \"derived_csv_row\", \"source_locator\": \"data/processed/museum_final_738.csv#record=96\", \"trust\": \"derived_dataset_not_human_verified\"}, \"museum_id\": \"M0153\", \"name\": \"시에그린한국시화박물관\", \"source_doc_ids\": [\"DOC-B0153-TOUR_API-3076980\", \"DOC-B0153-BASE\"], \"source_documents\": [{\"doc_id\": \"DOC-B0153-TOUR_API-3076980\", \"match_trust\": \"AUTO_MATCH_NOT_HUMAN_VERIFIED\", \"source_locator\": \"data/raw/museum_tourapi_with_overview.csv#row=72\", \"source_record_id\": \"3076980\", \"source_type\": \"TOUR_API\"}, {\"doc_id\": \"DOC-B0153-BASE\", \"match_trust\": \"BASE_SOURCE\", \"source_locator\": \"data/raw/museum_base_1070.csv#row=154\", \"source_record_id\": \"B0153\", \"source_type\": \"BASE\"}], \"source_locator\": \"data/raw/museum_tourapi_with_overview.csv#row=72\", \"source_locators\": [\"data/raw/museum_tourapi_with_overview.csv#row=72\"], \"source_scope\": \"text\", \"source_spans\": [{\"doc_ids\": [\"DOC-B0153-TOUR_API-3076980\"], \"end\": 61, \"start\": 0}, {\"doc_ids\": [\"DOC-B0153-TOUR_API-3076980\"], \"end\": 140, \"start\": 62}, {\"doc_ids\": [\"DOC-B0153-TOUR_API-3076980\"], \"end\": 278, \"start\": 141}, {\"doc_ids\": [\"DOC-B0153-TOUR_API-3076980\"], \"end\": 315, \"start\": 279}, {\"doc_ids\": [\"DOC-B0153-TOUR_API-3076980\"], \"end\": 492, \"start\": 316}, {\"doc_ids\": [\"DOC-B0153-TOUR_API-3076980\"], \"end\": 587, \"start\": 493}, {\"doc_ids\": [\"DOC-B0153-TOUR_API-3076980\"], \"end\": 665, \"start\": 588}, {\"doc_ids\": [\"DOC-B0153-TOUR_API-3076980\"], \"end\": 704, \"start\": 666}, {\"doc_ids\": [\"DOC-B0153-BASE\"], \"end\": 784, \"start\": 705}], \"source_urls\": [], \"text\": \"시에그린 한국 시화 박물관은 진도군 임회면에 자리하고 있으며 시와 그림이 어우러진 우리나라 최초의 박물관이다. 폐교된 죽림초등학교를 인수하여 리모델링한 건물로 깔끔하며 전시 작품에 집중할 수 있도록 흰색으로 벽과 복도가 채색되어 있는 것이 인상적이다. 한국 시화 박물관은 한국 문학의 대표적인 시와 소설 등 주요 문학작품을 미술(문인화, 서양화, 조각, 공예 등)로 구현한 작품을 시인이 직접 쓴 서예 작품과 동시에 전시하여 일반인들에게 보다 다양하고 수준 높은 예술의 향수 기회를 제공하고 있다. 여기에는 여귀산 미술관과 진도 수석 박물관도 함께 자리하고 있다. 여귀산 미술관은 한국을 대표하는 한국 화가와 문인 화가의 미술작품을 전시하여 일반인에게 남도 미술의 품격 높은 서정성을 음미하고 수준 높은 예술작품을 전시하고 있으며 진도가 낳은 한국의 대표적 조각가인 양두환 선생의 유작과 박달목, 배현, 박주부 조각가의 작품이 야외에 전시되고 있어 다양한 볼거리를 제공하고 있다. 진도 수석 박물관은 전국 수석 산지를 탐석한 토중석, 강석, 해석과 해외 수석을 전시하여 일반인들에게 품격 높은 서정성을 음미하고 예술의 향수 기회를 제공하는 공간이다. 시에그린 한국 시화 박물관과 여귀산 미술관, 진도 수석 박물관은 예술교육의 총체적인 모습을 알리고 이를 체계화하는 데 목표를 두는 곳이다. 진도를 여행하며 우리 문학과 예술에 대해 알아보는 것도 좋을 것이다. 한국문학의 대표적인 시와 소설 등 주요 문학작품을 미술로 구현한 작품과 시인이 직접 쓴 서예작품을 동시에 전시한 한국 최초의 시화 박물관이다.\"}",
+    "{\"evidence_context_version\": \"grounded-evidence-v2\", \"evidence_id\": \"E5\", \"metadata_provenance\": {\"base_data_date\": \"2026-01-13\", \"fields\": {\"address\": \"충청남도 서산시 부석면 무학로 152-13\", \"adult_fee\": \"0\", \"adult_fee_status\": \"BASE_FEE_ZERO_CHECK_EXCEPTIONS\", \"amenities_raw\": \"전시실+주차장\", \"child_fee\": \"0\", \"closure_rule_raw\": \"연중무휴\", \"holiday_close\": \"18:00\", \"holiday_open\": \"10:00\", \"name\": \"서해미술관\", \"ownership_type\": \"사립\", \"sido\": \"충청남도\", \"sigungu\": \"서산시\", \"weekday_close\": \"18:00\", \"weekday_open\": \"10:00\", \"youth_fee\": \"0\"}, \"source_kind\": \"derived_csv_row\", \"source_locator\": \"data/processed/museum_final_738.csv#record=378\", \"trust\": \"derived_dataset_not_human_verified\"}, \"museum_id\": \"M0537\", \"name\": \"서해미술관\", \"source_doc_ids\": [\"DOC-B0537-BASE\"], \"source_documents\": [{\"doc_id\": \"DOC-B0537-BASE\", \"match_trust\": \"BASE_SOURCE\", \"source_locator\": \"data/raw/museum_base_1070.csv#row=538\", \"source_record_id\": \"B0537\", \"source_type\": \"BASE\"}], \"source_locator\": \"data/raw/museum_base_1070.csv#row=538\", \"source_locators\": [\"data/raw/museum_base_1070.csv#row=538\"], \"source_scope\": \"text\", \"source_spans\": [{\"doc_ids\": [\"DOC-B0537-BASE\"], \"end\": 42, \"start\": 0}], \"source_urls\": [], \"text\": \"서해미술관은 사립미술관으로 조형물 등 미술작품 전시(유물 총 180점 소장)\"}"
+  ],
+  "mode": "supervisor_full",
+  "question_id": "V2-ER03",
+  "evidence": [
+    {
+      "museum_id": "M0012",
+      "name": "홍주성역사관",
+      "document": "홍주성역사관은 홍성 홍주읍성 내 위치하고 있다. 지역의 전통을 부각시키면서 동시에 역사에 바탕을 둔 미래지향적인 시설로 구성되었으며, 역사관의 기본적 기능에 충실하여 전시 유물의 상징적 의미와 예술적 요소를 함축성 있게 표현하여 이를 바탕으로 군민 참여와 소통의 장이자 연구의 중심지로서 지역 정보 센터의 역할을 하고 있다. 홍성과 충남 내포지역의 특색 있는 역사와 문화, 관련 유적 및 유물을 소재로 전시를 하고 있다. 박물관 주변에 옛 홍주목 관련 흔적들이 남아 있어 전시와 연계한 볼거리가 마련되어 있다. 홍성 홍주읍성(사적 231호) 내 위치하고 있으며 전면적 7199.17㎡ 및 연면적 1669㎡ 로 구성되어 있다. 박물관이 홍주읍성 내에 위치하고 있고 주변에 옛 홍주목 관련 흔적들이 남아 있어 전시와 연계한 볼거리가 마련되어 있다.",
+      "metadata": {
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "source_types": "BASE|TOUR_API",
+        "child_fee": 0.0,
+        "adult_fee": 0.0,
+        "sigungu": "홍성군",
+        "ownership_type": "공립",
+        "youth_fee": 0.0,
+        "longitude": 126.660951,
+        "homepage_url": "https://www.hongseong.go.kr/history/",
+        "closure_rule_raw": "월+1월 1일+설 연휴+추석 연휴",
+        "sido": "충청남도",
+        "weekday_open": "09:00",
+        "requires_manual_review": true,
+        "transport_notes": "서울→서해안고속도로(홍성IC)→21번국도(홍성방면)→홍주성역사관",
+        "holiday_close": "18:00",
+        "weekday_close": "18:00",
+        "address": "충청남도 홍성군 홍성읍 아문길 20",
+        "name": "홍주성역사관",
+        "holiday_open": "09:00",
+        "latitude": 36.60019715
+      },
+      "vector_rank": 3,
+      "bm25_rank": 1,
+      "vector_distance": 0.48930805921554565,
+      "vector_score": null,
+      "bm25_score": 14.791309657434185,
+      "vector_document": "홍주성역사관은 홍성 홍주읍성 내 위치하고 있다. 지역의 전통을 부각시키면서 동시에 역사에 바탕을 둔 미래지향적인 시설로 구성되었으며, 역사관의 기본적 기능에 충실하여 전시 유물의 상징적 의미와 예술적 요소를 함축성 있게 표현하여 이를 바탕으로 군민 참여와 소통의 장이자 연구의 중심지로서 지역 정보 센터의 역할을 하고 있다. 홍성과 충남 내포지역의 특색 있는 역사와 문화, 관련 유적 및 유물을 소재로 전시를 하고 있다. 박물관 주변에 옛 홍주목 관련 흔적들이 남아 있어 전시와 연계한 볼거리가 마련되어 있다. 홍성 홍주읍성(사적 231호) 내 위치하고 있으며 전면적 7199.17㎡ 및 연면적 1669㎡ 로 구성되어 있다. 박물관이 홍주읍성 내에 위치하고 있고 주변에 옛 홍주목 관련 흔적들이 남아 있어 전시와 연계한 볼거리가 마련되어 있다.",
+      "bm25_document": "홍주성역사관은 홍성 홍주읍성 내 위치하고 있다. 지역의 전통을 부각시키면서 동시에 역사에 바탕을 둔 미래지향적인 시설로 구성되었으며, 역사관의 기본적 기능에 충실하여 전시 유물의 상징적 의미와 예술적 요소를 함축성 있게 표현하여 이를 바탕으로 군민 참여와 소통의 장이자 연구의 중심지로서 지역 정보 센터의 역할을 하고 있다. 홍성과 충남 내포지역의 특색 있는 역사와 문화, 관련 유적 및 유물을 소재로 전시를 하고 있다. 박물관 주변에 옛 홍주목 관련 흔적들이 남아 있어 전시와 연계한 볼거리가 마련되어 있다. 홍성 홍주읍성(사적 231호) 내 위치하고 있으며 전면적 7199.17㎡ 및 연면적 1669㎡ 로 구성되어 있다. 박물관이 홍주읍성 내에 위치하고 있고 주변에 옛 홍주목 관련 흔적들이 남아 있어 전시와 연계한 볼거리가 마련되어 있다.",
+      "best_span_id": "chroma:M0012",
+      "best_span_text": "홍주성역사관은 홍성 홍주읍성 내 위치하고 있다. 지역의 전통을 부각시키면서 동시에 역사에 바탕을 둔 미래지향적인 시설로 구성되었으며, 역사관의 기본적 기능에 충실하여 전시 유물의 상징적 의미와 예술적 요소를 함축성 있게 표현하여 이를 바탕으로 군민 참여와 소통의 장이자 연구의 중심지로서 지역 정보 센터의 역할을 하고 있다. 홍성과 충남 내포지역의 특색 있는 역사와 문화, 관련 유적 및 유물을 소재로 전시를 하고 있다. 박물관 주변에 옛 홍주목 관련 흔적들이 남아 있어 전시와 연계한 볼거리가 마련되어 있다. 홍성 홍주읍성(사적 231호) 내 위치하고 있으며 전면적 7199.17㎡ 및 연면적 1669㎡ 로 구성되어 있다. 박물관이 홍주읍성 내에 위치하고 있고 주변에 옛 홍주목 관련 흔적들이 남아 있어 전시와 연계한 볼거리가 마련되어 있다.",
+      "fusion_score": 0.032266458495966696,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 1,
+      "rerank_score": 0.8287047147750854,
+      "rank": 1,
+      "score": 0.8287047147750854,
+      "score_type": "cross_encoder",
+      "distance": 0.48930805921554565,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0012",
+      "source_doc_ids": [
+        "DOC-B0012-TOUR_API-2551494",
+        "DOC-B0012-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0012-TOUR_API-2551494",
+          "source_type": "TOUR_API",
+          "source_record_id": "2551494",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=10",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        },
+        {
+          "doc_id": "DOC-B0012-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0012",
+          "source_locator": "data/raw/museum_base_1070.csv#row=13",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 26,
+          "doc_ids": [
+            "DOC-B0012-TOUR_API-2551494"
+          ]
+        },
+        {
+          "start": 27,
+          "end": 181,
+          "doc_ids": [
+            "DOC-B0012-TOUR_API-2551494"
+          ]
+        },
+        {
+          "start": 182,
+          "end": 235,
+          "doc_ids": [
+            "DOC-B0012-BASE",
+            "DOC-B0012-TOUR_API-2551494"
+          ]
+        },
+        {
+          "start": 236,
+          "end": 285,
+          "doc_ids": [
+            "DOC-B0012-TOUR_API-2551494"
+          ]
+        },
+        {
+          "start": 286,
+          "end": 349,
+          "doc_ids": [
+            "DOC-B0012-BASE"
+          ]
+        },
+        {
+          "start": 350,
+          "end": 416,
+          "doc_ids": [
+            "DOC-B0012-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=10",
+      "text": "홍주성역사관은 홍성 홍주읍성 내 위치하고 있다. 지역의 전통을 부각시키면서 동시에 역사에 바탕을 둔 미래지향적인 시설로 구성되었으며, 역사관의 기본적 기능에 충실하여 전시 유물의 상징적 의미와 예술적 요소를 함축성 있게 표현하여 이를 바탕으로 군민 참여와 소통의 장이자 연구의 중심지로서 지역 정보 센터의 역할을 하고 있다. 홍성과 충남 내포지역의 특색 있는 역사와 문화, 관련 유적 및 유물을 소재로 전시를 하고 있다. 박물관 주변에 옛 홍주목 관련 흔적들이 남아 있어 전시와 연계한 볼거리가 마련되어 있다. 홍성 홍주읍성(사적 231호) 내 위치하고 있으며 전면적 7199.17㎡ 및 연면적 1669㎡ 로 구성되어 있다. 박물관이 홍주읍성 내에 위치하고 있고 주변에 옛 홍주목 관련 흔적들이 남아 있어 전시와 연계한 볼거리가 마련되어 있다.",
+      "sido": "충청남도",
+      "sigungu": "홍성군",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=10"
+      ],
+      "evidence_id": "E1",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=12",
+        "fields": {
+          "name": "홍주성역사관",
+          "sido": "충청남도",
+          "sigungu": "홍성군",
+          "address": "충청남도 홍성군 홍성읍 아문길 20",
+          "ownership_type": "공립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "09:00",
+          "weekday_close": "18:00",
+          "holiday_open": "09:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "월+1월 1일+설 연휴+추석 연휴"
+        },
+        "base_data_date": "2026-09-19",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0402",
+      "name": "수원화성박물관",
+      "document": "수원화성박물관은 화성의 역사와 문화를 총체적으로 보여줄 수 있으며 화성을 찾는 방문객에게 더 효과적이고 체계적인 안내와 정조시대 문화 융성의 모습, 더불어 화성의 우수성을 알려주는 전문 박물관이다. 수원시는 우리 민족 문화유산의 자랑인 유네스코 세계문화유산 수원 화성과 조선 후기 우리 문화의 우수성을 알리고 지역의 문화와 예술이 살아 숨 쉬는 공간을 만들고자 수원 화성 박물관을 건립하였다. 화성은 18세기 전 세계 군사 건축물의 모범이자 조선시대 성곽 문화의 꽃으로 평가받고 있으며, 단순한 성곽이 아닌 도시 전체이기도 하다. 화성 박물관은 수원 신도시 건설과 화성을 축성한 정조의 사상과 정신을 포함하여 화성 축성에 참여한 인물, 화성에 주둔했던 장용영 군사, 그리고 정조의 8일간의 화성 행차를 통해 각종 문화행사를 모형과 유물을 통하여 전시하고 있다. 세계문화유산 수원화성의 중심부에 자리잡아 접근성이 용이하고 모형과 관련 유물의 전시를 통해 화성 축성에 대한 전반을 이해할 수 있게 건립되었습니다",
+      "metadata": {
+        "address": "경기도 수원시 팔달구 창룡대로 21",
+        "sido": "경기도",
+        "requires_manual_review": true,
+        "fee_notes": "1. 국빈·외국사절단 및 그 수행자 무료+2. 국가유공자 무료+3. 장애인과 동반 1인  무료+4. 12세 이하의 어린이 및 65세 이상의 노인 무료",
+        "homepage_url": "https://smuseum.suwon.go.kr/hs/main/view",
+        "latitude": 37.282591,
+        "adult_fee_status": "BASE_FEE_PAID",
+        "closure_rule_raw": "월(월요일이 공휴일인 경우 그 다음날 휴관)",
+        "weekday_open": "09:00",
+        "holiday_open": "09:00",
+        "child_fee": 0.0,
+        "transport_notes": "버스 : (팔달구청)11+60+400+400A+700-2+1+1007+ (화성행궁) 3+13+25+27+35+60+61+62-1+64+65+66+66-4+82-1+88+98+112+700-2+1007",
+        "weekday_close": "18:00",
+        "sigungu": "수원시",
+        "adult_fee": 2000.0,
+        "source_types": "BASE|TOUR_API",
+        "ownership_type": "공립",
+        "name": "수원화성박물관",
+        "image_copyright": "Type3",
+        "amenities_raw": "카페테리아+뮤지업샵+수유실+물품보관실",
+        "holiday_close": "18:00",
+        "longitude": 127.018985,
+        "youth_fee": 1000.0,
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/73/3020673_image2_1.jpeg"
+      },
+      "vector_rank": 12,
+      "bm25_rank": 2,
+      "vector_distance": 0.5191662311553955,
+      "vector_score": null,
+      "bm25_score": 8.994721840076135,
+      "vector_document": "수원화성박물관은 화성의 역사와 문화를 총체적으로 보여줄 수 있으며 화성을 찾는 방문객에게 더 효과적이고 체계적인 안내와 정조시대 문화 융성의 모습, 더불어 화성의 우수성을 알려주는 전문 박물관이다. 수원시는 우리 민족 문화유산의 자랑인 유네스코 세계문화유산 수원 화성과 조선 후기 우리 문화의 우수성을 알리고 지역의 문화와 예술이 살아 숨 쉬는 공간을 만들고자 수원 화성 박물관을 건립하였다. 화성은 18세기 전 세계 군사 건축물의 모범이자 조선시대 성곽 문화의 꽃으로 평가받고 있으며, 단순한 성곽이 아닌 도시 전체이기도 하다. 화성 박물관은 수원 신도시 건설과 화성을 축성한 정조의 사상과 정신을 포함하여 화성 축성에 참여한 인물, 화성에 주둔했던 장용영 군사, 그리고 정조의 8일간의 화성 행차를 통해 각종 문화행사를 모형과 유물을 통하여 전시하고 있다. 세계문화유산 수원화성의 중심부에 자리잡아 접근성이 용이하고 모형과 관련 유물의 전시를 통해 화성 축성에 대한 전반을 이해할 수 있게 건립되었습니다",
+      "bm25_document": "수원화성박물관은 화성의 역사와 문화를 총체적으로 보여줄 수 있으며 화성을 찾는 방문객에게 더 효과적이고 체계적인 안내와 정조시대 문화 융성의 모습, 더불어 화성의 우수성을 알려주는 전문 박물관이다. 수원시는 우리 민족 문화유산의 자랑인 유네스코 세계문화유산 수원 화성과 조선 후기 우리 문화의 우수성을 알리고 지역의 문화와 예술이 살아 숨 쉬는 공간을 만들고자 수원 화성 박물관을 건립하였다. 화성은 18세기 전 세계 군사 건축물의 모범이자 조선시대 성곽 문화의 꽃으로 평가받고 있으며, 단순한 성곽이 아닌 도시 전체이기도 하다. 화성 박물관은 수원 신도시 건설과 화성을 축성한 정조의 사상과 정신을 포함하여 화성 축성에 참여한 인물, 화성에 주둔했던 장용영 군사, 그리고 정조의 8일간의 화성 행차를 통해 각종 문화행사를 모형과 유물을 통하여 전시하고 있다. 세계문화유산 수원화성의 중심부에 자리잡아 접근성이 용이하고 모형과 관련 유물의 전시를 통해 화성 축성에 대한 전반을 이해할 수 있게 건립되었습니다",
+      "best_span_id": "chroma:M0402",
+      "best_span_text": "수원화성박물관은 화성의 역사와 문화를 총체적으로 보여줄 수 있으며 화성을 찾는 방문객에게 더 효과적이고 체계적인 안내와 정조시대 문화 융성의 모습, 더불어 화성의 우수성을 알려주는 전문 박물관이다. 수원시는 우리 민족 문화유산의 자랑인 유네스코 세계문화유산 수원 화성과 조선 후기 우리 문화의 우수성을 알리고 지역의 문화와 예술이 살아 숨 쉬는 공간을 만들고자 수원 화성 박물관을 건립하였다. 화성은 18세기 전 세계 군사 건축물의 모범이자 조선시대 성곽 문화의 꽃으로 평가받고 있으며, 단순한 성곽이 아닌 도시 전체이기도 하다. 화성 박물관은 수원 신도시 건설과 화성을 축성한 정조의 사상과 정신을 포함하여 화성 축성에 참여한 인물, 화성에 주둔했던 장용영 군사, 그리고 정조의 8일간의 화성 행차를 통해 각종 문화행사를 모형과 유물을 통하여 전시하고 있다. 세계문화유산 수원화성의 중심부에 자리잡아 접근성이 용이하고 모형과 관련 유물의 전시를 통해 화성 축성에 대한 전반을 이해할 수 있게 건립되었습니다",
+      "fusion_score": 0.030017921146953404,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 2,
+      "rerank_score": 0.009871033951640129,
+      "rank": 2,
+      "score": 0.009871033951640129,
+      "score_type": "cross_encoder",
+      "distance": 0.5191662311553955,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0402",
+      "source_doc_ids": [
+        "DOC-B0402-TOUR_API-1921150",
+        "DOC-B0402-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0402-TOUR_API-1921150",
+          "source_type": "TOUR_API",
+          "source_record_id": "1921150",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=187",
+          "match_trust": "RECHECKED_BY_RULE_NOT_HUMAN_APPROVED"
+        },
+        {
+          "doc_id": "DOC-B0402-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0402",
+          "source_locator": "data/raw/museum_base_1070.csv#row=403",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 110,
+          "doc_ids": [
+            "DOC-B0402-TOUR_API-1921150"
+          ]
+        },
+        {
+          "start": 111,
+          "end": 219,
+          "doc_ids": [
+            "DOC-B0402-TOUR_API-1921150"
+          ]
+        },
+        {
+          "start": 220,
+          "end": 296,
+          "doc_ids": [
+            "DOC-B0402-TOUR_API-1921150"
+          ]
+        },
+        {
+          "start": 297,
+          "end": 425,
+          "doc_ids": [
+            "DOC-B0402-TOUR_API-1921150"
+          ]
+        },
+        {
+          "start": 426,
+          "end": 507,
+          "doc_ids": [
+            "DOC-B0402-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=187",
+      "text": "수원화성박물관은 화성의 역사와 문화를 총체적으로 보여줄 수 있으며 화성을 찾는 방문객에게 더 효과적이고 체계적인 안내와 정조시대 문화 융성의 모습, 더불어 화성의 우수성을 알려주는 전문 박물관이다. 수원시는 우리 민족 문화유산의 자랑인 유네스코 세계문화유산 수원 화성과 조선 후기 우리 문화의 우수성을 알리고 지역의 문화와 예술이 살아 숨 쉬는 공간을 만들고자 수원 화성 박물관을 건립하였다. 화성은 18세기 전 세계 군사 건축물의 모범이자 조선시대 성곽 문화의 꽃으로 평가받고 있으며, 단순한 성곽이 아닌 도시 전체이기도 하다. 화성 박물관은 수원 신도시 건설과 화성을 축성한 정조의 사상과 정신을 포함하여 화성 축성에 참여한 인물, 화성에 주둔했던 장용영 군사, 그리고 정조의 8일간의 화성 행차를 통해 각종 문화행사를 모형과 유물을 통하여 전시하고 있다. 세계문화유산 수원화성의 중심부에 자리잡아 접근성이 용이하고 모형과 관련 유물의 전시를 통해 화성 축성에 대한 전반을 이해할 수 있게 건립되었습니다",
+      "sido": "경기도",
+      "sigungu": "수원시",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=187"
+      ],
+      "evidence_id": "E2",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=286",
+        "fields": {
+          "name": "수원화성박물관",
+          "sido": "경기도",
+          "sigungu": "수원시",
+          "address": "경기도 수원시 팔달구 창룡대로 21",
+          "ownership_type": "공립",
+          "adult_fee": "2000",
+          "youth_fee": "1000",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_PAID",
+          "weekday_open": "09:00",
+          "weekday_close": "18:00",
+          "holiday_open": "09:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "월(월요일이 공휴일인 경우 그 다음날 휴관)",
+          "amenities_raw": "카페테리아+뮤지업샵+수유실+물품보관실"
+        },
+        "base_data_date": "2026-05-19",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0543",
+      "name": "겸재정선미술관",
+      "document": "겸재정선미술관은 강서구 습지생태공원 맞은편에 있는 구립미술관이다. 겸재 정선(1676~1759)은 진경산수 화풍을 창안하여 한국 미술의 정체성을 이끌어낸 화성이다. 겸재정선미술관은 지하 1층, 지상 3층 건물로, 미술관 1층에는 양천현아실, 기획전시실이 마련되어 있어 양천과 정선의 인연에 대해 소개하였고 기획전시실에서는 다른 작가의 전시가 가능하다. 2층에는 정선의 생애 및 작품을 살펴볼 수 있는 겸재기념관실과 정선이 여행한 전국과 그의 작품 속 장소의 현재와 과거의 변화된 모습을 비교해 볼 수 있다. 겸재기념실 외에도 체험실, 영상실이 마련되어 있어 직접 정선작품을 학습하고 체험할 수 있다. 3층에는 카페테리아, 뮤지움 숍, 다목적실, 수유실이 있어서 관람객에게 편의를 제공하고 있다. 다목적실은 영상 시청, 강의 및 세미나, 전시가 모두 가능하며 대관 장소로 활용하고 있다. 겸재정선미술관은 진경산수화풍을 완성한 겸재 정선(1676~1759)의 위대한 예술적 업적을 기리고 진경문화를 계승·발전시키고자 2009.4.23. 건립되었음",
+      "metadata": {
+        "fee_notes": "1. 무료: 만6세이하+만65세이상+국가·독립유공자 등+장애인+다둥이행복카드소지자 2. 통합관람(겸재정선미술관+허준박물관): 어른(개인 1300원+단체 1000원) / 청소년(개인 700원+단체 500원)",
+        "holiday_open": "10:00",
+        "image_copyright": "Type1",
+        "transport_notes": "지하철9호선 양천향교역 1번출구→마을버스 강서06 탑승하여겸재정선미술관 앞 하차",
+        "youth_fee": 500.0,
+        "holiday_close": "18:00",
+        "weekday_close": "18:00",
+        "latitude": 37.57222423,
+        "sido": "서울특별시",
+        "amenities_raw": "주차장(26대)+카페테리아+뮤지엄샵+수유실+자전거보관대",
+        "ownership_type": "공립",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/99/4078199_image2_1.jpg",
+        "sigungu": "강서구",
+        "adult_fee_status": "BASE_FEE_PAID",
+        "address": "서울특별시 강서구 양천로47길 36",
+        "closure_rule_raw": "월+1월1일+설 당일+추석 당일",
+        "homepage_url": "https://culture.gangseo.seoul.kr/",
+        "name": "겸재정선미술관",
+        "weekday_open": "10:00",
+        "child_fee": 500.0,
+        "longitude": 126.8387234,
+        "source_types": "BASE|TOUR_API",
+        "adult_fee": 1000.0,
+        "requires_manual_review": true
+      },
+      "vector_rank": 7,
+      "bm25_rank": null,
+      "vector_distance": 0.505950391292572,
+      "vector_score": null,
+      "bm25_score": null,
+      "vector_document": "겸재정선미술관은 강서구 습지생태공원 맞은편에 있는 구립미술관이다. 겸재 정선(1676~1759)은 진경산수 화풍을 창안하여 한국 미술의 정체성을 이끌어낸 화성이다. 겸재정선미술관은 지하 1층, 지상 3층 건물로, 미술관 1층에는 양천현아실, 기획전시실이 마련되어 있어 양천과 정선의 인연에 대해 소개하였고 기획전시실에서는 다른 작가의 전시가 가능하다. 2층에는 정선의 생애 및 작품을 살펴볼 수 있는 겸재기념관실과 정선이 여행한 전국과 그의 작품 속 장소의 현재와 과거의 변화된 모습을 비교해 볼 수 있다. 겸재기념실 외에도 체험실, 영상실이 마련되어 있어 직접 정선작품을 학습하고 체험할 수 있다. 3층에는 카페테리아, 뮤지움 숍, 다목적실, 수유실이 있어서 관람객에게 편의를 제공하고 있다. 다목적실은 영상 시청, 강의 및 세미나, 전시가 모두 가능하며 대관 장소로 활용하고 있다. 겸재정선미술관은 진경산수화풍을 완성한 겸재 정선(1676~1759)의 위대한 예술적 업적을 기리고 진경문화를 계승·발전시키고자 2009.4.23. 건립되었음",
+      "bm25_document": "",
+      "best_span_id": null,
+      "best_span_text": null,
+      "fusion_score": 0.014925373134328358,
+      "retrieved_by": [
+        "vector"
+      ],
+      "fusion_rank": 13,
+      "rerank_score": 0.004079974256455898,
+      "rank": 3,
+      "score": 0.004079974256455898,
+      "score_type": "cross_encoder",
+      "distance": 0.505950391292572,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector"
+      ],
+      "retriever": "vector",
+      "source_doc_ids": [
+        "DOC-B0543-TOUR_API-774675",
+        "DOC-B0543-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0543-TOUR_API-774675",
+          "source_type": "TOUR_API",
+          "source_record_id": "774675",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=267",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        },
+        {
+          "doc_id": "DOC-B0543-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0543",
+          "source_locator": "data/raw/museum_base_1070.csv#row=544",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 36,
+          "doc_ids": [
+            "DOC-B0543-TOUR_API-774675"
+          ]
+        },
+        {
+          "start": 37,
+          "end": 91,
+          "doc_ids": [
+            "DOC-B0543-TOUR_API-774675"
+          ]
+        },
+        {
+          "start": 92,
+          "end": 196,
+          "doc_ids": [
+            "DOC-B0543-TOUR_API-774675"
+          ]
+        },
+        {
+          "start": 197,
+          "end": 283,
+          "doc_ids": [
+            "DOC-B0543-TOUR_API-774675"
+          ]
+        },
+        {
+          "start": 284,
+          "end": 335,
+          "doc_ids": [
+            "DOC-B0543-TOUR_API-774675"
+          ]
+        },
+        {
+          "start": 336,
+          "end": 388,
+          "doc_ids": [
+            "DOC-B0543-TOUR_API-774675"
+          ]
+        },
+        {
+          "start": 389,
+          "end": 439,
+          "doc_ids": [
+            "DOC-B0543-TOUR_API-774675"
+          ]
+        },
+        {
+          "start": 440,
+          "end": 521,
+          "doc_ids": [
+            "DOC-B0543-BASE"
+          ]
+        },
+        {
+          "start": 522,
+          "end": 527,
+          "doc_ids": [
+            "DOC-B0543-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=267",
+      "text": "겸재정선미술관은 강서구 습지생태공원 맞은편에 있는 구립미술관이다. 겸재 정선(1676~1759)은 진경산수 화풍을 창안하여 한국 미술의 정체성을 이끌어낸 화성이다. 겸재정선미술관은 지하 1층, 지상 3층 건물로, 미술관 1층에는 양천현아실, 기획전시실이 마련되어 있어 양천과 정선의 인연에 대해 소개하였고 기획전시실에서는 다른 작가의 전시가 가능하다. 2층에는 정선의 생애 및 작품을 살펴볼 수 있는 겸재기념관실과 정선이 여행한 전국과 그의 작품 속 장소의 현재와 과거의 변화된 모습을 비교해 볼 수 있다. 겸재기념실 외에도 체험실, 영상실이 마련되어 있어 직접 정선작품을 학습하고 체험할 수 있다. 3층에는 카페테리아, 뮤지움 숍, 다목적실, 수유실이 있어서 관람객에게 편의를 제공하고 있다. 다목적실은 영상 시청, 강의 및 세미나, 전시가 모두 가능하며 대관 장소로 활용하고 있다. 겸재정선미술관은 진경산수화풍을 완성한 겸재 정선(1676~1759)의 위대한 예술적 업적을 기리고 진경문화를 계승·발전시키고자 2009.4.23. 건립되었음",
+      "sido": "서울특별시",
+      "sigungu": "강서구",
+      "span_id": "",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=267"
+      ],
+      "evidence_id": "E3",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=380",
+        "fields": {
+          "name": "겸재정선미술관",
+          "sido": "서울특별시",
+          "sigungu": "강서구",
+          "address": "서울특별시 강서구 양천로47길 36",
+          "ownership_type": "공립",
+          "adult_fee": "1000",
+          "youth_fee": "500",
+          "child_fee": "500",
+          "adult_fee_status": "BASE_FEE_PAID",
+          "weekday_open": "10:00",
+          "weekday_close": "18:00",
+          "holiday_open": "10:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "월+1월1일+설 당일+추석 당일",
+          "amenities_raw": "주차장(26대)+카페테리아+뮤지엄샵+수유실+자전거보관대"
+        },
+        "base_data_date": "2026-03-05",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0153",
+      "name": "시에그린한국시화박물관",
+      "document": "시에그린 한국 시화 박물관은 진도군 임회면에 자리하고 있으며 시와 그림이 어우러진 우리나라 최초의 박물관이다. 폐교된 죽림초등학교를 인수하여 리모델링한 건물로 깔끔하며 전시 작품에 집중할 수 있도록 흰색으로 벽과 복도가 채색되어 있는 것이 인상적이다. 한국 시화 박물관은 한국 문학의 대표적인 시와 소설 등 주요 문학작품을 미술(문인화, 서양화, 조각, 공예 등)로 구현한 작품을 시인이 직접 쓴 서예 작품과 동시에 전시하여 일반인들에게 보다 다양하고 수준 높은 예술의 향수 기회를 제공하고 있다. 여기에는 여귀산 미술관과 진도 수석 박물관도 함께 자리하고 있다. 여귀산 미술관은 한국을 대표하는 한국 화가와 문인 화가의 미술작품을 전시하여 일반인에게 남도 미술의 품격 높은 서정성을 음미하고 수준 높은 예술작품을 전시하고 있으며 진도가 낳은 한국의 대표적 조각가인 양두환 선생의 유작과 박달목, 배현, 박주부 조각가의 작품이 야외에 전시되고 있어 다양한 볼거리를 제공하고 있다. 진도 수석 박물관은 전국 수석 산지를 탐석한 토중석, 강석, 해석과 해외 수석을 전시하여 일반인들에게 품격 높은 서정성을 음미하고 예술의 향수 기회를 제공하는 공간이다. 시에그린 한국 시화 박물관과 여귀산 미술관, 진도 수석 박물관은 예술교육의 총체적인 모습을 알리고 이를 체계화하는 데 목표를 두는 곳이다. 진도를 여행하며 우리 문학과 예술에 대해 알아보는 것도 좋을 것이다. 한국문학의 대표적인 시와 소설 등 주요 문학작품을 미술로 구현한 작품과 시인이 직접 쓴 서예작품을 동시에 전시한 한국 최초의 시화 박물관이다.",
+      "metadata": {
+        "ownership_type": "사립",
+        "sigungu": "진도군",
+        "longitude": 126.2503456,
+        "name": "시에그린한국시화박물관",
+        "weekday_open": "09:00",
+        "child_fee": 0.0,
+        "weekday_close": "18:00",
+        "closure_rule_raw": "월",
+        "holiday_open": "09:00",
+        "homepage_url": "http://www.seagreen.co.kr",
+        "sido": "전남광주특별자치도",
+        "requires_manual_review": true,
+        "holiday_close": "18:00",
+        "source_types": "BASE|TOUR_API",
+        "youth_fee": 5000.0,
+        "adult_fee": 5000.0,
+        "address": "전남광주통합특별시 진도군 임회면 죽림길 97",
+        "latitude": 34.39048345,
+        "adult_fee_status": "BASE_FEE_PAID"
+      },
+      "vector_rank": null,
+      "bm25_rank": 7,
+      "vector_distance": null,
+      "vector_score": null,
+      "bm25_score": 8.253382796519151,
+      "vector_document": "",
+      "bm25_document": "시에그린 한국 시화 박물관은 진도군 임회면에 자리하고 있으며 시와 그림이 어우러진 우리나라 최초의 박물관이다. 폐교된 죽림초등학교를 인수하여 리모델링한 건물로 깔끔하며 전시 작품에 집중할 수 있도록 흰색으로 벽과 복도가 채색되어 있는 것이 인상적이다. 한국 시화 박물관은 한국 문학의 대표적인 시와 소설 등 주요 문학작품을 미술(문인화, 서양화, 조각, 공예 등)로 구현한 작품을 시인이 직접 쓴 서예 작품과 동시에 전시하여 일반인들에게 보다 다양하고 수준 높은 예술의 향수 기회를 제공하고 있다. 여기에는 여귀산 미술관과 진도 수석 박물관도 함께 자리하고 있다. 여귀산 미술관은 한국을 대표하는 한국 화가와 문인 화가의 미술작품을 전시하여 일반인에게 남도 미술의 품격 높은 서정성을 음미하고 수준 높은 예술작품을 전시하고 있으며 진도가 낳은 한국의 대표적 조각가인 양두환 선생의 유작과 박달목, 배현, 박주부 조각가의 작품이 야외에 전시되고 있어 다양한 볼거리를 제공하고 있다. 진도 수석 박물관은 전국 수석 산지를 탐석한 토중석, 강석, 해석과 해외 수석을 전시하여 일반인들에게 품격 높은 서정성을 음미하고 예술의 향수 기회를 제공하는 공간이다. 시에그린 한국 시화 박물관과 여귀산 미술관, 진도 수석 박물관은 예술교육의 총체적인 모습을 알리고 이를 체계화하는 데 목표를 두는 곳이다. 진도를 여행하며 우리 문학과 예술에 대해 알아보는 것도 좋을 것이다. 한국문학의 대표적인 시와 소설 등 주요 문학작품을 미술로 구현한 작품과 시인이 직접 쓴 서예작품을 동시에 전시한 한국 최초의 시화 박물관이다.",
+      "best_span_id": "chroma:M0153",
+      "best_span_text": "시에그린 한국 시화 박물관은 진도군 임회면에 자리하고 있으며 시와 그림이 어우러진 우리나라 최초의 박물관이다. 폐교된 죽림초등학교를 인수하여 리모델링한 건물로 깔끔하며 전시 작품에 집중할 수 있도록 흰색으로 벽과 복도가 채색되어 있는 것이 인상적이다. 한국 시화 박물관은 한국 문학의 대표적인 시와 소설 등 주요 문학작품을 미술(문인화, 서양화, 조각, 공예 등)로 구현한 작품을 시인이 직접 쓴 서예 작품과 동시에 전시하여 일반인들에게 보다 다양하고 수준 높은 예술의 향수 기회를 제공하고 있다. 여기에는 여귀산 미술관과 진도 수석 박물관도 함께 자리하고 있다. 여귀산 미술관은 한국을 대표하는 한국 화가와 문인 화가의 미술작품을 전시하여 일반인에게 남도 미술의 품격 높은 서정성을 음미하고 수준 높은 예술작품을 전시하고 있으며 진도가 낳은 한국의 대표적 조각가인 양두환 선생의 유작과 박달목, 배현, 박주부 조각가의 작품이 야외에 전시되고 있어 다양한 볼거리를 제공하고 있다. 진도 수석 박물관은 전국 수석 산지를 탐석한 토중석, 강석, 해석과 해외 수석을 전시하여 일반인들에게 품격 높은 서정성을 음미하고 예술의 향수 기회를 제공하는 공간이다. 시에그린 한국 시화 박물관과 여귀산 미술관, 진도 수석 박물관은 예술교육의 총체적인 모습을 알리고 이를 체계화하는 데 목표를 두는 곳이다. 진도를 여행하며 우리 문학과 예술에 대해 알아보는 것도 좋을 것이다. 한국문학의 대표적인 시와 소설 등 주요 문학작품을 미술로 구현한 작품과 시인이 직접 쓴 서예작품을 동시에 전시한 한국 최초의 시화 박물관이다.",
+      "fusion_score": 0.014925373134328358,
+      "retrieved_by": [
+        "bm25"
+      ],
+      "fusion_rank": 14,
+      "rerank_score": 0.003926417324692011,
+      "rank": 4,
+      "score": 0.003926417324692011,
+      "score_type": "cross_encoder",
+      "distance": null,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "bm25"
+      ],
+      "retriever": "bm25",
+      "span_id": "chroma:M0153",
+      "source_doc_ids": [
+        "DOC-B0153-TOUR_API-3076980",
+        "DOC-B0153-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0153-TOUR_API-3076980",
+          "source_type": "TOUR_API",
+          "source_record_id": "3076980",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=72",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        },
+        {
+          "doc_id": "DOC-B0153-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0153",
+          "source_locator": "data/raw/museum_base_1070.csv#row=154",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 61,
+          "doc_ids": [
+            "DOC-B0153-TOUR_API-3076980"
+          ]
+        },
+        {
+          "start": 62,
+          "end": 140,
+          "doc_ids": [
+            "DOC-B0153-TOUR_API-3076980"
+          ]
+        },
+        {
+          "start": 141,
+          "end": 278,
+          "doc_ids": [
+            "DOC-B0153-TOUR_API-3076980"
+          ]
+        },
+        {
+          "start": 279,
+          "end": 315,
+          "doc_ids": [
+            "DOC-B0153-TOUR_API-3076980"
+          ]
+        },
+        {
+          "start": 316,
+          "end": 492,
+          "doc_ids": [
+            "DOC-B0153-TOUR_API-3076980"
+          ]
+        },
+        {
+          "start": 493,
+          "end": 587,
+          "doc_ids": [
+            "DOC-B0153-TOUR_API-3076980"
+          ]
+        },
+        {
+          "start": 588,
+          "end": 665,
+          "doc_ids": [
+            "DOC-B0153-TOUR_API-3076980"
+          ]
+        },
+        {
+          "start": 666,
+          "end": 704,
+          "doc_ids": [
+            "DOC-B0153-TOUR_API-3076980"
+          ]
+        },
+        {
+          "start": 705,
+          "end": 784,
+          "doc_ids": [
+            "DOC-B0153-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=72",
+      "text": "시에그린 한국 시화 박물관은 진도군 임회면에 자리하고 있으며 시와 그림이 어우러진 우리나라 최초의 박물관이다. 폐교된 죽림초등학교를 인수하여 리모델링한 건물로 깔끔하며 전시 작품에 집중할 수 있도록 흰색으로 벽과 복도가 채색되어 있는 것이 인상적이다. 한국 시화 박물관은 한국 문학의 대표적인 시와 소설 등 주요 문학작품을 미술(문인화, 서양화, 조각, 공예 등)로 구현한 작품을 시인이 직접 쓴 서예 작품과 동시에 전시하여 일반인들에게 보다 다양하고 수준 높은 예술의 향수 기회를 제공하고 있다. 여기에는 여귀산 미술관과 진도 수석 박물관도 함께 자리하고 있다. 여귀산 미술관은 한국을 대표하는 한국 화가와 문인 화가의 미술작품을 전시하여 일반인에게 남도 미술의 품격 높은 서정성을 음미하고 수준 높은 예술작품을 전시하고 있으며 진도가 낳은 한국의 대표적 조각가인 양두환 선생의 유작과 박달목, 배현, 박주부 조각가의 작품이 야외에 전시되고 있어 다양한 볼거리를 제공하고 있다. 진도 수석 박물관은 전국 수석 산지를 탐석한 토중석, 강석, 해석과 해외 수석을 전시하여 일반인들에게 품격 높은 서정성을 음미하고 예술의 향수 기회를 제공하는 공간이다. 시에그린 한국 시화 박물관과 여귀산 미술관, 진도 수석 박물관은 예술교육의 총체적인 모습을 알리고 이를 체계화하는 데 목표를 두는 곳이다. 진도를 여행하며 우리 문학과 예술에 대해 알아보는 것도 좋을 것이다. 한국문학의 대표적인 시와 소설 등 주요 문학작품을 미술로 구현한 작품과 시인이 직접 쓴 서예작품을 동시에 전시한 한국 최초의 시화 박물관이다.",
+      "sido": "전남광주특별자치도",
+      "sigungu": "진도군",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=72"
+      ],
+      "evidence_id": "E4",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=96",
+        "fields": {
+          "name": "시에그린한국시화박물관",
+          "sido": "전남광주통합특별시",
+          "sigungu": "진도군",
+          "address": "전남광주통합특별시 진도군 임회면 죽림길 97",
+          "ownership_type": "사립",
+          "adult_fee": "5000",
+          "youth_fee": "5000",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_PAID",
+          "weekday_open": "09:00",
+          "weekday_close": "18:00",
+          "holiday_open": "09:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "월"
+        },
+        "base_data_date": "2026-08-13",
+        "trust": "derived_dataset_not_human_verified",
+        "normalizations": {
+          "sido": {
+            "source_value": "전남광주통합특별시",
+            "matched_value": "전남광주특별자치도",
+            "rule": "configured_sido_alias"
+          }
+        }
+      }
+    },
+    {
+      "museum_id": "M0537",
+      "name": "서해미술관",
+      "document": "서해미술관은 사립미술관으로 조형물 등 미술작품 전시(유물 총 180점 소장)",
+      "metadata": {
+        "address": "충청남도 서산시 부석면 무학로 152-13",
+        "youth_fee": 0.0,
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "sigungu": "서산시",
+        "sido": "충청남도",
+        "latitude": 36.63887544,
+        "source_types": "BASE",
+        "weekday_close": "18:00",
+        "child_fee": 0.0,
+        "holiday_close": "18:00",
+        "holiday_open": "10:00",
+        "weekday_open": "10:00",
+        "name": "서해미술관",
+        "requires_manual_review": false,
+        "closure_rule_raw": "연중무휴",
+        "amenities_raw": "전시실+주차장",
+        "ownership_type": "사립",
+        "longitude": 126.3774755,
+        "transport_notes": "서해안 고속도로 홍성IC에서 안면도+간월도 방면 20분 소요",
+        "adult_fee": 0.0
+      },
+      "vector_rank": 2,
+      "bm25_rank": null,
+      "vector_distance": 0.4800213575363159,
+      "vector_score": null,
+      "bm25_score": null,
+      "vector_document": "서해미술관은 사립미술관으로 조형물 등 미술작품 전시(유물 총 180점 소장)",
+      "bm25_document": "",
+      "best_span_id": null,
+      "best_span_text": null,
+      "fusion_score": 0.016129032258064516,
+      "retrieved_by": [
+        "vector"
+      ],
+      "fusion_rank": 5,
+      "rerank_score": 0.0033603229094296694,
+      "rank": 5,
+      "score": 0.0033603229094296694,
+      "score_type": "cross_encoder",
+      "distance": 0.4800213575363159,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector"
+      ],
+      "retriever": "vector",
+      "source_doc_ids": [
+        "DOC-B0537-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0537-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0537",
+          "source_locator": "data/raw/museum_base_1070.csv#row=538",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 42,
+          "doc_ids": [
+            "DOC-B0537-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_base_1070.csv#row=538",
+      "text": "서해미술관은 사립미술관으로 조형물 등 미술작품 전시(유물 총 180점 소장)",
+      "sido": "충청남도",
+      "sigungu": "서산시",
+      "span_id": "",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_base_1070.csv#row=538"
+      ],
+      "evidence_id": "E5",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=378",
+        "fields": {
+          "name": "서해미술관",
+          "sido": "충청남도",
+          "sigungu": "서산시",
+          "address": "충청남도 서산시 부석면 무학로 152-13",
+          "ownership_type": "사립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "10:00",
+          "weekday_close": "18:00",
+          "holiday_open": "10:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "연중무휴",
+          "amenities_raw": "전시실+주차장"
+        },
+        "base_data_date": "2026-01-13",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    }
+  ],
+  "answer": "홍성에 있는 곳으로는 **홍주성역사관**이 있습니다. 주소는 충청남도 홍성군 홍성읍 아문길 20이며, 홍주읍성 안에 자리하고 있습니다. [E1]",
+  "retrieval_status": "ok",
+  "answer_status": "answered",
+  "route": "hybrid",
+  "retry_count": 0,
+  "supervisor_verified": true,
+  "rerank_applied": true,
+  "retriever_errors": [],
+  "warnings": [],
+  "duration_ms": 71938.72,
+  "error_type": "",
+  "hit_at_1": 1,
+  "hit_at_3": 1,
+  "hit_at_5": 1,
+  "recall_at_5": 0.25,
+  "mrr_at_10": 1.0
+}

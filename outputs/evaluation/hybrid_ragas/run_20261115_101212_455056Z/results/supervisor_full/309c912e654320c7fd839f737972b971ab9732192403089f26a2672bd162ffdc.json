@@ -1,0 +1,90 @@
+{
+  "mode": "supervisor_full",
+  "question_id": "V2-OM04",
+  "evidence": [
+    {
+      "museum_id": "M0432",
+      "name": "청마기념관",
+      "text": "청마기념관의 Neo4j manager_name(관리기관) 기록: 경상남도 거제시 (CSV 원문: 경상남도 거제시)\n[Neo4j 구조화 근거] {\"museum_id\": \"M0432\", \"name\": \"청마기념관\", \"relation\": \"MANAGED_BY\", \"organization\": \"경상남도 거제시\", \"org_key\": \"경상남도거제시\", \"org_type\": \"지방자치단체\", \"raw_name\": \"경상남도 거제시\", \"verification_status\": \"UNVERIFIED\"}",
+      "span_id": "",
+      "source_doc_ids": [
+        "DOC-B0432-TOUR_API-2755674"
+      ],
+      "source_urls": [],
+      "source_url": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=206"
+      ],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=206",
+      "sido": "경상남도",
+      "sigungu": "거제시",
+      "retriever": "graph",
+      "evidence_role": "anchor",
+      "source_scope": "graph_properties",
+      "relation": "MANAGED_BY",
+      "organization": "경상남도 거제시",
+      "org_type": "지방자치단체",
+      "operator_raw_name": "경상남도 거제시",
+      "verification_status": "UNVERIFIED",
+      "metadata": {},
+      "chunk_id": "",
+      "retrievers": [
+        "graph"
+      ],
+      "evidence_id": "E1",
+      "rank": 1
+    },
+    {
+      "museum_id": "M0433",
+      "name": "거제어촌민속전시관",
+      "text": "{anchor_raw_name: 경상남도 거제시, candidate_raw_name: 경상남도 거제시, org_key: 경상남도거제시, organization: 경상남도 거제시, relation: MANAGED_BY, verification_status: UNVERIFIED}",
+      "span_id": "",
+      "source_doc_ids": [
+        "DOC-B0433-BASE",
+        "DOC-B0433-TOUR_API-1622179"
+      ],
+      "source_urls": [],
+      "source_url": "",
+      "source_locators": [
+        "data/raw/museum_base_1070.csv#row=434",
+        "data/raw/museum_tourapi_with_overview.csv#row=207"
+      ],
+      "source_locator": "data/raw/museum_base_1070.csv#row=434",
+      "sido": "경상남도",
+      "sigungu": "거제시",
+      "retriever": "graph",
+      "graph_path": "anchor -[:MANAGED_BY]-> Organization <-[:MANAGED_BY]- candidate",
+      "organization": "경상남도 거제시",
+      "org_type": "지방자치단체",
+      "operator_raw_name": "경상남도 거제시",
+      "anchor_operator_raw_name": "경상남도 거제시",
+      "relation": "MANAGED_BY",
+      "verification_status": "UNVERIFIED",
+      "facility_type": "전시관",
+      "source_scope": "graph_properties",
+      "metadata": {},
+      "chunk_id": "",
+      "retrievers": [
+        "graph"
+      ],
+      "evidence_id": "E2",
+      "rank": 2
+    }
+  ],
+  "answer": "청마기념관과 같은 관리기관인 경상남도 거제시가 관리하는 다른 시설은 거제어촌민속전시관입니다. 두 시설 모두 관리기관 연결은 기록상 ‘경상남도 거제시’로 되어 있으며, 해당 관리기관 정보는 미검증(UNVERIFIED)입니다. [E1][E2]",
+  "retrieval_status": "ok",
+  "answer_status": "answered",
+  "route": "graph",
+  "retry_count": 0,
+  "supervisor_verified": true,
+  "rerank_applied": false,
+  "retriever_errors": [],
+  "warnings": [],
+  "duration_ms": 121776.38,
+  "error_type": "",
+  "hit_at_1": 1,
+  "hit_at_3": 1,
+  "hit_at_5": 1,
+  "recall_at_5": 1.0,
+  "mrr_at_10": 1.0
+}

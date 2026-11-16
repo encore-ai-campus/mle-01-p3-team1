@@ -1,0 +1,759 @@
+{
+  "mode": "supervisor_full",
+  "question_id": "Q274",
+  "evidence": [
+    {
+      "museum_id": "M0466",
+      "name": "안산산업역사박물관",
+      "document": "안산산업역사박물관은 대한민국 산업화에 지대한 영향을 끼쳤던 안산의 산업사와 변천사를 한눈에 살펴볼 수 있는 복합문화공간이다. 1만여 점의 산업 유물이 전시되어 있고 도시발전을 함께한 시민들의 이야기가 기록된 과거와 현재, 미래를 잇는 역사적 현장이 되고 새로운 산업 동력을 모색하는 공간으로 안산 산업 역사를 한눈에 볼 수 있다. 미니어처나 모형, 사진만 전시하는 것이 아닌 과거 실제로 사용했거나 존재했던 버스, 기계, 자동차를 실제로 전시한다는 점에서 더 흥미롭고 실감이 난다. 야외 전시장에 있는 과거 안산지역을 순회 운행하던 버스와, 과거 시흥시 소래 염전과 남동 염전에서 소금을 운반하던 궤도차가 바로 그것이다. 또한 1층 로비에도 과거 우리가 사용했던 압력솥, 컴퓨터, 난로 등 일상생활에서 자주 접하던 제품들을 볼 수 있으며 2층 상설전시장에서도 각종 기계와 부품, 자동차, TV, 전화기, 목제 솜틀 등 아날로그 감성을 자극하는 추억 속 제품들이 전시되어 있으며 박물관 3층 옥상에서 영화 상영이나 가수와 청년 뮤지션들의 공연도 이루어지고 있어 지역주민들의 문화공간으로도 활용되고 있다. 안산산업역사박물관은 안산의 산업사 및 변천사를 살펴볼 수 있는 공립박물관(제1종 전문박물관)",
+      "metadata": {
+        "address": "경기도 안산시 단원구 화랑로 265",
+        "name": "안산산업역사박물관",
+        "image_copyright": "Type3",
+        "requires_manual_review": true,
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "holiday_close": "18:00",
+        "transport_notes": "시내버스 : 단원구청·보건소 정류장(123, 123-1, 99, 52,11, 23, 22, 30-2, 350, 30, 101번) 지하철 : 4호선(초지역, 고잔역)",
+        "ownership_type": "공립",
+        "child_fee": 0.0,
+        "sigungu": "안산시",
+        "homepage_url": "https://ansan.go.kr/aim/",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/96/3081396_image2_1.JPG",
+        "source_types": "BASE|TOUR_API",
+        "weekday_close": "18:00",
+        "holiday_open": "09:00",
+        "latitude": 37.323089,
+        "closure_rule_raw": "월요일+1월1일+설연휴+추석연휴",
+        "sido": "경기도",
+        "amenities_raw": "수유실",
+        "weekday_open": "09:00",
+        "longitude": 126.8161874,
+        "adult_fee": 0.0,
+        "youth_fee": 0.0
+      },
+      "vector_rank": 1,
+      "bm25_rank": 1,
+      "vector_distance": 0.41723859310150146,
+      "vector_score": null,
+      "bm25_score": 36.08761871898173,
+      "vector_document": "안산산업역사박물관은 대한민국 산업화에 지대한 영향을 끼쳤던 안산의 산업사와 변천사를 한눈에 살펴볼 수 있는 복합문화공간이다. 1만여 점의 산업 유물이 전시되어 있고 도시발전을 함께한 시민들의 이야기가 기록된 과거와 현재, 미래를 잇는 역사적 현장이 되고 새로운 산업 동력을 모색하는 공간으로 안산 산업 역사를 한눈에 볼 수 있다. 미니어처나 모형, 사진만 전시하는 것이 아닌 과거 실제로 사용했거나 존재했던 버스, 기계, 자동차를 실제로 전시한다는 점에서 더 흥미롭고 실감이 난다. 야외 전시장에 있는 과거 안산지역을 순회 운행하던 버스와, 과거 시흥시 소래 염전과 남동 염전에서 소금을 운반하던 궤도차가 바로 그것이다. 또한 1층 로비에도 과거 우리가 사용했던 압력솥, 컴퓨터, 난로 등 일상생활에서 자주 접하던 제품들을 볼 수 있으며 2층 상설전시장에서도 각종 기계와 부품, 자동차, TV, 전화기, 목제 솜틀 등 아날로그 감성을 자극하는 추억 속 제품들이 전시되어 있으며 박물관 3층 옥상에서 영화 상영이나 가수와 청년 뮤지션들의 공연도 이루어지고 있어 지역주민들의 문화공간으로도 활용되고 있다. 안산산업역사박물관은 안산의 산업사 및 변천사를 살펴볼 수 있는 공립박물관(제1종 전문박물관)",
+      "bm25_document": "안산산업역사박물관은 대한민국 산업화에 지대한 영향을 끼쳤던 안산의 산업사와 변천사를 한눈에 살펴볼 수 있는 복합문화공간이다. 1만여 점의 산업 유물이 전시되어 있고 도시발전을 함께한 시민들의 이야기가 기록된 과거와 현재, 미래를 잇는 역사적 현장이 되고 새로운 산업 동력을 모색하는 공간으로 안산 산업 역사를 한눈에 볼 수 있다. 미니어처나 모형, 사진만 전시하는 것이 아닌 과거 실제로 사용했거나 존재했던 버스, 기계, 자동차를 실제로 전시한다는 점에서 더 흥미롭고 실감이 난다. 야외 전시장에 있는 과거 안산지역을 순회 운행하던 버스와, 과거 시흥시 소래 염전과 남동 염전에서 소금을 운반하던 궤도차가 바로 그것이다. 또한 1층 로비에도 과거 우리가 사용했던 압력솥, 컴퓨터, 난로 등 일상생활에서 자주 접하던 제품들을 볼 수 있으며 2층 상설전시장에서도 각종 기계와 부품, 자동차, TV, 전화기, 목제 솜틀 등 아날로그 감성을 자극하는 추억 속 제품들이 전시되어 있으며 박물관 3층 옥상에서 영화 상영이나 가수와 청년 뮤지션들의 공연도 이루어지고 있어 지역주민들의 문화공간으로도 활용되고 있다. 안산산업역사박물관은 안산의 산업사 및 변천사를 살펴볼 수 있는 공립박물관(제1종 전문박물관)",
+      "best_span_id": "chroma:M0466",
+      "best_span_text": "안산산업역사박물관은 대한민국 산업화에 지대한 영향을 끼쳤던 안산의 산업사와 변천사를 한눈에 살펴볼 수 있는 복합문화공간이다. 1만여 점의 산업 유물이 전시되어 있고 도시발전을 함께한 시민들의 이야기가 기록된 과거와 현재, 미래를 잇는 역사적 현장이 되고 새로운 산업 동력을 모색하는 공간으로 안산 산업 역사를 한눈에 볼 수 있다. 미니어처나 모형, 사진만 전시하는 것이 아닌 과거 실제로 사용했거나 존재했던 버스, 기계, 자동차를 실제로 전시한다는 점에서 더 흥미롭고 실감이 난다. 야외 전시장에 있는 과거 안산지역을 순회 운행하던 버스와, 과거 시흥시 소래 염전과 남동 염전에서 소금을 운반하던 궤도차가 바로 그것이다. 또한 1층 로비에도 과거 우리가 사용했던 압력솥, 컴퓨터, 난로 등 일상생활에서 자주 접하던 제품들을 볼 수 있으며 2층 상설전시장에서도 각종 기계와 부품, 자동차, TV, 전화기, 목제 솜틀 등 아날로그 감성을 자극하는 추억 속 제품들이 전시되어 있으며 박물관 3층 옥상에서 영화 상영이나 가수와 청년 뮤지션들의 공연도 이루어지고 있어 지역주민들의 문화공간으로도 활용되고 있다. 안산산업역사박물관은 안산의 산업사 및 변천사를 살펴볼 수 있는 공립박물관(제1종 전문박물관)",
+      "fusion_score": 0.03278688524590164,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 1,
+      "name_match": true,
+      "rerank_score": null,
+      "rank": 1,
+      "score": 0.03278688524590164,
+      "score_type": "rrf",
+      "distance": 0.41723859310150146,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0466",
+      "source_doc_ids": [
+        "DOC-B0466-TOUR_API-3081404",
+        "DOC-B0466-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0466-TOUR_API-3081404",
+          "source_type": "TOUR_API",
+          "source_record_id": "3081404",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=228",
+          "match_trust": "RECHECKED_BY_RULE_NOT_HUMAN_APPROVED"
+        },
+        {
+          "doc_id": "DOC-B0466-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0466",
+          "source_locator": "data/raw/museum_base_1070.csv#row=467",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 69,
+          "doc_ids": [
+            "DOC-B0466-TOUR_API-3081404"
+          ]
+        },
+        {
+          "start": 70,
+          "end": 184,
+          "doc_ids": [
+            "DOC-B0466-TOUR_API-3081404"
+          ]
+        },
+        {
+          "start": 185,
+          "end": 269,
+          "doc_ids": [
+            "DOC-B0466-TOUR_API-3081404"
+          ]
+        },
+        {
+          "start": 270,
+          "end": 347,
+          "doc_ids": [
+            "DOC-B0466-TOUR_API-3081404"
+          ]
+        },
+        {
+          "start": 348,
+          "end": 560,
+          "doc_ids": [
+            "DOC-B0466-TOUR_API-3081404"
+          ]
+        },
+        {
+          "start": 561,
+          "end": 612,
+          "doc_ids": [
+            "DOC-B0466-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=228",
+      "text": "안산산업역사박물관은 대한민국 산업화에 지대한 영향을 끼쳤던 안산의 산업사와 변천사를 한눈에 살펴볼 수 있는 복합문화공간이다. 1만여 점의 산업 유물이 전시되어 있고 도시발전을 함께한 시민들의 이야기가 기록된 과거와 현재, 미래를 잇는 역사적 현장이 되고 새로운 산업 동력을 모색하는 공간으로 안산 산업 역사를 한눈에 볼 수 있다. 미니어처나 모형, 사진만 전시하는 것이 아닌 과거 실제로 사용했거나 존재했던 버스, 기계, 자동차를 실제로 전시한다는 점에서 더 흥미롭고 실감이 난다. 야외 전시장에 있는 과거 안산지역을 순회 운행하던 버스와, 과거 시흥시 소래 염전과 남동 염전에서 소금을 운반하던 궤도차가 바로 그것이다. 또한 1층 로비에도 과거 우리가 사용했던 압력솥, 컴퓨터, 난로 등 일상생활에서 자주 접하던 제품들을 볼 수 있으며 2층 상설전시장에서도 각종 기계와 부품, 자동차, TV, 전화기, 목제 솜틀 등 아날로그 감성을 자극하는 추억 속 제품들이 전시되어 있으며 박물관 3층 옥상에서 영화 상영이나 가수와 청년 뮤지션들의 공연도 이루어지고 있어 지역주민들의 문화공간으로도 활용되고 있다. 안산산업역사박물관은 안산의 산업사 및 변천사를 살펴볼 수 있는 공립박물관(제1종 전문박물관)",
+      "sido": "경기도",
+      "sigungu": "안산시",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=228"
+      ],
+      "evidence_id": "E1",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=337",
+        "fields": {
+          "name": "안산산업역사박물관",
+          "sido": "경기도",
+          "sigungu": "안산시",
+          "address": "경기도 안산시 단원구 화랑로 265",
+          "ownership_type": "공립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "09:00",
+          "weekday_close": "18:00",
+          "holiday_open": "09:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "월요일+1월1일+설연휴+추석연휴",
+          "amenities_raw": "수유실"
+        },
+        "base_data_date": "2026-03-05",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0972",
+      "name": "금산역사문화박물관",
+      "document": "금산역사문화박물관은 금산의 역사와 문화를 한자리에서 살펴볼 수 있는 공간이다. 1층은 금산 역사관, 2층은 금산 생활 민속관으로 나뉜다. 금산에 인류가 첫발을 내디딘 구석기시대부터 백제와 신라가 금산을 두고 각축전을 벌였던 삼국시대, 원나라에서 벼슬을 한 공을 인정받아 고향인 금산을 금주(錦州)로 승격시킨 성리학자 김신이 활동했던 고려, 조선왕조의 태실을 묻을 만큼 길지로 평가받았던 조선, 금산군수 홍범식을 비롯한 독립운동의 역사를 간직한 근현대가 순서대로 이어진다. 금산 생활 민속관에는 과거 전라북도에 속했던 터라 전라좌도농악의 특징이 녹아있는 금산농악과 세계중요농업유산으로 선정된 금산의 인삼 농사 기술을 만나볼 수 있다. 또 세계 각국의 생활 민속을 함께 비교해 볼 수 있는 지구촌 생활 민속실도 마련돼 있다. 금산역사문화박물관은 지하1층 지상3층 규모로 1층 금산역사관에는 선사시대부터 근현대까지 금산의 역사와 발굴유물을 전시하고 있으며 2층 금산생활민속관에는 금산의 민속유물과 세계민속유물을 전시하고 있습니다.",
+      "metadata": {
+        "source_types": "BASE|TOUR_API",
+        "latitude": 36.1141664,
+        "holiday_close": "18:00",
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "sigungu": "금산군",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/86/3559586_image2_1.jpg",
+        "adult_fee": 0.0,
+        "homepage_url": "https://www.geumsan.go.kr/museum/",
+        "weekday_open": "09:00",
+        "longitude": 127.4918544,
+        "child_fee": 0.0,
+        "holiday_open": "09:00",
+        "sido": "충청남도",
+        "weekday_close": "18:00",
+        "requires_manual_review": true,
+        "image_copyright": "Type1",
+        "ownership_type": "공립",
+        "closure_rule_raw": "월+1월1일+설 당일+추석 당일",
+        "address": "충청남도 금산군 금산읍 금산로 1575",
+        "name": "금산역사문화박물관",
+        "youth_fee": 0.0
+      },
+      "vector_rank": 2,
+      "bm25_rank": 7,
+      "vector_distance": 0.49720531702041626,
+      "vector_score": null,
+      "bm25_score": 15.626269448808817,
+      "vector_document": "금산역사문화박물관은 금산의 역사와 문화를 한자리에서 살펴볼 수 있는 공간이다. 1층은 금산 역사관, 2층은 금산 생활 민속관으로 나뉜다. 금산에 인류가 첫발을 내디딘 구석기시대부터 백제와 신라가 금산을 두고 각축전을 벌였던 삼국시대, 원나라에서 벼슬을 한 공을 인정받아 고향인 금산을 금주(錦州)로 승격시킨 성리학자 김신이 활동했던 고려, 조선왕조의 태실을 묻을 만큼 길지로 평가받았던 조선, 금산군수 홍범식을 비롯한 독립운동의 역사를 간직한 근현대가 순서대로 이어진다. 금산 생활 민속관에는 과거 전라북도에 속했던 터라 전라좌도농악의 특징이 녹아있는 금산농악과 세계중요농업유산으로 선정된 금산의 인삼 농사 기술을 만나볼 수 있다. 또 세계 각국의 생활 민속을 함께 비교해 볼 수 있는 지구촌 생활 민속실도 마련돼 있다. 금산역사문화박물관은 지하1층 지상3층 규모로 1층 금산역사관에는 선사시대부터 근현대까지 금산의 역사와 발굴유물을 전시하고 있으며 2층 금산생활민속관에는 금산의 민속유물과 세계민속유물을 전시하고 있습니다.",
+      "bm25_document": "금산역사문화박물관은 금산의 역사와 문화를 한자리에서 살펴볼 수 있는 공간이다. 1층은 금산 역사관, 2층은 금산 생활 민속관으로 나뉜다. 금산에 인류가 첫발을 내디딘 구석기시대부터 백제와 신라가 금산을 두고 각축전을 벌였던 삼국시대, 원나라에서 벼슬을 한 공을 인정받아 고향인 금산을 금주(錦州)로 승격시킨 성리학자 김신이 활동했던 고려, 조선왕조의 태실을 묻을 만큼 길지로 평가받았던 조선, 금산군수 홍범식을 비롯한 독립운동의 역사를 간직한 근현대가 순서대로 이어진다. 금산 생활 민속관에는 과거 전라북도에 속했던 터라 전라좌도농악의 특징이 녹아있는 금산농악과 세계중요농업유산으로 선정된 금산의 인삼 농사 기술을 만나볼 수 있다. 또 세계 각국의 생활 민속을 함께 비교해 볼 수 있는 지구촌 생활 민속실도 마련돼 있다. 금산역사문화박물관은 지하1층 지상3층 규모로 1층 금산역사관에는 선사시대부터 근현대까지 금산의 역사와 발굴유물을 전시하고 있으며 2층 금산생활민속관에는 금산의 민속유물과 세계민속유물을 전시하고 있습니다.",
+      "best_span_id": "chroma:M0972",
+      "best_span_text": "금산역사문화박물관은 금산의 역사와 문화를 한자리에서 살펴볼 수 있는 공간이다. 1층은 금산 역사관, 2층은 금산 생활 민속관으로 나뉜다. 금산에 인류가 첫발을 내디딘 구석기시대부터 백제와 신라가 금산을 두고 각축전을 벌였던 삼국시대, 원나라에서 벼슬을 한 공을 인정받아 고향인 금산을 금주(錦州)로 승격시킨 성리학자 김신이 활동했던 고려, 조선왕조의 태실을 묻을 만큼 길지로 평가받았던 조선, 금산군수 홍범식을 비롯한 독립운동의 역사를 간직한 근현대가 순서대로 이어진다. 금산 생활 민속관에는 과거 전라북도에 속했던 터라 전라좌도농악의 특징이 녹아있는 금산농악과 세계중요농업유산으로 선정된 금산의 인삼 농사 기술을 만나볼 수 있다. 또 세계 각국의 생활 민속을 함께 비교해 볼 수 있는 지구촌 생활 민속실도 마련돼 있다. 금산역사문화박물관은 지하1층 지상3층 규모로 1층 금산역사관에는 선사시대부터 근현대까지 금산의 역사와 발굴유물을 전시하고 있으며 2층 금산생활민속관에는 금산의 민속유물과 세계민속유물을 전시하고 있습니다.",
+      "fusion_score": 0.031054405392392875,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 2,
+      "rerank_score": null,
+      "rank": 2,
+      "score": 0.031054405392392875,
+      "score_type": "rrf",
+      "distance": 0.49720531702041626,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0972",
+      "source_doc_ids": [
+        "DOC-B0972-TOUR_API-2782404",
+        "DOC-B0972-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0972-TOUR_API-2782404",
+          "source_type": "TOUR_API",
+          "source_record_id": "2782404",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=456",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        },
+        {
+          "doc_id": "DOC-B0972-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0972",
+          "source_locator": "data/raw/museum_base_1070.csv#row=973",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 43,
+          "doc_ids": [
+            "DOC-B0972-TOUR_API-2782404"
+          ]
+        },
+        {
+          "start": 44,
+          "end": 76,
+          "doc_ids": [
+            "DOC-B0972-TOUR_API-2782404"
+          ]
+        },
+        {
+          "start": 77,
+          "end": 263,
+          "doc_ids": [
+            "DOC-B0972-TOUR_API-2782404"
+          ]
+        },
+        {
+          "start": 264,
+          "end": 353,
+          "doc_ids": [
+            "DOC-B0972-TOUR_API-2782404"
+          ]
+        },
+        {
+          "start": 354,
+          "end": 403,
+          "doc_ids": [
+            "DOC-B0972-TOUR_API-2782404"
+          ]
+        },
+        {
+          "start": 404,
+          "end": 517,
+          "doc_ids": [
+            "DOC-B0972-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=456",
+      "text": "금산역사문화박물관은 금산의 역사와 문화를 한자리에서 살펴볼 수 있는 공간이다. 1층은 금산 역사관, 2층은 금산 생활 민속관으로 나뉜다. 금산에 인류가 첫발을 내디딘 구석기시대부터 백제와 신라가 금산을 두고 각축전을 벌였던 삼국시대, 원나라에서 벼슬을 한 공을 인정받아 고향인 금산을 금주(錦州)로 승격시킨 성리학자 김신이 활동했던 고려, 조선왕조의 태실을 묻을 만큼 길지로 평가받았던 조선, 금산군수 홍범식을 비롯한 독립운동의 역사를 간직한 근현대가 순서대로 이어진다. 금산 생활 민속관에는 과거 전라북도에 속했던 터라 전라좌도농악의 특징이 녹아있는 금산농악과 세계중요농업유산으로 선정된 금산의 인삼 농사 기술을 만나볼 수 있다. 또 세계 각국의 생활 민속을 함께 비교해 볼 수 있는 지구촌 생활 민속실도 마련돼 있다. 금산역사문화박물관은 지하1층 지상3층 규모로 1층 금산역사관에는 선사시대부터 근현대까지 금산의 역사와 발굴유물을 전시하고 있으며 2층 금산생활민속관에는 금산의 민속유물과 세계민속유물을 전시하고 있습니다.",
+      "sido": "충청남도",
+      "sigungu": "금산군",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=456"
+      ],
+      "evidence_id": "E2",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=668",
+        "fields": {
+          "name": "금산역사문화박물관",
+          "sido": "충청남도",
+          "sigungu": "금산군",
+          "address": "충청남도 금산군 금산읍 금산로 1575",
+          "ownership_type": "공립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "09:00",
+          "weekday_close": "18:00",
+          "holiday_open": "09:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "월+1월1일+설 당일+추석 당일"
+        },
+        "base_data_date": "2025-11-19",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0971",
+      "name": "금산인삼관",
+      "document": "금산인삼관은 고려인삼(금산인삼)의 우수성을 국내·외에 널리 알리고자 1998년에 신축 2005년 리노베이션을 거쳐, 2011년 리모델링을 하였으며 2017년 8월에 새롭게 개관 운영하고 있습니다. 금산인삼의 역사 인삼의 전통재배과정 인삼의 성분과 효능 국내외 인삼제품류 인삼음식 및 약초 등을 전시하고 각종 영상시설을 설치하여 인삼에 관한 모든 것을 눈으로 보고 듣고 이해할 수 있도록 연출하였습니다. 고려(금산) 인삼의 우수성을 국내·외에 널리 알리고자 인삼 재배, 기구, 모형, 효능, 음식, 인삼류, 제품류 등을 전시하고 각종 영상시설물이 설치되어 있다. 인삼에 관한 모든 정보를 쉽게 이해할 수 있는 인삼 종합전시관이다. 해마다 금산인삼제에서 인삼 선발대회가 열리는데 역대 수상 받은 인삼들이 1층 로비에 전시되어 있어 색다른 경험을 할 수 있다.",
+      "metadata": {
+        "holiday_close": "18:00",
+        "sido": "충청남도",
+        "homepage_url": "https://www.geumsan.go.kr/insam/",
+        "name": "금산인삼관",
+        "adult_fee": 0.0,
+        "closure_rule_raw": "연중무휴",
+        "youth_fee": 0.0,
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/71/3559771_image2_1.jpg",
+        "weekday_close": "18:00",
+        "address": "충청남도 금산군 금산읍 인삼광장로30",
+        "image_copyright": "Type1",
+        "holiday_open": "09:00",
+        "source_types": "BASE|TOUR_API",
+        "sigungu": "금산군",
+        "longitude": 127.5007304,
+        "child_fee": 0.0,
+        "weekday_open": "09:00",
+        "requires_manual_review": true,
+        "ownership_type": "공립",
+        "latitude": 36.1000256
+      },
+      "vector_rank": 17,
+      "bm25_rank": 3,
+      "vector_distance": 0.595295250415802,
+      "vector_score": null,
+      "bm25_score": 17.77025132790278,
+      "vector_document": "금산인삼관은 고려인삼(금산인삼)의 우수성을 국내·외에 널리 알리고자 1998년에 신축 2005년 리노베이션을 거쳐, 2011년 리모델링을 하였으며 2017년 8월에 새롭게 개관 운영하고 있습니다. 금산인삼의 역사 인삼의 전통재배과정 인삼의 성분과 효능 국내외 인삼제품류 인삼음식 및 약초 등을 전시하고 각종 영상시설을 설치하여 인삼에 관한 모든 것을 눈으로 보고 듣고 이해할 수 있도록 연출하였습니다. 고려(금산) 인삼의 우수성을 국내·외에 널리 알리고자 인삼 재배, 기구, 모형, 효능, 음식, 인삼류, 제품류 등을 전시하고 각종 영상시설물이 설치되어 있다. 인삼에 관한 모든 정보를 쉽게 이해할 수 있는 인삼 종합전시관이다. 해마다 금산인삼제에서 인삼 선발대회가 열리는데 역대 수상 받은 인삼들이 1층 로비에 전시되어 있어 색다른 경험을 할 수 있다.",
+      "bm25_document": "금산인삼관은 고려인삼(금산인삼)의 우수성을 국내·외에 널리 알리고자 1998년에 신축 2005년 리노베이션을 거쳐, 2011년 리모델링을 하였으며 2017년 8월에 새롭게 개관 운영하고 있습니다. 금산인삼의 역사 인삼의 전통재배과정 인삼의 성분과 효능 국내외 인삼제품류 인삼음식 및 약초 등을 전시하고 각종 영상시설을 설치하여 인삼에 관한 모든 것을 눈으로 보고 듣고 이해할 수 있도록 연출하였습니다. 고려(금산) 인삼의 우수성을 국내·외에 널리 알리고자 인삼 재배, 기구, 모형, 효능, 음식, 인삼류, 제품류 등을 전시하고 각종 영상시설물이 설치되어 있다. 인삼에 관한 모든 정보를 쉽게 이해할 수 있는 인삼 종합전시관이다. 해마다 금산인삼제에서 인삼 선발대회가 열리는데 역대 수상 받은 인삼들이 1층 로비에 전시되어 있어 색다른 경험을 할 수 있다.",
+      "best_span_id": "chroma:M0971",
+      "best_span_text": "금산인삼관은 고려인삼(금산인삼)의 우수성을 국내·외에 널리 알리고자 1998년에 신축 2005년 리노베이션을 거쳐, 2011년 리모델링을 하였으며 2017년 8월에 새롭게 개관 운영하고 있습니다. 금산인삼의 역사 인삼의 전통재배과정 인삼의 성분과 효능 국내외 인삼제품류 인삼음식 및 약초 등을 전시하고 각종 영상시설을 설치하여 인삼에 관한 모든 것을 눈으로 보고 듣고 이해할 수 있도록 연출하였습니다. 고려(금산) 인삼의 우수성을 국내·외에 널리 알리고자 인삼 재배, 기구, 모형, 효능, 음식, 인삼류, 제품류 등을 전시하고 각종 영상시설물이 설치되어 있다. 인삼에 관한 모든 정보를 쉽게 이해할 수 있는 인삼 종합전시관이다. 해마다 금산인삼제에서 인삼 선발대회가 열리는데 역대 수상 받은 인삼들이 1층 로비에 전시되어 있어 색다른 경험을 할 수 있다.",
+      "fusion_score": 0.02886002886002886,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 3,
+      "rerank_score": null,
+      "rank": 3,
+      "score": 0.02886002886002886,
+      "score_type": "rrf",
+      "distance": 0.595295250415802,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0971",
+      "source_doc_ids": [
+        "DOC-B0971-BASE",
+        "DOC-B0971-TOUR_API-2470404"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0971-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0971",
+          "source_locator": "data/raw/museum_base_1070.csv#row=972",
+          "match_trust": "BASE_SOURCE"
+        },
+        {
+          "doc_id": "DOC-B0971-TOUR_API-2470404",
+          "source_type": "TOUR_API",
+          "source_record_id": "2470404",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=455",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 109,
+          "doc_ids": [
+            "DOC-B0971-BASE"
+          ]
+        },
+        {
+          "start": 110,
+          "end": 224,
+          "doc_ids": [
+            "DOC-B0971-BASE"
+          ]
+        },
+        {
+          "start": 225,
+          "end": 313,
+          "doc_ids": [
+            "DOC-B0971-TOUR_API-2470404"
+          ]
+        },
+        {
+          "start": 314,
+          "end": 351,
+          "doc_ids": [
+            "DOC-B0971-TOUR_API-2470404"
+          ]
+        },
+        {
+          "start": 352,
+          "end": 422,
+          "doc_ids": [
+            "DOC-B0971-TOUR_API-2470404"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_base_1070.csv#row=972",
+      "text": "금산인삼관은 고려인삼(금산인삼)의 우수성을 국내·외에 널리 알리고자 1998년에 신축 2005년 리노베이션을 거쳐, 2011년 리모델링을 하였으며 2017년 8월에 새롭게 개관 운영하고 있습니다. 금산인삼의 역사 인삼의 전통재배과정 인삼의 성분과 효능 국내외 인삼제품류 인삼음식 및 약초 등을 전시하고 각종 영상시설을 설치하여 인삼에 관한 모든 것을 눈으로 보고 듣고 이해할 수 있도록 연출하였습니다. 고려(금산) 인삼의 우수성을 국내·외에 널리 알리고자 인삼 재배, 기구, 모형, 효능, 음식, 인삼류, 제품류 등을 전시하고 각종 영상시설물이 설치되어 있다. 인삼에 관한 모든 정보를 쉽게 이해할 수 있는 인삼 종합전시관이다. 해마다 금산인삼제에서 인삼 선발대회가 열리는데 역대 수상 받은 인삼들이 1층 로비에 전시되어 있어 색다른 경험을 할 수 있다.",
+      "sido": "충청남도",
+      "sigungu": "금산군",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_base_1070.csv#row=972"
+      ],
+      "evidence_id": "E3",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=667",
+        "fields": {
+          "name": "금산인삼관",
+          "sido": "충청남도",
+          "sigungu": "금산군",
+          "address": "충청남도 금산군 금산읍 인삼광장로30",
+          "ownership_type": "공립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "09:00",
+          "weekday_close": "18:00",
+          "holiday_open": "09:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "연중무휴"
+        },
+        "base_data_date": "2025-11-19",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0753",
+      "name": "울산박물관",
+      "document": "울산박물관은 울산의 선사시대부터 현대까지의 문화와 역사를 보여주기 위해 2011년 설립되었다. 지하 1층, 지상 2층으로 구성되어 있으며 지상 1층에는 기획전시실, 어린이 박물관, 원형극장 등이 자리 잡고 있으며 지상 2층에는 역사실 및 산업사실이 설치되어 있다. 탁 트인 넓은 공간과 자연의 아름다움을 연결한 야외전시장이 있으며 박물관 외벽에 울산의 대표적 국가유산인 반구대 암각화를 음각으로 조각하여 연출했다. 울산의 오래된 역사를 박물관 초입에 연출함으로써 문화도시 울산의 웅장함과 자긍심을 드러내 보인다. 박물관은 울산대공원 안에 위치한다. 울산의 역사와 문화를 보여주는 울산의 대표 박물관이다. 역사실, 산업사실로 구성된 상설전시실과 어린이박물관, 실감영상관, 기획전시실로 구성되어 있다. 매년 울산의 역사, 문화, 산업 등을 주제로 한 전시와 교육 및 문화행사를 운영하고 있다.",
+      "metadata": {
+        "transport_notes": "- 일반버스 124, 205, 225, 527, 715번 : 울산박물관·울산대공원동문앞 하차- 일반버스 106, 216번 : 올림푸스아파트앞 하차, 울산박물관까지 도보 11분- 일반버스   714, 824번 : 공업탑 하차, 울산박물관까지 도보 13분",
+        "address": "울산광역시 남구 두왕로 277",
+        "holiday_open": "09:00",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/36/3072936_image2_1.jpg",
+        "child_fee": 0.0,
+        "name": "울산박물관",
+        "homepage_url": "http://www.ulsan.go.kr/s/museum",
+        "longitude": 129.3086925,
+        "adult_fee": 0.0,
+        "fee_notes": "0",
+        "closure_rule_raw": "매주 월+1월1일",
+        "ownership_type": "공립",
+        "sido": "울산광역시",
+        "weekday_open": "09:00",
+        "holiday_close": "18:00",
+        "latitude": 35.52713607,
+        "amenities_raw": "주차장+수유실+도서관 등",
+        "youth_fee": 0.0,
+        "weekday_close": "18:00",
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "image_copyright": "Type3",
+        "requires_manual_review": true,
+        "source_types": "BASE|TOUR_API",
+        "sigungu": "남구"
+      },
+      "vector_rank": null,
+      "bm25_rank": 2,
+      "vector_distance": null,
+      "vector_score": null,
+      "bm25_score": 19.722479468039836,
+      "vector_document": "",
+      "bm25_document": "울산박물관은 울산의 선사시대부터 현대까지의 문화와 역사를 보여주기 위해 2011년 설립되었다. 지하 1층, 지상 2층으로 구성되어 있으며 지상 1층에는 기획전시실, 어린이 박물관, 원형극장 등이 자리 잡고 있으며 지상 2층에는 역사실 및 산업사실이 설치되어 있다. 탁 트인 넓은 공간과 자연의 아름다움을 연결한 야외전시장이 있으며 박물관 외벽에 울산의 대표적 국가유산인 반구대 암각화를 음각으로 조각하여 연출했다. 울산의 오래된 역사를 박물관 초입에 연출함으로써 문화도시 울산의 웅장함과 자긍심을 드러내 보인다. 박물관은 울산대공원 안에 위치한다. 울산의 역사와 문화를 보여주는 울산의 대표 박물관이다. 역사실, 산업사실로 구성된 상설전시실과 어린이박물관, 실감영상관, 기획전시실로 구성되어 있다. 매년 울산의 역사, 문화, 산업 등을 주제로 한 전시와 교육 및 문화행사를 운영하고 있다.",
+      "best_span_id": "chroma:M0753",
+      "best_span_text": "울산박물관은 울산의 선사시대부터 현대까지의 문화와 역사를 보여주기 위해 2011년 설립되었다. 지하 1층, 지상 2층으로 구성되어 있으며 지상 1층에는 기획전시실, 어린이 박물관, 원형극장 등이 자리 잡고 있으며 지상 2층에는 역사실 및 산업사실이 설치되어 있다. 탁 트인 넓은 공간과 자연의 아름다움을 연결한 야외전시장이 있으며 박물관 외벽에 울산의 대표적 국가유산인 반구대 암각화를 음각으로 조각하여 연출했다. 울산의 오래된 역사를 박물관 초입에 연출함으로써 문화도시 울산의 웅장함과 자긍심을 드러내 보인다. 박물관은 울산대공원 안에 위치한다. 울산의 역사와 문화를 보여주는 울산의 대표 박물관이다. 역사실, 산업사실로 구성된 상설전시실과 어린이박물관, 실감영상관, 기획전시실로 구성되어 있다. 매년 울산의 역사, 문화, 산업 등을 주제로 한 전시와 교육 및 문화행사를 운영하고 있다.",
+      "fusion_score": 0.016129032258064516,
+      "retrieved_by": [
+        "bm25"
+      ],
+      "fusion_rank": 4,
+      "rerank_score": null,
+      "rank": 4,
+      "score": 0.016129032258064516,
+      "score_type": "rrf",
+      "distance": null,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "bm25"
+      ],
+      "retriever": "bm25",
+      "span_id": "chroma:M0753",
+      "source_doc_ids": [
+        "DOC-B0753-TOUR_API-1556541",
+        "DOC-B0753-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0753-TOUR_API-1556541",
+          "source_type": "TOUR_API",
+          "source_record_id": "1556541",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=365",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        },
+        {
+          "doc_id": "DOC-B0753-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0753",
+          "source_locator": "data/raw/museum_base_1070.csv#row=754",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 52,
+          "doc_ids": [
+            "DOC-B0753-TOUR_API-1556541"
+          ]
+        },
+        {
+          "start": 53,
+          "end": 147,
+          "doc_ids": [
+            "DOC-B0753-TOUR_API-1556541"
+          ]
+        },
+        {
+          "start": 148,
+          "end": 231,
+          "doc_ids": [
+            "DOC-B0753-TOUR_API-1556541"
+          ]
+        },
+        {
+          "start": 232,
+          "end": 286,
+          "doc_ids": [
+            "DOC-B0753-TOUR_API-1556541"
+          ]
+        },
+        {
+          "start": 287,
+          "end": 306,
+          "doc_ids": [
+            "DOC-B0753-TOUR_API-1556541"
+          ]
+        },
+        {
+          "start": 307,
+          "end": 337,
+          "doc_ids": [
+            "DOC-B0753-BASE"
+          ]
+        },
+        {
+          "start": 338,
+          "end": 390,
+          "doc_ids": [
+            "DOC-B0753-BASE"
+          ]
+        },
+        {
+          "start": 391,
+          "end": 441,
+          "doc_ids": [
+            "DOC-B0753-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=365",
+      "text": "울산박물관은 울산의 선사시대부터 현대까지의 문화와 역사를 보여주기 위해 2011년 설립되었다. 지하 1층, 지상 2층으로 구성되어 있으며 지상 1층에는 기획전시실, 어린이 박물관, 원형극장 등이 자리 잡고 있으며 지상 2층에는 역사실 및 산업사실이 설치되어 있다. 탁 트인 넓은 공간과 자연의 아름다움을 연결한 야외전시장이 있으며 박물관 외벽에 울산의 대표적 국가유산인 반구대 암각화를 음각으로 조각하여 연출했다. 울산의 오래된 역사를 박물관 초입에 연출함으로써 문화도시 울산의 웅장함과 자긍심을 드러내 보인다. 박물관은 울산대공원 안에 위치한다. 울산의 역사와 문화를 보여주는 울산의 대표 박물관이다. 역사실, 산업사실로 구성된 상설전시실과 어린이박물관, 실감영상관, 기획전시실로 구성되어 있다. 매년 울산의 역사, 문화, 산업 등을 주제로 한 전시와 교육 및 문화행사를 운영하고 있다.",
+      "sido": "울산광역시",
+      "sigungu": "남구",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=365"
+      ],
+      "evidence_id": "E4",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=522",
+        "fields": {
+          "name": "울산박물관",
+          "sido": "울산광역시",
+          "sigungu": "남구",
+          "address": "울산광역시 남구 두왕로 277",
+          "ownership_type": "공립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "09:00",
+          "weekday_close": "18:00",
+          "holiday_open": "09:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "매주 월+1월1일",
+          "amenities_raw": "주차장+수유실+도서관 등"
+        },
+        "base_data_date": "2024-11-02",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M1005",
+      "name": "동산박물관",
+      "document": "동산박물관은 청자, 분청사기, 순백자, 청화백자 등 150여점이 전시되어 있는 상설 전시관과 석조유물 등 300여점이 전시되어 있는 야외 전시장이 있으며, 애듀케이터 선생님과 함께 자연의 흙과 나무를 만지며 감성을 쑥쑥 키워주는 어린이 감성프로그램인 숲속박물관도 함께 운영합니다.",
+      "metadata": {
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "address": "충청남도 공주시 반포면 정광터1길 108-8",
+        "source_types": "BASE",
+        "weekday_close": "18:00",
+        "holiday_close": "16:00",
+        "closure_rule_raw": "매주 월요일",
+        "latitude": 36.40257387,
+        "sigungu": "공주시",
+        "longitude": 127.2322116,
+        "ownership_type": "사립",
+        "weekday_open": "10:00",
+        "adult_fee": 0.0,
+        "transport_notes": "시내버스300+ 303+ 340+ 342+ 350",
+        "requires_manual_review": false,
+        "name": "동산박물관",
+        "fee_notes": "없음",
+        "holiday_open": "10:00",
+        "amenities_raw": "상설전시실, 야외전시실, 체험관",
+        "child_fee": 0.0,
+        "homepage_url": "http://www.dongsanmuseum.com/",
+        "sido": "충청남도",
+        "youth_fee": 0.0
+      },
+      "vector_rank": 3,
+      "bm25_rank": null,
+      "vector_distance": 0.5225789546966553,
+      "vector_score": null,
+      "bm25_score": null,
+      "vector_document": "동산박물관은 청자, 분청사기, 순백자, 청화백자 등 150여점이 전시되어 있는 상설 전시관과 석조유물 등 300여점이 전시되어 있는 야외 전시장이 있으며, 애듀케이터 선생님과 함께 자연의 흙과 나무를 만지며 감성을 쑥쑥 키워주는 어린이 감성프로그램인 숲속박물관도 함께 운영합니다.",
+      "bm25_document": "",
+      "best_span_id": null,
+      "best_span_text": null,
+      "fusion_score": 0.015873015873015872,
+      "retrieved_by": [
+        "vector"
+      ],
+      "fusion_rank": 5,
+      "rerank_score": null,
+      "rank": 5,
+      "score": 0.015873015873015872,
+      "score_type": "rrf",
+      "distance": 0.5225789546966553,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector"
+      ],
+      "retriever": "vector",
+      "source_doc_ids": [
+        "DOC-B1005-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B1005-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B1005",
+          "source_locator": "data/raw/museum_base_1070.csv#row=1006",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 156,
+          "doc_ids": [
+            "DOC-B1005-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_base_1070.csv#row=1006",
+      "text": "동산박물관은 청자, 분청사기, 순백자, 청화백자 등 150여점이 전시되어 있는 상설 전시관과 석조유물 등 300여점이 전시되어 있는 야외 전시장이 있으며, 애듀케이터 선생님과 함께 자연의 흙과 나무를 만지며 감성을 쑥쑥 키워주는 어린이 감성프로그램인 숲속박물관도 함께 운영합니다.",
+      "sido": "충청남도",
+      "sigungu": "공주시",
+      "span_id": "",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_base_1070.csv#row=1006"
+      ],
+      "evidence_id": "E5",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=688",
+        "fields": {
+          "name": "동산박물관",
+          "sido": "충청남도",
+          "sigungu": "공주시",
+          "address": "충청남도 공주시 반포면 정광터1길 108-8",
+          "ownership_type": "사립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "10:00",
+          "weekday_close": "18:00",
+          "holiday_open": "10:00",
+          "holiday_close": "16:00",
+          "closure_rule_raw": "매주 월요일",
+          "amenities_raw": "상설전시실, 야외전시실, 체험관"
+        },
+        "base_data_date": "2024-08-27",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    }
+  ],
+  "answer": "1층 로비에는 압력솥, 컴퓨터, 난로 등 일상생활에서 사용하던 제품이 전시되어 있습니다. [E1] 2층 상설전시장에는 각종 기계와 부품, 자동차, TV, 전화기, 목제 솜틀 등이 전시되어 있습니다. [E1]",
+  "retrieval_status": "ok",
+  "answer_status": "answered",
+  "route": "hybrid",
+  "retry_count": 0,
+  "supervisor_verified": true,
+  "rerank_applied": false,
+  "retriever_errors": [],
+  "warnings": [
+    "Cross-Encoder reranking failed (FileNotFoundError); RRF order retained"
+  ],
+  "duration_ms": 9386.85,
+  "error_type": "",
+  "hit_at_1": 1,
+  "hit_at_3": 1,
+  "hit_at_5": 1,
+  "recall_at_5": 1.0,
+  "mrr_at_10": 1.0
+}

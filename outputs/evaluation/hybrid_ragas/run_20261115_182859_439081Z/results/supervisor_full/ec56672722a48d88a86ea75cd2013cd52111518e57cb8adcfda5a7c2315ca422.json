@@ -1,0 +1,662 @@
+{
+  "evidence_context_version": "grounded-evidence-v2",
+  "evaluation_contexts": [
+    "{\"evidence_context_version\": \"grounded-evidence-v2\", \"evidence_id\": \"E1\", \"metadata_provenance\": {\"base_data_date\": \"2026-04-08\", \"fields\": {\"address\": \"경기도 수원시 권선구 수인로 154\", \"adult_fee\": \"0\", \"adult_fee_status\": \"BASE_FEE_ZERO_CHECK_EXCEPTIONS\", \"child_fee\": \"0\", \"closure_rule_raw\": \"매주 월요일, 1월 1일, 설·추석 당일\", \"holiday_close\": \"18:00\", \"holiday_open\": \"10:00\", \"name\": \"국립농업박물관\", \"ownership_type\": \"국립\", \"sido\": \"경기도\", \"sigungu\": \"수원시\", \"weekday_close\": \"18:00\", \"weekday_open\": \"10:00\", \"youth_fee\": \"0\"}, \"source_kind\": \"derived_csv_row\", \"source_locator\": \"data/processed/museum_final_738.csv#record=353\", \"trust\": \"derived_dataset_not_human_verified\"}, \"museum_id\": \"M0490\", \"name\": \"국립농업박물관\", \"source_doc_ids\": [\"DOC-B0490-TOUR_API-2944481\", \"DOC-WEB-M0490-20261111\"], \"source_documents\": [{\"doc_id\": \"DOC-B0490-TOUR_API-2944481\", \"match_trust\": \"RECHECKED_BY_RULE_NOT_HUMAN_APPROVED\", \"source_locator\": \"data/raw/museum_tourapi_with_overview.csv#row=242\", \"source_record_id\": \"2944481\", \"source_type\": \"TOUR_API\"}, {\"doc_id\": \"DOC-WEB-M0490-20261111\", \"match_trust\": \"WEB_SOURCE_REVIEWED_NOT_HUMAN_APPROVED\", \"source_locator\": \"https://namuk.or.kr/kr/597/subview.do\", \"source_record_id\": \"RESEARCH-M0490\", \"source_type\": \"WEB_RESEARCH\", \"source_url\": \"https://namuk.or.kr/kr/597/subview.do\"}], \"source_locator\": \"data/raw/museum_tourapi_with_overview.csv#row=242\", \"source_locators\": [\"data/raw/museum_tourapi_with_overview.csv#row=242\"], \"source_scope\": \"text\", \"source_spans\": [{\"doc_ids\": [\"DOC-B0490-TOUR_API-2944481\"], \"end\": 68, \"start\": 0}, {\"doc_ids\": [\"DOC-B0490-TOUR_API-2944481\"], \"end\": 138, \"start\": 69}, {\"doc_ids\": [\"DOC-B0490-TOUR_API-2944481\"], \"end\": 223, \"start\": 139}, {\"doc_ids\": [\"DOC-B0490-TOUR_API-2944481\"], \"end\": 278, \"start\": 224}, {\"doc_ids\": [\"DOC-WEB-M0490-20261111\"], \"end\": 318, \"start\": 279}, {\"doc_ids\": [\"DOC-WEB-M0490-20261111\"], \"end\": 371, \"start\": 319}], \"source_urls\": [\"https://namuk.or.kr/kr/597/subview.do\"], \"text\": \"국립농업박물관은 우리 농업의 어제와 오늘 그리고 내일을 만날 수 있는 다양한 전시와 실내외 농업 체험장으로 구성되어 있다. 농업의 모든 것을 선보이는 상설 전시와 다양한 측면을 포착한 기획 전시, 농촌의 가치를 체험할 수 있는 어린이박물관이 있다. 도심 속 여유를 만끽할 수 있는 야외 농업 체험장과 식물원, 곤충관은 물론, 직접 느끼며 깨닫는 교육 프로그램까지 다양한 볼거리와 즐길거리가 가득하다. ‘모두가 찾아오고 싶은 생활 문화 공간’을 추구하며 농업 농촌의 가치를 친근하게 전파하고자 한다. 한국 농업의 역사와 미래, 농촌문화와 식문화를 소개하는 국립박물관이다. 농업관과 어린이박물관, 식물원·곤충관·농업체험시설을 통해 농업의 여러 모습을 체험할 수 있다.\"}",
+    "{\"evidence_context_version\": \"grounded-evidence-v2\", \"evidence_id\": \"E2\", \"metadata_provenance\": {\"base_data_date\": \"2025-12-22\", \"fields\": {\"address\": \"충청북도 괴산군 괴산읍 충민로 검승1길 6\", \"adult_fee\": \"0\", \"adult_fee_status\": \"BASE_FEE_ZERO_CHECK_EXCEPTIONS\", \"child_fee\": \"0\", \"closure_rule_raw\": \"월+1월 1일+설 연휴+추석 연휴\", \"holiday_close\": \"18:00\", \"holiday_open\": \"09:00\", \"name\": \"농업역사박물관\", \"ownership_type\": \"공립\", \"sido\": \"충청북도\", \"sigungu\": \"괴산군\", \"weekday_close\": \"18:00\", \"weekday_open\": \"09:00\", \"youth_fee\": \"0\"}, \"source_kind\": \"derived_csv_row\", \"source_locator\": \"data/processed/museum_final_738.csv#record=416\", \"trust\": \"derived_dataset_not_human_verified\"}, \"museum_id\": \"M0596\", \"name\": \"농업역사박물관\", \"source_doc_ids\": [\"DOC-B0596-BASE\"], \"source_documents\": [{\"doc_id\": \"DOC-B0596-BASE\", \"match_trust\": \"BASE_SOURCE\", \"source_locator\": \"data/raw/museum_base_1070.csv#row=597\", \"source_record_id\": \"B0596\", \"source_type\": \"BASE\"}], \"source_locator\": \"data/raw/museum_base_1070.csv#row=597\", \"source_locators\": [\"data/raw/museum_base_1070.csv#row=597\"], \"source_scope\": \"text\", \"source_spans\": [{\"doc_ids\": [\"DOC-B0596-BASE\"], \"end\": 169, \"start\": 0}], \"source_urls\": [], \"text\": \"괴산농업역사박물관은 농업문화공간이자 교육의 장으로서 자라나는 아이들에게 생소한 농업의 문화를 접할 수 있는 향토문화 공간으로 조성하기 위해 7,033㎡ 부지에 건립했으며, 농업역사박물관, 농경문화체험관, 야외전시장이 있으며 총 3,179점(전시1,211점, 수장고 1,968점)의 유물을 소장하고 있다.\"}",
+    "{\"evidence_context_version\": \"grounded-evidence-v2\", \"evidence_id\": \"E3\", \"metadata_provenance\": {\"base_data_date\": \"2020-12-15\", \"fields\": {\"address\": \"대전광역시 유성구 과학로 124\", \"adult_fee\": \"0\", \"adult_fee_status\": \"BASE_FEE_ZERO_CHECK_EXCEPTIONS\", \"amenities_raw\": \"NAME?\", \"child_fee\": \"0\", \"closure_rule_raw\": \"매주 월요일, 법정 공휴일 다음날, 1월 1일, 설날과 추석연휴, 근로자의 날, 창립기념일(5월 10일), 임시공휴일\", \"holiday_close\": \"17:00\", \"holiday_open\": \"10:00\", \"name\": \"지질자원연구원 지질박물관\", \"ownership_type\": \"사립\", \"sido\": \"대전광역시\", \"sigungu\": \"유성구\", \"weekday_close\": \"17:00\", \"weekday_open\": \"10:00\", \"youth_fee\": \"0\"}, \"source_kind\": \"derived_csv_row\", \"source_locator\": \"data/processed/museum_final_738.csv#record=571\", \"trust\": \"derived_dataset_not_human_verified\"}, \"museum_id\": \"M0837\", \"name\": \"지질자원연구원 지질박물관\", \"source_doc_ids\": [\"DOC-B0837-BASE\"], \"source_documents\": [{\"doc_id\": \"DOC-B0837-BASE\", \"match_trust\": \"BASE_SOURCE\", \"source_locator\": \"data/raw/museum_base_1070.csv#row=838\", \"source_record_id\": \"B0837\", \"source_type\": \"BASE\"}], \"source_locator\": \"data/raw/museum_base_1070.csv#row=838\", \"source_locators\": [\"data/raw/museum_base_1070.csv#row=838\"], \"source_scope\": \"text\", \"source_spans\": [{\"doc_ids\": [\"DOC-B0837-BASE\"], \"end\": 81, \"start\": 0}, {\"doc_ids\": [\"DOC-B0837-BASE\"], \"end\": 148, \"start\": 82}, {\"doc_ids\": [\"DOC-B0837-BASE\"], \"end\": 225, \"start\": 149}], \"source_urls\": [], \"text\": \"- 한국지질자원연구원 지질박물관은 현재의 지구를 쉽게 이해할 수 있도록 암석, 광물, 화석 등 다양한 지질표본을 수집, 연구, 전시하고 있습니다. - 또한 체험관과 체험 교육프로그램을 운영하고 있으며, 상설전시를 보완하기 위해 2년마다 특별 기획전을 개최하고 있다. 광물, 암석, 화석과 같은 지질표본의 전시, 영상물의 상영, 강연회 또는 체험학습의 장을 마련함으로써 지질과학의 대중화에 기여하고 있다.\"}",
+    "{\"evidence_context_version\": \"grounded-evidence-v2\", \"evidence_id\": \"E4\", \"metadata_provenance\": {\"base_data_date\": \"2026-01-05\", \"fields\": {\"address\": \"세종특별시 전의면 금사길75\", \"adult_fee\": \"0\", \"adult_fee_status\": \"BASE_FEE_ZERO_CHECK_EXCEPTIONS\", \"child_fee\": \"0\", \"closure_rule_raw\": \"월요일 휴무+1월1일+설날및 추석명절당일\", \"holiday_close\": \"18:00\", \"holiday_open\": \"09:00\", \"name\": \"세종시립민속박물관\", \"ownership_type\": \"공립\", \"sido\": \"세종특별시\", \"sigungu\": \"전의면\", \"weekday_close\": \"18:00\", \"weekday_open\": \"09:00\", \"youth_fee\": \"0\"}, \"source_kind\": \"derived_csv_row\", \"source_locator\": \"data/processed/museum_final_738.csv#record=402\", \"trust\": \"derived_dataset_not_human_verified\"}, \"museum_id\": \"M0581\", \"name\": \"세종시립민속박물관\", \"source_doc_ids\": [\"DOC-B0581-TOUR_API-1951646\"], \"source_documents\": [{\"doc_id\": \"DOC-B0581-TOUR_API-1951646\", \"match_trust\": \"AUTO_MATCH_NOT_HUMAN_VERIFIED\", \"source_locator\": \"data/raw/museum_tourapi_with_overview.csv#row=287\", \"source_record_id\": \"1951646\", \"source_type\": \"TOUR_API\"}], \"source_locator\": \"data/raw/museum_tourapi_with_overview.csv#row=287\", \"source_locators\": [\"data/raw/museum_tourapi_with_overview.csv#row=287\"], \"source_scope\": \"text\", \"source_spans\": [{\"doc_ids\": [\"DOC-B0581-TOUR_API-1951646\"], \"end\": 50, \"start\": 0}, {\"doc_ids\": [\"DOC-B0581-TOUR_API-1951646\"], \"end\": 114, \"start\": 51}, {\"doc_ids\": [\"DOC-B0581-TOUR_API-1951646\"], \"end\": 174, \"start\": 115}, {\"doc_ids\": [\"DOC-B0581-TOUR_API-1951646\"], \"end\": 245, \"start\": 175}, {\"doc_ids\": [\"DOC-B0581-TOUR_API-1951646\"], \"end\": 297, \"start\": 246}], \"source_urls\": [], \"text\": \"세종시립민속박물관은 폐교된 금사초등학교를 활용해 2012년에 개관한 민속 전문 박물관이다. 상설전시실과 기획전시실에서 다양한 민속유물을 전시하고 있으며, 생활 속 전통문화를 이해할 수 있는 교육의 장이다. 전통모자 써보기, 칠교놀이, 투호 던지기 등 다양한 전통놀이를 체험할 수 있는 체험학습실도 마련되어 있다. 박물관에는 유물을 보관·연구하는 수장고와 문화유산을 연구하는 학예연구실, 야외 민속품을 관람할 수 있는 전시장도 갖추고 있다. 전시와 체험을 결합한 복합 문화공간으로 지역 주민과 가족 단위 관람객에게 인기를 끌고 있다.\"}",
+    "{\"evidence_context_version\": \"grounded-evidence-v2\", \"evidence_id\": \"E5\", \"metadata_provenance\": {\"base_data_date\": \"2024-08-13\", \"fields\": {\"address\": \"강원특별자치도 태백시 태백로 2249\", \"adult_fee\": \"2000\", \"adult_fee_status\": \"BASE_FEE_PAID\", \"amenities_raw\": \"영상실 휴게실\", \"child_fee\": \"1000\", \"closure_rule_raw\": \"월\", \"holiday_close\": \"18:00\", \"holiday_open\": \"09:00\", \"name\": \"태백고생대자연사박물관\", \"ownership_type\": \"공립\", \"sido\": \"강원특별자치도\", \"sigungu\": \"태백시\", \"weekday_close\": \"18:00\", \"weekday_open\": \"09:00\", \"youth_fee\": \"1500\"}, \"source_kind\": \"derived_csv_row\", \"source_locator\": \"data/processed/museum_final_738.csv#record=653\", \"trust\": \"derived_dataset_not_human_verified\"}, \"museum_id\": \"M0948\", \"name\": \"태백고생대자연사박물관\", \"source_doc_ids\": [\"DOC-B0948-BASE\"], \"source_documents\": [{\"doc_id\": \"DOC-B0948-BASE\", \"match_trust\": \"BASE_SOURCE\", \"source_locator\": \"data/raw/museum_base_1070.csv#row=949\", \"source_record_id\": \"B0948\", \"source_type\": \"BASE\"}], \"source_locator\": \"data/raw/museum_base_1070.csv#row=949\", \"source_locators\": [\"data/raw/museum_base_1070.csv#row=949\"], \"source_scope\": \"text\", \"source_spans\": [{\"doc_ids\": [\"DOC-B0948-BASE\"], \"end\": 53, \"start\": 0}], \"source_urls\": [], \"text\": \"천연기념물로 지정된 구문소 일원의 자연유산을 활용하여 체험학습과 관광이 함께하는 현장체험 박물관\"}"
+  ],
+  "mode": "supervisor_full",
+  "question_id": "Q284",
+  "evidence": [
+    {
+      "museum_id": "M0490",
+      "name": "국립농업박물관",
+      "document": "국립농업박물관은 우리 농업의 어제와 오늘 그리고 내일을 만날 수 있는 다양한 전시와 실내외 농업 체험장으로 구성되어 있다. 농업의 모든 것을 선보이는 상설 전시와 다양한 측면을 포착한 기획 전시, 농촌의 가치를 체험할 수 있는 어린이박물관이 있다. 도심 속 여유를 만끽할 수 있는 야외 농업 체험장과 식물원, 곤충관은 물론, 직접 느끼며 깨닫는 교육 프로그램까지 다양한 볼거리와 즐길거리가 가득하다. ‘모두가 찾아오고 싶은 생활 문화 공간’을 추구하며 농업 농촌의 가치를 친근하게 전파하고자 한다. 한국 농업의 역사와 미래, 농촌문화와 식문화를 소개하는 국립박물관이다. 농업관과 어린이박물관, 식물원·곤충관·농업체험시설을 통해 농업의 여러 모습을 체험할 수 있다.",
+      "metadata": {
+        "sigungu": "수원시",
+        "adult_fee": 0.0,
+        "name": "국립농업박물관",
+        "ownership_type": "국립",
+        "sido": "경기도",
+        "longitude": 126.9849753448,
+        "image_copyright": "Type1",
+        "latitude": 37.2748838338,
+        "holiday_open": "10:00",
+        "weekday_close": "18:00",
+        "address": "경기도 수원시 권선구 수인로 154",
+        "closure_rule_raw": "매주 월요일, 1월 1일, 설·추석 당일",
+        "weekday_open": "10:00",
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "youth_fee": 0.0,
+        "source_types": "TOUR_API|WEB_RESEARCH",
+        "child_fee": 0.0,
+        "requires_manual_review": true,
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/95/4056595_image2_1.jpg",
+        "holiday_close": "18:00",
+        "homepage_url": "https://www.namuk.or.kr/sites/kr/index.do"
+      },
+      "vector_rank": 1,
+      "bm25_rank": null,
+      "vector_distance": 0.3346492648124695,
+      "vector_score": null,
+      "bm25_score": null,
+      "vector_document": "국립농업박물관은 우리 농업의 어제와 오늘 그리고 내일을 만날 수 있는 다양한 전시와 실내외 농업 체험장으로 구성되어 있다. 농업의 모든 것을 선보이는 상설 전시와 다양한 측면을 포착한 기획 전시, 농촌의 가치를 체험할 수 있는 어린이박물관이 있다. 도심 속 여유를 만끽할 수 있는 야외 농업 체험장과 식물원, 곤충관은 물론, 직접 느끼며 깨닫는 교육 프로그램까지 다양한 볼거리와 즐길거리가 가득하다. ‘모두가 찾아오고 싶은 생활 문화 공간’을 추구하며 농업 농촌의 가치를 친근하게 전파하고자 한다. 한국 농업의 역사와 미래, 농촌문화와 식문화를 소개하는 국립박물관이다. 농업관과 어린이박물관, 식물원·곤충관·농업체험시설을 통해 농업의 여러 모습을 체험할 수 있다.",
+      "bm25_document": "",
+      "best_span_id": null,
+      "best_span_text": null,
+      "fusion_score": 0.01639344262295082,
+      "retrieved_by": [
+        "vector"
+      ],
+      "fusion_rank": 1,
+      "name_match": true,
+      "rerank_score": 0.9864193797111511,
+      "rank": 1,
+      "score": 0.9864193797111511,
+      "score_type": "cross_encoder",
+      "distance": 0.3346492648124695,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector"
+      ],
+      "retriever": "vector",
+      "source_doc_ids": [
+        "DOC-B0490-TOUR_API-2944481",
+        "DOC-WEB-M0490-20261111"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0490-TOUR_API-2944481",
+          "source_type": "TOUR_API",
+          "source_record_id": "2944481",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=242",
+          "match_trust": "RECHECKED_BY_RULE_NOT_HUMAN_APPROVED"
+        },
+        {
+          "doc_id": "DOC-WEB-M0490-20261111",
+          "source_type": "WEB_RESEARCH",
+          "source_record_id": "RESEARCH-M0490",
+          "source_locator": "https://namuk.or.kr/kr/597/subview.do",
+          "source_url": "https://namuk.or.kr/kr/597/subview.do",
+          "match_trust": "WEB_SOURCE_REVIEWED_NOT_HUMAN_APPROVED"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 68,
+          "doc_ids": [
+            "DOC-B0490-TOUR_API-2944481"
+          ]
+        },
+        {
+          "start": 69,
+          "end": 138,
+          "doc_ids": [
+            "DOC-B0490-TOUR_API-2944481"
+          ]
+        },
+        {
+          "start": 139,
+          "end": 223,
+          "doc_ids": [
+            "DOC-B0490-TOUR_API-2944481"
+          ]
+        },
+        {
+          "start": 224,
+          "end": 278,
+          "doc_ids": [
+            "DOC-B0490-TOUR_API-2944481"
+          ]
+        },
+        {
+          "start": 279,
+          "end": 318,
+          "doc_ids": [
+            "DOC-WEB-M0490-20261111"
+          ]
+        },
+        {
+          "start": 319,
+          "end": 371,
+          "doc_ids": [
+            "DOC-WEB-M0490-20261111"
+          ]
+        }
+      ],
+      "source_urls": [
+        "https://namuk.or.kr/kr/597/subview.do"
+      ],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=242",
+      "text": "국립농업박물관은 우리 농업의 어제와 오늘 그리고 내일을 만날 수 있는 다양한 전시와 실내외 농업 체험장으로 구성되어 있다. 농업의 모든 것을 선보이는 상설 전시와 다양한 측면을 포착한 기획 전시, 농촌의 가치를 체험할 수 있는 어린이박물관이 있다. 도심 속 여유를 만끽할 수 있는 야외 농업 체험장과 식물원, 곤충관은 물론, 직접 느끼며 깨닫는 교육 프로그램까지 다양한 볼거리와 즐길거리가 가득하다. ‘모두가 찾아오고 싶은 생활 문화 공간’을 추구하며 농업 농촌의 가치를 친근하게 전파하고자 한다. 한국 농업의 역사와 미래, 농촌문화와 식문화를 소개하는 국립박물관이다. 농업관과 어린이박물관, 식물원·곤충관·농업체험시설을 통해 농업의 여러 모습을 체험할 수 있다.",
+      "sido": "경기도",
+      "sigungu": "수원시",
+      "span_id": "",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=242"
+      ],
+      "evidence_id": "E1",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=353",
+        "fields": {
+          "name": "국립농업박물관",
+          "sido": "경기도",
+          "sigungu": "수원시",
+          "address": "경기도 수원시 권선구 수인로 154",
+          "ownership_type": "국립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "10:00",
+          "weekday_close": "18:00",
+          "holiday_open": "10:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "매주 월요일, 1월 1일, 설·추석 당일"
+        },
+        "base_data_date": "2026-04-08",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0596",
+      "name": "농업역사박물관",
+      "document": "괴산농업역사박물관은 농업문화공간이자 교육의 장으로서 자라나는 아이들에게 생소한 농업의 문화를 접할 수 있는 향토문화 공간으로 조성하기 위해 7,033㎡ 부지에 건립했으며, 농업역사박물관, 농경문화체험관, 야외전시장이 있으며 총 3,179점(전시1,211점, 수장고 1,968점)의 유물을 소장하고 있다.",
+      "metadata": {
+        "sigungu": "괴산군",
+        "weekday_close": "18:00",
+        "latitude": 36.80533588,
+        "youth_fee": 0.0,
+        "longitude": 127.8243563,
+        "closure_rule_raw": "월+1월 1일+설 연휴+추석 연휴",
+        "source_types": "BASE",
+        "name": "농업역사박물관",
+        "weekday_open": "09:00",
+        "adult_fee": 0.0,
+        "child_fee": 0.0,
+        "requires_manual_review": true,
+        "address": "충청북도 괴산군 괴산읍 충민로 검승1길 6",
+        "ownership_type": "공립",
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "homepage_url": "https://www.goesan.go.kr/museum/index.do",
+        "sido": "충청북도",
+        "holiday_close": "18:00",
+        "transport_notes": "자동차:증평IC 에서 약 30분 거리, 괴산IC · 연풍IC에서 약 20분 거리/ 대중교통:서울(동서울터미널) - 괴산시외버스터미널 - 목도 - 검승리 정류장 하차 - 직행버스, 시내버스 운행(약 3시간 30분 소요)/ 청주 - 증평 - 괴산 - 목도 - 검승리 정류장 하차 - 직행버스, 시내버스 운행(약 2시간20분 소요)/ 증평 - 괴산 - 괴산시내버스터미널- 검승리 정류장 하차 - 직행버스, 시내버스 운행(약 1시간 17분 소요)",
+        "holiday_open": "09:00"
+      },
+      "vector_rank": 7,
+      "bm25_rank": null,
+      "vector_distance": 0.517074465751648,
+      "vector_score": null,
+      "bm25_score": null,
+      "vector_document": "괴산농업역사박물관은 농업문화공간이자 교육의 장으로서 자라나는 아이들에게 생소한 농업의 문화를 접할 수 있는 향토문화 공간으로 조성하기 위해 7,033㎡ 부지에 건립했으며, 농업역사박물관, 농경문화체험관, 야외전시장이 있으며 총 3,179점(전시1,211점, 수장고 1,968점)의 유물을 소장하고 있다.",
+      "bm25_document": "",
+      "best_span_id": null,
+      "best_span_text": null,
+      "fusion_score": 0.014925373134328358,
+      "retrieved_by": [
+        "vector"
+      ],
+      "fusion_rank": 13,
+      "rerank_score": 0.01490794587880373,
+      "rank": 2,
+      "score": 0.01490794587880373,
+      "score_type": "cross_encoder",
+      "distance": 0.517074465751648,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector"
+      ],
+      "retriever": "vector",
+      "source_doc_ids": [
+        "DOC-B0596-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0596-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0596",
+          "source_locator": "data/raw/museum_base_1070.csv#row=597",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 169,
+          "doc_ids": [
+            "DOC-B0596-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_base_1070.csv#row=597",
+      "text": "괴산농업역사박물관은 농업문화공간이자 교육의 장으로서 자라나는 아이들에게 생소한 농업의 문화를 접할 수 있는 향토문화 공간으로 조성하기 위해 7,033㎡ 부지에 건립했으며, 농업역사박물관, 농경문화체험관, 야외전시장이 있으며 총 3,179점(전시1,211점, 수장고 1,968점)의 유물을 소장하고 있다.",
+      "sido": "충청북도",
+      "sigungu": "괴산군",
+      "span_id": "",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_base_1070.csv#row=597"
+      ],
+      "evidence_id": "E2",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=416",
+        "fields": {
+          "name": "농업역사박물관",
+          "sido": "충청북도",
+          "sigungu": "괴산군",
+          "address": "충청북도 괴산군 괴산읍 충민로 검승1길 6",
+          "ownership_type": "공립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "09:00",
+          "weekday_close": "18:00",
+          "holiday_open": "09:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "월+1월 1일+설 연휴+추석 연휴"
+        },
+        "base_data_date": "2025-12-22",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0837",
+      "name": "지질자원연구원 지질박물관",
+      "document": "- 한국지질자원연구원 지질박물관은 현재의 지구를 쉽게 이해할 수 있도록 암석, 광물, 화석 등 다양한 지질표본을 수집, 연구, 전시하고 있습니다. - 또한 체험관과 체험 교육프로그램을 운영하고 있으며, 상설전시를 보완하기 위해 2년마다 특별 기획전을 개최하고 있다. 광물, 암석, 화석과 같은 지질표본의 전시, 영상물의 상영, 강연회 또는 체험학습의 장을 마련함으로써 지질과학의 대중화에 기여하고 있다.",
+      "metadata": {
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "longitude": 127.3573584,
+        "youth_fee": 0.0,
+        "weekday_open": "10:00",
+        "adult_fee": 0.0,
+        "weekday_close": "17:00",
+        "requires_manual_review": true,
+        "name": "지질자원연구원 지질박물관",
+        "latitude": 36.38105757,
+        "transport_notes": "- 버스 : 604 / 311→604 / 606 / 705→604 / 급행2 → 604",
+        "sigungu": "유성구",
+        "amenities_raw": "NAME?",
+        "homepage_url": "http://museum.kigam.re.kr/",
+        "closure_rule_raw": "매주 월요일, 법정 공휴일 다음날, 1월 1일, 설날과 추석연휴, 근로자의 날, 창립기념일(5월 10일), 임시공휴일",
+        "address": "대전광역시 유성구 과학로 124",
+        "child_fee": 0.0,
+        "holiday_open": "10:00",
+        "fee_notes": "무료",
+        "ownership_type": "사립",
+        "source_types": "BASE",
+        "holiday_close": "17:00",
+        "sido": "대전광역시"
+      },
+      "vector_rank": null,
+      "bm25_rank": 10,
+      "vector_distance": null,
+      "vector_score": null,
+      "bm25_score": 9.00056905951899,
+      "vector_document": "",
+      "bm25_document": "- 한국지질자원연구원 지질박물관은 현재의 지구를 쉽게 이해할 수 있도록 암석, 광물, 화석 등 다양한 지질표본을 수집, 연구, 전시하고 있습니다. - 또한 체험관과 체험 교육프로그램을 운영하고 있으며, 상설전시를 보완하기 위해 2년마다 특별 기획전을 개최하고 있다. 광물, 암석, 화석과 같은 지질표본의 전시, 영상물의 상영, 강연회 또는 체험학습의 장을 마련함으로써 지질과학의 대중화에 기여하고 있다.",
+      "best_span_id": "chroma:M0837",
+      "best_span_text": "- 한국지질자원연구원 지질박물관은 현재의 지구를 쉽게 이해할 수 있도록 암석, 광물, 화석 등 다양한 지질표본을 수집, 연구, 전시하고 있습니다. - 또한 체험관과 체험 교육프로그램을 운영하고 있으며, 상설전시를 보완하기 위해 2년마다 특별 기획전을 개최하고 있다. 광물, 암석, 화석과 같은 지질표본의 전시, 영상물의 상영, 강연회 또는 체험학습의 장을 마련함으로써 지질과학의 대중화에 기여하고 있다.",
+      "fusion_score": 0.014285714285714285,
+      "retrieved_by": [
+        "bm25"
+      ],
+      "fusion_rank": 20,
+      "rerank_score": 0.00920396763831377,
+      "rank": 3,
+      "score": 0.00920396763831377,
+      "score_type": "cross_encoder",
+      "distance": null,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "bm25"
+      ],
+      "retriever": "bm25",
+      "span_id": "chroma:M0837",
+      "source_doc_ids": [
+        "DOC-B0837-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0837-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0837",
+          "source_locator": "data/raw/museum_base_1070.csv#row=838",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 81,
+          "doc_ids": [
+            "DOC-B0837-BASE"
+          ]
+        },
+        {
+          "start": 82,
+          "end": 148,
+          "doc_ids": [
+            "DOC-B0837-BASE"
+          ]
+        },
+        {
+          "start": 149,
+          "end": 225,
+          "doc_ids": [
+            "DOC-B0837-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_base_1070.csv#row=838",
+      "text": "- 한국지질자원연구원 지질박물관은 현재의 지구를 쉽게 이해할 수 있도록 암석, 광물, 화석 등 다양한 지질표본을 수집, 연구, 전시하고 있습니다. - 또한 체험관과 체험 교육프로그램을 운영하고 있으며, 상설전시를 보완하기 위해 2년마다 특별 기획전을 개최하고 있다. 광물, 암석, 화석과 같은 지질표본의 전시, 영상물의 상영, 강연회 또는 체험학습의 장을 마련함으로써 지질과학의 대중화에 기여하고 있다.",
+      "sido": "대전광역시",
+      "sigungu": "유성구",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_base_1070.csv#row=838"
+      ],
+      "evidence_id": "E3",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=571",
+        "fields": {
+          "name": "지질자원연구원 지질박물관",
+          "sido": "대전광역시",
+          "sigungu": "유성구",
+          "address": "대전광역시 유성구 과학로 124",
+          "ownership_type": "사립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "10:00",
+          "weekday_close": "17:00",
+          "holiday_open": "10:00",
+          "holiday_close": "17:00",
+          "closure_rule_raw": "매주 월요일, 법정 공휴일 다음날, 1월 1일, 설날과 추석연휴, 근로자의 날, 창립기념일(5월 10일), 임시공휴일",
+          "amenities_raw": "NAME?"
+        },
+        "base_data_date": "2020-12-15",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0581",
+      "name": "세종시립민속박물관",
+      "document": "세종시립민속박물관은 폐교된 금사초등학교를 활용해 2012년에 개관한 민속 전문 박물관이다. 상설전시실과 기획전시실에서 다양한 민속유물을 전시하고 있으며, 생활 속 전통문화를 이해할 수 있는 교육의 장이다. 전통모자 써보기, 칠교놀이, 투호 던지기 등 다양한 전통놀이를 체험할 수 있는 체험학습실도 마련되어 있다. 박물관에는 유물을 보관·연구하는 수장고와 문화유산을 연구하는 학예연구실, 야외 민속품을 관람할 수 있는 전시장도 갖추고 있다. 전시와 체험을 결합한 복합 문화공간으로 지역 주민과 가족 단위 관람객에게 인기를 끌고 있다.",
+      "metadata": {
+        "requires_manual_review": true,
+        "youth_fee": 0.0,
+        "holiday_open": "09:00",
+        "weekday_close": "18:00",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/41/4070341_image2_1.jpg",
+        "weekday_open": "09:00",
+        "closure_rule_raw": "월요일 휴무+1월1일+설날및 추석명절당일",
+        "adult_fee": 0.0,
+        "source_types": "TOUR_API",
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "address": "세종특별시 전의면 금사길75",
+        "child_fee": 0.0,
+        "latitude": 36.608783,
+        "sido": "세종특별시",
+        "ownership_type": "공립",
+        "holiday_close": "18:00",
+        "name": "세종시립민속박물관",
+        "sigungu": "전의면",
+        "homepage_url": "https://www.sejong.go.kr/museum.do",
+        "image_copyright": "Type1",
+        "longitude": 127.170321
+      },
+      "vector_rank": null,
+      "bm25_rank": 7,
+      "vector_distance": null,
+      "vector_score": null,
+      "bm25_score": 9.371892873158862,
+      "vector_document": "",
+      "bm25_document": "세종시립민속박물관은 폐교된 금사초등학교를 활용해 2012년에 개관한 민속 전문 박물관이다. 상설전시실과 기획전시실에서 다양한 민속유물을 전시하고 있으며, 생활 속 전통문화를 이해할 수 있는 교육의 장이다. 전통모자 써보기, 칠교놀이, 투호 던지기 등 다양한 전통놀이를 체험할 수 있는 체험학습실도 마련되어 있다. 박물관에는 유물을 보관·연구하는 수장고와 문화유산을 연구하는 학예연구실, 야외 민속품을 관람할 수 있는 전시장도 갖추고 있다. 전시와 체험을 결합한 복합 문화공간으로 지역 주민과 가족 단위 관람객에게 인기를 끌고 있다.",
+      "best_span_id": "chroma:M0581",
+      "best_span_text": "세종시립민속박물관은 폐교된 금사초등학교를 활용해 2012년에 개관한 민속 전문 박물관이다. 상설전시실과 기획전시실에서 다양한 민속유물을 전시하고 있으며, 생활 속 전통문화를 이해할 수 있는 교육의 장이다. 전통모자 써보기, 칠교놀이, 투호 던지기 등 다양한 전통놀이를 체험할 수 있는 체험학습실도 마련되어 있다. 박물관에는 유물을 보관·연구하는 수장고와 문화유산을 연구하는 학예연구실, 야외 민속품을 관람할 수 있는 전시장도 갖추고 있다. 전시와 체험을 결합한 복합 문화공간으로 지역 주민과 가족 단위 관람객에게 인기를 끌고 있다.",
+      "fusion_score": 0.014925373134328358,
+      "retrieved_by": [
+        "bm25"
+      ],
+      "fusion_rank": 14,
+      "rerank_score": 0.007015003357082605,
+      "rank": 4,
+      "score": 0.007015003357082605,
+      "score_type": "cross_encoder",
+      "distance": null,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "bm25"
+      ],
+      "retriever": "bm25",
+      "span_id": "chroma:M0581",
+      "source_doc_ids": [
+        "DOC-B0581-TOUR_API-1951646"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0581-TOUR_API-1951646",
+          "source_type": "TOUR_API",
+          "source_record_id": "1951646",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=287",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 50,
+          "doc_ids": [
+            "DOC-B0581-TOUR_API-1951646"
+          ]
+        },
+        {
+          "start": 51,
+          "end": 114,
+          "doc_ids": [
+            "DOC-B0581-TOUR_API-1951646"
+          ]
+        },
+        {
+          "start": 115,
+          "end": 174,
+          "doc_ids": [
+            "DOC-B0581-TOUR_API-1951646"
+          ]
+        },
+        {
+          "start": 175,
+          "end": 245,
+          "doc_ids": [
+            "DOC-B0581-TOUR_API-1951646"
+          ]
+        },
+        {
+          "start": 246,
+          "end": 297,
+          "doc_ids": [
+            "DOC-B0581-TOUR_API-1951646"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=287",
+      "text": "세종시립민속박물관은 폐교된 금사초등학교를 활용해 2012년에 개관한 민속 전문 박물관이다. 상설전시실과 기획전시실에서 다양한 민속유물을 전시하고 있으며, 생활 속 전통문화를 이해할 수 있는 교육의 장이다. 전통모자 써보기, 칠교놀이, 투호 던지기 등 다양한 전통놀이를 체험할 수 있는 체험학습실도 마련되어 있다. 박물관에는 유물을 보관·연구하는 수장고와 문화유산을 연구하는 학예연구실, 야외 민속품을 관람할 수 있는 전시장도 갖추고 있다. 전시와 체험을 결합한 복합 문화공간으로 지역 주민과 가족 단위 관람객에게 인기를 끌고 있다.",
+      "sido": "세종특별시",
+      "sigungu": "전의면",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=287"
+      ],
+      "evidence_id": "E4",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=402",
+        "fields": {
+          "name": "세종시립민속박물관",
+          "sido": "세종특별시",
+          "sigungu": "전의면",
+          "address": "세종특별시 전의면 금사길75",
+          "ownership_type": "공립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "09:00",
+          "weekday_close": "18:00",
+          "holiday_open": "09:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "월요일 휴무+1월1일+설날및 추석명절당일"
+        },
+        "base_data_date": "2026-01-05",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0948",
+      "name": "태백고생대자연사박물관",
+      "document": "천연기념물로 지정된 구문소 일원의 자연유산을 활용하여 체험학습과 관광이 함께하는 현장체험 박물관",
+      "metadata": {
+        "sigungu": "태백시",
+        "longitude": 129.0396125,
+        "child_fee": 1000.0,
+        "holiday_close": "18:00",
+        "closure_rule_raw": "월",
+        "youth_fee": 1500.0,
+        "homepage_url": "https://tour.taebaek.go.kr/tpmuseum",
+        "source_types": "BASE",
+        "holiday_open": "09:00",
+        "address": "강원특별자치도 태백시 태백로 2249",
+        "sido": "강원특별자치도",
+        "name": "태백고생대자연사박물관",
+        "adult_fee": 2000.0,
+        "requires_manual_review": false,
+        "latitude": 37.0948919,
+        "transport_notes": "호법IC-영동고속(남원주IC)-중앙고속(제천IC)-영월-사북-고한-태백",
+        "ownership_type": "공립",
+        "weekday_close": "18:00",
+        "adult_fee_status": "BASE_FEE_PAID",
+        "fee_notes": "지역주민할인, 노인/영유아/폐광지역주민/장애인/국가유공자 무료",
+        "weekday_open": "09:00",
+        "amenities_raw": "영상실 휴게실"
+      },
+      "vector_rank": 8,
+      "bm25_rank": null,
+      "vector_distance": 0.5206785202026367,
+      "vector_score": null,
+      "bm25_score": null,
+      "vector_document": "천연기념물로 지정된 구문소 일원의 자연유산을 활용하여 체험학습과 관광이 함께하는 현장체험 박물관",
+      "bm25_document": "",
+      "best_span_id": null,
+      "best_span_text": null,
+      "fusion_score": 0.014705882352941176,
+      "retrieved_by": [
+        "vector"
+      ],
+      "fusion_rank": 15,
+      "rerank_score": 0.005750467535108328,
+      "rank": 5,
+      "score": 0.005750467535108328,
+      "score_type": "cross_encoder",
+      "distance": 0.5206785202026367,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector"
+      ],
+      "retriever": "vector",
+      "source_doc_ids": [
+        "DOC-B0948-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0948-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0948",
+          "source_locator": "data/raw/museum_base_1070.csv#row=949",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 53,
+          "doc_ids": [
+            "DOC-B0948-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_base_1070.csv#row=949",
+      "text": "천연기념물로 지정된 구문소 일원의 자연유산을 활용하여 체험학습과 관광이 함께하는 현장체험 박물관",
+      "sido": "강원특별자치도",
+      "sigungu": "태백시",
+      "span_id": "",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_base_1070.csv#row=949"
+      ],
+      "evidence_id": "E5",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=653",
+        "fields": {
+          "name": "태백고생대자연사박물관",
+          "sido": "강원특별자치도",
+          "sigungu": "태백시",
+          "address": "강원특별자치도 태백시 태백로 2249",
+          "ownership_type": "공립",
+          "adult_fee": "2000",
+          "youth_fee": "1500",
+          "child_fee": "1000",
+          "adult_fee_status": "BASE_FEE_PAID",
+          "weekday_open": "09:00",
+          "weekday_close": "18:00",
+          "holiday_open": "09:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "월",
+          "amenities_raw": "영상실 휴게실"
+        },
+        "base_data_date": "2024-08-13",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    }
+  ],
+  "answer": "국립농업박물관에는 농촌의 가치를 체험할 수 있는 어린이박물관과 야외 농업 체험장, 식물원·곤충관이 있습니다. 농업의 여러 모습을 체험할 수 있는 농업체험시설도 갖추고 있으며, 직접 느끼고 깨달을 수 있는 교육 프로그램을 운영합니다. [E1]",
+  "retrieval_status": "ok",
+  "answer_status": "answered",
+  "route": "hybrid",
+  "retry_count": 0,
+  "supervisor_verified": true,
+  "rerank_applied": true,
+  "retriever_errors": [],
+  "warnings": [],
+  "duration_ms": 83727.38,
+  "error_type": "",
+  "hit_at_1": 1,
+  "hit_at_3": 1,
+  "hit_at_5": 1,
+  "recall_at_5": 1.0,
+  "mrr_at_10": 1.0
+}

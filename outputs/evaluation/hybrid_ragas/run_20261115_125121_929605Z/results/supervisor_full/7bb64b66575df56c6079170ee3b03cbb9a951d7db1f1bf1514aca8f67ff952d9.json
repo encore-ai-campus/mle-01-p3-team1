@@ -1,0 +1,806 @@
+{
+  "mode": "supervisor_full",
+  "question_id": "Q253",
+  "evidence": [
+    {
+      "museum_id": "M0437",
+      "name": "보령석탄박물관",
+      "document": "보령석탄박물관은 보령시 동부 성주산(676.7m) 남쪽, 옥마산(599m) 동쪽 자락에 있는 박물관이다. 1970~80년대 우리나라 산업 발전의 원동력은 석탄이었으며 보령 지역에서도 석탄이 활발히 채굴되었었다. 이 박물관은 이러한 보령 지역의 역사를 기리기 위해 만든 박물관으로 석탄의 기원부터 석탄 산업의 역사, 광부들의 생활까지 차근차근 살펴볼 수 있고, 복원된 갱도에 들어가 볼 수 있다. 야외전시장에는 탄광에서 희생된 사람들을 추모하는 희생자 위령탑이 세워져 있다. 보령석탄박물관은 국도 40호선을 통해 방문할 수 있으며, 서해안고속도로 대천 IC, 무창포 IC와 서천공주고속도로 서부여 IC가 가깝다. 주변에는 옥마산 외에 성주산자연휴양림, 보령무궁화수목원, 개화예술공원, 보령시청소년수련관, 보령 성주사지 등이 있다. 보령석탄박물관은 대한민국 1호 석탄박물관으로서, 사라진 석탄산업의 재조명을 위해 1995년 건립되었다. 광산장비 광물 등 약 4500여점의 유물이 소장되어 있다.",
+      "metadata": {
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/71/4115471_image2_1.jpg",
+        "sido": "충청남도",
+        "transport_notes": "대천역(버스) → 성주방면 자가용 15분내외 거리",
+        "image_copyright": "Type1",
+        "latitude": 36.32612387,
+        "child_fee": 1000.0,
+        "fee_notes": "지역주민 50 할인",
+        "weekday_open": "09:00",
+        "adult_fee": 2000.0,
+        "youth_fee": 1500.0,
+        "adult_fee_status": "BASE_FEE_PAID",
+        "homepage_url": "https://www.brsisul.or.kr/kor/sub01_02_01.do",
+        "weekday_close": "18:00",
+        "holiday_close": "18:00",
+        "holiday_open": "09:00",
+        "source_types": "BASE|TOUR_API",
+        "name": "보령석탄박물관",
+        "longitude": 126.6527142,
+        "address": "충청남도 보령시 성주면 성주산로 508",
+        "closure_rule_raw": "월",
+        "requires_manual_review": true,
+        "sigungu": "보령시",
+        "ownership_type": "공립"
+      },
+      "vector_rank": 1,
+      "bm25_rank": 1,
+      "vector_distance": 0.4736981987953186,
+      "vector_score": null,
+      "bm25_score": 51.98298321971995,
+      "vector_document": "보령석탄박물관은 보령시 동부 성주산(676.7m) 남쪽, 옥마산(599m) 동쪽 자락에 있는 박물관이다. 1970~80년대 우리나라 산업 발전의 원동력은 석탄이었으며 보령 지역에서도 석탄이 활발히 채굴되었었다. 이 박물관은 이러한 보령 지역의 역사를 기리기 위해 만든 박물관으로 석탄의 기원부터 석탄 산업의 역사, 광부들의 생활까지 차근차근 살펴볼 수 있고, 복원된 갱도에 들어가 볼 수 있다. 야외전시장에는 탄광에서 희생된 사람들을 추모하는 희생자 위령탑이 세워져 있다. 보령석탄박물관은 국도 40호선을 통해 방문할 수 있으며, 서해안고속도로 대천 IC, 무창포 IC와 서천공주고속도로 서부여 IC가 가깝다. 주변에는 옥마산 외에 성주산자연휴양림, 보령무궁화수목원, 개화예술공원, 보령시청소년수련관, 보령 성주사지 등이 있다. 보령석탄박물관은 대한민국 1호 석탄박물관으로서, 사라진 석탄산업의 재조명을 위해 1995년 건립되었다. 광산장비 광물 등 약 4500여점의 유물이 소장되어 있다.",
+      "bm25_document": "보령석탄박물관은 보령시 동부 성주산(676.7m) 남쪽, 옥마산(599m) 동쪽 자락에 있는 박물관이다. 1970~80년대 우리나라 산업 발전의 원동력은 석탄이었으며 보령 지역에서도 석탄이 활발히 채굴되었었다. 이 박물관은 이러한 보령 지역의 역사를 기리기 위해 만든 박물관으로 석탄의 기원부터 석탄 산업의 역사, 광부들의 생활까지 차근차근 살펴볼 수 있고, 복원된 갱도에 들어가 볼 수 있다. 야외전시장에는 탄광에서 희생된 사람들을 추모하는 희생자 위령탑이 세워져 있다. 보령석탄박물관은 국도 40호선을 통해 방문할 수 있으며, 서해안고속도로 대천 IC, 무창포 IC와 서천공주고속도로 서부여 IC가 가깝다. 주변에는 옥마산 외에 성주산자연휴양림, 보령무궁화수목원, 개화예술공원, 보령시청소년수련관, 보령 성주사지 등이 있다. 보령석탄박물관은 대한민국 1호 석탄박물관으로서, 사라진 석탄산업의 재조명을 위해 1995년 건립되었다. 광산장비 광물 등 약 4500여점의 유물이 소장되어 있다.",
+      "best_span_id": "chroma:M0437",
+      "best_span_text": "보령석탄박물관은 보령시 동부 성주산(676.7m) 남쪽, 옥마산(599m) 동쪽 자락에 있는 박물관이다. 1970~80년대 우리나라 산업 발전의 원동력은 석탄이었으며 보령 지역에서도 석탄이 활발히 채굴되었었다. 이 박물관은 이러한 보령 지역의 역사를 기리기 위해 만든 박물관으로 석탄의 기원부터 석탄 산업의 역사, 광부들의 생활까지 차근차근 살펴볼 수 있고, 복원된 갱도에 들어가 볼 수 있다. 야외전시장에는 탄광에서 희생된 사람들을 추모하는 희생자 위령탑이 세워져 있다. 보령석탄박물관은 국도 40호선을 통해 방문할 수 있으며, 서해안고속도로 대천 IC, 무창포 IC와 서천공주고속도로 서부여 IC가 가깝다. 주변에는 옥마산 외에 성주산자연휴양림, 보령무궁화수목원, 개화예술공원, 보령시청소년수련관, 보령 성주사지 등이 있다. 보령석탄박물관은 대한민국 1호 석탄박물관으로서, 사라진 석탄산업의 재조명을 위해 1995년 건립되었다. 광산장비 광물 등 약 4500여점의 유물이 소장되어 있다.",
+      "fusion_score": 0.03278688524590164,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 1,
+      "name_match": true,
+      "rerank_score": 0.999933123588562,
+      "rank": 1,
+      "score": 0.999933123588562,
+      "score_type": "cross_encoder",
+      "distance": 0.4736981987953186,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0437",
+      "source_doc_ids": [
+        "DOC-B0437-TOUR_API-2470406",
+        "DOC-B0437-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0437-TOUR_API-2470406",
+          "source_type": "TOUR_API",
+          "source_record_id": "2470406",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=209",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        },
+        {
+          "doc_id": "DOC-B0437-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0437",
+          "source_locator": "data/raw/museum_base_1070.csv#row=438",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 58,
+          "doc_ids": [
+            "DOC-B0437-TOUR_API-2470406"
+          ]
+        },
+        {
+          "start": 59,
+          "end": 117,
+          "doc_ids": [
+            "DOC-B0437-TOUR_API-2470406"
+          ]
+        },
+        {
+          "start": 118,
+          "end": 220,
+          "doc_ids": [
+            "DOC-B0437-TOUR_API-2470406"
+          ]
+        },
+        {
+          "start": 221,
+          "end": 264,
+          "doc_ids": [
+            "DOC-B0437-TOUR_API-2470406"
+          ]
+        },
+        {
+          "start": 265,
+          "end": 341,
+          "doc_ids": [
+            "DOC-B0437-TOUR_API-2470406"
+          ]
+        },
+        {
+          "start": 342,
+          "end": 407,
+          "doc_ids": [
+            "DOC-B0437-TOUR_API-2470406"
+          ]
+        },
+        {
+          "start": 408,
+          "end": 465,
+          "doc_ids": [
+            "DOC-B0437-BASE"
+          ]
+        },
+        {
+          "start": 466,
+          "end": 498,
+          "doc_ids": [
+            "DOC-B0437-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=209",
+      "text": "보령석탄박물관은 보령시 동부 성주산(676.7m) 남쪽, 옥마산(599m) 동쪽 자락에 있는 박물관이다. 1970~80년대 우리나라 산업 발전의 원동력은 석탄이었으며 보령 지역에서도 석탄이 활발히 채굴되었었다. 이 박물관은 이러한 보령 지역의 역사를 기리기 위해 만든 박물관으로 석탄의 기원부터 석탄 산업의 역사, 광부들의 생활까지 차근차근 살펴볼 수 있고, 복원된 갱도에 들어가 볼 수 있다. 야외전시장에는 탄광에서 희생된 사람들을 추모하는 희생자 위령탑이 세워져 있다. 보령석탄박물관은 국도 40호선을 통해 방문할 수 있으며, 서해안고속도로 대천 IC, 무창포 IC와 서천공주고속도로 서부여 IC가 가깝다. 주변에는 옥마산 외에 성주산자연휴양림, 보령무궁화수목원, 개화예술공원, 보령시청소년수련관, 보령 성주사지 등이 있다. 보령석탄박물관은 대한민국 1호 석탄박물관으로서, 사라진 석탄산업의 재조명을 위해 1995년 건립되었다. 광산장비 광물 등 약 4500여점의 유물이 소장되어 있다.",
+      "sido": "충청남도",
+      "sigungu": "보령시",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=209"
+      ],
+      "evidence_id": "E1",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=311",
+        "fields": {
+          "name": "보령석탄박물관",
+          "sido": "충청남도",
+          "sigungu": "보령시",
+          "address": "충청남도 보령시 성주면 성주산로 508",
+          "ownership_type": "공립",
+          "adult_fee": "2000",
+          "youth_fee": "1500",
+          "child_fee": "1000",
+          "adult_fee_status": "BASE_FEE_PAID",
+          "weekday_open": "09:00",
+          "weekday_close": "18:00",
+          "holiday_open": "09:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "월"
+        },
+        "base_data_date": "2026-04-03",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0222",
+      "name": "강원특별자치도탄광문화촌",
+      "document": "우리나라의 대표 에너지원이었던 석탄을 중심으로 살아온 영월사람들의 삶을 재현하는 리얼리티 문화체험 공간입니다.",
+      "metadata": {
+        "youth_fee": 1400.0,
+        "weekday_close": "18:00",
+        "source_types": "BASE",
+        "adult_fee": 2000.0,
+        "adult_fee_status": "BASE_FEE_PAID",
+        "latitude": 37.2631059,
+        "address": "강원특별자치도 영월군 북면 밤재로 351",
+        "weekday_open": "10:00",
+        "homepage_url": "http://www.ywmuseum.com",
+        "fee_notes": "영월군민 : 50 프로 할인+단체요금 : 20인 이상",
+        "requires_manual_review": false,
+        "closure_rule_raw": "월",
+        "sido": "강원특별자치도",
+        "longitude": 128.4669049,
+        "sigungu": "영월군",
+        "ownership_type": "공립",
+        "holiday_close": "18:00",
+        "child_fee": 1000.0,
+        "name": "강원특별자치도탄광문화촌",
+        "holiday_open": "10:00"
+      },
+      "vector_rank": 3,
+      "bm25_rank": 4,
+      "vector_distance": 0.5624511241912842,
+      "vector_score": null,
+      "bm25_score": 17.60194235937129,
+      "vector_document": "우리나라의 대표 에너지원이었던 석탄을 중심으로 살아온 영월사람들의 삶을 재현하는 리얼리티 문화체험 공간입니다.",
+      "bm25_document": "우리나라의 대표 에너지원이었던 석탄을 중심으로 살아온 영월사람들의 삶을 재현하는 리얼리티 문화체험 공간입니다.",
+      "best_span_id": "chroma:M0222",
+      "best_span_text": "우리나라의 대표 에너지원이었던 석탄을 중심으로 살아온 영월사람들의 삶을 재현하는 리얼리티 문화체험 공간입니다.",
+      "fusion_score": 0.03149801587301587,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 3,
+      "rerank_score": 0.5480894446372986,
+      "rank": 2,
+      "score": 0.5480894446372986,
+      "score_type": "cross_encoder",
+      "distance": 0.5624511241912842,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0222",
+      "source_doc_ids": [
+        "DOC-B0222-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0222-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0222",
+          "source_locator": "data/raw/museum_base_1070.csv#row=223",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 61,
+          "doc_ids": [
+            "DOC-B0222-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_base_1070.csv#row=223",
+      "text": "우리나라의 대표 에너지원이었던 석탄을 중심으로 살아온 영월사람들의 삶을 재현하는 리얼리티 문화체험 공간입니다.",
+      "sido": "강원특별자치도",
+      "sigungu": "영월군",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_base_1070.csv#row=223"
+      ],
+      "evidence_id": "E2",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=151",
+        "fields": {
+          "name": "강원특별자치도탄광문화촌",
+          "sido": "강원특별자치도",
+          "sigungu": "영월군",
+          "address": "강원특별자치도 영월군 북면 밤재로 351",
+          "ownership_type": "공립",
+          "adult_fee": "2000",
+          "youth_fee": "1400",
+          "child_fee": "1000",
+          "adult_fee_status": "BASE_FEE_PAID",
+          "weekday_open": "10:00",
+          "weekday_close": "18:00",
+          "holiday_open": "10:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "월"
+        },
+        "base_data_date": "2026-09-03",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0947",
+      "name": "태백석탄박물관",
+      "document": "태백석탄박물관은 한국 석탄산업의 변천사와 석탄생성의 과정을 한눈에 이해할 수 있는 동양 최대의 석탄전문 박물관이다. 우리나라 근대화의 역군이었던 광산 근로자들의 업적을 되새기고 석탄산업의 역사성을 재조명하고 후세들에게 열악한 작업환경 속에서도 산업역군으로서 석탄생산에 종사한 광산근로자들의 업적을 알리기 위해 설립되었다. 이곳은 국가 산업발전사에서 중요한 역할을 수행한 태백시 석탄산업의 모든 것을 알 수 있다. 국가기간산업의 원동력이 되었던 석탄의 역할과 그 역사적 사실들을 한 곳에 모아 체계적으로 전시",
+      "metadata": {
+        "closure_rule_raw": "월",
+        "amenities_raw": "영상실 휴게실",
+        "ownership_type": "공립",
+        "latitude": 37.1185773888,
+        "weekday_close": "18:00",
+        "weekday_open": "09:00",
+        "adult_fee_status": "BASE_FEE_PAID",
+        "sido": "강원특별자치도",
+        "address": "강원특별자치도 태백시 천제단길 195",
+        "holiday_close": "18:00",
+        "homepage_url": "https://www.taebaek.go.kr/coalmuseum/index.do",
+        "source_types": "BASE|TOUR_API",
+        "sigungu": "태백시",
+        "longitude": 128.9505642,
+        "image_copyright": "Type1",
+        "holiday_open": "09:00",
+        "fee_notes": "노인 및 영유아 폐광지역주민 장애인 국가유공자 무료",
+        "transport_notes": "호법IC-영동고속(남원주IC)-중앙고속(제천IC)-영월-사북-고한-태백",
+        "requires_manual_review": true,
+        "name": "태백석탄박물관",
+        "adult_fee": 2000.0,
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/67/3514067_image2_1.jpg",
+        "youth_fee": 1500.0,
+        "child_fee": 1000.0
+      },
+      "vector_rank": 2,
+      "bm25_rank": 2,
+      "vector_distance": 0.5310964584350586,
+      "vector_score": null,
+      "bm25_score": 28.296057632763826,
+      "vector_document": "태백석탄박물관은 한국 석탄산업의 변천사와 석탄생성의 과정을 한눈에 이해할 수 있는 동양 최대의 석탄전문 박물관이다. 우리나라 근대화의 역군이었던 광산 근로자들의 업적을 되새기고 석탄산업의 역사성을 재조명하고 후세들에게 열악한 작업환경 속에서도 산업역군으로서 석탄생산에 종사한 광산근로자들의 업적을 알리기 위해 설립되었다. 이곳은 국가 산업발전사에서 중요한 역할을 수행한 태백시 석탄산업의 모든 것을 알 수 있다. 국가기간산업의 원동력이 되었던 석탄의 역할과 그 역사적 사실들을 한 곳에 모아 체계적으로 전시",
+      "bm25_document": "태백석탄박물관은 한국 석탄산업의 변천사와 석탄생성의 과정을 한눈에 이해할 수 있는 동양 최대의 석탄전문 박물관이다. 우리나라 근대화의 역군이었던 광산 근로자들의 업적을 되새기고 석탄산업의 역사성을 재조명하고 후세들에게 열악한 작업환경 속에서도 산업역군으로서 석탄생산에 종사한 광산근로자들의 업적을 알리기 위해 설립되었다. 이곳은 국가 산업발전사에서 중요한 역할을 수행한 태백시 석탄산업의 모든 것을 알 수 있다. 국가기간산업의 원동력이 되었던 석탄의 역할과 그 역사적 사실들을 한 곳에 모아 체계적으로 전시",
+      "best_span_id": "chroma:M0947",
+      "best_span_text": "태백석탄박물관은 한국 석탄산업의 변천사와 석탄생성의 과정을 한눈에 이해할 수 있는 동양 최대의 석탄전문 박물관이다. 우리나라 근대화의 역군이었던 광산 근로자들의 업적을 되새기고 석탄산업의 역사성을 재조명하고 후세들에게 열악한 작업환경 속에서도 산업역군으로서 석탄생산에 종사한 광산근로자들의 업적을 알리기 위해 설립되었다. 이곳은 국가 산업발전사에서 중요한 역할을 수행한 태백시 석탄산업의 모든 것을 알 수 있다. 국가기간산업의 원동력이 되었던 석탄의 역할과 그 역사적 사실들을 한 곳에 모아 체계적으로 전시",
+      "fusion_score": 0.03225806451612903,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 2,
+      "rerank_score": 0.0998925045132637,
+      "rank": 3,
+      "score": 0.0998925045132637,
+      "score_type": "cross_encoder",
+      "distance": 0.5310964584350586,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0947",
+      "source_doc_ids": [
+        "DOC-B0947-TOUR_API-2610078",
+        "DOC-B0947-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0947-TOUR_API-2610078",
+          "source_type": "TOUR_API",
+          "source_record_id": "2610078",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=442",
+          "match_trust": "RECHECKED_BY_RULE_NOT_HUMAN_APPROVED"
+        },
+        {
+          "doc_id": "DOC-B0947-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0947",
+          "source_locator": "data/raw/museum_base_1070.csv#row=948",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 64,
+          "doc_ids": [
+            "DOC-B0947-TOUR_API-2610078"
+          ]
+        },
+        {
+          "start": 65,
+          "end": 179,
+          "doc_ids": [
+            "DOC-B0947-TOUR_API-2610078"
+          ]
+        },
+        {
+          "start": 180,
+          "end": 230,
+          "doc_ids": [
+            "DOC-B0947-TOUR_API-2610078"
+          ]
+        },
+        {
+          "start": 231,
+          "end": 283,
+          "doc_ids": [
+            "DOC-B0947-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=442",
+      "text": "태백석탄박물관은 한국 석탄산업의 변천사와 석탄생성의 과정을 한눈에 이해할 수 있는 동양 최대의 석탄전문 박물관이다. 우리나라 근대화의 역군이었던 광산 근로자들의 업적을 되새기고 석탄산업의 역사성을 재조명하고 후세들에게 열악한 작업환경 속에서도 산업역군으로서 석탄생산에 종사한 광산근로자들의 업적을 알리기 위해 설립되었다. 이곳은 국가 산업발전사에서 중요한 역할을 수행한 태백시 석탄산업의 모든 것을 알 수 있다. 국가기간산업의 원동력이 되었던 석탄의 역할과 그 역사적 사실들을 한 곳에 모아 체계적으로 전시",
+      "sido": "강원특별자치도",
+      "sigungu": "태백시",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=442"
+      ],
+      "evidence_id": "E3",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=652",
+        "fields": {
+          "name": "태백석탄박물관",
+          "sido": "강원특별자치도",
+          "sigungu": "태백시",
+          "address": "강원특별자치도 태백시 천제단길 195",
+          "ownership_type": "공립",
+          "adult_fee": "2000",
+          "youth_fee": "1500",
+          "child_fee": "1000",
+          "adult_fee_status": "BASE_FEE_PAID",
+          "weekday_open": "09:00",
+          "weekday_close": "18:00",
+          "holiday_open": "09:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "월",
+          "amenities_raw": "영상실 휴게실"
+        },
+        "base_data_date": "2024-08-13",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0436",
+      "name": "보령문화의전당",
+      "document": "보령문화의전당은 보령(대천) 시내에서 과거에 장항선 철도 대천역이 있던 자리에 건설된 문화공간이다. 이곳은 전시실과 문화공간으로 구성되어 있다. 장암서예관은 보령 출신의 서예가인 장암 이곤순 선생의 작품 2,366점을 기증받아 세운 서예관이다. 보령박물관은 보령지역 최초의 지방사 박물관인 보령박물관은 선사시대부터 근현대에 이르기까지 보령의 향토사를 고스란히 담고 있는 박물관이다. 보령문학관은 보령 지역 출신 문학인 이문희, 임영조, 최상규, 김성동, 권영민의 삶과 문학세계를 담은 물품이 전시되고 있다. 갯벌생태과학관은 보령을 대표하는 해안 지형인 갯벌의 종류와 생성과정, 갯벌에 터를 잡고 사는 갯벌 친구들, 보령 갯벌과 이용방안, 상처받은 갯벌의 보존 노력 등의 주제가 전시되고 있다. 그 외 기획 전시나 공연도 열릴 수 있으며 기획전시실, 대강당, 소강당, 교양강좌실, 야외공연장은 대관이 가능하다. 보령문화의전당은 국도 36호선, 지방도 610호선에서 중앙로, 번영로 등을 통해 접근할 수 있으며, 고속도로는 서해안고속도로 대천 IC가 가깝다. 대중교통은 장항선 철도 대천역, 보령종합터미널을 이용할 수 있다. 주변에는 보령중앙시장, 대천항, 대천해수욕장, 성주산 등의 관광지가 있다. 보령지역 최초의 지방사 박물관인 보령박물관은 선사시대부터 근·현대시대에 이르기까지 보령의 향토사를 고스란히 담고 있는 박물관이다. 각각의 시대마다 주거문화, 고분문화, 종교문화, 도자문화, 선비문화 등 주제가 있는 전시를 기획하여 관람객들로 하여금 보령지역이 품고 있는 역사를 한눈에 알 수 있는 기회를 제공한다. 대표적인 전시유물로는 충청남도 유형문화재 158호 금강암 비편(碑片)과 충청남도 시도민속문화재 32호 호서 옥마산 김부대왕지기 등 지정문화재가 있으며, 전시된 대부분의 유물이 보령지역에서 출토된 국가귀속유물이다. 그리고 60년대 보령거리 재현은 보령박물관의 색다른 볼거리이다.",
+      "metadata": {
+        "youth_fee": 0.0,
+        "ownership_type": "공립",
+        "closure_rule_raw": "월",
+        "sigungu": "보령시",
+        "child_fee": 0.0,
+        "weekday_open": "09:00",
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "sido": "충청남도",
+        "weekday_close": "18:00",
+        "source_types": "BASE|TOUR_API",
+        "latitude": 36.35071294,
+        "holiday_open": "09:00",
+        "fee_notes": "무료",
+        "adult_fee": 0.0,
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/07/3022507_image2_1.jpg",
+        "name": "보령문화의전당",
+        "image_copyright": "Type3",
+        "homepage_url": "http://culture.brcn.go.kr",
+        "holiday_close": "18:00",
+        "longitude": 126.5905262,
+        "requires_manual_review": true,
+        "amenities_raw": "작은도서관+대강당+소강당",
+        "address": "충청남도 보령시 대흥로 63",
+        "transport_notes": "대천역(버스) → 구기차역방면 자가용 5분내외 거리"
+      },
+      "vector_rank": null,
+      "bm25_rank": 3,
+      "vector_distance": null,
+      "vector_score": null,
+      "bm25_score": 19.103671919560988,
+      "vector_document": "",
+      "bm25_document": "보령문화의전당은 보령(대천) 시내에서 과거에 장항선 철도 대천역이 있던 자리에 건설된 문화공간이다. 이곳은 전시실과 문화공간으로 구성되어 있다. 장암서예관은 보령 출신의 서예가인 장암 이곤순 선생의 작품 2,366점을 기증받아 세운 서예관이다. 보령박물관은 보령지역 최초의 지방사 박물관인 보령박물관은 선사시대부터 근현대에 이르기까지 보령의 향토사를 고스란히 담고 있는 박물관이다. 보령문학관은 보령 지역 출신 문학인 이문희, 임영조, 최상규, 김성동, 권영민의 삶과 문학세계를 담은 물품이 전시되고 있다. 갯벌생태과학관은 보령을 대표하는 해안 지형인 갯벌의 종류와 생성과정, 갯벌에 터를 잡고 사는 갯벌 친구들, 보령 갯벌과 이용방안, 상처받은 갯벌의 보존 노력 등의 주제가 전시되고 있다. 그 외 기획 전시나 공연도 열릴 수 있으며 기획전시실, 대강당, 소강당, 교양강좌실, 야외공연장은 대관이 가능하다. 보령문화의전당은 국도 36호선, 지방도 610호선에서 중앙로, 번영로 등을 통해 접근할 수 있으며, 고속도로는 서해안고속도로 대천 IC가 가깝다. 대중교통은 장항선 철도 대천역, 보령종합터미널을 이용할 수 있다. 주변에는 보령중앙시장, 대천항, 대천해수욕장, 성주산 등의 관광지가 있다. 보령지역 최초의 지방사 박물관인 보령박물관은 선사시대부터 근·현대시대에 이르기까지 보령의 향토사를 고스란히 담고 있는 박물관이다. 각각의 시대마다 주거문화, 고분문화, 종교문화, 도자문화, 선비문화 등 주제가 있는 전시를 기획하여 관람객들로 하여금 보령지역이 품고 있는 역사를 한눈에 알 수 있는 기회를 제공한다. 대표적인 전시유물로는 충청남도 유형문화재 158호 금강암 비편(碑片)과 충청남도 시도민속문화재 32호 호서 옥마산 김부대왕지기 등 지정문화재가 있으며, 전시된 대부분의 유물이 보령지역에서 출토된 국가귀속유물이다. 그리고 60년대 보령거리 재현은 보령박물관의 색다른 볼거리이다.",
+      "best_span_id": "chroma:M0436",
+      "best_span_text": "보령문화의전당은 보령(대천) 시내에서 과거에 장항선 철도 대천역이 있던 자리에 건설된 문화공간이다. 이곳은 전시실과 문화공간으로 구성되어 있다. 장암서예관은 보령 출신의 서예가인 장암 이곤순 선생의 작품 2,366점을 기증받아 세운 서예관이다. 보령박물관은 보령지역 최초의 지방사 박물관인 보령박물관은 선사시대부터 근현대에 이르기까지 보령의 향토사를 고스란히 담고 있는 박물관이다. 보령문학관은 보령 지역 출신 문학인 이문희, 임영조, 최상규, 김성동, 권영민의 삶과 문학세계를 담은 물품이 전시되고 있다. 갯벌생태과학관은 보령을 대표하는 해안 지형인 갯벌의 종류와 생성과정, 갯벌에 터를 잡고 사는 갯벌 친구들, 보령 갯벌과 이용방안, 상처받은 갯벌의 보존 노력 등의 주제가 전시되고 있다. 그 외 기획 전시나 공연도 열릴 수 있으며 기획전시실, 대강당, 소강당, 교양강좌실, 야외공연장은 대관이 가능하다. 보령문화의전당은 국도 36호선, 지방도 610호선에서 중앙로, 번영로 등을 통해 접근할 수 있으며, 고속도로는 서해안고속도로 대천 IC가 가깝다. 대중교통은 장항선 철도 대천역, 보령종합터미널을 이용할 수 있다. 주변에는 보령중앙시장, 대천항, 대천해수욕장, 성주산 등의 관광지가 있다. 보령지역 최초의 지방사 박물관인 보령박물관은 선사시대부터 근·현대시대에 이르기까지 보령의 향토사를 고스란히 담고 있는 박물관이다. 각각의 시대마다 주거문화, 고분문화, 종교문화, 도자문화, 선비문화 등 주제가 있는 전시를 기획하여 관람객들로 하여금 보령지역이 품고 있는 역사를 한눈에 알 수 있는 기회를 제공한다. 대표적인 전시유물로는 충청남도 유형문화재 158호 금강암 비편(碑片)과 충청남도 시도민속문화재 32호 호서 옥마산 김부대왕지기 등 지정문화재가 있으며, 전시된 대부분의 유물이 보령지역에서 출토된 국가귀속유물이다. 그리고 60년대 보령거리 재현은 보령박물관의 색다른 볼거리이다.",
+      "fusion_score": 0.015873015873015872,
+      "retrieved_by": [
+        "bm25"
+      ],
+      "fusion_rank": 4,
+      "rerank_score": 0.04652897268533707,
+      "rank": 4,
+      "score": 0.04652897268533707,
+      "score_type": "cross_encoder",
+      "distance": null,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "bm25"
+      ],
+      "retriever": "bm25",
+      "span_id": "chroma:M0436",
+      "source_doc_ids": [
+        "DOC-B0436-TOUR_API-3022653",
+        "DOC-B0436-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0436-TOUR_API-3022653",
+          "source_type": "TOUR_API",
+          "source_record_id": "3022653",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=208",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        },
+        {
+          "doc_id": "DOC-B0436-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0436",
+          "source_locator": "data/raw/museum_base_1070.csv#row=437",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 55,
+          "doc_ids": [
+            "DOC-B0436-TOUR_API-3022653"
+          ]
+        },
+        {
+          "start": 56,
+          "end": 80,
+          "doc_ids": [
+            "DOC-B0436-TOUR_API-3022653"
+          ]
+        },
+        {
+          "start": 81,
+          "end": 136,
+          "doc_ids": [
+            "DOC-B0436-TOUR_API-3022653"
+          ]
+        },
+        {
+          "start": 137,
+          "end": 213,
+          "doc_ids": [
+            "DOC-B0436-TOUR_API-3022653"
+          ]
+        },
+        {
+          "start": 214,
+          "end": 283,
+          "doc_ids": [
+            "DOC-B0436-TOUR_API-3022653"
+          ]
+        },
+        {
+          "start": 284,
+          "end": 387,
+          "doc_ids": [
+            "DOC-B0436-TOUR_API-3022653"
+          ]
+        },
+        {
+          "start": 388,
+          "end": 452,
+          "doc_ids": [
+            "DOC-B0436-TOUR_API-3022653"
+          ]
+        },
+        {
+          "start": 453,
+          "end": 534,
+          "doc_ids": [
+            "DOC-B0436-TOUR_API-3022653"
+          ]
+        },
+        {
+          "start": 535,
+          "end": 571,
+          "doc_ids": [
+            "DOC-B0436-TOUR_API-3022653"
+          ]
+        },
+        {
+          "start": 572,
+          "end": 613,
+          "doc_ids": [
+            "DOC-B0436-TOUR_API-3022653"
+          ]
+        },
+        {
+          "start": 614,
+          "end": 686,
+          "doc_ids": [
+            "DOC-B0436-BASE"
+          ]
+        },
+        {
+          "start": 687,
+          "end": 789,
+          "doc_ids": [
+            "DOC-B0436-BASE"
+          ]
+        },
+        {
+          "start": 790,
+          "end": 908,
+          "doc_ids": [
+            "DOC-B0436-BASE"
+          ]
+        },
+        {
+          "start": 909,
+          "end": 944,
+          "doc_ids": [
+            "DOC-B0436-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=208",
+      "text": "보령문화의전당은 보령(대천) 시내에서 과거에 장항선 철도 대천역이 있던 자리에 건설된 문화공간이다. 이곳은 전시실과 문화공간으로 구성되어 있다. 장암서예관은 보령 출신의 서예가인 장암 이곤순 선생의 작품 2,366점을 기증받아 세운 서예관이다. 보령박물관은 보령지역 최초의 지방사 박물관인 보령박물관은 선사시대부터 근현대에 이르기까지 보령의 향토사를 고스란히 담고 있는 박물관이다. 보령문학관은 보령 지역 출신 문학인 이문희, 임영조, 최상규, 김성동, 권영민의 삶과 문학세계를 담은 물품이 전시되고 있다. 갯벌생태과학관은 보령을 대표하는 해안 지형인 갯벌의 종류와 생성과정, 갯벌에 터를 잡고 사는 갯벌 친구들, 보령 갯벌과 이용방안, 상처받은 갯벌의 보존 노력 등의 주제가 전시되고 있다. 그 외 기획 전시나 공연도 열릴 수 있으며 기획전시실, 대강당, 소강당, 교양강좌실, 야외공연장은 대관이 가능하다. 보령문화의전당은 국도 36호선, 지방도 610호선에서 중앙로, 번영로 등을 통해 접근할 수 있으며, 고속도로는 서해안고속도로 대천 IC가 가깝다. 대중교통은 장항선 철도 대천역, 보령종합터미널을 이용할 수 있다. 주변에는 보령중앙시장, 대천항, 대천해수욕장, 성주산 등의 관광지가 있다. 보령지역 최초의 지방사 박물관인 보령박물관은 선사시대부터 근·현대시대에 이르기까지 보령의 향토사를 고스란히 담고 있는 박물관이다. 각각의 시대마다 주거문화, 고분문화, 종교문화, 도자문화, 선비문화 등 주제가 있는 전시를 기획하여 관람객들로 하여금 보령지역이 품고 있는 역사를 한눈에 알 수 있는 기회를 제공한다. 대표적인 전시유물로는 충청남도 유형문화재 158호 금강암 비편(碑片)과 충청남도 시도민속문화재 32호 호서 옥마산 김부대왕지기 등 지정문화재가 있으며, 전시된 대부분의 유물이 보령지역에서 출토된 국가귀속유물이다. 그리고 60년대 보령거리 재현은 보령박물관의 색다른 볼거리이다.",
+      "sido": "충청남도",
+      "sigungu": "보령시",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=208"
+      ],
+      "evidence_id": "E4",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=310",
+        "fields": {
+          "name": "보령문화의전당",
+          "sido": "충청남도",
+          "sigungu": "보령시",
+          "address": "충청남도 보령시 대흥로 63",
+          "ownership_type": "공립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "09:00",
+          "weekday_close": "18:00",
+          "holiday_open": "09:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "월",
+          "amenities_raw": "작은도서관+대강당+소강당"
+        },
+        "base_data_date": "2026-04-03",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0972",
+      "name": "금산역사문화박물관",
+      "document": "금산역사문화박물관은 금산의 역사와 문화를 한자리에서 살펴볼 수 있는 공간이다. 1층은 금산 역사관, 2층은 금산 생활 민속관으로 나뉜다. 금산에 인류가 첫발을 내디딘 구석기시대부터 백제와 신라가 금산을 두고 각축전을 벌였던 삼국시대, 원나라에서 벼슬을 한 공을 인정받아 고향인 금산을 금주(錦州)로 승격시킨 성리학자 김신이 활동했던 고려, 조선왕조의 태실을 묻을 만큼 길지로 평가받았던 조선, 금산군수 홍범식을 비롯한 독립운동의 역사를 간직한 근현대가 순서대로 이어진다. 금산 생활 민속관에는 과거 전라북도에 속했던 터라 전라좌도농악의 특징이 녹아있는 금산농악과 세계중요농업유산으로 선정된 금산의 인삼 농사 기술을 만나볼 수 있다. 또 세계 각국의 생활 민속을 함께 비교해 볼 수 있는 지구촌 생활 민속실도 마련돼 있다. 금산역사문화박물관은 지하1층 지상3층 규모로 1층 금산역사관에는 선사시대부터 근현대까지 금산의 역사와 발굴유물을 전시하고 있으며 2층 금산생활민속관에는 금산의 민속유물과 세계민속유물을 전시하고 있습니다.",
+      "metadata": {
+        "weekday_close": "18:00",
+        "sigungu": "금산군",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/86/3559586_image2_1.jpg",
+        "holiday_open": "09:00",
+        "holiday_close": "18:00",
+        "latitude": 36.1141664,
+        "image_copyright": "Type1",
+        "closure_rule_raw": "월+1월1일+설 당일+추석 당일",
+        "youth_fee": 0.0,
+        "ownership_type": "공립",
+        "address": "충청남도 금산군 금산읍 금산로 1575",
+        "requires_manual_review": true,
+        "sido": "충청남도",
+        "source_types": "BASE|TOUR_API",
+        "longitude": 127.4918544,
+        "weekday_open": "09:00",
+        "name": "금산역사문화박물관",
+        "homepage_url": "https://www.geumsan.go.kr/museum/",
+        "adult_fee": 0.0,
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "child_fee": 0.0
+      },
+      "vector_rank": 5,
+      "bm25_rank": null,
+      "vector_distance": 0.5742162466049194,
+      "vector_score": null,
+      "bm25_score": null,
+      "vector_document": "금산역사문화박물관은 금산의 역사와 문화를 한자리에서 살펴볼 수 있는 공간이다. 1층은 금산 역사관, 2층은 금산 생활 민속관으로 나뉜다. 금산에 인류가 첫발을 내디딘 구석기시대부터 백제와 신라가 금산을 두고 각축전을 벌였던 삼국시대, 원나라에서 벼슬을 한 공을 인정받아 고향인 금산을 금주(錦州)로 승격시킨 성리학자 김신이 활동했던 고려, 조선왕조의 태실을 묻을 만큼 길지로 평가받았던 조선, 금산군수 홍범식을 비롯한 독립운동의 역사를 간직한 근현대가 순서대로 이어진다. 금산 생활 민속관에는 과거 전라북도에 속했던 터라 전라좌도농악의 특징이 녹아있는 금산농악과 세계중요농업유산으로 선정된 금산의 인삼 농사 기술을 만나볼 수 있다. 또 세계 각국의 생활 민속을 함께 비교해 볼 수 있는 지구촌 생활 민속실도 마련돼 있다. 금산역사문화박물관은 지하1층 지상3층 규모로 1층 금산역사관에는 선사시대부터 근현대까지 금산의 역사와 발굴유물을 전시하고 있으며 2층 금산생활민속관에는 금산의 민속유물과 세계민속유물을 전시하고 있습니다.",
+      "bm25_document": "",
+      "best_span_id": null,
+      "best_span_text": null,
+      "fusion_score": 0.015384615384615385,
+      "retrieved_by": [
+        "vector"
+      ],
+      "fusion_rank": 6,
+      "rerank_score": 0.0016628511948511004,
+      "rank": 5,
+      "score": 0.0016628511948511004,
+      "score_type": "cross_encoder",
+      "distance": 0.5742162466049194,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector"
+      ],
+      "retriever": "vector",
+      "source_doc_ids": [
+        "DOC-B0972-TOUR_API-2782404",
+        "DOC-B0972-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0972-TOUR_API-2782404",
+          "source_type": "TOUR_API",
+          "source_record_id": "2782404",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=456",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        },
+        {
+          "doc_id": "DOC-B0972-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0972",
+          "source_locator": "data/raw/museum_base_1070.csv#row=973",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 43,
+          "doc_ids": [
+            "DOC-B0972-TOUR_API-2782404"
+          ]
+        },
+        {
+          "start": 44,
+          "end": 76,
+          "doc_ids": [
+            "DOC-B0972-TOUR_API-2782404"
+          ]
+        },
+        {
+          "start": 77,
+          "end": 263,
+          "doc_ids": [
+            "DOC-B0972-TOUR_API-2782404"
+          ]
+        },
+        {
+          "start": 264,
+          "end": 353,
+          "doc_ids": [
+            "DOC-B0972-TOUR_API-2782404"
+          ]
+        },
+        {
+          "start": 354,
+          "end": 403,
+          "doc_ids": [
+            "DOC-B0972-TOUR_API-2782404"
+          ]
+        },
+        {
+          "start": 404,
+          "end": 517,
+          "doc_ids": [
+            "DOC-B0972-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=456",
+      "text": "금산역사문화박물관은 금산의 역사와 문화를 한자리에서 살펴볼 수 있는 공간이다. 1층은 금산 역사관, 2층은 금산 생활 민속관으로 나뉜다. 금산에 인류가 첫발을 내디딘 구석기시대부터 백제와 신라가 금산을 두고 각축전을 벌였던 삼국시대, 원나라에서 벼슬을 한 공을 인정받아 고향인 금산을 금주(錦州)로 승격시킨 성리학자 김신이 활동했던 고려, 조선왕조의 태실을 묻을 만큼 길지로 평가받았던 조선, 금산군수 홍범식을 비롯한 독립운동의 역사를 간직한 근현대가 순서대로 이어진다. 금산 생활 민속관에는 과거 전라북도에 속했던 터라 전라좌도농악의 특징이 녹아있는 금산농악과 세계중요농업유산으로 선정된 금산의 인삼 농사 기술을 만나볼 수 있다. 또 세계 각국의 생활 민속을 함께 비교해 볼 수 있는 지구촌 생활 민속실도 마련돼 있다. 금산역사문화박물관은 지하1층 지상3층 규모로 1층 금산역사관에는 선사시대부터 근현대까지 금산의 역사와 발굴유물을 전시하고 있으며 2층 금산생활민속관에는 금산의 민속유물과 세계민속유물을 전시하고 있습니다.",
+      "sido": "충청남도",
+      "sigungu": "금산군",
+      "span_id": "",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=456"
+      ],
+      "evidence_id": "E5",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=668",
+        "fields": {
+          "name": "금산역사문화박물관",
+          "sido": "충청남도",
+          "sigungu": "금산군",
+          "address": "충청남도 금산군 금산읍 금산로 1575",
+          "ownership_type": "공립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "09:00",
+          "weekday_close": "18:00",
+          "holiday_open": "09:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "월+1월1일+설 당일+추석 당일"
+        },
+        "base_data_date": "2025-11-19",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    }
+  ],
+  "answer": "석탄의 기원과 석탄 산업의 역사, 광부들의 생활을 살펴볼 수 있고, 복원된 갱도에 들어가 볼 수 있습니다. [E1]",
+  "retrieval_status": "ok",
+  "answer_status": "answered",
+  "route": "hybrid",
+  "retry_count": 0,
+  "supervisor_verified": true,
+  "rerank_applied": true,
+  "retriever_errors": [],
+  "warnings": [],
+  "duration_ms": 136566.47,
+  "error_type": "",
+  "hit_at_1": 1,
+  "hit_at_3": 1,
+  "hit_at_5": 1,
+  "recall_at_5": 1.0,
+  "mrr_at_10": 1.0
+}

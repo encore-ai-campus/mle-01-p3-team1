@@ -1,0 +1,736 @@
+{
+  "mode": "supervisor_full",
+  "question_id": "Q101",
+  "evidence": [
+    {
+      "museum_id": "M0151",
+      "name": "밀양시립박물관",
+      "document": "밀양시립박물관은 낙동강유역의 문화를 집대성하여 효율적인 보존·전시함은 물론, 향토사료의 수집·조사·연구·정리 등을 통해 역사와 문화예술에 대한 고증 등 중심역할을 수행하고 나아가 시민들에게 널리 공개하여 문화 향수 증대 및 사회교육에 이바지하기 위해 건립되었다. 박물관은 상설 1 전시실, 상설 2 전시실, 기획전시실로 나눠져 있으며 밀양지역의 역사(삼한시대~조선시대)를 조명해 볼 수 있도록 하였다. 주요 소장품은 밀양 12경도, 용담취규정잡영 외에 단원 김홍도 『선유도』, 오원장승업 『화조도』등 서화류와 이방중묘 출토 명기 및 지석, 청자명문매호 등 도자기와 토기류 등 낙동강 유역과 밀양지역 출토 고고유물들과 소눌선생문집책판, 퇴로본 성호선생문집책판 등 총 39종 4,835장의 문집책판(전시형수장고), 민속 및 생활유물이 주류를 이루고 있다. 밀양시립박물관에는 낙동강 문화 유물 외에 화석전시관, 밀양독립운동기념관이 조성되어 있어 또 다른 재미와 볼거리를 선사한다. 화석전시관은 밀양시립박물관 내에 위치하며 고생대 중생대 등 전 세계에 분포되어 있는 주요 화석 (공룡, 어류 등) 244점이 전시되어 있다. 밀양독립운동기념관은 독립의열단 단장이었던 약산 김원봉과 석정 윤세주 열사 등 밀양출신 독립운동가들의 활동상을 조명해 볼 수 있는 곳이다. 1919년 3월 13일부터 일어난 밀양지역의 주요 만세운동과 파리장서운동, 밀양경찰서 폭탄투척사건 등은 물론 밀양의 근현대사를 조명해 볼 수 있다. 1974년 4월 밀양군립박물관으로 개관한 이래 박물관에서는 낙동강 유역의 문화와 역사를 조명하며 밀양지역의 다양한 자료를 수집, 전시하고있는 경남 최초의 공립박물관",
+      "metadata": {
+        "sido": "경상남도",
+        "sigungu": "밀양시",
+        "latitude": 35.50296509,
+        "amenities_raw": "문화상품점+휴게실",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/85/4002785_image2_1.jpg",
+        "source_types": "BASE|TOUR_API",
+        "adult_fee_status": "BASE_FEE_PAID",
+        "image_copyright": "Type3",
+        "weekday_open": "09:00",
+        "requires_manual_review": true,
+        "homepage_url": "https://www.miryang.go.kr/msm/index.do",
+        "child_fee": 500.0,
+        "holiday_open": "09:00",
+        "holiday_close": "18:00",
+        "address": "경상남도 밀양시 밀양대공원로 100",
+        "transport_notes": "시내버스: 1, 2, 4-2, 5, 6, 9번 밀양향교 하차후 5분 도보",
+        "weekday_close": "18:00",
+        "closure_rule_raw": "매주월요일(단, 공휴일경우, 다음날 휴관)+설 당일+추석 당일+1월1일",
+        "fee_notes": "* 20인이상 단체 30 감면* 예술인패스, 그린카드, 임산부 30감면* 6세 이하~65세 이상 무료* 독립유공자, 국가유공자, 장애인, 다자녀, 다문화, 한부모가족 등 무료",
+        "youth_fee": 700.0,
+        "longitude": 128.7593641,
+        "adult_fee": 1000.0,
+        "ownership_type": "공립",
+        "name": "밀양시립박물관"
+      },
+      "vector_rank": 1,
+      "bm25_rank": 1,
+      "vector_distance": 0.494215190410614,
+      "vector_score": null,
+      "bm25_score": 15.480398957206917,
+      "vector_document": "밀양시립박물관은 낙동강유역의 문화를 집대성하여 효율적인 보존·전시함은 물론, 향토사료의 수집·조사·연구·정리 등을 통해 역사와 문화예술에 대한 고증 등 중심역할을 수행하고 나아가 시민들에게 널리 공개하여 문화 향수 증대 및 사회교육에 이바지하기 위해 건립되었다. 박물관은 상설 1 전시실, 상설 2 전시실, 기획전시실로 나눠져 있으며 밀양지역의 역사(삼한시대~조선시대)를 조명해 볼 수 있도록 하였다. 주요 소장품은 밀양 12경도, 용담취규정잡영 외에 단원 김홍도 『선유도』, 오원장승업 『화조도』등 서화류와 이방중묘 출토 명기 및 지석, 청자명문매호 등 도자기와 토기류 등 낙동강 유역과 밀양지역 출토 고고유물들과 소눌선생문집책판, 퇴로본 성호선생문집책판 등 총 39종 4,835장의 문집책판(전시형수장고), 민속 및 생활유물이 주류를 이루고 있다. 밀양시립박물관에는 낙동강 문화 유물 외에 화석전시관, 밀양독립운동기념관이 조성되어 있어 또 다른 재미와 볼거리를 선사한다. 화석전시관은 밀양시립박물관 내에 위치하며 고생대 중생대 등 전 세계에 분포되어 있는 주요 화석 (공룡, 어류 등) 244점이 전시되어 있다. 밀양독립운동기념관은 독립의열단 단장이었던 약산 김원봉과 석정 윤세주 열사 등 밀양출신 독립운동가들의 활동상을 조명해 볼 수 있는 곳이다. 1919년 3월 13일부터 일어난 밀양지역의 주요 만세운동과 파리장서운동, 밀양경찰서 폭탄투척사건 등은 물론 밀양의 근현대사를 조명해 볼 수 있다. 1974년 4월 밀양군립박물관으로 개관한 이래 박물관에서는 낙동강 유역의 문화와 역사를 조명하며 밀양지역의 다양한 자료를 수집, 전시하고있는 경남 최초의 공립박물관",
+      "bm25_document": "밀양시립박물관은 낙동강유역의 문화를 집대성하여 효율적인 보존·전시함은 물론, 향토사료의 수집·조사·연구·정리 등을 통해 역사와 문화예술에 대한 고증 등 중심역할을 수행하고 나아가 시민들에게 널리 공개하여 문화 향수 증대 및 사회교육에 이바지하기 위해 건립되었다. 박물관은 상설 1 전시실, 상설 2 전시실, 기획전시실로 나눠져 있으며 밀양지역의 역사(삼한시대~조선시대)를 조명해 볼 수 있도록 하였다. 주요 소장품은 밀양 12경도, 용담취규정잡영 외에 단원 김홍도 『선유도』, 오원장승업 『화조도』등 서화류와 이방중묘 출토 명기 및 지석, 청자명문매호 등 도자기와 토기류 등 낙동강 유역과 밀양지역 출토 고고유물들과 소눌선생문집책판, 퇴로본 성호선생문집책판 등 총 39종 4,835장의 문집책판(전시형수장고), 민속 및 생활유물이 주류를 이루고 있다. 밀양시립박물관에는 낙동강 문화 유물 외에 화석전시관, 밀양독립운동기념관이 조성되어 있어 또 다른 재미와 볼거리를 선사한다. 화석전시관은 밀양시립박물관 내에 위치하며 고생대 중생대 등 전 세계에 분포되어 있는 주요 화석 (공룡, 어류 등) 244점이 전시되어 있다. 밀양독립운동기념관은 독립의열단 단장이었던 약산 김원봉과 석정 윤세주 열사 등 밀양출신 독립운동가들의 활동상을 조명해 볼 수 있는 곳이다. 1919년 3월 13일부터 일어난 밀양지역의 주요 만세운동과 파리장서운동, 밀양경찰서 폭탄투척사건 등은 물론 밀양의 근현대사를 조명해 볼 수 있다. 1974년 4월 밀양군립박물관으로 개관한 이래 박물관에서는 낙동강 유역의 문화와 역사를 조명하며 밀양지역의 다양한 자료를 수집, 전시하고있는 경남 최초의 공립박물관",
+      "best_span_id": "chroma:M0151",
+      "best_span_text": "밀양시립박물관은 낙동강유역의 문화를 집대성하여 효율적인 보존·전시함은 물론, 향토사료의 수집·조사·연구·정리 등을 통해 역사와 문화예술에 대한 고증 등 중심역할을 수행하고 나아가 시민들에게 널리 공개하여 문화 향수 증대 및 사회교육에 이바지하기 위해 건립되었다. 박물관은 상설 1 전시실, 상설 2 전시실, 기획전시실로 나눠져 있으며 밀양지역의 역사(삼한시대~조선시대)를 조명해 볼 수 있도록 하였다. 주요 소장품은 밀양 12경도, 용담취규정잡영 외에 단원 김홍도 『선유도』, 오원장승업 『화조도』등 서화류와 이방중묘 출토 명기 및 지석, 청자명문매호 등 도자기와 토기류 등 낙동강 유역과 밀양지역 출토 고고유물들과 소눌선생문집책판, 퇴로본 성호선생문집책판 등 총 39종 4,835장의 문집책판(전시형수장고), 민속 및 생활유물이 주류를 이루고 있다. 밀양시립박물관에는 낙동강 문화 유물 외에 화석전시관, 밀양독립운동기념관이 조성되어 있어 또 다른 재미와 볼거리를 선사한다. 화석전시관은 밀양시립박물관 내에 위치하며 고생대 중생대 등 전 세계에 분포되어 있는 주요 화석 (공룡, 어류 등) 244점이 전시되어 있다. 밀양독립운동기념관은 독립의열단 단장이었던 약산 김원봉과 석정 윤세주 열사 등 밀양출신 독립운동가들의 활동상을 조명해 볼 수 있는 곳이다. 1919년 3월 13일부터 일어난 밀양지역의 주요 만세운동과 파리장서운동, 밀양경찰서 폭탄투척사건 등은 물론 밀양의 근현대사를 조명해 볼 수 있다. 1974년 4월 밀양군립박물관으로 개관한 이래 박물관에서는 낙동강 유역의 문화와 역사를 조명하며 밀양지역의 다양한 자료를 수집, 전시하고있는 경남 최초의 공립박물관",
+      "fusion_score": 0.03278688524590164,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 1,
+      "name_match": true,
+      "rerank_score": null,
+      "rank": 1,
+      "score": 0.03278688524590164,
+      "score_type": "rrf",
+      "distance": 0.494215190410614,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0151",
+      "source_doc_ids": [
+        "DOC-B0151-TOUR_API-130087",
+        "DOC-B0151-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0151-TOUR_API-130087",
+          "source_type": "TOUR_API",
+          "source_record_id": "130087",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=71",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        },
+        {
+          "doc_id": "DOC-B0151-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0151",
+          "source_locator": "data/raw/museum_base_1070.csv#row=152",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 146,
+          "doc_ids": [
+            "DOC-B0151-TOUR_API-130087"
+          ]
+        },
+        {
+          "start": 147,
+          "end": 224,
+          "doc_ids": [
+            "DOC-B0151-TOUR_API-130087"
+          ]
+        },
+        {
+          "start": 225,
+          "end": 420,
+          "doc_ids": [
+            "DOC-B0151-TOUR_API-130087"
+          ]
+        },
+        {
+          "start": 421,
+          "end": 489,
+          "doc_ids": [
+            "DOC-B0151-TOUR_API-130087"
+          ]
+        },
+        {
+          "start": 490,
+          "end": 568,
+          "doc_ids": [
+            "DOC-B0151-TOUR_API-130087"
+          ]
+        },
+        {
+          "start": 569,
+          "end": 645,
+          "doc_ids": [
+            "DOC-B0151-TOUR_API-130087"
+          ]
+        },
+        {
+          "start": 646,
+          "end": 728,
+          "doc_ids": [
+            "DOC-B0151-TOUR_API-130087"
+          ]
+        },
+        {
+          "start": 729,
+          "end": 820,
+          "doc_ids": [
+            "DOC-B0151-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=71",
+      "text": "밀양시립박물관은 낙동강유역의 문화를 집대성하여 효율적인 보존·전시함은 물론, 향토사료의 수집·조사·연구·정리 등을 통해 역사와 문화예술에 대한 고증 등 중심역할을 수행하고 나아가 시민들에게 널리 공개하여 문화 향수 증대 및 사회교육에 이바지하기 위해 건립되었다. 박물관은 상설 1 전시실, 상설 2 전시실, 기획전시실로 나눠져 있으며 밀양지역의 역사(삼한시대~조선시대)를 조명해 볼 수 있도록 하였다. 주요 소장품은 밀양 12경도, 용담취규정잡영 외에 단원 김홍도 『선유도』, 오원장승업 『화조도』등 서화류와 이방중묘 출토 명기 및 지석, 청자명문매호 등 도자기와 토기류 등 낙동강 유역과 밀양지역 출토 고고유물들과 소눌선생문집책판, 퇴로본 성호선생문집책판 등 총 39종 4,835장의 문집책판(전시형수장고), 민속 및 생활유물이 주류를 이루고 있다. 밀양시립박물관에는 낙동강 문화 유물 외에 화석전시관, 밀양독립운동기념관이 조성되어 있어 또 다른 재미와 볼거리를 선사한다. 화석전시관은 밀양시립박물관 내에 위치하며 고생대 중생대 등 전 세계에 분포되어 있는 주요 화석 (공룡, 어류 등) 244점이 전시되어 있다. 밀양독립운동기념관은 독립의열단 단장이었던 약산 김원봉과 석정 윤세주 열사 등 밀양출신 독립운동가들의 활동상을 조명해 볼 수 있는 곳이다. 1919년 3월 13일부터 일어난 밀양지역의 주요 만세운동과 파리장서운동, 밀양경찰서 폭탄투척사건 등은 물론 밀양의 근현대사를 조명해 볼 수 있다. 1974년 4월 밀양군립박물관으로 개관한 이래 박물관에서는 낙동강 유역의 문화와 역사를 조명하며 밀양지역의 다양한 자료를 수집, 전시하고있는 경남 최초의 공립박물관",
+      "sido": "경상남도",
+      "sigungu": "밀양시",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=71"
+      ],
+      "evidence_id": "E1",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=94",
+        "fields": {
+          "name": "밀양시립박물관",
+          "sido": "경상남도",
+          "sigungu": "밀양시",
+          "address": "경상남도 밀양시 밀양대공원로 100",
+          "ownership_type": "공립",
+          "adult_fee": "1000",
+          "youth_fee": "700",
+          "child_fee": "500",
+          "adult_fee_status": "BASE_FEE_PAID",
+          "weekday_open": "09:00",
+          "weekday_close": "18:00",
+          "holiday_open": "09:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "매주월요일(단, 공휴일경우, 다음날 휴관)+설 당일+추석 당일+1월1일",
+          "amenities_raw": "문화상품점+휴게실"
+        },
+        "base_data_date": "2026-09-17",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0119",
+      "name": "영천역사박물관",
+      "document": "영천시와 관련된 고문서 민속품 등의 문화재 전시",
+      "metadata": {
+        "weekday_open": "10:00",
+        "ownership_type": "사립",
+        "latitude": 36.018594,
+        "sigungu": "영천시",
+        "child_fee": 0.0,
+        "address": "경상북도 영천시 선창길 9",
+        "transport_notes": "차량:영천역사박물관+버스:도림2동 정류장 하차",
+        "source_types": "BASE",
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "amenities_raw": "전시실+강의실",
+        "weekday_close": "17:30",
+        "closure_rule_raw": "일요일+공휴일",
+        "holiday_close": "00:00",
+        "holiday_open": "00:00",
+        "adult_fee": 0.0,
+        "longitude": 128.9299782,
+        "homepage_url": "http://yeongcheonmuseum.com/",
+        "sido": "경상북도",
+        "requires_manual_review": true,
+        "youth_fee": 0.0,
+        "name": "영천역사박물관"
+      },
+      "vector_rank": 2,
+      "bm25_rank": null,
+      "vector_distance": 0.5002760291099548,
+      "vector_score": null,
+      "bm25_score": null,
+      "vector_document": "영천시와 관련된 고문서 민속품 등의 문화재 전시",
+      "bm25_document": "",
+      "best_span_id": null,
+      "best_span_text": null,
+      "fusion_score": 0.016129032258064516,
+      "retrieved_by": [
+        "vector"
+      ],
+      "fusion_rank": 2,
+      "rerank_score": null,
+      "rank": 2,
+      "score": 0.016129032258064516,
+      "score_type": "rrf",
+      "distance": 0.5002760291099548,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector"
+      ],
+      "retriever": "vector",
+      "source_doc_ids": [
+        "DOC-B0119-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0119-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0119",
+          "source_locator": "data/raw/museum_base_1070.csv#row=120",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 26,
+          "doc_ids": [
+            "DOC-B0119-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_base_1070.csv#row=120",
+      "text": "영천시와 관련된 고문서 민속품 등의 문화재 전시",
+      "sido": "경상북도",
+      "sigungu": "영천시",
+      "span_id": "",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_base_1070.csv#row=120"
+      ],
+      "evidence_id": "E2",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=79",
+        "fields": {
+          "name": "영천역사박물관",
+          "sido": "경상북도",
+          "sigungu": "영천시",
+          "address": "경상북도 영천시 선창길 9",
+          "ownership_type": "사립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "10:00",
+          "weekday_close": "17:30",
+          "holiday_open": "00:00",
+          "holiday_close": "00:00",
+          "closure_rule_raw": "일요일+공휴일",
+          "amenities_raw": "전시실+강의실"
+        },
+        "base_data_date": "2026-10-22",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0612",
+      "name": "떡박물관",
+      "document": "떡박물관은 우리 조상들의 지혜롭고 슬기로웠던 삶의 모습과 숨결을 느낄 수 있는 체험공간이자 산교육의 마당이다. 개인적으로 수집한 소장품들을 이곳에 모아 박물관을 설립하게 된 동기는 1999년 3월 안국동 백상기념관에서 ‘이야기가 있는 옛 부엌살림전’을 개최한 것이 계기가 되었다. 전시를 본 많은 사람들이 우리의 옛 부엌살림을 언제나 만날 수 있는 공간이 있었으면 좋겠다는 의견을 주었고, 우리의 부엌살림 유물들이 잊히는 것이 마음이 아프던 차에 2002년 1월에 그동안 모아 온 소장품 3,000여 점을 지금의 박물관에 전시하면서 개관하게 되었다. 떡은 한국인의 생활 속에 깊숙이 들어앉아 희로애락을 함께 해 온 음식으로 그 종류도 많거니와 맛과 영양, 질감과 향을 위한 배합이 과학적으로 절묘하다. 떡박물관에서는 이러한 떡을 시절에 따라, 우리의 일생의례에 따라, 그리고 만드는 방법에 따라 분류 방법을 달리하여 전시하고 있다. 또한 떡을 만들 때 사용하는 각종 조리 도구들도 전시되어 있다. 떡을 보는 것만으로 그치는 것이 아닌 직접 만들어 보고 맛볼 수 있는 체험프로그램을 진행하고 있다. 체험을 통하여 내국인은 물론 외국인들에게도 우리의 자랑스러운 전통문화를 배우고, 잊혀 가는 식문화를 되살리는 계기가 되고 있다.",
+      "metadata": {
+        "sido": "서울특별시",
+        "latitude": 37.57489958,
+        "holiday_open": "12:00",
+        "image_copyright": "Type1",
+        "weekday_open": "10:00",
+        "source_types": "TOUR_API",
+        "youth_fee": 2000.0,
+        "closure_rule_raw": "명절(1.1, 설날, 추석 당일)",
+        "sigungu": "종로구",
+        "requires_manual_review": true,
+        "name": "떡박물관",
+        "adult_fee": 3000.0,
+        "ownership_type": "사립",
+        "adult_fee_status": "BASE_FEE_PAID",
+        "address": "서울특별시 종로구 돈화문로 71(와룡동)",
+        "child_fee": 2000.0,
+        "weekday_close": "18:00",
+        "holiday_close": "18:00",
+        "longitude": 126.9906359,
+        "homepage_url": "http://www.tkmuseum.or.kr/",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/39/3540839_image2_1.jpg"
+      },
+      "vector_rank": null,
+      "bm25_rank": 2,
+      "vector_distance": null,
+      "vector_score": null,
+      "bm25_score": 9.208580478688754,
+      "vector_document": "",
+      "bm25_document": "떡박물관은 우리 조상들의 지혜롭고 슬기로웠던 삶의 모습과 숨결을 느낄 수 있는 체험공간이자 산교육의 마당이다. 개인적으로 수집한 소장품들을 이곳에 모아 박물관을 설립하게 된 동기는 1999년 3월 안국동 백상기념관에서 ‘이야기가 있는 옛 부엌살림전’을 개최한 것이 계기가 되었다. 전시를 본 많은 사람들이 우리의 옛 부엌살림을 언제나 만날 수 있는 공간이 있었으면 좋겠다는 의견을 주었고, 우리의 부엌살림 유물들이 잊히는 것이 마음이 아프던 차에 2002년 1월에 그동안 모아 온 소장품 3,000여 점을 지금의 박물관에 전시하면서 개관하게 되었다. 떡은 한국인의 생활 속에 깊숙이 들어앉아 희로애락을 함께 해 온 음식으로 그 종류도 많거니와 맛과 영양, 질감과 향을 위한 배합이 과학적으로 절묘하다. 떡박물관에서는 이러한 떡을 시절에 따라, 우리의 일생의례에 따라, 그리고 만드는 방법에 따라 분류 방법을 달리하여 전시하고 있다. 또한 떡을 만들 때 사용하는 각종 조리 도구들도 전시되어 있다. 떡을 보는 것만으로 그치는 것이 아닌 직접 만들어 보고 맛볼 수 있는 체험프로그램을 진행하고 있다. 체험을 통하여 내국인은 물론 외국인들에게도 우리의 자랑스러운 전통문화를 배우고, 잊혀 가는 식문화를 되살리는 계기가 되고 있다.",
+      "best_span_id": "chroma:M0612",
+      "best_span_text": "떡박물관은 우리 조상들의 지혜롭고 슬기로웠던 삶의 모습과 숨결을 느낄 수 있는 체험공간이자 산교육의 마당이다. 개인적으로 수집한 소장품들을 이곳에 모아 박물관을 설립하게 된 동기는 1999년 3월 안국동 백상기념관에서 ‘이야기가 있는 옛 부엌살림전’을 개최한 것이 계기가 되었다. 전시를 본 많은 사람들이 우리의 옛 부엌살림을 언제나 만날 수 있는 공간이 있었으면 좋겠다는 의견을 주었고, 우리의 부엌살림 유물들이 잊히는 것이 마음이 아프던 차에 2002년 1월에 그동안 모아 온 소장품 3,000여 점을 지금의 박물관에 전시하면서 개관하게 되었다. 떡은 한국인의 생활 속에 깊숙이 들어앉아 희로애락을 함께 해 온 음식으로 그 종류도 많거니와 맛과 영양, 질감과 향을 위한 배합이 과학적으로 절묘하다. 떡박물관에서는 이러한 떡을 시절에 따라, 우리의 일생의례에 따라, 그리고 만드는 방법에 따라 분류 방법을 달리하여 전시하고 있다. 또한 떡을 만들 때 사용하는 각종 조리 도구들도 전시되어 있다. 떡을 보는 것만으로 그치는 것이 아닌 직접 만들어 보고 맛볼 수 있는 체험프로그램을 진행하고 있다. 체험을 통하여 내국인은 물론 외국인들에게도 우리의 자랑스러운 전통문화를 배우고, 잊혀 가는 식문화를 되살리는 계기가 되고 있다.",
+      "fusion_score": 0.016129032258064516,
+      "retrieved_by": [
+        "bm25"
+      ],
+      "fusion_rank": 3,
+      "rerank_score": null,
+      "rank": 3,
+      "score": 0.016129032258064516,
+      "score_type": "rrf",
+      "distance": null,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "bm25"
+      ],
+      "retriever": "bm25",
+      "span_id": "chroma:M0612",
+      "source_doc_ids": [
+        "DOC-B0612-TOUR_API-130365"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0612-TOUR_API-130365",
+          "source_type": "TOUR_API",
+          "source_record_id": "130365",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=304",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 61,
+          "doc_ids": [
+            "DOC-B0612-TOUR_API-130365"
+          ]
+        },
+        {
+          "start": 62,
+          "end": 156,
+          "doc_ids": [
+            "DOC-B0612-TOUR_API-130365"
+          ]
+        },
+        {
+          "start": 157,
+          "end": 307,
+          "doc_ids": [
+            "DOC-B0612-TOUR_API-130365"
+          ]
+        },
+        {
+          "start": 308,
+          "end": 392,
+          "doc_ids": [
+            "DOC-B0612-TOUR_API-130365"
+          ]
+        },
+        {
+          "start": 393,
+          "end": 465,
+          "doc_ids": [
+            "DOC-B0612-TOUR_API-130365"
+          ]
+        },
+        {
+          "start": 466,
+          "end": 501,
+          "doc_ids": [
+            "DOC-B0612-TOUR_API-130365"
+          ]
+        },
+        {
+          "start": 502,
+          "end": 557,
+          "doc_ids": [
+            "DOC-B0612-TOUR_API-130365"
+          ]
+        },
+        {
+          "start": 558,
+          "end": 629,
+          "doc_ids": [
+            "DOC-B0612-TOUR_API-130365"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=304",
+      "text": "떡박물관은 우리 조상들의 지혜롭고 슬기로웠던 삶의 모습과 숨결을 느낄 수 있는 체험공간이자 산교육의 마당이다. 개인적으로 수집한 소장품들을 이곳에 모아 박물관을 설립하게 된 동기는 1999년 3월 안국동 백상기념관에서 ‘이야기가 있는 옛 부엌살림전’을 개최한 것이 계기가 되었다. 전시를 본 많은 사람들이 우리의 옛 부엌살림을 언제나 만날 수 있는 공간이 있었으면 좋겠다는 의견을 주었고, 우리의 부엌살림 유물들이 잊히는 것이 마음이 아프던 차에 2002년 1월에 그동안 모아 온 소장품 3,000여 점을 지금의 박물관에 전시하면서 개관하게 되었다. 떡은 한국인의 생활 속에 깊숙이 들어앉아 희로애락을 함께 해 온 음식으로 그 종류도 많거니와 맛과 영양, 질감과 향을 위한 배합이 과학적으로 절묘하다. 떡박물관에서는 이러한 떡을 시절에 따라, 우리의 일생의례에 따라, 그리고 만드는 방법에 따라 분류 방법을 달리하여 전시하고 있다. 또한 떡을 만들 때 사용하는 각종 조리 도구들도 전시되어 있다. 떡을 보는 것만으로 그치는 것이 아닌 직접 만들어 보고 맛볼 수 있는 체험프로그램을 진행하고 있다. 체험을 통하여 내국인은 물론 외국인들에게도 우리의 자랑스러운 전통문화를 배우고, 잊혀 가는 식문화를 되살리는 계기가 되고 있다.",
+      "sido": "서울특별시",
+      "sigungu": "종로구",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=304"
+      ],
+      "evidence_id": "E3",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=428",
+        "fields": {
+          "name": "떡박물관",
+          "sido": "서울특별시",
+          "sigungu": "종로구",
+          "address": "서울특별시 종로구 돈화문로 71(와룡동)",
+          "ownership_type": "사립",
+          "adult_fee": "3000",
+          "youth_fee": "2000",
+          "child_fee": "2000",
+          "adult_fee_status": "BASE_FEE_PAID",
+          "weekday_open": "10:00",
+          "weekday_close": "18:00",
+          "holiday_open": "12:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "명절(1.1, 설날, 추석 당일)"
+        },
+        "base_data_date": "2025-11-01",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0900",
+      "name": "비움박물관",
+      "document": "비움박물관은 전남광주통합특별시에서 2016년 개관한 유일한 사립 민속박물관이다. 향운 이영화 관장이 50년에 걸쳐 개인적으로 수집한 한국 근현대 민속품 3만 여점을 개방형 수장고 형식으로 전시하고 있다. 이곳은 산업사회 이전, 한국의 농경시대를 치열하게 살아냈던 가난한 서민들의 삶을 보여주고 있다. 이곳에서는 가족들을 먹이고 입히는 일이 무엇 하나 수월하지 않았던 고생스러운 시기에도 자연에 순응하며 온 힘을 다해 정직하게 살았던 우리 조상들의 삶을 느껴볼 수 있다. 세월의 장터를 큰 주제로 ＂1층-겨울, 2층-가을, 3층-여름, 4층-봄＂ T18테마로 구성, 곡식을 보관하던 항아리, 소쿠리, 바가지 등 각종 생활용기와 가마솥이 걸린 부뚜막, 절구, 전통혼례 복장, 꼭두각시 등 전통 민속품들을 전시",
+      "metadata": {
+        "homepage_url": "http://www.biummuseum.com/",
+        "weekday_open": "10:00",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/12/3402312_image2_1.JPG",
+        "youth_fee": 7000.0,
+        "adult_fee": 10000.0,
+        "adult_fee_status": "BASE_FEE_PAID",
+        "latitude": 35.150404,
+        "sigungu": "동구",
+        "closure_rule_raw": "월+일",
+        "ownership_type": "사립",
+        "requires_manual_review": true,
+        "weekday_close": "18:00",
+        "source_types": "BASE|TOUR_API",
+        "name": "비움박물관",
+        "child_fee": 5000.0,
+        "sido": "광주광역시",
+        "address": "광주광역시 동구 제봉로 143-1(대의동)",
+        "holiday_open": "10:00",
+        "longitude": 126.920277,
+        "holiday_close": "18:00",
+        "image_copyright": "Type3"
+      },
+      "vector_rank": 3,
+      "bm25_rank": null,
+      "vector_distance": 0.5007001161575317,
+      "vector_score": null,
+      "bm25_score": null,
+      "vector_document": "비움박물관은 전남광주통합특별시에서 2016년 개관한 유일한 사립 민속박물관이다. 향운 이영화 관장이 50년에 걸쳐 개인적으로 수집한 한국 근현대 민속품 3만 여점을 개방형 수장고 형식으로 전시하고 있다. 이곳은 산업사회 이전, 한국의 농경시대를 치열하게 살아냈던 가난한 서민들의 삶을 보여주고 있다. 이곳에서는 가족들을 먹이고 입히는 일이 무엇 하나 수월하지 않았던 고생스러운 시기에도 자연에 순응하며 온 힘을 다해 정직하게 살았던 우리 조상들의 삶을 느껴볼 수 있다. 세월의 장터를 큰 주제로 ＂1층-겨울, 2층-가을, 3층-여름, 4층-봄＂ T18테마로 구성, 곡식을 보관하던 항아리, 소쿠리, 바가지 등 각종 생활용기와 가마솥이 걸린 부뚜막, 절구, 전통혼례 복장, 꼭두각시 등 전통 민속품들을 전시",
+      "bm25_document": "",
+      "best_span_id": null,
+      "best_span_text": null,
+      "fusion_score": 0.015873015873015872,
+      "retrieved_by": [
+        "vector"
+      ],
+      "fusion_rank": 4,
+      "rerank_score": null,
+      "rank": 4,
+      "score": 0.015873015873015872,
+      "score_type": "rrf",
+      "distance": 0.5007001161575317,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector"
+      ],
+      "retriever": "vector",
+      "source_doc_ids": [
+        "DOC-B0900-TOUR_API-3402813",
+        "DOC-B0900-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0900-TOUR_API-3402813",
+          "source_type": "TOUR_API",
+          "source_record_id": "3402813",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=425",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        },
+        {
+          "doc_id": "DOC-B0900-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0900",
+          "source_locator": "data/raw/museum_base_1070.csv#row=901",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 44,
+          "doc_ids": [
+            "DOC-B0900-TOUR_API-3402813"
+          ]
+        },
+        {
+          "start": 45,
+          "end": 113,
+          "doc_ids": [
+            "DOC-B0900-TOUR_API-3402813"
+          ]
+        },
+        {
+          "start": 114,
+          "end": 167,
+          "doc_ids": [
+            "DOC-B0900-TOUR_API-3402813"
+          ]
+        },
+        {
+          "start": 168,
+          "end": 262,
+          "doc_ids": [
+            "DOC-B0900-TOUR_API-3402813"
+          ]
+        },
+        {
+          "start": 263,
+          "end": 394,
+          "doc_ids": [
+            "DOC-B0900-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=425",
+      "text": "비움박물관은 전남광주통합특별시에서 2016년 개관한 유일한 사립 민속박물관이다. 향운 이영화 관장이 50년에 걸쳐 개인적으로 수집한 한국 근현대 민속품 3만 여점을 개방형 수장고 형식으로 전시하고 있다. 이곳은 산업사회 이전, 한국의 농경시대를 치열하게 살아냈던 가난한 서민들의 삶을 보여주고 있다. 이곳에서는 가족들을 먹이고 입히는 일이 무엇 하나 수월하지 않았던 고생스러운 시기에도 자연에 순응하며 온 힘을 다해 정직하게 살았던 우리 조상들의 삶을 느껴볼 수 있다. 세월의 장터를 큰 주제로 ＂1층-겨울, 2층-가을, 3층-여름, 4층-봄＂ T18테마로 구성, 곡식을 보관하던 항아리, 소쿠리, 바가지 등 각종 생활용기와 가마솥이 걸린 부뚜막, 절구, 전통혼례 복장, 꼭두각시 등 전통 민속품들을 전시",
+      "sido": "광주광역시",
+      "sigungu": "동구",
+      "span_id": "",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=425"
+      ],
+      "evidence_id": "E4",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=618",
+        "fields": {
+          "name": "비움박물관",
+          "sido": "광주광역시",
+          "sigungu": "동구",
+          "address": "광주광역시 동구 제봉로 143-1(대의동)",
+          "ownership_type": "사립",
+          "adult_fee": "10000",
+          "youth_fee": "7000",
+          "child_fee": "5000",
+          "adult_fee_status": "BASE_FEE_PAID",
+          "weekday_open": "10:00",
+          "weekday_close": "18:00",
+          "holiday_open": "10:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "월+일"
+        },
+        "base_data_date": "2025-06-26",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0029",
+      "name": "제주도립 김창열미술관",
+      "document": "제주도립 김창열미술관은 ‘물방울 화가’로 널리 알려진 김창열 화백의 주옥같은 작품을 만나 볼 수 있으며, 현대미술의 발전에 이바지하는 미술작품과 자료를 전시, 연구 수집하는 것을 목적을 가지고 있다. 김창열은 미술관 건립을 위해 주요 작품 220점을 기증했다. 홍재승 건축가가 설계한 미술관 하늘에서 보면 중정을 기준으로 거대한 큐브형 건물 8개가 둘러싸인 모습이다. 이는 김창열이 추구한 회귀의 철학을 건축적으로 표현한 것이다.",
+      "metadata": {
+        "adult_fee_status": "BASE_FEE_PAID",
+        "name": "제주도립 김창열미술관",
+        "address": "제주특별자치도 제주시 한림읍 용금로 883-5",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/28/4115428_image2_1.jpg",
+        "source_types": "TOUR_API",
+        "homepage_url": "http://kimtschang-yeul.jeju.go.kr/",
+        "holiday_close": "18:00",
+        "ownership_type": "공립",
+        "requires_manual_review": true,
+        "sido": "제주특별자치도",
+        "latitude": 33.33907132,
+        "youth_fee": 1000.0,
+        "weekday_close": "18:00",
+        "holiday_open": "09:00",
+        "adult_fee": 2000.0,
+        "image_copyright": "Type1",
+        "weekday_open": "09:00",
+        "fee_notes": "단체 관람 시 할인+도민할인",
+        "sigungu": "제주시",
+        "closure_rule_raw": "월+1월 1일+설 연휴+추석 연휴",
+        "child_fee": 500.0,
+        "longitude": 126.2686717
+      },
+      "vector_rank": null,
+      "bm25_rank": 3,
+      "vector_distance": null,
+      "vector_score": null,
+      "bm25_score": 8.989247367312844,
+      "vector_document": "",
+      "bm25_document": "제주도립 김창열미술관은 ‘물방울 화가’로 널리 알려진 김창열 화백의 주옥같은 작품을 만나 볼 수 있으며, 현대미술의 발전에 이바지하는 미술작품과 자료를 전시, 연구 수집하는 것을 목적을 가지고 있다. 김창열은 미술관 건립을 위해 주요 작품 220점을 기증했다. 홍재승 건축가가 설계한 미술관 하늘에서 보면 중정을 기준으로 거대한 큐브형 건물 8개가 둘러싸인 모습이다. 이는 김창열이 추구한 회귀의 철학을 건축적으로 표현한 것이다.",
+      "best_span_id": "chroma:M0029",
+      "best_span_text": "제주도립 김창열미술관은 ‘물방울 화가’로 널리 알려진 김창열 화백의 주옥같은 작품을 만나 볼 수 있으며, 현대미술의 발전에 이바지하는 미술작품과 자료를 전시, 연구 수집하는 것을 목적을 가지고 있다. 김창열은 미술관 건립을 위해 주요 작품 220점을 기증했다. 홍재승 건축가가 설계한 미술관 하늘에서 보면 중정을 기준으로 거대한 큐브형 건물 8개가 둘러싸인 모습이다. 이는 김창열이 추구한 회귀의 철학을 건축적으로 표현한 것이다.",
+      "fusion_score": 0.015873015873015872,
+      "retrieved_by": [
+        "bm25"
+      ],
+      "fusion_rank": 5,
+      "rerank_score": null,
+      "rank": 5,
+      "score": 0.015873015873015872,
+      "score_type": "rrf",
+      "distance": null,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "bm25"
+      ],
+      "retriever": "bm25",
+      "span_id": "chroma:M0029",
+      "source_doc_ids": [
+        "DOC-B0029-TOUR_API-2713583"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0029-TOUR_API-2713583",
+          "source_type": "TOUR_API",
+          "source_record_id": "2713583",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=17",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 111,
+          "doc_ids": [
+            "DOC-B0029-TOUR_API-2713583"
+          ]
+        },
+        {
+          "start": 112,
+          "end": 145,
+          "doc_ids": [
+            "DOC-B0029-TOUR_API-2713583"
+          ]
+        },
+        {
+          "start": 146,
+          "end": 205,
+          "doc_ids": [
+            "DOC-B0029-TOUR_API-2713583"
+          ]
+        },
+        {
+          "start": 206,
+          "end": 240,
+          "doc_ids": [
+            "DOC-B0029-TOUR_API-2713583"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=17",
+      "text": "제주도립 김창열미술관은 ‘물방울 화가’로 널리 알려진 김창열 화백의 주옥같은 작품을 만나 볼 수 있으며, 현대미술의 발전에 이바지하는 미술작품과 자료를 전시, 연구 수집하는 것을 목적을 가지고 있다. 김창열은 미술관 건립을 위해 주요 작품 220점을 기증했다. 홍재승 건축가가 설계한 미술관 하늘에서 보면 중정을 기준으로 거대한 큐브형 건물 8개가 둘러싸인 모습이다. 이는 김창열이 추구한 회귀의 철학을 건축적으로 표현한 것이다.",
+      "sido": "제주특별자치도",
+      "sigungu": "제주시",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=17"
+      ],
+      "evidence_id": "E5",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=23",
+        "fields": {
+          "name": "제주도립 김창열미술관",
+          "sido": "제주특별자치도",
+          "sigungu": "제주시",
+          "address": "제주특별자치도 제주시 한림읍 용금로 883-5",
+          "ownership_type": "공립",
+          "adult_fee": "2000",
+          "youth_fee": "1000",
+          "child_fee": "500",
+          "adult_fee_status": "BASE_FEE_PAID",
+          "weekday_open": "09:00",
+          "weekday_close": "18:00",
+          "holiday_open": "09:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "월+1월 1일+설 연휴+추석 연휴"
+        },
+        "base_data_date": "2026-09-30",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    }
+  ],
+  "answer": "주요 소장품으로는 밀양 12경도와 『용담취규정잡영』, 단원 김홍도의 『선유도』·오원 장승업의 『화조도』 등 서화류가 있습니다. 이방중묘 출토 명기와 지석, 청자명문매호 등 도자기·토기류와 낙동강·밀양 지역에서 출토된 고고유물도 소장하고 있습니다. 또한 소눌선생문집책판과 퇴로본 성호선생문집책판 등 문집 책판 39종 4,835장, 민속·생활유물이 주요 소장품입니다. [E1]",
+  "retrieval_status": "ok",
+  "answer_status": "answered",
+  "route": "hybrid",
+  "retry_count": 0,
+  "supervisor_verified": true,
+  "rerank_applied": false,
+  "retriever_errors": [],
+  "warnings": [
+    "Cross-Encoder reranking failed (FileNotFoundError); RRF order retained"
+  ],
+  "duration_ms": 13209.75,
+  "error_type": "",
+  "hit_at_1": 1,
+  "hit_at_3": 1,
+  "hit_at_5": 1,
+  "recall_at_5": 1.0,
+  "mrr_at_10": 1.0
+}

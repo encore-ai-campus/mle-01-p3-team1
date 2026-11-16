@@ -1,0 +1,21 @@
+{
+  "mode": "supervisor_full",
+  "question_id": "Q025",
+  "evidence": [],
+  "answer": "확인 가능한 근거가 부족하여 답변을 보류했음.",
+  "retrieval_status": "no_results",
+  "answer_status": "abstained",
+  "route": "abstain",
+  "retry_count": 0,
+  "supervisor_verified": false,
+  "rerank_applied": false,
+  "retriever_errors": [],
+  "warnings": [],
+  "duration_ms": 4303.54,
+  "error_type": "",
+  "hit_at_1": "",
+  "hit_at_3": "",
+  "hit_at_5": "",
+  "recall_at_5": "",
+  "mrr_at_10": ""
+}

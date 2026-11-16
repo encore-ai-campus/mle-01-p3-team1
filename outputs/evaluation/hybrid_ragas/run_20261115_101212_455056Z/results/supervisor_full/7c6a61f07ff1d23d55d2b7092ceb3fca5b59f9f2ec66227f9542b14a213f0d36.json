@@ -1,0 +1,696 @@
+{
+  "mode": "supervisor_full",
+  "question_id": "Q005",
+  "evidence": [
+    {
+      "museum_id": "M0006",
+      "name": "한국이민사박물관",
+      "document": "인천광역시 월미공원 내에 자리한 한국이민사 박물관은 2003년 미주 이민 100주년을 기념해 개관했다. 인천광역시 시민과 해외동포들이 십시일반으로 뜻을 모아 건립한 대한민국 최초의 이민사 박물관이다. 대한민국 이민의 출발지였던 인천항의 역사와 이민의 역사, 당시 국내외 상황을 설명하는 상설전시가 제1~제4전시실에서 전시된다. 이민사 관련 특별 전시도 연중 진행하며 인천문화기행, 한인 이민사 등 다양한 교육 문화 프로그램도 운영한다. 한국이민사박물관은 2003년 미주 이민 100주년을 맞아 우리 선조들의 해외에서의 개척자적인 삶을 기리고 그 발자취를 후손들에게 전 하기 위해 인천광역시 시민들과 해외동포들이 함께 뜻을 모아서 건립한 우리나라 최초의 이민사박물관입니다.",
+      "metadata": {
+        "transport_notes": "인천지하철 : 인천역 하차+버스 45번 승차+해사고등학교 앞 하차",
+        "child_fee": 0.0,
+        "latitude": 37.4705073529,
+        "holiday_close": "18:00",
+        "youth_fee": 0.0,
+        "adult_fee": 0.0,
+        "closure_rule_raw": "월(단, 공휴일인 월요일은 제외)+1월1일",
+        "ownership_type": "공립",
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "longitude": 126.598813785,
+        "address": "인천광역시 제물포구 월미로 329",
+        "homepage_url": "http://www.incheon.go.kr/museum",
+        "weekday_close": "18:00",
+        "sigungu": "제물포구",
+        "sido": "인천광역시",
+        "holiday_open": "09:00",
+        "name": "한국이민사박물관",
+        "source_types": "BASE|TOUR_API",
+        "weekday_open": "09:00",
+        "requires_manual_review": true
+      },
+      "vector_rank": 2,
+      "bm25_rank": 1,
+      "vector_distance": 0.4945981502532959,
+      "vector_score": null,
+      "bm25_score": 25.441506503745074,
+      "vector_document": "인천광역시 월미공원 내에 자리한 한국이민사 박물관은 2003년 미주 이민 100주년을 기념해 개관했다. 인천광역시 시민과 해외동포들이 십시일반으로 뜻을 모아 건립한 대한민국 최초의 이민사 박물관이다. 대한민국 이민의 출발지였던 인천항의 역사와 이민의 역사, 당시 국내외 상황을 설명하는 상설전시가 제1~제4전시실에서 전시된다. 이민사 관련 특별 전시도 연중 진행하며 인천문화기행, 한인 이민사 등 다양한 교육 문화 프로그램도 운영한다. 한국이민사박물관은 2003년 미주 이민 100주년을 맞아 우리 선조들의 해외에서의 개척자적인 삶을 기리고 그 발자취를 후손들에게 전 하기 위해 인천광역시 시민들과 해외동포들이 함께 뜻을 모아서 건립한 우리나라 최초의 이민사박물관입니다.",
+      "bm25_document": "인천광역시 월미공원 내에 자리한 한국이민사 박물관은 2003년 미주 이민 100주년을 기념해 개관했다. 인천광역시 시민과 해외동포들이 십시일반으로 뜻을 모아 건립한 대한민국 최초의 이민사 박물관이다. 대한민국 이민의 출발지였던 인천항의 역사와 이민의 역사, 당시 국내외 상황을 설명하는 상설전시가 제1~제4전시실에서 전시된다. 이민사 관련 특별 전시도 연중 진행하며 인천문화기행, 한인 이민사 등 다양한 교육 문화 프로그램도 운영한다. 한국이민사박물관은 2003년 미주 이민 100주년을 맞아 우리 선조들의 해외에서의 개척자적인 삶을 기리고 그 발자취를 후손들에게 전 하기 위해 인천광역시 시민들과 해외동포들이 함께 뜻을 모아서 건립한 우리나라 최초의 이민사박물관입니다.",
+      "best_span_id": "chroma:M0006",
+      "best_span_text": "인천광역시 월미공원 내에 자리한 한국이민사 박물관은 2003년 미주 이민 100주년을 기념해 개관했다. 인천광역시 시민과 해외동포들이 십시일반으로 뜻을 모아 건립한 대한민국 최초의 이민사 박물관이다. 대한민국 이민의 출발지였던 인천항의 역사와 이민의 역사, 당시 국내외 상황을 설명하는 상설전시가 제1~제4전시실에서 전시된다. 이민사 관련 특별 전시도 연중 진행하며 인천문화기행, 한인 이민사 등 다양한 교육 문화 프로그램도 운영한다. 한국이민사박물관은 2003년 미주 이민 100주년을 맞아 우리 선조들의 해외에서의 개척자적인 삶을 기리고 그 발자취를 후손들에게 전 하기 위해 인천광역시 시민들과 해외동포들이 함께 뜻을 모아서 건립한 우리나라 최초의 이민사박물관입니다.",
+      "fusion_score": 0.03252247488101534,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 1,
+      "name_match": true,
+      "rerank_score": 0.9995837807655334,
+      "rank": 1,
+      "score": 0.9995837807655334,
+      "score_type": "cross_encoder",
+      "distance": 0.4945981502532959,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0006",
+      "source_doc_ids": [
+        "DOC-B0006-TOUR_API-2465140",
+        "DOC-B0006-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0006-TOUR_API-2465140",
+          "source_type": "TOUR_API",
+          "source_record_id": "2465140",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=6",
+          "match_trust": "RECHECKED_BY_RULE_NOT_HUMAN_APPROVED"
+        },
+        {
+          "doc_id": "DOC-B0006-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0006",
+          "source_locator": "data/raw/museum_base_1070.csv#row=7",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 57,
+          "doc_ids": [
+            "DOC-B0006-TOUR_API-2465140"
+          ]
+        },
+        {
+          "start": 58,
+          "end": 111,
+          "doc_ids": [
+            "DOC-B0006-TOUR_API-2465140"
+          ]
+        },
+        {
+          "start": 112,
+          "end": 182,
+          "doc_ids": [
+            "DOC-B0006-TOUR_API-2465140"
+          ]
+        },
+        {
+          "start": 183,
+          "end": 243,
+          "doc_ids": [
+            "DOC-B0006-TOUR_API-2465140"
+          ]
+        },
+        {
+          "start": 244,
+          "end": 375,
+          "doc_ids": [
+            "DOC-B0006-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=6",
+      "text": "인천광역시 월미공원 내에 자리한 한국이민사 박물관은 2003년 미주 이민 100주년을 기념해 개관했다. 인천광역시 시민과 해외동포들이 십시일반으로 뜻을 모아 건립한 대한민국 최초의 이민사 박물관이다. 대한민국 이민의 출발지였던 인천항의 역사와 이민의 역사, 당시 국내외 상황을 설명하는 상설전시가 제1~제4전시실에서 전시된다. 이민사 관련 특별 전시도 연중 진행하며 인천문화기행, 한인 이민사 등 다양한 교육 문화 프로그램도 운영한다. 한국이민사박물관은 2003년 미주 이민 100주년을 맞아 우리 선조들의 해외에서의 개척자적인 삶을 기리고 그 발자취를 후손들에게 전 하기 위해 인천광역시 시민들과 해외동포들이 함께 뜻을 모아서 건립한 우리나라 최초의 이민사박물관입니다.",
+      "sido": "인천광역시",
+      "sigungu": "제물포구",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=6"
+      ],
+      "evidence_id": "E1",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=6",
+        "fields": {
+          "name": "한국이민사박물관",
+          "sido": "인천광역시",
+          "sigungu": "제물포구",
+          "address": "인천광역시 제물포구 월미로 329",
+          "ownership_type": "공립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "09:00",
+          "weekday_close": "18:00",
+          "holiday_open": "09:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "월(단, 공휴일인 월요일은 제외)+1월1일"
+        },
+        "base_data_date": "2026-09-18",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0503",
+      "name": "국립대한민국임시정부기념관",
+      "document": "국립대한민국임시정부기념관은 3.1운동으로 건립된 대한민국 임시정부의 법통을 계승한다고 밝히는 헌법정신의 내용과 가치를 널리 알리는 공간이다. 기념관에서는 대한민국 임시정부의 역사를 주제별로 펼쳐 알리는 상설전시와 1년에 두 차례 특별주제를 다루는 특별기획전시가 열린다. 또한 자라나는 미래세대가 대한민국 임시정부를 기억하고 그 역사를 자랑스럽게 여길 수 있도록 청소년을 대상으로 창의적인 체험 프로그램도 운영하고 있다.",
+      "metadata": {
+        "youth_fee": 0.0,
+        "weekday_open": "09:00",
+        "source_types": "TOUR_API",
+        "homepage_url": "https://www.nmkpg.go.kr",
+        "adult_fee": 0.0,
+        "longitude": 126.9546507,
+        "closure_rule_raw": "매주 월요일(단, 월요일이 공휴일인 경우 당일은 개관하고 그 다음 첫번째 평일에 휴관)",
+        "holiday_close": "18:00",
+        "address": "서울특별시 서대문구 통일로 279-24",
+        "image_copyright": "Type1",
+        "latitude": 37.57624246,
+        "child_fee": 0.0,
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "sigungu": "서대문구",
+        "weekday_close": "18:00",
+        "name": "국립대한민국임시정부기념관",
+        "sido": "서울특별시",
+        "requires_manual_review": true,
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/29/4095029_image2_1.jpg",
+        "holiday_open": "09:00",
+        "ownership_type": "국립"
+      },
+      "vector_rank": 1,
+      "bm25_rank": null,
+      "vector_distance": 0.4887722134590149,
+      "vector_score": null,
+      "bm25_score": null,
+      "vector_document": "국립대한민국임시정부기념관은 3.1운동으로 건립된 대한민국 임시정부의 법통을 계승한다고 밝히는 헌법정신의 내용과 가치를 널리 알리는 공간이다. 기념관에서는 대한민국 임시정부의 역사를 주제별로 펼쳐 알리는 상설전시와 1년에 두 차례 특별주제를 다루는 특별기획전시가 열린다. 또한 자라나는 미래세대가 대한민국 임시정부를 기억하고 그 역사를 자랑스럽게 여길 수 있도록 청소년을 대상으로 창의적인 체험 프로그램도 운영하고 있다.",
+      "bm25_document": "",
+      "best_span_id": null,
+      "best_span_text": null,
+      "fusion_score": 0.01639344262295082,
+      "retrieved_by": [
+        "vector"
+      ],
+      "fusion_rank": 2,
+      "rerank_score": 0.0027932142838835716,
+      "rank": 2,
+      "score": 0.0027932142838835716,
+      "score_type": "cross_encoder",
+      "distance": 0.4887722134590149,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector"
+      ],
+      "retriever": "vector",
+      "source_doc_ids": [
+        "DOC-B0503-TOUR_API-2813170"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0503-TOUR_API-2813170",
+          "source_type": "TOUR_API",
+          "source_record_id": "2813170",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=249",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 78,
+          "doc_ids": [
+            "DOC-B0503-TOUR_API-2813170"
+          ]
+        },
+        {
+          "start": 79,
+          "end": 150,
+          "doc_ids": [
+            "DOC-B0503-TOUR_API-2813170"
+          ]
+        },
+        {
+          "start": 151,
+          "end": 234,
+          "doc_ids": [
+            "DOC-B0503-TOUR_API-2813170"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=249",
+      "text": "국립대한민국임시정부기념관은 3.1운동으로 건립된 대한민국 임시정부의 법통을 계승한다고 밝히는 헌법정신의 내용과 가치를 널리 알리는 공간이다. 기념관에서는 대한민국 임시정부의 역사를 주제별로 펼쳐 알리는 상설전시와 1년에 두 차례 특별주제를 다루는 특별기획전시가 열린다. 또한 자라나는 미래세대가 대한민국 임시정부를 기억하고 그 역사를 자랑스럽게 여길 수 있도록 청소년을 대상으로 창의적인 체험 프로그램도 운영하고 있다.",
+      "sido": "서울특별시",
+      "sigungu": "서대문구",
+      "span_id": "",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=249"
+      ],
+      "evidence_id": "E2",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=360",
+        "fields": {
+          "name": "국립대한민국임시정부기념관",
+          "sido": "서울특별시",
+          "sigungu": "서대문구",
+          "address": "서울특별시 서대문구 통일로 279-24",
+          "ownership_type": "국립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "09:00",
+          "weekday_close": "18:00",
+          "holiday_open": "09:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "매주 월요일(단, 월요일이 공휴일인 경우 당일은 개관하고 그 다음 첫번째 평일에 휴관)"
+        },
+        "base_data_date": "2026-04-08",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0001",
+      "name": "박진전쟁기념관",
+      "document": "박진전쟁기념관은 6·25전쟁 최후의 보루였던 박진전투 현장을 재현하여 민족 분단의 실상을 올바르게 인식하고 순국선열들의 호국 정신을 계승 발전시키고자 건립한 기념관이다. 박진지역은 부산을 점령하기 위해 낙동강을 도하하여 최후의 발악을 하던 북한군과 미군이 2주간 사투를 벌였던 격전지이다. 박진지구전투의 승리로 인해 전세가 역전된 국군과 유엔군이 낙동강을 건너 반격하게 되었으며, 인천상륙작전의 성공과 함께 압록강까지 진격할 수 있는 결정적 계기가 된 한국전쟁사에 길이 빛날 중요한 전적지이다. 박진전쟁기념관에서는 6·25전쟁 및 낙동강 돌출부 전투 관련 행사 및 프로그램을 운영하고 있으며, 박진지구 전투 디오라마 등을 통한 당시 모습 재현 및 다양한 기획 전시를 진행하고 있다. 또한, 안보교육의 장으로써 역할을 하고 있다.",
+      "metadata": {
+        "image_copyright": "Type1",
+        "sigungu": "창녕군",
+        "child_fee": 0.0,
+        "holiday_close": "18:00",
+        "amenities_raw": "장애인화장실+유모차/휠체어 이용가능",
+        "ownership_type": "공립",
+        "longitude": 128.3861935,
+        "adult_fee": 0.0,
+        "holiday_open": "09:00",
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "homepage_url": "https://www.cng.go.kr/01656/03204/03205.web",
+        "weekday_close": "18:00",
+        "latitude": 35.44796796,
+        "requires_manual_review": true,
+        "sido": "경상남도",
+        "name": "박진전쟁기념관",
+        "youth_fee": 0.0,
+        "weekday_open": "09:00",
+        "closure_rule_raw": "매주 월요일+1월 1일+설날+추석날",
+        "address": "경상남도 창녕군 남지읍 월상길 27",
+        "source_types": "TOUR_API",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/99/3568999_image2_1.jpg"
+      },
+      "vector_rank": null,
+      "bm25_rank": 5,
+      "vector_distance": null,
+      "vector_score": null,
+      "bm25_score": 6.825146422535488,
+      "vector_document": "",
+      "bm25_document": "박진전쟁기념관은 6·25전쟁 최후의 보루였던 박진전투 현장을 재현하여 민족 분단의 실상을 올바르게 인식하고 순국선열들의 호국 정신을 계승 발전시키고자 건립한 기념관이다. 박진지역은 부산을 점령하기 위해 낙동강을 도하하여 최후의 발악을 하던 북한군과 미군이 2주간 사투를 벌였던 격전지이다. 박진지구전투의 승리로 인해 전세가 역전된 국군과 유엔군이 낙동강을 건너 반격하게 되었으며, 인천상륙작전의 성공과 함께 압록강까지 진격할 수 있는 결정적 계기가 된 한국전쟁사에 길이 빛날 중요한 전적지이다. 박진전쟁기념관에서는 6·25전쟁 및 낙동강 돌출부 전투 관련 행사 및 프로그램을 운영하고 있으며, 박진지구 전투 디오라마 등을 통한 당시 모습 재현 및 다양한 기획 전시를 진행하고 있다. 또한, 안보교육의 장으로써 역할을 하고 있다.",
+      "best_span_id": "chroma:M0001",
+      "best_span_text": "박진전쟁기념관은 6·25전쟁 최후의 보루였던 박진전투 현장을 재현하여 민족 분단의 실상을 올바르게 인식하고 순국선열들의 호국 정신을 계승 발전시키고자 건립한 기념관이다. 박진지역은 부산을 점령하기 위해 낙동강을 도하하여 최후의 발악을 하던 북한군과 미군이 2주간 사투를 벌였던 격전지이다. 박진지구전투의 승리로 인해 전세가 역전된 국군과 유엔군이 낙동강을 건너 반격하게 되었으며, 인천상륙작전의 성공과 함께 압록강까지 진격할 수 있는 결정적 계기가 된 한국전쟁사에 길이 빛날 중요한 전적지이다. 박진전쟁기념관에서는 6·25전쟁 및 낙동강 돌출부 전투 관련 행사 및 프로그램을 운영하고 있으며, 박진지구 전투 디오라마 등을 통한 당시 모습 재현 및 다양한 기획 전시를 진행하고 있다. 또한, 안보교육의 장으로써 역할을 하고 있다.",
+      "fusion_score": 0.015384615384615385,
+      "retrieved_by": [
+        "bm25"
+      ],
+      "fusion_rank": 9,
+      "rerank_score": 0.0010517877526581287,
+      "rank": 3,
+      "score": 0.0010517877526581287,
+      "score_type": "cross_encoder",
+      "distance": null,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "bm25"
+      ],
+      "retriever": "bm25",
+      "span_id": "chroma:M0001",
+      "source_doc_ids": [
+        "DOC-B0001-TOUR_API-2785601"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0001-TOUR_API-2785601",
+          "source_type": "TOUR_API",
+          "source_record_id": "2785601",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=2",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 94,
+          "doc_ids": [
+            "DOC-B0001-TOUR_API-2785601"
+          ]
+        },
+        {
+          "start": 95,
+          "end": 161,
+          "doc_ids": [
+            "DOC-B0001-TOUR_API-2785601"
+          ]
+        },
+        {
+          "start": 162,
+          "end": 276,
+          "doc_ids": [
+            "DOC-B0001-TOUR_API-2785601"
+          ]
+        },
+        {
+          "start": 277,
+          "end": 381,
+          "doc_ids": [
+            "DOC-B0001-TOUR_API-2785601"
+          ]
+        },
+        {
+          "start": 382,
+          "end": 407,
+          "doc_ids": [
+            "DOC-B0001-TOUR_API-2785601"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=2",
+      "text": "박진전쟁기념관은 6·25전쟁 최후의 보루였던 박진전투 현장을 재현하여 민족 분단의 실상을 올바르게 인식하고 순국선열들의 호국 정신을 계승 발전시키고자 건립한 기념관이다. 박진지역은 부산을 점령하기 위해 낙동강을 도하하여 최후의 발악을 하던 북한군과 미군이 2주간 사투를 벌였던 격전지이다. 박진지구전투의 승리로 인해 전세가 역전된 국군과 유엔군이 낙동강을 건너 반격하게 되었으며, 인천상륙작전의 성공과 함께 압록강까지 진격할 수 있는 결정적 계기가 된 한국전쟁사에 길이 빛날 중요한 전적지이다. 박진전쟁기념관에서는 6·25전쟁 및 낙동강 돌출부 전투 관련 행사 및 프로그램을 운영하고 있으며, 박진지구 전투 디오라마 등을 통한 당시 모습 재현 및 다양한 기획 전시를 진행하고 있다. 또한, 안보교육의 장으로써 역할을 하고 있다.",
+      "sido": "경상남도",
+      "sigungu": "창녕군",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=2"
+      ],
+      "evidence_id": "E3",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=2",
+        "fields": {
+          "name": "박진전쟁기념관",
+          "sido": "경상남도",
+          "sigungu": "창녕군",
+          "address": "경상남도 창녕군 남지읍 월상길 27",
+          "ownership_type": "공립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "09:00",
+          "weekday_close": "18:00",
+          "holiday_open": "09:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "매주 월요일+1월 1일+설날+추석날",
+          "amenities_raw": "장애인화장실+유모차/휠체어 이용가능"
+        },
+        "base_data_date": "2026-09-18",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0898",
+      "name": "의재미술관",
+      "document": "의재미술관은 의재 허백련(毅齋 許百鍊) 선생을 기념하기 위해 건립된 미술관입니다.",
+      "metadata": {
+        "sigungu": "동구",
+        "latitude": 35.12937059,
+        "youth_fee": 1000.0,
+        "name": "의재미술관",
+        "longitude": 126.967392,
+        "requires_manual_review": false,
+        "adult_fee_status": "BASE_FEE_PAID",
+        "adult_fee": 2000.0,
+        "ownership_type": "사립",
+        "source_types": "BASE",
+        "sido": "광주광역시",
+        "weekday_open": "09:30",
+        "fee_notes": "군인 1000원",
+        "holiday_close": "17:00",
+        "holiday_open": "09:30",
+        "address": "광주광역시 동구 증심사길 155(운림동)",
+        "homepage_url": "http://www.uijae.org/",
+        "weekday_close": "05:30",
+        "child_fee": 0.0,
+        "closure_rule_raw": "월"
+      },
+      "vector_rank": null,
+      "bm25_rank": 2,
+      "vector_distance": null,
+      "vector_score": null,
+      "bm25_score": 8.702172727613927,
+      "vector_document": "",
+      "bm25_document": "의재미술관은 의재 허백련(毅齋 許百鍊) 선생을 기념하기 위해 건립된 미술관입니다.",
+      "best_span_id": "chroma:M0898",
+      "best_span_text": "의재미술관은 의재 허백련(毅齋 許百鍊) 선생을 기념하기 위해 건립된 미술관입니다.",
+      "fusion_score": 0.016129032258064516,
+      "retrieved_by": [
+        "bm25"
+      ],
+      "fusion_rank": 3,
+      "rerank_score": 0.0002927218738477677,
+      "rank": 4,
+      "score": 0.0002927218738477677,
+      "score_type": "cross_encoder",
+      "distance": null,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "bm25"
+      ],
+      "retriever": "bm25",
+      "span_id": "chroma:M0898",
+      "source_doc_ids": [
+        "DOC-B0898-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0898-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0898",
+          "source_locator": "data/raw/museum_base_1070.csv#row=899",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 45,
+          "doc_ids": [
+            "DOC-B0898-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_base_1070.csv#row=899",
+      "text": "의재미술관은 의재 허백련(毅齋 許百鍊) 선생을 기념하기 위해 건립된 미술관입니다.",
+      "sido": "광주광역시",
+      "sigungu": "동구",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_base_1070.csv#row=899"
+      ],
+      "evidence_id": "E4",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=616",
+        "fields": {
+          "name": "의재미술관",
+          "sido": "광주광역시",
+          "sigungu": "동구",
+          "address": "광주광역시 동구 증심사길 155(운림동)",
+          "ownership_type": "사립",
+          "adult_fee": "2000",
+          "youth_fee": "1000",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_PAID",
+          "weekday_open": "09:30",
+          "weekday_close": "05:30",
+          "holiday_open": "09:30",
+          "holiday_close": "17:00",
+          "closure_rule_raw": "월"
+        },
+        "base_data_date": "2025-06-26",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0733",
+      "name": "청량산박물관",
+      "document": "청량산박물관은 청량산도립공원 시설지구내에 위치하며 청량산과 조선시대 유산遊山문화에 특화된 박물관이다. 뿐만 아니라 봉화군의 역사와 인물, 민속자료의 전시, 향토사 연구 및 교육활동 등도 병행하고 있다. 박물관은 2개의 상설전시실과 기획전시실, 어린이체험실, 인물역사관, 농경전시관으로 구성되었다. 상설전시실에는 청량산과 관련된 역사, 인물, 자연환경 등과 유산문화와 관련된 각종 유물, 관련 인물들의 흔적들이 전시되어 있으며, 기획전시실에는 매년 봉화의 역사문화와 관련된 다양한 주제로 기획전이 개최되고 있다. 어린이체험실에는 아이들이 즐길수 있는 체험프로그램이 마련되어 있다. 인물역사관과 농경전시관에서는 봉화의 인물사와 농업사가 일목요연하게 정리되어 있다. 청량산박물관은 2004-06-11일 개관하여 청량산을 배경으로 한 문화유산과 자연환경, 지역 홍보자료를 한 곳에 모아 전시함으로써 봉화의 역사와 문화에 대한이해는 물론, 지역전통문화의 계승발전과 군민 정서함양의 계기를 마련하고 청량산을 찾는 사람들에게 유익한 탐방문화를 제공하여 자연체험의 산 교육장으로 활용함과 아울러 지역의 새로운 관광명소를 조성하고자 건립하였다",
+      "metadata": {
+        "closure_rule_raw": "월+법정공휴일",
+        "name": "청량산박물관",
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "sido": "경상북도",
+        "ownership_type": "공립",
+        "sigungu": "봉화군",
+        "latitude": 36.78808222,
+        "weekday_open": "09:00",
+        "adult_fee": 0.0,
+        "holiday_open": "09:00",
+        "child_fee": 0.0,
+        "longitude": 128.8938782,
+        "source_types": "BASE|TOUR_API",
+        "youth_fee": 0.0,
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/75/3340975_image2_1.JPG",
+        "amenities_raw": "전망대+휠체어+안내소",
+        "image_copyright": "Type3",
+        "holiday_close": "18:00",
+        "homepage_url": "http://bonghwa.go.kr/open.content/mt/",
+        "address": "경상북도 봉화군 명호면 광석길 39",
+        "transport_notes": "봉화출발 일 4회+안동(67번)출발 일 5회",
+        "weekday_close": "18:00",
+        "requires_manual_review": true
+      },
+      "vector_rank": null,
+      "bm25_rank": 4,
+      "vector_distance": null,
+      "vector_score": null,
+      "bm25_score": 7.209770724882555,
+      "vector_document": "",
+      "bm25_document": "청량산박물관은 청량산도립공원 시설지구내에 위치하며 청량산과 조선시대 유산遊山문화에 특화된 박물관이다. 뿐만 아니라 봉화군의 역사와 인물, 민속자료의 전시, 향토사 연구 및 교육활동 등도 병행하고 있다. 박물관은 2개의 상설전시실과 기획전시실, 어린이체험실, 인물역사관, 농경전시관으로 구성되었다. 상설전시실에는 청량산과 관련된 역사, 인물, 자연환경 등과 유산문화와 관련된 각종 유물, 관련 인물들의 흔적들이 전시되어 있으며, 기획전시실에는 매년 봉화의 역사문화와 관련된 다양한 주제로 기획전이 개최되고 있다. 어린이체험실에는 아이들이 즐길수 있는 체험프로그램이 마련되어 있다. 인물역사관과 농경전시관에서는 봉화의 인물사와 농업사가 일목요연하게 정리되어 있다. 청량산박물관은 2004-06-11일 개관하여 청량산을 배경으로 한 문화유산과 자연환경, 지역 홍보자료를 한 곳에 모아 전시함으로써 봉화의 역사와 문화에 대한이해는 물론, 지역전통문화의 계승발전과 군민 정서함양의 계기를 마련하고 청량산을 찾는 사람들에게 유익한 탐방문화를 제공하여 자연체험의 산 교육장으로 활용함과 아울러 지역의 새로운 관광명소를 조성하고자 건립하였다",
+      "best_span_id": "chroma:M0733",
+      "best_span_text": "청량산박물관은 청량산도립공원 시설지구내에 위치하며 청량산과 조선시대 유산遊山문화에 특화된 박물관이다. 뿐만 아니라 봉화군의 역사와 인물, 민속자료의 전시, 향토사 연구 및 교육활동 등도 병행하고 있다. 박물관은 2개의 상설전시실과 기획전시실, 어린이체험실, 인물역사관, 농경전시관으로 구성되었다. 상설전시실에는 청량산과 관련된 역사, 인물, 자연환경 등과 유산문화와 관련된 각종 유물, 관련 인물들의 흔적들이 전시되어 있으며, 기획전시실에는 매년 봉화의 역사문화와 관련된 다양한 주제로 기획전이 개최되고 있다. 어린이체험실에는 아이들이 즐길수 있는 체험프로그램이 마련되어 있다. 인물역사관과 농경전시관에서는 봉화의 인물사와 농업사가 일목요연하게 정리되어 있다. 청량산박물관은 2004-06-11일 개관하여 청량산을 배경으로 한 문화유산과 자연환경, 지역 홍보자료를 한 곳에 모아 전시함으로써 봉화의 역사와 문화에 대한이해는 물론, 지역전통문화의 계승발전과 군민 정서함양의 계기를 마련하고 청량산을 찾는 사람들에게 유익한 탐방문화를 제공하여 자연체험의 산 교육장으로 활용함과 아울러 지역의 새로운 관광명소를 조성하고자 건립하였다",
+      "fusion_score": 0.015625,
+      "retrieved_by": [
+        "bm25"
+      ],
+      "fusion_rank": 7,
+      "rerank_score": 0.0001997515937546268,
+      "rank": 5,
+      "score": 0.0001997515937546268,
+      "score_type": "cross_encoder",
+      "distance": null,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "bm25"
+      ],
+      "retriever": "bm25",
+      "span_id": "chroma:M0733",
+      "source_doc_ids": [
+        "DOC-B0733-TOUR_API-130666",
+        "DOC-B0733-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0733-TOUR_API-130666",
+          "source_type": "TOUR_API",
+          "source_record_id": "130666",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=353",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        },
+        {
+          "doc_id": "DOC-B0733-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0733",
+          "source_locator": "data/raw/museum_base_1070.csv#row=734",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 56,
+          "doc_ids": [
+            "DOC-B0733-TOUR_API-130666"
+          ]
+        },
+        {
+          "start": 57,
+          "end": 112,
+          "doc_ids": [
+            "DOC-B0733-TOUR_API-130666"
+          ]
+        },
+        {
+          "start": 113,
+          "end": 165,
+          "doc_ids": [
+            "DOC-B0733-TOUR_API-130666"
+          ]
+        },
+        {
+          "start": 166,
+          "end": 285,
+          "doc_ids": [
+            "DOC-B0733-TOUR_API-130666"
+          ]
+        },
+        {
+          "start": 286,
+          "end": 323,
+          "doc_ids": [
+            "DOC-B0733-TOUR_API-130666"
+          ]
+        },
+        {
+          "start": 324,
+          "end": 369,
+          "doc_ids": [
+            "DOC-B0733-TOUR_API-130666"
+          ]
+        },
+        {
+          "start": 370,
+          "end": 574,
+          "doc_ids": [
+            "DOC-B0733-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=353",
+      "text": "청량산박물관은 청량산도립공원 시설지구내에 위치하며 청량산과 조선시대 유산遊山문화에 특화된 박물관이다. 뿐만 아니라 봉화군의 역사와 인물, 민속자료의 전시, 향토사 연구 및 교육활동 등도 병행하고 있다. 박물관은 2개의 상설전시실과 기획전시실, 어린이체험실, 인물역사관, 농경전시관으로 구성되었다. 상설전시실에는 청량산과 관련된 역사, 인물, 자연환경 등과 유산문화와 관련된 각종 유물, 관련 인물들의 흔적들이 전시되어 있으며, 기획전시실에는 매년 봉화의 역사문화와 관련된 다양한 주제로 기획전이 개최되고 있다. 어린이체험실에는 아이들이 즐길수 있는 체험프로그램이 마련되어 있다. 인물역사관과 농경전시관에서는 봉화의 인물사와 농업사가 일목요연하게 정리되어 있다. 청량산박물관은 2004-06-11일 개관하여 청량산을 배경으로 한 문화유산과 자연환경, 지역 홍보자료를 한 곳에 모아 전시함으로써 봉화의 역사와 문화에 대한이해는 물론, 지역전통문화의 계승발전과 군민 정서함양의 계기를 마련하고 청량산을 찾는 사람들에게 유익한 탐방문화를 제공하여 자연체험의 산 교육장으로 활용함과 아울러 지역의 새로운 관광명소를 조성하고자 건립하였다",
+      "sido": "경상북도",
+      "sigungu": "봉화군",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=353"
+      ],
+      "evidence_id": "E5",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=508",
+        "fields": {
+          "name": "청량산박물관",
+          "sido": "경상북도",
+          "sigungu": "봉화군",
+          "address": "경상북도 봉화군 명호면 광석길 39",
+          "ownership_type": "공립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "09:00",
+          "weekday_close": "18:00",
+          "holiday_open": "09:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "월+법정공휴일",
+          "amenities_raw": "전망대+휠체어+안내소"
+        },
+        "base_data_date": "2025-12-16",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    }
+  ],
+  "answer": "한국이민사박물관은 2003년 미주 이민 100주년을 기념해 건립되었습니다. [E1]",
+  "retrieval_status": "ok",
+  "answer_status": "answered",
+  "route": "hybrid",
+  "retry_count": 0,
+  "supervisor_verified": true,
+  "rerank_applied": true,
+  "retriever_errors": [],
+  "warnings": [],
+  "duration_ms": 222775.38,
+  "error_type": "",
+  "hit_at_1": 1,
+  "hit_at_3": 1,
+  "hit_at_5": 1,
+  "recall_at_5": 1.0,
+  "mrr_at_10": 1.0
+}

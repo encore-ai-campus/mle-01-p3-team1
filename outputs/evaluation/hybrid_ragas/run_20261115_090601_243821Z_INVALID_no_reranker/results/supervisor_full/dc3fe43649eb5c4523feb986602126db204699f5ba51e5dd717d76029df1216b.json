@@ -1,0 +1,843 @@
+{
+  "mode": "supervisor_full",
+  "question_id": "Q201",
+  "evidence": [
+    {
+      "museum_id": "M0328",
+      "name": "한국문인인장박물관",
+      "document": "한국문인인장박물관은 충남 예산의 예당저수지 인근인 광시면 운산리 위치하며, 우리나라에 하나뿐인 인장(印章) 테마 박물관이다. 문인들이 자신이 낸 책 뒤에 낙관처럼 사용하던 인장을 모아 전시한 이색 전시공간이다. 인장은 그 자체가 이미 전각으로서 예술성을 지니고 있지만, 특히 문인들의 인장은 그 작가의 정체성을 의미했기에 거기에는 작가의 영혼과 문학정신이 그대로 아로새겨져 있다. 문학관이 소장하고 있는 인장은 한국 근·현대 문단사를 명멸했던 문인들의 것으로 총 600여 점에 달한다.",
+      "metadata": {
+        "weekday_close": "18:00",
+        "closure_rule_raw": "공휴일",
+        "ownership_type": "사립",
+        "requires_manual_review": true,
+        "longitude": 126.7503304,
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "sigungu": "예산군",
+        "adult_fee": 0.0,
+        "address": "충청남도 예산군 광시면 운산2길 111-3",
+        "name": "한국문인인장박물관",
+        "source_types": "TOUR_API",
+        "image_copyright": "Type3",
+        "youth_fee": 0.0,
+        "child_fee": 0.0,
+        "holiday_close": "00:00",
+        "latitude": 36.54709527,
+        "holiday_open": "00:00",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/69/3337469_image2_1.jpg",
+        "weekday_open": "09:00",
+        "sido": "충청남도"
+      },
+      "vector_rank": 1,
+      "bm25_rank": 1,
+      "vector_distance": 0.38630199432373047,
+      "vector_score": null,
+      "bm25_score": 48.50470079254755,
+      "vector_document": "한국문인인장박물관은 충남 예산의 예당저수지 인근인 광시면 운산리 위치하며, 우리나라에 하나뿐인 인장(印章) 테마 박물관이다. 문인들이 자신이 낸 책 뒤에 낙관처럼 사용하던 인장을 모아 전시한 이색 전시공간이다. 인장은 그 자체가 이미 전각으로서 예술성을 지니고 있지만, 특히 문인들의 인장은 그 작가의 정체성을 의미했기에 거기에는 작가의 영혼과 문학정신이 그대로 아로새겨져 있다. 문학관이 소장하고 있는 인장은 한국 근·현대 문단사를 명멸했던 문인들의 것으로 총 600여 점에 달한다.",
+      "bm25_document": "한국문인인장박물관은 충남 예산의 예당저수지 인근인 광시면 운산리 위치하며, 우리나라에 하나뿐인 인장(印章) 테마 박물관이다. 문인들이 자신이 낸 책 뒤에 낙관처럼 사용하던 인장을 모아 전시한 이색 전시공간이다. 인장은 그 자체가 이미 전각으로서 예술성을 지니고 있지만, 특히 문인들의 인장은 그 작가의 정체성을 의미했기에 거기에는 작가의 영혼과 문학정신이 그대로 아로새겨져 있다. 문학관이 소장하고 있는 인장은 한국 근·현대 문단사를 명멸했던 문인들의 것으로 총 600여 점에 달한다.",
+      "best_span_id": "chroma:M0328",
+      "best_span_text": "한국문인인장박물관은 충남 예산의 예당저수지 인근인 광시면 운산리 위치하며, 우리나라에 하나뿐인 인장(印章) 테마 박물관이다. 문인들이 자신이 낸 책 뒤에 낙관처럼 사용하던 인장을 모아 전시한 이색 전시공간이다. 인장은 그 자체가 이미 전각으로서 예술성을 지니고 있지만, 특히 문인들의 인장은 그 작가의 정체성을 의미했기에 거기에는 작가의 영혼과 문학정신이 그대로 아로새겨져 있다. 문학관이 소장하고 있는 인장은 한국 근·현대 문단사를 명멸했던 문인들의 것으로 총 600여 점에 달한다.",
+      "fusion_score": 0.03278688524590164,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 1,
+      "name_match": true,
+      "rerank_score": null,
+      "rank": 1,
+      "score": 0.03278688524590164,
+      "score_type": "rrf",
+      "distance": 0.38630199432373047,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0328",
+      "source_doc_ids": [
+        "DOC-B0328-TOUR_API-1937650"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0328-TOUR_API-1937650",
+          "source_type": "TOUR_API",
+          "source_record_id": "1937650",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=160",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 69,
+          "doc_ids": [
+            "DOC-B0328-TOUR_API-1937650"
+          ]
+        },
+        {
+          "start": 70,
+          "end": 117,
+          "doc_ids": [
+            "DOC-B0328-TOUR_API-1937650"
+          ]
+        },
+        {
+          "start": 118,
+          "end": 212,
+          "doc_ids": [
+            "DOC-B0328-TOUR_API-1937650"
+          ]
+        },
+        {
+          "start": 213,
+          "end": 271,
+          "doc_ids": [
+            "DOC-B0328-TOUR_API-1937650"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=160",
+      "text": "한국문인인장박물관은 충남 예산의 예당저수지 인근인 광시면 운산리 위치하며, 우리나라에 하나뿐인 인장(印章) 테마 박물관이다. 문인들이 자신이 낸 책 뒤에 낙관처럼 사용하던 인장을 모아 전시한 이색 전시공간이다. 인장은 그 자체가 이미 전각으로서 예술성을 지니고 있지만, 특히 문인들의 인장은 그 작가의 정체성을 의미했기에 거기에는 작가의 영혼과 문학정신이 그대로 아로새겨져 있다. 문학관이 소장하고 있는 인장은 한국 근·현대 문단사를 명멸했던 문인들의 것으로 총 600여 점에 달한다.",
+      "sido": "충청남도",
+      "sigungu": "예산군",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=160"
+      ],
+      "evidence_id": "E1",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=236",
+        "fields": {
+          "name": "한국문인인장박물관",
+          "sido": "충청남도",
+          "sigungu": "예산군",
+          "address": "충청남도 예산군 광시면 운산2길 111-3",
+          "ownership_type": "사립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "09:00",
+          "weekday_close": "18:00",
+          "holiday_open": "00:00",
+          "holiday_close": "00:00",
+          "closure_rule_raw": "공휴일"
+        },
+        "base_data_date": "2026-06-05",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0259",
+      "name": "영인산산림박물관",
+      "document": "영인산산림박물관은 영인산자연휴양림 내 산림에 관한 자료 수집과 교육, 산림문화 창달을 통한 산림문화 현장학습장의 역할과 전시 및 연구를 목적으로 건립되었다. 본관은 예술, 놀이, 체험, 교육 등 다양한 분야에서 자연과 숲을 접하고 이해하도록 하였으며, 별관은 상상과 치유의 숲 개념을 도입하여 구성하였다. 영인산산림박물관은 산림문화를 보존, 전파하여 시민에게 산림의 소중함을 다시 인식할 기회를 제공하고, 일상에 지친 현대인들에게 숲을 통한 휴식과 치유를 제공하는 신개념 산림박물관이다. 영인산산림박물관은 산림에 관한 자료의 수집과 교육, 산림문화의 창달을 통한 산림문화의 현장 학습장으로서의 역할과 전시 및 연구를 목적으로 건립되었습니다.",
+      "metadata": {
+        "holiday_close": "18:00",
+        "transport_notes": "아산(온양)-영인면(아산방면)시내버스 수시운행(25분 소요) 버스번호: 531, 540, 541, 560, 600, 601, 610, 612, 613, 630 영인산 인근 하차 후 도보 1시간",
+        "sido": "충청남도",
+        "requires_manual_review": true,
+        "fee_notes": "휴양림 입장료 통합",
+        "youth_fee": 0.0,
+        "child_fee": 0.0,
+        "adult_fee": 0.0,
+        "ownership_type": "국립",
+        "holiday_open": "10:00",
+        "address": "충청남도 아산시 염치읍 아산온천로 16-30",
+        "name": "영인산산림박물관",
+        "amenities_raw": "전시실+전망대+수유실",
+        "latitude": 36.84322587,
+        "closure_rule_raw": "매주 월요일(단, 월요일이 공휴일일 때에는 공휴일 다음 날)+1월1일+설·추석당일",
+        "weekday_close": "18:00",
+        "weekday_open": "10:00",
+        "homepage_url": "http://museum.asanfmc.or.kr",
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "source_types": "BASE|TOUR_API",
+        "longitude": 126.9409482,
+        "sigungu": "아산시"
+      },
+      "vector_rank": 2,
+      "bm25_rank": null,
+      "vector_distance": 0.488284707069397,
+      "vector_score": null,
+      "bm25_score": null,
+      "vector_document": "영인산산림박물관은 영인산자연휴양림 내 산림에 관한 자료 수집과 교육, 산림문화 창달을 통한 산림문화 현장학습장의 역할과 전시 및 연구를 목적으로 건립되었다. 본관은 예술, 놀이, 체험, 교육 등 다양한 분야에서 자연과 숲을 접하고 이해하도록 하였으며, 별관은 상상과 치유의 숲 개념을 도입하여 구성하였다. 영인산산림박물관은 산림문화를 보존, 전파하여 시민에게 산림의 소중함을 다시 인식할 기회를 제공하고, 일상에 지친 현대인들에게 숲을 통한 휴식과 치유를 제공하는 신개념 산림박물관이다. 영인산산림박물관은 산림에 관한 자료의 수집과 교육, 산림문화의 창달을 통한 산림문화의 현장 학습장으로서의 역할과 전시 및 연구를 목적으로 건립되었습니다.",
+      "bm25_document": "",
+      "best_span_id": null,
+      "best_span_text": null,
+      "fusion_score": 0.016129032258064516,
+      "retrieved_by": [
+        "vector"
+      ],
+      "fusion_rank": 2,
+      "rerank_score": null,
+      "rank": 2,
+      "score": 0.016129032258064516,
+      "score_type": "rrf",
+      "distance": 0.488284707069397,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector"
+      ],
+      "retriever": "vector",
+      "source_doc_ids": [
+        "DOC-B0259-TOUR_API-2751969",
+        "DOC-B0259-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0259-TOUR_API-2751969",
+          "source_type": "TOUR_API",
+          "source_record_id": "2751969",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=129",
+          "match_trust": "RECHECKED_BY_RULE_NOT_HUMAN_APPROVED"
+        },
+        {
+          "doc_id": "DOC-B0259-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0259",
+          "source_locator": "data/raw/museum_base_1070.csv#row=260",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 87,
+          "doc_ids": [
+            "DOC-B0259-TOUR_API-2751969"
+          ]
+        },
+        {
+          "start": 88,
+          "end": 170,
+          "doc_ids": [
+            "DOC-B0259-TOUR_API-2751969"
+          ]
+        },
+        {
+          "start": 171,
+          "end": 272,
+          "doc_ids": [
+            "DOC-B0259-TOUR_API-2751969"
+          ]
+        },
+        {
+          "start": 273,
+          "end": 358,
+          "doc_ids": [
+            "DOC-B0259-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=129",
+      "text": "영인산산림박물관은 영인산자연휴양림 내 산림에 관한 자료 수집과 교육, 산림문화 창달을 통한 산림문화 현장학습장의 역할과 전시 및 연구를 목적으로 건립되었다. 본관은 예술, 놀이, 체험, 교육 등 다양한 분야에서 자연과 숲을 접하고 이해하도록 하였으며, 별관은 상상과 치유의 숲 개념을 도입하여 구성하였다. 영인산산림박물관은 산림문화를 보존, 전파하여 시민에게 산림의 소중함을 다시 인식할 기회를 제공하고, 일상에 지친 현대인들에게 숲을 통한 휴식과 치유를 제공하는 신개념 산림박물관이다. 영인산산림박물관은 산림에 관한 자료의 수집과 교육, 산림문화의 창달을 통한 산림문화의 현장 학습장으로서의 역할과 전시 및 연구를 목적으로 건립되었습니다.",
+      "sido": "충청남도",
+      "sigungu": "아산시",
+      "span_id": "",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=129"
+      ],
+      "evidence_id": "E2",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=181",
+        "fields": {
+          "name": "영인산산림박물관",
+          "sido": "충청남도",
+          "sigungu": "아산시",
+          "address": "충청남도 아산시 염치읍 아산온천로 16-30",
+          "ownership_type": "국립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "10:00",
+          "weekday_close": "18:00",
+          "holiday_open": "10:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "매주 월요일(단, 월요일이 공휴일일 때에는 공휴일 다음 날)+1월1일+설·추석당일",
+          "amenities_raw": "전시실+전망대+수유실"
+        },
+        "base_data_date": "2026-07-01",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0312",
+      "name": "여주박물관",
+      "document": "1997년 여주군향토사료관으로 문을 연 여주박물관은 여주의 역사와 민속자료 등을 조사·수집·전시·교육하고, 새로운 학술자료를 발굴하며 여주의 정체성을 확립하는 역할을 수행하고 있다. 2010년 전시실 확장 후 제1종 전문박물관으로 등록하여 여주박물관으로 명칭을 변경하였으며, 2016년 7월 14일 여마관(신관)의 건립으로 전국에 흩어졌던 여주지역 발굴출토 국가귀속유물과 그간 수집한 다양한 유물을 전시할 수 있게 되었다. 전시실은 상설전시실과 기획전시실, 야외전시실로 구분되어 있으며, 상설전시실은 4가지 주제로 전시를 진행하고 있다. 여주역사실에서는 국립중앙박물관을 비롯한 여러 기관들에서 보관하던 주요 유적 출토 국가귀속 유물들과 그간 구입·기증을 통해 수집한 중요유물들을 전시하고 있다. 흔암리 선사유적지, 신륵사, 고달사지, 세종대왕릉과 효종대왕릉, 명성황후 생가 등 수많은 문화유적은 여주의 오랜 역사를 증명하고 있다. 남한강 수석전시실은 김정식 선생이 57년간 모은 수석을 기증받아 전시한 곳으로, 산수경석·물형석·추상석·12지석 등 자연이 빚은 최고의 예술작품인 수석의 멋과 아름다움을 느낄 수 있는 공간이다. 갖가지 수석에 담긴 의미를 여주 남한강이 가지고 있는 이야기로 풀어놓았다. 수석의 신비로움을 다채로운 방식으로 이해할 수 있는 공간이다. 류주현 문학전시실은 우리나라에 ‘대하 역사소설’이라는 장르를 개척하신 여주 출신의 묵사 류주현 선생의 삶과 작품세계를 설명한 공간이다. 류주현 선생은 다양·다작의 작가로 『조선총독부』, 『대원군』 등을 대표작으로 꼽을 수 있다. 한국 대표 문인으로서 선생의 생애와 작품세계, 문인들과의 교류를 통해 옛 문인들의 멋스러운 삶의 정취를 느낄 수 있을 것이다. 조선 왕릉실은 세종 영릉(英陵)과 효종 영릉(寧陵) 두 기의 조선 왕릉이 여주로 천릉하면서 조선시대부터 현대에 이르기까지 왕릉과 함께 변화한 여주의 역사와 여주 사람들의 삶을 살펴볼 수 있다. 여주의 역사와 전통문화를 아우르는 시립박물관으로, 전시와 교육, 체험을 할 수 있는 문화공간이다.",
+      "metadata": {
+        "sido": "경기도",
+        "name": "여주박물관",
+        "holiday_close": "18:00",
+        "transport_notes": "여주IC → 여주대교 → 신륵사 관광단지 → 신륵사 관지 내 강변에 위치",
+        "weekday_close": "18:00",
+        "holiday_open": "09:00",
+        "weekday_open": "09:00",
+        "youth_fee": 0.0,
+        "homepage_url": "http://www.yeoju.go.kr/museum",
+        "requires_manual_review": true,
+        "sigungu": "여주시",
+        "adult_fee": 0.0,
+        "source_types": "BASE|TOUR_API",
+        "image_copyright": "Type1",
+        "longitude": 127.6533782,
+        "ownership_type": "공립",
+        "child_fee": 0.0,
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "address": "경기도 여주시 신륵사길 6-12",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/95/3540495_image2_1.jpg",
+        "closure_rule_raw": "월요일+추석당일+설날당일+1월1일",
+        "latitude": 37.2996535,
+        "amenities_raw": "청춘카페"
+      },
+      "vector_rank": null,
+      "bm25_rank": 2,
+      "vector_distance": null,
+      "vector_score": null,
+      "bm25_score": 17.563418396694402,
+      "vector_document": "",
+      "bm25_document": "1997년 여주군향토사료관으로 문을 연 여주박물관은 여주의 역사와 민속자료 등을 조사·수집·전시·교육하고, 새로운 학술자료를 발굴하며 여주의 정체성을 확립하는 역할을 수행하고 있다. 2010년 전시실 확장 후 제1종 전문박물관으로 등록하여 여주박물관으로 명칭을 변경하였으며, 2016년 7월 14일 여마관(신관)의 건립으로 전국에 흩어졌던 여주지역 발굴출토 국가귀속유물과 그간 수집한 다양한 유물을 전시할 수 있게 되었다. 전시실은 상설전시실과 기획전시실, 야외전시실로 구분되어 있으며, 상설전시실은 4가지 주제로 전시를 진행하고 있다. 여주역사실에서는 국립중앙박물관을 비롯한 여러 기관들에서 보관하던 주요 유적 출토 국가귀속 유물들과 그간 구입·기증을 통해 수집한 중요유물들을 전시하고 있다. 흔암리 선사유적지, 신륵사, 고달사지, 세종대왕릉과 효종대왕릉, 명성황후 생가 등 수많은 문화유적은 여주의 오랜 역사를 증명하고 있다. 남한강 수석전시실은 김정식 선생이 57년간 모은 수석을 기증받아 전시한 곳으로, 산수경석·물형석·추상석·12지석 등 자연이 빚은 최고의 예술작품인 수석의 멋과 아름다움을 느낄 수 있는 공간이다. 갖가지 수석에 담긴 의미를 여주 남한강이 가지고 있는 이야기로 풀어놓았다. 수석의 신비로움을 다채로운 방식으로 이해할 수 있는 공간이다. 류주현 문학전시실은 우리나라에 ‘대하 역사소설’이라는 장르를 개척하신 여주 출신의 묵사 류주현 선생의 삶과 작품세계를 설명한 공간이다. 류주현 선생은 다양·다작의 작가로 『조선총독부』, 『대원군』 등을 대표작으로 꼽을 수 있다. 한국 대표 문인으로서 선생의 생애와 작품세계, 문인들과의 교류를 통해 옛 문인들의 멋스러운 삶의 정취를 느낄 수 있을 것이다. 조선 왕릉실은 세종 영릉(英陵)과 효종 영릉(寧陵) 두 기의 조선 왕릉이 여주로 천릉하면서 조선시대부터 현대에 이르기까지 왕릉과 함께 변화한 여주의 역사와 여주 사람들의 삶을 살펴볼 수 있다. 여주의 역사와 전통문화를 아우르는 시립박물관으로, 전시와 교육, 체험을 할 수 있는 문화공간이다.",
+      "best_span_id": "chroma:M0312",
+      "best_span_text": "1997년 여주군향토사료관으로 문을 연 여주박물관은 여주의 역사와 민속자료 등을 조사·수집·전시·교육하고, 새로운 학술자료를 발굴하며 여주의 정체성을 확립하는 역할을 수행하고 있다. 2010년 전시실 확장 후 제1종 전문박물관으로 등록하여 여주박물관으로 명칭을 변경하였으며, 2016년 7월 14일 여마관(신관)의 건립으로 전국에 흩어졌던 여주지역 발굴출토 국가귀속유물과 그간 수집한 다양한 유물을 전시할 수 있게 되었다. 전시실은 상설전시실과 기획전시실, 야외전시실로 구분되어 있으며, 상설전시실은 4가지 주제로 전시를 진행하고 있다. 여주역사실에서는 국립중앙박물관을 비롯한 여러 기관들에서 보관하던 주요 유적 출토 국가귀속 유물들과 그간 구입·기증을 통해 수집한 중요유물들을 전시하고 있다. 흔암리 선사유적지, 신륵사, 고달사지, 세종대왕릉과 효종대왕릉, 명성황후 생가 등 수많은 문화유적은 여주의 오랜 역사를 증명하고 있다. 남한강 수석전시실은 김정식 선생이 57년간 모은 수석을 기증받아 전시한 곳으로, 산수경석·물형석·추상석·12지석 등 자연이 빚은 최고의 예술작품인 수석의 멋과 아름다움을 느낄 수 있는 공간이다. 갖가지 수석에 담긴 의미를 여주 남한강이 가지고 있는 이야기로 풀어놓았다. 수석의 신비로움을 다채로운 방식으로 이해할 수 있는 공간이다. 류주현 문학전시실은 우리나라에 ‘대하 역사소설’이라는 장르를 개척하신 여주 출신의 묵사 류주현 선생의 삶과 작품세계를 설명한 공간이다. 류주현 선생은 다양·다작의 작가로 『조선총독부』, 『대원군』 등을 대표작으로 꼽을 수 있다. 한국 대표 문인으로서 선생의 생애와 작품세계, 문인들과의 교류를 통해 옛 문인들의 멋스러운 삶의 정취를 느낄 수 있을 것이다. 조선 왕릉실은 세종 영릉(英陵)과 효종 영릉(寧陵) 두 기의 조선 왕릉이 여주로 천릉하면서 조선시대부터 현대에 이르기까지 왕릉과 함께 변화한 여주의 역사와 여주 사람들의 삶을 살펴볼 수 있다. 여주의 역사와 전통문화를 아우르는 시립박물관으로, 전시와 교육, 체험을 할 수 있는 문화공간이다.",
+      "fusion_score": 0.016129032258064516,
+      "retrieved_by": [
+        "bm25"
+      ],
+      "fusion_rank": 3,
+      "rerank_score": null,
+      "rank": 3,
+      "score": 0.016129032258064516,
+      "score_type": "rrf",
+      "distance": null,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "bm25"
+      ],
+      "retriever": "bm25",
+      "span_id": "chroma:M0312",
+      "source_doc_ids": [
+        "DOC-B0312-TOUR_API-130965",
+        "DOC-B0312-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0312-TOUR_API-130965",
+          "source_type": "TOUR_API",
+          "source_record_id": "130965",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=153",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        },
+        {
+          "doc_id": "DOC-B0312-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0312",
+          "source_locator": "data/raw/museum_base_1070.csv#row=313",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 101,
+          "doc_ids": [
+            "DOC-B0312-TOUR_API-130965"
+          ]
+        },
+        {
+          "start": 102,
+          "end": 236,
+          "doc_ids": [
+            "DOC-B0312-TOUR_API-130965"
+          ]
+        },
+        {
+          "start": 237,
+          "end": 300,
+          "doc_ids": [
+            "DOC-B0312-TOUR_API-130965"
+          ]
+        },
+        {
+          "start": 301,
+          "end": 388,
+          "doc_ids": [
+            "DOC-B0312-TOUR_API-130965"
+          ]
+        },
+        {
+          "start": 389,
+          "end": 464,
+          "doc_ids": [
+            "DOC-B0312-TOUR_API-130965"
+          ]
+        },
+        {
+          "start": 465,
+          "end": 573,
+          "doc_ids": [
+            "DOC-B0312-TOUR_API-130965"
+          ]
+        },
+        {
+          "start": 574,
+          "end": 615,
+          "doc_ids": [
+            "DOC-B0312-TOUR_API-130965"
+          ]
+        },
+        {
+          "start": 616,
+          "end": 650,
+          "doc_ids": [
+            "DOC-B0312-TOUR_API-130965"
+          ]
+        },
+        {
+          "start": 651,
+          "end": 726,
+          "doc_ids": [
+            "DOC-B0312-TOUR_API-130965"
+          ]
+        },
+        {
+          "start": 727,
+          "end": 778,
+          "doc_ids": [
+            "DOC-B0312-TOUR_API-130965"
+          ]
+        },
+        {
+          "start": 779,
+          "end": 849,
+          "doc_ids": [
+            "DOC-B0312-TOUR_API-130965"
+          ]
+        },
+        {
+          "start": 850,
+          "end": 957,
+          "doc_ids": [
+            "DOC-B0312-TOUR_API-130965"
+          ]
+        },
+        {
+          "start": 958,
+          "end": 1012,
+          "doc_ids": [
+            "DOC-B0312-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=153",
+      "text": "1997년 여주군향토사료관으로 문을 연 여주박물관은 여주의 역사와 민속자료 등을 조사·수집·전시·교육하고, 새로운 학술자료를 발굴하며 여주의 정체성을 확립하는 역할을 수행하고 있다. 2010년 전시실 확장 후 제1종 전문박물관으로 등록하여 여주박물관으로 명칭을 변경하였으며, 2016년 7월 14일 여마관(신관)의 건립으로 전국에 흩어졌던 여주지역 발굴출토 국가귀속유물과 그간 수집한 다양한 유물을 전시할 수 있게 되었다. 전시실은 상설전시실과 기획전시실, 야외전시실로 구분되어 있으며, 상설전시실은 4가지 주제로 전시를 진행하고 있다. 여주역사실에서는 국립중앙박물관을 비롯한 여러 기관들에서 보관하던 주요 유적 출토 국가귀속 유물들과 그간 구입·기증을 통해 수집한 중요유물들을 전시하고 있다. 흔암리 선사유적지, 신륵사, 고달사지, 세종대왕릉과 효종대왕릉, 명성황후 생가 등 수많은 문화유적은 여주의 오랜 역사를 증명하고 있다. 남한강 수석전시실은 김정식 선생이 57년간 모은 수석을 기증받아 전시한 곳으로, 산수경석·물형석·추상석·12지석 등 자연이 빚은 최고의 예술작품인 수석의 멋과 아름다움을 느낄 수 있는 공간이다. 갖가지 수석에 담긴 의미를 여주 남한강이 가지고 있는 이야기로 풀어놓았다. 수석의 신비로움을 다채로운 방식으로 이해할 수 있는 공간이다. 류주현 문학전시실은 우리나라에 ‘대하 역사소설’이라는 장르를 개척하신 여주 출신의 묵사 류주현 선생의 삶과 작품세계를 설명한 공간이다. 류주현 선생은 다양·다작의 작가로 『조선총독부』, 『대원군』 등을 대표작으로 꼽을 수 있다. 한국 대표 문인으로서 선생의 생애와 작품세계, 문인들과의 교류를 통해 옛 문인들의 멋스러운 삶의 정취를 느낄 수 있을 것이다. 조선 왕릉실은 세종 영릉(英陵)과 효종 영릉(寧陵) 두 기의 조선 왕릉이 여주로 천릉하면서 조선시대부터 현대에 이르기까지 왕릉과 함께 변화한 여주의 역사와 여주 사람들의 삶을 살펴볼 수 있다. 여주의 역사와 전통문화를 아우르는 시립박물관으로, 전시와 교육, 체험을 할 수 있는 문화공간이다.",
+      "sido": "경기도",
+      "sigungu": "여주시",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=153"
+      ],
+      "evidence_id": "E3",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=225",
+        "fields": {
+          "name": "여주박물관",
+          "sido": "경기도",
+          "sigungu": "여주시",
+          "address": "경기도 여주시 신륵사길 6-12",
+          "ownership_type": "공립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "09:00",
+          "weekday_close": "18:00",
+          "holiday_open": "09:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "월요일+추석당일+설날당일+1월1일",
+          "amenities_raw": "청춘카페"
+        },
+        "base_data_date": "2026-05-19",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0790",
+      "name": "박인환문학관",
+      "document": "‘목마와 숙녀’의 시인 박인환은 1926년 인제에서 태어나 31세라는 젊은 나이에 별이 된 우리나라의 대표적인 모더니즘 시인이다. 박인환문학관은 그의 삶과 작품을 소개하고 그의 문학정신을 기리는 곳이다. 2009년에 개관한 문학관은 총 2층으로 건립되었으며 박인환 시인이 활동했던 서울 명동의 거리와 술집, 서점 등을 재현하고, 그의 작품과 사진, 편지 등을 전시하고 있다. 1층에는 박인환 시인이 주로 창작 활동했던 1945년~1948년 사이 서울 명동의 ‘마리서사’ 주변 거리를 미니멀하게 재구성해 전시하고 있으며, 2층 전시실에는 주로 박인환시인의 문학세계를 볼 수 있는 다양한 자료들이 전시되어 있다. 특히 2층에는 산촌민속박물관으로 가는 연결 통로가 있어 함께 방문할 수 있다. 야외 문학관에는 시인의 거리와 책 읽는 목마, 시인의 품, 그 그리움에 대하여라는 조형물이 세워져 있다. 이외에도 박인환문학축제가 열리며, 박인환문학관 주위에는 ‘시인 박인환의 거리’를 조성해 놓아 시와 조형물을 감상하며 산책을 즐길 수 있다. 박인환 시인으로 대표되는 한국 모더니즘의 산실",
+      "metadata": {
+        "address": "강원특별자치도 인제군 인제읍 인제로156번길 50",
+        "ownership_type": "공립",
+        "sido": "강원특별자치도",
+        "source_types": "BASE|TOUR_API",
+        "holiday_close": "18:00",
+        "latitude": 38.06277763,
+        "requires_manual_review": true,
+        "amenities_raw": "휴게공간",
+        "fee_notes": "0",
+        "youth_fee": 0.0,
+        "homepage_url": "http://mvfm.kr/?page_id=865",
+        "child_fee": 0.0,
+        "name": "박인환문학관",
+        "adult_fee": 0.0,
+        "image_url": "http://tong.visitkorea.or.kr/cms/resource/75/3335975_image2_1.jpg",
+        "image_copyright": "Type3",
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "sigungu": "인제군",
+        "holiday_open": "09:00",
+        "weekday_close": "18:00",
+        "weekday_open": "09:00",
+        "closure_rule_raw": "월+설 당일+추석 당일+공휴일 다음날",
+        "transport_notes": "인제읍터미널에서 도보 10분",
+        "longitude": 128.1717233
+      },
+      "vector_rank": 3,
+      "bm25_rank": null,
+      "vector_distance": 0.4988846182823181,
+      "vector_score": null,
+      "bm25_score": null,
+      "vector_document": "‘목마와 숙녀’의 시인 박인환은 1926년 인제에서 태어나 31세라는 젊은 나이에 별이 된 우리나라의 대표적인 모더니즘 시인이다. 박인환문학관은 그의 삶과 작품을 소개하고 그의 문학정신을 기리는 곳이다. 2009년에 개관한 문학관은 총 2층으로 건립되었으며 박인환 시인이 활동했던 서울 명동의 거리와 술집, 서점 등을 재현하고, 그의 작품과 사진, 편지 등을 전시하고 있다. 1층에는 박인환 시인이 주로 창작 활동했던 1945년~1948년 사이 서울 명동의 ‘마리서사’ 주변 거리를 미니멀하게 재구성해 전시하고 있으며, 2층 전시실에는 주로 박인환시인의 문학세계를 볼 수 있는 다양한 자료들이 전시되어 있다. 특히 2층에는 산촌민속박물관으로 가는 연결 통로가 있어 함께 방문할 수 있다. 야외 문학관에는 시인의 거리와 책 읽는 목마, 시인의 품, 그 그리움에 대하여라는 조형물이 세워져 있다. 이외에도 박인환문학축제가 열리며, 박인환문학관 주위에는 ‘시인 박인환의 거리’를 조성해 놓아 시와 조형물을 감상하며 산책을 즐길 수 있다. 박인환 시인으로 대표되는 한국 모더니즘의 산실",
+      "bm25_document": "",
+      "best_span_id": null,
+      "best_span_text": null,
+      "fusion_score": 0.015873015873015872,
+      "retrieved_by": [
+        "vector"
+      ],
+      "fusion_rank": 4,
+      "rerank_score": null,
+      "rank": 4,
+      "score": 0.015873015873015872,
+      "score_type": "rrf",
+      "distance": 0.4988846182823181,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector"
+      ],
+      "retriever": "vector",
+      "source_doc_ids": [
+        "DOC-B0790-TOUR_API-1932440",
+        "DOC-B0790-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0790-TOUR_API-1932440",
+          "source_type": "TOUR_API",
+          "source_record_id": "1932440",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=381",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        },
+        {
+          "doc_id": "DOC-B0790-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0790",
+          "source_locator": "data/raw/museum_base_1070.csv#row=791",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 72,
+          "doc_ids": [
+            "DOC-B0790-TOUR_API-1932440"
+          ]
+        },
+        {
+          "start": 73,
+          "end": 113,
+          "doc_ids": [
+            "DOC-B0790-TOUR_API-1932440"
+          ]
+        },
+        {
+          "start": 114,
+          "end": 209,
+          "doc_ids": [
+            "DOC-B0790-TOUR_API-1932440"
+          ]
+        },
+        {
+          "start": 210,
+          "end": 340,
+          "doc_ids": [
+            "DOC-B0790-TOUR_API-1932440"
+          ]
+        },
+        {
+          "start": 341,
+          "end": 384,
+          "doc_ids": [
+            "DOC-B0790-TOUR_API-1932440"
+          ]
+        },
+        {
+          "start": 385,
+          "end": 443,
+          "doc_ids": [
+            "DOC-B0790-TOUR_API-1932440"
+          ]
+        },
+        {
+          "start": 444,
+          "end": 521,
+          "doc_ids": [
+            "DOC-B0790-TOUR_API-1932440"
+          ]
+        },
+        {
+          "start": 522,
+          "end": 547,
+          "doc_ids": [
+            "DOC-B0790-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=381",
+      "text": "‘목마와 숙녀’의 시인 박인환은 1926년 인제에서 태어나 31세라는 젊은 나이에 별이 된 우리나라의 대표적인 모더니즘 시인이다. 박인환문학관은 그의 삶과 작품을 소개하고 그의 문학정신을 기리는 곳이다. 2009년에 개관한 문학관은 총 2층으로 건립되었으며 박인환 시인이 활동했던 서울 명동의 거리와 술집, 서점 등을 재현하고, 그의 작품과 사진, 편지 등을 전시하고 있다. 1층에는 박인환 시인이 주로 창작 활동했던 1945년~1948년 사이 서울 명동의 ‘마리서사’ 주변 거리를 미니멀하게 재구성해 전시하고 있으며, 2층 전시실에는 주로 박인환시인의 문학세계를 볼 수 있는 다양한 자료들이 전시되어 있다. 특히 2층에는 산촌민속박물관으로 가는 연결 통로가 있어 함께 방문할 수 있다. 야외 문학관에는 시인의 거리와 책 읽는 목마, 시인의 품, 그 그리움에 대하여라는 조형물이 세워져 있다. 이외에도 박인환문학축제가 열리며, 박인환문학관 주위에는 ‘시인 박인환의 거리’를 조성해 놓아 시와 조형물을 감상하며 산책을 즐길 수 있다. 박인환 시인으로 대표되는 한국 모더니즘의 산실",
+      "sido": "강원특별자치도",
+      "sigungu": "인제군",
+      "span_id": "",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=381"
+      ],
+      "evidence_id": "E4",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=546",
+        "fields": {
+          "name": "박인환문학관",
+          "sido": "강원특별자치도",
+          "sigungu": "인제군",
+          "address": "강원특별자치도 인제군 인제읍 인제로156번길 50",
+          "ownership_type": "공립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "09:00",
+          "weekday_close": "18:00",
+          "holiday_open": "09:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "월+설 당일+추석 당일+공휴일 다음날",
+          "amenities_raw": "휴게공간"
+        },
+        "base_data_date": "2024-12-13",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0153",
+      "name": "시에그린한국시화박물관",
+      "document": "시에그린 한국 시화 박물관은 진도군 임회면에 자리하고 있으며 시와 그림이 어우러진 우리나라 최초의 박물관이다. 폐교된 죽림초등학교를 인수하여 리모델링한 건물로 깔끔하며 전시 작품에 집중할 수 있도록 흰색으로 벽과 복도가 채색되어 있는 것이 인상적이다. 한국 시화 박물관은 한국 문학의 대표적인 시와 소설 등 주요 문학작품을 미술(문인화, 서양화, 조각, 공예 등)로 구현한 작품을 시인이 직접 쓴 서예 작품과 동시에 전시하여 일반인들에게 보다 다양하고 수준 높은 예술의 향수 기회를 제공하고 있다. 여기에는 여귀산 미술관과 진도 수석 박물관도 함께 자리하고 있다. 여귀산 미술관은 한국을 대표하는 한국 화가와 문인 화가의 미술작품을 전시하여 일반인에게 남도 미술의 품격 높은 서정성을 음미하고 수준 높은 예술작품을 전시하고 있으며 진도가 낳은 한국의 대표적 조각가인 양두환 선생의 유작과 박달목, 배현, 박주부 조각가의 작품이 야외에 전시되고 있어 다양한 볼거리를 제공하고 있다. 진도 수석 박물관은 전국 수석 산지를 탐석한 토중석, 강석, 해석과 해외 수석을 전시하여 일반인들에게 품격 높은 서정성을 음미하고 예술의 향수 기회를 제공하는 공간이다. 시에그린 한국 시화 박물관과 여귀산 미술관, 진도 수석 박물관은 예술교육의 총체적인 모습을 알리고 이를 체계화하는 데 목표를 두는 곳이다. 진도를 여행하며 우리 문학과 예술에 대해 알아보는 것도 좋을 것이다. 한국문학의 대표적인 시와 소설 등 주요 문학작품을 미술로 구현한 작품과 시인이 직접 쓴 서예작품을 동시에 전시한 한국 최초의 시화 박물관이다.",
+      "metadata": {
+        "sigungu": "진도군",
+        "address": "전남광주통합특별시 진도군 임회면 죽림길 97",
+        "child_fee": 0.0,
+        "adult_fee": 5000.0,
+        "homepage_url": "http://www.seagreen.co.kr",
+        "ownership_type": "사립",
+        "youth_fee": 5000.0,
+        "adult_fee_status": "BASE_FEE_PAID",
+        "holiday_close": "18:00",
+        "latitude": 34.39048345,
+        "requires_manual_review": true,
+        "closure_rule_raw": "월",
+        "name": "시에그린한국시화박물관",
+        "holiday_open": "09:00",
+        "sido": "전남광주특별자치도",
+        "weekday_open": "09:00",
+        "source_types": "BASE|TOUR_API",
+        "longitude": 126.2503456,
+        "weekday_close": "18:00"
+      },
+      "vector_rank": null,
+      "bm25_rank": 3,
+      "vector_distance": null,
+      "vector_score": null,
+      "bm25_score": 13.711800036123861,
+      "vector_document": "",
+      "bm25_document": "시에그린 한국 시화 박물관은 진도군 임회면에 자리하고 있으며 시와 그림이 어우러진 우리나라 최초의 박물관이다. 폐교된 죽림초등학교를 인수하여 리모델링한 건물로 깔끔하며 전시 작품에 집중할 수 있도록 흰색으로 벽과 복도가 채색되어 있는 것이 인상적이다. 한국 시화 박물관은 한국 문학의 대표적인 시와 소설 등 주요 문학작품을 미술(문인화, 서양화, 조각, 공예 등)로 구현한 작품을 시인이 직접 쓴 서예 작품과 동시에 전시하여 일반인들에게 보다 다양하고 수준 높은 예술의 향수 기회를 제공하고 있다. 여기에는 여귀산 미술관과 진도 수석 박물관도 함께 자리하고 있다. 여귀산 미술관은 한국을 대표하는 한국 화가와 문인 화가의 미술작품을 전시하여 일반인에게 남도 미술의 품격 높은 서정성을 음미하고 수준 높은 예술작품을 전시하고 있으며 진도가 낳은 한국의 대표적 조각가인 양두환 선생의 유작과 박달목, 배현, 박주부 조각가의 작품이 야외에 전시되고 있어 다양한 볼거리를 제공하고 있다. 진도 수석 박물관은 전국 수석 산지를 탐석한 토중석, 강석, 해석과 해외 수석을 전시하여 일반인들에게 품격 높은 서정성을 음미하고 예술의 향수 기회를 제공하는 공간이다. 시에그린 한국 시화 박물관과 여귀산 미술관, 진도 수석 박물관은 예술교육의 총체적인 모습을 알리고 이를 체계화하는 데 목표를 두는 곳이다. 진도를 여행하며 우리 문학과 예술에 대해 알아보는 것도 좋을 것이다. 한국문학의 대표적인 시와 소설 등 주요 문학작품을 미술로 구현한 작품과 시인이 직접 쓴 서예작품을 동시에 전시한 한국 최초의 시화 박물관이다.",
+      "best_span_id": "chroma:M0153",
+      "best_span_text": "시에그린 한국 시화 박물관은 진도군 임회면에 자리하고 있으며 시와 그림이 어우러진 우리나라 최초의 박물관이다. 폐교된 죽림초등학교를 인수하여 리모델링한 건물로 깔끔하며 전시 작품에 집중할 수 있도록 흰색으로 벽과 복도가 채색되어 있는 것이 인상적이다. 한국 시화 박물관은 한국 문학의 대표적인 시와 소설 등 주요 문학작품을 미술(문인화, 서양화, 조각, 공예 등)로 구현한 작품을 시인이 직접 쓴 서예 작품과 동시에 전시하여 일반인들에게 보다 다양하고 수준 높은 예술의 향수 기회를 제공하고 있다. 여기에는 여귀산 미술관과 진도 수석 박물관도 함께 자리하고 있다. 여귀산 미술관은 한국을 대표하는 한국 화가와 문인 화가의 미술작품을 전시하여 일반인에게 남도 미술의 품격 높은 서정성을 음미하고 수준 높은 예술작품을 전시하고 있으며 진도가 낳은 한국의 대표적 조각가인 양두환 선생의 유작과 박달목, 배현, 박주부 조각가의 작품이 야외에 전시되고 있어 다양한 볼거리를 제공하고 있다. 진도 수석 박물관은 전국 수석 산지를 탐석한 토중석, 강석, 해석과 해외 수석을 전시하여 일반인들에게 품격 높은 서정성을 음미하고 예술의 향수 기회를 제공하는 공간이다. 시에그린 한국 시화 박물관과 여귀산 미술관, 진도 수석 박물관은 예술교육의 총체적인 모습을 알리고 이를 체계화하는 데 목표를 두는 곳이다. 진도를 여행하며 우리 문학과 예술에 대해 알아보는 것도 좋을 것이다. 한국문학의 대표적인 시와 소설 등 주요 문학작품을 미술로 구현한 작품과 시인이 직접 쓴 서예작품을 동시에 전시한 한국 최초의 시화 박물관이다.",
+      "fusion_score": 0.015873015873015872,
+      "retrieved_by": [
+        "bm25"
+      ],
+      "fusion_rank": 5,
+      "rerank_score": null,
+      "rank": 5,
+      "score": 0.015873015873015872,
+      "score_type": "rrf",
+      "distance": null,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "bm25"
+      ],
+      "retriever": "bm25",
+      "span_id": "chroma:M0153",
+      "source_doc_ids": [
+        "DOC-B0153-TOUR_API-3076980",
+        "DOC-B0153-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0153-TOUR_API-3076980",
+          "source_type": "TOUR_API",
+          "source_record_id": "3076980",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=72",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        },
+        {
+          "doc_id": "DOC-B0153-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0153",
+          "source_locator": "data/raw/museum_base_1070.csv#row=154",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 61,
+          "doc_ids": [
+            "DOC-B0153-TOUR_API-3076980"
+          ]
+        },
+        {
+          "start": 62,
+          "end": 140,
+          "doc_ids": [
+            "DOC-B0153-TOUR_API-3076980"
+          ]
+        },
+        {
+          "start": 141,
+          "end": 278,
+          "doc_ids": [
+            "DOC-B0153-TOUR_API-3076980"
+          ]
+        },
+        {
+          "start": 279,
+          "end": 315,
+          "doc_ids": [
+            "DOC-B0153-TOUR_API-3076980"
+          ]
+        },
+        {
+          "start": 316,
+          "end": 492,
+          "doc_ids": [
+            "DOC-B0153-TOUR_API-3076980"
+          ]
+        },
+        {
+          "start": 493,
+          "end": 587,
+          "doc_ids": [
+            "DOC-B0153-TOUR_API-3076980"
+          ]
+        },
+        {
+          "start": 588,
+          "end": 665,
+          "doc_ids": [
+            "DOC-B0153-TOUR_API-3076980"
+          ]
+        },
+        {
+          "start": 666,
+          "end": 704,
+          "doc_ids": [
+            "DOC-B0153-TOUR_API-3076980"
+          ]
+        },
+        {
+          "start": 705,
+          "end": 784,
+          "doc_ids": [
+            "DOC-B0153-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=72",
+      "text": "시에그린 한국 시화 박물관은 진도군 임회면에 자리하고 있으며 시와 그림이 어우러진 우리나라 최초의 박물관이다. 폐교된 죽림초등학교를 인수하여 리모델링한 건물로 깔끔하며 전시 작품에 집중할 수 있도록 흰색으로 벽과 복도가 채색되어 있는 것이 인상적이다. 한국 시화 박물관은 한국 문학의 대표적인 시와 소설 등 주요 문학작품을 미술(문인화, 서양화, 조각, 공예 등)로 구현한 작품을 시인이 직접 쓴 서예 작품과 동시에 전시하여 일반인들에게 보다 다양하고 수준 높은 예술의 향수 기회를 제공하고 있다. 여기에는 여귀산 미술관과 진도 수석 박물관도 함께 자리하고 있다. 여귀산 미술관은 한국을 대표하는 한국 화가와 문인 화가의 미술작품을 전시하여 일반인에게 남도 미술의 품격 높은 서정성을 음미하고 수준 높은 예술작품을 전시하고 있으며 진도가 낳은 한국의 대표적 조각가인 양두환 선생의 유작과 박달목, 배현, 박주부 조각가의 작품이 야외에 전시되고 있어 다양한 볼거리를 제공하고 있다. 진도 수석 박물관은 전국 수석 산지를 탐석한 토중석, 강석, 해석과 해외 수석을 전시하여 일반인들에게 품격 높은 서정성을 음미하고 예술의 향수 기회를 제공하는 공간이다. 시에그린 한국 시화 박물관과 여귀산 미술관, 진도 수석 박물관은 예술교육의 총체적인 모습을 알리고 이를 체계화하는 데 목표를 두는 곳이다. 진도를 여행하며 우리 문학과 예술에 대해 알아보는 것도 좋을 것이다. 한국문학의 대표적인 시와 소설 등 주요 문학작품을 미술로 구현한 작품과 시인이 직접 쓴 서예작품을 동시에 전시한 한국 최초의 시화 박물관이다.",
+      "sido": "전남광주특별자치도",
+      "sigungu": "진도군",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=72"
+      ],
+      "evidence_id": "E5",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=96",
+        "fields": {
+          "name": "시에그린한국시화박물관",
+          "sido": "전남광주통합특별시",
+          "sigungu": "진도군",
+          "address": "전남광주통합특별시 진도군 임회면 죽림길 97",
+          "ownership_type": "사립",
+          "adult_fee": "5000",
+          "youth_fee": "5000",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_PAID",
+          "weekday_open": "09:00",
+          "weekday_close": "18:00",
+          "holiday_open": "09:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "월"
+        },
+        "base_data_date": "2026-08-13",
+        "trust": "derived_dataset_not_human_verified",
+        "normalizations": {
+          "sido": {
+            "source_value": "전남광주통합특별시",
+            "matched_value": "전남광주특별자치도",
+            "rule": "configured_sido_alias"
+          }
+        }
+      }
+    }
+  ],
+  "answer": "소개에 따르면 문인들의 인장은 작가의 정체성을 나타내며, 그 안에 작가의 영혼과 문학정신이 아로새겨져 있다고 설명합니다. [E1]",
+  "retrieval_status": "ok",
+  "answer_status": "answered",
+  "route": "hybrid",
+  "retry_count": 0,
+  "supervisor_verified": true,
+  "rerank_applied": false,
+  "retriever_errors": [],
+  "warnings": [
+    "Cross-Encoder reranking failed (FileNotFoundError); RRF order retained"
+  ],
+  "duration_ms": 8200.03,
+  "error_type": "",
+  "hit_at_1": 1,
+  "hit_at_3": 1,
+  "hit_at_5": 1,
+  "recall_at_5": 1.0,
+  "mrr_at_10": 1.0
+}

@@ -1,0 +1,662 @@
+{
+  "mode": "supervisor_full",
+  "question_id": "Q103",
+  "evidence": [
+    {
+      "museum_id": "M0155",
+      "name": "소전미술관",
+      "document": "서예 대가인 소전 손재형 선생의 작품과 그를 위해 작업된 국내 거장들의 작품이 전시되어 남도문화의 새로운 자랑거리로 자리매김하고 있다. 소전미술관에 전시된 작품들은 소전선생의 유족들이 소장하고 있던 부친의 평생 역작과 소전 생전을 위해 국내 거장들이 심혈을 기울인 그림들을 진도군에 기증한 것으로, 논산 이은상 시비문 등 소전 손재형 선생의 주옥같은 작품과 소장 그림 300여 점을 교대로 전시하고 있다. 제1전시실에는 선생의 청년시절 작품이, 2 전시실에는 문인화, 3 전시실에는 장년시설등의 작품, 4 전시실에는 양지니, 서희환, 박행보 등 제자들의 작품과 의제 허백련 선생등 거장들의 작품이 전시되어 있다. 추사 김정희 이래 서예 대가로 추앙받을 정도로 우리나라 서예계에 뚜렷한 발자취를 남긴 서예계의 거목인 소전 손재형 선생의 작품과 소장품이 전시되어 있으며 그의 제자 양진이·서희환 등의 작품과 의제 허백련 선생의 작품이 전시되어 있다.",
+      "metadata": {
+        "closure_rule_raw": "월+설 당일+추석 당일",
+        "holiday_close": "17:30",
+        "holiday_open": "09:00",
+        "adult_fee_status": "BASE_FEE_PAID",
+        "address": "전남광주통합특별시 진도군 진도읍 철마길 29",
+        "weekday_open": "09:00",
+        "source_types": "BASE|TOUR_API",
+        "sido": "전남광주특별자치도",
+        "requires_manual_review": true,
+        "longitude": 126.2646155,
+        "latitude": 34.48678361,
+        "adult_fee": 1500.0,
+        "name": "소전미술관",
+        "sigungu": "진도군",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/67/4142967_image2_1.jpg",
+        "image_copyright": "Type1",
+        "youth_fee": 800.0,
+        "child_fee": 500.0,
+        "ownership_type": "공립",
+        "weekday_close": "17:30"
+      },
+      "vector_rank": 1,
+      "bm25_rank": 1,
+      "vector_distance": 0.4043413996696472,
+      "vector_score": null,
+      "bm25_score": 20.67101767280512,
+      "vector_document": "서예 대가인 소전 손재형 선생의 작품과 그를 위해 작업된 국내 거장들의 작품이 전시되어 남도문화의 새로운 자랑거리로 자리매김하고 있다. 소전미술관에 전시된 작품들은 소전선생의 유족들이 소장하고 있던 부친의 평생 역작과 소전 생전을 위해 국내 거장들이 심혈을 기울인 그림들을 진도군에 기증한 것으로, 논산 이은상 시비문 등 소전 손재형 선생의 주옥같은 작품과 소장 그림 300여 점을 교대로 전시하고 있다. 제1전시실에는 선생의 청년시절 작품이, 2 전시실에는 문인화, 3 전시실에는 장년시설등의 작품, 4 전시실에는 양지니, 서희환, 박행보 등 제자들의 작품과 의제 허백련 선생등 거장들의 작품이 전시되어 있다. 추사 김정희 이래 서예 대가로 추앙받을 정도로 우리나라 서예계에 뚜렷한 발자취를 남긴 서예계의 거목인 소전 손재형 선생의 작품과 소장품이 전시되어 있으며 그의 제자 양진이·서희환 등의 작품과 의제 허백련 선생의 작품이 전시되어 있다.",
+      "bm25_document": "서예 대가인 소전 손재형 선생의 작품과 그를 위해 작업된 국내 거장들의 작품이 전시되어 남도문화의 새로운 자랑거리로 자리매김하고 있다. 소전미술관에 전시된 작품들은 소전선생의 유족들이 소장하고 있던 부친의 평생 역작과 소전 생전을 위해 국내 거장들이 심혈을 기울인 그림들을 진도군에 기증한 것으로, 논산 이은상 시비문 등 소전 손재형 선생의 주옥같은 작품과 소장 그림 300여 점을 교대로 전시하고 있다. 제1전시실에는 선생의 청년시절 작품이, 2 전시실에는 문인화, 3 전시실에는 장년시설등의 작품, 4 전시실에는 양지니, 서희환, 박행보 등 제자들의 작품과 의제 허백련 선생등 거장들의 작품이 전시되어 있다. 추사 김정희 이래 서예 대가로 추앙받을 정도로 우리나라 서예계에 뚜렷한 발자취를 남긴 서예계의 거목인 소전 손재형 선생의 작품과 소장품이 전시되어 있으며 그의 제자 양진이·서희환 등의 작품과 의제 허백련 선생의 작품이 전시되어 있다.",
+      "best_span_id": "chroma:M0155",
+      "best_span_text": "서예 대가인 소전 손재형 선생의 작품과 그를 위해 작업된 국내 거장들의 작품이 전시되어 남도문화의 새로운 자랑거리로 자리매김하고 있다. 소전미술관에 전시된 작품들은 소전선생의 유족들이 소장하고 있던 부친의 평생 역작과 소전 생전을 위해 국내 거장들이 심혈을 기울인 그림들을 진도군에 기증한 것으로, 논산 이은상 시비문 등 소전 손재형 선생의 주옥같은 작품과 소장 그림 300여 점을 교대로 전시하고 있다. 제1전시실에는 선생의 청년시절 작품이, 2 전시실에는 문인화, 3 전시실에는 장년시설등의 작품, 4 전시실에는 양지니, 서희환, 박행보 등 제자들의 작품과 의제 허백련 선생등 거장들의 작품이 전시되어 있다. 추사 김정희 이래 서예 대가로 추앙받을 정도로 우리나라 서예계에 뚜렷한 발자취를 남긴 서예계의 거목인 소전 손재형 선생의 작품과 소장품이 전시되어 있으며 그의 제자 양진이·서희환 등의 작품과 의제 허백련 선생의 작품이 전시되어 있다.",
+      "fusion_score": 0.03278688524590164,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 1,
+      "name_match": true,
+      "rerank_score": 0.9994018077850342,
+      "rank": 1,
+      "score": 0.9994018077850342,
+      "score_type": "cross_encoder",
+      "distance": 0.4043413996696472,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0155",
+      "source_doc_ids": [
+        "DOC-B0155-TOUR_API-1623916",
+        "DOC-B0155-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0155-TOUR_API-1623916",
+          "source_type": "TOUR_API",
+          "source_record_id": "1623916",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=73",
+          "match_trust": "RECHECKED_BY_RULE_NOT_HUMAN_APPROVED"
+        },
+        {
+          "doc_id": "DOC-B0155-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0155",
+          "source_locator": "data/raw/museum_base_1070.csv#row=156",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 75,
+          "doc_ids": [
+            "DOC-B0155-TOUR_API-1623916"
+          ]
+        },
+        {
+          "start": 76,
+          "end": 226,
+          "doc_ids": [
+            "DOC-B0155-TOUR_API-1623916"
+          ]
+        },
+        {
+          "start": 227,
+          "end": 342,
+          "doc_ids": [
+            "DOC-B0155-TOUR_API-1623916"
+          ]
+        },
+        {
+          "start": 343,
+          "end": 473,
+          "doc_ids": [
+            "DOC-B0155-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=73",
+      "text": "서예 대가인 소전 손재형 선생의 작품과 그를 위해 작업된 국내 거장들의 작품이 전시되어 남도문화의 새로운 자랑거리로 자리매김하고 있다. 소전미술관에 전시된 작품들은 소전선생의 유족들이 소장하고 있던 부친의 평생 역작과 소전 생전을 위해 국내 거장들이 심혈을 기울인 그림들을 진도군에 기증한 것으로, 논산 이은상 시비문 등 소전 손재형 선생의 주옥같은 작품과 소장 그림 300여 점을 교대로 전시하고 있다. 제1전시실에는 선생의 청년시절 작품이, 2 전시실에는 문인화, 3 전시실에는 장년시설등의 작품, 4 전시실에는 양지니, 서희환, 박행보 등 제자들의 작품과 의제 허백련 선생등 거장들의 작품이 전시되어 있다. 추사 김정희 이래 서예 대가로 추앙받을 정도로 우리나라 서예계에 뚜렷한 발자취를 남긴 서예계의 거목인 소전 손재형 선생의 작품과 소장품이 전시되어 있으며 그의 제자 양진이·서희환 등의 작품과 의제 허백련 선생의 작품이 전시되어 있다.",
+      "sido": "전남광주특별자치도",
+      "sigungu": "진도군",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=73"
+      ],
+      "evidence_id": "E1",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=98",
+        "fields": {
+          "name": "소전미술관",
+          "sido": "전남광주통합특별시",
+          "sigungu": "진도군",
+          "address": "전남광주통합특별시 진도군 진도읍 철마길 29",
+          "ownership_type": "공립",
+          "adult_fee": "1500",
+          "youth_fee": "800",
+          "child_fee": "500",
+          "adult_fee_status": "BASE_FEE_PAID",
+          "weekday_open": "09:00",
+          "weekday_close": "17:30",
+          "holiday_open": "09:00",
+          "holiday_close": "17:30",
+          "closure_rule_raw": "월+설 당일+추석 당일"
+        },
+        "base_data_date": "2026-08-13",
+        "trust": "derived_dataset_not_human_verified",
+        "normalizations": {
+          "sido": {
+            "source_value": "전남광주통합특별시",
+            "matched_value": "전남광주특별자치도",
+            "rule": "configured_sido_alias"
+          }
+        }
+      }
+    },
+    {
+      "museum_id": "M0230",
+      "name": "소전미술관",
+      "document": "한국적 감성을 표현한 분청사기 와 청자+ 불화+ 한국화 등의 미술품 전시",
+      "metadata": {
+        "longitude": 126.785502,
+        "name": "소전미술관",
+        "latitude": 37.4519274,
+        "weekday_open": "10:00",
+        "requires_manual_review": false,
+        "closure_rule_raw": "연중무휴",
+        "child_fee": 0.0,
+        "youth_fee": 0.0,
+        "holiday_close": "21:00",
+        "ownership_type": "사립",
+        "address": "경기도 시흥시 소래산길 41",
+        "weekday_close": "21:00",
+        "transport_notes": "(버스) 31-3+ 31-5+ 31-7+ 31-9+ 61-1 하대야동(두산위브아파트)정류장 하차 후 도보 10분",
+        "adult_fee": 0.0,
+        "sigungu": "시흥시",
+        "holiday_open": "10:00",
+        "source_types": "BASE",
+        "homepage_url": "http://www.sojeonmuseum.org",
+        "sido": "경기도",
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS"
+      },
+      "vector_rank": 2,
+      "bm25_rank": null,
+      "vector_distance": 0.4536067247390747,
+      "vector_score": null,
+      "bm25_score": null,
+      "vector_document": "한국적 감성을 표현한 분청사기 와 청자+ 불화+ 한국화 등의 미술품 전시",
+      "bm25_document": "",
+      "best_span_id": null,
+      "best_span_text": null,
+      "fusion_score": 0.016129032258064516,
+      "retrieved_by": [
+        "vector"
+      ],
+      "fusion_rank": 2,
+      "name_match": true,
+      "rerank_score": 0.9089428186416626,
+      "rank": 2,
+      "score": 0.9089428186416626,
+      "score_type": "cross_encoder",
+      "distance": 0.4536067247390747,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector"
+      ],
+      "retriever": "vector",
+      "source_doc_ids": [
+        "DOC-B0230-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0230-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0230",
+          "source_locator": "data/raw/museum_base_1070.csv#row=231",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 40,
+          "doc_ids": [
+            "DOC-B0230-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_base_1070.csv#row=231",
+      "text": "한국적 감성을 표현한 분청사기 와 청자+ 불화+ 한국화 등의 미술품 전시",
+      "sido": "경기도",
+      "sigungu": "시흥시",
+      "span_id": "",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_base_1070.csv#row=231"
+      ],
+      "evidence_id": "E2",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=159",
+        "fields": {
+          "name": "소전미술관",
+          "sido": "경기도",
+          "sigungu": "시흥시",
+          "address": "경기도 시흥시 소래산길 41",
+          "ownership_type": "사립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "10:00",
+          "weekday_close": "21:00",
+          "holiday_open": "10:00",
+          "holiday_close": "21:00",
+          "closure_rule_raw": "연중무휴"
+        },
+        "base_data_date": "2026-09-07",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0316",
+      "name": "여주미술관",
+      "document": "경기도 여주시에 위치해 있는 미술관이다. 2019년 개관하였으며 미술관 설립자이자 작가인 박해룡의 작품들과 수집한 미술작품 700여 점을 상시 전시하고 있다. 깔끔한 외관과 아기자기한 공간 구성으로 현대인들의 감성을 자극하는 장소이며 여주 미술관의 감성을 닮은 카페 돈키호테는 독특한 소품들로 내부를 꾸며놓았다, 미술관 감상 후 조용하고 한적하여 카페에서 잔디정원을 바라보며 휴식하기에 좋다. 수도권에서 멀지 않은 곳에 있어 주말 나들이 삼아 방문하기 손색없는 곳이다. 2019년 개관하여 시민들이 일상속에서 미술을 친근하고 편안하게 접할 수 있는 공간. 미술관에는 설립자이자 작가로 활동중인 박해룡의 작품들과 그동안 수집한 미술 작품들 700점을 상시로 전시한 공간이다.",
+      "metadata": {
+        "sido": "경기도",
+        "transport_notes": "여주톨게이트→여주대학교 방면→코카콜라 사거리에서 좌회전→첫 번째 골목에서 우회전",
+        "image_copyright": "Type3",
+        "amenities_raw": "a Book Museum+카페",
+        "image_url": "http://tong.visitkorea.or.kr/cms/resource/84/2765684_image2_1.jpeg",
+        "source_types": "BASE|TOUR_API",
+        "requires_manual_review": true,
+        "fee_notes": "여주시민(중복할인가능)+2000원할인(65세이상+장애인(복지카드소지자))+무료(만3세미만 어린이+군인)",
+        "weekday_open": "11:00",
+        "longitude": 127.637079,
+        "name": "여주미술관",
+        "youth_fee": 8000.0,
+        "adult_fee_status": "BASE_FEE_PAID",
+        "holiday_open": "11:00",
+        "adult_fee": 12000.0,
+        "address": "경기도 여주시 세종로 394-36",
+        "weekday_close": "17:00",
+        "sigungu": "여주시",
+        "closure_rule_raw": "월요일+화요일+설날당일+추석당일",
+        "child_fee": 6000.0,
+        "holiday_close": "17:00",
+        "ownership_type": "사립",
+        "homepage_url": "https://yeojuartmuseum.com/",
+        "latitude": 37.2647726
+      },
+      "vector_rank": null,
+      "bm25_rank": 3,
+      "vector_distance": null,
+      "vector_score": null,
+      "bm25_score": 9.761794994361091,
+      "vector_document": "",
+      "bm25_document": "경기도 여주시에 위치해 있는 미술관이다. 2019년 개관하였으며 미술관 설립자이자 작가인 박해룡의 작품들과 수집한 미술작품 700여 점을 상시 전시하고 있다. 깔끔한 외관과 아기자기한 공간 구성으로 현대인들의 감성을 자극하는 장소이며 여주 미술관의 감성을 닮은 카페 돈키호테는 독특한 소품들로 내부를 꾸며놓았다, 미술관 감상 후 조용하고 한적하여 카페에서 잔디정원을 바라보며 휴식하기에 좋다. 수도권에서 멀지 않은 곳에 있어 주말 나들이 삼아 방문하기 손색없는 곳이다. 2019년 개관하여 시민들이 일상속에서 미술을 친근하고 편안하게 접할 수 있는 공간. 미술관에는 설립자이자 작가로 활동중인 박해룡의 작품들과 그동안 수집한 미술 작품들 700점을 상시로 전시한 공간이다.",
+      "best_span_id": "chroma:M0316",
+      "best_span_text": "경기도 여주시에 위치해 있는 미술관이다. 2019년 개관하였으며 미술관 설립자이자 작가인 박해룡의 작품들과 수집한 미술작품 700여 점을 상시 전시하고 있다. 깔끔한 외관과 아기자기한 공간 구성으로 현대인들의 감성을 자극하는 장소이며 여주 미술관의 감성을 닮은 카페 돈키호테는 독특한 소품들로 내부를 꾸며놓았다, 미술관 감상 후 조용하고 한적하여 카페에서 잔디정원을 바라보며 휴식하기에 좋다. 수도권에서 멀지 않은 곳에 있어 주말 나들이 삼아 방문하기 손색없는 곳이다. 2019년 개관하여 시민들이 일상속에서 미술을 친근하고 편안하게 접할 수 있는 공간. 미술관에는 설립자이자 작가로 활동중인 박해룡의 작품들과 그동안 수집한 미술 작품들 700점을 상시로 전시한 공간이다.",
+      "fusion_score": 0.015873015873015872,
+      "retrieved_by": [
+        "bm25"
+      ],
+      "fusion_rank": 8,
+      "rerank_score": 0.07366346567869186,
+      "rank": 3,
+      "score": 0.07366346567869186,
+      "score_type": "cross_encoder",
+      "distance": null,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "bm25"
+      ],
+      "retriever": "bm25",
+      "span_id": "chroma:M0316",
+      "source_doc_ids": [
+        "DOC-B0316-TOUR_API-2766513",
+        "DOC-B0316-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0316-TOUR_API-2766513",
+          "source_type": "TOUR_API",
+          "source_record_id": "2766513",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=155",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        },
+        {
+          "doc_id": "DOC-B0316-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0316",
+          "source_locator": "data/raw/museum_base_1070.csv#row=317",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 22,
+          "doc_ids": [
+            "DOC-B0316-TOUR_API-2766513"
+          ]
+        },
+        {
+          "start": 23,
+          "end": 88,
+          "doc_ids": [
+            "DOC-B0316-TOUR_API-2766513"
+          ]
+        },
+        {
+          "start": 89,
+          "end": 219,
+          "doc_ids": [
+            "DOC-B0316-TOUR_API-2766513"
+          ]
+        },
+        {
+          "start": 220,
+          "end": 262,
+          "doc_ids": [
+            "DOC-B0316-TOUR_API-2766513"
+          ]
+        },
+        {
+          "start": 263,
+          "end": 310,
+          "doc_ids": [
+            "DOC-B0316-BASE"
+          ]
+        },
+        {
+          "start": 311,
+          "end": 376,
+          "doc_ids": [
+            "DOC-B0316-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=155",
+      "text": "경기도 여주시에 위치해 있는 미술관이다. 2019년 개관하였으며 미술관 설립자이자 작가인 박해룡의 작품들과 수집한 미술작품 700여 점을 상시 전시하고 있다. 깔끔한 외관과 아기자기한 공간 구성으로 현대인들의 감성을 자극하는 장소이며 여주 미술관의 감성을 닮은 카페 돈키호테는 독특한 소품들로 내부를 꾸며놓았다, 미술관 감상 후 조용하고 한적하여 카페에서 잔디정원을 바라보며 휴식하기에 좋다. 수도권에서 멀지 않은 곳에 있어 주말 나들이 삼아 방문하기 손색없는 곳이다. 2019년 개관하여 시민들이 일상속에서 미술을 친근하고 편안하게 접할 수 있는 공간. 미술관에는 설립자이자 작가로 활동중인 박해룡의 작품들과 그동안 수집한 미술 작품들 700점을 상시로 전시한 공간이다.",
+      "sido": "경기도",
+      "sigungu": "여주시",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=155"
+      ],
+      "evidence_id": "E3",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=229",
+        "fields": {
+          "name": "여주미술관",
+          "sido": "경기도",
+          "sigungu": "여주시",
+          "address": "경기도 여주시 세종로 394-36",
+          "ownership_type": "사립",
+          "adult_fee": "12000",
+          "youth_fee": "8000",
+          "child_fee": "6000",
+          "adult_fee_status": "BASE_FEE_PAID",
+          "weekday_open": "11:00",
+          "weekday_close": "17:00",
+          "holiday_open": "11:00",
+          "holiday_close": "17:00",
+          "closure_rule_raw": "월요일+화요일+설날당일+추석당일",
+          "amenities_raw": "a Book Museum+카페"
+        },
+        "base_data_date": "2026-05-19",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0152",
+      "name": "여귀산미술관",
+      "document": "진도가 낳은 세계적인 조각가인 양두환의 조각 작품과 한국을 대표하는 주요 서양화·한국화·문인화·서예·공예와 조각품을 실내외 전시 중이다.",
+      "metadata": {
+        "latitude": 34.39097128,
+        "holiday_close": "18:00",
+        "longitude": 126.2504942,
+        "name": "여귀산미술관",
+        "ownership_type": "사립",
+        "adult_fee": 0.0,
+        "source_types": "BASE",
+        "address": "전남광주통합특별시 진도군 임회면 죽림길 100",
+        "weekday_open": "09:00",
+        "sigungu": "진도군",
+        "sido": "전남광주특별자치도",
+        "requires_manual_review": false,
+        "child_fee": 0.0,
+        "holiday_open": "09:00",
+        "youth_fee": 0.0,
+        "weekday_close": "18:00",
+        "closure_rule_raw": "월",
+        "fee_notes": "무료",
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS"
+      },
+      "vector_rank": 12,
+      "bm25_rank": null,
+      "vector_distance": 0.515461266040802,
+      "vector_score": null,
+      "bm25_score": null,
+      "vector_document": "진도가 낳은 세계적인 조각가인 양두환의 조각 작품과 한국을 대표하는 주요 서양화·한국화·문인화·서예·공예와 조각품을 실내외 전시 중이다.",
+      "bm25_document": "",
+      "best_span_id": null,
+      "best_span_text": null,
+      "fusion_score": 0.013888888888888888,
+      "retrieved_by": [
+        "vector"
+      ],
+      "fusion_rank": 20,
+      "rerank_score": 0.03752079978585243,
+      "rank": 4,
+      "score": 0.03752079978585243,
+      "score_type": "cross_encoder",
+      "distance": 0.515461266040802,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector"
+      ],
+      "retriever": "vector",
+      "source_doc_ids": [
+        "DOC-B0152-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0152-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0152",
+          "source_locator": "data/raw/museum_base_1070.csv#row=153",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 76,
+          "doc_ids": [
+            "DOC-B0152-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_base_1070.csv#row=153",
+      "text": "진도가 낳은 세계적인 조각가인 양두환의 조각 작품과 한국을 대표하는 주요 서양화·한국화·문인화·서예·공예와 조각품을 실내외 전시 중이다.",
+      "sido": "전남광주특별자치도",
+      "sigungu": "진도군",
+      "span_id": "",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_base_1070.csv#row=153"
+      ],
+      "evidence_id": "E4",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=95",
+        "fields": {
+          "name": "여귀산미술관",
+          "sido": "전남광주통합특별시",
+          "sigungu": "진도군",
+          "address": "전남광주통합특별시 진도군 임회면 죽림길 100",
+          "ownership_type": "사립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "09:00",
+          "weekday_close": "18:00",
+          "holiday_open": "09:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "월"
+        },
+        "base_data_date": "2026-08-13",
+        "trust": "derived_dataset_not_human_verified",
+        "normalizations": {
+          "sido": {
+            "source_value": "전남광주통합특별시",
+            "matched_value": "전남광주특별자치도",
+            "rule": "configured_sido_alias"
+          }
+        }
+      }
+    },
+    {
+      "museum_id": "M0290",
+      "name": "사립아인미술관",
+      "document": "사립아인미술관은 개인작가 초대전을 비롯한 개인전, 단체전 등 여러 작가들의 작품을 일정기간 동안 전시하고 있으며, 다양한 주제를 통해 전시회 진행하고 있어 미술작품을 쉽게 접할 수 있는 기회를 제공하고 있다.",
+      "metadata": {
+        "holiday_close": "20:00",
+        "requires_manual_review": false,
+        "name": "사립아인미술관",
+        "amenities_raw": "카페+주차장+화장실",
+        "ownership_type": "사립",
+        "child_fee": 0.0,
+        "weekday_open": "11:00",
+        "transport_notes": "농어촌 버스 10 : 장성터미널 탑승 →황룡교정류장 하차",
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "homepage_url": "https://blog.naver.com/ainmuseum",
+        "source_types": "BASE",
+        "adult_fee": 0.0,
+        "address": "전남광주통합특별시 장성군 장성읍 미락단지길 8",
+        "holiday_open": "11:00",
+        "weekday_close": "20:00",
+        "sigungu": "장성군",
+        "closure_rule_raw": "연중무휴",
+        "latitude": 35.344232,
+        "sido": "전남광주특별자치도",
+        "longitude": 126.817249,
+        "youth_fee": 0.0
+      },
+      "vector_rank": 4,
+      "bm25_rank": 6,
+      "vector_distance": 0.4713442325592041,
+      "vector_score": null,
+      "bm25_score": 9.626828867850133,
+      "vector_document": "사립아인미술관은 개인작가 초대전을 비롯한 개인전, 단체전 등 여러 작가들의 작품을 일정기간 동안 전시하고 있으며, 다양한 주제를 통해 전시회 진행하고 있어 미술작품을 쉽게 접할 수 있는 기회를 제공하고 있다.",
+      "bm25_document": "사립아인미술관은 개인작가 초대전을 비롯한 개인전, 단체전 등 여러 작가들의 작품을 일정기간 동안 전시하고 있으며, 다양한 주제를 통해 전시회 진행하고 있어 미술작품을 쉽게 접할 수 있는 기회를 제공하고 있다.",
+      "best_span_id": "chroma:M0290",
+      "best_span_text": "사립아인미술관은 개인작가 초대전을 비롯한 개인전, 단체전 등 여러 작가들의 작품을 일정기간 동안 전시하고 있으며, 다양한 주제를 통해 전시회 진행하고 있어 미술작품을 쉽게 접할 수 있는 기회를 제공하고 있다.",
+      "fusion_score": 0.030776515151515152,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 3,
+      "rerank_score": 0.028972109779715538,
+      "rank": 5,
+      "score": 0.028972109779715538,
+      "score_type": "cross_encoder",
+      "distance": 0.4713442325592041,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0290",
+      "source_doc_ids": [
+        "DOC-B0290-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0290-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0290",
+          "source_locator": "data/raw/museum_base_1070.csv#row=291",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 116,
+          "doc_ids": [
+            "DOC-B0290-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_base_1070.csv#row=291",
+      "text": "사립아인미술관은 개인작가 초대전을 비롯한 개인전, 단체전 등 여러 작가들의 작품을 일정기간 동안 전시하고 있으며, 다양한 주제를 통해 전시회 진행하고 있어 미술작품을 쉽게 접할 수 있는 기회를 제공하고 있다.",
+      "sido": "전남광주특별자치도",
+      "sigungu": "장성군",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_base_1070.csv#row=291"
+      ],
+      "evidence_id": "E5",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=204",
+        "fields": {
+          "name": "사립아인미술관",
+          "sido": "전남광주통합특별시",
+          "sigungu": "장성군",
+          "address": "전남광주통합특별시 장성군 장성읍 미락단지길 8",
+          "ownership_type": "사립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "11:00",
+          "weekday_close": "20:00",
+          "holiday_open": "11:00",
+          "holiday_close": "20:00",
+          "closure_rule_raw": "연중무휴",
+          "amenities_raw": "카페+주차장+화장실"
+        },
+        "base_data_date": "2026-08-03",
+        "trust": "derived_dataset_not_human_verified",
+        "normalizations": {
+          "sido": {
+            "source_value": "전남광주통합특별시",
+            "matched_value": "전남광주특별자치도",
+            "rule": "configured_sido_alias"
+          }
+        }
+      }
+    }
+  ],
+  "answer": "소전미술관에는 소전 손재형 선생의 서예 작품과 소장품, 국내 거장들이 그를 위해 제작한 그림들이 전시됩니다. 소장 그림 약 300점을 교대로 전시하며, 전시실별로 청년 시절 작품, 문인화, 장년 시절 작품, 그리고 제자 양진이·서희환·박행보와 의제 허백련 등 거장들의 작품을 볼 수 있습니다. [E1]",
+  "retrieval_status": "ok",
+  "answer_status": "answered",
+  "route": "hybrid",
+  "retry_count": 0,
+  "supervisor_verified": true,
+  "rerank_applied": true,
+  "retriever_errors": [],
+  "warnings": [],
+  "duration_ms": 149982.3,
+  "error_type": "",
+  "hit_at_1": 1,
+  "hit_at_3": 1,
+  "hit_at_5": 1,
+  "recall_at_5": 1.0,
+  "mrr_at_10": 1.0
+}

@@ -1,0 +1,698 @@
+{
+  "mode": "supervisor_full",
+  "question_id": "Q071",
+  "evidence": [
+    {
+      "museum_id": "M0085",
+      "name": "조안베어뮤지엄",
+      "document": "제주도 남부 서귀포시의 중문 관광단지 내에 위치하고 있는 조안베어뮤지엄은 세계적으로 유명한 테디베어 아티스트인 조안 오의 작업실이자 전시공간이다. 박물관에서는 천연의 소재로 만들어진 테디베어를 만날 수 있으며, 제주 자연의 아름다움을 느끼며 느긋한 휴식을 취할 수 있는 곳이다. 나지막한 언덕에 있는 조안베어뮤지엄에서는 백여 년 된 오십 그루의 소나무들과 돌담들이 그대로 보존되고 있어 제주 올레를 함께 할 수 있는 곳이다.",
+      "metadata": {
+        "address": "제주특별자치도 서귀포시 대포로 113",
+        "latitude": 33.24025015,
+        "child_fee": 10000.0,
+        "weekday_close": "17:00",
+        "adult_fee_status": "BASE_FEE_PAID",
+        "homepage_url": "http://www.joannestudio.co.kr/",
+        "weekday_open": "09:00",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/87/4146787_image2_1.jpg",
+        "requires_manual_review": true,
+        "longitude": 126.4341101,
+        "image_copyright": "Type1",
+        "source_types": "TOUR_API",
+        "holiday_open": "09:00",
+        "name": "조안베어뮤지엄",
+        "sido": "제주특별자치도",
+        "sigungu": "서귀포시",
+        "youth_fee": 11000.0,
+        "ownership_type": "사립",
+        "adult_fee": 12000.0,
+        "fee_notes": "도민할인",
+        "closure_rule_raw": "일",
+        "holiday_close": "17:00"
+      },
+      "vector_rank": 1,
+      "bm25_rank": 1,
+      "vector_distance": 0.4663923978805542,
+      "vector_score": null,
+      "bm25_score": 33.988865602623164,
+      "vector_document": "제주도 남부 서귀포시의 중문 관광단지 내에 위치하고 있는 조안베어뮤지엄은 세계적으로 유명한 테디베어 아티스트인 조안 오의 작업실이자 전시공간이다. 박물관에서는 천연의 소재로 만들어진 테디베어를 만날 수 있으며, 제주 자연의 아름다움을 느끼며 느긋한 휴식을 취할 수 있는 곳이다. 나지막한 언덕에 있는 조안베어뮤지엄에서는 백여 년 된 오십 그루의 소나무들과 돌담들이 그대로 보존되고 있어 제주 올레를 함께 할 수 있는 곳이다.",
+      "bm25_document": "제주도 남부 서귀포시의 중문 관광단지 내에 위치하고 있는 조안베어뮤지엄은 세계적으로 유명한 테디베어 아티스트인 조안 오의 작업실이자 전시공간이다. 박물관에서는 천연의 소재로 만들어진 테디베어를 만날 수 있으며, 제주 자연의 아름다움을 느끼며 느긋한 휴식을 취할 수 있는 곳이다. 나지막한 언덕에 있는 조안베어뮤지엄에서는 백여 년 된 오십 그루의 소나무들과 돌담들이 그대로 보존되고 있어 제주 올레를 함께 할 수 있는 곳이다.",
+      "best_span_id": "chroma:M0085",
+      "best_span_text": "제주도 남부 서귀포시의 중문 관광단지 내에 위치하고 있는 조안베어뮤지엄은 세계적으로 유명한 테디베어 아티스트인 조안 오의 작업실이자 전시공간이다. 박물관에서는 천연의 소재로 만들어진 테디베어를 만날 수 있으며, 제주 자연의 아름다움을 느끼며 느긋한 휴식을 취할 수 있는 곳이다. 나지막한 언덕에 있는 조안베어뮤지엄에서는 백여 년 된 오십 그루의 소나무들과 돌담들이 그대로 보존되고 있어 제주 올레를 함께 할 수 있는 곳이다.",
+      "fusion_score": 0.03278688524590164,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 1,
+      "name_match": true,
+      "rerank_score": 0.999901294708252,
+      "rank": 1,
+      "score": 0.999901294708252,
+      "score_type": "cross_encoder",
+      "distance": 0.4663923978805542,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0085",
+      "source_doc_ids": [
+        "DOC-B0085-TOUR_API-819583"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0085-TOUR_API-819583",
+          "source_type": "TOUR_API",
+          "source_record_id": "819583",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=42",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 81,
+          "doc_ids": [
+            "DOC-B0085-TOUR_API-819583"
+          ]
+        },
+        {
+          "start": 82,
+          "end": 155,
+          "doc_ids": [
+            "DOC-B0085-TOUR_API-819583"
+          ]
+        },
+        {
+          "start": 156,
+          "end": 237,
+          "doc_ids": [
+            "DOC-B0085-TOUR_API-819583"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=42",
+      "text": "제주도 남부 서귀포시의 중문 관광단지 내에 위치하고 있는 조안베어뮤지엄은 세계적으로 유명한 테디베어 아티스트인 조안 오의 작업실이자 전시공간이다. 박물관에서는 천연의 소재로 만들어진 테디베어를 만날 수 있으며, 제주 자연의 아름다움을 느끼며 느긋한 휴식을 취할 수 있는 곳이다. 나지막한 언덕에 있는 조안베어뮤지엄에서는 백여 년 된 오십 그루의 소나무들과 돌담들이 그대로 보존되고 있어 제주 올레를 함께 할 수 있는 곳이다.",
+      "sido": "제주특별자치도",
+      "sigungu": "서귀포시",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=42"
+      ],
+      "evidence_id": "E1",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=52",
+        "fields": {
+          "name": "조안베어뮤지엄",
+          "sido": "제주특별자치도",
+          "sigungu": "서귀포시",
+          "address": "제주특별자치도 서귀포시 대포로 113",
+          "ownership_type": "사립",
+          "adult_fee": "12000",
+          "youth_fee": "11000",
+          "child_fee": "10000",
+          "adult_fee_status": "BASE_FEE_PAID",
+          "weekday_open": "09:00",
+          "weekday_close": "17:00",
+          "holiday_open": "09:00",
+          "holiday_close": "17:00",
+          "closure_rule_raw": "일"
+        },
+        "base_data_date": "2026-09-30",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0433",
+      "name": "거제어촌민속전시관",
+      "document": "거제어촌민속전시관은 남해안의 어촌생활사에 관한 전시를 관람할 수 있는 곳이다. 전통의 바다에서는 거제의 역사부터 인물, 문화유적, 민요, 옛 생활 등의 전통을 알아볼 수 있다. 생활의 바다에서는 거제의 수산음식, 생활도구, 어선, 어구, 어법 등 생활요소들을 알아볼 수 있으며, 부흥의 바다에서는 거제의 입지조건, 연근해산수업, 해양생물, 굴이야기 등을, 체험의 바다에서는 거제의 특산물과 관광 등을 알아볼 수 있다. 민속품+패류+어구+어류박제품 등 2120여점 소장",
+      "metadata": {
+        "holiday_close": "18:00",
+        "sigungu": "거제시",
+        "homepage_url": "http://www.gmdc.co.kr/_marine/",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/52/3514952_image2_1.jpg",
+        "adult_fee_status": "BASE_FEE_PAID",
+        "ownership_type": "공립",
+        "image_copyright": "Type1",
+        "fee_notes": "할인(거제시민+만 65세 이상+관광지 통합이용권 이용자+상호협약 체결 시설 당일 입장권 소지자+단체 30명 이상)+무료(미취학 아동 + 국가보훈대상자+ 장애인+ 다자녀가정 + 기초생활수급자)",
+        "source_types": "BASE|TOUR_API",
+        "closure_rule_raw": "1월1일+설당일+추석당일+월요일(단, 월요일이 공휴일인 경우 당일은 개관하고 그 다음 첫번째 평일에 휴관)",
+        "requires_manual_review": true,
+        "child_fee": 1000.0,
+        "holiday_open": "09:00",
+        "latitude": 34.83369365,
+        "weekday_close": "18:00",
+        "sido": "경상남도",
+        "name": "거제어촌민속전시관",
+        "youth_fee": 2000.0,
+        "address": "경상남도 거제시 일운면 지세포해안로 41",
+        "longitude": 128.7018853,
+        "weekday_open": "09:00",
+        "adult_fee": 3000.0
+      },
+      "vector_rank": null,
+      "bm25_rank": 5,
+      "vector_distance": null,
+      "vector_score": null,
+      "bm25_score": 9.419666676902136,
+      "vector_document": "",
+      "bm25_document": "거제어촌민속전시관은 남해안의 어촌생활사에 관한 전시를 관람할 수 있는 곳이다. 전통의 바다에서는 거제의 역사부터 인물, 문화유적, 민요, 옛 생활 등의 전통을 알아볼 수 있다. 생활의 바다에서는 거제의 수산음식, 생활도구, 어선, 어구, 어법 등 생활요소들을 알아볼 수 있으며, 부흥의 바다에서는 거제의 입지조건, 연근해산수업, 해양생물, 굴이야기 등을, 체험의 바다에서는 거제의 특산물과 관광 등을 알아볼 수 있다. 민속품+패류+어구+어류박제품 등 2120여점 소장",
+      "best_span_id": "chroma:M0433",
+      "best_span_text": "거제어촌민속전시관은 남해안의 어촌생활사에 관한 전시를 관람할 수 있는 곳이다. 전통의 바다에서는 거제의 역사부터 인물, 문화유적, 민요, 옛 생활 등의 전통을 알아볼 수 있다. 생활의 바다에서는 거제의 수산음식, 생활도구, 어선, 어구, 어법 등 생활요소들을 알아볼 수 있으며, 부흥의 바다에서는 거제의 입지조건, 연근해산수업, 해양생물, 굴이야기 등을, 체험의 바다에서는 거제의 특산물과 관광 등을 알아볼 수 있다. 민속품+패류+어구+어류박제품 등 2120여점 소장",
+      "fusion_score": 0.015384615384615385,
+      "retrieved_by": [
+        "bm25"
+      ],
+      "fusion_rank": 10,
+      "rerank_score": 0.000303995911963284,
+      "rank": 2,
+      "score": 0.000303995911963284,
+      "score_type": "cross_encoder",
+      "distance": null,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "bm25"
+      ],
+      "retriever": "bm25",
+      "span_id": "chroma:M0433",
+      "source_doc_ids": [
+        "DOC-B0433-TOUR_API-1622179",
+        "DOC-B0433-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0433-TOUR_API-1622179",
+          "source_type": "TOUR_API",
+          "source_record_id": "1622179",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=207",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        },
+        {
+          "doc_id": "DOC-B0433-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0433",
+          "source_locator": "data/raw/museum_base_1070.csv#row=434",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 43,
+          "doc_ids": [
+            "DOC-B0433-TOUR_API-1622179"
+          ]
+        },
+        {
+          "start": 44,
+          "end": 98,
+          "doc_ids": [
+            "DOC-B0433-TOUR_API-1622179"
+          ]
+        },
+        {
+          "start": 99,
+          "end": 233,
+          "doc_ids": [
+            "DOC-B0433-TOUR_API-1622179"
+          ]
+        },
+        {
+          "start": 234,
+          "end": 261,
+          "doc_ids": [
+            "DOC-B0433-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=207",
+      "text": "거제어촌민속전시관은 남해안의 어촌생활사에 관한 전시를 관람할 수 있는 곳이다. 전통의 바다에서는 거제의 역사부터 인물, 문화유적, 민요, 옛 생활 등의 전통을 알아볼 수 있다. 생활의 바다에서는 거제의 수산음식, 생활도구, 어선, 어구, 어법 등 생활요소들을 알아볼 수 있으며, 부흥의 바다에서는 거제의 입지조건, 연근해산수업, 해양생물, 굴이야기 등을, 체험의 바다에서는 거제의 특산물과 관광 등을 알아볼 수 있다. 민속품+패류+어구+어류박제품 등 2120여점 소장",
+      "sido": "경상남도",
+      "sigungu": "거제시",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=207"
+      ],
+      "evidence_id": "E2",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=307",
+        "fields": {
+          "name": "거제어촌민속전시관",
+          "sido": "경상남도",
+          "sigungu": "거제시",
+          "address": "경상남도 거제시 일운면 지세포해안로 41",
+          "ownership_type": "공립",
+          "adult_fee": "3000",
+          "youth_fee": "2000",
+          "child_fee": "1000",
+          "adult_fee_status": "BASE_FEE_PAID",
+          "weekday_open": "09:00",
+          "weekday_close": "18:00",
+          "holiday_open": "09:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "1월1일+설당일+추석당일+월요일(단, 월요일이 공휴일인 경우 당일은 개관하고 그 다음 첫번째 평일에 휴관)"
+        },
+        "base_data_date": "2026-03-26",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0076",
+      "name": "한림공원",
+      "document": "제주 한림공원은 1971년 창업인 송봉규 선생이 10만여 평의 황무지 모래밭에 야자수 씨앗을 파종하여 육묘함으로써 탄생하게 된 비경지대이다. 협재, 금릉 해수욕장의 비경과 아름다운 비양도의 경관을 마주하고 있는 제주도내 최고의 관광명소로 손꼽히고 있다. 10만여 평의 대지에 하늘로 우뚝 뻗은 야자수군락과 울창한 송림으로 둘러싸인 한림공원은 다양한 종류의 꽃과 나무가 사계절 아름다운 경관을 연출하며, 남국의 정취가 물씬 풍기는 야자수길, 분재와 돌을 소재로 하여 구성된 제주석분재원, 제주의 옛 모습을 재현한 재암민속마을 등 다양한 볼거리를 함께 갖추고 있다. 환상적인 9가지 다양한 테마가 펼쳐지는 한림공원은 장쩌민 중국 전 국가주석과 나까소네 전 일본수상을 비롯한 세계 각국의 저명인사들이 방문한 곳으로, 국내외 관광객이 찾는 세계적인 관광명소이다.",
+      "metadata": {
+        "weekday_open": "09:00",
+        "weekday_close": "17:00",
+        "holiday_close": "17:00",
+        "latitude": 33.39022486,
+        "fee_notes": "단체 관람 시 할인+도민할인",
+        "homepage_url": "http://www.hallimpark.com",
+        "adult_fee_status": "BASE_FEE_PAID",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/83/3553983_image2_1.jpg",
+        "sigungu": "제주시",
+        "source_types": "TOUR_API",
+        "ownership_type": "사립",
+        "closure_rule_raw": "연중무휴",
+        "adult_fee": 15000.0,
+        "holiday_open": "09:00",
+        "address": "제주특별자치도 제주시 한림읍 한림로 300",
+        "image_copyright": "Type1",
+        "sido": "제주특별자치도",
+        "requires_manual_review": true,
+        "name": "한림공원",
+        "child_fee": 9000.0,
+        "longitude": 126.2396912,
+        "youth_fee": 10000.0
+      },
+      "vector_rank": null,
+      "bm25_rank": 3,
+      "vector_distance": null,
+      "vector_score": null,
+      "bm25_score": 10.544601678114427,
+      "vector_document": "",
+      "bm25_document": "제주 한림공원은 1971년 창업인 송봉규 선생이 10만여 평의 황무지 모래밭에 야자수 씨앗을 파종하여 육묘함으로써 탄생하게 된 비경지대이다. 협재, 금릉 해수욕장의 비경과 아름다운 비양도의 경관을 마주하고 있는 제주도내 최고의 관광명소로 손꼽히고 있다. 10만여 평의 대지에 하늘로 우뚝 뻗은 야자수군락과 울창한 송림으로 둘러싸인 한림공원은 다양한 종류의 꽃과 나무가 사계절 아름다운 경관을 연출하며, 남국의 정취가 물씬 풍기는 야자수길, 분재와 돌을 소재로 하여 구성된 제주석분재원, 제주의 옛 모습을 재현한 재암민속마을 등 다양한 볼거리를 함께 갖추고 있다. 환상적인 9가지 다양한 테마가 펼쳐지는 한림공원은 장쩌민 중국 전 국가주석과 나까소네 전 일본수상을 비롯한 세계 각국의 저명인사들이 방문한 곳으로, 국내외 관광객이 찾는 세계적인 관광명소이다.",
+      "best_span_id": "chroma:M0076",
+      "best_span_text": "제주 한림공원은 1971년 창업인 송봉규 선생이 10만여 평의 황무지 모래밭에 야자수 씨앗을 파종하여 육묘함으로써 탄생하게 된 비경지대이다. 협재, 금릉 해수욕장의 비경과 아름다운 비양도의 경관을 마주하고 있는 제주도내 최고의 관광명소로 손꼽히고 있다. 10만여 평의 대지에 하늘로 우뚝 뻗은 야자수군락과 울창한 송림으로 둘러싸인 한림공원은 다양한 종류의 꽃과 나무가 사계절 아름다운 경관을 연출하며, 남국의 정취가 물씬 풍기는 야자수길, 분재와 돌을 소재로 하여 구성된 제주석분재원, 제주의 옛 모습을 재현한 재암민속마을 등 다양한 볼거리를 함께 갖추고 있다. 환상적인 9가지 다양한 테마가 펼쳐지는 한림공원은 장쩌민 중국 전 국가주석과 나까소네 전 일본수상을 비롯한 세계 각국의 저명인사들이 방문한 곳으로, 국내외 관광객이 찾는 세계적인 관광명소이다.",
+      "fusion_score": 0.015873015873015872,
+      "retrieved_by": [
+        "bm25"
+      ],
+      "fusion_rank": 6,
+      "rerank_score": 0.00015175768930930644,
+      "rank": 3,
+      "score": 0.00015175768930930644,
+      "score_type": "cross_encoder",
+      "distance": null,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "bm25"
+      ],
+      "retriever": "bm25",
+      "span_id": "chroma:M0076",
+      "source_doc_ids": [
+        "DOC-B0076-TOUR_API-126455"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0076-TOUR_API-126455",
+          "source_type": "TOUR_API",
+          "source_record_id": "126455",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=38",
+          "match_trust": "RECHECKED_BY_RULE_NOT_HUMAN_APPROVED"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 78,
+          "doc_ids": [
+            "DOC-B0076-TOUR_API-126455"
+          ]
+        },
+        {
+          "start": 79,
+          "end": 141,
+          "doc_ids": [
+            "DOC-B0076-TOUR_API-126455"
+          ]
+        },
+        {
+          "start": 142,
+          "end": 314,
+          "doc_ids": [
+            "DOC-B0076-TOUR_API-126455"
+          ]
+        },
+        {
+          "start": 315,
+          "end": 422,
+          "doc_ids": [
+            "DOC-B0076-TOUR_API-126455"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=38",
+      "text": "제주 한림공원은 1971년 창업인 송봉규 선생이 10만여 평의 황무지 모래밭에 야자수 씨앗을 파종하여 육묘함으로써 탄생하게 된 비경지대이다. 협재, 금릉 해수욕장의 비경과 아름다운 비양도의 경관을 마주하고 있는 제주도내 최고의 관광명소로 손꼽히고 있다. 10만여 평의 대지에 하늘로 우뚝 뻗은 야자수군락과 울창한 송림으로 둘러싸인 한림공원은 다양한 종류의 꽃과 나무가 사계절 아름다운 경관을 연출하며, 남국의 정취가 물씬 풍기는 야자수길, 분재와 돌을 소재로 하여 구성된 제주석분재원, 제주의 옛 모습을 재현한 재암민속마을 등 다양한 볼거리를 함께 갖추고 있다. 환상적인 9가지 다양한 테마가 펼쳐지는 한림공원은 장쩌민 중국 전 국가주석과 나까소네 전 일본수상을 비롯한 세계 각국의 저명인사들이 방문한 곳으로, 국내외 관광객이 찾는 세계적인 관광명소이다.",
+      "sido": "제주특별자치도",
+      "sigungu": "제주시",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=38"
+      ],
+      "evidence_id": "E3",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=48",
+        "fields": {
+          "name": "한림공원",
+          "sido": "제주특별자치도",
+          "sigungu": "제주시",
+          "address": "제주특별자치도 제주시 한림읍 한림로 300",
+          "ownership_type": "사립",
+          "adult_fee": "15000",
+          "youth_fee": "10000",
+          "child_fee": "9000",
+          "adult_fee_status": "BASE_FEE_PAID",
+          "weekday_open": "09:00",
+          "weekday_close": "17:00",
+          "holiday_open": "09:00",
+          "holiday_close": "17:00",
+          "closure_rule_raw": "연중무휴"
+        },
+        "base_data_date": "2026-09-30",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0737",
+      "name": "문경자연생태박물관",
+      "document": "문경에 위치한 문경자연생태박물관은 문경새재일원의 생태자원 및 생물자원을 연구하여 전시하는 박물관이다. 문경새재와 연계해서 하루 코스로 다녀오기 좋으며 실내에서 곤충 탐험, 생태 교육을 즐길 수 있어 아이들과 방문하기에도 좋다. 1층 벅스어드벤처는 곤충을 콘셉트로 한 실내 놀이시설이다. 벅스어드벤처 바로 옆에는 영상관과 4D 체험관이 위치해 있다. 2층은 상설 전시공간으로 다양한 곤충 표본과 생물 사진, 모형이 가득해 둘러보는 재미가 있다. (출처 : 경상북도청 공식블로그)",
+      "metadata": {
+        "sido": "경상북도",
+        "longitude": 128.0764842,
+        "requires_manual_review": true,
+        "holiday_close": "18:00",
+        "source_types": "TOUR_API",
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "child_fee": 0.0,
+        "weekday_open": "09:00",
+        "amenities_raw": "모바일서비스",
+        "ownership_type": "공립",
+        "holiday_open": "09:00",
+        "youth_fee": 0.0,
+        "sigungu": "문경시",
+        "latitude": 36.75251619,
+        "weekday_close": "18:00",
+        "homepage_url": "https://www.gbmg.go.kr/tour/contents.do?mId=0103010100",
+        "fee_notes": "무료",
+        "image_copyright": "Type3",
+        "address": "경상북도 문경시 문경읍 새재1길 45",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/41/4086241_image2_1.jpg",
+        "adult_fee": 0.0,
+        "name": "문경자연생태박물관",
+        "closure_rule_raw": "1월1일, 설날, 추석"
+      },
+      "vector_rank": 10,
+      "bm25_rank": null,
+      "vector_distance": 0.6180262565612793,
+      "vector_score": null,
+      "bm25_score": null,
+      "vector_document": "문경에 위치한 문경자연생태박물관은 문경새재일원의 생태자원 및 생물자원을 연구하여 전시하는 박물관이다. 문경새재와 연계해서 하루 코스로 다녀오기 좋으며 실내에서 곤충 탐험, 생태 교육을 즐길 수 있어 아이들과 방문하기에도 좋다. 1층 벅스어드벤처는 곤충을 콘셉트로 한 실내 놀이시설이다. 벅스어드벤처 바로 옆에는 영상관과 4D 체험관이 위치해 있다. 2층은 상설 전시공간으로 다양한 곤충 표본과 생물 사진, 모형이 가득해 둘러보는 재미가 있다. (출처 : 경상북도청 공식블로그)",
+      "bm25_document": "",
+      "best_span_id": null,
+      "best_span_text": null,
+      "fusion_score": 0.014285714285714285,
+      "retrieved_by": [
+        "vector"
+      ],
+      "fusion_rank": 19,
+      "rerank_score": 9.677437628852203e-05,
+      "rank": 4,
+      "score": 9.677437628852203e-05,
+      "score_type": "cross_encoder",
+      "distance": 0.6180262565612793,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector"
+      ],
+      "retriever": "vector",
+      "source_doc_ids": [
+        "DOC-B0737-TOUR_API-4086237"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0737-TOUR_API-4086237",
+          "source_type": "TOUR_API",
+          "source_record_id": "4086237",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=355",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 56,
+          "doc_ids": [
+            "DOC-B0737-TOUR_API-4086237"
+          ]
+        },
+        {
+          "start": 57,
+          "end": 126,
+          "doc_ids": [
+            "DOC-B0737-TOUR_API-4086237"
+          ]
+        },
+        {
+          "start": 127,
+          "end": 159,
+          "doc_ids": [
+            "DOC-B0737-TOUR_API-4086237"
+          ]
+        },
+        {
+          "start": 160,
+          "end": 194,
+          "doc_ids": [
+            "DOC-B0737-TOUR_API-4086237"
+          ]
+        },
+        {
+          "start": 195,
+          "end": 247,
+          "doc_ids": [
+            "DOC-B0737-TOUR_API-4086237"
+          ]
+        },
+        {
+          "start": 248,
+          "end": 266,
+          "doc_ids": [
+            "DOC-B0737-TOUR_API-4086237"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=355",
+      "text": "문경에 위치한 문경자연생태박물관은 문경새재일원의 생태자원 및 생물자원을 연구하여 전시하는 박물관이다. 문경새재와 연계해서 하루 코스로 다녀오기 좋으며 실내에서 곤충 탐험, 생태 교육을 즐길 수 있어 아이들과 방문하기에도 좋다. 1층 벅스어드벤처는 곤충을 콘셉트로 한 실내 놀이시설이다. 벅스어드벤처 바로 옆에는 영상관과 4D 체험관이 위치해 있다. 2층은 상설 전시공간으로 다양한 곤충 표본과 생물 사진, 모형이 가득해 둘러보는 재미가 있다. (출처 : 경상북도청 공식블로그)",
+      "sido": "경상북도",
+      "sigungu": "문경시",
+      "span_id": "",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=355"
+      ],
+      "evidence_id": "E4",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=512",
+        "fields": {
+          "name": "문경자연생태박물관",
+          "sido": "경상북도",
+          "sigungu": "문경시",
+          "address": "경상북도 문경시 문경읍 새재1길 45",
+          "ownership_type": "공립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "09:00",
+          "weekday_close": "18:00",
+          "holiday_open": "09:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "1월1일, 설날, 추석",
+          "amenities_raw": "모바일서비스"
+        },
+        "base_data_date": "2025-12-18",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0850",
+      "name": "디자인씽킹뮤지엄",
+      "document": "디자인씽킹뮤지엄은 실내 전시를 중심으로 구성된 체험형 박물관으로 요즘에는 쉽게 만나기 어려운 수작업 오브제와 컬러풀한 연출이 실내 전시실 곳곳에 살아 있는 문화공간이다. 9개의 실내 전시실은 예술과 디자인, 조선시대와 고려시대 유물, 이야기 콘텐츠가 복합적으로 펼쳐지는 곳이다. 전시실뿐만 아니라 고양이, 토끼 등의 동물들과 마주할 수 있는 공간이 마련되어 있어 아이들도 즐겁게 관람 가능하다. 20여 개 이상의 체험 프로그램은 실내를 중심으로 상시 또는 연계 운영되며, 국가 공인 자격증을 보유한 학예사·교육사·문화예술교육사가 직접 지도한다. 강릉 시내에 위치하여 접근성이 좋아 여행 중에도 부담없이 방문하기 좋다.",
+      "metadata": {
+        "ownership_type": "사립",
+        "holiday_open": "00:00",
+        "longitude": 128.8741651,
+        "weekday_open": "09:00",
+        "holiday_close": "00:00",
+        "name": "디자인씽킹뮤지엄",
+        "sido": "강원특별자치도",
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "sigungu": "강릉시",
+        "child_fee": 0.0,
+        "closure_rule_raw": "공휴일+비정기 휴무일(코로나로 일정하지 않음)",
+        "homepage_url": "https://designthinkingmuseum.com",
+        "address": "강원특별자치도 강릉시 구정면 정등로 130",
+        "image_copyright": "Type3",
+        "source_types": "TOUR_API",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/66/3592166_image2_1.jpeg",
+        "youth_fee": 0.0,
+        "weekday_close": "18:00",
+        "latitude": 37.72922013,
+        "requires_manual_review": true,
+        "adult_fee": 0.0
+      },
+      "vector_rank": 2,
+      "bm25_rank": null,
+      "vector_distance": 0.5204019546508789,
+      "vector_score": null,
+      "bm25_score": null,
+      "vector_document": "디자인씽킹뮤지엄은 실내 전시를 중심으로 구성된 체험형 박물관으로 요즘에는 쉽게 만나기 어려운 수작업 오브제와 컬러풀한 연출이 실내 전시실 곳곳에 살아 있는 문화공간이다. 9개의 실내 전시실은 예술과 디자인, 조선시대와 고려시대 유물, 이야기 콘텐츠가 복합적으로 펼쳐지는 곳이다. 전시실뿐만 아니라 고양이, 토끼 등의 동물들과 마주할 수 있는 공간이 마련되어 있어 아이들도 즐겁게 관람 가능하다. 20여 개 이상의 체험 프로그램은 실내를 중심으로 상시 또는 연계 운영되며, 국가 공인 자격증을 보유한 학예사·교육사·문화예술교육사가 직접 지도한다. 강릉 시내에 위치하여 접근성이 좋아 여행 중에도 부담없이 방문하기 좋다.",
+      "bm25_document": "",
+      "best_span_id": null,
+      "best_span_text": null,
+      "fusion_score": 0.016129032258064516,
+      "retrieved_by": [
+        "vector"
+      ],
+      "fusion_rank": 3,
+      "rerank_score": 9.143041825154796e-05,
+      "rank": 5,
+      "score": 9.143041825154796e-05,
+      "score_type": "cross_encoder",
+      "distance": 0.5204019546508789,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector"
+      ],
+      "retriever": "vector",
+      "source_doc_ids": [
+        "DOC-B0850-TOUR_API-3592123"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0850-TOUR_API-3592123",
+          "source_type": "TOUR_API",
+          "source_record_id": "3592123",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=402",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 94,
+          "doc_ids": [
+            "DOC-B0850-TOUR_API-3592123"
+          ]
+        },
+        {
+          "start": 95,
+          "end": 155,
+          "doc_ids": [
+            "DOC-B0850-TOUR_API-3592123"
+          ]
+        },
+        {
+          "start": 156,
+          "end": 220,
+          "doc_ids": [
+            "DOC-B0850-TOUR_API-3592123"
+          ]
+        },
+        {
+          "start": 221,
+          "end": 304,
+          "doc_ids": [
+            "DOC-B0850-TOUR_API-3592123"
+          ]
+        },
+        {
+          "start": 305,
+          "end": 345,
+          "doc_ids": [
+            "DOC-B0850-TOUR_API-3592123"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=402",
+      "text": "디자인씽킹뮤지엄은 실내 전시를 중심으로 구성된 체험형 박물관으로 요즘에는 쉽게 만나기 어려운 수작업 오브제와 컬러풀한 연출이 실내 전시실 곳곳에 살아 있는 문화공간이다. 9개의 실내 전시실은 예술과 디자인, 조선시대와 고려시대 유물, 이야기 콘텐츠가 복합적으로 펼쳐지는 곳이다. 전시실뿐만 아니라 고양이, 토끼 등의 동물들과 마주할 수 있는 공간이 마련되어 있어 아이들도 즐겁게 관람 가능하다. 20여 개 이상의 체험 프로그램은 실내를 중심으로 상시 또는 연계 운영되며, 국가 공인 자격증을 보유한 학예사·교육사·문화예술교육사가 직접 지도한다. 강릉 시내에 위치하여 접근성이 좋아 여행 중에도 부담없이 방문하기 좋다.",
+      "sido": "강원특별자치도",
+      "sigungu": "강릉시",
+      "span_id": "",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=402"
+      ],
+      "evidence_id": "E5",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=575",
+        "fields": {
+          "name": "디자인씽킹뮤지엄",
+          "sido": "강원특별자치도",
+          "sigungu": "강릉시",
+          "address": "강원특별자치도 강릉시 구정면 정등로 130",
+          "ownership_type": "사립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "09:00",
+          "weekday_close": "18:00",
+          "holiday_open": "00:00",
+          "holiday_close": "00:00",
+          "closure_rule_raw": "공휴일+비정기 휴무일(코로나로 일정하지 않음)"
+        },
+        "base_data_date": "2024-03-18",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    }
+  ],
+  "answer": "조안베어뮤지엄은 제주 서귀포시 중문 관광단지에 있는 테디베어 아티스트 조안 오의 작업실이자 전시공간입니다. 천연 소재로 만든 테디베어를 볼 수 있고, 제주 자연 속에서 쉬며 산책을 즐길 수 있는 곳으로 소개되어 있습니다. 언덕에는 오래된 소나무와 돌담이 보존되어 있습니다. [E1]",
+  "retrieval_status": "ok",
+  "answer_status": "answered",
+  "route": "hybrid",
+  "retry_count": 0,
+  "supervisor_verified": true,
+  "rerank_applied": true,
+  "retriever_errors": [],
+  "warnings": [],
+  "duration_ms": 218931.74,
+  "error_type": "",
+  "hit_at_1": 1,
+  "hit_at_3": 1,
+  "hit_at_5": 1,
+  "recall_at_5": 1.0,
+  "mrr_at_10": 1.0
+}

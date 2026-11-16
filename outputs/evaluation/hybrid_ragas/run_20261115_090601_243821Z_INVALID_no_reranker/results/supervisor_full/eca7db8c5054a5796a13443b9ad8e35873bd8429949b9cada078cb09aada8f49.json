@@ -1,0 +1,741 @@
+{
+  "mode": "supervisor_full",
+  "question_id": "Q270",
+  "evidence": [
+    {
+      "museum_id": "M0461",
+      "name": "한강뮤지엄",
+      "document": "남양주시에 위치한 한강뮤지엄은 일상에서 쉽게 접근할 수 있는 주제를 가지고 관객들과 예술이 유연하게 소통할 수 있는 소통의 장을 제시하는 공간이다. 누구나 이용이 가능하며, 다양한 카테고리의 전시와 프로그램 또한 함께 제시하고 있다. 한강 전경으로 자연이 공존하는 공간을 선사한다. 제1전시장은 ‘작품과 나의 소통장’이라는 주제로 작품과 나 사이에서 자신이 가진 사고로 작품을 해석하고 이해하는 작품과 나의 소통 창구를 제시한다. 제2전시장은 ‘작품과 우리의 소통장’이라는 주제로 전시를 즐기며 힐링할 수 있는 공간으로 구성하였다.",
+      "metadata": {
+        "latitude": 37.5534542,
+        "requires_manual_review": true,
+        "adult_fee": 10000.0,
+        "address": "경기도 남양주시 와부읍 경강로926번길 30",
+        "source_types": "TOUR_API",
+        "name": "한강뮤지엄",
+        "child_fee": 8000.0,
+        "sigungu": "남양주시",
+        "sido": "경기도",
+        "holiday_open": "11:00",
+        "closure_rule_raw": "연중무휴",
+        "image_copyright": "Type1",
+        "ownership_type": "사립",
+        "amenities_raw": "문화상품점",
+        "adult_fee_status": "BASE_FEE_PAID",
+        "holiday_close": "22:00",
+        "longitude": 127.2366752,
+        "weekday_open": "11:00",
+        "youth_fee": 8000.0,
+        "weekday_close": "20:00",
+        "homepage_url": "http://hangangmuseum.com/",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/16/3584716_image2_1.jpg"
+      },
+      "vector_rank": 1,
+      "bm25_rank": 1,
+      "vector_distance": 0.3909287452697754,
+      "vector_score": null,
+      "bm25_score": 37.70819881441609,
+      "vector_document": "남양주시에 위치한 한강뮤지엄은 일상에서 쉽게 접근할 수 있는 주제를 가지고 관객들과 예술이 유연하게 소통할 수 있는 소통의 장을 제시하는 공간이다. 누구나 이용이 가능하며, 다양한 카테고리의 전시와 프로그램 또한 함께 제시하고 있다. 한강 전경으로 자연이 공존하는 공간을 선사한다. 제1전시장은 ‘작품과 나의 소통장’이라는 주제로 작품과 나 사이에서 자신이 가진 사고로 작품을 해석하고 이해하는 작품과 나의 소통 창구를 제시한다. 제2전시장은 ‘작품과 우리의 소통장’이라는 주제로 전시를 즐기며 힐링할 수 있는 공간으로 구성하였다.",
+      "bm25_document": "남양주시에 위치한 한강뮤지엄은 일상에서 쉽게 접근할 수 있는 주제를 가지고 관객들과 예술이 유연하게 소통할 수 있는 소통의 장을 제시하는 공간이다. 누구나 이용이 가능하며, 다양한 카테고리의 전시와 프로그램 또한 함께 제시하고 있다. 한강 전경으로 자연이 공존하는 공간을 선사한다. 제1전시장은 ‘작품과 나의 소통장’이라는 주제로 작품과 나 사이에서 자신이 가진 사고로 작품을 해석하고 이해하는 작품과 나의 소통 창구를 제시한다. 제2전시장은 ‘작품과 우리의 소통장’이라는 주제로 전시를 즐기며 힐링할 수 있는 공간으로 구성하였다.",
+      "best_span_id": "chroma:M0461",
+      "best_span_text": "남양주시에 위치한 한강뮤지엄은 일상에서 쉽게 접근할 수 있는 주제를 가지고 관객들과 예술이 유연하게 소통할 수 있는 소통의 장을 제시하는 공간이다. 누구나 이용이 가능하며, 다양한 카테고리의 전시와 프로그램 또한 함께 제시하고 있다. 한강 전경으로 자연이 공존하는 공간을 선사한다. 제1전시장은 ‘작품과 나의 소통장’이라는 주제로 작품과 나 사이에서 자신이 가진 사고로 작품을 해석하고 이해하는 작품과 나의 소통 창구를 제시한다. 제2전시장은 ‘작품과 우리의 소통장’이라는 주제로 전시를 즐기며 힐링할 수 있는 공간으로 구성하였다.",
+      "fusion_score": 0.03278688524590164,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 1,
+      "name_match": true,
+      "rerank_score": null,
+      "rank": 1,
+      "score": 0.03278688524590164,
+      "score_type": "rrf",
+      "distance": 0.3909287452697754,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0461",
+      "source_doc_ids": [
+        "DOC-B0461-TOUR_API-2773766"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0461-TOUR_API-2773766",
+          "source_type": "TOUR_API",
+          "source_record_id": "2773766",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=224",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 82,
+          "doc_ids": [
+            "DOC-B0461-TOUR_API-2773766"
+          ]
+        },
+        {
+          "start": 83,
+          "end": 130,
+          "doc_ids": [
+            "DOC-B0461-TOUR_API-2773766"
+          ]
+        },
+        {
+          "start": 131,
+          "end": 157,
+          "doc_ids": [
+            "DOC-B0461-TOUR_API-2773766"
+          ]
+        },
+        {
+          "start": 158,
+          "end": 240,
+          "doc_ids": [
+            "DOC-B0461-TOUR_API-2773766"
+          ]
+        },
+        {
+          "start": 241,
+          "end": 297,
+          "doc_ids": [
+            "DOC-B0461-TOUR_API-2773766"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=224",
+      "text": "남양주시에 위치한 한강뮤지엄은 일상에서 쉽게 접근할 수 있는 주제를 가지고 관객들과 예술이 유연하게 소통할 수 있는 소통의 장을 제시하는 공간이다. 누구나 이용이 가능하며, 다양한 카테고리의 전시와 프로그램 또한 함께 제시하고 있다. 한강 전경으로 자연이 공존하는 공간을 선사한다. 제1전시장은 ‘작품과 나의 소통장’이라는 주제로 작품과 나 사이에서 자신이 가진 사고로 작품을 해석하고 이해하는 작품과 나의 소통 창구를 제시한다. 제2전시장은 ‘작품과 우리의 소통장’이라는 주제로 전시를 즐기며 힐링할 수 있는 공간으로 구성하였다.",
+      "sido": "경기도",
+      "sigungu": "남양주시",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=224"
+      ],
+      "evidence_id": "E1",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=332",
+        "fields": {
+          "name": "한강뮤지엄",
+          "sido": "경기도",
+          "sigungu": "남양주시",
+          "address": "경기도 남양주시 와부읍 경강로926번길 30",
+          "ownership_type": "사립",
+          "adult_fee": "10000",
+          "youth_fee": "8000",
+          "child_fee": "8000",
+          "adult_fee_status": "BASE_FEE_PAID",
+          "weekday_open": "11:00",
+          "weekday_close": "20:00",
+          "holiday_open": "11:00",
+          "holiday_close": "22:00",
+          "closure_rule_raw": "연중무휴",
+          "amenities_raw": "문화상품점"
+        },
+        "base_data_date": "2026-04-01",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0772",
+      "name": "피규어뮤지엄W",
+      "document": "피규어뮤지엄W는 서울특별시 강남구 청담동에 위치한 피규어 전문 박물관이다. 만화와 영화, 애니메이션, 게임 속 다양한 캐릭터를 바탕으로 제작된 피규어와 조형물을 전시하며, 대형 캐릭터 조형물과 주제별 전시 공간을 운영하고 있다. 국내외 인기 캐릭터를 비롯해 한정판 피규어와 다양한 컬렉션을 가까이에서 감상할 수 있어 피규어와 대중문화를 좋아하는 관람객들에게 관심을 받고 있다. 가족, 연인, 친구는 물론 개인 관람객도 자유롭게 관람할 수 있는 문화공간으로, 상설 체험 프로그램을 통해 나만의 캐릭터 피규어를 직접 만들어 볼 수 있다. 또한 어린이와 청소년 단체를 대상으로 전시와 연계한 체험 활동, 진로교육, 창의융합 프로그램 등을 운영하며 문화예술 체험 공간으로 활용되고 있다.",
+      "metadata": {
+        "sido": "서울특별시",
+        "child_fee": 12000.0,
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/98/4094798_image2_1.png",
+        "ownership_type": "사립",
+        "image_copyright": "Type3",
+        "source_types": "TOUR_API",
+        "latitude": 37.5257998,
+        "weekday_close": "19:00",
+        "longitude": 127.0403869,
+        "name": "피규어뮤지엄W",
+        "homepage_url": "http://www.figuremuseumw.co.kr",
+        "youth_fee": 13500.0,
+        "address": "서울특별시 강남구 선릉로158길 3",
+        "holiday_close": "19:00",
+        "adult_fee": 15000.0,
+        "closure_rule_raw": "월+신정+설 연휴+추석 연휴",
+        "weekday_open": "11:00",
+        "holiday_open": "11:00",
+        "requires_manual_review": true,
+        "adult_fee_status": "BASE_FEE_PAID",
+        "sigungu": "강남구"
+      },
+      "vector_rank": 19,
+      "bm25_rank": 8,
+      "vector_distance": 0.591793417930603,
+      "vector_score": null,
+      "bm25_score": 13.586937907559285,
+      "vector_document": "피규어뮤지엄W는 서울특별시 강남구 청담동에 위치한 피규어 전문 박물관이다. 만화와 영화, 애니메이션, 게임 속 다양한 캐릭터를 바탕으로 제작된 피규어와 조형물을 전시하며, 대형 캐릭터 조형물과 주제별 전시 공간을 운영하고 있다. 국내외 인기 캐릭터를 비롯해 한정판 피규어와 다양한 컬렉션을 가까이에서 감상할 수 있어 피규어와 대중문화를 좋아하는 관람객들에게 관심을 받고 있다. 가족, 연인, 친구는 물론 개인 관람객도 자유롭게 관람할 수 있는 문화공간으로, 상설 체험 프로그램을 통해 나만의 캐릭터 피규어를 직접 만들어 볼 수 있다. 또한 어린이와 청소년 단체를 대상으로 전시와 연계한 체험 활동, 진로교육, 창의융합 프로그램 등을 운영하며 문화예술 체험 공간으로 활용되고 있다.",
+      "bm25_document": "피규어뮤지엄W는 서울특별시 강남구 청담동에 위치한 피규어 전문 박물관이다. 만화와 영화, 애니메이션, 게임 속 다양한 캐릭터를 바탕으로 제작된 피규어와 조형물을 전시하며, 대형 캐릭터 조형물과 주제별 전시 공간을 운영하고 있다. 국내외 인기 캐릭터를 비롯해 한정판 피규어와 다양한 컬렉션을 가까이에서 감상할 수 있어 피규어와 대중문화를 좋아하는 관람객들에게 관심을 받고 있다. 가족, 연인, 친구는 물론 개인 관람객도 자유롭게 관람할 수 있는 문화공간으로, 상설 체험 프로그램을 통해 나만의 캐릭터 피규어를 직접 만들어 볼 수 있다. 또한 어린이와 청소년 단체를 대상으로 전시와 연계한 체험 활동, 진로교육, 창의융합 프로그램 등을 운영하며 문화예술 체험 공간으로 활용되고 있다.",
+      "best_span_id": "chroma:M0772",
+      "best_span_text": "피규어뮤지엄W는 서울특별시 강남구 청담동에 위치한 피규어 전문 박물관이다. 만화와 영화, 애니메이션, 게임 속 다양한 캐릭터를 바탕으로 제작된 피규어와 조형물을 전시하며, 대형 캐릭터 조형물과 주제별 전시 공간을 운영하고 있다. 국내외 인기 캐릭터를 비롯해 한정판 피규어와 다양한 컬렉션을 가까이에서 감상할 수 있어 피규어와 대중문화를 좋아하는 관람객들에게 관심을 받고 있다. 가족, 연인, 친구는 물론 개인 관람객도 자유롭게 관람할 수 있는 문화공간으로, 상설 체험 프로그램을 통해 나만의 캐릭터 피규어를 직접 만들어 볼 수 있다. 또한 어린이와 청소년 단체를 대상으로 전시와 연계한 체험 활동, 진로교육, 창의융합 프로그램 등을 운영하며 문화예술 체험 공간으로 활용되고 있다.",
+      "fusion_score": 0.027364110201042444,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 2,
+      "rerank_score": null,
+      "rank": 2,
+      "score": 0.027364110201042444,
+      "score_type": "rrf",
+      "distance": 0.591793417930603,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0772",
+      "source_doc_ids": [
+        "DOC-B0772-TOUR_API-1993515"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0772-TOUR_API-1993515",
+          "source_type": "TOUR_API",
+          "source_record_id": "1993515",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=373",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 41,
+          "doc_ids": [
+            "DOC-B0772-TOUR_API-1993515"
+          ]
+        },
+        {
+          "start": 42,
+          "end": 127,
+          "doc_ids": [
+            "DOC-B0772-TOUR_API-1993515"
+          ]
+        },
+        {
+          "start": 128,
+          "end": 210,
+          "doc_ids": [
+            "DOC-B0772-TOUR_API-1993515"
+          ]
+        },
+        {
+          "start": 211,
+          "end": 298,
+          "doc_ids": [
+            "DOC-B0772-TOUR_API-1993515"
+          ]
+        },
+        {
+          "start": 299,
+          "end": 380,
+          "doc_ids": [
+            "DOC-B0772-TOUR_API-1993515"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=373",
+      "text": "피규어뮤지엄W는 서울특별시 강남구 청담동에 위치한 피규어 전문 박물관이다. 만화와 영화, 애니메이션, 게임 속 다양한 캐릭터를 바탕으로 제작된 피규어와 조형물을 전시하며, 대형 캐릭터 조형물과 주제별 전시 공간을 운영하고 있다. 국내외 인기 캐릭터를 비롯해 한정판 피규어와 다양한 컬렉션을 가까이에서 감상할 수 있어 피규어와 대중문화를 좋아하는 관람객들에게 관심을 받고 있다. 가족, 연인, 친구는 물론 개인 관람객도 자유롭게 관람할 수 있는 문화공간으로, 상설 체험 프로그램을 통해 나만의 캐릭터 피규어를 직접 만들어 볼 수 있다. 또한 어린이와 청소년 단체를 대상으로 전시와 연계한 체험 활동, 진로교육, 창의융합 프로그램 등을 운영하며 문화예술 체험 공간으로 활용되고 있다.",
+      "sido": "서울특별시",
+      "sigungu": "강남구",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=373"
+      ],
+      "evidence_id": "E2",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=533",
+        "fields": {
+          "name": "피규어뮤지엄W",
+          "sido": "서울특별시",
+          "sigungu": "강남구",
+          "address": "서울특별시 강남구 선릉로158길 3",
+          "ownership_type": "사립",
+          "adult_fee": "15000",
+          "youth_fee": "13500",
+          "child_fee": "12000",
+          "adult_fee_status": "BASE_FEE_PAID",
+          "weekday_open": "11:00",
+          "weekday_close": "19:00",
+          "holiday_open": "11:00",
+          "holiday_close": "19:00",
+          "closure_rule_raw": "월+신정+설 연휴+추석 연휴"
+        },
+        "base_data_date": "2024-07-18",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0793",
+      "name": "이강하미술관",
+      "document": "이강하미술관은 전남광주통합특별시 남구에 2018년 2월 9일 개관했다. 373㎡부지에 건물 총면적 231.9㎡인 지상 2층 건물로 옛 양림동 사무소를 리모델링해 만들어졌다. 1층 전시실과 편의시설, 2층 수장고, 창작 교육실, 자료실, 학예연구실 등으로 구성되어 있다. 미술관에서는 故 이강하 화백의 삶과 예술 세계, 시대별 작품의 흐름을 한눈에 볼 수 있는 다양한 전시를 진행하고 있으며, 공연, 교육 등을 통해 미술을 폭넓고 깊이 있게 이해하고 감상할 수 있다. 故 이강하 화백의 예술 세계를 연구·정립하고 그 가치를 지속적으로 확대, 재생산하여 역동적인 프로그램을 다양하게 기획 추진 중이다. 시민들에게 다양한 미술 문화 체험을 통해 소통과 공감의 연대를 돈독히 하고 나아가 문화 지식을 재충전할 수 있는 창의적인 예술 공간으로 거듭날 예정이다. 2028년 2월9일 개관(옛 양림동사무소를 리모델링)하였고, 故 이강하 화백의 삶과 예술세계, 시대별 작품의 흐름을 다양한 전시와 공연, 교육 등을 통해 감상 할 수 있도록 조성",
+      "metadata": {
+        "image_copyright": "Type1",
+        "source_types": "BASE|TOUR_API",
+        "longitude": 126.9156644,
+        "weekday_open": "10:00",
+        "adult_fee": 0.0,
+        "child_fee": 0.0,
+        "holiday_close": "18:00",
+        "closure_rule_raw": "월+신정+설날+추석",
+        "latitude": 35.13690654,
+        "name": "이강하미술관",
+        "homepage_url": "http://lkh-artmuseum.com/default/",
+        "requires_manual_review": true,
+        "sigungu": "남구",
+        "ownership_type": "공립",
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "address": "광주광역시 남구 3·1만세운동길 6",
+        "sido": "광주광역시",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/83/3442983_image2_1.JPG",
+        "holiday_open": "10:00",
+        "weekday_close": "18:00",
+        "youth_fee": 0.0
+      },
+      "vector_rank": 16,
+      "bm25_rank": 15,
+      "vector_distance": 0.5865532159805298,
+      "vector_score": null,
+      "bm25_score": 12.07503001525213,
+      "vector_document": "이강하미술관은 전남광주통합특별시 남구에 2018년 2월 9일 개관했다. 373㎡부지에 건물 총면적 231.9㎡인 지상 2층 건물로 옛 양림동 사무소를 리모델링해 만들어졌다. 1층 전시실과 편의시설, 2층 수장고, 창작 교육실, 자료실, 학예연구실 등으로 구성되어 있다. 미술관에서는 故 이강하 화백의 삶과 예술 세계, 시대별 작품의 흐름을 한눈에 볼 수 있는 다양한 전시를 진행하고 있으며, 공연, 교육 등을 통해 미술을 폭넓고 깊이 있게 이해하고 감상할 수 있다. 故 이강하 화백의 예술 세계를 연구·정립하고 그 가치를 지속적으로 확대, 재생산하여 역동적인 프로그램을 다양하게 기획 추진 중이다. 시민들에게 다양한 미술 문화 체험을 통해 소통과 공감의 연대를 돈독히 하고 나아가 문화 지식을 재충전할 수 있는 창의적인 예술 공간으로 거듭날 예정이다. 2028년 2월9일 개관(옛 양림동사무소를 리모델링)하였고, 故 이강하 화백의 삶과 예술세계, 시대별 작품의 흐름을 다양한 전시와 공연, 교육 등을 통해 감상 할 수 있도록 조성",
+      "bm25_document": "이강하미술관은 전남광주통합특별시 남구에 2018년 2월 9일 개관했다. 373㎡부지에 건물 총면적 231.9㎡인 지상 2층 건물로 옛 양림동 사무소를 리모델링해 만들어졌다. 1층 전시실과 편의시설, 2층 수장고, 창작 교육실, 자료실, 학예연구실 등으로 구성되어 있다. 미술관에서는 故 이강하 화백의 삶과 예술 세계, 시대별 작품의 흐름을 한눈에 볼 수 있는 다양한 전시를 진행하고 있으며, 공연, 교육 등을 통해 미술을 폭넓고 깊이 있게 이해하고 감상할 수 있다. 故 이강하 화백의 예술 세계를 연구·정립하고 그 가치를 지속적으로 확대, 재생산하여 역동적인 프로그램을 다양하게 기획 추진 중이다. 시민들에게 다양한 미술 문화 체험을 통해 소통과 공감의 연대를 돈독히 하고 나아가 문화 지식을 재충전할 수 있는 창의적인 예술 공간으로 거듭날 예정이다. 2028년 2월9일 개관(옛 양림동사무소를 리모델링)하였고, 故 이강하 화백의 삶과 예술세계, 시대별 작품의 흐름을 다양한 전시와 공연, 교육 등을 통해 감상 할 수 있도록 조성",
+      "best_span_id": "chroma:M0793",
+      "best_span_text": "이강하미술관은 전남광주통합특별시 남구에 2018년 2월 9일 개관했다. 373㎡부지에 건물 총면적 231.9㎡인 지상 2층 건물로 옛 양림동 사무소를 리모델링해 만들어졌다. 1층 전시실과 편의시설, 2층 수장고, 창작 교육실, 자료실, 학예연구실 등으로 구성되어 있다. 미술관에서는 故 이강하 화백의 삶과 예술 세계, 시대별 작품의 흐름을 한눈에 볼 수 있는 다양한 전시를 진행하고 있으며, 공연, 교육 등을 통해 미술을 폭넓고 깊이 있게 이해하고 감상할 수 있다. 故 이강하 화백의 예술 세계를 연구·정립하고 그 가치를 지속적으로 확대, 재생산하여 역동적인 프로그램을 다양하게 기획 추진 중이다. 시민들에게 다양한 미술 문화 체험을 통해 소통과 공감의 연대를 돈독히 하고 나아가 문화 지식을 재충전할 수 있는 창의적인 예술 공간으로 거듭날 예정이다. 2028년 2월9일 개관(옛 양림동사무소를 리모델링)하였고, 故 이강하 화백의 삶과 예술세계, 시대별 작품의 흐름을 다양한 전시와 공연, 교육 등을 통해 감상 할 수 있도록 조성",
+      "fusion_score": 0.02649122807017544,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 3,
+      "rerank_score": null,
+      "rank": 3,
+      "score": 0.02649122807017544,
+      "score_type": "rrf",
+      "distance": 0.5865532159805298,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0793",
+      "source_doc_ids": [
+        "DOC-B0793-TOUR_API-3401691",
+        "DOC-B0793-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0793-TOUR_API-3401691",
+          "source_type": "TOUR_API",
+          "source_record_id": "3401691",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=360",
+          "match_trust": "RECHECKED_BY_RULE_NOT_HUMAN_APPROVED"
+        },
+        {
+          "doc_id": "DOC-B0793-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0793",
+          "source_locator": "data/raw/museum_base_1070.csv#row=794",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 39,
+          "doc_ids": [
+            "DOC-B0793-TOUR_API-3401691"
+          ]
+        },
+        {
+          "start": 40,
+          "end": 96,
+          "doc_ids": [
+            "DOC-B0793-TOUR_API-3401691"
+          ]
+        },
+        {
+          "start": 97,
+          "end": 150,
+          "doc_ids": [
+            "DOC-B0793-TOUR_API-3401691"
+          ]
+        },
+        {
+          "start": 151,
+          "end": 260,
+          "doc_ids": [
+            "DOC-B0793-TOUR_API-3401691"
+          ]
+        },
+        {
+          "start": 261,
+          "end": 334,
+          "doc_ids": [
+            "DOC-B0793-TOUR_API-3401691"
+          ]
+        },
+        {
+          "start": 335,
+          "end": 420,
+          "doc_ids": [
+            "DOC-B0793-TOUR_API-3401691"
+          ]
+        },
+        {
+          "start": 421,
+          "end": 520,
+          "doc_ids": [
+            "DOC-B0793-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=360",
+      "text": "이강하미술관은 전남광주통합특별시 남구에 2018년 2월 9일 개관했다. 373㎡부지에 건물 총면적 231.9㎡인 지상 2층 건물로 옛 양림동 사무소를 리모델링해 만들어졌다. 1층 전시실과 편의시설, 2층 수장고, 창작 교육실, 자료실, 학예연구실 등으로 구성되어 있다. 미술관에서는 故 이강하 화백의 삶과 예술 세계, 시대별 작품의 흐름을 한눈에 볼 수 있는 다양한 전시를 진행하고 있으며, 공연, 교육 등을 통해 미술을 폭넓고 깊이 있게 이해하고 감상할 수 있다. 故 이강하 화백의 예술 세계를 연구·정립하고 그 가치를 지속적으로 확대, 재생산하여 역동적인 프로그램을 다양하게 기획 추진 중이다. 시민들에게 다양한 미술 문화 체험을 통해 소통과 공감의 연대를 돈독히 하고 나아가 문화 지식을 재충전할 수 있는 창의적인 예술 공간으로 거듭날 예정이다. 2028년 2월9일 개관(옛 양림동사무소를 리모델링)하였고, 故 이강하 화백의 삶과 예술세계, 시대별 작품의 흐름을 다양한 전시와 공연, 교육 등을 통해 감상 할 수 있도록 조성",
+      "sido": "광주광역시",
+      "sigungu": "남구",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=360"
+      ],
+      "evidence_id": "E3",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=548",
+        "fields": {
+          "name": "이강하미술관",
+          "sido": "광주광역시",
+          "sigungu": "남구",
+          "address": "광주광역시 남구 3·1만세운동길 6",
+          "ownership_type": "공립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "10:00",
+          "weekday_close": "18:00",
+          "holiday_open": "10:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "월+신정+설날+추석"
+        },
+        "base_data_date": "2025-07-07",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0311",
+      "name": "아트뮤지엄 려",
+      "document": "예술 중심의 통섭을 통해 시민, 관람객 간의 소통과 문화향유 기회를 확대하고자 여주시가 운영하는 미술관이다.",
+      "metadata": {
+        "latitude": 37.2380063,
+        "sigungu": "여주시",
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "child_fee": 0.0,
+        "transport_notes": "여주JC → 남여주IC → 남여주 IC교차로 → 유통단지(프리미엄아울렛 방면으로 좌회전) → 여주프리미엄아울렛 → WEST 퍼블릭마켓 內 H주차장 앞",
+        "source_types": "BASE",
+        "weekday_close": "18:00",
+        "weekday_open": "10:00",
+        "holiday_close": "18:00",
+        "holiday_open": "10:00",
+        "homepage_url": "https://www.yeoju.go.kr/ryeo/",
+        "sido": "경기도",
+        "closure_rule_raw": "월요일+추석당일+설날당일+1월1일",
+        "ownership_type": "공립",
+        "longitude": 127.6078488,
+        "name": "아트뮤지엄 려",
+        "adult_fee": 0.0,
+        "youth_fee": 0.0,
+        "address": "경기도 여주시 명품로 370",
+        "requires_manual_review": true
+      },
+      "vector_rank": 2,
+      "bm25_rank": null,
+      "vector_distance": 0.5233731865882874,
+      "vector_score": null,
+      "bm25_score": null,
+      "vector_document": "예술 중심의 통섭을 통해 시민, 관람객 간의 소통과 문화향유 기회를 확대하고자 여주시가 운영하는 미술관이다.",
+      "bm25_document": "",
+      "best_span_id": null,
+      "best_span_text": null,
+      "fusion_score": 0.016129032258064516,
+      "retrieved_by": [
+        "vector"
+      ],
+      "fusion_rank": 4,
+      "rerank_score": null,
+      "rank": 4,
+      "score": 0.016129032258064516,
+      "score_type": "rrf",
+      "distance": 0.5233731865882874,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector"
+      ],
+      "retriever": "vector",
+      "source_doc_ids": [
+        "DOC-B0311-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0311-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0311",
+          "source_locator": "data/raw/museum_base_1070.csv#row=312",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 60,
+          "doc_ids": [
+            "DOC-B0311-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_base_1070.csv#row=312",
+      "text": "예술 중심의 통섭을 통해 시민, 관람객 간의 소통과 문화향유 기회를 확대하고자 여주시가 운영하는 미술관이다.",
+      "sido": "경기도",
+      "sigungu": "여주시",
+      "span_id": "",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_base_1070.csv#row=312"
+      ],
+      "evidence_id": "E4",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=224",
+        "fields": {
+          "name": "아트뮤지엄 려",
+          "sido": "경기도",
+          "sigungu": "여주시",
+          "address": "경기도 여주시 명품로 370",
+          "ownership_type": "공립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "10:00",
+          "weekday_close": "18:00",
+          "holiday_open": "10:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "월요일+추석당일+설날당일+1월1일"
+        },
+        "base_data_date": "2026-05-19",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0949",
+      "name": "강릉커피박물관",
+      "document": "강릉커피박물관은 대한민국 최초의 커피 전문 박물관으로 강원도 강릉시 왕산골에 위치한 곳이다. 커피를 좋아하는 모든 연령대의 관광객들이 커피를 이해하고 소통할 수 있는 커뮤니티 공간이기도 하다. 커피나무 재배서부터 커피 유물 전시 등의 과정을 직접 눈으로 보고 경험할 수 있다. 박물관은 크게 일반전시관, 특별관, 커피체험관, 커피 교육관, 뮤지엄 카페로 구성되어 있다. 1관은 커피의 역사와 문화를 알 수 있는 유물이 전시되어 있다. 2관에서는 커피 로스터와 그라인더를 볼 수 있다. 3관에서는 커피가 추출되는 과정의 커피메이커부터 커피추출 도구들이 전시되어 있다. 4관에서는 온실 속 커피나무를 통해 다양한 커피나무들을 볼 수 있다. 5관인 커피 체험관에서는 다양한 커피의 종류와 향을 느낄 수 있다. 뮤지엄카페가 있어 스페셜 커피와 다양한 사이드 메뉴를 맛볼 수도 있다.",
+      "metadata": {
+        "longitude": 128.784661,
+        "image_copyright": "Type3",
+        "adult_fee_status": "BASE_FEE_PAID",
+        "sido": "강원특별자치도",
+        "requires_manual_review": true,
+        "holiday_open": "10:00",
+        "weekday_open": "10:00",
+        "name": "강릉커피박물관",
+        "address": "강원특별자치도 강릉시 왕산면 왕산로 2171-19",
+        "youth_fee": 5000.0,
+        "weekday_close": "17:00",
+        "holiday_close": "17:00",
+        "child_fee": 5000.0,
+        "closure_rule_raw": "연중무휴",
+        "source_types": "TOUR_API",
+        "adult_fee": 5000.0,
+        "homepage_url": "http://www.coffeemuseum.kr/",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/19/3332919_image2_1.jpg",
+        "sigungu": "강릉시",
+        "ownership_type": "사립",
+        "latitude": 37.65223553
+      },
+      "vector_rank": null,
+      "bm25_rank": 2,
+      "vector_distance": null,
+      "vector_score": null,
+      "bm25_score": 16.884492981359646,
+      "vector_document": "",
+      "bm25_document": "강릉커피박물관은 대한민국 최초의 커피 전문 박물관으로 강원도 강릉시 왕산골에 위치한 곳이다. 커피를 좋아하는 모든 연령대의 관광객들이 커피를 이해하고 소통할 수 있는 커뮤니티 공간이기도 하다. 커피나무 재배서부터 커피 유물 전시 등의 과정을 직접 눈으로 보고 경험할 수 있다. 박물관은 크게 일반전시관, 특별관, 커피체험관, 커피 교육관, 뮤지엄 카페로 구성되어 있다. 1관은 커피의 역사와 문화를 알 수 있는 유물이 전시되어 있다. 2관에서는 커피 로스터와 그라인더를 볼 수 있다. 3관에서는 커피가 추출되는 과정의 커피메이커부터 커피추출 도구들이 전시되어 있다. 4관에서는 온실 속 커피나무를 통해 다양한 커피나무들을 볼 수 있다. 5관인 커피 체험관에서는 다양한 커피의 종류와 향을 느낄 수 있다. 뮤지엄카페가 있어 스페셜 커피와 다양한 사이드 메뉴를 맛볼 수도 있다.",
+      "best_span_id": "chroma:M0949",
+      "best_span_text": "강릉커피박물관은 대한민국 최초의 커피 전문 박물관으로 강원도 강릉시 왕산골에 위치한 곳이다. 커피를 좋아하는 모든 연령대의 관광객들이 커피를 이해하고 소통할 수 있는 커뮤니티 공간이기도 하다. 커피나무 재배서부터 커피 유물 전시 등의 과정을 직접 눈으로 보고 경험할 수 있다. 박물관은 크게 일반전시관, 특별관, 커피체험관, 커피 교육관, 뮤지엄 카페로 구성되어 있다. 1관은 커피의 역사와 문화를 알 수 있는 유물이 전시되어 있다. 2관에서는 커피 로스터와 그라인더를 볼 수 있다. 3관에서는 커피가 추출되는 과정의 커피메이커부터 커피추출 도구들이 전시되어 있다. 4관에서는 온실 속 커피나무를 통해 다양한 커피나무들을 볼 수 있다. 5관인 커피 체험관에서는 다양한 커피의 종류와 향을 느낄 수 있다. 뮤지엄카페가 있어 스페셜 커피와 다양한 사이드 메뉴를 맛볼 수도 있다.",
+      "fusion_score": 0.016129032258064516,
+      "retrieved_by": [
+        "bm25"
+      ],
+      "fusion_rank": 5,
+      "rerank_score": null,
+      "rank": 5,
+      "score": 0.016129032258064516,
+      "score_type": "rrf",
+      "distance": null,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "bm25"
+      ],
+      "retriever": "bm25",
+      "span_id": "chroma:M0949",
+      "source_doc_ids": [
+        "DOC-B0949-TOUR_API-2592013"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0949-TOUR_API-2592013",
+          "source_type": "TOUR_API",
+          "source_record_id": "2592013",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=443",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 51,
+          "doc_ids": [
+            "DOC-B0949-TOUR_API-2592013"
+          ]
+        },
+        {
+          "start": 52,
+          "end": 107,
+          "doc_ids": [
+            "DOC-B0949-TOUR_API-2592013"
+          ]
+        },
+        {
+          "start": 108,
+          "end": 154,
+          "doc_ids": [
+            "DOC-B0949-TOUR_API-2592013"
+          ]
+        },
+        {
+          "start": 155,
+          "end": 206,
+          "doc_ids": [
+            "DOC-B0949-TOUR_API-2592013"
+          ]
+        },
+        {
+          "start": 207,
+          "end": 242,
+          "doc_ids": [
+            "DOC-B0949-TOUR_API-2592013"
+          ]
+        },
+        {
+          "start": 243,
+          "end": 270,
+          "doc_ids": [
+            "DOC-B0949-TOUR_API-2592013"
+          ]
+        },
+        {
+          "start": 271,
+          "end": 316,
+          "doc_ids": [
+            "DOC-B0949-TOUR_API-2592013"
+          ]
+        },
+        {
+          "start": 317,
+          "end": 355,
+          "doc_ids": [
+            "DOC-B0949-TOUR_API-2592013"
+          ]
+        },
+        {
+          "start": 356,
+          "end": 393,
+          "doc_ids": [
+            "DOC-B0949-TOUR_API-2592013"
+          ]
+        },
+        {
+          "start": 394,
+          "end": 433,
+          "doc_ids": [
+            "DOC-B0949-TOUR_API-2592013"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=443",
+      "text": "강릉커피박물관은 대한민국 최초의 커피 전문 박물관으로 강원도 강릉시 왕산골에 위치한 곳이다. 커피를 좋아하는 모든 연령대의 관광객들이 커피를 이해하고 소통할 수 있는 커뮤니티 공간이기도 하다. 커피나무 재배서부터 커피 유물 전시 등의 과정을 직접 눈으로 보고 경험할 수 있다. 박물관은 크게 일반전시관, 특별관, 커피체험관, 커피 교육관, 뮤지엄 카페로 구성되어 있다. 1관은 커피의 역사와 문화를 알 수 있는 유물이 전시되어 있다. 2관에서는 커피 로스터와 그라인더를 볼 수 있다. 3관에서는 커피가 추출되는 과정의 커피메이커부터 커피추출 도구들이 전시되어 있다. 4관에서는 온실 속 커피나무를 통해 다양한 커피나무들을 볼 수 있다. 5관인 커피 체험관에서는 다양한 커피의 종류와 향을 느낄 수 있다. 뮤지엄카페가 있어 스페셜 커피와 다양한 사이드 메뉴를 맛볼 수도 있다.",
+      "sido": "강원특별자치도",
+      "sigungu": "강릉시",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=443"
+      ],
+      "evidence_id": "E5",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=654",
+        "fields": {
+          "name": "강릉커피박물관",
+          "sido": "강원특별자치도",
+          "sigungu": "강릉시",
+          "address": "강원특별자치도 강릉시 왕산면 왕산로 2171-19",
+          "ownership_type": "사립",
+          "adult_fee": "5000",
+          "youth_fee": "5000",
+          "child_fee": "5000",
+          "adult_fee_status": "BASE_FEE_PAID",
+          "weekday_open": "10:00",
+          "weekday_close": "17:00",
+          "holiday_open": "10:00",
+          "holiday_close": "17:00",
+          "closure_rule_raw": "연중무휴"
+        },
+        "base_data_date": "2024-03-18",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    }
+  ],
+  "answer": "한강뮤지엄은 일상에서 쉽게 접할 수 있는 주제로 관객과 예술이 유연하게 소통하는 장을 제시합니다. 제1전시장은 관람객이 자신의 생각으로 작품을 해석하고 이해하는 ‘작품과 나의 소통장’이고, 제2전시장은 전시를 즐기며 힐링할 수 있는 ‘작품과 우리의 소통장’으로 구성되어 있습니다. [E1]",
+  "retrieval_status": "ok",
+  "answer_status": "answered",
+  "route": "hybrid",
+  "retry_count": 0,
+  "supervisor_verified": true,
+  "rerank_applied": false,
+  "retriever_errors": [],
+  "warnings": [
+    "Cross-Encoder reranking failed (FileNotFoundError); RRF order retained"
+  ],
+  "duration_ms": 11160.08,
+  "error_type": "",
+  "hit_at_1": 1,
+  "hit_at_3": 1,
+  "hit_at_5": 1,
+  "recall_at_5": 1.0,
+  "mrr_at_10": 1.0
+}

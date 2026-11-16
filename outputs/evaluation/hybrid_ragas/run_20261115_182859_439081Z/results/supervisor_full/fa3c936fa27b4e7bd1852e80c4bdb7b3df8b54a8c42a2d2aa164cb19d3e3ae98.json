@@ -1,0 +1,23 @@
+{
+  "evidence_context_version": "grounded-evidence-v2",
+  "evaluation_contexts": [],
+  "mode": "supervisor_full",
+  "question_id": "Q255",
+  "evidence": [],
+  "answer": "답변에 부적절하거나 민감한 내용이 포함될 수 있어 보여 드리지 않았습니다. 질문을 조금 바꿔서 다시 물어봐 주세요.",
+  "retrieval_status": "no_results",
+  "answer_status": "abstained",
+  "route": "hybrid",
+  "retry_count": 0,
+  "supervisor_verified": false,
+  "rerank_applied": true,
+  "retriever_errors": [],
+  "warnings": [],
+  "duration_ms": 77748.44,
+  "error_type": "",
+  "hit_at_1": 0,
+  "hit_at_3": 0,
+  "hit_at_5": 0,
+  "recall_at_5": 0.0,
+  "mrr_at_10": 0.0
+}

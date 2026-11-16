@@ -1,0 +1,730 @@
+{
+  "mode": "supervisor_full",
+  "question_id": "Q206",
+  "evidence": [
+    {
+      "museum_id": "M0337",
+      "name": "충렬사유물전시관",
+      "document": "임충민공 충렬사는 선조27년 충주에서 태어난 임경업장군의 충절을 기리기 위해 세운 사당이며 장군이 사용했던 유품을 충렬사유물전시관에 전시하고 있음",
+      "metadata": {
+        "youth_fee": 0.0,
+        "sigungu": "충주시",
+        "amenities_raw": "주차장",
+        "address": "충청북도 충주시 충열1길 6(단월동)",
+        "transport_notes": "자가운전 : 충주IC→달천사거리(우회전)→건국대학교→달천동주민센터건너편→충주임충민공충렬사대중교통 : 충주공용버스터미널에서 610번 버스 이용",
+        "closure_rule_raw": "연중무휴",
+        "ownership_type": "국립",
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "name": "충렬사유물전시관",
+        "holiday_open": "09:00",
+        "weekday_close": "18:00",
+        "requires_manual_review": false,
+        "latitude": 36.94617991,
+        "weekday_open": "09:00",
+        "sido": "충청북도",
+        "adult_fee": 0.0,
+        "source_types": "BASE",
+        "child_fee": 0.0,
+        "holiday_close": "18:00",
+        "longitude": 127.9054216
+      },
+      "vector_rank": 1,
+      "bm25_rank": 1,
+      "vector_distance": 0.5398319959640503,
+      "vector_score": null,
+      "bm25_score": 44.6926722823822,
+      "vector_document": "임충민공 충렬사는 선조27년 충주에서 태어난 임경업장군의 충절을 기리기 위해 세운 사당이며 장군이 사용했던 유품을 충렬사유물전시관에 전시하고 있음",
+      "bm25_document": "임충민공 충렬사는 선조27년 충주에서 태어난 임경업장군의 충절을 기리기 위해 세운 사당이며 장군이 사용했던 유품을 충렬사유물전시관에 전시하고 있음",
+      "best_span_id": "chroma:M0337",
+      "best_span_text": "임충민공 충렬사는 선조27년 충주에서 태어난 임경업장군의 충절을 기리기 위해 세운 사당이며 장군이 사용했던 유품을 충렬사유물전시관에 전시하고 있음",
+      "fusion_score": 0.03278688524590164,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 1,
+      "rerank_score": null,
+      "rank": 1,
+      "score": 0.03278688524590164,
+      "score_type": "rrf",
+      "distance": 0.5398319959640503,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0337",
+      "source_doc_ids": [
+        "DOC-B0337-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0337-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0337",
+          "source_locator": "data/raw/museum_base_1070.csv#row=338",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 81,
+          "doc_ids": [
+            "DOC-B0337-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_base_1070.csv#row=338",
+      "text": "임충민공 충렬사는 선조27년 충주에서 태어난 임경업장군의 충절을 기리기 위해 세운 사당이며 장군이 사용했던 유품을 충렬사유물전시관에 전시하고 있음",
+      "sido": "충청북도",
+      "sigungu": "충주시",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_base_1070.csv#row=338"
+      ],
+      "evidence_id": "E1",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=243",
+        "fields": {
+          "name": "충렬사유물전시관",
+          "sido": "충청북도",
+          "sigungu": "충주시",
+          "address": "충청북도 충주시 충열1길 6(단월동)",
+          "ownership_type": "국립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "09:00",
+          "weekday_close": "18:00",
+          "holiday_open": "09:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "연중무휴",
+          "amenities_raw": "주차장"
+        },
+        "base_data_date": "2026-05-31",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0003",
+      "name": "창녕박물관",
+      "document": "창녕박물관은 1996년 창녕지역 고분군에서 출토된 유물들을 전시할 목적으로 창녕유물전시관으로 처음 개관했다. 이후 1997년 1종 전문박물관인 창녕박물관으로 등록·승격되었으며 2018년 박물관 리모델링 사업을 통해 어린이박물관을 포함한 교육관을 신축한 후 지금의 모습으로 재개관하였다. 교동과 송현동 고분군의 바로 옆에 위치하며 비화가야시대 유적인 무덤과 그 내부에 부장 되었던 유물들을 한자리에서 감상할 수 있다. 유물전시관일 때에는 복제품만을 전시했지만 2011년 국가귀속문화유산 보관·관리기관으로 선정된 뒤부터는 지역에서 출토된 유물들을 인수하여 직접 전시하고 있다. 2개의 전시실과 시청각실 등을 갖추고 있으며, 건물은 지상 1층, 지하 1층 규모이며 1층은 제1전시실과 제2전시실로 되어 있다. 지하에는 시청각실이 마련되어 있어 창녕군 관내의 문화유적을 한눈에 알 수 있는 시청각 자료를 방영하고 있다. 가야와 신라시대의 유물 총 166종 276점 (토기류 85점, 마구류 42점, 장신구류 50점, 무구류 53점, 기타 46점)이 전시되어 있다. 전시관 중앙홀에는 가야고분의 축조 과정을 한눈에 볼 수 있는 모형관이 설치되어 있어, 가야시대 고분문화에 대한 이해를 돕고 있다.",
+      "metadata": {
+        "adult_fee": 0.0,
+        "weekday_close": "18:00",
+        "weekday_open": "09:00",
+        "youth_fee": 0.0,
+        "sigungu": "창녕군",
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "amenities_raw": "장애인화장실+유모차/휠체어 대여+유모차/휠체어 이용가능",
+        "closure_rule_raw": "매주 월요일+1월 1일+설날+추석날",
+        "name": "창녕박물관",
+        "latitude": 35.54540564,
+        "image_copyright": "Type1",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/15/3510415_image2_1.jpg",
+        "source_types": "TOUR_API",
+        "holiday_close": "18:00",
+        "holiday_open": "09:00",
+        "ownership_type": "공립",
+        "longitude": 128.5054413,
+        "homepage_url": "https://www.cng.go.kr/01656/01671.web",
+        "address": "경상남도 창녕군 창녕읍 창밀로 34",
+        "child_fee": 0.0,
+        "requires_manual_review": true,
+        "sido": "경상남도"
+      },
+      "vector_rank": 12,
+      "bm25_rank": 15,
+      "vector_distance": 0.6220138072967529,
+      "vector_score": null,
+      "bm25_score": 12.25090969427072,
+      "vector_document": "창녕박물관은 1996년 창녕지역 고분군에서 출토된 유물들을 전시할 목적으로 창녕유물전시관으로 처음 개관했다. 이후 1997년 1종 전문박물관인 창녕박물관으로 등록·승격되었으며 2018년 박물관 리모델링 사업을 통해 어린이박물관을 포함한 교육관을 신축한 후 지금의 모습으로 재개관하였다. 교동과 송현동 고분군의 바로 옆에 위치하며 비화가야시대 유적인 무덤과 그 내부에 부장 되었던 유물들을 한자리에서 감상할 수 있다. 유물전시관일 때에는 복제품만을 전시했지만 2011년 국가귀속문화유산 보관·관리기관으로 선정된 뒤부터는 지역에서 출토된 유물들을 인수하여 직접 전시하고 있다. 2개의 전시실과 시청각실 등을 갖추고 있으며, 건물은 지상 1층, 지하 1층 규모이며 1층은 제1전시실과 제2전시실로 되어 있다. 지하에는 시청각실이 마련되어 있어 창녕군 관내의 문화유적을 한눈에 알 수 있는 시청각 자료를 방영하고 있다. 가야와 신라시대의 유물 총 166종 276점 (토기류 85점, 마구류 42점, 장신구류 50점, 무구류 53점, 기타 46점)이 전시되어 있다. 전시관 중앙홀에는 가야고분의 축조 과정을 한눈에 볼 수 있는 모형관이 설치되어 있어, 가야시대 고분문화에 대한 이해를 돕고 있다.",
+      "bm25_document": "창녕박물관은 1996년 창녕지역 고분군에서 출토된 유물들을 전시할 목적으로 창녕유물전시관으로 처음 개관했다. 이후 1997년 1종 전문박물관인 창녕박물관으로 등록·승격되었으며 2018년 박물관 리모델링 사업을 통해 어린이박물관을 포함한 교육관을 신축한 후 지금의 모습으로 재개관하였다. 교동과 송현동 고분군의 바로 옆에 위치하며 비화가야시대 유적인 무덤과 그 내부에 부장 되었던 유물들을 한자리에서 감상할 수 있다. 유물전시관일 때에는 복제품만을 전시했지만 2011년 국가귀속문화유산 보관·관리기관으로 선정된 뒤부터는 지역에서 출토된 유물들을 인수하여 직접 전시하고 있다. 2개의 전시실과 시청각실 등을 갖추고 있으며, 건물은 지상 1층, 지하 1층 규모이며 1층은 제1전시실과 제2전시실로 되어 있다. 지하에는 시청각실이 마련되어 있어 창녕군 관내의 문화유적을 한눈에 알 수 있는 시청각 자료를 방영하고 있다. 가야와 신라시대의 유물 총 166종 276점 (토기류 85점, 마구류 42점, 장신구류 50점, 무구류 53점, 기타 46점)이 전시되어 있다. 전시관 중앙홀에는 가야고분의 축조 과정을 한눈에 볼 수 있는 모형관이 설치되어 있어, 가야시대 고분문화에 대한 이해를 돕고 있다.",
+      "best_span_id": "chroma:M0003",
+      "best_span_text": "창녕박물관은 1996년 창녕지역 고분군에서 출토된 유물들을 전시할 목적으로 창녕유물전시관으로 처음 개관했다. 이후 1997년 1종 전문박물관인 창녕박물관으로 등록·승격되었으며 2018년 박물관 리모델링 사업을 통해 어린이박물관을 포함한 교육관을 신축한 후 지금의 모습으로 재개관하였다. 교동과 송현동 고분군의 바로 옆에 위치하며 비화가야시대 유적인 무덤과 그 내부에 부장 되었던 유물들을 한자리에서 감상할 수 있다. 유물전시관일 때에는 복제품만을 전시했지만 2011년 국가귀속문화유산 보관·관리기관으로 선정된 뒤부터는 지역에서 출토된 유물들을 인수하여 직접 전시하고 있다. 2개의 전시실과 시청각실 등을 갖추고 있으며, 건물은 지상 1층, 지하 1층 규모이며 1층은 제1전시실과 제2전시실로 되어 있다. 지하에는 시청각실이 마련되어 있어 창녕군 관내의 문화유적을 한눈에 알 수 있는 시청각 자료를 방영하고 있다. 가야와 신라시대의 유물 총 166종 276점 (토기류 85점, 마구류 42점, 장신구류 50점, 무구류 53점, 기타 46점)이 전시되어 있다. 전시관 중앙홀에는 가야고분의 축조 과정을 한눈에 볼 수 있는 모형관이 설치되어 있어, 가야시대 고분문화에 대한 이해를 돕고 있다.",
+      "fusion_score": 0.027222222222222224,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 2,
+      "rerank_score": null,
+      "rank": 2,
+      "score": 0.027222222222222224,
+      "score_type": "rrf",
+      "distance": 0.6220138072967529,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0003",
+      "source_doc_ids": [
+        "DOC-B0003-TOUR_API-130107"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0003-TOUR_API-130107",
+          "source_type": "TOUR_API",
+          "source_record_id": "130107",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=3",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 60,
+          "doc_ids": [
+            "DOC-B0003-TOUR_API-130107"
+          ]
+        },
+        {
+          "start": 61,
+          "end": 159,
+          "doc_ids": [
+            "DOC-B0003-TOUR_API-130107"
+          ]
+        },
+        {
+          "start": 160,
+          "end": 232,
+          "doc_ids": [
+            "DOC-B0003-TOUR_API-130107"
+          ]
+        },
+        {
+          "start": 233,
+          "end": 320,
+          "doc_ids": [
+            "DOC-B0003-TOUR_API-130107"
+          ]
+        },
+        {
+          "start": 321,
+          "end": 393,
+          "doc_ids": [
+            "DOC-B0003-TOUR_API-130107"
+          ]
+        },
+        {
+          "start": 394,
+          "end": 454,
+          "doc_ids": [
+            "DOC-B0003-TOUR_API-130107"
+          ]
+        },
+        {
+          "start": 455,
+          "end": 535,
+          "doc_ids": [
+            "DOC-B0003-TOUR_API-130107"
+          ]
+        },
+        {
+          "start": 536,
+          "end": 608,
+          "doc_ids": [
+            "DOC-B0003-TOUR_API-130107"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=3",
+      "text": "창녕박물관은 1996년 창녕지역 고분군에서 출토된 유물들을 전시할 목적으로 창녕유물전시관으로 처음 개관했다. 이후 1997년 1종 전문박물관인 창녕박물관으로 등록·승격되었으며 2018년 박물관 리모델링 사업을 통해 어린이박물관을 포함한 교육관을 신축한 후 지금의 모습으로 재개관하였다. 교동과 송현동 고분군의 바로 옆에 위치하며 비화가야시대 유적인 무덤과 그 내부에 부장 되었던 유물들을 한자리에서 감상할 수 있다. 유물전시관일 때에는 복제품만을 전시했지만 2011년 국가귀속문화유산 보관·관리기관으로 선정된 뒤부터는 지역에서 출토된 유물들을 인수하여 직접 전시하고 있다. 2개의 전시실과 시청각실 등을 갖추고 있으며, 건물은 지상 1층, 지하 1층 규모이며 1층은 제1전시실과 제2전시실로 되어 있다. 지하에는 시청각실이 마련되어 있어 창녕군 관내의 문화유적을 한눈에 알 수 있는 시청각 자료를 방영하고 있다. 가야와 신라시대의 유물 총 166종 276점 (토기류 85점, 마구류 42점, 장신구류 50점, 무구류 53점, 기타 46점)이 전시되어 있다. 전시관 중앙홀에는 가야고분의 축조 과정을 한눈에 볼 수 있는 모형관이 설치되어 있어, 가야시대 고분문화에 대한 이해를 돕고 있다.",
+      "sido": "경상남도",
+      "sigungu": "창녕군",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=3"
+      ],
+      "evidence_id": "E2",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=3",
+        "fields": {
+          "name": "창녕박물관",
+          "sido": "경상남도",
+          "sigungu": "창녕군",
+          "address": "경상남도 창녕군 창녕읍 창밀로 34",
+          "ownership_type": "공립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "09:00",
+          "weekday_close": "18:00",
+          "holiday_open": "09:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "매주 월요일+1월 1일+설날+추석날",
+          "amenities_raw": "장애인화장실+유모차/휠체어 대여+유모차/휠체어 이용가능"
+        },
+        "base_data_date": "2026-09-18",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0386",
+      "name": "과천사료박물관",
+      "document": "과천의 역사와 생활를 한눈에 볼수 있는 향토유물 전시",
+      "metadata": {
+        "source_types": "BASE",
+        "child_fee": 0.0,
+        "sido": "경기도",
+        "sigungu": "과천시",
+        "holiday_open": "00:00",
+        "adult_fee": 0.0,
+        "weekday_open": "09:00",
+        "youth_fee": 0.0,
+        "longitude": 127.0017944,
+        "name": "과천사료박물관",
+        "ownership_type": "공립",
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "latitude": 37.42834358,
+        "address": "경기도 과천시 문원로 40-1",
+        "holiday_close": "00:00",
+        "weekday_close": "18:00",
+        "requires_manual_review": true,
+        "closure_rule_raw": "토+일+공휴일",
+        "homepage_url": "http://www.gccc.or.kr/",
+        "fee_notes": "무료"
+      },
+      "vector_rank": 2,
+      "bm25_rank": null,
+      "vector_distance": 0.578793466091156,
+      "vector_score": null,
+      "bm25_score": null,
+      "vector_document": "과천의 역사와 생활를 한눈에 볼수 있는 향토유물 전시",
+      "bm25_document": "",
+      "best_span_id": null,
+      "best_span_text": null,
+      "fusion_score": 0.016129032258064516,
+      "retrieved_by": [
+        "vector"
+      ],
+      "fusion_rank": 3,
+      "rerank_score": null,
+      "rank": 3,
+      "score": 0.016129032258064516,
+      "score_type": "rrf",
+      "distance": 0.578793466091156,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector"
+      ],
+      "retriever": "vector",
+      "source_doc_ids": [
+        "DOC-B0386-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0386-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0386",
+          "source_locator": "data/raw/museum_base_1070.csv#row=387",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 29,
+          "doc_ids": [
+            "DOC-B0386-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_base_1070.csv#row=387",
+      "text": "과천의 역사와 생활를 한눈에 볼수 있는 향토유물 전시",
+      "sido": "경기도",
+      "sigungu": "과천시",
+      "span_id": "",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_base_1070.csv#row=387"
+      ],
+      "evidence_id": "E3",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=275",
+        "fields": {
+          "name": "과천사료박물관",
+          "sido": "경기도",
+          "sigungu": "과천시",
+          "address": "경기도 과천시 문원로 40-1",
+          "ownership_type": "공립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "09:00",
+          "weekday_close": "18:00",
+          "holiday_open": "00:00",
+          "holiday_close": "00:00",
+          "closure_rule_raw": "토+일+공휴일"
+        },
+        "base_data_date": "2026-06-17",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0884",
+      "name": "백남준아트센터",
+      "document": "경기도박물관과 이웃하고 있는 백남준아트센터는 세계적인 비디오 아티스트 백남준(1932~2006)의 예술세계를 기리기 위해 세워진 경기도립미술관으로 2008년 10월 개관하였다. 국내 공립 작가의 미술관 중 가장 많은 관람객의 사랑을 받는 미술관이다. 2001년 경기도는 생전의 백남준과 건립을 논의하고 독일 건축가 크리스텐 쉐멜과 마리나 스탄코빅이 공동으로 디자인한 건축안이 결정되어 건립하였다. 지하 2층과 지상 3층 규모로 구성되었으며 전시실과 비디오 아카이브, 세미나실, 카페테리아, 뮤지엄숍, 수유실 등의 전시 및 교육, 편의 시설을 갖추고 있다. 전시실에는 백남준이 독일 뒤셀도르프에서 교수 생활을 하면서 제작했던 작품 「최초의 휴대용 TV」 초승달에서 보름달에 이르기까지 달의 다양한 모습이 보이도록 TV 내부 회로를 변경한 작품인 「달은 가장 오래된 TV」 인터넷의 상징인 월드와이드웹 「WWW」에 대한 대중의 열광을 암시한 작품 「w3」 등 그의 대표작품들이 전시되어 있다. 백남준은 생전 백남준아트센터의 임무를 「백남준이 오래 사는 집」이라 규정하고 단순하게 그의 작품만 전시하는 공간이 아닌 그에 대한 이해와 공감의 폭을 넓히고, 실험적 작가들이 활동하는 공간이길 희망했다. 이에 따라 아트센터에서는 백남준의 작품세계를 보여주는 상설전과 함께 기획전을 개최하고 있다. 또 백남준의 예술세계에 대한 이해를 돕는 워크숍, 세미나, 대담 등 다양한 교육 프로그램을 운영한다. 또한 백남준의 비디오 아카이브를 웹 환경에서 언제 어디서든 누구나 감상할 수 있도록 백남준의 비디오 서재라고 하는 온라인 누리집도 구축하였다. 백남준아트센터는 무료로 운영되며, 정기 도슨트 프로그램을 통한 자원봉사자의 전시해설에 누구나 참여할 수 있다. 수원신갈IC에서 차량으로 약 5분, 수인분당선 상갈역에서 약 4분 소요되며 역에서 인근까지 한 번에 가는 버스가 있다. 인근에 경기도박물관, 경기도어린이박물관, 에버랜드, 한국민속촌, 세계문화유산 수원화성과 융건릉, 기흥호수공원, 덕평공룡수목원, 별빛정원우주, 한택식물원 등이 있다.",
+      "metadata": {
+        "youth_fee": 0.0,
+        "ownership_type": "공립",
+        "adult_fee": 0.0,
+        "homepage_url": "http://www.njpartcenter.kr/",
+        "closure_rule_raw": "매주 월요일,신정,설(당일),추석(당일)",
+        "longitude": 127.1103281741,
+        "source_types": "TOUR_API",
+        "fee_notes": "0",
+        "weekday_open": "10:00",
+        "latitude": 37.269143836,
+        "holiday_close": "18:00",
+        "weekday_close": "18:00",
+        "sido": "경기도",
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "requires_manual_review": true,
+        "holiday_open": "10:00",
+        "name": "백남준아트센터",
+        "child_fee": 0.0,
+        "sigungu": "용인시",
+        "address": "경기도 용인시 기흥구 백남준로 10"
+      },
+      "vector_rank": null,
+      "bm25_rank": 2,
+      "vector_distance": null,
+      "vector_score": null,
+      "bm25_score": 14.746689879186954,
+      "vector_document": "",
+      "bm25_document": "경기도박물관과 이웃하고 있는 백남준아트센터는 세계적인 비디오 아티스트 백남준(1932~2006)의 예술세계를 기리기 위해 세워진 경기도립미술관으로 2008년 10월 개관하였다. 국내 공립 작가의 미술관 중 가장 많은 관람객의 사랑을 받는 미술관이다. 2001년 경기도는 생전의 백남준과 건립을 논의하고 독일 건축가 크리스텐 쉐멜과 마리나 스탄코빅이 공동으로 디자인한 건축안이 결정되어 건립하였다. 지하 2층과 지상 3층 규모로 구성되었으며 전시실과 비디오 아카이브, 세미나실, 카페테리아, 뮤지엄숍, 수유실 등의 전시 및 교육, 편의 시설을 갖추고 있다. 전시실에는 백남준이 독일 뒤셀도르프에서 교수 생활을 하면서 제작했던 작품 「최초의 휴대용 TV」 초승달에서 보름달에 이르기까지 달의 다양한 모습이 보이도록 TV 내부 회로를 변경한 작품인 「달은 가장 오래된 TV」 인터넷의 상징인 월드와이드웹 「WWW」에 대한 대중의 열광을 암시한 작품 「w3」 등 그의 대표작품들이 전시되어 있다. 백남준은 생전 백남준아트센터의 임무를 「백남준이 오래 사는 집」이라 규정하고 단순하게 그의 작품만 전시하는 공간이 아닌 그에 대한 이해와 공감의 폭을 넓히고, 실험적 작가들이 활동하는 공간이길 희망했다. 이에 따라 아트센터에서는 백남준의 작품세계를 보여주는 상설전과 함께 기획전을 개최하고 있다. 또 백남준의 예술세계에 대한 이해를 돕는 워크숍, 세미나, 대담 등 다양한 교육 프로그램을 운영한다. 또한 백남준의 비디오 아카이브를 웹 환경에서 언제 어디서든 누구나 감상할 수 있도록 백남준의 비디오 서재라고 하는 온라인 누리집도 구축하였다. 백남준아트센터는 무료로 운영되며, 정기 도슨트 프로그램을 통한 자원봉사자의 전시해설에 누구나 참여할 수 있다. 수원신갈IC에서 차량으로 약 5분, 수인분당선 상갈역에서 약 4분 소요되며 역에서 인근까지 한 번에 가는 버스가 있다. 인근에 경기도박물관, 경기도어린이박물관, 에버랜드, 한국민속촌, 세계문화유산 수원화성과 융건릉, 기흥호수공원, 덕평공룡수목원, 별빛정원우주, 한택식물원 등이 있다.",
+      "best_span_id": "chroma:M0884",
+      "best_span_text": "경기도박물관과 이웃하고 있는 백남준아트센터는 세계적인 비디오 아티스트 백남준(1932~2006)의 예술세계를 기리기 위해 세워진 경기도립미술관으로 2008년 10월 개관하였다. 국내 공립 작가의 미술관 중 가장 많은 관람객의 사랑을 받는 미술관이다. 2001년 경기도는 생전의 백남준과 건립을 논의하고 독일 건축가 크리스텐 쉐멜과 마리나 스탄코빅이 공동으로 디자인한 건축안이 결정되어 건립하였다. 지하 2층과 지상 3층 규모로 구성되었으며 전시실과 비디오 아카이브, 세미나실, 카페테리아, 뮤지엄숍, 수유실 등의 전시 및 교육, 편의 시설을 갖추고 있다. 전시실에는 백남준이 독일 뒤셀도르프에서 교수 생활을 하면서 제작했던 작품 「최초의 휴대용 TV」 초승달에서 보름달에 이르기까지 달의 다양한 모습이 보이도록 TV 내부 회로를 변경한 작품인 「달은 가장 오래된 TV」 인터넷의 상징인 월드와이드웹 「WWW」에 대한 대중의 열광을 암시한 작품 「w3」 등 그의 대표작품들이 전시되어 있다. 백남준은 생전 백남준아트센터의 임무를 「백남준이 오래 사는 집」이라 규정하고 단순하게 그의 작품만 전시하는 공간이 아닌 그에 대한 이해와 공감의 폭을 넓히고, 실험적 작가들이 활동하는 공간이길 희망했다. 이에 따라 아트센터에서는 백남준의 작품세계를 보여주는 상설전과 함께 기획전을 개최하고 있다. 또 백남준의 예술세계에 대한 이해를 돕는 워크숍, 세미나, 대담 등 다양한 교육 프로그램을 운영한다. 또한 백남준의 비디오 아카이브를 웹 환경에서 언제 어디서든 누구나 감상할 수 있도록 백남준의 비디오 서재라고 하는 온라인 누리집도 구축하였다. 백남준아트센터는 무료로 운영되며, 정기 도슨트 프로그램을 통한 자원봉사자의 전시해설에 누구나 참여할 수 있다. 수원신갈IC에서 차량으로 약 5분, 수인분당선 상갈역에서 약 4분 소요되며 역에서 인근까지 한 번에 가는 버스가 있다. 인근에 경기도박물관, 경기도어린이박물관, 에버랜드, 한국민속촌, 세계문화유산 수원화성과 융건릉, 기흥호수공원, 덕평공룡수목원, 별빛정원우주, 한택식물원 등이 있다.",
+      "fusion_score": 0.016129032258064516,
+      "retrieved_by": [
+        "bm25"
+      ],
+      "fusion_rank": 4,
+      "rerank_score": null,
+      "rank": 4,
+      "score": 0.016129032258064516,
+      "score_type": "rrf",
+      "distance": null,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "bm25"
+      ],
+      "retriever": "bm25",
+      "span_id": "chroma:M0884",
+      "source_doc_ids": [
+        "DOC-B0884-TOUR_API-631003"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0884-TOUR_API-631003",
+          "source_type": "TOUR_API",
+          "source_record_id": "631003",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=418",
+          "match_trust": "RECHECKED_BY_RULE_NOT_HUMAN_APPROVED"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 98,
+          "doc_ids": [
+            "DOC-B0884-TOUR_API-631003"
+          ]
+        },
+        {
+          "start": 99,
+          "end": 139,
+          "doc_ids": [
+            "DOC-B0884-TOUR_API-631003"
+          ]
+        },
+        {
+          "start": 140,
+          "end": 221,
+          "doc_ids": [
+            "DOC-B0884-TOUR_API-631003"
+          ]
+        },
+        {
+          "start": 222,
+          "end": 310,
+          "doc_ids": [
+            "DOC-B0884-TOUR_API-631003"
+          ]
+        },
+        {
+          "start": 311,
+          "end": 497,
+          "doc_ids": [
+            "DOC-B0884-TOUR_API-631003"
+          ]
+        },
+        {
+          "start": 498,
+          "end": 611,
+          "doc_ids": [
+            "DOC-B0884-TOUR_API-631003"
+          ]
+        },
+        {
+          "start": 612,
+          "end": 663,
+          "doc_ids": [
+            "DOC-B0884-TOUR_API-631003"
+          ]
+        },
+        {
+          "start": 664,
+          "end": 720,
+          "doc_ids": [
+            "DOC-B0884-TOUR_API-631003"
+          ]
+        },
+        {
+          "start": 721,
+          "end": 800,
+          "doc_ids": [
+            "DOC-B0884-TOUR_API-631003"
+          ]
+        },
+        {
+          "start": 801,
+          "end": 862,
+          "doc_ids": [
+            "DOC-B0884-TOUR_API-631003"
+          ]
+        },
+        {
+          "start": 863,
+          "end": 929,
+          "doc_ids": [
+            "DOC-B0884-TOUR_API-631003"
+          ]
+        },
+        {
+          "start": 930,
+          "end": 1021,
+          "doc_ids": [
+            "DOC-B0884-TOUR_API-631003"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=418",
+      "text": "경기도박물관과 이웃하고 있는 백남준아트센터는 세계적인 비디오 아티스트 백남준(1932~2006)의 예술세계를 기리기 위해 세워진 경기도립미술관으로 2008년 10월 개관하였다. 국내 공립 작가의 미술관 중 가장 많은 관람객의 사랑을 받는 미술관이다. 2001년 경기도는 생전의 백남준과 건립을 논의하고 독일 건축가 크리스텐 쉐멜과 마리나 스탄코빅이 공동으로 디자인한 건축안이 결정되어 건립하였다. 지하 2층과 지상 3층 규모로 구성되었으며 전시실과 비디오 아카이브, 세미나실, 카페테리아, 뮤지엄숍, 수유실 등의 전시 및 교육, 편의 시설을 갖추고 있다. 전시실에는 백남준이 독일 뒤셀도르프에서 교수 생활을 하면서 제작했던 작품 「최초의 휴대용 TV」 초승달에서 보름달에 이르기까지 달의 다양한 모습이 보이도록 TV 내부 회로를 변경한 작품인 「달은 가장 오래된 TV」 인터넷의 상징인 월드와이드웹 「WWW」에 대한 대중의 열광을 암시한 작품 「w3」 등 그의 대표작품들이 전시되어 있다. 백남준은 생전 백남준아트센터의 임무를 「백남준이 오래 사는 집」이라 규정하고 단순하게 그의 작품만 전시하는 공간이 아닌 그에 대한 이해와 공감의 폭을 넓히고, 실험적 작가들이 활동하는 공간이길 희망했다. 이에 따라 아트센터에서는 백남준의 작품세계를 보여주는 상설전과 함께 기획전을 개최하고 있다. 또 백남준의 예술세계에 대한 이해를 돕는 워크숍, 세미나, 대담 등 다양한 교육 프로그램을 운영한다. 또한 백남준의 비디오 아카이브를 웹 환경에서 언제 어디서든 누구나 감상할 수 있도록 백남준의 비디오 서재라고 하는 온라인 누리집도 구축하였다. 백남준아트센터는 무료로 운영되며, 정기 도슨트 프로그램을 통한 자원봉사자의 전시해설에 누구나 참여할 수 있다. 수원신갈IC에서 차량으로 약 5분, 수인분당선 상갈역에서 약 4분 소요되며 역에서 인근까지 한 번에 가는 버스가 있다. 인근에 경기도박물관, 경기도어린이박물관, 에버랜드, 한국민속촌, 세계문화유산 수원화성과 융건릉, 기흥호수공원, 덕평공룡수목원, 별빛정원우주, 한택식물원 등이 있다.",
+      "sido": "경기도",
+      "sigungu": "용인시",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=418"
+      ],
+      "evidence_id": "E4",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=603",
+        "fields": {
+          "name": "백남준아트센터",
+          "sido": "경기도",
+          "sigungu": "용인시",
+          "address": "경기도 용인시 기흥구 백남준로 10",
+          "ownership_type": "공립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "10:00",
+          "weekday_close": "18:00",
+          "holiday_open": "10:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "매주 월요일,신정,설(당일),추석(당일)"
+        },
+        "base_data_date": "2024-11-29",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0900",
+      "name": "비움박물관",
+      "document": "비움박물관은 전남광주통합특별시에서 2016년 개관한 유일한 사립 민속박물관이다. 향운 이영화 관장이 50년에 걸쳐 개인적으로 수집한 한국 근현대 민속품 3만 여점을 개방형 수장고 형식으로 전시하고 있다. 이곳은 산업사회 이전, 한국의 농경시대를 치열하게 살아냈던 가난한 서민들의 삶을 보여주고 있다. 이곳에서는 가족들을 먹이고 입히는 일이 무엇 하나 수월하지 않았던 고생스러운 시기에도 자연에 순응하며 온 힘을 다해 정직하게 살았던 우리 조상들의 삶을 느껴볼 수 있다. 세월의 장터를 큰 주제로 ＂1층-겨울, 2층-가을, 3층-여름, 4층-봄＂ T18테마로 구성, 곡식을 보관하던 항아리, 소쿠리, 바가지 등 각종 생활용기와 가마솥이 걸린 부뚜막, 절구, 전통혼례 복장, 꼭두각시 등 전통 민속품들을 전시",
+      "metadata": {
+        "sido": "광주광역시",
+        "closure_rule_raw": "월+일",
+        "latitude": 35.150404,
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/12/3402312_image2_1.JPG",
+        "weekday_open": "10:00",
+        "weekday_close": "18:00",
+        "ownership_type": "사립",
+        "longitude": 126.920277,
+        "holiday_close": "18:00",
+        "requires_manual_review": true,
+        "adult_fee_status": "BASE_FEE_PAID",
+        "homepage_url": "http://www.biummuseum.com/",
+        "source_types": "BASE|TOUR_API",
+        "holiday_open": "10:00",
+        "adult_fee": 10000.0,
+        "child_fee": 5000.0,
+        "sigungu": "동구",
+        "youth_fee": 7000.0,
+        "image_copyright": "Type3",
+        "name": "비움박물관",
+        "address": "광주광역시 동구 제봉로 143-1(대의동)"
+      },
+      "vector_rank": 3,
+      "bm25_rank": null,
+      "vector_distance": 0.5920066833496094,
+      "vector_score": null,
+      "bm25_score": null,
+      "vector_document": "비움박물관은 전남광주통합특별시에서 2016년 개관한 유일한 사립 민속박물관이다. 향운 이영화 관장이 50년에 걸쳐 개인적으로 수집한 한국 근현대 민속품 3만 여점을 개방형 수장고 형식으로 전시하고 있다. 이곳은 산업사회 이전, 한국의 농경시대를 치열하게 살아냈던 가난한 서민들의 삶을 보여주고 있다. 이곳에서는 가족들을 먹이고 입히는 일이 무엇 하나 수월하지 않았던 고생스러운 시기에도 자연에 순응하며 온 힘을 다해 정직하게 살았던 우리 조상들의 삶을 느껴볼 수 있다. 세월의 장터를 큰 주제로 ＂1층-겨울, 2층-가을, 3층-여름, 4층-봄＂ T18테마로 구성, 곡식을 보관하던 항아리, 소쿠리, 바가지 등 각종 생활용기와 가마솥이 걸린 부뚜막, 절구, 전통혼례 복장, 꼭두각시 등 전통 민속품들을 전시",
+      "bm25_document": "",
+      "best_span_id": null,
+      "best_span_text": null,
+      "fusion_score": 0.015873015873015872,
+      "retrieved_by": [
+        "vector"
+      ],
+      "fusion_rank": 5,
+      "rerank_score": null,
+      "rank": 5,
+      "score": 0.015873015873015872,
+      "score_type": "rrf",
+      "distance": 0.5920066833496094,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector"
+      ],
+      "retriever": "vector",
+      "source_doc_ids": [
+        "DOC-B0900-TOUR_API-3402813",
+        "DOC-B0900-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0900-TOUR_API-3402813",
+          "source_type": "TOUR_API",
+          "source_record_id": "3402813",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=425",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        },
+        {
+          "doc_id": "DOC-B0900-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0900",
+          "source_locator": "data/raw/museum_base_1070.csv#row=901",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 44,
+          "doc_ids": [
+            "DOC-B0900-TOUR_API-3402813"
+          ]
+        },
+        {
+          "start": 45,
+          "end": 113,
+          "doc_ids": [
+            "DOC-B0900-TOUR_API-3402813"
+          ]
+        },
+        {
+          "start": 114,
+          "end": 167,
+          "doc_ids": [
+            "DOC-B0900-TOUR_API-3402813"
+          ]
+        },
+        {
+          "start": 168,
+          "end": 262,
+          "doc_ids": [
+            "DOC-B0900-TOUR_API-3402813"
+          ]
+        },
+        {
+          "start": 263,
+          "end": 394,
+          "doc_ids": [
+            "DOC-B0900-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=425",
+      "text": "비움박물관은 전남광주통합특별시에서 2016년 개관한 유일한 사립 민속박물관이다. 향운 이영화 관장이 50년에 걸쳐 개인적으로 수집한 한국 근현대 민속품 3만 여점을 개방형 수장고 형식으로 전시하고 있다. 이곳은 산업사회 이전, 한국의 농경시대를 치열하게 살아냈던 가난한 서민들의 삶을 보여주고 있다. 이곳에서는 가족들을 먹이고 입히는 일이 무엇 하나 수월하지 않았던 고생스러운 시기에도 자연에 순응하며 온 힘을 다해 정직하게 살았던 우리 조상들의 삶을 느껴볼 수 있다. 세월의 장터를 큰 주제로 ＂1층-겨울, 2층-가을, 3층-여름, 4층-봄＂ T18테마로 구성, 곡식을 보관하던 항아리, 소쿠리, 바가지 등 각종 생활용기와 가마솥이 걸린 부뚜막, 절구, 전통혼례 복장, 꼭두각시 등 전통 민속품들을 전시",
+      "sido": "광주광역시",
+      "sigungu": "동구",
+      "span_id": "",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=425"
+      ],
+      "evidence_id": "E5",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=618",
+        "fields": {
+          "name": "비움박물관",
+          "sido": "광주광역시",
+          "sigungu": "동구",
+          "address": "광주광역시 동구 제봉로 143-1(대의동)",
+          "ownership_type": "사립",
+          "adult_fee": "10000",
+          "youth_fee": "7000",
+          "child_fee": "5000",
+          "adult_fee_status": "BASE_FEE_PAID",
+          "weekday_open": "10:00",
+          "weekday_close": "18:00",
+          "holiday_open": "10:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "월+일"
+        },
+        "base_data_date": "2025-06-26",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    }
+  ],
+  "answer": "임충민공 충렬사는 임경업 장군의 충절을 기리기 위해 세운 사당이며, 장군이 사용했던 유품은 충렬사유물전시관에 전시되어 있습니다. [E1]",
+  "retrieval_status": "ok",
+  "answer_status": "answered",
+  "route": "hybrid",
+  "retry_count": 0,
+  "supervisor_verified": true,
+  "rerank_applied": false,
+  "retriever_errors": [],
+  "warnings": [
+    "Cross-Encoder reranking failed (FileNotFoundError); RRF order retained"
+  ],
+  "duration_ms": 8630.08,
+  "error_type": "",
+  "hit_at_1": 1,
+  "hit_at_3": 1,
+  "hit_at_5": 1,
+  "recall_at_5": 1.0,
+  "mrr_at_10": 1.0
+}

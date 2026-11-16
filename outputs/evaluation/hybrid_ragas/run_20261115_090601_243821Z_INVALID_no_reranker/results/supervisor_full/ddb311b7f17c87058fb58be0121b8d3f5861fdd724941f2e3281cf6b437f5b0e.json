@@ -1,0 +1,732 @@
+{
+  "mode": "supervisor_full",
+  "question_id": "Q212",
+  "evidence": [
+    {
+      "museum_id": "M0344",
+      "name": "박경리뮤지엄",
+      "document": "박경리 뮤지엄은 작가의 생애 마지막 공간이었던 ’작가의 집’을 통해 작가의 일상생활의 흔적과 삶을 보여주는 곳으로 ’작가 박경리’의 모습 뿐만 아니라 ’사람 박경리’의 모습을 보여주고자 하는 공간이다",
+      "metadata": {
+        "adult_fee": 5000.0,
+        "holiday_close": "00:00",
+        "transport_notes": "시내버스34-1번",
+        "amenities_raw": "뮤지엄샵+무인카페",
+        "youth_fee": 4000.0,
+        "requires_manual_review": true,
+        "homepage_url": "https://pknmuseum.vercel.app/",
+        "address": "강원특별자치도 원주시 흥업면 매지회촌길 79-1",
+        "fee_notes": "성인단체 4000",
+        "weekday_close": "17:30",
+        "source_types": "BASE",
+        "name": "박경리뮤지엄",
+        "adult_fee_status": "BASE_FEE_PAID",
+        "closure_rule_raw": "월+토+일+법정공휴일+명절연휴 (토요일의 경우 단체관람예약시 개관)",
+        "ownership_type": "사립",
+        "holiday_open": "00:00",
+        "latitude": 37.25715098,
+        "longitude": 127.9118285,
+        "sigungu": "원주시",
+        "weekday_open": "10:00",
+        "child_fee": 0.0,
+        "sido": "강원특별자치도"
+      },
+      "vector_rank": 1,
+      "bm25_rank": 1,
+      "vector_distance": 0.3272237777709961,
+      "vector_score": null,
+      "bm25_score": 36.9976968323172,
+      "vector_document": "박경리 뮤지엄은 작가의 생애 마지막 공간이었던 ’작가의 집’을 통해 작가의 일상생활의 흔적과 삶을 보여주는 곳으로 ’작가 박경리’의 모습 뿐만 아니라 ’사람 박경리’의 모습을 보여주고자 하는 공간이다",
+      "bm25_document": "박경리 뮤지엄은 작가의 생애 마지막 공간이었던 ’작가의 집’을 통해 작가의 일상생활의 흔적과 삶을 보여주는 곳으로 ’작가 박경리’의 모습 뿐만 아니라 ’사람 박경리’의 모습을 보여주고자 하는 공간이다",
+      "best_span_id": "chroma:M0344",
+      "best_span_text": "박경리 뮤지엄은 작가의 생애 마지막 공간이었던 ’작가의 집’을 통해 작가의 일상생활의 흔적과 삶을 보여주는 곳으로 ’작가 박경리’의 모습 뿐만 아니라 ’사람 박경리’의 모습을 보여주고자 하는 공간이다",
+      "fusion_score": 0.03278688524590164,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 1,
+      "name_match": true,
+      "rerank_score": null,
+      "rank": 1,
+      "score": 0.03278688524590164,
+      "score_type": "rrf",
+      "distance": 0.3272237777709961,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0344",
+      "source_doc_ids": [
+        "DOC-B0344-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0344-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0344",
+          "source_locator": "data/raw/museum_base_1070.csv#row=345",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 111,
+          "doc_ids": [
+            "DOC-B0344-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_base_1070.csv#row=345",
+      "text": "박경리 뮤지엄은 작가의 생애 마지막 공간이었던 ’작가의 집’을 통해 작가의 일상생활의 흔적과 삶을 보여주는 곳으로 ’작가 박경리’의 모습 뿐만 아니라 ’사람 박경리’의 모습을 보여주고자 하는 공간이다",
+      "sido": "강원특별자치도",
+      "sigungu": "원주시",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_base_1070.csv#row=345"
+      ],
+      "evidence_id": "E1",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=250",
+        "fields": {
+          "name": "박경리뮤지엄",
+          "sido": "강원특별자치도",
+          "sigungu": "원주시",
+          "address": "강원특별자치도 원주시 흥업면 매지회촌길 79-1",
+          "ownership_type": "사립",
+          "adult_fee": "5000",
+          "youth_fee": "4000",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_PAID",
+          "weekday_open": "10:00",
+          "weekday_close": "17:30",
+          "holiday_open": "00:00",
+          "holiday_close": "00:00",
+          "closure_rule_raw": "월+토+일+법정공휴일+명절연휴 (토요일의 경우 단체관람예약시 개관)",
+          "amenities_raw": "뮤지엄샵+무인카페"
+        },
+        "base_data_date": "2026-06-29",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0290",
+      "name": "사립아인미술관",
+      "document": "사립아인미술관은 개인작가 초대전을 비롯한 개인전, 단체전 등 여러 작가들의 작품을 일정기간 동안 전시하고 있으며, 다양한 주제를 통해 전시회 진행하고 있어 미술작품을 쉽게 접할 수 있는 기회를 제공하고 있다.",
+      "metadata": {
+        "latitude": 35.344232,
+        "longitude": 126.817249,
+        "address": "전남광주통합특별시 장성군 장성읍 미락단지길 8",
+        "weekday_open": "11:00",
+        "closure_rule_raw": "연중무휴",
+        "requires_manual_review": false,
+        "sido": "전남광주특별자치도",
+        "weekday_close": "20:00",
+        "holiday_open": "11:00",
+        "sigungu": "장성군",
+        "ownership_type": "사립",
+        "transport_notes": "농어촌 버스 10 : 장성터미널 탑승 →황룡교정류장 하차",
+        "amenities_raw": "카페+주차장+화장실",
+        "youth_fee": 0.0,
+        "source_types": "BASE",
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "holiday_close": "20:00",
+        "child_fee": 0.0,
+        "name": "사립아인미술관",
+        "adult_fee": 0.0,
+        "homepage_url": "https://blog.naver.com/ainmuseum"
+      },
+      "vector_rank": 17,
+      "bm25_rank": 4,
+      "vector_distance": 0.6460360288619995,
+      "vector_score": null,
+      "bm25_score": 13.125762884111962,
+      "vector_document": "사립아인미술관은 개인작가 초대전을 비롯한 개인전, 단체전 등 여러 작가들의 작품을 일정기간 동안 전시하고 있으며, 다양한 주제를 통해 전시회 진행하고 있어 미술작품을 쉽게 접할 수 있는 기회를 제공하고 있다.",
+      "bm25_document": "사립아인미술관은 개인작가 초대전을 비롯한 개인전, 단체전 등 여러 작가들의 작품을 일정기간 동안 전시하고 있으며, 다양한 주제를 통해 전시회 진행하고 있어 미술작품을 쉽게 접할 수 있는 기회를 제공하고 있다.",
+      "best_span_id": "chroma:M0290",
+      "best_span_text": "사립아인미술관은 개인작가 초대전을 비롯한 개인전, 단체전 등 여러 작가들의 작품을 일정기간 동안 전시하고 있으며, 다양한 주제를 통해 전시회 진행하고 있어 미술작품을 쉽게 접할 수 있는 기회를 제공하고 있다.",
+      "fusion_score": 0.028612012987012988,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 2,
+      "rerank_score": null,
+      "rank": 2,
+      "score": 0.028612012987012988,
+      "score_type": "rrf",
+      "distance": 0.6460360288619995,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0290",
+      "source_doc_ids": [
+        "DOC-B0290-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0290-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0290",
+          "source_locator": "data/raw/museum_base_1070.csv#row=291",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 116,
+          "doc_ids": [
+            "DOC-B0290-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_base_1070.csv#row=291",
+      "text": "사립아인미술관은 개인작가 초대전을 비롯한 개인전, 단체전 등 여러 작가들의 작품을 일정기간 동안 전시하고 있으며, 다양한 주제를 통해 전시회 진행하고 있어 미술작품을 쉽게 접할 수 있는 기회를 제공하고 있다.",
+      "sido": "전남광주특별자치도",
+      "sigungu": "장성군",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_base_1070.csv#row=291"
+      ],
+      "evidence_id": "E2",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=204",
+        "fields": {
+          "name": "사립아인미술관",
+          "sido": "전남광주통합특별시",
+          "sigungu": "장성군",
+          "address": "전남광주통합특별시 장성군 장성읍 미락단지길 8",
+          "ownership_type": "사립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "11:00",
+          "weekday_close": "20:00",
+          "holiday_open": "11:00",
+          "holiday_close": "20:00",
+          "closure_rule_raw": "연중무휴",
+          "amenities_raw": "카페+주차장+화장실"
+        },
+        "base_data_date": "2026-08-03",
+        "trust": "derived_dataset_not_human_verified",
+        "normalizations": {
+          "sido": {
+            "source_value": "전남광주통합특별시",
+            "matched_value": "전남광주특별자치도",
+            "rule": "configured_sido_alias"
+          }
+        }
+      }
+    },
+    {
+      "museum_id": "M0598",
+      "name": "설미재미술관",
+      "document": "설미재미술관은 천혜의 자연향기가 가득한 문화 예술 공간이다. 가평지역사회의 문화 교육과 작가 초대전 및 교류전을 기획하면서 한국 현대미술의 한 축을 담당하고 있으며, 가평 지역 문화 발전을 위해 매년 공모를 거쳐 가평의 작가를 초빙해 기획전을 개최하고 있다. 가평군민들의 문화적 소양을 함양시켜 주는 것뿐만 아니라, 젊은 미술 작가들을 육성하고 가평지역 학생들에게 창의적인 미술교육을 실행하고자 설립하였다. 설미재 미술관의 전시실에서는 주로 기획전이 개최된다. 조형 연구소에서는 세미나가 주로 진행되며, 창작 스튜디오 3개실을 통하여 신진 작가들을 육성하는 동시에 공동체를 이루고 활성화하고 있다. 비전 있는 젊은 작가를 육성하여 작가 공동체를 활성화 하고 아울러 전문적인 미술교육 체험 프로그램을 개발하여 지역 사회 학생들에게 창의적 미술교육을 실행하고 있음",
+      "metadata": {
+        "amenities_raw": "주차장(20대)+사진촬영허가",
+        "address": "경기도 가평군 설악면 유명로 1454-38",
+        "adult_fee_status": "BASE_FEE_PAID",
+        "holiday_open": "10:00",
+        "name": "설미재미술관",
+        "fee_notes": "무료(7세미만 어린이+국가유공자 및 장애인+매월 마지막 수요일)",
+        "weekday_open": "10:00",
+        "sigungu": "가평군",
+        "sido": "경기도",
+        "latitude": 37.660885,
+        "child_fee": 2500.0,
+        "transport_notes": "버스:6-10,32-11,32-14",
+        "youth_fee": 2500.0,
+        "longitude": 127.482238,
+        "ownership_type": "사립",
+        "homepage_url": "http://www.artsm.kr/",
+        "weekday_close": "17:00",
+        "holiday_close": "17:00",
+        "requires_manual_review": true,
+        "image_copyright": "Type3",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/74/3499774_image2_1.JPG",
+        "adult_fee": 3000.0,
+        "source_types": "BASE|TOUR_API",
+        "closure_rule_raw": "월+설날연휴+추석연휴"
+      },
+      "vector_rank": 11,
+      "bm25_rank": 12,
+      "vector_distance": 0.6361292600631714,
+      "vector_score": null,
+      "bm25_score": 11.387487060216769,
+      "vector_document": "설미재미술관은 천혜의 자연향기가 가득한 문화 예술 공간이다. 가평지역사회의 문화 교육과 작가 초대전 및 교류전을 기획하면서 한국 현대미술의 한 축을 담당하고 있으며, 가평 지역 문화 발전을 위해 매년 공모를 거쳐 가평의 작가를 초빙해 기획전을 개최하고 있다. 가평군민들의 문화적 소양을 함양시켜 주는 것뿐만 아니라, 젊은 미술 작가들을 육성하고 가평지역 학생들에게 창의적인 미술교육을 실행하고자 설립하였다. 설미재 미술관의 전시실에서는 주로 기획전이 개최된다. 조형 연구소에서는 세미나가 주로 진행되며, 창작 스튜디오 3개실을 통하여 신진 작가들을 육성하는 동시에 공동체를 이루고 활성화하고 있다. 비전 있는 젊은 작가를 육성하여 작가 공동체를 활성화 하고 아울러 전문적인 미술교육 체험 프로그램을 개발하여 지역 사회 학생들에게 창의적 미술교육을 실행하고 있음",
+      "bm25_document": "설미재미술관은 천혜의 자연향기가 가득한 문화 예술 공간이다. 가평지역사회의 문화 교육과 작가 초대전 및 교류전을 기획하면서 한국 현대미술의 한 축을 담당하고 있으며, 가평 지역 문화 발전을 위해 매년 공모를 거쳐 가평의 작가를 초빙해 기획전을 개최하고 있다. 가평군민들의 문화적 소양을 함양시켜 주는 것뿐만 아니라, 젊은 미술 작가들을 육성하고 가평지역 학생들에게 창의적인 미술교육을 실행하고자 설립하였다. 설미재 미술관의 전시실에서는 주로 기획전이 개최된다. 조형 연구소에서는 세미나가 주로 진행되며, 창작 스튜디오 3개실을 통하여 신진 작가들을 육성하는 동시에 공동체를 이루고 활성화하고 있다. 비전 있는 젊은 작가를 육성하여 작가 공동체를 활성화 하고 아울러 전문적인 미술교육 체험 프로그램을 개발하여 지역 사회 학생들에게 창의적 미술교육을 실행하고 있음",
+      "best_span_id": "chroma:M0598",
+      "best_span_text": "설미재미술관은 천혜의 자연향기가 가득한 문화 예술 공간이다. 가평지역사회의 문화 교육과 작가 초대전 및 교류전을 기획하면서 한국 현대미술의 한 축을 담당하고 있으며, 가평 지역 문화 발전을 위해 매년 공모를 거쳐 가평의 작가를 초빙해 기획전을 개최하고 있다. 가평군민들의 문화적 소양을 함양시켜 주는 것뿐만 아니라, 젊은 미술 작가들을 육성하고 가평지역 학생들에게 창의적인 미술교육을 실행하고자 설립하였다. 설미재 미술관의 전시실에서는 주로 기획전이 개최된다. 조형 연구소에서는 세미나가 주로 진행되며, 창작 스튜디오 3개실을 통하여 신진 작가들을 육성하는 동시에 공동체를 이루고 활성화하고 있다. 비전 있는 젊은 작가를 육성하여 작가 공동체를 활성화 하고 아울러 전문적인 미술교육 체험 프로그램을 개발하여 지역 사회 학생들에게 창의적 미술교육을 실행하고 있음",
+      "fusion_score": 0.02797339593114241,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 3,
+      "rerank_score": null,
+      "rank": 3,
+      "score": 0.02797339593114241,
+      "score_type": "rrf",
+      "distance": 0.6361292600631714,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0598",
+      "source_doc_ids": [
+        "DOC-B0598-TOUR_API-2554994",
+        "DOC-B0598-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0598-TOUR_API-2554994",
+          "source_type": "TOUR_API",
+          "source_record_id": "2554994",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=298",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        },
+        {
+          "doc_id": "DOC-B0598-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0598",
+          "source_locator": "data/raw/museum_base_1070.csv#row=599",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 33,
+          "doc_ids": [
+            "DOC-B0598-TOUR_API-2554994"
+          ]
+        },
+        {
+          "start": 34,
+          "end": 144,
+          "doc_ids": [
+            "DOC-B0598-TOUR_API-2554994"
+          ]
+        },
+        {
+          "start": 145,
+          "end": 227,
+          "doc_ids": [
+            "DOC-B0598-TOUR_API-2554994"
+          ]
+        },
+        {
+          "start": 228,
+          "end": 257,
+          "doc_ids": [
+            "DOC-B0598-TOUR_API-2554994"
+          ]
+        },
+        {
+          "start": 258,
+          "end": 334,
+          "doc_ids": [
+            "DOC-B0598-TOUR_API-2554994"
+          ]
+        },
+        {
+          "start": 335,
+          "end": 425,
+          "doc_ids": [
+            "DOC-B0598-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=298",
+      "text": "설미재미술관은 천혜의 자연향기가 가득한 문화 예술 공간이다. 가평지역사회의 문화 교육과 작가 초대전 및 교류전을 기획하면서 한국 현대미술의 한 축을 담당하고 있으며, 가평 지역 문화 발전을 위해 매년 공모를 거쳐 가평의 작가를 초빙해 기획전을 개최하고 있다. 가평군민들의 문화적 소양을 함양시켜 주는 것뿐만 아니라, 젊은 미술 작가들을 육성하고 가평지역 학생들에게 창의적인 미술교육을 실행하고자 설립하였다. 설미재 미술관의 전시실에서는 주로 기획전이 개최된다. 조형 연구소에서는 세미나가 주로 진행되며, 창작 스튜디오 3개실을 통하여 신진 작가들을 육성하는 동시에 공동체를 이루고 활성화하고 있다. 비전 있는 젊은 작가를 육성하여 작가 공동체를 활성화 하고 아울러 전문적인 미술교육 체험 프로그램을 개발하여 지역 사회 학생들에게 창의적 미술교육을 실행하고 있음",
+      "sido": "경기도",
+      "sigungu": "가평군",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=298"
+      ],
+      "evidence_id": "E3",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=418",
+        "fields": {
+          "name": "설미재미술관",
+          "sido": "경기도",
+          "sigungu": "가평군",
+          "address": "경기도 가평군 설악면 유명로 1454-38",
+          "ownership_type": "사립",
+          "adult_fee": "3000",
+          "youth_fee": "2500",
+          "child_fee": "2500",
+          "adult_fee_status": "BASE_FEE_PAID",
+          "weekday_open": "10:00",
+          "weekday_close": "17:00",
+          "holiday_open": "10:00",
+          "holiday_close": "17:00",
+          "closure_rule_raw": "월+설날연휴+추석연휴",
+          "amenities_raw": "주차장(20대)+사진촬영허가"
+        },
+        "base_data_date": "2025-12-26",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0461",
+      "name": "한강뮤지엄",
+      "document": "남양주시에 위치한 한강뮤지엄은 일상에서 쉽게 접근할 수 있는 주제를 가지고 관객들과 예술이 유연하게 소통할 수 있는 소통의 장을 제시하는 공간이다. 누구나 이용이 가능하며, 다양한 카테고리의 전시와 프로그램 또한 함께 제시하고 있다. 한강 전경으로 자연이 공존하는 공간을 선사한다. 제1전시장은 ‘작품과 나의 소통장’이라는 주제로 작품과 나 사이에서 자신이 가진 사고로 작품을 해석하고 이해하는 작품과 나의 소통 창구를 제시한다. 제2전시장은 ‘작품과 우리의 소통장’이라는 주제로 전시를 즐기며 힐링할 수 있는 공간으로 구성하였다.",
+      "metadata": {
+        "requires_manual_review": true,
+        "weekday_close": "20:00",
+        "sido": "경기도",
+        "youth_fee": 8000.0,
+        "amenities_raw": "문화상품점",
+        "ownership_type": "사립",
+        "adult_fee": 10000.0,
+        "holiday_close": "22:00",
+        "name": "한강뮤지엄",
+        "weekday_open": "11:00",
+        "homepage_url": "http://hangangmuseum.com/",
+        "child_fee": 8000.0,
+        "holiday_open": "11:00",
+        "longitude": 127.2366752,
+        "address": "경기도 남양주시 와부읍 경강로926번길 30",
+        "source_types": "TOUR_API",
+        "sigungu": "남양주시",
+        "adult_fee_status": "BASE_FEE_PAID",
+        "closure_rule_raw": "연중무휴",
+        "image_copyright": "Type1",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/16/3584716_image2_1.jpg",
+        "latitude": 37.5534542
+      },
+      "vector_rank": 2,
+      "bm25_rank": null,
+      "vector_distance": 0.5760015845298767,
+      "vector_score": null,
+      "bm25_score": null,
+      "vector_document": "남양주시에 위치한 한강뮤지엄은 일상에서 쉽게 접근할 수 있는 주제를 가지고 관객들과 예술이 유연하게 소통할 수 있는 소통의 장을 제시하는 공간이다. 누구나 이용이 가능하며, 다양한 카테고리의 전시와 프로그램 또한 함께 제시하고 있다. 한강 전경으로 자연이 공존하는 공간을 선사한다. 제1전시장은 ‘작품과 나의 소통장’이라는 주제로 작품과 나 사이에서 자신이 가진 사고로 작품을 해석하고 이해하는 작품과 나의 소통 창구를 제시한다. 제2전시장은 ‘작품과 우리의 소통장’이라는 주제로 전시를 즐기며 힐링할 수 있는 공간으로 구성하였다.",
+      "bm25_document": "",
+      "best_span_id": null,
+      "best_span_text": null,
+      "fusion_score": 0.016129032258064516,
+      "retrieved_by": [
+        "vector"
+      ],
+      "fusion_rank": 4,
+      "rerank_score": null,
+      "rank": 4,
+      "score": 0.016129032258064516,
+      "score_type": "rrf",
+      "distance": 0.5760015845298767,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector"
+      ],
+      "retriever": "vector",
+      "source_doc_ids": [
+        "DOC-B0461-TOUR_API-2773766"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0461-TOUR_API-2773766",
+          "source_type": "TOUR_API",
+          "source_record_id": "2773766",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=224",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 82,
+          "doc_ids": [
+            "DOC-B0461-TOUR_API-2773766"
+          ]
+        },
+        {
+          "start": 83,
+          "end": 130,
+          "doc_ids": [
+            "DOC-B0461-TOUR_API-2773766"
+          ]
+        },
+        {
+          "start": 131,
+          "end": 157,
+          "doc_ids": [
+            "DOC-B0461-TOUR_API-2773766"
+          ]
+        },
+        {
+          "start": 158,
+          "end": 240,
+          "doc_ids": [
+            "DOC-B0461-TOUR_API-2773766"
+          ]
+        },
+        {
+          "start": 241,
+          "end": 297,
+          "doc_ids": [
+            "DOC-B0461-TOUR_API-2773766"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=224",
+      "text": "남양주시에 위치한 한강뮤지엄은 일상에서 쉽게 접근할 수 있는 주제를 가지고 관객들과 예술이 유연하게 소통할 수 있는 소통의 장을 제시하는 공간이다. 누구나 이용이 가능하며, 다양한 카테고리의 전시와 프로그램 또한 함께 제시하고 있다. 한강 전경으로 자연이 공존하는 공간을 선사한다. 제1전시장은 ‘작품과 나의 소통장’이라는 주제로 작품과 나 사이에서 자신이 가진 사고로 작품을 해석하고 이해하는 작품과 나의 소통 창구를 제시한다. 제2전시장은 ‘작품과 우리의 소통장’이라는 주제로 전시를 즐기며 힐링할 수 있는 공간으로 구성하였다.",
+      "sido": "경기도",
+      "sigungu": "남양주시",
+      "span_id": "",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=224"
+      ],
+      "evidence_id": "E4",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=332",
+        "fields": {
+          "name": "한강뮤지엄",
+          "sido": "경기도",
+          "sigungu": "남양주시",
+          "address": "경기도 남양주시 와부읍 경강로926번길 30",
+          "ownership_type": "사립",
+          "adult_fee": "10000",
+          "youth_fee": "8000",
+          "child_fee": "8000",
+          "adult_fee_status": "BASE_FEE_PAID",
+          "weekday_open": "11:00",
+          "weekday_close": "20:00",
+          "holiday_open": "11:00",
+          "holiday_close": "22:00",
+          "closure_rule_raw": "연중무휴",
+          "amenities_raw": "문화상품점"
+        },
+        "base_data_date": "2026-04-01",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0321",
+      "name": "혼불문학관",
+      "document": "혼불문학관이 자리한 전북특별자치도 남원시 사매면 노봉마을은 최명희 작가의 대하소설 『혼불』의 주요 배경지다. 마을 주변에는 최씨 종가와 청호저수지, 달맞이공원, 구서도역 등 작품과 관련된 장소가 있어 소설 속 시대와 풍경을 되짚어 볼 수 있다. 한옥으로 조성된 혼불문학관에는 최명희 작가의 유품과 생전 집필실을 재현한 공간, 소설의 주요 장면을 입체적으로 표현한 디오라마 등이 전시되어 있다. 작품의 집필 과정과 작가의 문학 세계를 살펴보며 『혼불』의 의미를 이해할 수 있다. 대하소설 『혼불』은 최명희 작가가 17년에 걸쳐 집필한 작품으로, 일제강점기인 1930년대 한민족의 삶과 전통 풍속, 당시 사회상을 섬세하게 그려 냈다. 문학관과 노봉마을 주변의 관련 장소를 함께 둘러보며 작품의 배경과 우리 전통문화를 살펴보는 문학 여행을 즐길 수 있다. 혼불문학관은 민족의 혼과 근원을 찾기 위해 온몸으로 번뇌하며 상념에 사로 잡혔던 최명희 작가의 혼불“ 문학정신을 계승,발전시키고자 소설의 배경지이며 혼불문학마을인 남원시 사매면 노봉마을을 혼불“ 의 맥이 살아 숨 쉬도록 가꾸고 꾸미기 위하여 출발하였습니다. 최명희 작가는 우리말의 아름다움과 운율을 살려 모국어의 감미로움과 미려함, 풍성함을 돋보이게 하여 찬탄을 자아내었습니다. 전시관은 작가의 문학적 생애 및 작가정신을 알 수 있는 작가의 작품일지와 유품 및 집필실과, 혼불 속 전통문화와 풍속을 엿볼 수 있는 10개의 입체 인형극 형식의 디오라마 공간으로 구성되어 있습니다. 혼불문학관은 2004년 10월 개관하였다.",
+      "metadata": {
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/26/1604026_image2_1.jpg",
+        "latitude": 35.481096,
+        "image_copyright": "Type3",
+        "transport_notes": "버스: 523번, 524번 노봉 종점에서 하차",
+        "weekday_close": "18:00",
+        "ownership_type": "공립",
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "name": "혼불문학관",
+        "requires_manual_review": true,
+        "adult_fee": 0.0,
+        "homepage_url": "https://www.namwon.go.kr",
+        "youth_fee": 0.0,
+        "longitude": 127.319992,
+        "sigungu": "남원시",
+        "weekday_open": "09:00",
+        "child_fee": 0.0,
+        "holiday_close": "18:00",
+        "holiday_open": "09:00",
+        "amenities_raw": "누마루+사랑실+초막3동",
+        "source_types": "BASE|TOUR_API",
+        "address": "전북특별자치도 남원시 사매면 노봉안길52",
+        "sido": "전북특별자치도",
+        "closure_rule_raw": "월"
+      },
+      "vector_rank": null,
+      "bm25_rank": 2,
+      "vector_distance": null,
+      "vector_score": null,
+      "bm25_score": 14.17093104022629,
+      "vector_document": "",
+      "bm25_document": "혼불문학관이 자리한 전북특별자치도 남원시 사매면 노봉마을은 최명희 작가의 대하소설 『혼불』의 주요 배경지다. 마을 주변에는 최씨 종가와 청호저수지, 달맞이공원, 구서도역 등 작품과 관련된 장소가 있어 소설 속 시대와 풍경을 되짚어 볼 수 있다. 한옥으로 조성된 혼불문학관에는 최명희 작가의 유품과 생전 집필실을 재현한 공간, 소설의 주요 장면을 입체적으로 표현한 디오라마 등이 전시되어 있다. 작품의 집필 과정과 작가의 문학 세계를 살펴보며 『혼불』의 의미를 이해할 수 있다. 대하소설 『혼불』은 최명희 작가가 17년에 걸쳐 집필한 작품으로, 일제강점기인 1930년대 한민족의 삶과 전통 풍속, 당시 사회상을 섬세하게 그려 냈다. 문학관과 노봉마을 주변의 관련 장소를 함께 둘러보며 작품의 배경과 우리 전통문화를 살펴보는 문학 여행을 즐길 수 있다. 혼불문학관은 민족의 혼과 근원을 찾기 위해 온몸으로 번뇌하며 상념에 사로 잡혔던 최명희 작가의 혼불“ 문학정신을 계승,발전시키고자 소설의 배경지이며 혼불문학마을인 남원시 사매면 노봉마을을 혼불“ 의 맥이 살아 숨 쉬도록 가꾸고 꾸미기 위하여 출발하였습니다. 최명희 작가는 우리말의 아름다움과 운율을 살려 모국어의 감미로움과 미려함, 풍성함을 돋보이게 하여 찬탄을 자아내었습니다. 전시관은 작가의 문학적 생애 및 작가정신을 알 수 있는 작가의 작품일지와 유품 및 집필실과, 혼불 속 전통문화와 풍속을 엿볼 수 있는 10개의 입체 인형극 형식의 디오라마 공간으로 구성되어 있습니다. 혼불문학관은 2004년 10월 개관하였다.",
+      "best_span_id": "chroma:M0321",
+      "best_span_text": "혼불문학관이 자리한 전북특별자치도 남원시 사매면 노봉마을은 최명희 작가의 대하소설 『혼불』의 주요 배경지다. 마을 주변에는 최씨 종가와 청호저수지, 달맞이공원, 구서도역 등 작품과 관련된 장소가 있어 소설 속 시대와 풍경을 되짚어 볼 수 있다. 한옥으로 조성된 혼불문학관에는 최명희 작가의 유품과 생전 집필실을 재현한 공간, 소설의 주요 장면을 입체적으로 표현한 디오라마 등이 전시되어 있다. 작품의 집필 과정과 작가의 문학 세계를 살펴보며 『혼불』의 의미를 이해할 수 있다. 대하소설 『혼불』은 최명희 작가가 17년에 걸쳐 집필한 작품으로, 일제강점기인 1930년대 한민족의 삶과 전통 풍속, 당시 사회상을 섬세하게 그려 냈다. 문학관과 노봉마을 주변의 관련 장소를 함께 둘러보며 작품의 배경과 우리 전통문화를 살펴보는 문학 여행을 즐길 수 있다. 혼불문학관은 민족의 혼과 근원을 찾기 위해 온몸으로 번뇌하며 상념에 사로 잡혔던 최명희 작가의 혼불“ 문학정신을 계승,발전시키고자 소설의 배경지이며 혼불문학마을인 남원시 사매면 노봉마을을 혼불“ 의 맥이 살아 숨 쉬도록 가꾸고 꾸미기 위하여 출발하였습니다. 최명희 작가는 우리말의 아름다움과 운율을 살려 모국어의 감미로움과 미려함, 풍성함을 돋보이게 하여 찬탄을 자아내었습니다. 전시관은 작가의 문학적 생애 및 작가정신을 알 수 있는 작가의 작품일지와 유품 및 집필실과, 혼불 속 전통문화와 풍속을 엿볼 수 있는 10개의 입체 인형극 형식의 디오라마 공간으로 구성되어 있습니다. 혼불문학관은 2004년 10월 개관하였다.",
+      "fusion_score": 0.016129032258064516,
+      "retrieved_by": [
+        "bm25"
+      ],
+      "fusion_rank": 5,
+      "rerank_score": null,
+      "rank": 5,
+      "score": 0.016129032258064516,
+      "score_type": "rrf",
+      "distance": null,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "bm25"
+      ],
+      "retriever": "bm25",
+      "span_id": "chroma:M0321",
+      "source_doc_ids": [
+        "DOC-B0321-TOUR_API-128126",
+        "DOC-B0321-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0321-TOUR_API-128126",
+          "source_type": "TOUR_API",
+          "source_record_id": "128126",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=158",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        },
+        {
+          "doc_id": "DOC-B0321-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0321",
+          "source_locator": "data/raw/museum_base_1070.csv#row=322",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 60,
+          "doc_ids": [
+            "DOC-B0321-TOUR_API-128126"
+          ]
+        },
+        {
+          "start": 61,
+          "end": 136,
+          "doc_ids": [
+            "DOC-B0321-TOUR_API-128126"
+          ]
+        },
+        {
+          "start": 137,
+          "end": 219,
+          "doc_ids": [
+            "DOC-B0321-TOUR_API-128126"
+          ]
+        },
+        {
+          "start": 220,
+          "end": 266,
+          "doc_ids": [
+            "DOC-B0321-TOUR_API-128126"
+          ]
+        },
+        {
+          "start": 267,
+          "end": 352,
+          "doc_ids": [
+            "DOC-B0321-TOUR_API-128126"
+          ]
+        },
+        {
+          "start": 353,
+          "end": 419,
+          "doc_ids": [
+            "DOC-B0321-TOUR_API-128126"
+          ]
+        },
+        {
+          "start": 420,
+          "end": 563,
+          "doc_ids": [
+            "DOC-B0321-BASE"
+          ]
+        },
+        {
+          "start": 564,
+          "end": 631,
+          "doc_ids": [
+            "DOC-B0321-BASE"
+          ]
+        },
+        {
+          "start": 632,
+          "end": 743,
+          "doc_ids": [
+            "DOC-B0321-BASE"
+          ]
+        },
+        {
+          "start": 744,
+          "end": 767,
+          "doc_ids": [
+            "DOC-B0321-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=158",
+      "text": "혼불문학관이 자리한 전북특별자치도 남원시 사매면 노봉마을은 최명희 작가의 대하소설 『혼불』의 주요 배경지다. 마을 주변에는 최씨 종가와 청호저수지, 달맞이공원, 구서도역 등 작품과 관련된 장소가 있어 소설 속 시대와 풍경을 되짚어 볼 수 있다. 한옥으로 조성된 혼불문학관에는 최명희 작가의 유품과 생전 집필실을 재현한 공간, 소설의 주요 장면을 입체적으로 표현한 디오라마 등이 전시되어 있다. 작품의 집필 과정과 작가의 문학 세계를 살펴보며 『혼불』의 의미를 이해할 수 있다. 대하소설 『혼불』은 최명희 작가가 17년에 걸쳐 집필한 작품으로, 일제강점기인 1930년대 한민족의 삶과 전통 풍속, 당시 사회상을 섬세하게 그려 냈다. 문학관과 노봉마을 주변의 관련 장소를 함께 둘러보며 작품의 배경과 우리 전통문화를 살펴보는 문학 여행을 즐길 수 있다. 혼불문학관은 민족의 혼과 근원을 찾기 위해 온몸으로 번뇌하며 상념에 사로 잡혔던 최명희 작가의 혼불“ 문학정신을 계승,발전시키고자 소설의 배경지이며 혼불문학마을인 남원시 사매면 노봉마을을 혼불“ 의 맥이 살아 숨 쉬도록 가꾸고 꾸미기 위하여 출발하였습니다. 최명희 작가는 우리말의 아름다움과 운율을 살려 모국어의 감미로움과 미려함, 풍성함을 돋보이게 하여 찬탄을 자아내었습니다. 전시관은 작가의 문학적 생애 및 작가정신을 알 수 있는 작가의 작품일지와 유품 및 집필실과, 혼불 속 전통문화와 풍속을 엿볼 수 있는 10개의 입체 인형극 형식의 디오라마 공간으로 구성되어 있습니다. 혼불문학관은 2004년 10월 개관하였다.",
+      "sido": "전북특별자치도",
+      "sigungu": "남원시",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=158"
+      ],
+      "evidence_id": "E5",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=233",
+        "fields": {
+          "name": "혼불문학관",
+          "sido": "전북특별자치도",
+          "sigungu": "남원시",
+          "address": "전북특별자치도 남원시 사매면 노봉안길52",
+          "ownership_type": "공립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "09:00",
+          "weekday_close": "18:00",
+          "holiday_open": "09:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "월",
+          "amenities_raw": "누마루+사랑실+초막3동"
+        },
+        "base_data_date": "2026-06-24",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    }
+  ],
+  "answer": "‘작가의 집’에서는 박경리 작가의 일상생활의 흔적과 삶을 통해 ‘작가 박경리’뿐 아니라 한 사람으로서의 ‘사람 박경리’의 모습도 볼 수 있습니다. [E1]",
+  "retrieval_status": "ok",
+  "answer_status": "answered",
+  "route": "hybrid",
+  "retry_count": 0,
+  "supervisor_verified": true,
+  "rerank_applied": false,
+  "retriever_errors": [],
+  "warnings": [
+    "Cross-Encoder reranking failed (FileNotFoundError); RRF order retained"
+  ],
+  "duration_ms": 9372.99,
+  "error_type": "",
+  "hit_at_1": 1,
+  "hit_at_3": 1,
+  "hit_at_5": 1,
+  "recall_at_5": 1.0,
+  "mrr_at_10": 1.0
+}

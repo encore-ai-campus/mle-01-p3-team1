@@ -1,0 +1,648 @@
+{
+  "mode": "supervisor_full",
+  "question_id": "Q246",
+  "evidence": [
+    {
+      "museum_id": "M0430",
+      "name": "거제박물관",
+      "document": "거제박물관은 거제문화재단 산하의 기관으로서, 1991년 12월 21일에 개관하여, 1992년 문화관광부에 등록한 종합박물관(민속, 고고분야)으로서 거제의 역사와 민속에 관한 자료를 수집, 정리, 연구, 전시하고 있다. 1층은 기획전시실 공간으로 지역 내의 여러 문화행사(전시행사)를 개최할 수 있게 되어 있으며, 2층은 민속실로 거제에서 채집한 민속품이 진열되어 있는데, 섬이라는 환경조건으로 반농반어의 생산 형태를 갖게 되어 농경과 수산에 관계되는 용구가 많이 있다. 3층은 선사시대부터 조선시대까지의 다양한 유물이 전시되어 있다. 이러한 박물관 본연의 사업 외에 난, 수석, 사진 등의 지역 주민을 위한 일반 전시회와 민속품, 소장품 등의 기획 전시, 유물 사생대회와 클래식 음악회, 명사초청 강연회와 가족캠프 등의 문화와 예술에 관한 많은 사업들을 진행하고 있으며, 특히 박물관 대학과 대학원 등을 통해 지역민의 교양을 넓히고, 새로운 정보를 제공하는 사회교육 기능도 하고 있다. 도류+토기+민속품+고서+서화류 등 3500여점 소장",
+      "metadata": {
+        "longitude": 128.6862106,
+        "sido": "경상남도",
+        "homepage_url": "http://gjmuseum.or.kr/",
+        "weekday_open": "09:00",
+        "weekday_close": "18:00",
+        "latitude": 34.894053,
+        "source_types": "BASE|TOUR_API",
+        "name": "거제박물관",
+        "closure_rule_raw": "월요일+설당일+추석당일",
+        "image_copyright": "Type1",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/71/3520971_image2_1.jpg",
+        "holiday_close": "18:00",
+        "ownership_type": "사립",
+        "adult_fee_status": "BASE_FEE_PAID",
+        "adult_fee": 3000.0,
+        "holiday_open": "09:00",
+        "child_fee": 1500.0,
+        "sigungu": "거제시",
+        "requires_manual_review": true,
+        "address": "경상남도 거제시 거제대로 3791",
+        "fee_notes": "할인(경로우대, 국가유공자, 장애인, 단체(20인 이상))+무료입장(병역명문가)",
+        "youth_fee": 2000.0
+      },
+      "vector_rank": 1,
+      "bm25_rank": 1,
+      "vector_distance": 0.4921071529388428,
+      "vector_score": null,
+      "bm25_score": 22.230037654412655,
+      "vector_document": "거제박물관은 거제문화재단 산하의 기관으로서, 1991년 12월 21일에 개관하여, 1992년 문화관광부에 등록한 종합박물관(민속, 고고분야)으로서 거제의 역사와 민속에 관한 자료를 수집, 정리, 연구, 전시하고 있다. 1층은 기획전시실 공간으로 지역 내의 여러 문화행사(전시행사)를 개최할 수 있게 되어 있으며, 2층은 민속실로 거제에서 채집한 민속품이 진열되어 있는데, 섬이라는 환경조건으로 반농반어의 생산 형태를 갖게 되어 농경과 수산에 관계되는 용구가 많이 있다. 3층은 선사시대부터 조선시대까지의 다양한 유물이 전시되어 있다. 이러한 박물관 본연의 사업 외에 난, 수석, 사진 등의 지역 주민을 위한 일반 전시회와 민속품, 소장품 등의 기획 전시, 유물 사생대회와 클래식 음악회, 명사초청 강연회와 가족캠프 등의 문화와 예술에 관한 많은 사업들을 진행하고 있으며, 특히 박물관 대학과 대학원 등을 통해 지역민의 교양을 넓히고, 새로운 정보를 제공하는 사회교육 기능도 하고 있다. 도류+토기+민속품+고서+서화류 등 3500여점 소장",
+      "bm25_document": "거제박물관은 거제문화재단 산하의 기관으로서, 1991년 12월 21일에 개관하여, 1992년 문화관광부에 등록한 종합박물관(민속, 고고분야)으로서 거제의 역사와 민속에 관한 자료를 수집, 정리, 연구, 전시하고 있다. 1층은 기획전시실 공간으로 지역 내의 여러 문화행사(전시행사)를 개최할 수 있게 되어 있으며, 2층은 민속실로 거제에서 채집한 민속품이 진열되어 있는데, 섬이라는 환경조건으로 반농반어의 생산 형태를 갖게 되어 농경과 수산에 관계되는 용구가 많이 있다. 3층은 선사시대부터 조선시대까지의 다양한 유물이 전시되어 있다. 이러한 박물관 본연의 사업 외에 난, 수석, 사진 등의 지역 주민을 위한 일반 전시회와 민속품, 소장품 등의 기획 전시, 유물 사생대회와 클래식 음악회, 명사초청 강연회와 가족캠프 등의 문화와 예술에 관한 많은 사업들을 진행하고 있으며, 특히 박물관 대학과 대학원 등을 통해 지역민의 교양을 넓히고, 새로운 정보를 제공하는 사회교육 기능도 하고 있다. 도류+토기+민속품+고서+서화류 등 3500여점 소장",
+      "best_span_id": "chroma:M0430",
+      "best_span_text": "거제박물관은 거제문화재단 산하의 기관으로서, 1991년 12월 21일에 개관하여, 1992년 문화관광부에 등록한 종합박물관(민속, 고고분야)으로서 거제의 역사와 민속에 관한 자료를 수집, 정리, 연구, 전시하고 있다. 1층은 기획전시실 공간으로 지역 내의 여러 문화행사(전시행사)를 개최할 수 있게 되어 있으며, 2층은 민속실로 거제에서 채집한 민속품이 진열되어 있는데, 섬이라는 환경조건으로 반농반어의 생산 형태를 갖게 되어 농경과 수산에 관계되는 용구가 많이 있다. 3층은 선사시대부터 조선시대까지의 다양한 유물이 전시되어 있다. 이러한 박물관 본연의 사업 외에 난, 수석, 사진 등의 지역 주민을 위한 일반 전시회와 민속품, 소장품 등의 기획 전시, 유물 사생대회와 클래식 음악회, 명사초청 강연회와 가족캠프 등의 문화와 예술에 관한 많은 사업들을 진행하고 있으며, 특히 박물관 대학과 대학원 등을 통해 지역민의 교양을 넓히고, 새로운 정보를 제공하는 사회교육 기능도 하고 있다. 도류+토기+민속품+고서+서화류 등 3500여점 소장",
+      "fusion_score": 0.03278688524590164,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 1,
+      "name_match": true,
+      "rerank_score": 0.9982823133468628,
+      "rank": 1,
+      "score": 0.9982823133468628,
+      "score_type": "cross_encoder",
+      "distance": 0.4921071529388428,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0430",
+      "source_doc_ids": [
+        "DOC-B0430-TOUR_API-129805",
+        "DOC-B0430-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0430-TOUR_API-129805",
+          "source_type": "TOUR_API",
+          "source_record_id": "129805",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=204",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        },
+        {
+          "doc_id": "DOC-B0430-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0430",
+          "source_locator": "data/raw/museum_base_1070.csv#row=431",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 121,
+          "doc_ids": [
+            "DOC-B0430-TOUR_API-129805"
+          ]
+        },
+        {
+          "start": 122,
+          "end": 262,
+          "doc_ids": [
+            "DOC-B0430-TOUR_API-129805"
+          ]
+        },
+        {
+          "start": 263,
+          "end": 298,
+          "doc_ids": [
+            "DOC-B0430-TOUR_API-129805"
+          ]
+        },
+        {
+          "start": 299,
+          "end": 495,
+          "doc_ids": [
+            "DOC-B0430-TOUR_API-129805"
+          ]
+        },
+        {
+          "start": 496,
+          "end": 524,
+          "doc_ids": [
+            "DOC-B0430-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=204",
+      "text": "거제박물관은 거제문화재단 산하의 기관으로서, 1991년 12월 21일에 개관하여, 1992년 문화관광부에 등록한 종합박물관(민속, 고고분야)으로서 거제의 역사와 민속에 관한 자료를 수집, 정리, 연구, 전시하고 있다. 1층은 기획전시실 공간으로 지역 내의 여러 문화행사(전시행사)를 개최할 수 있게 되어 있으며, 2층은 민속실로 거제에서 채집한 민속품이 진열되어 있는데, 섬이라는 환경조건으로 반농반어의 생산 형태를 갖게 되어 농경과 수산에 관계되는 용구가 많이 있다. 3층은 선사시대부터 조선시대까지의 다양한 유물이 전시되어 있다. 이러한 박물관 본연의 사업 외에 난, 수석, 사진 등의 지역 주민을 위한 일반 전시회와 민속품, 소장품 등의 기획 전시, 유물 사생대회와 클래식 음악회, 명사초청 강연회와 가족캠프 등의 문화와 예술에 관한 많은 사업들을 진행하고 있으며, 특히 박물관 대학과 대학원 등을 통해 지역민의 교양을 넓히고, 새로운 정보를 제공하는 사회교육 기능도 하고 있다. 도류+토기+민속품+고서+서화류 등 3500여점 소장",
+      "sido": "경상남도",
+      "sigungu": "거제시",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=204"
+      ],
+      "evidence_id": "E1",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=304",
+        "fields": {
+          "name": "거제박물관",
+          "sido": "경상남도",
+          "sigungu": "거제시",
+          "address": "경상남도 거제시 거제대로 3791",
+          "ownership_type": "사립",
+          "adult_fee": "3000",
+          "youth_fee": "2000",
+          "child_fee": "1500",
+          "adult_fee_status": "BASE_FEE_PAID",
+          "weekday_open": "09:00",
+          "weekday_close": "18:00",
+          "holiday_open": "09:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "월요일+설당일+추석당일"
+        },
+        "base_data_date": "2026-03-26",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0433",
+      "name": "거제어촌민속전시관",
+      "document": "거제어촌민속전시관은 남해안의 어촌생활사에 관한 전시를 관람할 수 있는 곳이다. 전통의 바다에서는 거제의 역사부터 인물, 문화유적, 민요, 옛 생활 등의 전통을 알아볼 수 있다. 생활의 바다에서는 거제의 수산음식, 생활도구, 어선, 어구, 어법 등 생활요소들을 알아볼 수 있으며, 부흥의 바다에서는 거제의 입지조건, 연근해산수업, 해양생물, 굴이야기 등을, 체험의 바다에서는 거제의 특산물과 관광 등을 알아볼 수 있다. 민속품+패류+어구+어류박제품 등 2120여점 소장",
+      "metadata": {
+        "sigungu": "거제시",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/52/3514952_image2_1.jpg",
+        "ownership_type": "공립",
+        "adult_fee_status": "BASE_FEE_PAID",
+        "child_fee": 1000.0,
+        "closure_rule_raw": "1월1일+설당일+추석당일+월요일(단, 월요일이 공휴일인 경우 당일은 개관하고 그 다음 첫번째 평일에 휴관)",
+        "adult_fee": 3000.0,
+        "weekday_open": "09:00",
+        "longitude": 128.7018853,
+        "fee_notes": "할인(거제시민+만 65세 이상+관광지 통합이용권 이용자+상호협약 체결 시설 당일 입장권 소지자+단체 30명 이상)+무료(미취학 아동 + 국가보훈대상자+ 장애인+ 다자녀가정 + 기초생활수급자)",
+        "source_types": "BASE|TOUR_API",
+        "holiday_close": "18:00",
+        "name": "거제어촌민속전시관",
+        "requires_manual_review": true,
+        "latitude": 34.83369365,
+        "youth_fee": 2000.0,
+        "homepage_url": "http://www.gmdc.co.kr/_marine/",
+        "weekday_close": "18:00",
+        "holiday_open": "09:00",
+        "sido": "경상남도",
+        "address": "경상남도 거제시 일운면 지세포해안로 41",
+        "image_copyright": "Type1"
+      },
+      "vector_rank": null,
+      "bm25_rank": 2,
+      "vector_distance": null,
+      "vector_score": null,
+      "bm25_score": 14.837423914472343,
+      "vector_document": "",
+      "bm25_document": "거제어촌민속전시관은 남해안의 어촌생활사에 관한 전시를 관람할 수 있는 곳이다. 전통의 바다에서는 거제의 역사부터 인물, 문화유적, 민요, 옛 생활 등의 전통을 알아볼 수 있다. 생활의 바다에서는 거제의 수산음식, 생활도구, 어선, 어구, 어법 등 생활요소들을 알아볼 수 있으며, 부흥의 바다에서는 거제의 입지조건, 연근해산수업, 해양생물, 굴이야기 등을, 체험의 바다에서는 거제의 특산물과 관광 등을 알아볼 수 있다. 민속품+패류+어구+어류박제품 등 2120여점 소장",
+      "best_span_id": "chroma:M0433",
+      "best_span_text": "거제어촌민속전시관은 남해안의 어촌생활사에 관한 전시를 관람할 수 있는 곳이다. 전통의 바다에서는 거제의 역사부터 인물, 문화유적, 민요, 옛 생활 등의 전통을 알아볼 수 있다. 생활의 바다에서는 거제의 수산음식, 생활도구, 어선, 어구, 어법 등 생활요소들을 알아볼 수 있으며, 부흥의 바다에서는 거제의 입지조건, 연근해산수업, 해양생물, 굴이야기 등을, 체험의 바다에서는 거제의 특산물과 관광 등을 알아볼 수 있다. 민속품+패류+어구+어류박제품 등 2120여점 소장",
+      "fusion_score": 0.016129032258064516,
+      "retrieved_by": [
+        "bm25"
+      ],
+      "fusion_rank": 4,
+      "rerank_score": 0.006731094792485237,
+      "rank": 2,
+      "score": 0.006731094792485237,
+      "score_type": "cross_encoder",
+      "distance": null,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "bm25"
+      ],
+      "retriever": "bm25",
+      "span_id": "chroma:M0433",
+      "source_doc_ids": [
+        "DOC-B0433-TOUR_API-1622179",
+        "DOC-B0433-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0433-TOUR_API-1622179",
+          "source_type": "TOUR_API",
+          "source_record_id": "1622179",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=207",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        },
+        {
+          "doc_id": "DOC-B0433-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0433",
+          "source_locator": "data/raw/museum_base_1070.csv#row=434",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 43,
+          "doc_ids": [
+            "DOC-B0433-TOUR_API-1622179"
+          ]
+        },
+        {
+          "start": 44,
+          "end": 98,
+          "doc_ids": [
+            "DOC-B0433-TOUR_API-1622179"
+          ]
+        },
+        {
+          "start": 99,
+          "end": 233,
+          "doc_ids": [
+            "DOC-B0433-TOUR_API-1622179"
+          ]
+        },
+        {
+          "start": 234,
+          "end": 261,
+          "doc_ids": [
+            "DOC-B0433-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=207",
+      "text": "거제어촌민속전시관은 남해안의 어촌생활사에 관한 전시를 관람할 수 있는 곳이다. 전통의 바다에서는 거제의 역사부터 인물, 문화유적, 민요, 옛 생활 등의 전통을 알아볼 수 있다. 생활의 바다에서는 거제의 수산음식, 생활도구, 어선, 어구, 어법 등 생활요소들을 알아볼 수 있으며, 부흥의 바다에서는 거제의 입지조건, 연근해산수업, 해양생물, 굴이야기 등을, 체험의 바다에서는 거제의 특산물과 관광 등을 알아볼 수 있다. 민속품+패류+어구+어류박제품 등 2120여점 소장",
+      "sido": "경상남도",
+      "sigungu": "거제시",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=207"
+      ],
+      "evidence_id": "E2",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=307",
+        "fields": {
+          "name": "거제어촌민속전시관",
+          "sido": "경상남도",
+          "sigungu": "거제시",
+          "address": "경상남도 거제시 일운면 지세포해안로 41",
+          "ownership_type": "공립",
+          "adult_fee": "3000",
+          "youth_fee": "2000",
+          "child_fee": "1000",
+          "adult_fee_status": "BASE_FEE_PAID",
+          "weekday_open": "09:00",
+          "weekday_close": "18:00",
+          "holiday_open": "09:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "1월1일+설당일+추석당일+월요일(단, 월요일이 공휴일인 경우 당일은 개관하고 그 다음 첫번째 평일에 휴관)"
+        },
+        "base_data_date": "2026-03-26",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0428",
+      "name": "포로수용소유적박물관",
+      "document": "포로수용소유적박물관은 거제포로수용소유적공원에 자리 잡고 있는 박물관으로, 포로수용소에 대한 각종 기록물과 영상자료, 포로들의 이송, 수송, 투쟁, 송환과 각종 사건에 대한 실물 기록에 의한 실증적인 유적박물관이다. 박물관 내에는 전시실, 영상실, 기념품 판매소가 설치되어 있으며, 전시실에는 포로의 발생, 배경, 생활사, 포로 유품, 폭동, 석방 등이 전시되어 있고, 영상실에는 당시 촬영한 필름과 포로출신의 인터뷰를 통하여 10분간 포로에 대한 내용을 상영하며, 상징 조형물은 ‘전쟁, 분단 그리고 화합’이라는 제목으로 전시되고 있으며, 한국 전쟁 당시의 상황을 찌그러진 철모에 생긴 총알구멍을 통해 치열했던 전투를 추측할 수 있다. 전쟁으로 인해 사로잡힌 많은 포로들이 이곳 거제포로수용소에 수용되었으며, 전시품 중 철조망을 걷어내는 국군과 북한군의 모습에서 한민족 간의 화합과 통일을 이룩하고자 하는 강한 의지를 표현한 것도 있다.",
+      "metadata": {
+        "adult_fee": 7000.0,
+        "address": "경상남도 거제시 계룡로 61",
+        "child_fee": 3000.0,
+        "fee_notes": "할인(거제시 관내 주민등록 대상 + 만65세 이상 + 단체(20명 이상))+무료(만6세 이하 어린이 + 어린이날 입장 어린이 + 현충일 입장 유가족 + 장애인 + 국가보훈 대상자 + 다자녀 가정 + 기초생활수급자)",
+        "image_copyright": "Type1",
+        "name": "포로수용소유적박물관",
+        "requires_manual_review": true,
+        "homepage_url": "http://www.gmdc.co.kr/_pow/",
+        "youth_fee": 5000.0,
+        "ownership_type": "사립",
+        "weekday_open": "09:00",
+        "source_types": "TOUR_API",
+        "sido": "경상남도",
+        "holiday_close": "18:00",
+        "weekday_close": "18:00",
+        "closure_rule_raw": "설날당일+추석당일+화요일(단, 화요일이 공유일인 경우 다음 첫 번째 평일 휴관)",
+        "holiday_open": "09:00",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/49/3520949_image2_1.jpg",
+        "latitude": 34.87637998,
+        "adult_fee_status": "BASE_FEE_PAID",
+        "longitude": 128.6253705,
+        "sigungu": "거제시"
+      },
+      "vector_rank": null,
+      "bm25_rank": 4,
+      "vector_distance": null,
+      "vector_score": null,
+      "bm25_score": 13.792930480199631,
+      "vector_document": "",
+      "bm25_document": "포로수용소유적박물관은 거제포로수용소유적공원에 자리 잡고 있는 박물관으로, 포로수용소에 대한 각종 기록물과 영상자료, 포로들의 이송, 수송, 투쟁, 송환과 각종 사건에 대한 실물 기록에 의한 실증적인 유적박물관이다. 박물관 내에는 전시실, 영상실, 기념품 판매소가 설치되어 있으며, 전시실에는 포로의 발생, 배경, 생활사, 포로 유품, 폭동, 석방 등이 전시되어 있고, 영상실에는 당시 촬영한 필름과 포로출신의 인터뷰를 통하여 10분간 포로에 대한 내용을 상영하며, 상징 조형물은 ‘전쟁, 분단 그리고 화합’이라는 제목으로 전시되고 있으며, 한국 전쟁 당시의 상황을 찌그러진 철모에 생긴 총알구멍을 통해 치열했던 전투를 추측할 수 있다. 전쟁으로 인해 사로잡힌 많은 포로들이 이곳 거제포로수용소에 수용되었으며, 전시품 중 철조망을 걷어내는 국군과 북한군의 모습에서 한민족 간의 화합과 통일을 이룩하고자 하는 강한 의지를 표현한 것도 있다.",
+      "best_span_id": "chroma:M0428",
+      "best_span_text": "포로수용소유적박물관은 거제포로수용소유적공원에 자리 잡고 있는 박물관으로, 포로수용소에 대한 각종 기록물과 영상자료, 포로들의 이송, 수송, 투쟁, 송환과 각종 사건에 대한 실물 기록에 의한 실증적인 유적박물관이다. 박물관 내에는 전시실, 영상실, 기념품 판매소가 설치되어 있으며, 전시실에는 포로의 발생, 배경, 생활사, 포로 유품, 폭동, 석방 등이 전시되어 있고, 영상실에는 당시 촬영한 필름과 포로출신의 인터뷰를 통하여 10분간 포로에 대한 내용을 상영하며, 상징 조형물은 ‘전쟁, 분단 그리고 화합’이라는 제목으로 전시되고 있으며, 한국 전쟁 당시의 상황을 찌그러진 철모에 생긴 총알구멍을 통해 치열했던 전투를 추측할 수 있다. 전쟁으로 인해 사로잡힌 많은 포로들이 이곳 거제포로수용소에 수용되었으며, 전시품 중 철조망을 걷어내는 국군과 북한군의 모습에서 한민족 간의 화합과 통일을 이룩하고자 하는 강한 의지를 표현한 것도 있다.",
+      "fusion_score": 0.015625,
+      "retrieved_by": [
+        "bm25"
+      ],
+      "fusion_rank": 8,
+      "rerank_score": 0.002914853161200881,
+      "rank": 3,
+      "score": 0.002914853161200881,
+      "score_type": "cross_encoder",
+      "distance": null,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "bm25"
+      ],
+      "retriever": "bm25",
+      "span_id": "chroma:M0428",
+      "source_doc_ids": [
+        "DOC-B0428-TOUR_API-1937122"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0428-TOUR_API-1937122",
+          "source_type": "TOUR_API",
+          "source_record_id": "1937122",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=203",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 119,
+          "doc_ids": [
+            "DOC-B0428-TOUR_API-1937122"
+          ]
+        },
+        {
+          "start": 120,
+          "end": 355,
+          "doc_ids": [
+            "DOC-B0428-TOUR_API-1937122"
+          ]
+        },
+        {
+          "start": 356,
+          "end": 468,
+          "doc_ids": [
+            "DOC-B0428-TOUR_API-1937122"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=203",
+      "text": "포로수용소유적박물관은 거제포로수용소유적공원에 자리 잡고 있는 박물관으로, 포로수용소에 대한 각종 기록물과 영상자료, 포로들의 이송, 수송, 투쟁, 송환과 각종 사건에 대한 실물 기록에 의한 실증적인 유적박물관이다. 박물관 내에는 전시실, 영상실, 기념품 판매소가 설치되어 있으며, 전시실에는 포로의 발생, 배경, 생활사, 포로 유품, 폭동, 석방 등이 전시되어 있고, 영상실에는 당시 촬영한 필름과 포로출신의 인터뷰를 통하여 10분간 포로에 대한 내용을 상영하며, 상징 조형물은 ‘전쟁, 분단 그리고 화합’이라는 제목으로 전시되고 있으며, 한국 전쟁 당시의 상황을 찌그러진 철모에 생긴 총알구멍을 통해 치열했던 전투를 추측할 수 있다. 전쟁으로 인해 사로잡힌 많은 포로들이 이곳 거제포로수용소에 수용되었으며, 전시품 중 철조망을 걷어내는 국군과 북한군의 모습에서 한민족 간의 화합과 통일을 이룩하고자 하는 강한 의지를 표현한 것도 있다.",
+      "sido": "경상남도",
+      "sigungu": "거제시",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=203"
+      ],
+      "evidence_id": "E3",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=303",
+        "fields": {
+          "name": "포로수용소유적박물관",
+          "sido": "경상남도",
+          "sigungu": "거제시",
+          "address": "경상남도 거제시 계룡로 61",
+          "ownership_type": "사립",
+          "adult_fee": "7000",
+          "youth_fee": "5000",
+          "child_fee": "3000",
+          "adult_fee_status": "BASE_FEE_PAID",
+          "weekday_open": "09:00",
+          "weekday_close": "18:00",
+          "holiday_open": "09:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "설날당일+추석당일+화요일(단, 화요일이 공유일인 경우 다음 첫 번째 평일 휴관)"
+        },
+        "base_data_date": "2026-03-26",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0679",
+      "name": "(사)진주어린이박물관",
+      "document": "업사이클아트 작품 관람, 미디어아트 체험, 기획전시장 관람 및 체험, 생태미술관람 및 체험, VR 체험이 가능",
+      "metadata": {
+        "holiday_open": "10:20",
+        "transport_notes": "시내버스(121번+136번)",
+        "source_types": "BASE",
+        "name": "(사)진주어린이박물관",
+        "weekday_open": "10:20",
+        "youth_fee": 15000.0,
+        "adult_fee": 7000.0,
+        "sido": "경상남도",
+        "holiday_close": "19:00",
+        "ownership_type": "사립",
+        "address": "경상남도 진주시 망경로 224번길 40",
+        "closure_rule_raw": "일+1월 1일+설날연휴+추석연휴",
+        "child_fee": 15000.0,
+        "requires_manual_review": true,
+        "fee_notes": "30 할인(국가유공자+ 장애인+국민기초생활수급자+다자녀가구+ 만 65세 이상)+ 제휴기관 할인+무료(36개월미만 어린이 동반시 입장가능)+단체25명이상 10000원",
+        "adult_fee_status": "BASE_FEE_PAID",
+        "sigungu": "진주시",
+        "latitude": 35.1811237,
+        "longitude": 128.0788419,
+        "weekday_close": "19:00",
+        "homepage_url": "https://jcm.or.kr/jjcm/main/index.php"
+      },
+      "vector_rank": 2,
+      "bm25_rank": null,
+      "vector_distance": 0.5121756792068481,
+      "vector_score": null,
+      "bm25_score": null,
+      "vector_document": "업사이클아트 작품 관람, 미디어아트 체험, 기획전시장 관람 및 체험, 생태미술관람 및 체험, VR 체험이 가능",
+      "bm25_document": "",
+      "best_span_id": null,
+      "best_span_text": null,
+      "fusion_score": 0.016129032258064516,
+      "retrieved_by": [
+        "vector"
+      ],
+      "fusion_rank": 3,
+      "rerank_score": 0.0017009006114676595,
+      "rank": 4,
+      "score": 0.0017009006114676595,
+      "score_type": "cross_encoder",
+      "distance": 0.5121756792068481,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector"
+      ],
+      "retriever": "vector",
+      "source_doc_ids": [
+        "DOC-B0679-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0679-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0679",
+          "source_locator": "data/raw/museum_base_1070.csv#row=680",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 61,
+          "doc_ids": [
+            "DOC-B0679-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_base_1070.csv#row=680",
+      "text": "업사이클아트 작품 관람, 미디어아트 체험, 기획전시장 관람 및 체험, 생태미술관람 및 체험, VR 체험이 가능",
+      "sido": "경상남도",
+      "sigungu": "진주시",
+      "span_id": "",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_base_1070.csv#row=680"
+      ],
+      "evidence_id": "E4",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=469",
+        "fields": {
+          "name": "(사)진주어린이박물관",
+          "sido": "경상남도",
+          "sigungu": "진주시",
+          "address": "경상남도 진주시 망경로 224번길 40",
+          "ownership_type": "사립",
+          "adult_fee": "7000",
+          "youth_fee": "15000",
+          "child_fee": "15000",
+          "adult_fee_status": "BASE_FEE_PAID",
+          "weekday_open": "10:20",
+          "weekday_close": "19:00",
+          "holiday_open": "10:20",
+          "holiday_close": "19:00",
+          "closure_rule_raw": "일+1월 1일+설날연휴+추석연휴"
+        },
+        "base_data_date": "2025-11-04",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0334",
+      "name": "한국교통대학교 박물관",
+      "document": "산업기술 분야를 중심으로 한 고고역사,미술,공예 및 민속 관련 자료를 수집,전시하고 교직원 및 학생의 관람과 교육연구 자료로서 공여하여 향토문화의 인식계몽에 기어코자 함.",
+      "metadata": {
+        "transport_notes": "서울 → 충주(동서울터미널, 강남터미널 1시간 30분)수원 → 충주(직통, 직행 1시간 30분)청주 → 충주(직통, 직행 1시간)원주·제천 → 충주(직행 50분)문경·점촌 → 충주(직행 1시간)충주시외버스터미널 → 한국교통대학교(주덕방향 시내버스 5분)",
+        "weekday_open": "10:00",
+        "adult_fee": 0.0,
+        "child_fee": 0.0,
+        "homepage_url": "https://www.ut.ac.kr/museum.do",
+        "requires_manual_review": true,
+        "sido": "충청북도",
+        "holiday_open": "00:00",
+        "ownership_type": "대학",
+        "closure_rule_raw": "법정 공휴일",
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "longitude": 127.8727696,
+        "amenities_raw": "커피숍+편의점+식당",
+        "sigungu": "충주시",
+        "youth_fee": 0.0,
+        "latitude": 36.96884634,
+        "name": "한국교통대학교 박물관",
+        "address": "충청북도 충주시 대소원면 대학로 50",
+        "holiday_close": "00:00",
+        "weekday_close": "17:00",
+        "source_types": "BASE"
+      },
+      "vector_rank": 6,
+      "bm25_rank": null,
+      "vector_distance": 0.5370833277702332,
+      "vector_score": null,
+      "bm25_score": null,
+      "vector_document": "산업기술 분야를 중심으로 한 고고역사,미술,공예 및 민속 관련 자료를 수집,전시하고 교직원 및 학생의 관람과 교육연구 자료로서 공여하여 향토문화의 인식계몽에 기어코자 함.",
+      "bm25_document": "",
+      "best_span_id": null,
+      "best_span_text": null,
+      "fusion_score": 0.015151515151515152,
+      "retrieved_by": [
+        "vector"
+      ],
+      "fusion_rank": 11,
+      "rerank_score": 0.0007060313364490867,
+      "rank": 5,
+      "score": 0.0007060313364490867,
+      "score_type": "cross_encoder",
+      "distance": 0.5370833277702332,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector"
+      ],
+      "retriever": "vector",
+      "source_doc_ids": [
+        "DOC-B0334-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0334-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0334",
+          "source_locator": "data/raw/museum_base_1070.csv#row=335",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 95,
+          "doc_ids": [
+            "DOC-B0334-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_base_1070.csv#row=335",
+      "text": "산업기술 분야를 중심으로 한 고고역사,미술,공예 및 민속 관련 자료를 수집,전시하고 교직원 및 학생의 관람과 교육연구 자료로서 공여하여 향토문화의 인식계몽에 기어코자 함.",
+      "sido": "충청북도",
+      "sigungu": "충주시",
+      "span_id": "",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_base_1070.csv#row=335"
+      ],
+      "evidence_id": "E5",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=240",
+        "fields": {
+          "name": "한국교통대학교 박물관",
+          "sido": "충청북도",
+          "sigungu": "충주시",
+          "address": "충청북도 충주시 대소원면 대학로 50",
+          "ownership_type": "대학",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "10:00",
+          "weekday_close": "17:00",
+          "holiday_open": "00:00",
+          "holiday_close": "00:00",
+          "closure_rule_raw": "법정 공휴일",
+          "amenities_raw": "커피숍+편의점+식당"
+        },
+        "base_data_date": "2026-05-31",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    }
+  ],
+  "answer": "거제박물관의 문화·예술 관련 사업으로는 지역 주민을 위한 난·수석·사진 등의 일반 전시회, 민속품·소장품 기획전시, 유물 사생대회, 클래식 음악회, 명사 초청 강연회, 가족캠프가 있습니다. 또한 박물관 대학과 대학원 등을 통해 지역민의 교양을 넓히고 새로운 정보를 제공하는 사회교육도 진행합니다. [E1]",
+  "retrieval_status": "ok",
+  "answer_status": "answered",
+  "route": "hybrid",
+  "retry_count": 0,
+  "supervisor_verified": true,
+  "rerank_applied": true,
+  "retriever_errors": [],
+  "warnings": [],
+  "duration_ms": 140356.98,
+  "error_type": "",
+  "hit_at_1": 1,
+  "hit_at_3": 1,
+  "hit_at_5": 1,
+  "recall_at_5": 1.0,
+  "mrr_at_10": 1.0
+}

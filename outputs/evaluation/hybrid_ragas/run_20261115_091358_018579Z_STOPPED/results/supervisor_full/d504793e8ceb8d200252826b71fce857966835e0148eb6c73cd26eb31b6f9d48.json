@@ -1,0 +1,733 @@
+{
+  "mode": "supervisor_full",
+  "question_id": "Q112",
+  "evidence": [
+    {
+      "museum_id": "M0170",
+      "name": "양주시립회암사지박물관",
+      "document": "경기도 북부에 위치한 양주시는 600여 년의 유구한 역사와 전통을 자랑하는 유서 깊은 문화의 고장으로 유·무형의 중요한 문화유산을 간직하고 있다. 그중에서도 회암동 천보산 자락에 위치한 회암사는 유교사회를 지향했던 조선시대에 왕실의 적극적 후원을 입은 조선최대의 왕실사찰로서 한국 불교사에서 중요한 자리를 차지하고 있다. 지금은 비록 찬란했던 당시의 모습을 볼 수 없지만, 절터에 남아있는 유구를 통해 당시 회암사의 위상을 상상해 보는 것은 어렵지 않다. 양주시에서는 이러한 회암사지를 경기북부 최고의 관광지와 역사교육의 장으로 조성하기 위해 회암사지 종합정비계획을 수립했다. 종합정비계획에 따라 연차적으로 회암사지 발굴조사, 박물관 건립, 유적 및 단지정비 등의 사업을 추진하였으며, 양주시립회암사지박물관은 그 사업의 일환으로 2012년 10월 19일 개관한 이래 현재에 이르렀다. 양주시립회암사지박물관은 고려 말·조선 초 최대 왕실사찰이었던 회암사의 역사와 위상을 재조명하고, 유물수집·보관·연구·전시·교육기능을 통해 박물관으로써의 역할을 올바르게 수행함은 물론, 대국민서비스를 강화함으로써 보다 발전적인 역사·문화중심기관의 역할을 할 수 있는 전문박물관으로 운영하고자 한다. 아울러 국내·외 기관과의 문화교류 창구로 활용하여 문화예술 도시로서의 이미지를 창출하는데 기여하는 양주시의 대표 박물관으로 운영하고자 한다.",
+      "metadata": {
+        "weekday_open": "09:00",
+        "longitude": 127.102912,
+        "fee_notes": "7세 이하 및 65세 이상 무료",
+        "youth_fee": 1500.0,
+        "name": "양주시립회암사지박물관",
+        "closure_rule_raw": "월+1월 1일+설 연휴+추석 연휴",
+        "ownership_type": "공립",
+        "weekday_close": "17:00",
+        "sido": "경기도",
+        "latitude": 37.841241,
+        "address": "경기도 양주시 회암사길 11",
+        "holiday_close": "17:00",
+        "adult_fee": 2000.0,
+        "requires_manual_review": true,
+        "sigungu": "양주시",
+        "source_types": "BASE|TOUR_API",
+        "adult_fee_status": "BASE_FEE_PAID",
+        "holiday_open": "09:00",
+        "homepage_url": "https://www.yangju.go.kr/museum/index.do",
+        "image_copyright": "Type1",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/58/3559458_image2_1.jpg",
+        "child_fee": 1000.0
+      },
+      "vector_rank": 1,
+      "bm25_rank": 1,
+      "vector_distance": 0.34765714406967163,
+      "vector_score": null,
+      "bm25_score": 14.870264881938866,
+      "vector_document": "경기도 북부에 위치한 양주시는 600여 년의 유구한 역사와 전통을 자랑하는 유서 깊은 문화의 고장으로 유·무형의 중요한 문화유산을 간직하고 있다. 그중에서도 회암동 천보산 자락에 위치한 회암사는 유교사회를 지향했던 조선시대에 왕실의 적극적 후원을 입은 조선최대의 왕실사찰로서 한국 불교사에서 중요한 자리를 차지하고 있다. 지금은 비록 찬란했던 당시의 모습을 볼 수 없지만, 절터에 남아있는 유구를 통해 당시 회암사의 위상을 상상해 보는 것은 어렵지 않다. 양주시에서는 이러한 회암사지를 경기북부 최고의 관광지와 역사교육의 장으로 조성하기 위해 회암사지 종합정비계획을 수립했다. 종합정비계획에 따라 연차적으로 회암사지 발굴조사, 박물관 건립, 유적 및 단지정비 등의 사업을 추진하였으며, 양주시립회암사지박물관은 그 사업의 일환으로 2012년 10월 19일 개관한 이래 현재에 이르렀다. 양주시립회암사지박물관은 고려 말·조선 초 최대 왕실사찰이었던 회암사의 역사와 위상을 재조명하고, 유물수집·보관·연구·전시·교육기능을 통해 박물관으로써의 역할을 올바르게 수행함은 물론, 대국민서비스를 강화함으로써 보다 발전적인 역사·문화중심기관의 역할을 할 수 있는 전문박물관으로 운영하고자 한다. 아울러 국내·외 기관과의 문화교류 창구로 활용하여 문화예술 도시로서의 이미지를 창출하는데 기여하는 양주시의 대표 박물관으로 운영하고자 한다.",
+      "bm25_document": "경기도 북부에 위치한 양주시는 600여 년의 유구한 역사와 전통을 자랑하는 유서 깊은 문화의 고장으로 유·무형의 중요한 문화유산을 간직하고 있다. 그중에서도 회암동 천보산 자락에 위치한 회암사는 유교사회를 지향했던 조선시대에 왕실의 적극적 후원을 입은 조선최대의 왕실사찰로서 한국 불교사에서 중요한 자리를 차지하고 있다. 지금은 비록 찬란했던 당시의 모습을 볼 수 없지만, 절터에 남아있는 유구를 통해 당시 회암사의 위상을 상상해 보는 것은 어렵지 않다. 양주시에서는 이러한 회암사지를 경기북부 최고의 관광지와 역사교육의 장으로 조성하기 위해 회암사지 종합정비계획을 수립했다. 종합정비계획에 따라 연차적으로 회암사지 발굴조사, 박물관 건립, 유적 및 단지정비 등의 사업을 추진하였으며, 양주시립회암사지박물관은 그 사업의 일환으로 2012년 10월 19일 개관한 이래 현재에 이르렀다. 양주시립회암사지박물관은 고려 말·조선 초 최대 왕실사찰이었던 회암사의 역사와 위상을 재조명하고, 유물수집·보관·연구·전시·교육기능을 통해 박물관으로써의 역할을 올바르게 수행함은 물론, 대국민서비스를 강화함으로써 보다 발전적인 역사·문화중심기관의 역할을 할 수 있는 전문박물관으로 운영하고자 한다. 아울러 국내·외 기관과의 문화교류 창구로 활용하여 문화예술 도시로서의 이미지를 창출하는데 기여하는 양주시의 대표 박물관으로 운영하고자 한다.",
+      "best_span_id": "chroma:M0170",
+      "best_span_text": "경기도 북부에 위치한 양주시는 600여 년의 유구한 역사와 전통을 자랑하는 유서 깊은 문화의 고장으로 유·무형의 중요한 문화유산을 간직하고 있다. 그중에서도 회암동 천보산 자락에 위치한 회암사는 유교사회를 지향했던 조선시대에 왕실의 적극적 후원을 입은 조선최대의 왕실사찰로서 한국 불교사에서 중요한 자리를 차지하고 있다. 지금은 비록 찬란했던 당시의 모습을 볼 수 없지만, 절터에 남아있는 유구를 통해 당시 회암사의 위상을 상상해 보는 것은 어렵지 않다. 양주시에서는 이러한 회암사지를 경기북부 최고의 관광지와 역사교육의 장으로 조성하기 위해 회암사지 종합정비계획을 수립했다. 종합정비계획에 따라 연차적으로 회암사지 발굴조사, 박물관 건립, 유적 및 단지정비 등의 사업을 추진하였으며, 양주시립회암사지박물관은 그 사업의 일환으로 2012년 10월 19일 개관한 이래 현재에 이르렀다. 양주시립회암사지박물관은 고려 말·조선 초 최대 왕실사찰이었던 회암사의 역사와 위상을 재조명하고, 유물수집·보관·연구·전시·교육기능을 통해 박물관으로써의 역할을 올바르게 수행함은 물론, 대국민서비스를 강화함으로써 보다 발전적인 역사·문화중심기관의 역할을 할 수 있는 전문박물관으로 운영하고자 한다. 아울러 국내·외 기관과의 문화교류 창구로 활용하여 문화예술 도시로서의 이미지를 창출하는데 기여하는 양주시의 대표 박물관으로 운영하고자 한다.",
+      "fusion_score": 0.03278688524590164,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 1,
+      "name_match": true,
+      "rerank_score": 0.9993618130683899,
+      "rank": 1,
+      "score": 0.9993618130683899,
+      "score_type": "cross_encoder",
+      "distance": 0.34765714406967163,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0170",
+      "source_doc_ids": [
+        "DOC-B0170-TOUR_API-2546181",
+        "DOC-B0170-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0170-TOUR_API-2546181",
+          "source_type": "TOUR_API",
+          "source_record_id": "2546181",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=81",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        },
+        {
+          "doc_id": "DOC-B0170-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0170",
+          "source_locator": "data/raw/museum_base_1070.csv#row=171",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 81,
+          "doc_ids": [
+            "DOC-B0170-TOUR_API-2546181"
+          ]
+        },
+        {
+          "start": 82,
+          "end": 179,
+          "doc_ids": [
+            "DOC-B0170-BASE",
+            "DOC-B0170-TOUR_API-2546181"
+          ]
+        },
+        {
+          "start": 180,
+          "end": 254,
+          "doc_ids": [
+            "DOC-B0170-TOUR_API-2546181"
+          ]
+        },
+        {
+          "start": 255,
+          "end": 322,
+          "doc_ids": [
+            "DOC-B0170-TOUR_API-2546181"
+          ]
+        },
+        {
+          "start": 323,
+          "end": 438,
+          "doc_ids": [
+            "DOC-B0170-TOUR_API-2546181"
+          ]
+        },
+        {
+          "start": 439,
+          "end": 604,
+          "doc_ids": [
+            "DOC-B0170-TOUR_API-2546181"
+          ]
+        },
+        {
+          "start": 605,
+          "end": 683,
+          "doc_ids": [
+            "DOC-B0170-TOUR_API-2546181"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=81",
+      "text": "경기도 북부에 위치한 양주시는 600여 년의 유구한 역사와 전통을 자랑하는 유서 깊은 문화의 고장으로 유·무형의 중요한 문화유산을 간직하고 있다. 그중에서도 회암동 천보산 자락에 위치한 회암사는 유교사회를 지향했던 조선시대에 왕실의 적극적 후원을 입은 조선최대의 왕실사찰로서 한국 불교사에서 중요한 자리를 차지하고 있다. 지금은 비록 찬란했던 당시의 모습을 볼 수 없지만, 절터에 남아있는 유구를 통해 당시 회암사의 위상을 상상해 보는 것은 어렵지 않다. 양주시에서는 이러한 회암사지를 경기북부 최고의 관광지와 역사교육의 장으로 조성하기 위해 회암사지 종합정비계획을 수립했다. 종합정비계획에 따라 연차적으로 회암사지 발굴조사, 박물관 건립, 유적 및 단지정비 등의 사업을 추진하였으며, 양주시립회암사지박물관은 그 사업의 일환으로 2012년 10월 19일 개관한 이래 현재에 이르렀다. 양주시립회암사지박물관은 고려 말·조선 초 최대 왕실사찰이었던 회암사의 역사와 위상을 재조명하고, 유물수집·보관·연구·전시·교육기능을 통해 박물관으로써의 역할을 올바르게 수행함은 물론, 대국민서비스를 강화함으로써 보다 발전적인 역사·문화중심기관의 역할을 할 수 있는 전문박물관으로 운영하고자 한다. 아울러 국내·외 기관과의 문화교류 창구로 활용하여 문화예술 도시로서의 이미지를 창출하는데 기여하는 양주시의 대표 박물관으로 운영하고자 한다.",
+      "sido": "경기도",
+      "sigungu": "양주시",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=81"
+      ],
+      "evidence_id": "E1",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=111",
+        "fields": {
+          "name": "양주시립회암사지박물관",
+          "sido": "경기도",
+          "sigungu": "양주시",
+          "address": "경기도 양주시 회암사길 11",
+          "ownership_type": "공립",
+          "adult_fee": "2000",
+          "youth_fee": "1500",
+          "child_fee": "1000",
+          "adult_fee_status": "BASE_FEE_PAID",
+          "weekday_open": "09:00",
+          "weekday_close": "17:00",
+          "holiday_open": "09:00",
+          "holiday_close": "17:00",
+          "closure_rule_raw": "월+1월 1일+설 연휴+추석 연휴"
+        },
+        "base_data_date": "2026-08-18",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0309",
+      "name": "여성생활사박물관",
+      "document": "2001년 개관한 여성생활사박물관은 유물과 천연염색을 테마로 넓은 공간과 자연친화적인 아름다운 자연 속에 위치하고 있으며, 과거 현재 미래를 잇는 복합문화공간이다. 상설전시를 비롯하여 매년 새로운 기획전 및 대관전시, 다양한 역사문화 콘텐츠 교육 및 체험프로그램은 열린 문화의 장으로 역할을 수행하고 있다. 유물의 조사수집과 관리 및 전시를 통해 역사문화의 이해증진을 위해 건립한 박물관이다.",
+      "metadata": {
+        "address": "경기도 여주시 강천면 강천로 324-20",
+        "adult_fee_status": "BASE_FEE_PAID",
+        "sigungu": "여주시",
+        "youth_fee": 3000.0,
+        "weekday_close": "18:00",
+        "latitude": 37.2425236,
+        "adult_fee": 5000.0,
+        "ownership_type": "사립",
+        "weekday_open": "10:00",
+        "holiday_open": "10:00",
+        "child_fee": 3000.0,
+        "holiday_close": "18:00",
+        "image_copyright": "Type3",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/36/3563636_image2_1.jpg",
+        "longitude": 127.7081445,
+        "closure_rule_raw": "월요일",
+        "transport_notes": "여주 IC를 나와 여주대학을 지나 원주 방면 자동차 전용도로를 이용하여 7km 운행 후 강천에서 빠져나와 파출소를 지나 우회전하여 굴암리 쪽으로 향한다.",
+        "name": "여성생활사박물관",
+        "requires_manual_review": true,
+        "sido": "경기도",
+        "source_types": "BASE|TOUR_API"
+      },
+      "vector_rank": null,
+      "bm25_rank": 3,
+      "vector_distance": null,
+      "vector_score": null,
+      "bm25_score": 11.25828470304511,
+      "vector_document": "",
+      "bm25_document": "2001년 개관한 여성생활사박물관은 유물과 천연염색을 테마로 넓은 공간과 자연친화적인 아름다운 자연 속에 위치하고 있으며, 과거 현재 미래를 잇는 복합문화공간이다. 상설전시를 비롯하여 매년 새로운 기획전 및 대관전시, 다양한 역사문화 콘텐츠 교육 및 체험프로그램은 열린 문화의 장으로 역할을 수행하고 있다. 유물의 조사수집과 관리 및 전시를 통해 역사문화의 이해증진을 위해 건립한 박물관이다.",
+      "best_span_id": "chroma:M0309",
+      "best_span_text": "2001년 개관한 여성생활사박물관은 유물과 천연염색을 테마로 넓은 공간과 자연친화적인 아름다운 자연 속에 위치하고 있으며, 과거 현재 미래를 잇는 복합문화공간이다. 상설전시를 비롯하여 매년 새로운 기획전 및 대관전시, 다양한 역사문화 콘텐츠 교육 및 체험프로그램은 열린 문화의 장으로 역할을 수행하고 있다. 유물의 조사수집과 관리 및 전시를 통해 역사문화의 이해증진을 위해 건립한 박물관이다.",
+      "fusion_score": 0.015873015873015872,
+      "retrieved_by": [
+        "bm25"
+      ],
+      "fusion_rank": 5,
+      "rerank_score": 0.0622314028441906,
+      "rank": 2,
+      "score": 0.0622314028441906,
+      "score_type": "cross_encoder",
+      "distance": null,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "bm25"
+      ],
+      "retriever": "bm25",
+      "span_id": "chroma:M0309",
+      "source_doc_ids": [
+        "DOC-B0309-TOUR_API-130724",
+        "DOC-B0309-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0309-TOUR_API-130724",
+          "source_type": "TOUR_API",
+          "source_record_id": "130724",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=151",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        },
+        {
+          "doc_id": "DOC-B0309-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0309",
+          "source_locator": "data/raw/museum_base_1070.csv#row=310",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 91,
+          "doc_ids": [
+            "DOC-B0309-TOUR_API-130724"
+          ]
+        },
+        {
+          "start": 92,
+          "end": 171,
+          "doc_ids": [
+            "DOC-B0309-TOUR_API-130724"
+          ]
+        },
+        {
+          "start": 172,
+          "end": 219,
+          "doc_ids": [
+            "DOC-B0309-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=151",
+      "text": "2001년 개관한 여성생활사박물관은 유물과 천연염색을 테마로 넓은 공간과 자연친화적인 아름다운 자연 속에 위치하고 있으며, 과거 현재 미래를 잇는 복합문화공간이다. 상설전시를 비롯하여 매년 새로운 기획전 및 대관전시, 다양한 역사문화 콘텐츠 교육 및 체험프로그램은 열린 문화의 장으로 역할을 수행하고 있다. 유물의 조사수집과 관리 및 전시를 통해 역사문화의 이해증진을 위해 건립한 박물관이다.",
+      "sido": "경기도",
+      "sigungu": "여주시",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=151"
+      ],
+      "evidence_id": "E2",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=222",
+        "fields": {
+          "name": "여성생활사박물관",
+          "sido": "경기도",
+          "sigungu": "여주시",
+          "address": "경기도 여주시 강천면 강천로 324-20",
+          "ownership_type": "사립",
+          "adult_fee": "5000",
+          "youth_fee": "3000",
+          "child_fee": "3000",
+          "adult_fee_status": "BASE_FEE_PAID",
+          "weekday_open": "10:00",
+          "weekday_close": "18:00",
+          "holiday_open": "10:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "월요일"
+        },
+        "base_data_date": "2026-05-19",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0312",
+      "name": "여주박물관",
+      "document": "1997년 여주군향토사료관으로 문을 연 여주박물관은 여주의 역사와 민속자료 등을 조사·수집·전시·교육하고, 새로운 학술자료를 발굴하며 여주의 정체성을 확립하는 역할을 수행하고 있다. 2010년 전시실 확장 후 제1종 전문박물관으로 등록하여 여주박물관으로 명칭을 변경하였으며, 2016년 7월 14일 여마관(신관)의 건립으로 전국에 흩어졌던 여주지역 발굴출토 국가귀속유물과 그간 수집한 다양한 유물을 전시할 수 있게 되었다. 전시실은 상설전시실과 기획전시실, 야외전시실로 구분되어 있으며, 상설전시실은 4가지 주제로 전시를 진행하고 있다. 여주역사실에서는 국립중앙박물관을 비롯한 여러 기관들에서 보관하던 주요 유적 출토 국가귀속 유물들과 그간 구입·기증을 통해 수집한 중요유물들을 전시하고 있다. 흔암리 선사유적지, 신륵사, 고달사지, 세종대왕릉과 효종대왕릉, 명성황후 생가 등 수많은 문화유적은 여주의 오랜 역사를 증명하고 있다. 남한강 수석전시실은 김정식 선생이 57년간 모은 수석을 기증받아 전시한 곳으로, 산수경석·물형석·추상석·12지석 등 자연이 빚은 최고의 예술작품인 수석의 멋과 아름다움을 느낄 수 있는 공간이다. 갖가지 수석에 담긴 의미를 여주 남한강이 가지고 있는 이야기로 풀어놓았다. 수석의 신비로움을 다채로운 방식으로 이해할 수 있는 공간이다. 류주현 문학전시실은 우리나라에 ‘대하 역사소설’이라는 장르를 개척하신 여주 출신의 묵사 류주현 선생의 삶과 작품세계를 설명한 공간이다. 류주현 선생은 다양·다작의 작가로 『조선총독부』, 『대원군』 등을 대표작으로 꼽을 수 있다. 한국 대표 문인으로서 선생의 생애와 작품세계, 문인들과의 교류를 통해 옛 문인들의 멋스러운 삶의 정취를 느낄 수 있을 것이다. 조선 왕릉실은 세종 영릉(英陵)과 효종 영릉(寧陵) 두 기의 조선 왕릉이 여주로 천릉하면서 조선시대부터 현대에 이르기까지 왕릉과 함께 변화한 여주의 역사와 여주 사람들의 삶을 살펴볼 수 있다. 여주의 역사와 전통문화를 아우르는 시립박물관으로, 전시와 교육, 체험을 할 수 있는 문화공간이다.",
+      "metadata": {
+        "name": "여주박물관",
+        "transport_notes": "여주IC → 여주대교 → 신륵사 관광단지 → 신륵사 관지 내 강변에 위치",
+        "ownership_type": "공립",
+        "sido": "경기도",
+        "address": "경기도 여주시 신륵사길 6-12",
+        "holiday_open": "09:00",
+        "holiday_close": "18:00",
+        "homepage_url": "http://www.yeoju.go.kr/museum",
+        "weekday_open": "09:00",
+        "source_types": "BASE|TOUR_API",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/95/3540495_image2_1.jpg",
+        "amenities_raw": "청춘카페",
+        "youth_fee": 0.0,
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "latitude": 37.2996535,
+        "sigungu": "여주시",
+        "requires_manual_review": true,
+        "image_copyright": "Type1",
+        "child_fee": 0.0,
+        "weekday_close": "18:00",
+        "adult_fee": 0.0,
+        "longitude": 127.6533782,
+        "closure_rule_raw": "월요일+추석당일+설날당일+1월1일"
+      },
+      "vector_rank": 9,
+      "bm25_rank": null,
+      "vector_distance": 0.5127780437469482,
+      "vector_score": null,
+      "bm25_score": null,
+      "vector_document": "1997년 여주군향토사료관으로 문을 연 여주박물관은 여주의 역사와 민속자료 등을 조사·수집·전시·교육하고, 새로운 학술자료를 발굴하며 여주의 정체성을 확립하는 역할을 수행하고 있다. 2010년 전시실 확장 후 제1종 전문박물관으로 등록하여 여주박물관으로 명칭을 변경하였으며, 2016년 7월 14일 여마관(신관)의 건립으로 전국에 흩어졌던 여주지역 발굴출토 국가귀속유물과 그간 수집한 다양한 유물을 전시할 수 있게 되었다. 전시실은 상설전시실과 기획전시실, 야외전시실로 구분되어 있으며, 상설전시실은 4가지 주제로 전시를 진행하고 있다. 여주역사실에서는 국립중앙박물관을 비롯한 여러 기관들에서 보관하던 주요 유적 출토 국가귀속 유물들과 그간 구입·기증을 통해 수집한 중요유물들을 전시하고 있다. 흔암리 선사유적지, 신륵사, 고달사지, 세종대왕릉과 효종대왕릉, 명성황후 생가 등 수많은 문화유적은 여주의 오랜 역사를 증명하고 있다. 남한강 수석전시실은 김정식 선생이 57년간 모은 수석을 기증받아 전시한 곳으로, 산수경석·물형석·추상석·12지석 등 자연이 빚은 최고의 예술작품인 수석의 멋과 아름다움을 느낄 수 있는 공간이다. 갖가지 수석에 담긴 의미를 여주 남한강이 가지고 있는 이야기로 풀어놓았다. 수석의 신비로움을 다채로운 방식으로 이해할 수 있는 공간이다. 류주현 문학전시실은 우리나라에 ‘대하 역사소설’이라는 장르를 개척하신 여주 출신의 묵사 류주현 선생의 삶과 작품세계를 설명한 공간이다. 류주현 선생은 다양·다작의 작가로 『조선총독부』, 『대원군』 등을 대표작으로 꼽을 수 있다. 한국 대표 문인으로서 선생의 생애와 작품세계, 문인들과의 교류를 통해 옛 문인들의 멋스러운 삶의 정취를 느낄 수 있을 것이다. 조선 왕릉실은 세종 영릉(英陵)과 효종 영릉(寧陵) 두 기의 조선 왕릉이 여주로 천릉하면서 조선시대부터 현대에 이르기까지 왕릉과 함께 변화한 여주의 역사와 여주 사람들의 삶을 살펴볼 수 있다. 여주의 역사와 전통문화를 아우르는 시립박물관으로, 전시와 교육, 체험을 할 수 있는 문화공간이다.",
+      "bm25_document": "",
+      "best_span_id": null,
+      "best_span_text": null,
+      "fusion_score": 0.014492753623188406,
+      "retrieved_by": [
+        "vector"
+      ],
+      "fusion_rank": 16,
+      "rerank_score": 0.005267024505883455,
+      "rank": 3,
+      "score": 0.005267024505883455,
+      "score_type": "cross_encoder",
+      "distance": 0.5127780437469482,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector"
+      ],
+      "retriever": "vector",
+      "source_doc_ids": [
+        "DOC-B0312-TOUR_API-130965",
+        "DOC-B0312-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0312-TOUR_API-130965",
+          "source_type": "TOUR_API",
+          "source_record_id": "130965",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=153",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        },
+        {
+          "doc_id": "DOC-B0312-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0312",
+          "source_locator": "data/raw/museum_base_1070.csv#row=313",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 101,
+          "doc_ids": [
+            "DOC-B0312-TOUR_API-130965"
+          ]
+        },
+        {
+          "start": 102,
+          "end": 236,
+          "doc_ids": [
+            "DOC-B0312-TOUR_API-130965"
+          ]
+        },
+        {
+          "start": 237,
+          "end": 300,
+          "doc_ids": [
+            "DOC-B0312-TOUR_API-130965"
+          ]
+        },
+        {
+          "start": 301,
+          "end": 388,
+          "doc_ids": [
+            "DOC-B0312-TOUR_API-130965"
+          ]
+        },
+        {
+          "start": 389,
+          "end": 464,
+          "doc_ids": [
+            "DOC-B0312-TOUR_API-130965"
+          ]
+        },
+        {
+          "start": 465,
+          "end": 573,
+          "doc_ids": [
+            "DOC-B0312-TOUR_API-130965"
+          ]
+        },
+        {
+          "start": 574,
+          "end": 615,
+          "doc_ids": [
+            "DOC-B0312-TOUR_API-130965"
+          ]
+        },
+        {
+          "start": 616,
+          "end": 650,
+          "doc_ids": [
+            "DOC-B0312-TOUR_API-130965"
+          ]
+        },
+        {
+          "start": 651,
+          "end": 726,
+          "doc_ids": [
+            "DOC-B0312-TOUR_API-130965"
+          ]
+        },
+        {
+          "start": 727,
+          "end": 778,
+          "doc_ids": [
+            "DOC-B0312-TOUR_API-130965"
+          ]
+        },
+        {
+          "start": 779,
+          "end": 849,
+          "doc_ids": [
+            "DOC-B0312-TOUR_API-130965"
+          ]
+        },
+        {
+          "start": 850,
+          "end": 957,
+          "doc_ids": [
+            "DOC-B0312-TOUR_API-130965"
+          ]
+        },
+        {
+          "start": 958,
+          "end": 1012,
+          "doc_ids": [
+            "DOC-B0312-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=153",
+      "text": "1997년 여주군향토사료관으로 문을 연 여주박물관은 여주의 역사와 민속자료 등을 조사·수집·전시·교육하고, 새로운 학술자료를 발굴하며 여주의 정체성을 확립하는 역할을 수행하고 있다. 2010년 전시실 확장 후 제1종 전문박물관으로 등록하여 여주박물관으로 명칭을 변경하였으며, 2016년 7월 14일 여마관(신관)의 건립으로 전국에 흩어졌던 여주지역 발굴출토 국가귀속유물과 그간 수집한 다양한 유물을 전시할 수 있게 되었다. 전시실은 상설전시실과 기획전시실, 야외전시실로 구분되어 있으며, 상설전시실은 4가지 주제로 전시를 진행하고 있다. 여주역사실에서는 국립중앙박물관을 비롯한 여러 기관들에서 보관하던 주요 유적 출토 국가귀속 유물들과 그간 구입·기증을 통해 수집한 중요유물들을 전시하고 있다. 흔암리 선사유적지, 신륵사, 고달사지, 세종대왕릉과 효종대왕릉, 명성황후 생가 등 수많은 문화유적은 여주의 오랜 역사를 증명하고 있다. 남한강 수석전시실은 김정식 선생이 57년간 모은 수석을 기증받아 전시한 곳으로, 산수경석·물형석·추상석·12지석 등 자연이 빚은 최고의 예술작품인 수석의 멋과 아름다움을 느낄 수 있는 공간이다. 갖가지 수석에 담긴 의미를 여주 남한강이 가지고 있는 이야기로 풀어놓았다. 수석의 신비로움을 다채로운 방식으로 이해할 수 있는 공간이다. 류주현 문학전시실은 우리나라에 ‘대하 역사소설’이라는 장르를 개척하신 여주 출신의 묵사 류주현 선생의 삶과 작품세계를 설명한 공간이다. 류주현 선생은 다양·다작의 작가로 『조선총독부』, 『대원군』 등을 대표작으로 꼽을 수 있다. 한국 대표 문인으로서 선생의 생애와 작품세계, 문인들과의 교류를 통해 옛 문인들의 멋스러운 삶의 정취를 느낄 수 있을 것이다. 조선 왕릉실은 세종 영릉(英陵)과 효종 영릉(寧陵) 두 기의 조선 왕릉이 여주로 천릉하면서 조선시대부터 현대에 이르기까지 왕릉과 함께 변화한 여주의 역사와 여주 사람들의 삶을 살펴볼 수 있다. 여주의 역사와 전통문화를 아우르는 시립박물관으로, 전시와 교육, 체험을 할 수 있는 문화공간이다.",
+      "sido": "경기도",
+      "sigungu": "여주시",
+      "span_id": "",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=153"
+      ],
+      "evidence_id": "E3",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=225",
+        "fields": {
+          "name": "여주박물관",
+          "sido": "경기도",
+          "sigungu": "여주시",
+          "address": "경기도 여주시 신륵사길 6-12",
+          "ownership_type": "공립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "09:00",
+          "weekday_close": "18:00",
+          "holiday_open": "09:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "월요일+추석당일+설날당일+1월1일",
+          "amenities_raw": "청춘카페"
+        },
+        "base_data_date": "2026-05-19",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0172",
+      "name": "양주시립장욱진미술관",
+      "document": "양주시립장욱진미술관은 한국 근현대미술을 대표하는 장욱진의 업적과 정신을 기리며, 한국현대미술의 발전에 이바지하는 미술작품과 자료를 전시, 연구, 수집을 목적으로 합니다.",
+      "metadata": {
+        "sido": "경기도",
+        "weekday_close": "18:00",
+        "child_fee": 1000.0,
+        "adult_fee": 5000.0,
+        "sigungu": "양주시",
+        "holiday_open": "10:00",
+        "source_types": "BASE",
+        "name": "양주시립장욱진미술관",
+        "latitude": 37.73281632,
+        "closure_rule_raw": "월+1월 1일+설 당일+추석 당일",
+        "longitude": 126.9492504,
+        "weekday_open": "10:00",
+        "fee_notes": "50프로할인(양주시민(신분증 소지자))+무료(7세 이하+65세 이상+국가유공자+장애인(1~3등급))",
+        "holiday_close": "18:00",
+        "homepage_url": "http://changucchin.yangju.go.kr/",
+        "requires_manual_review": true,
+        "adult_fee_status": "BASE_FEE_PAID",
+        "address": "경기도 양주시 장흥면 권율로 193",
+        "ownership_type": "공립",
+        "youth_fee": 1000.0
+      },
+      "vector_rank": 6,
+      "bm25_rank": null,
+      "vector_distance": 0.5019863843917847,
+      "vector_score": null,
+      "bm25_score": null,
+      "vector_document": "양주시립장욱진미술관은 한국 근현대미술을 대표하는 장욱진의 업적과 정신을 기리며, 한국현대미술의 발전에 이바지하는 미술작품과 자료를 전시, 연구, 수집을 목적으로 합니다.",
+      "bm25_document": "",
+      "best_span_id": null,
+      "best_span_text": null,
+      "fusion_score": 0.015151515151515152,
+      "retrieved_by": [
+        "vector"
+      ],
+      "fusion_rank": 10,
+      "rerank_score": 0.004678352735936642,
+      "rank": 4,
+      "score": 0.004678352735936642,
+      "score_type": "cross_encoder",
+      "distance": 0.5019863843917847,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector"
+      ],
+      "retriever": "vector",
+      "source_doc_ids": [
+        "DOC-B0172-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0172-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0172",
+          "source_locator": "data/raw/museum_base_1070.csv#row=173",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 94,
+          "doc_ids": [
+            "DOC-B0172-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_base_1070.csv#row=173",
+      "text": "양주시립장욱진미술관은 한국 근현대미술을 대표하는 장욱진의 업적과 정신을 기리며, 한국현대미술의 발전에 이바지하는 미술작품과 자료를 전시, 연구, 수집을 목적으로 합니다.",
+      "sido": "경기도",
+      "sigungu": "양주시",
+      "span_id": "",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_base_1070.csv#row=173"
+      ],
+      "evidence_id": "E4",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=113",
+        "fields": {
+          "name": "양주시립장욱진미술관",
+          "sido": "경기도",
+          "sigungu": "양주시",
+          "address": "경기도 양주시 장흥면 권율로 193",
+          "ownership_type": "공립",
+          "adult_fee": "5000",
+          "youth_fee": "1000",
+          "child_fee": "1000",
+          "adult_fee_status": "BASE_FEE_PAID",
+          "weekday_open": "10:00",
+          "weekday_close": "18:00",
+          "holiday_open": "10:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "월+1월 1일+설 당일+추석 당일"
+        },
+        "base_data_date": "2026-08-18",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0711",
+      "name": "백석대학교 기독교박물관",
+      "document": "세계 고성경 및 고고유물, 기독교 미술, 교회사 등 관련 유물 전시 수집 보존하고 있음.",
+      "metadata": {
+        "ownership_type": "대학",
+        "sido": "충청남도",
+        "requires_manual_review": true,
+        "address": "충청남도 천안시 동남구 백석대학로 1-1",
+        "homepage_url": "https://community.bu.ac.kr/museum/index.do",
+        "weekday_close": "17:00",
+        "name": "백석대학교 기독교박물관",
+        "holiday_close": "00:00",
+        "adult_fee": 0.0,
+        "youth_fee": 0.0,
+        "source_types": "BASE",
+        "longitude": 127.1845931,
+        "sigungu": "천안시",
+        "closure_rule_raw": "토+일요일+공휴일",
+        "transport_notes": "KTX역 천안방면 버스정류장에서 13번을 타서 백석대학교 앞에서 하차",
+        "latitude": 36.84044266,
+        "holiday_open": "00:00",
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "child_fee": 0.0,
+        "weekday_open": "10:00",
+        "fee_notes": "0"
+      },
+      "vector_rank": null,
+      "bm25_rank": 10,
+      "vector_distance": null,
+      "vector_score": null,
+      "bm25_score": 8.931227147276614,
+      "vector_document": "",
+      "bm25_document": "세계 고성경 및 고고유물, 기독교 미술, 교회사 등 관련 유물 전시 수집 보존하고 있음.",
+      "best_span_id": "chroma:M0711",
+      "best_span_text": "세계 고성경 및 고고유물, 기독교 미술, 교회사 등 관련 유물 전시 수집 보존하고 있음.",
+      "fusion_score": 0.014285714285714285,
+      "retrieved_by": [
+        "bm25"
+      ],
+      "fusion_rank": 19,
+      "rerank_score": 0.004049977287650108,
+      "rank": 5,
+      "score": 0.004049977287650108,
+      "score_type": "cross_encoder",
+      "distance": null,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "bm25"
+      ],
+      "retriever": "bm25",
+      "span_id": "chroma:M0711",
+      "source_doc_ids": [
+        "DOC-B0711-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0711-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0711",
+          "source_locator": "data/raw/museum_base_1070.csv#row=712",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 49,
+          "doc_ids": [
+            "DOC-B0711-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_base_1070.csv#row=712",
+      "text": "세계 고성경 및 고고유물, 기독교 미술, 교회사 등 관련 유물 전시 수집 보존하고 있음.",
+      "sido": "충청남도",
+      "sigungu": "천안시",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_base_1070.csv#row=712"
+      ],
+      "evidence_id": "E5",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=495",
+        "fields": {
+          "name": "백석대학교 기독교박물관",
+          "sido": "충청남도",
+          "sigungu": "천안시",
+          "address": "충청남도 천안시 동남구 백석대학로 1-1",
+          "ownership_type": "대학",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "10:00",
+          "weekday_close": "17:00",
+          "holiday_open": "00:00",
+          "holiday_close": "00:00",
+          "closure_rule_raw": "토+일요일+공휴일"
+        },
+        "base_data_date": "2024-07-11",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    }
+  ],
+  "answer": "양주시립회암사지박물관은 회암사의 역사와 위상을 재조명하며, 유물을 수집·보관·연구·전시·교육하는 박물관의 역할을 수행하고자 합니다. [E1]",
+  "retrieval_status": "ok",
+  "answer_status": "answered",
+  "route": "hybrid",
+  "retry_count": 0,
+  "supervisor_verified": true,
+  "rerank_applied": true,
+  "retriever_errors": [],
+  "warnings": [],
+  "duration_ms": 131245.74,
+  "error_type": "",
+  "hit_at_1": 1,
+  "hit_at_3": 1,
+  "hit_at_5": 1,
+  "recall_at_5": 1.0,
+  "mrr_at_10": 1.0
+}

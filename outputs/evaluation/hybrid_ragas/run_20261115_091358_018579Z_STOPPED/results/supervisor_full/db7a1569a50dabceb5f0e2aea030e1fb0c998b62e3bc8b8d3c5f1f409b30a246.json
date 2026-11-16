@@ -1,0 +1,755 @@
+{
+  "mode": "supervisor_full",
+  "question_id": "Q001",
+  "evidence": [
+    {
+      "museum_id": "M0001",
+      "name": "박진전쟁기념관",
+      "document": "박진전쟁기념관은 6·25전쟁 최후의 보루였던 박진전투 현장을 재현하여 민족 분단의 실상을 올바르게 인식하고 순국선열들의 호국 정신을 계승 발전시키고자 건립한 기념관이다. 박진지역은 부산을 점령하기 위해 낙동강을 도하하여 최후의 발악을 하던 북한군과 미군이 2주간 사투를 벌였던 격전지이다. 박진지구전투의 승리로 인해 전세가 역전된 국군과 유엔군이 낙동강을 건너 반격하게 되었으며, 인천상륙작전의 성공과 함께 압록강까지 진격할 수 있는 결정적 계기가 된 한국전쟁사에 길이 빛날 중요한 전적지이다. 박진전쟁기념관에서는 6·25전쟁 및 낙동강 돌출부 전투 관련 행사 및 프로그램을 운영하고 있으며, 박진지구 전투 디오라마 등을 통한 당시 모습 재현 및 다양한 기획 전시를 진행하고 있다. 또한, 안보교육의 장으로써 역할을 하고 있다.",
+      "metadata": {
+        "weekday_open": "09:00",
+        "closure_rule_raw": "매주 월요일+1월 1일+설날+추석날",
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "amenities_raw": "장애인화장실+유모차/휠체어 이용가능",
+        "holiday_close": "18:00",
+        "sigungu": "창녕군",
+        "address": "경상남도 창녕군 남지읍 월상길 27",
+        "source_types": "TOUR_API",
+        "sido": "경상남도",
+        "adult_fee": 0.0,
+        "homepage_url": "https://www.cng.go.kr/01656/03204/03205.web",
+        "longitude": 128.3861935,
+        "child_fee": 0.0,
+        "image_copyright": "Type1",
+        "requires_manual_review": true,
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/99/3568999_image2_1.jpg",
+        "ownership_type": "공립",
+        "holiday_open": "09:00",
+        "name": "박진전쟁기념관",
+        "youth_fee": 0.0,
+        "weekday_close": "18:00",
+        "latitude": 35.44796796
+      },
+      "vector_rank": 1,
+      "bm25_rank": 1,
+      "vector_distance": 0.3880354166030884,
+      "vector_score": null,
+      "bm25_score": 35.358186428457635,
+      "vector_document": "박진전쟁기념관은 6·25전쟁 최후의 보루였던 박진전투 현장을 재현하여 민족 분단의 실상을 올바르게 인식하고 순국선열들의 호국 정신을 계승 발전시키고자 건립한 기념관이다. 박진지역은 부산을 점령하기 위해 낙동강을 도하하여 최후의 발악을 하던 북한군과 미군이 2주간 사투를 벌였던 격전지이다. 박진지구전투의 승리로 인해 전세가 역전된 국군과 유엔군이 낙동강을 건너 반격하게 되었으며, 인천상륙작전의 성공과 함께 압록강까지 진격할 수 있는 결정적 계기가 된 한국전쟁사에 길이 빛날 중요한 전적지이다. 박진전쟁기념관에서는 6·25전쟁 및 낙동강 돌출부 전투 관련 행사 및 프로그램을 운영하고 있으며, 박진지구 전투 디오라마 등을 통한 당시 모습 재현 및 다양한 기획 전시를 진행하고 있다. 또한, 안보교육의 장으로써 역할을 하고 있다.",
+      "bm25_document": "박진전쟁기념관은 6·25전쟁 최후의 보루였던 박진전투 현장을 재현하여 민족 분단의 실상을 올바르게 인식하고 순국선열들의 호국 정신을 계승 발전시키고자 건립한 기념관이다. 박진지역은 부산을 점령하기 위해 낙동강을 도하하여 최후의 발악을 하던 북한군과 미군이 2주간 사투를 벌였던 격전지이다. 박진지구전투의 승리로 인해 전세가 역전된 국군과 유엔군이 낙동강을 건너 반격하게 되었으며, 인천상륙작전의 성공과 함께 압록강까지 진격할 수 있는 결정적 계기가 된 한국전쟁사에 길이 빛날 중요한 전적지이다. 박진전쟁기념관에서는 6·25전쟁 및 낙동강 돌출부 전투 관련 행사 및 프로그램을 운영하고 있으며, 박진지구 전투 디오라마 등을 통한 당시 모습 재현 및 다양한 기획 전시를 진행하고 있다. 또한, 안보교육의 장으로써 역할을 하고 있다.",
+      "best_span_id": "chroma:M0001",
+      "best_span_text": "박진전쟁기념관은 6·25전쟁 최후의 보루였던 박진전투 현장을 재현하여 민족 분단의 실상을 올바르게 인식하고 순국선열들의 호국 정신을 계승 발전시키고자 건립한 기념관이다. 박진지역은 부산을 점령하기 위해 낙동강을 도하하여 최후의 발악을 하던 북한군과 미군이 2주간 사투를 벌였던 격전지이다. 박진지구전투의 승리로 인해 전세가 역전된 국군과 유엔군이 낙동강을 건너 반격하게 되었으며, 인천상륙작전의 성공과 함께 압록강까지 진격할 수 있는 결정적 계기가 된 한국전쟁사에 길이 빛날 중요한 전적지이다. 박진전쟁기념관에서는 6·25전쟁 및 낙동강 돌출부 전투 관련 행사 및 프로그램을 운영하고 있으며, 박진지구 전투 디오라마 등을 통한 당시 모습 재현 및 다양한 기획 전시를 진행하고 있다. 또한, 안보교육의 장으로써 역할을 하고 있다.",
+      "fusion_score": 0.03278688524590164,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 1,
+      "name_match": true,
+      "rerank_score": 0.9999667406082153,
+      "rank": 1,
+      "score": 0.9999667406082153,
+      "score_type": "cross_encoder",
+      "distance": 0.3880354166030884,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0001",
+      "source_doc_ids": [
+        "DOC-B0001-TOUR_API-2785601"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0001-TOUR_API-2785601",
+          "source_type": "TOUR_API",
+          "source_record_id": "2785601",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=2",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 94,
+          "doc_ids": [
+            "DOC-B0001-TOUR_API-2785601"
+          ]
+        },
+        {
+          "start": 95,
+          "end": 161,
+          "doc_ids": [
+            "DOC-B0001-TOUR_API-2785601"
+          ]
+        },
+        {
+          "start": 162,
+          "end": 276,
+          "doc_ids": [
+            "DOC-B0001-TOUR_API-2785601"
+          ]
+        },
+        {
+          "start": 277,
+          "end": 381,
+          "doc_ids": [
+            "DOC-B0001-TOUR_API-2785601"
+          ]
+        },
+        {
+          "start": 382,
+          "end": 407,
+          "doc_ids": [
+            "DOC-B0001-TOUR_API-2785601"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=2",
+      "text": "박진전쟁기념관은 6·25전쟁 최후의 보루였던 박진전투 현장을 재현하여 민족 분단의 실상을 올바르게 인식하고 순국선열들의 호국 정신을 계승 발전시키고자 건립한 기념관이다. 박진지역은 부산을 점령하기 위해 낙동강을 도하하여 최후의 발악을 하던 북한군과 미군이 2주간 사투를 벌였던 격전지이다. 박진지구전투의 승리로 인해 전세가 역전된 국군과 유엔군이 낙동강을 건너 반격하게 되었으며, 인천상륙작전의 성공과 함께 압록강까지 진격할 수 있는 결정적 계기가 된 한국전쟁사에 길이 빛날 중요한 전적지이다. 박진전쟁기념관에서는 6·25전쟁 및 낙동강 돌출부 전투 관련 행사 및 프로그램을 운영하고 있으며, 박진지구 전투 디오라마 등을 통한 당시 모습 재현 및 다양한 기획 전시를 진행하고 있다. 또한, 안보교육의 장으로써 역할을 하고 있다.",
+      "sido": "경상남도",
+      "sigungu": "창녕군",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=2"
+      ],
+      "evidence_id": "E1",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=2",
+        "fields": {
+          "name": "박진전쟁기념관",
+          "sido": "경상남도",
+          "sigungu": "창녕군",
+          "address": "경상남도 창녕군 남지읍 월상길 27",
+          "ownership_type": "공립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "09:00",
+          "weekday_close": "18:00",
+          "holiday_open": "09:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "매주 월요일+1월 1일+설날+추석날",
+          "amenities_raw": "장애인화장실+유모차/휠체어 이용가능"
+        },
+        "base_data_date": "2026-09-18",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0574",
+      "name": "전쟁기념관",
+      "document": "서울시 용산구 용산동에 호국전쟁의 실체를 보여주는 자료를 보존 전시하고 국민정신교육장으로 역할을 하며 조국을 위해 목숨을 바친 선열들의 숭고한 희생을 추모하고 그 업적을 기리기 위해 전쟁기념사업회에서 1994년 6월 10일 전쟁기념관을 세웠다. 전쟁기념관은 옥내전시와 옥외전시로 구분되어 있으며 3만 3천여 점의 소장유물 중 1만여 점을 전시하고 있다. 1만 900여 평의 옥내전시실은 호국추모실, 전쟁역사실, 6·25전쟁실, 해외파병실, 국군발전실, 대형장비실 등 6개 전시실로 구성되어 있으며 대형무기들이 전시되어 있는 옥외전시실이 있다. 3층 규모의 옥내전시실은 삼국시대로부터 현대까지 5천년 대한민국 전쟁사와 위국 헌신한 분들의 공로와 훈장 등이 실물·디오라마·복제품·기록화·영상 등의 다양한 전시기법에 따라 역동적이고 입체적으로 전시되어 있다. 특히 6·25전쟁실은 전쟁이 일어난 원인과 전쟁 경과 및 휴전에 이르기까지의 전 과정을 쉽고 올바르게 이해할 수 있도록 체험시설 등으로 구성되어 있다. 옥외전시장에는 세계 각국의 대형무기와 6·25전쟁 상징 조형물, 광개토대왕릉비, 형제의 상, 평화의 시계탑 등이 전시되어 있다. 제2차 세계대전, 6·25전쟁, 베트남전쟁 당시 사용되었던 장비를 전시하고 있는데, K-1전차를 비롯하여 곡사포, 미사일, 헬리콥터, 수송기 등이 전시되어 있다. 기념관 양측 회랑에는 국군 전사자와 유엔군 전사자 20여 만 명의 이름이 새겨진 전사자 명비가 있으며, 전쟁기념관을 대국민 호국문화의 장으로서도 큰 역할을 하고 있다. 어린이부터 일반인까지 다양한 계층을 대상으로 한 20여개의 교육프로그램을 운영함은 물론, 국군 군악·의장행사, 어린이날 문화축제, 현충일 그림그리기 대회, 6·25 호국문화행사 등 다양한 문화행사를 연간 개최하고 있어 기념관을 찾는 관람객들에게 새로운 볼거리를 제공하고 있다. 전쟁기념관의 캐릭터는 무돌이로, 나라를 지킨다는 뜻을 가진 철모와 평화를 상징하는 월계수잎이 특징적이다.",
+      "metadata": {
+        "source_types": "TOUR_API",
+        "requires_manual_review": true,
+        "weekday_close": "18:00",
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "image_url": "http://tong.visitkorea.or.kr/cms/resource/29/3465929_image2_1.JPG",
+        "latitude": 37.53731288,
+        "child_fee": 0.0,
+        "longitude": 126.9784661,
+        "name": "전쟁기념관",
+        "holiday_open": "09:30",
+        "holiday_close": "18:00",
+        "weekday_open": "09:30",
+        "image_copyright": "Type3",
+        "sido": "서울특별시",
+        "homepage_url": "http://www.warmemo.or.kr/",
+        "adult_fee": 0.0,
+        "address": "서울특별시 용산구 이태원로 29",
+        "sigungu": "용산구",
+        "youth_fee": 0.0,
+        "ownership_type": "사립",
+        "closure_rule_raw": "월요일(월요일 포함 연휴때는 연휴 다음날)"
+      },
+      "vector_rank": 2,
+      "bm25_rank": 3,
+      "vector_distance": 0.4835420846939087,
+      "vector_score": null,
+      "bm25_score": 14.17799174783103,
+      "vector_document": "서울시 용산구 용산동에 호국전쟁의 실체를 보여주는 자료를 보존 전시하고 국민정신교육장으로 역할을 하며 조국을 위해 목숨을 바친 선열들의 숭고한 희생을 추모하고 그 업적을 기리기 위해 전쟁기념사업회에서 1994년 6월 10일 전쟁기념관을 세웠다. 전쟁기념관은 옥내전시와 옥외전시로 구분되어 있으며 3만 3천여 점의 소장유물 중 1만여 점을 전시하고 있다. 1만 900여 평의 옥내전시실은 호국추모실, 전쟁역사실, 6·25전쟁실, 해외파병실, 국군발전실, 대형장비실 등 6개 전시실로 구성되어 있으며 대형무기들이 전시되어 있는 옥외전시실이 있다. 3층 규모의 옥내전시실은 삼국시대로부터 현대까지 5천년 대한민국 전쟁사와 위국 헌신한 분들의 공로와 훈장 등이 실물·디오라마·복제품·기록화·영상 등의 다양한 전시기법에 따라 역동적이고 입체적으로 전시되어 있다. 특히 6·25전쟁실은 전쟁이 일어난 원인과 전쟁 경과 및 휴전에 이르기까지의 전 과정을 쉽고 올바르게 이해할 수 있도록 체험시설 등으로 구성되어 있다. 옥외전시장에는 세계 각국의 대형무기와 6·25전쟁 상징 조형물, 광개토대왕릉비, 형제의 상, 평화의 시계탑 등이 전시되어 있다. 제2차 세계대전, 6·25전쟁, 베트남전쟁 당시 사용되었던 장비를 전시하고 있는데, K-1전차를 비롯하여 곡사포, 미사일, 헬리콥터, 수송기 등이 전시되어 있다. 기념관 양측 회랑에는 국군 전사자와 유엔군 전사자 20여 만 명의 이름이 새겨진 전사자 명비가 있으며, 전쟁기념관을 대국민 호국문화의 장으로서도 큰 역할을 하고 있다. 어린이부터 일반인까지 다양한 계층을 대상으로 한 20여개의 교육프로그램을 운영함은 물론, 국군 군악·의장행사, 어린이날 문화축제, 현충일 그림그리기 대회, 6·25 호국문화행사 등 다양한 문화행사를 연간 개최하고 있어 기념관을 찾는 관람객들에게 새로운 볼거리를 제공하고 있다. 전쟁기념관의 캐릭터는 무돌이로, 나라를 지킨다는 뜻을 가진 철모와 평화를 상징하는 월계수잎이 특징적이다.",
+      "bm25_document": "서울시 용산구 용산동에 호국전쟁의 실체를 보여주는 자료를 보존 전시하고 국민정신교육장으로 역할을 하며 조국을 위해 목숨을 바친 선열들의 숭고한 희생을 추모하고 그 업적을 기리기 위해 전쟁기념사업회에서 1994년 6월 10일 전쟁기념관을 세웠다. 전쟁기념관은 옥내전시와 옥외전시로 구분되어 있으며 3만 3천여 점의 소장유물 중 1만여 점을 전시하고 있다. 1만 900여 평의 옥내전시실은 호국추모실, 전쟁역사실, 6·25전쟁실, 해외파병실, 국군발전실, 대형장비실 등 6개 전시실로 구성되어 있으며 대형무기들이 전시되어 있는 옥외전시실이 있다. 3층 규모의 옥내전시실은 삼국시대로부터 현대까지 5천년 대한민국 전쟁사와 위국 헌신한 분들의 공로와 훈장 등이 실물·디오라마·복제품·기록화·영상 등의 다양한 전시기법에 따라 역동적이고 입체적으로 전시되어 있다. 특히 6·25전쟁실은 전쟁이 일어난 원인과 전쟁 경과 및 휴전에 이르기까지의 전 과정을 쉽고 올바르게 이해할 수 있도록 체험시설 등으로 구성되어 있다. 옥외전시장에는 세계 각국의 대형무기와 6·25전쟁 상징 조형물, 광개토대왕릉비, 형제의 상, 평화의 시계탑 등이 전시되어 있다. 제2차 세계대전, 6·25전쟁, 베트남전쟁 당시 사용되었던 장비를 전시하고 있는데, K-1전차를 비롯하여 곡사포, 미사일, 헬리콥터, 수송기 등이 전시되어 있다. 기념관 양측 회랑에는 국군 전사자와 유엔군 전사자 20여 만 명의 이름이 새겨진 전사자 명비가 있으며, 전쟁기념관을 대국민 호국문화의 장으로서도 큰 역할을 하고 있다. 어린이부터 일반인까지 다양한 계층을 대상으로 한 20여개의 교육프로그램을 운영함은 물론, 국군 군악·의장행사, 어린이날 문화축제, 현충일 그림그리기 대회, 6·25 호국문화행사 등 다양한 문화행사를 연간 개최하고 있어 기념관을 찾는 관람객들에게 새로운 볼거리를 제공하고 있다. 전쟁기념관의 캐릭터는 무돌이로, 나라를 지킨다는 뜻을 가진 철모와 평화를 상징하는 월계수잎이 특징적이다.",
+      "best_span_id": "chroma:M0574",
+      "best_span_text": "서울시 용산구 용산동에 호국전쟁의 실체를 보여주는 자료를 보존 전시하고 국민정신교육장으로 역할을 하며 조국을 위해 목숨을 바친 선열들의 숭고한 희생을 추모하고 그 업적을 기리기 위해 전쟁기념사업회에서 1994년 6월 10일 전쟁기념관을 세웠다. 전쟁기념관은 옥내전시와 옥외전시로 구분되어 있으며 3만 3천여 점의 소장유물 중 1만여 점을 전시하고 있다. 1만 900여 평의 옥내전시실은 호국추모실, 전쟁역사실, 6·25전쟁실, 해외파병실, 국군발전실, 대형장비실 등 6개 전시실로 구성되어 있으며 대형무기들이 전시되어 있는 옥외전시실이 있다. 3층 규모의 옥내전시실은 삼국시대로부터 현대까지 5천년 대한민국 전쟁사와 위국 헌신한 분들의 공로와 훈장 등이 실물·디오라마·복제품·기록화·영상 등의 다양한 전시기법에 따라 역동적이고 입체적으로 전시되어 있다. 특히 6·25전쟁실은 전쟁이 일어난 원인과 전쟁 경과 및 휴전에 이르기까지의 전 과정을 쉽고 올바르게 이해할 수 있도록 체험시설 등으로 구성되어 있다. 옥외전시장에는 세계 각국의 대형무기와 6·25전쟁 상징 조형물, 광개토대왕릉비, 형제의 상, 평화의 시계탑 등이 전시되어 있다. 제2차 세계대전, 6·25전쟁, 베트남전쟁 당시 사용되었던 장비를 전시하고 있는데, K-1전차를 비롯하여 곡사포, 미사일, 헬리콥터, 수송기 등이 전시되어 있다. 기념관 양측 회랑에는 국군 전사자와 유엔군 전사자 20여 만 명의 이름이 새겨진 전사자 명비가 있으며, 전쟁기념관을 대국민 호국문화의 장으로서도 큰 역할을 하고 있다. 어린이부터 일반인까지 다양한 계층을 대상으로 한 20여개의 교육프로그램을 운영함은 물론, 국군 군악·의장행사, 어린이날 문화축제, 현충일 그림그리기 대회, 6·25 호국문화행사 등 다양한 문화행사를 연간 개최하고 있어 기념관을 찾는 관람객들에게 새로운 볼거리를 제공하고 있다. 전쟁기념관의 캐릭터는 무돌이로, 나라를 지킨다는 뜻을 가진 철모와 평화를 상징하는 월계수잎이 특징적이다.",
+      "fusion_score": 0.03200204813108039,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 2,
+      "rerank_score": 0.041149530559778214,
+      "rank": 2,
+      "score": 0.041149530559778214,
+      "score_type": "cross_encoder",
+      "distance": 0.4835420846939087,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0574",
+      "source_doc_ids": [
+        "DOC-B0574-TOUR_API-130431"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0574-TOUR_API-130431",
+          "source_type": "TOUR_API",
+          "source_record_id": "130431",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=283",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 136,
+          "doc_ids": [
+            "DOC-B0574-TOUR_API-130431"
+          ]
+        },
+        {
+          "start": 137,
+          "end": 197,
+          "doc_ids": [
+            "DOC-B0574-TOUR_API-130431"
+          ]
+        },
+        {
+          "start": 198,
+          "end": 303,
+          "doc_ids": [
+            "DOC-B0574-TOUR_API-130431"
+          ]
+        },
+        {
+          "start": 304,
+          "end": 421,
+          "doc_ids": [
+            "DOC-B0574-TOUR_API-130431"
+          ]
+        },
+        {
+          "start": 422,
+          "end": 506,
+          "doc_ids": [
+            "DOC-B0574-TOUR_API-130431"
+          ]
+        },
+        {
+          "start": 507,
+          "end": 578,
+          "doc_ids": [
+            "DOC-B0574-TOUR_API-130431"
+          ]
+        },
+        {
+          "start": 579,
+          "end": 669,
+          "doc_ids": [
+            "DOC-B0574-TOUR_API-130431"
+          ]
+        },
+        {
+          "start": 670,
+          "end": 763,
+          "doc_ids": [
+            "DOC-B0574-TOUR_API-130431"
+          ]
+        },
+        {
+          "start": 764,
+          "end": 918,
+          "doc_ids": [
+            "DOC-B0574-TOUR_API-130431"
+          ]
+        },
+        {
+          "start": 919,
+          "end": 977,
+          "doc_ids": [
+            "DOC-B0574-TOUR_API-130431"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=283",
+      "text": "서울시 용산구 용산동에 호국전쟁의 실체를 보여주는 자료를 보존 전시하고 국민정신교육장으로 역할을 하며 조국을 위해 목숨을 바친 선열들의 숭고한 희생을 추모하고 그 업적을 기리기 위해 전쟁기념사업회에서 1994년 6월 10일 전쟁기념관을 세웠다. 전쟁기념관은 옥내전시와 옥외전시로 구분되어 있으며 3만 3천여 점의 소장유물 중 1만여 점을 전시하고 있다. 1만 900여 평의 옥내전시실은 호국추모실, 전쟁역사실, 6·25전쟁실, 해외파병실, 국군발전실, 대형장비실 등 6개 전시실로 구성되어 있으며 대형무기들이 전시되어 있는 옥외전시실이 있다. 3층 규모의 옥내전시실은 삼국시대로부터 현대까지 5천년 대한민국 전쟁사와 위국 헌신한 분들의 공로와 훈장 등이 실물·디오라마·복제품·기록화·영상 등의 다양한 전시기법에 따라 역동적이고 입체적으로 전시되어 있다. 특히 6·25전쟁실은 전쟁이 일어난 원인과 전쟁 경과 및 휴전에 이르기까지의 전 과정을 쉽고 올바르게 이해할 수 있도록 체험시설 등으로 구성되어 있다. 옥외전시장에는 세계 각국의 대형무기와 6·25전쟁 상징 조형물, 광개토대왕릉비, 형제의 상, 평화의 시계탑 등이 전시되어 있다. 제2차 세계대전, 6·25전쟁, 베트남전쟁 당시 사용되었던 장비를 전시하고 있는데, K-1전차를 비롯하여 곡사포, 미사일, 헬리콥터, 수송기 등이 전시되어 있다. 기념관 양측 회랑에는 국군 전사자와 유엔군 전사자 20여 만 명의 이름이 새겨진 전사자 명비가 있으며, 전쟁기념관을 대국민 호국문화의 장으로서도 큰 역할을 하고 있다. 어린이부터 일반인까지 다양한 계층을 대상으로 한 20여개의 교육프로그램을 운영함은 물론, 국군 군악·의장행사, 어린이날 문화축제, 현충일 그림그리기 대회, 6·25 호국문화행사 등 다양한 문화행사를 연간 개최하고 있어 기념관을 찾는 관람객들에게 새로운 볼거리를 제공하고 있다. 전쟁기념관의 캐릭터는 무돌이로, 나라를 지킨다는 뜻을 가진 철모와 평화를 상징하는 월계수잎이 특징적이다.",
+      "sido": "서울특별시",
+      "sigungu": "용산구",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=283"
+      ],
+      "evidence_id": "E2",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=398",
+        "fields": {
+          "name": "전쟁기념관",
+          "sido": "서울특별시",
+          "sigungu": "용산구",
+          "address": "서울특별시 용산구 이태원로 29",
+          "ownership_type": "사립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "09:30",
+          "weekday_close": "18:00",
+          "holiday_open": "09:30",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "월요일(월요일 포함 연휴때는 연휴 다음날)"
+        },
+        "base_data_date": "2026-01-26",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0180",
+      "name": "칠곡호국평화기념관",
+      "document": "칠곡호국평화기념관은 6·25전쟁 동안 일어난 수많은 전투 가운데 55일간의 낙동강 방어선 전투를 통해 전세를 역전시키고 대한민국을 지켜낸 낙동강 방어선 전투의 최대 격전지인 칠곡에 위치한 기념관이다. 지하 2층, 지상 4층의 건물과 넓은 규모의 야외 기념관에 다양한 기록과 유물이 전시되어 있으며 실감 나는 연출모형과 체험시설을 통해 호국안보 의식과 나라사랑정신을 함양할 수 있는 호국평화체험의 공간이다.",
+      "metadata": {
+        "weekday_open": "09:00",
+        "youth_fee": 0.0,
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/33/4074433_image2_1.jpg",
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "weekday_close": "18:00",
+        "image_copyright": "Type1",
+        "adult_fee": 0.0,
+        "sigungu": "칠곡군",
+        "address": "경상북도 칠곡군 석적읍 강변대로 1580",
+        "holiday_open": "09:00",
+        "homepage_url": "https://www.chilgok.go.kr/chppm",
+        "name": "칠곡호국평화기념관",
+        "amenities_raw": "푸드코트, 북카페, 매점",
+        "requires_manual_review": true,
+        "child_fee": 0.0,
+        "closure_rule_raw": "매주 월요일(월요일이 공휴일인 경우 공휴일 다음 첫 번째 평일), 설날 및 추석 당일, 1월 1일",
+        "fee_notes": "무료",
+        "longitude": 128.404032,
+        "latitude": 36.0179177,
+        "ownership_type": "공립",
+        "sido": "경상북도",
+        "source_types": "TOUR_API",
+        "holiday_close": "18:00"
+      },
+      "vector_rank": 5,
+      "bm25_rank": 4,
+      "vector_distance": 0.5760194659233093,
+      "vector_score": null,
+      "bm25_score": 13.508983792452497,
+      "vector_document": "칠곡호국평화기념관은 6·25전쟁 동안 일어난 수많은 전투 가운데 55일간의 낙동강 방어선 전투를 통해 전세를 역전시키고 대한민국을 지켜낸 낙동강 방어선 전투의 최대 격전지인 칠곡에 위치한 기념관이다. 지하 2층, 지상 4층의 건물과 넓은 규모의 야외 기념관에 다양한 기록과 유물이 전시되어 있으며 실감 나는 연출모형과 체험시설을 통해 호국안보 의식과 나라사랑정신을 함양할 수 있는 호국평화체험의 공간이다.",
+      "bm25_document": "칠곡호국평화기념관은 6·25전쟁 동안 일어난 수많은 전투 가운데 55일간의 낙동강 방어선 전투를 통해 전세를 역전시키고 대한민국을 지켜낸 낙동강 방어선 전투의 최대 격전지인 칠곡에 위치한 기념관이다. 지하 2층, 지상 4층의 건물과 넓은 규모의 야외 기념관에 다양한 기록과 유물이 전시되어 있으며 실감 나는 연출모형과 체험시설을 통해 호국안보 의식과 나라사랑정신을 함양할 수 있는 호국평화체험의 공간이다.",
+      "best_span_id": "chroma:M0180",
+      "best_span_text": "칠곡호국평화기념관은 6·25전쟁 동안 일어난 수많은 전투 가운데 55일간의 낙동강 방어선 전투를 통해 전세를 역전시키고 대한민국을 지켜낸 낙동강 방어선 전투의 최대 격전지인 칠곡에 위치한 기념관이다. 지하 2층, 지상 4층의 건물과 넓은 규모의 야외 기념관에 다양한 기록과 유물이 전시되어 있으며 실감 나는 연출모형과 체험시설을 통해 호국안보 의식과 나라사랑정신을 함양할 수 있는 호국평화체험의 공간이다.",
+      "fusion_score": 0.031009615384615385,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 4,
+      "rerank_score": 0.016624003648757935,
+      "rank": 3,
+      "score": 0.016624003648757935,
+      "score_type": "cross_encoder",
+      "distance": 0.5760194659233093,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0180",
+      "source_doc_ids": [
+        "DOC-B0180-TOUR_API-2357984"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0180-TOUR_API-2357984",
+          "source_type": "TOUR_API",
+          "source_record_id": "2357984",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=85",
+          "match_trust": "RECHECKED_BY_RULE_NOT_HUMAN_APPROVED"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 111,
+          "doc_ids": [
+            "DOC-B0180-TOUR_API-2357984"
+          ]
+        },
+        {
+          "start": 112,
+          "end": 226,
+          "doc_ids": [
+            "DOC-B0180-TOUR_API-2357984"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=85",
+      "text": "칠곡호국평화기념관은 6·25전쟁 동안 일어난 수많은 전투 가운데 55일간의 낙동강 방어선 전투를 통해 전세를 역전시키고 대한민국을 지켜낸 낙동강 방어선 전투의 최대 격전지인 칠곡에 위치한 기념관이다. 지하 2층, 지상 4층의 건물과 넓은 규모의 야외 기념관에 다양한 기록과 유물이 전시되어 있으며 실감 나는 연출모형과 체험시설을 통해 호국안보 의식과 나라사랑정신을 함양할 수 있는 호국평화체험의 공간이다.",
+      "sido": "경상북도",
+      "sigungu": "칠곡군",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=85"
+      ],
+      "evidence_id": "E3",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=119",
+        "fields": {
+          "name": "칠곡호국평화기념관",
+          "sido": "경상북도",
+          "sigungu": "칠곡군",
+          "address": "경상북도 칠곡군 석적읍 강변대로 1580",
+          "ownership_type": "공립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "09:00",
+          "weekday_close": "18:00",
+          "holiday_open": "09:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "매주 월요일(월요일이 공휴일인 경우 공휴일 다음 첫 번째 평일), 설날 및 추석 당일, 1월 1일",
+          "amenities_raw": "푸드코트, 북카페, 매점"
+        },
+        "base_data_date": "2026-08-19",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0106",
+      "name": "감우재전승기념관",
+      "document": "감우재전승기념관은 무극전적국민관광지 안에 있는 기념관으로, 한국 전쟁 당시 국군이 첫 승리를 거둔 음성지구전투(동락리·무극리·감우재·부용산 일대의 전투)를 기념하기 위해 2003년 11월 개관하였다. 건물면적 348.38㎡의 지상 2층 건물로 음성지구전투 관련자료와 한국전쟁 당시의 전투장비 등 약 200점의 전시물을 수집·전시하고 있다. 1층 전시실에는 음성지구전투 상황을 보여주는 영상실과 한국전쟁의 참상을 시기 순으로 정리한 대형스크린, 타임비전 등이 있다. 2층 전시실에는 감우재전투상황 디오라마와 음성지구전투를 회고하는 매직비전이 설치되어 있으며 한국전쟁 당시 국군과 북한군의 병기류·복장류·보급품, 총탄에 맞아 깨진 감우재마을의 종, 생활도구를 비롯하여 당시의 생활상과 전쟁의 참상 등을 알 수 있는 여러 자료가 전시되어 있다. 6.25전쟁 중 최초로 크게 승리한 음성지구(감우재) 전투를 기념하고, 전투장비와 전쟁 참상, 전쟁 당시 생활상 등 전쟁관련 자료를 전시하고 있는 역사의 산 교육장",
+      "metadata": {
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/25/3335425_image2_1.JPG",
+        "youth_fee": 0.0,
+        "holiday_close": "18:00",
+        "weekday_open": "09:00",
+        "child_fee": 0.0,
+        "homepage_url": "https://www.eumseong.go.kr",
+        "sido": "충청북도",
+        "source_types": "BASE|TOUR_API",
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "longitude": 127.6470132,
+        "holiday_open": "09:00",
+        "weekday_close": "18:00",
+        "adult_fee": 0.0,
+        "closure_rule_raw": "월요일+1월 1일+설 연휴+추석 연휴",
+        "image_copyright": "Type3",
+        "sigungu": "음성군",
+        "address": "충청북도 음성군 음성읍 생음대로 594",
+        "name": "감우재전승기념관",
+        "latitude": 36.95068328,
+        "requires_manual_review": true,
+        "ownership_type": "공립"
+      },
+      "vector_rank": 3,
+      "bm25_rank": 2,
+      "vector_distance": 0.5342196226119995,
+      "vector_score": null,
+      "bm25_score": 19.741005804141118,
+      "vector_document": "감우재전승기념관은 무극전적국민관광지 안에 있는 기념관으로, 한국 전쟁 당시 국군이 첫 승리를 거둔 음성지구전투(동락리·무극리·감우재·부용산 일대의 전투)를 기념하기 위해 2003년 11월 개관하였다. 건물면적 348.38㎡의 지상 2층 건물로 음성지구전투 관련자료와 한국전쟁 당시의 전투장비 등 약 200점의 전시물을 수집·전시하고 있다. 1층 전시실에는 음성지구전투 상황을 보여주는 영상실과 한국전쟁의 참상을 시기 순으로 정리한 대형스크린, 타임비전 등이 있다. 2층 전시실에는 감우재전투상황 디오라마와 음성지구전투를 회고하는 매직비전이 설치되어 있으며 한국전쟁 당시 국군과 북한군의 병기류·복장류·보급품, 총탄에 맞아 깨진 감우재마을의 종, 생활도구를 비롯하여 당시의 생활상과 전쟁의 참상 등을 알 수 있는 여러 자료가 전시되어 있다. 6.25전쟁 중 최초로 크게 승리한 음성지구(감우재) 전투를 기념하고, 전투장비와 전쟁 참상, 전쟁 당시 생활상 등 전쟁관련 자료를 전시하고 있는 역사의 산 교육장",
+      "bm25_document": "감우재전승기념관은 무극전적국민관광지 안에 있는 기념관으로, 한국 전쟁 당시 국군이 첫 승리를 거둔 음성지구전투(동락리·무극리·감우재·부용산 일대의 전투)를 기념하기 위해 2003년 11월 개관하였다. 건물면적 348.38㎡의 지상 2층 건물로 음성지구전투 관련자료와 한국전쟁 당시의 전투장비 등 약 200점의 전시물을 수집·전시하고 있다. 1층 전시실에는 음성지구전투 상황을 보여주는 영상실과 한국전쟁의 참상을 시기 순으로 정리한 대형스크린, 타임비전 등이 있다. 2층 전시실에는 감우재전투상황 디오라마와 음성지구전투를 회고하는 매직비전이 설치되어 있으며 한국전쟁 당시 국군과 북한군의 병기류·복장류·보급품, 총탄에 맞아 깨진 감우재마을의 종, 생활도구를 비롯하여 당시의 생활상과 전쟁의 참상 등을 알 수 있는 여러 자료가 전시되어 있다. 6.25전쟁 중 최초로 크게 승리한 음성지구(감우재) 전투를 기념하고, 전투장비와 전쟁 참상, 전쟁 당시 생활상 등 전쟁관련 자료를 전시하고 있는 역사의 산 교육장",
+      "best_span_id": "chroma:M0106",
+      "best_span_text": "감우재전승기념관은 무극전적국민관광지 안에 있는 기념관으로, 한국 전쟁 당시 국군이 첫 승리를 거둔 음성지구전투(동락리·무극리·감우재·부용산 일대의 전투)를 기념하기 위해 2003년 11월 개관하였다. 건물면적 348.38㎡의 지상 2층 건물로 음성지구전투 관련자료와 한국전쟁 당시의 전투장비 등 약 200점의 전시물을 수집·전시하고 있다. 1층 전시실에는 음성지구전투 상황을 보여주는 영상실과 한국전쟁의 참상을 시기 순으로 정리한 대형스크린, 타임비전 등이 있다. 2층 전시실에는 감우재전투상황 디오라마와 음성지구전투를 회고하는 매직비전이 설치되어 있으며 한국전쟁 당시 국군과 북한군의 병기류·복장류·보급품, 총탄에 맞아 깨진 감우재마을의 종, 생활도구를 비롯하여 당시의 생활상과 전쟁의 참상 등을 알 수 있는 여러 자료가 전시되어 있다. 6.25전쟁 중 최초로 크게 승리한 음성지구(감우재) 전투를 기념하고, 전투장비와 전쟁 참상, 전쟁 당시 생활상 등 전쟁관련 자료를 전시하고 있는 역사의 산 교육장",
+      "fusion_score": 0.03200204813108039,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 3,
+      "rerank_score": 0.006776092108339071,
+      "rank": 4,
+      "score": 0.006776092108339071,
+      "score_type": "cross_encoder",
+      "distance": 0.5342196226119995,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0106",
+      "source_doc_ids": [
+        "DOC-B0106-TOUR_API-987769",
+        "DOC-B0106-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0106-TOUR_API-987769",
+          "source_type": "TOUR_API",
+          "source_record_id": "987769",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=54",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        },
+        {
+          "doc_id": "DOC-B0106-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0106",
+          "source_locator": "data/raw/museum_base_1070.csv#row=107",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 111,
+          "doc_ids": [
+            "DOC-B0106-TOUR_API-987769"
+          ]
+        },
+        {
+          "start": 112,
+          "end": 189,
+          "doc_ids": [
+            "DOC-B0106-TOUR_API-987769"
+          ]
+        },
+        {
+          "start": 190,
+          "end": 259,
+          "doc_ids": [
+            "DOC-B0106-TOUR_API-987769"
+          ]
+        },
+        {
+          "start": 260,
+          "end": 413,
+          "doc_ids": [
+            "DOC-B0106-TOUR_API-987769"
+          ]
+        },
+        {
+          "start": 414,
+          "end": 505,
+          "doc_ids": [
+            "DOC-B0106-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=54",
+      "text": "감우재전승기념관은 무극전적국민관광지 안에 있는 기념관으로, 한국 전쟁 당시 국군이 첫 승리를 거둔 음성지구전투(동락리·무극리·감우재·부용산 일대의 전투)를 기념하기 위해 2003년 11월 개관하였다. 건물면적 348.38㎡의 지상 2층 건물로 음성지구전투 관련자료와 한국전쟁 당시의 전투장비 등 약 200점의 전시물을 수집·전시하고 있다. 1층 전시실에는 음성지구전투 상황을 보여주는 영상실과 한국전쟁의 참상을 시기 순으로 정리한 대형스크린, 타임비전 등이 있다. 2층 전시실에는 감우재전투상황 디오라마와 음성지구전투를 회고하는 매직비전이 설치되어 있으며 한국전쟁 당시 국군과 북한군의 병기류·복장류·보급품, 총탄에 맞아 깨진 감우재마을의 종, 생활도구를 비롯하여 당시의 생활상과 전쟁의 참상 등을 알 수 있는 여러 자료가 전시되어 있다. 6.25전쟁 중 최초로 크게 승리한 음성지구(감우재) 전투를 기념하고, 전투장비와 전쟁 참상, 전쟁 당시 생활상 등 전쟁관련 자료를 전시하고 있는 역사의 산 교육장",
+      "sido": "충청북도",
+      "sigungu": "음성군",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=54"
+      ],
+      "evidence_id": "E4",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=67",
+        "fields": {
+          "name": "감우재전승기념관",
+          "sido": "충청북도",
+          "sigungu": "음성군",
+          "address": "충청북도 음성군 음성읍 생음대로 594",
+          "ownership_type": "공립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "09:00",
+          "weekday_close": "18:00",
+          "holiday_open": "09:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "월요일+1월 1일+설 연휴+추석 연휴"
+        },
+        "base_data_date": "2026-10-07",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0298",
+      "name": "의병박물관",
+      "document": "나라가 위기에 처했을 때 자발적으로 일어선 의병의 숭고한 구국 정신을 기리고 지역의 유구한 역사를 체계적으로 조명하는 전문 박물관이다. 의병 역사뿐 아니라 의령 지역의 선사 시대 및 고대 가야의 유적과 유물까지 폭넓게 아우르는 복합 역사 교육 거점으로 운영되고 있다. 본관 상설전시실은 임진왜란 당시 최초로 의병을 일으켜 정암진 전투를 승리로 이끌고 곡창지대를 수호한 홍의장군 곽재우의 친필 현판 및 유물, 당시 전투 모형을 집중 조명한다. 또한 제2전시관에서는 구한말부터 일제강점기까지 국권 회복에 헌신한 의령 출신 독립운동가들의 유품과 사료를 전시하고 있어, 시대별 의병·독립운동의 맥을 한눈에 살펴볼 수 있다. 바로 곁의 충익사와 함께 둘러보면 의령 땅에 깃든 의병 정신을 더욱 깊이 느낄 수 있다. 의병박물관은 기존의 의령군민문화회관 내에 위치하고 있던 의령박물관을 충익사 기념관(보물 제671호 곽재우 유물 일관 등 의병 관련 유물)과 합관하여 의령읍 충익로 1-25번지에 신축하면서 의병박물관으로 명칭 변경하였으면 2012년 6월1일 개관하였다.",
+      "metadata": {
+        "homepage_url": "http://www.uiryeong.go.kr/tour/index.uiryeong?menuCd=DOM_000000506004000000",
+        "address": "경상남도 의령군 의령읍 충익로 1-25",
+        "sigungu": "의령군",
+        "fee_notes": "무료",
+        "image_copyright": "Type1",
+        "youth_fee": 0.0,
+        "closure_rule_raw": "매년 1월 1일과 매주 월요일(단, 월요일이 「관공서의 공휴일에 관한 규정」제2조에 따른 공휴일일 때에는 월요일 다음의 첫 번째 평일)",
+        "requires_manual_review": true,
+        "child_fee": 0.0,
+        "weekday_close": "17:30",
+        "holiday_close": "17:30",
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "adult_fee": 0.0,
+        "ownership_type": "공립",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/15/4123215_image2_1.JPG",
+        "holiday_open": "09:00",
+        "name": "의병박물관",
+        "source_types": "BASE|TOUR_API",
+        "transport_notes": "버스: 의령우체국 정류장(도보: 9분)",
+        "sido": "경상남도",
+        "longitude": 128.2594317,
+        "weekday_open": "09:00",
+        "latitude": 35.31468812
+      },
+      "vector_rank": null,
+      "bm25_rank": 13,
+      "vector_distance": null,
+      "vector_score": null,
+      "bm25_score": 7.670698652420318,
+      "vector_document": "",
+      "bm25_document": "나라가 위기에 처했을 때 자발적으로 일어선 의병의 숭고한 구국 정신을 기리고 지역의 유구한 역사를 체계적으로 조명하는 전문 박물관이다. 의병 역사뿐 아니라 의령 지역의 선사 시대 및 고대 가야의 유적과 유물까지 폭넓게 아우르는 복합 역사 교육 거점으로 운영되고 있다. 본관 상설전시실은 임진왜란 당시 최초로 의병을 일으켜 정암진 전투를 승리로 이끌고 곡창지대를 수호한 홍의장군 곽재우의 친필 현판 및 유물, 당시 전투 모형을 집중 조명한다. 또한 제2전시관에서는 구한말부터 일제강점기까지 국권 회복에 헌신한 의령 출신 독립운동가들의 유품과 사료를 전시하고 있어, 시대별 의병·독립운동의 맥을 한눈에 살펴볼 수 있다. 바로 곁의 충익사와 함께 둘러보면 의령 땅에 깃든 의병 정신을 더욱 깊이 느낄 수 있다. 의병박물관은 기존의 의령군민문화회관 내에 위치하고 있던 의령박물관을 충익사 기념관(보물 제671호 곽재우 유물 일관 등 의병 관련 유물)과 합관하여 의령읍 충익로 1-25번지에 신축하면서 의병박물관으로 명칭 변경하였으면 2012년 6월1일 개관하였다.",
+      "best_span_id": "chroma:M0298",
+      "best_span_text": "나라가 위기에 처했을 때 자발적으로 일어선 의병의 숭고한 구국 정신을 기리고 지역의 유구한 역사를 체계적으로 조명하는 전문 박물관이다. 의병 역사뿐 아니라 의령 지역의 선사 시대 및 고대 가야의 유적과 유물까지 폭넓게 아우르는 복합 역사 교육 거점으로 운영되고 있다. 본관 상설전시실은 임진왜란 당시 최초로 의병을 일으켜 정암진 전투를 승리로 이끌고 곡창지대를 수호한 홍의장군 곽재우의 친필 현판 및 유물, 당시 전투 모형을 집중 조명한다. 또한 제2전시관에서는 구한말부터 일제강점기까지 국권 회복에 헌신한 의령 출신 독립운동가들의 유품과 사료를 전시하고 있어, 시대별 의병·독립운동의 맥을 한눈에 살펴볼 수 있다. 바로 곁의 충익사와 함께 둘러보면 의령 땅에 깃든 의병 정신을 더욱 깊이 느낄 수 있다. 의병박물관은 기존의 의령군민문화회관 내에 위치하고 있던 의령박물관을 충익사 기념관(보물 제671호 곽재우 유물 일관 등 의병 관련 유물)과 합관하여 의령읍 충익로 1-25번지에 신축하면서 의병박물관으로 명칭 변경하였으면 2012년 6월1일 개관하였다.",
+      "fusion_score": 0.0136986301369863,
+      "retrieved_by": [
+        "bm25"
+      ],
+      "fusion_rank": 20,
+      "rerank_score": 0.004511633887887001,
+      "rank": 5,
+      "score": 0.004511633887887001,
+      "score_type": "cross_encoder",
+      "distance": null,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "bm25"
+      ],
+      "retriever": "bm25",
+      "span_id": "chroma:M0298",
+      "source_doc_ids": [
+        "DOC-B0298-TOUR_API-4130915",
+        "DOC-B0298-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0298-TOUR_API-4130915",
+          "source_type": "TOUR_API",
+          "source_record_id": "4130915",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=147",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        },
+        {
+          "doc_id": "DOC-B0298-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0298",
+          "source_locator": "data/raw/museum_base_1070.csv#row=299",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 75,
+          "doc_ids": [
+            "DOC-B0298-TOUR_API-4130915"
+          ]
+        },
+        {
+          "start": 76,
+          "end": 149,
+          "doc_ids": [
+            "DOC-B0298-TOUR_API-4130915"
+          ]
+        },
+        {
+          "start": 150,
+          "end": 246,
+          "doc_ids": [
+            "DOC-B0298-TOUR_API-4130915"
+          ]
+        },
+        {
+          "start": 247,
+          "end": 344,
+          "doc_ids": [
+            "DOC-B0298-TOUR_API-4130915"
+          ]
+        },
+        {
+          "start": 345,
+          "end": 394,
+          "doc_ids": [
+            "DOC-B0298-TOUR_API-4130915"
+          ]
+        },
+        {
+          "start": 395,
+          "end": 535,
+          "doc_ids": [
+            "DOC-B0298-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=147",
+      "text": "나라가 위기에 처했을 때 자발적으로 일어선 의병의 숭고한 구국 정신을 기리고 지역의 유구한 역사를 체계적으로 조명하는 전문 박물관이다. 의병 역사뿐 아니라 의령 지역의 선사 시대 및 고대 가야의 유적과 유물까지 폭넓게 아우르는 복합 역사 교육 거점으로 운영되고 있다. 본관 상설전시실은 임진왜란 당시 최초로 의병을 일으켜 정암진 전투를 승리로 이끌고 곡창지대를 수호한 홍의장군 곽재우의 친필 현판 및 유물, 당시 전투 모형을 집중 조명한다. 또한 제2전시관에서는 구한말부터 일제강점기까지 국권 회복에 헌신한 의령 출신 독립운동가들의 유품과 사료를 전시하고 있어, 시대별 의병·독립운동의 맥을 한눈에 살펴볼 수 있다. 바로 곁의 충익사와 함께 둘러보면 의령 땅에 깃든 의병 정신을 더욱 깊이 느낄 수 있다. 의병박물관은 기존의 의령군민문화회관 내에 위치하고 있던 의령박물관을 충익사 기념관(보물 제671호 곽재우 유물 일관 등 의병 관련 유물)과 합관하여 의령읍 충익로 1-25번지에 신축하면서 의병박물관으로 명칭 변경하였으면 2012년 6월1일 개관하였다.",
+      "sido": "경상남도",
+      "sigungu": "의령군",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=147"
+      ],
+      "evidence_id": "E5",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=212",
+        "fields": {
+          "name": "의병박물관",
+          "sido": "경상남도",
+          "sigungu": "의령군",
+          "address": "경상남도 의령군 의령읍 충익로 1-25",
+          "ownership_type": "공립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "09:00",
+          "weekday_close": "17:30",
+          "holiday_open": "09:00",
+          "holiday_close": "17:30",
+          "closure_rule_raw": "매년 1월 1일과 매주 월요일(단, 월요일이 「관공서의 공휴일에 관한 규정」제2조에 따른 공휴일일 때에는 월요일 다음의 첫 번째 평일)"
+        },
+        "base_data_date": "2026-07-27",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    }
+  ],
+  "answer": "박진전쟁기념관에서는 **6·25전쟁과 낙동강 돌출부 전투** 관련 행사·프로그램을 운영합니다. 또한 박진지구 전투 디오라마로 당시 모습을 재현하고, 다양한 기획 전시를 진행하며 안보교육의 장으로도 활용됩니다. [E1]",
+  "retrieval_status": "ok",
+  "answer_status": "answered",
+  "route": "hybrid",
+  "retry_count": 0,
+  "supervisor_verified": true,
+  "rerank_applied": true,
+  "retriever_errors": [],
+  "warnings": [],
+  "duration_ms": 83284.29,
+  "error_type": "",
+  "hit_at_1": 1,
+  "hit_at_3": 1,
+  "hit_at_5": 1,
+  "recall_at_5": 1.0,
+  "mrr_at_10": 1.0
+}

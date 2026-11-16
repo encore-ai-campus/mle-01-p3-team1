@@ -1,0 +1,319 @@
+{
+  "question_id": "V2-SF12",
+  "response": {
+    "tool": "museum_hybrid_retrieve",
+    "status": "partial",
+    "query": "전남에서 엘리베이터 있는 박물관이나 미술관을 알려줘",
+    "results": [
+      {
+        "museum_id": "M0145",
+        "name": "화순군립 최상준미술관",
+        "document": "2018.10.22. 미술관 등록 및 개관",
+        "metadata": {
+          "weekday_open": "10:00",
+          "name": "화순군립 최상준미술관",
+          "child_fee": 0.0,
+          "weekday_close": "18:00",
+          "sigungu": "화순군",
+          "longitude": 126.9875228,
+          "requires_manual_review": true,
+          "holiday_open": "10:00",
+          "latitude": 35.0733094,
+          "amenities_raw": "전시실(1~2, 석봉)+수장고(1~3)+사무실+도서실+세미나실&교육창작실+화장실+승강기",
+          "address": "전남광주통합특별시 화순군 화순읍 진각로 249-8",
+          "adult_fee": 0.0,
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "ownership_type": "공립",
+          "homepage_url": "https://sbart.or.kr/",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "월요일+1월1일+설날+추석당일포함3일",
+          "source_types": "BASE",
+          "youth_fee": 0.0,
+          "sido": "전남광주특별자치도",
+          "structured_match": "편의시설 '엘리베이터·리프트': CSV amenities_raw의 '승강기' 항목 (온톨로지 필터가 metadata_provenance.fields의 같은 CSV 값으로 판정한 정적 기록이며 실시간 상태가 아님)"
+        },
+        "vector_rank": 1,
+        "bm25_rank": 1,
+        "vector_distance": 0.6574649810791016,
+        "vector_score": null,
+        "bm25_score": 2.5436172653359317,
+        "vector_document": "2018.10.22. 미술관 등록 및 개관",
+        "bm25_document": "2018.10.22. 미술관 등록 및 개관",
+        "best_span_id": "chroma:M0145",
+        "best_span_text": "2018.10.22. 미술관 등록 및 개관",
+        "fusion_score": 0.03278688524590164,
+        "retrieved_by": [
+          "vector",
+          "bm25"
+        ],
+        "fusion_rank": 1,
+        "rerank_score": 0.00048521801363676786,
+        "rank": 1,
+        "score": 0.03278688524590164,
+        "score_type": "rrf_low_confidence_rerank",
+        "distance": 0.6574649810791016,
+        "relevance": null,
+        "relevance_reason": null
+      }
+    ],
+    "source_ids": [
+      "M0145"
+    ],
+    "warnings": [
+      "Only 1 candidates available; no artificial padding"
+    ],
+    "unsupported_constraints": [],
+    "search_summary": {
+      "mode": "hybrid",
+      "filters": {},
+      "candidate_count": 1,
+      "requested_candidate_k": 20,
+      "returned_count": 1,
+      "reranked": true,
+      "vector_returned": 1,
+      "bm25_returned": 1,
+      "fused_returned": 1,
+      "final_returned": 1,
+      "rerank_requested": true,
+      "rerank_applied": true,
+      "rerank_failed": false,
+      "fusion_method": "weighted_rrf",
+      "config": {
+        "vector_top_k": 20,
+        "bm25_top_k": 20,
+        "fusion_top_k": 20,
+        "final_top_k": 10,
+        "rrf_k": 60,
+        "vector_weight": 1.0,
+        "bm25_weight": 1.0,
+        "reranker_model": "BAAI/bge-reranker-v2-m3",
+        "reranker_local_dir": null,
+        "reranker_revision": null,
+        "reranker_batch_size": 8,
+        "reranker_max_chars": 2000,
+        "rerank_failure_policy": "rrf_fallback",
+        "rerank_min_confidence": 0.1,
+        "retriever_failure_policy": "raise",
+        "parallel_retrieval": true
+      },
+      "metadata_filters": {},
+      "retriever_errors": [],
+      "requested_final_top_k": 5,
+      "expanded_query": "전남에서 엘리베이터 있는 박물관이나 미술관을 알려줘",
+      "query_mode": "vector",
+      "analysis_status": "disabled",
+      "unsupported_constraints": [],
+      "ontology_filter": {
+        "status": "applied",
+        "backend": "neo4j_v2",
+        "conditions": {
+          "amenities": [
+            "엘리베이터·리프트"
+          ],
+          "sido": "전라남도",
+          "matched_terms": [
+            "엘리베이터 있"
+          ]
+        },
+        "candidate_count": 1
+      },
+      "name_match": {
+        "status": "not_applicable",
+        "names": [],
+        "promoted": [],
+        "injected": [],
+        "unavailable": []
+      },
+      "rerank_low_confidence": true,
+      "rerank_best_score": 0.00048521801363676786,
+      "stages": [
+        {
+          "stage": "ontology_filter",
+          "duration_ms": 218.49,
+          "status": "applied",
+          "backend": "neo4j_v2",
+          "conditions": {
+            "amenities": [
+              "엘리베이터·리프트"
+            ],
+            "sido": "전라남도",
+            "matched_terms": [
+              "엘리베이터 있"
+            ]
+          },
+          "candidate_count": 1
+        },
+        {
+          "stage": "query_analysis",
+          "status": "disabled",
+          "duration_ms": 0.13,
+          "filters": {},
+          "expanded_query": "전남에서 엘리베이터 있는 박물관이나 미술관을 알려줘",
+          "mode": "vector",
+          "model": "disabled"
+        },
+        {
+          "stage": "vector_retrieval",
+          "status": "ok",
+          "duration_ms": 155.07,
+          "requested": 20,
+          "returned": 1
+        },
+        {
+          "stage": "bm25_retrieval",
+          "status": "ok",
+          "duration_ms": 6.47,
+          "requested": 20,
+          "returned": 1
+        },
+        {
+          "stage": "rrf_fusion",
+          "status": "ok",
+          "duration_ms": 0.09,
+          "requested": 20,
+          "returned": 1
+        },
+        {
+          "stage": "name_match",
+          "duration_ms": 0.26,
+          "status": "not_applicable",
+          "names": [],
+          "promoted": [],
+          "injected": [],
+          "unavailable": []
+        },
+        {
+          "stage": "cross_encoder_rerank",
+          "status": "low_confidence_rrf_order",
+          "duration_ms": 11078.83,
+          "requested": 1,
+          "returned": 1,
+          "best_score": 0.00048521801363676786,
+          "min_confidence": 0.1,
+          "model_load_ms": 0.0,
+          "inference_ms": 180.92,
+          "model_path": "C:\\Users\\Playdata\\.cache\\huggingface\\hub\\models--BAAI--bge-reranker-v2-m3\\snapshots\\953dc6f6f85a1b2dbfca4c34a2796e7dde08d41e",
+          "model_source": "local_only"
+        },
+        {
+          "stage": "final_selection",
+          "status": "ok",
+          "requested": 5,
+          "returned": 1
+        }
+      ],
+      "total_duration_ms": 11454.86
+    },
+    "fusion_candidates": [
+      {
+        "museum_id": "M0145",
+        "name": "화순군립 최상준미술관",
+        "document": "2018.10.22. 미술관 등록 및 개관",
+        "metadata": {
+          "weekday_open": "10:00",
+          "name": "화순군립 최상준미술관",
+          "child_fee": 0.0,
+          "weekday_close": "18:00",
+          "sigungu": "화순군",
+          "longitude": 126.9875228,
+          "requires_manual_review": true,
+          "holiday_open": "10:00",
+          "latitude": 35.0733094,
+          "amenities_raw": "전시실(1~2, 석봉)+수장고(1~3)+사무실+도서실+세미나실&교육창작실+화장실+승강기",
+          "address": "전남광주통합특별시 화순군 화순읍 진각로 249-8",
+          "adult_fee": 0.0,
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "ownership_type": "공립",
+          "homepage_url": "https://sbart.or.kr/",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "월요일+1월1일+설날+추석당일포함3일",
+          "source_types": "BASE",
+          "youth_fee": 0.0,
+          "sido": "전남광주특별자치도"
+        },
+        "vector_rank": 1,
+        "bm25_rank": 1,
+        "vector_distance": 0.6574649810791016,
+        "vector_score": null,
+        "bm25_score": 2.5436172653359317,
+        "vector_document": "2018.10.22. 미술관 등록 및 개관",
+        "bm25_document": "2018.10.22. 미술관 등록 및 개관",
+        "best_span_id": "chroma:M0145",
+        "best_span_text": "2018.10.22. 미술관 등록 및 개관",
+        "fusion_score": 0.03278688524590164,
+        "retrieved_by": [
+          "vector",
+          "bm25"
+        ],
+        "fusion_rank": 1
+      }
+    ],
+    "retrieval_candidates_full": {
+      "vector": [
+        {
+          "museum_id": "M0145",
+          "document": "2018.10.22. 미술관 등록 및 개관",
+          "metadata": {
+            "weekday_open": "10:00",
+            "name": "화순군립 최상준미술관",
+            "child_fee": 0.0,
+            "weekday_close": "18:00",
+            "sigungu": "화순군",
+            "longitude": 126.9875228,
+            "requires_manual_review": true,
+            "holiday_open": "10:00",
+            "latitude": 35.0733094,
+            "amenities_raw": "전시실(1~2, 석봉)+수장고(1~3)+사무실+도서실+세미나실&교육창작실+화장실+승강기",
+            "address": "전남광주통합특별시 화순군 화순읍 진각로 249-8",
+            "adult_fee": 0.0,
+            "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+            "ownership_type": "공립",
+            "homepage_url": "https://sbart.or.kr/",
+            "holiday_close": "18:00",
+            "closure_rule_raw": "월요일+1월1일+설날+추석당일포함3일",
+            "source_types": "BASE",
+            "youth_fee": 0.0,
+            "sido": "전남광주특별자치도"
+          },
+          "distance": 0.6574649810791016
+        }
+      ],
+      "bm25": [
+        {
+          "museum_id": "M0145",
+          "name": "화순군립 최상준미술관",
+          "document": "2018.10.22. 미술관 등록 및 개관",
+          "metadata": {
+            "longitude": 126.9875228,
+            "adult_fee": 0.0,
+            "amenities_raw": "전시실(1~2, 석봉)+수장고(1~3)+사무실+도서실+세미나실&교육창작실+화장실+승강기",
+            "weekday_close": "18:00",
+            "ownership_type": "공립",
+            "latitude": 35.0733094,
+            "sigungu": "화순군",
+            "name": "화순군립 최상준미술관",
+            "sido": "전남광주특별자치도",
+            "homepage_url": "https://sbart.or.kr/",
+            "holiday_close": "18:00",
+            "address": "전남광주통합특별시 화순군 화순읍 진각로 249-8",
+            "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+            "holiday_open": "10:00",
+            "child_fee": 0.0,
+            "requires_manual_review": true,
+            "weekday_open": "10:00",
+            "youth_fee": 0.0,
+            "closure_rule_raw": "월요일+1월1일+설날+추석당일포함3일",
+            "source_types": "BASE"
+          },
+          "score": 2.5436172653359317,
+          "rank": 1,
+          "retriever": "bm25",
+          "best_span_id": "chroma:M0145",
+          "best_span_text": "2018.10.22. 미술관 등록 및 개관"
+        }
+      ]
+    }
+  },
+  "duration_ms": 11454.94,
+  "error_type": ""
+}

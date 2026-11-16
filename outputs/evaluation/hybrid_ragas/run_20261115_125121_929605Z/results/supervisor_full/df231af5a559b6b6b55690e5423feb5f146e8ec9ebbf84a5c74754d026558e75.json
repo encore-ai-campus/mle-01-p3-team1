@@ -1,0 +1,687 @@
+{
+  "mode": "supervisor_full",
+  "question_id": "Q107",
+  "evidence": [
+    {
+      "museum_id": "M0163",
+      "name": "부산현대미술관",
+      "document": "천연기념물 제179호 을숙도에 위치한 부산현대미술관은 환경·생태적 가치의 지속 가능성을 지향하는 부산광역시 공립 미술관이다. 부지 29,900㎡, 면적 15,312㎡, 전시 공간 5,910㎡ 규모로 2018년 6월 16일 개관하였으며 서부산권 문화 플랫폼의 역할을 수행하고 있다. 급변하는 21세기 현대 사회에서 부산현대미술관은 뉴미디어를 포함한 다양한 매체에서 펼쳐지는 동시대 미술을 중심으로 지역과 세계를 밀접하게 연결하는 다각적인 예술 활동을 전개하고 있다. 이를 통해 미래의 기술 문명 속에서 자연과 인간, 비인간이 상호 긍정적인 관계로 공존하는 역동적인 예술의 장을 제시하고 있다. 부산현대미술관은 동시대적인 맥락에서의 예술 동향 조사 연구와 담론 생산을 선도하기 위해 작품 수집 및 전시·학술·국제 협력 프로그램을 운영하고 있다. 또한 다양성과 포용성이라는 미술관의 사회적 역할을 실현하기 위해 여러 계층을 대상으로 한 교육 및 문화 프로그램을 실시하며 일반 관람객과 미술 전문가 모두와 소통하는 미술관을 지향하고 있다. 2018년 6월 15일 개관동시대 미술을 중심으로 하는 공립미술관",
+      "metadata": {
+        "holiday_close": "18:00",
+        "amenities_raw": "책그림섬, 모카이브, 뮤지엄숍, 카페, 야외정원, 옥상정원, 강의실",
+        "name": "부산현대미술관",
+        "child_fee": 0.0,
+        "requires_manual_review": true,
+        "sido": "부산광역시",
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "transport_notes": "지하철, 버스 등홈페이지 참조",
+        "holiday_open": "10:00",
+        "weekday_open": "10:00",
+        "youth_fee": 0.0,
+        "source_types": "BASE|TOUR_API",
+        "longitude": 128.9426936,
+        "fee_notes": "부산광역시립미술관 및 부산현대미술관 운영조례 제5조에 따름",
+        "address": "부산광역시 사하구 낙동남로 1191(하단동)",
+        "ownership_type": "공립",
+        "adult_fee": 0.0,
+        "homepage_url": "https://www.busan.go.kr/moca",
+        "image_copyright": "Type3",
+        "sigungu": "사하구",
+        "latitude": 35.10933193,
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/95/3506195_image2_1.jpg",
+        "weekday_close": "18:00",
+        "closure_rule_raw": "1.1 휴관매주 월요일 휴관"
+      },
+      "vector_rank": 3,
+      "bm25_rank": 1,
+      "vector_distance": 0.49954450130462646,
+      "vector_score": null,
+      "bm25_score": 27.250994568212896,
+      "vector_document": "천연기념물 제179호 을숙도에 위치한 부산현대미술관은 환경·생태적 가치의 지속 가능성을 지향하는 부산광역시 공립 미술관이다. 부지 29,900㎡, 면적 15,312㎡, 전시 공간 5,910㎡ 규모로 2018년 6월 16일 개관하였으며 서부산권 문화 플랫폼의 역할을 수행하고 있다. 급변하는 21세기 현대 사회에서 부산현대미술관은 뉴미디어를 포함한 다양한 매체에서 펼쳐지는 동시대 미술을 중심으로 지역과 세계를 밀접하게 연결하는 다각적인 예술 활동을 전개하고 있다. 이를 통해 미래의 기술 문명 속에서 자연과 인간, 비인간이 상호 긍정적인 관계로 공존하는 역동적인 예술의 장을 제시하고 있다. 부산현대미술관은 동시대적인 맥락에서의 예술 동향 조사 연구와 담론 생산을 선도하기 위해 작품 수집 및 전시·학술·국제 협력 프로그램을 운영하고 있다. 또한 다양성과 포용성이라는 미술관의 사회적 역할을 실현하기 위해 여러 계층을 대상으로 한 교육 및 문화 프로그램을 실시하며 일반 관람객과 미술 전문가 모두와 소통하는 미술관을 지향하고 있다. 2018년 6월 15일 개관동시대 미술을 중심으로 하는 공립미술관",
+      "bm25_document": "천연기념물 제179호 을숙도에 위치한 부산현대미술관은 환경·생태적 가치의 지속 가능성을 지향하는 부산광역시 공립 미술관이다. 부지 29,900㎡, 면적 15,312㎡, 전시 공간 5,910㎡ 규모로 2018년 6월 16일 개관하였으며 서부산권 문화 플랫폼의 역할을 수행하고 있다. 급변하는 21세기 현대 사회에서 부산현대미술관은 뉴미디어를 포함한 다양한 매체에서 펼쳐지는 동시대 미술을 중심으로 지역과 세계를 밀접하게 연결하는 다각적인 예술 활동을 전개하고 있다. 이를 통해 미래의 기술 문명 속에서 자연과 인간, 비인간이 상호 긍정적인 관계로 공존하는 역동적인 예술의 장을 제시하고 있다. 부산현대미술관은 동시대적인 맥락에서의 예술 동향 조사 연구와 담론 생산을 선도하기 위해 작품 수집 및 전시·학술·국제 협력 프로그램을 운영하고 있다. 또한 다양성과 포용성이라는 미술관의 사회적 역할을 실현하기 위해 여러 계층을 대상으로 한 교육 및 문화 프로그램을 실시하며 일반 관람객과 미술 전문가 모두와 소통하는 미술관을 지향하고 있다. 2018년 6월 15일 개관동시대 미술을 중심으로 하는 공립미술관",
+      "best_span_id": "chroma:M0163",
+      "best_span_text": "천연기념물 제179호 을숙도에 위치한 부산현대미술관은 환경·생태적 가치의 지속 가능성을 지향하는 부산광역시 공립 미술관이다. 부지 29,900㎡, 면적 15,312㎡, 전시 공간 5,910㎡ 규모로 2018년 6월 16일 개관하였으며 서부산권 문화 플랫폼의 역할을 수행하고 있다. 급변하는 21세기 현대 사회에서 부산현대미술관은 뉴미디어를 포함한 다양한 매체에서 펼쳐지는 동시대 미술을 중심으로 지역과 세계를 밀접하게 연결하는 다각적인 예술 활동을 전개하고 있다. 이를 통해 미래의 기술 문명 속에서 자연과 인간, 비인간이 상호 긍정적인 관계로 공존하는 역동적인 예술의 장을 제시하고 있다. 부산현대미술관은 동시대적인 맥락에서의 예술 동향 조사 연구와 담론 생산을 선도하기 위해 작품 수집 및 전시·학술·국제 협력 프로그램을 운영하고 있다. 또한 다양성과 포용성이라는 미술관의 사회적 역할을 실현하기 위해 여러 계층을 대상으로 한 교육 및 문화 프로그램을 실시하며 일반 관람객과 미술 전문가 모두와 소통하는 미술관을 지향하고 있다. 2018년 6월 15일 개관동시대 미술을 중심으로 하는 공립미술관",
+      "fusion_score": 0.032266458495966696,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 1,
+      "name_match": true,
+      "rerank_score": 0.9995007514953613,
+      "rank": 1,
+      "score": 0.9995007514953613,
+      "score_type": "cross_encoder",
+      "distance": 0.49954450130462646,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0163",
+      "source_doc_ids": [
+        "DOC-B0163-TOUR_API-2605688",
+        "DOC-B0163-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0163-TOUR_API-2605688",
+          "source_type": "TOUR_API",
+          "source_record_id": "2605688",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=76",
+          "match_trust": "RECHECKED_BY_RULE_NOT_HUMAN_APPROVED"
+        },
+        {
+          "doc_id": "DOC-B0163-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0163",
+          "source_locator": "data/raw/museum_base_1070.csv#row=164",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 69,
+          "doc_ids": [
+            "DOC-B0163-TOUR_API-2605688"
+          ]
+        },
+        {
+          "start": 70,
+          "end": 156,
+          "doc_ids": [
+            "DOC-B0163-TOUR_API-2605688"
+          ]
+        },
+        {
+          "start": 157,
+          "end": 259,
+          "doc_ids": [
+            "DOC-B0163-TOUR_API-2605688"
+          ]
+        },
+        {
+          "start": 260,
+          "end": 330,
+          "doc_ids": [
+            "DOC-B0163-TOUR_API-2605688"
+          ]
+        },
+        {
+          "start": 331,
+          "end": 414,
+          "doc_ids": [
+            "DOC-B0163-TOUR_API-2605688"
+          ]
+        },
+        {
+          "start": 415,
+          "end": 521,
+          "doc_ids": [
+            "DOC-B0163-TOUR_API-2605688"
+          ]
+        },
+        {
+          "start": 522,
+          "end": 558,
+          "doc_ids": [
+            "DOC-B0163-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=76",
+      "text": "천연기념물 제179호 을숙도에 위치한 부산현대미술관은 환경·생태적 가치의 지속 가능성을 지향하는 부산광역시 공립 미술관이다. 부지 29,900㎡, 면적 15,312㎡, 전시 공간 5,910㎡ 규모로 2018년 6월 16일 개관하였으며 서부산권 문화 플랫폼의 역할을 수행하고 있다. 급변하는 21세기 현대 사회에서 부산현대미술관은 뉴미디어를 포함한 다양한 매체에서 펼쳐지는 동시대 미술을 중심으로 지역과 세계를 밀접하게 연결하는 다각적인 예술 활동을 전개하고 있다. 이를 통해 미래의 기술 문명 속에서 자연과 인간, 비인간이 상호 긍정적인 관계로 공존하는 역동적인 예술의 장을 제시하고 있다. 부산현대미술관은 동시대적인 맥락에서의 예술 동향 조사 연구와 담론 생산을 선도하기 위해 작품 수집 및 전시·학술·국제 협력 프로그램을 운영하고 있다. 또한 다양성과 포용성이라는 미술관의 사회적 역할을 실현하기 위해 여러 계층을 대상으로 한 교육 및 문화 프로그램을 실시하며 일반 관람객과 미술 전문가 모두와 소통하는 미술관을 지향하고 있다. 2018년 6월 15일 개관동시대 미술을 중심으로 하는 공립미술관",
+      "sido": "부산광역시",
+      "sigungu": "사하구",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=76"
+      ],
+      "evidence_id": "E1",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=106",
+        "fields": {
+          "name": "부산현대미술관",
+          "sido": "부산광역시",
+          "sigungu": "사하구",
+          "address": "부산광역시 사하구 낙동남로 1191(하단동)",
+          "ownership_type": "공립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "10:00",
+          "weekday_close": "18:00",
+          "holiday_open": "10:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "1.1 휴관매주 월요일 휴관",
+          "amenities_raw": "책그림섬, 모카이브, 뮤지엄숍, 카페, 야외정원, 옥상정원, 강의실"
+        },
+        "base_data_date": "2026-09-04",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0771",
+      "name": "K현대미술관",
+      "document": "서울 강남구 압구정동 중심에 위치한 K현대미술관은 6개 층 전시장 4,959㎡ 규모의 사립 미술관이다. 현대미술의 실험적이고, 다학문적인 플랫폼이며 현대 사회의 대화의 장이 될 수 있는 역할을 수행 하는 것을 목표로 다양한 국내외 아티스트들의 도전적 시도를 존중하며 실험적 전시를 대중에게 소개하고 있다. 또한 모든 연령층에게 예술에 대한 친숙함을 주기 위해 장벽 없는 환경에서 어린이부터 성인까지 누구나 쉽게 예술과 가까워지고, 직접 참여할 수 있는 프로그램과 워크숍을 제공하고 있다.",
+      "metadata": {
+        "address": "서울특별시 강남구 선릉로 807",
+        "image_copyright": "Type3",
+        "youth_fee": 12000.0,
+        "image_url": "http://tong.visitkorea.or.kr/cms/resource/79/2778979_image2_1.jpg",
+        "sigungu": "강남구",
+        "requires_manual_review": true,
+        "ownership_type": "사립",
+        "child_fee": 10000.0,
+        "homepage_url": "http://kmcaseoul.org/",
+        "closure_rule_raw": "월",
+        "holiday_open": "10:00",
+        "weekday_open": "10:00",
+        "latitude": 37.52438077,
+        "sido": "서울특별시",
+        "holiday_close": "19:00",
+        "longitude": 127.0391734,
+        "source_types": "TOUR_API",
+        "weekday_close": "19:00",
+        "adult_fee": 15000.0,
+        "name": "K현대미술관",
+        "adult_fee_status": "BASE_FEE_PAID"
+      },
+      "vector_rank": 12,
+      "bm25_rank": 5,
+      "vector_distance": 0.5598533749580383,
+      "vector_score": null,
+      "bm25_score": 13.040516991059583,
+      "vector_document": "서울 강남구 압구정동 중심에 위치한 K현대미술관은 6개 층 전시장 4,959㎡ 규모의 사립 미술관이다. 현대미술의 실험적이고, 다학문적인 플랫폼이며 현대 사회의 대화의 장이 될 수 있는 역할을 수행 하는 것을 목표로 다양한 국내외 아티스트들의 도전적 시도를 존중하며 실험적 전시를 대중에게 소개하고 있다. 또한 모든 연령층에게 예술에 대한 친숙함을 주기 위해 장벽 없는 환경에서 어린이부터 성인까지 누구나 쉽게 예술과 가까워지고, 직접 참여할 수 있는 프로그램과 워크숍을 제공하고 있다.",
+      "bm25_document": "서울 강남구 압구정동 중심에 위치한 K현대미술관은 6개 층 전시장 4,959㎡ 규모의 사립 미술관이다. 현대미술의 실험적이고, 다학문적인 플랫폼이며 현대 사회의 대화의 장이 될 수 있는 역할을 수행 하는 것을 목표로 다양한 국내외 아티스트들의 도전적 시도를 존중하며 실험적 전시를 대중에게 소개하고 있다. 또한 모든 연령층에게 예술에 대한 친숙함을 주기 위해 장벽 없는 환경에서 어린이부터 성인까지 누구나 쉽게 예술과 가까워지고, 직접 참여할 수 있는 프로그램과 워크숍을 제공하고 있다.",
+      "best_span_id": "chroma:M0771",
+      "best_span_text": "서울 강남구 압구정동 중심에 위치한 K현대미술관은 6개 층 전시장 4,959㎡ 규모의 사립 미술관이다. 현대미술의 실험적이고, 다학문적인 플랫폼이며 현대 사회의 대화의 장이 될 수 있는 역할을 수행 하는 것을 목표로 다양한 국내외 아티스트들의 도전적 시도를 존중하며 실험적 전시를 대중에게 소개하고 있다. 또한 모든 연령층에게 예술에 대한 친숙함을 주기 위해 장벽 없는 환경에서 어린이부터 성인까지 누구나 쉽게 예술과 가까워지고, 직접 참여할 수 있는 프로그램과 워크숍을 제공하고 있다.",
+      "fusion_score": 0.029273504273504274,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 3,
+      "rerank_score": 0.0015966577921062708,
+      "rank": 2,
+      "score": 0.0015966577921062708,
+      "score_type": "cross_encoder",
+      "distance": 0.5598533749580383,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0771",
+      "source_doc_ids": [
+        "DOC-B0771-TOUR_API-2773265"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0771-TOUR_API-2773265",
+          "source_type": "TOUR_API",
+          "source_record_id": "2773265",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=372",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 57,
+          "doc_ids": [
+            "DOC-B0771-TOUR_API-2773265"
+          ]
+        },
+        {
+          "start": 58,
+          "end": 170,
+          "doc_ids": [
+            "DOC-B0771-TOUR_API-2773265"
+          ]
+        },
+        {
+          "start": 171,
+          "end": 272,
+          "doc_ids": [
+            "DOC-B0771-TOUR_API-2773265"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=372",
+      "text": "서울 강남구 압구정동 중심에 위치한 K현대미술관은 6개 층 전시장 4,959㎡ 규모의 사립 미술관이다. 현대미술의 실험적이고, 다학문적인 플랫폼이며 현대 사회의 대화의 장이 될 수 있는 역할을 수행 하는 것을 목표로 다양한 국내외 아티스트들의 도전적 시도를 존중하며 실험적 전시를 대중에게 소개하고 있다. 또한 모든 연령층에게 예술에 대한 친숙함을 주기 위해 장벽 없는 환경에서 어린이부터 성인까지 누구나 쉽게 예술과 가까워지고, 직접 참여할 수 있는 프로그램과 워크숍을 제공하고 있다.",
+      "sido": "서울특별시",
+      "sigungu": "강남구",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=372"
+      ],
+      "evidence_id": "E2",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=532",
+        "fields": {
+          "name": "K현대미술관",
+          "sido": "서울특별시",
+          "sigungu": "강남구",
+          "address": "서울특별시 강남구 선릉로 807",
+          "ownership_type": "사립",
+          "adult_fee": "15000",
+          "youth_fee": "12000",
+          "child_fee": "10000",
+          "adult_fee_status": "BASE_FEE_PAID",
+          "weekday_open": "10:00",
+          "weekday_close": "19:00",
+          "holiday_open": "10:00",
+          "holiday_close": "19:00",
+          "closure_rule_raw": "월"
+        },
+        "base_data_date": "2024-07-18",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0626",
+      "name": "아르코미술관",
+      "document": "아르코미술관은 1974년 종로구 관훈동 옛 덕수병원 건물에서 한국문화예술진흥원 산하의 미술회관으로 시작하였다. 1979년 마로니에공원 내에 한국 대표 건축가 김수근이 설계한 신축 건물로 이전해 현재의 모습을 갖추었고 2005년 한국문화예술진흥원이 한국문화예술위원회로 전환되면서 영문 약칭을 딴 현재의 이름으로 재탄생했다. 2021년 이후 ‘유용·포용·협업·공유’라는 4대 운영 전략 아래 연구·창작·전시·교류 활동이 선순환하는 플랫폼을 표방하고 사회적 의제를 다룬 기획전과 미술 담론의 생성과 확산을 위한 공공 프로그램 등을 운영하고 있다. 미술관과 함께 바로 이웃한 아르코예술극장과 더불어 미술관의 붉은 벽돌 건물은 오늘날 대학로의 대표적 상징물이기도 하다.",
+      "metadata": {
+        "ownership_type": "사립",
+        "longitude": 127.003256,
+        "holiday_close": "19:00",
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "sido": "서울특별시",
+        "weekday_close": "19:00",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/28/2993428_image2_1.jpg",
+        "latitude": 37.58050139,
+        "address": "서울특별시 종로구 동숭길 3",
+        "requires_manual_review": true,
+        "youth_fee": 0.0,
+        "image_copyright": "Type3",
+        "adult_fee": 0.0,
+        "child_fee": 0.0,
+        "source_types": "TOUR_API",
+        "holiday_open": "11:00",
+        "closure_rule_raw": "월+신정+추석당일+설날 당일",
+        "homepage_url": "https://www.arko.or.kr/artcenter/",
+        "name": "아르코미술관",
+        "sigungu": "종로구",
+        "weekday_open": "11:00"
+      },
+      "vector_rank": null,
+      "bm25_rank": 7,
+      "vector_distance": null,
+      "vector_score": null,
+      "bm25_score": 11.93141504101665,
+      "vector_document": "",
+      "bm25_document": "아르코미술관은 1974년 종로구 관훈동 옛 덕수병원 건물에서 한국문화예술진흥원 산하의 미술회관으로 시작하였다. 1979년 마로니에공원 내에 한국 대표 건축가 김수근이 설계한 신축 건물로 이전해 현재의 모습을 갖추었고 2005년 한국문화예술진흥원이 한국문화예술위원회로 전환되면서 영문 약칭을 딴 현재의 이름으로 재탄생했다. 2021년 이후 ‘유용·포용·협업·공유’라는 4대 운영 전략 아래 연구·창작·전시·교류 활동이 선순환하는 플랫폼을 표방하고 사회적 의제를 다룬 기획전과 미술 담론의 생성과 확산을 위한 공공 프로그램 등을 운영하고 있다. 미술관과 함께 바로 이웃한 아르코예술극장과 더불어 미술관의 붉은 벽돌 건물은 오늘날 대학로의 대표적 상징물이기도 하다.",
+      "best_span_id": "chroma:M0626",
+      "best_span_text": "아르코미술관은 1974년 종로구 관훈동 옛 덕수병원 건물에서 한국문화예술진흥원 산하의 미술회관으로 시작하였다. 1979년 마로니에공원 내에 한국 대표 건축가 김수근이 설계한 신축 건물로 이전해 현재의 모습을 갖추었고 2005년 한국문화예술진흥원이 한국문화예술위원회로 전환되면서 영문 약칭을 딴 현재의 이름으로 재탄생했다. 2021년 이후 ‘유용·포용·협업·공유’라는 4대 운영 전략 아래 연구·창작·전시·교류 활동이 선순환하는 플랫폼을 표방하고 사회적 의제를 다룬 기획전과 미술 담론의 생성과 확산을 위한 공공 프로그램 등을 운영하고 있다. 미술관과 함께 바로 이웃한 아르코예술극장과 더불어 미술관의 붉은 벽돌 건물은 오늘날 대학로의 대표적 상징물이기도 하다.",
+      "fusion_score": 0.014925373134328358,
+      "retrieved_by": [
+        "bm25"
+      ],
+      "fusion_rank": 15,
+      "rerank_score": 0.0012926881900057197,
+      "rank": 3,
+      "score": 0.0012926881900057197,
+      "score_type": "cross_encoder",
+      "distance": null,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "bm25"
+      ],
+      "retriever": "bm25",
+      "span_id": "chroma:M0626",
+      "source_doc_ids": [
+        "DOC-B0626-TOUR_API-130403"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0626-TOUR_API-130403",
+          "source_type": "TOUR_API",
+          "source_record_id": "130403",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=313",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 61,
+          "doc_ids": [
+            "DOC-B0626-TOUR_API-130403"
+          ]
+        },
+        {
+          "start": 62,
+          "end": 179,
+          "doc_ids": [
+            "DOC-B0626-TOUR_API-130403"
+          ]
+        },
+        {
+          "start": 180,
+          "end": 302,
+          "doc_ids": [
+            "DOC-B0626-TOUR_API-130403"
+          ]
+        },
+        {
+          "start": 303,
+          "end": 369,
+          "doc_ids": [
+            "DOC-B0626-TOUR_API-130403"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=313",
+      "text": "아르코미술관은 1974년 종로구 관훈동 옛 덕수병원 건물에서 한국문화예술진흥원 산하의 미술회관으로 시작하였다. 1979년 마로니에공원 내에 한국 대표 건축가 김수근이 설계한 신축 건물로 이전해 현재의 모습을 갖추었고 2005년 한국문화예술진흥원이 한국문화예술위원회로 전환되면서 영문 약칭을 딴 현재의 이름으로 재탄생했다. 2021년 이후 ‘유용·포용·협업·공유’라는 4대 운영 전략 아래 연구·창작·전시·교류 활동이 선순환하는 플랫폼을 표방하고 사회적 의제를 다룬 기획전과 미술 담론의 생성과 확산을 위한 공공 프로그램 등을 운영하고 있다. 미술관과 함께 바로 이웃한 아르코예술극장과 더불어 미술관의 붉은 벽돌 건물은 오늘날 대학로의 대표적 상징물이기도 하다.",
+      "sido": "서울특별시",
+      "sigungu": "종로구",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=313"
+      ],
+      "evidence_id": "E3",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=437",
+        "fields": {
+          "name": "아르코미술관",
+          "sido": "서울특별시",
+          "sigungu": "종로구",
+          "address": "서울특별시 종로구 동숭길 3",
+          "ownership_type": "사립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "11:00",
+          "weekday_close": "19:00",
+          "holiday_open": "11:00",
+          "holiday_close": "19:00",
+          "closure_rule_raw": "월+신정+추석당일+설날 당일"
+        },
+        "base_data_date": "2025-11-01",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0657",
+      "name": "환기미술관",
+      "document": "환기미술관은 1992년 11월 수화 김환기를 기리고 현대미술의 발전에 공헌하고자 건축가 우규승의 설계로 서울에 개관하였다. 한국현대미술을 대표하는 김환기의 예술세계를 널리 알리기 위해 매년 김환기 연구 특별기획전과 도록을 발간하고 있으며 ‘근현대작가 연구’, ‘수화가 만난 사람들’, ‘환기미술관 공간프로젝트’, ‘환기재단 작가전’과 같은 현대작가와 동시대 작가들 전시뿐만 아니라 ‘프리환기’ 공모전을 통하여 다양한 분야에서 활동하는 젊은 예술가들의 창작활동을 지원하고 있다. 또한 ‘치매어르신 예술프로그램’ ‘아트온’ ‘아트띵크’ 등과 같은 교육프로그램을 통해 시민사회를 위한 공공교육기관으로서의 역할도 담당하고 있다. 이는 예술가가 남긴 훌륭한 예술세계가 시간과 더불어 우리 문화유산으로 역사에 남는다는 설립자의 신념에서 출발한 것이다. 앞으로도 환기미술관은 기관의 미래 비전인 “예술로써 소통하는 사회로의 꿈”을 실현하기 위해 더욱 노력할 것이다.",
+      "metadata": {
+        "weekday_close": "18:00",
+        "sido": "서울특별시",
+        "adult_fee": 15000.0,
+        "homepage_url": "http://whankimuseum.org/",
+        "youth_fee": 7500.0,
+        "weekday_open": "10:00",
+        "holiday_close": "18:00",
+        "address": "서울특별시 종로구 자하문로 40길 63",
+        "image_copyright": "Type3",
+        "longitude": 126.966112,
+        "adult_fee_status": "BASE_FEE_PAID",
+        "image_url": "http://tong.visitkorea.or.kr/cms/resource/52/3488552_image2_1.jpg",
+        "sigungu": "종로구",
+        "holiday_open": "10:00",
+        "latitude": 37.59408714,
+        "child_fee": 7500.0,
+        "closure_rule_raw": "월요일",
+        "source_types": "TOUR_API",
+        "name": "환기미술관",
+        "requires_manual_review": true,
+        "ownership_type": "사립"
+      },
+      "vector_rank": 7,
+      "bm25_rank": 3,
+      "vector_distance": 0.5409669876098633,
+      "vector_score": null,
+      "bm25_score": 14.286310367647449,
+      "vector_document": "환기미술관은 1992년 11월 수화 김환기를 기리고 현대미술의 발전에 공헌하고자 건축가 우규승의 설계로 서울에 개관하였다. 한국현대미술을 대표하는 김환기의 예술세계를 널리 알리기 위해 매년 김환기 연구 특별기획전과 도록을 발간하고 있으며 ‘근현대작가 연구’, ‘수화가 만난 사람들’, ‘환기미술관 공간프로젝트’, ‘환기재단 작가전’과 같은 현대작가와 동시대 작가들 전시뿐만 아니라 ‘프리환기’ 공모전을 통하여 다양한 분야에서 활동하는 젊은 예술가들의 창작활동을 지원하고 있다. 또한 ‘치매어르신 예술프로그램’ ‘아트온’ ‘아트띵크’ 등과 같은 교육프로그램을 통해 시민사회를 위한 공공교육기관으로서의 역할도 담당하고 있다. 이는 예술가가 남긴 훌륭한 예술세계가 시간과 더불어 우리 문화유산으로 역사에 남는다는 설립자의 신념에서 출발한 것이다. 앞으로도 환기미술관은 기관의 미래 비전인 “예술로써 소통하는 사회로의 꿈”을 실현하기 위해 더욱 노력할 것이다.",
+      "bm25_document": "환기미술관은 1992년 11월 수화 김환기를 기리고 현대미술의 발전에 공헌하고자 건축가 우규승의 설계로 서울에 개관하였다. 한국현대미술을 대표하는 김환기의 예술세계를 널리 알리기 위해 매년 김환기 연구 특별기획전과 도록을 발간하고 있으며 ‘근현대작가 연구’, ‘수화가 만난 사람들’, ‘환기미술관 공간프로젝트’, ‘환기재단 작가전’과 같은 현대작가와 동시대 작가들 전시뿐만 아니라 ‘프리환기’ 공모전을 통하여 다양한 분야에서 활동하는 젊은 예술가들의 창작활동을 지원하고 있다. 또한 ‘치매어르신 예술프로그램’ ‘아트온’ ‘아트띵크’ 등과 같은 교육프로그램을 통해 시민사회를 위한 공공교육기관으로서의 역할도 담당하고 있다. 이는 예술가가 남긴 훌륭한 예술세계가 시간과 더불어 우리 문화유산으로 역사에 남는다는 설립자의 신념에서 출발한 것이다. 앞으로도 환기미술관은 기관의 미래 비전인 “예술로써 소통하는 사회로의 꿈”을 실현하기 위해 더욱 노력할 것이다.",
+      "best_span_id": "chroma:M0657",
+      "best_span_text": "환기미술관은 1992년 11월 수화 김환기를 기리고 현대미술의 발전에 공헌하고자 건축가 우규승의 설계로 서울에 개관하였다. 한국현대미술을 대표하는 김환기의 예술세계를 널리 알리기 위해 매년 김환기 연구 특별기획전과 도록을 발간하고 있으며 ‘근현대작가 연구’, ‘수화가 만난 사람들’, ‘환기미술관 공간프로젝트’, ‘환기재단 작가전’과 같은 현대작가와 동시대 작가들 전시뿐만 아니라 ‘프리환기’ 공모전을 통하여 다양한 분야에서 활동하는 젊은 예술가들의 창작활동을 지원하고 있다. 또한 ‘치매어르신 예술프로그램’ ‘아트온’ ‘아트띵크’ 등과 같은 교육프로그램을 통해 시민사회를 위한 공공교육기관으로서의 역할도 담당하고 있다. 이는 예술가가 남긴 훌륭한 예술세계가 시간과 더불어 우리 문화유산으로 역사에 남는다는 설립자의 신념에서 출발한 것이다. 앞으로도 환기미술관은 기관의 미래 비전인 “예술로써 소통하는 사회로의 꿈”을 실현하기 위해 더욱 노력할 것이다.",
+      "fusion_score": 0.030798389007344232,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 2,
+      "rerank_score": 0.0011896543437615037,
+      "rank": 4,
+      "score": 0.0011896543437615037,
+      "score_type": "cross_encoder",
+      "distance": 0.5409669876098633,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0657",
+      "source_doc_ids": [
+        "DOC-B0657-TOUR_API-129760"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0657-TOUR_API-129760",
+          "source_type": "TOUR_API",
+          "source_record_id": "129760",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=327",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 68,
+          "doc_ids": [
+            "DOC-B0657-TOUR_API-129760"
+          ]
+        },
+        {
+          "start": 69,
+          "end": 266,
+          "doc_ids": [
+            "DOC-B0657-TOUR_API-129760"
+          ]
+        },
+        {
+          "start": 267,
+          "end": 347,
+          "doc_ids": [
+            "DOC-B0657-TOUR_API-129760"
+          ]
+        },
+        {
+          "start": 348,
+          "end": 414,
+          "doc_ids": [
+            "DOC-B0657-TOUR_API-129760"
+          ]
+        },
+        {
+          "start": 415,
+          "end": 477,
+          "doc_ids": [
+            "DOC-B0657-TOUR_API-129760"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=327",
+      "text": "환기미술관은 1992년 11월 수화 김환기를 기리고 현대미술의 발전에 공헌하고자 건축가 우규승의 설계로 서울에 개관하였다. 한국현대미술을 대표하는 김환기의 예술세계를 널리 알리기 위해 매년 김환기 연구 특별기획전과 도록을 발간하고 있으며 ‘근현대작가 연구’, ‘수화가 만난 사람들’, ‘환기미술관 공간프로젝트’, ‘환기재단 작가전’과 같은 현대작가와 동시대 작가들 전시뿐만 아니라 ‘프리환기’ 공모전을 통하여 다양한 분야에서 활동하는 젊은 예술가들의 창작활동을 지원하고 있다. 또한 ‘치매어르신 예술프로그램’ ‘아트온’ ‘아트띵크’ 등과 같은 교육프로그램을 통해 시민사회를 위한 공공교육기관으로서의 역할도 담당하고 있다. 이는 예술가가 남긴 훌륭한 예술세계가 시간과 더불어 우리 문화유산으로 역사에 남는다는 설립자의 신념에서 출발한 것이다. 앞으로도 환기미술관은 기관의 미래 비전인 “예술로써 소통하는 사회로의 꿈”을 실현하기 위해 더욱 노력할 것이다.",
+      "sido": "서울특별시",
+      "sigungu": "종로구",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=327"
+      ],
+      "evidence_id": "E4",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=453",
+        "fields": {
+          "name": "환기미술관",
+          "sido": "서울특별시",
+          "sigungu": "종로구",
+          "address": "서울특별시 종로구 자하문로 40길 63",
+          "ownership_type": "사립",
+          "adult_fee": "15000",
+          "youth_fee": "7500",
+          "child_fee": "7500",
+          "adult_fee_status": "BASE_FEE_PAID",
+          "weekday_open": "10:00",
+          "weekday_close": "18:00",
+          "holiday_open": "10:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "월요일"
+        },
+        "base_data_date": "2025-11-01",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0786",
+      "name": "스페이스몸미술관",
+      "document": "전통을 기반으로 현대미술의 다양한 양태를 수용하여 예술의 지평을 확장해 나가고자하는 미술관",
+      "metadata": {
+        "source_types": "BASE",
+        "closure_rule_raw": "1월1일+설 연휴+추석 연휴+일,월(기획전 기간 월만 휴관)",
+        "sigungu": "청주시",
+        "holiday_close": "18:00",
+        "weekday_open": "10:00",
+        "homepage_url": "http://www.spacemom.org",
+        "requires_manual_review": true,
+        "weekday_close": "18:00",
+        "sido": "충청북도",
+        "ownership_type": "사립",
+        "longitude": 127.4328093,
+        "transport_notes": "1전시장 20-1, 50-2, 105, 311, 513, 747 청주고속버스터미널 하차 / 2전시장 50-2, 50-1 서현공원 정류장 하차 후 도보 12분",
+        "amenities_raw": "주차장",
+        "youth_fee": 0.0,
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "adult_fee": 0.0,
+        "name": "스페이스몸미술관",
+        "address": "충청북도 청주시 흥덕구 풍년로 162 (1관)충청북도 청주시 흥덕구 서부로1205번길 183(2관)",
+        "latitude": 36.62677804,
+        "holiday_open": "10:00",
+        "child_fee": 0.0
+      },
+      "vector_rank": 6,
+      "bm25_rank": null,
+      "vector_distance": 0.5408967137336731,
+      "vector_score": null,
+      "bm25_score": null,
+      "vector_document": "전통을 기반으로 현대미술의 다양한 양태를 수용하여 예술의 지평을 확장해 나가고자하는 미술관",
+      "bm25_document": "",
+      "best_span_id": null,
+      "best_span_text": null,
+      "fusion_score": 0.015151515151515152,
+      "retrieved_by": [
+        "vector"
+      ],
+      "fusion_rank": 13,
+      "rerank_score": 0.0009354624780826271,
+      "rank": 5,
+      "score": 0.0009354624780826271,
+      "score_type": "cross_encoder",
+      "distance": 0.5408967137336731,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector"
+      ],
+      "retriever": "vector",
+      "source_doc_ids": [
+        "DOC-B0786-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0786-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0786",
+          "source_locator": "data/raw/museum_base_1070.csv#row=787",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 50,
+          "doc_ids": [
+            "DOC-B0786-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_base_1070.csv#row=787",
+      "text": "전통을 기반으로 현대미술의 다양한 양태를 수용하여 예술의 지평을 확장해 나가고자하는 미술관",
+      "sido": "충청북도",
+      "sigungu": "청주시",
+      "span_id": "",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_base_1070.csv#row=787"
+      ],
+      "evidence_id": "E5",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=542",
+        "fields": {
+          "name": "스페이스몸미술관",
+          "sido": "충청북도",
+          "sigungu": "청주시",
+          "address": "충청북도 청주시 흥덕구 풍년로 162 (1관)충청북도 청주시 흥덕구 서부로1205번길 183(2관)",
+          "ownership_type": "사립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "10:00",
+          "weekday_close": "18:00",
+          "holiday_open": "10:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "1월1일+설 연휴+추석 연휴+일,월(기획전 기간 월만 휴관)",
+          "amenities_raw": "주차장"
+        },
+        "base_data_date": "2025-11-26",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    }
+  ],
+  "answer": "부산현대미술관은 여러 계층을 대상으로 교육·문화 프로그램을 실시해 다양성과 포용성이라는 사회적 역할을 실천하고, 일반 관람객과 미술 전문가 모두와 소통하는 미술관을 지향합니다. [E1]",
+  "retrieval_status": "ok",
+  "answer_status": "answered",
+  "route": "hybrid",
+  "retry_count": 0,
+  "supervisor_verified": true,
+  "rerank_applied": true,
+  "retriever_errors": [],
+  "warnings": [],
+  "duration_ms": 143912.0,
+  "error_type": "",
+  "hit_at_1": 1,
+  "hit_at_3": 1,
+  "hit_at_5": 1,
+  "recall_at_5": 1.0,
+  "mrr_at_10": 1.0
+}

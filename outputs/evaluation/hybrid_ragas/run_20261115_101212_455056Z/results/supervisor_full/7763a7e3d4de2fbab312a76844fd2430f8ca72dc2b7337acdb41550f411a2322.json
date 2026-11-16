@@ -1,0 +1,774 @@
+{
+  "mode": "supervisor_full",
+  "question_id": "Q280",
+  "evidence": [
+    {
+      "museum_id": "M0486",
+      "name": "국립청주박물관",
+      "document": "국립청주박물관은 충북지역의 문화유산을 조사·발굴하고 연구하여 전시하고 있으며 다양한 교육 프로그램을 통해 청주지역의 문화 특색을 조명하고자 1987년 10월 30일 개관했다. 박물관은 한국 현대건축의 기념비적인 작품으로 우암산 동쪽 기슭의 풍광을 배경 삼아 상당산성에 이르는 골짜기에 자리 잡고 있다. 2022년 상설전시관을 새롭게 개편해 공개했으며 고고실과 미술실에는 충청북도의 선사, 고대, 삼국, 통일신라, 고려, 조선 발굴품 및 금속 문화유산과 불비상 등을 전시하고 있다. 또한 국립청주박물관의 금속 문화 브랜드 강화를 위해 금관실을 열고 금속공예의 정수, 서봉총 금관과 금 허리띠를 공개하고 있다. 국립청주박물관은 매년 다양한 주제의 특별 전시를 비롯하여 박물관 연구과정, 어린이 박물관 학교, 전통문화교실 등의 문화·교육 프로그램과 봄 문화축제 등 행사를 마련하고 이용자들에게 다채로운 경험을 제공하고 있다. 충청북도의 선사·고대 및 중세 문화유산을 조사·전시하는 국립박물관이다. 지역에서 출토된 고고자료와 금속문화재, 불교미술품 등을 통해 중원문화의 특징을 살펴볼 수 있다.",
+      "metadata": {
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/80/3480580_image2_1.jpg",
+        "address": "충청북도 청주시 상당구 명암로 143",
+        "weekday_open": "09:00",
+        "longitude": 127.5120091,
+        "ownership_type": "국립",
+        "homepage_url": "https://cheongju.museum.go.kr/",
+        "adult_fee": 0.0,
+        "latitude": 36.64966894,
+        "youth_fee": 0.0,
+        "sido": "충청북도",
+        "sigungu": "청주시",
+        "source_types": "TOUR_API|WEB_RESEARCH",
+        "holiday_open": "09:00",
+        "closure_rule_raw": "매주 월요일(단, 월요일이 공휴일인 경우 당일은 개관하고 그 다음 첫번째 평일에 휴관), 1월 1일, 설날 및 추석 당일",
+        "requires_manual_review": true,
+        "name": "국립청주박물관",
+        "weekday_close": "18:00",
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "child_fee": 0.0,
+        "image_copyright": "Type3",
+        "holiday_close": "18:00"
+      },
+      "vector_rank": 1,
+      "bm25_rank": 1,
+      "vector_distance": 0.3502121567726135,
+      "vector_score": null,
+      "bm25_score": 18.673610153129136,
+      "vector_document": "국립청주박물관은 충북지역의 문화유산을 조사·발굴하고 연구하여 전시하고 있으며 다양한 교육 프로그램을 통해 청주지역의 문화 특색을 조명하고자 1987년 10월 30일 개관했다. 박물관은 한국 현대건축의 기념비적인 작품으로 우암산 동쪽 기슭의 풍광을 배경 삼아 상당산성에 이르는 골짜기에 자리 잡고 있다. 2022년 상설전시관을 새롭게 개편해 공개했으며 고고실과 미술실에는 충청북도의 선사, 고대, 삼국, 통일신라, 고려, 조선 발굴품 및 금속 문화유산과 불비상 등을 전시하고 있다. 또한 국립청주박물관의 금속 문화 브랜드 강화를 위해 금관실을 열고 금속공예의 정수, 서봉총 금관과 금 허리띠를 공개하고 있다. 국립청주박물관은 매년 다양한 주제의 특별 전시를 비롯하여 박물관 연구과정, 어린이 박물관 학교, 전통문화교실 등의 문화·교육 프로그램과 봄 문화축제 등 행사를 마련하고 이용자들에게 다채로운 경험을 제공하고 있다. 충청북도의 선사·고대 및 중세 문화유산을 조사·전시하는 국립박물관이다. 지역에서 출토된 고고자료와 금속문화재, 불교미술품 등을 통해 중원문화의 특징을 살펴볼 수 있다.",
+      "bm25_document": "국립청주박물관은 충북지역의 문화유산을 조사·발굴하고 연구하여 전시하고 있으며 다양한 교육 프로그램을 통해 청주지역의 문화 특색을 조명하고자 1987년 10월 30일 개관했다. 박물관은 한국 현대건축의 기념비적인 작품으로 우암산 동쪽 기슭의 풍광을 배경 삼아 상당산성에 이르는 골짜기에 자리 잡고 있다. 2022년 상설전시관을 새롭게 개편해 공개했으며 고고실과 미술실에는 충청북도의 선사, 고대, 삼국, 통일신라, 고려, 조선 발굴품 및 금속 문화유산과 불비상 등을 전시하고 있다. 또한 국립청주박물관의 금속 문화 브랜드 강화를 위해 금관실을 열고 금속공예의 정수, 서봉총 금관과 금 허리띠를 공개하고 있다. 국립청주박물관은 매년 다양한 주제의 특별 전시를 비롯하여 박물관 연구과정, 어린이 박물관 학교, 전통문화교실 등의 문화·교육 프로그램과 봄 문화축제 등 행사를 마련하고 이용자들에게 다채로운 경험을 제공하고 있다. 충청북도의 선사·고대 및 중세 문화유산을 조사·전시하는 국립박물관이다. 지역에서 출토된 고고자료와 금속문화재, 불교미술품 등을 통해 중원문화의 특징을 살펴볼 수 있다.",
+      "best_span_id": "chroma:M0486",
+      "best_span_text": "국립청주박물관은 충북지역의 문화유산을 조사·발굴하고 연구하여 전시하고 있으며 다양한 교육 프로그램을 통해 청주지역의 문화 특색을 조명하고자 1987년 10월 30일 개관했다. 박물관은 한국 현대건축의 기념비적인 작품으로 우암산 동쪽 기슭의 풍광을 배경 삼아 상당산성에 이르는 골짜기에 자리 잡고 있다. 2022년 상설전시관을 새롭게 개편해 공개했으며 고고실과 미술실에는 충청북도의 선사, 고대, 삼국, 통일신라, 고려, 조선 발굴품 및 금속 문화유산과 불비상 등을 전시하고 있다. 또한 국립청주박물관의 금속 문화 브랜드 강화를 위해 금관실을 열고 금속공예의 정수, 서봉총 금관과 금 허리띠를 공개하고 있다. 국립청주박물관은 매년 다양한 주제의 특별 전시를 비롯하여 박물관 연구과정, 어린이 박물관 학교, 전통문화교실 등의 문화·교육 프로그램과 봄 문화축제 등 행사를 마련하고 이용자들에게 다채로운 경험을 제공하고 있다. 충청북도의 선사·고대 및 중세 문화유산을 조사·전시하는 국립박물관이다. 지역에서 출토된 고고자료와 금속문화재, 불교미술품 등을 통해 중원문화의 특징을 살펴볼 수 있다.",
+      "fusion_score": 0.03278688524590164,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 1,
+      "name_match": true,
+      "rerank_score": 0.9991769194602966,
+      "rank": 1,
+      "score": 0.9991769194602966,
+      "score_type": "cross_encoder",
+      "distance": 0.3502121567726135,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0486",
+      "source_doc_ids": [
+        "DOC-B0486-TOUR_API-129779",
+        "DOC-WEB-M0486-20261111"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0486-TOUR_API-129779",
+          "source_type": "TOUR_API",
+          "source_record_id": "129779",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=238",
+          "match_trust": "RECHECKED_BY_RULE_NOT_HUMAN_APPROVED"
+        },
+        {
+          "doc_id": "DOC-WEB-M0486-20261111",
+          "source_type": "WEB_RESEARCH",
+          "source_record_id": "RESEARCH-M0486",
+          "source_locator": "https://www.cbmuseum.or.kr/bbs/board.php?bo_table=cbms01_01&sca=%EC%B6%A9%EC%B2%AD%EB%B6%81%EB%8F%84%EB%B0%95%EB%AC%BC%EA%B4%80%2C%EB%AF%B8%EC%88%A0%EA%B4%80&wr_id=9",
+          "source_url": "https://www.cbmuseum.or.kr/bbs/board.php?bo_table=cbms01_01&sca=%EC%B6%A9%EC%B2%AD%EB%B6%81%EB%8F%84%EB%B0%95%EB%AC%BC%EA%B4%80%2C%EB%AF%B8%EC%88%A0%EA%B4%80&wr_id=9",
+          "match_trust": "WEB_SOURCE_REVIEWED_NOT_HUMAN_APPROVED"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 97,
+          "doc_ids": [
+            "DOC-B0486-TOUR_API-129779"
+          ]
+        },
+        {
+          "start": 98,
+          "end": 168,
+          "doc_ids": [
+            "DOC-B0486-TOUR_API-129779"
+          ]
+        },
+        {
+          "start": 169,
+          "end": 268,
+          "doc_ids": [
+            "DOC-B0486-TOUR_API-129779"
+          ]
+        },
+        {
+          "start": 269,
+          "end": 339,
+          "doc_ids": [
+            "DOC-B0486-TOUR_API-129779"
+          ]
+        },
+        {
+          "start": 340,
+          "end": 458,
+          "doc_ids": [
+            "DOC-B0486-TOUR_API-129779"
+          ]
+        },
+        {
+          "start": 459,
+          "end": 498,
+          "doc_ids": [
+            "DOC-WEB-M0486-20261111"
+          ]
+        },
+        {
+          "start": 499,
+          "end": 552,
+          "doc_ids": [
+            "DOC-WEB-M0486-20261111"
+          ]
+        }
+      ],
+      "source_urls": [
+        "https://www.cbmuseum.or.kr/bbs/board.php?bo_table=cbms01_01&sca=%EC%B6%A9%EC%B2%AD%EB%B6%81%EB%8F%84%EB%B0%95%EB%AC%BC%EA%B4%80%2C%EB%AF%B8%EC%88%A0%EA%B4%80&wr_id=9"
+      ],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=238",
+      "text": "국립청주박물관은 충북지역의 문화유산을 조사·발굴하고 연구하여 전시하고 있으며 다양한 교육 프로그램을 통해 청주지역의 문화 특색을 조명하고자 1987년 10월 30일 개관했다. 박물관은 한국 현대건축의 기념비적인 작품으로 우암산 동쪽 기슭의 풍광을 배경 삼아 상당산성에 이르는 골짜기에 자리 잡고 있다. 2022년 상설전시관을 새롭게 개편해 공개했으며 고고실과 미술실에는 충청북도의 선사, 고대, 삼국, 통일신라, 고려, 조선 발굴품 및 금속 문화유산과 불비상 등을 전시하고 있다. 또한 국립청주박물관의 금속 문화 브랜드 강화를 위해 금관실을 열고 금속공예의 정수, 서봉총 금관과 금 허리띠를 공개하고 있다. 국립청주박물관은 매년 다양한 주제의 특별 전시를 비롯하여 박물관 연구과정, 어린이 박물관 학교, 전통문화교실 등의 문화·교육 프로그램과 봄 문화축제 등 행사를 마련하고 이용자들에게 다채로운 경험을 제공하고 있다. 충청북도의 선사·고대 및 중세 문화유산을 조사·전시하는 국립박물관이다. 지역에서 출토된 고고자료와 금속문화재, 불교미술품 등을 통해 중원문화의 특징을 살펴볼 수 있다.",
+      "sido": "충청북도",
+      "sigungu": "청주시",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=238"
+      ],
+      "evidence_id": "E1",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=349",
+        "fields": {
+          "name": "국립청주박물관",
+          "sido": "충청북도",
+          "sigungu": "청주시",
+          "address": "충청북도 청주시 상당구 명암로 143",
+          "ownership_type": "국립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "09:00",
+          "weekday_close": "18:00",
+          "holiday_open": "09:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "매주 월요일(단, 월요일이 공휴일인 경우 당일은 개관하고 그 다음 첫번째 평일에 휴관), 1월 1일, 설날 및 추석 당일"
+        },
+        "base_data_date": "2026-04-08",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0485",
+      "name": "국립공주박물관",
+      "document": "국립공주박물관은 1946년 4월 1일 웅진 백제 문화를 중심으로 충청남도의 역사와 문화를 보존, 전시하기 위해 개관했다. 웅진백제를 주제로 하는 전시실과 충청남도의 역사문화를 주제로 한 전시실이 있으며, 다양한 주제의 특별전시도 수시로 열리고 있다. 전시 외에도 다채로운 문화행사와 교육 프로그램도 진행하고 있다. 백제 웅진 시기와 무령왕릉 관련 문화유산을 전시하는 국립박물관이다. 무령왕릉 출토 유물과 충남의 역사문화 자료를 중심으로 지역의 고대사를 살펴볼 수 있다.",
+      "metadata": {
+        "weekday_close": "18:00",
+        "image_url": "http://tong.visitkorea.or.kr/cms/resource/33/3534933_image2_1.jpg",
+        "holiday_close": "18:00",
+        "address": "충청남도 공주시 관광단지길 34",
+        "child_fee": 0.0,
+        "adult_fee": 0.0,
+        "homepage_url": "https://gongju.museum.go.kr/kor/index.do",
+        "requires_manual_review": true,
+        "longitude": 127.112179949,
+        "sigungu": "공주시",
+        "weekday_open": "09:00",
+        "source_types": "TOUR_API|WEB_RESEARCH",
+        "ownership_type": "국립",
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "image_copyright": "Type1",
+        "holiday_open": "09:00",
+        "closure_rule_raw": "매주 월요일(단, 월요일이 공휴일인 경우 당일은 개관하고 그 다음 첫번째 평일에 휴관), 1월 1일, 설날 및 추석 당일",
+        "youth_fee": 0.0,
+        "sido": "충청남도",
+        "latitude": 36.465529123,
+        "name": "국립공주박물관"
+      },
+      "vector_rank": 7,
+      "bm25_rank": 3,
+      "vector_distance": 0.4655452370643616,
+      "vector_score": null,
+      "bm25_score": 9.606246375700016,
+      "vector_document": "국립공주박물관은 1946년 4월 1일 웅진 백제 문화를 중심으로 충청남도의 역사와 문화를 보존, 전시하기 위해 개관했다. 웅진백제를 주제로 하는 전시실과 충청남도의 역사문화를 주제로 한 전시실이 있으며, 다양한 주제의 특별전시도 수시로 열리고 있다. 전시 외에도 다채로운 문화행사와 교육 프로그램도 진행하고 있다. 백제 웅진 시기와 무령왕릉 관련 문화유산을 전시하는 국립박물관이다. 무령왕릉 출토 유물과 충남의 역사문화 자료를 중심으로 지역의 고대사를 살펴볼 수 있다.",
+      "bm25_document": "국립공주박물관은 1946년 4월 1일 웅진 백제 문화를 중심으로 충청남도의 역사와 문화를 보존, 전시하기 위해 개관했다. 웅진백제를 주제로 하는 전시실과 충청남도의 역사문화를 주제로 한 전시실이 있으며, 다양한 주제의 특별전시도 수시로 열리고 있다. 전시 외에도 다채로운 문화행사와 교육 프로그램도 진행하고 있다. 백제 웅진 시기와 무령왕릉 관련 문화유산을 전시하는 국립박물관이다. 무령왕릉 출토 유물과 충남의 역사문화 자료를 중심으로 지역의 고대사를 살펴볼 수 있다.",
+      "best_span_id": "chroma:M0485",
+      "best_span_text": "국립공주박물관은 1946년 4월 1일 웅진 백제 문화를 중심으로 충청남도의 역사와 문화를 보존, 전시하기 위해 개관했다. 웅진백제를 주제로 하는 전시실과 충청남도의 역사문화를 주제로 한 전시실이 있으며, 다양한 주제의 특별전시도 수시로 열리고 있다. 전시 외에도 다채로운 문화행사와 교육 프로그램도 진행하고 있다. 백제 웅진 시기와 무령왕릉 관련 문화유산을 전시하는 국립박물관이다. 무령왕릉 출토 유물과 충남의 역사문화 자료를 중심으로 지역의 고대사를 살펴볼 수 있다.",
+      "fusion_score": 0.030798389007344232,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 2,
+      "rerank_score": 0.0854729488492012,
+      "rank": 2,
+      "score": 0.0854729488492012,
+      "score_type": "cross_encoder",
+      "distance": 0.4655452370643616,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0485",
+      "source_doc_ids": [
+        "DOC-B0485-TOUR_API-129787",
+        "DOC-WEB-M0485-20261111"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0485-TOUR_API-129787",
+          "source_type": "TOUR_API",
+          "source_record_id": "129787",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=237",
+          "match_trust": "RECHECKED_BY_RULE_NOT_HUMAN_APPROVED"
+        },
+        {
+          "doc_id": "DOC-WEB-M0485-20261111",
+          "source_type": "WEB_RESEARCH",
+          "source_record_id": "RESEARCH-M0485",
+          "source_locator": "https://kh.or.kr/cont/view/fest/month/menu/210?idx=110143&searchCategory1=600&searchDate=202507&searchField=all&thisPage=1",
+          "source_url": "https://kh.or.kr/cont/view/fest/month/menu/210?idx=110143&searchCategory1=600&searchDate=202507&searchField=all&thisPage=1",
+          "match_trust": "WEB_SOURCE_REVIEWED_NOT_HUMAN_APPROVED"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 67,
+          "doc_ids": [
+            "DOC-B0485-TOUR_API-129787"
+          ]
+        },
+        {
+          "start": 68,
+          "end": 139,
+          "doc_ids": [
+            "DOC-B0485-TOUR_API-129787"
+          ]
+        },
+        {
+          "start": 140,
+          "end": 175,
+          "doc_ids": [
+            "DOC-B0485-TOUR_API-129787"
+          ]
+        },
+        {
+          "start": 176,
+          "end": 213,
+          "doc_ids": [
+            "DOC-WEB-M0485-20261111"
+          ]
+        },
+        {
+          "start": 214,
+          "end": 262,
+          "doc_ids": [
+            "DOC-WEB-M0485-20261111"
+          ]
+        }
+      ],
+      "source_urls": [
+        "https://kh.or.kr/cont/view/fest/month/menu/210?idx=110143&searchCategory1=600&searchDate=202507&searchField=all&thisPage=1"
+      ],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=237",
+      "text": "국립공주박물관은 1946년 4월 1일 웅진 백제 문화를 중심으로 충청남도의 역사와 문화를 보존, 전시하기 위해 개관했다. 웅진백제를 주제로 하는 전시실과 충청남도의 역사문화를 주제로 한 전시실이 있으며, 다양한 주제의 특별전시도 수시로 열리고 있다. 전시 외에도 다채로운 문화행사와 교육 프로그램도 진행하고 있다. 백제 웅진 시기와 무령왕릉 관련 문화유산을 전시하는 국립박물관이다. 무령왕릉 출토 유물과 충남의 역사문화 자료를 중심으로 지역의 고대사를 살펴볼 수 있다.",
+      "sido": "충청남도",
+      "sigungu": "공주시",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=237"
+      ],
+      "evidence_id": "E2",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=348",
+        "fields": {
+          "name": "국립공주박물관",
+          "sido": "충청남도",
+          "sigungu": "공주시",
+          "address": "충청남도 공주시 관광단지길 34",
+          "ownership_type": "국립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "09:00",
+          "weekday_close": "18:00",
+          "holiday_open": "09:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "매주 월요일(단, 월요일이 공휴일인 경우 당일은 개관하고 그 다음 첫번째 평일에 휴관), 1월 1일, 설날 및 추석 당일"
+        },
+        "base_data_date": "2026-04-08",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0891",
+      "name": "한국잠사박물관",
+      "document": "한국잠사박물관은 우리나라 잠사 문화의 역사를 보여주고, 전통을 수집하고 보존해 후대에 물려주기 위해서 개관한 박물관이다. 잠사는 누에고치를 쳐서 실을 뽑는 일을 말한다. 박물관에서는 학생들에게는 자연과학을 이해하고 배울 수 있는 생생한 학습 현장을 제공하기 위해 누에고치를 쳐서 실을 뽑고 비단을 만드는 체험 프로그램을 운영 중이다. 또, 박물관과 디지털키즈카페, 양떼정원 체험, 사계절 썰매장, 수영장, 오디축제를 연계한 한국잠사플레이팜을 운영하며 방문객들에게 다양한 체험교육과 행사를 진행하고 있다. 민족 전통 잠사산업과 곤충 누에의 비밀이 숨겨져 있는곳, 4계절 계절프로그램과 청주 복합 테마파크형 박물관",
+      "metadata": {
+        "transport_notes": "청주역에서 자차 5분거리",
+        "holiday_close": "17:00",
+        "weekday_close": "17:00",
+        "ownership_type": "사립",
+        "requires_manual_review": true,
+        "fee_notes": "시즌별 상이",
+        "latitude": 36.63936808,
+        "holiday_open": "10:00",
+        "sigungu": "청주시",
+        "homepage_url": "https://www.jamsamuseum.co.kr",
+        "child_fee": 12000.0,
+        "youth_fee": 10000.0,
+        "adult_fee_status": "BASE_FEE_PAID",
+        "source_types": "BASE|TOUR_API",
+        "image_copyright": "Type3",
+        "closure_rule_raw": "매주 월요일",
+        "longitude": 127.3822358,
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/31/3057331_image2_1.jpg",
+        "address": "충청북도 청주시 흥덕구 강내면 청주역로 213-52",
+        "amenities_raw": "주차장",
+        "adult_fee": 10000.0,
+        "name": "한국잠사박물관",
+        "weekday_open": "10:00",
+        "sido": "충청북도"
+      },
+      "vector_rank": 9,
+      "bm25_rank": null,
+      "vector_distance": 0.47292184829711914,
+      "vector_score": null,
+      "bm25_score": null,
+      "vector_document": "한국잠사박물관은 우리나라 잠사 문화의 역사를 보여주고, 전통을 수집하고 보존해 후대에 물려주기 위해서 개관한 박물관이다. 잠사는 누에고치를 쳐서 실을 뽑는 일을 말한다. 박물관에서는 학생들에게는 자연과학을 이해하고 배울 수 있는 생생한 학습 현장을 제공하기 위해 누에고치를 쳐서 실을 뽑고 비단을 만드는 체험 프로그램을 운영 중이다. 또, 박물관과 디지털키즈카페, 양떼정원 체험, 사계절 썰매장, 수영장, 오디축제를 연계한 한국잠사플레이팜을 운영하며 방문객들에게 다양한 체험교육과 행사를 진행하고 있다. 민족 전통 잠사산업과 곤충 누에의 비밀이 숨겨져 있는곳, 4계절 계절프로그램과 청주 복합 테마파크형 박물관",
+      "bm25_document": "",
+      "best_span_id": null,
+      "best_span_text": null,
+      "fusion_score": 0.014492753623188406,
+      "retrieved_by": [
+        "vector"
+      ],
+      "fusion_rank": 15,
+      "rerank_score": 0.009397400543093681,
+      "rank": 3,
+      "score": 0.009397400543093681,
+      "score_type": "cross_encoder",
+      "distance": 0.47292184829711914,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector"
+      ],
+      "retriever": "vector",
+      "source_doc_ids": [
+        "DOC-B0891-TOUR_API-130748",
+        "DOC-B0891-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0891-TOUR_API-130748",
+          "source_type": "TOUR_API",
+          "source_record_id": "130748",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=421",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        },
+        {
+          "doc_id": "DOC-B0891-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0891",
+          "source_locator": "data/raw/museum_base_1070.csv#row=892",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 67,
+          "doc_ids": [
+            "DOC-B0891-TOUR_API-130748"
+          ]
+        },
+        {
+          "start": 68,
+          "end": 94,
+          "doc_ids": [
+            "DOC-B0891-TOUR_API-130748"
+          ]
+        },
+        {
+          "start": 95,
+          "end": 186,
+          "doc_ids": [
+            "DOC-B0891-TOUR_API-130748"
+          ]
+        },
+        {
+          "start": 187,
+          "end": 281,
+          "doc_ids": [
+            "DOC-B0891-TOUR_API-130748"
+          ]
+        },
+        {
+          "start": 282,
+          "end": 341,
+          "doc_ids": [
+            "DOC-B0891-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=421",
+      "text": "한국잠사박물관은 우리나라 잠사 문화의 역사를 보여주고, 전통을 수집하고 보존해 후대에 물려주기 위해서 개관한 박물관이다. 잠사는 누에고치를 쳐서 실을 뽑는 일을 말한다. 박물관에서는 학생들에게는 자연과학을 이해하고 배울 수 있는 생생한 학습 현장을 제공하기 위해 누에고치를 쳐서 실을 뽑고 비단을 만드는 체험 프로그램을 운영 중이다. 또, 박물관과 디지털키즈카페, 양떼정원 체험, 사계절 썰매장, 수영장, 오디축제를 연계한 한국잠사플레이팜을 운영하며 방문객들에게 다양한 체험교육과 행사를 진행하고 있다. 민족 전통 잠사산업과 곤충 누에의 비밀이 숨겨져 있는곳, 4계절 계절프로그램과 청주 복합 테마파크형 박물관",
+      "sido": "충청북도",
+      "sigungu": "청주시",
+      "span_id": "",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=421"
+      ],
+      "evidence_id": "E3",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=609",
+        "fields": {
+          "name": "한국잠사박물관",
+          "sido": "충청북도",
+          "sigungu": "청주시",
+          "address": "충청북도 청주시 흥덕구 강내면 청주역로 213-52",
+          "ownership_type": "사립",
+          "adult_fee": "10000",
+          "youth_fee": "10000",
+          "child_fee": "12000",
+          "adult_fee_status": "BASE_FEE_PAID",
+          "weekday_open": "10:00",
+          "weekday_close": "17:00",
+          "holiday_open": "10:00",
+          "holiday_close": "17:00",
+          "closure_rule_raw": "매주 월요일",
+          "amenities_raw": "주차장"
+        },
+        "base_data_date": "2025-11-26",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0490",
+      "name": "국립농업박물관",
+      "document": "국립농업박물관은 우리 농업의 어제와 오늘 그리고 내일을 만날 수 있는 다양한 전시와 실내외 농업 체험장으로 구성되어 있다. 농업의 모든 것을 선보이는 상설 전시와 다양한 측면을 포착한 기획 전시, 농촌의 가치를 체험할 수 있는 어린이박물관이 있다. 도심 속 여유를 만끽할 수 있는 야외 농업 체험장과 식물원, 곤충관은 물론, 직접 느끼며 깨닫는 교육 프로그램까지 다양한 볼거리와 즐길거리가 가득하다. ‘모두가 찾아오고 싶은 생활 문화 공간’을 추구하며 농업 농촌의 가치를 친근하게 전파하고자 한다. 한국 농업의 역사와 미래, 농촌문화와 식문화를 소개하는 국립박물관이다. 농업관과 어린이박물관, 식물원·곤충관·농업체험시설을 통해 농업의 여러 모습을 체험할 수 있다.",
+      "metadata": {
+        "child_fee": 0.0,
+        "weekday_close": "18:00",
+        "holiday_close": "18:00",
+        "longitude": 126.9849753448,
+        "adult_fee": 0.0,
+        "homepage_url": "https://www.namuk.or.kr/sites/kr/index.do",
+        "sigungu": "수원시",
+        "requires_manual_review": true,
+        "ownership_type": "국립",
+        "youth_fee": 0.0,
+        "image_copyright": "Type1",
+        "address": "경기도 수원시 권선구 수인로 154",
+        "holiday_open": "10:00",
+        "name": "국립농업박물관",
+        "source_types": "TOUR_API|WEB_RESEARCH",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/95/4056595_image2_1.jpg",
+        "latitude": 37.2748838338,
+        "closure_rule_raw": "매주 월요일, 1월 1일, 설·추석 당일",
+        "weekday_open": "10:00",
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "sido": "경기도"
+      },
+      "vector_rank": 11,
+      "bm25_rank": null,
+      "vector_distance": 0.47743427753448486,
+      "vector_score": null,
+      "bm25_score": null,
+      "vector_document": "국립농업박물관은 우리 농업의 어제와 오늘 그리고 내일을 만날 수 있는 다양한 전시와 실내외 농업 체험장으로 구성되어 있다. 농업의 모든 것을 선보이는 상설 전시와 다양한 측면을 포착한 기획 전시, 농촌의 가치를 체험할 수 있는 어린이박물관이 있다. 도심 속 여유를 만끽할 수 있는 야외 농업 체험장과 식물원, 곤충관은 물론, 직접 느끼며 깨닫는 교육 프로그램까지 다양한 볼거리와 즐길거리가 가득하다. ‘모두가 찾아오고 싶은 생활 문화 공간’을 추구하며 농업 농촌의 가치를 친근하게 전파하고자 한다. 한국 농업의 역사와 미래, 농촌문화와 식문화를 소개하는 국립박물관이다. 농업관과 어린이박물관, 식물원·곤충관·농업체험시설을 통해 농업의 여러 모습을 체험할 수 있다.",
+      "bm25_document": "",
+      "best_span_id": null,
+      "best_span_text": null,
+      "fusion_score": 0.014084507042253521,
+      "retrieved_by": [
+        "vector"
+      ],
+      "fusion_rank": 19,
+      "rerank_score": 0.0034854046534746885,
+      "rank": 4,
+      "score": 0.0034854046534746885,
+      "score_type": "cross_encoder",
+      "distance": 0.47743427753448486,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector"
+      ],
+      "retriever": "vector",
+      "source_doc_ids": [
+        "DOC-B0490-TOUR_API-2944481",
+        "DOC-WEB-M0490-20261111"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0490-TOUR_API-2944481",
+          "source_type": "TOUR_API",
+          "source_record_id": "2944481",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=242",
+          "match_trust": "RECHECKED_BY_RULE_NOT_HUMAN_APPROVED"
+        },
+        {
+          "doc_id": "DOC-WEB-M0490-20261111",
+          "source_type": "WEB_RESEARCH",
+          "source_record_id": "RESEARCH-M0490",
+          "source_locator": "https://namuk.or.kr/kr/597/subview.do",
+          "source_url": "https://namuk.or.kr/kr/597/subview.do",
+          "match_trust": "WEB_SOURCE_REVIEWED_NOT_HUMAN_APPROVED"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 68,
+          "doc_ids": [
+            "DOC-B0490-TOUR_API-2944481"
+          ]
+        },
+        {
+          "start": 69,
+          "end": 138,
+          "doc_ids": [
+            "DOC-B0490-TOUR_API-2944481"
+          ]
+        },
+        {
+          "start": 139,
+          "end": 223,
+          "doc_ids": [
+            "DOC-B0490-TOUR_API-2944481"
+          ]
+        },
+        {
+          "start": 224,
+          "end": 278,
+          "doc_ids": [
+            "DOC-B0490-TOUR_API-2944481"
+          ]
+        },
+        {
+          "start": 279,
+          "end": 318,
+          "doc_ids": [
+            "DOC-WEB-M0490-20261111"
+          ]
+        },
+        {
+          "start": 319,
+          "end": 371,
+          "doc_ids": [
+            "DOC-WEB-M0490-20261111"
+          ]
+        }
+      ],
+      "source_urls": [
+        "https://namuk.or.kr/kr/597/subview.do"
+      ],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=242",
+      "text": "국립농업박물관은 우리 농업의 어제와 오늘 그리고 내일을 만날 수 있는 다양한 전시와 실내외 농업 체험장으로 구성되어 있다. 농업의 모든 것을 선보이는 상설 전시와 다양한 측면을 포착한 기획 전시, 농촌의 가치를 체험할 수 있는 어린이박물관이 있다. 도심 속 여유를 만끽할 수 있는 야외 농업 체험장과 식물원, 곤충관은 물론, 직접 느끼며 깨닫는 교육 프로그램까지 다양한 볼거리와 즐길거리가 가득하다. ‘모두가 찾아오고 싶은 생활 문화 공간’을 추구하며 농업 농촌의 가치를 친근하게 전파하고자 한다. 한국 농업의 역사와 미래, 농촌문화와 식문화를 소개하는 국립박물관이다. 농업관과 어린이박물관, 식물원·곤충관·농업체험시설을 통해 농업의 여러 모습을 체험할 수 있다.",
+      "sido": "경기도",
+      "sigungu": "수원시",
+      "span_id": "",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=242"
+      ],
+      "evidence_id": "E4",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=353",
+        "fields": {
+          "name": "국립농업박물관",
+          "sido": "경기도",
+          "sigungu": "수원시",
+          "address": "경기도 수원시 권선구 수인로 154",
+          "ownership_type": "국립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "10:00",
+          "weekday_close": "18:00",
+          "holiday_open": "10:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "매주 월요일, 1월 1일, 설·추석 당일"
+        },
+        "base_data_date": "2026-04-08",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0677",
+      "name": "국립저작권박물관",
+      "document": "국립저작권박물관은 모두가 이용자이자 저작자임을 공감하며 저작권의 올바른 이용 문화와 창작의 즐거움을 알아가는 체험형 박물관이다. 관람객 주도형 체험형 전시로 누구나 쉽고 재미있게 저작권을 이해하고 다양한 교육프로그램을 통해 저작자가 되어보는 경험을 제공하고 있다. 우리가 즐기는 모든 문화 콘텐츠의 지지 기반인 저작권 가치에 대하여 국민들의 체험적 경험을 통해 쉽게 이해할 수 있는 전시·교육·문화행사가 이루어지는 복합 문화공간이다. 문화 콘텐츠의 지지 기반인 저작권 가치에 대해 국민들의 체험적 경험 제공",
+      "metadata": {
+        "name": "국립저작권박물관",
+        "child_fee": 0.0,
+        "fee_notes": "0",
+        "longitude": 128.1344898,
+        "image_copyright": "Type3",
+        "weekday_close": "18:00",
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "sido": "경상남도",
+        "requires_manual_review": true,
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/00/3377700_image2_1.jpg",
+        "address": "경상남도 진주시 소호로 117",
+        "homepage_url": "https://copyright.or.kr/allco/main.do",
+        "weekday_open": "10:00",
+        "sigungu": "진주시",
+        "source_types": "BASE|TOUR_API",
+        "transport_notes": "시내버스(10번+150번+280번+290번+300번+301번)",
+        "youth_fee": 0.0,
+        "latitude": 35.17918439,
+        "adult_fee": 0.0,
+        "ownership_type": "국립",
+        "closure_rule_raw": "토·일요일 및 공휴일 휴관"
+      },
+      "vector_rank": 18,
+      "bm25_rank": 6,
+      "vector_distance": 0.49869388341903687,
+      "vector_score": null,
+      "bm25_score": 9.01547288831356,
+      "vector_document": "국립저작권박물관은 모두가 이용자이자 저작자임을 공감하며 저작권의 올바른 이용 문화와 창작의 즐거움을 알아가는 체험형 박물관이다. 관람객 주도형 체험형 전시로 누구나 쉽고 재미있게 저작권을 이해하고 다양한 교육프로그램을 통해 저작자가 되어보는 경험을 제공하고 있다. 우리가 즐기는 모든 문화 콘텐츠의 지지 기반인 저작권 가치에 대하여 국민들의 체험적 경험을 통해 쉽게 이해할 수 있는 전시·교육·문화행사가 이루어지는 복합 문화공간이다. 문화 콘텐츠의 지지 기반인 저작권 가치에 대해 국민들의 체험적 경험 제공",
+      "bm25_document": "국립저작권박물관은 모두가 이용자이자 저작자임을 공감하며 저작권의 올바른 이용 문화와 창작의 즐거움을 알아가는 체험형 박물관이다. 관람객 주도형 체험형 전시로 누구나 쉽고 재미있게 저작권을 이해하고 다양한 교육프로그램을 통해 저작자가 되어보는 경험을 제공하고 있다. 우리가 즐기는 모든 문화 콘텐츠의 지지 기반인 저작권 가치에 대하여 국민들의 체험적 경험을 통해 쉽게 이해할 수 있는 전시·교육·문화행사가 이루어지는 복합 문화공간이다. 문화 콘텐츠의 지지 기반인 저작권 가치에 대해 국민들의 체험적 경험 제공",
+      "best_span_id": "chroma:M0677",
+      "best_span_text": "국립저작권박물관은 모두가 이용자이자 저작자임을 공감하며 저작권의 올바른 이용 문화와 창작의 즐거움을 알아가는 체험형 박물관이다. 관람객 주도형 체험형 전시로 누구나 쉽고 재미있게 저작권을 이해하고 다양한 교육프로그램을 통해 저작자가 되어보는 경험을 제공하고 있다. 우리가 즐기는 모든 문화 콘텐츠의 지지 기반인 저작권 가치에 대하여 국민들의 체험적 경험을 통해 쉽게 이해할 수 있는 전시·교육·문화행사가 이루어지는 복합 문화공간이다. 문화 콘텐츠의 지지 기반인 저작권 가치에 대해 국민들의 체험적 경험 제공",
+      "fusion_score": 0.027972027972027972,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 3,
+      "rerank_score": 0.00345574296079576,
+      "rank": 5,
+      "score": 0.00345574296079576,
+      "score_type": "cross_encoder",
+      "distance": 0.49869388341903687,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0677",
+      "source_doc_ids": [
+        "DOC-B0677-TOUR_API-3375281",
+        "DOC-B0677-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0677-TOUR_API-3375281",
+          "source_type": "TOUR_API",
+          "source_record_id": "3375281",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=252",
+          "match_trust": "RECHECKED_BY_RULE_NOT_HUMAN_APPROVED"
+        },
+        {
+          "doc_id": "DOC-B0677-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0677",
+          "source_locator": "data/raw/museum_base_1070.csv#row=678",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 71,
+          "doc_ids": [
+            "DOC-B0677-TOUR_API-3375281"
+          ]
+        },
+        {
+          "start": 72,
+          "end": 147,
+          "doc_ids": [
+            "DOC-B0677-TOUR_API-3375281"
+          ]
+        },
+        {
+          "start": 148,
+          "end": 242,
+          "doc_ids": [
+            "DOC-B0677-TOUR_API-3375281"
+          ]
+        },
+        {
+          "start": 243,
+          "end": 283,
+          "doc_ids": [
+            "DOC-B0677-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=252",
+      "text": "국립저작권박물관은 모두가 이용자이자 저작자임을 공감하며 저작권의 올바른 이용 문화와 창작의 즐거움을 알아가는 체험형 박물관이다. 관람객 주도형 체험형 전시로 누구나 쉽고 재미있게 저작권을 이해하고 다양한 교육프로그램을 통해 저작자가 되어보는 경험을 제공하고 있다. 우리가 즐기는 모든 문화 콘텐츠의 지지 기반인 저작권 가치에 대하여 국민들의 체험적 경험을 통해 쉽게 이해할 수 있는 전시·교육·문화행사가 이루어지는 복합 문화공간이다. 문화 콘텐츠의 지지 기반인 저작권 가치에 대해 국민들의 체험적 경험 제공",
+      "sido": "경상남도",
+      "sigungu": "진주시",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=252"
+      ],
+      "evidence_id": "E5",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=467",
+        "fields": {
+          "name": "국립저작권박물관",
+          "sido": "경상남도",
+          "sigungu": "진주시",
+          "address": "경상남도 진주시 소호로 117",
+          "ownership_type": "국립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "10:00",
+          "weekday_close": "18:00",
+          "closure_rule_raw": "토·일요일 및 공휴일 휴관"
+        },
+        "base_data_date": "2025-11-04",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    }
+  ],
+  "answer": "국립청주박물관은 매년 다양한 주제의 특별 전시를 열며, 박물관 연구과정·어린이 박물관 학교·전통문화교실 등의 문화·교육 프로그램과 봄 문화축제 같은 행사도 마련합니다. [E1] 구체적인 전시 주제나 프로그램 일정은 제공된 자료에 나와 있지 않습니다.",
+  "retrieval_status": "ok",
+  "answer_status": "answered",
+  "route": "hybrid",
+  "retry_count": 0,
+  "supervisor_verified": true,
+  "rerank_applied": true,
+  "retriever_errors": [],
+  "warnings": [],
+  "duration_ms": 139925.64,
+  "error_type": "",
+  "hit_at_1": 1,
+  "hit_at_3": 1,
+  "hit_at_5": 1,
+  "recall_at_5": 1.0,
+  "mrr_at_10": 1.0
+}

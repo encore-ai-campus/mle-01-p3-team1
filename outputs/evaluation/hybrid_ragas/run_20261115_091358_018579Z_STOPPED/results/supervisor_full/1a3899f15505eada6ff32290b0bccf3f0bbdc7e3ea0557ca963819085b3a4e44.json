@@ -1,0 +1,745 @@
+{
+  "mode": "supervisor_full",
+  "question_id": "V2-CF05",
+  "evidence": [
+    {
+      "museum_id": "M0073",
+      "name": "제주해양동물박물관",
+      "document": "제주해양동물박물관에서는 제주만의 특별한 교육 체험이 가능하다. 고래상어, 개복치, 키다리 게 등 해양 동물의 생생한 이야기에 대한 교육 그리고 체험이 가능하며, 어른과 어린이의 알찬 놀이터가 되어준다. 주요 소장품으로 약 800여 종의 해양동물 표본이 10,000여 점 전시되어 있다. 이곳의 해양동물 표본은 40여 년간의 오랜 경험과 특수 기술로 생동감 있게 제작되었다. 해양동물 실물 표본을 직접 관찰할 수 있어, 표본의 본질적 가치를 바탕으로 한 해양 동물 교육과 체험의 장이 되고 있다. 해양 동물자원의 중요성과 공존의 가치를 인식시키는 계기를 마련하고, 국내 생태계 보전의식 확산에 이바지하는, 지속 가능한 해양 동물 전문 박물관이다. 주변 관광지로는 세계적 자연유산인 성산일출봉과 섭지코지, 아쿠아플라넷, 용눈이오름 등이 있다.",
+      "metadata": {
+        "fee_notes": "단체 관람 시 할인+도민할인",
+        "name": "제주해양동물박물관",
+        "longitude": 126.8551274,
+        "address": "제주특별자치도 서귀포시 성산읍 서성일로 689-21",
+        "weekday_close": "18:00",
+        "holiday_close": "18:00",
+        "adult_fee": 10000.0,
+        "ownership_type": "사립",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/47/3548447_image2_1.jpg",
+        "sigungu": "서귀포시",
+        "child_fee": 8000.0,
+        "requires_manual_review": true,
+        "weekday_open": "09:00",
+        "latitude": 33.42948623,
+        "holiday_open": "09:00",
+        "closure_rule_raw": "수",
+        "sido": "제주특별자치도",
+        "youth_fee": 9000.0,
+        "adult_fee_status": "BASE_FEE_PAID",
+        "source_types": "TOUR_API",
+        "image_copyright": "Type1",
+        "homepage_url": "http://www.jejumarineanimal.com"
+      },
+      "vector_rank": 11,
+      "bm25_rank": 1,
+      "vector_distance": 0.5637733340263367,
+      "vector_score": null,
+      "bm25_score": 23.03258009253453,
+      "vector_document": "제주해양동물박물관에서는 제주만의 특별한 교육 체험이 가능하다. 고래상어, 개복치, 키다리 게 등 해양 동물의 생생한 이야기에 대한 교육 그리고 체험이 가능하며, 어른과 어린이의 알찬 놀이터가 되어준다. 주요 소장품으로 약 800여 종의 해양동물 표본이 10,000여 점 전시되어 있다. 이곳의 해양동물 표본은 40여 년간의 오랜 경험과 특수 기술로 생동감 있게 제작되었다. 해양동물 실물 표본을 직접 관찰할 수 있어, 표본의 본질적 가치를 바탕으로 한 해양 동물 교육과 체험의 장이 되고 있다. 해양 동물자원의 중요성과 공존의 가치를 인식시키는 계기를 마련하고, 국내 생태계 보전의식 확산에 이바지하는, 지속 가능한 해양 동물 전문 박물관이다. 주변 관광지로는 세계적 자연유산인 성산일출봉과 섭지코지, 아쿠아플라넷, 용눈이오름 등이 있다.",
+      "bm25_document": "제주해양동물박물관에서는 제주만의 특별한 교육 체험이 가능하다. 고래상어, 개복치, 키다리 게 등 해양 동물의 생생한 이야기에 대한 교육 그리고 체험이 가능하며, 어른과 어린이의 알찬 놀이터가 되어준다. 주요 소장품으로 약 800여 종의 해양동물 표본이 10,000여 점 전시되어 있다. 이곳의 해양동물 표본은 40여 년간의 오랜 경험과 특수 기술로 생동감 있게 제작되었다. 해양동물 실물 표본을 직접 관찰할 수 있어, 표본의 본질적 가치를 바탕으로 한 해양 동물 교육과 체험의 장이 되고 있다. 해양 동물자원의 중요성과 공존의 가치를 인식시키는 계기를 마련하고, 국내 생태계 보전의식 확산에 이바지하는, 지속 가능한 해양 동물 전문 박물관이다. 주변 관광지로는 세계적 자연유산인 성산일출봉과 섭지코지, 아쿠아플라넷, 용눈이오름 등이 있다.",
+      "best_span_id": "chroma:M0073",
+      "best_span_text": "제주해양동물박물관에서는 제주만의 특별한 교육 체험이 가능하다. 고래상어, 개복치, 키다리 게 등 해양 동물의 생생한 이야기에 대한 교육 그리고 체험이 가능하며, 어른과 어린이의 알찬 놀이터가 되어준다. 주요 소장품으로 약 800여 종의 해양동물 표본이 10,000여 점 전시되어 있다. 이곳의 해양동물 표본은 40여 년간의 오랜 경험과 특수 기술로 생동감 있게 제작되었다. 해양동물 실물 표본을 직접 관찰할 수 있어, 표본의 본질적 가치를 바탕으로 한 해양 동물 교육과 체험의 장이 되고 있다. 해양 동물자원의 중요성과 공존의 가치를 인식시키는 계기를 마련하고, 국내 생태계 보전의식 확산에 이바지하는, 지속 가능한 해양 동물 전문 박물관이다. 주변 관광지로는 세계적 자연유산인 성산일출봉과 섭지코지, 아쿠아플라넷, 용눈이오름 등이 있다.",
+      "fusion_score": 0.03047794966520434,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 1,
+      "name_match": true,
+      "rerank_score": 0.10999833792448044,
+      "rank": 1,
+      "score": 0.10999833792448044,
+      "score_type": "cross_encoder",
+      "distance": 0.5637733340263367,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0073",
+      "source_doc_ids": [
+        "DOC-B0073-TOUR_API-2751843"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0073-TOUR_API-2751843",
+          "source_type": "TOUR_API",
+          "source_record_id": "2751843",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=37",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 34,
+          "doc_ids": [
+            "DOC-B0073-TOUR_API-2751843"
+          ]
+        },
+        {
+          "start": 35,
+          "end": 112,
+          "doc_ids": [
+            "DOC-B0073-TOUR_API-2751843"
+          ]
+        },
+        {
+          "start": 113,
+          "end": 159,
+          "doc_ids": [
+            "DOC-B0073-TOUR_API-2751843"
+          ]
+        },
+        {
+          "start": 160,
+          "end": 208,
+          "doc_ids": [
+            "DOC-B0073-TOUR_API-2751843"
+          ]
+        },
+        {
+          "start": 209,
+          "end": 276,
+          "doc_ids": [
+            "DOC-B0073-TOUR_API-2751843"
+          ]
+        },
+        {
+          "start": 277,
+          "end": 360,
+          "doc_ids": [
+            "DOC-B0073-TOUR_API-2751843"
+          ]
+        },
+        {
+          "start": 361,
+          "end": 413,
+          "doc_ids": [
+            "DOC-B0073-TOUR_API-2751843"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=37",
+      "text": "제주해양동물박물관에서는 제주만의 특별한 교육 체험이 가능하다. 고래상어, 개복치, 키다리 게 등 해양 동물의 생생한 이야기에 대한 교육 그리고 체험이 가능하며, 어른과 어린이의 알찬 놀이터가 되어준다. 주요 소장품으로 약 800여 종의 해양동물 표본이 10,000여 점 전시되어 있다. 이곳의 해양동물 표본은 40여 년간의 오랜 경험과 특수 기술로 생동감 있게 제작되었다. 해양동물 실물 표본을 직접 관찰할 수 있어, 표본의 본질적 가치를 바탕으로 한 해양 동물 교육과 체험의 장이 되고 있다. 해양 동물자원의 중요성과 공존의 가치를 인식시키는 계기를 마련하고, 국내 생태계 보전의식 확산에 이바지하는, 지속 가능한 해양 동물 전문 박물관이다. 주변 관광지로는 세계적 자연유산인 성산일출봉과 섭지코지, 아쿠아플라넷, 용눈이오름 등이 있다.",
+      "sido": "제주특별자치도",
+      "sigungu": "서귀포시",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=37"
+      ],
+      "evidence_id": "E1",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=47",
+        "fields": {
+          "name": "제주해양동물박물관",
+          "sido": "제주특별자치도",
+          "sigungu": "서귀포시",
+          "address": "제주특별자치도 서귀포시 성산읍 서성일로 689-21",
+          "ownership_type": "사립",
+          "adult_fee": "10000",
+          "youth_fee": "9000",
+          "child_fee": "8000",
+          "adult_fee_status": "BASE_FEE_PAID",
+          "weekday_open": "09:00",
+          "weekday_close": "18:00",
+          "holiday_open": "09:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "수"
+        },
+        "base_data_date": "2026-09-30",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0092",
+      "name": "민속자연사박물관",
+      "document": "제주의 자연환경과 전통 민속을 함께 보여주는 박물관이다. 자연사전시실에서는 지질·동식물과 해양생물 표본을, 민속전시실에서는 제주인의 생활과 생업 문화를 살펴볼 수 있다.",
+      "metadata": {
+        "amenities_raw": "카페테리아+문화상품판매+수유실+물품보관함",
+        "ownership_type": "공립",
+        "holiday_close": "18:00",
+        "name": "민속자연사박물관",
+        "weekday_close": "18:00",
+        "closure_rule_raw": "월+1월 1일+설 당일+설 다음날+추석 당일+추석 다음날+훈증 소독기간(별도 공지)",
+        "child_fee": 0.0,
+        "sigungu": "제주시",
+        "adult_fee": 2000.0,
+        "address": "제주특별자치도 제주시 삼성로 40",
+        "source_types": "WEB_RESEARCH",
+        "longitude": 126.5317241,
+        "requires_manual_review": true,
+        "holiday_open": "09:00",
+        "weekday_open": "09:00",
+        "latitude": 33.50563037,
+        "fee_notes": "단체 관람 시 할인+도민할인",
+        "adult_fee_status": "BASE_FEE_PAID",
+        "homepage_url": "http://www.jeju.go.kr/museum/index.htm",
+        "sido": "제주특별자치도",
+        "youth_fee": 1000.0
+      },
+      "vector_rank": null,
+      "bm25_rank": 5,
+      "vector_distance": null,
+      "vector_score": null,
+      "bm25_score": 12.596608893776445,
+      "vector_document": "",
+      "bm25_document": "제주의 자연환경과 전통 민속을 함께 보여주는 박물관이다. 자연사전시실에서는 지질·동식물과 해양생물 표본을, 민속전시실에서는 제주인의 생활과 생업 문화를 살펴볼 수 있다.",
+      "best_span_id": "chroma:M0092",
+      "best_span_text": "제주의 자연환경과 전통 민속을 함께 보여주는 박물관이다. 자연사전시실에서는 지질·동식물과 해양생물 표본을, 민속전시실에서는 제주인의 생활과 생업 문화를 살펴볼 수 있다.",
+      "fusion_score": 0.015384615384615385,
+      "retrieved_by": [
+        "bm25"
+      ],
+      "fusion_rank": 10,
+      "rerank_score": 0.00102912331931293,
+      "rank": 2,
+      "score": 0.00102912331931293,
+      "score_type": "cross_encoder",
+      "distance": null,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "bm25"
+      ],
+      "retriever": "bm25",
+      "span_id": "chroma:M0092",
+      "source_doc_ids": [
+        "DOC-WEB-M0092-20261111"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-WEB-M0092-20261111",
+          "source_type": "WEB_RESEARCH",
+          "source_record_id": "RESEARCH-M0092",
+          "source_locator": "https://www.visitjeju.net/kr/detail/view?contentsid=CONT_000000000500545",
+          "source_url": "https://www.visitjeju.net/kr/detail/view?contentsid=CONT_000000000500545",
+          "match_trust": "WEB_SOURCE_REVIEWED_NOT_HUMAN_APPROVED"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 31,
+          "doc_ids": [
+            "DOC-WEB-M0092-20261111"
+          ]
+        },
+        {
+          "start": 32,
+          "end": 94,
+          "doc_ids": [
+            "DOC-WEB-M0092-20261111"
+          ]
+        }
+      ],
+      "source_urls": [
+        "https://www.visitjeju.net/kr/detail/view?contentsid=CONT_000000000500545"
+      ],
+      "source_locator": "https://www.visitjeju.net/kr/detail/view?contentsid=CONT_000000000500545",
+      "text": "제주의 자연환경과 전통 민속을 함께 보여주는 박물관이다. 자연사전시실에서는 지질·동식물과 해양생물 표본을, 민속전시실에서는 제주인의 생활과 생업 문화를 살펴볼 수 있다.",
+      "sido": "제주특별자치도",
+      "sigungu": "제주시",
+      "chunk_id": "",
+      "source_locators": [
+        "https://www.visitjeju.net/kr/detail/view?contentsid=CONT_000000000500545"
+      ],
+      "evidence_id": "E2",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=58",
+        "fields": {
+          "name": "민속자연사박물관",
+          "sido": "제주특별자치도",
+          "sigungu": "제주시",
+          "address": "제주특별자치도 제주시 삼성로 40",
+          "ownership_type": "공립",
+          "adult_fee": "2000",
+          "youth_fee": "1000",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_PAID",
+          "weekday_open": "09:00",
+          "weekday_close": "18:00",
+          "holiday_open": "09:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "월+1월 1일+설 당일+설 다음날+추석 당일+추석 다음날+훈증 소독기간(별도 공지)",
+          "amenities_raw": "카페테리아+문화상품판매+수유실+물품보관함"
+        },
+        "base_data_date": "2026-09-30",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0501",
+      "name": "국립해양박물관",
+      "document": "국립해양박물관은 대한민국 해양문화의 랜드마크로서 해양의 역사·문화·생물·예술에 이르는 다양한 분야의 유물과 자료를 수집, 보존, 연구하는 종합 해양 전문 박물관이다. 부산광역시 영도구에 위치하며, 2012년 5월 개관하였다. 지하 1층부터 지상 4층까지 구성되어 있으며, 전시실, 해양도서관, 어린이 박물관, 수장고, 수족관 등 다양한 시설을 갖추고 있다. 박물관은 약 3만여 점의 해양 관련 유물을 소장하고 있으며, 기획전과 상설전시를 통해 관람객에게 풍부한 콘텐츠를 제공한다. 또한, 바다 생물들이 살아 숨 쉬는 공간이자 해양동물전문구조치료기관, 서직지외보전기관으로서 생물을 보호·보전하는 역할을 수행하고 있다. 어린이박물관, 어린이해양도서관을 포함한 어린이·청소년을 위한 교육 프로그램도 활발히 진행되고 있다. 국민 누구나 바다의 소중함과 미래 가치를 느낄 수 있도록 돕는 국립 해양문화 플랫폼이다.",
+      "metadata": {
+        "weekday_close": "18:00",
+        "source_types": "TOUR_API",
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "latitude": 35.0785634153,
+        "sigungu": "영도구",
+        "image_copyright": "Type1",
+        "requires_manual_review": true,
+        "address": "부산광역시 영도구 해양로 301번길 45",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/50/4111450_image2_1.jpg",
+        "closure_rule_raw": "매주 월요일(월요일이 공휴일인 경우 다음 첫 평일 휴관)",
+        "longitude": 129.0802448645,
+        "holiday_open": "09:00",
+        "holiday_close": "19:00",
+        "adult_fee": 0.0,
+        "weekday_open": "09:00",
+        "youth_fee": 0.0,
+        "homepage_url": "https://www.mmk.or.kr/",
+        "ownership_type": "국립",
+        "child_fee": 0.0,
+        "name": "국립해양박물관",
+        "sido": "부산광역시"
+      },
+      "vector_rank": null,
+      "bm25_rank": 2,
+      "vector_distance": null,
+      "vector_score": null,
+      "bm25_score": 14.108331500630475,
+      "vector_document": "",
+      "bm25_document": "국립해양박물관은 대한민국 해양문화의 랜드마크로서 해양의 역사·문화·생물·예술에 이르는 다양한 분야의 유물과 자료를 수집, 보존, 연구하는 종합 해양 전문 박물관이다. 부산광역시 영도구에 위치하며, 2012년 5월 개관하였다. 지하 1층부터 지상 4층까지 구성되어 있으며, 전시실, 해양도서관, 어린이 박물관, 수장고, 수족관 등 다양한 시설을 갖추고 있다. 박물관은 약 3만여 점의 해양 관련 유물을 소장하고 있으며, 기획전과 상설전시를 통해 관람객에게 풍부한 콘텐츠를 제공한다. 또한, 바다 생물들이 살아 숨 쉬는 공간이자 해양동물전문구조치료기관, 서직지외보전기관으로서 생물을 보호·보전하는 역할을 수행하고 있다. 어린이박물관, 어린이해양도서관을 포함한 어린이·청소년을 위한 교육 프로그램도 활발히 진행되고 있다. 국민 누구나 바다의 소중함과 미래 가치를 느낄 수 있도록 돕는 국립 해양문화 플랫폼이다.",
+      "best_span_id": "chroma:M0501",
+      "best_span_text": "국립해양박물관은 대한민국 해양문화의 랜드마크로서 해양의 역사·문화·생물·예술에 이르는 다양한 분야의 유물과 자료를 수집, 보존, 연구하는 종합 해양 전문 박물관이다. 부산광역시 영도구에 위치하며, 2012년 5월 개관하였다. 지하 1층부터 지상 4층까지 구성되어 있으며, 전시실, 해양도서관, 어린이 박물관, 수장고, 수족관 등 다양한 시설을 갖추고 있다. 박물관은 약 3만여 점의 해양 관련 유물을 소장하고 있으며, 기획전과 상설전시를 통해 관람객에게 풍부한 콘텐츠를 제공한다. 또한, 바다 생물들이 살아 숨 쉬는 공간이자 해양동물전문구조치료기관, 서직지외보전기관으로서 생물을 보호·보전하는 역할을 수행하고 있다. 어린이박물관, 어린이해양도서관을 포함한 어린이·청소년을 위한 교육 프로그램도 활발히 진행되고 있다. 국민 누구나 바다의 소중함과 미래 가치를 느낄 수 있도록 돕는 국립 해양문화 플랫폼이다.",
+      "fusion_score": 0.016129032258064516,
+      "retrieved_by": [
+        "bm25"
+      ],
+      "fusion_rank": 6,
+      "rerank_score": 0.001017414266243577,
+      "rank": 3,
+      "score": 0.001017414266243577,
+      "score_type": "cross_encoder",
+      "distance": null,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "bm25"
+      ],
+      "retriever": "bm25",
+      "span_id": "chroma:M0501",
+      "source_doc_ids": [
+        "DOC-B0501-TOUR_API-1825843"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0501-TOUR_API-1825843",
+          "source_type": "TOUR_API",
+          "source_record_id": "1825843",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=247",
+          "match_trust": "RECHECKED_BY_RULE_NOT_HUMAN_APPROVED"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 92,
+          "doc_ids": [
+            "DOC-B0501-TOUR_API-1825843"
+          ]
+        },
+        {
+          "start": 93,
+          "end": 125,
+          "doc_ids": [
+            "DOC-B0501-TOUR_API-1825843"
+          ]
+        },
+        {
+          "start": 126,
+          "end": 199,
+          "doc_ids": [
+            "DOC-B0501-TOUR_API-1825843"
+          ]
+        },
+        {
+          "start": 200,
+          "end": 268,
+          "doc_ids": [
+            "DOC-B0501-TOUR_API-1825843"
+          ]
+        },
+        {
+          "start": 269,
+          "end": 344,
+          "doc_ids": [
+            "DOC-B0501-TOUR_API-1825843"
+          ]
+        },
+        {
+          "start": 345,
+          "end": 400,
+          "doc_ids": [
+            "DOC-B0501-TOUR_API-1825843"
+          ]
+        },
+        {
+          "start": 401,
+          "end": 450,
+          "doc_ids": [
+            "DOC-B0501-TOUR_API-1825843"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=247",
+      "text": "국립해양박물관은 대한민국 해양문화의 랜드마크로서 해양의 역사·문화·생물·예술에 이르는 다양한 분야의 유물과 자료를 수집, 보존, 연구하는 종합 해양 전문 박물관이다. 부산광역시 영도구에 위치하며, 2012년 5월 개관하였다. 지하 1층부터 지상 4층까지 구성되어 있으며, 전시실, 해양도서관, 어린이 박물관, 수장고, 수족관 등 다양한 시설을 갖추고 있다. 박물관은 약 3만여 점의 해양 관련 유물을 소장하고 있으며, 기획전과 상설전시를 통해 관람객에게 풍부한 콘텐츠를 제공한다. 또한, 바다 생물들이 살아 숨 쉬는 공간이자 해양동물전문구조치료기관, 서직지외보전기관으로서 생물을 보호·보전하는 역할을 수행하고 있다. 어린이박물관, 어린이해양도서관을 포함한 어린이·청소년을 위한 교육 프로그램도 활발히 진행되고 있다. 국민 누구나 바다의 소중함과 미래 가치를 느낄 수 있도록 돕는 국립 해양문화 플랫폼이다.",
+      "sido": "부산광역시",
+      "sigungu": "영도구",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=247"
+      ],
+      "evidence_id": "E3",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=358",
+        "fields": {
+          "name": "국립해양박물관",
+          "sido": "부산광역시",
+          "sigungu": "영도구",
+          "address": "부산광역시 영도구 해양로 301번길 45",
+          "ownership_type": "국립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "09:00",
+          "weekday_close": "18:00",
+          "holiday_open": "09:00",
+          "holiday_close": "19:00",
+          "closure_rule_raw": "매주 월요일(월요일이 공휴일인 경우 다음 첫 평일 휴관)"
+        },
+        "base_data_date": "2026-04-08",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M1006",
+      "name": "한국자연사박물관",
+      "document": "한국자연사박물관은 자연경관이 아름답기로 유명한 계룡산 국립공원 자락에 있으며, 국내 최대 규모와 최다의 소장품을 자랑하는 교육과 체험의 명소이다. 직접 투자, 발굴에 참여한 청운이라 불리는 천우호연사우르스청운엔시스 공룡의 실물 화석과 계룡산 특산식물 동물, 곤충, 자연사 관련 자료 등을 수집, 보존 및 전시 연구를 하고 있다. 전시관은 총 3층으로 지구상의 생명체에 기본이 되는 정보들부터 다양한 화석, 동물의 세계와 바다의 세계까지 다양한 전시로 구성되어 있다. 특별한 날에 운영하는 특별 전시도 진행하는데 정보는 홈페이지를 참고하면 된다. 한국자연사박물관에서 과학에 대해 자연스럽고 재미있게 배워보는 시간을 가져볼 수 있다. 1. 공룡,미라,화석,동물,식물, 광물,보석 전시 2. 공휴일 및 주말 매시간 전시해설(11:00~16:00)",
+      "metadata": {
+        "fee_notes": "개인후원회원 및 기관회원 무료 / 단체할인, 경로할인, 장애인할인",
+        "sigungu": "공주시",
+        "holiday_close": "18:00",
+        "longitude": 127.2448239,
+        "name": "한국자연사박물관",
+        "image_copyright": "Type3",
+        "adult_fee_status": "BASE_FEE_PAID",
+        "holiday_open": "10:00",
+        "ownership_type": "사립",
+        "homepage_url": "http://www.krnamu.or.kr",
+        "weekday_open": "10:00",
+        "transport_notes": "시내버스 48+ 303+ 350",
+        "weekday_close": "18:00",
+        "child_fee": 4000.0,
+        "address": "충청남도 공주시 임금봉길 49-25",
+        "youth_fee": 6000.0,
+        "closure_rule_raw": "매주 월요일",
+        "requires_manual_review": true,
+        "source_types": "BASE|TOUR_API",
+        "adult_fee": 9000.0,
+        "latitude": 36.36640091,
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/32/3390232_image2_1.JPG",
+        "sido": "충청남도",
+        "amenities_raw": "박물관, 주차장, 강당, 뮤지엄샵, 카페"
+      },
+      "vector_rank": 3,
+      "bm25_rank": 10,
+      "vector_distance": 0.5393731594085693,
+      "vector_score": null,
+      "bm25_score": 8.817018075707546,
+      "vector_document": "한국자연사박물관은 자연경관이 아름답기로 유명한 계룡산 국립공원 자락에 있으며, 국내 최대 규모와 최다의 소장품을 자랑하는 교육과 체험의 명소이다. 직접 투자, 발굴에 참여한 청운이라 불리는 천우호연사우르스청운엔시스 공룡의 실물 화석과 계룡산 특산식물 동물, 곤충, 자연사 관련 자료 등을 수집, 보존 및 전시 연구를 하고 있다. 전시관은 총 3층으로 지구상의 생명체에 기본이 되는 정보들부터 다양한 화석, 동물의 세계와 바다의 세계까지 다양한 전시로 구성되어 있다. 특별한 날에 운영하는 특별 전시도 진행하는데 정보는 홈페이지를 참고하면 된다. 한국자연사박물관에서 과학에 대해 자연스럽고 재미있게 배워보는 시간을 가져볼 수 있다. 1. 공룡,미라,화석,동물,식물, 광물,보석 전시 2. 공휴일 및 주말 매시간 전시해설(11:00~16:00)",
+      "bm25_document": "한국자연사박물관은 자연경관이 아름답기로 유명한 계룡산 국립공원 자락에 있으며, 국내 최대 규모와 최다의 소장품을 자랑하는 교육과 체험의 명소이다. 직접 투자, 발굴에 참여한 청운이라 불리는 천우호연사우르스청운엔시스 공룡의 실물 화석과 계룡산 특산식물 동물, 곤충, 자연사 관련 자료 등을 수집, 보존 및 전시 연구를 하고 있다. 전시관은 총 3층으로 지구상의 생명체에 기본이 되는 정보들부터 다양한 화석, 동물의 세계와 바다의 세계까지 다양한 전시로 구성되어 있다. 특별한 날에 운영하는 특별 전시도 진행하는데 정보는 홈페이지를 참고하면 된다. 한국자연사박물관에서 과학에 대해 자연스럽고 재미있게 배워보는 시간을 가져볼 수 있다. 1. 공룡,미라,화석,동물,식물, 광물,보석 전시 2. 공휴일 및 주말 매시간 전시해설(11:00~16:00)",
+      "best_span_id": "chroma:M1006",
+      "best_span_text": "한국자연사박물관은 자연경관이 아름답기로 유명한 계룡산 국립공원 자락에 있으며, 국내 최대 규모와 최다의 소장품을 자랑하는 교육과 체험의 명소이다. 직접 투자, 발굴에 참여한 청운이라 불리는 천우호연사우르스청운엔시스 공룡의 실물 화석과 계룡산 특산식물 동물, 곤충, 자연사 관련 자료 등을 수집, 보존 및 전시 연구를 하고 있다. 전시관은 총 3층으로 지구상의 생명체에 기본이 되는 정보들부터 다양한 화석, 동물의 세계와 바다의 세계까지 다양한 전시로 구성되어 있다. 특별한 날에 운영하는 특별 전시도 진행하는데 정보는 홈페이지를 참고하면 된다. 한국자연사박물관에서 과학에 대해 자연스럽고 재미있게 배워보는 시간을 가져볼 수 있다. 1. 공룡,미라,화석,동물,식물, 광물,보석 전시 2. 공휴일 및 주말 매시간 전시해설(11:00~16:00)",
+      "fusion_score": 0.030158730158730156,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 2,
+      "rerank_score": 0.0005351180443540215,
+      "rank": 4,
+      "score": 0.0005351180443540215,
+      "score_type": "cross_encoder",
+      "distance": 0.5393731594085693,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M1006",
+      "source_doc_ids": [
+        "DOC-B1006-TOUR_API-130560",
+        "DOC-B1006-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B1006-TOUR_API-130560",
+          "source_type": "TOUR_API",
+          "source_record_id": "130560",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=469",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        },
+        {
+          "doc_id": "DOC-B1006-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B1006",
+          "source_locator": "data/raw/museum_base_1070.csv#row=1007",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 81,
+          "doc_ids": [
+            "DOC-B1006-TOUR_API-130560"
+          ]
+        },
+        {
+          "start": 82,
+          "end": 183,
+          "doc_ids": [
+            "DOC-B1006-TOUR_API-130560"
+          ]
+        },
+        {
+          "start": 184,
+          "end": 260,
+          "doc_ids": [
+            "DOC-B1006-TOUR_API-130560"
+          ]
+        },
+        {
+          "start": 261,
+          "end": 304,
+          "doc_ids": [
+            "DOC-B1006-TOUR_API-130560"
+          ]
+        },
+        {
+          "start": 305,
+          "end": 352,
+          "doc_ids": [
+            "DOC-B1006-TOUR_API-130560"
+          ]
+        },
+        {
+          "start": 353,
+          "end": 355,
+          "doc_ids": [
+            "DOC-B1006-BASE"
+          ]
+        },
+        {
+          "start": 356,
+          "end": 383,
+          "doc_ids": [
+            "DOC-B1006-BASE"
+          ]
+        },
+        {
+          "start": 384,
+          "end": 414,
+          "doc_ids": [
+            "DOC-B1006-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=469",
+      "text": "한국자연사박물관은 자연경관이 아름답기로 유명한 계룡산 국립공원 자락에 있으며, 국내 최대 규모와 최다의 소장품을 자랑하는 교육과 체험의 명소이다. 직접 투자, 발굴에 참여한 청운이라 불리는 천우호연사우르스청운엔시스 공룡의 실물 화석과 계룡산 특산식물 동물, 곤충, 자연사 관련 자료 등을 수집, 보존 및 전시 연구를 하고 있다. 전시관은 총 3층으로 지구상의 생명체에 기본이 되는 정보들부터 다양한 화석, 동물의 세계와 바다의 세계까지 다양한 전시로 구성되어 있다. 특별한 날에 운영하는 특별 전시도 진행하는데 정보는 홈페이지를 참고하면 된다. 한국자연사박물관에서 과학에 대해 자연스럽고 재미있게 배워보는 시간을 가져볼 수 있다. 1. 공룡,미라,화석,동물,식물, 광물,보석 전시 2. 공휴일 및 주말 매시간 전시해설(11:00~16:00)",
+      "sido": "충청남도",
+      "sigungu": "공주시",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=469"
+      ],
+      "evidence_id": "E4",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=689",
+        "fields": {
+          "name": "한국자연사박물관",
+          "sido": "충청남도",
+          "sigungu": "공주시",
+          "address": "충청남도 공주시 임금봉길 49-25",
+          "ownership_type": "사립",
+          "adult_fee": "9000",
+          "youth_fee": "6000",
+          "child_fee": "4000",
+          "adult_fee_status": "BASE_FEE_PAID",
+          "weekday_open": "10:00",
+          "weekday_close": "18:00",
+          "holiday_open": "10:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "매주 월요일",
+          "amenities_raw": "박물관, 주차장, 강당, 뮤지엄샵, 카페"
+        },
+        "base_data_date": "2024-08-27",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0458",
+      "name": "덕소자연사박물관",
+      "document": "덕소자연사박물관은 전 세계 30여 개국에서 수집한 공룡 화석과 광물, 곤충, 동물 박제 등 다양한 자연사 표본을 전시하는 자연사 전문 박물관이다. 움직이는 공룡을 재현한 공룡 전시관과 화석·광물·해양생물 전시를 통해 생물의 진화와 지구의 역사를 쉽고 흥미롭게 배울 수 있다. 박물관 외부에는 생태공원과 체험 공간이 조성되어 있어 동물과 자연을 가까이에서 관찰할 수 있으며 먹이 주기 체험 등 다양한 생태 학습도 가능하다. 어린이부터 어른까지 자연을 보고 배우며 즐길 수 있는 교육과 체험이 어우러진 공간으로 가족 나들이 장소로도 인기가 높다.",
+      "metadata": {
+        "ownership_type": "사립",
+        "homepage_url": "http://www.duksomuseum.com/",
+        "source_types": "TOUR_API",
+        "closure_rule_raw": "월+1월 1일+설 당일+추석 당일",
+        "sigungu": "남양주시",
+        "holiday_close": "18:00",
+        "weekday_close": "18:00",
+        "sido": "경기도",
+        "youth_fee": 6000.0,
+        "amenities_raw": "문화상품점",
+        "requires_manual_review": true,
+        "adult_fee_status": "BASE_FEE_PAID",
+        "weekday_open": "10:00",
+        "child_fee": 6000.0,
+        "address": "경기도 남양주시 와부읍 석실로 46-11",
+        "adult_fee": 7000.0,
+        "longitude": 127.230014,
+        "latitude": 37.58001418,
+        "holiday_open": "10:00",
+        "name": "덕소자연사박물관"
+      },
+      "vector_rank": null,
+      "bm25_rank": 3,
+      "vector_distance": null,
+      "vector_score": null,
+      "bm25_score": 12.844138775771384,
+      "vector_document": "",
+      "bm25_document": "덕소자연사박물관은 전 세계 30여 개국에서 수집한 공룡 화석과 광물, 곤충, 동물 박제 등 다양한 자연사 표본을 전시하는 자연사 전문 박물관이다. 움직이는 공룡을 재현한 공룡 전시관과 화석·광물·해양생물 전시를 통해 생물의 진화와 지구의 역사를 쉽고 흥미롭게 배울 수 있다. 박물관 외부에는 생태공원과 체험 공간이 조성되어 있어 동물과 자연을 가까이에서 관찰할 수 있으며 먹이 주기 체험 등 다양한 생태 학습도 가능하다. 어린이부터 어른까지 자연을 보고 배우며 즐길 수 있는 교육과 체험이 어우러진 공간으로 가족 나들이 장소로도 인기가 높다.",
+      "best_span_id": "chroma:M0458",
+      "best_span_text": "덕소자연사박물관은 전 세계 30여 개국에서 수집한 공룡 화석과 광물, 곤충, 동물 박제 등 다양한 자연사 표본을 전시하는 자연사 전문 박물관이다. 움직이는 공룡을 재현한 공룡 전시관과 화석·광물·해양생물 전시를 통해 생물의 진화와 지구의 역사를 쉽고 흥미롭게 배울 수 있다. 박물관 외부에는 생태공원과 체험 공간이 조성되어 있어 동물과 자연을 가까이에서 관찰할 수 있으며 먹이 주기 체험 등 다양한 생태 학습도 가능하다. 어린이부터 어른까지 자연을 보고 배우며 즐길 수 있는 교육과 체험이 어우러진 공간으로 가족 나들이 장소로도 인기가 높다.",
+      "fusion_score": 0.015873015873015872,
+      "retrieved_by": [
+        "bm25"
+      ],
+      "fusion_rank": 7,
+      "rerank_score": 0.0002484656870365143,
+      "rank": 5,
+      "score": 0.0002484656870365143,
+      "score_type": "cross_encoder",
+      "distance": null,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "bm25"
+      ],
+      "retriever": "bm25",
+      "span_id": "chroma:M0458",
+      "source_doc_ids": [
+        "DOC-B0458-TOUR_API-2736386"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0458-TOUR_API-2736386",
+          "source_type": "TOUR_API",
+          "source_record_id": "2736386",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=222",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 81,
+          "doc_ids": [
+            "DOC-B0458-TOUR_API-2736386"
+          ]
+        },
+        {
+          "start": 82,
+          "end": 153,
+          "doc_ids": [
+            "DOC-B0458-TOUR_API-2736386"
+          ]
+        },
+        {
+          "start": 154,
+          "end": 235,
+          "doc_ids": [
+            "DOC-B0458-TOUR_API-2736386"
+          ]
+        },
+        {
+          "start": 236,
+          "end": 303,
+          "doc_ids": [
+            "DOC-B0458-TOUR_API-2736386"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=222",
+      "text": "덕소자연사박물관은 전 세계 30여 개국에서 수집한 공룡 화석과 광물, 곤충, 동물 박제 등 다양한 자연사 표본을 전시하는 자연사 전문 박물관이다. 움직이는 공룡을 재현한 공룡 전시관과 화석·광물·해양생물 전시를 통해 생물의 진화와 지구의 역사를 쉽고 흥미롭게 배울 수 있다. 박물관 외부에는 생태공원과 체험 공간이 조성되어 있어 동물과 자연을 가까이에서 관찰할 수 있으며 먹이 주기 체험 등 다양한 생태 학습도 가능하다. 어린이부터 어른까지 자연을 보고 배우며 즐길 수 있는 교육과 체험이 어우러진 공간으로 가족 나들이 장소로도 인기가 높다.",
+      "sido": "경기도",
+      "sigungu": "남양주시",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=222"
+      ],
+      "evidence_id": "E5",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=330",
+        "fields": {
+          "name": "덕소자연사박물관",
+          "sido": "경기도",
+          "sigungu": "남양주시",
+          "address": "경기도 남양주시 와부읍 석실로 46-11",
+          "ownership_type": "사립",
+          "adult_fee": "7000",
+          "youth_fee": "6000",
+          "child_fee": "6000",
+          "adult_fee_status": "BASE_FEE_PAID",
+          "weekday_open": "10:00",
+          "weekday_close": "18:00",
+          "holiday_open": "10:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "월+1월 1일+설 당일+추석 당일",
+          "amenities_raw": "문화상품점"
+        },
+        "base_data_date": "2026-04-01",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    }
+  ],
+  "answer": "기록상 월요일은 휴관일이 아니며, 평일 운영시간은 09:00~18:00입니다. 휴관일 원문은 ‘수’(수요일)로 되어 있어 월요일에는 문을 여는 것으로 기록되어 있습니다. 다만 이는 2026-09-30 기준 데이터이며, 실시간 운영 여부는 확인할 수 없습니다. [E1]",
+  "retrieval_status": "ok",
+  "answer_status": "answered",
+  "route": "hybrid",
+  "retry_count": 0,
+  "supervisor_verified": true,
+  "rerank_applied": true,
+  "retriever_errors": [],
+  "warnings": [],
+  "duration_ms": 140293.66,
+  "error_type": "",
+  "hit_at_1": 1,
+  "hit_at_3": 1,
+  "hit_at_5": 1,
+  "recall_at_5": 1.0,
+  "mrr_at_10": 1.0
+}

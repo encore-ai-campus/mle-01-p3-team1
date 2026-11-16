@@ -1,0 +1,355 @@
+{
+  "question_id": "V2-SW06",
+  "response": {
+    "tool": "museum_hybrid_retrieve",
+    "status": "partial",
+    "query": "주말에 문 여는 울산 박물관 중 수유실 있는 곳",
+    "results": [
+      {
+        "museum_id": "M0753",
+        "name": "울산박물관",
+        "document": "울산박물관은 울산의 선사시대부터 현대까지의 문화와 역사를 보여주기 위해 2011년 설립되었다. 지하 1층, 지상 2층으로 구성되어 있으며 지상 1층에는 기획전시실, 어린이 박물관, 원형극장 등이 자리 잡고 있으며 지상 2층에는 역사실 및 산업사실이 설치되어 있다. 탁 트인 넓은 공간과 자연의 아름다움을 연결한 야외전시장이 있으며 박물관 외벽에 울산의 대표적 국가유산인 반구대 암각화를 음각으로 조각하여 연출했다. 울산의 오래된 역사를 박물관 초입에 연출함으로써 문화도시 울산의 웅장함과 자긍심을 드러내 보인다. 박물관은 울산대공원 안에 위치한다. 울산의 역사와 문화를 보여주는 울산의 대표 박물관이다. 역사실, 산업사실로 구성된 상설전시실과 어린이박물관, 실감영상관, 기획전시실로 구성되어 있다. 매년 울산의 역사, 문화, 산업 등을 주제로 한 전시와 교육 및 문화행사를 운영하고 있다.",
+        "metadata": {
+          "fee_notes": "0",
+          "latitude": 35.52713607,
+          "source_types": "BASE|TOUR_API",
+          "sido": "울산광역시",
+          "closure_rule_raw": "매주 월+1월1일",
+          "youth_fee": 0.0,
+          "image_url": "https://tong.visitkorea.or.kr/cms/resource/36/3072936_image2_1.jpg",
+          "image_copyright": "Type3",
+          "name": "울산박물관",
+          "adult_fee": 0.0,
+          "homepage_url": "http://www.ulsan.go.kr/s/museum",
+          "requires_manual_review": true,
+          "child_fee": 0.0,
+          "holiday_close": "18:00",
+          "sigungu": "남구",
+          "transport_notes": "- 일반버스 124, 205, 225, 527, 715번 : 울산박물관·울산대공원동문앞 하차- 일반버스 106, 216번 : 올림푸스아파트앞 하차, 울산박물관까지 도보 11분- 일반버스   714, 824번 : 공업탑 하차, 울산박물관까지 도보 13분",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "address": "울산광역시 남구 두왕로 277",
+          "longitude": 129.3086925,
+          "weekday_close": "18:00",
+          "weekday_open": "09:00",
+          "ownership_type": "공립",
+          "holiday_open": "09:00",
+          "amenities_raw": "주차장+수유실+도서관 등",
+          "structured_match": "편의시설 '수유실': CSV amenities_raw의 '수유실' 항목; 토·일요일 개관: CSV closure_rule_raw의 정기 휴관 요일은 월 (온톨로지 필터가 metadata_provenance.fields의 같은 CSV 값으로 판정한 정적 기록이며 실시간 상태가 아님)"
+        },
+        "vector_rank": 1,
+        "bm25_rank": 1,
+        "vector_distance": 0.5708904266357422,
+        "vector_score": null,
+        "bm25_score": 16.46764711550168,
+        "vector_document": "울산박물관은 울산의 선사시대부터 현대까지의 문화와 역사를 보여주기 위해 2011년 설립되었다. 지하 1층, 지상 2층으로 구성되어 있으며 지상 1층에는 기획전시실, 어린이 박물관, 원형극장 등이 자리 잡고 있으며 지상 2층에는 역사실 및 산업사실이 설치되어 있다. 탁 트인 넓은 공간과 자연의 아름다움을 연결한 야외전시장이 있으며 박물관 외벽에 울산의 대표적 국가유산인 반구대 암각화를 음각으로 조각하여 연출했다. 울산의 오래된 역사를 박물관 초입에 연출함으로써 문화도시 울산의 웅장함과 자긍심을 드러내 보인다. 박물관은 울산대공원 안에 위치한다. 울산의 역사와 문화를 보여주는 울산의 대표 박물관이다. 역사실, 산업사실로 구성된 상설전시실과 어린이박물관, 실감영상관, 기획전시실로 구성되어 있다. 매년 울산의 역사, 문화, 산업 등을 주제로 한 전시와 교육 및 문화행사를 운영하고 있다.",
+        "bm25_document": "울산박물관은 울산의 선사시대부터 현대까지의 문화와 역사를 보여주기 위해 2011년 설립되었다. 지하 1층, 지상 2층으로 구성되어 있으며 지상 1층에는 기획전시실, 어린이 박물관, 원형극장 등이 자리 잡고 있으며 지상 2층에는 역사실 및 산업사실이 설치되어 있다. 탁 트인 넓은 공간과 자연의 아름다움을 연결한 야외전시장이 있으며 박물관 외벽에 울산의 대표적 국가유산인 반구대 암각화를 음각으로 조각하여 연출했다. 울산의 오래된 역사를 박물관 초입에 연출함으로써 문화도시 울산의 웅장함과 자긍심을 드러내 보인다. 박물관은 울산대공원 안에 위치한다. 울산의 역사와 문화를 보여주는 울산의 대표 박물관이다. 역사실, 산업사실로 구성된 상설전시실과 어린이박물관, 실감영상관, 기획전시실로 구성되어 있다. 매년 울산의 역사, 문화, 산업 등을 주제로 한 전시와 교육 및 문화행사를 운영하고 있다.",
+        "best_span_id": "chroma:M0753",
+        "best_span_text": "울산박물관은 울산의 선사시대부터 현대까지의 문화와 역사를 보여주기 위해 2011년 설립되었다. 지하 1층, 지상 2층으로 구성되어 있으며 지상 1층에는 기획전시실, 어린이 박물관, 원형극장 등이 자리 잡고 있으며 지상 2층에는 역사실 및 산업사실이 설치되어 있다. 탁 트인 넓은 공간과 자연의 아름다움을 연결한 야외전시장이 있으며 박물관 외벽에 울산의 대표적 국가유산인 반구대 암각화를 음각으로 조각하여 연출했다. 울산의 오래된 역사를 박물관 초입에 연출함으로써 문화도시 울산의 웅장함과 자긍심을 드러내 보인다. 박물관은 울산대공원 안에 위치한다. 울산의 역사와 문화를 보여주는 울산의 대표 박물관이다. 역사실, 산업사실로 구성된 상설전시실과 어린이박물관, 실감영상관, 기획전시실로 구성되어 있다. 매년 울산의 역사, 문화, 산업 등을 주제로 한 전시와 교육 및 문화행사를 운영하고 있다.",
+        "fusion_score": 0.03278688524590164,
+        "retrieved_by": [
+          "vector",
+          "bm25"
+        ],
+        "fusion_rank": 1,
+        "name_match": true,
+        "rerank_score": 0.09307390451431274,
+        "rank": 1,
+        "score": 0.03278688524590164,
+        "score_type": "rrf_low_confidence_rerank",
+        "distance": 0.5708904266357422,
+        "relevance": null,
+        "relevance_reason": null
+      }
+    ],
+    "source_ids": [
+      "M0753"
+    ],
+    "warnings": [
+      "Only 1 candidates available; no artificial padding"
+    ],
+    "unsupported_constraints": [],
+    "search_summary": {
+      "mode": "hybrid",
+      "filters": {},
+      "candidate_count": 1,
+      "requested_candidate_k": 20,
+      "returned_count": 1,
+      "reranked": true,
+      "vector_returned": 1,
+      "bm25_returned": 1,
+      "fused_returned": 1,
+      "final_returned": 1,
+      "rerank_requested": true,
+      "rerank_applied": true,
+      "rerank_failed": false,
+      "fusion_method": "weighted_rrf",
+      "config": {
+        "vector_top_k": 20,
+        "bm25_top_k": 20,
+        "fusion_top_k": 20,
+        "final_top_k": 10,
+        "rrf_k": 60,
+        "vector_weight": 1.0,
+        "bm25_weight": 1.0,
+        "reranker_model": "BAAI/bge-reranker-v2-m3",
+        "reranker_local_dir": null,
+        "reranker_revision": null,
+        "reranker_batch_size": 8,
+        "reranker_max_chars": 2000,
+        "rerank_failure_policy": "rrf_fallback",
+        "rerank_min_confidence": 0.1,
+        "retriever_failure_policy": "raise",
+        "parallel_retrieval": true
+      },
+      "metadata_filters": {},
+      "retriever_errors": [],
+      "requested_final_top_k": 5,
+      "expanded_query": "주말에 문 여는 울산 박물관 중 수유실 있는 곳",
+      "query_mode": "vector",
+      "analysis_status": "disabled",
+      "unsupported_constraints": [],
+      "ontology_filter": {
+        "status": "applied",
+        "backend": "local_csv",
+        "conditions": {
+          "amenities": [
+            "수유실"
+          ],
+          "open_weekdays": [
+            "토",
+            "일"
+          ],
+          "sido": "울산광역시",
+          "matched_terms": [
+            "수유실 있",
+            "주말에 문 여는"
+          ]
+        },
+        "candidate_count": 1
+      },
+      "name_match": {
+        "status": "applied",
+        "names": [
+          "울산박물관"
+        ],
+        "promoted": [
+          "M0753"
+        ],
+        "injected": [],
+        "unavailable": []
+      },
+      "rerank_low_confidence": true,
+      "rerank_best_score": 0.09307390451431274,
+      "stages": [
+        {
+          "stage": "ontology_filter",
+          "duration_ms": 1.19,
+          "status": "applied",
+          "backend": "local_csv",
+          "conditions": {
+            "amenities": [
+              "수유실"
+            ],
+            "open_weekdays": [
+              "토",
+              "일"
+            ],
+            "sido": "울산광역시",
+            "matched_terms": [
+              "수유실 있",
+              "주말에 문 여는"
+            ]
+          },
+          "candidate_count": 1
+        },
+        {
+          "stage": "query_analysis",
+          "status": "disabled",
+          "duration_ms": 0.07,
+          "filters": {},
+          "expanded_query": "주말에 문 여는 울산 박물관 중 수유실 있는 곳",
+          "mode": "vector",
+          "model": "disabled"
+        },
+        {
+          "stage": "vector_retrieval",
+          "status": "ok",
+          "duration_ms": 220.1,
+          "requested": 20,
+          "returned": 1
+        },
+        {
+          "stage": "bm25_retrieval",
+          "status": "ok",
+          "duration_ms": 10.37,
+          "requested": 20,
+          "returned": 1
+        },
+        {
+          "stage": "rrf_fusion",
+          "status": "ok",
+          "duration_ms": 0.09,
+          "requested": 20,
+          "returned": 1
+        },
+        {
+          "stage": "name_match",
+          "duration_ms": 0.24,
+          "status": "applied",
+          "names": [
+            "울산박물관"
+          ],
+          "promoted": [
+            "M0753"
+          ],
+          "injected": [],
+          "unavailable": []
+        },
+        {
+          "stage": "cross_encoder_rerank",
+          "status": "low_confidence_rrf_order",
+          "duration_ms": 9968.93,
+          "requested": 1,
+          "returned": 1,
+          "best_score": 0.09307390451431274,
+          "min_confidence": 0.1,
+          "model_load_ms": 0.0,
+          "inference_ms": 722.48,
+          "model_path": "C:\\Users\\Playdata\\.cache\\huggingface\\hub\\models--BAAI--bge-reranker-v2-m3\\snapshots\\953dc6f6f85a1b2dbfca4c34a2796e7dde08d41e",
+          "model_source": "local_only"
+        },
+        {
+          "stage": "final_selection",
+          "status": "ok",
+          "requested": 5,
+          "returned": 1
+        }
+      ],
+      "total_duration_ms": 10193.84
+    },
+    "fusion_candidates": [
+      {
+        "museum_id": "M0753",
+        "name": "울산박물관",
+        "document": "울산박물관은 울산의 선사시대부터 현대까지의 문화와 역사를 보여주기 위해 2011년 설립되었다. 지하 1층, 지상 2층으로 구성되어 있으며 지상 1층에는 기획전시실, 어린이 박물관, 원형극장 등이 자리 잡고 있으며 지상 2층에는 역사실 및 산업사실이 설치되어 있다. 탁 트인 넓은 공간과 자연의 아름다움을 연결한 야외전시장이 있으며 박물관 외벽에 울산의 대표적 국가유산인 반구대 암각화를 음각으로 조각하여 연출했다. 울산의 오래된 역사를 박물관 초입에 연출함으로써 문화도시 울산의 웅장함과 자긍심을 드러내 보인다. 박물관은 울산대공원 안에 위치한다. 울산의 역사와 문화를 보여주는 울산의 대표 박물관이다. 역사실, 산업사실로 구성된 상설전시실과 어린이박물관, 실감영상관, 기획전시실로 구성되어 있다. 매년 울산의 역사, 문화, 산업 등을 주제로 한 전시와 교육 및 문화행사를 운영하고 있다.",
+        "metadata": {
+          "fee_notes": "0",
+          "latitude": 35.52713607,
+          "source_types": "BASE|TOUR_API",
+          "sido": "울산광역시",
+          "closure_rule_raw": "매주 월+1월1일",
+          "youth_fee": 0.0,
+          "image_url": "https://tong.visitkorea.or.kr/cms/resource/36/3072936_image2_1.jpg",
+          "image_copyright": "Type3",
+          "name": "울산박물관",
+          "adult_fee": 0.0,
+          "homepage_url": "http://www.ulsan.go.kr/s/museum",
+          "requires_manual_review": true,
+          "child_fee": 0.0,
+          "holiday_close": "18:00",
+          "sigungu": "남구",
+          "transport_notes": "- 일반버스 124, 205, 225, 527, 715번 : 울산박물관·울산대공원동문앞 하차- 일반버스 106, 216번 : 올림푸스아파트앞 하차, 울산박물관까지 도보 11분- 일반버스   714, 824번 : 공업탑 하차, 울산박물관까지 도보 13분",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "address": "울산광역시 남구 두왕로 277",
+          "longitude": 129.3086925,
+          "weekday_close": "18:00",
+          "weekday_open": "09:00",
+          "ownership_type": "공립",
+          "holiday_open": "09:00",
+          "amenities_raw": "주차장+수유실+도서관 등"
+        },
+        "vector_rank": 1,
+        "bm25_rank": 1,
+        "vector_distance": 0.5708904266357422,
+        "vector_score": null,
+        "bm25_score": 16.46764711550168,
+        "vector_document": "울산박물관은 울산의 선사시대부터 현대까지의 문화와 역사를 보여주기 위해 2011년 설립되었다. 지하 1층, 지상 2층으로 구성되어 있으며 지상 1층에는 기획전시실, 어린이 박물관, 원형극장 등이 자리 잡고 있으며 지상 2층에는 역사실 및 산업사실이 설치되어 있다. 탁 트인 넓은 공간과 자연의 아름다움을 연결한 야외전시장이 있으며 박물관 외벽에 울산의 대표적 국가유산인 반구대 암각화를 음각으로 조각하여 연출했다. 울산의 오래된 역사를 박물관 초입에 연출함으로써 문화도시 울산의 웅장함과 자긍심을 드러내 보인다. 박물관은 울산대공원 안에 위치한다. 울산의 역사와 문화를 보여주는 울산의 대표 박물관이다. 역사실, 산업사실로 구성된 상설전시실과 어린이박물관, 실감영상관, 기획전시실로 구성되어 있다. 매년 울산의 역사, 문화, 산업 등을 주제로 한 전시와 교육 및 문화행사를 운영하고 있다.",
+        "bm25_document": "울산박물관은 울산의 선사시대부터 현대까지의 문화와 역사를 보여주기 위해 2011년 설립되었다. 지하 1층, 지상 2층으로 구성되어 있으며 지상 1층에는 기획전시실, 어린이 박물관, 원형극장 등이 자리 잡고 있으며 지상 2층에는 역사실 및 산업사실이 설치되어 있다. 탁 트인 넓은 공간과 자연의 아름다움을 연결한 야외전시장이 있으며 박물관 외벽에 울산의 대표적 국가유산인 반구대 암각화를 음각으로 조각하여 연출했다. 울산의 오래된 역사를 박물관 초입에 연출함으로써 문화도시 울산의 웅장함과 자긍심을 드러내 보인다. 박물관은 울산대공원 안에 위치한다. 울산의 역사와 문화를 보여주는 울산의 대표 박물관이다. 역사실, 산업사실로 구성된 상설전시실과 어린이박물관, 실감영상관, 기획전시실로 구성되어 있다. 매년 울산의 역사, 문화, 산업 등을 주제로 한 전시와 교육 및 문화행사를 운영하고 있다.",
+        "best_span_id": "chroma:M0753",
+        "best_span_text": "울산박물관은 울산의 선사시대부터 현대까지의 문화와 역사를 보여주기 위해 2011년 설립되었다. 지하 1층, 지상 2층으로 구성되어 있으며 지상 1층에는 기획전시실, 어린이 박물관, 원형극장 등이 자리 잡고 있으며 지상 2층에는 역사실 및 산업사실이 설치되어 있다. 탁 트인 넓은 공간과 자연의 아름다움을 연결한 야외전시장이 있으며 박물관 외벽에 울산의 대표적 국가유산인 반구대 암각화를 음각으로 조각하여 연출했다. 울산의 오래된 역사를 박물관 초입에 연출함으로써 문화도시 울산의 웅장함과 자긍심을 드러내 보인다. 박물관은 울산대공원 안에 위치한다. 울산의 역사와 문화를 보여주는 울산의 대표 박물관이다. 역사실, 산업사실로 구성된 상설전시실과 어린이박물관, 실감영상관, 기획전시실로 구성되어 있다. 매년 울산의 역사, 문화, 산업 등을 주제로 한 전시와 교육 및 문화행사를 운영하고 있다.",
+        "fusion_score": 0.03278688524590164,
+        "retrieved_by": [
+          "vector",
+          "bm25"
+        ],
+        "fusion_rank": 1,
+        "name_match": true
+      }
+    ],
+    "retrieval_candidates_full": {
+      "vector": [
+        {
+          "museum_id": "M0753",
+          "document": "울산박물관은 울산의 선사시대부터 현대까지의 문화와 역사를 보여주기 위해 2011년 설립되었다. 지하 1층, 지상 2층으로 구성되어 있으며 지상 1층에는 기획전시실, 어린이 박물관, 원형극장 등이 자리 잡고 있으며 지상 2층에는 역사실 및 산업사실이 설치되어 있다. 탁 트인 넓은 공간과 자연의 아름다움을 연결한 야외전시장이 있으며 박물관 외벽에 울산의 대표적 국가유산인 반구대 암각화를 음각으로 조각하여 연출했다. 울산의 오래된 역사를 박물관 초입에 연출함으로써 문화도시 울산의 웅장함과 자긍심을 드러내 보인다. 박물관은 울산대공원 안에 위치한다. 울산의 역사와 문화를 보여주는 울산의 대표 박물관이다. 역사실, 산업사실로 구성된 상설전시실과 어린이박물관, 실감영상관, 기획전시실로 구성되어 있다. 매년 울산의 역사, 문화, 산업 등을 주제로 한 전시와 교육 및 문화행사를 운영하고 있다.",
+          "metadata": {
+            "fee_notes": "0",
+            "latitude": 35.52713607,
+            "source_types": "BASE|TOUR_API",
+            "sido": "울산광역시",
+            "closure_rule_raw": "매주 월+1월1일",
+            "youth_fee": 0.0,
+            "image_url": "https://tong.visitkorea.or.kr/cms/resource/36/3072936_image2_1.jpg",
+            "image_copyright": "Type3",
+            "name": "울산박물관",
+            "adult_fee": 0.0,
+            "homepage_url": "http://www.ulsan.go.kr/s/museum",
+            "requires_manual_review": true,
+            "child_fee": 0.0,
+            "holiday_close": "18:00",
+            "sigungu": "남구",
+            "transport_notes": "- 일반버스 124, 205, 225, 527, 715번 : 울산박물관·울산대공원동문앞 하차- 일반버스 106, 216번 : 올림푸스아파트앞 하차, 울산박물관까지 도보 11분- 일반버스   714, 824번 : 공업탑 하차, 울산박물관까지 도보 13분",
+            "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+            "address": "울산광역시 남구 두왕로 277",
+            "longitude": 129.3086925,
+            "weekday_close": "18:00",
+            "weekday_open": "09:00",
+            "ownership_type": "공립",
+            "holiday_open": "09:00",
+            "amenities_raw": "주차장+수유실+도서관 등"
+          },
+          "distance": 0.5708904266357422
+        }
+      ],
+      "bm25": [
+        {
+          "museum_id": "M0753",
+          "name": "울산박물관",
+          "document": "울산박물관은 울산의 선사시대부터 현대까지의 문화와 역사를 보여주기 위해 2011년 설립되었다. 지하 1층, 지상 2층으로 구성되어 있으며 지상 1층에는 기획전시실, 어린이 박물관, 원형극장 등이 자리 잡고 있으며 지상 2층에는 역사실 및 산업사실이 설치되어 있다. 탁 트인 넓은 공간과 자연의 아름다움을 연결한 야외전시장이 있으며 박물관 외벽에 울산의 대표적 국가유산인 반구대 암각화를 음각으로 조각하여 연출했다. 울산의 오래된 역사를 박물관 초입에 연출함으로써 문화도시 울산의 웅장함과 자긍심을 드러내 보인다. 박물관은 울산대공원 안에 위치한다. 울산의 역사와 문화를 보여주는 울산의 대표 박물관이다. 역사실, 산업사실로 구성된 상설전시실과 어린이박물관, 실감영상관, 기획전시실로 구성되어 있다. 매년 울산의 역사, 문화, 산업 등을 주제로 한 전시와 교육 및 문화행사를 운영하고 있다.",
+          "metadata": {
+            "homepage_url": "http://www.ulsan.go.kr/s/museum",
+            "holiday_open": "09:00",
+            "address": "울산광역시 남구 두왕로 277",
+            "child_fee": 0.0,
+            "name": "울산박물관",
+            "weekday_open": "09:00",
+            "holiday_close": "18:00",
+            "sigungu": "남구",
+            "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+            "weekday_close": "18:00",
+            "sido": "울산광역시",
+            "amenities_raw": "주차장+수유실+도서관 등",
+            "ownership_type": "공립",
+            "latitude": 35.52713607,
+            "transport_notes": "- 일반버스 124, 205, 225, 527, 715번 : 울산박물관·울산대공원동문앞 하차- 일반버스 106, 216번 : 올림푸스아파트앞 하차, 울산박물관까지 도보 11분- 일반버스   714, 824번 : 공업탑 하차, 울산박물관까지 도보 13분",
+            "adult_fee": 0.0,
+            "closure_rule_raw": "매주 월+1월1일",
+            "image_url": "https://tong.visitkorea.or.kr/cms/resource/36/3072936_image2_1.jpg",
+            "source_types": "BASE|TOUR_API",
+            "image_copyright": "Type3",
+            "fee_notes": "0",
+            "youth_fee": 0.0,
+            "requires_manual_review": true,
+            "longitude": 129.3086925
+          },
+          "score": 16.46764711550168,
+          "rank": 1,
+          "retriever": "bm25",
+          "best_span_id": "chroma:M0753",
+          "best_span_text": "울산박물관은 울산의 선사시대부터 현대까지의 문화와 역사를 보여주기 위해 2011년 설립되었다. 지하 1층, 지상 2층으로 구성되어 있으며 지상 1층에는 기획전시실, 어린이 박물관, 원형극장 등이 자리 잡고 있으며 지상 2층에는 역사실 및 산업사실이 설치되어 있다. 탁 트인 넓은 공간과 자연의 아름다움을 연결한 야외전시장이 있으며 박물관 외벽에 울산의 대표적 국가유산인 반구대 암각화를 음각으로 조각하여 연출했다. 울산의 오래된 역사를 박물관 초입에 연출함으로써 문화도시 울산의 웅장함과 자긍심을 드러내 보인다. 박물관은 울산대공원 안에 위치한다. 울산의 역사와 문화를 보여주는 울산의 대표 박물관이다. 역사실, 산업사실로 구성된 상설전시실과 어린이박물관, 실감영상관, 기획전시실로 구성되어 있다. 매년 울산의 역사, 문화, 산업 등을 주제로 한 전시와 교육 및 문화행사를 운영하고 있다."
+        }
+      ]
+    }
+  },
+  "duration_ms": 10193.92,
+  "error_type": ""
+}

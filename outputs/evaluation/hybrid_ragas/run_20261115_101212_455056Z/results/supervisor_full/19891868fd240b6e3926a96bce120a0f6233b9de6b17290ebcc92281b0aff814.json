@@ -1,0 +1,671 @@
+{
+  "mode": "supervisor_full",
+  "question_id": "Q262",
+  "evidence": [
+    {
+      "museum_id": "M0450",
+      "name": "대구교육박물관",
+      "document": "교육수도 대구의 교육 사료의 체계적인 수집· 보존과 세대 간 공감을 위한 교육역사 체험공간을 마련하고, 시민·지역사회와 함께 하는 지역문화 공간의 창출을 위해 옛 대구대동초등학교를 리모델링하여 대구교육박물관을 설립하였다. 7개의 전시실과 5개의 체험실을 갖추고 다양한 볼거리와 즐길거리를 제공하고 있으며, 교육과 관련된 수준 높은 교육프로그램과 대구의 숨은 교육과 역사 이야기가 담긴 전시유물을 만나볼 수 있다. 영남지역 최초의 교육박물관으로서, 구 대동초등학교를 리모델링하여 박물관으로 운영 기증과 구입을 통해 확보한 교육자료 550여점 전시",
+      "metadata": {
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "weekday_open": "09:30",
+        "address": "대구광역시 북구 대동로1길 40(산격동)",
+        "sigungu": "북구",
+        "sido": "대구광역시",
+        "child_fee": 0.0,
+        "homepage_url": "https://www.dge.go.kr/dme/main.do",
+        "holiday_close": "18:00",
+        "closure_rule_raw": "매주 월요일, 1월 1일, 설날·추석 당일(월요일이 공휴일이면 공휴일 다음 첫 평일 휴관)",
+        "holiday_open": "09:30",
+        "longitude": 128.6118404,
+        "name": "대구교육박물관",
+        "ownership_type": "공립",
+        "requires_manual_review": true,
+        "fee_notes": "일반인 관람 가능",
+        "latitude": 35.89736822,
+        "amenities_raw": "전시실·체험실",
+        "youth_fee": 0.0,
+        "adult_fee": 0.0,
+        "weekday_close": "18:00",
+        "source_types": "BASE"
+      },
+      "vector_rank": 1,
+      "bm25_rank": 1,
+      "vector_distance": 0.38889336585998535,
+      "vector_score": null,
+      "bm25_score": 9.912536095002503,
+      "vector_document": "교육수도 대구의 교육 사료의 체계적인 수집· 보존과 세대 간 공감을 위한 교육역사 체험공간을 마련하고, 시민·지역사회와 함께 하는 지역문화 공간의 창출을 위해 옛 대구대동초등학교를 리모델링하여 대구교육박물관을 설립하였다. 7개의 전시실과 5개의 체험실을 갖추고 다양한 볼거리와 즐길거리를 제공하고 있으며, 교육과 관련된 수준 높은 교육프로그램과 대구의 숨은 교육과 역사 이야기가 담긴 전시유물을 만나볼 수 있다. 영남지역 최초의 교육박물관으로서, 구 대동초등학교를 리모델링하여 박물관으로 운영 기증과 구입을 통해 확보한 교육자료 550여점 전시",
+      "bm25_document": "교육수도 대구의 교육 사료의 체계적인 수집· 보존과 세대 간 공감을 위한 교육역사 체험공간을 마련하고, 시민·지역사회와 함께 하는 지역문화 공간의 창출을 위해 옛 대구대동초등학교를 리모델링하여 대구교육박물관을 설립하였다. 7개의 전시실과 5개의 체험실을 갖추고 다양한 볼거리와 즐길거리를 제공하고 있으며, 교육과 관련된 수준 높은 교육프로그램과 대구의 숨은 교육과 역사 이야기가 담긴 전시유물을 만나볼 수 있다. 영남지역 최초의 교육박물관으로서, 구 대동초등학교를 리모델링하여 박물관으로 운영 기증과 구입을 통해 확보한 교육자료 550여점 전시",
+      "best_span_id": "chroma:M0450",
+      "best_span_text": "교육수도 대구의 교육 사료의 체계적인 수집· 보존과 세대 간 공감을 위한 교육역사 체험공간을 마련하고, 시민·지역사회와 함께 하는 지역문화 공간의 창출을 위해 옛 대구대동초등학교를 리모델링하여 대구교육박물관을 설립하였다. 7개의 전시실과 5개의 체험실을 갖추고 다양한 볼거리와 즐길거리를 제공하고 있으며, 교육과 관련된 수준 높은 교육프로그램과 대구의 숨은 교육과 역사 이야기가 담긴 전시유물을 만나볼 수 있다. 영남지역 최초의 교육박물관으로서, 구 대동초등학교를 리모델링하여 박물관으로 운영 기증과 구입을 통해 확보한 교육자료 550여점 전시",
+      "fusion_score": 0.03278688524590164,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 1,
+      "name_match": true,
+      "rerank_score": 0.9985650181770325,
+      "rank": 1,
+      "score": 0.9985650181770325,
+      "score_type": "cross_encoder",
+      "distance": 0.38889336585998535,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0450",
+      "source_doc_ids": [
+        "DOC-B0450-BASE",
+        "DOC-B0702-BASE",
+        "DOC-B0725-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0450-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0450",
+          "source_locator": "data/raw/museum_base_1070.csv#row=451",
+          "match_trust": "BASE_SOURCE"
+        },
+        {
+          "doc_id": "DOC-B0702-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0702",
+          "source_locator": "data/raw/museum_base_1070.csv#row=703",
+          "match_trust": "BASE_SOURCE"
+        },
+        {
+          "doc_id": "DOC-B0725-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0725",
+          "source_locator": "data/raw/museum_base_1070.csv#row=726",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 123,
+          "doc_ids": [
+            "DOC-B0450-BASE"
+          ]
+        },
+        {
+          "start": 124,
+          "end": 230,
+          "doc_ids": [
+            "DOC-B0450-BASE"
+          ]
+        },
+        {
+          "start": 231,
+          "end": 275,
+          "doc_ids": [
+            "DOC-B0702-BASE"
+          ]
+        },
+        {
+          "start": 276,
+          "end": 304,
+          "doc_ids": [
+            "DOC-B0725-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_base_1070.csv#row=451",
+      "text": "교육수도 대구의 교육 사료의 체계적인 수집· 보존과 세대 간 공감을 위한 교육역사 체험공간을 마련하고, 시민·지역사회와 함께 하는 지역문화 공간의 창출을 위해 옛 대구대동초등학교를 리모델링하여 대구교육박물관을 설립하였다. 7개의 전시실과 5개의 체험실을 갖추고 다양한 볼거리와 즐길거리를 제공하고 있으며, 교육과 관련된 수준 높은 교육프로그램과 대구의 숨은 교육과 역사 이야기가 담긴 전시유물을 만나볼 수 있다. 영남지역 최초의 교육박물관으로서, 구 대동초등학교를 리모델링하여 박물관으로 운영 기증과 구입을 통해 확보한 교육자료 550여점 전시",
+      "sido": "대구광역시",
+      "sigungu": "북구",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_base_1070.csv#row=451"
+      ],
+      "evidence_id": "E1",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=322",
+        "fields": {
+          "name": "대구교육박물관",
+          "sido": "대구광역시",
+          "sigungu": "북구",
+          "address": "대구광역시 북구 대동로1길 40(산격동)",
+          "ownership_type": "공립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "09:30",
+          "weekday_close": "18:00",
+          "holiday_open": "09:30",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "매주 월요일, 1월 1일, 설날·추석 당일(월요일이 공휴일이면 공휴일 다음 첫 평일 휴관)",
+          "amenities_raw": "전시실·체험실"
+        },
+        "base_data_date": "2026-04-17",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0774",
+      "name": "서울교육박물관",
+      "document": "서울교육박물관은 우리나라 교육을 선도해 온 서울 교육의 위상을 정립하고 21세기 주역이 될 후손들에게 우리 교육의 밝은 미래를 제시하기 위해 우리나라 교육의 발전 모습을 한눈에 살펴볼 수 있도록 교육제도, 교육과정, 교육 내용, 교육기관, 교육활동 등에 관한 유물과 사진 등 각종 자료를 시대별로 전시하여 지난 1995년 6월 15일에 개관하여 운영하는 교육 전문 박물관이다. 역사의 갖은 소용돌이 속에서도 의연히 지켜온 서울교육의 맥을 살펴봄으로써 오늘을 이룩한 교육의 위대한 힘을 깨닫고 우리 조상들의 숭고한 교육 정신과 그 숨결도 함께 느낄 수 있는 의미 있는 곳이다.",
+      "metadata": {
+        "source_types": "TOUR_API",
+        "image_copyright": "Type1",
+        "youth_fee": 0.0,
+        "adult_fee": 0.0,
+        "closure_rule_raw": "공휴일+1·3 주 수요일",
+        "address": "서울특별시 종로구 북촌로5길 48(화동)",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/71/3496671_image2_1.jpg",
+        "latitude": 37.58126437,
+        "holiday_open": "09:00",
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "ownership_type": "공립",
+        "longitude": 126.9838695,
+        "homepage_url": "http://edumuseum.sen.go.kr/",
+        "sigungu": "종로구",
+        "requires_manual_review": true,
+        "sido": "서울특별시",
+        "name": "서울교육박물관",
+        "holiday_close": "17:00",
+        "child_fee": 0.0,
+        "weekday_open": "09:00",
+        "weekday_close": "18:00"
+      },
+      "vector_rank": 3,
+      "bm25_rank": null,
+      "vector_distance": 0.4715675115585327,
+      "vector_score": null,
+      "bm25_score": null,
+      "vector_document": "서울교육박물관은 우리나라 교육을 선도해 온 서울 교육의 위상을 정립하고 21세기 주역이 될 후손들에게 우리 교육의 밝은 미래를 제시하기 위해 우리나라 교육의 발전 모습을 한눈에 살펴볼 수 있도록 교육제도, 교육과정, 교육 내용, 교육기관, 교육활동 등에 관한 유물과 사진 등 각종 자료를 시대별로 전시하여 지난 1995년 6월 15일에 개관하여 운영하는 교육 전문 박물관이다. 역사의 갖은 소용돌이 속에서도 의연히 지켜온 서울교육의 맥을 살펴봄으로써 오늘을 이룩한 교육의 위대한 힘을 깨닫고 우리 조상들의 숭고한 교육 정신과 그 숨결도 함께 느낄 수 있는 의미 있는 곳이다.",
+      "bm25_document": "",
+      "best_span_id": null,
+      "best_span_text": null,
+      "fusion_score": 0.015873015873015872,
+      "retrieved_by": [
+        "vector"
+      ],
+      "fusion_rank": 4,
+      "rerank_score": 0.005289873108267784,
+      "rank": 2,
+      "score": 0.005289873108267784,
+      "score_type": "cross_encoder",
+      "distance": 0.4715675115585327,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector"
+      ],
+      "retriever": "vector",
+      "source_doc_ids": [
+        "DOC-B0774-TOUR_API-130678"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0774-TOUR_API-130678",
+          "source_type": "TOUR_API",
+          "source_record_id": "130678",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=375",
+          "match_trust": "RECHECKED_BY_RULE_NOT_HUMAN_APPROVED"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 210,
+          "doc_ids": [
+            "DOC-B0774-TOUR_API-130678"
+          ]
+        },
+        {
+          "start": 211,
+          "end": 321,
+          "doc_ids": [
+            "DOC-B0774-TOUR_API-130678"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=375",
+      "text": "서울교육박물관은 우리나라 교육을 선도해 온 서울 교육의 위상을 정립하고 21세기 주역이 될 후손들에게 우리 교육의 밝은 미래를 제시하기 위해 우리나라 교육의 발전 모습을 한눈에 살펴볼 수 있도록 교육제도, 교육과정, 교육 내용, 교육기관, 교육활동 등에 관한 유물과 사진 등 각종 자료를 시대별로 전시하여 지난 1995년 6월 15일에 개관하여 운영하는 교육 전문 박물관이다. 역사의 갖은 소용돌이 속에서도 의연히 지켜온 서울교육의 맥을 살펴봄으로써 오늘을 이룩한 교육의 위대한 힘을 깨닫고 우리 조상들의 숭고한 교육 정신과 그 숨결도 함께 느낄 수 있는 의미 있는 곳이다.",
+      "sido": "서울특별시",
+      "sigungu": "종로구",
+      "span_id": "",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=375"
+      ],
+      "evidence_id": "E2",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=535",
+        "fields": {
+          "name": "서울교육박물관",
+          "sido": "서울특별시",
+          "sigungu": "종로구",
+          "address": "서울특별시 종로구 북촌로5길 48(화동)",
+          "ownership_type": "공립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "09:00",
+          "weekday_close": "18:00",
+          "holiday_open": "09:00",
+          "holiday_close": "17:00",
+          "closure_rule_raw": "공휴일+1·3 주 수요일"
+        },
+        "base_data_date": "2025-11-01",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0901",
+      "name": "조선대학교 박물관",
+      "document": "조선대학교 박물관은 실물교육자료를 수집·연구·전시하고 교육과 학술 및 지역 발전에 이바지할 목적으로 설립되었습니다",
+      "metadata": {
+        "requires_manual_review": true,
+        "weekday_close": "17:00",
+        "adult_fee": 0.0,
+        "address": "광주광역시 동구 필문대로 309(서석동,조선대학교)",
+        "holiday_open": "00:00",
+        "longitude": 126.934363,
+        "name": "조선대학교 박물관",
+        "homepage_url": "http://www2.chosun.ac.kr/mbs/museum/",
+        "youth_fee": 0.0,
+        "holiday_close": "00:00",
+        "ownership_type": "대학",
+        "latitude": 35.146003,
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "source_types": "BASE",
+        "sigungu": "동구",
+        "closure_rule_raw": "토+일+공휴일",
+        "weekday_open": "10:00",
+        "child_fee": 0.0,
+        "sido": "광주광역시"
+      },
+      "vector_rank": 4,
+      "bm25_rank": null,
+      "vector_distance": 0.47183358669281006,
+      "vector_score": null,
+      "bm25_score": null,
+      "vector_document": "조선대학교 박물관은 실물교육자료를 수집·연구·전시하고 교육과 학술 및 지역 발전에 이바지할 목적으로 설립되었습니다",
+      "bm25_document": "",
+      "best_span_id": null,
+      "best_span_text": null,
+      "fusion_score": 0.015625,
+      "retrieved_by": [
+        "vector"
+      ],
+      "fusion_rank": 6,
+      "rerank_score": 0.0032713168766349554,
+      "rank": 3,
+      "score": 0.0032713168766349554,
+      "score_type": "cross_encoder",
+      "distance": 0.47183358669281006,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector"
+      ],
+      "retriever": "vector",
+      "source_doc_ids": [
+        "DOC-B0901-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0901-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0901",
+          "source_locator": "data/raw/museum_base_1070.csv#row=902",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 63,
+          "doc_ids": [
+            "DOC-B0901-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_base_1070.csv#row=902",
+      "text": "조선대학교 박물관은 실물교육자료를 수집·연구·전시하고 교육과 학술 및 지역 발전에 이바지할 목적으로 설립되었습니다",
+      "sido": "광주광역시",
+      "sigungu": "동구",
+      "span_id": "",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_base_1070.csv#row=902"
+      ],
+      "evidence_id": "E3",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=619",
+        "fields": {
+          "name": "조선대학교 박물관",
+          "sido": "광주광역시",
+          "sigungu": "동구",
+          "address": "광주광역시 동구 필문대로 309(서석동,조선대학교)",
+          "ownership_type": "대학",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "10:00",
+          "weekday_close": "17:00",
+          "holiday_open": "00:00",
+          "holiday_close": "00:00",
+          "closure_rule_raw": "토+일+공휴일"
+        },
+        "base_data_date": "2025-06-26",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0451",
+      "name": "경북대학교 미술관",
+      "document": "경북대학교미술관은 지역에서 최초로 설립된 대학 미술관이자 공공미술관으로서 지역사회에 봉사하고 글로벌 시대에 문화역량을 강화하기 위해 2006년에 설립되었다. 전시 및 다양한 학술행사와 교육 프로그램을 개발·운영하여 대학 내 구성원 뿐만 아니라 일반 관객들에게 문화적 체험의 장을 제공하고 있다. 예술 전문기관으로서의 전문성과 함께 음악, 건축, 문학 등의 장르 간 상호 연계를 통한 복합문화 공간이다. 또 미술관을 찾는 관람객들에게 다양한 전시와 공연, 학술행사를 통해 삶의 여유와 문화적 욕구를 충족시킬 수 있도록 노력하는 장소이다. 지역 최초로 설립된 대학미술관이자 공공미술관으로 전시 및 다양한 학술행사와 교육프로그램을 개발 운영하고 있음 경북대학교 미술관은 지역사회에 봉사하고 글로벌 시대에 문화역량을 강화하기 위해 2006년 설립됨",
+      "metadata": {
+        "holiday_close": "00:00",
+        "image_copyright": "Type3",
+        "address": "대구광역시 북구 대학로 80(산격동)",
+        "sigungu": "북구",
+        "homepage_url": "http://artmuseum.knu.ac.kr",
+        "ownership_type": "대학",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/77/3089977_image2_1.JPG",
+        "source_types": "BASE|TOUR_API",
+        "longitude": 128.6143217,
+        "closure_rule_raw": "일요일+국정공휴일",
+        "fee_notes": "기획전 또는 특별전의 경우 관람료가 책정될 수 있음",
+        "child_fee": 0.0,
+        "weekday_open": "10:00",
+        "name": "경북대학교 미술관",
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "youth_fee": 0.0,
+        "holiday_open": "00:00",
+        "amenities_raw": "전시실",
+        "adult_fee": 0.0,
+        "sido": "대구광역시",
+        "latitude": 35.88909849,
+        "weekday_close": "18:00",
+        "requires_manual_review": true
+      },
+      "vector_rank": null,
+      "bm25_rank": 4,
+      "vector_distance": null,
+      "vector_score": null,
+      "bm25_score": 4.324605603339835,
+      "vector_document": "",
+      "bm25_document": "경북대학교미술관은 지역에서 최초로 설립된 대학 미술관이자 공공미술관으로서 지역사회에 봉사하고 글로벌 시대에 문화역량을 강화하기 위해 2006년에 설립되었다. 전시 및 다양한 학술행사와 교육 프로그램을 개발·운영하여 대학 내 구성원 뿐만 아니라 일반 관객들에게 문화적 체험의 장을 제공하고 있다. 예술 전문기관으로서의 전문성과 함께 음악, 건축, 문학 등의 장르 간 상호 연계를 통한 복합문화 공간이다. 또 미술관을 찾는 관람객들에게 다양한 전시와 공연, 학술행사를 통해 삶의 여유와 문화적 욕구를 충족시킬 수 있도록 노력하는 장소이다. 지역 최초로 설립된 대학미술관이자 공공미술관으로 전시 및 다양한 학술행사와 교육프로그램을 개발 운영하고 있음 경북대학교 미술관은 지역사회에 봉사하고 글로벌 시대에 문화역량을 강화하기 위해 2006년 설립됨",
+      "best_span_id": "chroma:M0451",
+      "best_span_text": "경북대학교미술관은 지역에서 최초로 설립된 대학 미술관이자 공공미술관으로서 지역사회에 봉사하고 글로벌 시대에 문화역량을 강화하기 위해 2006년에 설립되었다. 전시 및 다양한 학술행사와 교육 프로그램을 개발·운영하여 대학 내 구성원 뿐만 아니라 일반 관객들에게 문화적 체험의 장을 제공하고 있다. 예술 전문기관으로서의 전문성과 함께 음악, 건축, 문학 등의 장르 간 상호 연계를 통한 복합문화 공간이다. 또 미술관을 찾는 관람객들에게 다양한 전시와 공연, 학술행사를 통해 삶의 여유와 문화적 욕구를 충족시킬 수 있도록 노력하는 장소이다. 지역 최초로 설립된 대학미술관이자 공공미술관으로 전시 및 다양한 학술행사와 교육프로그램을 개발 운영하고 있음 경북대학교 미술관은 지역사회에 봉사하고 글로벌 시대에 문화역량을 강화하기 위해 2006년 설립됨",
+      "fusion_score": 0.015625,
+      "retrieved_by": [
+        "bm25"
+      ],
+      "fusion_rank": 7,
+      "rerank_score": 0.002084210980683565,
+      "rank": 4,
+      "score": 0.002084210980683565,
+      "score_type": "cross_encoder",
+      "distance": null,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "bm25"
+      ],
+      "retriever": "bm25",
+      "span_id": "chroma:M0451",
+      "source_doc_ids": [
+        "DOC-B0451-TOUR_API-3089983",
+        "DOC-B0451-BASE",
+        "DOC-B0684-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0451-TOUR_API-3089983",
+          "source_type": "TOUR_API",
+          "source_record_id": "3089983",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=216",
+          "match_trust": "RECHECKED_BY_RULE_NOT_HUMAN_APPROVED"
+        },
+        {
+          "doc_id": "DOC-B0451-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0451",
+          "source_locator": "data/raw/museum_base_1070.csv#row=452",
+          "match_trust": "BASE_SOURCE"
+        },
+        {
+          "doc_id": "DOC-B0684-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0684",
+          "source_locator": "data/raw/museum_base_1070.csv#row=685",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 87,
+          "doc_ids": [
+            "DOC-B0451-TOUR_API-3089983"
+          ]
+        },
+        {
+          "start": 88,
+          "end": 164,
+          "doc_ids": [
+            "DOC-B0451-TOUR_API-3089983"
+          ]
+        },
+        {
+          "start": 165,
+          "end": 224,
+          "doc_ids": [
+            "DOC-B0451-TOUR_API-3089983"
+          ]
+        },
+        {
+          "start": 225,
+          "end": 299,
+          "doc_ids": [
+            "DOC-B0451-TOUR_API-3089983"
+          ]
+        },
+        {
+          "start": 300,
+          "end": 360,
+          "doc_ids": [
+            "DOC-B0451-BASE"
+          ]
+        },
+        {
+          "start": 361,
+          "end": 414,
+          "doc_ids": [
+            "DOC-B0684-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=216",
+      "text": "경북대학교미술관은 지역에서 최초로 설립된 대학 미술관이자 공공미술관으로서 지역사회에 봉사하고 글로벌 시대에 문화역량을 강화하기 위해 2006년에 설립되었다. 전시 및 다양한 학술행사와 교육 프로그램을 개발·운영하여 대학 내 구성원 뿐만 아니라 일반 관객들에게 문화적 체험의 장을 제공하고 있다. 예술 전문기관으로서의 전문성과 함께 음악, 건축, 문학 등의 장르 간 상호 연계를 통한 복합문화 공간이다. 또 미술관을 찾는 관람객들에게 다양한 전시와 공연, 학술행사를 통해 삶의 여유와 문화적 욕구를 충족시킬 수 있도록 노력하는 장소이다. 지역 최초로 설립된 대학미술관이자 공공미술관으로 전시 및 다양한 학술행사와 교육프로그램을 개발 운영하고 있음 경북대학교 미술관은 지역사회에 봉사하고 글로벌 시대에 문화역량을 강화하기 위해 2006년 설립됨",
+      "sido": "대구광역시",
+      "sigungu": "북구",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=216"
+      ],
+      "evidence_id": "E4",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=323",
+        "fields": {
+          "name": "경북대학교 미술관",
+          "sido": "대구광역시",
+          "sigungu": "북구",
+          "address": "대구광역시 북구 대학로 80(산격동)",
+          "ownership_type": "대학",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "10:00",
+          "weekday_close": "18:00",
+          "holiday_open": "00:00",
+          "holiday_close": "00:00",
+          "closure_rule_raw": "일요일+국정공휴일",
+          "amenities_raw": "전시실"
+        },
+        "base_data_date": "2026-04-17",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0888",
+      "name": "쉐마미술관",
+      "document": "SCHEMA는 “격”, “짜임”, “계획” 이라는 의미로 기하학적 구성요소로 이루어진 김재관 교수의 작품과 그 맥을 같이하며 2009년 6월 26일에 설립된 사립미술관입니다. 현대미술의 격(格)과 시대정신에 걸 맞는 창작 예술의 연구와 실천을 위한 공간입니다.",
+      "metadata": {
+        "sigungu": "청주시",
+        "homepage_url": "https://schemaartmuseum.com",
+        "adult_fee": 2000.0,
+        "weekday_open": "10:00",
+        "source_types": "BASE",
+        "closure_rule_raw": "1월 1일+설 연휴+추석 연휴",
+        "sido": "충청북도",
+        "adult_fee_status": "BASE_FEE_PAID",
+        "latitude": 36.6950253,
+        "longitude": 127.4996815,
+        "name": "쉐마미술관",
+        "ownership_type": "사립",
+        "holiday_close": "18:00",
+        "weekday_close": "18:00",
+        "address": "충청북도 청주시 청원구 내수읍 내수로 241",
+        "holiday_open": "10:00",
+        "fee_notes": "6세 이하 어린이+65세 이상 어르신+장애인+국가유공자 무료",
+        "requires_manual_review": true,
+        "amenities_raw": "주차장",
+        "youth_fee": 1000.0,
+        "child_fee": 1000.0,
+        "transport_notes": "시내버스 111,115번 이용 후 신화동 정류소 하차. 도보 15분"
+      },
+      "vector_rank": null,
+      "bm25_rank": 5,
+      "vector_distance": null,
+      "vector_score": null,
+      "bm25_score": 3.8586848350862266,
+      "vector_document": "",
+      "bm25_document": "SCHEMA는 “격”, “짜임”, “계획” 이라는 의미로 기하학적 구성요소로 이루어진 김재관 교수의 작품과 그 맥을 같이하며 2009년 6월 26일에 설립된 사립미술관입니다. 현대미술의 격(格)과 시대정신에 걸 맞는 창작 예술의 연구와 실천을 위한 공간입니다.",
+      "best_span_id": "chroma:M0888",
+      "best_span_text": "SCHEMA는 “격”, “짜임”, “계획” 이라는 의미로 기하학적 구성요소로 이루어진 김재관 교수의 작품과 그 맥을 같이하며 2009년 6월 26일에 설립된 사립미술관입니다. 현대미술의 격(格)과 시대정신에 걸 맞는 창작 예술의 연구와 실천을 위한 공간입니다.",
+      "fusion_score": 0.015384615384615385,
+      "retrieved_by": [
+        "bm25"
+      ],
+      "fusion_rank": 9,
+      "rerank_score": 0.0020093731582164764,
+      "rank": 5,
+      "score": 0.0020093731582164764,
+      "score_type": "cross_encoder",
+      "distance": null,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "bm25"
+      ],
+      "retriever": "bm25",
+      "span_id": "chroma:M0888",
+      "source_doc_ids": [
+        "DOC-B0888-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0888-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0888",
+          "source_locator": "data/raw/museum_base_1070.csv#row=889",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 97,
+          "doc_ids": [
+            "DOC-B0888-BASE"
+          ]
+        },
+        {
+          "start": 98,
+          "end": 145,
+          "doc_ids": [
+            "DOC-B0888-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_base_1070.csv#row=889",
+      "text": "SCHEMA는 “격”, “짜임”, “계획” 이라는 의미로 기하학적 구성요소로 이루어진 김재관 교수의 작품과 그 맥을 같이하며 2009년 6월 26일에 설립된 사립미술관입니다. 현대미술의 격(格)과 시대정신에 걸 맞는 창작 예술의 연구와 실천을 위한 공간입니다.",
+      "sido": "충청북도",
+      "sigungu": "청주시",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_base_1070.csv#row=889"
+      ],
+      "evidence_id": "E5",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=606",
+        "fields": {
+          "name": "쉐마미술관",
+          "sido": "충청북도",
+          "sigungu": "청주시",
+          "address": "충청북도 청주시 청원구 내수읍 내수로 241",
+          "ownership_type": "사립",
+          "adult_fee": "2000",
+          "youth_fee": "1000",
+          "child_fee": "1000",
+          "adult_fee_status": "BASE_FEE_PAID",
+          "weekday_open": "10:00",
+          "weekday_close": "18:00",
+          "holiday_open": "10:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "1월 1일+설 연휴+추석 연휴",
+          "amenities_raw": "주차장"
+        },
+        "base_data_date": "2025-11-26",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    }
+  ],
+  "answer": "대구교육박물관은 대구의 교육 사료를 체계적으로 수집·보존하고, 세대 간 공감을 위한 교육역사 체험공간이자 시민·지역사회와 함께하는 지역문화 공간을 마련하기 위해 설립되었습니다. [E1]",
+  "retrieval_status": "ok",
+  "answer_status": "answered",
+  "route": "hybrid",
+  "retry_count": 0,
+  "supervisor_verified": true,
+  "rerank_applied": true,
+  "retriever_errors": [],
+  "warnings": [],
+  "duration_ms": 128735.39,
+  "error_type": "",
+  "hit_at_1": 1,
+  "hit_at_3": 1,
+  "hit_at_5": 1,
+  "recall_at_5": 1.0,
+  "mrr_at_10": 1.0
+}

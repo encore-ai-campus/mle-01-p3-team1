@@ -1,0 +1,693 @@
+{
+  "mode": "supervisor_full",
+  "question_id": "Q126",
+  "evidence": [
+    {
+      "museum_id": "M0197",
+      "name": "한국대중음악박물관",
+      "document": "한국대중음악박물관은 역사와 문화의 도시 경주에 위치하고 있으며 지하 1층부터 지상 3층까지 총 네 개층으로 구성되어 있다. 1층은 음악감상실에서 전설의 스피커 미로포닉에서 흘러나오는 노래를 감상할 수 있는 곳이다. 2층 전시실은 한국대중음악 100년사관으로 1896년 대한민국의 최초 노래가 녹음된 에디슨 실린더 음반부터 2000년대 k-pop음반까지 시대순으로 전시되어 있고 노래 듣기 체험을 할 수 있으며, 3층 전시실은 오디오 100년사관으로 1926년 제작된 인류 최초 스피커, 1936년 제작된 스피커의 전설이라고 하는 미국의 웨스턴 일렉트릭의 미로포닉, 제2차 세계대전 당시 히틀러가 연설할 때 사용하던 스피커 등 각종 희귀 스피커를 전시 및 청음할 수 있다. 지하는 악기 체험관, 어린이 체험관, 동전노래방, 포토존으로 구성되어 있어 체험과 재미를 느낄 수 있다.",
+      "metadata": {
+        "sido": "경상북도",
+        "child_fee": 8000.0,
+        "adult_fee": 15000.0,
+        "longitude": 129.2888924,
+        "youth_fee": 10000.0,
+        "weekday_close": "18:00",
+        "weekday_open": "10:00",
+        "closure_rule_raw": "매주 월,화",
+        "ownership_type": "사립",
+        "name": "한국대중음악박물관",
+        "requires_manual_review": true,
+        "latitude": 35.84034131,
+        "source_types": "TOUR_API",
+        "sigungu": "경주시",
+        "address": "경상북도 경주시 엑스포로 9(신평동)",
+        "holiday_close": "18:00",
+        "adult_fee_status": "BASE_FEE_PAID",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/78/4135478_image2_1.jpg",
+        "holiday_open": "10:00",
+        "homepage_url": "http://www.kpopmuseum.com/",
+        "image_copyright": "Type1"
+      },
+      "vector_rank": 1,
+      "bm25_rank": 1,
+      "vector_distance": 0.4199022054672241,
+      "vector_score": null,
+      "bm25_score": 44.29929448024052,
+      "vector_document": "한국대중음악박물관은 역사와 문화의 도시 경주에 위치하고 있으며 지하 1층부터 지상 3층까지 총 네 개층으로 구성되어 있다. 1층은 음악감상실에서 전설의 스피커 미로포닉에서 흘러나오는 노래를 감상할 수 있는 곳이다. 2층 전시실은 한국대중음악 100년사관으로 1896년 대한민국의 최초 노래가 녹음된 에디슨 실린더 음반부터 2000년대 k-pop음반까지 시대순으로 전시되어 있고 노래 듣기 체험을 할 수 있으며, 3층 전시실은 오디오 100년사관으로 1926년 제작된 인류 최초 스피커, 1936년 제작된 스피커의 전설이라고 하는 미국의 웨스턴 일렉트릭의 미로포닉, 제2차 세계대전 당시 히틀러가 연설할 때 사용하던 스피커 등 각종 희귀 스피커를 전시 및 청음할 수 있다. 지하는 악기 체험관, 어린이 체험관, 동전노래방, 포토존으로 구성되어 있어 체험과 재미를 느낄 수 있다.",
+      "bm25_document": "한국대중음악박물관은 역사와 문화의 도시 경주에 위치하고 있으며 지하 1층부터 지상 3층까지 총 네 개층으로 구성되어 있다. 1층은 음악감상실에서 전설의 스피커 미로포닉에서 흘러나오는 노래를 감상할 수 있는 곳이다. 2층 전시실은 한국대중음악 100년사관으로 1896년 대한민국의 최초 노래가 녹음된 에디슨 실린더 음반부터 2000년대 k-pop음반까지 시대순으로 전시되어 있고 노래 듣기 체험을 할 수 있으며, 3층 전시실은 오디오 100년사관으로 1926년 제작된 인류 최초 스피커, 1936년 제작된 스피커의 전설이라고 하는 미국의 웨스턴 일렉트릭의 미로포닉, 제2차 세계대전 당시 히틀러가 연설할 때 사용하던 스피커 등 각종 희귀 스피커를 전시 및 청음할 수 있다. 지하는 악기 체험관, 어린이 체험관, 동전노래방, 포토존으로 구성되어 있어 체험과 재미를 느낄 수 있다.",
+      "best_span_id": "chroma:M0197",
+      "best_span_text": "한국대중음악박물관은 역사와 문화의 도시 경주에 위치하고 있으며 지하 1층부터 지상 3층까지 총 네 개층으로 구성되어 있다. 1층은 음악감상실에서 전설의 스피커 미로포닉에서 흘러나오는 노래를 감상할 수 있는 곳이다. 2층 전시실은 한국대중음악 100년사관으로 1896년 대한민국의 최초 노래가 녹음된 에디슨 실린더 음반부터 2000년대 k-pop음반까지 시대순으로 전시되어 있고 노래 듣기 체험을 할 수 있으며, 3층 전시실은 오디오 100년사관으로 1926년 제작된 인류 최초 스피커, 1936년 제작된 스피커의 전설이라고 하는 미국의 웨스턴 일렉트릭의 미로포닉, 제2차 세계대전 당시 히틀러가 연설할 때 사용하던 스피커 등 각종 희귀 스피커를 전시 및 청음할 수 있다. 지하는 악기 체험관, 어린이 체험관, 동전노래방, 포토존으로 구성되어 있어 체험과 재미를 느낄 수 있다.",
+      "fusion_score": 0.03278688524590164,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 1,
+      "name_match": true,
+      "rerank_score": 0.999357283115387,
+      "rank": 1,
+      "score": 0.999357283115387,
+      "score_type": "cross_encoder",
+      "distance": 0.4199022054672241,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0197",
+      "source_doc_ids": [
+        "DOC-B0197-TOUR_API-2049478"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0197-TOUR_API-2049478",
+          "source_type": "TOUR_API",
+          "source_record_id": "2049478",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=95",
+          "match_trust": "RECHECKED_BY_RULE_NOT_HUMAN_APPROVED"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 68,
+          "doc_ids": [
+            "DOC-B0197-TOUR_API-2049478"
+          ]
+        },
+        {
+          "start": 69,
+          "end": 119,
+          "doc_ids": [
+            "DOC-B0197-TOUR_API-2049478"
+          ]
+        },
+        {
+          "start": 120,
+          "end": 375,
+          "doc_ids": [
+            "DOC-B0197-TOUR_API-2049478"
+          ]
+        },
+        {
+          "start": 376,
+          "end": 434,
+          "doc_ids": [
+            "DOC-B0197-TOUR_API-2049478"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=95",
+      "text": "한국대중음악박물관은 역사와 문화의 도시 경주에 위치하고 있으며 지하 1층부터 지상 3층까지 총 네 개층으로 구성되어 있다. 1층은 음악감상실에서 전설의 스피커 미로포닉에서 흘러나오는 노래를 감상할 수 있는 곳이다. 2층 전시실은 한국대중음악 100년사관으로 1896년 대한민국의 최초 노래가 녹음된 에디슨 실린더 음반부터 2000년대 k-pop음반까지 시대순으로 전시되어 있고 노래 듣기 체험을 할 수 있으며, 3층 전시실은 오디오 100년사관으로 1926년 제작된 인류 최초 스피커, 1936년 제작된 스피커의 전설이라고 하는 미국의 웨스턴 일렉트릭의 미로포닉, 제2차 세계대전 당시 히틀러가 연설할 때 사용하던 스피커 등 각종 희귀 스피커를 전시 및 청음할 수 있다. 지하는 악기 체험관, 어린이 체험관, 동전노래방, 포토존으로 구성되어 있어 체험과 재미를 느낄 수 있다.",
+      "sido": "경상북도",
+      "sigungu": "경주시",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=95"
+      ],
+      "evidence_id": "E1",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=129",
+        "fields": {
+          "name": "한국대중음악박물관",
+          "sido": "경상북도",
+          "sigungu": "경주시",
+          "address": "경상북도 경주시 엑스포로 9(신평동)",
+          "ownership_type": "사립",
+          "adult_fee": "15000",
+          "youth_fee": "10000",
+          "child_fee": "8000",
+          "adult_fee_status": "BASE_FEE_PAID",
+          "weekday_open": "10:00",
+          "weekday_close": "18:00",
+          "holiday_open": "10:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "매주 월,화"
+        },
+        "base_data_date": "2026-08-31",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0361",
+      "name": "LIUSEUM 세계민족악기전시관",
+      "document": "세계 각국 민족 악기 300여점, 한국 대중음악의 역사를 조명하는 전시 관람 가능",
+      "metadata": {
+        "holiday_open": "08:30",
+        "weekday_open": "08:30",
+        "amenities_raw": "스윙카페+수유실+휴식공간",
+        "transport_notes": "1)대중교통 : 가평역 - 10-4번 버스 - 남이섬종점 정류장 하차+2) 승용차 : 고속도로(서울양양고속도로-설악IC), 일반도로(경춘북로-경춘로)",
+        "holiday_close": "18:00",
+        "fee_notes": "전부 무료",
+        "homepage_url": "http://www.songisland.co.kr/",
+        "requires_manual_review": false,
+        "sido": "강원특별자치도",
+        "weekday_close": "18:00",
+        "youth_fee": 0.0,
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "address": "강원특별자치도 춘천시 남산면 남이섬길 1",
+        "name": "LIUSEUM 세계민족악기전시관",
+        "sigungu": "춘천시",
+        "adult_fee": 0.0,
+        "closure_rule_raw": "연중 무휴",
+        "latitude": 37.790127,
+        "source_types": "BASE",
+        "child_fee": 0.0,
+        "longitude": 127.526131,
+        "ownership_type": "사립"
+      },
+      "vector_rank": 3,
+      "bm25_rank": 2,
+      "vector_distance": 0.4878695011138916,
+      "vector_score": null,
+      "bm25_score": 22.76798010795528,
+      "vector_document": "세계 각국 민족 악기 300여점, 한국 대중음악의 역사를 조명하는 전시 관람 가능",
+      "bm25_document": "세계 각국 민족 악기 300여점, 한국 대중음악의 역사를 조명하는 전시 관람 가능",
+      "best_span_id": "chroma:M0361",
+      "best_span_text": "세계 각국 민족 악기 300여점, 한국 대중음악의 역사를 조명하는 전시 관람 가능",
+      "fusion_score": 0.03200204813108039,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 2,
+      "rerank_score": 0.023201648145914078,
+      "rank": 2,
+      "score": 0.023201648145914078,
+      "score_type": "cross_encoder",
+      "distance": 0.4878695011138916,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0361",
+      "source_doc_ids": [
+        "DOC-B0361-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0361-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0361",
+          "source_locator": "data/raw/museum_base_1070.csv#row=362",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 45,
+          "doc_ids": [
+            "DOC-B0361-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_base_1070.csv#row=362",
+      "text": "세계 각국 민족 악기 300여점, 한국 대중음악의 역사를 조명하는 전시 관람 가능",
+      "sido": "강원특별자치도",
+      "sigungu": "춘천시",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_base_1070.csv#row=362"
+      ],
+      "evidence_id": "E2",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=263",
+        "fields": {
+          "name": "LIUSEUM 세계민족악기전시관",
+          "sido": "강원특별자치도",
+          "sigungu": "춘천시",
+          "address": "강원특별자치도 춘천시 남산면 남이섬길 1",
+          "ownership_type": "사립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "08:30",
+          "weekday_close": "18:00",
+          "holiday_open": "08:30",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "연중 무휴",
+          "amenities_raw": "스윙카페+수유실+휴식공간"
+        },
+        "base_data_date": "2026-06-10",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0373",
+      "name": "세계민속악기박물관",
+      "document": "세계민속악기박물관은 2003년 개관한 한국 최초의 악기 박물관으로, 전 세계 120개 나라에서 온 2,000 여 점의 악기와 민속 자료를 소장 및 전시하고 있다. 세계 악기를 통해 지구촌의 역사와 음악 문화를 살펴볼 수 있으며, 일부 악기는 직접 연주하고 만들어볼 수 있는 체험형 박물관이다. 매년 새로운 기획전, 공연 및 교육 프로그램 등을 진행하고 있다.",
+      "metadata": {
+        "image_copyright": "Type3",
+        "adult_fee": 7000.0,
+        "closure_rule_raw": "월요일",
+        "sido": "경기도",
+        "requires_manual_review": true,
+        "fee_notes": "단체(20명이상)1인당 1000원 할인",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/31/3382831_image2_1.JPG",
+        "longitude": 126.699378269,
+        "adult_fee_status": "BASE_FEE_PAID",
+        "source_types": "TOUR_API",
+        "weekday_open": "09:30",
+        "youth_fee": 6000.0,
+        "holiday_open": "09:30",
+        "homepage_url": "http://musicmuseum.kr/",
+        "child_fee": 6000.0,
+        "address": "경기도 파주시 탄현면 헤이리마을길 63-26",
+        "weekday_close": "17:30",
+        "sigungu": "파주시",
+        "name": "세계민속악기박물관",
+        "ownership_type": "사립",
+        "holiday_close": "17:30",
+        "latitude": 37.7895075879
+      },
+      "vector_rank": 6,
+      "bm25_rank": null,
+      "vector_distance": 0.5425301790237427,
+      "vector_score": null,
+      "bm25_score": null,
+      "vector_document": "세계민속악기박물관은 2003년 개관한 한국 최초의 악기 박물관으로, 전 세계 120개 나라에서 온 2,000 여 점의 악기와 민속 자료를 소장 및 전시하고 있다. 세계 악기를 통해 지구촌의 역사와 음악 문화를 살펴볼 수 있으며, 일부 악기는 직접 연주하고 만들어볼 수 있는 체험형 박물관이다. 매년 새로운 기획전, 공연 및 교육 프로그램 등을 진행하고 있다.",
+      "bm25_document": "",
+      "best_span_id": null,
+      "best_span_text": null,
+      "fusion_score": 0.015151515151515152,
+      "retrieved_by": [
+        "vector"
+      ],
+      "fusion_rank": 12,
+      "rerank_score": 0.004194771870970726,
+      "rank": 3,
+      "score": 0.004194771870970726,
+      "score_type": "cross_encoder",
+      "distance": 0.5425301790237427,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector"
+      ],
+      "retriever": "vector",
+      "source_doc_ids": [
+        "DOC-B0373-TOUR_API-130680"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0373-TOUR_API-130680",
+          "source_type": "TOUR_API",
+          "source_record_id": "130680",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=175",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 90,
+          "doc_ids": [
+            "DOC-B0373-TOUR_API-130680"
+          ]
+        },
+        {
+          "start": 91,
+          "end": 163,
+          "doc_ids": [
+            "DOC-B0373-TOUR_API-130680"
+          ]
+        },
+        {
+          "start": 164,
+          "end": 200,
+          "doc_ids": [
+            "DOC-B0373-TOUR_API-130680"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=175",
+      "text": "세계민속악기박물관은 2003년 개관한 한국 최초의 악기 박물관으로, 전 세계 120개 나라에서 온 2,000 여 점의 악기와 민속 자료를 소장 및 전시하고 있다. 세계 악기를 통해 지구촌의 역사와 음악 문화를 살펴볼 수 있으며, 일부 악기는 직접 연주하고 만들어볼 수 있는 체험형 박물관이다. 매년 새로운 기획전, 공연 및 교육 프로그램 등을 진행하고 있다.",
+      "sido": "경기도",
+      "sigungu": "파주시",
+      "span_id": "",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=175"
+      ],
+      "evidence_id": "E3",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=270",
+        "fields": {
+          "name": "세계민속악기박물관",
+          "sido": "경기도",
+          "sigungu": "파주시",
+          "address": "경기도 파주시 탄현면 헤이리마을길 63-26",
+          "ownership_type": "사립",
+          "adult_fee": "7000",
+          "youth_fee": "6000",
+          "child_fee": "6000",
+          "adult_fee_status": "BASE_FEE_PAID",
+          "weekday_open": "09:30",
+          "weekday_close": "17:30",
+          "holiday_open": "09:30",
+          "holiday_close": "17:30",
+          "closure_rule_raw": "월요일"
+        },
+        "base_data_date": "2026-06-22",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0417",
+      "name": "한국기독교선교박물관",
+      "document": "한국기독교선교박물관은 초창기 선교사들의 복음 활동과 역사를 전시하고 있다. 2009년 개관한 이래, 한국 기독교의 성장 과정을 깊이 이해할 수 있는 공간으로 거듭 발전하고 있다. 초창기 한국 교회의 유산인 고성서를 비롯해 잡지, 사진 등 기독교 자료를 관람할 수 있는 상설전시실, 특별 전시실이 있고, 근현대 민속품을 직접 보고 체험할 수 있는 민속실이 있어 다양한 전시를 경험할 수 있다. 전시를 통해 한국 기독교의 옛 모습을 돌아보고, 기독교가 근대 여명기 한국의 역사에 미친 영향을 소개한다. 또, 세계 각국에서 제작한 성경과 찬송가 등을 전시하여 기독교에 대한 이해를 돕고 있다. 2009년 개관, 2015년 사립박물관으로 등록, 한국 기독교 성장 과정을 이해할 수 있다",
+      "metadata": {
+        "transport_notes": "수안역 2번 출구",
+        "weekday_open": "10:00",
+        "youth_fee": 0.0,
+        "child_fee": 0.0,
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "image_copyright": "Type3",
+        "latitude": 35.20171298,
+        "adult_fee": 0.0,
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/81/3081181_image2_1.JPG",
+        "source_types": "BASE|TOUR_API",
+        "closure_rule_raw": "일요일+월요일+공휴일 및 명절연휴기간",
+        "weekday_close": "17:00",
+        "sigungu": "동래구",
+        "holiday_open": "10:00",
+        "longitude": 129.0824401,
+        "sido": "부산광역시",
+        "ownership_type": "사립",
+        "holiday_close": "17:00",
+        "address": "부산광역시 동래구 충렬대로202번가길 13",
+        "name": "한국기독교선교박물관",
+        "homepage_url": "https://museum-kcm.or.kr",
+        "requires_manual_review": true
+      },
+      "vector_rank": null,
+      "bm25_rank": 12,
+      "vector_distance": null,
+      "vector_score": null,
+      "bm25_score": 16.726383965046523,
+      "vector_document": "",
+      "bm25_document": "한국기독교선교박물관은 초창기 선교사들의 복음 활동과 역사를 전시하고 있다. 2009년 개관한 이래, 한국 기독교의 성장 과정을 깊이 이해할 수 있는 공간으로 거듭 발전하고 있다. 초창기 한국 교회의 유산인 고성서를 비롯해 잡지, 사진 등 기독교 자료를 관람할 수 있는 상설전시실, 특별 전시실이 있고, 근현대 민속품을 직접 보고 체험할 수 있는 민속실이 있어 다양한 전시를 경험할 수 있다. 전시를 통해 한국 기독교의 옛 모습을 돌아보고, 기독교가 근대 여명기 한국의 역사에 미친 영향을 소개한다. 또, 세계 각국에서 제작한 성경과 찬송가 등을 전시하여 기독교에 대한 이해를 돕고 있다. 2009년 개관, 2015년 사립박물관으로 등록, 한국 기독교 성장 과정을 이해할 수 있다",
+      "best_span_id": "chroma:M0417",
+      "best_span_text": "한국기독교선교박물관은 초창기 선교사들의 복음 활동과 역사를 전시하고 있다. 2009년 개관한 이래, 한국 기독교의 성장 과정을 깊이 이해할 수 있는 공간으로 거듭 발전하고 있다. 초창기 한국 교회의 유산인 고성서를 비롯해 잡지, 사진 등 기독교 자료를 관람할 수 있는 상설전시실, 특별 전시실이 있고, 근현대 민속품을 직접 보고 체험할 수 있는 민속실이 있어 다양한 전시를 경험할 수 있다. 전시를 통해 한국 기독교의 옛 모습을 돌아보고, 기독교가 근대 여명기 한국의 역사에 미친 영향을 소개한다. 또, 세계 각국에서 제작한 성경과 찬송가 등을 전시하여 기독교에 대한 이해를 돕고 있다. 2009년 개관, 2015년 사립박물관으로 등록, 한국 기독교 성장 과정을 이해할 수 있다",
+      "fusion_score": 0.013888888888888888,
+      "retrieved_by": [
+        "bm25"
+      ],
+      "fusion_rank": 19,
+      "rerank_score": 0.003028667066246271,
+      "rank": 4,
+      "score": 0.003028667066246271,
+      "score_type": "cross_encoder",
+      "distance": null,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "bm25"
+      ],
+      "retriever": "bm25",
+      "span_id": "chroma:M0417",
+      "source_doc_ids": [
+        "DOC-B0417-TOUR_API-2550799",
+        "DOC-B0417-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0417-TOUR_API-2550799",
+          "source_type": "TOUR_API",
+          "source_record_id": "2550799",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=197",
+          "match_trust": "RECHECKED_BY_RULE_NOT_HUMAN_APPROVED"
+        },
+        {
+          "doc_id": "DOC-B0417-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0417",
+          "source_locator": "data/raw/museum_base_1070.csv#row=418",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 41,
+          "doc_ids": [
+            "DOC-B0417-TOUR_API-2550799"
+          ]
+        },
+        {
+          "start": 42,
+          "end": 99,
+          "doc_ids": [
+            "DOC-B0417-TOUR_API-2550799"
+          ]
+        },
+        {
+          "start": 100,
+          "end": 218,
+          "doc_ids": [
+            "DOC-B0417-TOUR_API-2550799"
+          ]
+        },
+        {
+          "start": 219,
+          "end": 278,
+          "doc_ids": [
+            "DOC-B0417-TOUR_API-2550799"
+          ]
+        },
+        {
+          "start": 279,
+          "end": 328,
+          "doc_ids": [
+            "DOC-B0417-TOUR_API-2550799"
+          ]
+        },
+        {
+          "start": 329,
+          "end": 379,
+          "doc_ids": [
+            "DOC-B0417-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=197",
+      "text": "한국기독교선교박물관은 초창기 선교사들의 복음 활동과 역사를 전시하고 있다. 2009년 개관한 이래, 한국 기독교의 성장 과정을 깊이 이해할 수 있는 공간으로 거듭 발전하고 있다. 초창기 한국 교회의 유산인 고성서를 비롯해 잡지, 사진 등 기독교 자료를 관람할 수 있는 상설전시실, 특별 전시실이 있고, 근현대 민속품을 직접 보고 체험할 수 있는 민속실이 있어 다양한 전시를 경험할 수 있다. 전시를 통해 한국 기독교의 옛 모습을 돌아보고, 기독교가 근대 여명기 한국의 역사에 미친 영향을 소개한다. 또, 세계 각국에서 제작한 성경과 찬송가 등을 전시하여 기독교에 대한 이해를 돕고 있다. 2009년 개관, 2015년 사립박물관으로 등록, 한국 기독교 성장 과정을 이해할 수 있다",
+      "sido": "부산광역시",
+      "sigungu": "동래구",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=197"
+      ],
+      "evidence_id": "E4",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=297",
+        "fields": {
+          "name": "한국기독교선교박물관",
+          "sido": "부산광역시",
+          "sigungu": "동래구",
+          "address": "부산광역시 동래구 충렬대로202번가길 13",
+          "ownership_type": "사립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "10:00",
+          "weekday_close": "17:00",
+          "holiday_open": "10:00",
+          "holiday_close": "17:00",
+          "closure_rule_raw": "일요일+월요일+공휴일 및 명절연휴기간"
+        },
+        "base_data_date": "2026-06-18",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0243",
+      "name": "한양대학교 박물관",
+      "document": "한양대학교박물관은 1979년 개관 이래, 끊임없이 귀중한 문화유산을 발굴, 수집, 보존하고 연구하고 있다. 2003년 이후 매년 특별전을 개최하고 각종 문화체험 및 문화강좌, 박물관 교육 사업을 진행하는 등 대학 캠퍼스를 넘어 지역사회 문화적 플랫폼이자 복합문화예술공간으로서의 역할을 다하고 있다. 건물은 1층부터 5층까지 있지만 실질적으로 전시 공간은 2층부터 시작한다. 2층에는 다양한 전자기기들의 과거와 현재의 모습을 만나볼 수 있다. 3층에는 다양한 주제의 특별전이 열리는 100여평 규모의 기획전시실이 마련되어 있다. 4층은 도자·서화·생활민속실은 소장품 가운데 대표적인 도자기, 서화, 민속품을 엄선하여 전시하고 있으며, 화려하고 섬세한 공예 기술을 비롯하여, 다양한 서화와 생활 도구를 통해 당대 사람들의 삶과 문화를 이해할 수 있도록 구성하였다. 마지막으로 5층 고고역사실은 1979년 미사리 선사유적에 대한 발굴조사를 실시한 이래 한양대학교박물관에서 조사한 다양한 유적과 유물을 소개하고 있다.",
+      "metadata": {
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/29/3537629_image2_1.jpg",
+        "requires_manual_review": true,
+        "name": "한양대학교 박물관",
+        "source_types": "TOUR_API",
+        "adult_fee": 0.0,
+        "address": "서울특별시 성동구 왕십리로 222",
+        "sigungu": "성동구",
+        "homepage_url": "https://museumuf.hanyang.ac.kr",
+        "latitude": 37.55450355,
+        "longitude": 127.0466112,
+        "closure_rule_raw": "일+국경일+공휴일",
+        "sido": "서울특별시",
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "ownership_type": "대학",
+        "weekday_open": "10:00",
+        "child_fee": 0.0,
+        "weekday_close": "17:00",
+        "image_copyright": "Type3",
+        "holiday_close": "00:00",
+        "youth_fee": 0.0,
+        "holiday_open": "00:00"
+      },
+      "vector_rank": 2,
+      "bm25_rank": 8,
+      "vector_distance": 0.48559272289276123,
+      "vector_score": null,
+      "bm25_score": 17.169409269006923,
+      "vector_document": "한양대학교박물관은 1979년 개관 이래, 끊임없이 귀중한 문화유산을 발굴, 수집, 보존하고 연구하고 있다. 2003년 이후 매년 특별전을 개최하고 각종 문화체험 및 문화강좌, 박물관 교육 사업을 진행하는 등 대학 캠퍼스를 넘어 지역사회 문화적 플랫폼이자 복합문화예술공간으로서의 역할을 다하고 있다. 건물은 1층부터 5층까지 있지만 실질적으로 전시 공간은 2층부터 시작한다. 2층에는 다양한 전자기기들의 과거와 현재의 모습을 만나볼 수 있다. 3층에는 다양한 주제의 특별전이 열리는 100여평 규모의 기획전시실이 마련되어 있다. 4층은 도자·서화·생활민속실은 소장품 가운데 대표적인 도자기, 서화, 민속품을 엄선하여 전시하고 있으며, 화려하고 섬세한 공예 기술을 비롯하여, 다양한 서화와 생활 도구를 통해 당대 사람들의 삶과 문화를 이해할 수 있도록 구성하였다. 마지막으로 5층 고고역사실은 1979년 미사리 선사유적에 대한 발굴조사를 실시한 이래 한양대학교박물관에서 조사한 다양한 유적과 유물을 소개하고 있다.",
+      "bm25_document": "한양대학교박물관은 1979년 개관 이래, 끊임없이 귀중한 문화유산을 발굴, 수집, 보존하고 연구하고 있다. 2003년 이후 매년 특별전을 개최하고 각종 문화체험 및 문화강좌, 박물관 교육 사업을 진행하는 등 대학 캠퍼스를 넘어 지역사회 문화적 플랫폼이자 복합문화예술공간으로서의 역할을 다하고 있다. 건물은 1층부터 5층까지 있지만 실질적으로 전시 공간은 2층부터 시작한다. 2층에는 다양한 전자기기들의 과거와 현재의 모습을 만나볼 수 있다. 3층에는 다양한 주제의 특별전이 열리는 100여평 규모의 기획전시실이 마련되어 있다. 4층은 도자·서화·생활민속실은 소장품 가운데 대표적인 도자기, 서화, 민속품을 엄선하여 전시하고 있으며, 화려하고 섬세한 공예 기술을 비롯하여, 다양한 서화와 생활 도구를 통해 당대 사람들의 삶과 문화를 이해할 수 있도록 구성하였다. 마지막으로 5층 고고역사실은 1979년 미사리 선사유적에 대한 발굴조사를 실시한 이래 한양대학교박물관에서 조사한 다양한 유적과 유물을 소개하고 있다.",
+      "best_span_id": "chroma:M0243",
+      "best_span_text": "한양대학교박물관은 1979년 개관 이래, 끊임없이 귀중한 문화유산을 발굴, 수집, 보존하고 연구하고 있다. 2003년 이후 매년 특별전을 개최하고 각종 문화체험 및 문화강좌, 박물관 교육 사업을 진행하는 등 대학 캠퍼스를 넘어 지역사회 문화적 플랫폼이자 복합문화예술공간으로서의 역할을 다하고 있다. 건물은 1층부터 5층까지 있지만 실질적으로 전시 공간은 2층부터 시작한다. 2층에는 다양한 전자기기들의 과거와 현재의 모습을 만나볼 수 있다. 3층에는 다양한 주제의 특별전이 열리는 100여평 규모의 기획전시실이 마련되어 있다. 4층은 도자·서화·생활민속실은 소장품 가운데 대표적인 도자기, 서화, 민속품을 엄선하여 전시하고 있으며, 화려하고 섬세한 공예 기술을 비롯하여, 다양한 서화와 생활 도구를 통해 당대 사람들의 삶과 문화를 이해할 수 있도록 구성하였다. 마지막으로 5층 고고역사실은 1979년 미사리 선사유적에 대한 발굴조사를 실시한 이래 한양대학교박물관에서 조사한 다양한 유적과 유물을 소개하고 있다.",
+      "fusion_score": 0.030834914611005692,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 4,
+      "rerank_score": 0.0020655260886996984,
+      "rank": 5,
+      "score": 0.0020655260886996984,
+      "score_type": "cross_encoder",
+      "distance": 0.48559272289276123,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0243",
+      "source_doc_ids": [
+        "DOC-B0243-TOUR_API-130958"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0243-TOUR_API-130958",
+          "source_type": "TOUR_API",
+          "source_record_id": "130958",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=120",
+          "match_trust": "RECHECKED_BY_RULE_NOT_HUMAN_APPROVED"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 59,
+          "doc_ids": [
+            "DOC-B0243-TOUR_API-130958"
+          ]
+        },
+        {
+          "start": 60,
+          "end": 166,
+          "doc_ids": [
+            "DOC-B0243-TOUR_API-130958"
+          ]
+        },
+        {
+          "start": 167,
+          "end": 208,
+          "doc_ids": [
+            "DOC-B0243-TOUR_API-130958"
+          ]
+        },
+        {
+          "start": 209,
+          "end": 246,
+          "doc_ids": [
+            "DOC-B0243-TOUR_API-130958"
+          ]
+        },
+        {
+          "start": 247,
+          "end": 294,
+          "doc_ids": [
+            "DOC-B0243-TOUR_API-130958"
+          ]
+        },
+        {
+          "start": 295,
+          "end": 425,
+          "doc_ids": [
+            "DOC-B0243-TOUR_API-130958"
+          ]
+        },
+        {
+          "start": 426,
+          "end": 509,
+          "doc_ids": [
+            "DOC-B0243-TOUR_API-130958"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=120",
+      "text": "한양대학교박물관은 1979년 개관 이래, 끊임없이 귀중한 문화유산을 발굴, 수집, 보존하고 연구하고 있다. 2003년 이후 매년 특별전을 개최하고 각종 문화체험 및 문화강좌, 박물관 교육 사업을 진행하는 등 대학 캠퍼스를 넘어 지역사회 문화적 플랫폼이자 복합문화예술공간으로서의 역할을 다하고 있다. 건물은 1층부터 5층까지 있지만 실질적으로 전시 공간은 2층부터 시작한다. 2층에는 다양한 전자기기들의 과거와 현재의 모습을 만나볼 수 있다. 3층에는 다양한 주제의 특별전이 열리는 100여평 규모의 기획전시실이 마련되어 있다. 4층은 도자·서화·생활민속실은 소장품 가운데 대표적인 도자기, 서화, 민속품을 엄선하여 전시하고 있으며, 화려하고 섬세한 공예 기술을 비롯하여, 다양한 서화와 생활 도구를 통해 당대 사람들의 삶과 문화를 이해할 수 있도록 구성하였다. 마지막으로 5층 고고역사실은 1979년 미사리 선사유적에 대한 발굴조사를 실시한 이래 한양대학교박물관에서 조사한 다양한 유적과 유물을 소개하고 있다.",
+      "sido": "서울특별시",
+      "sigungu": "성동구",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=120"
+      ],
+      "evidence_id": "E5",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=171",
+        "fields": {
+          "name": "한양대학교 박물관",
+          "sido": "서울특별시",
+          "sigungu": "성동구",
+          "address": "서울특별시 성동구 왕십리로 222",
+          "ownership_type": "대학",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "10:00",
+          "weekday_close": "17:00",
+          "holiday_open": "00:00",
+          "holiday_close": "00:00",
+          "closure_rule_raw": "일+국경일+공휴일"
+        },
+        "base_data_date": "2026-09-03",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    }
+  ],
+  "answer": "2층 한국대중음악 100년사관에서는 1896년 최초로 녹음된 노래가 담긴 에디슨 실린더 음반부터 2000년대 K-pop 음반까지 시대순으로 볼 수 있고, 노래 듣기 체험도 할 수 있습니다. [E1]",
+  "retrieval_status": "ok",
+  "answer_status": "answered",
+  "route": "hybrid",
+  "retry_count": 0,
+  "supervisor_verified": true,
+  "rerank_applied": true,
+  "retriever_errors": [],
+  "warnings": [],
+  "duration_ms": 142760.77,
+  "error_type": "",
+  "hit_at_1": 1,
+  "hit_at_3": 1,
+  "hit_at_5": 1,
+  "recall_at_5": 1.0,
+  "mrr_at_10": 1.0
+}

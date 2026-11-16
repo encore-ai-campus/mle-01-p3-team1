@@ -1,0 +1,758 @@
+{
+  "mode": "supervisor_full",
+  "question_id": "Q021",
+  "evidence": [
+    {
+      "museum_id": "M0009",
+      "name": "한국식기박물관",
+      "document": "한국식기박물관은 백제 부흥 운동의 마지막 격전지로 가능성이 제기되는 장곡 산성(주류성)과 통일신라시대의 국가 제사를 행한 오서산에 위치하고 있다. 본 박물관은 오랫동안 전수ㆍ수집한 유물을 한약방ㆍ조선시대 문화실ㆍ한국의 토기-고려청자실ㆍ전통부엌 등의 테마별로 전시되어 있다.",
+      "metadata": {
+        "closure_rule_raw": "월+토+일",
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "requires_manual_review": false,
+        "youth_fee": 0.0,
+        "longitude": 126.7423027,
+        "weekday_close": "17:00",
+        "transport_notes": "광천+홍성버스터미널(기차역)→옥계방면 시외버스 이용하여 예당큰집 하차",
+        "source_types": "BASE",
+        "sigungu": "홍성군",
+        "holiday_close": "17:00",
+        "holiday_open": "10:00",
+        "child_fee": 0.0,
+        "ownership_type": "사립",
+        "weekday_open": "10:00",
+        "adult_fee": 0.0,
+        "address": "충청남도 홍성군 장곡면 무한로 957-24",
+        "latitude": 36.49396445,
+        "sido": "충청남도",
+        "name": "한국식기박물관"
+      },
+      "vector_rank": null,
+      "bm25_rank": 1,
+      "vector_distance": null,
+      "vector_score": null,
+      "bm25_score": 34.38743773316335,
+      "vector_document": "",
+      "bm25_document": "한국식기박물관은 백제 부흥 운동의 마지막 격전지로 가능성이 제기되는 장곡 산성(주류성)과 통일신라시대의 국가 제사를 행한 오서산에 위치하고 있다. 본 박물관은 오랫동안 전수ㆍ수집한 유물을 한약방ㆍ조선시대 문화실ㆍ한국의 토기-고려청자실ㆍ전통부엌 등의 테마별로 전시되어 있다.",
+      "best_span_id": "chroma:M0009",
+      "best_span_text": "한국식기박물관은 백제 부흥 운동의 마지막 격전지로 가능성이 제기되는 장곡 산성(주류성)과 통일신라시대의 국가 제사를 행한 오서산에 위치하고 있다. 본 박물관은 오랫동안 전수ㆍ수집한 유물을 한약방ㆍ조선시대 문화실ㆍ한국의 토기-고려청자실ㆍ전통부엌 등의 테마별로 전시되어 있다.",
+      "fusion_score": 0.01639344262295082,
+      "retrieved_by": [
+        "bm25"
+      ],
+      "fusion_rank": 5,
+      "rerank_score": 0.9985020160675049,
+      "rank": 1,
+      "score": 0.9985020160675049,
+      "score_type": "cross_encoder",
+      "distance": null,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "bm25"
+      ],
+      "retriever": "bm25",
+      "span_id": "chroma:M0009",
+      "source_doc_ids": [
+        "DOC-B0009-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0009-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0009",
+          "source_locator": "data/raw/museum_base_1070.csv#row=10",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 81,
+          "doc_ids": [
+            "DOC-B0009-BASE"
+          ]
+        },
+        {
+          "start": 82,
+          "end": 152,
+          "doc_ids": [
+            "DOC-B0009-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_base_1070.csv#row=10",
+      "text": "한국식기박물관은 백제 부흥 운동의 마지막 격전지로 가능성이 제기되는 장곡 산성(주류성)과 통일신라시대의 국가 제사를 행한 오서산에 위치하고 있다. 본 박물관은 오랫동안 전수ㆍ수집한 유물을 한약방ㆍ조선시대 문화실ㆍ한국의 토기-고려청자실ㆍ전통부엌 등의 테마별로 전시되어 있다.",
+      "sido": "충청남도",
+      "sigungu": "홍성군",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_base_1070.csv#row=10"
+      ],
+      "evidence_id": "E1",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=9",
+        "fields": {
+          "name": "한국식기박물관",
+          "sido": "충청남도",
+          "sigungu": "홍성군",
+          "address": "충청남도 홍성군 장곡면 무한로 957-24",
+          "ownership_type": "사립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "10:00",
+          "weekday_close": "17:00",
+          "holiday_open": "10:00",
+          "holiday_close": "17:00",
+          "closure_rule_raw": "월+토+일"
+        },
+        "base_data_date": "2026-09-19",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0012",
+      "name": "홍주성역사관",
+      "document": "홍주성역사관은 홍성 홍주읍성 내 위치하고 있다. 지역의 전통을 부각시키면서 동시에 역사에 바탕을 둔 미래지향적인 시설로 구성되었으며, 역사관의 기본적 기능에 충실하여 전시 유물의 상징적 의미와 예술적 요소를 함축성 있게 표현하여 이를 바탕으로 군민 참여와 소통의 장이자 연구의 중심지로서 지역 정보 센터의 역할을 하고 있다. 홍성과 충남 내포지역의 특색 있는 역사와 문화, 관련 유적 및 유물을 소재로 전시를 하고 있다. 박물관 주변에 옛 홍주목 관련 흔적들이 남아 있어 전시와 연계한 볼거리가 마련되어 있다. 홍성 홍주읍성(사적 231호) 내 위치하고 있으며 전면적 7199.17㎡ 및 연면적 1669㎡ 로 구성되어 있다. 박물관이 홍주읍성 내에 위치하고 있고 주변에 옛 홍주목 관련 흔적들이 남아 있어 전시와 연계한 볼거리가 마련되어 있다.",
+      "metadata": {
+        "weekday_close": "18:00",
+        "homepage_url": "https://www.hongseong.go.kr/history/",
+        "sigungu": "홍성군",
+        "youth_fee": 0.0,
+        "weekday_open": "09:00",
+        "ownership_type": "공립",
+        "address": "충청남도 홍성군 홍성읍 아문길 20",
+        "transport_notes": "서울→서해안고속도로(홍성IC)→21번국도(홍성방면)→홍주성역사관",
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "adult_fee": 0.0,
+        "holiday_open": "09:00",
+        "longitude": 126.660951,
+        "source_types": "BASE|TOUR_API",
+        "child_fee": 0.0,
+        "latitude": 36.60019715,
+        "closure_rule_raw": "월+1월 1일+설 연휴+추석 연휴",
+        "requires_manual_review": true,
+        "sido": "충청남도",
+        "name": "홍주성역사관",
+        "holiday_close": "18:00"
+      },
+      "vector_rank": 14,
+      "bm25_rank": 4,
+      "vector_distance": 0.5084162354469299,
+      "vector_score": null,
+      "bm25_score": 18.65605304137817,
+      "vector_document": "홍주성역사관은 홍성 홍주읍성 내 위치하고 있다. 지역의 전통을 부각시키면서 동시에 역사에 바탕을 둔 미래지향적인 시설로 구성되었으며, 역사관의 기본적 기능에 충실하여 전시 유물의 상징적 의미와 예술적 요소를 함축성 있게 표현하여 이를 바탕으로 군민 참여와 소통의 장이자 연구의 중심지로서 지역 정보 센터의 역할을 하고 있다. 홍성과 충남 내포지역의 특색 있는 역사와 문화, 관련 유적 및 유물을 소재로 전시를 하고 있다. 박물관 주변에 옛 홍주목 관련 흔적들이 남아 있어 전시와 연계한 볼거리가 마련되어 있다. 홍성 홍주읍성(사적 231호) 내 위치하고 있으며 전면적 7199.17㎡ 및 연면적 1669㎡ 로 구성되어 있다. 박물관이 홍주읍성 내에 위치하고 있고 주변에 옛 홍주목 관련 흔적들이 남아 있어 전시와 연계한 볼거리가 마련되어 있다.",
+      "bm25_document": "홍주성역사관은 홍성 홍주읍성 내 위치하고 있다. 지역의 전통을 부각시키면서 동시에 역사에 바탕을 둔 미래지향적인 시설로 구성되었으며, 역사관의 기본적 기능에 충실하여 전시 유물의 상징적 의미와 예술적 요소를 함축성 있게 표현하여 이를 바탕으로 군민 참여와 소통의 장이자 연구의 중심지로서 지역 정보 센터의 역할을 하고 있다. 홍성과 충남 내포지역의 특색 있는 역사와 문화, 관련 유적 및 유물을 소재로 전시를 하고 있다. 박물관 주변에 옛 홍주목 관련 흔적들이 남아 있어 전시와 연계한 볼거리가 마련되어 있다. 홍성 홍주읍성(사적 231호) 내 위치하고 있으며 전면적 7199.17㎡ 및 연면적 1669㎡ 로 구성되어 있다. 박물관이 홍주읍성 내에 위치하고 있고 주변에 옛 홍주목 관련 흔적들이 남아 있어 전시와 연계한 볼거리가 마련되어 있다.",
+      "best_span_id": "chroma:M0012",
+      "best_span_text": "홍주성역사관은 홍성 홍주읍성 내 위치하고 있다. 지역의 전통을 부각시키면서 동시에 역사에 바탕을 둔 미래지향적인 시설로 구성되었으며, 역사관의 기본적 기능에 충실하여 전시 유물의 상징적 의미와 예술적 요소를 함축성 있게 표현하여 이를 바탕으로 군민 참여와 소통의 장이자 연구의 중심지로서 지역 정보 센터의 역할을 하고 있다. 홍성과 충남 내포지역의 특색 있는 역사와 문화, 관련 유적 및 유물을 소재로 전시를 하고 있다. 박물관 주변에 옛 홍주목 관련 흔적들이 남아 있어 전시와 연계한 볼거리가 마련되어 있다. 홍성 홍주읍성(사적 231호) 내 위치하고 있으며 전면적 7199.17㎡ 및 연면적 1669㎡ 로 구성되어 있다. 박물관이 홍주읍성 내에 위치하고 있고 주변에 옛 홍주목 관련 흔적들이 남아 있어 전시와 연계한 볼거리가 마련되어 있다.",
+      "fusion_score": 0.029138513513513514,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 2,
+      "rerank_score": 0.44887667894363403,
+      "rank": 2,
+      "score": 0.44887667894363403,
+      "score_type": "cross_encoder",
+      "distance": 0.5084162354469299,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0012",
+      "source_doc_ids": [
+        "DOC-B0012-TOUR_API-2551494",
+        "DOC-B0012-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0012-TOUR_API-2551494",
+          "source_type": "TOUR_API",
+          "source_record_id": "2551494",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=10",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        },
+        {
+          "doc_id": "DOC-B0012-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0012",
+          "source_locator": "data/raw/museum_base_1070.csv#row=13",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 26,
+          "doc_ids": [
+            "DOC-B0012-TOUR_API-2551494"
+          ]
+        },
+        {
+          "start": 27,
+          "end": 181,
+          "doc_ids": [
+            "DOC-B0012-TOUR_API-2551494"
+          ]
+        },
+        {
+          "start": 182,
+          "end": 235,
+          "doc_ids": [
+            "DOC-B0012-BASE",
+            "DOC-B0012-TOUR_API-2551494"
+          ]
+        },
+        {
+          "start": 236,
+          "end": 285,
+          "doc_ids": [
+            "DOC-B0012-TOUR_API-2551494"
+          ]
+        },
+        {
+          "start": 286,
+          "end": 349,
+          "doc_ids": [
+            "DOC-B0012-BASE"
+          ]
+        },
+        {
+          "start": 350,
+          "end": 416,
+          "doc_ids": [
+            "DOC-B0012-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=10",
+      "text": "홍주성역사관은 홍성 홍주읍성 내 위치하고 있다. 지역의 전통을 부각시키면서 동시에 역사에 바탕을 둔 미래지향적인 시설로 구성되었으며, 역사관의 기본적 기능에 충실하여 전시 유물의 상징적 의미와 예술적 요소를 함축성 있게 표현하여 이를 바탕으로 군민 참여와 소통의 장이자 연구의 중심지로서 지역 정보 센터의 역할을 하고 있다. 홍성과 충남 내포지역의 특색 있는 역사와 문화, 관련 유적 및 유물을 소재로 전시를 하고 있다. 박물관 주변에 옛 홍주목 관련 흔적들이 남아 있어 전시와 연계한 볼거리가 마련되어 있다. 홍성 홍주읍성(사적 231호) 내 위치하고 있으며 전면적 7199.17㎡ 및 연면적 1669㎡ 로 구성되어 있다. 박물관이 홍주읍성 내에 위치하고 있고 주변에 옛 홍주목 관련 흔적들이 남아 있어 전시와 연계한 볼거리가 마련되어 있다.",
+      "sido": "충청남도",
+      "sigungu": "홍성군",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=10"
+      ],
+      "evidence_id": "E2",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=12",
+        "fields": {
+          "name": "홍주성역사관",
+          "sido": "충청남도",
+          "sigungu": "홍성군",
+          "address": "충청남도 홍성군 홍성읍 아문길 20",
+          "ownership_type": "공립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "09:00",
+          "weekday_close": "18:00",
+          "holiday_open": "09:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "월+1월 1일+설 연휴+추석 연휴"
+        },
+        "base_data_date": "2026-09-19",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0970",
+      "name": "태영민속박물관",
+      "document": "태영민속박물관은 지역 사회에 문화의 씨앗이 되고자 2000년에 개관했다. 삼국시대의 토기부터 조선시대 및 근대의 옹기가 전시되어 있다. 토기는 삼국시대 토기를 중심으로 통일신라시대 토기 및 고려시대 토기가 전시되어 있으며, 옹기는 조선시대의 것부터 근대에 사용되었던 것이다. 그리고 옛 생활을 체험해 볼 수 있는 전통 초가가 있으며, 야외전시장에서는 옹기의 기원과 발전, 옹기의 특성, 생활 속의 옹기들을 새롭게 설치된 설명 패널과 함께 종류별로 살펴볼 수 있다. 이 박물관은 시즌별 특별전은 물론 소장 유물을 상시 교체하여 가까이에서 우리 민속 문화를 느낄 수 있고 휴식공간으로도 활용된다. 또한 민속 문화를 유물을 통해 입체적으로 배우고 전통공예를 체험하면서 즐겁게 시간을 보낼 수 있는 여러 교육프로그램을 제공하여 학교 교육과 가정, 지역을 연결하는 평생학습의 실천자로서 역할을 담당하고 있다.",
+      "metadata": {
+        "homepage_url": "http://www.tfmuseum.org/",
+        "holiday_close": "18:00",
+        "address": "충청남도 금산군 남이면 하금평촌길 26",
+        "holiday_open": "10:00",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/85/3338685_image2_1.jpg",
+        "sigungu": "금산군",
+        "source_types": "TOUR_API",
+        "sido": "충청남도",
+        "adult_fee": 0.0,
+        "child_fee": 0.0,
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "youth_fee": 0.0,
+        "name": "태영민속박물관",
+        "closure_rule_raw": "월+1월1일",
+        "weekday_open": "10:00",
+        "longitude": 127.4368352,
+        "latitude": 36.05144078,
+        "image_copyright": "Type3",
+        "weekday_close": "18:00",
+        "ownership_type": "사립",
+        "requires_manual_review": true
+      },
+      "vector_rank": null,
+      "bm25_rank": 2,
+      "vector_distance": null,
+      "vector_score": null,
+      "bm25_score": 21.17220500389706,
+      "vector_document": "",
+      "bm25_document": "태영민속박물관은 지역 사회에 문화의 씨앗이 되고자 2000년에 개관했다. 삼국시대의 토기부터 조선시대 및 근대의 옹기가 전시되어 있다. 토기는 삼국시대 토기를 중심으로 통일신라시대 토기 및 고려시대 토기가 전시되어 있으며, 옹기는 조선시대의 것부터 근대에 사용되었던 것이다. 그리고 옛 생활을 체험해 볼 수 있는 전통 초가가 있으며, 야외전시장에서는 옹기의 기원과 발전, 옹기의 특성, 생활 속의 옹기들을 새롭게 설치된 설명 패널과 함께 종류별로 살펴볼 수 있다. 이 박물관은 시즌별 특별전은 물론 소장 유물을 상시 교체하여 가까이에서 우리 민속 문화를 느낄 수 있고 휴식공간으로도 활용된다. 또한 민속 문화를 유물을 통해 입체적으로 배우고 전통공예를 체험하면서 즐겁게 시간을 보낼 수 있는 여러 교육프로그램을 제공하여 학교 교육과 가정, 지역을 연결하는 평생학습의 실천자로서 역할을 담당하고 있다.",
+      "best_span_id": "chroma:M0970",
+      "best_span_text": "태영민속박물관은 지역 사회에 문화의 씨앗이 되고자 2000년에 개관했다. 삼국시대의 토기부터 조선시대 및 근대의 옹기가 전시되어 있다. 토기는 삼국시대 토기를 중심으로 통일신라시대 토기 및 고려시대 토기가 전시되어 있으며, 옹기는 조선시대의 것부터 근대에 사용되었던 것이다. 그리고 옛 생활을 체험해 볼 수 있는 전통 초가가 있으며, 야외전시장에서는 옹기의 기원과 발전, 옹기의 특성, 생활 속의 옹기들을 새롭게 설치된 설명 패널과 함께 종류별로 살펴볼 수 있다. 이 박물관은 시즌별 특별전은 물론 소장 유물을 상시 교체하여 가까이에서 우리 민속 문화를 느낄 수 있고 휴식공간으로도 활용된다. 또한 민속 문화를 유물을 통해 입체적으로 배우고 전통공예를 체험하면서 즐겁게 시간을 보낼 수 있는 여러 교육프로그램을 제공하여 학교 교육과 가정, 지역을 연결하는 평생학습의 실천자로서 역할을 담당하고 있다.",
+      "fusion_score": 0.016129032258064516,
+      "retrieved_by": [
+        "bm25"
+      ],
+      "fusion_rank": 7,
+      "rerank_score": 0.4084134101867676,
+      "rank": 3,
+      "score": 0.4084134101867676,
+      "score_type": "cross_encoder",
+      "distance": null,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "bm25"
+      ],
+      "retriever": "bm25",
+      "span_id": "chroma:M0970",
+      "source_doc_ids": [
+        "DOC-B0970-TOUR_API-615547"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0970-TOUR_API-615547",
+          "source_type": "TOUR_API",
+          "source_record_id": "615547",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=454",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 40,
+          "doc_ids": [
+            "DOC-B0970-TOUR_API-615547"
+          ]
+        },
+        {
+          "start": 41,
+          "end": 75,
+          "doc_ids": [
+            "DOC-B0970-TOUR_API-615547"
+          ]
+        },
+        {
+          "start": 76,
+          "end": 153,
+          "doc_ids": [
+            "DOC-B0970-TOUR_API-615547"
+          ]
+        },
+        {
+          "start": 154,
+          "end": 259,
+          "doc_ids": [
+            "DOC-B0970-TOUR_API-615547"
+          ]
+        },
+        {
+          "start": 260,
+          "end": 331,
+          "doc_ids": [
+            "DOC-B0970-TOUR_API-615547"
+          ]
+        },
+        {
+          "start": 332,
+          "end": 447,
+          "doc_ids": [
+            "DOC-B0970-TOUR_API-615547"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=454",
+      "text": "태영민속박물관은 지역 사회에 문화의 씨앗이 되고자 2000년에 개관했다. 삼국시대의 토기부터 조선시대 및 근대의 옹기가 전시되어 있다. 토기는 삼국시대 토기를 중심으로 통일신라시대 토기 및 고려시대 토기가 전시되어 있으며, 옹기는 조선시대의 것부터 근대에 사용되었던 것이다. 그리고 옛 생활을 체험해 볼 수 있는 전통 초가가 있으며, 야외전시장에서는 옹기의 기원과 발전, 옹기의 특성, 생활 속의 옹기들을 새롭게 설치된 설명 패널과 함께 종류별로 살펴볼 수 있다. 이 박물관은 시즌별 특별전은 물론 소장 유물을 상시 교체하여 가까이에서 우리 민속 문화를 느낄 수 있고 휴식공간으로도 활용된다. 또한 민속 문화를 유물을 통해 입체적으로 배우고 전통공예를 체험하면서 즐겁게 시간을 보낼 수 있는 여러 교육프로그램을 제공하여 학교 교육과 가정, 지역을 연결하는 평생학습의 실천자로서 역할을 담당하고 있다.",
+      "sido": "충청남도",
+      "sigungu": "금산군",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=454"
+      ],
+      "evidence_id": "E3",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=666",
+        "fields": {
+          "name": "태영민속박물관",
+          "sido": "충청남도",
+          "sigungu": "금산군",
+          "address": "충청남도 금산군 남이면 하금평촌길 26",
+          "ownership_type": "사립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "10:00",
+          "weekday_close": "18:00",
+          "holiday_open": "10:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "월+1월1일"
+        },
+        "base_data_date": "2025-11-19",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0741",
+      "name": "옛길박물관",
+      "document": "문경은 우리나라 문화지리의 보고(寶庫)이자 길 박물관이다. 조선시대 역사와 문화의 소통로(疏通路)로서 조선팔도 고갯길의 대명사로 불리던 ‘문경새재’(명승 제32호)가 있고, 우리나라 최고(最古, 서기 156년 개척)의 고갯길인 ‘하늘재’, 옛길의 백미(白眉)이자 한국의 차마고도로 일컬을 수 있는 ‘토끼비리’(명승 제31호) 또 영남 대로 상의 허브 역할 담당했던 유곡역이 있다. 이러한 옛길 관련 문화유적은 이름만 남아 있는 것이 아니라 오늘날에도 살아있는 ‘길’로서 많은 사람들이 즐겨 찾고 있다. 옛길 박물관은 이러한 문경의 역사 문화적 정체성을 잘 나타내기 위하여 건립된 박물관으로 당초 향토사 중심의 문경새재 박물관을 리모델링하여 2009년 재개관하였다. 옛길 위에서 펼쳐졌던 각종 문화상을 옛길 박물관에 담아내고 있다. 박물관은 지하 1층 지상 2층 규모로, 3개 전시실과 1, 2층 중앙홀, 수장고, 영상실 등을 갖추고 있고, 야외전시장도 조성되어 있다. 제1전시실(주흘실)에는 문경관문, 영남 대로, 문경의 전투, 경상감사 도임 행차(慶尙監司到任行次), 제2전시실(조곡실)에는 문경의 문화와 의·식·주 생활, 집과 모둠살이, 신앙과 의례, 생업 기술 등에 관한 소장품 및 자료를 전시하고 있다. 제3전시실(조령실)에서는 굽다리접시·토기 항아리 등 신라시대 토기가 주를 이루는 매장유산, 1724년(경종 4) 도화서 화원 이치가 그린 옥소 권섭 영정, 선조가 홍인걸에게 하사하였다고 전해지는 어필 및 홍인걸의 유품인 투구, 김승주 삼공신 회맹록 판본, 주두업 지석 등에 관한 전시가 이루어지며, 야외에는 금학 사지 삼층석탑, 서낭당, 연자방아, 옹기와 장독대 등이 있다.",
+      "metadata": {
+        "name": "옛길박물관",
+        "child_fee": 0.0,
+        "requires_manual_review": true,
+        "source_types": "TOUR_API",
+        "ownership_type": "공립",
+        "sigungu": "문경시",
+        "weekday_open": "09:00",
+        "holiday_close": "18:00",
+        "holiday_open": "09:00",
+        "image_copyright": "Type1",
+        "weekday_close": "18:00",
+        "longitude": 128.076414,
+        "fee_notes": "무료",
+        "sido": "경상북도",
+        "closure_rule_raw": "1월1일, 설날, 추석, 박물관훈증소독 기간",
+        "youth_fee": 0.0,
+        "latitude": 36.763134,
+        "amenities_raw": "모바일서비스",
+        "adult_fee": 0.0,
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/09/4103109_image2_1.jpg",
+        "homepage_url": "https://www.gbmg.go.kr/tour/contents.do?mId=0102010100",
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "address": "경상북도 문경시 문경읍 새재로 944"
+      },
+      "vector_rank": 10,
+      "bm25_rank": null,
+      "vector_distance": 0.49444425106048584,
+      "vector_score": null,
+      "bm25_score": null,
+      "vector_document": "문경은 우리나라 문화지리의 보고(寶庫)이자 길 박물관이다. 조선시대 역사와 문화의 소통로(疏通路)로서 조선팔도 고갯길의 대명사로 불리던 ‘문경새재’(명승 제32호)가 있고, 우리나라 최고(最古, 서기 156년 개척)의 고갯길인 ‘하늘재’, 옛길의 백미(白眉)이자 한국의 차마고도로 일컬을 수 있는 ‘토끼비리’(명승 제31호) 또 영남 대로 상의 허브 역할 담당했던 유곡역이 있다. 이러한 옛길 관련 문화유적은 이름만 남아 있는 것이 아니라 오늘날에도 살아있는 ‘길’로서 많은 사람들이 즐겨 찾고 있다. 옛길 박물관은 이러한 문경의 역사 문화적 정체성을 잘 나타내기 위하여 건립된 박물관으로 당초 향토사 중심의 문경새재 박물관을 리모델링하여 2009년 재개관하였다. 옛길 위에서 펼쳐졌던 각종 문화상을 옛길 박물관에 담아내고 있다. 박물관은 지하 1층 지상 2층 규모로, 3개 전시실과 1, 2층 중앙홀, 수장고, 영상실 등을 갖추고 있고, 야외전시장도 조성되어 있다. 제1전시실(주흘실)에는 문경관문, 영남 대로, 문경의 전투, 경상감사 도임 행차(慶尙監司到任行次), 제2전시실(조곡실)에는 문경의 문화와 의·식·주 생활, 집과 모둠살이, 신앙과 의례, 생업 기술 등에 관한 소장품 및 자료를 전시하고 있다. 제3전시실(조령실)에서는 굽다리접시·토기 항아리 등 신라시대 토기가 주를 이루는 매장유산, 1724년(경종 4) 도화서 화원 이치가 그린 옥소 권섭 영정, 선조가 홍인걸에게 하사하였다고 전해지는 어필 및 홍인걸의 유품인 투구, 김승주 삼공신 회맹록 판본, 주두업 지석 등에 관한 전시가 이루어지며, 야외에는 금학 사지 삼층석탑, 서낭당, 연자방아, 옹기와 장독대 등이 있다.",
+      "bm25_document": "",
+      "best_span_id": null,
+      "best_span_text": null,
+      "fusion_score": 0.014285714285714285,
+      "retrieved_by": [
+        "vector"
+      ],
+      "fusion_rank": 19,
+      "rerank_score": 0.08860345184803009,
+      "rank": 4,
+      "score": 0.08860345184803009,
+      "score_type": "cross_encoder",
+      "distance": 0.49444425106048584,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector"
+      ],
+      "retriever": "vector",
+      "source_doc_ids": [
+        "DOC-B0741-TOUR_API-130314"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0741-TOUR_API-130314",
+          "source_type": "TOUR_API",
+          "source_record_id": "130314",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=358",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 32,
+          "doc_ids": [
+            "DOC-B0741-TOUR_API-130314"
+          ]
+        },
+        {
+          "start": 33,
+          "end": 212,
+          "doc_ids": [
+            "DOC-B0741-TOUR_API-130314"
+          ]
+        },
+        {
+          "start": 213,
+          "end": 280,
+          "doc_ids": [
+            "DOC-B0741-TOUR_API-130314"
+          ]
+        },
+        {
+          "start": 281,
+          "end": 371,
+          "doc_ids": [
+            "DOC-B0741-TOUR_API-130314"
+          ]
+        },
+        {
+          "start": 372,
+          "end": 408,
+          "doc_ids": [
+            "DOC-B0741-TOUR_API-130314"
+          ]
+        },
+        {
+          "start": 409,
+          "end": 485,
+          "doc_ids": [
+            "DOC-B0741-TOUR_API-130314"
+          ]
+        },
+        {
+          "start": 486,
+          "end": 620,
+          "doc_ids": [
+            "DOC-B0741-TOUR_API-130314"
+          ]
+        },
+        {
+          "start": 621,
+          "end": 830,
+          "doc_ids": [
+            "DOC-B0741-TOUR_API-130314"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=358",
+      "text": "문경은 우리나라 문화지리의 보고(寶庫)이자 길 박물관이다. 조선시대 역사와 문화의 소통로(疏通路)로서 조선팔도 고갯길의 대명사로 불리던 ‘문경새재’(명승 제32호)가 있고, 우리나라 최고(最古, 서기 156년 개척)의 고갯길인 ‘하늘재’, 옛길의 백미(白眉)이자 한국의 차마고도로 일컬을 수 있는 ‘토끼비리’(명승 제31호) 또 영남 대로 상의 허브 역할 담당했던 유곡역이 있다. 이러한 옛길 관련 문화유적은 이름만 남아 있는 것이 아니라 오늘날에도 살아있는 ‘길’로서 많은 사람들이 즐겨 찾고 있다. 옛길 박물관은 이러한 문경의 역사 문화적 정체성을 잘 나타내기 위하여 건립된 박물관으로 당초 향토사 중심의 문경새재 박물관을 리모델링하여 2009년 재개관하였다. 옛길 위에서 펼쳐졌던 각종 문화상을 옛길 박물관에 담아내고 있다. 박물관은 지하 1층 지상 2층 규모로, 3개 전시실과 1, 2층 중앙홀, 수장고, 영상실 등을 갖추고 있고, 야외전시장도 조성되어 있다. 제1전시실(주흘실)에는 문경관문, 영남 대로, 문경의 전투, 경상감사 도임 행차(慶尙監司到任行次), 제2전시실(조곡실)에는 문경의 문화와 의·식·주 생활, 집과 모둠살이, 신앙과 의례, 생업 기술 등에 관한 소장품 및 자료를 전시하고 있다. 제3전시실(조령실)에서는 굽다리접시·토기 항아리 등 신라시대 토기가 주를 이루는 매장유산, 1724년(경종 4) 도화서 화원 이치가 그린 옥소 권섭 영정, 선조가 홍인걸에게 하사하였다고 전해지는 어필 및 홍인걸의 유품인 투구, 김승주 삼공신 회맹록 판본, 주두업 지석 등에 관한 전시가 이루어지며, 야외에는 금학 사지 삼층석탑, 서낭당, 연자방아, 옹기와 장독대 등이 있다.",
+      "sido": "경상북도",
+      "sigungu": "문경시",
+      "span_id": "",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=358"
+      ],
+      "evidence_id": "E4",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=515",
+        "fields": {
+          "name": "옛길박물관",
+          "sido": "경상북도",
+          "sigungu": "문경시",
+          "address": "경상북도 문경시 문경읍 새재로 944",
+          "ownership_type": "공립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "09:00",
+          "weekday_close": "18:00",
+          "holiday_open": "09:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "1월1일, 설날, 추석, 박물관훈증소독 기간",
+          "amenities_raw": "모바일서비스"
+        },
+        "base_data_date": "2025-12-18",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0363",
+      "name": "한림대학교박물관",
+      "document": "한림대학교 박물관은 선사와 역사시대의 유물과 민속품 등을 수집 정리하고, 보전과 전시를 통해 학내 구성원뿐 아니라 지역주민에게 역사 문화를 이해할 수 있는 장을 마련하고, 국가유산에 대한 조사와 연구를 통해 우리 역사연구에 기여하고자 1988년 한림대학교 부속기관으로 개관하였다. 제1전시실은 고고역사실, 제2전시실은 민속·공예실, 그리고 야외전시장 등을 갖추고 있다. 소장 유물로는 도기류, 토기류, 고서화 등 1,700여 점을 비롯하여, 강원도 및 주변 지역에 대한 발굴조사에서 출토된 3,000여 점의 국가귀속유물을 보관 관리하고 있다. 대표적인 전시유물로는 춘천 신매리와 천전리 유적, 양주 대모산성과 강화 외규장각지 유적 등지에서 출토된 선사시대부터 역사시대에 이르는 유물과 백제·신라·가야의 고대 토기류, 고려 시대 자기류, 조선시대의 명기와 장롱 등 민속품이 있다. 상설전시로는 구석기부터 조선시대에 이르는 유물들이 있으며 매년 1~2회의 기획 전시를 봄과 가을에 개최하고 있다. 기획 전시기간에는 ‘큐레이터와의 대화’라는 전시유물 설명회를 주 1회 개최하고 있다. 이 외에도 지역 청소년을 대상으로 하는 ‘상상을 담는 박물관’ 등의 교육 프로그램과 가족 대상 프로그램, 진로교육 프로그램을 운영 중이며 지역민을 대상으로 시민 박물관 대학 강좌와 문화콘텐츠 메이커스의 문화 행사도 운영하고 있다. 도토기류ㆍ고서화 등 1700여 점을 비롯하여 3000여 점의 국가귀속 유물을 보관 관리하고 있음",
+      "metadata": {
+        "homepage_url": "http://museum.hallym.ac.kr",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/49/3381649_image2_1.JPG",
+        "transport_notes": "1)대중교통 : 춘천역 - 시내간선 300번, 지선 12, 12-S - 한림대학교 정류장 하차+2)승용차  : 서울양양고속도로(남춘천IC), 일반도로(46번경춘국도-403번도로)",
+        "requires_manual_review": true,
+        "adult_fee": 0.0,
+        "fee_notes": "전부 무료",
+        "sido": "강원특별자치도",
+        "youth_fee": 0.0,
+        "child_fee": 0.0,
+        "holiday_close": "00:00",
+        "name": "한림대학교박물관",
+        "latitude": 37.885427,
+        "source_types": "BASE|TOUR_API",
+        "longitude": 127.734959,
+        "sigungu": "춘천시",
+        "weekday_open": "10:00",
+        "holiday_open": "00:00",
+        "weekday_close": "16:00",
+        "image_copyright": "Type3",
+        "ownership_type": "대학",
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "address": "강원특별자치도 춘천시 한림대학길 1",
+        "closure_rule_raw": "금+토+일+공휴일+추석연휴+설연휴+시험 및 방학기간+휴관 시에도 단체예약 시 관람 가능"
+      },
+      "vector_rank": null,
+      "bm25_rank": 8,
+      "vector_distance": null,
+      "vector_score": null,
+      "bm25_score": 15.535647318018892,
+      "vector_document": "",
+      "bm25_document": "한림대학교 박물관은 선사와 역사시대의 유물과 민속품 등을 수집 정리하고, 보전과 전시를 통해 학내 구성원뿐 아니라 지역주민에게 역사 문화를 이해할 수 있는 장을 마련하고, 국가유산에 대한 조사와 연구를 통해 우리 역사연구에 기여하고자 1988년 한림대학교 부속기관으로 개관하였다. 제1전시실은 고고역사실, 제2전시실은 민속·공예실, 그리고 야외전시장 등을 갖추고 있다. 소장 유물로는 도기류, 토기류, 고서화 등 1,700여 점을 비롯하여, 강원도 및 주변 지역에 대한 발굴조사에서 출토된 3,000여 점의 국가귀속유물을 보관 관리하고 있다. 대표적인 전시유물로는 춘천 신매리와 천전리 유적, 양주 대모산성과 강화 외규장각지 유적 등지에서 출토된 선사시대부터 역사시대에 이르는 유물과 백제·신라·가야의 고대 토기류, 고려 시대 자기류, 조선시대의 명기와 장롱 등 민속품이 있다. 상설전시로는 구석기부터 조선시대에 이르는 유물들이 있으며 매년 1~2회의 기획 전시를 봄과 가을에 개최하고 있다. 기획 전시기간에는 ‘큐레이터와의 대화’라는 전시유물 설명회를 주 1회 개최하고 있다. 이 외에도 지역 청소년을 대상으로 하는 ‘상상을 담는 박물관’ 등의 교육 프로그램과 가족 대상 프로그램, 진로교육 프로그램을 운영 중이며 지역민을 대상으로 시민 박물관 대학 강좌와 문화콘텐츠 메이커스의 문화 행사도 운영하고 있다. 도토기류ㆍ고서화 등 1700여 점을 비롯하여 3000여 점의 국가귀속 유물을 보관 관리하고 있음",
+      "best_span_id": "chroma:M0363",
+      "best_span_text": "한림대학교 박물관은 선사와 역사시대의 유물과 민속품 등을 수집 정리하고, 보전과 전시를 통해 학내 구성원뿐 아니라 지역주민에게 역사 문화를 이해할 수 있는 장을 마련하고, 국가유산에 대한 조사와 연구를 통해 우리 역사연구에 기여하고자 1988년 한림대학교 부속기관으로 개관하였다. 제1전시실은 고고역사실, 제2전시실은 민속·공예실, 그리고 야외전시장 등을 갖추고 있다. 소장 유물로는 도기류, 토기류, 고서화 등 1,700여 점을 비롯하여, 강원도 및 주변 지역에 대한 발굴조사에서 출토된 3,000여 점의 국가귀속유물을 보관 관리하고 있다. 대표적인 전시유물로는 춘천 신매리와 천전리 유적, 양주 대모산성과 강화 외규장각지 유적 등지에서 출토된 선사시대부터 역사시대에 이르는 유물과 백제·신라·가야의 고대 토기류, 고려 시대 자기류, 조선시대의 명기와 장롱 등 민속품이 있다. 상설전시로는 구석기부터 조선시대에 이르는 유물들이 있으며 매년 1~2회의 기획 전시를 봄과 가을에 개최하고 있다. 기획 전시기간에는 ‘큐레이터와의 대화’라는 전시유물 설명회를 주 1회 개최하고 있다. 이 외에도 지역 청소년을 대상으로 하는 ‘상상을 담는 박물관’ 등의 교육 프로그램과 가족 대상 프로그램, 진로교육 프로그램을 운영 중이며 지역민을 대상으로 시민 박물관 대학 강좌와 문화콘텐츠 메이커스의 문화 행사도 운영하고 있다. 도토기류ㆍ고서화 등 1700여 점을 비롯하여 3000여 점의 국가귀속 유물을 보관 관리하고 있음",
+      "fusion_score": 0.014705882352941176,
+      "retrieved_by": [
+        "bm25"
+      ],
+      "fusion_rank": 16,
+      "rerank_score": 0.0548766665160656,
+      "rank": 5,
+      "score": 0.0548766665160656,
+      "score_type": "cross_encoder",
+      "distance": null,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "bm25"
+      ],
+      "retriever": "bm25",
+      "span_id": "chroma:M0363",
+      "source_doc_ids": [
+        "DOC-B0363-TOUR_API-129819",
+        "DOC-B0363-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0363-TOUR_API-129819",
+          "source_type": "TOUR_API",
+          "source_record_id": "129819",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=172",
+          "match_trust": "RECHECKED_BY_RULE_NOT_HUMAN_APPROVED"
+        },
+        {
+          "doc_id": "DOC-B0363-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0363",
+          "source_locator": "data/raw/museum_base_1070.csv#row=364",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 156,
+          "doc_ids": [
+            "DOC-B0363-TOUR_API-129819"
+          ]
+        },
+        {
+          "start": 157,
+          "end": 206,
+          "doc_ids": [
+            "DOC-B0363-TOUR_API-129819"
+          ]
+        },
+        {
+          "start": 207,
+          "end": 303,
+          "doc_ids": [
+            "DOC-B0363-TOUR_API-129819"
+          ]
+        },
+        {
+          "start": 304,
+          "end": 435,
+          "doc_ids": [
+            "DOC-B0363-TOUR_API-129819"
+          ]
+        },
+        {
+          "start": 436,
+          "end": 499,
+          "doc_ids": [
+            "DOC-B0363-TOUR_API-129819"
+          ]
+        },
+        {
+          "start": 500,
+          "end": 547,
+          "doc_ids": [
+            "DOC-B0363-TOUR_API-129819"
+          ]
+        },
+        {
+          "start": 548,
+          "end": 676,
+          "doc_ids": [
+            "DOC-B0363-TOUR_API-129819"
+          ]
+        },
+        {
+          "start": 677,
+          "end": 730,
+          "doc_ids": [
+            "DOC-B0363-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=172",
+      "text": "한림대학교 박물관은 선사와 역사시대의 유물과 민속품 등을 수집 정리하고, 보전과 전시를 통해 학내 구성원뿐 아니라 지역주민에게 역사 문화를 이해할 수 있는 장을 마련하고, 국가유산에 대한 조사와 연구를 통해 우리 역사연구에 기여하고자 1988년 한림대학교 부속기관으로 개관하였다. 제1전시실은 고고역사실, 제2전시실은 민속·공예실, 그리고 야외전시장 등을 갖추고 있다. 소장 유물로는 도기류, 토기류, 고서화 등 1,700여 점을 비롯하여, 강원도 및 주변 지역에 대한 발굴조사에서 출토된 3,000여 점의 국가귀속유물을 보관 관리하고 있다. 대표적인 전시유물로는 춘천 신매리와 천전리 유적, 양주 대모산성과 강화 외규장각지 유적 등지에서 출토된 선사시대부터 역사시대에 이르는 유물과 백제·신라·가야의 고대 토기류, 고려 시대 자기류, 조선시대의 명기와 장롱 등 민속품이 있다. 상설전시로는 구석기부터 조선시대에 이르는 유물들이 있으며 매년 1~2회의 기획 전시를 봄과 가을에 개최하고 있다. 기획 전시기간에는 ‘큐레이터와의 대화’라는 전시유물 설명회를 주 1회 개최하고 있다. 이 외에도 지역 청소년을 대상으로 하는 ‘상상을 담는 박물관’ 등의 교육 프로그램과 가족 대상 프로그램, 진로교육 프로그램을 운영 중이며 지역민을 대상으로 시민 박물관 대학 강좌와 문화콘텐츠 메이커스의 문화 행사도 운영하고 있다. 도토기류ㆍ고서화 등 1700여 점을 비롯하여 3000여 점의 국가귀속 유물을 보관 관리하고 있음",
+      "sido": "강원특별자치도",
+      "sigungu": "춘천시",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=172"
+      ],
+      "evidence_id": "E5",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=265",
+        "fields": {
+          "name": "한림대학교박물관",
+          "sido": "강원특별자치도",
+          "sigungu": "춘천시",
+          "address": "강원특별자치도 춘천시 한림대학길 1",
+          "ownership_type": "대학",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "10:00",
+          "weekday_close": "16:00",
+          "holiday_open": "00:00",
+          "holiday_close": "00:00",
+          "closure_rule_raw": "금+토+일+공휴일+추석연휴+설연휴+시험 및 방학기간+휴관 시에도 단체예약 시 관람 가능"
+        },
+        "base_data_date": "2026-06-10",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    }
+  ],
+  "answer": "해당 박물관은 충청남도 홍성군에 있는 **한국식기박물관**입니다. 한약방·조선시대 문화실·한국의 토기·고려청자실·전통 부엌을 주제별로 전시한다고 소개되어 있습니다. [E1]",
+  "retrieval_status": "ok",
+  "answer_status": "answered",
+  "route": "hybrid",
+  "retry_count": 0,
+  "supervisor_verified": true,
+  "rerank_applied": true,
+  "retriever_errors": [],
+  "warnings": [],
+  "duration_ms": 133394.9,
+  "error_type": "",
+  "hit_at_1": 1,
+  "hit_at_3": 1,
+  "hit_at_5": 1,
+  "recall_at_5": 1.0,
+  "mrr_at_10": 1.0
+}

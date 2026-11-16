@@ -1,0 +1,681 @@
+{
+  "mode": "supervisor_full",
+  "question_id": "Q022",
+  "evidence": [
+    {
+      "museum_id": "M0039",
+      "name": "제주항공우주박물관",
+      "document": "제주항공우주박물관은 항공우주박물관으로 최첨단 기술과 멀티미디어를 활용한 재미있고 유익한 체험시설과 함께 다양한 전시‧교육 프로그램을 운영하고 있다. 26대의 실물 항공기가 전시된 항공 역사관, 우주를 향한 인류의 끝없는 도전을 알아보는 천문우주관, 오감을 만족시키는 체험공간인 테마관이 있어 항공 우주분야 미래 주역인 청소년들에게는 꿈과 희망을 어른들에게는 잊지 못할 추억을 선사한다. 또한 항공 우주 과학기술에 대한 이해 제고와 교육의 기회를 제공한다.",
+      "metadata": {
+        "ownership_type": "사립",
+        "requires_manual_review": true,
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/84/3546884_image2_1.jpg",
+        "latitude": 33.3042074,
+        "image_copyright": "Type3",
+        "closure_rule_raw": "월 (매월 셋째주)",
+        "adult_fee_status": "BASE_FEE_PAID",
+        "child_fee": 8000.0,
+        "fee_notes": "단체 관람 시 할인+도민할인",
+        "holiday_open": "09:00",
+        "address": "제주특별자치도 서귀포시 안덕면 녹차분재로 218",
+        "adult_fee": 10000.0,
+        "source_types": "TOUR_API",
+        "weekday_open": "09:00",
+        "sigungu": "서귀포시",
+        "youth_fee": 9000.0,
+        "holiday_close": "18:00",
+        "longitude": 126.2996615,
+        "weekday_close": "18:00",
+        "homepage_url": "https://www.jdc-jam.com/index.jam",
+        "name": "제주항공우주박물관",
+        "sido": "제주특별자치도"
+      },
+      "vector_rank": 1,
+      "bm25_rank": 1,
+      "vector_distance": 0.36063700914382935,
+      "vector_score": null,
+      "bm25_score": 37.09318164276211,
+      "vector_document": "제주항공우주박물관은 항공우주박물관으로 최첨단 기술과 멀티미디어를 활용한 재미있고 유익한 체험시설과 함께 다양한 전시‧교육 프로그램을 운영하고 있다. 26대의 실물 항공기가 전시된 항공 역사관, 우주를 향한 인류의 끝없는 도전을 알아보는 천문우주관, 오감을 만족시키는 체험공간인 테마관이 있어 항공 우주분야 미래 주역인 청소년들에게는 꿈과 희망을 어른들에게는 잊지 못할 추억을 선사한다. 또한 항공 우주 과학기술에 대한 이해 제고와 교육의 기회를 제공한다.",
+      "bm25_document": "제주항공우주박물관은 항공우주박물관으로 최첨단 기술과 멀티미디어를 활용한 재미있고 유익한 체험시설과 함께 다양한 전시‧교육 프로그램을 운영하고 있다. 26대의 실물 항공기가 전시된 항공 역사관, 우주를 향한 인류의 끝없는 도전을 알아보는 천문우주관, 오감을 만족시키는 체험공간인 테마관이 있어 항공 우주분야 미래 주역인 청소년들에게는 꿈과 희망을 어른들에게는 잊지 못할 추억을 선사한다. 또한 항공 우주 과학기술에 대한 이해 제고와 교육의 기회를 제공한다.",
+      "best_span_id": "chroma:M0039",
+      "best_span_text": "제주항공우주박물관은 항공우주박물관으로 최첨단 기술과 멀티미디어를 활용한 재미있고 유익한 체험시설과 함께 다양한 전시‧교육 프로그램을 운영하고 있다. 26대의 실물 항공기가 전시된 항공 역사관, 우주를 향한 인류의 끝없는 도전을 알아보는 천문우주관, 오감을 만족시키는 체험공간인 테마관이 있어 항공 우주분야 미래 주역인 청소년들에게는 꿈과 희망을 어른들에게는 잊지 못할 추억을 선사한다. 또한 항공 우주 과학기술에 대한 이해 제고와 교육의 기회를 제공한다.",
+      "fusion_score": 0.03278688524590164,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 1,
+      "rerank_score": null,
+      "rank": 1,
+      "score": 0.03278688524590164,
+      "score_type": "rrf",
+      "distance": 0.36063700914382935,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0039",
+      "source_doc_ids": [
+        "DOC-B0039-TOUR_API-2661407"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0039-TOUR_API-2661407",
+          "source_type": "TOUR_API",
+          "source_record_id": "2661407",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=22",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 82,
+          "doc_ids": [
+            "DOC-B0039-TOUR_API-2661407"
+          ]
+        },
+        {
+          "start": 83,
+          "end": 215,
+          "doc_ids": [
+            "DOC-B0039-TOUR_API-2661407"
+          ]
+        },
+        {
+          "start": 216,
+          "end": 254,
+          "doc_ids": [
+            "DOC-B0039-TOUR_API-2661407"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=22",
+      "text": "제주항공우주박물관은 항공우주박물관으로 최첨단 기술과 멀티미디어를 활용한 재미있고 유익한 체험시설과 함께 다양한 전시‧교육 프로그램을 운영하고 있다. 26대의 실물 항공기가 전시된 항공 역사관, 우주를 향한 인류의 끝없는 도전을 알아보는 천문우주관, 오감을 만족시키는 체험공간인 테마관이 있어 항공 우주분야 미래 주역인 청소년들에게는 꿈과 희망을 어른들에게는 잊지 못할 추억을 선사한다. 또한 항공 우주 과학기술에 대한 이해 제고와 교육의 기회를 제공한다.",
+      "sido": "제주특별자치도",
+      "sigungu": "서귀포시",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=22"
+      ],
+      "evidence_id": "E1",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=29",
+        "fields": {
+          "name": "제주항공우주박물관",
+          "sido": "제주특별자치도",
+          "sigungu": "서귀포시",
+          "address": "제주특별자치도 서귀포시 안덕면 녹차분재로 218",
+          "ownership_type": "사립",
+          "adult_fee": "10000",
+          "youth_fee": "9000",
+          "child_fee": "8000",
+          "adult_fee_status": "BASE_FEE_PAID",
+          "weekday_open": "09:00",
+          "weekday_close": "18:00",
+          "holiday_open": "09:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "월 (매월 셋째주)"
+        },
+        "base_data_date": "2026-09-30",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0020",
+      "name": "소암기념관",
+      "document": "제주 서귀포 출신 서예가 소암 현중화의 예술세계를 소개하는 기념관이다. 현중화의 서예 작품과 서화 관련 자료를 중심으로 전시하며 제주 서예문화의 흐름을 살펴볼 수 있다.",
+      "metadata": {
+        "name": "소암기념관",
+        "homepage_url": "http://culture.seogwipo.go.kr/soam/",
+        "sigungu": "서귀포시",
+        "source_types": "WEB_RESEARCH",
+        "child_fee": 0.0,
+        "holiday_open": "09:00",
+        "holiday_close": "18:00",
+        "weekday_open": "09:00",
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "latitude": 33.2451236,
+        "longitude": 126.5674212,
+        "adult_fee": 0.0,
+        "ownership_type": "공립",
+        "closure_rule_raw": "월",
+        "address": "제주특별자치도 서귀포시 소암로 15",
+        "sido": "제주특별자치도",
+        "requires_manual_review": true,
+        "weekday_close": "18:00",
+        "youth_fee": 0.0
+      },
+      "vector_rank": 8,
+      "bm25_rank": 3,
+      "vector_distance": 0.5591759085655212,
+      "vector_score": null,
+      "bm25_score": 19.851985712035354,
+      "vector_document": "제주 서귀포 출신 서예가 소암 현중화의 예술세계를 소개하는 기념관이다. 현중화의 서예 작품과 서화 관련 자료를 중심으로 전시하며 제주 서예문화의 흐름을 살펴볼 수 있다.",
+      "bm25_document": "제주 서귀포 출신 서예가 소암 현중화의 예술세계를 소개하는 기념관이다. 현중화의 서예 작품과 서화 관련 자료를 중심으로 전시하며 제주 서예문화의 흐름을 살펴볼 수 있다.",
+      "best_span_id": "chroma:M0020",
+      "best_span_text": "제주 서귀포 출신 서예가 소암 현중화의 예술세계를 소개하는 기념관이다. 현중화의 서예 작품과 서화 관련 자료를 중심으로 전시하며 제주 서예문화의 흐름을 살펴볼 수 있다.",
+      "fusion_score": 0.03057889822595705,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 2,
+      "rerank_score": null,
+      "rank": 2,
+      "score": 0.03057889822595705,
+      "score_type": "rrf",
+      "distance": 0.5591759085655212,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0020",
+      "source_doc_ids": [
+        "DOC-WEB-M0020-20261111"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-WEB-M0020-20261111",
+          "source_type": "WEB_RESEARCH",
+          "source_record_id": "RESEARCH-M0020",
+          "source_locator": "https://www.jeju.kr.emb-japan.go.jp/itpr_ko/11_000001_00243.html",
+          "source_url": "https://www.jeju.kr.emb-japan.go.jp/itpr_ko/11_000001_00243.html",
+          "match_trust": "WEB_SOURCE_REVIEWED_NOT_HUMAN_APPROVED"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 39,
+          "doc_ids": [
+            "DOC-WEB-M0020-20261111"
+          ]
+        },
+        {
+          "start": 40,
+          "end": 94,
+          "doc_ids": [
+            "DOC-WEB-M0020-20261111"
+          ]
+        }
+      ],
+      "source_urls": [
+        "https://www.jeju.kr.emb-japan.go.jp/itpr_ko/11_000001_00243.html"
+      ],
+      "source_locator": "https://www.jeju.kr.emb-japan.go.jp/itpr_ko/11_000001_00243.html",
+      "text": "제주 서귀포 출신 서예가 소암 현중화의 예술세계를 소개하는 기념관이다. 현중화의 서예 작품과 서화 관련 자료를 중심으로 전시하며 제주 서예문화의 흐름을 살펴볼 수 있다.",
+      "sido": "제주특별자치도",
+      "sigungu": "서귀포시",
+      "chunk_id": "",
+      "source_locators": [
+        "https://www.jeju.kr.emb-japan.go.jp/itpr_ko/11_000001_00243.html"
+      ],
+      "evidence_id": "E2",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=19",
+        "fields": {
+          "name": "소암기념관",
+          "sido": "제주특별자치도",
+          "sigungu": "서귀포시",
+          "address": "제주특별자치도 서귀포시 소암로 15",
+          "ownership_type": "공립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "09:00",
+          "weekday_close": "18:00",
+          "holiday_open": "09:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "월"
+        },
+        "base_data_date": "2026-09-30",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0088",
+      "name": "감귤박물관",
+      "document": "서귀포 감귤 박물관은 제주 특산물인 감귤을 테마로 감귤의 세계를 한눈에 보고, 느끼고, 체험할 수 있도록 개관한 공립 전문 박물관이다. 감귤의 역사와 문화, 산업과 노동 현장을 엿볼 수 있는 의미 있는 전시 등을 통해 제주인의 삶의 모습을 반추해 볼 수 있다. 감귤의 발생, 역사와 종류, 재배 방법 등을 다양한 패널과 영상으로 구성하고, 유리 온실에는 전 세계 84품종의 감귤류를 식재 전시하여 사계절 싱싱한 감귤(생과)을 감상할 수 있도록 조성되어 감귤에 관한 모든 것을 체험하고 배울 수 있는 곳이다.",
+      "metadata": {
+        "adult_fee": 1500.0,
+        "ownership_type": "공립",
+        "holiday_open": "09:00",
+        "requires_manual_review": true,
+        "latitude": 33.27159304,
+        "sido": "제주특별자치도",
+        "closure_rule_raw": "1월1일+설날+추석",
+        "holiday_close": "18:00",
+        "source_types": "TOUR_API",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/32/3411132_image2_1.jpg",
+        "address": "제주특별자치도 서귀포시 효돈순환로 441",
+        "image_copyright": "Type3",
+        "homepage_url": "http://culture.seogwipo.go.kr/citrus/index.htm",
+        "fee_notes": "단체 관람 시 할인+도민할인",
+        "child_fee": 800.0,
+        "youth_fee": 1000.0,
+        "weekday_open": "09:00",
+        "weekday_close": "18:00",
+        "sigungu": "서귀포시",
+        "adult_fee_status": "BASE_FEE_PAID",
+        "longitude": 126.6074285,
+        "name": "감귤박물관"
+      },
+      "vector_rank": 12,
+      "bm25_rank": 2,
+      "vector_distance": 0.5633233785629272,
+      "vector_score": null,
+      "bm25_score": 20.957446969073786,
+      "vector_document": "서귀포 감귤 박물관은 제주 특산물인 감귤을 테마로 감귤의 세계를 한눈에 보고, 느끼고, 체험할 수 있도록 개관한 공립 전문 박물관이다. 감귤의 역사와 문화, 산업과 노동 현장을 엿볼 수 있는 의미 있는 전시 등을 통해 제주인의 삶의 모습을 반추해 볼 수 있다. 감귤의 발생, 역사와 종류, 재배 방법 등을 다양한 패널과 영상으로 구성하고, 유리 온실에는 전 세계 84품종의 감귤류를 식재 전시하여 사계절 싱싱한 감귤(생과)을 감상할 수 있도록 조성되어 감귤에 관한 모든 것을 체험하고 배울 수 있는 곳이다.",
+      "bm25_document": "서귀포 감귤 박물관은 제주 특산물인 감귤을 테마로 감귤의 세계를 한눈에 보고, 느끼고, 체험할 수 있도록 개관한 공립 전문 박물관이다. 감귤의 역사와 문화, 산업과 노동 현장을 엿볼 수 있는 의미 있는 전시 등을 통해 제주인의 삶의 모습을 반추해 볼 수 있다. 감귤의 발생, 역사와 종류, 재배 방법 등을 다양한 패널과 영상으로 구성하고, 유리 온실에는 전 세계 84품종의 감귤류를 식재 전시하여 사계절 싱싱한 감귤(생과)을 감상할 수 있도록 조성되어 감귤에 관한 모든 것을 체험하고 배울 수 있는 곳이다.",
+      "best_span_id": "chroma:M0088",
+      "best_span_text": "서귀포 감귤 박물관은 제주 특산물인 감귤을 테마로 감귤의 세계를 한눈에 보고, 느끼고, 체험할 수 있도록 개관한 공립 전문 박물관이다. 감귤의 역사와 문화, 산업과 노동 현장을 엿볼 수 있는 의미 있는 전시 등을 통해 제주인의 삶의 모습을 반추해 볼 수 있다. 감귤의 발생, 역사와 종류, 재배 방법 등을 다양한 패널과 영상으로 구성하고, 유리 온실에는 전 세계 84품종의 감귤류를 식재 전시하여 사계절 싱싱한 감귤(생과)을 감상할 수 있도록 조성되어 감귤에 관한 모든 것을 체험하고 배울 수 있는 곳이다.",
+      "fusion_score": 0.030017921146953404,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 3,
+      "rerank_score": null,
+      "rank": 3,
+      "score": 0.030017921146953404,
+      "score_type": "rrf",
+      "distance": 0.5633233785629272,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0088",
+      "source_doc_ids": [
+        "DOC-B0088-TOUR_API-590415"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0088-TOUR_API-590415",
+          "source_type": "TOUR_API",
+          "source_record_id": "590415",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=45",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 75,
+          "doc_ids": [
+            "DOC-B0088-TOUR_API-590415"
+          ]
+        },
+        {
+          "start": 76,
+          "end": 145,
+          "doc_ids": [
+            "DOC-B0088-TOUR_API-590415"
+          ]
+        },
+        {
+          "start": 146,
+          "end": 283,
+          "doc_ids": [
+            "DOC-B0088-TOUR_API-590415"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=45",
+      "text": "서귀포 감귤 박물관은 제주 특산물인 감귤을 테마로 감귤의 세계를 한눈에 보고, 느끼고, 체험할 수 있도록 개관한 공립 전문 박물관이다. 감귤의 역사와 문화, 산업과 노동 현장을 엿볼 수 있는 의미 있는 전시 등을 통해 제주인의 삶의 모습을 반추해 볼 수 있다. 감귤의 발생, 역사와 종류, 재배 방법 등을 다양한 패널과 영상으로 구성하고, 유리 온실에는 전 세계 84품종의 감귤류를 식재 전시하여 사계절 싱싱한 감귤(생과)을 감상할 수 있도록 조성되어 감귤에 관한 모든 것을 체험하고 배울 수 있는 곳이다.",
+      "sido": "제주특별자치도",
+      "sigungu": "서귀포시",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=45"
+      ],
+      "evidence_id": "E3",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=55",
+        "fields": {
+          "name": "감귤박물관",
+          "sido": "제주특별자치도",
+          "sigungu": "서귀포시",
+          "address": "제주특별자치도 서귀포시 효돈순환로 441",
+          "ownership_type": "공립",
+          "adult_fee": "1500",
+          "youth_fee": "1000",
+          "child_fee": "800",
+          "adult_fee_status": "BASE_FEE_PAID",
+          "weekday_open": "09:00",
+          "weekday_close": "18:00",
+          "holiday_open": "09:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "1월1일+설날+추석"
+        },
+        "base_data_date": "2026-09-30",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0033",
+      "name": "자연사랑 미술관",
+      "document": "서귀포시에 위치한 사진갤러리이다. 폐교된 가시초등학교를 활용해 90평 규모의 넓은 전시 공간을 가진 것이 특징이다. 제주는 천혜의 자연경관으로 이루어진 화산섬으로, 섬 곳곳에 독특한 경관과 문화가 서려 있다. 이런 제주의 자연과 민속을 담은 사진가 서재철의 작품을 한눈에 볼 수 있도록 전시했다. 자연사랑미술관은 가시초등학교의 옛 모습을 담은 사진 전시실, 사진과 책을 판매하는 공간과 쉼터로 구성되어 있다. 땅 할아버지라는 의미의 따라비전시장에서는 제주오름(기생화산)의 다양한 모습을 만날 수 있고, 바람이 머무는 곳이라는 뜻의 바람자리전시장에서는 한라산과 바다를 통해 제주의 비경과 사계절을 느낄 수 있다. 그 외에 화산탄을 전시한 야외 화산탄 갤러리가 있다.",
+      "metadata": {
+        "holiday_close": "17:00",
+        "adult_fee": 3000.0,
+        "adult_fee_status": "BASE_FEE_PAID",
+        "sido": "제주특별자치도",
+        "sigungu": "서귀포시",
+        "address": "제주특별자치도 서귀포시 표선면 가시로613번길 46",
+        "image_url": "http://tong.visitkorea.or.kr/cms/resource/93/3547993_image2_1.jpg",
+        "requires_manual_review": true,
+        "latitude": 33.35564999,
+        "weekday_close": "17:00",
+        "holiday_open": "10:00",
+        "closure_rule_raw": "연중무휴",
+        "name": "자연사랑 미술관",
+        "youth_fee": 1000.0,
+        "homepage_url": "http://hallaphoto.com/default/",
+        "ownership_type": "사립",
+        "child_fee": 0.0,
+        "weekday_open": "10:00",
+        "source_types": "TOUR_API",
+        "fee_notes": "도민할인",
+        "longitude": 126.7719331,
+        "image_copyright": "Type1"
+      },
+      "vector_rank": 16,
+      "bm25_rank": 13,
+      "vector_distance": 0.5722531676292419,
+      "vector_score": null,
+      "bm25_score": 14.344811139138326,
+      "vector_document": "서귀포시에 위치한 사진갤러리이다. 폐교된 가시초등학교를 활용해 90평 규모의 넓은 전시 공간을 가진 것이 특징이다. 제주는 천혜의 자연경관으로 이루어진 화산섬으로, 섬 곳곳에 독특한 경관과 문화가 서려 있다. 이런 제주의 자연과 민속을 담은 사진가 서재철의 작품을 한눈에 볼 수 있도록 전시했다. 자연사랑미술관은 가시초등학교의 옛 모습을 담은 사진 전시실, 사진과 책을 판매하는 공간과 쉼터로 구성되어 있다. 땅 할아버지라는 의미의 따라비전시장에서는 제주오름(기생화산)의 다양한 모습을 만날 수 있고, 바람이 머무는 곳이라는 뜻의 바람자리전시장에서는 한라산과 바다를 통해 제주의 비경과 사계절을 느낄 수 있다. 그 외에 화산탄을 전시한 야외 화산탄 갤러리가 있다.",
+      "bm25_document": "서귀포시에 위치한 사진갤러리이다. 폐교된 가시초등학교를 활용해 90평 규모의 넓은 전시 공간을 가진 것이 특징이다. 제주는 천혜의 자연경관으로 이루어진 화산섬으로, 섬 곳곳에 독특한 경관과 문화가 서려 있다. 이런 제주의 자연과 민속을 담은 사진가 서재철의 작품을 한눈에 볼 수 있도록 전시했다. 자연사랑미술관은 가시초등학교의 옛 모습을 담은 사진 전시실, 사진과 책을 판매하는 공간과 쉼터로 구성되어 있다. 땅 할아버지라는 의미의 따라비전시장에서는 제주오름(기생화산)의 다양한 모습을 만날 수 있고, 바람이 머무는 곳이라는 뜻의 바람자리전시장에서는 한라산과 바다를 통해 제주의 비경과 사계절을 느낄 수 있다. 그 외에 화산탄을 전시한 야외 화산탄 갤러리가 있다.",
+      "best_span_id": "chroma:M0033",
+      "best_span_text": "서귀포시에 위치한 사진갤러리이다. 폐교된 가시초등학교를 활용해 90평 규모의 넓은 전시 공간을 가진 것이 특징이다. 제주는 천혜의 자연경관으로 이루어진 화산섬으로, 섬 곳곳에 독특한 경관과 문화가 서려 있다. 이런 제주의 자연과 민속을 담은 사진가 서재철의 작품을 한눈에 볼 수 있도록 전시했다. 자연사랑미술관은 가시초등학교의 옛 모습을 담은 사진 전시실, 사진과 책을 판매하는 공간과 쉼터로 구성되어 있다. 땅 할아버지라는 의미의 따라비전시장에서는 제주오름(기생화산)의 다양한 모습을 만날 수 있고, 바람이 머무는 곳이라는 뜻의 바람자리전시장에서는 한라산과 바다를 통해 제주의 비경과 사계절을 느낄 수 있다. 그 외에 화산탄을 전시한 야외 화산탄 갤러리가 있다.",
+      "fusion_score": 0.026856524873828405,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 4,
+      "rerank_score": null,
+      "rank": 4,
+      "score": 0.026856524873828405,
+      "score_type": "rrf",
+      "distance": 0.5722531676292419,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0033",
+      "source_doc_ids": [
+        "DOC-B0033-TOUR_API-2606611"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0033-TOUR_API-2606611",
+          "source_type": "TOUR_API",
+          "source_record_id": "2606611",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=20",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 18,
+          "doc_ids": [
+            "DOC-B0033-TOUR_API-2606611"
+          ]
+        },
+        {
+          "start": 19,
+          "end": 64,
+          "doc_ids": [
+            "DOC-B0033-TOUR_API-2606611"
+          ]
+        },
+        {
+          "start": 65,
+          "end": 116,
+          "doc_ids": [
+            "DOC-B0033-TOUR_API-2606611"
+          ]
+        },
+        {
+          "start": 117,
+          "end": 165,
+          "doc_ids": [
+            "DOC-B0033-TOUR_API-2606611"
+          ]
+        },
+        {
+          "start": 166,
+          "end": 228,
+          "doc_ids": [
+            "DOC-B0033-TOUR_API-2606611"
+          ]
+        },
+        {
+          "start": 229,
+          "end": 341,
+          "doc_ids": [
+            "DOC-B0033-TOUR_API-2606611"
+          ]
+        },
+        {
+          "start": 342,
+          "end": 371,
+          "doc_ids": [
+            "DOC-B0033-TOUR_API-2606611"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=20",
+      "text": "서귀포시에 위치한 사진갤러리이다. 폐교된 가시초등학교를 활용해 90평 규모의 넓은 전시 공간을 가진 것이 특징이다. 제주는 천혜의 자연경관으로 이루어진 화산섬으로, 섬 곳곳에 독특한 경관과 문화가 서려 있다. 이런 제주의 자연과 민속을 담은 사진가 서재철의 작품을 한눈에 볼 수 있도록 전시했다. 자연사랑미술관은 가시초등학교의 옛 모습을 담은 사진 전시실, 사진과 책을 판매하는 공간과 쉼터로 구성되어 있다. 땅 할아버지라는 의미의 따라비전시장에서는 제주오름(기생화산)의 다양한 모습을 만날 수 있고, 바람이 머무는 곳이라는 뜻의 바람자리전시장에서는 한라산과 바다를 통해 제주의 비경과 사계절을 느낄 수 있다. 그 외에 화산탄을 전시한 야외 화산탄 갤러리가 있다.",
+      "sido": "제주특별자치도",
+      "sigungu": "서귀포시",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=20"
+      ],
+      "evidence_id": "E4",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=26",
+        "fields": {
+          "name": "자연사랑 미술관",
+          "sido": "제주특별자치도",
+          "sigungu": "서귀포시",
+          "address": "제주특별자치도 서귀포시 표선면 가시로613번길 46",
+          "ownership_type": "사립",
+          "adult_fee": "3000",
+          "youth_fee": "1000",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_PAID",
+          "weekday_open": "10:00",
+          "weekday_close": "17:00",
+          "holiday_open": "10:00",
+          "holiday_close": "17:00",
+          "closure_rule_raw": "연중무휴"
+        },
+        "base_data_date": "2026-09-30",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0176",
+      "name": "우주미술관",
+      "document": "경남 사천시에 위치한 우주미술관은 미술관과 카페를 동시에 운영하고 있다. 전시되어 있는 작품은 주기적으로 바뀌어 다양한 경험이 가능하다. 10인 이상 단체관람을 원할 경우 사전에 전화로 문의 후 방문하는 것을 추천한다. 또한 전시해설이 필요할 경우에는 안내실에 요청하여 도슨트 프로그램 이용도 가능하다. 카페 매장은 좌석 간의 공간이 넓어 쾌적하고 편안하게 이용이 가능하며 다양한 커피와 음료, 디저트가 준비되어 있어 전시관람 후 이용하는 것을 추천한다.",
+      "metadata": {
+        "closure_rule_raw": "일요일",
+        "sigungu": "사천시",
+        "name": "우주미술관",
+        "homepage_url": "https://www.ujumuseum.com/",
+        "latitude": 35.07366768,
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "image_copyright": "Type3",
+        "address": "경상남도 사천시 정동면 사천강1길 3",
+        "child_fee": 0.0,
+        "youth_fee": 0.0,
+        "requires_manual_review": true,
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/07/3401107_image2_1.png",
+        "source_types": "TOUR_API",
+        "longitude": 128.083174,
+        "holiday_open": "10:00",
+        "holiday_close": "19:00",
+        "sido": "경상남도",
+        "weekday_close": "19:00",
+        "adult_fee": 0.0,
+        "weekday_open": "10:00",
+        "ownership_type": "사립"
+      },
+      "vector_rank": 2,
+      "bm25_rank": null,
+      "vector_distance": 0.5378742218017578,
+      "vector_score": null,
+      "bm25_score": null,
+      "vector_document": "경남 사천시에 위치한 우주미술관은 미술관과 카페를 동시에 운영하고 있다. 전시되어 있는 작품은 주기적으로 바뀌어 다양한 경험이 가능하다. 10인 이상 단체관람을 원할 경우 사전에 전화로 문의 후 방문하는 것을 추천한다. 또한 전시해설이 필요할 경우에는 안내실에 요청하여 도슨트 프로그램 이용도 가능하다. 카페 매장은 좌석 간의 공간이 넓어 쾌적하고 편안하게 이용이 가능하며 다양한 커피와 음료, 디저트가 준비되어 있어 전시관람 후 이용하는 것을 추천한다.",
+      "bm25_document": "",
+      "best_span_id": null,
+      "best_span_text": null,
+      "fusion_score": 0.016129032258064516,
+      "retrieved_by": [
+        "vector"
+      ],
+      "fusion_rank": 5,
+      "rerank_score": null,
+      "rank": 5,
+      "score": 0.016129032258064516,
+      "score_type": "rrf",
+      "distance": 0.5378742218017578,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector"
+      ],
+      "retriever": "vector",
+      "source_doc_ids": [
+        "DOC-B0176-TOUR_API-3401161"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0176-TOUR_API-3401161",
+          "source_type": "TOUR_API",
+          "source_record_id": "3401161",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=83",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 40,
+          "doc_ids": [
+            "DOC-B0176-TOUR_API-3401161"
+          ]
+        },
+        {
+          "start": 41,
+          "end": 76,
+          "doc_ids": [
+            "DOC-B0176-TOUR_API-3401161"
+          ]
+        },
+        {
+          "start": 77,
+          "end": 122,
+          "doc_ids": [
+            "DOC-B0176-TOUR_API-3401161"
+          ]
+        },
+        {
+          "start": 123,
+          "end": 169,
+          "doc_ids": [
+            "DOC-B0176-TOUR_API-3401161"
+          ]
+        },
+        {
+          "start": 170,
+          "end": 254,
+          "doc_ids": [
+            "DOC-B0176-TOUR_API-3401161"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=83",
+      "text": "경남 사천시에 위치한 우주미술관은 미술관과 카페를 동시에 운영하고 있다. 전시되어 있는 작품은 주기적으로 바뀌어 다양한 경험이 가능하다. 10인 이상 단체관람을 원할 경우 사전에 전화로 문의 후 방문하는 것을 추천한다. 또한 전시해설이 필요할 경우에는 안내실에 요청하여 도슨트 프로그램 이용도 가능하다. 카페 매장은 좌석 간의 공간이 넓어 쾌적하고 편안하게 이용이 가능하며 다양한 커피와 음료, 디저트가 준비되어 있어 전시관람 후 이용하는 것을 추천한다.",
+      "sido": "경상남도",
+      "sigungu": "사천시",
+      "span_id": "",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=83"
+      ],
+      "evidence_id": "E5",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=117",
+        "fields": {
+          "name": "우주미술관",
+          "sido": "경상남도",
+          "sigungu": "사천시",
+          "address": "경상남도 사천시 정동면 사천강1길 3",
+          "ownership_type": "사립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "10:00",
+          "weekday_close": "19:00",
+          "holiday_open": "10:00",
+          "holiday_close": "19:00",
+          "closure_rule_raw": "일요일"
+        },
+        "base_data_date": "2026-08-30",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    }
+  ],
+  "answer": "제주 서귀포시의 **제주항공우주박물관**입니다. 항공 역사관에 실물 항공기 26대가 전시되고, 천문우주관과 체험공간인 테마관도 함께 있습니다. [E1]",
+  "retrieval_status": "ok",
+  "answer_status": "answered",
+  "route": "hybrid",
+  "retry_count": 0,
+  "supervisor_verified": true,
+  "rerank_applied": false,
+  "retriever_errors": [],
+  "warnings": [
+    "Cross-Encoder reranking failed (FileNotFoundError); RRF order retained"
+  ],
+  "duration_ms": 11329.63,
+  "error_type": "",
+  "hit_at_1": 1,
+  "hit_at_3": 1,
+  "hit_at_5": 1,
+  "recall_at_5": 1.0,
+  "mrr_at_10": 1.0
+}

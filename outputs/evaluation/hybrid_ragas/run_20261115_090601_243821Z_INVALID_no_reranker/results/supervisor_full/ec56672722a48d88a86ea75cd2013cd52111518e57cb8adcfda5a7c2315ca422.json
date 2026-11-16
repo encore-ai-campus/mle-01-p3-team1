@@ -1,0 +1,779 @@
+{
+  "mode": "supervisor_full",
+  "question_id": "Q284",
+  "evidence": [
+    {
+      "museum_id": "M0490",
+      "name": "국립농업박물관",
+      "document": "국립농업박물관은 우리 농업의 어제와 오늘 그리고 내일을 만날 수 있는 다양한 전시와 실내외 농업 체험장으로 구성되어 있다. 농업의 모든 것을 선보이는 상설 전시와 다양한 측면을 포착한 기획 전시, 농촌의 가치를 체험할 수 있는 어린이박물관이 있다. 도심 속 여유를 만끽할 수 있는 야외 농업 체험장과 식물원, 곤충관은 물론, 직접 느끼며 깨닫는 교육 프로그램까지 다양한 볼거리와 즐길거리가 가득하다. ‘모두가 찾아오고 싶은 생활 문화 공간’을 추구하며 농업 농촌의 가치를 친근하게 전파하고자 한다. 한국 농업의 역사와 미래, 농촌문화와 식문화를 소개하는 국립박물관이다. 농업관과 어린이박물관, 식물원·곤충관·농업체험시설을 통해 농업의 여러 모습을 체험할 수 있다.",
+      "metadata": {
+        "child_fee": 0.0,
+        "weekday_open": "10:00",
+        "address": "경기도 수원시 권선구 수인로 154",
+        "youth_fee": 0.0,
+        "ownership_type": "국립",
+        "source_types": "TOUR_API|WEB_RESEARCH",
+        "closure_rule_raw": "매주 월요일, 1월 1일, 설·추석 당일",
+        "latitude": 37.2748838338,
+        "name": "국립농업박물관",
+        "sido": "경기도",
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "holiday_open": "10:00",
+        "longitude": 126.9849753448,
+        "requires_manual_review": true,
+        "adult_fee": 0.0,
+        "holiday_close": "18:00",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/95/4056595_image2_1.jpg",
+        "image_copyright": "Type1",
+        "sigungu": "수원시",
+        "homepage_url": "https://www.namuk.or.kr/sites/kr/index.do",
+        "weekday_close": "18:00"
+      },
+      "vector_rank": 1,
+      "bm25_rank": null,
+      "vector_distance": 0.3346492648124695,
+      "vector_score": null,
+      "bm25_score": null,
+      "vector_document": "국립농업박물관은 우리 농업의 어제와 오늘 그리고 내일을 만날 수 있는 다양한 전시와 실내외 농업 체험장으로 구성되어 있다. 농업의 모든 것을 선보이는 상설 전시와 다양한 측면을 포착한 기획 전시, 농촌의 가치를 체험할 수 있는 어린이박물관이 있다. 도심 속 여유를 만끽할 수 있는 야외 농업 체험장과 식물원, 곤충관은 물론, 직접 느끼며 깨닫는 교육 프로그램까지 다양한 볼거리와 즐길거리가 가득하다. ‘모두가 찾아오고 싶은 생활 문화 공간’을 추구하며 농업 농촌의 가치를 친근하게 전파하고자 한다. 한국 농업의 역사와 미래, 농촌문화와 식문화를 소개하는 국립박물관이다. 농업관과 어린이박물관, 식물원·곤충관·농업체험시설을 통해 농업의 여러 모습을 체험할 수 있다.",
+      "bm25_document": "",
+      "best_span_id": null,
+      "best_span_text": null,
+      "fusion_score": 0.01639344262295082,
+      "retrieved_by": [
+        "vector"
+      ],
+      "fusion_rank": 1,
+      "name_match": true,
+      "rerank_score": null,
+      "rank": 1,
+      "score": 0.01639344262295082,
+      "score_type": "rrf",
+      "distance": 0.3346492648124695,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector"
+      ],
+      "retriever": "vector",
+      "source_doc_ids": [
+        "DOC-B0490-TOUR_API-2944481",
+        "DOC-WEB-M0490-20261111"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0490-TOUR_API-2944481",
+          "source_type": "TOUR_API",
+          "source_record_id": "2944481",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=242",
+          "match_trust": "RECHECKED_BY_RULE_NOT_HUMAN_APPROVED"
+        },
+        {
+          "doc_id": "DOC-WEB-M0490-20261111",
+          "source_type": "WEB_RESEARCH",
+          "source_record_id": "RESEARCH-M0490",
+          "source_locator": "https://namuk.or.kr/kr/597/subview.do",
+          "source_url": "https://namuk.or.kr/kr/597/subview.do",
+          "match_trust": "WEB_SOURCE_REVIEWED_NOT_HUMAN_APPROVED"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 68,
+          "doc_ids": [
+            "DOC-B0490-TOUR_API-2944481"
+          ]
+        },
+        {
+          "start": 69,
+          "end": 138,
+          "doc_ids": [
+            "DOC-B0490-TOUR_API-2944481"
+          ]
+        },
+        {
+          "start": 139,
+          "end": 223,
+          "doc_ids": [
+            "DOC-B0490-TOUR_API-2944481"
+          ]
+        },
+        {
+          "start": 224,
+          "end": 278,
+          "doc_ids": [
+            "DOC-B0490-TOUR_API-2944481"
+          ]
+        },
+        {
+          "start": 279,
+          "end": 318,
+          "doc_ids": [
+            "DOC-WEB-M0490-20261111"
+          ]
+        },
+        {
+          "start": 319,
+          "end": 371,
+          "doc_ids": [
+            "DOC-WEB-M0490-20261111"
+          ]
+        }
+      ],
+      "source_urls": [
+        "https://namuk.or.kr/kr/597/subview.do"
+      ],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=242",
+      "text": "국립농업박물관은 우리 농업의 어제와 오늘 그리고 내일을 만날 수 있는 다양한 전시와 실내외 농업 체험장으로 구성되어 있다. 농업의 모든 것을 선보이는 상설 전시와 다양한 측면을 포착한 기획 전시, 농촌의 가치를 체험할 수 있는 어린이박물관이 있다. 도심 속 여유를 만끽할 수 있는 야외 농업 체험장과 식물원, 곤충관은 물론, 직접 느끼며 깨닫는 교육 프로그램까지 다양한 볼거리와 즐길거리가 가득하다. ‘모두가 찾아오고 싶은 생활 문화 공간’을 추구하며 농업 농촌의 가치를 친근하게 전파하고자 한다. 한국 농업의 역사와 미래, 농촌문화와 식문화를 소개하는 국립박물관이다. 농업관과 어린이박물관, 식물원·곤충관·농업체험시설을 통해 농업의 여러 모습을 체험할 수 있다.",
+      "sido": "경기도",
+      "sigungu": "수원시",
+      "span_id": "",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=242"
+      ],
+      "evidence_id": "E1",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=353",
+        "fields": {
+          "name": "국립농업박물관",
+          "sido": "경기도",
+          "sigungu": "수원시",
+          "address": "경기도 수원시 권선구 수인로 154",
+          "ownership_type": "국립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "10:00",
+          "weekday_close": "18:00",
+          "holiday_open": "10:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "매주 월요일, 1월 1일, 설·추석 당일"
+        },
+        "base_data_date": "2026-04-08",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0501",
+      "name": "국립해양박물관",
+      "document": "국립해양박물관은 대한민국 해양문화의 랜드마크로서 해양의 역사·문화·생물·예술에 이르는 다양한 분야의 유물과 자료를 수집, 보존, 연구하는 종합 해양 전문 박물관이다. 부산광역시 영도구에 위치하며, 2012년 5월 개관하였다. 지하 1층부터 지상 4층까지 구성되어 있으며, 전시실, 해양도서관, 어린이 박물관, 수장고, 수족관 등 다양한 시설을 갖추고 있다. 박물관은 약 3만여 점의 해양 관련 유물을 소장하고 있으며, 기획전과 상설전시를 통해 관람객에게 풍부한 콘텐츠를 제공한다. 또한, 바다 생물들이 살아 숨 쉬는 공간이자 해양동물전문구조치료기관, 서직지외보전기관으로서 생물을 보호·보전하는 역할을 수행하고 있다. 어린이박물관, 어린이해양도서관을 포함한 어린이·청소년을 위한 교육 프로그램도 활발히 진행되고 있다. 국민 누구나 바다의 소중함과 미래 가치를 느낄 수 있도록 돕는 국립 해양문화 플랫폼이다.",
+      "metadata": {
+        "longitude": 129.0802448645,
+        "weekday_open": "09:00",
+        "sigungu": "영도구",
+        "name": "국립해양박물관",
+        "source_types": "TOUR_API",
+        "youth_fee": 0.0,
+        "homepage_url": "https://www.mmk.or.kr/",
+        "address": "부산광역시 영도구 해양로 301번길 45",
+        "ownership_type": "국립",
+        "child_fee": 0.0,
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/50/4111450_image2_1.jpg",
+        "adult_fee": 0.0,
+        "holiday_close": "19:00",
+        "closure_rule_raw": "매주 월요일(월요일이 공휴일인 경우 다음 첫 평일 휴관)",
+        "weekday_close": "18:00",
+        "requires_manual_review": true,
+        "sido": "부산광역시",
+        "latitude": 35.0785634153,
+        "holiday_open": "09:00",
+        "image_copyright": "Type1",
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS"
+      },
+      "vector_rank": 5,
+      "bm25_rank": 17,
+      "vector_distance": 0.5088198781013489,
+      "vector_score": null,
+      "bm25_score": 8.561561941275802,
+      "vector_document": "국립해양박물관은 대한민국 해양문화의 랜드마크로서 해양의 역사·문화·생물·예술에 이르는 다양한 분야의 유물과 자료를 수집, 보존, 연구하는 종합 해양 전문 박물관이다. 부산광역시 영도구에 위치하며, 2012년 5월 개관하였다. 지하 1층부터 지상 4층까지 구성되어 있으며, 전시실, 해양도서관, 어린이 박물관, 수장고, 수족관 등 다양한 시설을 갖추고 있다. 박물관은 약 3만여 점의 해양 관련 유물을 소장하고 있으며, 기획전과 상설전시를 통해 관람객에게 풍부한 콘텐츠를 제공한다. 또한, 바다 생물들이 살아 숨 쉬는 공간이자 해양동물전문구조치료기관, 서직지외보전기관으로서 생물을 보호·보전하는 역할을 수행하고 있다. 어린이박물관, 어린이해양도서관을 포함한 어린이·청소년을 위한 교육 프로그램도 활발히 진행되고 있다. 국민 누구나 바다의 소중함과 미래 가치를 느낄 수 있도록 돕는 국립 해양문화 플랫폼이다.",
+      "bm25_document": "국립해양박물관은 대한민국 해양문화의 랜드마크로서 해양의 역사·문화·생물·예술에 이르는 다양한 분야의 유물과 자료를 수집, 보존, 연구하는 종합 해양 전문 박물관이다. 부산광역시 영도구에 위치하며, 2012년 5월 개관하였다. 지하 1층부터 지상 4층까지 구성되어 있으며, 전시실, 해양도서관, 어린이 박물관, 수장고, 수족관 등 다양한 시설을 갖추고 있다. 박물관은 약 3만여 점의 해양 관련 유물을 소장하고 있으며, 기획전과 상설전시를 통해 관람객에게 풍부한 콘텐츠를 제공한다. 또한, 바다 생물들이 살아 숨 쉬는 공간이자 해양동물전문구조치료기관, 서직지외보전기관으로서 생물을 보호·보전하는 역할을 수행하고 있다. 어린이박물관, 어린이해양도서관을 포함한 어린이·청소년을 위한 교육 프로그램도 활발히 진행되고 있다. 국민 누구나 바다의 소중함과 미래 가치를 느낄 수 있도록 돕는 국립 해양문화 플랫폼이다.",
+      "best_span_id": "chroma:M0501",
+      "best_span_text": "국립해양박물관은 대한민국 해양문화의 랜드마크로서 해양의 역사·문화·생물·예술에 이르는 다양한 분야의 유물과 자료를 수집, 보존, 연구하는 종합 해양 전문 박물관이다. 부산광역시 영도구에 위치하며, 2012년 5월 개관하였다. 지하 1층부터 지상 4층까지 구성되어 있으며, 전시실, 해양도서관, 어린이 박물관, 수장고, 수족관 등 다양한 시설을 갖추고 있다. 박물관은 약 3만여 점의 해양 관련 유물을 소장하고 있으며, 기획전과 상설전시를 통해 관람객에게 풍부한 콘텐츠를 제공한다. 또한, 바다 생물들이 살아 숨 쉬는 공간이자 해양동물전문구조치료기관, 서직지외보전기관으로서 생물을 보호·보전하는 역할을 수행하고 있다. 어린이박물관, 어린이해양도서관을 포함한 어린이·청소년을 위한 교육 프로그램도 활발히 진행되고 있다. 국민 누구나 바다의 소중함과 미래 가치를 느낄 수 있도록 돕는 국립 해양문화 플랫폼이다.",
+      "fusion_score": 0.028371628371628373,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 2,
+      "rerank_score": null,
+      "rank": 2,
+      "score": 0.028371628371628373,
+      "score_type": "rrf",
+      "distance": 0.5088198781013489,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0501",
+      "source_doc_ids": [
+        "DOC-B0501-TOUR_API-1825843"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0501-TOUR_API-1825843",
+          "source_type": "TOUR_API",
+          "source_record_id": "1825843",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=247",
+          "match_trust": "RECHECKED_BY_RULE_NOT_HUMAN_APPROVED"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 92,
+          "doc_ids": [
+            "DOC-B0501-TOUR_API-1825843"
+          ]
+        },
+        {
+          "start": 93,
+          "end": 125,
+          "doc_ids": [
+            "DOC-B0501-TOUR_API-1825843"
+          ]
+        },
+        {
+          "start": 126,
+          "end": 199,
+          "doc_ids": [
+            "DOC-B0501-TOUR_API-1825843"
+          ]
+        },
+        {
+          "start": 200,
+          "end": 268,
+          "doc_ids": [
+            "DOC-B0501-TOUR_API-1825843"
+          ]
+        },
+        {
+          "start": 269,
+          "end": 344,
+          "doc_ids": [
+            "DOC-B0501-TOUR_API-1825843"
+          ]
+        },
+        {
+          "start": 345,
+          "end": 400,
+          "doc_ids": [
+            "DOC-B0501-TOUR_API-1825843"
+          ]
+        },
+        {
+          "start": 401,
+          "end": 450,
+          "doc_ids": [
+            "DOC-B0501-TOUR_API-1825843"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=247",
+      "text": "국립해양박물관은 대한민국 해양문화의 랜드마크로서 해양의 역사·문화·생물·예술에 이르는 다양한 분야의 유물과 자료를 수집, 보존, 연구하는 종합 해양 전문 박물관이다. 부산광역시 영도구에 위치하며, 2012년 5월 개관하였다. 지하 1층부터 지상 4층까지 구성되어 있으며, 전시실, 해양도서관, 어린이 박물관, 수장고, 수족관 등 다양한 시설을 갖추고 있다. 박물관은 약 3만여 점의 해양 관련 유물을 소장하고 있으며, 기획전과 상설전시를 통해 관람객에게 풍부한 콘텐츠를 제공한다. 또한, 바다 생물들이 살아 숨 쉬는 공간이자 해양동물전문구조치료기관, 서직지외보전기관으로서 생물을 보호·보전하는 역할을 수행하고 있다. 어린이박물관, 어린이해양도서관을 포함한 어린이·청소년을 위한 교육 프로그램도 활발히 진행되고 있다. 국민 누구나 바다의 소중함과 미래 가치를 느낄 수 있도록 돕는 국립 해양문화 플랫폼이다.",
+      "sido": "부산광역시",
+      "sigungu": "영도구",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=247"
+      ],
+      "evidence_id": "E2",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=358",
+        "fields": {
+          "name": "국립해양박물관",
+          "sido": "부산광역시",
+          "sigungu": "영도구",
+          "address": "부산광역시 영도구 해양로 301번길 45",
+          "ownership_type": "국립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "09:00",
+          "weekday_close": "18:00",
+          "holiday_open": "09:00",
+          "holiday_close": "19:00",
+          "closure_rule_raw": "매주 월요일(월요일이 공휴일인 경우 다음 첫 평일 휴관)"
+        },
+        "base_data_date": "2026-04-08",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0599",
+      "name": "남송미술관",
+      "document": "남송미술관은 가평 명지산과 연인산 청정 계곡 자락에 위치하여 전원의 아름다운 풍경과 다양한 문화 소재로의 예술을 감상할 수 종합 문화 예술 전시 공간이다. 2006년 개관전을 시작으로 다양한 예술 장르의 작품 전시를 꾸준히 열어 온 이곳은 사양화가 남궁원 관장의 풍부한 예술 활동과 더불어 그동안 수집하고 관리해 왔던 국내외 미술품을 기반으로 미적 가치가 있는 미술품을 기획·전시해 왔다. 한국 전통한옥 건축물의 외관을 갖추고 있으며, 1층과 2층에는 전시공간, 3층에는 체험학습공간, 4층에는 개방형 전시실로 구성되어 있다. 또한, 방문객의 편의를 위해 옥외 주차장을 갖추고 있고, 부대시설로는 인근에 문화체험학습 시설이자 예술인 쉼터 공간인 허수아비마을이 있다. 허수아비 마을은 가평 명지산 계곡에 자리 잡고 있으며, 바쁘게 생활하는 도시인들에게 어머니 품속 같은 자연을 함께 호흡할 수 있는 휴양지로 1만여 ㎡의 대지에 문화 예술의 향기를 풍족히 느낄 수 있도록 다듬어진 아름다운 마을이다. 가평 전원의 아름다운 풍경과 현대 미술의 세계가 만나 다양한 문화와 예술을 감상할 수 있는 가평의 대표적인 문화 예술 전시 공간이다. 설립자 남궁원 작가의 풍부한 작품과 그간 수집해 왔던 미술품을 기반으로 가평지역의 미술문화 발전을 위해 다양한 예술품들을 전시하여 감상, 체험과 교육의 기회를 제공한다.",
+      "metadata": {
+        "image_copyright": "Type3",
+        "transport_notes": "버스:33-1,33-8,33-4,50-1,50-3",
+        "address": "경기도 가평군 북면 백둔로 322",
+        "holiday_open": "10:00",
+        "weekday_open": "10:00",
+        "adult_fee_status": "BASE_FEE_PAID",
+        "longitude": 127.472221,
+        "requires_manual_review": true,
+        "youth_fee": 2000.0,
+        "name": "남송미술관",
+        "holiday_close": "18:00",
+        "closure_rule_raw": "월+화+설날연휴+추석연휴",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/75/3503075_image2_1.jpg",
+        "weekday_close": "18:00",
+        "child_fee": 2000.0,
+        "adult_fee": 3000.0,
+        "fee_notes": "무료(4세미만 어린이+국가유공자 및 장애인+경로우대증 소유자) 단체 성인 20명(2000원)+단체 학생 10명(1000원)",
+        "sido": "경기도",
+        "homepage_url": "http://www.namsongart.com/",
+        "source_types": "BASE|TOUR_API",
+        "latitude": 37.904512,
+        "amenities_raw": "주차장(10대)+장애인시설(승강기)",
+        "ownership_type": "사립",
+        "sigungu": "가평군"
+      },
+      "vector_rank": null,
+      "bm25_rank": 1,
+      "vector_distance": null,
+      "vector_score": null,
+      "bm25_score": 11.005001019158582,
+      "vector_document": "",
+      "bm25_document": "남송미술관은 가평 명지산과 연인산 청정 계곡 자락에 위치하여 전원의 아름다운 풍경과 다양한 문화 소재로의 예술을 감상할 수 종합 문화 예술 전시 공간이다. 2006년 개관전을 시작으로 다양한 예술 장르의 작품 전시를 꾸준히 열어 온 이곳은 사양화가 남궁원 관장의 풍부한 예술 활동과 더불어 그동안 수집하고 관리해 왔던 국내외 미술품을 기반으로 미적 가치가 있는 미술품을 기획·전시해 왔다. 한국 전통한옥 건축물의 외관을 갖추고 있으며, 1층과 2층에는 전시공간, 3층에는 체험학습공간, 4층에는 개방형 전시실로 구성되어 있다. 또한, 방문객의 편의를 위해 옥외 주차장을 갖추고 있고, 부대시설로는 인근에 문화체험학습 시설이자 예술인 쉼터 공간인 허수아비마을이 있다. 허수아비 마을은 가평 명지산 계곡에 자리 잡고 있으며, 바쁘게 생활하는 도시인들에게 어머니 품속 같은 자연을 함께 호흡할 수 있는 휴양지로 1만여 ㎡의 대지에 문화 예술의 향기를 풍족히 느낄 수 있도록 다듬어진 아름다운 마을이다. 가평 전원의 아름다운 풍경과 현대 미술의 세계가 만나 다양한 문화와 예술을 감상할 수 있는 가평의 대표적인 문화 예술 전시 공간이다. 설립자 남궁원 작가의 풍부한 작품과 그간 수집해 왔던 미술품을 기반으로 가평지역의 미술문화 발전을 위해 다양한 예술품들을 전시하여 감상, 체험과 교육의 기회를 제공한다.",
+      "best_span_id": "chroma:M0599",
+      "best_span_text": "남송미술관은 가평 명지산과 연인산 청정 계곡 자락에 위치하여 전원의 아름다운 풍경과 다양한 문화 소재로의 예술을 감상할 수 종합 문화 예술 전시 공간이다. 2006년 개관전을 시작으로 다양한 예술 장르의 작품 전시를 꾸준히 열어 온 이곳은 사양화가 남궁원 관장의 풍부한 예술 활동과 더불어 그동안 수집하고 관리해 왔던 국내외 미술품을 기반으로 미적 가치가 있는 미술품을 기획·전시해 왔다. 한국 전통한옥 건축물의 외관을 갖추고 있으며, 1층과 2층에는 전시공간, 3층에는 체험학습공간, 4층에는 개방형 전시실로 구성되어 있다. 또한, 방문객의 편의를 위해 옥외 주차장을 갖추고 있고, 부대시설로는 인근에 문화체험학습 시설이자 예술인 쉼터 공간인 허수아비마을이 있다. 허수아비 마을은 가평 명지산 계곡에 자리 잡고 있으며, 바쁘게 생활하는 도시인들에게 어머니 품속 같은 자연을 함께 호흡할 수 있는 휴양지로 1만여 ㎡의 대지에 문화 예술의 향기를 풍족히 느낄 수 있도록 다듬어진 아름다운 마을이다. 가평 전원의 아름다운 풍경과 현대 미술의 세계가 만나 다양한 문화와 예술을 감상할 수 있는 가평의 대표적인 문화 예술 전시 공간이다. 설립자 남궁원 작가의 풍부한 작품과 그간 수집해 왔던 미술품을 기반으로 가평지역의 미술문화 발전을 위해 다양한 예술품들을 전시하여 감상, 체험과 교육의 기회를 제공한다.",
+      "fusion_score": 0.01639344262295082,
+      "retrieved_by": [
+        "bm25"
+      ],
+      "fusion_rank": 3,
+      "rerank_score": null,
+      "rank": 3,
+      "score": 0.01639344262295082,
+      "score_type": "rrf",
+      "distance": null,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "bm25"
+      ],
+      "retriever": "bm25",
+      "span_id": "chroma:M0599",
+      "source_doc_ids": [
+        "DOC-B0599-TOUR_API-1060264",
+        "DOC-B0599-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0599-TOUR_API-1060264",
+          "source_type": "TOUR_API",
+          "source_record_id": "1060264",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=299",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        },
+        {
+          "doc_id": "DOC-B0599-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0599",
+          "source_locator": "data/raw/museum_base_1070.csv#row=600",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 86,
+          "doc_ids": [
+            "DOC-B0599-TOUR_API-1060264"
+          ]
+        },
+        {
+          "start": 87,
+          "end": 217,
+          "doc_ids": [
+            "DOC-B0599-TOUR_API-1060264"
+          ]
+        },
+        {
+          "start": 218,
+          "end": 294,
+          "doc_ids": [
+            "DOC-B0599-TOUR_API-1060264"
+          ]
+        },
+        {
+          "start": 295,
+          "end": 372,
+          "doc_ids": [
+            "DOC-B0599-TOUR_API-1060264"
+          ]
+        },
+        {
+          "start": 373,
+          "end": 501,
+          "doc_ids": [
+            "DOC-B0599-TOUR_API-1060264"
+          ]
+        },
+        {
+          "start": 502,
+          "end": 576,
+          "doc_ids": [
+            "DOC-B0599-BASE"
+          ]
+        },
+        {
+          "start": 577,
+          "end": 671,
+          "doc_ids": [
+            "DOC-B0599-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=299",
+      "text": "남송미술관은 가평 명지산과 연인산 청정 계곡 자락에 위치하여 전원의 아름다운 풍경과 다양한 문화 소재로의 예술을 감상할 수 종합 문화 예술 전시 공간이다. 2006년 개관전을 시작으로 다양한 예술 장르의 작품 전시를 꾸준히 열어 온 이곳은 사양화가 남궁원 관장의 풍부한 예술 활동과 더불어 그동안 수집하고 관리해 왔던 국내외 미술품을 기반으로 미적 가치가 있는 미술품을 기획·전시해 왔다. 한국 전통한옥 건축물의 외관을 갖추고 있으며, 1층과 2층에는 전시공간, 3층에는 체험학습공간, 4층에는 개방형 전시실로 구성되어 있다. 또한, 방문객의 편의를 위해 옥외 주차장을 갖추고 있고, 부대시설로는 인근에 문화체험학습 시설이자 예술인 쉼터 공간인 허수아비마을이 있다. 허수아비 마을은 가평 명지산 계곡에 자리 잡고 있으며, 바쁘게 생활하는 도시인들에게 어머니 품속 같은 자연을 함께 호흡할 수 있는 휴양지로 1만여 ㎡의 대지에 문화 예술의 향기를 풍족히 느낄 수 있도록 다듬어진 아름다운 마을이다. 가평 전원의 아름다운 풍경과 현대 미술의 세계가 만나 다양한 문화와 예술을 감상할 수 있는 가평의 대표적인 문화 예술 전시 공간이다. 설립자 남궁원 작가의 풍부한 작품과 그간 수집해 왔던 미술품을 기반으로 가평지역의 미술문화 발전을 위해 다양한 예술품들을 전시하여 감상, 체험과 교육의 기회를 제공한다.",
+      "sido": "경기도",
+      "sigungu": "가평군",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=299"
+      ],
+      "evidence_id": "E3",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=419",
+        "fields": {
+          "name": "남송미술관",
+          "sido": "경기도",
+          "sigungu": "가평군",
+          "address": "경기도 가평군 북면 백둔로 322",
+          "ownership_type": "사립",
+          "adult_fee": "3000",
+          "youth_fee": "2000",
+          "child_fee": "2000",
+          "adult_fee_status": "BASE_FEE_PAID",
+          "weekday_open": "10:00",
+          "weekday_close": "18:00",
+          "holiday_open": "10:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "월+화+설날연휴+추석연휴",
+          "amenities_raw": "주차장(10대)+장애인시설(승강기)"
+        },
+        "base_data_date": "2025-12-26",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0525",
+      "name": "국립관세박물관",
+      "document": "국립관세박물관은 강남구에 위치한 국립박물관으로, 개항기부터 현대까지 한국 경제사와 함께한 관세 문화를 경험할 수 있는 공간이다. 박물관은 총 3개 주제관인 관세역사관, 관세행정관, 관세외교관이 있으며, 핸즈온 전시 공간인 공항 체험과 해외직구시 사용하는 유니패스존에서는 인터렉티브 체험을 할 수 있다. 또한 박물관 관람 시에는 전시실에 비치된 전시 활동지와 모바일을 활용한 웹콘텐츠로 관세 문화를 입체적으로 경험 할 수 있다. 관세 문화를 더 깊이 체험하고자 할 때에는 별도 전화 예약을 통해 박물관 교육에 참여 가능하다. 관세박물관을 통해 세관의 역사를 재조명하고 관세 주권과 국익을 지켜온 관세인의 노고를 기억함으로써 국민들에게 세관에 대한 이해를 높이는 한편, 더 발전된 미래로 나아가기 위한 교훈의 장으로 삼고자 하는 취지를 가지고 있다.",
+      "metadata": {
+        "weekday_close": "18:00",
+        "weekday_open": "10:00",
+        "name": "국립관세박물관",
+        "holiday_close": "00:00",
+        "youth_fee": 0.0,
+        "longitude": 127.033779,
+        "requires_manual_review": true,
+        "image_copyright": "Type3",
+        "latitude": 37.518374,
+        "child_fee": 0.0,
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/25/3503425_image2_1.jpg",
+        "closure_rule_raw": "주말 및 공휴일",
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "ownership_type": "국립",
+        "holiday_open": "00:00",
+        "homepage_url": "https://www.customs.go.kr/seoul",
+        "adult_fee": 0.0,
+        "address": "서울특별시 강남구 언주로 721",
+        "source_types": "TOUR_API",
+        "sigungu": "강남구",
+        "sido": "서울특별시"
+      },
+      "vector_rank": 2,
+      "bm25_rank": null,
+      "vector_distance": 0.44154560565948486,
+      "vector_score": null,
+      "bm25_score": null,
+      "vector_document": "국립관세박물관은 강남구에 위치한 국립박물관으로, 개항기부터 현대까지 한국 경제사와 함께한 관세 문화를 경험할 수 있는 공간이다. 박물관은 총 3개 주제관인 관세역사관, 관세행정관, 관세외교관이 있으며, 핸즈온 전시 공간인 공항 체험과 해외직구시 사용하는 유니패스존에서는 인터렉티브 체험을 할 수 있다. 또한 박물관 관람 시에는 전시실에 비치된 전시 활동지와 모바일을 활용한 웹콘텐츠로 관세 문화를 입체적으로 경험 할 수 있다. 관세 문화를 더 깊이 체험하고자 할 때에는 별도 전화 예약을 통해 박물관 교육에 참여 가능하다. 관세박물관을 통해 세관의 역사를 재조명하고 관세 주권과 국익을 지켜온 관세인의 노고를 기억함으로써 국민들에게 세관에 대한 이해를 높이는 한편, 더 발전된 미래로 나아가기 위한 교훈의 장으로 삼고자 하는 취지를 가지고 있다.",
+      "bm25_document": "",
+      "best_span_id": null,
+      "best_span_text": null,
+      "fusion_score": 0.016129032258064516,
+      "retrieved_by": [
+        "vector"
+      ],
+      "fusion_rank": 4,
+      "rerank_score": null,
+      "rank": 4,
+      "score": 0.016129032258064516,
+      "score_type": "rrf",
+      "distance": 0.44154560565948486,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector"
+      ],
+      "retriever": "vector",
+      "source_doc_ids": [
+        "DOC-B0525-TOUR_API-130924"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0525-TOUR_API-130924",
+          "source_type": "TOUR_API",
+          "source_record_id": "130924",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=259",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 71,
+          "doc_ids": [
+            "DOC-B0525-TOUR_API-130924"
+          ]
+        },
+        {
+          "start": 72,
+          "end": 168,
+          "doc_ids": [
+            "DOC-B0525-TOUR_API-130924"
+          ]
+        },
+        {
+          "start": 169,
+          "end": 238,
+          "doc_ids": [
+            "DOC-B0525-TOUR_API-130924"
+          ]
+        },
+        {
+          "start": 239,
+          "end": 292,
+          "doc_ids": [
+            "DOC-B0525-TOUR_API-130924"
+          ]
+        },
+        {
+          "start": 293,
+          "end": 417,
+          "doc_ids": [
+            "DOC-B0525-TOUR_API-130924"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=259",
+      "text": "국립관세박물관은 강남구에 위치한 국립박물관으로, 개항기부터 현대까지 한국 경제사와 함께한 관세 문화를 경험할 수 있는 공간이다. 박물관은 총 3개 주제관인 관세역사관, 관세행정관, 관세외교관이 있으며, 핸즈온 전시 공간인 공항 체험과 해외직구시 사용하는 유니패스존에서는 인터렉티브 체험을 할 수 있다. 또한 박물관 관람 시에는 전시실에 비치된 전시 활동지와 모바일을 활용한 웹콘텐츠로 관세 문화를 입체적으로 경험 할 수 있다. 관세 문화를 더 깊이 체험하고자 할 때에는 별도 전화 예약을 통해 박물관 교육에 참여 가능하다. 관세박물관을 통해 세관의 역사를 재조명하고 관세 주권과 국익을 지켜온 관세인의 노고를 기억함으로써 국민들에게 세관에 대한 이해를 높이는 한편, 더 발전된 미래로 나아가기 위한 교훈의 장으로 삼고자 하는 취지를 가지고 있다.",
+      "sido": "서울특별시",
+      "sigungu": "강남구",
+      "span_id": "",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=259"
+      ],
+      "evidence_id": "E4",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=368",
+        "fields": {
+          "name": "국립관세박물관",
+          "sido": "서울특별시",
+          "sigungu": "강남구",
+          "address": "서울특별시 강남구 언주로 721",
+          "ownership_type": "국립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "10:00",
+          "weekday_close": "18:00",
+          "holiday_open": "00:00",
+          "holiday_close": "00:00",
+          "closure_rule_raw": "주말 및 공휴일"
+        },
+        "base_data_date": "2026-04-08",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0242",
+      "name": "수도박물관",
+      "document": "수도박물관이 있는 이곳 뚝섬 지역에 우리나라 최초 정수장인 뚝도수원지 제1정수장이 들어섰다. 1903년 12월 9일 미국 기업인 콜브란(C.H.Collbran)과 보스트위크(H.R.Bostwick)는 고종황제로부터 상수도 시설과 경영에 관한 특허권을 받았다. 이후 1905년 8월 특허권을 양도받은 대한수도회사(Korean Water Works Co.)는 1906년 8월 초 공사를 시작하여 1908년 8월 뚝도수원지 제1정수장을 완성했다. 1908년 9월 1일부터 완속 여과 방식으로 생산한 12,500㎥의 수돗물을 사대문 안과 용산 일대의 주민 125,000명에게 공급했던 것이 우리나라 근대 상수도 역사의 첫출발이었다. 뚝도수원지 일부는 고도정수처리 시설을 완비한 뚝도아리수정수센터로 변화하여 지금도 24시간 수돗물을 생산 및 공급하고 있으며, 일부는 수도박물관으로 조성되어 체험학습의 장으로 이용되고 있다. 수도박물관은 1908년 최초의 정수장이 세워진 이후부터 현재까지 깨끗하고 안전하게 공급되고 있는 서울시 수돗물에 대한 많은 이야기들을 소개하고 있다. 상수도 관련 기술이 어떻게 성장하고 발전되어 왔는지를 전달하고, 물과 환경을 주제로 한 다양한 체험학습 프로그램을 함께 운영하고 있다.",
+      "metadata": {
+        "ownership_type": "공립",
+        "weekday_close": "18:00",
+        "requires_manual_review": true,
+        "name": "수도박물관",
+        "address": "서울특별시 성동구 왕십리로27",
+        "image_url": "http://tong.visitkorea.or.kr/cms/resource/76/3309176_image2_1.jpg",
+        "longitude": 127.042263,
+        "sigungu": "성동구",
+        "latitude": 37.53982701,
+        "homepage_url": "http://arisumuseum.seoul.go.kr/main/main.jsp",
+        "child_fee": 0.0,
+        "sido": "서울특별시",
+        "youth_fee": 0.0,
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "image_copyright": "Type3",
+        "holiday_close": "18:00",
+        "closure_rule_raw": "월+1월1일+설날당일+추석당일",
+        "weekday_open": "09:00",
+        "adult_fee": 0.0,
+        "holiday_open": "09:00",
+        "source_types": "TOUR_API"
+      },
+      "vector_rank": null,
+      "bm25_rank": 2,
+      "vector_distance": null,
+      "vector_score": null,
+      "bm25_score": 10.942649722287932,
+      "vector_document": "",
+      "bm25_document": "수도박물관이 있는 이곳 뚝섬 지역에 우리나라 최초 정수장인 뚝도수원지 제1정수장이 들어섰다. 1903년 12월 9일 미국 기업인 콜브란(C.H.Collbran)과 보스트위크(H.R.Bostwick)는 고종황제로부터 상수도 시설과 경영에 관한 특허권을 받았다. 이후 1905년 8월 특허권을 양도받은 대한수도회사(Korean Water Works Co.)는 1906년 8월 초 공사를 시작하여 1908년 8월 뚝도수원지 제1정수장을 완성했다. 1908년 9월 1일부터 완속 여과 방식으로 생산한 12,500㎥의 수돗물을 사대문 안과 용산 일대의 주민 125,000명에게 공급했던 것이 우리나라 근대 상수도 역사의 첫출발이었다. 뚝도수원지 일부는 고도정수처리 시설을 완비한 뚝도아리수정수센터로 변화하여 지금도 24시간 수돗물을 생산 및 공급하고 있으며, 일부는 수도박물관으로 조성되어 체험학습의 장으로 이용되고 있다. 수도박물관은 1908년 최초의 정수장이 세워진 이후부터 현재까지 깨끗하고 안전하게 공급되고 있는 서울시 수돗물에 대한 많은 이야기들을 소개하고 있다. 상수도 관련 기술이 어떻게 성장하고 발전되어 왔는지를 전달하고, 물과 환경을 주제로 한 다양한 체험학습 프로그램을 함께 운영하고 있다.",
+      "best_span_id": "chroma:M0242",
+      "best_span_text": "수도박물관이 있는 이곳 뚝섬 지역에 우리나라 최초 정수장인 뚝도수원지 제1정수장이 들어섰다. 1903년 12월 9일 미국 기업인 콜브란(C.H.Collbran)과 보스트위크(H.R.Bostwick)는 고종황제로부터 상수도 시설과 경영에 관한 특허권을 받았다. 이후 1905년 8월 특허권을 양도받은 대한수도회사(Korean Water Works Co.)는 1906년 8월 초 공사를 시작하여 1908년 8월 뚝도수원지 제1정수장을 완성했다. 1908년 9월 1일부터 완속 여과 방식으로 생산한 12,500㎥의 수돗물을 사대문 안과 용산 일대의 주민 125,000명에게 공급했던 것이 우리나라 근대 상수도 역사의 첫출발이었다. 뚝도수원지 일부는 고도정수처리 시설을 완비한 뚝도아리수정수센터로 변화하여 지금도 24시간 수돗물을 생산 및 공급하고 있으며, 일부는 수도박물관으로 조성되어 체험학습의 장으로 이용되고 있다. 수도박물관은 1908년 최초의 정수장이 세워진 이후부터 현재까지 깨끗하고 안전하게 공급되고 있는 서울시 수돗물에 대한 많은 이야기들을 소개하고 있다. 상수도 관련 기술이 어떻게 성장하고 발전되어 왔는지를 전달하고, 물과 환경을 주제로 한 다양한 체험학습 프로그램을 함께 운영하고 있다.",
+      "fusion_score": 0.016129032258064516,
+      "retrieved_by": [
+        "bm25"
+      ],
+      "fusion_rank": 5,
+      "rerank_score": null,
+      "rank": 5,
+      "score": 0.016129032258064516,
+      "score_type": "rrf",
+      "distance": null,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "bm25"
+      ],
+      "retriever": "bm25",
+      "span_id": "chroma:M0242",
+      "source_doc_ids": [
+        "DOC-B0242-TOUR_API-2453996"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0242-TOUR_API-2453996",
+          "source_type": "TOUR_API",
+          "source_record_id": "2453996",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=119",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 51,
+          "doc_ids": [
+            "DOC-B0242-TOUR_API-2453996"
+          ]
+        },
+        {
+          "start": 52,
+          "end": 144,
+          "doc_ids": [
+            "DOC-B0242-TOUR_API-2453996"
+          ]
+        },
+        {
+          "start": 145,
+          "end": 246,
+          "doc_ids": [
+            "DOC-B0242-TOUR_API-2453996"
+          ]
+        },
+        {
+          "start": 247,
+          "end": 349,
+          "doc_ids": [
+            "DOC-B0242-TOUR_API-2453996"
+          ]
+        },
+        {
+          "start": 350,
+          "end": 455,
+          "doc_ids": [
+            "DOC-B0242-TOUR_API-2453996"
+          ]
+        },
+        {
+          "start": 456,
+          "end": 539,
+          "doc_ids": [
+            "DOC-B0242-TOUR_API-2453996"
+          ]
+        },
+        {
+          "start": 540,
+          "end": 615,
+          "doc_ids": [
+            "DOC-B0242-TOUR_API-2453996"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=119",
+      "text": "수도박물관이 있는 이곳 뚝섬 지역에 우리나라 최초 정수장인 뚝도수원지 제1정수장이 들어섰다. 1903년 12월 9일 미국 기업인 콜브란(C.H.Collbran)과 보스트위크(H.R.Bostwick)는 고종황제로부터 상수도 시설과 경영에 관한 특허권을 받았다. 이후 1905년 8월 특허권을 양도받은 대한수도회사(Korean Water Works Co.)는 1906년 8월 초 공사를 시작하여 1908년 8월 뚝도수원지 제1정수장을 완성했다. 1908년 9월 1일부터 완속 여과 방식으로 생산한 12,500㎥의 수돗물을 사대문 안과 용산 일대의 주민 125,000명에게 공급했던 것이 우리나라 근대 상수도 역사의 첫출발이었다. 뚝도수원지 일부는 고도정수처리 시설을 완비한 뚝도아리수정수센터로 변화하여 지금도 24시간 수돗물을 생산 및 공급하고 있으며, 일부는 수도박물관으로 조성되어 체험학습의 장으로 이용되고 있다. 수도박물관은 1908년 최초의 정수장이 세워진 이후부터 현재까지 깨끗하고 안전하게 공급되고 있는 서울시 수돗물에 대한 많은 이야기들을 소개하고 있다. 상수도 관련 기술이 어떻게 성장하고 발전되어 왔는지를 전달하고, 물과 환경을 주제로 한 다양한 체험학습 프로그램을 함께 운영하고 있다.",
+      "sido": "서울특별시",
+      "sigungu": "성동구",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=119"
+      ],
+      "evidence_id": "E5",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=170",
+        "fields": {
+          "name": "수도박물관",
+          "sido": "서울특별시",
+          "sigungu": "성동구",
+          "address": "서울특별시 성동구 왕십리로27",
+          "ownership_type": "공립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "09:00",
+          "weekday_close": "18:00",
+          "holiday_open": "09:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "월+1월1일+설날당일+추석당일"
+        },
+        "base_data_date": "2026-09-03",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    }
+  ],
+  "answer": "국립농업박물관에는 농업의 여러 모습을 직접 체험할 수 있는 실내외 농업 체험장과 야외 농업 체험장, 어린이박물관, 식물원, 곤충관이 있습니다. [E1] 상설·기획 전시를 통해 농업을 살펴볼 수 있고, 농업·농촌의 가치를 직접 느끼고 배울 수 있는 교육 프로그램도 운영합니다. [E1]",
+  "retrieval_status": "ok",
+  "answer_status": "answered",
+  "route": "hybrid",
+  "retry_count": 0,
+  "supervisor_verified": true,
+  "rerank_applied": false,
+  "retriever_errors": [],
+  "warnings": [
+    "Cross-Encoder reranking failed (FileNotFoundError); RRF order retained"
+  ],
+  "duration_ms": 11172.47,
+  "error_type": "",
+  "hit_at_1": 1,
+  "hit_at_3": 1,
+  "hit_at_5": 1,
+  "recall_at_5": 1.0,
+  "mrr_at_10": 1.0
+}

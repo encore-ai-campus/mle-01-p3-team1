@@ -1,0 +1,496 @@
+{
+  "question_id": "V2-SW05",
+  "response": {
+    "tool": "museum_hybrid_retrieve",
+    "status": "partial",
+    "query": "월요일에도 여는 대전 박물관 중 카페 있는 곳",
+    "results": [
+      {
+        "museum_id": "M1069",
+        "name": "옛터민속박물관",
+        "document": "옛터민속박물관은 2001년에 개관하여서 2006년에 대전 제4호 박물관으로 등록된 민속전문박물관이다. 생활사 전반의 민속유물을 체계적으로 수집·보존·연구·전시·교육하는 기관으로서 점차 소멸되어 가는 전통문화를 재조명하여 대전지역 문화 예술발전에 이바지하기 위해 노력하고 있다. 전시실은 연중무휴로 운영되며, 야외전시장에는 동자석, 돌절구, 다듬잇돌, 맷돌 등을 전시해 아이들의 학습장 역할을 하며, 체험교실을 운영하고 있다. 기타편의시설 '마당에모닥불 하늘엔둥근달' 에서는 전통차, 전통한식, 양식을 한옥의 멋과 함께 즐길 수 있다. - 옛터민속박물관은 생활사 전반의 민속유물을 수집·보존·연구·전시·교육하는 기관으로 점차 소멸되어 가는 전통문화를 재조명하고 대중에게 소개하기 위해 운영하고 있는 박물관이다. - 연1~2회 특별전을 개최하여 다양한 민속유물을 공개하고 있으며 다양한 강좌·체험 프로그램을 운영하고 있다.",
+        "metadata": {
+          "youth_fee": 0.0,
+          "name": "옛터민속박물관",
+          "latitude": 36.215141,
+          "ownership_type": "사립",
+          "sigungu": "동구",
+          "longitude": 127.4408438,
+          "weekday_close": "17:30",
+          "requires_manual_review": true,
+          "holiday_open": "10:00",
+          "child_fee": 0.0,
+          "sido": "대전광역시",
+          "weekday_open": "10:00",
+          "image_copyright": "Type3",
+          "address": "대전광역시 동구 산내로 321-35",
+          "homepage_url": "https://www.yetermuseum.com",
+          "holiday_close": "17:30",
+          "amenities_raw": "식당 및 카페",
+          "image_url": "https://tong.visitkorea.or.kr/cms/resource/02/3524002_image2_1.jpg",
+          "transport_notes": "- 버스 : 501",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "adult_fee": 0.0,
+          "closure_rule_raw": "연중무휴",
+          "source_types": "BASE|TOUR_API",
+          "fee_notes": "무료",
+          "structured_match": "편의시설 '카페': CSV amenities_raw의 '식당 및 카페' 항목; 월요일 개관: CSV closure_rule_raw가 연중무휴 (온톨로지 필터가 metadata_provenance.fields의 같은 CSV 값으로 판정한 정적 기록이며 실시간 상태가 아님)"
+        },
+        "vector_rank": 1,
+        "bm25_rank": 1,
+        "vector_distance": 0.6186908483505249,
+        "vector_score": null,
+        "bm25_score": 10.354312900385512,
+        "vector_document": "옛터민속박물관은 2001년에 개관하여서 2006년에 대전 제4호 박물관으로 등록된 민속전문박물관이다. 생활사 전반의 민속유물을 체계적으로 수집·보존·연구·전시·교육하는 기관으로서 점차 소멸되어 가는 전통문화를 재조명하여 대전지역 문화 예술발전에 이바지하기 위해 노력하고 있다. 전시실은 연중무휴로 운영되며, 야외전시장에는 동자석, 돌절구, 다듬잇돌, 맷돌 등을 전시해 아이들의 학습장 역할을 하며, 체험교실을 운영하고 있다. 기타편의시설 '마당에모닥불 하늘엔둥근달' 에서는 전통차, 전통한식, 양식을 한옥의 멋과 함께 즐길 수 있다. - 옛터민속박물관은 생활사 전반의 민속유물을 수집·보존·연구·전시·교육하는 기관으로 점차 소멸되어 가는 전통문화를 재조명하고 대중에게 소개하기 위해 운영하고 있는 박물관이다. - 연1~2회 특별전을 개최하여 다양한 민속유물을 공개하고 있으며 다양한 강좌·체험 프로그램을 운영하고 있다.",
+        "bm25_document": "옛터민속박물관은 2001년에 개관하여서 2006년에 대전 제4호 박물관으로 등록된 민속전문박물관이다. 생활사 전반의 민속유물을 체계적으로 수집·보존·연구·전시·교육하는 기관으로서 점차 소멸되어 가는 전통문화를 재조명하여 대전지역 문화 예술발전에 이바지하기 위해 노력하고 있다. 전시실은 연중무휴로 운영되며, 야외전시장에는 동자석, 돌절구, 다듬잇돌, 맷돌 등을 전시해 아이들의 학습장 역할을 하며, 체험교실을 운영하고 있다. 기타편의시설 '마당에모닥불 하늘엔둥근달' 에서는 전통차, 전통한식, 양식을 한옥의 멋과 함께 즐길 수 있다. - 옛터민속박물관은 생활사 전반의 민속유물을 수집·보존·연구·전시·교육하는 기관으로 점차 소멸되어 가는 전통문화를 재조명하고 대중에게 소개하기 위해 운영하고 있는 박물관이다. - 연1~2회 특별전을 개최하여 다양한 민속유물을 공개하고 있으며 다양한 강좌·체험 프로그램을 운영하고 있다.",
+        "best_span_id": "chroma:M1069",
+        "best_span_text": "옛터민속박물관은 2001년에 개관하여서 2006년에 대전 제4호 박물관으로 등록된 민속전문박물관이다. 생활사 전반의 민속유물을 체계적으로 수집·보존·연구·전시·교육하는 기관으로서 점차 소멸되어 가는 전통문화를 재조명하여 대전지역 문화 예술발전에 이바지하기 위해 노력하고 있다. 전시실은 연중무휴로 운영되며, 야외전시장에는 동자석, 돌절구, 다듬잇돌, 맷돌 등을 전시해 아이들의 학습장 역할을 하며, 체험교실을 운영하고 있다. 기타편의시설 '마당에모닥불 하늘엔둥근달' 에서는 전통차, 전통한식, 양식을 한옥의 멋과 함께 즐길 수 있다. - 옛터민속박물관은 생활사 전반의 민속유물을 수집·보존·연구·전시·교육하는 기관으로 점차 소멸되어 가는 전통문화를 재조명하고 대중에게 소개하기 위해 운영하고 있는 박물관이다. - 연1~2회 특별전을 개최하여 다양한 민속유물을 공개하고 있으며 다양한 강좌·체험 프로그램을 운영하고 있다.",
+        "fusion_score": 0.03278688524590164,
+        "retrieved_by": [
+          "vector",
+          "bm25"
+        ],
+        "fusion_rank": 1,
+        "rerank_score": null,
+        "rank": 1,
+        "score": 0.03278688524590164,
+        "score_type": "rrf",
+        "distance": 0.6186908483505249,
+        "relevance": null,
+        "relevance_reason": null
+      },
+      {
+        "museum_id": "M1064",
+        "name": "옛터박물관",
+        "document": "옛터민속박물관은 2001년 3월개관하여 토기+도자기+서지류+장신구 등 민속유물 5만여점을 소장하고 있으며, 현재 3백 여점을 전시하고 있음",
+        "metadata": {
+          "sigungu": "동구",
+          "holiday_open": "10:00",
+          "requires_manual_review": false,
+          "source_types": "BASE",
+          "ownership_type": "사립",
+          "longitude": 127.4408443,
+          "name": "옛터박물관",
+          "weekday_close": "22:00",
+          "youth_fee": 0.0,
+          "adult_fee": 0.0,
+          "amenities_raw": "한식당+통찻집",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "latitude": 36.21510494,
+          "holiday_close": "22:00",
+          "weekday_open": "10:00",
+          "sido": "대전광역시",
+          "child_fee": 0.0,
+          "closure_rule_raw": "연중무휴",
+          "homepage_url": "https://www.yetermuseum.com",
+          "transport_notes": "대중교통:501번 대전시립 제2노인병원승강장+고속도로 남대전IC에서 금산방면 10분 소요",
+          "address": "대전광역시 동구 산내로 321-35(하소동",
+          "structured_match": "편의시설 '카페': CSV amenities_raw의 '통찻집' 항목; 월요일 개관: CSV closure_rule_raw가 연중무휴 (온톨로지 필터가 metadata_provenance.fields의 같은 CSV 값으로 판정한 정적 기록이며 실시간 상태가 아님)"
+        },
+        "vector_rank": 2,
+        "bm25_rank": 2,
+        "vector_distance": 0.6506322622299194,
+        "vector_score": null,
+        "bm25_score": 4.667057068370468,
+        "vector_document": "옛터민속박물관은 2001년 3월개관하여 토기+도자기+서지류+장신구 등 민속유물 5만여점을 소장하고 있으며, 현재 3백 여점을 전시하고 있음",
+        "bm25_document": "옛터민속박물관은 2001년 3월개관하여 토기+도자기+서지류+장신구 등 민속유물 5만여점을 소장하고 있으며, 현재 3백 여점을 전시하고 있음",
+        "best_span_id": "chroma:M1064",
+        "best_span_text": "옛터민속박물관은 2001년 3월개관하여 토기+도자기+서지류+장신구 등 민속유물 5만여점을 소장하고 있으며, 현재 3백 여점을 전시하고 있음",
+        "fusion_score": 0.03225806451612903,
+        "retrieved_by": [
+          "vector",
+          "bm25"
+        ],
+        "fusion_rank": 2,
+        "rerank_score": null,
+        "rank": 2,
+        "score": 0.03225806451612903,
+        "score_type": "rrf",
+        "distance": 0.6506322622299194,
+        "relevance": null,
+        "relevance_reason": null
+      }
+    ],
+    "source_ids": [
+      "M1069",
+      "M1064"
+    ],
+    "warnings": [
+      "Cross-Encoder reranking failed (FileNotFoundError); RRF order retained",
+      "Only 2 candidates available; no artificial padding"
+    ],
+    "unsupported_constraints": [],
+    "search_summary": {
+      "mode": "hybrid",
+      "filters": {},
+      "candidate_count": 2,
+      "requested_candidate_k": 20,
+      "returned_count": 2,
+      "reranked": false,
+      "vector_returned": 2,
+      "bm25_returned": 2,
+      "fused_returned": 2,
+      "final_returned": 2,
+      "rerank_requested": true,
+      "rerank_applied": false,
+      "rerank_failed": true,
+      "fusion_method": "weighted_rrf",
+      "config": {
+        "vector_top_k": 20,
+        "bm25_top_k": 20,
+        "fusion_top_k": 20,
+        "final_top_k": 10,
+        "rrf_k": 60,
+        "vector_weight": 1.0,
+        "bm25_weight": 1.0,
+        "reranker_model": "BAAI/bge-reranker-v2-m3",
+        "reranker_local_dir": null,
+        "reranker_revision": null,
+        "reranker_batch_size": 8,
+        "reranker_max_chars": 2000,
+        "rerank_failure_policy": "rrf_fallback",
+        "rerank_min_confidence": 0.1,
+        "retriever_failure_policy": "raise",
+        "parallel_retrieval": true
+      },
+      "metadata_filters": {},
+      "retriever_errors": [],
+      "requested_final_top_k": 5,
+      "expanded_query": "월요일에도 여는 대전 박물관 중 카페 있는 곳",
+      "query_mode": "vector",
+      "analysis_status": "disabled",
+      "unsupported_constraints": [],
+      "ontology_filter": {
+        "status": "applied",
+        "backend": "local_csv",
+        "conditions": {
+          "amenities": [
+            "카페"
+          ],
+          "open_weekdays": [
+            "월"
+          ],
+          "sido": "대전광역시",
+          "matched_terms": [
+            "카페 있",
+            "월요일에도 여는"
+          ]
+        },
+        "candidate_count": 2
+      },
+      "name_match": {
+        "status": "not_applicable",
+        "names": [],
+        "promoted": [],
+        "injected": [],
+        "unavailable": []
+      },
+      "rerank_low_confidence": false,
+      "rerank_best_score": null,
+      "stages": [
+        {
+          "stage": "ontology_filter",
+          "duration_ms": 0.85,
+          "status": "applied",
+          "backend": "local_csv",
+          "conditions": {
+            "amenities": [
+              "카페"
+            ],
+            "open_weekdays": [
+              "월"
+            ],
+            "sido": "대전광역시",
+            "matched_terms": [
+              "카페 있",
+              "월요일에도 여는"
+            ]
+          },
+          "candidate_count": 2
+        },
+        {
+          "stage": "query_analysis",
+          "status": "disabled",
+          "duration_ms": 0.05,
+          "filters": {},
+          "expanded_query": "월요일에도 여는 대전 박물관 중 카페 있는 곳",
+          "mode": "vector",
+          "model": "disabled"
+        },
+        {
+          "stage": "vector_retrieval",
+          "status": "ok",
+          "duration_ms": 119.38,
+          "requested": 20,
+          "returned": 2
+        },
+        {
+          "stage": "bm25_retrieval",
+          "status": "ok",
+          "duration_ms": 6.4,
+          "requested": 20,
+          "returned": 2
+        },
+        {
+          "stage": "rrf_fusion",
+          "status": "ok",
+          "duration_ms": 0.05,
+          "requested": 20,
+          "returned": 2
+        },
+        {
+          "stage": "name_match",
+          "duration_ms": 0.07,
+          "status": "not_applicable",
+          "names": [],
+          "promoted": [],
+          "injected": [],
+          "unavailable": []
+        },
+        {
+          "stage": "cross_encoder_rerank",
+          "status": "failed_fallback",
+          "duration_ms": 0.1,
+          "requested": 2,
+          "returned": 2,
+          "best_score": null,
+          "min_confidence": 0.1
+        },
+        {
+          "stage": "final_selection",
+          "status": "ok",
+          "requested": 5,
+          "returned": 2
+        }
+      ],
+      "total_duration_ms": 121.64
+    },
+    "fusion_candidates": [
+      {
+        "museum_id": "M1069",
+        "name": "옛터민속박물관",
+        "document": "옛터민속박물관은 2001년에 개관하여서 2006년에 대전 제4호 박물관으로 등록된 민속전문박물관이다. 생활사 전반의 민속유물을 체계적으로 수집·보존·연구·전시·교육하는 기관으로서 점차 소멸되어 가는 전통문화를 재조명하여 대전지역 문화 예술발전에 이바지하기 위해 노력하고 있다. 전시실은 연중무휴로 운영되며, 야외전시장에는 동자석, 돌절구, 다듬잇돌, 맷돌 등을 전시해 아이들의 학습장 역할을 하며, 체험교실을 운영하고 있다. 기타편의시설 '마당에모닥불 하늘엔둥근달' 에서는 전통차, 전통한식, 양식을 한옥의 멋과 함께 즐길 수 있다. - 옛터민속박물관은 생활사 전반의 민속유물을 수집·보존·연구·전시·교육하는 기관으로 점차 소멸되어 가는 전통문화를 재조명하고 대중에게 소개하기 위해 운영하고 있는 박물관이다. - 연1~2회 특별전을 개최하여 다양한 민속유물을 공개하고 있으며 다양한 강좌·체험 프로그램을 운영하고 있다.",
+        "metadata": {
+          "youth_fee": 0.0,
+          "name": "옛터민속박물관",
+          "latitude": 36.215141,
+          "ownership_type": "사립",
+          "sigungu": "동구",
+          "longitude": 127.4408438,
+          "weekday_close": "17:30",
+          "requires_manual_review": true,
+          "holiday_open": "10:00",
+          "child_fee": 0.0,
+          "sido": "대전광역시",
+          "weekday_open": "10:00",
+          "image_copyright": "Type3",
+          "address": "대전광역시 동구 산내로 321-35",
+          "homepage_url": "https://www.yetermuseum.com",
+          "holiday_close": "17:30",
+          "amenities_raw": "식당 및 카페",
+          "image_url": "https://tong.visitkorea.or.kr/cms/resource/02/3524002_image2_1.jpg",
+          "transport_notes": "- 버스 : 501",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "adult_fee": 0.0,
+          "closure_rule_raw": "연중무휴",
+          "source_types": "BASE|TOUR_API",
+          "fee_notes": "무료"
+        },
+        "vector_rank": 1,
+        "bm25_rank": 1,
+        "vector_distance": 0.6186908483505249,
+        "vector_score": null,
+        "bm25_score": 10.354312900385512,
+        "vector_document": "옛터민속박물관은 2001년에 개관하여서 2006년에 대전 제4호 박물관으로 등록된 민속전문박물관이다. 생활사 전반의 민속유물을 체계적으로 수집·보존·연구·전시·교육하는 기관으로서 점차 소멸되어 가는 전통문화를 재조명하여 대전지역 문화 예술발전에 이바지하기 위해 노력하고 있다. 전시실은 연중무휴로 운영되며, 야외전시장에는 동자석, 돌절구, 다듬잇돌, 맷돌 등을 전시해 아이들의 학습장 역할을 하며, 체험교실을 운영하고 있다. 기타편의시설 '마당에모닥불 하늘엔둥근달' 에서는 전통차, 전통한식, 양식을 한옥의 멋과 함께 즐길 수 있다. - 옛터민속박물관은 생활사 전반의 민속유물을 수집·보존·연구·전시·교육하는 기관으로 점차 소멸되어 가는 전통문화를 재조명하고 대중에게 소개하기 위해 운영하고 있는 박물관이다. - 연1~2회 특별전을 개최하여 다양한 민속유물을 공개하고 있으며 다양한 강좌·체험 프로그램을 운영하고 있다.",
+        "bm25_document": "옛터민속박물관은 2001년에 개관하여서 2006년에 대전 제4호 박물관으로 등록된 민속전문박물관이다. 생활사 전반의 민속유물을 체계적으로 수집·보존·연구·전시·교육하는 기관으로서 점차 소멸되어 가는 전통문화를 재조명하여 대전지역 문화 예술발전에 이바지하기 위해 노력하고 있다. 전시실은 연중무휴로 운영되며, 야외전시장에는 동자석, 돌절구, 다듬잇돌, 맷돌 등을 전시해 아이들의 학습장 역할을 하며, 체험교실을 운영하고 있다. 기타편의시설 '마당에모닥불 하늘엔둥근달' 에서는 전통차, 전통한식, 양식을 한옥의 멋과 함께 즐길 수 있다. - 옛터민속박물관은 생활사 전반의 민속유물을 수집·보존·연구·전시·교육하는 기관으로 점차 소멸되어 가는 전통문화를 재조명하고 대중에게 소개하기 위해 운영하고 있는 박물관이다. - 연1~2회 특별전을 개최하여 다양한 민속유물을 공개하고 있으며 다양한 강좌·체험 프로그램을 운영하고 있다.",
+        "best_span_id": "chroma:M1069",
+        "best_span_text": "옛터민속박물관은 2001년에 개관하여서 2006년에 대전 제4호 박물관으로 등록된 민속전문박물관이다. 생활사 전반의 민속유물을 체계적으로 수집·보존·연구·전시·교육하는 기관으로서 점차 소멸되어 가는 전통문화를 재조명하여 대전지역 문화 예술발전에 이바지하기 위해 노력하고 있다. 전시실은 연중무휴로 운영되며, 야외전시장에는 동자석, 돌절구, 다듬잇돌, 맷돌 등을 전시해 아이들의 학습장 역할을 하며, 체험교실을 운영하고 있다. 기타편의시설 '마당에모닥불 하늘엔둥근달' 에서는 전통차, 전통한식, 양식을 한옥의 멋과 함께 즐길 수 있다. - 옛터민속박물관은 생활사 전반의 민속유물을 수집·보존·연구·전시·교육하는 기관으로 점차 소멸되어 가는 전통문화를 재조명하고 대중에게 소개하기 위해 운영하고 있는 박물관이다. - 연1~2회 특별전을 개최하여 다양한 민속유물을 공개하고 있으며 다양한 강좌·체험 프로그램을 운영하고 있다.",
+        "fusion_score": 0.03278688524590164,
+        "retrieved_by": [
+          "vector",
+          "bm25"
+        ],
+        "fusion_rank": 1
+      },
+      {
+        "museum_id": "M1064",
+        "name": "옛터박물관",
+        "document": "옛터민속박물관은 2001년 3월개관하여 토기+도자기+서지류+장신구 등 민속유물 5만여점을 소장하고 있으며, 현재 3백 여점을 전시하고 있음",
+        "metadata": {
+          "sigungu": "동구",
+          "holiday_open": "10:00",
+          "requires_manual_review": false,
+          "source_types": "BASE",
+          "ownership_type": "사립",
+          "longitude": 127.4408443,
+          "name": "옛터박물관",
+          "weekday_close": "22:00",
+          "youth_fee": 0.0,
+          "adult_fee": 0.0,
+          "amenities_raw": "한식당+통찻집",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "latitude": 36.21510494,
+          "holiday_close": "22:00",
+          "weekday_open": "10:00",
+          "sido": "대전광역시",
+          "child_fee": 0.0,
+          "closure_rule_raw": "연중무휴",
+          "homepage_url": "https://www.yetermuseum.com",
+          "transport_notes": "대중교통:501번 대전시립 제2노인병원승강장+고속도로 남대전IC에서 금산방면 10분 소요",
+          "address": "대전광역시 동구 산내로 321-35(하소동"
+        },
+        "vector_rank": 2,
+        "bm25_rank": 2,
+        "vector_distance": 0.6506322622299194,
+        "vector_score": null,
+        "bm25_score": 4.667057068370468,
+        "vector_document": "옛터민속박물관은 2001년 3월개관하여 토기+도자기+서지류+장신구 등 민속유물 5만여점을 소장하고 있으며, 현재 3백 여점을 전시하고 있음",
+        "bm25_document": "옛터민속박물관은 2001년 3월개관하여 토기+도자기+서지류+장신구 등 민속유물 5만여점을 소장하고 있으며, 현재 3백 여점을 전시하고 있음",
+        "best_span_id": "chroma:M1064",
+        "best_span_text": "옛터민속박물관은 2001년 3월개관하여 토기+도자기+서지류+장신구 등 민속유물 5만여점을 소장하고 있으며, 현재 3백 여점을 전시하고 있음",
+        "fusion_score": 0.03225806451612903,
+        "retrieved_by": [
+          "vector",
+          "bm25"
+        ],
+        "fusion_rank": 2
+      }
+    ],
+    "retrieval_candidates_full": {
+      "vector": [
+        {
+          "museum_id": "M1069",
+          "document": "옛터민속박물관은 2001년에 개관하여서 2006년에 대전 제4호 박물관으로 등록된 민속전문박물관이다. 생활사 전반의 민속유물을 체계적으로 수집·보존·연구·전시·교육하는 기관으로서 점차 소멸되어 가는 전통문화를 재조명하여 대전지역 문화 예술발전에 이바지하기 위해 노력하고 있다. 전시실은 연중무휴로 운영되며, 야외전시장에는 동자석, 돌절구, 다듬잇돌, 맷돌 등을 전시해 아이들의 학습장 역할을 하며, 체험교실을 운영하고 있다. 기타편의시설 '마당에모닥불 하늘엔둥근달' 에서는 전통차, 전통한식, 양식을 한옥의 멋과 함께 즐길 수 있다. - 옛터민속박물관은 생활사 전반의 민속유물을 수집·보존·연구·전시·교육하는 기관으로 점차 소멸되어 가는 전통문화를 재조명하고 대중에게 소개하기 위해 운영하고 있는 박물관이다. - 연1~2회 특별전을 개최하여 다양한 민속유물을 공개하고 있으며 다양한 강좌·체험 프로그램을 운영하고 있다.",
+          "metadata": {
+            "youth_fee": 0.0,
+            "name": "옛터민속박물관",
+            "latitude": 36.215141,
+            "ownership_type": "사립",
+            "sigungu": "동구",
+            "longitude": 127.4408438,
+            "weekday_close": "17:30",
+            "requires_manual_review": true,
+            "holiday_open": "10:00",
+            "child_fee": 0.0,
+            "sido": "대전광역시",
+            "weekday_open": "10:00",
+            "image_copyright": "Type3",
+            "address": "대전광역시 동구 산내로 321-35",
+            "homepage_url": "https://www.yetermuseum.com",
+            "holiday_close": "17:30",
+            "amenities_raw": "식당 및 카페",
+            "image_url": "https://tong.visitkorea.or.kr/cms/resource/02/3524002_image2_1.jpg",
+            "transport_notes": "- 버스 : 501",
+            "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+            "adult_fee": 0.0,
+            "closure_rule_raw": "연중무휴",
+            "source_types": "BASE|TOUR_API",
+            "fee_notes": "무료"
+          },
+          "distance": 0.6186908483505249
+        },
+        {
+          "museum_id": "M1064",
+          "document": "옛터민속박물관은 2001년 3월개관하여 토기+도자기+서지류+장신구 등 민속유물 5만여점을 소장하고 있으며, 현재 3백 여점을 전시하고 있음",
+          "metadata": {
+            "sigungu": "동구",
+            "holiday_open": "10:00",
+            "requires_manual_review": false,
+            "source_types": "BASE",
+            "ownership_type": "사립",
+            "longitude": 127.4408443,
+            "name": "옛터박물관",
+            "weekday_close": "22:00",
+            "youth_fee": 0.0,
+            "adult_fee": 0.0,
+            "amenities_raw": "한식당+통찻집",
+            "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+            "latitude": 36.21510494,
+            "holiday_close": "22:00",
+            "weekday_open": "10:00",
+            "sido": "대전광역시",
+            "child_fee": 0.0,
+            "closure_rule_raw": "연중무휴",
+            "homepage_url": "https://www.yetermuseum.com",
+            "transport_notes": "대중교통:501번 대전시립 제2노인병원승강장+고속도로 남대전IC에서 금산방면 10분 소요",
+            "address": "대전광역시 동구 산내로 321-35(하소동"
+          },
+          "distance": 0.6506322622299194
+        }
+      ],
+      "bm25": [
+        {
+          "museum_id": "M1069",
+          "name": "옛터민속박물관",
+          "document": "옛터민속박물관은 2001년에 개관하여서 2006년에 대전 제4호 박물관으로 등록된 민속전문박물관이다. 생활사 전반의 민속유물을 체계적으로 수집·보존·연구·전시·교육하는 기관으로서 점차 소멸되어 가는 전통문화를 재조명하여 대전지역 문화 예술발전에 이바지하기 위해 노력하고 있다. 전시실은 연중무휴로 운영되며, 야외전시장에는 동자석, 돌절구, 다듬잇돌, 맷돌 등을 전시해 아이들의 학습장 역할을 하며, 체험교실을 운영하고 있다. 기타편의시설 '마당에모닥불 하늘엔둥근달' 에서는 전통차, 전통한식, 양식을 한옥의 멋과 함께 즐길 수 있다. - 옛터민속박물관은 생활사 전반의 민속유물을 수집·보존·연구·전시·교육하는 기관으로 점차 소멸되어 가는 전통문화를 재조명하고 대중에게 소개하기 위해 운영하고 있는 박물관이다. - 연1~2회 특별전을 개최하여 다양한 민속유물을 공개하고 있으며 다양한 강좌·체험 프로그램을 운영하고 있다.",
+          "metadata": {
+            "homepage_url": "https://www.yetermuseum.com",
+            "holiday_close": "17:30",
+            "sigungu": "동구",
+            "weekday_open": "10:00",
+            "transport_notes": "- 버스 : 501",
+            "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+            "child_fee": 0.0,
+            "youth_fee": 0.0,
+            "amenities_raw": "식당 및 카페",
+            "ownership_type": "사립",
+            "adult_fee": 0.0,
+            "fee_notes": "무료",
+            "weekday_close": "17:30",
+            "holiday_open": "10:00",
+            "source_types": "BASE|TOUR_API",
+            "image_url": "https://tong.visitkorea.or.kr/cms/resource/02/3524002_image2_1.jpg",
+            "address": "대전광역시 동구 산내로 321-35",
+            "name": "옛터민속박물관",
+            "longitude": 127.4408438,
+            "sido": "대전광역시",
+            "latitude": 36.215141,
+            "image_copyright": "Type3",
+            "requires_manual_review": true,
+            "closure_rule_raw": "연중무휴"
+          },
+          "score": 10.354312900385512,
+          "rank": 1,
+          "retriever": "bm25",
+          "best_span_id": "chroma:M1069",
+          "best_span_text": "옛터민속박물관은 2001년에 개관하여서 2006년에 대전 제4호 박물관으로 등록된 민속전문박물관이다. 생활사 전반의 민속유물을 체계적으로 수집·보존·연구·전시·교육하는 기관으로서 점차 소멸되어 가는 전통문화를 재조명하여 대전지역 문화 예술발전에 이바지하기 위해 노력하고 있다. 전시실은 연중무휴로 운영되며, 야외전시장에는 동자석, 돌절구, 다듬잇돌, 맷돌 등을 전시해 아이들의 학습장 역할을 하며, 체험교실을 운영하고 있다. 기타편의시설 '마당에모닥불 하늘엔둥근달' 에서는 전통차, 전통한식, 양식을 한옥의 멋과 함께 즐길 수 있다. - 옛터민속박물관은 생활사 전반의 민속유물을 수집·보존·연구·전시·교육하는 기관으로 점차 소멸되어 가는 전통문화를 재조명하고 대중에게 소개하기 위해 운영하고 있는 박물관이다. - 연1~2회 특별전을 개최하여 다양한 민속유물을 공개하고 있으며 다양한 강좌·체험 프로그램을 운영하고 있다."
+        },
+        {
+          "museum_id": "M1064",
+          "name": "옛터박물관",
+          "document": "옛터민속박물관은 2001년 3월개관하여 토기+도자기+서지류+장신구 등 민속유물 5만여점을 소장하고 있으며, 현재 3백 여점을 전시하고 있음",
+          "metadata": {
+            "weekday_close": "22:00",
+            "name": "옛터박물관",
+            "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+            "source_types": "BASE",
+            "address": "대전광역시 동구 산내로 321-35(하소동",
+            "youth_fee": 0.0,
+            "ownership_type": "사립",
+            "amenities_raw": "한식당+통찻집",
+            "transport_notes": "대중교통:501번 대전시립 제2노인병원승강장+고속도로 남대전IC에서 금산방면 10분 소요",
+            "holiday_open": "10:00",
+            "sigungu": "동구",
+            "closure_rule_raw": "연중무휴",
+            "weekday_open": "10:00",
+            "requires_manual_review": false,
+            "child_fee": 0.0,
+            "latitude": 36.21510494,
+            "homepage_url": "https://www.yetermuseum.com",
+            "sido": "대전광역시",
+            "holiday_close": "22:00",
+            "adult_fee": 0.0,
+            "longitude": 127.4408443
+          },
+          "score": 4.667057068370468,
+          "rank": 2,
+          "retriever": "bm25",
+          "best_span_id": "chroma:M1064",
+          "best_span_text": "옛터민속박물관은 2001년 3월개관하여 토기+도자기+서지류+장신구 등 민속유물 5만여점을 소장하고 있으며, 현재 3백 여점을 전시하고 있음"
+        }
+      ]
+    }
+  },
+  "duration_ms": 121.67,
+  "error_type": ""
+}

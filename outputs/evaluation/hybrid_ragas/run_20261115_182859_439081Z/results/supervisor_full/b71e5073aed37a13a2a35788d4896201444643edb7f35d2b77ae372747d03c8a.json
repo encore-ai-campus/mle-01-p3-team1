@@ -1,0 +1,712 @@
+{
+  "evidence_context_version": "grounded-evidence-v2",
+  "evaluation_contexts": [
+    "{\"evidence_context_version\": \"grounded-evidence-v2\", \"evidence_id\": \"E1\", \"metadata_provenance\": {\"base_data_date\": \"2026-04-08\", \"fields\": {\"address\": \"서울특별시 강서구 하늘길 177\", \"adult_fee\": \"0\", \"adult_fee_status\": \"BASE_FEE_ZERO_CHECK_EXCEPTIONS\", \"child_fee\": \"0\", \"closure_rule_raw\": \"매주 월요일(단, 월요일이 공휴일인 경우 당일은 개관하고 그 다음 첫번째 평일에 휴관)\", \"holiday_close\": \"18:00\", \"holiday_open\": \"10:00\", \"name\": \"국립항공박물관\", \"ownership_type\": \"국립\", \"sido\": \"서울특별시\", \"sigungu\": \"강서구\", \"weekday_close\": \"18:00\", \"weekday_open\": \"10:00\", \"youth_fee\": \"0\"}, \"source_kind\": \"derived_csv_row\", \"source_locator\": \"data/processed/museum_final_738.csv#record=361\", \"trust\": \"derived_dataset_not_human_verified\"}, \"museum_id\": \"M0504\", \"name\": \"국립항공박물관\", \"source_doc_ids\": [\"DOC-B0504-TOUR_API-2706762\"], \"source_documents\": [{\"doc_id\": \"DOC-B0504-TOUR_API-2706762\", \"match_trust\": \"AUTO_MATCH_NOT_HUMAN_VERIFIED\", \"source_locator\": \"data/raw/museum_tourapi_with_overview.csv#row=250\", \"source_record_id\": \"2706762\", \"source_type\": \"TOUR_API\"}], \"source_locator\": \"data/raw/museum_tourapi_with_overview.csv#row=250\", \"source_locators\": [\"data/raw/museum_tourapi_with_overview.csv#row=250\"], \"source_scope\": \"text\", \"source_spans\": [{\"doc_ids\": [\"DOC-B0504-TOUR_API-2706762\"], \"end\": 30, \"start\": 0}, {\"doc_ids\": [\"DOC-B0504-TOUR_API-2706762\"], \"end\": 77, \"start\": 31}, {\"doc_ids\": [\"DOC-B0504-TOUR_API-2706762\"], \"end\": 151, \"start\": 78}, {\"doc_ids\": [\"DOC-B0504-TOUR_API-2706762\"], \"end\": 280, \"start\": 152}, {\"doc_ids\": [\"DOC-B0504-TOUR_API-2706762\"], \"end\": 348, \"start\": 281}], \"source_urls\": [], \"text\": \"국립항공박물관은 국내 최초의 항공 분야 국립박물관이다. 2020년 7월 5일 개관했으며, 한인비행학교 개교 100주년에 맞춰 문을 열었다. 박물관은 항공 역사, 항공 산업, 항공 생활, 야외 전시, 기획 전시로 나눠지며 국내, 해외의 항공 역사를 자세하게 소개하고 있다. 박물관에는 지금껏 알지 못한 우리 항공사의 보석 같은 전시물과 실물 비행기 16대가 전시되어 있으며, 항공사별 항공기 등록 현황, 조종사, 승무원 현황, 각종 체험 등 우리 삶을 바꿀 미래 항공 기술 발전에 대해 살펴볼 수 있다. 국립항공박물관은 대한민국 항공의 역사를 저장하고 현재를 투영하며 미래를 선도하는 세계적인 박물관이 되도록 노력하고 있다.\"}",
+    "{\"evidence_context_version\": \"grounded-evidence-v2\", \"evidence_id\": \"E2\", \"metadata_provenance\": {\"base_data_date\": \"2026-09-30\", \"fields\": {\"address\": \"제주특별자치도 서귀포시 안덕면 녹차분재로 218\", \"adult_fee\": \"10000\", \"adult_fee_status\": \"BASE_FEE_PAID\", \"child_fee\": \"8000\", \"closure_rule_raw\": \"월 (매월 셋째주)\", \"holiday_close\": \"18:00\", \"holiday_open\": \"09:00\", \"name\": \"제주항공우주박물관\", \"ownership_type\": \"사립\", \"sido\": \"제주특별자치도\", \"sigungu\": \"서귀포시\", \"weekday_close\": \"18:00\", \"weekday_open\": \"09:00\", \"youth_fee\": \"9000\"}, \"source_kind\": \"derived_csv_row\", \"source_locator\": \"data/processed/museum_final_738.csv#record=29\", \"trust\": \"derived_dataset_not_human_verified\"}, \"museum_id\": \"M0039\", \"name\": \"제주항공우주박물관\", \"source_doc_ids\": [\"DOC-B0039-TOUR_API-2661407\"], \"source_documents\": [{\"doc_id\": \"DOC-B0039-TOUR_API-2661407\", \"match_trust\": \"AUTO_MATCH_NOT_HUMAN_VERIFIED\", \"source_locator\": \"data/raw/museum_tourapi_with_overview.csv#row=22\", \"source_record_id\": \"2661407\", \"source_type\": \"TOUR_API\"}], \"source_locator\": \"data/raw/museum_tourapi_with_overview.csv#row=22\", \"source_locators\": [\"data/raw/museum_tourapi_with_overview.csv#row=22\"], \"source_scope\": \"text\", \"source_spans\": [{\"doc_ids\": [\"DOC-B0039-TOUR_API-2661407\"], \"end\": 82, \"start\": 0}, {\"doc_ids\": [\"DOC-B0039-TOUR_API-2661407\"], \"end\": 215, \"start\": 83}, {\"doc_ids\": [\"DOC-B0039-TOUR_API-2661407\"], \"end\": 254, \"start\": 216}], \"source_urls\": [], \"text\": \"제주항공우주박물관은 항공우주박물관으로 최첨단 기술과 멀티미디어를 활용한 재미있고 유익한 체험시설과 함께 다양한 전시‧교육 프로그램을 운영하고 있다. 26대의 실물 항공기가 전시된 항공 역사관, 우주를 향한 인류의 끝없는 도전을 알아보는 천문우주관, 오감을 만족시키는 체험공간인 테마관이 있어 항공 우주분야 미래 주역인 청소년들에게는 꿈과 희망을 어른들에게는 잊지 못할 추억을 선사한다. 또한 항공 우주 과학기술에 대한 이해 제고와 교육의 기회를 제공한다.\"}",
+    "{\"evidence_context_version\": \"grounded-evidence-v2\", \"evidence_id\": \"E3\", \"metadata_provenance\": {\"base_data_date\": \"2026-04-08\", \"fields\": {\"address\": \"서울특별시 강남구 언주로 721\", \"adult_fee\": \"0\", \"adult_fee_status\": \"BASE_FEE_ZERO_CHECK_EXCEPTIONS\", \"child_fee\": \"0\", \"closure_rule_raw\": \"주말 및 공휴일\", \"holiday_close\": \"00:00\", \"holiday_open\": \"00:00\", \"name\": \"국립관세박물관\", \"ownership_type\": \"국립\", \"sido\": \"서울특별시\", \"sigungu\": \"강남구\", \"weekday_close\": \"18:00\", \"weekday_open\": \"10:00\", \"youth_fee\": \"0\"}, \"source_kind\": \"derived_csv_row\", \"source_locator\": \"data/processed/museum_final_738.csv#record=368\", \"trust\": \"derived_dataset_not_human_verified\"}, \"museum_id\": \"M0525\", \"name\": \"국립관세박물관\", \"source_doc_ids\": [\"DOC-B0525-TOUR_API-130924\"], \"source_documents\": [{\"doc_id\": \"DOC-B0525-TOUR_API-130924\", \"match_trust\": \"AUTO_MATCH_NOT_HUMAN_VERIFIED\", \"source_locator\": \"data/raw/museum_tourapi_with_overview.csv#row=259\", \"source_record_id\": \"130924\", \"source_type\": \"TOUR_API\"}], \"source_locator\": \"data/raw/museum_tourapi_with_overview.csv#row=259\", \"source_locators\": [\"data/raw/museum_tourapi_with_overview.csv#row=259\"], \"source_scope\": \"text\", \"source_spans\": [{\"doc_ids\": [\"DOC-B0525-TOUR_API-130924\"], \"end\": 71, \"start\": 0}, {\"doc_ids\": [\"DOC-B0525-TOUR_API-130924\"], \"end\": 168, \"start\": 72}, {\"doc_ids\": [\"DOC-B0525-TOUR_API-130924\"], \"end\": 238, \"start\": 169}, {\"doc_ids\": [\"DOC-B0525-TOUR_API-130924\"], \"end\": 292, \"start\": 239}, {\"doc_ids\": [\"DOC-B0525-TOUR_API-130924\"], \"end\": 417, \"start\": 293}], \"source_urls\": [], \"text\": \"국립관세박물관은 강남구에 위치한 국립박물관으로, 개항기부터 현대까지 한국 경제사와 함께한 관세 문화를 경험할 수 있는 공간이다. 박물관은 총 3개 주제관인 관세역사관, 관세행정관, 관세외교관이 있으며, 핸즈온 전시 공간인 공항 체험과 해외직구시 사용하는 유니패스존에서는 인터렉티브 체험을 할 수 있다. 또한 박물관 관람 시에는 전시실에 비치된 전시 활동지와 모바일을 활용한 웹콘텐츠로 관세 문화를 입체적으로 경험 할 수 있다. 관세 문화를 더 깊이 체험하고자 할 때에는 별도 전화 예약을 통해 박물관 교육에 참여 가능하다. 관세박물관을 통해 세관의 역사를 재조명하고 관세 주권과 국익을 지켜온 관세인의 노고를 기억함으로써 국민들에게 세관에 대한 이해를 높이는 한편, 더 발전된 미래로 나아가기 위한 교훈의 장으로 삼고자 하는 취지를 가지고 있다.\"}",
+    "{\"evidence_context_version\": \"grounded-evidence-v2\", \"evidence_id\": \"E4\", \"metadata_provenance\": {\"base_data_date\": \"2026-04-08\", \"fields\": {\"address\": \"서울특별시 종로구 송월길 52\", \"adult_fee\": \"0\", \"adult_fee_status\": \"BASE_FEE_ZERO_CHECK_EXCEPTIONS\", \"child_fee\": \"0\", \"closure_rule_raw\": \"1월 1일, 설, 추석 당일, 매주 월요일(월요일이 공휴일, 또는 대체 공휴일인 경우 다음 첫번째 평일)\", \"holiday_close\": \"18:00\", \"holiday_open\": \"10:00\", \"name\": \"국립기상박물관\", \"ownership_type\": \"국립\", \"sido\": \"서울특별시\", \"sigungu\": \"종로구\", \"weekday_close\": \"18:00\", \"weekday_open\": \"10:00\", \"youth_fee\": \"0\"}, \"source_kind\": \"derived_csv_row\", \"source_locator\": \"data/processed/museum_final_738.csv#record=367\", \"trust\": \"derived_dataset_not_human_verified\"}, \"museum_id\": \"M0524\", \"name\": \"국립기상박물관\", \"source_doc_ids\": [\"DOC-B0524-TOUR_API-3038260\"], \"source_documents\": [{\"doc_id\": \"DOC-B0524-TOUR_API-3038260\", \"match_trust\": \"RECHECKED_BY_RULE_NOT_HUMAN_APPROVED\", \"source_locator\": \"data/raw/museum_tourapi_with_overview.csv#row=258\", \"source_record_id\": \"3038260\", \"source_type\": \"TOUR_API\"}], \"source_locator\": \"data/raw/museum_tourapi_with_overview.csv#row=258\", \"source_locators\": [\"data/raw/museum_tourapi_with_overview.csv#row=258\"], \"source_scope\": \"text\", \"source_spans\": [{\"doc_ids\": [\"DOC-B0524-TOUR_API-3038260\"], \"end\": 56, \"start\": 0}, {\"doc_ids\": [\"DOC-B0524-TOUR_API-3038260\"], \"end\": 145, \"start\": 57}, {\"doc_ids\": [\"DOC-B0524-TOUR_API-3038260\"], \"end\": 228, \"start\": 146}, {\"doc_ids\": [\"DOC-B0524-TOUR_API-3038260\"], \"end\": 340, \"start\": 229}, {\"doc_ids\": [\"DOC-B0524-TOUR_API-3038260\"], \"end\": 427, \"start\": 341}, {\"doc_ids\": [\"DOC-B0524-TOUR_API-3038260\"], \"end\": 511, \"start\": 428}, {\"doc_ids\": [\"DOC-B0524-TOUR_API-3038260\"], \"end\": 594, \"start\": 512}, {\"doc_ids\": [\"DOC-B0524-TOUR_API-3038260\"], \"end\": 670, \"start\": 595}], \"source_urls\": [], \"text\": \"울 국립기상박물관은 대한민국의 기상과 날씨에 관련된 다양한 정보와 자료를 전시하는 특별한 박물관이다. 서울시 종로구에 위치한 이 박물관은 기상학의 발전, 기후 변화, 날씨 예측 기술 등을 주제로 한 전시를 통해 방문객들에게 기상과 날씨의 중요성을 알리고 있다. 박물관은 기상과 관련된 역사적 자료와 최첨단 기상 관측 기술을 소개하며, 기후 변화와 자연재해에 대한 이해를 돕는 다양한 체험 프로그램도 제공한다. 전시물은 기상 장비, 예보 시스템, 세계 각국의 기상 사례 등을 포함하고 있으며, 어린이와 청소년을 위한 교육 프로그램도 마련되어 있어, 기상과 날씨에 대한 관심을 자연스럽게 키울 수 있는 장소이다. 특히, 기상 예보의 정확성과 기후 변화 대응에 대한 최신 정보를 제공하며, 과학적이고 교육적인 관점에서 기상에 대한 지식을 쌓을 수 있는 기회를 제공한다. 또한, 박물관 내에는 기상관측 체험을 할 수 있는 공간도 마련되어 있어, 관람객들이 실제 기상 데이터를 직접 체험하고 배우는 즐거운 경험을 제공한다. 서울 국립기상박물관은 날씨와 기후 변화가 현대 사회에 미치는 영향을 깊이 이해하고, 이를 해결하기 위한 과학적 접근을 배우는 중요한 교육의 장이다. 기상학에 대한 흥미를 높이고, 기후 문제에 대한 경각심을 일깨울 수 있는 특별한 공간으로 많은 이들에게 유익한 정보를 제공하는 곳이다.\"}",
+    "{\"evidence_context_version\": \"grounded-evidence-v2\", \"evidence_id\": \"E5\", \"metadata_provenance\": {\"base_data_date\": \"2026-08-03\", \"fields\": {\"address\": \"전남광주통합특별시 장성군 황룡면 필암서원로 187\", \"adult_fee\": \"0\", \"adult_fee_status\": \"BASE_FEE_ZERO_CHECK_EXCEPTIONS\", \"amenities_raw\": \"주차장+화장실\", \"child_fee\": \"0\", \"closure_rule_raw\": \"1월1일+설날 당일+추석 당일\", \"holiday_close\": \"18:00\", \"holiday_open\": \"09:00\", \"name\": \"필암서원 유물전시관\", \"ownership_type\": \"공립\", \"sido\": \"전남광주통합특별시\", \"sigungu\": \"장성군\", \"weekday_close\": \"18:00\", \"weekday_open\": \"09:00\", \"youth_fee\": \"0\"}, \"normalizations\": {\"sido\": {\"matched_value\": \"전남광주특별자치도\", \"rule\": \"configured_sido_alias\", \"source_value\": \"전남광주통합특별시\"}}, \"source_kind\": \"derived_csv_row\", \"source_locator\": \"data/processed/museum_final_738.csv#record=206\", \"trust\": \"derived_dataset_not_human_verified\"}, \"museum_id\": \"M0292\", \"name\": \"필암서원 유물전시관\", \"source_doc_ids\": [\"DOC-B0292-BASE\"], \"source_documents\": [{\"doc_id\": \"DOC-B0292-BASE\", \"match_trust\": \"BASE_SOURCE\", \"source_locator\": \"data/raw/museum_base_1070.csv#row=293\", \"source_record_id\": \"B0292\", \"source_type\": \"BASE\"}], \"source_locator\": \"data/raw/museum_base_1070.csv#row=293\", \"source_locators\": [\"data/raw/museum_base_1070.csv#row=293\"], \"source_scope\": \"text\", \"source_spans\": [{\"doc_ids\": [\"DOC-B0292-BASE\"], \"end\": 84, \"start\": 0}, {\"doc_ids\": [\"DOC-B0292-BASE\"], \"end\": 134, \"start\": 85}], \"source_urls\": [], \"text\": \"유물전시관은 필암서원과 하서 김인후 관련 유물을 보관하고, 정보를 제공하기 위해 1999년 설립하였으며, 2008년 시설을 증축하여 새롭게 개관하였다. 현재 3,744점의 유물을 소장하고 있으며, 관람객들에게 다양한 볼거리를 제공하고 있다.\"}"
+  ],
+  "mode": "supervisor_full",
+  "question_id": "Q292",
+  "evidence": [
+    {
+      "museum_id": "M0504",
+      "name": "국립항공박물관",
+      "document": "국립항공박물관은 국내 최초의 항공 분야 국립박물관이다. 2020년 7월 5일 개관했으며, 한인비행학교 개교 100주년에 맞춰 문을 열었다. 박물관은 항공 역사, 항공 산업, 항공 생활, 야외 전시, 기획 전시로 나눠지며 국내, 해외의 항공 역사를 자세하게 소개하고 있다. 박물관에는 지금껏 알지 못한 우리 항공사의 보석 같은 전시물과 실물 비행기 16대가 전시되어 있으며, 항공사별 항공기 등록 현황, 조종사, 승무원 현황, 각종 체험 등 우리 삶을 바꿀 미래 항공 기술 발전에 대해 살펴볼 수 있다. 국립항공박물관은 대한민국 항공의 역사를 저장하고 현재를 투영하며 미래를 선도하는 세계적인 박물관이 되도록 노력하고 있다.",
+      "metadata": {
+        "youth_fee": 0.0,
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "latitude": 37.5568697659,
+        "address": "서울특별시 강서구 하늘길 177",
+        "closure_rule_raw": "매주 월요일(단, 월요일이 공휴일인 경우 당일은 개관하고 그 다음 첫번째 평일에 휴관)",
+        "name": "국립항공박물관",
+        "homepage_url": "https://www.aviation.or.kr/",
+        "source_types": "TOUR_API",
+        "holiday_open": "10:00",
+        "adult_fee": 0.0,
+        "ownership_type": "국립",
+        "sigungu": "강서구",
+        "weekday_close": "18:00",
+        "requires_manual_review": true,
+        "sido": "서울특별시",
+        "longitude": 126.8088723462,
+        "weekday_open": "10:00",
+        "holiday_close": "18:00",
+        "child_fee": 0.0,
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/14/3569014_image2_1.jpg",
+        "image_copyright": "Type3"
+      },
+      "vector_rank": 1,
+      "bm25_rank": 1,
+      "vector_distance": 0.45360809564590454,
+      "vector_score": null,
+      "bm25_score": 39.306468318046456,
+      "vector_document": "국립항공박물관은 국내 최초의 항공 분야 국립박물관이다. 2020년 7월 5일 개관했으며, 한인비행학교 개교 100주년에 맞춰 문을 열었다. 박물관은 항공 역사, 항공 산업, 항공 생활, 야외 전시, 기획 전시로 나눠지며 국내, 해외의 항공 역사를 자세하게 소개하고 있다. 박물관에는 지금껏 알지 못한 우리 항공사의 보석 같은 전시물과 실물 비행기 16대가 전시되어 있으며, 항공사별 항공기 등록 현황, 조종사, 승무원 현황, 각종 체험 등 우리 삶을 바꿀 미래 항공 기술 발전에 대해 살펴볼 수 있다. 국립항공박물관은 대한민국 항공의 역사를 저장하고 현재를 투영하며 미래를 선도하는 세계적인 박물관이 되도록 노력하고 있다.",
+      "bm25_document": "국립항공박물관은 국내 최초의 항공 분야 국립박물관이다. 2020년 7월 5일 개관했으며, 한인비행학교 개교 100주년에 맞춰 문을 열었다. 박물관은 항공 역사, 항공 산업, 항공 생활, 야외 전시, 기획 전시로 나눠지며 국내, 해외의 항공 역사를 자세하게 소개하고 있다. 박물관에는 지금껏 알지 못한 우리 항공사의 보석 같은 전시물과 실물 비행기 16대가 전시되어 있으며, 항공사별 항공기 등록 현황, 조종사, 승무원 현황, 각종 체험 등 우리 삶을 바꿀 미래 항공 기술 발전에 대해 살펴볼 수 있다. 국립항공박물관은 대한민국 항공의 역사를 저장하고 현재를 투영하며 미래를 선도하는 세계적인 박물관이 되도록 노력하고 있다.",
+      "best_span_id": "chroma:M0504",
+      "best_span_text": "국립항공박물관은 국내 최초의 항공 분야 국립박물관이다. 2020년 7월 5일 개관했으며, 한인비행학교 개교 100주년에 맞춰 문을 열었다. 박물관은 항공 역사, 항공 산업, 항공 생활, 야외 전시, 기획 전시로 나눠지며 국내, 해외의 항공 역사를 자세하게 소개하고 있다. 박물관에는 지금껏 알지 못한 우리 항공사의 보석 같은 전시물과 실물 비행기 16대가 전시되어 있으며, 항공사별 항공기 등록 현황, 조종사, 승무원 현황, 각종 체험 등 우리 삶을 바꿀 미래 항공 기술 발전에 대해 살펴볼 수 있다. 국립항공박물관은 대한민국 항공의 역사를 저장하고 현재를 투영하며 미래를 선도하는 세계적인 박물관이 되도록 노력하고 있다.",
+      "fusion_score": 0.03278688524590164,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 1,
+      "name_match": true,
+      "rerank_score": 0.9993337988853455,
+      "rank": 1,
+      "score": 0.9993337988853455,
+      "score_type": "cross_encoder",
+      "distance": 0.45360809564590454,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0504",
+      "source_doc_ids": [
+        "DOC-B0504-TOUR_API-2706762"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0504-TOUR_API-2706762",
+          "source_type": "TOUR_API",
+          "source_record_id": "2706762",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=250",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 30,
+          "doc_ids": [
+            "DOC-B0504-TOUR_API-2706762"
+          ]
+        },
+        {
+          "start": 31,
+          "end": 77,
+          "doc_ids": [
+            "DOC-B0504-TOUR_API-2706762"
+          ]
+        },
+        {
+          "start": 78,
+          "end": 151,
+          "doc_ids": [
+            "DOC-B0504-TOUR_API-2706762"
+          ]
+        },
+        {
+          "start": 152,
+          "end": 280,
+          "doc_ids": [
+            "DOC-B0504-TOUR_API-2706762"
+          ]
+        },
+        {
+          "start": 281,
+          "end": 348,
+          "doc_ids": [
+            "DOC-B0504-TOUR_API-2706762"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=250",
+      "text": "국립항공박물관은 국내 최초의 항공 분야 국립박물관이다. 2020년 7월 5일 개관했으며, 한인비행학교 개교 100주년에 맞춰 문을 열었다. 박물관은 항공 역사, 항공 산업, 항공 생활, 야외 전시, 기획 전시로 나눠지며 국내, 해외의 항공 역사를 자세하게 소개하고 있다. 박물관에는 지금껏 알지 못한 우리 항공사의 보석 같은 전시물과 실물 비행기 16대가 전시되어 있으며, 항공사별 항공기 등록 현황, 조종사, 승무원 현황, 각종 체험 등 우리 삶을 바꿀 미래 항공 기술 발전에 대해 살펴볼 수 있다. 국립항공박물관은 대한민국 항공의 역사를 저장하고 현재를 투영하며 미래를 선도하는 세계적인 박물관이 되도록 노력하고 있다.",
+      "sido": "서울특별시",
+      "sigungu": "강서구",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=250"
+      ],
+      "evidence_id": "E1",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=361",
+        "fields": {
+          "name": "국립항공박물관",
+          "sido": "서울특별시",
+          "sigungu": "강서구",
+          "address": "서울특별시 강서구 하늘길 177",
+          "ownership_type": "국립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "10:00",
+          "weekday_close": "18:00",
+          "holiday_open": "10:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "매주 월요일(단, 월요일이 공휴일인 경우 당일은 개관하고 그 다음 첫번째 평일에 휴관)"
+        },
+        "base_data_date": "2026-04-08",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0039",
+      "name": "제주항공우주박물관",
+      "document": "제주항공우주박물관은 항공우주박물관으로 최첨단 기술과 멀티미디어를 활용한 재미있고 유익한 체험시설과 함께 다양한 전시‧교육 프로그램을 운영하고 있다. 26대의 실물 항공기가 전시된 항공 역사관, 우주를 향한 인류의 끝없는 도전을 알아보는 천문우주관, 오감을 만족시키는 체험공간인 테마관이 있어 항공 우주분야 미래 주역인 청소년들에게는 꿈과 희망을 어른들에게는 잊지 못할 추억을 선사한다. 또한 항공 우주 과학기술에 대한 이해 제고와 교육의 기회를 제공한다.",
+      "metadata": {
+        "ownership_type": "사립",
+        "adult_fee": 10000.0,
+        "fee_notes": "단체 관람 시 할인+도민할인",
+        "sido": "제주특별자치도",
+        "holiday_open": "09:00",
+        "holiday_close": "18:00",
+        "adult_fee_status": "BASE_FEE_PAID",
+        "child_fee": 8000.0,
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/84/3546884_image2_1.jpg",
+        "image_copyright": "Type3",
+        "requires_manual_review": true,
+        "address": "제주특별자치도 서귀포시 안덕면 녹차분재로 218",
+        "latitude": 33.3042074,
+        "homepage_url": "https://www.jdc-jam.com/index.jam",
+        "youth_fee": 9000.0,
+        "weekday_open": "09:00",
+        "weekday_close": "18:00",
+        "source_types": "TOUR_API",
+        "sigungu": "서귀포시",
+        "closure_rule_raw": "월 (매월 셋째주)",
+        "name": "제주항공우주박물관",
+        "longitude": 126.2996615
+      },
+      "vector_rank": 6,
+      "bm25_rank": 2,
+      "vector_distance": 0.5646750926971436,
+      "vector_score": null,
+      "bm25_score": 25.732205321633575,
+      "vector_document": "제주항공우주박물관은 항공우주박물관으로 최첨단 기술과 멀티미디어를 활용한 재미있고 유익한 체험시설과 함께 다양한 전시‧교육 프로그램을 운영하고 있다. 26대의 실물 항공기가 전시된 항공 역사관, 우주를 향한 인류의 끝없는 도전을 알아보는 천문우주관, 오감을 만족시키는 체험공간인 테마관이 있어 항공 우주분야 미래 주역인 청소년들에게는 꿈과 희망을 어른들에게는 잊지 못할 추억을 선사한다. 또한 항공 우주 과학기술에 대한 이해 제고와 교육의 기회를 제공한다.",
+      "bm25_document": "제주항공우주박물관은 항공우주박물관으로 최첨단 기술과 멀티미디어를 활용한 재미있고 유익한 체험시설과 함께 다양한 전시‧교육 프로그램을 운영하고 있다. 26대의 실물 항공기가 전시된 항공 역사관, 우주를 향한 인류의 끝없는 도전을 알아보는 천문우주관, 오감을 만족시키는 체험공간인 테마관이 있어 항공 우주분야 미래 주역인 청소년들에게는 꿈과 희망을 어른들에게는 잊지 못할 추억을 선사한다. 또한 항공 우주 과학기술에 대한 이해 제고와 교육의 기회를 제공한다.",
+      "best_span_id": "chroma:M0039",
+      "best_span_text": "제주항공우주박물관은 항공우주박물관으로 최첨단 기술과 멀티미디어를 활용한 재미있고 유익한 체험시설과 함께 다양한 전시‧교육 프로그램을 운영하고 있다. 26대의 실물 항공기가 전시된 항공 역사관, 우주를 향한 인류의 끝없는 도전을 알아보는 천문우주관, 오감을 만족시키는 체험공간인 테마관이 있어 항공 우주분야 미래 주역인 청소년들에게는 꿈과 희망을 어른들에게는 잊지 못할 추억을 선사한다. 또한 항공 우주 과학기술에 대한 이해 제고와 교육의 기회를 제공한다.",
+      "fusion_score": 0.03128054740957967,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 2,
+      "rerank_score": 0.1812625378370285,
+      "rank": 2,
+      "score": 0.1812625378370285,
+      "score_type": "cross_encoder",
+      "distance": 0.5646750926971436,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0039",
+      "source_doc_ids": [
+        "DOC-B0039-TOUR_API-2661407"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0039-TOUR_API-2661407",
+          "source_type": "TOUR_API",
+          "source_record_id": "2661407",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=22",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 82,
+          "doc_ids": [
+            "DOC-B0039-TOUR_API-2661407"
+          ]
+        },
+        {
+          "start": 83,
+          "end": 215,
+          "doc_ids": [
+            "DOC-B0039-TOUR_API-2661407"
+          ]
+        },
+        {
+          "start": 216,
+          "end": 254,
+          "doc_ids": [
+            "DOC-B0039-TOUR_API-2661407"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=22",
+      "text": "제주항공우주박물관은 항공우주박물관으로 최첨단 기술과 멀티미디어를 활용한 재미있고 유익한 체험시설과 함께 다양한 전시‧교육 프로그램을 운영하고 있다. 26대의 실물 항공기가 전시된 항공 역사관, 우주를 향한 인류의 끝없는 도전을 알아보는 천문우주관, 오감을 만족시키는 체험공간인 테마관이 있어 항공 우주분야 미래 주역인 청소년들에게는 꿈과 희망을 어른들에게는 잊지 못할 추억을 선사한다. 또한 항공 우주 과학기술에 대한 이해 제고와 교육의 기회를 제공한다.",
+      "sido": "제주특별자치도",
+      "sigungu": "서귀포시",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=22"
+      ],
+      "evidence_id": "E2",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=29",
+        "fields": {
+          "name": "제주항공우주박물관",
+          "sido": "제주특별자치도",
+          "sigungu": "서귀포시",
+          "address": "제주특별자치도 서귀포시 안덕면 녹차분재로 218",
+          "ownership_type": "사립",
+          "adult_fee": "10000",
+          "youth_fee": "9000",
+          "child_fee": "8000",
+          "adult_fee_status": "BASE_FEE_PAID",
+          "weekday_open": "09:00",
+          "weekday_close": "18:00",
+          "holiday_open": "09:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "월 (매월 셋째주)"
+        },
+        "base_data_date": "2026-09-30",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0525",
+      "name": "국립관세박물관",
+      "document": "국립관세박물관은 강남구에 위치한 국립박물관으로, 개항기부터 현대까지 한국 경제사와 함께한 관세 문화를 경험할 수 있는 공간이다. 박물관은 총 3개 주제관인 관세역사관, 관세행정관, 관세외교관이 있으며, 핸즈온 전시 공간인 공항 체험과 해외직구시 사용하는 유니패스존에서는 인터렉티브 체험을 할 수 있다. 또한 박물관 관람 시에는 전시실에 비치된 전시 활동지와 모바일을 활용한 웹콘텐츠로 관세 문화를 입체적으로 경험 할 수 있다. 관세 문화를 더 깊이 체험하고자 할 때에는 별도 전화 예약을 통해 박물관 교육에 참여 가능하다. 관세박물관을 통해 세관의 역사를 재조명하고 관세 주권과 국익을 지켜온 관세인의 노고를 기억함으로써 국민들에게 세관에 대한 이해를 높이는 한편, 더 발전된 미래로 나아가기 위한 교훈의 장으로 삼고자 하는 취지를 가지고 있다.",
+      "metadata": {
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/25/3503425_image2_1.jpg",
+        "weekday_open": "10:00",
+        "youth_fee": 0.0,
+        "sigungu": "강남구",
+        "holiday_open": "00:00",
+        "longitude": 127.033779,
+        "adult_fee": 0.0,
+        "source_types": "TOUR_API",
+        "holiday_close": "00:00",
+        "homepage_url": "https://www.customs.go.kr/seoul",
+        "child_fee": 0.0,
+        "address": "서울특별시 강남구 언주로 721",
+        "requires_manual_review": true,
+        "sido": "서울특별시",
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "name": "국립관세박물관",
+        "weekday_close": "18:00",
+        "closure_rule_raw": "주말 및 공휴일",
+        "latitude": 37.518374,
+        "ownership_type": "국립",
+        "image_copyright": "Type3"
+      },
+      "vector_rank": 8,
+      "bm25_rank": 17,
+      "vector_distance": 0.5855205059051514,
+      "vector_score": null,
+      "bm25_score": 11.363268504032147,
+      "vector_document": "국립관세박물관은 강남구에 위치한 국립박물관으로, 개항기부터 현대까지 한국 경제사와 함께한 관세 문화를 경험할 수 있는 공간이다. 박물관은 총 3개 주제관인 관세역사관, 관세행정관, 관세외교관이 있으며, 핸즈온 전시 공간인 공항 체험과 해외직구시 사용하는 유니패스존에서는 인터렉티브 체험을 할 수 있다. 또한 박물관 관람 시에는 전시실에 비치된 전시 활동지와 모바일을 활용한 웹콘텐츠로 관세 문화를 입체적으로 경험 할 수 있다. 관세 문화를 더 깊이 체험하고자 할 때에는 별도 전화 예약을 통해 박물관 교육에 참여 가능하다. 관세박물관을 통해 세관의 역사를 재조명하고 관세 주권과 국익을 지켜온 관세인의 노고를 기억함으로써 국민들에게 세관에 대한 이해를 높이는 한편, 더 발전된 미래로 나아가기 위한 교훈의 장으로 삼고자 하는 취지를 가지고 있다.",
+      "bm25_document": "국립관세박물관은 강남구에 위치한 국립박물관으로, 개항기부터 현대까지 한국 경제사와 함께한 관세 문화를 경험할 수 있는 공간이다. 박물관은 총 3개 주제관인 관세역사관, 관세행정관, 관세외교관이 있으며, 핸즈온 전시 공간인 공항 체험과 해외직구시 사용하는 유니패스존에서는 인터렉티브 체험을 할 수 있다. 또한 박물관 관람 시에는 전시실에 비치된 전시 활동지와 모바일을 활용한 웹콘텐츠로 관세 문화를 입체적으로 경험 할 수 있다. 관세 문화를 더 깊이 체험하고자 할 때에는 별도 전화 예약을 통해 박물관 교육에 참여 가능하다. 관세박물관을 통해 세관의 역사를 재조명하고 관세 주권과 국익을 지켜온 관세인의 노고를 기억함으로써 국민들에게 세관에 대한 이해를 높이는 한편, 더 발전된 미래로 나아가기 위한 교훈의 장으로 삼고자 하는 취지를 가지고 있다.",
+      "best_span_id": "chroma:M0525",
+      "best_span_text": "국립관세박물관은 강남구에 위치한 국립박물관으로, 개항기부터 현대까지 한국 경제사와 함께한 관세 문화를 경험할 수 있는 공간이다. 박물관은 총 3개 주제관인 관세역사관, 관세행정관, 관세외교관이 있으며, 핸즈온 전시 공간인 공항 체험과 해외직구시 사용하는 유니패스존에서는 인터렉티브 체험을 할 수 있다. 또한 박물관 관람 시에는 전시실에 비치된 전시 활동지와 모바일을 활용한 웹콘텐츠로 관세 문화를 입체적으로 경험 할 수 있다. 관세 문화를 더 깊이 체험하고자 할 때에는 별도 전화 예약을 통해 박물관 교육에 참여 가능하다. 관세박물관을 통해 세관의 역사를 재조명하고 관세 주권과 국익을 지켜온 관세인의 노고를 기억함으로써 국민들에게 세관에 대한 이해를 높이는 한편, 더 발전된 미래로 나아가기 위한 교훈의 장으로 삼고자 하는 취지를 가지고 있다.",
+      "fusion_score": 0.027692895339954164,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 5,
+      "rerank_score": 0.0013601777609437704,
+      "rank": 3,
+      "score": 0.0013601777609437704,
+      "score_type": "cross_encoder",
+      "distance": 0.5855205059051514,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0525",
+      "source_doc_ids": [
+        "DOC-B0525-TOUR_API-130924"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0525-TOUR_API-130924",
+          "source_type": "TOUR_API",
+          "source_record_id": "130924",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=259",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 71,
+          "doc_ids": [
+            "DOC-B0525-TOUR_API-130924"
+          ]
+        },
+        {
+          "start": 72,
+          "end": 168,
+          "doc_ids": [
+            "DOC-B0525-TOUR_API-130924"
+          ]
+        },
+        {
+          "start": 169,
+          "end": 238,
+          "doc_ids": [
+            "DOC-B0525-TOUR_API-130924"
+          ]
+        },
+        {
+          "start": 239,
+          "end": 292,
+          "doc_ids": [
+            "DOC-B0525-TOUR_API-130924"
+          ]
+        },
+        {
+          "start": 293,
+          "end": 417,
+          "doc_ids": [
+            "DOC-B0525-TOUR_API-130924"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=259",
+      "text": "국립관세박물관은 강남구에 위치한 국립박물관으로, 개항기부터 현대까지 한국 경제사와 함께한 관세 문화를 경험할 수 있는 공간이다. 박물관은 총 3개 주제관인 관세역사관, 관세행정관, 관세외교관이 있으며, 핸즈온 전시 공간인 공항 체험과 해외직구시 사용하는 유니패스존에서는 인터렉티브 체험을 할 수 있다. 또한 박물관 관람 시에는 전시실에 비치된 전시 활동지와 모바일을 활용한 웹콘텐츠로 관세 문화를 입체적으로 경험 할 수 있다. 관세 문화를 더 깊이 체험하고자 할 때에는 별도 전화 예약을 통해 박물관 교육에 참여 가능하다. 관세박물관을 통해 세관의 역사를 재조명하고 관세 주권과 국익을 지켜온 관세인의 노고를 기억함으로써 국민들에게 세관에 대한 이해를 높이는 한편, 더 발전된 미래로 나아가기 위한 교훈의 장으로 삼고자 하는 취지를 가지고 있다.",
+      "sido": "서울특별시",
+      "sigungu": "강남구",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=259"
+      ],
+      "evidence_id": "E3",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=368",
+        "fields": {
+          "name": "국립관세박물관",
+          "sido": "서울특별시",
+          "sigungu": "강남구",
+          "address": "서울특별시 강남구 언주로 721",
+          "ownership_type": "국립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "10:00",
+          "weekday_close": "18:00",
+          "holiday_open": "00:00",
+          "holiday_close": "00:00",
+          "closure_rule_raw": "주말 및 공휴일"
+        },
+        "base_data_date": "2026-04-08",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0524",
+      "name": "국립기상박물관",
+      "document": "울 국립기상박물관은 대한민국의 기상과 날씨에 관련된 다양한 정보와 자료를 전시하는 특별한 박물관이다. 서울시 종로구에 위치한 이 박물관은 기상학의 발전, 기후 변화, 날씨 예측 기술 등을 주제로 한 전시를 통해 방문객들에게 기상과 날씨의 중요성을 알리고 있다. 박물관은 기상과 관련된 역사적 자료와 최첨단 기상 관측 기술을 소개하며, 기후 변화와 자연재해에 대한 이해를 돕는 다양한 체험 프로그램도 제공한다. 전시물은 기상 장비, 예보 시스템, 세계 각국의 기상 사례 등을 포함하고 있으며, 어린이와 청소년을 위한 교육 프로그램도 마련되어 있어, 기상과 날씨에 대한 관심을 자연스럽게 키울 수 있는 장소이다. 특히, 기상 예보의 정확성과 기후 변화 대응에 대한 최신 정보를 제공하며, 과학적이고 교육적인 관점에서 기상에 대한 지식을 쌓을 수 있는 기회를 제공한다. 또한, 박물관 내에는 기상관측 체험을 할 수 있는 공간도 마련되어 있어, 관람객들이 실제 기상 데이터를 직접 체험하고 배우는 즐거운 경험을 제공한다. 서울 국립기상박물관은 날씨와 기후 변화가 현대 사회에 미치는 영향을 깊이 이해하고, 이를 해결하기 위한 과학적 접근을 배우는 중요한 교육의 장이다. 기상학에 대한 흥미를 높이고, 기후 문제에 대한 경각심을 일깨울 수 있는 특별한 공간으로 많은 이들에게 유익한 정보를 제공하는 곳이다.",
+      "metadata": {
+        "child_fee": 0.0,
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "sido": "서울특별시",
+        "weekday_open": "10:00",
+        "source_types": "TOUR_API",
+        "address": "서울특별시 종로구 송월길 52",
+        "name": "국립기상박물관",
+        "sigungu": "종로구",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/38/3456038_image2_1.jpg",
+        "holiday_open": "10:00",
+        "weekday_close": "18:00",
+        "latitude": 37.5702217431,
+        "requires_manual_review": true,
+        "adult_fee": 0.0,
+        "closure_rule_raw": "1월 1일, 설, 추석 당일, 매주 월요일(월요일이 공휴일, 또는 대체 공휴일인 경우 다음 첫번째 평일)",
+        "longitude": 126.966204176,
+        "image_copyright": "Type1",
+        "holiday_close": "18:00",
+        "homepage_url": "https://science.kma.go.kr/museum/",
+        "youth_fee": 0.0,
+        "ownership_type": "국립"
+      },
+      "vector_rank": null,
+      "bm25_rank": 3,
+      "vector_distance": null,
+      "vector_score": null,
+      "bm25_score": 19.064325786520154,
+      "vector_document": "",
+      "bm25_document": "울 국립기상박물관은 대한민국의 기상과 날씨에 관련된 다양한 정보와 자료를 전시하는 특별한 박물관이다. 서울시 종로구에 위치한 이 박물관은 기상학의 발전, 기후 변화, 날씨 예측 기술 등을 주제로 한 전시를 통해 방문객들에게 기상과 날씨의 중요성을 알리고 있다. 박물관은 기상과 관련된 역사적 자료와 최첨단 기상 관측 기술을 소개하며, 기후 변화와 자연재해에 대한 이해를 돕는 다양한 체험 프로그램도 제공한다. 전시물은 기상 장비, 예보 시스템, 세계 각국의 기상 사례 등을 포함하고 있으며, 어린이와 청소년을 위한 교육 프로그램도 마련되어 있어, 기상과 날씨에 대한 관심을 자연스럽게 키울 수 있는 장소이다. 특히, 기상 예보의 정확성과 기후 변화 대응에 대한 최신 정보를 제공하며, 과학적이고 교육적인 관점에서 기상에 대한 지식을 쌓을 수 있는 기회를 제공한다. 또한, 박물관 내에는 기상관측 체험을 할 수 있는 공간도 마련되어 있어, 관람객들이 실제 기상 데이터를 직접 체험하고 배우는 즐거운 경험을 제공한다. 서울 국립기상박물관은 날씨와 기후 변화가 현대 사회에 미치는 영향을 깊이 이해하고, 이를 해결하기 위한 과학적 접근을 배우는 중요한 교육의 장이다. 기상학에 대한 흥미를 높이고, 기후 문제에 대한 경각심을 일깨울 수 있는 특별한 공간으로 많은 이들에게 유익한 정보를 제공하는 곳이다.",
+      "best_span_id": "chroma:M0524",
+      "best_span_text": "울 국립기상박물관은 대한민국의 기상과 날씨에 관련된 다양한 정보와 자료를 전시하는 특별한 박물관이다. 서울시 종로구에 위치한 이 박물관은 기상학의 발전, 기후 변화, 날씨 예측 기술 등을 주제로 한 전시를 통해 방문객들에게 기상과 날씨의 중요성을 알리고 있다. 박물관은 기상과 관련된 역사적 자료와 최첨단 기상 관측 기술을 소개하며, 기후 변화와 자연재해에 대한 이해를 돕는 다양한 체험 프로그램도 제공한다. 전시물은 기상 장비, 예보 시스템, 세계 각국의 기상 사례 등을 포함하고 있으며, 어린이와 청소년을 위한 교육 프로그램도 마련되어 있어, 기상과 날씨에 대한 관심을 자연스럽게 키울 수 있는 장소이다. 특히, 기상 예보의 정확성과 기후 변화 대응에 대한 최신 정보를 제공하며, 과학적이고 교육적인 관점에서 기상에 대한 지식을 쌓을 수 있는 기회를 제공한다. 또한, 박물관 내에는 기상관측 체험을 할 수 있는 공간도 마련되어 있어, 관람객들이 실제 기상 데이터를 직접 체험하고 배우는 즐거운 경험을 제공한다. 서울 국립기상박물관은 날씨와 기후 변화가 현대 사회에 미치는 영향을 깊이 이해하고, 이를 해결하기 위한 과학적 접근을 배우는 중요한 교육의 장이다. 기상학에 대한 흥미를 높이고, 기후 문제에 대한 경각심을 일깨울 수 있는 특별한 공간으로 많은 이들에게 유익한 정보를 제공하는 곳이다.",
+      "fusion_score": 0.015873015873015872,
+      "retrieved_by": [
+        "bm25"
+      ],
+      "fusion_rank": 10,
+      "rerank_score": 0.00036708719562739134,
+      "rank": 4,
+      "score": 0.00036708719562739134,
+      "score_type": "cross_encoder",
+      "distance": null,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "bm25"
+      ],
+      "retriever": "bm25",
+      "span_id": "chroma:M0524",
+      "source_doc_ids": [
+        "DOC-B0524-TOUR_API-3038260"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0524-TOUR_API-3038260",
+          "source_type": "TOUR_API",
+          "source_record_id": "3038260",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=258",
+          "match_trust": "RECHECKED_BY_RULE_NOT_HUMAN_APPROVED"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 56,
+          "doc_ids": [
+            "DOC-B0524-TOUR_API-3038260"
+          ]
+        },
+        {
+          "start": 57,
+          "end": 145,
+          "doc_ids": [
+            "DOC-B0524-TOUR_API-3038260"
+          ]
+        },
+        {
+          "start": 146,
+          "end": 228,
+          "doc_ids": [
+            "DOC-B0524-TOUR_API-3038260"
+          ]
+        },
+        {
+          "start": 229,
+          "end": 340,
+          "doc_ids": [
+            "DOC-B0524-TOUR_API-3038260"
+          ]
+        },
+        {
+          "start": 341,
+          "end": 427,
+          "doc_ids": [
+            "DOC-B0524-TOUR_API-3038260"
+          ]
+        },
+        {
+          "start": 428,
+          "end": 511,
+          "doc_ids": [
+            "DOC-B0524-TOUR_API-3038260"
+          ]
+        },
+        {
+          "start": 512,
+          "end": 594,
+          "doc_ids": [
+            "DOC-B0524-TOUR_API-3038260"
+          ]
+        },
+        {
+          "start": 595,
+          "end": 670,
+          "doc_ids": [
+            "DOC-B0524-TOUR_API-3038260"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=258",
+      "text": "울 국립기상박물관은 대한민국의 기상과 날씨에 관련된 다양한 정보와 자료를 전시하는 특별한 박물관이다. 서울시 종로구에 위치한 이 박물관은 기상학의 발전, 기후 변화, 날씨 예측 기술 등을 주제로 한 전시를 통해 방문객들에게 기상과 날씨의 중요성을 알리고 있다. 박물관은 기상과 관련된 역사적 자료와 최첨단 기상 관측 기술을 소개하며, 기후 변화와 자연재해에 대한 이해를 돕는 다양한 체험 프로그램도 제공한다. 전시물은 기상 장비, 예보 시스템, 세계 각국의 기상 사례 등을 포함하고 있으며, 어린이와 청소년을 위한 교육 프로그램도 마련되어 있어, 기상과 날씨에 대한 관심을 자연스럽게 키울 수 있는 장소이다. 특히, 기상 예보의 정확성과 기후 변화 대응에 대한 최신 정보를 제공하며, 과학적이고 교육적인 관점에서 기상에 대한 지식을 쌓을 수 있는 기회를 제공한다. 또한, 박물관 내에는 기상관측 체험을 할 수 있는 공간도 마련되어 있어, 관람객들이 실제 기상 데이터를 직접 체험하고 배우는 즐거운 경험을 제공한다. 서울 국립기상박물관은 날씨와 기후 변화가 현대 사회에 미치는 영향을 깊이 이해하고, 이를 해결하기 위한 과학적 접근을 배우는 중요한 교육의 장이다. 기상학에 대한 흥미를 높이고, 기후 문제에 대한 경각심을 일깨울 수 있는 특별한 공간으로 많은 이들에게 유익한 정보를 제공하는 곳이다.",
+      "sido": "서울특별시",
+      "sigungu": "종로구",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=258"
+      ],
+      "evidence_id": "E4",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=367",
+        "fields": {
+          "name": "국립기상박물관",
+          "sido": "서울특별시",
+          "sigungu": "종로구",
+          "address": "서울특별시 종로구 송월길 52",
+          "ownership_type": "국립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "10:00",
+          "weekday_close": "18:00",
+          "holiday_open": "10:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "1월 1일, 설, 추석 당일, 매주 월요일(월요일이 공휴일, 또는 대체 공휴일인 경우 다음 첫번째 평일)"
+        },
+        "base_data_date": "2026-04-08",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0292",
+      "name": "필암서원 유물전시관",
+      "document": "유물전시관은 필암서원과 하서 김인후 관련 유물을 보관하고, 정보를 제공하기 위해 1999년 설립하였으며, 2008년 시설을 증축하여 새롭게 개관하였다. 현재 3,744점의 유물을 소장하고 있으며, 관람객들에게 다양한 볼거리를 제공하고 있다.",
+      "metadata": {
+        "sido": "전남광주특별자치도",
+        "weekday_close": "18:00",
+        "weekday_open": "09:00",
+        "name": "필암서원 유물전시관",
+        "amenities_raw": "주차장+화장실",
+        "holiday_close": "18:00",
+        "holiday_open": "09:00",
+        "latitude": 35.309894,
+        "longitude": 126.751069,
+        "transport_notes": "농어촌 버스 46 : 장성터미널 탑승 →원필암정류장 하차",
+        "requires_manual_review": true,
+        "adult_fee": 0.0,
+        "ownership_type": "공립",
+        "sigungu": "장성군",
+        "source_types": "BASE",
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "address": "전남광주통합특별시 장성군 황룡면 필암서원로 187",
+        "youth_fee": 0.0,
+        "closure_rule_raw": "1월1일+설날 당일+추석 당일",
+        "child_fee": 0.0,
+        "homepage_url": "https://www.jangseong.go.kr/home/tour/spectacle/spectacle_01/spectacle_01_14"
+      },
+      "vector_rank": 3,
+      "bm25_rank": null,
+      "vector_distance": 0.5567960739135742,
+      "vector_score": null,
+      "bm25_score": null,
+      "vector_document": "유물전시관은 필암서원과 하서 김인후 관련 유물을 보관하고, 정보를 제공하기 위해 1999년 설립하였으며, 2008년 시설을 증축하여 새롭게 개관하였다. 현재 3,744점의 유물을 소장하고 있으며, 관람객들에게 다양한 볼거리를 제공하고 있다.",
+      "bm25_document": "",
+      "best_span_id": null,
+      "best_span_text": null,
+      "fusion_score": 0.015873015873015872,
+      "retrieved_by": [
+        "vector"
+      ],
+      "fusion_rank": 9,
+      "rerank_score": 0.0003426640178076923,
+      "rank": 5,
+      "score": 0.0003426640178076923,
+      "score_type": "cross_encoder",
+      "distance": 0.5567960739135742,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector"
+      ],
+      "retriever": "vector",
+      "source_doc_ids": [
+        "DOC-B0292-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0292-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0292",
+          "source_locator": "data/raw/museum_base_1070.csv#row=293",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 84,
+          "doc_ids": [
+            "DOC-B0292-BASE"
+          ]
+        },
+        {
+          "start": 85,
+          "end": 134,
+          "doc_ids": [
+            "DOC-B0292-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_base_1070.csv#row=293",
+      "text": "유물전시관은 필암서원과 하서 김인후 관련 유물을 보관하고, 정보를 제공하기 위해 1999년 설립하였으며, 2008년 시설을 증축하여 새롭게 개관하였다. 현재 3,744점의 유물을 소장하고 있으며, 관람객들에게 다양한 볼거리를 제공하고 있다.",
+      "sido": "전남광주특별자치도",
+      "sigungu": "장성군",
+      "span_id": "",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_base_1070.csv#row=293"
+      ],
+      "evidence_id": "E5",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=206",
+        "fields": {
+          "name": "필암서원 유물전시관",
+          "sido": "전남광주통합특별시",
+          "sigungu": "장성군",
+          "address": "전남광주통합특별시 장성군 황룡면 필암서원로 187",
+          "ownership_type": "공립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "09:00",
+          "weekday_close": "18:00",
+          "holiday_open": "09:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "1월1일+설날 당일+추석 당일",
+          "amenities_raw": "주차장+화장실"
+        },
+        "base_data_date": "2026-08-03",
+        "trust": "derived_dataset_not_human_verified",
+        "normalizations": {
+          "sido": {
+            "source_value": "전남광주통합특별시",
+            "matched_value": "전남광주특별자치도",
+            "rule": "configured_sido_alias"
+          }
+        }
+      }
+    }
+  ],
+  "answer": "국립항공박물관에서는 항공 역사·항공 산업·항공 생활·야외 전시·기획 전시를 둘러볼 수 있고, 국내외 항공의 역사도 자세히 소개합니다.[E1] 실물 비행기 16대와 항공 관련 전시물을 볼 수 있으며, 항공사별 항공기 등록 현황과 조종사·승무원 현황에 관한 정보도 살펴볼 수 있습니다.[E1] 각종 체험을 통해 미래 항공 기술의 발전도 알아볼 수 있습니다.[E1]",
+  "retrieval_status": "ok",
+  "answer_status": "answered",
+  "route": "hybrid",
+  "retry_count": 1,
+  "supervisor_verified": true,
+  "rerank_applied": true,
+  "retriever_errors": [],
+  "warnings": [],
+  "duration_ms": 84652.38,
+  "error_type": "",
+  "hit_at_1": 1,
+  "hit_at_3": 1,
+  "hit_at_5": 1,
+  "recall_at_5": 1.0,
+  "mrr_at_10": 1.0
+}

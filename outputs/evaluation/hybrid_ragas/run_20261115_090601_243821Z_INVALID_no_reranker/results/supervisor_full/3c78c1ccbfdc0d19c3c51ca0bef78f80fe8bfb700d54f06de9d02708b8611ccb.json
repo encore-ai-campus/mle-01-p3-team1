@@ -1,0 +1,752 @@
+{
+  "mode": "supervisor_full",
+  "question_id": "Q251",
+  "evidence": [
+    {
+      "museum_id": "M0435",
+      "name": "모산조형미술관",
+      "document": "모산조형미술관이 자리 잡고 있는 보령시 성주면은 예로부터 ‘남포오석’이라 불리는 오석과 청석의 주산지이다. 오석은 비석의 재료로, 청석은 벼루 재료로 최고의 품질을 인정받았으며 이를 바탕으로 석재산업이 발달한 곳이다. 모산조형미술관은 개관 이래 이 ‘남포오석’이라는 미술관만의 독창적인 컨텐츠를 구축해왔고, 이를 중심으로 한 지역미술문화의 활성화를 위해 노력하고 있다.",
+      "metadata": {
+        "weekday_close": "18:00",
+        "child_fee": 0.0,
+        "weekday_open": "09:00",
+        "holiday_close": "18:00",
+        "sido": "충청남도",
+        "amenities_raw": "카페",
+        "longitude": 126.6577924,
+        "closure_rule_raw": "연중무휴",
+        "latitude": 36.3111117,
+        "fee_notes": "무료",
+        "address": "충청남도 보령시 성주면 성주산로 673-24",
+        "adult_fee": 0.0,
+        "holiday_open": "09:30",
+        "transport_notes": "승용차 15분대천역 → 보령시청 → 석탄박물관 →모산조형미술관대중교통 (25minutes)버스이용번호 (Bus number)809+801+801-1+801-2+800-2+813대천역 (성주/외산방면) → 보령시청 → 석탄박물관 → 모산조형미술관",
+        "homepage_url": "http://mosanmuseum.com/",
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "youth_fee": 0.0,
+        "requires_manual_review": false,
+        "ownership_type": "사립",
+        "name": "모산조형미술관",
+        "sigungu": "보령시",
+        "source_types": "BASE"
+      },
+      "vector_rank": 1,
+      "bm25_rank": 1,
+      "vector_distance": 0.5240116119384766,
+      "vector_score": null,
+      "bm25_score": 48.067315463860005,
+      "vector_document": "모산조형미술관이 자리 잡고 있는 보령시 성주면은 예로부터 ‘남포오석’이라 불리는 오석과 청석의 주산지이다. 오석은 비석의 재료로, 청석은 벼루 재료로 최고의 품질을 인정받았으며 이를 바탕으로 석재산업이 발달한 곳이다. 모산조형미술관은 개관 이래 이 ‘남포오석’이라는 미술관만의 독창적인 컨텐츠를 구축해왔고, 이를 중심으로 한 지역미술문화의 활성화를 위해 노력하고 있다.",
+      "bm25_document": "모산조형미술관이 자리 잡고 있는 보령시 성주면은 예로부터 ‘남포오석’이라 불리는 오석과 청석의 주산지이다. 오석은 비석의 재료로, 청석은 벼루 재료로 최고의 품질을 인정받았으며 이를 바탕으로 석재산업이 발달한 곳이다. 모산조형미술관은 개관 이래 이 ‘남포오석’이라는 미술관만의 독창적인 컨텐츠를 구축해왔고, 이를 중심으로 한 지역미술문화의 활성화를 위해 노력하고 있다.",
+      "best_span_id": "chroma:M0435",
+      "best_span_text": "모산조형미술관이 자리 잡고 있는 보령시 성주면은 예로부터 ‘남포오석’이라 불리는 오석과 청석의 주산지이다. 오석은 비석의 재료로, 청석은 벼루 재료로 최고의 품질을 인정받았으며 이를 바탕으로 석재산업이 발달한 곳이다. 모산조형미술관은 개관 이래 이 ‘남포오석’이라는 미술관만의 독창적인 컨텐츠를 구축해왔고, 이를 중심으로 한 지역미술문화의 활성화를 위해 노력하고 있다.",
+      "fusion_score": 0.03278688524590164,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 1,
+      "name_match": true,
+      "rerank_score": null,
+      "rank": 1,
+      "score": 0.03278688524590164,
+      "score_type": "rrf",
+      "distance": 0.5240116119384766,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0435",
+      "source_doc_ids": [
+        "DOC-B0435-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0435-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0435",
+          "source_locator": "data/raw/museum_base_1070.csv#row=436",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 59,
+          "doc_ids": [
+            "DOC-B0435-BASE"
+          ]
+        },
+        {
+          "start": 60,
+          "end": 121,
+          "doc_ids": [
+            "DOC-B0435-BASE"
+          ]
+        },
+        {
+          "start": 122,
+          "end": 206,
+          "doc_ids": [
+            "DOC-B0435-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_base_1070.csv#row=436",
+      "text": "모산조형미술관이 자리 잡고 있는 보령시 성주면은 예로부터 ‘남포오석’이라 불리는 오석과 청석의 주산지이다. 오석은 비석의 재료로, 청석은 벼루 재료로 최고의 품질을 인정받았으며 이를 바탕으로 석재산업이 발달한 곳이다. 모산조형미술관은 개관 이래 이 ‘남포오석’이라는 미술관만의 독창적인 컨텐츠를 구축해왔고, 이를 중심으로 한 지역미술문화의 활성화를 위해 노력하고 있다.",
+      "sido": "충청남도",
+      "sigungu": "보령시",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_base_1070.csv#row=436"
+      ],
+      "evidence_id": "E1",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=309",
+        "fields": {
+          "name": "모산조형미술관",
+          "sido": "충청남도",
+          "sigungu": "보령시",
+          "address": "충청남도 보령시 성주면 성주산로 673-24",
+          "ownership_type": "사립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "09:00",
+          "weekday_close": "18:00",
+          "holiday_open": "09:30",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "연중무휴",
+          "amenities_raw": "카페"
+        },
+        "base_data_date": "2026-04-03",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0598",
+      "name": "설미재미술관",
+      "document": "설미재미술관은 천혜의 자연향기가 가득한 문화 예술 공간이다. 가평지역사회의 문화 교육과 작가 초대전 및 교류전을 기획하면서 한국 현대미술의 한 축을 담당하고 있으며, 가평 지역 문화 발전을 위해 매년 공모를 거쳐 가평의 작가를 초빙해 기획전을 개최하고 있다. 가평군민들의 문화적 소양을 함양시켜 주는 것뿐만 아니라, 젊은 미술 작가들을 육성하고 가평지역 학생들에게 창의적인 미술교육을 실행하고자 설립하였다. 설미재 미술관의 전시실에서는 주로 기획전이 개최된다. 조형 연구소에서는 세미나가 주로 진행되며, 창작 스튜디오 3개실을 통하여 신진 작가들을 육성하는 동시에 공동체를 이루고 활성화하고 있다. 비전 있는 젊은 작가를 육성하여 작가 공동체를 활성화 하고 아울러 전문적인 미술교육 체험 프로그램을 개발하여 지역 사회 학생들에게 창의적 미술교육을 실행하고 있음",
+      "metadata": {
+        "ownership_type": "사립",
+        "youth_fee": 2500.0,
+        "longitude": 127.482238,
+        "weekday_close": "17:00",
+        "transport_notes": "버스:6-10,32-11,32-14",
+        "name": "설미재미술관",
+        "sigungu": "가평군",
+        "homepage_url": "http://www.artsm.kr/",
+        "adult_fee": 3000.0,
+        "requires_manual_review": true,
+        "closure_rule_raw": "월+설날연휴+추석연휴",
+        "image_copyright": "Type3",
+        "amenities_raw": "주차장(20대)+사진촬영허가",
+        "address": "경기도 가평군 설악면 유명로 1454-38",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/74/3499774_image2_1.JPG",
+        "fee_notes": "무료(7세미만 어린이+국가유공자 및 장애인+매월 마지막 수요일)",
+        "latitude": 37.660885,
+        "holiday_open": "10:00",
+        "sido": "경기도",
+        "adult_fee_status": "BASE_FEE_PAID",
+        "source_types": "BASE|TOUR_API",
+        "holiday_close": "17:00",
+        "child_fee": 2500.0,
+        "weekday_open": "10:00"
+      },
+      "vector_rank": 5,
+      "bm25_rank": 2,
+      "vector_distance": 0.5488742589950562,
+      "vector_score": null,
+      "bm25_score": 20.162973573673376,
+      "vector_document": "설미재미술관은 천혜의 자연향기가 가득한 문화 예술 공간이다. 가평지역사회의 문화 교육과 작가 초대전 및 교류전을 기획하면서 한국 현대미술의 한 축을 담당하고 있으며, 가평 지역 문화 발전을 위해 매년 공모를 거쳐 가평의 작가를 초빙해 기획전을 개최하고 있다. 가평군민들의 문화적 소양을 함양시켜 주는 것뿐만 아니라, 젊은 미술 작가들을 육성하고 가평지역 학생들에게 창의적인 미술교육을 실행하고자 설립하였다. 설미재 미술관의 전시실에서는 주로 기획전이 개최된다. 조형 연구소에서는 세미나가 주로 진행되며, 창작 스튜디오 3개실을 통하여 신진 작가들을 육성하는 동시에 공동체를 이루고 활성화하고 있다. 비전 있는 젊은 작가를 육성하여 작가 공동체를 활성화 하고 아울러 전문적인 미술교육 체험 프로그램을 개발하여 지역 사회 학생들에게 창의적 미술교육을 실행하고 있음",
+      "bm25_document": "설미재미술관은 천혜의 자연향기가 가득한 문화 예술 공간이다. 가평지역사회의 문화 교육과 작가 초대전 및 교류전을 기획하면서 한국 현대미술의 한 축을 담당하고 있으며, 가평 지역 문화 발전을 위해 매년 공모를 거쳐 가평의 작가를 초빙해 기획전을 개최하고 있다. 가평군민들의 문화적 소양을 함양시켜 주는 것뿐만 아니라, 젊은 미술 작가들을 육성하고 가평지역 학생들에게 창의적인 미술교육을 실행하고자 설립하였다. 설미재 미술관의 전시실에서는 주로 기획전이 개최된다. 조형 연구소에서는 세미나가 주로 진행되며, 창작 스튜디오 3개실을 통하여 신진 작가들을 육성하는 동시에 공동체를 이루고 활성화하고 있다. 비전 있는 젊은 작가를 육성하여 작가 공동체를 활성화 하고 아울러 전문적인 미술교육 체험 프로그램을 개발하여 지역 사회 학생들에게 창의적 미술교육을 실행하고 있음",
+      "best_span_id": "chroma:M0598",
+      "best_span_text": "설미재미술관은 천혜의 자연향기가 가득한 문화 예술 공간이다. 가평지역사회의 문화 교육과 작가 초대전 및 교류전을 기획하면서 한국 현대미술의 한 축을 담당하고 있으며, 가평 지역 문화 발전을 위해 매년 공모를 거쳐 가평의 작가를 초빙해 기획전을 개최하고 있다. 가평군민들의 문화적 소양을 함양시켜 주는 것뿐만 아니라, 젊은 미술 작가들을 육성하고 가평지역 학생들에게 창의적인 미술교육을 실행하고자 설립하였다. 설미재 미술관의 전시실에서는 주로 기획전이 개최된다. 조형 연구소에서는 세미나가 주로 진행되며, 창작 스튜디오 3개실을 통하여 신진 작가들을 육성하는 동시에 공동체를 이루고 활성화하고 있다. 비전 있는 젊은 작가를 육성하여 작가 공동체를 활성화 하고 아울러 전문적인 미술교육 체험 프로그램을 개발하여 지역 사회 학생들에게 창의적 미술교육을 실행하고 있음",
+      "fusion_score": 0.0315136476426799,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 2,
+      "rerank_score": null,
+      "rank": 2,
+      "score": 0.0315136476426799,
+      "score_type": "rrf",
+      "distance": 0.5488742589950562,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0598",
+      "source_doc_ids": [
+        "DOC-B0598-TOUR_API-2554994",
+        "DOC-B0598-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0598-TOUR_API-2554994",
+          "source_type": "TOUR_API",
+          "source_record_id": "2554994",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=298",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        },
+        {
+          "doc_id": "DOC-B0598-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0598",
+          "source_locator": "data/raw/museum_base_1070.csv#row=599",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 33,
+          "doc_ids": [
+            "DOC-B0598-TOUR_API-2554994"
+          ]
+        },
+        {
+          "start": 34,
+          "end": 144,
+          "doc_ids": [
+            "DOC-B0598-TOUR_API-2554994"
+          ]
+        },
+        {
+          "start": 145,
+          "end": 227,
+          "doc_ids": [
+            "DOC-B0598-TOUR_API-2554994"
+          ]
+        },
+        {
+          "start": 228,
+          "end": 257,
+          "doc_ids": [
+            "DOC-B0598-TOUR_API-2554994"
+          ]
+        },
+        {
+          "start": 258,
+          "end": 334,
+          "doc_ids": [
+            "DOC-B0598-TOUR_API-2554994"
+          ]
+        },
+        {
+          "start": 335,
+          "end": 425,
+          "doc_ids": [
+            "DOC-B0598-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=298",
+      "text": "설미재미술관은 천혜의 자연향기가 가득한 문화 예술 공간이다. 가평지역사회의 문화 교육과 작가 초대전 및 교류전을 기획하면서 한국 현대미술의 한 축을 담당하고 있으며, 가평 지역 문화 발전을 위해 매년 공모를 거쳐 가평의 작가를 초빙해 기획전을 개최하고 있다. 가평군민들의 문화적 소양을 함양시켜 주는 것뿐만 아니라, 젊은 미술 작가들을 육성하고 가평지역 학생들에게 창의적인 미술교육을 실행하고자 설립하였다. 설미재 미술관의 전시실에서는 주로 기획전이 개최된다. 조형 연구소에서는 세미나가 주로 진행되며, 창작 스튜디오 3개실을 통하여 신진 작가들을 육성하는 동시에 공동체를 이루고 활성화하고 있다. 비전 있는 젊은 작가를 육성하여 작가 공동체를 활성화 하고 아울러 전문적인 미술교육 체험 프로그램을 개발하여 지역 사회 학생들에게 창의적 미술교육을 실행하고 있음",
+      "sido": "경기도",
+      "sigungu": "가평군",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=298"
+      ],
+      "evidence_id": "E2",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=418",
+        "fields": {
+          "name": "설미재미술관",
+          "sido": "경기도",
+          "sigungu": "가평군",
+          "address": "경기도 가평군 설악면 유명로 1454-38",
+          "ownership_type": "사립",
+          "adult_fee": "3000",
+          "youth_fee": "2500",
+          "child_fee": "2500",
+          "adult_fee_status": "BASE_FEE_PAID",
+          "weekday_open": "10:00",
+          "weekday_close": "17:00",
+          "holiday_open": "10:00",
+          "holiday_close": "17:00",
+          "closure_rule_raw": "월+설날연휴+추석연휴",
+          "amenities_raw": "주차장(20대)+사진촬영허가"
+        },
+        "base_data_date": "2025-12-26",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M1053",
+      "name": "보름산미술관",
+      "document": "보름산미술관은 고촌 보름산 자락에 자리 잡은 지역문화공간이다. 미술 작품뿐만 아니라 목가구와 석물 그리고 옛 기와 등 소장품을 감상할 수 있다. 차를 마시고 책을 읽을 수도 있으며 작은 음악회를 만날 수도 있다. 가족 중심의 생활 친화적, 자연 친화적 미술관의 역할을 강조하며 지역 주민들과 미술관의 인프라를 나누는 커뮤니티 형성에 힘쓰고 있다. 고촌 보름산 자락에 자리잡은 지역문화 공간",
+      "metadata": {
+        "homepage_url": "http://www.boroomsan.com",
+        "fee_notes": "단체관람 사전예약 필요(인당 7천원)",
+        "requires_manual_review": true,
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/64/3467364_image2_1.JPG",
+        "sigungu": "김포시",
+        "name": "보름산미술관",
+        "amenities_raw": "카페",
+        "weekday_open": "10:00",
+        "child_fee": 0.0,
+        "weekday_close": "18:00",
+        "youth_fee": 0.0,
+        "adult_fee": 0.0,
+        "ownership_type": "사립",
+        "holiday_close": "18:00",
+        "source_types": "BASE|TOUR_API",
+        "latitude": 37.5963635,
+        "closure_rule_raw": "매주 월/1월1일/설 연휴 당일/추석 연휴 당일",
+        "sido": "경기도",
+        "longitude": 126.760883,
+        "transport_notes": "보름초등학교 정류장 하차 후, 도보 5분",
+        "address": "경기도 김포시 고촌읍 수기로 100-78",
+        "image_copyright": "Type3",
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "holiday_open": "11:00"
+      },
+      "vector_rank": 7,
+      "bm25_rank": 4,
+      "vector_distance": 0.5567533373832703,
+      "vector_score": null,
+      "bm25_score": 16.35172358223344,
+      "vector_document": "보름산미술관은 고촌 보름산 자락에 자리 잡은 지역문화공간이다. 미술 작품뿐만 아니라 목가구와 석물 그리고 옛 기와 등 소장품을 감상할 수 있다. 차를 마시고 책을 읽을 수도 있으며 작은 음악회를 만날 수도 있다. 가족 중심의 생활 친화적, 자연 친화적 미술관의 역할을 강조하며 지역 주민들과 미술관의 인프라를 나누는 커뮤니티 형성에 힘쓰고 있다. 고촌 보름산 자락에 자리잡은 지역문화 공간",
+      "bm25_document": "보름산미술관은 고촌 보름산 자락에 자리 잡은 지역문화공간이다. 미술 작품뿐만 아니라 목가구와 석물 그리고 옛 기와 등 소장품을 감상할 수 있다. 차를 마시고 책을 읽을 수도 있으며 작은 음악회를 만날 수도 있다. 가족 중심의 생활 친화적, 자연 친화적 미술관의 역할을 강조하며 지역 주민들과 미술관의 인프라를 나누는 커뮤니티 형성에 힘쓰고 있다. 고촌 보름산 자락에 자리잡은 지역문화 공간",
+      "best_span_id": "chroma:M1053",
+      "best_span_text": "보름산미술관은 고촌 보름산 자락에 자리 잡은 지역문화공간이다. 미술 작품뿐만 아니라 목가구와 석물 그리고 옛 기와 등 소장품을 감상할 수 있다. 차를 마시고 책을 읽을 수도 있으며 작은 음악회를 만날 수도 있다. 가족 중심의 생활 친화적, 자연 친화적 미술관의 역할을 강조하며 지역 주민들과 미술관의 인프라를 나누는 커뮤니티 형성에 힘쓰고 있다. 고촌 보름산 자락에 자리잡은 지역문화 공간",
+      "fusion_score": 0.03055037313432836,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 3,
+      "rerank_score": null,
+      "rank": 3,
+      "score": 0.03055037313432836,
+      "score_type": "rrf",
+      "distance": 0.5567533373832703,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M1053",
+      "source_doc_ids": [
+        "DOC-B1053-TOUR_API-2550763",
+        "DOC-B1053-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B1053-TOUR_API-2550763",
+          "source_type": "TOUR_API",
+          "source_record_id": "2550763",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=486",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        },
+        {
+          "doc_id": "DOC-B1053-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B1053",
+          "source_locator": "data/raw/museum_base_1070.csv#row=1054",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 34,
+          "doc_ids": [
+            "DOC-B1053-TOUR_API-2550763"
+          ]
+        },
+        {
+          "start": 35,
+          "end": 80,
+          "doc_ids": [
+            "DOC-B1053-TOUR_API-2550763"
+          ]
+        },
+        {
+          "start": 81,
+          "end": 118,
+          "doc_ids": [
+            "DOC-B1053-TOUR_API-2550763"
+          ]
+        },
+        {
+          "start": 119,
+          "end": 193,
+          "doc_ids": [
+            "DOC-B1053-TOUR_API-2550763"
+          ]
+        },
+        {
+          "start": 194,
+          "end": 217,
+          "doc_ids": [
+            "DOC-B1053-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=486",
+      "text": "보름산미술관은 고촌 보름산 자락에 자리 잡은 지역문화공간이다. 미술 작품뿐만 아니라 목가구와 석물 그리고 옛 기와 등 소장품을 감상할 수 있다. 차를 마시고 책을 읽을 수도 있으며 작은 음악회를 만날 수도 있다. 가족 중심의 생활 친화적, 자연 친화적 미술관의 역할을 강조하며 지역 주민들과 미술관의 인프라를 나누는 커뮤니티 형성에 힘쓰고 있다. 고촌 보름산 자락에 자리잡은 지역문화 공간",
+      "sido": "경기도",
+      "sigungu": "김포시",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=486"
+      ],
+      "evidence_id": "E3",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=726",
+        "fields": {
+          "name": "보름산미술관",
+          "sido": "경기도",
+          "sigungu": "김포시",
+          "address": "경기도 김포시 고촌읍 수기로 100-78",
+          "ownership_type": "사립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "10:00",
+          "weekday_close": "18:00",
+          "holiday_open": "11:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "매주 월/1월1일/설 연휴 당일/추석 연휴 당일",
+          "amenities_raw": "카페"
+        },
+        "base_data_date": "2025-11-17",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0550",
+      "name": "영은미술관",
+      "document": "영은미술관은 한국 문화예술 창작활동을 지원하고자 설립된 대유문화재단을 모태로 2000년 11월 개관했다. 경기도 광주시 경안 천변의 수려한 자연환경 속에 위치한 이곳은 동시대 현대미술 작품을 소장, 연구, 전시하는 현대미술관과 창작스튜디오를 중심으로 운영되고 있다. 복합문화공간을 지향하는 영은미술관은 조형예술의 틀을 넘어 형식과 내용이 공존·교차하는 예술적 시도를 이어가며, 예술의 대중적 기반을 넓혀가는 동시에 예술의 대중화에 기여하고자 한다. 기획전과 개인전을 통해 국내외 현대미술 주요 작가의 작품을 소개하고, 동시대 미술의 흐름과 함께 경험할 수 있도록 한다. 또한, 전시와 연계된 세미나, 워크숍 등을 개최하여 현대미술의 주요 쟁점과 논제에 대한 활발한 담론을 형성해 나가고 있다. 동시대 현대미술 작품을 소장, 전시하는 현대미술관과 국내 초유의 창작스튜디오를 겸비한 복합문화공간이다.",
+      "metadata": {
+        "child_fee": 5000.0,
+        "ownership_type": "사립",
+        "adult_fee": 10000.0,
+        "closure_rule_raw": "월요일+화요일+신정+설연휴+추석연휴+1.1.~3.20.",
+        "weekday_close": "18:00",
+        "source_types": "BASE|TOUR_API",
+        "sido": "경기도",
+        "sigungu": "광주시",
+        "name": "영은미술관",
+        "youth_fee": 7000.0,
+        "image_copyright": "Type3",
+        "longitude": 127.268748,
+        "holiday_close": "18:00",
+        "requires_manual_review": true,
+        "homepage_url": "https://www.youngeunmuseum.org/",
+        "adult_fee_status": "BASE_FEE_PAID",
+        "holiday_open": "10:00",
+        "weekday_open": "10:00",
+        "latitude": 37.41355842,
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/77/4098677_image2_1.jpg",
+        "address": "경기도 광주시 청석로 300(쌍령동)"
+      },
+      "vector_rank": 6,
+      "bm25_rank": 6,
+      "vector_distance": 0.5508861541748047,
+      "vector_score": null,
+      "bm25_score": 14.658498467994374,
+      "vector_document": "영은미술관은 한국 문화예술 창작활동을 지원하고자 설립된 대유문화재단을 모태로 2000년 11월 개관했다. 경기도 광주시 경안 천변의 수려한 자연환경 속에 위치한 이곳은 동시대 현대미술 작품을 소장, 연구, 전시하는 현대미술관과 창작스튜디오를 중심으로 운영되고 있다. 복합문화공간을 지향하는 영은미술관은 조형예술의 틀을 넘어 형식과 내용이 공존·교차하는 예술적 시도를 이어가며, 예술의 대중적 기반을 넓혀가는 동시에 예술의 대중화에 기여하고자 한다. 기획전과 개인전을 통해 국내외 현대미술 주요 작가의 작품을 소개하고, 동시대 미술의 흐름과 함께 경험할 수 있도록 한다. 또한, 전시와 연계된 세미나, 워크숍 등을 개최하여 현대미술의 주요 쟁점과 논제에 대한 활발한 담론을 형성해 나가고 있다. 동시대 현대미술 작품을 소장, 전시하는 현대미술관과 국내 초유의 창작스튜디오를 겸비한 복합문화공간이다.",
+      "bm25_document": "영은미술관은 한국 문화예술 창작활동을 지원하고자 설립된 대유문화재단을 모태로 2000년 11월 개관했다. 경기도 광주시 경안 천변의 수려한 자연환경 속에 위치한 이곳은 동시대 현대미술 작품을 소장, 연구, 전시하는 현대미술관과 창작스튜디오를 중심으로 운영되고 있다. 복합문화공간을 지향하는 영은미술관은 조형예술의 틀을 넘어 형식과 내용이 공존·교차하는 예술적 시도를 이어가며, 예술의 대중적 기반을 넓혀가는 동시에 예술의 대중화에 기여하고자 한다. 기획전과 개인전을 통해 국내외 현대미술 주요 작가의 작품을 소개하고, 동시대 미술의 흐름과 함께 경험할 수 있도록 한다. 또한, 전시와 연계된 세미나, 워크숍 등을 개최하여 현대미술의 주요 쟁점과 논제에 대한 활발한 담론을 형성해 나가고 있다. 동시대 현대미술 작품을 소장, 전시하는 현대미술관과 국내 초유의 창작스튜디오를 겸비한 복합문화공간이다.",
+      "best_span_id": "chroma:M0550",
+      "best_span_text": "영은미술관은 한국 문화예술 창작활동을 지원하고자 설립된 대유문화재단을 모태로 2000년 11월 개관했다. 경기도 광주시 경안 천변의 수려한 자연환경 속에 위치한 이곳은 동시대 현대미술 작품을 소장, 연구, 전시하는 현대미술관과 창작스튜디오를 중심으로 운영되고 있다. 복합문화공간을 지향하는 영은미술관은 조형예술의 틀을 넘어 형식과 내용이 공존·교차하는 예술적 시도를 이어가며, 예술의 대중적 기반을 넓혀가는 동시에 예술의 대중화에 기여하고자 한다. 기획전과 개인전을 통해 국내외 현대미술 주요 작가의 작품을 소개하고, 동시대 미술의 흐름과 함께 경험할 수 있도록 한다. 또한, 전시와 연계된 세미나, 워크숍 등을 개최하여 현대미술의 주요 쟁점과 논제에 대한 활발한 담론을 형성해 나가고 있다. 동시대 현대미술 작품을 소장, 전시하는 현대미술관과 국내 초유의 창작스튜디오를 겸비한 복합문화공간이다.",
+      "fusion_score": 0.030303030303030304,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 4,
+      "rerank_score": null,
+      "rank": 4,
+      "score": 0.030303030303030304,
+      "score_type": "rrf",
+      "distance": 0.5508861541748047,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0550",
+      "source_doc_ids": [
+        "DOC-B0550-TOUR_API-130412",
+        "DOC-B0550-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0550-TOUR_API-130412",
+          "source_type": "TOUR_API",
+          "source_record_id": "130412",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=272",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        },
+        {
+          "doc_id": "DOC-B0550-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0550",
+          "source_locator": "data/raw/museum_base_1070.csv#row=551",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 58,
+          "doc_ids": [
+            "DOC-B0550-TOUR_API-130412"
+          ]
+        },
+        {
+          "start": 59,
+          "end": 148,
+          "doc_ids": [
+            "DOC-B0550-TOUR_API-130412"
+          ]
+        },
+        {
+          "start": 149,
+          "end": 250,
+          "doc_ids": [
+            "DOC-B0550-TOUR_API-130412"
+          ]
+        },
+        {
+          "start": 251,
+          "end": 318,
+          "doc_ids": [
+            "DOC-B0550-TOUR_API-130412"
+          ]
+        },
+        {
+          "start": 319,
+          "end": 387,
+          "doc_ids": [
+            "DOC-B0550-TOUR_API-130412"
+          ]
+        },
+        {
+          "start": 388,
+          "end": 445,
+          "doc_ids": [
+            "DOC-B0550-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=272",
+      "text": "영은미술관은 한국 문화예술 창작활동을 지원하고자 설립된 대유문화재단을 모태로 2000년 11월 개관했다. 경기도 광주시 경안 천변의 수려한 자연환경 속에 위치한 이곳은 동시대 현대미술 작품을 소장, 연구, 전시하는 현대미술관과 창작스튜디오를 중심으로 운영되고 있다. 복합문화공간을 지향하는 영은미술관은 조형예술의 틀을 넘어 형식과 내용이 공존·교차하는 예술적 시도를 이어가며, 예술의 대중적 기반을 넓혀가는 동시에 예술의 대중화에 기여하고자 한다. 기획전과 개인전을 통해 국내외 현대미술 주요 작가의 작품을 소개하고, 동시대 미술의 흐름과 함께 경험할 수 있도록 한다. 또한, 전시와 연계된 세미나, 워크숍 등을 개최하여 현대미술의 주요 쟁점과 논제에 대한 활발한 담론을 형성해 나가고 있다. 동시대 현대미술 작품을 소장, 전시하는 현대미술관과 국내 초유의 창작스튜디오를 겸비한 복합문화공간이다.",
+      "sido": "경기도",
+      "sigungu": "광주시",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=272"
+      ],
+      "evidence_id": "E4",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=387",
+        "fields": {
+          "name": "영은미술관",
+          "sido": "경기도",
+          "sigungu": "광주시",
+          "address": "경기도 광주시 청석로 300(쌍령동)",
+          "ownership_type": "사립",
+          "adult_fee": "10000",
+          "youth_fee": "7000",
+          "child_fee": "5000",
+          "adult_fee_status": "BASE_FEE_PAID",
+          "weekday_open": "10:00",
+          "weekday_close": "18:00",
+          "holiday_open": "10:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "월요일+화요일+신정+설연휴+추석연휴+1.1.~3.20."
+        },
+        "base_data_date": "2026-02-04",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0280",
+      "name": "성남큐브미술관",
+      "document": "성남문화재단이 운영하는 성남큐브미술관은 지역의 유일한 공립미술관으로 지난 2012년 9월에 등록되어 성남 시민을 위한 미술문화 향유 공간 창출 및 지역 미술문화 발전을 위해 노력하고 있다. 동시대 국내외 이슈와 미감을 전시로 풀어내는 동시대미감전과 동시대이슈전 지역 예술가의 작품을 소개함으로써 성남의 미술 지형을 조망해 보는 성남의 얼굴전, 성남과 국내 로컬을 연결하여 문화적 교감의 플랫폼 역할을 모색하는 지역 예술가 교류전을 선보이고 있으며 지역 미술의 미래를 살피고 확장의 디딤돌 역할을 하고자 '성남작가조명전’을 개최하여 지역 미술을 집중 응원하고 있다. 또한 어린이를 동반한 온 가족이 함께 전시를 관람하며 제시한 주제와 의미를 생각해 보는 어린이 교육 체험전, 내부 학예 인력의 조사와 검토를 거쳐 대중적 흡입력 있는 국내외 유명 작가 전시를 여름 특별기획전과 겨울 특별기획전의 특별 전시로 개최하고 있으며 미술관의 교육적 기능을 수행하고자 기획 전시와 연계한 다양한 교육·체험 프로그램을 진행하고 있다. 지역의 유일한 공립 미술관으로, 성남 시민을 위한 미술 문화 향유 공간 창출 및 지역 미술 문화 발전을 위해 노력하고 있습니다.",
+      "metadata": {
+        "image_copyright": "Type3",
+        "weekday_open": "10:00",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/13/3336413_image2_1.jpg",
+        "sigungu": "성남시",
+        "adult_fee": 0.0,
+        "weekday_close": "18:00",
+        "ownership_type": "공립",
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "longitude": 127.130404,
+        "holiday_open": "10:00",
+        "youth_fee": 0.0,
+        "address": "경기도 성남시 분당구 성남대로 808",
+        "closure_rule_raw": "월요일+설날 연휴+추석 연휴",
+        "sido": "경기도",
+        "source_types": "BASE|TOUR_API",
+        "name": "성남큐브미술관",
+        "requires_manual_review": true,
+        "child_fee": 0.0,
+        "latitude": 37.402839,
+        "homepage_url": "http://www.snab.or.kr",
+        "holiday_close": "18:00",
+        "fee_notes": "기획전시 별도",
+        "transport_notes": "광역버스(9408/3330/4000/9607/7200)+일반버스(250/220/2-1/51/33-1/300/720/720-1/77-1/116-3/17/17-1/119)+지하철(분당선 이매역 1번 출구에서 도보 10분)"
+      },
+      "vector_rank": 2,
+      "bm25_rank": 11,
+      "vector_distance": 0.5364222526550293,
+      "vector_score": null,
+      "bm25_score": 13.147459153997227,
+      "vector_document": "성남문화재단이 운영하는 성남큐브미술관은 지역의 유일한 공립미술관으로 지난 2012년 9월에 등록되어 성남 시민을 위한 미술문화 향유 공간 창출 및 지역 미술문화 발전을 위해 노력하고 있다. 동시대 국내외 이슈와 미감을 전시로 풀어내는 동시대미감전과 동시대이슈전 지역 예술가의 작품을 소개함으로써 성남의 미술 지형을 조망해 보는 성남의 얼굴전, 성남과 국내 로컬을 연결하여 문화적 교감의 플랫폼 역할을 모색하는 지역 예술가 교류전을 선보이고 있으며 지역 미술의 미래를 살피고 확장의 디딤돌 역할을 하고자 '성남작가조명전’을 개최하여 지역 미술을 집중 응원하고 있다. 또한 어린이를 동반한 온 가족이 함께 전시를 관람하며 제시한 주제와 의미를 생각해 보는 어린이 교육 체험전, 내부 학예 인력의 조사와 검토를 거쳐 대중적 흡입력 있는 국내외 유명 작가 전시를 여름 특별기획전과 겨울 특별기획전의 특별 전시로 개최하고 있으며 미술관의 교육적 기능을 수행하고자 기획 전시와 연계한 다양한 교육·체험 프로그램을 진행하고 있다. 지역의 유일한 공립 미술관으로, 성남 시민을 위한 미술 문화 향유 공간 창출 및 지역 미술 문화 발전을 위해 노력하고 있습니다.",
+      "bm25_document": "성남문화재단이 운영하는 성남큐브미술관은 지역의 유일한 공립미술관으로 지난 2012년 9월에 등록되어 성남 시민을 위한 미술문화 향유 공간 창출 및 지역 미술문화 발전을 위해 노력하고 있다. 동시대 국내외 이슈와 미감을 전시로 풀어내는 동시대미감전과 동시대이슈전 지역 예술가의 작품을 소개함으로써 성남의 미술 지형을 조망해 보는 성남의 얼굴전, 성남과 국내 로컬을 연결하여 문화적 교감의 플랫폼 역할을 모색하는 지역 예술가 교류전을 선보이고 있으며 지역 미술의 미래를 살피고 확장의 디딤돌 역할을 하고자 '성남작가조명전’을 개최하여 지역 미술을 집중 응원하고 있다. 또한 어린이를 동반한 온 가족이 함께 전시를 관람하며 제시한 주제와 의미를 생각해 보는 어린이 교육 체험전, 내부 학예 인력의 조사와 검토를 거쳐 대중적 흡입력 있는 국내외 유명 작가 전시를 여름 특별기획전과 겨울 특별기획전의 특별 전시로 개최하고 있으며 미술관의 교육적 기능을 수행하고자 기획 전시와 연계한 다양한 교육·체험 프로그램을 진행하고 있다. 지역의 유일한 공립 미술관으로, 성남 시민을 위한 미술 문화 향유 공간 창출 및 지역 미술 문화 발전을 위해 노력하고 있습니다.",
+      "best_span_id": "chroma:M0280",
+      "best_span_text": "성남문화재단이 운영하는 성남큐브미술관은 지역의 유일한 공립미술관으로 지난 2012년 9월에 등록되어 성남 시민을 위한 미술문화 향유 공간 창출 및 지역 미술문화 발전을 위해 노력하고 있다. 동시대 국내외 이슈와 미감을 전시로 풀어내는 동시대미감전과 동시대이슈전 지역 예술가의 작품을 소개함으로써 성남의 미술 지형을 조망해 보는 성남의 얼굴전, 성남과 국내 로컬을 연결하여 문화적 교감의 플랫폼 역할을 모색하는 지역 예술가 교류전을 선보이고 있으며 지역 미술의 미래를 살피고 확장의 디딤돌 역할을 하고자 '성남작가조명전’을 개최하여 지역 미술을 집중 응원하고 있다. 또한 어린이를 동반한 온 가족이 함께 전시를 관람하며 제시한 주제와 의미를 생각해 보는 어린이 교육 체험전, 내부 학예 인력의 조사와 검토를 거쳐 대중적 흡입력 있는 국내외 유명 작가 전시를 여름 특별기획전과 겨울 특별기획전의 특별 전시로 개최하고 있으며 미술관의 교육적 기능을 수행하고자 기획 전시와 연계한 다양한 교육·체험 프로그램을 진행하고 있다. 지역의 유일한 공립 미술관으로, 성남 시민을 위한 미술 문화 향유 공간 창출 및 지역 미술 문화 발전을 위해 노력하고 있습니다.",
+      "fusion_score": 0.03021353930031804,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 5,
+      "rerank_score": null,
+      "rank": 5,
+      "score": 0.03021353930031804,
+      "score_type": "rrf",
+      "distance": 0.5364222526550293,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0280",
+      "source_doc_ids": [
+        "DOC-B0280-TOUR_API-2784050",
+        "DOC-B0280-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0280-TOUR_API-2784050",
+          "source_type": "TOUR_API",
+          "source_record_id": "2784050",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=139",
+          "match_trust": "RECHECKED_BY_RULE_NOT_HUMAN_APPROVED"
+        },
+        {
+          "doc_id": "DOC-B0280-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0280",
+          "source_locator": "data/raw/museum_base_1070.csv#row=281",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 105,
+          "doc_ids": [
+            "DOC-B0280-TOUR_API-2784050"
+          ]
+        },
+        {
+          "start": 106,
+          "end": 315,
+          "doc_ids": [
+            "DOC-B0280-TOUR_API-2784050"
+          ]
+        },
+        {
+          "start": 316,
+          "end": 513,
+          "doc_ids": [
+            "DOC-B0280-TOUR_API-2784050"
+          ]
+        },
+        {
+          "start": 514,
+          "end": 585,
+          "doc_ids": [
+            "DOC-B0280-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=139",
+      "text": "성남문화재단이 운영하는 성남큐브미술관은 지역의 유일한 공립미술관으로 지난 2012년 9월에 등록되어 성남 시민을 위한 미술문화 향유 공간 창출 및 지역 미술문화 발전을 위해 노력하고 있다. 동시대 국내외 이슈와 미감을 전시로 풀어내는 동시대미감전과 동시대이슈전 지역 예술가의 작품을 소개함으로써 성남의 미술 지형을 조망해 보는 성남의 얼굴전, 성남과 국내 로컬을 연결하여 문화적 교감의 플랫폼 역할을 모색하는 지역 예술가 교류전을 선보이고 있으며 지역 미술의 미래를 살피고 확장의 디딤돌 역할을 하고자 '성남작가조명전’을 개최하여 지역 미술을 집중 응원하고 있다. 또한 어린이를 동반한 온 가족이 함께 전시를 관람하며 제시한 주제와 의미를 생각해 보는 어린이 교육 체험전, 내부 학예 인력의 조사와 검토를 거쳐 대중적 흡입력 있는 국내외 유명 작가 전시를 여름 특별기획전과 겨울 특별기획전의 특별 전시로 개최하고 있으며 미술관의 교육적 기능을 수행하고자 기획 전시와 연계한 다양한 교육·체험 프로그램을 진행하고 있다. 지역의 유일한 공립 미술관으로, 성남 시민을 위한 미술 문화 향유 공간 창출 및 지역 미술 문화 발전을 위해 노력하고 있습니다.",
+      "sido": "경기도",
+      "sigungu": "성남시",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=139"
+      ],
+      "evidence_id": "E5",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=198",
+        "fields": {
+          "name": "성남큐브미술관",
+          "sido": "경기도",
+          "sigungu": "성남시",
+          "address": "경기도 성남시 분당구 성남대로 808",
+          "ownership_type": "공립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "10:00",
+          "weekday_close": "18:00",
+          "holiday_open": "10:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "월요일+설날 연휴+추석 연휴"
+        },
+        "base_data_date": "2026-06-30",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    }
+  ],
+  "answer": "모산조형미술관은 오석 산지인 보령 성주면의 지역적 특성을 바탕으로, 미술관만의 독창적인 콘텐츠인 ‘남포오석’을 중심에 두고 지역미술문화 활성화에 힘쓰고 있습니다. [E1]",
+  "retrieval_status": "ok",
+  "answer_status": "answered",
+  "route": "hybrid",
+  "retry_count": 0,
+  "supervisor_verified": true,
+  "rerank_applied": false,
+  "retriever_errors": [],
+  "warnings": [
+    "Cross-Encoder reranking failed (FileNotFoundError); RRF order retained"
+  ],
+  "duration_ms": 11093.24,
+  "error_type": "",
+  "hit_at_1": 1,
+  "hit_at_3": 1,
+  "hit_at_5": 1,
+  "recall_at_5": 1.0,
+  "mrr_at_10": 1.0
+}

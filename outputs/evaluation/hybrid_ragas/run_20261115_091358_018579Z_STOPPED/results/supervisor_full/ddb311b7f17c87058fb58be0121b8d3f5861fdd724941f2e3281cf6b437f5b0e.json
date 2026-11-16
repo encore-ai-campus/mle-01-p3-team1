@@ -1,0 +1,603 @@
+{
+  "mode": "supervisor_full",
+  "question_id": "Q212",
+  "evidence": [
+    {
+      "museum_id": "M0344",
+      "name": "박경리뮤지엄",
+      "document": "박경리 뮤지엄은 작가의 생애 마지막 공간이었던 ’작가의 집’을 통해 작가의 일상생활의 흔적과 삶을 보여주는 곳으로 ’작가 박경리’의 모습 뿐만 아니라 ’사람 박경리’의 모습을 보여주고자 하는 공간이다",
+      "metadata": {
+        "holiday_open": "00:00",
+        "name": "박경리뮤지엄",
+        "ownership_type": "사립",
+        "sigungu": "원주시",
+        "child_fee": 0.0,
+        "closure_rule_raw": "월+토+일+법정공휴일+명절연휴 (토요일의 경우 단체관람예약시 개관)",
+        "address": "강원특별자치도 원주시 흥업면 매지회촌길 79-1",
+        "amenities_raw": "뮤지엄샵+무인카페",
+        "weekday_open": "10:00",
+        "fee_notes": "성인단체 4000",
+        "latitude": 37.25715098,
+        "source_types": "BASE",
+        "weekday_close": "17:30",
+        "holiday_close": "00:00",
+        "adult_fee_status": "BASE_FEE_PAID",
+        "sido": "강원특별자치도",
+        "youth_fee": 4000.0,
+        "adult_fee": 5000.0,
+        "requires_manual_review": true,
+        "transport_notes": "시내버스34-1번",
+        "homepage_url": "https://pknmuseum.vercel.app/",
+        "longitude": 127.9118285
+      },
+      "vector_rank": 1,
+      "bm25_rank": 1,
+      "vector_distance": 0.3272237777709961,
+      "vector_score": null,
+      "bm25_score": 36.9976968323172,
+      "vector_document": "박경리 뮤지엄은 작가의 생애 마지막 공간이었던 ’작가의 집’을 통해 작가의 일상생활의 흔적과 삶을 보여주는 곳으로 ’작가 박경리’의 모습 뿐만 아니라 ’사람 박경리’의 모습을 보여주고자 하는 공간이다",
+      "bm25_document": "박경리 뮤지엄은 작가의 생애 마지막 공간이었던 ’작가의 집’을 통해 작가의 일상생활의 흔적과 삶을 보여주는 곳으로 ’작가 박경리’의 모습 뿐만 아니라 ’사람 박경리’의 모습을 보여주고자 하는 공간이다",
+      "best_span_id": "chroma:M0344",
+      "best_span_text": "박경리 뮤지엄은 작가의 생애 마지막 공간이었던 ’작가의 집’을 통해 작가의 일상생활의 흔적과 삶을 보여주는 곳으로 ’작가 박경리’의 모습 뿐만 아니라 ’사람 박경리’의 모습을 보여주고자 하는 공간이다",
+      "fusion_score": 0.03278688524590164,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 1,
+      "name_match": true,
+      "rerank_score": 0.9945586323738098,
+      "rank": 1,
+      "score": 0.9945586323738098,
+      "score_type": "cross_encoder",
+      "distance": 0.3272237777709961,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0344",
+      "source_doc_ids": [
+        "DOC-B0344-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0344-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0344",
+          "source_locator": "data/raw/museum_base_1070.csv#row=345",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 111,
+          "doc_ids": [
+            "DOC-B0344-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_base_1070.csv#row=345",
+      "text": "박경리 뮤지엄은 작가의 생애 마지막 공간이었던 ’작가의 집’을 통해 작가의 일상생활의 흔적과 삶을 보여주는 곳으로 ’작가 박경리’의 모습 뿐만 아니라 ’사람 박경리’의 모습을 보여주고자 하는 공간이다",
+      "sido": "강원특별자치도",
+      "sigungu": "원주시",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_base_1070.csv#row=345"
+      ],
+      "evidence_id": "E1",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=250",
+        "fields": {
+          "name": "박경리뮤지엄",
+          "sido": "강원특별자치도",
+          "sigungu": "원주시",
+          "address": "강원특별자치도 원주시 흥업면 매지회촌길 79-1",
+          "ownership_type": "사립",
+          "adult_fee": "5000",
+          "youth_fee": "4000",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_PAID",
+          "weekday_open": "10:00",
+          "weekday_close": "17:30",
+          "holiday_open": "00:00",
+          "holiday_close": "00:00",
+          "closure_rule_raw": "월+토+일+법정공휴일+명절연휴 (토요일의 경우 단체관람예약시 개관)",
+          "amenities_raw": "뮤지엄샵+무인카페"
+        },
+        "base_data_date": "2026-06-29",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0682",
+      "name": "권정호미술관",
+      "document": "권정호 작가의 작품세계를 재조명하는 공간 조성",
+      "metadata": {
+        "holiday_close": "00:00",
+        "source_types": "BASE",
+        "child_fee": 3000.0,
+        "ownership_type": "사립",
+        "sido": "대구광역시",
+        "longitude": 128.619876,
+        "name": "권정호미술관",
+        "youth_fee": 3000.0,
+        "closure_rule_raw": "일요일+국정공휴일",
+        "address": "대구광역시 동구 동부로 67",
+        "adult_fee": 6000.0,
+        "holiday_open": "00:00",
+        "latitude": 35.87535436,
+        "requires_manual_review": true,
+        "homepage_url": "http://www.kwonjungho.com/",
+        "transport_notes": "410-1+수성4+425+651+도시철도 1호선 신천역",
+        "amenities_raw": "전시실+교육실+자료실+아트샵",
+        "weekday_close": "18:00",
+        "adult_fee_status": "BASE_FEE_PAID",
+        "sigungu": "동구",
+        "weekday_open": "10:00"
+      },
+      "vector_rank": 5,
+      "bm25_rank": null,
+      "vector_distance": 0.5899197459220886,
+      "vector_score": null,
+      "bm25_score": null,
+      "vector_document": "권정호 작가의 작품세계를 재조명하는 공간 조성",
+      "bm25_document": "",
+      "best_span_id": null,
+      "best_span_text": null,
+      "fusion_score": 0.015384615384615385,
+      "retrieved_by": [
+        "vector"
+      ],
+      "fusion_rank": 9,
+      "rerank_score": 0.0005980018759146333,
+      "rank": 2,
+      "score": 0.0005980018759146333,
+      "score_type": "cross_encoder",
+      "distance": 0.5899197459220886,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector"
+      ],
+      "retriever": "vector",
+      "source_doc_ids": [
+        "DOC-B0682-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0682-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0682",
+          "source_locator": "data/raw/museum_base_1070.csv#row=683",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 25,
+          "doc_ids": [
+            "DOC-B0682-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_base_1070.csv#row=683",
+      "text": "권정호 작가의 작품세계를 재조명하는 공간 조성",
+      "sido": "대구광역시",
+      "sigungu": "동구",
+      "span_id": "",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_base_1070.csv#row=683"
+      ],
+      "evidence_id": "E2",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=471",
+        "fields": {
+          "name": "권정호미술관",
+          "sido": "대구광역시",
+          "sigungu": "동구",
+          "address": "대구광역시 동구 동부로 67",
+          "ownership_type": "사립",
+          "adult_fee": "6000",
+          "youth_fee": "3000",
+          "child_fee": "3000",
+          "adult_fee_status": "BASE_FEE_PAID",
+          "weekday_open": "10:00",
+          "weekday_close": "18:00",
+          "holiday_open": "00:00",
+          "holiday_close": "00:00",
+          "closure_rule_raw": "일요일+국정공휴일",
+          "amenities_raw": "전시실+교육실+자료실+아트샵"
+        },
+        "base_data_date": "2025-12-10",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0985",
+      "name": "뮤지엄원",
+      "document": "대중을 위한 예술, 대중이 체험하고 즐길 수 있는 예술 등을 소개",
+      "metadata": {
+        "weekday_open": "10:00",
+        "youth_fee": 15000.0,
+        "child_fee": 13000.0,
+        "longitude": 129.1289814,
+        "holiday_close": "20:00",
+        "homepage_url": "https://museum1.co.kr",
+        "fee_notes": "장애인, 유공자, 단체 할인",
+        "transport_notes": "부산 지하철 2호선 센텀시티역 하차",
+        "source_types": "BASE",
+        "adult_fee_status": "BASE_FEE_PAID",
+        "sido": "부산광역시",
+        "name": "뮤지엄원",
+        "holiday_open": "10:00",
+        "latitude": 35.1713212,
+        "weekday_close": "19:00",
+        "address": "부산광역시 해운대구 센텀서로 20",
+        "sigungu": "해운대구",
+        "adult_fee": 18000.0,
+        "ownership_type": "사립",
+        "closure_rule_raw": "연중무휴",
+        "requires_manual_review": false
+      },
+      "vector_rank": 9,
+      "bm25_rank": null,
+      "vector_distance": 0.6138190031051636,
+      "vector_score": null,
+      "bm25_score": null,
+      "vector_document": "대중을 위한 예술, 대중이 체험하고 즐길 수 있는 예술 등을 소개",
+      "bm25_document": "",
+      "best_span_id": null,
+      "best_span_text": null,
+      "fusion_score": 0.014492753623188406,
+      "retrieved_by": [
+        "vector"
+      ],
+      "fusion_rank": 17,
+      "rerank_score": 0.00046872711391188204,
+      "rank": 3,
+      "score": 0.00046872711391188204,
+      "score_type": "cross_encoder",
+      "distance": 0.6138190031051636,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector"
+      ],
+      "retriever": "vector",
+      "source_doc_ids": [
+        "DOC-B0985-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0985-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0985",
+          "source_locator": "data/raw/museum_base_1070.csv#row=986",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 36,
+          "doc_ids": [
+            "DOC-B0985-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_base_1070.csv#row=986",
+      "text": "대중을 위한 예술, 대중이 체험하고 즐길 수 있는 예술 등을 소개",
+      "sido": "부산광역시",
+      "sigungu": "해운대구",
+      "span_id": "",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_base_1070.csv#row=986"
+      ],
+      "evidence_id": "E3",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=671",
+        "fields": {
+          "name": "뮤지엄원",
+          "sido": "부산광역시",
+          "sigungu": "해운대구",
+          "address": "부산광역시 해운대구 센텀서로 20",
+          "ownership_type": "사립",
+          "adult_fee": "18000",
+          "youth_fee": "15000",
+          "child_fee": "13000",
+          "adult_fee_status": "BASE_FEE_PAID",
+          "weekday_open": "10:00",
+          "weekday_close": "19:00",
+          "holiday_open": "10:00",
+          "holiday_close": "20:00",
+          "closure_rule_raw": "연중무휴"
+        },
+        "base_data_date": "2025-11-20",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0914",
+      "name": "청주시립미술관",
+      "document": "청주 사직동의 옛 KBS 청주방송국 건물을 고쳐 2016년 7월 문을 연 시립미술관으로, 지역을 대표하는 미술 문화공간이다. 방송국 건물의 구조를 살린 전시실에서 실험적이고 선도적인 창작 활동을 펼친 작가들을 조명하는 기획전과 현대미술 전시가 꾸준히 열린다. 문의면의 청주시립대청호미술관, 오창호수도서관 안의 오창전시관, 차세대 작가를 발굴하고 지원하는 청주미술창작스튜디오와 함께 운영되어 지역 곳곳에서 다양한 미술을 만날 수 있다. 어린이와 청소년이 작품을 감상하며 자신만의 방식으로 표현해 보는 교육 프로그램과 전시해설도 운영해 가족이 함께 찾기 좋으며, 18세 이하 청소년은 무료로 관람할 수 있다.",
+      "metadata": {
+        "youth_fee": 0.0,
+        "adult_fee_status": "BASE_FEE_PAID",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/19/4118519_image2_1.jpg",
+        "child_fee": 500.0,
+        "latitude": 36.63471608,
+        "amenities_raw": "물품보관소",
+        "holiday_open": "10:00",
+        "weekday_close": "19:00",
+        "ownership_type": "공립",
+        "requires_manual_review": true,
+        "adult_fee": 1000.0,
+        "fee_notes": "청주시 주민등록자는 50퍼센트 할인",
+        "image_copyright": "Type1",
+        "longitude": 127.4782998,
+        "address": "충청북도 청주시 서원구 충렬로18번길 50(사직동)",
+        "sido": "충청북도",
+        "sigungu": "청주시",
+        "holiday_close": "19:00",
+        "closure_rule_raw": "1월 1일+설 연휴+추석 연휴+월",
+        "homepage_url": "https://cmoa.cheongju.go.kr/www/index.do",
+        "transport_notes": "시내버스 105 311 516 611 714 등을 이용한 후 사직사거리에서 하차",
+        "weekday_open": "10:00",
+        "name": "청주시립미술관",
+        "source_types": "TOUR_API"
+      },
+      "vector_rank": null,
+      "bm25_rank": 10,
+      "vector_distance": null,
+      "vector_score": null,
+      "bm25_score": 11.817250543870019,
+      "vector_document": "",
+      "bm25_document": "청주 사직동의 옛 KBS 청주방송국 건물을 고쳐 2016년 7월 문을 연 시립미술관으로, 지역을 대표하는 미술 문화공간이다. 방송국 건물의 구조를 살린 전시실에서 실험적이고 선도적인 창작 활동을 펼친 작가들을 조명하는 기획전과 현대미술 전시가 꾸준히 열린다. 문의면의 청주시립대청호미술관, 오창호수도서관 안의 오창전시관, 차세대 작가를 발굴하고 지원하는 청주미술창작스튜디오와 함께 운영되어 지역 곳곳에서 다양한 미술을 만날 수 있다. 어린이와 청소년이 작품을 감상하며 자신만의 방식으로 표현해 보는 교육 프로그램과 전시해설도 운영해 가족이 함께 찾기 좋으며, 18세 이하 청소년은 무료로 관람할 수 있다.",
+      "best_span_id": "chroma:M0914",
+      "best_span_text": "청주 사직동의 옛 KBS 청주방송국 건물을 고쳐 2016년 7월 문을 연 시립미술관으로, 지역을 대표하는 미술 문화공간이다. 방송국 건물의 구조를 살린 전시실에서 실험적이고 선도적인 창작 활동을 펼친 작가들을 조명하는 기획전과 현대미술 전시가 꾸준히 열린다. 문의면의 청주시립대청호미술관, 오창호수도서관 안의 오창전시관, 차세대 작가를 발굴하고 지원하는 청주미술창작스튜디오와 함께 운영되어 지역 곳곳에서 다양한 미술을 만날 수 있다. 어린이와 청소년이 작품을 감상하며 자신만의 방식으로 표현해 보는 교육 프로그램과 전시해설도 운영해 가족이 함께 찾기 좋으며, 18세 이하 청소년은 무료로 관람할 수 있다.",
+      "fusion_score": 0.014285714285714285,
+      "retrieved_by": [
+        "bm25"
+      ],
+      "fusion_rank": 20,
+      "rerank_score": 0.00043370985076762736,
+      "rank": 4,
+      "score": 0.00043370985076762736,
+      "score_type": "cross_encoder",
+      "distance": null,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "bm25"
+      ],
+      "retriever": "bm25",
+      "span_id": "chroma:M0914",
+      "source_doc_ids": [
+        "DOC-B0914-TOUR_API-2766537"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0914-TOUR_API-2766537",
+          "source_type": "TOUR_API",
+          "source_record_id": "2766537",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=428",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 69,
+          "doc_ids": [
+            "DOC-B0914-TOUR_API-2766537"
+          ]
+        },
+        {
+          "start": 70,
+          "end": 144,
+          "doc_ids": [
+            "DOC-B0914-TOUR_API-2766537"
+          ]
+        },
+        {
+          "start": 145,
+          "end": 242,
+          "doc_ids": [
+            "DOC-B0914-TOUR_API-2766537"
+          ]
+        },
+        {
+          "start": 243,
+          "end": 338,
+          "doc_ids": [
+            "DOC-B0914-TOUR_API-2766537"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=428",
+      "text": "청주 사직동의 옛 KBS 청주방송국 건물을 고쳐 2016년 7월 문을 연 시립미술관으로, 지역을 대표하는 미술 문화공간이다. 방송국 건물의 구조를 살린 전시실에서 실험적이고 선도적인 창작 활동을 펼친 작가들을 조명하는 기획전과 현대미술 전시가 꾸준히 열린다. 문의면의 청주시립대청호미술관, 오창호수도서관 안의 오창전시관, 차세대 작가를 발굴하고 지원하는 청주미술창작스튜디오와 함께 운영되어 지역 곳곳에서 다양한 미술을 만날 수 있다. 어린이와 청소년이 작품을 감상하며 자신만의 방식으로 표현해 보는 교육 프로그램과 전시해설도 운영해 가족이 함께 찾기 좋으며, 18세 이하 청소년은 무료로 관람할 수 있다.",
+      "sido": "충청북도",
+      "sigungu": "청주시",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=428"
+      ],
+      "evidence_id": "E4",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=630",
+        "fields": {
+          "name": "청주시립미술관",
+          "sido": "충청북도",
+          "sigungu": "청주시",
+          "address": "충청북도 청주시 서원구 충렬로18번길 50(사직동)",
+          "ownership_type": "공립",
+          "adult_fee": "1000",
+          "youth_fee": "0",
+          "child_fee": "500",
+          "adult_fee_status": "BASE_FEE_PAID",
+          "weekday_open": "10:00",
+          "weekday_close": "19:00",
+          "holiday_open": "10:00",
+          "holiday_close": "19:00",
+          "closure_rule_raw": "1월 1일+설 연휴+추석 연휴+월",
+          "amenities_raw": "물품보관소"
+        },
+        "base_data_date": "2025-11-26",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0290",
+      "name": "사립아인미술관",
+      "document": "사립아인미술관은 개인작가 초대전을 비롯한 개인전, 단체전 등 여러 작가들의 작품을 일정기간 동안 전시하고 있으며, 다양한 주제를 통해 전시회 진행하고 있어 미술작품을 쉽게 접할 수 있는 기회를 제공하고 있다.",
+      "metadata": {
+        "youth_fee": 0.0,
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "homepage_url": "https://blog.naver.com/ainmuseum",
+        "holiday_open": "11:00",
+        "latitude": 35.344232,
+        "sigungu": "장성군",
+        "requires_manual_review": false,
+        "transport_notes": "농어촌 버스 10 : 장성터미널 탑승 →황룡교정류장 하차",
+        "source_types": "BASE",
+        "address": "전남광주통합특별시 장성군 장성읍 미락단지길 8",
+        "sido": "전남광주특별자치도",
+        "ownership_type": "사립",
+        "longitude": 126.817249,
+        "closure_rule_raw": "연중무휴",
+        "weekday_close": "20:00",
+        "child_fee": 0.0,
+        "holiday_close": "20:00",
+        "name": "사립아인미술관",
+        "amenities_raw": "카페+주차장+화장실",
+        "weekday_open": "11:00",
+        "adult_fee": 0.0
+      },
+      "vector_rank": 17,
+      "bm25_rank": 4,
+      "vector_distance": 0.6460360288619995,
+      "vector_score": null,
+      "bm25_score": 13.125762884111962,
+      "vector_document": "사립아인미술관은 개인작가 초대전을 비롯한 개인전, 단체전 등 여러 작가들의 작품을 일정기간 동안 전시하고 있으며, 다양한 주제를 통해 전시회 진행하고 있어 미술작품을 쉽게 접할 수 있는 기회를 제공하고 있다.",
+      "bm25_document": "사립아인미술관은 개인작가 초대전을 비롯한 개인전, 단체전 등 여러 작가들의 작품을 일정기간 동안 전시하고 있으며, 다양한 주제를 통해 전시회 진행하고 있어 미술작품을 쉽게 접할 수 있는 기회를 제공하고 있다.",
+      "best_span_id": "chroma:M0290",
+      "best_span_text": "사립아인미술관은 개인작가 초대전을 비롯한 개인전, 단체전 등 여러 작가들의 작품을 일정기간 동안 전시하고 있으며, 다양한 주제를 통해 전시회 진행하고 있어 미술작품을 쉽게 접할 수 있는 기회를 제공하고 있다.",
+      "fusion_score": 0.028612012987012988,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 2,
+      "rerank_score": 0.00030449600308202207,
+      "rank": 5,
+      "score": 0.00030449600308202207,
+      "score_type": "cross_encoder",
+      "distance": 0.6460360288619995,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0290",
+      "source_doc_ids": [
+        "DOC-B0290-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0290-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0290",
+          "source_locator": "data/raw/museum_base_1070.csv#row=291",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 116,
+          "doc_ids": [
+            "DOC-B0290-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_base_1070.csv#row=291",
+      "text": "사립아인미술관은 개인작가 초대전을 비롯한 개인전, 단체전 등 여러 작가들의 작품을 일정기간 동안 전시하고 있으며, 다양한 주제를 통해 전시회 진행하고 있어 미술작품을 쉽게 접할 수 있는 기회를 제공하고 있다.",
+      "sido": "전남광주특별자치도",
+      "sigungu": "장성군",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_base_1070.csv#row=291"
+      ],
+      "evidence_id": "E5",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=204",
+        "fields": {
+          "name": "사립아인미술관",
+          "sido": "전남광주통합특별시",
+          "sigungu": "장성군",
+          "address": "전남광주통합특별시 장성군 장성읍 미락단지길 8",
+          "ownership_type": "사립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "11:00",
+          "weekday_close": "20:00",
+          "holiday_open": "11:00",
+          "holiday_close": "20:00",
+          "closure_rule_raw": "연중무휴",
+          "amenities_raw": "카페+주차장+화장실"
+        },
+        "base_data_date": "2026-08-03",
+        "trust": "derived_dataset_not_human_verified",
+        "normalizations": {
+          "sido": {
+            "source_value": "전남광주통합특별시",
+            "matched_value": "전남광주특별자치도",
+            "rule": "configured_sido_alias"
+          }
+        }
+      }
+    }
+  ],
+  "answer": "‘작가의 집’에서는 박경리 작가의 일상생활의 흔적과 삶을 통해, 작가로서의 모습뿐 아니라 한 사람으로서의 박경리의 모습도 볼 수 있습니다.[E1]",
+  "retrieval_status": "ok",
+  "answer_status": "answered",
+  "route": "hybrid",
+  "retry_count": 0,
+  "supervisor_verified": true,
+  "rerank_applied": true,
+  "retriever_errors": [],
+  "warnings": [],
+  "duration_ms": 145624.92,
+  "error_type": "",
+  "hit_at_1": 1,
+  "hit_at_3": 1,
+  "hit_at_5": 1,
+  "recall_at_5": 1.0,
+  "mrr_at_10": 1.0
+}

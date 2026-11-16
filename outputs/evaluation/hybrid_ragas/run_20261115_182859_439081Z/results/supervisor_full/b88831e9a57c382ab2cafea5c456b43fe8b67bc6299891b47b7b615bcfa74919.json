@@ -1,0 +1,54 @@
+{
+  "evidence_context_version": "grounded-evidence-v2",
+  "evaluation_contexts": [
+    "{\"address\": \"경기도 남양주시 화도읍 북한강로 1344\", \"evidence_context_version\": \"grounded-evidence-v2\", \"evidence_id\": \"E1\", \"latitude\": 37.63270736, \"longitude\": 127.3515079, \"museum_id\": \"M0462\", \"name\": \"서호미술관\", \"sido\": \"경기도\", \"sigungu\": \"남양주시\", \"source_doc_ids\": [\"DOC-B0462-TOUR_API-130709\"], \"source_locator\": \"data/raw/museum_tourapi_with_overview.csv#row=225\", \"source_locators\": [\"data/raw/museum_tourapi_with_overview.csv#row=225\"], \"source_urls\": [], \"text\": \"[Neo4j 구조화 속성] {\\\"museum_id\\\": \\\"M0462\\\", \\\"name\\\": \\\"서호미술관\\\", \\\"sido\\\": \\\"경기도\\\", \\\"sigungu\\\": \\\"남양주시\\\", \\\"source_doc_ids\\\": [\\\"DOC-B0462-TOUR_API-130709\\\"], \\\"source_locators\\\": [\\\"data/raw/museum_tourapi_with_overview.csv#row=225\\\"]}\"}"
+  ],
+  "mode": "supervisor_full",
+  "question_id": "Q271",
+  "evidence": [
+    {
+      "museum_id": "M0462",
+      "name": "서호미술관",
+      "text": "[Neo4j 구조화 속성] {\"museum_id\": \"M0462\", \"name\": \"서호미술관\", \"sido\": \"경기도\", \"sigungu\": \"남양주시\", \"source_doc_ids\": [\"DOC-B0462-TOUR_API-130709\"], \"source_locators\": [\"data/raw/museum_tourapi_with_overview.csv#row=225\"]}",
+      "span_id": "",
+      "source_doc_ids": [
+        "DOC-B0462-TOUR_API-130709"
+      ],
+      "source_urls": [],
+      "source_url": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=225"
+      ],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=225",
+      "sido": "경기도",
+      "sigungu": "남양주시",
+      "retriever": "graph",
+      "address": "경기도 남양주시 화도읍 북한강로 1344",
+      "latitude": 37.63270736,
+      "longitude": 127.3515079,
+      "metadata": {},
+      "chunk_id": "",
+      "retrievers": [
+        "graph"
+      ],
+      "evidence_id": "E1",
+      "rank": 1
+    }
+  ],
+  "answer": "서호미술관의 기록된 주소는 경기도 남양주시 화도읍 북한강로 1344입니다. [E1]",
+  "retrieval_status": "ok",
+  "answer_status": "answered",
+  "route": "graph",
+  "retry_count": 1,
+  "supervisor_verified": true,
+  "rerank_applied": false,
+  "retriever_errors": [],
+  "warnings": [],
+  "duration_ms": 98201.84,
+  "error_type": "",
+  "hit_at_1": 1,
+  "hit_at_3": 1,
+  "hit_at_5": 1,
+  "recall_at_5": 1.0,
+  "mrr_at_10": 1.0
+}

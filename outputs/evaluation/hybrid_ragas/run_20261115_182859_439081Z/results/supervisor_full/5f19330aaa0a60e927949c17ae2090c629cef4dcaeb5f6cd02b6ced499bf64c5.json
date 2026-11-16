@@ -1,0 +1,95 @@
+{
+  "evidence_context_version": "grounded-evidence-v2",
+  "evaluation_contexts": [
+    "{\"evidence_context_version\": \"grounded-evidence-v2\", \"evidence_id\": \"E1\", \"evidence_role\": \"anchor\", \"museum_id\": \"M0947\", \"name\": \"태백석탄박물관\", \"operator_raw_name\": \"강원특별자치도 태백시\", \"org_type\": \"지방자치단체\", \"organization\": \"강원특별자치도 태백시\", \"relation\": \"MANAGED_BY\", \"sido\": \"강원특별자치도\", \"sigungu\": \"태백시\", \"source_doc_ids\": [\"DOC-B0947-BASE\", \"DOC-B0947-TOUR_API-2610078\"], \"source_locator\": \"data/raw/museum_base_1070.csv#row=948\", \"source_locators\": [\"data/raw/museum_base_1070.csv#row=948\", \"data/raw/museum_tourapi_with_overview.csv#row=442\"], \"source_scope\": \"graph_properties\", \"source_urls\": [], \"text\": \"태백석탄박물관의 Neo4j manager_name(관리기관) 기록: 강원특별자치도 태백시 (CSV 원문: 강원특별자치도 태백시)\\n[Neo4j 구조화 근거] {\\\"museum_id\\\": \\\"M0947\\\", \\\"name\\\": \\\"태백석탄박물관\\\", \\\"relation\\\": \\\"MANAGED_BY\\\", \\\"organization\\\": \\\"강원특별자치도 태백시\\\", \\\"org_key\\\": \\\"강원특별자치도태백시\\\", \\\"org_type\\\": \\\"지방자치단체\\\", \\\"raw_name\\\": \\\"강원특별자치도 태백시\\\", \\\"verification_status\\\": \\\"UNVERIFIED\\\"}\", \"verification_status\": \"UNVERIFIED\"}",
+    "{\"anchor_operator_raw_name\": \"강원특별자치도 태백시\", \"evidence_context_version\": \"grounded-evidence-v2\", \"evidence_id\": \"E2\", \"facility_type\": \"박물관\", \"graph_path\": \"anchor -[:MANAGED_BY]-> Organization <-[:MANAGED_BY]- candidate\", \"museum_id\": \"M0948\", \"name\": \"태백고생대자연사박물관\", \"operator_raw_name\": \"강원특별자치도 태백시\", \"org_type\": \"지방자치단체\", \"organization\": \"강원특별자치도 태백시\", \"relation\": \"MANAGED_BY\", \"sido\": \"강원특별자치도\", \"sigungu\": \"태백시\", \"source_doc_ids\": [\"DOC-B0948-BASE\"], \"source_locator\": \"data/raw/museum_base_1070.csv#row=949\", \"source_locators\": [\"data/raw/museum_base_1070.csv#row=949\"], \"source_scope\": \"graph_properties\", \"source_urls\": [], \"text\": \"{anchor_raw_name: 강원특별자치도 태백시, candidate_raw_name: 강원특별자치도 태백시, org_key: 강원특별자치도태백시, organization: 강원특별자치도 태백시, relation: MANAGED_BY, verification_status: UNVERIFIED}\", \"verification_status\": \"UNVERIFIED\"}"
+  ],
+  "mode": "supervisor_full",
+  "question_id": "V2-OM01",
+  "evidence": [
+    {
+      "museum_id": "M0947",
+      "name": "태백석탄박물관",
+      "text": "태백석탄박물관의 Neo4j manager_name(관리기관) 기록: 강원특별자치도 태백시 (CSV 원문: 강원특별자치도 태백시)\n[Neo4j 구조화 근거] {\"museum_id\": \"M0947\", \"name\": \"태백석탄박물관\", \"relation\": \"MANAGED_BY\", \"organization\": \"강원특별자치도 태백시\", \"org_key\": \"강원특별자치도태백시\", \"org_type\": \"지방자치단체\", \"raw_name\": \"강원특별자치도 태백시\", \"verification_status\": \"UNVERIFIED\"}",
+      "span_id": "",
+      "source_doc_ids": [
+        "DOC-B0947-BASE",
+        "DOC-B0947-TOUR_API-2610078"
+      ],
+      "source_urls": [],
+      "source_url": "",
+      "source_locators": [
+        "data/raw/museum_base_1070.csv#row=948",
+        "data/raw/museum_tourapi_with_overview.csv#row=442"
+      ],
+      "source_locator": "data/raw/museum_base_1070.csv#row=948",
+      "sido": "강원특별자치도",
+      "sigungu": "태백시",
+      "retriever": "graph",
+      "evidence_role": "anchor",
+      "source_scope": "graph_properties",
+      "relation": "MANAGED_BY",
+      "organization": "강원특별자치도 태백시",
+      "org_type": "지방자치단체",
+      "operator_raw_name": "강원특별자치도 태백시",
+      "verification_status": "UNVERIFIED",
+      "metadata": {},
+      "chunk_id": "",
+      "retrievers": [
+        "graph"
+      ],
+      "evidence_id": "E1",
+      "rank": 1
+    },
+    {
+      "museum_id": "M0948",
+      "name": "태백고생대자연사박물관",
+      "text": "{anchor_raw_name: 강원특별자치도 태백시, candidate_raw_name: 강원특별자치도 태백시, org_key: 강원특별자치도태백시, organization: 강원특별자치도 태백시, relation: MANAGED_BY, verification_status: UNVERIFIED}",
+      "span_id": "",
+      "source_doc_ids": [
+        "DOC-B0948-BASE"
+      ],
+      "source_urls": [],
+      "source_url": "",
+      "source_locators": [
+        "data/raw/museum_base_1070.csv#row=949"
+      ],
+      "source_locator": "data/raw/museum_base_1070.csv#row=949",
+      "sido": "강원특별자치도",
+      "sigungu": "태백시",
+      "retriever": "graph",
+      "graph_path": "anchor -[:MANAGED_BY]-> Organization <-[:MANAGED_BY]- candidate",
+      "organization": "강원특별자치도 태백시",
+      "org_type": "지방자치단체",
+      "operator_raw_name": "강원특별자치도 태백시",
+      "anchor_operator_raw_name": "강원특별자치도 태백시",
+      "relation": "MANAGED_BY",
+      "verification_status": "UNVERIFIED",
+      "facility_type": "박물관",
+      "source_scope": "graph_properties",
+      "metadata": {},
+      "chunk_id": "",
+      "retrievers": [
+        "graph"
+      ],
+      "evidence_id": "E2",
+      "rank": 2
+    }
+  ],
+  "answer": "관리기관 기록상 태백석탄박물관과 같은 기관(강원특별자치도 태백시)이 관리하는 다른 시설은 태백고생대자연사박물관입니다. 두 시설의 관리기관 연결은 모두 MANAGED_BY이며, 해당 관계는 미검증(UNVERIFIED)으로 표시되어 있습니다. [E1][E2]",
+  "retrieval_status": "ok",
+  "answer_status": "answered",
+  "route": "graph",
+  "retry_count": 0,
+  "supervisor_verified": true,
+  "rerank_applied": false,
+  "retriever_errors": [],
+  "warnings": [],
+  "duration_ms": 72480.43,
+  "error_type": "",
+  "hit_at_1": 1,
+  "hit_at_3": 1,
+  "hit_at_5": 1,
+  "recall_at_5": 1.0,
+  "mrr_at_10": 1.0
+}

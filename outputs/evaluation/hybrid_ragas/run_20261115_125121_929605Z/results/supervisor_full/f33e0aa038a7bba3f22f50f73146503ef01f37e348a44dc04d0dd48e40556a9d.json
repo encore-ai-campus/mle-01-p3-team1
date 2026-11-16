@@ -1,0 +1,810 @@
+{
+  "mode": "supervisor_full",
+  "question_id": "V2-CB08",
+  "evidence": [
+    {
+      "museum_id": "M0649",
+      "name": "북촌생활사박물관",
+      "document": "북촌생활사박물관은 서울의 600년 역사를 안고 있는 한옥 밀집 지역인 북촌에 대한 전시를 하는 곳이다. 오랫동안 살았거나 살고 있는 사람들이 실제 생활에 사용했던 생활 물건들을 수집·보존·전시하면서 이를 통해 지역의 근·현대생활사를 정리하고 지역의 전통과 문화를 계승‧발전시켜 나가는 데 기여하고자 설립한 사립박물관이다. 북촌 주민들이 변화무쌍했던 우리나라 근‧현대 100여 년을 지나오는 동안 실제 생활에 사용했던 생활사의 생생한 증거물 3천여 점을 소장하고 있다. 소장품 한 점 한 점이 멀게는 조선시대 초기부터 가깝게는 1970년대 후반까지 오랜 세월에 걸쳐 실 생활에 사용되어 온 물건들로서 소장품 하나하나마다 그 물건을 간수하며 사용해 온 사람들의 진진한 삶의 이야기와 깊이 배어 있는 짙은 손때에서 우러나오는 오래된 향기를 만나볼 수 있다.",
+      "metadata": {
+        "holiday_close": "19:00",
+        "source_types": "TOUR_API",
+        "youth_fee": 3000.0,
+        "adult_fee": 5000.0,
+        "adult_fee_status": "BASE_FEE_PAID",
+        "sido": "서울특별시",
+        "longitude": 126.9829948,
+        "name": "북촌생활사박물관",
+        "sigungu": "종로구",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/75/3574275_image2_1.jpg",
+        "address": "서울특별시 종로구 북촌로5나길 90(삼청동)",
+        "weekday_close": "19:00",
+        "holiday_open": "10:00",
+        "ownership_type": "사립",
+        "image_copyright": "Type3",
+        "child_fee": 0.0,
+        "closure_rule_raw": "연중무휴",
+        "homepage_url": "http://cafe.daum.net/namu3579",
+        "weekday_open": "10:00",
+        "requires_manual_review": true,
+        "latitude": 37.584425
+      },
+      "vector_rank": 3,
+      "bm25_rank": 4,
+      "vector_distance": 0.439841091632843,
+      "vector_score": null,
+      "bm25_score": 14.816867241882544,
+      "vector_document": "북촌생활사박물관은 서울의 600년 역사를 안고 있는 한옥 밀집 지역인 북촌에 대한 전시를 하는 곳이다. 오랫동안 살았거나 살고 있는 사람들이 실제 생활에 사용했던 생활 물건들을 수집·보존·전시하면서 이를 통해 지역의 근·현대생활사를 정리하고 지역의 전통과 문화를 계승‧발전시켜 나가는 데 기여하고자 설립한 사립박물관이다. 북촌 주민들이 변화무쌍했던 우리나라 근‧현대 100여 년을 지나오는 동안 실제 생활에 사용했던 생활사의 생생한 증거물 3천여 점을 소장하고 있다. 소장품 한 점 한 점이 멀게는 조선시대 초기부터 가깝게는 1970년대 후반까지 오랜 세월에 걸쳐 실 생활에 사용되어 온 물건들로서 소장품 하나하나마다 그 물건을 간수하며 사용해 온 사람들의 진진한 삶의 이야기와 깊이 배어 있는 짙은 손때에서 우러나오는 오래된 향기를 만나볼 수 있다.",
+      "bm25_document": "북촌생활사박물관은 서울의 600년 역사를 안고 있는 한옥 밀집 지역인 북촌에 대한 전시를 하는 곳이다. 오랫동안 살았거나 살고 있는 사람들이 실제 생활에 사용했던 생활 물건들을 수집·보존·전시하면서 이를 통해 지역의 근·현대생활사를 정리하고 지역의 전통과 문화를 계승‧발전시켜 나가는 데 기여하고자 설립한 사립박물관이다. 북촌 주민들이 변화무쌍했던 우리나라 근‧현대 100여 년을 지나오는 동안 실제 생활에 사용했던 생활사의 생생한 증거물 3천여 점을 소장하고 있다. 소장품 한 점 한 점이 멀게는 조선시대 초기부터 가깝게는 1970년대 후반까지 오랜 세월에 걸쳐 실 생활에 사용되어 온 물건들로서 소장품 하나하나마다 그 물건을 간수하며 사용해 온 사람들의 진진한 삶의 이야기와 깊이 배어 있는 짙은 손때에서 우러나오는 오래된 향기를 만나볼 수 있다.",
+      "best_span_id": "chroma:M0649",
+      "best_span_text": "북촌생활사박물관은 서울의 600년 역사를 안고 있는 한옥 밀집 지역인 북촌에 대한 전시를 하는 곳이다. 오랫동안 살았거나 살고 있는 사람들이 실제 생활에 사용했던 생활 물건들을 수집·보존·전시하면서 이를 통해 지역의 근·현대생활사를 정리하고 지역의 전통과 문화를 계승‧발전시켜 나가는 데 기여하고자 설립한 사립박물관이다. 북촌 주민들이 변화무쌍했던 우리나라 근‧현대 100여 년을 지나오는 동안 실제 생활에 사용했던 생활사의 생생한 증거물 3천여 점을 소장하고 있다. 소장품 한 점 한 점이 멀게는 조선시대 초기부터 가깝게는 1970년대 후반까지 오랜 세월에 걸쳐 실 생활에 사용되어 온 물건들로서 소장품 하나하나마다 그 물건을 간수하며 사용해 온 사람들의 진진한 삶의 이야기와 깊이 배어 있는 짙은 손때에서 우러나오는 오래된 향기를 만나볼 수 있다.",
+      "fusion_score": 0.03149801587301587,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 3,
+      "rerank_score": 0.628455638885498,
+      "rank": 1,
+      "score": 0.628455638885498,
+      "score_type": "cross_encoder",
+      "distance": 0.439841091632843,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0649",
+      "source_doc_ids": [
+        "DOC-B0649-TOUR_API-231971"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0649-TOUR_API-231971",
+          "source_type": "TOUR_API",
+          "source_record_id": "231971",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=322",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 57,
+          "doc_ids": [
+            "DOC-B0649-TOUR_API-231971"
+          ]
+        },
+        {
+          "start": 58,
+          "end": 179,
+          "doc_ids": [
+            "DOC-B0649-TOUR_API-231971"
+          ]
+        },
+        {
+          "start": 180,
+          "end": 261,
+          "doc_ids": [
+            "DOC-B0649-TOUR_API-231971"
+          ]
+        },
+        {
+          "start": 262,
+          "end": 420,
+          "doc_ids": [
+            "DOC-B0649-TOUR_API-231971"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=322",
+      "text": "북촌생활사박물관은 서울의 600년 역사를 안고 있는 한옥 밀집 지역인 북촌에 대한 전시를 하는 곳이다. 오랫동안 살았거나 살고 있는 사람들이 실제 생활에 사용했던 생활 물건들을 수집·보존·전시하면서 이를 통해 지역의 근·현대생활사를 정리하고 지역의 전통과 문화를 계승‧발전시켜 나가는 데 기여하고자 설립한 사립박물관이다. 북촌 주민들이 변화무쌍했던 우리나라 근‧현대 100여 년을 지나오는 동안 실제 생활에 사용했던 생활사의 생생한 증거물 3천여 점을 소장하고 있다. 소장품 한 점 한 점이 멀게는 조선시대 초기부터 가깝게는 1970년대 후반까지 오랜 세월에 걸쳐 실 생활에 사용되어 온 물건들로서 소장품 하나하나마다 그 물건을 간수하며 사용해 온 사람들의 진진한 삶의 이야기와 깊이 배어 있는 짙은 손때에서 우러나오는 오래된 향기를 만나볼 수 있다.",
+      "sido": "서울특별시",
+      "sigungu": "종로구",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=322"
+      ],
+      "evidence_id": "E1",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=446",
+        "fields": {
+          "name": "북촌생활사박물관",
+          "sido": "서울특별시",
+          "sigungu": "종로구",
+          "address": "서울특별시 종로구 북촌로5나길 90(삼청동)",
+          "ownership_type": "사립",
+          "adult_fee": "5000",
+          "youth_fee": "3000",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_PAID",
+          "weekday_open": "10:00",
+          "weekday_close": "19:00",
+          "holiday_open": "10:00",
+          "holiday_close": "19:00",
+          "closure_rule_raw": "연중무휴"
+        },
+        "base_data_date": "2025-11-01",
+        "trust": "derived_dataset_not_human_verified"
+      },
+      "retrieval_branch": "document"
+    },
+    {
+      "museum_id": "M1027",
+      "name": "한성백제박물관",
+      "document": "한성백제박물관은 서울이 2천 년 역사 도시라는 사실을 널리 알리기 위해 백제왕도 역사와 관련 깊은 유적들을 직접 보호·관리하면서 조사, 연구, 전시, 교육하고 있다. 서울의 고대 역사·문화를 조명하고, 문화유산의 의미와 가치를 되새기는 박물관이다. 박물관 로비에서 가장 먼저 마주치는 상징전시물은 풍납토성 성벽 단면 으로 성벽 단면을 얇게 떼어내 전시, 연출하였다. 제 1전시실은 서울의 구석기문화, 신석기문화, 청동기 및 초기철기문화를 한강유역이라는 공간에 맞춰 이야기로 꾸며져 있다. 제 2전시실은 제가 지금의 서울에서 건국하고 성장 및 발전하던 한성도읍기 493년을 다루고 있으며, 제 3전시실에서는 한강에서 벌어진 백제, 고구려, 신라의 각축과 한성함락 이후의 백제 역사를 다루고 있다. 한성백제 박물관은 서울시 송파구의 고대역사 유적지에 건립된 박물관으로 고대 역사와 문화를 연구하여 알리고자 설립되었다",
+      "metadata": {
+        "weekday_close": "19:00",
+        "sido": "서울특별시",
+        "weekday_open": "09:00",
+        "closure_rule_raw": "월(공휴일인 경우 휴관하지 않음)+1월 1일+시장이 정하는 휴관일(관장에게 위임)",
+        "child_fee": 0.0,
+        "ownership_type": "공립",
+        "adult_fee": 0.0,
+        "transport_notes": "지하철 :8호선 몽촌토성역 1번 출구에서 남2문 방향으로 650m (도보10~15분)           5호선 올림픽공원역 3번 출구에서 남2문 방향으로 1km(도보15~20분)버스 : 올림픽공원역 방향에서 오실 때 30-5+3412+3413 한성백제박물관 하차         몽촌토성역 방향에서 오실 때 30+30-5+3412+3413 올림픽베어스타운 하차         방이동사거리 방향에서 오실 때 3216+3414 한성백제박물관 하차자가용 : 잠실+풍납동 방면에서 오실 때 (남2문앞에서 유턴 후 250m에서 진입)       둔촌동+오금동 방면에서 오실 때 (남2문에서 남3문방향으로 250m에서 진입)",
+        "youth_fee": 0.0,
+        "address": "서울특별시 송파구 위례성대로71, 한성백제박물관",
+        "name": "한성백제박물관",
+        "source_types": "BASE|TOUR_API",
+        "latitude": 37.51542872,
+        "requires_manual_review": true,
+        "image_copyright": "Type1",
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "longitude": 127.1208007,
+        "sigungu": "송파구",
+        "holiday_close": "19:00",
+        "holiday_open": "09:00",
+        "image_url": "http://tong.visitkorea.or.kr/cms/resource/55/3502855_image2_1.jpg",
+        "fee_notes": "상설전시실 무료 (특별·기획전시는 유료로 진행될 수 있음)",
+        "amenities_raw": "박물관",
+        "homepage_url": "http://baekjemuseum.seoul.go.kr"
+      },
+      "vector_rank": 2,
+      "bm25_rank": null,
+      "vector_distance": 0.41655653715133667,
+      "vector_score": null,
+      "bm25_score": null,
+      "vector_document": "한성백제박물관은 서울이 2천 년 역사 도시라는 사실을 널리 알리기 위해 백제왕도 역사와 관련 깊은 유적들을 직접 보호·관리하면서 조사, 연구, 전시, 교육하고 있다. 서울의 고대 역사·문화를 조명하고, 문화유산의 의미와 가치를 되새기는 박물관이다. 박물관 로비에서 가장 먼저 마주치는 상징전시물은 풍납토성 성벽 단면 으로 성벽 단면을 얇게 떼어내 전시, 연출하였다. 제 1전시실은 서울의 구석기문화, 신석기문화, 청동기 및 초기철기문화를 한강유역이라는 공간에 맞춰 이야기로 꾸며져 있다. 제 2전시실은 제가 지금의 서울에서 건국하고 성장 및 발전하던 한성도읍기 493년을 다루고 있으며, 제 3전시실에서는 한강에서 벌어진 백제, 고구려, 신라의 각축과 한성함락 이후의 백제 역사를 다루고 있다. 한성백제 박물관은 서울시 송파구의 고대역사 유적지에 건립된 박물관으로 고대 역사와 문화를 연구하여 알리고자 설립되었다",
+      "bm25_document": "",
+      "best_span_id": null,
+      "best_span_text": null,
+      "fusion_score": 0.016129032258064516,
+      "retrieved_by": [
+        "vector"
+      ],
+      "fusion_rank": 1,
+      "name_match": true,
+      "rerank_score": 0.426058292388916,
+      "rank": 2,
+      "score": 0.426058292388916,
+      "score_type": "cross_encoder",
+      "distance": 0.41655653715133667,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector"
+      ],
+      "retriever": "vector",
+      "source_doc_ids": [
+        "DOC-B1027-TOUR_API-1916296",
+        "DOC-B1027-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B1027-TOUR_API-1916296",
+          "source_type": "TOUR_API",
+          "source_record_id": "1916296",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=477",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        },
+        {
+          "doc_id": "DOC-B1027-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B1027",
+          "source_locator": "data/raw/museum_base_1070.csv#row=1028",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 92,
+          "doc_ids": [
+            "DOC-B1027-TOUR_API-1916296"
+          ]
+        },
+        {
+          "start": 93,
+          "end": 138,
+          "doc_ids": [
+            "DOC-B1027-TOUR_API-1916296"
+          ]
+        },
+        {
+          "start": 139,
+          "end": 204,
+          "doc_ids": [
+            "DOC-B1027-TOUR_API-1916296"
+          ]
+        },
+        {
+          "start": 205,
+          "end": 272,
+          "doc_ids": [
+            "DOC-B1027-TOUR_API-1916296"
+          ]
+        },
+        {
+          "start": 273,
+          "end": 388,
+          "doc_ids": [
+            "DOC-B1027-TOUR_API-1916296"
+          ]
+        },
+        {
+          "start": 389,
+          "end": 454,
+          "doc_ids": [
+            "DOC-B1027-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=477",
+      "text": "한성백제박물관은 서울이 2천 년 역사 도시라는 사실을 널리 알리기 위해 백제왕도 역사와 관련 깊은 유적들을 직접 보호·관리하면서 조사, 연구, 전시, 교육하고 있다. 서울의 고대 역사·문화를 조명하고, 문화유산의 의미와 가치를 되새기는 박물관이다. 박물관 로비에서 가장 먼저 마주치는 상징전시물은 풍납토성 성벽 단면 으로 성벽 단면을 얇게 떼어내 전시, 연출하였다. 제 1전시실은 서울의 구석기문화, 신석기문화, 청동기 및 초기철기문화를 한강유역이라는 공간에 맞춰 이야기로 꾸며져 있다. 제 2전시실은 제가 지금의 서울에서 건국하고 성장 및 발전하던 한성도읍기 493년을 다루고 있으며, 제 3전시실에서는 한강에서 벌어진 백제, 고구려, 신라의 각축과 한성함락 이후의 백제 역사를 다루고 있다. 한성백제 박물관은 서울시 송파구의 고대역사 유적지에 건립된 박물관으로 고대 역사와 문화를 연구하여 알리고자 설립되었다",
+      "sido": "서울특별시",
+      "sigungu": "송파구",
+      "span_id": "",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=477"
+      ],
+      "evidence_id": "E2",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=707",
+        "fields": {
+          "name": "한성백제박물관",
+          "sido": "서울특별시",
+          "sigungu": "송파구",
+          "address": "서울특별시 송파구 위례성대로71, 한성백제박물관",
+          "ownership_type": "공립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "09:00",
+          "weekday_close": "19:00",
+          "holiday_open": "09:00",
+          "holiday_close": "19:00",
+          "closure_rule_raw": "월(공휴일인 경우 휴관하지 않음)+1월 1일+시장이 정하는 휴관일(관장에게 위임)",
+          "amenities_raw": "박물관"
+        },
+        "base_data_date": "2023-01-11",
+        "trust": "derived_dataset_not_human_verified"
+      },
+      "retrieval_branch": "document"
+    },
+    {
+      "museum_id": "M0423",
+      "name": "서울생활사박물관",
+      "document": "2019년 9월에 개관한 서울생활사박물관은 해방 이후부터 현재까지 서울 시민들의 생활사를 보여주는 근현대 박물관이다. 2010년 서울북부지방법원과 서울북부지방검찰청이 있던 북부법조단지가 이전하면서 유휴지로 남았고, 법원, 검찰청 건물을 서울시민들을 위한 문화시설로 탈바꿈하였다. 사람들의 기억과 감성을 담은 서울생활사박물관은 다양한 주제의 전시와 교육프로그램을 시민들에게 제공함으로써 소통과 교감을 이루는 동북부 문화공간의 중심이 되고자 한다.",
+      "metadata": {
+        "youth_fee": 0.0,
+        "name": "서울생활사박물관",
+        "child_fee": 0.0,
+        "weekday_open": "09:00",
+        "sido": "서울특별시",
+        "holiday_open": "09:00",
+        "weekday_close": "18:00",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/84/3540384_image2_1.jpg",
+        "homepage_url": "https://museum.seoul.go.kr/sulm",
+        "sigungu": "노원구",
+        "holiday_close": "18:00",
+        "longitude": 127.0769362,
+        "latitude": 37.62017392,
+        "ownership_type": "공립",
+        "fee_notes": "0",
+        "address": "서울특별시 노원구 동일로174길 27",
+        "closure_rule_raw": "월요일",
+        "adult_fee": 0.0,
+        "requires_manual_review": true,
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "image_copyright": "Type1",
+        "source_types": "TOUR_API"
+      },
+      "vector_rank": 1,
+      "bm25_rank": 1,
+      "vector_distance": 0.37534093856811523,
+      "vector_score": null,
+      "bm25_score": 16.807814270697154,
+      "vector_document": "2019년 9월에 개관한 서울생활사박물관은 해방 이후부터 현재까지 서울 시민들의 생활사를 보여주는 근현대 박물관이다. 2010년 서울북부지방법원과 서울북부지방검찰청이 있던 북부법조단지가 이전하면서 유휴지로 남았고, 법원, 검찰청 건물을 서울시민들을 위한 문화시설로 탈바꿈하였다. 사람들의 기억과 감성을 담은 서울생활사박물관은 다양한 주제의 전시와 교육프로그램을 시민들에게 제공함으로써 소통과 교감을 이루는 동북부 문화공간의 중심이 되고자 한다.",
+      "bm25_document": "2019년 9월에 개관한 서울생활사박물관은 해방 이후부터 현재까지 서울 시민들의 생활사를 보여주는 근현대 박물관이다. 2010년 서울북부지방법원과 서울북부지방검찰청이 있던 북부법조단지가 이전하면서 유휴지로 남았고, 법원, 검찰청 건물을 서울시민들을 위한 문화시설로 탈바꿈하였다. 사람들의 기억과 감성을 담은 서울생활사박물관은 다양한 주제의 전시와 교육프로그램을 시민들에게 제공함으로써 소통과 교감을 이루는 동북부 문화공간의 중심이 되고자 한다.",
+      "best_span_id": "chroma:M0423",
+      "best_span_text": "2019년 9월에 개관한 서울생활사박물관은 해방 이후부터 현재까지 서울 시민들의 생활사를 보여주는 근현대 박물관이다. 2010년 서울북부지방법원과 서울북부지방검찰청이 있던 북부법조단지가 이전하면서 유휴지로 남았고, 법원, 검찰청 건물을 서울시민들을 위한 문화시설로 탈바꿈하였다. 사람들의 기억과 감성을 담은 서울생활사박물관은 다양한 주제의 전시와 교육프로그램을 시민들에게 제공함으로써 소통과 교감을 이루는 동북부 문화공간의 중심이 되고자 한다.",
+      "fusion_score": 0.03278688524590164,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 2,
+      "rerank_score": 0.39778509736061096,
+      "rank": 3,
+      "score": 0.39778509736061096,
+      "score_type": "cross_encoder",
+      "distance": 0.37534093856811523,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0423",
+      "source_doc_ids": [
+        "DOC-B0423-TOUR_API-2638474"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0423-TOUR_API-2638474",
+          "source_type": "TOUR_API",
+          "source_record_id": "2638474",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=199",
+          "match_trust": "RECHECKED_BY_RULE_NOT_HUMAN_APPROVED"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 65,
+          "doc_ids": [
+            "DOC-B0423-TOUR_API-2638474"
+          ]
+        },
+        {
+          "start": 66,
+          "end": 155,
+          "doc_ids": [
+            "DOC-B0423-TOUR_API-2638474"
+          ]
+        },
+        {
+          "start": 156,
+          "end": 248,
+          "doc_ids": [
+            "DOC-B0423-TOUR_API-2638474"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=199",
+      "text": "2019년 9월에 개관한 서울생활사박물관은 해방 이후부터 현재까지 서울 시민들의 생활사를 보여주는 근현대 박물관이다. 2010년 서울북부지방법원과 서울북부지방검찰청이 있던 북부법조단지가 이전하면서 유휴지로 남았고, 법원, 검찰청 건물을 서울시민들을 위한 문화시설로 탈바꿈하였다. 사람들의 기억과 감성을 담은 서울생활사박물관은 다양한 주제의 전시와 교육프로그램을 시민들에게 제공함으로써 소통과 교감을 이루는 동북부 문화공간의 중심이 되고자 한다.",
+      "sido": "서울특별시",
+      "sigungu": "노원구",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=199"
+      ],
+      "evidence_id": "E3",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=299",
+        "fields": {
+          "name": "서울생활사박물관",
+          "sido": "서울특별시",
+          "sigungu": "노원구",
+          "address": "서울특별시 노원구 동일로174길 27",
+          "ownership_type": "공립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "09:00",
+          "weekday_close": "18:00",
+          "holiday_open": "09:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "월요일"
+        },
+        "base_data_date": "2026-06-01",
+        "trust": "derived_dataset_not_human_verified"
+      },
+      "retrieval_branch": "document"
+    },
+    {
+      "museum_id": "M1034",
+      "name": "서울역사박물관",
+      "document": "세계도시로 성장한 서울이 어떻게 탄생했으며 어떻게 변해서 오늘에 이르렀는지를 배우고 앞으로 어떻게 바뀔 것인지를 가늠해 보는 곳이 서울역사박물관이다. 서울의 뿌리와 서울 사람의 생활, 현대 서울로의 변화를 보여주는 상설전시와 함께 서울의 역사·문화를 증언하는 다양한 기증유물이 전시되어 있다. 또한 어린이와 가족, 어른들을 위한 각종 체험교실과 문화행사들이 풍성하게 마련되어 있다.",
+      "metadata": {
+        "address": "서울특별시 종로구 새문안로 55(신문로2가)",
+        "ownership_type": "공립",
+        "weekday_open": "09:00",
+        "name": "서울역사박물관",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/87/2661487_image2_1.JPG",
+        "adult_fee": 0.0,
+        "requires_manual_review": true,
+        "homepage_url": "https://museum.seoul.go.kr/",
+        "longitude": 126.9679849,
+        "holiday_open": "09:00",
+        "holiday_close": "19:00",
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "child_fee": 0.0,
+        "sido": "서울특별시",
+        "image_copyright": "Type3",
+        "latitude": 37.57176907,
+        "youth_fee": 0.0,
+        "sigungu": "종로구",
+        "closure_rule_raw": "1월 1일+매주 월요일",
+        "source_types": "TOUR_API",
+        "weekday_close": "20:00"
+      },
+      "vector_rank": 4,
+      "bm25_rank": 18,
+      "vector_distance": 0.4569215774536133,
+      "vector_score": null,
+      "bm25_score": 11.796900787142773,
+      "vector_document": "세계도시로 성장한 서울이 어떻게 탄생했으며 어떻게 변해서 오늘에 이르렀는지를 배우고 앞으로 어떻게 바뀔 것인지를 가늠해 보는 곳이 서울역사박물관이다. 서울의 뿌리와 서울 사람의 생활, 현대 서울로의 변화를 보여주는 상설전시와 함께 서울의 역사·문화를 증언하는 다양한 기증유물이 전시되어 있다. 또한 어린이와 가족, 어른들을 위한 각종 체험교실과 문화행사들이 풍성하게 마련되어 있다.",
+      "bm25_document": "세계도시로 성장한 서울이 어떻게 탄생했으며 어떻게 변해서 오늘에 이르렀는지를 배우고 앞으로 어떻게 바뀔 것인지를 가늠해 보는 곳이 서울역사박물관이다. 서울의 뿌리와 서울 사람의 생활, 현대 서울로의 변화를 보여주는 상설전시와 함께 서울의 역사·문화를 증언하는 다양한 기증유물이 전시되어 있다. 또한 어린이와 가족, 어른들을 위한 각종 체험교실과 문화행사들이 풍성하게 마련되어 있다.",
+      "best_span_id": "chroma:M1034",
+      "best_span_text": "세계도시로 성장한 서울이 어떻게 탄생했으며 어떻게 변해서 오늘에 이르렀는지를 배우고 앞으로 어떻게 바뀔 것인지를 가늠해 보는 곳이 서울역사박물관이다. 서울의 뿌리와 서울 사람의 생활, 현대 서울로의 변화를 보여주는 상설전시와 함께 서울의 역사·문화를 증언하는 다양한 기증유물이 전시되어 있다. 또한 어린이와 가족, 어른들을 위한 각종 체험교실과 문화행사들이 풍성하게 마련되어 있다.",
+      "fusion_score": 0.02844551282051282,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 5,
+      "rerank_score": 0.2139730006456375,
+      "rank": 4,
+      "score": 0.2139730006456375,
+      "score_type": "cross_encoder",
+      "distance": 0.4569215774536133,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M1034",
+      "source_doc_ids": [
+        "DOC-B1034-TOUR_API-130361"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B1034-TOUR_API-130361",
+          "source_type": "TOUR_API",
+          "source_record_id": "130361",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=480",
+          "match_trust": "RECHECKED_BY_RULE_NOT_HUMAN_APPROVED"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 83,
+          "doc_ids": [
+            "DOC-B1034-TOUR_API-130361"
+          ]
+        },
+        {
+          "start": 84,
+          "end": 163,
+          "doc_ids": [
+            "DOC-B1034-TOUR_API-130361"
+          ]
+        },
+        {
+          "start": 164,
+          "end": 213,
+          "doc_ids": [
+            "DOC-B1034-TOUR_API-130361"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=480",
+      "text": "세계도시로 성장한 서울이 어떻게 탄생했으며 어떻게 변해서 오늘에 이르렀는지를 배우고 앞으로 어떻게 바뀔 것인지를 가늠해 보는 곳이 서울역사박물관이다. 서울의 뿌리와 서울 사람의 생활, 현대 서울로의 변화를 보여주는 상설전시와 함께 서울의 역사·문화를 증언하는 다양한 기증유물이 전시되어 있다. 또한 어린이와 가족, 어른들을 위한 각종 체험교실과 문화행사들이 풍성하게 마련되어 있다.",
+      "sido": "서울특별시",
+      "sigungu": "종로구",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=480"
+      ],
+      "evidence_id": "E4",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=711",
+        "fields": {
+          "name": "서울역사박물관",
+          "sido": "서울특별시",
+          "sigungu": "종로구",
+          "address": "서울특별시 종로구 새문안로 55(신문로2가)",
+          "ownership_type": "공립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "09:00",
+          "weekday_close": "20:00",
+          "holiday_open": "09:00",
+          "holiday_close": "19:00",
+          "closure_rule_raw": "1월 1일+매주 월요일"
+        },
+        "base_data_date": "2025-11-01",
+        "trust": "derived_dataset_not_human_verified"
+      },
+      "retrieval_branch": "document"
+    },
+    {
+      "museum_id": "M0286",
+      "name": "사상생활사박물관",
+      "document": "사상생활사박물관은 2016년 5월 개관하여 사상의 자연과 함께 살아온 사람들의 생활사 변천 과정을 전시하고 지역에 산재해 있는 관광자원을 소개하는 곳이며 주민들이 주도적으로 운영에 참여하고 전문가와 행정이 협업하여 지역의 문화를 발전시키는 주민들의 소통 공간이다. 사상지역은 1970년대 대한민국 근대화에 있어 중추적인 역할을 해왔으나 공업화의 악영향으로 회색도시, 문화의 불모지라는 오명과 함께 날로 낙후되어 가고 있는 사상공업지역에 문화와 소통의 향기를 전하는 문화 네트워크형 박물관을 건립하여 잊혀가는 사상 주민들의 생활사와 추억들을 수집하여 역사를 조명하고 미래를 준비하기 위하여 사상생활사박물관을 건립하게 되었다. 특별 전시와 기획 전시도 운영하고 있다. 사상생활사박물관은 2016년 5월 6일 개관한 생활사 전문 박물관",
+      "metadata": {
+        "image_copyright": "Type3",
+        "longitude": 128.9787416,
+        "adult_fee": 0.0,
+        "holiday_open": "09:00",
+        "homepage_url": "https://www.sasang.go.kr/lmuseum/index.sasang",
+        "sigungu": "사상구",
+        "source_types": "BASE|TOUR_API",
+        "sido": "부산광역시",
+        "weekday_open": "09:00",
+        "ownership_type": "공립",
+        "child_fee": 0.0,
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "requires_manual_review": true,
+        "name": "사상생활사박물관",
+        "holiday_close": "18:00",
+        "transport_notes": "지하철: 2호선 덕포역 1번 출구(약500m)+버스: 사상구7,123,126,138-1",
+        "amenities_raw": "휠체어+장애인 주차구역+기저귀갈이대",
+        "latitude": 35.1720448,
+        "youth_fee": 0.0,
+        "address": "부산광역시 사상구 낙동대로 1258번길 36",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/63/3017163_image2_1.JPG",
+        "weekday_close": "18:00",
+        "closure_rule_raw": "1월 1일+설 및 추석연휴+매주 월요일(공휴일이면 그 다음 첫번째 평일 휴관)"
+      },
+      "vector_rank": 15,
+      "bm25_rank": 11,
+      "vector_distance": 0.5144336819648743,
+      "vector_score": null,
+      "bm25_score": 12.563142133543392,
+      "vector_document": "사상생활사박물관은 2016년 5월 개관하여 사상의 자연과 함께 살아온 사람들의 생활사 변천 과정을 전시하고 지역에 산재해 있는 관광자원을 소개하는 곳이며 주민들이 주도적으로 운영에 참여하고 전문가와 행정이 협업하여 지역의 문화를 발전시키는 주민들의 소통 공간이다. 사상지역은 1970년대 대한민국 근대화에 있어 중추적인 역할을 해왔으나 공업화의 악영향으로 회색도시, 문화의 불모지라는 오명과 함께 날로 낙후되어 가고 있는 사상공업지역에 문화와 소통의 향기를 전하는 문화 네트워크형 박물관을 건립하여 잊혀가는 사상 주민들의 생활사와 추억들을 수집하여 역사를 조명하고 미래를 준비하기 위하여 사상생활사박물관을 건립하게 되었다. 특별 전시와 기획 전시도 운영하고 있다. 사상생활사박물관은 2016년 5월 6일 개관한 생활사 전문 박물관",
+      "bm25_document": "사상생활사박물관은 2016년 5월 개관하여 사상의 자연과 함께 살아온 사람들의 생활사 변천 과정을 전시하고 지역에 산재해 있는 관광자원을 소개하는 곳이며 주민들이 주도적으로 운영에 참여하고 전문가와 행정이 협업하여 지역의 문화를 발전시키는 주민들의 소통 공간이다. 사상지역은 1970년대 대한민국 근대화에 있어 중추적인 역할을 해왔으나 공업화의 악영향으로 회색도시, 문화의 불모지라는 오명과 함께 날로 낙후되어 가고 있는 사상공업지역에 문화와 소통의 향기를 전하는 문화 네트워크형 박물관을 건립하여 잊혀가는 사상 주민들의 생활사와 추억들을 수집하여 역사를 조명하고 미래를 준비하기 위하여 사상생활사박물관을 건립하게 되었다. 특별 전시와 기획 전시도 운영하고 있다. 사상생활사박물관은 2016년 5월 6일 개관한 생활사 전문 박물관",
+      "best_span_id": "chroma:M0286",
+      "best_span_text": "사상생활사박물관은 2016년 5월 개관하여 사상의 자연과 함께 살아온 사람들의 생활사 변천 과정을 전시하고 지역에 산재해 있는 관광자원을 소개하는 곳이며 주민들이 주도적으로 운영에 참여하고 전문가와 행정이 협업하여 지역의 문화를 발전시키는 주민들의 소통 공간이다. 사상지역은 1970년대 대한민국 근대화에 있어 중추적인 역할을 해왔으나 공업화의 악영향으로 회색도시, 문화의 불모지라는 오명과 함께 날로 낙후되어 가고 있는 사상공업지역에 문화와 소통의 향기를 전하는 문화 네트워크형 박물관을 건립하여 잊혀가는 사상 주민들의 생활사와 추억들을 수집하여 역사를 조명하고 미래를 준비하기 위하여 사상생활사박물관을 건립하게 되었다. 특별 전시와 기획 전시도 운영하고 있다. 사상생활사박물관은 2016년 5월 6일 개관한 생활사 전문 박물관",
+      "fusion_score": 0.027417840375586856,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 7,
+      "rerank_score": 0.07643068581819534,
+      "rank": 5,
+      "score": 0.07643068581819534,
+      "score_type": "cross_encoder",
+      "distance": 0.5144336819648743,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0286",
+      "source_doc_ids": [
+        "DOC-B0286-TOUR_API-3017191",
+        "DOC-B0286-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0286-TOUR_API-3017191",
+          "source_type": "TOUR_API",
+          "source_record_id": "3017191",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=142",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        },
+        {
+          "doc_id": "DOC-B0286-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0286",
+          "source_locator": "data/raw/museum_base_1070.csv#row=287",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 147,
+          "doc_ids": [
+            "DOC-B0286-TOUR_API-3017191"
+          ]
+        },
+        {
+          "start": 148,
+          "end": 348,
+          "doc_ids": [
+            "DOC-B0286-TOUR_API-3017191"
+          ]
+        },
+        {
+          "start": 349,
+          "end": 371,
+          "doc_ids": [
+            "DOC-B0286-TOUR_API-3017191"
+          ]
+        },
+        {
+          "start": 372,
+          "end": 408,
+          "doc_ids": [
+            "DOC-B0286-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=142",
+      "text": "사상생활사박물관은 2016년 5월 개관하여 사상의 자연과 함께 살아온 사람들의 생활사 변천 과정을 전시하고 지역에 산재해 있는 관광자원을 소개하는 곳이며 주민들이 주도적으로 운영에 참여하고 전문가와 행정이 협업하여 지역의 문화를 발전시키는 주민들의 소통 공간이다. 사상지역은 1970년대 대한민국 근대화에 있어 중추적인 역할을 해왔으나 공업화의 악영향으로 회색도시, 문화의 불모지라는 오명과 함께 날로 낙후되어 가고 있는 사상공업지역에 문화와 소통의 향기를 전하는 문화 네트워크형 박물관을 건립하여 잊혀가는 사상 주민들의 생활사와 추억들을 수집하여 역사를 조명하고 미래를 준비하기 위하여 사상생활사박물관을 건립하게 되었다. 특별 전시와 기획 전시도 운영하고 있다. 사상생활사박물관은 2016년 5월 6일 개관한 생활사 전문 박물관",
+      "sido": "부산광역시",
+      "sigungu": "사상구",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=142"
+      ],
+      "evidence_id": "E5",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=200",
+        "fields": {
+          "name": "사상생활사박물관",
+          "sido": "부산광역시",
+          "sigungu": "사상구",
+          "address": "부산광역시 사상구 낙동대로 1258번길 36",
+          "ownership_type": "공립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "09:00",
+          "weekday_close": "18:00",
+          "holiday_open": "09:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "1월 1일+설 및 추석연휴+매주 월요일(공휴일이면 그 다음 첫번째 평일 휴관)",
+          "amenities_raw": "휠체어+장애인 주차구역+기저귀갈이대"
+        },
+        "base_data_date": "2026-07-18",
+        "trust": "derived_dataset_not_human_verified"
+      },
+      "retrieval_branch": "document"
+    },
+    {
+      "museum_id": "M1027",
+      "name": "한성백제박물관",
+      "text": "한성백제박물관의 Neo4j operator_name(운영기관) 기록: 서울특별시 (CSV 원문: 서울특별시)\n[Neo4j 구조화 근거] {\"museum_id\": \"M1027\", \"name\": \"한성백제박물관\", \"relation\": \"OPERATED_BY\", \"organization\": \"서울특별시\", \"org_key\": \"서울특별시\", \"org_type\": \"지방자치단체\", \"raw_name\": \"서울특별시\", \"verification_status\": \"SOURCE_RECORDED\"}",
+      "span_id": "",
+      "source_doc_ids": [
+        "DOC-B1027-BASE",
+        "DOC-B1027-TOUR_API-1916296"
+      ],
+      "source_urls": [],
+      "source_url": "",
+      "source_locators": [
+        "data/raw/museum_base_1070.csv#row=1028",
+        "data/raw/museum_tourapi_with_overview.csv#row=477"
+      ],
+      "source_locator": "data/raw/museum_base_1070.csv#row=1028",
+      "sido": "서울특별시",
+      "sigungu": "송파구",
+      "retriever": "graph",
+      "evidence_role": "anchor",
+      "source_scope": "graph_properties",
+      "relation": "OPERATED_BY",
+      "organization": "서울특별시",
+      "org_type": "지방자치단체",
+      "operator_raw_name": "서울특별시",
+      "verification_status": "SOURCE_RECORDED",
+      "metadata": {},
+      "chunk_id": "",
+      "retrievers": [
+        "graph"
+      ],
+      "evidence_id": "E6",
+      "retrieval_branch": "graph",
+      "rank": 6
+    },
+    {
+      "museum_id": "M1026",
+      "name": "몽촌역사관",
+      "text": "{anchor_raw_name: 서울특별시, candidate_raw_name: 서울특별시, org_key: 서울특별시, organization: 서울특별시, relation: OPERATED_BY, verification_status: SOURCE_RECORDED}",
+      "span_id": "",
+      "source_doc_ids": [
+        "DOC-B1026-BASE"
+      ],
+      "source_urls": [],
+      "source_url": "",
+      "source_locators": [
+        "data/raw/museum_base_1070.csv#row=1027"
+      ],
+      "source_locator": "data/raw/museum_base_1070.csv#row=1027",
+      "sido": "서울특별시",
+      "sigungu": "송파구",
+      "retriever": "graph",
+      "graph_path": "anchor -[:OPERATED_BY]-> Organization <-[:OPERATED_BY]- candidate",
+      "organization": "서울특별시",
+      "org_type": "지방자치단체",
+      "operator_raw_name": "서울특별시",
+      "anchor_operator_raw_name": "서울특별시",
+      "relation": "OPERATED_BY",
+      "verification_status": "SOURCE_RECORDED",
+      "facility_type": "역사관",
+      "source_scope": "graph_properties",
+      "metadata": {},
+      "chunk_id": "",
+      "retrievers": [
+        "graph"
+      ],
+      "evidence_id": "E7",
+      "retrieval_branch": "graph",
+      "rank": 7
+    },
+    {
+      "museum_id": "M0423",
+      "name": "서울생활사박물관",
+      "text": "{anchor_raw_name: 서울특별시, candidate_raw_name: 서울특별시, org_key: 서울특별시, organization: 서울특별시, relation: OPERATED_BY, verification_status: SOURCE_RECORDED}",
+      "span_id": "",
+      "source_doc_ids": [
+        "DOC-B0423-TOUR_API-2638474"
+      ],
+      "source_urls": [],
+      "source_url": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=199"
+      ],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=199",
+      "sido": "서울특별시",
+      "sigungu": "노원구",
+      "retriever": "graph",
+      "graph_path": "anchor -[:OPERATED_BY]-> Organization <-[:OPERATED_BY]- candidate",
+      "organization": "서울특별시",
+      "org_type": "지방자치단체",
+      "operator_raw_name": "서울특별시",
+      "anchor_operator_raw_name": "서울특별시",
+      "relation": "OPERATED_BY",
+      "verification_status": "SOURCE_RECORDED",
+      "facility_type": "박물관",
+      "source_scope": "graph_properties",
+      "metadata": {},
+      "chunk_id": "",
+      "retrievers": [
+        "graph"
+      ],
+      "evidence_id": "E8",
+      "retrieval_branch": "graph",
+      "rank": 8
+    }
+  ],
+  "answer": "서울생활사박물관입니다. 한성백제박물관과 서울생활사박물관 모두 기록상 서울특별시가 운영기관이며 [E6][E8], 서울생활사박물관에서는 해방 이후부터 현재까지 서울 시민들의 생활사를 볼 수 있습니다 [E3].",
+  "retrieval_status": "ok",
+  "answer_status": "answered",
+  "route": "combined",
+  "retry_count": 0,
+  "supervisor_verified": true,
+  "rerank_applied": true,
+  "retriever_errors": [],
+  "warnings": [],
+  "duration_ms": 141092.07,
+  "error_type": "",
+  "hit_at_1": 0,
+  "hit_at_3": 1,
+  "hit_at_5": 1,
+  "recall_at_5": 1.0,
+  "mrr_at_10": 0.3333333333333333
+}

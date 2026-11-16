@@ -1,0 +1,90 @@
+{
+  "mode": "supervisor_full",
+  "question_id": "V2-OO03",
+  "evidence": [
+    {
+      "museum_id": "M0428",
+      "name": "포로수용소유적박물관",
+      "text": "포로수용소유적박물관의 Neo4j operator_name(운영기관) 기록: 거제해양관광개발공사 (CSV 원문: 거제해양관광개발공사)\n[Neo4j 구조화 근거] {\"museum_id\": \"M0428\", \"name\": \"포로수용소유적박물관\", \"relation\": \"OPERATED_BY\", \"organization\": \"거제해양관광개발공사\", \"org_key\": \"거제해양관광개발공사\", \"org_type\": \"공공기관\", \"raw_name\": \"거제해양관광개발공사\", \"verification_status\": \"SOURCE_RECORDED\"}",
+      "span_id": "",
+      "source_doc_ids": [
+        "DOC-B0428-TOUR_API-1937122"
+      ],
+      "source_urls": [],
+      "source_url": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=203"
+      ],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=203",
+      "sido": "경상남도",
+      "sigungu": "거제시",
+      "retriever": "graph",
+      "evidence_role": "anchor",
+      "source_scope": "graph_properties",
+      "relation": "OPERATED_BY",
+      "organization": "거제해양관광개발공사",
+      "org_type": "공공기관",
+      "operator_raw_name": "거제해양관광개발공사",
+      "verification_status": "SOURCE_RECORDED",
+      "metadata": {},
+      "chunk_id": "",
+      "retrievers": [
+        "graph"
+      ],
+      "evidence_id": "E1",
+      "rank": 1
+    },
+    {
+      "museum_id": "M0433",
+      "name": "거제어촌민속전시관",
+      "text": "{anchor_raw_name: 거제해양관광개발공사, candidate_raw_name: 거제해양관광개발공사, org_key: 거제해양관광개발공사, organization: 거제해양관광개발공사, relation: OPERATED_BY, verification_status: SOURCE_RECORDED}",
+      "span_id": "",
+      "source_doc_ids": [
+        "DOC-B0433-BASE",
+        "DOC-B0433-TOUR_API-1622179"
+      ],
+      "source_urls": [],
+      "source_url": "",
+      "source_locators": [
+        "data/raw/museum_base_1070.csv#row=434",
+        "data/raw/museum_tourapi_with_overview.csv#row=207"
+      ],
+      "source_locator": "data/raw/museum_base_1070.csv#row=434",
+      "sido": "경상남도",
+      "sigungu": "거제시",
+      "retriever": "graph",
+      "graph_path": "anchor -[:OPERATED_BY]-> Organization <-[:OPERATED_BY]- candidate",
+      "organization": "거제해양관광개발공사",
+      "org_type": "공공기관",
+      "operator_raw_name": "거제해양관광개발공사",
+      "anchor_operator_raw_name": "거제해양관광개발공사",
+      "relation": "OPERATED_BY",
+      "verification_status": "SOURCE_RECORDED",
+      "facility_type": "전시관",
+      "source_scope": "graph_properties",
+      "metadata": {},
+      "chunk_id": "",
+      "retrievers": [
+        "graph"
+      ],
+      "evidence_id": "E2",
+      "rank": 2
+    }
+  ],
+  "answer": "운영기관 기록이 포로수용소유적박물관과 같은 곳은 **거제어촌민속전시관**입니다. 두 시설 모두 운영기관이 거제해양관광개발공사로 기록되어 있습니다.[E1][E2]",
+  "retrieval_status": "ok",
+  "answer_status": "answered",
+  "route": "graph",
+  "retry_count": 0,
+  "supervisor_verified": true,
+  "rerank_applied": false,
+  "retriever_errors": [],
+  "warnings": [],
+  "duration_ms": 62276.01,
+  "error_type": "",
+  "hit_at_1": 1,
+  "hit_at_3": 1,
+  "hit_at_5": 1,
+  "recall_at_5": 1.0,
+  "mrr_at_10": 1.0
+}

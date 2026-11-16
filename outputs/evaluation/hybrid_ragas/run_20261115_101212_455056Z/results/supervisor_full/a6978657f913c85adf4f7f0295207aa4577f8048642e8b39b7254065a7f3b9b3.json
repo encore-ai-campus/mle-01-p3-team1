@@ -1,0 +1,653 @@
+{
+  "mode": "supervisor_full",
+  "question_id": "Q240",
+  "evidence": [
+    {
+      "museum_id": "M0417",
+      "name": "한국기독교선교박물관",
+      "document": "한국기독교선교박물관은 초창기 선교사들의 복음 활동과 역사를 전시하고 있다. 2009년 개관한 이래, 한국 기독교의 성장 과정을 깊이 이해할 수 있는 공간으로 거듭 발전하고 있다. 초창기 한국 교회의 유산인 고성서를 비롯해 잡지, 사진 등 기독교 자료를 관람할 수 있는 상설전시실, 특별 전시실이 있고, 근현대 민속품을 직접 보고 체험할 수 있는 민속실이 있어 다양한 전시를 경험할 수 있다. 전시를 통해 한국 기독교의 옛 모습을 돌아보고, 기독교가 근대 여명기 한국의 역사에 미친 영향을 소개한다. 또, 세계 각국에서 제작한 성경과 찬송가 등을 전시하여 기독교에 대한 이해를 돕고 있다. 2009년 개관, 2015년 사립박물관으로 등록, 한국 기독교 성장 과정을 이해할 수 있다",
+      "metadata": {
+        "image_copyright": "Type3",
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "sigungu": "동래구",
+        "ownership_type": "사립",
+        "adult_fee": 0.0,
+        "child_fee": 0.0,
+        "source_types": "BASE|TOUR_API",
+        "sido": "부산광역시",
+        "weekday_open": "10:00",
+        "address": "부산광역시 동래구 충렬대로202번가길 13",
+        "latitude": 35.20171298,
+        "weekday_close": "17:00",
+        "transport_notes": "수안역 2번 출구",
+        "closure_rule_raw": "일요일+월요일+공휴일 및 명절연휴기간",
+        "requires_manual_review": true,
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/81/3081181_image2_1.JPG",
+        "youth_fee": 0.0,
+        "name": "한국기독교선교박물관",
+        "longitude": 129.0824401,
+        "holiday_open": "10:00",
+        "holiday_close": "17:00",
+        "homepage_url": "https://museum-kcm.or.kr"
+      },
+      "vector_rank": 1,
+      "bm25_rank": 1,
+      "vector_distance": 0.32223331928253174,
+      "vector_score": null,
+      "bm25_score": 50.02353154697102,
+      "vector_document": "한국기독교선교박물관은 초창기 선교사들의 복음 활동과 역사를 전시하고 있다. 2009년 개관한 이래, 한국 기독교의 성장 과정을 깊이 이해할 수 있는 공간으로 거듭 발전하고 있다. 초창기 한국 교회의 유산인 고성서를 비롯해 잡지, 사진 등 기독교 자료를 관람할 수 있는 상설전시실, 특별 전시실이 있고, 근현대 민속품을 직접 보고 체험할 수 있는 민속실이 있어 다양한 전시를 경험할 수 있다. 전시를 통해 한국 기독교의 옛 모습을 돌아보고, 기독교가 근대 여명기 한국의 역사에 미친 영향을 소개한다. 또, 세계 각국에서 제작한 성경과 찬송가 등을 전시하여 기독교에 대한 이해를 돕고 있다. 2009년 개관, 2015년 사립박물관으로 등록, 한국 기독교 성장 과정을 이해할 수 있다",
+      "bm25_document": "한국기독교선교박물관은 초창기 선교사들의 복음 활동과 역사를 전시하고 있다. 2009년 개관한 이래, 한국 기독교의 성장 과정을 깊이 이해할 수 있는 공간으로 거듭 발전하고 있다. 초창기 한국 교회의 유산인 고성서를 비롯해 잡지, 사진 등 기독교 자료를 관람할 수 있는 상설전시실, 특별 전시실이 있고, 근현대 민속품을 직접 보고 체험할 수 있는 민속실이 있어 다양한 전시를 경험할 수 있다. 전시를 통해 한국 기독교의 옛 모습을 돌아보고, 기독교가 근대 여명기 한국의 역사에 미친 영향을 소개한다. 또, 세계 각국에서 제작한 성경과 찬송가 등을 전시하여 기독교에 대한 이해를 돕고 있다. 2009년 개관, 2015년 사립박물관으로 등록, 한국 기독교 성장 과정을 이해할 수 있다",
+      "best_span_id": "chroma:M0417",
+      "best_span_text": "한국기독교선교박물관은 초창기 선교사들의 복음 활동과 역사를 전시하고 있다. 2009년 개관한 이래, 한국 기독교의 성장 과정을 깊이 이해할 수 있는 공간으로 거듭 발전하고 있다. 초창기 한국 교회의 유산인 고성서를 비롯해 잡지, 사진 등 기독교 자료를 관람할 수 있는 상설전시실, 특별 전시실이 있고, 근현대 민속품을 직접 보고 체험할 수 있는 민속실이 있어 다양한 전시를 경험할 수 있다. 전시를 통해 한국 기독교의 옛 모습을 돌아보고, 기독교가 근대 여명기 한국의 역사에 미친 영향을 소개한다. 또, 세계 각국에서 제작한 성경과 찬송가 등을 전시하여 기독교에 대한 이해를 돕고 있다. 2009년 개관, 2015년 사립박물관으로 등록, 한국 기독교 성장 과정을 이해할 수 있다",
+      "fusion_score": 0.03278688524590164,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 1,
+      "name_match": true,
+      "rerank_score": 0.9998098015785217,
+      "rank": 1,
+      "score": 0.9998098015785217,
+      "score_type": "cross_encoder",
+      "distance": 0.32223331928253174,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0417",
+      "source_doc_ids": [
+        "DOC-B0417-TOUR_API-2550799",
+        "DOC-B0417-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0417-TOUR_API-2550799",
+          "source_type": "TOUR_API",
+          "source_record_id": "2550799",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=197",
+          "match_trust": "RECHECKED_BY_RULE_NOT_HUMAN_APPROVED"
+        },
+        {
+          "doc_id": "DOC-B0417-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0417",
+          "source_locator": "data/raw/museum_base_1070.csv#row=418",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 41,
+          "doc_ids": [
+            "DOC-B0417-TOUR_API-2550799"
+          ]
+        },
+        {
+          "start": 42,
+          "end": 99,
+          "doc_ids": [
+            "DOC-B0417-TOUR_API-2550799"
+          ]
+        },
+        {
+          "start": 100,
+          "end": 218,
+          "doc_ids": [
+            "DOC-B0417-TOUR_API-2550799"
+          ]
+        },
+        {
+          "start": 219,
+          "end": 278,
+          "doc_ids": [
+            "DOC-B0417-TOUR_API-2550799"
+          ]
+        },
+        {
+          "start": 279,
+          "end": 328,
+          "doc_ids": [
+            "DOC-B0417-TOUR_API-2550799"
+          ]
+        },
+        {
+          "start": 329,
+          "end": 379,
+          "doc_ids": [
+            "DOC-B0417-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=197",
+      "text": "한국기독교선교박물관은 초창기 선교사들의 복음 활동과 역사를 전시하고 있다. 2009년 개관한 이래, 한국 기독교의 성장 과정을 깊이 이해할 수 있는 공간으로 거듭 발전하고 있다. 초창기 한국 교회의 유산인 고성서를 비롯해 잡지, 사진 등 기독교 자료를 관람할 수 있는 상설전시실, 특별 전시실이 있고, 근현대 민속품을 직접 보고 체험할 수 있는 민속실이 있어 다양한 전시를 경험할 수 있다. 전시를 통해 한국 기독교의 옛 모습을 돌아보고, 기독교가 근대 여명기 한국의 역사에 미친 영향을 소개한다. 또, 세계 각국에서 제작한 성경과 찬송가 등을 전시하여 기독교에 대한 이해를 돕고 있다. 2009년 개관, 2015년 사립박물관으로 등록, 한국 기독교 성장 과정을 이해할 수 있다",
+      "sido": "부산광역시",
+      "sigungu": "동래구",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=197"
+      ],
+      "evidence_id": "E1",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=297",
+        "fields": {
+          "name": "한국기독교선교박물관",
+          "sido": "부산광역시",
+          "sigungu": "동래구",
+          "address": "부산광역시 동래구 충렬대로202번가길 13",
+          "ownership_type": "사립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "10:00",
+          "weekday_close": "17:00",
+          "holiday_open": "10:00",
+          "holiday_close": "17:00",
+          "closure_rule_raw": "일요일+월요일+공휴일 및 명절연휴기간"
+        },
+        "base_data_date": "2026-06-18",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0418",
+      "name": "숭실대학교 한국기독교박물관",
+      "document": "숭실대학교 한국기독교박물관은 한국기독교의 역사와 문화를 전시하는 전문 박물관으로, 평양 숭실 출신 김양선 교수 가족의 기증으로 설립되었다. 1967년 기증받은 박물관은 1976년 숭실대 교내에 단독 건물을 마련하여 정식 개관하였다. 전시 공간은 한국기독교역사실, 근대화와 민족운동사실, 고고미술실, 숭실역사실로 구성되어 있다. 영상 스크린과 정보검색 장치 등을 통해 학생과 시민들의 흥미와 이해를 돕고 있다. 또한 약 7,000여 점의 유물을 소장하고 있어 교육적 가치가 높다.",
+      "metadata": {
+        "ownership_type": "대학",
+        "image_copyright": "Type1",
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "address": "서울특별시 동작구 상도로 369",
+        "weekday_close": "16:30",
+        "child_fee": 0.0,
+        "name": "숭실대학교 한국기독교박물관",
+        "holiday_open": "10:00",
+        "adult_fee": 0.0,
+        "source_types": "TOUR_API",
+        "requires_manual_review": true,
+        "holiday_close": "12:00",
+        "closure_rule_raw": "일+공휴일",
+        "weekday_open": "10:00",
+        "homepage_url": "https://museum.ssu.ac.kr",
+        "youth_fee": 0.0,
+        "latitude": 37.49642897,
+        "longitude": 126.9551579,
+        "sido": "서울특별시",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/77/3526877_image2_1.jpg",
+        "sigungu": "동작구"
+      },
+      "vector_rank": 5,
+      "bm25_rank": 5,
+      "vector_distance": 0.4317624568939209,
+      "vector_score": null,
+      "bm25_score": 24.996293677660926,
+      "vector_document": "숭실대학교 한국기독교박물관은 한국기독교의 역사와 문화를 전시하는 전문 박물관으로, 평양 숭실 출신 김양선 교수 가족의 기증으로 설립되었다. 1967년 기증받은 박물관은 1976년 숭실대 교내에 단독 건물을 마련하여 정식 개관하였다. 전시 공간은 한국기독교역사실, 근대화와 민족운동사실, 고고미술실, 숭실역사실로 구성되어 있다. 영상 스크린과 정보검색 장치 등을 통해 학생과 시민들의 흥미와 이해를 돕고 있다. 또한 약 7,000여 점의 유물을 소장하고 있어 교육적 가치가 높다.",
+      "bm25_document": "숭실대학교 한국기독교박물관은 한국기독교의 역사와 문화를 전시하는 전문 박물관으로, 평양 숭실 출신 김양선 교수 가족의 기증으로 설립되었다. 1967년 기증받은 박물관은 1976년 숭실대 교내에 단독 건물을 마련하여 정식 개관하였다. 전시 공간은 한국기독교역사실, 근대화와 민족운동사실, 고고미술실, 숭실역사실로 구성되어 있다. 영상 스크린과 정보검색 장치 등을 통해 학생과 시민들의 흥미와 이해를 돕고 있다. 또한 약 7,000여 점의 유물을 소장하고 있어 교육적 가치가 높다.",
+      "best_span_id": "chroma:M0418",
+      "best_span_text": "숭실대학교 한국기독교박물관은 한국기독교의 역사와 문화를 전시하는 전문 박물관으로, 평양 숭실 출신 김양선 교수 가족의 기증으로 설립되었다. 1967년 기증받은 박물관은 1976년 숭실대 교내에 단독 건물을 마련하여 정식 개관하였다. 전시 공간은 한국기독교역사실, 근대화와 민족운동사실, 고고미술실, 숭실역사실로 구성되어 있다. 영상 스크린과 정보검색 장치 등을 통해 학생과 시민들의 흥미와 이해를 돕고 있다. 또한 약 7,000여 점의 유물을 소장하고 있어 교육적 가치가 높다.",
+      "fusion_score": 0.03076923076923077,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 5,
+      "rerank_score": 0.7222272753715515,
+      "rank": 2,
+      "score": 0.7222272753715515,
+      "score_type": "cross_encoder",
+      "distance": 0.4317624568939209,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0418",
+      "source_doc_ids": [
+        "DOC-B0418-TOUR_API-130067"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0418-TOUR_API-130067",
+          "source_type": "TOUR_API",
+          "source_record_id": "130067",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=198",
+          "match_trust": "RECHECKED_BY_RULE_NOT_HUMAN_APPROVED"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 77,
+          "doc_ids": [
+            "DOC-B0418-TOUR_API-130067"
+          ]
+        },
+        {
+          "start": 78,
+          "end": 129,
+          "doc_ids": [
+            "DOC-B0418-TOUR_API-130067"
+          ]
+        },
+        {
+          "start": 130,
+          "end": 182,
+          "doc_ids": [
+            "DOC-B0418-TOUR_API-130067"
+          ]
+        },
+        {
+          "start": 183,
+          "end": 228,
+          "doc_ids": [
+            "DOC-B0418-TOUR_API-130067"
+          ]
+        },
+        {
+          "start": 229,
+          "end": 267,
+          "doc_ids": [
+            "DOC-B0418-TOUR_API-130067"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=198",
+      "text": "숭실대학교 한국기독교박물관은 한국기독교의 역사와 문화를 전시하는 전문 박물관으로, 평양 숭실 출신 김양선 교수 가족의 기증으로 설립되었다. 1967년 기증받은 박물관은 1976년 숭실대 교내에 단독 건물을 마련하여 정식 개관하였다. 전시 공간은 한국기독교역사실, 근대화와 민족운동사실, 고고미술실, 숭실역사실로 구성되어 있다. 영상 스크린과 정보검색 장치 등을 통해 학생과 시민들의 흥미와 이해를 돕고 있다. 또한 약 7,000여 점의 유물을 소장하고 있어 교육적 가치가 높다.",
+      "sido": "서울특별시",
+      "sigungu": "동작구",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=198"
+      ],
+      "evidence_id": "E2",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=298",
+        "fields": {
+          "name": "숭실대학교 한국기독교박물관",
+          "sido": "서울특별시",
+          "sigungu": "동작구",
+          "address": "서울특별시 동작구 상도로 369",
+          "ownership_type": "대학",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "10:00",
+          "weekday_close": "16:30",
+          "holiday_open": "10:00",
+          "holiday_close": "12:00",
+          "closure_rule_raw": "일+공휴일"
+        },
+        "base_data_date": "2026-04-13",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0726",
+      "name": "백석대학교 기독교박물관",
+      "document": "히브리어ㆍ헬라어 등을 비롯하여 세계 여러 나라 고성경(古聖經), 한국초기 성경 교회사와 성경시의 생활과 풍습에 관한 고고유물(考古遺物), 기독교 미술 등 기독교 문화예술이 전시되어 있습니다.",
+      "metadata": {
+        "address": "충청남도 천안시 동남구 백석대학로 1, 창조관 13층",
+        "weekday_close": "17:30",
+        "fee_notes": "0",
+        "name": "백석대학교 기독교박물관",
+        "child_fee": 0.0,
+        "closure_rule_raw": "토+일+공휴일",
+        "sigungu": "천안시",
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "holiday_open": "00:00",
+        "adult_fee": 0.0,
+        "youth_fee": 0.0,
+        "source_types": "BASE",
+        "sido": "충청남도",
+        "homepage_url": "https://community.bu.ac.kr/museum/index.do",
+        "ownership_type": "대학",
+        "longitude": 127.1825206,
+        "holiday_close": "00:00",
+        "weekday_open": "09:30",
+        "latitude": 36.83883721,
+        "transport_notes": "천안 고속버스(시외버스)터미널에서 하차 후, 대로 건너편 버스정류장에서 시내버스(14, 700, 701, 710, 711, 720, 730) 탑승 후 백석대학교에서 하차 (약 10분)",
+        "requires_manual_review": true
+      },
+      "vector_rank": 3,
+      "bm25_rank": 4,
+      "vector_distance": 0.42360830307006836,
+      "vector_score": null,
+      "bm25_score": 25.087235245266733,
+      "vector_document": "히브리어ㆍ헬라어 등을 비롯하여 세계 여러 나라 고성경(古聖經), 한국초기 성경 교회사와 성경시의 생활과 풍습에 관한 고고유물(考古遺物), 기독교 미술 등 기독교 문화예술이 전시되어 있습니다.",
+      "bm25_document": "히브리어ㆍ헬라어 등을 비롯하여 세계 여러 나라 고성경(古聖經), 한국초기 성경 교회사와 성경시의 생활과 풍습에 관한 고고유물(考古遺物), 기독교 미술 등 기독교 문화예술이 전시되어 있습니다.",
+      "best_span_id": "chroma:M0726",
+      "best_span_text": "히브리어ㆍ헬라어 등을 비롯하여 세계 여러 나라 고성경(古聖經), 한국초기 성경 교회사와 성경시의 생활과 풍습에 관한 고고유물(考古遺物), 기독교 미술 등 기독교 문화예술이 전시되어 있습니다.",
+      "fusion_score": 0.03149801587301587,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 3,
+      "rerank_score": 0.22289365530014038,
+      "rank": 3,
+      "score": 0.22289365530014038,
+      "score_type": "cross_encoder",
+      "distance": 0.42360830307006836,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0726",
+      "source_doc_ids": [
+        "DOC-B0726-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0726-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0726",
+          "source_locator": "data/raw/museum_base_1070.csv#row=727",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 106,
+          "doc_ids": [
+            "DOC-B0726-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_base_1070.csv#row=727",
+      "text": "히브리어ㆍ헬라어 등을 비롯하여 세계 여러 나라 고성경(古聖經), 한국초기 성경 교회사와 성경시의 생활과 풍습에 관한 고고유물(考古遺物), 기독교 미술 등 기독교 문화예술이 전시되어 있습니다.",
+      "sido": "충청남도",
+      "sigungu": "천안시",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_base_1070.csv#row=727"
+      ],
+      "evidence_id": "E3",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=506",
+        "fields": {
+          "name": "백석대학교 기독교박물관",
+          "sido": "충청남도",
+          "sigungu": "천안시",
+          "address": "충청남도 천안시 동남구 백석대학로 1, 창조관 13층",
+          "ownership_type": "대학",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "09:30",
+          "weekday_close": "17:30",
+          "holiday_open": "00:00",
+          "holiday_close": "00:00",
+          "closure_rule_raw": "토+일+공휴일"
+        },
+        "base_data_date": "2024-07-11",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0711",
+      "name": "백석대학교 기독교박물관",
+      "document": "세계 고성경 및 고고유물, 기독교 미술, 교회사 등 관련 유물 전시 수집 보존하고 있음.",
+      "metadata": {
+        "address": "충청남도 천안시 동남구 백석대학로 1-1",
+        "weekday_close": "17:00",
+        "name": "백석대학교 기독교박물관",
+        "adult_fee": 0.0,
+        "homepage_url": "https://community.bu.ac.kr/museum/index.do",
+        "child_fee": 0.0,
+        "longitude": 127.1845931,
+        "latitude": 36.84044266,
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "holiday_close": "00:00",
+        "weekday_open": "10:00",
+        "sigungu": "천안시",
+        "fee_notes": "0",
+        "closure_rule_raw": "토+일요일+공휴일",
+        "ownership_type": "대학",
+        "holiday_open": "00:00",
+        "sido": "충청남도",
+        "youth_fee": 0.0,
+        "transport_notes": "KTX역 천안방면 버스정류장에서 13번을 타서 백석대학교 앞에서 하차",
+        "source_types": "BASE",
+        "requires_manual_review": true
+      },
+      "vector_rank": 2,
+      "bm25_rank": 7,
+      "vector_distance": 0.41718584299087524,
+      "vector_score": null,
+      "bm25_score": 21.05215501621354,
+      "vector_document": "세계 고성경 및 고고유물, 기독교 미술, 교회사 등 관련 유물 전시 수집 보존하고 있음.",
+      "bm25_document": "세계 고성경 및 고고유물, 기독교 미술, 교회사 등 관련 유물 전시 수집 보존하고 있음.",
+      "best_span_id": "chroma:M0711",
+      "best_span_text": "세계 고성경 및 고고유물, 기독교 미술, 교회사 등 관련 유물 전시 수집 보존하고 있음.",
+      "fusion_score": 0.031054405392392875,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 4,
+      "rerank_score": 0.16371406614780426,
+      "rank": 4,
+      "score": 0.16371406614780426,
+      "score_type": "cross_encoder",
+      "distance": 0.41718584299087524,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0711",
+      "source_doc_ids": [
+        "DOC-B0711-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0711-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0711",
+          "source_locator": "data/raw/museum_base_1070.csv#row=712",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 49,
+          "doc_ids": [
+            "DOC-B0711-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_base_1070.csv#row=712",
+      "text": "세계 고성경 및 고고유물, 기독교 미술, 교회사 등 관련 유물 전시 수집 보존하고 있음.",
+      "sido": "충청남도",
+      "sigungu": "천안시",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_base_1070.csv#row=712"
+      ],
+      "evidence_id": "E4",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=495",
+        "fields": {
+          "name": "백석대학교 기독교박물관",
+          "sido": "충청남도",
+          "sigungu": "천안시",
+          "address": "충청남도 천안시 동남구 백석대학로 1-1",
+          "ownership_type": "대학",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "10:00",
+          "weekday_close": "17:00",
+          "holiday_open": "00:00",
+          "holiday_close": "00:00",
+          "closure_rule_raw": "토+일요일+공휴일"
+        },
+        "base_data_date": "2024-07-11",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M1004",
+      "name": "공주기독교박물관",
+      "document": "공주제일교회는 충청권 선교 거점이었던 115년의 기독교 역사가 전시된 기독교 박물관입니다. 1층은 독립을 위해 헌신했던 기독교도들의 역사를 돌아볼 수 있고, 2층은 공주지역 기독교 역사와 관련 유물들이 전시되어 있습니다.",
+      "metadata": {
+        "ownership_type": "사립",
+        "holiday_open": "10:00",
+        "closure_rule_raw": "매주 일요일+ 월요일",
+        "source_types": "BASE",
+        "weekday_open": "10:00",
+        "latitude": 36.4509175,
+        "amenities_raw": "전시실, 수장고, 자료도서실",
+        "adult_fee_status": "BASE_FEE_PAID",
+        "child_fee": 1000.0,
+        "name": "공주기독교박물관",
+        "holiday_close": "17:00",
+        "requires_manual_review": false,
+        "longitude": 127.1225019,
+        "sigungu": "공주시",
+        "transport_notes": "시내버스 100+ 125+ 200+ 210+ 212+ 220+ 221+ 230+ 240+ 250+ 251+ 270+ 281+ 501",
+        "sido": "충청남도",
+        "weekday_close": "17:00",
+        "youth_fee": 2000.0,
+        "adult_fee": 2000.0,
+        "address": "충청남도 공주시 제민1길 18",
+        "fee_notes": "미취학아동 무료"
+      },
+      "vector_rank": 4,
+      "bm25_rank": 2,
+      "vector_distance": 0.42620158195495605,
+      "vector_score": null,
+      "bm25_score": 36.72199526530099,
+      "vector_document": "공주제일교회는 충청권 선교 거점이었던 115년의 기독교 역사가 전시된 기독교 박물관입니다. 1층은 독립을 위해 헌신했던 기독교도들의 역사를 돌아볼 수 있고, 2층은 공주지역 기독교 역사와 관련 유물들이 전시되어 있습니다.",
+      "bm25_document": "공주제일교회는 충청권 선교 거점이었던 115년의 기독교 역사가 전시된 기독교 박물관입니다. 1층은 독립을 위해 헌신했던 기독교도들의 역사를 돌아볼 수 있고, 2층은 공주지역 기독교 역사와 관련 유물들이 전시되어 있습니다.",
+      "best_span_id": "chroma:M1004",
+      "best_span_text": "공주제일교회는 충청권 선교 거점이었던 115년의 기독교 역사가 전시된 기독교 박물관입니다. 1층은 독립을 위해 헌신했던 기독교도들의 역사를 돌아볼 수 있고, 2층은 공주지역 기독교 역사와 관련 유물들이 전시되어 있습니다.",
+      "fusion_score": 0.031754032258064516,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 2,
+      "rerank_score": 0.041806723922491074,
+      "rank": 5,
+      "score": 0.041806723922491074,
+      "score_type": "cross_encoder",
+      "distance": 0.42620158195495605,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M1004",
+      "source_doc_ids": [
+        "DOC-B1004-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B1004-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B1004",
+          "source_locator": "data/raw/museum_base_1070.csv#row=1005",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 50,
+          "doc_ids": [
+            "DOC-B1004-BASE"
+          ]
+        },
+        {
+          "start": 51,
+          "end": 123,
+          "doc_ids": [
+            "DOC-B1004-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_base_1070.csv#row=1005",
+      "text": "공주제일교회는 충청권 선교 거점이었던 115년의 기독교 역사가 전시된 기독교 박물관입니다. 1층은 독립을 위해 헌신했던 기독교도들의 역사를 돌아볼 수 있고, 2층은 공주지역 기독교 역사와 관련 유물들이 전시되어 있습니다.",
+      "sido": "충청남도",
+      "sigungu": "공주시",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_base_1070.csv#row=1005"
+      ],
+      "evidence_id": "E5",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=687",
+        "fields": {
+          "name": "공주기독교박물관",
+          "sido": "충청남도",
+          "sigungu": "공주시",
+          "address": "충청남도 공주시 제민1길 18",
+          "ownership_type": "사립",
+          "adult_fee": "2000",
+          "youth_fee": "2000",
+          "child_fee": "1000",
+          "adult_fee_status": "BASE_FEE_PAID",
+          "weekday_open": "10:00",
+          "weekday_close": "17:00",
+          "holiday_open": "10:00",
+          "holiday_close": "17:00",
+          "closure_rule_raw": "매주 일요일+ 월요일",
+          "amenities_raw": "전시실, 수장고, 자료도서실"
+        },
+        "base_data_date": "2024-08-27",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    }
+  ],
+  "answer": "고성서와 잡지·사진 등 기독교 자료는 **상설전시실과 특별전시실**에서 관람할 수 있습니다. [E1]",
+  "retrieval_status": "ok",
+  "answer_status": "answered",
+  "route": "hybrid",
+  "retry_count": 0,
+  "supervisor_verified": true,
+  "rerank_applied": true,
+  "retriever_errors": [],
+  "warnings": [],
+  "duration_ms": 130638.66,
+  "error_type": "",
+  "hit_at_1": 1,
+  "hit_at_3": 1,
+  "hit_at_5": 1,
+  "recall_at_5": 1.0,
+  "mrr_at_10": 1.0
+}

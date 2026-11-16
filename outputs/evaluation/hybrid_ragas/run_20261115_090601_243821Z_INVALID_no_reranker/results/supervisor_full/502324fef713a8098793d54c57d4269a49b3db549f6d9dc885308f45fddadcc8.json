@@ -1,0 +1,772 @@
+{
+  "mode": "supervisor_full",
+  "question_id": "Q277",
+  "evidence": [
+    {
+      "museum_id": "M0473",
+      "name": "자유수호평화박물관",
+      "document": "동두천 소요산 내에 위치한 자유수호 평화박물관은 한국전쟁의 참상을 통해 자유와 평화를 사랑하는 모든 분들의 희생을 기리고 후손들에게 전하고자 건립한 곳이다. 이곳은 한국전쟁 당시 나라를 지키기 위해 희생하신 국군과 유엔군의 고귀한 정신을 기리고 다양한 전시자료를 통해 전 세계에 널리 알리고 있다. 또한 민족 상잔의 비극이 되풀이 되지 않도록 온 국민의 안보 교육장으로 활용하기 위하여 운영되고 있다. 40,000㎡ 부지의 지상 4층 건물로 1층 전시장은 로비 및 기획전시공간으로 해방부터 6.25전쟁 후까지 시대적 사실을 12개의 도자기로 표현한 이미지 부조와 전쟁으로부터 자유와 평화를 지키기 위한 병사의 역동적인 몸짓과 세계평화를 표현한 상징물들이 있으며 기획 전시실이 있다. 2층 전시장은 주전시관으로 유엔 참전 전투지원 16개국과 의료지원 5개국의 유물과 자료가 전시되어 있고, 3층 전시관은 영상관으로 6.25전쟁에 관한 자료를 영상으로 소개하고 있다. 이호왕기념관에서는 대한민국의 대표적 의학자이자 미생물학자인 이호왕박사에 대한 자료를 전시하고 있다. 야외 전시장에는 6.25 전쟁부터 최근까지 군에서 사용하던 비행기 및 탱크 등 총 15점의 대형장비를 전시하고 있다. 실감콘텐츠 체험존에서는 다양한 체험 프로그램이 준비되어 있다. 경기의 소금강으로 잘 알려진 소요산 내에 박물관이 위치하고 있어 관광 및 등산 여가를 함께 즐길 수 있으며, 근처에 외국인 특화 거리도 있어 작은 미국을 경험할 수도 있다. 잊혀져 가는 6.25전쟁에 대한 이해와 자유와 평화를 수호하기 위하여 희생하신 분들의 뜻을 기리고 유엔 참전국과의 우호 증진을 위해 건립된 박물관",
+      "metadata": {
+        "child_fee": 0.0,
+        "sido": "경기도",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/03/4124103_image2_1.jpg",
+        "latitude": 37.94250187,
+        "weekday_open": "09:00",
+        "image_copyright": "Type1",
+        "amenities_raw": "휴게공간",
+        "holiday_open": "09:00",
+        "fee_notes": "무료",
+        "name": "자유수호평화박물관",
+        "longitude": 127.0660561,
+        "weekday_close": "18:00",
+        "homepage_url": "https://www.ddc.go.kr/museum/index.do",
+        "holiday_close": "18:00",
+        "adult_fee": 0.0,
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "address": "경기도 동두천시 평화로 2910번길 96-63",
+        "requires_manual_review": true,
+        "source_types": "BASE|TOUR_API",
+        "closure_rule_raw": "월 (단, 월요일이 공휴일인 경우 당일은 개관하고 그 다음 첫번째 평일에 휴관)+1월1일+설날 및 추석 당일",
+        "ownership_type": "공립",
+        "transport_notes": "1호선 소요산역 1번 출구+도보 15분",
+        "youth_fee": 0.0,
+        "sigungu": "동두천시"
+      },
+      "vector_rank": 1,
+      "bm25_rank": 1,
+      "vector_distance": 0.5085130333900452,
+      "vector_score": null,
+      "bm25_score": 31.032750149675355,
+      "vector_document": "동두천 소요산 내에 위치한 자유수호 평화박물관은 한국전쟁의 참상을 통해 자유와 평화를 사랑하는 모든 분들의 희생을 기리고 후손들에게 전하고자 건립한 곳이다. 이곳은 한국전쟁 당시 나라를 지키기 위해 희생하신 국군과 유엔군의 고귀한 정신을 기리고 다양한 전시자료를 통해 전 세계에 널리 알리고 있다. 또한 민족 상잔의 비극이 되풀이 되지 않도록 온 국민의 안보 교육장으로 활용하기 위하여 운영되고 있다. 40,000㎡ 부지의 지상 4층 건물로 1층 전시장은 로비 및 기획전시공간으로 해방부터 6.25전쟁 후까지 시대적 사실을 12개의 도자기로 표현한 이미지 부조와 전쟁으로부터 자유와 평화를 지키기 위한 병사의 역동적인 몸짓과 세계평화를 표현한 상징물들이 있으며 기획 전시실이 있다. 2층 전시장은 주전시관으로 유엔 참전 전투지원 16개국과 의료지원 5개국의 유물과 자료가 전시되어 있고, 3층 전시관은 영상관으로 6.25전쟁에 관한 자료를 영상으로 소개하고 있다. 이호왕기념관에서는 대한민국의 대표적 의학자이자 미생물학자인 이호왕박사에 대한 자료를 전시하고 있다. 야외 전시장에는 6.25 전쟁부터 최근까지 군에서 사용하던 비행기 및 탱크 등 총 15점의 대형장비를 전시하고 있다. 실감콘텐츠 체험존에서는 다양한 체험 프로그램이 준비되어 있다. 경기의 소금강으로 잘 알려진 소요산 내에 박물관이 위치하고 있어 관광 및 등산 여가를 함께 즐길 수 있으며, 근처에 외국인 특화 거리도 있어 작은 미국을 경험할 수도 있다. 잊혀져 가는 6.25전쟁에 대한 이해와 자유와 평화를 수호하기 위하여 희생하신 분들의 뜻을 기리고 유엔 참전국과의 우호 증진을 위해 건립된 박물관",
+      "bm25_document": "동두천 소요산 내에 위치한 자유수호 평화박물관은 한국전쟁의 참상을 통해 자유와 평화를 사랑하는 모든 분들의 희생을 기리고 후손들에게 전하고자 건립한 곳이다. 이곳은 한국전쟁 당시 나라를 지키기 위해 희생하신 국군과 유엔군의 고귀한 정신을 기리고 다양한 전시자료를 통해 전 세계에 널리 알리고 있다. 또한 민족 상잔의 비극이 되풀이 되지 않도록 온 국민의 안보 교육장으로 활용하기 위하여 운영되고 있다. 40,000㎡ 부지의 지상 4층 건물로 1층 전시장은 로비 및 기획전시공간으로 해방부터 6.25전쟁 후까지 시대적 사실을 12개의 도자기로 표현한 이미지 부조와 전쟁으로부터 자유와 평화를 지키기 위한 병사의 역동적인 몸짓과 세계평화를 표현한 상징물들이 있으며 기획 전시실이 있다. 2층 전시장은 주전시관으로 유엔 참전 전투지원 16개국과 의료지원 5개국의 유물과 자료가 전시되어 있고, 3층 전시관은 영상관으로 6.25전쟁에 관한 자료를 영상으로 소개하고 있다. 이호왕기념관에서는 대한민국의 대표적 의학자이자 미생물학자인 이호왕박사에 대한 자료를 전시하고 있다. 야외 전시장에는 6.25 전쟁부터 최근까지 군에서 사용하던 비행기 및 탱크 등 총 15점의 대형장비를 전시하고 있다. 실감콘텐츠 체험존에서는 다양한 체험 프로그램이 준비되어 있다. 경기의 소금강으로 잘 알려진 소요산 내에 박물관이 위치하고 있어 관광 및 등산 여가를 함께 즐길 수 있으며, 근처에 외국인 특화 거리도 있어 작은 미국을 경험할 수도 있다. 잊혀져 가는 6.25전쟁에 대한 이해와 자유와 평화를 수호하기 위하여 희생하신 분들의 뜻을 기리고 유엔 참전국과의 우호 증진을 위해 건립된 박물관",
+      "best_span_id": "chroma:M0473",
+      "best_span_text": "동두천 소요산 내에 위치한 자유수호 평화박물관은 한국전쟁의 참상을 통해 자유와 평화를 사랑하는 모든 분들의 희생을 기리고 후손들에게 전하고자 건립한 곳이다. 이곳은 한국전쟁 당시 나라를 지키기 위해 희생하신 국군과 유엔군의 고귀한 정신을 기리고 다양한 전시자료를 통해 전 세계에 널리 알리고 있다. 또한 민족 상잔의 비극이 되풀이 되지 않도록 온 국민의 안보 교육장으로 활용하기 위하여 운영되고 있다. 40,000㎡ 부지의 지상 4층 건물로 1층 전시장은 로비 및 기획전시공간으로 해방부터 6.25전쟁 후까지 시대적 사실을 12개의 도자기로 표현한 이미지 부조와 전쟁으로부터 자유와 평화를 지키기 위한 병사의 역동적인 몸짓과 세계평화를 표현한 상징물들이 있으며 기획 전시실이 있다. 2층 전시장은 주전시관으로 유엔 참전 전투지원 16개국과 의료지원 5개국의 유물과 자료가 전시되어 있고, 3층 전시관은 영상관으로 6.25전쟁에 관한 자료를 영상으로 소개하고 있다. 이호왕기념관에서는 대한민국의 대표적 의학자이자 미생물학자인 이호왕박사에 대한 자료를 전시하고 있다. 야외 전시장에는 6.25 전쟁부터 최근까지 군에서 사용하던 비행기 및 탱크 등 총 15점의 대형장비를 전시하고 있다. 실감콘텐츠 체험존에서는 다양한 체험 프로그램이 준비되어 있다. 경기의 소금강으로 잘 알려진 소요산 내에 박물관이 위치하고 있어 관광 및 등산 여가를 함께 즐길 수 있으며, 근처에 외국인 특화 거리도 있어 작은 미국을 경험할 수도 있다. 잊혀져 가는 6.25전쟁에 대한 이해와 자유와 평화를 수호하기 위하여 희생하신 분들의 뜻을 기리고 유엔 참전국과의 우호 증진을 위해 건립된 박물관",
+      "fusion_score": 0.03278688524590164,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 1,
+      "name_match": true,
+      "rerank_score": null,
+      "rank": 1,
+      "score": 0.03278688524590164,
+      "score_type": "rrf",
+      "distance": 0.5085130333900452,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0473",
+      "source_doc_ids": [
+        "DOC-B0473-TOUR_API-130685",
+        "DOC-B0473-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0473-TOUR_API-130685",
+          "source_type": "TOUR_API",
+          "source_record_id": "130685",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=232",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        },
+        {
+          "doc_id": "DOC-B0473-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0473",
+          "source_locator": "data/raw/museum_base_1070.csv#row=474",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 87,
+          "doc_ids": [
+            "DOC-B0473-TOUR_API-130685"
+          ]
+        },
+        {
+          "start": 88,
+          "end": 166,
+          "doc_ids": [
+            "DOC-B0473-TOUR_API-130685"
+          ]
+        },
+        {
+          "start": 167,
+          "end": 224,
+          "doc_ids": [
+            "DOC-B0473-TOUR_API-130685"
+          ]
+        },
+        {
+          "start": 225,
+          "end": 381,
+          "doc_ids": [
+            "DOC-B0473-TOUR_API-130685"
+          ]
+        },
+        {
+          "start": 382,
+          "end": 483,
+          "doc_ids": [
+            "DOC-B0473-TOUR_API-130685"
+          ]
+        },
+        {
+          "start": 484,
+          "end": 539,
+          "doc_ids": [
+            "DOC-B0473-TOUR_API-130685"
+          ]
+        },
+        {
+          "start": 540,
+          "end": 605,
+          "doc_ids": [
+            "DOC-B0473-TOUR_API-130685"
+          ]
+        },
+        {
+          "start": 606,
+          "end": 640,
+          "doc_ids": [
+            "DOC-B0473-TOUR_API-130685"
+          ]
+        },
+        {
+          "start": 641,
+          "end": 737,
+          "doc_ids": [
+            "DOC-B0473-TOUR_API-130685"
+          ]
+        },
+        {
+          "start": 738,
+          "end": 819,
+          "doc_ids": [
+            "DOC-B0473-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=232",
+      "text": "동두천 소요산 내에 위치한 자유수호 평화박물관은 한국전쟁의 참상을 통해 자유와 평화를 사랑하는 모든 분들의 희생을 기리고 후손들에게 전하고자 건립한 곳이다. 이곳은 한국전쟁 당시 나라를 지키기 위해 희생하신 국군과 유엔군의 고귀한 정신을 기리고 다양한 전시자료를 통해 전 세계에 널리 알리고 있다. 또한 민족 상잔의 비극이 되풀이 되지 않도록 온 국민의 안보 교육장으로 활용하기 위하여 운영되고 있다. 40,000㎡ 부지의 지상 4층 건물로 1층 전시장은 로비 및 기획전시공간으로 해방부터 6.25전쟁 후까지 시대적 사실을 12개의 도자기로 표현한 이미지 부조와 전쟁으로부터 자유와 평화를 지키기 위한 병사의 역동적인 몸짓과 세계평화를 표현한 상징물들이 있으며 기획 전시실이 있다. 2층 전시장은 주전시관으로 유엔 참전 전투지원 16개국과 의료지원 5개국의 유물과 자료가 전시되어 있고, 3층 전시관은 영상관으로 6.25전쟁에 관한 자료를 영상으로 소개하고 있다. 이호왕기념관에서는 대한민국의 대표적 의학자이자 미생물학자인 이호왕박사에 대한 자료를 전시하고 있다. 야외 전시장에는 6.25 전쟁부터 최근까지 군에서 사용하던 비행기 및 탱크 등 총 15점의 대형장비를 전시하고 있다. 실감콘텐츠 체험존에서는 다양한 체험 프로그램이 준비되어 있다. 경기의 소금강으로 잘 알려진 소요산 내에 박물관이 위치하고 있어 관광 및 등산 여가를 함께 즐길 수 있으며, 근처에 외국인 특화 거리도 있어 작은 미국을 경험할 수도 있다. 잊혀져 가는 6.25전쟁에 대한 이해와 자유와 평화를 수호하기 위하여 희생하신 분들의 뜻을 기리고 유엔 참전국과의 우호 증진을 위해 건립된 박물관",
+      "sido": "경기도",
+      "sigungu": "동두천시",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=232"
+      ],
+      "evidence_id": "E1",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=344",
+        "fields": {
+          "name": "자유수호평화박물관",
+          "sido": "경기도",
+          "sigungu": "동두천시",
+          "address": "경기도 동두천시 평화로 2910번길 96-63",
+          "ownership_type": "공립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "09:00",
+          "weekday_close": "18:00",
+          "holiday_open": "09:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "월 (단, 월요일이 공휴일인 경우 당일은 개관하고 그 다음 첫번째 평일에 휴관)+1월1일+설날 및 추석 당일",
+          "amenities_raw": "휴게공간"
+        },
+        "base_data_date": "2026-03-12",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0237",
+      "name": "서대문형무소역사관(11월~2월)",
+      "document": "자주독립정신과 자유, 평화수호 정신을 기리는 교육의 현장으로 운영되고 있습니다.",
+      "metadata": {
+        "youth_fee": 1500.0,
+        "adult_fee": 3000.0,
+        "requires_manual_review": true,
+        "weekday_close": "17:00",
+        "holiday_close": "17:00",
+        "sido": "서울특별시",
+        "sigungu": "서대문구",
+        "holiday_open": "09:30",
+        "closure_rule_raw": "월+1월1일+설 당일+추석 당일",
+        "transport_notes": "[지하철] 독립문역(3호선) 5번 출구(도보 50m), 서대문역(5호선) 3번 출구에서 종로05(마을버스) 탑승 후 독립문역 3번 출구 하차  [버스] 독립문역 또는 한성과학고 정류장 하차 (간선버스) 471, 701, 702A/B, 704, 720, 752 (지선버스) 7019, 7021, 7023, 7025, 7737 (광역버스) 9701 (공항버스) 6005",
+        "address": "서울특별시 서대문구 통일로 251",
+        "homepage_url": "https://sphh.sscmc.or.kr/",
+        "child_fee": 1000.0,
+        "ownership_type": "공립",
+        "latitude": 37.57460851,
+        "weekday_open": "09:30",
+        "longitude": 126.9556118,
+        "fee_notes": "① 무료[6세 이하+65세 이상+장애인 및 국가보훈대상자(장애인등록증 및 국가유공자증 등 소지자)]+② 50퍼센트 할인[서대문 거주 주민(신분증 소지자)+관내 학교(초ㆍ중ㆍ고)]+③ 20퍼센트 할인(서대문 자연사박물관 티켓 소지자)",
+        "source_types": "BASE",
+        "amenities_raw": "휴게공간(창고 내)+뮤지엄샵+장애인 전담도우미 안내+무료해설 안내 앱(개인 이어폰 지참)",
+        "adult_fee_status": "BASE_FEE_PAID",
+        "name": "서대문형무소역사관(11월~2월)"
+      },
+      "vector_rank": 10,
+      "bm25_rank": 2,
+      "vector_distance": 0.5663159489631653,
+      "vector_score": null,
+      "bm25_score": 22.98402399358037,
+      "vector_document": "자주독립정신과 자유, 평화수호 정신을 기리는 교육의 현장으로 운영되고 있습니다.",
+      "bm25_document": "자주독립정신과 자유, 평화수호 정신을 기리는 교육의 현장으로 운영되고 있습니다.",
+      "best_span_id": "chroma:M0237",
+      "best_span_text": "자주독립정신과 자유, 평화수호 정신을 기리는 교육의 현장으로 운영되고 있습니다.",
+      "fusion_score": 0.0304147465437788,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 2,
+      "rerank_score": null,
+      "rank": 2,
+      "score": 0.0304147465437788,
+      "score_type": "rrf",
+      "distance": 0.5663159489631653,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0237",
+      "source_doc_ids": [
+        "DOC-B0237-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0237-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0237",
+          "source_locator": "data/raw/museum_base_1070.csv#row=238",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 44,
+          "doc_ids": [
+            "DOC-B0237-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_base_1070.csv#row=238",
+      "text": "자주독립정신과 자유, 평화수호 정신을 기리는 교육의 현장으로 운영되고 있습니다.",
+      "sido": "서울특별시",
+      "sigungu": "서대문구",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_base_1070.csv#row=238"
+      ],
+      "evidence_id": "E2",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=165",
+        "fields": {
+          "name": "서대문형무소역사관(11월~2월)",
+          "sido": "서울특별시",
+          "sigungu": "서대문구",
+          "address": "서울특별시 서대문구 통일로 251",
+          "ownership_type": "공립",
+          "adult_fee": "3000",
+          "youth_fee": "1500",
+          "child_fee": "1000",
+          "adult_fee_status": "BASE_FEE_PAID",
+          "weekday_open": "09:30",
+          "weekday_close": "17:00",
+          "holiday_open": "09:30",
+          "holiday_close": "17:00",
+          "closure_rule_raw": "월+1월1일+설 당일+추석 당일",
+          "amenities_raw": "휴게공간(창고 내)+뮤지엄샵+장애인 전담도우미 안내+무료해설 안내 앱(개인 이어폰 지참)"
+        },
+        "base_data_date": "2026-09-07",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0238",
+      "name": "서대문형무소역사관(3월~10월)",
+      "document": "자주독립정신과 자유, 평화수호 정신을 기리는 교육의 현장으로 운영되고 있습니다.",
+      "metadata": {
+        "weekday_open": "09:30",
+        "amenities_raw": "휴게공간(창고 내)+뮤지엄샵+장애인 전담도우미 안내+무료해설 안내 앱(개인 이어폰 지참)",
+        "fee_notes": "① 무료[6세 이하+65세 이상+장애인 및 국가보훈대상자(장애인등록증 및 국가유공자증 등 소지자)]+② 50퍼센트 할인[서대문 거주 주민(신분증 소지자)+관내 학교(초ㆍ중ㆍ고)]+③ 20퍼센트 할인(서대문 자연사박물관 티켓 소지자)",
+        "homepage_url": "https://sphh.sscmc.or.kr/",
+        "sigungu": "서대문구",
+        "ownership_type": "공립",
+        "closure_rule_raw": "월+1월1일+설 당일+추석 당일",
+        "address": "서울특별시 서대문구 통일로 251",
+        "transport_notes": "[지하철] 독립문역(3호선) 5번 출구(도보 50m), 서대문역(5호선) 3번 출구에서 종로05(마을버스) 탑승 후 독립문역 3번 출구 하차  [버스] 독립문역 또는 한성과학고 정류장 하차 (간선버스) 471, 701, 702A/B, 704, 720, 752 (지선버스) 7019, 7021, 7023, 7025, 7737 (광역버스) 9701 (공항버스) 6005",
+        "sido": "서울특별시",
+        "longitude": 126.9556118,
+        "weekday_close": "18:00",
+        "holiday_close": "18:00",
+        "youth_fee": 1500.0,
+        "source_types": "BASE",
+        "child_fee": 1000.0,
+        "latitude": 37.57460851,
+        "adult_fee_status": "BASE_FEE_PAID",
+        "adult_fee": 3000.0,
+        "holiday_open": "09:30",
+        "requires_manual_review": true,
+        "name": "서대문형무소역사관(3월~10월)"
+      },
+      "vector_rank": 13,
+      "bm25_rank": 3,
+      "vector_distance": 0.5688169002532959,
+      "vector_score": null,
+      "bm25_score": 22.98402399358037,
+      "vector_document": "자주독립정신과 자유, 평화수호 정신을 기리는 교육의 현장으로 운영되고 있습니다.",
+      "bm25_document": "자주독립정신과 자유, 평화수호 정신을 기리는 교육의 현장으로 운영되고 있습니다.",
+      "best_span_id": "chroma:M0238",
+      "best_span_text": "자주독립정신과 자유, 평화수호 정신을 기리는 교육의 현장으로 운영되고 있습니다.",
+      "fusion_score": 0.029571646010002173,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 3,
+      "rerank_score": null,
+      "rank": 3,
+      "score": 0.029571646010002173,
+      "score_type": "rrf",
+      "distance": 0.5688169002532959,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0238",
+      "source_doc_ids": [
+        "DOC-B0238-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0238-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0238",
+          "source_locator": "data/raw/museum_base_1070.csv#row=239",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 44,
+          "doc_ids": [
+            "DOC-B0238-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_base_1070.csv#row=239",
+      "text": "자주독립정신과 자유, 평화수호 정신을 기리는 교육의 현장으로 운영되고 있습니다.",
+      "sido": "서울특별시",
+      "sigungu": "서대문구",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_base_1070.csv#row=239"
+      ],
+      "evidence_id": "E3",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=166",
+        "fields": {
+          "name": "서대문형무소역사관(3월~10월)",
+          "sido": "서울특별시",
+          "sigungu": "서대문구",
+          "address": "서울특별시 서대문구 통일로 251",
+          "ownership_type": "공립",
+          "adult_fee": "3000",
+          "youth_fee": "1500",
+          "child_fee": "1000",
+          "adult_fee_status": "BASE_FEE_PAID",
+          "weekday_open": "09:30",
+          "weekday_close": "18:00",
+          "holiday_open": "09:30",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "월+1월1일+설 당일+추석 당일",
+          "amenities_raw": "휴게공간(창고 내)+뮤지엄샵+장애인 전담도우미 안내+무료해설 안내 앱(개인 이어폰 지참)"
+        },
+        "base_data_date": "2026-09-07",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0753",
+      "name": "울산박물관",
+      "document": "울산박물관은 울산의 선사시대부터 현대까지의 문화와 역사를 보여주기 위해 2011년 설립되었다. 지하 1층, 지상 2층으로 구성되어 있으며 지상 1층에는 기획전시실, 어린이 박물관, 원형극장 등이 자리 잡고 있으며 지상 2층에는 역사실 및 산업사실이 설치되어 있다. 탁 트인 넓은 공간과 자연의 아름다움을 연결한 야외전시장이 있으며 박물관 외벽에 울산의 대표적 국가유산인 반구대 암각화를 음각으로 조각하여 연출했다. 울산의 오래된 역사를 박물관 초입에 연출함으로써 문화도시 울산의 웅장함과 자긍심을 드러내 보인다. 박물관은 울산대공원 안에 위치한다. 울산의 역사와 문화를 보여주는 울산의 대표 박물관이다. 역사실, 산업사실로 구성된 상설전시실과 어린이박물관, 실감영상관, 기획전시실로 구성되어 있다. 매년 울산의 역사, 문화, 산업 등을 주제로 한 전시와 교육 및 문화행사를 운영하고 있다.",
+      "metadata": {
+        "address": "울산광역시 남구 두왕로 277",
+        "child_fee": 0.0,
+        "amenities_raw": "주차장+수유실+도서관 등",
+        "ownership_type": "공립",
+        "fee_notes": "0",
+        "requires_manual_review": true,
+        "holiday_open": "09:00",
+        "source_types": "BASE|TOUR_API",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/36/3072936_image2_1.jpg",
+        "youth_fee": 0.0,
+        "sigungu": "남구",
+        "holiday_close": "18:00",
+        "longitude": 129.3086925,
+        "adult_fee": 0.0,
+        "weekday_open": "09:00",
+        "image_copyright": "Type3",
+        "weekday_close": "18:00",
+        "homepage_url": "http://www.ulsan.go.kr/s/museum",
+        "latitude": 35.52713607,
+        "closure_rule_raw": "매주 월+1월1일",
+        "transport_notes": "- 일반버스 124, 205, 225, 527, 715번 : 울산박물관·울산대공원동문앞 하차- 일반버스 106, 216번 : 올림푸스아파트앞 하차, 울산박물관까지 도보 11분- 일반버스   714, 824번 : 공업탑 하차, 울산박물관까지 도보 13분",
+        "sido": "울산광역시",
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "name": "울산박물관"
+      },
+      "vector_rank": 9,
+      "bm25_rank": 7,
+      "vector_distance": 0.5622134208679199,
+      "vector_score": null,
+      "bm25_score": 17.443395690064246,
+      "vector_document": "울산박물관은 울산의 선사시대부터 현대까지의 문화와 역사를 보여주기 위해 2011년 설립되었다. 지하 1층, 지상 2층으로 구성되어 있으며 지상 1층에는 기획전시실, 어린이 박물관, 원형극장 등이 자리 잡고 있으며 지상 2층에는 역사실 및 산업사실이 설치되어 있다. 탁 트인 넓은 공간과 자연의 아름다움을 연결한 야외전시장이 있으며 박물관 외벽에 울산의 대표적 국가유산인 반구대 암각화를 음각으로 조각하여 연출했다. 울산의 오래된 역사를 박물관 초입에 연출함으로써 문화도시 울산의 웅장함과 자긍심을 드러내 보인다. 박물관은 울산대공원 안에 위치한다. 울산의 역사와 문화를 보여주는 울산의 대표 박물관이다. 역사실, 산업사실로 구성된 상설전시실과 어린이박물관, 실감영상관, 기획전시실로 구성되어 있다. 매년 울산의 역사, 문화, 산업 등을 주제로 한 전시와 교육 및 문화행사를 운영하고 있다.",
+      "bm25_document": "울산박물관은 울산의 선사시대부터 현대까지의 문화와 역사를 보여주기 위해 2011년 설립되었다. 지하 1층, 지상 2층으로 구성되어 있으며 지상 1층에는 기획전시실, 어린이 박물관, 원형극장 등이 자리 잡고 있으며 지상 2층에는 역사실 및 산업사실이 설치되어 있다. 탁 트인 넓은 공간과 자연의 아름다움을 연결한 야외전시장이 있으며 박물관 외벽에 울산의 대표적 국가유산인 반구대 암각화를 음각으로 조각하여 연출했다. 울산의 오래된 역사를 박물관 초입에 연출함으로써 문화도시 울산의 웅장함과 자긍심을 드러내 보인다. 박물관은 울산대공원 안에 위치한다. 울산의 역사와 문화를 보여주는 울산의 대표 박물관이다. 역사실, 산업사실로 구성된 상설전시실과 어린이박물관, 실감영상관, 기획전시실로 구성되어 있다. 매년 울산의 역사, 문화, 산업 등을 주제로 한 전시와 교육 및 문화행사를 운영하고 있다.",
+      "best_span_id": "chroma:M0753",
+      "best_span_text": "울산박물관은 울산의 선사시대부터 현대까지의 문화와 역사를 보여주기 위해 2011년 설립되었다. 지하 1층, 지상 2층으로 구성되어 있으며 지상 1층에는 기획전시실, 어린이 박물관, 원형극장 등이 자리 잡고 있으며 지상 2층에는 역사실 및 산업사실이 설치되어 있다. 탁 트인 넓은 공간과 자연의 아름다움을 연결한 야외전시장이 있으며 박물관 외벽에 울산의 대표적 국가유산인 반구대 암각화를 음각으로 조각하여 연출했다. 울산의 오래된 역사를 박물관 초입에 연출함으로써 문화도시 울산의 웅장함과 자긍심을 드러내 보인다. 박물관은 울산대공원 안에 위치한다. 울산의 역사와 문화를 보여주는 울산의 대표 박물관이다. 역사실, 산업사실로 구성된 상설전시실과 어린이박물관, 실감영상관, 기획전시실로 구성되어 있다. 매년 울산의 역사, 문화, 산업 등을 주제로 한 전시와 교육 및 문화행사를 운영하고 있다.",
+      "fusion_score": 0.029418126757516764,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 4,
+      "rerank_score": null,
+      "rank": 4,
+      "score": 0.029418126757516764,
+      "score_type": "rrf",
+      "distance": 0.5622134208679199,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0753",
+      "source_doc_ids": [
+        "DOC-B0753-TOUR_API-1556541",
+        "DOC-B0753-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0753-TOUR_API-1556541",
+          "source_type": "TOUR_API",
+          "source_record_id": "1556541",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=365",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        },
+        {
+          "doc_id": "DOC-B0753-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0753",
+          "source_locator": "data/raw/museum_base_1070.csv#row=754",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 52,
+          "doc_ids": [
+            "DOC-B0753-TOUR_API-1556541"
+          ]
+        },
+        {
+          "start": 53,
+          "end": 147,
+          "doc_ids": [
+            "DOC-B0753-TOUR_API-1556541"
+          ]
+        },
+        {
+          "start": 148,
+          "end": 231,
+          "doc_ids": [
+            "DOC-B0753-TOUR_API-1556541"
+          ]
+        },
+        {
+          "start": 232,
+          "end": 286,
+          "doc_ids": [
+            "DOC-B0753-TOUR_API-1556541"
+          ]
+        },
+        {
+          "start": 287,
+          "end": 306,
+          "doc_ids": [
+            "DOC-B0753-TOUR_API-1556541"
+          ]
+        },
+        {
+          "start": 307,
+          "end": 337,
+          "doc_ids": [
+            "DOC-B0753-BASE"
+          ]
+        },
+        {
+          "start": 338,
+          "end": 390,
+          "doc_ids": [
+            "DOC-B0753-BASE"
+          ]
+        },
+        {
+          "start": 391,
+          "end": 441,
+          "doc_ids": [
+            "DOC-B0753-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=365",
+      "text": "울산박물관은 울산의 선사시대부터 현대까지의 문화와 역사를 보여주기 위해 2011년 설립되었다. 지하 1층, 지상 2층으로 구성되어 있으며 지상 1층에는 기획전시실, 어린이 박물관, 원형극장 등이 자리 잡고 있으며 지상 2층에는 역사실 및 산업사실이 설치되어 있다. 탁 트인 넓은 공간과 자연의 아름다움을 연결한 야외전시장이 있으며 박물관 외벽에 울산의 대표적 국가유산인 반구대 암각화를 음각으로 조각하여 연출했다. 울산의 오래된 역사를 박물관 초입에 연출함으로써 문화도시 울산의 웅장함과 자긍심을 드러내 보인다. 박물관은 울산대공원 안에 위치한다. 울산의 역사와 문화를 보여주는 울산의 대표 박물관이다. 역사실, 산업사실로 구성된 상설전시실과 어린이박물관, 실감영상관, 기획전시실로 구성되어 있다. 매년 울산의 역사, 문화, 산업 등을 주제로 한 전시와 교육 및 문화행사를 운영하고 있다.",
+      "sido": "울산광역시",
+      "sigungu": "남구",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=365"
+      ],
+      "evidence_id": "E4",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=522",
+        "fields": {
+          "name": "울산박물관",
+          "sido": "울산광역시",
+          "sigungu": "남구",
+          "address": "울산광역시 남구 두왕로 277",
+          "ownership_type": "공립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "09:00",
+          "weekday_close": "18:00",
+          "holiday_open": "09:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "매주 월+1월1일",
+          "amenities_raw": "주차장+수유실+도서관 등"
+        },
+        "base_data_date": "2024-11-02",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0761",
+      "name": "울산해양박물관",
+      "document": "울산해양박물관은 울산 최초의 사립 박물관으로 설립 관장이 지난 60년 동안 6 대륙 세계 70여 개국에서 수집한 산호·패류 및 해양생태 자료들을 전시하는 전문 박물관이다. 박물관은 전시관과 교육관으로 나누어져 있다. 전시관 1층은 세계 각국에서 수집한 희귀 패류와 어류 박제품 등의 해양생태자원들을 전시하고 있으며 해저 깊은 곳에 사는 심해 관벌레를 비롯해 가공하기 전의 자연 상태의 진주와 하트 조개, 청자 고둥, 바다뱀, 바다거북과 다양한 상어 박제품 등 약 1,000여 점이 전시되어 있다. 2층은 세계 희귀 산호 전시실로 구성되어 있다. 약 300면 수령의 테이블산호를 비롯해 나팔 산호, 맨드라미산호 등 500여 점의 희귀 산호류들을 관찰할 수 있다. 교육관 1층의 기념품 판매장에서는 진주를 비롯해 다양한 패각류, 산호류 등을 비교적 값싸게 구입할 수 있으며 2층에서는 단체관람객 등을 위한 체험 교육이 이루어지는 교육공간과 사무실이 있다. 세계 희귀 해양생태자료들의 전시를 통해 관람객들에게 해양생물의 다양성을 체험할 수 있게 함과 동시에 점점 황폐화되어 가는 해양 환경의 중요성을 다시 한번 생각할 수 있는 교육의 공간으로서 그 역할을 다하고 있다. 6대륙 바다의 생물자원을 한 곳에 모아놓은 세계교류의 역할공간으로 울산 최초 사립박물관임",
+      "metadata": {
+        "latitude": 35.36165466,
+        "source_types": "BASE|TOUR_API",
+        "closure_rule_raw": "매주 월",
+        "image_copyright": "Type3",
+        "sido": "울산광역시",
+        "sigungu": "울주군",
+        "child_fee": 3000.0,
+        "adult_fee": 5000.0,
+        "requires_manual_review": true,
+        "amenities_raw": "주차장",
+        "youth_fee": 4000.0,
+        "address": "울산광역시 울주군 서생면 해맞이로 1251",
+        "holiday_open": "09:00",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/22/4105722_image2_1.jpg",
+        "weekday_close": "17:00",
+        "fee_notes": "장애인1,2,3급/군인/ 국가유공자/ 신분증 지참시 50 할인",
+        "adult_fee_status": "BASE_FEE_PAID",
+        "longitude": 129.3546962,
+        "name": "울산해양박물관",
+        "holiday_close": "17:00",
+        "ownership_type": "사립",
+        "weekday_open": "09:00"
+      },
+      "vector_rank": 2,
+      "bm25_rank": null,
+      "vector_distance": 0.5137990713119507,
+      "vector_score": null,
+      "bm25_score": null,
+      "vector_document": "울산해양박물관은 울산 최초의 사립 박물관으로 설립 관장이 지난 60년 동안 6 대륙 세계 70여 개국에서 수집한 산호·패류 및 해양생태 자료들을 전시하는 전문 박물관이다. 박물관은 전시관과 교육관으로 나누어져 있다. 전시관 1층은 세계 각국에서 수집한 희귀 패류와 어류 박제품 등의 해양생태자원들을 전시하고 있으며 해저 깊은 곳에 사는 심해 관벌레를 비롯해 가공하기 전의 자연 상태의 진주와 하트 조개, 청자 고둥, 바다뱀, 바다거북과 다양한 상어 박제품 등 약 1,000여 점이 전시되어 있다. 2층은 세계 희귀 산호 전시실로 구성되어 있다. 약 300면 수령의 테이블산호를 비롯해 나팔 산호, 맨드라미산호 등 500여 점의 희귀 산호류들을 관찰할 수 있다. 교육관 1층의 기념품 판매장에서는 진주를 비롯해 다양한 패각류, 산호류 등을 비교적 값싸게 구입할 수 있으며 2층에서는 단체관람객 등을 위한 체험 교육이 이루어지는 교육공간과 사무실이 있다. 세계 희귀 해양생태자료들의 전시를 통해 관람객들에게 해양생물의 다양성을 체험할 수 있게 함과 동시에 점점 황폐화되어 가는 해양 환경의 중요성을 다시 한번 생각할 수 있는 교육의 공간으로서 그 역할을 다하고 있다. 6대륙 바다의 생물자원을 한 곳에 모아놓은 세계교류의 역할공간으로 울산 최초 사립박물관임",
+      "bm25_document": "",
+      "best_span_id": null,
+      "best_span_text": null,
+      "fusion_score": 0.016129032258064516,
+      "retrieved_by": [
+        "vector"
+      ],
+      "fusion_rank": 5,
+      "rerank_score": null,
+      "rank": 5,
+      "score": 0.016129032258064516,
+      "score_type": "rrf",
+      "distance": 0.5137990713119507,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector"
+      ],
+      "retriever": "vector",
+      "source_doc_ids": [
+        "DOC-B0761-TOUR_API-1936811",
+        "DOC-B0761-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0761-TOUR_API-1936811",
+          "source_type": "TOUR_API",
+          "source_record_id": "1936811",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=369",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        },
+        {
+          "doc_id": "DOC-B0761-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0761",
+          "source_locator": "data/raw/museum_base_1070.csv#row=762",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 95,
+          "doc_ids": [
+            "DOC-B0761-TOUR_API-1936811"
+          ]
+        },
+        {
+          "start": 96,
+          "end": 120,
+          "doc_ids": [
+            "DOC-B0761-TOUR_API-1936811"
+          ]
+        },
+        {
+          "start": 121,
+          "end": 277,
+          "doc_ids": [
+            "DOC-B0761-TOUR_API-1936811"
+          ]
+        },
+        {
+          "start": 278,
+          "end": 304,
+          "doc_ids": [
+            "DOC-B0761-TOUR_API-1936811"
+          ]
+        },
+        {
+          "start": 305,
+          "end": 369,
+          "doc_ids": [
+            "DOC-B0761-TOUR_API-1936811"
+          ]
+        },
+        {
+          "start": 370,
+          "end": 476,
+          "doc_ids": [
+            "DOC-B0761-TOUR_API-1936811"
+          ]
+        },
+        {
+          "start": 477,
+          "end": 595,
+          "doc_ids": [
+            "DOC-B0761-TOUR_API-1936811"
+          ]
+        },
+        {
+          "start": 596,
+          "end": 645,
+          "doc_ids": [
+            "DOC-B0761-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=369",
+      "text": "울산해양박물관은 울산 최초의 사립 박물관으로 설립 관장이 지난 60년 동안 6 대륙 세계 70여 개국에서 수집한 산호·패류 및 해양생태 자료들을 전시하는 전문 박물관이다. 박물관은 전시관과 교육관으로 나누어져 있다. 전시관 1층은 세계 각국에서 수집한 희귀 패류와 어류 박제품 등의 해양생태자원들을 전시하고 있으며 해저 깊은 곳에 사는 심해 관벌레를 비롯해 가공하기 전의 자연 상태의 진주와 하트 조개, 청자 고둥, 바다뱀, 바다거북과 다양한 상어 박제품 등 약 1,000여 점이 전시되어 있다. 2층은 세계 희귀 산호 전시실로 구성되어 있다. 약 300면 수령의 테이블산호를 비롯해 나팔 산호, 맨드라미산호 등 500여 점의 희귀 산호류들을 관찰할 수 있다. 교육관 1층의 기념품 판매장에서는 진주를 비롯해 다양한 패각류, 산호류 등을 비교적 값싸게 구입할 수 있으며 2층에서는 단체관람객 등을 위한 체험 교육이 이루어지는 교육공간과 사무실이 있다. 세계 희귀 해양생태자료들의 전시를 통해 관람객들에게 해양생물의 다양성을 체험할 수 있게 함과 동시에 점점 황폐화되어 가는 해양 환경의 중요성을 다시 한번 생각할 수 있는 교육의 공간으로서 그 역할을 다하고 있다. 6대륙 바다의 생물자원을 한 곳에 모아놓은 세계교류의 역할공간으로 울산 최초 사립박물관임",
+      "sido": "울산광역시",
+      "sigungu": "울주군",
+      "span_id": "",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=369"
+      ],
+      "evidence_id": "E5",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=526",
+        "fields": {
+          "name": "울산해양박물관",
+          "sido": "울산광역시",
+          "sigungu": "울주군",
+          "address": "울산광역시 울주군 서생면 해맞이로 1251",
+          "ownership_type": "사립",
+          "adult_fee": "5000",
+          "youth_fee": "4000",
+          "child_fee": "3000",
+          "adult_fee_status": "BASE_FEE_PAID",
+          "weekday_open": "09:00",
+          "weekday_close": "17:00",
+          "holiday_open": "09:00",
+          "holiday_close": "17:00",
+          "closure_rule_raw": "매주 월",
+          "amenities_raw": "주차장"
+        },
+        "base_data_date": "2024-11-02",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    }
+  ],
+  "answer": "자유수호평화박물관은 지상 4층 건물입니다. 1층은 로비와 기획전시공간으로, 해방부터 6·25전쟁 이후까지의 시대적 사실을 12개의 도자기로 표현한 이미지 부조, 자유와 평화를 지키려는 병사의 역동적인 모습을 나타낸 조형물과 세계평화 상징물, 기획전시실로 구성되어 있습니다. [E1]",
+  "retrieval_status": "ok",
+  "answer_status": "answered",
+  "route": "hybrid",
+  "retry_count": 0,
+  "supervisor_verified": true,
+  "rerank_applied": false,
+  "retriever_errors": [],
+  "warnings": [
+    "Cross-Encoder reranking failed (FileNotFoundError); RRF order retained"
+  ],
+  "duration_ms": 11813.73,
+  "error_type": "",
+  "hit_at_1": 1,
+  "hit_at_3": 1,
+  "hit_at_5": 1,
+  "recall_at_5": 1.0,
+  "mrr_at_10": 1.0
+}

@@ -1,0 +1,780 @@
+{
+  "mode": "supervisor_full",
+  "question_id": "Q026",
+  "evidence": [
+    {
+      "museum_id": "M0012",
+      "name": "홍주성역사관",
+      "document": "홍주성역사관은 홍성 홍주읍성 내 위치하고 있다. 지역의 전통을 부각시키면서 동시에 역사에 바탕을 둔 미래지향적인 시설로 구성되었으며, 역사관의 기본적 기능에 충실하여 전시 유물의 상징적 의미와 예술적 요소를 함축성 있게 표현하여 이를 바탕으로 군민 참여와 소통의 장이자 연구의 중심지로서 지역 정보 센터의 역할을 하고 있다. 홍성과 충남 내포지역의 특색 있는 역사와 문화, 관련 유적 및 유물을 소재로 전시를 하고 있다. 박물관 주변에 옛 홍주목 관련 흔적들이 남아 있어 전시와 연계한 볼거리가 마련되어 있다. 홍성 홍주읍성(사적 231호) 내 위치하고 있으며 전면적 7199.17㎡ 및 연면적 1669㎡ 로 구성되어 있다. 박물관이 홍주읍성 내에 위치하고 있고 주변에 옛 홍주목 관련 흔적들이 남아 있어 전시와 연계한 볼거리가 마련되어 있다.",
+      "metadata": {
+        "transport_notes": "서울→서해안고속도로(홍성IC)→21번국도(홍성방면)→홍주성역사관",
+        "name": "홍주성역사관",
+        "sigungu": "홍성군",
+        "latitude": 36.60019715,
+        "youth_fee": 0.0,
+        "holiday_open": "09:00",
+        "weekday_close": "18:00",
+        "closure_rule_raw": "월+1월 1일+설 연휴+추석 연휴",
+        "address": "충청남도 홍성군 홍성읍 아문길 20",
+        "adult_fee": 0.0,
+        "homepage_url": "https://www.hongseong.go.kr/history/",
+        "longitude": 126.660951,
+        "sido": "충청남도",
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "requires_manual_review": true,
+        "weekday_open": "09:00",
+        "child_fee": 0.0,
+        "source_types": "BASE|TOUR_API",
+        "ownership_type": "공립",
+        "holiday_close": "18:00"
+      },
+      "vector_rank": 1,
+      "bm25_rank": null,
+      "vector_distance": 0.608832836151123,
+      "vector_score": null,
+      "bm25_score": null,
+      "vector_document": "홍주성역사관은 홍성 홍주읍성 내 위치하고 있다. 지역의 전통을 부각시키면서 동시에 역사에 바탕을 둔 미래지향적인 시설로 구성되었으며, 역사관의 기본적 기능에 충실하여 전시 유물의 상징적 의미와 예술적 요소를 함축성 있게 표현하여 이를 바탕으로 군민 참여와 소통의 장이자 연구의 중심지로서 지역 정보 센터의 역할을 하고 있다. 홍성과 충남 내포지역의 특색 있는 역사와 문화, 관련 유적 및 유물을 소재로 전시를 하고 있다. 박물관 주변에 옛 홍주목 관련 흔적들이 남아 있어 전시와 연계한 볼거리가 마련되어 있다. 홍성 홍주읍성(사적 231호) 내 위치하고 있으며 전면적 7199.17㎡ 및 연면적 1669㎡ 로 구성되어 있다. 박물관이 홍주읍성 내에 위치하고 있고 주변에 옛 홍주목 관련 흔적들이 남아 있어 전시와 연계한 볼거리가 마련되어 있다.",
+      "bm25_document": "",
+      "best_span_id": null,
+      "best_span_text": null,
+      "fusion_score": 0.01639344262295082,
+      "retrieved_by": [
+        "vector"
+      ],
+      "fusion_rank": 1,
+      "name_match": true,
+      "rerank_score": 0.724527895450592,
+      "rank": 1,
+      "score": 0.724527895450592,
+      "score_type": "cross_encoder",
+      "distance": 0.608832836151123,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector"
+      ],
+      "retriever": "vector",
+      "source_doc_ids": [
+        "DOC-B0012-TOUR_API-2551494",
+        "DOC-B0012-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0012-TOUR_API-2551494",
+          "source_type": "TOUR_API",
+          "source_record_id": "2551494",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=10",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        },
+        {
+          "doc_id": "DOC-B0012-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0012",
+          "source_locator": "data/raw/museum_base_1070.csv#row=13",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 26,
+          "doc_ids": [
+            "DOC-B0012-TOUR_API-2551494"
+          ]
+        },
+        {
+          "start": 27,
+          "end": 181,
+          "doc_ids": [
+            "DOC-B0012-TOUR_API-2551494"
+          ]
+        },
+        {
+          "start": 182,
+          "end": 235,
+          "doc_ids": [
+            "DOC-B0012-BASE",
+            "DOC-B0012-TOUR_API-2551494"
+          ]
+        },
+        {
+          "start": 236,
+          "end": 285,
+          "doc_ids": [
+            "DOC-B0012-TOUR_API-2551494"
+          ]
+        },
+        {
+          "start": 286,
+          "end": 349,
+          "doc_ids": [
+            "DOC-B0012-BASE"
+          ]
+        },
+        {
+          "start": 350,
+          "end": 416,
+          "doc_ids": [
+            "DOC-B0012-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=10",
+      "text": "홍주성역사관은 홍성 홍주읍성 내 위치하고 있다. 지역의 전통을 부각시키면서 동시에 역사에 바탕을 둔 미래지향적인 시설로 구성되었으며, 역사관의 기본적 기능에 충실하여 전시 유물의 상징적 의미와 예술적 요소를 함축성 있게 표현하여 이를 바탕으로 군민 참여와 소통의 장이자 연구의 중심지로서 지역 정보 센터의 역할을 하고 있다. 홍성과 충남 내포지역의 특색 있는 역사와 문화, 관련 유적 및 유물을 소재로 전시를 하고 있다. 박물관 주변에 옛 홍주목 관련 흔적들이 남아 있어 전시와 연계한 볼거리가 마련되어 있다. 홍성 홍주읍성(사적 231호) 내 위치하고 있으며 전면적 7199.17㎡ 및 연면적 1669㎡ 로 구성되어 있다. 박물관이 홍주읍성 내에 위치하고 있고 주변에 옛 홍주목 관련 흔적들이 남아 있어 전시와 연계한 볼거리가 마련되어 있다.",
+      "sido": "충청남도",
+      "sigungu": "홍성군",
+      "span_id": "",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=10"
+      ],
+      "evidence_id": "E1",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=12",
+        "fields": {
+          "name": "홍주성역사관",
+          "sido": "충청남도",
+          "sigungu": "홍성군",
+          "address": "충청남도 홍성군 홍성읍 아문길 20",
+          "ownership_type": "공립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "09:00",
+          "weekday_close": "18:00",
+          "holiday_open": "09:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "월+1월 1일+설 연휴+추석 연휴"
+        },
+        "base_data_date": "2026-09-19",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0732",
+      "name": "충재유물관",
+      "document": "2007년 개관한 충재박물관은 조선시대 유물 10,000여점과 484점의 보물을 소장한 박물관으로, 전통마을인 닭실마을(달실)에 위치하고 있다. 소장하고 있는 모든 유물은 이 마을의 종갓집 및 마을출신 자손들로부터 받은 것이다. 연간 20,000여 명의 관람객이 방문하고 있다. 주변문화재의 관리와 교육프로그램 등을 시행하면서 봉화지역의 박물관으로서의 역할을 다하고 있는 중이다.",
+      "metadata": {
+        "ownership_type": "공립",
+        "sigungu": "봉화군",
+        "transport_notes": "버스: 봉화읍에서 춘양 및 재산방면 완행버스 이용+택시 : 봉화버스정류장에서 약 6,000원 내외+자가용 : 봉화버스정류장에서 7분 거리",
+        "weekday_open": "10:00",
+        "amenities_raw": "주차장",
+        "source_types": "BASE",
+        "longitude": 128.7424487,
+        "name": "충재유물관",
+        "sido": "경상북도",
+        "child_fee": 0.0,
+        "closure_rule_raw": "월+설 연휴+추석 연휴+법정공휴일",
+        "address": "경상북도 봉화군 봉화읍 충재길 60",
+        "adult_fee": 0.0,
+        "weekday_close": "16:00",
+        "requires_manual_review": true,
+        "holiday_close": "16:00",
+        "latitude": 36.9052737,
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "holiday_open": "10:00",
+        "youth_fee": 0.0
+      },
+      "vector_rank": null,
+      "bm25_rank": 1,
+      "vector_distance": null,
+      "vector_score": null,
+      "bm25_score": 18.36457855463466,
+      "vector_document": "",
+      "bm25_document": "2007년 개관한 충재박물관은 조선시대 유물 10,000여점과 484점의 보물을 소장한 박물관으로, 전통마을인 닭실마을(달실)에 위치하고 있다. 소장하고 있는 모든 유물은 이 마을의 종갓집 및 마을출신 자손들로부터 받은 것이다. 연간 20,000여 명의 관람객이 방문하고 있다. 주변문화재의 관리와 교육프로그램 등을 시행하면서 봉화지역의 박물관으로서의 역할을 다하고 있는 중이다.",
+      "best_span_id": "chroma:M0732",
+      "best_span_text": "2007년 개관한 충재박물관은 조선시대 유물 10,000여점과 484점의 보물을 소장한 박물관으로, 전통마을인 닭실마을(달실)에 위치하고 있다. 소장하고 있는 모든 유물은 이 마을의 종갓집 및 마을출신 자손들로부터 받은 것이다. 연간 20,000여 명의 관람객이 방문하고 있다. 주변문화재의 관리와 교육프로그램 등을 시행하면서 봉화지역의 박물관으로서의 역할을 다하고 있는 중이다.",
+      "fusion_score": 0.01639344262295082,
+      "retrieved_by": [
+        "bm25"
+      ],
+      "fusion_rank": 4,
+      "rerank_score": 0.0007464816444553435,
+      "rank": 2,
+      "score": 0.0007464816444553435,
+      "score_type": "cross_encoder",
+      "distance": null,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "bm25"
+      ],
+      "retriever": "bm25",
+      "span_id": "chroma:M0732",
+      "source_doc_ids": [
+        "DOC-B0732-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0732-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0732",
+          "source_locator": "data/raw/museum_base_1070.csv#row=733",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 80,
+          "doc_ids": [
+            "DOC-B0732-BASE"
+          ]
+        },
+        {
+          "start": 81,
+          "end": 127,
+          "doc_ids": [
+            "DOC-B0732-BASE"
+          ]
+        },
+        {
+          "start": 128,
+          "end": 155,
+          "doc_ids": [
+            "DOC-B0732-BASE"
+          ]
+        },
+        {
+          "start": 156,
+          "end": 212,
+          "doc_ids": [
+            "DOC-B0732-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_base_1070.csv#row=733",
+      "text": "2007년 개관한 충재박물관은 조선시대 유물 10,000여점과 484점의 보물을 소장한 박물관으로, 전통마을인 닭실마을(달실)에 위치하고 있다. 소장하고 있는 모든 유물은 이 마을의 종갓집 및 마을출신 자손들로부터 받은 것이다. 연간 20,000여 명의 관람객이 방문하고 있다. 주변문화재의 관리와 교육프로그램 등을 시행하면서 봉화지역의 박물관으로서의 역할을 다하고 있는 중이다.",
+      "sido": "경상북도",
+      "sigungu": "봉화군",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_base_1070.csv#row=733"
+      ],
+      "evidence_id": "E2",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=507",
+        "fields": {
+          "name": "충재유물관",
+          "sido": "경상북도",
+          "sigungu": "봉화군",
+          "address": "경상북도 봉화군 봉화읍 충재길 60",
+          "ownership_type": "공립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "10:00",
+          "weekday_close": "16:00",
+          "holiday_open": "10:00",
+          "holiday_close": "16:00",
+          "closure_rule_raw": "월+설 연휴+추석 연휴+법정공휴일",
+          "amenities_raw": "주차장"
+        },
+        "base_data_date": "2025-12-16",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0708",
+      "name": "대구근대역사관",
+      "document": "대구근대역사관은 근대기 대구의 흔적과 역사·전통·문화를 사랑하는 이들의 요람이 되는 곳이다. 근대문화유산인 역사관 건물은 1932년 조선식산은행 대구지점으로 건립되어, 1954년부터는 한국산업은행 대구지점으로 이용된 근대문화유산이다. 르네상스 양식으로 조형미가 뛰어난 역사관 건물은 원형이 잘 보존돼 2003년 대구광역시 유형문화유산으로 지정되었다. 2008년 대구도시공사가 이 건물을 사들여 대구시에 기증했으며 이후 대구근대역사관으로 새롭게 단장돼 2011년 1월 문을 열었다. 지상 2층, 지하 1층의 박물관에는 대구 근대를 중심 범위로 행정‧사회‧경제‧교육‧독립운동‧예술 등을 소개하고 있으며, 1960년대까지 대구 현대사의 몇 장면도 만날 수 있다. 전시공간 외에도 체험실, 문화강좌실을 갖추고 있어 다양한 체험을 할 수 있는 장소이다. 근대기 대구의 모습과 선조들의 생활상을 알 수 있는 공립박물관",
+      "metadata": {
+        "source_types": "BASE|TOUR_API",
+        "latitude": 35.87179779,
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "sido": "대구광역시",
+        "weekday_close": "18:00",
+        "transport_notes": "지하철 1호선 중앙로역+204+304+349+401+410-1+503+623+706+730+급행2+북구2",
+        "longitude": 128.5911599,
+        "ownership_type": "공립",
+        "youth_fee": 0.0,
+        "homepage_url": "https://dmhm.or.kr",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/44/4110644_image2_1.jpg",
+        "weekday_open": "09:00",
+        "sigungu": "중구",
+        "image_copyright": "Type1",
+        "child_fee": 0.0,
+        "adult_fee": 0.0,
+        "holiday_open": "09:00",
+        "closure_rule_raw": "매주 월요일+1월 1일+설날추석 당일",
+        "name": "대구근대역사관",
+        "holiday_close": "18:00",
+        "address": "대구광역시 중구 경상감영길 67",
+        "requires_manual_review": true
+      },
+      "vector_rank": null,
+      "bm25_rank": 2,
+      "vector_distance": null,
+      "vector_score": null,
+      "bm25_score": 12.241497302374635,
+      "vector_document": "",
+      "bm25_document": "대구근대역사관은 근대기 대구의 흔적과 역사·전통·문화를 사랑하는 이들의 요람이 되는 곳이다. 근대문화유산인 역사관 건물은 1932년 조선식산은행 대구지점으로 건립되어, 1954년부터는 한국산업은행 대구지점으로 이용된 근대문화유산이다. 르네상스 양식으로 조형미가 뛰어난 역사관 건물은 원형이 잘 보존돼 2003년 대구광역시 유형문화유산으로 지정되었다. 2008년 대구도시공사가 이 건물을 사들여 대구시에 기증했으며 이후 대구근대역사관으로 새롭게 단장돼 2011년 1월 문을 열었다. 지상 2층, 지하 1층의 박물관에는 대구 근대를 중심 범위로 행정‧사회‧경제‧교육‧독립운동‧예술 등을 소개하고 있으며, 1960년대까지 대구 현대사의 몇 장면도 만날 수 있다. 전시공간 외에도 체험실, 문화강좌실을 갖추고 있어 다양한 체험을 할 수 있는 장소이다. 근대기 대구의 모습과 선조들의 생활상을 알 수 있는 공립박물관",
+      "best_span_id": "chroma:M0708",
+      "best_span_text": "대구근대역사관은 근대기 대구의 흔적과 역사·전통·문화를 사랑하는 이들의 요람이 되는 곳이다. 근대문화유산인 역사관 건물은 1932년 조선식산은행 대구지점으로 건립되어, 1954년부터는 한국산업은행 대구지점으로 이용된 근대문화유산이다. 르네상스 양식으로 조형미가 뛰어난 역사관 건물은 원형이 잘 보존돼 2003년 대구광역시 유형문화유산으로 지정되었다. 2008년 대구도시공사가 이 건물을 사들여 대구시에 기증했으며 이후 대구근대역사관으로 새롭게 단장돼 2011년 1월 문을 열었다. 지상 2층, 지하 1층의 박물관에는 대구 근대를 중심 범위로 행정‧사회‧경제‧교육‧독립운동‧예술 등을 소개하고 있으며, 1960년대까지 대구 현대사의 몇 장면도 만날 수 있다. 전시공간 외에도 체험실, 문화강좌실을 갖추고 있어 다양한 체험을 할 수 있는 장소이다. 근대기 대구의 모습과 선조들의 생활상을 알 수 있는 공립박물관",
+      "fusion_score": 0.016129032258064516,
+      "retrieved_by": [
+        "bm25"
+      ],
+      "fusion_rank": 6,
+      "rerank_score": 0.00041615101508796215,
+      "rank": 3,
+      "score": 0.00041615101508796215,
+      "score_type": "cross_encoder",
+      "distance": null,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "bm25"
+      ],
+      "retriever": "bm25",
+      "span_id": "chroma:M0708",
+      "source_doc_ids": [
+        "DOC-B0708-TOUR_API-1251806",
+        "DOC-B0708-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0708-TOUR_API-1251806",
+          "source_type": "TOUR_API",
+          "source_record_id": "1251806",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=345",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        },
+        {
+          "doc_id": "DOC-B0708-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0708",
+          "source_locator": "data/raw/museum_base_1070.csv#row=709",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 51,
+          "doc_ids": [
+            "DOC-B0708-TOUR_API-1251806"
+          ]
+        },
+        {
+          "start": 52,
+          "end": 130,
+          "doc_ids": [
+            "DOC-B0708-TOUR_API-1251806"
+          ]
+        },
+        {
+          "start": 131,
+          "end": 195,
+          "doc_ids": [
+            "DOC-B0708-TOUR_API-1251806"
+          ]
+        },
+        {
+          "start": 196,
+          "end": 268,
+          "doc_ids": [
+            "DOC-B0708-TOUR_API-1251806"
+          ]
+        },
+        {
+          "start": 269,
+          "end": 367,
+          "doc_ids": [
+            "DOC-B0708-TOUR_API-1251806"
+          ]
+        },
+        {
+          "start": 368,
+          "end": 416,
+          "doc_ids": [
+            "DOC-B0708-TOUR_API-1251806"
+          ]
+        },
+        {
+          "start": 417,
+          "end": 451,
+          "doc_ids": [
+            "DOC-B0708-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=345",
+      "text": "대구근대역사관은 근대기 대구의 흔적과 역사·전통·문화를 사랑하는 이들의 요람이 되는 곳이다. 근대문화유산인 역사관 건물은 1932년 조선식산은행 대구지점으로 건립되어, 1954년부터는 한국산업은행 대구지점으로 이용된 근대문화유산이다. 르네상스 양식으로 조형미가 뛰어난 역사관 건물은 원형이 잘 보존돼 2003년 대구광역시 유형문화유산으로 지정되었다. 2008년 대구도시공사가 이 건물을 사들여 대구시에 기증했으며 이후 대구근대역사관으로 새롭게 단장돼 2011년 1월 문을 열었다. 지상 2층, 지하 1층의 박물관에는 대구 근대를 중심 범위로 행정‧사회‧경제‧교육‧독립운동‧예술 등을 소개하고 있으며, 1960년대까지 대구 현대사의 몇 장면도 만날 수 있다. 전시공간 외에도 체험실, 문화강좌실을 갖추고 있어 다양한 체험을 할 수 있는 장소이다. 근대기 대구의 모습과 선조들의 생활상을 알 수 있는 공립박물관",
+      "sido": "대구광역시",
+      "sigungu": "중구",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=345"
+      ],
+      "evidence_id": "E3",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=492",
+        "fields": {
+          "name": "대구근대역사관",
+          "sido": "대구광역시",
+          "sigungu": "중구",
+          "address": "대구광역시 중구 경상감영길 67",
+          "ownership_type": "공립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "09:00",
+          "weekday_close": "18:00",
+          "holiday_open": "09:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "매주 월요일+1월 1일+설날추석 당일"
+        },
+        "base_data_date": "2025-12-10",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0343",
+      "name": "반곡역사관",
+      "document": "반곡역사관은 원주시역사박물관의 분관으로 2019년 5월에 개관하였으며, 강원 원주혁신도시 조성사업 과정에서 출토된 신석기 시대부터 조선시대까지의 유적과 유물 500점이 전시되어 있다. 지형이 소반처럼 생겼다 하여 반곡이라는 지명이 붙은 이 곳은 신석기시대 유적이 원주 지역에서 처음으로 발견되었다는 점에서 의미가 남다르다. 역사관 1층은 혁신도시 건설 이전 반곡역과, 반곡동의 풍경, 주민생활의 어제와 오늘, 소중한 사람들 등 반곡동을 추억하는 사진과 영상 자료를 전시해 사라져간 옛모습을 그리워하는 세대와 과거가 궁금한 어린 세대들이 함께 교감을 나눌수 있도록 하였다. 2층은 유물 전시관과 신석기시대 마을 모습을 재현한 선사놀이터로 조성되어 있어 어린 아이들이 선사시대의 모습을 체험할 수 있게 해준다. 반곡역사관에서는 매달 다양한 주제의 체험과 행사, 문화 강좌 등 다채로운 프로그램을 통해 주민과 소통의 장을 마련하고 있다. 원주 혁신도시 조성사업 과정에서 출토된 반곡동 유적 관련 역사자료와 유물 500여점을 전시하고 있는 역사문화공간으로 어린이 대상 선사마을 놀이터 시설과 다양한 주제의 교육 체험프로그램 등이 운영 중이다.",
+      "metadata": {
+        "adult_fee": 0.0,
+        "sido": "강원특별자치도",
+        "ownership_type": "공립",
+        "holiday_close": "18:00",
+        "child_fee": 0.0,
+        "name": "반곡역사관",
+        "sigungu": "원주시",
+        "image_copyright": "Type1",
+        "latitude": 37.32480055,
+        "homepage_url": "https://whm.wonju.go.kr/whm/page/view.php/sub_10_01",
+        "amenities_raw": "휴게공간+화장실",
+        "requires_manual_review": true,
+        "transport_notes": "시내버스 111+100+18+16+13+7+5-2번",
+        "address": "강원특별자치도 원주시 양지로 36",
+        "weekday_close": "18:00",
+        "holiday_open": "09:00",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/64/4096964_image2_1.jpg",
+        "closure_rule_raw": "월+명절당일+공휴일 익일",
+        "youth_fee": 0.0,
+        "weekday_open": "09:00",
+        "longitude": 127.9825461,
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "source_types": "BASE|TOUR_API"
+      },
+      "vector_rank": 2,
+      "bm25_rank": null,
+      "vector_distance": 0.6211270093917847,
+      "vector_score": null,
+      "bm25_score": null,
+      "vector_document": "반곡역사관은 원주시역사박물관의 분관으로 2019년 5월에 개관하였으며, 강원 원주혁신도시 조성사업 과정에서 출토된 신석기 시대부터 조선시대까지의 유적과 유물 500점이 전시되어 있다. 지형이 소반처럼 생겼다 하여 반곡이라는 지명이 붙은 이 곳은 신석기시대 유적이 원주 지역에서 처음으로 발견되었다는 점에서 의미가 남다르다. 역사관 1층은 혁신도시 건설 이전 반곡역과, 반곡동의 풍경, 주민생활의 어제와 오늘, 소중한 사람들 등 반곡동을 추억하는 사진과 영상 자료를 전시해 사라져간 옛모습을 그리워하는 세대와 과거가 궁금한 어린 세대들이 함께 교감을 나눌수 있도록 하였다. 2층은 유물 전시관과 신석기시대 마을 모습을 재현한 선사놀이터로 조성되어 있어 어린 아이들이 선사시대의 모습을 체험할 수 있게 해준다. 반곡역사관에서는 매달 다양한 주제의 체험과 행사, 문화 강좌 등 다채로운 프로그램을 통해 주민과 소통의 장을 마련하고 있다. 원주 혁신도시 조성사업 과정에서 출토된 반곡동 유적 관련 역사자료와 유물 500여점을 전시하고 있는 역사문화공간으로 어린이 대상 선사마을 놀이터 시설과 다양한 주제의 교육 체험프로그램 등이 운영 중이다.",
+      "bm25_document": "",
+      "best_span_id": null,
+      "best_span_text": null,
+      "fusion_score": 0.016129032258064516,
+      "retrieved_by": [
+        "vector"
+      ],
+      "fusion_rank": 5,
+      "rerank_score": 0.00032198798726312816,
+      "rank": 4,
+      "score": 0.00032198798726312816,
+      "score_type": "cross_encoder",
+      "distance": 0.6211270093917847,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector"
+      ],
+      "retriever": "vector",
+      "source_doc_ids": [
+        "DOC-B0343-TOUR_API-3028774",
+        "DOC-B0343-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0343-TOUR_API-3028774",
+          "source_type": "TOUR_API",
+          "source_record_id": "3028774",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=167",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        },
+        {
+          "doc_id": "DOC-B0343-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0343",
+          "source_locator": "data/raw/museum_base_1070.csv#row=344",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 102,
+          "doc_ids": [
+            "DOC-B0343-TOUR_API-3028774"
+          ]
+        },
+        {
+          "start": 103,
+          "end": 180,
+          "doc_ids": [
+            "DOC-B0343-TOUR_API-3028774"
+          ]
+        },
+        {
+          "start": 181,
+          "end": 319,
+          "doc_ids": [
+            "DOC-B0343-TOUR_API-3028774"
+          ]
+        },
+        {
+          "start": 320,
+          "end": 395,
+          "doc_ids": [
+            "DOC-B0343-TOUR_API-3028774"
+          ]
+        },
+        {
+          "start": 396,
+          "end": 465,
+          "doc_ids": [
+            "DOC-B0343-TOUR_API-3028774"
+          ]
+        },
+        {
+          "start": 466,
+          "end": 579,
+          "doc_ids": [
+            "DOC-B0343-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=167",
+      "text": "반곡역사관은 원주시역사박물관의 분관으로 2019년 5월에 개관하였으며, 강원 원주혁신도시 조성사업 과정에서 출토된 신석기 시대부터 조선시대까지의 유적과 유물 500점이 전시되어 있다. 지형이 소반처럼 생겼다 하여 반곡이라는 지명이 붙은 이 곳은 신석기시대 유적이 원주 지역에서 처음으로 발견되었다는 점에서 의미가 남다르다. 역사관 1층은 혁신도시 건설 이전 반곡역과, 반곡동의 풍경, 주민생활의 어제와 오늘, 소중한 사람들 등 반곡동을 추억하는 사진과 영상 자료를 전시해 사라져간 옛모습을 그리워하는 세대와 과거가 궁금한 어린 세대들이 함께 교감을 나눌수 있도록 하였다. 2층은 유물 전시관과 신석기시대 마을 모습을 재현한 선사놀이터로 조성되어 있어 어린 아이들이 선사시대의 모습을 체험할 수 있게 해준다. 반곡역사관에서는 매달 다양한 주제의 체험과 행사, 문화 강좌 등 다채로운 프로그램을 통해 주민과 소통의 장을 마련하고 있다. 원주 혁신도시 조성사업 과정에서 출토된 반곡동 유적 관련 역사자료와 유물 500여점을 전시하고 있는 역사문화공간으로 어린이 대상 선사마을 놀이터 시설과 다양한 주제의 교육 체험프로그램 등이 운영 중이다.",
+      "sido": "강원특별자치도",
+      "sigungu": "원주시",
+      "span_id": "",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=167"
+      ],
+      "evidence_id": "E4",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=249",
+        "fields": {
+          "name": "반곡역사관",
+          "sido": "강원특별자치도",
+          "sigungu": "원주시",
+          "address": "강원특별자치도 원주시 양지로 36",
+          "ownership_type": "공립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "09:00",
+          "weekday_close": "18:00",
+          "holiday_open": "09:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "월+명절당일+공휴일 익일",
+          "amenities_raw": "휴게공간+화장실"
+        },
+        "base_data_date": "2026-06-29",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0801",
+      "name": "전주한옥마을역사관",
+      "document": "전주한옥마을역사관은 한옥마을의 역사와 변천 과정 등을 한눈에 확인할 수 있는 역사관으로 옛 창작예술공간의 한옥 2개 동을 리모델링해 2018년에 개관하였다. 전시관은 상설전시실과 기획전시실로 나뉘며 상설전시실에는 한옥마을의 역사를 연표 형식으로 정리해 전주한옥마을의 변천사를 알 수 있다. 내부에 설치한 5개의 모니터에는 한옥마을에 오랫동안 거주한 주민 인터뷰, 한옥마을의 과거·현재 모습, 한옥마을에 얽힌 일화 등을 상영한다. 또 한옥마을 안 주요 명소를 입체영상으로 볼 수 있으며 가상현실 체험도 가능하다. 기획전시실에는 한옥마을의 옛 사진과 한옥마을의 숨은 이야기, 이곳에서 촬영한 영화와 드라마에 관한 내용을 소개해 두었다. 한옥마을 역사관에서는 정기 해설과 수시 해설의 해설 프로그램을 운영하고 있다. 정기 해설은 관광객이 집중되는 주말에 전시실을 순회하면서 진행되며, 수시 해설은 관람객의 요청에 따라 탄력적으로 진행된다. 사전 예약 한 20인 이상의 단체 해설은 우선순위로 진행된다. 대한민국에서 유일하게 보존되어 있는 900여 채의 한옥마을의 소소한 이야기와 어제와 오늘, 그리고 미래의 이야기가 궁금하다면 한옥마을로 여행을 떠나기 전 먼저 들러 보는 것도 의미 있는 여행의 시작이 될 듯하다.",
+      "metadata": {
+        "weekday_open": "10:00",
+        "homepage_url": "https://tour.jeonju.go.kr",
+        "requires_manual_review": true,
+        "sigungu": "전주시",
+        "longitude": 127.1530349,
+        "name": "전주한옥마을역사관",
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "sido": "전북특별자치도",
+        "address": "전북특별자치도 전주시 완산구 최명희길 17-10",
+        "holiday_open": "10:00",
+        "child_fee": 0.0,
+        "weekday_close": "18:00",
+        "closure_rule_raw": "월",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/75/4110175_image2_1.jpg",
+        "image_copyright": "Type1",
+        "source_types": "TOUR_API",
+        "latitude": 35.81589052,
+        "adult_fee": 0.0,
+        "ownership_type": "공립",
+        "youth_fee": 0.0,
+        "holiday_close": "18:00"
+      },
+      "vector_rank": 8,
+      "bm25_rank": null,
+      "vector_distance": 0.6563464403152466,
+      "vector_score": null,
+      "bm25_score": null,
+      "vector_document": "전주한옥마을역사관은 한옥마을의 역사와 변천 과정 등을 한눈에 확인할 수 있는 역사관으로 옛 창작예술공간의 한옥 2개 동을 리모델링해 2018년에 개관하였다. 전시관은 상설전시실과 기획전시실로 나뉘며 상설전시실에는 한옥마을의 역사를 연표 형식으로 정리해 전주한옥마을의 변천사를 알 수 있다. 내부에 설치한 5개의 모니터에는 한옥마을에 오랫동안 거주한 주민 인터뷰, 한옥마을의 과거·현재 모습, 한옥마을에 얽힌 일화 등을 상영한다. 또 한옥마을 안 주요 명소를 입체영상으로 볼 수 있으며 가상현실 체험도 가능하다. 기획전시실에는 한옥마을의 옛 사진과 한옥마을의 숨은 이야기, 이곳에서 촬영한 영화와 드라마에 관한 내용을 소개해 두었다. 한옥마을 역사관에서는 정기 해설과 수시 해설의 해설 프로그램을 운영하고 있다. 정기 해설은 관광객이 집중되는 주말에 전시실을 순회하면서 진행되며, 수시 해설은 관람객의 요청에 따라 탄력적으로 진행된다. 사전 예약 한 20인 이상의 단체 해설은 우선순위로 진행된다. 대한민국에서 유일하게 보존되어 있는 900여 채의 한옥마을의 소소한 이야기와 어제와 오늘, 그리고 미래의 이야기가 궁금하다면 한옥마을로 여행을 떠나기 전 먼저 들러 보는 것도 의미 있는 여행의 시작이 될 듯하다.",
+      "bm25_document": "",
+      "best_span_id": null,
+      "best_span_text": null,
+      "fusion_score": 0.014705882352941176,
+      "retrieved_by": [
+        "vector"
+      ],
+      "fusion_rank": 16,
+      "rerank_score": 0.0003153933212161064,
+      "rank": 5,
+      "score": 0.0003153933212161064,
+      "score_type": "cross_encoder",
+      "distance": 0.6563464403152466,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector"
+      ],
+      "retriever": "vector",
+      "source_doc_ids": [
+        "DOC-B0801-TOUR_API-3056595"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0801-TOUR_API-3056595",
+          "source_type": "TOUR_API",
+          "source_record_id": "3056595",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=384",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 87,
+          "doc_ids": [
+            "DOC-B0801-TOUR_API-3056595"
+          ]
+        },
+        {
+          "start": 88,
+          "end": 161,
+          "doc_ids": [
+            "DOC-B0801-TOUR_API-3056595"
+          ]
+        },
+        {
+          "start": 162,
+          "end": 239,
+          "doc_ids": [
+            "DOC-B0801-TOUR_API-3056595"
+          ]
+        },
+        {
+          "start": 240,
+          "end": 285,
+          "doc_ids": [
+            "DOC-B0801-TOUR_API-3056595"
+          ]
+        },
+        {
+          "start": 286,
+          "end": 353,
+          "doc_ids": [
+            "DOC-B0801-TOUR_API-3056595"
+          ]
+        },
+        {
+          "start": 354,
+          "end": 397,
+          "doc_ids": [
+            "DOC-B0801-TOUR_API-3056595"
+          ]
+        },
+        {
+          "start": 398,
+          "end": 466,
+          "doc_ids": [
+            "DOC-B0801-TOUR_API-3056595"
+          ]
+        },
+        {
+          "start": 467,
+          "end": 501,
+          "doc_ids": [
+            "DOC-B0801-TOUR_API-3056595"
+          ]
+        },
+        {
+          "start": 502,
+          "end": 620,
+          "doc_ids": [
+            "DOC-B0801-TOUR_API-3056595"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=384",
+      "text": "전주한옥마을역사관은 한옥마을의 역사와 변천 과정 등을 한눈에 확인할 수 있는 역사관으로 옛 창작예술공간의 한옥 2개 동을 리모델링해 2018년에 개관하였다. 전시관은 상설전시실과 기획전시실로 나뉘며 상설전시실에는 한옥마을의 역사를 연표 형식으로 정리해 전주한옥마을의 변천사를 알 수 있다. 내부에 설치한 5개의 모니터에는 한옥마을에 오랫동안 거주한 주민 인터뷰, 한옥마을의 과거·현재 모습, 한옥마을에 얽힌 일화 등을 상영한다. 또 한옥마을 안 주요 명소를 입체영상으로 볼 수 있으며 가상현실 체험도 가능하다. 기획전시실에는 한옥마을의 옛 사진과 한옥마을의 숨은 이야기, 이곳에서 촬영한 영화와 드라마에 관한 내용을 소개해 두었다. 한옥마을 역사관에서는 정기 해설과 수시 해설의 해설 프로그램을 운영하고 있다. 정기 해설은 관광객이 집중되는 주말에 전시실을 순회하면서 진행되며, 수시 해설은 관람객의 요청에 따라 탄력적으로 진행된다. 사전 예약 한 20인 이상의 단체 해설은 우선순위로 진행된다. 대한민국에서 유일하게 보존되어 있는 900여 채의 한옥마을의 소소한 이야기와 어제와 오늘, 그리고 미래의 이야기가 궁금하다면 한옥마을로 여행을 떠나기 전 먼저 들러 보는 것도 의미 있는 여행의 시작이 될 듯하다.",
+      "sido": "전북특별자치도",
+      "sigungu": "전주시",
+      "span_id": "",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=384"
+      ],
+      "evidence_id": "E5",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=553",
+        "fields": {
+          "name": "전주한옥마을역사관",
+          "sido": "전북특별자치도",
+          "sigungu": "전주시",
+          "address": "전북특별자치도 전주시 완산구 최명희길 17-10",
+          "ownership_type": "공립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "10:00",
+          "weekday_close": "18:00",
+          "holiday_open": "10:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "월"
+        },
+        "base_data_date": "2025-02-11",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    }
+  ],
+  "answer": "확인 가능한 근거가 부족하여 답변을 보류했음.",
+  "retrieval_status": "ok",
+  "answer_status": "abstained",
+  "route": "hybrid",
+  "retry_count": 1,
+  "supervisor_verified": false,
+  "rerank_applied": true,
+  "retriever_errors": [],
+  "warnings": [],
+  "duration_ms": 150318.18,
+  "error_type": "",
+  "hit_at_1": "",
+  "hit_at_3": "",
+  "hit_at_5": "",
+  "recall_at_5": "",
+  "mrr_at_10": ""
+}

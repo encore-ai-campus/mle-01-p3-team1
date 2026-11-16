@@ -1,0 +1,179 @@
+{
+  "mode": "supervisor_full",
+  "question_id": "V2-SW03",
+  "evidence": [
+    {
+      "museum_id": "M0685",
+      "name": "대구미술관",
+      "text": "[Neo4j 구조화 속성] {\"amenities\": [\"수유실\"], \"closure_weekdays\": [\"월\"], \"facility_type\": \"미술관\", \"museum_id\": \"M0685\", \"name\": \"대구미술관\", \"open_all_year\": false, \"sido\": \"대구광역시\", \"sigungu\": \"수성구\", \"source_doc_ids\": [\"DOC-B0685-BASE\", \"DOC-B0685-TOUR_API-1856967\"], \"source_locators\": [\"data/raw/museum_base_1070.csv#row=686\", \"data/raw/museum_tourapi_with_overview.csv#row=338\"], \"source_type\": [\"BASE\", \"TOUR_API\"]}",
+      "span_id": "",
+      "source_doc_ids": [
+        "DOC-B0685-BASE",
+        "DOC-B0685-TOUR_API-1856967"
+      ],
+      "source_urls": [],
+      "source_url": "",
+      "source_locators": [
+        "data/raw/museum_base_1070.csv#row=686",
+        "data/raw/museum_tourapi_with_overview.csv#row=338"
+      ],
+      "source_locator": "data/raw/museum_base_1070.csv#row=686",
+      "sido": "대구광역시",
+      "sigungu": "수성구",
+      "retriever": "graph",
+      "source_type": [
+        "BASE",
+        "TOUR_API"
+      ],
+      "amenities": [
+        "수유실"
+      ],
+      "facility_type": "미술관",
+      "closure_weekdays": [
+        "월"
+      ],
+      "open_all_year": false,
+      "source_scope": "graph_properties",
+      "metadata": {},
+      "chunk_id": "",
+      "retrievers": [
+        "graph"
+      ],
+      "evidence_id": "E1",
+      "rank": 1
+    },
+    {
+      "museum_id": "M0686",
+      "name": "대구문화예술회관 미술관",
+      "text": "[Neo4j 구조화 속성] {\"amenities\": [\"수유실\"], \"closure_weekdays\": [\"월\"], \"facility_type\": \"미술관\", \"museum_id\": \"M0686\", \"name\": \"대구문화예술회관 미술관\", \"open_all_year\": false, \"sido\": \"대구광역시\", \"sigungu\": \"달서구\", \"source_doc_ids\": [\"DOC-B0686-BASE\"], \"source_locators\": [\"data/raw/museum_base_1070.csv#row=687\"], \"source_type\": [\"BASE\"]}",
+      "span_id": "",
+      "source_doc_ids": [
+        "DOC-B0686-BASE"
+      ],
+      "source_urls": [],
+      "source_url": "",
+      "source_locators": [
+        "data/raw/museum_base_1070.csv#row=687"
+      ],
+      "source_locator": "data/raw/museum_base_1070.csv#row=687",
+      "sido": "대구광역시",
+      "sigungu": "달서구",
+      "retriever": "graph",
+      "source_type": [
+        "BASE"
+      ],
+      "amenities": [
+        "수유실"
+      ],
+      "facility_type": "미술관",
+      "closure_weekdays": [
+        "월"
+      ],
+      "open_all_year": false,
+      "source_scope": "graph_properties",
+      "metadata": {},
+      "chunk_id": "",
+      "retrievers": [
+        "graph"
+      ],
+      "evidence_id": "E2",
+      "rank": 2
+    },
+    {
+      "museum_id": "M0687",
+      "name": "대구간송미술관",
+      "text": "[Neo4j 구조화 속성] {\"amenities\": [\"수유실\"], \"closure_weekdays\": [\"월\"], \"facility_type\": \"미술관\", \"museum_id\": \"M0687\", \"name\": \"대구간송미술관\", \"open_all_year\": false, \"sido\": \"대구광역시\", \"sigungu\": \"수성구\", \"source_doc_ids\": [\"DOC-B0687-BASE\", \"DOC-B0687-TOUR_API-3397707\"], \"source_locators\": [\"data/raw/museum_base_1070.csv#row=688\", \"data/raw/museum_tourapi_with_overview.csv#row=339\"], \"source_type\": [\"BASE\", \"TOUR_API\"]}",
+      "span_id": "",
+      "source_doc_ids": [
+        "DOC-B0687-BASE",
+        "DOC-B0687-TOUR_API-3397707"
+      ],
+      "source_urls": [],
+      "source_url": "",
+      "source_locators": [
+        "data/raw/museum_base_1070.csv#row=688",
+        "data/raw/museum_tourapi_with_overview.csv#row=339"
+      ],
+      "source_locator": "data/raw/museum_base_1070.csv#row=688",
+      "sido": "대구광역시",
+      "sigungu": "수성구",
+      "retriever": "graph",
+      "source_type": [
+        "BASE",
+        "TOUR_API"
+      ],
+      "amenities": [
+        "수유실"
+      ],
+      "facility_type": "미술관",
+      "closure_weekdays": [
+        "월"
+      ],
+      "open_all_year": false,
+      "source_scope": "graph_properties",
+      "metadata": {},
+      "chunk_id": "",
+      "retrievers": [
+        "graph"
+      ],
+      "evidence_id": "E3",
+      "rank": 3
+    },
+    {
+      "museum_id": "M0692",
+      "name": "달성화석박물관",
+      "text": "[Neo4j 구조화 속성] {\"amenities\": [\"수유실\"], \"closure_weekdays\": [\"월\"], \"facility_type\": \"박물관\", \"museum_id\": \"M0692\", \"name\": \"달성화석박물관\", \"open_all_year\": false, \"sido\": \"대구광역시\", \"sigungu\": \"달성군\", \"source_doc_ids\": [\"DOC-B0692-BASE\", \"DOC-B0692-TOUR_API-3456777\"], \"source_locators\": [\"data/raw/museum_base_1070.csv#row=693\", \"data/raw/museum_tourapi_with_overview.csv#row=196\"], \"source_type\": [\"BASE\", \"TOUR_API\"]}",
+      "span_id": "",
+      "source_doc_ids": [
+        "DOC-B0692-BASE",
+        "DOC-B0692-TOUR_API-3456777"
+      ],
+      "source_urls": [],
+      "source_url": "",
+      "source_locators": [
+        "data/raw/museum_base_1070.csv#row=693",
+        "data/raw/museum_tourapi_with_overview.csv#row=196"
+      ],
+      "source_locator": "data/raw/museum_base_1070.csv#row=693",
+      "sido": "대구광역시",
+      "sigungu": "달성군",
+      "retriever": "graph",
+      "source_type": [
+        "BASE",
+        "TOUR_API"
+      ],
+      "amenities": [
+        "수유실"
+      ],
+      "facility_type": "박물관",
+      "closure_weekdays": [
+        "월"
+      ],
+      "open_all_year": false,
+      "source_scope": "graph_properties",
+      "metadata": {},
+      "chunk_id": "",
+      "retrievers": [
+        "graph"
+      ],
+      "evidence_id": "E4",
+      "rank": 4
+    }
+  ],
+  "answer": "기록상 수유실이 있고 정기 휴관일이 월요일인 대구의 주말 방문 후보는 다음과 같습니다. 현재 운영 여부를 실시간으로 확인한 정보는 아닙니다.\n- 달성화석박물관(달성군) [E4]\n- 대구미술관(수성구) [E1]\n- 대구문화예술회관 미술관(달서구) [E2]\n- 대구간송미술관(수성구) [E3]",
+  "retrieval_status": "ok",
+  "answer_status": "answered",
+  "route": "graph",
+  "retry_count": 1,
+  "supervisor_verified": true,
+  "rerank_applied": false,
+  "retriever_errors": [],
+  "warnings": [],
+  "duration_ms": 75516.34,
+  "error_type": "",
+  "hit_at_1": 1,
+  "hit_at_3": 1,
+  "hit_at_5": 1,
+  "recall_at_5": 1.0,
+  "mrr_at_10": 1.0
+}

@@ -1,0 +1,736 @@
+{
+  "mode": "supervisor_full",
+  "question_id": "Q264",
+  "evidence": [
+    {
+      "museum_id": "M0452",
+      "name": "대구보건대학교 인당박물관",
+      "document": "개관 이래 유물의 수집과 보존, 전시 등을 통해 전통문화를 계승하고 있으며, 매년 봄 가을 2차례 특별전을 개최하여 지역민들에게 가치있는 문화를 향유할 수 있는 기회를 제공하고자 노력하고 있음",
+      "metadata": {
+        "sigungu": "북구",
+        "source_types": "BASE",
+        "fee_notes": "일반인 관람 가능",
+        "closure_rule_raw": "공휴일+토요일+일요일 휴관+전시 기간 중 월요일 휴관",
+        "child_fee": 0.0,
+        "sido": "대구광역시",
+        "amenities_raw": "제1전시실+제2전시실+제3전시실+제4전시실+제5전시실+야외전시장",
+        "holiday_open": "00:00",
+        "requires_manual_review": true,
+        "youth_fee": 0.0,
+        "weekday_open": "10:00",
+        "holiday_close": "00:00",
+        "latitude": 35.92684373,
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "weekday_close": "17:00",
+        "adult_fee": 0.0,
+        "longitude": 128.5440255,
+        "homepage_url": "https://museum.dhc.ac.kr/main",
+        "transport_notes": "버스:724, 750, 726, 527, 704, 급행3",
+        "address": "대구광역시 북구 영송로 15(태전동)",
+        "name": "대구보건대학교 인당박물관",
+        "ownership_type": "대학"
+      },
+      "vector_rank": 1,
+      "bm25_rank": null,
+      "vector_distance": 0.38063108921051025,
+      "vector_score": null,
+      "bm25_score": null,
+      "vector_document": "개관 이래 유물의 수집과 보존, 전시 등을 통해 전통문화를 계승하고 있으며, 매년 봄 가을 2차례 특별전을 개최하여 지역민들에게 가치있는 문화를 향유할 수 있는 기회를 제공하고자 노력하고 있음",
+      "bm25_document": "",
+      "best_span_id": null,
+      "best_span_text": null,
+      "fusion_score": 0.01639344262295082,
+      "retrieved_by": [
+        "vector"
+      ],
+      "fusion_rank": 1,
+      "name_match": true,
+      "rerank_score": 0.9956963062286377,
+      "rank": 1,
+      "score": 0.9956963062286377,
+      "score_type": "cross_encoder",
+      "distance": 0.38063108921051025,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector"
+      ],
+      "retriever": "vector",
+      "source_doc_ids": [
+        "DOC-B0452-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0452-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0452",
+          "source_locator": "data/raw/museum_base_1070.csv#row=453",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 107,
+          "doc_ids": [
+            "DOC-B0452-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_base_1070.csv#row=453",
+      "text": "개관 이래 유물의 수집과 보존, 전시 등을 통해 전통문화를 계승하고 있으며, 매년 봄 가을 2차례 특별전을 개최하여 지역민들에게 가치있는 문화를 향유할 수 있는 기회를 제공하고자 노력하고 있음",
+      "sido": "대구광역시",
+      "sigungu": "북구",
+      "span_id": "",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_base_1070.csv#row=453"
+      ],
+      "evidence_id": "E1",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=324",
+        "fields": {
+          "name": "대구보건대학교 인당박물관",
+          "sido": "대구광역시",
+          "sigungu": "북구",
+          "address": "대구광역시 북구 영송로 15(태전동)",
+          "ownership_type": "대학",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "10:00",
+          "weekday_close": "17:00",
+          "holiday_open": "00:00",
+          "holiday_close": "00:00",
+          "closure_rule_raw": "공휴일+토요일+일요일 휴관+전시 기간 중 월요일 휴관",
+          "amenities_raw": "제1전시실+제2전시실+제3전시실+제4전시실+제5전시실+야외전시장"
+        },
+        "base_data_date": "2026-04-17",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0693",
+      "name": "대구보건대학인당뮤지엄",
+      "document": "대구보건대학교 내에 있는 박물관으로 우리나라 전통 목가구와 규방 용품, 생활 용품들을 전시, 교육",
+      "metadata": {
+        "youth_fee": 0.0,
+        "longitude": 128.5509366,
+        "holiday_close": "00:00",
+        "sigungu": "북구",
+        "weekday_open": "10:00",
+        "ownership_type": "대학",
+        "requires_manual_review": true,
+        "sido": "대구광역시",
+        "weekday_close": "17:00",
+        "address": "대구광역시 북구 학정로 76-1",
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "transport_notes": "200+250+250-1+300+527+708+719+724+726+730+750+칠곡1+칠곡2+칠곡3+칠곡4+칠곡6+북구1",
+        "holiday_open": "00:00",
+        "source_types": "BASE",
+        "homepage_url": "https://museum.dhc.ac.kr",
+        "adult_fee": 0.0,
+        "child_fee": 0.0,
+        "closure_rule_raw": "주말+공휴일",
+        "name": "대구보건대학인당뮤지엄",
+        "latitude": 35.91439529
+      },
+      "vector_rank": 15,
+      "bm25_rank": 1,
+      "vector_distance": 0.48445576429367065,
+      "vector_score": null,
+      "bm25_score": 12.28834950660323,
+      "vector_document": "대구보건대학교 내에 있는 박물관으로 우리나라 전통 목가구와 규방 용품, 생활 용품들을 전시, 교육",
+      "bm25_document": "대구보건대학교 내에 있는 박물관으로 우리나라 전통 목가구와 규방 용품, 생활 용품들을 전시, 교육",
+      "best_span_id": "chroma:M0693",
+      "best_span_text": "대구보건대학교 내에 있는 박물관으로 우리나라 전통 목가구와 규방 용품, 생활 용품들을 전시, 교육",
+      "fusion_score": 0.029726775956284153,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 4,
+      "rerank_score": 0.17657825350761414,
+      "rank": 2,
+      "score": 0.17657825350761414,
+      "score_type": "cross_encoder",
+      "distance": 0.48445576429367065,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0693",
+      "source_doc_ids": [
+        "DOC-B0693-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0693-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0693",
+          "source_locator": "data/raw/museum_base_1070.csv#row=694",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 54,
+          "doc_ids": [
+            "DOC-B0693-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_base_1070.csv#row=694",
+      "text": "대구보건대학교 내에 있는 박물관으로 우리나라 전통 목가구와 규방 용품, 생활 용품들을 전시, 교육",
+      "sido": "대구광역시",
+      "sigungu": "북구",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_base_1070.csv#row=694"
+      ],
+      "evidence_id": "E2",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=481",
+        "fields": {
+          "name": "대구보건대학인당뮤지엄",
+          "sido": "대구광역시",
+          "sigungu": "북구",
+          "address": "대구광역시 북구 학정로 76-1",
+          "ownership_type": "대학",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "10:00",
+          "weekday_close": "17:00",
+          "holiday_open": "00:00",
+          "holiday_close": "00:00",
+          "closure_rule_raw": "주말+공휴일"
+        },
+        "base_data_date": "2025-12-10",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0246",
+      "name": "동국대학교 박물관",
+      "document": "동국대학교 박물관은 고(故) 황수영 박사를 초대관장으로 하여 1963년 9월 1일에 개관했다. 개관 당시에는 도서관에 위치했으며, 1975년에 혜화관, 1985년에 현재의 건물로 이전하여 오늘에 이르고 있다. 국내 유일 불교종립대학의 종합박물관으로서 개관 초반부터 불교미술을 중심으로 국내외 학술 조사와 문화유산 수집·연구를 꾸준히 진행했다. 1960년대부터 임강사지 발굴을 시작으로 성주사지, 분황사 등 전국의 사찰 및 사지(寺址) 조사를 이어갔으며, 1970년에는 울산 반구대·천전리 암각화를 처음 발견하고 조사하여 선사미술 연구에 큰 공헌을 했다. 또한 대마도, 실크로드, 인도 등 해외 유적에 대한 발굴 및 학술 연구를 통해 미술사·고고학 연구를 크게 확장했다. 더불어 대학박물관으로는 최초로 학술지 『불교미술』을 발간하여 깊이 있는 연구활동을 지속하고 있다. 개관 이후부터 불교미술을 비롯한 여러 분야의 문화유산을 수집하고, 전문적인 보호와 연구가 필요한 유물을 기증·기탁받아 현재까지 국보 2점과 보물 8점을 비롯하여 총 5,000여 점의 유물을 소장하고 있다. 이러한 소장 유물은 상설전시와 정기적인 특별전 개최를 통해 선보이고 있다. 첫 특별전은 1967년에 개최된 신라범종탁본전이었으며, 그 이후로도 금석문, 사경, 나한 등 매해 다양한 주제로 특별전을 진행하고 있다.",
+      "metadata": {
+        "weekday_open": "10:00",
+        "source_types": "TOUR_API",
+        "sigungu": "중구",
+        "name": "동국대학교 박물관",
+        "address": "서울특별시 중구 필동로1길 30",
+        "homepage_url": "https://dgumuseum.dongguk.edu/main",
+        "sido": "서울특별시",
+        "weekday_close": "16:00",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/74/3510474_image2_1.jpg",
+        "adult_fee": 0.0,
+        "ownership_type": "사립",
+        "image_copyright": "Type1",
+        "child_fee": 0.0,
+        "longitude": 126.9987376,
+        "closure_rule_raw": "토요일+일요일+공휴일",
+        "holiday_close": "00:00",
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "youth_fee": 0.0,
+        "latitude": 37.55893664,
+        "requires_manual_review": true,
+        "holiday_open": "00:00"
+      },
+      "vector_rank": 2,
+      "bm25_rank": 2,
+      "vector_distance": 0.4074397683143616,
+      "vector_score": null,
+      "bm25_score": 11.79804191236088,
+      "vector_document": "동국대학교 박물관은 고(故) 황수영 박사를 초대관장으로 하여 1963년 9월 1일에 개관했다. 개관 당시에는 도서관에 위치했으며, 1975년에 혜화관, 1985년에 현재의 건물로 이전하여 오늘에 이르고 있다. 국내 유일 불교종립대학의 종합박물관으로서 개관 초반부터 불교미술을 중심으로 국내외 학술 조사와 문화유산 수집·연구를 꾸준히 진행했다. 1960년대부터 임강사지 발굴을 시작으로 성주사지, 분황사 등 전국의 사찰 및 사지(寺址) 조사를 이어갔으며, 1970년에는 울산 반구대·천전리 암각화를 처음 발견하고 조사하여 선사미술 연구에 큰 공헌을 했다. 또한 대마도, 실크로드, 인도 등 해외 유적에 대한 발굴 및 학술 연구를 통해 미술사·고고학 연구를 크게 확장했다. 더불어 대학박물관으로는 최초로 학술지 『불교미술』을 발간하여 깊이 있는 연구활동을 지속하고 있다. 개관 이후부터 불교미술을 비롯한 여러 분야의 문화유산을 수집하고, 전문적인 보호와 연구가 필요한 유물을 기증·기탁받아 현재까지 국보 2점과 보물 8점을 비롯하여 총 5,000여 점의 유물을 소장하고 있다. 이러한 소장 유물은 상설전시와 정기적인 특별전 개최를 통해 선보이고 있다. 첫 특별전은 1967년에 개최된 신라범종탁본전이었으며, 그 이후로도 금석문, 사경, 나한 등 매해 다양한 주제로 특별전을 진행하고 있다.",
+      "bm25_document": "동국대학교 박물관은 고(故) 황수영 박사를 초대관장으로 하여 1963년 9월 1일에 개관했다. 개관 당시에는 도서관에 위치했으며, 1975년에 혜화관, 1985년에 현재의 건물로 이전하여 오늘에 이르고 있다. 국내 유일 불교종립대학의 종합박물관으로서 개관 초반부터 불교미술을 중심으로 국내외 학술 조사와 문화유산 수집·연구를 꾸준히 진행했다. 1960년대부터 임강사지 발굴을 시작으로 성주사지, 분황사 등 전국의 사찰 및 사지(寺址) 조사를 이어갔으며, 1970년에는 울산 반구대·천전리 암각화를 처음 발견하고 조사하여 선사미술 연구에 큰 공헌을 했다. 또한 대마도, 실크로드, 인도 등 해외 유적에 대한 발굴 및 학술 연구를 통해 미술사·고고학 연구를 크게 확장했다. 더불어 대학박물관으로는 최초로 학술지 『불교미술』을 발간하여 깊이 있는 연구활동을 지속하고 있다. 개관 이후부터 불교미술을 비롯한 여러 분야의 문화유산을 수집하고, 전문적인 보호와 연구가 필요한 유물을 기증·기탁받아 현재까지 국보 2점과 보물 8점을 비롯하여 총 5,000여 점의 유물을 소장하고 있다. 이러한 소장 유물은 상설전시와 정기적인 특별전 개최를 통해 선보이고 있다. 첫 특별전은 1967년에 개최된 신라범종탁본전이었으며, 그 이후로도 금석문, 사경, 나한 등 매해 다양한 주제로 특별전을 진행하고 있다.",
+      "best_span_id": "chroma:M0246",
+      "best_span_text": "동국대학교 박물관은 고(故) 황수영 박사를 초대관장으로 하여 1963년 9월 1일에 개관했다. 개관 당시에는 도서관에 위치했으며, 1975년에 혜화관, 1985년에 현재의 건물로 이전하여 오늘에 이르고 있다. 국내 유일 불교종립대학의 종합박물관으로서 개관 초반부터 불교미술을 중심으로 국내외 학술 조사와 문화유산 수집·연구를 꾸준히 진행했다. 1960년대부터 임강사지 발굴을 시작으로 성주사지, 분황사 등 전국의 사찰 및 사지(寺址) 조사를 이어갔으며, 1970년에는 울산 반구대·천전리 암각화를 처음 발견하고 조사하여 선사미술 연구에 큰 공헌을 했다. 또한 대마도, 실크로드, 인도 등 해외 유적에 대한 발굴 및 학술 연구를 통해 미술사·고고학 연구를 크게 확장했다. 더불어 대학박물관으로는 최초로 학술지 『불교미술』을 발간하여 깊이 있는 연구활동을 지속하고 있다. 개관 이후부터 불교미술을 비롯한 여러 분야의 문화유산을 수집하고, 전문적인 보호와 연구가 필요한 유물을 기증·기탁받아 현재까지 국보 2점과 보물 8점을 비롯하여 총 5,000여 점의 유물을 소장하고 있다. 이러한 소장 유물은 상설전시와 정기적인 특별전 개최를 통해 선보이고 있다. 첫 특별전은 1967년에 개최된 신라범종탁본전이었으며, 그 이후로도 금석문, 사경, 나한 등 매해 다양한 주제로 특별전을 진행하고 있다.",
+      "fusion_score": 0.03225806451612903,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 2,
+      "rerank_score": 0.0512709766626358,
+      "rank": 3,
+      "score": 0.0512709766626358,
+      "score_type": "cross_encoder",
+      "distance": 0.4074397683143616,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0246",
+      "source_doc_ids": [
+        "DOC-B0246-TOUR_API-130927"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0246-TOUR_API-130927",
+          "source_type": "TOUR_API",
+          "source_record_id": "130927",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=122",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 52,
+          "doc_ids": [
+            "DOC-B0246-TOUR_API-130927"
+          ]
+        },
+        {
+          "start": 53,
+          "end": 116,
+          "doc_ids": [
+            "DOC-B0246-TOUR_API-130927"
+          ]
+        },
+        {
+          "start": 117,
+          "end": 191,
+          "doc_ids": [
+            "DOC-B0246-TOUR_API-130927"
+          ]
+        },
+        {
+          "start": 192,
+          "end": 309,
+          "doc_ids": [
+            "DOC-B0246-TOUR_API-130927"
+          ]
+        },
+        {
+          "start": 310,
+          "end": 374,
+          "doc_ids": [
+            "DOC-B0246-TOUR_API-130927"
+          ]
+        },
+        {
+          "start": 375,
+          "end": 429,
+          "doc_ids": [
+            "DOC-B0246-TOUR_API-130927"
+          ]
+        },
+        {
+          "start": 430,
+          "end": 544,
+          "doc_ids": [
+            "DOC-B0246-TOUR_API-130927"
+          ]
+        },
+        {
+          "start": 545,
+          "end": 586,
+          "doc_ids": [
+            "DOC-B0246-TOUR_API-130927"
+          ]
+        },
+        {
+          "start": 587,
+          "end": 663,
+          "doc_ids": [
+            "DOC-B0246-TOUR_API-130927"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=122",
+      "text": "동국대학교 박물관은 고(故) 황수영 박사를 초대관장으로 하여 1963년 9월 1일에 개관했다. 개관 당시에는 도서관에 위치했으며, 1975년에 혜화관, 1985년에 현재의 건물로 이전하여 오늘에 이르고 있다. 국내 유일 불교종립대학의 종합박물관으로서 개관 초반부터 불교미술을 중심으로 국내외 학술 조사와 문화유산 수집·연구를 꾸준히 진행했다. 1960년대부터 임강사지 발굴을 시작으로 성주사지, 분황사 등 전국의 사찰 및 사지(寺址) 조사를 이어갔으며, 1970년에는 울산 반구대·천전리 암각화를 처음 발견하고 조사하여 선사미술 연구에 큰 공헌을 했다. 또한 대마도, 실크로드, 인도 등 해외 유적에 대한 발굴 및 학술 연구를 통해 미술사·고고학 연구를 크게 확장했다. 더불어 대학박물관으로는 최초로 학술지 『불교미술』을 발간하여 깊이 있는 연구활동을 지속하고 있다. 개관 이후부터 불교미술을 비롯한 여러 분야의 문화유산을 수집하고, 전문적인 보호와 연구가 필요한 유물을 기증·기탁받아 현재까지 국보 2점과 보물 8점을 비롯하여 총 5,000여 점의 유물을 소장하고 있다. 이러한 소장 유물은 상설전시와 정기적인 특별전 개최를 통해 선보이고 있다. 첫 특별전은 1967년에 개최된 신라범종탁본전이었으며, 그 이후로도 금석문, 사경, 나한 등 매해 다양한 주제로 특별전을 진행하고 있다.",
+      "sido": "서울특별시",
+      "sigungu": "중구",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=122"
+      ],
+      "evidence_id": "E3",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=173",
+        "fields": {
+          "name": "동국대학교 박물관",
+          "sido": "서울특별시",
+          "sigungu": "중구",
+          "address": "서울특별시 중구 필동로1길 30",
+          "ownership_type": "사립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "10:00",
+          "weekday_close": "16:00",
+          "holiday_open": "00:00",
+          "holiday_close": "00:00",
+          "closure_rule_raw": "토요일+일요일+공휴일"
+        },
+        "base_data_date": "2026-09-08",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0453",
+      "name": "경북대학교 박물관",
+      "document": "경북대학교 박물관은 1959년 개관 이래 유물의 수집과 보존, 전시, 연구 등을 통하여 대구, 경북지역의 문화유산 연구에 기여해 왔다. 박물관의 소장품으로는 국가지정유산 보물 7점을 포함하여 선사시대부터 근대 민속자료에 이르기까지 7천여 점의 수집품과 4만여 점의 발굴품을 소장하고 있다. 박물관은 7개의 실내 상설전시실과 야외 전시장을 운영하고 있다. 상설전시실은 순서대로 선사·삼국실, 가야·통일신라실, 고려실, 조선실, 민속·국악기실, 근대문화실이 있으며 제7전시실은 월파원 언덕 정상에 위치하여 최고의 전망을 자랑하는 석조물 전시실로 훼손이 우려되는 국가유산들을 실내 전시하여 특별 관리를 하고 있다. 월파원은 우리나라에서 가장 아름답게 조경된 야외 박물관 가운데 하나로 1965년에 조성되었다. 경북대학교 박물관은 문화강좌, 문화유적답사, 특별전시회 등 사회교육과 전시 기능을 강화하고 있으며, 초등학생 이상 학생 단체 관람객 가운데 신청팀에 한해 소장 유물 설명을 하는 프로그램을 운영하고 있다. 1959년 개관 이래 유물의 수집과 보존, 전시, 연구 등을 통하여 대구 경북지역의 중축적인 문화시설로서 그 역할을 수행하여 왔음 경북대학교 대구캠퍼스 내에 있는 박물관으로 최근에는 문화강좌, 문화유적답사, 특별전시회 등 사회교육과 전시 기능 강화",
+      "metadata": {
+        "image_copyright": "Type1",
+        "address": "대구광역시 북구 대학로 80(산격동)",
+        "weekday_open": "10:00",
+        "longitude": 128.6143217,
+        "adult_fee": 0.0,
+        "fee_notes": "일반인 관람 가능",
+        "sido": "대구광역시",
+        "name": "경북대학교 박물관",
+        "closure_rule_raw": "토·일요일, 공휴일 및 개교기념일 (임시휴관 가능)",
+        "latitude": 35.88909849,
+        "weekday_close": "17:00",
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "ownership_type": "대학",
+        "youth_fee": 0.0,
+        "holiday_close": "00:00",
+        "homepage_url": "http://museum.knu.ac.kr/",
+        "amenities_raw": "기획전시실+상설전시실+야외전시장+자료정리실+보존과학실+도서실+시청각실+수장실",
+        "source_types": "BASE|TOUR_API",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/05/3515805_image2_1.jpg",
+        "requires_manual_review": true,
+        "sigungu": "북구",
+        "holiday_open": "00:00",
+        "child_fee": 0.0
+      },
+      "vector_rank": 7,
+      "bm25_rank": null,
+      "vector_distance": 0.45092523097991943,
+      "vector_score": null,
+      "bm25_score": null,
+      "vector_document": "경북대학교 박물관은 1959년 개관 이래 유물의 수집과 보존, 전시, 연구 등을 통하여 대구, 경북지역의 문화유산 연구에 기여해 왔다. 박물관의 소장품으로는 국가지정유산 보물 7점을 포함하여 선사시대부터 근대 민속자료에 이르기까지 7천여 점의 수집품과 4만여 점의 발굴품을 소장하고 있다. 박물관은 7개의 실내 상설전시실과 야외 전시장을 운영하고 있다. 상설전시실은 순서대로 선사·삼국실, 가야·통일신라실, 고려실, 조선실, 민속·국악기실, 근대문화실이 있으며 제7전시실은 월파원 언덕 정상에 위치하여 최고의 전망을 자랑하는 석조물 전시실로 훼손이 우려되는 국가유산들을 실내 전시하여 특별 관리를 하고 있다. 월파원은 우리나라에서 가장 아름답게 조경된 야외 박물관 가운데 하나로 1965년에 조성되었다. 경북대학교 박물관은 문화강좌, 문화유적답사, 특별전시회 등 사회교육과 전시 기능을 강화하고 있으며, 초등학생 이상 학생 단체 관람객 가운데 신청팀에 한해 소장 유물 설명을 하는 프로그램을 운영하고 있다. 1959년 개관 이래 유물의 수집과 보존, 전시, 연구 등을 통하여 대구 경북지역의 중축적인 문화시설로서 그 역할을 수행하여 왔음 경북대학교 대구캠퍼스 내에 있는 박물관으로 최근에는 문화강좌, 문화유적답사, 특별전시회 등 사회교육과 전시 기능 강화",
+      "bm25_document": "",
+      "best_span_id": null,
+      "best_span_text": null,
+      "fusion_score": 0.014925373134328358,
+      "retrieved_by": [
+        "vector"
+      ],
+      "fusion_rank": 11,
+      "rerank_score": 0.009328978136181831,
+      "rank": 4,
+      "score": 0.009328978136181831,
+      "score_type": "cross_encoder",
+      "distance": 0.45092523097991943,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector"
+      ],
+      "retriever": "vector",
+      "source_doc_ids": [
+        "DOC-B0453-TOUR_API-1115923",
+        "DOC-B0453-BASE",
+        "DOC-B0695-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0453-TOUR_API-1115923",
+          "source_type": "TOUR_API",
+          "source_record_id": "1115923",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=217",
+          "match_trust": "RECHECKED_BY_RULE_NOT_HUMAN_APPROVED"
+        },
+        {
+          "doc_id": "DOC-B0453-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0453",
+          "source_locator": "data/raw/museum_base_1070.csv#row=454",
+          "match_trust": "BASE_SOURCE"
+        },
+        {
+          "doc_id": "DOC-B0695-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0695",
+          "source_locator": "data/raw/museum_base_1070.csv#row=696",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 75,
+          "doc_ids": [
+            "DOC-B0453-TOUR_API-1115923"
+          ]
+        },
+        {
+          "start": 76,
+          "end": 161,
+          "doc_ids": [
+            "DOC-B0453-TOUR_API-1115923"
+          ]
+        },
+        {
+          "start": 162,
+          "end": 197,
+          "doc_ids": [
+            "DOC-B0453-TOUR_API-1115923"
+          ]
+        },
+        {
+          "start": 198,
+          "end": 340,
+          "doc_ids": [
+            "DOC-B0453-TOUR_API-1115923"
+          ]
+        },
+        {
+          "start": 341,
+          "end": 393,
+          "doc_ids": [
+            "DOC-B0453-TOUR_API-1115923"
+          ]
+        },
+        {
+          "start": 394,
+          "end": 507,
+          "doc_ids": [
+            "DOC-B0453-TOUR_API-1115923"
+          ]
+        },
+        {
+          "start": 508,
+          "end": 580,
+          "doc_ids": [
+            "DOC-B0453-BASE"
+          ]
+        },
+        {
+          "start": 581,
+          "end": 646,
+          "doc_ids": [
+            "DOC-B0695-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=217",
+      "text": "경북대학교 박물관은 1959년 개관 이래 유물의 수집과 보존, 전시, 연구 등을 통하여 대구, 경북지역의 문화유산 연구에 기여해 왔다. 박물관의 소장품으로는 국가지정유산 보물 7점을 포함하여 선사시대부터 근대 민속자료에 이르기까지 7천여 점의 수집품과 4만여 점의 발굴품을 소장하고 있다. 박물관은 7개의 실내 상설전시실과 야외 전시장을 운영하고 있다. 상설전시실은 순서대로 선사·삼국실, 가야·통일신라실, 고려실, 조선실, 민속·국악기실, 근대문화실이 있으며 제7전시실은 월파원 언덕 정상에 위치하여 최고의 전망을 자랑하는 석조물 전시실로 훼손이 우려되는 국가유산들을 실내 전시하여 특별 관리를 하고 있다. 월파원은 우리나라에서 가장 아름답게 조경된 야외 박물관 가운데 하나로 1965년에 조성되었다. 경북대학교 박물관은 문화강좌, 문화유적답사, 특별전시회 등 사회교육과 전시 기능을 강화하고 있으며, 초등학생 이상 학생 단체 관람객 가운데 신청팀에 한해 소장 유물 설명을 하는 프로그램을 운영하고 있다. 1959년 개관 이래 유물의 수집과 보존, 전시, 연구 등을 통하여 대구 경북지역의 중축적인 문화시설로서 그 역할을 수행하여 왔음 경북대학교 대구캠퍼스 내에 있는 박물관으로 최근에는 문화강좌, 문화유적답사, 특별전시회 등 사회교육과 전시 기능 강화",
+      "sido": "대구광역시",
+      "sigungu": "북구",
+      "span_id": "",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=217"
+      ],
+      "evidence_id": "E4",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=325",
+        "fields": {
+          "name": "경북대학교 박물관",
+          "sido": "대구광역시",
+          "sigungu": "북구",
+          "address": "대구광역시 북구 대학로 80(산격동)",
+          "ownership_type": "대학",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "10:00",
+          "weekday_close": "17:00",
+          "holiday_open": "00:00",
+          "holiday_close": "00:00",
+          "closure_rule_raw": "토·일요일, 공휴일 및 개교기념일 (임시휴관 가능)",
+          "amenities_raw": "기획전시실+상설전시실+야외전시장+자료정리실+보존과학실+도서실+시청각실+수장실"
+        },
+        "base_data_date": "2026-04-17",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0243",
+      "name": "한양대학교 박물관",
+      "document": "한양대학교박물관은 1979년 개관 이래, 끊임없이 귀중한 문화유산을 발굴, 수집, 보존하고 연구하고 있다. 2003년 이후 매년 특별전을 개최하고 각종 문화체험 및 문화강좌, 박물관 교육 사업을 진행하는 등 대학 캠퍼스를 넘어 지역사회 문화적 플랫폼이자 복합문화예술공간으로서의 역할을 다하고 있다. 건물은 1층부터 5층까지 있지만 실질적으로 전시 공간은 2층부터 시작한다. 2층에는 다양한 전자기기들의 과거와 현재의 모습을 만나볼 수 있다. 3층에는 다양한 주제의 특별전이 열리는 100여평 규모의 기획전시실이 마련되어 있다. 4층은 도자·서화·생활민속실은 소장품 가운데 대표적인 도자기, 서화, 민속품을 엄선하여 전시하고 있으며, 화려하고 섬세한 공예 기술을 비롯하여, 다양한 서화와 생활 도구를 통해 당대 사람들의 삶과 문화를 이해할 수 있도록 구성하였다. 마지막으로 5층 고고역사실은 1979년 미사리 선사유적에 대한 발굴조사를 실시한 이래 한양대학교박물관에서 조사한 다양한 유적과 유물을 소개하고 있다.",
+      "metadata": {
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/29/3537629_image2_1.jpg",
+        "sido": "서울특별시",
+        "ownership_type": "대학",
+        "child_fee": 0.0,
+        "holiday_close": "00:00",
+        "weekday_open": "10:00",
+        "requires_manual_review": true,
+        "homepage_url": "https://museumuf.hanyang.ac.kr",
+        "youth_fee": 0.0,
+        "sigungu": "성동구",
+        "address": "서울특별시 성동구 왕십리로 222",
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "holiday_open": "00:00",
+        "closure_rule_raw": "일+국경일+공휴일",
+        "latitude": 37.55450355,
+        "source_types": "TOUR_API",
+        "name": "한양대학교 박물관",
+        "weekday_close": "17:00",
+        "longitude": 127.0466112,
+        "image_copyright": "Type3",
+        "adult_fee": 0.0
+      },
+      "vector_rank": 4,
+      "bm25_rank": 5,
+      "vector_distance": 0.4339054226875305,
+      "vector_score": null,
+      "bm25_score": 8.978662147781366,
+      "vector_document": "한양대학교박물관은 1979년 개관 이래, 끊임없이 귀중한 문화유산을 발굴, 수집, 보존하고 연구하고 있다. 2003년 이후 매년 특별전을 개최하고 각종 문화체험 및 문화강좌, 박물관 교육 사업을 진행하는 등 대학 캠퍼스를 넘어 지역사회 문화적 플랫폼이자 복합문화예술공간으로서의 역할을 다하고 있다. 건물은 1층부터 5층까지 있지만 실질적으로 전시 공간은 2층부터 시작한다. 2층에는 다양한 전자기기들의 과거와 현재의 모습을 만나볼 수 있다. 3층에는 다양한 주제의 특별전이 열리는 100여평 규모의 기획전시실이 마련되어 있다. 4층은 도자·서화·생활민속실은 소장품 가운데 대표적인 도자기, 서화, 민속품을 엄선하여 전시하고 있으며, 화려하고 섬세한 공예 기술을 비롯하여, 다양한 서화와 생활 도구를 통해 당대 사람들의 삶과 문화를 이해할 수 있도록 구성하였다. 마지막으로 5층 고고역사실은 1979년 미사리 선사유적에 대한 발굴조사를 실시한 이래 한양대학교박물관에서 조사한 다양한 유적과 유물을 소개하고 있다.",
+      "bm25_document": "한양대학교박물관은 1979년 개관 이래, 끊임없이 귀중한 문화유산을 발굴, 수집, 보존하고 연구하고 있다. 2003년 이후 매년 특별전을 개최하고 각종 문화체험 및 문화강좌, 박물관 교육 사업을 진행하는 등 대학 캠퍼스를 넘어 지역사회 문화적 플랫폼이자 복합문화예술공간으로서의 역할을 다하고 있다. 건물은 1층부터 5층까지 있지만 실질적으로 전시 공간은 2층부터 시작한다. 2층에는 다양한 전자기기들의 과거와 현재의 모습을 만나볼 수 있다. 3층에는 다양한 주제의 특별전이 열리는 100여평 규모의 기획전시실이 마련되어 있다. 4층은 도자·서화·생활민속실은 소장품 가운데 대표적인 도자기, 서화, 민속품을 엄선하여 전시하고 있으며, 화려하고 섬세한 공예 기술을 비롯하여, 다양한 서화와 생활 도구를 통해 당대 사람들의 삶과 문화를 이해할 수 있도록 구성하였다. 마지막으로 5층 고고역사실은 1979년 미사리 선사유적에 대한 발굴조사를 실시한 이래 한양대학교박물관에서 조사한 다양한 유적과 유물을 소개하고 있다.",
+      "best_span_id": "chroma:M0243",
+      "best_span_text": "한양대학교박물관은 1979년 개관 이래, 끊임없이 귀중한 문화유산을 발굴, 수집, 보존하고 연구하고 있다. 2003년 이후 매년 특별전을 개최하고 각종 문화체험 및 문화강좌, 박물관 교육 사업을 진행하는 등 대학 캠퍼스를 넘어 지역사회 문화적 플랫폼이자 복합문화예술공간으로서의 역할을 다하고 있다. 건물은 1층부터 5층까지 있지만 실질적으로 전시 공간은 2층부터 시작한다. 2층에는 다양한 전자기기들의 과거와 현재의 모습을 만나볼 수 있다. 3층에는 다양한 주제의 특별전이 열리는 100여평 규모의 기획전시실이 마련되어 있다. 4층은 도자·서화·생활민속실은 소장품 가운데 대표적인 도자기, 서화, 민속품을 엄선하여 전시하고 있으며, 화려하고 섬세한 공예 기술을 비롯하여, 다양한 서화와 생활 도구를 통해 당대 사람들의 삶과 문화를 이해할 수 있도록 구성하였다. 마지막으로 5층 고고역사실은 1979년 미사리 선사유적에 대한 발굴조사를 실시한 이래 한양대학교박물관에서 조사한 다양한 유적과 유물을 소개하고 있다.",
+      "fusion_score": 0.031009615384615385,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 3,
+      "rerank_score": 0.007043797057121992,
+      "rank": 5,
+      "score": 0.007043797057121992,
+      "score_type": "cross_encoder",
+      "distance": 0.4339054226875305,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0243",
+      "source_doc_ids": [
+        "DOC-B0243-TOUR_API-130958"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0243-TOUR_API-130958",
+          "source_type": "TOUR_API",
+          "source_record_id": "130958",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=120",
+          "match_trust": "RECHECKED_BY_RULE_NOT_HUMAN_APPROVED"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 59,
+          "doc_ids": [
+            "DOC-B0243-TOUR_API-130958"
+          ]
+        },
+        {
+          "start": 60,
+          "end": 166,
+          "doc_ids": [
+            "DOC-B0243-TOUR_API-130958"
+          ]
+        },
+        {
+          "start": 167,
+          "end": 208,
+          "doc_ids": [
+            "DOC-B0243-TOUR_API-130958"
+          ]
+        },
+        {
+          "start": 209,
+          "end": 246,
+          "doc_ids": [
+            "DOC-B0243-TOUR_API-130958"
+          ]
+        },
+        {
+          "start": 247,
+          "end": 294,
+          "doc_ids": [
+            "DOC-B0243-TOUR_API-130958"
+          ]
+        },
+        {
+          "start": 295,
+          "end": 425,
+          "doc_ids": [
+            "DOC-B0243-TOUR_API-130958"
+          ]
+        },
+        {
+          "start": 426,
+          "end": 509,
+          "doc_ids": [
+            "DOC-B0243-TOUR_API-130958"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=120",
+      "text": "한양대학교박물관은 1979년 개관 이래, 끊임없이 귀중한 문화유산을 발굴, 수집, 보존하고 연구하고 있다. 2003년 이후 매년 특별전을 개최하고 각종 문화체험 및 문화강좌, 박물관 교육 사업을 진행하는 등 대학 캠퍼스를 넘어 지역사회 문화적 플랫폼이자 복합문화예술공간으로서의 역할을 다하고 있다. 건물은 1층부터 5층까지 있지만 실질적으로 전시 공간은 2층부터 시작한다. 2층에는 다양한 전자기기들의 과거와 현재의 모습을 만나볼 수 있다. 3층에는 다양한 주제의 특별전이 열리는 100여평 규모의 기획전시실이 마련되어 있다. 4층은 도자·서화·생활민속실은 소장품 가운데 대표적인 도자기, 서화, 민속품을 엄선하여 전시하고 있으며, 화려하고 섬세한 공예 기술을 비롯하여, 다양한 서화와 생활 도구를 통해 당대 사람들의 삶과 문화를 이해할 수 있도록 구성하였다. 마지막으로 5층 고고역사실은 1979년 미사리 선사유적에 대한 발굴조사를 실시한 이래 한양대학교박물관에서 조사한 다양한 유적과 유물을 소개하고 있다.",
+      "sido": "서울특별시",
+      "sigungu": "성동구",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=120"
+      ],
+      "evidence_id": "E5",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=171",
+        "fields": {
+          "name": "한양대학교 박물관",
+          "sido": "서울특별시",
+          "sigungu": "성동구",
+          "address": "서울특별시 성동구 왕십리로 222",
+          "ownership_type": "대학",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "10:00",
+          "weekday_close": "17:00",
+          "holiday_open": "00:00",
+          "holiday_close": "00:00",
+          "closure_rule_raw": "일+국경일+공휴일"
+        },
+        "base_data_date": "2026-09-03",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    }
+  ],
+  "answer": "개관 이후 유물을 수집·보존하고 전시하며, 이를 통해 전통문화를 계승해 왔습니다. [E1] 또한 매년 봄과 가을 두 차례 특별전을 열어 지역민에게 문화를 향유할 기회를 제공하고자 해 왔습니다. [E1] 제공된 자료에는 개별 특별전의 명칭이나 주제는 나와 있지 않습니다.",
+  "retrieval_status": "ok",
+  "answer_status": "answered",
+  "route": "hybrid",
+  "retry_count": 0,
+  "supervisor_verified": true,
+  "rerank_applied": true,
+  "retriever_errors": [],
+  "warnings": [],
+  "duration_ms": 127367.34,
+  "error_type": "",
+  "hit_at_1": 1,
+  "hit_at_3": 1,
+  "hit_at_5": 1,
+  "recall_at_5": 1.0,
+  "mrr_at_10": 1.0
+}

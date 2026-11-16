@@ -1,0 +1,832 @@
+{
+  "mode": "supervisor_full",
+  "question_id": "Q155",
+  "evidence": [
+    {
+      "museum_id": "M0257",
+      "name": "서소문성지역사박물관",
+      "document": "서소문성지역사박물관은 순교한 천주교인들을 기리는 곳으로 2019년 6월 개관하였다. 천주교 박해와 관련한 전시와 예술 작품을 만나 볼 수 있고, 매주 목요일에 서소문 역사탐방 해설을 진행하고 있어 서소문 성지와 천주교의 역사에 관한 상세한 설명을 들을 수 있다. 서소문성지역사박물관은 서소문 역사공원 내 위치하고 있으며, 지하 2층에 상설전시관이 마련되어 있다. 계단을 따라 지하 3층으로 내려가면 하늘광장을 만나게 된다. 하늘광장은 경건함을 가득 담은 공간으로 절제된 사각형의 공간으로 이루어져 있다. 하늘, 빛, 직선만이 존재하는 이 공간은 천주교 박해의 먹먹함과 슬픔이 그대로 담겨있다. 또한 이곳은 건축 디자인으로도 유명하여 많은 사람의 발걸음을 이끄는 곳으로 2019년 서울시 건축상 최우수상을 받았다. 서소문 밖 역사유적지와 조선 후기 사상·종교사의 변화를 살펴보는 역사박물관이다. 조선 후기 사상계와 서소문 지역의 장소적 역사를 주제로 상설전시를 운영한다.",
+      "metadata": {
+        "youth_fee": 0.0,
+        "homepage_url": "https://www.seosomun.org/main.do",
+        "address": "서울특별시 중구 칠패로 5",
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "adult_fee": 0.0,
+        "child_fee": 0.0,
+        "source_types": "TOUR_API|WEB_RESEARCH",
+        "weekday_open": "09:00",
+        "ownership_type": "공립",
+        "longitude": 126.968866,
+        "holiday_close": "17:00",
+        "sigungu": "중구",
+        "sido": "서울특별시",
+        "image_url": "http://tong.visitkorea.or.kr/cms/resource/75/3430175_image2_1.JPG",
+        "requires_manual_review": true,
+        "image_copyright": "Type1",
+        "holiday_open": "09:00",
+        "name": "서소문성지역사박물관",
+        "weekday_close": "17:00",
+        "latitude": 37.56057,
+        "closure_rule_raw": "월요일+1월 1일+설 당일+추석 당일"
+      },
+      "vector_rank": 1,
+      "bm25_rank": 1,
+      "vector_distance": 0.4088667035102844,
+      "vector_score": null,
+      "bm25_score": 42.12765170896094,
+      "vector_document": "서소문성지역사박물관은 순교한 천주교인들을 기리는 곳으로 2019년 6월 개관하였다. 천주교 박해와 관련한 전시와 예술 작품을 만나 볼 수 있고, 매주 목요일에 서소문 역사탐방 해설을 진행하고 있어 서소문 성지와 천주교의 역사에 관한 상세한 설명을 들을 수 있다. 서소문성지역사박물관은 서소문 역사공원 내 위치하고 있으며, 지하 2층에 상설전시관이 마련되어 있다. 계단을 따라 지하 3층으로 내려가면 하늘광장을 만나게 된다. 하늘광장은 경건함을 가득 담은 공간으로 절제된 사각형의 공간으로 이루어져 있다. 하늘, 빛, 직선만이 존재하는 이 공간은 천주교 박해의 먹먹함과 슬픔이 그대로 담겨있다. 또한 이곳은 건축 디자인으로도 유명하여 많은 사람의 발걸음을 이끄는 곳으로 2019년 서울시 건축상 최우수상을 받았다. 서소문 밖 역사유적지와 조선 후기 사상·종교사의 변화를 살펴보는 역사박물관이다. 조선 후기 사상계와 서소문 지역의 장소적 역사를 주제로 상설전시를 운영한다.",
+      "bm25_document": "서소문성지역사박물관은 순교한 천주교인들을 기리는 곳으로 2019년 6월 개관하였다. 천주교 박해와 관련한 전시와 예술 작품을 만나 볼 수 있고, 매주 목요일에 서소문 역사탐방 해설을 진행하고 있어 서소문 성지와 천주교의 역사에 관한 상세한 설명을 들을 수 있다. 서소문성지역사박물관은 서소문 역사공원 내 위치하고 있으며, 지하 2층에 상설전시관이 마련되어 있다. 계단을 따라 지하 3층으로 내려가면 하늘광장을 만나게 된다. 하늘광장은 경건함을 가득 담은 공간으로 절제된 사각형의 공간으로 이루어져 있다. 하늘, 빛, 직선만이 존재하는 이 공간은 천주교 박해의 먹먹함과 슬픔이 그대로 담겨있다. 또한 이곳은 건축 디자인으로도 유명하여 많은 사람의 발걸음을 이끄는 곳으로 2019년 서울시 건축상 최우수상을 받았다. 서소문 밖 역사유적지와 조선 후기 사상·종교사의 변화를 살펴보는 역사박물관이다. 조선 후기 사상계와 서소문 지역의 장소적 역사를 주제로 상설전시를 운영한다.",
+      "best_span_id": "chroma:M0257",
+      "best_span_text": "서소문성지역사박물관은 순교한 천주교인들을 기리는 곳으로 2019년 6월 개관하였다. 천주교 박해와 관련한 전시와 예술 작품을 만나 볼 수 있고, 매주 목요일에 서소문 역사탐방 해설을 진행하고 있어 서소문 성지와 천주교의 역사에 관한 상세한 설명을 들을 수 있다. 서소문성지역사박물관은 서소문 역사공원 내 위치하고 있으며, 지하 2층에 상설전시관이 마련되어 있다. 계단을 따라 지하 3층으로 내려가면 하늘광장을 만나게 된다. 하늘광장은 경건함을 가득 담은 공간으로 절제된 사각형의 공간으로 이루어져 있다. 하늘, 빛, 직선만이 존재하는 이 공간은 천주교 박해의 먹먹함과 슬픔이 그대로 담겨있다. 또한 이곳은 건축 디자인으로도 유명하여 많은 사람의 발걸음을 이끄는 곳으로 2019년 서울시 건축상 최우수상을 받았다. 서소문 밖 역사유적지와 조선 후기 사상·종교사의 변화를 살펴보는 역사박물관이다. 조선 후기 사상계와 서소문 지역의 장소적 역사를 주제로 상설전시를 운영한다.",
+      "fusion_score": 0.03278688524590164,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 1,
+      "name_match": true,
+      "rerank_score": 0.9979782700538635,
+      "rank": 1,
+      "score": 0.9979782700538635,
+      "score_type": "cross_encoder",
+      "distance": 0.4088667035102844,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0257",
+      "source_doc_ids": [
+        "DOC-B0257-TOUR_API-2765202",
+        "DOC-WEB-M0257-20261111"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0257-TOUR_API-2765202",
+          "source_type": "TOUR_API",
+          "source_record_id": "2765202",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=127",
+          "match_trust": "RECHECKED_BY_RULE_NOT_HUMAN_APPROVED"
+        },
+        {
+          "doc_id": "DOC-WEB-M0257-20261111",
+          "source_type": "WEB_RESEARCH",
+          "source_record_id": "RESEARCH-M0257",
+          "source_locator": "https://www.seosomun.org/retrieveContents.do?mCode=69",
+          "source_url": "https://www.seosomun.org/retrieveContents.do?mCode=69",
+          "match_trust": "WEB_SOURCE_REVIEWED_NOT_HUMAN_APPROVED"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 46,
+          "doc_ids": [
+            "DOC-B0257-TOUR_API-2765202"
+          ]
+        },
+        {
+          "start": 47,
+          "end": 146,
+          "doc_ids": [
+            "DOC-B0257-TOUR_API-2765202"
+          ]
+        },
+        {
+          "start": 147,
+          "end": 202,
+          "doc_ids": [
+            "DOC-B0257-TOUR_API-2765202"
+          ]
+        },
+        {
+          "start": 203,
+          "end": 236,
+          "doc_ids": [
+            "DOC-B0257-TOUR_API-2765202"
+          ]
+        },
+        {
+          "start": 237,
+          "end": 281,
+          "doc_ids": [
+            "DOC-B0257-TOUR_API-2765202"
+          ]
+        },
+        {
+          "start": 282,
+          "end": 331,
+          "doc_ids": [
+            "DOC-B0257-TOUR_API-2765202"
+          ]
+        },
+        {
+          "start": 332,
+          "end": 398,
+          "doc_ids": [
+            "DOC-B0257-TOUR_API-2765202"
+          ]
+        },
+        {
+          "start": 399,
+          "end": 443,
+          "doc_ids": [
+            "DOC-WEB-M0257-20261111"
+          ]
+        },
+        {
+          "start": 444,
+          "end": 486,
+          "doc_ids": [
+            "DOC-WEB-M0257-20261111"
+          ]
+        }
+      ],
+      "source_urls": [
+        "https://www.seosomun.org/retrieveContents.do?mCode=69"
+      ],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=127",
+      "text": "서소문성지역사박물관은 순교한 천주교인들을 기리는 곳으로 2019년 6월 개관하였다. 천주교 박해와 관련한 전시와 예술 작품을 만나 볼 수 있고, 매주 목요일에 서소문 역사탐방 해설을 진행하고 있어 서소문 성지와 천주교의 역사에 관한 상세한 설명을 들을 수 있다. 서소문성지역사박물관은 서소문 역사공원 내 위치하고 있으며, 지하 2층에 상설전시관이 마련되어 있다. 계단을 따라 지하 3층으로 내려가면 하늘광장을 만나게 된다. 하늘광장은 경건함을 가득 담은 공간으로 절제된 사각형의 공간으로 이루어져 있다. 하늘, 빛, 직선만이 존재하는 이 공간은 천주교 박해의 먹먹함과 슬픔이 그대로 담겨있다. 또한 이곳은 건축 디자인으로도 유명하여 많은 사람의 발걸음을 이끄는 곳으로 2019년 서울시 건축상 최우수상을 받았다. 서소문 밖 역사유적지와 조선 후기 사상·종교사의 변화를 살펴보는 역사박물관이다. 조선 후기 사상계와 서소문 지역의 장소적 역사를 주제로 상설전시를 운영한다.",
+      "sido": "서울특별시",
+      "sigungu": "중구",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=127"
+      ],
+      "evidence_id": "E1",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=179",
+        "fields": {
+          "name": "서소문성지역사박물관",
+          "sido": "서울특별시",
+          "sigungu": "중구",
+          "address": "서울특별시 중구 칠패로 5",
+          "ownership_type": "공립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "09:00",
+          "weekday_close": "17:00",
+          "holiday_open": "09:00",
+          "holiday_close": "17:00",
+          "closure_rule_raw": "월요일+1월 1일+설 당일+추석 당일"
+        },
+        "base_data_date": "2026-09-08",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M1004",
+      "name": "공주기독교박물관",
+      "document": "공주제일교회는 충청권 선교 거점이었던 115년의 기독교 역사가 전시된 기독교 박물관입니다. 1층은 독립을 위해 헌신했던 기독교도들의 역사를 돌아볼 수 있고, 2층은 공주지역 기독교 역사와 관련 유물들이 전시되어 있습니다.",
+      "metadata": {
+        "sido": "충청남도",
+        "adult_fee_status": "BASE_FEE_PAID",
+        "adult_fee": 2000.0,
+        "requires_manual_review": false,
+        "closure_rule_raw": "매주 일요일+ 월요일",
+        "address": "충청남도 공주시 제민1길 18",
+        "ownership_type": "사립",
+        "longitude": 127.1225019,
+        "sigungu": "공주시",
+        "child_fee": 1000.0,
+        "amenities_raw": "전시실, 수장고, 자료도서실",
+        "holiday_open": "10:00",
+        "holiday_close": "17:00",
+        "youth_fee": 2000.0,
+        "weekday_close": "17:00",
+        "transport_notes": "시내버스 100+ 125+ 200+ 210+ 212+ 220+ 221+ 230+ 240+ 250+ 251+ 270+ 281+ 501",
+        "source_types": "BASE",
+        "fee_notes": "미취학아동 무료",
+        "weekday_open": "10:00",
+        "name": "공주기독교박물관",
+        "latitude": 36.4509175
+      },
+      "vector_rank": 3,
+      "bm25_rank": null,
+      "vector_distance": 0.5152468681335449,
+      "vector_score": null,
+      "bm25_score": null,
+      "vector_document": "공주제일교회는 충청권 선교 거점이었던 115년의 기독교 역사가 전시된 기독교 박물관입니다. 1층은 독립을 위해 헌신했던 기독교도들의 역사를 돌아볼 수 있고, 2층은 공주지역 기독교 역사와 관련 유물들이 전시되어 있습니다.",
+      "bm25_document": "",
+      "best_span_id": null,
+      "best_span_text": null,
+      "fusion_score": 0.015873015873015872,
+      "retrieved_by": [
+        "vector"
+      ],
+      "fusion_rank": 5,
+      "rerank_score": 0.0006771413027308881,
+      "rank": 2,
+      "score": 0.0006771413027308881,
+      "score_type": "cross_encoder",
+      "distance": 0.5152468681335449,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector"
+      ],
+      "retriever": "vector",
+      "source_doc_ids": [
+        "DOC-B1004-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B1004-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B1004",
+          "source_locator": "data/raw/museum_base_1070.csv#row=1005",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 50,
+          "doc_ids": [
+            "DOC-B1004-BASE"
+          ]
+        },
+        {
+          "start": 51,
+          "end": 123,
+          "doc_ids": [
+            "DOC-B1004-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_base_1070.csv#row=1005",
+      "text": "공주제일교회는 충청권 선교 거점이었던 115년의 기독교 역사가 전시된 기독교 박물관입니다. 1층은 독립을 위해 헌신했던 기독교도들의 역사를 돌아볼 수 있고, 2층은 공주지역 기독교 역사와 관련 유물들이 전시되어 있습니다.",
+      "sido": "충청남도",
+      "sigungu": "공주시",
+      "span_id": "",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_base_1070.csv#row=1005"
+      ],
+      "evidence_id": "E2",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=687",
+        "fields": {
+          "name": "공주기독교박물관",
+          "sido": "충청남도",
+          "sigungu": "공주시",
+          "address": "충청남도 공주시 제민1길 18",
+          "ownership_type": "사립",
+          "adult_fee": "2000",
+          "youth_fee": "2000",
+          "child_fee": "1000",
+          "adult_fee_status": "BASE_FEE_PAID",
+          "weekday_open": "10:00",
+          "weekday_close": "17:00",
+          "holiday_open": "10:00",
+          "holiday_close": "17:00",
+          "closure_rule_raw": "매주 일요일+ 월요일",
+          "amenities_raw": "전시실, 수장고, 자료도서실"
+        },
+        "base_data_date": "2024-08-27",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0678",
+      "name": "국립진주박물관",
+      "document": "국립진주박물관은 1984년 11월 2일 개관한 경상남도 최초의 국립박물관으로, 임진왜란의 최대 격전지 중 하나인 진주성(사적 제118호) 안에 자리하고 있다. 서울·경주·부여·공주·개성·광주에 이어 일곱 번째로 개관한 국립박물관으로, 개관 당시에는 경상남도를 중심으로 성장한 가야의 역사와 문화를 소개하는 ‘가야문화연구의 중심기관’을 목표로 설립되었다. 1998년 가야문화 연구 기능이 국립김해박물관으로 옮겨진 이후, 국립진주박물관은 경상남도 서부지역의 역사문화와 임진왜란을 주요 전시 주제로 삼는 ‘임진왜란 특성화 박물관’으로 재개관했다. 이후 임진왜란과 지역의 역사에 관한 문화유산을 수집·보존하고, 관련 자료의 조사와 연구, 전시, 박물관교육 등 다양한 활동을 통해 임진왜란의 역사적 의미와 당시의 모습을 조명하고 있다. 박물관 건물은 우리나라 전통 목탑을 형상화한 형태로, 건축가 김수근(1931~1986)이 설계했다. 진주성의 경관을 해치지 않도록 건물의 규모를 낮추고 여러 공간으로 나누어 주변 경관과 조화를 이루도록 설계했으며, 진주석을 활용해 건물 자체가 진주성의 경관과 어우러지도록 했다. 진주성의 역사적 공간과 함께 임진왜란의 역사와 관련 문화유산을 살펴볼 수 있는 곳이다. 임진왜란과 관련된 동아시아 사회의 역사, 경남의 역사와 문화를 종합적으로 연구, 전시, 교육",
+      "metadata": {
+        "latitude": 35.18901371,
+        "holiday_close": "18:00",
+        "weekday_close": "18:00",
+        "fee_notes": "0",
+        "address": "경상남도 진주시 남강로 626-35",
+        "closure_rule_raw": "매주 월요일(공휴일이면 개관 후 다음 첫 평일 휴관), 1월 1일, 설날·추석 당일",
+        "weekday_open": "09:00",
+        "sigungu": "진주시",
+        "longitude": 128.0768441,
+        "youth_fee": 0.0,
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "ownership_type": "국립",
+        "requires_manual_review": true,
+        "sido": "경상남도",
+        "homepage_url": "https://jinju.museum.go.kr/kor/",
+        "source_types": "BASE|TOUR_API",
+        "transport_notes": "시내버스(120번+210번+253번+260번+270번+280번+290번+340번+353번+373번+420번+730번)",
+        "adult_fee": 0.0,
+        "name": "국립진주박물관",
+        "holiday_open": "09:00",
+        "child_fee": 0.0,
+        "image_copyright": "Type3",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/08/3557008_image2_1.jpg"
+      },
+      "vector_rank": null,
+      "bm25_rank": 8,
+      "vector_distance": null,
+      "vector_score": null,
+      "bm25_score": 12.730375888311901,
+      "vector_document": "",
+      "bm25_document": "국립진주박물관은 1984년 11월 2일 개관한 경상남도 최초의 국립박물관으로, 임진왜란의 최대 격전지 중 하나인 진주성(사적 제118호) 안에 자리하고 있다. 서울·경주·부여·공주·개성·광주에 이어 일곱 번째로 개관한 국립박물관으로, 개관 당시에는 경상남도를 중심으로 성장한 가야의 역사와 문화를 소개하는 ‘가야문화연구의 중심기관’을 목표로 설립되었다. 1998년 가야문화 연구 기능이 국립김해박물관으로 옮겨진 이후, 국립진주박물관은 경상남도 서부지역의 역사문화와 임진왜란을 주요 전시 주제로 삼는 ‘임진왜란 특성화 박물관’으로 재개관했다. 이후 임진왜란과 지역의 역사에 관한 문화유산을 수집·보존하고, 관련 자료의 조사와 연구, 전시, 박물관교육 등 다양한 활동을 통해 임진왜란의 역사적 의미와 당시의 모습을 조명하고 있다. 박물관 건물은 우리나라 전통 목탑을 형상화한 형태로, 건축가 김수근(1931~1986)이 설계했다. 진주성의 경관을 해치지 않도록 건물의 규모를 낮추고 여러 공간으로 나누어 주변 경관과 조화를 이루도록 설계했으며, 진주석을 활용해 건물 자체가 진주성의 경관과 어우러지도록 했다. 진주성의 역사적 공간과 함께 임진왜란의 역사와 관련 문화유산을 살펴볼 수 있는 곳이다. 임진왜란과 관련된 동아시아 사회의 역사, 경남의 역사와 문화를 종합적으로 연구, 전시, 교육",
+      "best_span_id": "chroma:M0678",
+      "best_span_text": "국립진주박물관은 1984년 11월 2일 개관한 경상남도 최초의 국립박물관으로, 임진왜란의 최대 격전지 중 하나인 진주성(사적 제118호) 안에 자리하고 있다. 서울·경주·부여·공주·개성·광주에 이어 일곱 번째로 개관한 국립박물관으로, 개관 당시에는 경상남도를 중심으로 성장한 가야의 역사와 문화를 소개하는 ‘가야문화연구의 중심기관’을 목표로 설립되었다. 1998년 가야문화 연구 기능이 국립김해박물관으로 옮겨진 이후, 국립진주박물관은 경상남도 서부지역의 역사문화와 임진왜란을 주요 전시 주제로 삼는 ‘임진왜란 특성화 박물관’으로 재개관했다. 이후 임진왜란과 지역의 역사에 관한 문화유산을 수집·보존하고, 관련 자료의 조사와 연구, 전시, 박물관교육 등 다양한 활동을 통해 임진왜란의 역사적 의미와 당시의 모습을 조명하고 있다. 박물관 건물은 우리나라 전통 목탑을 형상화한 형태로, 건축가 김수근(1931~1986)이 설계했다. 진주성의 경관을 해치지 않도록 건물의 규모를 낮추고 여러 공간으로 나누어 주변 경관과 조화를 이루도록 설계했으며, 진주석을 활용해 건물 자체가 진주성의 경관과 어우러지도록 했다. 진주성의 역사적 공간과 함께 임진왜란의 역사와 관련 문화유산을 살펴볼 수 있는 곳이다. 임진왜란과 관련된 동아시아 사회의 역사, 경남의 역사와 문화를 종합적으로 연구, 전시, 교육",
+      "fusion_score": 0.014705882352941176,
+      "retrieved_by": [
+        "bm25"
+      ],
+      "fusion_rank": 16,
+      "rerank_score": 0.0001728086790535599,
+      "rank": 3,
+      "score": 0.0001728086790535599,
+      "score_type": "cross_encoder",
+      "distance": null,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "bm25"
+      ],
+      "retriever": "bm25",
+      "span_id": "chroma:M0678",
+      "source_doc_ids": [
+        "DOC-B0678-TOUR_API-129774",
+        "DOC-B0678-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0678-TOUR_API-129774",
+          "source_type": "TOUR_API",
+          "source_record_id": "129774",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=253",
+          "match_trust": "RECHECKED_BY_RULE_NOT_HUMAN_APPROVED"
+        },
+        {
+          "doc_id": "DOC-B0678-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0678",
+          "source_locator": "data/raw/museum_base_1070.csv#row=679",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 88,
+          "doc_ids": [
+            "DOC-B0678-TOUR_API-129774"
+          ]
+        },
+        {
+          "start": 89,
+          "end": 197,
+          "doc_ids": [
+            "DOC-B0678-TOUR_API-129774"
+          ]
+        },
+        {
+          "start": 198,
+          "end": 302,
+          "doc_ids": [
+            "DOC-B0678-TOUR_API-129774"
+          ]
+        },
+        {
+          "start": 303,
+          "end": 406,
+          "doc_ids": [
+            "DOC-B0678-TOUR_API-129774"
+          ]
+        },
+        {
+          "start": 407,
+          "end": 462,
+          "doc_ids": [
+            "DOC-B0678-TOUR_API-129774"
+          ]
+        },
+        {
+          "start": 463,
+          "end": 562,
+          "doc_ids": [
+            "DOC-B0678-TOUR_API-129774"
+          ]
+        },
+        {
+          "start": 563,
+          "end": 611,
+          "doc_ids": [
+            "DOC-B0678-TOUR_API-129774"
+          ]
+        },
+        {
+          "start": 612,
+          "end": 663,
+          "doc_ids": [
+            "DOC-B0678-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=253",
+      "text": "국립진주박물관은 1984년 11월 2일 개관한 경상남도 최초의 국립박물관으로, 임진왜란의 최대 격전지 중 하나인 진주성(사적 제118호) 안에 자리하고 있다. 서울·경주·부여·공주·개성·광주에 이어 일곱 번째로 개관한 국립박물관으로, 개관 당시에는 경상남도를 중심으로 성장한 가야의 역사와 문화를 소개하는 ‘가야문화연구의 중심기관’을 목표로 설립되었다. 1998년 가야문화 연구 기능이 국립김해박물관으로 옮겨진 이후, 국립진주박물관은 경상남도 서부지역의 역사문화와 임진왜란을 주요 전시 주제로 삼는 ‘임진왜란 특성화 박물관’으로 재개관했다. 이후 임진왜란과 지역의 역사에 관한 문화유산을 수집·보존하고, 관련 자료의 조사와 연구, 전시, 박물관교육 등 다양한 활동을 통해 임진왜란의 역사적 의미와 당시의 모습을 조명하고 있다. 박물관 건물은 우리나라 전통 목탑을 형상화한 형태로, 건축가 김수근(1931~1986)이 설계했다. 진주성의 경관을 해치지 않도록 건물의 규모를 낮추고 여러 공간으로 나누어 주변 경관과 조화를 이루도록 설계했으며, 진주석을 활용해 건물 자체가 진주성의 경관과 어우러지도록 했다. 진주성의 역사적 공간과 함께 임진왜란의 역사와 관련 문화유산을 살펴볼 수 있는 곳이다. 임진왜란과 관련된 동아시아 사회의 역사, 경남의 역사와 문화를 종합적으로 연구, 전시, 교육",
+      "sido": "경상남도",
+      "sigungu": "진주시",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=253"
+      ],
+      "evidence_id": "E3",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=468",
+        "fields": {
+          "name": "국립진주박물관",
+          "sido": "경상남도",
+          "sigungu": "진주시",
+          "address": "경상남도 진주시 남강로 626-35",
+          "ownership_type": "국립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "09:00",
+          "weekday_close": "18:00",
+          "holiday_open": "09:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "매주 월요일(공휴일이면 개관 후 다음 첫 평일 휴관), 1월 1일, 설날·추석 당일"
+        },
+        "base_data_date": "2025-11-04",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0301",
+      "name": "소수박물관",
+      "document": "소수 박물관은 우리나라 최초의 사액서원인 영주 소수서원에서 보관하던 유물을 전시하며, 유교 문화를 통해 민족정신의 뿌리를 되새기기 위해 설립된 유교 전문 박물관이다. 2004년에 개관했으며, 지하 1층·지상 2층 규모로 5개의 전시실과 수장고, 시청각실, 야외전시실로 구성되어 있다. 기획전시실에서는 기증받은 2만여 점의 유물을 순환 전시하고, 제1전시실은 선사시대부터 조선시대까지의 문화유적을 소개한다. 제2전시실은 ‘유교의 전래’를 주제로 이황의 성학십도, 사서삼경, 학맥도 등을 전시하며, 제3·4 전시실은 서원과 향교, 그리고 소수서원의 창건과 관련 인물 및 유물을 중심으로 구성되어 있다. 소수 박물관 통합 관람권을 이용하면 소수서원, 영주 선비촌과 함께 관람할 수 있다. 영주시 유물의 반출을 막고 안전한 보관 및 전시를 위해 2004년 9월 22일에 개관한 1종 전문박물관으로서 소수서원이관 유물과 지역유물을 보관전시하고 있는 유교전문박물관입니다.",
+      "metadata": {
+        "sigungu": "영주시",
+        "transport_notes": "버스: 27번 53번",
+        "child_fee": 1000.0,
+        "image_url": "http://tong.visitkorea.or.kr/cms/resource/70/3512770_image2_1.JPG",
+        "weekday_close": "18:00",
+        "holiday_close": "18:00",
+        "latitude": 36.92592352,
+        "sido": "경상북도",
+        "weekday_open": "09:00",
+        "requires_manual_review": true,
+        "image_copyright": "Type1",
+        "closure_rule_raw": "연중무휴",
+        "homepage_url": "http://www.yeongju.go.kr/open_content/sosuseowon/index.do",
+        "adult_fee_status": "BASE_FEE_PAID",
+        "address": "경상북도 영주시 순흥면 소백로 2780",
+        "adult_fee": 3000.0,
+        "holiday_open": "09:00",
+        "source_types": "BASE|TOUR_API",
+        "fee_notes": "단체30인이상 할인-어른 2500원 청소년 1500원 어린이 800원 영주시민 50할인 영주시 소재 대학재학생 및 사업체 근무자 50할인 동주도시 시민 50할인",
+        "name": "소수박물관",
+        "longitude": 128.582312,
+        "ownership_type": "공립",
+        "youth_fee": 2000.0
+      },
+      "vector_rank": 8,
+      "bm25_rank": null,
+      "vector_distance": 0.5514062643051147,
+      "vector_score": null,
+      "bm25_score": null,
+      "vector_document": "소수 박물관은 우리나라 최초의 사액서원인 영주 소수서원에서 보관하던 유물을 전시하며, 유교 문화를 통해 민족정신의 뿌리를 되새기기 위해 설립된 유교 전문 박물관이다. 2004년에 개관했으며, 지하 1층·지상 2층 규모로 5개의 전시실과 수장고, 시청각실, 야외전시실로 구성되어 있다. 기획전시실에서는 기증받은 2만여 점의 유물을 순환 전시하고, 제1전시실은 선사시대부터 조선시대까지의 문화유적을 소개한다. 제2전시실은 ‘유교의 전래’를 주제로 이황의 성학십도, 사서삼경, 학맥도 등을 전시하며, 제3·4 전시실은 서원과 향교, 그리고 소수서원의 창건과 관련 인물 및 유물을 중심으로 구성되어 있다. 소수 박물관 통합 관람권을 이용하면 소수서원, 영주 선비촌과 함께 관람할 수 있다. 영주시 유물의 반출을 막고 안전한 보관 및 전시를 위해 2004년 9월 22일에 개관한 1종 전문박물관으로서 소수서원이관 유물과 지역유물을 보관전시하고 있는 유교전문박물관입니다.",
+      "bm25_document": "",
+      "best_span_id": null,
+      "best_span_text": null,
+      "fusion_score": 0.014705882352941176,
+      "retrieved_by": [
+        "vector"
+      ],
+      "fusion_rank": 15,
+      "rerank_score": 0.00016821686585899442,
+      "rank": 4,
+      "score": 0.00016821686585899442,
+      "score_type": "cross_encoder",
+      "distance": 0.5514062643051147,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector"
+      ],
+      "retriever": "vector",
+      "source_doc_ids": [
+        "DOC-B0301-TOUR_API-130894",
+        "DOC-B0301-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0301-TOUR_API-130894",
+          "source_type": "TOUR_API",
+          "source_record_id": "130894",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=149",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        },
+        {
+          "doc_id": "DOC-B0301-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0301",
+          "source_locator": "data/raw/museum_base_1070.csv#row=302",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 92,
+          "doc_ids": [
+            "DOC-B0301-TOUR_API-130894"
+          ]
+        },
+        {
+          "start": 93,
+          "end": 158,
+          "doc_ids": [
+            "DOC-B0301-TOUR_API-130894"
+          ]
+        },
+        {
+          "start": 159,
+          "end": 226,
+          "doc_ids": [
+            "DOC-B0301-TOUR_API-130894"
+          ]
+        },
+        {
+          "start": 227,
+          "end": 334,
+          "doc_ids": [
+            "DOC-B0301-TOUR_API-130894"
+          ]
+        },
+        {
+          "start": 335,
+          "end": 381,
+          "doc_ids": [
+            "DOC-B0301-TOUR_API-130894"
+          ]
+        },
+        {
+          "start": 382,
+          "end": 481,
+          "doc_ids": [
+            "DOC-B0301-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=149",
+      "text": "소수 박물관은 우리나라 최초의 사액서원인 영주 소수서원에서 보관하던 유물을 전시하며, 유교 문화를 통해 민족정신의 뿌리를 되새기기 위해 설립된 유교 전문 박물관이다. 2004년에 개관했으며, 지하 1층·지상 2층 규모로 5개의 전시실과 수장고, 시청각실, 야외전시실로 구성되어 있다. 기획전시실에서는 기증받은 2만여 점의 유물을 순환 전시하고, 제1전시실은 선사시대부터 조선시대까지의 문화유적을 소개한다. 제2전시실은 ‘유교의 전래’를 주제로 이황의 성학십도, 사서삼경, 학맥도 등을 전시하며, 제3·4 전시실은 서원과 향교, 그리고 소수서원의 창건과 관련 인물 및 유물을 중심으로 구성되어 있다. 소수 박물관 통합 관람권을 이용하면 소수서원, 영주 선비촌과 함께 관람할 수 있다. 영주시 유물의 반출을 막고 안전한 보관 및 전시를 위해 2004년 9월 22일에 개관한 1종 전문박물관으로서 소수서원이관 유물과 지역유물을 보관전시하고 있는 유교전문박물관입니다.",
+      "sido": "경상북도",
+      "sigungu": "영주시",
+      "span_id": "",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=149"
+      ],
+      "evidence_id": "E4",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=214",
+        "fields": {
+          "name": "소수박물관",
+          "sido": "경상북도",
+          "sigungu": "영주시",
+          "address": "경상북도 영주시 순흥면 소백로 2780",
+          "ownership_type": "공립",
+          "adult_fee": "3000",
+          "youth_fee": "2000",
+          "child_fee": "1000",
+          "adult_fee_status": "BASE_FEE_PAID",
+          "weekday_open": "09:00",
+          "weekday_close": "18:00",
+          "holiday_open": "09:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "연중무휴"
+        },
+        "base_data_date": "2026-07-27",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0475",
+      "name": "국립경주박물관",
+      "document": "국립경주박물관은 신라의 문화유산을 한눈에 살펴볼 수 있는 한국의 대표적인 박물관이다. 이곳에서는 기원전 57년부터 기원후 935년까지 이어진 천년왕국 신라의 압축된 역사를 살펴볼 수 있다. 경주 여행 시 가장 먼저 방문해 사전 지식을 쌓은 뒤 유적지를 둘러보면 더욱 알찬 여행이 된다. 박물관은 신라역사관, 신라미술관, 월지관, 신라천년보고, 옥외전시 등 5개의 상설전시관과 특별전시관으로 구성된다. 신라역사관에서는 신라의 역사적 흐름을, 신라미술관에서는 찬란한 미술문화와 유물을 볼 수 있다. 월지관은 통일신라시대 왕실의 생활문화를 중심으로 구성되어 있다. 옥외전시장에는 범종, 석탑, 석불, 석등, 비석받침 등 석조 유물 1,300여 점이 전시되어 있다. 박물관 인근에는 2019년 개관한 영남권 수장고인 신라천년보고가 있다. 이곳은 영남지역에서 출토된 유물 약 60만 점을 보관하며, 3,000여 점은 전시수장고에서 관람할 수 있다. 신라역사관, 신라미술관, 월지관에서는 전시해설 프로그램도 운영되니 관람 전 시간표를 확인하는 것이 좋다. 신라의 역사와 문화유산을 중심으로 전시하는 국립박물관이다. 신라시대의 불교미술과 고고자료, 금속공예 등 경주에서 출토된 문화유산을 통해 신라 문화를 살펴볼 수 있다.",
+      "metadata": {
+        "homepage_url": "https://gyeongju.museum.go.kr/",
+        "sigungu": "경주시",
+        "adult_fee": 0.0,
+        "youth_fee": 0.0,
+        "holiday_close": "18:00",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/06/4097506_image2_1.JPG",
+        "child_fee": 0.0,
+        "ownership_type": "국립",
+        "weekday_open": "09:00",
+        "image_copyright": "Type1",
+        "weekday_close": "18:00",
+        "latitude": 35.8294300868,
+        "longitude": 129.2286819147,
+        "source_types": "TOUR_API|WEB_RESEARCH",
+        "closure_rule_raw": "1월 1일, 설날, 추석, 3월,11월 첫 번째 월요일",
+        "requires_manual_review": true,
+        "sido": "경상북도",
+        "name": "국립경주박물관",
+        "address": "경상북도 경주시 일정로 186",
+        "holiday_open": "09:00",
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS"
+      },
+      "vector_rank": null,
+      "bm25_rank": 10,
+      "vector_distance": null,
+      "vector_score": null,
+      "bm25_score": 12.502883016248825,
+      "vector_document": "",
+      "bm25_document": "국립경주박물관은 신라의 문화유산을 한눈에 살펴볼 수 있는 한국의 대표적인 박물관이다. 이곳에서는 기원전 57년부터 기원후 935년까지 이어진 천년왕국 신라의 압축된 역사를 살펴볼 수 있다. 경주 여행 시 가장 먼저 방문해 사전 지식을 쌓은 뒤 유적지를 둘러보면 더욱 알찬 여행이 된다. 박물관은 신라역사관, 신라미술관, 월지관, 신라천년보고, 옥외전시 등 5개의 상설전시관과 특별전시관으로 구성된다. 신라역사관에서는 신라의 역사적 흐름을, 신라미술관에서는 찬란한 미술문화와 유물을 볼 수 있다. 월지관은 통일신라시대 왕실의 생활문화를 중심으로 구성되어 있다. 옥외전시장에는 범종, 석탑, 석불, 석등, 비석받침 등 석조 유물 1,300여 점이 전시되어 있다. 박물관 인근에는 2019년 개관한 영남권 수장고인 신라천년보고가 있다. 이곳은 영남지역에서 출토된 유물 약 60만 점을 보관하며, 3,000여 점은 전시수장고에서 관람할 수 있다. 신라역사관, 신라미술관, 월지관에서는 전시해설 프로그램도 운영되니 관람 전 시간표를 확인하는 것이 좋다. 신라의 역사와 문화유산을 중심으로 전시하는 국립박물관이다. 신라시대의 불교미술과 고고자료, 금속공예 등 경주에서 출토된 문화유산을 통해 신라 문화를 살펴볼 수 있다.",
+      "best_span_id": "chroma:M0475",
+      "best_span_text": "국립경주박물관은 신라의 문화유산을 한눈에 살펴볼 수 있는 한국의 대표적인 박물관이다. 이곳에서는 기원전 57년부터 기원후 935년까지 이어진 천년왕국 신라의 압축된 역사를 살펴볼 수 있다. 경주 여행 시 가장 먼저 방문해 사전 지식을 쌓은 뒤 유적지를 둘러보면 더욱 알찬 여행이 된다. 박물관은 신라역사관, 신라미술관, 월지관, 신라천년보고, 옥외전시 등 5개의 상설전시관과 특별전시관으로 구성된다. 신라역사관에서는 신라의 역사적 흐름을, 신라미술관에서는 찬란한 미술문화와 유물을 볼 수 있다. 월지관은 통일신라시대 왕실의 생활문화를 중심으로 구성되어 있다. 옥외전시장에는 범종, 석탑, 석불, 석등, 비석받침 등 석조 유물 1,300여 점이 전시되어 있다. 박물관 인근에는 2019년 개관한 영남권 수장고인 신라천년보고가 있다. 이곳은 영남지역에서 출토된 유물 약 60만 점을 보관하며, 3,000여 점은 전시수장고에서 관람할 수 있다. 신라역사관, 신라미술관, 월지관에서는 전시해설 프로그램도 운영되니 관람 전 시간표를 확인하는 것이 좋다. 신라의 역사와 문화유산을 중심으로 전시하는 국립박물관이다. 신라시대의 불교미술과 고고자료, 금속공예 등 경주에서 출토된 문화유산을 통해 신라 문화를 살펴볼 수 있다.",
+      "fusion_score": 0.014285714285714285,
+      "retrieved_by": [
+        "bm25"
+      ],
+      "fusion_rank": 20,
+      "rerank_score": 0.00010120586375705898,
+      "rank": 5,
+      "score": 0.00010120586375705898,
+      "score_type": "cross_encoder",
+      "distance": null,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "bm25"
+      ],
+      "retriever": "bm25",
+      "span_id": "chroma:M0475",
+      "source_doc_ids": [
+        "DOC-B0475-TOUR_API-129778",
+        "DOC-WEB-M0475-20261111"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0475-TOUR_API-129778",
+          "source_type": "TOUR_API",
+          "source_record_id": "129778",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=234",
+          "match_trust": "RECHECKED_BY_RULE_NOT_HUMAN_APPROVED"
+        },
+        {
+          "doc_id": "DOC-WEB-M0475-20261111",
+          "source_type": "WEB_RESEARCH",
+          "source_record_id": "RESEARCH-M0475",
+          "source_locator": "https://gyeongju.museum.go.kr/",
+          "source_url": "https://gyeongju.museum.go.kr/",
+          "match_trust": "WEB_SOURCE_REVIEWED_NOT_HUMAN_APPROVED"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 47,
+          "doc_ids": [
+            "DOC-B0475-TOUR_API-129778"
+          ]
+        },
+        {
+          "start": 48,
+          "end": 105,
+          "doc_ids": [
+            "DOC-B0475-TOUR_API-129778"
+          ]
+        },
+        {
+          "start": 106,
+          "end": 159,
+          "doc_ids": [
+            "DOC-B0475-TOUR_API-129778"
+          ]
+        },
+        {
+          "start": 160,
+          "end": 223,
+          "doc_ids": [
+            "DOC-B0475-TOUR_API-129778"
+          ]
+        },
+        {
+          "start": 224,
+          "end": 276,
+          "doc_ids": [
+            "DOC-B0475-TOUR_API-129778"
+          ]
+        },
+        {
+          "start": 277,
+          "end": 312,
+          "doc_ids": [
+            "DOC-B0475-TOUR_API-129778"
+          ]
+        },
+        {
+          "start": 313,
+          "end": 368,
+          "doc_ids": [
+            "DOC-B0475-TOUR_API-129778"
+          ]
+        },
+        {
+          "start": 369,
+          "end": 408,
+          "doc_ids": [
+            "DOC-B0475-TOUR_API-129778"
+          ]
+        },
+        {
+          "start": 409,
+          "end": 469,
+          "doc_ids": [
+            "DOC-B0475-TOUR_API-129778"
+          ]
+        },
+        {
+          "start": 470,
+          "end": 528,
+          "doc_ids": [
+            "DOC-B0475-TOUR_API-129778"
+          ]
+        },
+        {
+          "start": 529,
+          "end": 561,
+          "doc_ids": [
+            "DOC-WEB-M0475-20261111"
+          ]
+        },
+        {
+          "start": 562,
+          "end": 621,
+          "doc_ids": [
+            "DOC-WEB-M0475-20261111"
+          ]
+        }
+      ],
+      "source_urls": [
+        "https://gyeongju.museum.go.kr/"
+      ],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=234",
+      "text": "국립경주박물관은 신라의 문화유산을 한눈에 살펴볼 수 있는 한국의 대표적인 박물관이다. 이곳에서는 기원전 57년부터 기원후 935년까지 이어진 천년왕국 신라의 압축된 역사를 살펴볼 수 있다. 경주 여행 시 가장 먼저 방문해 사전 지식을 쌓은 뒤 유적지를 둘러보면 더욱 알찬 여행이 된다. 박물관은 신라역사관, 신라미술관, 월지관, 신라천년보고, 옥외전시 등 5개의 상설전시관과 특별전시관으로 구성된다. 신라역사관에서는 신라의 역사적 흐름을, 신라미술관에서는 찬란한 미술문화와 유물을 볼 수 있다. 월지관은 통일신라시대 왕실의 생활문화를 중심으로 구성되어 있다. 옥외전시장에는 범종, 석탑, 석불, 석등, 비석받침 등 석조 유물 1,300여 점이 전시되어 있다. 박물관 인근에는 2019년 개관한 영남권 수장고인 신라천년보고가 있다. 이곳은 영남지역에서 출토된 유물 약 60만 점을 보관하며, 3,000여 점은 전시수장고에서 관람할 수 있다. 신라역사관, 신라미술관, 월지관에서는 전시해설 프로그램도 운영되니 관람 전 시간표를 확인하는 것이 좋다. 신라의 역사와 문화유산을 중심으로 전시하는 국립박물관이다. 신라시대의 불교미술과 고고자료, 금속공예 등 경주에서 출토된 문화유산을 통해 신라 문화를 살펴볼 수 있다.",
+      "sido": "경상북도",
+      "sigungu": "경주시",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=234"
+      ],
+      "evidence_id": "E5",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=346",
+        "fields": {
+          "name": "국립경주박물관",
+          "sido": "경상북도",
+          "sigungu": "경주시",
+          "address": "경상북도 경주시 일정로 186",
+          "ownership_type": "국립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "09:00",
+          "weekday_close": "18:00",
+          "holiday_open": "09:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "1월 1일, 설날, 추석, 3월,11월 첫 번째 월요일"
+        },
+        "base_data_date": "2026-04-08",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    }
+  ],
+  "answer": "소개자료에는 천주교 박해와 관련한 전시와 예술 작품을 볼 수 있다고 안내되어 있습니다. [E1] 또 매주 목요일 ‘서소문 역사탐방 해설’을 진행하며, 서소문 성지와 천주교의 역사에 대해 상세한 설명을 들을 수 있다고 합니다. [E1]",
+  "retrieval_status": "ok",
+  "answer_status": "answered",
+  "route": "hybrid",
+  "retry_count": 0,
+  "supervisor_verified": true,
+  "rerank_applied": true,
+  "retriever_errors": [],
+  "warnings": [],
+  "duration_ms": 141379.85,
+  "error_type": "",
+  "hit_at_1": 1,
+  "hit_at_3": 1,
+  "hit_at_5": 1,
+  "recall_at_5": 1.0,
+  "mrr_at_10": 1.0
+}

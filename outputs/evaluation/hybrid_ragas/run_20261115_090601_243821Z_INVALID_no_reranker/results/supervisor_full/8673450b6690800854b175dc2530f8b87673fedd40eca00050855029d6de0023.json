@@ -1,0 +1,737 @@
+{
+  "mode": "supervisor_full",
+  "question_id": "Q028",
+  "evidence": [
+    {
+      "museum_id": "M0016",
+      "name": "창원시립진해박물관",
+      "document": "창원시립진해박물관은 1998년 10월 31일 개관하였으며 제황산 공원 내 진해탑 1층과 2층에 전시실, 사무실, 시청각실, 유물창고, 전망탑 등의 시설을 갖추고 있다. 전시실에는 진해의 시대별 변천사, 신석기, 청동기, 삼한·삼국시대 유물, 조선시대 도요지 모형, 진해 고기잡이 모형, 가락국 수로왕과 왕비의 모형, 거북선 모형, 웅천읍성 모형 등이 있고 진해 유적에 관한 영상물도 상영하고 있다. 진해지역 전체를 축소한 모형과 함께 진해의 역사 연대와 시대별 역사를 확인할 수 있으며 진해의 어제와 오늘을 한눈에 알 수 있어 많은 관광객이 찾아오고 있다. 박물관이 있는 제황산공원에는 모노레일을 타고 올라가거나 산책길을 이용하여 올라갈 수 있고 공원 안에 정자, 벤치, 휴게시설들이 잘 갖추어져 있다. 진해박물관은 진해탑 내에 위치하고 있으며, 2016년 3월에 리모델링 공사를 통해 군항도시 진해의 역사를 살펴볼수 있는 문화공간임",
+      "metadata": {
+        "image_copyright": "Type3",
+        "homepage_url": "https://www.changwon.go.kr",
+        "youth_fee": 0.0,
+        "address": "경상남도 창원시 진해구 중원동로 52",
+        "weekday_close": "18:00",
+        "requires_manual_review": true,
+        "closure_rule_raw": "매주월+1월 1일+설날+추석당일",
+        "adult_fee": 0.0,
+        "ownership_type": "공립",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/17/3572917_image2_1.jpg",
+        "child_fee": 0.0,
+        "source_types": "BASE|TOUR_API",
+        "sigungu": "창원시",
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "holiday_open": "09:00",
+        "name": "창원시립진해박물관",
+        "transport_notes": "제황산공원 모노레일카 이용",
+        "longitude": 128.6631795,
+        "sido": "경상남도",
+        "holiday_close": "18:00",
+        "weekday_open": "09:00",
+        "latitude": 35.14882748
+      },
+      "vector_rank": 1,
+      "bm25_rank": 11,
+      "vector_distance": 0.52577805519104,
+      "vector_score": null,
+      "bm25_score": 6.331162486575371,
+      "vector_document": "창원시립진해박물관은 1998년 10월 31일 개관하였으며 제황산 공원 내 진해탑 1층과 2층에 전시실, 사무실, 시청각실, 유물창고, 전망탑 등의 시설을 갖추고 있다. 전시실에는 진해의 시대별 변천사, 신석기, 청동기, 삼한·삼국시대 유물, 조선시대 도요지 모형, 진해 고기잡이 모형, 가락국 수로왕과 왕비의 모형, 거북선 모형, 웅천읍성 모형 등이 있고 진해 유적에 관한 영상물도 상영하고 있다. 진해지역 전체를 축소한 모형과 함께 진해의 역사 연대와 시대별 역사를 확인할 수 있으며 진해의 어제와 오늘을 한눈에 알 수 있어 많은 관광객이 찾아오고 있다. 박물관이 있는 제황산공원에는 모노레일을 타고 올라가거나 산책길을 이용하여 올라갈 수 있고 공원 안에 정자, 벤치, 휴게시설들이 잘 갖추어져 있다. 진해박물관은 진해탑 내에 위치하고 있으며, 2016년 3월에 리모델링 공사를 통해 군항도시 진해의 역사를 살펴볼수 있는 문화공간임",
+      "bm25_document": "창원시립진해박물관은 1998년 10월 31일 개관하였으며 제황산 공원 내 진해탑 1층과 2층에 전시실, 사무실, 시청각실, 유물창고, 전망탑 등의 시설을 갖추고 있다. 전시실에는 진해의 시대별 변천사, 신석기, 청동기, 삼한·삼국시대 유물, 조선시대 도요지 모형, 진해 고기잡이 모형, 가락국 수로왕과 왕비의 모형, 거북선 모형, 웅천읍성 모형 등이 있고 진해 유적에 관한 영상물도 상영하고 있다. 진해지역 전체를 축소한 모형과 함께 진해의 역사 연대와 시대별 역사를 확인할 수 있으며 진해의 어제와 오늘을 한눈에 알 수 있어 많은 관광객이 찾아오고 있다. 박물관이 있는 제황산공원에는 모노레일을 타고 올라가거나 산책길을 이용하여 올라갈 수 있고 공원 안에 정자, 벤치, 휴게시설들이 잘 갖추어져 있다. 진해박물관은 진해탑 내에 위치하고 있으며, 2016년 3월에 리모델링 공사를 통해 군항도시 진해의 역사를 살펴볼수 있는 문화공간임",
+      "best_span_id": "chroma:M0016",
+      "best_span_text": "창원시립진해박물관은 1998년 10월 31일 개관하였으며 제황산 공원 내 진해탑 1층과 2층에 전시실, 사무실, 시청각실, 유물창고, 전망탑 등의 시설을 갖추고 있다. 전시실에는 진해의 시대별 변천사, 신석기, 청동기, 삼한·삼국시대 유물, 조선시대 도요지 모형, 진해 고기잡이 모형, 가락국 수로왕과 왕비의 모형, 거북선 모형, 웅천읍성 모형 등이 있고 진해 유적에 관한 영상물도 상영하고 있다. 진해지역 전체를 축소한 모형과 함께 진해의 역사 연대와 시대별 역사를 확인할 수 있으며 진해의 어제와 오늘을 한눈에 알 수 있어 많은 관광객이 찾아오고 있다. 박물관이 있는 제황산공원에는 모노레일을 타고 올라가거나 산책길을 이용하여 올라갈 수 있고 공원 안에 정자, 벤치, 휴게시설들이 잘 갖추어져 있다. 진해박물관은 진해탑 내에 위치하고 있으며, 2016년 3월에 리모델링 공사를 통해 군항도시 진해의 역사를 살펴볼수 있는 문화공간임",
+      "fusion_score": 0.03047794966520434,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 1,
+      "name_match": true,
+      "rerank_score": null,
+      "rank": 1,
+      "score": 0.03047794966520434,
+      "score_type": "rrf",
+      "distance": 0.52577805519104,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0016",
+      "source_doc_ids": [
+        "DOC-B0016-TOUR_API-791089",
+        "DOC-B0016-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0016-TOUR_API-791089",
+          "source_type": "TOUR_API",
+          "source_record_id": "791089",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=12",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        },
+        {
+          "doc_id": "DOC-B0016-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0016",
+          "source_locator": "data/raw/museum_base_1070.csv#row=17",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 93,
+          "doc_ids": [
+            "DOC-B0016-TOUR_API-791089"
+          ]
+        },
+        {
+          "start": 94,
+          "end": 222,
+          "doc_ids": [
+            "DOC-B0016-TOUR_API-791089"
+          ]
+        },
+        {
+          "start": 223,
+          "end": 311,
+          "doc_ids": [
+            "DOC-B0016-TOUR_API-791089"
+          ]
+        },
+        {
+          "start": 312,
+          "end": 393,
+          "doc_ids": [
+            "DOC-B0016-TOUR_API-791089"
+          ]
+        },
+        {
+          "start": 394,
+          "end": 466,
+          "doc_ids": [
+            "DOC-B0016-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=12",
+      "text": "창원시립진해박물관은 1998년 10월 31일 개관하였으며 제황산 공원 내 진해탑 1층과 2층에 전시실, 사무실, 시청각실, 유물창고, 전망탑 등의 시설을 갖추고 있다. 전시실에는 진해의 시대별 변천사, 신석기, 청동기, 삼한·삼국시대 유물, 조선시대 도요지 모형, 진해 고기잡이 모형, 가락국 수로왕과 왕비의 모형, 거북선 모형, 웅천읍성 모형 등이 있고 진해 유적에 관한 영상물도 상영하고 있다. 진해지역 전체를 축소한 모형과 함께 진해의 역사 연대와 시대별 역사를 확인할 수 있으며 진해의 어제와 오늘을 한눈에 알 수 있어 많은 관광객이 찾아오고 있다. 박물관이 있는 제황산공원에는 모노레일을 타고 올라가거나 산책길을 이용하여 올라갈 수 있고 공원 안에 정자, 벤치, 휴게시설들이 잘 갖추어져 있다. 진해박물관은 진해탑 내에 위치하고 있으며, 2016년 3월에 리모델링 공사를 통해 군항도시 진해의 역사를 살펴볼수 있는 문화공간임",
+      "sido": "경상남도",
+      "sigungu": "창원시",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=12"
+      ],
+      "evidence_id": "E1",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=16",
+        "fields": {
+          "name": "창원시립진해박물관",
+          "sido": "경상남도",
+          "sigungu": "창원시",
+          "address": "경상남도 창원시 진해구 중원동로 52",
+          "ownership_type": "공립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "09:00",
+          "weekday_close": "18:00",
+          "holiday_open": "09:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "매주월+1월 1일+설날+추석당일"
+        },
+        "base_data_date": "2026-09-01",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0455",
+      "name": "우석헌자연사박물관",
+      "document": "남양주시 진접읍에 있는 우석헌자연사박물관은 설립자 김정우 님의 아호인 '우석[愚石]'에서 유래하여 이름 지은 것으로, '어여쁜 돌의 집'이라는 뜻을 가지고 있다. 다양한 진본의 화석과 광물을 통해, 지역의 문화와 교육 활동의 장이 되고자 2003년 개관하였다. 전시실은 2층과 3층, 별관(디스커버리센터)로 구성되어, 30여 년간 체계적으로 수집된 공룡, 광물, 암석 등 지질 관련 자연사 표본을 통해 자유 이동식 전시대, 4면 관찰식 전시대 등 3세대 전시 기법을 도입해 관람객의 편의를 제공하고 있다. (출처 : 우석헌자연사박물관 홈페이지)",
+      "metadata": {
+        "requires_manual_review": true,
+        "weekday_close": "19:00",
+        "homepage_url": "https://www.geomuseum.org/",
+        "adult_fee_status": "BASE_FEE_PAID",
+        "source_types": "TOUR_API",
+        "adult_fee": 6500.0,
+        "youth_fee": 4000.0,
+        "closure_rule_raw": "월(월 공휴일인 경우 개관)",
+        "latitude": 37.69803201,
+        "weekday_open": "10:00",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/30/3077130_image2_1.jpg",
+        "image_copyright": "Type3",
+        "child_fee": 4000.0,
+        "amenities_raw": "문화상품점",
+        "holiday_open": "10:00",
+        "sigungu": "남양주시",
+        "holiday_close": "19:00",
+        "name": "우석헌자연사박물관",
+        "longitude": 127.1608188,
+        "address": "경기도 남양주시 진접읍 금강로 1095",
+        "sido": "경기도",
+        "ownership_type": "사립"
+      },
+      "vector_rank": null,
+      "bm25_rank": 1,
+      "vector_distance": null,
+      "vector_score": null,
+      "bm25_score": 11.562206270674572,
+      "vector_document": "",
+      "bm25_document": "남양주시 진접읍에 있는 우석헌자연사박물관은 설립자 김정우 님의 아호인 '우석[愚石]'에서 유래하여 이름 지은 것으로, '어여쁜 돌의 집'이라는 뜻을 가지고 있다. 다양한 진본의 화석과 광물을 통해, 지역의 문화와 교육 활동의 장이 되고자 2003년 개관하였다. 전시실은 2층과 3층, 별관(디스커버리센터)로 구성되어, 30여 년간 체계적으로 수집된 공룡, 광물, 암석 등 지질 관련 자연사 표본을 통해 자유 이동식 전시대, 4면 관찰식 전시대 등 3세대 전시 기법을 도입해 관람객의 편의를 제공하고 있다. (출처 : 우석헌자연사박물관 홈페이지)",
+      "best_span_id": "chroma:M0455",
+      "best_span_text": "남양주시 진접읍에 있는 우석헌자연사박물관은 설립자 김정우 님의 아호인 '우석[愚石]'에서 유래하여 이름 지은 것으로, '어여쁜 돌의 집'이라는 뜻을 가지고 있다. 다양한 진본의 화석과 광물을 통해, 지역의 문화와 교육 활동의 장이 되고자 2003년 개관하였다. 전시실은 2층과 3층, 별관(디스커버리센터)로 구성되어, 30여 년간 체계적으로 수집된 공룡, 광물, 암석 등 지질 관련 자연사 표본을 통해 자유 이동식 전시대, 4면 관찰식 전시대 등 3세대 전시 기법을 도입해 관람객의 편의를 제공하고 있다. (출처 : 우석헌자연사박물관 홈페이지)",
+      "fusion_score": 0.01639344262295082,
+      "retrieved_by": [
+        "bm25"
+      ],
+      "fusion_rank": 2,
+      "rerank_score": null,
+      "rank": 2,
+      "score": 0.01639344262295082,
+      "score_type": "rrf",
+      "distance": null,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "bm25"
+      ],
+      "retriever": "bm25",
+      "span_id": "chroma:M0455",
+      "source_doc_ids": [
+        "DOC-B0455-TOUR_API-130710"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0455-TOUR_API-130710",
+          "source_type": "TOUR_API",
+          "source_record_id": "130710",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=219",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 90,
+          "doc_ids": [
+            "DOC-B0455-TOUR_API-130710"
+          ]
+        },
+        {
+          "start": 91,
+          "end": 145,
+          "doc_ids": [
+            "DOC-B0455-TOUR_API-130710"
+          ]
+        },
+        {
+          "start": 146,
+          "end": 282,
+          "doc_ids": [
+            "DOC-B0455-TOUR_API-130710"
+          ]
+        },
+        {
+          "start": 283,
+          "end": 304,
+          "doc_ids": [
+            "DOC-B0455-TOUR_API-130710"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=219",
+      "text": "남양주시 진접읍에 있는 우석헌자연사박물관은 설립자 김정우 님의 아호인 '우석[愚石]'에서 유래하여 이름 지은 것으로, '어여쁜 돌의 집'이라는 뜻을 가지고 있다. 다양한 진본의 화석과 광물을 통해, 지역의 문화와 교육 활동의 장이 되고자 2003년 개관하였다. 전시실은 2층과 3층, 별관(디스커버리센터)로 구성되어, 30여 년간 체계적으로 수집된 공룡, 광물, 암석 등 지질 관련 자연사 표본을 통해 자유 이동식 전시대, 4면 관찰식 전시대 등 3세대 전시 기법을 도입해 관람객의 편의를 제공하고 있다. (출처 : 우석헌자연사박물관 홈페이지)",
+      "sido": "경기도",
+      "sigungu": "남양주시",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=219"
+      ],
+      "evidence_id": "E2",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=327",
+        "fields": {
+          "name": "우석헌자연사박물관",
+          "sido": "경기도",
+          "sigungu": "남양주시",
+          "address": "경기도 남양주시 진접읍 금강로 1095",
+          "ownership_type": "사립",
+          "adult_fee": "6500",
+          "youth_fee": "4000",
+          "child_fee": "4000",
+          "adult_fee_status": "BASE_FEE_PAID",
+          "weekday_open": "10:00",
+          "weekday_close": "19:00",
+          "holiday_open": "10:00",
+          "holiday_close": "19:00",
+          "closure_rule_raw": "월(월 공휴일인 경우 개관)",
+          "amenities_raw": "문화상품점"
+        },
+        "base_data_date": "2026-04-01",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0198",
+      "name": "경주세계자동차박물관",
+      "document": "경주세계자동차박물관은 인류 기계문명인 자동차를 초기부터 근대까지 실물을 관찰할 수 있는 박물관이다. 2017년 3월에 개관했으며 3층으로 이루어져 있다. 다양한 주제의 기획, 상설 전시를 통하여 자동차의 역사, 문화적 변천 과정을 엿볼 수 있다. 게다가 전시관, 영상 역사관, 자동차 카페, 기념품 매장 등이 갖추어져 있다. 레이싱카에 쓰이는 버킷 시트에 앉아 핸들을 움직이면 차량 움직임과 노면 상황에 따라 진동이 느껴진다. 경주 IC에서 가깝고 인근에 보문관광단지와 첨성대가 있어 연계관광을 즐길 수 있다.",
+      "metadata": {
+        "longitude": 129.2685489,
+        "latitude": 35.85210632,
+        "requires_manual_review": true,
+        "image_copyright": "Type3",
+        "youth_fee": 8000.0,
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/92/4055892_image2_1.jpg",
+        "closure_rule_raw": "연중무휴",
+        "holiday_close": "18:00",
+        "child_fee": 6600.0,
+        "address": "경상북도 경주시 보문로 132-22",
+        "ownership_type": "사립",
+        "adult_fee": 9900.0,
+        "weekday_close": "18:00",
+        "homepage_url": "http://carmuseum.co.kr/",
+        "sido": "경상북도",
+        "holiday_open": "10:00",
+        "source_types": "TOUR_API",
+        "adult_fee_status": "BASE_FEE_PAID",
+        "name": "경주세계자동차박물관",
+        "sigungu": "경주시",
+        "weekday_open": "10:00"
+      },
+      "vector_rank": 2,
+      "bm25_rank": null,
+      "vector_distance": 0.5338882803916931,
+      "vector_score": null,
+      "bm25_score": null,
+      "vector_document": "경주세계자동차박물관은 인류 기계문명인 자동차를 초기부터 근대까지 실물을 관찰할 수 있는 박물관이다. 2017년 3월에 개관했으며 3층으로 이루어져 있다. 다양한 주제의 기획, 상설 전시를 통하여 자동차의 역사, 문화적 변천 과정을 엿볼 수 있다. 게다가 전시관, 영상 역사관, 자동차 카페, 기념품 매장 등이 갖추어져 있다. 레이싱카에 쓰이는 버킷 시트에 앉아 핸들을 움직이면 차량 움직임과 노면 상황에 따라 진동이 느껴진다. 경주 IC에서 가깝고 인근에 보문관광단지와 첨성대가 있어 연계관광을 즐길 수 있다.",
+      "bm25_document": "",
+      "best_span_id": null,
+      "best_span_text": null,
+      "fusion_score": 0.016129032258064516,
+      "retrieved_by": [
+        "vector"
+      ],
+      "fusion_rank": 3,
+      "rerank_score": null,
+      "rank": 3,
+      "score": 0.016129032258064516,
+      "score_type": "rrf",
+      "distance": 0.5338882803916931,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector"
+      ],
+      "retriever": "vector",
+      "source_doc_ids": [
+        "DOC-B0198-TOUR_API-2899295"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0198-TOUR_API-2899295",
+          "source_type": "TOUR_API",
+          "source_record_id": "2899295",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=96",
+          "match_trust": "RECHECKED_BY_RULE_NOT_HUMAN_APPROVED"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 55,
+          "doc_ids": [
+            "DOC-B0198-TOUR_API-2899295"
+          ]
+        },
+        {
+          "start": 56,
+          "end": 85,
+          "doc_ids": [
+            "DOC-B0198-TOUR_API-2899295"
+          ]
+        },
+        {
+          "start": 86,
+          "end": 137,
+          "doc_ids": [
+            "DOC-B0198-TOUR_API-2899295"
+          ]
+        },
+        {
+          "start": 138,
+          "end": 181,
+          "doc_ids": [
+            "DOC-B0198-TOUR_API-2899295"
+          ]
+        },
+        {
+          "start": 182,
+          "end": 238,
+          "doc_ids": [
+            "DOC-B0198-TOUR_API-2899295"
+          ]
+        },
+        {
+          "start": 239,
+          "end": 285,
+          "doc_ids": [
+            "DOC-B0198-TOUR_API-2899295"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=96",
+      "text": "경주세계자동차박물관은 인류 기계문명인 자동차를 초기부터 근대까지 실물을 관찰할 수 있는 박물관이다. 2017년 3월에 개관했으며 3층으로 이루어져 있다. 다양한 주제의 기획, 상설 전시를 통하여 자동차의 역사, 문화적 변천 과정을 엿볼 수 있다. 게다가 전시관, 영상 역사관, 자동차 카페, 기념품 매장 등이 갖추어져 있다. 레이싱카에 쓰이는 버킷 시트에 앉아 핸들을 움직이면 차량 움직임과 노면 상황에 따라 진동이 느껴진다. 경주 IC에서 가깝고 인근에 보문관광단지와 첨성대가 있어 연계관광을 즐길 수 있다.",
+      "sido": "경상북도",
+      "sigungu": "경주시",
+      "span_id": "",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=96"
+      ],
+      "evidence_id": "E3",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=130",
+        "fields": {
+          "name": "경주세계자동차박물관",
+          "sido": "경상북도",
+          "sigungu": "경주시",
+          "address": "경상북도 경주시 보문로 132-22",
+          "ownership_type": "사립",
+          "adult_fee": "9900",
+          "youth_fee": "8000",
+          "child_fee": "6600",
+          "adult_fee_status": "BASE_FEE_PAID",
+          "weekday_open": "10:00",
+          "weekday_close": "18:00",
+          "holiday_open": "10:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "연중무휴"
+        },
+        "base_data_date": "2026-08-31",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0011",
+      "name": "고암이응노생가기념관",
+      "document": "고암 이응노 생가기념관은 이응노가 탄생하고 유년을 보냈다는 충남 홍성군 홍북읍 중계리의 낮은 산자락 끝에 자리 잡고 있다. 고암 이응노 생가기념관은 대지 면적 2만여㎡ 및 건축 면적 1천여㎡로 전시 홀ㆍ북카페ㆍ다목적실 등 전시 시설을 중심으로 하는 공간과 초가로 지은 생가ㆍ연밭ㆍ산책로 등을 갖춘 기념관이자 미술관이다. 이응노 개인을 기리고자 마련된 이 생가 기념관은 그 자신이 미술가였기에 기능면에서 전시와 수장 공간이 반드시 필요한 미술관의 성격이 한층 더 강하다. 이런 의미에서 ’’고암 이응노 생가기념관’’은 기념관은 미술관의 측면에서 살펴보아야 할 것이다. 고암이응노생가기념관은 이응노가 탄생하고 유년을 보냈다는 충남 홍성군 홍북면 중계리의 낮은 산자락 끝에 자리 잡고 있다.",
+      "metadata": {
+        "weekday_close": "18:00",
+        "source_types": "BASE|TOUR_API",
+        "child_fee": 500.0,
+        "youth_fee": 500.0,
+        "longitude": 126.6316653,
+        "sido": "충청남도",
+        "holiday_open": "09:00",
+        "transport_notes": "서울→서해안고속도로(홍성IC)→21번국도(홍성방면)→이응노생가기념관",
+        "ownership_type": "공립",
+        "homepage_url": "https://www.hongseong.go.kr/leeungno/index.do",
+        "adult_fee": 1000.0,
+        "closure_rule_raw": "월(월요일이 공휴일인 경우 화요일 대체 휴관)+1월 1일+설 연휴+추석 연휴",
+        "weekday_open": "09:00",
+        "requires_manual_review": true,
+        "fee_notes": "무료(6세이하+65세이상+장애인+유공자)",
+        "name": "고암이응노생가기념관",
+        "address": "충청남도 홍성군 홍북읍 이응노로 61-7",
+        "amenities_raw": "북카페",
+        "holiday_close": "18:00",
+        "image_copyright": "Type3",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/52/3351452_image2_1.jpg",
+        "sigungu": "홍성군",
+        "adult_fee_status": "BASE_FEE_PAID",
+        "latitude": 36.62232152
+      },
+      "vector_rank": null,
+      "bm25_rank": 2,
+      "vector_distance": null,
+      "vector_score": null,
+      "bm25_score": 11.20109631645511,
+      "vector_document": "",
+      "bm25_document": "고암 이응노 생가기념관은 이응노가 탄생하고 유년을 보냈다는 충남 홍성군 홍북읍 중계리의 낮은 산자락 끝에 자리 잡고 있다. 고암 이응노 생가기념관은 대지 면적 2만여㎡ 및 건축 면적 1천여㎡로 전시 홀ㆍ북카페ㆍ다목적실 등 전시 시설을 중심으로 하는 공간과 초가로 지은 생가ㆍ연밭ㆍ산책로 등을 갖춘 기념관이자 미술관이다. 이응노 개인을 기리고자 마련된 이 생가 기념관은 그 자신이 미술가였기에 기능면에서 전시와 수장 공간이 반드시 필요한 미술관의 성격이 한층 더 강하다. 이런 의미에서 ’’고암 이응노 생가기념관’’은 기념관은 미술관의 측면에서 살펴보아야 할 것이다. 고암이응노생가기념관은 이응노가 탄생하고 유년을 보냈다는 충남 홍성군 홍북면 중계리의 낮은 산자락 끝에 자리 잡고 있다.",
+      "best_span_id": "chroma:M0011",
+      "best_span_text": "고암 이응노 생가기념관은 이응노가 탄생하고 유년을 보냈다는 충남 홍성군 홍북읍 중계리의 낮은 산자락 끝에 자리 잡고 있다. 고암 이응노 생가기념관은 대지 면적 2만여㎡ 및 건축 면적 1천여㎡로 전시 홀ㆍ북카페ㆍ다목적실 등 전시 시설을 중심으로 하는 공간과 초가로 지은 생가ㆍ연밭ㆍ산책로 등을 갖춘 기념관이자 미술관이다. 이응노 개인을 기리고자 마련된 이 생가 기념관은 그 자신이 미술가였기에 기능면에서 전시와 수장 공간이 반드시 필요한 미술관의 성격이 한층 더 강하다. 이런 의미에서 ’’고암 이응노 생가기념관’’은 기념관은 미술관의 측면에서 살펴보아야 할 것이다. 고암이응노생가기념관은 이응노가 탄생하고 유년을 보냈다는 충남 홍성군 홍북면 중계리의 낮은 산자락 끝에 자리 잡고 있다.",
+      "fusion_score": 0.016129032258064516,
+      "retrieved_by": [
+        "bm25"
+      ],
+      "fusion_rank": 4,
+      "rerank_score": null,
+      "rank": 4,
+      "score": 0.016129032258064516,
+      "score_type": "rrf",
+      "distance": null,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "bm25"
+      ],
+      "retriever": "bm25",
+      "span_id": "chroma:M0011",
+      "source_doc_ids": [
+        "DOC-B0011-BASE",
+        "DOC-B0011-TOUR_API-2483785"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0011-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0011",
+          "source_locator": "data/raw/museum_base_1070.csv#row=12",
+          "match_trust": "BASE_SOURCE"
+        },
+        {
+          "doc_id": "DOC-B0011-TOUR_API-2483785",
+          "source_type": "TOUR_API",
+          "source_record_id": "2483785",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=9",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 68,
+          "doc_ids": [
+            "DOC-B0011-BASE"
+          ]
+        },
+        {
+          "start": 69,
+          "end": 178,
+          "doc_ids": [
+            "DOC-B0011-BASE",
+            "DOC-B0011-TOUR_API-2483785"
+          ]
+        },
+        {
+          "start": 179,
+          "end": 262,
+          "doc_ids": [
+            "DOC-B0011-BASE",
+            "DOC-B0011-TOUR_API-2483785"
+          ]
+        },
+        {
+          "start": 263,
+          "end": 316,
+          "doc_ids": [
+            "DOC-B0011-BASE",
+            "DOC-B0011-TOUR_API-2483785"
+          ]
+        },
+        {
+          "start": 317,
+          "end": 383,
+          "doc_ids": [
+            "DOC-B0011-TOUR_API-2483785"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_base_1070.csv#row=12",
+      "text": "고암 이응노 생가기념관은 이응노가 탄생하고 유년을 보냈다는 충남 홍성군 홍북읍 중계리의 낮은 산자락 끝에 자리 잡고 있다. 고암 이응노 생가기념관은 대지 면적 2만여㎡ 및 건축 면적 1천여㎡로 전시 홀ㆍ북카페ㆍ다목적실 등 전시 시설을 중심으로 하는 공간과 초가로 지은 생가ㆍ연밭ㆍ산책로 등을 갖춘 기념관이자 미술관이다. 이응노 개인을 기리고자 마련된 이 생가 기념관은 그 자신이 미술가였기에 기능면에서 전시와 수장 공간이 반드시 필요한 미술관의 성격이 한층 더 강하다. 이런 의미에서 ’’고암 이응노 생가기념관’’은 기념관은 미술관의 측면에서 살펴보아야 할 것이다. 고암이응노생가기념관은 이응노가 탄생하고 유년을 보냈다는 충남 홍성군 홍북면 중계리의 낮은 산자락 끝에 자리 잡고 있다.",
+      "sido": "충청남도",
+      "sigungu": "홍성군",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_base_1070.csv#row=12"
+      ],
+      "evidence_id": "E4",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=11",
+        "fields": {
+          "name": "고암이응노생가기념관",
+          "sido": "충청남도",
+          "sigungu": "홍성군",
+          "address": "충청남도 홍성군 홍북읍 이응노로 61-7",
+          "ownership_type": "공립",
+          "adult_fee": "1000",
+          "youth_fee": "500",
+          "child_fee": "500",
+          "adult_fee_status": "BASE_FEE_PAID",
+          "weekday_open": "09:00",
+          "weekday_close": "18:00",
+          "holiday_open": "09:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "월(월요일이 공휴일인 경우 화요일 대체 휴관)+1월 1일+설 연휴+추석 연휴",
+          "amenities_raw": "북카페"
+        },
+        "base_data_date": "2026-09-19",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0439",
+      "name": "한국차문화박물관",
+      "document": "한국차문화박물관은 폐교를 개조하여 만든 보이차 전문 박물관이다. 박물관 전시실에는 한, 중, 일 3,000여 점 차도구와 보이차에 관련된 역사, 다양한 형태의 보이차가 전시되어 있다. 또한 보이차와 보이차를 우리는 방법 등에 대한 설명을 들으며 보이차를 시음해 볼 수 있으며, 우주의 소리 싱잉볼 명상 체험도 즐길 수 있다. 한국차문화박물관은 보이차 전문 박물관으로 중국 및 한국, 일본의 차 도구에 대한 상설 전시를 진행하고 있으며, 일상생활에서 쉽게 접할 수 있는 차문화를 알리고자 합니다.",
+      "metadata": {
+        "weekday_close": "18:00",
+        "youth_fee": 8000.0,
+        "source_types": "BASE|TOUR_API",
+        "name": "한국차문화박물관",
+        "amenities_raw": "장애인 편의시설 및 주차장",
+        "adult_fee_status": "BASE_FEE_PAID",
+        "requires_manual_review": true,
+        "longitude": 128.1145196,
+        "closure_rule_raw": "월요일+화요일",
+        "child_fee": 8000.0,
+        "ownership_type": "사립",
+        "sigungu": "제천시",
+        "holiday_open": "10:00",
+        "latitude": 37.09018793,
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/29/3410229_image2_1.jpg",
+        "holiday_close": "17:00",
+        "image_copyright": "Type3",
+        "sido": "충청북도",
+        "homepage_url": "https://tour.jecheon.go.kr/tour/base/tour/contents/view?clturCntntsNo=3704&menuLevel=3&menuNo=104",
+        "fee_notes": "영유아(만 24개월 미만) 무료",
+        "weekday_open": "10:00",
+        "address": "충청북도 제천시 봉양읍 국사봉로 741",
+        "adult_fee": 16000.0
+      },
+      "vector_rank": 3,
+      "bm25_rank": null,
+      "vector_distance": 0.5430381298065186,
+      "vector_score": null,
+      "bm25_score": null,
+      "vector_document": "한국차문화박물관은 폐교를 개조하여 만든 보이차 전문 박물관이다. 박물관 전시실에는 한, 중, 일 3,000여 점 차도구와 보이차에 관련된 역사, 다양한 형태의 보이차가 전시되어 있다. 또한 보이차와 보이차를 우리는 방법 등에 대한 설명을 들으며 보이차를 시음해 볼 수 있으며, 우주의 소리 싱잉볼 명상 체험도 즐길 수 있다. 한국차문화박물관은 보이차 전문 박물관으로 중국 및 한국, 일본의 차 도구에 대한 상설 전시를 진행하고 있으며, 일상생활에서 쉽게 접할 수 있는 차문화를 알리고자 합니다.",
+      "bm25_document": "",
+      "best_span_id": null,
+      "best_span_text": null,
+      "fusion_score": 0.015873015873015872,
+      "retrieved_by": [
+        "vector"
+      ],
+      "fusion_rank": 5,
+      "rerank_score": null,
+      "rank": 5,
+      "score": 0.015873015873015872,
+      "score_type": "rrf",
+      "distance": 0.5430381298065186,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector"
+      ],
+      "retriever": "vector",
+      "source_doc_ids": [
+        "DOC-B0439-TOUR_API-3410452",
+        "DOC-B0439-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0439-TOUR_API-3410452",
+          "source_type": "TOUR_API",
+          "source_record_id": "3410452",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=210",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        },
+        {
+          "doc_id": "DOC-B0439-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0439",
+          "source_locator": "data/raw/museum_base_1070.csv#row=440",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 35,
+          "doc_ids": [
+            "DOC-B0439-TOUR_API-3410452"
+          ]
+        },
+        {
+          "start": 36,
+          "end": 102,
+          "doc_ids": [
+            "DOC-B0439-TOUR_API-3410452"
+          ]
+        },
+        {
+          "start": 103,
+          "end": 181,
+          "doc_ids": [
+            "DOC-B0439-TOUR_API-3410452"
+          ]
+        },
+        {
+          "start": 182,
+          "end": 276,
+          "doc_ids": [
+            "DOC-B0439-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=210",
+      "text": "한국차문화박물관은 폐교를 개조하여 만든 보이차 전문 박물관이다. 박물관 전시실에는 한, 중, 일 3,000여 점 차도구와 보이차에 관련된 역사, 다양한 형태의 보이차가 전시되어 있다. 또한 보이차와 보이차를 우리는 방법 등에 대한 설명을 들으며 보이차를 시음해 볼 수 있으며, 우주의 소리 싱잉볼 명상 체험도 즐길 수 있다. 한국차문화박물관은 보이차 전문 박물관으로 중국 및 한국, 일본의 차 도구에 대한 상설 전시를 진행하고 있으며, 일상생활에서 쉽게 접할 수 있는 차문화를 알리고자 합니다.",
+      "sido": "충청북도",
+      "sigungu": "제천시",
+      "span_id": "",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=210"
+      ],
+      "evidence_id": "E5",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=313",
+        "fields": {
+          "name": "한국차문화박물관",
+          "sido": "충청북도",
+          "sigungu": "제천시",
+          "address": "충청북도 제천시 봉양읍 국사봉로 741",
+          "ownership_type": "사립",
+          "adult_fee": "16000",
+          "youth_fee": "8000",
+          "child_fee": "8000",
+          "adult_fee_status": "BASE_FEE_PAID",
+          "weekday_open": "10:00",
+          "weekday_close": "18:00",
+          "holiday_open": "10:00",
+          "holiday_close": "17:00",
+          "closure_rule_raw": "월요일+화요일",
+          "amenities_raw": "장애인 편의시설 및 주차장"
+        },
+        "base_data_date": "2026-03-23",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    }
+  ],
+  "answer": "확인 가능한 근거가 부족하여 답변을 보류했음.",
+  "retrieval_status": "ok",
+  "answer_status": "abstained",
+  "route": "hybrid",
+  "retry_count": 1,
+  "supervisor_verified": false,
+  "rerank_applied": false,
+  "retriever_errors": [],
+  "warnings": [
+    "Cross-Encoder reranking failed (FileNotFoundError); RRF order retained"
+  ],
+  "duration_ms": 17301.66,
+  "error_type": "",
+  "hit_at_1": "",
+  "hit_at_3": "",
+  "hit_at_5": "",
+  "recall_at_5": "",
+  "mrr_at_10": ""
+}

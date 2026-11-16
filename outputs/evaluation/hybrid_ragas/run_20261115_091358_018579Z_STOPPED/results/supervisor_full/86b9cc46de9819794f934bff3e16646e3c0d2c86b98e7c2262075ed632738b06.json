@@ -1,0 +1,88 @@
+{
+  "mode": "supervisor_full",
+  "question_id": "V2-OO06",
+  "evidence": [
+    {
+      "museum_id": "M0919",
+      "name": "향암미술관",
+      "text": "향암미술관의 Neo4j operator_name(운영기관) 기록: 경상북도 울진군 (CSV 원문: 경상북도 울진군청)\n[Neo4j 구조화 근거] {\"museum_id\": \"M0919\", \"name\": \"향암미술관\", \"relation\": \"OPERATED_BY\", \"organization\": \"경상북도 울진군\", \"org_key\": \"경상북도울진군\", \"org_type\": \"지방자치단체\", \"raw_name\": \"경상북도 울진군청\", \"verification_status\": \"SOURCE_RECORDED\"}",
+      "span_id": "",
+      "source_doc_ids": [
+        "DOC-B0919-BASE"
+      ],
+      "source_urls": [],
+      "source_url": "",
+      "source_locators": [
+        "data/raw/museum_base_1070.csv#row=920"
+      ],
+      "source_locator": "data/raw/museum_base_1070.csv#row=920",
+      "sido": "경상북도",
+      "sigungu": "울진군",
+      "retriever": "graph",
+      "evidence_role": "anchor",
+      "source_scope": "graph_properties",
+      "relation": "OPERATED_BY",
+      "organization": "경상북도 울진군",
+      "org_type": "지방자치단체",
+      "operator_raw_name": "경상북도 울진군청",
+      "verification_status": "SOURCE_RECORDED",
+      "metadata": {},
+      "chunk_id": "",
+      "retrievers": [
+        "graph"
+      ],
+      "evidence_id": "E1",
+      "rank": 1
+    },
+    {
+      "museum_id": "M0920",
+      "name": "울진봉평신라비전시관",
+      "text": "{anchor_raw_name: 경상북도 울진군청, candidate_raw_name: 경상북도 울진군청, org_key: 경상북도울진군, organization: 경상북도 울진군, relation: OPERATED_BY, verification_status: SOURCE_RECORDED}",
+      "span_id": "",
+      "source_doc_ids": [
+        "DOC-B0920-BASE"
+      ],
+      "source_urls": [],
+      "source_url": "",
+      "source_locators": [
+        "data/raw/museum_base_1070.csv#row=921"
+      ],
+      "source_locator": "data/raw/museum_base_1070.csv#row=921",
+      "sido": "경상북도",
+      "sigungu": "울진군",
+      "retriever": "graph",
+      "graph_path": "anchor -[:OPERATED_BY]-> Organization <-[:OPERATED_BY]- candidate",
+      "organization": "경상북도 울진군",
+      "org_type": "지방자치단체",
+      "operator_raw_name": "경상북도 울진군청",
+      "anchor_operator_raw_name": "경상북도 울진군청",
+      "relation": "OPERATED_BY",
+      "verification_status": "SOURCE_RECORDED",
+      "facility_type": "전시관",
+      "source_scope": "graph_properties",
+      "metadata": {},
+      "chunk_id": "",
+      "retrievers": [
+        "graph"
+      ],
+      "evidence_id": "E2",
+      "rank": 2
+    }
+  ],
+  "answer": "향암미술관의 운영기관 기록은 경상북도 울진군이며 [E1], 같은 운영기관으로 기록된 다른 시설은 울진봉평신라비전시관입니다 [E2].",
+  "retrieval_status": "ok",
+  "answer_status": "answered",
+  "route": "graph",
+  "retry_count": 0,
+  "supervisor_verified": true,
+  "rerank_applied": false,
+  "retriever_errors": [],
+  "warnings": [],
+  "duration_ms": 111215.38,
+  "error_type": "",
+  "hit_at_1": 1,
+  "hit_at_3": 1,
+  "hit_at_5": 1,
+  "recall_at_5": 1.0,
+  "mrr_at_10": 1.0
+}

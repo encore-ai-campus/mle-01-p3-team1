@@ -1,0 +1,327 @@
+{
+  "question_id": "V2-SF06",
+  "response": {
+    "tool": "museum_hybrid_retrieve",
+    "status": "partial",
+    "query": "울산에서 장애인 화장실 있는 박물관이나 미술관을 알려줘",
+    "results": [
+      {
+        "museum_id": "M0751",
+        "name": "울산약사제방유적전시관",
+        "document": "약사동제방유적전시관은 울산 약사동 제방(사적)을 소개하고 고대 제방 연구와 역사적인 가치를 알리기 위하여 2017년 5월 24일에 개관하였다. 전시관 1층은 전시 공간으로 운영하고 있으며, 제방의 토층 전사를 전시하는 제방전시실, 제방 인근 약사동의 역사를 알 수 있는 유물과 농기구 등을 전시하는 테마전시실로 구성되어 있다.2층은 어린이 체험전시실로 제방꼽기체험, 영상, VR(가상현실)체험, 동작감지체험, 퍼즐, 블럭, 도서공간 등이 마련되어 있다.",
+        "metadata": {
+          "address": "울산광역시 중구 종가14길 22-28",
+          "sigungu": "중구",
+          "ownership_type": "공립",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "closure_rule_raw": "매주 월+1월 1일",
+          "source_types": "BASE",
+          "sido": "울산광역시",
+          "weekday_open": "09:00",
+          "name": "울산약사제방유적전시관",
+          "fee_notes": "0",
+          "youth_fee": 0.0,
+          "latitude": 35.5762564,
+          "adult_fee": 0.0,
+          "longitude": 129.3369722,
+          "homepage_url": "http://www.ulsan.go.kr/s/museum/contents.ulsan?mId=001010001000000000",
+          "weekday_close": "18:00",
+          "requires_manual_review": false,
+          "holiday_open": "09:00",
+          "holiday_close": "18:00",
+          "child_fee": 0.0,
+          "amenities_raw": "장애인 화장실+음수대 등",
+          "transport_notes": "- 일반버스 431, 847, 207, 847약사동제방전시관(11431) 하차 후 도보 10분- 일반버스 147, 216, 422, 147, 216혜인학교(30907) 하차 후 도보 5분",
+          "structured_match": "편의시설 '장애인 화장실': CSV amenities_raw의 '장애인 화장실' 항목 (온톨로지 필터가 metadata_provenance.fields의 같은 CSV 값으로 판정한 정적 기록이며 실시간 상태가 아님)"
+        },
+        "vector_rank": 1,
+        "bm25_rank": 1,
+        "vector_distance": 0.560865044593811,
+        "vector_score": null,
+        "bm25_score": 4.9474435549039395,
+        "vector_document": "약사동제방유적전시관은 울산 약사동 제방(사적)을 소개하고 고대 제방 연구와 역사적인 가치를 알리기 위하여 2017년 5월 24일에 개관하였다. 전시관 1층은 전시 공간으로 운영하고 있으며, 제방의 토층 전사를 전시하는 제방전시실, 제방 인근 약사동의 역사를 알 수 있는 유물과 농기구 등을 전시하는 테마전시실로 구성되어 있다.2층은 어린이 체험전시실로 제방꼽기체험, 영상, VR(가상현실)체험, 동작감지체험, 퍼즐, 블럭, 도서공간 등이 마련되어 있다.",
+        "bm25_document": "약사동제방유적전시관은 울산 약사동 제방(사적)을 소개하고 고대 제방 연구와 역사적인 가치를 알리기 위하여 2017년 5월 24일에 개관하였다. 전시관 1층은 전시 공간으로 운영하고 있으며, 제방의 토층 전사를 전시하는 제방전시실, 제방 인근 약사동의 역사를 알 수 있는 유물과 농기구 등을 전시하는 테마전시실로 구성되어 있다.2층은 어린이 체험전시실로 제방꼽기체험, 영상, VR(가상현실)체험, 동작감지체험, 퍼즐, 블럭, 도서공간 등이 마련되어 있다.",
+        "best_span_id": "chroma:M0751",
+        "best_span_text": "약사동제방유적전시관은 울산 약사동 제방(사적)을 소개하고 고대 제방 연구와 역사적인 가치를 알리기 위하여 2017년 5월 24일에 개관하였다. 전시관 1층은 전시 공간으로 운영하고 있으며, 제방의 토층 전사를 전시하는 제방전시실, 제방 인근 약사동의 역사를 알 수 있는 유물과 농기구 등을 전시하는 테마전시실로 구성되어 있다.2층은 어린이 체험전시실로 제방꼽기체험, 영상, VR(가상현실)체험, 동작감지체험, 퍼즐, 블럭, 도서공간 등이 마련되어 있다.",
+        "fusion_score": 0.03278688524590164,
+        "retrieved_by": [
+          "vector",
+          "bm25"
+        ],
+        "fusion_rank": 1,
+        "rerank_score": 0.0016606394201517105,
+        "rank": 1,
+        "score": 0.03278688524590164,
+        "score_type": "rrf_low_confidence_rerank",
+        "distance": 0.560865044593811,
+        "relevance": null,
+        "relevance_reason": null
+      }
+    ],
+    "source_ids": [
+      "M0751"
+    ],
+    "warnings": [
+      "Only 1 candidates available; no artificial padding"
+    ],
+    "unsupported_constraints": [],
+    "search_summary": {
+      "mode": "hybrid",
+      "filters": {},
+      "candidate_count": 1,
+      "requested_candidate_k": 20,
+      "returned_count": 1,
+      "reranked": true,
+      "vector_returned": 1,
+      "bm25_returned": 1,
+      "fused_returned": 1,
+      "final_returned": 1,
+      "rerank_requested": true,
+      "rerank_applied": true,
+      "rerank_failed": false,
+      "fusion_method": "weighted_rrf",
+      "config": {
+        "vector_top_k": 20,
+        "bm25_top_k": 20,
+        "fusion_top_k": 20,
+        "final_top_k": 10,
+        "rrf_k": 60,
+        "vector_weight": 1.0,
+        "bm25_weight": 1.0,
+        "reranker_model": "BAAI/bge-reranker-v2-m3",
+        "reranker_local_dir": null,
+        "reranker_revision": null,
+        "reranker_batch_size": 8,
+        "reranker_max_chars": 2000,
+        "rerank_failure_policy": "rrf_fallback",
+        "rerank_min_confidence": 0.1,
+        "retriever_failure_policy": "raise",
+        "parallel_retrieval": true
+      },
+      "metadata_filters": {},
+      "retriever_errors": [],
+      "requested_final_top_k": 5,
+      "expanded_query": "울산에서 장애인 화장실 있는 박물관이나 미술관을 알려줘",
+      "query_mode": "vector",
+      "analysis_status": "disabled",
+      "unsupported_constraints": [],
+      "ontology_filter": {
+        "status": "applied",
+        "backend": "local_csv",
+        "conditions": {
+          "amenities": [
+            "장애인 화장실"
+          ],
+          "sido": "울산광역시",
+          "matched_terms": [
+            "장애인 화장실 있"
+          ]
+        },
+        "candidate_count": 1
+      },
+      "name_match": {
+        "status": "not_applicable",
+        "names": [],
+        "promoted": [],
+        "injected": [],
+        "unavailable": []
+      },
+      "rerank_low_confidence": true,
+      "rerank_best_score": 0.0016606394201517105,
+      "stages": [
+        {
+          "stage": "ontology_filter",
+          "duration_ms": 2.01,
+          "status": "applied",
+          "backend": "local_csv",
+          "conditions": {
+            "amenities": [
+              "장애인 화장실"
+            ],
+            "sido": "울산광역시",
+            "matched_terms": [
+              "장애인 화장실 있"
+            ]
+          },
+          "candidate_count": 1
+        },
+        {
+          "stage": "query_analysis",
+          "status": "disabled",
+          "duration_ms": 0.09,
+          "filters": {},
+          "expanded_query": "울산에서 장애인 화장실 있는 박물관이나 미술관을 알려줘",
+          "mode": "vector",
+          "model": "disabled"
+        },
+        {
+          "stage": "vector_retrieval",
+          "status": "ok",
+          "duration_ms": 235.52,
+          "requested": 20,
+          "returned": 1
+        },
+        {
+          "stage": "bm25_retrieval",
+          "status": "ok",
+          "duration_ms": 19.58,
+          "requested": 20,
+          "returned": 1
+        },
+        {
+          "stage": "rrf_fusion",
+          "status": "ok",
+          "duration_ms": 0.08,
+          "requested": 20,
+          "returned": 1
+        },
+        {
+          "stage": "name_match",
+          "duration_ms": 0.21,
+          "status": "not_applicable",
+          "names": [],
+          "promoted": [],
+          "injected": [],
+          "unavailable": []
+        },
+        {
+          "stage": "cross_encoder_rerank",
+          "status": "low_confidence_rrf_order",
+          "duration_ms": 42370.03,
+          "requested": 1,
+          "returned": 1,
+          "best_score": 0.0016606394201517105,
+          "min_confidence": 0.1,
+          "model_load_ms": 0.0,
+          "inference_ms": 504.76,
+          "model_path": "C:\\Users\\Playdata\\.cache\\huggingface\\hub\\models--BAAI--bge-reranker-v2-m3\\snapshots\\953dc6f6f85a1b2dbfca4c34a2796e7dde08d41e",
+          "model_source": "local_only"
+        },
+        {
+          "stage": "final_selection",
+          "status": "ok",
+          "requested": 5,
+          "returned": 1
+        }
+      ],
+      "total_duration_ms": 42614.34
+    },
+    "fusion_candidates": [
+      {
+        "museum_id": "M0751",
+        "name": "울산약사제방유적전시관",
+        "document": "약사동제방유적전시관은 울산 약사동 제방(사적)을 소개하고 고대 제방 연구와 역사적인 가치를 알리기 위하여 2017년 5월 24일에 개관하였다. 전시관 1층은 전시 공간으로 운영하고 있으며, 제방의 토층 전사를 전시하는 제방전시실, 제방 인근 약사동의 역사를 알 수 있는 유물과 농기구 등을 전시하는 테마전시실로 구성되어 있다.2층은 어린이 체험전시실로 제방꼽기체험, 영상, VR(가상현실)체험, 동작감지체험, 퍼즐, 블럭, 도서공간 등이 마련되어 있다.",
+        "metadata": {
+          "address": "울산광역시 중구 종가14길 22-28",
+          "sigungu": "중구",
+          "ownership_type": "공립",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "closure_rule_raw": "매주 월+1월 1일",
+          "source_types": "BASE",
+          "sido": "울산광역시",
+          "weekday_open": "09:00",
+          "name": "울산약사제방유적전시관",
+          "fee_notes": "0",
+          "youth_fee": 0.0,
+          "latitude": 35.5762564,
+          "adult_fee": 0.0,
+          "longitude": 129.3369722,
+          "homepage_url": "http://www.ulsan.go.kr/s/museum/contents.ulsan?mId=001010001000000000",
+          "weekday_close": "18:00",
+          "requires_manual_review": false,
+          "holiday_open": "09:00",
+          "holiday_close": "18:00",
+          "child_fee": 0.0,
+          "amenities_raw": "장애인 화장실+음수대 등",
+          "transport_notes": "- 일반버스 431, 847, 207, 847약사동제방전시관(11431) 하차 후 도보 10분- 일반버스 147, 216, 422, 147, 216혜인학교(30907) 하차 후 도보 5분"
+        },
+        "vector_rank": 1,
+        "bm25_rank": 1,
+        "vector_distance": 0.560865044593811,
+        "vector_score": null,
+        "bm25_score": 4.9474435549039395,
+        "vector_document": "약사동제방유적전시관은 울산 약사동 제방(사적)을 소개하고 고대 제방 연구와 역사적인 가치를 알리기 위하여 2017년 5월 24일에 개관하였다. 전시관 1층은 전시 공간으로 운영하고 있으며, 제방의 토층 전사를 전시하는 제방전시실, 제방 인근 약사동의 역사를 알 수 있는 유물과 농기구 등을 전시하는 테마전시실로 구성되어 있다.2층은 어린이 체험전시실로 제방꼽기체험, 영상, VR(가상현실)체험, 동작감지체험, 퍼즐, 블럭, 도서공간 등이 마련되어 있다.",
+        "bm25_document": "약사동제방유적전시관은 울산 약사동 제방(사적)을 소개하고 고대 제방 연구와 역사적인 가치를 알리기 위하여 2017년 5월 24일에 개관하였다. 전시관 1층은 전시 공간으로 운영하고 있으며, 제방의 토층 전사를 전시하는 제방전시실, 제방 인근 약사동의 역사를 알 수 있는 유물과 농기구 등을 전시하는 테마전시실로 구성되어 있다.2층은 어린이 체험전시실로 제방꼽기체험, 영상, VR(가상현실)체험, 동작감지체험, 퍼즐, 블럭, 도서공간 등이 마련되어 있다.",
+        "best_span_id": "chroma:M0751",
+        "best_span_text": "약사동제방유적전시관은 울산 약사동 제방(사적)을 소개하고 고대 제방 연구와 역사적인 가치를 알리기 위하여 2017년 5월 24일에 개관하였다. 전시관 1층은 전시 공간으로 운영하고 있으며, 제방의 토층 전사를 전시하는 제방전시실, 제방 인근 약사동의 역사를 알 수 있는 유물과 농기구 등을 전시하는 테마전시실로 구성되어 있다.2층은 어린이 체험전시실로 제방꼽기체험, 영상, VR(가상현실)체험, 동작감지체험, 퍼즐, 블럭, 도서공간 등이 마련되어 있다.",
+        "fusion_score": 0.03278688524590164,
+        "retrieved_by": [
+          "vector",
+          "bm25"
+        ],
+        "fusion_rank": 1
+      }
+    ],
+    "retrieval_candidates_full": {
+      "vector": [
+        {
+          "museum_id": "M0751",
+          "document": "약사동제방유적전시관은 울산 약사동 제방(사적)을 소개하고 고대 제방 연구와 역사적인 가치를 알리기 위하여 2017년 5월 24일에 개관하였다. 전시관 1층은 전시 공간으로 운영하고 있으며, 제방의 토층 전사를 전시하는 제방전시실, 제방 인근 약사동의 역사를 알 수 있는 유물과 농기구 등을 전시하는 테마전시실로 구성되어 있다.2층은 어린이 체험전시실로 제방꼽기체험, 영상, VR(가상현실)체험, 동작감지체험, 퍼즐, 블럭, 도서공간 등이 마련되어 있다.",
+          "metadata": {
+            "address": "울산광역시 중구 종가14길 22-28",
+            "sigungu": "중구",
+            "ownership_type": "공립",
+            "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+            "closure_rule_raw": "매주 월+1월 1일",
+            "source_types": "BASE",
+            "sido": "울산광역시",
+            "weekday_open": "09:00",
+            "name": "울산약사제방유적전시관",
+            "fee_notes": "0",
+            "youth_fee": 0.0,
+            "latitude": 35.5762564,
+            "adult_fee": 0.0,
+            "longitude": 129.3369722,
+            "homepage_url": "http://www.ulsan.go.kr/s/museum/contents.ulsan?mId=001010001000000000",
+            "weekday_close": "18:00",
+            "requires_manual_review": false,
+            "holiday_open": "09:00",
+            "holiday_close": "18:00",
+            "child_fee": 0.0,
+            "amenities_raw": "장애인 화장실+음수대 등",
+            "transport_notes": "- 일반버스 431, 847, 207, 847약사동제방전시관(11431) 하차 후 도보 10분- 일반버스 147, 216, 422, 147, 216혜인학교(30907) 하차 후 도보 5분"
+          },
+          "distance": 0.560865044593811
+        }
+      ],
+      "bm25": [
+        {
+          "museum_id": "M0751",
+          "name": "울산약사제방유적전시관",
+          "document": "약사동제방유적전시관은 울산 약사동 제방(사적)을 소개하고 고대 제방 연구와 역사적인 가치를 알리기 위하여 2017년 5월 24일에 개관하였다. 전시관 1층은 전시 공간으로 운영하고 있으며, 제방의 토층 전사를 전시하는 제방전시실, 제방 인근 약사동의 역사를 알 수 있는 유물과 농기구 등을 전시하는 테마전시실로 구성되어 있다.2층은 어린이 체험전시실로 제방꼽기체험, 영상, VR(가상현실)체험, 동작감지체험, 퍼즐, 블럭, 도서공간 등이 마련되어 있다.",
+          "metadata": {
+            "holiday_open": "09:00",
+            "longitude": 129.3369722,
+            "holiday_close": "18:00",
+            "weekday_open": "09:00",
+            "sido": "울산광역시",
+            "name": "울산약사제방유적전시관",
+            "source_types": "BASE",
+            "amenities_raw": "장애인 화장실+음수대 등",
+            "fee_notes": "0",
+            "closure_rule_raw": "매주 월+1월 1일",
+            "transport_notes": "- 일반버스 431, 847, 207, 847약사동제방전시관(11431) 하차 후 도보 10분- 일반버스 147, 216, 422, 147, 216혜인학교(30907) 하차 후 도보 5분",
+            "sigungu": "중구",
+            "adult_fee": 0.0,
+            "weekday_close": "18:00",
+            "requires_manual_review": false,
+            "latitude": 35.5762564,
+            "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+            "youth_fee": 0.0,
+            "child_fee": 0.0,
+            "homepage_url": "http://www.ulsan.go.kr/s/museum/contents.ulsan?mId=001010001000000000",
+            "address": "울산광역시 중구 종가14길 22-28",
+            "ownership_type": "공립"
+          },
+          "score": 4.9474435549039395,
+          "rank": 1,
+          "retriever": "bm25",
+          "best_span_id": "chroma:M0751",
+          "best_span_text": "약사동제방유적전시관은 울산 약사동 제방(사적)을 소개하고 고대 제방 연구와 역사적인 가치를 알리기 위하여 2017년 5월 24일에 개관하였다. 전시관 1층은 전시 공간으로 운영하고 있으며, 제방의 토층 전사를 전시하는 제방전시실, 제방 인근 약사동의 역사를 알 수 있는 유물과 농기구 등을 전시하는 테마전시실로 구성되어 있다.2층은 어린이 체험전시실로 제방꼽기체험, 영상, VR(가상현실)체험, 동작감지체험, 퍼즐, 블럭, 도서공간 등이 마련되어 있다."
+        }
+      ]
+    }
+  },
+  "duration_ms": 42614.42,
+  "error_type": ""
+}

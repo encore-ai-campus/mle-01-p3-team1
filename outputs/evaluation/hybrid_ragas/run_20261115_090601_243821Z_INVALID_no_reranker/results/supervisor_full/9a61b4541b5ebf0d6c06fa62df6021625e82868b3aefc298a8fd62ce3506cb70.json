@@ -1,0 +1,694 @@
+{
+  "mode": "supervisor_full",
+  "question_id": "Q055",
+  "evidence": [
+    {
+      "museum_id": "M0041",
+      "name": "넥슨뮤지엄",
+      "document": "넥슨뮤지엄은 컴퓨터와 게임의 역사를 조명하던 넥슨컴퓨터박물관에서 한 걸음 더 나아가, 게임을 하나의 문화로 바라보며 플레이어의 경험과 추억을 함께 나누는 체험형 공간이다. 컴퓨터와 하드웨어 중심의 전시를 넘어 게임을 통해 형성된 플레이어들의 기억과 관계, 다양한 플레이 경험을 담아낸다. 넥슨 ID 또는 게스트로 로그인한 뒤 입장카드를 연동하면 자신의 게임 플레이 기록과 연계된 맞춤형 전시를 경험할 수 있다. 게임을 즐겼던 순간과 그 안에 담긴 추억을 되돌아보고, 게임이 지닌 문화적 가치와 즐거움을 직접 체험할 수 있는 곳이다.",
+      "metadata": {
+        "ownership_type": "사립",
+        "closure_rule_raw": "월+설 당일+추석 당일+매년 3월",
+        "weekday_close": "18:00",
+        "weekday_open": "10:00",
+        "holiday_open": "10:00",
+        "name": "넥슨뮤지엄",
+        "holiday_close": "18:00",
+        "fee_notes": "단체 관람 시 할인+도민할인+넥슨프라임",
+        "child_fee": 10000.0,
+        "sigungu": "제주시",
+        "longitude": 126.4857998,
+        "sido": "제주특별자치도",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/73/2721573_image2_1.png",
+        "adult_fee": 14000.0,
+        "image_copyright": "Type3",
+        "homepage_url": "https://www.nexonmuseum.org/ko",
+        "latitude": 33.47211995,
+        "address": "제주특별자치도 제주시 1100로 3198-8",
+        "requires_manual_review": true,
+        "adult_fee_status": "BASE_FEE_PAID",
+        "youth_fee": 12000.0,
+        "source_types": "TOUR_API"
+      },
+      "vector_rank": 1,
+      "bm25_rank": 1,
+      "vector_distance": 0.4757876396179199,
+      "vector_score": null,
+      "bm25_score": 19.3393983551118,
+      "vector_document": "넥슨뮤지엄은 컴퓨터와 게임의 역사를 조명하던 넥슨컴퓨터박물관에서 한 걸음 더 나아가, 게임을 하나의 문화로 바라보며 플레이어의 경험과 추억을 함께 나누는 체험형 공간이다. 컴퓨터와 하드웨어 중심의 전시를 넘어 게임을 통해 형성된 플레이어들의 기억과 관계, 다양한 플레이 경험을 담아낸다. 넥슨 ID 또는 게스트로 로그인한 뒤 입장카드를 연동하면 자신의 게임 플레이 기록과 연계된 맞춤형 전시를 경험할 수 있다. 게임을 즐겼던 순간과 그 안에 담긴 추억을 되돌아보고, 게임이 지닌 문화적 가치와 즐거움을 직접 체험할 수 있는 곳이다.",
+      "bm25_document": "넥슨뮤지엄은 컴퓨터와 게임의 역사를 조명하던 넥슨컴퓨터박물관에서 한 걸음 더 나아가, 게임을 하나의 문화로 바라보며 플레이어의 경험과 추억을 함께 나누는 체험형 공간이다. 컴퓨터와 하드웨어 중심의 전시를 넘어 게임을 통해 형성된 플레이어들의 기억과 관계, 다양한 플레이 경험을 담아낸다. 넥슨 ID 또는 게스트로 로그인한 뒤 입장카드를 연동하면 자신의 게임 플레이 기록과 연계된 맞춤형 전시를 경험할 수 있다. 게임을 즐겼던 순간과 그 안에 담긴 추억을 되돌아보고, 게임이 지닌 문화적 가치와 즐거움을 직접 체험할 수 있는 곳이다.",
+      "best_span_id": "chroma:M0041",
+      "best_span_text": "넥슨뮤지엄은 컴퓨터와 게임의 역사를 조명하던 넥슨컴퓨터박물관에서 한 걸음 더 나아가, 게임을 하나의 문화로 바라보며 플레이어의 경험과 추억을 함께 나누는 체험형 공간이다. 컴퓨터와 하드웨어 중심의 전시를 넘어 게임을 통해 형성된 플레이어들의 기억과 관계, 다양한 플레이 경험을 담아낸다. 넥슨 ID 또는 게스트로 로그인한 뒤 입장카드를 연동하면 자신의 게임 플레이 기록과 연계된 맞춤형 전시를 경험할 수 있다. 게임을 즐겼던 순간과 그 안에 담긴 추억을 되돌아보고, 게임이 지닌 문화적 가치와 즐거움을 직접 체험할 수 있는 곳이다.",
+      "fusion_score": 0.03278688524590164,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 1,
+      "name_match": true,
+      "rerank_score": null,
+      "rank": 1,
+      "score": 0.03278688524590164,
+      "score_type": "rrf",
+      "distance": 0.4757876396179199,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0041",
+      "source_doc_ids": [
+        "DOC-B0041-TOUR_API-2472824"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0041-TOUR_API-2472824",
+          "source_type": "TOUR_API",
+          "source_record_id": "2472824",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=23",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 95,
+          "doc_ids": [
+            "DOC-B0041-TOUR_API-2472824"
+          ]
+        },
+        {
+          "start": 96,
+          "end": 160,
+          "doc_ids": [
+            "DOC-B0041-TOUR_API-2472824"
+          ]
+        },
+        {
+          "start": 161,
+          "end": 229,
+          "doc_ids": [
+            "DOC-B0041-TOUR_API-2472824"
+          ]
+        },
+        {
+          "start": 230,
+          "end": 297,
+          "doc_ids": [
+            "DOC-B0041-TOUR_API-2472824"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=23",
+      "text": "넥슨뮤지엄은 컴퓨터와 게임의 역사를 조명하던 넥슨컴퓨터박물관에서 한 걸음 더 나아가, 게임을 하나의 문화로 바라보며 플레이어의 경험과 추억을 함께 나누는 체험형 공간이다. 컴퓨터와 하드웨어 중심의 전시를 넘어 게임을 통해 형성된 플레이어들의 기억과 관계, 다양한 플레이 경험을 담아낸다. 넥슨 ID 또는 게스트로 로그인한 뒤 입장카드를 연동하면 자신의 게임 플레이 기록과 연계된 맞춤형 전시를 경험할 수 있다. 게임을 즐겼던 순간과 그 안에 담긴 추억을 되돌아보고, 게임이 지닌 문화적 가치와 즐거움을 직접 체험할 수 있는 곳이다.",
+      "sido": "제주특별자치도",
+      "sigungu": "제주시",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=23"
+      ],
+      "evidence_id": "E1",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=30",
+        "fields": {
+          "name": "넥슨뮤지엄",
+          "sido": "제주특별자치도",
+          "sigungu": "제주시",
+          "address": "제주특별자치도 제주시 1100로 3198-8",
+          "ownership_type": "사립",
+          "adult_fee": "14000",
+          "youth_fee": "12000",
+          "child_fee": "10000",
+          "adult_fee_status": "BASE_FEE_PAID",
+          "weekday_open": "10:00",
+          "weekday_close": "18:00",
+          "holiday_open": "10:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "월+설 당일+추석 당일+매년 3월"
+        },
+        "base_data_date": "2026-09-30",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0772",
+      "name": "피규어뮤지엄W",
+      "document": "피규어뮤지엄W는 서울특별시 강남구 청담동에 위치한 피규어 전문 박물관이다. 만화와 영화, 애니메이션, 게임 속 다양한 캐릭터를 바탕으로 제작된 피규어와 조형물을 전시하며, 대형 캐릭터 조형물과 주제별 전시 공간을 운영하고 있다. 국내외 인기 캐릭터를 비롯해 한정판 피규어와 다양한 컬렉션을 가까이에서 감상할 수 있어 피규어와 대중문화를 좋아하는 관람객들에게 관심을 받고 있다. 가족, 연인, 친구는 물론 개인 관람객도 자유롭게 관람할 수 있는 문화공간으로, 상설 체험 프로그램을 통해 나만의 캐릭터 피규어를 직접 만들어 볼 수 있다. 또한 어린이와 청소년 단체를 대상으로 전시와 연계한 체험 활동, 진로교육, 창의융합 프로그램 등을 운영하며 문화예술 체험 공간으로 활용되고 있다.",
+      "metadata": {
+        "youth_fee": 13500.0,
+        "image_copyright": "Type3",
+        "latitude": 37.5257998,
+        "weekday_close": "19:00",
+        "sigungu": "강남구",
+        "source_types": "TOUR_API",
+        "holiday_close": "19:00",
+        "name": "피규어뮤지엄W",
+        "closure_rule_raw": "월+신정+설 연휴+추석 연휴",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/98/4094798_image2_1.png",
+        "child_fee": 12000.0,
+        "ownership_type": "사립",
+        "longitude": 127.0403869,
+        "address": "서울특별시 강남구 선릉로158길 3",
+        "sido": "서울특별시",
+        "holiday_open": "11:00",
+        "homepage_url": "http://www.figuremuseumw.co.kr",
+        "requires_manual_review": true,
+        "weekday_open": "11:00",
+        "adult_fee": 15000.0,
+        "adult_fee_status": "BASE_FEE_PAID"
+      },
+      "vector_rank": 2,
+      "bm25_rank": 2,
+      "vector_distance": 0.7053759098052979,
+      "vector_score": null,
+      "bm25_score": 11.066787595740964,
+      "vector_document": "피규어뮤지엄W는 서울특별시 강남구 청담동에 위치한 피규어 전문 박물관이다. 만화와 영화, 애니메이션, 게임 속 다양한 캐릭터를 바탕으로 제작된 피규어와 조형물을 전시하며, 대형 캐릭터 조형물과 주제별 전시 공간을 운영하고 있다. 국내외 인기 캐릭터를 비롯해 한정판 피규어와 다양한 컬렉션을 가까이에서 감상할 수 있어 피규어와 대중문화를 좋아하는 관람객들에게 관심을 받고 있다. 가족, 연인, 친구는 물론 개인 관람객도 자유롭게 관람할 수 있는 문화공간으로, 상설 체험 프로그램을 통해 나만의 캐릭터 피규어를 직접 만들어 볼 수 있다. 또한 어린이와 청소년 단체를 대상으로 전시와 연계한 체험 활동, 진로교육, 창의융합 프로그램 등을 운영하며 문화예술 체험 공간으로 활용되고 있다.",
+      "bm25_document": "피규어뮤지엄W는 서울특별시 강남구 청담동에 위치한 피규어 전문 박물관이다. 만화와 영화, 애니메이션, 게임 속 다양한 캐릭터를 바탕으로 제작된 피규어와 조형물을 전시하며, 대형 캐릭터 조형물과 주제별 전시 공간을 운영하고 있다. 국내외 인기 캐릭터를 비롯해 한정판 피규어와 다양한 컬렉션을 가까이에서 감상할 수 있어 피규어와 대중문화를 좋아하는 관람객들에게 관심을 받고 있다. 가족, 연인, 친구는 물론 개인 관람객도 자유롭게 관람할 수 있는 문화공간으로, 상설 체험 프로그램을 통해 나만의 캐릭터 피규어를 직접 만들어 볼 수 있다. 또한 어린이와 청소년 단체를 대상으로 전시와 연계한 체험 활동, 진로교육, 창의융합 프로그램 등을 운영하며 문화예술 체험 공간으로 활용되고 있다.",
+      "best_span_id": "chroma:M0772",
+      "best_span_text": "피규어뮤지엄W는 서울특별시 강남구 청담동에 위치한 피규어 전문 박물관이다. 만화와 영화, 애니메이션, 게임 속 다양한 캐릭터를 바탕으로 제작된 피규어와 조형물을 전시하며, 대형 캐릭터 조형물과 주제별 전시 공간을 운영하고 있다. 국내외 인기 캐릭터를 비롯해 한정판 피규어와 다양한 컬렉션을 가까이에서 감상할 수 있어 피규어와 대중문화를 좋아하는 관람객들에게 관심을 받고 있다. 가족, 연인, 친구는 물론 개인 관람객도 자유롭게 관람할 수 있는 문화공간으로, 상설 체험 프로그램을 통해 나만의 캐릭터 피규어를 직접 만들어 볼 수 있다. 또한 어린이와 청소년 단체를 대상으로 전시와 연계한 체험 활동, 진로교육, 창의융합 프로그램 등을 운영하며 문화예술 체험 공간으로 활용되고 있다.",
+      "fusion_score": 0.03225806451612903,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 2,
+      "rerank_score": null,
+      "rank": 2,
+      "score": 0.03225806451612903,
+      "score_type": "rrf",
+      "distance": 0.7053759098052979,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0772",
+      "source_doc_ids": [
+        "DOC-B0772-TOUR_API-1993515"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0772-TOUR_API-1993515",
+          "source_type": "TOUR_API",
+          "source_record_id": "1993515",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=373",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 41,
+          "doc_ids": [
+            "DOC-B0772-TOUR_API-1993515"
+          ]
+        },
+        {
+          "start": 42,
+          "end": 127,
+          "doc_ids": [
+            "DOC-B0772-TOUR_API-1993515"
+          ]
+        },
+        {
+          "start": 128,
+          "end": 210,
+          "doc_ids": [
+            "DOC-B0772-TOUR_API-1993515"
+          ]
+        },
+        {
+          "start": 211,
+          "end": 298,
+          "doc_ids": [
+            "DOC-B0772-TOUR_API-1993515"
+          ]
+        },
+        {
+          "start": 299,
+          "end": 380,
+          "doc_ids": [
+            "DOC-B0772-TOUR_API-1993515"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=373",
+      "text": "피규어뮤지엄W는 서울특별시 강남구 청담동에 위치한 피규어 전문 박물관이다. 만화와 영화, 애니메이션, 게임 속 다양한 캐릭터를 바탕으로 제작된 피규어와 조형물을 전시하며, 대형 캐릭터 조형물과 주제별 전시 공간을 운영하고 있다. 국내외 인기 캐릭터를 비롯해 한정판 피규어와 다양한 컬렉션을 가까이에서 감상할 수 있어 피규어와 대중문화를 좋아하는 관람객들에게 관심을 받고 있다. 가족, 연인, 친구는 물론 개인 관람객도 자유롭게 관람할 수 있는 문화공간으로, 상설 체험 프로그램을 통해 나만의 캐릭터 피규어를 직접 만들어 볼 수 있다. 또한 어린이와 청소년 단체를 대상으로 전시와 연계한 체험 활동, 진로교육, 창의융합 프로그램 등을 운영하며 문화예술 체험 공간으로 활용되고 있다.",
+      "sido": "서울특별시",
+      "sigungu": "강남구",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=373"
+      ],
+      "evidence_id": "E2",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=533",
+        "fields": {
+          "name": "피규어뮤지엄W",
+          "sido": "서울특별시",
+          "sigungu": "강남구",
+          "address": "서울특별시 강남구 선릉로158길 3",
+          "ownership_type": "사립",
+          "adult_fee": "15000",
+          "youth_fee": "13500",
+          "child_fee": "12000",
+          "adult_fee_status": "BASE_FEE_PAID",
+          "weekday_open": "11:00",
+          "weekday_close": "19:00",
+          "holiday_open": "11:00",
+          "holiday_close": "19:00",
+          "closure_rule_raw": "월+신정+설 연휴+추석 연휴"
+        },
+        "base_data_date": "2024-07-18",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0588",
+      "name": "김해목재문화박물관",
+      "document": "김해목재문화박물관은 전통과 현대의 목재 문화를 조명하고 향유하기 위한 자료수집, 연구, 전시, 교육, 목공 체험의 기능을 갖춘 목재문화 특성화 체험형 박물관이다. 목재문화 전통을 이해하고, 현대 생활문화로 이어질 수 있도록 지속 가능한 천연자원인 목재에 대한 이해, 목재의 물성을 이용한 전통 목재 유물 및 현대의 목공예 작품도 함께 전시하고 있다. 이곳은 목공예 체험이 가능한 박물관으로 목공은 나무가 가진 따스함을 느끼며 자연적 삶을 가꾸는 생산적인 놀이이자 내 손으로 만드는 즐거움까지 더해져 정서 안정의 힘을 가진 취미생활로 주목받고 있다. 원목 교구재를 만지며 나무와 친해질 유아에서부터 나만의 여가를 채우는 성인 목공까지 누구나 목재체험을 할 수 있다. 지속가능한 천연재료인 목재 이용의 가치와 전통 목재문화, 현대 목공예를 배우고 체험할 수 있는 참여형 전시 중심의 문화공간",
+      "metadata": {
+        "holiday_open": "09:00",
+        "transport_notes": "버스 : 21, 23, 24, 25, 914, 26 장유3동 행정복지센터 하차",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/12/3539312_image2_1.jpg",
+        "youth_fee": 0.0,
+        "closure_rule_raw": "월요일(공휴일인 월요일은 운영, 다음날 휴관)+1월1일+설 당일+추석 당일",
+        "homepage_url": "https://www.gimhae.go.kr/wood.web",
+        "child_fee": 0.0,
+        "weekday_close": "18:00",
+        "name": "김해목재문화박물관",
+        "image_copyright": "Type1",
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "source_types": "BASE|TOUR_API",
+        "holiday_close": "18:00",
+        "sido": "경상남도",
+        "address": "경상남도 김해시 관동로27번길 5-49(관동동)",
+        "adult_fee": 0.0,
+        "longitude": 128.8081333,
+        "fee_notes": "목공체험 : 개인 2000원+단체 1600원(재료비 : 재품별 별도 부과)+목재체험놀이터 : 개인 6000원+단체 4800원",
+        "ownership_type": "공립",
+        "sigungu": "김해시",
+        "amenities_raw": "주차장+장애인화장실+수유실+야외휴게공간",
+        "latitude": 35.18006006,
+        "requires_manual_review": true,
+        "weekday_open": "09:00"
+      },
+      "vector_rank": 4,
+      "bm25_rank": 11,
+      "vector_distance": 0.7234972715377808,
+      "vector_score": null,
+      "bm25_score": 6.37427895629896,
+      "vector_document": "김해목재문화박물관은 전통과 현대의 목재 문화를 조명하고 향유하기 위한 자료수집, 연구, 전시, 교육, 목공 체험의 기능을 갖춘 목재문화 특성화 체험형 박물관이다. 목재문화 전통을 이해하고, 현대 생활문화로 이어질 수 있도록 지속 가능한 천연자원인 목재에 대한 이해, 목재의 물성을 이용한 전통 목재 유물 및 현대의 목공예 작품도 함께 전시하고 있다. 이곳은 목공예 체험이 가능한 박물관으로 목공은 나무가 가진 따스함을 느끼며 자연적 삶을 가꾸는 생산적인 놀이이자 내 손으로 만드는 즐거움까지 더해져 정서 안정의 힘을 가진 취미생활로 주목받고 있다. 원목 교구재를 만지며 나무와 친해질 유아에서부터 나만의 여가를 채우는 성인 목공까지 누구나 목재체험을 할 수 있다. 지속가능한 천연재료인 목재 이용의 가치와 전통 목재문화, 현대 목공예를 배우고 체험할 수 있는 참여형 전시 중심의 문화공간",
+      "bm25_document": "김해목재문화박물관은 전통과 현대의 목재 문화를 조명하고 향유하기 위한 자료수집, 연구, 전시, 교육, 목공 체험의 기능을 갖춘 목재문화 특성화 체험형 박물관이다. 목재문화 전통을 이해하고, 현대 생활문화로 이어질 수 있도록 지속 가능한 천연자원인 목재에 대한 이해, 목재의 물성을 이용한 전통 목재 유물 및 현대의 목공예 작품도 함께 전시하고 있다. 이곳은 목공예 체험이 가능한 박물관으로 목공은 나무가 가진 따스함을 느끼며 자연적 삶을 가꾸는 생산적인 놀이이자 내 손으로 만드는 즐거움까지 더해져 정서 안정의 힘을 가진 취미생활로 주목받고 있다. 원목 교구재를 만지며 나무와 친해질 유아에서부터 나만의 여가를 채우는 성인 목공까지 누구나 목재체험을 할 수 있다. 지속가능한 천연재료인 목재 이용의 가치와 전통 목재문화, 현대 목공예를 배우고 체험할 수 있는 참여형 전시 중심의 문화공간",
+      "best_span_id": "chroma:M0588",
+      "best_span_text": "김해목재문화박물관은 전통과 현대의 목재 문화를 조명하고 향유하기 위한 자료수집, 연구, 전시, 교육, 목공 체험의 기능을 갖춘 목재문화 특성화 체험형 박물관이다. 목재문화 전통을 이해하고, 현대 생활문화로 이어질 수 있도록 지속 가능한 천연자원인 목재에 대한 이해, 목재의 물성을 이용한 전통 목재 유물 및 현대의 목공예 작품도 함께 전시하고 있다. 이곳은 목공예 체험이 가능한 박물관으로 목공은 나무가 가진 따스함을 느끼며 자연적 삶을 가꾸는 생산적인 놀이이자 내 손으로 만드는 즐거움까지 더해져 정서 안정의 힘을 가진 취미생활로 주목받고 있다. 원목 교구재를 만지며 나무와 친해질 유아에서부터 나만의 여가를 채우는 성인 목공까지 누구나 목재체험을 할 수 있다. 지속가능한 천연재료인 목재 이용의 가치와 전통 목재문화, 현대 목공예를 배우고 체험할 수 있는 참여형 전시 중심의 문화공간",
+      "fusion_score": 0.029709507042253523,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 3,
+      "rerank_score": null,
+      "rank": 3,
+      "score": 0.029709507042253523,
+      "score_type": "rrf",
+      "distance": 0.7234972715377808,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0588",
+      "source_doc_ids": [
+        "DOC-B0588-TOUR_API-2710790",
+        "DOC-B0588-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0588-TOUR_API-2710790",
+          "source_type": "TOUR_API",
+          "source_record_id": "2710790",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=291",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        },
+        {
+          "doc_id": "DOC-B0588-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0588",
+          "source_locator": "data/raw/museum_base_1070.csv#row=589",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 90,
+          "doc_ids": [
+            "DOC-B0588-TOUR_API-2710790"
+          ]
+        },
+        {
+          "start": 91,
+          "end": 195,
+          "doc_ids": [
+            "DOC-B0588-TOUR_API-2710790"
+          ]
+        },
+        {
+          "start": 196,
+          "end": 306,
+          "doc_ids": [
+            "DOC-B0588-TOUR_API-2710790"
+          ]
+        },
+        {
+          "start": 307,
+          "end": 371,
+          "doc_ids": [
+            "DOC-B0588-TOUR_API-2710790"
+          ]
+        },
+        {
+          "start": 372,
+          "end": 440,
+          "doc_ids": [
+            "DOC-B0588-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=291",
+      "text": "김해목재문화박물관은 전통과 현대의 목재 문화를 조명하고 향유하기 위한 자료수집, 연구, 전시, 교육, 목공 체험의 기능을 갖춘 목재문화 특성화 체험형 박물관이다. 목재문화 전통을 이해하고, 현대 생활문화로 이어질 수 있도록 지속 가능한 천연자원인 목재에 대한 이해, 목재의 물성을 이용한 전통 목재 유물 및 현대의 목공예 작품도 함께 전시하고 있다. 이곳은 목공예 체험이 가능한 박물관으로 목공은 나무가 가진 따스함을 느끼며 자연적 삶을 가꾸는 생산적인 놀이이자 내 손으로 만드는 즐거움까지 더해져 정서 안정의 힘을 가진 취미생활로 주목받고 있다. 원목 교구재를 만지며 나무와 친해질 유아에서부터 나만의 여가를 채우는 성인 목공까지 누구나 목재체험을 할 수 있다. 지속가능한 천연재료인 목재 이용의 가치와 전통 목재문화, 현대 목공예를 배우고 체험할 수 있는 참여형 전시 중심의 문화공간",
+      "sido": "경상남도",
+      "sigungu": "김해시",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=291"
+      ],
+      "evidence_id": "E3",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=408",
+        "fields": {
+          "name": "김해목재문화박물관",
+          "sido": "경상남도",
+          "sigungu": "김해시",
+          "address": "경상남도 김해시 관동로27번길 5-49(관동동)",
+          "ownership_type": "공립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "09:00",
+          "weekday_close": "18:00",
+          "holiday_open": "09:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "월요일(공휴일인 월요일은 운영, 다음날 휴관)+1월1일+설 당일+추석 당일",
+          "amenities_raw": "주차장+장애인화장실+수유실+야외휴게공간"
+        },
+        "base_data_date": "2025-12-24",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0461",
+      "name": "한강뮤지엄",
+      "document": "남양주시에 위치한 한강뮤지엄은 일상에서 쉽게 접근할 수 있는 주제를 가지고 관객들과 예술이 유연하게 소통할 수 있는 소통의 장을 제시하는 공간이다. 누구나 이용이 가능하며, 다양한 카테고리의 전시와 프로그램 또한 함께 제시하고 있다. 한강 전경으로 자연이 공존하는 공간을 선사한다. 제1전시장은 ‘작품과 나의 소통장’이라는 주제로 작품과 나 사이에서 자신이 가진 사고로 작품을 해석하고 이해하는 작품과 나의 소통 창구를 제시한다. 제2전시장은 ‘작품과 우리의 소통장’이라는 주제로 전시를 즐기며 힐링할 수 있는 공간으로 구성하였다.",
+      "metadata": {
+        "homepage_url": "http://hangangmuseum.com/",
+        "name": "한강뮤지엄",
+        "longitude": 127.2366752,
+        "address": "경기도 남양주시 와부읍 경강로926번길 30",
+        "holiday_close": "22:00",
+        "sido": "경기도",
+        "weekday_close": "20:00",
+        "sigungu": "남양주시",
+        "weekday_open": "11:00",
+        "youth_fee": 8000.0,
+        "adult_fee_status": "BASE_FEE_PAID",
+        "holiday_open": "11:00",
+        "adult_fee": 10000.0,
+        "latitude": 37.5534542,
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/16/3584716_image2_1.jpg",
+        "closure_rule_raw": "연중무휴",
+        "ownership_type": "사립",
+        "requires_manual_review": true,
+        "source_types": "TOUR_API",
+        "image_copyright": "Type1",
+        "child_fee": 8000.0,
+        "amenities_raw": "문화상품점"
+      },
+      "vector_rank": 15,
+      "bm25_rank": 5,
+      "vector_distance": 0.7506588697433472,
+      "vector_score": null,
+      "bm25_score": 8.565123067989925,
+      "vector_document": "남양주시에 위치한 한강뮤지엄은 일상에서 쉽게 접근할 수 있는 주제를 가지고 관객들과 예술이 유연하게 소통할 수 있는 소통의 장을 제시하는 공간이다. 누구나 이용이 가능하며, 다양한 카테고리의 전시와 프로그램 또한 함께 제시하고 있다. 한강 전경으로 자연이 공존하는 공간을 선사한다. 제1전시장은 ‘작품과 나의 소통장’이라는 주제로 작품과 나 사이에서 자신이 가진 사고로 작품을 해석하고 이해하는 작품과 나의 소통 창구를 제시한다. 제2전시장은 ‘작품과 우리의 소통장’이라는 주제로 전시를 즐기며 힐링할 수 있는 공간으로 구성하였다.",
+      "bm25_document": "남양주시에 위치한 한강뮤지엄은 일상에서 쉽게 접근할 수 있는 주제를 가지고 관객들과 예술이 유연하게 소통할 수 있는 소통의 장을 제시하는 공간이다. 누구나 이용이 가능하며, 다양한 카테고리의 전시와 프로그램 또한 함께 제시하고 있다. 한강 전경으로 자연이 공존하는 공간을 선사한다. 제1전시장은 ‘작품과 나의 소통장’이라는 주제로 작품과 나 사이에서 자신이 가진 사고로 작품을 해석하고 이해하는 작품과 나의 소통 창구를 제시한다. 제2전시장은 ‘작품과 우리의 소통장’이라는 주제로 전시를 즐기며 힐링할 수 있는 공간으로 구성하였다.",
+      "best_span_id": "chroma:M0461",
+      "best_span_text": "남양주시에 위치한 한강뮤지엄은 일상에서 쉽게 접근할 수 있는 주제를 가지고 관객들과 예술이 유연하게 소통할 수 있는 소통의 장을 제시하는 공간이다. 누구나 이용이 가능하며, 다양한 카테고리의 전시와 프로그램 또한 함께 제시하고 있다. 한강 전경으로 자연이 공존하는 공간을 선사한다. 제1전시장은 ‘작품과 나의 소통장’이라는 주제로 작품과 나 사이에서 자신이 가진 사고로 작품을 해석하고 이해하는 작품과 나의 소통 창구를 제시한다. 제2전시장은 ‘작품과 우리의 소통장’이라는 주제로 전시를 즐기며 힐링할 수 있는 공간으로 구성하였다.",
+      "fusion_score": 0.02871794871794872,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 4,
+      "rerank_score": null,
+      "rank": 4,
+      "score": 0.02871794871794872,
+      "score_type": "rrf",
+      "distance": 0.7506588697433472,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0461",
+      "source_doc_ids": [
+        "DOC-B0461-TOUR_API-2773766"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0461-TOUR_API-2773766",
+          "source_type": "TOUR_API",
+          "source_record_id": "2773766",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=224",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 82,
+          "doc_ids": [
+            "DOC-B0461-TOUR_API-2773766"
+          ]
+        },
+        {
+          "start": 83,
+          "end": 130,
+          "doc_ids": [
+            "DOC-B0461-TOUR_API-2773766"
+          ]
+        },
+        {
+          "start": 131,
+          "end": 157,
+          "doc_ids": [
+            "DOC-B0461-TOUR_API-2773766"
+          ]
+        },
+        {
+          "start": 158,
+          "end": 240,
+          "doc_ids": [
+            "DOC-B0461-TOUR_API-2773766"
+          ]
+        },
+        {
+          "start": 241,
+          "end": 297,
+          "doc_ids": [
+            "DOC-B0461-TOUR_API-2773766"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=224",
+      "text": "남양주시에 위치한 한강뮤지엄은 일상에서 쉽게 접근할 수 있는 주제를 가지고 관객들과 예술이 유연하게 소통할 수 있는 소통의 장을 제시하는 공간이다. 누구나 이용이 가능하며, 다양한 카테고리의 전시와 프로그램 또한 함께 제시하고 있다. 한강 전경으로 자연이 공존하는 공간을 선사한다. 제1전시장은 ‘작품과 나의 소통장’이라는 주제로 작품과 나 사이에서 자신이 가진 사고로 작품을 해석하고 이해하는 작품과 나의 소통 창구를 제시한다. 제2전시장은 ‘작품과 우리의 소통장’이라는 주제로 전시를 즐기며 힐링할 수 있는 공간으로 구성하였다.",
+      "sido": "경기도",
+      "sigungu": "남양주시",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=224"
+      ],
+      "evidence_id": "E4",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=332",
+        "fields": {
+          "name": "한강뮤지엄",
+          "sido": "경기도",
+          "sigungu": "남양주시",
+          "address": "경기도 남양주시 와부읍 경강로926번길 30",
+          "ownership_type": "사립",
+          "adult_fee": "10000",
+          "youth_fee": "8000",
+          "child_fee": "8000",
+          "adult_fee_status": "BASE_FEE_PAID",
+          "weekday_open": "11:00",
+          "weekday_close": "20:00",
+          "holiday_open": "11:00",
+          "holiday_close": "22:00",
+          "closure_rule_raw": "연중무휴",
+          "amenities_raw": "문화상품점"
+        },
+        "base_data_date": "2026-04-01",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0206",
+      "name": "영월지오뮤지엄",
+      "document": "영월지오뮤지엄은 5억 년 전 바다였던 영월의 경관, 지형, 지질 과 함께 마을이 가진 고유한 어메니티(amenity)에 대한 표면적인 감상을 넘어 그 안에 내재 된 역사와 의미를 이해하고 현재를 비추어 볼 수 있도록 개관하였습니다.",
+      "metadata": {
+        "holiday_open": "09:00",
+        "weekday_close": "18:00",
+        "adult_fee_status": "BASE_FEE_PAID",
+        "weekday_open": "09:00",
+        "name": "영월지오뮤지엄",
+        "homepage_url": "http://www.ywmuseum.com",
+        "ownership_type": "사립",
+        "source_types": "BASE",
+        "latitude": 37.252869,
+        "address": "강원특별자치도 영월군 북면 밤재로 7",
+        "longitude": 128.4321072,
+        "sigungu": "영월군",
+        "youth_fee": 4000.0,
+        "fee_notes": "50프로 할인(영월군민+65세 이상)+ 단체요금: 20인 이상+무료(2급 이상 장애인 및 5세 이하)",
+        "child_fee": 3000.0,
+        "requires_manual_review": false,
+        "holiday_close": "18:00",
+        "adult_fee": 5000.0,
+        "closure_rule_raw": "월",
+        "sido": "강원특별자치도"
+      },
+      "vector_rank": 16,
+      "bm25_rank": 7,
+      "vector_distance": 0.7581952214241028,
+      "vector_score": null,
+      "bm25_score": 7.766115458440277,
+      "vector_document": "영월지오뮤지엄은 5억 년 전 바다였던 영월의 경관, 지형, 지질 과 함께 마을이 가진 고유한 어메니티(amenity)에 대한 표면적인 감상을 넘어 그 안에 내재 된 역사와 의미를 이해하고 현재를 비추어 볼 수 있도록 개관하였습니다.",
+      "bm25_document": "영월지오뮤지엄은 5억 년 전 바다였던 영월의 경관, 지형, 지질 과 함께 마을이 가진 고유한 어메니티(amenity)에 대한 표면적인 감상을 넘어 그 안에 내재 된 역사와 의미를 이해하고 현재를 비추어 볼 수 있도록 개관하였습니다.",
+      "best_span_id": "chroma:M0206",
+      "best_span_text": "영월지오뮤지엄은 5억 년 전 바다였던 영월의 경관, 지형, 지질 과 함께 마을이 가진 고유한 어메니티(amenity)에 대한 표면적인 감상을 넘어 그 안에 내재 된 역사와 의미를 이해하고 현재를 비추어 볼 수 있도록 개관하였습니다.",
+      "fusion_score": 0.028083267871170464,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 5,
+      "rerank_score": null,
+      "rank": 5,
+      "score": 0.028083267871170464,
+      "score_type": "rrf",
+      "distance": 0.7581952214241028,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0206",
+      "source_doc_ids": [
+        "DOC-B0206-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0206-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0206",
+          "source_locator": "data/raw/museum_base_1070.csv#row=207",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 129,
+          "doc_ids": [
+            "DOC-B0206-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_base_1070.csv#row=207",
+      "text": "영월지오뮤지엄은 5억 년 전 바다였던 영월의 경관, 지형, 지질 과 함께 마을이 가진 고유한 어메니티(amenity)에 대한 표면적인 감상을 넘어 그 안에 내재 된 역사와 의미를 이해하고 현재를 비추어 볼 수 있도록 개관하였습니다.",
+      "sido": "강원특별자치도",
+      "sigungu": "영월군",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_base_1070.csv#row=207"
+      ],
+      "evidence_id": "E5",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=135",
+        "fields": {
+          "name": "영월지오뮤지엄",
+          "sido": "강원특별자치도",
+          "sigungu": "영월군",
+          "address": "강원특별자치도 영월군 북면 밤재로 7",
+          "ownership_type": "사립",
+          "adult_fee": "5000",
+          "youth_fee": "4000",
+          "child_fee": "3000",
+          "adult_fee_status": "BASE_FEE_PAID",
+          "weekday_open": "09:00",
+          "weekday_close": "18:00",
+          "holiday_open": "09:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "월"
+        },
+        "base_data_date": "2026-09-03",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    }
+  ],
+  "answer": "넥슨뮤지엄은 게임을 단순한 기술이나 하드웨어의 역사가 아니라 하나의 문화로 바라봅니다. 게임은 플레이어들의 기억과 관계, 다양한 플레이 경험을 만들어 나누는 매개이며, 게임을 즐긴 순간의 추억을 돌아보고 그 문화적 가치와 즐거움을 직접 체험하게 하는 것으로 설명됩니다. [E1]",
+  "retrieval_status": "ok",
+  "answer_status": "answered",
+  "route": "hybrid",
+  "retry_count": 0,
+  "supervisor_verified": true,
+  "rerank_applied": false,
+  "retriever_errors": [],
+  "warnings": [
+    "Cross-Encoder reranking failed (FileNotFoundError); RRF order retained"
+  ],
+  "duration_ms": 10164.37,
+  "error_type": "",
+  "hit_at_1": 1,
+  "hit_at_3": 1,
+  "hit_at_5": 1,
+  "recall_at_5": 1.0,
+  "mrr_at_10": 1.0
+}

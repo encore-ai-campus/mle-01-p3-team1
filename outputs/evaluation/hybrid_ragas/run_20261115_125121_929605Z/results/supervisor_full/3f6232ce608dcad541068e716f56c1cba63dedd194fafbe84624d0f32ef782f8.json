@@ -1,0 +1,723 @@
+{
+  "mode": "supervisor_full",
+  "question_id": "Q235",
+  "evidence": [
+    {
+      "museum_id": "M0764",
+      "name": "울산외솔기념관",
+      "document": "외솔기념관은 일제강점기 우리말과 글을 지킨 독립운동가이자 평생 한글보급과 정보화를 위해 한길을 걸은 한글학자인 외솔 최현배 선생의 업적을 기리고 그의 삶과 한글에 대한 정신을 계승, 발전시키고자 개관하였습니다. 외솔 선생의 저서와 유품 등이 전시된 상설전시실을 비롯하여 다양한 한글서적들을 열람할 수 있는 한글실, 어린아이들이 한글의 체계를 놀이를 통해 익힐 수 있는 체험실, 그리고 영상실, 모둠실(강당) 등을 갖추고 있습니다. 또한 외솔 선생이 나고 자란 생가가 함께 있어 그의 삶을 한눈에 살필 수 있습니다.",
+      "metadata": {
+        "youth_fee": 0.0,
+        "sido": "울산광역시",
+        "adult_fee": 0.0,
+        "ownership_type": "공립",
+        "longitude": 129.3474679,
+        "source_types": "BASE",
+        "closure_rule_raw": "매주 월+1월 1일+설날 및 추석 당일",
+        "transport_notes": "병영사거리에서 도보 10분",
+        "requires_manual_review": true,
+        "weekday_close": "18:00",
+        "latitude": 35.57475583,
+        "homepage_url": "http://www.junggu.ulsan.kr/oesol/",
+        "fee_notes": "0",
+        "holiday_close": "18:00",
+        "weekday_open": "09:00",
+        "address": "울산광역시 중구 병영12길 15",
+        "holiday_open": "09:00",
+        "sigungu": "중구",
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "amenities_raw": "화장실, 주차장+유아놀이시설",
+        "name": "울산외솔기념관",
+        "child_fee": 0.0
+      },
+      "vector_rank": 1,
+      "bm25_rank": 2,
+      "vector_distance": 0.4166523814201355,
+      "vector_score": null,
+      "bm25_score": 25.383537068485495,
+      "vector_document": "외솔기념관은 일제강점기 우리말과 글을 지킨 독립운동가이자 평생 한글보급과 정보화를 위해 한길을 걸은 한글학자인 외솔 최현배 선생의 업적을 기리고 그의 삶과 한글에 대한 정신을 계승, 발전시키고자 개관하였습니다. 외솔 선생의 저서와 유품 등이 전시된 상설전시실을 비롯하여 다양한 한글서적들을 열람할 수 있는 한글실, 어린아이들이 한글의 체계를 놀이를 통해 익힐 수 있는 체험실, 그리고 영상실, 모둠실(강당) 등을 갖추고 있습니다. 또한 외솔 선생이 나고 자란 생가가 함께 있어 그의 삶을 한눈에 살필 수 있습니다.",
+      "bm25_document": "외솔기념관은 일제강점기 우리말과 글을 지킨 독립운동가이자 평생 한글보급과 정보화를 위해 한길을 걸은 한글학자인 외솔 최현배 선생의 업적을 기리고 그의 삶과 한글에 대한 정신을 계승, 발전시키고자 개관하였습니다. 외솔 선생의 저서와 유품 등이 전시된 상설전시실을 비롯하여 다양한 한글서적들을 열람할 수 있는 한글실, 어린아이들이 한글의 체계를 놀이를 통해 익힐 수 있는 체험실, 그리고 영상실, 모둠실(강당) 등을 갖추고 있습니다. 또한 외솔 선생이 나고 자란 생가가 함께 있어 그의 삶을 한눈에 살필 수 있습니다.",
+      "best_span_id": "chroma:M0764",
+      "best_span_text": "외솔기념관은 일제강점기 우리말과 글을 지킨 독립운동가이자 평생 한글보급과 정보화를 위해 한길을 걸은 한글학자인 외솔 최현배 선생의 업적을 기리고 그의 삶과 한글에 대한 정신을 계승, 발전시키고자 개관하였습니다. 외솔 선생의 저서와 유품 등이 전시된 상설전시실을 비롯하여 다양한 한글서적들을 열람할 수 있는 한글실, 어린아이들이 한글의 체계를 놀이를 통해 익힐 수 있는 체험실, 그리고 영상실, 모둠실(강당) 등을 갖추고 있습니다. 또한 외솔 선생이 나고 자란 생가가 함께 있어 그의 삶을 한눈에 살필 수 있습니다.",
+      "fusion_score": 0.03252247488101534,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 2,
+      "rerank_score": 0.9992812275886536,
+      "rank": 1,
+      "score": 0.9992812275886536,
+      "score_type": "cross_encoder",
+      "distance": 0.4166523814201355,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0764",
+      "source_doc_ids": [
+        "DOC-B0764-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0764-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0764",
+          "source_locator": "data/raw/museum_base_1070.csv#row=765",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 117,
+          "doc_ids": [
+            "DOC-B0764-BASE"
+          ]
+        },
+        {
+          "start": 118,
+          "end": 240,
+          "doc_ids": [
+            "DOC-B0764-BASE"
+          ]
+        },
+        {
+          "start": 241,
+          "end": 287,
+          "doc_ids": [
+            "DOC-B0764-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_base_1070.csv#row=765",
+      "text": "외솔기념관은 일제강점기 우리말과 글을 지킨 독립운동가이자 평생 한글보급과 정보화를 위해 한길을 걸은 한글학자인 외솔 최현배 선생의 업적을 기리고 그의 삶과 한글에 대한 정신을 계승, 발전시키고자 개관하였습니다. 외솔 선생의 저서와 유품 등이 전시된 상설전시실을 비롯하여 다양한 한글서적들을 열람할 수 있는 한글실, 어린아이들이 한글의 체계를 놀이를 통해 익힐 수 있는 체험실, 그리고 영상실, 모둠실(강당) 등을 갖추고 있습니다. 또한 외솔 선생이 나고 자란 생가가 함께 있어 그의 삶을 한눈에 살필 수 있습니다.",
+      "sido": "울산광역시",
+      "sigungu": "중구",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_base_1070.csv#row=765"
+      ],
+      "evidence_id": "E1",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=527",
+        "fields": {
+          "name": "울산외솔기념관",
+          "sido": "울산광역시",
+          "sigungu": "중구",
+          "address": "울산광역시 중구 병영12길 15",
+          "ownership_type": "공립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "09:00",
+          "weekday_close": "18:00",
+          "holiday_open": "09:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "매주 월+1월 1일+설날 및 추석 당일",
+          "amenities_raw": "화장실, 주차장+유아놀이시설"
+        },
+        "base_data_date": "2024-11-02",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0406",
+      "name": "외솔기념관",
+      "document": "외솔기념관은 일제강점기 우리말과 글을 지킨 독립운동가이자 평생 한글 보급과 정보화를 위해 한길을 걸은 한글학자인 외솔 최현배의 업적을 기리고 그의 삶과 한글에 대한 정신을 기리고자 개관하였다. 외솔 최현배는 ‘한글 맞춤법 통일안’을 마련하고 표준말 정립, 우리말 사전 편찬 등에 심혈을 기울였다. 또한 문교부 편수 국장을 맡으며 초중등 교과서의 문법 체계, 가로 쓰기 체계 확립 등 대한민국의 국어정책의 초석을 다지고 한글전용 운동에 헌신하는 등 훈민정음이 오늘날의 한글이 되기까지 외솔 최현배의 갖은 노력이 있었다. 외솔기념관은 평생 한글을 지킨 외솔 최현배의 저서와 유품 등이 전시된 상설전시실을 비롯하여 다양한 한글 서적들을 열람할 수 있는 한글실, 어린이들을 위한 다양한 한글 놀이와 체험이 준비된 체험실, 교육 운영 공간인 모둠실, 영상실 등을 갖추고 있다. 특히 상설전시실은 2023년 3월 새롭게 개편되어 개관 당시보다 훨씬 쾌적한 공간으로 거듭났으며 다양한 자료를 통해 누구나 쉽게 외솔의 생애를 이해할 수 있다. 전시실 내 체험공간에서 ‘전자 타자기로 나만의 방문증 만들기’ 체험도 가능하다. 기념관 2층 야외 공간에는 외솔 최현배가 나고 자란 생가가 함께 있어 그의 삶을 한눈에 살필 수 있다. 외솔기념관은 외솔 최현배선생의 업적을 소개하고 대표 저서와 유품을 소장하고 있는 2010년 3월 23일에 개관한 공립박물관이다.",
+      "metadata": {
+        "image_copyright": "Type3",
+        "source_types": "BASE|TOUR_API",
+        "youth_fee": 0.0,
+        "ownership_type": "공립",
+        "holiday_close": "18:00",
+        "requires_manual_review": true,
+        "weekday_open": "09:00",
+        "closure_rule_raw": "매주 월요일 (단, 월요일이 공휴일인 경우 당일은 개관하고 그 다음 첫번째 평일에 휴관)",
+        "sigungu": "중구",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/89/3503489_image2_1.JPG",
+        "address": "울산광역시 중구 병영12길 15",
+        "weekday_close": "18:00",
+        "homepage_url": "http://www.junggu.ulsan.kr/oesol",
+        "amenities_raw": "주차장+화장실",
+        "fee_notes": "무료",
+        "adult_fee": 0.0,
+        "child_fee": 0.0,
+        "name": "외솔기념관",
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "latitude": 35.57475705,
+        "holiday_open": "09:00",
+        "sido": "울산광역시",
+        "longitude": 129.3474699
+      },
+      "vector_rank": 2,
+      "bm25_rank": 1,
+      "vector_distance": 0.4807564616203308,
+      "vector_score": null,
+      "bm25_score": 26.55466059228699,
+      "vector_document": "외솔기념관은 일제강점기 우리말과 글을 지킨 독립운동가이자 평생 한글 보급과 정보화를 위해 한길을 걸은 한글학자인 외솔 최현배의 업적을 기리고 그의 삶과 한글에 대한 정신을 기리고자 개관하였다. 외솔 최현배는 ‘한글 맞춤법 통일안’을 마련하고 표준말 정립, 우리말 사전 편찬 등에 심혈을 기울였다. 또한 문교부 편수 국장을 맡으며 초중등 교과서의 문법 체계, 가로 쓰기 체계 확립 등 대한민국의 국어정책의 초석을 다지고 한글전용 운동에 헌신하는 등 훈민정음이 오늘날의 한글이 되기까지 외솔 최현배의 갖은 노력이 있었다. 외솔기념관은 평생 한글을 지킨 외솔 최현배의 저서와 유품 등이 전시된 상설전시실을 비롯하여 다양한 한글 서적들을 열람할 수 있는 한글실, 어린이들을 위한 다양한 한글 놀이와 체험이 준비된 체험실, 교육 운영 공간인 모둠실, 영상실 등을 갖추고 있다. 특히 상설전시실은 2023년 3월 새롭게 개편되어 개관 당시보다 훨씬 쾌적한 공간으로 거듭났으며 다양한 자료를 통해 누구나 쉽게 외솔의 생애를 이해할 수 있다. 전시실 내 체험공간에서 ‘전자 타자기로 나만의 방문증 만들기’ 체험도 가능하다. 기념관 2층 야외 공간에는 외솔 최현배가 나고 자란 생가가 함께 있어 그의 삶을 한눈에 살필 수 있다. 외솔기념관은 외솔 최현배선생의 업적을 소개하고 대표 저서와 유품을 소장하고 있는 2010년 3월 23일에 개관한 공립박물관이다.",
+      "bm25_document": "외솔기념관은 일제강점기 우리말과 글을 지킨 독립운동가이자 평생 한글 보급과 정보화를 위해 한길을 걸은 한글학자인 외솔 최현배의 업적을 기리고 그의 삶과 한글에 대한 정신을 기리고자 개관하였다. 외솔 최현배는 ‘한글 맞춤법 통일안’을 마련하고 표준말 정립, 우리말 사전 편찬 등에 심혈을 기울였다. 또한 문교부 편수 국장을 맡으며 초중등 교과서의 문법 체계, 가로 쓰기 체계 확립 등 대한민국의 국어정책의 초석을 다지고 한글전용 운동에 헌신하는 등 훈민정음이 오늘날의 한글이 되기까지 외솔 최현배의 갖은 노력이 있었다. 외솔기념관은 평생 한글을 지킨 외솔 최현배의 저서와 유품 등이 전시된 상설전시실을 비롯하여 다양한 한글 서적들을 열람할 수 있는 한글실, 어린이들을 위한 다양한 한글 놀이와 체험이 준비된 체험실, 교육 운영 공간인 모둠실, 영상실 등을 갖추고 있다. 특히 상설전시실은 2023년 3월 새롭게 개편되어 개관 당시보다 훨씬 쾌적한 공간으로 거듭났으며 다양한 자료를 통해 누구나 쉽게 외솔의 생애를 이해할 수 있다. 전시실 내 체험공간에서 ‘전자 타자기로 나만의 방문증 만들기’ 체험도 가능하다. 기념관 2층 야외 공간에는 외솔 최현배가 나고 자란 생가가 함께 있어 그의 삶을 한눈에 살필 수 있다. 외솔기념관은 외솔 최현배선생의 업적을 소개하고 대표 저서와 유품을 소장하고 있는 2010년 3월 23일에 개관한 공립박물관이다.",
+      "best_span_id": "chroma:M0406",
+      "best_span_text": "외솔기념관은 일제강점기 우리말과 글을 지킨 독립운동가이자 평생 한글 보급과 정보화를 위해 한길을 걸은 한글학자인 외솔 최현배의 업적을 기리고 그의 삶과 한글에 대한 정신을 기리고자 개관하였다. 외솔 최현배는 ‘한글 맞춤법 통일안’을 마련하고 표준말 정립, 우리말 사전 편찬 등에 심혈을 기울였다. 또한 문교부 편수 국장을 맡으며 초중등 교과서의 문법 체계, 가로 쓰기 체계 확립 등 대한민국의 국어정책의 초석을 다지고 한글전용 운동에 헌신하는 등 훈민정음이 오늘날의 한글이 되기까지 외솔 최현배의 갖은 노력이 있었다. 외솔기념관은 평생 한글을 지킨 외솔 최현배의 저서와 유품 등이 전시된 상설전시실을 비롯하여 다양한 한글 서적들을 열람할 수 있는 한글실, 어린이들을 위한 다양한 한글 놀이와 체험이 준비된 체험실, 교육 운영 공간인 모둠실, 영상실 등을 갖추고 있다. 특히 상설전시실은 2023년 3월 새롭게 개편되어 개관 당시보다 훨씬 쾌적한 공간으로 거듭났으며 다양한 자료를 통해 누구나 쉽게 외솔의 생애를 이해할 수 있다. 전시실 내 체험공간에서 ‘전자 타자기로 나만의 방문증 만들기’ 체험도 가능하다. 기념관 2층 야외 공간에는 외솔 최현배가 나고 자란 생가가 함께 있어 그의 삶을 한눈에 살필 수 있다. 외솔기념관은 외솔 최현배선생의 업적을 소개하고 대표 저서와 유품을 소장하고 있는 2010년 3월 23일에 개관한 공립박물관이다.",
+      "fusion_score": 0.03252247488101534,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 1,
+      "name_match": true,
+      "rerank_score": 0.9983338713645935,
+      "rank": 2,
+      "score": 0.9983338713645935,
+      "score_type": "cross_encoder",
+      "distance": 0.4807564616203308,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0406",
+      "source_doc_ids": [
+        "DOC-B0406-TOUR_API-1624470",
+        "DOC-B0406-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0406-TOUR_API-1624470",
+          "source_type": "TOUR_API",
+          "source_record_id": "1624470",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=190",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        },
+        {
+          "doc_id": "DOC-B0406-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0406",
+          "source_locator": "data/raw/museum_base_1070.csv#row=407",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 107,
+          "doc_ids": [
+            "DOC-B0406-TOUR_API-1624470"
+          ]
+        },
+        {
+          "start": 108,
+          "end": 165,
+          "doc_ids": [
+            "DOC-B0406-TOUR_API-1624470"
+          ]
+        },
+        {
+          "start": 166,
+          "end": 289,
+          "doc_ids": [
+            "DOC-B0406-TOUR_API-1624470"
+          ]
+        },
+        {
+          "start": 290,
+          "end": 429,
+          "doc_ids": [
+            "DOC-B0406-TOUR_API-1624470"
+          ]
+        },
+        {
+          "start": 430,
+          "end": 519,
+          "doc_ids": [
+            "DOC-B0406-TOUR_API-1624470"
+          ]
+        },
+        {
+          "start": 520,
+          "end": 564,
+          "doc_ids": [
+            "DOC-B0406-TOUR_API-1624470"
+          ]
+        },
+        {
+          "start": 565,
+          "end": 622,
+          "doc_ids": [
+            "DOC-B0406-TOUR_API-1624470"
+          ]
+        },
+        {
+          "start": 623,
+          "end": 694,
+          "doc_ids": [
+            "DOC-B0406-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=190",
+      "text": "외솔기념관은 일제강점기 우리말과 글을 지킨 독립운동가이자 평생 한글 보급과 정보화를 위해 한길을 걸은 한글학자인 외솔 최현배의 업적을 기리고 그의 삶과 한글에 대한 정신을 기리고자 개관하였다. 외솔 최현배는 ‘한글 맞춤법 통일안’을 마련하고 표준말 정립, 우리말 사전 편찬 등에 심혈을 기울였다. 또한 문교부 편수 국장을 맡으며 초중등 교과서의 문법 체계, 가로 쓰기 체계 확립 등 대한민국의 국어정책의 초석을 다지고 한글전용 운동에 헌신하는 등 훈민정음이 오늘날의 한글이 되기까지 외솔 최현배의 갖은 노력이 있었다. 외솔기념관은 평생 한글을 지킨 외솔 최현배의 저서와 유품 등이 전시된 상설전시실을 비롯하여 다양한 한글 서적들을 열람할 수 있는 한글실, 어린이들을 위한 다양한 한글 놀이와 체험이 준비된 체험실, 교육 운영 공간인 모둠실, 영상실 등을 갖추고 있다. 특히 상설전시실은 2023년 3월 새롭게 개편되어 개관 당시보다 훨씬 쾌적한 공간으로 거듭났으며 다양한 자료를 통해 누구나 쉽게 외솔의 생애를 이해할 수 있다. 전시실 내 체험공간에서 ‘전자 타자기로 나만의 방문증 만들기’ 체험도 가능하다. 기념관 2층 야외 공간에는 외솔 최현배가 나고 자란 생가가 함께 있어 그의 삶을 한눈에 살필 수 있다. 외솔기념관은 외솔 최현배선생의 업적을 소개하고 대표 저서와 유품을 소장하고 있는 2010년 3월 23일에 개관한 공립박물관이다.",
+      "sido": "울산광역시",
+      "sigungu": "중구",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=190"
+      ],
+      "evidence_id": "E2",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=290",
+        "fields": {
+          "name": "외솔기념관",
+          "sido": "울산광역시",
+          "sigungu": "중구",
+          "address": "울산광역시 중구 병영12길 15",
+          "ownership_type": "공립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "09:00",
+          "weekday_close": "18:00",
+          "holiday_open": "09:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "매주 월요일 (단, 월요일이 공휴일인 경우 당일은 개관하고 그 다음 첫번째 평일에 휴관)",
+          "amenities_raw": "주차장+화장실"
+        },
+        "base_data_date": "2026-05-13",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0593",
+      "name": "김해한글박물관",
+      "document": "김해 한글박물관은 한글 연구에 큰 발자취를 남긴 김해 출신 한글학자 이윤재 선생과 허웅 선생의 업적과 1443년 한글 창제 이후 한글문화와 역사를 재조명하는 공간이다. 한글의 소중함을 알리기 위해 설립되었으며 한글 창제의 배경과 원리를 다양한 시각 자료와 체험 프로그램을 통해 소개한다. 한글과 관련된 유물, 서적, 현대적 활용 사례 등도 전시되어 있어 한글의 발전사를 한눈에 이해할 수 있다. 전국 최초 공립 한글박물관으로 김해 지역의 문화적 상징물로 자리 잡고 있다. 한글 연구에 큰 발자취를 남긴 김해 출신의 국어학자 한뫼 이윤재(李允宰·1888∼1943), 눈뫼 허웅(許雄·1918∼2004) 선생의 업적을 기리고, 한글문화유산을 보존 전시하기 위해 ‘김해한글박물관’을 건립",
+      "metadata": {
+        "name": "김해한글박물관",
+        "youth_fee": 0.0,
+        "child_fee": 0.0,
+        "closure_rule_raw": "월요일(공휴일인 월요일은 운영, 다음날 휴관)+1월1일+설 당일+추석 당일",
+        "transport_notes": "버스 : 8, 21, 21-1, 30, 97, 98 김해보건소 정류소 하차, 경전철 : 수로왕릉역 1번 출구 도보 6분",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/92/3553592_image2_1.jpg",
+        "sido": "경상남도",
+        "amenities_raw": "주차장+장애인화장실+옥상휴게공간",
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "requires_manual_review": true,
+        "ownership_type": "공립",
+        "latitude": 35.2313328,
+        "holiday_open": "09:00",
+        "image_copyright": "Type1",
+        "holiday_close": "18:00",
+        "source_types": "BASE|TOUR_API",
+        "homepage_url": "https://blog.naver.com/gimhaehangeul2021",
+        "longitude": 128.8704559,
+        "weekday_close": "18:00",
+        "weekday_open": "09:00",
+        "adult_fee": 0.0,
+        "sigungu": "김해시",
+        "address": "경상남도 김해시 분성로 221"
+      },
+      "vector_rank": null,
+      "bm25_rank": 3,
+      "vector_distance": null,
+      "vector_score": null,
+      "bm25_score": 13.929117970569104,
+      "vector_document": "",
+      "bm25_document": "김해 한글박물관은 한글 연구에 큰 발자취를 남긴 김해 출신 한글학자 이윤재 선생과 허웅 선생의 업적과 1443년 한글 창제 이후 한글문화와 역사를 재조명하는 공간이다. 한글의 소중함을 알리기 위해 설립되었으며 한글 창제의 배경과 원리를 다양한 시각 자료와 체험 프로그램을 통해 소개한다. 한글과 관련된 유물, 서적, 현대적 활용 사례 등도 전시되어 있어 한글의 발전사를 한눈에 이해할 수 있다. 전국 최초 공립 한글박물관으로 김해 지역의 문화적 상징물로 자리 잡고 있다. 한글 연구에 큰 발자취를 남긴 김해 출신의 국어학자 한뫼 이윤재(李允宰·1888∼1943), 눈뫼 허웅(許雄·1918∼2004) 선생의 업적을 기리고, 한글문화유산을 보존 전시하기 위해 ‘김해한글박물관’을 건립",
+      "best_span_id": "chroma:M0593",
+      "best_span_text": "김해 한글박물관은 한글 연구에 큰 발자취를 남긴 김해 출신 한글학자 이윤재 선생과 허웅 선생의 업적과 1443년 한글 창제 이후 한글문화와 역사를 재조명하는 공간이다. 한글의 소중함을 알리기 위해 설립되었으며 한글 창제의 배경과 원리를 다양한 시각 자료와 체험 프로그램을 통해 소개한다. 한글과 관련된 유물, 서적, 현대적 활용 사례 등도 전시되어 있어 한글의 발전사를 한눈에 이해할 수 있다. 전국 최초 공립 한글박물관으로 김해 지역의 문화적 상징물로 자리 잡고 있다. 한글 연구에 큰 발자취를 남긴 김해 출신의 국어학자 한뫼 이윤재(李允宰·1888∼1943), 눈뫼 허웅(許雄·1918∼2004) 선생의 업적을 기리고, 한글문화유산을 보존 전시하기 위해 ‘김해한글박물관’을 건립",
+      "fusion_score": 0.015873015873015872,
+      "retrieved_by": [
+        "bm25"
+      ],
+      "fusion_rank": 6,
+      "rerank_score": 0.03327860310673714,
+      "rank": 3,
+      "score": 0.03327860310673714,
+      "score_type": "cross_encoder",
+      "distance": null,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "bm25"
+      ],
+      "retriever": "bm25",
+      "span_id": "chroma:M0593",
+      "source_doc_ids": [
+        "DOC-B0593-TOUR_API-3433217",
+        "DOC-B0593-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0593-TOUR_API-3433217",
+          "source_type": "TOUR_API",
+          "source_record_id": "3433217",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=296",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        },
+        {
+          "doc_id": "DOC-B0593-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0593",
+          "source_locator": "data/raw/museum_base_1070.csv#row=594",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 93,
+          "doc_ids": [
+            "DOC-B0593-TOUR_API-3433217"
+          ]
+        },
+        {
+          "start": 94,
+          "end": 160,
+          "doc_ids": [
+            "DOC-B0593-TOUR_API-3433217"
+          ]
+        },
+        {
+          "start": 161,
+          "end": 220,
+          "doc_ids": [
+            "DOC-B0593-TOUR_API-3433217"
+          ]
+        },
+        {
+          "start": 221,
+          "end": 263,
+          "doc_ids": [
+            "DOC-B0593-TOUR_API-3433217"
+          ]
+        },
+        {
+          "start": 264,
+          "end": 381,
+          "doc_ids": [
+            "DOC-B0593-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=296",
+      "text": "김해 한글박물관은 한글 연구에 큰 발자취를 남긴 김해 출신 한글학자 이윤재 선생과 허웅 선생의 업적과 1443년 한글 창제 이후 한글문화와 역사를 재조명하는 공간이다. 한글의 소중함을 알리기 위해 설립되었으며 한글 창제의 배경과 원리를 다양한 시각 자료와 체험 프로그램을 통해 소개한다. 한글과 관련된 유물, 서적, 현대적 활용 사례 등도 전시되어 있어 한글의 발전사를 한눈에 이해할 수 있다. 전국 최초 공립 한글박물관으로 김해 지역의 문화적 상징물로 자리 잡고 있다. 한글 연구에 큰 발자취를 남긴 김해 출신의 국어학자 한뫼 이윤재(李允宰·1888∼1943), 눈뫼 허웅(許雄·1918∼2004) 선생의 업적을 기리고, 한글문화유산을 보존 전시하기 위해 ‘김해한글박물관’을 건립",
+      "sido": "경상남도",
+      "sigungu": "김해시",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=296"
+      ],
+      "evidence_id": "E3",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=413",
+        "fields": {
+          "name": "김해한글박물관",
+          "sido": "경상남도",
+          "sigungu": "김해시",
+          "address": "경상남도 김해시 분성로 221",
+          "ownership_type": "공립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "09:00",
+          "weekday_close": "18:00",
+          "holiday_open": "09:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "월요일(공휴일인 월요일은 운영, 다음날 휴관)+1월1일+설 당일+추석 당일",
+          "amenities_raw": "주차장+장애인화장실+옥상휴게공간"
+        },
+        "base_data_date": "2025-12-24",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0112",
+      "name": "송암박두성기념관",
+      "document": "송암박두성기념관은 충청북도 진천군에 위치한 박두성 선생의 업적을 기리기 위한 기념관이다. 박두성 선생은 일제강점기 독립운동가이자 교육자로, 민족 교육과 독립운동에 헌신한 인물로 잘 알려져 있다. 기념관에는 그의 생애와 업적을 보여주는 다양한 유품, 사진, 문서 등이 전시되어 있으며, 독립운동과 교육 분야에서의 기여를 기리기 위한 교육적인 프로그램도 운영된다. 특히, 기념관 내에는 한글 점자 자료가 포함되어 있어, 시각장애인들도 박두성 선생의 역사적 업적을 쉽게 접할 수 있도록 배려한 점이 특징이다. 이러한 점자 자료는 그의 교육 정신과 민족 문화에 대한 공헌을 강조하며, 모든 방문객이 박두성 선생의 업적을 기억하고 공유할 수 있도록 돕는다 시각 장애인들의 세종대왕으로 불리는 송암은 1910년대 제생원 맹아부 교사로 재직하며 한글 점자를 창안했고 선생의 삶과 업적을 유품과 자료 등이 전시된 기념관에서 만날 수 있다",
+      "metadata": {
+        "latitude": 37.43811766,
+        "weekday_close": "18:00",
+        "closure_rule_raw": "토요일+일요일+법정공휴일",
+        "child_fee": 0.0,
+        "weekday_open": "09:00",
+        "name": "송암박두성기념관",
+        "holiday_open": "00:00",
+        "homepage_url": "http://www.songam.net/",
+        "longitude": 126.6560275,
+        "youth_fee": 0.0,
+        "adult_fee": 0.0,
+        "sido": "인천광역시",
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "transport_notes": "시내버스 518+520",
+        "requires_manual_review": true,
+        "source_types": "BASE|TOUR_API",
+        "sigungu": "미추홀구",
+        "holiday_close": "00:00",
+        "ownership_type": "공립",
+        "address": "인천광역시 미추홀구 한나루로357번길 105-19"
+      },
+      "vector_rank": null,
+      "bm25_rank": 4,
+      "vector_distance": null,
+      "vector_score": null,
+      "bm25_score": 13.491722608547338,
+      "vector_document": "",
+      "bm25_document": "송암박두성기념관은 충청북도 진천군에 위치한 박두성 선생의 업적을 기리기 위한 기념관이다. 박두성 선생은 일제강점기 독립운동가이자 교육자로, 민족 교육과 독립운동에 헌신한 인물로 잘 알려져 있다. 기념관에는 그의 생애와 업적을 보여주는 다양한 유품, 사진, 문서 등이 전시되어 있으며, 독립운동과 교육 분야에서의 기여를 기리기 위한 교육적인 프로그램도 운영된다. 특히, 기념관 내에는 한글 점자 자료가 포함되어 있어, 시각장애인들도 박두성 선생의 역사적 업적을 쉽게 접할 수 있도록 배려한 점이 특징이다. 이러한 점자 자료는 그의 교육 정신과 민족 문화에 대한 공헌을 강조하며, 모든 방문객이 박두성 선생의 업적을 기억하고 공유할 수 있도록 돕는다 시각 장애인들의 세종대왕으로 불리는 송암은 1910년대 제생원 맹아부 교사로 재직하며 한글 점자를 창안했고 선생의 삶과 업적을 유품과 자료 등이 전시된 기념관에서 만날 수 있다",
+      "best_span_id": "chroma:M0112",
+      "best_span_text": "송암박두성기념관은 충청북도 진천군에 위치한 박두성 선생의 업적을 기리기 위한 기념관이다. 박두성 선생은 일제강점기 독립운동가이자 교육자로, 민족 교육과 독립운동에 헌신한 인물로 잘 알려져 있다. 기념관에는 그의 생애와 업적을 보여주는 다양한 유품, 사진, 문서 등이 전시되어 있으며, 독립운동과 교육 분야에서의 기여를 기리기 위한 교육적인 프로그램도 운영된다. 특히, 기념관 내에는 한글 점자 자료가 포함되어 있어, 시각장애인들도 박두성 선생의 역사적 업적을 쉽게 접할 수 있도록 배려한 점이 특징이다. 이러한 점자 자료는 그의 교육 정신과 민족 문화에 대한 공헌을 강조하며, 모든 방문객이 박두성 선생의 업적을 기억하고 공유할 수 있도록 돕는다 시각 장애인들의 세종대왕으로 불리는 송암은 1910년대 제생원 맹아부 교사로 재직하며 한글 점자를 창안했고 선생의 삶과 업적을 유품과 자료 등이 전시된 기념관에서 만날 수 있다",
+      "fusion_score": 0.015625,
+      "retrieved_by": [
+        "bm25"
+      ],
+      "fusion_rank": 8,
+      "rerank_score": 0.003222167259082198,
+      "rank": 4,
+      "score": 0.003222167259082198,
+      "score_type": "cross_encoder",
+      "distance": null,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "bm25"
+      ],
+      "retriever": "bm25",
+      "span_id": "chroma:M0112",
+      "source_doc_ids": [
+        "DOC-B0112-TOUR_API-3448312",
+        "DOC-B0112-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0112-TOUR_API-3448312",
+          "source_type": "TOUR_API",
+          "source_record_id": "3448312",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=56",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        },
+        {
+          "doc_id": "DOC-B0112-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0112",
+          "source_locator": "data/raw/museum_base_1070.csv#row=113",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 49,
+          "doc_ids": [
+            "DOC-B0112-TOUR_API-3448312"
+          ]
+        },
+        {
+          "start": 50,
+          "end": 108,
+          "doc_ids": [
+            "DOC-B0112-TOUR_API-3448312"
+          ]
+        },
+        {
+          "start": 109,
+          "end": 201,
+          "doc_ids": [
+            "DOC-B0112-TOUR_API-3448312"
+          ]
+        },
+        {
+          "start": 202,
+          "end": 281,
+          "doc_ids": [
+            "DOC-B0112-TOUR_API-3448312"
+          ]
+        },
+        {
+          "start": 282,
+          "end": 361,
+          "doc_ids": [
+            "DOC-B0112-TOUR_API-3448312"
+          ]
+        },
+        {
+          "start": 362,
+          "end": 460,
+          "doc_ids": [
+            "DOC-B0112-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=56",
+      "text": "송암박두성기념관은 충청북도 진천군에 위치한 박두성 선생의 업적을 기리기 위한 기념관이다. 박두성 선생은 일제강점기 독립운동가이자 교육자로, 민족 교육과 독립운동에 헌신한 인물로 잘 알려져 있다. 기념관에는 그의 생애와 업적을 보여주는 다양한 유품, 사진, 문서 등이 전시되어 있으며, 독립운동과 교육 분야에서의 기여를 기리기 위한 교육적인 프로그램도 운영된다. 특히, 기념관 내에는 한글 점자 자료가 포함되어 있어, 시각장애인들도 박두성 선생의 역사적 업적을 쉽게 접할 수 있도록 배려한 점이 특징이다. 이러한 점자 자료는 그의 교육 정신과 민족 문화에 대한 공헌을 강조하며, 모든 방문객이 박두성 선생의 업적을 기억하고 공유할 수 있도록 돕는다 시각 장애인들의 세종대왕으로 불리는 송암은 1910년대 제생원 맹아부 교사로 재직하며 한글 점자를 창안했고 선생의 삶과 업적을 유품과 자료 등이 전시된 기념관에서 만날 수 있다",
+      "sido": "인천광역시",
+      "sigungu": "미추홀구",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=56"
+      ],
+      "evidence_id": "E4",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=72",
+        "fields": {
+          "name": "송암박두성기념관",
+          "sido": "인천광역시",
+          "sigungu": "미추홀구",
+          "address": "인천광역시 미추홀구 한나루로357번길 105-19",
+          "ownership_type": "공립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "09:00",
+          "weekday_close": "18:00",
+          "holiday_open": "00:00",
+          "holiday_close": "00:00",
+          "closure_rule_raw": "토요일+일요일+법정공휴일"
+        },
+        "base_data_date": "2026-10-01",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0230",
+      "name": "소전미술관",
+      "document": "한국적 감성을 표현한 분청사기 와 청자+ 불화+ 한국화 등의 미술품 전시",
+      "metadata": {
+        "child_fee": 0.0,
+        "name": "소전미술관",
+        "sigungu": "시흥시",
+        "youth_fee": 0.0,
+        "weekday_close": "21:00",
+        "ownership_type": "사립",
+        "weekday_open": "10:00",
+        "address": "경기도 시흥시 소래산길 41",
+        "holiday_open": "10:00",
+        "closure_rule_raw": "연중무휴",
+        "latitude": 37.4519274,
+        "homepage_url": "http://www.sojeonmuseum.org",
+        "sido": "경기도",
+        "holiday_close": "21:00",
+        "transport_notes": "(버스) 31-3+ 31-5+ 31-7+ 31-9+ 61-1 하대야동(두산위브아파트)정류장 하차 후 도보 10분",
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "source_types": "BASE",
+        "requires_manual_review": false,
+        "adult_fee": 0.0,
+        "longitude": 126.785502
+      },
+      "vector_rank": 4,
+      "bm25_rank": null,
+      "vector_distance": 0.5757689476013184,
+      "vector_score": null,
+      "bm25_score": null,
+      "vector_document": "한국적 감성을 표현한 분청사기 와 청자+ 불화+ 한국화 등의 미술품 전시",
+      "bm25_document": "",
+      "best_span_id": null,
+      "best_span_text": null,
+      "fusion_score": 0.015625,
+      "retrieved_by": [
+        "vector"
+      ],
+      "fusion_rank": 7,
+      "rerank_score": 0.0023603085428476334,
+      "rank": 5,
+      "score": 0.0023603085428476334,
+      "score_type": "cross_encoder",
+      "distance": 0.5757689476013184,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector"
+      ],
+      "retriever": "vector",
+      "source_doc_ids": [
+        "DOC-B0230-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0230-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0230",
+          "source_locator": "data/raw/museum_base_1070.csv#row=231",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 40,
+          "doc_ids": [
+            "DOC-B0230-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_base_1070.csv#row=231",
+      "text": "한국적 감성을 표현한 분청사기 와 청자+ 불화+ 한국화 등의 미술품 전시",
+      "sido": "경기도",
+      "sigungu": "시흥시",
+      "span_id": "",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_base_1070.csv#row=231"
+      ],
+      "evidence_id": "E5",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=159",
+        "fields": {
+          "name": "소전미술관",
+          "sido": "경기도",
+          "sigungu": "시흥시",
+          "address": "경기도 시흥시 소래산길 41",
+          "ownership_type": "사립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "10:00",
+          "weekday_close": "21:00",
+          "holiday_open": "10:00",
+          "holiday_close": "21:00",
+          "closure_rule_raw": "연중무휴"
+        },
+        "base_data_date": "2026-09-07",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    }
+  ],
+  "answer": "외솔기념관에는 외솔 최현배 선생의 저서와 유품이 상설전시되어 있고, 다양한 한글 서적을 열람할 수 있는 한글실도 있습니다. 어린이를 위한 한글 놀이·체험이 마련되어 있으며, 전시실 체험공간에서는 전자 타자기로 나만의 방문증을 만드는 체험도 할 수 있습니다.[E1][E2]",
+  "retrieval_status": "ok",
+  "answer_status": "answered",
+  "route": "hybrid",
+  "retry_count": 0,
+  "supervisor_verified": true,
+  "rerank_applied": true,
+  "retriever_errors": [],
+  "warnings": [],
+  "duration_ms": 135213.19,
+  "error_type": "",
+  "hit_at_1": 0,
+  "hit_at_3": 1,
+  "hit_at_5": 1,
+  "recall_at_5": 1.0,
+  "mrr_at_10": 0.5
+}

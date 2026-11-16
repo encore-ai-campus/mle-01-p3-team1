@@ -1,0 +1,686 @@
+{
+  "mode": "supervisor_full",
+  "question_id": "Q068",
+  "evidence": [
+    {
+      "museum_id": "M0076",
+      "name": "한림공원",
+      "document": "제주 한림공원은 1971년 창업인 송봉규 선생이 10만여 평의 황무지 모래밭에 야자수 씨앗을 파종하여 육묘함으로써 탄생하게 된 비경지대이다. 협재, 금릉 해수욕장의 비경과 아름다운 비양도의 경관을 마주하고 있는 제주도내 최고의 관광명소로 손꼽히고 있다. 10만여 평의 대지에 하늘로 우뚝 뻗은 야자수군락과 울창한 송림으로 둘러싸인 한림공원은 다양한 종류의 꽃과 나무가 사계절 아름다운 경관을 연출하며, 남국의 정취가 물씬 풍기는 야자수길, 분재와 돌을 소재로 하여 구성된 제주석분재원, 제주의 옛 모습을 재현한 재암민속마을 등 다양한 볼거리를 함께 갖추고 있다. 환상적인 9가지 다양한 테마가 펼쳐지는 한림공원은 장쩌민 중국 전 국가주석과 나까소네 전 일본수상을 비롯한 세계 각국의 저명인사들이 방문한 곳으로, 국내외 관광객이 찾는 세계적인 관광명소이다.",
+      "metadata": {
+        "source_types": "TOUR_API",
+        "fee_notes": "단체 관람 시 할인+도민할인",
+        "child_fee": 9000.0,
+        "sigungu": "제주시",
+        "requires_manual_review": true,
+        "name": "한림공원",
+        "ownership_type": "사립",
+        "address": "제주특별자치도 제주시 한림읍 한림로 300",
+        "homepage_url": "http://www.hallimpark.com",
+        "weekday_open": "09:00",
+        "longitude": 126.2396912,
+        "closure_rule_raw": "연중무휴",
+        "weekday_close": "17:00",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/83/3553983_image2_1.jpg",
+        "adult_fee_status": "BASE_FEE_PAID",
+        "latitude": 33.39022486,
+        "adult_fee": 15000.0,
+        "sido": "제주특별자치도",
+        "holiday_open": "09:00",
+        "holiday_close": "17:00",
+        "youth_fee": 10000.0,
+        "image_copyright": "Type1"
+      },
+      "vector_rank": 1,
+      "bm25_rank": 1,
+      "vector_distance": 0.6006391048431396,
+      "vector_score": null,
+      "bm25_score": 12.446016663037181,
+      "vector_document": "제주 한림공원은 1971년 창업인 송봉규 선생이 10만여 평의 황무지 모래밭에 야자수 씨앗을 파종하여 육묘함으로써 탄생하게 된 비경지대이다. 협재, 금릉 해수욕장의 비경과 아름다운 비양도의 경관을 마주하고 있는 제주도내 최고의 관광명소로 손꼽히고 있다. 10만여 평의 대지에 하늘로 우뚝 뻗은 야자수군락과 울창한 송림으로 둘러싸인 한림공원은 다양한 종류의 꽃과 나무가 사계절 아름다운 경관을 연출하며, 남국의 정취가 물씬 풍기는 야자수길, 분재와 돌을 소재로 하여 구성된 제주석분재원, 제주의 옛 모습을 재현한 재암민속마을 등 다양한 볼거리를 함께 갖추고 있다. 환상적인 9가지 다양한 테마가 펼쳐지는 한림공원은 장쩌민 중국 전 국가주석과 나까소네 전 일본수상을 비롯한 세계 각국의 저명인사들이 방문한 곳으로, 국내외 관광객이 찾는 세계적인 관광명소이다.",
+      "bm25_document": "제주 한림공원은 1971년 창업인 송봉규 선생이 10만여 평의 황무지 모래밭에 야자수 씨앗을 파종하여 육묘함으로써 탄생하게 된 비경지대이다. 협재, 금릉 해수욕장의 비경과 아름다운 비양도의 경관을 마주하고 있는 제주도내 최고의 관광명소로 손꼽히고 있다. 10만여 평의 대지에 하늘로 우뚝 뻗은 야자수군락과 울창한 송림으로 둘러싸인 한림공원은 다양한 종류의 꽃과 나무가 사계절 아름다운 경관을 연출하며, 남국의 정취가 물씬 풍기는 야자수길, 분재와 돌을 소재로 하여 구성된 제주석분재원, 제주의 옛 모습을 재현한 재암민속마을 등 다양한 볼거리를 함께 갖추고 있다. 환상적인 9가지 다양한 테마가 펼쳐지는 한림공원은 장쩌민 중국 전 국가주석과 나까소네 전 일본수상을 비롯한 세계 각국의 저명인사들이 방문한 곳으로, 국내외 관광객이 찾는 세계적인 관광명소이다.",
+      "best_span_id": "chroma:M0076",
+      "best_span_text": "제주 한림공원은 1971년 창업인 송봉규 선생이 10만여 평의 황무지 모래밭에 야자수 씨앗을 파종하여 육묘함으로써 탄생하게 된 비경지대이다. 협재, 금릉 해수욕장의 비경과 아름다운 비양도의 경관을 마주하고 있는 제주도내 최고의 관광명소로 손꼽히고 있다. 10만여 평의 대지에 하늘로 우뚝 뻗은 야자수군락과 울창한 송림으로 둘러싸인 한림공원은 다양한 종류의 꽃과 나무가 사계절 아름다운 경관을 연출하며, 남국의 정취가 물씬 풍기는 야자수길, 분재와 돌을 소재로 하여 구성된 제주석분재원, 제주의 옛 모습을 재현한 재암민속마을 등 다양한 볼거리를 함께 갖추고 있다. 환상적인 9가지 다양한 테마가 펼쳐지는 한림공원은 장쩌민 중국 전 국가주석과 나까소네 전 일본수상을 비롯한 세계 각국의 저명인사들이 방문한 곳으로, 국내외 관광객이 찾는 세계적인 관광명소이다.",
+      "fusion_score": 0.03278688524590164,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 1,
+      "name_match": true,
+      "rerank_score": 0.9985694885253906,
+      "rank": 1,
+      "score": 0.9985694885253906,
+      "score_type": "cross_encoder",
+      "distance": 0.6006391048431396,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0076",
+      "source_doc_ids": [
+        "DOC-B0076-TOUR_API-126455"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0076-TOUR_API-126455",
+          "source_type": "TOUR_API",
+          "source_record_id": "126455",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=38",
+          "match_trust": "RECHECKED_BY_RULE_NOT_HUMAN_APPROVED"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 78,
+          "doc_ids": [
+            "DOC-B0076-TOUR_API-126455"
+          ]
+        },
+        {
+          "start": 79,
+          "end": 141,
+          "doc_ids": [
+            "DOC-B0076-TOUR_API-126455"
+          ]
+        },
+        {
+          "start": 142,
+          "end": 314,
+          "doc_ids": [
+            "DOC-B0076-TOUR_API-126455"
+          ]
+        },
+        {
+          "start": 315,
+          "end": 422,
+          "doc_ids": [
+            "DOC-B0076-TOUR_API-126455"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=38",
+      "text": "제주 한림공원은 1971년 창업인 송봉규 선생이 10만여 평의 황무지 모래밭에 야자수 씨앗을 파종하여 육묘함으로써 탄생하게 된 비경지대이다. 협재, 금릉 해수욕장의 비경과 아름다운 비양도의 경관을 마주하고 있는 제주도내 최고의 관광명소로 손꼽히고 있다. 10만여 평의 대지에 하늘로 우뚝 뻗은 야자수군락과 울창한 송림으로 둘러싸인 한림공원은 다양한 종류의 꽃과 나무가 사계절 아름다운 경관을 연출하며, 남국의 정취가 물씬 풍기는 야자수길, 분재와 돌을 소재로 하여 구성된 제주석분재원, 제주의 옛 모습을 재현한 재암민속마을 등 다양한 볼거리를 함께 갖추고 있다. 환상적인 9가지 다양한 테마가 펼쳐지는 한림공원은 장쩌민 중국 전 국가주석과 나까소네 전 일본수상을 비롯한 세계 각국의 저명인사들이 방문한 곳으로, 국내외 관광객이 찾는 세계적인 관광명소이다.",
+      "sido": "제주특별자치도",
+      "sigungu": "제주시",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=38"
+      ],
+      "evidence_id": "E1",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=48",
+        "fields": {
+          "name": "한림공원",
+          "sido": "제주특별자치도",
+          "sigungu": "제주시",
+          "address": "제주특별자치도 제주시 한림읍 한림로 300",
+          "ownership_type": "사립",
+          "adult_fee": "15000",
+          "youth_fee": "10000",
+          "child_fee": "9000",
+          "adult_fee_status": "BASE_FEE_PAID",
+          "weekday_open": "09:00",
+          "weekday_close": "17:00",
+          "holiday_open": "09:00",
+          "holiday_close": "17:00",
+          "closure_rule_raw": "연중무휴"
+        },
+        "base_data_date": "2026-09-30",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0064",
+      "name": "방림원",
+      "document": "방림원은 야생화의 천국으로 원장 방한숙 씨가 전 세계를 돌며 30년간 수집한 야생화를 테마별로 전시한 국내 최초 세계 야생화 전시관이자 테마그린파크이다. 세월과 정성으로 가꾸어진 방림원은 실내전시관, 야외정원, 동굴, 형제폭포, 기초공사 중 발견된 방림굴 등 다양한 볼거리가 있으며, 3천여 종의 살아있는 야생화들의 소박한 매력을 느낄 수 있다. 방림원 곳곳에는 다양한 개구리 조형물이 있는데 방한숙 관장이 이곳을 만들며 힘이 들 때 함께 울어준 친구 개구리를 이곳의 마스코트로 삼았다는 비하인드 스토리가 있다. 숨은 개구리 조형물을 찾으며 산책로를 따라 한 바퀴 걷다 보면 저절로 자연 속에서 힐링하는 기분을 느낄 수 있을 것이다.",
+      "metadata": {
+        "latitude": 33.33722842,
+        "image_copyright": "Type1",
+        "closure_rule_raw": "매주 월요일 휴관",
+        "holiday_open": "09:00",
+        "address": "제주특별자치도 제주시 한경면 용금로 864",
+        "requires_manual_review": true,
+        "adult_fee": 10000.0,
+        "name": "방림원",
+        "youth_fee": 8000.0,
+        "weekday_open": "09:00",
+        "child_fee": 0.0,
+        "sido": "제주특별자치도",
+        "holiday_close": "18:00",
+        "sigungu": "제주시",
+        "adult_fee_status": "BASE_FEE_PAID",
+        "weekday_close": "18:00",
+        "homepage_url": "https://www.banglimwon.com",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/74/3553174_image2_1.jpg",
+        "ownership_type": "사립",
+        "fee_notes": "단체 관람 시 할인",
+        "source_types": "TOUR_API",
+        "longitude": 126.2685129
+      },
+      "vector_rank": 6,
+      "bm25_rank": 20,
+      "vector_distance": 0.6614730358123779,
+      "vector_score": null,
+      "bm25_score": 5.779935824938788,
+      "vector_document": "방림원은 야생화의 천국으로 원장 방한숙 씨가 전 세계를 돌며 30년간 수집한 야생화를 테마별로 전시한 국내 최초 세계 야생화 전시관이자 테마그린파크이다. 세월과 정성으로 가꾸어진 방림원은 실내전시관, 야외정원, 동굴, 형제폭포, 기초공사 중 발견된 방림굴 등 다양한 볼거리가 있으며, 3천여 종의 살아있는 야생화들의 소박한 매력을 느낄 수 있다. 방림원 곳곳에는 다양한 개구리 조형물이 있는데 방한숙 관장이 이곳을 만들며 힘이 들 때 함께 울어준 친구 개구리를 이곳의 마스코트로 삼았다는 비하인드 스토리가 있다. 숨은 개구리 조형물을 찾으며 산책로를 따라 한 바퀴 걷다 보면 저절로 자연 속에서 힐링하는 기분을 느낄 수 있을 것이다.",
+      "bm25_document": "방림원은 야생화의 천국으로 원장 방한숙 씨가 전 세계를 돌며 30년간 수집한 야생화를 테마별로 전시한 국내 최초 세계 야생화 전시관이자 테마그린파크이다. 세월과 정성으로 가꾸어진 방림원은 실내전시관, 야외정원, 동굴, 형제폭포, 기초공사 중 발견된 방림굴 등 다양한 볼거리가 있으며, 3천여 종의 살아있는 야생화들의 소박한 매력을 느낄 수 있다. 방림원 곳곳에는 다양한 개구리 조형물이 있는데 방한숙 관장이 이곳을 만들며 힘이 들 때 함께 울어준 친구 개구리를 이곳의 마스코트로 삼았다는 비하인드 스토리가 있다. 숨은 개구리 조형물을 찾으며 산책로를 따라 한 바퀴 걷다 보면 저절로 자연 속에서 힐링하는 기분을 느낄 수 있을 것이다.",
+      "best_span_id": "chroma:M0064",
+      "best_span_text": "방림원은 야생화의 천국으로 원장 방한숙 씨가 전 세계를 돌며 30년간 수집한 야생화를 테마별로 전시한 국내 최초 세계 야생화 전시관이자 테마그린파크이다. 세월과 정성으로 가꾸어진 방림원은 실내전시관, 야외정원, 동굴, 형제폭포, 기초공사 중 발견된 방림굴 등 다양한 볼거리가 있으며, 3천여 종의 살아있는 야생화들의 소박한 매력을 느낄 수 있다. 방림원 곳곳에는 다양한 개구리 조형물이 있는데 방한숙 관장이 이곳을 만들며 힘이 들 때 함께 울어준 친구 개구리를 이곳의 마스코트로 삼았다는 비하인드 스토리가 있다. 숨은 개구리 조형물을 찾으며 산책로를 따라 한 바퀴 걷다 보면 저절로 자연 속에서 힐링하는 기분을 느낄 수 있을 것이다.",
+      "fusion_score": 0.027651515151515153,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 3,
+      "rerank_score": 0.005226966924965382,
+      "rank": 2,
+      "score": 0.005226966924965382,
+      "score_type": "cross_encoder",
+      "distance": 0.6614730358123779,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0064",
+      "source_doc_ids": [
+        "DOC-B0064-TOUR_API-594065"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0064-TOUR_API-594065",
+          "source_type": "TOUR_API",
+          "source_record_id": "594065",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=34",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 85,
+          "doc_ids": [
+            "DOC-B0064-TOUR_API-594065"
+          ]
+        },
+        {
+          "start": 86,
+          "end": 193,
+          "doc_ids": [
+            "DOC-B0064-TOUR_API-594065"
+          ]
+        },
+        {
+          "start": 194,
+          "end": 286,
+          "doc_ids": [
+            "DOC-B0064-TOUR_API-594065"
+          ]
+        },
+        {
+          "start": 287,
+          "end": 354,
+          "doc_ids": [
+            "DOC-B0064-TOUR_API-594065"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=34",
+      "text": "방림원은 야생화의 천국으로 원장 방한숙 씨가 전 세계를 돌며 30년간 수집한 야생화를 테마별로 전시한 국내 최초 세계 야생화 전시관이자 테마그린파크이다. 세월과 정성으로 가꾸어진 방림원은 실내전시관, 야외정원, 동굴, 형제폭포, 기초공사 중 발견된 방림굴 등 다양한 볼거리가 있으며, 3천여 종의 살아있는 야생화들의 소박한 매력을 느낄 수 있다. 방림원 곳곳에는 다양한 개구리 조형물이 있는데 방한숙 관장이 이곳을 만들며 힘이 들 때 함께 울어준 친구 개구리를 이곳의 마스코트로 삼았다는 비하인드 스토리가 있다. 숨은 개구리 조형물을 찾으며 산책로를 따라 한 바퀴 걷다 보면 저절로 자연 속에서 힐링하는 기분을 느낄 수 있을 것이다.",
+      "sido": "제주특별자치도",
+      "sigungu": "제주시",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=34"
+      ],
+      "evidence_id": "E2",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=43",
+        "fields": {
+          "name": "방림원",
+          "sido": "제주특별자치도",
+          "sigungu": "제주시",
+          "address": "제주특별자치도 제주시 한경면 용금로 864",
+          "ownership_type": "사립",
+          "adult_fee": "10000",
+          "youth_fee": "8000",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_PAID",
+          "weekday_open": "09:00",
+          "weekday_close": "18:00",
+          "holiday_open": "09:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "매주 월요일 휴관"
+        },
+        "base_data_date": "2026-09-30",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0719",
+      "name": "우정박물관",
+      "document": "우편뿐 아니라 금융을 포함한 우체국 업무 전반을 소개하고 있으며 집배원복과 우체통의 변천, 세계 각구의 우체통 등을 전시하여 관람객들에게 좋은 볼거리를 제공하고 있습니다.",
+      "metadata": {
+        "sido": "충청남도",
+        "adult_fee": 0.0,
+        "name": "우정박물관",
+        "holiday_open": "00:00",
+        "youth_fee": 0.0,
+        "requires_manual_review": true,
+        "weekday_open": "09:00",
+        "transport_notes": "천안역, 천안버스터미널 → 51번, 52번",
+        "ownership_type": "국립",
+        "longitude": 127.1885617847,
+        "homepage_url": "http://www.koreapost.go.kr/postmuseum",
+        "latitude": 36.8139658652,
+        "fee_notes": "0",
+        "address": "충청남도 천안시 동남구 양지말길 11-14",
+        "source_types": "BASE",
+        "weekday_close": "18:00",
+        "sigungu": "천안시",
+        "closure_rule_raw": "토+일요일 + 대체공휴일+공휴일",
+        "child_fee": 0.0,
+        "holiday_close": "00:00",
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS"
+      },
+      "vector_rank": null,
+      "bm25_rank": 5,
+      "vector_distance": null,
+      "vector_score": null,
+      "bm25_score": 7.341276440983204,
+      "vector_document": "",
+      "bm25_document": "우편뿐 아니라 금융을 포함한 우체국 업무 전반을 소개하고 있으며 집배원복과 우체통의 변천, 세계 각구의 우체통 등을 전시하여 관람객들에게 좋은 볼거리를 제공하고 있습니다.",
+      "best_span_id": "chroma:M0719",
+      "best_span_text": "우편뿐 아니라 금융을 포함한 우체국 업무 전반을 소개하고 있으며 집배원복과 우체통의 변천, 세계 각구의 우체통 등을 전시하여 관람객들에게 좋은 볼거리를 제공하고 있습니다.",
+      "fusion_score": 0.015384615384615385,
+      "retrieved_by": [
+        "bm25"
+      ],
+      "fusion_rank": 12,
+      "rerank_score": 0.0031864040065556765,
+      "rank": 3,
+      "score": 0.0031864040065556765,
+      "score_type": "cross_encoder",
+      "distance": null,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "bm25"
+      ],
+      "retriever": "bm25",
+      "span_id": "chroma:M0719",
+      "source_doc_ids": [
+        "DOC-B0719-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0719-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0719",
+          "source_locator": "data/raw/museum_base_1070.csv#row=720",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 95,
+          "doc_ids": [
+            "DOC-B0719-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_base_1070.csv#row=720",
+      "text": "우편뿐 아니라 금융을 포함한 우체국 업무 전반을 소개하고 있으며 집배원복과 우체통의 변천, 세계 각구의 우체통 등을 전시하여 관람객들에게 좋은 볼거리를 제공하고 있습니다.",
+      "sido": "충청남도",
+      "sigungu": "천안시",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_base_1070.csv#row=720"
+      ],
+      "evidence_id": "E3",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=501",
+        "fields": {
+          "name": "우정박물관",
+          "sido": "충청남도",
+          "sigungu": "천안시",
+          "address": "충청남도 천안시 동남구 양지말길 11-14",
+          "ownership_type": "국립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "09:00",
+          "weekday_close": "18:00",
+          "holiday_open": "00:00",
+          "holiday_close": "00:00",
+          "closure_rule_raw": "토+일요일 + 대체공휴일+공휴일"
+        },
+        "base_data_date": "2024-07-11",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0714",
+      "name": "독립기념관",
+      "document": "독립기념관은 항일투쟁의 역사를 제대로 정립하고, 이를 널리 알리려는 목적으로 건립되었다. 상설전시관은 겨레의 뿌리, 겨레의 시련, 겨레의 함성, 평화누리, 나라 되찾기, 새로운 나라 총 6개로 구성되어 있다. 각 전시관을 차례로 둘러보며 우리 민족의 찬란한 역사와 자주독립을 향한 선열들의 고귀한 희생정신을 되새길 수 있다. 함께하는 독립운동 체험관은 우리나라를 되찾기 위한 독립운동의 역사를 쉽고 재미있게 배우면서 나라 사랑의 마음을 느껴보는 체험관으로, 영아부터 성인까지 모든 세대가 함께할 수 있다. 무궁화, 태극기 등 나라 상징물로 꾸며진 공간에서 오감을 자극하는 놀이를 즐길 수 있다. ◎ 한류의 매력을 만나는 여행 정보 - 예능 K 컬처를 만든 한국인의 뜨거운 역사를 만날 수 있는 독립기념관은 멀리서도 장엄함을 드러내는 겨레의 탑과 동양 최대 기와 건물인 겨레의 집이다. 에이티즈가 골든벨을 했던 통일 염원의 동산과 통일의 종까지 둘러보며 K-spirit을 느껴볼 것을 추천한다. 뜨거운 민족혼과 대자연의 풍광이 어우러진 겨례의 전당",
+      "metadata": {
+        "holiday_open": "09:30",
+        "youth_fee": 0.0,
+        "child_fee": 0.0,
+        "name": "독립기념관",
+        "closure_rule_raw": "월요일",
+        "amenities_raw": "문화상품점+매점",
+        "homepage_url": "http://www.i815.or.kr",
+        "adult_fee": 0.0,
+        "sigungu": "천안시",
+        "transport_notes": "경부 고속도로 목천(독립기념관) 나들목에서 2km, 천안나들목에서 국도 21호 이용 시 12km",
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "latitude": 36.781872,
+        "holiday_close": "18:00",
+        "address": "충청남도 천안시 동남구 목천읍 독립기념관로 1",
+        "ownership_type": "사립",
+        "weekday_open": "09:30",
+        "image_copyright": "Type1",
+        "longitude": 127.2303981,
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/21/3450021_image2_1.jpg",
+        "fee_notes": "0",
+        "weekday_close": "18:00",
+        "requires_manual_review": true,
+        "sido": "충청남도",
+        "source_types": "BASE|TOUR_API"
+      },
+      "vector_rank": 7,
+      "bm25_rank": null,
+      "vector_distance": 0.6654542684555054,
+      "vector_score": null,
+      "bm25_score": null,
+      "vector_document": "독립기념관은 항일투쟁의 역사를 제대로 정립하고, 이를 널리 알리려는 목적으로 건립되었다. 상설전시관은 겨레의 뿌리, 겨레의 시련, 겨레의 함성, 평화누리, 나라 되찾기, 새로운 나라 총 6개로 구성되어 있다. 각 전시관을 차례로 둘러보며 우리 민족의 찬란한 역사와 자주독립을 향한 선열들의 고귀한 희생정신을 되새길 수 있다. 함께하는 독립운동 체험관은 우리나라를 되찾기 위한 독립운동의 역사를 쉽고 재미있게 배우면서 나라 사랑의 마음을 느껴보는 체험관으로, 영아부터 성인까지 모든 세대가 함께할 수 있다. 무궁화, 태극기 등 나라 상징물로 꾸며진 공간에서 오감을 자극하는 놀이를 즐길 수 있다. ◎ 한류의 매력을 만나는 여행 정보 - 예능 K 컬처를 만든 한국인의 뜨거운 역사를 만날 수 있는 독립기념관은 멀리서도 장엄함을 드러내는 겨레의 탑과 동양 최대 기와 건물인 겨레의 집이다. 에이티즈가 골든벨을 했던 통일 염원의 동산과 통일의 종까지 둘러보며 K-spirit을 느껴볼 것을 추천한다. 뜨거운 민족혼과 대자연의 풍광이 어우러진 겨례의 전당",
+      "bm25_document": "",
+      "best_span_id": null,
+      "best_span_text": null,
+      "fusion_score": 0.014925373134328358,
+      "retrieved_by": [
+        "vector"
+      ],
+      "fusion_rank": 14,
+      "rerank_score": 0.0025383485481142998,
+      "rank": 4,
+      "score": 0.0025383485481142998,
+      "score_type": "cross_encoder",
+      "distance": 0.6654542684555054,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector"
+      ],
+      "retriever": "vector",
+      "source_doc_ids": [
+        "DOC-B0714-TOUR_API-129790",
+        "DOC-B0714-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0714-TOUR_API-129790",
+          "source_type": "TOUR_API",
+          "source_record_id": "129790",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=348",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        },
+        {
+          "doc_id": "DOC-B0714-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0714",
+          "source_locator": "data/raw/museum_base_1070.csv#row=715",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 49,
+          "doc_ids": [
+            "DOC-B0714-TOUR_API-129790"
+          ]
+        },
+        {
+          "start": 50,
+          "end": 116,
+          "doc_ids": [
+            "DOC-B0714-TOUR_API-129790"
+          ]
+        },
+        {
+          "start": 117,
+          "end": 181,
+          "doc_ids": [
+            "DOC-B0714-TOUR_API-129790"
+          ]
+        },
+        {
+          "start": 182,
+          "end": 282,
+          "doc_ids": [
+            "DOC-B0714-TOUR_API-129790"
+          ]
+        },
+        {
+          "start": 283,
+          "end": 332,
+          "doc_ids": [
+            "DOC-B0714-TOUR_API-129790"
+          ]
+        },
+        {
+          "start": 333,
+          "end": 438,
+          "doc_ids": [
+            "DOC-B0714-TOUR_API-129790"
+          ]
+        },
+        {
+          "start": 439,
+          "end": 499,
+          "doc_ids": [
+            "DOC-B0714-TOUR_API-129790"
+          ]
+        },
+        {
+          "start": 500,
+          "end": 529,
+          "doc_ids": [
+            "DOC-B0714-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=348",
+      "text": "독립기념관은 항일투쟁의 역사를 제대로 정립하고, 이를 널리 알리려는 목적으로 건립되었다. 상설전시관은 겨레의 뿌리, 겨레의 시련, 겨레의 함성, 평화누리, 나라 되찾기, 새로운 나라 총 6개로 구성되어 있다. 각 전시관을 차례로 둘러보며 우리 민족의 찬란한 역사와 자주독립을 향한 선열들의 고귀한 희생정신을 되새길 수 있다. 함께하는 독립운동 체험관은 우리나라를 되찾기 위한 독립운동의 역사를 쉽고 재미있게 배우면서 나라 사랑의 마음을 느껴보는 체험관으로, 영아부터 성인까지 모든 세대가 함께할 수 있다. 무궁화, 태극기 등 나라 상징물로 꾸며진 공간에서 오감을 자극하는 놀이를 즐길 수 있다. ◎ 한류의 매력을 만나는 여행 정보 - 예능 K 컬처를 만든 한국인의 뜨거운 역사를 만날 수 있는 독립기념관은 멀리서도 장엄함을 드러내는 겨레의 탑과 동양 최대 기와 건물인 겨레의 집이다. 에이티즈가 골든벨을 했던 통일 염원의 동산과 통일의 종까지 둘러보며 K-spirit을 느껴볼 것을 추천한다. 뜨거운 민족혼과 대자연의 풍광이 어우러진 겨례의 전당",
+      "sido": "충청남도",
+      "sigungu": "천안시",
+      "span_id": "",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=348"
+      ],
+      "evidence_id": "E4",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=496",
+        "fields": {
+          "name": "독립기념관",
+          "sido": "충청남도",
+          "sigungu": "천안시",
+          "address": "충청남도 천안시 동남구 목천읍 독립기념관로 1",
+          "ownership_type": "사립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "09:30",
+          "weekday_close": "18:00",
+          "holiday_open": "09:30",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "월요일",
+          "amenities_raw": "문화상품점+매점"
+        },
+        "base_data_date": "2024-07-11",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0655",
+      "name": "대림미술관",
+      "document": "대림미술관은 서울 종로구 통의동에 위치한 사립 미술관으로 DL그룹 (구 대림그룹)에 의해 설립되었다. 1993년 대전에 개관한 한림갤러리에서 출발, 1997년 한국 최초의 사진 전문 미술관인 한림미술관을 운영하다 2002년 5월 서울로 이전해 현재의 대림미술관으로 재개관하며 디자인을 포함, 다양한 예술 장르를 넘나드는 감각적인 전시를 소개하며 그 영역을 확장하고 있다. 전시와 연계된 다양한 프로그램을 체험할 수 있으며, 일상 속에서 새로운 라이프스타일을 제안하는 문화 공간으로 자리하고 있다.",
+      "metadata": {
+        "name": "대림미술관",
+        "weekday_open": "11:00",
+        "source_types": "TOUR_API",
+        "holiday_close": "20:00",
+        "weekday_close": "20:00",
+        "child_fee": 6000.0,
+        "holiday_open": "11:00",
+        "closure_rule_raw": "월요일+추석 연휴",
+        "latitude": 37.57750352,
+        "sigungu": "종로구",
+        "homepage_url": "http://www.daelimmuseum.org/",
+        "sido": "서울특별시",
+        "youth_fee": 9000.0,
+        "image_copyright": "Type1",
+        "address": "서울특별시 종로구 자하문로 4길 21",
+        "ownership_type": "사립",
+        "adult_fee": 18000.0,
+        "requires_manual_review": true,
+        "longitude": 126.9733647,
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/57/3571557_image2_1.jpg",
+        "adult_fee_status": "BASE_FEE_PAID"
+      },
+      "vector_rank": null,
+      "bm25_rank": 2,
+      "vector_distance": null,
+      "vector_score": null,
+      "bm25_score": 8.71857995186681,
+      "vector_document": "",
+      "bm25_document": "대림미술관은 서울 종로구 통의동에 위치한 사립 미술관으로 DL그룹 (구 대림그룹)에 의해 설립되었다. 1993년 대전에 개관한 한림갤러리에서 출발, 1997년 한국 최초의 사진 전문 미술관인 한림미술관을 운영하다 2002년 5월 서울로 이전해 현재의 대림미술관으로 재개관하며 디자인을 포함, 다양한 예술 장르를 넘나드는 감각적인 전시를 소개하며 그 영역을 확장하고 있다. 전시와 연계된 다양한 프로그램을 체험할 수 있으며, 일상 속에서 새로운 라이프스타일을 제안하는 문화 공간으로 자리하고 있다.",
+      "best_span_id": "chroma:M0655",
+      "best_span_text": "대림미술관은 서울 종로구 통의동에 위치한 사립 미술관으로 DL그룹 (구 대림그룹)에 의해 설립되었다. 1993년 대전에 개관한 한림갤러리에서 출발, 1997년 한국 최초의 사진 전문 미술관인 한림미술관을 운영하다 2002년 5월 서울로 이전해 현재의 대림미술관으로 재개관하며 디자인을 포함, 다양한 예술 장르를 넘나드는 감각적인 전시를 소개하며 그 영역을 확장하고 있다. 전시와 연계된 다양한 프로그램을 체험할 수 있으며, 일상 속에서 새로운 라이프스타일을 제안하는 문화 공간으로 자리하고 있다.",
+      "fusion_score": 0.016129032258064516,
+      "retrieved_by": [
+        "bm25"
+      ],
+      "fusion_rank": 6,
+      "rerank_score": 0.0022540618665516376,
+      "rank": 5,
+      "score": 0.0022540618665516376,
+      "score_type": "cross_encoder",
+      "distance": null,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "bm25"
+      ],
+      "retriever": "bm25",
+      "span_id": "chroma:M0655",
+      "source_doc_ids": [
+        "DOC-B0655-TOUR_API-130459"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0655-TOUR_API-130459",
+          "source_type": "TOUR_API",
+          "source_record_id": "130459",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=325",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 56,
+          "doc_ids": [
+            "DOC-B0655-TOUR_API-130459"
+          ]
+        },
+        {
+          "start": 57,
+          "end": 207,
+          "doc_ids": [
+            "DOC-B0655-TOUR_API-130459"
+          ]
+        },
+        {
+          "start": 208,
+          "end": 277,
+          "doc_ids": [
+            "DOC-B0655-TOUR_API-130459"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=325",
+      "text": "대림미술관은 서울 종로구 통의동에 위치한 사립 미술관으로 DL그룹 (구 대림그룹)에 의해 설립되었다. 1993년 대전에 개관한 한림갤러리에서 출발, 1997년 한국 최초의 사진 전문 미술관인 한림미술관을 운영하다 2002년 5월 서울로 이전해 현재의 대림미술관으로 재개관하며 디자인을 포함, 다양한 예술 장르를 넘나드는 감각적인 전시를 소개하며 그 영역을 확장하고 있다. 전시와 연계된 다양한 프로그램을 체험할 수 있으며, 일상 속에서 새로운 라이프스타일을 제안하는 문화 공간으로 자리하고 있다.",
+      "sido": "서울특별시",
+      "sigungu": "종로구",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=325"
+      ],
+      "evidence_id": "E5",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=451",
+        "fields": {
+          "name": "대림미술관",
+          "sido": "서울특별시",
+          "sigungu": "종로구",
+          "address": "서울특별시 종로구 자하문로 4길 21",
+          "ownership_type": "사립",
+          "adult_fee": "18000",
+          "youth_fee": "9000",
+          "child_fee": "6000",
+          "adult_fee_status": "BASE_FEE_PAID",
+          "weekday_open": "11:00",
+          "weekday_close": "20:00",
+          "holiday_open": "11:00",
+          "holiday_close": "20:00",
+          "closure_rule_raw": "월요일+추석 연휴"
+        },
+        "base_data_date": "2025-11-01",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    }
+  ],
+  "answer": "한림공원에는 야자수길과 울창한 송림, 사계절 꽃과 나무 경관이 있고, 분재와 돌을 감상하는 제주석분재원, 제주의 옛 모습을 재현한 재암민속마을 등이 있습니다. 공원에는 9가지 테마가 펼쳐진다고 소개되어 있습니다. [E1]",
+  "retrieval_status": "ok",
+  "answer_status": "answered",
+  "route": "hybrid",
+  "retry_count": 0,
+  "supervisor_verified": true,
+  "rerank_applied": true,
+  "retriever_errors": [],
+  "warnings": [],
+  "duration_ms": 201797.43,
+  "error_type": "",
+  "hit_at_1": 1,
+  "hit_at_3": 1,
+  "hit_at_5": 1,
+  "recall_at_5": 1.0,
+  "mrr_at_10": 1.0
+}

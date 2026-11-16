@@ -1,0 +1,835 @@
+{
+  "mode": "supervisor_full",
+  "question_id": "Q145",
+  "evidence": [
+    {
+      "museum_id": "M0235",
+      "name": "고양어린이박물관",
+      "document": "2016년에 개관한 고양어린이박물관은 경기 북부 최대 규모의 어린이박물관으로 12개의 기획·상설전시실 및 체험물로 구성되어 있다. 자연, 환경, 건축, 예술 등 다양한 테마로 구성된 체험 전시로 어린이 가족의 오감을 만족시키며, 어린이의 발달 과정에 맞추어 놀이보다 재미있는 교육을 선사한다. 그밖에 축제, 이벤트 등 다채로운 프로그램을 선보이며 늘 찾고 싶은 '어린이 가족 복합문화공간'으로 위상을 높이고 있다. 다양한 놀이와 체험을 통해 꿈과 미래를 만나는 어린이박물관",
+      "metadata": {
+        "longitude": 126.8309509,
+        "transport_notes": "지하철 3호선 화정역 2번출구",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/41/4070841_image2_1.jpg",
+        "closure_rule_raw": "월(휴관일인 월요일이 법정 공휴일에 해당하는 경우 다음날 휴관)+1월 1일+설 당일+추석 당일",
+        "amenities_raw": "전시실+사무실+교육실+수장고",
+        "holiday_open": "10:00",
+        "adult_fee_status": "BASE_FEE_PAID",
+        "latitude": 37.62948069,
+        "youth_fee": 5000.0,
+        "weekday_close": "17:00",
+        "adult_fee": 5000.0,
+        "sigungu": "고양시",
+        "sido": "경기도",
+        "ownership_type": "공립",
+        "image_copyright": "Type1",
+        "name": "고양어린이박물관",
+        "homepage_url": "http://www.goyangcm.or.kr",
+        "requires_manual_review": true,
+        "address": "경기도 고양시 덕양구 화중로 26",
+        "child_fee": 5000.0,
+        "fee_notes": "만36개월 미만+국민 기초수급생활자 및 자녀+한부모가족+장애인+국가유공자+독립유공자+5.18유공자+특수임무유공자+참전유공자+고엽제 후유증 환자+만65세이상 등",
+        "source_types": "BASE|TOUR_API",
+        "holiday_close": "17:00",
+        "weekday_open": "10:00"
+      },
+      "vector_rank": 1,
+      "bm25_rank": 1,
+      "vector_distance": 0.491050124168396,
+      "vector_score": null,
+      "bm25_score": 19.59420205540559,
+      "vector_document": "2016년에 개관한 고양어린이박물관은 경기 북부 최대 규모의 어린이박물관으로 12개의 기획·상설전시실 및 체험물로 구성되어 있다. 자연, 환경, 건축, 예술 등 다양한 테마로 구성된 체험 전시로 어린이 가족의 오감을 만족시키며, 어린이의 발달 과정에 맞추어 놀이보다 재미있는 교육을 선사한다. 그밖에 축제, 이벤트 등 다채로운 프로그램을 선보이며 늘 찾고 싶은 '어린이 가족 복합문화공간'으로 위상을 높이고 있다. 다양한 놀이와 체험을 통해 꿈과 미래를 만나는 어린이박물관",
+      "bm25_document": "2016년에 개관한 고양어린이박물관은 경기 북부 최대 규모의 어린이박물관으로 12개의 기획·상설전시실 및 체험물로 구성되어 있다. 자연, 환경, 건축, 예술 등 다양한 테마로 구성된 체험 전시로 어린이 가족의 오감을 만족시키며, 어린이의 발달 과정에 맞추어 놀이보다 재미있는 교육을 선사한다. 그밖에 축제, 이벤트 등 다채로운 프로그램을 선보이며 늘 찾고 싶은 '어린이 가족 복합문화공간'으로 위상을 높이고 있다. 다양한 놀이와 체험을 통해 꿈과 미래를 만나는 어린이박물관",
+      "best_span_id": "chroma:M0235",
+      "best_span_text": "2016년에 개관한 고양어린이박물관은 경기 북부 최대 규모의 어린이박물관으로 12개의 기획·상설전시실 및 체험물로 구성되어 있다. 자연, 환경, 건축, 예술 등 다양한 테마로 구성된 체험 전시로 어린이 가족의 오감을 만족시키며, 어린이의 발달 과정에 맞추어 놀이보다 재미있는 교육을 선사한다. 그밖에 축제, 이벤트 등 다채로운 프로그램을 선보이며 늘 찾고 싶은 '어린이 가족 복합문화공간'으로 위상을 높이고 있다. 다양한 놀이와 체험을 통해 꿈과 미래를 만나는 어린이박물관",
+      "fusion_score": 0.03278688524590164,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 1,
+      "name_match": true,
+      "rerank_score": 0.999777615070343,
+      "rank": 1,
+      "score": 0.999777615070343,
+      "score_type": "cross_encoder",
+      "distance": 0.491050124168396,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0235",
+      "source_doc_ids": [
+        "DOC-B0235-TOUR_API-2551413",
+        "DOC-B0235-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0235-TOUR_API-2551413",
+          "source_type": "TOUR_API",
+          "source_record_id": "2551413",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=117",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        },
+        {
+          "doc_id": "DOC-B0235-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0235",
+          "source_locator": "data/raw/museum_base_1070.csv#row=236",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 72,
+          "doc_ids": [
+            "DOC-B0235-TOUR_API-2551413"
+          ]
+        },
+        {
+          "start": 73,
+          "end": 163,
+          "doc_ids": [
+            "DOC-B0235-TOUR_API-2551413"
+          ]
+        },
+        {
+          "start": 164,
+          "end": 231,
+          "doc_ids": [
+            "DOC-B0235-TOUR_API-2551413"
+          ]
+        },
+        {
+          "start": 232,
+          "end": 264,
+          "doc_ids": [
+            "DOC-B0235-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=117",
+      "text": "2016년에 개관한 고양어린이박물관은 경기 북부 최대 규모의 어린이박물관으로 12개의 기획·상설전시실 및 체험물로 구성되어 있다. 자연, 환경, 건축, 예술 등 다양한 테마로 구성된 체험 전시로 어린이 가족의 오감을 만족시키며, 어린이의 발달 과정에 맞추어 놀이보다 재미있는 교육을 선사한다. 그밖에 축제, 이벤트 등 다채로운 프로그램을 선보이며 늘 찾고 싶은 '어린이 가족 복합문화공간'으로 위상을 높이고 있다. 다양한 놀이와 체험을 통해 꿈과 미래를 만나는 어린이박물관",
+      "sido": "경기도",
+      "sigungu": "고양시",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=117"
+      ],
+      "evidence_id": "E1",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=163",
+        "fields": {
+          "name": "고양어린이박물관",
+          "sido": "경기도",
+          "sigungu": "고양시",
+          "address": "경기도 고양시 덕양구 화중로 26",
+          "ownership_type": "공립",
+          "adult_fee": "5000",
+          "youth_fee": "5000",
+          "child_fee": "5000",
+          "adult_fee_status": "BASE_FEE_PAID",
+          "weekday_open": "10:00",
+          "weekday_close": "17:00",
+          "holiday_open": "10:00",
+          "holiday_close": "17:00",
+          "closure_rule_raw": "월(휴관일인 월요일이 법정 공휴일에 해당하는 경우 다음날 휴관)+1월 1일+설 당일+추석 당일",
+          "amenities_raw": "전시실+사무실+교육실+수장고"
+        },
+        "base_data_date": "2026-09-15",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0506",
+      "name": "대한민국역사박물관",
+      "document": "대한민국역사박물관은 19세기 말 개항기부터 오늘날까지의 대한민국의 행보를 기록한 박물관으로, 2012년 12월 26일에 개관한 최초의 국립 근현대사 박물관이다. 고난과 역경을 딛고 발전한 대한민국의 역사를 전시·교육·조사∙연구, 자료의 수집을 통해 국민과 공유하고자 설립되었다. 박물관은 대한민국의 역사를 시대별로 4개의 전시실로 나누어 설명하고 있다. 제1전시실에서는 ‘대한민국의 태동’, 제2전시실에서는 ‘대한민국의 기초 확립’, 제3전시실에서는 ‘대한민국의 성장과 발전’, 그리고 제4전시실에서는 ‘대한민국의 선진화, 세계로의 도약’을 주제로 전시가 구성되어 있다. 어린이 박물관에서는 어린이가 직접 체험하면서 근현대사를 배울 수 있다. 또한, 근현대사 전반에 걸친 다양한 주제의 특별 전시를 통해 대한민국 근현대사에 대한 심층적인 내용을 살펴볼 수 있다. 박물관에서 다양한 교육 프로그램과 문화행사도 운영하고 있다.",
+      "metadata": {
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/91/3082991_image2_1.JPG",
+        "ownership_type": "국립",
+        "requires_manual_review": true,
+        "holiday_open": "10:00",
+        "weekday_close": "18:00",
+        "child_fee": 0.0,
+        "closure_rule_raw": "1월 1일, 설날 당일, 추석 당일",
+        "holiday_close": "18:00",
+        "adult_fee": 0.0,
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "source_types": "TOUR_API",
+        "weekday_open": "10:00",
+        "name": "대한민국역사박물관",
+        "sigungu": "종로구",
+        "sido": "서울특별시",
+        "homepage_url": "http://www.much.go.kr",
+        "address": "서울특별시 종로구 세종대로 198",
+        "longitude": 126.9783394425,
+        "image_copyright": "Type3",
+        "latitude": 37.5737136067,
+        "youth_fee": 0.0
+      },
+      "vector_rank": null,
+      "bm25_rank": 2,
+      "vector_distance": null,
+      "vector_score": null,
+      "bm25_score": 14.821758197643733,
+      "vector_document": "",
+      "bm25_document": "대한민국역사박물관은 19세기 말 개항기부터 오늘날까지의 대한민국의 행보를 기록한 박물관으로, 2012년 12월 26일에 개관한 최초의 국립 근현대사 박물관이다. 고난과 역경을 딛고 발전한 대한민국의 역사를 전시·교육·조사∙연구, 자료의 수집을 통해 국민과 공유하고자 설립되었다. 박물관은 대한민국의 역사를 시대별로 4개의 전시실로 나누어 설명하고 있다. 제1전시실에서는 ‘대한민국의 태동’, 제2전시실에서는 ‘대한민국의 기초 확립’, 제3전시실에서는 ‘대한민국의 성장과 발전’, 그리고 제4전시실에서는 ‘대한민국의 선진화, 세계로의 도약’을 주제로 전시가 구성되어 있다. 어린이 박물관에서는 어린이가 직접 체험하면서 근현대사를 배울 수 있다. 또한, 근현대사 전반에 걸친 다양한 주제의 특별 전시를 통해 대한민국 근현대사에 대한 심층적인 내용을 살펴볼 수 있다. 박물관에서 다양한 교육 프로그램과 문화행사도 운영하고 있다.",
+      "best_span_id": "chroma:M0506",
+      "best_span_text": "대한민국역사박물관은 19세기 말 개항기부터 오늘날까지의 대한민국의 행보를 기록한 박물관으로, 2012년 12월 26일에 개관한 최초의 국립 근현대사 박물관이다. 고난과 역경을 딛고 발전한 대한민국의 역사를 전시·교육·조사∙연구, 자료의 수집을 통해 국민과 공유하고자 설립되었다. 박물관은 대한민국의 역사를 시대별로 4개의 전시실로 나누어 설명하고 있다. 제1전시실에서는 ‘대한민국의 태동’, 제2전시실에서는 ‘대한민국의 기초 확립’, 제3전시실에서는 ‘대한민국의 성장과 발전’, 그리고 제4전시실에서는 ‘대한민국의 선진화, 세계로의 도약’을 주제로 전시가 구성되어 있다. 어린이 박물관에서는 어린이가 직접 체험하면서 근현대사를 배울 수 있다. 또한, 근현대사 전반에 걸친 다양한 주제의 특별 전시를 통해 대한민국 근현대사에 대한 심층적인 내용을 살펴볼 수 있다. 박물관에서 다양한 교육 프로그램과 문화행사도 운영하고 있다.",
+      "fusion_score": 0.016129032258064516,
+      "retrieved_by": [
+        "bm25"
+      ],
+      "fusion_rank": 5,
+      "rerank_score": 0.08844484388828278,
+      "rank": 2,
+      "score": 0.08844484388828278,
+      "score_type": "cross_encoder",
+      "distance": null,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "bm25"
+      ],
+      "retriever": "bm25",
+      "span_id": "chroma:M0506",
+      "source_doc_ids": [
+        "DOC-B0506-TOUR_API-1849416"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0506-TOUR_API-1849416",
+          "source_type": "TOUR_API",
+          "source_record_id": "1849416",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=251",
+          "match_trust": "RECHECKED_BY_RULE_NOT_HUMAN_APPROVED"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 89,
+          "doc_ids": [
+            "DOC-B0506-TOUR_API-1849416"
+          ]
+        },
+        {
+          "start": 90,
+          "end": 155,
+          "doc_ids": [
+            "DOC-B0506-TOUR_API-1849416"
+          ]
+        },
+        {
+          "start": 156,
+          "end": 197,
+          "doc_ids": [
+            "DOC-B0506-TOUR_API-1849416"
+          ]
+        },
+        {
+          "start": 198,
+          "end": 319,
+          "doc_ids": [
+            "DOC-B0506-TOUR_API-1849416"
+          ]
+        },
+        {
+          "start": 320,
+          "end": 359,
+          "doc_ids": [
+            "DOC-B0506-TOUR_API-1849416"
+          ]
+        },
+        {
+          "start": 360,
+          "end": 426,
+          "doc_ids": [
+            "DOC-B0506-TOUR_API-1849416"
+          ]
+        },
+        {
+          "start": 427,
+          "end": 460,
+          "doc_ids": [
+            "DOC-B0506-TOUR_API-1849416"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=251",
+      "text": "대한민국역사박물관은 19세기 말 개항기부터 오늘날까지의 대한민국의 행보를 기록한 박물관으로, 2012년 12월 26일에 개관한 최초의 국립 근현대사 박물관이다. 고난과 역경을 딛고 발전한 대한민국의 역사를 전시·교육·조사∙연구, 자료의 수집을 통해 국민과 공유하고자 설립되었다. 박물관은 대한민국의 역사를 시대별로 4개의 전시실로 나누어 설명하고 있다. 제1전시실에서는 ‘대한민국의 태동’, 제2전시실에서는 ‘대한민국의 기초 확립’, 제3전시실에서는 ‘대한민국의 성장과 발전’, 그리고 제4전시실에서는 ‘대한민국의 선진화, 세계로의 도약’을 주제로 전시가 구성되어 있다. 어린이 박물관에서는 어린이가 직접 체험하면서 근현대사를 배울 수 있다. 또한, 근현대사 전반에 걸친 다양한 주제의 특별 전시를 통해 대한민국 근현대사에 대한 심층적인 내용을 살펴볼 수 있다. 박물관에서 다양한 교육 프로그램과 문화행사도 운영하고 있다.",
+      "sido": "서울특별시",
+      "sigungu": "종로구",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=251"
+      ],
+      "evidence_id": "E2",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=362",
+        "fields": {
+          "name": "대한민국역사박물관",
+          "sido": "서울특별시",
+          "sigungu": "종로구",
+          "address": "서울특별시 종로구 세종대로 198",
+          "ownership_type": "국립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "10:00",
+          "weekday_close": "18:00",
+          "holiday_open": "10:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "1월 1일, 설날 당일, 추석 당일"
+        },
+        "base_data_date": "2026-04-08",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0474",
+      "name": "경기북부어린이박물관",
+      "document": "소요산 자락에 자리 잡은 경기북부어린이박물관은 ‘숲에서 꿈꾸는 어린이’를 주제로 전시장을 구성하였다. 여기에는 어린이들이 자연 속에서 여러 생명들과 함께 몸으로 체험하며 꿈을 키우라는 마음이 담겨 있다. 숲을 주제로 과거의 숲, 현재의 숲, 미래의 숲이 펼쳐진 전시공간 중, 1층 ‘과거의 숲’에는 공룡숲·오름숲·바다숲(영아놀이터)이 있다. 공룡숲은 “동두천에도 공룡이 살았을까?”라는 질문과 함께 꼬마 브라키오를 따라 과거의 공룡 숲을 탐험하는 공간이고, 오름숲은 거대한 초식공룡 브라키오사우루스의 몸속을 오르내리는 신체 발달 대형 놀이터이며, 바다숲은 바닷속 해양 생물과 모험을 주제로 36개월 미만의 영아를 위해 꾸려진 체험전시실이다. 2층으로 올라가면 자연숲·오감숲·상상숲과 배움터가 ‘현재의 숲’과 ‘미래의 숲’을 이루고 있다. 자연숲은 ‘작아져야 보이는 세계’를 주제로 풀잎만큼 작아진 우리가 숲의 생명들을 가까이, 그리고 온몸으로 만나며 교감하는 공간이다. 오감숲은 다섯 가지 감각을 바탕으로 한 박물관 캐릭터들과 함께 숲 속의 감각을 일깨우는 체험전시장이다. 상상숲에서는 어린이와 함께하는 모두의 꿈과 상상을 키울 수 있도록 다양한 세대의 관람객을 위해 여러 생명들과의 공존을 다채롭게 풀어낸 기획전시를 주기적으로 선보인다. 그리고 배움터에서 자연과 생태계, 환경, 평화의 가치를 담은 교육과 실습을 통해 ‘미래의 숲’을 만들어 가고 있다. 또한 경기북부어린이박물관은 어린이가 주인공이 되어 나와 너, 우리를 이해하고 서로에 대한 존중의 가치를 확산하기 위해 다양한 전시·교육·출판·연구·교류 등의 프로그램을 기획하고 있다. 더불어 경기 북부의 교육지원청들과 연계한 학교 교육 프로그램, 어린이 문화예술교육 단체·지역 기관 및 활동가들과의 협업도 진행 중이다. 이를 바탕으로 어린이와 가족들이 ‘자연 놀이 숲’을 경험하며 꿈을 키우는 경기 북부 대표 문화예술공간으로 자리매김하고자 한다. 어린이가 주체가 되어 [숲에서 꿈꾸는 아이들]을 주제로 조성된 경기북부지역의 대표적인 문화 체험 공간 어린이박물관",
+      "metadata": {
+        "transport_notes": "1호선 소요산역 1번 출구+도보 10분",
+        "youth_fee": 4000.0,
+        "sigungu": "동두천시",
+        "closure_rule_raw": "월 (단, 월요일이 공휴일인 경우 당일은 개관하고 그 다음 첫번째 평일에 휴관)+1월1일+설날 및 추석 당일",
+        "sido": "경기도",
+        "requires_manual_review": true,
+        "latitude": 37.94467222,
+        "holiday_open": "10:00",
+        "homepage_url": "https://ngcm.ggcf.kr/",
+        "weekday_open": "10:00",
+        "image_copyright": "Type3",
+        "adult_fee": 4000.0,
+        "longitude": 127.0644517,
+        "adult_fee_status": "BASE_FEE_PAID",
+        "source_types": "BASE|TOUR_API",
+        "name": "경기북부어린이박물관",
+        "ownership_type": "공립",
+        "weekday_close": "17:50",
+        "child_fee": 4000.0,
+        "address": "경기도 동두천시 평화로 2910번길 46",
+        "holiday_close": "17:50",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/42/4005842_image2_1.jpg",
+        "fee_notes": "단체 2000원+경기도민 2000원+그외 홈페이지 참조",
+        "amenities_raw": "카페+뮤지엄샵+물품보관소+수유실+의무실"
+      },
+      "vector_rank": null,
+      "bm25_rank": 3,
+      "vector_distance": null,
+      "vector_score": null,
+      "bm25_score": 13.81933184676896,
+      "vector_document": "",
+      "bm25_document": "소요산 자락에 자리 잡은 경기북부어린이박물관은 ‘숲에서 꿈꾸는 어린이’를 주제로 전시장을 구성하였다. 여기에는 어린이들이 자연 속에서 여러 생명들과 함께 몸으로 체험하며 꿈을 키우라는 마음이 담겨 있다. 숲을 주제로 과거의 숲, 현재의 숲, 미래의 숲이 펼쳐진 전시공간 중, 1층 ‘과거의 숲’에는 공룡숲·오름숲·바다숲(영아놀이터)이 있다. 공룡숲은 “동두천에도 공룡이 살았을까?”라는 질문과 함께 꼬마 브라키오를 따라 과거의 공룡 숲을 탐험하는 공간이고, 오름숲은 거대한 초식공룡 브라키오사우루스의 몸속을 오르내리는 신체 발달 대형 놀이터이며, 바다숲은 바닷속 해양 생물과 모험을 주제로 36개월 미만의 영아를 위해 꾸려진 체험전시실이다. 2층으로 올라가면 자연숲·오감숲·상상숲과 배움터가 ‘현재의 숲’과 ‘미래의 숲’을 이루고 있다. 자연숲은 ‘작아져야 보이는 세계’를 주제로 풀잎만큼 작아진 우리가 숲의 생명들을 가까이, 그리고 온몸으로 만나며 교감하는 공간이다. 오감숲은 다섯 가지 감각을 바탕으로 한 박물관 캐릭터들과 함께 숲 속의 감각을 일깨우는 체험전시장이다. 상상숲에서는 어린이와 함께하는 모두의 꿈과 상상을 키울 수 있도록 다양한 세대의 관람객을 위해 여러 생명들과의 공존을 다채롭게 풀어낸 기획전시를 주기적으로 선보인다. 그리고 배움터에서 자연과 생태계, 환경, 평화의 가치를 담은 교육과 실습을 통해 ‘미래의 숲’을 만들어 가고 있다. 또한 경기북부어린이박물관은 어린이가 주인공이 되어 나와 너, 우리를 이해하고 서로에 대한 존중의 가치를 확산하기 위해 다양한 전시·교육·출판·연구·교류 등의 프로그램을 기획하고 있다. 더불어 경기 북부의 교육지원청들과 연계한 학교 교육 프로그램, 어린이 문화예술교육 단체·지역 기관 및 활동가들과의 협업도 진행 중이다. 이를 바탕으로 어린이와 가족들이 ‘자연 놀이 숲’을 경험하며 꿈을 키우는 경기 북부 대표 문화예술공간으로 자리매김하고자 한다. 어린이가 주체가 되어 [숲에서 꿈꾸는 아이들]을 주제로 조성된 경기북부지역의 대표적인 문화 체험 공간 어린이박물관",
+      "best_span_id": "chroma:M0474",
+      "best_span_text": "소요산 자락에 자리 잡은 경기북부어린이박물관은 ‘숲에서 꿈꾸는 어린이’를 주제로 전시장을 구성하였다. 여기에는 어린이들이 자연 속에서 여러 생명들과 함께 몸으로 체험하며 꿈을 키우라는 마음이 담겨 있다. 숲을 주제로 과거의 숲, 현재의 숲, 미래의 숲이 펼쳐진 전시공간 중, 1층 ‘과거의 숲’에는 공룡숲·오름숲·바다숲(영아놀이터)이 있다. 공룡숲은 “동두천에도 공룡이 살았을까?”라는 질문과 함께 꼬마 브라키오를 따라 과거의 공룡 숲을 탐험하는 공간이고, 오름숲은 거대한 초식공룡 브라키오사우루스의 몸속을 오르내리는 신체 발달 대형 놀이터이며, 바다숲은 바닷속 해양 생물과 모험을 주제로 36개월 미만의 영아를 위해 꾸려진 체험전시실이다. 2층으로 올라가면 자연숲·오감숲·상상숲과 배움터가 ‘현재의 숲’과 ‘미래의 숲’을 이루고 있다. 자연숲은 ‘작아져야 보이는 세계’를 주제로 풀잎만큼 작아진 우리가 숲의 생명들을 가까이, 그리고 온몸으로 만나며 교감하는 공간이다. 오감숲은 다섯 가지 감각을 바탕으로 한 박물관 캐릭터들과 함께 숲 속의 감각을 일깨우는 체험전시장이다. 상상숲에서는 어린이와 함께하는 모두의 꿈과 상상을 키울 수 있도록 다양한 세대의 관람객을 위해 여러 생명들과의 공존을 다채롭게 풀어낸 기획전시를 주기적으로 선보인다. 그리고 배움터에서 자연과 생태계, 환경, 평화의 가치를 담은 교육과 실습을 통해 ‘미래의 숲’을 만들어 가고 있다. 또한 경기북부어린이박물관은 어린이가 주인공이 되어 나와 너, 우리를 이해하고 서로에 대한 존중의 가치를 확산하기 위해 다양한 전시·교육·출판·연구·교류 등의 프로그램을 기획하고 있다. 더불어 경기 북부의 교육지원청들과 연계한 학교 교육 프로그램, 어린이 문화예술교육 단체·지역 기관 및 활동가들과의 협업도 진행 중이다. 이를 바탕으로 어린이와 가족들이 ‘자연 놀이 숲’을 경험하며 꿈을 키우는 경기 북부 대표 문화예술공간으로 자리매김하고자 한다. 어린이가 주체가 되어 [숲에서 꿈꾸는 아이들]을 주제로 조성된 경기북부지역의 대표적인 문화 체험 공간 어린이박물관",
+      "fusion_score": 0.015873015873015872,
+      "retrieved_by": [
+        "bm25"
+      ],
+      "fusion_rank": 7,
+      "rerank_score": 0.05217352509498596,
+      "rank": 3,
+      "score": 0.05217352509498596,
+      "score_type": "cross_encoder",
+      "distance": null,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "bm25"
+      ],
+      "retriever": "bm25",
+      "span_id": "chroma:M0474",
+      "source_doc_ids": [
+        "DOC-B0474-TOUR_API-2493039",
+        "DOC-B0474-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0474-TOUR_API-2493039",
+          "source_type": "TOUR_API",
+          "source_record_id": "2493039",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=233",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        },
+        {
+          "doc_id": "DOC-B0474-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0474",
+          "source_locator": "data/raw/museum_base_1070.csv#row=475",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 56,
+          "doc_ids": [
+            "DOC-B0474-TOUR_API-2493039"
+          ]
+        },
+        {
+          "start": 57,
+          "end": 113,
+          "doc_ids": [
+            "DOC-B0474-TOUR_API-2493039"
+          ]
+        },
+        {
+          "start": 114,
+          "end": 190,
+          "doc_ids": [
+            "DOC-B0474-TOUR_API-2493039"
+          ]
+        },
+        {
+          "start": 191,
+          "end": 358,
+          "doc_ids": [
+            "DOC-B0474-TOUR_API-2493039"
+          ]
+        },
+        {
+          "start": 359,
+          "end": 412,
+          "doc_ids": [
+            "DOC-B0474-TOUR_API-2493039"
+          ]
+        },
+        {
+          "start": 413,
+          "end": 486,
+          "doc_ids": [
+            "DOC-B0474-TOUR_API-2493039"
+          ]
+        },
+        {
+          "start": 487,
+          "end": 544,
+          "doc_ids": [
+            "DOC-B0474-TOUR_API-2493039"
+          ]
+        },
+        {
+          "start": 545,
+          "end": 637,
+          "doc_ids": [
+            "DOC-B0474-TOUR_API-2493039"
+          ]
+        },
+        {
+          "start": 638,
+          "end": 702,
+          "doc_ids": [
+            "DOC-B0474-TOUR_API-2493039"
+          ]
+        },
+        {
+          "start": 703,
+          "end": 805,
+          "doc_ids": [
+            "DOC-B0474-TOUR_API-2493039"
+          ]
+        },
+        {
+          "start": 806,
+          "end": 881,
+          "doc_ids": [
+            "DOC-B0474-TOUR_API-2493039"
+          ]
+        },
+        {
+          "start": 882,
+          "end": 952,
+          "doc_ids": [
+            "DOC-B0474-TOUR_API-2493039"
+          ]
+        },
+        {
+          "start": 953,
+          "end": 1016,
+          "doc_ids": [
+            "DOC-B0474-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=233",
+      "text": "소요산 자락에 자리 잡은 경기북부어린이박물관은 ‘숲에서 꿈꾸는 어린이’를 주제로 전시장을 구성하였다. 여기에는 어린이들이 자연 속에서 여러 생명들과 함께 몸으로 체험하며 꿈을 키우라는 마음이 담겨 있다. 숲을 주제로 과거의 숲, 현재의 숲, 미래의 숲이 펼쳐진 전시공간 중, 1층 ‘과거의 숲’에는 공룡숲·오름숲·바다숲(영아놀이터)이 있다. 공룡숲은 “동두천에도 공룡이 살았을까?”라는 질문과 함께 꼬마 브라키오를 따라 과거의 공룡 숲을 탐험하는 공간이고, 오름숲은 거대한 초식공룡 브라키오사우루스의 몸속을 오르내리는 신체 발달 대형 놀이터이며, 바다숲은 바닷속 해양 생물과 모험을 주제로 36개월 미만의 영아를 위해 꾸려진 체험전시실이다. 2층으로 올라가면 자연숲·오감숲·상상숲과 배움터가 ‘현재의 숲’과 ‘미래의 숲’을 이루고 있다. 자연숲은 ‘작아져야 보이는 세계’를 주제로 풀잎만큼 작아진 우리가 숲의 생명들을 가까이, 그리고 온몸으로 만나며 교감하는 공간이다. 오감숲은 다섯 가지 감각을 바탕으로 한 박물관 캐릭터들과 함께 숲 속의 감각을 일깨우는 체험전시장이다. 상상숲에서는 어린이와 함께하는 모두의 꿈과 상상을 키울 수 있도록 다양한 세대의 관람객을 위해 여러 생명들과의 공존을 다채롭게 풀어낸 기획전시를 주기적으로 선보인다. 그리고 배움터에서 자연과 생태계, 환경, 평화의 가치를 담은 교육과 실습을 통해 ‘미래의 숲’을 만들어 가고 있다. 또한 경기북부어린이박물관은 어린이가 주인공이 되어 나와 너, 우리를 이해하고 서로에 대한 존중의 가치를 확산하기 위해 다양한 전시·교육·출판·연구·교류 등의 프로그램을 기획하고 있다. 더불어 경기 북부의 교육지원청들과 연계한 학교 교육 프로그램, 어린이 문화예술교육 단체·지역 기관 및 활동가들과의 협업도 진행 중이다. 이를 바탕으로 어린이와 가족들이 ‘자연 놀이 숲’을 경험하며 꿈을 키우는 경기 북부 대표 문화예술공간으로 자리매김하고자 한다. 어린이가 주체가 되어 [숲에서 꿈꾸는 아이들]을 주제로 조성된 경기북부지역의 대표적인 문화 체험 공간 어린이박물관",
+      "sido": "경기도",
+      "sigungu": "동두천시",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=233"
+      ],
+      "evidence_id": "E3",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=345",
+        "fields": {
+          "name": "경기북부어린이박물관",
+          "sido": "경기도",
+          "sigungu": "동두천시",
+          "address": "경기도 동두천시 평화로 2910번길 46",
+          "ownership_type": "공립",
+          "adult_fee": "4000",
+          "youth_fee": "4000",
+          "child_fee": "4000",
+          "adult_fee_status": "BASE_FEE_PAID",
+          "weekday_open": "10:00",
+          "weekday_close": "17:50",
+          "holiday_open": "10:00",
+          "holiday_close": "17:50",
+          "closure_rule_raw": "월 (단, 월요일이 공휴일인 경우 당일은 개관하고 그 다음 첫번째 평일에 휴관)+1월1일+설날 및 추석 당일",
+          "amenities_raw": "카페+뮤지엄샵+물품보관소+수유실+의무실"
+        },
+        "base_data_date": "2026-03-12",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0490",
+      "name": "국립농업박물관",
+      "document": "국립농업박물관은 우리 농업의 어제와 오늘 그리고 내일을 만날 수 있는 다양한 전시와 실내외 농업 체험장으로 구성되어 있다. 농업의 모든 것을 선보이는 상설 전시와 다양한 측면을 포착한 기획 전시, 농촌의 가치를 체험할 수 있는 어린이박물관이 있다. 도심 속 여유를 만끽할 수 있는 야외 농업 체험장과 식물원, 곤충관은 물론, 직접 느끼며 깨닫는 교육 프로그램까지 다양한 볼거리와 즐길거리가 가득하다. ‘모두가 찾아오고 싶은 생활 문화 공간’을 추구하며 농업 농촌의 가치를 친근하게 전파하고자 한다. 한국 농업의 역사와 미래, 농촌문화와 식문화를 소개하는 국립박물관이다. 농업관과 어린이박물관, 식물원·곤충관·농업체험시설을 통해 농업의 여러 모습을 체험할 수 있다.",
+      "metadata": {
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "weekday_close": "18:00",
+        "latitude": 37.2748838338,
+        "ownership_type": "국립",
+        "holiday_open": "10:00",
+        "weekday_open": "10:00",
+        "name": "국립농업박물관",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/95/4056595_image2_1.jpg",
+        "holiday_close": "18:00",
+        "closure_rule_raw": "매주 월요일, 1월 1일, 설·추석 당일",
+        "homepage_url": "https://www.namuk.or.kr/sites/kr/index.do",
+        "child_fee": 0.0,
+        "longitude": 126.9849753448,
+        "sido": "경기도",
+        "sigungu": "수원시",
+        "image_copyright": "Type1",
+        "adult_fee": 0.0,
+        "address": "경기도 수원시 권선구 수인로 154",
+        "source_types": "TOUR_API|WEB_RESEARCH",
+        "youth_fee": 0.0,
+        "requires_manual_review": true
+      },
+      "vector_rank": null,
+      "bm25_rank": 6,
+      "vector_distance": null,
+      "vector_score": null,
+      "bm25_score": 13.050568786040586,
+      "vector_document": "",
+      "bm25_document": "국립농업박물관은 우리 농업의 어제와 오늘 그리고 내일을 만날 수 있는 다양한 전시와 실내외 농업 체험장으로 구성되어 있다. 농업의 모든 것을 선보이는 상설 전시와 다양한 측면을 포착한 기획 전시, 농촌의 가치를 체험할 수 있는 어린이박물관이 있다. 도심 속 여유를 만끽할 수 있는 야외 농업 체험장과 식물원, 곤충관은 물론, 직접 느끼며 깨닫는 교육 프로그램까지 다양한 볼거리와 즐길거리가 가득하다. ‘모두가 찾아오고 싶은 생활 문화 공간’을 추구하며 농업 농촌의 가치를 친근하게 전파하고자 한다. 한국 농업의 역사와 미래, 농촌문화와 식문화를 소개하는 국립박물관이다. 농업관과 어린이박물관, 식물원·곤충관·농업체험시설을 통해 농업의 여러 모습을 체험할 수 있다.",
+      "best_span_id": "chroma:M0490",
+      "best_span_text": "국립농업박물관은 우리 농업의 어제와 오늘 그리고 내일을 만날 수 있는 다양한 전시와 실내외 농업 체험장으로 구성되어 있다. 농업의 모든 것을 선보이는 상설 전시와 다양한 측면을 포착한 기획 전시, 농촌의 가치를 체험할 수 있는 어린이박물관이 있다. 도심 속 여유를 만끽할 수 있는 야외 농업 체험장과 식물원, 곤충관은 물론, 직접 느끼며 깨닫는 교육 프로그램까지 다양한 볼거리와 즐길거리가 가득하다. ‘모두가 찾아오고 싶은 생활 문화 공간’을 추구하며 농업 농촌의 가치를 친근하게 전파하고자 한다. 한국 농업의 역사와 미래, 농촌문화와 식문화를 소개하는 국립박물관이다. 농업관과 어린이박물관, 식물원·곤충관·농업체험시설을 통해 농업의 여러 모습을 체험할 수 있다.",
+      "fusion_score": 0.015151515151515152,
+      "retrieved_by": [
+        "bm25"
+      ],
+      "fusion_rank": 11,
+      "rerank_score": 0.046023644506931305,
+      "rank": 4,
+      "score": 0.046023644506931305,
+      "score_type": "cross_encoder",
+      "distance": null,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "bm25"
+      ],
+      "retriever": "bm25",
+      "span_id": "chroma:M0490",
+      "source_doc_ids": [
+        "DOC-B0490-TOUR_API-2944481",
+        "DOC-WEB-M0490-20261111"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0490-TOUR_API-2944481",
+          "source_type": "TOUR_API",
+          "source_record_id": "2944481",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=242",
+          "match_trust": "RECHECKED_BY_RULE_NOT_HUMAN_APPROVED"
+        },
+        {
+          "doc_id": "DOC-WEB-M0490-20261111",
+          "source_type": "WEB_RESEARCH",
+          "source_record_id": "RESEARCH-M0490",
+          "source_locator": "https://namuk.or.kr/kr/597/subview.do",
+          "source_url": "https://namuk.or.kr/kr/597/subview.do",
+          "match_trust": "WEB_SOURCE_REVIEWED_NOT_HUMAN_APPROVED"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 68,
+          "doc_ids": [
+            "DOC-B0490-TOUR_API-2944481"
+          ]
+        },
+        {
+          "start": 69,
+          "end": 138,
+          "doc_ids": [
+            "DOC-B0490-TOUR_API-2944481"
+          ]
+        },
+        {
+          "start": 139,
+          "end": 223,
+          "doc_ids": [
+            "DOC-B0490-TOUR_API-2944481"
+          ]
+        },
+        {
+          "start": 224,
+          "end": 278,
+          "doc_ids": [
+            "DOC-B0490-TOUR_API-2944481"
+          ]
+        },
+        {
+          "start": 279,
+          "end": 318,
+          "doc_ids": [
+            "DOC-WEB-M0490-20261111"
+          ]
+        },
+        {
+          "start": 319,
+          "end": 371,
+          "doc_ids": [
+            "DOC-WEB-M0490-20261111"
+          ]
+        }
+      ],
+      "source_urls": [
+        "https://namuk.or.kr/kr/597/subview.do"
+      ],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=242",
+      "text": "국립농업박물관은 우리 농업의 어제와 오늘 그리고 내일을 만날 수 있는 다양한 전시와 실내외 농업 체험장으로 구성되어 있다. 농업의 모든 것을 선보이는 상설 전시와 다양한 측면을 포착한 기획 전시, 농촌의 가치를 체험할 수 있는 어린이박물관이 있다. 도심 속 여유를 만끽할 수 있는 야외 농업 체험장과 식물원, 곤충관은 물론, 직접 느끼며 깨닫는 교육 프로그램까지 다양한 볼거리와 즐길거리가 가득하다. ‘모두가 찾아오고 싶은 생활 문화 공간’을 추구하며 농업 농촌의 가치를 친근하게 전파하고자 한다. 한국 농업의 역사와 미래, 농촌문화와 식문화를 소개하는 국립박물관이다. 농업관과 어린이박물관, 식물원·곤충관·농업체험시설을 통해 농업의 여러 모습을 체험할 수 있다.",
+      "sido": "경기도",
+      "sigungu": "수원시",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=242"
+      ],
+      "evidence_id": "E4",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=353",
+        "fields": {
+          "name": "국립농업박물관",
+          "sido": "경기도",
+          "sigungu": "수원시",
+          "address": "경기도 수원시 권선구 수인로 154",
+          "ownership_type": "국립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "10:00",
+          "weekday_close": "18:00",
+          "holiday_open": "10:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "매주 월요일, 1월 1일, 설·추석 당일"
+        },
+        "base_data_date": "2026-04-08",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M1023",
+      "name": "송파책박물관",
+      "document": "송파책박물관은 전국 최초의 공립 책 박물관으로, 책을 주제로 한 전시, 교육, 연구를 통해 대한민국 독서문화를 선도하고 있다. 책의 역사와 문화를 조명하는 상설전시를 비롯해 다양한 기획전시, 전문 강연과 학술연구, 체험형 교육 프로그램 등을 운영하며 책 전문 박물관으로서의 역할을 수행하고 있다. 1층 중앙부에 위치한 어울림홀은 계단식으로 구성된 다목적 공간으로, 강연과 공연 등 다양한 문화 행사가 열리며, 평소에는 책을 자유롭게 열람할 수 있는 장소로 활용된다. 이외에도 어린이 체험 전시실인 ‘북키움’, 전시와 연계한 교육이 진행되는 ‘키즈스튜디오’, 관람객을 위한 휴식 공간인 ‘카페’ 등이 마련되어 있다. 2층은 책과 독서를 주제로 한 상설 및 기획전시실, 미디어 라이브러리 등으로 구성되어 있다. 이처럼 송파책박물관은 책의 과거와 현재, 그리고 미래를 잇는 문화 플랫폼으로서, 책을 매개로 지식과 감성이 함께 자라는 특별한 공간이다. 전국 최초 공립 책박물관으로, 높아지는 문화수요를 충당하는 송파의 대표적 복합문화공간입니다.",
+      "metadata": {
+        "sigungu": "송파구",
+        "image_copyright": "Type1",
+        "ownership_type": "공립",
+        "youth_fee": 0.0,
+        "transport_notes": "지하철 8호선 송파역 4번 출구",
+        "holiday_close": "18:00",
+        "requires_manual_review": true,
+        "child_fee": 0.0,
+        "name": "송파책박물관",
+        "sido": "서울특별시",
+        "source_types": "BASE|TOUR_API",
+        "closure_rule_raw": "월+1월 1일+설 당일+추석 당일",
+        "homepage_url": "https://www.bookmuseum.go.kr/",
+        "holiday_open": "10:00",
+        "latitude": 37.49888418,
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/16/3499716_image2_1.jpg",
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "adult_fee": 0.0,
+        "address": "서울특별시 송파구 송파대로37길 77",
+        "weekday_close": "18:00",
+        "amenities_raw": "박물관",
+        "longitude": 127.1043834,
+        "weekday_open": "10:00"
+      },
+      "vector_rank": null,
+      "bm25_rank": 4,
+      "vector_distance": null,
+      "vector_score": null,
+      "bm25_score": 13.78514104975277,
+      "vector_document": "",
+      "bm25_document": "송파책박물관은 전국 최초의 공립 책 박물관으로, 책을 주제로 한 전시, 교육, 연구를 통해 대한민국 독서문화를 선도하고 있다. 책의 역사와 문화를 조명하는 상설전시를 비롯해 다양한 기획전시, 전문 강연과 학술연구, 체험형 교육 프로그램 등을 운영하며 책 전문 박물관으로서의 역할을 수행하고 있다. 1층 중앙부에 위치한 어울림홀은 계단식으로 구성된 다목적 공간으로, 강연과 공연 등 다양한 문화 행사가 열리며, 평소에는 책을 자유롭게 열람할 수 있는 장소로 활용된다. 이외에도 어린이 체험 전시실인 ‘북키움’, 전시와 연계한 교육이 진행되는 ‘키즈스튜디오’, 관람객을 위한 휴식 공간인 ‘카페’ 등이 마련되어 있다. 2층은 책과 독서를 주제로 한 상설 및 기획전시실, 미디어 라이브러리 등으로 구성되어 있다. 이처럼 송파책박물관은 책의 과거와 현재, 그리고 미래를 잇는 문화 플랫폼으로서, 책을 매개로 지식과 감성이 함께 자라는 특별한 공간이다. 전국 최초 공립 책박물관으로, 높아지는 문화수요를 충당하는 송파의 대표적 복합문화공간입니다.",
+      "best_span_id": "chroma:M1023",
+      "best_span_text": "송파책박물관은 전국 최초의 공립 책 박물관으로, 책을 주제로 한 전시, 교육, 연구를 통해 대한민국 독서문화를 선도하고 있다. 책의 역사와 문화를 조명하는 상설전시를 비롯해 다양한 기획전시, 전문 강연과 학술연구, 체험형 교육 프로그램 등을 운영하며 책 전문 박물관으로서의 역할을 수행하고 있다. 1층 중앙부에 위치한 어울림홀은 계단식으로 구성된 다목적 공간으로, 강연과 공연 등 다양한 문화 행사가 열리며, 평소에는 책을 자유롭게 열람할 수 있는 장소로 활용된다. 이외에도 어린이 체험 전시실인 ‘북키움’, 전시와 연계한 교육이 진행되는 ‘키즈스튜디오’, 관람객을 위한 휴식 공간인 ‘카페’ 등이 마련되어 있다. 2층은 책과 독서를 주제로 한 상설 및 기획전시실, 미디어 라이브러리 등으로 구성되어 있다. 이처럼 송파책박물관은 책의 과거와 현재, 그리고 미래를 잇는 문화 플랫폼으로서, 책을 매개로 지식과 감성이 함께 자라는 특별한 공간이다. 전국 최초 공립 책박물관으로, 높아지는 문화수요를 충당하는 송파의 대표적 복합문화공간입니다.",
+      "fusion_score": 0.015625,
+      "retrieved_by": [
+        "bm25"
+      ],
+      "fusion_rank": 9,
+      "rerank_score": 0.03501821681857109,
+      "rank": 5,
+      "score": 0.03501821681857109,
+      "score_type": "cross_encoder",
+      "distance": null,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "bm25"
+      ],
+      "retriever": "bm25",
+      "span_id": "chroma:M1023",
+      "source_doc_ids": [
+        "DOC-B1023-TOUR_API-2758152",
+        "DOC-B1023-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B1023-TOUR_API-2758152",
+          "source_type": "TOUR_API",
+          "source_record_id": "2758152",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=475",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        },
+        {
+          "doc_id": "DOC-B1023-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B1023",
+          "source_locator": "data/raw/museum_base_1070.csv#row=1024",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 70,
+          "doc_ids": [
+            "DOC-B1023-TOUR_API-2758152"
+          ]
+        },
+        {
+          "start": 71,
+          "end": 165,
+          "doc_ids": [
+            "DOC-B1023-TOUR_API-2758152"
+          ]
+        },
+        {
+          "start": 166,
+          "end": 260,
+          "doc_ids": [
+            "DOC-B1023-TOUR_API-2758152"
+          ]
+        },
+        {
+          "start": 261,
+          "end": 343,
+          "doc_ids": [
+            "DOC-B1023-TOUR_API-2758152"
+          ]
+        },
+        {
+          "start": 344,
+          "end": 395,
+          "doc_ids": [
+            "DOC-B1023-TOUR_API-2758152"
+          ]
+        },
+        {
+          "start": 396,
+          "end": 472,
+          "doc_ids": [
+            "DOC-B1023-TOUR_API-2758152"
+          ]
+        },
+        {
+          "start": 473,
+          "end": 524,
+          "doc_ids": [
+            "DOC-B1023-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=475",
+      "text": "송파책박물관은 전국 최초의 공립 책 박물관으로, 책을 주제로 한 전시, 교육, 연구를 통해 대한민국 독서문화를 선도하고 있다. 책의 역사와 문화를 조명하는 상설전시를 비롯해 다양한 기획전시, 전문 강연과 학술연구, 체험형 교육 프로그램 등을 운영하며 책 전문 박물관으로서의 역할을 수행하고 있다. 1층 중앙부에 위치한 어울림홀은 계단식으로 구성된 다목적 공간으로, 강연과 공연 등 다양한 문화 행사가 열리며, 평소에는 책을 자유롭게 열람할 수 있는 장소로 활용된다. 이외에도 어린이 체험 전시실인 ‘북키움’, 전시와 연계한 교육이 진행되는 ‘키즈스튜디오’, 관람객을 위한 휴식 공간인 ‘카페’ 등이 마련되어 있다. 2층은 책과 독서를 주제로 한 상설 및 기획전시실, 미디어 라이브러리 등으로 구성되어 있다. 이처럼 송파책박물관은 책의 과거와 현재, 그리고 미래를 잇는 문화 플랫폼으로서, 책을 매개로 지식과 감성이 함께 자라는 특별한 공간이다. 전국 최초 공립 책박물관으로, 높아지는 문화수요를 충당하는 송파의 대표적 복합문화공간입니다.",
+      "sido": "서울특별시",
+      "sigungu": "송파구",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=475"
+      ],
+      "evidence_id": "E5",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=703",
+        "fields": {
+          "name": "송파책박물관",
+          "sido": "서울특별시",
+          "sigungu": "송파구",
+          "address": "서울특별시 송파구 송파대로37길 77",
+          "ownership_type": "공립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "10:00",
+          "weekday_close": "18:00",
+          "holiday_open": "10:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "월+1월 1일+설 당일+추석 당일",
+          "amenities_raw": "박물관"
+        },
+        "base_data_date": "2023-01-11",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    }
+  ],
+  "answer": "고양어린이박물관의 체험 전시는 자연·환경·건축·예술 등 다양한 주제로 구성되어 있습니다.[E1]",
+  "retrieval_status": "ok",
+  "answer_status": "answered",
+  "route": "hybrid",
+  "retry_count": 0,
+  "supervisor_verified": true,
+  "rerank_applied": true,
+  "retriever_errors": [],
+  "warnings": [],
+  "duration_ms": 139012.84,
+  "error_type": "",
+  "hit_at_1": 1,
+  "hit_at_3": 1,
+  "hit_at_5": 1,
+  "recall_at_5": 1.0,
+  "mrr_at_10": 1.0
+}

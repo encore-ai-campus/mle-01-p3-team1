@@ -1,0 +1,747 @@
+{
+  "mode": "supervisor_full",
+  "question_id": "Q089",
+  "evidence": [
+    {
+      "museum_id": "M0115",
+      "name": "남해유배문학관",
+      "document": "남해유배문학관은 국내 최대 문학관으로 유배문학을 연구하고 계승 발전시키기 위해 2010년 11월 1일 개관되었다. 지하 1층, 지상 1층 규모로 유배문학 전시실과 연구실, 공연 및 학술 세미나 개최를 위한 다목적 강당, 편의시설 등이 들어서고 남해의 유배 역사와 유배문학을 시청할 수 있는 영상실도 갖추고 있다. 권력도 부귀영화도 모두 빼앗긴 채 ‘유배’라는 백척간두에 선 절망적인 삶 속에서도 문학과 예술을 꽃피웠던 우리 선조들의 숭고한 불멸의 혼을 기리기 위해 우리나라 최초로 건립된 남해유배문학관은 세월 속에 잊혀져 가는 유배객들을 기리는 문학의 진한 향기가 피어나는 공간이다. 국내 최대 문학관으로 최초로 유배객과 문학에 관한 전시공간",
+      "metadata": {
+        "fee_notes": "무료(단체할인+65세 이상+장애우+군민)",
+        "source_types": "BASE|TOUR_API",
+        "transport_notes": "버스:401,402,403,404,500+자가용 이용",
+        "address": "경상남도 남해군 남해읍 남해대로 2745",
+        "latitude": 34.83195858,
+        "adult_fee_status": "BASE_FEE_PAID",
+        "image_copyright": "Type1",
+        "longitude": 127.899138,
+        "child_fee": 1000.0,
+        "ownership_type": "공립",
+        "sido": "경상남도",
+        "weekday_close": "18:00",
+        "sigungu": "남해군",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/81/3553481_image2_1.jpg",
+        "closure_rule_raw": "화(단 화요일이 공휴일인 경우 당일은 개관하고 그 다음날 휴관)+설 당일+추석 당일",
+        "weekday_open": "09:00",
+        "youth_fee": 1500.0,
+        "holiday_open": "09:00",
+        "name": "남해유배문학관",
+        "adult_fee": 2000.0,
+        "requires_manual_review": true,
+        "holiday_close": "18:00",
+        "amenities_raw": "야외공원+주차장+화장실+물품보관소",
+        "homepage_url": "https://www.namhae.go.kr/tour/00008/00022/00168.web"
+      },
+      "vector_rank": 1,
+      "bm25_rank": 1,
+      "vector_distance": 0.38085436820983887,
+      "vector_score": null,
+      "bm25_score": 12.10674835521647,
+      "vector_document": "남해유배문학관은 국내 최대 문학관으로 유배문학을 연구하고 계승 발전시키기 위해 2010년 11월 1일 개관되었다. 지하 1층, 지상 1층 규모로 유배문학 전시실과 연구실, 공연 및 학술 세미나 개최를 위한 다목적 강당, 편의시설 등이 들어서고 남해의 유배 역사와 유배문학을 시청할 수 있는 영상실도 갖추고 있다. 권력도 부귀영화도 모두 빼앗긴 채 ‘유배’라는 백척간두에 선 절망적인 삶 속에서도 문학과 예술을 꽃피웠던 우리 선조들의 숭고한 불멸의 혼을 기리기 위해 우리나라 최초로 건립된 남해유배문학관은 세월 속에 잊혀져 가는 유배객들을 기리는 문학의 진한 향기가 피어나는 공간이다. 국내 최대 문학관으로 최초로 유배객과 문학에 관한 전시공간",
+      "bm25_document": "남해유배문학관은 국내 최대 문학관으로 유배문학을 연구하고 계승 발전시키기 위해 2010년 11월 1일 개관되었다. 지하 1층, 지상 1층 규모로 유배문학 전시실과 연구실, 공연 및 학술 세미나 개최를 위한 다목적 강당, 편의시설 등이 들어서고 남해의 유배 역사와 유배문학을 시청할 수 있는 영상실도 갖추고 있다. 권력도 부귀영화도 모두 빼앗긴 채 ‘유배’라는 백척간두에 선 절망적인 삶 속에서도 문학과 예술을 꽃피웠던 우리 선조들의 숭고한 불멸의 혼을 기리기 위해 우리나라 최초로 건립된 남해유배문학관은 세월 속에 잊혀져 가는 유배객들을 기리는 문학의 진한 향기가 피어나는 공간이다. 국내 최대 문학관으로 최초로 유배객과 문학에 관한 전시공간",
+      "best_span_id": "chroma:M0115",
+      "best_span_text": "남해유배문학관은 국내 최대 문학관으로 유배문학을 연구하고 계승 발전시키기 위해 2010년 11월 1일 개관되었다. 지하 1층, 지상 1층 규모로 유배문학 전시실과 연구실, 공연 및 학술 세미나 개최를 위한 다목적 강당, 편의시설 등이 들어서고 남해의 유배 역사와 유배문학을 시청할 수 있는 영상실도 갖추고 있다. 권력도 부귀영화도 모두 빼앗긴 채 ‘유배’라는 백척간두에 선 절망적인 삶 속에서도 문학과 예술을 꽃피웠던 우리 선조들의 숭고한 불멸의 혼을 기리기 위해 우리나라 최초로 건립된 남해유배문학관은 세월 속에 잊혀져 가는 유배객들을 기리는 문학의 진한 향기가 피어나는 공간이다. 국내 최대 문학관으로 최초로 유배객과 문학에 관한 전시공간",
+      "fusion_score": 0.03278688524590164,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 1,
+      "name_match": true,
+      "rerank_score": null,
+      "rank": 1,
+      "score": 0.03278688524590164,
+      "score_type": "rrf",
+      "distance": 0.38085436820983887,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0115",
+      "source_doc_ids": [
+        "DOC-B0115-TOUR_API-1267091",
+        "DOC-B0115-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0115-TOUR_API-1267091",
+          "source_type": "TOUR_API",
+          "source_record_id": "1267091",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=59",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        },
+        {
+          "doc_id": "DOC-B0115-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0115",
+          "source_locator": "data/raw/museum_base_1070.csv#row=116",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 63,
+          "doc_ids": [
+            "DOC-B0115-TOUR_API-1267091"
+          ]
+        },
+        {
+          "start": 64,
+          "end": 174,
+          "doc_ids": [
+            "DOC-B0115-TOUR_API-1267091"
+          ]
+        },
+        {
+          "start": 175,
+          "end": 326,
+          "doc_ids": [
+            "DOC-B0115-TOUR_API-1267091"
+          ]
+        },
+        {
+          "start": 327,
+          "end": 359,
+          "doc_ids": [
+            "DOC-B0115-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=59",
+      "text": "남해유배문학관은 국내 최대 문학관으로 유배문학을 연구하고 계승 발전시키기 위해 2010년 11월 1일 개관되었다. 지하 1층, 지상 1층 규모로 유배문학 전시실과 연구실, 공연 및 학술 세미나 개최를 위한 다목적 강당, 편의시설 등이 들어서고 남해의 유배 역사와 유배문학을 시청할 수 있는 영상실도 갖추고 있다. 권력도 부귀영화도 모두 빼앗긴 채 ‘유배’라는 백척간두에 선 절망적인 삶 속에서도 문학과 예술을 꽃피웠던 우리 선조들의 숭고한 불멸의 혼을 기리기 위해 우리나라 최초로 건립된 남해유배문학관은 세월 속에 잊혀져 가는 유배객들을 기리는 문학의 진한 향기가 피어나는 공간이다. 국내 최대 문학관으로 최초로 유배객과 문학에 관한 전시공간",
+      "sido": "경상남도",
+      "sigungu": "남해군",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=59"
+      ],
+      "evidence_id": "E1",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=75",
+        "fields": {
+          "name": "남해유배문학관",
+          "sido": "경상남도",
+          "sigungu": "남해군",
+          "address": "경상남도 남해군 남해읍 남해대로 2745",
+          "ownership_type": "공립",
+          "adult_fee": "2000",
+          "youth_fee": "1500",
+          "child_fee": "1000",
+          "adult_fee_status": "BASE_FEE_PAID",
+          "weekday_open": "09:00",
+          "weekday_close": "18:00",
+          "holiday_open": "09:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "화(단 화요일이 공휴일인 경우 당일은 개관하고 그 다음날 휴관)+설 당일+추석 당일",
+          "amenities_raw": "야외공원+주차장+화장실+물품보관소"
+        },
+        "base_data_date": "2026-10-13",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0593",
+      "name": "김해한글박물관",
+      "document": "김해 한글박물관은 한글 연구에 큰 발자취를 남긴 김해 출신 한글학자 이윤재 선생과 허웅 선생의 업적과 1443년 한글 창제 이후 한글문화와 역사를 재조명하는 공간이다. 한글의 소중함을 알리기 위해 설립되었으며 한글 창제의 배경과 원리를 다양한 시각 자료와 체험 프로그램을 통해 소개한다. 한글과 관련된 유물, 서적, 현대적 활용 사례 등도 전시되어 있어 한글의 발전사를 한눈에 이해할 수 있다. 전국 최초 공립 한글박물관으로 김해 지역의 문화적 상징물로 자리 잡고 있다. 한글 연구에 큰 발자취를 남긴 김해 출신의 국어학자 한뫼 이윤재(李允宰·1888∼1943), 눈뫼 허웅(許雄·1918∼2004) 선생의 업적을 기리고, 한글문화유산을 보존 전시하기 위해 ‘김해한글박물관’을 건립",
+      "metadata": {
+        "amenities_raw": "주차장+장애인화장실+옥상휴게공간",
+        "holiday_open": "09:00",
+        "youth_fee": 0.0,
+        "image_copyright": "Type1",
+        "latitude": 35.2313328,
+        "child_fee": 0.0,
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/92/3553592_image2_1.jpg",
+        "longitude": 128.8704559,
+        "requires_manual_review": true,
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "address": "경상남도 김해시 분성로 221",
+        "adult_fee": 0.0,
+        "weekday_open": "09:00",
+        "name": "김해한글박물관",
+        "sigungu": "김해시",
+        "holiday_close": "18:00",
+        "transport_notes": "버스 : 8, 21, 21-1, 30, 97, 98 김해보건소 정류소 하차, 경전철 : 수로왕릉역 1번 출구 도보 6분",
+        "homepage_url": "https://blog.naver.com/gimhaehangeul2021",
+        "closure_rule_raw": "월요일(공휴일인 월요일은 운영, 다음날 휴관)+1월1일+설 당일+추석 당일",
+        "weekday_close": "18:00",
+        "sido": "경상남도",
+        "source_types": "BASE|TOUR_API",
+        "ownership_type": "공립"
+      },
+      "vector_rank": 2,
+      "bm25_rank": 9,
+      "vector_distance": 0.5424236059188843,
+      "vector_score": null,
+      "bm25_score": 5.301253857125305,
+      "vector_document": "김해 한글박물관은 한글 연구에 큰 발자취를 남긴 김해 출신 한글학자 이윤재 선생과 허웅 선생의 업적과 1443년 한글 창제 이후 한글문화와 역사를 재조명하는 공간이다. 한글의 소중함을 알리기 위해 설립되었으며 한글 창제의 배경과 원리를 다양한 시각 자료와 체험 프로그램을 통해 소개한다. 한글과 관련된 유물, 서적, 현대적 활용 사례 등도 전시되어 있어 한글의 발전사를 한눈에 이해할 수 있다. 전국 최초 공립 한글박물관으로 김해 지역의 문화적 상징물로 자리 잡고 있다. 한글 연구에 큰 발자취를 남긴 김해 출신의 국어학자 한뫼 이윤재(李允宰·1888∼1943), 눈뫼 허웅(許雄·1918∼2004) 선생의 업적을 기리고, 한글문화유산을 보존 전시하기 위해 ‘김해한글박물관’을 건립",
+      "bm25_document": "김해 한글박물관은 한글 연구에 큰 발자취를 남긴 김해 출신 한글학자 이윤재 선생과 허웅 선생의 업적과 1443년 한글 창제 이후 한글문화와 역사를 재조명하는 공간이다. 한글의 소중함을 알리기 위해 설립되었으며 한글 창제의 배경과 원리를 다양한 시각 자료와 체험 프로그램을 통해 소개한다. 한글과 관련된 유물, 서적, 현대적 활용 사례 등도 전시되어 있어 한글의 발전사를 한눈에 이해할 수 있다. 전국 최초 공립 한글박물관으로 김해 지역의 문화적 상징물로 자리 잡고 있다. 한글 연구에 큰 발자취를 남긴 김해 출신의 국어학자 한뫼 이윤재(李允宰·1888∼1943), 눈뫼 허웅(許雄·1918∼2004) 선생의 업적을 기리고, 한글문화유산을 보존 전시하기 위해 ‘김해한글박물관’을 건립",
+      "best_span_id": "chroma:M0593",
+      "best_span_text": "김해 한글박물관은 한글 연구에 큰 발자취를 남긴 김해 출신 한글학자 이윤재 선생과 허웅 선생의 업적과 1443년 한글 창제 이후 한글문화와 역사를 재조명하는 공간이다. 한글의 소중함을 알리기 위해 설립되었으며 한글 창제의 배경과 원리를 다양한 시각 자료와 체험 프로그램을 통해 소개한다. 한글과 관련된 유물, 서적, 현대적 활용 사례 등도 전시되어 있어 한글의 발전사를 한눈에 이해할 수 있다. 전국 최초 공립 한글박물관으로 김해 지역의 문화적 상징물로 자리 잡고 있다. 한글 연구에 큰 발자취를 남긴 김해 출신의 국어학자 한뫼 이윤재(李允宰·1888∼1943), 눈뫼 허웅(許雄·1918∼2004) 선생의 업적을 기리고, 한글문화유산을 보존 전시하기 위해 ‘김해한글박물관’을 건립",
+      "fusion_score": 0.030621785881252923,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 2,
+      "rerank_score": null,
+      "rank": 2,
+      "score": 0.030621785881252923,
+      "score_type": "rrf",
+      "distance": 0.5424236059188843,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0593",
+      "source_doc_ids": [
+        "DOC-B0593-TOUR_API-3433217",
+        "DOC-B0593-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0593-TOUR_API-3433217",
+          "source_type": "TOUR_API",
+          "source_record_id": "3433217",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=296",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        },
+        {
+          "doc_id": "DOC-B0593-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0593",
+          "source_locator": "data/raw/museum_base_1070.csv#row=594",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 93,
+          "doc_ids": [
+            "DOC-B0593-TOUR_API-3433217"
+          ]
+        },
+        {
+          "start": 94,
+          "end": 160,
+          "doc_ids": [
+            "DOC-B0593-TOUR_API-3433217"
+          ]
+        },
+        {
+          "start": 161,
+          "end": 220,
+          "doc_ids": [
+            "DOC-B0593-TOUR_API-3433217"
+          ]
+        },
+        {
+          "start": 221,
+          "end": 263,
+          "doc_ids": [
+            "DOC-B0593-TOUR_API-3433217"
+          ]
+        },
+        {
+          "start": 264,
+          "end": 381,
+          "doc_ids": [
+            "DOC-B0593-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=296",
+      "text": "김해 한글박물관은 한글 연구에 큰 발자취를 남긴 김해 출신 한글학자 이윤재 선생과 허웅 선생의 업적과 1443년 한글 창제 이후 한글문화와 역사를 재조명하는 공간이다. 한글의 소중함을 알리기 위해 설립되었으며 한글 창제의 배경과 원리를 다양한 시각 자료와 체험 프로그램을 통해 소개한다. 한글과 관련된 유물, 서적, 현대적 활용 사례 등도 전시되어 있어 한글의 발전사를 한눈에 이해할 수 있다. 전국 최초 공립 한글박물관으로 김해 지역의 문화적 상징물로 자리 잡고 있다. 한글 연구에 큰 발자취를 남긴 김해 출신의 국어학자 한뫼 이윤재(李允宰·1888∼1943), 눈뫼 허웅(許雄·1918∼2004) 선생의 업적을 기리고, 한글문화유산을 보존 전시하기 위해 ‘김해한글박물관’을 건립",
+      "sido": "경상남도",
+      "sigungu": "김해시",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=296"
+      ],
+      "evidence_id": "E2",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=413",
+        "fields": {
+          "name": "김해한글박물관",
+          "sido": "경상남도",
+          "sigungu": "김해시",
+          "address": "경상남도 김해시 분성로 221",
+          "ownership_type": "공립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "09:00",
+          "weekday_close": "18:00",
+          "holiday_open": "09:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "월요일(공휴일인 월요일은 운영, 다음날 휴관)+1월1일+설 당일+추석 당일",
+          "amenities_raw": "주차장+장애인화장실+옥상휴게공간"
+        },
+        "base_data_date": "2025-12-24",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0432",
+      "name": "청마기념관",
+      "document": "거제시는 한국 근대문학사의 거목인 청마 유치환이 태어난 둔덕면 방하마을에 그의 문학 정신을 기리고 그 업적을 고양하기 위하여 2008년 3,853㎡ 부지에 청마기념관을 건립하였다. 1층은 청마의 문학을 감상하는 공간이며 2층은 삶의 자취에 대한 기록을 관람할 수는 공간이다. 야외 공간에도 시비와 생가를 만들어 놓아 볼거리가 다양하다. 기념관 입구에 있는 빨간 우체통은 학창 시절 외웠던 청마 시 『행복』을 자연스레 읊조리게 한다. 청마 기념사업회 주관으로 해마다 가을이면 거제시를 대표하는 문화축제인 ‘청마 문학제’가 열린다. 1967년 교통사고로 사망한 청마의 묘소와 청마시비동산은 청마의 길로 잘 조성된 산책로로 꾸며져 있다.",
+      "metadata": {
+        "adult_fee": 0.0,
+        "name": "청마기념관",
+        "sigungu": "거제시",
+        "requires_manual_review": true,
+        "image_copyright": "Type1",
+        "holiday_open": "09:00",
+        "weekday_open": "09:00",
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "homepage_url": "http://www.cheongma.or.kr",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/35/3514935_image2_1.jpg",
+        "child_fee": 0.0,
+        "youth_fee": 0.0,
+        "ownership_type": "공립",
+        "holiday_close": "18:00",
+        "source_types": "TOUR_API",
+        "weekday_close": "18:00",
+        "address": "경상남도 거제시 둔덕면 방하2길 6",
+        "sido": "경상남도",
+        "closure_rule_raw": "월요일+1월1일+설당일+추석 당일",
+        "latitude": 34.8548686,
+        "longitude": 128.5171215
+      },
+      "vector_rank": 5,
+      "bm25_rank": 12,
+      "vector_distance": 0.5691400170326233,
+      "vector_score": null,
+      "bm25_score": 5.007169501753504,
+      "vector_document": "거제시는 한국 근대문학사의 거목인 청마 유치환이 태어난 둔덕면 방하마을에 그의 문학 정신을 기리고 그 업적을 고양하기 위하여 2008년 3,853㎡ 부지에 청마기념관을 건립하였다. 1층은 청마의 문학을 감상하는 공간이며 2층은 삶의 자취에 대한 기록을 관람할 수는 공간이다. 야외 공간에도 시비와 생가를 만들어 놓아 볼거리가 다양하다. 기념관 입구에 있는 빨간 우체통은 학창 시절 외웠던 청마 시 『행복』을 자연스레 읊조리게 한다. 청마 기념사업회 주관으로 해마다 가을이면 거제시를 대표하는 문화축제인 ‘청마 문학제’가 열린다. 1967년 교통사고로 사망한 청마의 묘소와 청마시비동산은 청마의 길로 잘 조성된 산책로로 꾸며져 있다.",
+      "bm25_document": "거제시는 한국 근대문학사의 거목인 청마 유치환이 태어난 둔덕면 방하마을에 그의 문학 정신을 기리고 그 업적을 고양하기 위하여 2008년 3,853㎡ 부지에 청마기념관을 건립하였다. 1층은 청마의 문학을 감상하는 공간이며 2층은 삶의 자취에 대한 기록을 관람할 수는 공간이다. 야외 공간에도 시비와 생가를 만들어 놓아 볼거리가 다양하다. 기념관 입구에 있는 빨간 우체통은 학창 시절 외웠던 청마 시 『행복』을 자연스레 읊조리게 한다. 청마 기념사업회 주관으로 해마다 가을이면 거제시를 대표하는 문화축제인 ‘청마 문학제’가 열린다. 1967년 교통사고로 사망한 청마의 묘소와 청마시비동산은 청마의 길로 잘 조성된 산책로로 꾸며져 있다.",
+      "best_span_id": "chroma:M0432",
+      "best_span_text": "거제시는 한국 근대문학사의 거목인 청마 유치환이 태어난 둔덕면 방하마을에 그의 문학 정신을 기리고 그 업적을 고양하기 위하여 2008년 3,853㎡ 부지에 청마기념관을 건립하였다. 1층은 청마의 문학을 감상하는 공간이며 2층은 삶의 자취에 대한 기록을 관람할 수는 공간이다. 야외 공간에도 시비와 생가를 만들어 놓아 볼거리가 다양하다. 기념관 입구에 있는 빨간 우체통은 학창 시절 외웠던 청마 시 『행복』을 자연스레 읊조리게 한다. 청마 기념사업회 주관으로 해마다 가을이면 거제시를 대표하는 문화축제인 ‘청마 문학제’가 열린다. 1967년 교통사고로 사망한 청마의 묘소와 청마시비동산은 청마의 길로 잘 조성된 산책로로 꾸며져 있다.",
+      "fusion_score": 0.029273504273504274,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 3,
+      "rerank_score": null,
+      "rank": 3,
+      "score": 0.029273504273504274,
+      "score_type": "rrf",
+      "distance": 0.5691400170326233,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0432",
+      "source_doc_ids": [
+        "DOC-B0432-TOUR_API-2755674"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0432-TOUR_API-2755674",
+          "source_type": "TOUR_API",
+          "source_record_id": "2755674",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=206",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 100,
+          "doc_ids": [
+            "DOC-B0432-TOUR_API-2755674"
+          ]
+        },
+        {
+          "start": 101,
+          "end": 153,
+          "doc_ids": [
+            "DOC-B0432-TOUR_API-2755674"
+          ]
+        },
+        {
+          "start": 154,
+          "end": 187,
+          "doc_ids": [
+            "DOC-B0432-TOUR_API-2755674"
+          ]
+        },
+        {
+          "start": 188,
+          "end": 241,
+          "doc_ids": [
+            "DOC-B0432-TOUR_API-2755674"
+          ]
+        },
+        {
+          "start": 242,
+          "end": 295,
+          "doc_ids": [
+            "DOC-B0432-TOUR_API-2755674"
+          ]
+        },
+        {
+          "start": 296,
+          "end": 353,
+          "doc_ids": [
+            "DOC-B0432-TOUR_API-2755674"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=206",
+      "text": "거제시는 한국 근대문학사의 거목인 청마 유치환이 태어난 둔덕면 방하마을에 그의 문학 정신을 기리고 그 업적을 고양하기 위하여 2008년 3,853㎡ 부지에 청마기념관을 건립하였다. 1층은 청마의 문학을 감상하는 공간이며 2층은 삶의 자취에 대한 기록을 관람할 수는 공간이다. 야외 공간에도 시비와 생가를 만들어 놓아 볼거리가 다양하다. 기념관 입구에 있는 빨간 우체통은 학창 시절 외웠던 청마 시 『행복』을 자연스레 읊조리게 한다. 청마 기념사업회 주관으로 해마다 가을이면 거제시를 대표하는 문화축제인 ‘청마 문학제’가 열린다. 1967년 교통사고로 사망한 청마의 묘소와 청마시비동산은 청마의 길로 잘 조성된 산책로로 꾸며져 있다.",
+      "sido": "경상남도",
+      "sigungu": "거제시",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=206"
+      ],
+      "evidence_id": "E3",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=306",
+        "fields": {
+          "name": "청마기념관",
+          "sido": "경상남도",
+          "sigungu": "거제시",
+          "address": "경상남도 거제시 둔덕면 방하2길 6",
+          "ownership_type": "공립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "09:00",
+          "weekday_close": "18:00",
+          "holiday_open": "09:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "월요일+1월1일+설당일+추석 당일"
+        },
+        "base_data_date": "2026-03-26",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0471",
+      "name": "최용신기념관",
+      "document": "경기도 안산시 본오동에 있는 최용신기념관은 일제강점기 농촌계몽운동을 위해 일생을 헌신하고 교육 활동을 통해 애국심을 심어준 여성 독립운동가 최용신 선생을 기리고자 2007년 11월에 건립한 공립 박물관이며 국가보훈처 지정 현충 시설이다. 최용신 선생이 샘골 마을 사람들과 함께 세운 샘골 강습소가 있던 곳에 건립되었으며 지층에는 최용신의 삶과 정신을 영원히 기억하는 주제의 전시로 구성되어 있다. 그리고 기념관이 위치한 상록수공원 내에는 최용신 묘소가 함께 자리하고 있다. 최용신기념관은 애국계몽독립운동가이셨던 최용신 선생을 기리고자 안산시가 건립한 공립박물관이자 국가보훈처 지정 현충시설(제13-1-23호)",
+      "metadata": {
+        "address": "경기도 안산시 상록구 샘골서길 64",
+        "youth_fee": 0.0,
+        "name": "최용신기념관",
+        "weekday_open": "09:00",
+        "image_copyright": "Type3",
+        "weekday_close": "18:00",
+        "holiday_open": "09:00",
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "source_types": "BASE|TOUR_API",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/14/4104914_image2_1.jpg",
+        "sigungu": "안산시",
+        "latitude": 37.2996048,
+        "transport_notes": "4호선 상록수역 1번 출구 (500m)",
+        "homepage_url": "https://www.ansan.go.kr/choiyongshin",
+        "closure_rule_raw": "월요일+1월1일+설연휴+추석연휴",
+        "ownership_type": "공립",
+        "adult_fee": 0.0,
+        "holiday_close": "18:00",
+        "longitude": 126.8627317,
+        "child_fee": 0.0,
+        "requires_manual_review": true,
+        "sido": "경기도"
+      },
+      "vector_rank": null,
+      "bm25_rank": 2,
+      "vector_distance": null,
+      "vector_score": null,
+      "bm25_score": 7.529544691602618,
+      "vector_document": "",
+      "bm25_document": "경기도 안산시 본오동에 있는 최용신기념관은 일제강점기 농촌계몽운동을 위해 일생을 헌신하고 교육 활동을 통해 애국심을 심어준 여성 독립운동가 최용신 선생을 기리고자 2007년 11월에 건립한 공립 박물관이며 국가보훈처 지정 현충 시설이다. 최용신 선생이 샘골 마을 사람들과 함께 세운 샘골 강습소가 있던 곳에 건립되었으며 지층에는 최용신의 삶과 정신을 영원히 기억하는 주제의 전시로 구성되어 있다. 그리고 기념관이 위치한 상록수공원 내에는 최용신 묘소가 함께 자리하고 있다. 최용신기념관은 애국계몽독립운동가이셨던 최용신 선생을 기리고자 안산시가 건립한 공립박물관이자 국가보훈처 지정 현충시설(제13-1-23호)",
+      "best_span_id": "chroma:M0471",
+      "best_span_text": "경기도 안산시 본오동에 있는 최용신기념관은 일제강점기 농촌계몽운동을 위해 일생을 헌신하고 교육 활동을 통해 애국심을 심어준 여성 독립운동가 최용신 선생을 기리고자 2007년 11월에 건립한 공립 박물관이며 국가보훈처 지정 현충 시설이다. 최용신 선생이 샘골 마을 사람들과 함께 세운 샘골 강습소가 있던 곳에 건립되었으며 지층에는 최용신의 삶과 정신을 영원히 기억하는 주제의 전시로 구성되어 있다. 그리고 기념관이 위치한 상록수공원 내에는 최용신 묘소가 함께 자리하고 있다. 최용신기념관은 애국계몽독립운동가이셨던 최용신 선생을 기리고자 안산시가 건립한 공립박물관이자 국가보훈처 지정 현충시설(제13-1-23호)",
+      "fusion_score": 0.016129032258064516,
+      "retrieved_by": [
+        "bm25"
+      ],
+      "fusion_rank": 4,
+      "rerank_score": null,
+      "rank": 4,
+      "score": 0.016129032258064516,
+      "score_type": "rrf",
+      "distance": null,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "bm25"
+      ],
+      "retriever": "bm25",
+      "span_id": "chroma:M0471",
+      "source_doc_ids": [
+        "DOC-B0471-TOUR_API-2362944",
+        "DOC-B0471-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0471-TOUR_API-2362944",
+          "source_type": "TOUR_API",
+          "source_record_id": "2362944",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=231",
+          "match_trust": "RECHECKED_BY_RULE_NOT_HUMAN_APPROVED"
+        },
+        {
+          "doc_id": "DOC-B0471-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0471",
+          "source_locator": "data/raw/museum_base_1070.csv#row=472",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 132,
+          "doc_ids": [
+            "DOC-B0471-TOUR_API-2362944"
+          ]
+        },
+        {
+          "start": 133,
+          "end": 221,
+          "doc_ids": [
+            "DOC-B0471-TOUR_API-2362944"
+          ]
+        },
+        {
+          "start": 222,
+          "end": 264,
+          "doc_ids": [
+            "DOC-B0471-TOUR_API-2362944"
+          ]
+        },
+        {
+          "start": 265,
+          "end": 340,
+          "doc_ids": [
+            "DOC-B0471-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=231",
+      "text": "경기도 안산시 본오동에 있는 최용신기념관은 일제강점기 농촌계몽운동을 위해 일생을 헌신하고 교육 활동을 통해 애국심을 심어준 여성 독립운동가 최용신 선생을 기리고자 2007년 11월에 건립한 공립 박물관이며 국가보훈처 지정 현충 시설이다. 최용신 선생이 샘골 마을 사람들과 함께 세운 샘골 강습소가 있던 곳에 건립되었으며 지층에는 최용신의 삶과 정신을 영원히 기억하는 주제의 전시로 구성되어 있다. 그리고 기념관이 위치한 상록수공원 내에는 최용신 묘소가 함께 자리하고 있다. 최용신기념관은 애국계몽독립운동가이셨던 최용신 선생을 기리고자 안산시가 건립한 공립박물관이자 국가보훈처 지정 현충시설(제13-1-23호)",
+      "sido": "경기도",
+      "sigungu": "안산시",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=231"
+      ],
+      "evidence_id": "E4",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=342",
+        "fields": {
+          "name": "최용신기념관",
+          "sido": "경기도",
+          "sigungu": "안산시",
+          "address": "경기도 안산시 상록구 샘골서길 64",
+          "ownership_type": "공립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "09:00",
+          "weekday_close": "18:00",
+          "holiday_open": "09:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "월요일+1월1일+설연휴+추석연휴"
+        },
+        "base_data_date": "2026-03-05",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M1013",
+      "name": "양구인문학박물관",
+      "document": "양구인문학박물관은 철학자 김형석·안병욱 선생과 시인 이해인 수녀의 사상과 문학정신을 바탕으로 설립되었다. 이 박물관은 군민과 관광객 모두에게 수준 높은 인문학 콘텐츠를 제공하며, 양구의 문화 인프라 확대에 기여하고 있다. 철학적 사고와 인문학적 가치를 함양할 수 있는 공간으로, 양구가 문화도시로 도약하는 데 중추적인 역할을 하고 있다. 양구인문학박물관은 문학·철학인의 창작활동을 지원하며, 군민의 문화 향유권 증진에도 기여하고 있다. 2012년 12월 1일 개관한 양구인문학박물관은 한국 철학의 거장 김형석, 안병욱 박사님의 철학사상과 한국 문단을 대표하는 양구 출신 이해인 수녀님의 문학정신이 더해져 문화예술의 인프라가 확대 구축되어 양구 홍보는 물론, 고품격의 문학을 양구군민 뿐만 아니라 관광객들에게 선사하게 되었습니다.",
+      "metadata": {
+        "sido": "강원특별자치도",
+        "amenities_raw": "자동차전기충전소+테라스 등",
+        "child_fee": 3000.0,
+        "ownership_type": "공립",
+        "holiday_close": "18:00",
+        "name": "양구인문학박물관",
+        "requires_manual_review": true,
+        "adult_fee": 3000.0,
+        "closure_rule_raw": "월+1월 1일+설날 오전+추석 오전",
+        "address": "강원특별자치도 양구군 양구읍 파로호로 869번길 101",
+        "weekday_close": "18:00",
+        "longitude": 127.981208,
+        "adult_fee_status": "BASE_FEE_PAID",
+        "sigungu": "양구군",
+        "latitude": 38.121961,
+        "fee_notes": "지역상품권 환급+6세이하+65세 이상+장애인+국민기초생활수급자+명예군민 등 면제",
+        "youth_fee": 3000.0,
+        "holiday_open": "10:00",
+        "weekday_open": "10:00",
+        "homepage_url": "http://www.ymunhak.or.kr/",
+        "source_types": "BASE|TOUR_API",
+        "image_copyright": "Type1",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/08/4119608_image2_1.jpg"
+      },
+      "vector_rank": 3,
+      "bm25_rank": null,
+      "vector_distance": 0.5673243403434753,
+      "vector_score": null,
+      "bm25_score": null,
+      "vector_document": "양구인문학박물관은 철학자 김형석·안병욱 선생과 시인 이해인 수녀의 사상과 문학정신을 바탕으로 설립되었다. 이 박물관은 군민과 관광객 모두에게 수준 높은 인문학 콘텐츠를 제공하며, 양구의 문화 인프라 확대에 기여하고 있다. 철학적 사고와 인문학적 가치를 함양할 수 있는 공간으로, 양구가 문화도시로 도약하는 데 중추적인 역할을 하고 있다. 양구인문학박물관은 문학·철학인의 창작활동을 지원하며, 군민의 문화 향유권 증진에도 기여하고 있다. 2012년 12월 1일 개관한 양구인문학박물관은 한국 철학의 거장 김형석, 안병욱 박사님의 철학사상과 한국 문단을 대표하는 양구 출신 이해인 수녀님의 문학정신이 더해져 문화예술의 인프라가 확대 구축되어 양구 홍보는 물론, 고품격의 문학을 양구군민 뿐만 아니라 관광객들에게 선사하게 되었습니다.",
+      "bm25_document": "",
+      "best_span_id": null,
+      "best_span_text": null,
+      "fusion_score": 0.015873015873015872,
+      "retrieved_by": [
+        "vector"
+      ],
+      "fusion_rank": 5,
+      "rerank_score": null,
+      "rank": 5,
+      "score": 0.015873015873015872,
+      "score_type": "rrf",
+      "distance": 0.5673243403434753,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector"
+      ],
+      "retriever": "vector",
+      "source_doc_ids": [
+        "DOC-B1013-TOUR_API-2568829",
+        "DOC-B1013-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B1013-TOUR_API-2568829",
+          "source_type": "TOUR_API",
+          "source_record_id": "2568829",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=471",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        },
+        {
+          "doc_id": "DOC-B1013-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B1013",
+          "source_locator": "data/raw/museum_base_1070.csv#row=1014",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 58,
+          "doc_ids": [
+            "DOC-B1013-TOUR_API-2568829"
+          ]
+        },
+        {
+          "start": 59,
+          "end": 123,
+          "doc_ids": [
+            "DOC-B1013-TOUR_API-2568829"
+          ]
+        },
+        {
+          "start": 124,
+          "end": 188,
+          "doc_ids": [
+            "DOC-B1013-TOUR_API-2568829"
+          ]
+        },
+        {
+          "start": 189,
+          "end": 243,
+          "doc_ids": [
+            "DOC-B1013-TOUR_API-2568829"
+          ]
+        },
+        {
+          "start": 244,
+          "end": 407,
+          "doc_ids": [
+            "DOC-B1013-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=471",
+      "text": "양구인문학박물관은 철학자 김형석·안병욱 선생과 시인 이해인 수녀의 사상과 문학정신을 바탕으로 설립되었다. 이 박물관은 군민과 관광객 모두에게 수준 높은 인문학 콘텐츠를 제공하며, 양구의 문화 인프라 확대에 기여하고 있다. 철학적 사고와 인문학적 가치를 함양할 수 있는 공간으로, 양구가 문화도시로 도약하는 데 중추적인 역할을 하고 있다. 양구인문학박물관은 문학·철학인의 창작활동을 지원하며, 군민의 문화 향유권 증진에도 기여하고 있다. 2012년 12월 1일 개관한 양구인문학박물관은 한국 철학의 거장 김형석, 안병욱 박사님의 철학사상과 한국 문단을 대표하는 양구 출신 이해인 수녀님의 문학정신이 더해져 문화예술의 인프라가 확대 구축되어 양구 홍보는 물론, 고품격의 문학을 양구군민 뿐만 아니라 관광객들에게 선사하게 되었습니다.",
+      "sido": "강원특별자치도",
+      "sigungu": "양구군",
+      "span_id": "",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=471"
+      ],
+      "evidence_id": "E5",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=695",
+        "fields": {
+          "name": "양구인문학박물관",
+          "sido": "강원특별자치도",
+          "sigungu": "양구군",
+          "address": "강원특별자치도 양구군 양구읍 파로호로 869번길 101",
+          "ownership_type": "공립",
+          "adult_fee": "3000",
+          "youth_fee": "3000",
+          "child_fee": "3000",
+          "adult_fee_status": "BASE_FEE_PAID",
+          "weekday_open": "10:00",
+          "weekday_close": "18:00",
+          "holiday_open": "10:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "월+1월 1일+설날 오전+추석 오전",
+          "amenities_raw": "자동차전기충전소+테라스 등"
+        },
+        "base_data_date": "2025-08-05",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    }
+  ],
+  "answer": "남해유배문학관은 유배라는 절망적인 상황에서도 문학과 예술을 꽃피운 선조들의 숭고한 정신과 세월 속에 잊혀 가는 유배객들을 기리기 위해 건립되었습니다. [E1]",
+  "retrieval_status": "ok",
+  "answer_status": "answered",
+  "route": "hybrid",
+  "retry_count": 0,
+  "supervisor_verified": true,
+  "rerank_applied": false,
+  "retriever_errors": [],
+  "warnings": [
+    "Cross-Encoder reranking failed (FileNotFoundError); RRF order retained"
+  ],
+  "duration_ms": 9382.86,
+  "error_type": "",
+  "hit_at_1": 1,
+  "hit_at_3": 1,
+  "hit_at_5": 1,
+  "recall_at_5": 1.0,
+  "mrr_at_10": 1.0
+}

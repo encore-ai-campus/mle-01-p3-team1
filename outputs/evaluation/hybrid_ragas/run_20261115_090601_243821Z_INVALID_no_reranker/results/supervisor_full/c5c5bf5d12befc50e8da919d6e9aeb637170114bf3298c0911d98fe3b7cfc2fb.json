@@ -1,0 +1,749 @@
+{
+  "mode": "supervisor_full",
+  "question_id": "Q158",
+  "evidence": [
+    {
+      "museum_id": "M0260",
+      "name": "경남도립미술관",
+      "document": "창원특례시 의창구에 있는 경남도립미술관은 2004년 6월 23일에 개관하였다. 지상 4층, 지하 1층으로 이루어져 있으며 이곳은 관람객들을 위한 전시 공간과 학술적 연구 및 교육의 장소로 활용되고 있다. 경남도립미술관은 동시대 현대미술의 복합성에 대한 이해, 미술과 사회의 관계 연구를 바탕으로 양방향 배움을 지향하는 다양한 전시와 교육 프로그램을 운영하며 경남 예술의 특징을 추적하기 위해 유의미한 한국 근현대 미술작품을 수집하고 경남 예술을 조명하는 전시를 지속해서 추진하고 있다. 경남도립미술관은 미술작품 및 자료의 수집, 보존 이에따른 조사, 연구와 전시, 그리고 국제교류 및 미술 저변 확대를 위한 교육 행사를 수행하여 지역 문화발전에 기여하기 위해 2004년 6월 설립되었습니다.",
+      "metadata": {
+        "latitude": 35.23946503,
+        "weekday_close": "18:00",
+        "youth_fee": 700.0,
+        "child_fee": 0.0,
+        "weekday_open": "10:00",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/81/3050281_image2_1.JPG",
+        "sido": "경상남도",
+        "sigungu": "창원시",
+        "homepage_url": "https://www.gyeongnam.go.kr/gam/index.gyeong",
+        "address": "경상남도 창원시 의창구 용지로 296(경남도립미술관)",
+        "image_copyright": "Type3",
+        "ownership_type": "공립",
+        "requires_manual_review": true,
+        "holiday_close": "18:00",
+        "amenities_raw": "주차장+물품보관소+수유실+카페+자전거보관대",
+        "name": "경남도립미술관",
+        "source_types": "BASE|TOUR_API",
+        "adult_fee_status": "BASE_FEE_PAID",
+        "longitude": 128.6908555,
+        "closure_rule_raw": "월(월요일이 공휴일인 경우, 그 다음 첫 번째 평일)+1월1일+설날+추석",
+        "holiday_open": "10:00",
+        "adult_fee": 1000.0,
+        "fee_notes": "무료(18세 이하의 어린이 및 청소년+65세 이상의 노인+장애인과 그 안내인+기초수급 대상자 및 차상위 계층+학술연구+공무수행)"
+      },
+      "vector_rank": 5,
+      "bm25_rank": 1,
+      "vector_distance": 0.4971960783004761,
+      "vector_score": null,
+      "bm25_score": 23.406912510629144,
+      "vector_document": "창원특례시 의창구에 있는 경남도립미술관은 2004년 6월 23일에 개관하였다. 지상 4층, 지하 1층으로 이루어져 있으며 이곳은 관람객들을 위한 전시 공간과 학술적 연구 및 교육의 장소로 활용되고 있다. 경남도립미술관은 동시대 현대미술의 복합성에 대한 이해, 미술과 사회의 관계 연구를 바탕으로 양방향 배움을 지향하는 다양한 전시와 교육 프로그램을 운영하며 경남 예술의 특징을 추적하기 위해 유의미한 한국 근현대 미술작품을 수집하고 경남 예술을 조명하는 전시를 지속해서 추진하고 있다. 경남도립미술관은 미술작품 및 자료의 수집, 보존 이에따른 조사, 연구와 전시, 그리고 국제교류 및 미술 저변 확대를 위한 교육 행사를 수행하여 지역 문화발전에 기여하기 위해 2004년 6월 설립되었습니다.",
+      "bm25_document": "창원특례시 의창구에 있는 경남도립미술관은 2004년 6월 23일에 개관하였다. 지상 4층, 지하 1층으로 이루어져 있으며 이곳은 관람객들을 위한 전시 공간과 학술적 연구 및 교육의 장소로 활용되고 있다. 경남도립미술관은 동시대 현대미술의 복합성에 대한 이해, 미술과 사회의 관계 연구를 바탕으로 양방향 배움을 지향하는 다양한 전시와 교육 프로그램을 운영하며 경남 예술의 특징을 추적하기 위해 유의미한 한국 근현대 미술작품을 수집하고 경남 예술을 조명하는 전시를 지속해서 추진하고 있다. 경남도립미술관은 미술작품 및 자료의 수집, 보존 이에따른 조사, 연구와 전시, 그리고 국제교류 및 미술 저변 확대를 위한 교육 행사를 수행하여 지역 문화발전에 기여하기 위해 2004년 6월 설립되었습니다.",
+      "best_span_id": "chroma:M0260",
+      "best_span_text": "창원특례시 의창구에 있는 경남도립미술관은 2004년 6월 23일에 개관하였다. 지상 4층, 지하 1층으로 이루어져 있으며 이곳은 관람객들을 위한 전시 공간과 학술적 연구 및 교육의 장소로 활용되고 있다. 경남도립미술관은 동시대 현대미술의 복합성에 대한 이해, 미술과 사회의 관계 연구를 바탕으로 양방향 배움을 지향하는 다양한 전시와 교육 프로그램을 운영하며 경남 예술의 특징을 추적하기 위해 유의미한 한국 근현대 미술작품을 수집하고 경남 예술을 조명하는 전시를 지속해서 추진하고 있다. 경남도립미술관은 미술작품 및 자료의 수집, 보존 이에따른 조사, 연구와 전시, 그리고 국제교류 및 미술 저변 확대를 위한 교육 행사를 수행하여 지역 문화발전에 기여하기 위해 2004년 6월 설립되었습니다.",
+      "fusion_score": 0.03177805800756621,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 1,
+      "name_match": true,
+      "rerank_score": null,
+      "rank": 1,
+      "score": 0.03177805800756621,
+      "score_type": "rrf",
+      "distance": 0.4971960783004761,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0260",
+      "source_doc_ids": [
+        "DOC-B0260-TOUR_API-1622590",
+        "DOC-B0260-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0260-TOUR_API-1622590",
+          "source_type": "TOUR_API",
+          "source_record_id": "1622590",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=130",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        },
+        {
+          "doc_id": "DOC-B0260-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0260",
+          "source_locator": "data/raw/museum_base_1070.csv#row=261",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 43,
+          "doc_ids": [
+            "DOC-B0260-TOUR_API-1622590"
+          ]
+        },
+        {
+          "start": 44,
+          "end": 113,
+          "doc_ids": [
+            "DOC-B0260-TOUR_API-1622590"
+          ]
+        },
+        {
+          "start": 114,
+          "end": 271,
+          "doc_ids": [
+            "DOC-B0260-TOUR_API-1622590"
+          ]
+        },
+        {
+          "start": 272,
+          "end": 386,
+          "doc_ids": [
+            "DOC-B0260-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=130",
+      "text": "창원특례시 의창구에 있는 경남도립미술관은 2004년 6월 23일에 개관하였다. 지상 4층, 지하 1층으로 이루어져 있으며 이곳은 관람객들을 위한 전시 공간과 학술적 연구 및 교육의 장소로 활용되고 있다. 경남도립미술관은 동시대 현대미술의 복합성에 대한 이해, 미술과 사회의 관계 연구를 바탕으로 양방향 배움을 지향하는 다양한 전시와 교육 프로그램을 운영하며 경남 예술의 특징을 추적하기 위해 유의미한 한국 근현대 미술작품을 수집하고 경남 예술을 조명하는 전시를 지속해서 추진하고 있다. 경남도립미술관은 미술작품 및 자료의 수집, 보존 이에따른 조사, 연구와 전시, 그리고 국제교류 및 미술 저변 확대를 위한 교육 행사를 수행하여 지역 문화발전에 기여하기 위해 2004년 6월 설립되었습니다.",
+      "sido": "경상남도",
+      "sigungu": "창원시",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=130"
+      ],
+      "evidence_id": "E1",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=182",
+        "fields": {
+          "name": "경남도립미술관",
+          "sido": "경상남도",
+          "sigungu": "창원시",
+          "address": "경상남도 창원시 의창구 용지로 296(경남도립미술관)",
+          "ownership_type": "공립",
+          "adult_fee": "1000",
+          "youth_fee": "700",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_PAID",
+          "weekday_open": "10:00",
+          "weekday_close": "18:00",
+          "holiday_open": "10:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "월(월요일이 공휴일인 경우, 그 다음 첫 번째 평일)+1월1일+설날+추석",
+          "amenities_raw": "주차장+물품보관소+수유실+카페+자전거보관대"
+        },
+        "base_data_date": "2026-06-30",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0629",
+      "name": "성곡미술관",
+      "document": "성곡미술관은 1995년 개관한 공익 미술관으로 한국 현대미술의 발전과 문화 예술 저변 확대를 위해 다양한 전시와 작가 지원 사업을 이어오고 있다. 전통적인 한국의 미감과 정신을 현대적으로 재해석한 기획전은 물론, 국내외 현대미술을 아우르는 개인전과 국제전을 꾸준히 선보이며 신진 작가 발굴과 국제 미술 교류에도 힘쓰고 있다. 본관과 별관, 조각공원으로 이루어져 있으며 자연 속 야외 조각 작품을 감상하며 산책을 즐길 수 있다. 관람객을 위한 아트숍과 카페도 함께 운영해 전시와 휴식을 동시에 즐길 수 있으며 다양한 교육·큐레이터 프로그램을 통해 현대미술을 보다 쉽고 깊이 이해할 수 있는 문화 예술 공간으로 자리매김하고 있다.",
+      "metadata": {
+        "ownership_type": "사립",
+        "source_types": "TOUR_API",
+        "requires_manual_review": true,
+        "sigungu": "종로구",
+        "address": "서울특별시 종로구 경희궁길 42",
+        "holiday_close": "18:00",
+        "homepage_url": "http://www.sungkokmuseum.org/",
+        "latitude": 37.57350943,
+        "youth_fee": 3000.0,
+        "adult_fee": 5000.0,
+        "image_copyright": "Type3",
+        "holiday_open": "10:00",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/31/3487031_image2_1.png",
+        "sido": "서울특별시",
+        "child_fee": 2000.0,
+        "adult_fee_status": "BASE_FEE_PAID",
+        "longitude": 126.969703,
+        "closure_rule_raw": "월요일",
+        "weekday_open": "10:00",
+        "name": "성곡미술관",
+        "weekday_close": "18:00"
+      },
+      "vector_rank": 3,
+      "bm25_rank": 5,
+      "vector_distance": 0.4910888671875,
+      "vector_score": null,
+      "bm25_score": 12.689124511625103,
+      "vector_document": "성곡미술관은 1995년 개관한 공익 미술관으로 한국 현대미술의 발전과 문화 예술 저변 확대를 위해 다양한 전시와 작가 지원 사업을 이어오고 있다. 전통적인 한국의 미감과 정신을 현대적으로 재해석한 기획전은 물론, 국내외 현대미술을 아우르는 개인전과 국제전을 꾸준히 선보이며 신진 작가 발굴과 국제 미술 교류에도 힘쓰고 있다. 본관과 별관, 조각공원으로 이루어져 있으며 자연 속 야외 조각 작품을 감상하며 산책을 즐길 수 있다. 관람객을 위한 아트숍과 카페도 함께 운영해 전시와 휴식을 동시에 즐길 수 있으며 다양한 교육·큐레이터 프로그램을 통해 현대미술을 보다 쉽고 깊이 이해할 수 있는 문화 예술 공간으로 자리매김하고 있다.",
+      "bm25_document": "성곡미술관은 1995년 개관한 공익 미술관으로 한국 현대미술의 발전과 문화 예술 저변 확대를 위해 다양한 전시와 작가 지원 사업을 이어오고 있다. 전통적인 한국의 미감과 정신을 현대적으로 재해석한 기획전은 물론, 국내외 현대미술을 아우르는 개인전과 국제전을 꾸준히 선보이며 신진 작가 발굴과 국제 미술 교류에도 힘쓰고 있다. 본관과 별관, 조각공원으로 이루어져 있으며 자연 속 야외 조각 작품을 감상하며 산책을 즐길 수 있다. 관람객을 위한 아트숍과 카페도 함께 운영해 전시와 휴식을 동시에 즐길 수 있으며 다양한 교육·큐레이터 프로그램을 통해 현대미술을 보다 쉽고 깊이 이해할 수 있는 문화 예술 공간으로 자리매김하고 있다.",
+      "best_span_id": "chroma:M0629",
+      "best_span_text": "성곡미술관은 1995년 개관한 공익 미술관으로 한국 현대미술의 발전과 문화 예술 저변 확대를 위해 다양한 전시와 작가 지원 사업을 이어오고 있다. 전통적인 한국의 미감과 정신을 현대적으로 재해석한 기획전은 물론, 국내외 현대미술을 아우르는 개인전과 국제전을 꾸준히 선보이며 신진 작가 발굴과 국제 미술 교류에도 힘쓰고 있다. 본관과 별관, 조각공원으로 이루어져 있으며 자연 속 야외 조각 작품을 감상하며 산책을 즐길 수 있다. 관람객을 위한 아트숍과 카페도 함께 운영해 전시와 휴식을 동시에 즐길 수 있으며 다양한 교육·큐레이터 프로그램을 통해 현대미술을 보다 쉽고 깊이 이해할 수 있는 문화 예술 공간으로 자리매김하고 있다.",
+      "fusion_score": 0.03125763125763126,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 2,
+      "rerank_score": null,
+      "rank": 2,
+      "score": 0.03125763125763126,
+      "score_type": "rrf",
+      "distance": 0.4910888671875,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0629",
+      "source_doc_ids": [
+        "DOC-B0629-TOUR_API-130154"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0629-TOUR_API-130154",
+          "source_type": "TOUR_API",
+          "source_record_id": "130154",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=314",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 81,
+          "doc_ids": [
+            "DOC-B0629-TOUR_API-130154"
+          ]
+        },
+        {
+          "start": 82,
+          "end": 181,
+          "doc_ids": [
+            "DOC-B0629-TOUR_API-130154"
+          ]
+        },
+        {
+          "start": 182,
+          "end": 238,
+          "doc_ids": [
+            "DOC-B0629-TOUR_API-130154"
+          ]
+        },
+        {
+          "start": 239,
+          "end": 350,
+          "doc_ids": [
+            "DOC-B0629-TOUR_API-130154"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=314",
+      "text": "성곡미술관은 1995년 개관한 공익 미술관으로 한국 현대미술의 발전과 문화 예술 저변 확대를 위해 다양한 전시와 작가 지원 사업을 이어오고 있다. 전통적인 한국의 미감과 정신을 현대적으로 재해석한 기획전은 물론, 국내외 현대미술을 아우르는 개인전과 국제전을 꾸준히 선보이며 신진 작가 발굴과 국제 미술 교류에도 힘쓰고 있다. 본관과 별관, 조각공원으로 이루어져 있으며 자연 속 야외 조각 작품을 감상하며 산책을 즐길 수 있다. 관람객을 위한 아트숍과 카페도 함께 운영해 전시와 휴식을 동시에 즐길 수 있으며 다양한 교육·큐레이터 프로그램을 통해 현대미술을 보다 쉽고 깊이 이해할 수 있는 문화 예술 공간으로 자리매김하고 있다.",
+      "sido": "서울특별시",
+      "sigungu": "종로구",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=314"
+      ],
+      "evidence_id": "E2",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=438",
+        "fields": {
+          "name": "성곡미술관",
+          "sido": "서울특별시",
+          "sigungu": "종로구",
+          "address": "서울특별시 종로구 경희궁길 42",
+          "ownership_type": "사립",
+          "adult_fee": "5000",
+          "youth_fee": "3000",
+          "child_fee": "2000",
+          "adult_fee_status": "BASE_FEE_PAID",
+          "weekday_open": "10:00",
+          "weekday_close": "18:00",
+          "holiday_open": "10:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "월요일"
+        },
+        "base_data_date": "2025-11-01",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0987",
+      "name": "부산시립미술관",
+      "document": "미술인구의 저변 확산과 미술창작의 활성화를 목적으로 하여 개관한 최첨단 감각의 현대적 미술관이다. 여러 장르의 작품 전시와 각종 사회교육 프로그램을 실시하여 일반 시민들에게 다양한 문화향유 기회를 제공하는 열린 미술관을 지향하고 있다. 건물은 지하 2층, 지상 3층으로, 전시실과 수장고, 교육연구실, 사무공간, 야외조각 공원 등이 있다. 전시실은 13개의 전시실과 160석의 강당을 비롯하여 전시의 내용에 따라 내부를 적절하게 쓸 수 있도록 개폐식 구조로 되어 있다. 시립미술관에서는 격년제로 짝수 해에 개최되는 비엔날레 축제의 행사장이며, 1년 내내 기획전, 소장품전, 해외 미술전 등이 열려 시민들에게 예술과의 만남의 기회를 제공한다.",
+      "metadata": {
+        "name": "부산시립미술관",
+        "source_types": "TOUR_API",
+        "closure_rule_raw": "월",
+        "weekday_open": "10:00",
+        "youth_fee": 1000.0,
+        "amenities_raw": "카페",
+        "longitude": 129.1370273,
+        "requires_manual_review": true,
+        "ownership_type": "공립",
+        "holiday_open": "10:00",
+        "adult_fee_status": "BASE_FEE_PAID",
+        "child_fee": 1000.0,
+        "latitude": 35.16668716,
+        "transport_notes": "부산 지하철 2호선 벡스코역 하차",
+        "holiday_close": "18:00",
+        "sigungu": "해운대구",
+        "address": "부산광역시 해운대구 APEC로 58",
+        "image_copyright": "Type3",
+        "homepage_url": "http://art.busan.go.kr/",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/62/2712662_image2_1.jpg",
+        "sido": "부산광역시",
+        "adult_fee": 2000.0,
+        "weekday_close": "18:00"
+      },
+      "vector_rank": 6,
+      "bm25_rank": 3,
+      "vector_distance": 0.4995460510253906,
+      "vector_score": null,
+      "bm25_score": 14.26701975796496,
+      "vector_document": "미술인구의 저변 확산과 미술창작의 활성화를 목적으로 하여 개관한 최첨단 감각의 현대적 미술관이다. 여러 장르의 작품 전시와 각종 사회교육 프로그램을 실시하여 일반 시민들에게 다양한 문화향유 기회를 제공하는 열린 미술관을 지향하고 있다. 건물은 지하 2층, 지상 3층으로, 전시실과 수장고, 교육연구실, 사무공간, 야외조각 공원 등이 있다. 전시실은 13개의 전시실과 160석의 강당을 비롯하여 전시의 내용에 따라 내부를 적절하게 쓸 수 있도록 개폐식 구조로 되어 있다. 시립미술관에서는 격년제로 짝수 해에 개최되는 비엔날레 축제의 행사장이며, 1년 내내 기획전, 소장품전, 해외 미술전 등이 열려 시민들에게 예술과의 만남의 기회를 제공한다.",
+      "bm25_document": "미술인구의 저변 확산과 미술창작의 활성화를 목적으로 하여 개관한 최첨단 감각의 현대적 미술관이다. 여러 장르의 작품 전시와 각종 사회교육 프로그램을 실시하여 일반 시민들에게 다양한 문화향유 기회를 제공하는 열린 미술관을 지향하고 있다. 건물은 지하 2층, 지상 3층으로, 전시실과 수장고, 교육연구실, 사무공간, 야외조각 공원 등이 있다. 전시실은 13개의 전시실과 160석의 강당을 비롯하여 전시의 내용에 따라 내부를 적절하게 쓸 수 있도록 개폐식 구조로 되어 있다. 시립미술관에서는 격년제로 짝수 해에 개최되는 비엔날레 축제의 행사장이며, 1년 내내 기획전, 소장품전, 해외 미술전 등이 열려 시민들에게 예술과의 만남의 기회를 제공한다.",
+      "best_span_id": "chroma:M0987",
+      "best_span_text": "미술인구의 저변 확산과 미술창작의 활성화를 목적으로 하여 개관한 최첨단 감각의 현대적 미술관이다. 여러 장르의 작품 전시와 각종 사회교육 프로그램을 실시하여 일반 시민들에게 다양한 문화향유 기회를 제공하는 열린 미술관을 지향하고 있다. 건물은 지하 2층, 지상 3층으로, 전시실과 수장고, 교육연구실, 사무공간, 야외조각 공원 등이 있다. 전시실은 13개의 전시실과 160석의 강당을 비롯하여 전시의 내용에 따라 내부를 적절하게 쓸 수 있도록 개폐식 구조로 되어 있다. 시립미술관에서는 격년제로 짝수 해에 개최되는 비엔날레 축제의 행사장이며, 1년 내내 기획전, 소장품전, 해외 미술전 등이 열려 시민들에게 예술과의 만남의 기회를 제공한다.",
+      "fusion_score": 0.031024531024531024,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 3,
+      "rerank_score": null,
+      "rank": 3,
+      "score": 0.031024531024531024,
+      "score_type": "rrf",
+      "distance": 0.4995460510253906,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0987",
+      "source_doc_ids": [
+        "DOC-B0987-TOUR_API-130166"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0987-TOUR_API-130166",
+          "source_type": "TOUR_API",
+          "source_record_id": "130166",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=459",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 54,
+          "doc_ids": [
+            "DOC-B0987-TOUR_API-130166"
+          ]
+        },
+        {
+          "start": 55,
+          "end": 131,
+          "doc_ids": [
+            "DOC-B0987-TOUR_API-130166"
+          ]
+        },
+        {
+          "start": 132,
+          "end": 189,
+          "doc_ids": [
+            "DOC-B0987-TOUR_API-130166"
+          ]
+        },
+        {
+          "start": 190,
+          "end": 262,
+          "doc_ids": [
+            "DOC-B0987-TOUR_API-130166"
+          ]
+        },
+        {
+          "start": 263,
+          "end": 358,
+          "doc_ids": [
+            "DOC-B0987-TOUR_API-130166"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=459",
+      "text": "미술인구의 저변 확산과 미술창작의 활성화를 목적으로 하여 개관한 최첨단 감각의 현대적 미술관이다. 여러 장르의 작품 전시와 각종 사회교육 프로그램을 실시하여 일반 시민들에게 다양한 문화향유 기회를 제공하는 열린 미술관을 지향하고 있다. 건물은 지하 2층, 지상 3층으로, 전시실과 수장고, 교육연구실, 사무공간, 야외조각 공원 등이 있다. 전시실은 13개의 전시실과 160석의 강당을 비롯하여 전시의 내용에 따라 내부를 적절하게 쓸 수 있도록 개폐식 구조로 되어 있다. 시립미술관에서는 격년제로 짝수 해에 개최되는 비엔날레 축제의 행사장이며, 1년 내내 기획전, 소장품전, 해외 미술전 등이 열려 시민들에게 예술과의 만남의 기회를 제공한다.",
+      "sido": "부산광역시",
+      "sigungu": "해운대구",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=459"
+      ],
+      "evidence_id": "E3",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=673",
+        "fields": {
+          "name": "부산시립미술관",
+          "sido": "부산광역시",
+          "sigungu": "해운대구",
+          "address": "부산광역시 해운대구 APEC로 58",
+          "ownership_type": "공립",
+          "adult_fee": "2000",
+          "youth_fee": "1000",
+          "child_fee": "1000",
+          "adult_fee_status": "BASE_FEE_PAID",
+          "weekday_open": "10:00",
+          "weekday_close": "18:00",
+          "holiday_open": "10:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "월",
+          "amenities_raw": "카페"
+        },
+        "base_data_date": "2025-11-20",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0550",
+      "name": "영은미술관",
+      "document": "영은미술관은 한국 문화예술 창작활동을 지원하고자 설립된 대유문화재단을 모태로 2000년 11월 개관했다. 경기도 광주시 경안 천변의 수려한 자연환경 속에 위치한 이곳은 동시대 현대미술 작품을 소장, 연구, 전시하는 현대미술관과 창작스튜디오를 중심으로 운영되고 있다. 복합문화공간을 지향하는 영은미술관은 조형예술의 틀을 넘어 형식과 내용이 공존·교차하는 예술적 시도를 이어가며, 예술의 대중적 기반을 넓혀가는 동시에 예술의 대중화에 기여하고자 한다. 기획전과 개인전을 통해 국내외 현대미술 주요 작가의 작품을 소개하고, 동시대 미술의 흐름과 함께 경험할 수 있도록 한다. 또한, 전시와 연계된 세미나, 워크숍 등을 개최하여 현대미술의 주요 쟁점과 논제에 대한 활발한 담론을 형성해 나가고 있다. 동시대 현대미술 작품을 소장, 전시하는 현대미술관과 국내 초유의 창작스튜디오를 겸비한 복합문화공간이다.",
+      "metadata": {
+        "image_copyright": "Type3",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/77/4098677_image2_1.jpg",
+        "sido": "경기도",
+        "requires_manual_review": true,
+        "ownership_type": "사립",
+        "name": "영은미술관",
+        "youth_fee": 7000.0,
+        "child_fee": 5000.0,
+        "longitude": 127.268748,
+        "address": "경기도 광주시 청석로 300(쌍령동)",
+        "latitude": 37.41355842,
+        "adult_fee": 10000.0,
+        "closure_rule_raw": "월요일+화요일+신정+설연휴+추석연휴+1.1.~3.20.",
+        "sigungu": "광주시",
+        "adult_fee_status": "BASE_FEE_PAID",
+        "weekday_open": "10:00",
+        "weekday_close": "18:00",
+        "holiday_open": "10:00",
+        "homepage_url": "https://www.youngeunmuseum.org/",
+        "source_types": "BASE|TOUR_API",
+        "holiday_close": "18:00"
+      },
+      "vector_rank": 10,
+      "bm25_rank": 2,
+      "vector_distance": 0.5153409242630005,
+      "vector_score": null,
+      "bm25_score": 15.434513013374982,
+      "vector_document": "영은미술관은 한국 문화예술 창작활동을 지원하고자 설립된 대유문화재단을 모태로 2000년 11월 개관했다. 경기도 광주시 경안 천변의 수려한 자연환경 속에 위치한 이곳은 동시대 현대미술 작품을 소장, 연구, 전시하는 현대미술관과 창작스튜디오를 중심으로 운영되고 있다. 복합문화공간을 지향하는 영은미술관은 조형예술의 틀을 넘어 형식과 내용이 공존·교차하는 예술적 시도를 이어가며, 예술의 대중적 기반을 넓혀가는 동시에 예술의 대중화에 기여하고자 한다. 기획전과 개인전을 통해 국내외 현대미술 주요 작가의 작품을 소개하고, 동시대 미술의 흐름과 함께 경험할 수 있도록 한다. 또한, 전시와 연계된 세미나, 워크숍 등을 개최하여 현대미술의 주요 쟁점과 논제에 대한 활발한 담론을 형성해 나가고 있다. 동시대 현대미술 작품을 소장, 전시하는 현대미술관과 국내 초유의 창작스튜디오를 겸비한 복합문화공간이다.",
+      "bm25_document": "영은미술관은 한국 문화예술 창작활동을 지원하고자 설립된 대유문화재단을 모태로 2000년 11월 개관했다. 경기도 광주시 경안 천변의 수려한 자연환경 속에 위치한 이곳은 동시대 현대미술 작품을 소장, 연구, 전시하는 현대미술관과 창작스튜디오를 중심으로 운영되고 있다. 복합문화공간을 지향하는 영은미술관은 조형예술의 틀을 넘어 형식과 내용이 공존·교차하는 예술적 시도를 이어가며, 예술의 대중적 기반을 넓혀가는 동시에 예술의 대중화에 기여하고자 한다. 기획전과 개인전을 통해 국내외 현대미술 주요 작가의 작품을 소개하고, 동시대 미술의 흐름과 함께 경험할 수 있도록 한다. 또한, 전시와 연계된 세미나, 워크숍 등을 개최하여 현대미술의 주요 쟁점과 논제에 대한 활발한 담론을 형성해 나가고 있다. 동시대 현대미술 작품을 소장, 전시하는 현대미술관과 국내 초유의 창작스튜디오를 겸비한 복합문화공간이다.",
+      "best_span_id": "chroma:M0550",
+      "best_span_text": "영은미술관은 한국 문화예술 창작활동을 지원하고자 설립된 대유문화재단을 모태로 2000년 11월 개관했다. 경기도 광주시 경안 천변의 수려한 자연환경 속에 위치한 이곳은 동시대 현대미술 작품을 소장, 연구, 전시하는 현대미술관과 창작스튜디오를 중심으로 운영되고 있다. 복합문화공간을 지향하는 영은미술관은 조형예술의 틀을 넘어 형식과 내용이 공존·교차하는 예술적 시도를 이어가며, 예술의 대중적 기반을 넓혀가는 동시에 예술의 대중화에 기여하고자 한다. 기획전과 개인전을 통해 국내외 현대미술 주요 작가의 작품을 소개하고, 동시대 미술의 흐름과 함께 경험할 수 있도록 한다. 또한, 전시와 연계된 세미나, 워크숍 등을 개최하여 현대미술의 주요 쟁점과 논제에 대한 활발한 담론을 형성해 나가고 있다. 동시대 현대미술 작품을 소장, 전시하는 현대미술관과 국내 초유의 창작스튜디오를 겸비한 복합문화공간이다.",
+      "fusion_score": 0.0304147465437788,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 4,
+      "rerank_score": null,
+      "rank": 4,
+      "score": 0.0304147465437788,
+      "score_type": "rrf",
+      "distance": 0.5153409242630005,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0550",
+      "source_doc_ids": [
+        "DOC-B0550-TOUR_API-130412",
+        "DOC-B0550-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0550-TOUR_API-130412",
+          "source_type": "TOUR_API",
+          "source_record_id": "130412",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=272",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        },
+        {
+          "doc_id": "DOC-B0550-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0550",
+          "source_locator": "data/raw/museum_base_1070.csv#row=551",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 58,
+          "doc_ids": [
+            "DOC-B0550-TOUR_API-130412"
+          ]
+        },
+        {
+          "start": 59,
+          "end": 148,
+          "doc_ids": [
+            "DOC-B0550-TOUR_API-130412"
+          ]
+        },
+        {
+          "start": 149,
+          "end": 250,
+          "doc_ids": [
+            "DOC-B0550-TOUR_API-130412"
+          ]
+        },
+        {
+          "start": 251,
+          "end": 318,
+          "doc_ids": [
+            "DOC-B0550-TOUR_API-130412"
+          ]
+        },
+        {
+          "start": 319,
+          "end": 387,
+          "doc_ids": [
+            "DOC-B0550-TOUR_API-130412"
+          ]
+        },
+        {
+          "start": 388,
+          "end": 445,
+          "doc_ids": [
+            "DOC-B0550-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=272",
+      "text": "영은미술관은 한국 문화예술 창작활동을 지원하고자 설립된 대유문화재단을 모태로 2000년 11월 개관했다. 경기도 광주시 경안 천변의 수려한 자연환경 속에 위치한 이곳은 동시대 현대미술 작품을 소장, 연구, 전시하는 현대미술관과 창작스튜디오를 중심으로 운영되고 있다. 복합문화공간을 지향하는 영은미술관은 조형예술의 틀을 넘어 형식과 내용이 공존·교차하는 예술적 시도를 이어가며, 예술의 대중적 기반을 넓혀가는 동시에 예술의 대중화에 기여하고자 한다. 기획전과 개인전을 통해 국내외 현대미술 주요 작가의 작품을 소개하고, 동시대 미술의 흐름과 함께 경험할 수 있도록 한다. 또한, 전시와 연계된 세미나, 워크숍 등을 개최하여 현대미술의 주요 쟁점과 논제에 대한 활발한 담론을 형성해 나가고 있다. 동시대 현대미술 작품을 소장, 전시하는 현대미술관과 국내 초유의 창작스튜디오를 겸비한 복합문화공간이다.",
+      "sido": "경기도",
+      "sigungu": "광주시",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=272"
+      ],
+      "evidence_id": "E4",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=387",
+        "fields": {
+          "name": "영은미술관",
+          "sido": "경기도",
+          "sigungu": "광주시",
+          "address": "경기도 광주시 청석로 300(쌍령동)",
+          "ownership_type": "사립",
+          "adult_fee": "10000",
+          "youth_fee": "7000",
+          "child_fee": "5000",
+          "adult_fee_status": "BASE_FEE_PAID",
+          "weekday_open": "10:00",
+          "weekday_close": "18:00",
+          "holiday_open": "10:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "월요일+화요일+신정+설연휴+추석연휴+1.1.~3.20."
+        },
+        "base_data_date": "2026-02-04",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0876",
+      "name": "양평군립미술관",
+      "document": "양평군립미술관은 2011년 개관하여 다양한 프로그램과 수준 높은 현대미술기획과 창의교육프로그램을 진행해오고있다. 양평읍 양근리 일대 대지 8069㎡에 건물면적 4184㎡에 지상 3층, 지하 1층 규모로 세워진 미술관으로 전시관 뿐만 아니라 교육시설, 컨퍼런스룸, 라이브러리, 키즈룸, 세미나실, 카페 등을 갖추고 있다. 어린이, 청소년, 성인 대상의 교육 프로그램을 운영하고 있으며 학술세미나와 해마다 다른 주제의 문화행사를 열고 있다. 현장 체험 위주의 공간 확보 및 테마형 전시기획은 양평을 문화관광 브랜드로 자리매김하는데 큰 역할을 하고 있다. 경의중앙선 양평역에서 도보로 14분거리에 위치해 있고 주변에 곤충박물관이 있다. 2011년 12월 16일에 개관한 현대미술 전문미술관",
+      "metadata": {
+        "amenities_raw": "컨퍼런스룸+멤버스룸+수유실",
+        "weekday_open": "10:00",
+        "transport_notes": "(전철)중앙선 양평역 하차",
+        "requires_manual_review": true,
+        "child_fee": 500.0,
+        "closure_rule_raw": "월(단, 월요일이 공휴일인 경우 당일은 개관하고 그 다음날 휴관)+1월1일+설+추석 당일",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/07/3038307_image2_1.jpg",
+        "youth_fee": 700.0,
+        "adult_fee": 1000.0,
+        "holiday_open": "10:00",
+        "fee_notes": "[단체]일반700+[단체]청소년500+[단체]어린이 300+[무료]만65세이상 노인+[무료]장애인 및 국가유공자+[무료]양평군민+[무료]그린카드 소지자",
+        "image_copyright": "Type3",
+        "address": "경기도 양평군 양평읍 문화복지길 2",
+        "ownership_type": "공립",
+        "sido": "경기도",
+        "longitude": 127.4839988,
+        "sigungu": "양평군",
+        "holiday_close": "18:00",
+        "homepage_url": "http://www.ymuseum.org/home/",
+        "name": "양평군립미술관",
+        "source_types": "BASE|TOUR_API",
+        "latitude": 37.49709935,
+        "weekday_close": "18:00",
+        "adult_fee_status": "BASE_FEE_PAID"
+      },
+      "vector_rank": 4,
+      "bm25_rank": 9,
+      "vector_distance": 0.49110448360443115,
+      "vector_score": null,
+      "bm25_score": 11.365916096173398,
+      "vector_document": "양평군립미술관은 2011년 개관하여 다양한 프로그램과 수준 높은 현대미술기획과 창의교육프로그램을 진행해오고있다. 양평읍 양근리 일대 대지 8069㎡에 건물면적 4184㎡에 지상 3층, 지하 1층 규모로 세워진 미술관으로 전시관 뿐만 아니라 교육시설, 컨퍼런스룸, 라이브러리, 키즈룸, 세미나실, 카페 등을 갖추고 있다. 어린이, 청소년, 성인 대상의 교육 프로그램을 운영하고 있으며 학술세미나와 해마다 다른 주제의 문화행사를 열고 있다. 현장 체험 위주의 공간 확보 및 테마형 전시기획은 양평을 문화관광 브랜드로 자리매김하는데 큰 역할을 하고 있다. 경의중앙선 양평역에서 도보로 14분거리에 위치해 있고 주변에 곤충박물관이 있다. 2011년 12월 16일에 개관한 현대미술 전문미술관",
+      "bm25_document": "양평군립미술관은 2011년 개관하여 다양한 프로그램과 수준 높은 현대미술기획과 창의교육프로그램을 진행해오고있다. 양평읍 양근리 일대 대지 8069㎡에 건물면적 4184㎡에 지상 3층, 지하 1층 규모로 세워진 미술관으로 전시관 뿐만 아니라 교육시설, 컨퍼런스룸, 라이브러리, 키즈룸, 세미나실, 카페 등을 갖추고 있다. 어린이, 청소년, 성인 대상의 교육 프로그램을 운영하고 있으며 학술세미나와 해마다 다른 주제의 문화행사를 열고 있다. 현장 체험 위주의 공간 확보 및 테마형 전시기획은 양평을 문화관광 브랜드로 자리매김하는데 큰 역할을 하고 있다. 경의중앙선 양평역에서 도보로 14분거리에 위치해 있고 주변에 곤충박물관이 있다. 2011년 12월 16일에 개관한 현대미술 전문미술관",
+      "best_span_id": "chroma:M0876",
+      "best_span_text": "양평군립미술관은 2011년 개관하여 다양한 프로그램과 수준 높은 현대미술기획과 창의교육프로그램을 진행해오고있다. 양평읍 양근리 일대 대지 8069㎡에 건물면적 4184㎡에 지상 3층, 지하 1층 규모로 세워진 미술관으로 전시관 뿐만 아니라 교육시설, 컨퍼런스룸, 라이브러리, 키즈룸, 세미나실, 카페 등을 갖추고 있다. 어린이, 청소년, 성인 대상의 교육 프로그램을 운영하고 있으며 학술세미나와 해마다 다른 주제의 문화행사를 열고 있다. 현장 체험 위주의 공간 확보 및 테마형 전시기획은 양평을 문화관광 브랜드로 자리매김하는데 큰 역할을 하고 있다. 경의중앙선 양평역에서 도보로 14분거리에 위치해 있고 주변에 곤충박물관이 있다. 2011년 12월 16일에 개관한 현대미술 전문미술관",
+      "fusion_score": 0.030117753623188408,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 5,
+      "rerank_score": null,
+      "rank": 5,
+      "score": 0.030117753623188408,
+      "score_type": "rrf",
+      "distance": 0.49110448360443115,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0876",
+      "source_doc_ids": [
+        "DOC-B0876-TOUR_API-1926610",
+        "DOC-B0876-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0876-TOUR_API-1926610",
+          "source_type": "TOUR_API",
+          "source_record_id": "1926610",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=413",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        },
+        {
+          "doc_id": "DOC-B0876-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0876",
+          "source_locator": "data/raw/museum_base_1070.csv#row=877",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 62,
+          "doc_ids": [
+            "DOC-B0876-TOUR_API-1926610"
+          ]
+        },
+        {
+          "start": 63,
+          "end": 178,
+          "doc_ids": [
+            "DOC-B0876-TOUR_API-1926610"
+          ]
+        },
+        {
+          "start": 179,
+          "end": 244,
+          "doc_ids": [
+            "DOC-B0876-TOUR_API-1926610"
+          ]
+        },
+        {
+          "start": 245,
+          "end": 307,
+          "doc_ids": [
+            "DOC-B0876-TOUR_API-1926610"
+          ]
+        },
+        {
+          "start": 308,
+          "end": 352,
+          "doc_ids": [
+            "DOC-B0876-TOUR_API-1926610"
+          ]
+        },
+        {
+          "start": 353,
+          "end": 382,
+          "doc_ids": [
+            "DOC-B0876-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=413",
+      "text": "양평군립미술관은 2011년 개관하여 다양한 프로그램과 수준 높은 현대미술기획과 창의교육프로그램을 진행해오고있다. 양평읍 양근리 일대 대지 8069㎡에 건물면적 4184㎡에 지상 3층, 지하 1층 규모로 세워진 미술관으로 전시관 뿐만 아니라 교육시설, 컨퍼런스룸, 라이브러리, 키즈룸, 세미나실, 카페 등을 갖추고 있다. 어린이, 청소년, 성인 대상의 교육 프로그램을 운영하고 있으며 학술세미나와 해마다 다른 주제의 문화행사를 열고 있다. 현장 체험 위주의 공간 확보 및 테마형 전시기획은 양평을 문화관광 브랜드로 자리매김하는데 큰 역할을 하고 있다. 경의중앙선 양평역에서 도보로 14분거리에 위치해 있고 주변에 곤충박물관이 있다. 2011년 12월 16일에 개관한 현대미술 전문미술관",
+      "sido": "경기도",
+      "sigungu": "양평군",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=413"
+      ],
+      "evidence_id": "E5",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=597",
+        "fields": {
+          "name": "양평군립미술관",
+          "sido": "경기도",
+          "sigungu": "양평군",
+          "address": "경기도 양평군 양평읍 문화복지길 2",
+          "ownership_type": "공립",
+          "adult_fee": "1000",
+          "youth_fee": "700",
+          "child_fee": "500",
+          "adult_fee_status": "BASE_FEE_PAID",
+          "weekday_open": "10:00",
+          "weekday_close": "18:00",
+          "holiday_open": "10:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "월(단, 월요일이 공휴일인 경우 당일은 개관하고 그 다음날 휴관)+1월1일+설+추석 당일",
+          "amenities_raw": "컨퍼런스룸+멤버스룸+수유실"
+        },
+        "base_data_date": "2023-05-24",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    }
+  ],
+  "answer": "경남도립미술관의 전시와 교육은 동시대 현대미술의 복합성을 이해하고, 미술과 사회의 관계를 살펴보는 데 초점을 둡니다. 관람객과의 ‘양방향 배움’을 지향하는 다양한 전시·교육 프로그램을 운영하며, 경남 예술의 특징을 추적하기 위해 한국 근현대 미술작품을 수집하고 경남 예술을 조명하는 전시도 지속적으로 추진합니다. [E1]",
+  "retrieval_status": "ok",
+  "answer_status": "answered",
+  "route": "hybrid",
+  "retry_count": 0,
+  "supervisor_verified": true,
+  "rerank_applied": false,
+  "retriever_errors": [],
+  "warnings": [
+    "Cross-Encoder reranking failed (FileNotFoundError); RRF order retained"
+  ],
+  "duration_ms": 10450.85,
+  "error_type": "",
+  "hit_at_1": 1,
+  "hit_at_3": 1,
+  "hit_at_5": 1,
+  "recall_at_5": 1.0,
+  "mrr_at_10": 1.0
+}

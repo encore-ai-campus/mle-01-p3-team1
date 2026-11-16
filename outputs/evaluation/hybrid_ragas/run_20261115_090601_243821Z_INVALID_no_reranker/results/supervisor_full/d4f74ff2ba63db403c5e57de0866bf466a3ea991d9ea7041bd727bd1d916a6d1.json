@@ -1,0 +1,801 @@
+{
+  "mode": "supervisor_full",
+  "question_id": "Q286",
+  "evidence": [
+    {
+      "museum_id": "M0493",
+      "name": "국립여성사전시관",
+      "document": "국립여성사전시관은 한국 여성사 정립, 보급을 통해 양성평등 가치를 확산하는 복합교육문화공간이다. 역사 속 여성의 역할과 역사발전에 기여한 인물을 조명하고, 여성을 위한 교육과 국민의 양성평등의식 고양을 위한 장으로 활용하기 위해 설립되었다. 국립여성사전시관의 상설전시는 연대별, 분야별로 나뉘어 역사발전에 기여한 이야기, 역사의 궤도를 바꾸었던 이야기, 국난의 시기에 아픈 기억들, 그리고 세계 인류의 존엄성과 평화의 가치를 일깨우는 여성들의 이야기로 채워져 있다. 또한, 이곳은 교육부 인증 교육기부 진로체험 인증기관 중 하나로, 진로 탐색 프로그램인 나도 큐레이터, 초등학생을 대상으로 하는 찾아가는 여성사전시관, 성인대상으로 하는 여성사 아카데미를 운영하고 있다.",
+      "metadata": {
+        "ownership_type": "국립",
+        "sido": "경기도",
+        "youth_fee": 0.0,
+        "homepage_url": "http://eherstory.mogef.go.kr",
+        "latitude": 37.6358155664,
+        "longitude": 126.834035479,
+        "child_fee": 0.0,
+        "adult_fee": 0.0,
+        "name": "국립여성사전시관",
+        "sigungu": "고양시",
+        "holiday_open": "00:00",
+        "address": "경기도 고양시 덕양구 화중로104번길 50",
+        "requires_manual_review": true,
+        "source_types": "TOUR_API",
+        "weekday_open": "10:00",
+        "closure_rule_raw": "일요일, 공휴일 및 명절 휴관",
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "weekday_close": "18:00",
+        "holiday_close": "00:00",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/01/3527701_image2_1.jpg",
+        "image_copyright": "Type1"
+      },
+      "vector_rank": 1,
+      "bm25_rank": 1,
+      "vector_distance": 0.4256542921066284,
+      "vector_score": null,
+      "bm25_score": 34.48529314677134,
+      "vector_document": "국립여성사전시관은 한국 여성사 정립, 보급을 통해 양성평등 가치를 확산하는 복합교육문화공간이다. 역사 속 여성의 역할과 역사발전에 기여한 인물을 조명하고, 여성을 위한 교육과 국민의 양성평등의식 고양을 위한 장으로 활용하기 위해 설립되었다. 국립여성사전시관의 상설전시는 연대별, 분야별로 나뉘어 역사발전에 기여한 이야기, 역사의 궤도를 바꾸었던 이야기, 국난의 시기에 아픈 기억들, 그리고 세계 인류의 존엄성과 평화의 가치를 일깨우는 여성들의 이야기로 채워져 있다. 또한, 이곳은 교육부 인증 교육기부 진로체험 인증기관 중 하나로, 진로 탐색 프로그램인 나도 큐레이터, 초등학생을 대상으로 하는 찾아가는 여성사전시관, 성인대상으로 하는 여성사 아카데미를 운영하고 있다.",
+      "bm25_document": "국립여성사전시관은 한국 여성사 정립, 보급을 통해 양성평등 가치를 확산하는 복합교육문화공간이다. 역사 속 여성의 역할과 역사발전에 기여한 인물을 조명하고, 여성을 위한 교육과 국민의 양성평등의식 고양을 위한 장으로 활용하기 위해 설립되었다. 국립여성사전시관의 상설전시는 연대별, 분야별로 나뉘어 역사발전에 기여한 이야기, 역사의 궤도를 바꾸었던 이야기, 국난의 시기에 아픈 기억들, 그리고 세계 인류의 존엄성과 평화의 가치를 일깨우는 여성들의 이야기로 채워져 있다. 또한, 이곳은 교육부 인증 교육기부 진로체험 인증기관 중 하나로, 진로 탐색 프로그램인 나도 큐레이터, 초등학생을 대상으로 하는 찾아가는 여성사전시관, 성인대상으로 하는 여성사 아카데미를 운영하고 있다.",
+      "best_span_id": "chroma:M0493",
+      "best_span_text": "국립여성사전시관은 한국 여성사 정립, 보급을 통해 양성평등 가치를 확산하는 복합교육문화공간이다. 역사 속 여성의 역할과 역사발전에 기여한 인물을 조명하고, 여성을 위한 교육과 국민의 양성평등의식 고양을 위한 장으로 활용하기 위해 설립되었다. 국립여성사전시관의 상설전시는 연대별, 분야별로 나뉘어 역사발전에 기여한 이야기, 역사의 궤도를 바꾸었던 이야기, 국난의 시기에 아픈 기억들, 그리고 세계 인류의 존엄성과 평화의 가치를 일깨우는 여성들의 이야기로 채워져 있다. 또한, 이곳은 교육부 인증 교육기부 진로체험 인증기관 중 하나로, 진로 탐색 프로그램인 나도 큐레이터, 초등학생을 대상으로 하는 찾아가는 여성사전시관, 성인대상으로 하는 여성사 아카데미를 운영하고 있다.",
+      "fusion_score": 0.03278688524590164,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 1,
+      "name_match": true,
+      "rerank_score": null,
+      "rank": 1,
+      "score": 0.03278688524590164,
+      "score_type": "rrf",
+      "distance": 0.4256542921066284,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0493",
+      "source_doc_ids": [
+        "DOC-B0493-TOUR_API-130963"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0493-TOUR_API-130963",
+          "source_type": "TOUR_API",
+          "source_record_id": "130963",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=244",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 53,
+          "doc_ids": [
+            "DOC-B0493-TOUR_API-130963"
+          ]
+        },
+        {
+          "start": 54,
+          "end": 134,
+          "doc_ids": [
+            "DOC-B0493-TOUR_API-130963"
+          ]
+        },
+        {
+          "start": 135,
+          "end": 260,
+          "doc_ids": [
+            "DOC-B0493-TOUR_API-130963"
+          ]
+        },
+        {
+          "start": 261,
+          "end": 374,
+          "doc_ids": [
+            "DOC-B0493-TOUR_API-130963"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=244",
+      "text": "국립여성사전시관은 한국 여성사 정립, 보급을 통해 양성평등 가치를 확산하는 복합교육문화공간이다. 역사 속 여성의 역할과 역사발전에 기여한 인물을 조명하고, 여성을 위한 교육과 국민의 양성평등의식 고양을 위한 장으로 활용하기 위해 설립되었다. 국립여성사전시관의 상설전시는 연대별, 분야별로 나뉘어 역사발전에 기여한 이야기, 역사의 궤도를 바꾸었던 이야기, 국난의 시기에 아픈 기억들, 그리고 세계 인류의 존엄성과 평화의 가치를 일깨우는 여성들의 이야기로 채워져 있다. 또한, 이곳은 교육부 인증 교육기부 진로체험 인증기관 중 하나로, 진로 탐색 프로그램인 나도 큐레이터, 초등학생을 대상으로 하는 찾아가는 여성사전시관, 성인대상으로 하는 여성사 아카데미를 운영하고 있다.",
+      "sido": "경기도",
+      "sigungu": "고양시",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=244"
+      ],
+      "evidence_id": "E1",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=355",
+        "fields": {
+          "name": "국립여성사전시관",
+          "sido": "경기도",
+          "sigungu": "고양시",
+          "address": "경기도 고양시 덕양구 화중로104번길 50",
+          "ownership_type": "국립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "10:00",
+          "weekday_close": "18:00",
+          "holiday_open": "00:00",
+          "holiday_close": "00:00",
+          "closure_rule_raw": "일요일, 공휴일 및 명절 휴관"
+        },
+        "base_data_date": "2026-04-08",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0340",
+      "name": "법천사지 유적전시관",
+      "document": "원주 법천사지 유적전시관은 고려 문종 때 왕사와 국사를 지낸 지광국사가 머물면서 큰 사찰의 규모를 갖추게 된 법천사가 있던 폐사지(사적) 내에 지어진 유적전시관이다. 전시관에는 고려시대 승탑의 백미로 꼽히는 국보 원주 법천사지 지광국사탑이 원주를 떠난 지 110여 년 만에 환수되어 전시되어 있다. 이 탑은 1910년대 일본으로 무단 반출되었다가, 다시 명동성당, 경복궁 등으로 거처를 옮기다 한국전쟁 당시 피폭 되어 복원 후 경복궁 고궁 박물관에 위치하다 국립문화유산연구원으로 옮겨져 보존처리 후 본 위치인 법천사지로 돌아왔다. 지광국사탑 외에도 법천사지 내 발굴조사에서 수습된 여러 유물들 또한 1, 2층 전시실에서 관람할 수 있다. 전시관 실외에는 사적 법천사지가 위치했던 터와 고려 시대 대표적인 걸작으로 꼽히는 국보 원주 법천사지 지광국사현묘탑비 또한 관람할 수 있다. 고려 문종 때 왕사와 국사를 지낸 지광국사가 머물면서 큰 사찰의 규모를 갖추게 된 법천사가 있던 폐사지(국가지정문화유산 사적 법천사지) 내에 지어진 유적전시관으로, 전시관 실내에 고려시대 승탑의 백미로 꼽히는 국보 원주 법천사지 지광국사탑이 원주를 떠난지 110여년 만에 환수되어 전시되어 있다. 이 탑은 1910년대 무단으로 일본으로 반출되었다가, 다시 명동성당, 경복궁 등으로 거처를 옮기다, 한국전쟁 당시 피폭 되어 복원 후 경복궁 고궁 박물관",
+      "metadata": {
+        "ownership_type": "공립",
+        "homepage_url": "https://whm.wonju.go.kr/whm/page/view.php/sub_11_03",
+        "sigungu": "원주시",
+        "sido": "강원특별자치도",
+        "image_copyright": "Type3",
+        "holiday_close": "18:00",
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "latitude": 37.2062448,
+        "holiday_open": "09:00",
+        "weekday_close": "18:00",
+        "longitude": 127.7640766,
+        "requires_manual_review": true,
+        "source_types": "BASE|TOUR_API",
+        "weekday_open": "09:00",
+        "amenities_raw": "전시관+주차장+화장실",
+        "address": "강원특별자치도 원주시 부론면 법천사지길 50-15",
+        "name": "법천사지 유적전시관",
+        "closure_rule_raw": "월+명절당일+공휴일 익일",
+        "youth_fee": 0.0,
+        "transport_notes": "시내버스 55번(원주터미널)",
+        "child_fee": 0.0,
+        "adult_fee": 0.0,
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/66/3540166_image2_1.jpg"
+      },
+      "vector_rank": 13,
+      "bm25_rank": 5,
+      "vector_distance": 0.6513055562973022,
+      "vector_score": null,
+      "bm25_score": 11.56134020550341,
+      "vector_document": "원주 법천사지 유적전시관은 고려 문종 때 왕사와 국사를 지낸 지광국사가 머물면서 큰 사찰의 규모를 갖추게 된 법천사가 있던 폐사지(사적) 내에 지어진 유적전시관이다. 전시관에는 고려시대 승탑의 백미로 꼽히는 국보 원주 법천사지 지광국사탑이 원주를 떠난 지 110여 년 만에 환수되어 전시되어 있다. 이 탑은 1910년대 일본으로 무단 반출되었다가, 다시 명동성당, 경복궁 등으로 거처를 옮기다 한국전쟁 당시 피폭 되어 복원 후 경복궁 고궁 박물관에 위치하다 국립문화유산연구원으로 옮겨져 보존처리 후 본 위치인 법천사지로 돌아왔다. 지광국사탑 외에도 법천사지 내 발굴조사에서 수습된 여러 유물들 또한 1, 2층 전시실에서 관람할 수 있다. 전시관 실외에는 사적 법천사지가 위치했던 터와 고려 시대 대표적인 걸작으로 꼽히는 국보 원주 법천사지 지광국사현묘탑비 또한 관람할 수 있다. 고려 문종 때 왕사와 국사를 지낸 지광국사가 머물면서 큰 사찰의 규모를 갖추게 된 법천사가 있던 폐사지(국가지정문화유산 사적 법천사지) 내에 지어진 유적전시관으로, 전시관 실내에 고려시대 승탑의 백미로 꼽히는 국보 원주 법천사지 지광국사탑이 원주를 떠난지 110여년 만에 환수되어 전시되어 있다. 이 탑은 1910년대 무단으로 일본으로 반출되었다가, 다시 명동성당, 경복궁 등으로 거처를 옮기다, 한국전쟁 당시 피폭 되어 복원 후 경복궁 고궁 박물관",
+      "bm25_document": "원주 법천사지 유적전시관은 고려 문종 때 왕사와 국사를 지낸 지광국사가 머물면서 큰 사찰의 규모를 갖추게 된 법천사가 있던 폐사지(사적) 내에 지어진 유적전시관이다. 전시관에는 고려시대 승탑의 백미로 꼽히는 국보 원주 법천사지 지광국사탑이 원주를 떠난 지 110여 년 만에 환수되어 전시되어 있다. 이 탑은 1910년대 일본으로 무단 반출되었다가, 다시 명동성당, 경복궁 등으로 거처를 옮기다 한국전쟁 당시 피폭 되어 복원 후 경복궁 고궁 박물관에 위치하다 국립문화유산연구원으로 옮겨져 보존처리 후 본 위치인 법천사지로 돌아왔다. 지광국사탑 외에도 법천사지 내 발굴조사에서 수습된 여러 유물들 또한 1, 2층 전시실에서 관람할 수 있다. 전시관 실외에는 사적 법천사지가 위치했던 터와 고려 시대 대표적인 걸작으로 꼽히는 국보 원주 법천사지 지광국사현묘탑비 또한 관람할 수 있다. 고려 문종 때 왕사와 국사를 지낸 지광국사가 머물면서 큰 사찰의 규모를 갖추게 된 법천사가 있던 폐사지(국가지정문화유산 사적 법천사지) 내에 지어진 유적전시관으로, 전시관 실내에 고려시대 승탑의 백미로 꼽히는 국보 원주 법천사지 지광국사탑이 원주를 떠난지 110여년 만에 환수되어 전시되어 있다. 이 탑은 1910년대 무단으로 일본으로 반출되었다가, 다시 명동성당, 경복궁 등으로 거처를 옮기다, 한국전쟁 당시 피폭 되어 복원 후 경복궁 고궁 박물관",
+      "best_span_id": "chroma:M0340",
+      "best_span_text": "원주 법천사지 유적전시관은 고려 문종 때 왕사와 국사를 지낸 지광국사가 머물면서 큰 사찰의 규모를 갖추게 된 법천사가 있던 폐사지(사적) 내에 지어진 유적전시관이다. 전시관에는 고려시대 승탑의 백미로 꼽히는 국보 원주 법천사지 지광국사탑이 원주를 떠난 지 110여 년 만에 환수되어 전시되어 있다. 이 탑은 1910년대 일본으로 무단 반출되었다가, 다시 명동성당, 경복궁 등으로 거처를 옮기다 한국전쟁 당시 피폭 되어 복원 후 경복궁 고궁 박물관에 위치하다 국립문화유산연구원으로 옮겨져 보존처리 후 본 위치인 법천사지로 돌아왔다. 지광국사탑 외에도 법천사지 내 발굴조사에서 수습된 여러 유물들 또한 1, 2층 전시실에서 관람할 수 있다. 전시관 실외에는 사적 법천사지가 위치했던 터와 고려 시대 대표적인 걸작으로 꼽히는 국보 원주 법천사지 지광국사현묘탑비 또한 관람할 수 있다. 고려 문종 때 왕사와 국사를 지낸 지광국사가 머물면서 큰 사찰의 규모를 갖추게 된 법천사가 있던 폐사지(국가지정문화유산 사적 법천사지) 내에 지어진 유적전시관으로, 전시관 실내에 고려시대 승탑의 백미로 꼽히는 국보 원주 법천사지 지광국사탑이 원주를 떠난지 110여년 만에 환수되어 전시되어 있다. 이 탑은 1910년대 무단으로 일본으로 반출되었다가, 다시 명동성당, 경복궁 등으로 거처를 옮기다, 한국전쟁 당시 피폭 되어 복원 후 경복궁 고궁 박물관",
+      "fusion_score": 0.029083245521601686,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 2,
+      "rerank_score": null,
+      "rank": 2,
+      "score": 0.029083245521601686,
+      "score_type": "rrf",
+      "distance": 0.6513055562973022,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0340",
+      "source_doc_ids": [
+        "DOC-B0340-TOUR_API-3540227",
+        "DOC-B0340-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0340-TOUR_API-3540227",
+          "source_type": "TOUR_API",
+          "source_record_id": "3540227",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=165",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        },
+        {
+          "doc_id": "DOC-B0340-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0340",
+          "source_locator": "data/raw/museum_base_1070.csv#row=341",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 92,
+          "doc_ids": [
+            "DOC-B0340-TOUR_API-3540227"
+          ]
+        },
+        {
+          "start": 93,
+          "end": 166,
+          "doc_ids": [
+            "DOC-B0340-TOUR_API-3540227"
+          ]
+        },
+        {
+          "start": 167,
+          "end": 296,
+          "doc_ids": [
+            "DOC-B0340-TOUR_API-3540227"
+          ]
+        },
+        {
+          "start": 297,
+          "end": 356,
+          "doc_ids": [
+            "DOC-B0340-TOUR_API-3540227"
+          ]
+        },
+        {
+          "start": 357,
+          "end": 435,
+          "doc_ids": [
+            "DOC-B0340-TOUR_API-3540227"
+          ]
+        },
+        {
+          "start": 436,
+          "end": 601,
+          "doc_ids": [
+            "DOC-B0340-BASE"
+          ]
+        },
+        {
+          "start": 602,
+          "end": 687,
+          "doc_ids": [
+            "DOC-B0340-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=165",
+      "text": "원주 법천사지 유적전시관은 고려 문종 때 왕사와 국사를 지낸 지광국사가 머물면서 큰 사찰의 규모를 갖추게 된 법천사가 있던 폐사지(사적) 내에 지어진 유적전시관이다. 전시관에는 고려시대 승탑의 백미로 꼽히는 국보 원주 법천사지 지광국사탑이 원주를 떠난 지 110여 년 만에 환수되어 전시되어 있다. 이 탑은 1910년대 일본으로 무단 반출되었다가, 다시 명동성당, 경복궁 등으로 거처를 옮기다 한국전쟁 당시 피폭 되어 복원 후 경복궁 고궁 박물관에 위치하다 국립문화유산연구원으로 옮겨져 보존처리 후 본 위치인 법천사지로 돌아왔다. 지광국사탑 외에도 법천사지 내 발굴조사에서 수습된 여러 유물들 또한 1, 2층 전시실에서 관람할 수 있다. 전시관 실외에는 사적 법천사지가 위치했던 터와 고려 시대 대표적인 걸작으로 꼽히는 국보 원주 법천사지 지광국사현묘탑비 또한 관람할 수 있다. 고려 문종 때 왕사와 국사를 지낸 지광국사가 머물면서 큰 사찰의 규모를 갖추게 된 법천사가 있던 폐사지(국가지정문화유산 사적 법천사지) 내에 지어진 유적전시관으로, 전시관 실내에 고려시대 승탑의 백미로 꼽히는 국보 원주 법천사지 지광국사탑이 원주를 떠난지 110여년 만에 환수되어 전시되어 있다. 이 탑은 1910년대 무단으로 일본으로 반출되었다가, 다시 명동성당, 경복궁 등으로 거처를 옮기다, 한국전쟁 당시 피폭 되어 복원 후 경복궁 고궁 박물관",
+      "sido": "강원특별자치도",
+      "sigungu": "원주시",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=165"
+      ],
+      "evidence_id": "E2",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=246",
+        "fields": {
+          "name": "법천사지 유적전시관",
+          "sido": "강원특별자치도",
+          "sigungu": "원주시",
+          "address": "강원특별자치도 원주시 부론면 법천사지길 50-15",
+          "ownership_type": "공립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "09:00",
+          "weekday_close": "18:00",
+          "holiday_open": "09:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "월+명절당일+공휴일 익일",
+          "amenities_raw": "전시관+주차장+화장실"
+        },
+        "base_data_date": "2026-06-29",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0312",
+      "name": "여주박물관",
+      "document": "1997년 여주군향토사료관으로 문을 연 여주박물관은 여주의 역사와 민속자료 등을 조사·수집·전시·교육하고, 새로운 학술자료를 발굴하며 여주의 정체성을 확립하는 역할을 수행하고 있다. 2010년 전시실 확장 후 제1종 전문박물관으로 등록하여 여주박물관으로 명칭을 변경하였으며, 2016년 7월 14일 여마관(신관)의 건립으로 전국에 흩어졌던 여주지역 발굴출토 국가귀속유물과 그간 수집한 다양한 유물을 전시할 수 있게 되었다. 전시실은 상설전시실과 기획전시실, 야외전시실로 구분되어 있으며, 상설전시실은 4가지 주제로 전시를 진행하고 있다. 여주역사실에서는 국립중앙박물관을 비롯한 여러 기관들에서 보관하던 주요 유적 출토 국가귀속 유물들과 그간 구입·기증을 통해 수집한 중요유물들을 전시하고 있다. 흔암리 선사유적지, 신륵사, 고달사지, 세종대왕릉과 효종대왕릉, 명성황후 생가 등 수많은 문화유적은 여주의 오랜 역사를 증명하고 있다. 남한강 수석전시실은 김정식 선생이 57년간 모은 수석을 기증받아 전시한 곳으로, 산수경석·물형석·추상석·12지석 등 자연이 빚은 최고의 예술작품인 수석의 멋과 아름다움을 느낄 수 있는 공간이다. 갖가지 수석에 담긴 의미를 여주 남한강이 가지고 있는 이야기로 풀어놓았다. 수석의 신비로움을 다채로운 방식으로 이해할 수 있는 공간이다. 류주현 문학전시실은 우리나라에 ‘대하 역사소설’이라는 장르를 개척하신 여주 출신의 묵사 류주현 선생의 삶과 작품세계를 설명한 공간이다. 류주현 선생은 다양·다작의 작가로 『조선총독부』, 『대원군』 등을 대표작으로 꼽을 수 있다. 한국 대표 문인으로서 선생의 생애와 작품세계, 문인들과의 교류를 통해 옛 문인들의 멋스러운 삶의 정취를 느낄 수 있을 것이다. 조선 왕릉실은 세종 영릉(英陵)과 효종 영릉(寧陵) 두 기의 조선 왕릉이 여주로 천릉하면서 조선시대부터 현대에 이르기까지 왕릉과 함께 변화한 여주의 역사와 여주 사람들의 삶을 살펴볼 수 있다. 여주의 역사와 전통문화를 아우르는 시립박물관으로, 전시와 교육, 체험을 할 수 있는 문화공간이다.",
+      "metadata": {
+        "closure_rule_raw": "월요일+추석당일+설날당일+1월1일",
+        "latitude": 37.2996535,
+        "weekday_close": "18:00",
+        "child_fee": 0.0,
+        "adult_fee": 0.0,
+        "ownership_type": "공립",
+        "address": "경기도 여주시 신륵사길 6-12",
+        "youth_fee": 0.0,
+        "holiday_open": "09:00",
+        "amenities_raw": "청춘카페",
+        "longitude": 127.6533782,
+        "requires_manual_review": true,
+        "transport_notes": "여주IC → 여주대교 → 신륵사 관광단지 → 신륵사 관지 내 강변에 위치",
+        "sigungu": "여주시",
+        "holiday_close": "18:00",
+        "source_types": "BASE|TOUR_API",
+        "weekday_open": "09:00",
+        "image_copyright": "Type1",
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/95/3540495_image2_1.jpg",
+        "name": "여주박물관",
+        "homepage_url": "http://www.yeoju.go.kr/museum",
+        "sido": "경기도"
+      },
+      "vector_rank": 7,
+      "bm25_rank": 13,
+      "vector_distance": 0.644388735294342,
+      "vector_score": null,
+      "bm25_score": 10.2782051354108,
+      "vector_document": "1997년 여주군향토사료관으로 문을 연 여주박물관은 여주의 역사와 민속자료 등을 조사·수집·전시·교육하고, 새로운 학술자료를 발굴하며 여주의 정체성을 확립하는 역할을 수행하고 있다. 2010년 전시실 확장 후 제1종 전문박물관으로 등록하여 여주박물관으로 명칭을 변경하였으며, 2016년 7월 14일 여마관(신관)의 건립으로 전국에 흩어졌던 여주지역 발굴출토 국가귀속유물과 그간 수집한 다양한 유물을 전시할 수 있게 되었다. 전시실은 상설전시실과 기획전시실, 야외전시실로 구분되어 있으며, 상설전시실은 4가지 주제로 전시를 진행하고 있다. 여주역사실에서는 국립중앙박물관을 비롯한 여러 기관들에서 보관하던 주요 유적 출토 국가귀속 유물들과 그간 구입·기증을 통해 수집한 중요유물들을 전시하고 있다. 흔암리 선사유적지, 신륵사, 고달사지, 세종대왕릉과 효종대왕릉, 명성황후 생가 등 수많은 문화유적은 여주의 오랜 역사를 증명하고 있다. 남한강 수석전시실은 김정식 선생이 57년간 모은 수석을 기증받아 전시한 곳으로, 산수경석·물형석·추상석·12지석 등 자연이 빚은 최고의 예술작품인 수석의 멋과 아름다움을 느낄 수 있는 공간이다. 갖가지 수석에 담긴 의미를 여주 남한강이 가지고 있는 이야기로 풀어놓았다. 수석의 신비로움을 다채로운 방식으로 이해할 수 있는 공간이다. 류주현 문학전시실은 우리나라에 ‘대하 역사소설’이라는 장르를 개척하신 여주 출신의 묵사 류주현 선생의 삶과 작품세계를 설명한 공간이다. 류주현 선생은 다양·다작의 작가로 『조선총독부』, 『대원군』 등을 대표작으로 꼽을 수 있다. 한국 대표 문인으로서 선생의 생애와 작품세계, 문인들과의 교류를 통해 옛 문인들의 멋스러운 삶의 정취를 느낄 수 있을 것이다. 조선 왕릉실은 세종 영릉(英陵)과 효종 영릉(寧陵) 두 기의 조선 왕릉이 여주로 천릉하면서 조선시대부터 현대에 이르기까지 왕릉과 함께 변화한 여주의 역사와 여주 사람들의 삶을 살펴볼 수 있다. 여주의 역사와 전통문화를 아우르는 시립박물관으로, 전시와 교육, 체험을 할 수 있는 문화공간이다.",
+      "bm25_document": "1997년 여주군향토사료관으로 문을 연 여주박물관은 여주의 역사와 민속자료 등을 조사·수집·전시·교육하고, 새로운 학술자료를 발굴하며 여주의 정체성을 확립하는 역할을 수행하고 있다. 2010년 전시실 확장 후 제1종 전문박물관으로 등록하여 여주박물관으로 명칭을 변경하였으며, 2016년 7월 14일 여마관(신관)의 건립으로 전국에 흩어졌던 여주지역 발굴출토 국가귀속유물과 그간 수집한 다양한 유물을 전시할 수 있게 되었다. 전시실은 상설전시실과 기획전시실, 야외전시실로 구분되어 있으며, 상설전시실은 4가지 주제로 전시를 진행하고 있다. 여주역사실에서는 국립중앙박물관을 비롯한 여러 기관들에서 보관하던 주요 유적 출토 국가귀속 유물들과 그간 구입·기증을 통해 수집한 중요유물들을 전시하고 있다. 흔암리 선사유적지, 신륵사, 고달사지, 세종대왕릉과 효종대왕릉, 명성황후 생가 등 수많은 문화유적은 여주의 오랜 역사를 증명하고 있다. 남한강 수석전시실은 김정식 선생이 57년간 모은 수석을 기증받아 전시한 곳으로, 산수경석·물형석·추상석·12지석 등 자연이 빚은 최고의 예술작품인 수석의 멋과 아름다움을 느낄 수 있는 공간이다. 갖가지 수석에 담긴 의미를 여주 남한강이 가지고 있는 이야기로 풀어놓았다. 수석의 신비로움을 다채로운 방식으로 이해할 수 있는 공간이다. 류주현 문학전시실은 우리나라에 ‘대하 역사소설’이라는 장르를 개척하신 여주 출신의 묵사 류주현 선생의 삶과 작품세계를 설명한 공간이다. 류주현 선생은 다양·다작의 작가로 『조선총독부』, 『대원군』 등을 대표작으로 꼽을 수 있다. 한국 대표 문인으로서 선생의 생애와 작품세계, 문인들과의 교류를 통해 옛 문인들의 멋스러운 삶의 정취를 느낄 수 있을 것이다. 조선 왕릉실은 세종 영릉(英陵)과 효종 영릉(寧陵) 두 기의 조선 왕릉이 여주로 천릉하면서 조선시대부터 현대에 이르기까지 왕릉과 함께 변화한 여주의 역사와 여주 사람들의 삶을 살펴볼 수 있다. 여주의 역사와 전통문화를 아우르는 시립박물관으로, 전시와 교육, 체험을 할 수 있는 문화공간이다.",
+      "best_span_id": "chroma:M0312",
+      "best_span_text": "1997년 여주군향토사료관으로 문을 연 여주박물관은 여주의 역사와 민속자료 등을 조사·수집·전시·교육하고, 새로운 학술자료를 발굴하며 여주의 정체성을 확립하는 역할을 수행하고 있다. 2010년 전시실 확장 후 제1종 전문박물관으로 등록하여 여주박물관으로 명칭을 변경하였으며, 2016년 7월 14일 여마관(신관)의 건립으로 전국에 흩어졌던 여주지역 발굴출토 국가귀속유물과 그간 수집한 다양한 유물을 전시할 수 있게 되었다. 전시실은 상설전시실과 기획전시실, 야외전시실로 구분되어 있으며, 상설전시실은 4가지 주제로 전시를 진행하고 있다. 여주역사실에서는 국립중앙박물관을 비롯한 여러 기관들에서 보관하던 주요 유적 출토 국가귀속 유물들과 그간 구입·기증을 통해 수집한 중요유물들을 전시하고 있다. 흔암리 선사유적지, 신륵사, 고달사지, 세종대왕릉과 효종대왕릉, 명성황후 생가 등 수많은 문화유적은 여주의 오랜 역사를 증명하고 있다. 남한강 수석전시실은 김정식 선생이 57년간 모은 수석을 기증받아 전시한 곳으로, 산수경석·물형석·추상석·12지석 등 자연이 빚은 최고의 예술작품인 수석의 멋과 아름다움을 느낄 수 있는 공간이다. 갖가지 수석에 담긴 의미를 여주 남한강이 가지고 있는 이야기로 풀어놓았다. 수석의 신비로움을 다채로운 방식으로 이해할 수 있는 공간이다. 류주현 문학전시실은 우리나라에 ‘대하 역사소설’이라는 장르를 개척하신 여주 출신의 묵사 류주현 선생의 삶과 작품세계를 설명한 공간이다. 류주현 선생은 다양·다작의 작가로 『조선총독부』, 『대원군』 등을 대표작으로 꼽을 수 있다. 한국 대표 문인으로서 선생의 생애와 작품세계, 문인들과의 교류를 통해 옛 문인들의 멋스러운 삶의 정취를 느낄 수 있을 것이다. 조선 왕릉실은 세종 영릉(英陵)과 효종 영릉(寧陵) 두 기의 조선 왕릉이 여주로 천릉하면서 조선시대부터 현대에 이르기까지 왕릉과 함께 변화한 여주의 역사와 여주 사람들의 삶을 살펴볼 수 있다. 여주의 역사와 전통문화를 아우르는 시립박물관으로, 전시와 교육, 체험을 할 수 있는 문화공간이다.",
+      "fusion_score": 0.02862400327131466,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 3,
+      "rerank_score": null,
+      "rank": 3,
+      "score": 0.02862400327131466,
+      "score_type": "rrf",
+      "distance": 0.644388735294342,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0312",
+      "source_doc_ids": [
+        "DOC-B0312-TOUR_API-130965",
+        "DOC-B0312-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0312-TOUR_API-130965",
+          "source_type": "TOUR_API",
+          "source_record_id": "130965",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=153",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        },
+        {
+          "doc_id": "DOC-B0312-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0312",
+          "source_locator": "data/raw/museum_base_1070.csv#row=313",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 101,
+          "doc_ids": [
+            "DOC-B0312-TOUR_API-130965"
+          ]
+        },
+        {
+          "start": 102,
+          "end": 236,
+          "doc_ids": [
+            "DOC-B0312-TOUR_API-130965"
+          ]
+        },
+        {
+          "start": 237,
+          "end": 300,
+          "doc_ids": [
+            "DOC-B0312-TOUR_API-130965"
+          ]
+        },
+        {
+          "start": 301,
+          "end": 388,
+          "doc_ids": [
+            "DOC-B0312-TOUR_API-130965"
+          ]
+        },
+        {
+          "start": 389,
+          "end": 464,
+          "doc_ids": [
+            "DOC-B0312-TOUR_API-130965"
+          ]
+        },
+        {
+          "start": 465,
+          "end": 573,
+          "doc_ids": [
+            "DOC-B0312-TOUR_API-130965"
+          ]
+        },
+        {
+          "start": 574,
+          "end": 615,
+          "doc_ids": [
+            "DOC-B0312-TOUR_API-130965"
+          ]
+        },
+        {
+          "start": 616,
+          "end": 650,
+          "doc_ids": [
+            "DOC-B0312-TOUR_API-130965"
+          ]
+        },
+        {
+          "start": 651,
+          "end": 726,
+          "doc_ids": [
+            "DOC-B0312-TOUR_API-130965"
+          ]
+        },
+        {
+          "start": 727,
+          "end": 778,
+          "doc_ids": [
+            "DOC-B0312-TOUR_API-130965"
+          ]
+        },
+        {
+          "start": 779,
+          "end": 849,
+          "doc_ids": [
+            "DOC-B0312-TOUR_API-130965"
+          ]
+        },
+        {
+          "start": 850,
+          "end": 957,
+          "doc_ids": [
+            "DOC-B0312-TOUR_API-130965"
+          ]
+        },
+        {
+          "start": 958,
+          "end": 1012,
+          "doc_ids": [
+            "DOC-B0312-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=153",
+      "text": "1997년 여주군향토사료관으로 문을 연 여주박물관은 여주의 역사와 민속자료 등을 조사·수집·전시·교육하고, 새로운 학술자료를 발굴하며 여주의 정체성을 확립하는 역할을 수행하고 있다. 2010년 전시실 확장 후 제1종 전문박물관으로 등록하여 여주박물관으로 명칭을 변경하였으며, 2016년 7월 14일 여마관(신관)의 건립으로 전국에 흩어졌던 여주지역 발굴출토 국가귀속유물과 그간 수집한 다양한 유물을 전시할 수 있게 되었다. 전시실은 상설전시실과 기획전시실, 야외전시실로 구분되어 있으며, 상설전시실은 4가지 주제로 전시를 진행하고 있다. 여주역사실에서는 국립중앙박물관을 비롯한 여러 기관들에서 보관하던 주요 유적 출토 국가귀속 유물들과 그간 구입·기증을 통해 수집한 중요유물들을 전시하고 있다. 흔암리 선사유적지, 신륵사, 고달사지, 세종대왕릉과 효종대왕릉, 명성황후 생가 등 수많은 문화유적은 여주의 오랜 역사를 증명하고 있다. 남한강 수석전시실은 김정식 선생이 57년간 모은 수석을 기증받아 전시한 곳으로, 산수경석·물형석·추상석·12지석 등 자연이 빚은 최고의 예술작품인 수석의 멋과 아름다움을 느낄 수 있는 공간이다. 갖가지 수석에 담긴 의미를 여주 남한강이 가지고 있는 이야기로 풀어놓았다. 수석의 신비로움을 다채로운 방식으로 이해할 수 있는 공간이다. 류주현 문학전시실은 우리나라에 ‘대하 역사소설’이라는 장르를 개척하신 여주 출신의 묵사 류주현 선생의 삶과 작품세계를 설명한 공간이다. 류주현 선생은 다양·다작의 작가로 『조선총독부』, 『대원군』 등을 대표작으로 꼽을 수 있다. 한국 대표 문인으로서 선생의 생애와 작품세계, 문인들과의 교류를 통해 옛 문인들의 멋스러운 삶의 정취를 느낄 수 있을 것이다. 조선 왕릉실은 세종 영릉(英陵)과 효종 영릉(寧陵) 두 기의 조선 왕릉이 여주로 천릉하면서 조선시대부터 현대에 이르기까지 왕릉과 함께 변화한 여주의 역사와 여주 사람들의 삶을 살펴볼 수 있다. 여주의 역사와 전통문화를 아우르는 시립박물관으로, 전시와 교육, 체험을 할 수 있는 문화공간이다.",
+      "sido": "경기도",
+      "sigungu": "여주시",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=153"
+      ],
+      "evidence_id": "E3",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=225",
+        "fields": {
+          "name": "여주박물관",
+          "sido": "경기도",
+          "sigungu": "여주시",
+          "address": "경기도 여주시 신륵사길 6-12",
+          "ownership_type": "공립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "09:00",
+          "weekday_close": "18:00",
+          "holiday_open": "09:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "월요일+추석당일+설날당일+1월1일",
+          "amenities_raw": "청춘카페"
+        },
+        "base_data_date": "2026-05-19",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0309",
+      "name": "여성생활사박물관",
+      "document": "2001년 개관한 여성생활사박물관은 유물과 천연염색을 테마로 넓은 공간과 자연친화적인 아름다운 자연 속에 위치하고 있으며, 과거 현재 미래를 잇는 복합문화공간이다. 상설전시를 비롯하여 매년 새로운 기획전 및 대관전시, 다양한 역사문화 콘텐츠 교육 및 체험프로그램은 열린 문화의 장으로 역할을 수행하고 있다. 유물의 조사수집과 관리 및 전시를 통해 역사문화의 이해증진을 위해 건립한 박물관이다.",
+      "metadata": {
+        "transport_notes": "여주 IC를 나와 여주대학을 지나 원주 방면 자동차 전용도로를 이용하여 7km 운행 후 강천에서 빠져나와 파출소를 지나 우회전하여 굴암리 쪽으로 향한다.",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/36/3563636_image2_1.jpg",
+        "address": "경기도 여주시 강천면 강천로 324-20",
+        "ownership_type": "사립",
+        "requires_manual_review": true,
+        "closure_rule_raw": "월요일",
+        "latitude": 37.2425236,
+        "holiday_close": "18:00",
+        "name": "여성생활사박물관",
+        "weekday_close": "18:00",
+        "weekday_open": "10:00",
+        "source_types": "BASE|TOUR_API",
+        "longitude": 127.7081445,
+        "adult_fee": 5000.0,
+        "image_copyright": "Type3",
+        "youth_fee": 3000.0,
+        "holiday_open": "10:00",
+        "sido": "경기도",
+        "child_fee": 3000.0,
+        "adult_fee_status": "BASE_FEE_PAID",
+        "sigungu": "여주시"
+      },
+      "vector_rank": 2,
+      "bm25_rank": null,
+      "vector_distance": 0.5959786772727966,
+      "vector_score": null,
+      "bm25_score": null,
+      "vector_document": "2001년 개관한 여성생활사박물관은 유물과 천연염색을 테마로 넓은 공간과 자연친화적인 아름다운 자연 속에 위치하고 있으며, 과거 현재 미래를 잇는 복합문화공간이다. 상설전시를 비롯하여 매년 새로운 기획전 및 대관전시, 다양한 역사문화 콘텐츠 교육 및 체험프로그램은 열린 문화의 장으로 역할을 수행하고 있다. 유물의 조사수집과 관리 및 전시를 통해 역사문화의 이해증진을 위해 건립한 박물관이다.",
+      "bm25_document": "",
+      "best_span_id": null,
+      "best_span_text": null,
+      "fusion_score": 0.016129032258064516,
+      "retrieved_by": [
+        "vector"
+      ],
+      "fusion_rank": 4,
+      "rerank_score": null,
+      "rank": 4,
+      "score": 0.016129032258064516,
+      "score_type": "rrf",
+      "distance": 0.5959786772727966,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector"
+      ],
+      "retriever": "vector",
+      "source_doc_ids": [
+        "DOC-B0309-TOUR_API-130724",
+        "DOC-B0309-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0309-TOUR_API-130724",
+          "source_type": "TOUR_API",
+          "source_record_id": "130724",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=151",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        },
+        {
+          "doc_id": "DOC-B0309-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0309",
+          "source_locator": "data/raw/museum_base_1070.csv#row=310",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 91,
+          "doc_ids": [
+            "DOC-B0309-TOUR_API-130724"
+          ]
+        },
+        {
+          "start": 92,
+          "end": 171,
+          "doc_ids": [
+            "DOC-B0309-TOUR_API-130724"
+          ]
+        },
+        {
+          "start": 172,
+          "end": 219,
+          "doc_ids": [
+            "DOC-B0309-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=151",
+      "text": "2001년 개관한 여성생활사박물관은 유물과 천연염색을 테마로 넓은 공간과 자연친화적인 아름다운 자연 속에 위치하고 있으며, 과거 현재 미래를 잇는 복합문화공간이다. 상설전시를 비롯하여 매년 새로운 기획전 및 대관전시, 다양한 역사문화 콘텐츠 교육 및 체험프로그램은 열린 문화의 장으로 역할을 수행하고 있다. 유물의 조사수집과 관리 및 전시를 통해 역사문화의 이해증진을 위해 건립한 박물관이다.",
+      "sido": "경기도",
+      "sigungu": "여주시",
+      "span_id": "",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=151"
+      ],
+      "evidence_id": "E4",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=222",
+        "fields": {
+          "name": "여성생활사박물관",
+          "sido": "경기도",
+          "sigungu": "여주시",
+          "address": "경기도 여주시 강천면 강천로 324-20",
+          "ownership_type": "사립",
+          "adult_fee": "5000",
+          "youth_fee": "3000",
+          "child_fee": "3000",
+          "adult_fee_status": "BASE_FEE_PAID",
+          "weekday_open": "10:00",
+          "weekday_close": "18:00",
+          "holiday_open": "10:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "월요일"
+        },
+        "base_data_date": "2026-05-19",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0589",
+      "name": "대성동고분박물관",
+      "document": "대성동고분박물관은 2003년 개관하였다. 금관가야 최고 지배층들의 무덤 유적인 대성동고분군(국가사적 제341호)에서 발굴된 유물과 자료들을 전시하고 있으며, 유물을 상설 전시하는 주 전시관과 대형 무덤 2기를 발굴 당시의 모습으로 야외에 전시한 노출전시관, 기획 전시와 교육을 시행하는 기획전시관으로 이루어져 있다. 상설 전시는 일반인이 재미있게 관람하면서 쉽게 금관가야의 문화를 이해할 수 있도록 각종 복원품과 모형품, 첨단의 영상 기법 등을 동원하여 전시하고 있으며, 왕들의 마지막 안식처, 수로왕 이전의 사회, 왕의 무덤 모습을 드러내다, 금관가야의 남겨진 이야기 등을 테마로 전시하고 있다. 야외전시관은 대성동고분군에서 최초의 왕묘라 할 수 있는 29호 목곽묘와 이것을 파괴하면서 설치된 39호 목곽묘를 발굴 당시의 상태로 복원하여 전시하고 있으며, 비상설로 운영하는 기획 전시관도 운영하고 있다. 금관가야 왕들의 묘역으로 알려진 세계유산 대성동고분군에서 조사된 유구와 유물을 통해 가야문화의 우수성과 가치 홍보",
+      "metadata": {
+        "latitude": 35.23606102,
+        "child_fee": 0.0,
+        "image_copyright": "Type1",
+        "sido": "경상남도",
+        "longitude": 128.8730821,
+        "ownership_type": "공립",
+        "transport_notes": "경전철 박물관역 또는 수로왕릉역 하차 후 도보 3분, 외동시외버스터미털 하차 도보 7분",
+        "homepage_url": "http://ds.gimhae.go.kr/main",
+        "weekday_close": "18:00",
+        "source_types": "BASE|TOUR_API",
+        "address": "경상남도 김해시 가야의길 126",
+        "requires_manual_review": true,
+        "adult_fee": 0.0,
+        "closure_rule_raw": "월요일(공휴일인 월요일은 운영, 다음날 휴관)+1월1일+설 당일+추석 당일",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/02/4090402_image2_1.jpg",
+        "sigungu": "김해시",
+        "youth_fee": 0.0,
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "weekday_open": "09:00",
+        "name": "대성동고분박물관",
+        "amenities_raw": "주차장+장애인화장실+다목적커뮤니티실",
+        "holiday_open": "09:00",
+        "holiday_close": "18:00"
+      },
+      "vector_rank": null,
+      "bm25_rank": 2,
+      "vector_distance": null,
+      "vector_score": null,
+      "bm25_score": 14.875599782480894,
+      "vector_document": "",
+      "bm25_document": "대성동고분박물관은 2003년 개관하였다. 금관가야 최고 지배층들의 무덤 유적인 대성동고분군(국가사적 제341호)에서 발굴된 유물과 자료들을 전시하고 있으며, 유물을 상설 전시하는 주 전시관과 대형 무덤 2기를 발굴 당시의 모습으로 야외에 전시한 노출전시관, 기획 전시와 교육을 시행하는 기획전시관으로 이루어져 있다. 상설 전시는 일반인이 재미있게 관람하면서 쉽게 금관가야의 문화를 이해할 수 있도록 각종 복원품과 모형품, 첨단의 영상 기법 등을 동원하여 전시하고 있으며, 왕들의 마지막 안식처, 수로왕 이전의 사회, 왕의 무덤 모습을 드러내다, 금관가야의 남겨진 이야기 등을 테마로 전시하고 있다. 야외전시관은 대성동고분군에서 최초의 왕묘라 할 수 있는 29호 목곽묘와 이것을 파괴하면서 설치된 39호 목곽묘를 발굴 당시의 상태로 복원하여 전시하고 있으며, 비상설로 운영하는 기획 전시관도 운영하고 있다. 금관가야 왕들의 묘역으로 알려진 세계유산 대성동고분군에서 조사된 유구와 유물을 통해 가야문화의 우수성과 가치 홍보",
+      "best_span_id": "chroma:M0589",
+      "best_span_text": "대성동고분박물관은 2003년 개관하였다. 금관가야 최고 지배층들의 무덤 유적인 대성동고분군(국가사적 제341호)에서 발굴된 유물과 자료들을 전시하고 있으며, 유물을 상설 전시하는 주 전시관과 대형 무덤 2기를 발굴 당시의 모습으로 야외에 전시한 노출전시관, 기획 전시와 교육을 시행하는 기획전시관으로 이루어져 있다. 상설 전시는 일반인이 재미있게 관람하면서 쉽게 금관가야의 문화를 이해할 수 있도록 각종 복원품과 모형품, 첨단의 영상 기법 등을 동원하여 전시하고 있으며, 왕들의 마지막 안식처, 수로왕 이전의 사회, 왕의 무덤 모습을 드러내다, 금관가야의 남겨진 이야기 등을 테마로 전시하고 있다. 야외전시관은 대성동고분군에서 최초의 왕묘라 할 수 있는 29호 목곽묘와 이것을 파괴하면서 설치된 39호 목곽묘를 발굴 당시의 상태로 복원하여 전시하고 있으며, 비상설로 운영하는 기획 전시관도 운영하고 있다. 금관가야 왕들의 묘역으로 알려진 세계유산 대성동고분군에서 조사된 유구와 유물을 통해 가야문화의 우수성과 가치 홍보",
+      "fusion_score": 0.016129032258064516,
+      "retrieved_by": [
+        "bm25"
+      ],
+      "fusion_rank": 5,
+      "rerank_score": null,
+      "rank": 5,
+      "score": 0.016129032258064516,
+      "score_type": "rrf",
+      "distance": null,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "bm25"
+      ],
+      "retriever": "bm25",
+      "span_id": "chroma:M0589",
+      "source_doc_ids": [
+        "DOC-B0589-TOUR_API-130689",
+        "DOC-B0589-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0589-TOUR_API-130689",
+          "source_type": "TOUR_API",
+          "source_record_id": "130689",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=292",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        },
+        {
+          "doc_id": "DOC-B0589-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0589",
+          "source_locator": "data/raw/museum_base_1070.csv#row=590",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 22,
+          "doc_ids": [
+            "DOC-B0589-TOUR_API-130689"
+          ]
+        },
+        {
+          "start": 23,
+          "end": 176,
+          "doc_ids": [
+            "DOC-B0589-TOUR_API-130689"
+          ]
+        },
+        {
+          "start": 177,
+          "end": 334,
+          "doc_ids": [
+            "DOC-B0589-TOUR_API-130689"
+          ]
+        },
+        {
+          "start": 335,
+          "end": 450,
+          "doc_ids": [
+            "DOC-B0589-TOUR_API-130689"
+          ]
+        },
+        {
+          "start": 451,
+          "end": 514,
+          "doc_ids": [
+            "DOC-B0589-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=292",
+      "text": "대성동고분박물관은 2003년 개관하였다. 금관가야 최고 지배층들의 무덤 유적인 대성동고분군(국가사적 제341호)에서 발굴된 유물과 자료들을 전시하고 있으며, 유물을 상설 전시하는 주 전시관과 대형 무덤 2기를 발굴 당시의 모습으로 야외에 전시한 노출전시관, 기획 전시와 교육을 시행하는 기획전시관으로 이루어져 있다. 상설 전시는 일반인이 재미있게 관람하면서 쉽게 금관가야의 문화를 이해할 수 있도록 각종 복원품과 모형품, 첨단의 영상 기법 등을 동원하여 전시하고 있으며, 왕들의 마지막 안식처, 수로왕 이전의 사회, 왕의 무덤 모습을 드러내다, 금관가야의 남겨진 이야기 등을 테마로 전시하고 있다. 야외전시관은 대성동고분군에서 최초의 왕묘라 할 수 있는 29호 목곽묘와 이것을 파괴하면서 설치된 39호 목곽묘를 발굴 당시의 상태로 복원하여 전시하고 있으며, 비상설로 운영하는 기획 전시관도 운영하고 있다. 금관가야 왕들의 묘역으로 알려진 세계유산 대성동고분군에서 조사된 유구와 유물을 통해 가야문화의 우수성과 가치 홍보",
+      "sido": "경상남도",
+      "sigungu": "김해시",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=292"
+      ],
+      "evidence_id": "E5",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=409",
+        "fields": {
+          "name": "대성동고분박물관",
+          "sido": "경상남도",
+          "sigungu": "김해시",
+          "address": "경상남도 김해시 가야의길 126",
+          "ownership_type": "공립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "09:00",
+          "weekday_close": "18:00",
+          "holiday_open": "09:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "월요일(공휴일인 월요일은 운영, 다음날 휴관)+1월1일+설 당일+추석 당일",
+          "amenities_raw": "주차장+장애인화장실+다목적커뮤니티실"
+        },
+        "base_data_date": "2025-12-24",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    }
+  ],
+  "answer": "상설전시는 연대별·분야별로 구성되어 있으며, 역사 발전에 기여한 여성들의 이야기, 역사의 흐름을 바꾼 이야기, 국난 시기의 아픈 기억, 그리고 세계 인류의 존엄성과 평화의 가치를 일깨우는 여성들의 이야기를 다룹니다. [E1]",
+  "retrieval_status": "ok",
+  "answer_status": "answered",
+  "route": "hybrid",
+  "retry_count": 0,
+  "supervisor_verified": true,
+  "rerank_applied": false,
+  "retriever_errors": [],
+  "warnings": [
+    "Cross-Encoder reranking failed (FileNotFoundError); RRF order retained"
+  ],
+  "duration_ms": 12237.65,
+  "error_type": "",
+  "hit_at_1": 1,
+  "hit_at_3": 1,
+  "hit_at_5": 1,
+  "recall_at_5": 1.0,
+  "mrr_at_10": 1.0
+}

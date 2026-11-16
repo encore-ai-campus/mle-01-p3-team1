@@ -1,0 +1,146 @@
+{
+  "mode": "supervisor_full",
+  "question_id": "V2-SF10",
+  "evidence": [
+    {
+      "museum_id": "M0537",
+      "name": "서해미술관",
+      "text": "서해미술관은 사립미술관으로 조형물 등 미술작품 전시(유물 총 180점 소장)",
+      "span_id": "",
+      "source_doc_ids": [
+        "DOC-B0537-BASE"
+      ],
+      "source_urls": [],
+      "source_url": "",
+      "source_locators": [
+        "data/raw/museum_base_1070.csv#row=538"
+      ],
+      "source_locator": "data/raw/museum_base_1070.csv#row=538",
+      "sido": "충청남도",
+      "sigungu": "서산시",
+      "retriever": "graph",
+      "amenities": [
+        "주차장"
+      ],
+      "facility_type": "미술관",
+      "source_scope": "graph_properties",
+      "metadata": {},
+      "chunk_id": "",
+      "retrievers": [
+        "graph"
+      ],
+      "evidence_id": "E1",
+      "rank": 1
+    },
+    {
+      "museum_id": "M0538",
+      "name": "한서대학교 박물관",
+      "text": "한서대학교 대학박물관으로 상설전시+특별전시 운영 중(유물 총7749점 소장)",
+      "span_id": "",
+      "source_doc_ids": [
+        "DOC-B0538-BASE"
+      ],
+      "source_urls": [],
+      "source_url": "",
+      "source_locators": [
+        "data/raw/museum_base_1070.csv#row=539"
+      ],
+      "source_locator": "data/raw/museum_base_1070.csv#row=539",
+      "sido": "충청남도",
+      "sigungu": "서산시",
+      "retriever": "graph",
+      "amenities": [
+        "주차장"
+      ],
+      "facility_type": "박물관",
+      "source_scope": "graph_properties",
+      "metadata": {},
+      "chunk_id": "",
+      "retrievers": [
+        "graph"
+      ],
+      "evidence_id": "E2",
+      "rank": 2
+    },
+    {
+      "museum_id": "M0557",
+      "name": "백제군사박물관",
+      "text": "백제군사박물관은 백제의 군사문화를 생생하게 체험할 수 있는 박물관이다. 논산은 백제 수도가 부여였던 시대에 수도의 서쪽 방위를 맡은 군사상 중요 거점이다. 백제군사박물관은 이러한 논산 지역의 특징을 활용하여 오천결사대를 이끌고 논산 황산벌에 나아가 장렬히 전사한 계백장군묘역 및 사당(충장사), 계백장군유적전승지, 황산벌전적지 주변 부지에 조성하였다. 이곳은 백제와 군사라는 성격을 부여하여 전시물을 구성, 백제시대의 유물은 물론 그 시대의 군사적 모습을 전시하는 등을 경험할 수 있다. 또한, 각종 전시회 및 공연이 열려 다양한 문화 예술의 공간으로서의 역할을 하고 있다. 겨울을 제외한 시기에는 야외 체험장에서 주말에 어린이들을 대상으로 국궁체험, 승마체험, 백제문화체험을 운영하고 있으며, 평일에는 단체 어린이들을 대상으로 충혼의 숲에서 숲 체험 예약 접수를 받고 있다. 그리고 2008년부터는 매년 4월 백제군사박물관 옆 충장사에서 계백 장군의 충절을 기리는 제향을 지내고 있다. 계백장군의 충절 정신과 예학의 전통문화를 한눈에 볼 수 있는 백제군사박물관",
+      "span_id": "",
+      "source_doc_ids": [
+        "DOC-B0557-BASE",
+        "DOC-B0557-TOUR_API-130896"
+      ],
+      "source_urls": [],
+      "source_url": "",
+      "source_locators": [
+        "data/raw/museum_base_1070.csv#row=558",
+        "data/raw/museum_tourapi_with_overview.csv#row=276"
+      ],
+      "source_locator": "data/raw/museum_base_1070.csv#row=558",
+      "sido": "충청남도",
+      "sigungu": "논산시",
+      "retriever": "graph",
+      "amenities": [
+        "자전거 보관대"
+      ],
+      "facility_type": "박물관",
+      "source_scope": "graph_properties",
+      "metadata": {},
+      "chunk_id": "",
+      "retrievers": [
+        "graph"
+      ],
+      "evidence_id": "E3",
+      "rank": 3
+    },
+    {
+      "museum_id": "M1006",
+      "name": "한국자연사박물관",
+      "text": "한국자연사박물관은 자연경관이 아름답기로 유명한 계룡산 국립공원 자락에 있으며, 국내 최대 규모와 최다의 소장품을 자랑하는 교육과 체험의 명소이다. 직접 투자, 발굴에 참여한 청운이라 불리는 천우호연사우르스청운엔시스 공룡의 실물 화석과 계룡산 특산식물 동물, 곤충, 자연사 관련 자료 등을 수집, 보존 및 전시 연구를 하고 있다. 전시관은 총 3층으로 지구상의 생명체에 기본이 되는 정보들부터 다양한 화석, 동물의 세계와 바다의 세계까지 다양한 전시로 구성되어 있다. 특별한 날에 운영하는 특별 전시도 진행하는데 정보는 홈페이지를 참고하면 된다. 한국자연사박물관에서 과학에 대해 자연스럽고 재미있게 배워보는 시간을 가져볼 수 있다. 1. 공룡,미라,화석,동물,식물, 광물,보석 전시 2. 공휴일 및 주말 매시간 전시해설(11:00~16:00)",
+      "span_id": "",
+      "source_doc_ids": [
+        "DOC-B1006-BASE",
+        "DOC-B1006-TOUR_API-130560"
+      ],
+      "source_urls": [],
+      "source_url": "",
+      "source_locators": [
+        "data/raw/museum_base_1070.csv#row=1007",
+        "data/raw/museum_tourapi_with_overview.csv#row=469"
+      ],
+      "source_locator": "data/raw/museum_base_1070.csv#row=1007",
+      "sido": "충청남도",
+      "sigungu": "공주시",
+      "retriever": "graph",
+      "amenities": [
+        "주차장"
+      ],
+      "facility_type": "박물관",
+      "source_scope": "graph_properties",
+      "metadata": {},
+      "chunk_id": "",
+      "retrievers": [
+        "graph"
+      ],
+      "evidence_id": "E4",
+      "rank": 4
+    }
+  ],
+  "answer": "충남에서 기록상 주차장이 있는 곳은 다음과 같습니다.\n- 서산시: 서해미술관(미술관) [E1]\n- 서산시: 한서대학교 박물관(박물관) [E2]\n- 공주시: 한국자연사박물관(박물관) [E4]\n\n위 목록은 제공된 기록의 시설 정보에 따른 것이며, 현재 주차장 운영 여부를 뜻하지는 않습니다. [E1][E2][E4]",
+  "retrieval_status": "ok",
+  "answer_status": "answered",
+  "route": "graph",
+  "retry_count": 1,
+  "supervisor_verified": true,
+  "rerank_applied": false,
+  "retriever_errors": [],
+  "warnings": [],
+  "duration_ms": 75722.91,
+  "error_type": "",
+  "hit_at_1": 1,
+  "hit_at_3": 1,
+  "hit_at_5": 1,
+  "recall_at_5": 0.75,
+  "mrr_at_10": 1.0
+}

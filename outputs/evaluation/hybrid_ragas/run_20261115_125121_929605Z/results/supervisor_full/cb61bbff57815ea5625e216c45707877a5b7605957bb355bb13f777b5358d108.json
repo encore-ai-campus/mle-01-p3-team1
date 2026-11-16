@@ -1,0 +1,776 @@
+{
+  "mode": "supervisor_full",
+  "question_id": "V2-CF01",
+  "evidence": [
+    {
+      "museum_id": "M0001",
+      "name": "박진전쟁기념관",
+      "document": "박진전쟁기념관은 6·25전쟁 최후의 보루였던 박진전투 현장을 재현하여 민족 분단의 실상을 올바르게 인식하고 순국선열들의 호국 정신을 계승 발전시키고자 건립한 기념관이다. 박진지역은 부산을 점령하기 위해 낙동강을 도하하여 최후의 발악을 하던 북한군과 미군이 2주간 사투를 벌였던 격전지이다. 박진지구전투의 승리로 인해 전세가 역전된 국군과 유엔군이 낙동강을 건너 반격하게 되었으며, 인천상륙작전의 성공과 함께 압록강까지 진격할 수 있는 결정적 계기가 된 한국전쟁사에 길이 빛날 중요한 전적지이다. 박진전쟁기념관에서는 6·25전쟁 및 낙동강 돌출부 전투 관련 행사 및 프로그램을 운영하고 있으며, 박진지구 전투 디오라마 등을 통한 당시 모습 재현 및 다양한 기획 전시를 진행하고 있다. 또한, 안보교육의 장으로써 역할을 하고 있다.",
+      "metadata": {
+        "longitude": 128.3861935,
+        "child_fee": 0.0,
+        "holiday_open": "09:00",
+        "weekday_close": "18:00",
+        "name": "박진전쟁기념관",
+        "closure_rule_raw": "매주 월요일+1월 1일+설날+추석날",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/99/3568999_image2_1.jpg",
+        "amenities_raw": "장애인화장실+유모차/휠체어 이용가능",
+        "requires_manual_review": true,
+        "sigungu": "창녕군",
+        "address": "경상남도 창녕군 남지읍 월상길 27",
+        "ownership_type": "공립",
+        "latitude": 35.44796796,
+        "homepage_url": "https://www.cng.go.kr/01656/03204/03205.web",
+        "youth_fee": 0.0,
+        "holiday_close": "18:00",
+        "adult_fee": 0.0,
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "image_copyright": "Type1",
+        "sido": "경상남도",
+        "weekday_open": "09:00",
+        "source_types": "TOUR_API"
+      },
+      "vector_rank": 1,
+      "bm25_rank": null,
+      "vector_distance": 0.5127934217453003,
+      "vector_score": null,
+      "bm25_score": null,
+      "vector_document": "박진전쟁기념관은 6·25전쟁 최후의 보루였던 박진전투 현장을 재현하여 민족 분단의 실상을 올바르게 인식하고 순국선열들의 호국 정신을 계승 발전시키고자 건립한 기념관이다. 박진지역은 부산을 점령하기 위해 낙동강을 도하하여 최후의 발악을 하던 북한군과 미군이 2주간 사투를 벌였던 격전지이다. 박진지구전투의 승리로 인해 전세가 역전된 국군과 유엔군이 낙동강을 건너 반격하게 되었으며, 인천상륙작전의 성공과 함께 압록강까지 진격할 수 있는 결정적 계기가 된 한국전쟁사에 길이 빛날 중요한 전적지이다. 박진전쟁기념관에서는 6·25전쟁 및 낙동강 돌출부 전투 관련 행사 및 프로그램을 운영하고 있으며, 박진지구 전투 디오라마 등을 통한 당시 모습 재현 및 다양한 기획 전시를 진행하고 있다. 또한, 안보교육의 장으로써 역할을 하고 있다.",
+      "bm25_document": "",
+      "best_span_id": null,
+      "best_span_text": null,
+      "fusion_score": 0.01639344262295082,
+      "retrieved_by": [
+        "vector"
+      ],
+      "fusion_rank": 1,
+      "name_match": true,
+      "rerank_score": 0.4029127359390259,
+      "rank": 1,
+      "score": 0.4029127359390259,
+      "score_type": "cross_encoder",
+      "distance": 0.5127934217453003,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector"
+      ],
+      "retriever": "vector",
+      "source_doc_ids": [
+        "DOC-B0001-TOUR_API-2785601"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0001-TOUR_API-2785601",
+          "source_type": "TOUR_API",
+          "source_record_id": "2785601",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=2",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 94,
+          "doc_ids": [
+            "DOC-B0001-TOUR_API-2785601"
+          ]
+        },
+        {
+          "start": 95,
+          "end": 161,
+          "doc_ids": [
+            "DOC-B0001-TOUR_API-2785601"
+          ]
+        },
+        {
+          "start": 162,
+          "end": 276,
+          "doc_ids": [
+            "DOC-B0001-TOUR_API-2785601"
+          ]
+        },
+        {
+          "start": 277,
+          "end": 381,
+          "doc_ids": [
+            "DOC-B0001-TOUR_API-2785601"
+          ]
+        },
+        {
+          "start": 382,
+          "end": 407,
+          "doc_ids": [
+            "DOC-B0001-TOUR_API-2785601"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=2",
+      "text": "박진전쟁기념관은 6·25전쟁 최후의 보루였던 박진전투 현장을 재현하여 민족 분단의 실상을 올바르게 인식하고 순국선열들의 호국 정신을 계승 발전시키고자 건립한 기념관이다. 박진지역은 부산을 점령하기 위해 낙동강을 도하하여 최후의 발악을 하던 북한군과 미군이 2주간 사투를 벌였던 격전지이다. 박진지구전투의 승리로 인해 전세가 역전된 국군과 유엔군이 낙동강을 건너 반격하게 되었으며, 인천상륙작전의 성공과 함께 압록강까지 진격할 수 있는 결정적 계기가 된 한국전쟁사에 길이 빛날 중요한 전적지이다. 박진전쟁기념관에서는 6·25전쟁 및 낙동강 돌출부 전투 관련 행사 및 프로그램을 운영하고 있으며, 박진지구 전투 디오라마 등을 통한 당시 모습 재현 및 다양한 기획 전시를 진행하고 있다. 또한, 안보교육의 장으로써 역할을 하고 있다.",
+      "sido": "경상남도",
+      "sigungu": "창녕군",
+      "span_id": "",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=2"
+      ],
+      "evidence_id": "E1",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=2",
+        "fields": {
+          "name": "박진전쟁기념관",
+          "sido": "경상남도",
+          "sigungu": "창녕군",
+          "address": "경상남도 창녕군 남지읍 월상길 27",
+          "ownership_type": "공립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "09:00",
+          "weekday_close": "18:00",
+          "holiday_open": "09:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "매주 월요일+1월 1일+설날+추석날",
+          "amenities_raw": "장애인화장실+유모차/휠체어 이용가능"
+        },
+        "base_data_date": "2026-09-18",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0574",
+      "name": "전쟁기념관",
+      "document": "서울시 용산구 용산동에 호국전쟁의 실체를 보여주는 자료를 보존 전시하고 국민정신교육장으로 역할을 하며 조국을 위해 목숨을 바친 선열들의 숭고한 희생을 추모하고 그 업적을 기리기 위해 전쟁기념사업회에서 1994년 6월 10일 전쟁기념관을 세웠다. 전쟁기념관은 옥내전시와 옥외전시로 구분되어 있으며 3만 3천여 점의 소장유물 중 1만여 점을 전시하고 있다. 1만 900여 평의 옥내전시실은 호국추모실, 전쟁역사실, 6·25전쟁실, 해외파병실, 국군발전실, 대형장비실 등 6개 전시실로 구성되어 있으며 대형무기들이 전시되어 있는 옥외전시실이 있다. 3층 규모의 옥내전시실은 삼국시대로부터 현대까지 5천년 대한민국 전쟁사와 위국 헌신한 분들의 공로와 훈장 등이 실물·디오라마·복제품·기록화·영상 등의 다양한 전시기법에 따라 역동적이고 입체적으로 전시되어 있다. 특히 6·25전쟁실은 전쟁이 일어난 원인과 전쟁 경과 및 휴전에 이르기까지의 전 과정을 쉽고 올바르게 이해할 수 있도록 체험시설 등으로 구성되어 있다. 옥외전시장에는 세계 각국의 대형무기와 6·25전쟁 상징 조형물, 광개토대왕릉비, 형제의 상, 평화의 시계탑 등이 전시되어 있다. 제2차 세계대전, 6·25전쟁, 베트남전쟁 당시 사용되었던 장비를 전시하고 있는데, K-1전차를 비롯하여 곡사포, 미사일, 헬리콥터, 수송기 등이 전시되어 있다. 기념관 양측 회랑에는 국군 전사자와 유엔군 전사자 20여 만 명의 이름이 새겨진 전사자 명비가 있으며, 전쟁기념관을 대국민 호국문화의 장으로서도 큰 역할을 하고 있다. 어린이부터 일반인까지 다양한 계층을 대상으로 한 20여개의 교육프로그램을 운영함은 물론, 국군 군악·의장행사, 어린이날 문화축제, 현충일 그림그리기 대회, 6·25 호국문화행사 등 다양한 문화행사를 연간 개최하고 있어 기념관을 찾는 관람객들에게 새로운 볼거리를 제공하고 있다. 전쟁기념관의 캐릭터는 무돌이로, 나라를 지킨다는 뜻을 가진 철모와 평화를 상징하는 월계수잎이 특징적이다.",
+      "metadata": {
+        "image_copyright": "Type3",
+        "image_url": "http://tong.visitkorea.or.kr/cms/resource/29/3465929_image2_1.JPG",
+        "source_types": "TOUR_API",
+        "adult_fee": 0.0,
+        "closure_rule_raw": "월요일(월요일 포함 연휴때는 연휴 다음날)",
+        "address": "서울특별시 용산구 이태원로 29",
+        "holiday_open": "09:30",
+        "requires_manual_review": true,
+        "sido": "서울특별시",
+        "name": "전쟁기념관",
+        "weekday_open": "09:30",
+        "ownership_type": "사립",
+        "homepage_url": "http://www.warmemo.or.kr/",
+        "holiday_close": "18:00",
+        "weekday_close": "18:00",
+        "youth_fee": 0.0,
+        "sigungu": "용산구",
+        "child_fee": 0.0,
+        "latitude": 37.53731288,
+        "longitude": 126.9784661,
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS"
+      },
+      "vector_rank": 2,
+      "bm25_rank": null,
+      "vector_distance": 0.5654568076133728,
+      "vector_score": null,
+      "bm25_score": null,
+      "vector_document": "서울시 용산구 용산동에 호국전쟁의 실체를 보여주는 자료를 보존 전시하고 국민정신교육장으로 역할을 하며 조국을 위해 목숨을 바친 선열들의 숭고한 희생을 추모하고 그 업적을 기리기 위해 전쟁기념사업회에서 1994년 6월 10일 전쟁기념관을 세웠다. 전쟁기념관은 옥내전시와 옥외전시로 구분되어 있으며 3만 3천여 점의 소장유물 중 1만여 점을 전시하고 있다. 1만 900여 평의 옥내전시실은 호국추모실, 전쟁역사실, 6·25전쟁실, 해외파병실, 국군발전실, 대형장비실 등 6개 전시실로 구성되어 있으며 대형무기들이 전시되어 있는 옥외전시실이 있다. 3층 규모의 옥내전시실은 삼국시대로부터 현대까지 5천년 대한민국 전쟁사와 위국 헌신한 분들의 공로와 훈장 등이 실물·디오라마·복제품·기록화·영상 등의 다양한 전시기법에 따라 역동적이고 입체적으로 전시되어 있다. 특히 6·25전쟁실은 전쟁이 일어난 원인과 전쟁 경과 및 휴전에 이르기까지의 전 과정을 쉽고 올바르게 이해할 수 있도록 체험시설 등으로 구성되어 있다. 옥외전시장에는 세계 각국의 대형무기와 6·25전쟁 상징 조형물, 광개토대왕릉비, 형제의 상, 평화의 시계탑 등이 전시되어 있다. 제2차 세계대전, 6·25전쟁, 베트남전쟁 당시 사용되었던 장비를 전시하고 있는데, K-1전차를 비롯하여 곡사포, 미사일, 헬리콥터, 수송기 등이 전시되어 있다. 기념관 양측 회랑에는 국군 전사자와 유엔군 전사자 20여 만 명의 이름이 새겨진 전사자 명비가 있으며, 전쟁기념관을 대국민 호국문화의 장으로서도 큰 역할을 하고 있다. 어린이부터 일반인까지 다양한 계층을 대상으로 한 20여개의 교육프로그램을 운영함은 물론, 국군 군악·의장행사, 어린이날 문화축제, 현충일 그림그리기 대회, 6·25 호국문화행사 등 다양한 문화행사를 연간 개최하고 있어 기념관을 찾는 관람객들에게 새로운 볼거리를 제공하고 있다. 전쟁기념관의 캐릭터는 무돌이로, 나라를 지킨다는 뜻을 가진 철모와 평화를 상징하는 월계수잎이 특징적이다.",
+      "bm25_document": "",
+      "best_span_id": null,
+      "best_span_text": null,
+      "fusion_score": 0.016129032258064516,
+      "retrieved_by": [
+        "vector"
+      ],
+      "fusion_rank": 4,
+      "rerank_score": 0.011285450309515,
+      "rank": 2,
+      "score": 0.011285450309515,
+      "score_type": "cross_encoder",
+      "distance": 0.5654568076133728,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector"
+      ],
+      "retriever": "vector",
+      "source_doc_ids": [
+        "DOC-B0574-TOUR_API-130431"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0574-TOUR_API-130431",
+          "source_type": "TOUR_API",
+          "source_record_id": "130431",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=283",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 136,
+          "doc_ids": [
+            "DOC-B0574-TOUR_API-130431"
+          ]
+        },
+        {
+          "start": 137,
+          "end": 197,
+          "doc_ids": [
+            "DOC-B0574-TOUR_API-130431"
+          ]
+        },
+        {
+          "start": 198,
+          "end": 303,
+          "doc_ids": [
+            "DOC-B0574-TOUR_API-130431"
+          ]
+        },
+        {
+          "start": 304,
+          "end": 421,
+          "doc_ids": [
+            "DOC-B0574-TOUR_API-130431"
+          ]
+        },
+        {
+          "start": 422,
+          "end": 506,
+          "doc_ids": [
+            "DOC-B0574-TOUR_API-130431"
+          ]
+        },
+        {
+          "start": 507,
+          "end": 578,
+          "doc_ids": [
+            "DOC-B0574-TOUR_API-130431"
+          ]
+        },
+        {
+          "start": 579,
+          "end": 669,
+          "doc_ids": [
+            "DOC-B0574-TOUR_API-130431"
+          ]
+        },
+        {
+          "start": 670,
+          "end": 763,
+          "doc_ids": [
+            "DOC-B0574-TOUR_API-130431"
+          ]
+        },
+        {
+          "start": 764,
+          "end": 918,
+          "doc_ids": [
+            "DOC-B0574-TOUR_API-130431"
+          ]
+        },
+        {
+          "start": 919,
+          "end": 977,
+          "doc_ids": [
+            "DOC-B0574-TOUR_API-130431"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=283",
+      "text": "서울시 용산구 용산동에 호국전쟁의 실체를 보여주는 자료를 보존 전시하고 국민정신교육장으로 역할을 하며 조국을 위해 목숨을 바친 선열들의 숭고한 희생을 추모하고 그 업적을 기리기 위해 전쟁기념사업회에서 1994년 6월 10일 전쟁기념관을 세웠다. 전쟁기념관은 옥내전시와 옥외전시로 구분되어 있으며 3만 3천여 점의 소장유물 중 1만여 점을 전시하고 있다. 1만 900여 평의 옥내전시실은 호국추모실, 전쟁역사실, 6·25전쟁실, 해외파병실, 국군발전실, 대형장비실 등 6개 전시실로 구성되어 있으며 대형무기들이 전시되어 있는 옥외전시실이 있다. 3층 규모의 옥내전시실은 삼국시대로부터 현대까지 5천년 대한민국 전쟁사와 위국 헌신한 분들의 공로와 훈장 등이 실물·디오라마·복제품·기록화·영상 등의 다양한 전시기법에 따라 역동적이고 입체적으로 전시되어 있다. 특히 6·25전쟁실은 전쟁이 일어난 원인과 전쟁 경과 및 휴전에 이르기까지의 전 과정을 쉽고 올바르게 이해할 수 있도록 체험시설 등으로 구성되어 있다. 옥외전시장에는 세계 각국의 대형무기와 6·25전쟁 상징 조형물, 광개토대왕릉비, 형제의 상, 평화의 시계탑 등이 전시되어 있다. 제2차 세계대전, 6·25전쟁, 베트남전쟁 당시 사용되었던 장비를 전시하고 있는데, K-1전차를 비롯하여 곡사포, 미사일, 헬리콥터, 수송기 등이 전시되어 있다. 기념관 양측 회랑에는 국군 전사자와 유엔군 전사자 20여 만 명의 이름이 새겨진 전사자 명비가 있으며, 전쟁기념관을 대국민 호국문화의 장으로서도 큰 역할을 하고 있다. 어린이부터 일반인까지 다양한 계층을 대상으로 한 20여개의 교육프로그램을 운영함은 물론, 국군 군악·의장행사, 어린이날 문화축제, 현충일 그림그리기 대회, 6·25 호국문화행사 등 다양한 문화행사를 연간 개최하고 있어 기념관을 찾는 관람객들에게 새로운 볼거리를 제공하고 있다. 전쟁기념관의 캐릭터는 무돌이로, 나라를 지킨다는 뜻을 가진 철모와 평화를 상징하는 월계수잎이 특징적이다.",
+      "sido": "서울특별시",
+      "sigungu": "용산구",
+      "span_id": "",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=283"
+      ],
+      "evidence_id": "E2",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=398",
+        "fields": {
+          "name": "전쟁기념관",
+          "sido": "서울특별시",
+          "sigungu": "용산구",
+          "address": "서울특별시 용산구 이태원로 29",
+          "ownership_type": "사립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "09:30",
+          "weekday_close": "18:00",
+          "holiday_open": "09:30",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "월요일(월요일 포함 연휴때는 연휴 다음날)"
+        },
+        "base_data_date": "2026-01-26",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0191",
+      "name": "경상북도독립운동기념관",
+      "document": "경상북도독립운동기념관은 2007년 개관한 안동독립운동기념관을 2014년에 경상북도 전체의 기념관으로 승격·확장하여 2017년 6월 30일 다시 문을 열었다. 경북독립운동사에 관한 자료를 수집‧보존, 조사‧연구, 전시, 교육함으로써 민족의 자주독립을 지켜온 독립운동가들의 나라 사랑 정신을 계승하고 민족문화의 정체성 확립 및 올바른 국가관을 정립하는데 목적을 두고 있다. 또한 경상북도독립운동기념관의 전시실은 독립관과 의열관으로 구성되어 있으며, 1894년 갑오의병부터 1945년 조국 광복 때까지 51년간 펼쳐진 경북 사람들의 국내외 독립운동이 담겨 있다. 의병항쟁을 시작으로 국채보상운동, 자정순국, 만주지역 항일투쟁, 6·10 만세운동, 의열투쟁, 한국광복군 등 경북 사람들의 쉼 없는 항일투쟁과 관련 유물이 소개되어 있다. 또한 의열관은 안동 독립운동의 뿌리가 된 전통마을의 항일투쟁을 한눈에 볼 수 있다. 안동 독립운동의 뿌리가 된 전통마을의 항일투쟁을 전시하고 있는 전시실과 되살아나는 불씨, 나라 위해 목숨 바친 경북 사람들의 51년 독립운동을 영상으로 보여주는 추강영상실, 유아를 위한 교육과 체험공간인 새싹교육실 등으로 구성되어 있다. 경북 지역 독립운동의 역사를 기록하고 기념하는 시설이다. 의병 활동에서 광복에 이르는 지역의 항일운동과 독립운동가들의 활동을 전시·교육을 통해 소개한다.",
+      "metadata": {
+        "homepage_url": "http://815gb.or.kr",
+        "closure_rule_raw": "월+설 당일+추석 당일",
+        "sigungu": "안동시",
+        "adult_fee_status": "BASE_FEE_PAID",
+        "requires_manual_review": true,
+        "longitude": 128.858222,
+        "weekday_open": "09:00",
+        "ownership_type": "사립",
+        "holiday_open": "09:00",
+        "latitude": 36.533194,
+        "image_copyright": "Type1",
+        "sido": "경상북도",
+        "adult_fee": 2000.0,
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/76/3585876_image2_1.jpg",
+        "child_fee": 1000.0,
+        "address": "경상북도 안동시 임하면 독립기념관길 2",
+        "name": "경상북도독립운동기념관",
+        "source_types": "TOUR_API|WEB_RESEARCH",
+        "youth_fee": 1500.0,
+        "holiday_close": "18:00",
+        "weekday_close": "18:00"
+      },
+      "vector_rank": null,
+      "bm25_rank": 7,
+      "vector_distance": null,
+      "vector_score": null,
+      "bm25_score": 5.728523710230952,
+      "vector_document": "",
+      "bm25_document": "경상북도독립운동기념관은 2007년 개관한 안동독립운동기념관을 2014년에 경상북도 전체의 기념관으로 승격·확장하여 2017년 6월 30일 다시 문을 열었다. 경북독립운동사에 관한 자료를 수집‧보존, 조사‧연구, 전시, 교육함으로써 민족의 자주독립을 지켜온 독립운동가들의 나라 사랑 정신을 계승하고 민족문화의 정체성 확립 및 올바른 국가관을 정립하는데 목적을 두고 있다. 또한 경상북도독립운동기념관의 전시실은 독립관과 의열관으로 구성되어 있으며, 1894년 갑오의병부터 1945년 조국 광복 때까지 51년간 펼쳐진 경북 사람들의 국내외 독립운동이 담겨 있다. 의병항쟁을 시작으로 국채보상운동, 자정순국, 만주지역 항일투쟁, 6·10 만세운동, 의열투쟁, 한국광복군 등 경북 사람들의 쉼 없는 항일투쟁과 관련 유물이 소개되어 있다. 또한 의열관은 안동 독립운동의 뿌리가 된 전통마을의 항일투쟁을 한눈에 볼 수 있다. 안동 독립운동의 뿌리가 된 전통마을의 항일투쟁을 전시하고 있는 전시실과 되살아나는 불씨, 나라 위해 목숨 바친 경북 사람들의 51년 독립운동을 영상으로 보여주는 추강영상실, 유아를 위한 교육과 체험공간인 새싹교육실 등으로 구성되어 있다. 경북 지역 독립운동의 역사를 기록하고 기념하는 시설이다. 의병 활동에서 광복에 이르는 지역의 항일운동과 독립운동가들의 활동을 전시·교육을 통해 소개한다.",
+      "best_span_id": "chroma:M0191",
+      "best_span_text": "경상북도독립운동기념관은 2007년 개관한 안동독립운동기념관을 2014년에 경상북도 전체의 기념관으로 승격·확장하여 2017년 6월 30일 다시 문을 열었다. 경북독립운동사에 관한 자료를 수집‧보존, 조사‧연구, 전시, 교육함으로써 민족의 자주독립을 지켜온 독립운동가들의 나라 사랑 정신을 계승하고 민족문화의 정체성 확립 및 올바른 국가관을 정립하는데 목적을 두고 있다. 또한 경상북도독립운동기념관의 전시실은 독립관과 의열관으로 구성되어 있으며, 1894년 갑오의병부터 1945년 조국 광복 때까지 51년간 펼쳐진 경북 사람들의 국내외 독립운동이 담겨 있다. 의병항쟁을 시작으로 국채보상운동, 자정순국, 만주지역 항일투쟁, 6·10 만세운동, 의열투쟁, 한국광복군 등 경북 사람들의 쉼 없는 항일투쟁과 관련 유물이 소개되어 있다. 또한 의열관은 안동 독립운동의 뿌리가 된 전통마을의 항일투쟁을 한눈에 볼 수 있다. 안동 독립운동의 뿌리가 된 전통마을의 항일투쟁을 전시하고 있는 전시실과 되살아나는 불씨, 나라 위해 목숨 바친 경북 사람들의 51년 독립운동을 영상으로 보여주는 추강영상실, 유아를 위한 교육과 체험공간인 새싹교육실 등으로 구성되어 있다. 경북 지역 독립운동의 역사를 기록하고 기념하는 시설이다. 의병 활동에서 광복에 이르는 지역의 항일운동과 독립운동가들의 활동을 전시·교육을 통해 소개한다.",
+      "fusion_score": 0.014925373134328358,
+      "retrieved_by": [
+        "bm25"
+      ],
+      "fusion_rank": 13,
+      "rerank_score": 0.0015411920612677932,
+      "rank": 3,
+      "score": 0.0015411920612677932,
+      "score_type": "cross_encoder",
+      "distance": null,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "bm25"
+      ],
+      "retriever": "bm25",
+      "span_id": "chroma:M0191",
+      "source_doc_ids": [
+        "DOC-B0191-TOUR_API-795012",
+        "DOC-WEB-M0191-20261111"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0191-TOUR_API-795012",
+          "source_type": "TOUR_API",
+          "source_record_id": "795012",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=92",
+          "match_trust": "RECHECKED_BY_RULE_NOT_HUMAN_APPROVED"
+        },
+        {
+          "doc_id": "DOC-WEB-M0191-20261111",
+          "source_type": "WEB_RESEARCH",
+          "source_record_id": "RESEARCH-M0191",
+          "source_locator": "https://mfis.mpva.go.kr/memorial/movementView.do?gubunCode=ALL&sid=871",
+          "source_url": "https://mfis.mpva.go.kr/memorial/movementView.do?gubunCode=ALL&sid=871",
+          "match_trust": "WEB_SOURCE_REVIEWED_NOT_HUMAN_APPROVED"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 87,
+          "doc_ids": [
+            "DOC-B0191-TOUR_API-795012"
+          ]
+        },
+        {
+          "start": 88,
+          "end": 206,
+          "doc_ids": [
+            "DOC-B0191-TOUR_API-795012"
+          ]
+        },
+        {
+          "start": 207,
+          "end": 311,
+          "doc_ids": [
+            "DOC-B0191-TOUR_API-795012"
+          ]
+        },
+        {
+          "start": 312,
+          "end": 407,
+          "doc_ids": [
+            "DOC-B0191-TOUR_API-795012"
+          ]
+        },
+        {
+          "start": 408,
+          "end": 454,
+          "doc_ids": [
+            "DOC-B0191-TOUR_API-795012"
+          ]
+        },
+        {
+          "start": 455,
+          "end": 587,
+          "doc_ids": [
+            "DOC-B0191-TOUR_API-795012"
+          ]
+        },
+        {
+          "start": 588,
+          "end": 619,
+          "doc_ids": [
+            "DOC-WEB-M0191-20261111"
+          ]
+        },
+        {
+          "start": 620,
+          "end": 673,
+          "doc_ids": [
+            "DOC-WEB-M0191-20261111"
+          ]
+        }
+      ],
+      "source_urls": [
+        "https://mfis.mpva.go.kr/memorial/movementView.do?gubunCode=ALL&sid=871"
+      ],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=92",
+      "text": "경상북도독립운동기념관은 2007년 개관한 안동독립운동기념관을 2014년에 경상북도 전체의 기념관으로 승격·확장하여 2017년 6월 30일 다시 문을 열었다. 경북독립운동사에 관한 자료를 수집‧보존, 조사‧연구, 전시, 교육함으로써 민족의 자주독립을 지켜온 독립운동가들의 나라 사랑 정신을 계승하고 민족문화의 정체성 확립 및 올바른 국가관을 정립하는데 목적을 두고 있다. 또한 경상북도독립운동기념관의 전시실은 독립관과 의열관으로 구성되어 있으며, 1894년 갑오의병부터 1945년 조국 광복 때까지 51년간 펼쳐진 경북 사람들의 국내외 독립운동이 담겨 있다. 의병항쟁을 시작으로 국채보상운동, 자정순국, 만주지역 항일투쟁, 6·10 만세운동, 의열투쟁, 한국광복군 등 경북 사람들의 쉼 없는 항일투쟁과 관련 유물이 소개되어 있다. 또한 의열관은 안동 독립운동의 뿌리가 된 전통마을의 항일투쟁을 한눈에 볼 수 있다. 안동 독립운동의 뿌리가 된 전통마을의 항일투쟁을 전시하고 있는 전시실과 되살아나는 불씨, 나라 위해 목숨 바친 경북 사람들의 51년 독립운동을 영상으로 보여주는 추강영상실, 유아를 위한 교육과 체험공간인 새싹교육실 등으로 구성되어 있다. 경북 지역 독립운동의 역사를 기록하고 기념하는 시설이다. 의병 활동에서 광복에 이르는 지역의 항일운동과 독립운동가들의 활동을 전시·교육을 통해 소개한다.",
+      "sido": "경상북도",
+      "sigungu": "안동시",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=92"
+      ],
+      "evidence_id": "E3",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=126",
+        "fields": {
+          "name": "경상북도독립운동기념관",
+          "sido": "경상북도",
+          "sigungu": "안동시",
+          "address": "경상북도 안동시 임하면 독립기념관길 2",
+          "ownership_type": "사립",
+          "adult_fee": "2000",
+          "youth_fee": "1500",
+          "child_fee": "1000",
+          "adult_fee_status": "BASE_FEE_PAID",
+          "weekday_open": "09:00",
+          "weekday_close": "18:00",
+          "holiday_open": "09:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "월+설 당일+추석 당일"
+        },
+        "base_data_date": "2026-09-04",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0056",
+      "name": "제주항일기념관",
+      "document": "기미년 3·1독립만세운동은 제주지역까지 이어져 1919년 3월 21일부터 24일까지 조천읍 미밋동산(현 만세동산)과 조천장터 일대에서 전개되었다. 이러한 선열들의 뜻을 기리기 위해 조천만세동산 성역화 사업이 추진되었고, 1997년 8월 15일 광복절에 맞춰 기념관이 문을 열었다. 조천만세운동을 비롯해 법정사 항일운동, 해녀항일운동 등 제주 3대 항일운동과 제주에서 일어난 항일독립운동의 역사를 시대순으로 한눈에 볼 수 있다. 1층에는 항일운동사 연표와 법정사 항일운동 디오라마가, 2층에는 조천만세운동 디오라마와 해녀항일운동을 담은 매직비전 등이 전시되어 있다. 야외에는 애국선열추모탑과 위패를 모신 창열사, 3·1독립운동기념탑이 자리한 만세공원이 조성되어 있어, 선열들의 숭고한 희생정신을 되새기며 함께 둘러보기 좋다.",
+      "metadata": {
+        "name": "제주항일기념관",
+        "image_copyright": "Type1",
+        "sido": "제주특별자치도",
+        "sigungu": "제주시",
+        "ownership_type": "공립",
+        "holiday_open": "09:00",
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "child_fee": 0.0,
+        "longitude": 126.6407255,
+        "weekday_close": "18:00",
+        "closure_rule_raw": "1월1일 설연휴(3일) 추석연휴(3일)",
+        "source_types": "TOUR_API",
+        "holiday_close": "18:00",
+        "homepage_url": "http://www.jeju.go.kr/hangil/index.htm",
+        "address": "제주특별자치도 제주시 조천읍 신북로 303",
+        "latitude": 33.54102729,
+        "youth_fee": 0.0,
+        "weekday_open": "09:00",
+        "requires_manual_review": true,
+        "adult_fee": 0.0,
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/84/4114084_image2_1.JPG"
+      },
+      "vector_rank": 5,
+      "bm25_rank": 3,
+      "vector_distance": 0.639074444770813,
+      "vector_score": null,
+      "bm25_score": 6.3267429652988625,
+      "vector_document": "기미년 3·1독립만세운동은 제주지역까지 이어져 1919년 3월 21일부터 24일까지 조천읍 미밋동산(현 만세동산)과 조천장터 일대에서 전개되었다. 이러한 선열들의 뜻을 기리기 위해 조천만세동산 성역화 사업이 추진되었고, 1997년 8월 15일 광복절에 맞춰 기념관이 문을 열었다. 조천만세운동을 비롯해 법정사 항일운동, 해녀항일운동 등 제주 3대 항일운동과 제주에서 일어난 항일독립운동의 역사를 시대순으로 한눈에 볼 수 있다. 1층에는 항일운동사 연표와 법정사 항일운동 디오라마가, 2층에는 조천만세운동 디오라마와 해녀항일운동을 담은 매직비전 등이 전시되어 있다. 야외에는 애국선열추모탑과 위패를 모신 창열사, 3·1독립운동기념탑이 자리한 만세공원이 조성되어 있어, 선열들의 숭고한 희생정신을 되새기며 함께 둘러보기 좋다.",
+      "bm25_document": "기미년 3·1독립만세운동은 제주지역까지 이어져 1919년 3월 21일부터 24일까지 조천읍 미밋동산(현 만세동산)과 조천장터 일대에서 전개되었다. 이러한 선열들의 뜻을 기리기 위해 조천만세동산 성역화 사업이 추진되었고, 1997년 8월 15일 광복절에 맞춰 기념관이 문을 열었다. 조천만세운동을 비롯해 법정사 항일운동, 해녀항일운동 등 제주 3대 항일운동과 제주에서 일어난 항일독립운동의 역사를 시대순으로 한눈에 볼 수 있다. 1층에는 항일운동사 연표와 법정사 항일운동 디오라마가, 2층에는 조천만세운동 디오라마와 해녀항일운동을 담은 매직비전 등이 전시되어 있다. 야외에는 애국선열추모탑과 위패를 모신 창열사, 3·1독립운동기념탑이 자리한 만세공원이 조성되어 있어, 선열들의 숭고한 희생정신을 되새기며 함께 둘러보기 좋다.",
+      "best_span_id": "chroma:M0056",
+      "best_span_text": "기미년 3·1독립만세운동은 제주지역까지 이어져 1919년 3월 21일부터 24일까지 조천읍 미밋동산(현 만세동산)과 조천장터 일대에서 전개되었다. 이러한 선열들의 뜻을 기리기 위해 조천만세동산 성역화 사업이 추진되었고, 1997년 8월 15일 광복절에 맞춰 기념관이 문을 열었다. 조천만세운동을 비롯해 법정사 항일운동, 해녀항일운동 등 제주 3대 항일운동과 제주에서 일어난 항일독립운동의 역사를 시대순으로 한눈에 볼 수 있다. 1층에는 항일운동사 연표와 법정사 항일운동 디오라마가, 2층에는 조천만세운동 디오라마와 해녀항일운동을 담은 매직비전 등이 전시되어 있다. 야외에는 애국선열추모탑과 위패를 모신 창열사, 3·1독립운동기념탑이 자리한 만세공원이 조성되어 있어, 선열들의 숭고한 희생정신을 되새기며 함께 둘러보기 좋다.",
+      "fusion_score": 0.03125763125763126,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 2,
+      "rerank_score": 0.0005127090262249112,
+      "rank": 4,
+      "score": 0.0005127090262249112,
+      "score_type": "cross_encoder",
+      "distance": 0.639074444770813,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0056",
+      "source_doc_ids": [
+        "DOC-B0056-TOUR_API-130308"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0056-TOUR_API-130308",
+          "source_type": "TOUR_API",
+          "source_record_id": "130308",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=31",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 81,
+          "doc_ids": [
+            "DOC-B0056-TOUR_API-130308"
+          ]
+        },
+        {
+          "start": 82,
+          "end": 156,
+          "doc_ids": [
+            "DOC-B0056-TOUR_API-130308"
+          ]
+        },
+        {
+          "start": 157,
+          "end": 238,
+          "doc_ids": [
+            "DOC-B0056-TOUR_API-130308"
+          ]
+        },
+        {
+          "start": 239,
+          "end": 315,
+          "doc_ids": [
+            "DOC-B0056-TOUR_API-130308"
+          ]
+        },
+        {
+          "start": 316,
+          "end": 404,
+          "doc_ids": [
+            "DOC-B0056-TOUR_API-130308"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=31",
+      "text": "기미년 3·1독립만세운동은 제주지역까지 이어져 1919년 3월 21일부터 24일까지 조천읍 미밋동산(현 만세동산)과 조천장터 일대에서 전개되었다. 이러한 선열들의 뜻을 기리기 위해 조천만세동산 성역화 사업이 추진되었고, 1997년 8월 15일 광복절에 맞춰 기념관이 문을 열었다. 조천만세운동을 비롯해 법정사 항일운동, 해녀항일운동 등 제주 3대 항일운동과 제주에서 일어난 항일독립운동의 역사를 시대순으로 한눈에 볼 수 있다. 1층에는 항일운동사 연표와 법정사 항일운동 디오라마가, 2층에는 조천만세운동 디오라마와 해녀항일운동을 담은 매직비전 등이 전시되어 있다. 야외에는 애국선열추모탑과 위패를 모신 창열사, 3·1독립운동기념탑이 자리한 만세공원이 조성되어 있어, 선열들의 숭고한 희생정신을 되새기며 함께 둘러보기 좋다.",
+      "sido": "제주특별자치도",
+      "sigungu": "제주시",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=31"
+      ],
+      "evidence_id": "E4",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=39",
+        "fields": {
+          "name": "제주항일기념관",
+          "sido": "제주특별자치도",
+          "sigungu": "제주시",
+          "address": "제주특별자치도 제주시 조천읍 신북로 303",
+          "ownership_type": "공립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "09:00",
+          "weekday_close": "18:00",
+          "holiday_open": "09:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "1월1일 설연휴(3일) 추석연휴(3일)"
+        },
+        "base_data_date": "2026-09-30",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0169",
+      "name": "임시수도기념관",
+      "document": "임시수도기념관은 한국전쟁이라는 국난의 시기에 대한민국 임시수도로서 소명을 훌륭하게 마친 부산의 위상과 역사성을 기념하고 부산 시민의 자긍심을 고취하기 위해 1984년 6월 25일 개관하였다. 개관 당시 중심 건물이었던 대통령 관저는 일제강점기인 1925년 경상남도 도청이 진주에서 부산으로 이전하면서 1926년 8월 10일 도지사 관사로 지어진 벽돌조의 2층 가옥으로 1950년 한국전쟁 발발로 부산이 대한민국의 임시수도 기능을 했던 기간(1950~53년)에는 대한민국의 초대 대통령인 이승만 대통령이 거처하던 곳이다. 한국 전쟁 당시 대한민국 정치의 최종 결정과 대외적인 외교업무가 이루어진 장소라는 점을 사실적으로 보여주기 위하여 대통령의 집무실과 응접실 등을 당시 분위기 그대로 재현하였고 대통령 내외와 수행비서들의 생활공간이기도 한 내실과 거실, 손님방, 식당과 부엌 등에서는 검소하고 소박한 대통령 내외의 일상적인 면들도 볼 수 있다. 이 곳은 전시관을 함께 운영하고 있으며 2012년 9월 대통령 관저 뒤편에 자리 잡고 있던 옛 부산고등검찰청 검사장 관사를 전면 리모델링하여 새로운 전시관으로 개관했다. 지하 1층, 지상 1층의 벽돌조 가옥인 전시관은 한국전쟁의 발발과 피란민들의 생활상, 임시수도 시기 부산의 정치, 경제, 문화 등을 보여주는 상설전시실로 꾸며져 있다.",
+      "metadata": {
+        "requires_manual_review": true,
+        "weekday_open": "09:00",
+        "youth_fee": 0.0,
+        "source_types": "TOUR_API",
+        "holiday_close": "18:00",
+        "adult_fee": 0.0,
+        "fee_notes": "부산광역시립박물관 운영 조례 제5조에 따름",
+        "transport_notes": "지하철, 버스 등홈페이지 참조",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/16/4055716_image2_1.png",
+        "closure_rule_raw": "1.1 휴관매주 월요일 휴관",
+        "image_copyright": "Type1",
+        "ownership_type": "공립",
+        "latitude": 35.10375325,
+        "holiday_open": "09:00",
+        "address": "부산광역시 서구 임시수도기념로 45(부민동3가)",
+        "sido": "부산광역시",
+        "name": "임시수도기념관",
+        "weekday_close": "18:00",
+        "child_fee": 0.0,
+        "longitude": 129.0175964,
+        "sigungu": "서구",
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "homepage_url": "https://www.busan.go.kr/monument/index"
+      },
+      "vector_rank": 3,
+      "bm25_rank": null,
+      "vector_distance": 0.6231282949447632,
+      "vector_score": null,
+      "bm25_score": null,
+      "vector_document": "임시수도기념관은 한국전쟁이라는 국난의 시기에 대한민국 임시수도로서 소명을 훌륭하게 마친 부산의 위상과 역사성을 기념하고 부산 시민의 자긍심을 고취하기 위해 1984년 6월 25일 개관하였다. 개관 당시 중심 건물이었던 대통령 관저는 일제강점기인 1925년 경상남도 도청이 진주에서 부산으로 이전하면서 1926년 8월 10일 도지사 관사로 지어진 벽돌조의 2층 가옥으로 1950년 한국전쟁 발발로 부산이 대한민국의 임시수도 기능을 했던 기간(1950~53년)에는 대한민국의 초대 대통령인 이승만 대통령이 거처하던 곳이다. 한국 전쟁 당시 대한민국 정치의 최종 결정과 대외적인 외교업무가 이루어진 장소라는 점을 사실적으로 보여주기 위하여 대통령의 집무실과 응접실 등을 당시 분위기 그대로 재현하였고 대통령 내외와 수행비서들의 생활공간이기도 한 내실과 거실, 손님방, 식당과 부엌 등에서는 검소하고 소박한 대통령 내외의 일상적인 면들도 볼 수 있다. 이 곳은 전시관을 함께 운영하고 있으며 2012년 9월 대통령 관저 뒤편에 자리 잡고 있던 옛 부산고등검찰청 검사장 관사를 전면 리모델링하여 새로운 전시관으로 개관했다. 지하 1층, 지상 1층의 벽돌조 가옥인 전시관은 한국전쟁의 발발과 피란민들의 생활상, 임시수도 시기 부산의 정치, 경제, 문화 등을 보여주는 상설전시실로 꾸며져 있다.",
+      "bm25_document": "",
+      "best_span_id": null,
+      "best_span_text": null,
+      "fusion_score": 0.015873015873015872,
+      "retrieved_by": [
+        "vector"
+      ],
+      "fusion_rank": 6,
+      "rerank_score": 0.00048614118713885546,
+      "rank": 5,
+      "score": 0.00048614118713885546,
+      "score_type": "cross_encoder",
+      "distance": 0.6231282949447632,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector"
+      ],
+      "retriever": "vector",
+      "source_doc_ids": [
+        "DOC-B0169-TOUR_API-1608530"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0169-TOUR_API-1608530",
+          "source_type": "TOUR_API",
+          "source_record_id": "1608530",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=80",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 106,
+          "doc_ids": [
+            "DOC-B0169-TOUR_API-1608530"
+          ]
+        },
+        {
+          "start": 107,
+          "end": 290,
+          "doc_ids": [
+            "DOC-B0169-TOUR_API-1608530"
+          ]
+        },
+        {
+          "start": 291,
+          "end": 472,
+          "doc_ids": [
+            "DOC-B0169-TOUR_API-1608530"
+          ]
+        },
+        {
+          "start": 473,
+          "end": 567,
+          "doc_ids": [
+            "DOC-B0169-TOUR_API-1608530"
+          ]
+        },
+        {
+          "start": 568,
+          "end": 661,
+          "doc_ids": [
+            "DOC-B0169-TOUR_API-1608530"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=80",
+      "text": "임시수도기념관은 한국전쟁이라는 국난의 시기에 대한민국 임시수도로서 소명을 훌륭하게 마친 부산의 위상과 역사성을 기념하고 부산 시민의 자긍심을 고취하기 위해 1984년 6월 25일 개관하였다. 개관 당시 중심 건물이었던 대통령 관저는 일제강점기인 1925년 경상남도 도청이 진주에서 부산으로 이전하면서 1926년 8월 10일 도지사 관사로 지어진 벽돌조의 2층 가옥으로 1950년 한국전쟁 발발로 부산이 대한민국의 임시수도 기능을 했던 기간(1950~53년)에는 대한민국의 초대 대통령인 이승만 대통령이 거처하던 곳이다. 한국 전쟁 당시 대한민국 정치의 최종 결정과 대외적인 외교업무가 이루어진 장소라는 점을 사실적으로 보여주기 위하여 대통령의 집무실과 응접실 등을 당시 분위기 그대로 재현하였고 대통령 내외와 수행비서들의 생활공간이기도 한 내실과 거실, 손님방, 식당과 부엌 등에서는 검소하고 소박한 대통령 내외의 일상적인 면들도 볼 수 있다. 이 곳은 전시관을 함께 운영하고 있으며 2012년 9월 대통령 관저 뒤편에 자리 잡고 있던 옛 부산고등검찰청 검사장 관사를 전면 리모델링하여 새로운 전시관으로 개관했다. 지하 1층, 지상 1층의 벽돌조 가옥인 전시관은 한국전쟁의 발발과 피란민들의 생활상, 임시수도 시기 부산의 정치, 경제, 문화 등을 보여주는 상설전시실로 꾸며져 있다.",
+      "sido": "부산광역시",
+      "sigungu": "서구",
+      "span_id": "",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=80"
+      ],
+      "evidence_id": "E5",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=110",
+        "fields": {
+          "name": "임시수도기념관",
+          "sido": "부산광역시",
+          "sigungu": "서구",
+          "address": "부산광역시 서구 임시수도기념로 45(부민동3가)",
+          "ownership_type": "공립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "09:00",
+          "weekday_close": "18:00",
+          "holiday_open": "09:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "1.1 휴관매주 월요일 휴관"
+        },
+        "base_data_date": "2026-09-04",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    }
+  ],
+  "answer": "아니요. 기록상 박진전쟁기념관은 매주 월요일 휴관입니다. [E1]",
+  "retrieval_status": "ok",
+  "answer_status": "answered",
+  "route": "hybrid",
+  "retry_count": 0,
+  "supervisor_verified": true,
+  "rerank_applied": true,
+  "retriever_errors": [],
+  "warnings": [],
+  "duration_ms": 132767.33,
+  "error_type": "",
+  "hit_at_1": 1,
+  "hit_at_3": 1,
+  "hit_at_5": 1,
+  "recall_at_5": 1.0,
+  "mrr_at_10": 1.0
+}

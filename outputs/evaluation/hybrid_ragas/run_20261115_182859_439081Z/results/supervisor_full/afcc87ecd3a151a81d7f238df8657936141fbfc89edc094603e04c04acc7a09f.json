@@ -1,0 +1,136 @@
+{
+  "evidence_context_version": "grounded-evidence-v2",
+  "evaluation_contexts": [
+    "{\"evidence_context_version\": \"grounded-evidence-v2\", \"evidence_id\": \"E1\", \"metadata_provenance\": {\"base_data_date\": \"2025-12-17\", \"fields\": {\"address\": \"서울특별시 영등포구 의사당대로 1\", \"adult_fee\": \"0\", \"adult_fee_status\": \"BASE_FEE_ZERO_CHECK_EXCEPTIONS\", \"amenities_raw\": \"수유실+화장실\", \"child_fee\": \"0\", \"closure_rule_raw\": \"일요일·법정공휴일·근로자의 날(5월 1일)·국회개원기념일(5월 31일) 휴관; 토요일 10:00~13:00\", \"name\": \"국회박물관\", \"ownership_type\": \"국립\", \"sido\": \"서울특별시\", \"sigungu\": \"영등포구\", \"weekday_close\": \"18:00\", \"weekday_open\": \"10:00\", \"youth_fee\": \"0\"}, \"source_kind\": \"derived_csv_row\", \"source_locator\": \"data/processed/museum_final_738.csv#record=510\", \"trust\": \"derived_dataset_not_human_verified\"}, \"museum_id\": \"M0735\", \"name\": \"국회박물관\", \"source_doc_ids\": [\"DOC-B0735-BASE\"], \"source_documents\": [{\"doc_id\": \"DOC-B0735-BASE\", \"match_trust\": \"BASE_SOURCE\", \"source_locator\": \"data/raw/museum_base_1070.csv#row=736\", \"source_record_id\": \"B0735\", \"source_type\": \"BASE\"}], \"source_locator\": \"data/raw/museum_base_1070.csv#row=736\", \"source_locators\": [\"data/raw/museum_base_1070.csv#row=736\"], \"source_scope\": \"text\", \"source_spans\": [{\"doc_ids\": [\"DOC-B0735-BASE\"], \"end\": 165, \"start\": 0}], \"source_urls\": [], \"structured_match\": \"편의시설 '수유실': CSV amenities_raw의 '수유실' 항목; 월요일 개관: CSV closure_rule_raw의 정기 휴관 요일은 토·일 (온톨로지 필터가 metadata_provenance.fields의 같은 CSV 값으로 판정한 정적 기록이며 실시간 상태가 아님)\", \"text\": \"임시의정원부터 현재까지의 국회 활동과 의회민주주의 관련 자료를 보관, 전시한 제1종국립박물관으로 1998년 건립되었던 헌정기념관이 24년만인 2022년에 개편공사를 통해 국회박물관으로 재탄생하였으며, 지하1층부터 지상3층에 걸쳐 국회체험관과 4개의 상설전시실, 어린이박물관 등으로 구성되어 있다.\"}"
+  ],
+  "mode": "supervisor_full",
+  "question_id": "V2-SW01",
+  "evidence": [
+    {
+      "museum_id": "M0735",
+      "name": "국회박물관",
+      "document": "임시의정원부터 현재까지의 국회 활동과 의회민주주의 관련 자료를 보관, 전시한 제1종국립박물관으로 1998년 건립되었던 헌정기념관이 24년만인 2022년에 개편공사를 통해 국회박물관으로 재탄생하였으며, 지하1층부터 지상3층에 걸쳐 국회체험관과 4개의 상설전시실, 어린이박물관 등으로 구성되어 있다.",
+      "metadata": {
+        "weekday_open": "10:00",
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "longitude": 126.9164039,
+        "youth_fee": 0.0,
+        "sigungu": "영등포구",
+        "amenities_raw": "수유실+화장실",
+        "ownership_type": "국립",
+        "source_types": "BASE",
+        "adult_fee": 0.0,
+        "transport_notes": "9호선 국회의사당역 1번 출구로 나와 횡단보도 건너 국회 1문 또는 국회 7문 이용",
+        "address": "서울특별시 영등포구 의사당대로 1",
+        "homepage_url": "https://memorial.assembly.go.kr",
+        "sido": "서울특별시",
+        "closure_rule_raw": "일요일·법정공휴일·근로자의 날(5월 1일)·국회개원기념일(5월 31일) 휴관; 토요일 10:00~13:00",
+        "latitude": 37.53291197,
+        "name": "국회박물관",
+        "requires_manual_review": true,
+        "weekday_close": "18:00",
+        "child_fee": 0.0,
+        "structured_match": "편의시설 '수유실': CSV amenities_raw의 '수유실' 항목; 월요일 개관: CSV closure_rule_raw의 정기 휴관 요일은 토·일 (온톨로지 필터가 metadata_provenance.fields의 같은 CSV 값으로 판정한 정적 기록이며 실시간 상태가 아님)"
+      },
+      "vector_rank": 1,
+      "bm25_rank": 1,
+      "vector_distance": 0.6745169758796692,
+      "vector_score": null,
+      "bm25_score": 4.418801445594611,
+      "vector_document": "임시의정원부터 현재까지의 국회 활동과 의회민주주의 관련 자료를 보관, 전시한 제1종국립박물관으로 1998년 건립되었던 헌정기념관이 24년만인 2022년에 개편공사를 통해 국회박물관으로 재탄생하였으며, 지하1층부터 지상3층에 걸쳐 국회체험관과 4개의 상설전시실, 어린이박물관 등으로 구성되어 있다.",
+      "bm25_document": "임시의정원부터 현재까지의 국회 활동과 의회민주주의 관련 자료를 보관, 전시한 제1종국립박물관으로 1998년 건립되었던 헌정기념관이 24년만인 2022년에 개편공사를 통해 국회박물관으로 재탄생하였으며, 지하1층부터 지상3층에 걸쳐 국회체험관과 4개의 상설전시실, 어린이박물관 등으로 구성되어 있다.",
+      "best_span_id": "chroma:M0735",
+      "best_span_text": "임시의정원부터 현재까지의 국회 활동과 의회민주주의 관련 자료를 보관, 전시한 제1종국립박물관으로 1998년 건립되었던 헌정기념관이 24년만인 2022년에 개편공사를 통해 국회박물관으로 재탄생하였으며, 지하1층부터 지상3층에 걸쳐 국회체험관과 4개의 상설전시실, 어린이박물관 등으로 구성되어 있다.",
+      "fusion_score": 0.03278688524590164,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 1,
+      "rerank_score": 0.0005805748514831066,
+      "rank": 1,
+      "score": 0.03278688524590164,
+      "score_type": "rrf_low_confidence_rerank",
+      "distance": 0.6745169758796692,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0735",
+      "source_doc_ids": [
+        "DOC-B0735-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0735-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0735",
+          "source_locator": "data/raw/museum_base_1070.csv#row=736",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 165,
+          "doc_ids": [
+            "DOC-B0735-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_base_1070.csv#row=736",
+      "text": "임시의정원부터 현재까지의 국회 활동과 의회민주주의 관련 자료를 보관, 전시한 제1종국립박물관으로 1998년 건립되었던 헌정기념관이 24년만인 2022년에 개편공사를 통해 국회박물관으로 재탄생하였으며, 지하1층부터 지상3층에 걸쳐 국회체험관과 4개의 상설전시실, 어린이박물관 등으로 구성되어 있다.",
+      "sido": "서울특별시",
+      "sigungu": "영등포구",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_base_1070.csv#row=736"
+      ],
+      "evidence_id": "E1",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=510",
+        "fields": {
+          "name": "국회박물관",
+          "sido": "서울특별시",
+          "sigungu": "영등포구",
+          "address": "서울특별시 영등포구 의사당대로 1",
+          "ownership_type": "국립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "10:00",
+          "weekday_close": "18:00",
+          "closure_rule_raw": "일요일·법정공휴일·근로자의 날(5월 1일)·국회개원기념일(5월 31일) 휴관; 토요일 10:00~13:00",
+          "amenities_raw": "수유실+화장실"
+        },
+        "base_data_date": "2025-12-17",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    }
+  ],
+  "answer": "국회박물관(서울 영등포구)은 기록상 월요일에 운영하는 곳으로, 평일 운영시간은 10:00~18:00입니다. 편의시설 원자료에는 “수유실+화장실”로 기록되어 있습니다. 휴관 규칙은 “일요일·법정공휴일·근로자의 날(5월 1일)·국회개원기념일(5월 31일) 휴관; 토요일 10:00~13:00”이며, 이는 2025-12-17 기준 파생 데이터의 기록이지 실시간 운영 상태의 확인은 아닙니다. [E1]",
+  "retrieval_status": "ok",
+  "answer_status": "answered",
+  "route": "hybrid",
+  "retry_count": 0,
+  "supervisor_verified": true,
+  "rerank_applied": true,
+  "retriever_errors": [],
+  "warnings": [
+    "Only 1 candidates available; no artificial padding"
+  ],
+  "duration_ms": 23773.29,
+  "error_type": "",
+  "hit_at_1": 1,
+  "hit_at_3": 1,
+  "hit_at_5": 1,
+  "recall_at_5": 1.0,
+  "mrr_at_10": 1.0
+}

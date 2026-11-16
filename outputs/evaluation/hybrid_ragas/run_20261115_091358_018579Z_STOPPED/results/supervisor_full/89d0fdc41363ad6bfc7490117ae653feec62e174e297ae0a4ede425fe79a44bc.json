@@ -1,0 +1,804 @@
+{
+  "mode": "supervisor_full",
+  "question_id": "Q211",
+  "evidence": [
+    {
+      "museum_id": "M0343",
+      "name": "반곡역사관",
+      "document": "반곡역사관은 원주시역사박물관의 분관으로 2019년 5월에 개관하였으며, 강원 원주혁신도시 조성사업 과정에서 출토된 신석기 시대부터 조선시대까지의 유적과 유물 500점이 전시되어 있다. 지형이 소반처럼 생겼다 하여 반곡이라는 지명이 붙은 이 곳은 신석기시대 유적이 원주 지역에서 처음으로 발견되었다는 점에서 의미가 남다르다. 역사관 1층은 혁신도시 건설 이전 반곡역과, 반곡동의 풍경, 주민생활의 어제와 오늘, 소중한 사람들 등 반곡동을 추억하는 사진과 영상 자료를 전시해 사라져간 옛모습을 그리워하는 세대와 과거가 궁금한 어린 세대들이 함께 교감을 나눌수 있도록 하였다. 2층은 유물 전시관과 신석기시대 마을 모습을 재현한 선사놀이터로 조성되어 있어 어린 아이들이 선사시대의 모습을 체험할 수 있게 해준다. 반곡역사관에서는 매달 다양한 주제의 체험과 행사, 문화 강좌 등 다채로운 프로그램을 통해 주민과 소통의 장을 마련하고 있다. 원주 혁신도시 조성사업 과정에서 출토된 반곡동 유적 관련 역사자료와 유물 500여점을 전시하고 있는 역사문화공간으로 어린이 대상 선사마을 놀이터 시설과 다양한 주제의 교육 체험프로그램 등이 운영 중이다.",
+      "metadata": {
+        "holiday_close": "18:00",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/64/4096964_image2_1.jpg",
+        "requires_manual_review": true,
+        "longitude": 127.9825461,
+        "weekday_close": "18:00",
+        "sigungu": "원주시",
+        "source_types": "BASE|TOUR_API",
+        "amenities_raw": "휴게공간+화장실",
+        "address": "강원특별자치도 원주시 양지로 36",
+        "sido": "강원특별자치도",
+        "image_copyright": "Type1",
+        "latitude": 37.32480055,
+        "homepage_url": "https://whm.wonju.go.kr/whm/page/view.php/sub_10_01",
+        "transport_notes": "시내버스 111+100+18+16+13+7+5-2번",
+        "holiday_open": "09:00",
+        "closure_rule_raw": "월+명절당일+공휴일 익일",
+        "name": "반곡역사관",
+        "weekday_open": "09:00",
+        "child_fee": 0.0,
+        "ownership_type": "공립",
+        "adult_fee": 0.0,
+        "youth_fee": 0.0,
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS"
+      },
+      "vector_rank": 1,
+      "bm25_rank": 1,
+      "vector_distance": 0.4972802400588989,
+      "vector_score": null,
+      "bm25_score": 18.486078754112672,
+      "vector_document": "반곡역사관은 원주시역사박물관의 분관으로 2019년 5월에 개관하였으며, 강원 원주혁신도시 조성사업 과정에서 출토된 신석기 시대부터 조선시대까지의 유적과 유물 500점이 전시되어 있다. 지형이 소반처럼 생겼다 하여 반곡이라는 지명이 붙은 이 곳은 신석기시대 유적이 원주 지역에서 처음으로 발견되었다는 점에서 의미가 남다르다. 역사관 1층은 혁신도시 건설 이전 반곡역과, 반곡동의 풍경, 주민생활의 어제와 오늘, 소중한 사람들 등 반곡동을 추억하는 사진과 영상 자료를 전시해 사라져간 옛모습을 그리워하는 세대와 과거가 궁금한 어린 세대들이 함께 교감을 나눌수 있도록 하였다. 2층은 유물 전시관과 신석기시대 마을 모습을 재현한 선사놀이터로 조성되어 있어 어린 아이들이 선사시대의 모습을 체험할 수 있게 해준다. 반곡역사관에서는 매달 다양한 주제의 체험과 행사, 문화 강좌 등 다채로운 프로그램을 통해 주민과 소통의 장을 마련하고 있다. 원주 혁신도시 조성사업 과정에서 출토된 반곡동 유적 관련 역사자료와 유물 500여점을 전시하고 있는 역사문화공간으로 어린이 대상 선사마을 놀이터 시설과 다양한 주제의 교육 체험프로그램 등이 운영 중이다.",
+      "bm25_document": "반곡역사관은 원주시역사박물관의 분관으로 2019년 5월에 개관하였으며, 강원 원주혁신도시 조성사업 과정에서 출토된 신석기 시대부터 조선시대까지의 유적과 유물 500점이 전시되어 있다. 지형이 소반처럼 생겼다 하여 반곡이라는 지명이 붙은 이 곳은 신석기시대 유적이 원주 지역에서 처음으로 발견되었다는 점에서 의미가 남다르다. 역사관 1층은 혁신도시 건설 이전 반곡역과, 반곡동의 풍경, 주민생활의 어제와 오늘, 소중한 사람들 등 반곡동을 추억하는 사진과 영상 자료를 전시해 사라져간 옛모습을 그리워하는 세대와 과거가 궁금한 어린 세대들이 함께 교감을 나눌수 있도록 하였다. 2층은 유물 전시관과 신석기시대 마을 모습을 재현한 선사놀이터로 조성되어 있어 어린 아이들이 선사시대의 모습을 체험할 수 있게 해준다. 반곡역사관에서는 매달 다양한 주제의 체험과 행사, 문화 강좌 등 다채로운 프로그램을 통해 주민과 소통의 장을 마련하고 있다. 원주 혁신도시 조성사업 과정에서 출토된 반곡동 유적 관련 역사자료와 유물 500여점을 전시하고 있는 역사문화공간으로 어린이 대상 선사마을 놀이터 시설과 다양한 주제의 교육 체험프로그램 등이 운영 중이다.",
+      "best_span_id": "chroma:M0343",
+      "best_span_text": "반곡역사관은 원주시역사박물관의 분관으로 2019년 5월에 개관하였으며, 강원 원주혁신도시 조성사업 과정에서 출토된 신석기 시대부터 조선시대까지의 유적과 유물 500점이 전시되어 있다. 지형이 소반처럼 생겼다 하여 반곡이라는 지명이 붙은 이 곳은 신석기시대 유적이 원주 지역에서 처음으로 발견되었다는 점에서 의미가 남다르다. 역사관 1층은 혁신도시 건설 이전 반곡역과, 반곡동의 풍경, 주민생활의 어제와 오늘, 소중한 사람들 등 반곡동을 추억하는 사진과 영상 자료를 전시해 사라져간 옛모습을 그리워하는 세대와 과거가 궁금한 어린 세대들이 함께 교감을 나눌수 있도록 하였다. 2층은 유물 전시관과 신석기시대 마을 모습을 재현한 선사놀이터로 조성되어 있어 어린 아이들이 선사시대의 모습을 체험할 수 있게 해준다. 반곡역사관에서는 매달 다양한 주제의 체험과 행사, 문화 강좌 등 다채로운 프로그램을 통해 주민과 소통의 장을 마련하고 있다. 원주 혁신도시 조성사업 과정에서 출토된 반곡동 유적 관련 역사자료와 유물 500여점을 전시하고 있는 역사문화공간으로 어린이 대상 선사마을 놀이터 시설과 다양한 주제의 교육 체험프로그램 등이 운영 중이다.",
+      "fusion_score": 0.03278688524590164,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 1,
+      "name_match": true,
+      "rerank_score": 0.9996961355209351,
+      "rank": 1,
+      "score": 0.9996961355209351,
+      "score_type": "cross_encoder",
+      "distance": 0.4972802400588989,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0343",
+      "source_doc_ids": [
+        "DOC-B0343-TOUR_API-3028774",
+        "DOC-B0343-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0343-TOUR_API-3028774",
+          "source_type": "TOUR_API",
+          "source_record_id": "3028774",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=167",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        },
+        {
+          "doc_id": "DOC-B0343-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0343",
+          "source_locator": "data/raw/museum_base_1070.csv#row=344",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 102,
+          "doc_ids": [
+            "DOC-B0343-TOUR_API-3028774"
+          ]
+        },
+        {
+          "start": 103,
+          "end": 180,
+          "doc_ids": [
+            "DOC-B0343-TOUR_API-3028774"
+          ]
+        },
+        {
+          "start": 181,
+          "end": 319,
+          "doc_ids": [
+            "DOC-B0343-TOUR_API-3028774"
+          ]
+        },
+        {
+          "start": 320,
+          "end": 395,
+          "doc_ids": [
+            "DOC-B0343-TOUR_API-3028774"
+          ]
+        },
+        {
+          "start": 396,
+          "end": 465,
+          "doc_ids": [
+            "DOC-B0343-TOUR_API-3028774"
+          ]
+        },
+        {
+          "start": 466,
+          "end": 579,
+          "doc_ids": [
+            "DOC-B0343-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=167",
+      "text": "반곡역사관은 원주시역사박물관의 분관으로 2019년 5월에 개관하였으며, 강원 원주혁신도시 조성사업 과정에서 출토된 신석기 시대부터 조선시대까지의 유적과 유물 500점이 전시되어 있다. 지형이 소반처럼 생겼다 하여 반곡이라는 지명이 붙은 이 곳은 신석기시대 유적이 원주 지역에서 처음으로 발견되었다는 점에서 의미가 남다르다. 역사관 1층은 혁신도시 건설 이전 반곡역과, 반곡동의 풍경, 주민생활의 어제와 오늘, 소중한 사람들 등 반곡동을 추억하는 사진과 영상 자료를 전시해 사라져간 옛모습을 그리워하는 세대와 과거가 궁금한 어린 세대들이 함께 교감을 나눌수 있도록 하였다. 2층은 유물 전시관과 신석기시대 마을 모습을 재현한 선사놀이터로 조성되어 있어 어린 아이들이 선사시대의 모습을 체험할 수 있게 해준다. 반곡역사관에서는 매달 다양한 주제의 체험과 행사, 문화 강좌 등 다채로운 프로그램을 통해 주민과 소통의 장을 마련하고 있다. 원주 혁신도시 조성사업 과정에서 출토된 반곡동 유적 관련 역사자료와 유물 500여점을 전시하고 있는 역사문화공간으로 어린이 대상 선사마을 놀이터 시설과 다양한 주제의 교육 체험프로그램 등이 운영 중이다.",
+      "sido": "강원특별자치도",
+      "sigungu": "원주시",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=167"
+      ],
+      "evidence_id": "E1",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=249",
+        "fields": {
+          "name": "반곡역사관",
+          "sido": "강원특별자치도",
+          "sigungu": "원주시",
+          "address": "강원특별자치도 원주시 양지로 36",
+          "ownership_type": "공립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "09:00",
+          "weekday_close": "18:00",
+          "holiday_open": "09:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "월+명절당일+공휴일 익일",
+          "amenities_raw": "휴게공간+화장실"
+        },
+        "base_data_date": "2026-06-29",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0535",
+      "name": "진안역사박물관",
+      "document": "2006년 6월 21일에 개관한 진안역사박물관은 용담 다목적댐 건설로 인해 수몰된 지역의 사라진 삶의 터전을 발굴유물을 통해 보존 및 전시하고 지역의 역사와 문화에 관한 자료를 수집·연구하여 대내외적으로 활용되도록 하는 동시에 역사를 통해 소통하고 문화안에서 새로움을 찾는 열린 공간이다. 박물관은 총 2층으로 되어 있다. 1층에는 고고관, 민속관, 세미나실이 있으며, 2층에는 기록관 기획전시관, 학예 자료실이 있다. 고고관은 용담댐 수몰지역에서 발굴된 선사, 고고유물을 전시한다. 선사시대부터 조선시대까지에 걸친 유물들을 통해 진안의 지나온 역사와 생활 모습을 알 수 있다. 민속관에서는 진안의 명산인 마이산과 석탑군 등의 수려한 자연환경과 진한 풍물, 금척무, 매사냥 등의 풍부한 전통문화자원을 볼 수 있는 전시관이다. 기록관은 진안 관련 다양한 기록 자료인 고지도와 고문서, 서원 향교 관련 유물과 자료들을 한자리에 모았다. 이를 통하여 진안의 과거와 현재의 흔적을 살펴보고, 진안의 기록문화를 고찰할 수 있다. 기획전시관은 가변 전시 공간으로 진한의 특생을 연구하고 재조명하는 전시관인 동시에 전시와 교육의 적극적인 연계를 통해 박물관의 풍부한 자료를 교육에 활용하고 새로운 교육 프로그램 개발에 힘쓰는 사회교육의 장이다. 진안의 역사와 문화를 종합적으로 보여주는 박물관",
+      "metadata": {
+        "latitude": 35.77255631,
+        "amenities_raw": "전시실+강당",
+        "youth_fee": 0.0,
+        "longitude": 127.4171648,
+        "weekday_close": "18:00",
+        "sido": "전북특별자치도",
+        "ownership_type": "공립",
+        "requires_manual_review": true,
+        "homepage_url": "https://jinan.go.kr/museum/",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/13/3587813_image2_1.jpg",
+        "sigungu": "진안군",
+        "transport_notes": "(대중교통)마이산행 버스+(자가용)역사박물관 주차장 이용",
+        "address": "전북특별자치도 진안군 진안읍 내사양길 7",
+        "holiday_open": "09:00",
+        "holiday_close": "18:00",
+        "name": "진안역사박물관",
+        "child_fee": 0.0,
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "closure_rule_raw": "매주 월요일+1월1일+설날 당일+추석 당일",
+        "adult_fee": 0.0,
+        "image_copyright": "Type1",
+        "source_types": "BASE|TOUR_API",
+        "weekday_open": "09:00"
+      },
+      "vector_rank": null,
+      "bm25_rank": 5,
+      "vector_distance": null,
+      "vector_score": null,
+      "bm25_score": 9.150305559703607,
+      "vector_document": "",
+      "bm25_document": "2006년 6월 21일에 개관한 진안역사박물관은 용담 다목적댐 건설로 인해 수몰된 지역의 사라진 삶의 터전을 발굴유물을 통해 보존 및 전시하고 지역의 역사와 문화에 관한 자료를 수집·연구하여 대내외적으로 활용되도록 하는 동시에 역사를 통해 소통하고 문화안에서 새로움을 찾는 열린 공간이다. 박물관은 총 2층으로 되어 있다. 1층에는 고고관, 민속관, 세미나실이 있으며, 2층에는 기록관 기획전시관, 학예 자료실이 있다. 고고관은 용담댐 수몰지역에서 발굴된 선사, 고고유물을 전시한다. 선사시대부터 조선시대까지에 걸친 유물들을 통해 진안의 지나온 역사와 생활 모습을 알 수 있다. 민속관에서는 진안의 명산인 마이산과 석탑군 등의 수려한 자연환경과 진한 풍물, 금척무, 매사냥 등의 풍부한 전통문화자원을 볼 수 있는 전시관이다. 기록관은 진안 관련 다양한 기록 자료인 고지도와 고문서, 서원 향교 관련 유물과 자료들을 한자리에 모았다. 이를 통하여 진안의 과거와 현재의 흔적을 살펴보고, 진안의 기록문화를 고찰할 수 있다. 기획전시관은 가변 전시 공간으로 진한의 특생을 연구하고 재조명하는 전시관인 동시에 전시와 교육의 적극적인 연계를 통해 박물관의 풍부한 자료를 교육에 활용하고 새로운 교육 프로그램 개발에 힘쓰는 사회교육의 장이다. 진안의 역사와 문화를 종합적으로 보여주는 박물관",
+      "best_span_id": "chroma:M0535",
+      "best_span_text": "2006년 6월 21일에 개관한 진안역사박물관은 용담 다목적댐 건설로 인해 수몰된 지역의 사라진 삶의 터전을 발굴유물을 통해 보존 및 전시하고 지역의 역사와 문화에 관한 자료를 수집·연구하여 대내외적으로 활용되도록 하는 동시에 역사를 통해 소통하고 문화안에서 새로움을 찾는 열린 공간이다. 박물관은 총 2층으로 되어 있다. 1층에는 고고관, 민속관, 세미나실이 있으며, 2층에는 기록관 기획전시관, 학예 자료실이 있다. 고고관은 용담댐 수몰지역에서 발굴된 선사, 고고유물을 전시한다. 선사시대부터 조선시대까지에 걸친 유물들을 통해 진안의 지나온 역사와 생활 모습을 알 수 있다. 민속관에서는 진안의 명산인 마이산과 석탑군 등의 수려한 자연환경과 진한 풍물, 금척무, 매사냥 등의 풍부한 전통문화자원을 볼 수 있는 전시관이다. 기록관은 진안 관련 다양한 기록 자료인 고지도와 고문서, 서원 향교 관련 유물과 자료들을 한자리에 모았다. 이를 통하여 진안의 과거와 현재의 흔적을 살펴보고, 진안의 기록문화를 고찰할 수 있다. 기획전시관은 가변 전시 공간으로 진한의 특생을 연구하고 재조명하는 전시관인 동시에 전시와 교육의 적극적인 연계를 통해 박물관의 풍부한 자료를 교육에 활용하고 새로운 교육 프로그램 개발에 힘쓰는 사회교육의 장이다. 진안의 역사와 문화를 종합적으로 보여주는 박물관",
+      "fusion_score": 0.015384615384615385,
+      "retrieved_by": [
+        "bm25"
+      ],
+      "fusion_rank": 12,
+      "rerank_score": 0.006599536631256342,
+      "rank": 2,
+      "score": 0.006599536631256342,
+      "score_type": "cross_encoder",
+      "distance": null,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "bm25"
+      ],
+      "retriever": "bm25",
+      "span_id": "chroma:M0535",
+      "source_doc_ids": [
+        "DOC-B0535-TOUR_API-1628029",
+        "DOC-B0535-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0535-TOUR_API-1628029",
+          "source_type": "TOUR_API",
+          "source_record_id": "1628029",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=266",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        },
+        {
+          "doc_id": "DOC-B0535-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0535",
+          "source_locator": "data/raw/museum_base_1070.csv#row=536",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 161,
+          "doc_ids": [
+            "DOC-B0535-TOUR_API-1628029"
+          ]
+        },
+        {
+          "start": 162,
+          "end": 180,
+          "doc_ids": [
+            "DOC-B0535-TOUR_API-1628029"
+          ]
+        },
+        {
+          "start": 181,
+          "end": 234,
+          "doc_ids": [
+            "DOC-B0535-TOUR_API-1628029"
+          ]
+        },
+        {
+          "start": 235,
+          "end": 270,
+          "doc_ids": [
+            "DOC-B0535-TOUR_API-1628029"
+          ]
+        },
+        {
+          "start": 271,
+          "end": 323,
+          "doc_ids": [
+            "DOC-B0535-TOUR_API-1628029"
+          ]
+        },
+        {
+          "start": 324,
+          "end": 405,
+          "doc_ids": [
+            "DOC-B0535-TOUR_API-1628029"
+          ]
+        },
+        {
+          "start": 406,
+          "end": 465,
+          "doc_ids": [
+            "DOC-B0535-TOUR_API-1628029"
+          ]
+        },
+        {
+          "start": 466,
+          "end": 514,
+          "doc_ids": [
+            "DOC-B0535-TOUR_API-1628029"
+          ]
+        },
+        {
+          "start": 515,
+          "end": 633,
+          "doc_ids": [
+            "DOC-B0535-TOUR_API-1628029"
+          ]
+        },
+        {
+          "start": 634,
+          "end": 660,
+          "doc_ids": [
+            "DOC-B0535-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=266",
+      "text": "2006년 6월 21일에 개관한 진안역사박물관은 용담 다목적댐 건설로 인해 수몰된 지역의 사라진 삶의 터전을 발굴유물을 통해 보존 및 전시하고 지역의 역사와 문화에 관한 자료를 수집·연구하여 대내외적으로 활용되도록 하는 동시에 역사를 통해 소통하고 문화안에서 새로움을 찾는 열린 공간이다. 박물관은 총 2층으로 되어 있다. 1층에는 고고관, 민속관, 세미나실이 있으며, 2층에는 기록관 기획전시관, 학예 자료실이 있다. 고고관은 용담댐 수몰지역에서 발굴된 선사, 고고유물을 전시한다. 선사시대부터 조선시대까지에 걸친 유물들을 통해 진안의 지나온 역사와 생활 모습을 알 수 있다. 민속관에서는 진안의 명산인 마이산과 석탑군 등의 수려한 자연환경과 진한 풍물, 금척무, 매사냥 등의 풍부한 전통문화자원을 볼 수 있는 전시관이다. 기록관은 진안 관련 다양한 기록 자료인 고지도와 고문서, 서원 향교 관련 유물과 자료들을 한자리에 모았다. 이를 통하여 진안의 과거와 현재의 흔적을 살펴보고, 진안의 기록문화를 고찰할 수 있다. 기획전시관은 가변 전시 공간으로 진한의 특생을 연구하고 재조명하는 전시관인 동시에 전시와 교육의 적극적인 연계를 통해 박물관의 풍부한 자료를 교육에 활용하고 새로운 교육 프로그램 개발에 힘쓰는 사회교육의 장이다. 진안의 역사와 문화를 종합적으로 보여주는 박물관",
+      "sido": "전북특별자치도",
+      "sigungu": "진안군",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=266"
+      ],
+      "evidence_id": "E2",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=377",
+        "fields": {
+          "name": "진안역사박물관",
+          "sido": "전북특별자치도",
+          "sigungu": "진안군",
+          "address": "전북특별자치도 진안군 진안읍 내사양길 7",
+          "ownership_type": "공립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "09:00",
+          "weekday_close": "18:00",
+          "holiday_open": "09:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "매주 월요일+1월1일+설날 당일+추석 당일",
+          "amenities_raw": "전시실+강당"
+        },
+        "base_data_date": "2026-01-28",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0360",
+      "name": "책과인쇄박물관",
+      "document": "책과 인쇄문화와 관련한 다양한 자료를 전시하고 체험하는 박물관이다. 우리나라의 우수한 인쇄문화와 선현들의 독서문화를 널리 알리고 많은 사람에게 책과 인쇄문화를 향유할 기회를 제공한다는 뜻에서 설립됐다. 1층은 인쇄전시실, 2, 3층은 책전시실이다. 1층은 수만 가지 활자와 활판인쇄기, 등사기 등 활판인쇄 역사를 보여주는 물품과 전시로 꾸며진다. 2층에는 ‘훈민정음’, ‘천자문’, ‘명심보감’ 등 고서가, 3층에는 현재 소량만 남아 전해지는 귀한 근현대 도서들이 전시된다. 또한 엽서 만들기와 활판인쇄 체험 등 다양한 상설 체험 프로그램도 진행한다. 우리나라의 우수한 인쇄문화와 세계적으로 앞섰던 선현들의 독서문화를 알리고자 수집한 자료를 전시",
+      "metadata": {
+        "child_fee": 5000.0,
+        "source_types": "BASE|TOUR_API",
+        "youth_fee": 6000.0,
+        "holiday_close": "18:00",
+        "transport_notes": "▶ 대중교통 이용 ① 경춘선: 상봉역 - 김유정역 1시간 16분 소요, 김유정역 하차 후 도보로 15분거리 ② itx 남춘천역에서 택시로 10분거리 ③ 춘천 버스 터미널에서 택시로 10분거리▶ 자가용 이용 : 서울춘천고속도로 이용 → 남춘천IC삼거리에서 양평, 춘천, 비발디파크 방면으로 우회전 → 김유정로를 따라 이동 -> 광판삼거리에서 춘천, 김유정역 방면으로 우회전 -> 덕만이 터널 -> 팔미교차로에서 양구, 소양댐, 춘천IC 방면으로 우회전 -> 순환대로를 따라 1.76km이동하다 풍류1길 골목길로 우회전 (순환대로에서 오른쪽에 책과인쇄 간판이 있는 건물이 보입니다.)  * 주차: 승용차, 45인승 버스 주차 가능",
+        "requires_manual_review": true,
+        "holiday_open": "09:00",
+        "adult_fee_status": "BASE_FEE_PAID",
+        "amenities_raw": "상점+카페+야외정원",
+        "sido": "강원특별자치도",
+        "adult_fee": 7000.0,
+        "address": "강원특별자치도 춘천시 신동면 풍류1길 156",
+        "name": "책과인쇄박물관",
+        "latitude": 37.819419,
+        "homepage_url": "http://www.mobapkorea.com/",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/21/4067721_image2_1.jpg",
+        "sigungu": "춘천시",
+        "weekday_open": "09:00",
+        "weekday_close": "18:00",
+        "fee_notes": "할인 대상[단체(20인이상)+군인,장애인,만65세이상(신분증 제시, 본인만해당)]어린이 과학동아 기자단 무료입장  (본인만 해당)",
+        "longitude": 127.724821,
+        "image_copyright": "Type1",
+        "closure_rule_raw": "월",
+        "ownership_type": "사립"
+      },
+      "vector_rank": 17,
+      "bm25_rank": 4,
+      "vector_distance": 0.6689307689666748,
+      "vector_score": null,
+      "bm25_score": 9.617512298773114,
+      "vector_document": "책과 인쇄문화와 관련한 다양한 자료를 전시하고 체험하는 박물관이다. 우리나라의 우수한 인쇄문화와 선현들의 독서문화를 널리 알리고 많은 사람에게 책과 인쇄문화를 향유할 기회를 제공한다는 뜻에서 설립됐다. 1층은 인쇄전시실, 2, 3층은 책전시실이다. 1층은 수만 가지 활자와 활판인쇄기, 등사기 등 활판인쇄 역사를 보여주는 물품과 전시로 꾸며진다. 2층에는 ‘훈민정음’, ‘천자문’, ‘명심보감’ 등 고서가, 3층에는 현재 소량만 남아 전해지는 귀한 근현대 도서들이 전시된다. 또한 엽서 만들기와 활판인쇄 체험 등 다양한 상설 체험 프로그램도 진행한다. 우리나라의 우수한 인쇄문화와 세계적으로 앞섰던 선현들의 독서문화를 알리고자 수집한 자료를 전시",
+      "bm25_document": "책과 인쇄문화와 관련한 다양한 자료를 전시하고 체험하는 박물관이다. 우리나라의 우수한 인쇄문화와 선현들의 독서문화를 널리 알리고 많은 사람에게 책과 인쇄문화를 향유할 기회를 제공한다는 뜻에서 설립됐다. 1층은 인쇄전시실, 2, 3층은 책전시실이다. 1층은 수만 가지 활자와 활판인쇄기, 등사기 등 활판인쇄 역사를 보여주는 물품과 전시로 꾸며진다. 2층에는 ‘훈민정음’, ‘천자문’, ‘명심보감’ 등 고서가, 3층에는 현재 소량만 남아 전해지는 귀한 근현대 도서들이 전시된다. 또한 엽서 만들기와 활판인쇄 체험 등 다양한 상설 체험 프로그램도 진행한다. 우리나라의 우수한 인쇄문화와 세계적으로 앞섰던 선현들의 독서문화를 알리고자 수집한 자료를 전시",
+      "best_span_id": "chroma:M0360",
+      "best_span_text": "책과 인쇄문화와 관련한 다양한 자료를 전시하고 체험하는 박물관이다. 우리나라의 우수한 인쇄문화와 선현들의 독서문화를 널리 알리고 많은 사람에게 책과 인쇄문화를 향유할 기회를 제공한다는 뜻에서 설립됐다. 1층은 인쇄전시실, 2, 3층은 책전시실이다. 1층은 수만 가지 활자와 활판인쇄기, 등사기 등 활판인쇄 역사를 보여주는 물품과 전시로 꾸며진다. 2층에는 ‘훈민정음’, ‘천자문’, ‘명심보감’ 등 고서가, 3층에는 현재 소량만 남아 전해지는 귀한 근현대 도서들이 전시된다. 또한 엽서 만들기와 활판인쇄 체험 등 다양한 상설 체험 프로그램도 진행한다. 우리나라의 우수한 인쇄문화와 세계적으로 앞섰던 선현들의 독서문화를 알리고자 수집한 자료를 전시",
+      "fusion_score": 0.028612012987012988,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 3,
+      "rerank_score": 0.006585880182683468,
+      "rank": 3,
+      "score": 0.006585880182683468,
+      "score_type": "cross_encoder",
+      "distance": 0.6689307689666748,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0360",
+      "source_doc_ids": [
+        "DOC-B0360-TOUR_API-2472919",
+        "DOC-B0360-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0360-TOUR_API-2472919",
+          "source_type": "TOUR_API",
+          "source_record_id": "2472919",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=171",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        },
+        {
+          "doc_id": "DOC-B0360-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0360",
+          "source_locator": "data/raw/museum_base_1070.csv#row=361",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 37,
+          "doc_ids": [
+            "DOC-B0360-TOUR_API-2472919"
+          ]
+        },
+        {
+          "start": 38,
+          "end": 112,
+          "doc_ids": [
+            "DOC-B0360-TOUR_API-2472919"
+          ]
+        },
+        {
+          "start": 113,
+          "end": 138,
+          "doc_ids": [
+            "DOC-B0360-TOUR_API-2472919"
+          ]
+        },
+        {
+          "start": 139,
+          "end": 193,
+          "doc_ids": [
+            "DOC-B0360-TOUR_API-2472919"
+          ]
+        },
+        {
+          "start": 194,
+          "end": 265,
+          "doc_ids": [
+            "DOC-B0360-TOUR_API-2472919"
+          ]
+        },
+        {
+          "start": 266,
+          "end": 308,
+          "doc_ids": [
+            "DOC-B0360-TOUR_API-2472919"
+          ]
+        },
+        {
+          "start": 309,
+          "end": 361,
+          "doc_ids": [
+            "DOC-B0360-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=171",
+      "text": "책과 인쇄문화와 관련한 다양한 자료를 전시하고 체험하는 박물관이다. 우리나라의 우수한 인쇄문화와 선현들의 독서문화를 널리 알리고 많은 사람에게 책과 인쇄문화를 향유할 기회를 제공한다는 뜻에서 설립됐다. 1층은 인쇄전시실, 2, 3층은 책전시실이다. 1층은 수만 가지 활자와 활판인쇄기, 등사기 등 활판인쇄 역사를 보여주는 물품과 전시로 꾸며진다. 2층에는 ‘훈민정음’, ‘천자문’, ‘명심보감’ 등 고서가, 3층에는 현재 소량만 남아 전해지는 귀한 근현대 도서들이 전시된다. 또한 엽서 만들기와 활판인쇄 체험 등 다양한 상설 체험 프로그램도 진행한다. 우리나라의 우수한 인쇄문화와 세계적으로 앞섰던 선현들의 독서문화를 알리고자 수집한 자료를 전시",
+      "sido": "강원특별자치도",
+      "sigungu": "춘천시",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=171"
+      ],
+      "evidence_id": "E3",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=262",
+        "fields": {
+          "name": "책과인쇄박물관",
+          "sido": "강원특별자치도",
+          "sigungu": "춘천시",
+          "address": "강원특별자치도 춘천시 신동면 풍류1길 156",
+          "ownership_type": "사립",
+          "adult_fee": "7000",
+          "youth_fee": "6000",
+          "child_fee": "5000",
+          "adult_fee_status": "BASE_FEE_PAID",
+          "weekday_open": "09:00",
+          "weekday_close": "18:00",
+          "holiday_open": "09:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "월",
+          "amenities_raw": "상점+카페+야외정원"
+        },
+        "base_data_date": "2026-06-10",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0594",
+      "name": "군산근대역사박물관",
+      "document": "근대역사의 중심도시인 군산에 자리한 군산근대역사박물관은 군산의 근대문화 및 해양문화를 주제로 하는 특화박물관이자 지역박물관으로서 방문객들이 군산의 역사와 문화를 체험할 수 있는 공간이다. 군산근대역사박물관은 ‘역사는 미래가 된다’는 비전 아래, 과거 무역항이자 해상물류유통의 중심지였던 옛 군산의 모습과 전국 최대의 근대문화자원을 전시하여 서해 물류 유통의 천 년 역사와 세계로 뻗어 가는 국제 무역항 군산의 모습을 보여주는 박물관이다. 1층에는 해양물류역사관, 어린이체험관, 기증전시실이 위치해 있으며, 2층에는 근대자료규장각실, 시민열린갤러리가, 3층에는 근대생활관, 기획전시실이 있다. 근대역사의 중심도시, 군산에 자리한 군산근대역사박물관은 군산의 근대문화 및 해양문화를 주제로 하는특화박물관이자 지역박물관으로서 군산의 역사와 문화를 체험할 수 있는 공간을 제공하고 있음",
+      "metadata": {
+        "holiday_close": "17:00",
+        "latitude": 35.99081903,
+        "sigungu": "군산시",
+        "holiday_open": "09:00",
+        "requires_manual_review": true,
+        "sido": "전북특별자치도",
+        "transport_notes": "1~2+8+17~19+88~89번 버스 이용_박물관 앞 승강장에서 하차",
+        "weekday_close": "17:00",
+        "weekday_open": "09:00",
+        "longitude": 126.7119523,
+        "source_types": "BASE|TOUR_API",
+        "adult_fee_status": "BASE_FEE_PAID",
+        "youth_fee": 1000.0,
+        "fee_notes": "군산시 거주자 할인 + 단체관람 할인 + 국가유공자 면제 + 장애인 면제 + 6세 이하 유아 및 65세 이상 경로대상자 면제",
+        "image_copyright": "Type3",
+        "address": "전북특별자치도 군산시 해망로 240",
+        "amenities_raw": "처치실+다용도실+자전거보관대+수유실",
+        "closure_rule_raw": "1월1일+매주 월요일",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/13/3304813_image2_1.jpg",
+        "child_fee": 500.0,
+        "name": "군산근대역사박물관",
+        "homepage_url": "http://museum.gunsan.go.kr/",
+        "ownership_type": "공립",
+        "adult_fee": 2000.0
+      },
+      "vector_rank": null,
+      "bm25_rank": 6,
+      "vector_distance": null,
+      "vector_score": null,
+      "bm25_score": 8.884036077860591,
+      "vector_document": "",
+      "bm25_document": "근대역사의 중심도시인 군산에 자리한 군산근대역사박물관은 군산의 근대문화 및 해양문화를 주제로 하는 특화박물관이자 지역박물관으로서 방문객들이 군산의 역사와 문화를 체험할 수 있는 공간이다. 군산근대역사박물관은 ‘역사는 미래가 된다’는 비전 아래, 과거 무역항이자 해상물류유통의 중심지였던 옛 군산의 모습과 전국 최대의 근대문화자원을 전시하여 서해 물류 유통의 천 년 역사와 세계로 뻗어 가는 국제 무역항 군산의 모습을 보여주는 박물관이다. 1층에는 해양물류역사관, 어린이체험관, 기증전시실이 위치해 있으며, 2층에는 근대자료규장각실, 시민열린갤러리가, 3층에는 근대생활관, 기획전시실이 있다. 근대역사의 중심도시, 군산에 자리한 군산근대역사박물관은 군산의 근대문화 및 해양문화를 주제로 하는특화박물관이자 지역박물관으로서 군산의 역사와 문화를 체험할 수 있는 공간을 제공하고 있음",
+      "best_span_id": "chroma:M0594",
+      "best_span_text": "근대역사의 중심도시인 군산에 자리한 군산근대역사박물관은 군산의 근대문화 및 해양문화를 주제로 하는 특화박물관이자 지역박물관으로서 방문객들이 군산의 역사와 문화를 체험할 수 있는 공간이다. 군산근대역사박물관은 ‘역사는 미래가 된다’는 비전 아래, 과거 무역항이자 해상물류유통의 중심지였던 옛 군산의 모습과 전국 최대의 근대문화자원을 전시하여 서해 물류 유통의 천 년 역사와 세계로 뻗어 가는 국제 무역항 군산의 모습을 보여주는 박물관이다. 1층에는 해양물류역사관, 어린이체험관, 기증전시실이 위치해 있으며, 2층에는 근대자료규장각실, 시민열린갤러리가, 3층에는 근대생활관, 기획전시실이 있다. 근대역사의 중심도시, 군산에 자리한 군산근대역사박물관은 군산의 근대문화 및 해양문화를 주제로 하는특화박물관이자 지역박물관으로서 군산의 역사와 문화를 체험할 수 있는 공간을 제공하고 있음",
+      "fusion_score": 0.015151515151515152,
+      "retrieved_by": [
+        "bm25"
+      ],
+      "fusion_rank": 13,
+      "rerank_score": 0.005406069569289684,
+      "rank": 4,
+      "score": 0.005406069569289684,
+      "score_type": "cross_encoder",
+      "distance": null,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "bm25"
+      ],
+      "retriever": "bm25",
+      "span_id": "chroma:M0594",
+      "source_doc_ids": [
+        "DOC-B0594-TOUR_API-1684836",
+        "DOC-B0594-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0594-TOUR_API-1684836",
+          "source_type": "TOUR_API",
+          "source_record_id": "1684836",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=297",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        },
+        {
+          "doc_id": "DOC-B0594-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0594",
+          "source_locator": "data/raw/museum_base_1070.csv#row=595",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 104,
+          "doc_ids": [
+            "DOC-B0594-TOUR_API-1684836"
+          ]
+        },
+        {
+          "start": 105,
+          "end": 244,
+          "doc_ids": [
+            "DOC-B0594-TOUR_API-1684836"
+          ]
+        },
+        {
+          "start": 245,
+          "end": 330,
+          "doc_ids": [
+            "DOC-B0594-TOUR_API-1684836"
+          ]
+        },
+        {
+          "start": 331,
+          "end": 434,
+          "doc_ids": [
+            "DOC-B0594-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=297",
+      "text": "근대역사의 중심도시인 군산에 자리한 군산근대역사박물관은 군산의 근대문화 및 해양문화를 주제로 하는 특화박물관이자 지역박물관으로서 방문객들이 군산의 역사와 문화를 체험할 수 있는 공간이다. 군산근대역사박물관은 ‘역사는 미래가 된다’는 비전 아래, 과거 무역항이자 해상물류유통의 중심지였던 옛 군산의 모습과 전국 최대의 근대문화자원을 전시하여 서해 물류 유통의 천 년 역사와 세계로 뻗어 가는 국제 무역항 군산의 모습을 보여주는 박물관이다. 1층에는 해양물류역사관, 어린이체험관, 기증전시실이 위치해 있으며, 2층에는 근대자료규장각실, 시민열린갤러리가, 3층에는 근대생활관, 기획전시실이 있다. 근대역사의 중심도시, 군산에 자리한 군산근대역사박물관은 군산의 근대문화 및 해양문화를 주제로 하는특화박물관이자 지역박물관으로서 군산의 역사와 문화를 체험할 수 있는 공간을 제공하고 있음",
+      "sido": "전북특별자치도",
+      "sigungu": "군산시",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=297"
+      ],
+      "evidence_id": "E4",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=414",
+        "fields": {
+          "name": "군산근대역사박물관",
+          "sido": "전북특별자치도",
+          "sigungu": "군산시",
+          "address": "전북특별자치도 군산시 해망로 240",
+          "ownership_type": "공립",
+          "adult_fee": "2000",
+          "youth_fee": "1000",
+          "child_fee": "500",
+          "adult_fee_status": "BASE_FEE_PAID",
+          "weekday_open": "09:00",
+          "weekday_close": "17:00",
+          "holiday_open": "09:00",
+          "holiday_close": "17:00",
+          "closure_rule_raw": "1월1일+매주 월요일",
+          "amenities_raw": "처치실+다용도실+자전거보관대+수유실"
+        },
+        "base_data_date": "2025-12-29",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0226",
+      "name": "단종역사관",
+      "document": "단종 관련 유적 및 유품을 한눈에 볼 수 있는 단종역사관이 2002년 4월 5일 영월읍 영흥 12리 장릉 경내에 개관되었다. 단종역사관은 잊히고 왜곡된 단종의 역사를 바로 잡고 이를 널리 알리고자 하는 자각과 재인식에서 계획되었으며, 단종과 지역의 우수성을 지역 주민과 전국의 관람객들에게 이해시키는 교육의 장(場)이다. 세종실록과 문종실록, 단종실록, 세조실록, 조선시대 관복인 대관복과 관복, 내관복, 단종의 세자책봉과 왕위책봉, 단종의 죽음과정에 대한 기록물, 단종의 죽음을 서술한 책인 『단종애사』와 관련된 여러 서적, 단종의 일대기를 그린 그래픽패널, 생육신과 사육신의 충절을 기린 위패, 족쇄와 신장, 태, 장, 착고 등 조선시대 형구, 태형과 장형, 유형, 사형 등 형벌의 종류, 단종어보와 정순왕후 어보, 조선시대 궁중복식모형인 조복과 영복, 조례복, 단종의 유배재현 영상물, 단종유배행렬 디오라마, 단종의 비인 정순왕후의 유물과 왕후의 능인 사릉(思陵) 디오라마 등이 1층과 지하 1층에 주제별로 나뉘어 전시되어 있다. 왜곡된 단종의 역사를 바로 잡고 이를 널리 알리고자 하는 자각과 재인식에 서 계획되었습니다.",
+      "metadata": {
+        "adult_fee": 2000.0,
+        "fee_notes": "영월군민 : 50 프로 할인+단체요금 : 30인 이상",
+        "weekday_close": "18:00",
+        "weekday_open": "09:00",
+        "sigungu": "영월군",
+        "name": "단종역사관",
+        "latitude": 37.19681856,
+        "homepage_url": "http://www.ywmuseum.com",
+        "holiday_open": "09:00",
+        "youth_fee": 1500.0,
+        "child_fee": 1000.0,
+        "requires_manual_review": true,
+        "closure_rule_raw": "연중무휴",
+        "source_types": "BASE|TOUR_API",
+        "adult_fee_status": "BASE_FEE_PAID",
+        "ownership_type": "공립",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/02/3557202_image2_1.JPG",
+        "holiday_close": "18:00",
+        "longitude": 128.4528928,
+        "sido": "강원특별자치도",
+        "image_copyright": "Type1",
+        "address": "강원특별자치도 영월군 영월읍 단종로190"
+      },
+      "vector_rank": 2,
+      "bm25_rank": null,
+      "vector_distance": 0.6130831241607666,
+      "vector_score": null,
+      "bm25_score": null,
+      "vector_document": "단종 관련 유적 및 유품을 한눈에 볼 수 있는 단종역사관이 2002년 4월 5일 영월읍 영흥 12리 장릉 경내에 개관되었다. 단종역사관은 잊히고 왜곡된 단종의 역사를 바로 잡고 이를 널리 알리고자 하는 자각과 재인식에서 계획되었으며, 단종과 지역의 우수성을 지역 주민과 전국의 관람객들에게 이해시키는 교육의 장(場)이다. 세종실록과 문종실록, 단종실록, 세조실록, 조선시대 관복인 대관복과 관복, 내관복, 단종의 세자책봉과 왕위책봉, 단종의 죽음과정에 대한 기록물, 단종의 죽음을 서술한 책인 『단종애사』와 관련된 여러 서적, 단종의 일대기를 그린 그래픽패널, 생육신과 사육신의 충절을 기린 위패, 족쇄와 신장, 태, 장, 착고 등 조선시대 형구, 태형과 장형, 유형, 사형 등 형벌의 종류, 단종어보와 정순왕후 어보, 조선시대 궁중복식모형인 조복과 영복, 조례복, 단종의 유배재현 영상물, 단종유배행렬 디오라마, 단종의 비인 정순왕후의 유물과 왕후의 능인 사릉(思陵) 디오라마 등이 1층과 지하 1층에 주제별로 나뉘어 전시되어 있다. 왜곡된 단종의 역사를 바로 잡고 이를 널리 알리고자 하는 자각과 재인식에 서 계획되었습니다.",
+      "bm25_document": "",
+      "best_span_id": null,
+      "best_span_text": null,
+      "fusion_score": 0.016129032258064516,
+      "retrieved_by": [
+        "vector"
+      ],
+      "fusion_rank": 6,
+      "rerank_score": 0.005374324042350054,
+      "rank": 5,
+      "score": 0.005374324042350054,
+      "score_type": "cross_encoder",
+      "distance": 0.6130831241607666,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector"
+      ],
+      "retriever": "vector",
+      "source_doc_ids": [
+        "DOC-B0226-TOUR_API-130667",
+        "DOC-B0226-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0226-TOUR_API-130667",
+          "source_type": "TOUR_API",
+          "source_record_id": "130667",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=113",
+          "match_trust": "RECHECKED_BY_RULE_NOT_HUMAN_APPROVED"
+        },
+        {
+          "doc_id": "DOC-B0226-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0226",
+          "source_locator": "data/raw/museum_base_1070.csv#row=227",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 69,
+          "doc_ids": [
+            "DOC-B0226-TOUR_API-130667"
+          ]
+        },
+        {
+          "start": 70,
+          "end": 179,
+          "doc_ids": [
+            "DOC-B0226-TOUR_API-130667"
+          ]
+        },
+        {
+          "start": 180,
+          "end": 523,
+          "doc_ids": [
+            "DOC-B0226-TOUR_API-130667"
+          ]
+        },
+        {
+          "start": 524,
+          "end": 575,
+          "doc_ids": [
+            "DOC-B0226-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=113",
+      "text": "단종 관련 유적 및 유품을 한눈에 볼 수 있는 단종역사관이 2002년 4월 5일 영월읍 영흥 12리 장릉 경내에 개관되었다. 단종역사관은 잊히고 왜곡된 단종의 역사를 바로 잡고 이를 널리 알리고자 하는 자각과 재인식에서 계획되었으며, 단종과 지역의 우수성을 지역 주민과 전국의 관람객들에게 이해시키는 교육의 장(場)이다. 세종실록과 문종실록, 단종실록, 세조실록, 조선시대 관복인 대관복과 관복, 내관복, 단종의 세자책봉과 왕위책봉, 단종의 죽음과정에 대한 기록물, 단종의 죽음을 서술한 책인 『단종애사』와 관련된 여러 서적, 단종의 일대기를 그린 그래픽패널, 생육신과 사육신의 충절을 기린 위패, 족쇄와 신장, 태, 장, 착고 등 조선시대 형구, 태형과 장형, 유형, 사형 등 형벌의 종류, 단종어보와 정순왕후 어보, 조선시대 궁중복식모형인 조복과 영복, 조례복, 단종의 유배재현 영상물, 단종유배행렬 디오라마, 단종의 비인 정순왕후의 유물과 왕후의 능인 사릉(思陵) 디오라마 등이 1층과 지하 1층에 주제별로 나뉘어 전시되어 있다. 왜곡된 단종의 역사를 바로 잡고 이를 널리 알리고자 하는 자각과 재인식에 서 계획되었습니다.",
+      "sido": "강원특별자치도",
+      "sigungu": "영월군",
+      "span_id": "",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=113"
+      ],
+      "evidence_id": "E5",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=155",
+        "fields": {
+          "name": "단종역사관",
+          "sido": "강원특별자치도",
+          "sigungu": "영월군",
+          "address": "강원특별자치도 영월군 영월읍 단종로190",
+          "ownership_type": "공립",
+          "adult_fee": "2000",
+          "youth_fee": "1500",
+          "child_fee": "1000",
+          "adult_fee_status": "BASE_FEE_PAID",
+          "weekday_open": "09:00",
+          "weekday_close": "18:00",
+          "holiday_open": "09:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "연중무휴"
+        },
+        "base_data_date": "2026-09-03",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    }
+  ],
+  "answer": "1층에서는 혁신도시 건설 이전의 반곡역과 반곡동 풍경, 주민 생활의 어제와 오늘, 소중한 사람들 등을 담은 사진·영상 자료로 반곡동의 과거를 보여줍니다. [E1]",
+  "retrieval_status": "ok",
+  "answer_status": "answered",
+  "route": "hybrid",
+  "retry_count": 0,
+  "supervisor_verified": true,
+  "rerank_applied": true,
+  "retriever_errors": [],
+  "warnings": [],
+  "duration_ms": 146694.22,
+  "error_type": "",
+  "hit_at_1": 1,
+  "hit_at_3": 1,
+  "hit_at_5": 1,
+  "recall_at_5": 1.0,
+  "mrr_at_10": 1.0
+}

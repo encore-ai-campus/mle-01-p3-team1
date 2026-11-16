@@ -1,0 +1,720 @@
+{
+  "mode": "supervisor_full",
+  "question_id": "Q018",
+  "evidence": [
+    {
+      "museum_id": "M0032",
+      "name": "제주 현대미술관",
+      "document": "제주현대미술관은 제주만의 독특한 문화예술실현의 일환으로 2007년 9월 1일 개관했다. 제주의 아름다운 자연환경이 잘 보전된 중산간 마을 저지리의 저지문화예술인마을 중심부에 입지 하여 관람객에게 문화예술과 자연의 아름다움을 선사한다. 한국 근현대 미술의 거목 김흥수 화백이 자신의 대표 작품을 무상으로 기증한 유일한 미술관이다. 국제조각심포지엄 야외공원과 함께 1천여 명이 동시 관람할 수 있는 야외공연장과 특별전시실, 상설전시실, 기획전시실, 아트숍, 세미나실 등 문화 예술 복합 기능을 갖췄다. 미술관 주변으로 대한민국 원로 화백들이 다수 거주하며 저지문화예술마을이라는 거대 문화벨트를 조성하고 있다. 예술의 관심이 있다면, 다수의 갤러리와 전시관을 함께 둘러볼 수 있다. 제주현대미술관과 저지문화예술인마을은 공간적 분리감이 거의 없어 관람 후 편하게 둘러볼 수 있으나, 거주 공간인 만큼 관광 매너를 준수해야 한다.",
+      "metadata": {
+        "address": "제주특별자치도 제주시 한경면 저지14길 35",
+        "homepage_url": "http://jejumuseum.go.kr/kor/",
+        "weekday_open": "09:00",
+        "requires_manual_review": true,
+        "longitude": 126.2656919,
+        "sido": "제주특별자치도",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/78/4088678_image2_1.jpg",
+        "closure_rule_raw": "월+1월 1일+설 연휴+추석 연휴",
+        "holiday_close": "18:00",
+        "fee_notes": "단체 관람 시 할인+도민할인+6세이하 무료",
+        "ownership_type": "공립",
+        "child_fee": 500.0,
+        "holiday_open": "09:00",
+        "adult_fee": 2000.0,
+        "adult_fee_status": "BASE_FEE_PAID",
+        "source_types": "TOUR_API",
+        "name": "제주 현대미술관",
+        "image_copyright": "Type1",
+        "weekday_close": "18:00",
+        "latitude": 33.33969288,
+        "youth_fee": 1000.0,
+        "sigungu": "제주시"
+      },
+      "vector_rank": 1,
+      "bm25_rank": 1,
+      "vector_distance": 0.39434194564819336,
+      "vector_score": null,
+      "bm25_score": 39.98423517190225,
+      "vector_document": "제주현대미술관은 제주만의 독특한 문화예술실현의 일환으로 2007년 9월 1일 개관했다. 제주의 아름다운 자연환경이 잘 보전된 중산간 마을 저지리의 저지문화예술인마을 중심부에 입지 하여 관람객에게 문화예술과 자연의 아름다움을 선사한다. 한국 근현대 미술의 거목 김흥수 화백이 자신의 대표 작품을 무상으로 기증한 유일한 미술관이다. 국제조각심포지엄 야외공원과 함께 1천여 명이 동시 관람할 수 있는 야외공연장과 특별전시실, 상설전시실, 기획전시실, 아트숍, 세미나실 등 문화 예술 복합 기능을 갖췄다. 미술관 주변으로 대한민국 원로 화백들이 다수 거주하며 저지문화예술마을이라는 거대 문화벨트를 조성하고 있다. 예술의 관심이 있다면, 다수의 갤러리와 전시관을 함께 둘러볼 수 있다. 제주현대미술관과 저지문화예술인마을은 공간적 분리감이 거의 없어 관람 후 편하게 둘러볼 수 있으나, 거주 공간인 만큼 관광 매너를 준수해야 한다.",
+      "bm25_document": "제주현대미술관은 제주만의 독특한 문화예술실현의 일환으로 2007년 9월 1일 개관했다. 제주의 아름다운 자연환경이 잘 보전된 중산간 마을 저지리의 저지문화예술인마을 중심부에 입지 하여 관람객에게 문화예술과 자연의 아름다움을 선사한다. 한국 근현대 미술의 거목 김흥수 화백이 자신의 대표 작품을 무상으로 기증한 유일한 미술관이다. 국제조각심포지엄 야외공원과 함께 1천여 명이 동시 관람할 수 있는 야외공연장과 특별전시실, 상설전시실, 기획전시실, 아트숍, 세미나실 등 문화 예술 복합 기능을 갖췄다. 미술관 주변으로 대한민국 원로 화백들이 다수 거주하며 저지문화예술마을이라는 거대 문화벨트를 조성하고 있다. 예술의 관심이 있다면, 다수의 갤러리와 전시관을 함께 둘러볼 수 있다. 제주현대미술관과 저지문화예술인마을은 공간적 분리감이 거의 없어 관람 후 편하게 둘러볼 수 있으나, 거주 공간인 만큼 관광 매너를 준수해야 한다.",
+      "best_span_id": "chroma:M0032",
+      "best_span_text": "제주현대미술관은 제주만의 독특한 문화예술실현의 일환으로 2007년 9월 1일 개관했다. 제주의 아름다운 자연환경이 잘 보전된 중산간 마을 저지리의 저지문화예술인마을 중심부에 입지 하여 관람객에게 문화예술과 자연의 아름다움을 선사한다. 한국 근현대 미술의 거목 김흥수 화백이 자신의 대표 작품을 무상으로 기증한 유일한 미술관이다. 국제조각심포지엄 야외공원과 함께 1천여 명이 동시 관람할 수 있는 야외공연장과 특별전시실, 상설전시실, 기획전시실, 아트숍, 세미나실 등 문화 예술 복합 기능을 갖췄다. 미술관 주변으로 대한민국 원로 화백들이 다수 거주하며 저지문화예술마을이라는 거대 문화벨트를 조성하고 있다. 예술의 관심이 있다면, 다수의 갤러리와 전시관을 함께 둘러볼 수 있다. 제주현대미술관과 저지문화예술인마을은 공간적 분리감이 거의 없어 관람 후 편하게 둘러볼 수 있으나, 거주 공간인 만큼 관광 매너를 준수해야 한다.",
+      "fusion_score": 0.03278688524590164,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 1,
+      "rerank_score": 0.9999498128890991,
+      "rank": 1,
+      "score": 0.9999498128890991,
+      "score_type": "cross_encoder",
+      "distance": 0.39434194564819336,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0032",
+      "source_doc_ids": [
+        "DOC-B0032-TOUR_API-597562"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0032-TOUR_API-597562",
+          "source_type": "TOUR_API",
+          "source_record_id": "597562",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=19",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 48,
+          "doc_ids": [
+            "DOC-B0032-TOUR_API-597562"
+          ]
+        },
+        {
+          "start": 49,
+          "end": 130,
+          "doc_ids": [
+            "DOC-B0032-TOUR_API-597562"
+          ]
+        },
+        {
+          "start": 131,
+          "end": 183,
+          "doc_ids": [
+            "DOC-B0032-TOUR_API-597562"
+          ]
+        },
+        {
+          "start": 184,
+          "end": 278,
+          "doc_ids": [
+            "DOC-B0032-TOUR_API-597562"
+          ]
+        },
+        {
+          "start": 279,
+          "end": 338,
+          "doc_ids": [
+            "DOC-B0032-TOUR_API-597562"
+          ]
+        },
+        {
+          "start": 339,
+          "end": 378,
+          "doc_ids": [
+            "DOC-B0032-TOUR_API-597562"
+          ]
+        },
+        {
+          "start": 379,
+          "end": 459,
+          "doc_ids": [
+            "DOC-B0032-TOUR_API-597562"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=19",
+      "text": "제주현대미술관은 제주만의 독특한 문화예술실현의 일환으로 2007년 9월 1일 개관했다. 제주의 아름다운 자연환경이 잘 보전된 중산간 마을 저지리의 저지문화예술인마을 중심부에 입지 하여 관람객에게 문화예술과 자연의 아름다움을 선사한다. 한국 근현대 미술의 거목 김흥수 화백이 자신의 대표 작품을 무상으로 기증한 유일한 미술관이다. 국제조각심포지엄 야외공원과 함께 1천여 명이 동시 관람할 수 있는 야외공연장과 특별전시실, 상설전시실, 기획전시실, 아트숍, 세미나실 등 문화 예술 복합 기능을 갖췄다. 미술관 주변으로 대한민국 원로 화백들이 다수 거주하며 저지문화예술마을이라는 거대 문화벨트를 조성하고 있다. 예술의 관심이 있다면, 다수의 갤러리와 전시관을 함께 둘러볼 수 있다. 제주현대미술관과 저지문화예술인마을은 공간적 분리감이 거의 없어 관람 후 편하게 둘러볼 수 있으나, 거주 공간인 만큼 관광 매너를 준수해야 한다.",
+      "sido": "제주특별자치도",
+      "sigungu": "제주시",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=19"
+      ],
+      "evidence_id": "E1",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=25",
+        "fields": {
+          "name": "제주 현대미술관",
+          "sido": "제주특별자치도",
+          "sigungu": "제주시",
+          "address": "제주특별자치도 제주시 한경면 저지14길 35",
+          "ownership_type": "공립",
+          "adult_fee": "2000",
+          "youth_fee": "1000",
+          "child_fee": "500",
+          "adult_fee_status": "BASE_FEE_PAID",
+          "weekday_open": "09:00",
+          "weekday_close": "18:00",
+          "holiday_open": "09:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "월+1월 1일+설 연휴+추석 연휴"
+        },
+        "base_data_date": "2026-09-30",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0028",
+      "name": "제주 도립미술관",
+      "document": "제주시 1100로에 자리한 도립 미술관이다. 제주의 미술과 다양한 예술 작품을 감상하기 위한 전시 공간으로, 제주 지역에서 미술 전시를 찾는 관람객에게 적합하다.",
+      "metadata": {
+        "address": "제주특별자치도 제주시 1100로 2894-78",
+        "longitude": 126.4896861,
+        "requires_manual_review": true,
+        "holiday_open": "09:00",
+        "ownership_type": "공립",
+        "weekday_open": "09:00",
+        "name": "제주 도립미술관",
+        "homepage_url": "http://jmoa.jeju.go.kr/kor/",
+        "weekday_close": "18:00",
+        "adult_fee": 2000.0,
+        "holiday_close": "18:00",
+        "fee_notes": "단체 관람 시 할인+도민할인+6세이하 무료",
+        "closure_rule_raw": "월+1월 1일+설 연휴+추석 연휴",
+        "latitude": 33.45255002,
+        "youth_fee": 1000.0,
+        "sigungu": "제주시",
+        "adult_fee_status": "BASE_FEE_PAID",
+        "source_types": "WEB_RESEARCH",
+        "sido": "제주특별자치도",
+        "child_fee": 500.0
+      },
+      "vector_rank": 3,
+      "bm25_rank": 17,
+      "vector_distance": 0.5006123185157776,
+      "vector_score": null,
+      "bm25_score": 11.025675028037885,
+      "vector_document": "제주시 1100로에 자리한 도립 미술관이다. 제주의 미술과 다양한 예술 작품을 감상하기 위한 전시 공간으로, 제주 지역에서 미술 전시를 찾는 관람객에게 적합하다.",
+      "bm25_document": "제주시 1100로에 자리한 도립 미술관이다. 제주의 미술과 다양한 예술 작품을 감상하기 위한 전시 공간으로, 제주 지역에서 미술 전시를 찾는 관람객에게 적합하다.",
+      "best_span_id": "chroma:M0028",
+      "best_span_text": "제주시 1100로에 자리한 도립 미술관이다. 제주의 미술과 다양한 예술 작품을 감상하기 위한 전시 공간으로, 제주 지역에서 미술 전시를 찾는 관람객에게 적합하다.",
+      "fusion_score": 0.02886002886002886,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 5,
+      "rerank_score": 0.09761740267276764,
+      "rank": 2,
+      "score": 0.09761740267276764,
+      "score_type": "cross_encoder",
+      "distance": 0.5006123185157776,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0028",
+      "source_doc_ids": [
+        "DOC-WEB-M0028-20261111"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-WEB-M0028-20261111",
+          "source_type": "WEB_RESEARCH",
+          "source_record_id": "RESEARCH-M0028",
+          "source_locator": "https://www.visitjeju.net/kr/detail/view?contentsid=CONT_000000000500544&menuId=DOM_000001718003000000",
+          "source_url": "https://www.visitjeju.net/kr/detail/view?contentsid=CONT_000000000500544&menuId=DOM_000001718003000000",
+          "match_trust": "WEB_SOURCE_REVIEWED_NOT_HUMAN_APPROVED"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 24,
+          "doc_ids": [
+            "DOC-WEB-M0028-20261111"
+          ]
+        },
+        {
+          "start": 25,
+          "end": 90,
+          "doc_ids": [
+            "DOC-WEB-M0028-20261111"
+          ]
+        }
+      ],
+      "source_urls": [
+        "https://www.visitjeju.net/kr/detail/view?contentsid=CONT_000000000500544&menuId=DOM_000001718003000000"
+      ],
+      "source_locator": "https://www.visitjeju.net/kr/detail/view?contentsid=CONT_000000000500544&menuId=DOM_000001718003000000",
+      "text": "제주시 1100로에 자리한 도립 미술관이다. 제주의 미술과 다양한 예술 작품을 감상하기 위한 전시 공간으로, 제주 지역에서 미술 전시를 찾는 관람객에게 적합하다.",
+      "sido": "제주특별자치도",
+      "sigungu": "제주시",
+      "chunk_id": "",
+      "source_locators": [
+        "https://www.visitjeju.net/kr/detail/view?contentsid=CONT_000000000500544&menuId=DOM_000001718003000000"
+      ],
+      "evidence_id": "E2",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=22",
+        "fields": {
+          "name": "제주 도립미술관",
+          "sido": "제주특별자치도",
+          "sigungu": "제주시",
+          "address": "제주특별자치도 제주시 1100로 2894-78",
+          "ownership_type": "공립",
+          "adult_fee": "2000",
+          "youth_fee": "1000",
+          "child_fee": "500",
+          "adult_fee_status": "BASE_FEE_PAID",
+          "weekday_open": "09:00",
+          "weekday_close": "18:00",
+          "holiday_open": "09:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "월+1월 1일+설 연휴+추석 연휴"
+        },
+        "base_data_date": "2026-09-30",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0029",
+      "name": "제주도립 김창열미술관",
+      "document": "제주도립 김창열미술관은 ‘물방울 화가’로 널리 알려진 김창열 화백의 주옥같은 작품을 만나 볼 수 있으며, 현대미술의 발전에 이바지하는 미술작품과 자료를 전시, 연구 수집하는 것을 목적을 가지고 있다. 김창열은 미술관 건립을 위해 주요 작품 220점을 기증했다. 홍재승 건축가가 설계한 미술관 하늘에서 보면 중정을 기준으로 거대한 큐브형 건물 8개가 둘러싸인 모습이다. 이는 김창열이 추구한 회귀의 철학을 건축적으로 표현한 것이다.",
+      "metadata": {
+        "weekday_close": "18:00",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/28/4115428_image2_1.jpg",
+        "latitude": 33.33907132,
+        "homepage_url": "http://kimtschang-yeul.jeju.go.kr/",
+        "holiday_close": "18:00",
+        "longitude": 126.2686717,
+        "adult_fee_status": "BASE_FEE_PAID",
+        "adult_fee": 2000.0,
+        "image_copyright": "Type1",
+        "requires_manual_review": true,
+        "holiday_open": "09:00",
+        "source_types": "TOUR_API",
+        "closure_rule_raw": "월+1월 1일+설 연휴+추석 연휴",
+        "name": "제주도립 김창열미술관",
+        "address": "제주특별자치도 제주시 한림읍 용금로 883-5",
+        "sido": "제주특별자치도",
+        "sigungu": "제주시",
+        "weekday_open": "09:00",
+        "youth_fee": 1000.0,
+        "fee_notes": "단체 관람 시 할인+도민할인",
+        "child_fee": 500.0,
+        "ownership_type": "공립"
+      },
+      "vector_rank": 11,
+      "bm25_rank": null,
+      "vector_distance": 0.5362650156021118,
+      "vector_score": null,
+      "bm25_score": null,
+      "vector_document": "제주도립 김창열미술관은 ‘물방울 화가’로 널리 알려진 김창열 화백의 주옥같은 작품을 만나 볼 수 있으며, 현대미술의 발전에 이바지하는 미술작품과 자료를 전시, 연구 수집하는 것을 목적을 가지고 있다. 김창열은 미술관 건립을 위해 주요 작품 220점을 기증했다. 홍재승 건축가가 설계한 미술관 하늘에서 보면 중정을 기준으로 거대한 큐브형 건물 8개가 둘러싸인 모습이다. 이는 김창열이 추구한 회귀의 철학을 건축적으로 표현한 것이다.",
+      "bm25_document": "",
+      "best_span_id": null,
+      "best_span_text": null,
+      "fusion_score": 0.014084507042253521,
+      "retrieved_by": [
+        "vector"
+      ],
+      "fusion_rank": 18,
+      "rerank_score": 0.04003434628248215,
+      "rank": 3,
+      "score": 0.04003434628248215,
+      "score_type": "cross_encoder",
+      "distance": 0.5362650156021118,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector"
+      ],
+      "retriever": "vector",
+      "source_doc_ids": [
+        "DOC-B0029-TOUR_API-2713583"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0029-TOUR_API-2713583",
+          "source_type": "TOUR_API",
+          "source_record_id": "2713583",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=17",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 111,
+          "doc_ids": [
+            "DOC-B0029-TOUR_API-2713583"
+          ]
+        },
+        {
+          "start": 112,
+          "end": 145,
+          "doc_ids": [
+            "DOC-B0029-TOUR_API-2713583"
+          ]
+        },
+        {
+          "start": 146,
+          "end": 205,
+          "doc_ids": [
+            "DOC-B0029-TOUR_API-2713583"
+          ]
+        },
+        {
+          "start": 206,
+          "end": 240,
+          "doc_ids": [
+            "DOC-B0029-TOUR_API-2713583"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=17",
+      "text": "제주도립 김창열미술관은 ‘물방울 화가’로 널리 알려진 김창열 화백의 주옥같은 작품을 만나 볼 수 있으며, 현대미술의 발전에 이바지하는 미술작품과 자료를 전시, 연구 수집하는 것을 목적을 가지고 있다. 김창열은 미술관 건립을 위해 주요 작품 220점을 기증했다. 홍재승 건축가가 설계한 미술관 하늘에서 보면 중정을 기준으로 거대한 큐브형 건물 8개가 둘러싸인 모습이다. 이는 김창열이 추구한 회귀의 철학을 건축적으로 표현한 것이다.",
+      "sido": "제주특별자치도",
+      "sigungu": "제주시",
+      "span_id": "",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=17"
+      ],
+      "evidence_id": "E3",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=23",
+        "fields": {
+          "name": "제주도립 김창열미술관",
+          "sido": "제주특별자치도",
+          "sigungu": "제주시",
+          "address": "제주특별자치도 제주시 한림읍 용금로 883-5",
+          "ownership_type": "공립",
+          "adult_fee": "2000",
+          "youth_fee": "1000",
+          "child_fee": "500",
+          "adult_fee_status": "BASE_FEE_PAID",
+          "weekday_open": "09:00",
+          "weekday_close": "18:00",
+          "holiday_open": "09:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "월+1월 1일+설 연휴+추석 연휴"
+        },
+        "base_data_date": "2026-09-30",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0142",
+      "name": "저녁노을미술관",
+      "document": "저녁노을미술관은 우암 박용규 화백이 자신의 대표작들을 모두 신안군에 기증하면서 건립된 곳이다. 매년 10만여 명의 관람객들이 방문하는 곳으로, 아름다운 바다정원이 내려다보이는 송공산 남쪽 기슭에 자리한 곳으로 천혜의 자연 경관과 어우러지고 신안의 파도를 연상시키는 독창적인 건축미가 돋보이는 곳이다. 천사섬 분재정원 방문할 경우 무료로 관람할 수 있다. 미술관은 2층으로 구성되어 있다. 1층은 계절마다 다양한 주제의 기획전시회가 열리는 곳이다. 2층 공간은 우암 박용규 화백으로부터 기증받은 작품 126점과 소장 작품 85점을 보유하고 있다. 또한 북 카페에 미술 및 일반교양서적이 5천여 권 비치되어 있어 원하는 책을 골라 독서를 즐길 수 있다.",
+      "metadata": {
+        "sido": "전남광주특별자치도",
+        "ownership_type": "공립",
+        "homepage_url": "https://www.shinan.go.kr/home/museum",
+        "youth_fee": 0.0,
+        "adult_fee": 0.0,
+        "address": "전남광주통합특별시 신안군 압해읍 무지개길 350",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/49/3562349_image2_1.jpg",
+        "name": "저녁노을미술관",
+        "weekday_close": "18:00",
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "holiday_close": "18:00",
+        "image_copyright": "Type1",
+        "longitude": 126.2499401978,
+        "source_types": "TOUR_API",
+        "closure_rule_raw": "월(단, 월요일이 공휴일인 경우 당일은 개관하고 그 다음 첫번째 평일에 휴관)",
+        "sigungu": "신안군",
+        "requires_manual_review": true,
+        "child_fee": 0.0,
+        "weekday_open": "09:00",
+        "holiday_open": "09:00",
+        "latitude": 34.8443766196
+      },
+      "vector_rank": null,
+      "bm25_rank": 2,
+      "vector_distance": null,
+      "vector_score": null,
+      "bm25_score": 15.156253016661278,
+      "vector_document": "",
+      "bm25_document": "저녁노을미술관은 우암 박용규 화백이 자신의 대표작들을 모두 신안군에 기증하면서 건립된 곳이다. 매년 10만여 명의 관람객들이 방문하는 곳으로, 아름다운 바다정원이 내려다보이는 송공산 남쪽 기슭에 자리한 곳으로 천혜의 자연 경관과 어우러지고 신안의 파도를 연상시키는 독창적인 건축미가 돋보이는 곳이다. 천사섬 분재정원 방문할 경우 무료로 관람할 수 있다. 미술관은 2층으로 구성되어 있다. 1층은 계절마다 다양한 주제의 기획전시회가 열리는 곳이다. 2층 공간은 우암 박용규 화백으로부터 기증받은 작품 126점과 소장 작품 85점을 보유하고 있다. 또한 북 카페에 미술 및 일반교양서적이 5천여 권 비치되어 있어 원하는 책을 골라 독서를 즐길 수 있다.",
+      "best_span_id": "chroma:M0142",
+      "best_span_text": "저녁노을미술관은 우암 박용규 화백이 자신의 대표작들을 모두 신안군에 기증하면서 건립된 곳이다. 매년 10만여 명의 관람객들이 방문하는 곳으로, 아름다운 바다정원이 내려다보이는 송공산 남쪽 기슭에 자리한 곳으로 천혜의 자연 경관과 어우러지고 신안의 파도를 연상시키는 독창적인 건축미가 돋보이는 곳이다. 천사섬 분재정원 방문할 경우 무료로 관람할 수 있다. 미술관은 2층으로 구성되어 있다. 1층은 계절마다 다양한 주제의 기획전시회가 열리는 곳이다. 2층 공간은 우암 박용규 화백으로부터 기증받은 작품 126점과 소장 작품 85점을 보유하고 있다. 또한 북 카페에 미술 및 일반교양서적이 5천여 권 비치되어 있어 원하는 책을 골라 독서를 즐길 수 있다.",
+      "fusion_score": 0.016129032258064516,
+      "retrieved_by": [
+        "bm25"
+      ],
+      "fusion_rank": 7,
+      "rerank_score": 0.022878702729940414,
+      "rank": 4,
+      "score": 0.022878702729940414,
+      "score_type": "cross_encoder",
+      "distance": null,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "bm25"
+      ],
+      "retriever": "bm25",
+      "span_id": "chroma:M0142",
+      "source_doc_ids": [
+        "DOC-B0142-TOUR_API-2705310"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0142-TOUR_API-2705310",
+          "source_type": "TOUR_API",
+          "source_record_id": "2705310",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=69",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 52,
+          "doc_ids": [
+            "DOC-B0142-TOUR_API-2705310"
+          ]
+        },
+        {
+          "start": 53,
+          "end": 167,
+          "doc_ids": [
+            "DOC-B0142-TOUR_API-2705310"
+          ]
+        },
+        {
+          "start": 168,
+          "end": 197,
+          "doc_ids": [
+            "DOC-B0142-TOUR_API-2705310"
+          ]
+        },
+        {
+          "start": 198,
+          "end": 216,
+          "doc_ids": [
+            "DOC-B0142-TOUR_API-2705310"
+          ]
+        },
+        {
+          "start": 217,
+          "end": 249,
+          "doc_ids": [
+            "DOC-B0142-TOUR_API-2705310"
+          ]
+        },
+        {
+          "start": 250,
+          "end": 304,
+          "doc_ids": [
+            "DOC-B0142-TOUR_API-2705310"
+          ]
+        },
+        {
+          "start": 305,
+          "end": 363,
+          "doc_ids": [
+            "DOC-B0142-TOUR_API-2705310"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=69",
+      "text": "저녁노을미술관은 우암 박용규 화백이 자신의 대표작들을 모두 신안군에 기증하면서 건립된 곳이다. 매년 10만여 명의 관람객들이 방문하는 곳으로, 아름다운 바다정원이 내려다보이는 송공산 남쪽 기슭에 자리한 곳으로 천혜의 자연 경관과 어우러지고 신안의 파도를 연상시키는 독창적인 건축미가 돋보이는 곳이다. 천사섬 분재정원 방문할 경우 무료로 관람할 수 있다. 미술관은 2층으로 구성되어 있다. 1층은 계절마다 다양한 주제의 기획전시회가 열리는 곳이다. 2층 공간은 우암 박용규 화백으로부터 기증받은 작품 126점과 소장 작품 85점을 보유하고 있다. 또한 북 카페에 미술 및 일반교양서적이 5천여 권 비치되어 있어 원하는 책을 골라 독서를 즐길 수 있다.",
+      "sido": "전남광주특별자치도",
+      "sigungu": "신안군",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=69"
+      ],
+      "evidence_id": "E4",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=88",
+        "fields": {
+          "name": "저녁노을미술관",
+          "sido": "전남광주통합특별시",
+          "sigungu": "신안군",
+          "address": "전남광주통합특별시 신안군 압해읍 무지개길 350",
+          "ownership_type": "공립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "09:00",
+          "weekday_close": "18:00",
+          "holiday_open": "09:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "월(단, 월요일이 공휴일인 경우 당일은 개관하고 그 다음 첫번째 평일에 휴관)"
+        },
+        "base_data_date": "2026-08-05",
+        "trust": "derived_dataset_not_human_verified",
+        "normalizations": {
+          "sido": {
+            "source_value": "전남광주통합특별시",
+            "matched_value": "전남광주특별자치도",
+            "rule": "configured_sido_alias"
+          }
+        }
+      }
+    },
+    {
+      "museum_id": "M0061",
+      "name": "왈종미술관",
+      "document": "왈종미술관은 제주도 서귀포시 정방폭포 입구에 자리한 사립 미술관이다. 이곳은 평생 동안 제주의 풍요로움과 아름다움을 화폭에 담아 온 이왈종 화백이 자신의 이름을 걸고 개관한 곳이다. 전체 넓이 300평(약 992㎡) 규모의 3층 건물로, 조선백자의 찻잔을 조형화한 모습이 파란 하늘과 짙푸른 바다를 배경으로 멋진 한 폭의 그림을 그려내는 것 같다. 미술관 1층은 어린이 미술교육실과 수장고, 도예실로 이루어졌고, 2층에 마련된 전시실에는 이 화백의 회화와 도예 작품 90여 점이 전시되어 있다. 3층은 이 화백의 작업공간으로 꾸며졌으며, 커피숍을 겸한 아트숍이 미술관 옆에 자리하고 있어 그림과 휴식을 함께 즐기는 복합 문화공간으로 이용할 수 있다.",
+      "metadata": {
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/93/3548093_image2_1.jpg",
+        "closure_rule_raw": "월",
+        "adult_fee": 10000.0,
+        "image_copyright": "Type1",
+        "adult_fee_status": "BASE_FEE_PAID",
+        "latitude": 33.24530212,
+        "address": "제주특별자치도 서귀포시 칠십리로214번길 30",
+        "holiday_open": "10:00",
+        "sigungu": "서귀포시",
+        "longitude": 126.5736629,
+        "holiday_close": "18:00",
+        "youth_fee": 6000.0,
+        "fee_notes": "단체 관람 시 할인+도민할인+7세이하 무료",
+        "child_fee": 6000.0,
+        "weekday_open": "10:00",
+        "source_types": "TOUR_API",
+        "sido": "제주특별자치도",
+        "requires_manual_review": true,
+        "homepage_url": "http://walartmuseum.or.kr/",
+        "weekday_close": "18:00",
+        "name": "왈종미술관",
+        "ownership_type": "사립"
+      },
+      "vector_rank": 9,
+      "bm25_rank": 5,
+      "vector_distance": 0.533653736114502,
+      "vector_score": null,
+      "bm25_score": 13.940348889166108,
+      "vector_document": "왈종미술관은 제주도 서귀포시 정방폭포 입구에 자리한 사립 미술관이다. 이곳은 평생 동안 제주의 풍요로움과 아름다움을 화폭에 담아 온 이왈종 화백이 자신의 이름을 걸고 개관한 곳이다. 전체 넓이 300평(약 992㎡) 규모의 3층 건물로, 조선백자의 찻잔을 조형화한 모습이 파란 하늘과 짙푸른 바다를 배경으로 멋진 한 폭의 그림을 그려내는 것 같다. 미술관 1층은 어린이 미술교육실과 수장고, 도예실로 이루어졌고, 2층에 마련된 전시실에는 이 화백의 회화와 도예 작품 90여 점이 전시되어 있다. 3층은 이 화백의 작업공간으로 꾸며졌으며, 커피숍을 겸한 아트숍이 미술관 옆에 자리하고 있어 그림과 휴식을 함께 즐기는 복합 문화공간으로 이용할 수 있다.",
+      "bm25_document": "왈종미술관은 제주도 서귀포시 정방폭포 입구에 자리한 사립 미술관이다. 이곳은 평생 동안 제주의 풍요로움과 아름다움을 화폭에 담아 온 이왈종 화백이 자신의 이름을 걸고 개관한 곳이다. 전체 넓이 300평(약 992㎡) 규모의 3층 건물로, 조선백자의 찻잔을 조형화한 모습이 파란 하늘과 짙푸른 바다를 배경으로 멋진 한 폭의 그림을 그려내는 것 같다. 미술관 1층은 어린이 미술교육실과 수장고, 도예실로 이루어졌고, 2층에 마련된 전시실에는 이 화백의 회화와 도예 작품 90여 점이 전시되어 있다. 3층은 이 화백의 작업공간으로 꾸며졌으며, 커피숍을 겸한 아트숍이 미술관 옆에 자리하고 있어 그림과 휴식을 함께 즐기는 복합 문화공간으로 이용할 수 있다.",
+      "best_span_id": "chroma:M0061",
+      "best_span_text": "왈종미술관은 제주도 서귀포시 정방폭포 입구에 자리한 사립 미술관이다. 이곳은 평생 동안 제주의 풍요로움과 아름다움을 화폭에 담아 온 이왈종 화백이 자신의 이름을 걸고 개관한 곳이다. 전체 넓이 300평(약 992㎡) 규모의 3층 건물로, 조선백자의 찻잔을 조형화한 모습이 파란 하늘과 짙푸른 바다를 배경으로 멋진 한 폭의 그림을 그려내는 것 같다. 미술관 1층은 어린이 미술교육실과 수장고, 도예실로 이루어졌고, 2층에 마련된 전시실에는 이 화백의 회화와 도예 작품 90여 점이 전시되어 있다. 3층은 이 화백의 작업공간으로 꾸며졌으며, 커피숍을 겸한 아트숍이 미술관 옆에 자리하고 있어 그림과 휴식을 함께 즐기는 복합 문화공간으로 이용할 수 있다.",
+      "fusion_score": 0.029877369007803793,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 2,
+      "rerank_score": 0.01429531816393137,
+      "rank": 5,
+      "score": 0.01429531816393137,
+      "score_type": "cross_encoder",
+      "distance": 0.533653736114502,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0061",
+      "source_doc_ids": [
+        "DOC-B0061-TOUR_API-2606690"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0061-TOUR_API-2606690",
+          "source_type": "TOUR_API",
+          "source_record_id": "2606690",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=32",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 38,
+          "doc_ids": [
+            "DOC-B0061-TOUR_API-2606690"
+          ]
+        },
+        {
+          "start": 39,
+          "end": 101,
+          "doc_ids": [
+            "DOC-B0061-TOUR_API-2606690"
+          ]
+        },
+        {
+          "start": 102,
+          "end": 194,
+          "doc_ids": [
+            "DOC-B0061-TOUR_API-2606690"
+          ]
+        },
+        {
+          "start": 195,
+          "end": 276,
+          "doc_ids": [
+            "DOC-B0061-TOUR_API-2606690"
+          ]
+        },
+        {
+          "start": 277,
+          "end": 363,
+          "doc_ids": [
+            "DOC-B0061-TOUR_API-2606690"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=32",
+      "text": "왈종미술관은 제주도 서귀포시 정방폭포 입구에 자리한 사립 미술관이다. 이곳은 평생 동안 제주의 풍요로움과 아름다움을 화폭에 담아 온 이왈종 화백이 자신의 이름을 걸고 개관한 곳이다. 전체 넓이 300평(약 992㎡) 규모의 3층 건물로, 조선백자의 찻잔을 조형화한 모습이 파란 하늘과 짙푸른 바다를 배경으로 멋진 한 폭의 그림을 그려내는 것 같다. 미술관 1층은 어린이 미술교육실과 수장고, 도예실로 이루어졌고, 2층에 마련된 전시실에는 이 화백의 회화와 도예 작품 90여 점이 전시되어 있다. 3층은 이 화백의 작업공간으로 꾸며졌으며, 커피숍을 겸한 아트숍이 미술관 옆에 자리하고 있어 그림과 휴식을 함께 즐기는 복합 문화공간으로 이용할 수 있다.",
+      "sido": "제주특별자치도",
+      "sigungu": "서귀포시",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=32"
+      ],
+      "evidence_id": "E5",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=41",
+        "fields": {
+          "name": "왈종미술관",
+          "sido": "제주특별자치도",
+          "sigungu": "서귀포시",
+          "address": "제주특별자치도 서귀포시 칠십리로214번길 30",
+          "ownership_type": "사립",
+          "adult_fee": "10000",
+          "youth_fee": "6000",
+          "child_fee": "6000",
+          "adult_fee_status": "BASE_FEE_PAID",
+          "weekday_open": "10:00",
+          "weekday_close": "18:00",
+          "holiday_open": "10:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "월"
+        },
+        "base_data_date": "2026-09-30",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    }
+  ],
+  "answer": "확인 가능한 근거가 부족하여 답변을 보류했습니다. 확인하지 못한 내용: 김흥수 화백에게 기증받은 대표 작품을 전시한다는 점.",
+  "retrieval_status": "ok",
+  "answer_status": "abstained",
+  "route": "hybrid",
+  "retry_count": 1,
+  "supervisor_verified": false,
+  "rerank_applied": true,
+  "retriever_errors": [],
+  "warnings": [],
+  "duration_ms": 165179.95,
+  "error_type": "",
+  "hit_at_1": 1,
+  "hit_at_3": 1,
+  "hit_at_5": 1,
+  "recall_at_5": 1.0,
+  "mrr_at_10": 1.0
+}

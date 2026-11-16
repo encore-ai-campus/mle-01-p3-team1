@@ -1,0 +1,159 @@
+{
+  "question_id": "V2-EU03",
+  "response": {
+    "tool": "museum_hybrid_retrieve",
+    "status": "no_results",
+    "query": "휠체어로 관람 가능한 서울 박물관이 있을까?",
+    "results": [],
+    "source_ids": [],
+    "warnings": [
+      "구조 조건(지역 서울특별시, 편의시설 휠체어 대여·이용)을 만족하는 기록이 있는 시설이 없습니다; 조건을 빼고 검색하지 않았습니다.",
+      "No candidates were returned with positive retrieval signal"
+    ],
+    "unsupported_constraints": [],
+    "search_summary": {
+      "mode": "hybrid",
+      "filters": {},
+      "candidate_count": 0,
+      "requested_candidate_k": 20,
+      "returned_count": 0,
+      "reranked": false,
+      "vector_returned": 0,
+      "bm25_returned": 0,
+      "fused_returned": 0,
+      "final_returned": 0,
+      "rerank_requested": true,
+      "rerank_applied": false,
+      "rerank_failed": false,
+      "fusion_method": "weighted_rrf",
+      "config": {
+        "vector_top_k": 20,
+        "bm25_top_k": 20,
+        "fusion_top_k": 20,
+        "final_top_k": 10,
+        "rrf_k": 60,
+        "vector_weight": 1.0,
+        "bm25_weight": 1.0,
+        "reranker_model": "BAAI/bge-reranker-v2-m3",
+        "reranker_local_dir": null,
+        "reranker_revision": null,
+        "reranker_batch_size": 8,
+        "reranker_max_chars": 2000,
+        "rerank_failure_policy": "rrf_fallback",
+        "rerank_min_confidence": 0.1,
+        "retriever_failure_policy": "raise",
+        "parallel_retrieval": true
+      },
+      "metadata_filters": {},
+      "retriever_errors": [],
+      "requested_final_top_k": 5,
+      "expanded_query": "휠체어로 관람 가능한 서울 박물관이 있을까?",
+      "query_mode": "vector",
+      "analysis_status": "disabled",
+      "unsupported_constraints": [],
+      "ontology_filter": {
+        "status": "empty",
+        "backend": "neo4j_v2",
+        "conditions": {
+          "amenities": [
+            "휠체어 대여·이용"
+          ],
+          "sido": "서울특별시",
+          "matched_terms": [
+            "휠체어로 관람 가능"
+          ]
+        },
+        "candidate_count": 0
+      },
+      "name_match": {
+        "status": "not_applicable",
+        "names": [],
+        "promoted": [],
+        "injected": [],
+        "unavailable": []
+      },
+      "rerank_low_confidence": false,
+      "rerank_best_score": null,
+      "stages": [
+        {
+          "stage": "ontology_filter",
+          "duration_ms": 377.37,
+          "status": "empty",
+          "backend": "neo4j_v2",
+          "conditions": {
+            "amenities": [
+              "휠체어 대여·이용"
+            ],
+            "sido": "서울특별시",
+            "matched_terms": [
+              "휠체어로 관람 가능"
+            ]
+          },
+          "candidate_count": 0
+        },
+        {
+          "stage": "query_analysis",
+          "status": "disabled",
+          "duration_ms": 0.19,
+          "filters": {},
+          "expanded_query": "휠체어로 관람 가능한 서울 박물관이 있을까?",
+          "mode": "vector",
+          "model": "disabled"
+        },
+        {
+          "stage": "vector_retrieval",
+          "status": "empty",
+          "duration_ms": 0.15,
+          "requested": 20,
+          "returned": 0
+        },
+        {
+          "stage": "bm25_retrieval",
+          "status": "empty",
+          "duration_ms": 0.74,
+          "requested": 20,
+          "returned": 0
+        },
+        {
+          "stage": "rrf_fusion",
+          "status": "empty",
+          "duration_ms": 0.02,
+          "requested": 20,
+          "returned": 0
+        },
+        {
+          "stage": "name_match",
+          "duration_ms": 0.19,
+          "status": "not_applicable",
+          "names": [],
+          "promoted": [],
+          "injected": [],
+          "unavailable": []
+        },
+        {
+          "stage": "cross_encoder_rerank",
+          "status": "skipped",
+          "duration_ms": 0.0,
+          "requested": 0,
+          "returned": 0,
+          "best_score": null,
+          "min_confidence": 0.1
+        },
+        {
+          "stage": "final_selection",
+          "status": "empty",
+          "requested": 5,
+          "returned": 0
+        }
+      ],
+      "total_duration_ms": 380.49
+    },
+    "fusion_candidates": [],
+    "retrieval_candidates_full": {
+      "vector": [],
+      "bm25": []
+    }
+  },
+  "duration_ms": 380.54,
+  "error_type": ""
+}

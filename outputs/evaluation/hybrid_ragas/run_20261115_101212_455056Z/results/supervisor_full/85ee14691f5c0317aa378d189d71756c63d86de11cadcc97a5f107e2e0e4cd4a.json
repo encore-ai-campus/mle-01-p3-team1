@@ -1,0 +1,58 @@
+{
+  "mode": "supervisor_full",
+  "question_id": "V2-SW04",
+  "evidence": [
+    {
+      "museum_id": "M1063",
+      "name": "소래역사관",
+      "text": "[Neo4j 구조화 속성] {\"amenities\": [{\"category\": \"가족·어린이\", \"name\": \"수유실\", \"raw_tokens\": [\"수유실\"]}], \"closure_weekdays\": [\"월\"], \"facility_type\": \"역사관\", \"museum_id\": \"M1063\", \"name\": \"소래역사관\", \"open_all_year\": false, \"sido\": \"인천광역시\", \"sigungu\": \"남동구\"}",
+      "span_id": "",
+      "source_doc_ids": [],
+      "source_urls": [],
+      "source_url": "",
+      "source_locators": [],
+      "source_locator": "",
+      "sido": "인천광역시",
+      "sigungu": "남동구",
+      "retriever": "graph",
+      "amenities": [
+        {
+          "category": "가족·어린이",
+          "name": "수유실",
+          "raw_tokens": [
+            "수유실"
+          ]
+        }
+      ],
+      "facility_type": "역사관",
+      "closure_weekdays": [
+        "월"
+      ],
+      "open_all_year": false,
+      "source_scope": "graph_properties",
+      "metadata": {},
+      "chunk_id": "",
+      "retrievers": [
+        "graph"
+      ],
+      "evidence_id": "E1",
+      "rank": 1
+    }
+  ],
+  "answer": "확인 가능한 근거가 부족하여 답변을 보류했음.",
+  "retrieval_status": "ok",
+  "answer_status": "abstained",
+  "route": "graph",
+  "retry_count": 1,
+  "supervisor_verified": false,
+  "rerank_applied": false,
+  "retriever_errors": [],
+  "warnings": [],
+  "duration_ms": 62954.71,
+  "error_type": "",
+  "hit_at_1": 1,
+  "hit_at_3": 1,
+  "hit_at_5": 1,
+  "recall_at_5": 1.0,
+  "mrr_at_10": 1.0
+}

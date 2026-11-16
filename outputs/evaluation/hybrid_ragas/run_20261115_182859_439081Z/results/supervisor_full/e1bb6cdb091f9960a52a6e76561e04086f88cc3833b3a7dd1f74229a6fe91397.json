@@ -1,0 +1,77 @@
+{
+  "evidence_context_version": "grounded-evidence-v2",
+  "evaluation_contexts": [
+    "{\"evidence_context_version\": \"grounded-evidence-v2\", \"evidence_id\": \"E1\", \"museum_id\": \"M0523\", \"name\": \"국토발전전시관\", \"sido\": \"서울특별시\", \"sigungu\": \"중구\", \"source_doc_ids\": [\"DOC-B0523-TOUR_API-2764516\"], \"source_locator\": \"data/raw/museum_tourapi_with_overview.csv#row=257\", \"source_locators\": [\"data/raw/museum_tourapi_with_overview.csv#row=257\"], \"source_urls\": [], \"text\": \"전시실은 국토세움실, 국토누리실, 국토동행실로 구성되어 있다.\"}",
+    "{\"evidence_context_version\": \"grounded-evidence-v2\", \"evidence_id\": \"E2\", \"museum_id\": \"M0523\", \"name\": \"국토발전전시관\", \"sido\": \"서울특별시\", \"sigungu\": \"중구\", \"source_doc_ids\": [\"DOC-B0523-TOUR_API-2764516\"], \"source_locator\": \"data/raw/museum_tourapi_with_overview.csv#row=257\", \"source_locators\": [\"data/raw/museum_tourapi_with_overview.csv#row=257\"], \"source_urls\": [], \"text\": \"국토세움실은 대한민국의 국토개발 계획과 정책 발전사를 시기별로 전시했으며, 국토누리실은 교통을 주제로 대중교통, 도로, 철도 등 국가 대형 인프라 분야의 역사와 2000년부터 2020년까지의 국토의 균형적인 발전상을 목표로 시민들이 공감하는 정책과 소장품을 소개하고 있다.\"}"
+  ],
+  "mode": "supervisor_full",
+  "question_id": "Q297",
+  "evidence": [
+    {
+      "museum_id": "M0523",
+      "name": "국토발전전시관",
+      "text": "전시실은 국토세움실, 국토누리실, 국토동행실로 구성되어 있다.",
+      "span_id": "M0523:001",
+      "source_doc_ids": [
+        "DOC-B0523-TOUR_API-2764516"
+      ],
+      "source_urls": [],
+      "source_url": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=257"
+      ],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=257",
+      "sido": "서울특별시",
+      "sigungu": "중구",
+      "retriever": "graph",
+      "metadata": {},
+      "chunk_id": "",
+      "retrievers": [
+        "graph"
+      ],
+      "evidence_id": "E1",
+      "rank": 1
+    },
+    {
+      "museum_id": "M0523",
+      "name": "국토발전전시관",
+      "text": "국토세움실은 대한민국의 국토개발 계획과 정책 발전사를 시기별로 전시했으며, 국토누리실은 교통을 주제로 대중교통, 도로, 철도 등 국가 대형 인프라 분야의 역사와 2000년부터 2020년까지의 국토의 균형적인 발전상을 목표로 시민들이 공감하는 정책과 소장품을 소개하고 있다.",
+      "span_id": "M0523:002",
+      "source_doc_ids": [
+        "DOC-B0523-TOUR_API-2764516"
+      ],
+      "source_urls": [],
+      "source_url": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=257"
+      ],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=257",
+      "sido": "서울특별시",
+      "sigungu": "중구",
+      "retriever": "graph",
+      "metadata": {},
+      "chunk_id": "",
+      "retrievers": [
+        "graph"
+      ],
+      "evidence_id": "E2",
+      "rank": 2
+    }
+  ],
+  "answer": "확인 가능한 근거가 부족하여 답변을 보류했습니다. 확인하지 못한 내용: 국토누리실의 2000~2020년 국토 균형 발전상과 정책·소장품 소개 사이의 관계를 근거에 맞게 구분해 설명해야 함.",
+  "retrieval_status": "ok",
+  "answer_status": "abstained",
+  "route": "graph",
+  "retry_count": 1,
+  "supervisor_verified": false,
+  "rerank_applied": false,
+  "retriever_errors": [],
+  "warnings": [],
+  "duration_ms": 107453.43,
+  "error_type": "",
+  "hit_at_1": 1,
+  "hit_at_3": 1,
+  "hit_at_5": 1,
+  "recall_at_5": 1.0,
+  "mrr_at_10": 1.0
+}

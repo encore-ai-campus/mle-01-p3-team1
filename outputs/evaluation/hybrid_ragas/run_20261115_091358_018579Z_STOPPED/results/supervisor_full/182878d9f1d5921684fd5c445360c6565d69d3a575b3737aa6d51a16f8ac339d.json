@@ -1,0 +1,58 @@
+{
+  "mode": "supervisor_full",
+  "question_id": "V2-SW06",
+  "evidence": [
+    {
+      "museum_id": "M0753",
+      "name": "울산박물관",
+      "text": "[Neo4j 구조화 속성] {\"amenities\": [\"수유실\"], \"closure_weekdays\": [\"월\"], \"facility_type\": \"박물관\", \"museum_id\": \"M0753\", \"name\": \"울산박물관\", \"open_all_year\": false, \"sido\": \"울산광역시\", \"sigungu\": \"남구\", \"source_doc_ids\": [\"DOC-B0753-BASE\", \"DOC-B0753-TOUR_API-1556541\"], \"source_locators\": [\"data/raw/museum_base_1070.csv#row=754\", \"data/raw/museum_tourapi_with_overview.csv#row=365\"]}",
+      "span_id": "",
+      "source_doc_ids": [
+        "DOC-B0753-BASE",
+        "DOC-B0753-TOUR_API-1556541"
+      ],
+      "source_urls": [],
+      "source_url": "",
+      "source_locators": [
+        "data/raw/museum_base_1070.csv#row=754",
+        "data/raw/museum_tourapi_with_overview.csv#row=365"
+      ],
+      "source_locator": "data/raw/museum_base_1070.csv#row=754",
+      "sido": "울산광역시",
+      "sigungu": "남구",
+      "retriever": "graph",
+      "amenities": [
+        "수유실"
+      ],
+      "facility_type": "박물관",
+      "closure_weekdays": [
+        "월"
+      ],
+      "open_all_year": false,
+      "source_scope": "graph_properties",
+      "metadata": {},
+      "chunk_id": "",
+      "retrievers": [
+        "graph"
+      ],
+      "evidence_id": "E1",
+      "rank": 1
+    }
+  ],
+  "answer": "울산 남구의 울산박물관은 기록상 수유실이 있고 휴관일은 월요일로 기재되어 있어, 주말에 문을 여는 곳으로 확인됩니다. [E1]",
+  "retrieval_status": "ok",
+  "answer_status": "answered",
+  "route": "graph",
+  "retry_count": 1,
+  "supervisor_verified": true,
+  "rerank_applied": false,
+  "retriever_errors": [],
+  "warnings": [],
+  "duration_ms": 57058.39,
+  "error_type": "",
+  "hit_at_1": 1,
+  "hit_at_3": 1,
+  "hit_at_5": 1,
+  "recall_at_5": 1.0,
+  "mrr_at_10": 1.0
+}

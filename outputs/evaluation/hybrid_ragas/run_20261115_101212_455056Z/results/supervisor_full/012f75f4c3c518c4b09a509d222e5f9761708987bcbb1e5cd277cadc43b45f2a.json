@@ -1,0 +1,699 @@
+{
+  "mode": "supervisor_full",
+  "question_id": "Q250",
+  "evidence": [
+    {
+      "museum_id": "M0434",
+      "name": "신평생활사박물관",
+      "document": "2002년12월24일 규모 지상2층이며 소장 전시유물은 650점입니다 직원과 12개 마을 주민들이 희사한 전근대 농촌 생활유물을 전시조상들의 생활상을 엿볼 수 있는 임실군에 하나뿐인 생활사 박물관입니다",
+      "metadata": {
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "sigungu": "임실군",
+        "weekday_close": "17:00",
+        "adult_fee": 0.0,
+        "holiday_close": "17:00",
+        "name": "신평생활사박물관",
+        "youth_fee": 0.0,
+        "transport_notes": "버스:203",
+        "amenities_raw": "화장실",
+        "sido": "전북특별자치도",
+        "source_types": "BASE",
+        "fee_notes": "무료",
+        "latitude": 35.65705012,
+        "address": "전북특별자치도 임실군 신평면 석등슬치로369",
+        "weekday_open": "09:00",
+        "holiday_open": "09:00",
+        "child_fee": 0.0,
+        "ownership_type": "국립",
+        "closure_rule_raw": "토요일+일요일",
+        "requires_manual_review": false,
+        "longitude": 127.223673
+      },
+      "vector_rank": 1,
+      "bm25_rank": 1,
+      "vector_distance": 0.3918471336364746,
+      "vector_score": null,
+      "bm25_score": 18.437679451206908,
+      "vector_document": "2002년12월24일 규모 지상2층이며 소장 전시유물은 650점입니다 직원과 12개 마을 주민들이 희사한 전근대 농촌 생활유물을 전시조상들의 생활상을 엿볼 수 있는 임실군에 하나뿐인 생활사 박물관입니다",
+      "bm25_document": "2002년12월24일 규모 지상2층이며 소장 전시유물은 650점입니다 직원과 12개 마을 주민들이 희사한 전근대 농촌 생활유물을 전시조상들의 생활상을 엿볼 수 있는 임실군에 하나뿐인 생활사 박물관입니다",
+      "best_span_id": "chroma:M0434",
+      "best_span_text": "2002년12월24일 규모 지상2층이며 소장 전시유물은 650점입니다 직원과 12개 마을 주민들이 희사한 전근대 농촌 생활유물을 전시조상들의 생활상을 엿볼 수 있는 임실군에 하나뿐인 생활사 박물관입니다",
+      "fusion_score": 0.03278688524590164,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 1,
+      "name_match": true,
+      "rerank_score": 0.9983628392219543,
+      "rank": 1,
+      "score": 0.9983628392219543,
+      "score_type": "cross_encoder",
+      "distance": 0.3918471336364746,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0434",
+      "source_doc_ids": [
+        "DOC-B0434-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0434-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0434",
+          "source_locator": "data/raw/museum_base_1070.csv#row=435",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 112,
+          "doc_ids": [
+            "DOC-B0434-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_base_1070.csv#row=435",
+      "text": "2002년12월24일 규모 지상2층이며 소장 전시유물은 650점입니다 직원과 12개 마을 주민들이 희사한 전근대 농촌 생활유물을 전시조상들의 생활상을 엿볼 수 있는 임실군에 하나뿐인 생활사 박물관입니다",
+      "sido": "전북특별자치도",
+      "sigungu": "임실군",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_base_1070.csv#row=435"
+      ],
+      "evidence_id": "E1",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=308",
+        "fields": {
+          "name": "신평생활사박물관",
+          "sido": "전북특별자치도",
+          "sigungu": "임실군",
+          "address": "전북특별자치도 임실군 신평면 석등슬치로369",
+          "ownership_type": "국립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "09:00",
+          "weekday_close": "17:00",
+          "holiday_open": "09:00",
+          "holiday_close": "17:00",
+          "closure_rule_raw": "토요일+일요일",
+          "amenities_raw": "화장실"
+        },
+        "base_data_date": "2026-04-14",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0136",
+      "name": "신안갯벌박물관",
+      "document": "신안갯벌박물관은 신안 갯벌이 유네스코 세계유산으로 등재되는 기념하는 공간으로써, 2006년 개관한 신안 갯벌센터·슬로시티센터(구, 증도 갯벌생태전시관)를 리모델링하여 박물관으로 개관하였다. 지하 1층, 지상 3층의 규모로 국내 최대이자 최초의 갯벌생태 교육공간이자 박물관이다. 갯벌의 탄생 과정과 우리나라 갯벌의 모습, 갯벌에 사는 여러 생물들에 대한 전시를 볼 수 있다. 영상실에서는 신안군의 아름다운 섬과 갯벌에 대한 홍보영상물도 수시로 상영된다. 밀물 썰물의 관찰과 소리 체험이 가능한 체험 전시관에는 갯벌의 생태계를 한눈에 파악할 수 있는 시설이 마련되어 있다.",
+      "metadata": {
+        "source_types": "TOUR_API",
+        "longitude": 126.1368686772,
+        "holiday_open": "09:00",
+        "child_fee": 0.0,
+        "image_url": "http://tong.visitkorea.or.kr/cms/resource/86/3573086_image2_1.jpg",
+        "requires_manual_review": true,
+        "amenities_raw": "갯벌학습실+야외카페테리아",
+        "address": "전남광주통합특별시 신안군 증도면 지도증도로 1766-4",
+        "weekday_close": "17:00",
+        "image_copyright": "Type1",
+        "weekday_open": "09:00",
+        "youth_fee": 0.0,
+        "closure_rule_raw": "월(단, 월요일이 공휴일인 경우 당일은 개관하고 그 다음 첫번째 평일에 휴관)",
+        "latitude": 34.9647523469,
+        "holiday_close": "17:00",
+        "homepage_url": "https://www.shinan.go.kr/home/museum",
+        "ownership_type": "공립",
+        "sigungu": "신안군",
+        "name": "신안갯벌박물관",
+        "adult_fee": 0.0,
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "sido": "전남광주특별자치도"
+      },
+      "vector_rank": null,
+      "bm25_rank": 7,
+      "vector_distance": null,
+      "vector_score": null,
+      "bm25_score": 11.777461087090547,
+      "vector_document": "",
+      "bm25_document": "신안갯벌박물관은 신안 갯벌이 유네스코 세계유산으로 등재되는 기념하는 공간으로써, 2006년 개관한 신안 갯벌센터·슬로시티센터(구, 증도 갯벌생태전시관)를 리모델링하여 박물관으로 개관하였다. 지하 1층, 지상 3층의 규모로 국내 최대이자 최초의 갯벌생태 교육공간이자 박물관이다. 갯벌의 탄생 과정과 우리나라 갯벌의 모습, 갯벌에 사는 여러 생물들에 대한 전시를 볼 수 있다. 영상실에서는 신안군의 아름다운 섬과 갯벌에 대한 홍보영상물도 수시로 상영된다. 밀물 썰물의 관찰과 소리 체험이 가능한 체험 전시관에는 갯벌의 생태계를 한눈에 파악할 수 있는 시설이 마련되어 있다.",
+      "best_span_id": "chroma:M0136",
+      "best_span_text": "신안갯벌박물관은 신안 갯벌이 유네스코 세계유산으로 등재되는 기념하는 공간으로써, 2006년 개관한 신안 갯벌센터·슬로시티센터(구, 증도 갯벌생태전시관)를 리모델링하여 박물관으로 개관하였다. 지하 1층, 지상 3층의 규모로 국내 최대이자 최초의 갯벌생태 교육공간이자 박물관이다. 갯벌의 탄생 과정과 우리나라 갯벌의 모습, 갯벌에 사는 여러 생물들에 대한 전시를 볼 수 있다. 영상실에서는 신안군의 아름다운 섬과 갯벌에 대한 홍보영상물도 수시로 상영된다. 밀물 썰물의 관찰과 소리 체험이 가능한 체험 전시관에는 갯벌의 생태계를 한눈에 파악할 수 있는 시설이 마련되어 있다.",
+      "fusion_score": 0.014925373134328358,
+      "retrieved_by": [
+        "bm25"
+      ],
+      "fusion_rank": 14,
+      "rerank_score": 0.03196224942803383,
+      "rank": 2,
+      "score": 0.03196224942803383,
+      "score_type": "cross_encoder",
+      "distance": null,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "bm25"
+      ],
+      "retriever": "bm25",
+      "span_id": "chroma:M0136",
+      "source_doc_ids": [
+        "DOC-B0136-TOUR_API-619141"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0136-TOUR_API-619141",
+          "source_type": "TOUR_API",
+          "source_record_id": "619141",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=67",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 105,
+          "doc_ids": [
+            "DOC-B0136-TOUR_API-619141"
+          ]
+        },
+        {
+          "start": 106,
+          "end": 154,
+          "doc_ids": [
+            "DOC-B0136-TOUR_API-619141"
+          ]
+        },
+        {
+          "start": 155,
+          "end": 208,
+          "doc_ids": [
+            "DOC-B0136-TOUR_API-619141"
+          ]
+        },
+        {
+          "start": 209,
+          "end": 252,
+          "doc_ids": [
+            "DOC-B0136-TOUR_API-619141"
+          ]
+        },
+        {
+          "start": 253,
+          "end": 318,
+          "doc_ids": [
+            "DOC-B0136-TOUR_API-619141"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=67",
+      "text": "신안갯벌박물관은 신안 갯벌이 유네스코 세계유산으로 등재되는 기념하는 공간으로써, 2006년 개관한 신안 갯벌센터·슬로시티센터(구, 증도 갯벌생태전시관)를 리모델링하여 박물관으로 개관하였다. 지하 1층, 지상 3층의 규모로 국내 최대이자 최초의 갯벌생태 교육공간이자 박물관이다. 갯벌의 탄생 과정과 우리나라 갯벌의 모습, 갯벌에 사는 여러 생물들에 대한 전시를 볼 수 있다. 영상실에서는 신안군의 아름다운 섬과 갯벌에 대한 홍보영상물도 수시로 상영된다. 밀물 썰물의 관찰과 소리 체험이 가능한 체험 전시관에는 갯벌의 생태계를 한눈에 파악할 수 있는 시설이 마련되어 있다.",
+      "sido": "전남광주특별자치도",
+      "sigungu": "신안군",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=67"
+      ],
+      "evidence_id": "E2",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=86",
+        "fields": {
+          "name": "신안갯벌박물관",
+          "sido": "전남광주통합특별시",
+          "sigungu": "신안군",
+          "address": "전남광주통합특별시 신안군 증도면 지도증도로 1766-4",
+          "ownership_type": "공립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "09:00",
+          "weekday_close": "17:00",
+          "holiday_open": "09:00",
+          "holiday_close": "17:00",
+          "closure_rule_raw": "월(단, 월요일이 공휴일인 경우 당일은 개관하고 그 다음 첫번째 평일에 휴관)",
+          "amenities_raw": "갯벌학습실+야외카페테리아"
+        },
+        "base_data_date": "2026-08-05",
+        "trust": "derived_dataset_not_human_verified",
+        "normalizations": {
+          "sido": {
+            "source_value": "전남광주통합특별시",
+            "matched_value": "전남광주특별자치도",
+            "rule": "configured_sido_alias"
+          }
+        }
+      }
+    },
+    {
+      "museum_id": "M0375",
+      "name": "한국근현대사박물관",
+      "document": "한국근현대사박물관은 한국의 1950~70년대 생활사를 체험하며 의미 있는 추억을 남길 수 있는 테마 체험 전시관이다. 일본이 통치권을 앗아간 1910년부터 40년대, 뼈아픈 6·25전쟁이 있던 1950년대, ‘잘 살아보자’는 일념 하나로 온 국민이 똘똘 뭉쳤던 1970~80년대까지, 오래도록 그 시절이 잊히지 않기를 바라는 마음에서 2005년에 30년 동안 모은 각종 시각유물자료 7만여 점을 헤이리마을로 옮겼다. 입구부터 과거의 냄새를 물씬 풍기는 한국근현대사박물관은 지하 1층, 지상 3층으로 이루어져 있으며 층별로 각기 다른 시대의 한 마을을 통째로 재현한 한국 최초의 근현대사 테마 박물관이다.",
+      "metadata": {
+        "sigungu": "파주시",
+        "adult_fee_status": "BASE_FEE_PAID",
+        "ownership_type": "사립",
+        "image_copyright": "Type3",
+        "address": "경기도 파주시 탄현면 헤이리마을길 59-85",
+        "sido": "경기도",
+        "requires_manual_review": true,
+        "longitude": 126.695201947,
+        "holiday_open": "10:00",
+        "holiday_close": "18:00",
+        "latitude": 37.7908727117,
+        "name": "한국근현대사박물관",
+        "adult_fee": 8000.0,
+        "source_types": "TOUR_API",
+        "youth_fee": 8000.0,
+        "child_fee": 6000.0,
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/65/3467465_image2_1.JPG",
+        "weekday_close": "18:00",
+        "weekday_open": "10:00",
+        "homepage_url": "http://www.kmhm.or.kr",
+        "closure_rule_raw": "월요일"
+      },
+      "vector_rank": null,
+      "bm25_rank": 4,
+      "vector_distance": null,
+      "vector_score": null,
+      "bm25_score": 12.79694423696688,
+      "vector_document": "",
+      "bm25_document": "한국근현대사박물관은 한국의 1950~70년대 생활사를 체험하며 의미 있는 추억을 남길 수 있는 테마 체험 전시관이다. 일본이 통치권을 앗아간 1910년부터 40년대, 뼈아픈 6·25전쟁이 있던 1950년대, ‘잘 살아보자’는 일념 하나로 온 국민이 똘똘 뭉쳤던 1970~80년대까지, 오래도록 그 시절이 잊히지 않기를 바라는 마음에서 2005년에 30년 동안 모은 각종 시각유물자료 7만여 점을 헤이리마을로 옮겼다. 입구부터 과거의 냄새를 물씬 풍기는 한국근현대사박물관은 지하 1층, 지상 3층으로 이루어져 있으며 층별로 각기 다른 시대의 한 마을을 통째로 재현한 한국 최초의 근현대사 테마 박물관이다.",
+      "best_span_id": "chroma:M0375",
+      "best_span_text": "한국근현대사박물관은 한국의 1950~70년대 생활사를 체험하며 의미 있는 추억을 남길 수 있는 테마 체험 전시관이다. 일본이 통치권을 앗아간 1910년부터 40년대, 뼈아픈 6·25전쟁이 있던 1950년대, ‘잘 살아보자’는 일념 하나로 온 국민이 똘똘 뭉쳤던 1970~80년대까지, 오래도록 그 시절이 잊히지 않기를 바라는 마음에서 2005년에 30년 동안 모은 각종 시각유물자료 7만여 점을 헤이리마을로 옮겼다. 입구부터 과거의 냄새를 물씬 풍기는 한국근현대사박물관은 지하 1층, 지상 3층으로 이루어져 있으며 층별로 각기 다른 시대의 한 마을을 통째로 재현한 한국 최초의 근현대사 테마 박물관이다.",
+      "fusion_score": 0.015625,
+      "retrieved_by": [
+        "bm25"
+      ],
+      "fusion_rank": 9,
+      "rerank_score": 0.027145471423864365,
+      "rank": 3,
+      "score": 0.027145471423864365,
+      "score_type": "cross_encoder",
+      "distance": null,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "bm25"
+      ],
+      "retriever": "bm25",
+      "span_id": "chroma:M0375",
+      "source_doc_ids": [
+        "DOC-B0375-TOUR_API-2539348"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0375-TOUR_API-2539348",
+          "source_type": "TOUR_API",
+          "source_record_id": "2539348",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=177",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 65,
+          "doc_ids": [
+            "DOC-B0375-TOUR_API-2539348"
+          ]
+        },
+        {
+          "start": 66,
+          "end": 232,
+          "doc_ids": [
+            "DOC-B0375-TOUR_API-2539348"
+          ]
+        },
+        {
+          "start": 233,
+          "end": 337,
+          "doc_ids": [
+            "DOC-B0375-TOUR_API-2539348"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=177",
+      "text": "한국근현대사박물관은 한국의 1950~70년대 생활사를 체험하며 의미 있는 추억을 남길 수 있는 테마 체험 전시관이다. 일본이 통치권을 앗아간 1910년부터 40년대, 뼈아픈 6·25전쟁이 있던 1950년대, ‘잘 살아보자’는 일념 하나로 온 국민이 똘똘 뭉쳤던 1970~80년대까지, 오래도록 그 시절이 잊히지 않기를 바라는 마음에서 2005년에 30년 동안 모은 각종 시각유물자료 7만여 점을 헤이리마을로 옮겼다. 입구부터 과거의 냄새를 물씬 풍기는 한국근현대사박물관은 지하 1층, 지상 3층으로 이루어져 있으며 층별로 각기 다른 시대의 한 마을을 통째로 재현한 한국 최초의 근현대사 테마 박물관이다.",
+      "sido": "경기도",
+      "sigungu": "파주시",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=177"
+      ],
+      "evidence_id": "E3",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=272",
+        "fields": {
+          "name": "한국근현대사박물관",
+          "sido": "경기도",
+          "sigungu": "파주시",
+          "address": "경기도 파주시 탄현면 헤이리마을길 59-85",
+          "ownership_type": "사립",
+          "adult_fee": "8000",
+          "youth_fee": "8000",
+          "child_fee": "6000",
+          "adult_fee_status": "BASE_FEE_PAID",
+          "weekday_open": "10:00",
+          "weekday_close": "18:00",
+          "holiday_open": "10:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "월요일"
+        },
+        "base_data_date": "2026-06-22",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0295",
+      "name": "한국차박물관",
+      "document": "한국차박물관은 세계 녹차의 중심을 꿈꾸는 차의 주산지, 보성에 위치해 있으며 지하 1층, 지상 5층 규모로 수장고와 전시실 등을 갖췄다. 1층 차문화관, 2층 차역사관, 3층 차생활관을 테마로 보고 배우고, 체험할 수 있는 문화 공간과 다례등 각종 체험프로그램을 운영하고 있다. 한국 차 문화를 선도하고 있다는 자부심으로 차 문화의 올바른 정립과 보급은 물론 다양한 프로그램 개발·제공을 통해 한국 차의 미래를 여는 박물관, 다시 찾고 싶은 박물관이 되도록 노력하고 있다.",
+      "metadata": {
+        "holiday_close": "17:00",
+        "sigungu": "보성군",
+        "adult_fee_status": "BASE_FEE_PAID",
+        "longitude": 127.0819011677,
+        "name": "한국차박물관",
+        "homepage_url": "http://www.boseong.go.kr/tea",
+        "youth_fee": 700.0,
+        "image_copyright": "Type1",
+        "source_types": "TOUR_API",
+        "weekday_open": "10:00",
+        "holiday_open": "10:00",
+        "weekday_close": "17:00",
+        "address": "전남광주통합특별시 보성군 보성읍 녹차로 775",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/31/4061231_image2_1.jpg",
+        "latitude": 34.7197741512,
+        "ownership_type": "공립",
+        "requires_manual_review": true,
+        "adult_fee": 1000.0,
+        "child_fee": 500.0,
+        "closure_rule_raw": "월",
+        "sido": "전남광주특별자치도"
+      },
+      "vector_rank": 11,
+      "bm25_rank": 19,
+      "vector_distance": 0.5518535375595093,
+      "vector_score": null,
+      "bm25_score": 10.07412051389664,
+      "vector_document": "한국차박물관은 세계 녹차의 중심을 꿈꾸는 차의 주산지, 보성에 위치해 있으며 지하 1층, 지상 5층 규모로 수장고와 전시실 등을 갖췄다. 1층 차문화관, 2층 차역사관, 3층 차생활관을 테마로 보고 배우고, 체험할 수 있는 문화 공간과 다례등 각종 체험프로그램을 운영하고 있다. 한국 차 문화를 선도하고 있다는 자부심으로 차 문화의 올바른 정립과 보급은 물론 다양한 프로그램 개발·제공을 통해 한국 차의 미래를 여는 박물관, 다시 찾고 싶은 박물관이 되도록 노력하고 있다.",
+      "bm25_document": "한국차박물관은 세계 녹차의 중심을 꿈꾸는 차의 주산지, 보성에 위치해 있으며 지하 1층, 지상 5층 규모로 수장고와 전시실 등을 갖췄다. 1층 차문화관, 2층 차역사관, 3층 차생활관을 테마로 보고 배우고, 체험할 수 있는 문화 공간과 다례등 각종 체험프로그램을 운영하고 있다. 한국 차 문화를 선도하고 있다는 자부심으로 차 문화의 올바른 정립과 보급은 물론 다양한 프로그램 개발·제공을 통해 한국 차의 미래를 여는 박물관, 다시 찾고 싶은 박물관이 되도록 노력하고 있다.",
+      "best_span_id": "chroma:M0295",
+      "best_span_text": "한국차박물관은 세계 녹차의 중심을 꿈꾸는 차의 주산지, 보성에 위치해 있으며 지하 1층, 지상 5층 규모로 수장고와 전시실 등을 갖췄다. 1층 차문화관, 2층 차역사관, 3층 차생활관을 테마로 보고 배우고, 체험할 수 있는 문화 공간과 다례등 각종 체험프로그램을 운영하고 있다. 한국 차 문화를 선도하고 있다는 자부심으로 차 문화의 올바른 정립과 보급은 물론 다양한 프로그램 개발·제공을 통해 한국 차의 미래를 여는 박물관, 다시 찾고 싶은 박물관이 되도록 노력하고 있다.",
+      "fusion_score": 0.026742734890354787,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 3,
+      "rerank_score": 0.022712189704179764,
+      "rank": 4,
+      "score": 0.022712189704179764,
+      "score_type": "cross_encoder",
+      "distance": 0.5518535375595093,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0295",
+      "source_doc_ids": [
+        "DOC-B0295-TOUR_API-2470539"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0295-TOUR_API-2470539",
+          "source_type": "TOUR_API",
+          "source_record_id": "2470539",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=145",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 76,
+          "doc_ids": [
+            "DOC-B0295-TOUR_API-2470539"
+          ]
+        },
+        {
+          "start": 77,
+          "end": 155,
+          "doc_ids": [
+            "DOC-B0295-TOUR_API-2470539"
+          ]
+        },
+        {
+          "start": 156,
+          "end": 264,
+          "doc_ids": [
+            "DOC-B0295-TOUR_API-2470539"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=145",
+      "text": "한국차박물관은 세계 녹차의 중심을 꿈꾸는 차의 주산지, 보성에 위치해 있으며 지하 1층, 지상 5층 규모로 수장고와 전시실 등을 갖췄다. 1층 차문화관, 2층 차역사관, 3층 차생활관을 테마로 보고 배우고, 체험할 수 있는 문화 공간과 다례등 각종 체험프로그램을 운영하고 있다. 한국 차 문화를 선도하고 있다는 자부심으로 차 문화의 올바른 정립과 보급은 물론 다양한 프로그램 개발·제공을 통해 한국 차의 미래를 여는 박물관, 다시 찾고 싶은 박물관이 되도록 노력하고 있다.",
+      "sido": "전남광주특별자치도",
+      "sigungu": "보성군",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=145"
+      ],
+      "evidence_id": "E4",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=209",
+        "fields": {
+          "name": "한국차박물관",
+          "sido": "전남광주통합특별시",
+          "sigungu": "보성군",
+          "address": "전남광주통합특별시 보성군 보성읍 녹차로 775",
+          "ownership_type": "공립",
+          "adult_fee": "1000",
+          "youth_fee": "700",
+          "child_fee": "500",
+          "adult_fee_status": "BASE_FEE_PAID",
+          "weekday_open": "10:00",
+          "weekday_close": "17:00",
+          "holiday_open": "10:00",
+          "holiday_close": "17:00",
+          "closure_rule_raw": "월"
+        },
+        "base_data_date": "2026-07-29",
+        "trust": "derived_dataset_not_human_verified",
+        "normalizations": {
+          "sido": {
+            "source_value": "전남광주통합특별시",
+            "matched_value": "전남광주특별자치도",
+            "rule": "configured_sido_alias"
+          }
+        }
+      }
+    },
+    {
+      "museum_id": "M0997",
+      "name": "외할머니의 부엌",
+      "document": "김포시 덕포진입구에 자리 잡고 있는 생활사박물관 외할머니의 부엌은 우리들의 할머니, 어머니들의 생활사 중에서 식생활과 관련된 유물을 전시한 박물관이다. 1층 전시실에서는 각종 조리도구와 옹기 등 생활용품들을 볼 수 있으며, 2층 체험실에서는 요리 강습과 다양한 문화 행사들이 진행된다. 공식블로그를 통해 진행하고 있는 프로그램을 확인하고 신청할 수 있다. 3층은 온실 느낌의 공간으로 편안하게 차를 나누며 담소할 수 있는 공간이다. 30년간 모은 수집품이 2만여 개라 하니 개인이 일군 일이라고 하기엔 규모가 상당하다고 하겠다. 식사 후 산책을 하기에 좋은 야외 정원 역시 할머니의 손길이 곳곳에 닿은 듯 여러 꽃나무와 식물들로 가득하다. 인근에는 풍금 소리와 함께 옛날을 추억할 수 있는 덕포진교육박물관이 있으며, 신미양요와 병인양요의 격전지인 덕포진도 있어 함께 둘러보기에 좋다. 덕포진 인근에 위치한 생활사 박물관으로, 옛 부엌의 풍경과 정서를 담아낸 공간",
+      "metadata": {
+        "homepage_url": "https://blog.naver.com/kimhs0891",
+        "transport_notes": "덕포진 전시관 가기 전 약 100m거리 위치",
+        "requires_manual_review": true,
+        "source_types": "BASE|TOUR_API",
+        "weekday_close": "18:00",
+        "holiday_open": "10:00",
+        "name": "외할머니의 부엌",
+        "youth_fee": 5000.0,
+        "adult_fee_status": "BASE_FEE_PAID",
+        "child_fee": 2000.0,
+        "latitude": 37.6499707,
+        "ownership_type": "사립",
+        "longitude": 126.538973,
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/64/3527764_image2_1.jpg",
+        "holiday_close": "18:00",
+        "image_copyright": "Type1",
+        "fee_notes": "중학생 이상 5000원+초등학생 2000원",
+        "adult_fee": 5000.0,
+        "sigungu": "김포시",
+        "sido": "경기도",
+        "closure_rule_raw": "매주 월요일",
+        "weekday_open": "10:00",
+        "address": "경기도 김포시 대곶면 덕포진로103번길 95-7"
+      },
+      "vector_rank": null,
+      "bm25_rank": 2,
+      "vector_distance": null,
+      "vector_score": null,
+      "bm25_score": 14.439246355030019,
+      "vector_document": "",
+      "bm25_document": "김포시 덕포진입구에 자리 잡고 있는 생활사박물관 외할머니의 부엌은 우리들의 할머니, 어머니들의 생활사 중에서 식생활과 관련된 유물을 전시한 박물관이다. 1층 전시실에서는 각종 조리도구와 옹기 등 생활용품들을 볼 수 있으며, 2층 체험실에서는 요리 강습과 다양한 문화 행사들이 진행된다. 공식블로그를 통해 진행하고 있는 프로그램을 확인하고 신청할 수 있다. 3층은 온실 느낌의 공간으로 편안하게 차를 나누며 담소할 수 있는 공간이다. 30년간 모은 수집품이 2만여 개라 하니 개인이 일군 일이라고 하기엔 규모가 상당하다고 하겠다. 식사 후 산책을 하기에 좋은 야외 정원 역시 할머니의 손길이 곳곳에 닿은 듯 여러 꽃나무와 식물들로 가득하다. 인근에는 풍금 소리와 함께 옛날을 추억할 수 있는 덕포진교육박물관이 있으며, 신미양요와 병인양요의 격전지인 덕포진도 있어 함께 둘러보기에 좋다. 덕포진 인근에 위치한 생활사 박물관으로, 옛 부엌의 풍경과 정서를 담아낸 공간",
+      "best_span_id": "chroma:M0997",
+      "best_span_text": "김포시 덕포진입구에 자리 잡고 있는 생활사박물관 외할머니의 부엌은 우리들의 할머니, 어머니들의 생활사 중에서 식생활과 관련된 유물을 전시한 박물관이다. 1층 전시실에서는 각종 조리도구와 옹기 등 생활용품들을 볼 수 있으며, 2층 체험실에서는 요리 강습과 다양한 문화 행사들이 진행된다. 공식블로그를 통해 진행하고 있는 프로그램을 확인하고 신청할 수 있다. 3층은 온실 느낌의 공간으로 편안하게 차를 나누며 담소할 수 있는 공간이다. 30년간 모은 수집품이 2만여 개라 하니 개인이 일군 일이라고 하기엔 규모가 상당하다고 하겠다. 식사 후 산책을 하기에 좋은 야외 정원 역시 할머니의 손길이 곳곳에 닿은 듯 여러 꽃나무와 식물들로 가득하다. 인근에는 풍금 소리와 함께 옛날을 추억할 수 있는 덕포진교육박물관이 있으며, 신미양요와 병인양요의 격전지인 덕포진도 있어 함께 둘러보기에 좋다. 덕포진 인근에 위치한 생활사 박물관으로, 옛 부엌의 풍경과 정서를 담아낸 공간",
+      "fusion_score": 0.016129032258064516,
+      "retrieved_by": [
+        "bm25"
+      ],
+      "fusion_rank": 5,
+      "rerank_score": 0.00933297723531723,
+      "rank": 5,
+      "score": 0.00933297723531723,
+      "score_type": "cross_encoder",
+      "distance": null,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "bm25"
+      ],
+      "retriever": "bm25",
+      "span_id": "chroma:M0997",
+      "source_doc_ids": [
+        "DOC-B0997-TOUR_API-2654545",
+        "DOC-B0997-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0997-TOUR_API-2654545",
+          "source_type": "TOUR_API",
+          "source_record_id": "2654545",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=464",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        },
+        {
+          "doc_id": "DOC-B0997-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0997",
+          "source_locator": "data/raw/museum_base_1070.csv#row=998",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 84,
+          "doc_ids": [
+            "DOC-B0997-TOUR_API-2654545"
+          ]
+        },
+        {
+          "start": 85,
+          "end": 159,
+          "doc_ids": [
+            "DOC-B0997-TOUR_API-2654545"
+          ]
+        },
+        {
+          "start": 160,
+          "end": 198,
+          "doc_ids": [
+            "DOC-B0997-TOUR_API-2654545"
+          ]
+        },
+        {
+          "start": 199,
+          "end": 241,
+          "doc_ids": [
+            "DOC-B0997-TOUR_API-2654545"
+          ]
+        },
+        {
+          "start": 242,
+          "end": 295,
+          "doc_ids": [
+            "DOC-B0997-TOUR_API-2654545"
+          ]
+        },
+        {
+          "start": 296,
+          "end": 357,
+          "doc_ids": [
+            "DOC-B0997-TOUR_API-2654545"
+          ]
+        },
+        {
+          "start": 358,
+          "end": 438,
+          "doc_ids": [
+            "DOC-B0997-TOUR_API-2654545"
+          ]
+        },
+        {
+          "start": 439,
+          "end": 482,
+          "doc_ids": [
+            "DOC-B0997-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=464",
+      "text": "김포시 덕포진입구에 자리 잡고 있는 생활사박물관 외할머니의 부엌은 우리들의 할머니, 어머니들의 생활사 중에서 식생활과 관련된 유물을 전시한 박물관이다. 1층 전시실에서는 각종 조리도구와 옹기 등 생활용품들을 볼 수 있으며, 2층 체험실에서는 요리 강습과 다양한 문화 행사들이 진행된다. 공식블로그를 통해 진행하고 있는 프로그램을 확인하고 신청할 수 있다. 3층은 온실 느낌의 공간으로 편안하게 차를 나누며 담소할 수 있는 공간이다. 30년간 모은 수집품이 2만여 개라 하니 개인이 일군 일이라고 하기엔 규모가 상당하다고 하겠다. 식사 후 산책을 하기에 좋은 야외 정원 역시 할머니의 손길이 곳곳에 닿은 듯 여러 꽃나무와 식물들로 가득하다. 인근에는 풍금 소리와 함께 옛날을 추억할 수 있는 덕포진교육박물관이 있으며, 신미양요와 병인양요의 격전지인 덕포진도 있어 함께 둘러보기에 좋다. 덕포진 인근에 위치한 생활사 박물관으로, 옛 부엌의 풍경과 정서를 담아낸 공간",
+      "sido": "경기도",
+      "sigungu": "김포시",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=464"
+      ],
+      "evidence_id": "E5",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=680",
+        "fields": {
+          "name": "외할머니의 부엌",
+          "sido": "경기도",
+          "sigungu": "김포시",
+          "address": "경기도 김포시 대곶면 덕포진로103번길 95-7",
+          "ownership_type": "사립",
+          "adult_fee": "5000",
+          "youth_fee": "5000",
+          "child_fee": "2000",
+          "adult_fee_status": "BASE_FEE_PAID",
+          "weekday_open": "10:00",
+          "weekday_close": "18:00",
+          "holiday_open": "10:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "매주 월요일"
+        },
+        "base_data_date": "2025-11-17",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    }
+  ],
+  "answer": "신평생활사박물관은 지상 2층 규모입니다. [E1]",
+  "retrieval_status": "ok",
+  "answer_status": "answered",
+  "route": "hybrid",
+  "retry_count": 0,
+  "supervisor_verified": true,
+  "rerank_applied": true,
+  "retriever_errors": [],
+  "warnings": [],
+  "duration_ms": 119644.93,
+  "error_type": "",
+  "hit_at_1": 1,
+  "hit_at_3": 1,
+  "hit_at_5": 1,
+  "recall_at_5": 1.0,
+  "mrr_at_10": 1.0
+}

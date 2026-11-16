@@ -1,0 +1,734 @@
+{
+  "evidence_context_version": "grounded-evidence-v2",
+  "evaluation_contexts": [
+    "{\"evidence_context_version\": \"grounded-evidence-v2\", \"evidence_id\": \"E1\", \"metadata_provenance\": {\"base_data_date\": \"2025-12-10\", \"fields\": {\"address\": \"대구광역시 동구 도장길 29\", \"adult_fee\": \"0\", \"adult_fee_status\": \"BASE_FEE_ZERO_CHECK_EXCEPTIONS\", \"child_fee\": \"0\", \"closure_rule_raw\": \"매주 월요일+1월 1일+설날추석 당일\", \"holiday_close\": \"18:00\", \"holiday_open\": \"09:00\", \"name\": \"대구방짜유기박물관\", \"ownership_type\": \"공립\", \"sido\": \"대구광역시\", \"sigungu\": \"동구\", \"weekday_close\": \"18:00\", \"weekday_open\": \"09:00\", \"youth_fee\": \"0\"}, \"source_kind\": \"derived_csv_row\", \"source_locator\": \"data/processed/museum_final_738.csv#record=490\", \"trust\": \"derived_dataset_not_human_verified\"}, \"museum_id\": \"M0706\", \"name\": \"대구방짜유기박물관\", \"retrieval_branch\": \"document\", \"source_doc_ids\": [\"DOC-B0706-TOUR_API-560097\", \"DOC-B0706-BASE\"], \"source_documents\": [{\"doc_id\": \"DOC-B0706-TOUR_API-560097\", \"match_trust\": \"AUTO_MATCH_NOT_HUMAN_VERIFIED\", \"source_locator\": \"data/raw/museum_tourapi_with_overview.csv#row=344\", \"source_record_id\": \"560097\", \"source_type\": \"TOUR_API\"}, {\"doc_id\": \"DOC-B0706-BASE\", \"match_trust\": \"BASE_SOURCE\", \"source_locator\": \"data/raw/museum_base_1070.csv#row=707\", \"source_record_id\": \"B0706\", \"source_type\": \"BASE\"}], \"source_locator\": \"data/raw/museum_tourapi_with_overview.csv#row=344\", \"source_locators\": [\"data/raw/museum_tourapi_with_overview.csv#row=344\"], \"source_scope\": \"text\", \"source_spans\": [{\"doc_ids\": [\"DOC-B0706-TOUR_API-560097\"], \"end\": 38, \"start\": 0}, {\"doc_ids\": [\"DOC-B0706-TOUR_API-560097\"], \"end\": 135, \"start\": 39}, {\"doc_ids\": [\"DOC-B0706-TOUR_API-560097\"], \"end\": 226, \"start\": 136}, {\"doc_ids\": [\"DOC-B0706-TOUR_API-560097\"], \"end\": 336, \"start\": 227}, {\"doc_ids\": [\"DOC-B0706-BASE\"], \"end\": 358, \"start\": 337}], \"source_urls\": [], \"text\": \"대구방짜유기박물관은 전국 유일의 방짜유기를 테마로 한 전문박물관이다. 자랑스러운 고유문화유산인 방짜유기와 그 제작기술을 전승, 보존하며 후손들에게 우리 것의 아름다움과 우수성을 알리고 지역문화 발전을 이루고자 2007년 5월 25일 개관했다. 국가무형유산 제77호 유기장 이봉주 선생이 제작하고 수집한 방짜유기작품 275종 1489점을 대구광역시가 기증받아 관람객을 다양한 방짜유기 세계로 안내하고 있다. 수려한 풍광으로 유명한 팔공산국립공원에 자리 잡은 박물관은 지하 1층, 지상 2층의 규모로 유기문화실, 기증실, 재현실, 기획전시실 등의 전시실과 야외공연장, 체험의 장 등의 시설을 갖추고 있다. 전국 유일의 방짜유기 테마 전문 박물관\"}",
+    "{\"evidence_context_version\": \"grounded-evidence-v2\", \"evidence_id\": \"E2\", \"metadata_provenance\": {\"base_data_date\": \"2025-12-10\", \"fields\": {\"address\": \"대구광역시 중구 달성공원로 35\", \"adult_fee\": \"0\", \"adult_fee_status\": \"BASE_FEE_ZERO_CHECK_EXCEPTIONS\", \"child_fee\": \"0\", \"closure_rule_raw\": \"매주 월요일+1월 1일+설날추석 당일\", \"holiday_close\": \"18:00\", \"holiday_open\": \"09:00\", \"name\": \"대구향토역사관\", \"ownership_type\": \"공립\", \"sido\": \"대구광역시\", \"sigungu\": \"중구\", \"weekday_close\": \"18:00\", \"weekday_open\": \"09:00\", \"youth_fee\": \"0\"}, \"source_kind\": \"derived_csv_row\", \"source_locator\": \"data/processed/museum_final_738.csv#record=491\", \"trust\": \"derived_dataset_not_human_verified\"}, \"museum_id\": \"M0707\", \"name\": \"대구향토역사관\", \"retrieval_branch\": \"document\", \"source_doc_ids\": [\"DOC-B0707-BASE\"], \"source_documents\": [{\"doc_id\": \"DOC-B0707-BASE\", \"match_trust\": \"BASE_SOURCE\", \"source_locator\": \"data/raw/museum_base_1070.csv#row=708\", \"source_record_id\": \"B0707\", \"source_type\": \"BASE\"}], \"source_locator\": \"data/raw/museum_base_1070.csv#row=708\", \"source_locators\": [\"data/raw/museum_base_1070.csv#row=708\"], \"source_scope\": \"text\", \"source_spans\": [{\"doc_ids\": [\"DOC-B0707-BASE\"], \"end\": 22, \"start\": 0}], \"source_urls\": [], \"text\": \"대구의 역사와 문화를 소개하는 공립박물관\"}",
+    "{\"evidence_context_version\": \"grounded-evidence-v2\", \"evidence_id\": \"E3\", \"metadata_provenance\": {\"base_data_date\": \"2025-12-10\", \"fields\": {\"address\": \"대구광역시 수성구 미술관로 40\", \"adult_fee\": \"1000\", \"adult_fee_status\": \"BASE_FEE_PAID\", \"amenities_raw\": \"수유실+뷰라운지+미술정보센터+아카이브실+핸즈커피+카페\", \"child_fee\": \"700\", \"closure_rule_raw\": \"매주 월요일(단, 월요일이 공휴일인 경우에는 월요일 당일 개관 후 그 다음 첫번째 비공휴일에 휴관)+1월 1일+설날추석 당일\", \"holiday_close\": \"19:00\", \"holiday_open\": \"10:00\", \"name\": \"대구미술관\", \"ownership_type\": \"공립\", \"sido\": \"대구광역시\", \"sigungu\": \"수성구\", \"weekday_close\": \"19:00\", \"weekday_open\": \"10:00\", \"youth_fee\": \"700\"}, \"source_kind\": \"derived_csv_row\", \"source_locator\": \"data/processed/museum_final_738.csv#record=473\", \"trust\": \"derived_dataset_not_human_verified\"}, \"museum_id\": \"M0685\", \"name\": \"대구미술관\", \"retrieval_branch\": \"document\", \"source_doc_ids\": [\"DOC-B0685-TOUR_API-1856967\", \"DOC-B0685-BASE\"], \"source_documents\": [{\"doc_id\": \"DOC-B0685-TOUR_API-1856967\", \"match_trust\": \"AUTO_MATCH_NOT_HUMAN_VERIFIED\", \"source_locator\": \"data/raw/museum_tourapi_with_overview.csv#row=338\", \"source_record_id\": \"1856967\", \"source_type\": \"TOUR_API\"}, {\"doc_id\": \"DOC-B0685-BASE\", \"match_trust\": \"BASE_SOURCE\", \"source_locator\": \"data/raw/museum_base_1070.csv#row=686\", \"source_record_id\": \"B0685\", \"source_type\": \"BASE\"}], \"source_locator\": \"data/raw/museum_tourapi_with_overview.csv#row=338\", \"source_locators\": [\"data/raw/museum_tourapi_with_overview.csv#row=338\"], \"source_scope\": \"text\", \"source_spans\": [{\"doc_ids\": [\"DOC-B0685-TOUR_API-1856967\"], \"end\": 27, \"start\": 0}, {\"doc_ids\": [\"DOC-B0685-TOUR_API-1856967\"], \"end\": 154, \"start\": 28}, {\"doc_ids\": [\"DOC-B0685-TOUR_API-1856967\"], \"end\": 268, \"start\": 155}, {\"doc_ids\": [\"DOC-B0685-TOUR_API-1856967\"], \"end\": 331, \"start\": 269}, {\"doc_ids\": [\"DOC-B0685-BASE\"], \"end\": 423, \"start\": 332}], \"source_urls\": [], \"text\": \"대구미술관은 대구광역시가 지원하는 시립미술관이다. 대구 근현대미술의 역사적 가치를 연구하고 이를 재조명하여 대구미술의 전위성을 알릴 수 있는 전시뿐만 아니라 국내·외 교류를 통해 동시대의 사회적 예술적 이슈와 세계 미술의 선도적 흐름을 소개하는 전시들을 기획해 선보이고 있다. 또한, 우수한 명사 초청 강연은 물론 어린이, 청소년 등 다양한 연령대의 시민들이 참여할 수 있는 아카데미 프로그램을 비롯해 미술관 공간과 어우러지는 다채로운 공연들과 각종 이벤트 행사도 진행하고 있다. 미술관 3층에는 예술 관련 서적들을 접할 수 있는 미술정보 센터와 휴식을 취할 수 있는 라운지가 마련되어 있다. 2011년 많은 관심 속에 개관한 대구미술관은 지역 미술의 역사와 미학을 연구하고,이를 동시대 현대미술의 흐름과 연결하는 지역대표 미술플랫폼으로 역할하고 있습니다.\"}",
+    "{\"evidence_context_version\": \"grounded-evidence-v2\", \"evidence_id\": \"E4\", \"metadata_provenance\": {\"base_data_date\": \"2025-12-10\", \"fields\": {\"address\": \"대구광역시 달서구 공원순환로 201\", \"adult_fee\": \"0\", \"adult_fee_status\": \"BASE_FEE_ZERO_CHECK_EXCEPTIONS\", \"amenities_raw\": \"커피명가 카페+수유실+자전거보관대\", \"child_fee\": \"0\", \"closure_rule_raw\": \"매주 월요일(단, 월요일이 공휴일인 경우에는 월요일 당일 개관 후 그 다음 첫번째 비공휴일에 휴관)+1월 1일+설날추석 당일\", \"holiday_close\": \"19:00\", \"holiday_open\": \"10:00\", \"name\": \"대구문화예술회관 미술관\", \"ownership_type\": \"공립\", \"sido\": \"대구광역시\", \"sigungu\": \"달서구\", \"weekday_close\": \"19:00\", \"weekday_open\": \"10:00\", \"youth_fee\": \"0\"}, \"source_kind\": \"derived_csv_row\", \"source_locator\": \"data/processed/museum_final_738.csv#record=474\", \"trust\": \"derived_dataset_not_human_verified\"}, \"museum_id\": \"M0686\", \"name\": \"대구문화예술회관 미술관\", \"retrieval_branch\": \"document\", \"source_doc_ids\": [\"DOC-B0686-BASE\"], \"source_documents\": [{\"doc_id\": \"DOC-B0686-BASE\", \"match_trust\": \"BASE_SOURCE\", \"source_locator\": \"data/raw/museum_base_1070.csv#row=687\", \"source_record_id\": \"B0686\", \"source_type\": \"BASE\"}], \"source_locator\": \"data/raw/museum_base_1070.csv#row=687\", \"source_locators\": [\"data/raw/museum_base_1070.csv#row=687\"], \"source_scope\": \"text\", \"source_spans\": [{\"doc_ids\": [\"DOC-B0686-BASE\"], \"end\": 58, \"start\": 0}], \"source_urls\": [], \"text\": \"1991년 10월 8일 개관한 대구문화예술회관 미술관은 대구미술의 허브로서 기능을 하고 있는 복합문화공간\"}",
+    "{\"evidence_context_version\": \"grounded-evidence-v2\", \"evidence_id\": \"E5\", \"evidence_role\": \"anchor\", \"museum_id\": \"M0708\", \"name\": \"대구근대역사관\", \"operator_raw_name\": \"재단법인 대구문화예술진흥원\", \"org_type\": \"공공기관\", \"organization\": \"대구문화예술진흥원\", \"relation\": \"OPERATED_BY\", \"retrieval_branch\": \"graph\", \"sido\": \"대구광역시\", \"sigungu\": \"중구\", \"source_doc_ids\": [\"DOC-B0708-BASE\", \"DOC-B0708-TOUR_API-1251806\"], \"source_locator\": \"data/raw/museum_base_1070.csv#row=709\", \"source_locators\": [\"data/raw/museum_base_1070.csv#row=709\", \"data/raw/museum_tourapi_with_overview.csv#row=345\"], \"source_scope\": \"graph_properties\", \"source_urls\": [], \"text\": \"대구근대역사관의 Neo4j operator_name(운영기관) 기록: 대구문화예술진흥원 (CSV 원문: 재단법인 대구문화예술진흥원)\\n[Neo4j 구조화 근거] {\\\"museum_id\\\": \\\"M0708\\\", \\\"name\\\": \\\"대구근대역사관\\\", \\\"relation\\\": \\\"OPERATED_BY\\\", \\\"organization\\\": \\\"대구문화예술진흥원\\\", \\\"org_key\\\": \\\"대구문화예술진흥원\\\", \\\"org_type\\\": \\\"공공기관\\\", \\\"raw_name\\\": \\\"재단법인 대구문화예술진흥원\\\", \\\"verification_status\\\": \\\"SOURCE_RECORDED\\\"}\", \"verification_status\": \"SOURCE_RECORDED\"}",
+    "{\"anchor_operator_raw_name\": \"재단법인 대구문화예술진흥원\", \"evidence_context_version\": \"grounded-evidence-v2\", \"evidence_id\": \"E6\", \"facility_type\": \"미술관\", \"graph_path\": \"anchor -[:OPERATED_BY]-> Organization <-[:OPERATED_BY]- candidate\", \"museum_id\": \"M0686\", \"name\": \"대구문화예술회관 미술관\", \"operator_raw_name\": \"대구문화예술진흥원\", \"org_type\": \"공공기관\", \"organization\": \"대구문화예술진흥원\", \"relation\": \"OPERATED_BY\", \"retrieval_branch\": \"graph\", \"sido\": \"대구광역시\", \"sigungu\": \"달서구\", \"source_doc_ids\": [\"DOC-B0686-BASE\"], \"source_locator\": \"data/raw/museum_base_1070.csv#row=687\", \"source_locators\": [\"data/raw/museum_base_1070.csv#row=687\"], \"source_scope\": \"graph_properties\", \"source_urls\": [], \"text\": \"{anchor_raw_name: 재단법인 대구문화예술진흥원, candidate_raw_name: 대구문화예술진흥원, org_key: 대구문화예술진흥원, organization: 대구문화예술진흥원, relation: OPERATED_BY, verification_status: SOURCE_RECORDED}\", \"verification_status\": \"SOURCE_RECORDED\"}",
+    "{\"anchor_operator_raw_name\": \"재단법인 대구문화예술진흥원\", \"evidence_context_version\": \"grounded-evidence-v2\", \"evidence_id\": \"E7\", \"facility_type\": \"미술관\", \"graph_path\": \"anchor -[:OPERATED_BY]-> Organization <-[:OPERATED_BY]- candidate\", \"museum_id\": \"M0685\", \"name\": \"대구미술관\", \"operator_raw_name\": \"대구문화예술진흥원\", \"org_type\": \"공공기관\", \"organization\": \"대구문화예술진흥원\", \"relation\": \"OPERATED_BY\", \"retrieval_branch\": \"graph\", \"sido\": \"대구광역시\", \"sigungu\": \"수성구\", \"source_doc_ids\": [\"DOC-B0685-BASE\", \"DOC-B0685-TOUR_API-1856967\"], \"source_locator\": \"data/raw/museum_base_1070.csv#row=686\", \"source_locators\": [\"data/raw/museum_base_1070.csv#row=686\", \"data/raw/museum_tourapi_with_overview.csv#row=338\"], \"source_scope\": \"graph_properties\", \"source_urls\": [], \"text\": \"{anchor_raw_name: 재단법인 대구문화예술진흥원, candidate_raw_name: 대구문화예술진흥원, org_key: 대구문화예술진흥원, organization: 대구문화예술진흥원, relation: OPERATED_BY, verification_status: SOURCE_RECORDED}\", \"verification_status\": \"SOURCE_RECORDED\"}",
+    "{\"anchor_operator_raw_name\": \"재단법인 대구문화예술진흥원\", \"evidence_context_version\": \"grounded-evidence-v2\", \"evidence_id\": \"E8\", \"facility_type\": \"박물관\", \"graph_path\": \"anchor -[:OPERATED_BY]-> Organization <-[:OPERATED_BY]- candidate\", \"museum_id\": \"M0706\", \"name\": \"대구방짜유기박물관\", \"operator_raw_name\": \"재단법인 대구문화예술진흥원\", \"org_type\": \"공공기관\", \"organization\": \"대구문화예술진흥원\", \"relation\": \"OPERATED_BY\", \"retrieval_branch\": \"graph\", \"sido\": \"대구광역시\", \"sigungu\": \"동구\", \"source_doc_ids\": [\"DOC-B0706-BASE\", \"DOC-B0706-TOUR_API-560097\"], \"source_locator\": \"data/raw/museum_base_1070.csv#row=707\", \"source_locators\": [\"data/raw/museum_base_1070.csv#row=707\", \"data/raw/museum_tourapi_with_overview.csv#row=344\"], \"source_scope\": \"graph_properties\", \"source_urls\": [], \"text\": \"{anchor_raw_name: 재단법인 대구문화예술진흥원, candidate_raw_name: 재단법인 대구문화예술진흥원, org_key: 대구문화예술진흥원, organization: 대구문화예술진흥원, relation: OPERATED_BY, verification_status: SOURCE_RECORDED}\", \"verification_status\": \"SOURCE_RECORDED\"}",
+    "{\"anchor_operator_raw_name\": \"재단법인 대구문화예술진흥원\", \"evidence_context_version\": \"grounded-evidence-v2\", \"evidence_id\": \"E9\", \"facility_type\": \"역사관\", \"graph_path\": \"anchor -[:OPERATED_BY]-> Organization <-[:OPERATED_BY]- candidate\", \"museum_id\": \"M0707\", \"name\": \"대구향토역사관\", \"operator_raw_name\": \"재단법인 대구문화예술진흥원\", \"org_type\": \"공공기관\", \"organization\": \"대구문화예술진흥원\", \"relation\": \"OPERATED_BY\", \"retrieval_branch\": \"graph\", \"sido\": \"대구광역시\", \"sigungu\": \"중구\", \"source_doc_ids\": [\"DOC-B0707-BASE\"], \"source_locator\": \"data/raw/museum_base_1070.csv#row=708\", \"source_locators\": [\"data/raw/museum_base_1070.csv#row=708\"], \"source_scope\": \"graph_properties\", \"source_urls\": [], \"text\": \"{anchor_raw_name: 재단법인 대구문화예술진흥원, candidate_raw_name: 재단법인 대구문화예술진흥원, org_key: 대구문화예술진흥원, organization: 대구문화예술진흥원, relation: OPERATED_BY, verification_status: SOURCE_RECORDED}\", \"verification_status\": \"SOURCE_RECORDED\"}"
+  ],
+  "mode": "supervisor_full",
+  "question_id": "V2-CB11",
+  "evidence": [
+    {
+      "museum_id": "M0706",
+      "name": "대구방짜유기박물관",
+      "document": "대구방짜유기박물관은 전국 유일의 방짜유기를 테마로 한 전문박물관이다. 자랑스러운 고유문화유산인 방짜유기와 그 제작기술을 전승, 보존하며 후손들에게 우리 것의 아름다움과 우수성을 알리고 지역문화 발전을 이루고자 2007년 5월 25일 개관했다. 국가무형유산 제77호 유기장 이봉주 선생이 제작하고 수집한 방짜유기작품 275종 1489점을 대구광역시가 기증받아 관람객을 다양한 방짜유기 세계로 안내하고 있다. 수려한 풍광으로 유명한 팔공산국립공원에 자리 잡은 박물관은 지하 1층, 지상 2층의 규모로 유기문화실, 기증실, 재현실, 기획전시실 등의 전시실과 야외공연장, 체험의 장 등의 시설을 갖추고 있다. 전국 유일의 방짜유기 테마 전문 박물관",
+      "metadata": {
+        "image_copyright": "Type1",
+        "sido": "대구광역시",
+        "weekday_open": "09:00",
+        "holiday_open": "09:00",
+        "longitude": 128.7013639,
+        "sigungu": "동구",
+        "weekday_close": "18:00",
+        "homepage_url": "https://bangjja.or.kr",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/83/3586383_image2_1.JPG",
+        "transport_notes": "급행1+팔공1+팔공3",
+        "latitude": 35.96545542,
+        "requires_manual_review": true,
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "youth_fee": 0.0,
+        "holiday_close": "18:00",
+        "closure_rule_raw": "매주 월요일+1월 1일+설날추석 당일",
+        "name": "대구방짜유기박물관",
+        "child_fee": 0.0,
+        "source_types": "BASE|TOUR_API",
+        "address": "대구광역시 동구 도장길 29",
+        "ownership_type": "공립",
+        "adult_fee": 0.0
+      },
+      "vector_rank": 1,
+      "bm25_rank": 1,
+      "vector_distance": 0.46640604734420776,
+      "vector_score": null,
+      "bm25_score": 17.893153608568106,
+      "vector_document": "대구방짜유기박물관은 전국 유일의 방짜유기를 테마로 한 전문박물관이다. 자랑스러운 고유문화유산인 방짜유기와 그 제작기술을 전승, 보존하며 후손들에게 우리 것의 아름다움과 우수성을 알리고 지역문화 발전을 이루고자 2007년 5월 25일 개관했다. 국가무형유산 제77호 유기장 이봉주 선생이 제작하고 수집한 방짜유기작품 275종 1489점을 대구광역시가 기증받아 관람객을 다양한 방짜유기 세계로 안내하고 있다. 수려한 풍광으로 유명한 팔공산국립공원에 자리 잡은 박물관은 지하 1층, 지상 2층의 규모로 유기문화실, 기증실, 재현실, 기획전시실 등의 전시실과 야외공연장, 체험의 장 등의 시설을 갖추고 있다. 전국 유일의 방짜유기 테마 전문 박물관",
+      "bm25_document": "대구방짜유기박물관은 전국 유일의 방짜유기를 테마로 한 전문박물관이다. 자랑스러운 고유문화유산인 방짜유기와 그 제작기술을 전승, 보존하며 후손들에게 우리 것의 아름다움과 우수성을 알리고 지역문화 발전을 이루고자 2007년 5월 25일 개관했다. 국가무형유산 제77호 유기장 이봉주 선생이 제작하고 수집한 방짜유기작품 275종 1489점을 대구광역시가 기증받아 관람객을 다양한 방짜유기 세계로 안내하고 있다. 수려한 풍광으로 유명한 팔공산국립공원에 자리 잡은 박물관은 지하 1층, 지상 2층의 규모로 유기문화실, 기증실, 재현실, 기획전시실 등의 전시실과 야외공연장, 체험의 장 등의 시설을 갖추고 있다. 전국 유일의 방짜유기 테마 전문 박물관",
+      "best_span_id": "chroma:M0706",
+      "best_span_text": "대구방짜유기박물관은 전국 유일의 방짜유기를 테마로 한 전문박물관이다. 자랑스러운 고유문화유산인 방짜유기와 그 제작기술을 전승, 보존하며 후손들에게 우리 것의 아름다움과 우수성을 알리고 지역문화 발전을 이루고자 2007년 5월 25일 개관했다. 국가무형유산 제77호 유기장 이봉주 선생이 제작하고 수집한 방짜유기작품 275종 1489점을 대구광역시가 기증받아 관람객을 다양한 방짜유기 세계로 안내하고 있다. 수려한 풍광으로 유명한 팔공산국립공원에 자리 잡은 박물관은 지하 1층, 지상 2층의 규모로 유기문화실, 기증실, 재현실, 기획전시실 등의 전시실과 야외공연장, 체험의 장 등의 시설을 갖추고 있다. 전국 유일의 방짜유기 테마 전문 박물관",
+      "fusion_score": 0.03278688524590164,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 1,
+      "rerank_score": 0.9788004755973816,
+      "rank": 1,
+      "score": 0.9788004755973816,
+      "score_type": "cross_encoder",
+      "distance": 0.46640604734420776,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0706",
+      "source_doc_ids": [
+        "DOC-B0706-TOUR_API-560097",
+        "DOC-B0706-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0706-TOUR_API-560097",
+          "source_type": "TOUR_API",
+          "source_record_id": "560097",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=344",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        },
+        {
+          "doc_id": "DOC-B0706-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0706",
+          "source_locator": "data/raw/museum_base_1070.csv#row=707",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 38,
+          "doc_ids": [
+            "DOC-B0706-TOUR_API-560097"
+          ]
+        },
+        {
+          "start": 39,
+          "end": 135,
+          "doc_ids": [
+            "DOC-B0706-TOUR_API-560097"
+          ]
+        },
+        {
+          "start": 136,
+          "end": 226,
+          "doc_ids": [
+            "DOC-B0706-TOUR_API-560097"
+          ]
+        },
+        {
+          "start": 227,
+          "end": 336,
+          "doc_ids": [
+            "DOC-B0706-TOUR_API-560097"
+          ]
+        },
+        {
+          "start": 337,
+          "end": 358,
+          "doc_ids": [
+            "DOC-B0706-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=344",
+      "text": "대구방짜유기박물관은 전국 유일의 방짜유기를 테마로 한 전문박물관이다. 자랑스러운 고유문화유산인 방짜유기와 그 제작기술을 전승, 보존하며 후손들에게 우리 것의 아름다움과 우수성을 알리고 지역문화 발전을 이루고자 2007년 5월 25일 개관했다. 국가무형유산 제77호 유기장 이봉주 선생이 제작하고 수집한 방짜유기작품 275종 1489점을 대구광역시가 기증받아 관람객을 다양한 방짜유기 세계로 안내하고 있다. 수려한 풍광으로 유명한 팔공산국립공원에 자리 잡은 박물관은 지하 1층, 지상 2층의 규모로 유기문화실, 기증실, 재현실, 기획전시실 등의 전시실과 야외공연장, 체험의 장 등의 시설을 갖추고 있다. 전국 유일의 방짜유기 테마 전문 박물관",
+      "sido": "대구광역시",
+      "sigungu": "동구",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=344"
+      ],
+      "evidence_id": "E1",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=490",
+        "fields": {
+          "name": "대구방짜유기박물관",
+          "sido": "대구광역시",
+          "sigungu": "동구",
+          "address": "대구광역시 동구 도장길 29",
+          "ownership_type": "공립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "09:00",
+          "weekday_close": "18:00",
+          "holiday_open": "09:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "매주 월요일+1월 1일+설날추석 당일"
+        },
+        "base_data_date": "2025-12-10",
+        "trust": "derived_dataset_not_human_verified"
+      },
+      "retrieval_branch": "document"
+    },
+    {
+      "museum_id": "M0707",
+      "name": "대구향토역사관",
+      "document": "대구의 역사와 문화를 소개하는 공립박물관",
+      "metadata": {
+        "holiday_close": "18:00",
+        "sigungu": "중구",
+        "address": "대구광역시 중구 달성공원로 35",
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "adult_fee": 0.0,
+        "name": "대구향토역사관",
+        "weekday_open": "09:00",
+        "latitude": 35.87339859,
+        "homepage_url": "https://hyangto.or.kr",
+        "source_types": "BASE",
+        "requires_manual_review": true,
+        "sido": "대구광역시",
+        "transport_notes": "지하철 3호선 달성공원역+300+808+836+939+동구2",
+        "youth_fee": 0.0,
+        "weekday_close": "18:00",
+        "closure_rule_raw": "매주 월요일+1월 1일+설날추석 당일",
+        "holiday_open": "09:00",
+        "longitude": 128.5759183,
+        "ownership_type": "공립",
+        "child_fee": 0.0
+      },
+      "vector_rank": 2,
+      "bm25_rank": null,
+      "vector_distance": 0.5143641233444214,
+      "vector_score": null,
+      "bm25_score": null,
+      "vector_document": "대구의 역사와 문화를 소개하는 공립박물관",
+      "bm25_document": "",
+      "best_span_id": null,
+      "best_span_text": null,
+      "fusion_score": 0.016129032258064516,
+      "retrieved_by": [
+        "vector"
+      ],
+      "fusion_rank": 4,
+      "rerank_score": 0.0011108588660135865,
+      "rank": 2,
+      "score": 0.0011108588660135865,
+      "score_type": "cross_encoder",
+      "distance": 0.5143641233444214,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector"
+      ],
+      "retriever": "vector",
+      "source_doc_ids": [
+        "DOC-B0707-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0707-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0707",
+          "source_locator": "data/raw/museum_base_1070.csv#row=708",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 22,
+          "doc_ids": [
+            "DOC-B0707-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_base_1070.csv#row=708",
+      "text": "대구의 역사와 문화를 소개하는 공립박물관",
+      "sido": "대구광역시",
+      "sigungu": "중구",
+      "span_id": "",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_base_1070.csv#row=708"
+      ],
+      "evidence_id": "E2",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=491",
+        "fields": {
+          "name": "대구향토역사관",
+          "sido": "대구광역시",
+          "sigungu": "중구",
+          "address": "대구광역시 중구 달성공원로 35",
+          "ownership_type": "공립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "09:00",
+          "weekday_close": "18:00",
+          "holiday_open": "09:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "매주 월요일+1월 1일+설날추석 당일"
+        },
+        "base_data_date": "2025-12-10",
+        "trust": "derived_dataset_not_human_verified"
+      },
+      "retrieval_branch": "document"
+    },
+    {
+      "museum_id": "M0685",
+      "name": "대구미술관",
+      "document": "대구미술관은 대구광역시가 지원하는 시립미술관이다. 대구 근현대미술의 역사적 가치를 연구하고 이를 재조명하여 대구미술의 전위성을 알릴 수 있는 전시뿐만 아니라 국내·외 교류를 통해 동시대의 사회적 예술적 이슈와 세계 미술의 선도적 흐름을 소개하는 전시들을 기획해 선보이고 있다. 또한, 우수한 명사 초청 강연은 물론 어린이, 청소년 등 다양한 연령대의 시민들이 참여할 수 있는 아카데미 프로그램을 비롯해 미술관 공간과 어우러지는 다채로운 공연들과 각종 이벤트 행사도 진행하고 있다. 미술관 3층에는 예술 관련 서적들을 접할 수 있는 미술정보 센터와 휴식을 취할 수 있는 라운지가 마련되어 있다. 2011년 많은 관심 속에 개관한 대구미술관은 지역 미술의 역사와 미학을 연구하고,이를 동시대 현대미술의 흐름과 연결하는 지역대표 미술플랫폼으로 역할하고 있습니다.",
+      "metadata": {
+        "requires_manual_review": true,
+        "image_copyright": "Type1",
+        "transport_notes": "수성3+수성3-1+도시철도 2호선 수성알파시티역 5번출구에서 순환버스 이용",
+        "fee_notes": "50할인(국민기초생활수급자(본인)막내 나이 19세 미만인 다자녀가정의 부모와 자녀100시간 이상 활동 자원봉사자(본인)그린카드 결제자(본인)  *전용단말기 인증 결제)무료(경로(~1959년생까지), 영.유아(2018년생부터), 장애인과 안내인(1인), 병역명문가증 발급자,  발급자의 부모, 배우자, 자녀, 「독립유공자 예우 및 지원에 관한 법률」 등 타 법령에서 무료관람 대상자로 규정된 사람, 국빈, 외교사절단 및 그 수행자, 학술연구 및 공무수행을 위하여 출입하는 사람)",
+        "holiday_open": "10:00",
+        "child_fee": 700.0,
+        "closure_rule_raw": "매주 월요일(단, 월요일이 공휴일인 경우에는 월요일 당일 개관 후 그 다음 첫번째 비공휴일에 휴관)+1월 1일+설날추석 당일",
+        "amenities_raw": "수유실+뷰라운지+미술정보센터+아카이브실+핸즈커피+카페",
+        "ownership_type": "공립",
+        "sigungu": "수성구",
+        "sido": "대구광역시",
+        "source_types": "BASE|TOUR_API",
+        "weekday_open": "10:00",
+        "homepage_url": "https://daeguartmuseum.or.kr",
+        "youth_fee": 700.0,
+        "holiday_close": "19:00",
+        "latitude": 35.82702862,
+        "address": "대구광역시 수성구 미술관로 40",
+        "longitude": 128.6743408,
+        "weekday_close": "19:00",
+        "adult_fee": 1000.0,
+        "name": "대구미술관",
+        "adult_fee_status": "BASE_FEE_PAID",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/96/4130596_image2_1.jpg"
+      },
+      "vector_rank": 3,
+      "bm25_rank": 2,
+      "vector_distance": 0.5608854293823242,
+      "vector_score": null,
+      "bm25_score": 5.357482110457818,
+      "vector_document": "대구미술관은 대구광역시가 지원하는 시립미술관이다. 대구 근현대미술의 역사적 가치를 연구하고 이를 재조명하여 대구미술의 전위성을 알릴 수 있는 전시뿐만 아니라 국내·외 교류를 통해 동시대의 사회적 예술적 이슈와 세계 미술의 선도적 흐름을 소개하는 전시들을 기획해 선보이고 있다. 또한, 우수한 명사 초청 강연은 물론 어린이, 청소년 등 다양한 연령대의 시민들이 참여할 수 있는 아카데미 프로그램을 비롯해 미술관 공간과 어우러지는 다채로운 공연들과 각종 이벤트 행사도 진행하고 있다. 미술관 3층에는 예술 관련 서적들을 접할 수 있는 미술정보 센터와 휴식을 취할 수 있는 라운지가 마련되어 있다. 2011년 많은 관심 속에 개관한 대구미술관은 지역 미술의 역사와 미학을 연구하고,이를 동시대 현대미술의 흐름과 연결하는 지역대표 미술플랫폼으로 역할하고 있습니다.",
+      "bm25_document": "대구미술관은 대구광역시가 지원하는 시립미술관이다. 대구 근현대미술의 역사적 가치를 연구하고 이를 재조명하여 대구미술의 전위성을 알릴 수 있는 전시뿐만 아니라 국내·외 교류를 통해 동시대의 사회적 예술적 이슈와 세계 미술의 선도적 흐름을 소개하는 전시들을 기획해 선보이고 있다. 또한, 우수한 명사 초청 강연은 물론 어린이, 청소년 등 다양한 연령대의 시민들이 참여할 수 있는 아카데미 프로그램을 비롯해 미술관 공간과 어우러지는 다채로운 공연들과 각종 이벤트 행사도 진행하고 있다. 미술관 3층에는 예술 관련 서적들을 접할 수 있는 미술정보 센터와 휴식을 취할 수 있는 라운지가 마련되어 있다. 2011년 많은 관심 속에 개관한 대구미술관은 지역 미술의 역사와 미학을 연구하고,이를 동시대 현대미술의 흐름과 연결하는 지역대표 미술플랫폼으로 역할하고 있습니다.",
+      "best_span_id": "chroma:M0685",
+      "best_span_text": "대구미술관은 대구광역시가 지원하는 시립미술관이다. 대구 근현대미술의 역사적 가치를 연구하고 이를 재조명하여 대구미술의 전위성을 알릴 수 있는 전시뿐만 아니라 국내·외 교류를 통해 동시대의 사회적 예술적 이슈와 세계 미술의 선도적 흐름을 소개하는 전시들을 기획해 선보이고 있다. 또한, 우수한 명사 초청 강연은 물론 어린이, 청소년 등 다양한 연령대의 시민들이 참여할 수 있는 아카데미 프로그램을 비롯해 미술관 공간과 어우러지는 다채로운 공연들과 각종 이벤트 행사도 진행하고 있다. 미술관 3층에는 예술 관련 서적들을 접할 수 있는 미술정보 센터와 휴식을 취할 수 있는 라운지가 마련되어 있다. 2011년 많은 관심 속에 개관한 대구미술관은 지역 미술의 역사와 미학을 연구하고,이를 동시대 현대미술의 흐름과 연결하는 지역대표 미술플랫폼으로 역할하고 있습니다.",
+      "fusion_score": 0.03200204813108039,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 2,
+      "rerank_score": 0.0009104047203436494,
+      "rank": 3,
+      "score": 0.0009104047203436494,
+      "score_type": "cross_encoder",
+      "distance": 0.5608854293823242,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0685",
+      "source_doc_ids": [
+        "DOC-B0685-TOUR_API-1856967",
+        "DOC-B0685-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0685-TOUR_API-1856967",
+          "source_type": "TOUR_API",
+          "source_record_id": "1856967",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=338",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        },
+        {
+          "doc_id": "DOC-B0685-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0685",
+          "source_locator": "data/raw/museum_base_1070.csv#row=686",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 27,
+          "doc_ids": [
+            "DOC-B0685-TOUR_API-1856967"
+          ]
+        },
+        {
+          "start": 28,
+          "end": 154,
+          "doc_ids": [
+            "DOC-B0685-TOUR_API-1856967"
+          ]
+        },
+        {
+          "start": 155,
+          "end": 268,
+          "doc_ids": [
+            "DOC-B0685-TOUR_API-1856967"
+          ]
+        },
+        {
+          "start": 269,
+          "end": 331,
+          "doc_ids": [
+            "DOC-B0685-TOUR_API-1856967"
+          ]
+        },
+        {
+          "start": 332,
+          "end": 423,
+          "doc_ids": [
+            "DOC-B0685-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=338",
+      "text": "대구미술관은 대구광역시가 지원하는 시립미술관이다. 대구 근현대미술의 역사적 가치를 연구하고 이를 재조명하여 대구미술의 전위성을 알릴 수 있는 전시뿐만 아니라 국내·외 교류를 통해 동시대의 사회적 예술적 이슈와 세계 미술의 선도적 흐름을 소개하는 전시들을 기획해 선보이고 있다. 또한, 우수한 명사 초청 강연은 물론 어린이, 청소년 등 다양한 연령대의 시민들이 참여할 수 있는 아카데미 프로그램을 비롯해 미술관 공간과 어우러지는 다채로운 공연들과 각종 이벤트 행사도 진행하고 있다. 미술관 3층에는 예술 관련 서적들을 접할 수 있는 미술정보 센터와 휴식을 취할 수 있는 라운지가 마련되어 있다. 2011년 많은 관심 속에 개관한 대구미술관은 지역 미술의 역사와 미학을 연구하고,이를 동시대 현대미술의 흐름과 연결하는 지역대표 미술플랫폼으로 역할하고 있습니다.",
+      "sido": "대구광역시",
+      "sigungu": "수성구",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=338"
+      ],
+      "evidence_id": "E3",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=473",
+        "fields": {
+          "name": "대구미술관",
+          "sido": "대구광역시",
+          "sigungu": "수성구",
+          "address": "대구광역시 수성구 미술관로 40",
+          "ownership_type": "공립",
+          "adult_fee": "1000",
+          "youth_fee": "700",
+          "child_fee": "700",
+          "adult_fee_status": "BASE_FEE_PAID",
+          "weekday_open": "10:00",
+          "weekday_close": "19:00",
+          "holiday_open": "10:00",
+          "holiday_close": "19:00",
+          "closure_rule_raw": "매주 월요일(단, 월요일이 공휴일인 경우에는 월요일 당일 개관 후 그 다음 첫번째 비공휴일에 휴관)+1월 1일+설날추석 당일",
+          "amenities_raw": "수유실+뷰라운지+미술정보센터+아카이브실+핸즈커피+카페"
+        },
+        "base_data_date": "2025-12-10",
+        "trust": "derived_dataset_not_human_verified"
+      },
+      "retrieval_branch": "document"
+    },
+    {
+      "museum_id": "M0686",
+      "name": "대구문화예술회관 미술관",
+      "document": "1991년 10월 8일 개관한 대구문화예술회관 미술관은 대구미술의 허브로서 기능을 하고 있는 복합문화공간",
+      "metadata": {
+        "requires_manual_review": true,
+        "sigungu": "달서구",
+        "closure_rule_raw": "매주 월요일(단, 월요일이 공휴일인 경우에는 월요일 당일 개관 후 그 다음 첫번째 비공휴일에 휴관)+1월 1일+설날추석 당일",
+        "holiday_close": "19:00",
+        "holiday_open": "10:00",
+        "longitude": 128.5581018,
+        "child_fee": 0.0,
+        "weekday_open": "10:00",
+        "address": "대구광역시 달서구 공원순환로 201",
+        "name": "대구문화예술회관 미술관",
+        "transport_notes": "609+618+650+706+805+836+남구1-1+급행6+지하철 1호선 서부정류장역 1번출구에서 약 1km",
+        "sido": "대구광역시",
+        "weekday_close": "19:00",
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "source_types": "BASE",
+        "adult_fee": 0.0,
+        "latitude": 35.84476741,
+        "amenities_raw": "커피명가 카페+수유실+자전거보관대",
+        "youth_fee": 0.0,
+        "ownership_type": "공립",
+        "homepage_url": "https://daeguartscenter.or.kr/"
+      },
+      "vector_rank": 4,
+      "bm25_rank": 3,
+      "vector_distance": 0.6031058430671692,
+      "vector_score": null,
+      "bm25_score": 2.2072137313901594,
+      "vector_document": "1991년 10월 8일 개관한 대구문화예술회관 미술관은 대구미술의 허브로서 기능을 하고 있는 복합문화공간",
+      "bm25_document": "1991년 10월 8일 개관한 대구문화예술회관 미술관은 대구미술의 허브로서 기능을 하고 있는 복합문화공간",
+      "best_span_id": "chroma:M0686",
+      "best_span_text": "1991년 10월 8일 개관한 대구문화예술회관 미술관은 대구미술의 허브로서 기능을 하고 있는 복합문화공간",
+      "fusion_score": 0.03149801587301587,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 3,
+      "rerank_score": 0.0002377719501964748,
+      "rank": 4,
+      "score": 0.0002377719501964748,
+      "score_type": "cross_encoder",
+      "distance": 0.6031058430671692,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0686",
+      "source_doc_ids": [
+        "DOC-B0686-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0686-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0686",
+          "source_locator": "data/raw/museum_base_1070.csv#row=687",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 58,
+          "doc_ids": [
+            "DOC-B0686-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_base_1070.csv#row=687",
+      "text": "1991년 10월 8일 개관한 대구문화예술회관 미술관은 대구미술의 허브로서 기능을 하고 있는 복합문화공간",
+      "sido": "대구광역시",
+      "sigungu": "달서구",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_base_1070.csv#row=687"
+      ],
+      "evidence_id": "E4",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=474",
+        "fields": {
+          "name": "대구문화예술회관 미술관",
+          "sido": "대구광역시",
+          "sigungu": "달서구",
+          "address": "대구광역시 달서구 공원순환로 201",
+          "ownership_type": "공립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "10:00",
+          "weekday_close": "19:00",
+          "holiday_open": "10:00",
+          "holiday_close": "19:00",
+          "closure_rule_raw": "매주 월요일(단, 월요일이 공휴일인 경우에는 월요일 당일 개관 후 그 다음 첫번째 비공휴일에 휴관)+1월 1일+설날추석 당일",
+          "amenities_raw": "커피명가 카페+수유실+자전거보관대"
+        },
+        "base_data_date": "2025-12-10",
+        "trust": "derived_dataset_not_human_verified"
+      },
+      "retrieval_branch": "document"
+    },
+    {
+      "museum_id": "M0708",
+      "name": "대구근대역사관",
+      "text": "대구근대역사관의 Neo4j operator_name(운영기관) 기록: 대구문화예술진흥원 (CSV 원문: 재단법인 대구문화예술진흥원)\n[Neo4j 구조화 근거] {\"museum_id\": \"M0708\", \"name\": \"대구근대역사관\", \"relation\": \"OPERATED_BY\", \"organization\": \"대구문화예술진흥원\", \"org_key\": \"대구문화예술진흥원\", \"org_type\": \"공공기관\", \"raw_name\": \"재단법인 대구문화예술진흥원\", \"verification_status\": \"SOURCE_RECORDED\"}",
+      "span_id": "",
+      "source_doc_ids": [
+        "DOC-B0708-BASE",
+        "DOC-B0708-TOUR_API-1251806"
+      ],
+      "source_urls": [],
+      "source_url": "",
+      "source_locators": [
+        "data/raw/museum_base_1070.csv#row=709",
+        "data/raw/museum_tourapi_with_overview.csv#row=345"
+      ],
+      "source_locator": "data/raw/museum_base_1070.csv#row=709",
+      "sido": "대구광역시",
+      "sigungu": "중구",
+      "retriever": "graph",
+      "evidence_role": "anchor",
+      "source_scope": "graph_properties",
+      "relation": "OPERATED_BY",
+      "organization": "대구문화예술진흥원",
+      "org_type": "공공기관",
+      "operator_raw_name": "재단법인 대구문화예술진흥원",
+      "verification_status": "SOURCE_RECORDED",
+      "metadata": {},
+      "chunk_id": "",
+      "retrievers": [
+        "graph"
+      ],
+      "evidence_id": "E5",
+      "retrieval_branch": "graph",
+      "rank": 5
+    },
+    {
+      "museum_id": "M0686",
+      "name": "대구문화예술회관 미술관",
+      "text": "{anchor_raw_name: 재단법인 대구문화예술진흥원, candidate_raw_name: 대구문화예술진흥원, org_key: 대구문화예술진흥원, organization: 대구문화예술진흥원, relation: OPERATED_BY, verification_status: SOURCE_RECORDED}",
+      "span_id": "",
+      "source_doc_ids": [
+        "DOC-B0686-BASE"
+      ],
+      "source_urls": [],
+      "source_url": "",
+      "source_locators": [
+        "data/raw/museum_base_1070.csv#row=687"
+      ],
+      "source_locator": "data/raw/museum_base_1070.csv#row=687",
+      "sido": "대구광역시",
+      "sigungu": "달서구",
+      "retriever": "graph",
+      "graph_path": "anchor -[:OPERATED_BY]-> Organization <-[:OPERATED_BY]- candidate",
+      "organization": "대구문화예술진흥원",
+      "org_type": "공공기관",
+      "operator_raw_name": "대구문화예술진흥원",
+      "anchor_operator_raw_name": "재단법인 대구문화예술진흥원",
+      "relation": "OPERATED_BY",
+      "verification_status": "SOURCE_RECORDED",
+      "facility_type": "미술관",
+      "source_scope": "graph_properties",
+      "metadata": {},
+      "chunk_id": "",
+      "retrievers": [
+        "graph"
+      ],
+      "evidence_id": "E6",
+      "retrieval_branch": "graph",
+      "rank": 6
+    },
+    {
+      "museum_id": "M0685",
+      "name": "대구미술관",
+      "text": "{anchor_raw_name: 재단법인 대구문화예술진흥원, candidate_raw_name: 대구문화예술진흥원, org_key: 대구문화예술진흥원, organization: 대구문화예술진흥원, relation: OPERATED_BY, verification_status: SOURCE_RECORDED}",
+      "span_id": "",
+      "source_doc_ids": [
+        "DOC-B0685-BASE",
+        "DOC-B0685-TOUR_API-1856967"
+      ],
+      "source_urls": [],
+      "source_url": "",
+      "source_locators": [
+        "data/raw/museum_base_1070.csv#row=686",
+        "data/raw/museum_tourapi_with_overview.csv#row=338"
+      ],
+      "source_locator": "data/raw/museum_base_1070.csv#row=686",
+      "sido": "대구광역시",
+      "sigungu": "수성구",
+      "retriever": "graph",
+      "graph_path": "anchor -[:OPERATED_BY]-> Organization <-[:OPERATED_BY]- candidate",
+      "organization": "대구문화예술진흥원",
+      "org_type": "공공기관",
+      "operator_raw_name": "대구문화예술진흥원",
+      "anchor_operator_raw_name": "재단법인 대구문화예술진흥원",
+      "relation": "OPERATED_BY",
+      "verification_status": "SOURCE_RECORDED",
+      "facility_type": "미술관",
+      "source_scope": "graph_properties",
+      "metadata": {},
+      "chunk_id": "",
+      "retrievers": [
+        "graph"
+      ],
+      "evidence_id": "E7",
+      "retrieval_branch": "graph",
+      "rank": 7
+    },
+    {
+      "museum_id": "M0706",
+      "name": "대구방짜유기박물관",
+      "text": "{anchor_raw_name: 재단법인 대구문화예술진흥원, candidate_raw_name: 재단법인 대구문화예술진흥원, org_key: 대구문화예술진흥원, organization: 대구문화예술진흥원, relation: OPERATED_BY, verification_status: SOURCE_RECORDED}",
+      "span_id": "",
+      "source_doc_ids": [
+        "DOC-B0706-BASE",
+        "DOC-B0706-TOUR_API-560097"
+      ],
+      "source_urls": [],
+      "source_url": "",
+      "source_locators": [
+        "data/raw/museum_base_1070.csv#row=707",
+        "data/raw/museum_tourapi_with_overview.csv#row=344"
+      ],
+      "source_locator": "data/raw/museum_base_1070.csv#row=707",
+      "sido": "대구광역시",
+      "sigungu": "동구",
+      "retriever": "graph",
+      "graph_path": "anchor -[:OPERATED_BY]-> Organization <-[:OPERATED_BY]- candidate",
+      "organization": "대구문화예술진흥원",
+      "org_type": "공공기관",
+      "operator_raw_name": "재단법인 대구문화예술진흥원",
+      "anchor_operator_raw_name": "재단법인 대구문화예술진흥원",
+      "relation": "OPERATED_BY",
+      "verification_status": "SOURCE_RECORDED",
+      "facility_type": "박물관",
+      "source_scope": "graph_properties",
+      "metadata": {},
+      "chunk_id": "",
+      "retrievers": [
+        "graph"
+      ],
+      "evidence_id": "E8",
+      "retrieval_branch": "graph",
+      "rank": 8
+    },
+    {
+      "museum_id": "M0707",
+      "name": "대구향토역사관",
+      "text": "{anchor_raw_name: 재단법인 대구문화예술진흥원, candidate_raw_name: 재단법인 대구문화예술진흥원, org_key: 대구문화예술진흥원, organization: 대구문화예술진흥원, relation: OPERATED_BY, verification_status: SOURCE_RECORDED}",
+      "span_id": "",
+      "source_doc_ids": [
+        "DOC-B0707-BASE"
+      ],
+      "source_urls": [],
+      "source_url": "",
+      "source_locators": [
+        "data/raw/museum_base_1070.csv#row=708"
+      ],
+      "source_locator": "data/raw/museum_base_1070.csv#row=708",
+      "sido": "대구광역시",
+      "sigungu": "중구",
+      "retriever": "graph",
+      "graph_path": "anchor -[:OPERATED_BY]-> Organization <-[:OPERATED_BY]- candidate",
+      "organization": "대구문화예술진흥원",
+      "org_type": "공공기관",
+      "operator_raw_name": "재단법인 대구문화예술진흥원",
+      "anchor_operator_raw_name": "재단법인 대구문화예술진흥원",
+      "relation": "OPERATED_BY",
+      "verification_status": "SOURCE_RECORDED",
+      "facility_type": "역사관",
+      "source_scope": "graph_properties",
+      "metadata": {},
+      "chunk_id": "",
+      "retrievers": [
+        "graph"
+      ],
+      "evidence_id": "E9",
+      "retrieval_branch": "graph",
+      "rank": 9
+    }
+  ],
+  "answer": "대구방짜유기박물관입니다. 대구근대역사관의 운영기관은 대구문화예술진흥원으로 기록되어 있고[E5], 대구방짜유기박물관도 같은 운영기관으로 기록되어 있습니다[E8]. 이곳은 방짜유기를 주제로 한 전문박물관이며 방짜유기 작품을 전시합니다[E1].",
+  "retrieval_status": "ok",
+  "answer_status": "answered",
+  "route": "combined",
+  "retry_count": 0,
+  "supervisor_verified": true,
+  "rerank_applied": true,
+  "retriever_errors": [],
+  "warnings": [
+    "Only 4 candidates available; no artificial padding"
+  ],
+  "duration_ms": 85673.32,
+  "error_type": "",
+  "hit_at_1": 1,
+  "hit_at_3": 1,
+  "hit_at_5": 1,
+  "recall_at_5": 1.0,
+  "mrr_at_10": 1.0
+}

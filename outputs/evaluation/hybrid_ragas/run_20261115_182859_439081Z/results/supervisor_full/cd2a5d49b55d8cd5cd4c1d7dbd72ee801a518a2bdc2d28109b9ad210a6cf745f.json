@@ -1,0 +1,814 @@
+{
+  "evidence_context_version": "grounded-evidence-v2",
+  "evaluation_contexts": [
+    "{\"evidence_context_version\": \"grounded-evidence-v2\", \"evidence_id\": \"E1\", \"metadata_provenance\": {\"base_data_date\": \"2026-09-01\", \"fields\": {\"address\": \"경상남도 창원시 진해구 중원동로 52\", \"adult_fee\": \"0\", \"adult_fee_status\": \"BASE_FEE_ZERO_CHECK_EXCEPTIONS\", \"child_fee\": \"0\", \"closure_rule_raw\": \"매주월+1월 1일+설날+추석당일\", \"holiday_close\": \"18:00\", \"holiday_open\": \"09:00\", \"name\": \"창원시립진해박물관\", \"ownership_type\": \"공립\", \"sido\": \"경상남도\", \"sigungu\": \"창원시\", \"weekday_close\": \"18:00\", \"weekday_open\": \"09:00\", \"youth_fee\": \"0\"}, \"source_kind\": \"derived_csv_row\", \"source_locator\": \"data/processed/museum_final_738.csv#record=16\", \"trust\": \"derived_dataset_not_human_verified\"}, \"museum_id\": \"M0016\", \"name\": \"창원시립진해박물관\", \"source_doc_ids\": [\"DOC-B0016-TOUR_API-791089\", \"DOC-B0016-BASE\"], \"source_documents\": [{\"doc_id\": \"DOC-B0016-TOUR_API-791089\", \"match_trust\": \"AUTO_MATCH_NOT_HUMAN_VERIFIED\", \"source_locator\": \"data/raw/museum_tourapi_with_overview.csv#row=12\", \"source_record_id\": \"791089\", \"source_type\": \"TOUR_API\"}, {\"doc_id\": \"DOC-B0016-BASE\", \"match_trust\": \"BASE_SOURCE\", \"source_locator\": \"data/raw/museum_base_1070.csv#row=17\", \"source_record_id\": \"B0016\", \"source_type\": \"BASE\"}], \"source_locator\": \"data/raw/museum_tourapi_with_overview.csv#row=12\", \"source_locators\": [\"data/raw/museum_tourapi_with_overview.csv#row=12\"], \"source_scope\": \"text\", \"source_spans\": [{\"doc_ids\": [\"DOC-B0016-TOUR_API-791089\"], \"end\": 93, \"start\": 0}, {\"doc_ids\": [\"DOC-B0016-TOUR_API-791089\"], \"end\": 222, \"start\": 94}, {\"doc_ids\": [\"DOC-B0016-TOUR_API-791089\"], \"end\": 311, \"start\": 223}, {\"doc_ids\": [\"DOC-B0016-TOUR_API-791089\"], \"end\": 393, \"start\": 312}, {\"doc_ids\": [\"DOC-B0016-BASE\"], \"end\": 466, \"start\": 394}], \"source_urls\": [], \"text\": \"창원시립진해박물관은 1998년 10월 31일 개관하였으며 제황산 공원 내 진해탑 1층과 2층에 전시실, 사무실, 시청각실, 유물창고, 전망탑 등의 시설을 갖추고 있다. 전시실에는 진해의 시대별 변천사, 신석기, 청동기, 삼한·삼국시대 유물, 조선시대 도요지 모형, 진해 고기잡이 모형, 가락국 수로왕과 왕비의 모형, 거북선 모형, 웅천읍성 모형 등이 있고 진해 유적에 관한 영상물도 상영하고 있다. 진해지역 전체를 축소한 모형과 함께 진해의 역사 연대와 시대별 역사를 확인할 수 있으며 진해의 어제와 오늘을 한눈에 알 수 있어 많은 관광객이 찾아오고 있다. 박물관이 있는 제황산공원에는 모노레일을 타고 올라가거나 산책길을 이용하여 올라갈 수 있고 공원 안에 정자, 벤치, 휴게시설들이 잘 갖추어져 있다. 진해박물관은 진해탑 내에 위치하고 있으며, 2016년 3월에 리모델링 공사를 통해 군항도시 진해의 역사를 살펴볼수 있는 문화공간임\"}",
+    "{\"evidence_context_version\": \"grounded-evidence-v2\", \"evidence_id\": \"E2\", \"metadata_provenance\": {\"base_data_date\": \"2026-06-30\", \"fields\": {\"address\": \"경상남도 창원시 의창구 용지로 296(경남도립미술관)\", \"adult_fee\": \"1000\", \"adult_fee_status\": \"BASE_FEE_PAID\", \"amenities_raw\": \"주차장+물품보관소+수유실+카페+자전거보관대\", \"child_fee\": \"0\", \"closure_rule_raw\": \"월(월요일이 공휴일인 경우, 그 다음 첫 번째 평일)+1월1일+설날+추석\", \"holiday_close\": \"18:00\", \"holiday_open\": \"10:00\", \"name\": \"경남도립미술관\", \"ownership_type\": \"공립\", \"sido\": \"경상남도\", \"sigungu\": \"창원시\", \"weekday_close\": \"18:00\", \"weekday_open\": \"10:00\", \"youth_fee\": \"700\"}, \"source_kind\": \"derived_csv_row\", \"source_locator\": \"data/processed/museum_final_738.csv#record=182\", \"trust\": \"derived_dataset_not_human_verified\"}, \"museum_id\": \"M0260\", \"name\": \"경남도립미술관\", \"source_doc_ids\": [\"DOC-B0260-TOUR_API-1622590\", \"DOC-B0260-BASE\"], \"source_documents\": [{\"doc_id\": \"DOC-B0260-TOUR_API-1622590\", \"match_trust\": \"AUTO_MATCH_NOT_HUMAN_VERIFIED\", \"source_locator\": \"data/raw/museum_tourapi_with_overview.csv#row=130\", \"source_record_id\": \"1622590\", \"source_type\": \"TOUR_API\"}, {\"doc_id\": \"DOC-B0260-BASE\", \"match_trust\": \"BASE_SOURCE\", \"source_locator\": \"data/raw/museum_base_1070.csv#row=261\", \"source_record_id\": \"B0260\", \"source_type\": \"BASE\"}], \"source_locator\": \"data/raw/museum_tourapi_with_overview.csv#row=130\", \"source_locators\": [\"data/raw/museum_tourapi_with_overview.csv#row=130\"], \"source_scope\": \"text\", \"source_spans\": [{\"doc_ids\": [\"DOC-B0260-TOUR_API-1622590\"], \"end\": 43, \"start\": 0}, {\"doc_ids\": [\"DOC-B0260-TOUR_API-1622590\"], \"end\": 113, \"start\": 44}, {\"doc_ids\": [\"DOC-B0260-TOUR_API-1622590\"], \"end\": 271, \"start\": 114}, {\"doc_ids\": [\"DOC-B0260-BASE\"], \"end\": 386, \"start\": 272}], \"source_urls\": [], \"text\": \"창원특례시 의창구에 있는 경남도립미술관은 2004년 6월 23일에 개관하였다. 지상 4층, 지하 1층으로 이루어져 있으며 이곳은 관람객들을 위한 전시 공간과 학술적 연구 및 교육의 장소로 활용되고 있다. 경남도립미술관은 동시대 현대미술의 복합성에 대한 이해, 미술과 사회의 관계 연구를 바탕으로 양방향 배움을 지향하는 다양한 전시와 교육 프로그램을 운영하며 경남 예술의 특징을 추적하기 위해 유의미한 한국 근현대 미술작품을 수집하고 경남 예술을 조명하는 전시를 지속해서 추진하고 있다. 경남도립미술관은 미술작품 및 자료의 수집, 보존 이에따른 조사, 연구와 전시, 그리고 국제교류 및 미술 저변 확대를 위한 교육 행사를 수행하여 지역 문화발전에 기여하기 위해 2004년 6월 설립되었습니다.\"}",
+    "{\"evidence_context_version\": \"grounded-evidence-v2\", \"evidence_id\": \"E3\", \"metadata_provenance\": {\"base_data_date\": \"2026-09-01\", \"fields\": {\"address\": \"경상남도 창원시 마산합포구 문신길105(추산동)\", \"adult_fee\": \"0\", \"adult_fee_status\": \"BASE_FEE_ZERO_CHECK_EXCEPTIONS\", \"child_fee\": \"0\", \"closure_rule_raw\": \"매주월+1월 1일+설날+추석당일\", \"holiday_close\": \"18:00\", \"holiday_open\": \"09:00\", \"name\": \"창원시립마산박물관\", \"ownership_type\": \"공립\", \"sido\": \"경상남도\", \"sigungu\": \"창원시\", \"weekday_close\": \"18:00\", \"weekday_open\": \"09:00\", \"youth_fee\": \"0\"}, \"source_kind\": \"derived_csv_row\", \"source_locator\": \"data/processed/museum_final_738.csv#record=17\", \"trust\": \"derived_dataset_not_human_verified\"}, \"museum_id\": \"M0017\", \"name\": \"창원시립마산박물관\", \"source_doc_ids\": [\"DOC-B0017-TOUR_API-130421\", \"DOC-B0017-BASE\"], \"source_documents\": [{\"doc_id\": \"DOC-B0017-TOUR_API-130421\", \"match_trust\": \"RECHECKED_BY_RULE_NOT_HUMAN_APPROVED\", \"source_locator\": \"data/raw/museum_tourapi_with_overview.csv#row=13\", \"source_record_id\": \"130421\", \"source_type\": \"TOUR_API\"}, {\"doc_id\": \"DOC-B0017-BASE\", \"match_trust\": \"BASE_SOURCE\", \"source_locator\": \"data/raw/museum_base_1070.csv#row=18\", \"source_record_id\": \"B0017\", \"source_type\": \"BASE\"}], \"source_locator\": \"data/raw/museum_tourapi_with_overview.csv#row=13\", \"source_locators\": [\"data/raw/museum_tourapi_with_overview.csv#row=13\"], \"source_scope\": \"text\", \"source_spans\": [{\"doc_ids\": [\"DOC-B0017-TOUR_API-130421\"], \"end\": 104, \"start\": 0}, {\"doc_ids\": [\"DOC-B0017-TOUR_API-130421\"], \"end\": 172, \"start\": 105}, {\"doc_ids\": [\"DOC-B0017-TOUR_API-130421\"], \"end\": 260, \"start\": 173}, {\"doc_ids\": [\"DOC-B0017-TOUR_API-130421\"], \"end\": 363, \"start\": 261}, {\"doc_ids\": [\"DOC-B0017-BASE\"], \"end\": 435, \"start\": 364}], \"source_urls\": [], \"text\": \"창원시립마산박물관은 급격한 현대화와 도시화의 물결속에서 사라져가는 우리지역의 문화유산을 수집∙보관∙전시∙교육하며, 지역민과 함께 지켜나가는 소중한 문화공간으로 2001년 9월 개관하였다. 전시실은 상설전시실과 기획전시실, 야외전시장으로 구성되어 있으며 이외에도 어린이도서실, 강의실 등의 시설을 갖추고 있다. 상설전시실은 각종 지역 출토 유물과 사진 자료, 설명문 등이 전시되어 있어 선사시대부터 근현대에 이르기까지 지역의 역사와 문화를 체계적으로 이해할 수 있다. 창원시립마산박물관은 역사문화 교육, 지역사 자료조사 활동, 문화행사 등 다양한 박물관 프로그램을 운영하여 지역문화 유산의 가치를 널리 알리고 지역문화 창조의 중추적 역할을 하고 있다. 마산시립박물관은 2001년 9월 12에 개관하였으며, 현대화와 도시화로 사라져가는 문화유산을 수집.보관.전시.교육하는 문화공간임\"}",
+    "{\"evidence_context_version\": \"grounded-evidence-v2\", \"evidence_id\": \"E4\", \"metadata_provenance\": {\"base_data_date\": \"2025-11-01\", \"fields\": {\"address\": \"서울특별시 종로구 우정국로 55\", \"adult_fee\": \"0\", \"adult_fee_status\": \"BASE_FEE_ZERO_CHECK_EXCEPTIONS\", \"child_fee\": \"0\", \"closure_rule_raw\": \"월요일+명절(1.1, 설날, 추석)\", \"holiday_close\": \"18:00\", \"holiday_open\": \"09:00\", \"name\": \"불교중앙박물관\", \"ownership_type\": \"사립\", \"sido\": \"서울특별시\", \"sigungu\": \"종로구\", \"weekday_close\": \"18:00\", \"weekday_open\": \"09:00\", \"youth_fee\": \"0\"}, \"source_kind\": \"derived_csv_row\", \"source_locator\": \"data/processed/museum_final_738.csv#record=432\", \"trust\": \"derived_dataset_not_human_verified\"}, \"museum_id\": \"M0619\", \"name\": \"불교중앙박물관\", \"source_doc_ids\": [\"DOC-B0619-TOUR_API-3013284\"], \"source_documents\": [{\"doc_id\": \"DOC-B0619-TOUR_API-3013284\", \"match_trust\": \"RECHECKED_BY_RULE_NOT_HUMAN_APPROVED\", \"source_locator\": \"data/raw/museum_tourapi_with_overview.csv#row=308\", \"source_record_id\": \"3013284\", \"source_type\": \"TOUR_API\"}], \"source_locator\": \"data/raw/museum_tourapi_with_overview.csv#row=308\", \"source_locators\": [\"data/raw/museum_tourapi_with_overview.csv#row=308\"], \"source_scope\": \"text\", \"source_spans\": [{\"doc_ids\": [\"DOC-B0619-TOUR_API-3013284\"], \"end\": 52, \"start\": 0}, {\"doc_ids\": [\"DOC-B0619-TOUR_API-3013284\"], \"end\": 111, \"start\": 53}, {\"doc_ids\": [\"DOC-B0619-TOUR_API-3013284\"], \"end\": 162, \"start\": 112}, {\"doc_ids\": [\"DOC-B0619-TOUR_API-3013284\"], \"end\": 182, \"start\": 163}, {\"doc_ids\": [\"DOC-B0619-TOUR_API-3013284\"], \"end\": 230, \"start\": 183}, {\"doc_ids\": [\"DOC-B0619-TOUR_API-3013284\"], \"end\": 302, \"start\": 231}, {\"doc_ids\": [\"DOC-B0619-TOUR_API-3013284\"], \"end\": 402, \"start\": 303}, {\"doc_ids\": [\"DOC-B0619-TOUR_API-3013284\"], \"end\": 467, \"start\": 403}], \"source_urls\": [], \"text\": \"불교중앙박물관은 대한불교조계종에서 설립하여 2007년 3월 17일 개관한 불교전문 박물관이다. 불교의 문화와 역사, 전국 각 사찰에서 수장하기 어려운 불교문화유산을 보존하고 전시하기 위해서 만들었다. 지하 3개 층에 상설전시관과 수장고, 보존처리실, 학예연구실, 시청각실 등을 갖추고 있다. 상설전시실은 3개로 이루어져 있다. 제1전시실에는 석가모니불과 비로자나불, 조각과 탱화, 탑 등 22점이 전시되어 있다. 제2전시실에는 다양한 부처와 보살 등 25점, 제3전시실에는 인간의 모습으로 세상에 나타난 부처를 형상화한 작품 17점이 있다. 수장고도 3개인데 제1수장고에는 온도와 습도에 민감하지 않은 석조 및 기와류, 제2수장고에는 금속 및 목재로 만든 불상과 공예품, 제3수장고에는 회화 및 전적 등 지본류가 있다. 불교문화 강좌를 해마다 진행하고 있는 수도권에서 유일한 상설 불교전문 박물관으로 종로구 견지동 조계사 경내에 있다.\"}",
+    "{\"evidence_context_version\": \"grounded-evidence-v2\", \"evidence_id\": \"E5\", \"metadata_provenance\": {\"base_data_date\": \"2026-04-08\", \"fields\": {\"address\": \"광주광역시 북구 하서로 110\", \"adult_fee\": \"0\", \"adult_fee_status\": \"BASE_FEE_ZERO_CHECK_EXCEPTIONS\", \"child_fee\": \"0\", \"closure_rule_raw\": \"1월 1일, 명절 당일, 4월, 11월 첫번째 주 월요일\", \"holiday_close\": \"18:00\", \"holiday_open\": \"10:00\", \"name\": \"국립광주박물관\", \"ownership_type\": \"국립\", \"sido\": \"광주광역시\", \"sigungu\": \"북구\", \"weekday_close\": \"18:00\", \"weekday_open\": \"10:00\", \"youth_fee\": \"0\"}, \"source_kind\": \"derived_csv_row\", \"source_locator\": \"data/processed/museum_final_738.csv#record=357\", \"trust\": \"derived_dataset_not_human_verified\"}, \"museum_id\": \"M0498\", \"name\": \"국립광주박물관\", \"source_doc_ids\": [\"DOC-B0498-TOUR_API-129782\"], \"source_documents\": [{\"doc_id\": \"DOC-B0498-TOUR_API-129782\", \"match_trust\": \"RECHECKED_BY_RULE_NOT_HUMAN_APPROVED\", \"source_locator\": \"data/raw/museum_tourapi_with_overview.csv#row=246\", \"source_record_id\": \"129782\", \"source_type\": \"TOUR_API\"}], \"source_locator\": \"data/raw/museum_tourapi_with_overview.csv#row=246\", \"source_locators\": [\"data/raw/museum_tourapi_with_overview.csv#row=246\"], \"source_scope\": \"text\", \"source_spans\": [{\"doc_ids\": [\"DOC-B0498-TOUR_API-129782\"], \"end\": 99, \"start\": 0}, {\"doc_ids\": [\"DOC-B0498-TOUR_API-129782\"], \"end\": 199, \"start\": 100}, {\"doc_ids\": [\"DOC-B0498-TOUR_API-129782\"], \"end\": 246, \"start\": 200}, {\"doc_ids\": [\"DOC-B0498-TOUR_API-129782\"], \"end\": 322, \"start\": 247}, {\"doc_ids\": [\"DOC-B0498-TOUR_API-129782\"], \"end\": 371, \"start\": 323}, {\"doc_ids\": [\"DOC-B0498-TOUR_API-129782\"], \"end\": 439, \"start\": 372}, {\"doc_ids\": [\"DOC-B0498-TOUR_API-129782\"], \"end\": 542, \"start\": 440}, {\"doc_ids\": [\"DOC-B0498-TOUR_API-129782\"], \"end\": 618, \"start\": 543}, {\"doc_ids\": [\"DOC-B0498-TOUR_API-129782\"], \"end\": 669, \"start\": 619}, {\"doc_ids\": [\"DOC-B0498-TOUR_API-129782\"], \"end\": 823, \"start\": 670}, {\"doc_ids\": [\"DOC-B0498-TOUR_API-129782\"], \"end\": 848, \"start\": 824}, {\"doc_ids\": [\"DOC-B0498-TOUR_API-129782\"], \"end\": 949, \"start\": 849}, {\"doc_ids\": [\"DOC-B0498-TOUR_API-129782\"], \"end\": 1048, \"start\": 950}], \"source_urls\": [], \"text\": \"국립광주박물관은 1976년 수중발굴이 시작된 신안 해저 유물을 비롯한 호남지역의 문화유산을 수집·보관하고, 지역의 역사와 문화를 소개하기 위해 1978년 12월 6일 개관하였다. 총면적 80,444㎡(24,334평)에 지상 2층, 지하 4층의 누각 형태를 본뜬 국립광주박물관은 국보·보물 등의 지정유산을 포함하여 160,000여 점의 유물을 소장하고 있다. 전시뿐만 아니라 다채로운 맞춤형 교육·체험프로그램과 문화행사를 연중 운영하고 있다. 박물관은 선사ㆍ고대문화실, 농경문화실, 도자실, 불교미술실, 서화실, 신안 해저 유물실, 중앙홀의 7개 상설전시실과 야외전시장이 있다. 선사·고대문화실에는 구석기시대부터 통일신라시대에 이르는 역사의 전개과정을 볼 수 있다. 신석기시대의 여수 송도와 안도 유적 출토품, 청동기시대의 고인돌, 화순 대곡리에서 출토된 국보 청동유물도 전시되어 있다. 전남지방은 한국도자기의 본산이라 할 만큼 고려시대 청자로부터 조선시대의 분청사기와 백자에 이르기까지 수많은 가마자리들이 분포되어 있어 여기에서 출토된 유물들을 도자실에서 볼 수 있다. 또한 신안 해저 유물실에는 1976년부터 1984년까지 9년 동안 신안해저침몰무역선으로부터 인양한 중국 송·원대 유물도 전시되어 있다. 불교미술실에는 통일신라시대부터 조선시대에 이르기까지 불교공예품과 불화 등이 전시되어 있다. 장흥 보림사삼층석탑, 전남광주 서오층석탑 등에서 출토된 사리장엄구와 보성 화방리 출토 금동여래입상, 화순 운주사출토 금동보살입상, 영암 용흥리출토 금동사천황상, 영암 용암사지출토 금동지장보살좌상, 전남광주 원효사 출토 부처얼굴, 담양 서봉사지출토 나한상 등이 전시되어 있다. 한편 입구로비에는 중흥산성쌍사자석등이 있다. 서화실에는 호남 회화의 흐름에 대해 쉽게 이해하고 감상하며 향토문화에 대한 자긍심을 일깨울 수 있도록 조선시대와 근대기에 활약한 호남출신 화가들의 대표적인 작품들을 전시하고 있다. 이밖에 정선, 심사정 등 조선시대를 대표하는 화가들의 작품도 함께 전시하여 관람객들이 호남회화의 흐름은 물론 조선시대 회화의 면모를 이해하고 감상하는 데 도움이 되도록 하였다.\"}"
+  ],
+  "mode": "supervisor_full",
+  "question_id": "Q008",
+  "evidence": [
+    {
+      "museum_id": "M0016",
+      "name": "창원시립진해박물관",
+      "document": "창원시립진해박물관은 1998년 10월 31일 개관하였으며 제황산 공원 내 진해탑 1층과 2층에 전시실, 사무실, 시청각실, 유물창고, 전망탑 등의 시설을 갖추고 있다. 전시실에는 진해의 시대별 변천사, 신석기, 청동기, 삼한·삼국시대 유물, 조선시대 도요지 모형, 진해 고기잡이 모형, 가락국 수로왕과 왕비의 모형, 거북선 모형, 웅천읍성 모형 등이 있고 진해 유적에 관한 영상물도 상영하고 있다. 진해지역 전체를 축소한 모형과 함께 진해의 역사 연대와 시대별 역사를 확인할 수 있으며 진해의 어제와 오늘을 한눈에 알 수 있어 많은 관광객이 찾아오고 있다. 박물관이 있는 제황산공원에는 모노레일을 타고 올라가거나 산책길을 이용하여 올라갈 수 있고 공원 안에 정자, 벤치, 휴게시설들이 잘 갖추어져 있다. 진해박물관은 진해탑 내에 위치하고 있으며, 2016년 3월에 리모델링 공사를 통해 군항도시 진해의 역사를 살펴볼수 있는 문화공간임",
+      "metadata": {
+        "longitude": 128.6631795,
+        "homepage_url": "https://www.changwon.go.kr",
+        "transport_notes": "제황산공원 모노레일카 이용",
+        "weekday_open": "09:00",
+        "holiday_close": "18:00",
+        "ownership_type": "공립",
+        "sigungu": "창원시",
+        "image_copyright": "Type3",
+        "youth_fee": 0.0,
+        "closure_rule_raw": "매주월+1월 1일+설날+추석당일",
+        "weekday_close": "18:00",
+        "adult_fee": 0.0,
+        "address": "경상남도 창원시 진해구 중원동로 52",
+        "sido": "경상남도",
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "holiday_open": "09:00",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/17/3572917_image2_1.jpg",
+        "latitude": 35.14882748,
+        "source_types": "BASE|TOUR_API",
+        "requires_manual_review": true,
+        "child_fee": 0.0,
+        "name": "창원시립진해박물관"
+      },
+      "vector_rank": 1,
+      "bm25_rank": 1,
+      "vector_distance": 0.378756046295166,
+      "vector_score": null,
+      "bm25_score": 38.77542362553071,
+      "vector_document": "창원시립진해박물관은 1998년 10월 31일 개관하였으며 제황산 공원 내 진해탑 1층과 2층에 전시실, 사무실, 시청각실, 유물창고, 전망탑 등의 시설을 갖추고 있다. 전시실에는 진해의 시대별 변천사, 신석기, 청동기, 삼한·삼국시대 유물, 조선시대 도요지 모형, 진해 고기잡이 모형, 가락국 수로왕과 왕비의 모형, 거북선 모형, 웅천읍성 모형 등이 있고 진해 유적에 관한 영상물도 상영하고 있다. 진해지역 전체를 축소한 모형과 함께 진해의 역사 연대와 시대별 역사를 확인할 수 있으며 진해의 어제와 오늘을 한눈에 알 수 있어 많은 관광객이 찾아오고 있다. 박물관이 있는 제황산공원에는 모노레일을 타고 올라가거나 산책길을 이용하여 올라갈 수 있고 공원 안에 정자, 벤치, 휴게시설들이 잘 갖추어져 있다. 진해박물관은 진해탑 내에 위치하고 있으며, 2016년 3월에 리모델링 공사를 통해 군항도시 진해의 역사를 살펴볼수 있는 문화공간임",
+      "bm25_document": "창원시립진해박물관은 1998년 10월 31일 개관하였으며 제황산 공원 내 진해탑 1층과 2층에 전시실, 사무실, 시청각실, 유물창고, 전망탑 등의 시설을 갖추고 있다. 전시실에는 진해의 시대별 변천사, 신석기, 청동기, 삼한·삼국시대 유물, 조선시대 도요지 모형, 진해 고기잡이 모형, 가락국 수로왕과 왕비의 모형, 거북선 모형, 웅천읍성 모형 등이 있고 진해 유적에 관한 영상물도 상영하고 있다. 진해지역 전체를 축소한 모형과 함께 진해의 역사 연대와 시대별 역사를 확인할 수 있으며 진해의 어제와 오늘을 한눈에 알 수 있어 많은 관광객이 찾아오고 있다. 박물관이 있는 제황산공원에는 모노레일을 타고 올라가거나 산책길을 이용하여 올라갈 수 있고 공원 안에 정자, 벤치, 휴게시설들이 잘 갖추어져 있다. 진해박물관은 진해탑 내에 위치하고 있으며, 2016년 3월에 리모델링 공사를 통해 군항도시 진해의 역사를 살펴볼수 있는 문화공간임",
+      "best_span_id": "chroma:M0016",
+      "best_span_text": "창원시립진해박물관은 1998년 10월 31일 개관하였으며 제황산 공원 내 진해탑 1층과 2층에 전시실, 사무실, 시청각실, 유물창고, 전망탑 등의 시설을 갖추고 있다. 전시실에는 진해의 시대별 변천사, 신석기, 청동기, 삼한·삼국시대 유물, 조선시대 도요지 모형, 진해 고기잡이 모형, 가락국 수로왕과 왕비의 모형, 거북선 모형, 웅천읍성 모형 등이 있고 진해 유적에 관한 영상물도 상영하고 있다. 진해지역 전체를 축소한 모형과 함께 진해의 역사 연대와 시대별 역사를 확인할 수 있으며 진해의 어제와 오늘을 한눈에 알 수 있어 많은 관광객이 찾아오고 있다. 박물관이 있는 제황산공원에는 모노레일을 타고 올라가거나 산책길을 이용하여 올라갈 수 있고 공원 안에 정자, 벤치, 휴게시설들이 잘 갖추어져 있다. 진해박물관은 진해탑 내에 위치하고 있으며, 2016년 3월에 리모델링 공사를 통해 군항도시 진해의 역사를 살펴볼수 있는 문화공간임",
+      "fusion_score": 0.03278688524590164,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 1,
+      "name_match": true,
+      "rerank_score": 0.9996936321258545,
+      "rank": 1,
+      "score": 0.9996936321258545,
+      "score_type": "cross_encoder",
+      "distance": 0.378756046295166,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0016",
+      "source_doc_ids": [
+        "DOC-B0016-TOUR_API-791089",
+        "DOC-B0016-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0016-TOUR_API-791089",
+          "source_type": "TOUR_API",
+          "source_record_id": "791089",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=12",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        },
+        {
+          "doc_id": "DOC-B0016-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0016",
+          "source_locator": "data/raw/museum_base_1070.csv#row=17",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 93,
+          "doc_ids": [
+            "DOC-B0016-TOUR_API-791089"
+          ]
+        },
+        {
+          "start": 94,
+          "end": 222,
+          "doc_ids": [
+            "DOC-B0016-TOUR_API-791089"
+          ]
+        },
+        {
+          "start": 223,
+          "end": 311,
+          "doc_ids": [
+            "DOC-B0016-TOUR_API-791089"
+          ]
+        },
+        {
+          "start": 312,
+          "end": 393,
+          "doc_ids": [
+            "DOC-B0016-TOUR_API-791089"
+          ]
+        },
+        {
+          "start": 394,
+          "end": 466,
+          "doc_ids": [
+            "DOC-B0016-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=12",
+      "text": "창원시립진해박물관은 1998년 10월 31일 개관하였으며 제황산 공원 내 진해탑 1층과 2층에 전시실, 사무실, 시청각실, 유물창고, 전망탑 등의 시설을 갖추고 있다. 전시실에는 진해의 시대별 변천사, 신석기, 청동기, 삼한·삼국시대 유물, 조선시대 도요지 모형, 진해 고기잡이 모형, 가락국 수로왕과 왕비의 모형, 거북선 모형, 웅천읍성 모형 등이 있고 진해 유적에 관한 영상물도 상영하고 있다. 진해지역 전체를 축소한 모형과 함께 진해의 역사 연대와 시대별 역사를 확인할 수 있으며 진해의 어제와 오늘을 한눈에 알 수 있어 많은 관광객이 찾아오고 있다. 박물관이 있는 제황산공원에는 모노레일을 타고 올라가거나 산책길을 이용하여 올라갈 수 있고 공원 안에 정자, 벤치, 휴게시설들이 잘 갖추어져 있다. 진해박물관은 진해탑 내에 위치하고 있으며, 2016년 3월에 리모델링 공사를 통해 군항도시 진해의 역사를 살펴볼수 있는 문화공간임",
+      "sido": "경상남도",
+      "sigungu": "창원시",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=12"
+      ],
+      "evidence_id": "E1",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=16",
+        "fields": {
+          "name": "창원시립진해박물관",
+          "sido": "경상남도",
+          "sigungu": "창원시",
+          "address": "경상남도 창원시 진해구 중원동로 52",
+          "ownership_type": "공립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "09:00",
+          "weekday_close": "18:00",
+          "holiday_open": "09:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "매주월+1월 1일+설날+추석당일"
+        },
+        "base_data_date": "2026-09-01",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0260",
+      "name": "경남도립미술관",
+      "document": "창원특례시 의창구에 있는 경남도립미술관은 2004년 6월 23일에 개관하였다. 지상 4층, 지하 1층으로 이루어져 있으며 이곳은 관람객들을 위한 전시 공간과 학술적 연구 및 교육의 장소로 활용되고 있다. 경남도립미술관은 동시대 현대미술의 복합성에 대한 이해, 미술과 사회의 관계 연구를 바탕으로 양방향 배움을 지향하는 다양한 전시와 교육 프로그램을 운영하며 경남 예술의 특징을 추적하기 위해 유의미한 한국 근현대 미술작품을 수집하고 경남 예술을 조명하는 전시를 지속해서 추진하고 있다. 경남도립미술관은 미술작품 및 자료의 수집, 보존 이에따른 조사, 연구와 전시, 그리고 국제교류 및 미술 저변 확대를 위한 교육 행사를 수행하여 지역 문화발전에 기여하기 위해 2004년 6월 설립되었습니다.",
+      "metadata": {
+        "latitude": 35.23946503,
+        "homepage_url": "https://www.gyeongnam.go.kr/gam/index.gyeong",
+        "weekday_open": "10:00",
+        "youth_fee": 700.0,
+        "closure_rule_raw": "월(월요일이 공휴일인 경우, 그 다음 첫 번째 평일)+1월1일+설날+추석",
+        "amenities_raw": "주차장+물품보관소+수유실+카페+자전거보관대",
+        "requires_manual_review": true,
+        "source_types": "BASE|TOUR_API",
+        "adult_fee": 1000.0,
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/81/3050281_image2_1.JPG",
+        "adult_fee_status": "BASE_FEE_PAID",
+        "child_fee": 0.0,
+        "sido": "경상남도",
+        "ownership_type": "공립",
+        "weekday_close": "18:00",
+        "name": "경남도립미술관",
+        "holiday_close": "18:00",
+        "sigungu": "창원시",
+        "image_copyright": "Type3",
+        "holiday_open": "10:00",
+        "address": "경상남도 창원시 의창구 용지로 296(경남도립미술관)",
+        "longitude": 128.6908555,
+        "fee_notes": "무료(18세 이하의 어린이 및 청소년+65세 이상의 노인+장애인과 그 안내인+기초수급 대상자 및 차상위 계층+학술연구+공무수행)"
+      },
+      "vector_rank": 10,
+      "bm25_rank": null,
+      "vector_distance": 0.5708627104759216,
+      "vector_score": null,
+      "bm25_score": null,
+      "vector_document": "창원특례시 의창구에 있는 경남도립미술관은 2004년 6월 23일에 개관하였다. 지상 4층, 지하 1층으로 이루어져 있으며 이곳은 관람객들을 위한 전시 공간과 학술적 연구 및 교육의 장소로 활용되고 있다. 경남도립미술관은 동시대 현대미술의 복합성에 대한 이해, 미술과 사회의 관계 연구를 바탕으로 양방향 배움을 지향하는 다양한 전시와 교육 프로그램을 운영하며 경남 예술의 특징을 추적하기 위해 유의미한 한국 근현대 미술작품을 수집하고 경남 예술을 조명하는 전시를 지속해서 추진하고 있다. 경남도립미술관은 미술작품 및 자료의 수집, 보존 이에따른 조사, 연구와 전시, 그리고 국제교류 및 미술 저변 확대를 위한 교육 행사를 수행하여 지역 문화발전에 기여하기 위해 2004년 6월 설립되었습니다.",
+      "bm25_document": "",
+      "best_span_id": null,
+      "best_span_text": null,
+      "fusion_score": 0.014285714285714285,
+      "retrieved_by": [
+        "vector"
+      ],
+      "fusion_rank": 19,
+      "rerank_score": 0.020511897280812263,
+      "rank": 2,
+      "score": 0.020511897280812263,
+      "score_type": "cross_encoder",
+      "distance": 0.5708627104759216,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector"
+      ],
+      "retriever": "vector",
+      "source_doc_ids": [
+        "DOC-B0260-TOUR_API-1622590",
+        "DOC-B0260-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0260-TOUR_API-1622590",
+          "source_type": "TOUR_API",
+          "source_record_id": "1622590",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=130",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        },
+        {
+          "doc_id": "DOC-B0260-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0260",
+          "source_locator": "data/raw/museum_base_1070.csv#row=261",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 43,
+          "doc_ids": [
+            "DOC-B0260-TOUR_API-1622590"
+          ]
+        },
+        {
+          "start": 44,
+          "end": 113,
+          "doc_ids": [
+            "DOC-B0260-TOUR_API-1622590"
+          ]
+        },
+        {
+          "start": 114,
+          "end": 271,
+          "doc_ids": [
+            "DOC-B0260-TOUR_API-1622590"
+          ]
+        },
+        {
+          "start": 272,
+          "end": 386,
+          "doc_ids": [
+            "DOC-B0260-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=130",
+      "text": "창원특례시 의창구에 있는 경남도립미술관은 2004년 6월 23일에 개관하였다. 지상 4층, 지하 1층으로 이루어져 있으며 이곳은 관람객들을 위한 전시 공간과 학술적 연구 및 교육의 장소로 활용되고 있다. 경남도립미술관은 동시대 현대미술의 복합성에 대한 이해, 미술과 사회의 관계 연구를 바탕으로 양방향 배움을 지향하는 다양한 전시와 교육 프로그램을 운영하며 경남 예술의 특징을 추적하기 위해 유의미한 한국 근현대 미술작품을 수집하고 경남 예술을 조명하는 전시를 지속해서 추진하고 있다. 경남도립미술관은 미술작품 및 자료의 수집, 보존 이에따른 조사, 연구와 전시, 그리고 국제교류 및 미술 저변 확대를 위한 교육 행사를 수행하여 지역 문화발전에 기여하기 위해 2004년 6월 설립되었습니다.",
+      "sido": "경상남도",
+      "sigungu": "창원시",
+      "span_id": "",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=130"
+      ],
+      "evidence_id": "E2",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=182",
+        "fields": {
+          "name": "경남도립미술관",
+          "sido": "경상남도",
+          "sigungu": "창원시",
+          "address": "경상남도 창원시 의창구 용지로 296(경남도립미술관)",
+          "ownership_type": "공립",
+          "adult_fee": "1000",
+          "youth_fee": "700",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_PAID",
+          "weekday_open": "10:00",
+          "weekday_close": "18:00",
+          "holiday_open": "10:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "월(월요일이 공휴일인 경우, 그 다음 첫 번째 평일)+1월1일+설날+추석",
+          "amenities_raw": "주차장+물품보관소+수유실+카페+자전거보관대"
+        },
+        "base_data_date": "2026-06-30",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0017",
+      "name": "창원시립마산박물관",
+      "document": "창원시립마산박물관은 급격한 현대화와 도시화의 물결속에서 사라져가는 우리지역의 문화유산을 수집∙보관∙전시∙교육하며, 지역민과 함께 지켜나가는 소중한 문화공간으로 2001년 9월 개관하였다. 전시실은 상설전시실과 기획전시실, 야외전시장으로 구성되어 있으며 이외에도 어린이도서실, 강의실 등의 시설을 갖추고 있다. 상설전시실은 각종 지역 출토 유물과 사진 자료, 설명문 등이 전시되어 있어 선사시대부터 근현대에 이르기까지 지역의 역사와 문화를 체계적으로 이해할 수 있다. 창원시립마산박물관은 역사문화 교육, 지역사 자료조사 활동, 문화행사 등 다양한 박물관 프로그램을 운영하여 지역문화 유산의 가치를 널리 알리고 지역문화 창조의 중추적 역할을 하고 있다. 마산시립박물관은 2001년 9월 12에 개관하였으며, 현대화와 도시화로 사라져가는 문화유산을 수집.보관.전시.교육하는 문화공간임",
+      "metadata": {
+        "child_fee": 0.0,
+        "holiday_close": "18:00",
+        "address": "경상남도 창원시 마산합포구 문신길105(추산동)",
+        "image_url": "http://tong.visitkorea.or.kr/cms/resource/10/3564710_image2_1.jpg",
+        "requires_manual_review": true,
+        "youth_fee": 0.0,
+        "latitude": 35.20567156,
+        "sido": "경상남도",
+        "source_types": "BASE|TOUR_API",
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "weekday_open": "09:00",
+        "ownership_type": "공립",
+        "image_copyright": "Type1",
+        "adult_fee": 0.0,
+        "sigungu": "창원시",
+        "longitude": 128.5689101,
+        "transport_notes": "창원시립마산박물관 271번",
+        "name": "창원시립마산박물관",
+        "homepage_url": "https://www.changwon.go.kr/cwportal/depart/11062/11381/11383.web",
+        "closure_rule_raw": "매주월+1월 1일+설날+추석당일",
+        "weekday_close": "18:00",
+        "holiday_open": "09:00"
+      },
+      "vector_rank": 8,
+      "bm25_rank": 17,
+      "vector_distance": 0.5668901801109314,
+      "vector_score": null,
+      "bm25_score": 9.084975404052066,
+      "vector_document": "창원시립마산박물관은 급격한 현대화와 도시화의 물결속에서 사라져가는 우리지역의 문화유산을 수집∙보관∙전시∙교육하며, 지역민과 함께 지켜나가는 소중한 문화공간으로 2001년 9월 개관하였다. 전시실은 상설전시실과 기획전시실, 야외전시장으로 구성되어 있으며 이외에도 어린이도서실, 강의실 등의 시설을 갖추고 있다. 상설전시실은 각종 지역 출토 유물과 사진 자료, 설명문 등이 전시되어 있어 선사시대부터 근현대에 이르기까지 지역의 역사와 문화를 체계적으로 이해할 수 있다. 창원시립마산박물관은 역사문화 교육, 지역사 자료조사 활동, 문화행사 등 다양한 박물관 프로그램을 운영하여 지역문화 유산의 가치를 널리 알리고 지역문화 창조의 중추적 역할을 하고 있다. 마산시립박물관은 2001년 9월 12에 개관하였으며, 현대화와 도시화로 사라져가는 문화유산을 수집.보관.전시.교육하는 문화공간임",
+      "bm25_document": "창원시립마산박물관은 급격한 현대화와 도시화의 물결속에서 사라져가는 우리지역의 문화유산을 수집∙보관∙전시∙교육하며, 지역민과 함께 지켜나가는 소중한 문화공간으로 2001년 9월 개관하였다. 전시실은 상설전시실과 기획전시실, 야외전시장으로 구성되어 있으며 이외에도 어린이도서실, 강의실 등의 시설을 갖추고 있다. 상설전시실은 각종 지역 출토 유물과 사진 자료, 설명문 등이 전시되어 있어 선사시대부터 근현대에 이르기까지 지역의 역사와 문화를 체계적으로 이해할 수 있다. 창원시립마산박물관은 역사문화 교육, 지역사 자료조사 활동, 문화행사 등 다양한 박물관 프로그램을 운영하여 지역문화 유산의 가치를 널리 알리고 지역문화 창조의 중추적 역할을 하고 있다. 마산시립박물관은 2001년 9월 12에 개관하였으며, 현대화와 도시화로 사라져가는 문화유산을 수집.보관.전시.교육하는 문화공간임",
+      "best_span_id": "chroma:M0017",
+      "best_span_text": "창원시립마산박물관은 급격한 현대화와 도시화의 물결속에서 사라져가는 우리지역의 문화유산을 수집∙보관∙전시∙교육하며, 지역민과 함께 지켜나가는 소중한 문화공간으로 2001년 9월 개관하였다. 전시실은 상설전시실과 기획전시실, 야외전시장으로 구성되어 있으며 이외에도 어린이도서실, 강의실 등의 시설을 갖추고 있다. 상설전시실은 각종 지역 출토 유물과 사진 자료, 설명문 등이 전시되어 있어 선사시대부터 근현대에 이르기까지 지역의 역사와 문화를 체계적으로 이해할 수 있다. 창원시립마산박물관은 역사문화 교육, 지역사 자료조사 활동, 문화행사 등 다양한 박물관 프로그램을 운영하여 지역문화 유산의 가치를 널리 알리고 지역문화 창조의 중추적 역할을 하고 있다. 마산시립박물관은 2001년 9월 12에 개관하였으며, 현대화와 도시화로 사라져가는 문화유산을 수집.보관.전시.교육하는 문화공간임",
+      "fusion_score": 0.027692895339954164,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 3,
+      "rerank_score": 0.005284787155687809,
+      "rank": 3,
+      "score": 0.005284787155687809,
+      "score_type": "cross_encoder",
+      "distance": 0.5668901801109314,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0017",
+      "source_doc_ids": [
+        "DOC-B0017-TOUR_API-130421",
+        "DOC-B0017-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0017-TOUR_API-130421",
+          "source_type": "TOUR_API",
+          "source_record_id": "130421",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=13",
+          "match_trust": "RECHECKED_BY_RULE_NOT_HUMAN_APPROVED"
+        },
+        {
+          "doc_id": "DOC-B0017-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0017",
+          "source_locator": "data/raw/museum_base_1070.csv#row=18",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 104,
+          "doc_ids": [
+            "DOC-B0017-TOUR_API-130421"
+          ]
+        },
+        {
+          "start": 105,
+          "end": 172,
+          "doc_ids": [
+            "DOC-B0017-TOUR_API-130421"
+          ]
+        },
+        {
+          "start": 173,
+          "end": 260,
+          "doc_ids": [
+            "DOC-B0017-TOUR_API-130421"
+          ]
+        },
+        {
+          "start": 261,
+          "end": 363,
+          "doc_ids": [
+            "DOC-B0017-TOUR_API-130421"
+          ]
+        },
+        {
+          "start": 364,
+          "end": 435,
+          "doc_ids": [
+            "DOC-B0017-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=13",
+      "text": "창원시립마산박물관은 급격한 현대화와 도시화의 물결속에서 사라져가는 우리지역의 문화유산을 수집∙보관∙전시∙교육하며, 지역민과 함께 지켜나가는 소중한 문화공간으로 2001년 9월 개관하였다. 전시실은 상설전시실과 기획전시실, 야외전시장으로 구성되어 있으며 이외에도 어린이도서실, 강의실 등의 시설을 갖추고 있다. 상설전시실은 각종 지역 출토 유물과 사진 자료, 설명문 등이 전시되어 있어 선사시대부터 근현대에 이르기까지 지역의 역사와 문화를 체계적으로 이해할 수 있다. 창원시립마산박물관은 역사문화 교육, 지역사 자료조사 활동, 문화행사 등 다양한 박물관 프로그램을 운영하여 지역문화 유산의 가치를 널리 알리고 지역문화 창조의 중추적 역할을 하고 있다. 마산시립박물관은 2001년 9월 12에 개관하였으며, 현대화와 도시화로 사라져가는 문화유산을 수집.보관.전시.교육하는 문화공간임",
+      "sido": "경상남도",
+      "sigungu": "창원시",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=13"
+      ],
+      "evidence_id": "E3",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=17",
+        "fields": {
+          "name": "창원시립마산박물관",
+          "sido": "경상남도",
+          "sigungu": "창원시",
+          "address": "경상남도 창원시 마산합포구 문신길105(추산동)",
+          "ownership_type": "공립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "09:00",
+          "weekday_close": "18:00",
+          "holiday_open": "09:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "매주월+1월 1일+설날+추석당일"
+        },
+        "base_data_date": "2026-09-01",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0619",
+      "name": "불교중앙박물관",
+      "document": "불교중앙박물관은 대한불교조계종에서 설립하여 2007년 3월 17일 개관한 불교전문 박물관이다. 불교의 문화와 역사, 전국 각 사찰에서 수장하기 어려운 불교문화유산을 보존하고 전시하기 위해서 만들었다. 지하 3개 층에 상설전시관과 수장고, 보존처리실, 학예연구실, 시청각실 등을 갖추고 있다. 상설전시실은 3개로 이루어져 있다. 제1전시실에는 석가모니불과 비로자나불, 조각과 탱화, 탑 등 22점이 전시되어 있다. 제2전시실에는 다양한 부처와 보살 등 25점, 제3전시실에는 인간의 모습으로 세상에 나타난 부처를 형상화한 작품 17점이 있다. 수장고도 3개인데 제1수장고에는 온도와 습도에 민감하지 않은 석조 및 기와류, 제2수장고에는 금속 및 목재로 만든 불상과 공예품, 제3수장고에는 회화 및 전적 등 지본류가 있다. 불교문화 강좌를 해마다 진행하고 있는 수도권에서 유일한 상설 불교전문 박물관으로 종로구 견지동 조계사 경내에 있다.",
+      "metadata": {
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "address": "서울특별시 종로구 우정국로 55",
+        "adult_fee": 0.0,
+        "image_copyright": "Type3",
+        "latitude": 37.57389395,
+        "holiday_close": "18:00",
+        "requires_manual_review": true,
+        "longitude": 126.9818833,
+        "closure_rule_raw": "월요일+명절(1.1, 설날, 추석)",
+        "holiday_open": "09:00",
+        "youth_fee": 0.0,
+        "sido": "서울특별시",
+        "homepage_url": "http://museum.buddhism.or.kr/",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/43/3013043_image2_1.jpg",
+        "weekday_close": "18:00",
+        "weekday_open": "09:00",
+        "source_types": "TOUR_API",
+        "sigungu": "종로구",
+        "name": "불교중앙박물관",
+        "child_fee": 0.0,
+        "ownership_type": "사립"
+      },
+      "vector_rank": null,
+      "bm25_rank": 5,
+      "vector_distance": null,
+      "vector_score": null,
+      "bm25_score": 11.219874819241822,
+      "vector_document": "",
+      "bm25_document": "불교중앙박물관은 대한불교조계종에서 설립하여 2007년 3월 17일 개관한 불교전문 박물관이다. 불교의 문화와 역사, 전국 각 사찰에서 수장하기 어려운 불교문화유산을 보존하고 전시하기 위해서 만들었다. 지하 3개 층에 상설전시관과 수장고, 보존처리실, 학예연구실, 시청각실 등을 갖추고 있다. 상설전시실은 3개로 이루어져 있다. 제1전시실에는 석가모니불과 비로자나불, 조각과 탱화, 탑 등 22점이 전시되어 있다. 제2전시실에는 다양한 부처와 보살 등 25점, 제3전시실에는 인간의 모습으로 세상에 나타난 부처를 형상화한 작품 17점이 있다. 수장고도 3개인데 제1수장고에는 온도와 습도에 민감하지 않은 석조 및 기와류, 제2수장고에는 금속 및 목재로 만든 불상과 공예품, 제3수장고에는 회화 및 전적 등 지본류가 있다. 불교문화 강좌를 해마다 진행하고 있는 수도권에서 유일한 상설 불교전문 박물관으로 종로구 견지동 조계사 경내에 있다.",
+      "best_span_id": "chroma:M0619",
+      "best_span_text": "불교중앙박물관은 대한불교조계종에서 설립하여 2007년 3월 17일 개관한 불교전문 박물관이다. 불교의 문화와 역사, 전국 각 사찰에서 수장하기 어려운 불교문화유산을 보존하고 전시하기 위해서 만들었다. 지하 3개 층에 상설전시관과 수장고, 보존처리실, 학예연구실, 시청각실 등을 갖추고 있다. 상설전시실은 3개로 이루어져 있다. 제1전시실에는 석가모니불과 비로자나불, 조각과 탱화, 탑 등 22점이 전시되어 있다. 제2전시실에는 다양한 부처와 보살 등 25점, 제3전시실에는 인간의 모습으로 세상에 나타난 부처를 형상화한 작품 17점이 있다. 수장고도 3개인데 제1수장고에는 온도와 습도에 민감하지 않은 석조 및 기와류, 제2수장고에는 금속 및 목재로 만든 불상과 공예품, 제3수장고에는 회화 및 전적 등 지본류가 있다. 불교문화 강좌를 해마다 진행하고 있는 수도권에서 유일한 상설 불교전문 박물관으로 종로구 견지동 조계사 경내에 있다.",
+      "fusion_score": 0.015384615384615385,
+      "retrieved_by": [
+        "bm25"
+      ],
+      "fusion_rank": 11,
+      "rerank_score": 0.003233481664210558,
+      "rank": 4,
+      "score": 0.003233481664210558,
+      "score_type": "cross_encoder",
+      "distance": null,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "bm25"
+      ],
+      "retriever": "bm25",
+      "span_id": "chroma:M0619",
+      "source_doc_ids": [
+        "DOC-B0619-TOUR_API-3013284"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0619-TOUR_API-3013284",
+          "source_type": "TOUR_API",
+          "source_record_id": "3013284",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=308",
+          "match_trust": "RECHECKED_BY_RULE_NOT_HUMAN_APPROVED"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 52,
+          "doc_ids": [
+            "DOC-B0619-TOUR_API-3013284"
+          ]
+        },
+        {
+          "start": 53,
+          "end": 111,
+          "doc_ids": [
+            "DOC-B0619-TOUR_API-3013284"
+          ]
+        },
+        {
+          "start": 112,
+          "end": 162,
+          "doc_ids": [
+            "DOC-B0619-TOUR_API-3013284"
+          ]
+        },
+        {
+          "start": 163,
+          "end": 182,
+          "doc_ids": [
+            "DOC-B0619-TOUR_API-3013284"
+          ]
+        },
+        {
+          "start": 183,
+          "end": 230,
+          "doc_ids": [
+            "DOC-B0619-TOUR_API-3013284"
+          ]
+        },
+        {
+          "start": 231,
+          "end": 302,
+          "doc_ids": [
+            "DOC-B0619-TOUR_API-3013284"
+          ]
+        },
+        {
+          "start": 303,
+          "end": 402,
+          "doc_ids": [
+            "DOC-B0619-TOUR_API-3013284"
+          ]
+        },
+        {
+          "start": 403,
+          "end": 467,
+          "doc_ids": [
+            "DOC-B0619-TOUR_API-3013284"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=308",
+      "text": "불교중앙박물관은 대한불교조계종에서 설립하여 2007년 3월 17일 개관한 불교전문 박물관이다. 불교의 문화와 역사, 전국 각 사찰에서 수장하기 어려운 불교문화유산을 보존하고 전시하기 위해서 만들었다. 지하 3개 층에 상설전시관과 수장고, 보존처리실, 학예연구실, 시청각실 등을 갖추고 있다. 상설전시실은 3개로 이루어져 있다. 제1전시실에는 석가모니불과 비로자나불, 조각과 탱화, 탑 등 22점이 전시되어 있다. 제2전시실에는 다양한 부처와 보살 등 25점, 제3전시실에는 인간의 모습으로 세상에 나타난 부처를 형상화한 작품 17점이 있다. 수장고도 3개인데 제1수장고에는 온도와 습도에 민감하지 않은 석조 및 기와류, 제2수장고에는 금속 및 목재로 만든 불상과 공예품, 제3수장고에는 회화 및 전적 등 지본류가 있다. 불교문화 강좌를 해마다 진행하고 있는 수도권에서 유일한 상설 불교전문 박물관으로 종로구 견지동 조계사 경내에 있다.",
+      "sido": "서울특별시",
+      "sigungu": "종로구",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=308"
+      ],
+      "evidence_id": "E4",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=432",
+        "fields": {
+          "name": "불교중앙박물관",
+          "sido": "서울특별시",
+          "sigungu": "종로구",
+          "address": "서울특별시 종로구 우정국로 55",
+          "ownership_type": "사립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "09:00",
+          "weekday_close": "18:00",
+          "holiday_open": "09:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "월요일+명절(1.1, 설날, 추석)"
+        },
+        "base_data_date": "2025-11-01",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0498",
+      "name": "국립광주박물관",
+      "document": "국립광주박물관은 1976년 수중발굴이 시작된 신안 해저 유물을 비롯한 호남지역의 문화유산을 수집·보관하고, 지역의 역사와 문화를 소개하기 위해 1978년 12월 6일 개관하였다. 총면적 80,444㎡(24,334평)에 지상 2층, 지하 4층의 누각 형태를 본뜬 국립광주박물관은 국보·보물 등의 지정유산을 포함하여 160,000여 점의 유물을 소장하고 있다. 전시뿐만 아니라 다채로운 맞춤형 교육·체험프로그램과 문화행사를 연중 운영하고 있다. 박물관은 선사ㆍ고대문화실, 농경문화실, 도자실, 불교미술실, 서화실, 신안 해저 유물실, 중앙홀의 7개 상설전시실과 야외전시장이 있다. 선사·고대문화실에는 구석기시대부터 통일신라시대에 이르는 역사의 전개과정을 볼 수 있다. 신석기시대의 여수 송도와 안도 유적 출토품, 청동기시대의 고인돌, 화순 대곡리에서 출토된 국보 청동유물도 전시되어 있다. 전남지방은 한국도자기의 본산이라 할 만큼 고려시대 청자로부터 조선시대의 분청사기와 백자에 이르기까지 수많은 가마자리들이 분포되어 있어 여기에서 출토된 유물들을 도자실에서 볼 수 있다. 또한 신안 해저 유물실에는 1976년부터 1984년까지 9년 동안 신안해저침몰무역선으로부터 인양한 중국 송·원대 유물도 전시되어 있다. 불교미술실에는 통일신라시대부터 조선시대에 이르기까지 불교공예품과 불화 등이 전시되어 있다. 장흥 보림사삼층석탑, 전남광주 서오층석탑 등에서 출토된 사리장엄구와 보성 화방리 출토 금동여래입상, 화순 운주사출토 금동보살입상, 영암 용흥리출토 금동사천황상, 영암 용암사지출토 금동지장보살좌상, 전남광주 원효사 출토 부처얼굴, 담양 서봉사지출토 나한상 등이 전시되어 있다. 한편 입구로비에는 중흥산성쌍사자석등이 있다. 서화실에는 호남 회화의 흐름에 대해 쉽게 이해하고 감상하며 향토문화에 대한 자긍심을 일깨울 수 있도록 조선시대와 근대기에 활약한 호남출신 화가들의 대표적인 작품들을 전시하고 있다. 이밖에 정선, 심사정 등 조선시대를 대표하는 화가들의 작품도 함께 전시하여 관람객들이 호남회화의 흐름은 물론 조선시대 회화의 면모를 이해하고 감상하는 데 도움이 되도록 하였다.",
+      "metadata": {
+        "sigungu": "북구",
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "weekday_open": "10:00",
+        "weekday_close": "18:00",
+        "adult_fee": 0.0,
+        "ownership_type": "국립",
+        "latitude": 35.1896565756,
+        "child_fee": 0.0,
+        "youth_fee": 0.0,
+        "holiday_close": "18:00",
+        "sido": "광주광역시",
+        "image_copyright": "Type1",
+        "homepage_url": "http://gwangju.museum.go.kr",
+        "source_types": "TOUR_API",
+        "requires_manual_review": true,
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/01/4106501_image2_1.jpg",
+        "address": "광주광역시 북구 하서로 110",
+        "holiday_open": "10:00",
+        "closure_rule_raw": "1월 1일, 명절 당일, 4월, 11월 첫번째 주 월요일",
+        "longitude": 126.883951454,
+        "name": "국립광주박물관"
+      },
+      "vector_rank": 9,
+      "bm25_rank": null,
+      "vector_distance": 0.5680197477340698,
+      "vector_score": null,
+      "bm25_score": null,
+      "vector_document": "국립광주박물관은 1976년 수중발굴이 시작된 신안 해저 유물을 비롯한 호남지역의 문화유산을 수집·보관하고, 지역의 역사와 문화를 소개하기 위해 1978년 12월 6일 개관하였다. 총면적 80,444㎡(24,334평)에 지상 2층, 지하 4층의 누각 형태를 본뜬 국립광주박물관은 국보·보물 등의 지정유산을 포함하여 160,000여 점의 유물을 소장하고 있다. 전시뿐만 아니라 다채로운 맞춤형 교육·체험프로그램과 문화행사를 연중 운영하고 있다. 박물관은 선사ㆍ고대문화실, 농경문화실, 도자실, 불교미술실, 서화실, 신안 해저 유물실, 중앙홀의 7개 상설전시실과 야외전시장이 있다. 선사·고대문화실에는 구석기시대부터 통일신라시대에 이르는 역사의 전개과정을 볼 수 있다. 신석기시대의 여수 송도와 안도 유적 출토품, 청동기시대의 고인돌, 화순 대곡리에서 출토된 국보 청동유물도 전시되어 있다. 전남지방은 한국도자기의 본산이라 할 만큼 고려시대 청자로부터 조선시대의 분청사기와 백자에 이르기까지 수많은 가마자리들이 분포되어 있어 여기에서 출토된 유물들을 도자실에서 볼 수 있다. 또한 신안 해저 유물실에는 1976년부터 1984년까지 9년 동안 신안해저침몰무역선으로부터 인양한 중국 송·원대 유물도 전시되어 있다. 불교미술실에는 통일신라시대부터 조선시대에 이르기까지 불교공예품과 불화 등이 전시되어 있다. 장흥 보림사삼층석탑, 전남광주 서오층석탑 등에서 출토된 사리장엄구와 보성 화방리 출토 금동여래입상, 화순 운주사출토 금동보살입상, 영암 용흥리출토 금동사천황상, 영암 용암사지출토 금동지장보살좌상, 전남광주 원효사 출토 부처얼굴, 담양 서봉사지출토 나한상 등이 전시되어 있다. 한편 입구로비에는 중흥산성쌍사자석등이 있다. 서화실에는 호남 회화의 흐름에 대해 쉽게 이해하고 감상하며 향토문화에 대한 자긍심을 일깨울 수 있도록 조선시대와 근대기에 활약한 호남출신 화가들의 대표적인 작품들을 전시하고 있다. 이밖에 정선, 심사정 등 조선시대를 대표하는 화가들의 작품도 함께 전시하여 관람객들이 호남회화의 흐름은 물론 조선시대 회화의 면모를 이해하고 감상하는 데 도움이 되도록 하였다.",
+      "bm25_document": "",
+      "best_span_id": null,
+      "best_span_text": null,
+      "fusion_score": 0.014492753623188406,
+      "retrieved_by": [
+        "vector"
+      ],
+      "fusion_rank": 17,
+      "rerank_score": 0.002510136691853404,
+      "rank": 5,
+      "score": 0.002510136691853404,
+      "score_type": "cross_encoder",
+      "distance": 0.5680197477340698,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector"
+      ],
+      "retriever": "vector",
+      "source_doc_ids": [
+        "DOC-B0498-TOUR_API-129782"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0498-TOUR_API-129782",
+          "source_type": "TOUR_API",
+          "source_record_id": "129782",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=246",
+          "match_trust": "RECHECKED_BY_RULE_NOT_HUMAN_APPROVED"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 99,
+          "doc_ids": [
+            "DOC-B0498-TOUR_API-129782"
+          ]
+        },
+        {
+          "start": 100,
+          "end": 199,
+          "doc_ids": [
+            "DOC-B0498-TOUR_API-129782"
+          ]
+        },
+        {
+          "start": 200,
+          "end": 246,
+          "doc_ids": [
+            "DOC-B0498-TOUR_API-129782"
+          ]
+        },
+        {
+          "start": 247,
+          "end": 322,
+          "doc_ids": [
+            "DOC-B0498-TOUR_API-129782"
+          ]
+        },
+        {
+          "start": 323,
+          "end": 371,
+          "doc_ids": [
+            "DOC-B0498-TOUR_API-129782"
+          ]
+        },
+        {
+          "start": 372,
+          "end": 439,
+          "doc_ids": [
+            "DOC-B0498-TOUR_API-129782"
+          ]
+        },
+        {
+          "start": 440,
+          "end": 542,
+          "doc_ids": [
+            "DOC-B0498-TOUR_API-129782"
+          ]
+        },
+        {
+          "start": 543,
+          "end": 618,
+          "doc_ids": [
+            "DOC-B0498-TOUR_API-129782"
+          ]
+        },
+        {
+          "start": 619,
+          "end": 669,
+          "doc_ids": [
+            "DOC-B0498-TOUR_API-129782"
+          ]
+        },
+        {
+          "start": 670,
+          "end": 823,
+          "doc_ids": [
+            "DOC-B0498-TOUR_API-129782"
+          ]
+        },
+        {
+          "start": 824,
+          "end": 848,
+          "doc_ids": [
+            "DOC-B0498-TOUR_API-129782"
+          ]
+        },
+        {
+          "start": 849,
+          "end": 949,
+          "doc_ids": [
+            "DOC-B0498-TOUR_API-129782"
+          ]
+        },
+        {
+          "start": 950,
+          "end": 1048,
+          "doc_ids": [
+            "DOC-B0498-TOUR_API-129782"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=246",
+      "text": "국립광주박물관은 1976년 수중발굴이 시작된 신안 해저 유물을 비롯한 호남지역의 문화유산을 수집·보관하고, 지역의 역사와 문화를 소개하기 위해 1978년 12월 6일 개관하였다. 총면적 80,444㎡(24,334평)에 지상 2층, 지하 4층의 누각 형태를 본뜬 국립광주박물관은 국보·보물 등의 지정유산을 포함하여 160,000여 점의 유물을 소장하고 있다. 전시뿐만 아니라 다채로운 맞춤형 교육·체험프로그램과 문화행사를 연중 운영하고 있다. 박물관은 선사ㆍ고대문화실, 농경문화실, 도자실, 불교미술실, 서화실, 신안 해저 유물실, 중앙홀의 7개 상설전시실과 야외전시장이 있다. 선사·고대문화실에는 구석기시대부터 통일신라시대에 이르는 역사의 전개과정을 볼 수 있다. 신석기시대의 여수 송도와 안도 유적 출토품, 청동기시대의 고인돌, 화순 대곡리에서 출토된 국보 청동유물도 전시되어 있다. 전남지방은 한국도자기의 본산이라 할 만큼 고려시대 청자로부터 조선시대의 분청사기와 백자에 이르기까지 수많은 가마자리들이 분포되어 있어 여기에서 출토된 유물들을 도자실에서 볼 수 있다. 또한 신안 해저 유물실에는 1976년부터 1984년까지 9년 동안 신안해저침몰무역선으로부터 인양한 중국 송·원대 유물도 전시되어 있다. 불교미술실에는 통일신라시대부터 조선시대에 이르기까지 불교공예품과 불화 등이 전시되어 있다. 장흥 보림사삼층석탑, 전남광주 서오층석탑 등에서 출토된 사리장엄구와 보성 화방리 출토 금동여래입상, 화순 운주사출토 금동보살입상, 영암 용흥리출토 금동사천황상, 영암 용암사지출토 금동지장보살좌상, 전남광주 원효사 출토 부처얼굴, 담양 서봉사지출토 나한상 등이 전시되어 있다. 한편 입구로비에는 중흥산성쌍사자석등이 있다. 서화실에는 호남 회화의 흐름에 대해 쉽게 이해하고 감상하며 향토문화에 대한 자긍심을 일깨울 수 있도록 조선시대와 근대기에 활약한 호남출신 화가들의 대표적인 작품들을 전시하고 있다. 이밖에 정선, 심사정 등 조선시대를 대표하는 화가들의 작품도 함께 전시하여 관람객들이 호남회화의 흐름은 물론 조선시대 회화의 면모를 이해하고 감상하는 데 도움이 되도록 하였다.",
+      "sido": "광주광역시",
+      "sigungu": "북구",
+      "span_id": "",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=246"
+      ],
+      "evidence_id": "E5",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=357",
+        "fields": {
+          "name": "국립광주박물관",
+          "sido": "광주광역시",
+          "sigungu": "북구",
+          "address": "광주광역시 북구 하서로 110",
+          "ownership_type": "국립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "10:00",
+          "weekday_close": "18:00",
+          "holiday_open": "10:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "1월 1일, 명절 당일, 4월, 11월 첫번째 주 월요일"
+        },
+        "base_data_date": "2026-04-08",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    }
+  ],
+  "answer": "전시실은 진해탑 1층과 2층에 있습니다. [E1]",
+  "retrieval_status": "ok",
+  "answer_status": "answered",
+  "route": "hybrid",
+  "retry_count": 0,
+  "supervisor_verified": true,
+  "rerank_applied": true,
+  "retriever_errors": [],
+  "warnings": [],
+  "duration_ms": 72407.66,
+  "error_type": "",
+  "hit_at_1": 1,
+  "hit_at_3": 1,
+  "hit_at_5": 1,
+  "recall_at_5": 1.0,
+  "mrr_at_10": 1.0
+}

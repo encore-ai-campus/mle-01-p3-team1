@@ -1,0 +1,158 @@
+{
+  "mode": "supervisor_full",
+  "question_id": "V2-SF08",
+  "evidence": [
+    {
+      "museum_id": "M0228",
+      "name": "속초시립박물관",
+      "text": "속초시립박물관은 속초가 간직하고 있는 독특한 민속문화를 두루 관람하면서 향토민속문화를 손수 체험할 수 있는 박물관입니다.",
+      "span_id": "",
+      "source_doc_ids": [
+        "DOC-B0228-BASE"
+      ],
+      "source_urls": [],
+      "source_url": "",
+      "source_locators": [
+        "data/raw/museum_base_1070.csv#row=229"
+      ],
+      "source_locator": "data/raw/museum_base_1070.csv#row=229",
+      "sido": "강원특별자치도",
+      "sigungu": "속초시",
+      "retriever": "graph",
+      "amenities": [
+        {
+          "category": "식음·쇼핑",
+          "name": "식당"
+        }
+      ],
+      "facility_type": "박물관",
+      "source_scope": "graph_properties",
+      "metadata": {},
+      "chunk_id": "",
+      "retrievers": [
+        "graph"
+      ],
+      "evidence_id": "E1",
+      "rank": 1
+    },
+    {
+      "museum_id": "M0355",
+      "name": "KT&G 상상마당 춘천 아트센터",
+      "text": "의암호 수변의 아름다운 경관을 가진 춘천시 어린이회관을 리모델링하여 다양한 전시 제공",
+      "span_id": "",
+      "source_doc_ids": [
+        "DOC-B0355-BASE"
+      ],
+      "source_urls": [],
+      "source_url": "",
+      "source_locators": [
+        "data/raw/museum_base_1070.csv#row=356"
+      ],
+      "source_locator": "data/raw/museum_base_1070.csv#row=356",
+      "sido": "강원특별자치도",
+      "sigungu": "춘천시",
+      "retriever": "graph",
+      "amenities": [
+        {
+          "category": "식음·쇼핑",
+          "name": "식당"
+        }
+      ],
+      "facility_type": "미술관",
+      "source_scope": "graph_properties",
+      "metadata": {},
+      "chunk_id": "",
+      "retrievers": [
+        "graph"
+      ],
+      "evidence_id": "E2",
+      "rank": 2
+    },
+    {
+      "museum_id": "M0356",
+      "name": "이상원미술관",
+      "text": "이상원미술관은 예술과 자연을 통해 휴식과 영감을 얻을 수 있는 시설이다. 2014년에 개관하였고 미술관 및 체험공방과 여행자를 위한 스테이가 가능하다. 강원도를 대표하는 이상원화백(1935~2024)의 작품을 상설전시하며, 동시대 미술가의 다양한 작품을 소개하는 기획전을 진행하고 있다. 대표적으로 뮤지엄스테이 1박2일 프로그램이 있다. 자연속의 미술관에서 하룻밤을 지내며 현대미술 관람, 다양한 체험(금속, 도자, 미술)활동이 주된 컨텐츠이다. 2014. 10. 18. 개관하여 이상원 화백의 회화작품 소장(약 2000여 점) 및 한국 미술가들의 창작품 보유(1000여 점)",
+      "span_id": "",
+      "source_doc_ids": [
+        "DOC-B0356-BASE",
+        "DOC-B0356-TOUR_API-2648390"
+      ],
+      "source_urls": [],
+      "source_url": "",
+      "source_locators": [
+        "data/raw/museum_base_1070.csv#row=357",
+        "data/raw/museum_tourapi_with_overview.csv#row=168"
+      ],
+      "source_locator": "data/raw/museum_base_1070.csv#row=357",
+      "sido": "강원특별자치도",
+      "sigungu": "춘천시",
+      "retriever": "graph",
+      "amenities": [
+        {
+          "category": "식음·쇼핑",
+          "name": "식당"
+        }
+      ],
+      "facility_type": "미술관",
+      "source_scope": "graph_properties",
+      "metadata": {},
+      "chunk_id": "",
+      "retrievers": [
+        "graph"
+      ],
+      "evidence_id": "E3",
+      "rank": 3
+    },
+    {
+      "museum_id": "M1022",
+      "name": "삼탄아트마인",
+      "text": "삼탄아트마인은 1964년에서 2001년까지 삼척탄좌가 있던 자리다. 그 터 위에 옛 폐광의 흔적을 보존하며 문화 예술의 가치를 입혔다. 그래서 그 이름 안에 ‘아트(예술 art)’와 ‘마인(광산 mine)’이 공존한다. 제일 먼저 만나는 장소는 삼탄아트센터 본관이다. 과거 삼척탄좌 시절 사무공간과 광원들의 공동 샤워실, 수직갱을 움직이던 운전실이 있던 장소다. 이를 활용해 레지던시룸, 현대미술관 CAM1, 삼탄아트마인 자료 등으로 꾸몄다. 그 가운데 옛 광원이 몸을 씻던 샤워장과 장화를 씻던 세화장 등은 마인 갤러리로 변신했다. 덕분에 아주 특별한 전시 풍경을 연출한다. 레일바이뮤지엄 또한 삼탄아트마인의 자랑이다. 외부에서 진입할 때 가장 먼저 보이는 53m의 권양기가 위치한 건물이다. 권양기는 광원들이 지하 탄광으로 이동할 때 사용하던 산업용 엘리베이터다. 건물 내부는 당시의 현장을 그대로 보존해 옛 삼척탄좌의 분위기를 가장 잘 느낄 수 있다. 야외공원에는 탄광의 기계 제작 공장동을 개조한 레스토랑 823L, 중앙압축기실로 쓰이던 원시미술박물관이 위치한다. 옛 탄광과 예술의 조화가 절묘해 현재와 과거의 시간을 넘나드는 듯하다. 2001년 10월 폐광된 삼척탄좌 시설을 활용+창조적인 문화예술단지로 운영",
+      "span_id": "",
+      "source_doc_ids": [
+        "DOC-B1022-BASE",
+        "DOC-B1022-TOUR_API-2470392"
+      ],
+      "source_urls": [],
+      "source_url": "",
+      "source_locators": [
+        "data/raw/museum_base_1070.csv#row=1023",
+        "data/raw/museum_tourapi_with_overview.csv#row=474"
+      ],
+      "source_locator": "data/raw/museum_base_1070.csv#row=1023",
+      "sido": "강원특별자치도",
+      "sigungu": "정선군",
+      "retriever": "graph",
+      "amenities": [
+        {
+          "category": "식음·쇼핑",
+          "name": "식당"
+        }
+      ],
+      "facility_type": "미술관",
+      "source_scope": "graph_properties",
+      "metadata": {},
+      "chunk_id": "",
+      "retrievers": [
+        "graph"
+      ],
+      "evidence_id": "E4",
+      "rank": 4
+    }
+  ],
+  "answer": "기록상 식당이 있는 강원 지역 박물관·미술관은 다음과 같습니다. 속초시립박물관(속초시) [E1], KT&G 상상마당 춘천 아트센터(춘천시, 자료상 미술관) [E2], 이상원미술관(춘천시) [E3], 삼탄아트마인(정선군)입니다. 삼탄아트마인에는 레스토랑 823L이 있다고 소개되어 있습니다 [E4]. 식당 정보는 기록된 내용이며 현재 운영 여부를 보증하지 않습니다 [E1][E2][E3][E4].",
+  "retrieval_status": "ok",
+  "answer_status": "answered",
+  "route": "graph",
+  "retry_count": 1,
+  "supervisor_verified": true,
+  "rerank_applied": false,
+  "retriever_errors": [],
+  "warnings": [],
+  "duration_ms": 83453.07,
+  "error_type": "",
+  "hit_at_1": 1,
+  "hit_at_3": 1,
+  "hit_at_5": 1,
+  "recall_at_5": 1.0,
+  "mrr_at_10": 1.0
+}

@@ -1,0 +1,803 @@
+{
+  "mode": "supervisor_full",
+  "question_id": "Q012",
+  "evidence": [
+    {
+      "museum_id": "M0012",
+      "name": "홍주성역사관",
+      "document": "홍주성역사관은 홍성 홍주읍성 내 위치하고 있다. 지역의 전통을 부각시키면서 동시에 역사에 바탕을 둔 미래지향적인 시설로 구성되었으며, 역사관의 기본적 기능에 충실하여 전시 유물의 상징적 의미와 예술적 요소를 함축성 있게 표현하여 이를 바탕으로 군민 참여와 소통의 장이자 연구의 중심지로서 지역 정보 센터의 역할을 하고 있다. 홍성과 충남 내포지역의 특색 있는 역사와 문화, 관련 유적 및 유물을 소재로 전시를 하고 있다. 박물관 주변에 옛 홍주목 관련 흔적들이 남아 있어 전시와 연계한 볼거리가 마련되어 있다. 홍성 홍주읍성(사적 231호) 내 위치하고 있으며 전면적 7199.17㎡ 및 연면적 1669㎡ 로 구성되어 있다. 박물관이 홍주읍성 내에 위치하고 있고 주변에 옛 홍주목 관련 흔적들이 남아 있어 전시와 연계한 볼거리가 마련되어 있다.",
+      "metadata": {
+        "child_fee": 0.0,
+        "source_types": "BASE|TOUR_API",
+        "sido": "충청남도",
+        "ownership_type": "공립",
+        "adult_fee": 0.0,
+        "latitude": 36.60019715,
+        "address": "충청남도 홍성군 홍성읍 아문길 20",
+        "name": "홍주성역사관",
+        "holiday_close": "18:00",
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "weekday_close": "18:00",
+        "weekday_open": "09:00",
+        "requires_manual_review": true,
+        "homepage_url": "https://www.hongseong.go.kr/history/",
+        "longitude": 126.660951,
+        "holiday_open": "09:00",
+        "youth_fee": 0.0,
+        "sigungu": "홍성군",
+        "closure_rule_raw": "월+1월 1일+설 연휴+추석 연휴",
+        "transport_notes": "서울→서해안고속도로(홍성IC)→21번국도(홍성방면)→홍주성역사관"
+      },
+      "vector_rank": 1,
+      "bm25_rank": 1,
+      "vector_distance": 0.41424715518951416,
+      "vector_score": null,
+      "bm25_score": 15.122907387358387,
+      "vector_document": "홍주성역사관은 홍성 홍주읍성 내 위치하고 있다. 지역의 전통을 부각시키면서 동시에 역사에 바탕을 둔 미래지향적인 시설로 구성되었으며, 역사관의 기본적 기능에 충실하여 전시 유물의 상징적 의미와 예술적 요소를 함축성 있게 표현하여 이를 바탕으로 군민 참여와 소통의 장이자 연구의 중심지로서 지역 정보 센터의 역할을 하고 있다. 홍성과 충남 내포지역의 특색 있는 역사와 문화, 관련 유적 및 유물을 소재로 전시를 하고 있다. 박물관 주변에 옛 홍주목 관련 흔적들이 남아 있어 전시와 연계한 볼거리가 마련되어 있다. 홍성 홍주읍성(사적 231호) 내 위치하고 있으며 전면적 7199.17㎡ 및 연면적 1669㎡ 로 구성되어 있다. 박물관이 홍주읍성 내에 위치하고 있고 주변에 옛 홍주목 관련 흔적들이 남아 있어 전시와 연계한 볼거리가 마련되어 있다.",
+      "bm25_document": "홍주성역사관은 홍성 홍주읍성 내 위치하고 있다. 지역의 전통을 부각시키면서 동시에 역사에 바탕을 둔 미래지향적인 시설로 구성되었으며, 역사관의 기본적 기능에 충실하여 전시 유물의 상징적 의미와 예술적 요소를 함축성 있게 표현하여 이를 바탕으로 군민 참여와 소통의 장이자 연구의 중심지로서 지역 정보 센터의 역할을 하고 있다. 홍성과 충남 내포지역의 특색 있는 역사와 문화, 관련 유적 및 유물을 소재로 전시를 하고 있다. 박물관 주변에 옛 홍주목 관련 흔적들이 남아 있어 전시와 연계한 볼거리가 마련되어 있다. 홍성 홍주읍성(사적 231호) 내 위치하고 있으며 전면적 7199.17㎡ 및 연면적 1669㎡ 로 구성되어 있다. 박물관이 홍주읍성 내에 위치하고 있고 주변에 옛 홍주목 관련 흔적들이 남아 있어 전시와 연계한 볼거리가 마련되어 있다.",
+      "best_span_id": "chroma:M0012",
+      "best_span_text": "홍주성역사관은 홍성 홍주읍성 내 위치하고 있다. 지역의 전통을 부각시키면서 동시에 역사에 바탕을 둔 미래지향적인 시설로 구성되었으며, 역사관의 기본적 기능에 충실하여 전시 유물의 상징적 의미와 예술적 요소를 함축성 있게 표현하여 이를 바탕으로 군민 참여와 소통의 장이자 연구의 중심지로서 지역 정보 센터의 역할을 하고 있다. 홍성과 충남 내포지역의 특색 있는 역사와 문화, 관련 유적 및 유물을 소재로 전시를 하고 있다. 박물관 주변에 옛 홍주목 관련 흔적들이 남아 있어 전시와 연계한 볼거리가 마련되어 있다. 홍성 홍주읍성(사적 231호) 내 위치하고 있으며 전면적 7199.17㎡ 및 연면적 1669㎡ 로 구성되어 있다. 박물관이 홍주읍성 내에 위치하고 있고 주변에 옛 홍주목 관련 흔적들이 남아 있어 전시와 연계한 볼거리가 마련되어 있다.",
+      "fusion_score": 0.03278688524590164,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 1,
+      "rerank_score": 0.998685896396637,
+      "rank": 1,
+      "score": 0.998685896396637,
+      "score_type": "cross_encoder",
+      "distance": 0.41424715518951416,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0012",
+      "source_doc_ids": [
+        "DOC-B0012-TOUR_API-2551494",
+        "DOC-B0012-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0012-TOUR_API-2551494",
+          "source_type": "TOUR_API",
+          "source_record_id": "2551494",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=10",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        },
+        {
+          "doc_id": "DOC-B0012-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0012",
+          "source_locator": "data/raw/museum_base_1070.csv#row=13",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 26,
+          "doc_ids": [
+            "DOC-B0012-TOUR_API-2551494"
+          ]
+        },
+        {
+          "start": 27,
+          "end": 181,
+          "doc_ids": [
+            "DOC-B0012-TOUR_API-2551494"
+          ]
+        },
+        {
+          "start": 182,
+          "end": 235,
+          "doc_ids": [
+            "DOC-B0012-BASE",
+            "DOC-B0012-TOUR_API-2551494"
+          ]
+        },
+        {
+          "start": 236,
+          "end": 285,
+          "doc_ids": [
+            "DOC-B0012-TOUR_API-2551494"
+          ]
+        },
+        {
+          "start": 286,
+          "end": 349,
+          "doc_ids": [
+            "DOC-B0012-BASE"
+          ]
+        },
+        {
+          "start": 350,
+          "end": 416,
+          "doc_ids": [
+            "DOC-B0012-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=10",
+      "text": "홍주성역사관은 홍성 홍주읍성 내 위치하고 있다. 지역의 전통을 부각시키면서 동시에 역사에 바탕을 둔 미래지향적인 시설로 구성되었으며, 역사관의 기본적 기능에 충실하여 전시 유물의 상징적 의미와 예술적 요소를 함축성 있게 표현하여 이를 바탕으로 군민 참여와 소통의 장이자 연구의 중심지로서 지역 정보 센터의 역할을 하고 있다. 홍성과 충남 내포지역의 특색 있는 역사와 문화, 관련 유적 및 유물을 소재로 전시를 하고 있다. 박물관 주변에 옛 홍주목 관련 흔적들이 남아 있어 전시와 연계한 볼거리가 마련되어 있다. 홍성 홍주읍성(사적 231호) 내 위치하고 있으며 전면적 7199.17㎡ 및 연면적 1669㎡ 로 구성되어 있다. 박물관이 홍주읍성 내에 위치하고 있고 주변에 옛 홍주목 관련 흔적들이 남아 있어 전시와 연계한 볼거리가 마련되어 있다.",
+      "sido": "충청남도",
+      "sigungu": "홍성군",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=10"
+      ],
+      "evidence_id": "E1",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=12",
+        "fields": {
+          "name": "홍주성역사관",
+          "sido": "충청남도",
+          "sigungu": "홍성군",
+          "address": "충청남도 홍성군 홍성읍 아문길 20",
+          "ownership_type": "공립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "09:00",
+          "weekday_close": "18:00",
+          "holiday_open": "09:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "월+1월 1일+설 연휴+추석 연휴"
+        },
+        "base_data_date": "2026-09-19",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0336",
+      "name": "충주박물관",
+      "document": "충주박물관은 중원 문화권의 학술 연구과 유물 및 유적을 보존하고 각종 특별전 등의 행사를 통해 시민과 함께 하는 박물관 실현을 목적으로 설립된 곳이다. 제1전시관과 제2전시관, 야외전시공간 등으로 구성되어 있다. 제1전시관은 충주 미륵대원지, 정토사 홍법국사실상탑 모형, 석불입상 등과 같은 불교 유적을 전시한다. 야외전시유물은 율능리 석불입상, 장성리 삼층석탑, 용탄동 석탑 등의 불교 관련 유물과 각종 묘비, 문안석 등 많은 석조 유물이 전시되어 있다. 제2전시관은 충주 지역에서 출토된 자료를 중심으로 선사시대부터 통일신라시대까지 시대적 특징을 알아 볼 수 있는 곳으로 금릉동에서 출토된 찍개와 충주 조동리 유적에서 출토된 돌도끼, 그물추, 화살촉 등 선사시대 유물, 삼국·통일신라 시대의 토기, 기와류, 금속 유물을 전시했다. 특히 충주 고구려비와 단양적성비를 전시하여 충주 지역이 삼국시대 요충지이었음을 보여주고 있다. 충주의 역사와 문화유산을 전시 및 체험을 통해 즐길수 있는 박물관으로, 역사실, 민속실, 디지털실감체험실, 실감영상실, 고려조선실, 충주명현실로 구성되어 있다.",
+      "metadata": {
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "image_copyright": "Type1",
+        "longitude": 127.8651272,
+        "ownership_type": "국립",
+        "source_types": "BASE|TOUR_API",
+        "holiday_close": "18:00",
+        "amenities_raw": "안내실+자료실+강당",
+        "sido": "충청북도",
+        "weekday_open": "09:00",
+        "name": "충주박물관",
+        "address": "충청북도 충주시 중앙탑면 중앙탑길 112-28",
+        "weekday_close": "18:00",
+        "sigungu": "충주시",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/46/3560546_image2_1.JPG",
+        "latitude": 37.016683,
+        "adult_fee": 0.0,
+        "requires_manual_review": true,
+        "holiday_open": "09:00",
+        "youth_fee": 0.0,
+        "closure_rule_raw": "매주월요일+1월1일+설 연휴+설 당일+추석 당일",
+        "homepage_url": "https://www.chungju.go.kr/museum",
+        "child_fee": 0.0,
+        "transport_notes": "시내버스 40~50분간격 운행, 도심에서 20분 소요"
+      },
+      "vector_rank": null,
+      "bm25_rank": 5,
+      "vector_distance": null,
+      "vector_score": null,
+      "bm25_score": 7.860867113370548,
+      "vector_document": "",
+      "bm25_document": "충주박물관은 중원 문화권의 학술 연구과 유물 및 유적을 보존하고 각종 특별전 등의 행사를 통해 시민과 함께 하는 박물관 실현을 목적으로 설립된 곳이다. 제1전시관과 제2전시관, 야외전시공간 등으로 구성되어 있다. 제1전시관은 충주 미륵대원지, 정토사 홍법국사실상탑 모형, 석불입상 등과 같은 불교 유적을 전시한다. 야외전시유물은 율능리 석불입상, 장성리 삼층석탑, 용탄동 석탑 등의 불교 관련 유물과 각종 묘비, 문안석 등 많은 석조 유물이 전시되어 있다. 제2전시관은 충주 지역에서 출토된 자료를 중심으로 선사시대부터 통일신라시대까지 시대적 특징을 알아 볼 수 있는 곳으로 금릉동에서 출토된 찍개와 충주 조동리 유적에서 출토된 돌도끼, 그물추, 화살촉 등 선사시대 유물, 삼국·통일신라 시대의 토기, 기와류, 금속 유물을 전시했다. 특히 충주 고구려비와 단양적성비를 전시하여 충주 지역이 삼국시대 요충지이었음을 보여주고 있다. 충주의 역사와 문화유산을 전시 및 체험을 통해 즐길수 있는 박물관으로, 역사실, 민속실, 디지털실감체험실, 실감영상실, 고려조선실, 충주명현실로 구성되어 있다.",
+      "best_span_id": "chroma:M0336",
+      "best_span_text": "충주박물관은 중원 문화권의 학술 연구과 유물 및 유적을 보존하고 각종 특별전 등의 행사를 통해 시민과 함께 하는 박물관 실현을 목적으로 설립된 곳이다. 제1전시관과 제2전시관, 야외전시공간 등으로 구성되어 있다. 제1전시관은 충주 미륵대원지, 정토사 홍법국사실상탑 모형, 석불입상 등과 같은 불교 유적을 전시한다. 야외전시유물은 율능리 석불입상, 장성리 삼층석탑, 용탄동 석탑 등의 불교 관련 유물과 각종 묘비, 문안석 등 많은 석조 유물이 전시되어 있다. 제2전시관은 충주 지역에서 출토된 자료를 중심으로 선사시대부터 통일신라시대까지 시대적 특징을 알아 볼 수 있는 곳으로 금릉동에서 출토된 찍개와 충주 조동리 유적에서 출토된 돌도끼, 그물추, 화살촉 등 선사시대 유물, 삼국·통일신라 시대의 토기, 기와류, 금속 유물을 전시했다. 특히 충주 고구려비와 단양적성비를 전시하여 충주 지역이 삼국시대 요충지이었음을 보여주고 있다. 충주의 역사와 문화유산을 전시 및 체험을 통해 즐길수 있는 박물관으로, 역사실, 민속실, 디지털실감체험실, 실감영상실, 고려조선실, 충주명현실로 구성되어 있다.",
+      "fusion_score": 0.015384615384615385,
+      "retrieved_by": [
+        "bm25"
+      ],
+      "fusion_rank": 10,
+      "rerank_score": 0.003991309553384781,
+      "rank": 2,
+      "score": 0.003991309553384781,
+      "score_type": "cross_encoder",
+      "distance": null,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "bm25"
+      ],
+      "retriever": "bm25",
+      "span_id": "chroma:M0336",
+      "source_doc_ids": [
+        "DOC-B0336-TOUR_API-130081",
+        "DOC-B0336-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0336-TOUR_API-130081",
+          "source_type": "TOUR_API",
+          "source_record_id": "130081",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=163",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        },
+        {
+          "doc_id": "DOC-B0336-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0336",
+          "source_locator": "data/raw/museum_base_1070.csv#row=337",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 84,
+          "doc_ids": [
+            "DOC-B0336-TOUR_API-130081"
+          ]
+        },
+        {
+          "start": 85,
+          "end": 118,
+          "doc_ids": [
+            "DOC-B0336-TOUR_API-130081"
+          ]
+        },
+        {
+          "start": 119,
+          "end": 175,
+          "doc_ids": [
+            "DOC-B0336-TOUR_API-130081"
+          ]
+        },
+        {
+          "start": 176,
+          "end": 255,
+          "doc_ids": [
+            "DOC-B0336-TOUR_API-130081"
+          ]
+        },
+        {
+          "start": 256,
+          "end": 410,
+          "doc_ids": [
+            "DOC-B0336-TOUR_API-130081"
+          ]
+        },
+        {
+          "start": 411,
+          "end": 463,
+          "doc_ids": [
+            "DOC-B0336-TOUR_API-130081"
+          ]
+        },
+        {
+          "start": 464,
+          "end": 553,
+          "doc_ids": [
+            "DOC-B0336-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=163",
+      "text": "충주박물관은 중원 문화권의 학술 연구과 유물 및 유적을 보존하고 각종 특별전 등의 행사를 통해 시민과 함께 하는 박물관 실현을 목적으로 설립된 곳이다. 제1전시관과 제2전시관, 야외전시공간 등으로 구성되어 있다. 제1전시관은 충주 미륵대원지, 정토사 홍법국사실상탑 모형, 석불입상 등과 같은 불교 유적을 전시한다. 야외전시유물은 율능리 석불입상, 장성리 삼층석탑, 용탄동 석탑 등의 불교 관련 유물과 각종 묘비, 문안석 등 많은 석조 유물이 전시되어 있다. 제2전시관은 충주 지역에서 출토된 자료를 중심으로 선사시대부터 통일신라시대까지 시대적 특징을 알아 볼 수 있는 곳으로 금릉동에서 출토된 찍개와 충주 조동리 유적에서 출토된 돌도끼, 그물추, 화살촉 등 선사시대 유물, 삼국·통일신라 시대의 토기, 기와류, 금속 유물을 전시했다. 특히 충주 고구려비와 단양적성비를 전시하여 충주 지역이 삼국시대 요충지이었음을 보여주고 있다. 충주의 역사와 문화유산을 전시 및 체험을 통해 즐길수 있는 박물관으로, 역사실, 민속실, 디지털실감체험실, 실감영상실, 고려조선실, 충주명현실로 구성되어 있다.",
+      "sido": "충청북도",
+      "sigungu": "충주시",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=163"
+      ],
+      "evidence_id": "E2",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=242",
+        "fields": {
+          "name": "충주박물관",
+          "sido": "충청북도",
+          "sigungu": "충주시",
+          "address": "충청북도 충주시 중앙탑면 중앙탑길 112-28",
+          "ownership_type": "국립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "09:00",
+          "weekday_close": "18:00",
+          "holiday_open": "09:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "매주월요일+1월1일+설 연휴+설 당일+추석 당일",
+          "amenities_raw": "안내실+자료실+강당"
+        },
+        "base_data_date": "2026-05-31",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0961",
+      "name": "홍천박물관",
+      "document": "2003년 5월 3일 개관, 홍천의 유구한 역사와 유서깊은 전통문화를 널리 알리는 지역의 대표 문화공간.",
+      "metadata": {
+        "weekday_close": "18:00",
+        "name": "홍천박물관",
+        "source_types": "BASE",
+        "transport_notes": "https://www.hongcheon.go.kr/museum/hcm/guide/direction/",
+        "adult_fee": 0.0,
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "sigungu": "홍천군",
+        "requires_manual_review": false,
+        "child_fee": 0.0,
+        "ownership_type": "공립",
+        "fee_notes": "0",
+        "weekday_open": "09:00",
+        "holiday_open": "09:00",
+        "longitude": 127.8724005,
+        "sido": "강원특별자치도",
+        "closure_rule_raw": "월",
+        "youth_fee": 0.0,
+        "address": "강원특별자치도 홍천군 홍천읍 장전평로 18",
+        "latitude": 37.68230738,
+        "holiday_close": "18:00",
+        "homepage_url": "https://www.hongcheon.go.kr/museum/"
+      },
+      "vector_rank": 5,
+      "bm25_rank": null,
+      "vector_distance": 0.565811038017273,
+      "vector_score": null,
+      "bm25_score": null,
+      "vector_document": "2003년 5월 3일 개관, 홍천의 유구한 역사와 유서깊은 전통문화를 널리 알리는 지역의 대표 문화공간.",
+      "bm25_document": "",
+      "best_span_id": null,
+      "best_span_text": null,
+      "fusion_score": 0.015384615384615385,
+      "retrieved_by": [
+        "vector"
+      ],
+      "fusion_rank": 9,
+      "rerank_score": 0.0013821100583299994,
+      "rank": 3,
+      "score": 0.0013821100583299994,
+      "score_type": "cross_encoder",
+      "distance": 0.565811038017273,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector"
+      ],
+      "retriever": "vector",
+      "source_doc_ids": [
+        "DOC-B0961-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0961-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0961",
+          "source_locator": "data/raw/museum_base_1070.csv#row=962",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 58,
+          "doc_ids": [
+            "DOC-B0961-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_base_1070.csv#row=962",
+      "text": "2003년 5월 3일 개관, 홍천의 유구한 역사와 유서깊은 전통문화를 널리 알리는 지역의 대표 문화공간.",
+      "sido": "강원특별자치도",
+      "sigungu": "홍천군",
+      "span_id": "",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_base_1070.csv#row=962"
+      ],
+      "evidence_id": "E3",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=661",
+        "fields": {
+          "name": "홍천박물관",
+          "sido": "강원특별자치도",
+          "sigungu": "홍천군",
+          "address": "강원특별자치도 홍천군 홍천읍 장전평로 18",
+          "ownership_type": "공립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "09:00",
+          "weekday_close": "18:00",
+          "holiday_open": "09:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "월"
+        },
+        "base_data_date": "2023-10-05",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0913",
+      "name": "청주백제유물전시관",
+      "document": "청주백제유물전시관은 사적 청주 신봉동 고분군의 역사와 문화를 보존하기 위해 2001년 11월 29일 개관했다. 선사시대부터 조선에 이르는 청주의 역사를 비롯해, 청주 신봉동 백제 고분군을 중심으로 인근의 송절동, 봉명동, 명암동, 가경동 유적과 청원의 송대리와 주성리 유적과 여러 유물을 전시하고 있다. 주요 소장 유물로는 삼국시대의 굽다리접시, 굽단지, 바리 모양토 기, 병 모양 토기, 세발토기, 손잡이 잔, 단지, 대구 등이 있다. 그밖에 기획 전시와 다채로운 문화행사, 체험·교육 프로그램을 열어 청주의 역사와 문화를 전하고 있다. 전시관에서는 청주시 문화 관광해설사의 전시관 해설을 진행한다. 사적 제319호 청주신봉동동백제고분군에 2001년 11월 건립 청주지역의 초기 역사를 보여주는 대표적인 교육의 장소",
+      "metadata": {
+        "name": "청주백제유물전시관",
+        "transport_notes": "자가용 이용시-경부고속도로 청주IC 10.9㎞ 중부고속도로 서청주 IC 6.2㎞ 대중교통 고소버스터미널에서 사창사거리 정류장 하차 후 도보 5분",
+        "homepage_url": "https://cheongju.go.kr/cjbaekje/index.do",
+        "sigungu": "청주시",
+        "requires_manual_review": true,
+        "sido": "충청북도",
+        "image_copyright": "Type1",
+        "address": "충청북도 청주시 흥덕구 1순환로 438번길 9(신봉동)",
+        "longitude": 127.4690007,
+        "ownership_type": "공립",
+        "adult_fee": 0.0,
+        "closure_rule_raw": "1월 1일+설 연휴+추석 연휴+월+14시까지",
+        "youth_fee": 0.0,
+        "source_types": "BASE|TOUR_API",
+        "holiday_close": "18:00",
+        "weekday_close": "18:00",
+        "child_fee": 0.0,
+        "weekday_open": "09:00",
+        "amenities_raw": "주차장",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/41/4120041_image2_1.JPG",
+        "holiday_open": "09:00",
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "latitude": 36.652175
+      },
+      "vector_rank": 16,
+      "bm25_rank": 6,
+      "vector_distance": 0.5949745178222656,
+      "vector_score": null,
+      "bm25_score": 7.495350882661597,
+      "vector_document": "청주백제유물전시관은 사적 청주 신봉동 고분군의 역사와 문화를 보존하기 위해 2001년 11월 29일 개관했다. 선사시대부터 조선에 이르는 청주의 역사를 비롯해, 청주 신봉동 백제 고분군을 중심으로 인근의 송절동, 봉명동, 명암동, 가경동 유적과 청원의 송대리와 주성리 유적과 여러 유물을 전시하고 있다. 주요 소장 유물로는 삼국시대의 굽다리접시, 굽단지, 바리 모양토 기, 병 모양 토기, 세발토기, 손잡이 잔, 단지, 대구 등이 있다. 그밖에 기획 전시와 다채로운 문화행사, 체험·교육 프로그램을 열어 청주의 역사와 문화를 전하고 있다. 전시관에서는 청주시 문화 관광해설사의 전시관 해설을 진행한다. 사적 제319호 청주신봉동동백제고분군에 2001년 11월 건립 청주지역의 초기 역사를 보여주는 대표적인 교육의 장소",
+      "bm25_document": "청주백제유물전시관은 사적 청주 신봉동 고분군의 역사와 문화를 보존하기 위해 2001년 11월 29일 개관했다. 선사시대부터 조선에 이르는 청주의 역사를 비롯해, 청주 신봉동 백제 고분군을 중심으로 인근의 송절동, 봉명동, 명암동, 가경동 유적과 청원의 송대리와 주성리 유적과 여러 유물을 전시하고 있다. 주요 소장 유물로는 삼국시대의 굽다리접시, 굽단지, 바리 모양토 기, 병 모양 토기, 세발토기, 손잡이 잔, 단지, 대구 등이 있다. 그밖에 기획 전시와 다채로운 문화행사, 체험·교육 프로그램을 열어 청주의 역사와 문화를 전하고 있다. 전시관에서는 청주시 문화 관광해설사의 전시관 해설을 진행한다. 사적 제319호 청주신봉동동백제고분군에 2001년 11월 건립 청주지역의 초기 역사를 보여주는 대표적인 교육의 장소",
+      "best_span_id": "chroma:M0913",
+      "best_span_text": "청주백제유물전시관은 사적 청주 신봉동 고분군의 역사와 문화를 보존하기 위해 2001년 11월 29일 개관했다. 선사시대부터 조선에 이르는 청주의 역사를 비롯해, 청주 신봉동 백제 고분군을 중심으로 인근의 송절동, 봉명동, 명암동, 가경동 유적과 청원의 송대리와 주성리 유적과 여러 유물을 전시하고 있다. 주요 소장 유물로는 삼국시대의 굽다리접시, 굽단지, 바리 모양토 기, 병 모양 토기, 세발토기, 손잡이 잔, 단지, 대구 등이 있다. 그밖에 기획 전시와 다채로운 문화행사, 체험·교육 프로그램을 열어 청주의 역사와 문화를 전하고 있다. 전시관에서는 청주시 문화 관광해설사의 전시관 해설을 진행한다. 사적 제319호 청주신봉동동백제고분군에 2001년 11월 건립 청주지역의 초기 역사를 보여주는 대표적인 교육의 장소",
+      "fusion_score": 0.028309409888357256,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 2,
+      "rerank_score": 0.0011999866692349315,
+      "rank": 4,
+      "score": 0.0011999866692349315,
+      "score_type": "cross_encoder",
+      "distance": 0.5949745178222656,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0913",
+      "source_doc_ids": [
+        "DOC-B0913-TOUR_API-1627209",
+        "DOC-B0913-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0913-TOUR_API-1627209",
+          "source_type": "TOUR_API",
+          "source_record_id": "1627209",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=427",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        },
+        {
+          "doc_id": "DOC-B0913-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0913",
+          "source_locator": "data/raw/museum_base_1070.csv#row=914",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 61,
+          "doc_ids": [
+            "DOC-B0913-TOUR_API-1627209"
+          ]
+        },
+        {
+          "start": 62,
+          "end": 169,
+          "doc_ids": [
+            "DOC-B0913-TOUR_API-1627209"
+          ]
+        },
+        {
+          "start": 170,
+          "end": 244,
+          "doc_ids": [
+            "DOC-B0913-TOUR_API-1627209"
+          ]
+        },
+        {
+          "start": 245,
+          "end": 301,
+          "doc_ids": [
+            "DOC-B0913-TOUR_API-1627209"
+          ]
+        },
+        {
+          "start": 302,
+          "end": 336,
+          "doc_ids": [
+            "DOC-B0913-TOUR_API-1627209"
+          ]
+        },
+        {
+          "start": 337,
+          "end": 401,
+          "doc_ids": [
+            "DOC-B0913-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=427",
+      "text": "청주백제유물전시관은 사적 청주 신봉동 고분군의 역사와 문화를 보존하기 위해 2001년 11월 29일 개관했다. 선사시대부터 조선에 이르는 청주의 역사를 비롯해, 청주 신봉동 백제 고분군을 중심으로 인근의 송절동, 봉명동, 명암동, 가경동 유적과 청원의 송대리와 주성리 유적과 여러 유물을 전시하고 있다. 주요 소장 유물로는 삼국시대의 굽다리접시, 굽단지, 바리 모양토 기, 병 모양 토기, 세발토기, 손잡이 잔, 단지, 대구 등이 있다. 그밖에 기획 전시와 다채로운 문화행사, 체험·교육 프로그램을 열어 청주의 역사와 문화를 전하고 있다. 전시관에서는 청주시 문화 관광해설사의 전시관 해설을 진행한다. 사적 제319호 청주신봉동동백제고분군에 2001년 11월 건립 청주지역의 초기 역사를 보여주는 대표적인 교육의 장소",
+      "sido": "충청북도",
+      "sigungu": "청주시",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=427"
+      ],
+      "evidence_id": "E4",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=629",
+        "fields": {
+          "name": "청주백제유물전시관",
+          "sido": "충청북도",
+          "sigungu": "청주시",
+          "address": "충청북도 청주시 흥덕구 1순환로 438번길 9(신봉동)",
+          "ownership_type": "공립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "09:00",
+          "weekday_close": "18:00",
+          "holiday_open": "09:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "1월 1일+설 연휴+추석 연휴+월+14시까지",
+          "amenities_raw": "주차장"
+        },
+        "base_data_date": "2025-11-26",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0312",
+      "name": "여주박물관",
+      "document": "1997년 여주군향토사료관으로 문을 연 여주박물관은 여주의 역사와 민속자료 등을 조사·수집·전시·교육하고, 새로운 학술자료를 발굴하며 여주의 정체성을 확립하는 역할을 수행하고 있다. 2010년 전시실 확장 후 제1종 전문박물관으로 등록하여 여주박물관으로 명칭을 변경하였으며, 2016년 7월 14일 여마관(신관)의 건립으로 전국에 흩어졌던 여주지역 발굴출토 국가귀속유물과 그간 수집한 다양한 유물을 전시할 수 있게 되었다. 전시실은 상설전시실과 기획전시실, 야외전시실로 구분되어 있으며, 상설전시실은 4가지 주제로 전시를 진행하고 있다. 여주역사실에서는 국립중앙박물관을 비롯한 여러 기관들에서 보관하던 주요 유적 출토 국가귀속 유물들과 그간 구입·기증을 통해 수집한 중요유물들을 전시하고 있다. 흔암리 선사유적지, 신륵사, 고달사지, 세종대왕릉과 효종대왕릉, 명성황후 생가 등 수많은 문화유적은 여주의 오랜 역사를 증명하고 있다. 남한강 수석전시실은 김정식 선생이 57년간 모은 수석을 기증받아 전시한 곳으로, 산수경석·물형석·추상석·12지석 등 자연이 빚은 최고의 예술작품인 수석의 멋과 아름다움을 느낄 수 있는 공간이다. 갖가지 수석에 담긴 의미를 여주 남한강이 가지고 있는 이야기로 풀어놓았다. 수석의 신비로움을 다채로운 방식으로 이해할 수 있는 공간이다. 류주현 문학전시실은 우리나라에 ‘대하 역사소설’이라는 장르를 개척하신 여주 출신의 묵사 류주현 선생의 삶과 작품세계를 설명한 공간이다. 류주현 선생은 다양·다작의 작가로 『조선총독부』, 『대원군』 등을 대표작으로 꼽을 수 있다. 한국 대표 문인으로서 선생의 생애와 작품세계, 문인들과의 교류를 통해 옛 문인들의 멋스러운 삶의 정취를 느낄 수 있을 것이다. 조선 왕릉실은 세종 영릉(英陵)과 효종 영릉(寧陵) 두 기의 조선 왕릉이 여주로 천릉하면서 조선시대부터 현대에 이르기까지 왕릉과 함께 변화한 여주의 역사와 여주 사람들의 삶을 살펴볼 수 있다. 여주의 역사와 전통문화를 아우르는 시립박물관으로, 전시와 교육, 체험을 할 수 있는 문화공간이다.",
+      "metadata": {
+        "homepage_url": "http://www.yeoju.go.kr/museum",
+        "address": "경기도 여주시 신륵사길 6-12",
+        "holiday_open": "09:00",
+        "latitude": 37.2996535,
+        "longitude": 127.6533782,
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "youth_fee": 0.0,
+        "holiday_close": "18:00",
+        "name": "여주박물관",
+        "image_copyright": "Type1",
+        "weekday_open": "09:00",
+        "ownership_type": "공립",
+        "child_fee": 0.0,
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/95/3540495_image2_1.jpg",
+        "requires_manual_review": true,
+        "source_types": "BASE|TOUR_API",
+        "weekday_close": "18:00",
+        "sido": "경기도",
+        "closure_rule_raw": "월요일+추석당일+설날당일+1월1일",
+        "sigungu": "여주시",
+        "adult_fee": 0.0,
+        "amenities_raw": "청춘카페",
+        "transport_notes": "여주IC → 여주대교 → 신륵사 관광단지 → 신륵사 관지 내 강변에 위치"
+      },
+      "vector_rank": 3,
+      "bm25_rank": null,
+      "vector_distance": 0.5610926747322083,
+      "vector_score": null,
+      "bm25_score": null,
+      "vector_document": "1997년 여주군향토사료관으로 문을 연 여주박물관은 여주의 역사와 민속자료 등을 조사·수집·전시·교육하고, 새로운 학술자료를 발굴하며 여주의 정체성을 확립하는 역할을 수행하고 있다. 2010년 전시실 확장 후 제1종 전문박물관으로 등록하여 여주박물관으로 명칭을 변경하였으며, 2016년 7월 14일 여마관(신관)의 건립으로 전국에 흩어졌던 여주지역 발굴출토 국가귀속유물과 그간 수집한 다양한 유물을 전시할 수 있게 되었다. 전시실은 상설전시실과 기획전시실, 야외전시실로 구분되어 있으며, 상설전시실은 4가지 주제로 전시를 진행하고 있다. 여주역사실에서는 국립중앙박물관을 비롯한 여러 기관들에서 보관하던 주요 유적 출토 국가귀속 유물들과 그간 구입·기증을 통해 수집한 중요유물들을 전시하고 있다. 흔암리 선사유적지, 신륵사, 고달사지, 세종대왕릉과 효종대왕릉, 명성황후 생가 등 수많은 문화유적은 여주의 오랜 역사를 증명하고 있다. 남한강 수석전시실은 김정식 선생이 57년간 모은 수석을 기증받아 전시한 곳으로, 산수경석·물형석·추상석·12지석 등 자연이 빚은 최고의 예술작품인 수석의 멋과 아름다움을 느낄 수 있는 공간이다. 갖가지 수석에 담긴 의미를 여주 남한강이 가지고 있는 이야기로 풀어놓았다. 수석의 신비로움을 다채로운 방식으로 이해할 수 있는 공간이다. 류주현 문학전시실은 우리나라에 ‘대하 역사소설’이라는 장르를 개척하신 여주 출신의 묵사 류주현 선생의 삶과 작품세계를 설명한 공간이다. 류주현 선생은 다양·다작의 작가로 『조선총독부』, 『대원군』 등을 대표작으로 꼽을 수 있다. 한국 대표 문인으로서 선생의 생애와 작품세계, 문인들과의 교류를 통해 옛 문인들의 멋스러운 삶의 정취를 느낄 수 있을 것이다. 조선 왕릉실은 세종 영릉(英陵)과 효종 영릉(寧陵) 두 기의 조선 왕릉이 여주로 천릉하면서 조선시대부터 현대에 이르기까지 왕릉과 함께 변화한 여주의 역사와 여주 사람들의 삶을 살펴볼 수 있다. 여주의 역사와 전통문화를 아우르는 시립박물관으로, 전시와 교육, 체험을 할 수 있는 문화공간이다.",
+      "bm25_document": "",
+      "best_span_id": null,
+      "best_span_text": null,
+      "fusion_score": 0.015873015873015872,
+      "retrieved_by": [
+        "vector"
+      ],
+      "fusion_rank": 5,
+      "rerank_score": 0.0011511845514178276,
+      "rank": 5,
+      "score": 0.0011511845514178276,
+      "score_type": "cross_encoder",
+      "distance": 0.5610926747322083,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector"
+      ],
+      "retriever": "vector",
+      "source_doc_ids": [
+        "DOC-B0312-TOUR_API-130965",
+        "DOC-B0312-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0312-TOUR_API-130965",
+          "source_type": "TOUR_API",
+          "source_record_id": "130965",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=153",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        },
+        {
+          "doc_id": "DOC-B0312-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0312",
+          "source_locator": "data/raw/museum_base_1070.csv#row=313",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 101,
+          "doc_ids": [
+            "DOC-B0312-TOUR_API-130965"
+          ]
+        },
+        {
+          "start": 102,
+          "end": 236,
+          "doc_ids": [
+            "DOC-B0312-TOUR_API-130965"
+          ]
+        },
+        {
+          "start": 237,
+          "end": 300,
+          "doc_ids": [
+            "DOC-B0312-TOUR_API-130965"
+          ]
+        },
+        {
+          "start": 301,
+          "end": 388,
+          "doc_ids": [
+            "DOC-B0312-TOUR_API-130965"
+          ]
+        },
+        {
+          "start": 389,
+          "end": 464,
+          "doc_ids": [
+            "DOC-B0312-TOUR_API-130965"
+          ]
+        },
+        {
+          "start": 465,
+          "end": 573,
+          "doc_ids": [
+            "DOC-B0312-TOUR_API-130965"
+          ]
+        },
+        {
+          "start": 574,
+          "end": 615,
+          "doc_ids": [
+            "DOC-B0312-TOUR_API-130965"
+          ]
+        },
+        {
+          "start": 616,
+          "end": 650,
+          "doc_ids": [
+            "DOC-B0312-TOUR_API-130965"
+          ]
+        },
+        {
+          "start": 651,
+          "end": 726,
+          "doc_ids": [
+            "DOC-B0312-TOUR_API-130965"
+          ]
+        },
+        {
+          "start": 727,
+          "end": 778,
+          "doc_ids": [
+            "DOC-B0312-TOUR_API-130965"
+          ]
+        },
+        {
+          "start": 779,
+          "end": 849,
+          "doc_ids": [
+            "DOC-B0312-TOUR_API-130965"
+          ]
+        },
+        {
+          "start": 850,
+          "end": 957,
+          "doc_ids": [
+            "DOC-B0312-TOUR_API-130965"
+          ]
+        },
+        {
+          "start": 958,
+          "end": 1012,
+          "doc_ids": [
+            "DOC-B0312-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=153",
+      "text": "1997년 여주군향토사료관으로 문을 연 여주박물관은 여주의 역사와 민속자료 등을 조사·수집·전시·교육하고, 새로운 학술자료를 발굴하며 여주의 정체성을 확립하는 역할을 수행하고 있다. 2010년 전시실 확장 후 제1종 전문박물관으로 등록하여 여주박물관으로 명칭을 변경하였으며, 2016년 7월 14일 여마관(신관)의 건립으로 전국에 흩어졌던 여주지역 발굴출토 국가귀속유물과 그간 수집한 다양한 유물을 전시할 수 있게 되었다. 전시실은 상설전시실과 기획전시실, 야외전시실로 구분되어 있으며, 상설전시실은 4가지 주제로 전시를 진행하고 있다. 여주역사실에서는 국립중앙박물관을 비롯한 여러 기관들에서 보관하던 주요 유적 출토 국가귀속 유물들과 그간 구입·기증을 통해 수집한 중요유물들을 전시하고 있다. 흔암리 선사유적지, 신륵사, 고달사지, 세종대왕릉과 효종대왕릉, 명성황후 생가 등 수많은 문화유적은 여주의 오랜 역사를 증명하고 있다. 남한강 수석전시실은 김정식 선생이 57년간 모은 수석을 기증받아 전시한 곳으로, 산수경석·물형석·추상석·12지석 등 자연이 빚은 최고의 예술작품인 수석의 멋과 아름다움을 느낄 수 있는 공간이다. 갖가지 수석에 담긴 의미를 여주 남한강이 가지고 있는 이야기로 풀어놓았다. 수석의 신비로움을 다채로운 방식으로 이해할 수 있는 공간이다. 류주현 문학전시실은 우리나라에 ‘대하 역사소설’이라는 장르를 개척하신 여주 출신의 묵사 류주현 선생의 삶과 작품세계를 설명한 공간이다. 류주현 선생은 다양·다작의 작가로 『조선총독부』, 『대원군』 등을 대표작으로 꼽을 수 있다. 한국 대표 문인으로서 선생의 생애와 작품세계, 문인들과의 교류를 통해 옛 문인들의 멋스러운 삶의 정취를 느낄 수 있을 것이다. 조선 왕릉실은 세종 영릉(英陵)과 효종 영릉(寧陵) 두 기의 조선 왕릉이 여주로 천릉하면서 조선시대부터 현대에 이르기까지 왕릉과 함께 변화한 여주의 역사와 여주 사람들의 삶을 살펴볼 수 있다. 여주의 역사와 전통문화를 아우르는 시립박물관으로, 전시와 교육, 체험을 할 수 있는 문화공간이다.",
+      "sido": "경기도",
+      "sigungu": "여주시",
+      "span_id": "",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=153"
+      ],
+      "evidence_id": "E5",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=225",
+        "fields": {
+          "name": "여주박물관",
+          "sido": "경기도",
+          "sigungu": "여주시",
+          "address": "경기도 여주시 신륵사길 6-12",
+          "ownership_type": "공립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "09:00",
+          "weekday_close": "18:00",
+          "holiday_open": "09:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "월요일+추석당일+설날당일+1월1일",
+          "amenities_raw": "청춘카페"
+        },
+        "base_data_date": "2026-05-19",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    }
+  ],
+  "answer": "홍주성역사관입니다. 홍주읍성 안에 있으며, 홍성과 충남 내포 지역의 역사·문화와 관련 유적 및 유물을 전시합니다.[E1]",
+  "retrieval_status": "ok",
+  "answer_status": "answered",
+  "route": "hybrid",
+  "retry_count": 0,
+  "supervisor_verified": true,
+  "rerank_applied": true,
+  "retriever_errors": [],
+  "warnings": [],
+  "duration_ms": 180322.01,
+  "error_type": "",
+  "hit_at_1": 1,
+  "hit_at_3": 1,
+  "hit_at_5": 1,
+  "recall_at_5": 1.0,
+  "mrr_at_10": 1.0
+}

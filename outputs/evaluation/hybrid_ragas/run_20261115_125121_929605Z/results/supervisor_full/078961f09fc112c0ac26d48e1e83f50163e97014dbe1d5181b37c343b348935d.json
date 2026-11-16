@@ -1,0 +1,687 @@
+{
+  "mode": "supervisor_full",
+  "question_id": "Q216",
+  "evidence": [
+    {
+      "museum_id": "M0359",
+      "name": "붓이야기박물관",
+      "document": "붓이야기박물관은 우리 전통 붓의 역사성과 예술성, 우수성을 알리기 위해 2017년 설립된 국내 유일의 붓 전문 박물관이다. 2층 규모의 박물관에서는 전통 붓의 역사와 제작 과정, 종류 등에 관한 다양한 이야기를 살펴볼 수 있으며, 강원특별자치도 무형유산 춘천필장 보유자인 박경수 관장의 작품과 여러 작가들의 작품도 전시되어 있다. 1층에서는 붓 한 자루가 완성되기까지 100번이 넘는 장인의 손길이 필요하다는 점과 전통 붓 제작 과정을 쉽게 이해할 수 있으며, 2층에서는 캘리그래피 작품 만들기와 나만의 붓 만들기 등 다양한 체험을 즐길 수 있다. 또한 붓 공방에서는 장인이 직접 붓을 제작하는 모습도 관람할 수 있어 우리 전통 붓 문화를 쉽고 흥미롭게 경험할 수 있는 공간이다. 전통 붓의 역사와 종류, 제작 과정 등 전시,무형문화재 제24호 춘천필장 박경수 필장의 작품들이 전시, 붓을 만드는 전통적인 공구들과 붓 제작 공방을 관람, 붓 만들기, 붓 사용해보기 등 체험학습 공간이 마련되어 관람과 교육, 체험진행",
+      "metadata": {
+        "sido": "강원특별자치도",
+        "adult_fee": 0.0,
+        "longitude": 127.692736,
+        "name": "붓이야기박물관",
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "holiday_close": "18:00",
+        "address": "강원특별자치도 춘천시 서면 박사로 906",
+        "closure_rule_raw": "월",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/96/4070796_image2_1.jpg",
+        "child_fee": 0.0,
+        "latitude": 37.896512,
+        "ownership_type": "사립",
+        "image_copyright": "Type3",
+        "homepage_url": "http://brushstory.co.kr",
+        "source_types": "BASE|TOUR_API",
+        "weekday_close": "18:00",
+        "weekday_open": "10:00",
+        "holiday_open": "10:00",
+        "requires_manual_review": true,
+        "youth_fee": 0.0,
+        "sigungu": "춘천시"
+      },
+      "vector_rank": 1,
+      "bm25_rank": 1,
+      "vector_distance": 0.3922707438468933,
+      "vector_score": null,
+      "bm25_score": 26.172250717016382,
+      "vector_document": "붓이야기박물관은 우리 전통 붓의 역사성과 예술성, 우수성을 알리기 위해 2017년 설립된 국내 유일의 붓 전문 박물관이다. 2층 규모의 박물관에서는 전통 붓의 역사와 제작 과정, 종류 등에 관한 다양한 이야기를 살펴볼 수 있으며, 강원특별자치도 무형유산 춘천필장 보유자인 박경수 관장의 작품과 여러 작가들의 작품도 전시되어 있다. 1층에서는 붓 한 자루가 완성되기까지 100번이 넘는 장인의 손길이 필요하다는 점과 전통 붓 제작 과정을 쉽게 이해할 수 있으며, 2층에서는 캘리그래피 작품 만들기와 나만의 붓 만들기 등 다양한 체험을 즐길 수 있다. 또한 붓 공방에서는 장인이 직접 붓을 제작하는 모습도 관람할 수 있어 우리 전통 붓 문화를 쉽고 흥미롭게 경험할 수 있는 공간이다. 전통 붓의 역사와 종류, 제작 과정 등 전시,무형문화재 제24호 춘천필장 박경수 필장의 작품들이 전시, 붓을 만드는 전통적인 공구들과 붓 제작 공방을 관람, 붓 만들기, 붓 사용해보기 등 체험학습 공간이 마련되어 관람과 교육, 체험진행",
+      "bm25_document": "붓이야기박물관은 우리 전통 붓의 역사성과 예술성, 우수성을 알리기 위해 2017년 설립된 국내 유일의 붓 전문 박물관이다. 2층 규모의 박물관에서는 전통 붓의 역사와 제작 과정, 종류 등에 관한 다양한 이야기를 살펴볼 수 있으며, 강원특별자치도 무형유산 춘천필장 보유자인 박경수 관장의 작품과 여러 작가들의 작품도 전시되어 있다. 1층에서는 붓 한 자루가 완성되기까지 100번이 넘는 장인의 손길이 필요하다는 점과 전통 붓 제작 과정을 쉽게 이해할 수 있으며, 2층에서는 캘리그래피 작품 만들기와 나만의 붓 만들기 등 다양한 체험을 즐길 수 있다. 또한 붓 공방에서는 장인이 직접 붓을 제작하는 모습도 관람할 수 있어 우리 전통 붓 문화를 쉽고 흥미롭게 경험할 수 있는 공간이다. 전통 붓의 역사와 종류, 제작 과정 등 전시,무형문화재 제24호 춘천필장 박경수 필장의 작품들이 전시, 붓을 만드는 전통적인 공구들과 붓 제작 공방을 관람, 붓 만들기, 붓 사용해보기 등 체험학습 공간이 마련되어 관람과 교육, 체험진행",
+      "best_span_id": "chroma:M0359",
+      "best_span_text": "붓이야기박물관은 우리 전통 붓의 역사성과 예술성, 우수성을 알리기 위해 2017년 설립된 국내 유일의 붓 전문 박물관이다. 2층 규모의 박물관에서는 전통 붓의 역사와 제작 과정, 종류 등에 관한 다양한 이야기를 살펴볼 수 있으며, 강원특별자치도 무형유산 춘천필장 보유자인 박경수 관장의 작품과 여러 작가들의 작품도 전시되어 있다. 1층에서는 붓 한 자루가 완성되기까지 100번이 넘는 장인의 손길이 필요하다는 점과 전통 붓 제작 과정을 쉽게 이해할 수 있으며, 2층에서는 캘리그래피 작품 만들기와 나만의 붓 만들기 등 다양한 체험을 즐길 수 있다. 또한 붓 공방에서는 장인이 직접 붓을 제작하는 모습도 관람할 수 있어 우리 전통 붓 문화를 쉽고 흥미롭게 경험할 수 있는 공간이다. 전통 붓의 역사와 종류, 제작 과정 등 전시,무형문화재 제24호 춘천필장 박경수 필장의 작품들이 전시, 붓을 만드는 전통적인 공구들과 붓 제작 공방을 관람, 붓 만들기, 붓 사용해보기 등 체험학습 공간이 마련되어 관람과 교육, 체험진행",
+      "fusion_score": 0.03278688524590164,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 1,
+      "name_match": true,
+      "rerank_score": 0.9995647072792053,
+      "rank": 1,
+      "score": 0.9995647072792053,
+      "score_type": "cross_encoder",
+      "distance": 0.3922707438468933,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0359",
+      "source_doc_ids": [
+        "DOC-B0359-TOUR_API-2787580",
+        "DOC-B0359-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0359-TOUR_API-2787580",
+          "source_type": "TOUR_API",
+          "source_record_id": "2787580",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=170",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        },
+        {
+          "doc_id": "DOC-B0359-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0359",
+          "source_locator": "data/raw/museum_base_1070.csv#row=360",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 68,
+          "doc_ids": [
+            "DOC-B0359-TOUR_API-2787580"
+          ]
+        },
+        {
+          "start": 69,
+          "end": 184,
+          "doc_ids": [
+            "DOC-B0359-TOUR_API-2787580"
+          ]
+        },
+        {
+          "start": 185,
+          "end": 306,
+          "doc_ids": [
+            "DOC-B0359-TOUR_API-2787580"
+          ]
+        },
+        {
+          "start": 307,
+          "end": 380,
+          "doc_ids": [
+            "DOC-B0359-TOUR_API-2787580"
+          ]
+        },
+        {
+          "start": 381,
+          "end": 512,
+          "doc_ids": [
+            "DOC-B0359-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=170",
+      "text": "붓이야기박물관은 우리 전통 붓의 역사성과 예술성, 우수성을 알리기 위해 2017년 설립된 국내 유일의 붓 전문 박물관이다. 2층 규모의 박물관에서는 전통 붓의 역사와 제작 과정, 종류 등에 관한 다양한 이야기를 살펴볼 수 있으며, 강원특별자치도 무형유산 춘천필장 보유자인 박경수 관장의 작품과 여러 작가들의 작품도 전시되어 있다. 1층에서는 붓 한 자루가 완성되기까지 100번이 넘는 장인의 손길이 필요하다는 점과 전통 붓 제작 과정을 쉽게 이해할 수 있으며, 2층에서는 캘리그래피 작품 만들기와 나만의 붓 만들기 등 다양한 체험을 즐길 수 있다. 또한 붓 공방에서는 장인이 직접 붓을 제작하는 모습도 관람할 수 있어 우리 전통 붓 문화를 쉽고 흥미롭게 경험할 수 있는 공간이다. 전통 붓의 역사와 종류, 제작 과정 등 전시,무형문화재 제24호 춘천필장 박경수 필장의 작품들이 전시, 붓을 만드는 전통적인 공구들과 붓 제작 공방을 관람, 붓 만들기, 붓 사용해보기 등 체험학습 공간이 마련되어 관람과 교육, 체험진행",
+      "sido": "강원특별자치도",
+      "sigungu": "춘천시",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=170"
+      ],
+      "evidence_id": "E1",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=261",
+        "fields": {
+          "name": "붓이야기박물관",
+          "sido": "강원특별자치도",
+          "sigungu": "춘천시",
+          "address": "강원특별자치도 춘천시 서면 박사로 906",
+          "ownership_type": "사립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "10:00",
+          "weekday_close": "18:00",
+          "holiday_open": "10:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "월"
+        },
+        "base_data_date": "2026-06-10",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0698",
+      "name": "박물관 수",
+      "document": "박물관 수는 대구광역시 범어동에 위치한 소규모 박물관으로 2011년 개관하였다. 이곳은 자수와 민화를 전문 콘텐츠로 전시 및 체험을 진행하는 곳이다. 베갯모 자수와 기타 전통자수 유물을 관람할 수 있으며, 민화 유물을 관람할 수 있다. 또한 박물관 뒤편에 교육 공간을 했는데 버선 만들기, 복주머니 만들기, 까치호랑이 만들기 등의 체험이 가능하다. 직접 만들어서 판매하는 자수 굿즈를 볼 수 있고 한국의 멋을 충분히 느낄 수 있는 곳이다. 한국의 자수와 민화에 대해 소개하고 전시, 교육하는 사립박물관",
+      "metadata": {
+        "sido": "대구광역시",
+        "closure_rule_raw": "일요일 및 공휴일",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/45/3342645_image2_1.jpg",
+        "ownership_type": "사립",
+        "adult_fee_status": "BASE_FEE_PAID",
+        "name": "박물관 수",
+        "weekday_close": "17:00",
+        "child_fee": 3000.0,
+        "address": "대구광역시 수성구 국채보상로 186길 79",
+        "latitude": 35.86482862,
+        "weekday_open": "10:00",
+        "adult_fee": 5000.0,
+        "source_types": "BASE|TOUR_API",
+        "longitude": 128.6341486,
+        "image_copyright": "Type3",
+        "sigungu": "수성구",
+        "youth_fee": 3000.0,
+        "transport_notes": "지하철 2호선 수성구청역+309+323+323-1+420+420-1+425+509+609+649+724+840+939+100+990+991+303-1+814",
+        "homepage_url": "https://www.museumsoo.org",
+        "requires_manual_review": true
+      },
+      "vector_rank": 3,
+      "bm25_rank": null,
+      "vector_distance": 0.5352906584739685,
+      "vector_score": null,
+      "bm25_score": null,
+      "vector_document": "박물관 수는 대구광역시 범어동에 위치한 소규모 박물관으로 2011년 개관하였다. 이곳은 자수와 민화를 전문 콘텐츠로 전시 및 체험을 진행하는 곳이다. 베갯모 자수와 기타 전통자수 유물을 관람할 수 있으며, 민화 유물을 관람할 수 있다. 또한 박물관 뒤편에 교육 공간을 했는데 버선 만들기, 복주머니 만들기, 까치호랑이 만들기 등의 체험이 가능하다. 직접 만들어서 판매하는 자수 굿즈를 볼 수 있고 한국의 멋을 충분히 느낄 수 있는 곳이다. 한국의 자수와 민화에 대해 소개하고 전시, 교육하는 사립박물관",
+      "bm25_document": "",
+      "best_span_id": null,
+      "best_span_text": null,
+      "fusion_score": 0.015873015873015872,
+      "retrieved_by": [
+        "vector"
+      ],
+      "fusion_rank": 5,
+      "rerank_score": 0.009009438566863537,
+      "rank": 2,
+      "score": 0.009009438566863537,
+      "score_type": "cross_encoder",
+      "distance": 0.5352906584739685,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector"
+      ],
+      "retriever": "vector",
+      "source_doc_ids": [
+        "DOC-B0698-TOUR_API-2555014",
+        "DOC-B0698-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0698-TOUR_API-2555014",
+          "source_type": "TOUR_API",
+          "source_record_id": "2555014",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=341",
+          "match_trust": "RECHECKED_BY_RULE_NOT_HUMAN_APPROVED"
+        },
+        {
+          "doc_id": "DOC-B0698-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0698",
+          "source_locator": "data/raw/museum_base_1070.csv#row=699",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 44,
+          "doc_ids": [
+            "DOC-B0698-TOUR_API-2555014"
+          ]
+        },
+        {
+          "start": 45,
+          "end": 83,
+          "doc_ids": [
+            "DOC-B0698-TOUR_API-2555014"
+          ]
+        },
+        {
+          "start": 84,
+          "end": 131,
+          "doc_ids": [
+            "DOC-B0698-TOUR_API-2555014"
+          ]
+        },
+        {
+          "start": 132,
+          "end": 194,
+          "doc_ids": [
+            "DOC-B0698-TOUR_API-2555014"
+          ]
+        },
+        {
+          "start": 195,
+          "end": 245,
+          "doc_ids": [
+            "DOC-B0698-TOUR_API-2555014"
+          ]
+        },
+        {
+          "start": 246,
+          "end": 280,
+          "doc_ids": [
+            "DOC-B0698-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=341",
+      "text": "박물관 수는 대구광역시 범어동에 위치한 소규모 박물관으로 2011년 개관하였다. 이곳은 자수와 민화를 전문 콘텐츠로 전시 및 체험을 진행하는 곳이다. 베갯모 자수와 기타 전통자수 유물을 관람할 수 있으며, 민화 유물을 관람할 수 있다. 또한 박물관 뒤편에 교육 공간을 했는데 버선 만들기, 복주머니 만들기, 까치호랑이 만들기 등의 체험이 가능하다. 직접 만들어서 판매하는 자수 굿즈를 볼 수 있고 한국의 멋을 충분히 느낄 수 있는 곳이다. 한국의 자수와 민화에 대해 소개하고 전시, 교육하는 사립박물관",
+      "sido": "대구광역시",
+      "sigungu": "수성구",
+      "span_id": "",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=341"
+      ],
+      "evidence_id": "E2",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=484",
+        "fields": {
+          "name": "박물관 수",
+          "sido": "대구광역시",
+          "sigungu": "수성구",
+          "address": "대구광역시 수성구 국채보상로 186길 79",
+          "ownership_type": "사립",
+          "adult_fee": "5000",
+          "youth_fee": "3000",
+          "child_fee": "3000",
+          "adult_fee_status": "BASE_FEE_PAID",
+          "weekday_open": "10:00",
+          "weekday_close": "17:00",
+          "closure_rule_raw": "일요일 및 공휴일"
+        },
+        "base_data_date": "2025-12-10",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0679",
+      "name": "(사)진주어린이박물관",
+      "document": "업사이클아트 작품 관람, 미디어아트 체험, 기획전시장 관람 및 체험, 생태미술관람 및 체험, VR 체험이 가능",
+      "metadata": {
+        "requires_manual_review": true,
+        "source_types": "BASE",
+        "adult_fee": 7000.0,
+        "transport_notes": "시내버스(121번+136번)",
+        "youth_fee": 15000.0,
+        "name": "(사)진주어린이박물관",
+        "holiday_close": "19:00",
+        "sigungu": "진주시",
+        "latitude": 35.1811237,
+        "fee_notes": "30 할인(국가유공자+ 장애인+국민기초생활수급자+다자녀가구+ 만 65세 이상)+ 제휴기관 할인+무료(36개월미만 어린이 동반시 입장가능)+단체25명이상 10000원",
+        "adult_fee_status": "BASE_FEE_PAID",
+        "weekday_open": "10:20",
+        "ownership_type": "사립",
+        "weekday_close": "19:00",
+        "closure_rule_raw": "일+1월 1일+설날연휴+추석연휴",
+        "sido": "경상남도",
+        "holiday_open": "10:20",
+        "child_fee": 15000.0,
+        "longitude": 128.0788419,
+        "homepage_url": "https://jcm.or.kr/jjcm/main/index.php",
+        "address": "경상남도 진주시 망경로 224번길 40"
+      },
+      "vector_rank": 4,
+      "bm25_rank": null,
+      "vector_distance": 0.5355338454246521,
+      "vector_score": null,
+      "bm25_score": null,
+      "vector_document": "업사이클아트 작품 관람, 미디어아트 체험, 기획전시장 관람 및 체험, 생태미술관람 및 체험, VR 체험이 가능",
+      "bm25_document": "",
+      "best_span_id": null,
+      "best_span_text": null,
+      "fusion_score": 0.015625,
+      "retrieved_by": [
+        "vector"
+      ],
+      "fusion_rank": 7,
+      "rerank_score": 0.004862447269260883,
+      "rank": 3,
+      "score": 0.004862447269260883,
+      "score_type": "cross_encoder",
+      "distance": 0.5355338454246521,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector"
+      ],
+      "retriever": "vector",
+      "source_doc_ids": [
+        "DOC-B0679-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0679-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0679",
+          "source_locator": "data/raw/museum_base_1070.csv#row=680",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 61,
+          "doc_ids": [
+            "DOC-B0679-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_base_1070.csv#row=680",
+      "text": "업사이클아트 작품 관람, 미디어아트 체험, 기획전시장 관람 및 체험, 생태미술관람 및 체험, VR 체험이 가능",
+      "sido": "경상남도",
+      "sigungu": "진주시",
+      "span_id": "",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_base_1070.csv#row=680"
+      ],
+      "evidence_id": "E3",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=469",
+        "fields": {
+          "name": "(사)진주어린이박물관",
+          "sido": "경상남도",
+          "sigungu": "진주시",
+          "address": "경상남도 진주시 망경로 224번길 40",
+          "ownership_type": "사립",
+          "adult_fee": "7000",
+          "youth_fee": "15000",
+          "child_fee": "15000",
+          "adult_fee_status": "BASE_FEE_PAID",
+          "weekday_open": "10:20",
+          "weekday_close": "19:00",
+          "holiday_open": "10:20",
+          "holiday_close": "19:00",
+          "closure_rule_raw": "일+1월 1일+설날연휴+추석연휴"
+        },
+        "base_data_date": "2025-11-04",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0534",
+      "name": "부안청자박물관",
+      "document": "부안청자가 천년 세월을 넘어 새로운 부활을 꿈꾸며, 2011년 4월에 부안군(扶安郡) 보안면(保安面) 유천리(柳川里) 유천초등학교 자리에 청자박물관을 개관하였다. 제1종 전문박물관으로서 진품 유물을 관람할 수 있는 전시동과 도자기 만들기 체험을 할 수 있는 체험동, 천 년 전 고려청자를 구워냈던 가마터를 직접 관찰할 수 있는 야외사적공원 등 다채로운 공간이 마련되어 있다. 부안청자박물관은 제1종 전문박물관으로서 진품유물을 관람할 수 있는 전시동과 도자기 만들기 체험을 할 수 있는 체험동, 그리고 천 년 전 고려청자를 구워냈던 가마터를 직접 관찰할 수 있는 야외사적공원 등 다채로운 공간이 마련되어 있습니다.",
+      "metadata": {
+        "homepage_url": "http://www.buan.go.kr/buancela/index.buan",
+        "image_copyright": "Type3",
+        "holiday_close": "18:00",
+        "adult_fee": 3000.0,
+        "closure_rule_raw": "1월1일+설당일+추석당일+월요일+동절기17시관람종료",
+        "source_types": "BASE|TOUR_API",
+        "child_fee": 1000.0,
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/94/4116294_image2_1.jpg",
+        "holiday_open": "10:00",
+        "transport_notes": "정읍+701번지방도+줄포들어가기전(우회전)+부안방면23번국도(우회전)+영전사거리30번국도(좌회전)+부안청자박물관",
+        "longitude": 126.6513356,
+        "sigungu": "부안군",
+        "latitude": 35.61149959,
+        "address": "전북특별자치도 부안군 보안면 청자로 1493",
+        "adult_fee_status": "BASE_FEE_PAID",
+        "weekday_close": "18:00",
+        "requires_manual_review": true,
+        "name": "부안청자박물관",
+        "ownership_type": "국립",
+        "sido": "전북특별자치도",
+        "weekday_open": "10:00",
+        "youth_fee": 2000.0
+      },
+      "vector_rank": null,
+      "bm25_rank": 3,
+      "vector_distance": null,
+      "vector_score": null,
+      "bm25_score": 13.285458752064608,
+      "vector_document": "",
+      "bm25_document": "부안청자가 천년 세월을 넘어 새로운 부활을 꿈꾸며, 2011년 4월에 부안군(扶安郡) 보안면(保安面) 유천리(柳川里) 유천초등학교 자리에 청자박물관을 개관하였다. 제1종 전문박물관으로서 진품 유물을 관람할 수 있는 전시동과 도자기 만들기 체험을 할 수 있는 체험동, 천 년 전 고려청자를 구워냈던 가마터를 직접 관찰할 수 있는 야외사적공원 등 다채로운 공간이 마련되어 있다. 부안청자박물관은 제1종 전문박물관으로서 진품유물을 관람할 수 있는 전시동과 도자기 만들기 체험을 할 수 있는 체험동, 그리고 천 년 전 고려청자를 구워냈던 가마터를 직접 관찰할 수 있는 야외사적공원 등 다채로운 공간이 마련되어 있습니다.",
+      "best_span_id": "chroma:M0534",
+      "best_span_text": "부안청자가 천년 세월을 넘어 새로운 부활을 꿈꾸며, 2011년 4월에 부안군(扶安郡) 보안면(保安面) 유천리(柳川里) 유천초등학교 자리에 청자박물관을 개관하였다. 제1종 전문박물관으로서 진품 유물을 관람할 수 있는 전시동과 도자기 만들기 체험을 할 수 있는 체험동, 천 년 전 고려청자를 구워냈던 가마터를 직접 관찰할 수 있는 야외사적공원 등 다채로운 공간이 마련되어 있다. 부안청자박물관은 제1종 전문박물관으로서 진품유물을 관람할 수 있는 전시동과 도자기 만들기 체험을 할 수 있는 체험동, 그리고 천 년 전 고려청자를 구워냈던 가마터를 직접 관찰할 수 있는 야외사적공원 등 다채로운 공간이 마련되어 있습니다.",
+      "fusion_score": 0.015873015873015872,
+      "retrieved_by": [
+        "bm25"
+      ],
+      "fusion_rank": 6,
+      "rerank_score": 0.0019083040533587337,
+      "rank": 4,
+      "score": 0.0019083040533587337,
+      "score_type": "cross_encoder",
+      "distance": null,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "bm25"
+      ],
+      "retriever": "bm25",
+      "span_id": "chroma:M0534",
+      "source_doc_ids": [
+        "DOC-B0534-TOUR_API-2405938",
+        "DOC-B0534-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0534-TOUR_API-2405938",
+          "source_type": "TOUR_API",
+          "source_record_id": "2405938",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=265",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        },
+        {
+          "doc_id": "DOC-B0534-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0534",
+          "source_locator": "data/raw/museum_base_1070.csv#row=535",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 90,
+          "doc_ids": [
+            "DOC-B0534-TOUR_API-2405938"
+          ]
+        },
+        {
+          "start": 91,
+          "end": 209,
+          "doc_ids": [
+            "DOC-B0534-TOUR_API-2405938"
+          ]
+        },
+        {
+          "start": 210,
+          "end": 342,
+          "doc_ids": [
+            "DOC-B0534-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=265",
+      "text": "부안청자가 천년 세월을 넘어 새로운 부활을 꿈꾸며, 2011년 4월에 부안군(扶安郡) 보안면(保安面) 유천리(柳川里) 유천초등학교 자리에 청자박물관을 개관하였다. 제1종 전문박물관으로서 진품 유물을 관람할 수 있는 전시동과 도자기 만들기 체험을 할 수 있는 체험동, 천 년 전 고려청자를 구워냈던 가마터를 직접 관찰할 수 있는 야외사적공원 등 다채로운 공간이 마련되어 있다. 부안청자박물관은 제1종 전문박물관으로서 진품유물을 관람할 수 있는 전시동과 도자기 만들기 체험을 할 수 있는 체험동, 그리고 천 년 전 고려청자를 구워냈던 가마터를 직접 관찰할 수 있는 야외사적공원 등 다채로운 공간이 마련되어 있습니다.",
+      "sido": "전북특별자치도",
+      "sigungu": "부안군",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=265"
+      ],
+      "evidence_id": "E4",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=376",
+        "fields": {
+          "name": "부안청자박물관",
+          "sido": "전북특별자치도",
+          "sigungu": "부안군",
+          "address": "전북특별자치도 부안군 보안면 청자로 1493",
+          "ownership_type": "국립",
+          "adult_fee": "3000",
+          "youth_fee": "2000",
+          "child_fee": "1000",
+          "adult_fee_status": "BASE_FEE_PAID",
+          "weekday_open": "10:00",
+          "weekday_close": "18:00",
+          "holiday_open": "10:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "1월1일+설당일+추석당일+월요일+동절기17시관람종료"
+        },
+        "base_data_date": "2026-01-14",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0365",
+      "name": "애니메이션박물관",
+      "document": "2003. 10. 1. 개관한 국내 유일의 애니메이션박물관으로 애니메이션 관람ㆍ제작 체험ㆍ촬영체험 등 다양한 체험이 가능",
+      "metadata": {
+        "weekday_open": "10:00",
+        "latitude": 37.893021,
+        "child_fee": 7000.0,
+        "closure_rule_raw": "월(단,월요일이 공휴일인 경우 당일은 개관하고 다음날 정기휴관)+1월1일",
+        "weekday_close": "18:00",
+        "name": "애니메이션박물관",
+        "amenities_raw": "뮤지엄샵+구름빵카페+캐릭터공원",
+        "longitude": 127.691924,
+        "homepage_url": "http://www.gimc.or.kr+http://www.animationmuseum.com",
+        "youth_fee": 7000.0,
+        "fee_notes": "할인 대상[춘천시민+경로우대(65세 이상)+장애(4~6등급)+기초수급자]+무료[24개월 유아+장애인(1~3등급)+국가유공자(본인)+30인 이상 인솔자+자료 기증자 가족]",
+        "transport_notes": "1)시외버스 : 동서울터미널-춘천시외버스터미널-서면1(서면103)+2)전철 : 춘천역(춘천농협 정류장)-서면4, 서면5+3)승용차  : 서울양양고속도로(강촌IC, 춘천IC, 남춘천IC), 일반도로(46번경춘국도-403번도로)",
+        "adult_fee_status": "BASE_FEE_PAID",
+        "holiday_open": "10:00",
+        "ownership_type": "공립",
+        "sido": "강원특별자치도",
+        "sigungu": "춘천시",
+        "source_types": "BASE",
+        "holiday_close": "18:00",
+        "adult_fee": 7000.0,
+        "requires_manual_review": true,
+        "address": "강원특별자치도 춘천시 서면 박사로 854"
+      },
+      "vector_rank": 8,
+      "bm25_rank": null,
+      "vector_distance": 0.5497007369995117,
+      "vector_score": null,
+      "bm25_score": null,
+      "vector_document": "2003. 10. 1. 개관한 국내 유일의 애니메이션박물관으로 애니메이션 관람ㆍ제작 체험ㆍ촬영체험 등 다양한 체험이 가능",
+      "bm25_document": "",
+      "best_span_id": null,
+      "best_span_text": null,
+      "fusion_score": 0.014705882352941176,
+      "retrieved_by": [
+        "vector"
+      ],
+      "fusion_rank": 15,
+      "rerank_score": 0.0009258884820155799,
+      "rank": 5,
+      "score": 0.0009258884820155799,
+      "score_type": "cross_encoder",
+      "distance": 0.5497007369995117,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector"
+      ],
+      "retriever": "vector",
+      "source_doc_ids": [
+        "DOC-B0365-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0365-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0365",
+          "source_locator": "data/raw/museum_base_1070.csv#row=366",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 5,
+          "doc_ids": [
+            "DOC-B0365-BASE"
+          ]
+        },
+        {
+          "start": 6,
+          "end": 9,
+          "doc_ids": [
+            "DOC-B0365-BASE"
+          ]
+        },
+        {
+          "start": 10,
+          "end": 12,
+          "doc_ids": [
+            "DOC-B0365-BASE"
+          ]
+        },
+        {
+          "start": 13,
+          "end": 67,
+          "doc_ids": [
+            "DOC-B0365-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_base_1070.csv#row=366",
+      "text": "2003. 10. 1. 개관한 국내 유일의 애니메이션박물관으로 애니메이션 관람ㆍ제작 체험ㆍ촬영체험 등 다양한 체험이 가능",
+      "sido": "강원특별자치도",
+      "sigungu": "춘천시",
+      "span_id": "",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_base_1070.csv#row=366"
+      ],
+      "evidence_id": "E5",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=267",
+        "fields": {
+          "name": "애니메이션박물관",
+          "sido": "강원특별자치도",
+          "sigungu": "춘천시",
+          "address": "강원특별자치도 춘천시 서면 박사로 854",
+          "ownership_type": "공립",
+          "adult_fee": "7000",
+          "youth_fee": "7000",
+          "child_fee": "7000",
+          "adult_fee_status": "BASE_FEE_PAID",
+          "weekday_open": "10:00",
+          "weekday_close": "18:00",
+          "holiday_open": "10:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "월(단,월요일이 공휴일인 경우 당일은 개관하고 다음날 정기휴관)+1월1일",
+          "amenities_raw": "뮤지엄샵+구름빵카페+캐릭터공원"
+        },
+        "base_data_date": "2026-06-10",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    }
+  ],
+  "answer": "전시로는 전통 붓의 역사·종류·제작 과정과 춘천필장 박경수 관장 및 여러 작가의 작품을 볼 수 있습니다. 붓 제작에 쓰는 전통 공구와 붓 공방도 관람할 수 있고, 공방에서 장인이 붓을 만드는 모습도 볼 수 있습니다.[E1] 체험으로는 캘리그래피 작품 만들기, 나만의 붓 만들기, 붓 사용해보기가 소개되어 있습니다.[E1]",
+  "retrieval_status": "ok",
+  "answer_status": "answered",
+  "route": "hybrid",
+  "retry_count": 0,
+  "supervisor_verified": true,
+  "rerank_applied": true,
+  "retriever_errors": [],
+  "warnings": [],
+  "duration_ms": 156271.16,
+  "error_type": "",
+  "hit_at_1": 1,
+  "hit_at_3": 1,
+  "hit_at_5": 1,
+  "recall_at_5": 1.0,
+  "mrr_at_10": 1.0
+}

@@ -1,0 +1,758 @@
+{
+  "evidence_context_version": "grounded-evidence-v2",
+  "evaluation_contexts": [
+    "{\"evidence_context_version\": \"grounded-evidence-v2\", \"evidence_id\": \"E1\", \"metadata_provenance\": {\"base_data_date\": \"2026-09-30\", \"fields\": {\"address\": \"제주특별자치도 제주시 조천읍 신북로 303\", \"adult_fee\": \"0\", \"adult_fee_status\": \"BASE_FEE_ZERO_CHECK_EXCEPTIONS\", \"child_fee\": \"0\", \"closure_rule_raw\": \"1월1일 설연휴(3일) 추석연휴(3일)\", \"holiday_close\": \"18:00\", \"holiday_open\": \"09:00\", \"name\": \"제주항일기념관\", \"ownership_type\": \"공립\", \"sido\": \"제주특별자치도\", \"sigungu\": \"제주시\", \"weekday_close\": \"18:00\", \"weekday_open\": \"09:00\", \"youth_fee\": \"0\"}, \"source_kind\": \"derived_csv_row\", \"source_locator\": \"data/processed/museum_final_738.csv#record=39\", \"trust\": \"derived_dataset_not_human_verified\"}, \"museum_id\": \"M0056\", \"name\": \"제주항일기념관\", \"source_doc_ids\": [\"DOC-B0056-TOUR_API-130308\"], \"source_documents\": [{\"doc_id\": \"DOC-B0056-TOUR_API-130308\", \"match_trust\": \"AUTO_MATCH_NOT_HUMAN_VERIFIED\", \"source_locator\": \"data/raw/museum_tourapi_with_overview.csv#row=31\", \"source_record_id\": \"130308\", \"source_type\": \"TOUR_API\"}], \"source_locator\": \"data/raw/museum_tourapi_with_overview.csv#row=31\", \"source_locators\": [\"data/raw/museum_tourapi_with_overview.csv#row=31\"], \"source_scope\": \"text\", \"source_spans\": [{\"doc_ids\": [\"DOC-B0056-TOUR_API-130308\"], \"end\": 81, \"start\": 0}, {\"doc_ids\": [\"DOC-B0056-TOUR_API-130308\"], \"end\": 156, \"start\": 82}, {\"doc_ids\": [\"DOC-B0056-TOUR_API-130308\"], \"end\": 238, \"start\": 157}, {\"doc_ids\": [\"DOC-B0056-TOUR_API-130308\"], \"end\": 315, \"start\": 239}, {\"doc_ids\": [\"DOC-B0056-TOUR_API-130308\"], \"end\": 404, \"start\": 316}], \"source_urls\": [], \"text\": \"기미년 3·1독립만세운동은 제주지역까지 이어져 1919년 3월 21일부터 24일까지 조천읍 미밋동산(현 만세동산)과 조천장터 일대에서 전개되었다. 이러한 선열들의 뜻을 기리기 위해 조천만세동산 성역화 사업이 추진되었고, 1997년 8월 15일 광복절에 맞춰 기념관이 문을 열었다. 조천만세운동을 비롯해 법정사 항일운동, 해녀항일운동 등 제주 3대 항일운동과 제주에서 일어난 항일독립운동의 역사를 시대순으로 한눈에 볼 수 있다. 1층에는 항일운동사 연표와 법정사 항일운동 디오라마가, 2층에는 조천만세운동 디오라마와 해녀항일운동을 담은 매직비전 등이 전시되어 있다. 야외에는 애국선열추모탑과 위패를 모신 창열사, 3·1독립운동기념탑이 자리한 만세공원이 조성되어 있어, 선열들의 숭고한 희생정신을 되새기며 함께 둘러보기 좋다.\"}",
+    "{\"evidence_context_version\": \"grounded-evidence-v2\", \"evidence_id\": \"E2\", \"metadata_provenance\": {\"base_data_date\": \"2024-07-11\", \"fields\": {\"address\": \"충청남도 천안시 동남구 목천읍 독립기념관로 1\", \"adult_fee\": \"0\", \"adult_fee_status\": \"BASE_FEE_ZERO_CHECK_EXCEPTIONS\", \"amenities_raw\": \"문화상품점+매점\", \"child_fee\": \"0\", \"closure_rule_raw\": \"월요일\", \"holiday_close\": \"18:00\", \"holiday_open\": \"09:30\", \"name\": \"독립기념관\", \"ownership_type\": \"사립\", \"sido\": \"충청남도\", \"sigungu\": \"천안시\", \"weekday_close\": \"18:00\", \"weekday_open\": \"09:30\", \"youth_fee\": \"0\"}, \"source_kind\": \"derived_csv_row\", \"source_locator\": \"data/processed/museum_final_738.csv#record=496\", \"trust\": \"derived_dataset_not_human_verified\"}, \"museum_id\": \"M0714\", \"name\": \"독립기념관\", \"source_doc_ids\": [\"DOC-B0714-TOUR_API-129790\", \"DOC-B0714-BASE\"], \"source_documents\": [{\"doc_id\": \"DOC-B0714-TOUR_API-129790\", \"match_trust\": \"AUTO_MATCH_NOT_HUMAN_VERIFIED\", \"source_locator\": \"data/raw/museum_tourapi_with_overview.csv#row=348\", \"source_record_id\": \"129790\", \"source_type\": \"TOUR_API\"}, {\"doc_id\": \"DOC-B0714-BASE\", \"match_trust\": \"BASE_SOURCE\", \"source_locator\": \"data/raw/museum_base_1070.csv#row=715\", \"source_record_id\": \"B0714\", \"source_type\": \"BASE\"}], \"source_locator\": \"data/raw/museum_tourapi_with_overview.csv#row=348\", \"source_locators\": [\"data/raw/museum_tourapi_with_overview.csv#row=348\"], \"source_scope\": \"text\", \"source_spans\": [{\"doc_ids\": [\"DOC-B0714-TOUR_API-129790\"], \"end\": 49, \"start\": 0}, {\"doc_ids\": [\"DOC-B0714-TOUR_API-129790\"], \"end\": 116, \"start\": 50}, {\"doc_ids\": [\"DOC-B0714-TOUR_API-129790\"], \"end\": 181, \"start\": 117}, {\"doc_ids\": [\"DOC-B0714-TOUR_API-129790\"], \"end\": 282, \"start\": 182}, {\"doc_ids\": [\"DOC-B0714-TOUR_API-129790\"], \"end\": 332, \"start\": 283}, {\"doc_ids\": [\"DOC-B0714-TOUR_API-129790\"], \"end\": 438, \"start\": 333}, {\"doc_ids\": [\"DOC-B0714-TOUR_API-129790\"], \"end\": 499, \"start\": 439}, {\"doc_ids\": [\"DOC-B0714-BASE\"], \"end\": 529, \"start\": 500}], \"source_urls\": [], \"text\": \"독립기념관은 항일투쟁의 역사를 제대로 정립하고, 이를 널리 알리려는 목적으로 건립되었다. 상설전시관은 겨레의 뿌리, 겨레의 시련, 겨레의 함성, 평화누리, 나라 되찾기, 새로운 나라 총 6개로 구성되어 있다. 각 전시관을 차례로 둘러보며 우리 민족의 찬란한 역사와 자주독립을 향한 선열들의 고귀한 희생정신을 되새길 수 있다. 함께하는 독립운동 체험관은 우리나라를 되찾기 위한 독립운동의 역사를 쉽고 재미있게 배우면서 나라 사랑의 마음을 느껴보는 체험관으로, 영아부터 성인까지 모든 세대가 함께할 수 있다. 무궁화, 태극기 등 나라 상징물로 꾸며진 공간에서 오감을 자극하는 놀이를 즐길 수 있다. ◎ 한류의 매력을 만나는 여행 정보 - 예능 K 컬처를 만든 한국인의 뜨거운 역사를 만날 수 있는 독립기념관은 멀리서도 장엄함을 드러내는 겨레의 탑과 동양 최대 기와 건물인 겨레의 집이다. 에이티즈가 골든벨을 했던 통일 염원의 동산과 통일의 종까지 둘러보며 K-spirit을 느껴볼 것을 추천한다. 뜨거운 민족혼과 대자연의 풍광이 어우러진 겨례의 전당\"}",
+    "{\"evidence_context_version\": \"grounded-evidence-v2\", \"evidence_id\": \"E3\", \"metadata_provenance\": {\"base_data_date\": \"2026-09-30\", \"fields\": {\"address\": \"제주특별자치도 제주시 구좌읍 해녀박물관길 26\", \"adult_fee\": \"1100\", \"adult_fee_status\": \"BASE_FEE_PAID\", \"child_fee\": \"0\", \"closure_rule_raw\": \"월+1월 1일+설 연휴+추석 연휴\", \"holiday_close\": \"18:00\", \"holiday_open\": \"09:00\", \"name\": \"해녀박물관\", \"ownership_type\": \"공립\", \"sido\": \"제주특별자치도\", \"sigungu\": \"제주시\", \"weekday_close\": \"18:00\", \"weekday_open\": \"09:00\", \"youth_fee\": \"500\"}, \"source_kind\": \"derived_csv_row\", \"source_locator\": \"data/processed/museum_final_738.csv#record=46\", \"trust\": \"derived_dataset_not_human_verified\"}, \"museum_id\": \"M0071\", \"name\": \"해녀박물관\", \"source_doc_ids\": [\"DOC-WEB-M0071-20261111\"], \"source_documents\": [{\"doc_id\": \"DOC-WEB-M0071-20261111\", \"match_trust\": \"WEB_SOURCE_REVIEWED_NOT_HUMAN_APPROVED\", \"source_locator\": \"https://www.much.go.kr/cooperation/net/haen.do\", \"source_record_id\": \"RESEARCH-M0071\", \"source_type\": \"WEB_RESEARCH\", \"source_url\": \"https://www.much.go.kr/cooperation/net/haen.do\"}], \"source_locator\": \"https://www.much.go.kr/cooperation/net/haen.do\", \"source_locators\": [\"https://www.much.go.kr/cooperation/net/haen.do\"], \"source_scope\": \"text\", \"source_spans\": [{\"doc_ids\": [\"DOC-WEB-M0071-20261111\"], \"end\": 47, \"start\": 0}, {\"doc_ids\": [\"DOC-WEB-M0071-20261111\"], \"end\": 95, \"start\": 48}], \"source_urls\": [\"https://www.much.go.kr/cooperation/net/haen.do\"], \"text\": \"제주 해녀의 삶, 물질 도구, 공동체 문화와 바다에 대한 지식을 소개하는 박물관이다. 물옷과 테왁망사리 등 해녀 유물을 통해 제주 해녀문화의 역사와 가치를 배울 수 있다.\"}",
+    "{\"evidence_context_version\": \"grounded-evidence-v2\", \"evidence_id\": \"E4\", \"metadata_provenance\": {\"base_data_date\": \"2026-09-04\", \"fields\": {\"address\": \"경상북도 안동시 임하면 독립기념관길 2\", \"adult_fee\": \"2000\", \"adult_fee_status\": \"BASE_FEE_PAID\", \"child_fee\": \"1000\", \"closure_rule_raw\": \"월+설 당일+추석 당일\", \"holiday_close\": \"18:00\", \"holiday_open\": \"09:00\", \"name\": \"경상북도독립운동기념관\", \"ownership_type\": \"사립\", \"sido\": \"경상북도\", \"sigungu\": \"안동시\", \"weekday_close\": \"18:00\", \"weekday_open\": \"09:00\", \"youth_fee\": \"1500\"}, \"source_kind\": \"derived_csv_row\", \"source_locator\": \"data/processed/museum_final_738.csv#record=126\", \"trust\": \"derived_dataset_not_human_verified\"}, \"museum_id\": \"M0191\", \"name\": \"경상북도독립운동기념관\", \"source_doc_ids\": [\"DOC-B0191-TOUR_API-795012\", \"DOC-WEB-M0191-20261111\"], \"source_documents\": [{\"doc_id\": \"DOC-B0191-TOUR_API-795012\", \"match_trust\": \"RECHECKED_BY_RULE_NOT_HUMAN_APPROVED\", \"source_locator\": \"data/raw/museum_tourapi_with_overview.csv#row=92\", \"source_record_id\": \"795012\", \"source_type\": \"TOUR_API\"}, {\"doc_id\": \"DOC-WEB-M0191-20261111\", \"match_trust\": \"WEB_SOURCE_REVIEWED_NOT_HUMAN_APPROVED\", \"source_locator\": \"https://mfis.mpva.go.kr/memorial/movementView.do?gubunCode=ALL&sid=871\", \"source_record_id\": \"RESEARCH-M0191\", \"source_type\": \"WEB_RESEARCH\", \"source_url\": \"https://mfis.mpva.go.kr/memorial/movementView.do?gubunCode=ALL&sid=871\"}], \"source_locator\": \"data/raw/museum_tourapi_with_overview.csv#row=92\", \"source_locators\": [\"data/raw/museum_tourapi_with_overview.csv#row=92\"], \"source_scope\": \"text\", \"source_spans\": [{\"doc_ids\": [\"DOC-B0191-TOUR_API-795012\"], \"end\": 87, \"start\": 0}, {\"doc_ids\": [\"DOC-B0191-TOUR_API-795012\"], \"end\": 206, \"start\": 88}, {\"doc_ids\": [\"DOC-B0191-TOUR_API-795012\"], \"end\": 311, \"start\": 207}, {\"doc_ids\": [\"DOC-B0191-TOUR_API-795012\"], \"end\": 407, \"start\": 312}, {\"doc_ids\": [\"DOC-B0191-TOUR_API-795012\"], \"end\": 454, \"start\": 408}, {\"doc_ids\": [\"DOC-B0191-TOUR_API-795012\"], \"end\": 587, \"start\": 455}, {\"doc_ids\": [\"DOC-WEB-M0191-20261111\"], \"end\": 619, \"start\": 588}, {\"doc_ids\": [\"DOC-WEB-M0191-20261111\"], \"end\": 673, \"start\": 620}], \"source_urls\": [\"https://mfis.mpva.go.kr/memorial/movementView.do?gubunCode=ALL&sid=871\"], \"text\": \"경상북도독립운동기념관은 2007년 개관한 안동독립운동기념관을 2014년에 경상북도 전체의 기념관으로 승격·확장하여 2017년 6월 30일 다시 문을 열었다. 경북독립운동사에 관한 자료를 수집‧보존, 조사‧연구, 전시, 교육함으로써 민족의 자주독립을 지켜온 독립운동가들의 나라 사랑 정신을 계승하고 민족문화의 정체성 확립 및 올바른 국가관을 정립하는데 목적을 두고 있다. 또한 경상북도독립운동기념관의 전시실은 독립관과 의열관으로 구성되어 있으며, 1894년 갑오의병부터 1945년 조국 광복 때까지 51년간 펼쳐진 경북 사람들의 국내외 독립운동이 담겨 있다. 의병항쟁을 시작으로 국채보상운동, 자정순국, 만주지역 항일투쟁, 6·10 만세운동, 의열투쟁, 한국광복군 등 경북 사람들의 쉼 없는 항일투쟁과 관련 유물이 소개되어 있다. 또한 의열관은 안동 독립운동의 뿌리가 된 전통마을의 항일투쟁을 한눈에 볼 수 있다. 안동 독립운동의 뿌리가 된 전통마을의 항일투쟁을 전시하고 있는 전시실과 되살아나는 불씨, 나라 위해 목숨 바친 경북 사람들의 51년 독립운동을 영상으로 보여주는 추강영상실, 유아를 위한 교육과 체험공간인 새싹교육실 등으로 구성되어 있다. 경북 지역 독립운동의 역사를 기록하고 기념하는 시설이다. 의병 활동에서 광복에 이르는 지역의 항일운동과 독립운동가들의 활동을 전시·교육을 통해 소개한다.\"}",
+    "{\"evidence_context_version\": \"grounded-evidence-v2\", \"evidence_id\": \"E5\", \"metadata_provenance\": {\"base_data_date\": \"2026-09-30\", \"fields\": {\"address\": \"제주특별자치도 제주시 조천읍 북촌서1길 70\", \"adult_fee\": \"7000\", \"adult_fee_status\": \"BASE_FEE_PAID\", \"child_fee\": \"0\", \"closure_rule_raw\": \"설 당일 추석 당일\", \"holiday_close\": \"18:00\", \"holiday_open\": \"09:00\", \"name\": \"돌하르방미술관\", \"ownership_type\": \"사립\", \"sido\": \"제주특별자치도\", \"sigungu\": \"제주시\", \"weekday_close\": \"18:00\", \"weekday_open\": \"09:00\", \"youth_fee\": \"5000\"}, \"source_kind\": \"derived_csv_row\", \"source_locator\": \"data/processed/museum_final_738.csv#record=24\", \"trust\": \"derived_dataset_not_human_verified\"}, \"museum_id\": \"M0031\", \"name\": \"돌하르방미술관\", \"source_doc_ids\": [\"DOC-B0031-TOUR_API-128777\"], \"source_documents\": [{\"doc_id\": \"DOC-B0031-TOUR_API-128777\", \"match_trust\": \"RECHECKED_BY_RULE_NOT_HUMAN_APPROVED\", \"source_locator\": \"data/raw/museum_tourapi_with_overview.csv#row=18\", \"source_record_id\": \"128777\", \"source_type\": \"TOUR_API\"}], \"source_locator\": \"data/raw/museum_tourapi_with_overview.csv#row=18\", \"source_locators\": [\"data/raw/museum_tourapi_with_overview.csv#row=18\"], \"source_scope\": \"text\", \"source_spans\": [{\"doc_ids\": [\"DOC-B0031-TOUR_API-128777\"], \"end\": 28, \"start\": 0}, {\"doc_ids\": [\"DOC-B0031-TOUR_API-128777\"], \"end\": 104, \"start\": 29}, {\"doc_ids\": [\"DOC-B0031-TOUR_API-128777\"], \"end\": 216, \"start\": 105}, {\"doc_ids\": [\"DOC-B0031-TOUR_API-128777\"], \"end\": 302, \"start\": 217}], \"source_urls\": [], \"text\": \"돌하르방미술관은 제주시 조천읍에 위치한 미술관이다. 이곳은 제주 토박이 김남흥 원장이 15년 이상의 세월 동안 개인의 힘으로 일구어온 생명과 평화의 공원이자 문화와 예술을 담은 공원이다. 도 내외에 흩어져 있는 48기의 돌하르방을 원형 그대로 재현해 전시하고 있을 뿐만 아니라 현대적인 해석으로 탄생한 다양한 형태의 돌하르방과 250여 개의 조형물들을 공원 곳곳에서 야외 전시하고 있다. 또, 곶자왈 산책길에서는 각종 양치식물과 청미래덩굴, 자귀나무, 꾸지뽕나무 등 다양한 수목을 관찰할 수 있어 살아 숨 쉬는 자연을 그대로 접할 수 있다.\"}"
+  ],
+  "mode": "supervisor_full",
+  "question_id": "Q024",
+  "evidence": [
+    {
+      "museum_id": "M0056",
+      "name": "제주항일기념관",
+      "document": "기미년 3·1독립만세운동은 제주지역까지 이어져 1919년 3월 21일부터 24일까지 조천읍 미밋동산(현 만세동산)과 조천장터 일대에서 전개되었다. 이러한 선열들의 뜻을 기리기 위해 조천만세동산 성역화 사업이 추진되었고, 1997년 8월 15일 광복절에 맞춰 기념관이 문을 열었다. 조천만세운동을 비롯해 법정사 항일운동, 해녀항일운동 등 제주 3대 항일운동과 제주에서 일어난 항일독립운동의 역사를 시대순으로 한눈에 볼 수 있다. 1층에는 항일운동사 연표와 법정사 항일운동 디오라마가, 2층에는 조천만세운동 디오라마와 해녀항일운동을 담은 매직비전 등이 전시되어 있다. 야외에는 애국선열추모탑과 위패를 모신 창열사, 3·1독립운동기념탑이 자리한 만세공원이 조성되어 있어, 선열들의 숭고한 희생정신을 되새기며 함께 둘러보기 좋다.",
+      "metadata": {
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "sigungu": "제주시",
+        "address": "제주특별자치도 제주시 조천읍 신북로 303",
+        "weekday_open": "09:00",
+        "weekday_close": "18:00",
+        "youth_fee": 0.0,
+        "source_types": "TOUR_API",
+        "holiday_close": "18:00",
+        "homepage_url": "http://www.jeju.go.kr/hangil/index.htm",
+        "name": "제주항일기념관",
+        "image_copyright": "Type1",
+        "child_fee": 0.0,
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/84/4114084_image2_1.JPG",
+        "latitude": 33.54102729,
+        "sido": "제주특별자치도",
+        "ownership_type": "공립",
+        "adult_fee": 0.0,
+        "holiday_open": "09:00",
+        "closure_rule_raw": "1월1일 설연휴(3일) 추석연휴(3일)",
+        "longitude": 126.6407255,
+        "requires_manual_review": true
+      },
+      "vector_rank": 1,
+      "bm25_rank": 1,
+      "vector_distance": 0.501329779624939,
+      "vector_score": null,
+      "bm25_score": 37.54989039277836,
+      "vector_document": "기미년 3·1독립만세운동은 제주지역까지 이어져 1919년 3월 21일부터 24일까지 조천읍 미밋동산(현 만세동산)과 조천장터 일대에서 전개되었다. 이러한 선열들의 뜻을 기리기 위해 조천만세동산 성역화 사업이 추진되었고, 1997년 8월 15일 광복절에 맞춰 기념관이 문을 열었다. 조천만세운동을 비롯해 법정사 항일운동, 해녀항일운동 등 제주 3대 항일운동과 제주에서 일어난 항일독립운동의 역사를 시대순으로 한눈에 볼 수 있다. 1층에는 항일운동사 연표와 법정사 항일운동 디오라마가, 2층에는 조천만세운동 디오라마와 해녀항일운동을 담은 매직비전 등이 전시되어 있다. 야외에는 애국선열추모탑과 위패를 모신 창열사, 3·1독립운동기념탑이 자리한 만세공원이 조성되어 있어, 선열들의 숭고한 희생정신을 되새기며 함께 둘러보기 좋다.",
+      "bm25_document": "기미년 3·1독립만세운동은 제주지역까지 이어져 1919년 3월 21일부터 24일까지 조천읍 미밋동산(현 만세동산)과 조천장터 일대에서 전개되었다. 이러한 선열들의 뜻을 기리기 위해 조천만세동산 성역화 사업이 추진되었고, 1997년 8월 15일 광복절에 맞춰 기념관이 문을 열었다. 조천만세운동을 비롯해 법정사 항일운동, 해녀항일운동 등 제주 3대 항일운동과 제주에서 일어난 항일독립운동의 역사를 시대순으로 한눈에 볼 수 있다. 1층에는 항일운동사 연표와 법정사 항일운동 디오라마가, 2층에는 조천만세운동 디오라마와 해녀항일운동을 담은 매직비전 등이 전시되어 있다. 야외에는 애국선열추모탑과 위패를 모신 창열사, 3·1독립운동기념탑이 자리한 만세공원이 조성되어 있어, 선열들의 숭고한 희생정신을 되새기며 함께 둘러보기 좋다.",
+      "best_span_id": "chroma:M0056",
+      "best_span_text": "기미년 3·1독립만세운동은 제주지역까지 이어져 1919년 3월 21일부터 24일까지 조천읍 미밋동산(현 만세동산)과 조천장터 일대에서 전개되었다. 이러한 선열들의 뜻을 기리기 위해 조천만세동산 성역화 사업이 추진되었고, 1997년 8월 15일 광복절에 맞춰 기념관이 문을 열었다. 조천만세운동을 비롯해 법정사 항일운동, 해녀항일운동 등 제주 3대 항일운동과 제주에서 일어난 항일독립운동의 역사를 시대순으로 한눈에 볼 수 있다. 1층에는 항일운동사 연표와 법정사 항일운동 디오라마가, 2층에는 조천만세운동 디오라마와 해녀항일운동을 담은 매직비전 등이 전시되어 있다. 야외에는 애국선열추모탑과 위패를 모신 창열사, 3·1독립운동기념탑이 자리한 만세공원이 조성되어 있어, 선열들의 숭고한 희생정신을 되새기며 함께 둘러보기 좋다.",
+      "fusion_score": 0.03278688524590164,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 1,
+      "rerank_score": 0.9993361830711365,
+      "rank": 1,
+      "score": 0.9993361830711365,
+      "score_type": "cross_encoder",
+      "distance": 0.501329779624939,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0056",
+      "source_doc_ids": [
+        "DOC-B0056-TOUR_API-130308"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0056-TOUR_API-130308",
+          "source_type": "TOUR_API",
+          "source_record_id": "130308",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=31",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 81,
+          "doc_ids": [
+            "DOC-B0056-TOUR_API-130308"
+          ]
+        },
+        {
+          "start": 82,
+          "end": 156,
+          "doc_ids": [
+            "DOC-B0056-TOUR_API-130308"
+          ]
+        },
+        {
+          "start": 157,
+          "end": 238,
+          "doc_ids": [
+            "DOC-B0056-TOUR_API-130308"
+          ]
+        },
+        {
+          "start": 239,
+          "end": 315,
+          "doc_ids": [
+            "DOC-B0056-TOUR_API-130308"
+          ]
+        },
+        {
+          "start": 316,
+          "end": 404,
+          "doc_ids": [
+            "DOC-B0056-TOUR_API-130308"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=31",
+      "text": "기미년 3·1독립만세운동은 제주지역까지 이어져 1919년 3월 21일부터 24일까지 조천읍 미밋동산(현 만세동산)과 조천장터 일대에서 전개되었다. 이러한 선열들의 뜻을 기리기 위해 조천만세동산 성역화 사업이 추진되었고, 1997년 8월 15일 광복절에 맞춰 기념관이 문을 열었다. 조천만세운동을 비롯해 법정사 항일운동, 해녀항일운동 등 제주 3대 항일운동과 제주에서 일어난 항일독립운동의 역사를 시대순으로 한눈에 볼 수 있다. 1층에는 항일운동사 연표와 법정사 항일운동 디오라마가, 2층에는 조천만세운동 디오라마와 해녀항일운동을 담은 매직비전 등이 전시되어 있다. 야외에는 애국선열추모탑과 위패를 모신 창열사, 3·1독립운동기념탑이 자리한 만세공원이 조성되어 있어, 선열들의 숭고한 희생정신을 되새기며 함께 둘러보기 좋다.",
+      "sido": "제주특별자치도",
+      "sigungu": "제주시",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=31"
+      ],
+      "evidence_id": "E1",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=39",
+        "fields": {
+          "name": "제주항일기념관",
+          "sido": "제주특별자치도",
+          "sigungu": "제주시",
+          "address": "제주특별자치도 제주시 조천읍 신북로 303",
+          "ownership_type": "공립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "09:00",
+          "weekday_close": "18:00",
+          "holiday_open": "09:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "1월1일 설연휴(3일) 추석연휴(3일)"
+        },
+        "base_data_date": "2026-09-30",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0714",
+      "name": "독립기념관",
+      "document": "독립기념관은 항일투쟁의 역사를 제대로 정립하고, 이를 널리 알리려는 목적으로 건립되었다. 상설전시관은 겨레의 뿌리, 겨레의 시련, 겨레의 함성, 평화누리, 나라 되찾기, 새로운 나라 총 6개로 구성되어 있다. 각 전시관을 차례로 둘러보며 우리 민족의 찬란한 역사와 자주독립을 향한 선열들의 고귀한 희생정신을 되새길 수 있다. 함께하는 독립운동 체험관은 우리나라를 되찾기 위한 독립운동의 역사를 쉽고 재미있게 배우면서 나라 사랑의 마음을 느껴보는 체험관으로, 영아부터 성인까지 모든 세대가 함께할 수 있다. 무궁화, 태극기 등 나라 상징물로 꾸며진 공간에서 오감을 자극하는 놀이를 즐길 수 있다. ◎ 한류의 매력을 만나는 여행 정보 - 예능 K 컬처를 만든 한국인의 뜨거운 역사를 만날 수 있는 독립기념관은 멀리서도 장엄함을 드러내는 겨레의 탑과 동양 최대 기와 건물인 겨레의 집이다. 에이티즈가 골든벨을 했던 통일 염원의 동산과 통일의 종까지 둘러보며 K-spirit을 느껴볼 것을 추천한다. 뜨거운 민족혼과 대자연의 풍광이 어우러진 겨례의 전당",
+      "metadata": {
+        "weekday_close": "18:00",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/21/3450021_image2_1.jpg",
+        "holiday_close": "18:00",
+        "homepage_url": "http://www.i815.or.kr",
+        "sigungu": "천안시",
+        "ownership_type": "사립",
+        "adult_fee": 0.0,
+        "name": "독립기념관",
+        "closure_rule_raw": "월요일",
+        "address": "충청남도 천안시 동남구 목천읍 독립기념관로 1",
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "youth_fee": 0.0,
+        "longitude": 127.2303981,
+        "holiday_open": "09:30",
+        "image_copyright": "Type1",
+        "amenities_raw": "문화상품점+매점",
+        "sido": "충청남도",
+        "source_types": "BASE|TOUR_API",
+        "requires_manual_review": true,
+        "latitude": 36.781872,
+        "weekday_open": "09:30",
+        "fee_notes": "0",
+        "transport_notes": "경부 고속도로 목천(독립기념관) 나들목에서 2km, 천안나들목에서 국도 21호 이용 시 12km",
+        "child_fee": 0.0
+      },
+      "vector_rank": 10,
+      "bm25_rank": 13,
+      "vector_distance": 0.6854165196418762,
+      "vector_score": null,
+      "bm25_score": 7.392567314513682,
+      "vector_document": "독립기념관은 항일투쟁의 역사를 제대로 정립하고, 이를 널리 알리려는 목적으로 건립되었다. 상설전시관은 겨레의 뿌리, 겨레의 시련, 겨레의 함성, 평화누리, 나라 되찾기, 새로운 나라 총 6개로 구성되어 있다. 각 전시관을 차례로 둘러보며 우리 민족의 찬란한 역사와 자주독립을 향한 선열들의 고귀한 희생정신을 되새길 수 있다. 함께하는 독립운동 체험관은 우리나라를 되찾기 위한 독립운동의 역사를 쉽고 재미있게 배우면서 나라 사랑의 마음을 느껴보는 체험관으로, 영아부터 성인까지 모든 세대가 함께할 수 있다. 무궁화, 태극기 등 나라 상징물로 꾸며진 공간에서 오감을 자극하는 놀이를 즐길 수 있다. ◎ 한류의 매력을 만나는 여행 정보 - 예능 K 컬처를 만든 한국인의 뜨거운 역사를 만날 수 있는 독립기념관은 멀리서도 장엄함을 드러내는 겨레의 탑과 동양 최대 기와 건물인 겨레의 집이다. 에이티즈가 골든벨을 했던 통일 염원의 동산과 통일의 종까지 둘러보며 K-spirit을 느껴볼 것을 추천한다. 뜨거운 민족혼과 대자연의 풍광이 어우러진 겨례의 전당",
+      "bm25_document": "독립기념관은 항일투쟁의 역사를 제대로 정립하고, 이를 널리 알리려는 목적으로 건립되었다. 상설전시관은 겨레의 뿌리, 겨레의 시련, 겨레의 함성, 평화누리, 나라 되찾기, 새로운 나라 총 6개로 구성되어 있다. 각 전시관을 차례로 둘러보며 우리 민족의 찬란한 역사와 자주독립을 향한 선열들의 고귀한 희생정신을 되새길 수 있다. 함께하는 독립운동 체험관은 우리나라를 되찾기 위한 독립운동의 역사를 쉽고 재미있게 배우면서 나라 사랑의 마음을 느껴보는 체험관으로, 영아부터 성인까지 모든 세대가 함께할 수 있다. 무궁화, 태극기 등 나라 상징물로 꾸며진 공간에서 오감을 자극하는 놀이를 즐길 수 있다. ◎ 한류의 매력을 만나는 여행 정보 - 예능 K 컬처를 만든 한국인의 뜨거운 역사를 만날 수 있는 독립기념관은 멀리서도 장엄함을 드러내는 겨레의 탑과 동양 최대 기와 건물인 겨레의 집이다. 에이티즈가 골든벨을 했던 통일 염원의 동산과 통일의 종까지 둘러보며 K-spirit을 느껴볼 것을 추천한다. 뜨거운 민족혼과 대자연의 풍광이 어우러진 겨례의 전당",
+      "best_span_id": "chroma:M0714",
+      "best_span_text": "독립기념관은 항일투쟁의 역사를 제대로 정립하고, 이를 널리 알리려는 목적으로 건립되었다. 상설전시관은 겨레의 뿌리, 겨레의 시련, 겨레의 함성, 평화누리, 나라 되찾기, 새로운 나라 총 6개로 구성되어 있다. 각 전시관을 차례로 둘러보며 우리 민족의 찬란한 역사와 자주독립을 향한 선열들의 고귀한 희생정신을 되새길 수 있다. 함께하는 독립운동 체험관은 우리나라를 되찾기 위한 독립운동의 역사를 쉽고 재미있게 배우면서 나라 사랑의 마음을 느껴보는 체험관으로, 영아부터 성인까지 모든 세대가 함께할 수 있다. 무궁화, 태극기 등 나라 상징물로 꾸며진 공간에서 오감을 자극하는 놀이를 즐길 수 있다. ◎ 한류의 매력을 만나는 여행 정보 - 예능 K 컬처를 만든 한국인의 뜨거운 역사를 만날 수 있는 독립기념관은 멀리서도 장엄함을 드러내는 겨레의 탑과 동양 최대 기와 건물인 겨레의 집이다. 에이티즈가 골든벨을 했던 통일 염원의 동산과 통일의 종까지 둘러보며 K-spirit을 느껴볼 것을 추천한다. 뜨거운 민족혼과 대자연의 풍광이 어우러진 겨례의 전당",
+      "fusion_score": 0.027984344422700584,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 8,
+      "rerank_score": 0.08390895277261734,
+      "rank": 2,
+      "score": 0.08390895277261734,
+      "score_type": "cross_encoder",
+      "distance": 0.6854165196418762,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0714",
+      "source_doc_ids": [
+        "DOC-B0714-TOUR_API-129790",
+        "DOC-B0714-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0714-TOUR_API-129790",
+          "source_type": "TOUR_API",
+          "source_record_id": "129790",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=348",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        },
+        {
+          "doc_id": "DOC-B0714-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0714",
+          "source_locator": "data/raw/museum_base_1070.csv#row=715",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 49,
+          "doc_ids": [
+            "DOC-B0714-TOUR_API-129790"
+          ]
+        },
+        {
+          "start": 50,
+          "end": 116,
+          "doc_ids": [
+            "DOC-B0714-TOUR_API-129790"
+          ]
+        },
+        {
+          "start": 117,
+          "end": 181,
+          "doc_ids": [
+            "DOC-B0714-TOUR_API-129790"
+          ]
+        },
+        {
+          "start": 182,
+          "end": 282,
+          "doc_ids": [
+            "DOC-B0714-TOUR_API-129790"
+          ]
+        },
+        {
+          "start": 283,
+          "end": 332,
+          "doc_ids": [
+            "DOC-B0714-TOUR_API-129790"
+          ]
+        },
+        {
+          "start": 333,
+          "end": 438,
+          "doc_ids": [
+            "DOC-B0714-TOUR_API-129790"
+          ]
+        },
+        {
+          "start": 439,
+          "end": 499,
+          "doc_ids": [
+            "DOC-B0714-TOUR_API-129790"
+          ]
+        },
+        {
+          "start": 500,
+          "end": 529,
+          "doc_ids": [
+            "DOC-B0714-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=348",
+      "text": "독립기념관은 항일투쟁의 역사를 제대로 정립하고, 이를 널리 알리려는 목적으로 건립되었다. 상설전시관은 겨레의 뿌리, 겨레의 시련, 겨레의 함성, 평화누리, 나라 되찾기, 새로운 나라 총 6개로 구성되어 있다. 각 전시관을 차례로 둘러보며 우리 민족의 찬란한 역사와 자주독립을 향한 선열들의 고귀한 희생정신을 되새길 수 있다. 함께하는 독립운동 체험관은 우리나라를 되찾기 위한 독립운동의 역사를 쉽고 재미있게 배우면서 나라 사랑의 마음을 느껴보는 체험관으로, 영아부터 성인까지 모든 세대가 함께할 수 있다. 무궁화, 태극기 등 나라 상징물로 꾸며진 공간에서 오감을 자극하는 놀이를 즐길 수 있다. ◎ 한류의 매력을 만나는 여행 정보 - 예능 K 컬처를 만든 한국인의 뜨거운 역사를 만날 수 있는 독립기념관은 멀리서도 장엄함을 드러내는 겨레의 탑과 동양 최대 기와 건물인 겨레의 집이다. 에이티즈가 골든벨을 했던 통일 염원의 동산과 통일의 종까지 둘러보며 K-spirit을 느껴볼 것을 추천한다. 뜨거운 민족혼과 대자연의 풍광이 어우러진 겨례의 전당",
+      "sido": "충청남도",
+      "sigungu": "천안시",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=348"
+      ],
+      "evidence_id": "E2",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=496",
+        "fields": {
+          "name": "독립기념관",
+          "sido": "충청남도",
+          "sigungu": "천안시",
+          "address": "충청남도 천안시 동남구 목천읍 독립기념관로 1",
+          "ownership_type": "사립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "09:30",
+          "weekday_close": "18:00",
+          "holiday_open": "09:30",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "월요일",
+          "amenities_raw": "문화상품점+매점"
+        },
+        "base_data_date": "2024-07-11",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0071",
+      "name": "해녀박물관",
+      "document": "제주 해녀의 삶, 물질 도구, 공동체 문화와 바다에 대한 지식을 소개하는 박물관이다. 물옷과 테왁망사리 등 해녀 유물을 통해 제주 해녀문화의 역사와 가치를 배울 수 있다.",
+      "metadata": {
+        "address": "제주특별자치도 제주시 구좌읍 해녀박물관길 26",
+        "sigungu": "제주시",
+        "longitude": 126.8634256,
+        "fee_notes": "단체 관람 시 할인",
+        "latitude": 33.52360988,
+        "sido": "제주특별자치도",
+        "adult_fee_status": "BASE_FEE_PAID",
+        "name": "해녀박물관",
+        "homepage_url": "http://www.jeju.go.kr/haenyeo/index.htm",
+        "requires_manual_review": true,
+        "holiday_open": "09:00",
+        "adult_fee": 1100.0,
+        "child_fee": 0.0,
+        "source_types": "WEB_RESEARCH",
+        "ownership_type": "공립",
+        "holiday_close": "18:00",
+        "closure_rule_raw": "월+1월 1일+설 연휴+추석 연휴",
+        "weekday_close": "18:00",
+        "youth_fee": 500.0,
+        "weekday_open": "09:00"
+      },
+      "vector_rank": 19,
+      "bm25_rank": 2,
+      "vector_distance": 0.7045893669128418,
+      "vector_score": null,
+      "bm25_score": 17.57639172576876,
+      "vector_document": "제주 해녀의 삶, 물질 도구, 공동체 문화와 바다에 대한 지식을 소개하는 박물관이다. 물옷과 테왁망사리 등 해녀 유물을 통해 제주 해녀문화의 역사와 가치를 배울 수 있다.",
+      "bm25_document": "제주 해녀의 삶, 물질 도구, 공동체 문화와 바다에 대한 지식을 소개하는 박물관이다. 물옷과 테왁망사리 등 해녀 유물을 통해 제주 해녀문화의 역사와 가치를 배울 수 있다.",
+      "best_span_id": "chroma:M0071",
+      "best_span_text": "제주 해녀의 삶, 물질 도구, 공동체 문화와 바다에 대한 지식을 소개하는 박물관이다. 물옷과 테왁망사리 등 해녀 유물을 통해 제주 해녀문화의 역사와 가치를 배울 수 있다.",
+      "fusion_score": 0.02878726010616578,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 7,
+      "rerank_score": 0.015876853838562965,
+      "rank": 3,
+      "score": 0.015876853838562965,
+      "score_type": "cross_encoder",
+      "distance": 0.7045893669128418,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0071",
+      "source_doc_ids": [
+        "DOC-WEB-M0071-20261111"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-WEB-M0071-20261111",
+          "source_type": "WEB_RESEARCH",
+          "source_record_id": "RESEARCH-M0071",
+          "source_locator": "https://www.much.go.kr/cooperation/net/haen.do",
+          "source_url": "https://www.much.go.kr/cooperation/net/haen.do",
+          "match_trust": "WEB_SOURCE_REVIEWED_NOT_HUMAN_APPROVED"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 47,
+          "doc_ids": [
+            "DOC-WEB-M0071-20261111"
+          ]
+        },
+        {
+          "start": 48,
+          "end": 95,
+          "doc_ids": [
+            "DOC-WEB-M0071-20261111"
+          ]
+        }
+      ],
+      "source_urls": [
+        "https://www.much.go.kr/cooperation/net/haen.do"
+      ],
+      "source_locator": "https://www.much.go.kr/cooperation/net/haen.do",
+      "text": "제주 해녀의 삶, 물질 도구, 공동체 문화와 바다에 대한 지식을 소개하는 박물관이다. 물옷과 테왁망사리 등 해녀 유물을 통해 제주 해녀문화의 역사와 가치를 배울 수 있다.",
+      "sido": "제주특별자치도",
+      "sigungu": "제주시",
+      "chunk_id": "",
+      "source_locators": [
+        "https://www.much.go.kr/cooperation/net/haen.do"
+      ],
+      "evidence_id": "E3",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=46",
+        "fields": {
+          "name": "해녀박물관",
+          "sido": "제주특별자치도",
+          "sigungu": "제주시",
+          "address": "제주특별자치도 제주시 구좌읍 해녀박물관길 26",
+          "ownership_type": "공립",
+          "adult_fee": "1100",
+          "youth_fee": "500",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_PAID",
+          "weekday_open": "09:00",
+          "weekday_close": "18:00",
+          "holiday_open": "09:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "월+1월 1일+설 연휴+추석 연휴"
+        },
+        "base_data_date": "2026-09-30",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0191",
+      "name": "경상북도독립운동기념관",
+      "document": "경상북도독립운동기념관은 2007년 개관한 안동독립운동기념관을 2014년에 경상북도 전체의 기념관으로 승격·확장하여 2017년 6월 30일 다시 문을 열었다. 경북독립운동사에 관한 자료를 수집‧보존, 조사‧연구, 전시, 교육함으로써 민족의 자주독립을 지켜온 독립운동가들의 나라 사랑 정신을 계승하고 민족문화의 정체성 확립 및 올바른 국가관을 정립하는데 목적을 두고 있다. 또한 경상북도독립운동기념관의 전시실은 독립관과 의열관으로 구성되어 있으며, 1894년 갑오의병부터 1945년 조국 광복 때까지 51년간 펼쳐진 경북 사람들의 국내외 독립운동이 담겨 있다. 의병항쟁을 시작으로 국채보상운동, 자정순국, 만주지역 항일투쟁, 6·10 만세운동, 의열투쟁, 한국광복군 등 경북 사람들의 쉼 없는 항일투쟁과 관련 유물이 소개되어 있다. 또한 의열관은 안동 독립운동의 뿌리가 된 전통마을의 항일투쟁을 한눈에 볼 수 있다. 안동 독립운동의 뿌리가 된 전통마을의 항일투쟁을 전시하고 있는 전시실과 되살아나는 불씨, 나라 위해 목숨 바친 경북 사람들의 51년 독립운동을 영상으로 보여주는 추강영상실, 유아를 위한 교육과 체험공간인 새싹교육실 등으로 구성되어 있다. 경북 지역 독립운동의 역사를 기록하고 기념하는 시설이다. 의병 활동에서 광복에 이르는 지역의 항일운동과 독립운동가들의 활동을 전시·교육을 통해 소개한다.",
+      "metadata": {
+        "closure_rule_raw": "월+설 당일+추석 당일",
+        "longitude": 128.858222,
+        "weekday_close": "18:00",
+        "weekday_open": "09:00",
+        "latitude": 36.533194,
+        "name": "경상북도독립운동기념관",
+        "source_types": "TOUR_API|WEB_RESEARCH",
+        "adult_fee": 2000.0,
+        "homepage_url": "http://815gb.or.kr",
+        "sigungu": "안동시",
+        "child_fee": 1000.0,
+        "ownership_type": "사립",
+        "holiday_open": "09:00",
+        "holiday_close": "18:00",
+        "image_copyright": "Type1",
+        "requires_manual_review": true,
+        "youth_fee": 1500.0,
+        "sido": "경상북도",
+        "address": "경상북도 안동시 임하면 독립기념관길 2",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/76/3585876_image2_1.jpg",
+        "adult_fee_status": "BASE_FEE_PAID"
+      },
+      "vector_rank": 3,
+      "bm25_rank": 4,
+      "vector_distance": 0.626268208026886,
+      "vector_score": null,
+      "bm25_score": 15.852777353523411,
+      "vector_document": "경상북도독립운동기념관은 2007년 개관한 안동독립운동기념관을 2014년에 경상북도 전체의 기념관으로 승격·확장하여 2017년 6월 30일 다시 문을 열었다. 경북독립운동사에 관한 자료를 수집‧보존, 조사‧연구, 전시, 교육함으로써 민족의 자주독립을 지켜온 독립운동가들의 나라 사랑 정신을 계승하고 민족문화의 정체성 확립 및 올바른 국가관을 정립하는데 목적을 두고 있다. 또한 경상북도독립운동기념관의 전시실은 독립관과 의열관으로 구성되어 있으며, 1894년 갑오의병부터 1945년 조국 광복 때까지 51년간 펼쳐진 경북 사람들의 국내외 독립운동이 담겨 있다. 의병항쟁을 시작으로 국채보상운동, 자정순국, 만주지역 항일투쟁, 6·10 만세운동, 의열투쟁, 한국광복군 등 경북 사람들의 쉼 없는 항일투쟁과 관련 유물이 소개되어 있다. 또한 의열관은 안동 독립운동의 뿌리가 된 전통마을의 항일투쟁을 한눈에 볼 수 있다. 안동 독립운동의 뿌리가 된 전통마을의 항일투쟁을 전시하고 있는 전시실과 되살아나는 불씨, 나라 위해 목숨 바친 경북 사람들의 51년 독립운동을 영상으로 보여주는 추강영상실, 유아를 위한 교육과 체험공간인 새싹교육실 등으로 구성되어 있다. 경북 지역 독립운동의 역사를 기록하고 기념하는 시설이다. 의병 활동에서 광복에 이르는 지역의 항일운동과 독립운동가들의 활동을 전시·교육을 통해 소개한다.",
+      "bm25_document": "경상북도독립운동기념관은 2007년 개관한 안동독립운동기념관을 2014년에 경상북도 전체의 기념관으로 승격·확장하여 2017년 6월 30일 다시 문을 열었다. 경북독립운동사에 관한 자료를 수집‧보존, 조사‧연구, 전시, 교육함으로써 민족의 자주독립을 지켜온 독립운동가들의 나라 사랑 정신을 계승하고 민족문화의 정체성 확립 및 올바른 국가관을 정립하는데 목적을 두고 있다. 또한 경상북도독립운동기념관의 전시실은 독립관과 의열관으로 구성되어 있으며, 1894년 갑오의병부터 1945년 조국 광복 때까지 51년간 펼쳐진 경북 사람들의 국내외 독립운동이 담겨 있다. 의병항쟁을 시작으로 국채보상운동, 자정순국, 만주지역 항일투쟁, 6·10 만세운동, 의열투쟁, 한국광복군 등 경북 사람들의 쉼 없는 항일투쟁과 관련 유물이 소개되어 있다. 또한 의열관은 안동 독립운동의 뿌리가 된 전통마을의 항일투쟁을 한눈에 볼 수 있다. 안동 독립운동의 뿌리가 된 전통마을의 항일투쟁을 전시하고 있는 전시실과 되살아나는 불씨, 나라 위해 목숨 바친 경북 사람들의 51년 독립운동을 영상으로 보여주는 추강영상실, 유아를 위한 교육과 체험공간인 새싹교육실 등으로 구성되어 있다. 경북 지역 독립운동의 역사를 기록하고 기념하는 시설이다. 의병 활동에서 광복에 이르는 지역의 항일운동과 독립운동가들의 활동을 전시·교육을 통해 소개한다.",
+      "best_span_id": "chroma:M0191",
+      "best_span_text": "경상북도독립운동기념관은 2007년 개관한 안동독립운동기념관을 2014년에 경상북도 전체의 기념관으로 승격·확장하여 2017년 6월 30일 다시 문을 열었다. 경북독립운동사에 관한 자료를 수집‧보존, 조사‧연구, 전시, 교육함으로써 민족의 자주독립을 지켜온 독립운동가들의 나라 사랑 정신을 계승하고 민족문화의 정체성 확립 및 올바른 국가관을 정립하는데 목적을 두고 있다. 또한 경상북도독립운동기념관의 전시실은 독립관과 의열관으로 구성되어 있으며, 1894년 갑오의병부터 1945년 조국 광복 때까지 51년간 펼쳐진 경북 사람들의 국내외 독립운동이 담겨 있다. 의병항쟁을 시작으로 국채보상운동, 자정순국, 만주지역 항일투쟁, 6·10 만세운동, 의열투쟁, 한국광복군 등 경북 사람들의 쉼 없는 항일투쟁과 관련 유물이 소개되어 있다. 또한 의열관은 안동 독립운동의 뿌리가 된 전통마을의 항일투쟁을 한눈에 볼 수 있다. 안동 독립운동의 뿌리가 된 전통마을의 항일투쟁을 전시하고 있는 전시실과 되살아나는 불씨, 나라 위해 목숨 바친 경북 사람들의 51년 독립운동을 영상으로 보여주는 추강영상실, 유아를 위한 교육과 체험공간인 새싹교육실 등으로 구성되어 있다. 경북 지역 독립운동의 역사를 기록하고 기념하는 시설이다. 의병 활동에서 광복에 이르는 지역의 항일운동과 독립운동가들의 활동을 전시·교육을 통해 소개한다.",
+      "fusion_score": 0.03149801587301587,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 2,
+      "rerank_score": 0.014228048734366894,
+      "rank": 4,
+      "score": 0.014228048734366894,
+      "score_type": "cross_encoder",
+      "distance": 0.626268208026886,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0191",
+      "source_doc_ids": [
+        "DOC-B0191-TOUR_API-795012",
+        "DOC-WEB-M0191-20261111"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0191-TOUR_API-795012",
+          "source_type": "TOUR_API",
+          "source_record_id": "795012",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=92",
+          "match_trust": "RECHECKED_BY_RULE_NOT_HUMAN_APPROVED"
+        },
+        {
+          "doc_id": "DOC-WEB-M0191-20261111",
+          "source_type": "WEB_RESEARCH",
+          "source_record_id": "RESEARCH-M0191",
+          "source_locator": "https://mfis.mpva.go.kr/memorial/movementView.do?gubunCode=ALL&sid=871",
+          "source_url": "https://mfis.mpva.go.kr/memorial/movementView.do?gubunCode=ALL&sid=871",
+          "match_trust": "WEB_SOURCE_REVIEWED_NOT_HUMAN_APPROVED"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 87,
+          "doc_ids": [
+            "DOC-B0191-TOUR_API-795012"
+          ]
+        },
+        {
+          "start": 88,
+          "end": 206,
+          "doc_ids": [
+            "DOC-B0191-TOUR_API-795012"
+          ]
+        },
+        {
+          "start": 207,
+          "end": 311,
+          "doc_ids": [
+            "DOC-B0191-TOUR_API-795012"
+          ]
+        },
+        {
+          "start": 312,
+          "end": 407,
+          "doc_ids": [
+            "DOC-B0191-TOUR_API-795012"
+          ]
+        },
+        {
+          "start": 408,
+          "end": 454,
+          "doc_ids": [
+            "DOC-B0191-TOUR_API-795012"
+          ]
+        },
+        {
+          "start": 455,
+          "end": 587,
+          "doc_ids": [
+            "DOC-B0191-TOUR_API-795012"
+          ]
+        },
+        {
+          "start": 588,
+          "end": 619,
+          "doc_ids": [
+            "DOC-WEB-M0191-20261111"
+          ]
+        },
+        {
+          "start": 620,
+          "end": 673,
+          "doc_ids": [
+            "DOC-WEB-M0191-20261111"
+          ]
+        }
+      ],
+      "source_urls": [
+        "https://mfis.mpva.go.kr/memorial/movementView.do?gubunCode=ALL&sid=871"
+      ],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=92",
+      "text": "경상북도독립운동기념관은 2007년 개관한 안동독립운동기념관을 2014년에 경상북도 전체의 기념관으로 승격·확장하여 2017년 6월 30일 다시 문을 열었다. 경북독립운동사에 관한 자료를 수집‧보존, 조사‧연구, 전시, 교육함으로써 민족의 자주독립을 지켜온 독립운동가들의 나라 사랑 정신을 계승하고 민족문화의 정체성 확립 및 올바른 국가관을 정립하는데 목적을 두고 있다. 또한 경상북도독립운동기념관의 전시실은 독립관과 의열관으로 구성되어 있으며, 1894년 갑오의병부터 1945년 조국 광복 때까지 51년간 펼쳐진 경북 사람들의 국내외 독립운동이 담겨 있다. 의병항쟁을 시작으로 국채보상운동, 자정순국, 만주지역 항일투쟁, 6·10 만세운동, 의열투쟁, 한국광복군 등 경북 사람들의 쉼 없는 항일투쟁과 관련 유물이 소개되어 있다. 또한 의열관은 안동 독립운동의 뿌리가 된 전통마을의 항일투쟁을 한눈에 볼 수 있다. 안동 독립운동의 뿌리가 된 전통마을의 항일투쟁을 전시하고 있는 전시실과 되살아나는 불씨, 나라 위해 목숨 바친 경북 사람들의 51년 독립운동을 영상으로 보여주는 추강영상실, 유아를 위한 교육과 체험공간인 새싹교육실 등으로 구성되어 있다. 경북 지역 독립운동의 역사를 기록하고 기념하는 시설이다. 의병 활동에서 광복에 이르는 지역의 항일운동과 독립운동가들의 활동을 전시·교육을 통해 소개한다.",
+      "sido": "경상북도",
+      "sigungu": "안동시",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=92"
+      ],
+      "evidence_id": "E4",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=126",
+        "fields": {
+          "name": "경상북도독립운동기념관",
+          "sido": "경상북도",
+          "sigungu": "안동시",
+          "address": "경상북도 안동시 임하면 독립기념관길 2",
+          "ownership_type": "사립",
+          "adult_fee": "2000",
+          "youth_fee": "1500",
+          "child_fee": "1000",
+          "adult_fee_status": "BASE_FEE_PAID",
+          "weekday_open": "09:00",
+          "weekday_close": "18:00",
+          "holiday_open": "09:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "월+설 당일+추석 당일"
+        },
+        "base_data_date": "2026-09-04",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0031",
+      "name": "돌하르방미술관",
+      "document": "돌하르방미술관은 제주시 조천읍에 위치한 미술관이다. 이곳은 제주 토박이 김남흥 원장이 15년 이상의 세월 동안 개인의 힘으로 일구어온 생명과 평화의 공원이자 문화와 예술을 담은 공원이다. 도 내외에 흩어져 있는 48기의 돌하르방을 원형 그대로 재현해 전시하고 있을 뿐만 아니라 현대적인 해석으로 탄생한 다양한 형태의 돌하르방과 250여 개의 조형물들을 공원 곳곳에서 야외 전시하고 있다. 또, 곶자왈 산책길에서는 각종 양치식물과 청미래덩굴, 자귀나무, 꾸지뽕나무 등 다양한 수목을 관찰할 수 있어 살아 숨 쉬는 자연을 그대로 접할 수 있다.",
+      "metadata": {
+        "address": "제주특별자치도 제주시 조천읍 북촌서1길 70",
+        "sido": "제주특별자치도",
+        "ownership_type": "사립",
+        "youth_fee": 5000.0,
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/99/3077599_image2_1.jpg",
+        "source_types": "TOUR_API",
+        "name": "돌하르방미술관",
+        "closure_rule_raw": "설 당일 추석 당일",
+        "child_fee": 0.0,
+        "weekday_close": "18:00",
+        "fee_notes": "단체 관람 시 할인+도민할인",
+        "sigungu": "제주시",
+        "holiday_close": "18:00",
+        "weekday_open": "09:00",
+        "requires_manual_review": true,
+        "homepage_url": "https://blog.naver.com/dhbpark",
+        "adult_fee": 7000.0,
+        "longitude": 126.6888123,
+        "image_copyright": "Type3",
+        "latitude": 33.5388475,
+        "adult_fee_status": "BASE_FEE_PAID",
+        "holiday_open": "09:00"
+      },
+      "vector_rank": 7,
+      "bm25_rank": null,
+      "vector_distance": 0.6766601800918579,
+      "vector_score": null,
+      "bm25_score": null,
+      "vector_document": "돌하르방미술관은 제주시 조천읍에 위치한 미술관이다. 이곳은 제주 토박이 김남흥 원장이 15년 이상의 세월 동안 개인의 힘으로 일구어온 생명과 평화의 공원이자 문화와 예술을 담은 공원이다. 도 내외에 흩어져 있는 48기의 돌하르방을 원형 그대로 재현해 전시하고 있을 뿐만 아니라 현대적인 해석으로 탄생한 다양한 형태의 돌하르방과 250여 개의 조형물들을 공원 곳곳에서 야외 전시하고 있다. 또, 곶자왈 산책길에서는 각종 양치식물과 청미래덩굴, 자귀나무, 꾸지뽕나무 등 다양한 수목을 관찰할 수 있어 살아 숨 쉬는 자연을 그대로 접할 수 있다.",
+      "bm25_document": "",
+      "best_span_id": null,
+      "best_span_text": null,
+      "fusion_score": 0.014925373134328358,
+      "retrieved_by": [
+        "vector"
+      ],
+      "fusion_rank": 12,
+      "rerank_score": 0.007754920981824398,
+      "rank": 5,
+      "score": 0.007754920981824398,
+      "score_type": "cross_encoder",
+      "distance": 0.6766601800918579,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector"
+      ],
+      "retriever": "vector",
+      "source_doc_ids": [
+        "DOC-B0031-TOUR_API-128777"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0031-TOUR_API-128777",
+          "source_type": "TOUR_API",
+          "source_record_id": "128777",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=18",
+          "match_trust": "RECHECKED_BY_RULE_NOT_HUMAN_APPROVED"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 28,
+          "doc_ids": [
+            "DOC-B0031-TOUR_API-128777"
+          ]
+        },
+        {
+          "start": 29,
+          "end": 104,
+          "doc_ids": [
+            "DOC-B0031-TOUR_API-128777"
+          ]
+        },
+        {
+          "start": 105,
+          "end": 216,
+          "doc_ids": [
+            "DOC-B0031-TOUR_API-128777"
+          ]
+        },
+        {
+          "start": 217,
+          "end": 302,
+          "doc_ids": [
+            "DOC-B0031-TOUR_API-128777"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=18",
+      "text": "돌하르방미술관은 제주시 조천읍에 위치한 미술관이다. 이곳은 제주 토박이 김남흥 원장이 15년 이상의 세월 동안 개인의 힘으로 일구어온 생명과 평화의 공원이자 문화와 예술을 담은 공원이다. 도 내외에 흩어져 있는 48기의 돌하르방을 원형 그대로 재현해 전시하고 있을 뿐만 아니라 현대적인 해석으로 탄생한 다양한 형태의 돌하르방과 250여 개의 조형물들을 공원 곳곳에서 야외 전시하고 있다. 또, 곶자왈 산책길에서는 각종 양치식물과 청미래덩굴, 자귀나무, 꾸지뽕나무 등 다양한 수목을 관찰할 수 있어 살아 숨 쉬는 자연을 그대로 접할 수 있다.",
+      "sido": "제주특별자치도",
+      "sigungu": "제주시",
+      "span_id": "",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=18"
+      ],
+      "evidence_id": "E5",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=24",
+        "fields": {
+          "name": "돌하르방미술관",
+          "sido": "제주특별자치도",
+          "sigungu": "제주시",
+          "address": "제주특별자치도 제주시 조천읍 북촌서1길 70",
+          "ownership_type": "사립",
+          "adult_fee": "7000",
+          "youth_fee": "5000",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_PAID",
+          "weekday_open": "09:00",
+          "weekday_close": "18:00",
+          "holiday_open": "09:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "설 당일 추석 당일"
+        },
+        "base_data_date": "2026-09-30",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    }
+  ],
+  "answer": "제주항일기념관입니다. 조천만세운동뿐 아니라 법정사 항일운동과 해녀항일운동 등 제주 3대 항일운동을 다룹니다. [E1]",
+  "retrieval_status": "ok",
+  "answer_status": "answered",
+  "route": "hybrid",
+  "retry_count": 0,
+  "supervisor_verified": true,
+  "rerank_applied": true,
+  "retriever_errors": [],
+  "warnings": [],
+  "duration_ms": 77212.1,
+  "error_type": "",
+  "hit_at_1": 1,
+  "hit_at_3": 1,
+  "hit_at_5": 1,
+  "recall_at_5": 1.0,
+  "mrr_at_10": 1.0
+}

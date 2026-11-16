@@ -1,0 +1,683 @@
+{
+  "evidence_context_version": "grounded-evidence-v2",
+  "evaluation_contexts": [
+    "{\"evidence_context_version\": \"grounded-evidence-v2\", \"evidence_id\": \"E1\", \"metadata_provenance\": {\"base_data_date\": \"2026-06-22\", \"fields\": {\"address\": \"경기도 파주시 탄현면 헤이리마을길 96-43\", \"adult_fee\": \"5000\", \"adult_fee_status\": \"BASE_FEE_PAID\", \"child_fee\": \"3000\", \"closure_rule_raw\": \"월요일+화요일\", \"holiday_close\": \"19:00\", \"holiday_open\": \"10:00\", \"name\": \"한향림옹기박물관\", \"ownership_type\": \"사립\", \"sido\": \"경기도\", \"sigungu\": \"파주시\", \"weekday_close\": \"19:00\", \"weekday_open\": \"10:00\", \"youth_fee\": \"4000\"}, \"source_kind\": \"derived_csv_row\", \"source_locator\": \"data/processed/museum_final_738.csv#record=269\", \"trust\": \"derived_dataset_not_human_verified\"}, \"museum_id\": \"M0371\", \"name\": \"한향림옹기박물관\", \"source_doc_ids\": [\"DOC-B0371-TOUR_API-1160010\"], \"source_documents\": [{\"doc_id\": \"DOC-B0371-TOUR_API-1160010\", \"match_trust\": \"AUTO_MATCH_NOT_HUMAN_VERIFIED\", \"source_locator\": \"data/raw/museum_tourapi_with_overview.csv#row=174\", \"source_record_id\": \"1160010\", \"source_type\": \"TOUR_API\"}], \"source_locator\": \"data/raw/museum_tourapi_with_overview.csv#row=174\", \"source_locators\": [\"data/raw/museum_tourapi_with_overview.csv#row=174\"], \"source_scope\": \"text\", \"source_spans\": [{\"doc_ids\": [\"DOC-B0371-TOUR_API-1160010\"], \"end\": 101, \"start\": 0}, {\"doc_ids\": [\"DOC-B0371-TOUR_API-1160010\"], \"end\": 163, \"start\": 102}, {\"doc_ids\": [\"DOC-B0371-TOUR_API-1160010\"], \"end\": 240, \"start\": 164}, {\"doc_ids\": [\"DOC-B0371-TOUR_API-1160010\"], \"end\": 357, \"start\": 241}, {\"doc_ids\": [\"DOC-B0371-TOUR_API-1160010\"], \"end\": 432, \"start\": 358}, {\"doc_ids\": [\"DOC-B0371-TOUR_API-1160010\"], \"end\": 527, \"start\": 433}], \"source_urls\": [], \"text\": \"향림옹기박물관은 한국옹기의 과학적 우수성과 아름다운 조형미를 국내외에 알리고자 20여 년의 수집기간을 거쳐 2004년부터 헤이리예술마을에 터를 잡고 옹기전시관과 갤러리로 개관하였다. 이후 다양한 용도의 중요 옹기들을 보강·수집·정리하여 2009년에 박물관으로 정식등록하여 옹기박물관이 되었다. 또한, 2005년에 경력인증대상기관으로 등록하여 박물관에 필요한 학예전문인력을 교육시켜 정학예사를 배출하는 교육박물관으로 거듭나고 있다. 한국 고유의 소박한 아름다움을 품고 있는 소장 유물인 옹기를 통해 우리가 살고 있는 현재에서 과거의 실생활을 이해하여 새롭게 미래 지향적인 창조적 사고를 갖게 하는 중요한 문화 예술 공간으로 거듭나고자 한다. 역사를 배우고 이해하는 교육의 장소와 체험하고 즐기는 창조적인 열린 문화 공간으로 변화하여 전통문화유산의 가치를 널리 알리고자 한다. 조선 시대 후기에서부터 1950년 이전까지 실생활에서 사용된 옹기 소품 및 시신을 넣어 관으로 사용한 옹관, 빗물항아리, 굴뚝과 연가 등의 대형 옹기를 감상할 수 있다.\"}",
+    "{\"evidence_context_version\": \"grounded-evidence-v2\", \"evidence_id\": \"E2\", \"metadata_provenance\": {\"base_data_date\": \"2025-11-19\", \"fields\": {\"address\": \"충청남도 금산군 남이면 하금평촌길 26\", \"adult_fee\": \"0\", \"adult_fee_status\": \"BASE_FEE_ZERO_CHECK_EXCEPTIONS\", \"child_fee\": \"0\", \"closure_rule_raw\": \"월+1월1일\", \"holiday_close\": \"18:00\", \"holiday_open\": \"10:00\", \"name\": \"태영민속박물관\", \"ownership_type\": \"사립\", \"sido\": \"충청남도\", \"sigungu\": \"금산군\", \"weekday_close\": \"18:00\", \"weekday_open\": \"10:00\", \"youth_fee\": \"0\"}, \"source_kind\": \"derived_csv_row\", \"source_locator\": \"data/processed/museum_final_738.csv#record=666\", \"trust\": \"derived_dataset_not_human_verified\"}, \"museum_id\": \"M0970\", \"name\": \"태영민속박물관\", \"source_doc_ids\": [\"DOC-B0970-TOUR_API-615547\"], \"source_documents\": [{\"doc_id\": \"DOC-B0970-TOUR_API-615547\", \"match_trust\": \"AUTO_MATCH_NOT_HUMAN_VERIFIED\", \"source_locator\": \"data/raw/museum_tourapi_with_overview.csv#row=454\", \"source_record_id\": \"615547\", \"source_type\": \"TOUR_API\"}], \"source_locator\": \"data/raw/museum_tourapi_with_overview.csv#row=454\", \"source_locators\": [\"data/raw/museum_tourapi_with_overview.csv#row=454\"], \"source_scope\": \"text\", \"source_spans\": [{\"doc_ids\": [\"DOC-B0970-TOUR_API-615547\"], \"end\": 40, \"start\": 0}, {\"doc_ids\": [\"DOC-B0970-TOUR_API-615547\"], \"end\": 75, \"start\": 41}, {\"doc_ids\": [\"DOC-B0970-TOUR_API-615547\"], \"end\": 153, \"start\": 76}, {\"doc_ids\": [\"DOC-B0970-TOUR_API-615547\"], \"end\": 259, \"start\": 154}, {\"doc_ids\": [\"DOC-B0970-TOUR_API-615547\"], \"end\": 331, \"start\": 260}, {\"doc_ids\": [\"DOC-B0970-TOUR_API-615547\"], \"end\": 447, \"start\": 332}], \"source_urls\": [], \"text\": \"태영민속박물관은 지역 사회에 문화의 씨앗이 되고자 2000년에 개관했다. 삼국시대의 토기부터 조선시대 및 근대의 옹기가 전시되어 있다. 토기는 삼국시대 토기를 중심으로 통일신라시대 토기 및 고려시대 토기가 전시되어 있으며, 옹기는 조선시대의 것부터 근대에 사용되었던 것이다. 그리고 옛 생활을 체험해 볼 수 있는 전통 초가가 있으며, 야외전시장에서는 옹기의 기원과 발전, 옹기의 특성, 생활 속의 옹기들을 새롭게 설치된 설명 패널과 함께 종류별로 살펴볼 수 있다. 이 박물관은 시즌별 특별전은 물론 소장 유물을 상시 교체하여 가까이에서 우리 민속 문화를 느낄 수 있고 휴식공간으로도 활용된다. 또한 민속 문화를 유물을 통해 입체적으로 배우고 전통공예를 체험하면서 즐겁게 시간을 보낼 수 있는 여러 교육프로그램을 제공하여 학교 교육과 가정, 지역을 연결하는 평생학습의 실천자로서 역할을 담당하고 있다.\"}",
+    "{\"evidence_context_version\": \"grounded-evidence-v2\", \"evidence_id\": \"E3\", \"metadata_provenance\": {\"base_data_date\": \"2026-06-10\", \"fields\": {\"address\": \"울산광역시 울주군 온양읍 외고산3길 36\", \"adult_fee\": \"0\", \"adult_fee_status\": \"BASE_FEE_ZERO_CHECK_EXCEPTIONS\", \"amenities_raw\": \"휴게시설+수유실\", \"child_fee\": \"0\", \"closure_rule_raw\": \"매주 월요일, 1월 1일, 설날·추석 당일, 관리운영상 정하는 휴관일\", \"holiday_close\": \"18:00\", \"holiday_open\": \"09:00\", \"name\": \"울산옹기박물관\", \"ownership_type\": \"공립\", \"sido\": \"울산광역시\", \"sigungu\": \"울주군\", \"weekday_close\": \"18:00\", \"weekday_open\": \"09:00\", \"youth_fee\": \"0\"}, \"source_kind\": \"derived_csv_row\", \"source_locator\": \"data/processed/museum_final_738.csv#record=288\", \"trust\": \"derived_dataset_not_human_verified\"}, \"museum_id\": \"M0404\", \"name\": \"울산옹기박물관\", \"source_doc_ids\": [\"DOC-B0762-BASE\", \"DOC-B0404-BASE\"], \"source_documents\": [{\"doc_id\": \"DOC-B0762-BASE\", \"match_trust\": \"BASE_SOURCE\", \"source_locator\": \"data/raw/museum_base_1070.csv#row=763\", \"source_record_id\": \"B0762\", \"source_type\": \"BASE\"}, {\"doc_id\": \"DOC-B0404-BASE\", \"match_trust\": \"BASE_SOURCE\", \"source_locator\": \"data/raw/museum_base_1070.csv#row=405\", \"source_record_id\": \"B0404\", \"source_type\": \"BASE\"}], \"source_locator\": \"data/raw/museum_base_1070.csv#row=763\", \"source_locators\": [\"data/raw/museum_base_1070.csv#row=763\"], \"source_scope\": \"text\", \"source_spans\": [{\"doc_ids\": [\"DOC-B0762-BASE\"], \"end\": 109, \"start\": 0}, {\"doc_ids\": [\"DOC-B0404-BASE\"], \"end\": 186, \"start\": 110}], \"source_urls\": [], \"text\": \"울주지역의 문화,예술,학문의 발전과 울주 군민의 문화향유 및 평생교육 증진에 이바지하며, 울주지역 향토문화의 체계적인 보존과 계승을 통해 미래 울주문화를 창출하고자 하는 목적으로 설립된 군립박물관 울산옹기박물관은 옹기와 함게 숨 쉬며 살아온 외고산 장인들의 발자취와 옹기의 역사, 문화 그리고 미래가 오롯이 담겨 있는 공립박물관이다.\"}",
+    "{\"evidence_context_version\": \"grounded-evidence-v2\", \"evidence_id\": \"E4\", \"metadata_provenance\": {\"base_data_date\": \"2018-05-15\", \"fields\": {\"address\": \"서울특별시 도봉구 삼양로 574-41\", \"adult_fee\": \"0\", \"adult_fee_status\": \"BASE_FEE_ZERO_CHECK_EXCEPTIONS\", \"child_fee\": \"0\", \"closure_rule_raw\": \"매주 월요일, 1월1일, 설연휴, 추석연휴\", \"holiday_close\": \"18:00\", \"holiday_open\": \"10:00\", \"name\": \"옹기민속박물관\", \"ownership_type\": \"사립\", \"sido\": \"서울특별시\", \"sigungu\": \"도봉구\", \"weekday_close\": \"18:00\", \"weekday_open\": \"10:00\", \"youth_fee\": \"0\"}, \"source_kind\": \"derived_csv_row\", \"source_locator\": \"data/processed/museum_final_738.csv#record=624\", \"trust\": \"derived_dataset_not_human_verified\"}, \"museum_id\": \"M0907\", \"name\": \"옹기민속박물관\", \"source_doc_ids\": [\"DOC-B0907-BASE\"], \"source_documents\": [{\"doc_id\": \"DOC-B0907-BASE\", \"match_trust\": \"BASE_SOURCE\", \"source_locator\": \"data/raw/museum_base_1070.csv#row=908\", \"source_record_id\": \"B0907\", \"source_type\": \"BASE\"}], \"source_locator\": \"data/raw/museum_base_1070.csv#row=908\", \"source_locators\": [\"data/raw/museum_base_1070.csv#row=908\"], \"source_scope\": \"text\", \"source_spans\": [{\"doc_ids\": [\"DOC-B0907-BASE\"], \"end\": 140, \"start\": 0}], \"source_urls\": [], \"text\": \"옹기전시실 : 거름통, 요강, 화로, 굴뚝, 독우물 등 주거 생활용 및 악기용, 민간 신앙용 옹기 전시민속생활용품전시실 : 목공예, 짚풀공예, 종이공예, 금속공예품 등 전시야외전시실 : 큰 항아리, 옹기굴뚝, 석탑, 석등, 맷돌 등 다양한 석조물 전시\"}",
+    "{\"evidence_context_version\": \"grounded-evidence-v2\", \"evidence_id\": \"E5\", \"metadata_provenance\": {\"base_data_date\": \"2026-06-17\", \"fields\": {\"address\": \"경기도 부천시 오정구 소사로 638\", \"adult_fee\": \"0\", \"adult_fee_status\": \"BASE_FEE_ZERO_CHECK_EXCEPTIONS\", \"child_fee\": \"0\", \"closure_rule_raw\": \"월(월요일이 공휴일인 경우 월요일 정상 개관 후 화요일에 휴관)+1월 1일+설 연휴+추석 연휴\", \"holiday_close\": \"18:00\", \"holiday_open\": \"09:30\", \"name\": \"부천시립박물관\", \"ownership_type\": \"공립\", \"sido\": \"경기도\", \"sigungu\": \"부천시\", \"weekday_close\": \"18:00\", \"weekday_open\": \"09:30\", \"youth_fee\": \"0\"}, \"source_kind\": \"derived_csv_row\", \"source_locator\": \"data/processed/museum_final_738.csv#record=283\", \"trust\": \"derived_dataset_not_human_verified\"}, \"museum_id\": \"M0399\", \"name\": \"부천시립박물관\", \"source_doc_ids\": [\"DOC-B0399-TOUR_API-2734888\", \"DOC-B0399-BASE\"], \"source_documents\": [{\"doc_id\": \"DOC-B0399-TOUR_API-2734888\", \"match_trust\": \"AUTO_MATCH_NOT_HUMAN_VERIFIED\", \"source_locator\": \"data/raw/museum_tourapi_with_overview.csv#row=184\", \"source_record_id\": \"2734888\", \"source_type\": \"TOUR_API\"}, {\"doc_id\": \"DOC-B0399-BASE\", \"match_trust\": \"BASE_SOURCE\", \"source_locator\": \"data/raw/museum_base_1070.csv#row=400\", \"source_record_id\": \"B0399\", \"source_type\": \"BASE\"}], \"source_locator\": \"data/raw/museum_tourapi_with_overview.csv#row=184\", \"source_locators\": [\"data/raw/museum_tourapi_with_overview.csv#row=184\"], \"source_scope\": \"text\", \"source_spans\": [{\"doc_ids\": [\"DOC-B0399-TOUR_API-2734888\"], \"end\": 191, \"start\": 0}, {\"doc_ids\": [\"DOC-B0399-TOUR_API-2734888\"], \"end\": 250, \"start\": 192}, {\"doc_ids\": [\"DOC-B0399-BASE\"], \"end\": 339, \"start\": 251}], \"source_urls\": [], \"text\": \"부천시립박물관은 삼국시대부터 현대에 이르기까지 대한민국 교육의 변천사를 살펴볼 수 있는 교육 전시실, 수백 년 동안 사랑받아 온 유럽 문화의 정수인 유럽자기 전시실, 억겁의 시간 동안 자연이 빚어낸 작품인 수석 전시실, 점말 옹기 터의 역사를 되돌아볼 수 있는 옹기 전시실과 부천 지역에서 출토된 유물이 있는 부천향토역사관으로 이루어져 있다. 문화도시 부천의 종합 박물관으로서 과거와 현재, 동양과 서양을 아우르는 다양한 소장품을 살펴볼 수 있다. 부천시립박물관은 선사시대부터 이어져오는 부천의 자랑스러운 역사를 알리고 계승하며 다양한 문화콘텐츠의 가치를 제고하여 시민을 위한 복합문화공간이 되고자 합니다.\"}"
+  ],
+  "mode": "supervisor_full",
+  "question_id": "V2-EH03",
+  "evidence": [
+    {
+      "museum_id": "M0371",
+      "name": "한향림옹기박물관",
+      "document": "향림옹기박물관은 한국옹기의 과학적 우수성과 아름다운 조형미를 국내외에 알리고자 20여 년의 수집기간을 거쳐 2004년부터 헤이리예술마을에 터를 잡고 옹기전시관과 갤러리로 개관하였다. 이후 다양한 용도의 중요 옹기들을 보강·수집·정리하여 2009년에 박물관으로 정식등록하여 옹기박물관이 되었다. 또한, 2005년에 경력인증대상기관으로 등록하여 박물관에 필요한 학예전문인력을 교육시켜 정학예사를 배출하는 교육박물관으로 거듭나고 있다. 한국 고유의 소박한 아름다움을 품고 있는 소장 유물인 옹기를 통해 우리가 살고 있는 현재에서 과거의 실생활을 이해하여 새롭게 미래 지향적인 창조적 사고를 갖게 하는 중요한 문화 예술 공간으로 거듭나고자 한다. 역사를 배우고 이해하는 교육의 장소와 체험하고 즐기는 창조적인 열린 문화 공간으로 변화하여 전통문화유산의 가치를 널리 알리고자 한다. 조선 시대 후기에서부터 1950년 이전까지 실생활에서 사용된 옹기 소품 및 시신을 넣어 관으로 사용한 옹관, 빗물항아리, 굴뚝과 연가 등의 대형 옹기를 감상할 수 있다.",
+      "metadata": {
+        "youth_fee": 4000.0,
+        "name": "한향림옹기박물관",
+        "homepage_url": "https://blog.naver.com/hhlmuseum",
+        "latitude": 37.7899543289,
+        "holiday_open": "10:00",
+        "sido": "경기도",
+        "sigungu": "파주시",
+        "child_fee": 3000.0,
+        "image_copyright": "Type1",
+        "source_types": "TOUR_API",
+        "weekday_close": "19:00",
+        "closure_rule_raw": "월요일+화요일",
+        "longitude": 126.7009185328,
+        "ownership_type": "사립",
+        "adult_fee_status": "BASE_FEE_PAID",
+        "requires_manual_review": true,
+        "holiday_close": "19:00",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/33/3527733_image2_1.jpg",
+        "weekday_open": "10:00",
+        "address": "경기도 파주시 탄현면 헤이리마을길 96-43",
+        "adult_fee": 5000.0
+      },
+      "vector_rank": 2,
+      "bm25_rank": 2,
+      "vector_distance": 0.38637685775756836,
+      "vector_score": null,
+      "bm25_score": 12.411252455118706,
+      "vector_document": "향림옹기박물관은 한국옹기의 과학적 우수성과 아름다운 조형미를 국내외에 알리고자 20여 년의 수집기간을 거쳐 2004년부터 헤이리예술마을에 터를 잡고 옹기전시관과 갤러리로 개관하였다. 이후 다양한 용도의 중요 옹기들을 보강·수집·정리하여 2009년에 박물관으로 정식등록하여 옹기박물관이 되었다. 또한, 2005년에 경력인증대상기관으로 등록하여 박물관에 필요한 학예전문인력을 교육시켜 정학예사를 배출하는 교육박물관으로 거듭나고 있다. 한국 고유의 소박한 아름다움을 품고 있는 소장 유물인 옹기를 통해 우리가 살고 있는 현재에서 과거의 실생활을 이해하여 새롭게 미래 지향적인 창조적 사고를 갖게 하는 중요한 문화 예술 공간으로 거듭나고자 한다. 역사를 배우고 이해하는 교육의 장소와 체험하고 즐기는 창조적인 열린 문화 공간으로 변화하여 전통문화유산의 가치를 널리 알리고자 한다. 조선 시대 후기에서부터 1950년 이전까지 실생활에서 사용된 옹기 소품 및 시신을 넣어 관으로 사용한 옹관, 빗물항아리, 굴뚝과 연가 등의 대형 옹기를 감상할 수 있다.",
+      "bm25_document": "향림옹기박물관은 한국옹기의 과학적 우수성과 아름다운 조형미를 국내외에 알리고자 20여 년의 수집기간을 거쳐 2004년부터 헤이리예술마을에 터를 잡고 옹기전시관과 갤러리로 개관하였다. 이후 다양한 용도의 중요 옹기들을 보강·수집·정리하여 2009년에 박물관으로 정식등록하여 옹기박물관이 되었다. 또한, 2005년에 경력인증대상기관으로 등록하여 박물관에 필요한 학예전문인력을 교육시켜 정학예사를 배출하는 교육박물관으로 거듭나고 있다. 한국 고유의 소박한 아름다움을 품고 있는 소장 유물인 옹기를 통해 우리가 살고 있는 현재에서 과거의 실생활을 이해하여 새롭게 미래 지향적인 창조적 사고를 갖게 하는 중요한 문화 예술 공간으로 거듭나고자 한다. 역사를 배우고 이해하는 교육의 장소와 체험하고 즐기는 창조적인 열린 문화 공간으로 변화하여 전통문화유산의 가치를 널리 알리고자 한다. 조선 시대 후기에서부터 1950년 이전까지 실생활에서 사용된 옹기 소품 및 시신을 넣어 관으로 사용한 옹관, 빗물항아리, 굴뚝과 연가 등의 대형 옹기를 감상할 수 있다.",
+      "best_span_id": "chroma:M0371",
+      "best_span_text": "향림옹기박물관은 한국옹기의 과학적 우수성과 아름다운 조형미를 국내외에 알리고자 20여 년의 수집기간을 거쳐 2004년부터 헤이리예술마을에 터를 잡고 옹기전시관과 갤러리로 개관하였다. 이후 다양한 용도의 중요 옹기들을 보강·수집·정리하여 2009년에 박물관으로 정식등록하여 옹기박물관이 되었다. 또한, 2005년에 경력인증대상기관으로 등록하여 박물관에 필요한 학예전문인력을 교육시켜 정학예사를 배출하는 교육박물관으로 거듭나고 있다. 한국 고유의 소박한 아름다움을 품고 있는 소장 유물인 옹기를 통해 우리가 살고 있는 현재에서 과거의 실생활을 이해하여 새롭게 미래 지향적인 창조적 사고를 갖게 하는 중요한 문화 예술 공간으로 거듭나고자 한다. 역사를 배우고 이해하는 교육의 장소와 체험하고 즐기는 창조적인 열린 문화 공간으로 변화하여 전통문화유산의 가치를 널리 알리고자 한다. 조선 시대 후기에서부터 1950년 이전까지 실생활에서 사용된 옹기 소품 및 시신을 넣어 관으로 사용한 옹관, 빗물항아리, 굴뚝과 연가 등의 대형 옹기를 감상할 수 있다.",
+      "fusion_score": 0.03225806451612903,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 1,
+      "rerank_score": 0.998879611492157,
+      "rank": 1,
+      "score": 0.998879611492157,
+      "score_type": "cross_encoder",
+      "distance": 0.38637685775756836,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0371",
+      "source_doc_ids": [
+        "DOC-B0371-TOUR_API-1160010"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0371-TOUR_API-1160010",
+          "source_type": "TOUR_API",
+          "source_record_id": "1160010",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=174",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 101,
+          "doc_ids": [
+            "DOC-B0371-TOUR_API-1160010"
+          ]
+        },
+        {
+          "start": 102,
+          "end": 163,
+          "doc_ids": [
+            "DOC-B0371-TOUR_API-1160010"
+          ]
+        },
+        {
+          "start": 164,
+          "end": 240,
+          "doc_ids": [
+            "DOC-B0371-TOUR_API-1160010"
+          ]
+        },
+        {
+          "start": 241,
+          "end": 357,
+          "doc_ids": [
+            "DOC-B0371-TOUR_API-1160010"
+          ]
+        },
+        {
+          "start": 358,
+          "end": 432,
+          "doc_ids": [
+            "DOC-B0371-TOUR_API-1160010"
+          ]
+        },
+        {
+          "start": 433,
+          "end": 527,
+          "doc_ids": [
+            "DOC-B0371-TOUR_API-1160010"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=174",
+      "text": "향림옹기박물관은 한국옹기의 과학적 우수성과 아름다운 조형미를 국내외에 알리고자 20여 년의 수집기간을 거쳐 2004년부터 헤이리예술마을에 터를 잡고 옹기전시관과 갤러리로 개관하였다. 이후 다양한 용도의 중요 옹기들을 보강·수집·정리하여 2009년에 박물관으로 정식등록하여 옹기박물관이 되었다. 또한, 2005년에 경력인증대상기관으로 등록하여 박물관에 필요한 학예전문인력을 교육시켜 정학예사를 배출하는 교육박물관으로 거듭나고 있다. 한국 고유의 소박한 아름다움을 품고 있는 소장 유물인 옹기를 통해 우리가 살고 있는 현재에서 과거의 실생활을 이해하여 새롭게 미래 지향적인 창조적 사고를 갖게 하는 중요한 문화 예술 공간으로 거듭나고자 한다. 역사를 배우고 이해하는 교육의 장소와 체험하고 즐기는 창조적인 열린 문화 공간으로 변화하여 전통문화유산의 가치를 널리 알리고자 한다. 조선 시대 후기에서부터 1950년 이전까지 실생활에서 사용된 옹기 소품 및 시신을 넣어 관으로 사용한 옹관, 빗물항아리, 굴뚝과 연가 등의 대형 옹기를 감상할 수 있다.",
+      "sido": "경기도",
+      "sigungu": "파주시",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=174"
+      ],
+      "evidence_id": "E1",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=269",
+        "fields": {
+          "name": "한향림옹기박물관",
+          "sido": "경기도",
+          "sigungu": "파주시",
+          "address": "경기도 파주시 탄현면 헤이리마을길 96-43",
+          "ownership_type": "사립",
+          "adult_fee": "5000",
+          "youth_fee": "4000",
+          "child_fee": "3000",
+          "adult_fee_status": "BASE_FEE_PAID",
+          "weekday_open": "10:00",
+          "weekday_close": "19:00",
+          "holiday_open": "10:00",
+          "holiday_close": "19:00",
+          "closure_rule_raw": "월요일+화요일"
+        },
+        "base_data_date": "2026-06-22",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0970",
+      "name": "태영민속박물관",
+      "document": "태영민속박물관은 지역 사회에 문화의 씨앗이 되고자 2000년에 개관했다. 삼국시대의 토기부터 조선시대 및 근대의 옹기가 전시되어 있다. 토기는 삼국시대 토기를 중심으로 통일신라시대 토기 및 고려시대 토기가 전시되어 있으며, 옹기는 조선시대의 것부터 근대에 사용되었던 것이다. 그리고 옛 생활을 체험해 볼 수 있는 전통 초가가 있으며, 야외전시장에서는 옹기의 기원과 발전, 옹기의 특성, 생활 속의 옹기들을 새롭게 설치된 설명 패널과 함께 종류별로 살펴볼 수 있다. 이 박물관은 시즌별 특별전은 물론 소장 유물을 상시 교체하여 가까이에서 우리 민속 문화를 느낄 수 있고 휴식공간으로도 활용된다. 또한 민속 문화를 유물을 통해 입체적으로 배우고 전통공예를 체험하면서 즐겁게 시간을 보낼 수 있는 여러 교육프로그램을 제공하여 학교 교육과 가정, 지역을 연결하는 평생학습의 실천자로서 역할을 담당하고 있다.",
+      "metadata": {
+        "weekday_close": "18:00",
+        "sigungu": "금산군",
+        "weekday_open": "10:00",
+        "homepage_url": "http://www.tfmuseum.org/",
+        "name": "태영민속박물관",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/85/3338685_image2_1.jpg",
+        "longitude": 127.4368352,
+        "image_copyright": "Type3",
+        "requires_manual_review": true,
+        "ownership_type": "사립",
+        "source_types": "TOUR_API",
+        "address": "충청남도 금산군 남이면 하금평촌길 26",
+        "sido": "충청남도",
+        "holiday_close": "18:00",
+        "adult_fee": 0.0,
+        "holiday_open": "10:00",
+        "youth_fee": 0.0,
+        "child_fee": 0.0,
+        "closure_rule_raw": "월+1월1일",
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "latitude": 36.05144078
+      },
+      "vector_rank": null,
+      "bm25_rank": 1,
+      "vector_distance": null,
+      "vector_score": null,
+      "bm25_score": 13.896521702493953,
+      "vector_document": "",
+      "bm25_document": "태영민속박물관은 지역 사회에 문화의 씨앗이 되고자 2000년에 개관했다. 삼국시대의 토기부터 조선시대 및 근대의 옹기가 전시되어 있다. 토기는 삼국시대 토기를 중심으로 통일신라시대 토기 및 고려시대 토기가 전시되어 있으며, 옹기는 조선시대의 것부터 근대에 사용되었던 것이다. 그리고 옛 생활을 체험해 볼 수 있는 전통 초가가 있으며, 야외전시장에서는 옹기의 기원과 발전, 옹기의 특성, 생활 속의 옹기들을 새롭게 설치된 설명 패널과 함께 종류별로 살펴볼 수 있다. 이 박물관은 시즌별 특별전은 물론 소장 유물을 상시 교체하여 가까이에서 우리 민속 문화를 느낄 수 있고 휴식공간으로도 활용된다. 또한 민속 문화를 유물을 통해 입체적으로 배우고 전통공예를 체험하면서 즐겁게 시간을 보낼 수 있는 여러 교육프로그램을 제공하여 학교 교육과 가정, 지역을 연결하는 평생학습의 실천자로서 역할을 담당하고 있다.",
+      "best_span_id": "chroma:M0970",
+      "best_span_text": "태영민속박물관은 지역 사회에 문화의 씨앗이 되고자 2000년에 개관했다. 삼국시대의 토기부터 조선시대 및 근대의 옹기가 전시되어 있다. 토기는 삼국시대 토기를 중심으로 통일신라시대 토기 및 고려시대 토기가 전시되어 있으며, 옹기는 조선시대의 것부터 근대에 사용되었던 것이다. 그리고 옛 생활을 체험해 볼 수 있는 전통 초가가 있으며, 야외전시장에서는 옹기의 기원과 발전, 옹기의 특성, 생활 속의 옹기들을 새롭게 설치된 설명 패널과 함께 종류별로 살펴볼 수 있다. 이 박물관은 시즌별 특별전은 물론 소장 유물을 상시 교체하여 가까이에서 우리 민속 문화를 느낄 수 있고 휴식공간으로도 활용된다. 또한 민속 문화를 유물을 통해 입체적으로 배우고 전통공예를 체험하면서 즐겁게 시간을 보낼 수 있는 여러 교육프로그램을 제공하여 학교 교육과 가정, 지역을 연결하는 평생학습의 실천자로서 역할을 담당하고 있다.",
+      "fusion_score": 0.01639344262295082,
+      "retrieved_by": [
+        "bm25"
+      ],
+      "fusion_rank": 3,
+      "rerank_score": 0.9981061220169067,
+      "rank": 2,
+      "score": 0.9981061220169067,
+      "score_type": "cross_encoder",
+      "distance": null,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "bm25"
+      ],
+      "retriever": "bm25",
+      "span_id": "chroma:M0970",
+      "source_doc_ids": [
+        "DOC-B0970-TOUR_API-615547"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0970-TOUR_API-615547",
+          "source_type": "TOUR_API",
+          "source_record_id": "615547",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=454",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 40,
+          "doc_ids": [
+            "DOC-B0970-TOUR_API-615547"
+          ]
+        },
+        {
+          "start": 41,
+          "end": 75,
+          "doc_ids": [
+            "DOC-B0970-TOUR_API-615547"
+          ]
+        },
+        {
+          "start": 76,
+          "end": 153,
+          "doc_ids": [
+            "DOC-B0970-TOUR_API-615547"
+          ]
+        },
+        {
+          "start": 154,
+          "end": 259,
+          "doc_ids": [
+            "DOC-B0970-TOUR_API-615547"
+          ]
+        },
+        {
+          "start": 260,
+          "end": 331,
+          "doc_ids": [
+            "DOC-B0970-TOUR_API-615547"
+          ]
+        },
+        {
+          "start": 332,
+          "end": 447,
+          "doc_ids": [
+            "DOC-B0970-TOUR_API-615547"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=454",
+      "text": "태영민속박물관은 지역 사회에 문화의 씨앗이 되고자 2000년에 개관했다. 삼국시대의 토기부터 조선시대 및 근대의 옹기가 전시되어 있다. 토기는 삼국시대 토기를 중심으로 통일신라시대 토기 및 고려시대 토기가 전시되어 있으며, 옹기는 조선시대의 것부터 근대에 사용되었던 것이다. 그리고 옛 생활을 체험해 볼 수 있는 전통 초가가 있으며, 야외전시장에서는 옹기의 기원과 발전, 옹기의 특성, 생활 속의 옹기들을 새롭게 설치된 설명 패널과 함께 종류별로 살펴볼 수 있다. 이 박물관은 시즌별 특별전은 물론 소장 유물을 상시 교체하여 가까이에서 우리 민속 문화를 느낄 수 있고 휴식공간으로도 활용된다. 또한 민속 문화를 유물을 통해 입체적으로 배우고 전통공예를 체험하면서 즐겁게 시간을 보낼 수 있는 여러 교육프로그램을 제공하여 학교 교육과 가정, 지역을 연결하는 평생학습의 실천자로서 역할을 담당하고 있다.",
+      "sido": "충청남도",
+      "sigungu": "금산군",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=454"
+      ],
+      "evidence_id": "E2",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=666",
+        "fields": {
+          "name": "태영민속박물관",
+          "sido": "충청남도",
+          "sigungu": "금산군",
+          "address": "충청남도 금산군 남이면 하금평촌길 26",
+          "ownership_type": "사립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "10:00",
+          "weekday_close": "18:00",
+          "holiday_open": "10:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "월+1월1일"
+        },
+        "base_data_date": "2025-11-19",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0404",
+      "name": "울산옹기박물관",
+      "document": "울주지역의 문화,예술,학문의 발전과 울주 군민의 문화향유 및 평생교육 증진에 이바지하며, 울주지역 향토문화의 체계적인 보존과 계승을 통해 미래 울주문화를 창출하고자 하는 목적으로 설립된 군립박물관 울산옹기박물관은 옹기와 함게 숨 쉬며 살아온 외고산 장인들의 발자취와 옹기의 역사, 문화 그리고 미래가 오롯이 담겨 있는 공립박물관이다.",
+      "metadata": {
+        "homepage_url": "https://www.ulju.ulsan.kr/onggi/",
+        "latitude": 35.435094,
+        "sigungu": "울주군",
+        "adult_fee": 0.0,
+        "requires_manual_review": true,
+        "fee_notes": "무료",
+        "weekday_open": "09:00",
+        "longitude": 129.2795066772,
+        "name": "울산옹기박물관",
+        "holiday_close": "18:00",
+        "amenities_raw": "휴게시설+수유실",
+        "closure_rule_raw": "매주 월요일, 1월 1일, 설날·추석 당일, 관리운영상 정하는 휴관일",
+        "child_fee": 0.0,
+        "weekday_close": "18:00",
+        "ownership_type": "공립",
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "sido": "울산광역시",
+        "source_types": "BASE",
+        "youth_fee": 0.0,
+        "holiday_open": "09:00",
+        "address": "울산광역시 울주군 온양읍 외고산3길 36"
+      },
+      "vector_rank": null,
+      "bm25_rank": 5,
+      "vector_distance": null,
+      "vector_score": null,
+      "bm25_score": 10.770647621490651,
+      "vector_document": "",
+      "bm25_document": "울주지역의 문화,예술,학문의 발전과 울주 군민의 문화향유 및 평생교육 증진에 이바지하며, 울주지역 향토문화의 체계적인 보존과 계승을 통해 미래 울주문화를 창출하고자 하는 목적으로 설립된 군립박물관 울산옹기박물관은 옹기와 함게 숨 쉬며 살아온 외고산 장인들의 발자취와 옹기의 역사, 문화 그리고 미래가 오롯이 담겨 있는 공립박물관이다.",
+      "best_span_id": "chroma:M0404",
+      "best_span_text": "울주지역의 문화,예술,학문의 발전과 울주 군민의 문화향유 및 평생교육 증진에 이바지하며, 울주지역 향토문화의 체계적인 보존과 계승을 통해 미래 울주문화를 창출하고자 하는 목적으로 설립된 군립박물관 울산옹기박물관은 옹기와 함게 숨 쉬며 살아온 외고산 장인들의 발자취와 옹기의 역사, 문화 그리고 미래가 오롯이 담겨 있는 공립박물관이다.",
+      "fusion_score": 0.015384615384615385,
+      "retrieved_by": [
+        "bm25"
+      ],
+      "fusion_rank": 9,
+      "rerank_score": 0.994521975517273,
+      "rank": 3,
+      "score": 0.994521975517273,
+      "score_type": "cross_encoder",
+      "distance": null,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "bm25"
+      ],
+      "retriever": "bm25",
+      "span_id": "chroma:M0404",
+      "source_doc_ids": [
+        "DOC-B0762-BASE",
+        "DOC-B0404-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0762-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0762",
+          "source_locator": "data/raw/museum_base_1070.csv#row=763",
+          "match_trust": "BASE_SOURCE"
+        },
+        {
+          "doc_id": "DOC-B0404-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0404",
+          "source_locator": "data/raw/museum_base_1070.csv#row=405",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 109,
+          "doc_ids": [
+            "DOC-B0762-BASE"
+          ]
+        },
+        {
+          "start": 110,
+          "end": 186,
+          "doc_ids": [
+            "DOC-B0404-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_base_1070.csv#row=763",
+      "text": "울주지역의 문화,예술,학문의 발전과 울주 군민의 문화향유 및 평생교육 증진에 이바지하며, 울주지역 향토문화의 체계적인 보존과 계승을 통해 미래 울주문화를 창출하고자 하는 목적으로 설립된 군립박물관 울산옹기박물관은 옹기와 함게 숨 쉬며 살아온 외고산 장인들의 발자취와 옹기의 역사, 문화 그리고 미래가 오롯이 담겨 있는 공립박물관이다.",
+      "sido": "울산광역시",
+      "sigungu": "울주군",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_base_1070.csv#row=763"
+      ],
+      "evidence_id": "E3",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=288",
+        "fields": {
+          "name": "울산옹기박물관",
+          "sido": "울산광역시",
+          "sigungu": "울주군",
+          "address": "울산광역시 울주군 온양읍 외고산3길 36",
+          "ownership_type": "공립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "09:00",
+          "weekday_close": "18:00",
+          "holiday_open": "09:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "매주 월요일, 1월 1일, 설날·추석 당일, 관리운영상 정하는 휴관일",
+          "amenities_raw": "휴게시설+수유실"
+        },
+        "base_data_date": "2026-06-10",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0907",
+      "name": "옹기민속박물관",
+      "document": "옹기전시실 : 거름통, 요강, 화로, 굴뚝, 독우물 등 주거 생활용 및 악기용, 민간 신앙용 옹기 전시민속생활용품전시실 : 목공예, 짚풀공예, 종이공예, 금속공예품 등 전시야외전시실 : 큰 항아리, 옹기굴뚝, 석탑, 석등, 맷돌 등 다양한 석조물 전시",
+      "metadata": {
+        "youth_fee": 0.0,
+        "longitude": 127.01465,
+        "source_types": "BASE",
+        "sigungu": "도봉구",
+        "ownership_type": "사립",
+        "fee_notes": "[개인/단체(20명)]  어른3,000원/ 2,000원, 어린이 2,000원/1,000원",
+        "holiday_open": "10:00",
+        "weekday_open": "10:00",
+        "weekday_close": "18:00",
+        "adult_fee": 0.0,
+        "transport_notes": "지하철: 4호선 수유역 ③번 출구 → 120(간선), 153(간선) 버스 → 서라벌중학교 하차(10분소요) → 옹기민속박물관 길로 100m 진입버스: 간선(파랑) : 120, 144, 151, 153, 지선(녹색) : 1120, 1144, 1161, 1218 서라벌중학교 하차 → 옹기민속박물관 길로 100m 진입마을버스:  01 창동역, 02 수유역6번출구 약초원 하차",
+        "requires_manual_review": true,
+        "holiday_close": "18:00",
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "sido": "서울특별시",
+        "closure_rule_raw": "매주 월요일, 1월1일, 설연휴, 추석연휴",
+        "child_fee": 0.0,
+        "address": "서울특별시 도봉구 삼양로 574-41",
+        "name": "옹기민속박물관",
+        "latitude": 37.65448
+      },
+      "vector_rank": 1,
+      "bm25_rank": 7,
+      "vector_distance": 0.35700154304504395,
+      "vector_score": null,
+      "bm25_score": 10.542194397447718,
+      "vector_document": "옹기전시실 : 거름통, 요강, 화로, 굴뚝, 독우물 등 주거 생활용 및 악기용, 민간 신앙용 옹기 전시민속생활용품전시실 : 목공예, 짚풀공예, 종이공예, 금속공예품 등 전시야외전시실 : 큰 항아리, 옹기굴뚝, 석탑, 석등, 맷돌 등 다양한 석조물 전시",
+      "bm25_document": "옹기전시실 : 거름통, 요강, 화로, 굴뚝, 독우물 등 주거 생활용 및 악기용, 민간 신앙용 옹기 전시민속생활용품전시실 : 목공예, 짚풀공예, 종이공예, 금속공예품 등 전시야외전시실 : 큰 항아리, 옹기굴뚝, 석탑, 석등, 맷돌 등 다양한 석조물 전시",
+      "best_span_id": "chroma:M0907",
+      "best_span_text": "옹기전시실 : 거름통, 요강, 화로, 굴뚝, 독우물 등 주거 생활용 및 악기용, 민간 신앙용 옹기 전시민속생활용품전시실 : 목공예, 짚풀공예, 종이공예, 금속공예품 등 전시야외전시실 : 큰 항아리, 옹기굴뚝, 석탑, 석등, 맷돌 등 다양한 석조물 전시",
+      "fusion_score": 0.03131881575727918,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 2,
+      "rerank_score": 0.9920571446418762,
+      "rank": 4,
+      "score": 0.9920571446418762,
+      "score_type": "cross_encoder",
+      "distance": 0.35700154304504395,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0907",
+      "source_doc_ids": [
+        "DOC-B0907-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0907-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0907",
+          "source_locator": "data/raw/museum_base_1070.csv#row=908",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 140,
+          "doc_ids": [
+            "DOC-B0907-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_base_1070.csv#row=908",
+      "text": "옹기전시실 : 거름통, 요강, 화로, 굴뚝, 독우물 등 주거 생활용 및 악기용, 민간 신앙용 옹기 전시민속생활용품전시실 : 목공예, 짚풀공예, 종이공예, 금속공예품 등 전시야외전시실 : 큰 항아리, 옹기굴뚝, 석탑, 석등, 맷돌 등 다양한 석조물 전시",
+      "sido": "서울특별시",
+      "sigungu": "도봉구",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_base_1070.csv#row=908"
+      ],
+      "evidence_id": "E4",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=624",
+        "fields": {
+          "name": "옹기민속박물관",
+          "sido": "서울특별시",
+          "sigungu": "도봉구",
+          "address": "서울특별시 도봉구 삼양로 574-41",
+          "ownership_type": "사립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "10:00",
+          "weekday_close": "18:00",
+          "holiday_open": "10:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "매주 월요일, 1월1일, 설연휴, 추석연휴"
+        },
+        "base_data_date": "2018-05-15",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0399",
+      "name": "부천시립박물관",
+      "document": "부천시립박물관은 삼국시대부터 현대에 이르기까지 대한민국 교육의 변천사를 살펴볼 수 있는 교육 전시실, 수백 년 동안 사랑받아 온 유럽 문화의 정수인 유럽자기 전시실, 억겁의 시간 동안 자연이 빚어낸 작품인 수석 전시실, 점말 옹기 터의 역사를 되돌아볼 수 있는 옹기 전시실과 부천 지역에서 출토된 유물이 있는 부천향토역사관으로 이루어져 있다. 문화도시 부천의 종합 박물관으로서 과거와 현재, 동양과 서양을 아우르는 다양한 소장품을 살펴볼 수 있다. 부천시립박물관은 선사시대부터 이어져오는 부천의 자랑스러운 역사를 알리고 계승하며 다양한 문화콘텐츠의 가치를 제고하여 시민을 위한 복합문화공간이 되고자 합니다.",
+      "metadata": {
+        "holiday_open": "09:30",
+        "source_types": "BASE|TOUR_API",
+        "adult_fee": 0.0,
+        "ownership_type": "공립",
+        "latitude": 37.51364,
+        "fee_notes": "0",
+        "weekday_open": "09:30",
+        "requires_manual_review": true,
+        "address": "경기도 부천시 오정구 소사로 638",
+        "child_fee": 0.0,
+        "weekday_close": "18:00",
+        "name": "부천시립박물관",
+        "sido": "경기도",
+        "youth_fee": 0.0,
+        "closure_rule_raw": "월(월요일이 공휴일인 경우 월요일 정상 개관 후 화요일에 휴관)+1월 1일+설 연휴+추석 연휴",
+        "transport_notes": "7호선 부천종합운동장역(2번출구) 에서  도보로 15분  버스 환승은 95번 60번으로 5분 정도 소요",
+        "image_copyright": "Type1",
+        "holiday_close": "18:00",
+        "longitude": 126.80175,
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/70/4119570_image2_1.jpg",
+        "sigungu": "부천시",
+        "homepage_url": "http://www.bcmuseum.or.kr",
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS"
+      },
+      "vector_rank": null,
+      "bm25_rank": 6,
+      "vector_distance": null,
+      "vector_score": null,
+      "bm25_score": 10.743589850449869,
+      "vector_document": "",
+      "bm25_document": "부천시립박물관은 삼국시대부터 현대에 이르기까지 대한민국 교육의 변천사를 살펴볼 수 있는 교육 전시실, 수백 년 동안 사랑받아 온 유럽 문화의 정수인 유럽자기 전시실, 억겁의 시간 동안 자연이 빚어낸 작품인 수석 전시실, 점말 옹기 터의 역사를 되돌아볼 수 있는 옹기 전시실과 부천 지역에서 출토된 유물이 있는 부천향토역사관으로 이루어져 있다. 문화도시 부천의 종합 박물관으로서 과거와 현재, 동양과 서양을 아우르는 다양한 소장품을 살펴볼 수 있다. 부천시립박물관은 선사시대부터 이어져오는 부천의 자랑스러운 역사를 알리고 계승하며 다양한 문화콘텐츠의 가치를 제고하여 시민을 위한 복합문화공간이 되고자 합니다.",
+      "best_span_id": "chroma:M0399",
+      "best_span_text": "부천시립박물관은 삼국시대부터 현대에 이르기까지 대한민국 교육의 변천사를 살펴볼 수 있는 교육 전시실, 수백 년 동안 사랑받아 온 유럽 문화의 정수인 유럽자기 전시실, 억겁의 시간 동안 자연이 빚어낸 작품인 수석 전시실, 점말 옹기 터의 역사를 되돌아볼 수 있는 옹기 전시실과 부천 지역에서 출토된 유물이 있는 부천향토역사관으로 이루어져 있다. 문화도시 부천의 종합 박물관으로서 과거와 현재, 동양과 서양을 아우르는 다양한 소장품을 살펴볼 수 있다. 부천시립박물관은 선사시대부터 이어져오는 부천의 자랑스러운 역사를 알리고 계승하며 다양한 문화콘텐츠의 가치를 제고하여 시민을 위한 복합문화공간이 되고자 합니다.",
+      "fusion_score": 0.015151515151515152,
+      "retrieved_by": [
+        "bm25"
+      ],
+      "fusion_rank": 11,
+      "rerank_score": 0.9725077748298645,
+      "rank": 5,
+      "score": 0.9725077748298645,
+      "score_type": "cross_encoder",
+      "distance": null,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "bm25"
+      ],
+      "retriever": "bm25",
+      "span_id": "chroma:M0399",
+      "source_doc_ids": [
+        "DOC-B0399-TOUR_API-2734888",
+        "DOC-B0399-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0399-TOUR_API-2734888",
+          "source_type": "TOUR_API",
+          "source_record_id": "2734888",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=184",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        },
+        {
+          "doc_id": "DOC-B0399-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0399",
+          "source_locator": "data/raw/museum_base_1070.csv#row=400",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 191,
+          "doc_ids": [
+            "DOC-B0399-TOUR_API-2734888"
+          ]
+        },
+        {
+          "start": 192,
+          "end": 250,
+          "doc_ids": [
+            "DOC-B0399-TOUR_API-2734888"
+          ]
+        },
+        {
+          "start": 251,
+          "end": 339,
+          "doc_ids": [
+            "DOC-B0399-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=184",
+      "text": "부천시립박물관은 삼국시대부터 현대에 이르기까지 대한민국 교육의 변천사를 살펴볼 수 있는 교육 전시실, 수백 년 동안 사랑받아 온 유럽 문화의 정수인 유럽자기 전시실, 억겁의 시간 동안 자연이 빚어낸 작품인 수석 전시실, 점말 옹기 터의 역사를 되돌아볼 수 있는 옹기 전시실과 부천 지역에서 출토된 유물이 있는 부천향토역사관으로 이루어져 있다. 문화도시 부천의 종합 박물관으로서 과거와 현재, 동양과 서양을 아우르는 다양한 소장품을 살펴볼 수 있다. 부천시립박물관은 선사시대부터 이어져오는 부천의 자랑스러운 역사를 알리고 계승하며 다양한 문화콘텐츠의 가치를 제고하여 시민을 위한 복합문화공간이 되고자 합니다.",
+      "sido": "경기도",
+      "sigungu": "부천시",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=184"
+      ],
+      "evidence_id": "E5",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=283",
+        "fields": {
+          "name": "부천시립박물관",
+          "sido": "경기도",
+          "sigungu": "부천시",
+          "address": "경기도 부천시 오정구 소사로 638",
+          "ownership_type": "공립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "09:30",
+          "weekday_close": "18:00",
+          "holiday_open": "09:30",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "월(월요일이 공휴일인 경우 월요일 정상 개관 후 화요일에 휴관)+1월 1일+설 연휴+추석 연휴"
+        },
+        "base_data_date": "2026-06-17",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    }
+  ],
+  "answer": "확인 가능한 근거가 부족하여 답변을 보류했습니다. 확인하지 못한 내용: 옹기민속박물관의 현재 서울 소재 여부.",
+  "retrieval_status": "ok",
+  "answer_status": "abstained",
+  "route": "hybrid",
+  "retry_count": 1,
+  "supervisor_verified": false,
+  "rerank_applied": true,
+  "retriever_errors": [],
+  "warnings": [],
+  "duration_ms": 87365.55,
+  "error_type": "",
+  "hit_at_1": 1,
+  "hit_at_3": 1,
+  "hit_at_5": 1,
+  "recall_at_5": 1.0,
+  "mrr_at_10": 1.0
+}

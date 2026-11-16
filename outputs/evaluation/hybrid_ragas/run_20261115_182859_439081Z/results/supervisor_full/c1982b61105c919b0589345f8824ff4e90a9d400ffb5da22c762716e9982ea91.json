@@ -1,0 +1,753 @@
+{
+  "evidence_context_version": "grounded-evidence-v2",
+  "evaluation_contexts": [
+    "{\"evidence_context_version\": \"grounded-evidence-v2\", \"evidence_id\": \"E1\", \"metadata_provenance\": {\"base_data_date\": \"2025-08-18\", \"fields\": {\"address\": \"인천광역시 중구 신포로23번길 77\", \"adult_fee\": \"500\", \"adult_fee_status\": \"BASE_FEE_PAID\", \"child_fee\": \"200\", \"closure_rule_raw\": \"매주 월요일\", \"holiday_close\": \"18:00\", \"holiday_open\": \"09:00\", \"name\": \"인천개항장 근대건축전시관\", \"ownership_type\": \"공립\", \"sido\": \"인천광역시\", \"sigungu\": \"중구\", \"weekday_close\": \"18:00\", \"weekday_open\": \"09:00\", \"youth_fee\": \"300\"}, \"source_kind\": \"derived_csv_row\", \"source_locator\": \"data/processed/museum_final_738.csv#record=641\", \"trust\": \"derived_dataset_not_human_verified\"}, \"museum_id\": \"M0925\", \"name\": \"인천개항장 근대건축전시관\", \"retrieval_branch\": \"document\", \"source_doc_ids\": [\"DOC-B0925-TOUR_API-2779442\"], \"source_documents\": [{\"doc_id\": \"DOC-B0925-TOUR_API-2779442\", \"match_trust\": \"AUTO_MATCH_NOT_HUMAN_VERIFIED\", \"source_locator\": \"data/raw/museum_tourapi_with_overview.csv#row=436\", \"source_record_id\": \"2779442\", \"source_type\": \"TOUR_API\"}], \"source_locator\": \"data/raw/museum_tourapi_with_overview.csv#row=436\", \"source_locators\": [\"data/raw/museum_tourapi_with_overview.csv#row=436\"], \"source_scope\": \"text\", \"source_spans\": [{\"doc_ids\": [\"DOC-B0925-TOUR_API-2779442\"], \"end\": 45, \"start\": 0}, {\"doc_ids\": [\"DOC-B0925-TOUR_API-2779442\"], \"end\": 121, \"start\": 46}, {\"doc_ids\": [\"DOC-B0925-TOUR_API-2779442\"], \"end\": 189, \"start\": 122}, {\"doc_ids\": [\"DOC-B0925-TOUR_API-2779442\"], \"end\": 255, \"start\": 190}, {\"doc_ids\": [\"DOC-B0925-TOUR_API-2779442\"], \"end\": 323, \"start\": 256}, {\"doc_ids\": [\"DOC-B0925-TOUR_API-2779442\"], \"end\": 366, \"start\": 324}, {\"doc_ids\": [\"DOC-B0925-TOUR_API-2779442\"], \"end\": 419, \"start\": 367}, {\"doc_ids\": [\"DOC-B0925-TOUR_API-2779442\"], \"end\": 528, \"start\": 420}], \"source_urls\": [], \"text\": \"인천 개항장 근대건축전시관은 개항장 내 서구 근대건축물을 모아 전시하는 공간이다. 일본 나가사키에 본점을 둔 18은행의 인천 지점으로 처음 세워졌다가 1954년부터 1992년까지 한국흥업은행과 카페로 활용된 바 있다. 4개의 전시관을 차례대로 훑어보면 1883년 개항 당시 국내외 정세부터 근대건축물 정보까지 다양한 사료를 만날 수 있다. 은행으로 사용될 당시의 금고와 지붕이 건물 안에 그대로 남아, 타임머신을 타고 역사의 현장으로 들어온 느낌마저 든다. 메인 전시관인 3전시실은 각국의 외교관사, 관공서부터 소실된 외국인의 주택 등 다양한 근대건축물 디오라마를 전시 중이다. 원하는 건축물을 선택하면 커다란 스크린을 통해 영상 설명을 들을 수도 있다. 금고로 사용되었던 공간은 18은행과 조선인 수탈 사이의 관계를 설명하는 4전시실로 꾸며놓았다. 18은행은 조선에서 무역하는 나가사키 상인들을 지원하는 한편 조선인들을 대상으로 고리대금업을 벌였는데, 이때 조선인들에게 받은 이자 대부분이 일본인에게 넘어가 조선인들의 삶이 피폐해졌다고 한다.\"}",
+    "{\"evidence_context_version\": \"grounded-evidence-v2\", \"evidence_id\": \"E2\", \"metadata_provenance\": {\"base_data_date\": \"2025-08-18\", \"fields\": {\"address\": \"인천광역시 중구 신포로23번길 101\", \"adult_fee\": \"1000\", \"adult_fee_status\": \"BASE_FEE_PAID\", \"child_fee\": \"500\", \"closure_rule_raw\": \"매주 월요일\", \"holiday_close\": \"18:00\", \"holiday_open\": \"09:00\", \"name\": \"대불호텔전시관\", \"ownership_type\": \"공립\", \"sido\": \"인천광역시\", \"sigungu\": \"중구\", \"weekday_close\": \"18:00\", \"weekday_open\": \"09:00\", \"youth_fee\": \"700\"}, \"source_kind\": \"derived_csv_row\", \"source_locator\": \"data/processed/museum_final_738.csv#record=640\", \"trust\": \"derived_dataset_not_human_verified\"}, \"museum_id\": \"M0924\", \"name\": \"대불호텔전시관\", \"retrieval_branch\": \"document\", \"source_doc_ids\": [\"DOC-B0924-TOUR_API-2994530\"], \"source_documents\": [{\"doc_id\": \"DOC-B0924-TOUR_API-2994530\", \"match_trust\": \"AUTO_MATCH_NOT_HUMAN_VERIFIED\", \"source_locator\": \"data/raw/museum_tourapi_with_overview.csv#row=435\", \"source_record_id\": \"2994530\", \"source_type\": \"TOUR_API\"}], \"source_locator\": \"data/raw/museum_tourapi_with_overview.csv#row=435\", \"source_locators\": [\"data/raw/museum_tourapi_with_overview.csv#row=435\"], \"source_scope\": \"text\", \"source_spans\": [{\"doc_ids\": [\"DOC-B0924-TOUR_API-2994530\"], \"end\": 47, \"start\": 0}, {\"doc_ids\": [\"DOC-B0924-TOUR_API-2994530\"], \"end\": 160, \"start\": 48}, {\"doc_ids\": [\"DOC-B0924-TOUR_API-2994530\"], \"end\": 218, \"start\": 161}, {\"doc_ids\": [\"DOC-B0924-TOUR_API-2994530\"], \"end\": 367, \"start\": 219}], \"source_urls\": [], \"text\": \"대불호텔전시관은 우리나라 최초의 서양식 호텔인 대불호텔의 역사를 소개하는 전시관이다. 대불호텔은 개항 후 인천항으로 들어오는 외국인들이 서울로 가기 전 묵었던 서양식 호텔로 당시 인기가 높았으나 경인선 개통과 러일 전쟁 후 서양인의 방문이 뜸해지자 점차 경영난으로 쇠락하여 문을 닫았다. 이후 중국인이 건물을 인수해 중국요리집으로 운영되다 철거된 후 2018년 전시관으로 다시 문을 열었다. 대불호텔전시관에서는 우리나라 최초의 호텔인 대불호텔의 외관 및 과거 번창했던 대불호텔의 모습부터 쇠락의 과정까지 역사적 배경을 소개하고 있으며 대불호텔 터에서 발견된 유구와 일제강점기 개항장 일대에 있었던 호텔 및 여관에 대한 자료를 바탕으로 전시를 운영하고 있다.\"}",
+    "{\"evidence_context_version\": \"grounded-evidence-v2\", \"evidence_id\": \"E3\", \"metadata_provenance\": {\"base_data_date\": \"2025-08-18\", \"fields\": {\"address\": \"인천광역시 중구 제물량로 238\", \"adult_fee\": \"1000\", \"adult_fee_status\": \"BASE_FEE_PAID\", \"child_fee\": \"500\", \"closure_rule_raw\": \"매주 월요일\", \"holiday_close\": \"18:00\", \"holiday_open\": \"09:00\", \"name\": \"한중문화관\", \"ownership_type\": \"공립\", \"sido\": \"인천광역시\", \"sigungu\": \"중구\", \"weekday_close\": \"18:00\", \"weekday_open\": \"09:00\", \"youth_fee\": \"700\"}, \"source_kind\": \"derived_csv_row\", \"source_locator\": \"data/processed/museum_final_738.csv#record=638\", \"trust\": \"derived_dataset_not_human_verified\"}, \"museum_id\": \"M0922\", \"name\": \"한중문화관\", \"retrieval_branch\": \"document\", \"source_doc_ids\": [\"DOC-B0922-TOUR_API-652305\"], \"source_documents\": [{\"doc_id\": \"DOC-B0922-TOUR_API-652305\", \"match_trust\": \"AUTO_MATCH_NOT_HUMAN_VERIFIED\", \"source_locator\": \"data/raw/museum_tourapi_with_overview.csv#row=433\", \"source_record_id\": \"652305\", \"source_type\": \"TOUR_API\"}], \"source_locator\": \"data/raw/museum_tourapi_with_overview.csv#row=433\", \"source_locators\": [\"data/raw/museum_tourapi_with_overview.csv#row=433\"], \"source_scope\": \"text\", \"source_spans\": [{\"doc_ids\": [\"DOC-B0922-TOUR_API-652305\"], \"end\": 65, \"start\": 0}, {\"doc_ids\": [\"DOC-B0922-TOUR_API-652305\"], \"end\": 199, \"start\": 66}, {\"doc_ids\": [\"DOC-B0922-TOUR_API-652305\"], \"end\": 377, \"start\": 200}, {\"doc_ids\": [\"DOC-B0922-TOUR_API-652305\"], \"end\": 412, \"start\": 378}], \"source_urls\": [], \"text\": \"한중문화관은 차이나타운에 자리한 한국과 중국의 역사, 문화가 공존하는 인천 차이나타운의 특성을 잘 담아내는 공간이다. 중국풍 양식으로 지은 건축물을 중심으로 ‘인화문’이라는 패루(예전에 중국에서, 큰 거리에 길을 가로질러 세우던 시설물이나 무덤, 공원 따위의 어귀에 세우던 문), 중국에서 기증한 왕희지 석상, 중국식 정자 등이 이국적인 분위기를 연출한다. 2005년 개관한 한중문화관은 지하 1층에서 지상 4층 규모로 1층에 갤러리, 2층에 한중문화전시관, 3층에 우호도시홍보관, 4층에 공연장이 있으며 중국 복식, 중국 음식 등에 대한 전시와 함께 우리에게 친숙한 주윤발, 이소룡 등 배우들의 미니어처도 진열되어 있고, 중국 의상 체험과 다도 체험 공간도 마련되어 있다. 2015년에는 별관인 인천화교역사관을 개관해 볼거리를 더한다.\"}",
+    "{\"evidence_context_version\": \"grounded-evidence-v2\", \"evidence_id\": \"E4\", \"metadata_provenance\": {\"base_data_date\": \"2025-08-18\", \"fields\": {\"address\": \"인천광역시 중구 구읍로 63\", \"adult_fee\": \"1000\", \"adult_fee_status\": \"BASE_FEE_PAID\", \"child_fee\": \"500\", \"closure_rule_raw\": \"매주 월요일\", \"holiday_close\": \"18:00\", \"holiday_open\": \"10:00\", \"name\": \"영종역사관\", \"ownership_type\": \"공립\", \"sido\": \"인천광역시\", \"sigungu\": \"중구\", \"weekday_close\": \"18:00\", \"weekday_open\": \"10:00\", \"youth_fee\": \"700\"}, \"source_kind\": \"derived_csv_row\", \"source_locator\": \"data/processed/museum_final_738.csv#record=642\", \"trust\": \"derived_dataset_not_human_verified\"}, \"museum_id\": \"M0927\", \"name\": \"영종역사관\", \"retrieval_branch\": \"document\", \"source_doc_ids\": [\"DOC-B0927-TOUR_API-2638436\"], \"source_documents\": [{\"doc_id\": \"DOC-B0927-TOUR_API-2638436\", \"match_trust\": \"AUTO_MATCH_NOT_HUMAN_VERIFIED\", \"source_locator\": \"data/raw/museum_tourapi_with_overview.csv#row=437\", \"source_record_id\": \"2638436\", \"source_type\": \"TOUR_API\"}], \"source_locator\": \"data/raw/museum_tourapi_with_overview.csv#row=437\", \"source_locators\": [\"data/raw/museum_tourapi_with_overview.csv#row=437\"], \"source_scope\": \"text\", \"source_spans\": [{\"doc_ids\": [\"DOC-B0927-TOUR_API-2638436\"], \"end\": 78, \"start\": 0}, {\"doc_ids\": [\"DOC-B0927-TOUR_API-2638436\"], \"end\": 155, \"start\": 79}], \"source_urls\": [], \"text\": \"영종역사관은 긴 세월 동안 유구한 역사와 문화, 세상과 통하는 중간 거점으로 그 가치를 재조명 받고 있는 영종도를 알리기 위하여 건립되었다. 오랜 삶의 터전으로서의 영종도와 각종 개발로 인하여 급격하게 변화된 근현대 영종도의 생활문화를 담고 있는 영종도의 대표적인 문화공간이다.\"}",
+    "{\"evidence_context_version\": \"grounded-evidence-v2\", \"evidence_id\": \"E5\", \"evidence_role\": \"anchor\", \"museum_id\": \"M0923\", \"name\": \"짜장면박물관\", \"operator_raw_name\": \"재단법인 인천중구문화재단\", \"org_type\": \"재단·비영리법인\", \"organization\": \"인천중구문화재단\", \"relation\": \"OPERATED_BY\", \"retrieval_branch\": \"graph\", \"sido\": \"인천광역시\", \"sigungu\": \"중구\", \"source_doc_ids\": [\"DOC-B0923-TOUR_API-1931699\"], \"source_locator\": \"data/raw/museum_tourapi_with_overview.csv#row=434\", \"source_locators\": [\"data/raw/museum_tourapi_with_overview.csv#row=434\"], \"source_scope\": \"graph_properties\", \"source_urls\": [], \"text\": \"짜장면박물관의 Neo4j operator_name(운영기관) 기록: 인천중구문화재단 (CSV 원문: 재단법인 인천중구문화재단)\\n[Neo4j 구조화 근거] {\\\"museum_id\\\": \\\"M0923\\\", \\\"name\\\": \\\"짜장면박물관\\\", \\\"relation\\\": \\\"OPERATED_BY\\\", \\\"organization\\\": \\\"인천중구문화재단\\\", \\\"org_key\\\": \\\"인천중구문화재단\\\", \\\"org_type\\\": \\\"재단·비영리법인\\\", \\\"raw_name\\\": \\\"재단법인 인천중구문화재단\\\", \\\"verification_status\\\": \\\"SOURCE_RECORDED\\\"}\", \"verification_status\": \"SOURCE_RECORDED\"}",
+    "{\"anchor_operator_raw_name\": \"재단법인 인천중구문화재단\", \"evidence_context_version\": \"grounded-evidence-v2\", \"evidence_id\": \"E6\", \"facility_type\": \"전시관\", \"graph_path\": \"anchor -[:OPERATED_BY]-> Organization <-[:OPERATED_BY]- candidate\", \"museum_id\": \"M0924\", \"name\": \"대불호텔전시관\", \"operator_raw_name\": \"재단법인 인천중구문화재단\", \"org_type\": \"재단·비영리법인\", \"organization\": \"인천중구문화재단\", \"relation\": \"OPERATED_BY\", \"retrieval_branch\": \"graph\", \"sido\": \"인천광역시\", \"sigungu\": \"중구\", \"source_doc_ids\": [\"DOC-B0924-TOUR_API-2994530\"], \"source_locator\": \"data/raw/museum_tourapi_with_overview.csv#row=435\", \"source_locators\": [\"data/raw/museum_tourapi_with_overview.csv#row=435\"], \"source_scope\": \"graph_properties\", \"source_urls\": [], \"text\": \"{anchor_raw_name: 재단법인 인천중구문화재단, candidate_raw_name: 재단법인 인천중구문화재단, org_key: 인천중구문화재단, organization: 인천중구문화재단, relation: OPERATED_BY, verification_status: SOURCE_RECORDED}\", \"verification_status\": \"SOURCE_RECORDED\"}",
+    "{\"anchor_operator_raw_name\": \"재단법인 인천중구문화재단\", \"evidence_context_version\": \"grounded-evidence-v2\", \"evidence_id\": \"E7\", \"facility_type\": \"역사관\", \"graph_path\": \"anchor -[:OPERATED_BY]-> Organization <-[:OPERATED_BY]- candidate\", \"museum_id\": \"M0927\", \"name\": \"영종역사관\", \"operator_raw_name\": \"재단법인 인천중구문화재단\", \"org_type\": \"재단·비영리법인\", \"organization\": \"인천중구문화재단\", \"relation\": \"OPERATED_BY\", \"retrieval_branch\": \"graph\", \"sido\": \"인천광역시\", \"sigungu\": \"중구\", \"source_doc_ids\": [\"DOC-B0927-TOUR_API-2638436\"], \"source_locator\": \"data/raw/museum_tourapi_with_overview.csv#row=437\", \"source_locators\": [\"data/raw/museum_tourapi_with_overview.csv#row=437\"], \"source_scope\": \"graph_properties\", \"source_urls\": [], \"text\": \"{anchor_raw_name: 재단법인 인천중구문화재단, candidate_raw_name: 재단법인 인천중구문화재단, org_key: 인천중구문화재단, organization: 인천중구문화재단, relation: OPERATED_BY, verification_status: SOURCE_RECORDED}\", \"verification_status\": \"SOURCE_RECORDED\"}",
+    "{\"anchor_operator_raw_name\": \"재단법인 인천중구문화재단\", \"evidence_context_version\": \"grounded-evidence-v2\", \"evidence_id\": \"E8\", \"facility_type\": \"전시관\", \"graph_path\": \"anchor -[:OPERATED_BY]-> Organization <-[:OPERATED_BY]- candidate\", \"museum_id\": \"M0925\", \"name\": \"인천개항장 근대건축전시관\", \"operator_raw_name\": \"재단법인 인천중구문화재단\", \"org_type\": \"재단·비영리법인\", \"organization\": \"인천중구문화재단\", \"relation\": \"OPERATED_BY\", \"retrieval_branch\": \"graph\", \"sido\": \"인천광역시\", \"sigungu\": \"중구\", \"source_doc_ids\": [\"DOC-B0925-TOUR_API-2779442\"], \"source_locator\": \"data/raw/museum_tourapi_with_overview.csv#row=436\", \"source_locators\": [\"data/raw/museum_tourapi_with_overview.csv#row=436\"], \"source_scope\": \"graph_properties\", \"source_urls\": [], \"text\": \"{anchor_raw_name: 재단법인 인천중구문화재단, candidate_raw_name: 재단법인 인천중구문화재단, org_key: 인천중구문화재단, organization: 인천중구문화재단, relation: OPERATED_BY, verification_status: SOURCE_RECORDED}\", \"verification_status\": \"SOURCE_RECORDED\"}",
+    "{\"anchor_operator_raw_name\": \"재단법인 인천중구문화재단\", \"evidence_context_version\": \"grounded-evidence-v2\", \"evidence_id\": \"E9\", \"facility_type\": \"전시관\", \"graph_path\": \"anchor -[:OPERATED_BY]-> Organization <-[:OPERATED_BY]- candidate\", \"museum_id\": \"M0922\", \"name\": \"한중문화관\", \"operator_raw_name\": \"재단법인 인천중구문화재단\", \"org_type\": \"재단·비영리법인\", \"organization\": \"인천중구문화재단\", \"relation\": \"OPERATED_BY\", \"retrieval_branch\": \"graph\", \"sido\": \"인천광역시\", \"sigungu\": \"중구\", \"source_doc_ids\": [\"DOC-B0922-TOUR_API-652305\"], \"source_locator\": \"data/raw/museum_tourapi_with_overview.csv#row=433\", \"source_locators\": [\"data/raw/museum_tourapi_with_overview.csv#row=433\"], \"source_scope\": \"graph_properties\", \"source_urls\": [], \"text\": \"{anchor_raw_name: 재단법인 인천중구문화재단, candidate_raw_name: 재단법인 인천중구문화재단, org_key: 인천중구문화재단, organization: 인천중구문화재단, relation: OPERATED_BY, verification_status: SOURCE_RECORDED}\", \"verification_status\": \"SOURCE_RECORDED\"}"
+  ],
+  "mode": "supervisor_full",
+  "question_id": "V2-CB05",
+  "evidence": [
+    {
+      "museum_id": "M0925",
+      "name": "인천개항장 근대건축전시관",
+      "document": "인천 개항장 근대건축전시관은 개항장 내 서구 근대건축물을 모아 전시하는 공간이다. 일본 나가사키에 본점을 둔 18은행의 인천 지점으로 처음 세워졌다가 1954년부터 1992년까지 한국흥업은행과 카페로 활용된 바 있다. 4개의 전시관을 차례대로 훑어보면 1883년 개항 당시 국내외 정세부터 근대건축물 정보까지 다양한 사료를 만날 수 있다. 은행으로 사용될 당시의 금고와 지붕이 건물 안에 그대로 남아, 타임머신을 타고 역사의 현장으로 들어온 느낌마저 든다. 메인 전시관인 3전시실은 각국의 외교관사, 관공서부터 소실된 외국인의 주택 등 다양한 근대건축물 디오라마를 전시 중이다. 원하는 건축물을 선택하면 커다란 스크린을 통해 영상 설명을 들을 수도 있다. 금고로 사용되었던 공간은 18은행과 조선인 수탈 사이의 관계를 설명하는 4전시실로 꾸며놓았다. 18은행은 조선에서 무역하는 나가사키 상인들을 지원하는 한편 조선인들을 대상으로 고리대금업을 벌였는데, 이때 조선인들에게 받은 이자 대부분이 일본인에게 넘어가 조선인들의 삶이 피폐해졌다고 한다.",
+      "metadata": {
+        "image_copyright": "Type1",
+        "weekday_close": "18:00",
+        "holiday_close": "18:00",
+        "requires_manual_review": true,
+        "longitude": 126.6212228,
+        "source_types": "TOUR_API",
+        "adult_fee_status": "BASE_FEE_PAID",
+        "closure_rule_raw": "매주 월요일",
+        "homepage_url": "http://www.ijcf.or.kr/load.asp?subPage=522.03",
+        "sigungu": "중구",
+        "adult_fee": 500.0,
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/66/4056166_image2_1.jpg",
+        "holiday_open": "09:00",
+        "name": "인천개항장 근대건축전시관",
+        "latitude": 37.47298742,
+        "ownership_type": "공립",
+        "weekday_open": "09:00",
+        "address": "인천광역시 중구 신포로23번길 77",
+        "youth_fee": 300.0,
+        "fee_notes": "통합관람권 10~35퍼센트할인+단체(20인 이상) 할인",
+        "sido": "인천광역시",
+        "child_fee": 200.0
+      },
+      "vector_rank": 1,
+      "bm25_rank": 1,
+      "vector_distance": 0.567403256893158,
+      "vector_score": null,
+      "bm25_score": 11.572179313611295,
+      "vector_document": "인천 개항장 근대건축전시관은 개항장 내 서구 근대건축물을 모아 전시하는 공간이다. 일본 나가사키에 본점을 둔 18은행의 인천 지점으로 처음 세워졌다가 1954년부터 1992년까지 한국흥업은행과 카페로 활용된 바 있다. 4개의 전시관을 차례대로 훑어보면 1883년 개항 당시 국내외 정세부터 근대건축물 정보까지 다양한 사료를 만날 수 있다. 은행으로 사용될 당시의 금고와 지붕이 건물 안에 그대로 남아, 타임머신을 타고 역사의 현장으로 들어온 느낌마저 든다. 메인 전시관인 3전시실은 각국의 외교관사, 관공서부터 소실된 외국인의 주택 등 다양한 근대건축물 디오라마를 전시 중이다. 원하는 건축물을 선택하면 커다란 스크린을 통해 영상 설명을 들을 수도 있다. 금고로 사용되었던 공간은 18은행과 조선인 수탈 사이의 관계를 설명하는 4전시실로 꾸며놓았다. 18은행은 조선에서 무역하는 나가사키 상인들을 지원하는 한편 조선인들을 대상으로 고리대금업을 벌였는데, 이때 조선인들에게 받은 이자 대부분이 일본인에게 넘어가 조선인들의 삶이 피폐해졌다고 한다.",
+      "bm25_document": "인천 개항장 근대건축전시관은 개항장 내 서구 근대건축물을 모아 전시하는 공간이다. 일본 나가사키에 본점을 둔 18은행의 인천 지점으로 처음 세워졌다가 1954년부터 1992년까지 한국흥업은행과 카페로 활용된 바 있다. 4개의 전시관을 차례대로 훑어보면 1883년 개항 당시 국내외 정세부터 근대건축물 정보까지 다양한 사료를 만날 수 있다. 은행으로 사용될 당시의 금고와 지붕이 건물 안에 그대로 남아, 타임머신을 타고 역사의 현장으로 들어온 느낌마저 든다. 메인 전시관인 3전시실은 각국의 외교관사, 관공서부터 소실된 외국인의 주택 등 다양한 근대건축물 디오라마를 전시 중이다. 원하는 건축물을 선택하면 커다란 스크린을 통해 영상 설명을 들을 수도 있다. 금고로 사용되었던 공간은 18은행과 조선인 수탈 사이의 관계를 설명하는 4전시실로 꾸며놓았다. 18은행은 조선에서 무역하는 나가사키 상인들을 지원하는 한편 조선인들을 대상으로 고리대금업을 벌였는데, 이때 조선인들에게 받은 이자 대부분이 일본인에게 넘어가 조선인들의 삶이 피폐해졌다고 한다.",
+      "best_span_id": "chroma:M0925",
+      "best_span_text": "인천 개항장 근대건축전시관은 개항장 내 서구 근대건축물을 모아 전시하는 공간이다. 일본 나가사키에 본점을 둔 18은행의 인천 지점으로 처음 세워졌다가 1954년부터 1992년까지 한국흥업은행과 카페로 활용된 바 있다. 4개의 전시관을 차례대로 훑어보면 1883년 개항 당시 국내외 정세부터 근대건축물 정보까지 다양한 사료를 만날 수 있다. 은행으로 사용될 당시의 금고와 지붕이 건물 안에 그대로 남아, 타임머신을 타고 역사의 현장으로 들어온 느낌마저 든다. 메인 전시관인 3전시실은 각국의 외교관사, 관공서부터 소실된 외국인의 주택 등 다양한 근대건축물 디오라마를 전시 중이다. 원하는 건축물을 선택하면 커다란 스크린을 통해 영상 설명을 들을 수도 있다. 금고로 사용되었던 공간은 18은행과 조선인 수탈 사이의 관계를 설명하는 4전시실로 꾸며놓았다. 18은행은 조선에서 무역하는 나가사키 상인들을 지원하는 한편 조선인들을 대상으로 고리대금업을 벌였는데, 이때 조선인들에게 받은 이자 대부분이 일본인에게 넘어가 조선인들의 삶이 피폐해졌다고 한다.",
+      "fusion_score": 0.03278688524590164,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 1,
+      "rerank_score": 0.10465884208679199,
+      "rank": 1,
+      "score": 0.10465884208679199,
+      "score_type": "cross_encoder",
+      "distance": 0.567403256893158,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0925",
+      "source_doc_ids": [
+        "DOC-B0925-TOUR_API-2779442"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0925-TOUR_API-2779442",
+          "source_type": "TOUR_API",
+          "source_record_id": "2779442",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=436",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 45,
+          "doc_ids": [
+            "DOC-B0925-TOUR_API-2779442"
+          ]
+        },
+        {
+          "start": 46,
+          "end": 121,
+          "doc_ids": [
+            "DOC-B0925-TOUR_API-2779442"
+          ]
+        },
+        {
+          "start": 122,
+          "end": 189,
+          "doc_ids": [
+            "DOC-B0925-TOUR_API-2779442"
+          ]
+        },
+        {
+          "start": 190,
+          "end": 255,
+          "doc_ids": [
+            "DOC-B0925-TOUR_API-2779442"
+          ]
+        },
+        {
+          "start": 256,
+          "end": 323,
+          "doc_ids": [
+            "DOC-B0925-TOUR_API-2779442"
+          ]
+        },
+        {
+          "start": 324,
+          "end": 366,
+          "doc_ids": [
+            "DOC-B0925-TOUR_API-2779442"
+          ]
+        },
+        {
+          "start": 367,
+          "end": 419,
+          "doc_ids": [
+            "DOC-B0925-TOUR_API-2779442"
+          ]
+        },
+        {
+          "start": 420,
+          "end": 528,
+          "doc_ids": [
+            "DOC-B0925-TOUR_API-2779442"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=436",
+      "text": "인천 개항장 근대건축전시관은 개항장 내 서구 근대건축물을 모아 전시하는 공간이다. 일본 나가사키에 본점을 둔 18은행의 인천 지점으로 처음 세워졌다가 1954년부터 1992년까지 한국흥업은행과 카페로 활용된 바 있다. 4개의 전시관을 차례대로 훑어보면 1883년 개항 당시 국내외 정세부터 근대건축물 정보까지 다양한 사료를 만날 수 있다. 은행으로 사용될 당시의 금고와 지붕이 건물 안에 그대로 남아, 타임머신을 타고 역사의 현장으로 들어온 느낌마저 든다. 메인 전시관인 3전시실은 각국의 외교관사, 관공서부터 소실된 외국인의 주택 등 다양한 근대건축물 디오라마를 전시 중이다. 원하는 건축물을 선택하면 커다란 스크린을 통해 영상 설명을 들을 수도 있다. 금고로 사용되었던 공간은 18은행과 조선인 수탈 사이의 관계를 설명하는 4전시실로 꾸며놓았다. 18은행은 조선에서 무역하는 나가사키 상인들을 지원하는 한편 조선인들을 대상으로 고리대금업을 벌였는데, 이때 조선인들에게 받은 이자 대부분이 일본인에게 넘어가 조선인들의 삶이 피폐해졌다고 한다.",
+      "sido": "인천광역시",
+      "sigungu": "중구",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=436"
+      ],
+      "evidence_id": "E1",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=641",
+        "fields": {
+          "name": "인천개항장 근대건축전시관",
+          "sido": "인천광역시",
+          "sigungu": "중구",
+          "address": "인천광역시 중구 신포로23번길 77",
+          "ownership_type": "공립",
+          "adult_fee": "500",
+          "youth_fee": "300",
+          "child_fee": "200",
+          "adult_fee_status": "BASE_FEE_PAID",
+          "weekday_open": "09:00",
+          "weekday_close": "18:00",
+          "holiday_open": "09:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "매주 월요일"
+        },
+        "base_data_date": "2025-08-18",
+        "trust": "derived_dataset_not_human_verified"
+      },
+      "retrieval_branch": "document"
+    },
+    {
+      "museum_id": "M0924",
+      "name": "대불호텔전시관",
+      "document": "대불호텔전시관은 우리나라 최초의 서양식 호텔인 대불호텔의 역사를 소개하는 전시관이다. 대불호텔은 개항 후 인천항으로 들어오는 외국인들이 서울로 가기 전 묵었던 서양식 호텔로 당시 인기가 높았으나 경인선 개통과 러일 전쟁 후 서양인의 방문이 뜸해지자 점차 경영난으로 쇠락하여 문을 닫았다. 이후 중국인이 건물을 인수해 중국요리집으로 운영되다 철거된 후 2018년 전시관으로 다시 문을 열었다. 대불호텔전시관에서는 우리나라 최초의 호텔인 대불호텔의 외관 및 과거 번창했던 대불호텔의 모습부터 쇠락의 과정까지 역사적 배경을 소개하고 있으며 대불호텔 터에서 발견된 유구와 일제강점기 개항장 일대에 있었던 호텔 및 여관에 대한 자료를 바탕으로 전시를 운영하고 있다.",
+      "metadata": {
+        "adult_fee": 1000.0,
+        "child_fee": 500.0,
+        "requires_manual_review": true,
+        "ownership_type": "공립",
+        "adult_fee_status": "BASE_FEE_PAID",
+        "latitude": 37.47354683,
+        "sigungu": "중구",
+        "homepage_url": "http://www.ijcf.or.kr/load.asp?subPage=522.06",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/49/2999549_image2_1.jpg",
+        "weekday_open": "09:00",
+        "closure_rule_raw": "매주 월요일",
+        "source_types": "TOUR_API",
+        "longitude": 126.6199636,
+        "name": "대불호텔전시관",
+        "weekday_close": "18:00",
+        "youth_fee": 700.0,
+        "holiday_close": "18:00",
+        "image_copyright": "Type3",
+        "fee_notes": "통합관람권 10~35퍼센트할인+단체(20인 이상) 할인",
+        "sido": "인천광역시",
+        "address": "인천광역시 중구 신포로23번길 101",
+        "holiday_open": "09:00"
+      },
+      "vector_rank": 4,
+      "bm25_rank": 3,
+      "vector_distance": 0.6877325773239136,
+      "vector_score": null,
+      "bm25_score": 3.7680238677463835,
+      "vector_document": "대불호텔전시관은 우리나라 최초의 서양식 호텔인 대불호텔의 역사를 소개하는 전시관이다. 대불호텔은 개항 후 인천항으로 들어오는 외국인들이 서울로 가기 전 묵었던 서양식 호텔로 당시 인기가 높았으나 경인선 개통과 러일 전쟁 후 서양인의 방문이 뜸해지자 점차 경영난으로 쇠락하여 문을 닫았다. 이후 중국인이 건물을 인수해 중국요리집으로 운영되다 철거된 후 2018년 전시관으로 다시 문을 열었다. 대불호텔전시관에서는 우리나라 최초의 호텔인 대불호텔의 외관 및 과거 번창했던 대불호텔의 모습부터 쇠락의 과정까지 역사적 배경을 소개하고 있으며 대불호텔 터에서 발견된 유구와 일제강점기 개항장 일대에 있었던 호텔 및 여관에 대한 자료를 바탕으로 전시를 운영하고 있다.",
+      "bm25_document": "대불호텔전시관은 우리나라 최초의 서양식 호텔인 대불호텔의 역사를 소개하는 전시관이다. 대불호텔은 개항 후 인천항으로 들어오는 외국인들이 서울로 가기 전 묵었던 서양식 호텔로 당시 인기가 높았으나 경인선 개통과 러일 전쟁 후 서양인의 방문이 뜸해지자 점차 경영난으로 쇠락하여 문을 닫았다. 이후 중국인이 건물을 인수해 중국요리집으로 운영되다 철거된 후 2018년 전시관으로 다시 문을 열었다. 대불호텔전시관에서는 우리나라 최초의 호텔인 대불호텔의 외관 및 과거 번창했던 대불호텔의 모습부터 쇠락의 과정까지 역사적 배경을 소개하고 있으며 대불호텔 터에서 발견된 유구와 일제강점기 개항장 일대에 있었던 호텔 및 여관에 대한 자료를 바탕으로 전시를 운영하고 있다.",
+      "best_span_id": "chroma:M0924",
+      "best_span_text": "대불호텔전시관은 우리나라 최초의 서양식 호텔인 대불호텔의 역사를 소개하는 전시관이다. 대불호텔은 개항 후 인천항으로 들어오는 외국인들이 서울로 가기 전 묵었던 서양식 호텔로 당시 인기가 높았으나 경인선 개통과 러일 전쟁 후 서양인의 방문이 뜸해지자 점차 경영난으로 쇠락하여 문을 닫았다. 이후 중국인이 건물을 인수해 중국요리집으로 운영되다 철거된 후 2018년 전시관으로 다시 문을 열었다. 대불호텔전시관에서는 우리나라 최초의 호텔인 대불호텔의 외관 및 과거 번창했던 대불호텔의 모습부터 쇠락의 과정까지 역사적 배경을 소개하고 있으며 대불호텔 터에서 발견된 유구와 일제강점기 개항장 일대에 있었던 호텔 및 여관에 대한 자료를 바탕으로 전시를 운영하고 있다.",
+      "fusion_score": 0.03149801587301587,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 4,
+      "rerank_score": 0.0019489532569423318,
+      "rank": 2,
+      "score": 0.0019489532569423318,
+      "score_type": "cross_encoder",
+      "distance": 0.6877325773239136,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0924",
+      "source_doc_ids": [
+        "DOC-B0924-TOUR_API-2994530"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0924-TOUR_API-2994530",
+          "source_type": "TOUR_API",
+          "source_record_id": "2994530",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=435",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 47,
+          "doc_ids": [
+            "DOC-B0924-TOUR_API-2994530"
+          ]
+        },
+        {
+          "start": 48,
+          "end": 160,
+          "doc_ids": [
+            "DOC-B0924-TOUR_API-2994530"
+          ]
+        },
+        {
+          "start": 161,
+          "end": 218,
+          "doc_ids": [
+            "DOC-B0924-TOUR_API-2994530"
+          ]
+        },
+        {
+          "start": 219,
+          "end": 367,
+          "doc_ids": [
+            "DOC-B0924-TOUR_API-2994530"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=435",
+      "text": "대불호텔전시관은 우리나라 최초의 서양식 호텔인 대불호텔의 역사를 소개하는 전시관이다. 대불호텔은 개항 후 인천항으로 들어오는 외국인들이 서울로 가기 전 묵었던 서양식 호텔로 당시 인기가 높았으나 경인선 개통과 러일 전쟁 후 서양인의 방문이 뜸해지자 점차 경영난으로 쇠락하여 문을 닫았다. 이후 중국인이 건물을 인수해 중국요리집으로 운영되다 철거된 후 2018년 전시관으로 다시 문을 열었다. 대불호텔전시관에서는 우리나라 최초의 호텔인 대불호텔의 외관 및 과거 번창했던 대불호텔의 모습부터 쇠락의 과정까지 역사적 배경을 소개하고 있으며 대불호텔 터에서 발견된 유구와 일제강점기 개항장 일대에 있었던 호텔 및 여관에 대한 자료를 바탕으로 전시를 운영하고 있다.",
+      "sido": "인천광역시",
+      "sigungu": "중구",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=435"
+      ],
+      "evidence_id": "E2",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=640",
+        "fields": {
+          "name": "대불호텔전시관",
+          "sido": "인천광역시",
+          "sigungu": "중구",
+          "address": "인천광역시 중구 신포로23번길 101",
+          "ownership_type": "공립",
+          "adult_fee": "1000",
+          "youth_fee": "700",
+          "child_fee": "500",
+          "adult_fee_status": "BASE_FEE_PAID",
+          "weekday_open": "09:00",
+          "weekday_close": "18:00",
+          "holiday_open": "09:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "매주 월요일"
+        },
+        "base_data_date": "2025-08-18",
+        "trust": "derived_dataset_not_human_verified"
+      },
+      "retrieval_branch": "document"
+    },
+    {
+      "museum_id": "M0922",
+      "name": "한중문화관",
+      "document": "한중문화관은 차이나타운에 자리한 한국과 중국의 역사, 문화가 공존하는 인천 차이나타운의 특성을 잘 담아내는 공간이다. 중국풍 양식으로 지은 건축물을 중심으로 ‘인화문’이라는 패루(예전에 중국에서, 큰 거리에 길을 가로질러 세우던 시설물이나 무덤, 공원 따위의 어귀에 세우던 문), 중국에서 기증한 왕희지 석상, 중국식 정자 등이 이국적인 분위기를 연출한다. 2005년 개관한 한중문화관은 지하 1층에서 지상 4층 규모로 1층에 갤러리, 2층에 한중문화전시관, 3층에 우호도시홍보관, 4층에 공연장이 있으며 중국 복식, 중국 음식 등에 대한 전시와 함께 우리에게 친숙한 주윤발, 이소룡 등 배우들의 미니어처도 진열되어 있고, 중국 의상 체험과 다도 체험 공간도 마련되어 있다. 2015년에는 별관인 인천화교역사관을 개관해 볼거리를 더한다.",
+      "metadata": {
+        "requires_manual_review": true,
+        "fee_notes": "통합관람권 10~35퍼센트할인+단체(20인 이상) 할인",
+        "longitude": 126.6187688,
+        "address": "인천광역시 중구 제물량로 238",
+        "name": "한중문화관",
+        "closure_rule_raw": "매주 월요일",
+        "source_types": "TOUR_API",
+        "holiday_open": "09:00",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/57/3529757_image2_1.jpg",
+        "weekday_close": "18:00",
+        "youth_fee": 700.0,
+        "adult_fee_status": "BASE_FEE_PAID",
+        "weekday_open": "09:00",
+        "child_fee": 500.0,
+        "latitude": 37.4735399,
+        "holiday_close": "18:00",
+        "ownership_type": "공립",
+        "adult_fee": 1000.0,
+        "sido": "인천광역시",
+        "homepage_url": "http://www.ijcf.or.kr/load.asp?subPage=522.01",
+        "sigungu": "중구",
+        "image_copyright": "Type1"
+      },
+      "vector_rank": 3,
+      "bm25_rank": 2,
+      "vector_distance": 0.6193847060203552,
+      "vector_score": null,
+      "bm25_score": 5.5537331479441505,
+      "vector_document": "한중문화관은 차이나타운에 자리한 한국과 중국의 역사, 문화가 공존하는 인천 차이나타운의 특성을 잘 담아내는 공간이다. 중국풍 양식으로 지은 건축물을 중심으로 ‘인화문’이라는 패루(예전에 중국에서, 큰 거리에 길을 가로질러 세우던 시설물이나 무덤, 공원 따위의 어귀에 세우던 문), 중국에서 기증한 왕희지 석상, 중국식 정자 등이 이국적인 분위기를 연출한다. 2005년 개관한 한중문화관은 지하 1층에서 지상 4층 규모로 1층에 갤러리, 2층에 한중문화전시관, 3층에 우호도시홍보관, 4층에 공연장이 있으며 중국 복식, 중국 음식 등에 대한 전시와 함께 우리에게 친숙한 주윤발, 이소룡 등 배우들의 미니어처도 진열되어 있고, 중국 의상 체험과 다도 체험 공간도 마련되어 있다. 2015년에는 별관인 인천화교역사관을 개관해 볼거리를 더한다.",
+      "bm25_document": "한중문화관은 차이나타운에 자리한 한국과 중국의 역사, 문화가 공존하는 인천 차이나타운의 특성을 잘 담아내는 공간이다. 중국풍 양식으로 지은 건축물을 중심으로 ‘인화문’이라는 패루(예전에 중국에서, 큰 거리에 길을 가로질러 세우던 시설물이나 무덤, 공원 따위의 어귀에 세우던 문), 중국에서 기증한 왕희지 석상, 중국식 정자 등이 이국적인 분위기를 연출한다. 2005년 개관한 한중문화관은 지하 1층에서 지상 4층 규모로 1층에 갤러리, 2층에 한중문화전시관, 3층에 우호도시홍보관, 4층에 공연장이 있으며 중국 복식, 중국 음식 등에 대한 전시와 함께 우리에게 친숙한 주윤발, 이소룡 등 배우들의 미니어처도 진열되어 있고, 중국 의상 체험과 다도 체험 공간도 마련되어 있다. 2015년에는 별관인 인천화교역사관을 개관해 볼거리를 더한다.",
+      "best_span_id": "chroma:M0922",
+      "best_span_text": "한중문화관은 차이나타운에 자리한 한국과 중국의 역사, 문화가 공존하는 인천 차이나타운의 특성을 잘 담아내는 공간이다. 중국풍 양식으로 지은 건축물을 중심으로 ‘인화문’이라는 패루(예전에 중국에서, 큰 거리에 길을 가로질러 세우던 시설물이나 무덤, 공원 따위의 어귀에 세우던 문), 중국에서 기증한 왕희지 석상, 중국식 정자 등이 이국적인 분위기를 연출한다. 2005년 개관한 한중문화관은 지하 1층에서 지상 4층 규모로 1층에 갤러리, 2층에 한중문화전시관, 3층에 우호도시홍보관, 4층에 공연장이 있으며 중국 복식, 중국 음식 등에 대한 전시와 함께 우리에게 친숙한 주윤발, 이소룡 등 배우들의 미니어처도 진열되어 있고, 중국 의상 체험과 다도 체험 공간도 마련되어 있다. 2015년에는 별관인 인천화교역사관을 개관해 볼거리를 더한다.",
+      "fusion_score": 0.03200204813108039,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 2,
+      "rerank_score": 0.0001858009782154113,
+      "rank": 3,
+      "score": 0.0001858009782154113,
+      "score_type": "cross_encoder",
+      "distance": 0.6193847060203552,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0922",
+      "source_doc_ids": [
+        "DOC-B0922-TOUR_API-652305"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0922-TOUR_API-652305",
+          "source_type": "TOUR_API",
+          "source_record_id": "652305",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=433",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 65,
+          "doc_ids": [
+            "DOC-B0922-TOUR_API-652305"
+          ]
+        },
+        {
+          "start": 66,
+          "end": 199,
+          "doc_ids": [
+            "DOC-B0922-TOUR_API-652305"
+          ]
+        },
+        {
+          "start": 200,
+          "end": 377,
+          "doc_ids": [
+            "DOC-B0922-TOUR_API-652305"
+          ]
+        },
+        {
+          "start": 378,
+          "end": 412,
+          "doc_ids": [
+            "DOC-B0922-TOUR_API-652305"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=433",
+      "text": "한중문화관은 차이나타운에 자리한 한국과 중국의 역사, 문화가 공존하는 인천 차이나타운의 특성을 잘 담아내는 공간이다. 중국풍 양식으로 지은 건축물을 중심으로 ‘인화문’이라는 패루(예전에 중국에서, 큰 거리에 길을 가로질러 세우던 시설물이나 무덤, 공원 따위의 어귀에 세우던 문), 중국에서 기증한 왕희지 석상, 중국식 정자 등이 이국적인 분위기를 연출한다. 2005년 개관한 한중문화관은 지하 1층에서 지상 4층 규모로 1층에 갤러리, 2층에 한중문화전시관, 3층에 우호도시홍보관, 4층에 공연장이 있으며 중국 복식, 중국 음식 등에 대한 전시와 함께 우리에게 친숙한 주윤발, 이소룡 등 배우들의 미니어처도 진열되어 있고, 중국 의상 체험과 다도 체험 공간도 마련되어 있다. 2015년에는 별관인 인천화교역사관을 개관해 볼거리를 더한다.",
+      "sido": "인천광역시",
+      "sigungu": "중구",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=433"
+      ],
+      "evidence_id": "E3",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=638",
+        "fields": {
+          "name": "한중문화관",
+          "sido": "인천광역시",
+          "sigungu": "중구",
+          "address": "인천광역시 중구 제물량로 238",
+          "ownership_type": "공립",
+          "adult_fee": "1000",
+          "youth_fee": "700",
+          "child_fee": "500",
+          "adult_fee_status": "BASE_FEE_PAID",
+          "weekday_open": "09:00",
+          "weekday_close": "18:00",
+          "holiday_open": "09:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "매주 월요일"
+        },
+        "base_data_date": "2025-08-18",
+        "trust": "derived_dataset_not_human_verified"
+      },
+      "retrieval_branch": "document"
+    },
+    {
+      "museum_id": "M0927",
+      "name": "영종역사관",
+      "document": "영종역사관은 긴 세월 동안 유구한 역사와 문화, 세상과 통하는 중간 거점으로 그 가치를 재조명 받고 있는 영종도를 알리기 위하여 건립되었다. 오랜 삶의 터전으로서의 영종도와 각종 개발로 인하여 급격하게 변화된 근현대 영종도의 생활문화를 담고 있는 영종도의 대표적인 문화공간이다.",
+      "metadata": {
+        "holiday_open": "10:00",
+        "fee_notes": "단체(20인 이상) 10~35퍼센트할인",
+        "closure_rule_raw": "매주 월요일",
+        "longitude": 126.5777135,
+        "adult_fee": 1000.0,
+        "requires_manual_review": true,
+        "sido": "인천광역시",
+        "latitude": 37.48907002,
+        "address": "인천광역시 중구 구읍로 63",
+        "youth_fee": 700.0,
+        "ownership_type": "공립",
+        "holiday_close": "18:00",
+        "name": "영종역사관",
+        "adult_fee_status": "BASE_FEE_PAID",
+        "source_types": "TOUR_API",
+        "weekday_open": "10:00",
+        "child_fee": 500.0,
+        "sigungu": "중구",
+        "homepage_url": "http://www.ijcf.or.kr/load.asp?subPage=522.08",
+        "weekday_close": "18:00"
+      },
+      "vector_rank": 2,
+      "bm25_rank": 4,
+      "vector_distance": 0.6113664507865906,
+      "vector_score": null,
+      "bm25_score": 2.426442301880699,
+      "vector_document": "영종역사관은 긴 세월 동안 유구한 역사와 문화, 세상과 통하는 중간 거점으로 그 가치를 재조명 받고 있는 영종도를 알리기 위하여 건립되었다. 오랜 삶의 터전으로서의 영종도와 각종 개발로 인하여 급격하게 변화된 근현대 영종도의 생활문화를 담고 있는 영종도의 대표적인 문화공간이다.",
+      "bm25_document": "영종역사관은 긴 세월 동안 유구한 역사와 문화, 세상과 통하는 중간 거점으로 그 가치를 재조명 받고 있는 영종도를 알리기 위하여 건립되었다. 오랜 삶의 터전으로서의 영종도와 각종 개발로 인하여 급격하게 변화된 근현대 영종도의 생활문화를 담고 있는 영종도의 대표적인 문화공간이다.",
+      "best_span_id": "chroma:M0927",
+      "best_span_text": "영종역사관은 긴 세월 동안 유구한 역사와 문화, 세상과 통하는 중간 거점으로 그 가치를 재조명 받고 있는 영종도를 알리기 위하여 건립되었다. 오랜 삶의 터전으로서의 영종도와 각종 개발로 인하여 급격하게 변화된 근현대 영종도의 생활문화를 담고 있는 영종도의 대표적인 문화공간이다.",
+      "fusion_score": 0.031754032258064516,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 3,
+      "rerank_score": 0.0001133259866037406,
+      "rank": 4,
+      "score": 0.0001133259866037406,
+      "score_type": "cross_encoder",
+      "distance": 0.6113664507865906,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0927",
+      "source_doc_ids": [
+        "DOC-B0927-TOUR_API-2638436"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0927-TOUR_API-2638436",
+          "source_type": "TOUR_API",
+          "source_record_id": "2638436",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=437",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 78,
+          "doc_ids": [
+            "DOC-B0927-TOUR_API-2638436"
+          ]
+        },
+        {
+          "start": 79,
+          "end": 155,
+          "doc_ids": [
+            "DOC-B0927-TOUR_API-2638436"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=437",
+      "text": "영종역사관은 긴 세월 동안 유구한 역사와 문화, 세상과 통하는 중간 거점으로 그 가치를 재조명 받고 있는 영종도를 알리기 위하여 건립되었다. 오랜 삶의 터전으로서의 영종도와 각종 개발로 인하여 급격하게 변화된 근현대 영종도의 생활문화를 담고 있는 영종도의 대표적인 문화공간이다.",
+      "sido": "인천광역시",
+      "sigungu": "중구",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=437"
+      ],
+      "evidence_id": "E4",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=642",
+        "fields": {
+          "name": "영종역사관",
+          "sido": "인천광역시",
+          "sigungu": "중구",
+          "address": "인천광역시 중구 구읍로 63",
+          "ownership_type": "공립",
+          "adult_fee": "1000",
+          "youth_fee": "700",
+          "child_fee": "500",
+          "adult_fee_status": "BASE_FEE_PAID",
+          "weekday_open": "10:00",
+          "weekday_close": "18:00",
+          "holiday_open": "10:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "매주 월요일"
+        },
+        "base_data_date": "2025-08-18",
+        "trust": "derived_dataset_not_human_verified"
+      },
+      "retrieval_branch": "document"
+    },
+    {
+      "museum_id": "M0923",
+      "name": "짜장면박물관",
+      "text": "짜장면박물관의 Neo4j operator_name(운영기관) 기록: 인천중구문화재단 (CSV 원문: 재단법인 인천중구문화재단)\n[Neo4j 구조화 근거] {\"museum_id\": \"M0923\", \"name\": \"짜장면박물관\", \"relation\": \"OPERATED_BY\", \"organization\": \"인천중구문화재단\", \"org_key\": \"인천중구문화재단\", \"org_type\": \"재단·비영리법인\", \"raw_name\": \"재단법인 인천중구문화재단\", \"verification_status\": \"SOURCE_RECORDED\"}",
+      "span_id": "",
+      "source_doc_ids": [
+        "DOC-B0923-TOUR_API-1931699"
+      ],
+      "source_urls": [],
+      "source_url": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=434"
+      ],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=434",
+      "sido": "인천광역시",
+      "sigungu": "중구",
+      "retriever": "graph",
+      "evidence_role": "anchor",
+      "source_scope": "graph_properties",
+      "relation": "OPERATED_BY",
+      "organization": "인천중구문화재단",
+      "org_type": "재단·비영리법인",
+      "operator_raw_name": "재단법인 인천중구문화재단",
+      "verification_status": "SOURCE_RECORDED",
+      "metadata": {},
+      "chunk_id": "",
+      "retrievers": [
+        "graph"
+      ],
+      "evidence_id": "E5",
+      "retrieval_branch": "graph",
+      "rank": 5
+    },
+    {
+      "museum_id": "M0924",
+      "name": "대불호텔전시관",
+      "text": "{anchor_raw_name: 재단법인 인천중구문화재단, candidate_raw_name: 재단법인 인천중구문화재단, org_key: 인천중구문화재단, organization: 인천중구문화재단, relation: OPERATED_BY, verification_status: SOURCE_RECORDED}",
+      "span_id": "",
+      "source_doc_ids": [
+        "DOC-B0924-TOUR_API-2994530"
+      ],
+      "source_urls": [],
+      "source_url": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=435"
+      ],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=435",
+      "sido": "인천광역시",
+      "sigungu": "중구",
+      "retriever": "graph",
+      "graph_path": "anchor -[:OPERATED_BY]-> Organization <-[:OPERATED_BY]- candidate",
+      "organization": "인천중구문화재단",
+      "org_type": "재단·비영리법인",
+      "operator_raw_name": "재단법인 인천중구문화재단",
+      "anchor_operator_raw_name": "재단법인 인천중구문화재단",
+      "relation": "OPERATED_BY",
+      "verification_status": "SOURCE_RECORDED",
+      "facility_type": "전시관",
+      "source_scope": "graph_properties",
+      "metadata": {},
+      "chunk_id": "",
+      "retrievers": [
+        "graph"
+      ],
+      "evidence_id": "E6",
+      "retrieval_branch": "graph",
+      "rank": 6
+    },
+    {
+      "museum_id": "M0927",
+      "name": "영종역사관",
+      "text": "{anchor_raw_name: 재단법인 인천중구문화재단, candidate_raw_name: 재단법인 인천중구문화재단, org_key: 인천중구문화재단, organization: 인천중구문화재단, relation: OPERATED_BY, verification_status: SOURCE_RECORDED}",
+      "span_id": "",
+      "source_doc_ids": [
+        "DOC-B0927-TOUR_API-2638436"
+      ],
+      "source_urls": [],
+      "source_url": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=437"
+      ],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=437",
+      "sido": "인천광역시",
+      "sigungu": "중구",
+      "retriever": "graph",
+      "graph_path": "anchor -[:OPERATED_BY]-> Organization <-[:OPERATED_BY]- candidate",
+      "organization": "인천중구문화재단",
+      "org_type": "재단·비영리법인",
+      "operator_raw_name": "재단법인 인천중구문화재단",
+      "anchor_operator_raw_name": "재단법인 인천중구문화재단",
+      "relation": "OPERATED_BY",
+      "verification_status": "SOURCE_RECORDED",
+      "facility_type": "역사관",
+      "source_scope": "graph_properties",
+      "metadata": {},
+      "chunk_id": "",
+      "retrievers": [
+        "graph"
+      ],
+      "evidence_id": "E7",
+      "retrieval_branch": "graph",
+      "rank": 7
+    },
+    {
+      "museum_id": "M0925",
+      "name": "인천개항장 근대건축전시관",
+      "text": "{anchor_raw_name: 재단법인 인천중구문화재단, candidate_raw_name: 재단법인 인천중구문화재단, org_key: 인천중구문화재단, organization: 인천중구문화재단, relation: OPERATED_BY, verification_status: SOURCE_RECORDED}",
+      "span_id": "",
+      "source_doc_ids": [
+        "DOC-B0925-TOUR_API-2779442"
+      ],
+      "source_urls": [],
+      "source_url": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=436"
+      ],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=436",
+      "sido": "인천광역시",
+      "sigungu": "중구",
+      "retriever": "graph",
+      "graph_path": "anchor -[:OPERATED_BY]-> Organization <-[:OPERATED_BY]- candidate",
+      "organization": "인천중구문화재단",
+      "org_type": "재단·비영리법인",
+      "operator_raw_name": "재단법인 인천중구문화재단",
+      "anchor_operator_raw_name": "재단법인 인천중구문화재단",
+      "relation": "OPERATED_BY",
+      "verification_status": "SOURCE_RECORDED",
+      "facility_type": "전시관",
+      "source_scope": "graph_properties",
+      "metadata": {},
+      "chunk_id": "",
+      "retrievers": [
+        "graph"
+      ],
+      "evidence_id": "E8",
+      "retrieval_branch": "graph",
+      "rank": 8
+    },
+    {
+      "museum_id": "M0922",
+      "name": "한중문화관",
+      "text": "{anchor_raw_name: 재단법인 인천중구문화재단, candidate_raw_name: 재단법인 인천중구문화재단, org_key: 인천중구문화재단, organization: 인천중구문화재단, relation: OPERATED_BY, verification_status: SOURCE_RECORDED}",
+      "span_id": "",
+      "source_doc_ids": [
+        "DOC-B0922-TOUR_API-652305"
+      ],
+      "source_urls": [],
+      "source_url": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=433"
+      ],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=433",
+      "sido": "인천광역시",
+      "sigungu": "중구",
+      "retriever": "graph",
+      "graph_path": "anchor -[:OPERATED_BY]-> Organization <-[:OPERATED_BY]- candidate",
+      "organization": "인천중구문화재단",
+      "org_type": "재단·비영리법인",
+      "operator_raw_name": "재단법인 인천중구문화재단",
+      "anchor_operator_raw_name": "재단법인 인천중구문화재단",
+      "relation": "OPERATED_BY",
+      "verification_status": "SOURCE_RECORDED",
+      "facility_type": "전시관",
+      "source_scope": "graph_properties",
+      "metadata": {},
+      "chunk_id": "",
+      "retrievers": [
+        "graph"
+      ],
+      "evidence_id": "E9",
+      "retrieval_branch": "graph",
+      "rank": 9
+    }
+  ],
+  "answer": "인천개항장 근대건축전시관을 추천합니다. 짜장면박물관과 이 전시관은 기록상 같은 운영기관인 인천중구문화재단이 운영하며, 전시관에서는 개항장 내 서구 근대건축물을 모아 전시합니다. [E5][E8][E1]",
+  "retrieval_status": "ok",
+  "answer_status": "answered",
+  "route": "combined",
+  "retry_count": 0,
+  "supervisor_verified": true,
+  "rerank_applied": true,
+  "retriever_errors": [],
+  "warnings": [
+    "Only 4 candidates available; no artificial padding"
+  ],
+  "duration_ms": 80857.97,
+  "error_type": "",
+  "hit_at_1": 1,
+  "hit_at_3": 1,
+  "hit_at_5": 1,
+  "recall_at_5": 1.0,
+  "mrr_at_10": 1.0
+}

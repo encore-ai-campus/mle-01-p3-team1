@@ -1,0 +1,597 @@
+{
+  "mode": "supervisor_full",
+  "question_id": "V2-SW03",
+  "evidence": [
+    {
+      "museum_id": "M0692",
+      "name": "달성화석박물관",
+      "document": "대구 달성화석박물관은 국내 최초의 공립 화석 전문 박물관으로, 2023년에 개관하여 화석에 대한 대중의 관심을 높이고 있다. 다양한 화석과 암석 표본을 전시하고 교육 프로그램을 운영하여 방문객들에게 생생한 지구의 역사를 전달하고 있다. 또한 화석 연구를 위한 기반 시설을 구축하고, 관련 연구를 활성화하여 지구과학 발전에 기여한다. 달성화석박물관은 국내 최초의 공립 화석 전문 박물관으로, 국내에서 발견된 화석을 중심으로 지구의 역사와 생물의 다양성, 생물의 진화 과정에 대하여 전시하고 있습니다.",
+      "metadata": {
+        "holiday_close": "17:30",
+        "latitude": 35.68436487,
+        "transport_notes": "655+665+급행8-1",
+        "longitude": 128.4622782,
+        "name": "달성화석박물관",
+        "fee_notes": "일반 개인 성인 3,000원, 어린이·청소년 2,000원. 달성군민 성인 1,500원·어린이/청소년 1,000원, 6세 이하·65세 이상 등 무료 또는 감면(증빙 필요). 단체 요금 별도.",
+        "homepage_url": "https://fossilmuseum.dssiseol.or.kr/",
+        "adult_fee_status": "OFFICIAL_CONFIRMED_PAID",
+        "youth_fee": 2000.0,
+        "amenities_raw": "카페+뮤지엄샵+물품보관소+수유실+자전거보관대",
+        "sido": "대구광역시",
+        "child_fee": 2000.0,
+        "closure_rule_raw": "매주 월요일(공휴일이면 개관 후 다음 평일 휴관), 1월 1일, 설날·추석 당일",
+        "image_url": "http://tong.visitkorea.or.kr/cms/resource/74/3456774_image2_1.jpg",
+        "holiday_open": "09:30",
+        "image_copyright": "Type1",
+        "weekday_close": "17:30",
+        "source_types": "BASE|TOUR_API",
+        "sigungu": "달성군",
+        "adult_fee": 3000.0,
+        "requires_manual_review": true,
+        "address": "대구광역시 달성군 유가읍 테크노대로6길 66",
+        "weekday_open": "09:30",
+        "ownership_type": "공립",
+        "structured_match": "편의시설 '수유실': CSV amenities_raw의 '수유실' 항목; 토·일요일 개관: CSV closure_rule_raw의 정기 휴관 요일은 월 (온톨로지 필터가 metadata_provenance.fields의 같은 CSV 값으로 판정한 정적 기록이며 실시간 상태가 아님)"
+      },
+      "vector_rank": 3,
+      "bm25_rank": 1,
+      "vector_distance": 0.6754819750785828,
+      "vector_score": null,
+      "bm25_score": 9.47787664747909,
+      "vector_document": "대구 달성화석박물관은 국내 최초의 공립 화석 전문 박물관으로, 2023년에 개관하여 화석에 대한 대중의 관심을 높이고 있다. 다양한 화석과 암석 표본을 전시하고 교육 프로그램을 운영하여 방문객들에게 생생한 지구의 역사를 전달하고 있다. 또한 화석 연구를 위한 기반 시설을 구축하고, 관련 연구를 활성화하여 지구과학 발전에 기여한다. 달성화석박물관은 국내 최초의 공립 화석 전문 박물관으로, 국내에서 발견된 화석을 중심으로 지구의 역사와 생물의 다양성, 생물의 진화 과정에 대하여 전시하고 있습니다.",
+      "bm25_document": "대구 달성화석박물관은 국내 최초의 공립 화석 전문 박물관으로, 2023년에 개관하여 화석에 대한 대중의 관심을 높이고 있다. 다양한 화석과 암석 표본을 전시하고 교육 프로그램을 운영하여 방문객들에게 생생한 지구의 역사를 전달하고 있다. 또한 화석 연구를 위한 기반 시설을 구축하고, 관련 연구를 활성화하여 지구과학 발전에 기여한다. 달성화석박물관은 국내 최초의 공립 화석 전문 박물관으로, 국내에서 발견된 화석을 중심으로 지구의 역사와 생물의 다양성, 생물의 진화 과정에 대하여 전시하고 있습니다.",
+      "best_span_id": "chroma:M0692",
+      "best_span_text": "대구 달성화석박물관은 국내 최초의 공립 화석 전문 박물관으로, 2023년에 개관하여 화석에 대한 대중의 관심을 높이고 있다. 다양한 화석과 암석 표본을 전시하고 교육 프로그램을 운영하여 방문객들에게 생생한 지구의 역사를 전달하고 있다. 또한 화석 연구를 위한 기반 시설을 구축하고, 관련 연구를 활성화하여 지구과학 발전에 기여한다. 달성화석박물관은 국내 최초의 공립 화석 전문 박물관으로, 국내에서 발견된 화석을 중심으로 지구의 역사와 생물의 다양성, 생물의 진화 과정에 대하여 전시하고 있습니다.",
+      "fusion_score": 0.032266458495966696,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 1,
+      "rerank_score": null,
+      "rank": 1,
+      "score": 0.032266458495966696,
+      "score_type": "rrf",
+      "distance": 0.6754819750785828,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0692",
+      "source_doc_ids": [
+        "DOC-B0692-TOUR_API-3456777",
+        "DOC-B0692-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0692-TOUR_API-3456777",
+          "source_type": "TOUR_API",
+          "source_record_id": "3456777",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=196",
+          "match_trust": "RECHECKED_BY_RULE_NOT_HUMAN_APPROVED"
+        },
+        {
+          "doc_id": "DOC-B0692-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0692",
+          "source_locator": "data/raw/museum_base_1070.csv#row=693",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 69,
+          "doc_ids": [
+            "DOC-B0692-TOUR_API-3456777"
+          ]
+        },
+        {
+          "start": 70,
+          "end": 131,
+          "doc_ids": [
+            "DOC-B0692-TOUR_API-3456777"
+          ]
+        },
+        {
+          "start": 132,
+          "end": 185,
+          "doc_ids": [
+            "DOC-B0692-TOUR_API-3456777"
+          ]
+        },
+        {
+          "start": 186,
+          "end": 278,
+          "doc_ids": [
+            "DOC-B0692-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=196",
+      "text": "대구 달성화석박물관은 국내 최초의 공립 화석 전문 박물관으로, 2023년에 개관하여 화석에 대한 대중의 관심을 높이고 있다. 다양한 화석과 암석 표본을 전시하고 교육 프로그램을 운영하여 방문객들에게 생생한 지구의 역사를 전달하고 있다. 또한 화석 연구를 위한 기반 시설을 구축하고, 관련 연구를 활성화하여 지구과학 발전에 기여한다. 달성화석박물관은 국내 최초의 공립 화석 전문 박물관으로, 국내에서 발견된 화석을 중심으로 지구의 역사와 생물의 다양성, 생물의 진화 과정에 대하여 전시하고 있습니다.",
+      "sido": "대구광역시",
+      "sigungu": "달성군",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=196"
+      ],
+      "evidence_id": "E1",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=480",
+        "fields": {
+          "name": "달성화석박물관",
+          "sido": "대구광역시",
+          "sigungu": "달성군",
+          "address": "대구광역시 달성군 유가읍 테크노대로6길 66",
+          "ownership_type": "공립",
+          "adult_fee": "3000",
+          "youth_fee": "2000",
+          "child_fee": "2000",
+          "adult_fee_status": "OFFICIAL_CONFIRMED_PAID",
+          "weekday_open": "09:30",
+          "weekday_close": "17:30",
+          "holiday_open": "09:30",
+          "holiday_close": "17:30",
+          "closure_rule_raw": "매주 월요일(공휴일이면 개관 후 다음 평일 휴관), 1월 1일, 설날·추석 당일",
+          "amenities_raw": "카페+뮤지엄샵+물품보관소+수유실+자전거보관대"
+        },
+        "base_data_date": "2025-12-10",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0687",
+      "name": "대구간송미술관",
+      "document": "간송미술관은 일제강점기 문화로 나라를 지킨다는 문화 보국정신으로 우리 문화유산 수집, 보존, 연구에 힘쓰신 간송 전형필 선생이 세운 우리나라 최초의 사립 미술관이다. 간송미술문화재단의 유일한 상설 전시 공간으로서 ‘문화보국’ 정신과 그 의미를 다양한 전시와 교육, 문화 프로그램을 통해 소개하고 하나 되는 소통과 융합의 가치를 구현하고자 하는 곳이다. 또한 대구·영남지역의 자료와 미술품들을 체계적으로 연구·보존하여 새로운 문화유산을 발굴함으로써 우리 문화의 우수성과 가치 확산에 기여할 예정이다. 대구간송미술관의 건축은 ‘가장 한국적인 미술관’과 ‘자연의 일부가 되는 미술관’을 지향한다. 대구간송미술관이 위치한 대구대공원의 경사와 지형이 안동 도산서원과 비슷하다는 점을 착안하여 한국 전통 건축 요소인 계단식 기단, 터의 분절 등을 접목하였고 자연과 소통하는 유연한 공간을 표현하기 위해 미술관의 안과 밖을 지형에 따라 다양한 방식으로 연결했다. 2024년 9월에 개관한 대구간송미술관은 민족문화유산의 보고인 간송미술관의 유일한 상설 전시관으로서 문화보국 정신으로 지켜온 문화유산과 그 의미를 다양한 전시와 교육, 문화 프로그램을 통해 소개하고 시민들의 문화향유욕구에 부응하는 문화예술공간으로서의 역할을 수행하고자 합니다.우리 문화와 전통, 정체성에 대한 현재적인 담론을 지역·세대의 경계를 넘어 미래세대와 함께 풀어가는 대구간송미술관이 되겠습니다. 대구간송미술관에 많은 관심과 관람 부탁드립니다.",
+      "metadata": {
+        "weekday_open": "10:00",
+        "weekday_close": "19:00",
+        "youth_fee": 3000.0,
+        "holiday_open": "10:00",
+        "source_types": "BASE|TOUR_API",
+        "amenities_raw": "아트숍+물품보관소+수유실",
+        "closure_rule_raw": "매주 월요일(단, 월요일이 공휴일인 경우에는 월요일 당일 개관 후 그 다음 첫번째 비공휴일에 휴관)+1월 1일+설날추석 당일",
+        "adult_fee_status": "BASE_FEE_PAID",
+        "homepage_url": "https://kansong.org/daegu/",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/05/3401505_image2_1.jpg",
+        "child_fee": 3000.0,
+        "longitude": 128.6743408,
+        "transport_notes": "수성3+수성3-1+도시철도 2호선 수성알파시티역 5번출구에서 순환버스 이용",
+        "address": "대구광역시 수성구 미술관로 70",
+        "requires_manual_review": true,
+        "sido": "대구광역시",
+        "image_copyright": "Type3",
+        "name": "대구간송미술관",
+        "ownership_type": "공립",
+        "adult_fee": 6000.0,
+        "sigungu": "수성구",
+        "holiday_close": "19:00",
+        "latitude": 35.82702862,
+        "fee_notes": "대구시민 20 할인, 국민기초생활법에 따른 수급자+차상위계층 50 할인",
+        "structured_match": "편의시설 '수유실': CSV amenities_raw의 '수유실' 항목; 토·일요일 개관: CSV closure_rule_raw의 정기 휴관 요일은 월 (온톨로지 필터가 metadata_provenance.fields의 같은 CSV 값으로 판정한 정적 기록이며 실시간 상태가 아님)"
+      },
+      "vector_rank": 1,
+      "bm25_rank": 4,
+      "vector_distance": 0.6102318167686462,
+      "vector_score": null,
+      "bm25_score": 7.795038960461274,
+      "vector_document": "간송미술관은 일제강점기 문화로 나라를 지킨다는 문화 보국정신으로 우리 문화유산 수집, 보존, 연구에 힘쓰신 간송 전형필 선생이 세운 우리나라 최초의 사립 미술관이다. 간송미술문화재단의 유일한 상설 전시 공간으로서 ‘문화보국’ 정신과 그 의미를 다양한 전시와 교육, 문화 프로그램을 통해 소개하고 하나 되는 소통과 융합의 가치를 구현하고자 하는 곳이다. 또한 대구·영남지역의 자료와 미술품들을 체계적으로 연구·보존하여 새로운 문화유산을 발굴함으로써 우리 문화의 우수성과 가치 확산에 기여할 예정이다. 대구간송미술관의 건축은 ‘가장 한국적인 미술관’과 ‘자연의 일부가 되는 미술관’을 지향한다. 대구간송미술관이 위치한 대구대공원의 경사와 지형이 안동 도산서원과 비슷하다는 점을 착안하여 한국 전통 건축 요소인 계단식 기단, 터의 분절 등을 접목하였고 자연과 소통하는 유연한 공간을 표현하기 위해 미술관의 안과 밖을 지형에 따라 다양한 방식으로 연결했다. 2024년 9월에 개관한 대구간송미술관은 민족문화유산의 보고인 간송미술관의 유일한 상설 전시관으로서 문화보국 정신으로 지켜온 문화유산과 그 의미를 다양한 전시와 교육, 문화 프로그램을 통해 소개하고 시민들의 문화향유욕구에 부응하는 문화예술공간으로서의 역할을 수행하고자 합니다.우리 문화와 전통, 정체성에 대한 현재적인 담론을 지역·세대의 경계를 넘어 미래세대와 함께 풀어가는 대구간송미술관이 되겠습니다. 대구간송미술관에 많은 관심과 관람 부탁드립니다.",
+      "bm25_document": "간송미술관은 일제강점기 문화로 나라를 지킨다는 문화 보국정신으로 우리 문화유산 수집, 보존, 연구에 힘쓰신 간송 전형필 선생이 세운 우리나라 최초의 사립 미술관이다. 간송미술문화재단의 유일한 상설 전시 공간으로서 ‘문화보국’ 정신과 그 의미를 다양한 전시와 교육, 문화 프로그램을 통해 소개하고 하나 되는 소통과 융합의 가치를 구현하고자 하는 곳이다. 또한 대구·영남지역의 자료와 미술품들을 체계적으로 연구·보존하여 새로운 문화유산을 발굴함으로써 우리 문화의 우수성과 가치 확산에 기여할 예정이다. 대구간송미술관의 건축은 ‘가장 한국적인 미술관’과 ‘자연의 일부가 되는 미술관’을 지향한다. 대구간송미술관이 위치한 대구대공원의 경사와 지형이 안동 도산서원과 비슷하다는 점을 착안하여 한국 전통 건축 요소인 계단식 기단, 터의 분절 등을 접목하였고 자연과 소통하는 유연한 공간을 표현하기 위해 미술관의 안과 밖을 지형에 따라 다양한 방식으로 연결했다. 2024년 9월에 개관한 대구간송미술관은 민족문화유산의 보고인 간송미술관의 유일한 상설 전시관으로서 문화보국 정신으로 지켜온 문화유산과 그 의미를 다양한 전시와 교육, 문화 프로그램을 통해 소개하고 시민들의 문화향유욕구에 부응하는 문화예술공간으로서의 역할을 수행하고자 합니다.우리 문화와 전통, 정체성에 대한 현재적인 담론을 지역·세대의 경계를 넘어 미래세대와 함께 풀어가는 대구간송미술관이 되겠습니다. 대구간송미술관에 많은 관심과 관람 부탁드립니다.",
+      "best_span_id": "chroma:M0687",
+      "best_span_text": "간송미술관은 일제강점기 문화로 나라를 지킨다는 문화 보국정신으로 우리 문화유산 수집, 보존, 연구에 힘쓰신 간송 전형필 선생이 세운 우리나라 최초의 사립 미술관이다. 간송미술문화재단의 유일한 상설 전시 공간으로서 ‘문화보국’ 정신과 그 의미를 다양한 전시와 교육, 문화 프로그램을 통해 소개하고 하나 되는 소통과 융합의 가치를 구현하고자 하는 곳이다. 또한 대구·영남지역의 자료와 미술품들을 체계적으로 연구·보존하여 새로운 문화유산을 발굴함으로써 우리 문화의 우수성과 가치 확산에 기여할 예정이다. 대구간송미술관의 건축은 ‘가장 한국적인 미술관’과 ‘자연의 일부가 되는 미술관’을 지향한다. 대구간송미술관이 위치한 대구대공원의 경사와 지형이 안동 도산서원과 비슷하다는 점을 착안하여 한국 전통 건축 요소인 계단식 기단, 터의 분절 등을 접목하였고 자연과 소통하는 유연한 공간을 표현하기 위해 미술관의 안과 밖을 지형에 따라 다양한 방식으로 연결했다. 2024년 9월에 개관한 대구간송미술관은 민족문화유산의 보고인 간송미술관의 유일한 상설 전시관으로서 문화보국 정신으로 지켜온 문화유산과 그 의미를 다양한 전시와 교육, 문화 프로그램을 통해 소개하고 시민들의 문화향유욕구에 부응하는 문화예술공간으로서의 역할을 수행하고자 합니다.우리 문화와 전통, 정체성에 대한 현재적인 담론을 지역·세대의 경계를 넘어 미래세대와 함께 풀어가는 대구간송미술관이 되겠습니다. 대구간송미술관에 많은 관심과 관람 부탁드립니다.",
+      "fusion_score": 0.032018442622950824,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 2,
+      "rerank_score": null,
+      "rank": 2,
+      "score": 0.032018442622950824,
+      "score_type": "rrf",
+      "distance": 0.6102318167686462,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0687",
+      "source_doc_ids": [
+        "DOC-B0687-TOUR_API-3397707",
+        "DOC-B0687-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0687-TOUR_API-3397707",
+          "source_type": "TOUR_API",
+          "source_record_id": "3397707",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=339",
+          "match_trust": "RECHECKED_BY_RULE_NOT_HUMAN_APPROVED"
+        },
+        {
+          "doc_id": "DOC-B0687-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0687",
+          "source_locator": "data/raw/museum_base_1070.csv#row=688",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 92,
+          "doc_ids": [
+            "DOC-B0687-TOUR_API-3397707"
+          ]
+        },
+        {
+          "start": 93,
+          "end": 196,
+          "doc_ids": [
+            "DOC-B0687-TOUR_API-3397707"
+          ]
+        },
+        {
+          "start": 197,
+          "end": 278,
+          "doc_ids": [
+            "DOC-B0687-TOUR_API-3397707"
+          ]
+        },
+        {
+          "start": 279,
+          "end": 330,
+          "doc_ids": [
+            "DOC-B0687-TOUR_API-3397707"
+          ]
+        },
+        {
+          "start": 331,
+          "end": 475,
+          "doc_ids": [
+            "DOC-B0687-TOUR_API-3397707"
+          ]
+        },
+        {
+          "start": 476,
+          "end": 701,
+          "doc_ids": [
+            "DOC-B0687-BASE"
+          ]
+        },
+        {
+          "start": 702,
+          "end": 728,
+          "doc_ids": [
+            "DOC-B0687-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=339",
+      "text": "간송미술관은 일제강점기 문화로 나라를 지킨다는 문화 보국정신으로 우리 문화유산 수집, 보존, 연구에 힘쓰신 간송 전형필 선생이 세운 우리나라 최초의 사립 미술관이다. 간송미술문화재단의 유일한 상설 전시 공간으로서 ‘문화보국’ 정신과 그 의미를 다양한 전시와 교육, 문화 프로그램을 통해 소개하고 하나 되는 소통과 융합의 가치를 구현하고자 하는 곳이다. 또한 대구·영남지역의 자료와 미술품들을 체계적으로 연구·보존하여 새로운 문화유산을 발굴함으로써 우리 문화의 우수성과 가치 확산에 기여할 예정이다. 대구간송미술관의 건축은 ‘가장 한국적인 미술관’과 ‘자연의 일부가 되는 미술관’을 지향한다. 대구간송미술관이 위치한 대구대공원의 경사와 지형이 안동 도산서원과 비슷하다는 점을 착안하여 한국 전통 건축 요소인 계단식 기단, 터의 분절 등을 접목하였고 자연과 소통하는 유연한 공간을 표현하기 위해 미술관의 안과 밖을 지형에 따라 다양한 방식으로 연결했다. 2024년 9월에 개관한 대구간송미술관은 민족문화유산의 보고인 간송미술관의 유일한 상설 전시관으로서 문화보국 정신으로 지켜온 문화유산과 그 의미를 다양한 전시와 교육, 문화 프로그램을 통해 소개하고 시민들의 문화향유욕구에 부응하는 문화예술공간으로서의 역할을 수행하고자 합니다.우리 문화와 전통, 정체성에 대한 현재적인 담론을 지역·세대의 경계를 넘어 미래세대와 함께 풀어가는 대구간송미술관이 되겠습니다. 대구간송미술관에 많은 관심과 관람 부탁드립니다.",
+      "sido": "대구광역시",
+      "sigungu": "수성구",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=339"
+      ],
+      "evidence_id": "E2",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=475",
+        "fields": {
+          "name": "대구간송미술관",
+          "sido": "대구광역시",
+          "sigungu": "수성구",
+          "address": "대구광역시 수성구 미술관로 70",
+          "ownership_type": "공립",
+          "adult_fee": "6000",
+          "youth_fee": "3000",
+          "child_fee": "3000",
+          "adult_fee_status": "BASE_FEE_PAID",
+          "weekday_open": "10:00",
+          "weekday_close": "19:00",
+          "holiday_open": "10:00",
+          "holiday_close": "19:00",
+          "closure_rule_raw": "매주 월요일(단, 월요일이 공휴일인 경우에는 월요일 당일 개관 후 그 다음 첫번째 비공휴일에 휴관)+1월 1일+설날추석 당일",
+          "amenities_raw": "아트숍+물품보관소+수유실"
+        },
+        "base_data_date": "2025-12-10",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0686",
+      "name": "대구문화예술회관 미술관",
+      "document": "1991년 10월 8일 개관한 대구문화예술회관 미술관은 대구미술의 허브로서 기능을 하고 있는 복합문화공간",
+      "metadata": {
+        "longitude": 128.5581018,
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "holiday_close": "19:00",
+        "sido": "대구광역시",
+        "child_fee": 0.0,
+        "address": "대구광역시 달서구 공원순환로 201",
+        "weekday_open": "10:00",
+        "requires_manual_review": true,
+        "adult_fee": 0.0,
+        "ownership_type": "공립",
+        "homepage_url": "https://daeguartscenter.or.kr/",
+        "amenities_raw": "커피명가 카페+수유실+자전거보관대",
+        "source_types": "BASE",
+        "youth_fee": 0.0,
+        "name": "대구문화예술회관 미술관",
+        "closure_rule_raw": "매주 월요일(단, 월요일이 공휴일인 경우에는 월요일 당일 개관 후 그 다음 첫번째 비공휴일에 휴관)+1월 1일+설날추석 당일",
+        "transport_notes": "609+618+650+706+805+836+남구1-1+급행6+지하철 1호선 서부정류장역 1번출구에서 약 1km",
+        "holiday_open": "10:00",
+        "sigungu": "달서구",
+        "weekday_close": "19:00",
+        "latitude": 35.84476741,
+        "structured_match": "편의시설 '수유실': CSV amenities_raw의 '수유실' 항목; 토·일요일 개관: CSV closure_rule_raw의 정기 휴관 요일은 월 (온톨로지 필터가 metadata_provenance.fields의 같은 CSV 값으로 판정한 정적 기록이며 실시간 상태가 아님)"
+      },
+      "vector_rank": 2,
+      "bm25_rank": 3,
+      "vector_distance": 0.6416484117507935,
+      "vector_score": null,
+      "bm25_score": 8.222997671021634,
+      "vector_document": "1991년 10월 8일 개관한 대구문화예술회관 미술관은 대구미술의 허브로서 기능을 하고 있는 복합문화공간",
+      "bm25_document": "1991년 10월 8일 개관한 대구문화예술회관 미술관은 대구미술의 허브로서 기능을 하고 있는 복합문화공간",
+      "best_span_id": "chroma:M0686",
+      "best_span_text": "1991년 10월 8일 개관한 대구문화예술회관 미술관은 대구미술의 허브로서 기능을 하고 있는 복합문화공간",
+      "fusion_score": 0.03200204813108039,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 3,
+      "rerank_score": null,
+      "rank": 3,
+      "score": 0.03200204813108039,
+      "score_type": "rrf",
+      "distance": 0.6416484117507935,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0686",
+      "source_doc_ids": [
+        "DOC-B0686-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0686-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0686",
+          "source_locator": "data/raw/museum_base_1070.csv#row=687",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 58,
+          "doc_ids": [
+            "DOC-B0686-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_base_1070.csv#row=687",
+      "text": "1991년 10월 8일 개관한 대구문화예술회관 미술관은 대구미술의 허브로서 기능을 하고 있는 복합문화공간",
+      "sido": "대구광역시",
+      "sigungu": "달서구",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_base_1070.csv#row=687"
+      ],
+      "evidence_id": "E3",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=474",
+        "fields": {
+          "name": "대구문화예술회관 미술관",
+          "sido": "대구광역시",
+          "sigungu": "달서구",
+          "address": "대구광역시 달서구 공원순환로 201",
+          "ownership_type": "공립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "10:00",
+          "weekday_close": "19:00",
+          "holiday_open": "10:00",
+          "holiday_close": "19:00",
+          "closure_rule_raw": "매주 월요일(단, 월요일이 공휴일인 경우에는 월요일 당일 개관 후 그 다음 첫번째 비공휴일에 휴관)+1월 1일+설날추석 당일",
+          "amenities_raw": "커피명가 카페+수유실+자전거보관대"
+        },
+        "base_data_date": "2025-12-10",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0685",
+      "name": "대구미술관",
+      "document": "대구미술관은 대구광역시가 지원하는 시립미술관이다. 대구 근현대미술의 역사적 가치를 연구하고 이를 재조명하여 대구미술의 전위성을 알릴 수 있는 전시뿐만 아니라 국내·외 교류를 통해 동시대의 사회적 예술적 이슈와 세계 미술의 선도적 흐름을 소개하는 전시들을 기획해 선보이고 있다. 또한, 우수한 명사 초청 강연은 물론 어린이, 청소년 등 다양한 연령대의 시민들이 참여할 수 있는 아카데미 프로그램을 비롯해 미술관 공간과 어우러지는 다채로운 공연들과 각종 이벤트 행사도 진행하고 있다. 미술관 3층에는 예술 관련 서적들을 접할 수 있는 미술정보 센터와 휴식을 취할 수 있는 라운지가 마련되어 있다. 2011년 많은 관심 속에 개관한 대구미술관은 지역 미술의 역사와 미학을 연구하고,이를 동시대 현대미술의 흐름과 연결하는 지역대표 미술플랫폼으로 역할하고 있습니다.",
+      "metadata": {
+        "child_fee": 700.0,
+        "sido": "대구광역시",
+        "transport_notes": "수성3+수성3-1+도시철도 2호선 수성알파시티역 5번출구에서 순환버스 이용",
+        "name": "대구미술관",
+        "sigungu": "수성구",
+        "image_copyright": "Type1",
+        "requires_manual_review": true,
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/96/4130596_image2_1.jpg",
+        "weekday_open": "10:00",
+        "adult_fee_status": "BASE_FEE_PAID",
+        "homepage_url": "https://daeguartmuseum.or.kr",
+        "address": "대구광역시 수성구 미술관로 40",
+        "holiday_close": "19:00",
+        "weekday_close": "19:00",
+        "ownership_type": "공립",
+        "source_types": "BASE|TOUR_API",
+        "fee_notes": "50할인(국민기초생활수급자(본인)막내 나이 19세 미만인 다자녀가정의 부모와 자녀100시간 이상 활동 자원봉사자(본인)그린카드 결제자(본인)  *전용단말기 인증 결제)무료(경로(~1959년생까지), 영.유아(2018년생부터), 장애인과 안내인(1인), 병역명문가증 발급자,  발급자의 부모, 배우자, 자녀, 「독립유공자 예우 및 지원에 관한 법률」 등 타 법령에서 무료관람 대상자로 규정된 사람, 국빈, 외교사절단 및 그 수행자, 학술연구 및 공무수행을 위하여 출입하는 사람)",
+        "holiday_open": "10:00",
+        "latitude": 35.82702862,
+        "adult_fee": 1000.0,
+        "longitude": 128.6743408,
+        "closure_rule_raw": "매주 월요일(단, 월요일이 공휴일인 경우에는 월요일 당일 개관 후 그 다음 첫번째 비공휴일에 휴관)+1월 1일+설날추석 당일",
+        "youth_fee": 700.0,
+        "amenities_raw": "수유실+뷰라운지+미술정보센터+아카이브실+핸즈커피+카페",
+        "structured_match": "편의시설 '수유실': CSV amenities_raw의 '수유실' 항목; 토·일요일 개관: CSV closure_rule_raw의 정기 휴관 요일은 월 (온톨로지 필터가 metadata_provenance.fields의 같은 CSV 값으로 판정한 정적 기록이며 실시간 상태가 아님)"
+      },
+      "vector_rank": 4,
+      "bm25_rank": 2,
+      "vector_distance": 0.7346599102020264,
+      "vector_score": null,
+      "bm25_score": 8.988273696289491,
+      "vector_document": "대구미술관은 대구광역시가 지원하는 시립미술관이다. 대구 근현대미술의 역사적 가치를 연구하고 이를 재조명하여 대구미술의 전위성을 알릴 수 있는 전시뿐만 아니라 국내·외 교류를 통해 동시대의 사회적 예술적 이슈와 세계 미술의 선도적 흐름을 소개하는 전시들을 기획해 선보이고 있다. 또한, 우수한 명사 초청 강연은 물론 어린이, 청소년 등 다양한 연령대의 시민들이 참여할 수 있는 아카데미 프로그램을 비롯해 미술관 공간과 어우러지는 다채로운 공연들과 각종 이벤트 행사도 진행하고 있다. 미술관 3층에는 예술 관련 서적들을 접할 수 있는 미술정보 센터와 휴식을 취할 수 있는 라운지가 마련되어 있다. 2011년 많은 관심 속에 개관한 대구미술관은 지역 미술의 역사와 미학을 연구하고,이를 동시대 현대미술의 흐름과 연결하는 지역대표 미술플랫폼으로 역할하고 있습니다.",
+      "bm25_document": "대구미술관은 대구광역시가 지원하는 시립미술관이다. 대구 근현대미술의 역사적 가치를 연구하고 이를 재조명하여 대구미술의 전위성을 알릴 수 있는 전시뿐만 아니라 국내·외 교류를 통해 동시대의 사회적 예술적 이슈와 세계 미술의 선도적 흐름을 소개하는 전시들을 기획해 선보이고 있다. 또한, 우수한 명사 초청 강연은 물론 어린이, 청소년 등 다양한 연령대의 시민들이 참여할 수 있는 아카데미 프로그램을 비롯해 미술관 공간과 어우러지는 다채로운 공연들과 각종 이벤트 행사도 진행하고 있다. 미술관 3층에는 예술 관련 서적들을 접할 수 있는 미술정보 센터와 휴식을 취할 수 있는 라운지가 마련되어 있다. 2011년 많은 관심 속에 개관한 대구미술관은 지역 미술의 역사와 미학을 연구하고,이를 동시대 현대미술의 흐름과 연결하는 지역대표 미술플랫폼으로 역할하고 있습니다.",
+      "best_span_id": "chroma:M0685",
+      "best_span_text": "대구미술관은 대구광역시가 지원하는 시립미술관이다. 대구 근현대미술의 역사적 가치를 연구하고 이를 재조명하여 대구미술의 전위성을 알릴 수 있는 전시뿐만 아니라 국내·외 교류를 통해 동시대의 사회적 예술적 이슈와 세계 미술의 선도적 흐름을 소개하는 전시들을 기획해 선보이고 있다. 또한, 우수한 명사 초청 강연은 물론 어린이, 청소년 등 다양한 연령대의 시민들이 참여할 수 있는 아카데미 프로그램을 비롯해 미술관 공간과 어우러지는 다채로운 공연들과 각종 이벤트 행사도 진행하고 있다. 미술관 3층에는 예술 관련 서적들을 접할 수 있는 미술정보 센터와 휴식을 취할 수 있는 라운지가 마련되어 있다. 2011년 많은 관심 속에 개관한 대구미술관은 지역 미술의 역사와 미학을 연구하고,이를 동시대 현대미술의 흐름과 연결하는 지역대표 미술플랫폼으로 역할하고 있습니다.",
+      "fusion_score": 0.031754032258064516,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 4,
+      "rerank_score": null,
+      "rank": 4,
+      "score": 0.031754032258064516,
+      "score_type": "rrf",
+      "distance": 0.7346599102020264,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0685",
+      "source_doc_ids": [
+        "DOC-B0685-TOUR_API-1856967",
+        "DOC-B0685-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0685-TOUR_API-1856967",
+          "source_type": "TOUR_API",
+          "source_record_id": "1856967",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=338",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        },
+        {
+          "doc_id": "DOC-B0685-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0685",
+          "source_locator": "data/raw/museum_base_1070.csv#row=686",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 27,
+          "doc_ids": [
+            "DOC-B0685-TOUR_API-1856967"
+          ]
+        },
+        {
+          "start": 28,
+          "end": 154,
+          "doc_ids": [
+            "DOC-B0685-TOUR_API-1856967"
+          ]
+        },
+        {
+          "start": 155,
+          "end": 268,
+          "doc_ids": [
+            "DOC-B0685-TOUR_API-1856967"
+          ]
+        },
+        {
+          "start": 269,
+          "end": 331,
+          "doc_ids": [
+            "DOC-B0685-TOUR_API-1856967"
+          ]
+        },
+        {
+          "start": 332,
+          "end": 423,
+          "doc_ids": [
+            "DOC-B0685-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=338",
+      "text": "대구미술관은 대구광역시가 지원하는 시립미술관이다. 대구 근현대미술의 역사적 가치를 연구하고 이를 재조명하여 대구미술의 전위성을 알릴 수 있는 전시뿐만 아니라 국내·외 교류를 통해 동시대의 사회적 예술적 이슈와 세계 미술의 선도적 흐름을 소개하는 전시들을 기획해 선보이고 있다. 또한, 우수한 명사 초청 강연은 물론 어린이, 청소년 등 다양한 연령대의 시민들이 참여할 수 있는 아카데미 프로그램을 비롯해 미술관 공간과 어우러지는 다채로운 공연들과 각종 이벤트 행사도 진행하고 있다. 미술관 3층에는 예술 관련 서적들을 접할 수 있는 미술정보 센터와 휴식을 취할 수 있는 라운지가 마련되어 있다. 2011년 많은 관심 속에 개관한 대구미술관은 지역 미술의 역사와 미학을 연구하고,이를 동시대 현대미술의 흐름과 연결하는 지역대표 미술플랫폼으로 역할하고 있습니다.",
+      "sido": "대구광역시",
+      "sigungu": "수성구",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=338"
+      ],
+      "evidence_id": "E4",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=473",
+        "fields": {
+          "name": "대구미술관",
+          "sido": "대구광역시",
+          "sigungu": "수성구",
+          "address": "대구광역시 수성구 미술관로 40",
+          "ownership_type": "공립",
+          "adult_fee": "1000",
+          "youth_fee": "700",
+          "child_fee": "700",
+          "adult_fee_status": "BASE_FEE_PAID",
+          "weekday_open": "10:00",
+          "weekday_close": "19:00",
+          "holiday_open": "10:00",
+          "holiday_close": "19:00",
+          "closure_rule_raw": "매주 월요일(단, 월요일이 공휴일인 경우에는 월요일 당일 개관 후 그 다음 첫번째 비공휴일에 휴관)+1월 1일+설날추석 당일",
+          "amenities_raw": "수유실+뷰라운지+미술정보센터+아카이브실+핸즈커피+카페"
+        },
+        "base_data_date": "2025-12-10",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    }
+  ],
+  "answer": "기록상 주말 방문 후보는 다음 4곳입니다. 각 항목의 수유실과 휴관일은 2025-12-10 기준 데이터에 기록된 값이며, 실시간 운영 여부를 확인한 정보는 아닙니다.\n- 달성화석박물관(달성군): 편의시설 원문에 ‘수유실’이 있고, 정기 휴관은 ‘매주 월요일’로 기록되어 있습니다. [E1]\n- 대구간송미술관(수성구): 편의시설 원문에 ‘수유실’이 있고, 정기 휴관은 ‘매주 월요일’로 기록되어 있습니다. [E2]\n- 대구문화예술회관 미술관(달서구): 편의시설 원문에 ‘수유실’이 있고, 정기 휴관은 ‘매주 월요일’로 기록되어 있습니다. [E3]\n- 대구미술관(수성구): 편의시설 원문에 ‘수유실’이 있고, 정기 휴관은 ‘매주 월요일’로 기록되어 있습니다. [E4]",
+  "retrieval_status": "ok",
+  "answer_status": "answered",
+  "route": "hybrid",
+  "retry_count": 0,
+  "supervisor_verified": true,
+  "rerank_applied": false,
+  "retriever_errors": [],
+  "warnings": [
+    "Cross-Encoder reranking failed (FileNotFoundError); RRF order retained",
+    "Only 4 candidates available; no artificial padding"
+  ],
+  "duration_ms": 19031.6,
+  "error_type": "",
+  "hit_at_1": 1,
+  "hit_at_3": 1,
+  "hit_at_5": 1,
+  "recall_at_5": 1.0,
+  "mrr_at_10": 1.0
+}

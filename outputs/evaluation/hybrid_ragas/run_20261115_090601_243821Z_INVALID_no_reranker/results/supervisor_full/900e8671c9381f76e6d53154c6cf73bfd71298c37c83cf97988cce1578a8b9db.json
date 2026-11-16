@@ -1,0 +1,635 @@
+{
+  "mode": "supervisor_full",
+  "question_id": "Q081",
+  "evidence": [
+    {
+      "museum_id": "M0103",
+      "name": "한독의약박물관",
+      "document": "한독의약박물관은 한독 창립 10주년을 기념하기 위한 문화 사업의 일환으로 1964년 문을 열었으며, 우리나라 최초의 기업 박물관이자 전문 박물관으로 기록되고 있다. 1995년 충청북도 음성으로 확장 이전한 한독의약박물관은 보물 6점을 포함 의약 관련 보존 가치가 높은 약 2만여 점의 사료들을 보관, 전시하고 있어 우리나라 의약 사료의 보고로 일컬어지고 있으며, 매년 1만 5천 명 이상의 관람객이 다녀가고 있다. 한독의약박물관은 우리 선조들의 의약 발자취를 되돌아보는 한국관, 동서양 각국의 의약 자료를 전시한 국제관, 한독의 기업 역사를 보여주는 한독사료실, 창업자 김신권 명예회장의 기증품을 전시한 제석홀 등 총 4개의 전시실로 구성되어 있으며, 약 9천여 권의 의약서적을 소장하고 있는 의약 도서실도 함께 갖추고 있다. 1964년 ㈜한독(옛 한독약품) 창립 10주년 기념 문화사업으로 설립된 우리나라 최초의 기업박물관이자 의료관련 전문박물관",
+      "metadata": {
+        "holiday_close": "17:00",
+        "adult_fee": 0.0,
+        "source_types": "BASE|TOUR_API",
+        "requires_manual_review": true,
+        "youth_fee": 0.0,
+        "ownership_type": "사립",
+        "closure_rule_raw": "월요일+1월 1일+설 연휴+추석 연휴",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/42/4086042_image2_1.jpg",
+        "holiday_open": "09:00",
+        "name": "한독의약박물관",
+        "child_fee": 0.0,
+        "homepage_url": "https://www.handokmuseum.com",
+        "address": "충청북도 음성군 대소면 대풍산단로 78",
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "sigungu": "음성군",
+        "weekday_open": "09:00",
+        "weekday_close": "17:00",
+        "sido": "충청북도",
+        "longitude": 127.465316,
+        "latitude": 36.97056729,
+        "image_copyright": "Type1"
+      },
+      "vector_rank": 2,
+      "bm25_rank": 1,
+      "vector_distance": 0.5109412670135498,
+      "vector_score": null,
+      "bm25_score": 44.74381420009548,
+      "vector_document": "한독의약박물관은 한독 창립 10주년을 기념하기 위한 문화 사업의 일환으로 1964년 문을 열었으며, 우리나라 최초의 기업 박물관이자 전문 박물관으로 기록되고 있다. 1995년 충청북도 음성으로 확장 이전한 한독의약박물관은 보물 6점을 포함 의약 관련 보존 가치가 높은 약 2만여 점의 사료들을 보관, 전시하고 있어 우리나라 의약 사료의 보고로 일컬어지고 있으며, 매년 1만 5천 명 이상의 관람객이 다녀가고 있다. 한독의약박물관은 우리 선조들의 의약 발자취를 되돌아보는 한국관, 동서양 각국의 의약 자료를 전시한 국제관, 한독의 기업 역사를 보여주는 한독사료실, 창업자 김신권 명예회장의 기증품을 전시한 제석홀 등 총 4개의 전시실로 구성되어 있으며, 약 9천여 권의 의약서적을 소장하고 있는 의약 도서실도 함께 갖추고 있다. 1964년 ㈜한독(옛 한독약품) 창립 10주년 기념 문화사업으로 설립된 우리나라 최초의 기업박물관이자 의료관련 전문박물관",
+      "bm25_document": "한독의약박물관은 한독 창립 10주년을 기념하기 위한 문화 사업의 일환으로 1964년 문을 열었으며, 우리나라 최초의 기업 박물관이자 전문 박물관으로 기록되고 있다. 1995년 충청북도 음성으로 확장 이전한 한독의약박물관은 보물 6점을 포함 의약 관련 보존 가치가 높은 약 2만여 점의 사료들을 보관, 전시하고 있어 우리나라 의약 사료의 보고로 일컬어지고 있으며, 매년 1만 5천 명 이상의 관람객이 다녀가고 있다. 한독의약박물관은 우리 선조들의 의약 발자취를 되돌아보는 한국관, 동서양 각국의 의약 자료를 전시한 국제관, 한독의 기업 역사를 보여주는 한독사료실, 창업자 김신권 명예회장의 기증품을 전시한 제석홀 등 총 4개의 전시실로 구성되어 있으며, 약 9천여 권의 의약서적을 소장하고 있는 의약 도서실도 함께 갖추고 있다. 1964년 ㈜한독(옛 한독약품) 창립 10주년 기념 문화사업으로 설립된 우리나라 최초의 기업박물관이자 의료관련 전문박물관",
+      "best_span_id": "chroma:M0103",
+      "best_span_text": "한독의약박물관은 한독 창립 10주년을 기념하기 위한 문화 사업의 일환으로 1964년 문을 열었으며, 우리나라 최초의 기업 박물관이자 전문 박물관으로 기록되고 있다. 1995년 충청북도 음성으로 확장 이전한 한독의약박물관은 보물 6점을 포함 의약 관련 보존 가치가 높은 약 2만여 점의 사료들을 보관, 전시하고 있어 우리나라 의약 사료의 보고로 일컬어지고 있으며, 매년 1만 5천 명 이상의 관람객이 다녀가고 있다. 한독의약박물관은 우리 선조들의 의약 발자취를 되돌아보는 한국관, 동서양 각국의 의약 자료를 전시한 국제관, 한독의 기업 역사를 보여주는 한독사료실, 창업자 김신권 명예회장의 기증품을 전시한 제석홀 등 총 4개의 전시실로 구성되어 있으며, 약 9천여 권의 의약서적을 소장하고 있는 의약 도서실도 함께 갖추고 있다. 1964년 ㈜한독(옛 한독약품) 창립 10주년 기념 문화사업으로 설립된 우리나라 최초의 기업박물관이자 의료관련 전문박물관",
+      "fusion_score": 0.03252247488101534,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 1,
+      "name_match": true,
+      "rerank_score": null,
+      "rank": 1,
+      "score": 0.03252247488101534,
+      "score_type": "rrf",
+      "distance": 0.5109412670135498,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0103",
+      "source_doc_ids": [
+        "DOC-B0103-TOUR_API-129801",
+        "DOC-B0103-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0103-TOUR_API-129801",
+          "source_type": "TOUR_API",
+          "source_record_id": "129801",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=52",
+          "match_trust": "RECHECKED_BY_RULE_NOT_HUMAN_APPROVED"
+        },
+        {
+          "doc_id": "DOC-B0103-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0103",
+          "source_locator": "data/raw/museum_base_1070.csv#row=104",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 91,
+          "doc_ids": [
+            "DOC-B0103-TOUR_API-129801"
+          ]
+        },
+        {
+          "start": 92,
+          "end": 231,
+          "doc_ids": [
+            "DOC-B0103-TOUR_API-129801"
+          ]
+        },
+        {
+          "start": 232,
+          "end": 406,
+          "doc_ids": [
+            "DOC-B0103-TOUR_API-129801"
+          ]
+        },
+        {
+          "start": 407,
+          "end": 474,
+          "doc_ids": [
+            "DOC-B0103-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=52",
+      "text": "한독의약박물관은 한독 창립 10주년을 기념하기 위한 문화 사업의 일환으로 1964년 문을 열었으며, 우리나라 최초의 기업 박물관이자 전문 박물관으로 기록되고 있다. 1995년 충청북도 음성으로 확장 이전한 한독의약박물관은 보물 6점을 포함 의약 관련 보존 가치가 높은 약 2만여 점의 사료들을 보관, 전시하고 있어 우리나라 의약 사료의 보고로 일컬어지고 있으며, 매년 1만 5천 명 이상의 관람객이 다녀가고 있다. 한독의약박물관은 우리 선조들의 의약 발자취를 되돌아보는 한국관, 동서양 각국의 의약 자료를 전시한 국제관, 한독의 기업 역사를 보여주는 한독사료실, 창업자 김신권 명예회장의 기증품을 전시한 제석홀 등 총 4개의 전시실로 구성되어 있으며, 약 9천여 권의 의약서적을 소장하고 있는 의약 도서실도 함께 갖추고 있다. 1964년 ㈜한독(옛 한독약품) 창립 10주년 기념 문화사업으로 설립된 우리나라 최초의 기업박물관이자 의료관련 전문박물관",
+      "sido": "충청북도",
+      "sigungu": "음성군",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=52"
+      ],
+      "evidence_id": "E1",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=64",
+        "fields": {
+          "name": "한독의약박물관",
+          "sido": "충청북도",
+          "sigungu": "음성군",
+          "address": "충청북도 음성군 대소면 대풍산단로 78",
+          "ownership_type": "사립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "09:00",
+          "weekday_close": "17:00",
+          "holiday_open": "09:00",
+          "holiday_close": "17:00",
+          "closure_rule_raw": "월요일+1월 1일+설 연휴+추석 연휴"
+        },
+        "base_data_date": "2026-10-07",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M1014",
+      "name": "양구근현대사박물관",
+      "document": "박물관은 근현대사를 담고 있는 다양한 자료를 테마별 전시관으로 구성하고 있습니다. 먼저 제1전시실은 한국근현대사 전반을 살펴볼 수 있는 역사의 휘모리 공간을 시작으로, 엽서관, 우표관, 씰관 등으로 구성되어 있으며, 제2전시실은 추억속의 영화역사 포스터 등을 전시한 추억의 영화관, 아리랑 문화를 다양한 면을 살필 수 있는 공간으로 전시되어 있다. 또한 기획전시실에는 기증유물특별전으로 기증자 박민일 박사, 송광호 기자, 철학가 김형석박사의 다양한 기증자료 중 도자기, 그림, 글씨, 민속품을 중심으로 전시하고 있다.",
+      "metadata": {
+        "adult_fee": 3000.0,
+        "latitude": 38.12222633,
+        "weekday_open": "10:00",
+        "adult_fee_status": "BASE_FEE_PAID",
+        "longitude": 127.9904068,
+        "holiday_close": "18:00",
+        "address": "강원특별자치도 양구군 양구읍 금강산로 439-51",
+        "sigungu": "양구군",
+        "holiday_open": "10:00",
+        "closure_rule_raw": "월+1월 1일+설날 오전+추석 오전",
+        "ownership_type": "공립",
+        "requires_manual_review": true,
+        "name": "양구근현대사박물관",
+        "sido": "강원특별자치도",
+        "weekday_close": "18:00",
+        "amenities_raw": "뮤지엄숍+향토사료관+고인돌공원+함춘주막",
+        "child_fee": 3000.0,
+        "fee_notes": "지역상품권 환급+6세이하+65세 이상+장애인+국민기초생활수급자+명예군민 등 면제",
+        "youth_fee": 3000.0,
+        "source_types": "BASE",
+        "homepage_url": "http://www.ygpm.or.kr/"
+      },
+      "vector_rank": 4,
+      "bm25_rank": 5,
+      "vector_distance": 0.5459113121032715,
+      "vector_score": null,
+      "bm25_score": 13.307890194755426,
+      "vector_document": "박물관은 근현대사를 담고 있는 다양한 자료를 테마별 전시관으로 구성하고 있습니다. 먼저 제1전시실은 한국근현대사 전반을 살펴볼 수 있는 역사의 휘모리 공간을 시작으로, 엽서관, 우표관, 씰관 등으로 구성되어 있으며, 제2전시실은 추억속의 영화역사 포스터 등을 전시한 추억의 영화관, 아리랑 문화를 다양한 면을 살필 수 있는 공간으로 전시되어 있다. 또한 기획전시실에는 기증유물특별전으로 기증자 박민일 박사, 송광호 기자, 철학가 김형석박사의 다양한 기증자료 중 도자기, 그림, 글씨, 민속품을 중심으로 전시하고 있다.",
+      "bm25_document": "박물관은 근현대사를 담고 있는 다양한 자료를 테마별 전시관으로 구성하고 있습니다. 먼저 제1전시실은 한국근현대사 전반을 살펴볼 수 있는 역사의 휘모리 공간을 시작으로, 엽서관, 우표관, 씰관 등으로 구성되어 있으며, 제2전시실은 추억속의 영화역사 포스터 등을 전시한 추억의 영화관, 아리랑 문화를 다양한 면을 살필 수 있는 공간으로 전시되어 있다. 또한 기획전시실에는 기증유물특별전으로 기증자 박민일 박사, 송광호 기자, 철학가 김형석박사의 다양한 기증자료 중 도자기, 그림, 글씨, 민속품을 중심으로 전시하고 있다.",
+      "best_span_id": "chroma:M1014",
+      "best_span_text": "박물관은 근현대사를 담고 있는 다양한 자료를 테마별 전시관으로 구성하고 있습니다. 먼저 제1전시실은 한국근현대사 전반을 살펴볼 수 있는 역사의 휘모리 공간을 시작으로, 엽서관, 우표관, 씰관 등으로 구성되어 있으며, 제2전시실은 추억속의 영화역사 포스터 등을 전시한 추억의 영화관, 아리랑 문화를 다양한 면을 살필 수 있는 공간으로 전시되어 있다. 또한 기획전시실에는 기증유물특별전으로 기증자 박민일 박사, 송광호 기자, 철학가 김형석박사의 다양한 기증자료 중 도자기, 그림, 글씨, 민속품을 중심으로 전시하고 있다.",
+      "fusion_score": 0.031009615384615385,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 2,
+      "rerank_score": null,
+      "rank": 2,
+      "score": 0.031009615384615385,
+      "score_type": "rrf",
+      "distance": 0.5459113121032715,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M1014",
+      "source_doc_ids": [
+        "DOC-B1014-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B1014-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B1014",
+          "source_locator": "data/raw/museum_base_1070.csv#row=1015",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 45,
+          "doc_ids": [
+            "DOC-B1014-BASE"
+          ]
+        },
+        {
+          "start": 46,
+          "end": 194,
+          "doc_ids": [
+            "DOC-B1014-BASE"
+          ]
+        },
+        {
+          "start": 195,
+          "end": 289,
+          "doc_ids": [
+            "DOC-B1014-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_base_1070.csv#row=1015",
+      "text": "박물관은 근현대사를 담고 있는 다양한 자료를 테마별 전시관으로 구성하고 있습니다. 먼저 제1전시실은 한국근현대사 전반을 살펴볼 수 있는 역사의 휘모리 공간을 시작으로, 엽서관, 우표관, 씰관 등으로 구성되어 있으며, 제2전시실은 추억속의 영화역사 포스터 등을 전시한 추억의 영화관, 아리랑 문화를 다양한 면을 살필 수 있는 공간으로 전시되어 있다. 또한 기획전시실에는 기증유물특별전으로 기증자 박민일 박사, 송광호 기자, 철학가 김형석박사의 다양한 기증자료 중 도자기, 그림, 글씨, 민속품을 중심으로 전시하고 있다.",
+      "sido": "강원특별자치도",
+      "sigungu": "양구군",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_base_1070.csv#row=1015"
+      ],
+      "evidence_id": "E2",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=696",
+        "fields": {
+          "name": "양구근현대사박물관",
+          "sido": "강원특별자치도",
+          "sigungu": "양구군",
+          "address": "강원특별자치도 양구군 양구읍 금강산로 439-51",
+          "ownership_type": "공립",
+          "adult_fee": "3000",
+          "youth_fee": "3000",
+          "child_fee": "3000",
+          "adult_fee_status": "BASE_FEE_PAID",
+          "weekday_open": "10:00",
+          "weekday_close": "18:00",
+          "holiday_open": "10:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "월+1월 1일+설날 오전+추석 오전",
+          "amenities_raw": "뮤지엄숍+향토사료관+고인돌공원+함춘주막"
+        },
+        "base_data_date": "2025-08-05",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0751",
+      "name": "울산약사제방유적전시관",
+      "document": "약사동제방유적전시관은 울산 약사동 제방(사적)을 소개하고 고대 제방 연구와 역사적인 가치를 알리기 위하여 2017년 5월 24일에 개관하였다. 전시관 1층은 전시 공간으로 운영하고 있으며, 제방의 토층 전사를 전시하는 제방전시실, 제방 인근 약사동의 역사를 알 수 있는 유물과 농기구 등을 전시하는 테마전시실로 구성되어 있다.2층은 어린이 체험전시실로 제방꼽기체험, 영상, VR(가상현실)체험, 동작감지체험, 퍼즐, 블럭, 도서공간 등이 마련되어 있다.",
+      "metadata": {
+        "holiday_close": "18:00",
+        "youth_fee": 0.0,
+        "amenities_raw": "장애인 화장실+음수대 등",
+        "latitude": 35.5762564,
+        "source_types": "BASE",
+        "holiday_open": "09:00",
+        "adult_fee": 0.0,
+        "sido": "울산광역시",
+        "fee_notes": "0",
+        "weekday_open": "09:00",
+        "ownership_type": "공립",
+        "sigungu": "중구",
+        "name": "울산약사제방유적전시관",
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "weekday_close": "18:00",
+        "address": "울산광역시 중구 종가14길 22-28",
+        "transport_notes": "- 일반버스 431, 847, 207, 847약사동제방전시관(11431) 하차 후 도보 10분- 일반버스 147, 216, 422, 147, 216혜인학교(30907) 하차 후 도보 5분",
+        "child_fee": 0.0,
+        "closure_rule_raw": "매주 월+1월 1일",
+        "longitude": 129.3369722,
+        "homepage_url": "http://www.ulsan.go.kr/s/museum/contents.ulsan?mId=001010001000000000",
+        "requires_manual_review": false
+      },
+      "vector_rank": 1,
+      "bm25_rank": null,
+      "vector_distance": 0.500938892364502,
+      "vector_score": null,
+      "bm25_score": null,
+      "vector_document": "약사동제방유적전시관은 울산 약사동 제방(사적)을 소개하고 고대 제방 연구와 역사적인 가치를 알리기 위하여 2017년 5월 24일에 개관하였다. 전시관 1층은 전시 공간으로 운영하고 있으며, 제방의 토층 전사를 전시하는 제방전시실, 제방 인근 약사동의 역사를 알 수 있는 유물과 농기구 등을 전시하는 테마전시실로 구성되어 있다.2층은 어린이 체험전시실로 제방꼽기체험, 영상, VR(가상현실)체험, 동작감지체험, 퍼즐, 블럭, 도서공간 등이 마련되어 있다.",
+      "bm25_document": "",
+      "best_span_id": null,
+      "best_span_text": null,
+      "fusion_score": 0.01639344262295082,
+      "retrieved_by": [
+        "vector"
+      ],
+      "fusion_rank": 3,
+      "rerank_score": null,
+      "rank": 3,
+      "score": 0.01639344262295082,
+      "score_type": "rrf",
+      "distance": 0.500938892364502,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector"
+      ],
+      "retriever": "vector",
+      "source_doc_ids": [
+        "DOC-B0751-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0751-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0751",
+          "source_locator": "data/raw/museum_base_1070.csv#row=752",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 79,
+          "doc_ids": [
+            "DOC-B0751-BASE"
+          ]
+        },
+        {
+          "start": 80,
+          "end": 253,
+          "doc_ids": [
+            "DOC-B0751-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_base_1070.csv#row=752",
+      "text": "약사동제방유적전시관은 울산 약사동 제방(사적)을 소개하고 고대 제방 연구와 역사적인 가치를 알리기 위하여 2017년 5월 24일에 개관하였다. 전시관 1층은 전시 공간으로 운영하고 있으며, 제방의 토층 전사를 전시하는 제방전시실, 제방 인근 약사동의 역사를 알 수 있는 유물과 농기구 등을 전시하는 테마전시실로 구성되어 있다.2층은 어린이 체험전시실로 제방꼽기체험, 영상, VR(가상현실)체험, 동작감지체험, 퍼즐, 블럭, 도서공간 등이 마련되어 있다.",
+      "sido": "울산광역시",
+      "sigungu": "중구",
+      "span_id": "",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_base_1070.csv#row=752"
+      ],
+      "evidence_id": "E3",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=520",
+        "fields": {
+          "name": "울산약사제방유적전시관",
+          "sido": "울산광역시",
+          "sigungu": "중구",
+          "address": "울산광역시 중구 종가14길 22-28",
+          "ownership_type": "공립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "09:00",
+          "weekday_close": "18:00",
+          "holiday_open": "09:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "매주 월+1월 1일",
+          "amenities_raw": "장애인 화장실+음수대 등"
+        },
+        "base_data_date": "2024-11-02",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M1034",
+      "name": "서울역사박물관",
+      "document": "세계도시로 성장한 서울이 어떻게 탄생했으며 어떻게 변해서 오늘에 이르렀는지를 배우고 앞으로 어떻게 바뀔 것인지를 가늠해 보는 곳이 서울역사박물관이다. 서울의 뿌리와 서울 사람의 생활, 현대 서울로의 변화를 보여주는 상설전시와 함께 서울의 역사·문화를 증언하는 다양한 기증유물이 전시되어 있다. 또한 어린이와 가족, 어른들을 위한 각종 체험교실과 문화행사들이 풍성하게 마련되어 있다.",
+      "metadata": {
+        "adult_fee": 0.0,
+        "source_types": "TOUR_API",
+        "address": "서울특별시 종로구 새문안로 55(신문로2가)",
+        "holiday_open": "09:00",
+        "sigungu": "종로구",
+        "homepage_url": "https://museum.seoul.go.kr/",
+        "latitude": 37.57176907,
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "requires_manual_review": true,
+        "longitude": 126.9679849,
+        "image_copyright": "Type3",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/87/2661487_image2_1.JPG",
+        "sido": "서울특별시",
+        "holiday_close": "19:00",
+        "child_fee": 0.0,
+        "weekday_close": "20:00",
+        "weekday_open": "09:00",
+        "ownership_type": "공립",
+        "closure_rule_raw": "1월 1일+매주 월요일",
+        "youth_fee": 0.0,
+        "name": "서울역사박물관"
+      },
+      "vector_rank": null,
+      "bm25_rank": 2,
+      "vector_distance": null,
+      "vector_score": null,
+      "bm25_score": 16.6720789112347,
+      "vector_document": "",
+      "bm25_document": "세계도시로 성장한 서울이 어떻게 탄생했으며 어떻게 변해서 오늘에 이르렀는지를 배우고 앞으로 어떻게 바뀔 것인지를 가늠해 보는 곳이 서울역사박물관이다. 서울의 뿌리와 서울 사람의 생활, 현대 서울로의 변화를 보여주는 상설전시와 함께 서울의 역사·문화를 증언하는 다양한 기증유물이 전시되어 있다. 또한 어린이와 가족, 어른들을 위한 각종 체험교실과 문화행사들이 풍성하게 마련되어 있다.",
+      "best_span_id": "chroma:M1034",
+      "best_span_text": "세계도시로 성장한 서울이 어떻게 탄생했으며 어떻게 변해서 오늘에 이르렀는지를 배우고 앞으로 어떻게 바뀔 것인지를 가늠해 보는 곳이 서울역사박물관이다. 서울의 뿌리와 서울 사람의 생활, 현대 서울로의 변화를 보여주는 상설전시와 함께 서울의 역사·문화를 증언하는 다양한 기증유물이 전시되어 있다. 또한 어린이와 가족, 어른들을 위한 각종 체험교실과 문화행사들이 풍성하게 마련되어 있다.",
+      "fusion_score": 0.016129032258064516,
+      "retrieved_by": [
+        "bm25"
+      ],
+      "fusion_rank": 4,
+      "rerank_score": null,
+      "rank": 4,
+      "score": 0.016129032258064516,
+      "score_type": "rrf",
+      "distance": null,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "bm25"
+      ],
+      "retriever": "bm25",
+      "span_id": "chroma:M1034",
+      "source_doc_ids": [
+        "DOC-B1034-TOUR_API-130361"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B1034-TOUR_API-130361",
+          "source_type": "TOUR_API",
+          "source_record_id": "130361",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=480",
+          "match_trust": "RECHECKED_BY_RULE_NOT_HUMAN_APPROVED"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 83,
+          "doc_ids": [
+            "DOC-B1034-TOUR_API-130361"
+          ]
+        },
+        {
+          "start": 84,
+          "end": 163,
+          "doc_ids": [
+            "DOC-B1034-TOUR_API-130361"
+          ]
+        },
+        {
+          "start": 164,
+          "end": 213,
+          "doc_ids": [
+            "DOC-B1034-TOUR_API-130361"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=480",
+      "text": "세계도시로 성장한 서울이 어떻게 탄생했으며 어떻게 변해서 오늘에 이르렀는지를 배우고 앞으로 어떻게 바뀔 것인지를 가늠해 보는 곳이 서울역사박물관이다. 서울의 뿌리와 서울 사람의 생활, 현대 서울로의 변화를 보여주는 상설전시와 함께 서울의 역사·문화를 증언하는 다양한 기증유물이 전시되어 있다. 또한 어린이와 가족, 어른들을 위한 각종 체험교실과 문화행사들이 풍성하게 마련되어 있다.",
+      "sido": "서울특별시",
+      "sigungu": "종로구",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=480"
+      ],
+      "evidence_id": "E4",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=711",
+        "fields": {
+          "name": "서울역사박물관",
+          "sido": "서울특별시",
+          "sigungu": "종로구",
+          "address": "서울특별시 종로구 새문안로 55(신문로2가)",
+          "ownership_type": "공립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "09:00",
+          "weekday_close": "20:00",
+          "holiday_open": "09:00",
+          "holiday_close": "19:00",
+          "closure_rule_raw": "1월 1일+매주 월요일"
+        },
+        "base_data_date": "2025-11-01",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0705",
+      "name": "대구약령시한의약박물관",
+      "document": "옛 약령시 사람들의 삶을 관람하고 체험할 수 있는 공립박물관",
+      "metadata": {
+        "youth_fee": 0.0,
+        "weekday_open": "09:00",
+        "name": "대구약령시한의약박물관",
+        "sido": "대구광역시",
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "weekday_close": "18:00",
+        "adult_fee": 0.0,
+        "homepage_url": "https://www.daegu.go.kr/dgom",
+        "latitude": 35.86828731,
+        "transport_notes": "지하철 1호선 중앙로역+지하철 2호선 반월당역+204+304+349+401+405+410+410-1+503+518+609+650+706+730+840+909+990+991+급행2+북구2",
+        "ownership_type": "공립",
+        "address": "대구광역시 중구 남성로 51-1",
+        "holiday_close": "18:00",
+        "requires_manual_review": true,
+        "source_types": "BASE",
+        "closure_rule_raw": "매주 월요일+1월 1일+설날추석 당일",
+        "child_fee": 0.0,
+        "holiday_open": "09:00",
+        "sigungu": "중구",
+        "longitude": 128.5899134
+      },
+      "vector_rank": 3,
+      "bm25_rank": null,
+      "vector_distance": 0.5340452194213867,
+      "vector_score": null,
+      "bm25_score": null,
+      "vector_document": "옛 약령시 사람들의 삶을 관람하고 체험할 수 있는 공립박물관",
+      "bm25_document": "",
+      "best_span_id": null,
+      "best_span_text": null,
+      "fusion_score": 0.015873015873015872,
+      "retrieved_by": [
+        "vector"
+      ],
+      "fusion_rank": 5,
+      "rerank_score": null,
+      "rank": 5,
+      "score": 0.015873015873015872,
+      "score_type": "rrf",
+      "distance": 0.5340452194213867,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector"
+      ],
+      "retriever": "vector",
+      "source_doc_ids": [
+        "DOC-B0705-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0705-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0705",
+          "source_locator": "data/raw/museum_base_1070.csv#row=706",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 33,
+          "doc_ids": [
+            "DOC-B0705-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_base_1070.csv#row=706",
+      "text": "옛 약령시 사람들의 삶을 관람하고 체험할 수 있는 공립박물관",
+      "sido": "대구광역시",
+      "sigungu": "중구",
+      "span_id": "",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_base_1070.csv#row=706"
+      ],
+      "evidence_id": "E5",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=489",
+        "fields": {
+          "name": "대구약령시한의약박물관",
+          "sido": "대구광역시",
+          "sigungu": "중구",
+          "address": "대구광역시 중구 남성로 51-1",
+          "ownership_type": "공립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "09:00",
+          "weekday_close": "18:00",
+          "holiday_open": "09:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "매주 월요일+1월 1일+설날추석 당일"
+        },
+        "base_data_date": "2025-12-10",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    }
+  ],
+  "answer": "한독의약박물관은 네 전시실로 구성되어 있습니다. 한국관에서는 우리 선조들의 의약 발자취를, 국제관에서는 동서양 각국의 의약 자료를 살펴볼 수 있습니다. 한독사료실은 한독의 기업 역사를, 제석홀은 창업자 김신권 명예회장의 기증품을 전시합니다. [E1]\n\n의약 관련 자료는 약 2만 점의 사료를 보관·전시하고 있으며, 약 9천 권의 의약서적을 소장한 의약 도서실도 갖추고 있습니다. [E1]",
+  "retrieval_status": "ok",
+  "answer_status": "answered",
+  "route": "hybrid",
+  "retry_count": 0,
+  "supervisor_verified": true,
+  "rerank_applied": false,
+  "retriever_errors": [],
+  "warnings": [
+    "Cross-Encoder reranking failed (FileNotFoundError); RRF order retained"
+  ],
+  "duration_ms": 13034.7,
+  "error_type": "",
+  "hit_at_1": 1,
+  "hit_at_3": 1,
+  "hit_at_5": 1,
+  "recall_at_5": 1.0,
+  "mrr_at_10": 1.0
+}

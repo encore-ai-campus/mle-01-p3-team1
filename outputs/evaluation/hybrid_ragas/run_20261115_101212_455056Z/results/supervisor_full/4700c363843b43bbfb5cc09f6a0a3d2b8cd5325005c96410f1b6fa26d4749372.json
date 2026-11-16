@@ -1,0 +1,51 @@
+{
+  "mode": "supervisor_full",
+  "question_id": "V2-UL03",
+  "evidence": [
+    {
+      "museum_id": "M0001",
+      "name": "박진전쟁기념관",
+      "text": "박진전쟁기념관은 6·25전쟁 최후의 보루였던 박진전투 현장을 재현하여 민족 분단의 실상을 올바르게 인식하고 순국선열들의 호국 정신을 계승 발전시키고자 건립한 기념관이다. 박진지역은 부산을 점령하기 위해 낙동강을 도하하여 최후의 발악을 하던 북한군과 미군이 2주간 사투를 벌였던 격전지이다. 박진지구전투의 승리로 인해 전세가 역전된 국군과 유엔군이 낙동강을 건너 반격하게 되었으며, 인천상륙작전의 성공과 함께 압록강까지 진격할 수 있는 결정적 계기가 된 한국전쟁사에 길이 빛날 중요한 전적지이다. 박진전쟁기념관에서는 6·25전쟁 및 낙동강 돌출부 전투 관련 행사 및 프로그램을 운영하고 있으며, 박진지구 전투 디오라마 등을 통한 당시 모습 재현 및 다양한 기획 전시를 진행하고 있다. 또한, 안보교육의 장으로써 역할을 하고 있다.",
+      "span_id": "",
+      "source_doc_ids": [
+        "DOC-B0001-TOUR_API-2785601"
+      ],
+      "source_urls": [],
+      "source_url": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=2"
+      ],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=2",
+      "sido": "경상남도",
+      "sigungu": "창녕군",
+      "retriever": "graph",
+      "closure_weekdays": [
+        "월"
+      ],
+      "open_all_year": false,
+      "metadata": {},
+      "chunk_id": "",
+      "retrievers": [
+        "graph"
+      ],
+      "evidence_id": "E1",
+      "rank": 1
+    }
+  ],
+  "answer": "확인 가능한 근거가 부족하여 답변을 보류했음.",
+  "retrieval_status": "ok",
+  "answer_status": "abstained",
+  "route": "graph",
+  "retry_count": 1,
+  "supervisor_verified": false,
+  "rerank_applied": false,
+  "retriever_errors": [],
+  "warnings": [],
+  "duration_ms": 174670.08,
+  "error_type": "",
+  "hit_at_1": "",
+  "hit_at_3": "",
+  "hit_at_5": "",
+  "recall_at_5": "",
+  "mrr_at_10": ""
+}

@@ -1,0 +1,862 @@
+{
+  "mode": "supervisor_full",
+  "question_id": "Q207",
+  "evidence": [
+    {
+      "museum_id": "M0339",
+      "name": "충주고구려천문과학관",
+      "document": "충주고구려천문과학관은 2008년에 문을 연 곳으로, 근처에 충주 고구려비가 있어서 고구려의 기상을 이어받자는 의미로 충주 고구려 천문과학관이 되었다. 1층에는 전시실, 시청각실, 천체투영실이 있고, 2층에는 주 관측실과 보조 관측실이 위치한다. 주 관측실에는 지름 600㎜의 고성능 대구경 망원경이 설치되어 있고 1층 전시실은 별자리와 천문에 관한 고대인들의 우주관과 우리나라의 고천문도인 ‘천상열차분야지도’가 전시되어 있다. 시청각실에서는 다큐멘터리 상영, 특별 전시, 천문 강연 등이 진행된다. 천체투영실은 천장이 반구형의 영사막으로 되어 있어 프로젝트 빔을 이용하여 천체 및 별자리를 입체적으로 감상할 수 있다. 2층 주 관측실은 돔형 천장 구조로 되어 있으며, 천정이 좌우로 개방되면 그 틈으로 망원경을 통하여 낮에는 태양의 홍염을, 밤에는 별, 행성, 달, 성운, 성단 등을 관찰할 수 있다. 이 외에도 상설 프로그램인 천체관측 프로그램과 과학특강, 별자리 여행과 같은 특별 프로그램을 통해 우주에 대한 지식을 얻을 수 있다. 충주고구려천문과학관은 시민들에게 천문우주과학 지식을 보급하고 우리지역의 밤하늘을 보조하기 위해 노력 하고 있다",
+      "metadata": {
+        "sigungu": "충주시",
+        "name": "충주고구려천문과학관",
+        "holiday_open": "14:00",
+        "child_fee": 1000.0,
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/83/3061883_image2_1.jpg",
+        "address": "충청북도 충주시 중앙탑면 묘곡내동길 100",
+        "homepage_url": "https://www.gogostar.kr",
+        "image_copyright": "Type3",
+        "source_types": "BASE|TOUR_API",
+        "adult_fee": 3000.0,
+        "holiday_close": "22:00",
+        "ownership_type": "국립",
+        "weekday_close": "22:00",
+        "amenities_raw": "주관측실+보조관측실+천체투영실+시청각실+전시실",
+        "longitude": 127.848417,
+        "youth_fee": 2000.0,
+        "requires_manual_review": true,
+        "adult_fee_status": "BASE_FEE_PAID",
+        "latitude": 37.040354,
+        "weekday_open": "14:00",
+        "sido": "충청북도",
+        "closure_rule_raw": "매주월요일+설 당일+설 연휴+추석 당일+추석 연휴+공휴일 익일"
+      },
+      "vector_rank": 1,
+      "bm25_rank": 1,
+      "vector_distance": 0.4494878053665161,
+      "vector_score": null,
+      "bm25_score": 74.54154330179506,
+      "vector_document": "충주고구려천문과학관은 2008년에 문을 연 곳으로, 근처에 충주 고구려비가 있어서 고구려의 기상을 이어받자는 의미로 충주 고구려 천문과학관이 되었다. 1층에는 전시실, 시청각실, 천체투영실이 있고, 2층에는 주 관측실과 보조 관측실이 위치한다. 주 관측실에는 지름 600㎜의 고성능 대구경 망원경이 설치되어 있고 1층 전시실은 별자리와 천문에 관한 고대인들의 우주관과 우리나라의 고천문도인 ‘천상열차분야지도’가 전시되어 있다. 시청각실에서는 다큐멘터리 상영, 특별 전시, 천문 강연 등이 진행된다. 천체투영실은 천장이 반구형의 영사막으로 되어 있어 프로젝트 빔을 이용하여 천체 및 별자리를 입체적으로 감상할 수 있다. 2층 주 관측실은 돔형 천장 구조로 되어 있으며, 천정이 좌우로 개방되면 그 틈으로 망원경을 통하여 낮에는 태양의 홍염을, 밤에는 별, 행성, 달, 성운, 성단 등을 관찰할 수 있다. 이 외에도 상설 프로그램인 천체관측 프로그램과 과학특강, 별자리 여행과 같은 특별 프로그램을 통해 우주에 대한 지식을 얻을 수 있다. 충주고구려천문과학관은 시민들에게 천문우주과학 지식을 보급하고 우리지역의 밤하늘을 보조하기 위해 노력 하고 있다",
+      "bm25_document": "충주고구려천문과학관은 2008년에 문을 연 곳으로, 근처에 충주 고구려비가 있어서 고구려의 기상을 이어받자는 의미로 충주 고구려 천문과학관이 되었다. 1층에는 전시실, 시청각실, 천체투영실이 있고, 2층에는 주 관측실과 보조 관측실이 위치한다. 주 관측실에는 지름 600㎜의 고성능 대구경 망원경이 설치되어 있고 1층 전시실은 별자리와 천문에 관한 고대인들의 우주관과 우리나라의 고천문도인 ‘천상열차분야지도’가 전시되어 있다. 시청각실에서는 다큐멘터리 상영, 특별 전시, 천문 강연 등이 진행된다. 천체투영실은 천장이 반구형의 영사막으로 되어 있어 프로젝트 빔을 이용하여 천체 및 별자리를 입체적으로 감상할 수 있다. 2층 주 관측실은 돔형 천장 구조로 되어 있으며, 천정이 좌우로 개방되면 그 틈으로 망원경을 통하여 낮에는 태양의 홍염을, 밤에는 별, 행성, 달, 성운, 성단 등을 관찰할 수 있다. 이 외에도 상설 프로그램인 천체관측 프로그램과 과학특강, 별자리 여행과 같은 특별 프로그램을 통해 우주에 대한 지식을 얻을 수 있다. 충주고구려천문과학관은 시민들에게 천문우주과학 지식을 보급하고 우리지역의 밤하늘을 보조하기 위해 노력 하고 있다",
+      "best_span_id": "chroma:M0339",
+      "best_span_text": "충주고구려천문과학관은 2008년에 문을 연 곳으로, 근처에 충주 고구려비가 있어서 고구려의 기상을 이어받자는 의미로 충주 고구려 천문과학관이 되었다. 1층에는 전시실, 시청각실, 천체투영실이 있고, 2층에는 주 관측실과 보조 관측실이 위치한다. 주 관측실에는 지름 600㎜의 고성능 대구경 망원경이 설치되어 있고 1층 전시실은 별자리와 천문에 관한 고대인들의 우주관과 우리나라의 고천문도인 ‘천상열차분야지도’가 전시되어 있다. 시청각실에서는 다큐멘터리 상영, 특별 전시, 천문 강연 등이 진행된다. 천체투영실은 천장이 반구형의 영사막으로 되어 있어 프로젝트 빔을 이용하여 천체 및 별자리를 입체적으로 감상할 수 있다. 2층 주 관측실은 돔형 천장 구조로 되어 있으며, 천정이 좌우로 개방되면 그 틈으로 망원경을 통하여 낮에는 태양의 홍염을, 밤에는 별, 행성, 달, 성운, 성단 등을 관찰할 수 있다. 이 외에도 상설 프로그램인 천체관측 프로그램과 과학특강, 별자리 여행과 같은 특별 프로그램을 통해 우주에 대한 지식을 얻을 수 있다. 충주고구려천문과학관은 시민들에게 천문우주과학 지식을 보급하고 우리지역의 밤하늘을 보조하기 위해 노력 하고 있다",
+      "fusion_score": 0.03278688524590164,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 1,
+      "name_match": true,
+      "rerank_score": null,
+      "rank": 1,
+      "score": 0.03278688524590164,
+      "score_type": "rrf",
+      "distance": 0.4494878053665161,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0339",
+      "source_doc_ids": [
+        "DOC-B0339-TOUR_API-1689699",
+        "DOC-B0339-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0339-TOUR_API-1689699",
+          "source_type": "TOUR_API",
+          "source_record_id": "1689699",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=164",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        },
+        {
+          "doc_id": "DOC-B0339-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0339",
+          "source_locator": "data/raw/museum_base_1070.csv#row=340",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 83,
+          "doc_ids": [
+            "DOC-B0339-TOUR_API-1689699"
+          ]
+        },
+        {
+          "start": 84,
+          "end": 136,
+          "doc_ids": [
+            "DOC-B0339-TOUR_API-1689699"
+          ]
+        },
+        {
+          "start": 137,
+          "end": 238,
+          "doc_ids": [
+            "DOC-B0339-TOUR_API-1689699"
+          ]
+        },
+        {
+          "start": 239,
+          "end": 278,
+          "doc_ids": [
+            "DOC-B0339-TOUR_API-1689699"
+          ]
+        },
+        {
+          "start": 279,
+          "end": 345,
+          "doc_ids": [
+            "DOC-B0339-TOUR_API-1689699"
+          ]
+        },
+        {
+          "start": 346,
+          "end": 448,
+          "doc_ids": [
+            "DOC-B0339-TOUR_API-1689699"
+          ]
+        },
+        {
+          "start": 449,
+          "end": 523,
+          "doc_ids": [
+            "DOC-B0339-TOUR_API-1689699"
+          ]
+        },
+        {
+          "start": 524,
+          "end": 585,
+          "doc_ids": [
+            "DOC-B0339-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=164",
+      "text": "충주고구려천문과학관은 2008년에 문을 연 곳으로, 근처에 충주 고구려비가 있어서 고구려의 기상을 이어받자는 의미로 충주 고구려 천문과학관이 되었다. 1층에는 전시실, 시청각실, 천체투영실이 있고, 2층에는 주 관측실과 보조 관측실이 위치한다. 주 관측실에는 지름 600㎜의 고성능 대구경 망원경이 설치되어 있고 1층 전시실은 별자리와 천문에 관한 고대인들의 우주관과 우리나라의 고천문도인 ‘천상열차분야지도’가 전시되어 있다. 시청각실에서는 다큐멘터리 상영, 특별 전시, 천문 강연 등이 진행된다. 천체투영실은 천장이 반구형의 영사막으로 되어 있어 프로젝트 빔을 이용하여 천체 및 별자리를 입체적으로 감상할 수 있다. 2층 주 관측실은 돔형 천장 구조로 되어 있으며, 천정이 좌우로 개방되면 그 틈으로 망원경을 통하여 낮에는 태양의 홍염을, 밤에는 별, 행성, 달, 성운, 성단 등을 관찰할 수 있다. 이 외에도 상설 프로그램인 천체관측 프로그램과 과학특강, 별자리 여행과 같은 특별 프로그램을 통해 우주에 대한 지식을 얻을 수 있다. 충주고구려천문과학관은 시민들에게 천문우주과학 지식을 보급하고 우리지역의 밤하늘을 보조하기 위해 노력 하고 있다",
+      "sido": "충청북도",
+      "sigungu": "충주시",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=164"
+      ],
+      "evidence_id": "E1",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=245",
+        "fields": {
+          "name": "충주고구려천문과학관",
+          "sido": "충청북도",
+          "sigungu": "충주시",
+          "address": "충청북도 충주시 중앙탑면 묘곡내동길 100",
+          "ownership_type": "국립",
+          "adult_fee": "3000",
+          "youth_fee": "2000",
+          "child_fee": "1000",
+          "adult_fee_status": "BASE_FEE_PAID",
+          "weekday_open": "14:00",
+          "weekday_close": "22:00",
+          "holiday_open": "14:00",
+          "holiday_close": "22:00",
+          "closure_rule_raw": "매주월요일+설 당일+설 연휴+추석 당일+추석 연휴+공휴일 익일",
+          "amenities_raw": "주관측실+보조관측실+천체투영실+시청각실+전시실"
+        },
+        "base_data_date": "2026-05-31",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0336",
+      "name": "충주박물관",
+      "document": "충주박물관은 중원 문화권의 학술 연구과 유물 및 유적을 보존하고 각종 특별전 등의 행사를 통해 시민과 함께 하는 박물관 실현을 목적으로 설립된 곳이다. 제1전시관과 제2전시관, 야외전시공간 등으로 구성되어 있다. 제1전시관은 충주 미륵대원지, 정토사 홍법국사실상탑 모형, 석불입상 등과 같은 불교 유적을 전시한다. 야외전시유물은 율능리 석불입상, 장성리 삼층석탑, 용탄동 석탑 등의 불교 관련 유물과 각종 묘비, 문안석 등 많은 석조 유물이 전시되어 있다. 제2전시관은 충주 지역에서 출토된 자료를 중심으로 선사시대부터 통일신라시대까지 시대적 특징을 알아 볼 수 있는 곳으로 금릉동에서 출토된 찍개와 충주 조동리 유적에서 출토된 돌도끼, 그물추, 화살촉 등 선사시대 유물, 삼국·통일신라 시대의 토기, 기와류, 금속 유물을 전시했다. 특히 충주 고구려비와 단양적성비를 전시하여 충주 지역이 삼국시대 요충지이었음을 보여주고 있다. 충주의 역사와 문화유산을 전시 및 체험을 통해 즐길수 있는 박물관으로, 역사실, 민속실, 디지털실감체험실, 실감영상실, 고려조선실, 충주명현실로 구성되어 있다.",
+      "metadata": {
+        "amenities_raw": "안내실+자료실+강당",
+        "holiday_close": "18:00",
+        "address": "충청북도 충주시 중앙탑면 중앙탑길 112-28",
+        "sido": "충청북도",
+        "name": "충주박물관",
+        "sigungu": "충주시",
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "youth_fee": 0.0,
+        "weekday_close": "18:00",
+        "homepage_url": "https://www.chungju.go.kr/museum",
+        "holiday_open": "09:00",
+        "requires_manual_review": true,
+        "adult_fee": 0.0,
+        "latitude": 37.016683,
+        "closure_rule_raw": "매주월요일+1월1일+설 연휴+설 당일+추석 당일",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/46/3560546_image2_1.JPG",
+        "transport_notes": "시내버스 40~50분간격 운행, 도심에서 20분 소요",
+        "ownership_type": "국립",
+        "weekday_open": "09:00",
+        "child_fee": 0.0,
+        "source_types": "BASE|TOUR_API",
+        "image_copyright": "Type1",
+        "longitude": 127.8651272
+      },
+      "vector_rank": 18,
+      "bm25_rank": 3,
+      "vector_distance": 0.6459085941314697,
+      "vector_score": null,
+      "bm25_score": 18.914277722811207,
+      "vector_document": "충주박물관은 중원 문화권의 학술 연구과 유물 및 유적을 보존하고 각종 특별전 등의 행사를 통해 시민과 함께 하는 박물관 실현을 목적으로 설립된 곳이다. 제1전시관과 제2전시관, 야외전시공간 등으로 구성되어 있다. 제1전시관은 충주 미륵대원지, 정토사 홍법국사실상탑 모형, 석불입상 등과 같은 불교 유적을 전시한다. 야외전시유물은 율능리 석불입상, 장성리 삼층석탑, 용탄동 석탑 등의 불교 관련 유물과 각종 묘비, 문안석 등 많은 석조 유물이 전시되어 있다. 제2전시관은 충주 지역에서 출토된 자료를 중심으로 선사시대부터 통일신라시대까지 시대적 특징을 알아 볼 수 있는 곳으로 금릉동에서 출토된 찍개와 충주 조동리 유적에서 출토된 돌도끼, 그물추, 화살촉 등 선사시대 유물, 삼국·통일신라 시대의 토기, 기와류, 금속 유물을 전시했다. 특히 충주 고구려비와 단양적성비를 전시하여 충주 지역이 삼국시대 요충지이었음을 보여주고 있다. 충주의 역사와 문화유산을 전시 및 체험을 통해 즐길수 있는 박물관으로, 역사실, 민속실, 디지털실감체험실, 실감영상실, 고려조선실, 충주명현실로 구성되어 있다.",
+      "bm25_document": "충주박물관은 중원 문화권의 학술 연구과 유물 및 유적을 보존하고 각종 특별전 등의 행사를 통해 시민과 함께 하는 박물관 실현을 목적으로 설립된 곳이다. 제1전시관과 제2전시관, 야외전시공간 등으로 구성되어 있다. 제1전시관은 충주 미륵대원지, 정토사 홍법국사실상탑 모형, 석불입상 등과 같은 불교 유적을 전시한다. 야외전시유물은 율능리 석불입상, 장성리 삼층석탑, 용탄동 석탑 등의 불교 관련 유물과 각종 묘비, 문안석 등 많은 석조 유물이 전시되어 있다. 제2전시관은 충주 지역에서 출토된 자료를 중심으로 선사시대부터 통일신라시대까지 시대적 특징을 알아 볼 수 있는 곳으로 금릉동에서 출토된 찍개와 충주 조동리 유적에서 출토된 돌도끼, 그물추, 화살촉 등 선사시대 유물, 삼국·통일신라 시대의 토기, 기와류, 금속 유물을 전시했다. 특히 충주 고구려비와 단양적성비를 전시하여 충주 지역이 삼국시대 요충지이었음을 보여주고 있다. 충주의 역사와 문화유산을 전시 및 체험을 통해 즐길수 있는 박물관으로, 역사실, 민속실, 디지털실감체험실, 실감영상실, 고려조선실, 충주명현실로 구성되어 있다.",
+      "best_span_id": "chroma:M0336",
+      "best_span_text": "충주박물관은 중원 문화권의 학술 연구과 유물 및 유적을 보존하고 각종 특별전 등의 행사를 통해 시민과 함께 하는 박물관 실현을 목적으로 설립된 곳이다. 제1전시관과 제2전시관, 야외전시공간 등으로 구성되어 있다. 제1전시관은 충주 미륵대원지, 정토사 홍법국사실상탑 모형, 석불입상 등과 같은 불교 유적을 전시한다. 야외전시유물은 율능리 석불입상, 장성리 삼층석탑, 용탄동 석탑 등의 불교 관련 유물과 각종 묘비, 문안석 등 많은 석조 유물이 전시되어 있다. 제2전시관은 충주 지역에서 출토된 자료를 중심으로 선사시대부터 통일신라시대까지 시대적 특징을 알아 볼 수 있는 곳으로 금릉동에서 출토된 찍개와 충주 조동리 유적에서 출토된 돌도끼, 그물추, 화살촉 등 선사시대 유물, 삼국·통일신라 시대의 토기, 기와류, 금속 유물을 전시했다. 특히 충주 고구려비와 단양적성비를 전시하여 충주 지역이 삼국시대 요충지이었음을 보여주고 있다. 충주의 역사와 문화유산을 전시 및 체험을 통해 즐길수 있는 박물관으로, 역사실, 민속실, 디지털실감체험실, 실감영상실, 고려조선실, 충주명현실로 구성되어 있다.",
+      "fusion_score": 0.028693528693528692,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 2,
+      "rerank_score": null,
+      "rank": 2,
+      "score": 0.028693528693528692,
+      "score_type": "rrf",
+      "distance": 0.6459085941314697,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0336",
+      "source_doc_ids": [
+        "DOC-B0336-TOUR_API-130081",
+        "DOC-B0336-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0336-TOUR_API-130081",
+          "source_type": "TOUR_API",
+          "source_record_id": "130081",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=163",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        },
+        {
+          "doc_id": "DOC-B0336-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0336",
+          "source_locator": "data/raw/museum_base_1070.csv#row=337",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 84,
+          "doc_ids": [
+            "DOC-B0336-TOUR_API-130081"
+          ]
+        },
+        {
+          "start": 85,
+          "end": 118,
+          "doc_ids": [
+            "DOC-B0336-TOUR_API-130081"
+          ]
+        },
+        {
+          "start": 119,
+          "end": 175,
+          "doc_ids": [
+            "DOC-B0336-TOUR_API-130081"
+          ]
+        },
+        {
+          "start": 176,
+          "end": 255,
+          "doc_ids": [
+            "DOC-B0336-TOUR_API-130081"
+          ]
+        },
+        {
+          "start": 256,
+          "end": 410,
+          "doc_ids": [
+            "DOC-B0336-TOUR_API-130081"
+          ]
+        },
+        {
+          "start": 411,
+          "end": 463,
+          "doc_ids": [
+            "DOC-B0336-TOUR_API-130081"
+          ]
+        },
+        {
+          "start": 464,
+          "end": 553,
+          "doc_ids": [
+            "DOC-B0336-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=163",
+      "text": "충주박물관은 중원 문화권의 학술 연구과 유물 및 유적을 보존하고 각종 특별전 등의 행사를 통해 시민과 함께 하는 박물관 실현을 목적으로 설립된 곳이다. 제1전시관과 제2전시관, 야외전시공간 등으로 구성되어 있다. 제1전시관은 충주 미륵대원지, 정토사 홍법국사실상탑 모형, 석불입상 등과 같은 불교 유적을 전시한다. 야외전시유물은 율능리 석불입상, 장성리 삼층석탑, 용탄동 석탑 등의 불교 관련 유물과 각종 묘비, 문안석 등 많은 석조 유물이 전시되어 있다. 제2전시관은 충주 지역에서 출토된 자료를 중심으로 선사시대부터 통일신라시대까지 시대적 특징을 알아 볼 수 있는 곳으로 금릉동에서 출토된 찍개와 충주 조동리 유적에서 출토된 돌도끼, 그물추, 화살촉 등 선사시대 유물, 삼국·통일신라 시대의 토기, 기와류, 금속 유물을 전시했다. 특히 충주 고구려비와 단양적성비를 전시하여 충주 지역이 삼국시대 요충지이었음을 보여주고 있다. 충주의 역사와 문화유산을 전시 및 체험을 통해 즐길수 있는 박물관으로, 역사실, 민속실, 디지털실감체험실, 실감영상실, 고려조선실, 충주명현실로 구성되어 있다.",
+      "sido": "충청북도",
+      "sigungu": "충주시",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=163"
+      ],
+      "evidence_id": "E2",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=242",
+        "fields": {
+          "name": "충주박물관",
+          "sido": "충청북도",
+          "sigungu": "충주시",
+          "address": "충청북도 충주시 중앙탑면 중앙탑길 112-28",
+          "ownership_type": "국립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "09:00",
+          "weekday_close": "18:00",
+          "holiday_open": "09:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "매주월요일+1월1일+설 연휴+설 당일+추석 당일",
+          "amenities_raw": "안내실+자료실+강당"
+        },
+        "base_data_date": "2026-05-31",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0917",
+      "name": "영암곤충박물관",
+      "document": "영암곤충박물관은 전남광주통합특별시 영암군 영암읍 회문리에 있는 영암 기찬랜드 안에 자리하고 있다. 어린이들이 곤충과 파충류를 직접 보고 체험할 수 있는 박물관이다. 친절한 해설과 다양한 체험으로 교육과 놀이를 함께 하는 어린이들의 행복한 놀이터다. 박물관에는 700여 점이 넘는 세계 각국의 곤충들의 다양한 표본들이 전시되어 있다. 해설가 선생님의 설명을 곁들여 우리가 몰랐던 곤충들의 이야기를 재밌게 접할 수 있다. 1층 표본전시관에서는 자세히 보기 힘들었던 곤충들의 다양한 표본을 전시해 놓은 곳인데 200여 종이 넘는 세계 각지의 곤충표본을 확인해 볼 수 있다. 표본전시관 이외에도 어두운 숲속에서 진행되는 숲속 곤충관도 있다. 2층에 자리 잡고 있는 곤충체험관은 25종이 넘는 살아있는 곤충을 아이들이 직접 만져볼 수 있는데 사슴벌레, 장수풍뎅이, 장수풍뎅이 애벌레도 관찰할 수 있다.",
+      "metadata": {
+        "youth_fee": 7000.0,
+        "ownership_type": "사립",
+        "source_types": "TOUR_API",
+        "latitude": 34.79032075,
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/53/3553853_image2_1.jpg",
+        "name": "영암곤충박물관",
+        "sido": "전남광주특별자치도",
+        "holiday_open": "10:00",
+        "closure_rule_raw": "월 / 매주",
+        "address": "전라남도 영암군 영암읍 기찬랜드로 41",
+        "image_copyright": "Type1",
+        "adult_fee_status": "BASE_FEE_PAID",
+        "requires_manual_review": true,
+        "homepage_url": "https://www.facebook.com/102858404847093",
+        "fee_notes": "5000원(영암군민+65세이상)+무료(27개월이하)",
+        "child_fee": 7000.0,
+        "longitude": 126.6851242,
+        "holiday_close": "18:00",
+        "adult_fee": 7000.0,
+        "sigungu": "영암군",
+        "weekday_close": "18:00",
+        "weekday_open": "10:00"
+      },
+      "vector_rank": 11,
+      "bm25_rank": 11,
+      "vector_distance": 0.6367909908294678,
+      "vector_score": null,
+      "bm25_score": 13.929837753433358,
+      "vector_document": "영암곤충박물관은 전남광주통합특별시 영암군 영암읍 회문리에 있는 영암 기찬랜드 안에 자리하고 있다. 어린이들이 곤충과 파충류를 직접 보고 체험할 수 있는 박물관이다. 친절한 해설과 다양한 체험으로 교육과 놀이를 함께 하는 어린이들의 행복한 놀이터다. 박물관에는 700여 점이 넘는 세계 각국의 곤충들의 다양한 표본들이 전시되어 있다. 해설가 선생님의 설명을 곁들여 우리가 몰랐던 곤충들의 이야기를 재밌게 접할 수 있다. 1층 표본전시관에서는 자세히 보기 힘들었던 곤충들의 다양한 표본을 전시해 놓은 곳인데 200여 종이 넘는 세계 각지의 곤충표본을 확인해 볼 수 있다. 표본전시관 이외에도 어두운 숲속에서 진행되는 숲속 곤충관도 있다. 2층에 자리 잡고 있는 곤충체험관은 25종이 넘는 살아있는 곤충을 아이들이 직접 만져볼 수 있는데 사슴벌레, 장수풍뎅이, 장수풍뎅이 애벌레도 관찰할 수 있다.",
+      "bm25_document": "영암곤충박물관은 전남광주통합특별시 영암군 영암읍 회문리에 있는 영암 기찬랜드 안에 자리하고 있다. 어린이들이 곤충과 파충류를 직접 보고 체험할 수 있는 박물관이다. 친절한 해설과 다양한 체험으로 교육과 놀이를 함께 하는 어린이들의 행복한 놀이터다. 박물관에는 700여 점이 넘는 세계 각국의 곤충들의 다양한 표본들이 전시되어 있다. 해설가 선생님의 설명을 곁들여 우리가 몰랐던 곤충들의 이야기를 재밌게 접할 수 있다. 1층 표본전시관에서는 자세히 보기 힘들었던 곤충들의 다양한 표본을 전시해 놓은 곳인데 200여 종이 넘는 세계 각지의 곤충표본을 확인해 볼 수 있다. 표본전시관 이외에도 어두운 숲속에서 진행되는 숲속 곤충관도 있다. 2층에 자리 잡고 있는 곤충체험관은 25종이 넘는 살아있는 곤충을 아이들이 직접 만져볼 수 있는데 사슴벌레, 장수풍뎅이, 장수풍뎅이 애벌레도 관찰할 수 있다.",
+      "best_span_id": "chroma:M0917",
+      "best_span_text": "영암곤충박물관은 전남광주통합특별시 영암군 영암읍 회문리에 있는 영암 기찬랜드 안에 자리하고 있다. 어린이들이 곤충과 파충류를 직접 보고 체험할 수 있는 박물관이다. 친절한 해설과 다양한 체험으로 교육과 놀이를 함께 하는 어린이들의 행복한 놀이터다. 박물관에는 700여 점이 넘는 세계 각국의 곤충들의 다양한 표본들이 전시되어 있다. 해설가 선생님의 설명을 곁들여 우리가 몰랐던 곤충들의 이야기를 재밌게 접할 수 있다. 1층 표본전시관에서는 자세히 보기 힘들었던 곤충들의 다양한 표본을 전시해 놓은 곳인데 200여 종이 넘는 세계 각지의 곤충표본을 확인해 볼 수 있다. 표본전시관 이외에도 어두운 숲속에서 진행되는 숲속 곤충관도 있다. 2층에 자리 잡고 있는 곤충체험관은 25종이 넘는 살아있는 곤충을 아이들이 직접 만져볼 수 있는데 사슴벌레, 장수풍뎅이, 장수풍뎅이 애벌레도 관찰할 수 있다.",
+      "fusion_score": 0.028169014084507043,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 3,
+      "rerank_score": null,
+      "rank": 3,
+      "score": 0.028169014084507043,
+      "score_type": "rrf",
+      "distance": 0.6367909908294678,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0917",
+      "source_doc_ids": [
+        "DOC-B0917-TOUR_API-2779301"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0917-TOUR_API-2779301",
+          "source_type": "TOUR_API",
+          "source_record_id": "2779301",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=431",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 54,
+          "doc_ids": [
+            "DOC-B0917-TOUR_API-2779301"
+          ]
+        },
+        {
+          "start": 55,
+          "end": 91,
+          "doc_ids": [
+            "DOC-B0917-TOUR_API-2779301"
+          ]
+        },
+        {
+          "start": 92,
+          "end": 138,
+          "doc_ids": [
+            "DOC-B0917-TOUR_API-2779301"
+          ]
+        },
+        {
+          "start": 139,
+          "end": 185,
+          "doc_ids": [
+            "DOC-B0917-TOUR_API-2779301"
+          ]
+        },
+        {
+          "start": 186,
+          "end": 233,
+          "doc_ids": [
+            "DOC-B0917-TOUR_API-2779301"
+          ]
+        },
+        {
+          "start": 234,
+          "end": 317,
+          "doc_ids": [
+            "DOC-B0917-TOUR_API-2779301"
+          ]
+        },
+        {
+          "start": 318,
+          "end": 354,
+          "doc_ids": [
+            "DOC-B0917-TOUR_API-2779301"
+          ]
+        },
+        {
+          "start": 355,
+          "end": 443,
+          "doc_ids": [
+            "DOC-B0917-TOUR_API-2779301"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=431",
+      "text": "영암곤충박물관은 전남광주통합특별시 영암군 영암읍 회문리에 있는 영암 기찬랜드 안에 자리하고 있다. 어린이들이 곤충과 파충류를 직접 보고 체험할 수 있는 박물관이다. 친절한 해설과 다양한 체험으로 교육과 놀이를 함께 하는 어린이들의 행복한 놀이터다. 박물관에는 700여 점이 넘는 세계 각국의 곤충들의 다양한 표본들이 전시되어 있다. 해설가 선생님의 설명을 곁들여 우리가 몰랐던 곤충들의 이야기를 재밌게 접할 수 있다. 1층 표본전시관에서는 자세히 보기 힘들었던 곤충들의 다양한 표본을 전시해 놓은 곳인데 200여 종이 넘는 세계 각지의 곤충표본을 확인해 볼 수 있다. 표본전시관 이외에도 어두운 숲속에서 진행되는 숲속 곤충관도 있다. 2층에 자리 잡고 있는 곤충체험관은 25종이 넘는 살아있는 곤충을 아이들이 직접 만져볼 수 있는데 사슴벌레, 장수풍뎅이, 장수풍뎅이 애벌레도 관찰할 수 있다.",
+      "sido": "전남광주특별자치도",
+      "sigungu": "영암군",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=431"
+      ],
+      "evidence_id": "E3",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=633",
+        "fields": {
+          "name": "영암곤충박물관",
+          "sido": "전라남도",
+          "sigungu": "영암군",
+          "address": "전라남도 영암군 영암읍 기찬랜드로 41",
+          "ownership_type": "사립",
+          "adult_fee": "7000",
+          "youth_fee": "7000",
+          "child_fee": "7000",
+          "adult_fee_status": "BASE_FEE_PAID",
+          "weekday_open": "10:00",
+          "weekday_close": "18:00",
+          "holiday_open": "10:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "월 / 매주"
+        },
+        "base_data_date": "2024-10-24",
+        "trust": "derived_dataset_not_human_verified",
+        "normalizations": {
+          "sido": {
+            "source_value": "전라남도",
+            "matched_value": "전남광주특별자치도",
+            "rule": "configured_sido_alias"
+          }
+        }
+      }
+    },
+    {
+      "museum_id": "M0543",
+      "name": "겸재정선미술관",
+      "document": "겸재정선미술관은 강서구 습지생태공원 맞은편에 있는 구립미술관이다. 겸재 정선(1676~1759)은 진경산수 화풍을 창안하여 한국 미술의 정체성을 이끌어낸 화성이다. 겸재정선미술관은 지하 1층, 지상 3층 건물로, 미술관 1층에는 양천현아실, 기획전시실이 마련되어 있어 양천과 정선의 인연에 대해 소개하였고 기획전시실에서는 다른 작가의 전시가 가능하다. 2층에는 정선의 생애 및 작품을 살펴볼 수 있는 겸재기념관실과 정선이 여행한 전국과 그의 작품 속 장소의 현재와 과거의 변화된 모습을 비교해 볼 수 있다. 겸재기념실 외에도 체험실, 영상실이 마련되어 있어 직접 정선작품을 학습하고 체험할 수 있다. 3층에는 카페테리아, 뮤지움 숍, 다목적실, 수유실이 있어서 관람객에게 편의를 제공하고 있다. 다목적실은 영상 시청, 강의 및 세미나, 전시가 모두 가능하며 대관 장소로 활용하고 있다. 겸재정선미술관은 진경산수화풍을 완성한 겸재 정선(1676~1759)의 위대한 예술적 업적을 기리고 진경문화를 계승·발전시키고자 2009.4.23. 건립되었음",
+      "metadata": {
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/99/4078199_image2_1.jpg",
+        "amenities_raw": "주차장(26대)+카페테리아+뮤지엄샵+수유실+자전거보관대",
+        "adult_fee_status": "BASE_FEE_PAID",
+        "longitude": 126.8387234,
+        "fee_notes": "1. 무료: 만6세이하+만65세이상+국가·독립유공자 등+장애인+다둥이행복카드소지자 2. 통합관람(겸재정선미술관+허준박물관): 어른(개인 1300원+단체 1000원) / 청소년(개인 700원+단체 500원)",
+        "sigungu": "강서구",
+        "youth_fee": 500.0,
+        "latitude": 37.57222423,
+        "adult_fee": 1000.0,
+        "homepage_url": "https://culture.gangseo.seoul.kr/",
+        "closure_rule_raw": "월+1월1일+설 당일+추석 당일",
+        "ownership_type": "공립",
+        "weekday_close": "18:00",
+        "address": "서울특별시 강서구 양천로47길 36",
+        "transport_notes": "지하철9호선 양천향교역 1번출구→마을버스 강서06 탑승하여겸재정선미술관 앞 하차",
+        "name": "겸재정선미술관",
+        "child_fee": 500.0,
+        "weekday_open": "10:00",
+        "holiday_open": "10:00",
+        "image_copyright": "Type1",
+        "sido": "서울특별시",
+        "source_types": "BASE|TOUR_API",
+        "requires_manual_review": true,
+        "holiday_close": "18:00"
+      },
+      "vector_rank": 14,
+      "bm25_rank": 14,
+      "vector_distance": 0.6421670913696289,
+      "vector_score": null,
+      "bm25_score": 13.264352386791233,
+      "vector_document": "겸재정선미술관은 강서구 습지생태공원 맞은편에 있는 구립미술관이다. 겸재 정선(1676~1759)은 진경산수 화풍을 창안하여 한국 미술의 정체성을 이끌어낸 화성이다. 겸재정선미술관은 지하 1층, 지상 3층 건물로, 미술관 1층에는 양천현아실, 기획전시실이 마련되어 있어 양천과 정선의 인연에 대해 소개하였고 기획전시실에서는 다른 작가의 전시가 가능하다. 2층에는 정선의 생애 및 작품을 살펴볼 수 있는 겸재기념관실과 정선이 여행한 전국과 그의 작품 속 장소의 현재와 과거의 변화된 모습을 비교해 볼 수 있다. 겸재기념실 외에도 체험실, 영상실이 마련되어 있어 직접 정선작품을 학습하고 체험할 수 있다. 3층에는 카페테리아, 뮤지움 숍, 다목적실, 수유실이 있어서 관람객에게 편의를 제공하고 있다. 다목적실은 영상 시청, 강의 및 세미나, 전시가 모두 가능하며 대관 장소로 활용하고 있다. 겸재정선미술관은 진경산수화풍을 완성한 겸재 정선(1676~1759)의 위대한 예술적 업적을 기리고 진경문화를 계승·발전시키고자 2009.4.23. 건립되었음",
+      "bm25_document": "겸재정선미술관은 강서구 습지생태공원 맞은편에 있는 구립미술관이다. 겸재 정선(1676~1759)은 진경산수 화풍을 창안하여 한국 미술의 정체성을 이끌어낸 화성이다. 겸재정선미술관은 지하 1층, 지상 3층 건물로, 미술관 1층에는 양천현아실, 기획전시실이 마련되어 있어 양천과 정선의 인연에 대해 소개하였고 기획전시실에서는 다른 작가의 전시가 가능하다. 2층에는 정선의 생애 및 작품을 살펴볼 수 있는 겸재기념관실과 정선이 여행한 전국과 그의 작품 속 장소의 현재와 과거의 변화된 모습을 비교해 볼 수 있다. 겸재기념실 외에도 체험실, 영상실이 마련되어 있어 직접 정선작품을 학습하고 체험할 수 있다. 3층에는 카페테리아, 뮤지움 숍, 다목적실, 수유실이 있어서 관람객에게 편의를 제공하고 있다. 다목적실은 영상 시청, 강의 및 세미나, 전시가 모두 가능하며 대관 장소로 활용하고 있다. 겸재정선미술관은 진경산수화풍을 완성한 겸재 정선(1676~1759)의 위대한 예술적 업적을 기리고 진경문화를 계승·발전시키고자 2009.4.23. 건립되었음",
+      "best_span_id": "chroma:M0543",
+      "best_span_text": "겸재정선미술관은 강서구 습지생태공원 맞은편에 있는 구립미술관이다. 겸재 정선(1676~1759)은 진경산수 화풍을 창안하여 한국 미술의 정체성을 이끌어낸 화성이다. 겸재정선미술관은 지하 1층, 지상 3층 건물로, 미술관 1층에는 양천현아실, 기획전시실이 마련되어 있어 양천과 정선의 인연에 대해 소개하였고 기획전시실에서는 다른 작가의 전시가 가능하다. 2층에는 정선의 생애 및 작품을 살펴볼 수 있는 겸재기념관실과 정선이 여행한 전국과 그의 작품 속 장소의 현재와 과거의 변화된 모습을 비교해 볼 수 있다. 겸재기념실 외에도 체험실, 영상실이 마련되어 있어 직접 정선작품을 학습하고 체험할 수 있다. 3층에는 카페테리아, 뮤지움 숍, 다목적실, 수유실이 있어서 관람객에게 편의를 제공하고 있다. 다목적실은 영상 시청, 강의 및 세미나, 전시가 모두 가능하며 대관 장소로 활용하고 있다. 겸재정선미술관은 진경산수화풍을 완성한 겸재 정선(1676~1759)의 위대한 예술적 업적을 기리고 진경문화를 계승·발전시키고자 2009.4.23. 건립되었음",
+      "fusion_score": 0.02702702702702703,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 4,
+      "rerank_score": null,
+      "rank": 4,
+      "score": 0.02702702702702703,
+      "score_type": "rrf",
+      "distance": 0.6421670913696289,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0543",
+      "source_doc_ids": [
+        "DOC-B0543-TOUR_API-774675",
+        "DOC-B0543-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0543-TOUR_API-774675",
+          "source_type": "TOUR_API",
+          "source_record_id": "774675",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=267",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        },
+        {
+          "doc_id": "DOC-B0543-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0543",
+          "source_locator": "data/raw/museum_base_1070.csv#row=544",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 36,
+          "doc_ids": [
+            "DOC-B0543-TOUR_API-774675"
+          ]
+        },
+        {
+          "start": 37,
+          "end": 91,
+          "doc_ids": [
+            "DOC-B0543-TOUR_API-774675"
+          ]
+        },
+        {
+          "start": 92,
+          "end": 196,
+          "doc_ids": [
+            "DOC-B0543-TOUR_API-774675"
+          ]
+        },
+        {
+          "start": 197,
+          "end": 283,
+          "doc_ids": [
+            "DOC-B0543-TOUR_API-774675"
+          ]
+        },
+        {
+          "start": 284,
+          "end": 335,
+          "doc_ids": [
+            "DOC-B0543-TOUR_API-774675"
+          ]
+        },
+        {
+          "start": 336,
+          "end": 388,
+          "doc_ids": [
+            "DOC-B0543-TOUR_API-774675"
+          ]
+        },
+        {
+          "start": 389,
+          "end": 439,
+          "doc_ids": [
+            "DOC-B0543-TOUR_API-774675"
+          ]
+        },
+        {
+          "start": 440,
+          "end": 521,
+          "doc_ids": [
+            "DOC-B0543-BASE"
+          ]
+        },
+        {
+          "start": 522,
+          "end": 527,
+          "doc_ids": [
+            "DOC-B0543-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=267",
+      "text": "겸재정선미술관은 강서구 습지생태공원 맞은편에 있는 구립미술관이다. 겸재 정선(1676~1759)은 진경산수 화풍을 창안하여 한국 미술의 정체성을 이끌어낸 화성이다. 겸재정선미술관은 지하 1층, 지상 3층 건물로, 미술관 1층에는 양천현아실, 기획전시실이 마련되어 있어 양천과 정선의 인연에 대해 소개하였고 기획전시실에서는 다른 작가의 전시가 가능하다. 2층에는 정선의 생애 및 작품을 살펴볼 수 있는 겸재기념관실과 정선이 여행한 전국과 그의 작품 속 장소의 현재와 과거의 변화된 모습을 비교해 볼 수 있다. 겸재기념실 외에도 체험실, 영상실이 마련되어 있어 직접 정선작품을 학습하고 체험할 수 있다. 3층에는 카페테리아, 뮤지움 숍, 다목적실, 수유실이 있어서 관람객에게 편의를 제공하고 있다. 다목적실은 영상 시청, 강의 및 세미나, 전시가 모두 가능하며 대관 장소로 활용하고 있다. 겸재정선미술관은 진경산수화풍을 완성한 겸재 정선(1676~1759)의 위대한 예술적 업적을 기리고 진경문화를 계승·발전시키고자 2009.4.23. 건립되었음",
+      "sido": "서울특별시",
+      "sigungu": "강서구",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=267"
+      ],
+      "evidence_id": "E4",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=380",
+        "fields": {
+          "name": "겸재정선미술관",
+          "sido": "서울특별시",
+          "sigungu": "강서구",
+          "address": "서울특별시 강서구 양천로47길 36",
+          "ownership_type": "공립",
+          "adult_fee": "1000",
+          "youth_fee": "500",
+          "child_fee": "500",
+          "adult_fee_status": "BASE_FEE_PAID",
+          "weekday_open": "10:00",
+          "weekday_close": "18:00",
+          "holiday_open": "10:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "월+1월1일+설 당일+추석 당일",
+          "amenities_raw": "주차장(26대)+카페테리아+뮤지엄샵+수유실+자전거보관대"
+        },
+        "base_data_date": "2026-03-05",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0741",
+      "name": "옛길박물관",
+      "document": "문경은 우리나라 문화지리의 보고(寶庫)이자 길 박물관이다. 조선시대 역사와 문화의 소통로(疏通路)로서 조선팔도 고갯길의 대명사로 불리던 ‘문경새재’(명승 제32호)가 있고, 우리나라 최고(最古, 서기 156년 개척)의 고갯길인 ‘하늘재’, 옛길의 백미(白眉)이자 한국의 차마고도로 일컬을 수 있는 ‘토끼비리’(명승 제31호) 또 영남 대로 상의 허브 역할 담당했던 유곡역이 있다. 이러한 옛길 관련 문화유적은 이름만 남아 있는 것이 아니라 오늘날에도 살아있는 ‘길’로서 많은 사람들이 즐겨 찾고 있다. 옛길 박물관은 이러한 문경의 역사 문화적 정체성을 잘 나타내기 위하여 건립된 박물관으로 당초 향토사 중심의 문경새재 박물관을 리모델링하여 2009년 재개관하였다. 옛길 위에서 펼쳐졌던 각종 문화상을 옛길 박물관에 담아내고 있다. 박물관은 지하 1층 지상 2층 규모로, 3개 전시실과 1, 2층 중앙홀, 수장고, 영상실 등을 갖추고 있고, 야외전시장도 조성되어 있다. 제1전시실(주흘실)에는 문경관문, 영남 대로, 문경의 전투, 경상감사 도임 행차(慶尙監司到任行次), 제2전시실(조곡실)에는 문경의 문화와 의·식·주 생활, 집과 모둠살이, 신앙과 의례, 생업 기술 등에 관한 소장품 및 자료를 전시하고 있다. 제3전시실(조령실)에서는 굽다리접시·토기 항아리 등 신라시대 토기가 주를 이루는 매장유산, 1724년(경종 4) 도화서 화원 이치가 그린 옥소 권섭 영정, 선조가 홍인걸에게 하사하였다고 전해지는 어필 및 홍인걸의 유품인 투구, 김승주 삼공신 회맹록 판본, 주두업 지석 등에 관한 전시가 이루어지며, 야외에는 금학 사지 삼층석탑, 서낭당, 연자방아, 옹기와 장독대 등이 있다.",
+      "metadata": {
+        "child_fee": 0.0,
+        "homepage_url": "https://www.gbmg.go.kr/tour/contents.do?mId=0102010100",
+        "holiday_open": "09:00",
+        "fee_notes": "무료",
+        "longitude": 128.076414,
+        "sigungu": "문경시",
+        "weekday_close": "18:00",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/09/4103109_image2_1.jpg",
+        "amenities_raw": "모바일서비스",
+        "ownership_type": "공립",
+        "youth_fee": 0.0,
+        "name": "옛길박물관",
+        "adult_fee": 0.0,
+        "image_copyright": "Type1",
+        "sido": "경상북도",
+        "holiday_close": "18:00",
+        "closure_rule_raw": "1월1일, 설날, 추석, 박물관훈증소독 기간",
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "address": "경상북도 문경시 문경읍 새재로 944",
+        "source_types": "TOUR_API",
+        "requires_manual_review": true,
+        "weekday_open": "09:00",
+        "latitude": 36.763134
+      },
+      "vector_rank": 2,
+      "bm25_rank": null,
+      "vector_distance": 0.5773060321807861,
+      "vector_score": null,
+      "bm25_score": null,
+      "vector_document": "문경은 우리나라 문화지리의 보고(寶庫)이자 길 박물관이다. 조선시대 역사와 문화의 소통로(疏通路)로서 조선팔도 고갯길의 대명사로 불리던 ‘문경새재’(명승 제32호)가 있고, 우리나라 최고(最古, 서기 156년 개척)의 고갯길인 ‘하늘재’, 옛길의 백미(白眉)이자 한국의 차마고도로 일컬을 수 있는 ‘토끼비리’(명승 제31호) 또 영남 대로 상의 허브 역할 담당했던 유곡역이 있다. 이러한 옛길 관련 문화유적은 이름만 남아 있는 것이 아니라 오늘날에도 살아있는 ‘길’로서 많은 사람들이 즐겨 찾고 있다. 옛길 박물관은 이러한 문경의 역사 문화적 정체성을 잘 나타내기 위하여 건립된 박물관으로 당초 향토사 중심의 문경새재 박물관을 리모델링하여 2009년 재개관하였다. 옛길 위에서 펼쳐졌던 각종 문화상을 옛길 박물관에 담아내고 있다. 박물관은 지하 1층 지상 2층 규모로, 3개 전시실과 1, 2층 중앙홀, 수장고, 영상실 등을 갖추고 있고, 야외전시장도 조성되어 있다. 제1전시실(주흘실)에는 문경관문, 영남 대로, 문경의 전투, 경상감사 도임 행차(慶尙監司到任行次), 제2전시실(조곡실)에는 문경의 문화와 의·식·주 생활, 집과 모둠살이, 신앙과 의례, 생업 기술 등에 관한 소장품 및 자료를 전시하고 있다. 제3전시실(조령실)에서는 굽다리접시·토기 항아리 등 신라시대 토기가 주를 이루는 매장유산, 1724년(경종 4) 도화서 화원 이치가 그린 옥소 권섭 영정, 선조가 홍인걸에게 하사하였다고 전해지는 어필 및 홍인걸의 유품인 투구, 김승주 삼공신 회맹록 판본, 주두업 지석 등에 관한 전시가 이루어지며, 야외에는 금학 사지 삼층석탑, 서낭당, 연자방아, 옹기와 장독대 등이 있다.",
+      "bm25_document": "",
+      "best_span_id": null,
+      "best_span_text": null,
+      "fusion_score": 0.016129032258064516,
+      "retrieved_by": [
+        "vector"
+      ],
+      "fusion_rank": 5,
+      "rerank_score": null,
+      "rank": 5,
+      "score": 0.016129032258064516,
+      "score_type": "rrf",
+      "distance": 0.5773060321807861,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector"
+      ],
+      "retriever": "vector",
+      "source_doc_ids": [
+        "DOC-B0741-TOUR_API-130314"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0741-TOUR_API-130314",
+          "source_type": "TOUR_API",
+          "source_record_id": "130314",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=358",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 32,
+          "doc_ids": [
+            "DOC-B0741-TOUR_API-130314"
+          ]
+        },
+        {
+          "start": 33,
+          "end": 212,
+          "doc_ids": [
+            "DOC-B0741-TOUR_API-130314"
+          ]
+        },
+        {
+          "start": 213,
+          "end": 280,
+          "doc_ids": [
+            "DOC-B0741-TOUR_API-130314"
+          ]
+        },
+        {
+          "start": 281,
+          "end": 371,
+          "doc_ids": [
+            "DOC-B0741-TOUR_API-130314"
+          ]
+        },
+        {
+          "start": 372,
+          "end": 408,
+          "doc_ids": [
+            "DOC-B0741-TOUR_API-130314"
+          ]
+        },
+        {
+          "start": 409,
+          "end": 485,
+          "doc_ids": [
+            "DOC-B0741-TOUR_API-130314"
+          ]
+        },
+        {
+          "start": 486,
+          "end": 620,
+          "doc_ids": [
+            "DOC-B0741-TOUR_API-130314"
+          ]
+        },
+        {
+          "start": 621,
+          "end": 830,
+          "doc_ids": [
+            "DOC-B0741-TOUR_API-130314"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=358",
+      "text": "문경은 우리나라 문화지리의 보고(寶庫)이자 길 박물관이다. 조선시대 역사와 문화의 소통로(疏通路)로서 조선팔도 고갯길의 대명사로 불리던 ‘문경새재’(명승 제32호)가 있고, 우리나라 최고(最古, 서기 156년 개척)의 고갯길인 ‘하늘재’, 옛길의 백미(白眉)이자 한국의 차마고도로 일컬을 수 있는 ‘토끼비리’(명승 제31호) 또 영남 대로 상의 허브 역할 담당했던 유곡역이 있다. 이러한 옛길 관련 문화유적은 이름만 남아 있는 것이 아니라 오늘날에도 살아있는 ‘길’로서 많은 사람들이 즐겨 찾고 있다. 옛길 박물관은 이러한 문경의 역사 문화적 정체성을 잘 나타내기 위하여 건립된 박물관으로 당초 향토사 중심의 문경새재 박물관을 리모델링하여 2009년 재개관하였다. 옛길 위에서 펼쳐졌던 각종 문화상을 옛길 박물관에 담아내고 있다. 박물관은 지하 1층 지상 2층 규모로, 3개 전시실과 1, 2층 중앙홀, 수장고, 영상실 등을 갖추고 있고, 야외전시장도 조성되어 있다. 제1전시실(주흘실)에는 문경관문, 영남 대로, 문경의 전투, 경상감사 도임 행차(慶尙監司到任行次), 제2전시실(조곡실)에는 문경의 문화와 의·식·주 생활, 집과 모둠살이, 신앙과 의례, 생업 기술 등에 관한 소장품 및 자료를 전시하고 있다. 제3전시실(조령실)에서는 굽다리접시·토기 항아리 등 신라시대 토기가 주를 이루는 매장유산, 1724년(경종 4) 도화서 화원 이치가 그린 옥소 권섭 영정, 선조가 홍인걸에게 하사하였다고 전해지는 어필 및 홍인걸의 유품인 투구, 김승주 삼공신 회맹록 판본, 주두업 지석 등에 관한 전시가 이루어지며, 야외에는 금학 사지 삼층석탑, 서낭당, 연자방아, 옹기와 장독대 등이 있다.",
+      "sido": "경상북도",
+      "sigungu": "문경시",
+      "span_id": "",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=358"
+      ],
+      "evidence_id": "E5",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=515",
+        "fields": {
+          "name": "옛길박물관",
+          "sido": "경상북도",
+          "sigungu": "문경시",
+          "address": "경상북도 문경시 문경읍 새재로 944",
+          "ownership_type": "공립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "09:00",
+          "weekday_close": "18:00",
+          "holiday_open": "09:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "1월1일, 설날, 추석, 박물관훈증소독 기간",
+          "amenities_raw": "모바일서비스"
+        },
+        "base_data_date": "2025-12-18",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    }
+  ],
+  "answer": "2층 주 관측실은 돔형 천장 구조이며, 천장이 좌우로 열리면 그 틈으로 망원경을 통해 관찰합니다. 낮에는 태양의 홍염을, 밤에는 별·행성·달·성운·성단 등을 볼 수 있습니다. [E1]",
+  "retrieval_status": "ok",
+  "answer_status": "answered",
+  "route": "hybrid",
+  "retry_count": 0,
+  "supervisor_verified": true,
+  "rerank_applied": false,
+  "retriever_errors": [],
+  "warnings": [
+    "Cross-Encoder reranking failed (FileNotFoundError); RRF order retained"
+  ],
+  "duration_ms": 11381.12,
+  "error_type": "",
+  "hit_at_1": 1,
+  "hit_at_3": 1,
+  "hit_at_5": 1,
+  "recall_at_5": 1.0,
+  "mrr_at_10": 1.0
+}

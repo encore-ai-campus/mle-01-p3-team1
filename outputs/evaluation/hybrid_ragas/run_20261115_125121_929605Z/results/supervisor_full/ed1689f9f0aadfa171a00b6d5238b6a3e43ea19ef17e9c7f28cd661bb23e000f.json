@@ -1,0 +1,680 @@
+{
+  "mode": "supervisor_full",
+  "question_id": "Q217",
+  "evidence": [
+    {
+      "museum_id": "M0363",
+      "name": "한림대학교박물관",
+      "document": "한림대학교 박물관은 선사와 역사시대의 유물과 민속품 등을 수집 정리하고, 보전과 전시를 통해 학내 구성원뿐 아니라 지역주민에게 역사 문화를 이해할 수 있는 장을 마련하고, 국가유산에 대한 조사와 연구를 통해 우리 역사연구에 기여하고자 1988년 한림대학교 부속기관으로 개관하였다. 제1전시실은 고고역사실, 제2전시실은 민속·공예실, 그리고 야외전시장 등을 갖추고 있다. 소장 유물로는 도기류, 토기류, 고서화 등 1,700여 점을 비롯하여, 강원도 및 주변 지역에 대한 발굴조사에서 출토된 3,000여 점의 국가귀속유물을 보관 관리하고 있다. 대표적인 전시유물로는 춘천 신매리와 천전리 유적, 양주 대모산성과 강화 외규장각지 유적 등지에서 출토된 선사시대부터 역사시대에 이르는 유물과 백제·신라·가야의 고대 토기류, 고려 시대 자기류, 조선시대의 명기와 장롱 등 민속품이 있다. 상설전시로는 구석기부터 조선시대에 이르는 유물들이 있으며 매년 1~2회의 기획 전시를 봄과 가을에 개최하고 있다. 기획 전시기간에는 ‘큐레이터와의 대화’라는 전시유물 설명회를 주 1회 개최하고 있다. 이 외에도 지역 청소년을 대상으로 하는 ‘상상을 담는 박물관’ 등의 교육 프로그램과 가족 대상 프로그램, 진로교육 프로그램을 운영 중이며 지역민을 대상으로 시민 박물관 대학 강좌와 문화콘텐츠 메이커스의 문화 행사도 운영하고 있다. 도토기류ㆍ고서화 등 1700여 점을 비롯하여 3000여 점의 국가귀속 유물을 보관 관리하고 있음",
+      "metadata": {
+        "source_types": "BASE|TOUR_API",
+        "holiday_close": "00:00",
+        "weekday_open": "10:00",
+        "longitude": 127.734959,
+        "transport_notes": "1)대중교통 : 춘천역 - 시내간선 300번, 지선 12, 12-S - 한림대학교 정류장 하차+2)승용차  : 서울양양고속도로(남춘천IC), 일반도로(46번경춘국도-403번도로)",
+        "holiday_open": "00:00",
+        "homepage_url": "http://museum.hallym.ac.kr",
+        "child_fee": 0.0,
+        "latitude": 37.885427,
+        "youth_fee": 0.0,
+        "weekday_close": "16:00",
+        "requires_manual_review": true,
+        "adult_fee": 0.0,
+        "address": "강원특별자치도 춘천시 한림대학길 1",
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "image_copyright": "Type3",
+        "ownership_type": "대학",
+        "sigungu": "춘천시",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/49/3381649_image2_1.JPG",
+        "fee_notes": "전부 무료",
+        "sido": "강원특별자치도",
+        "name": "한림대학교박물관",
+        "closure_rule_raw": "금+토+일+공휴일+추석연휴+설연휴+시험 및 방학기간+휴관 시에도 단체예약 시 관람 가능"
+      },
+      "vector_rank": 1,
+      "bm25_rank": 1,
+      "vector_distance": 0.3782551884651184,
+      "vector_score": null,
+      "bm25_score": 12.770077928365723,
+      "vector_document": "한림대학교 박물관은 선사와 역사시대의 유물과 민속품 등을 수집 정리하고, 보전과 전시를 통해 학내 구성원뿐 아니라 지역주민에게 역사 문화를 이해할 수 있는 장을 마련하고, 국가유산에 대한 조사와 연구를 통해 우리 역사연구에 기여하고자 1988년 한림대학교 부속기관으로 개관하였다. 제1전시실은 고고역사실, 제2전시실은 민속·공예실, 그리고 야외전시장 등을 갖추고 있다. 소장 유물로는 도기류, 토기류, 고서화 등 1,700여 점을 비롯하여, 강원도 및 주변 지역에 대한 발굴조사에서 출토된 3,000여 점의 국가귀속유물을 보관 관리하고 있다. 대표적인 전시유물로는 춘천 신매리와 천전리 유적, 양주 대모산성과 강화 외규장각지 유적 등지에서 출토된 선사시대부터 역사시대에 이르는 유물과 백제·신라·가야의 고대 토기류, 고려 시대 자기류, 조선시대의 명기와 장롱 등 민속품이 있다. 상설전시로는 구석기부터 조선시대에 이르는 유물들이 있으며 매년 1~2회의 기획 전시를 봄과 가을에 개최하고 있다. 기획 전시기간에는 ‘큐레이터와의 대화’라는 전시유물 설명회를 주 1회 개최하고 있다. 이 외에도 지역 청소년을 대상으로 하는 ‘상상을 담는 박물관’ 등의 교육 프로그램과 가족 대상 프로그램, 진로교육 프로그램을 운영 중이며 지역민을 대상으로 시민 박물관 대학 강좌와 문화콘텐츠 메이커스의 문화 행사도 운영하고 있다. 도토기류ㆍ고서화 등 1700여 점을 비롯하여 3000여 점의 국가귀속 유물을 보관 관리하고 있음",
+      "bm25_document": "한림대학교 박물관은 선사와 역사시대의 유물과 민속품 등을 수집 정리하고, 보전과 전시를 통해 학내 구성원뿐 아니라 지역주민에게 역사 문화를 이해할 수 있는 장을 마련하고, 국가유산에 대한 조사와 연구를 통해 우리 역사연구에 기여하고자 1988년 한림대학교 부속기관으로 개관하였다. 제1전시실은 고고역사실, 제2전시실은 민속·공예실, 그리고 야외전시장 등을 갖추고 있다. 소장 유물로는 도기류, 토기류, 고서화 등 1,700여 점을 비롯하여, 강원도 및 주변 지역에 대한 발굴조사에서 출토된 3,000여 점의 국가귀속유물을 보관 관리하고 있다. 대표적인 전시유물로는 춘천 신매리와 천전리 유적, 양주 대모산성과 강화 외규장각지 유적 등지에서 출토된 선사시대부터 역사시대에 이르는 유물과 백제·신라·가야의 고대 토기류, 고려 시대 자기류, 조선시대의 명기와 장롱 등 민속품이 있다. 상설전시로는 구석기부터 조선시대에 이르는 유물들이 있으며 매년 1~2회의 기획 전시를 봄과 가을에 개최하고 있다. 기획 전시기간에는 ‘큐레이터와의 대화’라는 전시유물 설명회를 주 1회 개최하고 있다. 이 외에도 지역 청소년을 대상으로 하는 ‘상상을 담는 박물관’ 등의 교육 프로그램과 가족 대상 프로그램, 진로교육 프로그램을 운영 중이며 지역민을 대상으로 시민 박물관 대학 강좌와 문화콘텐츠 메이커스의 문화 행사도 운영하고 있다. 도토기류ㆍ고서화 등 1700여 점을 비롯하여 3000여 점의 국가귀속 유물을 보관 관리하고 있음",
+      "best_span_id": "chroma:M0363",
+      "best_span_text": "한림대학교 박물관은 선사와 역사시대의 유물과 민속품 등을 수집 정리하고, 보전과 전시를 통해 학내 구성원뿐 아니라 지역주민에게 역사 문화를 이해할 수 있는 장을 마련하고, 국가유산에 대한 조사와 연구를 통해 우리 역사연구에 기여하고자 1988년 한림대학교 부속기관으로 개관하였다. 제1전시실은 고고역사실, 제2전시실은 민속·공예실, 그리고 야외전시장 등을 갖추고 있다. 소장 유물로는 도기류, 토기류, 고서화 등 1,700여 점을 비롯하여, 강원도 및 주변 지역에 대한 발굴조사에서 출토된 3,000여 점의 국가귀속유물을 보관 관리하고 있다. 대표적인 전시유물로는 춘천 신매리와 천전리 유적, 양주 대모산성과 강화 외규장각지 유적 등지에서 출토된 선사시대부터 역사시대에 이르는 유물과 백제·신라·가야의 고대 토기류, 고려 시대 자기류, 조선시대의 명기와 장롱 등 민속품이 있다. 상설전시로는 구석기부터 조선시대에 이르는 유물들이 있으며 매년 1~2회의 기획 전시를 봄과 가을에 개최하고 있다. 기획 전시기간에는 ‘큐레이터와의 대화’라는 전시유물 설명회를 주 1회 개최하고 있다. 이 외에도 지역 청소년을 대상으로 하는 ‘상상을 담는 박물관’ 등의 교육 프로그램과 가족 대상 프로그램, 진로교육 프로그램을 운영 중이며 지역민을 대상으로 시민 박물관 대학 강좌와 문화콘텐츠 메이커스의 문화 행사도 운영하고 있다. 도토기류ㆍ고서화 등 1700여 점을 비롯하여 3000여 점의 국가귀속 유물을 보관 관리하고 있음",
+      "fusion_score": 0.03278688524590164,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 1,
+      "name_match": true,
+      "rerank_score": 0.9939367175102234,
+      "rank": 1,
+      "score": 0.9939367175102234,
+      "score_type": "cross_encoder",
+      "distance": 0.3782551884651184,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0363",
+      "source_doc_ids": [
+        "DOC-B0363-TOUR_API-129819",
+        "DOC-B0363-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0363-TOUR_API-129819",
+          "source_type": "TOUR_API",
+          "source_record_id": "129819",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=172",
+          "match_trust": "RECHECKED_BY_RULE_NOT_HUMAN_APPROVED"
+        },
+        {
+          "doc_id": "DOC-B0363-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0363",
+          "source_locator": "data/raw/museum_base_1070.csv#row=364",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 156,
+          "doc_ids": [
+            "DOC-B0363-TOUR_API-129819"
+          ]
+        },
+        {
+          "start": 157,
+          "end": 206,
+          "doc_ids": [
+            "DOC-B0363-TOUR_API-129819"
+          ]
+        },
+        {
+          "start": 207,
+          "end": 303,
+          "doc_ids": [
+            "DOC-B0363-TOUR_API-129819"
+          ]
+        },
+        {
+          "start": 304,
+          "end": 435,
+          "doc_ids": [
+            "DOC-B0363-TOUR_API-129819"
+          ]
+        },
+        {
+          "start": 436,
+          "end": 499,
+          "doc_ids": [
+            "DOC-B0363-TOUR_API-129819"
+          ]
+        },
+        {
+          "start": 500,
+          "end": 547,
+          "doc_ids": [
+            "DOC-B0363-TOUR_API-129819"
+          ]
+        },
+        {
+          "start": 548,
+          "end": 676,
+          "doc_ids": [
+            "DOC-B0363-TOUR_API-129819"
+          ]
+        },
+        {
+          "start": 677,
+          "end": 730,
+          "doc_ids": [
+            "DOC-B0363-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=172",
+      "text": "한림대학교 박물관은 선사와 역사시대의 유물과 민속품 등을 수집 정리하고, 보전과 전시를 통해 학내 구성원뿐 아니라 지역주민에게 역사 문화를 이해할 수 있는 장을 마련하고, 국가유산에 대한 조사와 연구를 통해 우리 역사연구에 기여하고자 1988년 한림대학교 부속기관으로 개관하였다. 제1전시실은 고고역사실, 제2전시실은 민속·공예실, 그리고 야외전시장 등을 갖추고 있다. 소장 유물로는 도기류, 토기류, 고서화 등 1,700여 점을 비롯하여, 강원도 및 주변 지역에 대한 발굴조사에서 출토된 3,000여 점의 국가귀속유물을 보관 관리하고 있다. 대표적인 전시유물로는 춘천 신매리와 천전리 유적, 양주 대모산성과 강화 외규장각지 유적 등지에서 출토된 선사시대부터 역사시대에 이르는 유물과 백제·신라·가야의 고대 토기류, 고려 시대 자기류, 조선시대의 명기와 장롱 등 민속품이 있다. 상설전시로는 구석기부터 조선시대에 이르는 유물들이 있으며 매년 1~2회의 기획 전시를 봄과 가을에 개최하고 있다. 기획 전시기간에는 ‘큐레이터와의 대화’라는 전시유물 설명회를 주 1회 개최하고 있다. 이 외에도 지역 청소년을 대상으로 하는 ‘상상을 담는 박물관’ 등의 교육 프로그램과 가족 대상 프로그램, 진로교육 프로그램을 운영 중이며 지역민을 대상으로 시민 박물관 대학 강좌와 문화콘텐츠 메이커스의 문화 행사도 운영하고 있다. 도토기류ㆍ고서화 등 1700여 점을 비롯하여 3000여 점의 국가귀속 유물을 보관 관리하고 있음",
+      "sido": "강원특별자치도",
+      "sigungu": "춘천시",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=172"
+      ],
+      "evidence_id": "E1",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=265",
+        "fields": {
+          "name": "한림대학교박물관",
+          "sido": "강원특별자치도",
+          "sigungu": "춘천시",
+          "address": "강원특별자치도 춘천시 한림대학길 1",
+          "ownership_type": "대학",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "10:00",
+          "weekday_close": "16:00",
+          "holiday_open": "00:00",
+          "holiday_close": "00:00",
+          "closure_rule_raw": "금+토+일+공휴일+추석연휴+설연휴+시험 및 방학기간+휴관 시에도 단체예약 시 관람 가능"
+        },
+        "base_data_date": "2026-06-10",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0603",
+      "name": "한신대학교박물관",
+      "document": "한신대학교 박물관은 고고·역사·민속 등에 관한 유물을 수집하여 정리, 보존, 전시함으로써 교내의 성원들은 물론 일반 국민들의역사문화인식 함양에 기여하고, 이에 대한 학술적 연구를 통해 우리의 역사문화를 체계적으로 규명하는데 그 목적을 두고 있습니다.",
+      "metadata": {
+        "sido": "경기도",
+        "latitude": 37.19243447,
+        "source_types": "BASE",
+        "holiday_close": "16:00",
+        "ownership_type": "대학",
+        "address": "경기도 오산시 한신대길 137",
+        "sigungu": "오산시",
+        "holiday_open": "10:00",
+        "child_fee": 0.0,
+        "weekday_close": "16:00",
+        "fee_notes": "무료",
+        "weekday_open": "10:00",
+        "requires_manual_review": true,
+        "transport_notes": "1호선 병점(한신대)역 하차, 2번출구 버스정류장에서 마을버스(55, 56) 이용광역버스 : 학교-강남역(1550-1) 한신대학교 기숙사 앞 승강장에서 승하차수원 IC (13.9km, 약 27분)수원 IC 출구 좌회전→오산천2길 좌회전→서령로 좌회전→315번 지방도고가도로→박지성길 오산/동탄/병점 방면 좌회전→북태안길 우측방향→점역/동탄 방면 좌회전→효행길 84번 지방도 고가도로→한신대길 좌회전→한신대학교도착기흥(동탄) IC 출구→오산/용인 방면 지하차도→ 수원/능동마을방면 우측 → 지하차도 옆길 → 315번 지방도 능리교차로 좌회전 → 병점 방면→효행길 84번 지방도 고가도로→한신대길 좌회전 → 한신대학교도착북오산IC 출구→성호중고길 우회전→동부대로 우회전 → 대원로 좌회전 → 중앙대로 1번국도 → 세마대사거리에서 정남 방면 좌회전 → 양산로 우회전 → 한신대길 좌회전→한신대학교도착과천ㆍ의왕고속도로 진입 → 400번 봉담동탄고속도로 진입→동탄ㆍ정남 방면→17번 평택화성고속도로 동화성ㆍ평택방면 우측방향 → 동화성ㆍ안녕방면 좌측방향 → 안녕IC → 84번 우측방향 → 한신대길 우회전 → 한신대학교도착 서해안고속도로 진입 → 40번 평택제천고속도로 음성ㆍ경부고속도로 방면 우측→17번 평택화성고속도로 동화성ㆍ평택방면 우측방향 → 동화성ㆍ안녕방면 좌측방향→안녕IC→84번 우측방향→한신대길 우회전→한신대학교도착",
+        "closure_rule_raw": "공휴일+국경일 및 개교기념일(4.19)",
+        "homepage_url": "http://www.hs.ac.kr/hsmuseum/index.do",
+        "name": "한신대학교박물관",
+        "youth_fee": 0.0,
+        "longitude": 127.0282159,
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "adult_fee": 0.0,
+        "amenities_raw": "교내 벤치 및 휴게시설"
+      },
+      "vector_rank": 2,
+      "bm25_rank": 6,
+      "vector_distance": 0.38121819496154785,
+      "vector_score": null,
+      "bm25_score": 9.887830059070055,
+      "vector_document": "한신대학교 박물관은 고고·역사·민속 등에 관한 유물을 수집하여 정리, 보존, 전시함으로써 교내의 성원들은 물론 일반 국민들의역사문화인식 함양에 기여하고, 이에 대한 학술적 연구를 통해 우리의 역사문화를 체계적으로 규명하는데 그 목적을 두고 있습니다.",
+      "bm25_document": "한신대학교 박물관은 고고·역사·민속 등에 관한 유물을 수집하여 정리, 보존, 전시함으로써 교내의 성원들은 물론 일반 국민들의역사문화인식 함양에 기여하고, 이에 대한 학술적 연구를 통해 우리의 역사문화를 체계적으로 규명하는데 그 목적을 두고 있습니다.",
+      "best_span_id": "chroma:M0603",
+      "best_span_text": "한신대학교 박물관은 고고·역사·민속 등에 관한 유물을 수집하여 정리, 보존, 전시함으로써 교내의 성원들은 물론 일반 국민들의역사문화인식 함양에 기여하고, 이에 대한 학술적 연구를 통해 우리의 역사문화를 체계적으로 규명하는데 그 목적을 두고 있습니다.",
+      "fusion_score": 0.03128054740957967,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 2,
+      "rerank_score": 0.2523266077041626,
+      "rank": 2,
+      "score": 0.2523266077041626,
+      "score_type": "cross_encoder",
+      "distance": 0.38121819496154785,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0603",
+      "source_doc_ids": [
+        "DOC-B0603-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0603-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0603",
+          "source_locator": "data/raw/museum_base_1070.csv#row=604",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 139,
+          "doc_ids": [
+            "DOC-B0603-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_base_1070.csv#row=604",
+      "text": "한신대학교 박물관은 고고·역사·민속 등에 관한 유물을 수집하여 정리, 보존, 전시함으로써 교내의 성원들은 물론 일반 국민들의역사문화인식 함양에 기여하고, 이에 대한 학술적 연구를 통해 우리의 역사문화를 체계적으로 규명하는데 그 목적을 두고 있습니다.",
+      "sido": "경기도",
+      "sigungu": "오산시",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_base_1070.csv#row=604"
+      ],
+      "evidence_id": "E2",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=423",
+        "fields": {
+          "name": "한신대학교박물관",
+          "sido": "경기도",
+          "sigungu": "오산시",
+          "address": "경기도 오산시 한신대길 137",
+          "ownership_type": "대학",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "10:00",
+          "weekday_close": "16:00",
+          "holiday_open": "10:00",
+          "holiday_close": "16:00",
+          "closure_rule_raw": "공휴일+국경일 및 개교기념일(4.19)",
+          "amenities_raw": "교내 벤치 및 휴게시설"
+        },
+        "base_data_date": "2025-12-22",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M1043",
+      "name": "한남대학교 자연사박물관",
+      "document": "- 한남대학교 자연사박물관은 자연을 이루는 광물, 화석, 동물, 식물 그리고 인간에 관한 표본을 우선 수집하고 보존 연구하여 그 결과를 전시와 각종 프로그램을 통해 대중에게 자연에 대한 올바로 인식시키는데 목적을 두고 운영하고 있다. - 20만여점의 표본이 식물, 포유류, 조류, 양서?파충류, 해양무척추동물, 패류, 곤충, 화석 및 광물 등 다양한 분류군별 전시가 이루어져 있다.",
+      "metadata": {
+        "holiday_open": "10:00",
+        "weekday_close": "16:00",
+        "transport_notes": "- 버스 : 105, 314, 711",
+        "requires_manual_review": true,
+        "sido": "대전광역시",
+        "latitude": 36.35279872,
+        "closure_rule_raw": "개교기념일(4.15), 공휴일,  토, 일",
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "amenities_raw": "없음",
+        "ownership_type": "대학",
+        "adult_fee": 0.0,
+        "child_fee": 0.0,
+        "weekday_open": "10:00",
+        "youth_fee": 0.0,
+        "name": "한남대학교 자연사박물관",
+        "holiday_close": "17:00",
+        "fee_notes": "무료",
+        "longitude": 127.4233081,
+        "sigungu": "대덕구",
+        "address": "대전광역시 대덕구 한남로 70",
+        "source_types": "BASE"
+      },
+      "vector_rank": 12,
+      "bm25_rank": 15,
+      "vector_distance": 0.4421374797821045,
+      "vector_score": null,
+      "bm25_score": 7.812985735824272,
+      "vector_document": "- 한남대학교 자연사박물관은 자연을 이루는 광물, 화석, 동물, 식물 그리고 인간에 관한 표본을 우선 수집하고 보존 연구하여 그 결과를 전시와 각종 프로그램을 통해 대중에게 자연에 대한 올바로 인식시키는데 목적을 두고 운영하고 있다. - 20만여점의 표본이 식물, 포유류, 조류, 양서?파충류, 해양무척추동물, 패류, 곤충, 화석 및 광물 등 다양한 분류군별 전시가 이루어져 있다.",
+      "bm25_document": "- 한남대학교 자연사박물관은 자연을 이루는 광물, 화석, 동물, 식물 그리고 인간에 관한 표본을 우선 수집하고 보존 연구하여 그 결과를 전시와 각종 프로그램을 통해 대중에게 자연에 대한 올바로 인식시키는데 목적을 두고 운영하고 있다. - 20만여점의 표본이 식물, 포유류, 조류, 양서?파충류, 해양무척추동물, 패류, 곤충, 화석 및 광물 등 다양한 분류군별 전시가 이루어져 있다.",
+      "best_span_id": "chroma:M1043",
+      "best_span_text": "- 한남대학교 자연사박물관은 자연을 이루는 광물, 화석, 동물, 식물 그리고 인간에 관한 표본을 우선 수집하고 보존 연구하여 그 결과를 전시와 각종 프로그램을 통해 대중에게 자연에 대한 올바로 인식시키는데 목적을 두고 운영하고 있다. - 20만여점의 표본이 식물, 포유류, 조류, 양서?파충류, 해양무척추동물, 패류, 곤충, 화석 및 광물 등 다양한 분류군별 전시가 이루어져 있다.",
+      "fusion_score": 0.027222222222222224,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 4,
+      "rerank_score": 0.11240749061107635,
+      "rank": 3,
+      "score": 0.11240749061107635,
+      "score_type": "cross_encoder",
+      "distance": 0.4421374797821045,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M1043",
+      "source_doc_ids": [
+        "DOC-B1043-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B1043-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B1043",
+          "source_locator": "data/raw/museum_base_1070.csv#row=1044",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 130,
+          "doc_ids": [
+            "DOC-B1043-BASE"
+          ]
+        },
+        {
+          "start": 131,
+          "end": 213,
+          "doc_ids": [
+            "DOC-B1043-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_base_1070.csv#row=1044",
+      "text": "- 한남대학교 자연사박물관은 자연을 이루는 광물, 화석, 동물, 식물 그리고 인간에 관한 표본을 우선 수집하고 보존 연구하여 그 결과를 전시와 각종 프로그램을 통해 대중에게 자연에 대한 올바로 인식시키는데 목적을 두고 운영하고 있다. - 20만여점의 표본이 식물, 포유류, 조류, 양서?파충류, 해양무척추동물, 패류, 곤충, 화석 및 광물 등 다양한 분류군별 전시가 이루어져 있다.",
+      "sido": "대전광역시",
+      "sigungu": "대덕구",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_base_1070.csv#row=1044"
+      ],
+      "evidence_id": "E3",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=719",
+        "fields": {
+          "name": "한남대학교 자연사박물관",
+          "sido": "대전광역시",
+          "sigungu": "대덕구",
+          "address": "대전광역시 대덕구 한남로 70",
+          "ownership_type": "대학",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "10:00",
+          "weekday_close": "16:00",
+          "holiday_open": "10:00",
+          "holiday_close": "17:00",
+          "closure_rule_raw": "개교기념일(4.15), 공휴일,  토, 일",
+          "amenities_raw": "없음"
+        },
+        "base_data_date": "2020-12-15",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0243",
+      "name": "한양대학교 박물관",
+      "document": "한양대학교박물관은 1979년 개관 이래, 끊임없이 귀중한 문화유산을 발굴, 수집, 보존하고 연구하고 있다. 2003년 이후 매년 특별전을 개최하고 각종 문화체험 및 문화강좌, 박물관 교육 사업을 진행하는 등 대학 캠퍼스를 넘어 지역사회 문화적 플랫폼이자 복합문화예술공간으로서의 역할을 다하고 있다. 건물은 1층부터 5층까지 있지만 실질적으로 전시 공간은 2층부터 시작한다. 2층에는 다양한 전자기기들의 과거와 현재의 모습을 만나볼 수 있다. 3층에는 다양한 주제의 특별전이 열리는 100여평 규모의 기획전시실이 마련되어 있다. 4층은 도자·서화·생활민속실은 소장품 가운데 대표적인 도자기, 서화, 민속품을 엄선하여 전시하고 있으며, 화려하고 섬세한 공예 기술을 비롯하여, 다양한 서화와 생활 도구를 통해 당대 사람들의 삶과 문화를 이해할 수 있도록 구성하였다. 마지막으로 5층 고고역사실은 1979년 미사리 선사유적에 대한 발굴조사를 실시한 이래 한양대학교박물관에서 조사한 다양한 유적과 유물을 소개하고 있다.",
+      "metadata": {
+        "address": "서울특별시 성동구 왕십리로 222",
+        "ownership_type": "대학",
+        "homepage_url": "https://museumuf.hanyang.ac.kr",
+        "sigungu": "성동구",
+        "source_types": "TOUR_API",
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "image_copyright": "Type3",
+        "requires_manual_review": true,
+        "weekday_close": "17:00",
+        "latitude": 37.55450355,
+        "closure_rule_raw": "일+국경일+공휴일",
+        "longitude": 127.0466112,
+        "adult_fee": 0.0,
+        "holiday_close": "00:00",
+        "youth_fee": 0.0,
+        "weekday_open": "10:00",
+        "name": "한양대학교 박물관",
+        "child_fee": 0.0,
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/29/3537629_image2_1.jpg",
+        "holiday_open": "00:00",
+        "sido": "서울특별시"
+      },
+      "vector_rank": 5,
+      "bm25_rank": null,
+      "vector_distance": 0.4117976427078247,
+      "vector_score": null,
+      "bm25_score": null,
+      "vector_document": "한양대학교박물관은 1979년 개관 이래, 끊임없이 귀중한 문화유산을 발굴, 수집, 보존하고 연구하고 있다. 2003년 이후 매년 특별전을 개최하고 각종 문화체험 및 문화강좌, 박물관 교육 사업을 진행하는 등 대학 캠퍼스를 넘어 지역사회 문화적 플랫폼이자 복합문화예술공간으로서의 역할을 다하고 있다. 건물은 1층부터 5층까지 있지만 실질적으로 전시 공간은 2층부터 시작한다. 2층에는 다양한 전자기기들의 과거와 현재의 모습을 만나볼 수 있다. 3층에는 다양한 주제의 특별전이 열리는 100여평 규모의 기획전시실이 마련되어 있다. 4층은 도자·서화·생활민속실은 소장품 가운데 대표적인 도자기, 서화, 민속품을 엄선하여 전시하고 있으며, 화려하고 섬세한 공예 기술을 비롯하여, 다양한 서화와 생활 도구를 통해 당대 사람들의 삶과 문화를 이해할 수 있도록 구성하였다. 마지막으로 5층 고고역사실은 1979년 미사리 선사유적에 대한 발굴조사를 실시한 이래 한양대학교박물관에서 조사한 다양한 유적과 유물을 소개하고 있다.",
+      "bm25_document": "",
+      "best_span_id": null,
+      "best_span_text": null,
+      "fusion_score": 0.015384615384615385,
+      "retrieved_by": [
+        "vector"
+      ],
+      "fusion_rank": 10,
+      "rerank_score": 0.05588909983634949,
+      "rank": 4,
+      "score": 0.05588909983634949,
+      "score_type": "cross_encoder",
+      "distance": 0.4117976427078247,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector"
+      ],
+      "retriever": "vector",
+      "source_doc_ids": [
+        "DOC-B0243-TOUR_API-130958"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0243-TOUR_API-130958",
+          "source_type": "TOUR_API",
+          "source_record_id": "130958",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=120",
+          "match_trust": "RECHECKED_BY_RULE_NOT_HUMAN_APPROVED"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 59,
+          "doc_ids": [
+            "DOC-B0243-TOUR_API-130958"
+          ]
+        },
+        {
+          "start": 60,
+          "end": 166,
+          "doc_ids": [
+            "DOC-B0243-TOUR_API-130958"
+          ]
+        },
+        {
+          "start": 167,
+          "end": 208,
+          "doc_ids": [
+            "DOC-B0243-TOUR_API-130958"
+          ]
+        },
+        {
+          "start": 209,
+          "end": 246,
+          "doc_ids": [
+            "DOC-B0243-TOUR_API-130958"
+          ]
+        },
+        {
+          "start": 247,
+          "end": 294,
+          "doc_ids": [
+            "DOC-B0243-TOUR_API-130958"
+          ]
+        },
+        {
+          "start": 295,
+          "end": 425,
+          "doc_ids": [
+            "DOC-B0243-TOUR_API-130958"
+          ]
+        },
+        {
+          "start": 426,
+          "end": 509,
+          "doc_ids": [
+            "DOC-B0243-TOUR_API-130958"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=120",
+      "text": "한양대학교박물관은 1979년 개관 이래, 끊임없이 귀중한 문화유산을 발굴, 수집, 보존하고 연구하고 있다. 2003년 이후 매년 특별전을 개최하고 각종 문화체험 및 문화강좌, 박물관 교육 사업을 진행하는 등 대학 캠퍼스를 넘어 지역사회 문화적 플랫폼이자 복합문화예술공간으로서의 역할을 다하고 있다. 건물은 1층부터 5층까지 있지만 실질적으로 전시 공간은 2층부터 시작한다. 2층에는 다양한 전자기기들의 과거와 현재의 모습을 만나볼 수 있다. 3층에는 다양한 주제의 특별전이 열리는 100여평 규모의 기획전시실이 마련되어 있다. 4층은 도자·서화·생활민속실은 소장품 가운데 대표적인 도자기, 서화, 민속품을 엄선하여 전시하고 있으며, 화려하고 섬세한 공예 기술을 비롯하여, 다양한 서화와 생활 도구를 통해 당대 사람들의 삶과 문화를 이해할 수 있도록 구성하였다. 마지막으로 5층 고고역사실은 1979년 미사리 선사유적에 대한 발굴조사를 실시한 이래 한양대학교박물관에서 조사한 다양한 유적과 유물을 소개하고 있다.",
+      "sido": "서울특별시",
+      "sigungu": "성동구",
+      "span_id": "",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=120"
+      ],
+      "evidence_id": "E4",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=171",
+        "fields": {
+          "name": "한양대학교 박물관",
+          "sido": "서울특별시",
+          "sigungu": "성동구",
+          "address": "서울특별시 성동구 왕십리로 222",
+          "ownership_type": "대학",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "10:00",
+          "weekday_close": "17:00",
+          "holiday_open": "00:00",
+          "holiday_close": "00:00",
+          "closure_rule_raw": "일+국경일+공휴일"
+        },
+        "base_data_date": "2026-09-03",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0901",
+      "name": "조선대학교 박물관",
+      "document": "조선대학교 박물관은 실물교육자료를 수집·연구·전시하고 교육과 학술 및 지역 발전에 이바지할 목적으로 설립되었습니다",
+      "metadata": {
+        "closure_rule_raw": "토+일+공휴일",
+        "holiday_close": "00:00",
+        "requires_manual_review": true,
+        "source_types": "BASE",
+        "homepage_url": "http://www2.chosun.ac.kr/mbs/museum/",
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "holiday_open": "00:00",
+        "address": "광주광역시 동구 필문대로 309(서석동,조선대학교)",
+        "child_fee": 0.0,
+        "ownership_type": "대학",
+        "adult_fee": 0.0,
+        "sido": "광주광역시",
+        "youth_fee": 0.0,
+        "sigungu": "동구",
+        "weekday_open": "10:00",
+        "longitude": 126.934363,
+        "latitude": 35.146003,
+        "weekday_close": "17:00",
+        "name": "조선대학교 박물관"
+      },
+      "vector_rank": 6,
+      "bm25_rank": 7,
+      "vector_distance": 0.4246788024902344,
+      "vector_score": null,
+      "bm25_score": 9.357502007265467,
+      "vector_document": "조선대학교 박물관은 실물교육자료를 수집·연구·전시하고 교육과 학술 및 지역 발전에 이바지할 목적으로 설립되었습니다",
+      "bm25_document": "조선대학교 박물관은 실물교육자료를 수집·연구·전시하고 교육과 학술 및 지역 발전에 이바지할 목적으로 설립되었습니다",
+      "best_span_id": "chroma:M0901",
+      "best_span_text": "조선대학교 박물관은 실물교육자료를 수집·연구·전시하고 교육과 학술 및 지역 발전에 이바지할 목적으로 설립되었습니다",
+      "fusion_score": 0.03007688828584351,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 3,
+      "rerank_score": 0.014165133237838745,
+      "rank": 5,
+      "score": 0.014165133237838745,
+      "score_type": "cross_encoder",
+      "distance": 0.4246788024902344,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0901",
+      "source_doc_ids": [
+        "DOC-B0901-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0901-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0901",
+          "source_locator": "data/raw/museum_base_1070.csv#row=902",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 63,
+          "doc_ids": [
+            "DOC-B0901-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_base_1070.csv#row=902",
+      "text": "조선대학교 박물관은 실물교육자료를 수집·연구·전시하고 교육과 학술 및 지역 발전에 이바지할 목적으로 설립되었습니다",
+      "sido": "광주광역시",
+      "sigungu": "동구",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_base_1070.csv#row=902"
+      ],
+      "evidence_id": "E5",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=619",
+        "fields": {
+          "name": "조선대학교 박물관",
+          "sido": "광주광역시",
+          "sigungu": "동구",
+          "address": "광주광역시 동구 필문대로 309(서석동,조선대학교)",
+          "ownership_type": "대학",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "10:00",
+          "weekday_close": "17:00",
+          "holiday_open": "00:00",
+          "holiday_close": "00:00",
+          "closure_rule_raw": "토+일+공휴일"
+        },
+        "base_data_date": "2025-06-26",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    }
+  ],
+  "answer": "한림대학교 박물관은 유물과 민속품을 수집·정리·보존하고 전시해 학내 구성원과 지역주민이 역사와 문화를 이해할 수 있는 장을 마련하며, 국가유산 조사·연구를 통해 우리 역사 연구에 기여하고자 합니다. [E1]",
+  "retrieval_status": "ok",
+  "answer_status": "answered",
+  "route": "hybrid",
+  "retry_count": 0,
+  "supervisor_verified": true,
+  "rerank_applied": true,
+  "retriever_errors": [],
+  "warnings": [],
+  "duration_ms": 151234.83,
+  "error_type": "",
+  "hit_at_1": 1,
+  "hit_at_3": 1,
+  "hit_at_5": 1,
+  "recall_at_5": 1.0,
+  "mrr_at_10": 1.0
+}

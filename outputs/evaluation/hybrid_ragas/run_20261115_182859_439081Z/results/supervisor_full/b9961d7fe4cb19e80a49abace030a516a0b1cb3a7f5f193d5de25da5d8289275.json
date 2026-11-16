@@ -1,0 +1,834 @@
+{
+  "evidence_context_version": "grounded-evidence-v2",
+  "evaluation_contexts": [
+    "{\"evidence_context_version\": \"grounded-evidence-v2\", \"evidence_id\": \"E1\", \"metadata_provenance\": {\"base_data_date\": \"2026-03-05\", \"fields\": {\"address\": \"경기도 안산시 단원구 화랑로 265\", \"adult_fee\": \"0\", \"adult_fee_status\": \"BASE_FEE_ZERO_CHECK_EXCEPTIONS\", \"amenities_raw\": \"수유실\", \"child_fee\": \"0\", \"closure_rule_raw\": \"월요일+1월1일+설연휴+추석연휴\", \"holiday_close\": \"18:00\", \"holiday_open\": \"09:00\", \"name\": \"안산산업역사박물관\", \"ownership_type\": \"공립\", \"sido\": \"경기도\", \"sigungu\": \"안산시\", \"weekday_close\": \"18:00\", \"weekday_open\": \"09:00\", \"youth_fee\": \"0\"}, \"source_kind\": \"derived_csv_row\", \"source_locator\": \"data/processed/museum_final_738.csv#record=337\", \"trust\": \"derived_dataset_not_human_verified\"}, \"museum_id\": \"M0466\", \"name\": \"안산산업역사박물관\", \"source_doc_ids\": [\"DOC-B0466-TOUR_API-3081404\", \"DOC-B0466-BASE\"], \"source_documents\": [{\"doc_id\": \"DOC-B0466-TOUR_API-3081404\", \"match_trust\": \"RECHECKED_BY_RULE_NOT_HUMAN_APPROVED\", \"source_locator\": \"data/raw/museum_tourapi_with_overview.csv#row=228\", \"source_record_id\": \"3081404\", \"source_type\": \"TOUR_API\"}, {\"doc_id\": \"DOC-B0466-BASE\", \"match_trust\": \"BASE_SOURCE\", \"source_locator\": \"data/raw/museum_base_1070.csv#row=467\", \"source_record_id\": \"B0466\", \"source_type\": \"BASE\"}], \"source_locator\": \"data/raw/museum_tourapi_with_overview.csv#row=228\", \"source_locators\": [\"data/raw/museum_tourapi_with_overview.csv#row=228\"], \"source_scope\": \"text\", \"source_spans\": [{\"doc_ids\": [\"DOC-B0466-TOUR_API-3081404\"], \"end\": 69, \"start\": 0}, {\"doc_ids\": [\"DOC-B0466-TOUR_API-3081404\"], \"end\": 184, \"start\": 70}, {\"doc_ids\": [\"DOC-B0466-TOUR_API-3081404\"], \"end\": 269, \"start\": 185}, {\"doc_ids\": [\"DOC-B0466-TOUR_API-3081404\"], \"end\": 347, \"start\": 270}, {\"doc_ids\": [\"DOC-B0466-TOUR_API-3081404\"], \"end\": 560, \"start\": 348}, {\"doc_ids\": [\"DOC-B0466-BASE\"], \"end\": 612, \"start\": 561}], \"source_urls\": [], \"text\": \"안산산업역사박물관은 대한민국 산업화에 지대한 영향을 끼쳤던 안산의 산업사와 변천사를 한눈에 살펴볼 수 있는 복합문화공간이다. 1만여 점의 산업 유물이 전시되어 있고 도시발전을 함께한 시민들의 이야기가 기록된 과거와 현재, 미래를 잇는 역사적 현장이 되고 새로운 산업 동력을 모색하는 공간으로 안산 산업 역사를 한눈에 볼 수 있다. 미니어처나 모형, 사진만 전시하는 것이 아닌 과거 실제로 사용했거나 존재했던 버스, 기계, 자동차를 실제로 전시한다는 점에서 더 흥미롭고 실감이 난다. 야외 전시장에 있는 과거 안산지역을 순회 운행하던 버스와, 과거 시흥시 소래 염전과 남동 염전에서 소금을 운반하던 궤도차가 바로 그것이다. 또한 1층 로비에도 과거 우리가 사용했던 압력솥, 컴퓨터, 난로 등 일상생활에서 자주 접하던 제품들을 볼 수 있으며 2층 상설전시장에서도 각종 기계와 부품, 자동차, TV, 전화기, 목제 솜틀 등 아날로그 감성을 자극하는 추억 속 제품들이 전시되어 있으며 박물관 3층 옥상에서 영화 상영이나 가수와 청년 뮤지션들의 공연도 이루어지고 있어 지역주민들의 문화공간으로도 활용되고 있다. 안산산업역사박물관은 안산의 산업사 및 변천사를 살펴볼 수 있는 공립박물관(제1종 전문박물관)\"}",
+    "{\"evidence_context_version\": \"grounded-evidence-v2\", \"evidence_id\": \"E2\", \"metadata_provenance\": {\"base_data_date\": \"2024-11-29\", \"fields\": {\"address\": \"경기도 용인시 처인구 모현읍 능곡로56번길 8\", \"adult_fee\": \"8000\", \"adult_fee_status\": \"BASE_FEE_PAID\", \"child_fee\": \"0\", \"closure_rule_raw\": \"매주 월요일~화요일,신정,설연휴,추석(당일)\", \"holiday_close\": \"17:00\", \"holiday_open\": \"10:00\", \"name\": \"한국등잔박물관\", \"ownership_type\": \"사립\", \"sido\": \"경기도\", \"sigungu\": \"용인시\", \"weekday_close\": \"17:00\", \"weekday_open\": \"10:00\", \"youth_fee\": \"5000\"}, \"source_kind\": \"derived_csv_row\", \"source_locator\": \"data/processed/museum_final_738.csv#record=573\", \"trust\": \"derived_dataset_not_human_verified\"}, \"museum_id\": \"M0846\", \"name\": \"한국등잔박물관\", \"source_doc_ids\": [\"DOC-B0846-TOUR_API-130147\"], \"source_documents\": [{\"doc_id\": \"DOC-B0846-TOUR_API-130147\", \"match_trust\": \"AUTO_MATCH_NOT_HUMAN_VERIFIED\", \"source_locator\": \"data/raw/museum_tourapi_with_overview.csv#row=400\", \"source_record_id\": \"130147\", \"source_type\": \"TOUR_API\"}], \"source_locator\": \"data/raw/museum_tourapi_with_overview.csv#row=400\", \"source_locators\": [\"data/raw/museum_tourapi_with_overview.csv#row=400\"], \"source_scope\": \"text\", \"source_spans\": [{\"doc_ids\": [\"DOC-B0846-TOUR_API-130147\"], \"end\": 69, \"start\": 0}, {\"doc_ids\": [\"DOC-B0846-TOUR_API-130147\"], \"end\": 141, \"start\": 70}, {\"doc_ids\": [\"DOC-B0846-TOUR_API-130147\"], \"end\": 243, \"start\": 142}, {\"doc_ids\": [\"DOC-B0846-TOUR_API-130147\"], \"end\": 315, \"start\": 244}, {\"doc_ids\": [\"DOC-B0846-TOUR_API-130147\"], \"end\": 460, \"start\": 316}, {\"doc_ids\": [\"DOC-B0846-TOUR_API-130147\"], \"end\": 529, \"start\": 461}, {\"doc_ids\": [\"DOC-B0846-TOUR_API-130147\"], \"end\": 592, \"start\": 530}, {\"doc_ids\": [\"DOC-B0846-TOUR_API-130147\"], \"end\": 635, \"start\": 593}, {\"doc_ids\": [\"DOC-B0846-TOUR_API-130147\"], \"end\": 672, \"start\": 636}], \"source_urls\": [], \"text\": \"포은 정몽주 묘소 맞은편에 있는 한국등잔박물관은 박물관장 김동휘가 50여 년간 수집한 등잔들이 전시되어 있는 사립박물관이다. 국내 유일의 등기구 박물관으로 선조들의 옛 생활상을 살펴볼 수 있어 개인뿐 아니라 학생들의 체험학습 공간으로 많이 찾는 곳이다. 수원화성 성곽을 모티브로 지은 원통형의 등대 모양 건물은 지하 1층, 지상 3층 규모로 1, 2층은 전시 공간으로 3층은 세미나 및 각종 공연을 위한 다목적 공간으로 구성되어 있다. 또 별관 전시장에는 농기구 전시실이 있고 야외전시장인 연못과 자연석이 어우러진 아름다운 정원으로 가볍게 둘러보며 힐링하기 좋다. 상설전시실 1층에는 우리의 불그릇 등잔을 주제로 부엌, 찬방, 사랑방, 안방 등 공간별로 사용되었던 등잔의 종류와 용도를 옛 생활용품과 함께 전시되어 있으며, 2층은 일상을 지킨 빛과 예를 밝힌 빛을 주제로 시대별 등잔 양식과 특징을 한눈에 알아볼 수 있다. 또 1층 특별기획전시실에서는 지역작가 조명전을 개최해 경기도 내에서 왕성한 작품 활동을 펼치는 지역작가들을 소개하고 있다. 박물관에서는 다양한 어린이, 청소년, 성인을 대상으로 한 상설교육 프로그램과 특별교육 프로그램을 운영하고 있다. 초나 LED등, 도자 등잔 등을 만들어 볼 수 있어 특별한 추억을 선물한다. 포은 정몽주 묘소가 맞은편에 있으므로 연계해 함께 방문하기 좋다.\"}",
+    "{\"evidence_context_version\": \"grounded-evidence-v2\", \"evidence_id\": \"E3\", \"metadata_provenance\": {\"base_data_date\": \"2025-11-19\", \"fields\": {\"address\": \"충청남도 금산군 금산읍 인삼광장로30\", \"adult_fee\": \"0\", \"adult_fee_status\": \"BASE_FEE_ZERO_CHECK_EXCEPTIONS\", \"child_fee\": \"0\", \"closure_rule_raw\": \"연중무휴\", \"holiday_close\": \"18:00\", \"holiday_open\": \"09:00\", \"name\": \"금산인삼관\", \"ownership_type\": \"공립\", \"sido\": \"충청남도\", \"sigungu\": \"금산군\", \"weekday_close\": \"18:00\", \"weekday_open\": \"09:00\", \"youth_fee\": \"0\"}, \"source_kind\": \"derived_csv_row\", \"source_locator\": \"data/processed/museum_final_738.csv#record=667\", \"trust\": \"derived_dataset_not_human_verified\"}, \"museum_id\": \"M0971\", \"name\": \"금산인삼관\", \"source_doc_ids\": [\"DOC-B0971-BASE\", \"DOC-B0971-TOUR_API-2470404\"], \"source_documents\": [{\"doc_id\": \"DOC-B0971-BASE\", \"match_trust\": \"BASE_SOURCE\", \"source_locator\": \"data/raw/museum_base_1070.csv#row=972\", \"source_record_id\": \"B0971\", \"source_type\": \"BASE\"}, {\"doc_id\": \"DOC-B0971-TOUR_API-2470404\", \"match_trust\": \"AUTO_MATCH_NOT_HUMAN_VERIFIED\", \"source_locator\": \"data/raw/museum_tourapi_with_overview.csv#row=455\", \"source_record_id\": \"2470404\", \"source_type\": \"TOUR_API\"}], \"source_locator\": \"data/raw/museum_base_1070.csv#row=972\", \"source_locators\": [\"data/raw/museum_base_1070.csv#row=972\"], \"source_scope\": \"text\", \"source_spans\": [{\"doc_ids\": [\"DOC-B0971-BASE\"], \"end\": 109, \"start\": 0}, {\"doc_ids\": [\"DOC-B0971-BASE\"], \"end\": 224, \"start\": 110}, {\"doc_ids\": [\"DOC-B0971-TOUR_API-2470404\"], \"end\": 313, \"start\": 225}, {\"doc_ids\": [\"DOC-B0971-TOUR_API-2470404\"], \"end\": 351, \"start\": 314}, {\"doc_ids\": [\"DOC-B0971-TOUR_API-2470404\"], \"end\": 422, \"start\": 352}], \"source_urls\": [], \"text\": \"금산인삼관은 고려인삼(금산인삼)의 우수성을 국내·외에 널리 알리고자 1998년에 신축 2005년 리노베이션을 거쳐, 2011년 리모델링을 하였으며 2017년 8월에 새롭게 개관 운영하고 있습니다. 금산인삼의 역사 인삼의 전통재배과정 인삼의 성분과 효능 국내외 인삼제품류 인삼음식 및 약초 등을 전시하고 각종 영상시설을 설치하여 인삼에 관한 모든 것을 눈으로 보고 듣고 이해할 수 있도록 연출하였습니다. 고려(금산) 인삼의 우수성을 국내·외에 널리 알리고자 인삼 재배, 기구, 모형, 효능, 음식, 인삼류, 제품류 등을 전시하고 각종 영상시설물이 설치되어 있다. 인삼에 관한 모든 정보를 쉽게 이해할 수 있는 인삼 종합전시관이다. 해마다 금산인삼제에서 인삼 선발대회가 열리는데 역대 수상 받은 인삼들이 1층 로비에 전시되어 있어 색다른 경험을 할 수 있다.\"}",
+    "{\"evidence_context_version\": \"grounded-evidence-v2\", \"evidence_id\": \"E4\", \"metadata_provenance\": {\"base_data_date\": \"2025-11-19\", \"fields\": {\"address\": \"충청남도 금산군 금산읍 금산로 1575\", \"adult_fee\": \"0\", \"adult_fee_status\": \"BASE_FEE_ZERO_CHECK_EXCEPTIONS\", \"child_fee\": \"0\", \"closure_rule_raw\": \"월+1월1일+설 당일+추석 당일\", \"holiday_close\": \"18:00\", \"holiday_open\": \"09:00\", \"name\": \"금산역사문화박물관\", \"ownership_type\": \"공립\", \"sido\": \"충청남도\", \"sigungu\": \"금산군\", \"weekday_close\": \"18:00\", \"weekday_open\": \"09:00\", \"youth_fee\": \"0\"}, \"source_kind\": \"derived_csv_row\", \"source_locator\": \"data/processed/museum_final_738.csv#record=668\", \"trust\": \"derived_dataset_not_human_verified\"}, \"museum_id\": \"M0972\", \"name\": \"금산역사문화박물관\", \"source_doc_ids\": [\"DOC-B0972-TOUR_API-2782404\", \"DOC-B0972-BASE\"], \"source_documents\": [{\"doc_id\": \"DOC-B0972-TOUR_API-2782404\", \"match_trust\": \"AUTO_MATCH_NOT_HUMAN_VERIFIED\", \"source_locator\": \"data/raw/museum_tourapi_with_overview.csv#row=456\", \"source_record_id\": \"2782404\", \"source_type\": \"TOUR_API\"}, {\"doc_id\": \"DOC-B0972-BASE\", \"match_trust\": \"BASE_SOURCE\", \"source_locator\": \"data/raw/museum_base_1070.csv#row=973\", \"source_record_id\": \"B0972\", \"source_type\": \"BASE\"}], \"source_locator\": \"data/raw/museum_tourapi_with_overview.csv#row=456\", \"source_locators\": [\"data/raw/museum_tourapi_with_overview.csv#row=456\"], \"source_scope\": \"text\", \"source_spans\": [{\"doc_ids\": [\"DOC-B0972-TOUR_API-2782404\"], \"end\": 43, \"start\": 0}, {\"doc_ids\": [\"DOC-B0972-TOUR_API-2782404\"], \"end\": 76, \"start\": 44}, {\"doc_ids\": [\"DOC-B0972-TOUR_API-2782404\"], \"end\": 263, \"start\": 77}, {\"doc_ids\": [\"DOC-B0972-TOUR_API-2782404\"], \"end\": 353, \"start\": 264}, {\"doc_ids\": [\"DOC-B0972-TOUR_API-2782404\"], \"end\": 403, \"start\": 354}, {\"doc_ids\": [\"DOC-B0972-BASE\"], \"end\": 517, \"start\": 404}], \"source_urls\": [], \"text\": \"금산역사문화박물관은 금산의 역사와 문화를 한자리에서 살펴볼 수 있는 공간이다. 1층은 금산 역사관, 2층은 금산 생활 민속관으로 나뉜다. 금산에 인류가 첫발을 내디딘 구석기시대부터 백제와 신라가 금산을 두고 각축전을 벌였던 삼국시대, 원나라에서 벼슬을 한 공을 인정받아 고향인 금산을 금주(錦州)로 승격시킨 성리학자 김신이 활동했던 고려, 조선왕조의 태실을 묻을 만큼 길지로 평가받았던 조선, 금산군수 홍범식을 비롯한 독립운동의 역사를 간직한 근현대가 순서대로 이어진다. 금산 생활 민속관에는 과거 전라북도에 속했던 터라 전라좌도농악의 특징이 녹아있는 금산농악과 세계중요농업유산으로 선정된 금산의 인삼 농사 기술을 만나볼 수 있다. 또 세계 각국의 생활 민속을 함께 비교해 볼 수 있는 지구촌 생활 민속실도 마련돼 있다. 금산역사문화박물관은 지하1층 지상3층 규모로 1층 금산역사관에는 선사시대부터 근현대까지 금산의 역사와 발굴유물을 전시하고 있으며 2층 금산생활민속관에는 금산의 민속유물과 세계민속유물을 전시하고 있습니다.\"}",
+    "{\"evidence_context_version\": \"grounded-evidence-v2\", \"evidence_id\": \"E5\", \"metadata_provenance\": {\"base_data_date\": \"2026-03-12\", \"fields\": {\"address\": \"경기도 동두천시 평화로 2910번길 96-63\", \"adult_fee\": \"0\", \"adult_fee_status\": \"BASE_FEE_ZERO_CHECK_EXCEPTIONS\", \"amenities_raw\": \"휴게공간\", \"child_fee\": \"0\", \"closure_rule_raw\": \"월 (단, 월요일이 공휴일인 경우 당일은 개관하고 그 다음 첫번째 평일에 휴관)+1월1일+설날 및 추석 당일\", \"holiday_close\": \"18:00\", \"holiday_open\": \"09:00\", \"name\": \"자유수호평화박물관\", \"ownership_type\": \"공립\", \"sido\": \"경기도\", \"sigungu\": \"동두천시\", \"weekday_close\": \"18:00\", \"weekday_open\": \"09:00\", \"youth_fee\": \"0\"}, \"source_kind\": \"derived_csv_row\", \"source_locator\": \"data/processed/museum_final_738.csv#record=344\", \"trust\": \"derived_dataset_not_human_verified\"}, \"museum_id\": \"M0473\", \"name\": \"자유수호평화박물관\", \"source_doc_ids\": [\"DOC-B0473-TOUR_API-130685\", \"DOC-B0473-BASE\"], \"source_documents\": [{\"doc_id\": \"DOC-B0473-TOUR_API-130685\", \"match_trust\": \"AUTO_MATCH_NOT_HUMAN_VERIFIED\", \"source_locator\": \"data/raw/museum_tourapi_with_overview.csv#row=232\", \"source_record_id\": \"130685\", \"source_type\": \"TOUR_API\"}, {\"doc_id\": \"DOC-B0473-BASE\", \"match_trust\": \"BASE_SOURCE\", \"source_locator\": \"data/raw/museum_base_1070.csv#row=474\", \"source_record_id\": \"B0473\", \"source_type\": \"BASE\"}], \"source_locator\": \"data/raw/museum_tourapi_with_overview.csv#row=232\", \"source_locators\": [\"data/raw/museum_tourapi_with_overview.csv#row=232\"], \"source_scope\": \"text\", \"source_spans\": [{\"doc_ids\": [\"DOC-B0473-TOUR_API-130685\"], \"end\": 87, \"start\": 0}, {\"doc_ids\": [\"DOC-B0473-TOUR_API-130685\"], \"end\": 166, \"start\": 88}, {\"doc_ids\": [\"DOC-B0473-TOUR_API-130685\"], \"end\": 224, \"start\": 167}, {\"doc_ids\": [\"DOC-B0473-TOUR_API-130685\"], \"end\": 381, \"start\": 225}, {\"doc_ids\": [\"DOC-B0473-TOUR_API-130685\"], \"end\": 483, \"start\": 382}, {\"doc_ids\": [\"DOC-B0473-TOUR_API-130685\"], \"end\": 539, \"start\": 484}, {\"doc_ids\": [\"DOC-B0473-TOUR_API-130685\"], \"end\": 605, \"start\": 540}, {\"doc_ids\": [\"DOC-B0473-TOUR_API-130685\"], \"end\": 640, \"start\": 606}, {\"doc_ids\": [\"DOC-B0473-TOUR_API-130685\"], \"end\": 737, \"start\": 641}, {\"doc_ids\": [\"DOC-B0473-BASE\"], \"end\": 819, \"start\": 738}], \"source_urls\": [], \"text\": \"동두천 소요산 내에 위치한 자유수호 평화박물관은 한국전쟁의 참상을 통해 자유와 평화를 사랑하는 모든 분들의 희생을 기리고 후손들에게 전하고자 건립한 곳이다. 이곳은 한국전쟁 당시 나라를 지키기 위해 희생하신 국군과 유엔군의 고귀한 정신을 기리고 다양한 전시자료를 통해 전 세계에 널리 알리고 있다. 또한 민족 상잔의 비극이 되풀이 되지 않도록 온 국민의 안보 교육장으로 활용하기 위하여 운영되고 있다. 40,000㎡ 부지의 지상 4층 건물로 1층 전시장은 로비 및 기획전시공간으로 해방부터 6.25전쟁 후까지 시대적 사실을 12개의 도자기로 표현한 이미지 부조와 전쟁으로부터 자유와 평화를 지키기 위한 병사의 역동적인 몸짓과 세계평화를 표현한 상징물들이 있으며 기획 전시실이 있다. 2층 전시장은 주전시관으로 유엔 참전 전투지원 16개국과 의료지원 5개국의 유물과 자료가 전시되어 있고, 3층 전시관은 영상관으로 6.25전쟁에 관한 자료를 영상으로 소개하고 있다. 이호왕기념관에서는 대한민국의 대표적 의학자이자 미생물학자인 이호왕박사에 대한 자료를 전시하고 있다. 야외 전시장에는 6.25 전쟁부터 최근까지 군에서 사용하던 비행기 및 탱크 등 총 15점의 대형장비를 전시하고 있다. 실감콘텐츠 체험존에서는 다양한 체험 프로그램이 준비되어 있다. 경기의 소금강으로 잘 알려진 소요산 내에 박물관이 위치하고 있어 관광 및 등산 여가를 함께 즐길 수 있으며, 근처에 외국인 특화 거리도 있어 작은 미국을 경험할 수도 있다. 잊혀져 가는 6.25전쟁에 대한 이해와 자유와 평화를 수호하기 위하여 희생하신 분들의 뜻을 기리고 유엔 참전국과의 우호 증진을 위해 건립된 박물관\"}"
+  ],
+  "mode": "supervisor_full",
+  "question_id": "Q274",
+  "evidence": [
+    {
+      "museum_id": "M0466",
+      "name": "안산산업역사박물관",
+      "document": "안산산업역사박물관은 대한민국 산업화에 지대한 영향을 끼쳤던 안산의 산업사와 변천사를 한눈에 살펴볼 수 있는 복합문화공간이다. 1만여 점의 산업 유물이 전시되어 있고 도시발전을 함께한 시민들의 이야기가 기록된 과거와 현재, 미래를 잇는 역사적 현장이 되고 새로운 산업 동력을 모색하는 공간으로 안산 산업 역사를 한눈에 볼 수 있다. 미니어처나 모형, 사진만 전시하는 것이 아닌 과거 실제로 사용했거나 존재했던 버스, 기계, 자동차를 실제로 전시한다는 점에서 더 흥미롭고 실감이 난다. 야외 전시장에 있는 과거 안산지역을 순회 운행하던 버스와, 과거 시흥시 소래 염전과 남동 염전에서 소금을 운반하던 궤도차가 바로 그것이다. 또한 1층 로비에도 과거 우리가 사용했던 압력솥, 컴퓨터, 난로 등 일상생활에서 자주 접하던 제품들을 볼 수 있으며 2층 상설전시장에서도 각종 기계와 부품, 자동차, TV, 전화기, 목제 솜틀 등 아날로그 감성을 자극하는 추억 속 제품들이 전시되어 있으며 박물관 3층 옥상에서 영화 상영이나 가수와 청년 뮤지션들의 공연도 이루어지고 있어 지역주민들의 문화공간으로도 활용되고 있다. 안산산업역사박물관은 안산의 산업사 및 변천사를 살펴볼 수 있는 공립박물관(제1종 전문박물관)",
+      "metadata": {
+        "source_types": "BASE|TOUR_API",
+        "transport_notes": "시내버스 : 단원구청·보건소 정류장(123, 123-1, 99, 52,11, 23, 22, 30-2, 350, 30, 101번) 지하철 : 4호선(초지역, 고잔역)",
+        "sido": "경기도",
+        "longitude": 126.8161874,
+        "weekday_close": "18:00",
+        "requires_manual_review": true,
+        "holiday_close": "18:00",
+        "adult_fee": 0.0,
+        "amenities_raw": "수유실",
+        "sigungu": "안산시",
+        "closure_rule_raw": "월요일+1월1일+설연휴+추석연휴",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/96/3081396_image2_1.JPG",
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "image_copyright": "Type3",
+        "latitude": 37.323089,
+        "child_fee": 0.0,
+        "address": "경기도 안산시 단원구 화랑로 265",
+        "holiday_open": "09:00",
+        "homepage_url": "https://ansan.go.kr/aim/",
+        "ownership_type": "공립",
+        "weekday_open": "09:00",
+        "name": "안산산업역사박물관",
+        "youth_fee": 0.0
+      },
+      "vector_rank": 1,
+      "bm25_rank": 1,
+      "vector_distance": 0.41723859310150146,
+      "vector_score": null,
+      "bm25_score": 36.08761871898173,
+      "vector_document": "안산산업역사박물관은 대한민국 산업화에 지대한 영향을 끼쳤던 안산의 산업사와 변천사를 한눈에 살펴볼 수 있는 복합문화공간이다. 1만여 점의 산업 유물이 전시되어 있고 도시발전을 함께한 시민들의 이야기가 기록된 과거와 현재, 미래를 잇는 역사적 현장이 되고 새로운 산업 동력을 모색하는 공간으로 안산 산업 역사를 한눈에 볼 수 있다. 미니어처나 모형, 사진만 전시하는 것이 아닌 과거 실제로 사용했거나 존재했던 버스, 기계, 자동차를 실제로 전시한다는 점에서 더 흥미롭고 실감이 난다. 야외 전시장에 있는 과거 안산지역을 순회 운행하던 버스와, 과거 시흥시 소래 염전과 남동 염전에서 소금을 운반하던 궤도차가 바로 그것이다. 또한 1층 로비에도 과거 우리가 사용했던 압력솥, 컴퓨터, 난로 등 일상생활에서 자주 접하던 제품들을 볼 수 있으며 2층 상설전시장에서도 각종 기계와 부품, 자동차, TV, 전화기, 목제 솜틀 등 아날로그 감성을 자극하는 추억 속 제품들이 전시되어 있으며 박물관 3층 옥상에서 영화 상영이나 가수와 청년 뮤지션들의 공연도 이루어지고 있어 지역주민들의 문화공간으로도 활용되고 있다. 안산산업역사박물관은 안산의 산업사 및 변천사를 살펴볼 수 있는 공립박물관(제1종 전문박물관)",
+      "bm25_document": "안산산업역사박물관은 대한민국 산업화에 지대한 영향을 끼쳤던 안산의 산업사와 변천사를 한눈에 살펴볼 수 있는 복합문화공간이다. 1만여 점의 산업 유물이 전시되어 있고 도시발전을 함께한 시민들의 이야기가 기록된 과거와 현재, 미래를 잇는 역사적 현장이 되고 새로운 산업 동력을 모색하는 공간으로 안산 산업 역사를 한눈에 볼 수 있다. 미니어처나 모형, 사진만 전시하는 것이 아닌 과거 실제로 사용했거나 존재했던 버스, 기계, 자동차를 실제로 전시한다는 점에서 더 흥미롭고 실감이 난다. 야외 전시장에 있는 과거 안산지역을 순회 운행하던 버스와, 과거 시흥시 소래 염전과 남동 염전에서 소금을 운반하던 궤도차가 바로 그것이다. 또한 1층 로비에도 과거 우리가 사용했던 압력솥, 컴퓨터, 난로 등 일상생활에서 자주 접하던 제품들을 볼 수 있으며 2층 상설전시장에서도 각종 기계와 부품, 자동차, TV, 전화기, 목제 솜틀 등 아날로그 감성을 자극하는 추억 속 제품들이 전시되어 있으며 박물관 3층 옥상에서 영화 상영이나 가수와 청년 뮤지션들의 공연도 이루어지고 있어 지역주민들의 문화공간으로도 활용되고 있다. 안산산업역사박물관은 안산의 산업사 및 변천사를 살펴볼 수 있는 공립박물관(제1종 전문박물관)",
+      "best_span_id": "chroma:M0466",
+      "best_span_text": "안산산업역사박물관은 대한민국 산업화에 지대한 영향을 끼쳤던 안산의 산업사와 변천사를 한눈에 살펴볼 수 있는 복합문화공간이다. 1만여 점의 산업 유물이 전시되어 있고 도시발전을 함께한 시민들의 이야기가 기록된 과거와 현재, 미래를 잇는 역사적 현장이 되고 새로운 산업 동력을 모색하는 공간으로 안산 산업 역사를 한눈에 볼 수 있다. 미니어처나 모형, 사진만 전시하는 것이 아닌 과거 실제로 사용했거나 존재했던 버스, 기계, 자동차를 실제로 전시한다는 점에서 더 흥미롭고 실감이 난다. 야외 전시장에 있는 과거 안산지역을 순회 운행하던 버스와, 과거 시흥시 소래 염전과 남동 염전에서 소금을 운반하던 궤도차가 바로 그것이다. 또한 1층 로비에도 과거 우리가 사용했던 압력솥, 컴퓨터, 난로 등 일상생활에서 자주 접하던 제품들을 볼 수 있으며 2층 상설전시장에서도 각종 기계와 부품, 자동차, TV, 전화기, 목제 솜틀 등 아날로그 감성을 자극하는 추억 속 제품들이 전시되어 있으며 박물관 3층 옥상에서 영화 상영이나 가수와 청년 뮤지션들의 공연도 이루어지고 있어 지역주민들의 문화공간으로도 활용되고 있다. 안산산업역사박물관은 안산의 산업사 및 변천사를 살펴볼 수 있는 공립박물관(제1종 전문박물관)",
+      "fusion_score": 0.03278688524590164,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 1,
+      "name_match": true,
+      "rerank_score": 0.9996033310890198,
+      "rank": 1,
+      "score": 0.9996033310890198,
+      "score_type": "cross_encoder",
+      "distance": 0.41723859310150146,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0466",
+      "source_doc_ids": [
+        "DOC-B0466-TOUR_API-3081404",
+        "DOC-B0466-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0466-TOUR_API-3081404",
+          "source_type": "TOUR_API",
+          "source_record_id": "3081404",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=228",
+          "match_trust": "RECHECKED_BY_RULE_NOT_HUMAN_APPROVED"
+        },
+        {
+          "doc_id": "DOC-B0466-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0466",
+          "source_locator": "data/raw/museum_base_1070.csv#row=467",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 69,
+          "doc_ids": [
+            "DOC-B0466-TOUR_API-3081404"
+          ]
+        },
+        {
+          "start": 70,
+          "end": 184,
+          "doc_ids": [
+            "DOC-B0466-TOUR_API-3081404"
+          ]
+        },
+        {
+          "start": 185,
+          "end": 269,
+          "doc_ids": [
+            "DOC-B0466-TOUR_API-3081404"
+          ]
+        },
+        {
+          "start": 270,
+          "end": 347,
+          "doc_ids": [
+            "DOC-B0466-TOUR_API-3081404"
+          ]
+        },
+        {
+          "start": 348,
+          "end": 560,
+          "doc_ids": [
+            "DOC-B0466-TOUR_API-3081404"
+          ]
+        },
+        {
+          "start": 561,
+          "end": 612,
+          "doc_ids": [
+            "DOC-B0466-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=228",
+      "text": "안산산업역사박물관은 대한민국 산업화에 지대한 영향을 끼쳤던 안산의 산업사와 변천사를 한눈에 살펴볼 수 있는 복합문화공간이다. 1만여 점의 산업 유물이 전시되어 있고 도시발전을 함께한 시민들의 이야기가 기록된 과거와 현재, 미래를 잇는 역사적 현장이 되고 새로운 산업 동력을 모색하는 공간으로 안산 산업 역사를 한눈에 볼 수 있다. 미니어처나 모형, 사진만 전시하는 것이 아닌 과거 실제로 사용했거나 존재했던 버스, 기계, 자동차를 실제로 전시한다는 점에서 더 흥미롭고 실감이 난다. 야외 전시장에 있는 과거 안산지역을 순회 운행하던 버스와, 과거 시흥시 소래 염전과 남동 염전에서 소금을 운반하던 궤도차가 바로 그것이다. 또한 1층 로비에도 과거 우리가 사용했던 압력솥, 컴퓨터, 난로 등 일상생활에서 자주 접하던 제품들을 볼 수 있으며 2층 상설전시장에서도 각종 기계와 부품, 자동차, TV, 전화기, 목제 솜틀 등 아날로그 감성을 자극하는 추억 속 제품들이 전시되어 있으며 박물관 3층 옥상에서 영화 상영이나 가수와 청년 뮤지션들의 공연도 이루어지고 있어 지역주민들의 문화공간으로도 활용되고 있다. 안산산업역사박물관은 안산의 산업사 및 변천사를 살펴볼 수 있는 공립박물관(제1종 전문박물관)",
+      "sido": "경기도",
+      "sigungu": "안산시",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=228"
+      ],
+      "evidence_id": "E1",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=337",
+        "fields": {
+          "name": "안산산업역사박물관",
+          "sido": "경기도",
+          "sigungu": "안산시",
+          "address": "경기도 안산시 단원구 화랑로 265",
+          "ownership_type": "공립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "09:00",
+          "weekday_close": "18:00",
+          "holiday_open": "09:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "월요일+1월1일+설연휴+추석연휴",
+          "amenities_raw": "수유실"
+        },
+        "base_data_date": "2026-03-05",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0846",
+      "name": "한국등잔박물관",
+      "document": "포은 정몽주 묘소 맞은편에 있는 한국등잔박물관은 박물관장 김동휘가 50여 년간 수집한 등잔들이 전시되어 있는 사립박물관이다. 국내 유일의 등기구 박물관으로 선조들의 옛 생활상을 살펴볼 수 있어 개인뿐 아니라 학생들의 체험학습 공간으로 많이 찾는 곳이다. 수원화성 성곽을 모티브로 지은 원통형의 등대 모양 건물은 지하 1층, 지상 3층 규모로 1, 2층은 전시 공간으로 3층은 세미나 및 각종 공연을 위한 다목적 공간으로 구성되어 있다. 또 별관 전시장에는 농기구 전시실이 있고 야외전시장인 연못과 자연석이 어우러진 아름다운 정원으로 가볍게 둘러보며 힐링하기 좋다. 상설전시실 1층에는 우리의 불그릇 등잔을 주제로 부엌, 찬방, 사랑방, 안방 등 공간별로 사용되었던 등잔의 종류와 용도를 옛 생활용품과 함께 전시되어 있으며, 2층은 일상을 지킨 빛과 예를 밝힌 빛을 주제로 시대별 등잔 양식과 특징을 한눈에 알아볼 수 있다. 또 1층 특별기획전시실에서는 지역작가 조명전을 개최해 경기도 내에서 왕성한 작품 활동을 펼치는 지역작가들을 소개하고 있다. 박물관에서는 다양한 어린이, 청소년, 성인을 대상으로 한 상설교육 프로그램과 특별교육 프로그램을 운영하고 있다. 초나 LED등, 도자 등잔 등을 만들어 볼 수 있어 특별한 추억을 선물한다. 포은 정몽주 묘소가 맞은편에 있으므로 연계해 함께 방문하기 좋다.",
+      "metadata": {
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/61/3584961_image2_1.jpg",
+        "requires_manual_review": true,
+        "weekday_close": "17:00",
+        "adult_fee": 8000.0,
+        "ownership_type": "사립",
+        "source_types": "TOUR_API",
+        "weekday_open": "10:00",
+        "closure_rule_raw": "매주 월요일~화요일,신정,설연휴,추석(당일)",
+        "latitude": 37.33658645,
+        "name": "한국등잔박물관",
+        "homepage_url": "https://www.deungjan.org",
+        "sido": "경기도",
+        "longitude": 127.1778809,
+        "adult_fee_status": "BASE_FEE_PAID",
+        "child_fee": 0.0,
+        "holiday_close": "17:00",
+        "address": "경기도 용인시 처인구 모현읍 능곡로56번길 8",
+        "sigungu": "용인시",
+        "holiday_open": "10:00",
+        "youth_fee": 5000.0,
+        "fee_notes": "3000",
+        "image_copyright": "Type1"
+      },
+      "vector_rank": null,
+      "bm25_rank": 4,
+      "vector_distance": null,
+      "vector_score": null,
+      "bm25_score": 17.604027564637732,
+      "vector_document": "",
+      "bm25_document": "포은 정몽주 묘소 맞은편에 있는 한국등잔박물관은 박물관장 김동휘가 50여 년간 수집한 등잔들이 전시되어 있는 사립박물관이다. 국내 유일의 등기구 박물관으로 선조들의 옛 생활상을 살펴볼 수 있어 개인뿐 아니라 학생들의 체험학습 공간으로 많이 찾는 곳이다. 수원화성 성곽을 모티브로 지은 원통형의 등대 모양 건물은 지하 1층, 지상 3층 규모로 1, 2층은 전시 공간으로 3층은 세미나 및 각종 공연을 위한 다목적 공간으로 구성되어 있다. 또 별관 전시장에는 농기구 전시실이 있고 야외전시장인 연못과 자연석이 어우러진 아름다운 정원으로 가볍게 둘러보며 힐링하기 좋다. 상설전시실 1층에는 우리의 불그릇 등잔을 주제로 부엌, 찬방, 사랑방, 안방 등 공간별로 사용되었던 등잔의 종류와 용도를 옛 생활용품과 함께 전시되어 있으며, 2층은 일상을 지킨 빛과 예를 밝힌 빛을 주제로 시대별 등잔 양식과 특징을 한눈에 알아볼 수 있다. 또 1층 특별기획전시실에서는 지역작가 조명전을 개최해 경기도 내에서 왕성한 작품 활동을 펼치는 지역작가들을 소개하고 있다. 박물관에서는 다양한 어린이, 청소년, 성인을 대상으로 한 상설교육 프로그램과 특별교육 프로그램을 운영하고 있다. 초나 LED등, 도자 등잔 등을 만들어 볼 수 있어 특별한 추억을 선물한다. 포은 정몽주 묘소가 맞은편에 있으므로 연계해 함께 방문하기 좋다.",
+      "best_span_id": "chroma:M0846",
+      "best_span_text": "포은 정몽주 묘소 맞은편에 있는 한국등잔박물관은 박물관장 김동휘가 50여 년간 수집한 등잔들이 전시되어 있는 사립박물관이다. 국내 유일의 등기구 박물관으로 선조들의 옛 생활상을 살펴볼 수 있어 개인뿐 아니라 학생들의 체험학습 공간으로 많이 찾는 곳이다. 수원화성 성곽을 모티브로 지은 원통형의 등대 모양 건물은 지하 1층, 지상 3층 규모로 1, 2층은 전시 공간으로 3층은 세미나 및 각종 공연을 위한 다목적 공간으로 구성되어 있다. 또 별관 전시장에는 농기구 전시실이 있고 야외전시장인 연못과 자연석이 어우러진 아름다운 정원으로 가볍게 둘러보며 힐링하기 좋다. 상설전시실 1층에는 우리의 불그릇 등잔을 주제로 부엌, 찬방, 사랑방, 안방 등 공간별로 사용되었던 등잔의 종류와 용도를 옛 생활용품과 함께 전시되어 있으며, 2층은 일상을 지킨 빛과 예를 밝힌 빛을 주제로 시대별 등잔 양식과 특징을 한눈에 알아볼 수 있다. 또 1층 특별기획전시실에서는 지역작가 조명전을 개최해 경기도 내에서 왕성한 작품 활동을 펼치는 지역작가들을 소개하고 있다. 박물관에서는 다양한 어린이, 청소년, 성인을 대상으로 한 상설교육 프로그램과 특별교육 프로그램을 운영하고 있다. 초나 LED등, 도자 등잔 등을 만들어 볼 수 있어 특별한 추억을 선물한다. 포은 정몽주 묘소가 맞은편에 있으므로 연계해 함께 방문하기 좋다.",
+      "fusion_score": 0.015625,
+      "retrieved_by": [
+        "bm25"
+      ],
+      "fusion_rank": 7,
+      "rerank_score": 0.01301396545022726,
+      "rank": 2,
+      "score": 0.01301396545022726,
+      "score_type": "cross_encoder",
+      "distance": null,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "bm25"
+      ],
+      "retriever": "bm25",
+      "span_id": "chroma:M0846",
+      "source_doc_ids": [
+        "DOC-B0846-TOUR_API-130147"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0846-TOUR_API-130147",
+          "source_type": "TOUR_API",
+          "source_record_id": "130147",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=400",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 69,
+          "doc_ids": [
+            "DOC-B0846-TOUR_API-130147"
+          ]
+        },
+        {
+          "start": 70,
+          "end": 141,
+          "doc_ids": [
+            "DOC-B0846-TOUR_API-130147"
+          ]
+        },
+        {
+          "start": 142,
+          "end": 243,
+          "doc_ids": [
+            "DOC-B0846-TOUR_API-130147"
+          ]
+        },
+        {
+          "start": 244,
+          "end": 315,
+          "doc_ids": [
+            "DOC-B0846-TOUR_API-130147"
+          ]
+        },
+        {
+          "start": 316,
+          "end": 460,
+          "doc_ids": [
+            "DOC-B0846-TOUR_API-130147"
+          ]
+        },
+        {
+          "start": 461,
+          "end": 529,
+          "doc_ids": [
+            "DOC-B0846-TOUR_API-130147"
+          ]
+        },
+        {
+          "start": 530,
+          "end": 592,
+          "doc_ids": [
+            "DOC-B0846-TOUR_API-130147"
+          ]
+        },
+        {
+          "start": 593,
+          "end": 635,
+          "doc_ids": [
+            "DOC-B0846-TOUR_API-130147"
+          ]
+        },
+        {
+          "start": 636,
+          "end": 672,
+          "doc_ids": [
+            "DOC-B0846-TOUR_API-130147"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=400",
+      "text": "포은 정몽주 묘소 맞은편에 있는 한국등잔박물관은 박물관장 김동휘가 50여 년간 수집한 등잔들이 전시되어 있는 사립박물관이다. 국내 유일의 등기구 박물관으로 선조들의 옛 생활상을 살펴볼 수 있어 개인뿐 아니라 학생들의 체험학습 공간으로 많이 찾는 곳이다. 수원화성 성곽을 모티브로 지은 원통형의 등대 모양 건물은 지하 1층, 지상 3층 규모로 1, 2층은 전시 공간으로 3층은 세미나 및 각종 공연을 위한 다목적 공간으로 구성되어 있다. 또 별관 전시장에는 농기구 전시실이 있고 야외전시장인 연못과 자연석이 어우러진 아름다운 정원으로 가볍게 둘러보며 힐링하기 좋다. 상설전시실 1층에는 우리의 불그릇 등잔을 주제로 부엌, 찬방, 사랑방, 안방 등 공간별로 사용되었던 등잔의 종류와 용도를 옛 생활용품과 함께 전시되어 있으며, 2층은 일상을 지킨 빛과 예를 밝힌 빛을 주제로 시대별 등잔 양식과 특징을 한눈에 알아볼 수 있다. 또 1층 특별기획전시실에서는 지역작가 조명전을 개최해 경기도 내에서 왕성한 작품 활동을 펼치는 지역작가들을 소개하고 있다. 박물관에서는 다양한 어린이, 청소년, 성인을 대상으로 한 상설교육 프로그램과 특별교육 프로그램을 운영하고 있다. 초나 LED등, 도자 등잔 등을 만들어 볼 수 있어 특별한 추억을 선물한다. 포은 정몽주 묘소가 맞은편에 있으므로 연계해 함께 방문하기 좋다.",
+      "sido": "경기도",
+      "sigungu": "용인시",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=400"
+      ],
+      "evidence_id": "E2",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=573",
+        "fields": {
+          "name": "한국등잔박물관",
+          "sido": "경기도",
+          "sigungu": "용인시",
+          "address": "경기도 용인시 처인구 모현읍 능곡로56번길 8",
+          "ownership_type": "사립",
+          "adult_fee": "8000",
+          "youth_fee": "5000",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_PAID",
+          "weekday_open": "10:00",
+          "weekday_close": "17:00",
+          "holiday_open": "10:00",
+          "holiday_close": "17:00",
+          "closure_rule_raw": "매주 월요일~화요일,신정,설연휴,추석(당일)"
+        },
+        "base_data_date": "2024-11-29",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0971",
+      "name": "금산인삼관",
+      "document": "금산인삼관은 고려인삼(금산인삼)의 우수성을 국내·외에 널리 알리고자 1998년에 신축 2005년 리노베이션을 거쳐, 2011년 리모델링을 하였으며 2017년 8월에 새롭게 개관 운영하고 있습니다. 금산인삼의 역사 인삼의 전통재배과정 인삼의 성분과 효능 국내외 인삼제품류 인삼음식 및 약초 등을 전시하고 각종 영상시설을 설치하여 인삼에 관한 모든 것을 눈으로 보고 듣고 이해할 수 있도록 연출하였습니다. 고려(금산) 인삼의 우수성을 국내·외에 널리 알리고자 인삼 재배, 기구, 모형, 효능, 음식, 인삼류, 제품류 등을 전시하고 각종 영상시설물이 설치되어 있다. 인삼에 관한 모든 정보를 쉽게 이해할 수 있는 인삼 종합전시관이다. 해마다 금산인삼제에서 인삼 선발대회가 열리는데 역대 수상 받은 인삼들이 1층 로비에 전시되어 있어 색다른 경험을 할 수 있다.",
+      "metadata": {
+        "child_fee": 0.0,
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/71/3559771_image2_1.jpg",
+        "name": "금산인삼관",
+        "source_types": "BASE|TOUR_API",
+        "homepage_url": "https://www.geumsan.go.kr/insam/",
+        "sigungu": "금산군",
+        "latitude": 36.1000256,
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "holiday_open": "09:00",
+        "weekday_open": "09:00",
+        "address": "충청남도 금산군 금산읍 인삼광장로30",
+        "image_copyright": "Type1",
+        "holiday_close": "18:00",
+        "requires_manual_review": true,
+        "youth_fee": 0.0,
+        "closure_rule_raw": "연중무휴",
+        "adult_fee": 0.0,
+        "weekday_close": "18:00",
+        "longitude": 127.5007304,
+        "ownership_type": "공립",
+        "sido": "충청남도"
+      },
+      "vector_rank": 17,
+      "bm25_rank": 3,
+      "vector_distance": 0.595295250415802,
+      "vector_score": null,
+      "bm25_score": 17.77025132790278,
+      "vector_document": "금산인삼관은 고려인삼(금산인삼)의 우수성을 국내·외에 널리 알리고자 1998년에 신축 2005년 리노베이션을 거쳐, 2011년 리모델링을 하였으며 2017년 8월에 새롭게 개관 운영하고 있습니다. 금산인삼의 역사 인삼의 전통재배과정 인삼의 성분과 효능 국내외 인삼제품류 인삼음식 및 약초 등을 전시하고 각종 영상시설을 설치하여 인삼에 관한 모든 것을 눈으로 보고 듣고 이해할 수 있도록 연출하였습니다. 고려(금산) 인삼의 우수성을 국내·외에 널리 알리고자 인삼 재배, 기구, 모형, 효능, 음식, 인삼류, 제품류 등을 전시하고 각종 영상시설물이 설치되어 있다. 인삼에 관한 모든 정보를 쉽게 이해할 수 있는 인삼 종합전시관이다. 해마다 금산인삼제에서 인삼 선발대회가 열리는데 역대 수상 받은 인삼들이 1층 로비에 전시되어 있어 색다른 경험을 할 수 있다.",
+      "bm25_document": "금산인삼관은 고려인삼(금산인삼)의 우수성을 국내·외에 널리 알리고자 1998년에 신축 2005년 리노베이션을 거쳐, 2011년 리모델링을 하였으며 2017년 8월에 새롭게 개관 운영하고 있습니다. 금산인삼의 역사 인삼의 전통재배과정 인삼의 성분과 효능 국내외 인삼제품류 인삼음식 및 약초 등을 전시하고 각종 영상시설을 설치하여 인삼에 관한 모든 것을 눈으로 보고 듣고 이해할 수 있도록 연출하였습니다. 고려(금산) 인삼의 우수성을 국내·외에 널리 알리고자 인삼 재배, 기구, 모형, 효능, 음식, 인삼류, 제품류 등을 전시하고 각종 영상시설물이 설치되어 있다. 인삼에 관한 모든 정보를 쉽게 이해할 수 있는 인삼 종합전시관이다. 해마다 금산인삼제에서 인삼 선발대회가 열리는데 역대 수상 받은 인삼들이 1층 로비에 전시되어 있어 색다른 경험을 할 수 있다.",
+      "best_span_id": "chroma:M0971",
+      "best_span_text": "금산인삼관은 고려인삼(금산인삼)의 우수성을 국내·외에 널리 알리고자 1998년에 신축 2005년 리노베이션을 거쳐, 2011년 리모델링을 하였으며 2017년 8월에 새롭게 개관 운영하고 있습니다. 금산인삼의 역사 인삼의 전통재배과정 인삼의 성분과 효능 국내외 인삼제품류 인삼음식 및 약초 등을 전시하고 각종 영상시설을 설치하여 인삼에 관한 모든 것을 눈으로 보고 듣고 이해할 수 있도록 연출하였습니다. 고려(금산) 인삼의 우수성을 국내·외에 널리 알리고자 인삼 재배, 기구, 모형, 효능, 음식, 인삼류, 제품류 등을 전시하고 각종 영상시설물이 설치되어 있다. 인삼에 관한 모든 정보를 쉽게 이해할 수 있는 인삼 종합전시관이다. 해마다 금산인삼제에서 인삼 선발대회가 열리는데 역대 수상 받은 인삼들이 1층 로비에 전시되어 있어 색다른 경험을 할 수 있다.",
+      "fusion_score": 0.02886002886002886,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 3,
+      "rerank_score": 0.009505006484687328,
+      "rank": 3,
+      "score": 0.009505006484687328,
+      "score_type": "cross_encoder",
+      "distance": 0.595295250415802,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0971",
+      "source_doc_ids": [
+        "DOC-B0971-BASE",
+        "DOC-B0971-TOUR_API-2470404"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0971-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0971",
+          "source_locator": "data/raw/museum_base_1070.csv#row=972",
+          "match_trust": "BASE_SOURCE"
+        },
+        {
+          "doc_id": "DOC-B0971-TOUR_API-2470404",
+          "source_type": "TOUR_API",
+          "source_record_id": "2470404",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=455",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 109,
+          "doc_ids": [
+            "DOC-B0971-BASE"
+          ]
+        },
+        {
+          "start": 110,
+          "end": 224,
+          "doc_ids": [
+            "DOC-B0971-BASE"
+          ]
+        },
+        {
+          "start": 225,
+          "end": 313,
+          "doc_ids": [
+            "DOC-B0971-TOUR_API-2470404"
+          ]
+        },
+        {
+          "start": 314,
+          "end": 351,
+          "doc_ids": [
+            "DOC-B0971-TOUR_API-2470404"
+          ]
+        },
+        {
+          "start": 352,
+          "end": 422,
+          "doc_ids": [
+            "DOC-B0971-TOUR_API-2470404"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_base_1070.csv#row=972",
+      "text": "금산인삼관은 고려인삼(금산인삼)의 우수성을 국내·외에 널리 알리고자 1998년에 신축 2005년 리노베이션을 거쳐, 2011년 리모델링을 하였으며 2017년 8월에 새롭게 개관 운영하고 있습니다. 금산인삼의 역사 인삼의 전통재배과정 인삼의 성분과 효능 국내외 인삼제품류 인삼음식 및 약초 등을 전시하고 각종 영상시설을 설치하여 인삼에 관한 모든 것을 눈으로 보고 듣고 이해할 수 있도록 연출하였습니다. 고려(금산) 인삼의 우수성을 국내·외에 널리 알리고자 인삼 재배, 기구, 모형, 효능, 음식, 인삼류, 제품류 등을 전시하고 각종 영상시설물이 설치되어 있다. 인삼에 관한 모든 정보를 쉽게 이해할 수 있는 인삼 종합전시관이다. 해마다 금산인삼제에서 인삼 선발대회가 열리는데 역대 수상 받은 인삼들이 1층 로비에 전시되어 있어 색다른 경험을 할 수 있다.",
+      "sido": "충청남도",
+      "sigungu": "금산군",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_base_1070.csv#row=972"
+      ],
+      "evidence_id": "E3",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=667",
+        "fields": {
+          "name": "금산인삼관",
+          "sido": "충청남도",
+          "sigungu": "금산군",
+          "address": "충청남도 금산군 금산읍 인삼광장로30",
+          "ownership_type": "공립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "09:00",
+          "weekday_close": "18:00",
+          "holiday_open": "09:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "연중무휴"
+        },
+        "base_data_date": "2025-11-19",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0972",
+      "name": "금산역사문화박물관",
+      "document": "금산역사문화박물관은 금산의 역사와 문화를 한자리에서 살펴볼 수 있는 공간이다. 1층은 금산 역사관, 2층은 금산 생활 민속관으로 나뉜다. 금산에 인류가 첫발을 내디딘 구석기시대부터 백제와 신라가 금산을 두고 각축전을 벌였던 삼국시대, 원나라에서 벼슬을 한 공을 인정받아 고향인 금산을 금주(錦州)로 승격시킨 성리학자 김신이 활동했던 고려, 조선왕조의 태실을 묻을 만큼 길지로 평가받았던 조선, 금산군수 홍범식을 비롯한 독립운동의 역사를 간직한 근현대가 순서대로 이어진다. 금산 생활 민속관에는 과거 전라북도에 속했던 터라 전라좌도농악의 특징이 녹아있는 금산농악과 세계중요농업유산으로 선정된 금산의 인삼 농사 기술을 만나볼 수 있다. 또 세계 각국의 생활 민속을 함께 비교해 볼 수 있는 지구촌 생활 민속실도 마련돼 있다. 금산역사문화박물관은 지하1층 지상3층 규모로 1층 금산역사관에는 선사시대부터 근현대까지 금산의 역사와 발굴유물을 전시하고 있으며 2층 금산생활민속관에는 금산의 민속유물과 세계민속유물을 전시하고 있습니다.",
+      "metadata": {
+        "closure_rule_raw": "월+1월1일+설 당일+추석 당일",
+        "address": "충청남도 금산군 금산읍 금산로 1575",
+        "latitude": 36.1141664,
+        "holiday_open": "09:00",
+        "child_fee": 0.0,
+        "requires_manual_review": true,
+        "weekday_open": "09:00",
+        "youth_fee": 0.0,
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/86/3559586_image2_1.jpg",
+        "sigungu": "금산군",
+        "homepage_url": "https://www.geumsan.go.kr/museum/",
+        "ownership_type": "공립",
+        "source_types": "BASE|TOUR_API",
+        "name": "금산역사문화박물관",
+        "holiday_close": "18:00",
+        "sido": "충청남도",
+        "adult_fee": 0.0,
+        "weekday_close": "18:00",
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "longitude": 127.4918544,
+        "image_copyright": "Type1"
+      },
+      "vector_rank": 2,
+      "bm25_rank": 7,
+      "vector_distance": 0.49720531702041626,
+      "vector_score": null,
+      "bm25_score": 15.626269448808817,
+      "vector_document": "금산역사문화박물관은 금산의 역사와 문화를 한자리에서 살펴볼 수 있는 공간이다. 1층은 금산 역사관, 2층은 금산 생활 민속관으로 나뉜다. 금산에 인류가 첫발을 내디딘 구석기시대부터 백제와 신라가 금산을 두고 각축전을 벌였던 삼국시대, 원나라에서 벼슬을 한 공을 인정받아 고향인 금산을 금주(錦州)로 승격시킨 성리학자 김신이 활동했던 고려, 조선왕조의 태실을 묻을 만큼 길지로 평가받았던 조선, 금산군수 홍범식을 비롯한 독립운동의 역사를 간직한 근현대가 순서대로 이어진다. 금산 생활 민속관에는 과거 전라북도에 속했던 터라 전라좌도농악의 특징이 녹아있는 금산농악과 세계중요농업유산으로 선정된 금산의 인삼 농사 기술을 만나볼 수 있다. 또 세계 각국의 생활 민속을 함께 비교해 볼 수 있는 지구촌 생활 민속실도 마련돼 있다. 금산역사문화박물관은 지하1층 지상3층 규모로 1층 금산역사관에는 선사시대부터 근현대까지 금산의 역사와 발굴유물을 전시하고 있으며 2층 금산생활민속관에는 금산의 민속유물과 세계민속유물을 전시하고 있습니다.",
+      "bm25_document": "금산역사문화박물관은 금산의 역사와 문화를 한자리에서 살펴볼 수 있는 공간이다. 1층은 금산 역사관, 2층은 금산 생활 민속관으로 나뉜다. 금산에 인류가 첫발을 내디딘 구석기시대부터 백제와 신라가 금산을 두고 각축전을 벌였던 삼국시대, 원나라에서 벼슬을 한 공을 인정받아 고향인 금산을 금주(錦州)로 승격시킨 성리학자 김신이 활동했던 고려, 조선왕조의 태실을 묻을 만큼 길지로 평가받았던 조선, 금산군수 홍범식을 비롯한 독립운동의 역사를 간직한 근현대가 순서대로 이어진다. 금산 생활 민속관에는 과거 전라북도에 속했던 터라 전라좌도농악의 특징이 녹아있는 금산농악과 세계중요농업유산으로 선정된 금산의 인삼 농사 기술을 만나볼 수 있다. 또 세계 각국의 생활 민속을 함께 비교해 볼 수 있는 지구촌 생활 민속실도 마련돼 있다. 금산역사문화박물관은 지하1층 지상3층 규모로 1층 금산역사관에는 선사시대부터 근현대까지 금산의 역사와 발굴유물을 전시하고 있으며 2층 금산생활민속관에는 금산의 민속유물과 세계민속유물을 전시하고 있습니다.",
+      "best_span_id": "chroma:M0972",
+      "best_span_text": "금산역사문화박물관은 금산의 역사와 문화를 한자리에서 살펴볼 수 있는 공간이다. 1층은 금산 역사관, 2층은 금산 생활 민속관으로 나뉜다. 금산에 인류가 첫발을 내디딘 구석기시대부터 백제와 신라가 금산을 두고 각축전을 벌였던 삼국시대, 원나라에서 벼슬을 한 공을 인정받아 고향인 금산을 금주(錦州)로 승격시킨 성리학자 김신이 활동했던 고려, 조선왕조의 태실을 묻을 만큼 길지로 평가받았던 조선, 금산군수 홍범식을 비롯한 독립운동의 역사를 간직한 근현대가 순서대로 이어진다. 금산 생활 민속관에는 과거 전라북도에 속했던 터라 전라좌도농악의 특징이 녹아있는 금산농악과 세계중요농업유산으로 선정된 금산의 인삼 농사 기술을 만나볼 수 있다. 또 세계 각국의 생활 민속을 함께 비교해 볼 수 있는 지구촌 생활 민속실도 마련돼 있다. 금산역사문화박물관은 지하1층 지상3층 규모로 1층 금산역사관에는 선사시대부터 근현대까지 금산의 역사와 발굴유물을 전시하고 있으며 2층 금산생활민속관에는 금산의 민속유물과 세계민속유물을 전시하고 있습니다.",
+      "fusion_score": 0.031054405392392875,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 2,
+      "rerank_score": 0.002866929629817605,
+      "rank": 4,
+      "score": 0.002866929629817605,
+      "score_type": "cross_encoder",
+      "distance": 0.49720531702041626,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0972",
+      "source_doc_ids": [
+        "DOC-B0972-TOUR_API-2782404",
+        "DOC-B0972-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0972-TOUR_API-2782404",
+          "source_type": "TOUR_API",
+          "source_record_id": "2782404",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=456",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        },
+        {
+          "doc_id": "DOC-B0972-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0972",
+          "source_locator": "data/raw/museum_base_1070.csv#row=973",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 43,
+          "doc_ids": [
+            "DOC-B0972-TOUR_API-2782404"
+          ]
+        },
+        {
+          "start": 44,
+          "end": 76,
+          "doc_ids": [
+            "DOC-B0972-TOUR_API-2782404"
+          ]
+        },
+        {
+          "start": 77,
+          "end": 263,
+          "doc_ids": [
+            "DOC-B0972-TOUR_API-2782404"
+          ]
+        },
+        {
+          "start": 264,
+          "end": 353,
+          "doc_ids": [
+            "DOC-B0972-TOUR_API-2782404"
+          ]
+        },
+        {
+          "start": 354,
+          "end": 403,
+          "doc_ids": [
+            "DOC-B0972-TOUR_API-2782404"
+          ]
+        },
+        {
+          "start": 404,
+          "end": 517,
+          "doc_ids": [
+            "DOC-B0972-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=456",
+      "text": "금산역사문화박물관은 금산의 역사와 문화를 한자리에서 살펴볼 수 있는 공간이다. 1층은 금산 역사관, 2층은 금산 생활 민속관으로 나뉜다. 금산에 인류가 첫발을 내디딘 구석기시대부터 백제와 신라가 금산을 두고 각축전을 벌였던 삼국시대, 원나라에서 벼슬을 한 공을 인정받아 고향인 금산을 금주(錦州)로 승격시킨 성리학자 김신이 활동했던 고려, 조선왕조의 태실을 묻을 만큼 길지로 평가받았던 조선, 금산군수 홍범식을 비롯한 독립운동의 역사를 간직한 근현대가 순서대로 이어진다. 금산 생활 민속관에는 과거 전라북도에 속했던 터라 전라좌도농악의 특징이 녹아있는 금산농악과 세계중요농업유산으로 선정된 금산의 인삼 농사 기술을 만나볼 수 있다. 또 세계 각국의 생활 민속을 함께 비교해 볼 수 있는 지구촌 생활 민속실도 마련돼 있다. 금산역사문화박물관은 지하1층 지상3층 규모로 1층 금산역사관에는 선사시대부터 근현대까지 금산의 역사와 발굴유물을 전시하고 있으며 2층 금산생활민속관에는 금산의 민속유물과 세계민속유물을 전시하고 있습니다.",
+      "sido": "충청남도",
+      "sigungu": "금산군",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=456"
+      ],
+      "evidence_id": "E4",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=668",
+        "fields": {
+          "name": "금산역사문화박물관",
+          "sido": "충청남도",
+          "sigungu": "금산군",
+          "address": "충청남도 금산군 금산읍 금산로 1575",
+          "ownership_type": "공립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "09:00",
+          "weekday_close": "18:00",
+          "holiday_open": "09:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "월+1월1일+설 당일+추석 당일"
+        },
+        "base_data_date": "2025-11-19",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0473",
+      "name": "자유수호평화박물관",
+      "document": "동두천 소요산 내에 위치한 자유수호 평화박물관은 한국전쟁의 참상을 통해 자유와 평화를 사랑하는 모든 분들의 희생을 기리고 후손들에게 전하고자 건립한 곳이다. 이곳은 한국전쟁 당시 나라를 지키기 위해 희생하신 국군과 유엔군의 고귀한 정신을 기리고 다양한 전시자료를 통해 전 세계에 널리 알리고 있다. 또한 민족 상잔의 비극이 되풀이 되지 않도록 온 국민의 안보 교육장으로 활용하기 위하여 운영되고 있다. 40,000㎡ 부지의 지상 4층 건물로 1층 전시장은 로비 및 기획전시공간으로 해방부터 6.25전쟁 후까지 시대적 사실을 12개의 도자기로 표현한 이미지 부조와 전쟁으로부터 자유와 평화를 지키기 위한 병사의 역동적인 몸짓과 세계평화를 표현한 상징물들이 있으며 기획 전시실이 있다. 2층 전시장은 주전시관으로 유엔 참전 전투지원 16개국과 의료지원 5개국의 유물과 자료가 전시되어 있고, 3층 전시관은 영상관으로 6.25전쟁에 관한 자료를 영상으로 소개하고 있다. 이호왕기념관에서는 대한민국의 대표적 의학자이자 미생물학자인 이호왕박사에 대한 자료를 전시하고 있다. 야외 전시장에는 6.25 전쟁부터 최근까지 군에서 사용하던 비행기 및 탱크 등 총 15점의 대형장비를 전시하고 있다. 실감콘텐츠 체험존에서는 다양한 체험 프로그램이 준비되어 있다. 경기의 소금강으로 잘 알려진 소요산 내에 박물관이 위치하고 있어 관광 및 등산 여가를 함께 즐길 수 있으며, 근처에 외국인 특화 거리도 있어 작은 미국을 경험할 수도 있다. 잊혀져 가는 6.25전쟁에 대한 이해와 자유와 평화를 수호하기 위하여 희생하신 분들의 뜻을 기리고 유엔 참전국과의 우호 증진을 위해 건립된 박물관",
+      "metadata": {
+        "holiday_close": "18:00",
+        "latitude": 37.94250187,
+        "homepage_url": "https://www.ddc.go.kr/museum/index.do",
+        "closure_rule_raw": "월 (단, 월요일이 공휴일인 경우 당일은 개관하고 그 다음 첫번째 평일에 휴관)+1월1일+설날 및 추석 당일",
+        "ownership_type": "공립",
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "name": "자유수호평화박물관",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/03/4124103_image2_1.jpg",
+        "sido": "경기도",
+        "adult_fee": 0.0,
+        "image_copyright": "Type1",
+        "transport_notes": "1호선 소요산역 1번 출구+도보 15분",
+        "weekday_close": "18:00",
+        "amenities_raw": "휴게공간",
+        "holiday_open": "09:00",
+        "sigungu": "동두천시",
+        "source_types": "BASE|TOUR_API",
+        "requires_manual_review": true,
+        "child_fee": 0.0,
+        "youth_fee": 0.0,
+        "weekday_open": "09:00",
+        "address": "경기도 동두천시 평화로 2910번길 96-63",
+        "fee_notes": "무료",
+        "longitude": 127.0660561
+      },
+      "vector_rank": null,
+      "bm25_rank": 5,
+      "vector_distance": null,
+      "vector_score": null,
+      "bm25_score": 15.752469615737272,
+      "vector_document": "",
+      "bm25_document": "동두천 소요산 내에 위치한 자유수호 평화박물관은 한국전쟁의 참상을 통해 자유와 평화를 사랑하는 모든 분들의 희생을 기리고 후손들에게 전하고자 건립한 곳이다. 이곳은 한국전쟁 당시 나라를 지키기 위해 희생하신 국군과 유엔군의 고귀한 정신을 기리고 다양한 전시자료를 통해 전 세계에 널리 알리고 있다. 또한 민족 상잔의 비극이 되풀이 되지 않도록 온 국민의 안보 교육장으로 활용하기 위하여 운영되고 있다. 40,000㎡ 부지의 지상 4층 건물로 1층 전시장은 로비 및 기획전시공간으로 해방부터 6.25전쟁 후까지 시대적 사실을 12개의 도자기로 표현한 이미지 부조와 전쟁으로부터 자유와 평화를 지키기 위한 병사의 역동적인 몸짓과 세계평화를 표현한 상징물들이 있으며 기획 전시실이 있다. 2층 전시장은 주전시관으로 유엔 참전 전투지원 16개국과 의료지원 5개국의 유물과 자료가 전시되어 있고, 3층 전시관은 영상관으로 6.25전쟁에 관한 자료를 영상으로 소개하고 있다. 이호왕기념관에서는 대한민국의 대표적 의학자이자 미생물학자인 이호왕박사에 대한 자료를 전시하고 있다. 야외 전시장에는 6.25 전쟁부터 최근까지 군에서 사용하던 비행기 및 탱크 등 총 15점의 대형장비를 전시하고 있다. 실감콘텐츠 체험존에서는 다양한 체험 프로그램이 준비되어 있다. 경기의 소금강으로 잘 알려진 소요산 내에 박물관이 위치하고 있어 관광 및 등산 여가를 함께 즐길 수 있으며, 근처에 외국인 특화 거리도 있어 작은 미국을 경험할 수도 있다. 잊혀져 가는 6.25전쟁에 대한 이해와 자유와 평화를 수호하기 위하여 희생하신 분들의 뜻을 기리고 유엔 참전국과의 우호 증진을 위해 건립된 박물관",
+      "best_span_id": "chroma:M0473",
+      "best_span_text": "동두천 소요산 내에 위치한 자유수호 평화박물관은 한국전쟁의 참상을 통해 자유와 평화를 사랑하는 모든 분들의 희생을 기리고 후손들에게 전하고자 건립한 곳이다. 이곳은 한국전쟁 당시 나라를 지키기 위해 희생하신 국군과 유엔군의 고귀한 정신을 기리고 다양한 전시자료를 통해 전 세계에 널리 알리고 있다. 또한 민족 상잔의 비극이 되풀이 되지 않도록 온 국민의 안보 교육장으로 활용하기 위하여 운영되고 있다. 40,000㎡ 부지의 지상 4층 건물로 1층 전시장은 로비 및 기획전시공간으로 해방부터 6.25전쟁 후까지 시대적 사실을 12개의 도자기로 표현한 이미지 부조와 전쟁으로부터 자유와 평화를 지키기 위한 병사의 역동적인 몸짓과 세계평화를 표현한 상징물들이 있으며 기획 전시실이 있다. 2층 전시장은 주전시관으로 유엔 참전 전투지원 16개국과 의료지원 5개국의 유물과 자료가 전시되어 있고, 3층 전시관은 영상관으로 6.25전쟁에 관한 자료를 영상으로 소개하고 있다. 이호왕기념관에서는 대한민국의 대표적 의학자이자 미생물학자인 이호왕박사에 대한 자료를 전시하고 있다. 야외 전시장에는 6.25 전쟁부터 최근까지 군에서 사용하던 비행기 및 탱크 등 총 15점의 대형장비를 전시하고 있다. 실감콘텐츠 체험존에서는 다양한 체험 프로그램이 준비되어 있다. 경기의 소금강으로 잘 알려진 소요산 내에 박물관이 위치하고 있어 관광 및 등산 여가를 함께 즐길 수 있으며, 근처에 외국인 특화 거리도 있어 작은 미국을 경험할 수도 있다. 잊혀져 가는 6.25전쟁에 대한 이해와 자유와 평화를 수호하기 위하여 희생하신 분들의 뜻을 기리고 유엔 참전국과의 우호 증진을 위해 건립된 박물관",
+      "fusion_score": 0.015384615384615385,
+      "retrieved_by": [
+        "bm25"
+      ],
+      "fusion_rank": 9,
+      "rerank_score": 0.0024446400348097086,
+      "rank": 5,
+      "score": 0.0024446400348097086,
+      "score_type": "cross_encoder",
+      "distance": null,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "bm25"
+      ],
+      "retriever": "bm25",
+      "span_id": "chroma:M0473",
+      "source_doc_ids": [
+        "DOC-B0473-TOUR_API-130685",
+        "DOC-B0473-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0473-TOUR_API-130685",
+          "source_type": "TOUR_API",
+          "source_record_id": "130685",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=232",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        },
+        {
+          "doc_id": "DOC-B0473-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0473",
+          "source_locator": "data/raw/museum_base_1070.csv#row=474",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 87,
+          "doc_ids": [
+            "DOC-B0473-TOUR_API-130685"
+          ]
+        },
+        {
+          "start": 88,
+          "end": 166,
+          "doc_ids": [
+            "DOC-B0473-TOUR_API-130685"
+          ]
+        },
+        {
+          "start": 167,
+          "end": 224,
+          "doc_ids": [
+            "DOC-B0473-TOUR_API-130685"
+          ]
+        },
+        {
+          "start": 225,
+          "end": 381,
+          "doc_ids": [
+            "DOC-B0473-TOUR_API-130685"
+          ]
+        },
+        {
+          "start": 382,
+          "end": 483,
+          "doc_ids": [
+            "DOC-B0473-TOUR_API-130685"
+          ]
+        },
+        {
+          "start": 484,
+          "end": 539,
+          "doc_ids": [
+            "DOC-B0473-TOUR_API-130685"
+          ]
+        },
+        {
+          "start": 540,
+          "end": 605,
+          "doc_ids": [
+            "DOC-B0473-TOUR_API-130685"
+          ]
+        },
+        {
+          "start": 606,
+          "end": 640,
+          "doc_ids": [
+            "DOC-B0473-TOUR_API-130685"
+          ]
+        },
+        {
+          "start": 641,
+          "end": 737,
+          "doc_ids": [
+            "DOC-B0473-TOUR_API-130685"
+          ]
+        },
+        {
+          "start": 738,
+          "end": 819,
+          "doc_ids": [
+            "DOC-B0473-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=232",
+      "text": "동두천 소요산 내에 위치한 자유수호 평화박물관은 한국전쟁의 참상을 통해 자유와 평화를 사랑하는 모든 분들의 희생을 기리고 후손들에게 전하고자 건립한 곳이다. 이곳은 한국전쟁 당시 나라를 지키기 위해 희생하신 국군과 유엔군의 고귀한 정신을 기리고 다양한 전시자료를 통해 전 세계에 널리 알리고 있다. 또한 민족 상잔의 비극이 되풀이 되지 않도록 온 국민의 안보 교육장으로 활용하기 위하여 운영되고 있다. 40,000㎡ 부지의 지상 4층 건물로 1층 전시장은 로비 및 기획전시공간으로 해방부터 6.25전쟁 후까지 시대적 사실을 12개의 도자기로 표현한 이미지 부조와 전쟁으로부터 자유와 평화를 지키기 위한 병사의 역동적인 몸짓과 세계평화를 표현한 상징물들이 있으며 기획 전시실이 있다. 2층 전시장은 주전시관으로 유엔 참전 전투지원 16개국과 의료지원 5개국의 유물과 자료가 전시되어 있고, 3층 전시관은 영상관으로 6.25전쟁에 관한 자료를 영상으로 소개하고 있다. 이호왕기념관에서는 대한민국의 대표적 의학자이자 미생물학자인 이호왕박사에 대한 자료를 전시하고 있다. 야외 전시장에는 6.25 전쟁부터 최근까지 군에서 사용하던 비행기 및 탱크 등 총 15점의 대형장비를 전시하고 있다. 실감콘텐츠 체험존에서는 다양한 체험 프로그램이 준비되어 있다. 경기의 소금강으로 잘 알려진 소요산 내에 박물관이 위치하고 있어 관광 및 등산 여가를 함께 즐길 수 있으며, 근처에 외국인 특화 거리도 있어 작은 미국을 경험할 수도 있다. 잊혀져 가는 6.25전쟁에 대한 이해와 자유와 평화를 수호하기 위하여 희생하신 분들의 뜻을 기리고 유엔 참전국과의 우호 증진을 위해 건립된 박물관",
+      "sido": "경기도",
+      "sigungu": "동두천시",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=232"
+      ],
+      "evidence_id": "E5",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=344",
+        "fields": {
+          "name": "자유수호평화박물관",
+          "sido": "경기도",
+          "sigungu": "동두천시",
+          "address": "경기도 동두천시 평화로 2910번길 96-63",
+          "ownership_type": "공립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "09:00",
+          "weekday_close": "18:00",
+          "holiday_open": "09:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "월 (단, 월요일이 공휴일인 경우 당일은 개관하고 그 다음 첫번째 평일에 휴관)+1월1일+설날 및 추석 당일",
+          "amenities_raw": "휴게공간"
+        },
+        "base_data_date": "2026-03-12",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    }
+  ],
+  "answer": "1층 로비에는 압력솥·컴퓨터·난로 등 일상에서 사용하던 제품이 전시되어 있습니다. [E1] 2층 상설전시장에는 각종 기계와 부품, 자동차, TV, 전화기, 목제 솜틀 등이 전시되어 있습니다. [E1]",
+  "retrieval_status": "ok",
+  "answer_status": "answered",
+  "route": "hybrid",
+  "retry_count": 0,
+  "supervisor_verified": true,
+  "rerank_applied": true,
+  "retriever_errors": [],
+  "warnings": [],
+  "duration_ms": 73604.46,
+  "error_type": "",
+  "hit_at_1": 1,
+  "hit_at_3": 1,
+  "hit_at_5": 1,
+  "recall_at_5": 1.0,
+  "mrr_at_10": 1.0
+}

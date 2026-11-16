@@ -1,0 +1,641 @@
+{
+  "mode": "supervisor_full",
+  "question_id": "Q299",
+  "evidence": [
+    {
+      "museum_id": "M0525",
+      "name": "국립관세박물관",
+      "document": "국립관세박물관은 강남구에 위치한 국립박물관으로, 개항기부터 현대까지 한국 경제사와 함께한 관세 문화를 경험할 수 있는 공간이다. 박물관은 총 3개 주제관인 관세역사관, 관세행정관, 관세외교관이 있으며, 핸즈온 전시 공간인 공항 체험과 해외직구시 사용하는 유니패스존에서는 인터렉티브 체험을 할 수 있다. 또한 박물관 관람 시에는 전시실에 비치된 전시 활동지와 모바일을 활용한 웹콘텐츠로 관세 문화를 입체적으로 경험 할 수 있다. 관세 문화를 더 깊이 체험하고자 할 때에는 별도 전화 예약을 통해 박물관 교육에 참여 가능하다. 관세박물관을 통해 세관의 역사를 재조명하고 관세 주권과 국익을 지켜온 관세인의 노고를 기억함으로써 국민들에게 세관에 대한 이해를 높이는 한편, 더 발전된 미래로 나아가기 위한 교훈의 장으로 삼고자 하는 취지를 가지고 있다.",
+      "metadata": {
+        "requires_manual_review": true,
+        "weekday_open": "10:00",
+        "holiday_open": "00:00",
+        "child_fee": 0.0,
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "source_types": "TOUR_API",
+        "address": "서울특별시 강남구 언주로 721",
+        "homepage_url": "https://www.customs.go.kr/seoul",
+        "ownership_type": "국립",
+        "adult_fee": 0.0,
+        "closure_rule_raw": "주말 및 공휴일",
+        "sido": "서울특별시",
+        "longitude": 127.033779,
+        "name": "국립관세박물관",
+        "holiday_close": "00:00",
+        "youth_fee": 0.0,
+        "latitude": 37.518374,
+        "image_copyright": "Type3",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/25/3503425_image2_1.jpg",
+        "weekday_close": "18:00",
+        "sigungu": "강남구"
+      },
+      "vector_rank": 2,
+      "bm25_rank": 1,
+      "vector_distance": 0.5063587427139282,
+      "vector_score": null,
+      "bm25_score": 41.61061585917216,
+      "vector_document": "국립관세박물관은 강남구에 위치한 국립박물관으로, 개항기부터 현대까지 한국 경제사와 함께한 관세 문화를 경험할 수 있는 공간이다. 박물관은 총 3개 주제관인 관세역사관, 관세행정관, 관세외교관이 있으며, 핸즈온 전시 공간인 공항 체험과 해외직구시 사용하는 유니패스존에서는 인터렉티브 체험을 할 수 있다. 또한 박물관 관람 시에는 전시실에 비치된 전시 활동지와 모바일을 활용한 웹콘텐츠로 관세 문화를 입체적으로 경험 할 수 있다. 관세 문화를 더 깊이 체험하고자 할 때에는 별도 전화 예약을 통해 박물관 교육에 참여 가능하다. 관세박물관을 통해 세관의 역사를 재조명하고 관세 주권과 국익을 지켜온 관세인의 노고를 기억함으로써 국민들에게 세관에 대한 이해를 높이는 한편, 더 발전된 미래로 나아가기 위한 교훈의 장으로 삼고자 하는 취지를 가지고 있다.",
+      "bm25_document": "국립관세박물관은 강남구에 위치한 국립박물관으로, 개항기부터 현대까지 한국 경제사와 함께한 관세 문화를 경험할 수 있는 공간이다. 박물관은 총 3개 주제관인 관세역사관, 관세행정관, 관세외교관이 있으며, 핸즈온 전시 공간인 공항 체험과 해외직구시 사용하는 유니패스존에서는 인터렉티브 체험을 할 수 있다. 또한 박물관 관람 시에는 전시실에 비치된 전시 활동지와 모바일을 활용한 웹콘텐츠로 관세 문화를 입체적으로 경험 할 수 있다. 관세 문화를 더 깊이 체험하고자 할 때에는 별도 전화 예약을 통해 박물관 교육에 참여 가능하다. 관세박물관을 통해 세관의 역사를 재조명하고 관세 주권과 국익을 지켜온 관세인의 노고를 기억함으로써 국민들에게 세관에 대한 이해를 높이는 한편, 더 발전된 미래로 나아가기 위한 교훈의 장으로 삼고자 하는 취지를 가지고 있다.",
+      "best_span_id": "chroma:M0525",
+      "best_span_text": "국립관세박물관은 강남구에 위치한 국립박물관으로, 개항기부터 현대까지 한국 경제사와 함께한 관세 문화를 경험할 수 있는 공간이다. 박물관은 총 3개 주제관인 관세역사관, 관세행정관, 관세외교관이 있으며, 핸즈온 전시 공간인 공항 체험과 해외직구시 사용하는 유니패스존에서는 인터렉티브 체험을 할 수 있다. 또한 박물관 관람 시에는 전시실에 비치된 전시 활동지와 모바일을 활용한 웹콘텐츠로 관세 문화를 입체적으로 경험 할 수 있다. 관세 문화를 더 깊이 체험하고자 할 때에는 별도 전화 예약을 통해 박물관 교육에 참여 가능하다. 관세박물관을 통해 세관의 역사를 재조명하고 관세 주권과 국익을 지켜온 관세인의 노고를 기억함으로써 국민들에게 세관에 대한 이해를 높이는 한편, 더 발전된 미래로 나아가기 위한 교훈의 장으로 삼고자 하는 취지를 가지고 있다.",
+      "fusion_score": 0.03252247488101534,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 1,
+      "rerank_score": null,
+      "rank": 1,
+      "score": 0.03252247488101534,
+      "score_type": "rrf",
+      "distance": 0.5063587427139282,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0525",
+      "source_doc_ids": [
+        "DOC-B0525-TOUR_API-130924"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0525-TOUR_API-130924",
+          "source_type": "TOUR_API",
+          "source_record_id": "130924",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=259",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 71,
+          "doc_ids": [
+            "DOC-B0525-TOUR_API-130924"
+          ]
+        },
+        {
+          "start": 72,
+          "end": 168,
+          "doc_ids": [
+            "DOC-B0525-TOUR_API-130924"
+          ]
+        },
+        {
+          "start": 169,
+          "end": 238,
+          "doc_ids": [
+            "DOC-B0525-TOUR_API-130924"
+          ]
+        },
+        {
+          "start": 239,
+          "end": 292,
+          "doc_ids": [
+            "DOC-B0525-TOUR_API-130924"
+          ]
+        },
+        {
+          "start": 293,
+          "end": 417,
+          "doc_ids": [
+            "DOC-B0525-TOUR_API-130924"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=259",
+      "text": "국립관세박물관은 강남구에 위치한 국립박물관으로, 개항기부터 현대까지 한국 경제사와 함께한 관세 문화를 경험할 수 있는 공간이다. 박물관은 총 3개 주제관인 관세역사관, 관세행정관, 관세외교관이 있으며, 핸즈온 전시 공간인 공항 체험과 해외직구시 사용하는 유니패스존에서는 인터렉티브 체험을 할 수 있다. 또한 박물관 관람 시에는 전시실에 비치된 전시 활동지와 모바일을 활용한 웹콘텐츠로 관세 문화를 입체적으로 경험 할 수 있다. 관세 문화를 더 깊이 체험하고자 할 때에는 별도 전화 예약을 통해 박물관 교육에 참여 가능하다. 관세박물관을 통해 세관의 역사를 재조명하고 관세 주권과 국익을 지켜온 관세인의 노고를 기억함으로써 국민들에게 세관에 대한 이해를 높이는 한편, 더 발전된 미래로 나아가기 위한 교훈의 장으로 삼고자 하는 취지를 가지고 있다.",
+      "sido": "서울특별시",
+      "sigungu": "강남구",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=259"
+      ],
+      "evidence_id": "E1",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=368",
+        "fields": {
+          "name": "국립관세박물관",
+          "sido": "서울특별시",
+          "sigungu": "강남구",
+          "address": "서울특별시 강남구 언주로 721",
+          "ownership_type": "국립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "10:00",
+          "weekday_close": "18:00",
+          "holiday_open": "00:00",
+          "holiday_close": "00:00",
+          "closure_rule_raw": "주말 및 공휴일"
+        },
+        "base_data_date": "2026-04-08",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0927",
+      "name": "영종역사관",
+      "document": "영종역사관은 긴 세월 동안 유구한 역사와 문화, 세상과 통하는 중간 거점으로 그 가치를 재조명 받고 있는 영종도를 알리기 위하여 건립되었다. 오랜 삶의 터전으로서의 영종도와 각종 개발로 인하여 급격하게 변화된 근현대 영종도의 생활문화를 담고 있는 영종도의 대표적인 문화공간이다.",
+      "metadata": {
+        "sigungu": "중구",
+        "adult_fee": 1000.0,
+        "sido": "인천광역시",
+        "fee_notes": "단체(20인 이상) 10~35퍼센트할인",
+        "closure_rule_raw": "매주 월요일",
+        "name": "영종역사관",
+        "weekday_open": "10:00",
+        "holiday_close": "18:00",
+        "youth_fee": 700.0,
+        "source_types": "TOUR_API",
+        "latitude": 37.48907002,
+        "holiday_open": "10:00",
+        "address": "인천광역시 중구 구읍로 63",
+        "longitude": 126.5777135,
+        "adult_fee_status": "BASE_FEE_PAID",
+        "ownership_type": "공립",
+        "weekday_close": "18:00",
+        "requires_manual_review": true,
+        "homepage_url": "http://www.ijcf.or.kr/load.asp?subPage=522.08",
+        "child_fee": 500.0
+      },
+      "vector_rank": 6,
+      "bm25_rank": 19,
+      "vector_distance": 0.5249272584915161,
+      "vector_score": null,
+      "bm25_score": 4.18020467312753,
+      "vector_document": "영종역사관은 긴 세월 동안 유구한 역사와 문화, 세상과 통하는 중간 거점으로 그 가치를 재조명 받고 있는 영종도를 알리기 위하여 건립되었다. 오랜 삶의 터전으로서의 영종도와 각종 개발로 인하여 급격하게 변화된 근현대 영종도의 생활문화를 담고 있는 영종도의 대표적인 문화공간이다.",
+      "bm25_document": "영종역사관은 긴 세월 동안 유구한 역사와 문화, 세상과 통하는 중간 거점으로 그 가치를 재조명 받고 있는 영종도를 알리기 위하여 건립되었다. 오랜 삶의 터전으로서의 영종도와 각종 개발로 인하여 급격하게 변화된 근현대 영종도의 생활문화를 담고 있는 영종도의 대표적인 문화공간이다.",
+      "best_span_id": "chroma:M0927",
+      "best_span_text": "영종역사관은 긴 세월 동안 유구한 역사와 문화, 세상과 통하는 중간 거점으로 그 가치를 재조명 받고 있는 영종도를 알리기 위하여 건립되었다. 오랜 삶의 터전으로서의 영종도와 각종 개발로 인하여 급격하게 변화된 근현대 영종도의 생활문화를 담고 있는 영종도의 대표적인 문화공간이다.",
+      "fusion_score": 0.027809742999616416,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 2,
+      "rerank_score": null,
+      "rank": 2,
+      "score": 0.027809742999616416,
+      "score_type": "rrf",
+      "distance": 0.5249272584915161,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0927",
+      "source_doc_ids": [
+        "DOC-B0927-TOUR_API-2638436"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0927-TOUR_API-2638436",
+          "source_type": "TOUR_API",
+          "source_record_id": "2638436",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=437",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 78,
+          "doc_ids": [
+            "DOC-B0927-TOUR_API-2638436"
+          ]
+        },
+        {
+          "start": 79,
+          "end": 155,
+          "doc_ids": [
+            "DOC-B0927-TOUR_API-2638436"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=437",
+      "text": "영종역사관은 긴 세월 동안 유구한 역사와 문화, 세상과 통하는 중간 거점으로 그 가치를 재조명 받고 있는 영종도를 알리기 위하여 건립되었다. 오랜 삶의 터전으로서의 영종도와 각종 개발로 인하여 급격하게 변화된 근현대 영종도의 생활문화를 담고 있는 영종도의 대표적인 문화공간이다.",
+      "sido": "인천광역시",
+      "sigungu": "중구",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=437"
+      ],
+      "evidence_id": "E2",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=642",
+        "fields": {
+          "name": "영종역사관",
+          "sido": "인천광역시",
+          "sigungu": "중구",
+          "address": "인천광역시 중구 구읍로 63",
+          "ownership_type": "공립",
+          "adult_fee": "1000",
+          "youth_fee": "700",
+          "child_fee": "500",
+          "adult_fee_status": "BASE_FEE_PAID",
+          "weekday_open": "10:00",
+          "weekday_close": "18:00",
+          "holiday_open": "10:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "매주 월요일"
+        },
+        "base_data_date": "2025-08-18",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0174",
+      "name": "필룩스조명박물관",
+      "document": "빛의 과거와 현재, 미래가 공존하는 곳 조명박물관입니다",
+      "metadata": {
+        "ownership_type": "사립",
+        "weekday_open": "10:00",
+        "latitude": 37.83609614,
+        "sigungu": "양주시",
+        "source_types": "BASE",
+        "holiday_close": "17:00",
+        "closure_rule_raw": "1월1일+설 연휴+추석 연휴+필룩스 창립기념일(6.20)",
+        "child_fee": 4000.0,
+        "holiday_open": "10:00",
+        "adult_fee": 5000.0,
+        "name": "필룩스조명박물관",
+        "youth_fee": 4000.0,
+        "weekday_close": "17:00",
+        "requires_manual_review": true,
+        "fee_notes": "36개월 미만 및 65세 이상 무료 입장",
+        "address": "경기도 양주시 광적면 광적로 235-48",
+        "longitude": 126.9675329,
+        "homepage_url": "http://www.lighting-museum.com/",
+        "sido": "경기도",
+        "adult_fee_status": "BASE_FEE_PAID"
+      },
+      "vector_rank": 15,
+      "bm25_rank": 14,
+      "vector_distance": 0.5550122261047363,
+      "vector_score": null,
+      "bm25_score": 4.543595685296986,
+      "vector_document": "빛의 과거와 현재, 미래가 공존하는 곳 조명박물관입니다",
+      "bm25_document": "빛의 과거와 현재, 미래가 공존하는 곳 조명박물관입니다",
+      "best_span_id": "chroma:M0174",
+      "best_span_text": "빛의 과거와 현재, 미래가 공존하는 곳 조명박물관입니다",
+      "fusion_score": 0.02684684684684685,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 3,
+      "rerank_score": null,
+      "rank": 3,
+      "score": 0.02684684684684685,
+      "score_type": "rrf",
+      "distance": 0.5550122261047363,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0174",
+      "source_doc_ids": [
+        "DOC-B0174-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0174-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0174",
+          "source_locator": "data/raw/museum_base_1070.csv#row=175",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 30,
+          "doc_ids": [
+            "DOC-B0174-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_base_1070.csv#row=175",
+      "text": "빛의 과거와 현재, 미래가 공존하는 곳 조명박물관입니다",
+      "sido": "경기도",
+      "sigungu": "양주시",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_base_1070.csv#row=175"
+      ],
+      "evidence_id": "E3",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=115",
+        "fields": {
+          "name": "필룩스조명박물관",
+          "sido": "경기도",
+          "sigungu": "양주시",
+          "address": "경기도 양주시 광적면 광적로 235-48",
+          "ownership_type": "사립",
+          "adult_fee": "5000",
+          "youth_fee": "4000",
+          "child_fee": "4000",
+          "adult_fee_status": "BASE_FEE_PAID",
+          "weekday_open": "10:00",
+          "weekday_close": "17:00",
+          "holiday_open": "10:00",
+          "holiday_close": "17:00",
+          "closure_rule_raw": "1월1일+설 연휴+추석 연휴+필룩스 창립기념일(6.20)"
+        },
+        "base_data_date": "2026-08-18",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0496",
+      "name": "국립조세박물관",
+      "document": "조세박물관은 세금의 역사와 조세제도, 국세행정의 발전과정을 소개하여 세금의 중요성을 느낄 수 있는 국내유일의 세금전문박물관이다. 세금의 중요성을 홍보하고 국세행정에 대한 이해를 도모하고자 ‘대국민 교육의 장’으로서 설립되었다. 각 시대별 조세제도의 내용과 역사적 사건에 관한 자료들을 정리하여 전시하고 있으며, 세금과 관련된 각종 도서와 연구논문 등을 수집관리하고 있다. 학생들에게는 세금 체험 장소로, 연구자들에게는 자료관으로 이용되고 있다.",
+      "metadata": {
+        "homepage_url": "https://www.nts.go.kr/museum",
+        "youth_fee": 0.0,
+        "image_copyright": "Type3",
+        "sido": "세종특별자치시",
+        "ownership_type": "국립",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/45/4063845_image2_1.jpeg",
+        "longitude": 127.2603064,
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "sigungu": "세종시",
+        "adult_fee": 0.0,
+        "name": "국립조세박물관",
+        "latitude": 36.48507978,
+        "address": "세종특별자치시 국세청로 8-14",
+        "child_fee": 0.0,
+        "weekday_open": "09:00",
+        "requires_manual_review": true,
+        "source_types": "TOUR_API",
+        "weekday_close": "18:00",
+        "closure_rule_raw": "매주 월요일, 법정공휴일"
+      },
+      "vector_rank": 1,
+      "bm25_rank": null,
+      "vector_distance": 0.4888976812362671,
+      "vector_score": null,
+      "bm25_score": null,
+      "vector_document": "조세박물관은 세금의 역사와 조세제도, 국세행정의 발전과정을 소개하여 세금의 중요성을 느낄 수 있는 국내유일의 세금전문박물관이다. 세금의 중요성을 홍보하고 국세행정에 대한 이해를 도모하고자 ‘대국민 교육의 장’으로서 설립되었다. 각 시대별 조세제도의 내용과 역사적 사건에 관한 자료들을 정리하여 전시하고 있으며, 세금과 관련된 각종 도서와 연구논문 등을 수집관리하고 있다. 학생들에게는 세금 체험 장소로, 연구자들에게는 자료관으로 이용되고 있다.",
+      "bm25_document": "",
+      "best_span_id": null,
+      "best_span_text": null,
+      "fusion_score": 0.01639344262295082,
+      "retrieved_by": [
+        "vector"
+      ],
+      "fusion_rank": 4,
+      "rerank_score": null,
+      "rank": 4,
+      "score": 0.01639344262295082,
+      "score_type": "rrf",
+      "distance": 0.4888976812362671,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector"
+      ],
+      "retriever": "vector",
+      "source_doc_ids": [
+        "DOC-B0496-TOUR_API-130952"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0496-TOUR_API-130952",
+          "source_type": "TOUR_API",
+          "source_record_id": "130952",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=245",
+          "match_trust": "RECHECKED_BY_RULE_NOT_HUMAN_APPROVED"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 71,
+          "doc_ids": [
+            "DOC-B0496-TOUR_API-130952"
+          ]
+        },
+        {
+          "start": 72,
+          "end": 126,
+          "doc_ids": [
+            "DOC-B0496-TOUR_API-130952"
+          ]
+        },
+        {
+          "start": 127,
+          "end": 207,
+          "doc_ids": [
+            "DOC-B0496-TOUR_API-130952"
+          ]
+        },
+        {
+          "start": 208,
+          "end": 248,
+          "doc_ids": [
+            "DOC-B0496-TOUR_API-130952"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=245",
+      "text": "조세박물관은 세금의 역사와 조세제도, 국세행정의 발전과정을 소개하여 세금의 중요성을 느낄 수 있는 국내유일의 세금전문박물관이다. 세금의 중요성을 홍보하고 국세행정에 대한 이해를 도모하고자 ‘대국민 교육의 장’으로서 설립되었다. 각 시대별 조세제도의 내용과 역사적 사건에 관한 자료들을 정리하여 전시하고 있으며, 세금과 관련된 각종 도서와 연구논문 등을 수집관리하고 있다. 학생들에게는 세금 체험 장소로, 연구자들에게는 자료관으로 이용되고 있다.",
+      "sido": "세종특별자치시",
+      "sigungu": "세종시",
+      "span_id": "",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=245"
+      ],
+      "evidence_id": "E4",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=356",
+        "fields": {
+          "name": "국립조세박물관",
+          "sido": "세종특별자치시",
+          "sigungu": "세종시",
+          "address": "세종특별자치시 국세청로 8-14",
+          "ownership_type": "국립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "09:00",
+          "weekday_close": "18:00",
+          "closure_rule_raw": "매주 월요일, 법정공휴일"
+        },
+        "base_data_date": "2026-04-08",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0493",
+      "name": "국립여성사전시관",
+      "document": "국립여성사전시관은 한국 여성사 정립, 보급을 통해 양성평등 가치를 확산하는 복합교육문화공간이다. 역사 속 여성의 역할과 역사발전에 기여한 인물을 조명하고, 여성을 위한 교육과 국민의 양성평등의식 고양을 위한 장으로 활용하기 위해 설립되었다. 국립여성사전시관의 상설전시는 연대별, 분야별로 나뉘어 역사발전에 기여한 이야기, 역사의 궤도를 바꾸었던 이야기, 국난의 시기에 아픈 기억들, 그리고 세계 인류의 존엄성과 평화의 가치를 일깨우는 여성들의 이야기로 채워져 있다. 또한, 이곳은 교육부 인증 교육기부 진로체험 인증기관 중 하나로, 진로 탐색 프로그램인 나도 큐레이터, 초등학생을 대상으로 하는 찾아가는 여성사전시관, 성인대상으로 하는 여성사 아카데미를 운영하고 있다.",
+      "metadata": {
+        "ownership_type": "국립",
+        "weekday_close": "18:00",
+        "closure_rule_raw": "일요일, 공휴일 및 명절 휴관",
+        "youth_fee": 0.0,
+        "address": "경기도 고양시 덕양구 화중로104번길 50",
+        "child_fee": 0.0,
+        "holiday_close": "00:00",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/01/3527701_image2_1.jpg",
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "sido": "경기도",
+        "requires_manual_review": true,
+        "adult_fee": 0.0,
+        "homepage_url": "http://eherstory.mogef.go.kr",
+        "holiday_open": "00:00",
+        "source_types": "TOUR_API",
+        "longitude": 126.834035479,
+        "latitude": 37.6358155664,
+        "weekday_open": "10:00",
+        "sigungu": "고양시",
+        "name": "국립여성사전시관",
+        "image_copyright": "Type1"
+      },
+      "vector_rank": null,
+      "bm25_rank": 2,
+      "vector_distance": null,
+      "vector_score": null,
+      "bm25_score": 7.973517652057386,
+      "vector_document": "",
+      "bm25_document": "국립여성사전시관은 한국 여성사 정립, 보급을 통해 양성평등 가치를 확산하는 복합교육문화공간이다. 역사 속 여성의 역할과 역사발전에 기여한 인물을 조명하고, 여성을 위한 교육과 국민의 양성평등의식 고양을 위한 장으로 활용하기 위해 설립되었다. 국립여성사전시관의 상설전시는 연대별, 분야별로 나뉘어 역사발전에 기여한 이야기, 역사의 궤도를 바꾸었던 이야기, 국난의 시기에 아픈 기억들, 그리고 세계 인류의 존엄성과 평화의 가치를 일깨우는 여성들의 이야기로 채워져 있다. 또한, 이곳은 교육부 인증 교육기부 진로체험 인증기관 중 하나로, 진로 탐색 프로그램인 나도 큐레이터, 초등학생을 대상으로 하는 찾아가는 여성사전시관, 성인대상으로 하는 여성사 아카데미를 운영하고 있다.",
+      "best_span_id": "chroma:M0493",
+      "best_span_text": "국립여성사전시관은 한국 여성사 정립, 보급을 통해 양성평등 가치를 확산하는 복합교육문화공간이다. 역사 속 여성의 역할과 역사발전에 기여한 인물을 조명하고, 여성을 위한 교육과 국민의 양성평등의식 고양을 위한 장으로 활용하기 위해 설립되었다. 국립여성사전시관의 상설전시는 연대별, 분야별로 나뉘어 역사발전에 기여한 이야기, 역사의 궤도를 바꾸었던 이야기, 국난의 시기에 아픈 기억들, 그리고 세계 인류의 존엄성과 평화의 가치를 일깨우는 여성들의 이야기로 채워져 있다. 또한, 이곳은 교육부 인증 교육기부 진로체험 인증기관 중 하나로, 진로 탐색 프로그램인 나도 큐레이터, 초등학생을 대상으로 하는 찾아가는 여성사전시관, 성인대상으로 하는 여성사 아카데미를 운영하고 있다.",
+      "fusion_score": 0.016129032258064516,
+      "retrieved_by": [
+        "bm25"
+      ],
+      "fusion_rank": 5,
+      "rerank_score": null,
+      "rank": 5,
+      "score": 0.016129032258064516,
+      "score_type": "rrf",
+      "distance": null,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "bm25"
+      ],
+      "retriever": "bm25",
+      "span_id": "chroma:M0493",
+      "source_doc_ids": [
+        "DOC-B0493-TOUR_API-130963"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0493-TOUR_API-130963",
+          "source_type": "TOUR_API",
+          "source_record_id": "130963",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=244",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 53,
+          "doc_ids": [
+            "DOC-B0493-TOUR_API-130963"
+          ]
+        },
+        {
+          "start": 54,
+          "end": 134,
+          "doc_ids": [
+            "DOC-B0493-TOUR_API-130963"
+          ]
+        },
+        {
+          "start": 135,
+          "end": 260,
+          "doc_ids": [
+            "DOC-B0493-TOUR_API-130963"
+          ]
+        },
+        {
+          "start": 261,
+          "end": 374,
+          "doc_ids": [
+            "DOC-B0493-TOUR_API-130963"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=244",
+      "text": "국립여성사전시관은 한국 여성사 정립, 보급을 통해 양성평등 가치를 확산하는 복합교육문화공간이다. 역사 속 여성의 역할과 역사발전에 기여한 인물을 조명하고, 여성을 위한 교육과 국민의 양성평등의식 고양을 위한 장으로 활용하기 위해 설립되었다. 국립여성사전시관의 상설전시는 연대별, 분야별로 나뉘어 역사발전에 기여한 이야기, 역사의 궤도를 바꾸었던 이야기, 국난의 시기에 아픈 기억들, 그리고 세계 인류의 존엄성과 평화의 가치를 일깨우는 여성들의 이야기로 채워져 있다. 또한, 이곳은 교육부 인증 교육기부 진로체험 인증기관 중 하나로, 진로 탐색 프로그램인 나도 큐레이터, 초등학생을 대상으로 하는 찾아가는 여성사전시관, 성인대상으로 하는 여성사 아카데미를 운영하고 있다.",
+      "sido": "경기도",
+      "sigungu": "고양시",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=244"
+      ],
+      "evidence_id": "E5",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=355",
+        "fields": {
+          "name": "국립여성사전시관",
+          "sido": "경기도",
+          "sigungu": "고양시",
+          "address": "경기도 고양시 덕양구 화중로104번길 50",
+          "ownership_type": "국립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "10:00",
+          "weekday_close": "18:00",
+          "holiday_open": "00:00",
+          "holiday_close": "00:00",
+          "closure_rule_raw": "일요일, 공휴일 및 명절 휴관"
+        },
+        "base_data_date": "2026-04-08",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    }
+  ],
+  "answer": "국민이 세관을 더 잘 이해하도록 하고, 관세 주권과 국익을 지켜온 관세인의 노고를 기억하며, 그 역사를 더 발전된 미래로 나아가기 위한 교훈으로 삼으려는 취지입니다. [E1]",
+  "retrieval_status": "ok",
+  "answer_status": "answered",
+  "route": "hybrid",
+  "retry_count": 0,
+  "supervisor_verified": true,
+  "rerank_applied": false,
+  "retriever_errors": [],
+  "warnings": [
+    "Cross-Encoder reranking failed (FileNotFoundError); RRF order retained"
+  ],
+  "duration_ms": 10491.91,
+  "error_type": "",
+  "hit_at_1": 1,
+  "hit_at_3": 1,
+  "hit_at_5": 1,
+  "recall_at_5": 1.0,
+  "mrr_at_10": 1.0
+}

@@ -1,0 +1,218 @@
+{
+  "evidence_context_version": "grounded-evidence-v2",
+  "evaluation_contexts": [
+    "{\"evidence_context_version\": \"grounded-evidence-v2\", \"evidence_id\": \"E1\", \"metadata_provenance\": {\"base_data_date\": \"2025-07-10\", \"fields\": {\"address\": \"전라남도 해남군 해남읍 녹우당길 130\", \"adult_fee\": \"0\", \"adult_fee_status\": \"BASE_FEE_ZERO_CHECK_EXCEPTIONS\", \"amenities_raw\": \"전시실+녹우당\", \"child_fee\": \"0\", \"closure_rule_raw\": \"월요일\", \"holiday_close\": \"18:00\", \"holiday_open\": \"09:00\", \"name\": \"고산윤선도박물관\", \"ownership_type\": \"공립\", \"sido\": \"전라남도\", \"sigungu\": \"해남군\", \"weekday_close\": \"18:00\", \"weekday_open\": \"09:00\", \"youth_fee\": \"0\"}, \"normalizations\": {\"sido\": {\"matched_value\": \"전남광주특별자치도\", \"rule\": \"configured_sido_alias\", \"source_value\": \"전라남도\"}}, \"source_kind\": \"derived_csv_row\", \"source_locator\": \"data/processed/museum_final_738.csv#record=709\", \"trust\": \"derived_dataset_not_human_verified\"}, \"museum_id\": \"M1032\", \"name\": \"고산윤선도박물관\", \"retrieval_branch\": \"document\", \"source_doc_ids\": [\"DOC-B1032-BASE\"], \"source_documents\": [{\"doc_id\": \"DOC-B1032-BASE\", \"match_trust\": \"BASE_SOURCE\", \"source_locator\": \"data/raw/museum_base_1070.csv#row=1033\", \"source_record_id\": \"B1032\", \"source_type\": \"BASE\"}], \"source_locator\": \"data/raw/museum_base_1070.csv#row=1033\", \"source_locators\": [\"data/raw/museum_base_1070.csv#row=1033\"], \"source_scope\": \"text\", \"source_spans\": [{\"doc_ids\": [\"DOC-B1032-BASE\"], \"end\": 62, \"start\": 0}], \"source_urls\": [], \"text\": \"조선조의 문신이자 국문학의 최고봉으로 손꼽히며 시조시인으로 일컫는 고산 윤선도(1587~1671) 선생의 유적지\"}",
+    "{\"evidence_context_version\": \"grounded-evidence-v2\", \"evidence_id\": \"E2\", \"evidence_role\": \"anchor\", \"museum_id\": \"M1033\", \"name\": \"해남공룡박물관\", \"operator_raw_name\": \"전라남도 해남군\", \"org_type\": \"지방자치단체\", \"organization\": \"전라남도 해남군\", \"relation\": \"OPERATED_BY\", \"retrieval_branch\": \"graph\", \"sido\": \"전남광주특별자치도\", \"sigungu\": \"해남군\", \"source_doc_ids\": [\"DOC-B1033-BASE\", \"DOC-B1033-TOUR_API-250467\"], \"source_locator\": \"data/raw/museum_base_1070.csv#row=1034\", \"source_locators\": [\"data/raw/museum_base_1070.csv#row=1034\", \"data/raw/museum_tourapi_with_overview.csv#row=479\"], \"source_scope\": \"graph_properties\", \"source_urls\": [], \"text\": \"해남공룡박물관의 Neo4j operator_name(운영기관) 기록: 전라남도 해남군 (CSV 원문: 전라남도 해남군)\\n[Neo4j 구조화 근거] {\\\"museum_id\\\": \\\"M1033\\\", \\\"name\\\": \\\"해남공룡박물관\\\", \\\"relation\\\": \\\"OPERATED_BY\\\", \\\"organization\\\": \\\"전라남도 해남군\\\", \\\"org_key\\\": \\\"전라남도해남군\\\", \\\"org_type\\\": \\\"지방자치단체\\\", \\\"raw_name\\\": \\\"전라남도 해남군\\\", \\\"verification_status\\\": \\\"SOURCE_RECORDED\\\"}\", \"verification_status\": \"SOURCE_RECORDED\"}",
+    "{\"anchor_operator_raw_name\": \"전라남도 해남군\", \"evidence_context_version\": \"grounded-evidence-v2\", \"evidence_id\": \"E3\", \"facility_type\": \"박물관\", \"graph_path\": \"anchor -[:OPERATED_BY]-> Organization <-[:OPERATED_BY]- candidate\", \"museum_id\": \"M1032\", \"name\": \"고산윤선도박물관\", \"operator_raw_name\": \"전라남도 해남군\", \"org_type\": \"지방자치단체\", \"organization\": \"전라남도 해남군\", \"relation\": \"OPERATED_BY\", \"retrieval_branch\": \"graph\", \"sido\": \"전남광주특별자치도\", \"sigungu\": \"해남군\", \"source_doc_ids\": [\"DOC-B1032-BASE\"], \"source_locator\": \"data/raw/museum_base_1070.csv#row=1033\", \"source_locators\": [\"data/raw/museum_base_1070.csv#row=1033\"], \"source_scope\": \"graph_properties\", \"source_urls\": [], \"text\": \"{anchor_raw_name: 전라남도 해남군, candidate_raw_name: 전라남도 해남군, org_key: 전라남도해남군, organization: 전라남도 해남군, relation: OPERATED_BY, verification_status: SOURCE_RECORDED}\", \"verification_status\": \"SOURCE_RECORDED\"}"
+  ],
+  "mode": "supervisor_full",
+  "question_id": "V2-CB13",
+  "evidence": [
+    {
+      "museum_id": "M1032",
+      "name": "고산윤선도박물관",
+      "document": "조선조의 문신이자 국문학의 최고봉으로 손꼽히며 시조시인으로 일컫는 고산 윤선도(1587~1671) 선생의 유적지",
+      "metadata": {
+        "holiday_open": "09:00",
+        "youth_fee": 0.0,
+        "ownership_type": "공립",
+        "amenities_raw": "전시실+녹우당",
+        "weekday_close": "18:00",
+        "sido": "전남광주특별자치도",
+        "child_fee": 0.0,
+        "closure_rule_raw": "월요일",
+        "name": "고산윤선도박물관",
+        "latitude": 34.54972105,
+        "sigungu": "해남군",
+        "adult_fee": 0.0,
+        "source_types": "BASE",
+        "holiday_close": "18:00",
+        "requires_manual_review": false,
+        "homepage_url": "http://gosan.haenam.go.kr",
+        "address": "전라남도 해남군 해남읍 녹우당길 130",
+        "weekday_open": "09:00",
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "longitude": 126.6208358
+      },
+      "vector_rank": 1,
+      "bm25_rank": 1,
+      "vector_distance": 0.5424286127090454,
+      "vector_score": null,
+      "bm25_score": 9.93154054148923,
+      "vector_document": "조선조의 문신이자 국문학의 최고봉으로 손꼽히며 시조시인으로 일컫는 고산 윤선도(1587~1671) 선생의 유적지",
+      "bm25_document": "조선조의 문신이자 국문학의 최고봉으로 손꼽히며 시조시인으로 일컫는 고산 윤선도(1587~1671) 선생의 유적지",
+      "best_span_id": "chroma:M1032",
+      "best_span_text": "조선조의 문신이자 국문학의 최고봉으로 손꼽히며 시조시인으로 일컫는 고산 윤선도(1587~1671) 선생의 유적지",
+      "fusion_score": 0.03278688524590164,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 1,
+      "rerank_score": 0.6927687525749207,
+      "rank": 1,
+      "score": 0.6927687525749207,
+      "score_type": "cross_encoder",
+      "distance": 0.5424286127090454,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M1032",
+      "source_doc_ids": [
+        "DOC-B1032-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B1032-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B1032",
+          "source_locator": "data/raw/museum_base_1070.csv#row=1033",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 62,
+          "doc_ids": [
+            "DOC-B1032-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_base_1070.csv#row=1033",
+      "text": "조선조의 문신이자 국문학의 최고봉으로 손꼽히며 시조시인으로 일컫는 고산 윤선도(1587~1671) 선생의 유적지",
+      "sido": "전남광주특별자치도",
+      "sigungu": "해남군",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_base_1070.csv#row=1033"
+      ],
+      "evidence_id": "E1",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=709",
+        "fields": {
+          "name": "고산윤선도박물관",
+          "sido": "전라남도",
+          "sigungu": "해남군",
+          "address": "전라남도 해남군 해남읍 녹우당길 130",
+          "ownership_type": "공립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "09:00",
+          "weekday_close": "18:00",
+          "holiday_open": "09:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "월요일",
+          "amenities_raw": "전시실+녹우당"
+        },
+        "base_data_date": "2025-07-10",
+        "trust": "derived_dataset_not_human_verified",
+        "normalizations": {
+          "sido": {
+            "source_value": "전라남도",
+            "matched_value": "전남광주특별자치도",
+            "rule": "configured_sido_alias"
+          }
+        }
+      },
+      "retrieval_branch": "document"
+    },
+    {
+      "museum_id": "M1033",
+      "name": "해남공룡박물관",
+      "text": "해남공룡박물관의 Neo4j operator_name(운영기관) 기록: 전라남도 해남군 (CSV 원문: 전라남도 해남군)\n[Neo4j 구조화 근거] {\"museum_id\": \"M1033\", \"name\": \"해남공룡박물관\", \"relation\": \"OPERATED_BY\", \"organization\": \"전라남도 해남군\", \"org_key\": \"전라남도해남군\", \"org_type\": \"지방자치단체\", \"raw_name\": \"전라남도 해남군\", \"verification_status\": \"SOURCE_RECORDED\"}",
+      "span_id": "",
+      "source_doc_ids": [
+        "DOC-B1033-BASE",
+        "DOC-B1033-TOUR_API-250467"
+      ],
+      "source_urls": [],
+      "source_url": "",
+      "source_locators": [
+        "data/raw/museum_base_1070.csv#row=1034",
+        "data/raw/museum_tourapi_with_overview.csv#row=479"
+      ],
+      "source_locator": "data/raw/museum_base_1070.csv#row=1034",
+      "sido": "전남광주특별자치도",
+      "sigungu": "해남군",
+      "retriever": "graph",
+      "evidence_role": "anchor",
+      "source_scope": "graph_properties",
+      "relation": "OPERATED_BY",
+      "organization": "전라남도 해남군",
+      "org_type": "지방자치단체",
+      "operator_raw_name": "전라남도 해남군",
+      "verification_status": "SOURCE_RECORDED",
+      "metadata": {},
+      "chunk_id": "",
+      "retrievers": [
+        "graph"
+      ],
+      "evidence_id": "E2",
+      "retrieval_branch": "graph",
+      "rank": 2
+    },
+    {
+      "museum_id": "M1032",
+      "name": "고산윤선도박물관",
+      "text": "{anchor_raw_name: 전라남도 해남군, candidate_raw_name: 전라남도 해남군, org_key: 전라남도해남군, organization: 전라남도 해남군, relation: OPERATED_BY, verification_status: SOURCE_RECORDED}",
+      "span_id": "",
+      "source_doc_ids": [
+        "DOC-B1032-BASE"
+      ],
+      "source_urls": [],
+      "source_url": "",
+      "source_locators": [
+        "data/raw/museum_base_1070.csv#row=1033"
+      ],
+      "source_locator": "data/raw/museum_base_1070.csv#row=1033",
+      "sido": "전남광주특별자치도",
+      "sigungu": "해남군",
+      "retriever": "graph",
+      "graph_path": "anchor -[:OPERATED_BY]-> Organization <-[:OPERATED_BY]- candidate",
+      "organization": "전라남도 해남군",
+      "org_type": "지방자치단체",
+      "operator_raw_name": "전라남도 해남군",
+      "anchor_operator_raw_name": "전라남도 해남군",
+      "relation": "OPERATED_BY",
+      "verification_status": "SOURCE_RECORDED",
+      "facility_type": "박물관",
+      "source_scope": "graph_properties",
+      "metadata": {},
+      "chunk_id": "",
+      "retrievers": [
+        "graph"
+      ],
+      "evidence_id": "E3",
+      "retrieval_branch": "graph",
+      "rank": 3
+    }
+  ],
+  "answer": "확인 가능한 근거가 부족하여 답변을 보류했습니다. 확인하지 못한 내용: 고산윤선도박물관에서 윤선도 관련 자료를 실제로 관람할 수 있는지 여부.",
+  "retrieval_status": "ok",
+  "answer_status": "abstained",
+  "route": "combined",
+  "retry_count": 0,
+  "supervisor_verified": false,
+  "rerank_applied": true,
+  "retriever_errors": [],
+  "warnings": [
+    "Only 1 candidates available; no artificial padding"
+  ],
+  "duration_ms": 95167.77,
+  "error_type": "",
+  "hit_at_1": 1,
+  "hit_at_3": 1,
+  "hit_at_5": 1,
+  "recall_at_5": 1.0,
+  "mrr_at_10": 1.0
+}

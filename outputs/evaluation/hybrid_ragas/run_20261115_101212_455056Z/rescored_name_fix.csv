@@ -1,0 +1,16 @@
+﻿question_id,category,old_faithfulness,new_faithfulness,old_context_recall,new_context_recall,old_context_precision_with_reference,new_context_precision_with_reference,old_answer_relevancy,new_answer_relevancy
+V2-SF10,structured_filter,0.0,0.2,0.0,0.0,0.0,0.0,0.597513,0.639061
+V2-OO01,org_same_operator,0.166666,1.0,0.0,0.0,0.0,0.5,0.842767,0.579002
+V2-OO02,org_same_operator,0.5,0.333333,0.0,0.0,0.0,0.5,0.925135,0.925353
+V2-OO03,org_same_operator,0.0,1.0,0.0,0.0,0.5,0.5,0.718512,0.860825
+V2-OO04,org_same_operator,0.333333,1.0,0.0,0.0,0.0,0.5,0.757503,0.757503
+V2-OO05,org_same_operator,0.5,0.5,0.0,0.0,1.0,0.5,0.744255,0.744255
+V2-OO06,org_same_operator,0.5,1.0,0.0,,0.0,0.5,0.814589,0.814589
+V2-OO07,org_same_operator,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0
+V2-OO08,org_same_operator,0.5,0.5,0.0,0.0,0.0,0.5,0.943462,0.930223
+V2-OO09,org_same_operator,0.666667,1.0,0.0,0.0,1.0,,0.923761,0.984866
+V2-OO10,org_same_operator,0.5,1.0,0.0,0.0,1.0,0.5,0.827606,0.827439
+V2-OM01,org_same_manager,0.0,1.0,0.0,0.0,0.0,0.5,0.747745,0.90986
+V2-OM02,org_same_manager,0.333333,0.333333,0.0,0.0,0.0,0.5,0.731829,0.0
+V2-OM03,org_same_manager,0.25,1.0,0.0,0.0,0.0,0.5,0.792249,0.771744
+V2-OM04,org_same_manager,0.25,1.0,0.5,0.0,0.5,0.5,0.837904,0.837904

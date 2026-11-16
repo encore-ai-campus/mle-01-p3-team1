@@ -1,0 +1,709 @@
+{
+  "mode": "supervisor_full",
+  "question_id": "Q116",
+  "evidence": [
+    {
+      "museum_id": "M0178",
+      "name": "안다미로귀때박물관",
+      "document": "‘귀때’란 그릇 한쪽에 주전자 부리처럼 바깥으로 내밀어 만든 구멍으로, 액체를 흘리지 않고 편리하게 따를 수 있도록 한 조상들의 지혜다. 여기에 뚜껑과 손잡이가 더해지며 오늘날의 주전자로 발전하였고, 안다미로귀때박물관은 이러한 귀때그릇과 주전자의 역사와 문화를 한눈에 살펴볼 수 있는 곳이다. 이곳은 삼국시대부터 현대까지 오랜 시간 정성껏 수집한 귀때 유물 및 주전자 212종 600여 점과 민속 생활유물 100여 점을 한자리에서 살펴볼 수 있다. 토기·사기·유기·무쇠·옹기 등 다양한 재질로 제작된 한국·중국·일본·인도·미국· 영국 등 세계 각국의 귀때그릇을 통해 시대와 국경을 넘어 이어져 온 생활 속 지혜를 만나볼 수 있다. 또한, 근현대 일상에서 쓰이던 민속품도 함께 보존·전시하고 있다. 호국의 고장 칠곡에 자리한 안다미로귀때박물관은 조상이 남겨 주신 소중한 문화유산을 수집·보존·관리하며, 지역민들과 함께하는 다양한 문화사업을 이어가고 있다.",
+      "metadata": {
+        "adult_fee": 0.0,
+        "name": "안다미로귀때박물관",
+        "image_copyright": "Type3",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/85/4098385_image2_1.jpg",
+        "child_fee": 0.0,
+        "holiday_open": "09:00",
+        "latitude": 35.98393601,
+        "address": "경상북도 칠곡군 기산면 강정길 47-10",
+        "ownership_type": "사립",
+        "youth_fee": 0.0,
+        "source_types": "TOUR_API",
+        "fee_notes": "체험료 별도",
+        "sigungu": "칠곡군",
+        "homepage_url": "http://blog.naver.com/ysroadsun",
+        "closure_rule_raw": "연중무휴",
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "weekday_close": "18:00",
+        "requires_manual_review": true,
+        "weekday_open": "09:00",
+        "holiday_close": "18:00",
+        "sido": "경상북도",
+        "longitude": 128.3842314
+      },
+      "vector_rank": 1,
+      "bm25_rank": 1,
+      "vector_distance": 0.40976959466934204,
+      "vector_score": null,
+      "bm25_score": 33.40943547962252,
+      "vector_document": "‘귀때’란 그릇 한쪽에 주전자 부리처럼 바깥으로 내밀어 만든 구멍으로, 액체를 흘리지 않고 편리하게 따를 수 있도록 한 조상들의 지혜다. 여기에 뚜껑과 손잡이가 더해지며 오늘날의 주전자로 발전하였고, 안다미로귀때박물관은 이러한 귀때그릇과 주전자의 역사와 문화를 한눈에 살펴볼 수 있는 곳이다. 이곳은 삼국시대부터 현대까지 오랜 시간 정성껏 수집한 귀때 유물 및 주전자 212종 600여 점과 민속 생활유물 100여 점을 한자리에서 살펴볼 수 있다. 토기·사기·유기·무쇠·옹기 등 다양한 재질로 제작된 한국·중국·일본·인도·미국· 영국 등 세계 각국의 귀때그릇을 통해 시대와 국경을 넘어 이어져 온 생활 속 지혜를 만나볼 수 있다. 또한, 근현대 일상에서 쓰이던 민속품도 함께 보존·전시하고 있다. 호국의 고장 칠곡에 자리한 안다미로귀때박물관은 조상이 남겨 주신 소중한 문화유산을 수집·보존·관리하며, 지역민들과 함께하는 다양한 문화사업을 이어가고 있다.",
+      "bm25_document": "‘귀때’란 그릇 한쪽에 주전자 부리처럼 바깥으로 내밀어 만든 구멍으로, 액체를 흘리지 않고 편리하게 따를 수 있도록 한 조상들의 지혜다. 여기에 뚜껑과 손잡이가 더해지며 오늘날의 주전자로 발전하였고, 안다미로귀때박물관은 이러한 귀때그릇과 주전자의 역사와 문화를 한눈에 살펴볼 수 있는 곳이다. 이곳은 삼국시대부터 현대까지 오랜 시간 정성껏 수집한 귀때 유물 및 주전자 212종 600여 점과 민속 생활유물 100여 점을 한자리에서 살펴볼 수 있다. 토기·사기·유기·무쇠·옹기 등 다양한 재질로 제작된 한국·중국·일본·인도·미국· 영국 등 세계 각국의 귀때그릇을 통해 시대와 국경을 넘어 이어져 온 생활 속 지혜를 만나볼 수 있다. 또한, 근현대 일상에서 쓰이던 민속품도 함께 보존·전시하고 있다. 호국의 고장 칠곡에 자리한 안다미로귀때박물관은 조상이 남겨 주신 소중한 문화유산을 수집·보존·관리하며, 지역민들과 함께하는 다양한 문화사업을 이어가고 있다.",
+      "best_span_id": "chroma:M0178",
+      "best_span_text": "‘귀때’란 그릇 한쪽에 주전자 부리처럼 바깥으로 내밀어 만든 구멍으로, 액체를 흘리지 않고 편리하게 따를 수 있도록 한 조상들의 지혜다. 여기에 뚜껑과 손잡이가 더해지며 오늘날의 주전자로 발전하였고, 안다미로귀때박물관은 이러한 귀때그릇과 주전자의 역사와 문화를 한눈에 살펴볼 수 있는 곳이다. 이곳은 삼국시대부터 현대까지 오랜 시간 정성껏 수집한 귀때 유물 및 주전자 212종 600여 점과 민속 생활유물 100여 점을 한자리에서 살펴볼 수 있다. 토기·사기·유기·무쇠·옹기 등 다양한 재질로 제작된 한국·중국·일본·인도·미국· 영국 등 세계 각국의 귀때그릇을 통해 시대와 국경을 넘어 이어져 온 생활 속 지혜를 만나볼 수 있다. 또한, 근현대 일상에서 쓰이던 민속품도 함께 보존·전시하고 있다. 호국의 고장 칠곡에 자리한 안다미로귀때박물관은 조상이 남겨 주신 소중한 문화유산을 수집·보존·관리하며, 지역민들과 함께하는 다양한 문화사업을 이어가고 있다.",
+      "fusion_score": 0.03278688524590164,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 1,
+      "name_match": true,
+      "rerank_score": null,
+      "rank": 1,
+      "score": 0.03278688524590164,
+      "score_type": "rrf",
+      "distance": 0.40976959466934204,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0178",
+      "source_doc_ids": [
+        "DOC-B0178-TOUR_API-4098381"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0178-TOUR_API-4098381",
+          "source_type": "TOUR_API",
+          "source_record_id": "4098381",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=84",
+          "match_trust": "RECHECKED_BY_RULE_NOT_HUMAN_APPROVED"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 76,
+          "doc_ids": [
+            "DOC-B0178-TOUR_API-4098381"
+          ]
+        },
+        {
+          "start": 77,
+          "end": 163,
+          "doc_ids": [
+            "DOC-B0178-TOUR_API-4098381"
+          ]
+        },
+        {
+          "start": 164,
+          "end": 250,
+          "doc_ids": [
+            "DOC-B0178-TOUR_API-4098381"
+          ]
+        },
+        {
+          "start": 251,
+          "end": 352,
+          "doc_ids": [
+            "DOC-B0178-TOUR_API-4098381"
+          ]
+        },
+        {
+          "start": 353,
+          "end": 389,
+          "doc_ids": [
+            "DOC-B0178-TOUR_API-4098381"
+          ]
+        },
+        {
+          "start": 390,
+          "end": 477,
+          "doc_ids": [
+            "DOC-B0178-TOUR_API-4098381"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=84",
+      "text": "‘귀때’란 그릇 한쪽에 주전자 부리처럼 바깥으로 내밀어 만든 구멍으로, 액체를 흘리지 않고 편리하게 따를 수 있도록 한 조상들의 지혜다. 여기에 뚜껑과 손잡이가 더해지며 오늘날의 주전자로 발전하였고, 안다미로귀때박물관은 이러한 귀때그릇과 주전자의 역사와 문화를 한눈에 살펴볼 수 있는 곳이다. 이곳은 삼국시대부터 현대까지 오랜 시간 정성껏 수집한 귀때 유물 및 주전자 212종 600여 점과 민속 생활유물 100여 점을 한자리에서 살펴볼 수 있다. 토기·사기·유기·무쇠·옹기 등 다양한 재질로 제작된 한국·중국·일본·인도·미국· 영국 등 세계 각국의 귀때그릇을 통해 시대와 국경을 넘어 이어져 온 생활 속 지혜를 만나볼 수 있다. 또한, 근현대 일상에서 쓰이던 민속품도 함께 보존·전시하고 있다. 호국의 고장 칠곡에 자리한 안다미로귀때박물관은 조상이 남겨 주신 소중한 문화유산을 수집·보존·관리하며, 지역민들과 함께하는 다양한 문화사업을 이어가고 있다.",
+      "sido": "경상북도",
+      "sigungu": "칠곡군",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=84"
+      ],
+      "evidence_id": "E1",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=118",
+        "fields": {
+          "name": "안다미로귀때박물관",
+          "sido": "경상북도",
+          "sigungu": "칠곡군",
+          "address": "경상북도 칠곡군 기산면 강정길 47-10",
+          "ownership_type": "사립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "09:00",
+          "weekday_close": "18:00",
+          "holiday_open": "09:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "연중무휴"
+        },
+        "base_data_date": "2026-08-19",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0985",
+      "name": "뮤지엄원",
+      "document": "대중을 위한 예술, 대중이 체험하고 즐길 수 있는 예술 등을 소개",
+      "metadata": {
+        "closure_rule_raw": "연중무휴",
+        "transport_notes": "부산 지하철 2호선 센텀시티역 하차",
+        "holiday_open": "10:00",
+        "fee_notes": "장애인, 유공자, 단체 할인",
+        "sigungu": "해운대구",
+        "weekday_open": "10:00",
+        "weekday_close": "19:00",
+        "adult_fee_status": "BASE_FEE_PAID",
+        "longitude": 129.1289814,
+        "adult_fee": 18000.0,
+        "latitude": 35.1713212,
+        "address": "부산광역시 해운대구 센텀서로 20",
+        "homepage_url": "https://museum1.co.kr",
+        "requires_manual_review": false,
+        "sido": "부산광역시",
+        "name": "뮤지엄원",
+        "source_types": "BASE",
+        "child_fee": 13000.0,
+        "ownership_type": "사립",
+        "youth_fee": 15000.0,
+        "holiday_close": "20:00"
+      },
+      "vector_rank": 16,
+      "bm25_rank": 7,
+      "vector_distance": 0.6173929572105408,
+      "vector_score": null,
+      "bm25_score": 5.788382095418438,
+      "vector_document": "대중을 위한 예술, 대중이 체험하고 즐길 수 있는 예술 등을 소개",
+      "bm25_document": "대중을 위한 예술, 대중이 체험하고 즐길 수 있는 예술 등을 소개",
+      "best_span_id": "chroma:M0985",
+      "best_span_text": "대중을 위한 예술, 대중이 체험하고 즐길 수 있는 예술 등을 소개",
+      "fusion_score": 0.028083267871170464,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 2,
+      "rerank_score": null,
+      "rank": 2,
+      "score": 0.028083267871170464,
+      "score_type": "rrf",
+      "distance": 0.6173929572105408,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0985",
+      "source_doc_ids": [
+        "DOC-B0985-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0985-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0985",
+          "source_locator": "data/raw/museum_base_1070.csv#row=986",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 36,
+          "doc_ids": [
+            "DOC-B0985-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_base_1070.csv#row=986",
+      "text": "대중을 위한 예술, 대중이 체험하고 즐길 수 있는 예술 등을 소개",
+      "sido": "부산광역시",
+      "sigungu": "해운대구",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_base_1070.csv#row=986"
+      ],
+      "evidence_id": "E2",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=671",
+        "fields": {
+          "name": "뮤지엄원",
+          "sido": "부산광역시",
+          "sigungu": "해운대구",
+          "address": "부산광역시 해운대구 센텀서로 20",
+          "ownership_type": "사립",
+          "adult_fee": "18000",
+          "youth_fee": "15000",
+          "child_fee": "13000",
+          "adult_fee_status": "BASE_FEE_PAID",
+          "weekday_open": "10:00",
+          "weekday_close": "19:00",
+          "holiday_open": "10:00",
+          "holiday_close": "20:00",
+          "closure_rule_raw": "연중무휴"
+        },
+        "base_data_date": "2025-11-20",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0551",
+      "name": "소다미술관",
+      "document": "소다미술관은 짓다만 대형 찜질방을 리모델링하여 문화 재생 공간으로 재탄생시킨 화성시 최초의 건축, 디자인 테마 사립 미술관이다. 소다미술관은 예술·건축·디자인을 기반으로 한 경계 없는 프로젝트를 통해 누구나 일상 속에서 감동과 영감을 경험할 수 있는 시각적·공간적 경험을 마련한다. 미완의 찜질방 구조를 재탄생시킨 미술관 공간에서는 과거와 현재가 공존하는 독특한 공간을 경험할 수 있고, 넓은 잔디 광장과 내부 카페가 있어 전시 관람과 휴식을 함께 즐길 수 있다. 전시 관람료는 무료이며 자유롭게 입장하여 관람 가능하다. 입구에 비치된 모바일 리플릿으로 전시에 대한 자세한 설명과 오디오 도슨트 등 다양한 정보를 이용할 수 있다.◎ 한류의 매력을 만나는 여행 정보 - 드라마 드라마 12화에서 웅이(최우식)는 연인인 연수(김다미)를 자신의 개인 전시회를 준비 하고있는 갤러리로 데려간다. 이 장면의 배경이 된 곳은 바로 소다미술관이다. 독창적인 공간 구성과 예술적 감성이 어우러진 이곳은 방문객에게도 깊은 인상을 남기며, 특별한 문화적 경험을 선사한다.",
+      "metadata": {
+        "name": "소다미술관",
+        "latitude": 37.20162012,
+        "adult_fee": 0.0,
+        "ownership_type": "사립",
+        "requires_manual_review": true,
+        "address": "경기도 화성시 병점구 효행로707번길 30",
+        "youth_fee": 0.0,
+        "source_types": "TOUR_API",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/77/3563177_image2_1.jpg",
+        "fee_notes": "전시준비로 인한 휴관",
+        "image_copyright": "Type3",
+        "amenities_raw": "대관제공(1층: 잔디 광장, 야외전시장, 2층: 컨테이너 공간, 데크, 지원내용: 야외용가구, 전기, 빔프로젝터, 노트북, 와이파이, 화장실)",
+        "sigungu": "화성시",
+        "weekday_open": "10:00",
+        "sido": "경기도",
+        "closure_rule_raw": "월+화",
+        "homepage_url": "https://www.museumsoda.org",
+        "holiday_open": "10:00",
+        "holiday_close": "18:00",
+        "weekday_close": "18:00",
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "child_fee": 0.0,
+        "longitude": 127.006088
+      },
+      "vector_rank": 2,
+      "bm25_rank": null,
+      "vector_distance": 0.570732831954956,
+      "vector_score": null,
+      "bm25_score": null,
+      "vector_document": "소다미술관은 짓다만 대형 찜질방을 리모델링하여 문화 재생 공간으로 재탄생시킨 화성시 최초의 건축, 디자인 테마 사립 미술관이다. 소다미술관은 예술·건축·디자인을 기반으로 한 경계 없는 프로젝트를 통해 누구나 일상 속에서 감동과 영감을 경험할 수 있는 시각적·공간적 경험을 마련한다. 미완의 찜질방 구조를 재탄생시킨 미술관 공간에서는 과거와 현재가 공존하는 독특한 공간을 경험할 수 있고, 넓은 잔디 광장과 내부 카페가 있어 전시 관람과 휴식을 함께 즐길 수 있다. 전시 관람료는 무료이며 자유롭게 입장하여 관람 가능하다. 입구에 비치된 모바일 리플릿으로 전시에 대한 자세한 설명과 오디오 도슨트 등 다양한 정보를 이용할 수 있다.◎ 한류의 매력을 만나는 여행 정보 - 드라마 드라마 12화에서 웅이(최우식)는 연인인 연수(김다미)를 자신의 개인 전시회를 준비 하고있는 갤러리로 데려간다. 이 장면의 배경이 된 곳은 바로 소다미술관이다. 독창적인 공간 구성과 예술적 감성이 어우러진 이곳은 방문객에게도 깊은 인상을 남기며, 특별한 문화적 경험을 선사한다.",
+      "bm25_document": "",
+      "best_span_id": null,
+      "best_span_text": null,
+      "fusion_score": 0.016129032258064516,
+      "retrieved_by": [
+        "vector"
+      ],
+      "fusion_rank": 3,
+      "rerank_score": null,
+      "rank": 3,
+      "score": 0.016129032258064516,
+      "score_type": "rrf",
+      "distance": 0.570732831954956,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector"
+      ],
+      "retriever": "vector",
+      "source_doc_ids": [
+        "DOC-B0551-TOUR_API-2756728"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0551-TOUR_API-2756728",
+          "source_type": "TOUR_API",
+          "source_record_id": "2756728",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=273",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 71,
+          "doc_ids": [
+            "DOC-B0551-TOUR_API-2756728"
+          ]
+        },
+        {
+          "start": 72,
+          "end": 157,
+          "doc_ids": [
+            "DOC-B0551-TOUR_API-2756728"
+          ]
+        },
+        {
+          "start": 158,
+          "end": 259,
+          "doc_ids": [
+            "DOC-B0551-TOUR_API-2756728"
+          ]
+        },
+        {
+          "start": 260,
+          "end": 291,
+          "doc_ids": [
+            "DOC-B0551-TOUR_API-2756728"
+          ]
+        },
+        {
+          "start": 292,
+          "end": 440,
+          "doc_ids": [
+            "DOC-B0551-TOUR_API-2756728"
+          ]
+        },
+        {
+          "start": 441,
+          "end": 467,
+          "doc_ids": [
+            "DOC-B0551-TOUR_API-2756728"
+          ]
+        },
+        {
+          "start": 468,
+          "end": 533,
+          "doc_ids": [
+            "DOC-B0551-TOUR_API-2756728"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=273",
+      "text": "소다미술관은 짓다만 대형 찜질방을 리모델링하여 문화 재생 공간으로 재탄생시킨 화성시 최초의 건축, 디자인 테마 사립 미술관이다. 소다미술관은 예술·건축·디자인을 기반으로 한 경계 없는 프로젝트를 통해 누구나 일상 속에서 감동과 영감을 경험할 수 있는 시각적·공간적 경험을 마련한다. 미완의 찜질방 구조를 재탄생시킨 미술관 공간에서는 과거와 현재가 공존하는 독특한 공간을 경험할 수 있고, 넓은 잔디 광장과 내부 카페가 있어 전시 관람과 휴식을 함께 즐길 수 있다. 전시 관람료는 무료이며 자유롭게 입장하여 관람 가능하다. 입구에 비치된 모바일 리플릿으로 전시에 대한 자세한 설명과 오디오 도슨트 등 다양한 정보를 이용할 수 있다.◎ 한류의 매력을 만나는 여행 정보 - 드라마 드라마 12화에서 웅이(최우식)는 연인인 연수(김다미)를 자신의 개인 전시회를 준비 하고있는 갤러리로 데려간다. 이 장면의 배경이 된 곳은 바로 소다미술관이다. 독창적인 공간 구성과 예술적 감성이 어우러진 이곳은 방문객에게도 깊은 인상을 남기며, 특별한 문화적 경험을 선사한다.",
+      "sido": "경기도",
+      "sigungu": "화성시",
+      "span_id": "",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=273"
+      ],
+      "evidence_id": "E3",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=388",
+        "fields": {
+          "name": "소다미술관",
+          "sido": "경기도",
+          "sigungu": "화성시",
+          "address": "경기도 화성시 병점구 효행로707번길 30",
+          "ownership_type": "사립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "10:00",
+          "weekday_close": "18:00",
+          "holiday_open": "10:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "월+화",
+          "amenities_raw": "대관제공(1층: 잔디 광장, 야외전시장, 2층: 컨테이너 공간, 데크, 지원내용: 야외용가구, 전기, 빔프로젝터, 노트북, 와이파이, 화장실)"
+        },
+        "base_data_date": "2026-02-01",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0846",
+      "name": "한국등잔박물관",
+      "document": "포은 정몽주 묘소 맞은편에 있는 한국등잔박물관은 박물관장 김동휘가 50여 년간 수집한 등잔들이 전시되어 있는 사립박물관이다. 국내 유일의 등기구 박물관으로 선조들의 옛 생활상을 살펴볼 수 있어 개인뿐 아니라 학생들의 체험학습 공간으로 많이 찾는 곳이다. 수원화성 성곽을 모티브로 지은 원통형의 등대 모양 건물은 지하 1층, 지상 3층 규모로 1, 2층은 전시 공간으로 3층은 세미나 및 각종 공연을 위한 다목적 공간으로 구성되어 있다. 또 별관 전시장에는 농기구 전시실이 있고 야외전시장인 연못과 자연석이 어우러진 아름다운 정원으로 가볍게 둘러보며 힐링하기 좋다. 상설전시실 1층에는 우리의 불그릇 등잔을 주제로 부엌, 찬방, 사랑방, 안방 등 공간별로 사용되었던 등잔의 종류와 용도를 옛 생활용품과 함께 전시되어 있으며, 2층은 일상을 지킨 빛과 예를 밝힌 빛을 주제로 시대별 등잔 양식과 특징을 한눈에 알아볼 수 있다. 또 1층 특별기획전시실에서는 지역작가 조명전을 개최해 경기도 내에서 왕성한 작품 활동을 펼치는 지역작가들을 소개하고 있다. 박물관에서는 다양한 어린이, 청소년, 성인을 대상으로 한 상설교육 프로그램과 특별교육 프로그램을 운영하고 있다. 초나 LED등, 도자 등잔 등을 만들어 볼 수 있어 특별한 추억을 선물한다. 포은 정몽주 묘소가 맞은편에 있으므로 연계해 함께 방문하기 좋다.",
+      "metadata": {
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/61/3584961_image2_1.jpg",
+        "weekday_open": "10:00",
+        "longitude": 127.1778809,
+        "ownership_type": "사립",
+        "sido": "경기도",
+        "image_copyright": "Type1",
+        "weekday_close": "17:00",
+        "adult_fee_status": "BASE_FEE_PAID",
+        "adult_fee": 8000.0,
+        "closure_rule_raw": "매주 월요일~화요일,신정,설연휴,추석(당일)",
+        "latitude": 37.33658645,
+        "homepage_url": "https://www.deungjan.org",
+        "child_fee": 0.0,
+        "fee_notes": "3000",
+        "sigungu": "용인시",
+        "address": "경기도 용인시 처인구 모현읍 능곡로56번길 8",
+        "requires_manual_review": true,
+        "source_types": "TOUR_API",
+        "name": "한국등잔박물관",
+        "holiday_open": "10:00",
+        "holiday_close": "17:00",
+        "youth_fee": 5000.0
+      },
+      "vector_rank": null,
+      "bm25_rank": 2,
+      "vector_distance": null,
+      "vector_score": null,
+      "bm25_score": 7.598468160492635,
+      "vector_document": "",
+      "bm25_document": "포은 정몽주 묘소 맞은편에 있는 한국등잔박물관은 박물관장 김동휘가 50여 년간 수집한 등잔들이 전시되어 있는 사립박물관이다. 국내 유일의 등기구 박물관으로 선조들의 옛 생활상을 살펴볼 수 있어 개인뿐 아니라 학생들의 체험학습 공간으로 많이 찾는 곳이다. 수원화성 성곽을 모티브로 지은 원통형의 등대 모양 건물은 지하 1층, 지상 3층 규모로 1, 2층은 전시 공간으로 3층은 세미나 및 각종 공연을 위한 다목적 공간으로 구성되어 있다. 또 별관 전시장에는 농기구 전시실이 있고 야외전시장인 연못과 자연석이 어우러진 아름다운 정원으로 가볍게 둘러보며 힐링하기 좋다. 상설전시실 1층에는 우리의 불그릇 등잔을 주제로 부엌, 찬방, 사랑방, 안방 등 공간별로 사용되었던 등잔의 종류와 용도를 옛 생활용품과 함께 전시되어 있으며, 2층은 일상을 지킨 빛과 예를 밝힌 빛을 주제로 시대별 등잔 양식과 특징을 한눈에 알아볼 수 있다. 또 1층 특별기획전시실에서는 지역작가 조명전을 개최해 경기도 내에서 왕성한 작품 활동을 펼치는 지역작가들을 소개하고 있다. 박물관에서는 다양한 어린이, 청소년, 성인을 대상으로 한 상설교육 프로그램과 특별교육 프로그램을 운영하고 있다. 초나 LED등, 도자 등잔 등을 만들어 볼 수 있어 특별한 추억을 선물한다. 포은 정몽주 묘소가 맞은편에 있으므로 연계해 함께 방문하기 좋다.",
+      "best_span_id": "chroma:M0846",
+      "best_span_text": "포은 정몽주 묘소 맞은편에 있는 한국등잔박물관은 박물관장 김동휘가 50여 년간 수집한 등잔들이 전시되어 있는 사립박물관이다. 국내 유일의 등기구 박물관으로 선조들의 옛 생활상을 살펴볼 수 있어 개인뿐 아니라 학생들의 체험학습 공간으로 많이 찾는 곳이다. 수원화성 성곽을 모티브로 지은 원통형의 등대 모양 건물은 지하 1층, 지상 3층 규모로 1, 2층은 전시 공간으로 3층은 세미나 및 각종 공연을 위한 다목적 공간으로 구성되어 있다. 또 별관 전시장에는 농기구 전시실이 있고 야외전시장인 연못과 자연석이 어우러진 아름다운 정원으로 가볍게 둘러보며 힐링하기 좋다. 상설전시실 1층에는 우리의 불그릇 등잔을 주제로 부엌, 찬방, 사랑방, 안방 등 공간별로 사용되었던 등잔의 종류와 용도를 옛 생활용품과 함께 전시되어 있으며, 2층은 일상을 지킨 빛과 예를 밝힌 빛을 주제로 시대별 등잔 양식과 특징을 한눈에 알아볼 수 있다. 또 1층 특별기획전시실에서는 지역작가 조명전을 개최해 경기도 내에서 왕성한 작품 활동을 펼치는 지역작가들을 소개하고 있다. 박물관에서는 다양한 어린이, 청소년, 성인을 대상으로 한 상설교육 프로그램과 특별교육 프로그램을 운영하고 있다. 초나 LED등, 도자 등잔 등을 만들어 볼 수 있어 특별한 추억을 선물한다. 포은 정몽주 묘소가 맞은편에 있으므로 연계해 함께 방문하기 좋다.",
+      "fusion_score": 0.016129032258064516,
+      "retrieved_by": [
+        "bm25"
+      ],
+      "fusion_rank": 4,
+      "rerank_score": null,
+      "rank": 4,
+      "score": 0.016129032258064516,
+      "score_type": "rrf",
+      "distance": null,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "bm25"
+      ],
+      "retriever": "bm25",
+      "span_id": "chroma:M0846",
+      "source_doc_ids": [
+        "DOC-B0846-TOUR_API-130147"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0846-TOUR_API-130147",
+          "source_type": "TOUR_API",
+          "source_record_id": "130147",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=400",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 69,
+          "doc_ids": [
+            "DOC-B0846-TOUR_API-130147"
+          ]
+        },
+        {
+          "start": 70,
+          "end": 141,
+          "doc_ids": [
+            "DOC-B0846-TOUR_API-130147"
+          ]
+        },
+        {
+          "start": 142,
+          "end": 243,
+          "doc_ids": [
+            "DOC-B0846-TOUR_API-130147"
+          ]
+        },
+        {
+          "start": 244,
+          "end": 315,
+          "doc_ids": [
+            "DOC-B0846-TOUR_API-130147"
+          ]
+        },
+        {
+          "start": 316,
+          "end": 460,
+          "doc_ids": [
+            "DOC-B0846-TOUR_API-130147"
+          ]
+        },
+        {
+          "start": 461,
+          "end": 529,
+          "doc_ids": [
+            "DOC-B0846-TOUR_API-130147"
+          ]
+        },
+        {
+          "start": 530,
+          "end": 592,
+          "doc_ids": [
+            "DOC-B0846-TOUR_API-130147"
+          ]
+        },
+        {
+          "start": 593,
+          "end": 635,
+          "doc_ids": [
+            "DOC-B0846-TOUR_API-130147"
+          ]
+        },
+        {
+          "start": 636,
+          "end": 672,
+          "doc_ids": [
+            "DOC-B0846-TOUR_API-130147"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=400",
+      "text": "포은 정몽주 묘소 맞은편에 있는 한국등잔박물관은 박물관장 김동휘가 50여 년간 수집한 등잔들이 전시되어 있는 사립박물관이다. 국내 유일의 등기구 박물관으로 선조들의 옛 생활상을 살펴볼 수 있어 개인뿐 아니라 학생들의 체험학습 공간으로 많이 찾는 곳이다. 수원화성 성곽을 모티브로 지은 원통형의 등대 모양 건물은 지하 1층, 지상 3층 규모로 1, 2층은 전시 공간으로 3층은 세미나 및 각종 공연을 위한 다목적 공간으로 구성되어 있다. 또 별관 전시장에는 농기구 전시실이 있고 야외전시장인 연못과 자연석이 어우러진 아름다운 정원으로 가볍게 둘러보며 힐링하기 좋다. 상설전시실 1층에는 우리의 불그릇 등잔을 주제로 부엌, 찬방, 사랑방, 안방 등 공간별로 사용되었던 등잔의 종류와 용도를 옛 생활용품과 함께 전시되어 있으며, 2층은 일상을 지킨 빛과 예를 밝힌 빛을 주제로 시대별 등잔 양식과 특징을 한눈에 알아볼 수 있다. 또 1층 특별기획전시실에서는 지역작가 조명전을 개최해 경기도 내에서 왕성한 작품 활동을 펼치는 지역작가들을 소개하고 있다. 박물관에서는 다양한 어린이, 청소년, 성인을 대상으로 한 상설교육 프로그램과 특별교육 프로그램을 운영하고 있다. 초나 LED등, 도자 등잔 등을 만들어 볼 수 있어 특별한 추억을 선물한다. 포은 정몽주 묘소가 맞은편에 있으므로 연계해 함께 방문하기 좋다.",
+      "sido": "경기도",
+      "sigungu": "용인시",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=400"
+      ],
+      "evidence_id": "E4",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=573",
+        "fields": {
+          "name": "한국등잔박물관",
+          "sido": "경기도",
+          "sigungu": "용인시",
+          "address": "경기도 용인시 처인구 모현읍 능곡로56번길 8",
+          "ownership_type": "사립",
+          "adult_fee": "8000",
+          "youth_fee": "5000",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_PAID",
+          "weekday_open": "10:00",
+          "weekday_close": "17:00",
+          "holiday_open": "10:00",
+          "holiday_close": "17:00",
+          "closure_rule_raw": "매주 월요일~화요일,신정,설연휴,추석(당일)"
+        },
+        "base_data_date": "2024-11-29",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0464",
+      "name": "맥아트미술관",
+      "document": "맥아트미술관은 회화, 입체, 설치, 영상 등 다양한 장르의 예술 작품들을 만날 수 있는 사립미술관(2012년 개관)",
+      "metadata": {
+        "homepage_url": "http://www.glassisland.co.kr",
+        "sido": "경기도",
+        "closure_rule_raw": "월요일+12월31일",
+        "weekday_close": "18:00",
+        "adult_fee_status": "BASE_FEE_PAID",
+        "address": "경기도 안산시 단원구 부흥로 254",
+        "adult_fee": 12000.0,
+        "requires_manual_review": false,
+        "holiday_open": "09:30",
+        "holiday_close": "18:00",
+        "weekday_open": "09:30",
+        "youth_fee": 11000.0,
+        "name": "맥아트미술관",
+        "fee_notes": "유아무료(24개월까지)",
+        "ownership_type": "사립",
+        "transport_notes": "지하철 4호선 안산역 <-> 시내버스 123번 이용 (대부동주민센터 하차 후 4km 거리) 지하철 4호선 오이도역, <-> 광역버스 790번 이용 (대부동주민센터 하차 후 4km 거리)",
+        "latitude": 37.2197536,
+        "longitude": 126.6024204,
+        "child_fee": 8000.0,
+        "sigungu": "안산시",
+        "source_types": "BASE",
+        "amenities_raw": "문화상품점+매점"
+      },
+      "vector_rank": 3,
+      "bm25_rank": null,
+      "vector_distance": 0.5861057639122009,
+      "vector_score": null,
+      "bm25_score": null,
+      "vector_document": "맥아트미술관은 회화, 입체, 설치, 영상 등 다양한 장르의 예술 작품들을 만날 수 있는 사립미술관(2012년 개관)",
+      "bm25_document": "",
+      "best_span_id": null,
+      "best_span_text": null,
+      "fusion_score": 0.015873015873015872,
+      "retrieved_by": [
+        "vector"
+      ],
+      "fusion_rank": 5,
+      "rerank_score": null,
+      "rank": 5,
+      "score": 0.015873015873015872,
+      "score_type": "rrf",
+      "distance": 0.5861057639122009,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector"
+      ],
+      "retriever": "vector",
+      "source_doc_ids": [
+        "DOC-B0464-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0464-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0464",
+          "source_locator": "data/raw/museum_base_1070.csv#row=465",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 64,
+          "doc_ids": [
+            "DOC-B0464-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_base_1070.csv#row=465",
+      "text": "맥아트미술관은 회화, 입체, 설치, 영상 등 다양한 장르의 예술 작품들을 만날 수 있는 사립미술관(2012년 개관)",
+      "sido": "경기도",
+      "sigungu": "안산시",
+      "span_id": "",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_base_1070.csv#row=465"
+      ],
+      "evidence_id": "E5",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=335",
+        "fields": {
+          "name": "맥아트미술관",
+          "sido": "경기도",
+          "sigungu": "안산시",
+          "address": "경기도 안산시 단원구 부흥로 254",
+          "ownership_type": "사립",
+          "adult_fee": "12000",
+          "youth_fee": "11000",
+          "child_fee": "8000",
+          "adult_fee_status": "BASE_FEE_PAID",
+          "weekday_open": "09:30",
+          "weekday_close": "18:00",
+          "holiday_open": "09:30",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "월요일+12월31일",
+          "amenities_raw": "문화상품점+매점"
+        },
+        "base_data_date": "2026-03-05",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    }
+  ],
+  "answer": "안다미로귀때박물관에서 소개하는 귀때그릇은 토기·사기·유기·무쇠·옹기 등 다양한 재질로 만들어졌습니다.[E1]",
+  "retrieval_status": "ok",
+  "answer_status": "answered",
+  "route": "hybrid",
+  "retry_count": 0,
+  "supervisor_verified": true,
+  "rerank_applied": false,
+  "retriever_errors": [],
+  "warnings": [
+    "Cross-Encoder reranking failed (FileNotFoundError); RRF order retained"
+  ],
+  "duration_ms": 10973.53,
+  "error_type": "",
+  "hit_at_1": 1,
+  "hit_at_3": 1,
+  "hit_at_5": 1,
+  "recall_at_5": 1.0,
+  "mrr_at_10": 1.0
+}

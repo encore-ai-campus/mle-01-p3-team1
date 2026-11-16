@@ -1,0 +1,937 @@
+{
+  "mode": "supervisor_full",
+  "question_id": "V2-CB11",
+  "evidence": [
+    {
+      "museum_id": "M0706",
+      "name": "대구방짜유기박물관",
+      "document": "대구방짜유기박물관은 전국 유일의 방짜유기를 테마로 한 전문박물관이다. 자랑스러운 고유문화유산인 방짜유기와 그 제작기술을 전승, 보존하며 후손들에게 우리 것의 아름다움과 우수성을 알리고 지역문화 발전을 이루고자 2007년 5월 25일 개관했다. 국가무형유산 제77호 유기장 이봉주 선생이 제작하고 수집한 방짜유기작품 275종 1489점을 대구광역시가 기증받아 관람객을 다양한 방짜유기 세계로 안내하고 있다. 수려한 풍광으로 유명한 팔공산국립공원에 자리 잡은 박물관은 지하 1층, 지상 2층의 규모로 유기문화실, 기증실, 재현실, 기획전시실 등의 전시실과 야외공연장, 체험의 장 등의 시설을 갖추고 있다. 전국 유일의 방짜유기 테마 전문 박물관",
+      "metadata": {
+        "sido": "대구광역시",
+        "holiday_close": "18:00",
+        "ownership_type": "공립",
+        "sigungu": "동구",
+        "source_types": "BASE|TOUR_API",
+        "youth_fee": 0.0,
+        "homepage_url": "https://bangjja.or.kr",
+        "adult_fee": 0.0,
+        "address": "대구광역시 동구 도장길 29",
+        "holiday_open": "09:00",
+        "weekday_close": "18:00",
+        "transport_notes": "급행1+팔공1+팔공3",
+        "child_fee": 0.0,
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/83/3586383_image2_1.JPG",
+        "requires_manual_review": true,
+        "name": "대구방짜유기박물관",
+        "longitude": 128.7013639,
+        "weekday_open": "09:00",
+        "image_copyright": "Type1",
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "closure_rule_raw": "매주 월요일+1월 1일+설날추석 당일",
+        "latitude": 35.96545542
+      },
+      "vector_rank": 2,
+      "bm25_rank": 1,
+      "vector_distance": 0.46640604734420776,
+      "vector_score": null,
+      "bm25_score": 17.893153608568106,
+      "vector_document": "대구방짜유기박물관은 전국 유일의 방짜유기를 테마로 한 전문박물관이다. 자랑스러운 고유문화유산인 방짜유기와 그 제작기술을 전승, 보존하며 후손들에게 우리 것의 아름다움과 우수성을 알리고 지역문화 발전을 이루고자 2007년 5월 25일 개관했다. 국가무형유산 제77호 유기장 이봉주 선생이 제작하고 수집한 방짜유기작품 275종 1489점을 대구광역시가 기증받아 관람객을 다양한 방짜유기 세계로 안내하고 있다. 수려한 풍광으로 유명한 팔공산국립공원에 자리 잡은 박물관은 지하 1층, 지상 2층의 규모로 유기문화실, 기증실, 재현실, 기획전시실 등의 전시실과 야외공연장, 체험의 장 등의 시설을 갖추고 있다. 전국 유일의 방짜유기 테마 전문 박물관",
+      "bm25_document": "대구방짜유기박물관은 전국 유일의 방짜유기를 테마로 한 전문박물관이다. 자랑스러운 고유문화유산인 방짜유기와 그 제작기술을 전승, 보존하며 후손들에게 우리 것의 아름다움과 우수성을 알리고 지역문화 발전을 이루고자 2007년 5월 25일 개관했다. 국가무형유산 제77호 유기장 이봉주 선생이 제작하고 수집한 방짜유기작품 275종 1489점을 대구광역시가 기증받아 관람객을 다양한 방짜유기 세계로 안내하고 있다. 수려한 풍광으로 유명한 팔공산국립공원에 자리 잡은 박물관은 지하 1층, 지상 2층의 규모로 유기문화실, 기증실, 재현실, 기획전시실 등의 전시실과 야외공연장, 체험의 장 등의 시설을 갖추고 있다. 전국 유일의 방짜유기 테마 전문 박물관",
+      "best_span_id": "chroma:M0706",
+      "best_span_text": "대구방짜유기박물관은 전국 유일의 방짜유기를 테마로 한 전문박물관이다. 자랑스러운 고유문화유산인 방짜유기와 그 제작기술을 전승, 보존하며 후손들에게 우리 것의 아름다움과 우수성을 알리고 지역문화 발전을 이루고자 2007년 5월 25일 개관했다. 국가무형유산 제77호 유기장 이봉주 선생이 제작하고 수집한 방짜유기작품 275종 1489점을 대구광역시가 기증받아 관람객을 다양한 방짜유기 세계로 안내하고 있다. 수려한 풍광으로 유명한 팔공산국립공원에 자리 잡은 박물관은 지하 1층, 지상 2층의 규모로 유기문화실, 기증실, 재현실, 기획전시실 등의 전시실과 야외공연장, 체험의 장 등의 시설을 갖추고 있다. 전국 유일의 방짜유기 테마 전문 박물관",
+      "fusion_score": 0.03252247488101534,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 2,
+      "rerank_score": 0.978800356388092,
+      "rank": 1,
+      "score": 0.978800356388092,
+      "score_type": "cross_encoder",
+      "distance": 0.46640604734420776,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0706",
+      "source_doc_ids": [
+        "DOC-B0706-TOUR_API-560097",
+        "DOC-B0706-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0706-TOUR_API-560097",
+          "source_type": "TOUR_API",
+          "source_record_id": "560097",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=344",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        },
+        {
+          "doc_id": "DOC-B0706-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0706",
+          "source_locator": "data/raw/museum_base_1070.csv#row=707",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 38,
+          "doc_ids": [
+            "DOC-B0706-TOUR_API-560097"
+          ]
+        },
+        {
+          "start": 39,
+          "end": 135,
+          "doc_ids": [
+            "DOC-B0706-TOUR_API-560097"
+          ]
+        },
+        {
+          "start": 136,
+          "end": 226,
+          "doc_ids": [
+            "DOC-B0706-TOUR_API-560097"
+          ]
+        },
+        {
+          "start": 227,
+          "end": 336,
+          "doc_ids": [
+            "DOC-B0706-TOUR_API-560097"
+          ]
+        },
+        {
+          "start": 337,
+          "end": 358,
+          "doc_ids": [
+            "DOC-B0706-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=344",
+      "text": "대구방짜유기박물관은 전국 유일의 방짜유기를 테마로 한 전문박물관이다. 자랑스러운 고유문화유산인 방짜유기와 그 제작기술을 전승, 보존하며 후손들에게 우리 것의 아름다움과 우수성을 알리고 지역문화 발전을 이루고자 2007년 5월 25일 개관했다. 국가무형유산 제77호 유기장 이봉주 선생이 제작하고 수집한 방짜유기작품 275종 1489점을 대구광역시가 기증받아 관람객을 다양한 방짜유기 세계로 안내하고 있다. 수려한 풍광으로 유명한 팔공산국립공원에 자리 잡은 박물관은 지하 1층, 지상 2층의 규모로 유기문화실, 기증실, 재현실, 기획전시실 등의 전시실과 야외공연장, 체험의 장 등의 시설을 갖추고 있다. 전국 유일의 방짜유기 테마 전문 박물관",
+      "sido": "대구광역시",
+      "sigungu": "동구",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=344"
+      ],
+      "evidence_id": "E1",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=490",
+        "fields": {
+          "name": "대구방짜유기박물관",
+          "sido": "대구광역시",
+          "sigungu": "동구",
+          "address": "대구광역시 동구 도장길 29",
+          "ownership_type": "공립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "09:00",
+          "weekday_close": "18:00",
+          "holiday_open": "09:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "매주 월요일+1월 1일+설날추석 당일"
+        },
+        "base_data_date": "2025-12-10",
+        "trust": "derived_dataset_not_human_verified"
+      },
+      "retrieval_branch": "document"
+    },
+    {
+      "museum_id": "M0708",
+      "name": "대구근대역사관",
+      "document": "대구근대역사관은 근대기 대구의 흔적과 역사·전통·문화를 사랑하는 이들의 요람이 되는 곳이다. 근대문화유산인 역사관 건물은 1932년 조선식산은행 대구지점으로 건립되어, 1954년부터는 한국산업은행 대구지점으로 이용된 근대문화유산이다. 르네상스 양식으로 조형미가 뛰어난 역사관 건물은 원형이 잘 보존돼 2003년 대구광역시 유형문화유산으로 지정되었다. 2008년 대구도시공사가 이 건물을 사들여 대구시에 기증했으며 이후 대구근대역사관으로 새롭게 단장돼 2011년 1월 문을 열었다. 지상 2층, 지하 1층의 박물관에는 대구 근대를 중심 범위로 행정‧사회‧경제‧교육‧독립운동‧예술 등을 소개하고 있으며, 1960년대까지 대구 현대사의 몇 장면도 만날 수 있다. 전시공간 외에도 체험실, 문화강좌실을 갖추고 있어 다양한 체험을 할 수 있는 장소이다. 근대기 대구의 모습과 선조들의 생활상을 알 수 있는 공립박물관",
+      "metadata": {
+        "transport_notes": "지하철 1호선 중앙로역+204+304+349+401+410-1+503+623+706+730+급행2+북구2",
+        "weekday_open": "09:00",
+        "image_copyright": "Type1",
+        "youth_fee": 0.0,
+        "address": "대구광역시 중구 경상감영길 67",
+        "latitude": 35.87179779,
+        "closure_rule_raw": "매주 월요일+1월 1일+설날추석 당일",
+        "child_fee": 0.0,
+        "sigungu": "중구",
+        "source_types": "BASE|TOUR_API",
+        "ownership_type": "공립",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/44/4110644_image2_1.jpg",
+        "name": "대구근대역사관",
+        "holiday_close": "18:00",
+        "homepage_url": "https://dmhm.or.kr",
+        "sido": "대구광역시",
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "holiday_open": "09:00",
+        "adult_fee": 0.0,
+        "weekday_close": "18:00",
+        "requires_manual_review": true,
+        "longitude": 128.5911599
+      },
+      "vector_rank": 1,
+      "bm25_rank": 15,
+      "vector_distance": 0.40662962198257446,
+      "vector_score": null,
+      "bm25_score": 11.170177168104646,
+      "vector_document": "대구근대역사관은 근대기 대구의 흔적과 역사·전통·문화를 사랑하는 이들의 요람이 되는 곳이다. 근대문화유산인 역사관 건물은 1932년 조선식산은행 대구지점으로 건립되어, 1954년부터는 한국산업은행 대구지점으로 이용된 근대문화유산이다. 르네상스 양식으로 조형미가 뛰어난 역사관 건물은 원형이 잘 보존돼 2003년 대구광역시 유형문화유산으로 지정되었다. 2008년 대구도시공사가 이 건물을 사들여 대구시에 기증했으며 이후 대구근대역사관으로 새롭게 단장돼 2011년 1월 문을 열었다. 지상 2층, 지하 1층의 박물관에는 대구 근대를 중심 범위로 행정‧사회‧경제‧교육‧독립운동‧예술 등을 소개하고 있으며, 1960년대까지 대구 현대사의 몇 장면도 만날 수 있다. 전시공간 외에도 체험실, 문화강좌실을 갖추고 있어 다양한 체험을 할 수 있는 장소이다. 근대기 대구의 모습과 선조들의 생활상을 알 수 있는 공립박물관",
+      "bm25_document": "대구근대역사관은 근대기 대구의 흔적과 역사·전통·문화를 사랑하는 이들의 요람이 되는 곳이다. 근대문화유산인 역사관 건물은 1932년 조선식산은행 대구지점으로 건립되어, 1954년부터는 한국산업은행 대구지점으로 이용된 근대문화유산이다. 르네상스 양식으로 조형미가 뛰어난 역사관 건물은 원형이 잘 보존돼 2003년 대구광역시 유형문화유산으로 지정되었다. 2008년 대구도시공사가 이 건물을 사들여 대구시에 기증했으며 이후 대구근대역사관으로 새롭게 단장돼 2011년 1월 문을 열었다. 지상 2층, 지하 1층의 박물관에는 대구 근대를 중심 범위로 행정‧사회‧경제‧교육‧독립운동‧예술 등을 소개하고 있으며, 1960년대까지 대구 현대사의 몇 장면도 만날 수 있다. 전시공간 외에도 체험실, 문화강좌실을 갖추고 있어 다양한 체험을 할 수 있는 장소이다. 근대기 대구의 모습과 선조들의 생활상을 알 수 있는 공립박물관",
+      "best_span_id": "chroma:M0708",
+      "best_span_text": "대구근대역사관은 근대기 대구의 흔적과 역사·전통·문화를 사랑하는 이들의 요람이 되는 곳이다. 근대문화유산인 역사관 건물은 1932년 조선식산은행 대구지점으로 건립되어, 1954년부터는 한국산업은행 대구지점으로 이용된 근대문화유산이다. 르네상스 양식으로 조형미가 뛰어난 역사관 건물은 원형이 잘 보존돼 2003년 대구광역시 유형문화유산으로 지정되었다. 2008년 대구도시공사가 이 건물을 사들여 대구시에 기증했으며 이후 대구근대역사관으로 새롭게 단장돼 2011년 1월 문을 열었다. 지상 2층, 지하 1층의 박물관에는 대구 근대를 중심 범위로 행정‧사회‧경제‧교육‧독립운동‧예술 등을 소개하고 있으며, 1960년대까지 대구 현대사의 몇 장면도 만날 수 있다. 전시공간 외에도 체험실, 문화강좌실을 갖추고 있어 다양한 체험을 할 수 있는 장소이다. 근대기 대구의 모습과 선조들의 생활상을 알 수 있는 공립박물관",
+      "fusion_score": 0.029726775956284153,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 1,
+      "name_match": true,
+      "rerank_score": 0.1688987761735916,
+      "rank": 2,
+      "score": 0.1688987761735916,
+      "score_type": "cross_encoder",
+      "distance": 0.40662962198257446,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0708",
+      "source_doc_ids": [
+        "DOC-B0708-TOUR_API-1251806",
+        "DOC-B0708-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0708-TOUR_API-1251806",
+          "source_type": "TOUR_API",
+          "source_record_id": "1251806",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=345",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        },
+        {
+          "doc_id": "DOC-B0708-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0708",
+          "source_locator": "data/raw/museum_base_1070.csv#row=709",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 51,
+          "doc_ids": [
+            "DOC-B0708-TOUR_API-1251806"
+          ]
+        },
+        {
+          "start": 52,
+          "end": 130,
+          "doc_ids": [
+            "DOC-B0708-TOUR_API-1251806"
+          ]
+        },
+        {
+          "start": 131,
+          "end": 195,
+          "doc_ids": [
+            "DOC-B0708-TOUR_API-1251806"
+          ]
+        },
+        {
+          "start": 196,
+          "end": 268,
+          "doc_ids": [
+            "DOC-B0708-TOUR_API-1251806"
+          ]
+        },
+        {
+          "start": 269,
+          "end": 367,
+          "doc_ids": [
+            "DOC-B0708-TOUR_API-1251806"
+          ]
+        },
+        {
+          "start": 368,
+          "end": 416,
+          "doc_ids": [
+            "DOC-B0708-TOUR_API-1251806"
+          ]
+        },
+        {
+          "start": 417,
+          "end": 451,
+          "doc_ids": [
+            "DOC-B0708-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=345",
+      "text": "대구근대역사관은 근대기 대구의 흔적과 역사·전통·문화를 사랑하는 이들의 요람이 되는 곳이다. 근대문화유산인 역사관 건물은 1932년 조선식산은행 대구지점으로 건립되어, 1954년부터는 한국산업은행 대구지점으로 이용된 근대문화유산이다. 르네상스 양식으로 조형미가 뛰어난 역사관 건물은 원형이 잘 보존돼 2003년 대구광역시 유형문화유산으로 지정되었다. 2008년 대구도시공사가 이 건물을 사들여 대구시에 기증했으며 이후 대구근대역사관으로 새롭게 단장돼 2011년 1월 문을 열었다. 지상 2층, 지하 1층의 박물관에는 대구 근대를 중심 범위로 행정‧사회‧경제‧교육‧독립운동‧예술 등을 소개하고 있으며, 1960년대까지 대구 현대사의 몇 장면도 만날 수 있다. 전시공간 외에도 체험실, 문화강좌실을 갖추고 있어 다양한 체험을 할 수 있는 장소이다. 근대기 대구의 모습과 선조들의 생활상을 알 수 있는 공립박물관",
+      "sido": "대구광역시",
+      "sigungu": "중구",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=345"
+      ],
+      "evidence_id": "E2",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=492",
+        "fields": {
+          "name": "대구근대역사관",
+          "sido": "대구광역시",
+          "sigungu": "중구",
+          "address": "대구광역시 중구 경상감영길 67",
+          "ownership_type": "공립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "09:00",
+          "weekday_close": "18:00",
+          "holiday_open": "09:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "매주 월요일+1월 1일+설날추석 당일"
+        },
+        "base_data_date": "2025-12-10",
+        "trust": "derived_dataset_not_human_verified"
+      },
+      "retrieval_branch": "document"
+    },
+    {
+      "museum_id": "M0831",
+      "name": "안성맞춤박물관",
+      "document": "중앙대학교 다빈치캠퍼스 입구에 세워진 안성맞춤 박물관은 유기를 중심으로 안성의 풍부한 문화유산을 함께 접할 수 있는 테마 박물관이다. 흔히 사람들은 매우 잘 맞음을 비유하여 안성맞춤이라는 말을 쓰는데, 이 말은 안성에서 유기를 만드는 장인들이 뛰어난 솜씨로 유기를 정성껏 만들어 품질이나 모양 등 기교면에서 많은 사람들의 마음을 만족시켜 생겨난 표현이다. 박물관은 지상 2층, 지하 1층, 총 3층으로 이루어져 있으며, 유기 전시실, 영상실, 기획 전시실, 농업역사실, 향토 사료실, 세미나실, 학예연구실, 수장고 등으로 이루어져 있다. 유기 전시실은 유기의 역사, 제작 방법별 유기 분류, 유기 제작 과정 모형, 제기, 반상기, 무구, 불기 등 생활 속에 쓰이는 다양한 유기를 전시하고 있다. 또한 관람객의 이해를 돕기 위해 곳곳에 영상물을 설치하였는데 터치스크린을 통해 안성의 역사와 문화에 대한 자세한 설명을 볼 수 있다. 농업역사실은 안성 농업의 역사와 계절에 따른 농경 모습, 안성의 특산물이 전시되어 있어 과거와 현재의 안성농업을 알 수 있다. 향토 사료실에는 안성의 옛 모습이 담긴 사진, 안성 장시 재현, 안성 남사당, 불교문화유산 등 안성문화와 역사를 한눈에 볼 수 있다. 안성맞춤박물관은 안성유기를 중심테마로 2002년 8월 1일에 개관한 시립박물관이다.",
+      "metadata": {
+        "latitude": 37.011318,
+        "name": "안성맞춤박물관",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/17/2996017_image2_1.jpg",
+        "transport_notes": "자가용 이용- 경부고속도로 안성 톨게이트 도착 - 우회전 - 안성방향 3km - 안성 중앙대 입구 대중교통- 서울에서(소요시간 1시간) : 남부터미널 또는 강남고속버스터미널 안성행(15~20분 간격) → 안성 중앙대 하차 도보 1분- 수원에서(소요시간 50분) : 수원버스터미널 안성행(15~20분 간격) → 안성 중앙대 하차 도보 1분",
+        "weekday_open": "09:00",
+        "sigungu": "안성시",
+        "homepage_url": "https://www.anseong.go.kr/tourPortal/museum",
+        "adult_fee": 0.0,
+        "ownership_type": "공립",
+        "longitude": 127.228354,
+        "weekday_close": "18:00",
+        "address": "경기도 안성시 대덕면 서동대로 4726-15",
+        "closure_rule_raw": "월요일+월요일이 휴일인 경우 다음날 휴관+1월1일+설날+추석",
+        "holiday_open": "09:00",
+        "child_fee": 0.0,
+        "amenities_raw": "휴식공간+자전거보관대",
+        "requires_manual_review": true,
+        "youth_fee": 0.0,
+        "holiday_close": "18:00",
+        "image_copyright": "Type3",
+        "source_types": "BASE|TOUR_API",
+        "sido": "경기도",
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS"
+      },
+      "vector_rank": null,
+      "bm25_rank": 2,
+      "vector_distance": null,
+      "vector_score": null,
+      "bm25_score": 15.786836774291384,
+      "vector_document": "",
+      "bm25_document": "중앙대학교 다빈치캠퍼스 입구에 세워진 안성맞춤 박물관은 유기를 중심으로 안성의 풍부한 문화유산을 함께 접할 수 있는 테마 박물관이다. 흔히 사람들은 매우 잘 맞음을 비유하여 안성맞춤이라는 말을 쓰는데, 이 말은 안성에서 유기를 만드는 장인들이 뛰어난 솜씨로 유기를 정성껏 만들어 품질이나 모양 등 기교면에서 많은 사람들의 마음을 만족시켜 생겨난 표현이다. 박물관은 지상 2층, 지하 1층, 총 3층으로 이루어져 있으며, 유기 전시실, 영상실, 기획 전시실, 농업역사실, 향토 사료실, 세미나실, 학예연구실, 수장고 등으로 이루어져 있다. 유기 전시실은 유기의 역사, 제작 방법별 유기 분류, 유기 제작 과정 모형, 제기, 반상기, 무구, 불기 등 생활 속에 쓰이는 다양한 유기를 전시하고 있다. 또한 관람객의 이해를 돕기 위해 곳곳에 영상물을 설치하였는데 터치스크린을 통해 안성의 역사와 문화에 대한 자세한 설명을 볼 수 있다. 농업역사실은 안성 농업의 역사와 계절에 따른 농경 모습, 안성의 특산물이 전시되어 있어 과거와 현재의 안성농업을 알 수 있다. 향토 사료실에는 안성의 옛 모습이 담긴 사진, 안성 장시 재현, 안성 남사당, 불교문화유산 등 안성문화와 역사를 한눈에 볼 수 있다. 안성맞춤박물관은 안성유기를 중심테마로 2002년 8월 1일에 개관한 시립박물관이다.",
+      "best_span_id": "chroma:M0831",
+      "best_span_text": "중앙대학교 다빈치캠퍼스 입구에 세워진 안성맞춤 박물관은 유기를 중심으로 안성의 풍부한 문화유산을 함께 접할 수 있는 테마 박물관이다. 흔히 사람들은 매우 잘 맞음을 비유하여 안성맞춤이라는 말을 쓰는데, 이 말은 안성에서 유기를 만드는 장인들이 뛰어난 솜씨로 유기를 정성껏 만들어 품질이나 모양 등 기교면에서 많은 사람들의 마음을 만족시켜 생겨난 표현이다. 박물관은 지상 2층, 지하 1층, 총 3층으로 이루어져 있으며, 유기 전시실, 영상실, 기획 전시실, 농업역사실, 향토 사료실, 세미나실, 학예연구실, 수장고 등으로 이루어져 있다. 유기 전시실은 유기의 역사, 제작 방법별 유기 분류, 유기 제작 과정 모형, 제기, 반상기, 무구, 불기 등 생활 속에 쓰이는 다양한 유기를 전시하고 있다. 또한 관람객의 이해를 돕기 위해 곳곳에 영상물을 설치하였는데 터치스크린을 통해 안성의 역사와 문화에 대한 자세한 설명을 볼 수 있다. 농업역사실은 안성 농업의 역사와 계절에 따른 농경 모습, 안성의 특산물이 전시되어 있어 과거와 현재의 안성농업을 알 수 있다. 향토 사료실에는 안성의 옛 모습이 담긴 사진, 안성 장시 재현, 안성 남사당, 불교문화유산 등 안성문화와 역사를 한눈에 볼 수 있다. 안성맞춤박물관은 안성유기를 중심테마로 2002년 8월 1일에 개관한 시립박물관이다.",
+      "fusion_score": 0.016129032258064516,
+      "retrieved_by": [
+        "bm25"
+      ],
+      "fusion_rank": 4,
+      "rerank_score": 0.0067755053751170635,
+      "rank": 3,
+      "score": 0.0067755053751170635,
+      "score_type": "cross_encoder",
+      "distance": null,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "bm25"
+      ],
+      "retriever": "bm25",
+      "span_id": "chroma:M0831",
+      "source_doc_ids": [
+        "DOC-B0831-TOUR_API-130440",
+        "DOC-B0831-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0831-TOUR_API-130440",
+          "source_type": "TOUR_API",
+          "source_record_id": "130440",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=392",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        },
+        {
+          "doc_id": "DOC-B0831-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0831",
+          "source_locator": "data/raw/museum_base_1070.csv#row=832",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 74,
+          "doc_ids": [
+            "DOC-B0831-TOUR_API-130440"
+          ]
+        },
+        {
+          "start": 75,
+          "end": 198,
+          "doc_ids": [
+            "DOC-B0831-TOUR_API-130440"
+          ]
+        },
+        {
+          "start": 199,
+          "end": 300,
+          "doc_ids": [
+            "DOC-B0831-TOUR_API-130440"
+          ]
+        },
+        {
+          "start": 301,
+          "end": 388,
+          "doc_ids": [
+            "DOC-B0831-TOUR_API-130440"
+          ]
+        },
+        {
+          "start": 389,
+          "end": 463,
+          "doc_ids": [
+            "DOC-B0831-TOUR_API-130440"
+          ]
+        },
+        {
+          "start": 464,
+          "end": 534,
+          "doc_ids": [
+            "DOC-B0831-TOUR_API-130440"
+          ]
+        },
+        {
+          "start": 535,
+          "end": 609,
+          "doc_ids": [
+            "DOC-B0831-TOUR_API-130440"
+          ]
+        },
+        {
+          "start": 610,
+          "end": 656,
+          "doc_ids": [
+            "DOC-B0831-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=392",
+      "text": "중앙대학교 다빈치캠퍼스 입구에 세워진 안성맞춤 박물관은 유기를 중심으로 안성의 풍부한 문화유산을 함께 접할 수 있는 테마 박물관이다. 흔히 사람들은 매우 잘 맞음을 비유하여 안성맞춤이라는 말을 쓰는데, 이 말은 안성에서 유기를 만드는 장인들이 뛰어난 솜씨로 유기를 정성껏 만들어 품질이나 모양 등 기교면에서 많은 사람들의 마음을 만족시켜 생겨난 표현이다. 박물관은 지상 2층, 지하 1층, 총 3층으로 이루어져 있으며, 유기 전시실, 영상실, 기획 전시실, 농업역사실, 향토 사료실, 세미나실, 학예연구실, 수장고 등으로 이루어져 있다. 유기 전시실은 유기의 역사, 제작 방법별 유기 분류, 유기 제작 과정 모형, 제기, 반상기, 무구, 불기 등 생활 속에 쓰이는 다양한 유기를 전시하고 있다. 또한 관람객의 이해를 돕기 위해 곳곳에 영상물을 설치하였는데 터치스크린을 통해 안성의 역사와 문화에 대한 자세한 설명을 볼 수 있다. 농업역사실은 안성 농업의 역사와 계절에 따른 농경 모습, 안성의 특산물이 전시되어 있어 과거와 현재의 안성농업을 알 수 있다. 향토 사료실에는 안성의 옛 모습이 담긴 사진, 안성 장시 재현, 안성 남사당, 불교문화유산 등 안성문화와 역사를 한눈에 볼 수 있다. 안성맞춤박물관은 안성유기를 중심테마로 2002년 8월 1일에 개관한 시립박물관이다.",
+      "sido": "경기도",
+      "sigungu": "안성시",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=392"
+      ],
+      "evidence_id": "E3",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=565",
+        "fields": {
+          "name": "안성맞춤박물관",
+          "sido": "경기도",
+          "sigungu": "안성시",
+          "address": "경기도 안성시 대덕면 서동대로 4726-15",
+          "ownership_type": "공립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "09:00",
+          "weekday_close": "18:00",
+          "holiday_open": "09:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "월요일+월요일이 휴일인 경우 다음날 휴관+1월1일+설날+추석",
+          "amenities_raw": "휴식공간+자전거보관대"
+        },
+        "base_data_date": "2023-11-02",
+        "trust": "derived_dataset_not_human_verified"
+      },
+      "retrieval_branch": "document"
+    },
+    {
+      "museum_id": "M0452",
+      "name": "대구보건대학교 인당박물관",
+      "document": "개관 이래 유물의 수집과 보존, 전시 등을 통해 전통문화를 계승하고 있으며, 매년 봄 가을 2차례 특별전을 개최하여 지역민들에게 가치있는 문화를 향유할 수 있는 기회를 제공하고자 노력하고 있음",
+      "metadata": {
+        "holiday_close": "00:00",
+        "ownership_type": "대학",
+        "closure_rule_raw": "공휴일+토요일+일요일 휴관+전시 기간 중 월요일 휴관",
+        "child_fee": 0.0,
+        "weekday_open": "10:00",
+        "requires_manual_review": true,
+        "weekday_close": "17:00",
+        "source_types": "BASE",
+        "address": "대구광역시 북구 영송로 15(태전동)",
+        "sido": "대구광역시",
+        "longitude": 128.5440255,
+        "name": "대구보건대학교 인당박물관",
+        "youth_fee": 0.0,
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "adult_fee": 0.0,
+        "latitude": 35.92684373,
+        "amenities_raw": "제1전시실+제2전시실+제3전시실+제4전시실+제5전시실+야외전시장",
+        "transport_notes": "버스:724, 750, 726, 527, 704, 급행3",
+        "holiday_open": "00:00",
+        "fee_notes": "일반인 관람 가능",
+        "homepage_url": "https://museum.dhc.ac.kr/main",
+        "sigungu": "북구"
+      },
+      "vector_rank": 9,
+      "bm25_rank": null,
+      "vector_distance": 0.5087774991989136,
+      "vector_score": null,
+      "bm25_score": null,
+      "vector_document": "개관 이래 유물의 수집과 보존, 전시 등을 통해 전통문화를 계승하고 있으며, 매년 봄 가을 2차례 특별전을 개최하여 지역민들에게 가치있는 문화를 향유할 수 있는 기회를 제공하고자 노력하고 있음",
+      "bm25_document": "",
+      "best_span_id": null,
+      "best_span_text": null,
+      "fusion_score": 0.014492753623188406,
+      "retrieved_by": [
+        "vector"
+      ],
+      "fusion_rank": 17,
+      "rerank_score": 0.0009792882483452559,
+      "rank": 4,
+      "score": 0.0009792882483452559,
+      "score_type": "cross_encoder",
+      "distance": 0.5087774991989136,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector"
+      ],
+      "retriever": "vector",
+      "source_doc_ids": [
+        "DOC-B0452-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0452-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0452",
+          "source_locator": "data/raw/museum_base_1070.csv#row=453",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 107,
+          "doc_ids": [
+            "DOC-B0452-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_base_1070.csv#row=453",
+      "text": "개관 이래 유물의 수집과 보존, 전시 등을 통해 전통문화를 계승하고 있으며, 매년 봄 가을 2차례 특별전을 개최하여 지역민들에게 가치있는 문화를 향유할 수 있는 기회를 제공하고자 노력하고 있음",
+      "sido": "대구광역시",
+      "sigungu": "북구",
+      "span_id": "",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_base_1070.csv#row=453"
+      ],
+      "evidence_id": "E4",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=324",
+        "fields": {
+          "name": "대구보건대학교 인당박물관",
+          "sido": "대구광역시",
+          "sigungu": "북구",
+          "address": "대구광역시 북구 영송로 15(태전동)",
+          "ownership_type": "대학",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "10:00",
+          "weekday_close": "17:00",
+          "holiday_open": "00:00",
+          "holiday_close": "00:00",
+          "closure_rule_raw": "공휴일+토요일+일요일 휴관+전시 기간 중 월요일 휴관",
+          "amenities_raw": "제1전시실+제2전시실+제3전시실+제4전시실+제5전시실+야외전시장"
+        },
+        "base_data_date": "2026-04-17",
+        "trust": "derived_dataset_not_human_verified"
+      },
+      "retrieval_branch": "document"
+    },
+    {
+      "museum_id": "M0178",
+      "name": "안다미로귀때박물관",
+      "document": "‘귀때’란 그릇 한쪽에 주전자 부리처럼 바깥으로 내밀어 만든 구멍으로, 액체를 흘리지 않고 편리하게 따를 수 있도록 한 조상들의 지혜다. 여기에 뚜껑과 손잡이가 더해지며 오늘날의 주전자로 발전하였고, 안다미로귀때박물관은 이러한 귀때그릇과 주전자의 역사와 문화를 한눈에 살펴볼 수 있는 곳이다. 이곳은 삼국시대부터 현대까지 오랜 시간 정성껏 수집한 귀때 유물 및 주전자 212종 600여 점과 민속 생활유물 100여 점을 한자리에서 살펴볼 수 있다. 토기·사기·유기·무쇠·옹기 등 다양한 재질로 제작된 한국·중국·일본·인도·미국· 영국 등 세계 각국의 귀때그릇을 통해 시대와 국경을 넘어 이어져 온 생활 속 지혜를 만나볼 수 있다. 또한, 근현대 일상에서 쓰이던 민속품도 함께 보존·전시하고 있다. 호국의 고장 칠곡에 자리한 안다미로귀때박물관은 조상이 남겨 주신 소중한 문화유산을 수집·보존·관리하며, 지역민들과 함께하는 다양한 문화사업을 이어가고 있다.",
+      "metadata": {
+        "adult_fee": 0.0,
+        "requires_manual_review": true,
+        "ownership_type": "사립",
+        "name": "안다미로귀때박물관",
+        "weekday_close": "18:00",
+        "fee_notes": "체험료 별도",
+        "sido": "경상북도",
+        "closure_rule_raw": "연중무휴",
+        "homepage_url": "http://blog.naver.com/ysroadsun",
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "holiday_close": "18:00",
+        "child_fee": 0.0,
+        "source_types": "TOUR_API",
+        "weekday_open": "09:00",
+        "youth_fee": 0.0,
+        "sigungu": "칠곡군",
+        "latitude": 35.98393601,
+        "holiday_open": "09:00",
+        "address": "경상북도 칠곡군 기산면 강정길 47-10",
+        "longitude": 128.3842314,
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/85/4098385_image2_1.jpg",
+        "image_copyright": "Type3"
+      },
+      "vector_rank": null,
+      "bm25_rank": 8,
+      "vector_distance": null,
+      "vector_score": null,
+      "bm25_score": 11.774151694127394,
+      "vector_document": "",
+      "bm25_document": "‘귀때’란 그릇 한쪽에 주전자 부리처럼 바깥으로 내밀어 만든 구멍으로, 액체를 흘리지 않고 편리하게 따를 수 있도록 한 조상들의 지혜다. 여기에 뚜껑과 손잡이가 더해지며 오늘날의 주전자로 발전하였고, 안다미로귀때박물관은 이러한 귀때그릇과 주전자의 역사와 문화를 한눈에 살펴볼 수 있는 곳이다. 이곳은 삼국시대부터 현대까지 오랜 시간 정성껏 수집한 귀때 유물 및 주전자 212종 600여 점과 민속 생활유물 100여 점을 한자리에서 살펴볼 수 있다. 토기·사기·유기·무쇠·옹기 등 다양한 재질로 제작된 한국·중국·일본·인도·미국· 영국 등 세계 각국의 귀때그릇을 통해 시대와 국경을 넘어 이어져 온 생활 속 지혜를 만나볼 수 있다. 또한, 근현대 일상에서 쓰이던 민속품도 함께 보존·전시하고 있다. 호국의 고장 칠곡에 자리한 안다미로귀때박물관은 조상이 남겨 주신 소중한 문화유산을 수집·보존·관리하며, 지역민들과 함께하는 다양한 문화사업을 이어가고 있다.",
+      "best_span_id": "chroma:M0178",
+      "best_span_text": "‘귀때’란 그릇 한쪽에 주전자 부리처럼 바깥으로 내밀어 만든 구멍으로, 액체를 흘리지 않고 편리하게 따를 수 있도록 한 조상들의 지혜다. 여기에 뚜껑과 손잡이가 더해지며 오늘날의 주전자로 발전하였고, 안다미로귀때박물관은 이러한 귀때그릇과 주전자의 역사와 문화를 한눈에 살펴볼 수 있는 곳이다. 이곳은 삼국시대부터 현대까지 오랜 시간 정성껏 수집한 귀때 유물 및 주전자 212종 600여 점과 민속 생활유물 100여 점을 한자리에서 살펴볼 수 있다. 토기·사기·유기·무쇠·옹기 등 다양한 재질로 제작된 한국·중국·일본·인도·미국· 영국 등 세계 각국의 귀때그릇을 통해 시대와 국경을 넘어 이어져 온 생활 속 지혜를 만나볼 수 있다. 또한, 근현대 일상에서 쓰이던 민속품도 함께 보존·전시하고 있다. 호국의 고장 칠곡에 자리한 안다미로귀때박물관은 조상이 남겨 주신 소중한 문화유산을 수집·보존·관리하며, 지역민들과 함께하는 다양한 문화사업을 이어가고 있다.",
+      "fusion_score": 0.014705882352941176,
+      "retrieved_by": [
+        "bm25"
+      ],
+      "fusion_rank": 16,
+      "rerank_score": 0.0006222245865501463,
+      "rank": 5,
+      "score": 0.0006222245865501463,
+      "score_type": "cross_encoder",
+      "distance": null,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "bm25"
+      ],
+      "retriever": "bm25",
+      "span_id": "chroma:M0178",
+      "source_doc_ids": [
+        "DOC-B0178-TOUR_API-4098381"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0178-TOUR_API-4098381",
+          "source_type": "TOUR_API",
+          "source_record_id": "4098381",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=84",
+          "match_trust": "RECHECKED_BY_RULE_NOT_HUMAN_APPROVED"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 76,
+          "doc_ids": [
+            "DOC-B0178-TOUR_API-4098381"
+          ]
+        },
+        {
+          "start": 77,
+          "end": 163,
+          "doc_ids": [
+            "DOC-B0178-TOUR_API-4098381"
+          ]
+        },
+        {
+          "start": 164,
+          "end": 250,
+          "doc_ids": [
+            "DOC-B0178-TOUR_API-4098381"
+          ]
+        },
+        {
+          "start": 251,
+          "end": 352,
+          "doc_ids": [
+            "DOC-B0178-TOUR_API-4098381"
+          ]
+        },
+        {
+          "start": 353,
+          "end": 389,
+          "doc_ids": [
+            "DOC-B0178-TOUR_API-4098381"
+          ]
+        },
+        {
+          "start": 390,
+          "end": 477,
+          "doc_ids": [
+            "DOC-B0178-TOUR_API-4098381"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=84",
+      "text": "‘귀때’란 그릇 한쪽에 주전자 부리처럼 바깥으로 내밀어 만든 구멍으로, 액체를 흘리지 않고 편리하게 따를 수 있도록 한 조상들의 지혜다. 여기에 뚜껑과 손잡이가 더해지며 오늘날의 주전자로 발전하였고, 안다미로귀때박물관은 이러한 귀때그릇과 주전자의 역사와 문화를 한눈에 살펴볼 수 있는 곳이다. 이곳은 삼국시대부터 현대까지 오랜 시간 정성껏 수집한 귀때 유물 및 주전자 212종 600여 점과 민속 생활유물 100여 점을 한자리에서 살펴볼 수 있다. 토기·사기·유기·무쇠·옹기 등 다양한 재질로 제작된 한국·중국·일본·인도·미국· 영국 등 세계 각국의 귀때그릇을 통해 시대와 국경을 넘어 이어져 온 생활 속 지혜를 만나볼 수 있다. 또한, 근현대 일상에서 쓰이던 민속품도 함께 보존·전시하고 있다. 호국의 고장 칠곡에 자리한 안다미로귀때박물관은 조상이 남겨 주신 소중한 문화유산을 수집·보존·관리하며, 지역민들과 함께하는 다양한 문화사업을 이어가고 있다.",
+      "sido": "경상북도",
+      "sigungu": "칠곡군",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=84"
+      ],
+      "evidence_id": "E5",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=118",
+        "fields": {
+          "name": "안다미로귀때박물관",
+          "sido": "경상북도",
+          "sigungu": "칠곡군",
+          "address": "경상북도 칠곡군 기산면 강정길 47-10",
+          "ownership_type": "사립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "09:00",
+          "weekday_close": "18:00",
+          "holiday_open": "09:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "연중무휴"
+        },
+        "base_data_date": "2026-08-19",
+        "trust": "derived_dataset_not_human_verified"
+      },
+      "retrieval_branch": "document"
+    },
+    {
+      "museum_id": "M0708",
+      "name": "대구근대역사관",
+      "text": "대구근대역사관의 Neo4j operator_name(운영기관) 기록: 대구문화예술진흥원 (CSV 원문: 재단법인 대구문화예술진흥원)\n[Neo4j 구조화 근거] {\"museum_id\": \"M0708\", \"name\": \"대구근대역사관\", \"relation\": \"OPERATED_BY\", \"organization\": \"대구문화예술진흥원\", \"org_key\": \"대구문화예술진흥원\", \"org_type\": \"공공기관\", \"raw_name\": \"재단법인 대구문화예술진흥원\", \"verification_status\": \"SOURCE_RECORDED\"}",
+      "span_id": "",
+      "source_doc_ids": [
+        "DOC-B0708-BASE",
+        "DOC-B0708-TOUR_API-1251806"
+      ],
+      "source_urls": [],
+      "source_url": "",
+      "source_locators": [
+        "data/raw/museum_base_1070.csv#row=709",
+        "data/raw/museum_tourapi_with_overview.csv#row=345"
+      ],
+      "source_locator": "data/raw/museum_base_1070.csv#row=709",
+      "sido": "대구광역시",
+      "sigungu": "중구",
+      "retriever": "graph",
+      "evidence_role": "anchor",
+      "source_scope": "graph_properties",
+      "relation": "OPERATED_BY",
+      "organization": "대구문화예술진흥원",
+      "org_type": "공공기관",
+      "operator_raw_name": "재단법인 대구문화예술진흥원",
+      "verification_status": "SOURCE_RECORDED",
+      "metadata": {},
+      "chunk_id": "",
+      "retrievers": [
+        "graph"
+      ],
+      "evidence_id": "E6",
+      "retrieval_branch": "graph",
+      "rank": 6
+    },
+    {
+      "museum_id": "M0686",
+      "name": "대구문화예술회관 미술관",
+      "text": "{anchor_raw_name: 재단법인 대구문화예술진흥원, candidate_raw_name: 대구문화예술진흥원, org_key: 대구문화예술진흥원, organization: 대구문화예술진흥원, relation: OPERATED_BY, verification_status: SOURCE_RECORDED}",
+      "span_id": "",
+      "source_doc_ids": [
+        "DOC-B0686-BASE"
+      ],
+      "source_urls": [],
+      "source_url": "",
+      "source_locators": [
+        "data/raw/museum_base_1070.csv#row=687"
+      ],
+      "source_locator": "data/raw/museum_base_1070.csv#row=687",
+      "sido": "대구광역시",
+      "sigungu": "달서구",
+      "retriever": "graph",
+      "graph_path": "anchor -[:OPERATED_BY]-> Organization <-[:OPERATED_BY]- candidate",
+      "organization": "대구문화예술진흥원",
+      "org_type": "공공기관",
+      "operator_raw_name": "대구문화예술진흥원",
+      "anchor_operator_raw_name": "재단법인 대구문화예술진흥원",
+      "relation": "OPERATED_BY",
+      "verification_status": "SOURCE_RECORDED",
+      "facility_type": "미술관",
+      "source_scope": "graph_properties",
+      "metadata": {},
+      "chunk_id": "",
+      "retrievers": [
+        "graph"
+      ],
+      "evidence_id": "E7",
+      "retrieval_branch": "graph",
+      "rank": 7
+    },
+    {
+      "museum_id": "M0685",
+      "name": "대구미술관",
+      "text": "{anchor_raw_name: 재단법인 대구문화예술진흥원, candidate_raw_name: 대구문화예술진흥원, org_key: 대구문화예술진흥원, organization: 대구문화예술진흥원, relation: OPERATED_BY, verification_status: SOURCE_RECORDED}",
+      "span_id": "",
+      "source_doc_ids": [
+        "DOC-B0685-BASE",
+        "DOC-B0685-TOUR_API-1856967"
+      ],
+      "source_urls": [],
+      "source_url": "",
+      "source_locators": [
+        "data/raw/museum_base_1070.csv#row=686",
+        "data/raw/museum_tourapi_with_overview.csv#row=338"
+      ],
+      "source_locator": "data/raw/museum_base_1070.csv#row=686",
+      "sido": "대구광역시",
+      "sigungu": "수성구",
+      "retriever": "graph",
+      "graph_path": "anchor -[:OPERATED_BY]-> Organization <-[:OPERATED_BY]- candidate",
+      "organization": "대구문화예술진흥원",
+      "org_type": "공공기관",
+      "operator_raw_name": "대구문화예술진흥원",
+      "anchor_operator_raw_name": "재단법인 대구문화예술진흥원",
+      "relation": "OPERATED_BY",
+      "verification_status": "SOURCE_RECORDED",
+      "facility_type": "미술관",
+      "source_scope": "graph_properties",
+      "metadata": {},
+      "chunk_id": "",
+      "retrievers": [
+        "graph"
+      ],
+      "evidence_id": "E8",
+      "retrieval_branch": "graph",
+      "rank": 8
+    },
+    {
+      "museum_id": "M0706",
+      "name": "대구방짜유기박물관",
+      "text": "{anchor_raw_name: 재단법인 대구문화예술진흥원, candidate_raw_name: 재단법인 대구문화예술진흥원, org_key: 대구문화예술진흥원, organization: 대구문화예술진흥원, relation: OPERATED_BY, verification_status: SOURCE_RECORDED}",
+      "span_id": "",
+      "source_doc_ids": [
+        "DOC-B0706-BASE",
+        "DOC-B0706-TOUR_API-560097"
+      ],
+      "source_urls": [],
+      "source_url": "",
+      "source_locators": [
+        "data/raw/museum_base_1070.csv#row=707",
+        "data/raw/museum_tourapi_with_overview.csv#row=344"
+      ],
+      "source_locator": "data/raw/museum_base_1070.csv#row=707",
+      "sido": "대구광역시",
+      "sigungu": "동구",
+      "retriever": "graph",
+      "graph_path": "anchor -[:OPERATED_BY]-> Organization <-[:OPERATED_BY]- candidate",
+      "organization": "대구문화예술진흥원",
+      "org_type": "공공기관",
+      "operator_raw_name": "재단법인 대구문화예술진흥원",
+      "anchor_operator_raw_name": "재단법인 대구문화예술진흥원",
+      "relation": "OPERATED_BY",
+      "verification_status": "SOURCE_RECORDED",
+      "facility_type": "박물관",
+      "source_scope": "graph_properties",
+      "metadata": {},
+      "chunk_id": "",
+      "retrievers": [
+        "graph"
+      ],
+      "evidence_id": "E9",
+      "retrieval_branch": "graph",
+      "rank": 9
+    },
+    {
+      "museum_id": "M0707",
+      "name": "대구향토역사관",
+      "text": "{anchor_raw_name: 재단법인 대구문화예술진흥원, candidate_raw_name: 재단법인 대구문화예술진흥원, org_key: 대구문화예술진흥원, organization: 대구문화예술진흥원, relation: OPERATED_BY, verification_status: SOURCE_RECORDED}",
+      "span_id": "",
+      "source_doc_ids": [
+        "DOC-B0707-BASE"
+      ],
+      "source_urls": [],
+      "source_url": "",
+      "source_locators": [
+        "data/raw/museum_base_1070.csv#row=708"
+      ],
+      "source_locator": "data/raw/museum_base_1070.csv#row=708",
+      "sido": "대구광역시",
+      "sigungu": "중구",
+      "retriever": "graph",
+      "graph_path": "anchor -[:OPERATED_BY]-> Organization <-[:OPERATED_BY]- candidate",
+      "organization": "대구문화예술진흥원",
+      "org_type": "공공기관",
+      "operator_raw_name": "재단법인 대구문화예술진흥원",
+      "anchor_operator_raw_name": "재단법인 대구문화예술진흥원",
+      "relation": "OPERATED_BY",
+      "verification_status": "SOURCE_RECORDED",
+      "facility_type": "역사관",
+      "source_scope": "graph_properties",
+      "metadata": {},
+      "chunk_id": "",
+      "retrievers": [
+        "graph"
+      ],
+      "evidence_id": "E10",
+      "retrieval_branch": "graph",
+      "rank": 10
+    }
+  ],
+  "answer": "대구방짜유기박물관입니다. 기록상 대구근대역사관과 대구방짜유기박물관의 **운영기관**은 모두 대구문화예술진흥원이며[E6][E9], 대구방짜유기박물관은 방짜유기를 주제로 한 전문박물관으로 방짜유기 작품을 전시합니다[E1].",
+  "retrieval_status": "ok",
+  "answer_status": "answered",
+  "route": "combined",
+  "retry_count": 0,
+  "supervisor_verified": true,
+  "rerank_applied": true,
+  "retriever_errors": [],
+  "warnings": [],
+  "duration_ms": 147756.8,
+  "error_type": "",
+  "hit_at_1": 1,
+  "hit_at_3": 1,
+  "hit_at_5": 1,
+  "recall_at_5": 1.0,
+  "mrr_at_10": 1.0
+}

@@ -1,0 +1,92 @@
+{
+  "mode": "supervisor_full",
+  "question_id": "V2-OM03",
+  "evidence": [
+    {
+      "museum_id": "M0669",
+      "name": "이천시립박물관",
+      "text": "이천시립박물관의 Neo4j manager_name(관리기관) 기록: 경기도 이천시 (CSV 원문: 경기도 이천시청)\n[Neo4j 구조화 근거] {\"museum_id\": \"M0669\", \"name\": \"이천시립박물관\", \"relation\": \"MANAGED_BY\", \"organization\": \"경기도 이천시\", \"org_key\": \"경기도이천시\", \"org_type\": \"지방자치단체\", \"raw_name\": \"경기도 이천시청\", \"verification_status\": \"UNVERIFIED\"}",
+      "span_id": "",
+      "source_doc_ids": [
+        "DOC-B0669-BASE",
+        "DOC-B0669-TOUR_API-3023991"
+      ],
+      "source_urls": [],
+      "source_url": "",
+      "source_locators": [
+        "data/raw/museum_base_1070.csv#row=670",
+        "data/raw/museum_tourapi_with_overview.csv#row=335"
+      ],
+      "source_locator": "data/raw/museum_base_1070.csv#row=670",
+      "sido": "경기도",
+      "sigungu": "이천시",
+      "retriever": "graph",
+      "evidence_role": "anchor",
+      "source_scope": "graph_properties",
+      "relation": "MANAGED_BY",
+      "organization": "경기도 이천시",
+      "org_type": "지방자치단체",
+      "operator_raw_name": "경기도 이천시청",
+      "verification_status": "UNVERIFIED",
+      "metadata": {},
+      "chunk_id": "",
+      "retrievers": [
+        "graph"
+      ],
+      "evidence_id": "E1",
+      "rank": 1
+    },
+    {
+      "museum_id": "M0670",
+      "name": "이천시립월전미술관",
+      "text": "{anchor_raw_name: 경기도 이천시청, candidate_raw_name: 경기도 이천시청, org_key: 경기도이천시, organization: 경기도 이천시, relation: MANAGED_BY, verification_status: UNVERIFIED}",
+      "span_id": "",
+      "source_doc_ids": [
+        "DOC-B0670-BASE",
+        "DOC-B0670-TOUR_API-129762"
+      ],
+      "source_urls": [],
+      "source_url": "",
+      "source_locators": [
+        "data/raw/museum_base_1070.csv#row=671",
+        "data/raw/museum_tourapi_with_overview.csv#row=336"
+      ],
+      "source_locator": "data/raw/museum_base_1070.csv#row=671",
+      "sido": "경기도",
+      "sigungu": "이천시",
+      "retriever": "graph",
+      "graph_path": "anchor -[:MANAGED_BY]-> Organization <-[:MANAGED_BY]- candidate",
+      "organization": "경기도 이천시",
+      "org_type": "지방자치단체",
+      "operator_raw_name": "경기도 이천시청",
+      "anchor_operator_raw_name": "경기도 이천시청",
+      "relation": "MANAGED_BY",
+      "verification_status": "UNVERIFIED",
+      "facility_type": "미술관",
+      "source_scope": "graph_properties",
+      "metadata": {},
+      "chunk_id": "",
+      "retrievers": [
+        "graph"
+      ],
+      "evidence_id": "E2",
+      "rank": 2
+    }
+  ],
+  "answer": "이천시립박물관과 같은 관리기관으로 기록된 다른 시설은 이천시립월전미술관입니다. 두 시설 모두 관리기관이 경기도 이천시로 연결되어 있으나, 이 관리 관계는 미검증(UNVERIFIED)입니다.[E1][E2]",
+  "retrieval_status": "ok",
+  "answer_status": "answered",
+  "route": "graph",
+  "retry_count": 0,
+  "supervisor_verified": true,
+  "rerank_applied": false,
+  "retriever_errors": [],
+  "warnings": [],
+  "duration_ms": 131531.13,
+  "error_type": "",
+  "hit_at_1": 1,
+  "hit_at_3": 1,
+  "hit_at_5": 1,
+  "recall_at_5": 1.0,
+  "mrr_at_10": 1.0
+}

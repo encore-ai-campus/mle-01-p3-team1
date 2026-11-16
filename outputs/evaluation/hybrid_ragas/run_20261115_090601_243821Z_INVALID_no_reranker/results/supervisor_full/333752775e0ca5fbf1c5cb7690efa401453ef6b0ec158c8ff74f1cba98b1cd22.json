@@ -1,0 +1,737 @@
+{
+  "mode": "supervisor_full",
+  "question_id": "Q124",
+  "evidence": [
+    {
+      "museum_id": "M0193",
+      "name": "전통문화콘텐츠박물관",
+      "document": "전통문화콘텐츠박물관은 전통문화를 기반으로 현재·미래시대에 걸맞은 첨단시스템 기술을 도입하여 전국 최초로 유물들을 전시하지 않는 새로운 형태의 전시 시스템을 개발하였다. 문화유적지를 직접 방문하지 않고도 영상매체를 통하여 안동의 독특한 문화를 관람할 수 있을 뿐만 아니라, 80석 규모로 이루어진 영상관에서는 4D입체영상도 관람할 수 있다. 아울러 야외에는 드넓은 공원이 조성되어 있어 도심 속에서 자연과 문화를 만끽할 수 있는 휴식 공간을 제공하고 있다.",
+      "metadata": {
+        "adult_fee_status": "BASE_FEE_PAID",
+        "weekday_close": "18:00",
+        "holiday_open": "09:00",
+        "sigungu": "안동시",
+        "sido": "경상북도",
+        "youth_fee": 2000.0,
+        "weekday_open": "09:00",
+        "closure_rule_raw": "월+설 당일+추석 당일",
+        "longitude": 128.733987,
+        "source_types": "TOUR_API",
+        "ownership_type": "공립",
+        "latitude": 36.566284,
+        "name": "전통문화콘텐츠박물관",
+        "adult_fee": 3000.0,
+        "child_fee": 1000.0,
+        "requires_manual_review": true,
+        "holiday_close": "18:00",
+        "homepage_url": "https://www.andong.go.kr/tm",
+        "address": "경상북도 안동시 서동문로 203",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource_photo/52/3497752_image2_1.jpg",
+        "image_copyright": "Type1"
+      },
+      "vector_rank": 1,
+      "bm25_rank": 1,
+      "vector_distance": 0.4587797522544861,
+      "vector_score": null,
+      "bm25_score": 43.67219664453226,
+      "vector_document": "전통문화콘텐츠박물관은 전통문화를 기반으로 현재·미래시대에 걸맞은 첨단시스템 기술을 도입하여 전국 최초로 유물들을 전시하지 않는 새로운 형태의 전시 시스템을 개발하였다. 문화유적지를 직접 방문하지 않고도 영상매체를 통하여 안동의 독특한 문화를 관람할 수 있을 뿐만 아니라, 80석 규모로 이루어진 영상관에서는 4D입체영상도 관람할 수 있다. 아울러 야외에는 드넓은 공원이 조성되어 있어 도심 속에서 자연과 문화를 만끽할 수 있는 휴식 공간을 제공하고 있다.",
+      "bm25_document": "전통문화콘텐츠박물관은 전통문화를 기반으로 현재·미래시대에 걸맞은 첨단시스템 기술을 도입하여 전국 최초로 유물들을 전시하지 않는 새로운 형태의 전시 시스템을 개발하였다. 문화유적지를 직접 방문하지 않고도 영상매체를 통하여 안동의 독특한 문화를 관람할 수 있을 뿐만 아니라, 80석 규모로 이루어진 영상관에서는 4D입체영상도 관람할 수 있다. 아울러 야외에는 드넓은 공원이 조성되어 있어 도심 속에서 자연과 문화를 만끽할 수 있는 휴식 공간을 제공하고 있다.",
+      "best_span_id": "chroma:M0193",
+      "best_span_text": "전통문화콘텐츠박물관은 전통문화를 기반으로 현재·미래시대에 걸맞은 첨단시스템 기술을 도입하여 전국 최초로 유물들을 전시하지 않는 새로운 형태의 전시 시스템을 개발하였다. 문화유적지를 직접 방문하지 않고도 영상매체를 통하여 안동의 독특한 문화를 관람할 수 있을 뿐만 아니라, 80석 규모로 이루어진 영상관에서는 4D입체영상도 관람할 수 있다. 아울러 야외에는 드넓은 공원이 조성되어 있어 도심 속에서 자연과 문화를 만끽할 수 있는 휴식 공간을 제공하고 있다.",
+      "fusion_score": 0.03278688524590164,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 1,
+      "name_match": true,
+      "rerank_score": null,
+      "rank": 1,
+      "score": 0.03278688524590164,
+      "score_type": "rrf",
+      "distance": 0.4587797522544861,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0193",
+      "source_doc_ids": [
+        "DOC-B0193-TOUR_API-1028910"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0193-TOUR_API-1028910",
+          "source_type": "TOUR_API",
+          "source_record_id": "1028910",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=93",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 93,
+          "doc_ids": [
+            "DOC-B0193-TOUR_API-1028910"
+          ]
+        },
+        {
+          "start": 94,
+          "end": 189,
+          "doc_ids": [
+            "DOC-B0193-TOUR_API-1028910"
+          ]
+        },
+        {
+          "start": 190,
+          "end": 254,
+          "doc_ids": [
+            "DOC-B0193-TOUR_API-1028910"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=93",
+      "text": "전통문화콘텐츠박물관은 전통문화를 기반으로 현재·미래시대에 걸맞은 첨단시스템 기술을 도입하여 전국 최초로 유물들을 전시하지 않는 새로운 형태의 전시 시스템을 개발하였다. 문화유적지를 직접 방문하지 않고도 영상매체를 통하여 안동의 독특한 문화를 관람할 수 있을 뿐만 아니라, 80석 규모로 이루어진 영상관에서는 4D입체영상도 관람할 수 있다. 아울러 야외에는 드넓은 공원이 조성되어 있어 도심 속에서 자연과 문화를 만끽할 수 있는 휴식 공간을 제공하고 있다.",
+      "sido": "경상북도",
+      "sigungu": "안동시",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=93"
+      ],
+      "evidence_id": "E1",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=127",
+        "fields": {
+          "name": "전통문화콘텐츠박물관",
+          "sido": "경상북도",
+          "sigungu": "안동시",
+          "address": "경상북도 안동시 서동문로 203",
+          "ownership_type": "공립",
+          "adult_fee": "3000",
+          "youth_fee": "2000",
+          "child_fee": "1000",
+          "adult_fee_status": "BASE_FEE_PAID",
+          "weekday_open": "09:00",
+          "weekday_close": "18:00",
+          "holiday_open": "09:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "월+설 당일+추석 당일"
+        },
+        "base_data_date": "2026-09-04",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0194",
+      "name": "안동시립박물관",
+      "document": "안동시립박물관은 본관 지하 1층, 지상 2층 규모로 안동시 성곡동 안동댐 민속 경관지 안에 자리하고 있다. 안동댐 수몰로 인해 자칫 묻혀버렸을 수도 있는 전통 가옥 등을 이전하여 독특한 선조들의 생활양식을 보존하기 위해 조성되었다. 또한 민속문화, 불교문화, 유교문화가 공존하여 서로 유기적으로 작용하면서 전통성과 다양성을 보여주고 있는 안동 문화의 중심에 서서 그 역할을 다하고 있다. 전통공예체험, 전통놀이 체험, 전통문화체험 등 시민 대상 프로그램을 운영하며 상반기, 하반기로 나누어 연 2회 모집하고 전통문화 보급을 위해 모든 수업은 무료로 진행된다. 안동 지역의 민속문화와 전통 생활상을 전시하는 전문박물관이다. 안동의 유교·불교·민속문화가 어우러진 특징을 상설전시와 기획전시를 통해 소개한다.",
+      "metadata": {
+        "adult_fee": 1000.0,
+        "child_fee": 300.0,
+        "sido": "경상북도",
+        "weekday_open": "09:00",
+        "holiday_close": "18:00",
+        "source_types": "TOUR_API|WEB_RESEARCH",
+        "latitude": 36.576067,
+        "address": "경상북도 안동시 민속촌길 13",
+        "longitude": 128.76444,
+        "image_copyright": "Type1",
+        "youth_fee": 300.0,
+        "requires_manual_review": true,
+        "ownership_type": "공립",
+        "weekday_close": "18:00",
+        "name": "안동시립박물관",
+        "homepage_url": "https://www.andong.go.kr/fm",
+        "image_url": "http://tong.visitkorea.or.kr/cms/resource/83/3538783_image2_1.jpg",
+        "adult_fee_status": "BASE_FEE_PAID",
+        "holiday_open": "09:00",
+        "closure_rule_raw": "1월1일+설 당일+추석 당일",
+        "sigungu": "안동시"
+      },
+      "vector_rank": 3,
+      "bm25_rank": 2,
+      "vector_distance": 0.5402621626853943,
+      "vector_score": null,
+      "bm25_score": 23.052913000135277,
+      "vector_document": "안동시립박물관은 본관 지하 1층, 지상 2층 규모로 안동시 성곡동 안동댐 민속 경관지 안에 자리하고 있다. 안동댐 수몰로 인해 자칫 묻혀버렸을 수도 있는 전통 가옥 등을 이전하여 독특한 선조들의 생활양식을 보존하기 위해 조성되었다. 또한 민속문화, 불교문화, 유교문화가 공존하여 서로 유기적으로 작용하면서 전통성과 다양성을 보여주고 있는 안동 문화의 중심에 서서 그 역할을 다하고 있다. 전통공예체험, 전통놀이 체험, 전통문화체험 등 시민 대상 프로그램을 운영하며 상반기, 하반기로 나누어 연 2회 모집하고 전통문화 보급을 위해 모든 수업은 무료로 진행된다. 안동 지역의 민속문화와 전통 생활상을 전시하는 전문박물관이다. 안동의 유교·불교·민속문화가 어우러진 특징을 상설전시와 기획전시를 통해 소개한다.",
+      "bm25_document": "안동시립박물관은 본관 지하 1층, 지상 2층 규모로 안동시 성곡동 안동댐 민속 경관지 안에 자리하고 있다. 안동댐 수몰로 인해 자칫 묻혀버렸을 수도 있는 전통 가옥 등을 이전하여 독특한 선조들의 생활양식을 보존하기 위해 조성되었다. 또한 민속문화, 불교문화, 유교문화가 공존하여 서로 유기적으로 작용하면서 전통성과 다양성을 보여주고 있는 안동 문화의 중심에 서서 그 역할을 다하고 있다. 전통공예체험, 전통놀이 체험, 전통문화체험 등 시민 대상 프로그램을 운영하며 상반기, 하반기로 나누어 연 2회 모집하고 전통문화 보급을 위해 모든 수업은 무료로 진행된다. 안동 지역의 민속문화와 전통 생활상을 전시하는 전문박물관이다. 안동의 유교·불교·민속문화가 어우러진 특징을 상설전시와 기획전시를 통해 소개한다.",
+      "best_span_id": "chroma:M0194",
+      "best_span_text": "안동시립박물관은 본관 지하 1층, 지상 2층 규모로 안동시 성곡동 안동댐 민속 경관지 안에 자리하고 있다. 안동댐 수몰로 인해 자칫 묻혀버렸을 수도 있는 전통 가옥 등을 이전하여 독특한 선조들의 생활양식을 보존하기 위해 조성되었다. 또한 민속문화, 불교문화, 유교문화가 공존하여 서로 유기적으로 작용하면서 전통성과 다양성을 보여주고 있는 안동 문화의 중심에 서서 그 역할을 다하고 있다. 전통공예체험, 전통놀이 체험, 전통문화체험 등 시민 대상 프로그램을 운영하며 상반기, 하반기로 나누어 연 2회 모집하고 전통문화 보급을 위해 모든 수업은 무료로 진행된다. 안동 지역의 민속문화와 전통 생활상을 전시하는 전문박물관이다. 안동의 유교·불교·민속문화가 어우러진 특징을 상설전시와 기획전시를 통해 소개한다.",
+      "fusion_score": 0.03200204813108039,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 2,
+      "rerank_score": null,
+      "rank": 2,
+      "score": 0.03200204813108039,
+      "score_type": "rrf",
+      "distance": 0.5402621626853943,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0194",
+      "source_doc_ids": [
+        "DOC-B0194-TOUR_API-129772",
+        "DOC-WEB-M0194-20261111"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0194-TOUR_API-129772",
+          "source_type": "TOUR_API",
+          "source_record_id": "129772",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=94",
+          "match_trust": "RECHECKED_BY_RULE_NOT_HUMAN_APPROVED"
+        },
+        {
+          "doc_id": "DOC-WEB-M0194-20261111",
+          "source_type": "WEB_RESEARCH",
+          "source_record_id": "RESEARCH-M0194",
+          "source_locator": "https://www.andong.go.kr/fm/contents.do?mId=0101000000",
+          "source_url": "https://www.andong.go.kr/fm/contents.do?mId=0101000000",
+          "match_trust": "WEB_SOURCE_REVIEWED_NOT_HUMAN_APPROVED"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 59,
+          "doc_ids": [
+            "DOC-B0194-TOUR_API-129772"
+          ]
+        },
+        {
+          "start": 60,
+          "end": 129,
+          "doc_ids": [
+            "DOC-B0194-TOUR_API-129772"
+          ]
+        },
+        {
+          "start": 130,
+          "end": 216,
+          "doc_ids": [
+            "DOC-B0194-TOUR_API-129772"
+          ]
+        },
+        {
+          "start": 217,
+          "end": 312,
+          "doc_ids": [
+            "DOC-B0194-TOUR_API-129772"
+          ]
+        },
+        {
+          "start": 313,
+          "end": 347,
+          "doc_ids": [
+            "DOC-WEB-M0194-20261111"
+          ]
+        },
+        {
+          "start": 348,
+          "end": 393,
+          "doc_ids": [
+            "DOC-WEB-M0194-20261111"
+          ]
+        }
+      ],
+      "source_urls": [
+        "https://www.andong.go.kr/fm/contents.do?mId=0101000000"
+      ],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=94",
+      "text": "안동시립박물관은 본관 지하 1층, 지상 2층 규모로 안동시 성곡동 안동댐 민속 경관지 안에 자리하고 있다. 안동댐 수몰로 인해 자칫 묻혀버렸을 수도 있는 전통 가옥 등을 이전하여 독특한 선조들의 생활양식을 보존하기 위해 조성되었다. 또한 민속문화, 불교문화, 유교문화가 공존하여 서로 유기적으로 작용하면서 전통성과 다양성을 보여주고 있는 안동 문화의 중심에 서서 그 역할을 다하고 있다. 전통공예체험, 전통놀이 체험, 전통문화체험 등 시민 대상 프로그램을 운영하며 상반기, 하반기로 나누어 연 2회 모집하고 전통문화 보급을 위해 모든 수업은 무료로 진행된다. 안동 지역의 민속문화와 전통 생활상을 전시하는 전문박물관이다. 안동의 유교·불교·민속문화가 어우러진 특징을 상설전시와 기획전시를 통해 소개한다.",
+      "sido": "경상북도",
+      "sigungu": "안동시",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=94"
+      ],
+      "evidence_id": "E2",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=128",
+        "fields": {
+          "name": "안동시립박물관",
+          "sido": "경상북도",
+          "sigungu": "안동시",
+          "address": "경상북도 안동시 민속촌길 13",
+          "ownership_type": "공립",
+          "adult_fee": "1000",
+          "youth_fee": "300",
+          "child_fee": "300",
+          "adult_fee_status": "BASE_FEE_PAID",
+          "weekday_open": "09:00",
+          "weekday_close": "18:00",
+          "holiday_open": "09:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "1월1일+설 당일+추석 당일"
+        },
+        "base_data_date": "2026-09-04",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0579",
+      "name": "세종전통장류박물관",
+      "document": "지난 2013년 처음 문을 연 세종전통장류박물관은 우리나라 장류 문화를 한자리에서 살펴볼 수 있는 전문 박물관이다. 전시실은 장의 역사와 한국의 발효 음식, 장의 재료가 되는 다양한 콩 종자와 과학적인 저장 용기 등 풍성한 볼거리로 채워져 있다. 야외에는 각 지역의 기후와 문화에 따라 다른 모양을 지닌 장독을 함께 전시해 관람객들의 호기심을 자극한다. 메주 모양의 천연 곡물 비누 만들기나 우리 민족이 즐겨 먹었던 전통 장류의 하나인 집장 만들기 등 체험 프로그램도 운영한다. 본격적으로 장을 담는 시기인 11월 이후에 방문하면 전통 방식으로 된장과 고추장을 만드는 모습도 관람할 수 있다.",
+      "metadata": {
+        "homepage_url": "http://www.dweeungbark.co.kr/",
+        "image_copyright": "Type1",
+        "weekday_open": "10:30",
+        "child_fee": 0.0,
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/05/3559105_image2_1.jpg",
+        "sido": "세종특별시",
+        "longitude": 127.259467,
+        "latitude": 36.675045,
+        "address": "세종특별시 전동면 배일길 90-43",
+        "holiday_close": "16:30",
+        "holiday_open": "10:30",
+        "weekday_close": "16:30",
+        "ownership_type": "사립",
+        "sigungu": "전동면",
+        "closure_rule_raw": "화요일+설연휴+추석연휴",
+        "source_types": "TOUR_API",
+        "youth_fee": 0.0,
+        "name": "세종전통장류박물관",
+        "adult_fee": 0.0,
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "requires_manual_review": true
+      },
+      "vector_rank": 9,
+      "bm25_rank": 11,
+      "vector_distance": 0.5737230181694031,
+      "vector_score": null,
+      "bm25_score": 18.30275473922709,
+      "vector_document": "지난 2013년 처음 문을 연 세종전통장류박물관은 우리나라 장류 문화를 한자리에서 살펴볼 수 있는 전문 박물관이다. 전시실은 장의 역사와 한국의 발효 음식, 장의 재료가 되는 다양한 콩 종자와 과학적인 저장 용기 등 풍성한 볼거리로 채워져 있다. 야외에는 각 지역의 기후와 문화에 따라 다른 모양을 지닌 장독을 함께 전시해 관람객들의 호기심을 자극한다. 메주 모양의 천연 곡물 비누 만들기나 우리 민족이 즐겨 먹었던 전통 장류의 하나인 집장 만들기 등 체험 프로그램도 운영한다. 본격적으로 장을 담는 시기인 11월 이후에 방문하면 전통 방식으로 된장과 고추장을 만드는 모습도 관람할 수 있다.",
+      "bm25_document": "지난 2013년 처음 문을 연 세종전통장류박물관은 우리나라 장류 문화를 한자리에서 살펴볼 수 있는 전문 박물관이다. 전시실은 장의 역사와 한국의 발효 음식, 장의 재료가 되는 다양한 콩 종자와 과학적인 저장 용기 등 풍성한 볼거리로 채워져 있다. 야외에는 각 지역의 기후와 문화에 따라 다른 모양을 지닌 장독을 함께 전시해 관람객들의 호기심을 자극한다. 메주 모양의 천연 곡물 비누 만들기나 우리 민족이 즐겨 먹었던 전통 장류의 하나인 집장 만들기 등 체험 프로그램도 운영한다. 본격적으로 장을 담는 시기인 11월 이후에 방문하면 전통 방식으로 된장과 고추장을 만드는 모습도 관람할 수 있다.",
+      "best_span_id": "chroma:M0579",
+      "best_span_text": "지난 2013년 처음 문을 연 세종전통장류박물관은 우리나라 장류 문화를 한자리에서 살펴볼 수 있는 전문 박물관이다. 전시실은 장의 역사와 한국의 발효 음식, 장의 재료가 되는 다양한 콩 종자와 과학적인 저장 용기 등 풍성한 볼거리로 채워져 있다. 야외에는 각 지역의 기후와 문화에 따라 다른 모양을 지닌 장독을 함께 전시해 관람객들의 호기심을 자극한다. 메주 모양의 천연 곡물 비누 만들기나 우리 민족이 즐겨 먹었던 전통 장류의 하나인 집장 만들기 등 체험 프로그램도 운영한다. 본격적으로 장을 담는 시기인 11월 이후에 방문하면 전통 방식으로 된장과 고추장을 만드는 모습도 관람할 수 있다.",
+      "fusion_score": 0.028577260665441927,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 3,
+      "rerank_score": null,
+      "rank": 3,
+      "score": 0.028577260665441927,
+      "score_type": "rrf",
+      "distance": 0.5737230181694031,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0579",
+      "source_doc_ids": [
+        "DOC-B0579-TOUR_API-2790505"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0579-TOUR_API-2790505",
+          "source_type": "TOUR_API",
+          "source_record_id": "2790505",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=285",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 64,
+          "doc_ids": [
+            "DOC-B0579-TOUR_API-2790505"
+          ]
+        },
+        {
+          "start": 65,
+          "end": 137,
+          "doc_ids": [
+            "DOC-B0579-TOUR_API-2790505"
+          ]
+        },
+        {
+          "start": 138,
+          "end": 197,
+          "doc_ids": [
+            "DOC-B0579-TOUR_API-2790505"
+          ]
+        },
+        {
+          "start": 198,
+          "end": 267,
+          "doc_ids": [
+            "DOC-B0579-TOUR_API-2790505"
+          ]
+        },
+        {
+          "start": 268,
+          "end": 331,
+          "doc_ids": [
+            "DOC-B0579-TOUR_API-2790505"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=285",
+      "text": "지난 2013년 처음 문을 연 세종전통장류박물관은 우리나라 장류 문화를 한자리에서 살펴볼 수 있는 전문 박물관이다. 전시실은 장의 역사와 한국의 발효 음식, 장의 재료가 되는 다양한 콩 종자와 과학적인 저장 용기 등 풍성한 볼거리로 채워져 있다. 야외에는 각 지역의 기후와 문화에 따라 다른 모양을 지닌 장독을 함께 전시해 관람객들의 호기심을 자극한다. 메주 모양의 천연 곡물 비누 만들기나 우리 민족이 즐겨 먹었던 전통 장류의 하나인 집장 만들기 등 체험 프로그램도 운영한다. 본격적으로 장을 담는 시기인 11월 이후에 방문하면 전통 방식으로 된장과 고추장을 만드는 모습도 관람할 수 있다.",
+      "sido": "세종특별시",
+      "sigungu": "전동면",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=285"
+      ],
+      "evidence_id": "E3",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=400",
+        "fields": {
+          "name": "세종전통장류박물관",
+          "sido": "세종특별시",
+          "sigungu": "전동면",
+          "address": "세종특별시 전동면 배일길 90-43",
+          "ownership_type": "사립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "10:30",
+          "weekday_close": "16:30",
+          "holiday_open": "10:30",
+          "holiday_close": "16:30",
+          "closure_rule_raw": "화요일+설연휴+추석연휴"
+        },
+        "base_data_date": "2026-01-05",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0677",
+      "name": "국립저작권박물관",
+      "document": "국립저작권박물관은 모두가 이용자이자 저작자임을 공감하며 저작권의 올바른 이용 문화와 창작의 즐거움을 알아가는 체험형 박물관이다. 관람객 주도형 체험형 전시로 누구나 쉽고 재미있게 저작권을 이해하고 다양한 교육프로그램을 통해 저작자가 되어보는 경험을 제공하고 있다. 우리가 즐기는 모든 문화 콘텐츠의 지지 기반인 저작권 가치에 대하여 국민들의 체험적 경험을 통해 쉽게 이해할 수 있는 전시·교육·문화행사가 이루어지는 복합 문화공간이다. 문화 콘텐츠의 지지 기반인 저작권 가치에 대해 국민들의 체험적 경험 제공",
+      "metadata": {
+        "weekday_open": "10:00",
+        "image_copyright": "Type3",
+        "adult_fee": 0.0,
+        "transport_notes": "시내버스(10번+150번+280번+290번+300번+301번)",
+        "sido": "경상남도",
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "homepage_url": "https://copyright.or.kr/allco/main.do",
+        "closure_rule_raw": "토·일요일 및 공휴일 휴관",
+        "source_types": "BASE|TOUR_API",
+        "name": "국립저작권박물관",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/00/3377700_image2_1.jpg",
+        "ownership_type": "국립",
+        "weekday_close": "18:00",
+        "latitude": 35.17918439,
+        "sigungu": "진주시",
+        "fee_notes": "0",
+        "youth_fee": 0.0,
+        "address": "경상남도 진주시 소호로 117",
+        "child_fee": 0.0,
+        "longitude": 128.1344898,
+        "requires_manual_review": true
+      },
+      "vector_rank": 5,
+      "bm25_rank": 17,
+      "vector_distance": 0.5622117519378662,
+      "vector_score": null,
+      "bm25_score": 16.29508723017848,
+      "vector_document": "국립저작권박물관은 모두가 이용자이자 저작자임을 공감하며 저작권의 올바른 이용 문화와 창작의 즐거움을 알아가는 체험형 박물관이다. 관람객 주도형 체험형 전시로 누구나 쉽고 재미있게 저작권을 이해하고 다양한 교육프로그램을 통해 저작자가 되어보는 경험을 제공하고 있다. 우리가 즐기는 모든 문화 콘텐츠의 지지 기반인 저작권 가치에 대하여 국민들의 체험적 경험을 통해 쉽게 이해할 수 있는 전시·교육·문화행사가 이루어지는 복합 문화공간이다. 문화 콘텐츠의 지지 기반인 저작권 가치에 대해 국민들의 체험적 경험 제공",
+      "bm25_document": "국립저작권박물관은 모두가 이용자이자 저작자임을 공감하며 저작권의 올바른 이용 문화와 창작의 즐거움을 알아가는 체험형 박물관이다. 관람객 주도형 체험형 전시로 누구나 쉽고 재미있게 저작권을 이해하고 다양한 교육프로그램을 통해 저작자가 되어보는 경험을 제공하고 있다. 우리가 즐기는 모든 문화 콘텐츠의 지지 기반인 저작권 가치에 대하여 국민들의 체험적 경험을 통해 쉽게 이해할 수 있는 전시·교육·문화행사가 이루어지는 복합 문화공간이다. 문화 콘텐츠의 지지 기반인 저작권 가치에 대해 국민들의 체험적 경험 제공",
+      "best_span_id": "chroma:M0677",
+      "best_span_text": "국립저작권박물관은 모두가 이용자이자 저작자임을 공감하며 저작권의 올바른 이용 문화와 창작의 즐거움을 알아가는 체험형 박물관이다. 관람객 주도형 체험형 전시로 누구나 쉽고 재미있게 저작권을 이해하고 다양한 교육프로그램을 통해 저작자가 되어보는 경험을 제공하고 있다. 우리가 즐기는 모든 문화 콘텐츠의 지지 기반인 저작권 가치에 대하여 국민들의 체험적 경험을 통해 쉽게 이해할 수 있는 전시·교육·문화행사가 이루어지는 복합 문화공간이다. 문화 콘텐츠의 지지 기반인 저작권 가치에 대해 국민들의 체험적 경험 제공",
+      "fusion_score": 0.028371628371628373,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 4,
+      "rerank_score": null,
+      "rank": 4,
+      "score": 0.028371628371628373,
+      "score_type": "rrf",
+      "distance": 0.5622117519378662,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0677",
+      "source_doc_ids": [
+        "DOC-B0677-TOUR_API-3375281",
+        "DOC-B0677-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0677-TOUR_API-3375281",
+          "source_type": "TOUR_API",
+          "source_record_id": "3375281",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=252",
+          "match_trust": "RECHECKED_BY_RULE_NOT_HUMAN_APPROVED"
+        },
+        {
+          "doc_id": "DOC-B0677-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0677",
+          "source_locator": "data/raw/museum_base_1070.csv#row=678",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 71,
+          "doc_ids": [
+            "DOC-B0677-TOUR_API-3375281"
+          ]
+        },
+        {
+          "start": 72,
+          "end": 147,
+          "doc_ids": [
+            "DOC-B0677-TOUR_API-3375281"
+          ]
+        },
+        {
+          "start": 148,
+          "end": 242,
+          "doc_ids": [
+            "DOC-B0677-TOUR_API-3375281"
+          ]
+        },
+        {
+          "start": 243,
+          "end": 283,
+          "doc_ids": [
+            "DOC-B0677-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=252",
+      "text": "국립저작권박물관은 모두가 이용자이자 저작자임을 공감하며 저작권의 올바른 이용 문화와 창작의 즐거움을 알아가는 체험형 박물관이다. 관람객 주도형 체험형 전시로 누구나 쉽고 재미있게 저작권을 이해하고 다양한 교육프로그램을 통해 저작자가 되어보는 경험을 제공하고 있다. 우리가 즐기는 모든 문화 콘텐츠의 지지 기반인 저작권 가치에 대하여 국민들의 체험적 경험을 통해 쉽게 이해할 수 있는 전시·교육·문화행사가 이루어지는 복합 문화공간이다. 문화 콘텐츠의 지지 기반인 저작권 가치에 대해 국민들의 체험적 경험 제공",
+      "sido": "경상남도",
+      "sigungu": "진주시",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=252"
+      ],
+      "evidence_id": "E4",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=467",
+        "fields": {
+          "name": "국립저작권박물관",
+          "sido": "경상남도",
+          "sigungu": "진주시",
+          "address": "경상남도 진주시 소호로 117",
+          "ownership_type": "국립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "10:00",
+          "weekday_close": "18:00",
+          "closure_rule_raw": "토·일요일 및 공휴일 휴관"
+        },
+        "base_data_date": "2025-11-04",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0993",
+      "name": "우리삶문화옥당박물관",
+      "document": "영광은 역사적으로 백제 최초로 불교를 전파하였던 지역이며 한국의 토착종교인 원불교가 탄생한 곳이기도 하다. 불갑사와 지석묘군, 내산서원 등 문화유산뿐만 아니라 영광굴비로도 유명하다. 이러한 영광의 뿌리 깊은 문화와 역사를 재 조명하고 널리 알리고자 개관한 우리삶문화옥당박물관은 영광 지역민의 문화를 향유할 수 있는 공간으로 자리 잡고 있다. 우리삶 문화실에서는 한반도에서의 우리 조상들의 삶과 관련된 영광 출토 유물들을 관람할 수 있으며 세계 문화유산을 함께 소개한다. 옥당 인물실은 영광을 빛낸 인물들 중 성리학, 종교, 예술 분야에 뛰어난 인물을 선정하여 그들의 삶을 둘러보는 콘텐츠를 운영하고 있으며, 용무당은 역사와 유물과 역사적 인물을 통해 영광의 역사를 체험하고 배울 수 있는 공간이다. 현재 우리삶문화옥당박물관은 고고민속유물, 불상, 카메라 음향장비등 인간삶의 다양한 문화요소를 간직한 유물을 전시, 관리하고 있다. 특히 이미지 언어로서의 카메라 음향장비를 전시하고 있으며, 이와 연계한 다양한 체험프로그램도 운영하고 있다.",
+      "metadata": {
+        "sido": "전남광주특별자치도",
+        "holiday_close": "17:00",
+        "image_copyright": "Type3",
+        "youth_fee": 0.0,
+        "holiday_open": "10:00",
+        "weekday_close": "17:00",
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "child_fee": 0.0,
+        "closure_rule_raw": "매주 월요일",
+        "source_types": "TOUR_API",
+        "weekday_open": "10:00",
+        "requires_manual_review": true,
+        "homepage_url": "https://www.yeonggwang.go.kr/tour",
+        "adult_fee": 0.0,
+        "sigungu": "영광군",
+        "latitude": 35.36068807,
+        "address": "전라남도 영광군 백수읍 대신길3길 3",
+        "name": "우리삶문화옥당박물관",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/86/3069286_image2_1.jpg",
+        "ownership_type": "사립",
+        "longitude": 126.4026604
+      },
+      "vector_rank": 2,
+      "bm25_rank": null,
+      "vector_distance": 0.528751015663147,
+      "vector_score": null,
+      "bm25_score": null,
+      "vector_document": "영광은 역사적으로 백제 최초로 불교를 전파하였던 지역이며 한국의 토착종교인 원불교가 탄생한 곳이기도 하다. 불갑사와 지석묘군, 내산서원 등 문화유산뿐만 아니라 영광굴비로도 유명하다. 이러한 영광의 뿌리 깊은 문화와 역사를 재 조명하고 널리 알리고자 개관한 우리삶문화옥당박물관은 영광 지역민의 문화를 향유할 수 있는 공간으로 자리 잡고 있다. 우리삶 문화실에서는 한반도에서의 우리 조상들의 삶과 관련된 영광 출토 유물들을 관람할 수 있으며 세계 문화유산을 함께 소개한다. 옥당 인물실은 영광을 빛낸 인물들 중 성리학, 종교, 예술 분야에 뛰어난 인물을 선정하여 그들의 삶을 둘러보는 콘텐츠를 운영하고 있으며, 용무당은 역사와 유물과 역사적 인물을 통해 영광의 역사를 체험하고 배울 수 있는 공간이다. 현재 우리삶문화옥당박물관은 고고민속유물, 불상, 카메라 음향장비등 인간삶의 다양한 문화요소를 간직한 유물을 전시, 관리하고 있다. 특히 이미지 언어로서의 카메라 음향장비를 전시하고 있으며, 이와 연계한 다양한 체험프로그램도 운영하고 있다.",
+      "bm25_document": "",
+      "best_span_id": null,
+      "best_span_text": null,
+      "fusion_score": 0.016129032258064516,
+      "retrieved_by": [
+        "vector"
+      ],
+      "fusion_rank": 5,
+      "rerank_score": null,
+      "rank": 5,
+      "score": 0.016129032258064516,
+      "score_type": "rrf",
+      "distance": 0.528751015663147,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector"
+      ],
+      "retriever": "vector",
+      "source_doc_ids": [
+        "DOC-B0993-TOUR_API-3069336"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0993-TOUR_API-3069336",
+          "source_type": "TOUR_API",
+          "source_record_id": "3069336",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=462",
+          "match_trust": "RECHECKED_BY_RULE_NOT_HUMAN_APPROVED"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 59,
+          "doc_ids": [
+            "DOC-B0993-TOUR_API-3069336"
+          ]
+        },
+        {
+          "start": 60,
+          "end": 101,
+          "doc_ids": [
+            "DOC-B0993-TOUR_API-3069336"
+          ]
+        },
+        {
+          "start": 102,
+          "end": 190,
+          "doc_ids": [
+            "DOC-B0993-TOUR_API-3069336"
+          ]
+        },
+        {
+          "start": 191,
+          "end": 262,
+          "doc_ids": [
+            "DOC-B0993-TOUR_API-3069336"
+          ]
+        },
+        {
+          "start": 263,
+          "end": 390,
+          "doc_ids": [
+            "DOC-B0993-TOUR_API-3069336"
+          ]
+        },
+        {
+          "start": 391,
+          "end": 463,
+          "doc_ids": [
+            "DOC-B0993-TOUR_API-3069336"
+          ]
+        },
+        {
+          "start": 464,
+          "end": 524,
+          "doc_ids": [
+            "DOC-B0993-TOUR_API-3069336"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=462",
+      "text": "영광은 역사적으로 백제 최초로 불교를 전파하였던 지역이며 한국의 토착종교인 원불교가 탄생한 곳이기도 하다. 불갑사와 지석묘군, 내산서원 등 문화유산뿐만 아니라 영광굴비로도 유명하다. 이러한 영광의 뿌리 깊은 문화와 역사를 재 조명하고 널리 알리고자 개관한 우리삶문화옥당박물관은 영광 지역민의 문화를 향유할 수 있는 공간으로 자리 잡고 있다. 우리삶 문화실에서는 한반도에서의 우리 조상들의 삶과 관련된 영광 출토 유물들을 관람할 수 있으며 세계 문화유산을 함께 소개한다. 옥당 인물실은 영광을 빛낸 인물들 중 성리학, 종교, 예술 분야에 뛰어난 인물을 선정하여 그들의 삶을 둘러보는 콘텐츠를 운영하고 있으며, 용무당은 역사와 유물과 역사적 인물을 통해 영광의 역사를 체험하고 배울 수 있는 공간이다. 현재 우리삶문화옥당박물관은 고고민속유물, 불상, 카메라 음향장비등 인간삶의 다양한 문화요소를 간직한 유물을 전시, 관리하고 있다. 특히 이미지 언어로서의 카메라 음향장비를 전시하고 있으며, 이와 연계한 다양한 체험프로그램도 운영하고 있다.",
+      "sido": "전남광주특별자치도",
+      "sigungu": "영광군",
+      "span_id": "",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=462"
+      ],
+      "evidence_id": "E5",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=676",
+        "fields": {
+          "name": "우리삶문화옥당박물관",
+          "sido": "전라남도",
+          "sigungu": "영광군",
+          "address": "전라남도 영광군 백수읍 대신길3길 3",
+          "ownership_type": "사립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "10:00",
+          "weekday_close": "17:00",
+          "holiday_open": "10:00",
+          "holiday_close": "17:00",
+          "closure_rule_raw": "매주 월요일"
+        },
+        "base_data_date": "2025-11-28",
+        "trust": "derived_dataset_not_human_verified",
+        "normalizations": {
+          "sido": {
+            "source_value": "전라남도",
+            "matched_value": "전남광주특별자치도",
+            "rule": "configured_sido_alias"
+          }
+        }
+      }
+    }
+  ],
+  "answer": "전통문화콘텐츠박물관에서는 영상매체를 통해 문화유적지를 직접 찾지 않고도 안동의 독특한 문화를 관람할 수 있습니다. 또 80석 규모의 영상관에서 4D 입체영상도 볼 수 있습니다. [E1]",
+  "retrieval_status": "ok",
+  "answer_status": "answered",
+  "route": "hybrid",
+  "retry_count": 0,
+  "supervisor_verified": true,
+  "rerank_applied": false,
+  "retriever_errors": [],
+  "warnings": [
+    "Cross-Encoder reranking failed (FileNotFoundError); RRF order retained"
+  ],
+  "duration_ms": 10689.67,
+  "error_type": "",
+  "hit_at_1": 1,
+  "hit_at_3": 1,
+  "hit_at_5": 1,
+  "recall_at_5": 1.0,
+  "mrr_at_10": 1.0
+}

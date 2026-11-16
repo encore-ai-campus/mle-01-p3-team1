@@ -1,0 +1,804 @@
+{
+  "mode": "supervisor_full",
+  "question_id": "Q298",
+  "evidence": [
+    {
+      "museum_id": "M0524",
+      "name": "국립기상박물관",
+      "document": "울 국립기상박물관은 대한민국의 기상과 날씨에 관련된 다양한 정보와 자료를 전시하는 특별한 박물관이다. 서울시 종로구에 위치한 이 박물관은 기상학의 발전, 기후 변화, 날씨 예측 기술 등을 주제로 한 전시를 통해 방문객들에게 기상과 날씨의 중요성을 알리고 있다. 박물관은 기상과 관련된 역사적 자료와 최첨단 기상 관측 기술을 소개하며, 기후 변화와 자연재해에 대한 이해를 돕는 다양한 체험 프로그램도 제공한다. 전시물은 기상 장비, 예보 시스템, 세계 각국의 기상 사례 등을 포함하고 있으며, 어린이와 청소년을 위한 교육 프로그램도 마련되어 있어, 기상과 날씨에 대한 관심을 자연스럽게 키울 수 있는 장소이다. 특히, 기상 예보의 정확성과 기후 변화 대응에 대한 최신 정보를 제공하며, 과학적이고 교육적인 관점에서 기상에 대한 지식을 쌓을 수 있는 기회를 제공한다. 또한, 박물관 내에는 기상관측 체험을 할 수 있는 공간도 마련되어 있어, 관람객들이 실제 기상 데이터를 직접 체험하고 배우는 즐거운 경험을 제공한다. 서울 국립기상박물관은 날씨와 기후 변화가 현대 사회에 미치는 영향을 깊이 이해하고, 이를 해결하기 위한 과학적 접근을 배우는 중요한 교육의 장이다. 기상학에 대한 흥미를 높이고, 기후 문제에 대한 경각심을 일깨울 수 있는 특별한 공간으로 많은 이들에게 유익한 정보를 제공하는 곳이다.",
+      "metadata": {
+        "holiday_close": "18:00",
+        "weekday_open": "10:00",
+        "name": "국립기상박물관",
+        "image_copyright": "Type1",
+        "sido": "서울특별시",
+        "closure_rule_raw": "1월 1일, 설, 추석 당일, 매주 월요일(월요일이 공휴일, 또는 대체 공휴일인 경우 다음 첫번째 평일)",
+        "source_types": "TOUR_API",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/38/3456038_image2_1.jpg",
+        "ownership_type": "국립",
+        "requires_manual_review": true,
+        "youth_fee": 0.0,
+        "weekday_close": "18:00",
+        "adult_fee": 0.0,
+        "longitude": 126.966204176,
+        "latitude": 37.5702217431,
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "sigungu": "종로구",
+        "holiday_open": "10:00",
+        "address": "서울특별시 종로구 송월길 52",
+        "child_fee": 0.0,
+        "homepage_url": "https://science.kma.go.kr/museum/"
+      },
+      "vector_rank": 1,
+      "bm25_rank": 1,
+      "vector_distance": 0.40971505641937256,
+      "vector_score": null,
+      "bm25_score": 38.73845043763184,
+      "vector_document": "울 국립기상박물관은 대한민국의 기상과 날씨에 관련된 다양한 정보와 자료를 전시하는 특별한 박물관이다. 서울시 종로구에 위치한 이 박물관은 기상학의 발전, 기후 변화, 날씨 예측 기술 등을 주제로 한 전시를 통해 방문객들에게 기상과 날씨의 중요성을 알리고 있다. 박물관은 기상과 관련된 역사적 자료와 최첨단 기상 관측 기술을 소개하며, 기후 변화와 자연재해에 대한 이해를 돕는 다양한 체험 프로그램도 제공한다. 전시물은 기상 장비, 예보 시스템, 세계 각국의 기상 사례 등을 포함하고 있으며, 어린이와 청소년을 위한 교육 프로그램도 마련되어 있어, 기상과 날씨에 대한 관심을 자연스럽게 키울 수 있는 장소이다. 특히, 기상 예보의 정확성과 기후 변화 대응에 대한 최신 정보를 제공하며, 과학적이고 교육적인 관점에서 기상에 대한 지식을 쌓을 수 있는 기회를 제공한다. 또한, 박물관 내에는 기상관측 체험을 할 수 있는 공간도 마련되어 있어, 관람객들이 실제 기상 데이터를 직접 체험하고 배우는 즐거운 경험을 제공한다. 서울 국립기상박물관은 날씨와 기후 변화가 현대 사회에 미치는 영향을 깊이 이해하고, 이를 해결하기 위한 과학적 접근을 배우는 중요한 교육의 장이다. 기상학에 대한 흥미를 높이고, 기후 문제에 대한 경각심을 일깨울 수 있는 특별한 공간으로 많은 이들에게 유익한 정보를 제공하는 곳이다.",
+      "bm25_document": "울 국립기상박물관은 대한민국의 기상과 날씨에 관련된 다양한 정보와 자료를 전시하는 특별한 박물관이다. 서울시 종로구에 위치한 이 박물관은 기상학의 발전, 기후 변화, 날씨 예측 기술 등을 주제로 한 전시를 통해 방문객들에게 기상과 날씨의 중요성을 알리고 있다. 박물관은 기상과 관련된 역사적 자료와 최첨단 기상 관측 기술을 소개하며, 기후 변화와 자연재해에 대한 이해를 돕는 다양한 체험 프로그램도 제공한다. 전시물은 기상 장비, 예보 시스템, 세계 각국의 기상 사례 등을 포함하고 있으며, 어린이와 청소년을 위한 교육 프로그램도 마련되어 있어, 기상과 날씨에 대한 관심을 자연스럽게 키울 수 있는 장소이다. 특히, 기상 예보의 정확성과 기후 변화 대응에 대한 최신 정보를 제공하며, 과학적이고 교육적인 관점에서 기상에 대한 지식을 쌓을 수 있는 기회를 제공한다. 또한, 박물관 내에는 기상관측 체험을 할 수 있는 공간도 마련되어 있어, 관람객들이 실제 기상 데이터를 직접 체험하고 배우는 즐거운 경험을 제공한다. 서울 국립기상박물관은 날씨와 기후 변화가 현대 사회에 미치는 영향을 깊이 이해하고, 이를 해결하기 위한 과학적 접근을 배우는 중요한 교육의 장이다. 기상학에 대한 흥미를 높이고, 기후 문제에 대한 경각심을 일깨울 수 있는 특별한 공간으로 많은 이들에게 유익한 정보를 제공하는 곳이다.",
+      "best_span_id": "chroma:M0524",
+      "best_span_text": "울 국립기상박물관은 대한민국의 기상과 날씨에 관련된 다양한 정보와 자료를 전시하는 특별한 박물관이다. 서울시 종로구에 위치한 이 박물관은 기상학의 발전, 기후 변화, 날씨 예측 기술 등을 주제로 한 전시를 통해 방문객들에게 기상과 날씨의 중요성을 알리고 있다. 박물관은 기상과 관련된 역사적 자료와 최첨단 기상 관측 기술을 소개하며, 기후 변화와 자연재해에 대한 이해를 돕는 다양한 체험 프로그램도 제공한다. 전시물은 기상 장비, 예보 시스템, 세계 각국의 기상 사례 등을 포함하고 있으며, 어린이와 청소년을 위한 교육 프로그램도 마련되어 있어, 기상과 날씨에 대한 관심을 자연스럽게 키울 수 있는 장소이다. 특히, 기상 예보의 정확성과 기후 변화 대응에 대한 최신 정보를 제공하며, 과학적이고 교육적인 관점에서 기상에 대한 지식을 쌓을 수 있는 기회를 제공한다. 또한, 박물관 내에는 기상관측 체험을 할 수 있는 공간도 마련되어 있어, 관람객들이 실제 기상 데이터를 직접 체험하고 배우는 즐거운 경험을 제공한다. 서울 국립기상박물관은 날씨와 기후 변화가 현대 사회에 미치는 영향을 깊이 이해하고, 이를 해결하기 위한 과학적 접근을 배우는 중요한 교육의 장이다. 기상학에 대한 흥미를 높이고, 기후 문제에 대한 경각심을 일깨울 수 있는 특별한 공간으로 많은 이들에게 유익한 정보를 제공하는 곳이다.",
+      "fusion_score": 0.03278688524590164,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 1,
+      "name_match": true,
+      "rerank_score": null,
+      "rank": 1,
+      "score": 0.03278688524590164,
+      "score_type": "rrf",
+      "distance": 0.40971505641937256,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0524",
+      "source_doc_ids": [
+        "DOC-B0524-TOUR_API-3038260"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0524-TOUR_API-3038260",
+          "source_type": "TOUR_API",
+          "source_record_id": "3038260",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=258",
+          "match_trust": "RECHECKED_BY_RULE_NOT_HUMAN_APPROVED"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 56,
+          "doc_ids": [
+            "DOC-B0524-TOUR_API-3038260"
+          ]
+        },
+        {
+          "start": 57,
+          "end": 145,
+          "doc_ids": [
+            "DOC-B0524-TOUR_API-3038260"
+          ]
+        },
+        {
+          "start": 146,
+          "end": 228,
+          "doc_ids": [
+            "DOC-B0524-TOUR_API-3038260"
+          ]
+        },
+        {
+          "start": 229,
+          "end": 340,
+          "doc_ids": [
+            "DOC-B0524-TOUR_API-3038260"
+          ]
+        },
+        {
+          "start": 341,
+          "end": 427,
+          "doc_ids": [
+            "DOC-B0524-TOUR_API-3038260"
+          ]
+        },
+        {
+          "start": 428,
+          "end": 511,
+          "doc_ids": [
+            "DOC-B0524-TOUR_API-3038260"
+          ]
+        },
+        {
+          "start": 512,
+          "end": 594,
+          "doc_ids": [
+            "DOC-B0524-TOUR_API-3038260"
+          ]
+        },
+        {
+          "start": 595,
+          "end": 670,
+          "doc_ids": [
+            "DOC-B0524-TOUR_API-3038260"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=258",
+      "text": "울 국립기상박물관은 대한민국의 기상과 날씨에 관련된 다양한 정보와 자료를 전시하는 특별한 박물관이다. 서울시 종로구에 위치한 이 박물관은 기상학의 발전, 기후 변화, 날씨 예측 기술 등을 주제로 한 전시를 통해 방문객들에게 기상과 날씨의 중요성을 알리고 있다. 박물관은 기상과 관련된 역사적 자료와 최첨단 기상 관측 기술을 소개하며, 기후 변화와 자연재해에 대한 이해를 돕는 다양한 체험 프로그램도 제공한다. 전시물은 기상 장비, 예보 시스템, 세계 각국의 기상 사례 등을 포함하고 있으며, 어린이와 청소년을 위한 교육 프로그램도 마련되어 있어, 기상과 날씨에 대한 관심을 자연스럽게 키울 수 있는 장소이다. 특히, 기상 예보의 정확성과 기후 변화 대응에 대한 최신 정보를 제공하며, 과학적이고 교육적인 관점에서 기상에 대한 지식을 쌓을 수 있는 기회를 제공한다. 또한, 박물관 내에는 기상관측 체험을 할 수 있는 공간도 마련되어 있어, 관람객들이 실제 기상 데이터를 직접 체험하고 배우는 즐거운 경험을 제공한다. 서울 국립기상박물관은 날씨와 기후 변화가 현대 사회에 미치는 영향을 깊이 이해하고, 이를 해결하기 위한 과학적 접근을 배우는 중요한 교육의 장이다. 기상학에 대한 흥미를 높이고, 기후 문제에 대한 경각심을 일깨울 수 있는 특별한 공간으로 많은 이들에게 유익한 정보를 제공하는 곳이다.",
+      "sido": "서울특별시",
+      "sigungu": "종로구",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=258"
+      ],
+      "evidence_id": "E1",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=367",
+        "fields": {
+          "name": "국립기상박물관",
+          "sido": "서울특별시",
+          "sigungu": "종로구",
+          "address": "서울특별시 종로구 송월길 52",
+          "ownership_type": "국립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "10:00",
+          "weekday_close": "18:00",
+          "holiday_open": "10:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "1월 1일, 설, 추석 당일, 매주 월요일(월요일이 공휴일, 또는 대체 공휴일인 경우 다음 첫번째 평일)"
+        },
+        "base_data_date": "2026-04-08",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0490",
+      "name": "국립농업박물관",
+      "document": "국립농업박물관은 우리 농업의 어제와 오늘 그리고 내일을 만날 수 있는 다양한 전시와 실내외 농업 체험장으로 구성되어 있다. 농업의 모든 것을 선보이는 상설 전시와 다양한 측면을 포착한 기획 전시, 농촌의 가치를 체험할 수 있는 어린이박물관이 있다. 도심 속 여유를 만끽할 수 있는 야외 농업 체험장과 식물원, 곤충관은 물론, 직접 느끼며 깨닫는 교육 프로그램까지 다양한 볼거리와 즐길거리가 가득하다. ‘모두가 찾아오고 싶은 생활 문화 공간’을 추구하며 농업 농촌의 가치를 친근하게 전파하고자 한다. 한국 농업의 역사와 미래, 농촌문화와 식문화를 소개하는 국립박물관이다. 농업관과 어린이박물관, 식물원·곤충관·농업체험시설을 통해 농업의 여러 모습을 체험할 수 있다.",
+      "metadata": {
+        "homepage_url": "https://www.namuk.or.kr/sites/kr/index.do",
+        "sido": "경기도",
+        "address": "경기도 수원시 권선구 수인로 154",
+        "image_copyright": "Type1",
+        "longitude": 126.9849753448,
+        "closure_rule_raw": "매주 월요일, 1월 1일, 설·추석 당일",
+        "latitude": 37.2748838338,
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/95/4056595_image2_1.jpg",
+        "weekday_close": "18:00",
+        "youth_fee": 0.0,
+        "name": "국립농업박물관",
+        "holiday_open": "10:00",
+        "source_types": "TOUR_API|WEB_RESEARCH",
+        "weekday_open": "10:00",
+        "child_fee": 0.0,
+        "holiday_close": "18:00",
+        "ownership_type": "국립",
+        "sigungu": "수원시",
+        "adult_fee": 0.0,
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "requires_manual_review": true
+      },
+      "vector_rank": 2,
+      "bm25_rank": 6,
+      "vector_distance": 0.4754335284233093,
+      "vector_score": null,
+      "bm25_score": 11.289301222297102,
+      "vector_document": "국립농업박물관은 우리 농업의 어제와 오늘 그리고 내일을 만날 수 있는 다양한 전시와 실내외 농업 체험장으로 구성되어 있다. 농업의 모든 것을 선보이는 상설 전시와 다양한 측면을 포착한 기획 전시, 농촌의 가치를 체험할 수 있는 어린이박물관이 있다. 도심 속 여유를 만끽할 수 있는 야외 농업 체험장과 식물원, 곤충관은 물론, 직접 느끼며 깨닫는 교육 프로그램까지 다양한 볼거리와 즐길거리가 가득하다. ‘모두가 찾아오고 싶은 생활 문화 공간’을 추구하며 농업 농촌의 가치를 친근하게 전파하고자 한다. 한국 농업의 역사와 미래, 농촌문화와 식문화를 소개하는 국립박물관이다. 농업관과 어린이박물관, 식물원·곤충관·농업체험시설을 통해 농업의 여러 모습을 체험할 수 있다.",
+      "bm25_document": "국립농업박물관은 우리 농업의 어제와 오늘 그리고 내일을 만날 수 있는 다양한 전시와 실내외 농업 체험장으로 구성되어 있다. 농업의 모든 것을 선보이는 상설 전시와 다양한 측면을 포착한 기획 전시, 농촌의 가치를 체험할 수 있는 어린이박물관이 있다. 도심 속 여유를 만끽할 수 있는 야외 농업 체험장과 식물원, 곤충관은 물론, 직접 느끼며 깨닫는 교육 프로그램까지 다양한 볼거리와 즐길거리가 가득하다. ‘모두가 찾아오고 싶은 생활 문화 공간’을 추구하며 농업 농촌의 가치를 친근하게 전파하고자 한다. 한국 농업의 역사와 미래, 농촌문화와 식문화를 소개하는 국립박물관이다. 농업관과 어린이박물관, 식물원·곤충관·농업체험시설을 통해 농업의 여러 모습을 체험할 수 있다.",
+      "best_span_id": "chroma:M0490",
+      "best_span_text": "국립농업박물관은 우리 농업의 어제와 오늘 그리고 내일을 만날 수 있는 다양한 전시와 실내외 농업 체험장으로 구성되어 있다. 농업의 모든 것을 선보이는 상설 전시와 다양한 측면을 포착한 기획 전시, 농촌의 가치를 체험할 수 있는 어린이박물관이 있다. 도심 속 여유를 만끽할 수 있는 야외 농업 체험장과 식물원, 곤충관은 물론, 직접 느끼며 깨닫는 교육 프로그램까지 다양한 볼거리와 즐길거리가 가득하다. ‘모두가 찾아오고 싶은 생활 문화 공간’을 추구하며 농업 농촌의 가치를 친근하게 전파하고자 한다. 한국 농업의 역사와 미래, 농촌문화와 식문화를 소개하는 국립박물관이다. 농업관과 어린이박물관, 식물원·곤충관·농업체험시설을 통해 농업의 여러 모습을 체험할 수 있다.",
+      "fusion_score": 0.03128054740957967,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 2,
+      "rerank_score": null,
+      "rank": 2,
+      "score": 0.03128054740957967,
+      "score_type": "rrf",
+      "distance": 0.4754335284233093,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0490",
+      "source_doc_ids": [
+        "DOC-B0490-TOUR_API-2944481",
+        "DOC-WEB-M0490-20261111"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0490-TOUR_API-2944481",
+          "source_type": "TOUR_API",
+          "source_record_id": "2944481",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=242",
+          "match_trust": "RECHECKED_BY_RULE_NOT_HUMAN_APPROVED"
+        },
+        {
+          "doc_id": "DOC-WEB-M0490-20261111",
+          "source_type": "WEB_RESEARCH",
+          "source_record_id": "RESEARCH-M0490",
+          "source_locator": "https://namuk.or.kr/kr/597/subview.do",
+          "source_url": "https://namuk.or.kr/kr/597/subview.do",
+          "match_trust": "WEB_SOURCE_REVIEWED_NOT_HUMAN_APPROVED"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 68,
+          "doc_ids": [
+            "DOC-B0490-TOUR_API-2944481"
+          ]
+        },
+        {
+          "start": 69,
+          "end": 138,
+          "doc_ids": [
+            "DOC-B0490-TOUR_API-2944481"
+          ]
+        },
+        {
+          "start": 139,
+          "end": 223,
+          "doc_ids": [
+            "DOC-B0490-TOUR_API-2944481"
+          ]
+        },
+        {
+          "start": 224,
+          "end": 278,
+          "doc_ids": [
+            "DOC-B0490-TOUR_API-2944481"
+          ]
+        },
+        {
+          "start": 279,
+          "end": 318,
+          "doc_ids": [
+            "DOC-WEB-M0490-20261111"
+          ]
+        },
+        {
+          "start": 319,
+          "end": 371,
+          "doc_ids": [
+            "DOC-WEB-M0490-20261111"
+          ]
+        }
+      ],
+      "source_urls": [
+        "https://namuk.or.kr/kr/597/subview.do"
+      ],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=242",
+      "text": "국립농업박물관은 우리 농업의 어제와 오늘 그리고 내일을 만날 수 있는 다양한 전시와 실내외 농업 체험장으로 구성되어 있다. 농업의 모든 것을 선보이는 상설 전시와 다양한 측면을 포착한 기획 전시, 농촌의 가치를 체험할 수 있는 어린이박물관이 있다. 도심 속 여유를 만끽할 수 있는 야외 농업 체험장과 식물원, 곤충관은 물론, 직접 느끼며 깨닫는 교육 프로그램까지 다양한 볼거리와 즐길거리가 가득하다. ‘모두가 찾아오고 싶은 생활 문화 공간’을 추구하며 농업 농촌의 가치를 친근하게 전파하고자 한다. 한국 농업의 역사와 미래, 농촌문화와 식문화를 소개하는 국립박물관이다. 농업관과 어린이박물관, 식물원·곤충관·농업체험시설을 통해 농업의 여러 모습을 체험할 수 있다.",
+      "sido": "경기도",
+      "sigungu": "수원시",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=242"
+      ],
+      "evidence_id": "E2",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=353",
+        "fields": {
+          "name": "국립농업박물관",
+          "sido": "경기도",
+          "sigungu": "수원시",
+          "address": "경기도 수원시 권선구 수인로 154",
+          "ownership_type": "국립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "10:00",
+          "weekday_close": "18:00",
+          "holiday_open": "10:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "매주 월요일, 1월 1일, 설·추석 당일"
+        },
+        "base_data_date": "2026-04-08",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0525",
+      "name": "국립관세박물관",
+      "document": "국립관세박물관은 강남구에 위치한 국립박물관으로, 개항기부터 현대까지 한국 경제사와 함께한 관세 문화를 경험할 수 있는 공간이다. 박물관은 총 3개 주제관인 관세역사관, 관세행정관, 관세외교관이 있으며, 핸즈온 전시 공간인 공항 체험과 해외직구시 사용하는 유니패스존에서는 인터렉티브 체험을 할 수 있다. 또한 박물관 관람 시에는 전시실에 비치된 전시 활동지와 모바일을 활용한 웹콘텐츠로 관세 문화를 입체적으로 경험 할 수 있다. 관세 문화를 더 깊이 체험하고자 할 때에는 별도 전화 예약을 통해 박물관 교육에 참여 가능하다. 관세박물관을 통해 세관의 역사를 재조명하고 관세 주권과 국익을 지켜온 관세인의 노고를 기억함으로써 국민들에게 세관에 대한 이해를 높이는 한편, 더 발전된 미래로 나아가기 위한 교훈의 장으로 삼고자 하는 취지를 가지고 있다.",
+      "metadata": {
+        "holiday_close": "00:00",
+        "sido": "서울특별시",
+        "adult_fee": 0.0,
+        "weekday_close": "18:00",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/25/3503425_image2_1.jpg",
+        "latitude": 37.518374,
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "source_types": "TOUR_API",
+        "requires_manual_review": true,
+        "homepage_url": "https://www.customs.go.kr/seoul",
+        "longitude": 127.033779,
+        "youth_fee": 0.0,
+        "holiday_open": "00:00",
+        "name": "국립관세박물관",
+        "address": "서울특별시 강남구 언주로 721",
+        "child_fee": 0.0,
+        "closure_rule_raw": "주말 및 공휴일",
+        "ownership_type": "국립",
+        "sigungu": "강남구",
+        "image_copyright": "Type3",
+        "weekday_open": "10:00"
+      },
+      "vector_rank": 6,
+      "bm25_rank": 16,
+      "vector_distance": 0.49585407972335815,
+      "vector_score": null,
+      "bm25_score": 9.751862090945167,
+      "vector_document": "국립관세박물관은 강남구에 위치한 국립박물관으로, 개항기부터 현대까지 한국 경제사와 함께한 관세 문화를 경험할 수 있는 공간이다. 박물관은 총 3개 주제관인 관세역사관, 관세행정관, 관세외교관이 있으며, 핸즈온 전시 공간인 공항 체험과 해외직구시 사용하는 유니패스존에서는 인터렉티브 체험을 할 수 있다. 또한 박물관 관람 시에는 전시실에 비치된 전시 활동지와 모바일을 활용한 웹콘텐츠로 관세 문화를 입체적으로 경험 할 수 있다. 관세 문화를 더 깊이 체험하고자 할 때에는 별도 전화 예약을 통해 박물관 교육에 참여 가능하다. 관세박물관을 통해 세관의 역사를 재조명하고 관세 주권과 국익을 지켜온 관세인의 노고를 기억함으로써 국민들에게 세관에 대한 이해를 높이는 한편, 더 발전된 미래로 나아가기 위한 교훈의 장으로 삼고자 하는 취지를 가지고 있다.",
+      "bm25_document": "국립관세박물관은 강남구에 위치한 국립박물관으로, 개항기부터 현대까지 한국 경제사와 함께한 관세 문화를 경험할 수 있는 공간이다. 박물관은 총 3개 주제관인 관세역사관, 관세행정관, 관세외교관이 있으며, 핸즈온 전시 공간인 공항 체험과 해외직구시 사용하는 유니패스존에서는 인터렉티브 체험을 할 수 있다. 또한 박물관 관람 시에는 전시실에 비치된 전시 활동지와 모바일을 활용한 웹콘텐츠로 관세 문화를 입체적으로 경험 할 수 있다. 관세 문화를 더 깊이 체험하고자 할 때에는 별도 전화 예약을 통해 박물관 교육에 참여 가능하다. 관세박물관을 통해 세관의 역사를 재조명하고 관세 주권과 국익을 지켜온 관세인의 노고를 기억함으로써 국민들에게 세관에 대한 이해를 높이는 한편, 더 발전된 미래로 나아가기 위한 교훈의 장으로 삼고자 하는 취지를 가지고 있다.",
+      "best_span_id": "chroma:M0525",
+      "best_span_text": "국립관세박물관은 강남구에 위치한 국립박물관으로, 개항기부터 현대까지 한국 경제사와 함께한 관세 문화를 경험할 수 있는 공간이다. 박물관은 총 3개 주제관인 관세역사관, 관세행정관, 관세외교관이 있으며, 핸즈온 전시 공간인 공항 체험과 해외직구시 사용하는 유니패스존에서는 인터렉티브 체험을 할 수 있다. 또한 박물관 관람 시에는 전시실에 비치된 전시 활동지와 모바일을 활용한 웹콘텐츠로 관세 문화를 입체적으로 경험 할 수 있다. 관세 문화를 더 깊이 체험하고자 할 때에는 별도 전화 예약을 통해 박물관 교육에 참여 가능하다. 관세박물관을 통해 세관의 역사를 재조명하고 관세 주권과 국익을 지켜온 관세인의 노고를 기억함으로써 국민들에게 세관에 대한 이해를 높이는 한편, 더 발전된 미래로 나아가기 위한 교훈의 장으로 삼고자 하는 취지를 가지고 있다.",
+      "fusion_score": 0.028309409888357256,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 3,
+      "rerank_score": null,
+      "rank": 3,
+      "score": 0.028309409888357256,
+      "score_type": "rrf",
+      "distance": 0.49585407972335815,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0525",
+      "source_doc_ids": [
+        "DOC-B0525-TOUR_API-130924"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0525-TOUR_API-130924",
+          "source_type": "TOUR_API",
+          "source_record_id": "130924",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=259",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 71,
+          "doc_ids": [
+            "DOC-B0525-TOUR_API-130924"
+          ]
+        },
+        {
+          "start": 72,
+          "end": 168,
+          "doc_ids": [
+            "DOC-B0525-TOUR_API-130924"
+          ]
+        },
+        {
+          "start": 169,
+          "end": 238,
+          "doc_ids": [
+            "DOC-B0525-TOUR_API-130924"
+          ]
+        },
+        {
+          "start": 239,
+          "end": 292,
+          "doc_ids": [
+            "DOC-B0525-TOUR_API-130924"
+          ]
+        },
+        {
+          "start": 293,
+          "end": 417,
+          "doc_ids": [
+            "DOC-B0525-TOUR_API-130924"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=259",
+      "text": "국립관세박물관은 강남구에 위치한 국립박물관으로, 개항기부터 현대까지 한국 경제사와 함께한 관세 문화를 경험할 수 있는 공간이다. 박물관은 총 3개 주제관인 관세역사관, 관세행정관, 관세외교관이 있으며, 핸즈온 전시 공간인 공항 체험과 해외직구시 사용하는 유니패스존에서는 인터렉티브 체험을 할 수 있다. 또한 박물관 관람 시에는 전시실에 비치된 전시 활동지와 모바일을 활용한 웹콘텐츠로 관세 문화를 입체적으로 경험 할 수 있다. 관세 문화를 더 깊이 체험하고자 할 때에는 별도 전화 예약을 통해 박물관 교육에 참여 가능하다. 관세박물관을 통해 세관의 역사를 재조명하고 관세 주권과 국익을 지켜온 관세인의 노고를 기억함으로써 국민들에게 세관에 대한 이해를 높이는 한편, 더 발전된 미래로 나아가기 위한 교훈의 장으로 삼고자 하는 취지를 가지고 있다.",
+      "sido": "서울특별시",
+      "sigungu": "강남구",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=259"
+      ],
+      "evidence_id": "E3",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=368",
+        "fields": {
+          "name": "국립관세박물관",
+          "sido": "서울특별시",
+          "sigungu": "강남구",
+          "address": "서울특별시 강남구 언주로 721",
+          "ownership_type": "국립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "10:00",
+          "weekday_close": "18:00",
+          "holiday_open": "00:00",
+          "holiday_close": "00:00",
+          "closure_rule_raw": "주말 및 공휴일"
+        },
+        "base_data_date": "2026-04-08",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0486",
+      "name": "국립청주박물관",
+      "document": "국립청주박물관은 충북지역의 문화유산을 조사·발굴하고 연구하여 전시하고 있으며 다양한 교육 프로그램을 통해 청주지역의 문화 특색을 조명하고자 1987년 10월 30일 개관했다. 박물관은 한국 현대건축의 기념비적인 작품으로 우암산 동쪽 기슭의 풍광을 배경 삼아 상당산성에 이르는 골짜기에 자리 잡고 있다. 2022년 상설전시관을 새롭게 개편해 공개했으며 고고실과 미술실에는 충청북도의 선사, 고대, 삼국, 통일신라, 고려, 조선 발굴품 및 금속 문화유산과 불비상 등을 전시하고 있다. 또한 국립청주박물관의 금속 문화 브랜드 강화를 위해 금관실을 열고 금속공예의 정수, 서봉총 금관과 금 허리띠를 공개하고 있다. 국립청주박물관은 매년 다양한 주제의 특별 전시를 비롯하여 박물관 연구과정, 어린이 박물관 학교, 전통문화교실 등의 문화·교육 프로그램과 봄 문화축제 등 행사를 마련하고 이용자들에게 다채로운 경험을 제공하고 있다. 충청북도의 선사·고대 및 중세 문화유산을 조사·전시하는 국립박물관이다. 지역에서 출토된 고고자료와 금속문화재, 불교미술품 등을 통해 중원문화의 특징을 살펴볼 수 있다.",
+      "metadata": {
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "name": "국립청주박물관",
+        "source_types": "TOUR_API|WEB_RESEARCH",
+        "homepage_url": "https://cheongju.museum.go.kr/",
+        "ownership_type": "국립",
+        "sigungu": "청주시",
+        "sido": "충청북도",
+        "weekday_open": "09:00",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/80/3480580_image2_1.jpg",
+        "longitude": 127.5120091,
+        "weekday_close": "18:00",
+        "child_fee": 0.0,
+        "requires_manual_review": true,
+        "latitude": 36.64966894,
+        "adult_fee": 0.0,
+        "address": "충청북도 청주시 상당구 명암로 143",
+        "holiday_close": "18:00",
+        "youth_fee": 0.0,
+        "closure_rule_raw": "매주 월요일(단, 월요일이 공휴일인 경우 당일은 개관하고 그 다음 첫번째 평일에 휴관), 1월 1일, 설날 및 추석 당일",
+        "holiday_open": "09:00",
+        "image_copyright": "Type3"
+      },
+      "vector_rank": 4,
+      "bm25_rank": 19,
+      "vector_distance": 0.48673129081726074,
+      "vector_score": null,
+      "bm25_score": 9.432555562286176,
+      "vector_document": "국립청주박물관은 충북지역의 문화유산을 조사·발굴하고 연구하여 전시하고 있으며 다양한 교육 프로그램을 통해 청주지역의 문화 특색을 조명하고자 1987년 10월 30일 개관했다. 박물관은 한국 현대건축의 기념비적인 작품으로 우암산 동쪽 기슭의 풍광을 배경 삼아 상당산성에 이르는 골짜기에 자리 잡고 있다. 2022년 상설전시관을 새롭게 개편해 공개했으며 고고실과 미술실에는 충청북도의 선사, 고대, 삼국, 통일신라, 고려, 조선 발굴품 및 금속 문화유산과 불비상 등을 전시하고 있다. 또한 국립청주박물관의 금속 문화 브랜드 강화를 위해 금관실을 열고 금속공예의 정수, 서봉총 금관과 금 허리띠를 공개하고 있다. 국립청주박물관은 매년 다양한 주제의 특별 전시를 비롯하여 박물관 연구과정, 어린이 박물관 학교, 전통문화교실 등의 문화·교육 프로그램과 봄 문화축제 등 행사를 마련하고 이용자들에게 다채로운 경험을 제공하고 있다. 충청북도의 선사·고대 및 중세 문화유산을 조사·전시하는 국립박물관이다. 지역에서 출토된 고고자료와 금속문화재, 불교미술품 등을 통해 중원문화의 특징을 살펴볼 수 있다.",
+      "bm25_document": "국립청주박물관은 충북지역의 문화유산을 조사·발굴하고 연구하여 전시하고 있으며 다양한 교육 프로그램을 통해 청주지역의 문화 특색을 조명하고자 1987년 10월 30일 개관했다. 박물관은 한국 현대건축의 기념비적인 작품으로 우암산 동쪽 기슭의 풍광을 배경 삼아 상당산성에 이르는 골짜기에 자리 잡고 있다. 2022년 상설전시관을 새롭게 개편해 공개했으며 고고실과 미술실에는 충청북도의 선사, 고대, 삼국, 통일신라, 고려, 조선 발굴품 및 금속 문화유산과 불비상 등을 전시하고 있다. 또한 국립청주박물관의 금속 문화 브랜드 강화를 위해 금관실을 열고 금속공예의 정수, 서봉총 금관과 금 허리띠를 공개하고 있다. 국립청주박물관은 매년 다양한 주제의 특별 전시를 비롯하여 박물관 연구과정, 어린이 박물관 학교, 전통문화교실 등의 문화·교육 프로그램과 봄 문화축제 등 행사를 마련하고 이용자들에게 다채로운 경험을 제공하고 있다. 충청북도의 선사·고대 및 중세 문화유산을 조사·전시하는 국립박물관이다. 지역에서 출토된 고고자료와 금속문화재, 불교미술품 등을 통해 중원문화의 특징을 살펴볼 수 있다.",
+      "best_span_id": "chroma:M0486",
+      "best_span_text": "국립청주박물관은 충북지역의 문화유산을 조사·발굴하고 연구하여 전시하고 있으며 다양한 교육 프로그램을 통해 청주지역의 문화 특색을 조명하고자 1987년 10월 30일 개관했다. 박물관은 한국 현대건축의 기념비적인 작품으로 우암산 동쪽 기슭의 풍광을 배경 삼아 상당산성에 이르는 골짜기에 자리 잡고 있다. 2022년 상설전시관을 새롭게 개편해 공개했으며 고고실과 미술실에는 충청북도의 선사, 고대, 삼국, 통일신라, 고려, 조선 발굴품 및 금속 문화유산과 불비상 등을 전시하고 있다. 또한 국립청주박물관의 금속 문화 브랜드 강화를 위해 금관실을 열고 금속공예의 정수, 서봉총 금관과 금 허리띠를 공개하고 있다. 국립청주박물관은 매년 다양한 주제의 특별 전시를 비롯하여 박물관 연구과정, 어린이 박물관 학교, 전통문화교실 등의 문화·교육 프로그램과 봄 문화축제 등 행사를 마련하고 이용자들에게 다채로운 경험을 제공하고 있다. 충청북도의 선사·고대 및 중세 문화유산을 조사·전시하는 국립박물관이다. 지역에서 출토된 고고자료와 금속문화재, 불교미술품 등을 통해 중원문화의 특징을 살펴볼 수 있다.",
+      "fusion_score": 0.028283227848101264,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 4,
+      "rerank_score": null,
+      "rank": 4,
+      "score": 0.028283227848101264,
+      "score_type": "rrf",
+      "distance": 0.48673129081726074,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0486",
+      "source_doc_ids": [
+        "DOC-B0486-TOUR_API-129779",
+        "DOC-WEB-M0486-20261111"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0486-TOUR_API-129779",
+          "source_type": "TOUR_API",
+          "source_record_id": "129779",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=238",
+          "match_trust": "RECHECKED_BY_RULE_NOT_HUMAN_APPROVED"
+        },
+        {
+          "doc_id": "DOC-WEB-M0486-20261111",
+          "source_type": "WEB_RESEARCH",
+          "source_record_id": "RESEARCH-M0486",
+          "source_locator": "https://www.cbmuseum.or.kr/bbs/board.php?bo_table=cbms01_01&sca=%EC%B6%A9%EC%B2%AD%EB%B6%81%EB%8F%84%EB%B0%95%EB%AC%BC%EA%B4%80%2C%EB%AF%B8%EC%88%A0%EA%B4%80&wr_id=9",
+          "source_url": "https://www.cbmuseum.or.kr/bbs/board.php?bo_table=cbms01_01&sca=%EC%B6%A9%EC%B2%AD%EB%B6%81%EB%8F%84%EB%B0%95%EB%AC%BC%EA%B4%80%2C%EB%AF%B8%EC%88%A0%EA%B4%80&wr_id=9",
+          "match_trust": "WEB_SOURCE_REVIEWED_NOT_HUMAN_APPROVED"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 97,
+          "doc_ids": [
+            "DOC-B0486-TOUR_API-129779"
+          ]
+        },
+        {
+          "start": 98,
+          "end": 168,
+          "doc_ids": [
+            "DOC-B0486-TOUR_API-129779"
+          ]
+        },
+        {
+          "start": 169,
+          "end": 268,
+          "doc_ids": [
+            "DOC-B0486-TOUR_API-129779"
+          ]
+        },
+        {
+          "start": 269,
+          "end": 339,
+          "doc_ids": [
+            "DOC-B0486-TOUR_API-129779"
+          ]
+        },
+        {
+          "start": 340,
+          "end": 458,
+          "doc_ids": [
+            "DOC-B0486-TOUR_API-129779"
+          ]
+        },
+        {
+          "start": 459,
+          "end": 498,
+          "doc_ids": [
+            "DOC-WEB-M0486-20261111"
+          ]
+        },
+        {
+          "start": 499,
+          "end": 552,
+          "doc_ids": [
+            "DOC-WEB-M0486-20261111"
+          ]
+        }
+      ],
+      "source_urls": [
+        "https://www.cbmuseum.or.kr/bbs/board.php?bo_table=cbms01_01&sca=%EC%B6%A9%EC%B2%AD%EB%B6%81%EB%8F%84%EB%B0%95%EB%AC%BC%EA%B4%80%2C%EB%AF%B8%EC%88%A0%EA%B4%80&wr_id=9"
+      ],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=238",
+      "text": "국립청주박물관은 충북지역의 문화유산을 조사·발굴하고 연구하여 전시하고 있으며 다양한 교육 프로그램을 통해 청주지역의 문화 특색을 조명하고자 1987년 10월 30일 개관했다. 박물관은 한국 현대건축의 기념비적인 작품으로 우암산 동쪽 기슭의 풍광을 배경 삼아 상당산성에 이르는 골짜기에 자리 잡고 있다. 2022년 상설전시관을 새롭게 개편해 공개했으며 고고실과 미술실에는 충청북도의 선사, 고대, 삼국, 통일신라, 고려, 조선 발굴품 및 금속 문화유산과 불비상 등을 전시하고 있다. 또한 국립청주박물관의 금속 문화 브랜드 강화를 위해 금관실을 열고 금속공예의 정수, 서봉총 금관과 금 허리띠를 공개하고 있다. 국립청주박물관은 매년 다양한 주제의 특별 전시를 비롯하여 박물관 연구과정, 어린이 박물관 학교, 전통문화교실 등의 문화·교육 프로그램과 봄 문화축제 등 행사를 마련하고 이용자들에게 다채로운 경험을 제공하고 있다. 충청북도의 선사·고대 및 중세 문화유산을 조사·전시하는 국립박물관이다. 지역에서 출토된 고고자료와 금속문화재, 불교미술품 등을 통해 중원문화의 특징을 살펴볼 수 있다.",
+      "sido": "충청북도",
+      "sigungu": "청주시",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=238"
+      ],
+      "evidence_id": "E4",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=349",
+        "fields": {
+          "name": "국립청주박물관",
+          "sido": "충청북도",
+          "sigungu": "청주시",
+          "address": "충청북도 청주시 상당구 명암로 143",
+          "ownership_type": "국립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "09:00",
+          "weekday_close": "18:00",
+          "holiday_open": "09:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "매주 월요일(단, 월요일이 공휴일인 경우 당일은 개관하고 그 다음 첫번째 평일에 휴관), 1월 1일, 설날 및 추석 당일"
+        },
+        "base_data_date": "2026-04-08",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0910",
+      "name": "한국교원대학교 교육박물관",
+      "document": "한국 교육의 요람인 한국교원대학교의 특성을 살린 교육 분야 특화 박물관이다. 2010년 11월 16일 개관한 한국교원대학교 교육박물관은 한국 교육에 관한 유물을 전문적으로 수집, 정리, 보존할 뿐만 아니라, 우리 교육의 발자취를 생생하게 보고 느낄 수 있도록 다양한 전시와 체험 프로그램을 진행하고 있다. 한국 교육사실, 교육 테마실, 학교 사실, 기획 전시실로 이루어진 전시실을 통해 한국 교육의 역사를 살펴볼 수 있고, 교육 체험실을 통해 부모 세대가 경험한 과거의 교육을 직접 체험해 볼 수 있는 이곳은 학생과 교사, 지역주민 등을 대상으로 하는 다양한 사회교육 프로그램을 준비하고 있다. 또한 수준 높은 사회교육 프로그램을 운영하여 많은 방문객을 유치할 뿐 아니라 박물관 내부 및 외부의 야외 박물관도 정비해가고 있다. 대학의 박물관이지만 2,270여 평의 규모에 3만 점 이상의 유물을 보유하고 있어, 여느 지방 국립박물관에 뒤지지 않으며 교육박물관으로서는 최대 규모를 자랑하고 있다. 한국 교육의 역사와 문화를 지키고 공유하는 국내 최대 규모의 교육박물관입니다. 한국교육사실, 교육테마실, 학교사실, 기획전시실 등에서 한국 교육의 역사를 살펴볼 수 있고, 교육체험실을 통해 우리 교육을 직접 체험하고 즐길 수 있습니다.",
+      "metadata": {
+        "child_fee": 0.0,
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/46/3504346_image2_1.jpg",
+        "homepage_url": "https://museum.knue.ac.kr/smain.html",
+        "latitude": 36.6056652,
+        "requires_manual_review": true,
+        "longitude": 127.3573247,
+        "address": "충청북도 청주시 흥덕구 강내면 태성탑연로 250",
+        "sido": "충청북도",
+        "sigungu": "청주시",
+        "holiday_open": "10:00",
+        "holiday_close": "17:00",
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "image_copyright": "Type1",
+        "name": "한국교원대학교 교육박물관",
+        "transport_notes": "시내버스 513, 513-1, 514, 515, 청주에서 조치원 방면으로 12㎞ 직진 후 미호 삼거리에서 좌회전 1.5㎞ 지점",
+        "ownership_type": "대학",
+        "weekday_open": "10:00",
+        "amenities_raw": "주차장+물품보관소",
+        "adult_fee": 0.0,
+        "source_types": "BASE|TOUR_API",
+        "youth_fee": 0.0,
+        "closure_rule_raw": "월요일+공휴일",
+        "weekday_close": "17:00"
+      },
+      "vector_rank": 17,
+      "bm25_rank": 9,
+      "vector_distance": 0.5194507837295532,
+      "vector_score": null,
+      "bm25_score": 10.68047982801983,
+      "vector_document": "한국 교육의 요람인 한국교원대학교의 특성을 살린 교육 분야 특화 박물관이다. 2010년 11월 16일 개관한 한국교원대학교 교육박물관은 한국 교육에 관한 유물을 전문적으로 수집, 정리, 보존할 뿐만 아니라, 우리 교육의 발자취를 생생하게 보고 느낄 수 있도록 다양한 전시와 체험 프로그램을 진행하고 있다. 한국 교육사실, 교육 테마실, 학교 사실, 기획 전시실로 이루어진 전시실을 통해 한국 교육의 역사를 살펴볼 수 있고, 교육 체험실을 통해 부모 세대가 경험한 과거의 교육을 직접 체험해 볼 수 있는 이곳은 학생과 교사, 지역주민 등을 대상으로 하는 다양한 사회교육 프로그램을 준비하고 있다. 또한 수준 높은 사회교육 프로그램을 운영하여 많은 방문객을 유치할 뿐 아니라 박물관 내부 및 외부의 야외 박물관도 정비해가고 있다. 대학의 박물관이지만 2,270여 평의 규모에 3만 점 이상의 유물을 보유하고 있어, 여느 지방 국립박물관에 뒤지지 않으며 교육박물관으로서는 최대 규모를 자랑하고 있다. 한국 교육의 역사와 문화를 지키고 공유하는 국내 최대 규모의 교육박물관입니다. 한국교육사실, 교육테마실, 학교사실, 기획전시실 등에서 한국 교육의 역사를 살펴볼 수 있고, 교육체험실을 통해 우리 교육을 직접 체험하고 즐길 수 있습니다.",
+      "bm25_document": "한국 교육의 요람인 한국교원대학교의 특성을 살린 교육 분야 특화 박물관이다. 2010년 11월 16일 개관한 한국교원대학교 교육박물관은 한국 교육에 관한 유물을 전문적으로 수집, 정리, 보존할 뿐만 아니라, 우리 교육의 발자취를 생생하게 보고 느낄 수 있도록 다양한 전시와 체험 프로그램을 진행하고 있다. 한국 교육사실, 교육 테마실, 학교 사실, 기획 전시실로 이루어진 전시실을 통해 한국 교육의 역사를 살펴볼 수 있고, 교육 체험실을 통해 부모 세대가 경험한 과거의 교육을 직접 체험해 볼 수 있는 이곳은 학생과 교사, 지역주민 등을 대상으로 하는 다양한 사회교육 프로그램을 준비하고 있다. 또한 수준 높은 사회교육 프로그램을 운영하여 많은 방문객을 유치할 뿐 아니라 박물관 내부 및 외부의 야외 박물관도 정비해가고 있다. 대학의 박물관이지만 2,270여 평의 규모에 3만 점 이상의 유물을 보유하고 있어, 여느 지방 국립박물관에 뒤지지 않으며 교육박물관으로서는 최대 규모를 자랑하고 있다. 한국 교육의 역사와 문화를 지키고 공유하는 국내 최대 규모의 교육박물관입니다. 한국교육사실, 교육테마실, 학교사실, 기획전시실 등에서 한국 교육의 역사를 살펴볼 수 있고, 교육체험실을 통해 우리 교육을 직접 체험하고 즐길 수 있습니다.",
+      "best_span_id": "chroma:M0910",
+      "best_span_text": "한국 교육의 요람인 한국교원대학교의 특성을 살린 교육 분야 특화 박물관이다. 2010년 11월 16일 개관한 한국교원대학교 교육박물관은 한국 교육에 관한 유물을 전문적으로 수집, 정리, 보존할 뿐만 아니라, 우리 교육의 발자취를 생생하게 보고 느낄 수 있도록 다양한 전시와 체험 프로그램을 진행하고 있다. 한국 교육사실, 교육 테마실, 학교 사실, 기획 전시실로 이루어진 전시실을 통해 한국 교육의 역사를 살펴볼 수 있고, 교육 체험실을 통해 부모 세대가 경험한 과거의 교육을 직접 체험해 볼 수 있는 이곳은 학생과 교사, 지역주민 등을 대상으로 하는 다양한 사회교육 프로그램을 준비하고 있다. 또한 수준 높은 사회교육 프로그램을 운영하여 많은 방문객을 유치할 뿐 아니라 박물관 내부 및 외부의 야외 박물관도 정비해가고 있다. 대학의 박물관이지만 2,270여 평의 규모에 3만 점 이상의 유물을 보유하고 있어, 여느 지방 국립박물관에 뒤지지 않으며 교육박물관으로서는 최대 규모를 자랑하고 있다. 한국 교육의 역사와 문화를 지키고 공유하는 국내 최대 규모의 교육박물관입니다. 한국교육사실, 교육테마실, 학교사실, 기획전시실 등에서 한국 교육의 역사를 살펴볼 수 있고, 교육체험실을 통해 우리 교육을 직접 체험하고 즐길 수 있습니다.",
+      "fusion_score": 0.027479766610201392,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 5,
+      "rerank_score": null,
+      "rank": 5,
+      "score": 0.027479766610201392,
+      "score_type": "rrf",
+      "distance": 0.5194507837295532,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0910",
+      "source_doc_ids": [
+        "DOC-B0910-TOUR_API-129829",
+        "DOC-B0910-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0910-TOUR_API-129829",
+          "source_type": "TOUR_API",
+          "source_record_id": "129829",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=426",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        },
+        {
+          "doc_id": "DOC-B0910-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0910",
+          "source_locator": "data/raw/museum_base_1070.csv#row=911",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 42,
+          "doc_ids": [
+            "DOC-B0910-TOUR_API-129829"
+          ]
+        },
+        {
+          "start": 43,
+          "end": 170,
+          "doc_ids": [
+            "DOC-B0910-TOUR_API-129829"
+          ]
+        },
+        {
+          "start": 171,
+          "end": 332,
+          "doc_ids": [
+            "DOC-B0910-TOUR_API-129829"
+          ]
+        },
+        {
+          "start": 333,
+          "end": 406,
+          "doc_ids": [
+            "DOC-B0910-TOUR_API-129829"
+          ]
+        },
+        {
+          "start": 407,
+          "end": 500,
+          "doc_ids": [
+            "DOC-B0910-TOUR_API-129829"
+          ]
+        },
+        {
+          "start": 501,
+          "end": 544,
+          "doc_ids": [
+            "DOC-B0910-BASE"
+          ]
+        },
+        {
+          "start": 545,
+          "end": 632,
+          "doc_ids": [
+            "DOC-B0910-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=426",
+      "text": "한국 교육의 요람인 한국교원대학교의 특성을 살린 교육 분야 특화 박물관이다. 2010년 11월 16일 개관한 한국교원대학교 교육박물관은 한국 교육에 관한 유물을 전문적으로 수집, 정리, 보존할 뿐만 아니라, 우리 교육의 발자취를 생생하게 보고 느낄 수 있도록 다양한 전시와 체험 프로그램을 진행하고 있다. 한국 교육사실, 교육 테마실, 학교 사실, 기획 전시실로 이루어진 전시실을 통해 한국 교육의 역사를 살펴볼 수 있고, 교육 체험실을 통해 부모 세대가 경험한 과거의 교육을 직접 체험해 볼 수 있는 이곳은 학생과 교사, 지역주민 등을 대상으로 하는 다양한 사회교육 프로그램을 준비하고 있다. 또한 수준 높은 사회교육 프로그램을 운영하여 많은 방문객을 유치할 뿐 아니라 박물관 내부 및 외부의 야외 박물관도 정비해가고 있다. 대학의 박물관이지만 2,270여 평의 규모에 3만 점 이상의 유물을 보유하고 있어, 여느 지방 국립박물관에 뒤지지 않으며 교육박물관으로서는 최대 규모를 자랑하고 있다. 한국 교육의 역사와 문화를 지키고 공유하는 국내 최대 규모의 교육박물관입니다. 한국교육사실, 교육테마실, 학교사실, 기획전시실 등에서 한국 교육의 역사를 살펴볼 수 있고, 교육체험실을 통해 우리 교육을 직접 체험하고 즐길 수 있습니다.",
+      "sido": "충청북도",
+      "sigungu": "청주시",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=426"
+      ],
+      "evidence_id": "E5",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=626",
+        "fields": {
+          "name": "한국교원대학교 교육박물관",
+          "sido": "충청북도",
+          "sigungu": "청주시",
+          "address": "충청북도 청주시 흥덕구 강내면 태성탑연로 250",
+          "ownership_type": "대학",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "10:00",
+          "weekday_close": "17:00",
+          "holiday_open": "10:00",
+          "holiday_close": "17:00",
+          "closure_rule_raw": "월요일+공휴일",
+          "amenities_raw": "주차장+물품보관소"
+        },
+        "base_data_date": "2025-11-26",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    }
+  ],
+  "answer": "국립기상박물관에는 기상 장비와 예보 시스템, 세계 각국의 기상 사례 등이 전시되며, 기상학의 발전·기후 변화·날씨 예측 기술과 기상 관측 기술도 소개됩니다. [E1] 체험 활동으로는 기상관측 공간에서 실제 기상 데이터를 살펴보고 직접 체험하는 프로그램이 있고, 기후 변화와 자연재해 이해를 돕는 체험도 마련되어 있습니다. [E1] 어린이·청소년을 위한 교육 프로그램도 제공된다고 안내되어 있습니다. [E1]",
+  "retrieval_status": "ok",
+  "answer_status": "answered",
+  "route": "hybrid",
+  "retry_count": 0,
+  "supervisor_verified": true,
+  "rerank_applied": false,
+  "retriever_errors": [],
+  "warnings": [
+    "Cross-Encoder reranking failed (FileNotFoundError); RRF order retained"
+  ],
+  "duration_ms": 19726.81,
+  "error_type": "",
+  "hit_at_1": 1,
+  "hit_at_3": 1,
+  "hit_at_5": 1,
+  "recall_at_5": 1.0,
+  "mrr_at_10": 1.0
+}

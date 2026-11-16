@@ -1,0 +1,669 @@
+{
+  "mode": "supervisor_full",
+  "question_id": "Q007",
+  "evidence": [
+    {
+      "museum_id": "M0015",
+      "name": "웅천도요지전시관",
+      "document": "웅천도요지 전시관은 경상남도 기념물 제 160호인 웅천도요지에 2011년 11월에 개관하였으며, 이 곳은 조선시대 분청사기와 백자 등을 제작하였던 가마터가 있는 곳으로 웅천지역 도자사를 전시하고 있는 공간임",
+      "metadata": {
+        "name": "웅천도요지전시관",
+        "child_fee": 0.0,
+        "ownership_type": "공립",
+        "closure_rule_raw": "매주월+1월 1일+설날+추석당일",
+        "weekday_open": "09:00",
+        "longitude": 128.8155995,
+        "sido": "경상남도",
+        "holiday_open": "09:00",
+        "address": "경상남도 창원시 진해구 두동도요로198",
+        "holiday_close": "18:00",
+        "transport_notes": "청안해오름앞 하자 305번+315번+351번+3006번+3002번",
+        "youth_fee": 0.0,
+        "source_types": "BASE",
+        "requires_manual_review": true,
+        "latitude": 35.127379,
+        "adult_fee": 0.0,
+        "sigungu": "창원시",
+        "weekday_close": "18:00",
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS"
+      },
+      "vector_rank": 1,
+      "bm25_rank": 1,
+      "vector_distance": 0.5062719583511353,
+      "vector_score": null,
+      "bm25_score": 14.14129434575441,
+      "vector_document": "웅천도요지 전시관은 경상남도 기념물 제 160호인 웅천도요지에 2011년 11월에 개관하였으며, 이 곳은 조선시대 분청사기와 백자 등을 제작하였던 가마터가 있는 곳으로 웅천지역 도자사를 전시하고 있는 공간임",
+      "bm25_document": "웅천도요지 전시관은 경상남도 기념물 제 160호인 웅천도요지에 2011년 11월에 개관하였으며, 이 곳은 조선시대 분청사기와 백자 등을 제작하였던 가마터가 있는 곳으로 웅천지역 도자사를 전시하고 있는 공간임",
+      "best_span_id": "chroma:M0015",
+      "best_span_text": "웅천도요지 전시관은 경상남도 기념물 제 160호인 웅천도요지에 2011년 11월에 개관하였으며, 이 곳은 조선시대 분청사기와 백자 등을 제작하였던 가마터가 있는 곳으로 웅천지역 도자사를 전시하고 있는 공간임",
+      "fusion_score": 0.03278688524590164,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 1,
+      "name_match": true,
+      "rerank_score": null,
+      "rank": 1,
+      "score": 0.03278688524590164,
+      "score_type": "rrf",
+      "distance": 0.5062719583511353,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0015",
+      "source_doc_ids": [
+        "DOC-B0015-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0015-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0015",
+          "source_locator": "data/raw/museum_base_1070.csv#row=16",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 115,
+          "doc_ids": [
+            "DOC-B0015-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_base_1070.csv#row=16",
+      "text": "웅천도요지 전시관은 경상남도 기념물 제 160호인 웅천도요지에 2011년 11월에 개관하였으며, 이 곳은 조선시대 분청사기와 백자 등을 제작하였던 가마터가 있는 곳으로 웅천지역 도자사를 전시하고 있는 공간임",
+      "sido": "경상남도",
+      "sigungu": "창원시",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_base_1070.csv#row=16"
+      ],
+      "evidence_id": "E1",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=15",
+        "fields": {
+          "name": "웅천도요지전시관",
+          "sido": "경상남도",
+          "sigungu": "창원시",
+          "address": "경상남도 창원시 진해구 두동도요로198",
+          "ownership_type": "공립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "09:00",
+          "weekday_close": "18:00",
+          "holiday_open": "09:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "매주월+1월 1일+설날+추석당일"
+        },
+        "base_data_date": "2026-09-01",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0739",
+      "name": "문경도자기박물관",
+      "document": "문경 도자기박물관은 조선 초기 분청사기와 백자 도요지로 유명한 문경 도자기의 역사와 전통을 알리기 위해 만들었다. 지상 2층, 지하 1층 규모로 토기, 청자, 백자, 근대, 현대 도자기를 전시하며 도자기 실습체험 프로그램을 운영한다. 건물 뒤에는 문경의 전통가마인 망댕이가마와 야외공방들이 설치되어 있다. 문경에는 문화체육관광부에서 지정한 중요 무형문화유산인 사기장과 노동부에서 지정한 기능인 도예부분 명장 세 명이 있으며 문경의 도예인들은 문경 도자기의 역사성과 전통을 이어받아 자연스럽고 아름다운 색채와 형태의 도자기를 만들어 내고 있다. 도자 일일체험을 할 수 있는 도자기 박물관",
+      "metadata": {
+        "address": "경상북도 문경시 문경읍 문경대로 2416",
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/92/4103092_image2_1.jpg",
+        "holiday_open": "09:00",
+        "latitude": 36.74062871,
+        "holiday_close": "18:00",
+        "sigungu": "문경시",
+        "closure_rule_raw": "매주 월요일, 1월1일, 설날, 추석",
+        "longitude": 128.0845639,
+        "homepage_url": "https://www.gbmg.go.kr/tour/contents.do?mId=0104010100",
+        "adult_fee": 0.0,
+        "sido": "경상북도",
+        "fee_notes": "무료",
+        "image_copyright": "Type1",
+        "requires_manual_review": true,
+        "name": "문경도자기박물관",
+        "weekday_open": "09:00",
+        "youth_fee": 0.0,
+        "ownership_type": "공립",
+        "child_fee": 0.0,
+        "weekday_close": "18:00",
+        "source_types": "BASE|TOUR_API"
+      },
+      "vector_rank": 2,
+      "bm25_rank": 2,
+      "vector_distance": 0.5853390097618103,
+      "vector_score": null,
+      "bm25_score": 13.802155594252284,
+      "vector_document": "문경 도자기박물관은 조선 초기 분청사기와 백자 도요지로 유명한 문경 도자기의 역사와 전통을 알리기 위해 만들었다. 지상 2층, 지하 1층 규모로 토기, 청자, 백자, 근대, 현대 도자기를 전시하며 도자기 실습체험 프로그램을 운영한다. 건물 뒤에는 문경의 전통가마인 망댕이가마와 야외공방들이 설치되어 있다. 문경에는 문화체육관광부에서 지정한 중요 무형문화유산인 사기장과 노동부에서 지정한 기능인 도예부분 명장 세 명이 있으며 문경의 도예인들은 문경 도자기의 역사성과 전통을 이어받아 자연스럽고 아름다운 색채와 형태의 도자기를 만들어 내고 있다. 도자 일일체험을 할 수 있는 도자기 박물관",
+      "bm25_document": "문경 도자기박물관은 조선 초기 분청사기와 백자 도요지로 유명한 문경 도자기의 역사와 전통을 알리기 위해 만들었다. 지상 2층, 지하 1층 규모로 토기, 청자, 백자, 근대, 현대 도자기를 전시하며 도자기 실습체험 프로그램을 운영한다. 건물 뒤에는 문경의 전통가마인 망댕이가마와 야외공방들이 설치되어 있다. 문경에는 문화체육관광부에서 지정한 중요 무형문화유산인 사기장과 노동부에서 지정한 기능인 도예부분 명장 세 명이 있으며 문경의 도예인들은 문경 도자기의 역사성과 전통을 이어받아 자연스럽고 아름다운 색채와 형태의 도자기를 만들어 내고 있다. 도자 일일체험을 할 수 있는 도자기 박물관",
+      "best_span_id": "chroma:M0739",
+      "best_span_text": "문경 도자기박물관은 조선 초기 분청사기와 백자 도요지로 유명한 문경 도자기의 역사와 전통을 알리기 위해 만들었다. 지상 2층, 지하 1층 규모로 토기, 청자, 백자, 근대, 현대 도자기를 전시하며 도자기 실습체험 프로그램을 운영한다. 건물 뒤에는 문경의 전통가마인 망댕이가마와 야외공방들이 설치되어 있다. 문경에는 문화체육관광부에서 지정한 중요 무형문화유산인 사기장과 노동부에서 지정한 기능인 도예부분 명장 세 명이 있으며 문경의 도예인들은 문경 도자기의 역사성과 전통을 이어받아 자연스럽고 아름다운 색채와 형태의 도자기를 만들어 내고 있다. 도자 일일체험을 할 수 있는 도자기 박물관",
+      "fusion_score": 0.03225806451612903,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 2,
+      "rerank_score": null,
+      "rank": 2,
+      "score": 0.03225806451612903,
+      "score_type": "rrf",
+      "distance": 0.5853390097618103,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0739",
+      "source_doc_ids": [
+        "DOC-B0739-TOUR_API-2609839",
+        "DOC-B0739-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0739-TOUR_API-2609839",
+          "source_type": "TOUR_API",
+          "source_record_id": "2609839",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=357",
+          "match_trust": "RECHECKED_BY_RULE_NOT_HUMAN_APPROVED"
+        },
+        {
+          "doc_id": "DOC-B0739-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0739",
+          "source_locator": "data/raw/museum_base_1070.csv#row=740",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 63,
+          "doc_ids": [
+            "DOC-B0739-TOUR_API-2609839"
+          ]
+        },
+        {
+          "start": 64,
+          "end": 130,
+          "doc_ids": [
+            "DOC-B0739-TOUR_API-2609839"
+          ]
+        },
+        {
+          "start": 131,
+          "end": 170,
+          "doc_ids": [
+            "DOC-B0739-TOUR_API-2609839"
+          ]
+        },
+        {
+          "start": 171,
+          "end": 303,
+          "doc_ids": [
+            "DOC-B0739-TOUR_API-2609839"
+          ]
+        },
+        {
+          "start": 304,
+          "end": 327,
+          "doc_ids": [
+            "DOC-B0739-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=357",
+      "text": "문경 도자기박물관은 조선 초기 분청사기와 백자 도요지로 유명한 문경 도자기의 역사와 전통을 알리기 위해 만들었다. 지상 2층, 지하 1층 규모로 토기, 청자, 백자, 근대, 현대 도자기를 전시하며 도자기 실습체험 프로그램을 운영한다. 건물 뒤에는 문경의 전통가마인 망댕이가마와 야외공방들이 설치되어 있다. 문경에는 문화체육관광부에서 지정한 중요 무형문화유산인 사기장과 노동부에서 지정한 기능인 도예부분 명장 세 명이 있으며 문경의 도예인들은 문경 도자기의 역사성과 전통을 이어받아 자연스럽고 아름다운 색채와 형태의 도자기를 만들어 내고 있다. 도자 일일체험을 할 수 있는 도자기 박물관",
+      "sido": "경상북도",
+      "sigungu": "문경시",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=357"
+      ],
+      "evidence_id": "E2",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=514",
+        "fields": {
+          "name": "문경도자기박물관",
+          "sido": "경상북도",
+          "sigungu": "문경시",
+          "address": "경상북도 문경시 문경읍 문경대로 2416",
+          "ownership_type": "공립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "09:00",
+          "weekday_close": "18:00",
+          "holiday_open": "09:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "매주 월요일, 1월1일, 설날, 추석"
+        },
+        "base_data_date": "2025-12-18",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0650",
+      "name": "백제문화체험박물관",
+      "document": "백제문화체험박물관은 백제시대 토기를 굽는 가마를 형상화하여 만들어졌다. 1,500년 전 백제가마터, 청기와, 최익현 유배도, 공자상 탁본, 황금복거북이와 같은 5대 명품과 금광체험관, 농경문화체험관, 1960년대 추억의 옛거리 전시관, 한상돈선생 기념관, 유상옥 기증실, 정승공원으로 구성돼 있는 명품 박물관이다. 주말에는 토기 만들기, 나만의 컵 만들기, 백제의복 체험 등 다양한 체험을 즐길 수 있는 공간이다. 백제시대 두 수도의 배후도시였던 청양지역의 역사와 문화를 한눈에 볼수 있으며 전시관람 및 다양한 체험을 할수 있는 곳",
+      "metadata": {
+        "youth_fee": 1500.0,
+        "ownership_type": "공립",
+        "sigungu": "청양군",
+        "latitude": 36.40606642,
+        "longitude": 126.8454702,
+        "adult_fee_status": "BASE_FEE_PAID",
+        "requires_manual_review": true,
+        "closure_rule_raw": "월(단 월요일이 공휴일인 경우 다음날)+1월1일+설날 당일+추석당일+그밖의 군수가 정하는 날",
+        "holiday_close": "18:00",
+        "adult_fee": 2000.0,
+        "weekday_close": "18:00",
+        "sido": "충청남도",
+        "fee_notes": "단체 20인이상 할인",
+        "name": "백제문화체험박물관",
+        "holiday_open": "09:00",
+        "address": "충청남도 청양군 대치면 장곡길 43-24",
+        "source_types": "BASE|TOUR_API",
+        "child_fee": 1000.0,
+        "weekday_open": "09:00",
+        "homepage_url": "http://www.cheongyang.go.kr/museum.do"
+      },
+      "vector_rank": 7,
+      "bm25_rank": 6,
+      "vector_distance": 0.6263264417648315,
+      "vector_score": null,
+      "bm25_score": 9.368124415191796,
+      "vector_document": "백제문화체험박물관은 백제시대 토기를 굽는 가마를 형상화하여 만들어졌다. 1,500년 전 백제가마터, 청기와, 최익현 유배도, 공자상 탁본, 황금복거북이와 같은 5대 명품과 금광체험관, 농경문화체험관, 1960년대 추억의 옛거리 전시관, 한상돈선생 기념관, 유상옥 기증실, 정승공원으로 구성돼 있는 명품 박물관이다. 주말에는 토기 만들기, 나만의 컵 만들기, 백제의복 체험 등 다양한 체험을 즐길 수 있는 공간이다. 백제시대 두 수도의 배후도시였던 청양지역의 역사와 문화를 한눈에 볼수 있으며 전시관람 및 다양한 체험을 할수 있는 곳",
+      "bm25_document": "백제문화체험박물관은 백제시대 토기를 굽는 가마를 형상화하여 만들어졌다. 1,500년 전 백제가마터, 청기와, 최익현 유배도, 공자상 탁본, 황금복거북이와 같은 5대 명품과 금광체험관, 농경문화체험관, 1960년대 추억의 옛거리 전시관, 한상돈선생 기념관, 유상옥 기증실, 정승공원으로 구성돼 있는 명품 박물관이다. 주말에는 토기 만들기, 나만의 컵 만들기, 백제의복 체험 등 다양한 체험을 즐길 수 있는 공간이다. 백제시대 두 수도의 배후도시였던 청양지역의 역사와 문화를 한눈에 볼수 있으며 전시관람 및 다양한 체험을 할수 있는 곳",
+      "best_span_id": "chroma:M0650",
+      "best_span_text": "백제문화체험박물관은 백제시대 토기를 굽는 가마를 형상화하여 만들어졌다. 1,500년 전 백제가마터, 청기와, 최익현 유배도, 공자상 탁본, 황금복거북이와 같은 5대 명품과 금광체험관, 농경문화체험관, 1960년대 추억의 옛거리 전시관, 한상돈선생 기념관, 유상옥 기증실, 정승공원으로 구성돼 있는 명품 박물관이다. 주말에는 토기 만들기, 나만의 컵 만들기, 백제의복 체험 등 다양한 체험을 즐길 수 있는 공간이다. 백제시대 두 수도의 배후도시였던 청양지역의 역사와 문화를 한눈에 볼수 있으며 전시관람 및 다양한 체험을 할수 있는 곳",
+      "fusion_score": 0.03007688828584351,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 3,
+      "rerank_score": null,
+      "rank": 3,
+      "score": 0.03007688828584351,
+      "score_type": "rrf",
+      "distance": 0.6263264417648315,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0650",
+      "source_doc_ids": [
+        "DOC-B0650-TOUR_API-2536623",
+        "DOC-B0650-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0650-TOUR_API-2536623",
+          "source_type": "TOUR_API",
+          "source_record_id": "2536623",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=323",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        },
+        {
+          "doc_id": "DOC-B0650-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0650",
+          "source_locator": "data/raw/museum_base_1070.csv#row=651",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 39,
+          "doc_ids": [
+            "DOC-B0650-TOUR_API-2536623"
+          ]
+        },
+        {
+          "start": 40,
+          "end": 175,
+          "doc_ids": [
+            "DOC-B0650-TOUR_API-2536623"
+          ]
+        },
+        {
+          "start": 176,
+          "end": 231,
+          "doc_ids": [
+            "DOC-B0650-TOUR_API-2536623"
+          ]
+        },
+        {
+          "start": 232,
+          "end": 297,
+          "doc_ids": [
+            "DOC-B0650-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=323",
+      "text": "백제문화체험박물관은 백제시대 토기를 굽는 가마를 형상화하여 만들어졌다. 1,500년 전 백제가마터, 청기와, 최익현 유배도, 공자상 탁본, 황금복거북이와 같은 5대 명품과 금광체험관, 농경문화체험관, 1960년대 추억의 옛거리 전시관, 한상돈선생 기념관, 유상옥 기증실, 정승공원으로 구성돼 있는 명품 박물관이다. 주말에는 토기 만들기, 나만의 컵 만들기, 백제의복 체험 등 다양한 체험을 즐길 수 있는 공간이다. 백제시대 두 수도의 배후도시였던 청양지역의 역사와 문화를 한눈에 볼수 있으며 전시관람 및 다양한 체험을 할수 있는 곳",
+      "sido": "충청남도",
+      "sigungu": "청양군",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=323"
+      ],
+      "evidence_id": "E3",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=447",
+        "fields": {
+          "name": "백제문화체험박물관",
+          "sido": "충청남도",
+          "sigungu": "청양군",
+          "address": "충청남도 청양군 대치면 장곡길 43-24",
+          "ownership_type": "공립",
+          "adult_fee": "2000",
+          "youth_fee": "1500",
+          "child_fee": "1000",
+          "adult_fee_status": "BASE_FEE_PAID",
+          "weekday_open": "09:00",
+          "weekday_close": "18:00",
+          "holiday_open": "09:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "월(단 월요일이 공휴일인 경우 다음날)+1월1일+설날 당일+추석당일+그밖의 군수가 정하는 날"
+        },
+        "base_data_date": "2025-11-14",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0590",
+      "name": "김해분청도자박물관",
+      "document": "김해분청도자박물관은 삼국~조선시대에 이르기까지 찬란했던 김해 도자기의 전통성을 계승⋅발전시키고, 분청도자기 고장으로서의 면목 확립을 위해 개관하였다. 연 3~4회 기획 전시를 통해 김해 도자의 우수성을 알리고 있을 뿐 아니라, 별관에 있는 전통가마를 활용한 ‘전통가마 불지피기’ 캠프, 김해시민도예대학, 어린이도예교실 등 다양한 도자 관련 문화교육프로그램을 개최하고 있으며, 상설 도자 체험 프로그램 운영을 통해 체험 교육 공간으로 자리매김하고 있다. (출처 : 김해분청도자박물관 홈페이지) 2009년 우리나라 최초로 개관한 분청도자전문전시관으로 전시, 교육, 행사, 체험 등 도자와 관련된 다양한 경험을 할 수 있는 곳",
+      "metadata": {
+        "latitude": 35.25149585,
+        "address": "경상남도 김해시 진례면 분청로 17",
+        "closure_rule_raw": "월요일(공휴일인 월요일은 운영, 다음날 휴관)+1월1일+설 당일+추석 당일",
+        "image_copyright": "Type3",
+        "holiday_close": "18:00",
+        "holiday_open": "09:00",
+        "requires_manual_review": true,
+        "child_fee": 0.0,
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "weekday_open": "09:00",
+        "longitude": 128.7458503,
+        "amenities_raw": "주차장+장애인화장실+다목적커뮤니티실",
+        "ownership_type": "공립",
+        "homepage_url": "http://doja.gimhae.go.kr/main",
+        "source_types": "BASE|TOUR_API",
+        "sigungu": "김해시",
+        "transport_notes": "KTX : 진영역 하차 택시 10분 소요+시내버스 : 김해터미널 출발 진례농협 하차+승용차 : 남해고속도로 진례IC에서 5분",
+        "adult_fee": 0.0,
+        "sido": "경상남도",
+        "youth_fee": 0.0,
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/72/3493872_image2_1.jpg",
+        "weekday_close": "18:00",
+        "name": "김해분청도자박물관"
+      },
+      "vector_rank": 12,
+      "bm25_rank": 3,
+      "vector_distance": 0.6396592855453491,
+      "vector_score": null,
+      "bm25_score": 12.397355634531749,
+      "vector_document": "김해분청도자박물관은 삼국~조선시대에 이르기까지 찬란했던 김해 도자기의 전통성을 계승⋅발전시키고, 분청도자기 고장으로서의 면목 확립을 위해 개관하였다. 연 3~4회 기획 전시를 통해 김해 도자의 우수성을 알리고 있을 뿐 아니라, 별관에 있는 전통가마를 활용한 ‘전통가마 불지피기’ 캠프, 김해시민도예대학, 어린이도예교실 등 다양한 도자 관련 문화교육프로그램을 개최하고 있으며, 상설 도자 체험 프로그램 운영을 통해 체험 교육 공간으로 자리매김하고 있다. (출처 : 김해분청도자박물관 홈페이지) 2009년 우리나라 최초로 개관한 분청도자전문전시관으로 전시, 교육, 행사, 체험 등 도자와 관련된 다양한 경험을 할 수 있는 곳",
+      "bm25_document": "김해분청도자박물관은 삼국~조선시대에 이르기까지 찬란했던 김해 도자기의 전통성을 계승⋅발전시키고, 분청도자기 고장으로서의 면목 확립을 위해 개관하였다. 연 3~4회 기획 전시를 통해 김해 도자의 우수성을 알리고 있을 뿐 아니라, 별관에 있는 전통가마를 활용한 ‘전통가마 불지피기’ 캠프, 김해시민도예대학, 어린이도예교실 등 다양한 도자 관련 문화교육프로그램을 개최하고 있으며, 상설 도자 체험 프로그램 운영을 통해 체험 교육 공간으로 자리매김하고 있다. (출처 : 김해분청도자박물관 홈페이지) 2009년 우리나라 최초로 개관한 분청도자전문전시관으로 전시, 교육, 행사, 체험 등 도자와 관련된 다양한 경험을 할 수 있는 곳",
+      "best_span_id": "chroma:M0590",
+      "best_span_text": "김해분청도자박물관은 삼국~조선시대에 이르기까지 찬란했던 김해 도자기의 전통성을 계승⋅발전시키고, 분청도자기 고장으로서의 면목 확립을 위해 개관하였다. 연 3~4회 기획 전시를 통해 김해 도자의 우수성을 알리고 있을 뿐 아니라, 별관에 있는 전통가마를 활용한 ‘전통가마 불지피기’ 캠프, 김해시민도예대학, 어린이도예교실 등 다양한 도자 관련 문화교육프로그램을 개최하고 있으며, 상설 도자 체험 프로그램 운영을 통해 체험 교육 공간으로 자리매김하고 있다. (출처 : 김해분청도자박물관 홈페이지) 2009년 우리나라 최초로 개관한 분청도자전문전시관으로 전시, 교육, 행사, 체험 등 도자와 관련된 다양한 경험을 할 수 있는 곳",
+      "fusion_score": 0.02976190476190476,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 4,
+      "rerank_score": null,
+      "rank": 4,
+      "score": 0.02976190476190476,
+      "score_type": "rrf",
+      "distance": 0.6396592855453491,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0590",
+      "source_doc_ids": [
+        "DOC-B0590-TOUR_API-2615069",
+        "DOC-B0590-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0590-TOUR_API-2615069",
+          "source_type": "TOUR_API",
+          "source_record_id": "2615069",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=293",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        },
+        {
+          "doc_id": "DOC-B0590-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0590",
+          "source_locator": "data/raw/museum_base_1070.csv#row=591",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 83,
+          "doc_ids": [
+            "DOC-B0590-TOUR_API-2615069"
+          ]
+        },
+        {
+          "start": 84,
+          "end": 252,
+          "doc_ids": [
+            "DOC-B0590-TOUR_API-2615069"
+          ]
+        },
+        {
+          "start": 253,
+          "end": 274,
+          "doc_ids": [
+            "DOC-B0590-TOUR_API-2615069"
+          ]
+        },
+        {
+          "start": 275,
+          "end": 347,
+          "doc_ids": [
+            "DOC-B0590-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=293",
+      "text": "김해분청도자박물관은 삼국~조선시대에 이르기까지 찬란했던 김해 도자기의 전통성을 계승⋅발전시키고, 분청도자기 고장으로서의 면목 확립을 위해 개관하였다. 연 3~4회 기획 전시를 통해 김해 도자의 우수성을 알리고 있을 뿐 아니라, 별관에 있는 전통가마를 활용한 ‘전통가마 불지피기’ 캠프, 김해시민도예대학, 어린이도예교실 등 다양한 도자 관련 문화교육프로그램을 개최하고 있으며, 상설 도자 체험 프로그램 운영을 통해 체험 교육 공간으로 자리매김하고 있다. (출처 : 김해분청도자박물관 홈페이지) 2009년 우리나라 최초로 개관한 분청도자전문전시관으로 전시, 교육, 행사, 체험 등 도자와 관련된 다양한 경험을 할 수 있는 곳",
+      "sido": "경상남도",
+      "sigungu": "김해시",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=293"
+      ],
+      "evidence_id": "E4",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=410",
+        "fields": {
+          "name": "김해분청도자박물관",
+          "sido": "경상남도",
+          "sigungu": "김해시",
+          "address": "경상남도 김해시 진례면 분청로 17",
+          "ownership_type": "공립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "09:00",
+          "weekday_close": "18:00",
+          "holiday_open": "09:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "월요일(공휴일인 월요일은 운영, 다음날 휴관)+1월1일+설 당일+추석 당일",
+          "amenities_raw": "주차장+장애인화장실+다목적커뮤니티실"
+        },
+        "base_data_date": "2025-12-24",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0323",
+      "name": "심수관도예전시관",
+      "document": "정유재란 당시 일본으로 끌려간 남원 도공의 후예로서 현재 일본 사쓰마도자기를 대표하는 심수관 도자기, 이제 남원시는 400년 망향의 아픔을 딛고 세계적인 명품을 만들어낸 심수관가의 역사를 조명하고 역대 심수관의 기증 작품을 통해 한일교류의 진정한 의미를 되새기는 계기를 마련하기 위해 심관도예전시관을 설립.",
+      "metadata": {
+        "holiday_open": "09:00",
+        "longitude": 127.385409,
+        "name": "심수관도예전시관",
+        "weekday_open": "09:00",
+        "latitude": 35.401132,
+        "weekday_close": "18:00",
+        "adult_fee": 0.0,
+        "sido": "전북특별자치도",
+        "source_types": "BASE",
+        "requires_manual_review": false,
+        "holiday_close": "18:00",
+        "closure_rule_raw": "월",
+        "child_fee": 0.0,
+        "address": "전북특별자치도 남원시 양림길 14-16",
+        "youth_fee": 0.0,
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "ownership_type": "공립",
+        "sigungu": "남원시",
+        "amenities_raw": "물품보관소+응급대기실"
+      },
+      "vector_rank": 13,
+      "bm25_rank": 4,
+      "vector_distance": 0.6423012018203735,
+      "vector_score": null,
+      "bm25_score": 10.353065825396751,
+      "vector_document": "정유재란 당시 일본으로 끌려간 남원 도공의 후예로서 현재 일본 사쓰마도자기를 대표하는 심수관 도자기, 이제 남원시는 400년 망향의 아픔을 딛고 세계적인 명품을 만들어낸 심수관가의 역사를 조명하고 역대 심수관의 기증 작품을 통해 한일교류의 진정한 의미를 되새기는 계기를 마련하기 위해 심관도예전시관을 설립.",
+      "bm25_document": "정유재란 당시 일본으로 끌려간 남원 도공의 후예로서 현재 일본 사쓰마도자기를 대표하는 심수관 도자기, 이제 남원시는 400년 망향의 아픔을 딛고 세계적인 명품을 만들어낸 심수관가의 역사를 조명하고 역대 심수관의 기증 작품을 통해 한일교류의 진정한 의미를 되새기는 계기를 마련하기 위해 심관도예전시관을 설립.",
+      "best_span_id": "chroma:M0323",
+      "best_span_text": "정유재란 당시 일본으로 끌려간 남원 도공의 후예로서 현재 일본 사쓰마도자기를 대표하는 심수관 도자기, 이제 남원시는 400년 망향의 아픔을 딛고 세계적인 명품을 만들어낸 심수관가의 역사를 조명하고 역대 심수관의 기증 작품을 통해 한일교류의 진정한 의미를 되새기는 계기를 마련하기 위해 심관도예전시관을 설립.",
+      "fusion_score": 0.0293236301369863,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 5,
+      "rerank_score": null,
+      "rank": 5,
+      "score": 0.0293236301369863,
+      "score_type": "rrf",
+      "distance": 0.6423012018203735,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0323",
+      "source_doc_ids": [
+        "DOC-B0323-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0323-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0323",
+          "source_locator": "data/raw/museum_base_1070.csv#row=324",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 171,
+          "doc_ids": [
+            "DOC-B0323-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_base_1070.csv#row=324",
+      "text": "정유재란 당시 일본으로 끌려간 남원 도공의 후예로서 현재 일본 사쓰마도자기를 대표하는 심수관 도자기, 이제 남원시는 400년 망향의 아픔을 딛고 세계적인 명품을 만들어낸 심수관가의 역사를 조명하고 역대 심수관의 기증 작품을 통해 한일교류의 진정한 의미를 되새기는 계기를 마련하기 위해 심관도예전시관을 설립.",
+      "sido": "전북특별자치도",
+      "sigungu": "남원시",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_base_1070.csv#row=324"
+      ],
+      "evidence_id": "E5",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=235",
+        "fields": {
+          "name": "심수관도예전시관",
+          "sido": "전북특별자치도",
+          "sigungu": "남원시",
+          "address": "전북특별자치도 남원시 양림길 14-16",
+          "ownership_type": "공립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "09:00",
+          "weekday_close": "18:00",
+          "holiday_open": "09:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "월",
+          "amenities_raw": "물품보관소+응급대기실"
+        },
+        "base_data_date": "2026-06-24",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    }
+  ],
+  "answer": "웅천도요지전시관이 소개하는 조선시대 가마터에서는 분청사기와 백자 등을 만들었습니다.[E1]",
+  "retrieval_status": "ok",
+  "answer_status": "answered",
+  "route": "hybrid",
+  "retry_count": 0,
+  "supervisor_verified": true,
+  "rerank_applied": false,
+  "retriever_errors": [],
+  "warnings": [
+    "Cross-Encoder reranking failed (FileNotFoundError); RRF order retained"
+  ],
+  "duration_ms": 9856.39,
+  "error_type": "",
+  "hit_at_1": 1,
+  "hit_at_3": 1,
+  "hit_at_5": 1,
+  "recall_at_5": 1.0,
+  "mrr_at_10": 1.0
+}

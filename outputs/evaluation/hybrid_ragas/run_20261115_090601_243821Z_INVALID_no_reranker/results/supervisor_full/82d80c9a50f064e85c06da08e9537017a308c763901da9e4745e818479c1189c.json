@@ -1,0 +1,749 @@
+{
+  "mode": "supervisor_full",
+  "question_id": "Q077",
+  "evidence": [
+    {
+      "museum_id": "M0093",
+      "name": "국립제주박물관",
+      "document": "2001년 6월 15일 개관한 국립제주박물관은 제주의 역사와 문화유산을 체계적으로 전시·보존·연구하는 고고·역사박물관이다. 국립제주박물관에서는 제주의 여러 유적에서 출토된 유물과 역사적 문물들을 중심으로 선사시대부터 조선시대까지 시대별 각 유적과 유물이 갖는 역사·문화적인 의의를 전시물에 담았다. 탐라문화의 전시공간을 특성화하여 독특하고 고유한 탐라문화를 체계적으로 선보이는 한편, 해마다 다양한 주제의 특별전을 개최하고 있다. 그 외에도 다양한 사회교육 프로그램을 마련하는 등 제주를 찾는 국내·외 관광객에게 제주 토착문화의 전개 과정을 체계적으로 보여주는 문화공간이 되도록 노력하고 있다.",
+      "metadata": {
+        "image_copyright": "Type1",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/19/4110119_image2_1.jpeg",
+        "latitude": 33.51379671,
+        "weekday_close": "18:00",
+        "amenities_raw": "강당+세미나실+카페",
+        "weekday_open": "09:00",
+        "longitude": 126.5479096,
+        "sido": "제주특별자치도",
+        "youth_fee": 0.0,
+        "child_fee": 0.0,
+        "closure_rule_raw": "1월 1일, 설날, 추석, 매주 월요일",
+        "source_types": "TOUR_API",
+        "holiday_open": "09:00",
+        "holiday_close": "18:00",
+        "name": "국립제주박물관",
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "requires_manual_review": true,
+        "sigungu": "제주시",
+        "homepage_url": "http://jeju.museum.go.kr/",
+        "fee_notes": "유료 특별 전시 있음",
+        "adult_fee": 0.0,
+        "address": "제주특별자치도 제주시 일주동로 17",
+        "ownership_type": "국립"
+      },
+      "vector_rank": 2,
+      "bm25_rank": 1,
+      "vector_distance": 0.4117180109024048,
+      "vector_score": null,
+      "bm25_score": 22.768978871374653,
+      "vector_document": "2001년 6월 15일 개관한 국립제주박물관은 제주의 역사와 문화유산을 체계적으로 전시·보존·연구하는 고고·역사박물관이다. 국립제주박물관에서는 제주의 여러 유적에서 출토된 유물과 역사적 문물들을 중심으로 선사시대부터 조선시대까지 시대별 각 유적과 유물이 갖는 역사·문화적인 의의를 전시물에 담았다. 탐라문화의 전시공간을 특성화하여 독특하고 고유한 탐라문화를 체계적으로 선보이는 한편, 해마다 다양한 주제의 특별전을 개최하고 있다. 그 외에도 다양한 사회교육 프로그램을 마련하는 등 제주를 찾는 국내·외 관광객에게 제주 토착문화의 전개 과정을 체계적으로 보여주는 문화공간이 되도록 노력하고 있다.",
+      "bm25_document": "2001년 6월 15일 개관한 국립제주박물관은 제주의 역사와 문화유산을 체계적으로 전시·보존·연구하는 고고·역사박물관이다. 국립제주박물관에서는 제주의 여러 유적에서 출토된 유물과 역사적 문물들을 중심으로 선사시대부터 조선시대까지 시대별 각 유적과 유물이 갖는 역사·문화적인 의의를 전시물에 담았다. 탐라문화의 전시공간을 특성화하여 독특하고 고유한 탐라문화를 체계적으로 선보이는 한편, 해마다 다양한 주제의 특별전을 개최하고 있다. 그 외에도 다양한 사회교육 프로그램을 마련하는 등 제주를 찾는 국내·외 관광객에게 제주 토착문화의 전개 과정을 체계적으로 보여주는 문화공간이 되도록 노력하고 있다.",
+      "best_span_id": "chroma:M0093",
+      "best_span_text": "2001년 6월 15일 개관한 국립제주박물관은 제주의 역사와 문화유산을 체계적으로 전시·보존·연구하는 고고·역사박물관이다. 국립제주박물관에서는 제주의 여러 유적에서 출토된 유물과 역사적 문물들을 중심으로 선사시대부터 조선시대까지 시대별 각 유적과 유물이 갖는 역사·문화적인 의의를 전시물에 담았다. 탐라문화의 전시공간을 특성화하여 독특하고 고유한 탐라문화를 체계적으로 선보이는 한편, 해마다 다양한 주제의 특별전을 개최하고 있다. 그 외에도 다양한 사회교육 프로그램을 마련하는 등 제주를 찾는 국내·외 관광객에게 제주 토착문화의 전개 과정을 체계적으로 보여주는 문화공간이 되도록 노력하고 있다.",
+      "fusion_score": 0.03252247488101534,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 1,
+      "name_match": true,
+      "rerank_score": null,
+      "rank": 1,
+      "score": 0.03252247488101534,
+      "score_type": "rrf",
+      "distance": 0.4117180109024048,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0093",
+      "source_doc_ids": [
+        "DOC-B0093-TOUR_API-130461"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0093-TOUR_API-130461",
+          "source_type": "TOUR_API",
+          "source_record_id": "130461",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=48",
+          "match_trust": "RECHECKED_BY_RULE_NOT_HUMAN_APPROVED"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 68,
+          "doc_ids": [
+            "DOC-B0093-TOUR_API-130461"
+          ]
+        },
+        {
+          "start": 69,
+          "end": 166,
+          "doc_ids": [
+            "DOC-B0093-TOUR_API-130461"
+          ]
+        },
+        {
+          "start": 167,
+          "end": 240,
+          "doc_ids": [
+            "DOC-B0093-TOUR_API-130461"
+          ]
+        },
+        {
+          "start": 241,
+          "end": 332,
+          "doc_ids": [
+            "DOC-B0093-TOUR_API-130461"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=48",
+      "text": "2001년 6월 15일 개관한 국립제주박물관은 제주의 역사와 문화유산을 체계적으로 전시·보존·연구하는 고고·역사박물관이다. 국립제주박물관에서는 제주의 여러 유적에서 출토된 유물과 역사적 문물들을 중심으로 선사시대부터 조선시대까지 시대별 각 유적과 유물이 갖는 역사·문화적인 의의를 전시물에 담았다. 탐라문화의 전시공간을 특성화하여 독특하고 고유한 탐라문화를 체계적으로 선보이는 한편, 해마다 다양한 주제의 특별전을 개최하고 있다. 그 외에도 다양한 사회교육 프로그램을 마련하는 등 제주를 찾는 국내·외 관광객에게 제주 토착문화의 전개 과정을 체계적으로 보여주는 문화공간이 되도록 노력하고 있다.",
+      "sido": "제주특별자치도",
+      "sigungu": "제주시",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=48"
+      ],
+      "evidence_id": "E1",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=59",
+        "fields": {
+          "name": "국립제주박물관",
+          "sido": "제주특별자치도",
+          "sigungu": "제주시",
+          "address": "제주특별자치도 제주시 일주동로 17",
+          "ownership_type": "국립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "09:00",
+          "weekday_close": "18:00",
+          "holiday_open": "09:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "1월 1일, 설날, 추석, 매주 월요일",
+          "amenities_raw": "강당+세미나실+카페"
+        },
+        "base_data_date": "2026-09-30",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0498",
+      "name": "국립광주박물관",
+      "document": "국립광주박물관은 1976년 수중발굴이 시작된 신안 해저 유물을 비롯한 호남지역의 문화유산을 수집·보관하고, 지역의 역사와 문화를 소개하기 위해 1978년 12월 6일 개관하였다. 총면적 80,444㎡(24,334평)에 지상 2층, 지하 4층의 누각 형태를 본뜬 국립광주박물관은 국보·보물 등의 지정유산을 포함하여 160,000여 점의 유물을 소장하고 있다. 전시뿐만 아니라 다채로운 맞춤형 교육·체험프로그램과 문화행사를 연중 운영하고 있다. 박물관은 선사ㆍ고대문화실, 농경문화실, 도자실, 불교미술실, 서화실, 신안 해저 유물실, 중앙홀의 7개 상설전시실과 야외전시장이 있다. 선사·고대문화실에는 구석기시대부터 통일신라시대에 이르는 역사의 전개과정을 볼 수 있다. 신석기시대의 여수 송도와 안도 유적 출토품, 청동기시대의 고인돌, 화순 대곡리에서 출토된 국보 청동유물도 전시되어 있다. 전남지방은 한국도자기의 본산이라 할 만큼 고려시대 청자로부터 조선시대의 분청사기와 백자에 이르기까지 수많은 가마자리들이 분포되어 있어 여기에서 출토된 유물들을 도자실에서 볼 수 있다. 또한 신안 해저 유물실에는 1976년부터 1984년까지 9년 동안 신안해저침몰무역선으로부터 인양한 중국 송·원대 유물도 전시되어 있다. 불교미술실에는 통일신라시대부터 조선시대에 이르기까지 불교공예품과 불화 등이 전시되어 있다. 장흥 보림사삼층석탑, 전남광주 서오층석탑 등에서 출토된 사리장엄구와 보성 화방리 출토 금동여래입상, 화순 운주사출토 금동보살입상, 영암 용흥리출토 금동사천황상, 영암 용암사지출토 금동지장보살좌상, 전남광주 원효사 출토 부처얼굴, 담양 서봉사지출토 나한상 등이 전시되어 있다. 한편 입구로비에는 중흥산성쌍사자석등이 있다. 서화실에는 호남 회화의 흐름에 대해 쉽게 이해하고 감상하며 향토문화에 대한 자긍심을 일깨울 수 있도록 조선시대와 근대기에 활약한 호남출신 화가들의 대표적인 작품들을 전시하고 있다. 이밖에 정선, 심사정 등 조선시대를 대표하는 화가들의 작품도 함께 전시하여 관람객들이 호남회화의 흐름은 물론 조선시대 회화의 면모를 이해하고 감상하는 데 도움이 되도록 하였다.",
+      "metadata": {
+        "longitude": 126.883951454,
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "address": "광주광역시 북구 하서로 110",
+        "requires_manual_review": true,
+        "child_fee": 0.0,
+        "sigungu": "북구",
+        "holiday_open": "10:00",
+        "name": "국립광주박물관",
+        "homepage_url": "http://gwangju.museum.go.kr",
+        "ownership_type": "국립",
+        "weekday_close": "18:00",
+        "holiday_close": "18:00",
+        "source_types": "TOUR_API",
+        "sido": "광주광역시",
+        "adult_fee": 0.0,
+        "closure_rule_raw": "1월 1일, 명절 당일, 4월, 11월 첫번째 주 월요일",
+        "youth_fee": 0.0,
+        "weekday_open": "10:00",
+        "image_copyright": "Type1",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/01/4106501_image2_1.jpg",
+        "latitude": 35.1896565756
+      },
+      "vector_rank": 5,
+      "bm25_rank": 8,
+      "vector_distance": 0.4432799816131592,
+      "vector_score": null,
+      "bm25_score": 9.195436521674537,
+      "vector_document": "국립광주박물관은 1976년 수중발굴이 시작된 신안 해저 유물을 비롯한 호남지역의 문화유산을 수집·보관하고, 지역의 역사와 문화를 소개하기 위해 1978년 12월 6일 개관하였다. 총면적 80,444㎡(24,334평)에 지상 2층, 지하 4층의 누각 형태를 본뜬 국립광주박물관은 국보·보물 등의 지정유산을 포함하여 160,000여 점의 유물을 소장하고 있다. 전시뿐만 아니라 다채로운 맞춤형 교육·체험프로그램과 문화행사를 연중 운영하고 있다. 박물관은 선사ㆍ고대문화실, 농경문화실, 도자실, 불교미술실, 서화실, 신안 해저 유물실, 중앙홀의 7개 상설전시실과 야외전시장이 있다. 선사·고대문화실에는 구석기시대부터 통일신라시대에 이르는 역사의 전개과정을 볼 수 있다. 신석기시대의 여수 송도와 안도 유적 출토품, 청동기시대의 고인돌, 화순 대곡리에서 출토된 국보 청동유물도 전시되어 있다. 전남지방은 한국도자기의 본산이라 할 만큼 고려시대 청자로부터 조선시대의 분청사기와 백자에 이르기까지 수많은 가마자리들이 분포되어 있어 여기에서 출토된 유물들을 도자실에서 볼 수 있다. 또한 신안 해저 유물실에는 1976년부터 1984년까지 9년 동안 신안해저침몰무역선으로부터 인양한 중국 송·원대 유물도 전시되어 있다. 불교미술실에는 통일신라시대부터 조선시대에 이르기까지 불교공예품과 불화 등이 전시되어 있다. 장흥 보림사삼층석탑, 전남광주 서오층석탑 등에서 출토된 사리장엄구와 보성 화방리 출토 금동여래입상, 화순 운주사출토 금동보살입상, 영암 용흥리출토 금동사천황상, 영암 용암사지출토 금동지장보살좌상, 전남광주 원효사 출토 부처얼굴, 담양 서봉사지출토 나한상 등이 전시되어 있다. 한편 입구로비에는 중흥산성쌍사자석등이 있다. 서화실에는 호남 회화의 흐름에 대해 쉽게 이해하고 감상하며 향토문화에 대한 자긍심을 일깨울 수 있도록 조선시대와 근대기에 활약한 호남출신 화가들의 대표적인 작품들을 전시하고 있다. 이밖에 정선, 심사정 등 조선시대를 대표하는 화가들의 작품도 함께 전시하여 관람객들이 호남회화의 흐름은 물론 조선시대 회화의 면모를 이해하고 감상하는 데 도움이 되도록 하였다.",
+      "bm25_document": "국립광주박물관은 1976년 수중발굴이 시작된 신안 해저 유물을 비롯한 호남지역의 문화유산을 수집·보관하고, 지역의 역사와 문화를 소개하기 위해 1978년 12월 6일 개관하였다. 총면적 80,444㎡(24,334평)에 지상 2층, 지하 4층의 누각 형태를 본뜬 국립광주박물관은 국보·보물 등의 지정유산을 포함하여 160,000여 점의 유물을 소장하고 있다. 전시뿐만 아니라 다채로운 맞춤형 교육·체험프로그램과 문화행사를 연중 운영하고 있다. 박물관은 선사ㆍ고대문화실, 농경문화실, 도자실, 불교미술실, 서화실, 신안 해저 유물실, 중앙홀의 7개 상설전시실과 야외전시장이 있다. 선사·고대문화실에는 구석기시대부터 통일신라시대에 이르는 역사의 전개과정을 볼 수 있다. 신석기시대의 여수 송도와 안도 유적 출토품, 청동기시대의 고인돌, 화순 대곡리에서 출토된 국보 청동유물도 전시되어 있다. 전남지방은 한국도자기의 본산이라 할 만큼 고려시대 청자로부터 조선시대의 분청사기와 백자에 이르기까지 수많은 가마자리들이 분포되어 있어 여기에서 출토된 유물들을 도자실에서 볼 수 있다. 또한 신안 해저 유물실에는 1976년부터 1984년까지 9년 동안 신안해저침몰무역선으로부터 인양한 중국 송·원대 유물도 전시되어 있다. 불교미술실에는 통일신라시대부터 조선시대에 이르기까지 불교공예품과 불화 등이 전시되어 있다. 장흥 보림사삼층석탑, 전남광주 서오층석탑 등에서 출토된 사리장엄구와 보성 화방리 출토 금동여래입상, 화순 운주사출토 금동보살입상, 영암 용흥리출토 금동사천황상, 영암 용암사지출토 금동지장보살좌상, 전남광주 원효사 출토 부처얼굴, 담양 서봉사지출토 나한상 등이 전시되어 있다. 한편 입구로비에는 중흥산성쌍사자석등이 있다. 서화실에는 호남 회화의 흐름에 대해 쉽게 이해하고 감상하며 향토문화에 대한 자긍심을 일깨울 수 있도록 조선시대와 근대기에 활약한 호남출신 화가들의 대표적인 작품들을 전시하고 있다. 이밖에 정선, 심사정 등 조선시대를 대표하는 화가들의 작품도 함께 전시하여 관람객들이 호남회화의 흐름은 물론 조선시대 회화의 면모를 이해하고 감상하는 데 도움이 되도록 하였다.",
+      "best_span_id": "chroma:M0498",
+      "best_span_text": "국립광주박물관은 1976년 수중발굴이 시작된 신안 해저 유물을 비롯한 호남지역의 문화유산을 수집·보관하고, 지역의 역사와 문화를 소개하기 위해 1978년 12월 6일 개관하였다. 총면적 80,444㎡(24,334평)에 지상 2층, 지하 4층의 누각 형태를 본뜬 국립광주박물관은 국보·보물 등의 지정유산을 포함하여 160,000여 점의 유물을 소장하고 있다. 전시뿐만 아니라 다채로운 맞춤형 교육·체험프로그램과 문화행사를 연중 운영하고 있다. 박물관은 선사ㆍ고대문화실, 농경문화실, 도자실, 불교미술실, 서화실, 신안 해저 유물실, 중앙홀의 7개 상설전시실과 야외전시장이 있다. 선사·고대문화실에는 구석기시대부터 통일신라시대에 이르는 역사의 전개과정을 볼 수 있다. 신석기시대의 여수 송도와 안도 유적 출토품, 청동기시대의 고인돌, 화순 대곡리에서 출토된 국보 청동유물도 전시되어 있다. 전남지방은 한국도자기의 본산이라 할 만큼 고려시대 청자로부터 조선시대의 분청사기와 백자에 이르기까지 수많은 가마자리들이 분포되어 있어 여기에서 출토된 유물들을 도자실에서 볼 수 있다. 또한 신안 해저 유물실에는 1976년부터 1984년까지 9년 동안 신안해저침몰무역선으로부터 인양한 중국 송·원대 유물도 전시되어 있다. 불교미술실에는 통일신라시대부터 조선시대에 이르기까지 불교공예품과 불화 등이 전시되어 있다. 장흥 보림사삼층석탑, 전남광주 서오층석탑 등에서 출토된 사리장엄구와 보성 화방리 출토 금동여래입상, 화순 운주사출토 금동보살입상, 영암 용흥리출토 금동사천황상, 영암 용암사지출토 금동지장보살좌상, 전남광주 원효사 출토 부처얼굴, 담양 서봉사지출토 나한상 등이 전시되어 있다. 한편 입구로비에는 중흥산성쌍사자석등이 있다. 서화실에는 호남 회화의 흐름에 대해 쉽게 이해하고 감상하며 향토문화에 대한 자긍심을 일깨울 수 있도록 조선시대와 근대기에 활약한 호남출신 화가들의 대표적인 작품들을 전시하고 있다. 이밖에 정선, 심사정 등 조선시대를 대표하는 화가들의 작품도 함께 전시하여 관람객들이 호남회화의 흐름은 물론 조선시대 회화의 면모를 이해하고 감상하는 데 도움이 되도록 하였다.",
+      "fusion_score": 0.030090497737556562,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 2,
+      "rerank_score": null,
+      "rank": 2,
+      "score": 0.030090497737556562,
+      "score_type": "rrf",
+      "distance": 0.4432799816131592,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0498",
+      "source_doc_ids": [
+        "DOC-B0498-TOUR_API-129782"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0498-TOUR_API-129782",
+          "source_type": "TOUR_API",
+          "source_record_id": "129782",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=246",
+          "match_trust": "RECHECKED_BY_RULE_NOT_HUMAN_APPROVED"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 99,
+          "doc_ids": [
+            "DOC-B0498-TOUR_API-129782"
+          ]
+        },
+        {
+          "start": 100,
+          "end": 199,
+          "doc_ids": [
+            "DOC-B0498-TOUR_API-129782"
+          ]
+        },
+        {
+          "start": 200,
+          "end": 246,
+          "doc_ids": [
+            "DOC-B0498-TOUR_API-129782"
+          ]
+        },
+        {
+          "start": 247,
+          "end": 322,
+          "doc_ids": [
+            "DOC-B0498-TOUR_API-129782"
+          ]
+        },
+        {
+          "start": 323,
+          "end": 371,
+          "doc_ids": [
+            "DOC-B0498-TOUR_API-129782"
+          ]
+        },
+        {
+          "start": 372,
+          "end": 439,
+          "doc_ids": [
+            "DOC-B0498-TOUR_API-129782"
+          ]
+        },
+        {
+          "start": 440,
+          "end": 542,
+          "doc_ids": [
+            "DOC-B0498-TOUR_API-129782"
+          ]
+        },
+        {
+          "start": 543,
+          "end": 618,
+          "doc_ids": [
+            "DOC-B0498-TOUR_API-129782"
+          ]
+        },
+        {
+          "start": 619,
+          "end": 669,
+          "doc_ids": [
+            "DOC-B0498-TOUR_API-129782"
+          ]
+        },
+        {
+          "start": 670,
+          "end": 823,
+          "doc_ids": [
+            "DOC-B0498-TOUR_API-129782"
+          ]
+        },
+        {
+          "start": 824,
+          "end": 848,
+          "doc_ids": [
+            "DOC-B0498-TOUR_API-129782"
+          ]
+        },
+        {
+          "start": 849,
+          "end": 949,
+          "doc_ids": [
+            "DOC-B0498-TOUR_API-129782"
+          ]
+        },
+        {
+          "start": 950,
+          "end": 1048,
+          "doc_ids": [
+            "DOC-B0498-TOUR_API-129782"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=246",
+      "text": "국립광주박물관은 1976년 수중발굴이 시작된 신안 해저 유물을 비롯한 호남지역의 문화유산을 수집·보관하고, 지역의 역사와 문화를 소개하기 위해 1978년 12월 6일 개관하였다. 총면적 80,444㎡(24,334평)에 지상 2층, 지하 4층의 누각 형태를 본뜬 국립광주박물관은 국보·보물 등의 지정유산을 포함하여 160,000여 점의 유물을 소장하고 있다. 전시뿐만 아니라 다채로운 맞춤형 교육·체험프로그램과 문화행사를 연중 운영하고 있다. 박물관은 선사ㆍ고대문화실, 농경문화실, 도자실, 불교미술실, 서화실, 신안 해저 유물실, 중앙홀의 7개 상설전시실과 야외전시장이 있다. 선사·고대문화실에는 구석기시대부터 통일신라시대에 이르는 역사의 전개과정을 볼 수 있다. 신석기시대의 여수 송도와 안도 유적 출토품, 청동기시대의 고인돌, 화순 대곡리에서 출토된 국보 청동유물도 전시되어 있다. 전남지방은 한국도자기의 본산이라 할 만큼 고려시대 청자로부터 조선시대의 분청사기와 백자에 이르기까지 수많은 가마자리들이 분포되어 있어 여기에서 출토된 유물들을 도자실에서 볼 수 있다. 또한 신안 해저 유물실에는 1976년부터 1984년까지 9년 동안 신안해저침몰무역선으로부터 인양한 중국 송·원대 유물도 전시되어 있다. 불교미술실에는 통일신라시대부터 조선시대에 이르기까지 불교공예품과 불화 등이 전시되어 있다. 장흥 보림사삼층석탑, 전남광주 서오층석탑 등에서 출토된 사리장엄구와 보성 화방리 출토 금동여래입상, 화순 운주사출토 금동보살입상, 영암 용흥리출토 금동사천황상, 영암 용암사지출토 금동지장보살좌상, 전남광주 원효사 출토 부처얼굴, 담양 서봉사지출토 나한상 등이 전시되어 있다. 한편 입구로비에는 중흥산성쌍사자석등이 있다. 서화실에는 호남 회화의 흐름에 대해 쉽게 이해하고 감상하며 향토문화에 대한 자긍심을 일깨울 수 있도록 조선시대와 근대기에 활약한 호남출신 화가들의 대표적인 작품들을 전시하고 있다. 이밖에 정선, 심사정 등 조선시대를 대표하는 화가들의 작품도 함께 전시하여 관람객들이 호남회화의 흐름은 물론 조선시대 회화의 면모를 이해하고 감상하는 데 도움이 되도록 하였다.",
+      "sido": "광주광역시",
+      "sigungu": "북구",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=246"
+      ],
+      "evidence_id": "E2",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=357",
+        "fields": {
+          "name": "국립광주박물관",
+          "sido": "광주광역시",
+          "sigungu": "북구",
+          "address": "광주광역시 북구 하서로 110",
+          "ownership_type": "국립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "10:00",
+          "weekday_close": "18:00",
+          "holiday_open": "10:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "1월 1일, 명절 당일, 4월, 11월 첫번째 주 월요일"
+        },
+        "base_data_date": "2026-04-08",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0443",
+      "name": "제천유물전시관",
+      "document": "제천유물전시관은 제천의 향토유물을 살필 수 있는 곳으로 고려시대의 청동 거울, 선사시대의 토기, 다양한 생활도구 등이 전시되어 있다.",
+      "metadata": {
+        "holiday_open": "09:00",
+        "amenities_raw": "장애인 편의시설 및 주차장",
+        "longitude": 128.1733782,
+        "fee_notes": "6세 이하 어린이+노인복지법에 따른 노인 등 무료",
+        "adult_fee_status": "BASE_FEE_PAID",
+        "sigungu": "제천시",
+        "adult_fee": 3000.0,
+        "ownership_type": "공립",
+        "source_types": "BASE",
+        "youth_fee": 2000.0,
+        "closure_rule_raw": "연중 무휴",
+        "holiday_close": "18:00",
+        "weekday_open": "09:00",
+        "weekday_close": "18:00",
+        "address": "충청북도 제천시 청풍면 청풍호로 2048",
+        "child_fee": 1000.0,
+        "sido": "충청북도",
+        "name": "제천유물전시관",
+        "requires_manual_review": false,
+        "latitude": 37.004046
+      },
+      "vector_rank": 6,
+      "bm25_rank": 12,
+      "vector_distance": 0.45736247301101685,
+      "vector_score": null,
+      "bm25_score": 8.944046708124922,
+      "vector_document": "제천유물전시관은 제천의 향토유물을 살필 수 있는 곳으로 고려시대의 청동 거울, 선사시대의 토기, 다양한 생활도구 등이 전시되어 있다.",
+      "bm25_document": "제천유물전시관은 제천의 향토유물을 살필 수 있는 곳으로 고려시대의 청동 거울, 선사시대의 토기, 다양한 생활도구 등이 전시되어 있다.",
+      "best_span_id": "chroma:M0443",
+      "best_span_text": "제천유물전시관은 제천의 향토유물을 살필 수 있는 곳으로 고려시대의 청동 거울, 선사시대의 토기, 다양한 생활도구 등이 전시되어 있다.",
+      "fusion_score": 0.02904040404040404,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 3,
+      "rerank_score": null,
+      "rank": 3,
+      "score": 0.02904040404040404,
+      "score_type": "rrf",
+      "distance": 0.45736247301101685,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0443",
+      "source_doc_ids": [
+        "DOC-B0443-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0443-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0443",
+          "source_locator": "data/raw/museum_base_1070.csv#row=444",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 74,
+          "doc_ids": [
+            "DOC-B0443-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_base_1070.csv#row=444",
+      "text": "제천유물전시관은 제천의 향토유물을 살필 수 있는 곳으로 고려시대의 청동 거울, 선사시대의 토기, 다양한 생활도구 등이 전시되어 있다.",
+      "sido": "충청북도",
+      "sigungu": "제천시",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_base_1070.csv#row=444"
+      ],
+      "evidence_id": "E3",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=317",
+        "fields": {
+          "name": "제천유물전시관",
+          "sido": "충청북도",
+          "sigungu": "제천시",
+          "address": "충청북도 제천시 청풍면 청풍호로 2048",
+          "ownership_type": "공립",
+          "adult_fee": "3000",
+          "youth_fee": "2000",
+          "child_fee": "1000",
+          "adult_fee_status": "BASE_FEE_PAID",
+          "weekday_open": "09:00",
+          "weekday_close": "18:00",
+          "holiday_open": "09:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "연중 무휴",
+          "amenities_raw": "장애인 편의시설 및 주차장"
+        },
+        "base_data_date": "2026-03-23",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0991",
+      "name": "강화전쟁박물관",
+      "document": "강화전쟁박물관은 강화에서 일어난 전쟁과 관련한 유물을 전시하고 있다. 강화도는 지정학적 위치 때문에 항쟁의 역사가 많은 곳이다. 선사시대부터 근현대에 이르기까지 강화에서 일어난 각종 전쟁 유물 120점을 전시하고 있다. 총 네 개의 주제로 구성된 전시관에서 제1전시실은 선사시대부터 삼국시대 주제관으로, 돌 화살촉, 고리 자루 칼 등을 전시하고 있고, 제2전시실은 고려 시대의 철제은입사투구, 철투구, 철도자 등을 전시하고 있다. 제3전시실에서는 신미양요 때 어재연 장군이 광성보에 걸고 싸웠던 깃발인 수자기와 면제 갑옷 등을 볼 수 있다. 제4전시실에는 조선시대 주력 화포인 불랑기포, 항일 의병들이 사용한 화승총 등 근현대 유물이 전시돼 있다. 이 밖에도 항일 의병을 체험하는 코너와 포토존도 있다. 강화전쟁박물관은 천혜의 지정학적 위치를 가지고 있어 역사의 고비 때마다 국방상 요충지 역학을 수행하며 외세의 침략을 막아낸 강화의 호국정신을 널리 알리기 위한 전쟁관련 유물등을 전시하고 있습니다.",
+      "metadata": {
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/28/3532928_image2_1.jpg",
+        "latitude": 37.73357906,
+        "longitude": 126.5159972,
+        "source_types": "BASE|TOUR_API",
+        "weekday_open": "09:00",
+        "adult_fee": 1200.0,
+        "transport_notes": "시내버스+ 군내버스+ 자가용이용",
+        "address": "인천광역시 강화군 강화읍 해안동로1366번길 18",
+        "ownership_type": "공립",
+        "sigungu": "강화군",
+        "homepage_url": "http://www.ganghwa.go.kr/open_content/museum_war/",
+        "sido": "인천광역시",
+        "adult_fee_status": "BASE_FEE_PAID",
+        "holiday_open": "09:00",
+        "holiday_close": "18:00",
+        "closure_rule_raw": "월+1월1일+설당일+추석당일",
+        "fee_notes": "무료(강화군민+국가유공자 및 그 가족+장애인 및 동반 보호자 1명+기증기탁자 등)",
+        "child_fee": 900.0,
+        "requires_manual_review": true,
+        "image_copyright": "Type1",
+        "youth_fee": 900.0,
+        "name": "강화전쟁박물관",
+        "weekday_close": "18:00"
+      },
+      "vector_rank": 20,
+      "bm25_rank": 6,
+      "vector_distance": 0.4993922710418701,
+      "vector_score": null,
+      "bm25_score": 9.690901537754744,
+      "vector_document": "강화전쟁박물관은 강화에서 일어난 전쟁과 관련한 유물을 전시하고 있다. 강화도는 지정학적 위치 때문에 항쟁의 역사가 많은 곳이다. 선사시대부터 근현대에 이르기까지 강화에서 일어난 각종 전쟁 유물 120점을 전시하고 있다. 총 네 개의 주제로 구성된 전시관에서 제1전시실은 선사시대부터 삼국시대 주제관으로, 돌 화살촉, 고리 자루 칼 등을 전시하고 있고, 제2전시실은 고려 시대의 철제은입사투구, 철투구, 철도자 등을 전시하고 있다. 제3전시실에서는 신미양요 때 어재연 장군이 광성보에 걸고 싸웠던 깃발인 수자기와 면제 갑옷 등을 볼 수 있다. 제4전시실에는 조선시대 주력 화포인 불랑기포, 항일 의병들이 사용한 화승총 등 근현대 유물이 전시돼 있다. 이 밖에도 항일 의병을 체험하는 코너와 포토존도 있다. 강화전쟁박물관은 천혜의 지정학적 위치를 가지고 있어 역사의 고비 때마다 국방상 요충지 역학을 수행하며 외세의 침략을 막아낸 강화의 호국정신을 널리 알리기 위한 전쟁관련 유물등을 전시하고 있습니다.",
+      "bm25_document": "강화전쟁박물관은 강화에서 일어난 전쟁과 관련한 유물을 전시하고 있다. 강화도는 지정학적 위치 때문에 항쟁의 역사가 많은 곳이다. 선사시대부터 근현대에 이르기까지 강화에서 일어난 각종 전쟁 유물 120점을 전시하고 있다. 총 네 개의 주제로 구성된 전시관에서 제1전시실은 선사시대부터 삼국시대 주제관으로, 돌 화살촉, 고리 자루 칼 등을 전시하고 있고, 제2전시실은 고려 시대의 철제은입사투구, 철투구, 철도자 등을 전시하고 있다. 제3전시실에서는 신미양요 때 어재연 장군이 광성보에 걸고 싸웠던 깃발인 수자기와 면제 갑옷 등을 볼 수 있다. 제4전시실에는 조선시대 주력 화포인 불랑기포, 항일 의병들이 사용한 화승총 등 근현대 유물이 전시돼 있다. 이 밖에도 항일 의병을 체험하는 코너와 포토존도 있다. 강화전쟁박물관은 천혜의 지정학적 위치를 가지고 있어 역사의 고비 때마다 국방상 요충지 역학을 수행하며 외세의 침략을 막아낸 강화의 호국정신을 널리 알리기 위한 전쟁관련 유물등을 전시하고 있습니다.",
+      "best_span_id": "chroma:M0991",
+      "best_span_text": "강화전쟁박물관은 강화에서 일어난 전쟁과 관련한 유물을 전시하고 있다. 강화도는 지정학적 위치 때문에 항쟁의 역사가 많은 곳이다. 선사시대부터 근현대에 이르기까지 강화에서 일어난 각종 전쟁 유물 120점을 전시하고 있다. 총 네 개의 주제로 구성된 전시관에서 제1전시실은 선사시대부터 삼국시대 주제관으로, 돌 화살촉, 고리 자루 칼 등을 전시하고 있고, 제2전시실은 고려 시대의 철제은입사투구, 철투구, 철도자 등을 전시하고 있다. 제3전시실에서는 신미양요 때 어재연 장군이 광성보에 걸고 싸웠던 깃발인 수자기와 면제 갑옷 등을 볼 수 있다. 제4전시실에는 조선시대 주력 화포인 불랑기포, 항일 의병들이 사용한 화승총 등 근현대 유물이 전시돼 있다. 이 밖에도 항일 의병을 체험하는 코너와 포토존도 있다. 강화전쟁박물관은 천혜의 지정학적 위치를 가지고 있어 역사의 고비 때마다 국방상 요충지 역학을 수행하며 외세의 침략을 막아낸 강화의 호국정신을 널리 알리기 위한 전쟁관련 유물등을 전시하고 있습니다.",
+      "fusion_score": 0.027651515151515153,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 4,
+      "rerank_score": null,
+      "rank": 4,
+      "score": 0.027651515151515153,
+      "score_type": "rrf",
+      "distance": 0.4993922710418701,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0991",
+      "source_doc_ids": [
+        "DOC-B0991-TOUR_API-2657495",
+        "DOC-B0991-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0991-TOUR_API-2657495",
+          "source_type": "TOUR_API",
+          "source_record_id": "2657495",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=460",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        },
+        {
+          "doc_id": "DOC-B0991-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0991",
+          "source_locator": "data/raw/museum_base_1070.csv#row=992",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 38,
+          "doc_ids": [
+            "DOC-B0991-TOUR_API-2657495"
+          ]
+        },
+        {
+          "start": 39,
+          "end": 71,
+          "doc_ids": [
+            "DOC-B0991-TOUR_API-2657495"
+          ]
+        },
+        {
+          "start": 72,
+          "end": 122,
+          "doc_ids": [
+            "DOC-B0991-TOUR_API-2657495"
+          ]
+        },
+        {
+          "start": 123,
+          "end": 240,
+          "doc_ids": [
+            "DOC-B0991-TOUR_API-2657495"
+          ]
+        },
+        {
+          "start": 241,
+          "end": 302,
+          "doc_ids": [
+            "DOC-B0991-TOUR_API-2657495"
+          ]
+        },
+        {
+          "start": 303,
+          "end": 362,
+          "doc_ids": [
+            "DOC-B0991-TOUR_API-2657495"
+          ]
+        },
+        {
+          "start": 363,
+          "end": 393,
+          "doc_ids": [
+            "DOC-B0991-TOUR_API-2657495"
+          ]
+        },
+        {
+          "start": 394,
+          "end": 503,
+          "doc_ids": [
+            "DOC-B0991-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=460",
+      "text": "강화전쟁박물관은 강화에서 일어난 전쟁과 관련한 유물을 전시하고 있다. 강화도는 지정학적 위치 때문에 항쟁의 역사가 많은 곳이다. 선사시대부터 근현대에 이르기까지 강화에서 일어난 각종 전쟁 유물 120점을 전시하고 있다. 총 네 개의 주제로 구성된 전시관에서 제1전시실은 선사시대부터 삼국시대 주제관으로, 돌 화살촉, 고리 자루 칼 등을 전시하고 있고, 제2전시실은 고려 시대의 철제은입사투구, 철투구, 철도자 등을 전시하고 있다. 제3전시실에서는 신미양요 때 어재연 장군이 광성보에 걸고 싸웠던 깃발인 수자기와 면제 갑옷 등을 볼 수 있다. 제4전시실에는 조선시대 주력 화포인 불랑기포, 항일 의병들이 사용한 화승총 등 근현대 유물이 전시돼 있다. 이 밖에도 항일 의병을 체험하는 코너와 포토존도 있다. 강화전쟁박물관은 천혜의 지정학적 위치를 가지고 있어 역사의 고비 때마다 국방상 요충지 역학을 수행하며 외세의 침략을 막아낸 강화의 호국정신을 널리 알리기 위한 전쟁관련 유물등을 전시하고 있습니다.",
+      "sido": "인천광역시",
+      "sigungu": "강화군",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=460"
+      ],
+      "evidence_id": "E4",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=674",
+        "fields": {
+          "name": "강화전쟁박물관",
+          "sido": "인천광역시",
+          "sigungu": "강화군",
+          "address": "인천광역시 강화군 강화읍 해안동로1366번길 18",
+          "ownership_type": "공립",
+          "adult_fee": "1200",
+          "youth_fee": "900",
+          "child_fee": "900",
+          "adult_fee_status": "BASE_FEE_PAID",
+          "weekday_open": "09:00",
+          "weekday_close": "18:00",
+          "holiday_open": "09:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "월+1월1일+설당일+추석당일"
+        },
+        "base_data_date": "2025-11-20",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0855",
+      "name": "롯데월드민속박물관",
+      "document": "구석기시대부터 일제강점기까지의 우리역사를 시대별로 구분하여 실제유물과 함께 모형으로 재현하여 알기 쉽고 재미있게 관람이 가능하도록 전시되어 있습니다. 특히, 모형촌은 8분의 1로 축소된 2천여 점의 인형을 이용하여 조선시대의 사계절과 세시풍속,관혼상제, 양반과 서민들의 생활모습을 사실적으로 표현하였습니다.",
+      "metadata": {
+        "homepage_url": "http://www.lotteworld.com",
+        "transport_notes": "버스지선버스지선버스 3217번+3313번+3314번+3315번+3317번+3411번+3414번+4319번급행열차급행열차 1007-1번+1100번+1700번+2000번+6900번+7007번+8001번간선버스간선버스 301번+341번+360번+362번공항버스공항버스 6000번+6006번+6705번+6706A번지하철 2호선 잠실역 4번출구 하차,",
+        "latitude": 37.51130961,
+        "sido": "서울특별시",
+        "holiday_open": "11:00",
+        "ownership_type": "사립",
+        "weekday_close": "19:00",
+        "requires_manual_review": false,
+        "sigungu": "송파구",
+        "source_types": "BASE",
+        "weekday_open": "11:00",
+        "holiday_close": "20:00",
+        "youth_fee": 3000.0,
+        "longitude": 127.0981418,
+        "address": "서울특별시 송파구 올림픽로 240",
+        "adult_fee_status": "BASE_FEE_PAID",
+        "amenities_raw": "박물관",
+        "name": "롯데월드민속박물관",
+        "closure_rule_raw": "연중무휴",
+        "child_fee": 3200.0,
+        "fee_notes": "65세이상 -청소년요금적용장애인,국가유공자는 증 보유시 (동반1인포함) : 단체요금으로 적용",
+        "adult_fee": 5000.0
+      },
+      "vector_rank": 1,
+      "bm25_rank": null,
+      "vector_distance": 0.38439035415649414,
+      "vector_score": null,
+      "bm25_score": null,
+      "vector_document": "구석기시대부터 일제강점기까지의 우리역사를 시대별로 구분하여 실제유물과 함께 모형으로 재현하여 알기 쉽고 재미있게 관람이 가능하도록 전시되어 있습니다. 특히, 모형촌은 8분의 1로 축소된 2천여 점의 인형을 이용하여 조선시대의 사계절과 세시풍속,관혼상제, 양반과 서민들의 생활모습을 사실적으로 표현하였습니다.",
+      "bm25_document": "",
+      "best_span_id": null,
+      "best_span_text": null,
+      "fusion_score": 0.01639344262295082,
+      "retrieved_by": [
+        "vector"
+      ],
+      "fusion_rank": 5,
+      "rerank_score": null,
+      "rank": 5,
+      "score": 0.01639344262295082,
+      "score_type": "rrf",
+      "distance": 0.38439035415649414,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector"
+      ],
+      "retriever": "vector",
+      "source_doc_ids": [
+        "DOC-B0855-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0855-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0855",
+          "source_locator": "data/raw/museum_base_1070.csv#row=856",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 83,
+          "doc_ids": [
+            "DOC-B0855-BASE"
+          ]
+        },
+        {
+          "start": 84,
+          "end": 171,
+          "doc_ids": [
+            "DOC-B0855-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_base_1070.csv#row=856",
+      "text": "구석기시대부터 일제강점기까지의 우리역사를 시대별로 구분하여 실제유물과 함께 모형으로 재현하여 알기 쉽고 재미있게 관람이 가능하도록 전시되어 있습니다. 특히, 모형촌은 8분의 1로 축소된 2천여 점의 인형을 이용하여 조선시대의 사계절과 세시풍속,관혼상제, 양반과 서민들의 생활모습을 사실적으로 표현하였습니다.",
+      "sido": "서울특별시",
+      "sigungu": "송파구",
+      "span_id": "",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_base_1070.csv#row=856"
+      ],
+      "evidence_id": "E5",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=578",
+        "fields": {
+          "name": "롯데월드민속박물관",
+          "sido": "서울특별시",
+          "sigungu": "송파구",
+          "address": "서울특별시 송파구 올림픽로 240",
+          "ownership_type": "사립",
+          "adult_fee": "5000",
+          "youth_fee": "3000",
+          "child_fee": "3200",
+          "adult_fee_status": "BASE_FEE_PAID",
+          "weekday_open": "11:00",
+          "weekday_close": "19:00",
+          "holiday_open": "11:00",
+          "holiday_close": "20:00",
+          "closure_rule_raw": "연중무휴",
+          "amenities_raw": "박물관"
+        },
+        "base_data_date": "2023-01-11",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    }
+  ],
+  "answer": "국립제주박물관은 제주 여러 유적에서 출토된 유물과 역사적 문물을 중심으로 선사시대부터 조선시대까지를 시대별로 전시하며, 각 유적과 유물이 지닌 역사·문화적 의미도 소개합니다. 탐라문화 전시공간에서는 탐라의 독특하고 고유한 문화도 선보입니다. [E1]",
+  "retrieval_status": "ok",
+  "answer_status": "answered",
+  "route": "hybrid",
+  "retry_count": 0,
+  "supervisor_verified": true,
+  "rerank_applied": false,
+  "retriever_errors": [],
+  "warnings": [
+    "Cross-Encoder reranking failed (FileNotFoundError); RRF order retained"
+  ],
+  "duration_ms": 9928.49,
+  "error_type": "",
+  "hit_at_1": 1,
+  "hit_at_3": 1,
+  "hit_at_5": 1,
+  "recall_at_5": 1.0,
+  "mrr_at_10": 1.0
+}

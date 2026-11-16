@@ -1,0 +1,50 @@
+{
+  "mode": "supervisor_full",
+  "question_id": "Q223",
+  "evidence": [
+    {
+      "museum_id": "M0376",
+      "name": "파주나비나라박물관",
+      "text": "파주나비나라박물관은 자연환경 보존의 중요성과 생명의 소중함을 일깨줘 주는 동시에 곤충을 통한 교육 중심의 박물관이 되고자 2008년 4월 파주출판문화도시에 개관하였다.",
+      "span_id": "M0376:000",
+      "source_doc_ids": [
+        "DOC-B0376-TOUR_API-613661"
+      ],
+      "source_urls": [],
+      "source_url": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=178"
+      ],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=178",
+      "sido": "경기도",
+      "sigungu": "파주시",
+      "retriever": "graph",
+      "topic": "곤충·생물",
+      "theme": "자연·생태",
+      "confidence": "high",
+      "metadata": {},
+      "chunk_id": "",
+      "retrievers": [
+        "graph"
+      ],
+      "evidence_id": "E1",
+      "rank": 1
+    }
+  ],
+  "answer": "파주나비나라박물관은 곤충을 통한 교육을 중심으로 자연환경 보존의 중요성과 생명의 소중함을 일깨우는 교육적 가치를 지향합니다.[E1]",
+  "retrieval_status": "ok",
+  "answer_status": "answered",
+  "route": "graph",
+  "retry_count": 1,
+  "supervisor_verified": true,
+  "rerank_applied": false,
+  "retriever_errors": [],
+  "warnings": [],
+  "duration_ms": 162951.59,
+  "error_type": "",
+  "hit_at_1": 1,
+  "hit_at_3": 1,
+  "hit_at_5": 1,
+  "recall_at_5": 1.0,
+  "mrr_at_10": 1.0
+}

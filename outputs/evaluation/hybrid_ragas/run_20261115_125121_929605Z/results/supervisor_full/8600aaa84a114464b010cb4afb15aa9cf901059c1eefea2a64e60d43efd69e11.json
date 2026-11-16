@@ -1,0 +1,90 @@
+{
+  "mode": "supervisor_full",
+  "question_id": "V2-OO09",
+  "evidence": [
+    {
+      "museum_id": "M0859",
+      "name": "예송미술관",
+      "text": "예송미술관의 Neo4j operator_name(운영기관) 기록: 서울특별시 송파구 (CSV 원문: 서울특별시 송파구청)\n[Neo4j 구조화 근거] {\"museum_id\": \"M0859\", \"name\": \"예송미술관\", \"relation\": \"OPERATED_BY\", \"organization\": \"서울특별시 송파구\", \"org_key\": \"서울특별시송파구\", \"org_type\": \"지방자치단체\", \"raw_name\": \"서울특별시 송파구청\", \"verification_status\": \"SOURCE_RECORDED\"}",
+      "span_id": "",
+      "source_doc_ids": [
+        "DOC-B0859-BASE"
+      ],
+      "source_urls": [],
+      "source_url": "",
+      "source_locators": [
+        "data/raw/museum_base_1070.csv#row=860"
+      ],
+      "source_locator": "data/raw/museum_base_1070.csv#row=860",
+      "sido": "서울특별시",
+      "sigungu": "송파구",
+      "retriever": "graph",
+      "evidence_role": "anchor",
+      "source_scope": "graph_properties",
+      "relation": "OPERATED_BY",
+      "organization": "서울특별시 송파구",
+      "org_type": "지방자치단체",
+      "operator_raw_name": "서울특별시 송파구청",
+      "verification_status": "SOURCE_RECORDED",
+      "metadata": {},
+      "chunk_id": "",
+      "retrievers": [
+        "graph"
+      ],
+      "evidence_id": "E1",
+      "rank": 1
+    },
+    {
+      "museum_id": "M1023",
+      "name": "송파책박물관",
+      "text": "{anchor_raw_name: 서울특별시 송파구청, candidate_raw_name: 서울특별시 송파구청, org_key: 서울특별시송파구, organization: 서울특별시 송파구, relation: OPERATED_BY, verification_status: SOURCE_RECORDED}",
+      "span_id": "",
+      "source_doc_ids": [
+        "DOC-B1023-BASE",
+        "DOC-B1023-TOUR_API-2758152"
+      ],
+      "source_urls": [],
+      "source_url": "",
+      "source_locators": [
+        "data/raw/museum_base_1070.csv#row=1024",
+        "data/raw/museum_tourapi_with_overview.csv#row=475"
+      ],
+      "source_locator": "data/raw/museum_base_1070.csv#row=1024",
+      "sido": "서울특별시",
+      "sigungu": "송파구",
+      "retriever": "graph",
+      "graph_path": "anchor -[:OPERATED_BY]-> Organization <-[:OPERATED_BY]- candidate",
+      "organization": "서울특별시 송파구",
+      "org_type": "지방자치단체",
+      "operator_raw_name": "서울특별시 송파구청",
+      "anchor_operator_raw_name": "서울특별시 송파구청",
+      "relation": "OPERATED_BY",
+      "verification_status": "SOURCE_RECORDED",
+      "facility_type": "박물관",
+      "source_scope": "graph_properties",
+      "metadata": {},
+      "chunk_id": "",
+      "retrievers": [
+        "graph"
+      ],
+      "evidence_id": "E2",
+      "rank": 2
+    }
+  ],
+  "answer": "기록상 예송미술관과 같은 운영기관이 운영하는 다른 시설은 **송파책박물관**입니다. 두 시설 모두 운영기관이 서울특별시 송파구청으로 기록되어 있습니다. [E1][E2]",
+  "retrieval_status": "ok",
+  "answer_status": "answered",
+  "route": "graph",
+  "retry_count": 0,
+  "supervisor_verified": true,
+  "rerank_applied": false,
+  "retriever_errors": [],
+  "warnings": [],
+  "duration_ms": 141048.38,
+  "error_type": "",
+  "hit_at_1": 1,
+  "hit_at_3": 1,
+  "hit_at_5": 1,
+  "recall_at_5": 1.0,
+  "mrr_at_10": 1.0
+}

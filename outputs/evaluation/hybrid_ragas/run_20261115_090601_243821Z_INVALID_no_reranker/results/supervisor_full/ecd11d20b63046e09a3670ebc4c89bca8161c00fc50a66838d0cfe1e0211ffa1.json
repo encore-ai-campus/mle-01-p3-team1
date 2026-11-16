@@ -1,0 +1,780 @@
+{
+  "mode": "supervisor_full",
+  "question_id": "Q098",
+  "evidence": [
+    {
+      "museum_id": "M0137",
+      "name": "세계조개박물관",
+      "document": "세계조개박물관은 전남광주 신안군 자은도 1004 뮤지엄파크에 위치하며 갯벌의 환경지표인 조개와 고동류를 연구하고 전시하기 위해 설립된 국내최대 조개박물관이다. 1관에서는 멸종 위기인 나팔고둥, 세계에서 제일 큰 오스트리안트럼펫고둥 등 희귀 조개와 고둥을 전시하고, 2관에서는 ''인류와 조개고둥''을 주제로 선사시대 패총에서부터 현대의 조개공예까지 만나볼 수 있다.",
+      "metadata": {
+        "closure_rule_raw": "월(단, 월요일이 공휴일인 경우 당일은 개관하고 그 다음 첫번째 평일에 휴관)",
+        "holiday_close": "18:00",
+        "weekday_open": "09:00",
+        "youth_fee": 500020.0,
+        "homepage_url": "https://www.shinan.go.kr/home/museum",
+        "child_fee": 300020.0,
+        "name": "세계조개박물관",
+        "weekday_close": "18:00",
+        "source_types": "TOUR_API",
+        "amenities_raw": "해설사+뮤지엄샾",
+        "holiday_open": "09:00",
+        "ownership_type": "공립",
+        "fee_notes": "1.국가유공자, 장애인, 등 면제2.디지털관광주민증 소지시 30 할인3. 신안군통합관람권 5개소중 대상",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/40/3385440_image2_1.jpg",
+        "image_copyright": "Type1",
+        "adult_fee_status": "BASE_FEE_PAID",
+        "sigungu": "신안군",
+        "adult_fee": 1000020.0,
+        "sido": "전남광주특별자치도",
+        "address": "전남광주통합특별시 신안군 자은면 자은서부2길 508-61",
+        "requires_manual_review": true,
+        "transport_notes": "1. 자가이용(목포에서 1시간10분 소요)2. 목포1004 공용버스 운영(1시간40분 소요)3. 증도출발시 선박 이용",
+        "longitude": 125.9964556076,
+        "latitude": 34.8775895925
+      },
+      "vector_rank": 1,
+      "bm25_rank": 1,
+      "vector_distance": 0.3963848948478699,
+      "vector_score": null,
+      "bm25_score": 49.14283502508633,
+      "vector_document": "세계조개박물관은 전남광주 신안군 자은도 1004 뮤지엄파크에 위치하며 갯벌의 환경지표인 조개와 고동류를 연구하고 전시하기 위해 설립된 국내최대 조개박물관이다. 1관에서는 멸종 위기인 나팔고둥, 세계에서 제일 큰 오스트리안트럼펫고둥 등 희귀 조개와 고둥을 전시하고, 2관에서는 ''인류와 조개고둥''을 주제로 선사시대 패총에서부터 현대의 조개공예까지 만나볼 수 있다.",
+      "bm25_document": "세계조개박물관은 전남광주 신안군 자은도 1004 뮤지엄파크에 위치하며 갯벌의 환경지표인 조개와 고동류를 연구하고 전시하기 위해 설립된 국내최대 조개박물관이다. 1관에서는 멸종 위기인 나팔고둥, 세계에서 제일 큰 오스트리안트럼펫고둥 등 희귀 조개와 고둥을 전시하고, 2관에서는 ''인류와 조개고둥''을 주제로 선사시대 패총에서부터 현대의 조개공예까지 만나볼 수 있다.",
+      "best_span_id": "chroma:M0137",
+      "best_span_text": "세계조개박물관은 전남광주 신안군 자은도 1004 뮤지엄파크에 위치하며 갯벌의 환경지표인 조개와 고동류를 연구하고 전시하기 위해 설립된 국내최대 조개박물관이다. 1관에서는 멸종 위기인 나팔고둥, 세계에서 제일 큰 오스트리안트럼펫고둥 등 희귀 조개와 고둥을 전시하고, 2관에서는 ''인류와 조개고둥''을 주제로 선사시대 패총에서부터 현대의 조개공예까지 만나볼 수 있다.",
+      "fusion_score": 0.03278688524590164,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 1,
+      "name_match": true,
+      "rerank_score": null,
+      "rank": 1,
+      "score": 0.03278688524590164,
+      "score_type": "rrf",
+      "distance": 0.3963848948478699,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0137",
+      "source_doc_ids": [
+        "DOC-B0137-TOUR_API-3352550"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0137-TOUR_API-3352550",
+          "source_type": "TOUR_API",
+          "source_record_id": "3352550",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=68",
+          "match_trust": "RECHECKED_BY_RULE_NOT_HUMAN_APPROVED"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 88,
+          "doc_ids": [
+            "DOC-B0137-TOUR_API-3352550"
+          ]
+        },
+        {
+          "start": 89,
+          "end": 204,
+          "doc_ids": [
+            "DOC-B0137-TOUR_API-3352550"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=68",
+      "text": "세계조개박물관은 전남광주 신안군 자은도 1004 뮤지엄파크에 위치하며 갯벌의 환경지표인 조개와 고동류를 연구하고 전시하기 위해 설립된 국내최대 조개박물관이다. 1관에서는 멸종 위기인 나팔고둥, 세계에서 제일 큰 오스트리안트럼펫고둥 등 희귀 조개와 고둥을 전시하고, 2관에서는 ''인류와 조개고둥''을 주제로 선사시대 패총에서부터 현대의 조개공예까지 만나볼 수 있다.",
+      "sido": "전남광주특별자치도",
+      "sigungu": "신안군",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=68"
+      ],
+      "evidence_id": "E1",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=87",
+        "fields": {
+          "name": "세계조개박물관",
+          "sido": "전남광주통합특별시",
+          "sigungu": "신안군",
+          "address": "전남광주통합특별시 신안군 자은면 자은서부2길 508-61",
+          "ownership_type": "공립",
+          "adult_fee": "1000020",
+          "youth_fee": "500020",
+          "child_fee": "300020",
+          "adult_fee_status": "BASE_FEE_PAID",
+          "weekday_open": "09:00",
+          "weekday_close": "18:00",
+          "holiday_open": "09:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "월(단, 월요일이 공휴일인 경우 당일은 개관하고 그 다음 첫번째 평일에 휴관)",
+          "amenities_raw": "해설사+뮤지엄샾"
+        },
+        "base_data_date": "2026-08-05",
+        "trust": "derived_dataset_not_human_verified",
+        "normalizations": {
+          "sido": {
+            "source_value": "전남광주통합특별시",
+            "matched_value": "전남광주특별자치도",
+            "rule": "configured_sido_alias"
+          }
+        }
+      }
+    },
+    {
+      "museum_id": "M0217",
+      "name": "호야지리박물관",
+      "document": "호야지리박물관은 무릉도원면 무릉리에 위치한 지리 전문 박물관으로 지리교육에 평생을 바친 호야 양재룡 선생님이 사재를 털어 건립한 지리 테마 사설 박물관이다. 크게 상설 전시관과 지오토피아관으로 구성되어 있다. 상설 전시관에는 지리란 무엇인가, 지리로 살펴보는 무릉도원 영월, 지리 속의 넓은 세상, 땅속의 세상/시청각실, 기획전시실 등 5개 전시관이 본관 1·2층으로 나누어져 있다. 지오토피아관 1층에 마련된 특별 전시실에는 『광개토대왕 비문』 실물 탁본 4면 전체가 전시되어 있고 한국령 독도를 증명하는『일청한군용정도』 진본도 전시되어 있다. 지오토피아관 2층의 체험학습실, 기획전시실에서는 지도가 증명하는 「한국 영토, 독도 지도 기획 전시」 견학 및 독도 특강과 함께 독도사랑과 단종에 관한 여러 체험 활동이 진행된다. 한국령 독도관련 고지도와 지리 관련 희귀자료를 관람 할 수 있는 국내 최초의 지리 테마 사설 박물관입니다",
+      "metadata": {
+        "name": "호야지리박물관",
+        "image_copyright": "Type1",
+        "holiday_close": "18:00",
+        "holiday_open": "09:00",
+        "weekday_close": "18:00",
+        "ownership_type": "사립",
+        "adult_fee_status": "BASE_FEE_PAID",
+        "requires_manual_review": true,
+        "longitude": 128.2626995,
+        "sigungu": "영월군",
+        "source_types": "BASE|TOUR_API",
+        "address": "강원특별자치도 영월군 무릉도원면 무릉법흥로 303",
+        "weekday_open": "09:00",
+        "adult_fee": 5000.0,
+        "closure_rule_raw": "월+화",
+        "child_fee": 3000.0,
+        "homepage_url": "http://www.geomuseum.co.kr",
+        "sido": "강원특별자치도",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/10/3581010_image2_1.jpg",
+        "fee_notes": "50프로 할인(영월군민+65세 이상)+ 단체요금: 20인 이상+무료(2급 이상 장애인 및 5세 이하)",
+        "latitude": 37.299986,
+        "youth_fee": 4000.0
+      },
+      "vector_rank": 6,
+      "bm25_rank": 4,
+      "vector_distance": 0.515507698059082,
+      "vector_score": null,
+      "bm25_score": 13.306792676068598,
+      "vector_document": "호야지리박물관은 무릉도원면 무릉리에 위치한 지리 전문 박물관으로 지리교육에 평생을 바친 호야 양재룡 선생님이 사재를 털어 건립한 지리 테마 사설 박물관이다. 크게 상설 전시관과 지오토피아관으로 구성되어 있다. 상설 전시관에는 지리란 무엇인가, 지리로 살펴보는 무릉도원 영월, 지리 속의 넓은 세상, 땅속의 세상/시청각실, 기획전시실 등 5개 전시관이 본관 1·2층으로 나누어져 있다. 지오토피아관 1층에 마련된 특별 전시실에는 『광개토대왕 비문』 실물 탁본 4면 전체가 전시되어 있고 한국령 독도를 증명하는『일청한군용정도』 진본도 전시되어 있다. 지오토피아관 2층의 체험학습실, 기획전시실에서는 지도가 증명하는 「한국 영토, 독도 지도 기획 전시」 견학 및 독도 특강과 함께 독도사랑과 단종에 관한 여러 체험 활동이 진행된다. 한국령 독도관련 고지도와 지리 관련 희귀자료를 관람 할 수 있는 국내 최초의 지리 테마 사설 박물관입니다",
+      "bm25_document": "호야지리박물관은 무릉도원면 무릉리에 위치한 지리 전문 박물관으로 지리교육에 평생을 바친 호야 양재룡 선생님이 사재를 털어 건립한 지리 테마 사설 박물관이다. 크게 상설 전시관과 지오토피아관으로 구성되어 있다. 상설 전시관에는 지리란 무엇인가, 지리로 살펴보는 무릉도원 영월, 지리 속의 넓은 세상, 땅속의 세상/시청각실, 기획전시실 등 5개 전시관이 본관 1·2층으로 나누어져 있다. 지오토피아관 1층에 마련된 특별 전시실에는 『광개토대왕 비문』 실물 탁본 4면 전체가 전시되어 있고 한국령 독도를 증명하는『일청한군용정도』 진본도 전시되어 있다. 지오토피아관 2층의 체험학습실, 기획전시실에서는 지도가 증명하는 「한국 영토, 독도 지도 기획 전시」 견학 및 독도 특강과 함께 독도사랑과 단종에 관한 여러 체험 활동이 진행된다. 한국령 독도관련 고지도와 지리 관련 희귀자료를 관람 할 수 있는 국내 최초의 지리 테마 사설 박물관입니다",
+      "best_span_id": "chroma:M0217",
+      "best_span_text": "호야지리박물관은 무릉도원면 무릉리에 위치한 지리 전문 박물관으로 지리교육에 평생을 바친 호야 양재룡 선생님이 사재를 털어 건립한 지리 테마 사설 박물관이다. 크게 상설 전시관과 지오토피아관으로 구성되어 있다. 상설 전시관에는 지리란 무엇인가, 지리로 살펴보는 무릉도원 영월, 지리 속의 넓은 세상, 땅속의 세상/시청각실, 기획전시실 등 5개 전시관이 본관 1·2층으로 나누어져 있다. 지오토피아관 1층에 마련된 특별 전시실에는 『광개토대왕 비문』 실물 탁본 4면 전체가 전시되어 있고 한국령 독도를 증명하는『일청한군용정도』 진본도 전시되어 있다. 지오토피아관 2층의 체험학습실, 기획전시실에서는 지도가 증명하는 「한국 영토, 독도 지도 기획 전시」 견학 및 독도 특강과 함께 독도사랑과 단종에 관한 여러 체험 활동이 진행된다. 한국령 독도관련 고지도와 지리 관련 희귀자료를 관람 할 수 있는 국내 최초의 지리 테마 사설 박물관입니다",
+      "fusion_score": 0.030776515151515152,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 2,
+      "rerank_score": null,
+      "rank": 2,
+      "score": 0.030776515151515152,
+      "score_type": "rrf",
+      "distance": 0.515507698059082,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0217",
+      "source_doc_ids": [
+        "DOC-B0217-TOUR_API-1625235",
+        "DOC-B0217-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0217-TOUR_API-1625235",
+          "source_type": "TOUR_API",
+          "source_record_id": "1625235",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=108",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        },
+        {
+          "doc_id": "DOC-B0217-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0217",
+          "source_locator": "data/raw/museum_base_1070.csv#row=218",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 87,
+          "doc_ids": [
+            "DOC-B0217-TOUR_API-1625235"
+          ]
+        },
+        {
+          "start": 88,
+          "end": 116,
+          "doc_ids": [
+            "DOC-B0217-TOUR_API-1625235"
+          ]
+        },
+        {
+          "start": 117,
+          "end": 214,
+          "doc_ids": [
+            "DOC-B0217-TOUR_API-1625235"
+          ]
+        },
+        {
+          "start": 215,
+          "end": 305,
+          "doc_ids": [
+            "DOC-B0217-TOUR_API-1625235"
+          ]
+        },
+        {
+          "start": 306,
+          "end": 406,
+          "doc_ids": [
+            "DOC-B0217-TOUR_API-1625235"
+          ]
+        },
+        {
+          "start": 407,
+          "end": 465,
+          "doc_ids": [
+            "DOC-B0217-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=108",
+      "text": "호야지리박물관은 무릉도원면 무릉리에 위치한 지리 전문 박물관으로 지리교육에 평생을 바친 호야 양재룡 선생님이 사재를 털어 건립한 지리 테마 사설 박물관이다. 크게 상설 전시관과 지오토피아관으로 구성되어 있다. 상설 전시관에는 지리란 무엇인가, 지리로 살펴보는 무릉도원 영월, 지리 속의 넓은 세상, 땅속의 세상/시청각실, 기획전시실 등 5개 전시관이 본관 1·2층으로 나누어져 있다. 지오토피아관 1층에 마련된 특별 전시실에는 『광개토대왕 비문』 실물 탁본 4면 전체가 전시되어 있고 한국령 독도를 증명하는『일청한군용정도』 진본도 전시되어 있다. 지오토피아관 2층의 체험학습실, 기획전시실에서는 지도가 증명하는 「한국 영토, 독도 지도 기획 전시」 견학 및 독도 특강과 함께 독도사랑과 단종에 관한 여러 체험 활동이 진행된다. 한국령 독도관련 고지도와 지리 관련 희귀자료를 관람 할 수 있는 국내 최초의 지리 테마 사설 박물관입니다",
+      "sido": "강원특별자치도",
+      "sigungu": "영월군",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=108"
+      ],
+      "evidence_id": "E2",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=146",
+        "fields": {
+          "name": "호야지리박물관",
+          "sido": "강원특별자치도",
+          "sigungu": "영월군",
+          "address": "강원특별자치도 영월군 무릉도원면 무릉법흥로 303",
+          "ownership_type": "사립",
+          "adult_fee": "5000",
+          "youth_fee": "4000",
+          "child_fee": "3000",
+          "adult_fee_status": "BASE_FEE_PAID",
+          "weekday_open": "09:00",
+          "weekday_close": "18:00",
+          "holiday_open": "09:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "월+화"
+        },
+        "base_data_date": "2026-09-03",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0761",
+      "name": "울산해양박물관",
+      "document": "울산해양박물관은 울산 최초의 사립 박물관으로 설립 관장이 지난 60년 동안 6 대륙 세계 70여 개국에서 수집한 산호·패류 및 해양생태 자료들을 전시하는 전문 박물관이다. 박물관은 전시관과 교육관으로 나누어져 있다. 전시관 1층은 세계 각국에서 수집한 희귀 패류와 어류 박제품 등의 해양생태자원들을 전시하고 있으며 해저 깊은 곳에 사는 심해 관벌레를 비롯해 가공하기 전의 자연 상태의 진주와 하트 조개, 청자 고둥, 바다뱀, 바다거북과 다양한 상어 박제품 등 약 1,000여 점이 전시되어 있다. 2층은 세계 희귀 산호 전시실로 구성되어 있다. 약 300면 수령의 테이블산호를 비롯해 나팔 산호, 맨드라미산호 등 500여 점의 희귀 산호류들을 관찰할 수 있다. 교육관 1층의 기념품 판매장에서는 진주를 비롯해 다양한 패각류, 산호류 등을 비교적 값싸게 구입할 수 있으며 2층에서는 단체관람객 등을 위한 체험 교육이 이루어지는 교육공간과 사무실이 있다. 세계 희귀 해양생태자료들의 전시를 통해 관람객들에게 해양생물의 다양성을 체험할 수 있게 함과 동시에 점점 황폐화되어 가는 해양 환경의 중요성을 다시 한번 생각할 수 있는 교육의 공간으로서 그 역할을 다하고 있다. 6대륙 바다의 생물자원을 한 곳에 모아놓은 세계교류의 역할공간으로 울산 최초 사립박물관임",
+      "metadata": {
+        "sido": "울산광역시",
+        "holiday_open": "09:00",
+        "image_copyright": "Type3",
+        "adult_fee": 5000.0,
+        "fee_notes": "장애인1,2,3급/군인/ 국가유공자/ 신분증 지참시 50 할인",
+        "requires_manual_review": true,
+        "child_fee": 3000.0,
+        "youth_fee": 4000.0,
+        "source_types": "BASE|TOUR_API",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/22/4105722_image2_1.jpg",
+        "weekday_close": "17:00",
+        "name": "울산해양박물관",
+        "amenities_raw": "주차장",
+        "ownership_type": "사립",
+        "weekday_open": "09:00",
+        "adult_fee_status": "BASE_FEE_PAID",
+        "closure_rule_raw": "매주 월",
+        "sigungu": "울주군",
+        "holiday_close": "17:00",
+        "latitude": 35.36165466,
+        "address": "울산광역시 울주군 서생면 해맞이로 1251",
+        "longitude": 129.3546962
+      },
+      "vector_rank": 17,
+      "bm25_rank": 2,
+      "vector_distance": 0.5458588004112244,
+      "vector_score": null,
+      "bm25_score": 29.830434406044084,
+      "vector_document": "울산해양박물관은 울산 최초의 사립 박물관으로 설립 관장이 지난 60년 동안 6 대륙 세계 70여 개국에서 수집한 산호·패류 및 해양생태 자료들을 전시하는 전문 박물관이다. 박물관은 전시관과 교육관으로 나누어져 있다. 전시관 1층은 세계 각국에서 수집한 희귀 패류와 어류 박제품 등의 해양생태자원들을 전시하고 있으며 해저 깊은 곳에 사는 심해 관벌레를 비롯해 가공하기 전의 자연 상태의 진주와 하트 조개, 청자 고둥, 바다뱀, 바다거북과 다양한 상어 박제품 등 약 1,000여 점이 전시되어 있다. 2층은 세계 희귀 산호 전시실로 구성되어 있다. 약 300면 수령의 테이블산호를 비롯해 나팔 산호, 맨드라미산호 등 500여 점의 희귀 산호류들을 관찰할 수 있다. 교육관 1층의 기념품 판매장에서는 진주를 비롯해 다양한 패각류, 산호류 등을 비교적 값싸게 구입할 수 있으며 2층에서는 단체관람객 등을 위한 체험 교육이 이루어지는 교육공간과 사무실이 있다. 세계 희귀 해양생태자료들의 전시를 통해 관람객들에게 해양생물의 다양성을 체험할 수 있게 함과 동시에 점점 황폐화되어 가는 해양 환경의 중요성을 다시 한번 생각할 수 있는 교육의 공간으로서 그 역할을 다하고 있다. 6대륙 바다의 생물자원을 한 곳에 모아놓은 세계교류의 역할공간으로 울산 최초 사립박물관임",
+      "bm25_document": "울산해양박물관은 울산 최초의 사립 박물관으로 설립 관장이 지난 60년 동안 6 대륙 세계 70여 개국에서 수집한 산호·패류 및 해양생태 자료들을 전시하는 전문 박물관이다. 박물관은 전시관과 교육관으로 나누어져 있다. 전시관 1층은 세계 각국에서 수집한 희귀 패류와 어류 박제품 등의 해양생태자원들을 전시하고 있으며 해저 깊은 곳에 사는 심해 관벌레를 비롯해 가공하기 전의 자연 상태의 진주와 하트 조개, 청자 고둥, 바다뱀, 바다거북과 다양한 상어 박제품 등 약 1,000여 점이 전시되어 있다. 2층은 세계 희귀 산호 전시실로 구성되어 있다. 약 300면 수령의 테이블산호를 비롯해 나팔 산호, 맨드라미산호 등 500여 점의 희귀 산호류들을 관찰할 수 있다. 교육관 1층의 기념품 판매장에서는 진주를 비롯해 다양한 패각류, 산호류 등을 비교적 값싸게 구입할 수 있으며 2층에서는 단체관람객 등을 위한 체험 교육이 이루어지는 교육공간과 사무실이 있다. 세계 희귀 해양생태자료들의 전시를 통해 관람객들에게 해양생물의 다양성을 체험할 수 있게 함과 동시에 점점 황폐화되어 가는 해양 환경의 중요성을 다시 한번 생각할 수 있는 교육의 공간으로서 그 역할을 다하고 있다. 6대륙 바다의 생물자원을 한 곳에 모아놓은 세계교류의 역할공간으로 울산 최초 사립박물관임",
+      "best_span_id": "chroma:M0761",
+      "best_span_text": "울산해양박물관은 울산 최초의 사립 박물관으로 설립 관장이 지난 60년 동안 6 대륙 세계 70여 개국에서 수집한 산호·패류 및 해양생태 자료들을 전시하는 전문 박물관이다. 박물관은 전시관과 교육관으로 나누어져 있다. 전시관 1층은 세계 각국에서 수집한 희귀 패류와 어류 박제품 등의 해양생태자원들을 전시하고 있으며 해저 깊은 곳에 사는 심해 관벌레를 비롯해 가공하기 전의 자연 상태의 진주와 하트 조개, 청자 고둥, 바다뱀, 바다거북과 다양한 상어 박제품 등 약 1,000여 점이 전시되어 있다. 2층은 세계 희귀 산호 전시실로 구성되어 있다. 약 300면 수령의 테이블산호를 비롯해 나팔 산호, 맨드라미산호 등 500여 점의 희귀 산호류들을 관찰할 수 있다. 교육관 1층의 기념품 판매장에서는 진주를 비롯해 다양한 패각류, 산호류 등을 비교적 값싸게 구입할 수 있으며 2층에서는 단체관람객 등을 위한 체험 교육이 이루어지는 교육공간과 사무실이 있다. 세계 희귀 해양생태자료들의 전시를 통해 관람객들에게 해양생물의 다양성을 체험할 수 있게 함과 동시에 점점 황폐화되어 가는 해양 환경의 중요성을 다시 한번 생각할 수 있는 교육의 공간으로서 그 역할을 다하고 있다. 6대륙 바다의 생물자원을 한 곳에 모아놓은 세계교류의 역할공간으로 울산 최초 사립박물관임",
+      "fusion_score": 0.029116045245077504,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 3,
+      "rerank_score": null,
+      "rank": 3,
+      "score": 0.029116045245077504,
+      "score_type": "rrf",
+      "distance": 0.5458588004112244,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0761",
+      "source_doc_ids": [
+        "DOC-B0761-TOUR_API-1936811",
+        "DOC-B0761-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0761-TOUR_API-1936811",
+          "source_type": "TOUR_API",
+          "source_record_id": "1936811",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=369",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        },
+        {
+          "doc_id": "DOC-B0761-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0761",
+          "source_locator": "data/raw/museum_base_1070.csv#row=762",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 95,
+          "doc_ids": [
+            "DOC-B0761-TOUR_API-1936811"
+          ]
+        },
+        {
+          "start": 96,
+          "end": 120,
+          "doc_ids": [
+            "DOC-B0761-TOUR_API-1936811"
+          ]
+        },
+        {
+          "start": 121,
+          "end": 277,
+          "doc_ids": [
+            "DOC-B0761-TOUR_API-1936811"
+          ]
+        },
+        {
+          "start": 278,
+          "end": 304,
+          "doc_ids": [
+            "DOC-B0761-TOUR_API-1936811"
+          ]
+        },
+        {
+          "start": 305,
+          "end": 369,
+          "doc_ids": [
+            "DOC-B0761-TOUR_API-1936811"
+          ]
+        },
+        {
+          "start": 370,
+          "end": 476,
+          "doc_ids": [
+            "DOC-B0761-TOUR_API-1936811"
+          ]
+        },
+        {
+          "start": 477,
+          "end": 595,
+          "doc_ids": [
+            "DOC-B0761-TOUR_API-1936811"
+          ]
+        },
+        {
+          "start": 596,
+          "end": 645,
+          "doc_ids": [
+            "DOC-B0761-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=369",
+      "text": "울산해양박물관은 울산 최초의 사립 박물관으로 설립 관장이 지난 60년 동안 6 대륙 세계 70여 개국에서 수집한 산호·패류 및 해양생태 자료들을 전시하는 전문 박물관이다. 박물관은 전시관과 교육관으로 나누어져 있다. 전시관 1층은 세계 각국에서 수집한 희귀 패류와 어류 박제품 등의 해양생태자원들을 전시하고 있으며 해저 깊은 곳에 사는 심해 관벌레를 비롯해 가공하기 전의 자연 상태의 진주와 하트 조개, 청자 고둥, 바다뱀, 바다거북과 다양한 상어 박제품 등 약 1,000여 점이 전시되어 있다. 2층은 세계 희귀 산호 전시실로 구성되어 있다. 약 300면 수령의 테이블산호를 비롯해 나팔 산호, 맨드라미산호 등 500여 점의 희귀 산호류들을 관찰할 수 있다. 교육관 1층의 기념품 판매장에서는 진주를 비롯해 다양한 패각류, 산호류 등을 비교적 값싸게 구입할 수 있으며 2층에서는 단체관람객 등을 위한 체험 교육이 이루어지는 교육공간과 사무실이 있다. 세계 희귀 해양생태자료들의 전시를 통해 관람객들에게 해양생물의 다양성을 체험할 수 있게 함과 동시에 점점 황폐화되어 가는 해양 환경의 중요성을 다시 한번 생각할 수 있는 교육의 공간으로서 그 역할을 다하고 있다. 6대륙 바다의 생물자원을 한 곳에 모아놓은 세계교류의 역할공간으로 울산 최초 사립박물관임",
+      "sido": "울산광역시",
+      "sigungu": "울주군",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=369"
+      ],
+      "evidence_id": "E3",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=526",
+        "fields": {
+          "name": "울산해양박물관",
+          "sido": "울산광역시",
+          "sigungu": "울주군",
+          "address": "울산광역시 울주군 서생면 해맞이로 1251",
+          "ownership_type": "사립",
+          "adult_fee": "5000",
+          "youth_fee": "4000",
+          "child_fee": "3000",
+          "adult_fee_status": "BASE_FEE_PAID",
+          "weekday_open": "09:00",
+          "weekday_close": "17:00",
+          "holiday_open": "09:00",
+          "holiday_close": "17:00",
+          "closure_rule_raw": "매주 월",
+          "amenities_raw": "주차장"
+        },
+        "base_data_date": "2024-11-02",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0003",
+      "name": "창녕박물관",
+      "document": "창녕박물관은 1996년 창녕지역 고분군에서 출토된 유물들을 전시할 목적으로 창녕유물전시관으로 처음 개관했다. 이후 1997년 1종 전문박물관인 창녕박물관으로 등록·승격되었으며 2018년 박물관 리모델링 사업을 통해 어린이박물관을 포함한 교육관을 신축한 후 지금의 모습으로 재개관하였다. 교동과 송현동 고분군의 바로 옆에 위치하며 비화가야시대 유적인 무덤과 그 내부에 부장 되었던 유물들을 한자리에서 감상할 수 있다. 유물전시관일 때에는 복제품만을 전시했지만 2011년 국가귀속문화유산 보관·관리기관으로 선정된 뒤부터는 지역에서 출토된 유물들을 인수하여 직접 전시하고 있다. 2개의 전시실과 시청각실 등을 갖추고 있으며, 건물은 지상 1층, 지하 1층 규모이며 1층은 제1전시실과 제2전시실로 되어 있다. 지하에는 시청각실이 마련되어 있어 창녕군 관내의 문화유적을 한눈에 알 수 있는 시청각 자료를 방영하고 있다. 가야와 신라시대의 유물 총 166종 276점 (토기류 85점, 마구류 42점, 장신구류 50점, 무구류 53점, 기타 46점)이 전시되어 있다. 전시관 중앙홀에는 가야고분의 축조 과정을 한눈에 볼 수 있는 모형관이 설치되어 있어, 가야시대 고분문화에 대한 이해를 돕고 있다.",
+      "metadata": {
+        "address": "경상남도 창녕군 창녕읍 창밀로 34",
+        "image_copyright": "Type1",
+        "youth_fee": 0.0,
+        "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+        "weekday_close": "18:00",
+        "weekday_open": "09:00",
+        "sigungu": "창녕군",
+        "homepage_url": "https://www.cng.go.kr/01656/01671.web",
+        "longitude": 128.5054413,
+        "closure_rule_raw": "매주 월요일+1월 1일+설날+추석날",
+        "source_types": "TOUR_API",
+        "adult_fee": 0.0,
+        "latitude": 35.54540564,
+        "sido": "경상남도",
+        "requires_manual_review": true,
+        "holiday_close": "18:00",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/15/3510415_image2_1.jpg",
+        "child_fee": 0.0,
+        "ownership_type": "공립",
+        "name": "창녕박물관",
+        "holiday_open": "09:00",
+        "amenities_raw": "장애인화장실+유모차/휠체어 대여+유모차/휠체어 이용가능"
+      },
+      "vector_rank": 4,
+      "bm25_rank": 20,
+      "vector_distance": 0.5139236450195312,
+      "vector_score": null,
+      "bm25_score": 9.95897365425725,
+      "vector_document": "창녕박물관은 1996년 창녕지역 고분군에서 출토된 유물들을 전시할 목적으로 창녕유물전시관으로 처음 개관했다. 이후 1997년 1종 전문박물관인 창녕박물관으로 등록·승격되었으며 2018년 박물관 리모델링 사업을 통해 어린이박물관을 포함한 교육관을 신축한 후 지금의 모습으로 재개관하였다. 교동과 송현동 고분군의 바로 옆에 위치하며 비화가야시대 유적인 무덤과 그 내부에 부장 되었던 유물들을 한자리에서 감상할 수 있다. 유물전시관일 때에는 복제품만을 전시했지만 2011년 국가귀속문화유산 보관·관리기관으로 선정된 뒤부터는 지역에서 출토된 유물들을 인수하여 직접 전시하고 있다. 2개의 전시실과 시청각실 등을 갖추고 있으며, 건물은 지상 1층, 지하 1층 규모이며 1층은 제1전시실과 제2전시실로 되어 있다. 지하에는 시청각실이 마련되어 있어 창녕군 관내의 문화유적을 한눈에 알 수 있는 시청각 자료를 방영하고 있다. 가야와 신라시대의 유물 총 166종 276점 (토기류 85점, 마구류 42점, 장신구류 50점, 무구류 53점, 기타 46점)이 전시되어 있다. 전시관 중앙홀에는 가야고분의 축조 과정을 한눈에 볼 수 있는 모형관이 설치되어 있어, 가야시대 고분문화에 대한 이해를 돕고 있다.",
+      "bm25_document": "창녕박물관은 1996년 창녕지역 고분군에서 출토된 유물들을 전시할 목적으로 창녕유물전시관으로 처음 개관했다. 이후 1997년 1종 전문박물관인 창녕박물관으로 등록·승격되었으며 2018년 박물관 리모델링 사업을 통해 어린이박물관을 포함한 교육관을 신축한 후 지금의 모습으로 재개관하였다. 교동과 송현동 고분군의 바로 옆에 위치하며 비화가야시대 유적인 무덤과 그 내부에 부장 되었던 유물들을 한자리에서 감상할 수 있다. 유물전시관일 때에는 복제품만을 전시했지만 2011년 국가귀속문화유산 보관·관리기관으로 선정된 뒤부터는 지역에서 출토된 유물들을 인수하여 직접 전시하고 있다. 2개의 전시실과 시청각실 등을 갖추고 있으며, 건물은 지상 1층, 지하 1층 규모이며 1층은 제1전시실과 제2전시실로 되어 있다. 지하에는 시청각실이 마련되어 있어 창녕군 관내의 문화유적을 한눈에 알 수 있는 시청각 자료를 방영하고 있다. 가야와 신라시대의 유물 총 166종 276점 (토기류 85점, 마구류 42점, 장신구류 50점, 무구류 53점, 기타 46점)이 전시되어 있다. 전시관 중앙홀에는 가야고분의 축조 과정을 한눈에 볼 수 있는 모형관이 설치되어 있어, 가야시대 고분문화에 대한 이해를 돕고 있다.",
+      "best_span_id": "chroma:M0003",
+      "best_span_text": "창녕박물관은 1996년 창녕지역 고분군에서 출토된 유물들을 전시할 목적으로 창녕유물전시관으로 처음 개관했다. 이후 1997년 1종 전문박물관인 창녕박물관으로 등록·승격되었으며 2018년 박물관 리모델링 사업을 통해 어린이박물관을 포함한 교육관을 신축한 후 지금의 모습으로 재개관하였다. 교동과 송현동 고분군의 바로 옆에 위치하며 비화가야시대 유적인 무덤과 그 내부에 부장 되었던 유물들을 한자리에서 감상할 수 있다. 유물전시관일 때에는 복제품만을 전시했지만 2011년 국가귀속문화유산 보관·관리기관으로 선정된 뒤부터는 지역에서 출토된 유물들을 인수하여 직접 전시하고 있다. 2개의 전시실과 시청각실 등을 갖추고 있으며, 건물은 지상 1층, 지하 1층 규모이며 1층은 제1전시실과 제2전시실로 되어 있다. 지하에는 시청각실이 마련되어 있어 창녕군 관내의 문화유적을 한눈에 알 수 있는 시청각 자료를 방영하고 있다. 가야와 신라시대의 유물 총 166종 276점 (토기류 85점, 마구류 42점, 장신구류 50점, 무구류 53점, 기타 46점)이 전시되어 있다. 전시관 중앙홀에는 가야고분의 축조 과정을 한눈에 볼 수 있는 모형관이 설치되어 있어, 가야시대 고분문화에 대한 이해를 돕고 있다.",
+      "fusion_score": 0.028125,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 4,
+      "rerank_score": null,
+      "rank": 4,
+      "score": 0.028125,
+      "score_type": "rrf",
+      "distance": 0.5139236450195312,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0003",
+      "source_doc_ids": [
+        "DOC-B0003-TOUR_API-130107"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0003-TOUR_API-130107",
+          "source_type": "TOUR_API",
+          "source_record_id": "130107",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=3",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 60,
+          "doc_ids": [
+            "DOC-B0003-TOUR_API-130107"
+          ]
+        },
+        {
+          "start": 61,
+          "end": 159,
+          "doc_ids": [
+            "DOC-B0003-TOUR_API-130107"
+          ]
+        },
+        {
+          "start": 160,
+          "end": 232,
+          "doc_ids": [
+            "DOC-B0003-TOUR_API-130107"
+          ]
+        },
+        {
+          "start": 233,
+          "end": 320,
+          "doc_ids": [
+            "DOC-B0003-TOUR_API-130107"
+          ]
+        },
+        {
+          "start": 321,
+          "end": 393,
+          "doc_ids": [
+            "DOC-B0003-TOUR_API-130107"
+          ]
+        },
+        {
+          "start": 394,
+          "end": 454,
+          "doc_ids": [
+            "DOC-B0003-TOUR_API-130107"
+          ]
+        },
+        {
+          "start": 455,
+          "end": 535,
+          "doc_ids": [
+            "DOC-B0003-TOUR_API-130107"
+          ]
+        },
+        {
+          "start": 536,
+          "end": 608,
+          "doc_ids": [
+            "DOC-B0003-TOUR_API-130107"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=3",
+      "text": "창녕박물관은 1996년 창녕지역 고분군에서 출토된 유물들을 전시할 목적으로 창녕유물전시관으로 처음 개관했다. 이후 1997년 1종 전문박물관인 창녕박물관으로 등록·승격되었으며 2018년 박물관 리모델링 사업을 통해 어린이박물관을 포함한 교육관을 신축한 후 지금의 모습으로 재개관하였다. 교동과 송현동 고분군의 바로 옆에 위치하며 비화가야시대 유적인 무덤과 그 내부에 부장 되었던 유물들을 한자리에서 감상할 수 있다. 유물전시관일 때에는 복제품만을 전시했지만 2011년 국가귀속문화유산 보관·관리기관으로 선정된 뒤부터는 지역에서 출토된 유물들을 인수하여 직접 전시하고 있다. 2개의 전시실과 시청각실 등을 갖추고 있으며, 건물은 지상 1층, 지하 1층 규모이며 1층은 제1전시실과 제2전시실로 되어 있다. 지하에는 시청각실이 마련되어 있어 창녕군 관내의 문화유적을 한눈에 알 수 있는 시청각 자료를 방영하고 있다. 가야와 신라시대의 유물 총 166종 276점 (토기류 85점, 마구류 42점, 장신구류 50점, 무구류 53점, 기타 46점)이 전시되어 있다. 전시관 중앙홀에는 가야고분의 축조 과정을 한눈에 볼 수 있는 모형관이 설치되어 있어, 가야시대 고분문화에 대한 이해를 돕고 있다.",
+      "sido": "경상남도",
+      "sigungu": "창녕군",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=3"
+      ],
+      "evidence_id": "E4",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=3",
+        "fields": {
+          "name": "창녕박물관",
+          "sido": "경상남도",
+          "sigungu": "창녕군",
+          "address": "경상남도 창녕군 창녕읍 창밀로 34",
+          "ownership_type": "공립",
+          "adult_fee": "0",
+          "youth_fee": "0",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_ZERO_CHECK_EXCEPTIONS",
+          "weekday_open": "09:00",
+          "weekday_close": "18:00",
+          "holiday_open": "09:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "매주 월요일+1월 1일+설날+추석날",
+          "amenities_raw": "장애인화장실+유모차/휠체어 대여+유모차/휠체어 이용가능"
+        },
+        "base_data_date": "2026-09-18",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0852",
+      "name": "환희컵박물관",
+      "document": "환희컵박물관은 전 세계 전시물을 볼 수 있는 아시아 유일의 컵 박물관이다. 3대 컵 박물관으로 중국 강희년제 청화백자 커피잔, 일본 사츠마야끼 불멸의 용 등 세공 도자 커피잔 등 세계 각국의 명품 커피잔들이 전시되어 있고 큐레이터 도슨트 선생과 함께 아름답고 진귀하며 다양한 스토리텔링을 가진 특유한 컵들의 해설을 들을 수 있다. 박물관에서는 유물 가이드가 가능하다. 휴대전화를 꺼내 박물관 안에 설치한 AR 증강현실 앱을 대면 유물설명과 전시유물 컵이 튀어나온다. 휴대전화에 전시된 컵을 늘이거나 줄이고 또는 하늘로 떠올려 자신이나 친구, 가족 등을 컵 속에 쏙 넣어 컵 속에 들어가는 기념사진을 촬영할 수 있다. 체험 행사로는 나만의 컵 만들기, 부채 만들기, 에코백 만들기, 나만의 시계 만들기 등 다양해서 전시와 함께 체험을 즐길 수 있다.",
+      "metadata": {
+        "weekday_close": "18:00",
+        "holiday_close": "18:00",
+        "adult_fee_status": "BASE_FEE_PAID",
+        "weekday_open": "09:00",
+        "sido": "강원특별자치도",
+        "longitude": 128.9430975,
+        "address": "강원특별자치도 강릉시 해안로 10",
+        "child_fee": 5000.0,
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/58/3527958_image2_1.jpg",
+        "ownership_type": "사립",
+        "homepage_url": "http://www.cupmuseum.org",
+        "holiday_open": "09:00",
+        "name": "환희컵박물관",
+        "closure_rule_raw": "월(부정기적)",
+        "latitude": 37.7744783,
+        "requires_manual_review": true,
+        "source_types": "TOUR_API",
+        "youth_fee": 5000.0,
+        "adult_fee": 10000.0,
+        "image_copyright": "Type1",
+        "sigungu": "강릉시"
+      },
+      "vector_rank": 2,
+      "bm25_rank": null,
+      "vector_distance": 0.47122806310653687,
+      "vector_score": null,
+      "bm25_score": null,
+      "vector_document": "환희컵박물관은 전 세계 전시물을 볼 수 있는 아시아 유일의 컵 박물관이다. 3대 컵 박물관으로 중국 강희년제 청화백자 커피잔, 일본 사츠마야끼 불멸의 용 등 세공 도자 커피잔 등 세계 각국의 명품 커피잔들이 전시되어 있고 큐레이터 도슨트 선생과 함께 아름답고 진귀하며 다양한 스토리텔링을 가진 특유한 컵들의 해설을 들을 수 있다. 박물관에서는 유물 가이드가 가능하다. 휴대전화를 꺼내 박물관 안에 설치한 AR 증강현실 앱을 대면 유물설명과 전시유물 컵이 튀어나온다. 휴대전화에 전시된 컵을 늘이거나 줄이고 또는 하늘로 떠올려 자신이나 친구, 가족 등을 컵 속에 쏙 넣어 컵 속에 들어가는 기념사진을 촬영할 수 있다. 체험 행사로는 나만의 컵 만들기, 부채 만들기, 에코백 만들기, 나만의 시계 만들기 등 다양해서 전시와 함께 체험을 즐길 수 있다.",
+      "bm25_document": "",
+      "best_span_id": null,
+      "best_span_text": null,
+      "fusion_score": 0.016129032258064516,
+      "retrieved_by": [
+        "vector"
+      ],
+      "fusion_rank": 5,
+      "rerank_score": null,
+      "rank": 5,
+      "score": 0.016129032258064516,
+      "score_type": "rrf",
+      "distance": 0.47122806310653687,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector"
+      ],
+      "retriever": "vector",
+      "source_doc_ids": [
+        "DOC-B0852-TOUR_API-2550106"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0852-TOUR_API-2550106",
+          "source_type": "TOUR_API",
+          "source_record_id": "2550106",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=403",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 41,
+          "doc_ids": [
+            "DOC-B0852-TOUR_API-2550106"
+          ]
+        },
+        {
+          "start": 42,
+          "end": 184,
+          "doc_ids": [
+            "DOC-B0852-TOUR_API-2550106"
+          ]
+        },
+        {
+          "start": 185,
+          "end": 205,
+          "doc_ids": [
+            "DOC-B0852-TOUR_API-2550106"
+          ]
+        },
+        {
+          "start": 206,
+          "end": 260,
+          "doc_ids": [
+            "DOC-B0852-TOUR_API-2550106"
+          ]
+        },
+        {
+          "start": 261,
+          "end": 344,
+          "doc_ids": [
+            "DOC-B0852-TOUR_API-2550106"
+          ]
+        },
+        {
+          "start": 345,
+          "end": 418,
+          "doc_ids": [
+            "DOC-B0852-TOUR_API-2550106"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=403",
+      "text": "환희컵박물관은 전 세계 전시물을 볼 수 있는 아시아 유일의 컵 박물관이다. 3대 컵 박물관으로 중국 강희년제 청화백자 커피잔, 일본 사츠마야끼 불멸의 용 등 세공 도자 커피잔 등 세계 각국의 명품 커피잔들이 전시되어 있고 큐레이터 도슨트 선생과 함께 아름답고 진귀하며 다양한 스토리텔링을 가진 특유한 컵들의 해설을 들을 수 있다. 박물관에서는 유물 가이드가 가능하다. 휴대전화를 꺼내 박물관 안에 설치한 AR 증강현실 앱을 대면 유물설명과 전시유물 컵이 튀어나온다. 휴대전화에 전시된 컵을 늘이거나 줄이고 또는 하늘로 떠올려 자신이나 친구, 가족 등을 컵 속에 쏙 넣어 컵 속에 들어가는 기념사진을 촬영할 수 있다. 체험 행사로는 나만의 컵 만들기, 부채 만들기, 에코백 만들기, 나만의 시계 만들기 등 다양해서 전시와 함께 체험을 즐길 수 있다.",
+      "sido": "강원특별자치도",
+      "sigungu": "강릉시",
+      "span_id": "",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=403"
+      ],
+      "evidence_id": "E5",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=576",
+        "fields": {
+          "name": "환희컵박물관",
+          "sido": "강원특별자치도",
+          "sigungu": "강릉시",
+          "address": "강원특별자치도 강릉시 해안로 10",
+          "ownership_type": "사립",
+          "adult_fee": "10000",
+          "youth_fee": "5000",
+          "child_fee": "5000",
+          "adult_fee_status": "BASE_FEE_PAID",
+          "weekday_open": "09:00",
+          "weekday_close": "18:00",
+          "holiday_open": "09:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "월(부정기적)"
+        },
+        "base_data_date": "2024-03-18",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    }
+  ],
+  "answer": "1관에는 멸종 위기종인 나팔고둥과 세계에서 가장 큰 오스트리안트럼펫고둥 등 희귀 조개와 고둥이 전시되어 있습니다. [E1]",
+  "retrieval_status": "ok",
+  "answer_status": "answered",
+  "route": "hybrid",
+  "retry_count": 0,
+  "supervisor_verified": true,
+  "rerank_applied": false,
+  "retriever_errors": [],
+  "warnings": [
+    "Cross-Encoder reranking failed (FileNotFoundError); RRF order retained"
+  ],
+  "duration_ms": 10311.28,
+  "error_type": "",
+  "hit_at_1": 1,
+  "hit_at_3": 1,
+  "hit_at_5": 1,
+  "recall_at_5": 1.0,
+  "mrr_at_10": 1.0
+}

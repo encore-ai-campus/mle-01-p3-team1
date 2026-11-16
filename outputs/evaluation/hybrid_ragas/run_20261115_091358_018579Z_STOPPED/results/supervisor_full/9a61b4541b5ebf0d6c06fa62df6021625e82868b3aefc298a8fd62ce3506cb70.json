@@ -1,0 +1,723 @@
+{
+  "mode": "supervisor_full",
+  "question_id": "Q055",
+  "evidence": [
+    {
+      "museum_id": "M0041",
+      "name": "넥슨뮤지엄",
+      "document": "넥슨뮤지엄은 컴퓨터와 게임의 역사를 조명하던 넥슨컴퓨터박물관에서 한 걸음 더 나아가, 게임을 하나의 문화로 바라보며 플레이어의 경험과 추억을 함께 나누는 체험형 공간이다. 컴퓨터와 하드웨어 중심의 전시를 넘어 게임을 통해 형성된 플레이어들의 기억과 관계, 다양한 플레이 경험을 담아낸다. 넥슨 ID 또는 게스트로 로그인한 뒤 입장카드를 연동하면 자신의 게임 플레이 기록과 연계된 맞춤형 전시를 경험할 수 있다. 게임을 즐겼던 순간과 그 안에 담긴 추억을 되돌아보고, 게임이 지닌 문화적 가치와 즐거움을 직접 체험할 수 있는 곳이다.",
+      "metadata": {
+        "fee_notes": "단체 관람 시 할인+도민할인+넥슨프라임",
+        "youth_fee": 12000.0,
+        "closure_rule_raw": "월+설 당일+추석 당일+매년 3월",
+        "name": "넥슨뮤지엄",
+        "image_copyright": "Type3",
+        "adult_fee_status": "BASE_FEE_PAID",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/73/2721573_image2_1.png",
+        "holiday_close": "18:00",
+        "homepage_url": "https://www.nexonmuseum.org/ko",
+        "longitude": 126.4857998,
+        "weekday_open": "10:00",
+        "latitude": 33.47211995,
+        "weekday_close": "18:00",
+        "child_fee": 10000.0,
+        "adult_fee": 14000.0,
+        "address": "제주특별자치도 제주시 1100로 3198-8",
+        "source_types": "TOUR_API",
+        "requires_manual_review": true,
+        "sigungu": "제주시",
+        "holiday_open": "10:00",
+        "ownership_type": "사립",
+        "sido": "제주특별자치도"
+      },
+      "vector_rank": 1,
+      "bm25_rank": 1,
+      "vector_distance": 0.4757876396179199,
+      "vector_score": null,
+      "bm25_score": 19.3393983551118,
+      "vector_document": "넥슨뮤지엄은 컴퓨터와 게임의 역사를 조명하던 넥슨컴퓨터박물관에서 한 걸음 더 나아가, 게임을 하나의 문화로 바라보며 플레이어의 경험과 추억을 함께 나누는 체험형 공간이다. 컴퓨터와 하드웨어 중심의 전시를 넘어 게임을 통해 형성된 플레이어들의 기억과 관계, 다양한 플레이 경험을 담아낸다. 넥슨 ID 또는 게스트로 로그인한 뒤 입장카드를 연동하면 자신의 게임 플레이 기록과 연계된 맞춤형 전시를 경험할 수 있다. 게임을 즐겼던 순간과 그 안에 담긴 추억을 되돌아보고, 게임이 지닌 문화적 가치와 즐거움을 직접 체험할 수 있는 곳이다.",
+      "bm25_document": "넥슨뮤지엄은 컴퓨터와 게임의 역사를 조명하던 넥슨컴퓨터박물관에서 한 걸음 더 나아가, 게임을 하나의 문화로 바라보며 플레이어의 경험과 추억을 함께 나누는 체험형 공간이다. 컴퓨터와 하드웨어 중심의 전시를 넘어 게임을 통해 형성된 플레이어들의 기억과 관계, 다양한 플레이 경험을 담아낸다. 넥슨 ID 또는 게스트로 로그인한 뒤 입장카드를 연동하면 자신의 게임 플레이 기록과 연계된 맞춤형 전시를 경험할 수 있다. 게임을 즐겼던 순간과 그 안에 담긴 추억을 되돌아보고, 게임이 지닌 문화적 가치와 즐거움을 직접 체험할 수 있는 곳이다.",
+      "best_span_id": "chroma:M0041",
+      "best_span_text": "넥슨뮤지엄은 컴퓨터와 게임의 역사를 조명하던 넥슨컴퓨터박물관에서 한 걸음 더 나아가, 게임을 하나의 문화로 바라보며 플레이어의 경험과 추억을 함께 나누는 체험형 공간이다. 컴퓨터와 하드웨어 중심의 전시를 넘어 게임을 통해 형성된 플레이어들의 기억과 관계, 다양한 플레이 경험을 담아낸다. 넥슨 ID 또는 게스트로 로그인한 뒤 입장카드를 연동하면 자신의 게임 플레이 기록과 연계된 맞춤형 전시를 경험할 수 있다. 게임을 즐겼던 순간과 그 안에 담긴 추억을 되돌아보고, 게임이 지닌 문화적 가치와 즐거움을 직접 체험할 수 있는 곳이다.",
+      "fusion_score": 0.03278688524590164,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 1,
+      "name_match": true,
+      "rerank_score": 0.9982989430427551,
+      "rank": 1,
+      "score": 0.9982989430427551,
+      "score_type": "cross_encoder",
+      "distance": 0.4757876396179199,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0041",
+      "source_doc_ids": [
+        "DOC-B0041-TOUR_API-2472824"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0041-TOUR_API-2472824",
+          "source_type": "TOUR_API",
+          "source_record_id": "2472824",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=23",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 95,
+          "doc_ids": [
+            "DOC-B0041-TOUR_API-2472824"
+          ]
+        },
+        {
+          "start": 96,
+          "end": 160,
+          "doc_ids": [
+            "DOC-B0041-TOUR_API-2472824"
+          ]
+        },
+        {
+          "start": 161,
+          "end": 229,
+          "doc_ids": [
+            "DOC-B0041-TOUR_API-2472824"
+          ]
+        },
+        {
+          "start": 230,
+          "end": 297,
+          "doc_ids": [
+            "DOC-B0041-TOUR_API-2472824"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=23",
+      "text": "넥슨뮤지엄은 컴퓨터와 게임의 역사를 조명하던 넥슨컴퓨터박물관에서 한 걸음 더 나아가, 게임을 하나의 문화로 바라보며 플레이어의 경험과 추억을 함께 나누는 체험형 공간이다. 컴퓨터와 하드웨어 중심의 전시를 넘어 게임을 통해 형성된 플레이어들의 기억과 관계, 다양한 플레이 경험을 담아낸다. 넥슨 ID 또는 게스트로 로그인한 뒤 입장카드를 연동하면 자신의 게임 플레이 기록과 연계된 맞춤형 전시를 경험할 수 있다. 게임을 즐겼던 순간과 그 안에 담긴 추억을 되돌아보고, 게임이 지닌 문화적 가치와 즐거움을 직접 체험할 수 있는 곳이다.",
+      "sido": "제주특별자치도",
+      "sigungu": "제주시",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=23"
+      ],
+      "evidence_id": "E1",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=30",
+        "fields": {
+          "name": "넥슨뮤지엄",
+          "sido": "제주특별자치도",
+          "sigungu": "제주시",
+          "address": "제주특별자치도 제주시 1100로 3198-8",
+          "ownership_type": "사립",
+          "adult_fee": "14000",
+          "youth_fee": "12000",
+          "child_fee": "10000",
+          "adult_fee_status": "BASE_FEE_PAID",
+          "weekday_open": "10:00",
+          "weekday_close": "18:00",
+          "holiday_open": "10:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "월+설 당일+추석 당일+매년 3월"
+        },
+        "base_data_date": "2026-09-30",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0772",
+      "name": "피규어뮤지엄W",
+      "document": "피규어뮤지엄W는 서울특별시 강남구 청담동에 위치한 피규어 전문 박물관이다. 만화와 영화, 애니메이션, 게임 속 다양한 캐릭터를 바탕으로 제작된 피규어와 조형물을 전시하며, 대형 캐릭터 조형물과 주제별 전시 공간을 운영하고 있다. 국내외 인기 캐릭터를 비롯해 한정판 피규어와 다양한 컬렉션을 가까이에서 감상할 수 있어 피규어와 대중문화를 좋아하는 관람객들에게 관심을 받고 있다. 가족, 연인, 친구는 물론 개인 관람객도 자유롭게 관람할 수 있는 문화공간으로, 상설 체험 프로그램을 통해 나만의 캐릭터 피규어를 직접 만들어 볼 수 있다. 또한 어린이와 청소년 단체를 대상으로 전시와 연계한 체험 활동, 진로교육, 창의융합 프로그램 등을 운영하며 문화예술 체험 공간으로 활용되고 있다.",
+      "metadata": {
+        "latitude": 37.5257998,
+        "holiday_close": "19:00",
+        "longitude": 127.0403869,
+        "sigungu": "강남구",
+        "sido": "서울특별시",
+        "adult_fee_status": "BASE_FEE_PAID",
+        "address": "서울특별시 강남구 선릉로158길 3",
+        "name": "피규어뮤지엄W",
+        "holiday_open": "11:00",
+        "source_types": "TOUR_API",
+        "child_fee": 12000.0,
+        "weekday_close": "19:00",
+        "youth_fee": 13500.0,
+        "requires_manual_review": true,
+        "closure_rule_raw": "월+신정+설 연휴+추석 연휴",
+        "ownership_type": "사립",
+        "homepage_url": "http://www.figuremuseumw.co.kr",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/98/4094798_image2_1.png",
+        "image_copyright": "Type3",
+        "adult_fee": 15000.0,
+        "weekday_open": "11:00"
+      },
+      "vector_rank": 2,
+      "bm25_rank": 2,
+      "vector_distance": 0.7053759098052979,
+      "vector_score": null,
+      "bm25_score": 11.066787595740964,
+      "vector_document": "피규어뮤지엄W는 서울특별시 강남구 청담동에 위치한 피규어 전문 박물관이다. 만화와 영화, 애니메이션, 게임 속 다양한 캐릭터를 바탕으로 제작된 피규어와 조형물을 전시하며, 대형 캐릭터 조형물과 주제별 전시 공간을 운영하고 있다. 국내외 인기 캐릭터를 비롯해 한정판 피규어와 다양한 컬렉션을 가까이에서 감상할 수 있어 피규어와 대중문화를 좋아하는 관람객들에게 관심을 받고 있다. 가족, 연인, 친구는 물론 개인 관람객도 자유롭게 관람할 수 있는 문화공간으로, 상설 체험 프로그램을 통해 나만의 캐릭터 피규어를 직접 만들어 볼 수 있다. 또한 어린이와 청소년 단체를 대상으로 전시와 연계한 체험 활동, 진로교육, 창의융합 프로그램 등을 운영하며 문화예술 체험 공간으로 활용되고 있다.",
+      "bm25_document": "피규어뮤지엄W는 서울특별시 강남구 청담동에 위치한 피규어 전문 박물관이다. 만화와 영화, 애니메이션, 게임 속 다양한 캐릭터를 바탕으로 제작된 피규어와 조형물을 전시하며, 대형 캐릭터 조형물과 주제별 전시 공간을 운영하고 있다. 국내외 인기 캐릭터를 비롯해 한정판 피규어와 다양한 컬렉션을 가까이에서 감상할 수 있어 피규어와 대중문화를 좋아하는 관람객들에게 관심을 받고 있다. 가족, 연인, 친구는 물론 개인 관람객도 자유롭게 관람할 수 있는 문화공간으로, 상설 체험 프로그램을 통해 나만의 캐릭터 피규어를 직접 만들어 볼 수 있다. 또한 어린이와 청소년 단체를 대상으로 전시와 연계한 체험 활동, 진로교육, 창의융합 프로그램 등을 운영하며 문화예술 체험 공간으로 활용되고 있다.",
+      "best_span_id": "chroma:M0772",
+      "best_span_text": "피규어뮤지엄W는 서울특별시 강남구 청담동에 위치한 피규어 전문 박물관이다. 만화와 영화, 애니메이션, 게임 속 다양한 캐릭터를 바탕으로 제작된 피규어와 조형물을 전시하며, 대형 캐릭터 조형물과 주제별 전시 공간을 운영하고 있다. 국내외 인기 캐릭터를 비롯해 한정판 피규어와 다양한 컬렉션을 가까이에서 감상할 수 있어 피규어와 대중문화를 좋아하는 관람객들에게 관심을 받고 있다. 가족, 연인, 친구는 물론 개인 관람객도 자유롭게 관람할 수 있는 문화공간으로, 상설 체험 프로그램을 통해 나만의 캐릭터 피규어를 직접 만들어 볼 수 있다. 또한 어린이와 청소년 단체를 대상으로 전시와 연계한 체험 활동, 진로교육, 창의융합 프로그램 등을 운영하며 문화예술 체험 공간으로 활용되고 있다.",
+      "fusion_score": 0.03225806451612903,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 2,
+      "rerank_score": 0.001114638871513307,
+      "rank": 2,
+      "score": 0.001114638871513307,
+      "score_type": "cross_encoder",
+      "distance": 0.7053759098052979,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0772",
+      "source_doc_ids": [
+        "DOC-B0772-TOUR_API-1993515"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0772-TOUR_API-1993515",
+          "source_type": "TOUR_API",
+          "source_record_id": "1993515",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=373",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 41,
+          "doc_ids": [
+            "DOC-B0772-TOUR_API-1993515"
+          ]
+        },
+        {
+          "start": 42,
+          "end": 127,
+          "doc_ids": [
+            "DOC-B0772-TOUR_API-1993515"
+          ]
+        },
+        {
+          "start": 128,
+          "end": 210,
+          "doc_ids": [
+            "DOC-B0772-TOUR_API-1993515"
+          ]
+        },
+        {
+          "start": 211,
+          "end": 298,
+          "doc_ids": [
+            "DOC-B0772-TOUR_API-1993515"
+          ]
+        },
+        {
+          "start": 299,
+          "end": 380,
+          "doc_ids": [
+            "DOC-B0772-TOUR_API-1993515"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=373",
+      "text": "피규어뮤지엄W는 서울특별시 강남구 청담동에 위치한 피규어 전문 박물관이다. 만화와 영화, 애니메이션, 게임 속 다양한 캐릭터를 바탕으로 제작된 피규어와 조형물을 전시하며, 대형 캐릭터 조형물과 주제별 전시 공간을 운영하고 있다. 국내외 인기 캐릭터를 비롯해 한정판 피규어와 다양한 컬렉션을 가까이에서 감상할 수 있어 피규어와 대중문화를 좋아하는 관람객들에게 관심을 받고 있다. 가족, 연인, 친구는 물론 개인 관람객도 자유롭게 관람할 수 있는 문화공간으로, 상설 체험 프로그램을 통해 나만의 캐릭터 피규어를 직접 만들어 볼 수 있다. 또한 어린이와 청소년 단체를 대상으로 전시와 연계한 체험 활동, 진로교육, 창의융합 프로그램 등을 운영하며 문화예술 체험 공간으로 활용되고 있다.",
+      "sido": "서울특별시",
+      "sigungu": "강남구",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=373"
+      ],
+      "evidence_id": "E2",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=533",
+        "fields": {
+          "name": "피규어뮤지엄W",
+          "sido": "서울특별시",
+          "sigungu": "강남구",
+          "address": "서울특별시 강남구 선릉로158길 3",
+          "ownership_type": "사립",
+          "adult_fee": "15000",
+          "youth_fee": "13500",
+          "child_fee": "12000",
+          "adult_fee_status": "BASE_FEE_PAID",
+          "weekday_open": "11:00",
+          "weekday_close": "19:00",
+          "holiday_open": "11:00",
+          "holiday_close": "19:00",
+          "closure_rule_raw": "월+신정+설 연휴+추석 연휴"
+        },
+        "base_data_date": "2024-07-18",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0847",
+      "name": "삼성화재 모빌리티뮤지엄",
+      "document": "삼성화재 모빌리티뮤지엄은 재미있는 모빌리티 어트랙션을 체험하고 공간과 어우러진 아름다운 클래식카를 감상하며 푸르른 자연 속 여유로운 휴식도 함께 할 수 있는 복합문화공간이다. 모빌리티의 과거와 현재 그리고 미래를 조망하면서 즐거운 체험, 깊이있는 배움 그리고 여유로운 맛과 휴식을 함께 할 수 있는 공간이다. 국내 최초 자동차 전문 박물관으로 개관해 어린이 교통교실 등 안전체험교육을 함께 운영하여 개인뿐 아니라 어린이집, 유치원, 학교 등의 기관 및 단체 체험학습장으로도 많은 사랑을 받는 곳이다. 살아생전 자동차 수집가였던 삼성전자 이건희 회장이 삼성교통박물관으로 개관하여 2023년 대대적인 리뉴얼 작업을 거쳐 삼성화재 모빌리티뮤지엄으로 재탄생하였다. 박물관은 클래식카에서 모빌리티로 테마를 확장하고 체험과 복합문화 기능이 강화되어 더욱 다채로운 볼거리와 체험거리를 제공하고 있다. 삼성화재 모빌리티뮤지엄은 2층 건물로 1층에는 모빌리티 상설전시와 특별전시로 구성되어 있다. 친환경, 자율주행, UAM, 드론, 우주여행 등 다양한 모빌리티를 이해할 수 있는 공간으로 조성하였다. 2층은 감성적인 공간과 조화를 이룬 클래식카를 감상할 수 있는 공간으로 자동차 발명 이후 시대별 변화와 발전과정을 살펴볼 수 있다. 야외에는 시승체험 및 드라이빙 체험존이 있다. 체험 프로그램은 실내∙실외 유료체험으로 운영된다. 실내 체험으로는 대형 드론타워에서 직접 드론을 날려보는 ‘레디! 플라이 드론’, 가마(GAMA) 시뮬레이터에 탑승해 가상 레이싱 게임을 즐기는 ‘스피드킹 레이서’, 4D 시뮬레이터를 타고 가상 전투비행과 치열한 공중전을 체험해 보는 ‘익스트림 에어 컴뱃’ 등이 있으며, 야외체험으로는 클래식카를 직접 시승해 보는 ‘헤리티지 드라이브’, RC카 전용 대형서킷에서 속도와 스릴을 체험하는 ‘RC 레이스웨이’가 있다.",
+      "metadata": {
+        "longitude": 127.2169538,
+        "weekday_open": "10:00",
+        "child_fee": 5000.0,
+        "homepage_url": "http://www.stm.or.kr",
+        "adult_fee_status": "BASE_FEE_PAID",
+        "fee_notes": "3000",
+        "closure_rule_raw": "매주 월요일, 설연휴,추석연휴",
+        "holiday_open": "10:00",
+        "sido": "경기도",
+        "ownership_type": "사립",
+        "holiday_close": "18:00",
+        "address": "경기도 용인시 처인구 포곡읍 에버랜드로376번길 171",
+        "source_types": "TOUR_API",
+        "weekday_close": "18:00",
+        "image_copyright": "Type1",
+        "requires_manual_review": true,
+        "sigungu": "용인시",
+        "adult_fee": 6000.0,
+        "youth_fee": 5000.0,
+        "name": "삼성화재 모빌리티뮤지엄",
+        "latitude": 37.300383,
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/67/4127067_image2_1.jpg"
+      },
+      "vector_rank": null,
+      "bm25_rank": 3,
+      "vector_distance": null,
+      "vector_score": null,
+      "bm25_score": 8.846413890820115,
+      "vector_document": "",
+      "bm25_document": "삼성화재 모빌리티뮤지엄은 재미있는 모빌리티 어트랙션을 체험하고 공간과 어우러진 아름다운 클래식카를 감상하며 푸르른 자연 속 여유로운 휴식도 함께 할 수 있는 복합문화공간이다. 모빌리티의 과거와 현재 그리고 미래를 조망하면서 즐거운 체험, 깊이있는 배움 그리고 여유로운 맛과 휴식을 함께 할 수 있는 공간이다. 국내 최초 자동차 전문 박물관으로 개관해 어린이 교통교실 등 안전체험교육을 함께 운영하여 개인뿐 아니라 어린이집, 유치원, 학교 등의 기관 및 단체 체험학습장으로도 많은 사랑을 받는 곳이다. 살아생전 자동차 수집가였던 삼성전자 이건희 회장이 삼성교통박물관으로 개관하여 2023년 대대적인 리뉴얼 작업을 거쳐 삼성화재 모빌리티뮤지엄으로 재탄생하였다. 박물관은 클래식카에서 모빌리티로 테마를 확장하고 체험과 복합문화 기능이 강화되어 더욱 다채로운 볼거리와 체험거리를 제공하고 있다. 삼성화재 모빌리티뮤지엄은 2층 건물로 1층에는 모빌리티 상설전시와 특별전시로 구성되어 있다. 친환경, 자율주행, UAM, 드론, 우주여행 등 다양한 모빌리티를 이해할 수 있는 공간으로 조성하였다. 2층은 감성적인 공간과 조화를 이룬 클래식카를 감상할 수 있는 공간으로 자동차 발명 이후 시대별 변화와 발전과정을 살펴볼 수 있다. 야외에는 시승체험 및 드라이빙 체험존이 있다. 체험 프로그램은 실내∙실외 유료체험으로 운영된다. 실내 체험으로는 대형 드론타워에서 직접 드론을 날려보는 ‘레디! 플라이 드론’, 가마(GAMA) 시뮬레이터에 탑승해 가상 레이싱 게임을 즐기는 ‘스피드킹 레이서’, 4D 시뮬레이터를 타고 가상 전투비행과 치열한 공중전을 체험해 보는 ‘익스트림 에어 컴뱃’ 등이 있으며, 야외체험으로는 클래식카를 직접 시승해 보는 ‘헤리티지 드라이브’, RC카 전용 대형서킷에서 속도와 스릴을 체험하는 ‘RC 레이스웨이’가 있다.",
+      "best_span_id": "chroma:M0847",
+      "best_span_text": "삼성화재 모빌리티뮤지엄은 재미있는 모빌리티 어트랙션을 체험하고 공간과 어우러진 아름다운 클래식카를 감상하며 푸르른 자연 속 여유로운 휴식도 함께 할 수 있는 복합문화공간이다. 모빌리티의 과거와 현재 그리고 미래를 조망하면서 즐거운 체험, 깊이있는 배움 그리고 여유로운 맛과 휴식을 함께 할 수 있는 공간이다. 국내 최초 자동차 전문 박물관으로 개관해 어린이 교통교실 등 안전체험교육을 함께 운영하여 개인뿐 아니라 어린이집, 유치원, 학교 등의 기관 및 단체 체험학습장으로도 많은 사랑을 받는 곳이다. 살아생전 자동차 수집가였던 삼성전자 이건희 회장이 삼성교통박물관으로 개관하여 2023년 대대적인 리뉴얼 작업을 거쳐 삼성화재 모빌리티뮤지엄으로 재탄생하였다. 박물관은 클래식카에서 모빌리티로 테마를 확장하고 체험과 복합문화 기능이 강화되어 더욱 다채로운 볼거리와 체험거리를 제공하고 있다. 삼성화재 모빌리티뮤지엄은 2층 건물로 1층에는 모빌리티 상설전시와 특별전시로 구성되어 있다. 친환경, 자율주행, UAM, 드론, 우주여행 등 다양한 모빌리티를 이해할 수 있는 공간으로 조성하였다. 2층은 감성적인 공간과 조화를 이룬 클래식카를 감상할 수 있는 공간으로 자동차 발명 이후 시대별 변화와 발전과정을 살펴볼 수 있다. 야외에는 시승체험 및 드라이빙 체험존이 있다. 체험 프로그램은 실내∙실외 유료체험으로 운영된다. 실내 체험으로는 대형 드론타워에서 직접 드론을 날려보는 ‘레디! 플라이 드론’, 가마(GAMA) 시뮬레이터에 탑승해 가상 레이싱 게임을 즐기는 ‘스피드킹 레이서’, 4D 시뮬레이터를 타고 가상 전투비행과 치열한 공중전을 체험해 보는 ‘익스트림 에어 컴뱃’ 등이 있으며, 야외체험으로는 클래식카를 직접 시승해 보는 ‘헤리티지 드라이브’, RC카 전용 대형서킷에서 속도와 스릴을 체험하는 ‘RC 레이스웨이’가 있다.",
+      "fusion_score": 0.015873015873015872,
+      "retrieved_by": [
+        "bm25"
+      ],
+      "fusion_rank": 7,
+      "rerank_score": 0.0005140400608070195,
+      "rank": 3,
+      "score": 0.0005140400608070195,
+      "score_type": "cross_encoder",
+      "distance": null,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "bm25"
+      ],
+      "retriever": "bm25",
+      "span_id": "chroma:M0847",
+      "source_doc_ids": [
+        "DOC-B0847-TOUR_API-2463772"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0847-TOUR_API-2463772",
+          "source_type": "TOUR_API",
+          "source_record_id": "2463772",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=401",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 97,
+          "doc_ids": [
+            "DOC-B0847-TOUR_API-2463772"
+          ]
+        },
+        {
+          "start": 98,
+          "end": 172,
+          "doc_ids": [
+            "DOC-B0847-TOUR_API-2463772"
+          ]
+        },
+        {
+          "start": 173,
+          "end": 279,
+          "doc_ids": [
+            "DOC-B0847-TOUR_API-2463772"
+          ]
+        },
+        {
+          "start": 280,
+          "end": 367,
+          "doc_ids": [
+            "DOC-B0847-TOUR_API-2463772"
+          ]
+        },
+        {
+          "start": 368,
+          "end": 440,
+          "doc_ids": [
+            "DOC-B0847-TOUR_API-2463772"
+          ]
+        },
+        {
+          "start": 441,
+          "end": 492,
+          "doc_ids": [
+            "DOC-B0847-TOUR_API-2463772"
+          ]
+        },
+        {
+          "start": 493,
+          "end": 550,
+          "doc_ids": [
+            "DOC-B0847-TOUR_API-2463772"
+          ]
+        },
+        {
+          "start": 551,
+          "end": 624,
+          "doc_ids": [
+            "DOC-B0847-TOUR_API-2463772"
+          ]
+        },
+        {
+          "start": 625,
+          "end": 650,
+          "doc_ids": [
+            "DOC-B0847-TOUR_API-2463772"
+          ]
+        },
+        {
+          "start": 651,
+          "end": 678,
+          "doc_ids": [
+            "DOC-B0847-TOUR_API-2463772"
+          ]
+        },
+        {
+          "start": 679,
+          "end": 714,
+          "doc_ids": [
+            "DOC-B0847-TOUR_API-2463772"
+          ]
+        },
+        {
+          "start": 715,
+          "end": 909,
+          "doc_ids": [
+            "DOC-B0847-TOUR_API-2463772"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=401",
+      "text": "삼성화재 모빌리티뮤지엄은 재미있는 모빌리티 어트랙션을 체험하고 공간과 어우러진 아름다운 클래식카를 감상하며 푸르른 자연 속 여유로운 휴식도 함께 할 수 있는 복합문화공간이다. 모빌리티의 과거와 현재 그리고 미래를 조망하면서 즐거운 체험, 깊이있는 배움 그리고 여유로운 맛과 휴식을 함께 할 수 있는 공간이다. 국내 최초 자동차 전문 박물관으로 개관해 어린이 교통교실 등 안전체험교육을 함께 운영하여 개인뿐 아니라 어린이집, 유치원, 학교 등의 기관 및 단체 체험학습장으로도 많은 사랑을 받는 곳이다. 살아생전 자동차 수집가였던 삼성전자 이건희 회장이 삼성교통박물관으로 개관하여 2023년 대대적인 리뉴얼 작업을 거쳐 삼성화재 모빌리티뮤지엄으로 재탄생하였다. 박물관은 클래식카에서 모빌리티로 테마를 확장하고 체험과 복합문화 기능이 강화되어 더욱 다채로운 볼거리와 체험거리를 제공하고 있다. 삼성화재 모빌리티뮤지엄은 2층 건물로 1층에는 모빌리티 상설전시와 특별전시로 구성되어 있다. 친환경, 자율주행, UAM, 드론, 우주여행 등 다양한 모빌리티를 이해할 수 있는 공간으로 조성하였다. 2층은 감성적인 공간과 조화를 이룬 클래식카를 감상할 수 있는 공간으로 자동차 발명 이후 시대별 변화와 발전과정을 살펴볼 수 있다. 야외에는 시승체험 및 드라이빙 체험존이 있다. 체험 프로그램은 실내∙실외 유료체험으로 운영된다. 실내 체험으로는 대형 드론타워에서 직접 드론을 날려보는 ‘레디! 플라이 드론’, 가마(GAMA) 시뮬레이터에 탑승해 가상 레이싱 게임을 즐기는 ‘스피드킹 레이서’, 4D 시뮬레이터를 타고 가상 전투비행과 치열한 공중전을 체험해 보는 ‘익스트림 에어 컴뱃’ 등이 있으며, 야외체험으로는 클래식카를 직접 시승해 보는 ‘헤리티지 드라이브’, RC카 전용 대형서킷에서 속도와 스릴을 체험하는 ‘RC 레이스웨이’가 있다.",
+      "sido": "경기도",
+      "sigungu": "용인시",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=401"
+      ],
+      "evidence_id": "E3",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=574",
+        "fields": {
+          "name": "삼성화재 모빌리티뮤지엄",
+          "sido": "경기도",
+          "sigungu": "용인시",
+          "address": "경기도 용인시 처인구 포곡읍 에버랜드로376번길 171",
+          "ownership_type": "사립",
+          "adult_fee": "6000",
+          "youth_fee": "5000",
+          "child_fee": "5000",
+          "adult_fee_status": "BASE_FEE_PAID",
+          "weekday_open": "10:00",
+          "weekday_close": "18:00",
+          "holiday_open": "10:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "매주 월요일, 설연휴,추석연휴"
+        },
+        "base_data_date": "2024-11-29",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0985",
+      "name": "뮤지엄원",
+      "document": "대중을 위한 예술, 대중이 체험하고 즐길 수 있는 예술 등을 소개",
+      "metadata": {
+        "adult_fee_status": "BASE_FEE_PAID",
+        "latitude": 35.1713212,
+        "closure_rule_raw": "연중무휴",
+        "homepage_url": "https://museum1.co.kr",
+        "name": "뮤지엄원",
+        "holiday_close": "20:00",
+        "ownership_type": "사립",
+        "sigungu": "해운대구",
+        "sido": "부산광역시",
+        "weekday_close": "19:00",
+        "longitude": 129.1289814,
+        "address": "부산광역시 해운대구 센텀서로 20",
+        "fee_notes": "장애인, 유공자, 단체 할인",
+        "holiday_open": "10:00",
+        "source_types": "BASE",
+        "adult_fee": 18000.0,
+        "transport_notes": "부산 지하철 2호선 센텀시티역 하차",
+        "youth_fee": 15000.0,
+        "requires_manual_review": false,
+        "child_fee": 13000.0,
+        "weekday_open": "10:00"
+      },
+      "vector_rank": 5,
+      "bm25_rank": null,
+      "vector_distance": 0.732162356376648,
+      "vector_score": null,
+      "bm25_score": null,
+      "vector_document": "대중을 위한 예술, 대중이 체험하고 즐길 수 있는 예술 등을 소개",
+      "bm25_document": "",
+      "best_span_id": null,
+      "best_span_text": null,
+      "fusion_score": 0.015384615384615385,
+      "retrieved_by": [
+        "vector"
+      ],
+      "fusion_rank": 9,
+      "rerank_score": 0.00014218027354218066,
+      "rank": 4,
+      "score": 0.00014218027354218066,
+      "score_type": "cross_encoder",
+      "distance": 0.732162356376648,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector"
+      ],
+      "retriever": "vector",
+      "source_doc_ids": [
+        "DOC-B0985-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0985-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0985",
+          "source_locator": "data/raw/museum_base_1070.csv#row=986",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 36,
+          "doc_ids": [
+            "DOC-B0985-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_base_1070.csv#row=986",
+      "text": "대중을 위한 예술, 대중이 체험하고 즐길 수 있는 예술 등을 소개",
+      "sido": "부산광역시",
+      "sigungu": "해운대구",
+      "span_id": "",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_base_1070.csv#row=986"
+      ],
+      "evidence_id": "E4",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=671",
+        "fields": {
+          "name": "뮤지엄원",
+          "sido": "부산광역시",
+          "sigungu": "해운대구",
+          "address": "부산광역시 해운대구 센텀서로 20",
+          "ownership_type": "사립",
+          "adult_fee": "18000",
+          "youth_fee": "15000",
+          "child_fee": "13000",
+          "adult_fee_status": "BASE_FEE_PAID",
+          "weekday_open": "10:00",
+          "weekday_close": "19:00",
+          "holiday_open": "10:00",
+          "holiday_close": "20:00",
+          "closure_rule_raw": "연중무휴"
+        },
+        "base_data_date": "2025-11-20",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0618",
+      "name": "신문박물관",
+      "document": "신문박물관은 우리나라 최초의 근대 신문인 한성순보 창간(1883) 이래 한국 신문 140년의 역사를 한눈에 조망할 수 있는 공간으로 세기의 경계를 지나던 2000년 동아일보사가 한국 신문의 역사를 성찰하고 그 교훈을 통해 미래를 내다보고자 개관했다. 세계적으로 신문 박물관은 1931년 독일 아헨시에 세워진 국제신문박물관을 비롯하여 미국 워싱턴의 뉴지엄, 일본 요코하마의 일본신문박물관 등 손에 꼽을 정도이며, 유구한 언론의 역사를 가진 선진 각국과 함께하는 상징적인 박물관이다. 신문은 역사의 그릇이며 정치, 경제, 사회, 문화 등 그날그날의 역사가 숨 쉬고 있다. 따라서 시대와 함께 명멸과 성쇠를 거듭했던 신문의 과거와 현재를 모아놓은 신문박물관은 축소된 역사의 현장이라 할 수 있다. 신문박물관은 신문을 통해 우리 근현대사를 조망한다는 역사적 의미를 지니고 있고 언론발달사에 한 획을 긋는 작업이라는 언론사적 의미와 우리나라 박물관의 지평을 확장하는 문화사적 의미를 동시에 가지고 있다.",
+      "metadata": {
+        "sigungu": "종로구",
+        "adult_fee_status": "BASE_FEE_PAID",
+        "image_copyright": "Type3",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/15/3556615_image2_1.jpg",
+        "holiday_open": "09:00",
+        "name": "신문박물관",
+        "holiday_close": "18:00",
+        "adult_fee": 3000.0,
+        "longitude": 126.9776553,
+        "source_types": "TOUR_API",
+        "ownership_type": "사립",
+        "closure_rule_raw": "월요일+명절(1.1, 설날, 추석)+봄·가을정기 휴관(3월, 9월 첫째주 화~일요일)",
+        "latitude": 37.56986758,
+        "address": "서울특별시 종로구 세종대로 152",
+        "youth_fee": 2000.0,
+        "homepage_url": "http://presseum.or.kr/",
+        "weekday_open": "09:00",
+        "sido": "서울특별시",
+        "child_fee": 0.0,
+        "requires_manual_review": true,
+        "weekday_close": "18:00"
+      },
+      "vector_rank": null,
+      "bm25_rank": 4,
+      "vector_distance": null,
+      "vector_score": null,
+      "bm25_score": 8.657820081385385,
+      "vector_document": "",
+      "bm25_document": "신문박물관은 우리나라 최초의 근대 신문인 한성순보 창간(1883) 이래 한국 신문 140년의 역사를 한눈에 조망할 수 있는 공간으로 세기의 경계를 지나던 2000년 동아일보사가 한국 신문의 역사를 성찰하고 그 교훈을 통해 미래를 내다보고자 개관했다. 세계적으로 신문 박물관은 1931년 독일 아헨시에 세워진 국제신문박물관을 비롯하여 미국 워싱턴의 뉴지엄, 일본 요코하마의 일본신문박물관 등 손에 꼽을 정도이며, 유구한 언론의 역사를 가진 선진 각국과 함께하는 상징적인 박물관이다. 신문은 역사의 그릇이며 정치, 경제, 사회, 문화 등 그날그날의 역사가 숨 쉬고 있다. 따라서 시대와 함께 명멸과 성쇠를 거듭했던 신문의 과거와 현재를 모아놓은 신문박물관은 축소된 역사의 현장이라 할 수 있다. 신문박물관은 신문을 통해 우리 근현대사를 조망한다는 역사적 의미를 지니고 있고 언론발달사에 한 획을 긋는 작업이라는 언론사적 의미와 우리나라 박물관의 지평을 확장하는 문화사적 의미를 동시에 가지고 있다.",
+      "best_span_id": "chroma:M0618",
+      "best_span_text": "신문박물관은 우리나라 최초의 근대 신문인 한성순보 창간(1883) 이래 한국 신문 140년의 역사를 한눈에 조망할 수 있는 공간으로 세기의 경계를 지나던 2000년 동아일보사가 한국 신문의 역사를 성찰하고 그 교훈을 통해 미래를 내다보고자 개관했다. 세계적으로 신문 박물관은 1931년 독일 아헨시에 세워진 국제신문박물관을 비롯하여 미국 워싱턴의 뉴지엄, 일본 요코하마의 일본신문박물관 등 손에 꼽을 정도이며, 유구한 언론의 역사를 가진 선진 각국과 함께하는 상징적인 박물관이다. 신문은 역사의 그릇이며 정치, 경제, 사회, 문화 등 그날그날의 역사가 숨 쉬고 있다. 따라서 시대와 함께 명멸과 성쇠를 거듭했던 신문의 과거와 현재를 모아놓은 신문박물관은 축소된 역사의 현장이라 할 수 있다. 신문박물관은 신문을 통해 우리 근현대사를 조망한다는 역사적 의미를 지니고 있고 언론발달사에 한 획을 긋는 작업이라는 언론사적 의미와 우리나라 박물관의 지평을 확장하는 문화사적 의미를 동시에 가지고 있다.",
+      "fusion_score": 0.015625,
+      "retrieved_by": [
+        "bm25"
+      ],
+      "fusion_rank": 8,
+      "rerank_score": 0.00010684456356102601,
+      "rank": 5,
+      "score": 0.00010684456356102601,
+      "score_type": "cross_encoder",
+      "distance": null,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "bm25"
+      ],
+      "retriever": "bm25",
+      "span_id": "chroma:M0618",
+      "source_doc_ids": [
+        "DOC-B0618-TOUR_API-130418"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0618-TOUR_API-130418",
+          "source_type": "TOUR_API",
+          "source_record_id": "130418",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=307",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 139,
+          "doc_ids": [
+            "DOC-B0618-TOUR_API-130418"
+          ]
+        },
+        {
+          "start": 140,
+          "end": 268,
+          "doc_ids": [
+            "DOC-B0618-TOUR_API-130418"
+          ]
+        },
+        {
+          "start": 269,
+          "end": 317,
+          "doc_ids": [
+            "DOC-B0618-TOUR_API-130418"
+          ]
+        },
+        {
+          "start": 318,
+          "end": 386,
+          "doc_ids": [
+            "DOC-B0618-TOUR_API-130418"
+          ]
+        },
+        {
+          "start": 387,
+          "end": 500,
+          "doc_ids": [
+            "DOC-B0618-TOUR_API-130418"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=307",
+      "text": "신문박물관은 우리나라 최초의 근대 신문인 한성순보 창간(1883) 이래 한국 신문 140년의 역사를 한눈에 조망할 수 있는 공간으로 세기의 경계를 지나던 2000년 동아일보사가 한국 신문의 역사를 성찰하고 그 교훈을 통해 미래를 내다보고자 개관했다. 세계적으로 신문 박물관은 1931년 독일 아헨시에 세워진 국제신문박물관을 비롯하여 미국 워싱턴의 뉴지엄, 일본 요코하마의 일본신문박물관 등 손에 꼽을 정도이며, 유구한 언론의 역사를 가진 선진 각국과 함께하는 상징적인 박물관이다. 신문은 역사의 그릇이며 정치, 경제, 사회, 문화 등 그날그날의 역사가 숨 쉬고 있다. 따라서 시대와 함께 명멸과 성쇠를 거듭했던 신문의 과거와 현재를 모아놓은 신문박물관은 축소된 역사의 현장이라 할 수 있다. 신문박물관은 신문을 통해 우리 근현대사를 조망한다는 역사적 의미를 지니고 있고 언론발달사에 한 획을 긋는 작업이라는 언론사적 의미와 우리나라 박물관의 지평을 확장하는 문화사적 의미를 동시에 가지고 있다.",
+      "sido": "서울특별시",
+      "sigungu": "종로구",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=307"
+      ],
+      "evidence_id": "E5",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=431",
+        "fields": {
+          "name": "신문박물관",
+          "sido": "서울특별시",
+          "sigungu": "종로구",
+          "address": "서울특별시 종로구 세종대로 152",
+          "ownership_type": "사립",
+          "adult_fee": "3000",
+          "youth_fee": "2000",
+          "child_fee": "0",
+          "adult_fee_status": "BASE_FEE_PAID",
+          "weekday_open": "09:00",
+          "weekday_close": "18:00",
+          "holiday_open": "09:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "월요일+명절(1.1, 설날, 추석)+봄·가을정기 휴관(3월, 9월 첫째주 화~일요일)"
+        },
+        "base_data_date": "2025-11-01",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    }
+  ],
+  "answer": "넥슨뮤지엄은 게임을 단순한 기기·하드웨어의 역사가 아니라 하나의 문화로 바라봅니다. 게임은 플레이어들의 기억과 관계, 다양한 플레이 경험을 만들고, 함께 나누는 추억이자 문화적 가치와 즐거움을 직접 체험하게 하는 매개입니다. [E1]",
+  "retrieval_status": "ok",
+  "answer_status": "answered",
+  "route": "hybrid",
+  "retry_count": 0,
+  "supervisor_verified": true,
+  "rerank_applied": true,
+  "retriever_errors": [],
+  "warnings": [],
+  "duration_ms": 138728.36,
+  "error_type": "",
+  "hit_at_1": 1,
+  "hit_at_3": 1,
+  "hit_at_5": 1,
+  "recall_at_5": 1.0,
+  "mrr_at_10": 1.0
+}

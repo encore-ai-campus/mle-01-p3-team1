@@ -1,0 +1,88 @@
+{
+  "mode": "supervisor_full",
+  "question_id": "V2-OO08",
+  "evidence": [
+    {
+      "museum_id": "M0856",
+      "name": "서울올림픽기념관",
+      "text": "서울올림픽기념관의 Neo4j operator_name(운영기관) 기록: 국민체육진흥공단 (CSV 원문: 국민체육진흥공단)\n[Neo4j 구조화 근거] {\"museum_id\": \"M0856\", \"name\": \"서울올림픽기념관\", \"relation\": \"OPERATED_BY\", \"organization\": \"국민체육진흥공단\", \"org_key\": \"국민체육진흥공단\", \"org_type\": \"공공기관\", \"raw_name\": \"국민체육진흥공단\", \"verification_status\": \"SOURCE_RECORDED\"}",
+      "span_id": "",
+      "source_doc_ids": [
+        "DOC-B0856-BASE"
+      ],
+      "source_urls": [],
+      "source_url": "",
+      "source_locators": [
+        "data/raw/museum_base_1070.csv#row=857"
+      ],
+      "source_locator": "data/raw/museum_base_1070.csv#row=857",
+      "sido": "서울특별시",
+      "sigungu": "송파구",
+      "retriever": "graph",
+      "evidence_role": "anchor",
+      "source_scope": "graph_properties",
+      "relation": "OPERATED_BY",
+      "organization": "국민체육진흥공단",
+      "org_type": "공공기관",
+      "operator_raw_name": "국민체육진흥공단",
+      "verification_status": "SOURCE_RECORDED",
+      "metadata": {},
+      "chunk_id": "",
+      "retrievers": [
+        "graph"
+      ],
+      "evidence_id": "E1",
+      "rank": 1
+    },
+    {
+      "museum_id": "M0857",
+      "name": "소마미술관",
+      "text": "{anchor_raw_name: 국민체육진흥공단, candidate_raw_name: 국민체육진흥공단, org_key: 국민체육진흥공단, organization: 국민체육진흥공단, relation: OPERATED_BY, verification_status: SOURCE_RECORDED}",
+      "span_id": "",
+      "source_doc_ids": [
+        "DOC-B0857-BASE"
+      ],
+      "source_urls": [],
+      "source_url": "",
+      "source_locators": [
+        "data/raw/museum_base_1070.csv#row=858"
+      ],
+      "source_locator": "data/raw/museum_base_1070.csv#row=858",
+      "sido": "서울특별시",
+      "sigungu": "송파구",
+      "retriever": "graph",
+      "graph_path": "anchor -[:OPERATED_BY]-> Organization <-[:OPERATED_BY]- candidate",
+      "organization": "국민체육진흥공단",
+      "org_type": "공공기관",
+      "operator_raw_name": "국민체육진흥공단",
+      "anchor_operator_raw_name": "국민체육진흥공단",
+      "relation": "OPERATED_BY",
+      "verification_status": "SOURCE_RECORDED",
+      "facility_type": "미술관",
+      "source_scope": "graph_properties",
+      "metadata": {},
+      "chunk_id": "",
+      "retrievers": [
+        "graph"
+      ],
+      "evidence_id": "E2",
+      "rank": 2
+    }
+  ],
+  "answer": "서울올림픽기념관은 운영기관이 국민체육진흥공단으로 기록되어 있으며, 같은 기관이 운영하는 다른 시설로 소마미술관이 있습니다. [E1][E2]",
+  "retrieval_status": "ok",
+  "answer_status": "answered",
+  "route": "graph",
+  "retry_count": 0,
+  "supervisor_verified": true,
+  "rerank_applied": false,
+  "retriever_errors": [],
+  "warnings": [],
+  "duration_ms": 130862.51,
+  "error_type": "",
+  "hit_at_1": 1,
+  "hit_at_3": 1,
+  "hit_at_5": 1,
+  "recall_at_5": 1.0,
+  "mrr_at_10": 1.0
+}

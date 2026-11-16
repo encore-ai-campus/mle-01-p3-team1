@@ -1,0 +1,784 @@
+{
+  "mode": "supervisor_full",
+  "question_id": "Q014",
+  "evidence": [
+    {
+      "museum_id": "M0463",
+      "name": "모란미술관",
+      "document": "모란미술관은 경기도 마석에 위치한 사립미술관으로 1990년 4월에 개관했다. 조각전문미술관으로 출발하여 한국 현대조각의 향방을 모색하는 연구와 기획전을 개최해 왔고, 현재에는 조각뿐 아니라 다양한 장르의 동시대 미술을 소개하며 사회와 문화의 예술적 가치를 반영하는 전시를 통해 대중들의 삶 속에 미술문화가 뿌리내릴 수 있도록 하고 있다. 모란미술관 본관은 전시가 열리는 공간으로, 6개의 전시실이 2층으로 구성되어 있다. 건축가 이영범이 설계한 수장고와 모란탑(수장고와 노래하는 탑)은 미국건축가협회(AIA)뉴욕시지부에서 디자인상을 받은 건축물로 미술관의 소장품과 자료를 보관하는 곳이자 순수조형물이다. 모란탑 안에는 루브르 미술관의 주물 아틀리에(L'atelier de moulage du Musée du Louvre)에서 로댕의 원작을 바탕으로 석고 주조한 오귀스트 로댕(Auguste Rodin, 1840-1917)의 (1891~1898) 조각상이 있다. 모란미술관의 야외조각전시장은 8,600여 평에 이르는 넓은 공간으로 국내외 유명 조각가들의 작품이 자연과 함께 어우러져 있어 자연과 예술의 아름다움을 만끽할 수 있다. 또한 다양한 문화행사가 열리는 장으로 시민들을 위한 문화공간으로 활용되고 있다. 모란스페이스(별관)는 문화행사 및 다양한 전시가 가능한 갤러리 공간으로 대관이 가능하며, 모란미술관학교 및 미술관 교육프로그램이 진행되는 공간으로 지역사회 교육발전 시설로 등록되어 운영되고 있다.",
+      "metadata": {
+        "image_copyright": "Type1",
+        "address": "경기도 남양주시 화도읍 경춘로2110번길 8",
+        "holiday_open": "10:00",
+        "adult_fee_status": "BASE_FEE_PAID",
+        "holiday_close": "18:00",
+        "source_types": "TOUR_API",
+        "name": "모란미술관",
+        "ownership_type": "사립",
+        "homepage_url": "http://www.moranmuseum.org/",
+        "longitude": 127.3237775,
+        "sigungu": "남양주시",
+        "child_fee": 5000.0,
+        "latitude": 37.6504135,
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/88/3590288_image2_1.jpg",
+        "youth_fee": 6000.0,
+        "weekday_open": "10:00",
+        "requires_manual_review": true,
+        "sido": "경기도",
+        "adult_fee": 10000.0,
+        "weekday_close": "18:00",
+        "closure_rule_raw": "월+1월 1일+설 연휴+추석 연휴+미술관 지정일"
+      },
+      "vector_rank": 2,
+      "bm25_rank": 3,
+      "vector_distance": 0.5331524014472961,
+      "vector_score": null,
+      "bm25_score": 20.272897625369726,
+      "vector_document": "모란미술관은 경기도 마석에 위치한 사립미술관으로 1990년 4월에 개관했다. 조각전문미술관으로 출발하여 한국 현대조각의 향방을 모색하는 연구와 기획전을 개최해 왔고, 현재에는 조각뿐 아니라 다양한 장르의 동시대 미술을 소개하며 사회와 문화의 예술적 가치를 반영하는 전시를 통해 대중들의 삶 속에 미술문화가 뿌리내릴 수 있도록 하고 있다. 모란미술관 본관은 전시가 열리는 공간으로, 6개의 전시실이 2층으로 구성되어 있다. 건축가 이영범이 설계한 수장고와 모란탑(수장고와 노래하는 탑)은 미국건축가협회(AIA)뉴욕시지부에서 디자인상을 받은 건축물로 미술관의 소장품과 자료를 보관하는 곳이자 순수조형물이다. 모란탑 안에는 루브르 미술관의 주물 아틀리에(L'atelier de moulage du Musée du Louvre)에서 로댕의 원작을 바탕으로 석고 주조한 오귀스트 로댕(Auguste Rodin, 1840-1917)의 (1891~1898) 조각상이 있다. 모란미술관의 야외조각전시장은 8,600여 평에 이르는 넓은 공간으로 국내외 유명 조각가들의 작품이 자연과 함께 어우러져 있어 자연과 예술의 아름다움을 만끽할 수 있다. 또한 다양한 문화행사가 열리는 장으로 시민들을 위한 문화공간으로 활용되고 있다. 모란스페이스(별관)는 문화행사 및 다양한 전시가 가능한 갤러리 공간으로 대관이 가능하며, 모란미술관학교 및 미술관 교육프로그램이 진행되는 공간으로 지역사회 교육발전 시설로 등록되어 운영되고 있다.",
+      "bm25_document": "모란미술관은 경기도 마석에 위치한 사립미술관으로 1990년 4월에 개관했다. 조각전문미술관으로 출발하여 한국 현대조각의 향방을 모색하는 연구와 기획전을 개최해 왔고, 현재에는 조각뿐 아니라 다양한 장르의 동시대 미술을 소개하며 사회와 문화의 예술적 가치를 반영하는 전시를 통해 대중들의 삶 속에 미술문화가 뿌리내릴 수 있도록 하고 있다. 모란미술관 본관은 전시가 열리는 공간으로, 6개의 전시실이 2층으로 구성되어 있다. 건축가 이영범이 설계한 수장고와 모란탑(수장고와 노래하는 탑)은 미국건축가협회(AIA)뉴욕시지부에서 디자인상을 받은 건축물로 미술관의 소장품과 자료를 보관하는 곳이자 순수조형물이다. 모란탑 안에는 루브르 미술관의 주물 아틀리에(L'atelier de moulage du Musée du Louvre)에서 로댕의 원작을 바탕으로 석고 주조한 오귀스트 로댕(Auguste Rodin, 1840-1917)의 (1891~1898) 조각상이 있다. 모란미술관의 야외조각전시장은 8,600여 평에 이르는 넓은 공간으로 국내외 유명 조각가들의 작품이 자연과 함께 어우러져 있어 자연과 예술의 아름다움을 만끽할 수 있다. 또한 다양한 문화행사가 열리는 장으로 시민들을 위한 문화공간으로 활용되고 있다. 모란스페이스(별관)는 문화행사 및 다양한 전시가 가능한 갤러리 공간으로 대관이 가능하며, 모란미술관학교 및 미술관 교육프로그램이 진행되는 공간으로 지역사회 교육발전 시설로 등록되어 운영되고 있다.",
+      "best_span_id": "chroma:M0463",
+      "best_span_text": "모란미술관은 경기도 마석에 위치한 사립미술관으로 1990년 4월에 개관했다. 조각전문미술관으로 출발하여 한국 현대조각의 향방을 모색하는 연구와 기획전을 개최해 왔고, 현재에는 조각뿐 아니라 다양한 장르의 동시대 미술을 소개하며 사회와 문화의 예술적 가치를 반영하는 전시를 통해 대중들의 삶 속에 미술문화가 뿌리내릴 수 있도록 하고 있다. 모란미술관 본관은 전시가 열리는 공간으로, 6개의 전시실이 2층으로 구성되어 있다. 건축가 이영범이 설계한 수장고와 모란탑(수장고와 노래하는 탑)은 미국건축가협회(AIA)뉴욕시지부에서 디자인상을 받은 건축물로 미술관의 소장품과 자료를 보관하는 곳이자 순수조형물이다. 모란탑 안에는 루브르 미술관의 주물 아틀리에(L'atelier de moulage du Musée du Louvre)에서 로댕의 원작을 바탕으로 석고 주조한 오귀스트 로댕(Auguste Rodin, 1840-1917)의 (1891~1898) 조각상이 있다. 모란미술관의 야외조각전시장은 8,600여 평에 이르는 넓은 공간으로 국내외 유명 조각가들의 작품이 자연과 함께 어우러져 있어 자연과 예술의 아름다움을 만끽할 수 있다. 또한 다양한 문화행사가 열리는 장으로 시민들을 위한 문화공간으로 활용되고 있다. 모란스페이스(별관)는 문화행사 및 다양한 전시가 가능한 갤러리 공간으로 대관이 가능하며, 모란미술관학교 및 미술관 교육프로그램이 진행되는 공간으로 지역사회 교육발전 시설로 등록되어 운영되고 있다.",
+      "fusion_score": 0.03200204813108039,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 1,
+      "rerank_score": 0.941009521484375,
+      "rank": 1,
+      "score": 0.941009521484375,
+      "score_type": "cross_encoder",
+      "distance": 0.5331524014472961,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0463",
+      "source_doc_ids": [
+        "DOC-B0463-TOUR_API-129770"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0463-TOUR_API-129770",
+          "source_type": "TOUR_API",
+          "source_record_id": "129770",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=226",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 42,
+          "doc_ids": [
+            "DOC-B0463-TOUR_API-129770"
+          ]
+        },
+        {
+          "start": 43,
+          "end": 188,
+          "doc_ids": [
+            "DOC-B0463-TOUR_API-129770"
+          ]
+        },
+        {
+          "start": 189,
+          "end": 235,
+          "doc_ids": [
+            "DOC-B0463-TOUR_API-129770"
+          ]
+        },
+        {
+          "start": 236,
+          "end": 337,
+          "doc_ids": [
+            "DOC-B0463-TOUR_API-129770"
+          ]
+        },
+        {
+          "start": 338,
+          "end": 481,
+          "doc_ids": [
+            "DOC-B0463-TOUR_API-129770"
+          ]
+        },
+        {
+          "start": 482,
+          "end": 575,
+          "doc_ids": [
+            "DOC-B0463-TOUR_API-129770"
+          ]
+        },
+        {
+          "start": 576,
+          "end": 620,
+          "doc_ids": [
+            "DOC-B0463-TOUR_API-129770"
+          ]
+        },
+        {
+          "start": 621,
+          "end": 730,
+          "doc_ids": [
+            "DOC-B0463-TOUR_API-129770"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=226",
+      "text": "모란미술관은 경기도 마석에 위치한 사립미술관으로 1990년 4월에 개관했다. 조각전문미술관으로 출발하여 한국 현대조각의 향방을 모색하는 연구와 기획전을 개최해 왔고, 현재에는 조각뿐 아니라 다양한 장르의 동시대 미술을 소개하며 사회와 문화의 예술적 가치를 반영하는 전시를 통해 대중들의 삶 속에 미술문화가 뿌리내릴 수 있도록 하고 있다. 모란미술관 본관은 전시가 열리는 공간으로, 6개의 전시실이 2층으로 구성되어 있다. 건축가 이영범이 설계한 수장고와 모란탑(수장고와 노래하는 탑)은 미국건축가협회(AIA)뉴욕시지부에서 디자인상을 받은 건축물로 미술관의 소장품과 자료를 보관하는 곳이자 순수조형물이다. 모란탑 안에는 루브르 미술관의 주물 아틀리에(L'atelier de moulage du Musée du Louvre)에서 로댕의 원작을 바탕으로 석고 주조한 오귀스트 로댕(Auguste Rodin, 1840-1917)의 (1891~1898) 조각상이 있다. 모란미술관의 야외조각전시장은 8,600여 평에 이르는 넓은 공간으로 국내외 유명 조각가들의 작품이 자연과 함께 어우러져 있어 자연과 예술의 아름다움을 만끽할 수 있다. 또한 다양한 문화행사가 열리는 장으로 시민들을 위한 문화공간으로 활용되고 있다. 모란스페이스(별관)는 문화행사 및 다양한 전시가 가능한 갤러리 공간으로 대관이 가능하며, 모란미술관학교 및 미술관 교육프로그램이 진행되는 공간으로 지역사회 교육발전 시설로 등록되어 운영되고 있다.",
+      "sido": "경기도",
+      "sigungu": "남양주시",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=226"
+      ],
+      "evidence_id": "E1",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=334",
+        "fields": {
+          "name": "모란미술관",
+          "sido": "경기도",
+          "sigungu": "남양주시",
+          "address": "경기도 남양주시 화도읍 경춘로2110번길 8",
+          "ownership_type": "사립",
+          "adult_fee": "10000",
+          "youth_fee": "6000",
+          "child_fee": "5000",
+          "adult_fee_status": "BASE_FEE_PAID",
+          "weekday_open": "10:00",
+          "weekday_close": "18:00",
+          "holiday_open": "10:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "월+1월 1일+설 연휴+추석 연휴+미술관 지정일"
+        },
+        "base_data_date": "2026-04-01",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0018",
+      "name": "창원시립마산문신미술관",
+      "document": "창원시의 전경이 내려다보이는 추산동 언덕에 위치한 문신미술관은 작가 문신의 작품과 예술 혼이 고스란히 남아있는 곳이다. 파리에서 활동하던 문신은 1980년 유년 시절을 보낸 마산으로 귀국하여 15년 세월에 걸쳐서 직접 미술관 건립하여 1994년 문신미술관이 개관하게 되었다. 미술관 개관 1년 후 타계하면서 사랑하는 고향에 미술관을 바치고 싶다는 작가의 유언에 따라 2003년 문신미술관은 시에 기증되어 시립미술관으로 운영해 오고 있다. 창원시에서는 작가 문신의 또 다른 작품세계를 보여주기 위하여 문신원형미술관을 건립하여 2010년 10월 개관하여 116여 점의 석고원형작품을 소장·전시하고 있다. 미술관은 제1전시관, 제2전시관, 야외조각전시장, 문신원형미술관으로 구성되어 있으며 조각, 석고원형, 유화, 채화, 드로잉, 유품, 공구 등 총 3,900여 점의 작품 및 자료를 소장하고 있다. 또한 기획 전시, 사회교육 프로그램 운영, 문화행사 등을 통해 지역 시민의 문화에 대한 관심과 이해를 높이고 지역 문화와 예술 발전에 기여하고자 노력하고 있다. 작가 문신의 작품세계를 보여주기 위하여 문신원형미술관을 건립, 2010년 10월 개관하여 116여 점의 석고원형작품을 소장·전시하고 있음",
+      "metadata": {
+        "homepage_url": "https://www.changwon.go.kr/moonshin/",
+        "ownership_type": "공립",
+        "latitude": 35.20675249,
+        "source_types": "BASE|TOUR_API",
+        "requires_manual_review": true,
+        "transport_notes": "경남데파트 정류장 하차 101번+102번+103번+106번+107번+108번",
+        "adult_fee_status": "BASE_FEE_PAID",
+        "image_copyright": "Type1",
+        "child_fee": 200.0,
+        "image_url": "http://tong.visitkorea.or.kr/cms/resource/61/3569161_image2_1.jpg",
+        "closure_rule_raw": "매주월+1월 1일+설날+추석당일",
+        "youth_fee": 200.0,
+        "adult_fee": 500.0,
+        "holiday_open": "09:00",
+        "sido": "경상남도",
+        "sigungu": "창원시",
+        "name": "창원시립마산문신미술관",
+        "weekday_close": "18:00",
+        "holiday_close": "18:00",
+        "longitude": 128.569266,
+        "address": "경상남도 창원시 마산합포구 문신길 147",
+        "weekday_open": "09:00"
+      },
+      "vector_rank": null,
+      "bm25_rank": 1,
+      "vector_distance": null,
+      "vector_score": null,
+      "bm25_score": 28.12931337796344,
+      "vector_document": "",
+      "bm25_document": "창원시의 전경이 내려다보이는 추산동 언덕에 위치한 문신미술관은 작가 문신의 작품과 예술 혼이 고스란히 남아있는 곳이다. 파리에서 활동하던 문신은 1980년 유년 시절을 보낸 마산으로 귀국하여 15년 세월에 걸쳐서 직접 미술관 건립하여 1994년 문신미술관이 개관하게 되었다. 미술관 개관 1년 후 타계하면서 사랑하는 고향에 미술관을 바치고 싶다는 작가의 유언에 따라 2003년 문신미술관은 시에 기증되어 시립미술관으로 운영해 오고 있다. 창원시에서는 작가 문신의 또 다른 작품세계를 보여주기 위하여 문신원형미술관을 건립하여 2010년 10월 개관하여 116여 점의 석고원형작품을 소장·전시하고 있다. 미술관은 제1전시관, 제2전시관, 야외조각전시장, 문신원형미술관으로 구성되어 있으며 조각, 석고원형, 유화, 채화, 드로잉, 유품, 공구 등 총 3,900여 점의 작품 및 자료를 소장하고 있다. 또한 기획 전시, 사회교육 프로그램 운영, 문화행사 등을 통해 지역 시민의 문화에 대한 관심과 이해를 높이고 지역 문화와 예술 발전에 기여하고자 노력하고 있다. 작가 문신의 작품세계를 보여주기 위하여 문신원형미술관을 건립, 2010년 10월 개관하여 116여 점의 석고원형작품을 소장·전시하고 있음",
+      "best_span_id": "chroma:M0018",
+      "best_span_text": "창원시의 전경이 내려다보이는 추산동 언덕에 위치한 문신미술관은 작가 문신의 작품과 예술 혼이 고스란히 남아있는 곳이다. 파리에서 활동하던 문신은 1980년 유년 시절을 보낸 마산으로 귀국하여 15년 세월에 걸쳐서 직접 미술관 건립하여 1994년 문신미술관이 개관하게 되었다. 미술관 개관 1년 후 타계하면서 사랑하는 고향에 미술관을 바치고 싶다는 작가의 유언에 따라 2003년 문신미술관은 시에 기증되어 시립미술관으로 운영해 오고 있다. 창원시에서는 작가 문신의 또 다른 작품세계를 보여주기 위하여 문신원형미술관을 건립하여 2010년 10월 개관하여 116여 점의 석고원형작품을 소장·전시하고 있다. 미술관은 제1전시관, 제2전시관, 야외조각전시장, 문신원형미술관으로 구성되어 있으며 조각, 석고원형, 유화, 채화, 드로잉, 유품, 공구 등 총 3,900여 점의 작품 및 자료를 소장하고 있다. 또한 기획 전시, 사회교육 프로그램 운영, 문화행사 등을 통해 지역 시민의 문화에 대한 관심과 이해를 높이고 지역 문화와 예술 발전에 기여하고자 노력하고 있다. 작가 문신의 작품세계를 보여주기 위하여 문신원형미술관을 건립, 2010년 10월 개관하여 116여 점의 석고원형작품을 소장·전시하고 있음",
+      "fusion_score": 0.01639344262295082,
+      "retrieved_by": [
+        "bm25"
+      ],
+      "fusion_rank": 7,
+      "rerank_score": 0.9374017119407654,
+      "rank": 2,
+      "score": 0.9374017119407654,
+      "score_type": "cross_encoder",
+      "distance": null,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "bm25"
+      ],
+      "retriever": "bm25",
+      "span_id": "chroma:M0018",
+      "source_doc_ids": [
+        "DOC-B0018-TOUR_API-130086",
+        "DOC-B0018-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0018-TOUR_API-130086",
+          "source_type": "TOUR_API",
+          "source_record_id": "130086",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=14",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        },
+        {
+          "doc_id": "DOC-B0018-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0018",
+          "source_locator": "data/raw/museum_base_1070.csv#row=19",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 66,
+          "doc_ids": [
+            "DOC-B0018-TOUR_API-130086"
+          ]
+        },
+        {
+          "start": 67,
+          "end": 153,
+          "doc_ids": [
+            "DOC-B0018-TOUR_API-130086"
+          ]
+        },
+        {
+          "start": 154,
+          "end": 244,
+          "doc_ids": [
+            "DOC-B0018-TOUR_API-130086"
+          ]
+        },
+        {
+          "start": 245,
+          "end": 335,
+          "doc_ids": [
+            "DOC-B0018-TOUR_API-130086"
+          ]
+        },
+        {
+          "start": 336,
+          "end": 444,
+          "doc_ids": [
+            "DOC-B0018-TOUR_API-130086"
+          ]
+        },
+        {
+          "start": 445,
+          "end": 534,
+          "doc_ids": [
+            "DOC-B0018-TOUR_API-130086"
+          ]
+        },
+        {
+          "start": 535,
+          "end": 611,
+          "doc_ids": [
+            "DOC-B0018-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=14",
+      "text": "창원시의 전경이 내려다보이는 추산동 언덕에 위치한 문신미술관은 작가 문신의 작품과 예술 혼이 고스란히 남아있는 곳이다. 파리에서 활동하던 문신은 1980년 유년 시절을 보낸 마산으로 귀국하여 15년 세월에 걸쳐서 직접 미술관 건립하여 1994년 문신미술관이 개관하게 되었다. 미술관 개관 1년 후 타계하면서 사랑하는 고향에 미술관을 바치고 싶다는 작가의 유언에 따라 2003년 문신미술관은 시에 기증되어 시립미술관으로 운영해 오고 있다. 창원시에서는 작가 문신의 또 다른 작품세계를 보여주기 위하여 문신원형미술관을 건립하여 2010년 10월 개관하여 116여 점의 석고원형작품을 소장·전시하고 있다. 미술관은 제1전시관, 제2전시관, 야외조각전시장, 문신원형미술관으로 구성되어 있으며 조각, 석고원형, 유화, 채화, 드로잉, 유품, 공구 등 총 3,900여 점의 작품 및 자료를 소장하고 있다. 또한 기획 전시, 사회교육 프로그램 운영, 문화행사 등을 통해 지역 시민의 문화에 대한 관심과 이해를 높이고 지역 문화와 예술 발전에 기여하고자 노력하고 있다. 작가 문신의 작품세계를 보여주기 위하여 문신원형미술관을 건립, 2010년 10월 개관하여 116여 점의 석고원형작품을 소장·전시하고 있음",
+      "sido": "경상남도",
+      "sigungu": "창원시",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=14"
+      ],
+      "evidence_id": "E2",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=18",
+        "fields": {
+          "name": "창원시립마산문신미술관",
+          "sido": "경상남도",
+          "sigungu": "창원시",
+          "address": "경상남도 창원시 마산합포구 문신길 147",
+          "ownership_type": "공립",
+          "adult_fee": "500",
+          "youth_fee": "200",
+          "child_fee": "200",
+          "adult_fee_status": "BASE_FEE_PAID",
+          "weekday_open": "09:00",
+          "weekday_close": "18:00",
+          "holiday_open": "09:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "매주월+1월 1일+설날+추석당일"
+        },
+        "base_data_date": "2026-09-01",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0709",
+      "name": "리각미술관",
+      "document": "리각미술관은 조각가 이종각 선생의 예술적 열정과 성취를 보존하고 연구하기 위한 기념적 성격의 미술관으로, 관의 명칭은 조각가 이종각의 이름에서 중간자를 빼고 작명하였다. 갈수록 심화되고 있는 서울의 문화집중현상에 대한 보완적 혹은 대안적 성격을 갖는 ‘지역’의 현대미술관이라 할 수 있다. 1985년 3월 충청북도 청원에 ‘이종각 야외조각 미술관’을 개관했으나 1993년 12월에 현재 위치하고 있는 충청남도 천안으로 이전하였다. 1994년 10월에 야외조각공원과 실내전시공간을 완공한 후 1997년 1월에 ‘리각미술관’으로 명칭을 변경하였다. 리각미술관은 야외조각공원 15,700㎡(약 4,750평)과 실내전시관 850㎡(약 260평)으로 이루어져 있다. 야외조각공원에는 이종각 조각가의 작품이 상설전시 되어 있으며, 기획전을 통해 다양한 현대미술의 실험을 담아내고 있다. 이종각 조각가의 예술정신을 엿볼 수 있는 현대미술관",
+      "metadata": {
+        "adult_fee": 3000.0,
+        "fee_notes": "0",
+        "image_copyright": "Type3",
+        "transport_notes": "버스 51,52",
+        "latitude": 36.82015665,
+        "closure_rule_raw": "연중무휴",
+        "requires_manual_review": true,
+        "holiday_open": "11:00",
+        "youth_fee": 2000.0,
+        "holiday_close": "18:00",
+        "source_types": "BASE|TOUR_API",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/22/3337022_image2_1.JPG",
+        "address": "충청남도 천안시 동남구 태조산길 245",
+        "sido": "충청남도",
+        "longitude": 127.186286,
+        "sigungu": "천안시",
+        "name": "리각미술관",
+        "child_fee": 2000.0,
+        "adult_fee_status": "BASE_FEE_PAID",
+        "homepage_url": "http://ligak.co.kr/",
+        "ownership_type": "사립",
+        "weekday_close": "18:00",
+        "weekday_open": "11:00"
+      },
+      "vector_rank": 5,
+      "bm25_rank": 2,
+      "vector_distance": 0.5460723042488098,
+      "vector_score": null,
+      "bm25_score": 23.27635072443016,
+      "vector_document": "리각미술관은 조각가 이종각 선생의 예술적 열정과 성취를 보존하고 연구하기 위한 기념적 성격의 미술관으로, 관의 명칭은 조각가 이종각의 이름에서 중간자를 빼고 작명하였다. 갈수록 심화되고 있는 서울의 문화집중현상에 대한 보완적 혹은 대안적 성격을 갖는 ‘지역’의 현대미술관이라 할 수 있다. 1985년 3월 충청북도 청원에 ‘이종각 야외조각 미술관’을 개관했으나 1993년 12월에 현재 위치하고 있는 충청남도 천안으로 이전하였다. 1994년 10월에 야외조각공원과 실내전시공간을 완공한 후 1997년 1월에 ‘리각미술관’으로 명칭을 변경하였다. 리각미술관은 야외조각공원 15,700㎡(약 4,750평)과 실내전시관 850㎡(약 260평)으로 이루어져 있다. 야외조각공원에는 이종각 조각가의 작품이 상설전시 되어 있으며, 기획전을 통해 다양한 현대미술의 실험을 담아내고 있다. 이종각 조각가의 예술정신을 엿볼 수 있는 현대미술관",
+      "bm25_document": "리각미술관은 조각가 이종각 선생의 예술적 열정과 성취를 보존하고 연구하기 위한 기념적 성격의 미술관으로, 관의 명칭은 조각가 이종각의 이름에서 중간자를 빼고 작명하였다. 갈수록 심화되고 있는 서울의 문화집중현상에 대한 보완적 혹은 대안적 성격을 갖는 ‘지역’의 현대미술관이라 할 수 있다. 1985년 3월 충청북도 청원에 ‘이종각 야외조각 미술관’을 개관했으나 1993년 12월에 현재 위치하고 있는 충청남도 천안으로 이전하였다. 1994년 10월에 야외조각공원과 실내전시공간을 완공한 후 1997년 1월에 ‘리각미술관’으로 명칭을 변경하였다. 리각미술관은 야외조각공원 15,700㎡(약 4,750평)과 실내전시관 850㎡(약 260평)으로 이루어져 있다. 야외조각공원에는 이종각 조각가의 작품이 상설전시 되어 있으며, 기획전을 통해 다양한 현대미술의 실험을 담아내고 있다. 이종각 조각가의 예술정신을 엿볼 수 있는 현대미술관",
+      "best_span_id": "chroma:M0709",
+      "best_span_text": "리각미술관은 조각가 이종각 선생의 예술적 열정과 성취를 보존하고 연구하기 위한 기념적 성격의 미술관으로, 관의 명칭은 조각가 이종각의 이름에서 중간자를 빼고 작명하였다. 갈수록 심화되고 있는 서울의 문화집중현상에 대한 보완적 혹은 대안적 성격을 갖는 ‘지역’의 현대미술관이라 할 수 있다. 1985년 3월 충청북도 청원에 ‘이종각 야외조각 미술관’을 개관했으나 1993년 12월에 현재 위치하고 있는 충청남도 천안으로 이전하였다. 1994년 10월에 야외조각공원과 실내전시공간을 완공한 후 1997년 1월에 ‘리각미술관’으로 명칭을 변경하였다. 리각미술관은 야외조각공원 15,700㎡(약 4,750평)과 실내전시관 850㎡(약 260평)으로 이루어져 있다. 야외조각공원에는 이종각 조각가의 작품이 상설전시 되어 있으며, 기획전을 통해 다양한 현대미술의 실험을 담아내고 있다. 이종각 조각가의 예술정신을 엿볼 수 있는 현대미술관",
+      "fusion_score": 0.0315136476426799,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 2,
+      "rerank_score": 0.6310051679611206,
+      "rank": 3,
+      "score": 0.6310051679611206,
+      "score_type": "cross_encoder",
+      "distance": 0.5460723042488098,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0709",
+      "source_doc_ids": [
+        "DOC-B0709-TOUR_API-2553395",
+        "DOC-B0709-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0709-TOUR_API-2553395",
+          "source_type": "TOUR_API",
+          "source_record_id": "2553395",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=346",
+          "match_trust": "RECHECKED_BY_RULE_NOT_HUMAN_APPROVED"
+        },
+        {
+          "doc_id": "DOC-B0709-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0709",
+          "source_locator": "data/raw/museum_base_1070.csv#row=710",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 94,
+          "doc_ids": [
+            "DOC-B0709-TOUR_API-2553395"
+          ]
+        },
+        {
+          "start": 95,
+          "end": 161,
+          "doc_ids": [
+            "DOC-B0709-TOUR_API-2553395"
+          ]
+        },
+        {
+          "start": 162,
+          "end": 240,
+          "doc_ids": [
+            "DOC-B0709-TOUR_API-2553395"
+          ]
+        },
+        {
+          "start": 241,
+          "end": 304,
+          "doc_ids": [
+            "DOC-B0709-TOUR_API-2553395"
+          ]
+        },
+        {
+          "start": 305,
+          "end": 367,
+          "doc_ids": [
+            "DOC-B0709-TOUR_API-2553395"
+          ]
+        },
+        {
+          "start": 368,
+          "end": 433,
+          "doc_ids": [
+            "DOC-B0709-TOUR_API-2553395"
+          ]
+        },
+        {
+          "start": 434,
+          "end": 462,
+          "doc_ids": [
+            "DOC-B0709-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=346",
+      "text": "리각미술관은 조각가 이종각 선생의 예술적 열정과 성취를 보존하고 연구하기 위한 기념적 성격의 미술관으로, 관의 명칭은 조각가 이종각의 이름에서 중간자를 빼고 작명하였다. 갈수록 심화되고 있는 서울의 문화집중현상에 대한 보완적 혹은 대안적 성격을 갖는 ‘지역’의 현대미술관이라 할 수 있다. 1985년 3월 충청북도 청원에 ‘이종각 야외조각 미술관’을 개관했으나 1993년 12월에 현재 위치하고 있는 충청남도 천안으로 이전하였다. 1994년 10월에 야외조각공원과 실내전시공간을 완공한 후 1997년 1월에 ‘리각미술관’으로 명칭을 변경하였다. 리각미술관은 야외조각공원 15,700㎡(약 4,750평)과 실내전시관 850㎡(약 260평)으로 이루어져 있다. 야외조각공원에는 이종각 조각가의 작품이 상설전시 되어 있으며, 기획전을 통해 다양한 현대미술의 실험을 담아내고 있다. 이종각 조각가의 예술정신을 엿볼 수 있는 현대미술관",
+      "sido": "충청남도",
+      "sigungu": "천안시",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=346"
+      ],
+      "evidence_id": "E3",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=493",
+        "fields": {
+          "name": "리각미술관",
+          "sido": "충청남도",
+          "sigungu": "천안시",
+          "address": "충청남도 천안시 동남구 태조산길 245",
+          "ownership_type": "사립",
+          "adult_fee": "3000",
+          "youth_fee": "2000",
+          "child_fee": "2000",
+          "adult_fee_status": "BASE_FEE_PAID",
+          "weekday_open": "11:00",
+          "weekday_close": "18:00",
+          "holiday_open": "11:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "연중무휴"
+        },
+        "base_data_date": "2024-07-11",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0532",
+      "name": "금구원 야외조각미술관",
+      "document": "금구원조각미술관은 1966년 김오성이 세운 우리나라 최초의 조각 공원으로 2003년 문화관광부에 등록된 사립 박물관 제277호이다. 이곳에 전시하고 있는 작품 100여 점은 사실적인 여체가 주류를 이루고 있는데, 작품에서 풍기는 이미지가 서로 연결되어 있는 것 같아서 마치 3막 5장의 연극을 보는 것과 같다. 야외 전시장에는 변산반도에 자생하는 호랑가시나무 등 많은 수목들 사이에 변산반도 연작, 농부의 손, 유한과 무한에 대한 사유, 서쪽 하늘, 봄 하늘의 별자리, 분수령 등의 조각 예술의 극치를 보여주고 있는 작품들이 있어 자연과 예술의 정취를 한껏 감상할 수 있다. 이 조각품들은 대리석이나 화강암으로 소형작품에서 대형 작품에 이르기까지 다양한데 큰 것은 450㎝나 된다. 또 이곳에는 별자리를 연구하는 민간 최초로 1991년에 세운 금구원 천문대가 있어 천체에 관심이 있는 학생·일반인 등 관광객들의 체험관광지로도 각광을 받고 있다. 조각가 김오성의 개인작품을 야외에 전시하면서 자연발생적으로 성장되어 왔으며, 그 토대는 부친 김병렬(농촌개척자, 농민교육자, 1963년 대통령상금탑산업훈장, 1964년 제5회 3 ·1문화상 수상)씨가 농민학교를 설립하기 위하여 숲을 개척하고 금구원 농장을 세운 1966년부터 이루어졌다.",
+      "metadata": {
+        "holiday_open": "09:00",
+        "longitude": 126.4888399,
+        "weekday_open": "09:00",
+        "closure_rule_raw": "연중무휴",
+        "homepage_url": "http://www.keumkuwon.org/",
+        "image_copyright": "Type3",
+        "child_fee": 1000.0,
+        "adult_fee_status": "BASE_FEE_PAID",
+        "name": "금구원 야외조각미술관",
+        "weekday_close": "19:00",
+        "adult_fee": 2000.0,
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/26/3375126_image2_1.JPG",
+        "source_types": "BASE|TOUR_API",
+        "youth_fee": 2000.0,
+        "address": "전북특별자치도 부안군 변산면 조각공원길 31",
+        "sido": "전북특별자치도",
+        "latitude": 35.62063562,
+        "sigungu": "부안군",
+        "requires_manual_review": true,
+        "ownership_type": "사립",
+        "holiday_close": "19:00"
+      },
+      "vector_rank": null,
+      "bm25_rank": 5,
+      "vector_distance": null,
+      "vector_score": null,
+      "bm25_score": 16.80796660130417,
+      "vector_document": "",
+      "bm25_document": "금구원조각미술관은 1966년 김오성이 세운 우리나라 최초의 조각 공원으로 2003년 문화관광부에 등록된 사립 박물관 제277호이다. 이곳에 전시하고 있는 작품 100여 점은 사실적인 여체가 주류를 이루고 있는데, 작품에서 풍기는 이미지가 서로 연결되어 있는 것 같아서 마치 3막 5장의 연극을 보는 것과 같다. 야외 전시장에는 변산반도에 자생하는 호랑가시나무 등 많은 수목들 사이에 변산반도 연작, 농부의 손, 유한과 무한에 대한 사유, 서쪽 하늘, 봄 하늘의 별자리, 분수령 등의 조각 예술의 극치를 보여주고 있는 작품들이 있어 자연과 예술의 정취를 한껏 감상할 수 있다. 이 조각품들은 대리석이나 화강암으로 소형작품에서 대형 작품에 이르기까지 다양한데 큰 것은 450㎝나 된다. 또 이곳에는 별자리를 연구하는 민간 최초로 1991년에 세운 금구원 천문대가 있어 천체에 관심이 있는 학생·일반인 등 관광객들의 체험관광지로도 각광을 받고 있다. 조각가 김오성의 개인작품을 야외에 전시하면서 자연발생적으로 성장되어 왔으며, 그 토대는 부친 김병렬(농촌개척자, 농민교육자, 1963년 대통령상금탑산업훈장, 1964년 제5회 3 ·1문화상 수상)씨가 농민학교를 설립하기 위하여 숲을 개척하고 금구원 농장을 세운 1966년부터 이루어졌다.",
+      "best_span_id": "chroma:M0532",
+      "best_span_text": "금구원조각미술관은 1966년 김오성이 세운 우리나라 최초의 조각 공원으로 2003년 문화관광부에 등록된 사립 박물관 제277호이다. 이곳에 전시하고 있는 작품 100여 점은 사실적인 여체가 주류를 이루고 있는데, 작품에서 풍기는 이미지가 서로 연결되어 있는 것 같아서 마치 3막 5장의 연극을 보는 것과 같다. 야외 전시장에는 변산반도에 자생하는 호랑가시나무 등 많은 수목들 사이에 변산반도 연작, 농부의 손, 유한과 무한에 대한 사유, 서쪽 하늘, 봄 하늘의 별자리, 분수령 등의 조각 예술의 극치를 보여주고 있는 작품들이 있어 자연과 예술의 정취를 한껏 감상할 수 있다. 이 조각품들은 대리석이나 화강암으로 소형작품에서 대형 작품에 이르기까지 다양한데 큰 것은 450㎝나 된다. 또 이곳에는 별자리를 연구하는 민간 최초로 1991년에 세운 금구원 천문대가 있어 천체에 관심이 있는 학생·일반인 등 관광객들의 체험관광지로도 각광을 받고 있다. 조각가 김오성의 개인작품을 야외에 전시하면서 자연발생적으로 성장되어 왔으며, 그 토대는 부친 김병렬(농촌개척자, 농민교육자, 1963년 대통령상금탑산업훈장, 1964년 제5회 3 ·1문화상 수상)씨가 농민학교를 설립하기 위하여 숲을 개척하고 금구원 농장을 세운 1966년부터 이루어졌다.",
+      "fusion_score": 0.015384615384615385,
+      "retrieved_by": [
+        "bm25"
+      ],
+      "fusion_rank": 10,
+      "rerank_score": 0.6013085842132568,
+      "rank": 4,
+      "score": 0.6013085842132568,
+      "score_type": "cross_encoder",
+      "distance": null,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "bm25"
+      ],
+      "retriever": "bm25",
+      "span_id": "chroma:M0532",
+      "source_doc_ids": [
+        "DOC-B0532-TOUR_API-252581",
+        "DOC-B0532-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0532-TOUR_API-252581",
+          "source_type": "TOUR_API",
+          "source_record_id": "252581",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=264",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        },
+        {
+          "doc_id": "DOC-B0532-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0532",
+          "source_locator": "data/raw/museum_base_1070.csv#row=533",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 73,
+          "doc_ids": [
+            "DOC-B0532-TOUR_API-252581"
+          ]
+        },
+        {
+          "start": 74,
+          "end": 173,
+          "doc_ids": [
+            "DOC-B0532-TOUR_API-252581"
+          ]
+        },
+        {
+          "start": 174,
+          "end": 321,
+          "doc_ids": [
+            "DOC-B0532-TOUR_API-252581"
+          ]
+        },
+        {
+          "start": 322,
+          "end": 381,
+          "doc_ids": [
+            "DOC-B0532-TOUR_API-252581"
+          ]
+        },
+        {
+          "start": 382,
+          "end": 472,
+          "doc_ids": [
+            "DOC-B0532-TOUR_API-252581"
+          ]
+        },
+        {
+          "start": 473,
+          "end": 633,
+          "doc_ids": [
+            "DOC-B0532-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=264",
+      "text": "금구원조각미술관은 1966년 김오성이 세운 우리나라 최초의 조각 공원으로 2003년 문화관광부에 등록된 사립 박물관 제277호이다. 이곳에 전시하고 있는 작품 100여 점은 사실적인 여체가 주류를 이루고 있는데, 작품에서 풍기는 이미지가 서로 연결되어 있는 것 같아서 마치 3막 5장의 연극을 보는 것과 같다. 야외 전시장에는 변산반도에 자생하는 호랑가시나무 등 많은 수목들 사이에 변산반도 연작, 농부의 손, 유한과 무한에 대한 사유, 서쪽 하늘, 봄 하늘의 별자리, 분수령 등의 조각 예술의 극치를 보여주고 있는 작품들이 있어 자연과 예술의 정취를 한껏 감상할 수 있다. 이 조각품들은 대리석이나 화강암으로 소형작품에서 대형 작품에 이르기까지 다양한데 큰 것은 450㎝나 된다. 또 이곳에는 별자리를 연구하는 민간 최초로 1991년에 세운 금구원 천문대가 있어 천체에 관심이 있는 학생·일반인 등 관광객들의 체험관광지로도 각광을 받고 있다. 조각가 김오성의 개인작품을 야외에 전시하면서 자연발생적으로 성장되어 왔으며, 그 토대는 부친 김병렬(농촌개척자, 농민교육자, 1963년 대통령상금탑산업훈장, 1964년 제5회 3 ·1문화상 수상)씨가 농민학교를 설립하기 위하여 숲을 개척하고 금구원 농장을 세운 1966년부터 이루어졌다.",
+      "sido": "전북특별자치도",
+      "sigungu": "부안군",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=264"
+      ],
+      "evidence_id": "E4",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=374",
+        "fields": {
+          "name": "금구원 야외조각미술관",
+          "sido": "전북특별자치도",
+          "sigungu": "부안군",
+          "address": "전북특별자치도 부안군 변산면 조각공원길 31",
+          "ownership_type": "사립",
+          "adult_fee": "2000",
+          "youth_fee": "2000",
+          "child_fee": "1000",
+          "adult_fee_status": "BASE_FEE_PAID",
+          "weekday_open": "09:00",
+          "weekday_close": "19:00",
+          "holiday_open": "09:00",
+          "holiday_close": "19:00",
+          "closure_rule_raw": "연중무휴"
+        },
+        "base_data_date": "2026-01-14",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0629",
+      "name": "성곡미술관",
+      "document": "성곡미술관은 1995년 개관한 공익 미술관으로 한국 현대미술의 발전과 문화 예술 저변 확대를 위해 다양한 전시와 작가 지원 사업을 이어오고 있다. 전통적인 한국의 미감과 정신을 현대적으로 재해석한 기획전은 물론, 국내외 현대미술을 아우르는 개인전과 국제전을 꾸준히 선보이며 신진 작가 발굴과 국제 미술 교류에도 힘쓰고 있다. 본관과 별관, 조각공원으로 이루어져 있으며 자연 속 야외 조각 작품을 감상하며 산책을 즐길 수 있다. 관람객을 위한 아트숍과 카페도 함께 운영해 전시와 휴식을 동시에 즐길 수 있으며 다양한 교육·큐레이터 프로그램을 통해 현대미술을 보다 쉽고 깊이 이해할 수 있는 문화 예술 공간으로 자리매김하고 있다.",
+      "metadata": {
+        "child_fee": 2000.0,
+        "youth_fee": 3000.0,
+        "adult_fee": 5000.0,
+        "source_types": "TOUR_API",
+        "sido": "서울특별시",
+        "image_copyright": "Type3",
+        "holiday_close": "18:00",
+        "longitude": 126.969703,
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/31/3487031_image2_1.png",
+        "weekday_close": "18:00",
+        "weekday_open": "10:00",
+        "requires_manual_review": true,
+        "sigungu": "종로구",
+        "adult_fee_status": "BASE_FEE_PAID",
+        "address": "서울특별시 종로구 경희궁길 42",
+        "latitude": 37.57350943,
+        "ownership_type": "사립",
+        "holiday_open": "10:00",
+        "name": "성곡미술관",
+        "closure_rule_raw": "월요일",
+        "homepage_url": "http://www.sungkokmuseum.org/"
+      },
+      "vector_rank": 4,
+      "bm25_rank": 14,
+      "vector_distance": 0.5427485704421997,
+      "vector_score": null,
+      "bm25_score": 12.62920663357282,
+      "vector_document": "성곡미술관은 1995년 개관한 공익 미술관으로 한국 현대미술의 발전과 문화 예술 저변 확대를 위해 다양한 전시와 작가 지원 사업을 이어오고 있다. 전통적인 한국의 미감과 정신을 현대적으로 재해석한 기획전은 물론, 국내외 현대미술을 아우르는 개인전과 국제전을 꾸준히 선보이며 신진 작가 발굴과 국제 미술 교류에도 힘쓰고 있다. 본관과 별관, 조각공원으로 이루어져 있으며 자연 속 야외 조각 작품을 감상하며 산책을 즐길 수 있다. 관람객을 위한 아트숍과 카페도 함께 운영해 전시와 휴식을 동시에 즐길 수 있으며 다양한 교육·큐레이터 프로그램을 통해 현대미술을 보다 쉽고 깊이 이해할 수 있는 문화 예술 공간으로 자리매김하고 있다.",
+      "bm25_document": "성곡미술관은 1995년 개관한 공익 미술관으로 한국 현대미술의 발전과 문화 예술 저변 확대를 위해 다양한 전시와 작가 지원 사업을 이어오고 있다. 전통적인 한국의 미감과 정신을 현대적으로 재해석한 기획전은 물론, 국내외 현대미술을 아우르는 개인전과 국제전을 꾸준히 선보이며 신진 작가 발굴과 국제 미술 교류에도 힘쓰고 있다. 본관과 별관, 조각공원으로 이루어져 있으며 자연 속 야외 조각 작품을 감상하며 산책을 즐길 수 있다. 관람객을 위한 아트숍과 카페도 함께 운영해 전시와 휴식을 동시에 즐길 수 있으며 다양한 교육·큐레이터 프로그램을 통해 현대미술을 보다 쉽고 깊이 이해할 수 있는 문화 예술 공간으로 자리매김하고 있다.",
+      "best_span_id": "chroma:M0629",
+      "best_span_text": "성곡미술관은 1995년 개관한 공익 미술관으로 한국 현대미술의 발전과 문화 예술 저변 확대를 위해 다양한 전시와 작가 지원 사업을 이어오고 있다. 전통적인 한국의 미감과 정신을 현대적으로 재해석한 기획전은 물론, 국내외 현대미술을 아우르는 개인전과 국제전을 꾸준히 선보이며 신진 작가 발굴과 국제 미술 교류에도 힘쓰고 있다. 본관과 별관, 조각공원으로 이루어져 있으며 자연 속 야외 조각 작품을 감상하며 산책을 즐길 수 있다. 관람객을 위한 아트숍과 카페도 함께 운영해 전시와 휴식을 동시에 즐길 수 있으며 다양한 교육·큐레이터 프로그램을 통해 현대미술을 보다 쉽고 깊이 이해할 수 있는 문화 예술 공간으로 자리매김하고 있다.",
+      "fusion_score": 0.029138513513513514,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 4,
+      "rerank_score": 0.37019798159599304,
+      "rank": 5,
+      "score": 0.37019798159599304,
+      "score_type": "cross_encoder",
+      "distance": 0.5427485704421997,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0629",
+      "source_doc_ids": [
+        "DOC-B0629-TOUR_API-130154"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0629-TOUR_API-130154",
+          "source_type": "TOUR_API",
+          "source_record_id": "130154",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=314",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 81,
+          "doc_ids": [
+            "DOC-B0629-TOUR_API-130154"
+          ]
+        },
+        {
+          "start": 82,
+          "end": 181,
+          "doc_ids": [
+            "DOC-B0629-TOUR_API-130154"
+          ]
+        },
+        {
+          "start": 182,
+          "end": 238,
+          "doc_ids": [
+            "DOC-B0629-TOUR_API-130154"
+          ]
+        },
+        {
+          "start": 239,
+          "end": 350,
+          "doc_ids": [
+            "DOC-B0629-TOUR_API-130154"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=314",
+      "text": "성곡미술관은 1995년 개관한 공익 미술관으로 한국 현대미술의 발전과 문화 예술 저변 확대를 위해 다양한 전시와 작가 지원 사업을 이어오고 있다. 전통적인 한국의 미감과 정신을 현대적으로 재해석한 기획전은 물론, 국내외 현대미술을 아우르는 개인전과 국제전을 꾸준히 선보이며 신진 작가 발굴과 국제 미술 교류에도 힘쓰고 있다. 본관과 별관, 조각공원으로 이루어져 있으며 자연 속 야외 조각 작품을 감상하며 산책을 즐길 수 있다. 관람객을 위한 아트숍과 카페도 함께 운영해 전시와 휴식을 동시에 즐길 수 있으며 다양한 교육·큐레이터 프로그램을 통해 현대미술을 보다 쉽고 깊이 이해할 수 있는 문화 예술 공간으로 자리매김하고 있다.",
+      "sido": "서울특별시",
+      "sigungu": "종로구",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=314"
+      ],
+      "evidence_id": "E5",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=438",
+        "fields": {
+          "name": "성곡미술관",
+          "sido": "서울특별시",
+          "sigungu": "종로구",
+          "address": "서울특별시 종로구 경희궁길 42",
+          "ownership_type": "사립",
+          "adult_fee": "5000",
+          "youth_fee": "3000",
+          "child_fee": "2000",
+          "adult_fee_status": "BASE_FEE_PAID",
+          "weekday_open": "10:00",
+          "weekday_close": "18:00",
+          "holiday_open": "10:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "월요일"
+        },
+        "base_data_date": "2025-11-01",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    }
+  ],
+  "answer": "창원시립마산문신미술관입니다. 문신원형미술관에서 석고 원형 작품을 소장·전시하고, 야외조각전시장도 갖추고 있습니다.[E2]",
+  "retrieval_status": "ok",
+  "answer_status": "answered",
+  "route": "hybrid",
+  "retry_count": 0,
+  "supervisor_verified": true,
+  "rerank_applied": true,
+  "retriever_errors": [],
+  "warnings": [],
+  "duration_ms": 151757.05,
+  "error_type": "",
+  "hit_at_1": 0,
+  "hit_at_3": 1,
+  "hit_at_5": 1,
+  "recall_at_5": 1.0,
+  "mrr_at_10": 0.5
+}

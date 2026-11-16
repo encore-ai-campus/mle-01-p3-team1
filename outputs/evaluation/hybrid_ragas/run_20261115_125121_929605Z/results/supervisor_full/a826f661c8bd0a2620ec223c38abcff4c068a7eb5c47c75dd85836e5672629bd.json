@@ -1,0 +1,675 @@
+{
+  "mode": "supervisor_full",
+  "question_id": "Q114",
+  "evidence": [
+    {
+      "museum_id": "M0172",
+      "name": "양주시립장욱진미술관",
+      "document": "양주시립장욱진미술관은 한국 근현대미술을 대표하는 장욱진의 업적과 정신을 기리며, 한국현대미술의 발전에 이바지하는 미술작품과 자료를 전시, 연구, 수집을 목적으로 합니다.",
+      "metadata": {
+        "holiday_open": "10:00",
+        "holiday_close": "18:00",
+        "weekday_close": "18:00",
+        "name": "양주시립장욱진미술관",
+        "requires_manual_review": true,
+        "weekday_open": "10:00",
+        "youth_fee": 1000.0,
+        "sigungu": "양주시",
+        "longitude": 126.9492504,
+        "latitude": 37.73281632,
+        "adult_fee": 5000.0,
+        "fee_notes": "50프로할인(양주시민(신분증 소지자))+무료(7세 이하+65세 이상+국가유공자+장애인(1~3등급))",
+        "address": "경기도 양주시 장흥면 권율로 193",
+        "sido": "경기도",
+        "source_types": "BASE",
+        "child_fee": 1000.0,
+        "ownership_type": "공립",
+        "closure_rule_raw": "월+1월 1일+설 당일+추석 당일",
+        "adult_fee_status": "BASE_FEE_PAID",
+        "homepage_url": "http://changucchin.yangju.go.kr/"
+      },
+      "vector_rank": 1,
+      "bm25_rank": 1,
+      "vector_distance": 0.3855699300765991,
+      "vector_score": null,
+      "bm25_score": 40.37630644243053,
+      "vector_document": "양주시립장욱진미술관은 한국 근현대미술을 대표하는 장욱진의 업적과 정신을 기리며, 한국현대미술의 발전에 이바지하는 미술작품과 자료를 전시, 연구, 수집을 목적으로 합니다.",
+      "bm25_document": "양주시립장욱진미술관은 한국 근현대미술을 대표하는 장욱진의 업적과 정신을 기리며, 한국현대미술의 발전에 이바지하는 미술작품과 자료를 전시, 연구, 수집을 목적으로 합니다.",
+      "best_span_id": "chroma:M0172",
+      "best_span_text": "양주시립장욱진미술관은 한국 근현대미술을 대표하는 장욱진의 업적과 정신을 기리며, 한국현대미술의 발전에 이바지하는 미술작품과 자료를 전시, 연구, 수집을 목적으로 합니다.",
+      "fusion_score": 0.03278688524590164,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 1,
+      "name_match": true,
+      "rerank_score": 0.9999533891677856,
+      "rank": 1,
+      "score": 0.9999533891677856,
+      "score_type": "cross_encoder",
+      "distance": 0.3855699300765991,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0172",
+      "source_doc_ids": [
+        "DOC-B0172-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0172-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0172",
+          "source_locator": "data/raw/museum_base_1070.csv#row=173",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 94,
+          "doc_ids": [
+            "DOC-B0172-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_base_1070.csv#row=173",
+      "text": "양주시립장욱진미술관은 한국 근현대미술을 대표하는 장욱진의 업적과 정신을 기리며, 한국현대미술의 발전에 이바지하는 미술작품과 자료를 전시, 연구, 수집을 목적으로 합니다.",
+      "sido": "경기도",
+      "sigungu": "양주시",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_base_1070.csv#row=173"
+      ],
+      "evidence_id": "E1",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=113",
+        "fields": {
+          "name": "양주시립장욱진미술관",
+          "sido": "경기도",
+          "sigungu": "양주시",
+          "address": "경기도 양주시 장흥면 권율로 193",
+          "ownership_type": "공립",
+          "adult_fee": "5000",
+          "youth_fee": "1000",
+          "child_fee": "1000",
+          "adult_fee_status": "BASE_FEE_PAID",
+          "weekday_open": "10:00",
+          "weekday_close": "18:00",
+          "holiday_open": "10:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "월+1월 1일+설 당일+추석 당일"
+        },
+        "base_data_date": "2026-08-18",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0987",
+      "name": "부산시립미술관",
+      "document": "미술인구의 저변 확산과 미술창작의 활성화를 목적으로 하여 개관한 최첨단 감각의 현대적 미술관이다. 여러 장르의 작품 전시와 각종 사회교육 프로그램을 실시하여 일반 시민들에게 다양한 문화향유 기회를 제공하는 열린 미술관을 지향하고 있다. 건물은 지하 2층, 지상 3층으로, 전시실과 수장고, 교육연구실, 사무공간, 야외조각 공원 등이 있다. 전시실은 13개의 전시실과 160석의 강당을 비롯하여 전시의 내용에 따라 내부를 적절하게 쓸 수 있도록 개폐식 구조로 되어 있다. 시립미술관에서는 격년제로 짝수 해에 개최되는 비엔날레 축제의 행사장이며, 1년 내내 기획전, 소장품전, 해외 미술전 등이 열려 시민들에게 예술과의 만남의 기회를 제공한다.",
+      "metadata": {
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/62/2712662_image2_1.jpg",
+        "name": "부산시립미술관",
+        "requires_manual_review": true,
+        "sido": "부산광역시",
+        "source_types": "TOUR_API",
+        "holiday_close": "18:00",
+        "homepage_url": "http://art.busan.go.kr/",
+        "transport_notes": "부산 지하철 2호선 벡스코역 하차",
+        "adult_fee_status": "BASE_FEE_PAID",
+        "image_copyright": "Type3",
+        "adult_fee": 2000.0,
+        "youth_fee": 1000.0,
+        "latitude": 35.16668716,
+        "ownership_type": "공립",
+        "holiday_open": "10:00",
+        "child_fee": 1000.0,
+        "weekday_open": "10:00",
+        "longitude": 129.1370273,
+        "address": "부산광역시 해운대구 APEC로 58",
+        "weekday_close": "18:00",
+        "closure_rule_raw": "월",
+        "sigungu": "해운대구",
+        "amenities_raw": "카페"
+      },
+      "vector_rank": null,
+      "bm25_rank": 2,
+      "vector_distance": null,
+      "vector_score": null,
+      "bm25_score": 16.43898371757693,
+      "vector_document": "",
+      "bm25_document": "미술인구의 저변 확산과 미술창작의 활성화를 목적으로 하여 개관한 최첨단 감각의 현대적 미술관이다. 여러 장르의 작품 전시와 각종 사회교육 프로그램을 실시하여 일반 시민들에게 다양한 문화향유 기회를 제공하는 열린 미술관을 지향하고 있다. 건물은 지하 2층, 지상 3층으로, 전시실과 수장고, 교육연구실, 사무공간, 야외조각 공원 등이 있다. 전시실은 13개의 전시실과 160석의 강당을 비롯하여 전시의 내용에 따라 내부를 적절하게 쓸 수 있도록 개폐식 구조로 되어 있다. 시립미술관에서는 격년제로 짝수 해에 개최되는 비엔날레 축제의 행사장이며, 1년 내내 기획전, 소장품전, 해외 미술전 등이 열려 시민들에게 예술과의 만남의 기회를 제공한다.",
+      "best_span_id": "chroma:M0987",
+      "best_span_text": "미술인구의 저변 확산과 미술창작의 활성화를 목적으로 하여 개관한 최첨단 감각의 현대적 미술관이다. 여러 장르의 작품 전시와 각종 사회교육 프로그램을 실시하여 일반 시민들에게 다양한 문화향유 기회를 제공하는 열린 미술관을 지향하고 있다. 건물은 지하 2층, 지상 3층으로, 전시실과 수장고, 교육연구실, 사무공간, 야외조각 공원 등이 있다. 전시실은 13개의 전시실과 160석의 강당을 비롯하여 전시의 내용에 따라 내부를 적절하게 쓸 수 있도록 개폐식 구조로 되어 있다. 시립미술관에서는 격년제로 짝수 해에 개최되는 비엔날레 축제의 행사장이며, 1년 내내 기획전, 소장품전, 해외 미술전 등이 열려 시민들에게 예술과의 만남의 기회를 제공한다.",
+      "fusion_score": 0.016129032258064516,
+      "retrieved_by": [
+        "bm25"
+      ],
+      "fusion_rank": 5,
+      "rerank_score": 0.013469638302922249,
+      "rank": 2,
+      "score": 0.013469638302922249,
+      "score_type": "cross_encoder",
+      "distance": null,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "bm25"
+      ],
+      "retriever": "bm25",
+      "span_id": "chroma:M0987",
+      "source_doc_ids": [
+        "DOC-B0987-TOUR_API-130166"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0987-TOUR_API-130166",
+          "source_type": "TOUR_API",
+          "source_record_id": "130166",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=459",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 54,
+          "doc_ids": [
+            "DOC-B0987-TOUR_API-130166"
+          ]
+        },
+        {
+          "start": 55,
+          "end": 131,
+          "doc_ids": [
+            "DOC-B0987-TOUR_API-130166"
+          ]
+        },
+        {
+          "start": 132,
+          "end": 189,
+          "doc_ids": [
+            "DOC-B0987-TOUR_API-130166"
+          ]
+        },
+        {
+          "start": 190,
+          "end": 262,
+          "doc_ids": [
+            "DOC-B0987-TOUR_API-130166"
+          ]
+        },
+        {
+          "start": 263,
+          "end": 358,
+          "doc_ids": [
+            "DOC-B0987-TOUR_API-130166"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=459",
+      "text": "미술인구의 저변 확산과 미술창작의 활성화를 목적으로 하여 개관한 최첨단 감각의 현대적 미술관이다. 여러 장르의 작품 전시와 각종 사회교육 프로그램을 실시하여 일반 시민들에게 다양한 문화향유 기회를 제공하는 열린 미술관을 지향하고 있다. 건물은 지하 2층, 지상 3층으로, 전시실과 수장고, 교육연구실, 사무공간, 야외조각 공원 등이 있다. 전시실은 13개의 전시실과 160석의 강당을 비롯하여 전시의 내용에 따라 내부를 적절하게 쓸 수 있도록 개폐식 구조로 되어 있다. 시립미술관에서는 격년제로 짝수 해에 개최되는 비엔날레 축제의 행사장이며, 1년 내내 기획전, 소장품전, 해외 미술전 등이 열려 시민들에게 예술과의 만남의 기회를 제공한다.",
+      "sido": "부산광역시",
+      "sigungu": "해운대구",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=459"
+      ],
+      "evidence_id": "E2",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=673",
+        "fields": {
+          "name": "부산시립미술관",
+          "sido": "부산광역시",
+          "sigungu": "해운대구",
+          "address": "부산광역시 해운대구 APEC로 58",
+          "ownership_type": "공립",
+          "adult_fee": "2000",
+          "youth_fee": "1000",
+          "child_fee": "1000",
+          "adult_fee_status": "BASE_FEE_PAID",
+          "weekday_open": "10:00",
+          "weekday_close": "18:00",
+          "holiday_open": "10:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "월",
+          "amenities_raw": "카페"
+        },
+        "base_data_date": "2025-11-20",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0029",
+      "name": "제주도립 김창열미술관",
+      "document": "제주도립 김창열미술관은 ‘물방울 화가’로 널리 알려진 김창열 화백의 주옥같은 작품을 만나 볼 수 있으며, 현대미술의 발전에 이바지하는 미술작품과 자료를 전시, 연구 수집하는 것을 목적을 가지고 있다. 김창열은 미술관 건립을 위해 주요 작품 220점을 기증했다. 홍재승 건축가가 설계한 미술관 하늘에서 보면 중정을 기준으로 거대한 큐브형 건물 8개가 둘러싸인 모습이다. 이는 김창열이 추구한 회귀의 철학을 건축적으로 표현한 것이다.",
+      "metadata": {
+        "ownership_type": "공립",
+        "sido": "제주특별자치도",
+        "image_copyright": "Type1",
+        "youth_fee": 1000.0,
+        "homepage_url": "http://kimtschang-yeul.jeju.go.kr/",
+        "sigungu": "제주시",
+        "name": "제주도립 김창열미술관",
+        "latitude": 33.33907132,
+        "holiday_open": "09:00",
+        "address": "제주특별자치도 제주시 한림읍 용금로 883-5",
+        "fee_notes": "단체 관람 시 할인+도민할인",
+        "adult_fee_status": "BASE_FEE_PAID",
+        "weekday_open": "09:00",
+        "adult_fee": 2000.0,
+        "source_types": "TOUR_API",
+        "closure_rule_raw": "월+1월 1일+설 연휴+추석 연휴",
+        "weekday_close": "18:00",
+        "requires_manual_review": true,
+        "longitude": 126.2686717,
+        "child_fee": 500.0,
+        "holiday_close": "18:00",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/28/4115428_image2_1.jpg"
+      },
+      "vector_rank": null,
+      "bm25_rank": 4,
+      "vector_distance": null,
+      "vector_score": null,
+      "bm25_score": 14.918768723314658,
+      "vector_document": "",
+      "bm25_document": "제주도립 김창열미술관은 ‘물방울 화가’로 널리 알려진 김창열 화백의 주옥같은 작품을 만나 볼 수 있으며, 현대미술의 발전에 이바지하는 미술작품과 자료를 전시, 연구 수집하는 것을 목적을 가지고 있다. 김창열은 미술관 건립을 위해 주요 작품 220점을 기증했다. 홍재승 건축가가 설계한 미술관 하늘에서 보면 중정을 기준으로 거대한 큐브형 건물 8개가 둘러싸인 모습이다. 이는 김창열이 추구한 회귀의 철학을 건축적으로 표현한 것이다.",
+      "best_span_id": "chroma:M0029",
+      "best_span_text": "제주도립 김창열미술관은 ‘물방울 화가’로 널리 알려진 김창열 화백의 주옥같은 작품을 만나 볼 수 있으며, 현대미술의 발전에 이바지하는 미술작품과 자료를 전시, 연구 수집하는 것을 목적을 가지고 있다. 김창열은 미술관 건립을 위해 주요 작품 220점을 기증했다. 홍재승 건축가가 설계한 미술관 하늘에서 보면 중정을 기준으로 거대한 큐브형 건물 8개가 둘러싸인 모습이다. 이는 김창열이 추구한 회귀의 철학을 건축적으로 표현한 것이다.",
+      "fusion_score": 0.015625,
+      "retrieved_by": [
+        "bm25"
+      ],
+      "fusion_rank": 9,
+      "rerank_score": 0.007205246947705746,
+      "rank": 3,
+      "score": 0.007205246947705746,
+      "score_type": "cross_encoder",
+      "distance": null,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "bm25"
+      ],
+      "retriever": "bm25",
+      "span_id": "chroma:M0029",
+      "source_doc_ids": [
+        "DOC-B0029-TOUR_API-2713583"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0029-TOUR_API-2713583",
+          "source_type": "TOUR_API",
+          "source_record_id": "2713583",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=17",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 111,
+          "doc_ids": [
+            "DOC-B0029-TOUR_API-2713583"
+          ]
+        },
+        {
+          "start": 112,
+          "end": 145,
+          "doc_ids": [
+            "DOC-B0029-TOUR_API-2713583"
+          ]
+        },
+        {
+          "start": 146,
+          "end": 205,
+          "doc_ids": [
+            "DOC-B0029-TOUR_API-2713583"
+          ]
+        },
+        {
+          "start": 206,
+          "end": 240,
+          "doc_ids": [
+            "DOC-B0029-TOUR_API-2713583"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=17",
+      "text": "제주도립 김창열미술관은 ‘물방울 화가’로 널리 알려진 김창열 화백의 주옥같은 작품을 만나 볼 수 있으며, 현대미술의 발전에 이바지하는 미술작품과 자료를 전시, 연구 수집하는 것을 목적을 가지고 있다. 김창열은 미술관 건립을 위해 주요 작품 220점을 기증했다. 홍재승 건축가가 설계한 미술관 하늘에서 보면 중정을 기준으로 거대한 큐브형 건물 8개가 둘러싸인 모습이다. 이는 김창열이 추구한 회귀의 철학을 건축적으로 표현한 것이다.",
+      "sido": "제주특별자치도",
+      "sigungu": "제주시",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=17"
+      ],
+      "evidence_id": "E3",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=23",
+        "fields": {
+          "name": "제주도립 김창열미술관",
+          "sido": "제주특별자치도",
+          "sigungu": "제주시",
+          "address": "제주특별자치도 제주시 한림읍 용금로 883-5",
+          "ownership_type": "공립",
+          "adult_fee": "2000",
+          "youth_fee": "1000",
+          "child_fee": "500",
+          "adult_fee_status": "BASE_FEE_PAID",
+          "weekday_open": "09:00",
+          "weekday_close": "18:00",
+          "holiday_open": "09:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "월+1월 1일+설 연휴+추석 연휴"
+        },
+        "base_data_date": "2026-09-30",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0316",
+      "name": "여주미술관",
+      "document": "경기도 여주시에 위치해 있는 미술관이다. 2019년 개관하였으며 미술관 설립자이자 작가인 박해룡의 작품들과 수집한 미술작품 700여 점을 상시 전시하고 있다. 깔끔한 외관과 아기자기한 공간 구성으로 현대인들의 감성을 자극하는 장소이며 여주 미술관의 감성을 닮은 카페 돈키호테는 독특한 소품들로 내부를 꾸며놓았다, 미술관 감상 후 조용하고 한적하여 카페에서 잔디정원을 바라보며 휴식하기에 좋다. 수도권에서 멀지 않은 곳에 있어 주말 나들이 삼아 방문하기 손색없는 곳이다. 2019년 개관하여 시민들이 일상속에서 미술을 친근하고 편안하게 접할 수 있는 공간. 미술관에는 설립자이자 작가로 활동중인 박해룡의 작품들과 그동안 수집한 미술 작품들 700점을 상시로 전시한 공간이다.",
+      "metadata": {
+        "longitude": 127.637079,
+        "sigungu": "여주시",
+        "sido": "경기도",
+        "adult_fee": 12000.0,
+        "address": "경기도 여주시 세종로 394-36",
+        "homepage_url": "https://yeojuartmuseum.com/",
+        "child_fee": 6000.0,
+        "name": "여주미술관",
+        "holiday_close": "17:00",
+        "fee_notes": "여주시민(중복할인가능)+2000원할인(65세이상+장애인(복지카드소지자))+무료(만3세미만 어린이+군인)",
+        "weekday_open": "11:00",
+        "source_types": "BASE|TOUR_API",
+        "ownership_type": "사립",
+        "amenities_raw": "a Book Museum+카페",
+        "image_copyright": "Type3",
+        "holiday_open": "11:00",
+        "weekday_close": "17:00",
+        "closure_rule_raw": "월요일+화요일+설날당일+추석당일",
+        "adult_fee_status": "BASE_FEE_PAID",
+        "requires_manual_review": true,
+        "image_url": "http://tong.visitkorea.or.kr/cms/resource/84/2765684_image2_1.jpeg",
+        "youth_fee": 8000.0,
+        "latitude": 37.2647726,
+        "transport_notes": "여주톨게이트→여주대학교 방면→코카콜라 사거리에서 좌회전→첫 번째 골목에서 우회전"
+      },
+      "vector_rank": 19,
+      "bm25_rank": 10,
+      "vector_distance": 0.5162929892539978,
+      "vector_score": null,
+      "bm25_score": 12.931885874621624,
+      "vector_document": "경기도 여주시에 위치해 있는 미술관이다. 2019년 개관하였으며 미술관 설립자이자 작가인 박해룡의 작품들과 수집한 미술작품 700여 점을 상시 전시하고 있다. 깔끔한 외관과 아기자기한 공간 구성으로 현대인들의 감성을 자극하는 장소이며 여주 미술관의 감성을 닮은 카페 돈키호테는 독특한 소품들로 내부를 꾸며놓았다, 미술관 감상 후 조용하고 한적하여 카페에서 잔디정원을 바라보며 휴식하기에 좋다. 수도권에서 멀지 않은 곳에 있어 주말 나들이 삼아 방문하기 손색없는 곳이다. 2019년 개관하여 시민들이 일상속에서 미술을 친근하고 편안하게 접할 수 있는 공간. 미술관에는 설립자이자 작가로 활동중인 박해룡의 작품들과 그동안 수집한 미술 작품들 700점을 상시로 전시한 공간이다.",
+      "bm25_document": "경기도 여주시에 위치해 있는 미술관이다. 2019년 개관하였으며 미술관 설립자이자 작가인 박해룡의 작품들과 수집한 미술작품 700여 점을 상시 전시하고 있다. 깔끔한 외관과 아기자기한 공간 구성으로 현대인들의 감성을 자극하는 장소이며 여주 미술관의 감성을 닮은 카페 돈키호테는 독특한 소품들로 내부를 꾸며놓았다, 미술관 감상 후 조용하고 한적하여 카페에서 잔디정원을 바라보며 휴식하기에 좋다. 수도권에서 멀지 않은 곳에 있어 주말 나들이 삼아 방문하기 손색없는 곳이다. 2019년 개관하여 시민들이 일상속에서 미술을 친근하고 편안하게 접할 수 있는 공간. 미술관에는 설립자이자 작가로 활동중인 박해룡의 작품들과 그동안 수집한 미술 작품들 700점을 상시로 전시한 공간이다.",
+      "best_span_id": "chroma:M0316",
+      "best_span_text": "경기도 여주시에 위치해 있는 미술관이다. 2019년 개관하였으며 미술관 설립자이자 작가인 박해룡의 작품들과 수집한 미술작품 700여 점을 상시 전시하고 있다. 깔끔한 외관과 아기자기한 공간 구성으로 현대인들의 감성을 자극하는 장소이며 여주 미술관의 감성을 닮은 카페 돈키호테는 독특한 소품들로 내부를 꾸며놓았다, 미술관 감상 후 조용하고 한적하여 카페에서 잔디정원을 바라보며 휴식하기에 좋다. 수도권에서 멀지 않은 곳에 있어 주말 나들이 삼아 방문하기 손색없는 곳이다. 2019년 개관하여 시민들이 일상속에서 미술을 친근하고 편안하게 접할 수 있는 공간. 미술관에는 설립자이자 작가로 활동중인 박해룡의 작품들과 그동안 수집한 미술 작품들 700점을 상시로 전시한 공간이다.",
+      "fusion_score": 0.02694394213381555,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 4,
+      "rerank_score": 0.006424994207918644,
+      "rank": 4,
+      "score": 0.006424994207918644,
+      "score_type": "cross_encoder",
+      "distance": 0.5162929892539978,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0316",
+      "source_doc_ids": [
+        "DOC-B0316-TOUR_API-2766513",
+        "DOC-B0316-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0316-TOUR_API-2766513",
+          "source_type": "TOUR_API",
+          "source_record_id": "2766513",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=155",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        },
+        {
+          "doc_id": "DOC-B0316-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0316",
+          "source_locator": "data/raw/museum_base_1070.csv#row=317",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 22,
+          "doc_ids": [
+            "DOC-B0316-TOUR_API-2766513"
+          ]
+        },
+        {
+          "start": 23,
+          "end": 88,
+          "doc_ids": [
+            "DOC-B0316-TOUR_API-2766513"
+          ]
+        },
+        {
+          "start": 89,
+          "end": 219,
+          "doc_ids": [
+            "DOC-B0316-TOUR_API-2766513"
+          ]
+        },
+        {
+          "start": 220,
+          "end": 262,
+          "doc_ids": [
+            "DOC-B0316-TOUR_API-2766513"
+          ]
+        },
+        {
+          "start": 263,
+          "end": 310,
+          "doc_ids": [
+            "DOC-B0316-BASE"
+          ]
+        },
+        {
+          "start": 311,
+          "end": 376,
+          "doc_ids": [
+            "DOC-B0316-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=155",
+      "text": "경기도 여주시에 위치해 있는 미술관이다. 2019년 개관하였으며 미술관 설립자이자 작가인 박해룡의 작품들과 수집한 미술작품 700여 점을 상시 전시하고 있다. 깔끔한 외관과 아기자기한 공간 구성으로 현대인들의 감성을 자극하는 장소이며 여주 미술관의 감성을 닮은 카페 돈키호테는 독특한 소품들로 내부를 꾸며놓았다, 미술관 감상 후 조용하고 한적하여 카페에서 잔디정원을 바라보며 휴식하기에 좋다. 수도권에서 멀지 않은 곳에 있어 주말 나들이 삼아 방문하기 손색없는 곳이다. 2019년 개관하여 시민들이 일상속에서 미술을 친근하고 편안하게 접할 수 있는 공간. 미술관에는 설립자이자 작가로 활동중인 박해룡의 작품들과 그동안 수집한 미술 작품들 700점을 상시로 전시한 공간이다.",
+      "sido": "경기도",
+      "sigungu": "여주시",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=155"
+      ],
+      "evidence_id": "E4",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=229",
+        "fields": {
+          "name": "여주미술관",
+          "sido": "경기도",
+          "sigungu": "여주시",
+          "address": "경기도 여주시 세종로 394-36",
+          "ownership_type": "사립",
+          "adult_fee": "12000",
+          "youth_fee": "8000",
+          "child_fee": "6000",
+          "adult_fee_status": "BASE_FEE_PAID",
+          "weekday_open": "11:00",
+          "weekday_close": "17:00",
+          "holiday_open": "11:00",
+          "holiday_close": "17:00",
+          "closure_rule_raw": "월요일+화요일+설날당일+추석당일",
+          "amenities_raw": "a Book Museum+카페"
+        },
+        "base_data_date": "2026-05-19",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0860",
+      "name": "백영수미술관",
+      "document": "비영리재단법인 백영수미술문화재단 산하 (재)백영수미술관은 사회 환원된 공익기관으로서 1970년대부터 소유한 의정부백영수작업실 터에 설립된 의정부 1호 등록미술관임. 한국최초의 추상미술그룹인 신사실파 중 1인으로 35년간의 프랑스에서의 작품 등, 화가백영수(1922~2018)의 일생을 통해 남긴 미술작품들을 기념, 보존, 연구하며 미술문화 전시, 교육사업 등 지역 문화발전과 한국미술문화진흥에 이바지함을 목적으로 함.",
+      "metadata": {
+        "sigungu": "의정부시",
+        "ownership_type": "사립",
+        "requires_manual_review": true,
+        "amenities_raw": "남/녀 화장실",
+        "transport_notes": "· 지하철 - 1호선 망월사역 2번 출구로 나와 도보 566m(9분 소요)· 버스 - ‘안말, 병무청, 호원예비군훈련장앞’ 정류장 하차 후 도보 432m(6분 소요)(5, 7, 10, 36, 39, 39-1, 39-4, 72, 72-3, 118, 133, 106, 108, 203, 203-1, 203-2A, 206-1)· 승용차 [도봉산역 방면에서 오실 경우]평화로-평화로 243번길 새마을금고방향 좌회전 161m 직진 → 안말어린이집에서 우회전 92m직진  [회룡역 방면에서 오실 경우]평화로-평화로 243번길 새마을금고 방향 우회전 161m 직진 → 안말어린이집에서 우회전 92m직진",
+        "address": "경기도 의정부시 안말로58번안길 55-1",
+        "weekday_open": "10:00",
+        "source_types": "BASE",
+        "closure_rule_raw": "월+1월1일+설연휴+추석연휴",
+        "child_fee": 2000.0,
+        "latitude": 37.71369448,
+        "adult_fee": 5000.0,
+        "sido": "경기도",
+        "adult_fee_status": "BASE_FEE_PAID",
+        "name": "백영수미술관",
+        "youth_fee": 3000.0,
+        "homepage_url": "http://blog.naver.com/pysmuseum",
+        "holiday_open": "10:00",
+        "longitude": 127.0444385,
+        "holiday_close": "18:00",
+        "fee_notes": "의정부시민 4000원+군인 3000원+4세 미만 무료",
+        "weekday_close": "18:00"
+      },
+      "vector_rank": null,
+      "bm25_rank": 5,
+      "vector_distance": null,
+      "vector_score": null,
+      "bm25_score": 14.831217312488576,
+      "vector_document": "",
+      "bm25_document": "비영리재단법인 백영수미술문화재단 산하 (재)백영수미술관은 사회 환원된 공익기관으로서 1970년대부터 소유한 의정부백영수작업실 터에 설립된 의정부 1호 등록미술관임. 한국최초의 추상미술그룹인 신사실파 중 1인으로 35년간의 프랑스에서의 작품 등, 화가백영수(1922~2018)의 일생을 통해 남긴 미술작품들을 기념, 보존, 연구하며 미술문화 전시, 교육사업 등 지역 문화발전과 한국미술문화진흥에 이바지함을 목적으로 함.",
+      "best_span_id": "chroma:M0860",
+      "best_span_text": "비영리재단법인 백영수미술문화재단 산하 (재)백영수미술관은 사회 환원된 공익기관으로서 1970년대부터 소유한 의정부백영수작업실 터에 설립된 의정부 1호 등록미술관임. 한국최초의 추상미술그룹인 신사실파 중 1인으로 35년간의 프랑스에서의 작품 등, 화가백영수(1922~2018)의 일생을 통해 남긴 미술작품들을 기념, 보존, 연구하며 미술문화 전시, 교육사업 등 지역 문화발전과 한국미술문화진흥에 이바지함을 목적으로 함.",
+      "fusion_score": 0.015384615384615385,
+      "retrieved_by": [
+        "bm25"
+      ],
+      "fusion_rank": 11,
+      "rerank_score": 0.0033265198580920696,
+      "rank": 5,
+      "score": 0.0033265198580920696,
+      "score_type": "cross_encoder",
+      "distance": null,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "bm25"
+      ],
+      "retriever": "bm25",
+      "span_id": "chroma:M0860",
+      "source_doc_ids": [
+        "DOC-B0860-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0860-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0860",
+          "source_locator": "data/raw/museum_base_1070.csv#row=861",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 91,
+          "doc_ids": [
+            "DOC-B0860-BASE"
+          ]
+        },
+        {
+          "start": 92,
+          "end": 233,
+          "doc_ids": [
+            "DOC-B0860-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_base_1070.csv#row=861",
+      "text": "비영리재단법인 백영수미술문화재단 산하 (재)백영수미술관은 사회 환원된 공익기관으로서 1970년대부터 소유한 의정부백영수작업실 터에 설립된 의정부 1호 등록미술관임. 한국최초의 추상미술그룹인 신사실파 중 1인으로 35년간의 프랑스에서의 작품 등, 화가백영수(1922~2018)의 일생을 통해 남긴 미술작품들을 기념, 보존, 연구하며 미술문화 전시, 교육사업 등 지역 문화발전과 한국미술문화진흥에 이바지함을 목적으로 함.",
+      "sido": "경기도",
+      "sigungu": "의정부시",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_base_1070.csv#row=861"
+      ],
+      "evidence_id": "E5",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=583",
+        "fields": {
+          "name": "백영수미술관",
+          "sido": "경기도",
+          "sigungu": "의정부시",
+          "address": "경기도 의정부시 안말로58번안길 55-1",
+          "ownership_type": "사립",
+          "adult_fee": "5000",
+          "youth_fee": "3000",
+          "child_fee": "2000",
+          "adult_fee_status": "BASE_FEE_PAID",
+          "weekday_open": "10:00",
+          "weekday_close": "18:00",
+          "holiday_open": "10:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "월+1월1일+설연휴+추석연휴",
+          "amenities_raw": "남/녀 화장실"
+        },
+        "base_data_date": "2025-06-25",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    }
+  ],
+  "answer": "양주시립장욱진미술관은 한국 근현대미술을 대표하는 장욱진의 업적과 정신을 기리고, 한국현대미술의 발전에 이바지하기 위해 미술작품과 자료를 전시·연구·수집합니다. [E1]",
+  "retrieval_status": "ok",
+  "answer_status": "answered",
+  "route": "hybrid",
+  "retry_count": 0,
+  "supervisor_verified": true,
+  "rerank_applied": true,
+  "retriever_errors": [],
+  "warnings": [],
+  "duration_ms": 133789.39,
+  "error_type": "",
+  "hit_at_1": 1,
+  "hit_at_3": 1,
+  "hit_at_5": 1,
+  "recall_at_5": 1.0,
+  "mrr_at_10": 1.0
+}

@@ -1,0 +1,721 @@
+{
+  "mode": "supervisor_full",
+  "question_id": "Q224",
+  "evidence": [
+    {
+      "museum_id": "M0378",
+      "name": "벽봉한국장신구박물관",
+      "document": "벽봉한국장신구박물관은 한국 전통문화의 격조와 품격을 알리기 위하여 2014년 무형유산이 설립한 1종 전문 박물관이다. 선시대 왕실과 반가에서 사용한 한국의 전통장신구와 옥공예품에 관련된 작품을 전시하고 있다. 박물관의 소장품은 대부분 국가무형유산 옥장 김영희 선생님의 작품으로, 조선시대 왕실에서 사용된 궁중 장신구의 복원, 복제한 작품과 문양을 응용한 현대 창작품이 주를 이루고 있다. 이러한 특성을 살려 문화유산과 전통기술에 대한 가치를 향유하고 보편화를 위한 노력을 통해 전통문화에 대한 친밀함을 높이고자 한다.",
+      "metadata": {
+        "holiday_open": "10:00",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/41/3353841_image2_1.jpg",
+        "sigungu": "파주시",
+        "weekday_close": "18:00",
+        "youth_fee": 4000.0,
+        "weekday_open": "10:00",
+        "source_types": "TOUR_API",
+        "image_copyright": "Type3",
+        "longitude": 126.7000613546,
+        "child_fee": 4000.0,
+        "adult_fee": 6000.0,
+        "holiday_close": "18:00",
+        "latitude": 37.787630289,
+        "name": "벽봉한국장신구박물관",
+        "address": "경기도 파주시 탄현면 헤이리마을길 48-38",
+        "sido": "경기도",
+        "closure_rule_raw": "월요일+화요일",
+        "ownership_type": "사립",
+        "adult_fee_status": "BASE_FEE_PAID",
+        "requires_manual_review": true
+      },
+      "vector_rank": 1,
+      "bm25_rank": 1,
+      "vector_distance": 0.37859511375427246,
+      "vector_score": null,
+      "bm25_score": 30.808777883534905,
+      "vector_document": "벽봉한국장신구박물관은 한국 전통문화의 격조와 품격을 알리기 위하여 2014년 무형유산이 설립한 1종 전문 박물관이다. 선시대 왕실과 반가에서 사용한 한국의 전통장신구와 옥공예품에 관련된 작품을 전시하고 있다. 박물관의 소장품은 대부분 국가무형유산 옥장 김영희 선생님의 작품으로, 조선시대 왕실에서 사용된 궁중 장신구의 복원, 복제한 작품과 문양을 응용한 현대 창작품이 주를 이루고 있다. 이러한 특성을 살려 문화유산과 전통기술에 대한 가치를 향유하고 보편화를 위한 노력을 통해 전통문화에 대한 친밀함을 높이고자 한다.",
+      "bm25_document": "벽봉한국장신구박물관은 한국 전통문화의 격조와 품격을 알리기 위하여 2014년 무형유산이 설립한 1종 전문 박물관이다. 선시대 왕실과 반가에서 사용한 한국의 전통장신구와 옥공예품에 관련된 작품을 전시하고 있다. 박물관의 소장품은 대부분 국가무형유산 옥장 김영희 선생님의 작품으로, 조선시대 왕실에서 사용된 궁중 장신구의 복원, 복제한 작품과 문양을 응용한 현대 창작품이 주를 이루고 있다. 이러한 특성을 살려 문화유산과 전통기술에 대한 가치를 향유하고 보편화를 위한 노력을 통해 전통문화에 대한 친밀함을 높이고자 한다.",
+      "best_span_id": "chroma:M0378",
+      "best_span_text": "벽봉한국장신구박물관은 한국 전통문화의 격조와 품격을 알리기 위하여 2014년 무형유산이 설립한 1종 전문 박물관이다. 선시대 왕실과 반가에서 사용한 한국의 전통장신구와 옥공예품에 관련된 작품을 전시하고 있다. 박물관의 소장품은 대부분 국가무형유산 옥장 김영희 선생님의 작품으로, 조선시대 왕실에서 사용된 궁중 장신구의 복원, 복제한 작품과 문양을 응용한 현대 창작품이 주를 이루고 있다. 이러한 특성을 살려 문화유산과 전통기술에 대한 가치를 향유하고 보편화를 위한 노력을 통해 전통문화에 대한 친밀함을 높이고자 한다.",
+      "fusion_score": 0.03278688524590164,
+      "retrieved_by": [
+        "vector",
+        "bm25"
+      ],
+      "fusion_rank": 1,
+      "name_match": true,
+      "rerank_score": 0.9999123811721802,
+      "rank": 1,
+      "score": 0.9999123811721802,
+      "score_type": "cross_encoder",
+      "distance": 0.37859511375427246,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector",
+        "bm25"
+      ],
+      "retriever": "hybrid",
+      "span_id": "chroma:M0378",
+      "source_doc_ids": [
+        "DOC-B0378-TOUR_API-2551447"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0378-TOUR_API-2551447",
+          "source_type": "TOUR_API",
+          "source_record_id": "2551447",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=179",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 65,
+          "doc_ids": [
+            "DOC-B0378-TOUR_API-2551447"
+          ]
+        },
+        {
+          "start": 66,
+          "end": 116,
+          "doc_ids": [
+            "DOC-B0378-TOUR_API-2551447"
+          ]
+        },
+        {
+          "start": 117,
+          "end": 216,
+          "doc_ids": [
+            "DOC-B0378-TOUR_API-2551447"
+          ]
+        },
+        {
+          "start": 217,
+          "end": 289,
+          "doc_ids": [
+            "DOC-B0378-TOUR_API-2551447"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=179",
+      "text": "벽봉한국장신구박물관은 한국 전통문화의 격조와 품격을 알리기 위하여 2014년 무형유산이 설립한 1종 전문 박물관이다. 선시대 왕실과 반가에서 사용한 한국의 전통장신구와 옥공예품에 관련된 작품을 전시하고 있다. 박물관의 소장품은 대부분 국가무형유산 옥장 김영희 선생님의 작품으로, 조선시대 왕실에서 사용된 궁중 장신구의 복원, 복제한 작품과 문양을 응용한 현대 창작품이 주를 이루고 있다. 이러한 특성을 살려 문화유산과 전통기술에 대한 가치를 향유하고 보편화를 위한 노력을 통해 전통문화에 대한 친밀함을 높이고자 한다.",
+      "sido": "경기도",
+      "sigungu": "파주시",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=179"
+      ],
+      "evidence_id": "E1",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=274",
+        "fields": {
+          "name": "벽봉한국장신구박물관",
+          "sido": "경기도",
+          "sigungu": "파주시",
+          "address": "경기도 파주시 탄현면 헤이리마을길 48-38",
+          "ownership_type": "사립",
+          "adult_fee": "6000",
+          "youth_fee": "4000",
+          "child_fee": "4000",
+          "adult_fee_status": "BASE_FEE_PAID",
+          "weekday_open": "10:00",
+          "weekday_close": "18:00",
+          "holiday_open": "10:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "월요일+화요일"
+        },
+        "base_data_date": "2026-06-22",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0647",
+      "name": "세계장신구박물관",
+      "document": "2004년에 개관한 세계장신구박물관은 2013년에 프랑스의 루브르 박물관, 미국의 메트로 폴리탄 뮤지움과 함께 ‘세계에서 가장 아름다운 10대 박물관’, 2015년에는 미국의 스미소니언 박물관, 영국 왕실박물관과 함께 ‘죽기 전에 봐야 할 세계 5대 보석박물관’으로 선정되었다. 경복궁의 숨소리가 들리는 북촌 심장부에 위치한 세계장신구박물관은 시인이자 수필가인 이강원 관장이 외교관의 아내로 세계 곳곳에서 수집한 전통 장신구 1,000여 점이 둥지를 틀고 있는 곳이다. 세계 어디에서도 찾아보기 힘든 장신구의 집결지라는 의미 외에도 독특하고 아름다운 건물과 전시기법으로 ‘서울의 장신구’라는 애칭까지 얻었다. 김승회 서울대학교 건축학과 교수는 두텁게 주름잡은 동판, 내후성 강판, 적삼목, 유리 등으로 외벽을 감싸고 스테인리스 통판문을 달아 아름다우면서도 중후한 건물을 소장품에 선물했다. 전시는 9개의 테마로 나누어져 있는데 북촌의 오밀조밀하고 정겨운 골목길을 건물 안으로 끌어들여 또 다른 재미를 연출했다. 5천만 년 이상 지구의 숨결을 담고 있는 호박벽, 16세기 유럽 사람들을 홀리게 했던 엘도라도 황금의 방, 마음의 결을 가다듬어 주는 십자가 방, 명상에 들게 하는 마스크 벽, 등불의 숲을 거니는 듯한 근대장신구의 방, 반지 벽 등을 감상할 수 있다. 사전 예약제로 운영된다.",
+      "metadata": {
+        "ownership_type": "사립",
+        "requires_manual_review": true,
+        "holiday_close": "17:00",
+        "adult_fee": 7000.0,
+        "homepage_url": "http://www.wjmuseum.com/",
+        "source_types": "TOUR_API",
+        "child_fee": 3000.0,
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/63/3574663_image2_1.jpg",
+        "address": "서울특별시 종로구 북촌로5나길 2(화동)",
+        "adult_fee_status": "BASE_FEE_PAID",
+        "holiday_open": "11:00",
+        "longitude": 126.9818046,
+        "sido": "서울특별시",
+        "sigungu": "종로구",
+        "name": "세계장신구박물관",
+        "youth_fee": 5000.0,
+        "image_copyright": "Type3",
+        "weekday_close": "17:00",
+        "closure_rule_raw": "월요일+화요일",
+        "latitude": 37.580936,
+        "weekday_open": "11:00"
+      },
+      "vector_rank": null,
+      "bm25_rank": 2,
+      "vector_distance": null,
+      "vector_score": null,
+      "bm25_score": 22.116740988045176,
+      "vector_document": "",
+      "bm25_document": "2004년에 개관한 세계장신구박물관은 2013년에 프랑스의 루브르 박물관, 미국의 메트로 폴리탄 뮤지움과 함께 ‘세계에서 가장 아름다운 10대 박물관’, 2015년에는 미국의 스미소니언 박물관, 영국 왕실박물관과 함께 ‘죽기 전에 봐야 할 세계 5대 보석박물관’으로 선정되었다. 경복궁의 숨소리가 들리는 북촌 심장부에 위치한 세계장신구박물관은 시인이자 수필가인 이강원 관장이 외교관의 아내로 세계 곳곳에서 수집한 전통 장신구 1,000여 점이 둥지를 틀고 있는 곳이다. 세계 어디에서도 찾아보기 힘든 장신구의 집결지라는 의미 외에도 독특하고 아름다운 건물과 전시기법으로 ‘서울의 장신구’라는 애칭까지 얻었다. 김승회 서울대학교 건축학과 교수는 두텁게 주름잡은 동판, 내후성 강판, 적삼목, 유리 등으로 외벽을 감싸고 스테인리스 통판문을 달아 아름다우면서도 중후한 건물을 소장품에 선물했다. 전시는 9개의 테마로 나누어져 있는데 북촌의 오밀조밀하고 정겨운 골목길을 건물 안으로 끌어들여 또 다른 재미를 연출했다. 5천만 년 이상 지구의 숨결을 담고 있는 호박벽, 16세기 유럽 사람들을 홀리게 했던 엘도라도 황금의 방, 마음의 결을 가다듬어 주는 십자가 방, 명상에 들게 하는 마스크 벽, 등불의 숲을 거니는 듯한 근대장신구의 방, 반지 벽 등을 감상할 수 있다. 사전 예약제로 운영된다.",
+      "best_span_id": "chroma:M0647",
+      "best_span_text": "2004년에 개관한 세계장신구박물관은 2013년에 프랑스의 루브르 박물관, 미국의 메트로 폴리탄 뮤지움과 함께 ‘세계에서 가장 아름다운 10대 박물관’, 2015년에는 미국의 스미소니언 박물관, 영국 왕실박물관과 함께 ‘죽기 전에 봐야 할 세계 5대 보석박물관’으로 선정되었다. 경복궁의 숨소리가 들리는 북촌 심장부에 위치한 세계장신구박물관은 시인이자 수필가인 이강원 관장이 외교관의 아내로 세계 곳곳에서 수집한 전통 장신구 1,000여 점이 둥지를 틀고 있는 곳이다. 세계 어디에서도 찾아보기 힘든 장신구의 집결지라는 의미 외에도 독특하고 아름다운 건물과 전시기법으로 ‘서울의 장신구’라는 애칭까지 얻었다. 김승회 서울대학교 건축학과 교수는 두텁게 주름잡은 동판, 내후성 강판, 적삼목, 유리 등으로 외벽을 감싸고 스테인리스 통판문을 달아 아름다우면서도 중후한 건물을 소장품에 선물했다. 전시는 9개의 테마로 나누어져 있는데 북촌의 오밀조밀하고 정겨운 골목길을 건물 안으로 끌어들여 또 다른 재미를 연출했다. 5천만 년 이상 지구의 숨결을 담고 있는 호박벽, 16세기 유럽 사람들을 홀리게 했던 엘도라도 황금의 방, 마음의 결을 가다듬어 주는 십자가 방, 명상에 들게 하는 마스크 벽, 등불의 숲을 거니는 듯한 근대장신구의 방, 반지 벽 등을 감상할 수 있다. 사전 예약제로 운영된다.",
+      "fusion_score": 0.016129032258064516,
+      "retrieved_by": [
+        "bm25"
+      ],
+      "fusion_rank": 4,
+      "rerank_score": 0.09020612388849258,
+      "rank": 2,
+      "score": 0.09020612388849258,
+      "score_type": "cross_encoder",
+      "distance": null,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "bm25"
+      ],
+      "retriever": "bm25",
+      "span_id": "chroma:M0647",
+      "source_doc_ids": [
+        "DOC-B0647-TOUR_API-130688"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0647-TOUR_API-130688",
+          "source_type": "TOUR_API",
+          "source_record_id": "130688",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=320",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 155,
+          "doc_ids": [
+            "DOC-B0647-TOUR_API-130688"
+          ]
+        },
+        {
+          "start": 156,
+          "end": 262,
+          "doc_ids": [
+            "DOC-B0647-TOUR_API-130688"
+          ]
+        },
+        {
+          "start": 263,
+          "end": 340,
+          "doc_ids": [
+            "DOC-B0647-TOUR_API-130688"
+          ]
+        },
+        {
+          "start": 341,
+          "end": 441,
+          "doc_ids": [
+            "DOC-B0647-TOUR_API-130688"
+          ]
+        },
+        {
+          "start": 442,
+          "end": 509,
+          "doc_ids": [
+            "DOC-B0647-TOUR_API-130688"
+          ]
+        },
+        {
+          "start": 510,
+          "end": 650,
+          "doc_ids": [
+            "DOC-B0647-TOUR_API-130688"
+          ]
+        },
+        {
+          "start": 651,
+          "end": 664,
+          "doc_ids": [
+            "DOC-B0647-TOUR_API-130688"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=320",
+      "text": "2004년에 개관한 세계장신구박물관은 2013년에 프랑스의 루브르 박물관, 미국의 메트로 폴리탄 뮤지움과 함께 ‘세계에서 가장 아름다운 10대 박물관’, 2015년에는 미국의 스미소니언 박물관, 영국 왕실박물관과 함께 ‘죽기 전에 봐야 할 세계 5대 보석박물관’으로 선정되었다. 경복궁의 숨소리가 들리는 북촌 심장부에 위치한 세계장신구박물관은 시인이자 수필가인 이강원 관장이 외교관의 아내로 세계 곳곳에서 수집한 전통 장신구 1,000여 점이 둥지를 틀고 있는 곳이다. 세계 어디에서도 찾아보기 힘든 장신구의 집결지라는 의미 외에도 독특하고 아름다운 건물과 전시기법으로 ‘서울의 장신구’라는 애칭까지 얻었다. 김승회 서울대학교 건축학과 교수는 두텁게 주름잡은 동판, 내후성 강판, 적삼목, 유리 등으로 외벽을 감싸고 스테인리스 통판문을 달아 아름다우면서도 중후한 건물을 소장품에 선물했다. 전시는 9개의 테마로 나누어져 있는데 북촌의 오밀조밀하고 정겨운 골목길을 건물 안으로 끌어들여 또 다른 재미를 연출했다. 5천만 년 이상 지구의 숨결을 담고 있는 호박벽, 16세기 유럽 사람들을 홀리게 했던 엘도라도 황금의 방, 마음의 결을 가다듬어 주는 십자가 방, 명상에 들게 하는 마스크 벽, 등불의 숲을 거니는 듯한 근대장신구의 방, 반지 벽 등을 감상할 수 있다. 사전 예약제로 운영된다.",
+      "sido": "서울특별시",
+      "sigungu": "종로구",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=320"
+      ],
+      "evidence_id": "E2",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=444",
+        "fields": {
+          "name": "세계장신구박물관",
+          "sido": "서울특별시",
+          "sigungu": "종로구",
+          "address": "서울특별시 종로구 북촌로5나길 2(화동)",
+          "ownership_type": "사립",
+          "adult_fee": "7000",
+          "youth_fee": "5000",
+          "child_fee": "3000",
+          "adult_fee_status": "BASE_FEE_PAID",
+          "weekday_open": "11:00",
+          "weekday_close": "17:00",
+          "holiday_open": "11:00",
+          "holiday_close": "17:00",
+          "closure_rule_raw": "월요일+화요일"
+        },
+        "base_data_date": "2025-11-01",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0642",
+      "name": "한국색동박물관",
+      "document": "창덕궁과 종로3가역 사이에 위치한 한국색동박물관은 색동 연구가 김옥현의 30여 년간의 색동에 관한 연구와 그동안의 유물 수집을 바탕으로 2014년 3월 5일 개관하였다. 한국색동박물관은 전통한옥 양식과 현대적인 공간이 어우러지도록 설계하였으며 한국의 음양오행 상생 소멸의 철학이 있는 색동의 의미를 담아 한국색동박물관이라 지었다. 박물관은 혼례복과 돌복을 비롯한 색동 관련 유물을 1,000여 점 소장하고 있으며 박물관이 주체하는 다양한 색동 유물전시를 기획·연구·교육하고 있다. 지하 1층에 위치한 제1전시실은 색동 유물 관련 전시가 이루어지는 곳이다. 지상 1층에는 제2전시실이 있고 색동 패션디자인과 현대화한 색동 디자인 제품을 전시하고 있다. 그 옆으로 뮤지엄숍이 자리하고 있다. 지상 2층에는 제3전시실과 색동 자료실과 사무실이 있다. 전시실에는 다양한 장신구와 한복을 체험해 볼 수 있는 작은 공간이 마련되어 있다. 박물관에서는 4명 이하의 소규모 그룹으로 교육 프로그램을 운영한다.",
+      "metadata": {
+        "homepage_url": "https://www.saekdongmuseum.com",
+        "weekday_open": "10:30",
+        "youth_fee": 2000.0,
+        "address": "서울특별시 종로구 율곡로10길 85-7(권농동)",
+        "latitude": 37.573843,
+        "ownership_type": "사립",
+        "sido": "서울특별시",
+        "longitude": 126.9920895,
+        "holiday_open": "00:00",
+        "child_fee": 2000.0,
+        "name": "한국색동박물관",
+        "closure_rule_raw": "월요일+일요일+공휴일",
+        "holiday_close": "00:00",
+        "source_types": "TOUR_API",
+        "adult_fee": 3000.0,
+        "weekday_close": "18:00",
+        "image_copyright": "Type3",
+        "adult_fee_status": "BASE_FEE_PAID",
+        "requires_manual_review": true,
+        "sigungu": "종로구",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/28/3013028_image2_1.jpg"
+      },
+      "vector_rank": null,
+      "bm25_rank": 10,
+      "vector_distance": null,
+      "vector_score": null,
+      "bm25_score": 12.98296401043138,
+      "vector_document": "",
+      "bm25_document": "창덕궁과 종로3가역 사이에 위치한 한국색동박물관은 색동 연구가 김옥현의 30여 년간의 색동에 관한 연구와 그동안의 유물 수집을 바탕으로 2014년 3월 5일 개관하였다. 한국색동박물관은 전통한옥 양식과 현대적인 공간이 어우러지도록 설계하였으며 한국의 음양오행 상생 소멸의 철학이 있는 색동의 의미를 담아 한국색동박물관이라 지었다. 박물관은 혼례복과 돌복을 비롯한 색동 관련 유물을 1,000여 점 소장하고 있으며 박물관이 주체하는 다양한 색동 유물전시를 기획·연구·교육하고 있다. 지하 1층에 위치한 제1전시실은 색동 유물 관련 전시가 이루어지는 곳이다. 지상 1층에는 제2전시실이 있고 색동 패션디자인과 현대화한 색동 디자인 제품을 전시하고 있다. 그 옆으로 뮤지엄숍이 자리하고 있다. 지상 2층에는 제3전시실과 색동 자료실과 사무실이 있다. 전시실에는 다양한 장신구와 한복을 체험해 볼 수 있는 작은 공간이 마련되어 있다. 박물관에서는 4명 이하의 소규모 그룹으로 교육 프로그램을 운영한다.",
+      "best_span_id": "chroma:M0642",
+      "best_span_text": "창덕궁과 종로3가역 사이에 위치한 한국색동박물관은 색동 연구가 김옥현의 30여 년간의 색동에 관한 연구와 그동안의 유물 수집을 바탕으로 2014년 3월 5일 개관하였다. 한국색동박물관은 전통한옥 양식과 현대적인 공간이 어우러지도록 설계하였으며 한국의 음양오행 상생 소멸의 철학이 있는 색동의 의미를 담아 한국색동박물관이라 지었다. 박물관은 혼례복과 돌복을 비롯한 색동 관련 유물을 1,000여 점 소장하고 있으며 박물관이 주체하는 다양한 색동 유물전시를 기획·연구·교육하고 있다. 지하 1층에 위치한 제1전시실은 색동 유물 관련 전시가 이루어지는 곳이다. 지상 1층에는 제2전시실이 있고 색동 패션디자인과 현대화한 색동 디자인 제품을 전시하고 있다. 그 옆으로 뮤지엄숍이 자리하고 있다. 지상 2층에는 제3전시실과 색동 자료실과 사무실이 있다. 전시실에는 다양한 장신구와 한복을 체험해 볼 수 있는 작은 공간이 마련되어 있다. 박물관에서는 4명 이하의 소규모 그룹으로 교육 프로그램을 운영한다.",
+      "fusion_score": 0.014285714285714285,
+      "retrieved_by": [
+        "bm25"
+      ],
+      "fusion_rank": 18,
+      "rerank_score": 0.0031176465563476086,
+      "rank": 3,
+      "score": 0.0031176465563476086,
+      "score_type": "cross_encoder",
+      "distance": null,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "bm25"
+      ],
+      "retriever": "bm25",
+      "span_id": "chroma:M0642",
+      "source_doc_ids": [
+        "DOC-B0642-TOUR_API-3013281"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0642-TOUR_API-3013281",
+          "source_type": "TOUR_API",
+          "source_record_id": "3013281",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=318",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 94,
+          "doc_ids": [
+            "DOC-B0642-TOUR_API-3013281"
+          ]
+        },
+        {
+          "start": 95,
+          "end": 184,
+          "doc_ids": [
+            "DOC-B0642-TOUR_API-3013281"
+          ]
+        },
+        {
+          "start": 185,
+          "end": 268,
+          "doc_ids": [
+            "DOC-B0642-TOUR_API-3013281"
+          ]
+        },
+        {
+          "start": 269,
+          "end": 310,
+          "doc_ids": [
+            "DOC-B0642-TOUR_API-3013281"
+          ]
+        },
+        {
+          "start": 311,
+          "end": 363,
+          "doc_ids": [
+            "DOC-B0642-TOUR_API-3013281"
+          ]
+        },
+        {
+          "start": 364,
+          "end": 384,
+          "doc_ids": [
+            "DOC-B0642-TOUR_API-3013281"
+          ]
+        },
+        {
+          "start": 385,
+          "end": 416,
+          "doc_ids": [
+            "DOC-B0642-TOUR_API-3013281"
+          ]
+        },
+        {
+          "start": 417,
+          "end": 462,
+          "doc_ids": [
+            "DOC-B0642-TOUR_API-3013281"
+          ]
+        },
+        {
+          "start": 463,
+          "end": 500,
+          "doc_ids": [
+            "DOC-B0642-TOUR_API-3013281"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=318",
+      "text": "창덕궁과 종로3가역 사이에 위치한 한국색동박물관은 색동 연구가 김옥현의 30여 년간의 색동에 관한 연구와 그동안의 유물 수집을 바탕으로 2014년 3월 5일 개관하였다. 한국색동박물관은 전통한옥 양식과 현대적인 공간이 어우러지도록 설계하였으며 한국의 음양오행 상생 소멸의 철학이 있는 색동의 의미를 담아 한국색동박물관이라 지었다. 박물관은 혼례복과 돌복을 비롯한 색동 관련 유물을 1,000여 점 소장하고 있으며 박물관이 주체하는 다양한 색동 유물전시를 기획·연구·교육하고 있다. 지하 1층에 위치한 제1전시실은 색동 유물 관련 전시가 이루어지는 곳이다. 지상 1층에는 제2전시실이 있고 색동 패션디자인과 현대화한 색동 디자인 제품을 전시하고 있다. 그 옆으로 뮤지엄숍이 자리하고 있다. 지상 2층에는 제3전시실과 색동 자료실과 사무실이 있다. 전시실에는 다양한 장신구와 한복을 체험해 볼 수 있는 작은 공간이 마련되어 있다. 박물관에서는 4명 이하의 소규모 그룹으로 교육 프로그램을 운영한다.",
+      "sido": "서울특별시",
+      "sigungu": "종로구",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=318"
+      ],
+      "evidence_id": "E3",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=442",
+        "fields": {
+          "name": "한국색동박물관",
+          "sido": "서울특별시",
+          "sigungu": "종로구",
+          "address": "서울특별시 종로구 율곡로10길 85-7(권농동)",
+          "ownership_type": "사립",
+          "adult_fee": "3000",
+          "youth_fee": "2000",
+          "child_fee": "2000",
+          "adult_fee_status": "BASE_FEE_PAID",
+          "weekday_open": "10:30",
+          "weekday_close": "18:00",
+          "holiday_open": "00:00",
+          "holiday_close": "00:00",
+          "closure_rule_raw": "월요일+일요일+공휴일"
+        },
+        "base_data_date": "2025-11-01",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M0224",
+      "name": "동강사진박물관",
+      "document": "2005년 7월에 개관한 동강사진박물관은 국내 최초 사진마을 선언을 통해 사진의 고장으로 거듭난 영월이 사진마을로서 그 역할을 수행하고 신활력 사업인 박물관 고을의 육성 발전을 위해 건립한 문화 기반 시설이다. 박물관은 3개의 전시실과 야외회랑, 다목적 강당을 갖추고 있다. 박물관 소장품으로는 1940년대부터 1980년대까지 한국사진을 대표하는 다큐멘터리사진가들의 대표작품과 2002년부터 매년 개최하는 동강국제사진제에 참여한 작가 및 동강사진상 수상작가들로부터 기증받은 작품, 강원다큐멘터리 사진사업 관련 작품과 영월군민의 기증 사진 등 약 1,500여 점의 사진작품과 130여 점의 클래식 카메라가 있다. 국내 최초의 공립사진박물관으로서 지난 2005년 7월에 개관한 동강사진박물관은 국내 최초 사진마을 선언을 통해사진의고장으로 거듭난 영월이 사진마을로서 그 역할을 수행하고 신활력 사업인 박물관 고을의 육성 발전을 위해건립한 문화 기반시설입니다.",
+      "metadata": {
+        "child_fee": 1000.0,
+        "source_types": "BASE|TOUR_API",
+        "image_copyright": "Type1",
+        "closure_rule_raw": "월",
+        "adult_fee_status": "BASE_FEE_PAID",
+        "weekday_open": "09:00",
+        "longitude": 128.461504,
+        "holiday_open": "09:00",
+        "fee_notes": "영월군민 : 50 프로 할인+단체요금 : 20인 이상",
+        "name": "동강사진박물관",
+        "requires_manual_review": true,
+        "holiday_close": "18:00",
+        "ownership_type": "공립",
+        "adult_fee": 2000.0,
+        "youth_fee": 1500.0,
+        "sido": "강원특별자치도",
+        "sigungu": "영월군",
+        "address": "강원특별자치도 영월군 영월읍 영월로 1909-10",
+        "weekday_close": "18:00",
+        "latitude": 37.18193994,
+        "homepage_url": "http://www.dgphotomuseum.com",
+        "image_url": "https://tong.visitkorea.or.kr/cms/resource/35/4108835_image2_1.jpg"
+      },
+      "vector_rank": null,
+      "bm25_rank": 11,
+      "vector_distance": null,
+      "vector_score": null,
+      "bm25_score": 12.475494227444464,
+      "vector_document": "",
+      "bm25_document": "2005년 7월에 개관한 동강사진박물관은 국내 최초 사진마을 선언을 통해 사진의 고장으로 거듭난 영월이 사진마을로서 그 역할을 수행하고 신활력 사업인 박물관 고을의 육성 발전을 위해 건립한 문화 기반 시설이다. 박물관은 3개의 전시실과 야외회랑, 다목적 강당을 갖추고 있다. 박물관 소장품으로는 1940년대부터 1980년대까지 한국사진을 대표하는 다큐멘터리사진가들의 대표작품과 2002년부터 매년 개최하는 동강국제사진제에 참여한 작가 및 동강사진상 수상작가들로부터 기증받은 작품, 강원다큐멘터리 사진사업 관련 작품과 영월군민의 기증 사진 등 약 1,500여 점의 사진작품과 130여 점의 클래식 카메라가 있다. 국내 최초의 공립사진박물관으로서 지난 2005년 7월에 개관한 동강사진박물관은 국내 최초 사진마을 선언을 통해사진의고장으로 거듭난 영월이 사진마을로서 그 역할을 수행하고 신활력 사업인 박물관 고을의 육성 발전을 위해건립한 문화 기반시설입니다.",
+      "best_span_id": "chroma:M0224",
+      "best_span_text": "2005년 7월에 개관한 동강사진박물관은 국내 최초 사진마을 선언을 통해 사진의 고장으로 거듭난 영월이 사진마을로서 그 역할을 수행하고 신활력 사업인 박물관 고을의 육성 발전을 위해 건립한 문화 기반 시설이다. 박물관은 3개의 전시실과 야외회랑, 다목적 강당을 갖추고 있다. 박물관 소장품으로는 1940년대부터 1980년대까지 한국사진을 대표하는 다큐멘터리사진가들의 대표작품과 2002년부터 매년 개최하는 동강국제사진제에 참여한 작가 및 동강사진상 수상작가들로부터 기증받은 작품, 강원다큐멘터리 사진사업 관련 작품과 영월군민의 기증 사진 등 약 1,500여 점의 사진작품과 130여 점의 클래식 카메라가 있다. 국내 최초의 공립사진박물관으로서 지난 2005년 7월에 개관한 동강사진박물관은 국내 최초 사진마을 선언을 통해사진의고장으로 거듭난 영월이 사진마을로서 그 역할을 수행하고 신활력 사업인 박물관 고을의 육성 발전을 위해건립한 문화 기반시설입니다.",
+      "fusion_score": 0.014084507042253521,
+      "retrieved_by": [
+        "bm25"
+      ],
+      "fusion_rank": 20,
+      "rerank_score": 0.002241279697045684,
+      "rank": 4,
+      "score": 0.002241279697045684,
+      "score_type": "cross_encoder",
+      "distance": null,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "bm25"
+      ],
+      "retriever": "bm25",
+      "span_id": "chroma:M0224",
+      "source_doc_ids": [
+        "DOC-B0224-TOUR_API-130879",
+        "DOC-B0224-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B0224-TOUR_API-130879",
+          "source_type": "TOUR_API",
+          "source_record_id": "130879",
+          "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=112",
+          "match_trust": "AUTO_MATCH_NOT_HUMAN_VERIFIED"
+        },
+        {
+          "doc_id": "DOC-B0224-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B0224",
+          "source_locator": "data/raw/museum_base_1070.csv#row=225",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 117,
+          "doc_ids": [
+            "DOC-B0224-TOUR_API-130879"
+          ]
+        },
+        {
+          "start": 118,
+          "end": 153,
+          "doc_ids": [
+            "DOC-B0224-TOUR_API-130879"
+          ]
+        },
+        {
+          "start": 154,
+          "end": 341,
+          "doc_ids": [
+            "DOC-B0224-TOUR_API-130879"
+          ]
+        },
+        {
+          "start": 342,
+          "end": 477,
+          "doc_ids": [
+            "DOC-B0224-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_tourapi_with_overview.csv#row=112",
+      "text": "2005년 7월에 개관한 동강사진박물관은 국내 최초 사진마을 선언을 통해 사진의 고장으로 거듭난 영월이 사진마을로서 그 역할을 수행하고 신활력 사업인 박물관 고을의 육성 발전을 위해 건립한 문화 기반 시설이다. 박물관은 3개의 전시실과 야외회랑, 다목적 강당을 갖추고 있다. 박물관 소장품으로는 1940년대부터 1980년대까지 한국사진을 대표하는 다큐멘터리사진가들의 대표작품과 2002년부터 매년 개최하는 동강국제사진제에 참여한 작가 및 동강사진상 수상작가들로부터 기증받은 작품, 강원다큐멘터리 사진사업 관련 작품과 영월군민의 기증 사진 등 약 1,500여 점의 사진작품과 130여 점의 클래식 카메라가 있다. 국내 최초의 공립사진박물관으로서 지난 2005년 7월에 개관한 동강사진박물관은 국내 최초 사진마을 선언을 통해사진의고장으로 거듭난 영월이 사진마을로서 그 역할을 수행하고 신활력 사업인 박물관 고을의 육성 발전을 위해건립한 문화 기반시설입니다.",
+      "sido": "강원특별자치도",
+      "sigungu": "영월군",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_tourapi_with_overview.csv#row=112"
+      ],
+      "evidence_id": "E4",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=153",
+        "fields": {
+          "name": "동강사진박물관",
+          "sido": "강원특별자치도",
+          "sigungu": "영월군",
+          "address": "강원특별자치도 영월군 영월읍 영월로 1909-10",
+          "ownership_type": "공립",
+          "adult_fee": "2000",
+          "youth_fee": "1500",
+          "child_fee": "1000",
+          "adult_fee_status": "BASE_FEE_PAID",
+          "weekday_open": "09:00",
+          "weekday_close": "18:00",
+          "holiday_open": "09:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "월"
+        },
+        "base_data_date": "2026-09-03",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    },
+    {
+      "museum_id": "M1017",
+      "name": "양구군립박수근미술관",
+      "document": "박수근미술관은 박수근 선생의 손길이 담겨있는 유품과 유화, 수채화, 드로잉, 판화, 삽화 등 여러 작품을 소장하고 있으며 이를 선별하여 상설 전시 하고 있습니다. 또한 박수근 선생과 같은 시대에 활동했던 근 현대 한국 화단의 주요 작가들의 다양한 작품들을 소장하고 있으며 이를 기획 전시하고 있습니다.",
+      "metadata": {
+        "source_types": "BASE",
+        "holiday_open": "10:00",
+        "child_fee": 3000.0,
+        "name": "양구군립박수근미술관",
+        "requires_manual_review": false,
+        "adult_fee": 6000.0,
+        "sido": "강원특별자치도",
+        "longitude": 127.9815765,
+        "weekday_close": "18:00",
+        "homepage_url": "http://www.parksookeun.or.kr/",
+        "ownership_type": "공립",
+        "weekday_open": "10:00",
+        "fee_notes": "지역상품권 환급(일반·개인)+6세이하+65세 이상+장애인+국민기초생활수급자+명예군민 등 면제+양구군민+호수문화권+병역명문가+단체관람 등 50 감면+다자녀가정 30 감면",
+        "closure_rule_raw": "월",
+        "holiday_close": "18:00",
+        "sigungu": "양구군",
+        "amenities_raw": "뮤지엄숍+연못+창작스튜디오 등",
+        "address": "강원특별자치도 양구군 양구읍 박수근로 265-15",
+        "latitude": 38.0962413,
+        "youth_fee": 3000.0,
+        "adult_fee_status": "BASE_FEE_PAID"
+      },
+      "vector_rank": 2,
+      "bm25_rank": null,
+      "vector_distance": 0.47707319259643555,
+      "vector_score": null,
+      "bm25_score": null,
+      "vector_document": "박수근미술관은 박수근 선생의 손길이 담겨있는 유품과 유화, 수채화, 드로잉, 판화, 삽화 등 여러 작품을 소장하고 있으며 이를 선별하여 상설 전시 하고 있습니다. 또한 박수근 선생과 같은 시대에 활동했던 근 현대 한국 화단의 주요 작가들의 다양한 작품들을 소장하고 있으며 이를 기획 전시하고 있습니다.",
+      "bm25_document": "",
+      "best_span_id": null,
+      "best_span_text": null,
+      "fusion_score": 0.016129032258064516,
+      "retrieved_by": [
+        "vector"
+      ],
+      "fusion_rank": 3,
+      "rerank_score": 0.0015019765123724937,
+      "rank": 5,
+      "score": 0.0015019765123724937,
+      "score_type": "cross_encoder",
+      "distance": 0.47707319259643555,
+      "relevance": null,
+      "relevance_reason": null,
+      "retrievers": [
+        "vector"
+      ],
+      "retriever": "vector",
+      "source_doc_ids": [
+        "DOC-B1017-BASE"
+      ],
+      "source_scope": "text",
+      "source_documents": [
+        {
+          "doc_id": "DOC-B1017-BASE",
+          "source_type": "BASE",
+          "source_record_id": "B1017",
+          "source_locator": "data/raw/museum_base_1070.csv#row=1018",
+          "match_trust": "BASE_SOURCE"
+        }
+      ],
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 90,
+          "doc_ids": [
+            "DOC-B1017-BASE"
+          ]
+        },
+        {
+          "start": 91,
+          "end": 168,
+          "doc_ids": [
+            "DOC-B1017-BASE"
+          ]
+        }
+      ],
+      "source_urls": [],
+      "source_locator": "data/raw/museum_base_1070.csv#row=1018",
+      "text": "박수근미술관은 박수근 선생의 손길이 담겨있는 유품과 유화, 수채화, 드로잉, 판화, 삽화 등 여러 작품을 소장하고 있으며 이를 선별하여 상설 전시 하고 있습니다. 또한 박수근 선생과 같은 시대에 활동했던 근 현대 한국 화단의 주요 작가들의 다양한 작품들을 소장하고 있으며 이를 기획 전시하고 있습니다.",
+      "sido": "강원특별자치도",
+      "sigungu": "양구군",
+      "span_id": "",
+      "chunk_id": "",
+      "source_locators": [
+        "data/raw/museum_base_1070.csv#row=1018"
+      ],
+      "evidence_id": "E5",
+      "metadata_provenance": {
+        "source_kind": "derived_csv_row",
+        "source_locator": "data/processed/museum_final_738.csv#record=699",
+        "fields": {
+          "name": "양구군립박수근미술관",
+          "sido": "강원특별자치도",
+          "sigungu": "양구군",
+          "address": "강원특별자치도 양구군 양구읍 박수근로 265-15",
+          "ownership_type": "공립",
+          "adult_fee": "6000",
+          "youth_fee": "3000",
+          "child_fee": "3000",
+          "adult_fee_status": "BASE_FEE_PAID",
+          "weekday_open": "10:00",
+          "weekday_close": "18:00",
+          "holiday_open": "10:00",
+          "holiday_close": "18:00",
+          "closure_rule_raw": "월",
+          "amenities_raw": "뮤지엄숍+연못+창작스튜디오 등"
+        },
+        "base_data_date": "2025-08-05",
+        "trust": "derived_dataset_not_human_verified"
+      }
+    }
+  ],
+  "answer": "벽봉한국장신구박물관 소장품은 대부분 국가무형유산 옥장 김영희 선생님의 작품입니다. 조선시대 왕실에서 사용된 궁중 장신구를 복원·복제한 작품과, 전통 문양을 응용한 현대 창작품이 주를 이룹니다. [E1]",
+  "retrieval_status": "ok",
+  "answer_status": "answered",
+  "route": "hybrid",
+  "retry_count": 0,
+  "supervisor_verified": true,
+  "rerank_applied": true,
+  "retriever_errors": [],
+  "warnings": [],
+  "duration_ms": 134743.99,
+  "error_type": "",
+  "hit_at_1": 1,
+  "hit_at_3": 1,
+  "hit_at_5": 1,
+  "recall_at_5": 1.0,
+  "mrr_at_10": 1.0
+}
