@@ -73,6 +73,11 @@ CARD_CSS = """<style>
 .st-key-theme_kpis .kpi.accent .v, .st-key-theme_kpis .kpi:hover .v { color: var(--navy); }
 .st-key-theme_kpis .kpi.accent .k, .st-key-theme_kpis .kpi.accent .s,
 .st-key-theme_kpis .kpi:hover .k, .st-key-theme_kpis .kpi:hover .s { color: #2E4A5C; opacity:1; }
+/* 테마 선택 버튼도 아래 KPI 와 같은 하늘색 톤 (기본은 앱 주색인 진한 빨강) */
+.st-key-theme_pick button[aria-checked="true"] { background:#D6E3EA !important; border-color:#94B2C4 !important; }
+.st-key-theme_pick button[aria-checked="true"] p { color: var(--navy) !important; font-weight:500; }
+.st-key-theme_pick button[aria-checked="false"]:hover { background:#EBF1F4 !important; border-color:#94B2C4 !important; }
+.st-key-theme_pick button[aria-checked="false"]:hover p { color: var(--navy) !important; }
 .theme-intro { font-size:15px; color:var(--muted); margin:-6px 0 22px; }
 </style>"""
 

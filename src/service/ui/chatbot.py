@@ -189,6 +189,10 @@ def _answer(query: str, hits: list[dict], graph: "kg.GraphResult | None" = None)
         yield f"\n\n⚠️ 답변 생성에 실패했어요 ({type(e).__name__}). `.env` 의 OPENAI_CHAT_MODEL 값과 API 키를 확인해 주세요.\n\n> {e}"
 
 
+# 대화 초기화 때만 잠깐 넣는 스타일: 대화 박스를 위로 살짝 올리며 투명하게 (keyframes 는 style.py 의 chat-out)
+FADE_OUT = '<style>[data-testid="stChatMessage"] { animation: chat-out .4s ease forwards !important; }</style>'
+
+
 def render(df: pd.DataFrame) -> None:
     S.page_header(["Home", "Chatbot"], "MUSEUM CHAT", "박물관에 대해 무엇이든 물어보세요")
 
@@ -199,10 +203,9 @@ def render(df: pd.DataFrame) -> None:
     )
     head_l, head_r = st.columns([3, 1])
     head_l.markdown(status, unsafe_allow_html=True)
-    if head_r.button("대화 초기화", key="chat_reset"):  # 모양은 style.py 의 .st-key-chat_reset
-        st.session_state.chat = []
-
     st.session_state.setdefault("chat", [])
+    # 초기화는 바로 지우지 않고, 이번 실행에서 대화 박스를 서서히 사라지게 한 뒤 비운다 (아래 FADE_OUT)
+    fading = head_r.button("대화 초기화", key="chat_reset") and bool(st.session_state.chat)  # 모양: style.py
 
     # 화면 배치: [대화 내역] 위 → [추천 질문 + 입력창] 아래.
     # 대화 자리를 먼저 잡아 두고(빈 컨테이너), 입력 위젯을 그 아래에 그린 뒤 대화를 채운다.
@@ -217,10 +220,16 @@ def render(df: pd.DataFrame) -> None:
     query = typed or st.session_state.pop("chat_prefill", None)
 
     with conversation:
+        if fading:
+            st.html(FADE_OUT)
         for m in st.session_state.chat:
             with st.chat_message(m["role"], avatar=AVATAR.get(m["role"])):
                 _render_md(m["content"])
                 _render_extras(m)
+        if fading:  # 사라지는 애니메이션(0.4초)이 끝난 뒤 대화를 비우고 다시 그린다
+            time.sleep(0.45)
+            st.session_state.chat = []
+            st.rerun()
         if not query:
             return
 
@@ -235,9 +244,15 @@ def render(df: pd.DataFrame) -> None:
 
 
 def _render_extras(m: dict) -> None:
-    """답변 아래 부가 정보: 참고한 박물관 칩 → 근거 지식그래프 → 생성된 Cypher 토글."""
+    """답변 아래 부가 정보: 참고한 박물관 칩 → 검색 과정 토글 → 근거 지식그래프 → 생성된 Cypher 토글.
+
+    지식그래프 그림과 Cypher 는 지식그래프 검색을 실제로 써서 결과가 있었던 답변에만 나온다.
+    """
     if m.get("sources"):
         st.markdown(m["sources"], unsafe_allow_html=True)
+    if m.get("process"):
+        with st.expander("검색 과정 보기"):
+            _render_process(m["process"])
     graph = m.get("graph")
     if not graph:  # 그래프를 쓰지 않은 답변이면 아무것도 표시하지 않는다
         return
@@ -322,9 +337,65 @@ def _guarded_reply(query: str, df: pd.DataFrame) -> dict:
             if used_graph else None
         ),
         "blocked": False,
+        "process": _process(hits, graph, used_graph, cited),
     }
     _render_extras(reply)
     return reply
+
+
+# ── 검색 과정 보기 (요구사항: 화면에서 검색 경로·근거 확인) ──
+def _clip(text: str, limit: int) -> str:
+    """길면 자르고 뒤에 '...' 를 붙인다."""
+    text = str(text or "").strip()
+    return text if len(text) <= limit else text[:limit].rstrip() + "..."
+
+
+def _process(hits: list[dict], graph, used_graph, cited: list[dict]) -> dict:
+    """이 답변을 어떻게 찾았는지: 검색 경로·고른 이유·단계·근거 자료."""
+    if used_graph:
+        route = "벡터 검색 + 지식그래프 검색 (Neo4j)"
+        why = "질문에 지역·조건·관계가 필요하다고 판단해 지식그래프를 함께 조회함"
+    elif graph is None:
+        route = "벡터 검색"
+        why = "지식그래프가 필요 없는 질문으로 판단해 벡터 검색만 사용함"
+    elif graph.error:
+        route = "벡터 검색"
+        why = f"지식그래프 조회에 실패해({graph.error}) 벡터 검색만 사용함"
+    else:
+        route = "벡터 검색"
+        why = "지식그래프를 조회했지만 결과가 없어 벡터 검색만 사용함"
+    graph_names = {str(m.get("name")) for m in (used_graph.museums if used_graph else [])}
+    evidence = []
+    for h in cited[:5]:
+        name = str(h.get("name") or "")
+        evidence.append({
+            "name": name,
+            "by": "지식그래프" if name in graph_names else "벡터 검색",
+            "text": _clip(h.get("text") or h.get("description") or "", 160),
+            "url": str(h.get("homepage_url") or ""),
+        })
+    steps = ["입력 가드레일 통과", "지식그래프 필요 여부 판단 · 벡터 검색 (동시에)"]
+    if used_graph:
+        steps.append(f"지식그래프 조회 ({len(used_graph.rows)}행)")
+    steps += ["답변 작성", "출력 가드레일 통과"]
+    return {"route": route, "route_reason": why, "steps": steps, "hits": len(hits), "evidence": evidence}
+
+
+def _render_process(p: dict) -> None:
+    lines = [
+        f"**검색 경로**: {p['route']}",
+        f"**경로를 고른 이유**: {p['route_reason']}",
+        "**단계**: " + " → ".join(p["steps"]),
+    ]
+    st.markdown("  \n".join(lines))
+    if p.get("evidence"):
+        st.markdown("**근거 자료**")
+        for ev in p["evidence"]:
+            url = ev.get("url", "")
+            name = f"[{ev['name']}]({url})" if url.startswith(("http://", "https://")) else ev["name"]
+            st.markdown(f"- {name}" + (f" — {escape(ev['text'], quote=False)}" if ev.get("text") else "")
+                        + f"  \n  <span style='font-size:12px;color:#5E6B73'>{escape(ev['by'])}</span>",
+                        unsafe_allow_html=True)
 
 
 def _reveal(text: str, slot, seconds: float = 1.2) -> None:
