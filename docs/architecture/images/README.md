@@ -4,6 +4,7 @@
 
 | 이미지 | 상태 | 내용 |
 |---|---|---|
+| [architecture-overview.png](architecture-overview.png) | **2026-11-16 추가 (README용)** | 전체 구성도. 사용자·Streamlit·LangGraph 파이프라인·모델·DB·데이터 수집·평가를 로고와 함께 한 장에 담음. Vector 직접 검색, UI 대체 경로, 온톨로지 조회표 같은 세부 경로는 생략 |
 | [evidence-context-flow-mermaid.png](evidence-context-flow-mermaid.png) | **2026-11-16 Mermaid 렌더링** | [Mermaid 원본](../evidence-context-flow.mmd)에서 직접 생성. [SVG](evidence-context-flow-mermaid.svg)는 확대해도 선명하게 볼 수 있음 |
 | [evidence-context-flow.png](evidence-context-flow.png) | **2026-11-16 현재 근거 전달 흐름** | Supervisor 검색 → 출처 연결 → 공통 JSON 근거 → 답변·검증 및 별도 RAGAS. [생성 스크립트](draw_evidence_context_flow.py) |
 | [supervisor-hybrid-flow-clarified.png](supervisor-hybrid-flow-clarified.png) | **2026-11-14 기준으로 갱신** | 입력 가드레일 → 경로 선택(4가지) → Hybrid 검색(0단계 온톨로지 후보 필터, Vector·BM25, RRF, 이름 보장, Cross-Encoder) 또는 Graph → 출처 연결 → 답변 → 검증(재시도·보류) → 출력 가드레일. 주황색이 이번에 추가된 부분 |
