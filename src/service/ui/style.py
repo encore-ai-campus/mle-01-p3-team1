@@ -1,5 +1,8 @@
 """팔레트·전역 CSS·공용 HTML 조각."""
+import base64
+from functools import lru_cache
 from html import escape
+from pathlib import Path
 
 import plotly.graph_objects as go
 import plotly.io as pio
@@ -304,10 +307,26 @@ def inject_css() -> None:
     st.html(CSS)
 
 
+LOGO_PATH = Path(__file__).resolve().parents[1] / "static" / "logo.png"
+
+
+@lru_cache(maxsize=1)
+def _logo_src() -> str:
+    """로고를 data URI 로 직접 넣는다.
+
+    /app/static/ 주소는 .streamlit/config.toml(enableStaticServing)을 읽어야 열리는데, Streamlit 은 이 설정을
+    '명령을 실행한 폴더' 기준으로 찾아서 다른 폴더에서 실행하면 로고가 깨졌다. 파일을 직접 읽으면 어디서 실행해도 보인다.
+    """
+    try:
+        return "data:image/png;base64," + base64.b64encode(LOGO_PATH.read_bytes()).decode()
+    except OSError:
+        return "app/static/logo.png"
+
+
 def topbar(alt: str = "mupick") -> None:
-    """상단 로고 (src/service/static/logo.png → /app/static/logo.png)."""
+    """상단 로고 (src/service/static/logo.png)."""
     st.markdown(
-        f'<div class="topbar"><img class="brand-logo" src="app/static/logo.png" alt="{escape(alt)}"></div>',
+        f'<div class="topbar"><img class="brand-logo" src="{_logo_src()}" alt="{escape(alt)}"></div>',
         unsafe_allow_html=True,
     )
 
