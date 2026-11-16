@@ -11,4 +11,4 @@
 uv run jupyter lab notebooks/vector_db/vector_db_builder.ipynb
 ```
 
-실행 전 `.env`의 `OPENAI_API_KEY`, 노트북의 DB 경로·컬렉션·쓰기 셀을 확인하세요. 임베딩 API 비용이 발생하며, 기존 Chroma DB를 쓰는 평가가 끝나기 전에는 같은 경로에 구축하지 마세요. 새 클론에는 Git에서 제외된 Chroma 인덱스 파일이 없을 수 있으므로 완전한 폴더를 팀에서 받거나 새 환경에서 구축해야 합니다.
+실행 전 `.env`의 `OPENAI_API_KEY`, 노트북의 DB 경로·컬렉션·쓰기 셀을 확인하세요. 임베딩 API 비용이 발생하며, 기존 Chroma DB를 쓰는 평가가 끝나기 전에는 같은 경로에 구축하지 마세요. 완성된 Chroma DB(738건)는 저장소에 포함되어 있어 새로 클론해도 바로 쓸 수 있습니다. 노트북 없이 명령 한 줄로 다시 만들려면 `uv run python scripts/build_vector_db.py --force`를 사용합니다(약 10초, 같은 적재 방식).
