@@ -10,8 +10,17 @@ PROJECT_ROOT = Path(__file__).resolve().parents[3]
 CSV_PATH = PROJECT_ROOT / "data" / "processed" / "museum_final_1027.csv"
 
 # 검색/화면에서 함께 취급할 기존·축약 표기 (원본 CSV와 DB 값은 바꾸지 않는다)
-SIDO_EQUIVALENTS = SIDO_ALIAS_FAMILIES
-SIDO_ALIAS = {alias: canonical for alias, canonical in SIDO_TO_CANONICAL.items() if alias != canonical}
+# 화면 표기: 전북·전남은 옛·새 이름이 섞여 있어 익숙한 도 이름으로 보여 준다 (검색용 공용 이름은 그대로)
+DISPLAY_SIDO = {"전북특별자치도": "전라북도", "전남광주특별자치도": "전라남도"}
+SIDO_EQUIVALENTS = {
+    **SIDO_ALIAS_FAMILIES,
+    **{DISPLAY_SIDO[c]: family for c, family in SIDO_ALIAS_FAMILIES.items() if c in DISPLAY_SIDO},
+}
+SIDO_ALIAS = {
+    alias: DISPLAY_SIDO.get(canonical, canonical)
+    for alias, canonical in SIDO_TO_CANONICAL.items()
+    if alias != DISPLAY_SIDO.get(canonical, canonical)
+}
 SIDO_ALIAS.update({
     "강원특별자치도": "강원도",
     "제주특별자치도": "제주도",
@@ -21,7 +30,7 @@ SIDO_ALIAS.update({
 SIDO_ORDER = (
     "서울특별시", "부산광역시", "대구광역시", "인천광역시", "광주광역시", "대전광역시", "울산광역시",
     "세종특별자치시",
-    "경기도", "강원도", "충청북도", "충청남도", "전북특별자치도", "전남광주특별자치도",
+    "경기도", "강원도", "충청북도", "충청남도", "전라북도", "전라남도",
     "경상북도", "경상남도", "제주도",
 )
 
