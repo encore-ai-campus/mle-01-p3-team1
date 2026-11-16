@@ -44,6 +44,12 @@ def build_connected_supervisor(*, hybrid_node=None, hybrid_retriever=None, vecto
         region_theme_routing = (isinstance(HybridRAGAgent, type)
                                 and isinstance(hybrid_retriever, HybridRAGAgent)
                                 and hybrid_retriever._search_service is None)
+        # Rank tracing is opt-in. Preserve the routing check above: it must see
+        # the original HybridRAGAgent, not an instrumentation wrapper.
+        # Evaluation's precomputed/fake retrievers retain their original contract.
+        from src.observability.ranking_pipeline import rank_trace_enabled, ObservedHybridAgent
+        if rank_trace_enabled() and isinstance(hybrid_retriever, HybridRAGAgent):
+            hybrid_retriever = ObservedHybridAgent(hybrid_retriever)
         hybrid_search = adapt_hybrid_retriever(hybrid_retriever, provenance_index=provenance)
     else:
         hybrid_search = adapt_hybrid(hybrid_node, accepts_config=hybrid_accepts_config)

@@ -18,6 +18,7 @@ from __future__ import annotations
 import inspect
 import math
 from collections.abc import Callable, Mapping, Sequence
+from contextvars import copy_context
 from concurrent.futures import ThreadPoolExecutor
 from dataclasses import asdict
 from threading import Lock
@@ -217,6 +218,7 @@ class HybridSearchService:
         include_fusion_candidates: bool = False,
         include_retrieval_candidates: bool = False,
         include_full_retrieval_candidates: bool = False,
+        include_rerank_candidates: bool = False,
         restrict_to_museum_ids: Sequence[str] | None = None,
     ) -> dict[str, Any]:
         """Search once, returning final candidates and stage-level observations.
@@ -239,6 +241,12 @@ class HybridSearchService:
             raise TypeError("rerank must be a boolean")
         if not isinstance(include_full_retrieval_candidates, bool):
             raise TypeError("include_full_retrieval_candidates must be a boolean")
+        if not isinstance(include_rerank_candidates, bool):
+            raise TypeError("include_rerank_candidates must be a boolean")
+        # Existing calls remain untraced unless the separate rank option is on.
+        # This module does not import the Langfuse SDK itself.
+        from src.observability.ranking_pipeline import rank_trace_enabled, traced_actual_stage
+        capture_ranks = rank_trace_enabled()
         warnings: list[str] = []
         stages: list[dict[str, Any]] = []
 
@@ -294,16 +302,35 @@ class HybridSearchService:
 
         # 2: Independent BM25 and Vector retrieval, parallel by default.
         def get_vector() -> Any:
-            return _search_within(
-                self.vector_retriever.search, candidate_ids,
-                query=query, top_k=cfg.vector_top_k, prepared_plan=prepared_plan,
-            )
+            with traced_actual_stage("vector", requested=cfg.vector_top_k) as stage:
+                response = _search_within(
+                    self.vector_retriever.search, candidate_ids,
+                    query=query, top_k=cfg.vector_top_k, prepared_plan=prepared_plan,
+                )
+                if capture_ranks:
+                    # Diagnostics are best effort; never add search failures.
+                    try:
+                        preview, _ = _normalize_retriever_response(response, "vector")
+                        stage.record_candidates(_candidate_preview(preview, "vector"),
+                                                status="ok" if preview else "empty")
+                    except Exception:
+                        pass
+                return response
 
         def get_bm25() -> Any:
-            return _search_within(
-                self.bm25_retriever.search, candidate_ids,
-                query=query, top_k=cfg.bm25_top_k, filters=dict(filters),
-            )
+            with traced_actual_stage("bm25", requested=cfg.bm25_top_k) as stage:
+                response = _search_within(
+                    self.bm25_retriever.search, candidate_ids,
+                    query=query, top_k=cfg.bm25_top_k, filters=dict(filters),
+                )
+                if capture_ranks:
+                    try:
+                        preview, _ = _normalize_retriever_response(response, "bm25")
+                        stage.record_candidates(_candidate_preview(preview, "bm25"),
+                                                status="ok" if preview else "empty")
+                    except Exception:
+                        pass
+                return response
 
         def measured_task(task: Callable[[], Any]) -> tuple[Any, Exception | None, float]:
             task_start = perf_counter()
@@ -318,7 +345,11 @@ class HybridSearchService:
         jobs = {"vector": get_vector, "bm25": get_bm25}
         if cfg.parallel_retrieval:
             with ThreadPoolExecutor(max_workers=2, thread_name_prefix="hybrid-retrieval") as executor:
-                futures = {source: executor.submit(measured_task, task) for source, task in jobs.items()}
+                # Pass Langfuse/OTel parent context into both worker threads.
+                # Preserve original thread behavior when rank tracing is off.
+                futures = {source: executor.submit(copy_context().run, measured_task, task)
+                           if capture_ranks else executor.submit(measured_task, task)
+                           for source, task in jobs.items()}
                 for source, future in futures.items():
                     response, error, elapsed = future.result()
                     retrieval_ms[source] = elapsed
@@ -356,7 +387,10 @@ class HybridSearchService:
 
         # 3: Weighted Reciprocal Rank Fusion. No LLM calls here.
         stage_start = perf_counter()
-        fused = fuse_rrf(vector_hits, bm25_hits, config=cfg)
+        with traced_actual_stage("rrf", requested=cfg.fusion_top_k) as stage:
+            fused = fuse_rrf(vector_hits, bm25_hits, config=cfg)
+            if capture_ranks:
+                stage.record_candidates(fused, status="ok" if fused else "empty")
         stages.append({
             "stage": "rrf_fusion",
             "status": "ok" if fused else "empty",
@@ -365,6 +399,10 @@ class HybridSearchService:
             "returned": len(fused),
         })
 
+        # Raw RRF order may differ from the order passed to the reranker when
+        # the explicit-name promotion rule runs; capture only for opted-in traces.
+        raw_rrf_snapshot = [dict(hit) for hit in fused] if include_rerank_candidates else None
+
         # 3b: A facility named verbatim in the question is always a candidate.
         name_summary = None
         if self.name_index is not None:
@@ -372,59 +410,82 @@ class HybridSearchService:
             fused, name_summary = self._ensure_named(query, fused, candidate_ids)
             stages.append({"stage": "name_match", "duration_ms": _elapsed_ms(stage_start), **name_summary})
 
-        # 4: Cross-Encoder reranking, with explicitly reported fallback.
-        ranked: list[dict[str, Any]] = [dict(hit, rerank_score=None) for hit in fused]
-        rerank_applied = False
-        rerank_failure = False
-        rerank_low_confidence = False
-        rerank_best_score = None
-        rerank_diagnostics: dict[str, Any] = {}
-        stage_start = perf_counter()
-        if rerank and ranked:
-            try:
-                passages = [build_passage(hit, max_chars=cfg.reranker_max_chars) for hit in ranked]
-                if any(not text.strip() for text in passages):
-                    raise ValueError("at least one candidate has no name or text to rerank")
-                # A shared model is reused across graph calls; protect lazy load
-                # and prediction from concurrent use on the same model instance.
-                with self._rerank_lock:
-                    scores = self.reranker.score(query, passages)
-                    diagnostics = getattr(self.reranker, "last_score_timings", None)
-                    if isinstance(diagnostics, Mapping):
-                        rerank_diagnostics = dict(diagnostics)
-                if len(scores) != len(ranked):
-                    raise ValueError(f"reranker returned {len(scores)} scores for {len(ranked)} hits")
-                for hit, score in zip(ranked, scores):
-                    value = float(score)
-                    if not math.isfinite(value):
-                        raise ValueError("reranker produced NaN/Inf")
-                    hit["rerank_score"] = value
-                ranked.sort(key=lambda hit: (-hit["rerank_score"], hit["fusion_rank"], hit["museum_id"]))
-                rerank_applied = True
-                rerank_best_score = max(hit["rerank_score"] for hit in ranked)
-                if cfg.rerank_min_confidence > 0 and rerank_best_score < cfg.rerank_min_confidence:
-                    # No confident candidate: near-zero scores are noise, keep the RRF order.
+        # Observe the actual model execution, not a retrospective zero-duration span.
+        with traced_actual_stage("rerank", requested=len(fused)) as rerank_stage:
+            # 4: Cross-Encoder reranking, with explicitly reported fallback.
+            ranked: list[dict[str, Any]] = [dict(hit, rerank_score=None) for hit in fused]
+            rerank_applied = False
+            rerank_failure = False
+            rerank_low_confidence = False
+            rerank_best_score = None
+            rerank_diagnostics: dict[str, Any] = {}
+            stage_start = perf_counter()
+            if rerank and ranked:
+                try:
+                    passages = [build_passage(hit, max_chars=cfg.reranker_max_chars) for hit in ranked]
+                    if any(not text.strip() for text in passages):
+                        raise ValueError("at least one candidate has no name or text to rerank")
+                    # A shared model is reused across graph calls; protect lazy load
+                    # and prediction from concurrent use on the same model instance.
+                    with self._rerank_lock:
+                        scores = self.reranker.score(query, passages)
+                        diagnostics = getattr(self.reranker, "last_score_timings", None)
+                        if isinstance(diagnostics, Mapping):
+                            rerank_diagnostics = dict(diagnostics)
+                    if len(scores) != len(ranked):
+                        raise ValueError(f"reranker returned {len(scores)} scores for {len(ranked)} hits")
+                    for hit, score in zip(ranked, scores):
+                        value = float(score)
+                        if not math.isfinite(value):
+                            raise ValueError("reranker produced NaN/Inf")
+                        hit["rerank_score"] = value
+                    ranked.sort(key=lambda hit: (-hit["rerank_score"], hit["fusion_rank"], hit["museum_id"]))
+                    rerank_applied = True
+                    rerank_best_score = max(hit["rerank_score"] for hit in ranked)
+                    if cfg.rerank_min_confidence > 0 and rerank_best_score < cfg.rerank_min_confidence:
+                        # No confident candidate: near-zero scores are noise, keep the RRF order.
+                        ranked.sort(key=lambda hit: hit["fusion_rank"])
+                        rerank_low_confidence = True
+                except Exception as exc:
+                    if cfg.rerank_failure_policy == "raise":
+                        raise RuntimeError(f"Cross-Encoder reranking failed ({type(exc).__name__})") from exc
+                    warnings.append(f"Cross-Encoder reranking failed ({type(exc).__name__}); RRF order retained")
+                    rerank_failure = True
+                    for hit in ranked:
+                        hit["rerank_score"] = None
                     ranked.sort(key=lambda hit: hit["fusion_rank"])
-                    rerank_low_confidence = True
-            except Exception as exc:
-                if cfg.rerank_failure_policy == "raise":
-                    raise RuntimeError(f"Cross-Encoder reranking failed ({type(exc).__name__})") from exc
-                warnings.append(f"Cross-Encoder reranking failed ({type(exc).__name__}); RRF order retained")
-                rerank_failure = True
-                for hit in ranked:
-                    hit["rerank_score"] = None
-                ranked.sort(key=lambda hit: hit["fusion_rank"])
-        stages.append({
-            "stage": "cross_encoder_rerank",
-            "status": ("failed_fallback" if rerank_failure else "low_confidence_rrf_order" if rerank_low_confidence
-                       else "ok" if rerank_applied else "skipped"),
-            "duration_ms": _elapsed_ms(stage_start),
-            "requested": len(fused) if rerank else 0,
-            "returned": len(ranked),
-            "best_score": rerank_best_score,
-            "min_confidence": cfg.rerank_min_confidence,
-            **rerank_diagnostics,
-        })
+            stages.append({
+                "stage": "cross_encoder_rerank",
+                "status": ("failed_fallback" if rerank_failure else "low_confidence_rrf_order" if rerank_low_confidence
+                           else "ok" if rerank_applied else "skipped"),
+                "duration_ms": _elapsed_ms(stage_start),
+                "requested": len(fused) if rerank else 0,
+                "returned": len(ranked),
+                "best_score": rerank_best_score,
+                "min_confidence": cfg.rerank_min_confidence,
+                **rerank_diagnostics,
+            })
+
+            # Preserve the model-score rank even when low confidence forces RRF order.
+            rerank_snapshot = None
+            if include_rerank_candidates or capture_ranks:
+                score_positions = {}
+                if rerank_applied:
+                    scored_order = sorted(ranked, key=lambda hit: (
+                        -hit["rerank_score"], hit["fusion_rank"], hit["museum_id"]))
+                    score_positions = {str(hit["museum_id"]): i for i, hit in enumerate(scored_order, 1)}
+                rerank_snapshot = [
+                    {"museum_id": str(hit["museum_id"]), "effective_rank": i,
+                     "model_score_rank": score_positions.get(str(hit["museum_id"])),
+                     "rerank_score": hit.get("rerank_score"),
+                     "fusion_rank": hit.get("fusion_rank"), "selected": i <= final_k}
+                    for i, hit in enumerate(ranked, 1)
+                ]
+            if capture_ranks and rerank_snapshot is not None:
+                rerank_status = ("failed_fallback" if rerank_failure else
+                                 "low_confidence_rrf_order" if rerank_low_confidence else
+                                 "ok" if rerank_applied else "skipped")
+                rerank_stage.record_candidates(rerank_snapshot, status=rerank_status)
 
         # 5: Final candidates. Do not synthesize results to reach top_k.
         results = []
@@ -517,4 +578,9 @@ class HybridSearchService:
                 "vector": [dict(hit) for hit in vector_hits],
                 "bm25": [dict(hit) for hit in bm25_hits],
             }
+        if include_rerank_candidates:
+            # Optional snapshots have no effect on the normal search response.
+            # Preserve raw RRF separate from subsequent name-based promotion.
+            response["rrf_raw_candidates"] = raw_rrf_snapshot or []
+            response["rerank_candidates"] = rerank_snapshot or []
         return response
